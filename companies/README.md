@@ -66,7 +66,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 186 | 5 | 23 | Sep 10, 2026 | 22 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 144 | 7 | 20 | Sep 17, 2026 | 13 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 142 | 4 | 12 | Aug 26, 2026 | 22 |
-| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 128 | 1 | 8 | Sep 05, 2026 | 28 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 128 | 1 | 8 | Sep 05, 2026 | 25 |
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 116 | 4 | 18 | Sep 17, 2026 | 11 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 107 | 3 | 12 | Sep 16, 2026 | 5 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 101 | 3 | 11 | Sep 02, 2026 | 5 |
@@ -137,7 +137,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Jane Street](jane-street.md) | Quant trading & hedge funds · 1,000–9,999 people | 11 | — | 2 | Aug 24, 2026 | 2 |
 | [Nuro](nuro.md) | Autonomy, automotive & mobility | 11 | — | 6 | Aug 31, 2026 | 2 |
 | [Palantir](palantir.md) | Enterprise & business software · 1,000–9,999 people | 11 | 1 | 3 | Aug 27, 2026 | 3 |
-| [Voleon](voleon.md) | Quant trading & hedge funds | 11 | — | 0 | Jun 27, 2026 | 2 |
+| [Voleon](voleon.md) | Quant trading & hedge funds | 11 | 1 | 0 | Jun 27, 2026 | 2 |
 | [Boston Consulting Group](boston-consulting-group.md) | — | 10 | — | 1 | Aug 04, 2026 | 3 |
 | [Cvs Health](cvs-health.md) | — | 10 | — | 0 | Oct 17, 2025 | 2 |
 | [Airtable](airtable.md) | Enterprise & business software · 200–999 people | 8 | — | 0 | Feb 12, 2026 | 2 |
@@ -149,7 +149,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Lead Bank](lead-bank.md) | Banks, insurers & asset managers | 7 | 1 | 0 | Apr 01, 2026 | 3 |
 | [Arista](arista.md) | Hardware, devices & networking · 1,000–9,999 people | 6 | 1 | 0 | Feb 03, 2026 | 2 |
 | [Axon](axon.md) | Hardware, devices & networking · 1,000–9,999 people | 6 | — | 0 | Mar 29, 2026 | 2 |
-| [Bobyard](bobyard.md) | Enterprise & business software · Under 200 people | 6 | — | 1 | Aug 13, 2026 | 2 |
+| [Bobyard](bobyard.md) | Enterprise & business software · Under 200 people | 6 | 1 | 1 | Aug 13, 2026 | 2 |
 | [Circle](circle.md) | Fintech, payments & crypto | 6 | 1 | 0 | Jan 19, 2026 | 2 |
 | [GEICO](geico.md) | Banks, insurers & asset managers · 10,000+ people | 6 | 1 | 0 | Apr 02, 2026 | 2 |
 | [Luma AI](luma-ai.md) | AI labs & AI infrastructure · Under 200 people | 6 | 1 | 0 | Jan 05, 2026 | 2 |
@@ -158,17 +158,17 @@ The sector and size of an employer are facts about the company rather than about
 | [Tubi](tubi.md) | — | 6 | — | 0 | Feb 16, 2026 | 2 |
 | [Wayfair](wayfair.md) | — | 6 | — | 4 | Sep 10, 2026 | 2 |
 | [Ziphq](ziphq.md) | — | 6 | — | 2 | Sep 17, 2026 | 2 |
-| [Block](block.md) | Fintech, payments & crypto · 10,000+ people | 5 | — | 0 | May 01, 2026 | 2 |
+| [Block](block.md) | Fintech, payments & crypto · 10,000+ people | 5 | 1 | 0 | May 01, 2026 | 2 |
 | [Chicago Trading](chicago-trading.md) | Quant trading & hedge funds · 200–999 people | 5 | 1 | — | — | 2 |
 | [Cursor](cursor.md) | AI labs & AI infrastructure | 5 | — | 1 | Aug 21, 2026 | 2 |
 | [Disney](disney.md) | — | 5 | — | 1 | Aug 30, 2026 | 2 |
-| [Faire](faire.md) | E-commerce & marketplaces | 5 | — | 0 | Apr 10, 2026 | 3 |
-| [Gusto](gusto.md) | Enterprise & business software · 1,000–9,999 people | 5 | — | 1 | Aug 01, 2026 | 2 |
+| [Faire](faire.md) | E-commerce & marketplaces | 5 | 1 | 0 | Apr 10, 2026 | 3 |
+| [Gusto](gusto.md) | Enterprise & business software · 1,000–9,999 people | 5 | 1 | 1 | Aug 01, 2026 | 2 |
 | [Mercor](mercor.md) | AI labs & AI infrastructure | 5 | — | 3 | Sep 03, 2026 | 2 |
-| [OKX](okx.md) | Fintech, payments & crypto · 1,000–9,999 people | 5 | — | — | — | 2 |
-| [Rokt](rokt.md) | Enterprise & business software · 200–999 people | 5 | — | 0 | Dec 06, 2025 | 3 |
+| [OKX](okx.md) | Fintech, payments & crypto · 1,000–9,999 people | 5 | 1 | — | — | 2 |
+| [Rokt](rokt.md) | Enterprise & business software · 200–999 people | 5 | 1 | 0 | Dec 06, 2025 | 3 |
 | [Sigmacomputing](sigmacomputing.md) | Developer tools, cloud & data infrastructure · 200–999 people | 5 | 1 | — | — | 2 |
-| [StackAdapt](stackadapt.md) | Enterprise & business software | 5 | — | — | — | 2 |
+| [StackAdapt](stackadapt.md) | Enterprise & business software | 5 | 1 | — | — | 2 |
 | [Thumbtack](thumbtack.md) | — | 5 | — | — | — | 2 |
 | [C3 AI](c3-ai.md) | AI labs & AI infrastructure | 4 | — | 3 | Aug 21, 2026 | 2 |
 | [Imc](imc.md) | Quant trading & hedge funds · 1,000–9,999 people | 4 | — | 1 | Aug 24, 2026 | 2 |
@@ -177,7 +177,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Cohere](cohere.md) | AI labs & AI infrastructure · 200–999 people | 3 | — | 2 | Sep 15, 2026 | 2 |
 | [Drw](drw.md) | Quant trading & hedge funds · 1,000–9,999 people | 3 | — | 0 | Oct 08, 2025 | 2 |
 | [Onemain Financial](onemain-financial.md) | — | 3 | — | — | — | 2 |
-| [Oscar Health](oscar-health.md) | Health, biotech & medical devices · 1,000–9,999 people | 3 | — | — | — | 2 |
+| [Oscar Health](oscar-health.md) | Health, biotech & medical devices · 1,000–9,999 people | 3 | 1 | — | — | 2 |
 | [Sig](sig.md) | — | 3 | — | 3 | Sep 17, 2026 | 2 |
 | [Stubhub](stubhub.md) | E-commerce & marketplaces · 1,000–9,999 people | 3 | 1 | 0 | Feb 16, 2026 | 2 |
 | [Mistral AI](mistral-ai.md) | AI labs & AI infrastructure · 200–999 people | 2 | — | 0 | Apr 16, 2026 | 2 |

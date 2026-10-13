@@ -6,97 +6,255 @@
 
 ---
 
-The most common surprise in Coinbase's Frontend Engineer loop is being rejected after finishing everything: candidates report completing all six tasks in the Execution round, then building the Domain component plus every extension the interviewer piled on, and still getting a no — because those rounds are scored on the component's API, state model, and production edges, not on whether the screen finally worked. The rounds carry their own names, Execution, Foundation, Domain, and System Design, and the two coding rounds use different rubrics that are never read out to you. Correctness is the entry fee; the offer turns on whether your prop design, state ownership, and error behavior would survive code review.
+Coinbase runs a frontend loop with named rounds, Execution, Domain, Foundation and System Design, and each one grades something different. Finishing the work is not the bar: candidates who completed all six Execution tasks, or built the Domain component plus every extension, were still rejected. Those rounds score the component's public API, its state model and how it handles failure, none of which the prompt mentions. Two more filters come from outside the rounds. An automated aptitude and work-style screen comes before any engineer, and after the loop a separate team-matching step compares finalists, which has ended processes that went well in every round.
 
-## Interview Process
+This guide breaks down each stage of the Coinbase Frontend Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 40 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Coinbase Frontend Engineer interview process
 
 <!-- guide-diagram -->
 ![Coinbase Frontend Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/coinbase--frontend-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Automated screening (asynchronous).** The track opens without a human: an AI-led recruiter conversation, a long work-style inventory (roughly 200 items in one report), and a timed cognitive test mixing verbal fill-in-the-blank, figure and matrix patterns, and numerical puzzles — one candidate reported 50 items in 30 minutes. A recruiter call sometimes follows to confirm level and team, and this is where to ask which product surface you are being routed to, since each team runs its own funnel.
+Coinbase hires frontend engineers into specific product teams. Each team runs its own funnel, and a recruiter may move a candidate to a different team or level partway through. After the automated screen comes a proctored frontend assessment, then a virtual onsite of four rounds of 45 to 60 minutes each.
 
-2. **Frontend online assessment (60-90 minutes, one sitting).** Proctored with camera and screen recording, one monitor, one tab. The most detailed report describes a React app built across seven stages: render blog posts from local JSON; add a textarea and submit that appends to state; switch to fetching posts and users from REST endpoints; show author IDs and substitute "you" for the current user; show like counts and sort descending with a most-recently-liked tie-break; add delete on your own posts; and keep the sort invariant when a new post is inserted. Lighter variants ask for a fetched list with move-up and move-down reordering, or one problem in four incremental steps where you also write the unit tests. The editor is deliberately plain — variable-name autocomplete only, autosave only between stages — and plain JavaScript avoided the package errors several candidates hit with TypeScript.
+The rounds are much the same at every level, but the bar rises with it. Mid-level candidates are judged mostly on whether the Execution and Domain code is clean and correct. Senior and staff candidates get a reusable-component prompt (a dropdown rather than a form card), a system design round that must cover every layer of a trading interface, and a project deep dive measured against the scope expected at that level.
 
-3. **Execution round (60 minutes, live).** Practical JavaScript against a supplied test suite: one report counted six business-logic tasks backed by seven test files, heavy on promise chains, async error propagation, and input validation. It grades passing the given tests and code that stays readable as tasks accumulate, not algorithmic cleverness.
+Here's what the interview process can look like:
 
-4. **Domain round (60 minutes, live build).** Build a component from a short spec, then absorb extensions. Reported prompts: a card with an input, a button, and a validation message that then grows requirements one at a time; reproducing a crypto trading interface's behavior from an animated clip, including live-updating values; and, at staff level, a reusable dropdown supporting controlled and uncontrolled usage, a clean public API, keyboard access, and auto-flipping the menu at the viewport edge. The component contract and state model are graded out loud with you, so narrate prop design and trade-offs while you type.
+- **Automated screening (asynchronous):** An AI-led recruiter conversation, a work-style inventory of around 200 items and a timed cognitive test.
+- **Frontend online assessment (60 to 90 minutes):** A proctored React app built in four to seven incremental stages, with tests at each stage.
+- **Execution round (60 minutes):** Practical JavaScript against a supplied test suite: business logic, promise chains and input validation.
+- **Domain round (60 minutes):** Build a UI component from a short spec or an animated clip, then absorb extensions live.
+- **Frontend system design (45 to 60 minutes):** A spoken architecture discussion of a signup flow or a trading interface, usually with no diagram.
+- **Foundation and hiring manager rounds (30 to 60 minutes):** Motivation, behavioral questions, a project deep dive and a direct read on your current level.
+- **Debrief and team matching:** The hiring manager decides after a debrief; a technical pass then competes for an open seat on a team.
 
-5. **Frontend system design (45-60 minutes, verbal).** No diagrams required in reported sessions — a spoken architecture conversation with deep follow-ups on every answer. Reported prompts: design a signup form, branching into A/B testing hooks, validation strategy, and trade-offs; and design the frontend of a real-time trading platform, covering framework choice, component libraries, state management, loading and error states, list virtualization for high-frequency data, and security including cross-site scripting and token handling. Listing technologies without addressing empty states, error recovery, and performance under load loses the round.
+> **Tip:** Say every design decision out loud as you type it: controlled or uncontrolled, where state lives, what the user sees on error. Two candidates who delivered working code were rejected and were never told which rubric they had failed.
 
-6. **Foundation and hiring manager rounds (30-60 minutes).** A conversation about background, motivation for the domain, collaboration, conflict, and mentoring, plus a project deep dive. Staff candidates were pressed on whether their chosen project demonstrated staff-level ownership, and managers ask directly about current level and promotion history.
+## Automated screening
 
-7. **Debrief and team matching.** The panel debriefs to the hiring manager, who decides; unanimity is not required but raised concerns must be resolved. Feedback has arrived within two business days. A technical pass then enters team matching, where finalists are compared — a stage that has ended otherwise-clean processes.
+The first stage involves no engineer: an AI-driven recruiter screen of about 15 minutes, a work-style questionnaire of roughly 200 items on collaboration, autonomy and willingness to work hard, and a timed cognitive test mixing vocabulary fill-in-the-blank items, number patterns and figure sequences; one version had 50 questions in 30 minutes, and a later report identified it as the Criteria Cognitive Aptitude Test. A human recruiter call sometimes follows to confirm level, location and team.
 
-## What They Actually Evaluate
+Interviewers evaluate:
 
-### Coding and Algorithm
+- **Pace on the cognitive test:** Questions are not hard individually, but skipping quickly matters more than getting any single item right.
+- **Consistency in the work-style inventory:** It probes the same traits, such as intensity, ownership and directness, from several angles.
+- **Motivation for the domain:** You need a clear reason for wanting to work in crypto and financial products, not general interest.
 
-Two graded coding surfaces — the multi-stage assessment and the Execution round — roughly two hours combined. Problems are medium and product-shaped: fetching, deriving, sorting with tie-breaks, mutating lists, chaining promises, validating input. Signal comes from making each new requirement land without regressing earlier ones and from handling empty, delayed, and malformed responses; it is lost by rewriting your state shape mid-exercise, debugging silently, and burning minutes on tooling friction.
+Take one timed practice aptitude test beforehand, and ask the recruiter which product surface the role supports.
 
-- [Frontend OA — Render Blog Posts (Multi-Stage CodeSignal)](https://trueinterview.io/questions/fe-render-blog-posts-oa)
+### Sample questions for the automated screening
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and the frontend work you own today.
+- Why Coinbase, and why now?
+- Which level are you at today, and when were you last promoted?
+
+## Online assessment
+
+The frontend assessment is proctored with camera and screen recording, and allows one monitor and one browser tab. The fullest report describes a React app built in seven stages. You display blog posts from local JSON, then add a textarea that appends a post to state, then switch to fetching posts and users from REST endpoints. Next you show author IDs, with "you" in place of the current user's ID, then sort by likes descending with the most recently liked post first on ties. The last stages add delete on your own posts and keep that sort order when a new post is inserted. Lighter variants ask for a fetched list with move-up and move-down buttons (React, Vue or Angular were allowed), or one problem in four steps where unit tests must pass before the next step opens.
+
+The editor autocompletes variable names only, copy-paste is limited, and work autosaves only when a stage is completed; one candidate's tab froze and the stage had to be rewritten from memory. Plain JavaScript avoided the package errors several candidates hit with TypeScript.
+
+Interviewers evaluate:
+
+- **Requirements that stay working:** Each new stage must pass without breaking earlier ones, such as a sort that still holds after an insert.
+- **Data handling:** Correct merging of posts and users, empty and slow responses, and a deterministic tie-break.
+- **State shape:** A model that absorbs a switch from local data to fetched data without a rewrite.
+- **Speed in a bare editor:** Typing imports and boilerplate without help, and recovering quickly from environment problems.
+
+Do one timed run of a staged React exercise in a plain editor with no extensions and no paste, choosing JavaScript unless TypeScript is required.
+
+> **Note:** The final stage is the one candidates most often get wrong. A new post with zero likes goes to the end, but a post that ties on likes must be ordered by the time of its most recent like. Store that timestamp in your model from the stage that introduces likes.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Show posts from local JSON, then fetch posts and users from APIs and show "you" for the current user's posts.
+- Sort posts by likes descending with a most-recently-liked tie-break, and keep that order when the user publishes a new post.
+- Fetch a list from an endpoint and add buttons that move any item up or down, with the live preview updating.
+
+- [Blog Posts Feed (Multi-Stage Assessment)](https://trueinterview.io/questions/fe-render-blog-posts-oa)
+- [Paginate forward and backward through results](https://trueinterview.io/questions/paginate-forward-and-backward-through-results)
+- [Moving Average over a Sliding Window](https://trueinterview.io/questions/404adef3-580e-58ed-80ed-37af565360df)
+
+## Execution round
+
+Execution is a 60-minute live coding round in plain JavaScript, built around business logic rather than algorithms. One candidate got six tasks backed by seven sets of test cases, mostly promise chains, error propagation across async steps, and input validation. Readability of the growing file counts as much as passing tests. Related engineering rounds asked which line a future maintainer would most likely break.
+
+Interviewers evaluate:
+
+- **Passing the supplied tests:** You run them often, and you read a failing assertion before changing code.
+- **Async correctness:** Promise chains that reject properly, no unhandled errors, and sequencing that matches the spec.
+- **Validation at the edges:** Empty, malformed and out-of-range input handled on purpose, not by accident.
+- **Narrated edge cases:** Saying which cases the tests do not cover and how your code handles them.
+
+Practice timed business-logic tasks with async chains in plain JavaScript, writing your own edge-case tests as you go.
+
+### Sample questions for the Execution round
+
+Here are some questions reported by recent candidates:
+
+- Chain several asynchronous steps so that a failure in any step surfaces one meaningful error to the caller.
+- Implement a series of business rules against provided test files, each task building on the last.
+- Return a running average over the last k values, then say whether the structure is safe for concurrent callers.
+
+- [Execution Task with Promise Chains](https://trueinterview.io/questions/7296b5d5-6b1c-4ff1-ae43-012cb3886ad1)
 - [Log File Parser](https://trueinterview.io/questions/log-file-parser)
-- [NFT Feature Generation](https://trueinterview.io/questions/nft-feature-generation)
+- [AI Enhanced Pilot — Domain (AI-Assisted Coding Round)](https://trueinterview.io/questions/ai-enhanced-pilot-domain)
+
+## Domain round
+
+The Domain round is a 60-minute live UI build. Mid-level prompts start small, such as a card with an input, a button and a validation message, and the interviewer adds requirements one at a time. Another candidate was shown an animated clip of a crypto trading interface and asked to rebuild its behavior, including values that update live. At staff level the prompt was a reusable dropdown that works both controlled and uncontrolled. It needed a clean public API and keyboard navigation, and the menu had to flip when it opened near the edge of the viewport.
+
+You are graded on the component's design more than on whether it finally works. The clip defines behavior and state changes, not pixels, and nobody reported being scored on visual fidelity.
+
+Interviewers evaluate:
+
+- **Public API design:** Few props, sensible defaults, and events instead of reaching into the component's internals.
+- **State ownership:** Which state the parent controls, which the component keeps, and how a parent-driven reset works.
+- **Composable validation:** Rules kept separate from markup so that each new rule is a one-line change.
+- **Accessibility and production edges:** Keyboard and focus handling, ARIA roles, viewport collision, and loading and error states.
+- **Absorbing extensions:** Each new requirement fits the existing structure without a rewrite.
+
+Practice building a form card and a dropdown from an empty file in under 40 minutes each, explaining the API trade-offs as you go.
+
+> **Note:** Completing everything does not mean passing. A candidate who finished the card plus every extension was rejected, and another was told they were a very strong candidate after rebuilding the trading interface and was still not selected. Treat the visible requirements as the minimum, and spend the remaining time on accessibility, error states and the component's API.
+
+### Sample questions for the Domain round
+
+Here are some questions reported by recent candidates:
+
+- Build a card with an input, a submit button and a validation message, then extend it as new rules and states are added.
+- Rebuild the behavior of a crypto trading screen from an animated clip, including live-updating prices.
+- Design a reusable dropdown that works controlled or uncontrolled, supports full keyboard use and flips at the viewport edge.
+
+- [Frontend Domain — Card / Validation Component to Mockup](https://trueinterview.io/questions/fe-domain-card-component)
+- [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution)
 - [Interleave Iterator](https://trueinterview.io/questions/interleave-iterator)
 
-### Low-Level Design
+## Frontend system design interview
 
-The Domain round is component API design in disguise. Points come from a small, honest public interface: controlled and uncontrolled modes, sensible defaults, events instead of internal reach-ins, state owned at the right level. Points go for a component that renders correctly but cannot be reused — validation welded into markup, no keyboard path, no story for the viewport edge or a parent-driven reset. One candidate delivered every requirement plus every extension and was still rejected, which is the clearest evidence that completion is not the rubric.
+The design round is a spoken architecture conversation of 45 to 60 minutes. Reported sessions required no diagram, so everything you want credit for has to be said. Prompts include a signup form, which leads into validation strategy, A/B-testing hooks and trade-offs, and the frontend of a crypto trading platform. For the trading prompt, candidates covered framework and component-library choice, reusable components, state management, error handling, loading and skeleton states, and an implementation plan. Performance meant virtualization, memoization and bundle splitting, and security meant cross-site scripting and token handling.
 
-- [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution)
-- [Frontend Domain — Card / Validation Component to Mockup](https://trueinterview.io/questions/fe-domain-card-component)
-- [Query Pagination](../../questions/object-oriented-programming/query-pagination/README.md)
+At staff level the trading prompt expects breadth, and each dimension left out cost points. Live price pages appear across Coinbase's design rounds, so prepare streaming updates and the choice between WebSockets and polling.
 
-### System Design
+Interviewers evaluate:
 
-One verbal round, and because nothing is drawn, your narration is the entire artifact. Interviewers probe every branch: why this state library, what renders when the socket drops, how a ten-thousand-row order book stays smooth, where tokens live, how the signup experiment is bucketed and measured. Trading and live-price scenarios recur across this round and the Domain round, so real-time update handling, virtualization, and graceful degradation should be rehearsed before the loop.
+- **Coverage you volunteer:** Empty, loading, error and stale-data states raised before you are asked.
+- **Real-time handling:** Socket reconnects, throttling of fast price ticks, and rendering long lists without dropping frames.
+- **State architecture:** What lives on the server, what is client cache and what is local UI state, and why.
+- **Security in a financial app:** Where tokens live, XSS defenses, and safe handling of user input.
+- **Experimentation:** How a signup variant is bucketed, measured and rolled back.
 
-- [Frontend System Design — Signup Form](https://trueinterview.io/questions/fe-sd-signup-form)
-- [System Design — Coinbase Explore (Real-Time Price Dashboard)](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price)
+Rehearse a signup flow and a trading screen as 45-minute monologues covering every layer above.
 
-### Behavioral and Leadership
+> **Tip:** Outline every subsystem in the first five minutes, then go deep where the interviewer pulls. Candidates who used a generic template or went deep on one area ran out of time before covering the dimensions the round is scored on.
 
-One manager conversation, sometimes joined by a separate project deep dive. Expect motivation for the domain, a cross-functional conflict, a mentoring example, and an unusually direct read on level: the project you present is measured against the scope expected at your band, and staff candidates were told when it fell short. Quality varies — one manager screen ran 15 minutes short with questions read off a list — so bring the story fully structured rather than expecting to be drawn out.
+### Sample questions for the frontend system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a signup form, including validation, A/B testing and the trade-offs of each choice.
+- Architect the frontend of a crypto trading platform: stack, reusable components, state, errors, loading, performance and security.
+- Design an explore page showing live asset prices that stays responsive under heavy update traffic.
+
+- [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form)
+- [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price)
+- [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system)
+
+## Foundation and hiring manager interview
+
+The Foundation round is a conversation with the hiring manager about past experience, motivation and standard behavioral topics. Senior and staff loops add a project deep dive, often with architecture diagrams, where the interviewer keeps asking about your role, key decisions, trade-offs and what you would redesign. Managers ask your current level and promotion history directly. One told a candidate their project was not a business-critical service, and a staff candidate concluded that a smaller project gave too little to discuss at that level. Recent rounds also ask about daily AI-tool use, testing philosophy, and decisions under uncertainty.
+
+Interviewer style varies from closely engaged to terse and blunt, so come with stories already fully structured.
+
+Interviewers evaluate:
+
+- **Scope that matches the level:** The project you choose must show the ownership and impact expected at your target band.
+- **Business criticality:** Who depended on the work, and what would have broken without it.
+- **Collaboration under disagreement:** A specific conflict with design, product or backend, and how it was resolved.
+- **Judgment with AI tools:** How you use them and how you check what they produce.
+
+Prepare one large project for the deep dive with a diagram, metrics and the alternatives you rejected, plus four or five tagged stories.
+
+### Sample questions for the Foundation and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through your most significant project, then explain what you would change with unlimited resources.
+- Describe a time you disagreed with a colleague in code review and how it ended.
+- How do you use AI in your day-to-day workflow?
+- When is it acceptable not to write tests?
 
 - [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive)
+- [Present a Previous Project Deep Dive](https://trueinterview.io/questions/present-a-previous-project-deep-dive)
+- [Describe cross-team collaboration on past projects](https://trueinterview.io/questions/describe-cross-team-collaboration-on-past-projects)
+- [Show culture add at Coinbase](https://trueinterview.io/questions/show-culture-add-at-coinbase)
 
-## What They Don't Test
+## How Coinbase levels and evaluates Frontend Engineer candidates
 
-- Algorithm grinding. No frontend candidate reported a hard graph or dynamic-programming problem; the closest thing is a sort with a tie-break. What is rewarded is finishing a realistic feature under a clock.
-- Type-system perfectionism. Plain JavaScript was the safer assessment choice and exact annotations mattered less than product behavior. What is rewarded is correct behavior at the edges of the data.
-- Design fidelity. Nobody was scored on pixel accuracy against the mockup or the animated clip; the clip specifies behavior. What is rewarded is reproducing interactions and state transitions.
-- Diagram craft. Reported design sessions required no drawing at all. What is rewarded is spoken depth on failure states, performance, and security.
-- Crypto knowledge. Trading interfaces are scenarios, not a knowledge test. What is rewarded is handling high-frequency updates without dropping frames or losing user input.
+Each interviewer submits feedback, and the hiring manager makes the decision after a debrief. Results do not average out: candidates who passed one round were rejected on another, and two frontend candidates were rejected despite completing every task. The target level is set before the onsite and comes up again in the manager round, where current title, promotion history and project scope are tested. A candidate whose story falls short of the band can lose out to someone more experienced.
 
-## The Real Filter
+A technical pass then goes into team matching, a separate hurdle. Candidates have been closed out when a more experienced finalist was chosen or no seat was open at their level, and one senior process ended when the position was filled before the final call. Decisions arrive quickly, sometimes within two business days.
 
-The primary filter is that Domain and Execution are graded on engineering judgment the prompt never mentions. Candidates read "build a card with an input, a button, and a validation message" as the specification, complete it plus every extension, and lose on things nobody asked for out loud: whether the component is controlled or uncontrolled, whether validation is composable, whether keyboard and focus behavior exist, whether errors surface to the user or the console. The two coding rounds carry different rubrics applied unevenly, so say your design decisions aloud and name the trade-off you rejected — otherwise a defensible choice reads as an accident.
+> **Tip:** Ask the recruiter early whether the role has an open headcount at your level and how many finalists are in team matching. A clean loop does not guarantee a seat.
 
-The second filter is the verbal system design round. With no diagram to anchor it, coverage is judged purely on what you volunteer, and follow-ups keep drilling until you run out of depth. Naming a framework, a state library, and a socket fails; walking through reconnect behavior, stale-data indication, virtualization thresholds, optimistic updates, token storage, and experiment measurement passes.
+## How to prepare for the Coinbase Frontend Engineer interview
 
-The third filter is the assessment environment. One screen, one tab, limited paste, minimal autocomplete, autosave only between stages — a frozen tab cost one candidate a full rewrite from memory. Do a timed practice run in a stripped-down editor with no paste and no extensions so the platform, not your React, is the thing already debugged.
+1. **Treat every prompt as a code review:** In Execution and Domain, explain your API, state ownership and error behavior out loud; finishing the work is the minimum.
+2. **Rehearse the staged React assessment:** Build a fetch, sort-with-tie-break and insert flow in seven stages in a plain editor with no paste, in JavaScript.
+3. **Master async JavaScript:** Promise chains, error propagation, retries and validation in plain JavaScript under a test suite.
+4. **Build two components from scratch:** A validated form card and an accessible dropdown with controlled and uncontrolled modes, keyboard support and viewport flipping.
+5. **Prepare a real-time trading UI design:** Cover stack, state, streaming updates, virtualization, loading and error states, and security in one 45-minute walkthrough.
+6. **Pick a deep-dive project sized for your level:** Show business criticality, metrics and rejected alternatives, and expect questions about your promotion history.
+7. **Have AI-usage and testing answers ready:** Both now come up regularly in the manager round, and a timed cognitive practice test protects the first gate.
 
-## Data Source
+## About the Coinbase Frontend Engineer role
 
-Based on 40 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Frontend engineers at Coinbase build web and mobile surfaces for retail and institutional crypto products. The stack is React, React Native and TypeScript. The shared Coinbase Design System provides React and React Native components kept as close to identical as possible across web and mobile. Coinbase is remote-first, and its job postings describe a mission-driven culture that expects high intensity and ownership. Real-time data, security and regulation shape most product decisions.
 
-## FAQ
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC3 | Well-scoped features with guidance | Parts of one product surface |
+| IC4 (Software Engineer) | End-to-end delivery of user-facing features | A team's product area |
+| IC5 (Senior Software Engineer) | Technical direction for a product, mentoring, and setting the team's engineering practices | A product and its dependencies |
+| IC6 (Staff Software Engineer) | Frontend architecture and strategy across teams | Several teams or a platform |
 
-**What is the job actually like on a frontend team here?**
+Coinbase hires Frontend Engineers across its product groups. Teams include:
 
-Our reports describe the hiring loop rather than daily work, so this is context: the company is remote-first, most engineers work from home or hybrid, and teams meet in person at periodic offsites. Coordination runs through written design documents, and frontend work concentrates on consumer trading and account surfaces where real-time data and regulatory constraints shape most decisions. Pay is regarded as strong; pace is the trade.
+- **Consumer products:** The Coinbase app, payments, Coinbase Card and staking experiences.
+- **Advanced Trade:** Professional trading interfaces with live order books and charts.
+- **Identity and Risk Platform:** Sign-up, verification, authentication and fraud-prevention flows.
+- **Developer Platform and Developer Experience:** Tools and APIs for building on Coinbase and its onchain products.
+- **Institutional (Prime):** Trading and custody interfaces for institutional clients.
 
-**What is the engineering culture like?**
+### Frontend Engineer experience and education requirements
 
-Mission-first and explicitly meritocratic, with published trade-offs favoring top talent over seniority and intensity over comfort. In the loop that reads as direct, sometimes blunt feedback and a preference for candidates who raise production realities — error states, accessibility, performance budgets — unprompted. AI tooling now runs deep in engineering, and the behavioral round frequently asks how you use it day to day.
+Mid-level postings ask for two to three years of building web apps and shipping user-facing features with React, JavaScript and TypeScript. Senior postings ask for five or more years of software engineering, about four of them in modern web development, and value React Native, owning reliability and latency targets, and mentoring. Postings stress shipping consumer products at scale over degrees, and the interview tests practical React and JavaScript rather than computer-science theory.
 
-**How hard is it to get in?**
+## FAQs about the Coinbase Frontend Engineer interview
 
-Hard, with the difficulty concentrated in judgment rather than problem difficulty. Only a small fraction of applicants clear resume review, the funnel runs six or more stages, and the final gate compares finalists at your level. Multiple frontend candidates who completed every task in every round were still rejected, so plan for the bar to be about how you built it.
+### How long does the Coinbase Frontend Engineer interview process take?
 
-**Which round is hardest?**
+Typically three to five weeks from the automated screen to a decision. Fast loops finished the onsite within two weeks of first contact and received an answer within two business days. Team matching can extend the timeline or end the process after a technical pass.
 
-Domain, by reported outcomes. It is where finishing everything is most often mistaken for passing, and it packs component API design, state management, accessibility, and live extension handling into one hour. Frontend system design is the runner-up, mainly because it is entirely verbal and rewards breadth of unprompted production detail.
+### What is the hardest round of the Coinbase Frontend Engineer interview?
+
+The Domain round. Candidates most often mistake finishing everything for passing there, and it packs component API design, state management, accessibility and live extensions into one hour. Frontend system design comes next, because it is spoken, broad and scored on detail you raise without being asked.
+
+### Which language should I use?
+
+Use React with plain JavaScript for the assessment unless TypeScript is required, because several candidates hit package errors with TypeScript. The Execution round is practical JavaScript, so fluency with promises and plain functions matters more than type annotations.
+
+### How much does a Coinbase Frontend Engineer make?
+
+Recent US postings list annual base salary of about $152K to $179K for mid-level Software Engineer, Frontend roles and about $186K to $219K for senior frontend roles, varying by location. Packages add equity and bonus eligibility on top of base salary.
 
 ---
 

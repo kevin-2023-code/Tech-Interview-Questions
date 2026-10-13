@@ -6,65 +6,226 @@
 
 ---
 
-The Trade Desk runs a loop that looks conventional on paper — assessment, phone screens, onsite — but the problems inside it behave differently from big-tech LeetCode drills: almost every technical exercise is a single scenario that keeps growing, and the onsite pulls its design prompts straight from ad-tech. This deep-dive goes beyond the short outline on the company page, drawing on 16 real The Trade Desk questions and 8 candidate interview reports to show what each stage contains, how it is graded, and where candidates drop out.
+The Trade Desk builds most technical rounds around one problem that keeps growing: a small in-memory system or a plain function that gains requirements level by level, from the online assessment through the phone screen. Candidates are graded on whether their first data model survives the later levels and on reading the prompt exactly, more than on exotic algorithms. The onsite adds system design tied to real-time bidding, with concrete data sizes and request rates.
 
-## Interview Process
+This guide breaks down each stage of The Trade Desk interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 8 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## The Trade Desk interview process
 
 <!-- guide-diagram -->
 ![The Trade Desk interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/tradedesk/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Cold applicants, interns, and many experienced candidates start with a CodeSignal assessment built as one multi-level problem rather than a set of unrelated questions. Candidates describe reaching "level 3 and level 4" of a tiered task, and the archetype is a small stateful system grown in sub-questions: a recipe store that needs create, read, update, and delete, then name-plus-version identity, then search, user assignment, listing every version, and rollback to an earlier version. Reported windows are typically around 90 minutes, with later levels unlocking only after the earlier ones pass, so time allocation is itself graded — candidates who polished one level and left others untouched were cut. Silence for more than a week after submission is, in practice, a rejection.
+The structure is broadly the same across tracks and offices: an assessment, one or two phone calls, and an onsite of typically three to four sessions, drawn from an internal problem bank. Early-career candidates almost always take the assessment; senior loops weight the onsite toward design (one senior candidate sat two design and two coding rounds); data science onsites become a modeling and ad-tech deep dive.
 
-**Recruiter and first phone conversation.** The first human round is usually a 30-minute call that mixes recruiting logistics with a light screen: self-introduction, why this company, what you have built, where you want your career to go, salary expectations, and a walkthrough of the remaining rounds. For some candidates this call is folded together with the technical screen into a single session that moves from background questions straight into live coding, so treat even the "HR" call as one where a shared editor might open.
+Here's what the interview process can look like:
 
-**Technical phone screen.** The second phone round is a 45–60 minute live-coding session on one problem that expands in phases. Reported prompts include a 3Sum variant, a "debugging without algorithms" exercise where the task is to fix a broken implementation rather than invent one, an interpolation function over monotonic arrays with follow-ups on out-of-range behavior (raise, clamp, or extrapolate, and which is defensible), a benchmark-distance computation over GPS trackpoints that escalated into thread-safety and then production-readiness (validation, out-of-order input, logging, testing), and a versioned in-memory key-field-value store that grew from set/get through compare-and-set, prefix scans, TTL expiry, and historical lookup. Interviewers draw from an internal bank, expect a working implementation in your language of choice, and reward an initial data model that survives the later phases. One candidate who shipped a small bug and a sub-optimal prefix scan still passed on architecture and communication, which tells you where the weight sits.
+- **Online assessment:** A timed, multi-level coding task that grows a small stateful system in stages.
+- **Recruiter call:** A short call on background, motivation, salary expectations and the remaining rounds.
+- **Technical phone screen:** Live coding on one problem that expands into concurrency, edge cases or production readiness.
+- **Coding interviews (onsite):** One or two sessions mixing classic problems with rule-heavy simulations and object-oriented structure.
+- **System design interview (onsite):** Low-latency, read-heavy ad-tech scenarios; senior loops may have two.
+- **Hiring manager interview (onsite):** Projects and behavioral questions, combined with design for senior candidates.
 
-**Onsite.** The final loop is typically three to four sessions, sometimes compressed into roughly a half day, combining coding, system design, and a hiring-manager conversation:
+> **Tip:** Before coding any multi-level task, read every requirement shown and pick a data model that can absorb versions, timestamps and ownership later. Candidates who extended a clean base finished more levels than those who optimized level one.
 
-- **Hiring manager and behavioral.** Project discussion, leadership and conflict stories, and how you handle ambiguity; for senior loops this session often doubles as a system design round.
-- **System design.** Prompts tie to the business: migrate 30–40 GB of critical data to a data center in another region while keeping reads low-latency enough for real-time bidding, design a read-heavy service over roughly 30 GB of data at about 4 million QPS with heavy precomputation, or a more generic social-feed design that interviewers steer toward sharding, caching, and fan-out trade-offs. Expect to quantify acceptable replication lag and to walk through failure modes such as a partition mid-migration.
-- **Coding, one or two sessions.** A mix of classics and logic-heavy simulations: Trapping Rain Water, the Basic Calculator progression (I, II, III) wrapped in an object-oriented evaluator that should stay extensible for new operators, and a bowling-score calculator with many intertwined conditions that reads nothing like a standard algorithm problem.
-- **Domain and OOD.** Some loops include a session on advertising-technology concepts plus an object-oriented design exercise; data-science candidates see a full real-time-bidding deep dive (exchange, DSP, bid decision, conversion prediction, offline versus online metrics).
+## Online assessment
 
-End to end, candidates typically report about a month from application to decision, with roughly a week between stages, though scheduling changes and quiet stretches are common. Written feedback after a rejection is sometimes offered on request.
+The assessment is typically a 90-minute task built as one problem in four levels. Each level unlocks only after the previous one passes its tests, and reaching level three is commonly described as the practical bar. Reported scenarios: a recipe store with create, read, update and delete, then identity by name plus version, search, user assignment, listing all versions and rollback; a cloud file store with prefix and suffix search, per-user capacity and compression; and a key-field-value database with prefix scans and time-to-live expiry.
 
-## What Candidates Report
+The difficulty is bookkeeping, not algorithms, and a misread detail can invalidate the whole data model.
 
-- Almost every technical exercise, from the assessment to the onsite, is one problem delivered in stages. Candidates who built a small, extensible model first and refactored as requirements arrived finished more levels than those who optimized the first stage.
-- Reading the prompt precisely decides outcomes more often than algorithmic skill: the name-versus-version distinction in the recipe task, and small wording details in the 3Sum variant, changed the entire data model.
-- A phone screen that starts as a plain function will often spiral into thread-safety, input validation, and deployment questions; candidates were graded on how they extended a clean base, not on the base alone.
-- Onsite design rounds are grounded in low-latency, read-heavy ad-tech scenarios with concrete numbers (tens of gigabytes, millions of QPS), and interviewers push for quantified trade-offs rather than generic architecture diagrams.
-- Interviewer styles vary within a loop: most are collaborative, but at least one usually presses hard on edge cases. Coding rounds can be cumulative, and running out of time on the last variation is not automatically disqualifying.
-- Recruiter communication is the weakest link: delayed responses, schedule changes without notice, and feedback windows that slip are common, and prolonged silence after the assessment usually means the process has ended.
+Interviewers evaluate:
 
-## Coding Questions
+- **Prompt precision:** The recipe task turned on separating a recipe's name from its version.
+- **Level coverage:** A simple working solution at every level beats a polished level one.
+- **Extensible state:** Version history kept apart from current state, ownership apart from storage.
+- **Correct accounting:** Usage updated on every add, copy and update; expired items never returned.
 
-Coding rounds favor staged, practically framed problems over pure puzzles: a function that must stay correct as constraints are added, or a simulation dense with conditions. The classics that do appear (two-pointer, 3Sum-style, sliding window, prefix sums) are expected cold so that the clock goes to follow-ups.
+Practice two or three multi-level stateful tasks against a 90-minute timer.
 
-- [Fastest Benchmark Completion in Activity](https://trueinterview.io/questions/3c61ef86-b26e-4cc4-88cf-3258acb9f8c8)
-- [Implement an Internal Database](https://trueinterview.io/questions/5099436a-db96-4384-87b7-6ea29659eed4)
-- [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578)
-- [Calculate Bowling Game Score](https://trueinterview.io/questions/130f3e31-30ed-5be4-8247-1683346d0c62)
-- [Interpolate Y-Value for Given X-Value](https://trueinterview.io/questions/f7ad40a0-87f6-4b4b-9903-e2558f1f276c)
-- [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md)
+> **Note:** Do not build full version history at level one. Candidates who started with the simplest model for the current level and extended it later ran out of time less often.
 
-## Low-Level Design Questions
+### Sample questions for the online assessment
 
-The assessment and several live rounds are really incremental object-design tasks: a small in-memory system that gains ownership, capacity limits, versioning, or rollback one level at a time. Grading rewards keeping concerns separate (ownership apart from storage, version history apart from current state) so each new level is an addition rather than a rewrite.
+Here are some questions reported by recent candidates:
+
+- Build a recipe manager keyed by name and version, then add search, user assignment, version listing and rollback.
+- Build a cloud storage system with prefix and suffix search sorted by size then name, user capacity with forced deletion, and file compression.
+- Build a key-field-value store, then add prefix search and time-to-live expiry.
 
 - [Versioned Recipe Management System](https://trueinterview.io/questions/7cc2781a-4716-537b-86f0-af8491a58f8b)
 - [Design an In-Memory Cloud Storage System (Incremental Levels)](../../questions/object-oriented-programming/design-an-in-memory-cloud-storage-system-incremental-levels/README.md)
+- [Simulation Problem Related to Basic Data Structures and Syntax](https://trueinterview.io/questions/a8b0b549-4edb-4f2c-b1ec-6b9bb7313400)
+- [Last to Be Checked](https://trueinterview.io/questions/2069bf07-0c49-475c-8ef8-9e11c443b509)
 
-## How to Prepare
+## Recruiter call
 
-- Practice multi-level problems against a timer: implement level one in minutes, skim the later levels' requirements first, and budget time so every level gets a working, if simple, solution.
-- Rehearse the "one function becomes a service" escalation — after solving, be ready to discuss immutability and locking, malformed or out-of-order input, logging, and how you would test it.
-- Build one reusable versioned key-value store from memory (set/get by timestamp, compare-and-set, prefix scan, TTL, historical get) and one file-system-style store with ownership and capacity; both archetypes recur.
-- Drill the named classics until they are reflexive — Trapping Rain Water, 3Sum variants, the Basic Calculator I–III progression — and practice wrapping a calculator in an extensible parser class hierarchy.
-- Prepare two ad-tech-flavored designs with numbers: a cross-region data migration with dual writes and a bounded replication lag, and a read-heavy precomputed serving layer at millions of QPS; know the real-time-bidding vocabulary (exchange, DSP, bid request, latency budget) even for a software role.
-- Have a concise project narrative and two conflict or disagreement stories ready; the hiring-manager session blends behavioral depth with technical judgment.
-- Expect uneven communication: confirm scheduling, follow up politely after quiet weeks, ask for feedback if rejected, and treat more than a week of post-assessment silence as a signal to move on.
+The first conversation is typically about 30 minutes and non-technical: self-introduction, why the company, past projects, career plans, salary expectations and the remaining rounds. Data science candidates walked through one project in depth (problem, model, evaluation, improvements). For some candidates the recruiter call and technical screen were a single session that moved straight into live coding.
+
+Interviewers look for:
+
+- **Motivation:** A specific reason for ad tech and this company.
+- **Project ownership:** A crisp account of a past project's problem, choices and results.
+- **Logistics:** Salary expectations, location and timeline.
+
+Keep an editor open in case the call turns technical.
+
+## Technical phone screen
+
+The phone screen is live coding, typically 45 to 60 minutes, in your language of choice, usually on one problem that expands in phases. Reported prompts: a 3Sum variant whose wording changed the approach; a debugging exercise about fixing broken code rather than inventing an algorithm; the fastest time to cover a benchmark distance across GPS trackpoints; and interpolation over monotonic arrays. One candidate's entire screen was the versioned key-field-value database, grown through compare-and-set, prefix scans, time-to-live and historical lookups.
+
+Follow-ups move to engineering judgment: the trackpoint problem escalated to thread safety and production needs (validation, out-of-order points, logging, tests), and interpolation to whether out-of-range inputs should raise, clamp or extrapolate.
+
+Interviewers evaluate:
+
+- **Working code first:** A correct baseline before optimization.
+- **Design for change:** An initial structure that absorbs new functions without a rewrite.
+- **Edge-case reasoning:** Out-of-range inputs, duplicate triplets, out-of-order data.
+- **Production thinking:** Immutability, locking, validation and testing.
+
+Practice turning a solved function into a concurrent, validated, tested component in one sitting.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given timestamped trackpoints, return the shortest time in which a target distance is covered; then make it thread-safe and production-ready.
+- Implement a versioned key-field-value store with compare-and-set, compare-and-delete, prefix scans, time-to-live and lookups at a past timestamp.
+- Interpolate a y-value over monotonic arrays and defend a policy for inputs outside the range.
+
+- [Fastest Benchmark Completion in Activity](https://trueinterview.io/questions/3c61ef86-b26e-4cc4-88cf-3258acb9f8c8)
+- [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database)
+- [Implement an Internal Database](https://trueinterview.io/questions/5099436a-db96-4384-87b7-6ea29659eed4)
+- [Interpolate Y-Value for Given X-Value](https://trueinterview.io/questions/f7ad40a0-87f6-4b4b-9903-e2558f1f276c)
+- [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578)
+
+## Coding interviews
+
+Onsite coding mixes well-known problems with condition-heavy simulations. A senior candidate got Trapping Rain Water, where the two-pointer solution was expected without hesitation, then traces through a single peak and a strictly decreasing array. The same loop asked for Basic Calculator I to III wrapped in an object-oriented evaluator that could take new operators; the candidate finished two parts and talked through the third. Another candidate scored a bowling game, a problem of interlocking rules rather than algorithms.
+
+Interviewers evaluate:
+
+- **Fluency on classics:** Optimal solutions with time left for edge cases.
+- **Class structure:** An evaluator hierarchy extensible without touching existing code.
+- **Rule handling:** Many conditions, such as strikes and spares, in readable logic.
+- **Composure:** At least one interviewer per loop tends to press hard on edge cases.
+
+Drill the named classics until automatic so the clock goes to the extension.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Compute trapped rain water in linear time and constant space, then trace edge cases.
+- Build an expression evaluator covering Basic Calculator I to III, structured for new operators.
+- Calculate a bowling game's score under all the frame rules.
+
+- [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md)
+- [Calculate Bowling Game Score](https://trueinterview.io/questions/130f3e31-30ed-5be4-8247-1683346d0c62)
+- [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system)
+
+## System design interview
+
+Design prompts come with numbers. A senior candidate moved 30 to 40 GB of critical data to another region so real-time bidding could read it with low latency, discussing phased migration with dual writes, integrity checks without stopping writes, synchronous versus asynchronous replication, acceptable lag and a partition mid-migration. Another designed a read-heavy service over about 30 GB at roughly 4 million queries per second using precomputation. Generic prompts appear too: a photo-sharing feed with sharding, caching, celebrity accounts and fan-out trade-offs.
+
+Interviewers evaluate:
+
+- **Latency budget:** Designs that respect the milliseconds a bid decision allows.
+- **Quantification:** Numbers for lag, throughput and storage.
+- **Consistency trade-offs:** When dual writes or asynchronous replication are acceptable.
+- **Failure modes:** Partitions, cutover rollback and data validation.
+
+Prepare two ad-tech designs end to end with explicit numbers.
+
+> **Tip:** Even for a pure software role, expect a design prompt framed around real-time bidding. Knowing where the platform sits between advertisers and exchanges makes the constraints easier to reason about.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Migrate 30 to 40 GB to another region to serve low-latency bidding reads, keeping both regions in sync during cutover.
+- Design a read-heavy system over about 30 GB at around 4 million queries per second.
+- Design a photo-sharing feed, including accounts with millions of followers.
+
+## Hiring manager interview
+
+This session covers projects, team leadership, conflict and ambiguity; in senior loops it doubled as a design round. For data science candidates the onsite went deep on ad tech instead: bidding components, conversion-probability modeling, logistic regression versus tree models, class imbalance and calibration, and offline versus online metrics such as cost per acquisition and return on ad spend.
+
+Interviewers evaluate:
+
+- **Scope of impact:** Projects that match the target level.
+- **Disagreement handling:** How a technical conflict was resolved and what changed.
+- **Ambiguity:** Progress when requirements are unclear.
+- **Domain curiosity:** Engagement with how bidding works.
+
+Bring two conflict stories and one leadership story with outcomes.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a recent technical disagreement and how you resolved it.
+- For data science: how would you model conversion probability for bidding, and which metrics would you watch?
+
+## How The Trade Desk makes hiring decisions
+
+The hiring team decides after the onsite; candidates did not describe a separate committee. Partial completion is not disqualifying: candidates passed with an unfinished final variation or a bug in one function when structure and communication were strong. Scheduling and feedback windows often slip, and one rejected candidate received feedback on request.
+
+## How to prepare for the Trade Desk interview
+
+1. **Rehearse multi-level builds:** Finish a four-level stateful task in 90 minutes, passing each level's tests first.
+2. **Rebuild the two archetypes:** A versioned key-field-value store and a file store with ownership and capacity.
+3. **Read every word:** Note identity rules such as name plus version before choosing data structures.
+4. **Extend past the base case:** Discuss thread safety, validation, logging and tests after any solution.
+5. **Make classics automatic:** Trapping Rain Water, 3Sum variants and Basic Calculator I to III in an extensible design.
+6. **Prepare numeric ad-tech designs:** A cross-region migration with bounded lag and a precomputed read path at millions of queries per second.
+7. **Follow up deliberately:** Nudge politely after a quiet week and ask for feedback if rejected.
+
+## About working at The Trade Desk
+
+The Trade Desk runs a demand-side platform that bids on ad impressions in real time, handling trillions of requests a month with single-digit-millisecond responses. Engineers own services across bidding, data pipelines, identity and the buyer platform; the backend leans on C# and .NET alongside Python and Scala. Offices include the Ventura headquarters, Colorado, New York, London, Sydney, Singapore, Shanghai and Bengaluru.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer I | Scoped features with guidance; about 0 to 2 years | Tasks within one team |
+| Software Engineer II | Owning features and services; 2 or more years | One team's components |
+| Senior Software Engineer | Complex cross-component changes and mentoring; 7 or more years | A product area |
+| Staff Software Engineer | Design reviews and leadership on reliability and scale; 11 or more years | Multiple teams |
+| Senior Staff Software Engineer | Long-range technical direction; 13 or more years | An engineering organization |
+
+The Trade Desk hires engineers across its platform. Teams include:
+
+- **Kokai:** The AI-driven buying platform advertisers use to run campaigns.
+- **Identity (UID2):** An open identity framework positioned as a cookie alternative.
+- **OpenPath:** Direct connections to premium publishers.
+- **Marketplace quality:** Real-time backend systems that improve supply quality.
+
+### Experience and education requirements
+
+Postings typically ask for a bachelor's degree in computer science or a related field, proficiency in C#, Java, Python or Scala, and grounding in data structures and distributed systems. Full-stack roles add React and SQL, and postings say meeting most requirements is enough to apply.
+
+## FAQs about the Trade Desk interview
+
+### How long does The Trade Desk interview process take?
+
+Typically several weeks, with about a week between stages. More than a week of silence after the assessment has usually meant the process ended.
+
+### What is the hardest round of The Trade Desk interview?
+
+The multi-level assessment, where time runs out before the later levels, and senior system design, where interviewers push for numbers on lag and throughput.
+
+### How much does a Trade Desk software engineer make?
+
+Posted US base salary ranges are roughly:
+
+- **Software Engineer I:** ~$138K–$206K
+- **Software Engineer II:** ~$167K–$250K
+- **Senior Software Engineer:** ~$190K–$275K
+
+Packages add stock and benefits, and ranges vary by location.
 
 ---
 

@@ -9,32 +9,45 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [128](../snowflake.md) |
-| Free to read here | 28 |
+| Free to read here | 25 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 05, 2026 |
 
 ## How Snowflake interviews
 
-This deep dive goes beyond the process skeleton on the company page: it maps what each Snowflake round actually probes, how follow-ups escalate difficulty, and the specific mistakes that have cost otherwise strong candidates an offer. It draws on 69 real Snowflake questions and 43 candidate interview reports, so every pattern below has shown up in an actual loop.
+Snowflake interviews are decided by follow-ups: course ordering gains durations and batches, interval scheduling gains an at-most-K cap, and tree problems gain a minimum-deletion target. Several rejected candidates solved the base problem and ran out of time on the extension. Practical building is the second trait: an in-memory file system, a transactional key-value store or a rate limiter, written from a blank editor with self-written tests, can appear at any stage. Design prompts are platform internals rather than consumer apps. Hiring runs team by team, and mixed feedback often adds a round instead of ending the process.
 
-### Interview Process
+This guide breaks down each stage of the Snowflake interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 69 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Snowflake interview process
 
 <!-- guide-diagram -->
 ![Snowflake interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/snowflake/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen and pre-interview setup.** Beyond logistics, recruiters often send a topic list before the technical calls — candidates confirm it is accurate, so read it carefully. Two details recur: the invitation may explicitly prohibit AI assistants during coding rounds, and some candidates now meet an adaptive AI-driven screener instead of a human. That automated conversation drills into whatever you mention — relocation, work authorization, depth in Java, Python, and SQL, the project you personally owned most — so only raise topics you can defend in detail.
+The structure is stable, but the content follows the interviewer and the team. The usual sequence is a recruiter call, sometimes an assessment or automated screener, two technical phone screens of 45–60 minutes, often on the same day, and a final loop of three to five rounds. The process typically takes four to six weeks. In one offer case, team matching, two hiring-manager calls and references took about three weeks after the virtual onsite.
 
-**Technical phone screens (usually two, sometimes back-to-back).** Each is about 45–60 minutes in a shared editor, frequently with no skeleton code: you write the full class, your own test cases, and a complexity analysis. Expect one to two problems per call, and expect the follow-up to be the real test. Recurring escalation patterns from reports: multi-source BFS on a grid (nearest cake/person or desk/bathroom distances) extends into a global assignment problem with uniqueness constraints; weighted interval scheduling gains an "at most K selections" dimension; course scheduling gains per-task durations, parallel execution, and batch limits; a string-command calculator suddenly needs nested expressions; tree problems add deletion semantics, height caps with minimum removals, or a streaming input where children arrive before parents. Several candidates solved the base problem cleanly and were still rejected after stalling on the extension, so budget your time for it deliberately.
+Level changes the shape. Early-career and mid-level (IC2) loops are mostly coding plus one design and one behavioral round. Senior candidates usually get one phone screen in system design, and Staff-targeted loops add an expertise deep dive and an AI-assisted build round. Frontend candidates get JavaScript, TypeScript and React exercises, data engineering candidates get SQL, Python and pipeline modeling, and AI-focused roles can include a round on large language model fundamentals.
 
-**Implementation-heavy coding rounds.** Snowflake leans harder than most companies on building a small but complete component. The in-memory file system is a signature exercise — parse absolute paths, walk a tree or trie, support `mkdir`, `touch`, `ls`, `rm`, `rmdir`, plus content reads and writes — and it appears in online assessments, phone screens, and onsites alike. Other reported builds include a JSON parser written from scratch covering the full specification, an event logger with constant-time `Receive` and binary-search `Count` over monotonic timestamps, a rate limiter enforcing per-second and per-window caps while counting dropped requests, and a multi-threaded transactional key-value store where `begin`, `commit`, and `rollback` must all run in O(1) and stay thread-safe. Grading emphasizes a correct baseline, clean abstractions, explicit edge-case handling (empty directories, invalid paths, root deletion, duplicate operations), and disciplined debugging: single unresolved bugs in parent-pointer updates or path parsing have directly preceded rejections delivered within two days.
+Here's what the interview process can look like:
+
+- **Recruiter screen (sometimes an assessment or AI screener):** A short call on background, logistics and team interests.
+- **Technical phone screens (usually two):** 45–60 minute live coding calls with a follow-up that changes the constraints; for senior roles one may be system design.
+- **Onsite coding interviews:** One or two rounds of algorithms and practical component builds with hand-written tests.
+- **System design interview:** An hour on an infrastructure component, pushed into consistency and failure handling.
+- **Behavioral and hiring manager interviews:** Project, conflict and failure stories, plus calls during team matching.
+- **Expertise and AI-assisted rounds (senior and some teams):** A project deep dive and a design-then-build exercise.
+
+> **Tip:** Split each coding round into thirds. Finish and test the base problem in the first third, so the remaining time goes to the follow-up. Rejections in the reports cluster around candidates who debugged the base solution until the hour ran out.
 
 **[Read the full Snowflake interview process →](interview-process.md)**
 
 ## Free Snowflake questions
 
-28 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+25 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -58,12 +71,9 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Connect Four Game Evaluation](../../questions/algorithm/connect-four-game-evaluation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/996df6f4-26e7-4a59-953f-eeec0b118171) |
 | [Calculate Fibonacci Number](../../questions/algorithm/calculate-fibonacci-number/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216) |
 | [Determine if a Binary Tree is Perfect](../../questions/algorithm/determine-if-a-binary-tree-is-perfect/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671) |
-| [Determine Employees to Promote](../../questions/algorithm/determine-employees-to-promote/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086) |
 | [Simple TypeScript Program](../../questions/algorithm/simple-typescript-program/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) |
 | [Check Validity of Input String](../../questions/algorithm/check-validity-of-input-string/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) |
 | [Deployments Node Calculation](../../questions/algorithm/deployments-node-calculation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1ca38e96-972d-43d4-94bf-0358e19f7bd9) |
-| [Maximum Order Volume](../../questions/algorithm/maximum-order-volume/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) |
-| [Vowel Substring](../../questions/algorithm/vowel-substring/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) |
 | [Minimum Value Weight](../../questions/algorithm/minimum-value-weight/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 

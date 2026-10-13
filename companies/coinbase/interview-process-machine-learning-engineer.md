@@ -6,99 +6,248 @@
 
 ---
 
-The strangest rejection on Coinbase's Machine Learning Engineer track arrives with a passing score attached: one candidate was told by the recruiter that the assessment had been cleared, and rejected in the same conversation because no team had an opening — hiring runs team by team, and clearing the bar only puts you in a queue. The assessment itself is the other shock. In one timed sitting it asks for machine learning multiple choice, a hand-computed forward pass through a two-layer network, a medium array problem, and two or three classical algorithms written from scratch, and candidates fail it on time allocation rather than on knowledge. Everything after it swings hard toward pragmatism: messy data in a notebook, medium SQL, and risk-flavored production judgment instead of model novelty.
+Coinbase hires Machine Learning Engineers team by team, and a passing assessment does not guarantee a loop: one candidate was told the assessment had been cleared and was rejected in the same call because no team had an opening. The assessment is unusually broad for an ML track. In one timed sitting it combines ML multiple choice, a small network's output computed by hand, an algorithm problem, and classical ML algorithms written from scratch. Most candidates who fall short run out of time rather than knowledge. The live rounds reward pragmatism over novel modeling.
 
-## Interview Process
+This guide breaks down each stage of the Coinbase Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 5 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2, cross-checked against recent public accounts.
+
+## Coinbase Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Coinbase Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/coinbase--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Automated screening (asynchronous).** The track opens with a work-style and personality inventory, a pre-recorded AI-led interview with fixed prompts, and a timed reasoning test in the style of graduate-admissions verbal fill-in-the-blank plus arithmetic and pattern items. Candidates describe the vocabulary as genuinely difficult and the pace as the real constraint. A short recruiter call sometimes follows to confirm team and level; the reported teams are risk-focused, and one candidate learned the group was early-stage and running mostly tree-based models.
+Most reported openings sit on risk teams that fight fraud, scams and account takeover, so the loop tests classical, tree-based modeling done correctly and quickly rather than deep-learning research. Some candidates finished every automated step before speaking to anyone; others had a short recruiter call first.
 
-2. **Online assessment (roughly 90 minutes, one sitting).** The broadest stage on the track. Reported components: about six machine learning multiple-choice items (recall and false-positive rate read off a confusion matrix, the correct logistic-regression loss, which moves raise bias while cutting variance, ensemble considerations, when to prefer principal component analysis over linear discriminant analysis); one fill-in requiring a manual forward pass through a small two-layer network with ReLU and sigmoid; one medium algorithm problem such as a local maximum in an array or a longest-run-of-a-character variant with a tie-break rule; and two or three from-scratch implementations. That pool rotates through bootstrap resampling, a bagging classifier over a supplied base learner, k-means with a caller-supplied distance function, random forests, and a decision tree splitting on information gain with a custom purity formula rather than Gini. Sections are individually time-boxed, so over-polishing early answers starves the heavy coding at the end.
+Once a team is committed, the process moves fast: one candidate went from first recruiter contact to a finished onsite in under two weeks. Early-career candidates are filtered mainly by the assessment; for senior candidates the project presentation and design rounds carry more weight.
 
-3. **Technical phone screen (60 minutes).** One reported screen splits evenly in two: a straightforward machine learning coding exercise, then a medium SQL problem requiring window functions and subqueries. The SQL half is a genuine filter — practice ranking, deduplication, and time-windowed aggregation, and state your assumptions about duplicate rows and leakage as you write.
+Here's what the interview process can look like:
 
-4. **Onsite: machine learning practical (60 minutes, notebook).** A hands-on Jupyter session on a deliberately messy classification dataset. The graded skill is pragmatic: profile the data, pick features that plausibly matter, and deliver a simple model that works rather than something exotic. Interviewers were described as collaborative to the point of fixing typos for you, while probing the reasoning behind each preprocessing, validation, and metric choice.
+- **Automated screening:** A work-style inventory, a timed reasoning test and, for some candidates, a pre-recorded AI-led interview.
+- **Online assessment:** One timed sitting, typically around 90 minutes, with ML multiple choice, a hand-computed network output, an algorithm problem and from-scratch ML implementations.
+- **Technical phone screen:** A straightforward ML coding exercise followed by a medium SQL problem.
+- **Machine learning practical (onsite):** A classification model built on a messy dataset in a shared notebook.
+- **Project presentation and deep dive (onsite):** A walkthrough of your proudest project, as slides or a resume-driven conversation.
+- **ML system design and depth interview (onsite):** Design and ML theory, sometimes combined with debugging and AI-assisted coding.
+- **Behavioral interview (onsite):** Decisions, challenges and impact, explored through your own projects.
 
-5. **Onsite: project presentation and deep dive (45-60 minutes).** Some loops open with a prepared slide walkthrough of the project you are proudest of — technical decisions, your specific contribution, measured impact. Others run it as a resume-driven conversation with the interviewer pushing on why you chose an approach and what you would change. Either way the follow-ups go several layers past the summary.
+> **Tip:** Ask the recruiter which team you are being run for and whether its headcount is confirmed before you sit the assessment. Candidates have been closed out after passing because no team had a slot.
 
-6. **Onsite: architecture and applied design (45-60 minutes).** A design discussion covering data flow, scalability, and trade-offs, pressing on stateless versus stateful services, caching, and fault tolerance rather than hunting for one right answer. One reported variant is a combined session moving from debugging a subtle bug in unfamiliar code, to a high-level architecture for a domain problem, to writing a small feature with an AI assistant while prompting, reviewing, and integration are watched.
+## Automated screening
 
-7. **Onsite: behavioral (45-60 minutes).** A dedicated round digging into the projects on your resume, the decisions behind them, and how you work with partner teams. It is conversational rather than a values checklist, and technical follow-ups are common inside it.
+Before any technical work, candidates complete a personality and work-style questionnaire and a timed cognitive test. The test mixes verbal fill-in-the-blank items in a graduate-admissions style with quantitative and logical reasoning, and the time limit is the real difficulty. One candidate also sat an automated interview with pre-recorded prompts.
 
-8. **Team matching and decision.** The manager decides after the panel debriefs. Timelines can be extremely fast — one loop went from first recruiter contact to a finished onsite in under two weeks, driven by end-of-year headcount — but a strong performance and an available team are separate things.
+Interviewers look for:
 
-## What They Actually Evaluate
+- **Speed under a hard timer:** The reasoning section rewards items finished, so skipping one hard vocabulary item beats stalling on it.
+- **Consistency in the inventory:** Contradictory answers across similar items read worse than any single preference.
+- **Concise, specific answers:** In the AI-led interview, concrete examples of your work rather than general claims.
 
-### ML Theory
+Do a few timed graduate-admissions verbal and quantitative sets first, so the pace is not a surprise.
 
-Concentrated in the assessment and probed again in the notebook round. The questions are classical rather than deep-learning heavy: confusion-matrix arithmetic, the bias-variance consequences of specific interventions, ensemble behavior, dimensionality-reduction choices, loss-function identification, plus one network computation on paper. Signal comes from answering these in seconds so the coding sections get the time they need, and from honoring the exact formula a prompt specifies — one task explicitly required a custom purity measure instead of Gini. It is lost by importing a library where the task says from scratch, and by mishandling ties, empty splits, and convergence.
+## Online assessment
 
-- [MLE CodeSignal OA (MCQ + NN + Classical-ML Coding)](https://trueinterview.io/questions/mle-codesignal-oa)
-- [MLE Onsite — Jupyter Pair Programming on Messy Classification Data](https://trueinterview.io/questions/mle-jupyter-classification)
+The assessment is one timed sitting with a separate limit for each section. Three of the four reported versions shared one structure; the fourth used standard algorithm problems instead of ML tasks. The ML version opens with about six multiple-choice questions, then one fill-in answer, one algorithm problem, and two or three ML algorithms implemented from scratch.
 
-### Coding and Algorithm
+The multiple choice covers recall and false-positive rate from a confusion matrix, the logistic-regression loss, which interventions raise bias while cutting variance, ensemble trade-offs, and PCA versus LDA. The fill-in is a two-layer forward pass with ReLU and sigmoid. The algorithm problem is easy to medium, such as a local maximum in an array or the longest run of one character with ties going to the rightmost run. The from-scratch tasks rotate through bootstrap resampling used to fit and predict, a bagging classifier over a supplied base learner, k-means with a caller-supplied distance function, a random forest, and a decision tree splitting on information gain under a custom purity formula instead of Gini.
 
-Beyond the machine learning implementations, the track still gets ordinary engineering problems: a medium array problem inside the assessment, a general coding exercise in the phone screen, and SQL weighted equally with modeling in one reported screen. The problems are product-flavored and mid-difficulty — parsing and grouping records, aggregating structured input, generating feature combinations. Credit goes to clean, tested code produced quickly, since these sections are timed tightly and the ML tasks behind them are the expensive ones.
+Interviewers evaluate:
 
-- [Worker Salary OA](https://trueinterview.io/questions/worker-salary-oa)
-- [Log File Parser](https://trueinterview.io/questions/log-file-parser)
-- [NFT Feature Generation](https://trueinterview.io/questions/nft-feature-generation)
-- [Cloud File System](../../questions/object-oriented-programming/cloud-file-system/README.md)
+- **Mechanics, not libraries:** Credit depends on correct sampling with replacement, centroid updates and split selection written by hand.
+- **Following the stated formula:** Using Gini where the prompt defines its own purity, or Euclidean distance where a function is passed in, fails hidden tests.
+- **Edge cases:** Empty clusters, ties in splits and votes, and iteration limits.
+- **Triage:** The heavy implementations come last, and they decide the score.
 
-### ML System Design
+Practice writing bagging, k-means, a decision tree and a random forest in plain Python and NumPy in under 20 minutes each.
 
-The design conversation is grounded in risk and fraud work rather than recommendation-system boilerplate: scoring against streaming data, the cost asymmetry between false positives and false negatives, feature freshness, and how a model gets retrained and rolled out quickly when a new attack appears. Interviewers reward reasoning about data flow and failure behavior before architecture diagrams, and defending interpretable tree-based choices for decisions that must be explained to an operations or compliance audience.
+> **Note:** The most reported failure is spending too long on the early algorithm problem and leaving too little time for the bagging and clustering tasks. Answer the multiple choice and the forward pass quickly, then protect your implementation time.
 
-- [Design a Credit Approval Risk Engine](https://trueinterview.io/questions/design-a-credit-approval-risk-engine)
-- [System Design — Coinbase Explore (Real-Time Price Dashboard)](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price)
+### Sample questions for the online assessment
 
-### Project Deep Dive
+Here are some questions reported by recent candidates:
 
-Whether it is slides or a resume-driven conversation, the interviewer is testing depth of ownership rather than the impressiveness of the project. Expect to justify data quality decisions, model selection, the validation split, the metric you optimized, and the impact you claim, with each answer generating another follow-up. The AI-assisted variant extends this into live work: debug unfamiliar code, sketch an architecture, then build a small feature alongside an assistant while narrating what you accept, correct, or discard.
+- Return the longest run of a single repeated character and its length, choosing the rightmost run on a tie.
+- Implement a bagging classifier from a base classifier and labeled data, then predict by vote.
+- Implement k-means clustering where the distance function is supplied by the caller.
+- Build a decision tree that splits on information gain under a custom impurity formula, with a predict method.
 
+- [ML Concepts and Coding Assessment](https://trueinterview.io/questions/mle-codesignal-oa)
+- [Longest Run of Identical Characters](https://trueinterview.io/questions/ee3f373d-6a1f-5751-b6f7-d7f4577b6670)
+- [Moving Average over a Sliding Window](https://trueinterview.io/questions/404adef3-580e-58ed-80ed-37af565360df)
+
+## Technical phone screen
+
+The screen is a live session with an engineer, split in two: a straightforward ML coding exercise, then a medium SQL problem needing window functions and subqueries. The SQL half reflects the job: risk modelers build their own features and labels from event tables.
+
+Interviewers evaluate:
+
+- **Window-function fluency:** Ranking, running totals and per-group deduplication, correct on the first pass.
+- **Stated assumptions:** How you treat duplicates, nulls and ties before the query depends on them.
+- **Clean ML code:** Readable, vectorized functions plus a quick sanity check of the output.
+
+Drill medium window-function SQL until ranking-per-group and running-aggregate queries take under ten minutes.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- A simple ML coding task, implemented and checked on a small input.
+- A medium SQL problem combining window functions with a subquery.
+
+- [Write SQL to rank top products per category](https://trueinterview.io/questions/write-sql-to-rank-top-products-per-category)
+- [Write SQL: sum values ≤ each row’s value](https://trueinterview.io/questions/write-sql-sum-values-each-rows-value)
+- [Write SQL and Python for funnels/retention](https://trueinterview.io/questions/write-sql-and-python-for-funnels-retention)
+
+## Machine learning practical
+
+This is pair programming in a Jupyter notebook on a deliberately messy tabular dataset, ending in a classification model. The candidate who described it said the focus was pragmatic feature selection and a simple, working solution rather than complex modeling, and interviewers helped with minor typos. Public accounts describe up to two such rounds.
+
+Interviewers evaluate:
+
+- **Data triage:** Profiling columns, handling missing values and odd types, and dropping features that leak the label.
+- **Feature selection with reasons:** Why each kept feature should predict a risk-style label.
+- **Fitting validation:** A time-aware split when the data is temporal, and a metric suited to an imbalanced class.
+- **A baseline that runs:** A tree-based or logistic model working end to end before any tuning.
+
+Rehearse a full clean, split, train and evaluate pass on an unfamiliar messy dataset in 45 minutes, narrating each choice.
+
+> **Tip:** Build the plain baseline first and improve it only if time remains. A simple model with defended cleaning, split and metric beats an elaborate pipeline.
+
+### Sample questions for the machine learning practical
+
+Here are some questions reported by recent candidates:
+
+- Given a messy labeled dataset, clean it, select features and train a classifier within the hour.
+- Keep the model simple and justify the features you selected rather than reaching for complex modeling.
+
+- [Jupyter Pair Programming on Messy Classification Data](https://trueinterview.io/questions/mle-jupyter-classification)
+- [Build a baseline classification model from messy data](https://trueinterview.io/questions/build-a-baseline-classification-model-from-messy-data)
+- [Build and evaluate a conversion prediction model](https://trueinterview.io/questions/build-and-evaluate-a-conversion-prediction-model)
+
+## Project presentation and deep dive
+
+Some loops open the onsite with prepared slides on the project you are proudest of: technical decisions, your contribution and measured impact. Others run it as a resume-driven conversation. Either way the interviewer pushes several layers past the summary.
+
+Interviewers evaluate:
+
+- **Personal ownership:** What you decided and built, separated from the team's work.
+- **Modeling rationale:** Data quality, model choice, validation split and the metric you optimized.
+- **Impact with numbers:** Risk or business metrics moved, not only offline accuracy.
+
+Prepare a 10 to 15 minute deck on one production ML project, with backup detail on data, validation and deployment.
+
+### Sample questions for the project presentation and deep dive
+
+Here are some questions reported by recent candidates:
+
+- Present the project you are proudest of, then defend its key technical decisions and your specific contribution.
+- Walk through a resume project: the challenges you hit and the impact the work had.
+
+- [Present a Previous Project Deep Dive](https://trueinterview.io/questions/present-a-previous-project-deep-dive)
 - [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive)
+
+## ML system design and depth interview
+
+The onsite includes system design and deeper ML theory; candidates were not permitted to share exact prompts, but the teams' work points to risk systems. Expect real-time and batch scoring of transactions or logins, the cost of false positives against false negatives, feature freshness, and retraining when a new attack appears. Risk postings describe turning temporary rules into production models in under a week, so iteration speed is fair game.
+
+A related variant packs three tasks into one session: debug an anomaly in a distributed system, sketch the architecture for a new high-throughput feature, then write production-quality code with an AI pair programmer while interviewers watch how you steer and verify it.
+
+Interviewers evaluate:
+
+- **Error-cost reasoning:** Thresholds and metrics chosen from the cost of blocking a good user versus missing fraud.
+- **Data and feature flow:** Online and offline consistency, label delay, and how reports and chargebacks become training data.
+- **Operating the model:** Drift monitoring, shadow deployment and rollback.
+
+Practice one end-to-end fraud or account-takeover design that opens with the cost of each error type before any components.
+
+### Sample questions for the ML system design and depth interview
+
+Here are some questions reported by recent candidates:
+
+- Debug a subtle anomaly in a distributed system from logs and metrics, then design a new high-throughput feature.
+- Build a small feature with an AI assistant, catching the subtle bugs in its output.
+
+- [Design Credit Card Application System](https://trueinterview.io/questions/design-a-credit-approval-risk-engine)
+- [Detect and quantify wash trading](https://trueinterview.io/questions/detect-and-quantify-wash-trading)
 - [AI Enhanced Pilot — Domain (AI-Assisted Coding Round)](https://trueinterview.io/questions/ai-enhanced-pilot-domain)
 
-## What They Don't Test
+## Behavioral interview
 
-- Deep-learning research depth. No reported round asked about transformer internals, large-model training, or recent papers. What is rewarded is classical modeling done correctly on the tree-based stack the risk teams actually run.
-- Exotic modeling in the practical round. Candidates who shipped a simple, defensible baseline on the messy dataset were treated well; the graded skills were feature selection and pragmatism.
-- Library fluency. Several tasks explicitly forbid the obvious import and ask for the algorithm from scratch with a caller-supplied distance or purity function. What is rewarded is knowing the mechanics well enough to reimplement them under time pressure.
-- Pure modeling specialization. One phone screen split time evenly between machine learning and medium SQL with window functions, so data-engineering competence is scored alongside modeling.
-- Polish on the assessment's early sections. Grading counts sections cleared, and over-perfecting the first items is the most reported cause of running out of time. What is rewarded is triage.
+The behavioral round is conversational. The interviewer digs into the projects on your resume, asking about specific technical decisions, the challenges you faced and the impact of the work, so technical follow-ups are common. Coinbase's mission-first culture shows up as questions about moving fast in a regulated, security-critical domain.
 
-## The Real Filter
+Interviewers look for:
 
-The dominant filter is that passing is not matching. Hiring is decentralized to teams, and a candidate who cleared the assessment was rejected in the same call because no suitable team existed. The misjudgment is treating the assessment as an entry gate into a guaranteed loop. Ask up front which team you are being run for, whether the headcount is confirmed, and at which level, and treat a vague answer as a real risk to the outcome.
+- **Ownership:** Problems you drove to a result without being assigned.
+- **Integrity under pressure:** Holding a line on correctness when a deadline pushes the other way.
+- **Mission alignment:** A real reason to work on an open financial system and protect its users.
 
-The second filter is the assessment's breadth. It is not one skill under pressure but four — theory recall, arithmetic on paper, general algorithms, and from-scratch implementation — with hard section boundaries. Candidates who spent too long debugging the early array problem had nothing left for the bagging and clustering tasks that carry the most weight. Rehearse until the multiple choice and the forward pass are near-instant, then spend the saved minutes on the implementations.
+Prepare five or six stories with metrics, a disagreement and a mistake, and tie at least one to fraud or user protection.
 
-The third filter is pragmatism in the notebook round. The dataset is messy on purpose and the interviewer watches for judgment: which columns you drop and why, how you avoid leakage, which validation split matches the problem, which metric fits an imbalanced risk-style label. A sophisticated pipeline with no story for the data's defects reads worse than a plain model with defended choices.
+### Sample questions for the behavioral interview
 
-## Data Source
+Here are some questions reported by recent candidates:
 
-Based on 5 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+- Elaborate on a specific technical decision in a resume project and the challenges it created.
+- Explain the impact of your past work and how you measured it.
 
-## FAQ
+- [Describe cross-team collaboration on past projects](https://trueinterview.io/questions/describe-cross-team-collaboration-on-past-projects)
+- [Explain handling pressure to bend rules](https://trueinterview.io/questions/explain-handling-pressure-to-bend-rules)
+- [Show culture add at Coinbase](https://trueinterview.io/questions/show-culture-add-at-coinbase)
 
-**What is the work like for a Machine Learning Engineer here?**
+## How Coinbase levels and evaluates Machine Learning Engineer candidates
 
-Our reports describe the hiring loop rather than daily work, so this is context: the openings candidates encountered cluster in risk and fraud — real-time scoring, scam detection, account-takeover prevention — where models are served against streaming data and shipping a countermeasure is measured in days, not quarters. One candidate was told the team was early-stage and tree-based, meaning greenfield work and few inherited pipelines. Roles are largely remote with periodic in-person gatherings.
+Each loop is run for a specific team, and the hiring manager decides after the panel debrief. The target level is set before the onsite and tracks the posting: mid-level risk ML postings ask for about four years of experience, and senior postings add ownership of a whole risk domain. Passing is separate from whether a team has headcount at your level.
 
-**What is the engineering culture like?**
+## How to prepare for the Coinbase Machine Learning Engineer interview
 
-Mission-first and explicitly meritocratic, with published trade-offs favoring top talent over seniority and intensity over comfort. Interviews reflect it: interviewers were repeatedly described as sharp, direct, and unusually helpful during technical exercises rather than adversarial, with emphasis on interpretable models, error-cost reasoning, and shipping something that runs.
+1. **Confirm the team first:** Ask which team, level and headcount you are being run for, since a pass without an open slot still ends the process.
+2. **Implement classical ML from scratch:** Bagging, bootstrap, k-means with a pluggable distance, decision trees with a custom impurity and random forests.
+3. **Make theory instant:** Confusion-matrix arithmetic, logistic loss, bias and variance moves, PCA versus LDA and a ReLU and sigmoid forward pass.
+4. **Rehearse the time split:** Take a mock assessment with section timers and practice moving on from the algorithm problem.
+5. **Drill window-function SQL:** Ranking within groups, running totals and deduplication, with stated assumptions.
+6. **Practice the messy-notebook hour:** Clean, split by time, fit a tree-based baseline and choose an imbalance-aware metric, aloud.
+7. **Prepare one presentation-grade project:** Slides plus backup detail on data, validation, deployment and measured impact.
+8. **Frame designs by error cost:** Open fraud designs with the cost of each error type, then cover feature freshness, retraining and monitoring.
 
-**How hard is it to get in?**
+## About the Coinbase Machine Learning Engineer role
 
-Hard, and unevenly so. The assessment is the widest gate and the most cited failure point because of its breadth and section timers, while the loop that follows is comparatively collaborative. The final hurdle is structural rather than technical: a specific team's manager makes the call, and technically successful candidates have ended with no offer because no team had a slot at their level.
+Coinbase Machine Learning Engineers mostly build and run production models rather than doing research. Risk teams work in small groups, each improving one core model family on a centralized platform with a feature store, CI/CD pipelines and model serving, and act on threat data from risk operations within days. The company is remote-first but not remote-only, with in-person offsites several times a year.
 
-**Which round is hardest?**
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC4 (Machine Learning Engineer) | End-to-end model delivery on the existing platform | One model family within a team |
+| IC5 (Senior Machine Learning Engineer) | Technical ownership of a risk domain such as scams or account takeover, plus mentoring | All models in a domain |
+| IC6 (Staff Machine Learning Engineer) | Technical strategy for a platform or a portfolio of projects | Several teams |
 
-The online assessment, by reported outcomes and candidates' own accounts. Nothing else asks you to switch between theory recall, hand computation, general algorithms, and from-scratch implementation inside one timed sitting. The notebook round is the hardest live round, but candidates describe it as reasonable once you commit to a simple, well-justified model.
+Coinbase hires Machine Learning Engineers across several groups. Teams include:
+
+- **Risk AI/ML:** Scam, transaction risk, withdrawal-limit and account-takeover models, run in real time, near real time and on schedules.
+- **ML Platform:** Productionizing and operating models and pipelines at scale in the platform product group.
+- **AI/ML Risk Platform:** Shared feature, training and serving infrastructure for risk models.
+- **CX Intelligence:** ML applied to customer support and experience.
+
+### Machine Learning Engineer experience and education requirements
+
+Mid-level risk postings ask for about four years of software engineering or ML experience including production deployment, Python with TensorFlow or PyTorch, and familiarity with risk modeling, anomaly detection, NLP or recommender systems. A related bachelor's degree is preferred, not required. Pluses include feature stores, model serving, Spark, Kafka, LLM work and MLOps.
+
+## FAQs about the Coinbase Machine Learning Engineer interview
+
+### How long does the Coinbase Machine Learning Engineer interview process take?
+
+It can be very short when a team is ready to hire: one candidate went from recruiter contact to a completed onsite in under two weeks. It can stop at any point if no team has an opening.
+
+### What is the hardest round of the Coinbase Machine Learning Engineer interview?
+
+The online assessment. No other round makes you switch between theory recall, hand computation, an algorithm problem and from-scratch ML implementations under section timers.
+
+### How much does a Coinbase Machine Learning Engineer make?
+
+Posted US base ranges for senior ML platform roles have run about $186K to $225K. Offers add equity and bonus eligibility, so total compensation is well above base.
+
+### Does Coinbase test deep learning?
+
+Rarely. Reported rounds focus on classical ML, tree-based models, SQL and production judgment; the only network question is a small forward pass computed by hand.
 
 ---
 

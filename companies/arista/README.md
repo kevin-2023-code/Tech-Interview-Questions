@@ -16,21 +16,30 @@ How Arista interviews, and the questions candidates reported there. Free questio
 
 ## How Arista interviews
 
-Arista Networks hires engineers who can build and debug systems software for data-centre switching, and its loop is unusual in that the coding prompts are the easy part. This guide goes past the summary on the company page and into how the rounds actually run, drawing on 4 real Arista Networks questions and 4 candidate interview reports.
+Arista Networks keeps the algorithm problems easy to medium and spends the rest of each round on C and C++ fundamentals: pointers, object lifetime, memory layout and debugging. Once your code runs, the follow-up questions about it are the real test. Speed in the coding environment is graded too. One candidate solved both problems optimally and was still rejected for slow error reading and debugging under time pressure.
 
-### Interview Process
+This guide breaks down each stage of the Arista Networks interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Arista Networks interview process
 
 <!-- guide-diagram -->
 ![Arista Networks interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/arista/process.webp)
 <!-- guide-diagram -->
 
-The loop starts with a recruiter conversation that candidates consistently describe as non-technical: role and team context, location, timing, nothing to prepare for beyond your own background. Referrals are a common entry path, and referred candidates report going straight from that call into a technical round rather than sitting a separate take-home.
+The hiring team sets the content, but every reported loop tested systems-level C++. Referrals are a common way in, and referred candidates went from the recruiter call straight to a live technical round, with no online assessment.
 
-The first technical round is live coding, typically on CoderPad rather than a structured judge. This detail matters more than it sounds. You write the full program, including driver code and input handling, and you compile and run it yourself, so the failure output you see is raw compiler and runtime text rather than a tidy "wrong answer on test 3". One report describes a round of roughly 40 minutes covering two problems back to back, with no self-introduction and no resume discussion at all — the interviewer opened with the first problem and asked for time and space complexity immediately after each solution ran. Others describe a slightly longer session that opens with a five-minute introduction before moving to problems. C and C++ dominate; candidates are generally allowed to choose among C, C++ and Java, but the follow-up questions assume you can reason in C-family memory terms whichever you pick.
+Reported loops ranged from one technical round ending in rejection to two rounds still in progress. Public accounts describe three to five rounds in total, with later rounds typically covering concurrency, operating-system and networking fundamentals, and a hiring-manager conversation. The language bar does not drop for junior candidates; senior candidates should expect more design and debugging discussion, not harder algorithms.
 
-The distinguishing stage is the technical deep-dive that follows. Here the coding task is a container or data-structure implementation rather than an algorithm puzzle, and the real interview begins once your code works. One documented round asked for a generic stack in C++, then spent the remaining time on the implementation's own choices: `new` versus `malloc`, the `new` operator versus placement `new`, what `top()` should return among `T&`, `const T&`, `T` and `T&&` and why, what happens to a reference obtained from `top()` after `pop()` destroys the element, and where arguments and return values physically live during a function call. Another round handed over a snippet with an out-of-bounds memory access and asked why it produced an infinite loop instead of the segmentation fault you would expect. A third mixed pointer and format-string behaviour — the output of various `printf` calls against a `const char*` — with how you would step through it in GDB, then moved on to `malloc` versus `new` and the heap, stack, data and text segments.
+Here's what the interview process can look like:
 
-Beyond that, reported loops vary. One candidate describes a process of around five rounds in total; another was rejected after a single technical round. A hiring-manager conversation covering motivation, team fit and any technical ground the earlier rounds missed is typical as the final stage. Candidates generally describe the end-to-end process as taking a few weeks and as being run efficiently, with rejections arriving within days rather than being left open.
+- **Recruiter screen:** A short, non-technical call about background, team, location and timeline.
+- **Technical screen:** A 40–60 minute live CoderPad session with one or two easy-to-medium problems, often mixed with rapid C or C++ fundamentals.
+- **Technical deep-dive:** An implementation round, such as a generic container in C++, followed by detailed questions on every design and language choice.
+- **Later rounds and hiring manager (typically):** Further coding and systems rounds, then a conversation about past work and team fit.
+
+> **Tip:** Practice where you write your own `main`, compile, and read raw compiler and runtime errors. Candidates lost minutes to unfamiliar CoderPad output, and the delay counted against them.
 
 **[Read the full Arista interview process →](interview-process.md)**
 

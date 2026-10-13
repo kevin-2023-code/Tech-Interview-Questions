@@ -2,7 +2,7 @@
 
 # LinkedIn interview process, OA & interview questions
 
-**116 questions** reported at LinkedIn · **4 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
+**116 questions** reported at LinkedIn · **4 writeups** · **3 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How LinkedIn interviews & the free questions](linkedin/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -21,7 +21,7 @@
 | Difficulty (easy / medium / hard) | 12 / 80 / 24 |
 | Free to practise | [11](../free/README.md) |
 | Guides & writeups | 4 |
-| Interview reports on the board | 2 in this snapshot |
+| Interview reports on the board | 3 in this snapshot |
 
 <sub>Counted from the 116 questions reported at LinkedIn. 67 of them carry a sighting date; the other 49 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -60,20 +60,20 @@ Which stage each question came from, for the **116 of 116** questions at LinkedI
 
 ## What they ask about
 
-Of the **68 questions at LinkedIn that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **62 questions at LinkedIn that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 15 | 22% | ████████████ | Aug 27, 2026 |
-| `graphs` | 10 | 15% | ████████ | Aug 27, 2026 |
-| `trees` | 9 | 13% | ███████ | Sep 01, 2026 |
-| `arrays` | 7 | 10% | ██████ | Aug 16, 2026 |
-| `backtracking` | 7 | 10% | ██████ | Sep 04, 2026 |
-| `binary-search` | 6 | 9% | █████ | Aug 16, 2026 |
-| `linked-list` | 6 | 9% | █████ | Apr 09, 2026 |
-| `math` | 6 | 9% | █████ | Aug 24, 2026 |
-| `stack` | 5 | 7% | ████ | Aug 16, 2026 |
-| `strings` | 5 | 7% | ████ | Mar 02, 2026 |
+| `hashing` | 14 | 23% | ████████████ | Aug 27, 2026 |
+| `graphs` | 10 | 16% | █████████ | Aug 27, 2026 |
+| `trees` | 9 | 15% | ████████ | Sep 01, 2026 |
+| `arrays` | 7 | 11% | ██████ | Aug 16, 2026 |
+| `backtracking` | 7 | 11% | ██████ | Sep 04, 2026 |
+| `binary-search` | 6 | 10% | █████ | Aug 16, 2026 |
+| `linked-list` | 5 | 8% | ████ | Mar 02, 2026 |
+| `math` | 5 | 8% | ████ | Aug 24, 2026 |
+| `stack` | 5 | 8% | ████ | Aug 16, 2026 |
+| `strings` | 5 | 8% | ████ | Mar 02, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -131,10 +131,11 @@ What candidates said happened in the room at LinkedIn — written up by the peop
 
 | Role | Report | Posted |
 | :-- | :-- | :-- |
+| Software | [LinkedIn Multiple Roles Interview Experience](https://trueinterview.io/interviews/8c7d147c-48c7-4b95-ad45-65f0aab9308a) | Sep 27, 2026 |
 | Software | [LinkedIn Software Engineer Interview Experience](https://trueinterview.io/interviews/fafffd7d-0148-4e0c-b7e7-49088380fe6b) | Sep 27, 2026 |
 | Software | [LinkedIn Staff Software Engineer Interview Experience](https://trueinterview.io/interviews/55459b32-c957-40d9-ad40-49afec7d2dae) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at LinkedIn and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at LinkedIn and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

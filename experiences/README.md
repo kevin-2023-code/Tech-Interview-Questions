@@ -6,7 +6,7 @@ What candidates say happened in the room — written up by the people who sat th
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md)
 
-> **These are the 50 newest of 2,997 reports on the board.** The catalog API hands over one capped page and takes no offset, so this page cannot carry the rest; they are all at [the board](https://trueinterview.io/interviews).
+> **These are the 50 newest of 2,993 reports on the board.** The catalog API hands over one capped page and takes no offset, so this page cannot carry the rest; they are all at [the board](https://trueinterview.io/interviews).
 
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |
@@ -16,7 +16,6 @@ What candidates say happened in the room — written up by the people who sat th
 | **Coinbase** | Software | [Coinbase Software Engineer Interview Experience: Production-Quality Coding and Engineering Focus](https://trueinterview.io/interviews/f552c22a-573f-4e06-b88c-34e12599d3bd) | Sep 30, 2026 |
 | **Coinbase** | Software | [Coinbase Task Management System Coding Interview Experience](https://trueinterview.io/interviews/cde9f50f-363c-41fa-890d-e5fb59299e40) | Sep 30, 2026 |
 | **Goldman Sachs** | Data & AI | [Goldman Sachs AI Model Training Engineering Interview Experience](https://trueinterview.io/interviews/4d120ad8-545f-4e03-800f-56bd90a62fe5) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs Booking.com Graduate Software Engineer Interview Experience (Amsterdam)](https://trueinterview.io/interviews/278a71b1-a4d7-4d33-92f5-bc1071bbbd0a) | Sep 30, 2026 |
 | **Goldman Sachs** | Software | [Goldman Sachs Coderpad Coding Interview Experience: First Non-Repeating Character & Grid DP](https://trueinterview.io/interviews/06eb061a-51ea-4cbe-99a1-23014b993183) | Sep 30, 2026 |
 | **Goldman Sachs** | Software | [Goldman Sachs Coderpad DSA and SuperDay System Design Interview Experience](https://trueinterview.io/interviews/cc8e57a3-d365-42f2-b035-337909cec077) | Sep 30, 2026 |
 | **Goldman Sachs** | Software | [Goldman Sachs Coding and System Design Interview Experience (Pastebin System Design)](https://trueinterview.io/interviews/2f5dfe0e-71d2-44b6-a618-820de3ee08a6) | Sep 30, 2026 |
@@ -43,6 +42,7 @@ What candidates say happened in the room — written up by the people who sat th
 | **Oracle** | Software | [Oracle Software Engineer Interview Experience](https://trueinterview.io/interviews/7836661b-38bb-4f30-bb95-54a7ca1ea406) | Sep 30, 2026 |
 | **Oracle** | Software | [Oracle System Design Interview Experience: Top K URL, Event Stream, and Log Collection](https://trueinterview.io/interviews/0861e4f8-afcb-4287-84ce-382b20895da8) | Sep 30, 2026 |
 | **Oracle** | Software | [Oracle Zoom + HackerRank Behavioral and LeetCode Sqrt(x) Coding Interview Experience](https://trueinterview.io/interviews/46a91614-afa6-49f7-a74d-77ffae87a7c6) | Sep 30, 2026 |
+| **LinkedIn** | Software | [LinkedIn Multiple Roles Interview Experience](https://trueinterview.io/interviews/8c7d147c-48c7-4b95-ad45-65f0aab9308a) | Sep 27, 2026 |
 | **LinkedIn** | Software | [LinkedIn Software Engineer Interview Experience](https://trueinterview.io/interviews/fafffd7d-0148-4e0c-b7e7-49088380fe6b) | Sep 27, 2026 |
 | **LinkedIn** | Software | [LinkedIn Staff Software Engineer Interview Experience](https://trueinterview.io/interviews/55459b32-c957-40d9-ad40-49afec7d2dae) | Sep 27, 2026 |
 | **Netflix** | Software | [Netflix String Arrays and Movie Deduplication Interview Experience](https://trueinterview.io/interviews/5d86dc85-2b88-4b1e-a8eb-0305663b9ec3) | Sep 27, 2026 |

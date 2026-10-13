@@ -6,92 +6,292 @@
 
 ---
 
-The infrastructure design round deletes the answer most candidates rehearsed: the GPU fleet is a fixed size, provisioning is far too slow to autoscale, the model process is an opaque black box, and traffic is bursty — so "add capacity" is off the table before the round begins. What remains is scheduling, batching, preemption, checkpointing, load shedding and graceful degradation, and candidates who have only practiced horizontal scaling run out of material in fifteen minutes. The second surprise is how low the questions go: the same loop that asks you to architect an inference service will also ask you to implement malloc and free, then push you from first-fit to best-fit, and will probe warp divergence and coalesced memory access to check that you do not treat a GPU as a rectangle on a diagram.
+OpenAI's infrastructure loop is built around scarce compute. The signature design prompt hands you a small, unreliable GPU pool you cannot simply grow, so the score comes from queueing, preemption, checkpointing and worker-failure recovery rather than from adding servers. Coding goes lower than at most companies: an allocator with `malloc` and `free`, a credit ledger with expiring grants, or a protocol over an asynchronous send primitive, each with runnable tests and follow-ups released one at a time. Team-specific hiring adds a domain interview with an engineer from the hiring team, and at least one candidate who cleared everything else was rejected on that round alone.
 
-## Interview Process
+This guide breaks down each stage of the OpenAI Infrastructure Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 104 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## OpenAI Infrastructure Engineer interview process
 
 <!-- guide-diagram -->
 ![OpenAI Infrastructure Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/openai--infrastructure-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (30–45 minutes).** Background, current level and promotion history, reasons for leaving, timeline and competing offers, sponsorship and relocation, the three-days-per-week onsite expectation, compensation expectations, and your preferred coding language. For this track the recruiter also probes domain surface area — which clusters, schedulers or accelerators you have operated — because it determines which specialist rounds get scheduled. Some candidates report the recruiter running scenario prompts here, such as how you would detect faults if a system suddenly took ten times its traffic.
+Infrastructure engineers are hired into specific teams such as fleet management, inference platform or research scaling, and the hiring team shapes the loop. Some loops run a single full day of coding and system design after the recruiter call; others start with a phone screen of up to two hours, then a virtual onsite of four or five rounds. AI infrastructure teams have added a 60-minute ML coding round next to a 75-minute systems coding round. The process typically takes three to eight weeks.
 
-2. **Technical phone screen — systems coding (about 60 minutes).** Low-level and resource-shaped rather than algorithmic. Reported prompts for this track: implement malloc and free with a first-fit free list, then optimize toward best-fit or logarithmic allocation with coalescing; a GPU credit ledger with grants, expiries and earliest-expiry-first deduction; rebalancing overlapping key ranges across shards while minimizing data movement; and designing a message protocol over an asynchronous send primitive so a root node can aggregate results from a tree of workers, with retries, request identifiers for idempotency and per-request state isolation for concurrency. Interviewers usually bring their own test cases and expect them to pass in the session.
+Mid-level candidates spend more of the loop on timed coding. Senior and staff candidates get design at the phone-screen stage, a principal-led deep dive and sometimes an extra director conversation. Recruiters confirmed senior-plus calibration on the first call when asked.
 
-3. **System design (60 minutes), the round that defines this track.** Prompts center on serving and scheduling under hard resource limits: maximize utilization of a fixed GPU pool for video generation with bursty traffic; design the scheduler and worker flow when one worker produces one artifact and the external GPU pool fluctuates in size; build a high-concurrency inference API that batches requests without breaking near-real-time latency, persists requests, prevents the same request from being rendered twice, and recovers when a worker dies mid-flight. Expect follow-ups on checkpoint-versus-restart recovery, queueing when the pool is saturated, avoiding wasted compute, priority inversion and starvation.
+Here's what the interview process can look like:
 
-4. **Domain deep dive.** A dedicated session on your specialty, run by someone who has done the work. Reported territory: managing GPU clusters on Kubernetes, device plugins, node autoscaling and shared-GPU contention, fault tolerance for long training jobs, observability across thousands of nodes, kernel-level optimization including memory hierarchy and occupancy, and CI/CD internals such as build caching with custom image layers and artifact storage. Vagueness here is fatal; interviewers push until they hit the limit of your experience.
+- **Recruiter screen (about 30 minutes):** Background, level, logistics and motivation, sometimes with a scripted scaling question.
+- **Technical phone screen (60 to 120 minutes):** A multi-part systems coding problem with runnable tests, often followed by a design hour.
+- **Coding interviews (one or two, 60 to 75 minutes):** Queues with retries, durable stores, asynchronous protocols and concurrency primitives.
+- **System design interview (one or two):** Scheduling under a fixed, fluctuating compute pool, or a payments, CI/CD or sandbox platform built around failure handling.
+- **Infrastructure domain interview (team-dependent):** A discussion with a hiring-team engineer of the systems that team owns.
+- **Technical deep dive:** A slide presentation of a system you built, defended down to implementation details.
+- **Behavioral and hiring manager interview:** Mission, AI safety, ownership and cross-functional work.
 
-5. **Project deep dive and behavioral.** One session reconstructing a past system end to end — decisions, rejected alternatives, measured outcomes, what you would change — sometimes presented with slides. One behavioral session, often with the hiring manager, covering motivation for this specific mission, ambiguity, disagreement, and incidents you owned. Technical follow-ups appear inside the behavioral round.
+> **Tip:** Ask the recruiter which team owns the requisition and what its domain round covers. Postings range from GPU fleet health to developer tooling, and the candidate rejected on the domain round was told to align preparation with that team's area.
 
-6. **Review, references and team match.** Candidate review and final approval are separate gates, and extra rounds get appended when signal is incomplete. References are requested, including a manager reference, and team matching requires sign-off from more than one hiring manager. Turnarounds range from two days to weeks, and rejections typically arrive as a template with no feedback.
+## Recruiter screen
 
-## What They Actually Evaluate
+The call runs about 30 minutes and is mostly logistics: the three-days-a-week office expectation, relocation and sponsorship, current level and promotion history, reasons for leaving, competing processes, previous base and equity, compensation expectations and coding language. One recruiter asked whether the candidate preferred product or infrastructure work; another mentioned a second open requisition. Recruiters agreed to space a loop out around other processes without penalty.
 
-### System Design
+A minority of screens turn technical. Recruiters working from a script asked how a candidate would find faults if traffic grew tenfold and what retry strategy they had built; both of those candidates were rejected here.
 
-One to two rounds and the highest-weighted competency on this track. The scenarios are deliberately constrained — fixed accelerator count, opaque model process, unpredictable arrival pattern — so the grade is your scheduling policy, not your topology. Strong answers commit to a queueing discipline and defend it: tiered or weighted-fair queues, batch formation with a deadline, aging to prevent starvation, load shedding with explicit client retries once queue depth crosses a threshold, and a health loop that preempts stalled work. The most common loss is spending the round on components and being asked, late, what happens when every accelerator is hot and thousands of requests are waiting.
+Interviewers evaluate:
 
-- [Design a Distributed Job Scheduler for GPU Compute Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform)
-- [Multi-Tenant CI/CD Workflow System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow)
-- [Payment Webhook System](https://trueinterview.io/questions/payment-webhook-system)
-- [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide)
+- **Concrete motivation:** A reason for OpenAI tied to your own work; generic enthusiasm about AI is recorded as such.
+- **Clear scope of experience:** Which clusters, schedulers or pipelines you actually ran, in terms a non-engineer can relay.
+- **Plain technical answers:** Short, jargon-light explanations of monitoring, retries and incidents.
+- **Level and timeline fit:** Promotion history and target level, which set the bar for the loop.
 
-### Coding and Algorithm
+Prepare a two-minute account of the infrastructure you have owned and a jargon-free incident story.
 
-One to two rounds of implementation with a systems flavor: resource ledgers with expiry, shard rebalancing under an overlap constraint, dependency version resolution pushed from a linear scan toward hierarchical search, and distributed aggregation over an async messaging layer. Follow-ups add failure and concurrency rather than asymptotics — retry without double counting, isolate state per request, keep the structure correct when messages arrive late.
+### Sample questions for the recruiter screen
 
+Here are some questions reported by recent candidates:
+
+- Walk through your current project, then explain how you would find what breaks if its traffic grew tenfold.
+- Describe a retry mechanism you built and how it kept the system out of error states.
+- Why OpenAI, and why now?
+
+- [How to answer common recruiter screen questions](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions)
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
+
+## Technical phone screen
+
+The screen is live coding in a shared editor that runs code, usually 60 minutes and up to 75. One scenario is released in parts, often four or five, and the next part opens only after the current one passes the interviewer's tests. Candidates were told three of five parts was enough. Several screens ran two hours: an hour of coding, a 15-minute break and an hour of system design.
+
+For infrastructure candidates the problem is usually resource-shaped. An inference-team screen was a memory allocator in C: first-fit over an explicit free list with splitting and coalescing, then best-fit. Other versions pushed both operations to logarithmic time. The other recurring families are a GPU credit ledger whose deductions spend the earliest-expiring grant first, and a plant-infection grid simulation that adds immunity, timed recovery, delayed death and finally row or column burning.
+
+Interviewers evaluate:
+
+- **Working code under the clock:** Each part must pass before the next opens; one candidate lost the later parts to clean-code habits.
+- **Defensible data structures:** For best-fit, a free-block index searchable by address for merging and by size for lookup.
+- **Exact rule handling:** Expiry boundaries, all-or-nothing deductions, simultaneous updates and off-by-one timers.
+- **Testing on request:** Your own cases and, when asked, a test plan for the allocator itself.
+
+Rehearse the allocator, the credit ledger and the infection simulation until the first three parts of each take under 30 minutes.
+
+> **Note:** Language choice costs real time. Two candidates using C++ finished fewer parts than they needed, one because of custom priority-queue comparators; most candidates use Python with sorted containers for the logarithmic follow-ups.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Manage a buffer of N bytes with `malloc(k)` and `free(ptr)`, no compaction, first with first-fit and then best-fit in logarithmic time.
+- Track GPU credit grants with expiry; `subtract` spends the earliest-expiring grants first and changes nothing if the balance is short.
+- Simulate infection on a grid with an eight-neighbor threshold, then add immunity, recovery after D days, threshold deaths, and row or column burning to minimize deaths.
+
+- [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md)
+- [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker)
+- [GPU Credit System with Validity Windows](https://trueinterview.io/questions/1811d9e3-291b-5957-a868-af0368f92233)
+- [Simulate Plant Infection With Controlled Burning](https://trueinterview.io/questions/simulate-plant-infection-with-controlled-burning)
+
+## Coding interviews
+
+The onsite has one or two coding rounds of 60 to 75 minutes. Problems are small systems components, and follow-ups add failures, persistence or concurrency. Reported prompts: a work queue with `reserve`, `complete` and `fail`, timeouts, retries and a dead-letter queue; a key-value store that rebuilds state from a log after a crash; a durable store whose files may not exceed 1 KB; rebalancing overlapping key ranges across shards with minimal movement; counting machines in a cluster tree over `sendAsyncMessage`; and a fair shared/exclusive lock.
+
+A newer prompt schedules dependent tool calls for several agents on separate threads, then adds a global concurrency limit; the candidate said thread pools, semaphores and condition variables were what mattered. Some loops add a refactoring exercise instead, such as restructuring a chat application around an event bus.
+
+Interviewers evaluate:
+
+- **Failure semantics in code:** Timeouts that requeue work, retries that never double count, and a dead-letter path.
+- **Idempotency and isolation:** Request identifiers, cached responses for duplicates and separate state per in-flight request.
+- **Persistence correctness:** What reaches disk before an acknowledgment and how recovery replays the log.
+- **Concurrency primitives:** Condition variables over busy waiting, release on every path, starvation-freedom when fairness is asked.
+- **Explaining the why:** One interviewer ignored a failing test and graded the reasoning instead.
+
+Practice building a queue, a log-backed store and a message protocol from an empty file in under 45 minutes each, then add one failure mode to each.
+
+> **Tip:** Reserve time for your own tests. The async-protocol candidate was asked to test normal operation, node failures and concurrent requests, and candidates who finished only the base implementation never reached the follow-ups that carry most of the signal.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Count the nodes in a tree of machines that communicate only by asynchronous messages, then add crash retries with request identifiers so nothing is counted twice.
+- Implement a work queue with reserve, complete and fail, visibility timeouts, bounded retries and a dead-letter queue.
+- Persist a key-value store to disk and reload it, then split data across files capped at 1 KB each.
+
+- [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue)
+- [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008)
+- [Implement an In-Memory Key-Value Store with Write-Ahead Logging for Crash Recovery](https://trueinterview.io/questions/746c7b5c-9f31-46ca-8bcf-0e0d69e5b090)
 - [Shard Rebalancing](https://trueinterview.io/questions/shard-rebalancing)
-- [GPU Credit Tracker](https://trueinterview.io/questions/gpu-credit-tracker)
-- [Count Nodes in a Distributed Tree via Async Messages](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008)
-- [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check)
 
-### Low-Level Design
+## System design interview
 
-Systems-programming fundamentals are tested directly rather than assumed. Allocators are the recurring prompt: build the naive version, get it correct, then be pushed to a better fit policy or a tree-backed free list with efficient coalescing, and be able to argue the trade-off. Locking and fairness primitives and durable key-value layers appear in the same slot.
+Most loops have one 60-minute design round; some add a second. The most common infrastructure prompt is a Sora-style video generation service: `POST /video` starts a job, `GET /videos` returns status, and a callback notifies an external service on completion. Each worker renders one video at a time, and the GPU pool is external, small and fluctuating, so nodes vanish mid-job. Follow-ups cover pool exhaustion, which jobs to preempt and how to requeue them, checkpoint versus restart, resuming without duplicate work and, later, priority tiers.
 
-- [Memory Allocator](../../questions/object-oriented-programming/memory-allocator/README.md)
+The other recurring prompts share that core. A payment system with holds, capture and nightly batch settlement at about 10,000 transactions per second was, in one candidate's words, a job scheduler in disguise. Others include a CI/CD system with build caches, custom image layers and failure-tolerant artifact uploads, and a sandboxed cloud IDE with VM lifecycle and log streaming.
 
-### Domain Deep Dive
+Interviewers evaluate:
 
-The specialist round separates infrastructure candidates from generalists. Reports include kernel launch behavior, global versus shared memory versus registers, avoiding warp divergence, coalesced access and occupancy when optimizing a matrix operation; distributed matrix multiplication with communication overlapped against computation; and GPU scheduling on Kubernetes with device plugins and shared-resource contention. Candidates are also asked how their accelerator knowledge changes a batching decision, which is where black-box answers collapse.
+- **Designing at fixed capacity:** Admission control, queue discipline, batching and load shedding when every worker is busy.
+- **Worker-failure recovery:** How a lost worker is detected, what is checkpointed, and how a resumed job is deduplicated.
+- **Requirements before architecture:** A candidate who rushed scoping missed that deduplicating work was the point and fell just short.
+- **Latency boundaries:** A message log inside a synchronous payment confirmation was rejected; asynchronous work belongs after the response.
+- **Breadth before depth:** Candidates who spent the round on one component or tangent were marked down.
 
-- [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04)
+Practice two or three scheduling designs end to end, each with an answer to "every GPU is busy and a worker just died".
+
+> **Note:** Design can outweigh coding. A recruiter told one candidate that design counted for more than coding on that team and scheduled an extra coding round instead of rejecting; several other rejections were attributed to design alone.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a video generation service where one worker produces one video, the GPU pool grows and shrinks unpredictably, and users are notified on completion.
+- Design a payment system that places holds through an external provider and settles approved transactions in a nightly batch.
+- Add a build cache and custom image layers to a CI/CD system and make artifact uploads to object storage tolerate failures.
+
+- [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform)
+- [Design Payment System](https://trueinterview.io/questions/payment-platform-design)
+- [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow)
+- [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c)
+
+## Infrastructure domain interview
+
+Teams hiring for a specific platform add a session with one of their engineers, mixing design and technical discussion inside their domain. Reported territory includes GPU infrastructure orchestrated on Kubernetes, CI/CD internals, and recovery for long-running inference jobs; earlier reports also covered GPU memory hierarchy and how batch shape changes a serving design. AI infrastructure teams may add a 60-minute ML coding session.
+
+This round carries more weight than its position suggests. One candidate passed coding, design, deep dive and cross-functional rounds and was rejected because of it, though kept eligible for matching with another team.
+
+Interviewers evaluate:
+
+- **First-hand operational detail:** What you ran, at what scale, what broke and how you found out.
+- **Honesty at the edge:** Interviewers probe until they reach your limit; naming it beats improvising.
+- **Hardware-aware reasoning:** Why accelerator memory, node health or interconnect limits change a scheduling decision.
+- **Operational judgment:** Monitoring signals, safe rollout and on-call trade-offs.
+
+Map each technology in the team's posting to an incident or design decision from your own work.
+
+### Sample questions for the infrastructure domain interview
+
+Here are some questions reported by recent candidates:
+
+- How would you manage GPU workloads on Kubernetes, and what changes when nodes fail?
+- An inference request has hung on a worker; when do you time it out, restart it or resume it from saved state?
+
 - [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy)
+- [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf)
+
+## Technical deep dive
+
+You present a past system, usually with slides; one candidate brought eight. The interviewer, sometimes a principal engineer, reconstructs it: your role and team size, each decision and the rejected alternatives, how success was measured and what you would change. Questions reach the implementation layer, including memory management, serialization formats, backpressure and actual performance numbers.
+
+Interviewers evaluate:
+
+- **Decision rationale:** Why each choice beat its alternatives on latency, cost or operability.
+- **Personal ownership:** What you designed and built yourself.
+- **Measured outcomes:** Before-and-after numbers and how you obtained them.
+- **Hindsight:** A credible redesign and the failure modes you would now handle.
+
+Choose a project you can explain from architecture down to code, and refresh its numbers beforehand.
+
+> **Note:** One candidate cleared coding, design and behavioral rounds and passed candidate review, then was rejected at final approval because the presentation was judged to lack depth.
+
+### Sample questions for the technical deep dive
+
+Here are some questions reported by recent candidates:
+
+- Present a distributed system you built and defend its consistency model and failure recovery.
+- Explain how your real-time pipeline handled backpressure and why you chose its serialization format.
+
 - [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
+- [Answer project deep dive and cross-functional questions](https://trueinterview.io/questions/answer-project-deep-dive-and-cross-functional-questions)
 
-## What They Don't Test
+## Behavioral and hiring manager interview
 
-- Autoscaling as a strategy. Multiple design prompts explicitly rule it out; what is rewarded is admission control, batching policy and degradation under a fixed pool.
-- Cloud-vendor product recall. No report turns on naming managed services; the questions go to queue semantics, checkpoint granularity and failure recovery.
-- Contest algorithms. The coding rounds are allocators, ledgers, rebalancers and protocols, and follow-ups add concurrency and failure rather than tighter complexity bounds.
-- Textbook capacity math. One interviewer let the candidate invent the traffic number so the conversation could move on to the failure model, which is where the score lives.
+Most loops include one behavioral round, often run by the hiring manager, and some add a 30-minute cross-functional conversation or a product manager session. Beyond conflict, delays and failure, expect why OpenAI, your view on AI safety, how you balance speed against quality and safety, and a project you finished but chose not to release. Stories get technical follow-ups. One manager call lasted 15 minutes and still decided the outcome; another manager explained the 90-day and one-year performance checkpoints.
 
-## The Real Filter
+Interviewers evaluate:
 
-The primary rejection path is a design answer that depends on elasticity. Candidates arrive with a scaling playbook, hear a prompt about GPU serving, and reach for more workers. The prompt has already removed that option, and the interviewer is measuring whether you can maximize utilization at a fixed capacity: how batches are formed, who gets preempted, what is checkpointed, what is shed, how tail latency is traded against throughput, and how a repeatedly preempted low-priority job avoids starving. Rehearse a scheduler you can defend end to end, including what happens when the queue is full and nothing can be added.
+- **Mission reasoning:** A personal answer to why OpenAI and a considered AI safety position.
+- **Ownership and agency:** Projects you drove to shipping without causing incidents.
+- **Judgment about not shipping:** When you held back a launch and what evidence decided it.
+- **Initiative in quiet rooms:** A candidate who let a near-silent manager lead was rejected for insufficient signal.
 
-Second, black-box accelerator knowledge. Candidates who can describe a serving architecture but not why batch shape, memory hierarchy or occupancy changes that architecture get downgraded in both the design and deep-dive rounds. One candidate's own conclusion was that a solid grasp of accelerator internals proved essential to the system design round, not just the specialist one.
+Prepare six to eight stories with technical depth behind each.
 
-Third, worker failure treated as an afterthought. Nearly every design prompt on this track ends in the same place: a worker dies partway through a long job. Reports where the candidate struggled to choose between resume-from-checkpoint and restart, or could not describe how partial state is preserved and deduplicated, are consistently the rounds that went badly.
+### Sample questions for the behavioral and hiring manager interview
 
-## Data Source
+Here are some questions reported by recent candidates:
 
-Based on 104 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+- Tell me about a project you completed but chose not to release, and why.
+- How do you balance moving fast against quality and safety?
+- Describe a conflict with a manager and how it was resolved.
 
-## FAQ
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety)
 
-**What is infrastructure work like here?**
-Our reports describe the loop rather than the job, so this is context: the prompts mirror the stated work — fleet health and capacity planning for large accelerator clusters, inference serving reliability, and operational automation across thousands of nodes. Ownership is concentrated rather than diffuse, with one directly responsible individual per project, and the pace is widely described as urgent. Compensation is not something candidates report consistently; the onsite expectation is three days a week in the office.
+## How OpenAI levels and evaluates Infrastructure Engineer candidates
 
-**What is the engineering culture like?**
-Interviewers are described as collaborative and specific — several deep dives were run by people with direct experience in the same domain, which makes the sessions more like peer review than quizzing. The flip side is that first-principles reasoning is expected: standard best-practice templates draw follow-ups asking why, and answers that cannot be defended on latency, cost or maintainability lose ground quickly.
+Feedback goes through a candidate review and then a separate final approval, and either can stop an offer. One recruiter said a packet needs one or two strong-hire ratings to reach the hiring committee; another loop ended before committee for lack of strong positive signals. Mixed signal often brings an extra coding, design or director round rather than an immediate rejection.
 
-**How hard is it to get in?**
-Hard, and the difficulty is breadth rather than any single question. A single loop can move from kernel-level memory behavior to a distributed scheduler to an allocator implementation, and the final call is made by reviewers you never met. Reports of positive feedback in every round followed by rejection are common, sometimes framed as headcount rather than performance.
+Level is calibrated before the loop; reported bands run through L4, L5 and L6. References follow a positive loop, usually two including a manager. Team-specific hires skip team matching; others match after approval, which can stall when the original team's headcount fills. Offers have come two days after the final round; rejections usually arrive within a week without detailed feedback.
 
-**Which round is hardest?**
-The constrained-resource system design round. It is open-ended, the prompt removes the familiar answer, and interviewers keep pressing into failure and saturation until something breaks. The domain deep dive is a close second for candidates whose specialty is adjacent rather than exact — the interviewer will find the edge of your experience.
+> **Tip:** Line up two references, including a former manager, before the onsite. One candidate with references ready went from a Friday onsite to an offer the following Thursday.
+
+## How to prepare for the OpenAI Infrastructure Engineer interview
+
+1. **Drill the resource-shaped coding families:** Allocator, expiring credit ledger and infection simulation, each through three parts in under 30 minutes.
+2. **Build failure into every component:** Queues, log-backed stores and async protocols with retries, idempotency keys, timeouts and tests for crashes.
+3. **Rehearse a scheduler at fixed capacity:** Defend pool exhaustion, preemption, checkpoint versus restart and deduplicated resume.
+4. **Scope before you draw:** Generic templates and single-component fixation were common design rejection causes.
+5. **Pick a fast language:** Python with sorted containers handled logarithmic follow-ups; C++ syntax cost candidates whole parts.
+6. **Prepare for the team's domain round:** Tie each technology in the posting to your own incidents and decisions.
+7. **Rebuild your deep-dive project from the code up:** Numbers, serialization, backpressure and rejected alternatives.
+8. **Make mission answers specific:** Why OpenAI, an AI safety position and a time you chose not to ship.
+
+## About the OpenAI Infrastructure Engineer role
+
+Infrastructure engineers build and run the compute behind research training, ChatGPT and the API: GPU nodes across dozens of Kubernetes clusters in several regions, job scheduling, snapshot delivery, CI/CD, hardware health and developer tooling. Teams are small relative to the fleet they own, a single hardware fault can stall training, and engineers describe fast-changing direction with more problems than people. Most roles are in San Francisco, three days a week in the office, with relocation offered.
+
+OpenAI hires Infrastructure Engineers across several groups. Teams include:
+
+- **Fleet High Performance Computing:** Reliability and uptime of the entire compute fleet.
+- **Fleet Infrastructure and Fleet Management:** Job scheduling, cluster management, snapshot delivery, CI/CD and server-level tooling.
+- **Scaling:** Research infrastructure, including bringing training and inference workloads onto new hardware.
+- **Applied Engineering GPU Platform:** Kubernetes clusters, GPU health and interconnect performance behind ChatGPT and the API.
+- **Model Inference:** Scaling the serving stack on a heterogeneous fleet of cloud VMs.
+- **Engineering Acceleration:** Internal developer tooling, builds and CI.
+
+### Infrastructure Engineer experience and education requirements
+
+Postings ask for strong software engineering in large-scale infrastructure rather than a specific degree: Kubernetes, CI/CD, Terraform, public clouds, Linux internals, containerization, configuration and firmware management, and hyperscale compute, usually in Python, Go, Rust or C++. Principal platform roles ask for ten or more years including GPU clusters at scale and on-call.
+
+## FAQs about the OpenAI Infrastructure Engineer interview
+
+### How long does the OpenAI Infrastructure Engineer interview process take?
+
+Typically three to eight weeks. One referral took about four weeks to reach a phone screen and two more to the onsite; a faster loop went from recruiter screen to offer in three to four weeks. Team matching after approval adds time.
+
+### What is the hardest round of the OpenAI Infrastructure Engineer interview?
+
+System design, where the fixed GPU pool rules out the usual scaling answer and interviewers keep adding failures. The team's domain interview and the deep dive follow closely; each has sunk otherwise passing loops.
+
+### Is there an online assessment or take-home?
+
+Most infrastructure loops go straight from the recruiter to a live technical screen. A recent senior infrastructure loop had no take-home, though some OpenAI teams have used one; confirm with the recruiter.
+
+### What programming language should I use?
+
+Any mainstream language. Most candidates use Python; inference-team screens have asked for C, and C++ users lost time to syntax.
+
+### How much does an OpenAI Infrastructure Engineer make?
+
+Approximate total annual compensation for software engineers in the United States:
+
+- **L4:** ~$670K
+- **L5:** ~$1M
+
+Base salary, which one hiring manager capped at about $327K for L5 and $385K for L6, is the smaller part; new offers moved from profit participation units to restricted stock units in early 2026, with no vesting cliff.
+
+### What happens after a rejection?
+
+Rejections usually arrive without feedback. Candidates rejected on a team-specific round have stayed eligible for another team's match, and some rejections were attributed to headcount rather than performance.
 
 ---
 

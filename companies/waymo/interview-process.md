@@ -6,82 +6,311 @@
 
 ---
 
-Waymo holds candidates to a Google-grade coding bar while testing how they reason about safety-critical, data-heavy systems under ambiguity. This guide goes deeper than the outline on the company page: how each stage is graded, where candidates fail, and how the Machine Learning Engineer track layers ML coding and ML system design onto the shared loop, drawing on 30 real Waymo questions and 37 candidate interview reports.
+Waymo expects finished, tested code for problems interviewers wrote themselves, and unfinished code is the most common rejection reason in the reports. The hiring team builds the loop, so rounds vary widely: a phone screen can be a parser, an object-oriented design or two ML design sessions. Two rounds are rare elsewhere: data fluency, which grades statistical judgment on driving metrics, and system design drawn from the interviewer's own autonomous-driving project.
 
-## Interview Process
+This guide breaks down each stage of the Waymo interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 35 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Waymo interview process
 
 <!-- guide-diagram -->
 ![Waymo interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/waymo/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter conversation and logistics.** Use this call to pin down three things candidates repeatedly wish they had confirmed: the exact track (software, ML, simulation, infrastructure, SRE, mobile), the target level, and the format of the next round. Leveling mismatch is a real failure mode — one candidate passed the technical screen cleanly and was still turned down because the recruiter framed the opening as L4 while the hiring manager wanted senior scope. Recruiters are not always specific about topics, so ask directly whether the screen will be algorithmic, design-flavored, or domain-specific. End to end, the process typically runs four to eight weeks, with interviewer feedback reviewed by a hiring committee before an offer.
+The usual path is a recruiter call, one technical screen (sometimes two), and a virtual onsite of three to five rounds. Each team picks its own onsite mix. One software loop had two coding rounds, fleet design and behavioral. Another had pen-plotter design, data fluency, data system design and technical leadership. The process typically takes four to six weeks.
 
-**Technical phone screen.** Usually a single 45-60 minute call built around one substantial problem, sometimes preceded by 10-15 minutes of project and behavioral questions. Two patterns stand out in candidate reports. First, many problems are interviewer-authored rather than textbook: custom string grammars with escapes, contamination tracking on a number line, alternating two-column layout minimized by binary search, expression trees serialized with minimal parentheses. Recognizing a famous pattern helps less than disciplined requirement discovery. Second, the grading is strict about finished code: candidates who produced only detailed pseudocode or an unpolished implementation report quick rejections, even when the interviewer liked their reasoning. Expect follow-ups that mutate the problem — query an encoded string by index without decoding, extend a fixed chessboard to an infinite one, generalize three operands to n — and expect to define your own function signatures, write your own tests, and sometimes share your screen while coding. A meaningful fraction of screens are not algorithmic at all: candidates have been asked to design a text editor, a passenger-pickup scheduler, or an interval tracker over timestamp signal streams at this stage.
+Early-career and L4 loops are mostly coding plus one design round. Senior loops add system design, data fluency with experiment design, and sometimes a technical leadership round built on hypotheticals. ML loops keep an algorithm round and add ML coding, ML system design and a project deep-dive.
 
-**Virtual onsite.** The loop is typically four to five rounds. Coding sessions escalate beyond the screen — geometry with evolving constraints (maximum rectangle area, then no interior points, then non-axis-aligned discussion), sparse matrix multiplication with storage-format trade-offs, backtracking variants where the greedy answer fails, and DP problems pitched harder than typical phone-screen fare. System design is conversational and frequently drawn from the interviewer's own project: the problem statement can be dense, requirements arrive incrementally, and several candidates note the interviewer neither diagrams nor takes visible notes, so you must keep your own structure coherent while being redirected. A distinctive round is data fluency: given two experiment datasets — disengagement-style progress metrics, planner latency distributions — choose an appropriate statistical test, justify sample size and confounders, and say which experiment is actually better. Senior loops may swap in a technical-leadership session built on hypothetical scenarios rather than past experience.
+Here's what the interview process can look like:
 
-**Machine Learning Engineer track.** ML candidates keep the full coding bar and add two to three domain rounds. ML coding means implementing methods from scratch in Python and NumPy: K-means with fully vectorized distance computation via broadcasting, Transformer components (multi-head attention, positional encoding), max pooling that returns argmax coordinates. Grading centers on dimensional reasoning, vectorization instead of Python loops, and edge cases such as empty clusters and convergence criteria. ML system design is almost always framed on vehicle sensor and camera data: behavior prediction with multi-modal future trajectories and planner consumption, imminent-danger detection under latency budgets, environment-change prediction, perception-model evaluation platforms that must simulate rare events at scale, and drop-off spot selection balancing safety margins against rider convenience. Interviewers push through the whole pipeline — inputs and labels, architecture, loss formulation, training stages, uncertainty quantification — and multiple rounds can feel thematically similar while testing different horizons. Some loops add a performance round: back-of-envelope capacity planning for inference serving at 100M DAU, quantization-aware training, distillation, kernel fusion and memory layout, plus hands-on debugging of aliasing and axis bugs in tensor code.
+- **Recruiter screen:** A short call that confirms team, track, target level and the next round's format.
+- **Technical phone screen (one or two):** A 45–60 minute live session, usually one substantial problem.
+- **Coding interviews:** One or two onsite rounds of interviewer-written problems that change as you solve them.
+- **Object-oriented and practical design round:** Model a workflow, parse messy data or rewrite flawed code, at the screen or onsite.
+- **System design interview:** A conversational round on fleets, simulation, evaluation platforms or logs.
+- **Data fluency interview:** Compare experiments on driving or latency metrics and defend a statistical conclusion.
+- **ML coding and ML system design (ML tracks):** NumPy from scratch and perception or prediction design on sensor data.
+- **Behavioral and technical leadership interview:** Project deep-dive, motivation and judgment scenarios, sometimes with the hiring manager.
 
-**Behavioral and project rounds.** These go deeper than STAR checklists. Project deep-dives continue until you can defend a decision, name a failure, and say what you would change in hindsight; ML variants blend the deep-dive with fundamentals about trade-offs and deployment. At L5 and above, expect ethically loaded prompts about policy adherence versus operational efficiency in an autonomous-driving context.
+> **Tip:** Ask the recruiter for each round's topic, then keep a fallback ready. One candidate told to expect C++ coding got a protocol-style parser. Another expected algorithms and got a text-editor design.
 
-## What Candidates Report
+## Recruiter screen
 
-- Interviewer-authored problems are the norm, not the exception. Candidates who leaned on memorized patterns got stuck on custom parsers, unknown-maze robots executing a fixed instruction sequence, and open-ended CSV processing with deliberately unstated requirements.
-- Unfinished code is the most cited reason for rejection. Several candidates identified the right approach — binary search on a monotonic property, bucket sort for maximum gap — and were still cut for not landing a working implementation in time.
-- Pacing is inconsistent by interviewer: some stay silent throughout coding, others interrupt and redirect design discussions repeatedly. Both extremes derailed candidates who depended on continuous feedback; narrate your plan and keep your own whiteboard organized.
-- Long preambles compress solving time. Interviewers have spent 20-30 minutes explaining rules or the internal tech stack, leaving candidates rushed; steering politely toward implementation is part of the test.
-- The autonomous-driving context is embedded everywhere — coding problems about vehicle navigation, design problems about simulation and fleets, statistics problems about progress metrics — so domain intuition pays off even in generic-looking rounds.
-- Silence after the final round is common, and a polite follow-up has triggered an additional round rather than a decision. Rejections arrive fast and without detailed feedback.
+Most candidates arrive through recruiter outreach or cold applications. The call confirms the track (software, ML, simulation, infrastructure, SRE, Android, frontend), the level and the location. Some recruiters say little about content, and one stopped replying when asked about topics.
 
-## Coding Questions
+Interviewers evaluate:
 
-Waymo coding rounds reward choosing the right tool aloud — BFS versus DFS versus Dijkstra, stack versus recursion, when a monotonic property unlocks binary search — and then finishing clean, tested code. Practice the follow-up rhythm: solve the base problem quickly, because a constraint change is almost certainly coming.
+- **Level fit:** How your years and scope match the opening, which shapes the loop.
+- **Track match:** Onboard C++, ML, infrastructure or product experience.
+- **Motivation:** Why autonomous driving and why Waymo, which returns in the behavioral round.
 
-- [Shortest Path from Source to Target Nodes (Dijkstra)](https://trueinterview.io/questions/dijkstra-shortest-path-to-targets)
-- [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens)
-- [Two-Column Table: Place Divider to Minimize Total Height](https://trueinterview.io/questions/two-column-table-optimal-divider)
+Prepare a two-minute background that states your years of experience and largest scope plainly.
+
+> **Note:** A level mismatch can end a candidacy after a strong technical round. One candidate passed the coding screen for what the recruiter called an L4 opening. The hiring manager wanted four to five years of experience and turned down a candidate with about two. Confirm the level band with both people.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and the projects you have led.
+- Why Waymo, and which part of the driving stack interests you?
+- How many years of industry experience do you have?
+
+## Technical phone screen
+
+The screen is a 45–60 minute call with an engineer in a shared editor. Some interviewers ask you to share your screen while coding. Some calls open with 10–15 minutes on a past project or a hard debugging story. Problems are often written by the interviewer. Examples include a custom string format with nested rules and escapes, and online contamination coverage of the interval from 0 to 50. Others were a two-column word layout solved by binary search on the divider, and an expression tree printed with the fewest parentheses.
+
+Follow-ups change the problem. Candidates queried a run-length encoded string by index without decoding it, generalized three numbers and a target to n numbers, and wrote their own test cases. Classic problems also appear: Dijkstra to several targets, a quadratic transform of a sorted array in linear time, and maximum gap with bucket sort. Rejections can arrive within two days.
+
+Interviewers evaluate:
+
+- **Finished, running code:** Candidates who ended with pseudocode or half-working code were usually rejected. One advanced without a full solution, and that was the exception.
+- **Requirement discovery:** What counts as a cycle, what makes a placement invalid, what to return for an unreachable target.
+- **Algorithm choice stated aloud:** Dijkstra over BFS, a trie over a hash map, a monotonic property that allows binary search.
+- **Self-testing:** Empty input, overflow when squaring, and a test list you write without being asked.
+
+Practice finishing a medium-to-hard problem with tests in 35 minutes, then handling one change.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Run-length encode a string, then return the character at an index without decoding it.
+- Sources land one by one on integer points of [0, 50], each covering one unit. After each arrival, report whether the line is fully covered.
+- Decide whether (parent, child) pairs form a valid forest, then write your own tests.
+
+- [Run-Length Encoded String: Find by Index and Range Max](https://trueinterview.io/questions/run-length-encoding-find-by-index)
 - [Streaming Interval Coverage on a Number Axis](https://trueinterview.io/questions/interval-pollution-coverage)
-- [Hand-Write K-Means Clustering (NumPy)](https://trueinterview.io/questions/ml-coding-handwrite-kmeans)
+- [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges)
+- [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens)
 
-## System Design Questions
+## Coding interviews
 
-Design prompts are domain-shaped and under-specified on purpose: evaluation platforms, fleet operations, and ML pipelines over sensor data rather than a standard consumer app. Lead with requirements clarification, quantify constraints early, and connect offline evaluation to on-road behavior — rare events, uncertainty, and latency are where interviewers dig.
+Onsite problems are harder than the screen and grow in stages, and some sessions hold two problems. One round started with the largest axis-aligned rectangle from a point set, then banned interior points, then discussed rotated rectangles. Others were sparse matrix times vector from both sides with compressed storage formats, a Jump Game variant where greedy fails, string dynamic programming, and an in-place copy of an overlapping image region.
+
+Some problems have a driving theme. A robot in an unknown maze must reach the exit with one fixed instruction sequence. A car following direction rules must reach a destination or be shown stuck in a cycle. One candidate designed a pen plotter's shortest travel path, defining the interface without running code.
+
+Interviewers evaluate:
+
+- **Exact constraints:** The maze candidate assumed the robot could map as it moved and lost the round.
+- **Adapting the base solution:** Absorbing each new constraint without a rewrite.
+- **Breadth:** Geometry, graph cycles, backtracking, string DP and numerical data structures all appear.
+- **Clean C++ or Python:** Onboard teams value C++, and Python is accepted elsewhere.
+
+Practice problems that change mid-round, and restate what the agent knows before you code.
+
+> **Note:** One unfamiliar round can sink a strong loop. Candidates who did well in ML and design rounds were rejected over a single unfinished coding problem.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Find the largest rectangle with corners in a point set, then forbid interior points.
+- Multiply a sparse matrix by a vector from the left and from the right, and choose a storage format.
+- Solve a Jump Game variant where every path must be explored with pruning.
+
+- [Largest Rectangle Area](https://trueinterview.io/questions/max-area-rectangle-coordinate-set)
+- [Sparse Matrix Left- and Right-Multiply Vector](../../questions/object-oriented-programming/sparse-matrix-vector-multiply/README.md)
+- [Minimum travel path for a pen-plotter to draw given strokes](https://trueinterview.io/questions/3381639d-07f5-4b35-b058-b7310ebb194d)
+
+## Object-oriented and practical design round
+
+Many screens and some onsite slots replace algorithms with a practical build. Reported prompts are a text editor in the style of Vim, and a passenger pickup scheduler that later adds skipped slots and cancellation. Others are an interval tracker over two timestamp signal streams, a rate limiter, a text-diff tool, and debugging a flawed snippet.
+
+Some versions give almost no requirements. One candidate received raw CSV for downstream teams with no specification. Another parsed CSV with quoted fields and corrupted rows and had to choose between skipping, raising and repairing. Android and frontend screens follow the same pattern, such as a Compose pickup screen with currency conversion and a Battleship board.
+
+Interviewers evaluate:
+
+- **A contract first:** Scope of limits, window type, threading, input and output types.
+- **Entities and invariants:** State that stays consistent through cancellations and skips.
+- **Error-handling policy:** Explicit, defended choices for corrupted input.
+- **Working code:** These rounds still end in running code.
+
+Practice turning a one-line scenario into a small, testable design in 45 minutes.
+
+> **Tip:** If the interviewer spends a long time on rules, say the requirements back in one sentence and start coding. One frontend candidate lost most of the hour to the explanation.
+
+### Sample questions for the object-oriented and practical design round
+
+Here are some questions reported by recent candidates:
+
+- Design a pickup scheduler that totals time, then support skipped slots and cancelling undispatched runs.
+- Build a CSV parser that handles quoted fields and corrupted rows, and defend your error policy.
+
+- [Waymo Passenger Pickup Scheduler (OO Design)](https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design)
+- [Process Raw CSV for Downstream Consumers](https://trueinterview.io/questions/csv-parser-open-ended)
+- [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood)
+
+## System design interview
+
+Design is a conversation, often based on the interviewer's own project, and the prompt can be dense. Reported prompts include a parking lot joined to a ride-hailing fleet that tracks charging, maintenance, utilization and turnaround. Others are a perception evaluation platform that simulates rare events at scale, flags physically impossible objects and survives simulator bugs, and a simulation-log aggregator for when road data is scarce. A human-plus-LLM evaluation system and an elevator controller with sky lobbies also appear. Some interviewers never draw or take notes, while others redirect constantly.
+
+Interviewers evaluate:
+
+- **Requirement framing:** Goals, constraints and metrics within ten minutes.
+- **Domain judgment:** Simulation throughput, rare-event coverage, sim against road data, fleet states.
+- **Your own structure:** A coherent outline when the interviewer is silent or redirecting.
+- **Senior depth:** Failure modes such as bugs in the simulator and keeping test results valid.
+
+Practice simulation, evaluation and fleet systems rather than consumer apps.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design an evaluation platform for self-driving perception that simulates rare events at scale.
+- Design parking-lot management integrated with a robotaxi fleet, including fleet metrics.
+- Aggregate simulation logs when real-vehicle test data is scarce.
 
 - [System Design: Evaluate a Self-Driving Model End-to-End](https://trueinterview.io/questions/sd-evaluate-self-driving-model)
 - [System Design: Parking Lot + Robotaxi Dispatch](../../questions/system-design/sd-parking-and-dispatch/README.md)
+- [Simulation Log Collection and Result Aggregation](https://trueinterview.io/questions/sd-simulation-log-aggregation)
+- [Evaluation System with Human + LLM Evaluators](https://trueinterview.io/questions/sd-evaluation-system-llm-human)
+
+## Data fluency interview
+
+Software engineers are also tested on data. This round is a discussion about measuring progress in autonomous driving. Candidates compared two experiment datasets on disengagement-style metrics and chose between a t-test and a chi-square test. Others designed an experiment with metrics, sample size and confounders. In one extra round, a candidate compared two planner latency distributions. Senior loops include it even for pure software roles.
+
+Interviewers evaluate:
+
+- **Metric definition:** Per-mile rates, rare-event counts or latency percentiles, each with a reason.
+- **Test selection and power:** The right test, its assumptions, and whether rare events give enough data.
+- **Confounders:** Differences in route, weather and software version between arms.
+- **A verdict:** Which experiment wins, and with how much confidence.
+
+Review hypothesis testing and power analysis, then practice a two-minute verdict.
+
+> **Note:** Candidates call this the hardest round to prepare for through coding practice. One senior rejection was mainly attributed to shallow experiment design.
+
+### Sample questions for the data fluency interview
+
+Here are some questions reported by recent candidates:
+
+- Compare two experiments on driving progress metrics and pick the better one with a statistical test.
+- Compare two sets of planner latency data and judge which performs better.
+
+- [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates)
+- [Compare two rare-event detection models statistically](https://trueinterview.io/questions/compare-two-rare-event-detection-models-statistically)
+- [How compare Waymo turning trajectories statistically](https://trueinterview.io/questions/how-compare-waymo-turning-trajectories-statistically)
+
+## ML coding and ML system design interviews
+
+ML candidates sit two to four domain rounds plus at least one algorithm round. ML coding is from scratch in NumPy. One 60-minute screen was K-means with distances computed through broadcasting, empty clusters re-seeded and a convergence tolerance. Another was max pooling that returns argmax coordinates. An ML systems loop ended with debugging a shared zeros matrix, a missing axis argument and a conversion that dropped remainders.
+
+ML design uses vehicle sensor and camera data. Prompts include predicting environment changes, detecting imminent danger under latency limits, choosing a drop-off spot that balances safety against convenience, and predicting behavior. One screen was two similar design sessions testing different time horizons. Another loop spent three rounds serving a model to 100 million daily users, with back-of-envelope estimates, quantization-aware training, distillation and kernel fusion.
+
+Interviewers evaluate:
+
+- **Vectorization and shapes:** Broadcasting instead of loops, with every dimension accounted for.
+- **The full pipeline:** Labels, architecture, loss, training stages, uncertainty and use by the planner.
+- **Edge cases:** Rare road scenarios and model behavior under uncertainty.
+- **Quantitative serving:** Estimates that justify each optimization.
+
+Implement K-means, attention and pooling in plain NumPy, and rehearse one sensor-data design from end to end.
+
+### Sample questions for the ML coding and ML system design interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement K-means with vectorized distances, and handle empty clusters.
+- Design a model that detects imminent danger from sensor and camera data in real time.
+- Size inference serving for 100 million daily users and choose compression and kernel optimizations.
+
+- [Hand-Write K-Means Clustering (NumPy)](https://trueinterview.io/questions/ml-coding-handwrite-kmeans)
+- [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates)
 - [ML System Design: Behavior Prediction from Sensor + Camera Data](https://trueinterview.io/questions/sd-ml-behavior-prediction-from-sensors)
 - [ML System Design: Inference Serving with Back-of-Envelope Capacity Planning](https://trueinterview.io/questions/sd-ml-inference-serving-back-of-envelope)
 
-## Low-Level Design Questions
+## Behavioral and technical leadership interview
 
-Object-oriented and practical-implementation rounds test whether you can define a contract from ambiguity: model the entities, state the invariants, and show how the design absorbs cancellation or corrupted input. A small, testable interface beats a sprawling class hierarchy.
+This round covers projects, conflict, collaboration and motivation, and it goes past STAR answers. Interviewers probe until you defend a decision, name a failure and say what you would change. The hiring manager sometimes runs it. At L5 and above, one candidate got a trolley-problem-style question on policy against operational efficiency. Technical leadership rounds may use a hypothetical team scenario instead of past experience.
 
-- [Process Raw CSV for Downstream Consumers](https://trueinterview.io/questions/csv-parser-open-ended)
-- [Battleship Board (React, Frontend Onsite)](https://trueinterview.io/questions/battleship-react-frontend)
-- [Prefix Autocomplete via Trie](https://trueinterview.io/questions/trie-prefix-autocomplete)
+Interviewers evaluate:
 
-## AI-Assisted Coding Questions
+- **Ownership:** Your exact contribution, rejected alternatives and results.
+- **Safety judgment:** Weighing policy, efficiency and safety with real depth.
+- **Leading in hypotheticals:** A credible plan for a fictional team problem.
+- **Reflection:** Honest hindsight about a project or debugging story.
 
-The tensor-debugging round looks like maintenance, not greenfield work: find aliasing from a shared zero matrix, a missing axis argument, a conversion that truncates remainders. Trace shapes and mutation line by line, state the invariant each function should hold, and explain the production impact of each defect before fixing it.
+Prepare six to eight deep stories and frameworks for safety against speed and leading through disagreement.
 
-- [ML Coding: Debug a NumPy / Tensor Framework](https://trueinterview.io/questions/ml-coding-tensor-framework-debug)
+### Sample questions for the behavioral and technical leadership interview
 
-## Behavioral Questions
+Here are some questions reported by recent candidates:
 
-Behavioral interviewers probe past the polished story: your exact contribution, the alternative you rejected, the decision you would reverse. Senior candidates should prepare for hypothetical judgment scenarios — including tension between policy, efficiency, and safety — where the expected depth of reflection is high.
+- Describe the biggest change you have driven, and a hard debugging experience.
+- How would you balance policy adherence against operational efficiency in autonomous driving?
 
-- [L5+ Behavioral: Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/questions/behavioral-policy-vs-efficiency-leadership)
+- [Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/questions/behavioral-policy-vs-efficiency-leadership)
+- [Describe a Project You Are Proud Of](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2)
 - [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/questions/project-deep-dive-ml-fundamentals)
 
-## How to Prepare
+## How Waymo makes hiring decisions
 
-- Train to finish: clarify, implement, and test within 35 minutes, then handle one constraint mutation. Waymo reports show pseudocode-only performances failing regardless of reasoning quality.
-- Drill the recurring algorithm families from real reports: graph traversal with cycle detection, Dijkstra, expression trees and custom parsers, interval coverage, backtracking where greedy fails, and binary search on monotonic properties.
-- Practice defining your own function signatures, I/O formats, and test batteries — several rounds hand you nothing but a scenario and expect a runnable program with self-designed tests.
-- For ML rounds, implement K-means, attention, and pooling in raw NumPy with explicit broadcasting, and rehearse full-pipeline designs (inputs, labels, loss, training stages, uncertainty, serving) on sensor-data scenarios.
-- Prepare for the data fluency round separately: statistical tests for comparing experiments, sample-size reasoning, confounders, and metric definitions for measuring autonomous-driving progress.
-- Build behavioral answers that survive follow-ups — including a hypothetical policy-versus-efficiency dilemma — and be ready to defend your leveling with concrete scope and ownership evidence.
-- Manage the clock yourself: if a preamble runs long, summarize the requirements back and start coding.
+Interviewers submit written feedback, and a hiring committee reviews the packet before an offer. The onsite is staffed by the hiring team, so fit with that team matters. A passed screen may sometimes carry over to another team. Level is set by the recruiter and checked against experience, and a mismatch or a filled L4 headcount has ended candidacies. One unfinished coding round is often decisive. Silence after the onsite is common. One follow-up after a week brought an extra round, not a decision, and the eventual rejection was automated.
+
+> **Tip:** After a week without news, follow up, and prepare for one more technical round.
+
+## How to prepare for the Waymo interview
+
+1. **Train to finish:** Clarify, code and test in about 35 minutes, then absorb a change. Pseudocode-only answers were rejected.
+2. **Drill the recurring families:** Graph cycles, Dijkstra, expression trees and parsers, interval coverage, backtracking, and binary search on monotonic properties.
+3. **Write your own tests:** Some rounds start from a scenario with no signature and ask for your test list.
+4. **Prepare data fluency separately:** Compare two experiments on rare-event and latency metrics, with power and confounders.
+5. **Design for the domain:** Simulation, evaluation, fleet and log systems, keeping your own outline.
+6. **For ML, write NumPy from memory:** K-means, attention and pooling, plus one sensor-data pipeline.
+7. **Confirm level and format early:** Get the level band and each round's topic in writing.
+
+## About working at Waymo
+
+Waymo, Alphabet's autonomous-driving company, runs fully driverless ride-hailing in a growing set of US cities. Engineering spans the onboard driver and the offboard infrastructure that trains, simulates and evaluates it. Many engineers came from Google, so the code-quality culture will feel familiar. Decisions rest heavily on simulation and on-road metrics.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L3 (entry level) | Well-scoped features with guidance | Tasks within one team |
+| L4 (mid level) | Owning components end to end | One team's systems |
+| L5 (senior) | Leading projects and technical direction | A team and its partners |
+| L6 (staff) | Cross-team architecture and strategy | Several teams |
+
+Waymo hires software and ML engineers across the driving stack. Teams include:
+
+- **Perception:** Models and evaluation that turn camera, lidar and radar data into a scene.
+- **Planner:** Behavior prediction, motion planning and vehicle dynamics.
+- **Simulation:** Realistic agents, roads, weather and sensors for testing and training at scale.
+- **ML infrastructure and compute:** Training, storage, data pipelines and serving.
+- **Onboard software:** Performance-critical C++ that runs on the vehicle.
+- **Rider and fleet products:** Rider apps, pickup and drop-off, and fleet operations.
+
+### Experience and education requirements
+
+Postings ask for a bachelor's degree in computer science, electrical engineering, robotics, math, physics or a related field, or equivalent experience. Senior roles typically require four or more years of production engineering, and some planner and onboard roles ask for five or more years of C++. C++ dominates onboard work, and Python is used for data, ML and tooling.
+
+## FAQs about the Waymo interview
+
+### How long does the Waymo interview process take?
+
+Typically four to six weeks. Rejections after a screen can arrive within two days, and post-onsite silence of a week or more is common.
+
+### What is the hardest round of the Waymo interview?
+
+Candidates most often name the interviewer-written coding problems, then data fluency. ML candidates add the system design rounds, which press through the whole pipeline.
+
+### Does Waymo use an online assessment?
+
+No reported software or ML loop included one. The first technical step is a live screen with an engineer.
+
+### What programming language should I use?
+
+C++ or Python. Onboard teams value C++, ML coding uses Python with NumPy, and Android and frontend screens use the team's stack.
+
+### How much does a Waymo software engineer make?
+
+Recent US postings for mid-level software engineer roles list base salaries of roughly $200K to $260K. Bonus and equity add substantially to total compensation, especially at senior levels.
+
+### Is the Waymo interview remote?
+
+Yes for the reported loops. Screens and onsites ran over video, sometimes with screen sharing while coding.
 
 ---
 

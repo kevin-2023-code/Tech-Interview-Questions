@@ -16,21 +16,33 @@ How Citadel interviews, and the questions candidates reported there. Free questi
 
 ## How Citadel interviews
 
-This guide goes deeper than the process summary on the company page: how each Citadel stage is actually run, what interviewers escalate to after your first working solution, and where strong candidates still get cut. It draws on 25 real Citadel questions and 15 candidate interview reports so you can calibrate against what the loop really asks.
+Citadel interviews are built around escalation. A round usually starts with one familiar problem and then changes a constraint every few minutes: more transactions, less memory, an infinite board, a second thread, a second process, a second data center. The follow-ups weigh at least as much as the base solution. Rounds are not averaged, so one weak round can end the loop. Resume claims are audited as hard as the code, often for 15–30 minutes before any problem appears. The hedge fund (Citadel) and the market maker (Citadel Securities) hire separately, with similar bars.
 
-### Interview Process
+This guide breaks down each stage of the Citadel interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 42 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Citadel interview process
 
 <!-- guide-diagram -->
 ![Citadel interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/citadel/process.webp)
 <!-- guide-diagram -->
 
-The loop typically runs four to five rounds beyond the recruiter call, and the full cycle usually takes four to eight weeks, moving faster for experienced hires and for candidates with credible competing offers. A hiring decision generally comes quickly once the final round ends — sometimes the next day — and rejection can be just as fast even after a session that felt like it went well.
+The shape depends on the business and the track. New-grad and intern candidates almost always start with a timed online assessment. Experienced hires, NXT candidates (the program for engineers with two to five years of experience moving into finance) and quantitative tracks often skip it, or take a short fundamentals test, and go straight to team-lead interviews. After that come one to four live technical screens of 45–60 minutes, then an onsite of three to four rounds, which can run up to 90 minutes each for C++ roles. Team-match and leadership conversations close the loop.
 
-**Online assessment.** New-grad and intern tracks usually start with a timed HackerRank assessment, around 75 minutes for two to three problems; some tracks add CS-fundamentals multiple choice. The problems look like standard fare — intervals, counting, DP — but the constraints are tuned so that a naive quadratic approach fails the larger hidden tests. Candidates report sweep-line interval-overlap problems and layered combinatorial counting with answers taken modulo a large prime; passing nearly all test cases is effectively required to advance.
+The full cycle usually takes four to eight weeks. It moves faster for experienced hires and for candidates with competing offers. Feedback often comes the next day. Senior candidates face more system design and resume probing, but interns can get a distributed-systems round too: one internship loop had four technical screens.
 
-**Technical phone screens.** Expect one or two live sessions of 45–60 minutes in a shared editor, each built around one substantial problem rather than several small ones. The signature Citadel move is progressive escalation: solve Best Time to Buy and Sell Stock, then the unlimited-transactions variant, then at most k transactions with DP; implement Game of Life, then do it in-place, then handle a sparse or infinite board. Interviewers grade the follow-ups at least as heavily as the base problem, and they expect complexity analysis that matches the code at every step. Several screens open with roughly twenty minutes of detailed resume drilling before any code is written, and language fluency is part of the evaluation — one candidate was explicitly graded on Python type annotations, and C++ candidates are expected to implement structures like a bounded ring buffer with correct condition-variable predicates, spurious-wakeup handling, and lock scoping.
+Here's what the interview process can look like:
 
-**Onsite.** Typically three to four 45-minute rounds mixing coding, design, and behavioral, often with one or more team-match conversations after the technical loop. Coding stays at LeetCode medium-hard with an optimization emphasis; design rounds skew low-level — market-data classes, schedulers, caches, sliding-window alerting — and then scale the same object into a distributed, exactly-once, multi-datacenter version. Infrastructure and C++ tracks add systems fundamentals: quicksort worst-case behavior, Linux shared memory and interrupts, and designing an efficient tail-follow mechanism. Quant-adjacent tracks layer in expected-value puzzles, random walks, and case-study modeling. Team-match rounds may still include live coding, and a final decision goes through senior engineers or a committee, usually within about a week.
+- **Recruiter screen:** A short call on background, stack, motivation and track. Recruiters sometimes redirect candidates to a better-fitting team.
+- **Online assessment (new grad and intern):** 75 minutes for two coding problems, with hidden tests sized so that only efficient solutions pass.
+- **Technical phone screens (one to four):** 45–60 minutes in a shared editor, built around one problem that escalates, often after a resume deep dive.
+- **Design rounds:** Object-oriented design of trading-flavored classes, then scaling the same object into a concurrent or distributed system.
+- **Quantitative and domain rounds (quant tracks):** Research deep dives, probability and expected-value puzzles, statistics, and data-handling code written from scratch.
+- **Onsite:** Three or four rounds that mix coding, design, systems fundamentals, code review and a project deep dive.
+- **Team match and final conversations:** Fit and project discussions with team leads or senior leadership. These can still include coding.
+
+> **Tip:** Treat every base problem as the first step of a ladder. Code the simple version quickly and keep its invariants explicit, because the session is usually decided on the second and third follow-ups, not the first answer.
 
 **[Read the full Citadel interview process →](interview-process.md)**
 

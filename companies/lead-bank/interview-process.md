@@ -6,51 +6,179 @@
 
 ---
 
-Lead Bank runs a compact, hands-on loop that looks nothing like a big-bank hiring pipeline: the coding rounds are miniature product systems with an API, and the conversation that decides the outcome sits at the end, not the start. This deep dive is built on 4 real Lead Bank interview questions and 4 candidate interview reports, and it goes past the stage list on the company page into what each round actually contains and how it is graded.
+Lead Bank's coding rounds are miniature product systems, not algorithm puzzles: a table of rows, an interface to build over it, and later parts that extend the API from the part before. The loop is short, one technical screen and a virtual on-site of four to five rounds, and it ends with a hiring manager conversation that has decided outcomes on its own after strong technical rounds.
 
-## Interview Process
+This guide breaks down each stage of the Lead Bank interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 4 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Lead Bank interview process
 
 <!-- guide-diagram -->
 ![Lead Bank interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/lead-bank/process.webp)
 <!-- guide-diagram -->
 
-The loop opens with a recruiter conversation and a single technical phone screen, then moves to a virtual on-site. Candidates describe the on-site as four to five rounds, and the composition is consistent across accounts: a deep dive into past work, a system design round, two coding rounds, and a behavioral conversation with the hiring manager. The order moves around - in one account the past-experience deep dive opened the loop as its own round, in another the project discussion was folded into the closing hiring manager round. No candidate reported a take-home or an automated online assessment, and none reported fixed waiting periods between stages.
+Engineers join a single backend-heavy engineering organization, and the reported loops, from early 2025 to mid-2026, barely varied: a technical screen, then an on-site with a past-work deep dive, system design, two coding rounds and a hiring manager round. The order moves. One loop opened with the deep dive as its own round; another folded it into the closing hiring manager conversation. No candidate reported an online assessment or take-home. Postings run from Software Engineer II (2+ years) to Software Engineer V (15+ years), and the design and project rounds typically weigh more for senior candidates.
 
-The technical screen is one problem, presented as data plus an interface rather than as a puzzle. One candidate was handed a table of user pairs with directed like counts and asked first to store it so that a lookup of "how many times did user A like user B" is cheap, then to turn the same structure into a recommendation: find the person a user liked most, and surface who that person liked most in turn. Nothing in the reported screens was drawn from a standard algorithm catalogue.
+Here's what the interview process can look like:
 
-On-site coding rounds keep that shape and add parts. Reported prompts include a stock tick store keyed by ticker and date supporting reads, updates, a formatted percentage change between two dates, and a comparison across two tickers; and a calendar store with sorted insert, delete by event name, offset/limit pagination, and an interval-overlap query. Problems run two to four parts, each part extending the API built in the part before it, and interviewers sometimes flag the last part as a bonus to be reasoned through out loud instead of coded. Grading leans on the parts that are easy to skip: candidates were asked to state the complexity of every method they wrote, and follow-ups pushed on ordering, tie-breaking, and update semantics - for instance, distinguishing a write that creates a new entry from one that overwrites an existing value, and reflecting that distinction in what a later read returns.
+- **Recruiter screen:** A short, typically non-technical call on background, level and logistics.
+- **Technical phone screen:** One live problem, usually a small data store with two or three parts.
+- **Coding interviews (two on-site rounds):** Multi-part problems where each part extends the code you already wrote.
+- **System design interview:** A hotel reservation system in every reported loop, pushed on failures and concurrent holds.
+- **Project deep dive and hiring manager interview:** Your proudest project in depth plus behavioral questions, sometimes split into two rounds.
 
-The design round recurred in both on-site accounts as a hotel reservation system, with one interviewer varying it by asking for reservations modeled against a specific room number rather than a room type. The pressure is in the follow-ups rather than the initial diagram: failure scenarios one after another, and how to keep two users searching the same room from colliding, where one candidate proposed database-level locking alongside a fast in-memory store of currently held rooms so the site can show holds in real time.
+> **Tip:** Write every coding answer as a class with an ingest method, accessors and a mutation path. Part one is rarely hard; a representation that only answers part one forces a rewrite once part two arrives.
 
-The hiring manager round closes the loop. It combines the proudest-project discussion with standard behavioral questions, and it is a real gate - one candidate who felt they had satisfied every technical round attributed their rejection to this final conversation.
+## Technical phone screen
 
-## What Candidates Report
+The screen is one problem stated as data plus an interface. In the most reported version, you get a table of user pairs with directed like counts and store it so that "how many times did A like B" is a cheap lookup. The follow-up turns the same structure into a recommendation: find the person a user liked most, then return who that person liked most. A 2026 screen used an event store instead: CRUD over a list kept sorted by start time, binary-searched inserts, and an offset/limit read.
 
-- Problems arrive as small product features with business framing, not as algorithm exercises. The work is choosing a representation and exposing an interface over it, and candidates who reached for pure algorithmic tricks had nothing to apply.
-- The multi-part escalation is the difficulty. Part one is usually straightforward; part two reuses whatever was built in part one, so a representation that answers only the first question forces a rewrite under time pressure.
-- Interviewers co-drive. Multiple candidates described being walked toward the solution step by step, and one who found the prompt statement unclear still ran the round smoothly after asking clarifying questions.
-- Complexity accounting is explicit. Being asked for the Big O of each individual operation, rather than the solution as a whole, caught candidates who had not thought about their insert or pagination path.
-- Over-engineering the design round hurts. One candidate believed that complicating edge cases, rather than missing them, was what went wrong for them.
-- The behavioral and project rounds are not a formality. One candidate felt their own backend project discussion was the weakest part of their loop, and the hiring manager conversation is where reported outcomes turned.
+Interviewers asked for the complexity of every method, not of the solution as a whole. Ties, unknown users and the direction of the relationship are left unstated on purpose.
 
-## Coding Questions
+Interviewers evaluate:
 
-Every coded question in our Lead Bank set is a small stateful service: ingest some rows, expose lookups, then extend the same object with a derived query. Work them end to end, including the later parts, since that is where the round is decided.
+- **Representation choice:** A nested map from user to liked users and counts serves both parts; a flat list of raw rows does not.
+- **Per-method complexity:** The cost of insert, delete and paginated read, each stated on its own.
+- **Clarifying questions:** Settling tie-breaks and unknown-user behavior before coding.
+- **Extensibility:** Part two reuses the part-one structure without starting over.
+
+Practice building small in-memory stores from a sample table against a timer, stating each method's complexity as you finish it.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Store a table of mutual like counts so you can return how many times any user liked another, then recommend to each user the people their most-liked user liked most.
+- Implement CRUD over events kept sorted by start time, with binary-searched inserts and an offset/limit read, and give each method's complexity.
 
 - [Social Network Likes Count](../../questions/algorithm/social-network-likes-count/README.md)
-- [Social Likes: Best Friends and Friend Recommendations](../../questions/algorithm/social-likes-best-friends-and-friend-recommendations/README.md)
 - [Social Network Recommendation](../../questions/algorithm/social-network-recommendation/README.md)
+- [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c)
+
+## Coding interviews
+
+The two on-site coding rounds follow the screen's style with more parts. One prompt is a stock tick log keyed by ticker and date, with `get`, `update`, a percentage change between two dates and the same change for two tickers; one version ran to four parts, the last flagged as a bonus to discuss rather than code. A calendar prompt asked for sorted insert, delete by event name, page-number pagination, chunked loading when the list does not fit in memory, and an interval-overlap check. The social likes problem also reappears on-site, ending in a best-friend-of-best-friend recommendation.
+
+Interviewers co-drive: two candidates were guided step by step, including one who found the opening statement unclear and still finished smoothly after asking questions.
+
+Interviewers evaluate:
+
+- **Update semantics:** Separating an update that creates an entry from one that overwrites a value; one stock prompt expected later reads to flag overwritten prices.
+- **Output precision:** Percentage changes with a sign and two decimals, exactly as specified.
+- **Edge handling:** Missing tickers and dates handled before any arithmetic.
+- **Scaling the read path:** How pagination and interval queries change once events no longer fit in memory.
+
+Drill multi-part class problems where part three reuses part one's data structure, and keep a working version after every part.
+
+> **Note:** The bonus part is not free. In the four-part stock problem the candidate was still expected to explain the last part out loud, so budget time for it instead of polishing earlier parts.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Build a stock tick store with lookups by ticker and date, updates that mark changed values, a formatted percentage change, and a two-ticker comparison.
+- Maintain a calendar with sorted insert, delete by name, page-number pagination and a query for events overlapping an interval.
+- Write `IngestData` and `GetLikesCount` over a likes table, then `GetFriendRecommendation`, returning a user's best friend's best friend.
+
 - [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af)
+- [Implement Stock Price Query APIs](https://trueinterview.io/questions/implement-stock-price-query-apis)
+- [Social Likes: Best Friends and Friend Recommendations](../../questions/algorithm/social-likes-best-friends-and-friend-recommendations/README.md)
+- [Implement a versioned hash map with snapshot](https://trueinterview.io/questions/implement-a-versioned-hash-map-with-snapshot)
 
-## How to Prepare
+## System design interview
 
-- Practice building a class rather than a function: an ingest method that loads raw rows, accessors, and a mutation path, all agreed with the interviewer before you type.
-- Drill the two mechanics that showed up in separate rounds - keeping a list ordered by inserting at a binary-searched position, and serving a slice of it by offset and limit or page number and page size.
-- Narrate complexity per method as you finish each one, and be ready to defend the cost of the insert and the paginated read specifically.
-- Decide up front how writes behave: whether an update creates or replaces, whether reads should signal that a value was modified after ingest, and how to format the output exactly as asked, down to signs and decimal places.
-- Prepare the hotel reservation design around concurrency and recovery - holds and their expiry, locking versus a separate fast store of held inventory, double-booking, and what breaks when a component fails - and stop expanding the design once the requirement is met.
-- Bring one project you can defend in depth, including the tradeoffs you rejected, because the hiring manager round revisits your own work and is where candidates most often stall.
-- Expect underspecified prompts and treat clarifying questions as part of the exercise; interviewers here reveal constraints in response to questions rather than in the opening statement.
+Both on-site reports had the same prompt: a hotel reservation system. One interviewer required booking a specific room number rather than a room type, which turns availability into a per-room calendar. Most of the round is follow-ups: failure scenarios one after another, and how to stop two users searching the same room from colliding. One candidate proposed database locking plus an in-memory store of held rooms to show holds in real time, then felt that piling on edge cases had hurt them.
+
+Interviewers evaluate:
+
+- **Data model:** Room, reservation and hold entities, per room and per night when room numbers are required.
+- **Concurrency control:** A clear, justified choice among locks, conditional writes or expiring holds.
+- **Failure handling:** A failed payment mid-booking, an expired hold, a component going down.
+- **Scope discipline:** Stopping once the requirement is met.
+
+Prepare one reservation design end to end, including hold expiry and recovery, without components you don't need.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a hotel reservation system, then remodel it so guests book a specific room number.
+- Two users view the same room at once: how do you prevent a double booking and show that the room is held?
+- Walk through what breaks when each component fails and how booking recovers.
+
+## Project deep dive and hiring manager interview
+
+Every reported on-site examined past work in depth, either as a separate opening round or as the start of the hiring manager round, which then moved to standard behavioral questions. This round is a real gate: one candidate who felt the technical rounds went well believed the loop ended here, and another named an under-prepared backend project discussion as their weakest round.
+
+Interviewers look for:
+
+- **Depth of ownership:** Specific decisions, the tradeoffs you rejected, and why.
+- **Backend fundamentals in your own work:** Data model, failure modes and scaling choices of the system you describe.
+- **Autonomy:** Postings ask for comfort in a fluid, high-autonomy environment.
+- **Team fit:** A working style that suits a small engineering team working with product, finance and compliance.
+
+Pick one backend project you can defend down to its schema and failure modes, plus two or three stories about ambiguity and cross-team work.
+
+> **Tip:** Rehearse the walkthrough with someone who keeps asking why. What caught candidates were routine backend choices they had never had to justify.
+
+## How Lead Bank makes hiring decisions
+
+The hiring manager round comes last and appears to carry the final say; no report mentions a separate committee. The one reported rejection followed that round, and the candidate attributed it to fit or a stronger applicant pool. Postings separate Software Engineer II through V by years and scope, which typically sets the target level. Reports do not describe down-leveling, cooldowns or decision timelines.
+
+## How to prepare for the Lead Bank interview
+
+1. **Build classes, not functions:** Turn a sample table into an ingest method, accessors and a mutation path, and agree the interface before typing.
+2. **Drill sorted insert and pagination:** Binary-searched inserts and offset or page-number reads appeared in separate rounds and years.
+3. **State complexity per method:** Give each operation's cost as you finish it.
+4. **Decide write semantics up front:** Create versus overwrite, how reads reflect it, and exact output format.
+5. **Prepare one hotel reservation design:** Per-room availability, expiring holds, locking against double booking and failure recovery, then stop adding parts.
+6. **Defend one project in depth:** The deep dive and hiring manager round decide close loops.
+7. **Ask clarifying questions early:** Interviewers reveal constraints when asked, not in the opening statement.
+
+## About working at Lead Bank
+
+Lead Bank is a Kansas City–chartered, FDIC-insured bank, relaunched under new ownership in 2022, that sells API-based banking infrastructure to fintechs. Engineering builds the backend behind that platform and works with product, finance and compliance; roles are posted as hybrid in San Francisco, Sunnyvale and New York. A $70 million Series B in September 2025 was earmarked partly for the technology stack.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer II | Building and maintaining backend features | Features within a team |
+| Software Engineer III | Designing large-scale backend systems, mentoring | Systems; full-stack variants exist |
+| Software Engineer IV | Architecting new systems in ambiguous areas | Team roadmap with product partners |
+| Software Engineer V | Technical design and large cross-team releases | Principal-level, multi-team |
+
+Lead Bank hires Software Engineers across product lines that include:
+
+- **Deposits and accounts:** Accounts partners embed in their own products.
+- **Payments:** Money movement, including real-time payments.
+- **Card issuing:** Partner card programs, including a stablecoin-linked card platform with Stripe and Visa announced in 2025.
+- **Lending:** Credit products partners launch on the bank's charter.
+
+### Experience and education requirements
+
+Postings ask for 2+ years at Software Engineer II, 7+ at III, 10+ at IV and 15+ at V, cloud-native experience (preferably AWS) and strong Go or Java; full-stack roles add TypeScript, and the senior-most posting also accepts Ruby. Fintech experience is preferred, not required. Only the Software Engineer V posting mentions a degree (an advanced CS degree or equivalent experience).
+
+## FAQs about the Lead Bank interview
+
+### How long does the Lead Bank interview process take?
+
+Reports give no firm timelines. With one screen and a single on-site day, most of the elapsed time is scheduling.
+
+### What is the hardest round of the Lead Bank interview?
+
+Coding prompts are moderate one part at a time; the rounds that ended loops were the design follow-ups and the hiring manager conversation.
+
+### Is there an online assessment?
+
+No reported loop had one. The first technical step is a live screen with an interviewer.
+
+### What language should I use?
+
+One reported solution was in Python. Postings favor Go and Java for the job, but any language you can write classes in quickly works.
+
+### How much does a Lead Bank software engineer make?
+
+Posted base ranges for San Francisco and New York are about $150K–$175K at Software Engineer II, $180K–$210K at III, $210K–$240K at IV and $224K–$280K at V, with equity on top and a cash bonus mentioned at the senior-most level.
 
 ---
 

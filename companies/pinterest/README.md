@@ -16,21 +16,33 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 
 ## How Pinterest interviews
 
-Pinterest's engineering loop looks conventional on paper — screen, onsite, decision — but the details reward specific preparation: multi-part problems that escalate mid-round, product-framed prompts about pins, boards, and ads, and design rounds that dig into ranking and aggregation mechanics. This guide goes deeper than the process summary on the company page, drawing on 26 real Pinterest questions and 40 candidate interview reports.
+Pinterest interviewers are friendly, but they grade on working code. Coding prompts arrive in parts: solving the first part unlocks a harder follow-up. Most reported rejections came from one unresolved bug or an unfinished extension, not from a wrong idea. The level is fixed before the loop, and several candidates were offered one level lower than they targeted. Since mid-2026, some onsites also include an AI-assisted coding round.
 
-### Interview Process
+This guide breaks down each stage of the Pinterest interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 65 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Pinterest interview process
 
 <!-- guide-diagram -->
 ![Pinterest interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/pinterest/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** A 30–45 minute conversation about background, motivation, work-model preferences, and — importantly — target level. Pinterest levels its loops (IC14 versus IC15 came up in candidate reports), and one senior candidate was down-leveled after interviewing against a bar calibrated below the level they applied for, so pin down the level and evaluation criteria before scheduling anything. Scheduling can be slow: candidates report roughly two weeks between first recruiter contact and the phone screen, and recruiter hand-offs mid-process have caused delays.
+Every track follows the same sequence: a recruiter call, one or two technical screens, then a virtual onsite of four to six 45-minute sessions, usually in one day. Software Engineer loops mix coding, system design and implementation design. Machine Learning Engineer loops add ML fundamentals to the screen and use ML system design in place of backend design. A smooth process takes three to five weeks, and team matching can add more time after that.
 
-**Online assessment (new grads, interns, and some ML tracks).** Early-career candidates typically complete a proctored CodeSignal assessment before any live interview — around four algorithm problems in a tight time window for the general track. The ML variant is substantially harder than a standard OA: multiple-choice theory, hand-computed confusion-matrix metrics, a manual neural-network forward pass with sigmoid activations, and from-scratch implementations of algorithms like Naive Bayes or bootstrap aggregation with plain Python. Camera and screen monitoring are strictly enforced.
+Mid-level onsites typically have two coding rounds, one design round and one behavioral round. Senior (IC15) loops add a second design round, and one staff ML loop ran seven sessions.
 
-**Technical phone screen.** A 45–60 minute live session in a shared editor, occasionally run by a third-party technical interviewer rather than a Pinterest engineer. Expect one or two problems — and treat "two" as the default budget, because interviewers routinely queue a second problem for candidates who finish early. Screens are frequently multi-part: a warm-up (hash-map aggregation, prefix search) followed by a harder extension (binary search over the processed data, a trie for many queries, a changed optimization objective). Several reports describe a single problem that unfolds in three or four stages, each building on the last.
+Here's what the interview process can look like:
 
-**Virtual onsite.** Typically four to six back-to-back 45-minute sessions in one day; five is common for senior loops. The standard shape is two coding rounds, one or two design rounds, and one or two behavioral conversations. Coding rounds continue the phone-screen pattern — story-framed standard algorithms with escalating follow-ups, and interviewers keep spare problems ready. Design prompts pull heavily from Pinterest's actual product surface: ads event aggregation, bulk-plus-single catalog updates, typeahead suggestions, leaderboards, notifications, and recommendation or search systems for ML-adjacent teams. Behavioral rounds are genuinely evaluative rather than a formality — questions probe end-to-end ownership, initiative beyond assigned scope, response to critical feedback, and handling unreliable collaborators, and rejection feedback has explicitly cited these themes.
+- **Recruiter screen:** A 30–45 minute call on background, target level and work location.
+- **Online assessment (interns, new grads, some ML pipelines):** A proctored timed test of algorithms. The ML version adds theory and ML algorithms implemented from scratch.
+- **Technical phone screen (one or two):** A 45–60 minute session with one problem in several parts, or two linked problems.
+- **Coding interviews:** Two or three onsite rounds of product-framed algorithm and implementation-design problems.
+- **System design interviews:** One or two rounds of backend design, or ML system design for ML roles.
+- **AI-assisted coding interview (some 2026 loops):** You direct an AI assistant inside an existing codebase.
+- **Behavioral and hiring manager interview:** One or two values-based conversations about ownership and feedback.
+
+> **Tip:** Treat "looks good" after part one as the halfway mark. Follow-ups flipped the objective, added a cycle to the input, or removed a simplifying assumption, and most failed rounds ran out of time there.
 
 **[Read the full Pinterest interview process →](interview-process.md)**
 

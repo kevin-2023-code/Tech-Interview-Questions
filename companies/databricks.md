@@ -50,20 +50,20 @@ Which stage each question came from, for the **79 of 79** questions at Databrick
 
 ## What they ask about
 
-Of the **39 questions at Databricks that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **36 questions at Databricks that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 8 | 21% | ████████████ | Jun 01, 2026 |
-| `trees` | 7 | 18% | ██████████ | Sep 06, 2026 |
-| `matrix` | 6 | 15% | █████████ | Jun 29, 2026 |
-| `strings` | 6 | 15% | █████████ | May 22, 2026 |
-| `dynamic-programming` | 5 | 13% | ████████ | Jun 06, 2026 |
-| `graphs` | 5 | 13% | ████████ | Jun 29, 2026 |
-| `arrays` | 4 | 10% | ██████ | May 31, 2026 |
-| `sliding-window` | 4 | 10% | ██████ | Nov 14, 2025 |
-| `greedy` | 3 | 8% | ████ | Jun 29, 2026 |
-| `backtracking` | 2 | 5% | ███ | Sep 06, 2026 |
+| `hashing` | 8 | 22% | ████████████ | Jun 01, 2026 |
+| `trees` | 7 | 19% | ██████████ | Sep 06, 2026 |
+| `strings` | 6 | 17% | █████████ | May 22, 2026 |
+| `dynamic-programming` | 5 | 14% | ████████ | Jun 06, 2026 |
+| `graphs` | 5 | 14% | ████████ | Jun 29, 2026 |
+| `matrix` | 5 | 14% | ████████ | Jun 29, 2026 |
+| `arrays` | 4 | 11% | ██████ | May 31, 2026 |
+| `sliding-window` | 4 | 11% | ██████ | Nov 14, 2025 |
+| `backtracking` | 2 | 6% | ███ | Sep 06, 2026 |
+| `greedy` | 2 | 6% | ███ | Jun 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

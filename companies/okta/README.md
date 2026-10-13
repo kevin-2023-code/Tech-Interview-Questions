@@ -16,19 +16,32 @@ How Okta interviews, and the questions candidates reported there. Free questions
 
 ## How Okta interviews
 
-Okta's loop is more conversational than most security-company processes, and the exercises that decide it are systems-programming problems — allocators, rate limiters, parsers, thread-safe accounts — rather than contest algorithms. Going deeper than the outline on the company page, this guide draws on 12 real Okta questions and 7 candidate interview reports to show what each round actually contains, how the follow-ups escalate, and where offers are lost.
+Okta's loop leans on conversation: resume deep dives, a hiring-manager project chat and a discussion of how you use AI can each be a round, and one candidate was rejected after two rounds with no code. The coding that does happen is practical and often uses the identity domain: validating JWTs in a hands-on assessment, role permissions where a deny overrides an allow, a memory allocator, a rate limiter, and a thread-safe bank built on compare-and-swap.
 
-### Interview Process
+This guide breaks down each stage of the Okta interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 6 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Okta interview process
 
 <!-- guide-diagram -->
 ![Okta interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/okta/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter and opening call.** The first call is often short and purely logistical — one entry-level candidate reports a screen with no behavioral questions at all, existing only to announce the online assessment. In other loops the first conversation is run by the hiring manager and spent entirely on resume and project history, walking through technical decisions, obstacles, and how you worked with the team.
+The shape varies by team, location and level. Reported loops ran two to four rounds, several entirely by phone (one candidate had four calls, two of them resume deep dives). Others end in an onsite of design and concurrency coding.
 
-**Online assessment.** Not every candidate sees one. When it appears it runs about 70 minutes with four problems, weighted toward the easy end; completing them is the expectation rather than the differentiator. A newer variant replaces the puzzle set with a hands-on build: register an application in Okta's own developer portal, exchange the client credentials for an access token, call a local API with that token, then implement a Model Context Protocol server. Its middleware has to validate the bearer token on RS256 signature, audience, issuer, issued-at and expiry, plus either an authorized-party or client-ID claim; expose a `whoami` tool gated on a `tool:whoami` scope; and return 401 for a bad token against 403 for an insufficient one. The split between authentication and authorization failures is itself graded.
+Entry-level candidates typically take an online assessment, a short behavioral call, and an hour-long review of their assessment answers. Mid-level and senior candidates get more project deep dives and one or two design rounds. Staff candidates have reported a take-home followed by a discussion of it with two engineers.
 
-**Technical rounds.** Reported loops run two to five rounds, and several never leave the phone — candidates describe three- and four-round processes conducted entirely as calls, while others label the later sessions onsite. The single most recurring exercise is building a memory allocator, implementing `malloc` and `free` over a pre-allocated block; it appears in five of the thirteen reports behind this guide, and it is always an escalation rather than a one-shot problem. Candidates start with a linear scan over a free list and first-fit placement, are pushed to reduce allocation from linear to logarithmic time with a sorted free list and binary search, and are then asked about best-fit with a heap keyed on block size, a balanced tree whose cost depends on the number of free blocks rather than total memory, and constant-time coalescing of adjacent blocks through a doubly linked list. Alignment, metadata storage, zero-byte requests, and freeing a null pointer come up as edge cases. Writing your own tests afterward is expected, and the interviewer then runs their own; finishing with time still on the clock is the reported pass signal.
+Here's what the interview process can look like:
+
+- **Recruiter and hiring manager screen:** A resume-centered call, sometimes run by the hiring manager.
+- **Online assessment (entry level and some senior roles):** Either about 70 minutes of four easy problems or a hands-on identity or security build.
+- **Technical phone screens:** One or two practical coding problems per call, sometimes with Python and SQL questions.
+- **Project and AI conversations:** Full rounds on one system you built, how you use AI tools, and on-call practice.
+- **Onsite coding:** Concurrency and implementation problems, or a review of your assessment code.
+- **Design interviews (mid-level and above):** Object design and system design driven by requirements and failure scenarios.
+
+> **Tip:** Treat every conversational round as scored. A candidate who had a warm project chat with the hiring manager was rejected after a follow-up call about AI's effect on engineering work.
 
 **[Read the full Okta interview process →](interview-process.md)**
 

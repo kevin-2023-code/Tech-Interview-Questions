@@ -6,59 +6,191 @@
 
 ---
 
-This guide goes below the summary on the company page: what each round contains, how answers are graded, and where candidates lose the offer. It draws on 5 real Chicago Trading Company questions and 3 candidate interview reports.
+Chicago Trading Company tests engineers on building C++ primitives rather than calling them: a `unique_ptr`, a simplified `vector`, a bounded producer-consumer buffer. Each implementation leads into a long chain of follow-ups on ownership, move semantics and concurrency. Behavioral rounds carry real weight. Recruiters warn candidates about this in advance, and one candidate who found the technical work straightforward was still rejected after the behavioral block.
 
-## Interview Process
+This guide breaks down each stage of the Chicago Trading Company interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Chicago Trading Company interview process
 
 <!-- guide-diagram -->
 ![Chicago Trading Company interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/chicago-trading/process.webp)
 <!-- guide-diagram -->
 
-The loop is short in round count but dense inside each round. It opens with a recruiter call covering background that also spells out how many rounds are coming and in what order. Write that number down: the shape is not uniform across tracks.
+The loop is short in round count but dense inside each round. Reported processes run three to five stages: a recruiter call, a 60-minute C++ implementation screen on a shared editor, then a second stage that pairs behavioral and technical blocks, and, for some candidates, a final purely behavioral round. In one loop the second stage was a 45-minute behavioral block plus a 60-minute technical block; another opened with a dual behavioral round, then separate C++ data-structures and concurrency rounds.
 
-The first technical round runs about 60 minutes on a shared executable editor such as CoderPad, and it is an implementation round rather than an algorithm round. One report describes building a `unique_ptr` and a simplified `vector` class in the same session, then discussing how move semantics differ from copy semantics. The code is expected to compile and run, so it rewards muscle memory on destructors, deleted copy operations, move constructors and reallocation far more than pattern recognition.
+Campus applicants choose a preferred interview language, and interviewers are matched to it.
 
-Between rounds a recruiter may schedule a short prep call, roughly ten minutes. In one report it existed for one reason: to warn that the behavioral portion of the next stage would carry substantial weight. Treat such a call as a signal about where the risk sits, not a formality.
+Here's what the interview process can look like:
 
-The middle of the loop splits. One reported second round was two blocks back to back: a 45-minute behavioral conversation with a team manager, then a 60-minute technical block containing a Python problem built around dictionaries and a C++ debugging exercise. The debugging task supplied a pre-built orderbook template with 10 test cases and asked for exactly 2 bugs to be found and fixed; almost no new code was written, and the work was reading someone else's logic for small typos and inverted conditions. Another report describes a different arrangement: a dual behavioral opener themed on communication and continuous improvement, a dedicated C++ data structures round (a fixed-window moving average class and a stock-quote container), and a separate C++ concurrency round.
+- **Recruiter screen:** A short call on background that also lays out the number and order of rounds.
+- **Technical phone screen:** A 60-minute live C++ session implementing standard-library primitives such as `unique_ptr` and `vector`.
+- **Behavioral interviews:** A 45-minute conversation with a team manager or a two-interviewer session themed on communication and continuous improvement, sometimes with a final behavioral round.
+- **Coding and debugging interviews:** A Python problem, a C++ orderbook debugging task, or C++ data-structure classes with O(1) requirements.
+- **C++ concurrency interview:** A producer-consumer system followed by a long ladder of threading and memory-ordering follow-ups.
 
-That concurrency round is the deepest one reported. It starts from a producer-consumer system with a fixed-capacity shared buffer and rate-controlled worker threads, then climbs a long follow-up ladder: why `std::queue` operations need a mutex, why check-then-pop outside the critical section is a race, why an external stop flag must be `std::atomic<bool>`, which memory ordering is required, what stop latency one sleep interval costs, and whether a lock-free single-producer single-consumer ring buffer could replace the mutex. Getting the first implementation working buys you the right to be asked the next nine questions.
+> **Tip:** Write down the round count the recruiter gives you. The shape differs between candidates, and knowing whether a behavioral round comes first or last changes how you budget preparation.
 
-At least one track closes with a final, purely behavioral round after the technical rounds have passed. The process typically runs several weeks end to end; one candidate was rejected about a week after the second round.
+## Recruiter screen
 
-## What Candidates Report
+The first call covers background and outlines how many rounds follow. Between stages, a recruiter may schedule a ten-minute prep call. In one report, its purpose was to warn that the next stage's behavioral portion would carry significant weight.
 
-- The same C++ implementation prompts recur. Candidates recognize the `unique_ptr` plus simplified `vector` pairing going in, which raises rather than lowers the bar: a clean version is expected fast, and the rest of the hour is follow-ups.
-- Behavioral weight is real and is announced in advance. One 45-minute block covered three behavioral questions, and after every story the interviewer pushed the same follow-up: what did you do differently afterward.
-- Follow-up depth decides the round: one concurrency problem consumed a whole session.
-- Debugging is tested directly, not implied. Repairing unfamiliar trading-adjacent code against a fixed test suite is its own round format.
-- Outcomes can feel opaque. One candidate passed the technical rounds cleanly and was still rejected a week later, sensing only that a behavioral interviewer seemed disengaged.
-- Logistics occasionally break. One session was interrupted by a coding-platform outage; the interviewer offered a reschedule, then recruiting went quiet for over a month, leaving the process stalled.
+Interviewers evaluate:
 
-## Coding Questions
+- **Track fit:** Language preference (C++, Python or Java) and interest in trading systems.
+- **Communication:** Clear, concise answers about past projects and internships.
+- **Logistics:** Location (Chicago, New York or London) and willingness to relocate for campus roles.
 
-Coding here means implementing the primitive, not calling it: fixed-window streaming state, container design with ordering guarantees, and thread safety under explicit rate control, in C++ with the standard library's internals in scope.
+Treat a prep call as a signal about where the risk sits.
 
-- [Implement a Simplified C++ Vector](https://trueinterview.io/questions/949cdc20-2c65-5d5c-be42-64c71e7ef665)
-- [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](../../questions/algorithm/simplified-producer-consumer-system-with-thread-safe-bounded-storage/README.md)
-- [Smart Queue / Stock Quote Container](https://trueinterview.io/questions/dc9b15b6-587c-50f2-b57d-e78f195df65e)
-- [Simple Moving Average over a Fixed-Size Sliding Window](../../questions/algorithm/simple-moving-average-over-a-fixed-size-sliding-window/README.md)
+## Technical phone screen
 
-## Low-Level Design Questions
+The first technical round runs about 60 minutes on CoderPad, and the code is expected to compile and run. The reported prompt is to implement a `unique_ptr` and a simplified `vector` in the same session, followed by a discussion of how move semantics differ from copy semantics. The pairing recurs, so a clean version is expected quickly, leaving the rest of the hour for follow-ups.
 
-The low-level design work is ownership modeling in miniature: build the resource wrapper, then defend every special member function you did or did not define.
+Interviewers evaluate:
+
+- **Ownership correctness:** Exactly one owner, no double delete, and a valid moved-from state.
+- **Rule of five:** Defining or deleting each special member function deliberately, and explaining why.
+- **Container internals:** Capacity growth, element construction and destruction, and exception safety during reallocation.
+
+Write both classes from a blank editor until they compile on the first try, then explain move versus copy out loud.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Implement a `unique_ptr`-style smart pointer with move semantics, RAII and the operator overloads it needs.
+- Implement a simplified `vector` class, then explain how moving it differs from copying it.
 
 - [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4)
+- [Implement a Simplified C++ Vector](https://trueinterview.io/questions/949cdc20-2c65-5d5c-be42-64c71e7ef665)
 
-## How to Prepare
+## Behavioral interviews
 
-- Write `unique_ptr` and a minimal `vector` from a blank editor until both compile first try, then rehearse the move-versus-copy explanation out loud.
-- Drill the concurrency ladder, not just the solution: mutex correctness, atomic stop flag, memory ordering, stop latency, and when an SPSC ring buffer is valid.
-- Practice repairing unfamiliar C++ against a failing test suite; one reported round is debugging an orderbook template, not authoring code.
-- Keep Python fluent for dictionary problems; not every block is C++.
-- Prepare three behavioral stories that each end with what you changed afterward, including one about a genuine mistake.
-- Solve out loud: method and pacing are graded too.
-- If a session is disrupted, follow up through more than one channel and keep your own record of what was agreed.
+One candidate's second stage opened with a 45-minute conversation with a team manager about internships, especially relationships with mentors and the wider team. After every story, the interviewer asked how the lesson was applied afterward. Another loop opened with a two-interviewer round on communication and continuous improvement, and one track ends with a final, purely behavioral round.
+
+Interviewers evaluate:
+
+- **Learning applied:** What you did differently afterward, not just what you learned.
+- **Team interaction:** How you worked with mentors, peers and stakeholders.
+- **Honest mistakes:** A real, critical error and how you handled it.
+
+Prepare three or four stories that each end with a concrete later change.
+
+> **Note:** The rejected candidate passed the C++ screen and found the technical tasks straightforward, yet was turned down after the behavioral-plus-technical stage. Weight behavioral preparation equally.
+
+### Sample questions for the behavioral interviews
+
+Here are some questions reported by recent candidates:
+
+- Tell me about the internship where you grew the most, and how you applied what you learned afterward.
+- Tell me about a time you made a critical mistake.
+- What was your biggest obstacle, and how did it change how you worked afterward?
+
+## Coding and debugging interviews
+
+In one loop, a 60-minute block had a Python dictionary problem, then a C++ debugging exercise: a pre-built orderbook template with 10 test cases, where the goal was to find and fix exactly two bugs. Almost no new code was needed. The work was reading unfamiliar logic for small typos and logic errors.
+
+Another loop had a C++ data-structures round with two classes. One was a fixed-window moving average with O(1) `add` and `getAvg`. The other was a stock-quote container that keeps only the latest quote per symbol and pops in the order of latest updates, effectively an LRU variant built from a hash map and a linked list.
+
+Interviewers evaluate:
+
+- **Code reading:** Finding bugs in unfamiliar trading code by tracing failing tests.
+- **O(1) design:** A running sum with a ring buffer or deque, and a hash map pointing into a list.
+- **Ordering semantics:** Correctly moving a re-quoted symbol to the back of the queue.
+- **Edge cases:** Partial windows, integer overflow in sums, and popping from an empty container.
+
+Practice repairing unfamiliar code against a failing test suite as well as writing new code.
+
+### Sample questions for the coding and debugging interviews
+
+Here are some questions reported by recent candidates:
+
+- Fix exactly two bugs in a provided C++ orderbook so that all 10 test cases pass.
+- Build a moving-average class with O(1) insert and query over the most recent N samples.
+- Store stock quotes so that only the latest per symbol remains, preserving the order of latest updates for `pop`.
+
+- [Simple Moving Average over a Fixed-Size Sliding Window](../../questions/algorithm/simple-moving-average-over-a-fixed-size-sliding-window/README.md)
+- [Smart Queue / Stock Quote Container](https://trueinterview.io/questions/dc9b15b6-587c-50f2-b57d-e78f195df65e)
+
+## C++ concurrency interview
+
+The deepest reported round starts with a producer-consumer system: a fixed-capacity, thread-safe `Storage` with non-blocking `store` and `retrieve`, a rate-limited `Factory` that drops items when the buffer is full, and a `Consumer` that waits a cycle when it is empty. Threads are stopped and joined from an outside `test()` function, so the stop cannot be hard-coded into `work()`.
+
+The follow-ups climb a long ladder. Why does `std::queue` need a mutex, and why is check-then-pop outside the lock a race? Why must the stop flag be `std::atomic<bool>`, and is relaxed ordering enough? How long can a stop take while a worker sleeps? What does a mutex cost? Finally, the round turns to a lock-free single-producer single-consumer ring buffer with release/acquire indices, and why it fails with multiple producers.
+
+Interviewers look for:
+
+- **Race awareness:** Spotting check-then-act races on sight.
+- **Lifecycle design:** An external `requestStop()` with a clean join.
+- **Memory-model precision:** When relaxed, acquire/release or sequentially consistent ordering is required.
+- **Lock-free judgment:** Knowing when a ring buffer is valid and when it needs compare-and-swap.
+
+Drill the whole follow-up ladder, not just a working first implementation.
+
+> **Tip:** Finish the mutex-based version quickly and correctly. A working baseline is what unlocks the later questions, and that is where the lock-free and memory-ordering discussion happens.
+
+### Sample questions for the C++ concurrency interview
+
+Here are some questions reported by recent candidates:
+
+- Implement thread-safe bounded storage shared by a rate-limited producer that drops items when full and a consumer that skips empty cycles.
+- Add an external stop mechanism, then explain why the flag must be atomic and which memory ordering it needs.
+- Replace the mutex with a lock-free single-producer single-consumer ring buffer and explain why it would fail with multiple producers.
+
+- [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](../../questions/algorithm/simplified-producer-consumer-system-with-thread-safe-bounded-storage/README.md)
+
+## How Chicago Trading Company makes hiring decisions
+
+Reports do not describe a committee. Rounds appear to be weighed together, with explicit weight on behavioral signal: a clean technical screen did not prevent a rejection, which arrived about a week after the behavioral stage. Logistics can stall the process. After a coding-editor outage, one candidate waited more than a month for a reschedule.
+
+## How to prepare for the Chicago Trading Company interview
+
+1. **Implement the classics from scratch:** Write `unique_ptr` and a minimal `vector` until they compile on the first try, with the rule of five covered.
+2. **Drill the concurrency ladder:** Mutex correctness, atomic stop flags, memory ordering, stop latency, and SPSC ring buffers.
+3. **Practice debugging unfamiliar code:** Fix seeded bugs in someone else's C++ against a fixed test suite.
+4. **Master O(1) container designs:** Moving averages with running sums, and hash-map-plus-list ordering structures.
+5. **Prepare growth stories:** Each story should end with what you did differently afterward, including one real mistake.
+6. **Follow up through several channels:** If a session is disrupted, email and use the application portal, and keep a record of what was agreed.
+
+## About working at Chicago Trading Company
+
+Chicago Trading Company is a proprietary trading firm founded in 1995 that specializes in options market making. It trades equities, interest rates and commodities from Chicago, New York and London. Engineers build distributed, real-time trading and risk systems in C++, Python and Java with frequent releases, and new engineers shadow a trading desk. Most teams work a hybrid schedule, though trading teams are excluded. Co-CEOs took over leadership in January 2026.
+
+Chicago Trading Company hires engineers across trading and technology. Teams include:
+
+- **Systematic trading:** An options research and trading platform, with Python trading applications and backtesting for volatility products.
+- **Trade and positions services:** Low-latency, cloud-ready services built on Kubernetes and distributed caching.
+- **Market data:** High-performance libraries that feed the trading systems.
+- **Risk:** Risk applications and analytics, primarily in Python.
+
+### Experience and education requirements
+
+Campus Associate Engineer roles require a bachelor's or master's degree in computer science or a related field, experience with Java, C++ or Python, and applied data structures, algorithms and multithreading. No finance background is required. Experienced Software Engineer postings ask for at least four years of development experience, preferably on distributed or systematic trading systems, plus a degree in computer science or a quantitative field.
+
+## FAQs about the Chicago Trading Company interview
+
+### How long does the Chicago Trading Company interview process take?
+
+Typically several weeks. One candidate received a decision about a week after the second stage, while a disrupted process stalled for more than a month.
+
+### What is the hardest round of the Chicago Trading Company interview?
+
+The C++ concurrency round, where one producer-consumer problem expands into memory ordering and lock-free design. The behavioral rounds are the most underestimated.
+
+### What language should I use?
+
+C++ dominates the reported rounds, though Python appeared in one block. Campus applicants state a preferred language and are matched to interviewers.
+
+### How much does a Chicago Trading Company software engineer make?
+
+Posted base salary ranges, before bonus:
+
+- **Associate Engineer (campus):** ~$200K
+- **Experienced Software Engineer:** ~$145K–$225K
+
+Packages add an annual discretionary bonus tied to individual skills and firm performance.
 
 ---
 

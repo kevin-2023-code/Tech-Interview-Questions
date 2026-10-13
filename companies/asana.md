@@ -39,14 +39,12 @@ Which stage each question came from, for the **8 of 8** questions at Asana that 
 
 ## What they ask about
 
-Of the **3 questions at Asana that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **2 questions at Asana that carry a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 33% | ████████████ | Apr 02, 2026 |
-| `hashing` | 1 | 33% | ████████████ | Jan 07, 2026 |
-| `heap` | 1 | 33% | ████████████ | Jan 07, 2026 |
-| `strings` | 1 | 33% | ████████████ | Apr 02, 2026 |
+| `arrays` | 1 | 50% | ████████████ | Apr 02, 2026 |
+| `strings` | 1 | 50% | ████████████ | Apr 02, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

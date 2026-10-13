@@ -6,67 +6,290 @@
 
 ---
 
-This guide goes deeper than the process outline on the company page: what each SoFi round actually probes, how screens are graded, and where candidates lose offers. It draws on 13 real SoFi questions and 22 candidate interview reports spanning backend, full-stack, and frontend loops, from phone screen through hiring-manager round.
+SoFi often outsources its first technical screen to Karat: a scripted hour with a rapid concept block, then a multi-part coding problem checked against hidden tests. Some candidates now get an AI-assisted version built on an existing codebase. After that, the loop is practical. Coding prompts are product-shaped, and design prompts follow the hiring team's domain, such as loan withdrawals or market-price broadcasts. Backend applicants are sometimes routed into full-stack loops with frontend work, and rejected candidates repeatedly report that encouraging feedback during a round did not mean a pass.
 
-## Interview Process
+This guide breaks down each stage of the SoFi interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 22 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## SoFi interview process
 
 <!-- guide-diagram -->
 ![SoFi interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/sofi/process.webp)
 <!-- guide-diagram -->
 
-**1. Recruiter and hiring-manager conversations.** The recruiter call covers background, team matching, and logistics; candidates report being matched to a department (lending, invest, platform) before the technical assessment is scheduled, and backend applicants are sometimes routed into full-stack loops automatically, so state your preference early. A hiring-manager conversation may come before or after the technical screen. End to end, the process typically runs four to eight weeks, and movement between stages can be fast — one candidate heard back the day after the technical screen. Note that a rejection carries a six-month cooldown before reapplying.
+The loop depends on the team. The recruiter matches candidates to a department (lending, invest, money or platform) before the technical screen, and that team sets the domain of later prompts. Reported loops ran one to five rounds. The most common shape was a recruiter call, one or two technical screens, and a virtual onsite of three or four sessions. One loop ran over two consecutive days, and one onsite was in person at a whiteboard. The process usually takes one to two months.
 
-**2. Technical screen, frequently administered through Karat.** This is the most distinctive stage. The 60-minute session opens with a rapid Q&A block — high-level system design questions and short conceptual checks — before moving into coding, and some sessions run fully scripted with no free-form interviewer interaction. Coding prompts sit at medium difficulty but come wrapped in product scenarios: counting complete vehicle journeys from time-ordered sensor logs, extracting the second most frequent tag from a flattened id/name/tag stream with explicit tie-breaking rules, graph reachability, text-justification variants with input preprocessing, and pagination that must preserve source order. Problems often hide several sub-questions behind one statement, and submissions run against hidden test cases — candidates have failed on tie handling and short-input edge cases they never discussed. Full-stack screens add a JavaScript fundamentals block (lockfile purpose, closure output prediction, async error handling, debugging a function against failing tests). Some candidates instead receive an online assessment: three coding problems (string frequency, greedy prefix-sum rearrangement, set-bit counting) plus multiple-choice conceptual questions.
+Early-career candidates more often start with an online assessment. Senior and Staff loops add domain-specific design, deeper project dives and, for backend roles, Java internals. Frontend and full-stack loops swap part of the algorithm work for HTML, CSS, vanilla JavaScript and React builds.
 
-**3. Onsite coding rounds.** The virtual onsite typically runs three to five rounds, most commonly four. Coding here shifts toward object-oriented implementation and practicality: designing an abstract class with two concrete subclasses and validating string output, backtracking on arrays, deduplication with tag filtering and pagination, and game simulations that start brute-force and get pushed toward a greedy optimum. Backend rounds probe Java specifics — garbage collection, thread-safe singletons, concurrency control with semaphores — even when the posting lists Kotlin. One candidate was allowed to search for algorithm templates online but explicitly barred from AI tools; interviewers will flag typos but expect you to find your own logic errors.
+Here's what the interview process can look like:
 
-**4. System design.** Prompts are usually domain-flavored: a REST API for loan withdrawals, broadcasting real-time market prices sourced from a long-polling third-party API, a stock feed showing friends' trading activity with full table-schema and microservice-boundary expectations, a news feed, and emoji/sticker search. Grading rewards depth over breadth — candidates who received positive verbal feedback were still marked down for skipping failure recovery, back-pressure from slow consumers, rebalancing, and concurrent writes. Interviewers interrupt and challenge choices deliberately; defend calmly and treat pushback as a request to go deeper, not a verdict.
+- **Recruiter screen:** A non-technical call on background, team matching and logistics.
+- **Online assessment (some candidates):** Three algorithm problems with multiple-choice questions, or two small frontend builds for UI roles.
+- **Technical phone screen (one or two):** 45–60 minutes, often run by Karat, with short concept or behavioral questions and then a multi-part coding problem.
+- **Coding interviews:** One or two onsite rounds of practical algorithms, object-oriented implementation or UI builds.
+- **System design interview:** A domain-flavored design round graded on depth: failure handling, back-pressure and data modeling.
+- **AI-assisted coding interview (some loops):** Extending a partly built application with an AI assistant while explaining your choices.
+- **Hiring manager interview:** A project deep dive and behavioral questions, sometimes with a coding task.
 
-**5. Frontend and full-stack track.** For frontend-leaning loops the same skeleton applies, but the technical content is hands-on UI work. The assessment stage has required building a typeahead in plain HTML/CSS (including cross-browser placeholder quirks) and a lazy-loading list fetching exactly ten items per page with a correct final-page stop condition. Onsite React rounds have covered a star-rating component with half-star states and click/double-click disambiguation, a loan calculator graded on accessibility, debouncing, and real-time calculation, and a Kanban board with reordering, deletion, and submission. A frontend system-design round asked for a notification system designed entirely from the client side: component tree, API contract, reactive state, debounced bursts, and multi-tab synchronization via the Broadcast Channel API. SoFi has also run an AI-assisted coding round — one candidate started from a roughly 25%-complete Vite + shadcn template and used AI tools to plan and implement the rest; another extended an existing codebase with an accessibility feature while the interviewer paused after each requirement to probe design rationale. Expect to be judged on when you override the generated code, not just whether the feature works.
+> **Tip:** Ask the recruiter which team you are matched to and whether the loop is backend or full-stack, then prepare for every format anyway. One candidate was told the second round would be system design and got a second coding round instead.
 
-**6. Hiring-manager round.** The closer is a project deep dive plus behavioral: why SoFi, proudest and most challenging projects, biggest failure, conflict with senior colleagues, advocating for the end user, and missed deadlines. One distinctive prompt asked the candidate to teach the interviewer something recently learned, in detail. Candidates who could not separate their own contribution from the team's, or quantify impact, report that this round left their seniority signal unclear.
+## Recruiter screen
 
-## What Candidates Report
+The call covers background, availability and team fit. Several candidates were matched to a department before the technical screen was scheduled, and backend applicants have been placed in full-stack loops without being asked, so state a preference early. When a screen goes well, things move quickly: one candidate heard back the next day.
 
-- A friendly interviewer is not a passing signal. Multiple candidates got encouraging nods and positive verbal feedback, then were rejected for shallow follow-ups — missing concurrent writes in a scaled key-value design, or skipping back-pressure in a pub/sub design.
-- Simplicity wins. A heap where a linear scan sufficed and an unnecessary parent map in a DFS both drew explicit pushback; interviewers hint when you are overcomplicating, and ignoring the hint costs time and evaluation points.
-- Prompts are long and multi-part. Candidates repeatedly ran out of time because they polished part one before mapping the full problem; sketching all sub-tasks first and treating each as a delivery checkpoint is the recurring advice.
-- Full-stack screens test raw frontend skills — vanilla HTML/CSS search bars, framework-free lazy loading — and candidates strong in algorithms but rusty in browser fundamentals were caught off guard.
-- Logistics friction is real: fast-talking interviewers, muffled audio, and a ten-minute connection outage all derailed pacing in separate reports. Restate the problem in your own words and ask people to slow down; clarity questions are expected, not penalized.
-- Hidden test cases punish unexamined edge cases. Ask up front about ties, empty inputs, and malformed groupings — one candidate's otherwise-correct solution failed on undiscussed tie rules.
+Interviewers evaluate:
 
-## Coding Questions
+- **Team fit:** Whether your experience maps to the matched department's domain.
+- **Track preference:** Backend, full-stack or frontend, which decides whether frontend rounds appear later.
+- **Resume claims:** Later rounds challenge what you list, so list only work you can defend in detail.
+- **Logistics:** Location, timeline and competing processes.
 
-SoFi coding prompts are product-shaped rather than contest-shaped: log parsing, tag frequency with tie rules, order-preserving pagination, and graph conditions phrased as room-and-treasure stories. Practice stating the input contract aloud, solving the simplest correct version, and only then optimizing.
+Decide which track you want and research the business line you are likely to be matched to.
 
-- [Count Complete Highway Journeys from Sensor Logs](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb)
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and what you want in your next role.
+- Why SoFi, and which product area interests you?
+
+## Online assessment
+
+Not every candidate takes one. The general version has three coding problems plus multiple-choice questions on data-structure properties, complexity and code tracing. Reported problems: the most frequent character in a string, a greedy rearrangement that maximizes strictly positive prefix sums, and counting integers up to n with the same number of set bits as n, which needs combinatorics rather than a scan at large n.
+
+UI candidates have instead taken a Karat-administered build: a typeahead in plain HTML and CSS, and a list that lazy-loads exactly ten items per request and stops cleanly on a short last page. A Chrome-versus-Firefox placeholder padding bug misaligned one candidate's dropdown; reproducing it in a sandbox and reporting it did not hurt, and that candidate got an offer.
+
+Interviewers evaluate:
+
+- **Edge cases under hidden tests:** Ties for the top character, all-negative arrays and a short final page.
+- **Algorithm choice at scale:** A per-number bit count times out, while a binomial-coefficient count does not.
+- **Greedy reasoning:** Explaining why placing the largest values first maximizes positive prefix sums.
+- **Browser fundamentals:** Intersection observers, framework-free fetching and consistent CSS across browsers.
+
+Practice a timed three-problem set mixing counting, greedy sorting and bit manipulation, and build one vanilla-JavaScript infinite scroll.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Rearrange integers, including negatives, so the number of strictly positive prefix sums is as large as possible.
+- Count the integers in [1, n] whose binary form has as many set bits as n.
+- Build a list that fetches ten items per page on scroll and stops once a short page arrives.
+
+- [Maximum Positive Prefixes](https://trueinterview.io/questions/maximum-positive-prefixes)
+- [Count Same-Bit Numbers](https://trueinterview.io/questions/count-same-bit-numbers)
+- [Maximum Occurring Character](https://trueinterview.io/questions/d73e4ed1-1ee4-479c-955e-249baf81ac1d)
+- [Lazy-loaded List with Paginated Fetch (10 items per page)](https://trueinterview.io/questions/46d6b649-f860-4586-8310-80c7f23f264d)
+
+## Technical phone screen
+
+This is the most frequently reported stage. The Karat version runs 60 minutes and opens with about ten minutes of rapid questions, including brief high-level design prompts, before coding graded against hidden tests. One session had no live interviewer: JavaScript warm-ups (why lockfiles matter, predicting snippet output, fixing a function from failing tests) and then a highway-sensor problem with several sub-questions. In-house screens run 45–60 minutes and often open with 15–20 minutes of behavioral questions, leaving about 25 minutes for code.
+
+Problems are medium or easier but wrapped in product scenarios: counting entry-to-exit vehicle journeys in noisy sensor logs, the second most frequent tag in a flattened id-name-tag stream with a sentinel for tied top counts, following an index chain until it exits or loops (then with two choices per node), text justification with input preprocessing, anagram replacement in a sentence, and the k-th maximum among values appearing once across two sorted arrays. Full-stack screens add a vanilla search bar and fetch-and-lazy-load task. Senior backend screens may be design-heavy instead: a key-value store with O(1) `getLast` extended to consistent hashing, a semaphore-based task executor, or a schema-plus-microservices design for friends' trading activity.
+
+Interviewers evaluate:
+
+- **Input-contract questions:** Lengths not divisible by three, ties and empty inputs. One candidate failed hidden tests on tie rules never discussed.
+- **Pacing across sub-parts:** Several candidates finished only the first one or two parts.
+- **Simplicity:** An unneeded parent map in a reachability DFS, or quickselect where two linear passes suffice, drew pushback.
+- **Traversal trade-offs:** Recursion depth versus queue memory, and when iterative DFS or BFS is safer.
+- **Frontend fundamentals (full-stack):** Closures, async error handling, lockfiles and framework-free UI.
+
+Rehearse a full hour of rapid concept questions followed by a multi-part, story-wrapped problem, and write your own edge-case tests before submitting.
+
+> **Note:** The second-most-frequent-tag problem appeared in two separate screens and an onsite round, each time with tie rules that decided the outcome. One candidate believed the solution was correct and was rejected after hidden tests failed.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given time-ordered records of vehicle id, timestamp and entry, exit or checkpoint, count every complete journey.
+- From a list repeating id, name, tag, return the second most frequent tag in linear time, or a sentinel if the top frequency is shared.
+- From index 0 of an array of next-step indices, report whether you exit or cycle, then extend to two choices per node.
+- Design an in-memory store with O(1) add, get, remove and getLast, then partition it across servers.
+
+- [Highway Sensor Journey Count](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb)
 - [Second Most Frequent Tag from Flattened Triples](https://trueinterview.io/questions/e89bef94-d185-481f-94fe-b1ad86364481)
+- [Interactive Story Endings Reachability (Choices/Options)](https://trueinterview.io/questions/5a23f516-7bed-46d3-8874-942cca7863b5)
+- [K-th Unique Maximum from Two Sorted Arrays](https://trueinterview.io/questions/d26a94ba-3da5-4ebb-9dfd-ab1939adba62)
+- [Key-Value Store with getLast](../../questions/object-oriented-programming/key-value-store-with-getlast/README.md)
+- [Explain benefits of a lockfile](https://trueinterview.io/questions/explain-benefits-of-a-lockfile)
+
+## Coding interviews
+
+Onsite coding is one or two 45–60 minute rounds that favor implementation over puzzles. Backend examples: a long rock-paper-scissors array problem solved by brute force and then pushed to a greedy minimum number of moves, an abstract class with two subclasses whose string output must validate, and deduplicating tagged items with filtering and pagination. In one 2026 loop, two back-to-back GIF-themed rounds both hinged on an insertion-ordered `LinkedHashMap`. Nested List Weight Sum and duplicate detection also appear.
+
+Frontend rounds are hands-on React: a star rating with half stars and distinct click and double-click behavior, a Kanban board with reordering, deletion and new tasks, and an accessible loan calculator. One senior candidate could search for algorithm templates but not use AI tools. Interviewers flag typos but leave logic bugs for you.
+
+Interviewers evaluate:
+
+- **Reading long prompts:** Requirements were buried in long descriptions.
+- **Brute force, then optimize:** A correct baseline, then a reasoned improvement such as the greedy minimum.
+- **Language depth (backend):** Garbage collection, thread-safe singletons and collection semantics in Java, even when the posting lists Kotlin.
+- **Fitting the tool to the problem:** A heap for the second most frequent tag was judged overkill; ordered maps were expected where order matters.
+- **UI state and events (frontend):** Separating click from double-click, partial rendering states and avoiding stale list state.
+
+Know ordered-map and LRU patterns in your language, and practice building small stateful React components quickly.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Simulate a rock-paper-scissors lineup from a long statement, then reduce the brute force to a greedy fewest-moves count.
+- Implement an abstract class and two subclasses whose string output passes validation.
+- Build a React star rating with half stars that treats click and double-click differently.
+
+- [Rock-Paper-Scissors Lineup](https://trueinterview.io/questions/rock-paper-scissors-lineup)
+- [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6)
 - [GIF Info Pagination by Tag](https://trueinterview.io/questions/gif-info-pagination-by-tag)
-- [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph)
-- [Rooms with Two Incoming Edges to Treasure](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure)
-- [Anagram Sentence Substitutions](../../questions/algorithm/anagram-sentence-substitutions/README.md)
+- [Star Rating Component](https://trueinterview.io/questions/star-rating-component)
+- [Explain GC, singleton, and OOP principles](https://trueinterview.io/questions/explain-gc-singleton-and-oop-principles)
 
-## Low-Level Design Questions
+## System design interview
 
-Low-level design at SoFi starts small and scales: the key-value store below was asked verbatim in a screen, then extended into consistent hashing, replication, and failure detection — and the follow-up depth decided the outcome. Design for O(1) operations first, but arrive knowing how you would partition and replicate the same structure.
+There is usually one design round, at the onsite or as a later screen, and senior candidates may meet it in the first screen. Prompts follow the team's domain: a REST API for loan withdrawals (loan group), real-time market prices fed by a third-party API that supports only long polling (Invest), a stock page with friends' trading activity including table schemas and service boundaries, a news feed, emoji and sticker search, and shareable GIF collections with permissions and access notifications. Frontend loops got a client-only notification system: component tree, API contract, reactive state, debounced bursts and cross-tab sync through the Broadcast Channel API.
 
-- [Tic Tac Toe](../../questions/ai-coding/tic-tac-toe/README.md)
+Grading rewards depth, and interviewers challenge choices on purpose. Two rejected candidates had positive feedback during the round. One partitioned a key-value store with consistent hashing but skipped concurrent writes and failure detection. The other designed a pub/sub broadcast with no plan for failure recovery or slow consumers.
 
-## Behavioral Questions
+Interviewers evaluate:
 
-Behavioral evaluation is folded into nearly every SoFi round — screens open with 15–20 minutes of stories, and the hiring-manager round is a full project deep dive. Prepare STAR-format narratives with concrete metrics for failure, conflict with senior colleagues, and end-user advocacy, and be ready to walk through architecture decisions in your proudest project.
+- **Failure handling:** Poller crashes, upstream rate limits and broker outages, raised unprompted.
+- **Back-pressure and fan-out:** Keeping slow or disconnected subscribers from stalling a stream.
+- **Data modeling:** Concrete tables, keys and indexes, and which service owns which data.
+- **Money-movement correctness:** Idempotent withdrawals, auditability and status transitions.
+- **Defending choices:** Answering pushback with trade-offs instead of abandoning the design.
+
+Prepare one money-movement design and one real-time fan-out design end to end, each closing with failure modes and back-pressure.
+
+> **Tip:** Treat friendly nods as neutral. Before time runs out, name what you have not covered yet (consistency, failure detection, back-pressure, monitoring) and ask which one to deepen.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Broadcast real-time market prices to many users when the only source is a long-polling third-party API.
+- Design a REST API for withdrawing funds from a loan.
+- Design a frontend notification system that debounces bursts and stays in sync across tabs.
+
+- [Design market price change notifications](https://trueinterview.io/questions/design-market-price-change-notifications)
+- [Design a fintech homepage ranker](https://trueinterview.io/questions/design-a-fintech-homepage-ranker)
+
+## AI-assisted coding interview
+
+SoFi has run AI-assisted rounds at two points. In a 2026 Karat screen, a backend candidate added an accessibility feature to a partly built bus-station application, and after each requirement the interviewer paused to ask where the logic belonged and what it affected. In a frontend onsite, a candidate started from a Vite and shadcn template about 25 percent complete, used an AI tool to outline the component tree and data flow, built the features one at a time, and received an offer. The grade is on judgment, not on whether the AI produces working code: override it on state management and edge cases, and say why.
+
+Interviewers evaluate:
+
+- **Codebase reading:** How quickly you find the architecture and where the feature belongs.
+- **Review discipline:** Catching and correcting generated code.
+- **Design rationale:** Explaining the trade-off at each step.
+- **Incremental delivery:** Finishing each requirement before the next.
+
+Practice finishing a partly scaffolded app with an AI assistant while narrating your choices.
+
+### Sample questions for the AI-assisted coding interview
+
+Here are some questions reported by recent candidates:
+
+- Extend an existing bus-station application with an accessibility feature, justifying where the logic lives after each requirement.
+- Finish a partly built Vite and shadcn app with an AI assistant, starting from a plan of the component tree and data flow.
+
+- [Extend an Existing Codebase to Support Accessibility Requirements](https://trueinterview.io/questions/e09854da-00dd-4596-a22c-a1b2463a2a29)
+- [React Loan Estimator](https://trueinterview.io/questions/react-loan-estimator)
+- [Kanban Board Task Actions](https://trueinterview.io/questions/kanban-board-task-actions)
+
+## Hiring manager interview
+
+The last round, usually 45–60 minutes, is with a manager from the matched organization. It opens with a deep dive into one project (architecture, technology choices, milestones, cross-team work, your own contribution) and then turns behavioral. Some managers add a coding task. Reported questions: why SoFi, proudest and most challenging projects, biggest failure, a missed deadline and how you told stakeholders, advocating for the end user over a perfect technical solution, fixing something outside your scope, and disagreeing with very senior people without alienating them. One manager asked the candidate to teach a recently learned concept in detail.
+
+Interviewers evaluate:
+
+- **Ownership and impact:** Your decisions and measurable results. One candidate said vague impact left the seniority signal unclear.
+- **User advocacy:** Trading technical perfection for member outcomes.
+- **Handling conflict upward:** Disagreeing with senior people while keeping the relationship.
+- **Clear explanation:** Teaching a concept from fundamentals to application.
+- **Motivation:** Whether your goals fit the team's current work.
+
+Prepare six to eight stories with metrics before the first screen, since behavioral questions appear in screens too.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe a missed deadline and how you communicated it to stakeholders.
+- Tell me about a disagreement with very senior people and how you resolved it.
+- Teach me something you learned recently, in detail.
 
 - [Manager Behavioral and Project Deep Dive](https://trueinterview.io/questions/manager-behavioral-and-project-deep-dive)
+- [Demonstrate project impact and teach something](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something)
+- [Describe Project and Collaboration Stories](https://trueinterview.io/questions/describe-project-and-collaboration-stories)
 
-## How to Prepare
+## How SoFi makes hiring decisions
 
-- Drill frequency-counting and k-th-element problems with explicit tie rules, plus stateful log parsing that pairs entry/exit events per entity amid noise — both appeared repeatedly and both failed candidates on edge cases, not core algorithms.
-- Practice under the Karat format specifically: a timed hour with rapid conceptual questions first, then multi-part coding against hidden tests. Budget time by sketching every sub-question before writing code.
-- Prepare one system design end to end in the money-movement domain — a loan or payments API with idempotency, schema, service boundaries, failure recovery, and back-pressure — and rehearse defending it under interruption.
-- If your loop is full-stack or frontend, build a typeahead, a ten-item paginated lazy loader, and a debounced accessible form in vanilla JavaScript and again in React; review closures, async error handling, and lockfiles for the fundamentals block.
-- Rehearse AI-assisted development: take a partially scaffolded Vite project, use an AI tool to plan and fill in the rest, and practice narrating why you accept or override each suggestion.
-- For backend loops, refresh Java internals — garbage collection, thread-safe singletons, semaphore-based concurrency — even if the job posting says Kotlin.
-- Ready your behavioral set before the first screen, not the onsite: several phone screens opened with 15–20 minutes of stories, and thin answers there cut into coding time.
+Interviewers submit feedback and the recruiter delivers the decision, sometimes with a brief reason such as a design lacking depth or incomplete follow-ups. Rounds are judged as a set, and one rejected candidate concluded the bar is close to flawless across every round. HR sometimes says the team will review your performance before deciding. Responses have taken from one day to several weeks. In the manager round, the scope of impact in your stories signals seniority. A rejection carries a six-month cooldown.
+
+> **Tip:** Treat every follow-up as graded. Rejection reasons named unanswered follow-ups (memory use, tie handling, failure recovery) more often than wrong core solutions.
+
+## How to prepare for the SoFi interview
+
+1. **Drill tie-aware frequency problems:** Second most frequent and k-th unique, with ties, empty inputs and malformed groups, in linear time.
+2. **Practice stateful log parsing:** Pair entry and exit events per entity through noisy records, including repeated journeys.
+3. **Rehearse the Karat hour:** Rapid concept questions, then a multi-part problem. Sketch every part first and treat each as a checkpoint.
+4. **Prepare two design threads:** A money-movement API with idempotency and an audit trail, and a real-time fan-out with back-pressure and failure recovery.
+5. **Refresh Java internals for backend loops:** Garbage collection, thread-safe singletons, semaphores and `LinkedHashMap`, even if the posting lists Kotlin.
+6. **Build UI without a framework for full-stack loops:** A typeahead, a ten-item lazy loader and a fetch-on-click list, then the same in accessible React.
+7. **Practice AI-assisted feature work:** Extend an unfamiliar codebase with an assistant and explain each accept or override.
+8. **Quantify your stories:** Bring metrics for failure, conflict upward, user advocacy and a concept you can teach.
+
+## About working at SoFi
+
+SoFi is a digital financial services company with a national bank charter. It reports three segments: lending (personal, student and home loans), financial services (SoFi Money, Invest, Credit Card and Crypto), and a technology platform (Galileo and Technisys) that provides payment processing and core banking to other fintechs. Engineering is organized by product line, which is why loops are matched to a department. Postings describe Java and Kotlin with Spring, PostgreSQL and React, on Kubernetes with more than 100 services in production.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer | Delivering well-scoped features with guidance | Tasks within one team |
+| Senior Software Engineer | Owning features end to end and making design decisions | A team's services |
+| Staff Software Engineer | Leading cross-team architecture and mentoring | Several teams in a product line |
+| Senior Staff Software Engineer | Setting technical direction for a platform | A business unit |
+
+SoFi hires engineers across its product lines. Teams include:
+
+- **Lending and Loans Platform:** Loan origination, servicing and disbursement.
+- **SoFi Money and Credit Card:** Accounts, payments, entitlements and member-facing services.
+- **SoFi Invest and Crypto:** Trading, market data and portfolio features.
+- **Galileo and Technisys:** Card issuing, payment processing and core banking for other fintechs.
+- **Member experience:** Web and mobile frontends shared across products.
+
+### Experience and education requirements
+
+Postings ask for a bachelor's degree in computer science or a related field, or equivalent experience. Mid-level and senior roles ask for two or more years of Java, Kotlin or Scala, and Staff roles six to eight or more years. Backend candidates should know service frameworks, relational modeling and distributed systems; frontend and full-stack roles add React, TypeScript, accessibility and browser fundamentals. Financial-services experience helps but is not required.
+
+## FAQs about the SoFi interview
+
+### How long does the SoFi interview process take?
+
+Usually one to two months from the recruiter call to a decision. Single stages can turn around the next day, but some candidates waited weeks after the onsite.
+
+### What is the hardest round of the SoFi interview?
+
+For mid-level and senior candidates, system design, where rejections most often cite a lack of depth despite positive feedback in the room. For early-career candidates, the Karat screen's multi-part problems and hidden tests are the main filter.
+
+### Is there an online assessment?
+
+Sometimes: a three-problem assessment with multiple-choice questions, or a two-task frontend build for UI roles. Most experienced candidates start with a technical phone screen.
+
+### What language should I use?
+
+Backend loops are Java-heavy even when the posting says Kotlin, so confirm with the recruiter before using another language. Full-stack and frontend loops require JavaScript and React.
+
+### What happens after a rejection?
+
+There is a six-month cooldown before you can reapply.
+
+### How much does a SoFi engineer make?
+
+2026 Senior Software Engineer postings listed base salaries of roughly $200K to $233K, with wider ranges in some locations. Packages add bonus and long-term incentive eligibility.
 
 ---
 

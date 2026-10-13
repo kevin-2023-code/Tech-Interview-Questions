@@ -6,78 +6,288 @@
 
 ---
 
-Harvey's loop is unusual in how narrow it is: a small set of problem families — citation tagging over text, a spreadsheet engine with dependency cycles, an in-memory file system, and a permissioned document store in design — recur across candidate after candidate, and the decisive line is almost always whether you finished the escalating parts inside the hour. Going past the short outline on the company page, this deep dive draws on 13 real Harvey questions and 55 candidate interview reports to show what each stage contains, how it is graded, and where offers are lost.
+Harvey draws its coding prompts from a narrow, product-shaped pool: citation tagging over generated text, a spreadsheet engine with dependency cycles, an in-memory file system, and in design a permissioned document store or a retrieval pipeline. These problems recur across many candidates and months. Each one unfolds in parts, and the deciding factor is usually whether the escalating final part works before time runs out, not which algorithm you pick. Fit with the AI domain is also weighed: a candidate with positive feedback in every round still lost to a finalist with closer AI experience.
 
-## Interview Process
+This guide breaks down each stage of the Harvey interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 54 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Harvey interview process
 
 <!-- guide-diagram -->
 ![Harvey interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/harvey/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** Candidates arrive by recruiter outreach, referral, and cold application alike. The recruiter call is more useful than usual: recruiters have offered prep calls and named in advance which coding topics would appear, so ask. Two practical details candidates report: sponsorship is not immediate — the company expects roughly six months of employment before beginning the PERM process — and hiring is not limited to San Francisco, with a Toronto office opened in 2025. A founder conversation typically appears for senior candidates.
+The skeleton is stable: a recruiter call, one technical screen, then an onsite of three to five sessions, held as one integrated block, as separate rounds, or entirely by video. Software engineers usually get a file-storage design round; AI-focused candidates get a retrieval-augmented generation (RAG) design and a notebook coding round. The process typically runs three to five weeks.
 
-**Technical phone screen.** Usually a single 45-minute session in a shared editor with one problem that unfolds in stages, occasionally two stacked back to back. Two families dominate. The first is **citation and highlight tagging**: given a text and a list of source strings, find every exact match, merge overlapping intervals into one span, wrap the result in HTML-like tags, count how often each source appears, and attach citation IDs — assigned by first appearance, or sorted by frequency with a stable tie-break. The variants matter: some interviewers want whole-word matching only, so "blue" must not fire inside "blueprint"; one asked for the longest possible span when phrases chain, so "New York" and "York City" become one tag; one pushed a scaling follow-up toward a single-pass automaton such as Aho-Corasick. The second family is a **spreadsheet engine**, reported by roughly a dozen candidates: `set_cell` and `get_cell` over labelled cells, extended to formulas beginning with `=` that reference other cells, then propagation so dependents update, then rejection of circular references via DFS or topological sort. Interviewers press on write-time versus read-time evaluation, constant-time reads, and writing your own test cases live. A third, smaller family is an **in-memory file system** — `addFile` and `getFile` over a directory hierarchy, a cap of five entries per directory, `(1)`, `(2)` suffixing on duplicate names — with a verbal pivot to production storage and deduplication by hashing. Also reported: DFS over an expression map with three-color cycle detection, and an H-index citation variant. One candidate met three phone rounds — coding, values, and a data-room design — before any onsite.
+The edges vary. One candidate sat three phone rounds (coding, values, a data-room design) before any onsite. Senior loops weigh the deep dive and leadership questions (mentoring, delegation) more heavily, and senior candidates may also meet a founder or executive.
 
-**Onsite.** Reported loops run three to five rounds, virtual for some candidates and in person in San Francisco for others, sometimes with an informal lunch chat. The usual mix is one coding round, a system design round, a project deep dive, and a behavioral or values round. Onsite coding has included a hard multi-part text-editor problem, a thread-safe connection pool with `acquire` and `release` where follow-ups covered double release, shutdown, starvation and fairness, a "Vault" problem with a file-consistency follow-up, a trie-backed file system, and practical work against a pre-configured live database under time pressure.
+Here's what the interview process can look like:
 
-**System design** splits into two lanes, and which one you draw is not predictable. The file-storage lane — by far the most frequently reported round — asks for a Google Drive-style service, Harvey's own document vault, or a data room limited to PDFs: metadata store versus blob store, resumable chunked uploads, deduplication, organization- and team-level access control lists with folder inheritance, and — in one of the sharper follow-ups reported — how to verify that a chunk uploaded directly to object storage genuinely came from the authenticated uploader. Scoping instructions are explicit and easy to miss: one candidate was told access control was out of scope, another that multi-device sync was. The LLM lane asks you to design an agent that answers questions from a law firm's memos or retrieves vault documents into a review table: ingestion, chunking, embeddings, vector store choice, retrieval and re-ranking, prompt assembly, permissioning, freshness, an evaluation harness, and cost and latency at firm-scale corpora. One rejection traced directly to drilling into retrieval mechanics when the interviewer wanted the whole pipeline held at architecture altitude; another traced to thin retrieval depth overall.
+- **Recruiter screen:** A short call on background, interest in legal AI, location and sponsorship, often with a preview of the coding topic.
+- **Technical phone screen:** About 45 minutes of live coding on one multi-part problem, sometimes two stacked tasks or a short design discussion.
+- **Onsite coding interview:** A practical build-and-extend problem such as a text editor, connection pool or file store, or work against a live database.
+- **System design interview:** Either a Google Drive-style file store with access control or an LLM retrieval system over legal documents.
+- **ML coding interview (AI-focused roles):** Implementing chunking, embeddings, similarity search and evaluation in a notebook.
+- **Project deep dive:** Roughly 45 minutes on one complex past project, often with the hiring manager or an engineering lead.
+- **Behavioral and values interview:** Questions mapped to Harvey's three values, sometimes folded into the last 15 minutes of the deep dive.
 
-**ML-leaning rounds.** Data and AI candidates report a notebook or Colab-style session implementing retrieval primitives from scratch rather than solving puzzles: chunking with overlap, embeddings from a dataframe, cosine similarity, top-10 retrieval, a small evaluation loop, and edge cases such as empty queries.
+> **Tip:** Ask the recruiter which coding topic to expect. Recruiters have offered prep calls and named the topic in advance, and with a pool this narrow that lets you rehearse the exact problem.
 
-**Project deep dive and behavioral.** The deep dive typically takes about 45 minutes on a single complex project, often with a hiring manager or engineering lead, with follow-ups on architecture decisions, alternatives you rejected, your specific contribution, and what you would change. Behavioral rounds map roughly one question to each of Harvey's three published values — decisiveness, simplicity, and a "job's not finished" bar — with prompts about deciding on incomplete information, disagreements with teammates, giving and receiving feedback, mentoring style and one-on-ones, and coordinating across teams and with non-technical stakeholders. In some loops the values questions are folded into the last 15 minutes of the deep dive rather than given a round of their own.
+## Recruiter screen
 
-End to end the process typically takes a few weeks, but the spread is wide: offers have arrived the same evening as the phone screen and within a day of the final round; rejections within days or after about a week; and some candidates heard nothing for a week or more. Feedback after a rejection is rarely volunteered, though one candidate obtained it by asking.
+Candidates arrive through cold applications, referrals and recruiter outreach. The call is non-technical: background, interest in legal AI, location and logistics. Hiring is not limited to San Francisco: a Toronto office opened in late 2025, and postings also list New York and remote roles.
 
-## What Candidates Report
+Interviewers evaluate:
 
-- The question pool repeats to an unusual degree. Spreadsheet engines, citation tagging, file systems, and Google Drive-style design appear across many candidates and months, so targeted practice on those exact shapes pays off more than broad drilling.
-- Finishing is the dominant pass or fail line. Rejections were attributed to an unsolved second part of a text-editor problem, an unfinished cycle-detection step, a bug in dependency propagation, and code that simply ran out of clock — not to picking the wrong algorithm.
-- The rules are deliberately underspecified. Whether touching intervals merge, whether a match must be a whole word, whether counts are global or local: candidates who settled these before coding kept their implementation time.
-- Interviewers are usually collaborative and will debug alongside you, but not always. Two candidates described a visibly distracted interviewer; one who completed every part of the problem was still rejected.
-- Background fit is graded even after clean rounds. Candidates from systems and reliability backgrounds received positive feedback in every session and were still passed over for someone with closer AI experience; another rejection was attributed largely to thin retrieval knowledge.
-- Behavioral weight is underestimated. More than one candidate who felt technically solid pointed at the values conversation afterwards as the round they had prepared least.
+- **Domain motivation:** Why legal and professional-services AI specifically, beyond general AI enthusiasm.
+- **Background match:** How close your recent work is to LLM products, retrieval or document systems.
+- **Logistics:** Location, start date and sponsorship. Harvey expects about six months of employment before starting the PERM green-card process.
 
-## Coding Questions
+Ask about format and topics directly, and raise sponsorship timing early if it matters to you.
 
-Harvey's coding rounds treat text, sources, and user-visible correctness as first-class — the flagship problems come straight from the product's citation pipeline. Build the tagged output without corrupting indices as you insert, keep frequency counting and interval merging as separate testable pieces, and be ready for the graph version with cycle rejection.
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and what you are working on now.
+- Why Harvey, and why legal AI?
+- What are your location and visa requirements?
+
+## Technical phone screen
+
+The screen is usually one 45-minute live-coding session in a shared editor, in your choice of language. Requirements are layered onto one problem; some screens stack two tasks or end with a short design discussion. Three families dominate.
+
+**Citation and highlight tagging** is the most common: find every exact match of a list of source strings in a text, merge overlapping spans, wrap them in HTML-like tags, count each source, and attach citation IDs by first appearance or by frequency with a stable tie-break. The variants are where candidates slip. Some interviewers want whole-word matching only, so "blue" must not fire inside "blueprint". One wanted chained phrases covered by the longest span, so "New York" and "York City" become one tag. Scaling follow-ups push toward a single-pass Aho-Corasick automaton.
+
+The **spreadsheet engine**, reported by about a dozen candidates, starts with `set_cell` and `get_cell` over labelled integer cells, then adds `=` formulas that reference other cells, then propagation to dependents, then rejection of circular references by DFS or topological sort. Interviewers probe write-time versus read-time evaluation, constant-time reads, and live self-testing. The **in-memory file system** asks for `addFile` and `getFile` over nested directories with a five-entry cap per directory and `doc(1).txt` suffixing for duplicates, then pivots to production storage and deduplication by hashing. Less common prompts include an expression map with three-color DFS cycle detection and an H-index variant.
+
+Interviewers evaluate:
+
+- **Completing the final part:** Rejections were blamed on an unfinished cycle-detection step, a dependency-propagation bug, and code that ran out of time. One offer went to a candidate who finished just inside the limit.
+- **Settling ambiguous rules first:** Whether touching intervals merge, what counts as a word, whether ties sort stably.
+- **Self-testing:** Writing and running your own cases, especially suffix-overlap and chained-formula edges.
+- **Trade-off reasoning:** Eager versus lazy evaluation, caching for constant-time reads, per-pattern scans versus one automaton pass.
+- **Clean decomposition:** Matching, merging, counting and formatting as separate testable functions.
+
+Practice each family to completion in about 30 minutes, including the last extension.
+
+> **Tip:** Keep your narration short. Two rejected spreadsheet candidates said they spent so long explaining the dependency model that they never finished the code. Sketch the reverse-dependency map in a minute, then type.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Tag every exact match of a list of sources, merging overlaps, then append bracketed citations ordered by global frequency with ties broken by index.
+- Build a spreadsheet with `set_cell` and `get_cell`, add `=A1+B2+5` formulas, make updates propagate to dependents, and reject any write that creates a cycle.
+- Implement `addFile` and `getFile` with five keys per directory and numbered duplicate suffixes, then explain content deduplication in production.
+- Tag only whole-word matches of user-defined tags, so a tag never fires inside a longer word.
 
 - [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md)
-- [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9)
 - [Word Level Match and Tagging](https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce)
-- [Citation Problem](https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e)
-- [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2)
+- [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies)
+- [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md)
 
-## System Design Questions
+## Onsite coding interview
 
-Design practice should cover both lanes: a permissioned document store and a grounded retrieval pipeline. Lead with the data model and API contract, state assumptions before drawing boxes, listen for what has been scoped out, then defend retrieval quality and confidentiality boundaries under cost and latency pressure.
+Onsite coding is the same build-and-extend style at a harder level, usually one hour. Reported problems include a multi-part text editor whose second half escalates sharply, a thread-safe connection pool with blocking `acquire` and `release` over a mock `db.query`, a "Vault" storage problem with a file-consistency follow-up, a trie-backed file system, and queries against a pre-configured live database. Some loops repeat citation tagging here, one with two shorter standard problems in the same hour.
+
+Follow-ups target robustness: double release, releasing a connection the pool does not own, shutdown, starvation and fairness. Grading follows the screen: a candidate who finished the first part of the text editor but not the second was told coding was the reason for the rejection.
+
+Interviewers evaluate:
+
+- **Finishing under escalation:** Incomplete second parts are the most cited cause of onsite rejection.
+- **Concurrency invariants:** Correct locking or condition variables, and explicit handling of misuse.
+- **Data modeling that survives change:** A file and folder structure that absorbs suffixing, limits and path normalization without a rewrite.
+- **Practical fluency:** Reading an unfamiliar schema quickly and writing joins and aggregations against it.
+- **A debuggable approach:** One candidate's state machine for overlapping phrases bogged down until the interviewer steered toward preprocessing the phrase list.
+
+Rehearse two or three of these problems end to end in about 45 minutes, leaving at least 15 minutes for the extension.
+
+> **Note:** Harvey's 2027 intern and new-grad postings state that the process includes AI-assisted coding sessions, with candidates expected to use tools like Claude Code, Codex or Cursor the way they would on the job. Reports through mid-2026 still describe conventional editors, so confirm with your recruiter which format applies.
+
+### Sample questions for the onsite coding interview
+
+Here are some questions reported by recent candidates:
+
+- Implement a fixed-size connection pool where `acquire` blocks when empty and `release` wakes a waiter, then handle double release, shutdown and fairness.
+- Solve a hard two-part text-editor problem in one hour; the second part is where candidates ran out of time.
+- Create files and folders, list a folder, and auto-rename duplicates with increasing numeric suffixes across nested folders.
+- Solve a storage "vault" problem, then explain how to keep files consistent when they are modified concurrently.
+
+- [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor)
+- [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool)
+- [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb)
+- [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault)
+
+## System design interview
+
+There are two lanes, and candidates cannot predict which one they will get. The **file-storage lane** is the most frequently reported round in the whole process: a Google Drive-style service, Harvey's own Vault document store, or a data room limited to PDFs. Expect metadata store versus blob store, chunked resumable uploads, deduplication, sharing, and access control with groups, roles and folder inheritance. A sharp follow-up is how to prove that a chunk uploaded directly to object storage came from the authenticated uploader (pre-signed URLs, per-chunk hashes, short-lived tokens).
+
+The **LLM lane** asks for a production RAG system over a legal corpus, such as an agent answering questions from a law firm's crawled memos or retrieval of Vault documents into a review table. It covers ingestion, chunking, embeddings, vector store, re-ranking, prompt assembly, permissions, freshness, evaluation, and cost and latency. Software engineers have drawn this lane too.
+
+Interviewers evaluate:
+
+- **Hearing the scope:** One candidate was told access control was out of scope, another to skip multi-device sync. Interviewers also add features mid-round, and staying organized as scope grows is graded.
+- **Permission modeling:** Organization- and team-level access control lists and folder inheritance.
+- **Upload integrity:** Resumable chunking plus a concrete defense against forged chunks.
+- **System altitude in LLM designs:** One rejection traced to diving into retrieval mechanics when the interviewer wanted every component and how they connect.
+- **Real RAG depth:** Another rejection was attributed largely to thin knowledge of embeddings, chunking and re-ranking.
+
+Prepare one storage design and one RAG design you can each present in 10 minutes, then deepen on request.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design Vault with folder-level permissions, resumable uploads of very large files, and verification that each chunk came from the authorized uploader.
+- Design a data room like Google Drive but for PDFs only, with access control managed at the organization and team level.
+- Design an AI agent that answers questions from a law firm's memos, from crawling and chunking through the LLM call.
+- Given a user prompt, retrieve relevant documents from a vault and feed them into a review-table product, covering re-ranking, latency and freshness.
 
 - [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage)
+- [Design a Cloud File Storage Service](https://trueinterview.io/questions/design-a-cloud-file-storage-service-2)
 - [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent)
+- [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline)
 
-## Low-Level Design Questions
+## ML coding interview
 
-Harvey's practical rounds are miniature systems: start from the methods and their invariants, and show how the design absorbs a new requirement without surprising callers. Dependency graphs, path parsing, duplicate-name resolution, and thread safety are all live follow-up territory.
+Data and AI candidates get a notebook session in Jupyter or a Colab-style environment, sometimes fill-in-the-blank, and one took it online after an in-person loop. You implement RAG primitives from scratch: chunking with overlap, embeddings from a pandas dataframe, cosine similarity over numpy arrays, top-10 retrieval, prompt assembly, and a small evaluation loop. Empty queries and overlapping chunks are tested, and interviewers ask why you chose a similarity metric.
 
-- [Design Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies)
-- [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md)
-- [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool)
-- [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor)
+Interviewers evaluate:
 
-## Behavioral Questions
+- **Working code, not vocabulary:** One rejected candidate said fluency in actually writing the ML code was the deciding factor.
+- **Correct math:** Normalization, similarity and ranking implemented correctly and explained.
+- **Evaluation instinct:** Defining a retrieval metric and measuring it, not just returning results.
+- **Notebook speed:** Moving quickly in dataframes and arrays under time pressure.
 
-Values questions are asked one value at a time and pushed for specifics, and the project deep dive is scored on the same axis: did you decide, keep it simple, and carry it to done. Bring stories where you owned the call, including ones that went badly.
+Write a minimal retriever and evaluator in a notebook from a blank page, more than once, before the interview.
+
+### Sample questions for the ML coding interview
+
+Here are some questions reported by recent candidates:
+
+- Chunk a set of documents with overlap, embed them, and return the top passages for a query by cosine similarity.
+- Generate embeddings from a dataframe column, retrieve the top 10 matches, and compute an evaluation score for retrieval quality.
+
+- [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook)
+
+## Project deep dive
+
+This round typically takes about 45 minutes on one complex project you choose, run by the hiring manager or an engineering lead. It is not a presentation: expect questions on the timeline, stack, rejected alternatives, scale and failure modes, your personal contribution, how you measured success, and hindsight. In several loops the last 15 minutes turn to values questions.
+
+Interviewers evaluate:
+
+- **Decision quality:** Clear options, constraints and reasons, not just the final architecture.
+- **Ownership:** What you personally decided and built.
+- **Candor:** Honest discussion of failures, framed as growth. A rejected candidate warned that an overly blunt weakness lands badly.
+- **Relevance:** How the work transfers to LLM products and document systems.
+
+Choose a project with real trade-offs and rehearse a 5-minute version that you can expand on any component.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Walk through a complex project: the timeline, the stack, and the architectural decisions you made.
+- Which alternative did you reject, and what would you change in hindsight?
+- How did you measure whether the project succeeded?
+
+- [Describe Leading a Technical Project](https://trueinterview.io/questions/describe-leading-a-technical-project)
+
+## Behavioral and values interview
+
+Harvey publishes three values: decisiveness, simplicity, and "job's not finished" (keep pushing after something merely works). Behavioral rounds often map one question to each. Reported themes: deciding with incomplete information, disagreeing with a teammate, feedback, coordinating across teams and with non-technical stakeholders, mentoring, and delegation. Some loops add an informal lunch or culture-fit chat; others fold values into the deep dive.
+
+Interviewers evaluate:
+
+- **Value alignment with evidence:** A specific story for each value, not general agreement.
+- **Cross-team execution:** Managing dependencies, priority conflicts, and explaining decisions to non-engineers.
+- **Feedback loops:** Asking for, giving and acting on feedback.
+- **Senior leadership:** Mentoring philosophy, one-on-ones, and how you assign work.
+
+Prepare at least two stories per value, structured but specific, with outcomes.
+
+> **Note:** This round is underestimated. Rejected candidates have named it as the round they prepared least, and one who asked HR for feedback learned that tighter, better-structured stories were the main gap.
+
+### Sample questions for the behavioral and values interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you had to make a decision with incomplete information.
+- Describe a disagreement with a teammate about technical direction and how it was resolved.
+- How do you coordinate work across several teams with conflicting priorities?
+- What is your mentoring style, and how do you run one-on-ones?
 
 - [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral)
+- [Resolve conflict across teams](https://trueinterview.io/questions/resolve-conflict-across-teams)
 
-## How to Prepare
+## How Harvey makes hiring decisions
 
-- Build the citation-tagging problem end to end until it is muscle memory: locate all occurrences, merge intervals, emit well-formed tags, count per source, and order citations by first appearance and by frequency with a stable tie-break.
-- Implement a spreadsheet engine to completion in about half an hour — storage, formula parsing, dependent propagation, cycle rejection — and be able to argue eager versus lazy evaluation and constant-time reads without stalling.
-- Write an in-memory file system from scratch: path normalization, nested directories, per-directory limits, and `(1)`, `(2)` suffixing on duplicate names, with a hashing answer ready for "are these two files identical".
-- Rehearse a document vault design with the details that get probed: org-level access control lists, resumable chunked upload, deduplication, and proving a directly uploaded chunk came from the authenticated user. Open by asking what is out of scope.
-- Prepare a full retrieval architecture you can deliver at orchestration altitude first — ingestion, chunking, embeddings, retrieval, re-ranking, prompt assembly, evaluation — and be able to write the primitives in a notebook, not just name them.
-- Write your own test cases out loud, and budget explicit time for the follow-up part — the extension is where the round is decided, and candidates who narrated the first half too long ran out of clock.
-- If your background is outside AI, say explicitly how it transfers; strong design and leadership signals have not been enough when another finalist had closer domain experience.
+The hiring team weighs all rounds together, and background fit counts alongside performance. A candidate from a systems and reliability background, with positive feedback in every round, was turned down for a finalist with closer AI experience. Another who completed every part of a coding problem was still rejected after an interviewer who seemed distracted. Decisions can be fast: one offer came the same evening as the phone screen, another within a day of the final round. Others waited a week or more with no word. Feedback is rarely volunteered, but one candidate got it by asking.
+
+> **Tip:** If your background is outside AI, make the transfer explicit in the deep dive and design rounds: retrieval, document pipelines, permissioned storage, or evaluation work you have done under a different name.
+
+## How to prepare for the Harvey interview
+
+1. **Master citation tagging:** Merging, tagging, counting and both citation orders, plus the whole-word and longest-span variants.
+2. **Finish a spreadsheet engine in 30 minutes:** Including propagation and cycle rejection, with an answer ready on eager versus lazy evaluation.
+3. **Build a file system from scratch:** Path normalization, per-directory limits, duplicate suffixing and content hashing.
+4. **Drill one concurrency primitive:** A blocking connection pool with misuse handling, shutdown and fairness.
+5. **Rehearse Vault-style storage design:** Open by asking what is out of scope, then cover permissions, resumable upload and chunk-origin verification.
+6. **Prepare RAG at two altitudes:** A whole-pipeline pass first, then depth on chunking, re-ranking and evaluation.
+7. **Protect the extension:** Test out loud as you go and budget explicit time for the final part, where most rounds are decided.
+8. **Map stories to the three values:** Two per value, plus cross-team and feedback stories with a clear decision and outcome.
+
+## About working at Harvey
+
+Harvey, founded in 2022 and based in San Francisco, builds AI for law firms and legal and professional-services teams. Its products include Assistant for questions and drafting, Vault for storing and bulk-analyzing documents with a spreadsheet-like review table, Knowledge for research, and Workflow agents. The interview problems mirror them: citation tagging is source attribution, the spreadsheet echoes the review table, and the storage design is Vault. Engineering is mostly full-stack product work in React, TypeScript, Python and Postgres, plus a platform layer for model routing, agent architecture and evaluations.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer (New Grad) | Shipping well-scoped product features with mentorship | Features within one team |
+| Software Engineer | Owning features end to end across frontend and backend | A product area |
+| Senior Software Engineer | Leading projects and setting technical direction | A team's systems |
+| Staff Software Engineer | Architecture and platform foundations | Several teams or the platform |
+
+Harvey hires engineers across product and platform groups. Teams include:
+
+- **AI Platform:** The model layer and agent infrastructure that every product and agent team builds on.
+- **Agents:** Agent capabilities for legal workflows, with some remote roles.
+- **Product engineering:** Full-stack ownership of user-facing surfaces such as Assistant and Vault.
+- **Forward-deployed engineering:** Engineers embedded with customers who help build custom agents and workflows.
+
+### Experience and education requirements
+
+Senior full-stack postings ask for five or more years of post-degree product engineering with React, TypeScript and Python; startup experience and multi-product backend platforms are pluses. Production experience with LLM orchestration, retrieval and evaluations helps both on paper and in final decisions. New-grad and intern postings expect a computer science background and comfort with AI-assisted development tools.
+
+## FAQs about the Harvey interview
+
+### How long does the Harvey interview process take?
+
+Typically three to five weeks from recruiter call to decision. Single steps can be fast, with offers the same evening as a screen or the day after an onsite. Gaps of a week or more without a response also happen.
+
+### What is the hardest round of the Harvey interview?
+
+Most rejections trace to a coding round where the final part went unfinished: cycle detection, dependency propagation, or the second half of the text editor. For AI-focused roles, the RAG design and notebook coding are the main filters.
+
+### Is there an online assessment?
+
+No standalone assessment is reported. The first technical step is a live screen, though one Data and AI candidate took the notebook round online.
+
+### How much does a Harvey software engineer make?
+
+Posted base salary ranges, with equity offered on top:
+
+- **Senior Software Engineer (San Francisco):** ~$200K–$260K base
+- **Staff Software Engineer (San Francisco and New York):** ~$231K–$340K base
+- **Staff Software Engineer (Toronto):** ~CA$197K–$295K base
+
+Ranges vary by location, and equity is added on top of base pay.
+
+### Is the Harvey interview remote?
+
+Partly. Screens are remote, and onsites have been held both by video and in person in San Francisco, sometimes with a lunch conversation.
 
 ---
 

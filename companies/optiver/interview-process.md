@@ -8,75 +8,248 @@
 
 ---
 
-Optiver hires on one conviction: good engineers and good traders both make accurate decisions while a clock is running, and every stage of the loop is built to measure exactly that. This guide goes deeper than the process summary on the company page — into scoring rules, round-by-round formats, and what actually fails people — grounded in 22 real Optiver questions and 87 candidate interview reports.
+Optiver grades speed at every stage, including untimed ones: one software assessment with no deadline still tracked time to submission, and a trading candidate who doubled a virtual bankroll was cut for hesitating. In trading games, interviewers score bet sizing and coachability, not profit. Engineering rounds use rule-heavy simulations with hidden tests and long skeleton codebases with planted bugs. A short closing behavioral call has ended offers after strong technical rounds.
 
-## Interview Process
+This guide breaks down each stage of the Optiver interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 83 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Optiver interview process
 
 <!-- guide-diagram -->
 ![Optiver interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/optiver/process.webp)
 <!-- guide-diagram -->
 
-**Pacing and logistics.** The funnel moves unusually fast. Candidates report receiving the online assessment within a day or two of applying, and an OA verdict — including rejection — can land within 24 hours. The full loop typically runs assessment, recruiter screen, one or two technical phone rounds, then a final block of virtual interviews or an on-site (Chicago is the usual US destination, and recruiters may ask early whether you prefer Chicago or Austin). End to end, successful candidates typically clear the process in a few weeks.
+All tracks share one funnel: an online assessment, a short recruiter call, one to three technical phone rounds, and a virtual or on-site final. The content is track-specific. Traders face probability batteries and live betting games; quantitative researchers add coding, a take-home and a presentation; software engineers get object-oriented simulations, a fundamentals quiz and infrastructure design; FPGA candidates get digital logic and Verilog.
 
-**Online assessment.** The OA is modular, and the modules differ by track. Engineering candidates usually face one substantial object-oriented simulation — a news-feed pub/sub system with rate limits, a satellite message-propagation protocol, a balloon-festival tracker, a capacity-constrained storage system — rather than a string of abstract puzzles, sometimes paired with two shorter problems such as date arithmetic or building and validating a binary tree from edge pairs. Many versions add roughly 20 forward-only multiple-choice questions on CS fundamentals (TCP, scheduling, cache behavior, data-structure trade-offs) and a battery of Zap-N cognitive mini-games. Quant-track assessments swap the simulation for the famous 80-questions-in-8-minutes arithmetic test (scored +1 for a correct answer, -2 for a wrong one, so blind guessing is punished), a probability battery of about 30 questions at roughly 90 seconds each, a 25-question number-sequence section, and the same mini-games. Two details surprise people: several sections forbid backtracking, and at least one OA variant advertises unlimited time while quietly tracking elapsed time to submission — slow, polished solutions have preceded rejections.
+Assessment links arrive within one or two days of applying, rejections can come within 24 hours, and the process usually takes two to four weeks. Intern and graduate pipelines lean hardest on the assessment; experienced engineers more often start with a recruiter, then project-focused phone screens and a half-day final.
 
-**Recruiter screen.** A 20-30 minute behavioral call covering graduation timeline, work authorization, why Optiver, how you found the company, and a project retrospective — what you personally contributed versus the team, where you took initiative, and what you would redo. Answers are expected to be specific and concise; this round also previews the remaining stages.
+Here's what the interview process can look like:
 
-**Technical phone rounds.** For engineers, these are practical rather than puzzle-driven. A recurring format is a deep dive on a deceptively simple structure — design a queue, then defend array versus linked-list versus ring-buffer backing through cache locality, resizing cost, thread safety, and lock-free variants. Others get a live simulation (balloon altitude tracking, order-to-plane cargo allocation) inside a large provided skeleton, where reading unfamiliar code, fixing planted bugs, and extending behavior under new constraints matter as much as the initial solution. Quant phone rounds are rapid-fire probability and betting games; the role guides below cover them in depth.
+- **Online assessment (all tracks):** A modular test of one to three hours covering probability, number logic and cognitive mini-games, plus coding for engineers and researchers.
+- **Recruiter screen:** A 20–30 minute behavioral and logistics call about your timeline, sponsorship, motivation and one project retrospective.
+- **Technical phone interviews:** Rapid probability and betting games for trading tracks, and practical design or simulation coding for engineers.
+- **Trading and betting games (trading and research tracks):** 25–45 minutes of live bet sizing and two-sided market making on dice and cards.
+- **Research take-home and presentation (quantitative research):** A data project in pandas or a regression, followed by a panel discussion of your work.
+- **Final round:** For engineers, low-latency infrastructure design plus extended coding. For traders, more games. Every track ends with a culture conversation.
 
-**Final rounds.** Engineering on-sites reported by candidates combine a systems-design conversation that is unusually physical — design the infrastructure connecting an exchange to the office, down to dedicated lines, bandwidth, server placement, and TCP/IP behavior — with a coding session that extends an earlier problem (the cargo-scheduling exercise frequently returns with streaming input and evolving requirements), a fundamentals quiz, and a closing behavioral call. Quant finals center on live market-making and estimation games where interviewers coach your bet sizing in real time and grade how you incorporate the feedback.
+> **Tip:** Rehearse every stage under a clock that is stricter than the real one. Across tracks, candidates who reached the right answer slowly were rejected more often than those who committed early to a good-enough answer and then refined it.
 
-## What Candidates Report
+## Online assessment
 
-- Speed is graded everywhere, explicitly. Hesitation and over-analysis get people rejected even when their final answers are right; one candidate doubled the game bankroll and was still cut for deliberating too long.
-- Outcomes are not the metric — process is. In trading games the interviewer watches sizing logic, calibration, and coachability after hints, not the simulated P&L.
-- The multi-rule simulations are where engineering candidates break: expiration interacting with capacity eviction, hidden items still counting toward limits, sliding-window rate limits, and tie-breaking orders are all easy to half-implement. Hidden test suites give no partial feedback.
-- Interviewers can be deliberately flat. Several reports describe a neutral, unreadable demeanor and immediate jumps to the next question; candidates who read this as failure and rattled performed worse.
-- Formats churn between cycles — the number of mini-game rounds, section order, and problem mix all shift — so expect the shape described here, not an exact replay.
-- Behavioral rounds are real filters, not formalities: a final culture call has been the stated reason for rejection after strong technical rounds.
+The assessment comes in modules, and which modules you get depends on your track. Trading candidates sit number-logic sequences (about 25 questions in 25 minutes), a "Beat the Odds" probability battery (about 30 questions at about 90 seconds each), the well-known 80-question, 8-minute arithmetic test, and three or more Zap-N mini-games covering string comparison, arrow reaction, memory and stacking puzzles. A 2026 addition asks you to rank statements by likelihood using tables, box plots and network diagrams. Researchers add three market-flavored coding problems: counting buy/sell sequences that never go short, backtesting a proportional-allocation strategy, and an order-book matcher or optimal-purchase dynamic program.
 
-## Coding Questions
+Software engineers usually get one long object-oriented simulation: a news feed with topic subscriptions, interest thresholds and sliding-window rate limits; satellite message propagation in synchronous ticks; or a nut store with Fibonacci-sized levels, expiry and capacity eviction. Another version pairs days-between-dates with building a validated binary tree from parent-child pairs. Many add 20 forward-only multiple-choice questions on TCP, operating systems, caches and data structures. FPGA candidates get logic circuits, Boolean simplification, Verilog fixes and a C date comparison.
 
-Optiver's coding problems wear finance costumes but grade classic skills: dynamic programming, graph reasoning, heaps, and exact simulation of a written rule set. Precision under a timer beats cleverness — a correct algorithm with one mishandled boundary fails hidden cases silently.
+Interviewers evaluate:
 
-- [Build Binary Tree from Edges / S-Expression](https://trueinterview.io/questions/binary-tree-from-edges)
+- **Calibrated accuracy:** Several sections deduct points for wrong answers, so a blind guess costs you. Answer only when you can eliminate options.
+- **Hidden-rule correctness:** The tests are hidden. Breaking ties wrongly, or letting hidden items stop counting toward capacity, fails cases without telling you which.
+- **Pace:** Late submissions count against you, and the last item of a timed section is easy to lose.
+- **Breadth:** Trading assessments seem to look for a well-rounded profile, so one weak mini-game does not end your application on its own.
+
+Take a full practice run of every module in one sitting, with a wired mouse.
+
+> **Note:** Assessments change from cycle to cycle. One 2026 software assessment allowed AI assistants for testing within a one-to-three-hour window, one trading version cut the mini-games to three rounds, and several sections stop you from going back to earlier questions. Prepare for the format in general, not for an exact repeat.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Count the sequences of 2n one-share buys and sells that never hold a negative position.
+- Each day, split capital equally across stocks whose previous-day return was positive, then report the mean and standard deviation of daily log returns.
+- Build a binary tree from string parent-child pairs and report which of five error conditions the input violates.
+- A biased gambler starts with $10 against $20 at 2/3 odds per bet. What is the probability of winning everything?
+
 - [Stock Transaction Sequence Counting (Catalan / DP)](https://trueinterview.io/questions/stock-transaction-counting)
-- [OptiCargo — Cargo-to-Flight Scheduling](https://trueinterview.io/questions/opticargo-flight-scheduling)
+- [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching)
+- [Build Binary Tree from Edges / S-Expression](https://trueinterview.io/questions/binary-tree-from-edges)
+- [Beat the Odds — Probability Test](https://trueinterview.io/questions/beat-the-odds-probability)
 
-## Low-Level Design Questions
+## Recruiter screen
 
-Low-level design is the heart of the engineering OA and phone screens: small systems with many interacting rules, judged on state modeling, ordering guarantees, and performance instincts. Expect follow-ups that reach cache lines, lock contention, and what changes under concurrent access.
+The recruiter screen is a 20–30 minute non-technical call: graduation date, visa sponsorship, why Optiver, and how you heard about the firm. The core is one project: your contribution versus the team's, where you took initiative, what you would change, and what stopped you then. Other questions cover how peers describe you, your weakest engineering trait, how you would choose between offers, and your latest book. Recruiters ask about Chicago versus Austin and preview the rest; one engineer was told of two virtual rounds (coding, design) and then a Chicago on-site. Trading tracks assess spoken English directly.
 
-- [News Aggregation / Subscription System](https://trueinterview.io/questions/news-subscription-system)
-- [Satellite Message Propagation](../../questions/object-oriented-programming/satellite-message-propagation/README.md)
-- [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md)
-- [Squirrel Nut Storage Tracker](https://trueinterview.io/questions/squirrel-nut-storage)
-- [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design)
-- [Thread-Safe Buy/Sell Without Overselling](https://trueinterview.io/questions/multithreaded-buy-sell-lock)
+Interviewers evaluate:
 
-## Behavioral Questions
+- **Ownership clarity:** Separating what you did from what the team did, without inflating your part.
+- **Honest retrospection:** A specific improvement you would make, and the real constraint that stopped you making it then.
+- **Motivation specificity:** A reason for choosing a market maker, not a generic finance answer.
+- **Concision:** Short, direct answers. The call moves through more than a dozen questions.
 
-Behavioral screens are short, direct, and repeated across the loop: self-introduction, why Optiver, individual versus team contribution, initiative, weaknesses and what you are doing about them, and how peers would describe you. Prepare crisp retrospectives — Optiver interviewers consistently ask what you would do differently and what blocked you from doing it at the time.
+Prepare two-minute versions of two projects, each ending with what you would do differently.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk me through your most satisfying project. What would you do differently, and why didn't you do it then?
+- Which three traits matter most for an engineer, and which of them is your weakest?
+- If you had several offers, which three factors would decide it?
 
 - [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen)
-- [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games)
+- [Answer why SWE and why Optiver](https://trueinterview.io/questions/answer-why-swe-and-why-optiver)
+
+## Technical phone interviews
+
+For trading and research candidates, these are 45-minute mental-math probability sessions with no warm-up. One candidate counted more than 30 questions, each answered aloud within a minute or two: gambler's ruin with a 0.6 coin, the expected product of three cards, random walks on a hexagon. Others frame the same skills as bets: Kelly sizing on a biased coin, red-or-black on visible draws, arbitrage between two bookmakers.
+
+Engineering phone rounds are practical: design a queue and defend array, linked-list or ring-buffer backing on cache locality and lock-free safety; a 75-minute balloon-festival class; or Opticargo, a long order-to-plane skeleton with planted off-by-one and capacity bugs, followed by complexity and concurrency questions.
+
+Interviewers evaluate:
+
+- **Reasoning aloud:** Doing the calculation silently loses signal even when the number comes out right.
+- **Recovery after hints:** Interviewers give small nudges on purpose to see whether you can use them.
+- **Code reading:** Finding the planted bugs in someone else's long code before extending it.
+- **Performance vocabulary:** Cache lines, false sharing and the ABA problem, raised unprompted for low-latency roles.
+
+Drill probability puzzles out loud against a timer, and practice extending an unfamiliar codebase.
+
+> **Tip:** The flat, unreadable manner some interviewers adopt is deliberate. Candidates who took the silence as a sign they were failing tended to unravel. Keep narrating and move straight on to the next question.
+
+### Sample questions for the technical phone interviews
+
+Here are some questions reported by recent candidates:
+
+- Draw from 10 red, 10 yellow and 10 blue balls until only two colors remain. What is the expected number left?
+- Design a queue, then compare array, linked-list and ring-buffer backing, and make it lock-free.
+- Fix the Opticargo skeleton so orders split across capacity-limited planes, then make plane lookup faster.
+
+- [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes)
+- [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design)
+- [Schedule Orders onto Planes](https://trueinterview.io/questions/opticargo-flight-scheduling)
+- [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md)
+
+## Trading and betting games
+
+Trader and quantitative researcher loops center on live 25–45 minute games, sometimes on site. A typical game starts with a $1,000 bankroll, moves through coin, dice and card bets, and ends with two-sided market making on the sum of three cards while the interviewer trades against you. Variants include market taking against robots, pop-up offers with seconds to decide, and a five-round interval game scoring the nearer endpoint of [L, R]. One research candidate was rejected on an assessment gambling game alone.
+
+Interviewers evaluate:
+
+- **Size tracks edge:** Stakes as a fraction of bankroll that grow with the edge, not a fixed dollar amount.
+- **Decisiveness:** Pausing to compute exact expectations draws nudges and has decided rejections.
+- **Coachability:** Correcting over- or under-betting on the very next quote after feedback.
+- **Framework judgment:** Recognizing when Kelly sizing fits, and putting everything in when an arbitrage is risk-free.
+
+Practice quoting markets on card sums with a partner who trades against your mistakes.
+
+> **Note:** Profit is not the score. One candidate doubled the bankroll and another finished far ahead, and both were rejected. Interviewers say they grade the sizing logic and the response to feedback.
+
+### Sample questions for the trading and betting games
+
+Here are some questions reported by recent candidates:
+
+- Is a 0.6-to-1 payout on two dice summing to 7 worth taking? Decide in seconds.
+- Quote a market on the sum of three cards, then re-center after each card is revealed and each trade against you.
+- Bet on a card whose payoff requires an even rank-plus-suit and an odd rank-times-suit.
+
+- [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game)
 - [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game)
+- [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/questions/qr-technical-brainteasers)
+
+## Research take-home and presentation
+
+Quantitative research candidates, especially PhDs, get a deadline-bound take-home: time-series analysis in pandas, or an ordinary least-squares fit evaluated through residuals and assumption checks. A panel video call follows that probes your code and choices; one loop then closed with a culture-and-technical call on Python and the candidate's PhD.
+
+Interviewers evaluate:
+
+- **Diagnostic depth:** Explaining why a model is mediocre, with residual plots and out-of-sample checks.
+- **Practical Python:** Clean, idiomatic pandas. A PhD does not substitute for it.
+- **Defending choices:** Saying why each cleaning or modeling step was taken.
+- **Communication:** Presenting conclusions concisely to a panel.
+
+Practice writing up a full regression diagnosis on noisy data.
+
+### Sample questions for the research take-home and presentation
+
+Here are some questions reported by recent candidates:
+
+- Fit a linear regression to the provided data, then document where its assumptions break and how that limits it.
+- Clean a time series in pandas, extract insights, and defend each step in front of a panel.
+
 - [QR Take-Home Data Project & Presentation](https://trueinterview.io/questions/qr-take-home-data-project)
 
-## How to Prepare
+## Final round
 
-- Rehearse the OA as a decathlon, not a coding test: alternate a timed simulation problem, a no-backtracking quiz, and a reaction game in one sitting so context-switching under fatigue is familiar.
-- For every design problem, write the rule interactions down before coding — expiration versus capacity, hidden versus visible, rate limit versus priority — and hand-simulate one tiny scenario; this is where hidden tests bite.
-- Practice reading and extending someone else's code under time pressure: take a mid-sized skeleton, find planted bugs, then bolt on a new requirement without breaking the old ones.
-- Drill the performance vocabulary behind simple structures — ring buffers, cache locality, false sharing, lock-free queues — because "design a queue" at Optiver is really a systems conversation.
-- Treat submission speed as scored even when the clock looks generous; ship a working solution early and improve it, rather than polishing before first submit.
-- Fix your physical setup for the games: a responsive wired mouse, a quiet room, and full alertness measurably change reaction-game outcomes.
-- Prepare two-minute versions of your project stories with an honest "what I would change" ending — every behavioral round asks for it.
+Engineering finals in Chicago combine physical-infrastructure design (connecting an exchange to the office with dedicated lines, bandwidth, server placement and redundancy, argued through TCP/IP behavior), a coding session that revisits Opticargo on streaming input with requirements added one at a time, and a closing behavioral call. Some intern finals add Zap-N games and a Tower-of-Hanoi-style puzzle; trading finals add more games. The culture conversation has decided outcomes on its own.
+
+Interviewers evaluate:
+
+- **Latency-first design:** Physical and network trade-offs, not a generic cloud architecture.
+- **Adaptable code:** Code structured so that each new requirement lands without a rewrite.
+- **Self-awareness:** Specific answers on weaknesses and on how coworkers see you.
+- **Consistency:** The same clarity in the last hour as in the first.
+
+Review networking fundamentals down to the wire, and prepare honest answers about your weaknesses.
+
+### Sample questions for the final round
+
+Here are some questions reported by recent candidates:
+
+- Design the infrastructure between an exchange and the trading office: lines, bandwidth, servers and failover.
+- Process a stream of cargo orders, then extend the code as the interviewer adds new constraints.
+- What is your biggest weakness, and how would coworkers describe you?
+
+- [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design)
+- [Optimize Cargo Transport Algorithm](https://trueinterview.io/questions/6031e550-cf37-42a2-813d-85aa4b2095dc)
+- [Thread-Safe Buy/Sell Without Overselling](https://trueinterview.io/questions/multithreaded-buy-sell-lock)
+- [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/questions/coding-knowledge-test)
+
+## How Optiver makes hiring decisions
+
+Each stage is a gate. The assessment is scored automatically and strictly: unfinished items or slow but correct submissions drew rejections within a day. Later stages judge how you reached answers: rejections followed profitable but hesitant games, correct phone answers delivered without visible enthusiasm, and a final culture call after strong technical rounds. Seniority matters too: one junior candidate's correct thread-safe buy/sell solution was turned down because the team expected someone closer to mid-level. Decisions usually arrive within days.
+
+> **Tip:** Ask the recruiter which level the opening targets before you spend hours on the assessment. A correct solution does not save a mismatch in seniority.
+
+## How to prepare for the Optiver interview
+
+1. **Train speed as a skill:** Time every practice set, and practice committing to an approximate answer within about 20 seconds before refining it.
+2. **Respect the penalty scoring:** Skip questions you cannot narrow down, since wrong answers cost points and several sections do not let you go back.
+3. **Write out the rule interactions:** For simulations, list how expiry, capacity, hiding, rate limits and tie-breaks affect each other, then trace a tiny example by hand.
+4. **Practice inside a stranger's code:** Find planted bugs in a long skeleton, then add a requirement without breaking the existing ones.
+5. **Learn the systems vocabulary:** Ring buffers, cache locality, lock-free queues and TCP behavior are what a simple design prompt turns into here.
+6. **Play markets with a partner:** Quote on card sums, size bets in proportion to your edge, and apply feedback immediately.
+7. **Fix your setup:** Use a wired or fully charged mouse and a quiet room. A trackpad is too slow for the reaction games.
+8. **Prepare retrospectives:** Every behavioral round asks what you would change and what stopped you, so have specific answers.
+
+## About working at Optiver
+
+Optiver is a market maker founded in Amsterdam in 1986. Traders, researchers and engineers sit together; engineering centers on low-latency trading systems, largely in C++, with Python for research. Graduate roles are in office, and the loop mirrors the job: decisions under a clock, judged by process rather than single outcomes.
+
+Optiver hires traders, researchers and engineers across a small set of global offices. Teams include:
+
+- **Chicago:** The US headquarters and the center of US options trading and the US technology team.
+- **Austin:** The global technology hub, focused on quantitative research, software and hardware engineering, ML and research infrastructure, plus a Delta One futures trading team.
+- **Amsterdam:** The founding office and global headquarters, covering trading, research and technology.
+- **Sydney:** The Asia-Pacific regional headquarters, combining trading, engineering and research.
+- **Hardware and FPGA engineering:** Builds the hardware behind trading systems, with hardware researchers running lab experiments on system performance.
+
+### Experience and education requirements
+
+Graduate roles are entry level and generally require a bachelor's degree or higher in computer science, mathematics, engineering or a related quantitative field. Quantitative researcher postings are split into bachelor's/master's and PhD tracks. Software engineers need solid object-oriented programming, data structures, operating systems and networking. Researchers need probability, statistics and fluency in Python and pandas. FPGA roles test digital logic, Verilog and C. Prior finance knowledge is not required for any track, but fast mental arithmetic is.
+
+## FAQs about the Optiver interview
+
+### How long does the Optiver interview process take?
+
+Usually two to four weeks from application to decision. Assessment links arrive within one or two days, and one trading candidate went from first call to final on site in about a month.
+
+### What is the hardest round of the Optiver interview?
+
+For traders and researchers, it is the live betting and market-making game, because good results do not make up for slow decisions. For engineers, it is the multi-rule simulation with hidden tests, or the skeleton-code phone round, where planted bugs and escalating follow-ups use up the time.
+
+### How much does Optiver pay new graduates?
+
+Posted Chicago base salaries are $200,000 for graduate software engineers and $175,000 for graduate quantitative researchers. A discretionary bonus paid from a firm-wide profit pool comes on top.
+
+### Is the Optiver interview remote?
+
+Most stages are. Engineering candidates who pass the virtual rounds are typically invited to Chicago for the final, and some trading finals with the games are also held on site.
 
 ## Guides by Role
 
-- [Optiver Research Scientist Interview Process](interview-process-research-scientist.md)
 - [Optiver Quantitative Finance Interview Process](interview-process-quantitative-finance.md)
+- [Optiver Research Scientist Interview Process](interview-process-research-scientist.md)
 
 ---
 

@@ -50,20 +50,20 @@ Which stage each question came from, for the **84 of 84** questions at Capital O
 
 ## What they ask about
 
-Of the **40 questions at Capital One that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **38 questions at Capital One that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 12 | 30% | ████████████ | Sep 16, 2026 |
-| `matrix` | 10 | 25% | ██████████ | Sep 07, 2026 |
-| `strings` | 5 | 12% | █████ | Jul 19, 2026 |
-| `hashing` | 4 | 10% | ████ | Jun 05, 2026 |
-| `sorting` | 4 | 10% | ████ | Sep 16, 2026 |
+| `arrays` | 12 | 32% | ████████████ | Sep 16, 2026 |
+| `matrix` | 10 | 26% | ██████████ | Sep 07, 2026 |
+| `strings` | 5 | 13% | █████ | Jul 19, 2026 |
+| `hashing` | 4 | 11% | ████ | Jun 05, 2026 |
+| `sorting` | 4 | 11% | ████ | Sep 16, 2026 |
 | `binary-search` | 3 | 8% | ███ | Jan 18, 2026 |
 | `greedy` | 3 | 8% | ███ | Apr 25, 2026 |
-| `math` | 3 | 8% | ███ | May 13, 2026 |
 | `dynamic-programming` | 2 | 5% | ██ | Feb 12, 2026 |
 | `heap` | 2 | 5% | ██ | Feb 18, 2026 |
+| `sliding-window` | 2 | 5% | ██ | Jan 19, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -16,15 +16,28 @@ How Hudson River Trading interviews, and the questions candidates reported there
 
 ## How Hudson River Trading interviews
 
-Hudson River Trading interviews the language, not just the algorithm: candidates are asked how `new` differs from `malloc`, to read typed values out of a raw byte buffer, and to reason about why a fast path occasionally stalls, often in the same call that contains a standard coding problem. This guide goes deeper than the process summary on the company page, drawing on 12 real Hudson River Trading questions and 8 candidate interview reports to show what each stage contains, how it is judged, and where people lose ground.
+Hudson River Trading examines the language as closely as the algorithm. Candidates are asked how `new` differs from `malloc`, to read typed values out of a raw byte buffer, and why a fast trading path occasionally stalls, often in the same call as a standard coding problem. Problems are read out without sample tests, so edge cases are the candidate's job, and the firm grades collaboration and teachability alongside correctness. Research tracks add probability and a data analysis round on top of the coding.
 
-### Interview Process
+This guide breaks down each stage of the Hudson River Trading interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 7 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Hudson River Trading interview process
 
 <!-- guide-diagram -->
 ![Hudson River Trading interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/hudson-river-trading/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Most loops open with a timed, proctored assessment, and its shape depends on the track. A quantitative research applicant reports a monitored CodeSignal session of 45 minutes with two questions that read as a C++ proficiency drill rather than a puzzle set: implement functions that read a `char`, an `int`, and a `std::string` sequentially from a raw buffer while advancing a pointer and handling alignment and invalid reads, then write a template class that wraps either `std::map` or `std::unordered_map` for `int` or `std::string` keys and values, with overloaded operations and correct empty-container behavior. The platform records mouse and keystroke activity, so treat it as supervised. Engineering postings are typically assessed on HackerRank or a similar platform with two to four problems in roughly 90 minutes, and the firm's own guidance is that the provided sample tests are deliberately incomplete, so write your own before submitting. Another candidate's OA was a plain coding set that gated a later math call, so expect the assessment to be about programming even when the role is research.
+The process is track-dependent but follows one skeleton: a timed online assessment, one or two technical phone interviews, and a final day of back-to-back one-on-one interviews held virtually or in person. Software and algorithm engineering candidates are tested in C++ or Python; quantitative research candidates sit the same coding gate, then a probability call and a final round mixing programming, data analysis and math. Internship loops are a slightly shorter version. The whole process typically takes one to two months.
+
+Here's what the interview process can look like:
+
+- **Online assessment:** A timed, monitored coding test; for some tracks a C++ proficiency drill rather than a puzzle set.
+- **Technical phone interviews (one or two):** Live sessions of about 45 to 60 minutes, either a systems and C++ discussion or a hands-on programming problem.
+- **Probability interview (research tracks):** A call on probability, combinatorics and the central limit theorem.
+- **Final round:** Typically four to six back-to-back interviews covering programming, systems or design, and, for research, data analysis and math.
+
+> **Tip:** Write down every parameter the interviewer reads out and list the boundary cases before coding. No sample tests are given in live rounds, and candidates who enumerated edges first fared better.
 
 **[Read the full Hudson River Trading interview process →](interview-process.md)**
 

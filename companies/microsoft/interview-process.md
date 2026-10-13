@@ -8,87 +8,268 @@
 
 ---
 
-This is the deep dive behind the company page: what each Microsoft stage actually contains, how the rounds are graded, and where candidates lose ground. It draws on 109 real Microsoft questions and 64 candidate interview reports, so the patterns below reflect what interviewers are asking now.
+Each Microsoft hiring team runs its own loop, from four phone rounds with no onsite to eight rounds at principal level. A few things hold everywhere. Behavioral questions open most technical hours. Coding problems come in several parts, and a part you only talked through counts as unfinished. A hiring manager or senior interviewer closes the loop and can reject a candidate whose technical feedback was positive. Since 2025, some teams have added rounds that require an AI assistant, rounds that ban it, and reviews of AI-generated code.
 
-## Interview Process
+This guide breaks down each stage of the Microsoft interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 64 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Microsoft interview process
 
 <!-- guide-diagram -->
 ![Microsoft interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/microsoft/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Not every pipeline uses one, but when it appears it is a timed, auto-graded set of two problems, with one reported sitting at 90 minutes. Recent problems turn on a single insight rather than raw difficulty: a permutation prefix check that reduces to tracking the span of positions of 1 through k, a next-smaller-price pass with a monotonic stack, a bitwise product maximization, and a shortest path where fuel price varies by city and the state has to carry fuel. A first failure is not always final: one candidate failed the initial assessment, was offered a second attempt, and was moving to interviews about a week later. Another candidate who leaned on an AI assistant during a proctored sitting believed it was obvious and expected the attempt to be void.
+The common pattern is a recruiter call, sometimes an online assessment, one to three phone screens, and three to five rounds of 45–60 minutes, usually on one day. Some teams use only phone rounds. Early-career loops are mostly coding plus a low-level design. System design starts at mid-level, and senior loops add a second design round and an hour on ownership with the hiring manager.
 
-**Phone screens.** Screens run 30 to 60 minutes and rarely test one thing. A recurring shape is a long resume interrogation followed by a short coding window: one hour-long screen spent 30 minutes on every resume line and left about 25 minutes for a multi-threaded keyed task executor; another spent roughly 30 minutes on a project before two coding problems. A 30-to-35-minute screen fit a full cycle-detection problem and a web-crawler design discussion. Some teams run two to four phone rounds that replace the onsite entirely, and one offer-winning loop had a second screen with no new code at all, only debugging habits, error handling, and refactoring during code review.
+Here's what the interview process can look like:
 
-**The loop.** Typically three to five rounds of 45 to 60 minutes, often on a single day; reports range up to eight for a principal-level loop. Rounds are blended: 10 to 15 minutes of behavioral questions open most technical sessions, a coding problem escalates into distributed design, or a design session ends in a code review. Coding problems are commonly multi-part, and interviewers treat unreached parts as unfinished work: a DNA-fragment problem that grew across three stages cost a candidate the offer when the last stage was only discussed, and another interviewer had five follow-ups prepared that the candidate never reached.
+- **Recruiter screen:** A short call on level, team and location that sometimes decides which loop you get.
+- **Online assessment (some pipelines):** Two auto-graded problems in 75–90 minutes, or a PyTorch build task on some AI teams.
+- **Technical phone screens (one to three):** 30–60 minutes, usually a resume block followed by one or two coding problems.
+- **Coding interviews:** Two or three rounds, each with about 15 minutes of behavioral questions before a multi-part problem.
+- **Design interviews:** Low-level design of a working component and, from mid-level up, system design.
+- **AI-assisted and code review rounds (some teams):** Coding with or without an assistant, or finding bugs in supplied code.
+- **Hiring manager interview:** A judgment and ownership conversation that can decide the outcome.
 
-**AI rounds are arriving unevenly.** Newer loops include a coding-with-AI round (debug a supplied project archive, add persistence to an in-memory store, explain the generated code), a coding-without-AI round in a browser editor, an AI fluency round on how you use assistants day to day, and review of AI-generated code for synchronization and validation bugs. Other candidates were told to expect an AI agent and then got ordinary algorithm problems where the assistant was optional. Confirm the format with your recruiter.
+> **Tip:** Plan each hour as 15 minutes of stories and 30 of code. Several rejections came from a final part that was never reached, not from wrong answers, so get a tested first part working in about 15 minutes.
 
-**The final call.** Loops end with a senior or hiring-manager conversation that weighs judgment, ownership, and level, and can decide the outcome on its own. Senior reports describe the day opening with an hour-long hiring-manager deep dive into ownership, ambiguity, and influence without authority, and candidates with positive technical feedback still get turned down at this stage.
+## Recruiter screen
 
-**Timeline.** Plan for several weeks end to end. Reports include three weeks of recruiter silence, a hiring-manager interviewer who never showed up, rejections that appeared in the applicant portal about four business days before the email, and a second role appearing as "interviewing" in the portal without notice.
+The call covers level, location and team, and for one Machine Learning Engineer it decided which loop fit. Recruiters may name a language (C# in one report) that can be switched on request. Some give no guidance on format, and three-week silences have been reported.
 
-## What Candidates Report
+Interviewers evaluate:
 
-- Resume depth is tested hard and early. Several screens spent half their time on projects, which squeezed the coding problem; candidates who kept project answers tight had more time to code.
-- A correct answer can still fail. One candidate finished a subsets variant in about ten minutes and was rejected, believing the interviewer wanted a different approach; others said the interviewer had a particular solution in mind and they had to adapt mid-problem.
-- Follow-ups shift dimension rather than difficulty: single-threaded to concurrent, stateless to TTL-aware, one machine to a sharded cluster, a search tree to a general binary tree.
-- Code quality is graded. Extracted helpers, dummy nodes, and naming drew explicit praise, and one interviewer asked a candidate to restore a linked list they had mutated, because callers do not expect that.
-- Concurrency shows up for engineers who never applied for systems roles: thread-safe caches, a type-keyed lock built on condition variables, a hashmap with striped locking, a buggy producer-consumer queue to review.
-- Interviewer quality varies. Many describe collaborative, hint-giving interviewers; others describe rushed transitions and underprepared sessions.
+- **Level fit:** The scope of your recent work, which decides whether system design is in the loop.
+- **Team match:** Your stack, or for AI teams, what you shipped with models and how you measured it.
+- **Scheduling constraints:** Whether all rounds can run on one day, which one recruiter required.
 
-## Coding Questions
+Ask which rounds allow an AI assistant and which language is expected.
 
-Coding favors well-known patterns with a Microsoft twist in the follow-up: palindromes pushed to the next palindromic number, lowest common ancestor moved from a search tree to a general tree, top-K pushed to a stream. Getting a clean baseline done fast is the real skill.
+> **Note:** Recruiter previews are unreliable. One candidate was told interviewers would expect use of an AI agent, and the rounds turned out to be ordinary algorithm problems where the assistant was optional.
 
-- [Path With Maximum Minimum Value](https://trueinterview.io/questions/866086d0-9514-4858-a0a7-e7350f4ccd0d)
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk me through your resume and the hardest technical problem in it.
+- Why Microsoft, and why this team?
+
+## Online assessment
+
+When it appears, the assessment is two auto-graded problems in about 75–90 minutes, each hinging on one insight. Reported problems include checking which prefixes 1 through k of a permutation sit in a contiguous block, a next-smaller-price pass with a monotonic stack, and valid clock times built from digits. Another asks for the X below 2^N that maximizes (A XOR X)(B XOR X). The hardest is a shortest path with city-dependent fuel prices, which needs fuel in the Dijkstra state. One candidate who failed was given a second attempt and reached interviews about a week later.
+
+Some AI-adjacent postings instead ask you to build a tiny next-token model in PyTorch, trained until the loss falls. Many Infrastructure and Machine Learning Engineer loops skip the assessment.
+
+Interviewers evaluate:
+
+- **Insight over brute force:** Hidden tests time out any approach that checks every subarray or uses a plain shortest path.
+- **Bit manipulation:** The XOR product problem consumed the most time in the reports.
+- **Shift logic:** In the PyTorch task, inputs drop the last token and targets drop the first.
+
+Practice pairs of medium problems in 75 minutes, including one stateful-graph and one bitwise problem.
+
+> **Note:** One candidate pasted AI-generated code into a proctored sitting, still hit a time limit, and expected the attempt to be voided. Assume assistants are detectable there.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- For every k from 1 to n, report whether a contiguous subarray of a permutation is exactly 1 through k.
+- Find the cheapest trip from A to B when roads burn fuel and each city sells it at its own price.
+
+- [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md)
+- [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network)
+- [Maximum XOR Product](https://trueinterview.io/questions/2e9b6434-fdc8-52e3-8863-e469e8a0f2a7)
+- [Tiny Next-Token Prediction Model (PyTorch Fill-In)](https://trueinterview.io/questions/c0d89abb-ff3b-48a7-b818-75334a7ae968)
+
+## Technical phone screens
+
+The resume block is not a warm-up. One hour-long screen spent 30 minutes on every resume line. That left about 25 minutes, with a hard stop, for a keyed task executor: same-key tasks in order, at most four running, at most 1,000 pending. Another 45-minute screen left 10–15 minutes for a top-K problem. Other prompts include a course-schedule check paired with a web crawler design and a reporting-chain count that must stay correct as people move.
+
+Infrastructure Engineer screens favor a typed lock or a snapshot key-value store. AI Engineer screens ask for greedy decoding extended to beam selection. Machine Learning Engineer screens ask for k-means in NumPy or rapid ML fundamentals. One offer-winning Software Engineer loop had a screen with no code, only debugging and refactoring habits.
+
+Interviewers evaluate:
+
+- **The intended approach:** One candidate finished a subsets variant in about ten minutes and was still rejected, believing the interviewer wanted another method.
+- **Optimization dialogue:** On the reporting-chain problem, interviewers expect a brute-force start and then a plan for keeping the counts precomputed.
+- **Concise project answers:** Long resume answers shrink the coding window directly.
+
+Practice a medium problem in 25 minutes immediately after a two-minute project summary.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Implement submit and shutdown for an executor that rejects new work once 1,000 tasks are pending.
+- Count everyone under a manager and keep the counts correct after a reassignment.
+
+- [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor)
+- [Org Chart Report Count (Tree Aggregation)](https://trueinterview.io/questions/org-chart-report-count)
+- [Count Positive Pairs Satisfying 1/x + 1/y = 1/N](https://trueinterview.io/questions/equations-reciprocal-pair-count)
+- [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding)
+
+## Coding interviews
+
+Problems look classic until the follow-up changes one dimension. A palindrome check becomes the next larger palindrome. A search-tree ancestor or kth-smallest problem moves to a general tree. LRU cache, the most repeated problem, moves to segmented locking, then TTL, then consistent hashing. Custom problems grow in stages: a DNA task goes from sorting fragments to locating them in a reference to finding every non-overlapping occurrence.
+
+Infrastructure Engineer rounds lean on streams and parsing. Machine Learning Engineer rounds can ask for a transformer, a CUDA kernel or SFT sample packing from scratch.
+
+Interviewers evaluate:
+
+- **Reaching later parts:** One candidate lost an offer when the third DNA stage was only discussed. Another interviewer had five follow-ups that the candidate never reached.
+- **Code quality:** Interviewers explicitly praised extracted helpers, dummy nodes and clear names.
+- **Side effects:** After an in-place check, one interviewer asked the candidate to restore the linked list.
+
+For every classic you practice, rehearse its concurrent, TTL and distributed versions out loud.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Check whether an integer is a palindrome without converting it to a string, then find the next larger palindrome.
+- Build an O(1) LRU cache, then make it thread-safe, add expiry, and shard it.
+- Return text from several character streams up to a stop token that may straddle two of them.
+
 - [DNA Sequence Concatenation](https://trueinterview.io/questions/edb32bbd-b688-4323-9145-8935dfef9893)
-- [Find the Closest Palindrome](https://trueinterview.io/questions/find-the-closest-palindrome)
-- [Distance from Each Node to the Cycle in an Undirected Graph](https://trueinterview.io/questions/distance-to-cycle-in-undirected-graph)
-- [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md)
-- [Parse Email Addresses from a Log String](https://trueinterview.io/questions/parse-emails-state-machine)
+- [Palindrome Number + Next-Greater Palindrome](https://trueinterview.io/questions/25b44e72-b83e-4f2d-b206-4b58550ea722)
+- [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread)
+- [In-Memory SQL Engine II](https://trueinterview.io/questions/in-memory-sql-engine)
 
-## System Design Questions
+## Design interviews
 
-Design rounds appear below senior level and lean toward booking and consistency problems, plus a newer family of product-AI prompts: resuming past chatbot conversations with personalization, re-engaging dormant users of an assistant, grounding a news recommender to limit hallucination.
+Low-level design means working code: a rate-limited logger, an LFU cache with frequency ties, an idempotent API, a lock that same-type tasks can share, or a hashmap made safe with striped locking.
 
-- [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design)
-- [Chatbot Personalization / Memory System Design](https://trueinterview.io/questions/chatbot-personalization-memory-design)
-- [Job Scheduler / ETL Pipeline System Design](https://trueinterview.io/questions/job-scheduler-etl-pipeline)
+System design appears below senior level. Booking with double-booking prevention repeats most, alongside a multi-region URL shortener and an ETL job scheduler. Infrastructure Engineer prompts are storage-shaped, AI Engineer prompts are product-AI systems, and Machine Learning Engineer loops get model design, such as a video vision-language model.
 
-## Low-Level Design Questions
+Interviewers evaluate:
 
-Microsoft's signature round is building a small, realistic component and then defending it as constraints pile on: snapshot reads, frequency ties, sliding windows, idempotency keys, thread safety. Working code outweighs diagrams.
+- **Requirements first:** State scale, consistency needs and the failure model before drawing boxes.
+- **Trade-offs over tool names:** One candidate was told to argue the trade-offs rather than list technologies.
+
+Practice one booking, one storage and one product-AI design in 45 minutes each.
+
+> **Tip:** Product-AI prompts reward grounding and cost choices: hosted versus self-run vector search, fine-tuning versus prompting, quantization for latency, and a verification layer against hallucination.
+
+### Sample questions for the design interviews
+
+Here are some questions reported by recent candidates:
+
+- Design a key-value store that serves any key as of a past snapshot without scanning the log.
+- Design a system that re-engages dormant users of an AI companion, including reminders implied in chat history.
 
 - [KV Store with Snapshot Versions](https://trueinterview.io/questions/kv-store-with-snapshot)
-- [LFU Cache](https://trueinterview.io/questions/lfu-cache)
 - [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2)
-- [Idempotency API with Idempotency-Key Header](https://trueinterview.io/questions/idempotency-api-with-key)
+- [Design User Re-engagement Notifications](https://trueinterview.io/questions/design-user-re-engagement-notifications)
+- [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design)
 
-## AI-Assisted Coding Questions
+## AI-assisted and code review rounds
 
-Where AI rounds exist, the grade is on judgment: reading generated code critically, making the project actually run, and explaining every line you accepted.
+These rounds are arriving unevenly. One loop paired two rounds. With AI: debug a supplied project archive, add disk persistence to an in-memory store, and explain the generated code. Without AI: build a component in a browser editor that collapses bursts of identical calls to an LLM service. A principal loop had an AI fluency round on daily assistant use and failure modes. Another round asked for the bugs in an AI-written URL shortener. Code review also appears without AI: one SDE II candidate reviewed C++20 producer-consumer code for races.
 
-- [Processing Service Logs for Error Detection and Reporting](https://trueinterview.io/questions/d179f051-5594-4883-b756-5c65264930c3)
-- [Tiny Next-Token Prediction Model (PyTorch Fill-In)](https://trueinterview.io/questions/c0d89abb-ff3b-48a7-b818-75334a7ae968)
+Interviewers evaluate:
+
+- **Running code:** One rejected candidate traced the outcome partly to code that did not execute.
+- **Critical reading:** The planted bugs were improper synchronization, wrong hash truncation and missing validation.
+- **Ownership:** You must explain every line you accepted from the assistant.
+
+Rehearse one session with your own assistant on a shared screen and one review of unfamiliar concurrent code.
+
+### Sample questions for the AI-assisted and code review rounds
+
+Here are some questions reported by recent candidates:
+
+- Debug a supplied project, then make its in-memory store persist to disk.
+- Review AI-written URL shortener code for correctness, security and performance bugs.
+
 - [LRU Cache](../../questions/ai-coding/lru-cache/README.md)
+- [Implement concurrent structures and debug queue code](https://trueinterview.io/questions/implement-concurrent-structures-and-debug-queue-code)
 
-## Behavioral Questions
+## Hiring manager interview
 
-Behavioral questions run through nearly every round, sometimes keyed to named competencies such as drive for results, influence for impact, and bias for action. Expect follow-ups until your individual decisions are visible.
+Behavioral questions run through nearly every round, sometimes keyed to named competencies: drive for results, influence for impact and bias for action. The 15-minute blocks often repeat themes (collaboration, failure, a trade-off), so you need distinct stories. Follow-ups probe whether the work was really yours.
+
+The closing round, with the hiring manager or a senior engineer, asks about the best system you worked on, a decision you regret, disagreeing with a product manager, and how you judge whether a solution is worth building. At senior level, the hiring manager may open the day with an hour on ownership and influence without authority.
+
+Interviewers evaluate:
+
+- **Scope for the level:** One MAI candidate was rejected because the hiring manager wanted broader, cross-team ownership.
+- **Data in judgment calls:** Quantifying the quarterly maintenance hours that technical debt cost won one argument for refactoring.
+
+Prepare eight to ten stories with numbers, and bring pull-request links for project deep dives.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe a design decision you regret and how you convinced others to fix it.
+- Tell me about a time you moved forward with limited information.
 
 - [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/questions/behavioral-round)
 - [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2)
-- [Object-Oriented Design Round](https://trueinterview.io/questions/object-oriented-design-round)
+- [Describe handling ambiguity and resolving design conflicts](https://trueinterview.io/questions/describe-handling-ambiguity-and-resolving-design-conflicts)
 
-## How to Prepare
+## How Microsoft makes hiring decisions
 
-- Cut every project story to a two-minute version with one decision you owned; long resume answers directly shrink your coding time.
-- Before coding, say your intended approach and ask whether it matches what the interviewer wants to see.
-- For every classic problem you practice, rehearse the concurrent, TTL, and distributed versions of it out loud.
-- Budget multi-part problems explicitly: a tested part one in under 15 minutes, then move on.
-- Ask the recruiter whether any round allows or expects an AI assistant, and practice one session each way in your own editor with screen sharing.
-- Bring pull-request links or diagrams for project deep dives; one loop asked for them directly.
+Each interviewer records a recommendation, and the closing interviewer weighs the whole loop. That interviewer is a hiring manager or senior leader, historically called the "as appropriate" interviewer. Strong technical feedback can still end in rejection at this stage, most often over level. Hiring is team-specific, so a rejection does not stop you applying to other teams. Reapplying to the same team or hiring event usually means waiting several months, so confirm the current rule with your recruiter. The applicant portal often updates first: one rejection appeared there about four business days before the email.
+
+## How to prepare for the Microsoft interview
+
+1. **Compress the resume block:** A two-minute version of each project leaves 25 or more minutes to code.
+2. **Confirm the approach before coding:** Correct but unexpected solutions have been rejected, so ask whether your plan matches what the interviewer wants.
+3. **Budget multi-part problems:** Finish a tested first part in about 15 minutes. A part you only described counts as unfinished.
+4. **Add a dimension to every classic:** For LRU caches, rate limiters and hashmaps, add thread safety, then TTL, then sharding.
+5. **Drill parsers and streams:** Quoted CSV, WHERE clauses and cross-boundary tokens all cost candidates time on edge cases.
+6. **Prepare one design per family:** Booking, storage or messaging, and a grounded product-AI system.
+7. **Rehearse both AI modes:** Code with your own assistant, and without one in a plain browser editor.
+
+## About working at Microsoft
+
+Each hiring team owns its loop, so interview content tracks the team's domain. Interviewers note that responsibilities shift often and broad ownership is valued.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| 59–60 (Software Engineer) | Delivering scoped features with guidance | Tasks within one team |
+| 61–62 (Software Engineer II) | Owning features end to end | One team's services |
+| 63–64 (Senior Software Engineer) | Leading designs and mentoring | Several teams |
+| 65–67 (Principal Software Engineer) | Architecture and technical strategy | An organization |
+
+Microsoft hires engineers across cloud, productivity, AI and consumer businesses. Teams include:
+
+- **Azure:** Compute, storage, networking and data services.
+- **CoreAI:** The AI platform and developer tools division formed in 2025.
+- **Microsoft AI (MAI):** Consumer Copilot and model pretraining and post-training.
+- **Experiences and Devices:** Microsoft 365, Teams, Windows and Surface.
+- **Gaming:** Xbox platforms and services.
+
+### Experience and education requirements
+
+Postings typically ask for a bachelor's degree in computer science or a related field, or equivalent experience, plus coding in C, C++, C#, Java, JavaScript or Python. Software Engineer II postings commonly ask for about two years of experience, and senior postings ask for more, with a master's degree replacing some of those years. Applied science and model-training roles favor graduate degrees and hands-on PyTorch and LLM work.
+
+## FAQs about the Microsoft interview
+
+### How long does the Microsoft interview process take?
+
+Typically several weeks. Recruiter silences of up to three weeks and a hiring manager no-show have stretched some loops.
+
+### What is the hardest round of the Microsoft interview?
+
+The multi-part coding round, because the grade depends on reaching the later parts. Candidates who prepared less for design name system design next.
+
+### Can I use an AI assistant?
+
+Only in rounds that say so. Some loops have one round that requires an assistant and another that forbids it.
+
+### How much does a Microsoft software engineer make?
+
+Approximate US total compensation:
+
+- **Level 59 (Software Engineer):** ~$160K
+- **Level 61 (Software Engineer II):** ~$185K
+- **Level 63 (Senior Software Engineer):** ~$245K
+- **Level 65 (Principal Software Engineer):** ~$320K
+
+Packages combine base salary, an annual bonus and stock awards that vest over several years.
 
 ## Guides by Role
 

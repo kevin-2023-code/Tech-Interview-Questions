@@ -8,59 +8,276 @@
 
 ---
 
-Two Sigma runs one of the most implementation-heavy loops in quantitative finance: nearly every stage asks you to ship complete, tested code against a dense specification, not just sketch an idea. This guide goes beyond the process outline on the company page — how each stage is actually graded, which problems keep resurfacing, and where candidates lose offers. It draws on 15 real Two Sigma questions and 18 candidate interview reports.
+Two Sigma grades finished code, not ideas. Assessments are graded on hidden tests, and phone screens expect a working build of a trading or data component in about 30 minutes. The most common rejection in the reports is a correct approach that ran out of time. The loop is also quantitative well beyond research: interpolation, least squares and open-ended prediction cases appear for software, data and research candidates alike. Interviewers often stay neutral for the whole hour, and positive rapport has not predicted offers.
 
-## Interview Process
+This guide breaks down each stage of the Two Sigma interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 26 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Two Sigma interview process
 
 <!-- guide-diagram -->
 ![Two Sigma interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/twosigma/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** The OA runs on HackerRank, typically 60–90 minutes, with a completion window of several days after the invite. It can arrive by email with no recruiter conversation first, so a cold application may go straight to the timed test. Software-track assessments usually contain two problems, and candidates report the same pair with striking regularity: an IPO-style allocation problem (in both its classic maximize-capital form and a nastier variant that groups orders by price and round-robins within each group by timestamp) and a "sewer" problem that is really a tree-partition or connected-components exercise. Quant-track assessments swap in three data-flavored tasks — a linear interpolator with duplicate and extrapolation edge cases, statistics and regression over an NYC temperature dataset, and an efficient OLS problem with incremental updates. Grading is dominated by hidden test cases, and clearing essentially all of them is generally what advances you; a conceptually right solution that mishandles tie-breaking or termination reads as a fail.
+Every track follows the same skeleton: an online assessment, one or two technical screens of 45–60 minutes, and a final loop of three to five hour-long sessions, sometimes split across two days. The content diverges early. Software candidates get algorithm assessments and from-scratch implementation screens. Quantitative research and data candidates get numerical coding, a modeling case and a statistics oral. The process typically takes four to eight weeks, and assessment results can take one to two weeks.
 
-**Technical phone screen.** A 60-minute session with an engineer or researcher on a shared editor. It is one substantial problem plus escalating follow-ups rather than two quick exercises. Reported screens include an order matching engine built on complementary heaps (with out-of-order sequence numbers and hidden cancellation cases), an in-memory database that parses CREATE/INSERT/SELECT commands with chained AND filters, maximum independent set on a tree with a follow-up about the jump to general graphs, and a Huffman-style encode/decode. Interviewers ask for test cases and complexity unprompted-level rigor: you are expected to propose your own edge cases, and a working happy path with unfinished follow-ups is a common rejection.
+Experienced hires see more design and project depth, such as object-oriented design with unit tests, distributed system design, or a manager round on production ML. Early-career and PhD candidates see more statistics and questions on their own field.
 
-**Final loop.** Typically 3–5 back-to-back sessions of about an hour each, virtual or onsite, sometimes split across two days. The mix is hard coding, a design-and-implementation or systems round, and a hiring-manager or behavioral conversation; quant-adjacent loops add statistics and modeling discussions (regularization, feature selection, numerical stability). The hiring-manager round is genuinely evaluative — candidates report background-fit conversations deciding outcomes even after clean technical rounds. End to end, the process usually takes four to eight weeks, with OA results often taking one to two weeks to come back; quiet stretches between stages are normal and reflect team-matching rather than a verdict.
+Here's what the interview process can look like:
 
-## What Candidates Report
+- **Recruiter screen (not always):** A short, non-technical call. Some candidates skip it and receive the assessment by email.
+- **Online assessment:** A timed HackerRank test of two or three problems, typically 60–90 minutes, graded on hidden tests.
+- **Technical phone screen (one or two):** A live 45–60 minute build of one component, with escalating follow-ups.
+- **Data analysis and modeling interview (research and data tracks):** An open-ended prediction case driven by repeated follow-up questions.
+- **Statistics and math interview (research and data tracks):** A derivation-level oral on probability and linear models, with no coding.
+- **Final-round coding interviews:** Simpler coding problems, often paired with field-specific questions and an unconventional puzzle.
+- **Hiring manager interview:** A graded conversation about your background and the team's mandate.
 
-- Question reuse is high. The IPO/sewer pair on the software OA and the interpolator/temperature/regression trio on the quant OA appear across many reports spanning months, so drilling the known problem families has unusually high payoff here.
-- Reading the specification is half the problem. Dense statements bury the actual requirements — duplicate x-values, timestamp ordering inside price groups, round-robin termination — and candidates who code before restating the rules get burned by hidden tests.
-- Completeness beats polish. Multiple rejections trace to over-engineering the first problem (input validation, rare invalid cases) and never finishing the second. Interviewers reward a full working baseline across all parts, then hardening.
-- Follow-ups are the real test. Screens repeatedly extend a solved problem: batch regression becomes streaming, a tree algorithm becomes a general-graph discussion, a matcher gains cancellations. The extension, not the base problem, separates candidates.
-- Even client-facing and non-engineering quant roles are screened quantitatively — one report describes a client-group role whose loop was still interpolation, regression, and a hiring-manager deep-dive. Work-authorization questions can dominate the very first call.
+> **Tip:** Get every build fully working before adding edge cases. Several rejected candidates had the right data structures but spent their time on validation or rare cases and never showed a complete flow.
 
-## Coding Questions
+## Recruiter screen
 
-Two Sigma coding problems wrap standard techniques — heaps, DFS, tree DP, prefix codes — in trading- or infrastructure-flavored specifications with strict hidden tests. Practice implementing to completion, stating your tie-break and edge-case policies out loud, and writing your own tests before being asked.
+Entry varies. Some candidates get a short call about the company, the process and the target group. Others apply online and get the HackerRank link by email with no conversation. Referrals usually go straight to the assessment. There are no technical questions, though some calls are almost entirely about work authorization.
+
+Interviewers evaluate:
+
+- **Track fit:** Whether your background reads as software, research or data science, which decides the assessment you get.
+- **Logistics:** Location, work authorization and timing.
+- **Motivation:** A specific reason for wanting a firm that combines research and engineering.
+
+Ask which assessment variant you will get, since the software and quantitative versions share almost nothing.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself. Why Two Sigma, and why this group?
+- Will you need visa sponsorship?
+
+## Online assessment
+
+The assessment runs on HackerRank, with two or three problems in about 60–90 minutes, and the problems recur for months. Software candidates usually get IPO and Sewer. IPO is either capital-constrained project selection or a share allocation that groups bids by price and serves them round-robin in timestamp order. Sewer is grid connectivity or a tree partition that cuts one edge to balance subtree sums. One variant asks for a Huffman-style encoder and decoder instead.
+
+Quantitative and data candidates get three numerical tasks. The first is a linear interpolator that must handle duplicate x values, extrapolation and a single point. The second is a staged analysis of New York temperatures: standard deviation, median, a closed-form fit, mean squared error and greedy feature selection. The third is a no-intercept least-squares slope for every column pair across two data frames, updated as new batches arrive. Some versions forbid numpy.
+
+Interviewers evaluate:
+
+- **Hidden-test coverage:** A correct idea that mishandles a tie-break or loop termination fails the hidden cases.
+- **Specification reading:** The trap is usually a rule buried in a long prompt, such as timestamp order within a price group.
+- **Explicit policies:** A stated, consistent rule for duplicate keys and out-of-range queries.
+- **Incremental updates:** Running sums that update a regression without re-reading old data.
+
+Drill the recurring families against a timer, and dry-run each spec on a small example before coding.
+
+> **Note:** The most-reported assessment failure is time. One candidate perfected the interpolator's edge cases and could not finish the regression tasks, which were scored separately.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Allocate IPO shares by price group, round-robin in timestamp order, skipping filled bidders until shares or demand run out.
+- Remove one edge from a valued tree so the two subtree sums differ as little as possible.
+- Interpolate over points with duplicate x values, extending the end segments beyond the data range.
+
+- [IPO Share Allocation](../../questions/algorithm/swe-oa-ipo-share-allocation/README.md)
+- [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition)
+- [Linear Interpolation](../../questions/algorithm/qr-oa-linear-interpolator/README.md)
+- [Univariate OLS Regression Through Origin](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols)
+- [NYC Temperature Regression Analysis](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression)
+
+## Technical phone screen
+
+The screen is a 45–60 minute session on a shared editor, built around one substantial problem. Software prompts are components built from scratch. The most common is an order matching engine with a max heap for buys, a min heap for sells, price-time priority, partial fills and out-of-order sequence numbers. Others are a hash map with chaining and resizing, an in-memory database that parses CREATE, INSERT and SELECT with AND-chained filters, maximum independent set on a tree, and Huffman encoding.
+
+Quantitative screens make the assessment live. Candidates build an interpolator class with binary search, derive the no-intercept slope, then name the running sums that make each batch update constant-time. A second screen depends on the team. It can be object-oriented design with unit tests, system design, or, on GenAI-adjacent quant engineering teams, a manager round on fine-tuning and agent frameworks.
+
+Interviewers evaluate:
+
+- **Completion in about 30 minutes:** Two order-book candidates were rejected because the solution was incomplete, one after missing hidden cancellation cases.
+- **Self-written tests:** Your own edge cases, such as an empty tree, a star or equal prices.
+- **Stated tie-breaks:** Price-time priority and duplicate handling, decided before coding.
+- **Generalization:** Seeing that the tree solution becomes NP-hard on general graphs.
+
+Rehearse the matching engine, the mini SQL engine and the hash map until each runs end to end in 30 minutes.
+
+> **Tip:** Make CREATE, INSERT and a basic SELECT work before validating input. One rejected candidate spent the screen hardening the parser and never showed a complete query.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Build an order matching engine with partial fills, earlier-arrival tie-breaks and out-of-order sequence numbers.
+- Implement a hash map without built-in dictionaries, with chaining and load-factor resizing.
+- Find the maximum independent set of a tree, then explain the general-graph case.
 
 - [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
-- [SWE / QSE OA — Sewer Tree Partition](https://trueinterview.io/questions/swe-oa-sewer-tree-partition)
-- [Huffman-Style Binary Encode / Decode](https://trueinterview.io/questions/huffman-style-binary-encode-decode)
+- [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46)
+- [HashMap from Scratch](https://trueinterview.io/questions/hashmap-from-scratch)
 - [Maximum Independent Set on a Tree](https://trueinterview.io/questions/maximum-independent-set-on-tree)
-- [QR OA — Linear Interpolator](../../questions/algorithm/qr-oa-linear-interpolator/README.md)
-- [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression)
 
-## Behavioral Questions
+## Data analysis and modeling interview
 
-Behavioral evaluation at Two Sigma is folded into hiring-manager conversations and domain orals rather than a standalone HR round. Expect probing questions about your background, how your work maps to the team, and technical judgment under ambiguity — treat these as graded rounds, not chats.
+Research and data candidates get an hour-long prediction case, either as a screen or in the final loop. Reported targets include New York housing prices, Citi Bike demand at one station, a stock price from search trends or Twitter, and whether a momentum alpha is real. The interviewer accepts the plan and then asks why at every step: target definition, missing values, non-linearity, feature selection, leakage, drift in mean versus variance, seasonality, and how a shock like the pandemic distorts training data.
 
-- [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive)
+Interviewers evaluate:
+
+- **Framing:** A precise target and a stated mechanism for each feature.
+- **Leakage and drift:** Raised before the interviewer does, with time-ordered validation.
+- **Depth:** Answers that still hold three or four follow-ups down.
+
+Apply a fixed framework (target, features, validation, failure modes) to several unfamiliar datasets. Finance-focused candidates report that traditional statistics mattered more than modern machine learning.
+
+> **Note:** One research candidate handled the research deep dive and a probability problem well, struggled with the Twitter case, and was rejected despite warm feedback. This round counts as much as the technical ones.
+
+### Sample questions for the data analysis and modeling interview
+
+Here are some questions reported by recent candidates:
+
+- Build a housing-price model end to end, including leakage, drift and a pandemic-era shock.
+- Forecast Citi Bike demand at one station from weather, events and seasonality.
+- How would you test whether a momentum factor is a real alpha?
+
+- [Data Analysis on New York Housing Prices](https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7)
+- [Predict bike demand and avoid overfitting](https://trueinterview.io/questions/predict-bike-demand-and-avoid-overfitting)
+- [Predicting Stock Prices from Twitter Data](https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data)
+- [How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?](https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks)
+
+## Statistics and math interview
+
+This round has no coding and goes to derivation depth. Reported prompts include the feasible range of a third correlation given two others, with constructed examples and an extension to n variables. Others are omitted-variable bias in matrix form, the y-on-x versus x-on-y slopes, Lasso versus Ridge, and the covariance of the maximum and minimum of n uniforms. One loop added a Markov chain and a cubic solved by hand. PhD candidates are also questioned on their own field from unfamiliar angles.
+
+Interviewers evaluate:
+
+- **Constructions:** Exhibiting variables that reach a bound, not just stating it.
+- **Linear-model fluency:** Regression algebra and regularization, explained intuitively and in matrices.
+- **Reasoning aloud:** A clear chain of logic even when the interviewer gives no reaction.
+
+Re-derive the classic linear-model results by hand until you can write them without notes.
+
+### Sample questions for the statistics and math interview
+
+Here are some questions reported by recent candidates:
+
+- Given the x–y and x–z correlations, what values can the y–z correlation take? Construct the extremes.
+- Derive the bias on a coefficient when a correlated regressor is omitted.
+- In a complete graph with random edge weights, how many pairs are expected to have their direct edge as the shortest path?
+
+- [Answer four core statistics questions](https://trueinterview.io/questions/answer-four-core-statistics-questions)
+- [Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal)
+- [Expected Number of Good Pairs in a Randomly Weighted Complete Graph](https://trueinterview.io/questions/expected-number-of-good-pairs-in-a-randomly-weighted-complete-graph)
 - [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral)
 
-## How to Prepare
+## Final-round coding interviews
 
-- Drill the recurring OA families to fluency: capital-allocation/IPO variants with heap-plus-sort, tree partition by subtree sums, and round-robin distribution with timestamp tie-breaks and careful loop termination.
-- Practice two-problem timed sessions and enforce a rule: complete baseline for everything first, adversarial edge cases second. Submitting something working for every part beats perfecting one.
-- Rebuild numerical primitives without libraries — median, standard deviation, OLS slope and intercept, MSE — and know the running-sums trick for updating a regression incrementally as batches arrive.
-- Rehearse the streaming extension pattern explicitly: for any batch algorithm you practice, ask which sufficient statistics let you update the answer in constant time per new batch.
-- Build a parsing reflex for spec-heavy problems: before coding, write down input ordering, duplicate policy, tie-breakers, and stopping conditions, and confirm them.
-- Prepare the hiring-manager round like a technical interview: a crisp narrative of your strongest project, the trade-offs you made, and why this team — reports show this round rejecting otherwise-strong candidates.
+Final-round coding is usually simpler than the screens. One candidate described three sessions with one structure: a short coding problem, questions on their academic major, and an unconventional thought experiment. Reported problems include adding long digit strings with only a single-digit adder, the smallest palindrome greater than an integer, splitting 2n workers between two tasks, and a DAG problem. Exceptions exist: one research loop asked for a maximum-product path in a complete graph, solved with bitmask DP after a log transform.
+
+Interviewers evaluate:
+
+- **Clean execution:** Bug-free code and complexity on the first pass.
+- **Boundary handling:** Carries, all-nines inputs and leading zeros.
+- **Composure on the unfamiliar:** One candidate with more than 400 practice problems was rejected after an unfamiliar pattern.
+
+Prioritize fast, clean execution on medium problems, and add a few hard dynamic programming problems for the exceptions.
+
+### Sample questions for the final-round coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Add two arbitrarily long integer strings using only a function that adds two digits.
+- Find the smallest palindrome strictly greater than a given integer.
+- Split 2n workers between two tasks to minimize total completion time.
+
+- [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder)
+- [Smallest Palindrome Strictly Greater Than K](https://trueinterview.io/questions/smallest-palindrome-strictly-greater-than-k)
+- [Assign 2n Workers to Two Tasks to Minimize Total Time](https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time)
+- [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph)
+
+## Hiring manager interview
+
+There is rarely a standalone behavioral round. Behavioral questions come up in the manager conversation and in resume deep dives. Managers go after the decisions inside your own work: scope, stack, why you made a scaling choice, and what you gave up. Research candidates defend the method and their personal contribution to each paper.
+
+Interviewers evaluate:
+
+- **Specific ownership:** Numbers and decisions from your own systems.
+- **Trade-offs:** Latency, throughput and cost under a fixed budget.
+- **Team fit:** How your work maps to what this group builds.
+
+Prepare two projects deeply enough to survive five layers of follow-up questions.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Compare full fine-tuning with LoRA and QLoRA on data scale, GPU memory, latency and quality.
+- How would you run an agent framework in production, from tool schemas to observability?
+
+- [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive)
+- [How to prepare for a hiring manager round](https://trueinterview.io/questions/how-to-prepare-for-a-hiring-manager-round)
+
+## How Two Sigma makes hiring decisions
+
+The final loop is assessed as a whole, together with the hiring team's needs. Rejections can follow clean rounds and engaged interviewers, and feedback is usually generic. One candidate concluded that comparison with other candidates outweighed rounds that felt productive. The reports describe no fixed cooldown, so ask your recruiter.
+
+## How to prepare for the Two Sigma interview
+
+1. **Drill the recurring assessment families:** IPO allocation, tree partition, the interpolator and the temperature statistics set.
+2. **Hand-code numerical primitives:** Median, standard deviation, least squares and mean squared error, without numpy.
+3. **Learn the streaming update:** Know which running sums turn each new batch into a constant-time update.
+4. **Build components end to end:** Matching engine, mini SQL engine and hash map, each working in 30 minutes.
+5. **Write your own tests aloud:** Empty, tie and out-of-range cases, without being asked.
+6. **Rehearse prediction cases:** Target, features, leakage, drift and validation on new datasets.
+7. **Re-derive linear-model statistics:** Correlation bounds, omitted-variable bias and the two regression slopes.
+8. **Practice thinking aloud into silence:** Several interviewers give no hints or reaction for the full hour.
+
+## About working at Two Sigma
+
+Two Sigma is a New York quantitative investment manager, founded in 2001, that runs like a technology company. Engineers make up more than half the workforce, and researchers, engineers and data specialists share platforms for data, modeling and trading.
+
+Two Sigma hires engineers and researchers across several groups. Teams include:
+
+- **Quantitative research:** Builds and tests predictive models and strategies.
+- **Modeling engineering:** Tools to develop, test and deploy strategies.
+- **Data engineering:** Ingests and monitors data from thousands of sources.
+- **Platform engineering:** Storage and compute infrastructure.
+- **Trading engineering and reliability:** Execution systems and production stability.
+- **Venn:** A portfolio analytics product for asset owners and managers.
+
+### Experience and education requirements
+
+Software roles typically ask for a computer science or related degree and fluency in a language such as Python, Java or C++. Research roles favor PhDs or master's graduates in statistics, mathematics, physics or computer science. Finance experience is not required.
+
+## FAQs about the Two Sigma interview
+
+### How long does the Two Sigma interview process take?
+
+Typically four to eight weeks from application to decision, with gaps between stages.
+
+### What is the hardest round of the Two Sigma interview?
+
+For software candidates, the implementation phone screen, with its 30-minute completion bar. For research candidates, the statistics oral, closely followed by the underestimated modeling case.
+
+### Is there an online assessment?
+
+Almost always, on HackerRank. The software and quantitative versions differ completely, and questions recur heavily.
+
+### How much does a Two Sigma engineer or researcher make?
+
+Approximate US first-year total compensation:
+
+- **Entry-level software engineer:** ~$250K
+- **Entry-level quantitative researcher:** ~$330K
+
+Posted New York campus bases are about $165K–$190K for software and $200K–$220K for research. Most of the rest is a discretionary bonus, with little or no equity.
+
+### Is the Two Sigma interview remote?
+
+Screens are remote. Final rounds have been reported both virtually and in person in New York.
 
 ## Guides by Role
 
-- [Two Sigma Research Scientist Interview Process](interview-process-research-scientist.md)
 - [Two Sigma Quantitative Finance Interview Process](interview-process-quantitative-finance.md)
+- [Two Sigma Research Scientist Interview Process](interview-process-research-scientist.md)
 
 ---
 

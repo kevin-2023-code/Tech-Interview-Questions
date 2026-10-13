@@ -16,35 +16,33 @@ How Uber interviews, and the questions candidates reported there. Free questions
 
 ## How Uber interviews
 
-This is the deep dive behind the short outline on the Uber company page. It covers how each stage is graded, which problems keep coming back, and where offers are actually lost. It draws on 146 real Uber questions and 92 candidate interview reports, most of them from the past year, so it reflects the loop as it runs now.
+Uber grades its loop on follow-ups more than on first answers. The coding problems are mostly familiar mediums that candidates often finish in under half the hour, and the rest goes to streaming input, millions of moving points or thread safety. Design rounds are set in Uber's own products: driver heatmaps, rider-driver matching and the Eats cart. From L5a up, the level is decided in a project review after the technical rounds, and strong coders are regularly offered L4 instead.
 
-### Interview Process
+This guide breaks down each stage of the Uber interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 94 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Uber interview process
 
 <!-- guide-diagram -->
 ![Uber interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/uber/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen and loop shape.** The recruiter call is short, but it matters more than it seems. Loops vary a lot by team, and the recruiter's description is not always accurate. One candidate was promised a dedicated behavioral round and instead sat two system design rounds and two coding rounds. Others never had a traditional onsite: they did three separate phone rounds and then a single project-and-behavioral session. Settle two things on this call: the level you are being assessed at, and which round types your panel includes. Downleveling from L5a to L4 is a common outcome. A rejection can also start a cooldown of about six months across the company.
+The hiring team sets the shape of the loop, so two candidates with the same title can face very different panels. The usual path is a recruiter call, an optional online assessment, one technical phone screen (sometimes two or three), and a virtual onsite of three to six sessions of 45–60 minutes each. One loop had no traditional onsite: three phone rounds, then a single project-and-behavioral session.
 
-**Online assessment, when used.** Two formats appear. The first is 60 to 70 minutes with four problems: two warm-ups you can finish in five to ten minutes, then two harder ones. The second is 60 to 90 minutes with two harder problems. One 90-minute sitting required the camera on and banned external monitors. The problems are not standard catalog items, but they repeat a lot:
+New-grad screens pair a 45-minute problem with about 10 minutes of behavioral questions. Mid-level loops add object-oriented and system design. At L5a and above, system design and the project review decide the outcome. Machine Learning Engineer loops swap part of the coding for numerical optimization, ML system design and, on scientist-leaning teams, experimentation.
 
-- a jump game where jumps must be primes ending in 3
-- maximizing pipeline throughput under a budget, solved by binary search on the answer
-- counting palindrome-capable ancestor paths in a tree with a 26-bit parity mask
-- a union-find problem where large hidden tests punish unoptimized code
+Here's what the interview process can look like:
 
-Grading looks automated. One rejection arrived fifteen minutes after submission.
+- **Recruiter screen:** A short call about background, target level, team and the round types on the panel.
+- **Online assessment (many Software Engineer candidates):** Four problems in 60–70 minutes or two harder ones in 60–90 minutes, proctored.
+- **Technical phone screen:** A 45–60 minute live session with a practical, API-shaped problem, often combined with a project deep dive.
+- **Coding interviews:** One or two onsite rounds with a medium problem and follow-ups that change the scale or the input model.
+- **Object-oriented design interview:** A runnable class design, most often a parking lot, a scheduler or a pricing engine.
+- **System design interview:** A 60-minute design of an Uber product, such as a heatmap, dispatch, the Eats cart or payouts.
+- **Hiring manager or bar raiser interview:** A 45–75 minute review of one past project plus behavioral questions; it sets the level.
 
-**Technical phone screen.** This is usually 45 to 60 minutes. Some screens are pure coding. Others are split: one reported hour ran five minutes of introductions, twenty minutes of coding, a thirty-minute project deep dive and five minutes of questions. New-grad screens have added about ten minutes of behavioral questions after a 45-minute problem. The problems are practical and API-shaped: a meeting-room booking function that returns success plus a room ID, a first-unique-visitor tracker with constant-time operations, a nested `add`/`mult` expression evaluator, a tournament bracket printer. Interviewers routinely ask you to write and run your own tests. A Staff candidate's rejection named the failure to do so.
-
-**Virtual onsite.** Most loops have three to six sessions of 45 to 60 minutes. The common mix is:
-
-- one or two coding rounds
-- one object-oriented design round
-- one system design round
-- one hiring-manager or bar-raiser conversation
-
-In coding rounds, candidates typically solve the core problem in under half the time. The rest goes to follow-ups: streaming input, moving points, tens of millions of records, thread safety. Design prompts come straight from Uber's products: driver heatmaps, rider-driver matching, Eats cart and search. Some panels add a wildcard, such as a SQL segment, a React frontend exercise, or a debugging round in an AI-enabled IDE on a full-stack money-transfer app.
+> **Tip:** Confirm the round types with the recruiter, then prepare for all of them anyway. One candidate was promised a behavioral round and got two system design and two coding rounds instead. Others met an unannounced SQL segment, a React exercise, or debugging in an AI-enabled editor.
 
 **[Read the full Uber interview process →](interview-process.md)**
 

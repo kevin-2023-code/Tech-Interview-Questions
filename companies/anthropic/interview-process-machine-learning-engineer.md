@@ -6,85 +6,301 @@
 
 ---
 
-Machine Learning Engineer candidates lose this loop at implementation depth, not at paper coverage. The recurring phone screen opens as a code review: a short reinforcement-learning snippet with three deliberately planted faults, to be found, explained in terms of the exact training pathology each causes, and fixed. Reported bugs include a missing softmax before multinomial sampling that produces NaNs, an advantage normalisation whose standard deviation has no epsilon, and a probability ratio computed as a difference of log-probabilities — followed by why that ratio should theoretically equal one at a particular point and what it means when it does not. Knowing what GRPO is buys nothing here. The second trap is the design round: candidates prepare model architecture and get asked about scaling, infrastructure, observability and cost.
+Anthropic's Machine Learning Engineer loop tests whether you can build and debug training and serving code, not how much modeling you know. The technical screen is often picked from a short menu: reinforcement-learning debugging, a stateful data batcher, prompting and LLM engineering, or agentic coding. Recruiters choose the one that fits your background, so two candidates for the same team can sit very different screens. The design round asks about scaling, observability and GPU memory bandwidth, not model architecture. A separate culture round asks for your own critique of Anthropic's safety positions and carries real weight in the decision.
 
-## Interview Process
+This guide breaks down each stage of the Anthropic Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 22 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q3, cross-checked against recent public accounts.
+
+## Anthropic Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Anthropic Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/anthropic--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (15–30 minutes, phone).** Motivation, why this company rather than another lab, level and scope, work authorisation, competing timelines. Recruiters here are notably concrete about preparation and several candidates were handed the exact topics for the next round; ask, because these screens are specialised enough that the topic list changes what you revise.
-2. **Online assessment (60–90 minutes, timed).** Applied coding rather than modelling. The recurring problem is dependency resolution — recipes whose intermediate outputs feed other recipes, requiring transitive expansion and cycle safety. Other variants ship vectorised code with a planted axis or broadcasting fault to diagnose. Test cases are usually visible; scoring is numeric.
-3. **Technical phone screen (55–60 minutes, shared cloud notebook).** One of two shapes. The reinforcement-learning shape: debug a training implementation, then policy-gradient mechanics in depth — group-relative versus standard advantage estimation, why clipping exists, exactly when it triggers, on-policy versus off-policy handling of stale data. The applied shape: prompting and engineering with language models for the full hour, covering prompt design, context-window management, output reliability and how you evaluate a prompt in production.
-4. **Coding and design session (60 minutes).** Usually a weighted data batcher on a supplied registry iterator: yield batches of indices under per-dataset weights, add an offset, then require deterministic checkpoint and resume, then relax the assumption that batch size divides the weight sum. Follow-ups cover mutable weights between saves, sharding, and testing determinism in a distributed run. Some loops swap in an ML configuration exercise.
-5. **Onsite ML system design (55–60 minutes).** A broad prompt with a production centre of gravity: how the service scales, what infrastructure it needs, how it is observed, where latency and cost sit, how models are versioned and rolled out. Candidates report needing clarifying questions to find the boundary, and that asking is part of the grade.
-6. **Values and culture round (45–60 minutes).** Why this company specifically, a value upheld under real pressure, how you weigh safety against delivery, your own reading of current risks. Often the most senior interviewer in the loop.
-7. **Reference checks and team matching (1–2 weeks).** References are called before the offer and matching runs in parallel; both are real decision points.
+This track covers Machine Learning Engineer, Research Engineer, data infrastructure and some fellowship roles, and the loop depends on the team. Training teams screen on reinforcement-learning mechanics and data pipelines. Applied teams screen on prompting and agents. Data infrastructure screens are pure system design and require no machine-learning knowledge. Most candidates sit one or two screens, then a virtual onsite of four or five rounds. Stages are often two to three weeks apart, so the process usually takes one to two months.
 
-Stages sit a few weeks apart, with a decision within days to a couple of weeks of the last round.
+Senior candidates get design prompts with no stated scope and are expected to bring capacity numbers unprompted; some skip the screens entirely.
 
-## What They Actually Evaluate
+Here's what the interview process can look like:
 
-### ML Theory
-Concentrated in one screen and probed at implementation depth. Reported ground: value functions, policy gradients and importance sampling; the training flow from rollout collection to policy update; group-relative advantage estimation, where it reduces variance and where poor group construction introduces bias; clipping conditions and gradient effects; variants such as adaptive group sizing and mixed baselines. Attention mechanics appear directly, written out with index notation. Signal comes from explaining why a bug degrades learning, not from naming it.
+- **Recruiter screen:** A 15 to 30 minute call on background and motivation that often fixes the format of the technical screen.
+- **Online assessment (many applied and MLE pipelines):** A timed, four-level Python build, recently a recipe problem, scored automatically.
+- **Coding and design interviews:** Hour-long notebook sessions such as a weighted data batcher, a longest-match tokenizer or a concurrent web crawler.
+- **ML fundamentals and RL debugging screen (training teams):** Planted bugs in a policy-optimization snippet, then training dynamics line by line.
+- **Prompting and LLM engineering screen (applied teams):** About 55 minutes of live prompt iteration, agent building or agentic-coding repair.
+- **ML system design interview:** A broad production prompt, usually inference serving, sometimes a design-doc review.
+- **Behavioral and culture interviews:** A project deep dive and a separate conversation on safety and mission.
+
+> **Tip:** Ask the recruiter which screen format you will get and what it covers. Recruiters for this track have shared specific preparation topics and changed the format to fit a candidate's background. Without that answer you are preparing for four different rounds.
+
+## Recruiter screen
+
+The first call typically runs 15 to 30 minutes: your background, why Anthropic rather than another lab, the team, location and timeline. On this track it also decides the technical screen. One posting presented the technical assessment as a choice of four options. A candidate with an engineering-heavy background was moved from a research-style screen to an agentic-coding round. Another got concrete topics for the phone screen but no hint of the onsite design prompt.
+
+Interviewers evaluate:
+
+- **Specific motivation:** Reasons tied to Anthropic's safety work and products. Enthusiasm that would fit any AI lab earns little.
+- **Team fit:** Whether your experience matches RL training, inference, data infrastructure or applied LLM work.
+- **Practical constraints:** Willingness to be in the office part of the time and to work at the expected pace.
+- **Accurate self-description:** A clear account of your strengths, which the recruiter uses to pick the screen.
+
+Prepare a two-minute account of the ML systems you have built, and ask about the screen format and topics.
+
+> **Note:** Team assignment is easier to change early. A candidate who saw a poor match with the assigned team planned to ask for a different one before the next round. Raise it on the first call, not after the onsite.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Why Anthropic specifically, rather than another frontier lab?
+- What have you built in machine learning, and which part did you personally own?
+- Which format suits you best: ML coding, RL fundamentals, prompting and LLM engineering, or agentic coding?
+
+- [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
+- [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values)
+
+## Online assessment
+
+Many applied and Machine Learning Engineer pipelines start with a timed Python assessment, typically 90 minutes. You build one practical system in four levels, and each level unlocks after the previous one. In 2026 the Machine Learning Engineer version was a recipe problem. One variant asks for a valid, minimal sequence of transformations that turns ingredients into a target dish. Another builds a recipe manager in four steps: case-insensitive unique names, search sorted by ingredient count with ID tie-breaks, owner-checked edits, and version history with rollback. Scoring is automatic; one candidate reported a perfect 600 of 600.
+
+Another version had an LLM-related problem with a bug in its third part. A candidate on that version spent too long debugging, found copy and paste restricted, ran out of time and was rejected. Finishing several levels with clean code counts for more than meeting every requirement, and an unfinished early level blocks all the later ones.
+
+Interviewers evaluate:
+
+- **Invariants from level one:** Case rules, uniqueness and tie-breaks that the later levels depend on.
+- **State-transition modeling:** Turning a large space of operations into explicit states and valid moves.
+- **Code that absorbs change:** Data structures that let versioning or ownership slot in without a rewrite.
+- **Pace in a plain editor:** Working code without autocomplete or easy copy and paste.
+
+Practice four-level builds against a 90-minute clock in a plain editor, reading every level before writing code.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Given transformation rules, find a valid, minimal sequence of steps that combines starting ingredients into a target dish.
+- Build a recipe manager whose rollback creates a new version and fails if the restored name collides with an existing recipe.
+- Finish a multi-part LLM-related implementation whose third part contains a bug.
+
+- [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)
+- [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c)
+- [Task Management System](https://trueinterview.io/questions/task-management-system-online-assessment)
+
+## Coding and design interviews
+
+Coding rounds last about 55 to 60 minutes in a shared Colab notebook, in Python, with no AI assistance. The best-known problem is the weighted data batcher, which one candidate called a fair sample of the team's real infrastructure work. You build on a supplied data registry that returns an iterator for each dataset name, in three parts:
+
+1. Yield batches of indices under per-dataset weights.
+2. Add an offset for reproducibility and sharding, plus exact checkpoint and resume.
+3. Drop the guarantee that the batch size divides the weight sum, and handle the leftovers without bias or lost data.
+
+Discussion-only follow-ups cover weights changing between saves, sharding, weight lists too large for memory, and testing determinism. Some loops add ML configuration questions.
+
+Other problems are just as practical. A tokenizer does longest-match lookup against a vocabulary, falls back to an unknown token, merges consecutive unknowns, and bounds its lookahead by the longest vocabulary entry. A web crawler starts as single-threaded BFS and moves to a thread pool, filtering by hostname and stripping URL fragments. Other screens use profiler stack traces with hidden prefixes, solved with two pointers, or the mode and median of numbers spread across many workers.
+
+Interviewers evaluate:
+
+- **Explicit, serializable state:** Exactly which counters, offsets and remaining weights must be saved to resume at the same position.
+- **Generalizing without regressions:** Relaxing an assumption without breaking the offset and resume logic built on it.
+- **Unprompted optimization:** Bounding the tokenizer's lookahead or cutting communication in the distributed median before being asked.
+- **Practical edge cases:** URL fragments, hostnames, runs of unknown characters and uneven final batches.
+
+Build a small checkpointable iterator from scratch, add each relaxation in turn, and test that a resumed run matches an uninterrupted one.
+
+> **Tip:** Write the batcher's first part as if save and resume were already required. Part one is explicitly stateless. From part two every counter must be serializable, and part three removes the divisibility guarantee the earlier logic relied on. Candidates say the follow-ups on resume and corner cases decide the round, not the sampler itself.
+
+### Sample questions for the coding and design interviews
+
+Here are some questions reported by recent candidates:
+
+- Build a weighted sampler over a data registry, then add an offset, exact checkpoint and resume, and batch sizes that do not divide the weight sum.
+- Tokenize text by longest match, emit one unknown token per run of unmatched characters, and bound the search by the longest vocabulary entry.
+- Crawl one host from a start URL with BFS, then make it concurrent with a thread pool without crawling fragment variants twice.
+
+- [Weighted Data Batcher with Checkpointing](https://trueinterview.io/questions/afa9e386-7de2-4dd2-8747-3810328a9c39)
+- [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system)
+- [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2)
+- [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871)
+- [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median)
+
+## ML fundamentals and RL debugging screen
+
+Training teams use a screen that opens as a code review. You get a short policy-optimization snippet with planted faults, often three. Reported faults:
+
+- A missing softmax before multinomial sampling, which produces NaNs.
+- An advantage normalization with no epsilon on the standard deviation, which divides by zero when every reward in a group is equal.
+- A policy ratio computed as a difference of log-probabilities instead of their exponentiated ratio.
+
+Training dynamics follow: why PPO and GRPO clip the ratio, exactly when clipping triggers and what it does to the gradient, and why the ratio should equal one at a given line but did not. GRPO's trade-offs and variants come last.
+
+Other versions open with transformer architecture, sampling temperature and a run that will not converge, or ask for attention in PyTorch. A performance-focused screen asked for the FLOPs of a matmul, its arithmetic intensity, and whether it is compute-bound or memory-bound on an A100 40GB. It then asked whether a 72-layer network with two alternating layer types fits in 40GB.
+
+Interviewers evaluate:
+
+- **Mechanism, not vocabulary:** Why each bug degrades learning or crashes the run, not just its name.
+- **Clipping precision:** The sign-dependent conditions under which the clipped term becomes active, and its effect on the gradient.
+- **Numerical-stability instincts:** Spotting missing epsilons, log-space errors and unnormalized logits on sight.
+- **Back-of-the-envelope rigor:** Correct FLOP, byte and parameter counts across layer types, with nothing counted twice.
+
+Write a small GRPO loop yourself, break it in each of the ways above, and watch what each break does to the loss and the ratio.
+
+> **Note:** Knowing what GRPO is buys almost nothing here. Candidates call the follow-ups deceptively deep, and a rejected candidate was pressed on why the ratio was not one after finding the planted bugs. Research-leaning teams may also give a timed take-home. One interpretability take-home allowed four hours to reproduce sample-wise double descent, analyze it with random matrix theory, show regularization removing the peak, and present the result as slides.
+
+### Sample questions for the ML fundamentals and RL debugging screen
+
+Here are some questions reported by recent candidates:
+
+- A GRPO snippet produces NaNs; find the missing softmax before sampling and the unprotected division in advantage normalization.
+- What happens if the ratio is the new log-probability minus the old one, and when exactly does clipping activate?
+- Decide whether a large matmul on an A100 is compute-bound or memory-bound, then check whether a 72-layer network fits in 40GB at two bytes per parameter.
 
 - [RL Fundamentals — GRPO Debug](https://trueinterview.io/questions/rl-fundamentals-grpo-debug)
 - [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen)
+- [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
+- [Mechanistic Interpretability Take-Home — Sample-Aspect Double Descent](https://trueinterview.io/questions/mech-interp-take-home)
 
-### Coding and Algorithm
-Two rounds plus the assessment, all in Python and all applied. The batcher is the one to know cold: stateful, deterministic, incremental, with the interviewer removing an assumption you built on. Vectorised debugging recurs — axis confusion, broadcasting, shape mismatches propagating silently. Small testable components with explicit state earn signal; a design that cannot absorb the third requirement without a rewrite loses it.
+## Prompting and LLM engineering screen
 
-- [Implement a Weighted Data Batcher with Deterministic Save/Resume (DataRegistry Iterator Interface)](https://trueinterview.io/questions/afa9e386-7de2-4dd2-8747-3810328a9c39)
-- [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system)
-- [Numpy Debugging Task](https://trueinterview.io/questions/cf0e36da-02f9-46a9-be16-dd6fac7d456c)
-- [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c)
+Applied pipelines use this screen in place of the RL screen. In 2026 it was most often a 55-minute prompting and LLM engineering session in Colab. You refine prompts, few-shot examples and output formats until a model performs a non-trivial task reliably, while the interviewer adds constraints and edge cases. Other versions are different exercises:
 
-### ML System Design
-One round, and the most misread session on this track. Reports are consistent: the prompt is broad, the interviewer does not want model selection or architecture, and the conversation lives in production territory — scaling an inference-backed service, infrastructure choices, monitoring, performance and cost optimisation, versioning and rollout. Batching, queueing under saturation and accelerator utilisation appear as sub-questions, and quantitative estimates are expected rather than optional.
+- Build an agent on the Anthropic API that defines tools, handles tool-use responses, keeps conversation state and loops until it is done.
+- Agentic coding: fix a broken agent, then make it answer every question within two turns, then within one.
 
-- [Distributed Model Deployment System Design](https://trueinterview.io/questions/distributed-model-deployment-system-design)
-- [Inference API System Design](https://trueinterview.io/questions/inference-api-system-design)
+Output parsing and malformed-response handling are graded too. One candidate finished all three agentic-coding parts in 55 minutes after rehearsing a near-identical prompt and was still rejected a week later. Finishing every part does not guarantee a pass.
+
+Interviewers evaluate:
+
+- **Systematic experimentation:** One change at a time, each tied to a named failure mode and a way to measure it.
+- **A working model of the LLM:** Why the model produced this output, and which change fixes the edge case.
+- **Correct tool-use mechanics:** Tool definitions, handling of tool-use responses, and a loop that ends cleanly.
+- **Robust surrounding code:** Validation and fallbacks when the output does not match the expected format.
+
+Build a small tool-using agent on the Anthropic API beforehand, and practice explaining aloud why each prompt revision fixes a specific failure.
+
+### Sample questions for the prompting and LLM engineering screen
+
+Here are some questions reported by recent candidates:
+
+- Refine a prompt in a notebook until the model performs a specified task reliably, adapting as the interviewer adds edge cases.
+- Build an agent with the Anthropic API that executes the model's tool calls and loops until it returns a final answer.
+- Fix a broken agent, then make it answer all questions within two turns, then within one.
+
+- [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use)
+- [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a)
+
+## ML system design interview
+
+Most onsites include one design round of about an hour. The prompt is broad and stays on production concerns: one candidate expecting a modeling discussion was asked about scaling, infrastructure, observability and optimization instead. The most common prompt is an inference API. Interviewers press on why GPU inference is memory-bound rather than compute-bound and how batching keeps accelerators busy.
+
+Some loops use a design-doc review instead. In one, a document added a batching layer and a load balancer in front of an inference service, with 100 ms per batch at 10,000 QPS. The candidate found two or three flaws first. The deep dive then covered batching, server count, load shedding and circuit breaking, and scheduling across model types. Data infrastructure candidates at the Q5 level had a design-only screen: ingestion, processing, storage, access control, cost estimation and fault tolerance.
+
+Interviewers evaluate:
+
+- **Scope negotiation:** Clarifying questions that turn a deliberately vague prompt into concrete requirements.
+- **Hardware-grounded reasoning:** Memory bandwidth, batch size against latency, and GPU utilization rather than generic web patterns.
+- **Capacity math:** Server counts derived from a latency budget and a throughput target.
+- **Overload and multi-tenancy:** Load shedding, circuit breaking and fair scheduling across models.
+- **Critical reading:** Finding flaws in someone else's design before proposing your own.
+
+Practice sizing an inference fleet from a latency budget and a QPS target, and practice critiquing an existing design doc.
+
+> **Note:** Design-doc reviews catch candidates who only practiced designing from scratch. A candidate in another track did well in coding but called the review the weakest round of the loop. On this track, the reported review was about inference serving.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design an inference API serving system and explain why GPU inference is memory-bound and how batching changes that.
+- Review a design that batches and load-balances an inference service at 100 ms per batch and 10,000 QPS, then size the fleet and handle overload.
+- Design data infrastructure that ingests from many sources, enforces access permissions and estimates its own cost.
+
+- [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design)
+- [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design)
+- [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus)
 - [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure)
 
-### Behavioral and Leadership
-Two conversations at minimum: a hiring-manager discussion of ownership, past projects and collaboration, and a separate values round. Reported prompts include why this company rather than another lab, a project that failed and what you salvaged, a disagreement where you turned out to be wrong, and whether you would accept a personal cost for a safety gain. Rehearsed enthusiasm is the most reported way to lose it.
+## Behavioral and culture interviews
 
+The onsite has two people-focused conversations. The project deep dive covers one substantial piece of work: team size, duration, your role and impact, and how you handled pushback. The culture round focuses on AI safety. Reported questions ask for your view of Claude's constitution, a real critique of Anthropic's safety positions, how you handle being wrong, your concerns about deploying LLMs, and the Long-Term Benefit Trust. Scenario questions ask whether you would delay a risky breakthrough and what happens if others do not. There is no fixed answer; follow-ups test whether your reasoning stays consistent.
+
+This signal can decide the outcome on its own. A candidate in another track passed every technical round, got an extra culture interview because the first signal was weak, and was rejected after the hiring-manager conversation that followed.
+
+Interviewers evaluate:
+
+- **Independent thinking on safety:** A reasoned critique of Anthropic's own positions rather than agreement with the company line.
+- **Coherence under follow-up:** Views on risk, delay and competition that hold up through several hypotheticals.
+- **Ownership:** Your own decisions and their outcomes, separated from the team's.
+- **Changing your mind:** A specific case where evidence moved you, and what you did next.
+
+Read Anthropic's constitution and governance material, form one critique you can defend, and prepare one project you can discuss for 45 minutes.
+
+> **Tip:** Agreeing with Anthropic without any critique counts against you. Interviewers want a specific disagreement backed by reasons; candidates report that unconditional support does not score well.
+
+### Sample questions for the behavioral and culture interviews
+
+Here are some questions reported by recent candidates:
+
+- What do you think of Claude's constitution, and where would you critique Anthropic's approach to safety?
+- If a major breakthrough had unknown risks, would you delay it, and what if competitors did not?
+- Describe your most substantial project: the team, your role, a conflict you resolved and the outcome.
+
+- [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks)
+- [Reason About Delaying an AI Breakthrough Under Uncertain Risk](https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk)
+- [Describe your most impactful project](https://trueinterview.io/questions/describe-your-most-impactful-project-2)
 - [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
-- [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
 
-## What They Don't Test
+## How Anthropic levels and evaluates Machine Learning Engineer candidates
 
-- **Classical modelling breadth.** No reported round asks you to pick a model family, tune a benchmark or discuss feature engineering. Debugging training dynamics and building training-adjacent infrastructure replaces it.
-- **Model architecture in the design round.** Candidates who prepared architecture depth report the interviewer steering firmly to deployment, observability and cost.
-- **Competitive-programming algorithms.** The coding is dependency resolution, iterators and vectorised debugging; clean stateful design under changing requirements beats asymptotic cleverness.
-- **Reciting recent papers.** Interviewers move immediately from a method's name to its assumptions, failure modes and code; why a variant exists and what trade-off it buys is the useful preparation.
+A hiring committee weighs technical, project and culture signal together; strong technical rounds do not offset a weak culture signal. The level is set after the committee decides and appears in the offer, since engineers mostly share the Member of Technical Staff title. The hiring-manager conversation, now often after the full loop and before team matching, can still end the process.
 
-## The Real Filter
+References, typically a former manager and a current colleague, are checked before the offer and can still end a candidacy: one candidate was rejected after references were contacted. Rejections rarely include feedback.
 
-The dominant rejection path is paper-level familiarity meeting an implementation-level bar. The reinforcement-learning screen is built so that reading about an algorithm cannot carry you: the questions are about what the code does at a specific line, why the ratio is not one, what happens to the gradient when clipping activates, and which of three faults silently degrades learning versus crashes the run. Candidates misjudge it because the round is often labelled a fundamentals screen and reads as introductory. Prepare by writing a small policy-optimisation loop yourself, breaking it in the ways above, and watching what each break does.
+## How to prepare for the Anthropic Machine Learning Engineer interview
 
-The second pattern is the design round's centre of gravity. It is announced as machine-learning system design, and candidates arrive with modelling depth for a conversation about scaling, infrastructure, observability and unit economics. Treat an ambiguous prompt as an instruction to negotiate scope out loud — reports say the asking is welcomed — then argue production trade-offs with numbers.
+1. **Confirm your screen format first:** Ask the recruiter whether you will get RL fundamentals, ML coding, prompting and LLM engineering, or agentic coding, and prepare that one in depth.
+2. **Implement GRPO and break it:** Remove the softmax, drop the epsilon, compute the ratio in log space, and explain each effect on the loss, the ratio and clipping.
+3. **Build a checkpointable weighted batcher:** Support an offset, exact resume and non-divisible batch sizes, and test that a resumed run matches an uninterrupted one.
+4. **Do the hardware arithmetic by hand:** Matmul FLOPs, arithmetic intensity, roofline bounds, parameter memory, and fleet size from a latency budget.
+5. **Treat inference serving as the default design prompt:** Batching, memory-bound decoding, overload and multi-model scheduling, plus critiquing an existing design doc.
+6. **Practice live prompt iteration and agent loops:** Build a tool-using agent on the Anthropic API and explain each prompt change by the failure it fixes.
+7. **Rehearse four-level builds in a plain editor:** Get the level-one invariants right, because every later level depends on them.
+8. **Form your own view of Anthropic's safety choices:** Prepare one reasoned critique and test it against follow-up questions, and brief your references early.
 
-The third is the values round: separate from the hiring-manager conversation, often the most senior interviewer you meet, and asking for a personal history with safety rather than a position on it. A well-informed general answer is the reported failure; a concrete episode where you argued for the safer path at a cost is what passes.
+## About the Anthropic Machine Learning Engineer role
 
-## Data Source
+Machine Learning Engineers and Research Engineers at Anthropic build the systems that train, evaluate and serve Claude: data pipelines and samplers, RL training infrastructure, evaluation tooling, inference performance, and agentic applications. Candidates describe the interview exercises as close to the real work. Many Research Engineer postings do not require a PhD. Candidates report weeks of about 60 hours, and remote employees are expected in the office about a quarter of the time, roughly one week a month.
 
-Based on 22 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Anthropic hires Machine Learning Engineers across research and product. Teams include:
 
-## FAQ
+- **Pretraining:** Scaling distributed training of large language models, including multimodal work at some locations.
+- **Post-training and RL:** Fine-tuning, reinforcement learning, training environments and RL infrastructure.
+- **Inference:** Performance of the systems that serve Claude, including batching and accelerator efficiency.
+- **Interpretability:** Infrastructure for reverse-engineering how trained models work.
+- **Safeguards:** ML systems for detecting and preventing misuse.
+- **Data infrastructure:** Ingestion, processing, storage and access control for training and evaluation data.
 
-**What is it like to work there as a Machine Learning Engineer?**
-Our reports cover the interview loop rather than the job, with two exceptions: a recruiter described a typical week of roughly 60 hours, and a candidate was told remote employees are expected onsite about a quarter of the time, roughly one week a month. One candidate called the batcher exercise a genuine sample of internal work — deterministic, checkpointable training infrastructure rather than modelling.
+### Machine Learning Engineer experience and education requirements
 
-**What is the engineering culture like?**
-Interviewers are repeatedly described as friendly and collaborative, sharing a live notebook, offering reference implementations to build on, and treating follow-ups as joint exploration rather than a quiz. The norms the loop grades — low ego, direct disagreement in good faith, mission over individual credit — match how candidates describe the sessions.
+Postings ask for strong Python engineering and experience with large-scale ML systems, plus hands-on PyTorch or JAX work for training roles. Only a small share of Research Engineer postings require a PhD; some ask for a bachelor's degree or equivalent experience. Interviews are in Python, in shared notebooks, and onsites have been fully virtual.
 
-**How hard is it to get in?**
-Very hard, and the specialised screens are harder to shortcut than a generalist loop. Published estimates put acceptance for research-adjacent roles under one percent over a three-to-six-week process. The compensating factor is that the question families repeat: the batcher, the reinforcement-learning debug and the production design prompt recur across candidates.
+## FAQs about the Anthropic Machine Learning Engineer interview
 
-**Which round is hardest?**
-The reinforcement-learning debugging and theory screen, because it is graded on precision that reading alone does not confer and the follow-ups compound. The values round remains the most common single point of failure across the loop.
+### How long does the Anthropic Machine Learning Engineer interview process take?
+
+Typically one to two months. Stages are often two to three weeks apart, and some candidates waited longer after the assessment. Reference checks and team matching can add one to two weeks after the onsite.
+
+### What is the hardest round of the Anthropic Machine Learning Engineer interview?
+
+For training-focused candidates, the RL debugging screen, whose follow-ups on clipping, ratios and GRPO variants require hands-on precision. For applied candidates, the open-ended system design round, which turns to production scaling and GPU behavior. Across the loop, the culture round causes the most unexpected rejections.
+
+### Is there an online assessment?
+
+Many pipelines start with one: a 90-minute, four-level Python build, recently a recipe problem. Experienced candidates have skipped it, and some research tracks use a take-home instead.
+
+### Can you use AI tools during the interview?
+
+Not in live interviews or take-homes unless explicitly allowed. Using Claude to prepare, or to polish an application you drafted yourself, is permitted.
 
 ---
 

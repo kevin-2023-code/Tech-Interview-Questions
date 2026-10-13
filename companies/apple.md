@@ -57,19 +57,19 @@ Which stage each question came from, for the **142 of 142** questions at Apple t
 
 ## What they ask about
 
-Of the **100 questions at Apple that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **98 questions at Apple that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 24 | 24% | ████████████ | Aug 26, 2026 |
+| `hashing` | 23 | 23% | ████████████ | Aug 26, 2026 |
 | `arrays` | 18 | 18% | █████████ | Aug 05, 2026 |
-| `graphs` | 17 | 17% | ████████ | Jul 27, 2026 |
+| `graphs` | 17 | 17% | █████████ | Jul 27, 2026 |
 | `matrix` | 11 | 11% | ██████ | Aug 26, 2026 |
 | `strings` | 11 | 11% | ██████ | May 05, 2026 |
-| `two-pointers` | 9 | 9% | ████ | Apr 28, 2026 |
-| `linked-list` | 8 | 8% | ████ | Aug 16, 2026 |
+| `two-pointers` | 9 | 9% | █████ | Apr 28, 2026 |
 | `dynamic-programming` | 7 | 7% | ████ | Apr 01, 2026 |
 | `heap` | 7 | 7% | ████ | Aug 05, 2026 |
+| `linked-list` | 7 | 7% | ████ | Aug 16, 2026 |
 | `sorting` | 7 | 7% | ████ | Aug 05, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>

@@ -6,105 +6,265 @@
 
 ---
 
-Machine Learning Engineer candidates at Microsoft are rejected on implementation details of algorithms they already understand. A post-training infrastructure screen went straight to code: greedy sampling over a fixed vocabulary, then top-k beam path selection that tracks and prunes sequences purely by score, with no beam-width parameter to lean on. The candidate knew beam search and was rejected on how the candidates were maintained. A separate ML data loop ran five phone rounds and ended in rejection after the last one asked for a video vision-language model designed from scratch. The bar is writing model and data code from memory and then defending an end-to-end design.
+Microsoft has no single Machine Learning Engineer loop. The recruiter's first call routes each candidate to a loop built by the hiring team, so a pretraining team, a post-training infrastructure team, an ML data team and an applied science group can ask almost nothing in common. The constant is implementation: ML coding rounds are graded like software rounds, and candidates who knew the algorithm were rejected on how they kept state or pruned candidates. Breadth is the second filter: one loop ran five phone rounds and ended in rejection on a multimodal design question.
 
-## Interview Process
+This guide breaks down each stage of the Microsoft Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 8 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Microsoft Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Microsoft Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/microsoft--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (short).** Background, level, and routing. One recruiter used the first call explicitly to decide which interview loop suited the candidate's experience, so describe your stack precisely: training, data, inference, or applied modeling. Loops are recruiter-initiated as often as applied for.
+Reported loops ran from a single 45-minute screen to six onsite rounds, and most started with recruiter outreach. Training and inference groups test model code and GPU arithmetic, data teams test pipelines and data quality, and product-facing teams run a conventional mix of algorithms and system design. One pretraining loop held three conversational rounds on background and team fit before a single coding round decided it. Internships lean on ML fundamentals and hand-written classical algorithms; mid-level and senior loops add training-systems depth, end-to-end design and a project deep dive in which scope is judged.
 
-2. **ML fundamentals screen (about 45 to 60 minutes, some loops).** A wide conceptual sweep, reported for an applied scientist loop that ended in an offer. It covered preventing overfitting, precision versus recall, bagging versus boosting, self-attention, prompt engineering, fine-tuning, and parameter-efficient fine-tuning. Answers are expected to be crisp and connected to practice, not textbook recitals.
+Here's what the interview process can look like:
 
-3. **ML coding screen (about 45 minutes).** One implementation from scratch in a shared editor. The most repeated prompt is k-means in Python with NumPy or PyTorch allowed. It covers vectorized distances, empty clusters, convergence tolerance, complexity, local minima, and when k-means++ helps. Other screens asked for generation algorithms (greedy, then top-k beam paths), a resumable data loader that checkpoints and resumes without reprocessing, or stop-token detection over streamed output with partial matches. The interviewer watches coding style and efficiency as well as correctness.
+- **Recruiter screen:** A short call on background and level that decides which loop the candidate sits.
+- **ML fundamentals screen (applied loops):** 45 to 60 minutes of rapid questions from overfitting to parameter-efficient fine-tuning.
+- **ML coding interviews (one to three):** About 45 minutes each, implementing an algorithm or data component from scratch in Python.
+- **Coding and statistics rounds (some loops):** Standard data-structure problems, or a hypothesis test paired with debugging a script.
+- **Training systems deep dive (training and inference teams):** Transformer code, roofline analysis, CUDA and mixed precision in one session.
+- **System design interview (one or two):** A product system or an ML system such as a video vision-language model.
+- **Project deep dive and behavioral interview:** A self-chosen project turned into a case study, plus motivation, ownership and conflict.
 
-4. **Data and pipeline rounds (ML data teams).** One loop had a full phone round on cleaning OCR-sourced text for language model training, covering noise, low-quality filtering, deduplication, and whether the corpus is usable downstream. These rounds reward awareness of real data quality problems over model choice.
+> **Tip:** Ask the recruiter which team and loop you are being routed to. A data loop of pipeline questions and a training loop of CUDA and roofline drills are too different to cover by preparing generically.
 
-5. **Hardware-aware deep dive (training and inference teams).** One onsite packed six tasks into a single session. The candidate implemented a Transformer from scratch (multi-head attention, feed-forward, positional encoding), applied a roofline analysis to classify a layer as compute- or memory-bound, and computed matrix-multiply runtime from bandwidth and throughput specs. The session also covered writing a CUDA kernel with correct thread indexing, deriving gradients through a residual connection, and FP32-to-FP16 conversion with loss scaling. Expect to share your screen and code in your own editor, and practice without autocomplete.
+## Recruiter screen
 
-6. **Onsite coding and statistics (one to two rounds).** General coding still appears: an LRU cache and merge intervals opened one six-round ML data loop. Applied loops can add surprises. One round paired a hypothesis-testing setup and interpretation with debugging a short Python script, and another paired hand-written k-means with behavioral questions.
+The first call is short and covers background, current work and level. In one recruiter-initiated loop it existed explicitly to pick which loop fit the candidate, so the description given here decides what follows. Communication afterward is uneven: one candidate learned of a rejection only by checking the applicant portal.
 
-7. **System design (one to two rounds).** Some ML loops use general product design: a team chat platform with message routing and real-time delivery, and an online board-game platform with matchmaking and state. Others go ML-specific: a video vision-language model covering data collection, architecture, training strategy, and evaluation.
+Interviewers evaluate:
 
-8. **Project deep dive and behavioral (one to two rounds).** You present a project of your choice and the interviewer turns it into a case study about design decisions, extensions, and trade-offs. A separate behavioral round covers motivation, ownership, and conflict. Candidates describe these as collaborative, but the deep dive is where scope and seniority are judged.
+- **Lifecycle placement:** Which part of the ML stack (data, training, inference or modeling) the candidate has owned.
+- **Level signals:** Scope of past projects and decision ownership, which set the target level.
+- **Team alignment:** Interest that matches the hiring group, such as pretraining or data curation.
 
-9. **Decision.** Typically a few weeks. Several ML loops were still pending with no feedback at the time of reporting.
+Prepare a two-minute summary of your ML work organized by lifecycle stage, with one measurable result per stage.
 
-## What They Actually Evaluate
+## ML fundamentals screen
 
-### ML Theory
+Applied loops can open with a 45-to-60-minute conceptual sweep and no coding. One intern loop that ended in an offer covered overfitting prevention, precision against recall, bagging against boosting, self-attention, prompt engineering, fine-tuning and parameter-efficient fine-tuning in one call. The candidate rated it moderate but noted that coverage depends heavily on the interviewer's background.
 
-One screen or a thread through several rounds. Breadth matters more than depth: classical ML, evaluation metrics, ensembles, attention, and fine-tuning methods in one conversation. Signal comes from tying each concept to a decision you made. The applied scientist candidate who received an offer called the difficulty moderate but warned that coverage depends heavily on the interviewer's background.
+Interviewers evaluate:
 
-- [Transformer Roofline + FP32/FP16 Drill](https://trueinterview.io/questions/transformer-roofline-fp-precision)
+- **Breadth:** Moving cleanly between classical ML, evaluation metrics and language-model techniques.
+- **Applied judgment:** Choosing a metric or regularizer for a stated situation instead of reciting definitions.
+- **Mechanism-level understanding:** Explaining why self-attention or low-rank adapters work, not only what they are.
+- **Concision:** Short, correct answers that leave time for more topics.
 
-### Coding and Algorithm
+Rehearse two-minute answers on about twenty core topics, each tied to a decision from a real project.
 
-Two to three sessions, most of them ML-flavored implementations rather than list puzzles. Clustering, decoding, and data loading must be written from scratch with edge cases handled. Losing signal looks like correct structure with broken state, as in the beam-search rejection. General problems such as caches and intervals still show up on data-heavy teams.
+### Sample questions for the ML fundamentals screen
+
+Here are some questions reported by recent candidates:
+
+- How do you prevent overfitting, and what would you try first on a small dataset?
+- Explain precision and recall and when you would trade one for the other.
+- Compare bagging and boosting, then explain self-attention and parameter-efficient fine-tuning.
+
+- [Explain bias-variance and evaluate a classifier](https://trueinterview.io/questions/explain-bias-variance-and-evaluate-a-classifier)
+- [Choose Classification Metrics Under Asymmetric Costs](https://trueinterview.io/questions/choose-classification-metrics-under-asymmetric-costs)
+- [Explain metrics, regularization, and ablation studies](https://trueinterview.io/questions/explain-metrics-regularization-and-ablation-studies)
+
+## ML coding interviews
+
+This is the most common round in the reports: one problem in about 45 minutes in a shared editor, in Python with NumPy or PyTorch allowed but the core logic written by hand. The most repeated prompt is k-means from scratch, asked on a phone screen and in an onsite round, with follow-ups on vectorized distances, empty clusters, convergence tolerance, complexity, local minima and k-means++ initialization. Other teams ask for pieces of their own stack: greedy decoding extended to top-k beam paths, a data loader that checkpoints and resumes without reprocessing, stop-token detection over streamed output, and SFT sample packing with a correct mask window, answer-token positions and balanced sequences. Interviewers also watch coding style and efficiency.
+
+Interviewers evaluate:
+
+- **State management:** How candidate sequences, cluster assignments or read offsets are stored, updated and pruned.
+- **Edge cases:** Empty clusters, a stop sequence split across chunks, a resume point mid-batch.
+- **Vectorization:** Array operations instead of Python loops on large data.
+- **Domain fluency:** Knowing why the component exists in a training or serving pipeline.
+
+Implement each reported problem from an empty file and test it on awkward inputs before calling it done.
+
+> **Note:** A post-training infrastructure candidate who knew beam search was rejected on the phone screen: candidates had to be kept and pruned purely by score, with no beam-width parameter to lean on. The round grades the bookkeeping, not recognition of the algorithm.
+
+### Sample questions for the ML coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement k-means with NumPy, handle empty clusters, and explain how to escape poor local minima.
+- Write greedy sampling over a fixed vocabulary, then extend it to keep the top-k paths by score.
+- Build a data loader that can be interrupted and resume exactly where it stopped.
+- Detect stop tokens in streamed output, including matches that straddle chunk boundaries.
 
 - [Hand-Write K-Means Clustering (NumPy)](https://trueinterview.io/questions/ml-coding-handwrite-kmeans)
 - [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding)
 - [Resumable Batch Dataloader with Weighted Sampling](https://trueinterview.io/questions/resumable-batch-dataloader)
+- [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection)
+- [SFT Sample Packing](https://trueinterview.io/questions/sft-sample-packing)
 
-### Domain Deep Dive
+## Coding and statistics rounds
 
-For training and inference teams, one session that is quantitative rather than descriptive: kernels, precision, memory versus compute bounds, and gradient flow. Candidates who can only describe architectures do not get through.
+Conventional coding still appears. A six-round ML data loop in Seattle opened with an LRU cache and merge intervals, each with complexity and edge-case follow-ups. A 45-minute Core AI round paired behavioral questions on AI experience with a subsets variant that took a string and required sorted output. Applied science loops can swap algorithms for statistics: one onsite round set up a hypothesis test, asked for its interpretation, then moved to fixing bugs in a short Python script.
 
+Interviewers evaluate:
+
+- **Approach alignment:** Stating the plan first and confirming it is the approach the interviewer wants.
+- **Correctness on edges:** Touching intervals, duplicate characters, capacity-one caches.
+- **Statistical setup:** Correct null hypothesis, test choice and plain-language interpretation.
+- **Debugging method:** Isolating the fault from the failing behavior before editing.
+
+Keep medium problems on caches, intervals and backtracking current alongside basic test design.
+
+> **Note:** The Core AI candidate finished the subsets variant and its follow-up in about ten minutes and was still rejected, apparently for not using the approach the interviewer expected. Discussing two approaches before coding costs a minute and removes that risk.
+
+### Sample questions for the coding and statistics rounds
+
+Here are some questions reported by recent candidates:
+
+- Implement an LRU cache with constant-time get and put.
+- Merge overlapping intervals, including unsorted and touching inputs.
+- Generate all subsets of a string's characters and return them in sorted order.
+
+- [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md)
+- [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390)
+- [Generate Lexicographically Sorted String Subsets](https://trueinterview.io/questions/0de96483-d0cb-5095-8e67-dc544847a643)
+- [Compute sample size and analyze A/B results](https://trueinterview.io/questions/compute-sample-size-and-analyze-a-b-results)
+
+## Training systems deep dive
+
+Teams that train or serve large models run a quantitative session. One onsite opened with a detailed resume grilling, then packed six tasks into one round: a Transformer from scratch (multi-head attention, feed-forward layers, positional encoding), a roofline analysis classifying a layer as compute- or memory-bound, matrix-multiply runtime from stated bandwidth and throughput, a CUDA kernel with correct thread indexing, the gradient through a residual connection, and FP32-to-FP16 conversion with loss scaling.
+
+Interviewers evaluate:
+
+- **Arithmetic intensity:** Turning FLOPs and bytes moved into a bound and a runtime estimate.
+- **Kernel basics:** Grid and block indexing, bounds checks and memory movement.
+- **Gradient and precision reasoning:** Why residual paths help, and how loss scaling preserves small FP16 gradients.
+- **Unassisted coding:** Writing model code fluently with no autocomplete.
+
+Work several layers through a roofline numerically and write a vector-add and a tiled matmul kernel by hand.
+
+> **Tip:** The candidate had to share a screen and code in a personal editor. Set up VS Code with a working Python and CUDA toolchain beforehand, then practice with completion and AI assistance switched off.
+
+### Sample questions for the training systems deep dive
+
+Here are some questions reported by recent candidates:
+
+- Implement multi-head attention, the feed-forward block and positional encoding from scratch.
+- Given bandwidth and peak throughput, estimate a matrix multiply's runtime and name the limiting resource.
+- Derive the backward pass through a residual connection and explain the risks of FP16 training.
+
+- [Transformer Roofline + FP32→FP16 Drill](https://trueinterview.io/questions/transformer-roofline-fp-precision)
 - [CUDA Vibe Coding: Implement or Optimize a CUDA Kernel](https://trueinterview.io/questions/8eb54136-fc2f-4f32-b89d-b97c5fbf9e38)
 - [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md)
-- [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection)
 
-### ML System Design
+## System design interview
 
-One or two rounds. The strongest answers cover the full pipeline: data, model, training, evaluation, serving. They also say what would be monitored and how quality is checked. The rejected five-round loop suggests the design round weighs heavily at the end.
+Design questions split by team. A data-team loop ran two product rounds: a team chat platform (message routing, scale, real-time delivery) and an online board-game site (matchmaking, board state). ML-focused loops design models end to end. The five-round phone loop ended with a video vision-language model built from scratch, covering data collection, architecture, training strategy and evaluation, and was rejected. An earlier round in that loop discussed cleaning OCR-sourced text for language-model training: noise, low-quality filtering, deduplication and fitness for use.
 
+Interviewers evaluate:
+
+- **End-to-end coverage:** Data, model, training, evaluation and serving, with no stage skipped.
+- **Data quality:** Concrete filters, deduplication and checks on what reaches training.
+- **Evaluation plan:** Offline metrics, human review and what would signal a regression.
+- **Scaling decisions:** Partitioning, real-time delivery and state consistency in product designs.
+
+Prepare one product design and one model-system design end to end, each with an explicit evaluation section.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a video vision-language model from data collection through evaluation.
+- Design a pipeline to clean and filter OCR-extracted text for language-model training.
+- Design a team chat platform with message routing and real-time delivery.
+
+- [LLM Training Dataset Quality Check for Excel Copilot Tasks](https://trueinterview.io/questions/cca976aa-f821-4b1f-ba1a-44dafd0b7d8d)
 - [Chatbot Personalization / Memory System Design](https://trueinterview.io/questions/chatbot-personalization-memory-design)
-- [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4)
+- [Design a RAG system with agentic tools](https://trueinterview.io/questions/design-a-rag-system-with-agentic-tools)
 
-### Project Deep Dive
+## Project deep dive and behavioral interview
 
-Present in nearly every reported ML loop, sometimes as the final round. Interviewers use your project as a case study and push on alternatives you did not take.
+Nearly every reported loop includes a project round, sometimes as the last one. The candidate presents a project of their choice and the interviewer turns it into a case study on design decisions, rejected alternatives and extensions. It feels collaborative, but it is where scope and seniority are judged. Behavioral questions sit in a separate round or inside technical ones and cover motivation, ownership, setbacks and conflict.
+
+Interviewers look for:
+
+- **Personal contribution:** What the candidate built and decided, separated from the team's work.
+- **Trade-off reasoning:** Alternatives considered and the evidence behind the choice.
+- **Extension thinking:** How the system would change with ten times the data or a new modality.
+- **Ownership and conflict:** Specific situations, actions and outcomes rather than values.
+
+Rehearse one project you can defend at every layer as a 10-minute case study.
+
+### Sample questions for the project deep dive and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Present a project of your choice, then explain how you would extend or redesign it.
+- Describe a time you took ownership beyond your assigned scope, and a conflict you resolved.
 
 - [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2)
+- [Describe motivation, ownership, and conflict](https://trueinterview.io/questions/describe-motivation-ownership-and-conflict)
+- [Describe leading an ambiguous ML project end-to-end](https://trueinterview.io/questions/describe-leading-an-ambiguous-ml-project-end-to-end)
 
-## What They Don't Test
+## How Microsoft levels and evaluates Machine Learning Engineer candidates
 
-- **Only deep learning.** Hypothesis testing, precision and recall, and ensembles came up alongside attention, so do not skip statistics.
-- **Library-level fluency.** Libraries were restricted to NumPy or PyTorch, and the logic had to be your own. Knowing an API call is not credited.
-- **Hard algorithm puzzles.** Reported general coding stayed at caches and intervals. ML implementation is where the difficulty sits.
-- **Research novelty.** No round asked about publications. Rounds asked what you built, how you evaluated it, and why.
+Decisions are made by the hiring team: interviewers submit feedback and the hiring manager makes the call, sometimes after a final conversation with a senior interviewer from the wider group. The target level is set from the recruiter screen and confirmed in the project and design rounds. Decisions typically take a few weeks; at reporting time half of the loops were still waiting, including a six-round loop with no feedback.
 
-## The Real Filter
+## How to prepare for the Microsoft Machine Learning Engineer interview
 
-**Stateful implementation details.** Candidates misjudge ML coding rounds as concept checks. They are graded like software rounds: pruning logic, empty clusters, checkpoint positions, and partial token matches are where rejections happen. Implement k-means, beam search, a resumable loader, and a streaming stop-token detector from a blank file and test each on awkward inputs.
+1. **Confirm the team first:** Weight preparation toward data, training, inference or applied modeling once you know the loop.
+2. **Write the classics from scratch:** K-means, beam search, a resumable loader, stop-token detection and sample packing, with tested edge cases.
+3. **Guard the state:** Rejections came from pruning and bookkeeping, so trace every data structure by hand on a small input.
+4. **Agree on the approach before coding:** A fast, correct solution still failed when it was not the expected one.
+5. **Do the hardware math:** For training teams, practice roofline analysis, matmul runtime, CUDA indexing and mixed precision.
+6. **Cover statistics:** Hypothesis testing, precision and recall, and ensembles appeared beside attention and fine-tuning.
+7. **Design end to end:** Prepare a multimodal model design and a data-cleaning pipeline, each with evaluation.
 
-**Breadth across a long phone loop.** One loop ran five phone rounds spanning data loading, data cleaning, inference, project work, and multimodal design. Each round narrows fast from a broad opening. Prepare one concrete story per stage of the ML lifecycle.
+## About the Microsoft Machine Learning Engineer role
 
-**Hardware arithmetic on training teams.** Roofline analysis and runtime from bandwidth are unusual interview material, so candidates skip them. Work through a few layers numerically before a training or inference loop.
+Machine Learning Engineers at Microsoft build and run the models behind Copilot, Bing, Microsoft 365 and Azure: pretraining and post-training infrastructure, data curation for language models, inference serving, or applied models inside a product. Some groups use the Applied Scientist title for similar work with more modeling emphasis, and the MAI group uses Member of Technical Staff titles.
 
-## Data Source
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| 59–60 (Machine Learning Engineer) | Implementing features, pipelines and experiments with guidance | Own components |
+| 61–62 (Machine Learning Engineer II) | Owning models or pipelines end to end | A feature area |
+| 63–64 (Senior) | Leading technical design across a system | A team's ML stack |
+| 65–67 (Principal) | Setting technical direction across teams | An organization |
 
-Based on 8 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Microsoft hires Machine Learning Engineers across teams including:
 
-## FAQ
+- **MAI:** Consumer Copilot and frontier models, including pretraining and the superintelligence team formed in late 2025.
+- **CoreAI – Platform and Tools:** The AI platform and developer stack, including Azure AI Foundry, AzureML compute and GitHub Copilot.
+- **Post-training and inference infrastructure:** Fine-tuning, decoding and serving systems for large models.
+- **ML data teams:** Curation and quality pipelines for training corpora.
+- **Bing and Microsoft 365:** Ranking, retrieval, image search and Copilot features in productivity products.
 
-**What is it like to work at Microsoft as a Machine Learning Engineer?**
+### Machine Learning Engineer experience and education requirements
 
-The reports cover hiring, not the job. As context, ML engineers here are expected to reason like production engineers: pipelines, serving latency, monitoring, drift, and rollback. Teams near AI products are described as fast-moving compared with the rest of the company.
+Postings typically ask for a bachelor's degree in computer science or a related field plus several years of coding in Python, C++, C# or Java; principal roles state six or more years, with a master's or doctorate counting toward that. Graduate degrees are preferred rather than required. Preferred skills include deploying models in production, working with large language models, and building monitoring and retraining systems. Roles require a background check.
 
-**What is the engineering culture like?**
+## FAQs about the Microsoft Machine Learning Engineer interview
 
-Applied and collaborative. Project rounds feel like discussions, and interviewers are interested in the reasoning behind choices. Experience varies a lot by team and interviewer background.
+### How long does the Microsoft Machine Learning Engineer interview process take?
 
-**How hard is it to get in?**
+A single-screen process can end within days; full loops of four to six rounds typically take several weeks from recruiter call to decision, and several candidates were still waiting weeks after the last round.
 
-Demanding because of breadth. A single loop can test statistics, classical ML, deep learning, systems arithmetic, coding, and design. Reports include an intern offer at moderate difficulty and rejections at the phone stage over implementation details.
+### What is the hardest round of the Microsoft Machine Learning Engineer interview?
 
-**Which round is hardest?**
+The ML coding round, because correctness depends on state handling under a 45-minute clock, and all three reported rejections followed a coding or design round. On training teams, the training systems deep dive is the hardest single session.
 
-The from-scratch ML coding round, because correctness hinges on state handling under time pressure. On training teams, the hardware-aware deep dive is the hardest single session.
+### Is there an online assessment?
+
+None of the reported Machine Learning Engineer loops used one. They moved from the recruiter call straight to live screens in Python, with CUDA added on training teams.
+
+### How much does a Microsoft Machine Learning Engineer make?
+
+Approximate US total compensation by level:
+
+- **59:** ~$160K
+- **61:** ~$215K
+- **62:** ~$230K
+- **63–64:** ~$250K–$280K
+- **65:** ~$410K
+
+Packages combine base salary, an annual cash bonus and stock awards that vest over several years, with higher ranges in high-cost locations.
 
 ---
 

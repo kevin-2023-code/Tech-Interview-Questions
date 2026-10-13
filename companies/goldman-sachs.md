@@ -2,7 +2,7 @@
 
 # Goldman Sachs interview process, OA & interview questions
 
-**53 questions** reported at Goldman Sachs · **1 writeup** · **11 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
+**53 questions** reported at Goldman Sachs · **1 writeup** · **10 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Goldman Sachs interviews & the free questions](goldman-sachs/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -21,7 +21,7 @@
 | Difficulty (easy / medium / hard) | 16 / 33 / 4 |
 | Free to practise | [24](../free/README.md) |
 | Guides & writeups | 1 |
-| Interview reports on the board | 11 in this snapshot |
+| Interview reports on the board | 10 in this snapshot |
 
 <sub>Counted from the 53 questions reported at Goldman Sachs. 40 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -121,7 +121,6 @@ What candidates said happened in the room at Goldman Sachs — written up by the
 | Role | Report | Posted |
 | :-- | :-- | :-- |
 | Data & AI | [Goldman Sachs AI Model Training Engineering Interview Experience](https://trueinterview.io/interviews/4d120ad8-545f-4e03-800f-56bd90a62fe5) | Sep 30, 2026 |
-| Software | [Goldman Sachs Booking.com Graduate Software Engineer Interview Experience (Amsterdam)](https://trueinterview.io/interviews/278a71b1-a4d7-4d33-92f5-bc1071bbbd0a) | Sep 30, 2026 |
 | Software | [Goldman Sachs Coderpad Coding Interview Experience: First Non-Repeating Character & Grid DP](https://trueinterview.io/interviews/06eb061a-51ea-4cbe-99a1-23014b993183) | Sep 30, 2026 |
 | Software | [Goldman Sachs Coderpad DSA and SuperDay System Design Interview Experience](https://trueinterview.io/interviews/cc8e57a3-d365-42f2-b035-337909cec077) | Sep 30, 2026 |
 | Software | [Goldman Sachs Coding and System Design Interview Experience (Pastebin System Design)](https://trueinterview.io/interviews/2f5dfe0e-71d2-44b6-a618-820de3ee08a6) | Sep 30, 2026 |
@@ -132,7 +131,7 @@ What candidates said happened in the room at Goldman Sachs — written up by the
 | Quantitative Finance | [Goldman Sachs Quantitative Engineering Interview Experience](https://trueinterview.io/interviews/9f536166-21f4-4226-9942-63c1f76d9ac3) | Sep 30, 2026 |
 | Software | [Goldman Sachs SDE Interview Experience (Beijing, 2025)](https://trueinterview.io/interviews/39d0c1f5-d42b-4d8f-8e62-7cfbe891b99c) | Sep 30, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Goldman Sachs and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Goldman Sachs and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

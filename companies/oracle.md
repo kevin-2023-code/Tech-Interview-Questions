@@ -60,20 +60,20 @@ Which stage each question came from, for the **95 of 95** questions at Oracle th
 
 ## What they ask about
 
-Of the **69 questions at Oracle that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **64 questions at Oracle that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 13 | 19% | ████████████ | Apr 14, 2026 |
-| `strings` | 9 | 13% | ████████ | Aug 10, 2026 |
-| `graphs` | 8 | 12% | ███████ | Sep 11, 2026 |
-| `arrays` | 7 | 10% | ██████ | Apr 14, 2026 |
-| `greedy` | 7 | 10% | ██████ | Apr 14, 2026 |
-| `linked-list` | 7 | 10% | ██████ | Apr 14, 2026 |
+| `hashing` | 12 | 19% | ████████████ | Apr 14, 2026 |
+| `strings` | 9 | 14% | █████████ | Aug 10, 2026 |
+| `graphs` | 8 | 12% | ████████ | Sep 11, 2026 |
+| `arrays` | 7 | 11% | ███████ | Apr 14, 2026 |
+| `greedy` | 7 | 11% | ███████ | Apr 14, 2026 |
+| `linked-list` | 6 | 9% | ██████ | Apr 14, 2026 |
 | `math` | 6 | 9% | ██████ | Aug 10, 2026 |
-| `dynamic-programming` | 5 | 7% | █████ | Nov 24, 2025 |
-| `heap` | 5 | 7% | █████ | Sep 05, 2026 |
+| `dynamic-programming` | 5 | 8% | █████ | Nov 24, 2025 |
 | `backtracking` | 4 | 6% | ████ | Nov 17, 2025 |
+| `matrix` | 4 | 6% | ████ | Sep 11, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -149,7 +149,7 @@ What candidates said happened in the room at Oracle — written up by the people
 | Software | [Oracle System Design Interview Experience: Top K URL, Event Stream, and Log Collection](https://trueinterview.io/interviews/0861e4f8-afcb-4287-84ce-382b20895da8) | Sep 30, 2026 |
 | Software | [Oracle Zoom + HackerRank Behavioral and LeetCode Sqrt(x) Coding Interview Experience](https://trueinterview.io/interviews/46a91614-afa6-49f7-a74d-77ffae87a7c6) | Sep 30, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Oracle and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Oracle and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

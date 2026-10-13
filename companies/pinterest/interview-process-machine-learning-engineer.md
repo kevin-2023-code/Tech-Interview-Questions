@@ -6,91 +6,241 @@
 
 ---
 
-Machine Learning Engineers are rejected here for algorithm execution far more often than for modeling judgment. One candidate answered every ML-theory question cleanly and still lost the round because a trie's search logic was buggy at the buzzer; another faced three hard algorithm problems back-to-back in one onsite session. And when modeling does decide it, both documented design rejections landed on the unglamorous half of the pipeline — training data and serving infrastructure, not architecture.
+Pinterest holds Machine Learning Engineers to two separate bars in one loop: a general algorithm bar with no discount for the ML focus, and a production-ML bar set in ML system design. Recent rejections split between the two. Coding failures are narrow (a correct trie or linked-list approach still buggy at the buzzer), and design failures came from training-data construction, serving infrastructure and capacity math rather than model choice. Nearly everything is graph-shaped, from pin-board-user coding problems to PinSage-style embeddings in design.
 
-## Interview Process
+This guide breaks down each stage of the Pinterest Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 18 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Pinterest Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Pinterest Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/pinterest--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (30–45 minutes).** Background, level, and which ML domain your loop is drawn from. Interviewers pick their own prompts, so ask to be matched with the team you would join — one candidate who did not drew domain questions that missed their strengths entirely. Cadence is slow: first contact to phone screen took about two weeks in one report.
+Pinterest hires MLEs into specific product areas such as home feed, search, ads and trust and safety, and interviewers often draw design prompts from their own domain. The loop is a recruiter call, an online assessment for interns, new graduates and some experienced pipelines, one or two technical phone screens, and a mostly virtual onsite of three to seven rounds.
 
-2. **Online assessment (interns, new grads, some pipelines).** A proctored CodeSignal assessment far heavier than a typical OA: precision, recall, and F1 derived from a confusion matrix by hand; a forward pass through a small sigmoid network computed on paper; ensemble interpretability and L1 sparsity; plus from-scratch Naive Bayes, bootstrap aggregation, and gradient descent, one version banning NumPy. Camera and screen monitoring run continuously.
+The onsite grows with level. New-grad and mid-level loops run about four rounds, typically two coding and one or two ML design plus a behavioral conversation. A senior loop had five (two design, two coding, one behavioral); staff loops had six or seven, with up to three design rounds and two leadership conversations but a single onsite coding round. One statistics-leaning loop swapped design for a slide-deck case study, a difference-in-differences round and bootstrap coding.
 
-3. **Technical phone screen (one or two rounds, 45–60 minutes each).** ML fundamentals first, then live coding. The ML half is conversational, often opening with a project introduction. The coding half is a real algorithm problem — a trie-plus-set alert pipeline over activity logs, nested string decoding, weighted sampling from unbounded scores via softmax and CDF inversion. Finishing early triggers a second problem.
+Here's what the interview process can look like:
 
-4. **Onsite coding (one to two sessions, 45 minutes each).** Full engineering difficulty, no discount for the ML focus: graph traversal over pin, board, and user structures, trie autocomplete, min-heap column placement of ads, room-occupancy tracking with an O(1) count query. One senior candidate left both rounds with unresolved bugs and was rejected.
+- **Recruiter screen:** Background, target level and hiring area.
+- **Online assessment (interns, new grads, some pipelines):** Proctored hand-computed ML math, concepts and from-scratch implementations.
+- **Technical phone screen (one or two):** About 45 to 60 minutes of resume talk, rapid ML fundamentals and live coding, sometimes as two calls.
+- **Coding interviews (one or two):** Medium-to-hard problems framed around pins, boards or ads, graded on bug-free completion.
+- **ML system design interview (one to three):** An end-to-end design of a Pinterest-style ML system, usually with no coding.
+- **Behavioral and hiring manager interviews (one to three):** Project deep dives, cross-functional conflict and, at senior levels, roadmap questions.
 
-5. **ML system design (one round at mid-level, two to three at senior and staff, roughly an hour each, usually no coding).** The heaviest-weighted stage. Reported prompts: pin search end to end, ads click-through rate, notification and pin ranking, a real-time home feed reacting to engagement, unsafe-content detection, fraud detection. Interviewers name PinSage and PinnerSage directly and expect graph embeddings over the engagement graph, approximate nearest-neighbor candidate generation, ranking losses, and metrics like recall@k and NDCG. Senior loops add capacity math — one candidate had to size a serving batch against a 60GB GPU memory budget.
+> **Tip:** Ask the recruiter to match you with interviewers from the team you would join. A staff candidate who did not drew fraud, trust-and-safety and dead-link detection designs far from their own area.
 
-6. **Behavioral rounds (one at mid-level, two or three at senior and staff, often a hiring manager or a leader from another team).** Project deep dives with quantified impact, cross-functional disagreement, influencing without authority, and a two-year plan for your recommender work.
+## Recruiter screen
 
-7. **Decision.** Several weeks is normal; recruiters may keep interviewing others late.
+The recruiter call covers your background, target level and hiring org; ads, home feed and trust-and-safety loops each carry that domain's flavor. Cadence varies: one candidate waited two weeks for a phone screen, another found the process very fast, and a staff candidate learned the recruiter kept interviewing others late on.
 
-## What They Actually Evaluate
+Interviewers look for:
 
-### Coding and Algorithm
+- **Domain fit:** Recommender, ranking, ads, search or content-understanding experience that maps to the hiring team.
+- **Level signals:** Scope of past projects, which decides how many design and leadership rounds you get.
+- **Business framing:** Describing your work in revenue, engagement or user terms, which later rounds press on.
 
-The most underestimated competency here, spanning the phone screen and one to two onsite rounds at medium-to-hard difficulty — one loop delivered three hard problems in a row. Graph algorithms on pin, board, and user structures dominate (BFS distance, connectivity, cycle detection, union-find), followed by tries and heaps, plus implementation prompts with explicit complexity contracts such as sparse-matrix multiply. The failure mode is consistent and narrow: correct approach, lost round, because trie search logic or nested-loop index handling was not clean under time pressure.
+Prepare a two-minute summary of your strongest ML system with one business metric attached, and ask which team's interviewers you will meet.
 
-- [Graph Distance / Connectivity (MLE Phone Variant)](https://trueinterview.io/questions/graph-distance-mle-screen)
-- [Trie Autocomplete / Prefix Search](https://trueinterview.io/questions/trie-autocomplete-prefix-search)
+## Online assessment
+
+The assessment is one long session with continuous camera and screen monitoring, and a 2026 candidate found it short on time. The theory half is computational: derive true and false positives and negatives from two prediction tables, then precision, recall and F1 step by step, or work backward from target true- and false-positive rates to confusion-matrix counts; and run a forward pass through a tiny sigmoid network by hand. Conceptual items cover ensembles and interpretability, overfitting mitigations, cross-entropy versus hinge loss, why L1 zeros weights, and Naive Bayes and nearest-neighbor assumptions.
+
+The coding half has a monotonic-window array problem (for each index, check that values within distance k strictly decrease toward it from the left and increase away to the right) expected in linear time, a bagging wrapper with majority voting around a provided decision-tree class, Gaussian Naive Bayes in log space, and filling in the update steps of a partly written gradient-descent function.
+
+Interviewers evaluate:
+
+- **Arithmetic accuracy:** Sub-quantities are asked for step by step, so an early slip carries through.
+- **First-principles implementation:** Priors, means, variances and bootstrap sampling written by hand, not library calls.
+- **Numerical stability:** Log-probabilities instead of multiplied raw likelihoods.
+- **Efficiency:** A single pass or monotonic stack on the window problem rather than a quadratic scan.
+
+Practice computing metrics and sigmoid forward passes on paper, then implement Naive Bayes, bagging and gradient descent in plain Python against a timer.
+
+> **Note:** Versions differ on libraries. One banned NumPy and required plain lists and loops; another expected NumPy for Naive Bayes. Prepare both, and keep a calculator and scratch paper on the desk.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Given a small network's weights, biases and inputs, compute each sigmoid activation and the final output probability by hand.
+- Wrap a provided decision tree in bootstrap aggregation with majority voting, without NumPy.
+- Implement Gaussian Naive Bayes, returning log-posteriors for a batch of test samples.
+
+- [Naive Bayes Implementation](https://trueinterview.io/questions/4b6cf68f-e144-4f3e-8514-fd425859b792)
+- [Implement bagging with decision trees](https://trueinterview.io/questions/implement-bagging-with-decision-trees)
+- [Check If All Numbers in a Window Are Monotonic](https://trueinterview.io/questions/b713b44f-bc25-4935-8f17-c24342c90f89)
+
+## Technical phone screen
+
+The screen is either one 45 to 60 minute call or two separate calls, one on ML fundamentals and one on coding. A combined 2026 screen ran about ten minutes of resume discussion on business impact, five minutes of rapid-fire theory and 35 minutes of coding. The theory is strikingly repetitive: bias-variance on learning curves, overfitting remedies, L1 versus L2, dropout and whether to stack it with weight decay, logistic-regression loss under different learning rates, and vanishing gradients, including whether early or late layers suffer more and how residual connections, activations and normalization help.
+
+Coding problems are realistic and mid-to-hard: a user-pin-board graph (components, cycles, dependencies), a sensitive-phrase alert over a log stream, score-weighted sampling, string-based rounding, nested string decoding, settling group expenses in minimal transfers, and hyperparameter-combination enumeration with test cases. All three candidates rejected at this stage struggled on the coding half, not the theory.
+
+Interviewers evaluate:
+
+- **Mechanism, not definitions:** Why gradients vanish where they do and how you would observe it on real training curves.
+- **Bug-free completion:** One candidate outlined a correct trie but lost the round on unfinished search logic.
+- **Edge cases first:** Empty lists, equal or negative-infinity scores, a minus sign followed directly by a decimal point.
+- **Scaling follow-ups:** Handling large graphs or many queries without restarting the solution.
+
+Drill the theory list aloud with one concrete example each, and solve trie, graph and sampling problems to completion in 35 minutes.
+
+> **Tip:** On two-part problems, finish and test the easy half (the set lookup) in minutes to protect time for the hard half (the trie matching). If a hint seems wrong, test it with a quick counterexample; one rejected candidate followed a misleading hint.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Sample one string from a list with probability derived from scores ranging over all reals, using a stable softmax and an inverse-CDF binary search.
+- Alert on each streamed log whose user is in a watch set and whose text contains any phrase from a sensitive-phrase set.
+- Round "12567" to the nearest "100" and "1234.678" to "0.1" with string manipulation only.
+- Insert operators between digits so the expression, evaluated left to right, hits a target.
+
+- [Weighted Sampling from Score Distribution](https://trueinterview.io/questions/weighted-sampling-from-scores)
+- [Pin Board Connectivity](https://trueinterview.io/questions/graph-distance-mle-screen)
+- [Implement round() From String + Round-to-Precision](https://trueinterview.io/questions/round-and-precision-string)
+- [Expression Add Operators — Left-to-Right Variant (LC 282)](https://trueinterview.io/questions/expression-add-operators-simplified)
+
+## Coding interviews
+
+Most loops carry two onsite coding rounds; staff loops carried one. Difficulty matches a software engineering loop: trapping rain water and a depth-weighted nested-list sum in one onsite; a restaurant-interval problem and an ad-CTR exercise in another, after screens on fewest buses between stops and itinerary reconstruction. A senior candidate built trie autocomplete and a rooms-and-people tracker with an O(1) room count and top-k fastest moves on a doubly linked list. A staff candidate converted a BST to a sorted doubly linked list in place, then inserted into it. Ads-team candidates placed ads into the shortest of two, then k, columns, and a 2026 offer included sparse-matrix operations.
+
+Interviewers evaluate:
+
+- **Data-structure composition:** Hash map plus linked list, trie plus heap, heap keyed on height and index.
+- **Extending cleanly:** Generalizing two columns to k, or adding insertion and order-independent ranking without a rewrite.
+- **Running code at time:** A correct approach with a live bug scores as a miss.
+
+Practice data-structure design problems with explicit complexity contracts until a trie, a doubly linked list and a heap simulation each take under 25 minutes.
+
+> **Note:** The ML focus earns no discount here. A senior candidate left both coding rounds with unresolved bugs, one after an interviewer suggested a different approach, and was rejected.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Place each ad into the column with the smallest total height, breaking ties by leftmost index, first for two columns, then for k.
+- Track people moving between rooms with an O(1) count per room and a query for the k fastest moves.
+- Convert a BST into a sorted doubly linked list in place, then insert a new value while keeping order.
+
 - [Stack Items into the Shortest Column (Min-Heap Load Balancing)](https://trueinterview.io/questions/shortest-column-stacking-heap)
-- [Sparse Matrix Class (Store / Print / Add / Multiply)](https://trueinterview.io/questions/sparse-matrix-class)
+- [Trie Autocomplete / Prefix Search](https://trueinterview.io/questions/trie-autocomplete-prefix-search)
+- [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list)
+- [Find Restaurant Intervals](https://trueinterview.io/questions/find-restaurant-intervals)
 
-### ML Theory
+## ML system design interview
 
-Verbal and strikingly repetitive across reports: bias-variance on learning curves, overfitting remedies, why L1 drives weights to exactly zero and L2 does not, dropout as an implicit regularizer, logistic-regression loss behavior under different learning rates, and vanishing gradients. The bar is mechanism, not definition — interviewers ask where in a fully connected network vanishing gradients bite hardest, the input side or the output side, and how you would observe it.
+Mid-level loops have one design round; senior and staff loops have two or three, each about an hour without coding, and they decide most senior outcomes. Prompts come from Pinterest surfaces and interviewers' domains: pin search, ads click-through rate, user and item embeddings, a real-time home feed, unsafe-content and fraud detection, and detecting pinned landing pages that return 404. One loop added a research round on multimodal text-image models built around a specific open vision-language paper.
 
-- [ML Fundamentals Quick-Fire](https://trueinterview.io/questions/ml-fundamentals-quick-fire)
-- [ML Intern OA (CodeSignal: MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/questions/mle-intern-codesignal-oa)
+Strong answers cover embedding retrieval with approximate nearest neighbors, two-tower or graph models, pairwise losses, and recall@k and NDCG. Interviewers then push past architecture: PinSage and PinnerSage embeddings from random walks on the user-pin graph; labels from implicit feedback such as clicks, saves and hides; negative sampling and temporal splits; feature freshness and low-latency serving; and arithmetic such as how many candidates reach the ranker or what batch fits a 60GB GPU.
 
-### ML System Design
+Interviewers evaluate:
 
-One to three rounds of roughly an hour, and the stage that decides senior and staff outcomes. Architecture is table stakes; every reported candidate covered candidate generation, model choice, features, and offline metrics. Two gaps produced rejections: training-data construction (turning engagement logs into labels, positives and negatives from implicit feedback, negative sampling, temporal splits to avoid leakage) and serving infrastructure (feature freshness, low-latency scoring, model versioning, capacity arithmetic). A home-feed design solid on modeling and thin on infrastructure was graded a clear miss.
+- **Training-data construction:** Turning raw logs into an unbiased labeled set, with delayed feedback and attribution windows.
+- **Serving infrastructure:** Feature stores, freshness, model versioning and latency budgets for real-time surfaces.
+- **Graph-based representations:** Using the engagement graph rather than treating pins as isolated items.
+- **Metric alignment:** Fewer user reports without overblocking, precision at fixed recall, fraud savings.
+- **Capacity reasoning:** Back-of-envelope memory, throughput and candidate-count estimates.
 
-- [ML System Design: Notification Ranking & Ads CTR](https://trueinterview.io/questions/ml-system-design-notifications-ctr)
-- [System Design: Personalized Chatbot Recommending Pins](https://trueinterview.io/questions/system-design-personalized-chat-recommend)
-- [System Design: Ads Event Aggregation / Reporting](https://trueinterview.io/questions/system-design-ads-event-aggregation)
+Prepare four Pinterest-flavored designs (search, ads CTR, home feed, content safety) and rehearse the data-pipeline and serving halves as thoroughly as the model.
 
-### Behavioral and Leadership
+> **Note:** Three design-driven rejections landed outside the model: one on building training data from history logs, one on home-feed infrastructure, and one on serving-capacity questions.
 
-One round at mid-level, up to three at staff, and increasingly technical with level: several were really project deep dives demanding quantified impact and a defense of specific technical decisions. The distinctive prompts are organizational — what you look for when hiring, which gap on your team you would fill.
+### Sample questions for the ML system design interview
 
-- [Behavioral: Leadership, Initiative, Project End-to-End](https://trueinterview.io/questions/behavioral-leadership-initiative)
+Here are some questions reported by recent candidates:
 
-## What They Don't Test
+- Design an ads CTR system, then explain how to build labeled training data from user history logs.
+- Design a home feed that updates immediately after engagement, including low-latency feature serving.
+- Detect policy-violating images and text, with batch scoring of existing pins, streaming for uploads and an appeal flow.
+- Estimate the serving batch size that fits a 60GB GPU and how many candidates to send to ranking.
 
-- **Framework fluency.** The assessment bans NumPy in at least one section and wants Naive Bayes and bagging from first principles; what counts is the algorithm's arithmetic, not the API.
-- **Distributed training theory.** Reports concentrate on retrieval, ranking, feature pipelines, and serving; depth on inference latency, freshness, and capacity math is rewarded instead.
-- **Memorized design templates.** Interviewers pull prompts from their own domain — trust and safety, ads, fraud, search — so a generic recommender outline with no product-specific reasoning underperforms.
+- [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking)
+- [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr)
+- [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2)
+- [Design A Harmful Content Detection System](https://trueinterview.io/questions/harmful-content-detection-system)
 
-## The Real Filter
+## Behavioral and hiring manager interviews
 
-The primary filter is that ML system design is graded on the data and serving halves of the pipeline, not the modeling half. Candidates over-prepare architecture and metric selection because that is what the prompt suggests, then get pushed into where labels come from, how negatives are sampled, why a random split leaks, how features stay fresh at serving time, and what batch size fits a fixed GPU budget. Both documented design rejections landed exactly there — one on training-data acquisition from user history logs, one on the infrastructure behind a real-time home feed.
+Mid-level loops include one behavioral conversation; senior and staff loops have two or three, run by senior managers, leaders from other teams or the hiring manager. Most are project deep dives: walk through a system, defend its technical decisions, quantify impact and say what you would change. Others cover conflicting priorities, disagreement with a product manager, influencing without authority, mentorship and staying current. Staff and senior candidates also got a two-year plan for their recommender project, what they look for when hiring, and which profile would fill their team's biggest gap. In the statistics-leaning loop, the hiring manager round was a case study.
 
-The second filter is coding fluency, which eliminates candidates before design gets a chance: multiple reports describe correct approaches, clear communication, and rejection anyway because a trie search, a sparse-matrix multiply, or a linked-list update was still buggy at time.
+Interviewers evaluate:
 
-The third is how graph-shaped everything is — coding problems, embeddings, and design prompts all sit on the pin-board-user graph. A strong NLP or LLM background does not transfer automatically; one candidate's feedback said the algorithmic thinking was acceptable but the graph practice was not deep enough.
+- **Quantified impact:** Engagement or revenue numbers attached to your project, not activity.
+- **Technical ownership:** Why you chose a model, feature or trade-off, and what you rejected.
+- **Cross-functional influence:** Aligning product and partner teams with data rather than authority.
+- **Vision at senior levels:** A credible roadmap for your area and a view on team composition.
 
-## Data Source
+Prepare two deep-dive projects end to end, plus stories on conflict, failure and influence.
 
-Based on 18 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+### Sample questions for the behavioral and hiring manager interviews
 
-## FAQ
+Here are some questions reported by recent candidates:
 
-**What is it like to work at Pinterest as a Machine Learning Engineer?**
-Candidate reports document the loop rather than the job, so treat this as context: ML work here sits on recommendation, ranking, ads, search, and trust-and-safety systems, with graph embedding infrastructure as a core in-house asset. Engineers describe above-market pay, strong work-life balance, and real location flexibility; one report notes compensation is front-loaded, with a strong sign-on and first-year equity but modest refreshers.
+- Describe a cross-team project you led and how you handled disagreement with a product manager.
+- What is your two-year plan for your current recommender system?
+- What has been your biggest failure, and what did you change afterward?
 
-**What is the engineering culture like?**
-Applied and product-anchored. Design prompts are framed in Pinterest's own surfaces — home feed, pin search, notifications, ads CTR — and expect reasoning about a live product rather than a benchmark. The organization is small for its scale, so ML engineers own visible systems end to end. Most rooms are friendly, though one candidate met an interviewer who offered no hints at all.
+- [Leadership, Initiative, Project End-to-End](https://trueinterview.io/questions/behavioral-leadership-initiative)
+- [Explain your ML project end-to-end](https://trueinterview.io/questions/explain-your-ml-project-end-to-end)
+- [Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict](https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict)
 
-**How hard is it to get in?**
-Harder than the coding difficulty alone suggests, because you clear two independent bars in one loop — a generalist algorithm bar and a production-ML depth bar — across five to seven rounds after the screens. Reported outcomes skew heavily toward rejection.
+## How Pinterest levels and evaluates Machine Learning Engineer candidates
 
-**Which round is hardest?**
-ML system design carries the most weight and produced the clearest senior and staff rejections. But onsite coding eliminates more candidates earlier: three hard problems back-to-back, graded bug-free or not at all.
+The target level is set before the onsite and determines its shape: senior and staff loops add design and leadership rounds. The decision comes after the full onsite, and one weak area is not averaged away: a candidate who passed the phone screen cleanly was rejected on a single design round's training-data discussion, and a senior candidate's two buggy coding rounds outweighed a reasonable content-safety design. Postings are team-specific, and no reports describe a separate team-matching stage. Decisions can take several weeks.
+
+> **Tip:** If an interviewer starts walking you through the answer, treat it as lost signal: one rejected candidate's design round ended with the interviewer supplying the capacity answers.
+
+## How to prepare for the Pinterest Machine Learning Engineer interview
+
+1. **Code to completion, not to approach:** Practice tries, doubly linked lists and heap simulations until they run bug-free inside 25 to 35 minutes.
+2. **Make graphs a priority:** BFS, DFS, topological sort and union-find on user-pin-board scenarios, especially if your background is NLP or LLMs.
+3. **Explain theory by mechanism:** Bias-variance, L1 versus L2, dropout and vanishing gradients, each with how you would see it in training curves.
+4. **Rehearse the data and serving halves of design:** Labels from implicit feedback, negative sampling, temporal splits, feature freshness and GPU capacity math.
+5. **Learn Pinterest's embedding work:** Be able to explain PinSage and PinnerSage and where graph embeddings enter retrieval and ranking.
+6. **Prepare for hand math if you take the assessment:** Confusion-matrix metrics, sigmoid forward passes, and Naive Bayes and bagging from scratch.
+7. **Bring numbers to every story:** Resume and behavioral rounds probe revenue and engagement impact.
+
+## About the Pinterest Machine Learning Engineer role
+
+Pinterest MLEs build the recommendation, ranking, search, ads and safety models behind a visual discovery product, owning pipelines from data processing through online serving. In January 2026 Pinterest announced cuts of just under 15% of its workforce while shifting resources toward AI-focused roles and products. Its flexible-work policy has let many employees work remotely within their country.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC13 (Engineer I) | Well-scoped model and pipeline work with guidance | Features within one team's system |
+| IC14 (Engineer II) | Owning models and experiments end to end | A team's ranking or retrieval component |
+| IC15 (Senior) | Leading multi-quarter ML projects and design decisions | A product surface or major system |
+| IC16 (Staff) | Technical direction across teams and roadmap setting | Several teams or an org |
+
+Pinterest hires Machine Learning Engineers across product and platform teams. Teams include:
+
+- **Home feed:** Personalized ranking and real-time engagement signals.
+- **Search and related pins:** Query understanding, retrieval and relevance.
+- **Ads and monetization:** Ads ranking, click and conversion prediction, targeting and marketplace systems.
+- **Trust and safety:** Detection of policy-violating images and text, plus fraud and spam.
+- **Growth and shopping:** Notifications, user modeling and shopping recommendations.
+
+### Machine Learning Engineer experience and education requirements
+
+Postings ask for a bachelor's degree in computer science, machine learning, statistics or a related field, or equivalent experience, with an MS or PhD and top-conference publications listed as preferred. Senior postings ask for industry experience in recommender systems, ranking or ads, plus hands-on work with large-scale data pipelines such as Spark. Python is the usual interview language, and the assessment's implementations are in Python.
+
+## FAQs about the Pinterest Machine Learning Engineer interview
+
+### How long does the Pinterest Machine Learning Engineer interview process take?
+
+Usually several weeks from first contact to decision. One candidate waited about two weeks for the phone screen alone, while another described the whole process as very fast.
+
+### What is the hardest round of the Pinterest Machine Learning Engineer interview?
+
+ML system design carries the most weight at senior and staff, where interviewers probe training data, serving infrastructure and capacity. Coding eliminates more candidates earlier, at the phone screen and onsite.
+
+### Is there an online assessment for Pinterest Machine Learning Engineers?
+
+Some candidates get one before the phone screen: a single proctored session with a computational theory half (confusion-matrix metrics, a hand-computed forward pass) and a coding half that includes implementing small ML components such as a bagging wrapper or Gaussian Naive Bayes. Candidates reported that time was tight.
 
 ---
 

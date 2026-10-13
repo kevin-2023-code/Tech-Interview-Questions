@@ -8,76 +8,279 @@
 
 ---
 
-This guide is the deep-dive companion to the short process outline on the LinkedIn company page: how each round is actually run, what interviewers grade, and where strong candidates still get filtered out. It draws on 24 real LinkedIn questions and 33 candidate interview reports, so the patterns below reflect how the loop behaves in practice, not just how it is described.
+LinkedIn grades code quality separately from correctness, often in rounds where nothing is compiled. One junior candidate solved every problem and was still rejected, with readability given as the main reason. Rigor is graded the same way. One Staff candidate coded the L1 meeting point correctly, struggled to prove the median is optimal, and was offered Senior. Most recent loops also replace one coding round with an AI-enabled session. The level itself is usually settled in the host-manager and project rounds.
 
-## Interview Process
+This guide breaks down each stage of the LinkedIn interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 51 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## LinkedIn interview process
 
 <!-- guide-diagram -->
 ![LinkedIn interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/linkedin/process.webp)
 <!-- guide-diagram -->
 
-End to end, the process typically takes four to eight weeks. The technical phone screen runs about an hour and sometimes has two interviewers, a lead plus a shadow. At senior and Staff levels it is rarely a pure coding hour: many screens compress behavioral questions, one or two coding problems, and even a twenty-minute design discussion into a single session, so pacing is a skill in itself. Some teams also insert a proctored online assessment before the screen, mixing multiple-choice code-quality questions with one implementation problem. After each round, interviewers submit feedback quickly, and post-onsite decisions often land within a week, though candidates describe recruiter communication as uneven, with reschedules and occasional silence.
+Hiring is team-based. The structure stays the same everywhere, but the hiring team's domain sets the design topics. A typical process runs four to eight weeks: a recruiter call, a technical screen of about an hour, then four to six onsite rounds of 45–60 minutes. Most onsites are virtual, and some pipelines run four separate screening calls instead of a single onsite day.
 
-Coding rounds are distinctive in format: several loops run entirely on a whiteboard or a shared editor where code is never compiled. You are expected to dry-run your solution aloud on concrete examples, and grading extends well beyond correctness to naming, modular structure, and formal reasoning. Interviewers regularly ask for proofs, and a shaky proof can cost you a level even when the code is flawless: one candidate was downleveled from Staff to Senior after implementing a correct quickselect but struggling to prove that the median minimizes the sum of absolute distances. Problems tend to start as recognizable staples, then pivot mid-round: a two-sum becomes a two-product, a binary tree merge generalizes to N-ary trees keyed by label, a BFS gets rerun against a graph of billions of nodes. Junior candidates are not exempt from the quality bar; one rejection cited code readability as the primary reason despite correct solutions.
+Entry-level loops focus on coding. Senior loops add full system design and a host-manager check on scope. At Staff, the phone screen often packs leadership stories, a coding problem and about 20 minutes of design into one hour. Machine Learning Engineer loops replace part of the coding with probability, ML fundamentals and ML system design.
 
-A growing share of loops includes one AI-enabled coding round. The environment provides an AI assistant beside the editor, and the round evaluates how you direct it: generating a scaffold for something like an LRU cache, reviewing the output for bugs, generating and running tests, then handling a thread-safety follow-up yourself. Prompt quality and verification discipline are the signal, not unaided recall. Be warned that the tooling can fail: candidates describe wrong model versions, broken editors, and unresponsive sessions where the interviewer did not intervene, so stay vocal and keep a manual fallback ready.
+Here's what the interview process can look like:
 
-The design round is data-intensive but often deliberately scoped down rather than internet-scale: a single-machine key-value store over 100,000 append-only files holding a billion keys, a metrics platform explicitly without alerting, a job scheduler feeding a real-time dashboard, a top-k exception tracker. Interviewers push back on assumptions and drill into storage layout, ingestion paths, and memory bounds. Terminology mismatches have derailed sessions, so align on component names in the first minutes.
+- **Recruiter screen:** A 15–30 minute call on background, team, target level and logistics.
+- **Online assessment (some pipelines):** A proctored test with code-style multiple-choice questions and one implementation problem.
+- **Technical phone screen:** About an hour and one to three problems, often after a behavioral opening.
+- **Coding interviews:** One or two rounds on a whiteboard or a shared editor that does not run code, each with a classic problem that changes partway through.
+- **AI-enabled coding interview:** One round in an editor with an AI assistant panel, graded on how you direct and check generated code.
+- **System design interview:** A data-heavy design that is often deliberately bounded.
+- **Project deep dive and craftsmanship:** A past project drawn on a diagram, plus a conversation about engineering quality.
+- **Host manager interview:** A 45-minute behavioral and motivation round that weighs heavily on level.
 
-The host-manager and craftsmanship rounds are genuine filters. The host manager probes motivation, current performance rating, promotion history, and team fit alongside a project deep-dive; the craftsmanship or technical-communication round typically asks you to whiteboard a past project and defend its architecture, trade-offs, and measurable impact. Downleveling from Staff to Senior is common when stories describe execution without organizational scope, and a rejection triggers a one-year cooldown before reapplying.
+> **Tip:** Practice every problem without running it. Use descriptive names from the first line, then trace one normal case and one edge case aloud. In most reports, coding was judged on that spoken walkthrough.
 
-## What Candidates Report
+## Recruiter screen
 
-- Code is frequently never executed. Candidates who practiced narrating dry-runs, tracing examples aloud, and writing clean, well-named code did visibly better than those who relied on a compiler to catch mistakes.
-- Rigor requests are real: interviewers have asked for correctness proofs, complexity derivations, and justification of every data structure choice, and leveling decisions have hinged on the theoretical follow-up rather than the implementation.
-- The AI-enabled round is a judgment test. Assistant suggestions that diverged from the candidate's plan had to be reviewed and overridden, and blindly accepting output read poorly. Tool failures consumed one candidate's entire round.
-- Behavioral evaluation is distributed across the loop, not confined to one round. Screens have opened with conflict and failure stories, and host managers have asked pointedly about performance ratings and promotion attempts.
-- Scheduling friction recurs: last-minute reshuffles, interviewers arriving late, and slow post-loop feedback. Several candidates also confirmed the one-year cooldown after rejection, which raises the stakes of interviewing before you are ready.
+Referrals, cold applications and recruiter outreach all lead to the same loop. Scheduling is the weak point: reports include last-minute reshuffles, a week spent confirming a time, and a manager round that started an hour late. One recruiter proposed moving a Senior Staff applicant down to Staff before any technical round.
 
-## Coding Questions
+Interviewers evaluate:
 
-LinkedIn coding problems are mostly medium-difficulty fundamentals with a twist layered on: a space constraint, a streaming input, an abstract interface, or a proof obligation. Practice adapting a known pattern when one constraint changes, because mid-round pivots are a signature of this loop.
+- **Level fit:** Whether your recent scope supports the target level.
+- **Team match:** Whether your stack and domain fit the hiring team.
+- **Logistics:** Location, timing and competing deadlines.
 
+Ask which organization the role sits in and which level the loop is calibrated for.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and why LinkedIn.
+- Are you open to a team in a different domain or at a different level?
+
+## Technical phone screen
+
+The screen is about an hour in a shared editor. Many open with 10–15 minutes on a project or a conflict story, which leaves less coding time than candidates expect. A second interviewer sometimes shadows. Prompts are classics with a pointed follow-up. A MaxStack's `popMax` changes once the interviewer says it is rarely called, and insert-delete-getRandom turns into "describe your tests" and then a per-item TTL. A few pipelines first send a webcam-proctored assessment, such as a matrix class with point updates and submatrix sums. Machine Learning Engineer screens use sampling problems instead.
+
+Interviewers evaluate:
+
+- **Optimal complexity:** Reports say a working brute-force answer was not enough, even at the screen.
+- **Object-oriented structure:** One Staff candidate was rejected after a MaxStack whose design lacked clean encapsulation.
+- **Challenging the premise:** One candidate argued that a purely rank-based eviction policy was the wrong default and was told no one had raised that before.
+- **Pacing:** Finishing the code after the behavioral opening.
+
+Rehearse an hour that opens with a 15-minute story before one medium problem and its follow-up.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Build a cache that evicts the lowest-ranked item, breaks ties by least recent access, and supports rank updates.
+- Find the point that minimizes the total absolute distance to points on a line, and prove the median is optimal.
+- Find the second minimum of a tournament tree in O(log N).
+
+- [Max Stack](https://trueinterview.io/questions/coding-max-stack)
+- [Minimum Sum-of-Distances Meeting Point on a Line](https://trueinterview.io/questions/coding-min-sum-distance-line)
+- [Insert/Delete/GetRandom in O(1) with TTL per item (follow-up)](https://trueinterview.io/questions/26f6e8b3-62a6-4359-8ae4-3943de03e7e6)
+- [Shortest Word Distance II](https://trueinterview.io/questions/a87d7c6b-06c5-5d2c-9924-55712f12b1e0)
+
+## Coding interviews
+
+Onsite coding rounds have one or two problems, and in most reports the code is never compiled. Each starts as a familiar problem and then changes. Two-sum becomes two-product. A binary tree merge becomes an N-ary merge keyed by label. A BFS behind an abstract neighbor interface is rerun on billions of nodes. "What if it doesn't fit in memory?" is a near-default follow-up. Other prompts include linked-list intersection in O(1) space and pow(x, n) when n is the minimum integer. Machine Learning Engineer loops add ML code written from scratch, such as sparse vector multiplication.
+
+Interviewers evaluate:
+
+- **Adaptation:** Reworking the approach when one rule changes rather than replaying the known solution.
+- **Craftsmanship:** Naming, decomposition and readability, graded on their own.
+- **Correctness arguments:** Proofs and complexity derivations on request.
+- **Edge cases:** Overflow, ties and empty or very deep inputs.
+
+For each classic you know, practice adapting it to one changed constraint within five minutes.
+
+> **Note:** A correct solution does not guarantee a pass. One rejected candidate was told readability was the main reason, and another said the N-ary generalization was expected at optimal complexity.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Merge two N-ary trees whose children match by key, with the second tree's values winning, then serialize the result.
+- Count the distinct values in a sorted array of billions of elements that holds only a few hundred distinct values.
+- Compute inclusive and exclusive time per task from nested start and end logs.
+
+- [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key)
+- [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array)
+- [Function Inclusive / Exclusive Time](https://trueinterview.io/questions/coding-function-exclusive-inclusive-time)
 - [Intersection of Two Linked Lists](../../questions/algorithm/intersection-of-two-linked-lists/README.md)
-- [Phone Keypad — Letter Combinations / Word Filter](https://trueinterview.io/questions/coding-phone-letter-combinations)
-- [Meeting Scheduler — Earliest Available Slot](https://trueinterview.io/questions/coding-meeting-scheduler-earliest-slot)
 
-## System Design Questions
+## AI-enabled coding interview
 
-Design prompts mirror LinkedIn's own domains — metrics, scheduling, search, and messaging — but the evaluation rewards controlled scope over sprawling box diagrams. Expect constrained variants where the interesting work is the storage engine, the time-window data structure, or the query path, and be ready to defend memory and consistency choices under pushback.
+This round replaces one of the two standard coding rounds. You work in a shared editor with an AI assistant panel and a choice of models, and you paste the assistant's output into the file yourself. The usual task is an LRU cache built in stages: generate a scaffold, review it for bugs, generate and run tests, then make it thread-safe. Recruiters have said the algorithm must come from the candidate. In one loop, the interviewer took the AI away partway through. One candidate finished only two of four LRU stages, because the generated code kept dropping evictions, and was rejected.
+
+Interviewers evaluate:
+
+- **Prompt quality:** Asking for a bounded piece of code, not the whole solution.
+- **Verification:** Reading every generated line and testing concurrency and capacity edge cases.
+- **Independent design:** Continuing on your own when the assistant is removed.
+- **Production thinking:** Thread safety, TTL, and the choice between coarse- and fine-grained locking.
+
+Practice staged builds against a timer: generate, review, test, then extend.
+
+> **Note:** The tooling can fail. One candidate lost about 15 minutes to a frozen editor that had loaded the wrong model, and the interviewer did not step in. Raise the problem immediately and keep coding by hand.
+
+### Sample questions for the AI-enabled coding interview
+
+Here are some questions reported by recent candidates:
+
+- Build an LRU cache, then add TTL, then make it thread-safe, completing as many stages as possible.
+- Implement an LRU cache with counters and predict its hit and miss ratios under several workloads.
+- Find the distance from a landing point to the nearest supply location, then solve a harder graph variant without AI.
+
+- [LRU Cache](../../questions/ai-coding/lru-cache/README.md)
+- [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread)
+- [LRU Cache with Counters](https://trueinterview.io/questions/78341155-cbbe-5ad1-a69b-4397d1288bef)
+- [Nearest Supply Point in a Map](https://trueinterview.io/questions/2d464101-c921-5548-8f3e-508ad1f9c109)
+
+## System design interview
+
+Prompts are data-heavy but often bounded on purpose. One was a single-machine key-value store over 100,000 append-only files and about a billion keys, with values too large for memory. Others were a metrics platform with alerting explicitly excluded, activity queries over the last minute, hour or day, malicious-IP blocking at the API gateway across data centers, and a calendar with recurring events across time zones. Infrastructure prompts lean toward storage and operations, including CI questions. Machine Learning Engineer prompts cover the Skills feature, feed ranking objectives and LLM-generated recruiter messages.
+
+Interviewers evaluate:
+
+- **Scope control:** Designing within the stated limits instead of drawing a generic diagram.
+- **Storage depth:** What stays in memory, compaction, crash recovery and retention.
+- **Shared vocabulary:** One session stalled because the candidate said "aggregator" and the interviewer said "collector."
+- **Trade-offs:** Push versus pull for feeds, and approximate versus exact counting.
+
+Practice designs that fit on one machine, and agree on component names in the first few minutes.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a single-machine key-value store over append-only files where only the index fits in memory.
+- Block malicious IPs at the API gateway, then extend the design to several data centers.
+- Design a calendar with recurring events and exceptions, storing times in UTC across DST changes.
 
 - [Single-Machine Key-Value Store with Filesystem Spill](https://trueinterview.io/questions/sd-single-machine-kv-store)
 - [Metrics & Monitoring Platform](https://trueinterview.io/questions/sd-metrics-monitoring-platform)
-- [Distributed Job Scheduler / Calendar Service](https://trueinterview.io/questions/sd-job-scheduler)
-- [Type-Ahead / Autocomplete Suggestions](https://trueinterview.io/questions/sd-typeahead-autocomplete)
+- [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers)
+- [Collect and Query Recent User Activity](https://trueinterview.io/questions/collect-and-query-recent-user-activity)
 
-## Low-Level Design Questions
+## Project deep dive and craftsmanship
 
-Cache construction is the recurring low-level exercise across LinkedIn loops: LRU and LFU variants, rank-based eviction with recency tie-breaks, and follow-ups on thread safety, stale metadata, and how the design shifts when one operation is rare. Treat these as object-oriented design problems, not just algorithm puzzles — encapsulation and clean interfaces have decided outcomes.
+These rounds go by "technical communication," "project deep dive" or "craftsmanship." In the first, you draw a past project as a simple diagram and explain it. Sometimes the next round stays on that project and probes your own decisions. Craftsmanship involves no code. It covers what success means in engineering, quality standards, ownership, technical debt and code review.
 
-- [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap)
-- [LFU Cache](https://trueinterview.io/questions/lfu-cache)
+Interviewers evaluate:
 
-## Behavioral Questions
+- **Personal contribution:** What you decided, separated from what the team did.
+- **Breadth of impact:** One rejected senior candidate was told the stories lacked wider business impact.
+- **Trade-off defense:** Why that design, how you measured success and what you would change.
+- **Engineering values:** A view on testing and technical debt that you have acted on.
 
-Behavioral signal is collected everywhere: dedicated rounds, host-manager conversations, and the opening minutes of technical screens. Prepare stories with explicit personal ownership, quantified impact, and honest failure analysis — interviewers have pressed on mentoring failures, cross-team conflict, and what you cut under deadline pressure.
+Prepare one recent project you can draw in two minutes and defend for thirty.
 
-- [Behavioral / BQ Question Pack (Staff & Senior)](https://trueinterview.io/questions/behavioral-bq-pack)
+> **Tip:** Steer toward your most relevant recent work. One interviewer kept asking about older projects, and the candidate's newer, more relevant LLM project never came up.
 
-## How to Prepare
+### Sample questions for the project deep dive and craftsmanship
 
-- Rehearse every practice problem as a spoken performance: clarify constraints, state the invariant, code with descriptive names, then dry-run a normal case and an edge case aloud without executing anything.
-- Prepare proofs, not just solutions, for the classics in this loop: why the median minimizes L1 distance, why the linked-list intersection trick works, why your heap operations meet their complexity bounds.
-- Build cache muscle memory: implement LRU, LFU, and a rank-plus-recency eviction cache from scratch, then add thread safety and explain coarse versus fine-grained locking trade-offs.
-- Drill constraint pivots: take a solved problem and change one rule (sum to product, binary to N-ary, in-memory to streaming) and practice adapting within five minutes.
-- Practice one AI-assisted session end to end: prompt for a scaffold, find the planted bugs, generate tests, and narrate what you accept or discard — and decide in advance what you will do if the tooling breaks.
-- Prepare a host-manager narrative that covers your performance trajectory, promotion history, and motivation for LinkedIn specifically, plus one project story deep enough to survive thirty minutes of follow-ups.
+Here are some questions reported by recent candidates:
+
+- Present your most impactful project on a diagram, then answer questions on scaling and failure handling.
+- What does success mean to you as an engineer, and how do you manage technical debt?
+
+- [Project Deep-Dive (Four-Axis Rubric)](https://trueinterview.io/questions/behavioral-project-deep-dive)
+- [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design)
+- [Explain the Design of a Recent Feature](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature)
+
+## Host manager interview
+
+An engineering manager runs this 45-minute round with no coding. Topics include a project you drove, a disagreement with another team, a change of direction, useful feedback you received, and what your next role should give you. Some managers also ask about performance ratings and past promotion attempts. Others add a design question, such as how to reduce stale job postings. After every story, expect to be asked what the result was.
+
+Interviewers evaluate:
+
+- **Scope at the target level:** At Staff, stories need to show influence across teams.
+- **Quantified outcomes:** A concrete result for every story.
+- **Motivation:** A specific reason for this team and domain.
+- **Candor:** Honest answers about ratings, promotions and failures.
+
+Prepare each major story at two scopes: team and organization.
+
+### Sample questions for the host manager interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you were on the critical path with no one to unblock you.
+- What do you want from your next role that your current job cannot give you?
+
+- [Behavioral / BQ Question Pack](https://trueinterview.io/questions/behavioral-bq-pack)
+- [How do you lead and drive impact?](https://trueinterview.io/questions/how-do-you-lead-and-drive-impact)
+- [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback)
+
+## How LinkedIn makes hiring decisions
+
+Interviewers submit feedback independently, and the hiring team decides after the loop. The target level is set before interviews start and then tested against your stories. Staff applicants are often down-leveled. Two offers came in at Senior, one because of a shaky proof and the other because the stories lacked Staff scope. Decisions arrived anywhere from the next day to more than a week after the loop, and one candidate heard nothing at all. Rejected candidates reported a one-year cooldown before reapplying.
+
+> **Tip:** Ask which level the loop targets and pitch every story at it. Down-levels mostly come from the behavioral rounds, after the coding has gone well.
+
+## How to prepare for the LinkedIn interview
+
+1. **Code without a compiler:** Use descriptive names, then trace a normal case and an edge case aloud.
+2. **Prepare proofs:** Know why the median minimizes L1 distance and why rejection sampling is unbiased.
+3. **Master the cache family:** Build LRU, LFU, rank-plus-recency and TTL variants, then add thread safety.
+4. **Drill constraint changes:** Turn sum into product, binary into N-ary, and in-memory into streaming.
+5. **Rehearse the AI round:** Generate in small pieces, review every line, and practice finishing without the assistant.
+6. **Design within limits:** Practice single-machine stores and time-window queries alongside distributed designs.
+7. **Build a level-matched story bank:** Prepare stories on a conflict between teams, a change of direction, feedback, and your rating history, each with a measured result.
+
+## About working at LinkedIn
+
+LinkedIn runs the largest professional network and has been a separately run Microsoft subsidiary since 2016. It is headquartered in Sunnyvale, teams set their own hybrid schedules, and much of the data infrastructure was built in-house. Kafka started at LinkedIn.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer (IC2) | Building features in a defined area | Tasks within one team |
+| Senior Software Engineer (IC3) | Owning a system's design and production behavior | One team's systems |
+| Staff Software Engineer (IC4) | Setting technical direction other teams depend on | Several teams |
+| Senior Staff Software Engineer (IC5) | Technical strategy across an organization | An organization |
+| Principal Staff Software Engineer (IC6) | Direction for a major technology area | Company-wide |
+
+LinkedIn hires engineers across its member, revenue and platform businesses. Teams include:
+
+- **Talent Solutions:** Jobs, Recruiter and hiring products, the largest business line.
+- **Marketing Solutions:** Ads targeting, bidding, pacing and measurement.
+- **Premium and Sales Solutions:** Member subscriptions and sales tools.
+- **Feed and AI relevance:** Feed ranking, recommendations, Skills and generative AI features.
+- **Infrastructure and developer productivity:** Storage, streaming, observability, CI/CD and security detection.
+
+### Experience and education requirements
+
+Postings ask for a bachelor's degree in computer science or a related field, or equivalent practical experience. Senior postings ask for about two to five or more years in Java, C++ or Python. New graduates usually join at IC2, and IC1 is reserved for the REACH apprenticeship for engineers from non-traditional backgrounds.
+
+## FAQs about the LinkedIn interview
+
+### How long does the LinkedIn interview process take?
+
+Usually four to eight weeks. Scheduling delays and team changes can stretch it to several months.
+
+### What is the hardest round of the LinkedIn interview?
+
+For mid-level candidates, onsite coding, where the problem changes and nothing compiles. At Staff and above, the host-manager and project rounds, because they decide the level.
+
+### Is there an online assessment?
+
+Only in some pipelines. When there is one, it is webcam-proctored and pairs code-style multiple-choice questions with one implementation problem.
+
+### Can you get down-leveled at LinkedIn?
+
+Yes. Staff applicants have received Senior offers, and one recruiter proposed a lower level before the loop began.
+
+### What happens after a rejection?
+
+Candidates reported a one-year cooldown before reapplying, and feedback is usually minimal.
 
 ## Guides by Role
 
-- [LinkedIn Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 - [LinkedIn Software Engineer Interview Process](interview-process-software-engineer.md)
 - [LinkedIn Infrastructure Engineer Interview Process](interview-process-infrastructure-engineer.md)
+- [LinkedIn Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 
 ---
 

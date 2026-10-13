@@ -2,13 +2,13 @@
 
 # Rokt interview process, OA & interview questions
 
-**5 questions** reported at Rokt. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rokt), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at Rokt · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rokt), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Rokt interviews & the free questions](rokt/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 200–999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-rokt)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-rokt)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (40% of 5) |
 | Difficulty (easy / medium / hard) | 0 / 4 / 1 |
 | Free to practise | [3](../free/README.md) |
-| Guides & writeups | 0 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 5 questions reported at Rokt. 1 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -71,6 +71,14 @@ The 5 questions to open first if you are preparing for Rokt, ranked by **the mos
 | **5** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) 🆓 | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Guides & writeups
+
+**1 writeup** filed under Rokt in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Rokt Interview Process & Questions](https://trueinterview.io/study/rokt-interview-process) | — |
 
 ---
 

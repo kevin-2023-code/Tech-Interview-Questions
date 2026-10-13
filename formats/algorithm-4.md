@@ -141,7 +141,7 @@
 | **Roblox** | [Reach Endpoint With Obstacles](https://trueinterview.io/questions/reach-endpoint-with-obstacles) | Easy | Feb 2026 |
 | **Amazon** | [VM Inventory Rental — Heap Simulation](https://trueinterview.io/questions/vm-inventory-rental-heap) | Medium | Jan 31, 2026 |
 | **Amazon** | [Prefix Frequency Partition](https://trueinterview.io/questions/equal-block-prefix-via-prefix-hash) | Medium | Jan 31, 2026 |
-| **Bloomberg / ByteDance** | [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Medium | Jan 31, 2026 |
+| **Bloomberg / ByteDance** | [Gas Tank Grid Reachability](https://trueinterview.io/questions/gas-tank-grid-bfs) | Medium | Jan 31, 2026 |
 | **Citadel** | [Sort a nearly sorted array](https://trueinterview.io/questions/sort-a-nearly-sorted-array) | Medium | Jan 30, 2026 |
 | **Meta** | [Solve Three Algorithmic Problems](https://trueinterview.io/questions/solve-three-algorithmic-problems) | Hard | Jan 30, 2026 |
 | **Uber** | [Prime-Constrained Score Jump](https://trueinterview.io/questions/solve-prime-jumps-and-pipeline-scaling-prime-constrained-score-jump) | Hard | Jan 30, 2026 |

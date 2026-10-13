@@ -8,82 +8,275 @@
 
 ---
 
-Apple runs one of the least standardized loops in big tech: the team you apply to owns the process end to end, interviewers write their own questions, and there is no central question bank. That makes generic prep advice less useful here than almost anywhere else, so this guide focuses on how the stages actually run and what they grade — grounded in 81 real Apple questions and 41 candidate interview reports. Use it to calibrate, then confirm specifics with your recruiter, because two Apple loops rarely look alike.
+Apple has no central interview loop. The hiring team writes its own questions, chooses its own round types and makes the decision, so two candidates for the same job title can face very different processes. The grading pattern is consistent, though. A correct first answer only opens the round, and the score comes from the follow-ups: scale it, make it thread-safe, speed it up without threads, write the tests. Since spring 2026, loops have also included an AI-assisted coding round.
 
-## Interview Process
+This guide breaks down each stage of the Apple interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 60 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Apple interview process
 
 <!-- guide-diagram -->
 ![Apple interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/apple/process.webp)
 <!-- guide-diagram -->
 
-The first conversation is often more evaluative than its label suggests. Outreach frequently comes from the hiring manager rather than a generic recruiter, and that first call already counts: candidates describe team-fit discussions that pivot into live coding, and standalone behavioral screens — one recent 30-minute call packed four questions on prioritization, resource allocation, and a hardest-project walkthrough. Teams whose product direction is still forming probe explicitly for comfort with ambiguity and the ability to define your own work.
+The usual sequence is a first call, then one to four phone screens of 45–60 minutes, then a loop of four to six rounds held virtually or in Cupertino. In fast processes, an onsite was booked two days after the screen and the offer was signed about five weeks after the first call. Reorganizations and approvals slowed others down by weeks.
 
-Technical phone screens — typically one to three, about 45 minutes each in a shared editor — vary widely by team. Some interviewers ask classic algorithm problems (subarray sums, tree iterators, merge intervals, island counting); others wrap the same skills in practical stories: parsing server logs for failed logins, computing arrival times against a bus schedule, or building a seat-reservation system in C with manual memory management. A screen billed as coding can also turn out to be a design discussion or a pure domain conversation with no code at all. Grading rewards clarifying the prompt, a correct baseline, edge cases, complexity analysis — and surviving the follow-up twist, which is where many screens are decided.
+The mix of rounds depends on the track. Software Engineer loops usually have two coding rounds of two problems each, plus a design round. Infrastructure Engineer loops have less coding and one or two distributed-systems design rounds. Machine Learning Engineer loops can skip algorithm coding entirely in favor of ML fundamentals, ML design and project deep dives. Senior candidates have met a senior manager or a director after the main loop.
 
-Onsites typically run four to six rounds of 45–60 minutes. A common shape in recent loops: two coding rounds (often two problems each), one system design round, a project deep dive, and a behavioral session with the hiring manager — but teams freely swap in domain rounds on operating systems and concurrency, hashmap internals, frontend frameworks, or ML fundamentals depending on their stack. Coding follow-ups push past the first working solution: scaling a toy problem to billions of requests, making an iterator thread-safe, or speeding up a traversal without threads. Design prompts range from familiar (logging systems, ad-click aggregation, Dropbox-style sync, S3-like storage) to deliberately constrained, like serving inventory lookups from a machine with spinning disks and almost no RAM. Project deep dives can fill 75 minutes and interrogate architecture choices, rejected alternatives, and how you measured impact.
+Here's what the interview process can look like:
 
-Timelines can be strikingly fast: candidates report onsites scheduled two days after a phone screen, verbal offers one to two weeks after the onsite, and written offers about a week later. But because loops are team-owned, the process is also fragile — onsites get canceled after prep calls, roles get filled or relocated mid-loop, and weeks of silence before a decision are common. A rejection from one team sometimes routes your profile to another, so a "no" is not always final.
+- **Recruiter or hiring-manager screen:** About 30 minutes on background, motivation and location, sometimes with scored behavioral questions.
+- **Technical phone screens (one to four):** 45–60 minute calls with coding, a design discussion or a domain conversation.
+- **Coding interviews:** One to three loop rounds, often two problems each, frequently wrapped in a business story.
+- **AI-assisted coding round (2026):** Coding with an AI agent in a side panel, graded on how well you direct it.
+- **System design and domain interviews:** Distributed, resource-constrained or ML design, plus questions on the team's technology.
+- **Project deep dive:** One past project examined in detail, sometimes across several rounds.
+- **Behavioral and hiring manager interview:** Prioritization, conflict and influence, often followed by sign-off rounds for senior candidates.
 
-## What Candidates Report
+> **Tip:** Treat the job posting as the syllabus. Candidates repeatedly found that their screen topics followed the posted requirements almost item by item, from video codecs to Redis atomicity.
 
-- **Round labels are unreliable.** Sessions described as coding become architecture discussions; an "ML coding" round becomes a case study; a recruiter's description of the format sometimes simply doesn't match what happens. Candidates who adapt calmly fare better than those thrown by the switch.
-- **Problems arrive wrapped in stories.** Long, verbose prompts about robots, buses, logs, or seat maps hide standard algorithms; the tested skill is extracting the core problem, restating it, and confirming assumptions before coding.
-- **The first working solution is the midpoint, not the finish.** Interviewers routinely ask for tests written and run on the spot, space optimizations, concurrency handling, and how the solution behaves at massive scale.
-- **Behavioral evaluation is substantive and formal.** Dedicated behavioral rounds appear even at the phone stage, and an overly casual tone has sunk otherwise strong candidates. Prioritization conflicts, cross-team blockers, and influencing without authority recur constantly.
-- **Interviewer signal is noisy.** Silent interviewers who give no reaction, late arrivals, cameras off, and uneven interviewer quality all appear in reports — and warm feedback during the loop repeatedly failed to predict offers. Keep narrating your reasoning and ignore the temperature of the room.
+## Recruiter or hiring-manager screen
 
-## Coding Questions
+The first call is often with the hiring manager, and it counts. It covers your resume, why Apple, salary expectations, work authorization and location. One recruiter asked follow-up questions to check that the candidate had personally built the AI projects listed. Another 30-minute call asked four behavioral questions on conflicting deadlines, splitting resources between products, and the candidate's hardest project.
 
-Apple coding rounds mix recognizable patterns with practically framed variants, and the follow-ups — scaling, caching, thread safety, testing — carry real weight. Practice narrating assumptions and finishing with tests rather than sprinting to a clever answer.
+Interviewers evaluate:
 
-- [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa)
-- [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d)
+- **Hands-on ownership:** Whether you can explain your resume work in detail.
+- **Motivation:** A reason for choosing Apple and this team that goes beyond the products.
+- **Professional tone:** Friendly but structured answers. Being too casual counted against one candidate.
+
+Prepare a two-minute summary of each project, and decide in advance which locations you will accept.
+
+> **Note:** Confirm the location on the first call. One candidate passed two stages and then learned the role had moved to Seattle. Another found out after the onsite was scheduled that the role required working onsite full-time in San Diego.
+
+### Sample questions for the recruiter or hiring-manager screen
+
+Here are some questions reported by recent candidates:
+
+- Why Apple, and how do you work when you lack business context?
+- Tell me about a time you split limited resources between two product initiatives.
+
+- [Crafting a Compelling Job Transition and Motivation Response](https://trueinterview.io/questions/ebf5d768-7f3c-40dc-927c-477fe70eae77)
+- [Clarify status, education, and multi-role strategy](https://trueinterview.io/questions/clarify-status-education-and-multi-role-strategy)
+
+## Technical phone screens
+
+Most screens give one problem, or two short ones, in a shared editor, and you are expected to explain your approach before coding. Classic problems recur: prefix-sum subarray counts with negative values, an in-order tree iterator, island counting, and weighted random selection. Practical prompts are just as common, such as joining failed-login IPs from a server log to a machine-mapping file, or finding the top N lines in a log too large for memory. Candidates who advanced usually heard back within one to three days.
+
+Some teams use a second screen for system design, such as Dropbox-style file sync or an ads click aggregator. Machine Learning Engineer screens ask for vectorized k-means or multi-head attention from scratch, or for a broken UNet to be fixed shape by shape. Some ML screens and one Infrastructure Engineer screen on operating-system concurrency had no code at all.
+
+Interviewers evaluate:
+
+- **Restating the problem:** Reducing a long scenario to its core problem before coding.
+- **Comparing options:** One candidate who passed weighed DFS, BFS and union-find before choosing.
+- **Self-testing:** Running your own edge cases, such as k equal to zero or an empty tree.
+- **Follow-up reasoning:** For example, whether concurrent iterators need locks.
+
+Practice each problem with a timed solution and a spoken answer on thread safety.
+
+> **Tip:** Keep explaining your reasoning even if the interviewer is silent. Candidates reported interviewers who were silent, had cameras off, or interrupted. A neutral reaction did not predict the result.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Count subarrays that sum to k when the array contains negatives and zeros, then count those that sum to at most k.
+- Shuffle a deck so every permutation is equally likely, then draw a card uniformly at random in O(1) time.
+
 - [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k)
-
-## System Design Questions
-
-Design rounds are graded on requirement clarification and trade-off reasoning more than component vocabulary, and Apple interviewers like unusual constraints — low memory, heterogeneous data sources, strict accuracy. State requirements first and keep the design adaptable when the constraint changes mid-discussion.
-
-- [Design Dropbox](../../questions/system-design/design-dropbox/README.md)
-- [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator)
-- [Log Processing System](https://trueinterview.io/questions/log-processing-system)
-- [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation)
-
-## Low-Level Design Questions
-
-Object-oriented prompts here usually conceal an algorithmic or concurrency guarantee: uniform shuffles, constant-time removal, correct behavior under simultaneous bookings. Define the API and invariants first, then defend the guarantees.
-
-- [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding)
-- [Airplane Seat Reservation API](https://trueinterview.io/questions/airplane-seat-reservation-api)
+- [Binary Search Tree Iterator](../../questions/object-oriented-programming/binary-search-tree-iterator/README.md)
+- [Find Failed Login IPs](../../questions/algorithm/find-failed-login-ips/README.md)
 - [Design a Deck of Cards](https://trueinterview.io/questions/design-a-deck-of-cards)
 
-## AI-Assisted Coding Questions
+## Coding interviews
 
-ML-adjacent teams test hands-on fluency with real framework code — reading a model implementation, verifying tensor shapes, and fixing subtle bugs rather than reciting architecture names.
+Loop coding rounds last 45–60 minutes, usually with two medium problems. Prompts are often framed as stories. A courier's minimum speed turns out to be Koko eating bananas. A stream of restaurant orders becomes "first unique number." A bus timetable becomes a time-dependent shortest-path problem. Less common prompts include finding a median through an API that returns only counts, and building a seat map in C with manual memory management.
 
+The follow-ups decide the round. Examples include serving a happy-number check at billions of requests a day using precomputation, speeding up a tree traversal without threads by changing the memory layout, and making a streaming structure safe for concurrent use.
+
+Interviewers evaluate:
+
+- **Pattern extraction:** Finding the textbook problem inside the story.
+- **Simplification:** One candidate was pushed to replace a stack with two counters.
+- **Performance thinking:** Caching, lock choice and single-threaded speedups, raised without being asked.
+
+Practice solving two medium problems per hour, leaving time for the scaling follow-up.
+
+> **Note:** A strong domain fit does not get you past the algorithm round. One QA candidate passed every team-fit round and was rejected after the final coding round.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Find the earliest arrival at a target stop given bus routes, travel times and waits.
+- Find the minimum courier speed to finish all orders in H hours, then extend the solution to several couriers.
+
+- [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa)
+- [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md)
+- [Find Median (Oracle Variant)](https://trueinterview.io/questions/find-median-oracle-variant)
+- [Happy Number II](https://trueinterview.io/questions/happy-number-2)
+
+## AI-assisted coding round
+
+Starting in late April 2026, Apple required an AI-assisted coding round, including for candidates who were already mid-loop. The round uses a shared coding pad with an AI agent in a side panel. Candidates describe it as a test of steering the agent toward production-quality code. One session disconnected after about 20 minutes, and the candidate finished by explaining the rest out loud.
+
+Interviewers evaluate:
+
+- **Up-front constraints:** Stating the design pattern, test plan and edge cases before the agent writes code.
+- **Review discipline:** Correcting the agent's output instead of accepting it as is.
+- **Fallback reasoning:** Explaining the remaining work clearly when the tool fails.
+
+Practice giving an assistant a full specification for a small component, then reviewing every change it makes.
+
+### Sample questions for the AI-assisted coding round
+
+Here are some questions reported by recent candidates:
+
+- Direct the agent to build a component with full test coverage, defining its edge cases first.
+- Explain how you use AI in your daily coding.
+
+- [LRU Cache](../../questions/ai-coding/lru-cache/README.md)
 - [Debug a Buggy UNet in PyTorch](https://trueinterview.io/questions/debug-a-buggy-unet-in-pytorch)
 
-## Behavioral Questions
+## System design and domain interviews
 
-Apple treats behavioral rounds as real filters, not formalities. Expect structured questioning on prioritization, stakeholder conflict, and a genuine "why Apple" — and expect some screens to drill written-style fundamentals rather than code.
+Design prompts include Dropbox-style sync, an ads click aggregator, iCloud photo storage and S3. Some add a deliberate constraint, such as inventory serving on spinning disks with very little RAM. Infrastructure Engineer candidates were asked to design a rate limiter in Redis and Lua and to move 200 TB of media to a GPU cluster. Machine Learning Engineer candidates were asked to design Siri response generation and App Store search. Domain rounds use the team's own technology: hashmap resizing, mutexes and memory barriers, Kubernetes, React internals, or SFT and DPO.
+
+Interviewers evaluate:
+
+- **Requirement clarification:** Asking whether a transfer happens once or recurs earned explicit credit.
+- **Quantitative estimates:** Working out transfer time per link speed before choosing between the network and shipping drives.
+- **Correctness under failure:** A thin answer on idempotency in the click aggregator cost one candidate the offer.
+- **Taking the lead:** Driving the discussion rather than waiting for prompts.
+
+Practice both high-scale and resource-constrained designs, and tie each decision back to the product.
+
+### Sample questions for the system design and domain interviews
+
+Here are some questions reported by recent candidates:
+
+- Design inventory lookups and updates on a machine with only spinning disks and very little RAM.
+- Generate grounded Siri responses that are accurate, short enough to speak, and fast enough for voice.
+
+- [Design Disk-Based Inventory Serving](https://trueinterview.io/questions/design-disk-based-inventory-serving)
+- [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator)
+- [Distributed Rate Limiter with Lua Details](https://trueinterview.io/questions/distributed-rate-limiter-with-lua)
+- [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation)
+- [OS Fundamentals & Concurrency Drill](https://trueinterview.io/questions/os-fundamentals-and-concurrency)
+
+## Project deep dive
+
+Nearly every loop examines one past project in depth. One six-round ML loop opened every round with project discussion. A hiring manager spent an entire round on a single codebase, asking why each decision was made, down to the choice of an agentic architecture.
+
+Interviewers evaluate:
+
+- **Decision rationale:** Alternatives you rejected and why.
+- **Measured impact:** Metrics, with evidence behind each number.
+- **Personal contribution:** Your own decisions, kept separate from the team's.
+
+Prepare your latest project as if someone were reviewing its code.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- How did you handle GPU out-of-memory errors, and what did each fix cost you?
+- How did you reduce false failures in non-deterministic regression tests?
+
+- [Describe proudest project and toughest challenge](https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge)
+- [ML Systems Codebase Deep Dive](https://trueinterview.io/questions/ml-systems-codebase-deep-dive)
+
+## Behavioral and hiring manager interview
+
+Behavioral questions run through the whole process, with at least one dedicated round, usually with the hiring manager. Common themes are conflicting priorities, being blocked by another team, influencing without authority, and disagreements. One round turned to office politics. An Infrastructure Engineer loop ended with a senior SRE lead asking about on-call toil.
+
+Interviewers evaluate:
+
+- **Concrete stories:** Real negotiations and outcomes, not general descriptions of how you work.
+- **Fairness:** Describing difficult colleagues without judging them.
+- **Team fit:** In one loop, this mattered enough that technical strength alone did not carry the candidate.
+
+Prepare eight to ten structured stories.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time another team's deliverable blocked you, and how you renegotiated the timeline.
+- What would your current team miss most about you?
 
 - [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit)
+- [How do you align ambiguous cross-functional projects?](https://trueinterview.io/questions/how-do-you-align-ambiguous-cross-functional-projects)
 
-## How to Prepare
+## How Apple makes hiring decisions
 
-- Study the job description like a syllabus: reported question topics track the posted requirements closely, so build a prep list directly from the team's stated stack and domain.
-- Prepare three project deep dives that separate your decisions from the team's, including rejected alternatives, measured impact, and what you would change — this material gets probed in multiple rounds, not just one.
-- After every practice problem, run the Apple follow-up drill: write tests, cut the space complexity, make it thread-safe, then scale it to billions of requests.
-- Practice decoding story-wrapped prompts: restate the core problem in one sentence and confirm it before writing any code.
-- Rehearse design answers under both high-scale and resource-starved constraints, since either can appear — sometimes in the same round.
-- Script structured, professional behavioral answers for prioritization, conflicting stakeholders, and ambiguity; keep the tone warm but never casual.
-- Be ready to move fast after the screen — onsites can land within days — and equally ready for silence, reschedules, or a canceled loop that has nothing to do with your performance.
+The hiring team makes the decision. Feedback goes to the hiring manager, and senior candidates may need sign-off from a senior manager or director. The team sets the level and can lower it: one candidate who interviewed at a senior level received an offer one level below. Headcount changes and reorganizations have ended processes that were going well, and positive feedback in the room often did not lead to an offer. One Machine Learning Engineer's profile was passed to other teams after a rejection. Apple has no published cooldown, and applications to a different team are considered separately. Decisions arrived anywhere from the next day to several weeks after the final round.
+
+## How to prepare for the Apple interview
+
+1. **Study the posting:** Build your topic list from the team's stated stack.
+2. **Drill the follow-ups:** Add tests, cut space, add thread safety, then scale the solution.
+3. **Decode the story:** Restate long prompts in one sentence before choosing an approach.
+4. **Rehearse AI-assisted coding:** Give the assistant a specification first, then review its output.
+5. **Design for both extremes:** Practice designs with tight resource limits as well as high-scale aggregation.
+6. **Know one project cold:** Have every decision, rejected alternative and metric ready.
+7. **Confirm logistics early:** Check the location and the format of each round with the coordinator.
+
+## About working at Apple
+
+Apple is organized by function, and its teams are small and protective of product details. This is why hiring varies so much by team and interviewers say little about current projects. Almost all engineers carry the title Software Engineer. An internal ICT level sets their scope and pay.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| ICT2 | Well-defined features with guidance | Tasks within a team |
+| ICT3 | Owning features end to end | A feature area |
+| ICT4 (Senior) | Owning systems and mentoring | A team's systems |
+| ICT5 (Staff or Principal) | Technical direction across teams | Several teams |
+| ICT6 (Senior Principal) | Organization-wide architecture | An organization |
+
+Apple hires engineers across software, services, AI and silicon. Teams include:
+
+- **Software Engineering:** iOS, macOS, frameworks and developer tools.
+- **Services:** iCloud, App Store, Apple Music and Apple Pay.
+- **Machine Learning and AI:** Siri, Apple Intelligence and on-device models.
+- **Information Systems and Technology:** Internal cloud, Kubernetes platforms and data pipelines.
+- **Hardware Technologies:** Apple silicon design, verification and firmware.
+
+### Experience and education requirements
+
+Early-career postings ask for a bachelor's degree in computer science or a related field. The common languages are Swift, Objective-C, C++, Java and Python. Experienced roles ask for several years of production work in the team's domain. ML roles usually prefer a master's degree or PhD.
+
+## FAQs about the Apple interview
+
+### How long does the Apple interview process take?
+
+Usually four to eight weeks from the first call to a signed offer. Reorganizations have added weeks to some processes.
+
+### What is the hardest round of the Apple interview?
+
+System design for Software Engineer candidates, and the ML fundamentals breadth round for Machine Learning Engineer candidates.
+
+### How much does an Apple software engineer make?
+
+Approximate US total compensation:
+
+- **ICT2:** ~$175K
+- **ICT3:** ~$235K
+- **ICT4:** ~$345K
+- **ICT5:** ~$490K
+
+Packages combine base salary, a modest bonus and restricted stock that vests over four years.
+
+### Is there an online assessment at Apple?
+
+Rarely. Most candidates move straight to live phone screens.
 
 ## Guides by Role
 
-- [Apple Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
-- [Apple Infrastructure Engineer Interview Process](interview-process-infrastructure-engineer.md)
 - [Apple Software Engineer Interview Process](interview-process-software-engineer.md)
+- [Apple Infrastructure Engineer Interview Process](interview-process-infrastructure-engineer.md)
+- [Apple Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 
 ---
 

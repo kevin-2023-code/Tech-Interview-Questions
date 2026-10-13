@@ -60,20 +60,20 @@ Which stage each question came from, for the **144 of 144** questions at OpenAI 
 
 ## What they ask about
 
-Of the **54 questions at OpenAI that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **49 questions at OpenAI that carry a topic label** (34% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 8 | 15% | ████████████ | Aug 15, 2026 |
-| `math` | 8 | 15% | ████████████ | Sep 08, 2026 |
-| `matrix` | 8 | 15% | ████████████ | Aug 27, 2026 |
-| `hashing` | 7 | 13% | ██████████ | Aug 22, 2026 |
-| `strings` | 6 | 11% | █████████ | May 15, 2026 |
-| `arrays` | 4 | 7% | ██████ | Feb 04, 2026 |
-| `greedy` | 4 | 7% | ██████ | May 31, 2026 |
-| `sorting` | 4 | 7% | ██████ | Mar 09, 2026 |
-| `topological-sort` | 4 | 7% | ██████ | Sep 17, 2026 |
+| `graphs` | 8 | 16% | ████████████ | Aug 15, 2026 |
+| `math` | 8 | 16% | ████████████ | Sep 08, 2026 |
+| `matrix` | 7 | 14% | ██████████ | Aug 27, 2026 |
+| `hashing` | 6 | 12% | █████████ | Aug 22, 2026 |
+| `strings` | 6 | 12% | █████████ | May 15, 2026 |
+| `arrays` | 4 | 8% | ██████ | Feb 04, 2026 |
+| `sorting` | 4 | 8% | ██████ | Mar 09, 2026 |
 | `backtracking` | 3 | 6% | ████ | Jun 19, 2026 |
+| `greedy` | 3 | 6% | ████ | May 31, 2026 |
+| `topological-sort` | 3 | 6% | ████ | Sep 17, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -136,7 +136,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | :-- | :-- | :-- |
 | Software | [OpenAI Chess.com System Design Interview Experience](https://trueinterview.io/interviews/f8f5171e-ab67-4ea2-83e8-852449b6a893) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at OpenAI and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at OpenAI and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

@@ -6,68 +6,269 @@
 
 ---
 
-Pinduoduo runs one of the most algorithm-dense loops in our library, yet the algorithm is rarely the whole round: candidates describe roughly half of every technical call going to a line-by-line interrogation of their resume before any code is written. This guide goes past the stage list on the company page into how the rounds are actually run, drawing on 23 real Pinduoduo questions and 22 candidate interview reports.
+Pinduoduo technical rounds are split in two. Roughly the first half is a detailed check of your resume, meant to confirm you built what you claim. The second half is one coding problem, usually a familiar one with a constraint changed partway through. There is rarely a separate system design or behavioral loop. Design is asked as code: you build a small stateful class and then defend it. The final say often comes from a director or vice president whose round is a conversation about your career, not a test of anything.
 
-## Interview Process
+This guide breaks down each stage of the Pinduoduo interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 20 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Pinduoduo interview process
 
 <!-- guide-diagram -->
 ![Pinduoduo interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/pinduoduo/process.webp)
 <!-- guide-diagram -->
 
-Almost every reported process starts with a recruiter reaching out, and the first substantive contact is a phone or video technical screen — no take-home and no automated online assessment appears in any report. That screen is one session split down the middle: a project deep dive of 25 to 30 minutes, then a coding problem, then follow-ups. Durations run from about 45 minutes to a full hour, with one outlier close to an hour and fifty minutes. The coding half moves fast: one candidate finished a spiral matrix in 17 minutes and a tree validation in 12, then took 15 more minutes of follow-ups.
+Recruiters start nearly every process, and loop length varies more than round content does. Many candidates describe only one technical call; fuller loops run three to five stages: two or three video technical rounds, an HR business partner conversation, and a director or vice-president round. Technical rounds are scheduled for 45 to 60 minutes and often run long, up to an hour and fifty minutes in one second round. Passes have arrived in under an hour, the same evening, or the next day; rejections came as silence or a call weeks later.
 
-Loop length varies more than round content does. Many candidates report only a single screen; the fuller loops run three to five stages. One five-stage loop went recruiter screen, three technical rounds — a grid-search variant, a logistics-flavoured variant, then an unfamiliar problem whose algorithm was described for the candidate to implement, each paired with more resume review — and a closing director conversation that was resume review end to end. A four-stage payment-track loop replaced one technical round with an explicit compensation conversation, placed before the final round rather than after it.
+Level changes who runs the later rounds, not the problems. Experienced back-end hires get the same coding difficulty, but their later rounds are run by team heads who ask about performance ratings, team size and design trade-offs. Data-track candidates may get an all-SQL round, and machine learning candidates get concept questions alongside the coding.
 
-Later rounds diverge by track while keeping the same coding bar. Back-end candidates get design-flavoured coding rather than whiteboard architecture: a simplified follow-and-feed service built on a heap merge, then defending deletion and pagination; or a transaction management class whose state transitions across pending, success, failure and refund you must map while arguing where the conversion logic belongs. Data candidates get one deep SQL round — a whole session on a two-column login log, computing consecutive-day streaks inside a rolling 15-day window, the longest streak in a user's history, users with any streak of two or more, and the output schema to hand downstream. The final stage is usually a director or vice-president conversation, and in several reports it contains no behavioural framework and no design at all.
+Here's what the interview process can look like:
 
-Two logistics details matter. The coding environment in one report was a locked-down shared editor: no execution, copy-paste disabled, signatures typed by hand, warnings on clicking away from the tab. Because part of the panel sits in China, slots can land late in the evening. Positive outcomes move fast — pass notifications arrived within an hour in one case and by the next day or evening in two others — while silence after a round has generally meant rejection.
+- **Recruiter contact:** Outreach by message or call, scheduling, and occasionally a short preview of the agenda.
+- **Project deep dive (opens each technical round):** 25–40 minutes on your projects, architecture, storage choices and exact contribution, plus fundamentals drawn from your resume.
+- **Coding interviews (two to three rounds):** One problem per round, typically a known pattern with a twist, written in a shared editor that may not run code.
+- **Design-in-code round (back-end tracks):** Implement a small stateful service, such as a follow-and-feed system or a transaction class with explicit states, then defend it.
+- **Data and machine learning rounds (data tracks):** A SQL-only session on window logic, or ML concept questions plus a coding task.
+- **HR business partner interview:** Motivation, expectations and compensation. In some loops this comes before the final round.
+- **Leadership interview:** A director or vice-president conversation, usually all resume and career with no coding.
 
-## What Candidates Report
+> **Tip:** When a familiar problem appears, solve the textbook version quickly and save at least half of the coding time for the change that follows. In the reports, the twist is where most rounds were decided.
 
-- **The project discussion is an authenticity audit, not a warm-up.** Interviewers push on architecture decisions, exact personal contribution, business logic and storage choices, in one report explicitly to verify the candidate had really built what the resume claimed. One senior candidate found domain knowledge about how commerce back ends run weighted above the projects themselves.
-- **Every classic arrives with one constraint changed.** Perfect squares asks for the decomposition, not the count. Top K frequent elements adds a tie-break toward the smaller value. Longest substring without repeats allows exactly one character to appear twice. Spiral matrix asks you to generate the matrix rather than traverse one, or to reverse direction on sentinel cells.
-- **Finishing the variant is graded, not just describing it.** Several rejections came from candidates who found the right approach and ran out of clock on the extension: one extended a perfect-squares solution correctly but could not finish, another produced a quadratic triplet count but could not reach linear.
-- **Fundamentals are probed cold and follow your resume.** Reports cover static variable and static inner class semantics with output-prediction snippets, generics and type erasure, transaction isolation levels, clustering, multithreading, and one garbage-collection comparison prompted purely by an older language on the resume.
-- **Signal from the room is unreliable.** One candidate was rejected after a screen that felt positive and was solved cleanly. The final conversation draws the sharpest complaints: repeated interruptions in one report, and in another a drift into personal and family questions alongside comparisons of domestic and overseas engineering practice.
-- **The intensity of the workplace shows up during the process.** Late-evening scheduling and turnaround speed are what candidates mention most outside the technical content, both consistent with the company's documented reputation for long hours.
+## Recruiter contact
 
-## Coding Questions
+Most candidates are approached by a recruiter rather than applying. The recruiter's preview of the agenda is not reliable: one candidate was told to expect system design and a session running over an hour, and got neither. Scheduling can slip. One interviewer did not show up and the round moved to the next evening after the candidate followed up; in another loop HR set a round at midnight on the interviewer's side instead of the morning slot the candidate offered. Sponsorship questions came up here with unclear answers.
 
-Prompts are recognisable problems with a bolted-on requirement that breaks the memorised solution. Expect one problem per round, an immediate follow-up that changes a constraint, and a request for complexity and edge cases. Data-track candidates get a window-function SQL session instead.
+Interviewers evaluate:
+
+- **Experience match:** Back-end postings ask for three or more years of experience. One candidate noted that new graduates were being turned away at this step.
+- **Stack match:** Java roles want Java, and later rounds ask about the technologies you list.
+- **Availability:** Whether you can take evening slots that suit the China-based panel.
+
+Confirm the coding language, the time zone of each slot, and your work-authorization status in writing before the first round.
+
+### Sample questions for the recruiter contact
+
+Here are some questions reported by recent candidates:
+
+- Walk me through your background and why you are considering a move now.
+- What compensation are you expecting, and what would make you accept an offer?
+
+- [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors)
+
+## Project deep dive
+
+Every technical round opens this way, for 25 to 40 minutes before any code. Interviewers ask what your team owns, what each service does, how data is stored and why, the hardest problem you solved, and exactly which parts were yours; one offer recipient read the questions as a check that they had really built the system. A senior candidate from e-commerce was asked mostly how commerce back ends work in general rather than about their own projects, while candidates from other industries found the domain questions lighter.
+
+Fundamentals come from your resume, not a fixed list: MySQL isolation levels and clustering, Java generics, static members, multithreading, and a C# garbage-collection question prompted only by a previous job. One candidate admitted not knowing the MySQL questions and still passed the round.
+
+Interviewers evaluate:
+
+- **Ownership:** Whether you can explain your own decisions, such as schema, storage and failure handling, at the level of someone who wrote the code.
+- **Domain fluency:** For e-commerce and payments teams, how well you understand order, inventory and payment flows.
+- **Honesty about gaps:** Admitting you don't know something cost less than bluffing in the reports.
+- **Time discipline:** Long, unfocused answers use up the coding half of the round.
+
+Prepare two projects in enough detail to answer storage, concurrency and trade-off questions without notes.
+
+> **Note:** The project half can run long without warning. In one round it took 40 minutes plus Java questions, the coding problem arrived with about 15 minutes left, and even 30 extra minutes were not enough to finish.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Describe the most complex project you owned, why it was complex, and what each service in it did.
+- How did your system persist its data, what exactly was stored, and why did you choose that design?
+- Given a class with static and instance counters incremented in its constructor, what does it print after one instantiation?
+
+- [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience)
+- [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals)
+- [Project Deep Dive & Behavioral](https://trueinterview.io/questions/project-deep-dive-and-bq-2)
+
+## Coding interviews
+
+Each technical round usually has one problem, sometimes two, plus follow-ups. Most are recognizable medium problems with one change that breaks the memorized solution. Perfect squares asks for the actual squares rather than the count (two candidates got this). Top K frequent elements adds a tie-break toward the smaller value. Longest substring without repeats allows exactly one character to appear twice. Spiral matrix asks you to generate the matrix rather than traverse it, or to turn when you hit a cell marked -1. Later rounds include harder problems: counting the longest increasing subsequences, which needs separate length and count arrays; counting triplets with three pointers, where an O(n²) answer was not enough and a linear one was expected; and a card-hand checker for straights, consecutive pairs and consecutive triples. One fuller loop had a grid-search variant, then a logistics-themed problem, then an unfamiliar problem where the interviewer described the algorithm and the candidate had to implement it.
+
+One editor did not run code, blocked copy and paste, required typing function signatures by hand, and warned when the candidate left the tab. Java roles require Java; interviewers may help with syntax but flag typos and missed boundaries. Unmodified classics, such as an LRU cache with no follow-up, also appear, and then a clean first attempt is the whole grade.
+
+Interviewers evaluate:
+
+- **The changed requirement:** Whether you can rebuild the answer (the sequence, the generated matrix, the tie-break) and not just the textbook result.
+- **Finishing:** Several rejections came from candidates who found the right approach but did not finish the extension in time.
+- **Complexity targets:** Interviewers keep asking for a better bound. One candidate stopped at quadratic when linear was expected, and another stopped at a DP solution when greedy was expected.
+- **Clarifying first:** One round ended after about 20 minutes because the candidate assumed the wrong input format.
+
+Practice each common pattern alongside its likely twist, writing complete Java or your chosen language in a plain editor.
+
+> **Note:** How a round feels predicts little. One candidate solved a medium problem cleanly on a friendly call and was rejected; another stalled on the LIS-count problem, took a hint, and advanced.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Return the perfect squares that sum to n using as few as possible, for example 12 as 4, 4, 4, instead of returning the count.
+- Count how many longest strictly increasing subsequences an array has.
+- Find the longest substring in which at most one character appears twice and every other character is unique.
+- Given two hands of cards as space-separated strings, decide whether each forms a straight, consecutive pairs, or consecutive triples.
 
 - [Perfect Squares Decomposition](https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84)
+- [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences)
+- [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md)
 - [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47)
-- [Sort Colors and Sizes](../../questions/algorithm/sort-colors-and-sizes/README.md)
-- [Minesweeper Variant](https://trueinterview.io/questions/e5567ea6-f961-428d-95f0-dea8ac70ddc6)
 - [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation)
-- [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714)
-## Low-Level Design Questions
+- [Playing Cards: Straight Flush / Missing Card](https://trueinterview.io/questions/playing-card-straight-flush)
+- [Minesweeper Variant](https://trueinterview.io/questions/e5567ea6-f961-428d-95f0-dea8ac70ddc6)
+- [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree)
+- [LRU Cache](../../questions/ai-coding/lru-cache/README.md)
 
-Design here is asked in code. Instead of drawing an architecture, you implement a small stateful component, then defend its data structures under follow-ups about deletion, pagination and state transitions.
+## Design-in-code round
+
+Back-end candidates rarely draw architecture; they write a small working service and defend it. One task was a simplified follow-and-feed system: follow, unfollow, and get the ten newest posts from the user and everyone they follow, merged with a min-heap. Another was a transaction class in Java with pending, success, failure and refund states, followed by a discussion of which transitions are allowed and where the conversion logic should live. A machine learning candidate got a shared-expenses task: record who paid for what and settle all balances with transactions. It often shares a round with a smaller problem, such as a first-occurrence binary search or a grouping task with no built-in sort.
+
+Interviewers evaluate:
+
+- **Data structure choice:** Whether you pick the right structure for the main read path, such as a heap for the feed merge and per-user lists for posts.
+- **State modeling:** Whether you define states and allowed transitions explicitly instead of using scattered conditionals.
+- **Placement of logic:** Whether you can explain why conversion or settlement code belongs where you put it.
+- **Follow-up handling:** Deletion, pagination and duplicates added after your first version works.
+
+Practice building a feed merge and a transaction state machine from scratch in under 30 minutes each.
+
+### Sample questions for the design-in-code round
+
+Here are some questions reported by recent candidates:
+
+- Implement follow, unfollow and a latest-ten feed that merges the user's own posts with those of everyone they follow.
+- Build a transaction management class, map its state transitions including refunds, and explain where currency or status conversion belongs.
+- Track shared expenses between users and produce the transactions that settle every balance.
+- Binary-search a sorted array with duplicates and return the first occurrence of the target.
 
 - [Design a Simplified Twitter Feed](https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44)
 - [Transaction Settlement](https://trueinterview.io/questions/2d3f6203-6989-434b-88a1-3299068e034e)
-## AI-Assisted Coding Questions
+- [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md)
+- [Sort Colors and Sizes](../../questions/algorithm/sort-colors-and-sizes/README.md)
 
-No report describes an assistant-enabled round, so treat this one as a from-scratch build: one candidate spent 25 minutes on projects, then implemented an LRU cache with no twist and no follow-up. When a classic arrives unmodified, first-pass correctness is the whole grade.
+## Data and machine learning rounds
 
-- [LRU Cache](../../questions/ai-coding/lru-cache/README.md)
+Data-track candidates may get one full round of SQL. In one report every question used a login table of user IDs and dates, with requirements given verbally and a discussion of the output columns; queries were not run, so a correct query on paper was enough. A candidate with about ten years of experience was rejected after this single round. A machine learning phone screen combined a product-focused project discussion with concept questions, such as handling cold start and how cross-validation differs from a single train/test split, then a coding task. That candidate advanced the next day.
 
-## Behavioral Questions
+Interviewers evaluate:
 
-There is no dedicated behavioural loop. The probing is folded into the project deep dive and the closing director conversation: strengths and weaknesses, how a former manager would rate you, your previous performance review, why this company.
+- **Window logic:** Building streaks and gaps with window functions, not self-joins that don't scale.
+- **Output design:** Agreeing on the result columns before you write the query.
+- **Product sense:** Connecting model or metric choices to how the product behaves.
+- **ML fundamentals:** Clear, short definitions you can use in practice.
 
-- [Project Deep Dive & Behavioral](https://trueinterview.io/questions/project-deep-dive-and-bq-2)
-- [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals)
+Practice consecutive-day and rolling-window SQL until you can write it without running it, and explain the output columns as you go.
 
-## How to Prepare
+### Sample questions for the data and machine learning rounds
 
-- Rehearse two projects to code-review depth: schema and storage decisions, concurrency handling, the trade-off you rejected and why, and your exact share of the work. Half of every technical round goes here, and vague ownership is the fastest way out.
-- For each pattern you know, drill the reconstruct-the-answer version: the sequence not the count, the first index not any index, the generated structure not the traversal. Solving the textbook version then stalling on the twist is the most common failure in these reports.
-- Practise typing complete solutions, signatures included, in a plain editor with execution and copy-paste disabled.
-- Refresh the fundamentals your own resume invites — memory and typing semantics, transaction isolation, replication and clustering, threading — because follow-ups are drawn from your listed technologies, including ones you have not touched in years.
-- Practise building a small stateful service in code inside 30 minutes: a feed merge over per-user histories, or a transaction object with an explicit state machine and a clear home for conversion logic.
-- Treat the director round as a defence of your career rather than a behavioural exercise, rehearse staying on thread through interruptions, and settle scheduling and work-authorisation questions with the recruiter up front.
+Here are some questions reported by recent candidates:
+
+- From a login table, compute each user's consecutive login days within a 15-day window.
+- Find each user's longest consecutive login streak, then list users with logins on at least two separate dates.
+- How would you handle cold start, and how does cross-validation differ from a train/test split?
+
+## HR business partner interview
+
+This round covers career goals, motivation, expectations and pay. In one offer story, negotiation started at the end of the HR round and the formal offer followed soon after. In a payments-team loop it came before the vice-president round, the range offered topped out below the candidate's current pay, and the HR contact asked about family and immigration history and asked to connect on a personal messaging account, which the candidate declined.
+
+Interviewers evaluate:
+
+- **Motivation:** A specific reason for wanting this company and this team.
+- **Compensation fit:** Whether your expectations fit the band, which in at least one case was below US market pay.
+- **Stability:** How long you are likely to stay and why you are leaving your current job.
+
+Have your compensation floor and market research ready before this round, and decide in advance which personal questions you will answer.
+
+> **Tip:** You can decline personal questions and requests here. One candidate refused to connect on a personal account and still reached the final round.
+
+### Sample questions for the HR business partner interview
+
+Here are some questions reported by recent candidates:
+
+- Why Pinduoduo, and what do you want from your next role?
+- What are your compensation expectations, and how does this offer compare to your current package?
+
+- [Navigate a Senior Engineering HR Interview](https://trueinterview.io/questions/navigate-a-senior-engineering-hr-interview)
+
+## Leadership interview
+
+The last round is with a director, a vice president, or a team head, such as the head of an order-system team. It is resume-driven and unstructured. In one loop the vice president spent the hour on projects, interrupting often, with no behavioral framework or design. An order-system head's round ran almost two hours: past design and leadership, the candidate's last performance rating, a hard coding problem, then strengths and weaknesses. In a payments loop, the vice president compared domestic and overseas engineering practice in pointed terms and questioned why the candidate's team needed so many people. It is the last gate before an offer.
+
+Interviewers evaluate:
+
+- **Business impact:** What your work changed and how you would measure it.
+- **Team efficiency:** How many people your system needed and whether that number holds up.
+- **Self-assessment:** Your last review, how your lead would describe you, and evidence behind each strength.
+- **Composure:** Staying on topic through interruptions and challenges.
+
+Prepare short, evidence-based answers about scope and impact, and rehearse continuing calmly after an interruption.
+
+### Sample questions for the leadership interview
+
+Here are some questions reported by recent candidates:
+
+- What was your performance rating at your last company, and why?
+- What are your strengths and weaknesses, and how would your team lead describe you?
+- Why does your current system need a team of that size?
+
+- [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses)
+
+## How Pinduoduo makes hiring decisions
+
+Decisions are made round by round, often announced within hours, and no report describes a separate committee or leveling step; one candidate was told the offer package would follow from interview performance. Rapport counts: a candidate who passed despite an average coding performance credited the conversation with the interviewer. Because compensation can be discussed before the final round, a low band can end the process even after strong technical rounds. No consistent cooldown after a rejection has been reported.
+
+> **Tip:** Ask the recruiter for the salary band before the technical rounds. In one loop it surfaced only after two of them and topped out below the candidate's current pay.
+
+## How to prepare for the Pinduoduo interview
+
+1. **Rehearse two projects in full detail:** Schema, storage, concurrency, the alternative you rejected, and your exact share; 25–40 minutes of every technical round go here.
+2. **Drill each classic with a likely twist:** Return the full answer instead of the count, generate instead of traverse, add a tie-break; unfinished twists were the most common failure.
+3. **Write code without running it:** Use a plain editor with no execution or autocomplete, type full signatures, and trace your edge cases by hand.
+4. **Review the fundamentals on your resume:** Isolation levels, clustering, generics, static members and threading for each language and database you list, including ones from old jobs.
+5. **Build two stateful services against a timer:** A follow-and-feed merge and a transaction state machine with refunds, each working in under 30 minutes.
+6. **For data roles, master streak SQL:** Consecutive days, rolling windows and longest runs, explaining the output columns as you write.
+7. **Know your compensation floor early:** Pay can come up before the final round, and offered bands have come in below US market pay.
+8. **Treat the final round as a defense of your career:** Bring your rating, team size, measured impact and evidence for each strength, and practice staying on point through interruptions.
+
+## About working at Pinduoduo
+
+Pinduoduo is one of China's largest e-commerce platforms, run by PDD Holdings, which also operates the international marketplace Temu. The structure is flat: a small group of decision makers directs teams that are lean for the company's size, and most employees are in Shanghai and Guangzhou. Overseas engineers, in Boston and Silicon Valley, work under China-based leadership; one payments vice president described the US team as led by the domestic one. The company is known for long hours, and candidates saw it in the process: colleagues still in the office around midnight and interviews set late in the evening.
+
+Pinduoduo hires software engineers across teams that include:
+
+- **Payments:** Payment flows and transaction state.
+- **Order systems:** Order lifecycle services, where team heads run later-round interviews.
+- **E-commerce back end:** Inventory, merchant and marketplace services, mostly in Java.
+- **Advertising and paid search:** Ad serving and search marketing systems.
+- **Data and analytics:** User behavior pipelines and SQL-heavy analysis roles.
+- **Machine learning:** Recommendation and ranking, including cold-start problems.
+
+### Experience and education requirements
+
+Experienced-hire back-end postings ask for three or more years of experience, often with Java and MySQL; senior candidates in the reports had eight to ten years. E-commerce or payments domain depth helps. Formal education requirements do not come up in reports. Data and ML tracks expect fluent SQL and recommendation-system fundamentals.
+
+## FAQs about the Pinduoduo interview
+
+### How long does the Pinduoduo interview process take?
+
+A single technical round can be done within a day, since passes have come back in under an hour or the same evening. Multi-round loops usually take a few weeks, typically with about a week between rounds. Rejections can take longer: one came about a month after the round.
+
+### What is the hardest round of the Pinduoduo interview?
+
+The later coding rounds, where problems such as counting longest increasing subsequences or getting triplet counting to linear time are where candidates most often got stuck. The final leadership round is the hardest to read, because it is unstructured and sometimes adversarial.
+
+### Is there an online assessment?
+
+Most candidates go straight to a live round. One report describes a short coding test pairing a string problem with a Java output-prediction question.
+
+### What language should I use?
+
+Use the language the role names. Java roles required Java even from a candidate who practiced in Python, and rusty syntax cost that candidate time and small flagged bugs. Otherwise, use what you can write correctly without running it.
+
+### Is the Pinduoduo interview remote?
+
+Yes. Every reported round was by video or phone, often with interviewers in China, which means evening slots for US candidates. Ask for a workable hour if the first slot is not.
 
 ---
 

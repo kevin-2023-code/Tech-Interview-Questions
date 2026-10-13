@@ -10,13 +10,38 @@ How Voleon interviews, and the questions candidates reported there. Free questio
 | :-- | :-- |
 | Questions reported | [11](../voleon.md) |
 | Free to read here | 2 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 27, 2026 |
 
 ## How Voleon interviews
 
-No written process guide yet. [The loop, as reported](../voleon.md#the-loop-as-reported) counts which round each reported question came from.
+Voleon's coding rounds are rule-driven simulations rather than textbook puzzles: balls that change color as they pass marked points, or a broker program filling client orders on a fictional exchange. Each problem comes in parts that extend the same code, and the later parts demand a closed-form or linear-time shortcut. Research and data candidates take a separate, statistics-heavy track. Late in the process, candidates face a reference check with at least three references, probed at length.
+
+This guide breaks down each stage of the Voleon interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 5 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Voleon interview process
+
+<!-- guide-diagram -->
+![Voleon interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/voleon/process.webp)
+<!-- guide-diagram -->
+
+The loop depends on the track more than the team. Software and quantitative-developer candidates code at every technical step, and the design component is algorithmic rather than architectural. Machine-learning research and data-science candidates get statistics, linear algebra and ML theory plus hands-on pandas work, and research candidates typically skip the online assessment.
+
+A software loop typically runs from a recruiter call to an online assessment or live screen, a virtual onsite of about four parts, a senior-leader conversation and the reference check. Early-career candidates usually enter through the assessment; experienced hires are more often routed to a live screen.
+
+Here's what the interview process can look like:
+
+- **Online assessment (most software and early-career candidates):** A 60–90 minute simulation problem in parts, each extending the previous code.
+- **Technical phone screen:** About an hour of live coding on one problem with an optimization follow-up.
+- **Virtual onsite (software tracks):** About four sessions of coding and design, including one long multi-part block.
+- **Research and data interviews (research and data tracks):** Statistics and ML theory plus hands-on pandas or pipeline work.
+
+> **Tip:** Before coding any Voleon simulation, trace three or four steps of the update rule by hand. The errors candidates report come from update ordering (flip before or after moving) and off-by-one indexing, not from the algorithm.
+
+**[Read the full Voleon interview process →](interview-process.md)**
 
 ## Free Voleon questions
 

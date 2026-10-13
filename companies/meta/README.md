@@ -16,21 +16,33 @@ How Meta interviews, and the questions candidates reported there. Free questions
 
 ## How Meta interviews
 
-This guide goes past the outline on the Meta company page. It covers how the screens actually run, what the 2026 AI-native loop looks like from the inside, and what happens to your packet after the last round. It draws on 182 real Meta questions and 116 candidate interview reports.
+Meta scores every round as a separate signal, and a strong design hour does not cover a weak coding hour. A hiring committee that never met you reviews the packet and can reject a loop the interviewers liked or offer a level below the target. Since mid-April 2026, most loops are AI-native: coding runs in a multi-file project with a built-in assistant, design rounds often add an agent prompt, and the behavioral round asks in detail how you use AI tools. The assistant does not lower the bar, because inputs are sized so that only the optimal algorithm passes.
 
-### Interview Process
+This guide breaks down each stage of the Meta interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 116 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Meta interview process
 
 <!-- guide-diagram -->
 ![Meta interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/meta/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment, when your pipeline uses one.** Some pipelines add a 90-minute proctored online assessment before the full loop or in place of a phone screen. This is common for new-grad, senior and AI-native pipelines. It is almost never a set of short puzzles. You usually get one progressive class-design task: a banking system (transfers, scheduled payments, account merging, balance at a past timestamp), an in-memory key-value store (TTL, prefix scans, backup and restore) or a cloud file store with users and capacity limits. Each level unlocks only after the previous level passes its hidden tests. Candidates have passed without finishing level 3, and one went straight to the full loop with no technical screen. Recruiters have also said a failed assessment carries a one-year freeze on reapplying.
+Most candidates are matched to a team only after the committee approves, so the loop does not depend on the team. A typical path is a recruiter call, an optional online assessment, a 45-minute technical screen, and a loop of four to six rounds. Reported timelines run from about four weeks to two or three months when team matching or a freeze stalls the packet.
 
-**Phone screen.** The typical screen is 45 minutes: a few minutes of introductions, then two problems in a shared editor. Some screens run an hour, and one packed in four short problems. Most screens don't let you run code, so you check your work by dry-running test cases out loud. Most of the grade comes from the follow-ups. Kth-largest moves on to quickselect and why it averages O(n). Weighted random sampling moves on to the Alias method. Lowest common ancestor gets asked again for a BST, with parent pointers, and with tight memory. One candidate needed a single hint on the prefix case in Alien Dictionary and was rejected at the screen. Some pipelines add a separate behavioral screen or start the call with a project deep dive.
+Level sets the mix. New-grad and E4 loops are mostly coding with one design round. E5 loops usually have two design rounds. At E6 and above, design and behavioral scope carry the most weight: one E6 loop was two design rounds plus behavioral. Experienced candidates sometimes have the phone screen waived.
 
-**The loop and the April 2026 change.** Onsites typically run four to six rounds. Candidates whose loops were scheduled on or after April 16, 2026 report an AI-native format. Traditional coding is partly or fully replaced by AI-enabled coding: one project that grows in stages inside a multi-file environment with a built-in assistant. Design rounds split by track. Product and infrastructure candidates get distributed design, ML candidates get ML system design, and many loops now add an AI-enabled design round about agents or LLM pipelines. The behavioral round now asks for details of how you use AI tools in your own work. Design rounds last 45 minutes, which candidates consistently find short.
+Here's what the interview process can look like:
 
-**After the loop.** Each round produces its own signal, and a strong design round does not make up for a weak coding round. A hiring committee reviews the packet. It can reject a loop the interviewers liked, give no feedback, or offer a lower level: an E6 target has become an E5 offer, and an E5 target has become E4. Rejections sometimes arrive within three business days. After a positive committee decision comes team matching, which can include several calls with hiring managers and an extra approval step. Freezes and reorganizations have stretched that stage by weeks.
+- **Recruiter screen:** A short call about level, location, and whether your loop is traditional or AI-native.
+- **Online assessment (some pipelines):** A 90-minute proctored task, usually one class whose requirements grow over four levels.
+- **Technical phone screen:** 45 minutes, two coding problems in a shared editor that usually cannot run code.
+- **Coding interviews:** Up to two traditional rounds, each with two medium problems and follow-ups.
+- **AI-enabled coding interview:** A 60-minute round in a multi-file codebase with an assistant, where one problem grows in stages.
+- **Design interviews:** 45-minute system design, ML system design or AI-enabled design, depending on track and level.
+- **Behavioral interview:** About 45 minutes on ownership, conflict, feedback and your use of AI tools.
+
+> **Tip:** Ask the recruiter in writing which rounds are AI-native. Candidates scheduled around the April 16, 2026 cutover got mixed formats, and several faced a format they had not prepared for.
 
 **[Read the full Meta interview process →](interview-process.md)**
 

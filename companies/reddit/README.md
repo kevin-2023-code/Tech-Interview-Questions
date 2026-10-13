@@ -16,21 +16,33 @@ How Reddit interviews, and the questions candidates reported there. Free questio
 
 ## How Reddit interviews
 
-This guide is the deep dive behind the process summary on the company page: what each Reddit round actually contains, how interviewers grade, and where candidates lose offers they thought they had won. It draws on 25 real Reddit questions and 32 candidate interview reports, so the patterns below are the ones that actually recur.
+Reddit tests coding with practical, multi-part problems drawn from its own product (moderator logs, chat message windows, tennis scoring, billing states) rather than trick algorithms, and interviewers often announce four or five parts while saying completion is not expected. What decides more loops than the coding is the hiring-manager round, which turns into a domain exam on specialized teams such as ads, and the post-panel steps (team matching, down-leveling, headcount) that have ended technically strong loops.
 
-### Interview Process
+This guide breaks down each stage of the Reddit interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 31 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Reddit interview process
 
 <!-- guide-diagram -->
 ![Reddit interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/reddit/process.webp)
 <!-- guide-diagram -->
 
-The recruiter conversation is short and logistical, but it is also where you learn which team the requisition belongs to — and at Reddit that matters more than at most companies. Loops for ads, ML infrastructure, search, and community tooling share the same shell yet diverge sharply in the hiring-manager and design rounds, and several candidates only discovered a team-matching phase (or a hiring freeze on the matched team) after clearing the technical bar. Ask directly which org owns the role and whether matching happens before or after the loop.
+The skeleton is shared across engineering: a recruiter call, one technical screen (or a timed online assessment in some pipelines), then a virtual onsite of four to five rounds of about an hour each. The content is team-dependent: ads, ML platform, search and core product loops share the shell but diverge in the design and hiring-manager rounds. Every report describes a fully remote process.
 
-The technical screen is typically a 45-60 minute session in a shared editor with one problem that grows. Reddit deliberately avoids trick algorithms in favor of production-flavored tasks: merging chronologically sorted message lists without built-in set types, modeling a tennis match's scoring rules, traversing a reporting hierarchy, implementing a billing-status state machine, or building a small rate limiter. The signature move is the staged follow-up — candidates describe problems announced as having four or even seven parts, with the interviewer explicitly not expecting completion. Grading rewards a clean working baseline, visible edge-case testing, and smooth pivots when a new constraint lands (deduplicate by version, add a permission check, support multiple communities). Some funnels substitute a timed online assessment; a recent one asked for a working subset of the memcached text protocol, graded on exact output format.
+Machine Learning Engineer loops open with a modeling case and add ML fundamentals and ML system design. At senior level the design and hiring-manager rounds weigh more, and an unfinished coding round can cost a level.
 
-The virtual onsite typically runs four to five rounds of about an hour each: one or two coding sessions in the same practical style, at least one system design round, a hiring-manager conversation, and a collaboration or values round often run by a product manager. Design prompts lean on Reddit-shaped workloads — leaderboards, notification fan-out, live chat for millions of concurrent viewers, surfacing the hottest post from any day, job scheduling — and interviewers reliably push past the first diagram into partitioning, cache invalidation, consistency, tail latency, and what breaks first. The hiring-manager round can be a genuine domain examination: on an ads team it went deep into ad serving, programmatic auctions, and metrics, and a domain mismatch there colored the rest of the debrief.
+Here's what the interview process can look like:
 
-Timelines vary widely. One candidate went from phone screen through four onsite rounds to an offer in three business days; others waited weeks between stages, were downleveled after the onsite, or lost the role to headcount after passing. A rejection typically starts a 12-month cooling period before reapplying, so treat each attempt as the real one.
+- **Recruiter screen:** A 30–45 minute call on background, target level and which team owns the role.
+- **Online assessment (some pipelines):** An autograded exercise replacing the live screen, such as a small text-protocol server or a chat-merge task.
+- **Technical phone screen:** A 45–60 minute shared-editor session with one practical problem that grows, or a modeling case for ML roles.
+- **Coding interviews (onsite):** One or two hour-long rounds of staged implementation problems.
+- **System design interview (onsite):** One or two product-shaped design rounds; ML candidates get ML system design plus an ML fundamentals round.
+- **Hiring manager interview:** Multiple stories about recent work, or a domain deep dive on specialized teams.
+- **Cross-functional and behavioral interview:** Collaboration with product, design and data partners, sometimes run by a product manager.
+
+> **Tip:** Ask the recruiter which org owns the role and whether team matching comes before or after the loop. An ads hiring-manager round and an ML platform design round each need preparation a generic loop does not.
 
 **[Read the full Reddit interview process →](interview-process.md)**
 

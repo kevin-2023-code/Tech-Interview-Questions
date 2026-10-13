@@ -10,13 +10,37 @@ How Oscar Health interviews, and the questions candidates reported there. Free q
 | :-- | :-- |
 | Questions reported | [3](../oscar-health.md) |
 | Free to read here | 2 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | — |
 
 ## How Oscar Health interviews
 
-No written process guide yet. [The loop, as reported](../oscar-health.md#the-loop-as-reported) counts which round each reported question came from.
+Oscar Health builds its technical rounds around its own insurance business. The onsite coding round asks you to find members who lack an in-network provider within a travel distance, which is network adequacy in miniature, and the design round is set in Oscar's operations: a telehealth queue limited by physician state licenses, or an outreach campaign tool. Design prompts arrive with little framing, so choosing the level of detail is part of the test.
+
+This guide breaks down each stage of the Oscar Health interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 4 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Oscar Health interview process
+
+<!-- guide-diagram -->
+![Oscar Health interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/oscar-health/process.webp)
+<!-- guide-diagram -->
+
+Recent reports describe one screening round followed by a virtual onsite with a coding round and a design round, and some public accounts add a hiring-manager conversation. From first call to decision, the process typically takes about a month. The coding is consistently described as medium difficulty. Senior candidates sit the same coding rounds, so design and project depth carry the leveling signal.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call about your background, target level, location and why you want to work in healthcare.
+- **Technical phone screen:** About an hour of live coding on one problem with a follow-up, typically string enumeration or tree traversal.
+- **Onsite coding interview:** A custom, domain-flavored data problem, such as provider coverage for members.
+- **Onsite system design interview:** An Oscar operations scenario, judged as high-level architecture or as low-level design.
+- **Hiring manager interview:** Past projects, collaboration and motivation for healthcare work.
+
+> **Tip:** Practice the phone-screen problem as a pair: encode text into a code, then enumerate every string that could have produced an unseparated encoding. Two of the four reported screens used exactly this pairing.
+
+**[Read the full Oscar Health interview process →](interview-process.md)**
 
 ## Free Oscar Health questions
 

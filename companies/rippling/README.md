@@ -16,19 +16,32 @@ How Rippling interviews, and the questions candidates reported there. Free quest
 
 ## How Rippling interviews
 
-Rippling runs one of the most practical engineering loops among late-stage startups: nearly every round asks you to build, extend, or architect a small piece of business software while the clock runs. This guide goes deeper than the outline on the company page, drawing on 19 real Rippling questions and 52 candidate interview reports to show what each stage actually probes and where candidates lose offers.
+Rippling interviews through small, realistic pieces of business software: driver payouts, expense policies, article votes and loggers in coding, and news feeds, event pipelines and hotel booking in design. Each problem arrives in two or three parts, and the most common rejection reason is an unfinished last part. AI assistants are banned, optional or mandatory depending on the round, and candidates who cannot explain generated code are marked down. A hiring-manager project deep dive largely sets the level, and late down-levels are a recurring theme.
 
-### Interview Process
+This guide breaks down each stage of the Rippling interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 51 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Rippling interview process
 
 <!-- guide-diagram -->
 ![Rippling interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/rippling/process.webp)
 <!-- guide-diagram -->
 
-The recruiter call sets more than logistics. Candidates report that hiring has been shifting toward a general-hire model with team matching, so ask directly whether you are interviewing for a specific team, how leveling is decided, and whether AI assistants are allowed, encouraged, or required in your coding rounds -- all three variants show up. Scheduling moves quickly and the whole process typically wraps in a few weeks; decision feedback has arrived anywhere from the next day to about a week after the final round, and a rejection typically triggers a six-month cooldown before reapplying.
+The loop is short. A recruiter call leads to one technical screen of 45–60 minutes, sometimes two, then a virtual onsite of two to four rounds: practical coding, system design and a hiring-manager deep dive. Recruiters describe a shift toward general hiring with team matching afterward, and the process usually wraps up within a few weeks.
 
-Early-career and intern candidates often get an online assessment first: complexity analysis, heap property checks and insertions, graph traversal traces, a small REST-API data-processing task, and a sliding-window problem. One recurring assessment asks for the maximum number of drivers simultaneously active in a rolling 24-hour window, where the grader expects end events processed before start events at identical timestamps -- getting that ordering wrong fails hidden cases. A bonus third question is worth attempting if time remains.
+Interns and early-career candidates often start with an online assessment and lean toward coding. From senior up, the screen is sometimes a design conversation, the onsite can hold two or three design rounds, and mentorship comes up. Data-focused roles get design rounds on pipelines, schemas and table layout.
 
-The technical screen is usually 45-60 minutes of live coding on a multi-part practical prompt, though a meaningful minority of screens are system-design conversations instead. The coding prompts rotate through a recognizable family: a delivery-cost or driver-payout calculator, an expense-rule validator, a poker-hand comparator, a logger with pluggable handlers, a task manager with filtering and sorting, or a virtual file system. Part one establishes a working baseline; parts two and three extend it -- pay wages only up to a cutoff timestamp, group expenses per trip, decide a winner from incomplete hands, add search to stored logs. Interviewers grade the extension work as heavily as the base: candidates who finished two of three parts but walked through complexity for every method and sketched the third still advanced, while several strong baselines died on an unfinished follow-up.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A 30-minute call on background, motivation, level and the rules for each round, including the AI-tool policy.
+- **Online assessment (interns and early career):** A timed test that mixes multiple-choice questions on complexity, heaps and graph traversal with two or three coding problems.
+- **Technical phone screen:** A 45–60 minute live session, usually a multi-part practical coding problem and sometimes a system design discussion.
+- **Coding interviews (onsite):** One or two rounds of 45–60 minutes that extend a small in-memory service through escalating requirements, sometimes with an AI assistant or as a small web API build.
+- **System design interview:** One to three hour-long rounds on data-heavy product systems: news aggregation, event monitoring, booking, rule evaluation and payroll.
+- **Hiring manager interview:** A project presentation, often with slides, followed by probing on decisions, impact and, for senior candidates, mentorship.
+
+> **Tip:** Plan every coding hour backward from the last part. Candidates who shipped two of three parts and talked through the third, with complexity stated for each method, advanced. Candidates who polished part one did not.
 
 **[Read the full Rippling interview process →](interview-process.md)**
 

@@ -6,95 +6,230 @@
 
 ---
 
-The most surprising way Research Scientist candidates lose this loop is by clearing the math and the coding and then being decided against on a question with no correct answer. One candidate finished a resume-level research deep dive and a graph-probability problem well, hit an open-ended prompt — how would you use social media text to predict stock prices — and later concluded that the absence of a rehearsed structure there mattered more than everything preceding it, despite warm interviewer engagement throughout. The open-ended modeling round is not a warm-down after the technical rounds; on this track it is a technical round with the rubric hidden.
+The Two Sigma Research Scientist loop is built on classical statistics and applied modeling, with the code kept deliberately small. Candidates derive correlation bounds and omitted-variable bias by hand, defend a demand forecast feature by feature, and then write a short string or array routine; deep learning breadth rarely comes up. Open-ended prediction cases carry more weight than candidates expect: a research-track candidate who handled a resume deep dive and a graph-probability problem well was rejected after an unstructured answer on predicting stock prices from social media text.
 
-## Interview Process
+This guide breaks down each stage of the Two Sigma Research Scientist interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, primarily from 2025 Q4 through 2025 Q4, cross-checked against recent public accounts.
+
+## Two Sigma Research Scientist interview process
 
 <!-- guide-diagram -->
 ![Two Sigma Research Scientist interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/twosigma--research-scientist/process.webp)
 <!-- guide-diagram -->
 
-1. **Entry point and recruiter contact.** Entry is inconsistent across reports. Some candidates get a short recruiter call about background, motivation and target research group; one candidate's initial call was entirely work authorization and visa sponsorship, with zero technical or behavioral questions; another received the assessment invitation cold by email after applying online. Referral candidates report skipping directly to the assessment. The gap to the test link is usually days.
+Research hiring spans quantitative research, data science and AI research roles; interviewers come from the hiring group, so content follows its focus. The common pattern is a timed quantitative assessment, one or two phone screens, and a final loop of about three sessions mixing data analysis, statistics and coding, with afternoon conversations with senior researchers usually reserved for candidates who did well in the morning. The process typically takes three to eight weeks.
 
-2. **Quantitative online assessment.** A timed test, reported at 60 to 90 minutes, with two or three linked numerical tasks. The recurring trio across many months of reports is remarkably stable. First, a piecewise linear interpolator over known (x, y) points — the graded difficulty is entirely in policy decisions the prompt leaves to you: what happens outside the data range (clamp to the endpoint, or extend the first and last segment's slope), what happens with duplicate x values (average them, or keep the last), and what a single-point dataset should return. Second, a dataset analysis over daily temperatures, run as sequential parts: standard deviation, median, a closed-form least-squares fit of temperature on day-of-year, the mean squared error of that fit, and in some versions a greedy feature-selection exercise that adds whichever town most reduces prediction error, or an open-text discussion of whether day-of-year is a sufficient feature. Third, an efficient regression task: no-intercept OLS as the ratio of the cross-product sum to the squared-predictor sum, computed for every column pair across two frames, then updated incrementally as new batches arrive without re-reading history. Numerical and statistics libraries are generally unavailable; the closed forms are hand-coded. Turnaround is typically one to two weeks.
+Experienced hires spend more time on their publications and on how their methods transfer to noisy financial data; for PhD candidates, one onsite segment often becomes an examination of the thesis field.
 
-3. **Technical phone screen.** A 45 to 60 minute session on a shared editor, and the material is the live version of the assessment. Candidates report being asked to design the interpolator as a class — constructor takes parallel arrays, deduplicates x, and the lookup uses binary search on the sorted keys — then derive the no-intercept slope, then extend it to streaming batches by naming exactly which running aggregates make the update constant-time per batch. A geospatial variant substitutes inverse distance weighting over the three nearest weather stations, with follow-ups on complexity (sorting versus a size-k heap), on fewer than k available stations, and on what correlated or distant stations do to the estimate. Others in this slot get pure algorithms: maximum independent set on a tree via include and exclude states with a general-graph NP-hardness follow-up, a grid connected-shapes problem, or addition of long integer strings built on a provided single-digit adder.
+Here's what the interview process can look like:
 
-4. **Modeling and data-analysis round.** An hour-long open-ended case, most often building a predictor end to end: New York housing prices, Citi Bike demand at a specific station, or stock movement from search-trend data. The interviewer drives a long follow-up chain rather than accepting the plan — how you define the target, which features and why, how missing values are handled, which metric, how you capture non-linearity, how you do feature selection, how you detect data leakage, how you handle distribution and variance drift over time, how seasonality enters, when an ensemble is worth it, and what a regime shock does to a model trained across it. Finance-flavored variants ask how you would test whether a momentum alpha is real.
+- **Recruiter contact (varies):** A short call on background and logistics; some applicants receive the assessment directly by email.
+- **Online assessment:** About 60 to 90 minutes of linked numerical tasks, usually without numerical libraries.
+- **Technical phone screen:** About an hour on an open-ended modeling problem, a numerical coding task, or a probability problem plus your research.
+- **Data analysis case interview:** A full forecasting problem, most often Citi Bike demand, driven by follow-up questions.
+- **Statistics interview:** Proof-level derivations in correlation, regression and linear models.
+- **Coding interview:** A warm-up and one or two moderate problems, graded on finished code.
+- **Hiring manager and research conversations:** Your research, its fit with the team, and an unconventional question.
 
-5. **Statistics and domain round.** No coding. Reported content includes deriving the feasible range of a third pairwise correlation given the other two from positive semi-definiteness and then constructing variables that attain the bound, generalizing that to the sum of all pairwise correlations over n variables, deriving omitted-variable bias in matrix form, explaining when regressing y on x and x on y produce equal coefficients, Lasso versus Ridge and why the L1 penalty produces sparsity, the covariance of the maximum and minimum of n i.i.d. uniforms, eigenvalues and determinants, and E[XY] from a joint density. Pure math also appears: Markov chain steady-state derivations and solving a cubic analytically. PhD candidates get their own field examined in the same slot, from angles that do not match how the material is usually taught.
+> **Tip:** Prepare the modeling case as seriously as the derivations. Have a repeatable structure (target, features, validation, drift, failure modes) and run it on three or four unfamiliar prediction problems; a weak answer here has outweighed clean technical rounds.
 
-6. **Final loop and hiring-manager conversation.** Three to five sessions, reported as roughly a math round, a coding round and open-ended discussion in the morning, with further open-ended and resume-driven conversation with hiring managers afterward. Candidates describe each onsite session sharing one skeleton: a short easy coding problem, deep questions about their own academic specialty, and an unconventional question designed to watch them work without footing. The manager conversation covers your background against the team's mandate and is genuinely evaluative — rejections arrive after it with no specific reason. Application to decision typically runs four to eight weeks.
+## Online assessment
 
-## What They Actually Evaluate
+The timed test has two or three linked tasks. The first is almost always a piecewise linear interpolator over known (x, y) points, where the grading rests on decisions the prompt leaves to you: clamp to the endpoint or extend the end segments outside the data range, average duplicate x values or keep the last, and define the answer for a single point.
 
-### Coding and Algorithm
+The second task analyzes New York City temperatures in steps: standard deviation, median, a closed-form least-squares fit on day of year and its mean squared error, and in some versions a greedy selection that adds whichever nearby town most reduces prediction error. A third task, when present, is no-intercept regression (the sum of x times y over the sum of x squared), first in batch and then updated from running totals as batches arrive. Statistics libraries are usually unavailable, so the formulas are hand-coded.
 
-Code is graded on this track, but the code is numerical rather than combinatorial. Interviewers watch whether you state your interpolation and deduplication policies before implementing them, whether you reach for binary search on sorted keys rather than a linear scan, and whether you volunteer complexity and edge cases unprompted. Time allocation is the reported failure mode: candidates polish the interpolator's boundaries and run out of clock on the regression parts, which score independently. Working code for every task beats one immaculate task.
+Interviewers evaluate:
 
-- [QR OA — Linear Interpolator](../../questions/algorithm/qr-oa-linear-interpolator/README.md)
-- [QR OA — Efficient Univariate OLS Regression](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols)
-- [Maximum Independent Set on a Tree](https://trueinterview.io/questions/maximum-independent-set-on-tree)
+- **Stated edge-case policy:** Extrapolation, duplicate and single-point rules chosen deliberately, commented and applied consistently.
+- **Numerical correctness without libraries:** Variance, median and least squares computed from first principles.
+- **Efficiency:** Binary search over sorted x values rather than a scan per query.
+- **Coverage across tasks:** Every task scores separately, so each needs a working submission.
 
-### ML Theory
+Practice the interpolator, the temperature statistics and the no-intercept slope until each takes under 20 minutes in plain Python without imports.
 
-The modeling rounds test judgment about a pipeline, not knowledge of model families. Signal comes from naming a leakage risk before being asked, from distinguishing drift in the mean from drift in the variance, from explaining intuitively why an L1 penalty puts coefficients exactly at zero while an L2 penalty only shrinks them, and from choosing a validation scheme that respects time ordering. Signal is lost by reciting a standard pipeline; every reported version of this round is a chain of "why" follow-ups deep enough that memorized answers run out after two steps.
+> **Note:** The common failure is the clock, not the math. Research-track candidates who polished the interpolator's boundary cases submitted the later regression parts incomplete. Get every task working first, then refine.
 
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Implement linear interpolation over points with duplicate x values and out-of-range queries, stating your policy for each.
+- From daily New York City weather data, compute summary statistics, fit temperature against day of year, and report the error.
+
+- [Linear Interpolation](../../questions/algorithm/qr-oa-linear-interpolator/README.md)
+- [Evaluate piecewise linear function at x](https://trueinterview.io/questions/evaluate-piecewise-linear-function-at-x)
+- [NYC Temperature Regression Analysis](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression)
+- [Greedy feature selection](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-greedy-feature-selection)
+- [Univariate OLS Regression Through Origin](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols)
+
+## Technical phone screen
+
+The screen runs about an hour with a researcher and takes one of three forms. The data science form is a single modeling problem for the whole hour: predicting a stock's price from search-trend data, with follow-ups on target definition, regularization and cross-validation, model choice, seasonality, when an ensemble is worth it, and drift in both the mean and the variance after deployment.
+
+The numerical form is a live version of the assessment: an interpolator class that removes duplicate x values and uses binary search, the no-intercept slope, and the running sums that make each streaming update constant-time. A variant estimates temperature from the three nearest weather stations by inverse distance weighting, then asks about a size-k heap versus sorting and about fewer than three stations. A third form pairs a research review with a probability problem.
+
+Interviewers evaluate:
+
+- **Precise targets:** Price level, return or direction over a stated horizon, before any features.
+- **Mechanism behind features:** Why a search term should lead the price and how fast the signal decays.
+- **Non-stationarity:** Telling drift in the mean from drift in the variance, with a monitoring or retraining response to each.
+- **Depth under questioning:** Answers that hold four or five questions deep; a memorized pipeline runs out after two.
+
+Talk through two or three alternative-data prediction problems aloud, start to finish, in under 45 minutes each.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Predict a company's stock price from search-trend data, covering target definition, overfitting, seasonality, ensembles and drift.
+- Use social media posts to predict stock prices, including the noise in the data and how you would backtest.
+- In a complete graph with random edge weights, find the expected number of pairs whose direct edge is their shortest path.
+
+- [Predict a Company's Stock Price from Six Years of Web Search Logs](https://trueinterview.io/questions/predict-a-companys-stock-price-from-six-years-of-web-search-logs)
+- [Predicting Stock Prices from Twitter Data](https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data)
+- [Expected Number of Good Pairs in a Randomly Weighted Complete Graph](https://trueinterview.io/questions/expected-number-of-good-pairs-in-a-randomly-weighted-complete-graph)
+
+## Data analysis case interview
+
+Both onsite reports on this track include the same case: forecasting Citi Bike demand at one station, hourly or daily. Candidates are expected to cover trend and seasonality, weather, nearby events and neighboring stations, then outline a pipeline and its evaluation. Expect an hour of defending choices rather than presenting. Related research-track cases are New York housing prices (missing values, non-linearity, leakage, a pandemic-sized shock in the history) and testing whether a momentum signal in stocks is real.
+
+Interviewers evaluate:
+
+- **Time-aware validation:** Splits that respect time order and a reason for the error metric.
+- **Leakage spotted early:** Features that would not exist at prediction time, raised before being asked.
+- **Feature reasoning:** Why weather, holidays or events should move demand at this particular station.
+- **Overfitting control:** Regularization and feature selection explained through the bias-variance trade-off.
+
+Run the Citi Bike case end to end on paper, including post-launch monitoring.
+
+### Sample questions for the data analysis case interview
+
+Here are some questions reported by recent candidates:
+
+- Predict hourly or daily bike counts at a specific Citi Bike station and explain how you would validate the forecast.
+- How would you test whether momentum is a genuine source of returns in stocks?
+
+- [Predict bike demand and avoid overfitting](https://trueinterview.io/questions/predict-bike-demand-and-avoid-overfitting)
+- [Data Analysis on New York Housing Prices](https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7)
 - [QR Data Analysis Prediction Case](https://trueinterview.io/questions/qr-data-analysis-prediction-case)
-- [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive)
+- [How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?](https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks)
 
-### Domain Deep Dive
+## Statistics interview
 
-At least one round is statistics at derivation depth, and reports consistently describe it as traditional statistics and linear models rather than contemporary machine learning. The questions ask for constructions and proofs — exhibit the variables that hit the correlation bound, write the bias term in matrix notation, extend the result from three variables to n. For PhD candidates this round doubles as an examination of the thesis field, and the reported experience is that the questions come at familiar material sideways, so rehearsed summaries do not survive.
+This round covers classical statistics and linear models rather than modern machine learning, and moves from definition to derivation to construction. One candidate was given the correlations of x with y and with z and asked for the feasible range of the y-z correlation, which follows from the correlation matrix being positive semi-definite. The candidate then had to build variables reaching both extremes and bound the sum of all pairwise correlations among n variables; the lower bound of minus n over 2 comes from the variance of the sum of the standardized variables.
 
+Other prompts include omitted-variable bias (direction, bias term and matrix form) and the slopes from regressing y on x versus x on y. Their product is the squared correlation, so they are equal only when the two standard deviations match or the correlation is zero. Other research-track prompts: why an L1 penalty zeroes coefficients, and the covariance of the maximum and minimum of n uniforms.
+
+Interviewers evaluate:
+
+- **Derivation, not recall:** Writing out the least-squares algebra rather than quoting the result.
+- **Constructive examples:** Exhibiting variables that achieve a bound, not just asserting it exists.
+- **Generalization:** Extending a three-variable result to n without guidance.
+- **Clean matrix notation:** The bias written with the included and omitted design matrices.
+
+Rehearse correlation matrices, least squares in matrix form, omitted-variable bias and order statistics until each derivation needs no notes.
+
+> **Note:** Research-track interviewers have stayed silent for most of a session, giving no hints or reactions. That is calibration, not a sign of failure; keep reasoning out loud.
+
+### Sample questions for the statistics interview
+
+Here are some questions reported by recent candidates:
+
+- Given the correlations of x with y and with z, find the range of the y-z correlation, construct examples at both ends, then bound the sum of pairwise correlations among n variables.
+- An important regressor is omitted; derive the bias in the remaining coefficient and write it in matrix form.
+- How do the slopes from regressing y on x and x on y relate, and what would make them equal?
+
+- [Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal)
+- [Answer four core statistics questions](https://trueinterview.io/questions/answer-four-core-statistics-questions)
 - [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral)
-- [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression)
+- [Explain why the t-statistic helps](https://trueinterview.io/questions/explain-why-the-t-statistic-helps)
 
-### Low-Level Design
+## Coding interview
 
-Research candidates still get a from-scratch implementation round, and it looks like a small system rather than a puzzle. The reported prompts are a hash table with bucket array, chaining and load-factor resizing; a miniature query engine parsing `CREATE TABLE`, `INSERT INTO` and `SELECT ... WHERE` with AND-chained integer comparisons; and an order matching engine with two heaps under price-time priority. The graded behavior is building a complete working path first and hardening afterward — one candidate lost the round by validating inputs before ever demonstrating a working query.
+Coding is its own session or the end of a statistics session, with moderate problems and finished code expected. One session opened with a palindrome check, moved to the smallest palindrome strictly greater than a given integer, and ended with splitting 2n workers between two tasks to minimize total time. In another, the candidate received a function that adds two single digits and returns a string with any carry, and had to use it to add two arbitrarily long integer strings from the least significant digit.
 
-- [HashMap from Scratch](https://trueinterview.io/questions/hashmap-from-scratch)
-- [Implement an In-Memory Database with Simple SQL-like Commands](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46)
-- [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
+Interviewers evaluate:
 
-## What They Don't Test
+- **Carry and boundary handling:** All nines, unequal lengths and leading zeros.
+- **Using what you are given:** Building on the provided helper instead of working around it.
+- **Complexity on request:** Time and space stated and justified.
+- **Finishing:** A complete, tested function rather than an elegant half-built design.
 
-- **Deep learning breadth.** The statistics rounds in every report stay on classical inference and linear models. Knowing modern architectures does not substitute for deriving a bias term by hand.
-- **Library fluency.** Assessments generally disallow numerical and statistics packages; you implement variance, median, least squares and interpolation directly, so knowing the API surface is worth nothing.
-- **A long take-home.** No report in this set describes a multi-hour project submission. The evaluation is compressed into timed assessments and live rounds, which shifts preparation toward speed on standard numerical code.
-- **Finance experience as a prerequisite.** Quantitative depth is required, financial background is not — one candidate interviewing for a client-facing group still faced a purely quantitative loop.
-- **Competitive-programming difficulty.** The algorithms that appear are moderate; what is actually graded is edge-case policy and numerical care around them.
+Practice digit-manipulation and greedy assignment problems to completion within 20 minutes each.
 
-## The Real Filter
+### Sample questions for the coding interview
 
-The primary filter is the open-ended research question. Candidates prepare the derivations and the code, then treat "how would you predict X from Y" as conversation, and it is the round where the least preparation meets the most weight. What interviewers are watching is structure under ambiguity: framing the target variable precisely, proposing features with a stated mechanism, naming the noise and leakage problems in that specific data source, and saying how the result would be validated. Reasoning to a defensible answer while admitting uncertainty scores better than asserting a confident wrong one. Prepare it like a technical round: have a repeatable skeleton and run it on three or four unfamiliar prediction problems before the loop.
+Here are some questions reported by recent candidates:
 
-The second pattern is statistics answered at vocabulary depth. Being able to say what a correlation is, or that Lasso induces sparsity, is the entry ticket; the round pushes to the construction and the proof, and stops only when you run out. Every report of this round shows follow-ups until the candidate's floor is found, which means the objective is not to answer but to have depth left.
+- Find the smallest palindrome strictly greater than a given integer, including inputs such as 999.
+- Assign 2n workers to two distinct tasks so the total time to complete both is minimized.
 
-The third is time allocation inside the assessment. It fails people mechanically rather than intellectually — perfecting the interpolator's boundary policy, then submitting the temperature and regression tasks incomplete. All parts score, so the correct strategy is a working submission everywhere before polish anywhere.
+- [Palindrome Warmup + Two-Task Worker Scheduling](https://trueinterview.io/questions/palindrome-and-task-scheduling-round)
+- [Smallest Palindrome Strictly Greater Than K](https://trueinterview.io/questions/smallest-palindrome-strictly-greater-than-k)
+- [Assign 2n Workers to Two Tasks to Minimize Total Time](https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time)
+- [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder)
 
-## Data Source
+## Hiring manager and research conversations
 
-Based on 3 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q1.
+Closing conversations with managers and senior researchers probe your research methods, results and personal contribution. Research-track onsite sessions have shared one shape: a short coding problem, deep questions on your academic field from unexpected angles, and an unconventional problem to watch how you handle ambiguity. These conversations count; candidates have been rejected after them without a specific reason.
 
-## FAQ
+Interviewers evaluate:
 
-**What is the work actually like for a Research Scientist here?**
+- **Personal contribution:** What you did, as distinct from your lab or team.
+- **Transfer to markets:** How your methods behave on noisy, non-stationary data.
+- **Composure on unfamiliar problems:** A sensible first approach to something you have never seen.
+- **Research judgment:** Which experiments you would run first and which you would drop.
 
-Our reports document the hiring loop and not day-to-day conditions, so this is context rather than a finding: the firm operates closer to a technology company than a bank, with a majority-technical workforce and one of the larger research compute environments in the industry. The loop does reveal the shape of the work — hand-built numerical code, models defended feature by feature, statistics used to reach decisions.
+Prepare a 10-minute walkthrough of your strongest project and the three questions it most invites.
 
-**What is the engineering culture like?**
+## How Two Sigma levels and evaluates Research Scientist candidates
 
-Correctness-first and interrogative. Interviewers ask for test cases alongside implementations, ask for complexity without prompting, and follow every modeling answer with another "why". Several candidates describe interviewers who give no reaction at all for an hour, which reads as calibration against a rubric rather than collaborative problem-solving; being comfortable narrating your reasoning into silence is a practical skill here.
+The hiring group weighs all rounds together, and afternoon manager sessions usually depend on a strong morning. A warm, engaged interviewer has not meant an offer, and rejections arrive without detailed reasons. Two Sigma does not publish a level ladder for research roles: campus hires apply to a defined entry role, while experienced candidates are placed on their research record.
 
-**How hard is it to get in?**
+## How to prepare for the Two Sigma Research Scientist interview
 
-Extremely. The assessment alone removes most applicants, published estimates put acceptance for technical roles in the low single digits of a percent, and the reports in this set skew heavily toward rejection — including candidates who performed well on the parts they could measure.
+1. **Build a modeling-case template:** Target, reasoned features, time-aware validation, leakage, drift and monitoring, practiced on bike demand, housing and search data.
+2. **Derive the classical results by hand:** Correlation-matrix bounds, omitted-variable bias in matrix form, and the y-on-x versus x-on-y slopes.
+3. **Code numerical routines without libraries:** Interpolation, median, variance and closed-form least squares in plain Python.
+4. **Take the assessment against a timer:** Every task working first, edge-case polish second.
+5. **Finish moderate problems completely:** Palindromes, big-number string arithmetic and greedy assignment, with complexity stated.
+6. **Know your research cold:** Your own contribution, its weaknesses, and how it would hold up on market data.
+7. **Practice explaining into silence:** Rehearse derivations aloud with no feedback.
 
-**Which round is the hardest?**
+## About the Two Sigma Research Scientist role
 
-The statistics and domain round decides the most outcomes, because it is depth-seeking by design and has no ceiling. The open-ended modeling round is the one candidates most underestimate: it feels like a discussion and is graded like an exam, and it is the round most often implicated when a rejection follows technically clean interviews.
+Two Sigma researchers build forecasting and trading models by testing hypotheses on large, noisy datasets alongside engineers and data scientists, and they write production-quality code. Researchers are expected to stay connected to academia through reading groups, seminars and conferences, and more than half of employees come from outside finance.
+
+Two Sigma hires Research Scientists across several research groups. Teams include:
+
+- **Quantitative research (machine learning):** Adapting machine learning to many datasets to build trading models.
+- **AI research:** Deep learning, language model and reinforcement learning ideas taken to production in alpha and trading-tactics models.
+- **Asset-class research groups:** Macro, fixed income and credit, and ETF and passive-flow signal research.
+- **Data science:** Finding signal in broad alternative datasets and turning it into investment insight.
+
+### Research Scientist experience and education requirements
+
+The campus AI Research Scientist role requires a final-year STEM PhD, or a final-year master's plus work experience, strong Python (Rust, Java or C++ a plus), depth in PyTorch, JAX or TensorFlow, and deep learning, language model or reinforcement learning experience; NeurIPS, ICML or ICLR publications are preferred. Experienced quantitative research postings accept bachelor's through doctoral degrees in quantitative fields and ask for C, C++, Java or Python, applied machine learning on real data, and published work.
+
+## FAQs about the Two Sigma Research Scientist interview
+
+### How long does the Two Sigma Research Scientist interview process take?
+
+Typically three to eight weeks from assessment to decision; rescheduled sessions, which have happened after technical problems on the firm's side, extend it.
+
+### What is the hardest round of the Two Sigma Research Scientist interview?
+
+The statistics interview, because follow-ups continue until you run out of depth. The modeling case is the most underestimated: it feels like a discussion but is graded like an exam, and it decided at least one rejection after otherwise strong rounds.
+
+### Do I need a finance background?
+
+No. The cases use bikes, weather and housing; finance appears mainly as framing, such as testing a momentum signal.
+
+### How much does a Two Sigma Research Scientist make?
+
+Recent New York postings list base salaries of $200K to $220K for campus AI Research Scientists and $165K to $325K for experienced machine-learning quantitative researchers, plus a discretionary bonus that can be a large share of total pay.
 
 ---
 

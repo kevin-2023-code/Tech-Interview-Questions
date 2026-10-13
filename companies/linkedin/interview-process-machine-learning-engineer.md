@@ -6,104 +6,241 @@
 
 ---
 
-The coding problems in this track are stated in one line and decided by the follow-up. The most reported prompt — given points on a line, find the point minimizing the sum of absolute distances — takes two minutes to solve with a median, and what actually gets graded is the proof that the median is optimal. One candidate who implemented it cleanly with quickselect and then gave a shaky derivation was moved from Staff to Senior on the offer, with the proof named as the reason. The pattern repeats: sampling problems that hinge on why rejection sampling is unbiased, optimizer questions that hinge on why Adam needs bias correction. A rejection carries a one-year cooldown.
+LinkedIn's machine learning loop hides its hardest questions behind easy prompts. A coding problem solved in two minutes, such as finding the point on a line that minimizes total distance, is graded on the proof that follows, and one Staff candidate with a flawless implementation was offered Senior because the derivation wobbled. Probability and sampling run through every stage, and the design rounds are built on LinkedIn's own member, job and skills data, where a data and labeling story beats a model architecture. Behavioral scope is scored as hard as code: two recent Staff applicants were down-leveled to Senior.
 
-## Interview Process
+This guide breaks down each stage of the LinkedIn Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 9 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## LinkedIn Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![LinkedIn Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/linkedin--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (15–30 minutes).** Background, target level, team fit, timing. Candidates reach this track through recruiter outreach, referral, and direct application alike. Confirm which organization is hiring: prompts diverge sharply between product ranking and relevance teams, platform teams, and applied AI teams, and one title covers all three. Scheduling is slow in these reports — one candidate saw a reschedule and about a week of waiting before a slot was locked.
+The loop varies more by team than by title: product relevance, platform and applied AI teams hire under the same machine learning or AI engineer titles, and their prompts diverge. The common shape is a recruiter call, one consolidated technical screen (one candidate sat four separate screens instead), and an onsite of four or five rounds of 45 to 60 minutes. Some loops compress the onsite into a single blended session of project discussion, coding and theory. Most reports are Staff-level, where technical leadership and project planning are added on top; Senior candidates face the same round types with less weight on cross-team influence.
 
-2. **Technical phone screen (60–75 minutes, sometimes the entire first stage).** Frequently consolidated rather than a pure coding call: one session split into a behavioral segment, an ML-flavored coding problem, and a compressed design discussion, occasionally with a second interviewer shadowing. Coding prompts include generating a uniform integer in [0, 6] from a biased coin, multinomial sampling with prefix sums and binary search, the L1 meeting-point problem followed by an L2 variant placing K routers, k-nearest-neighbours collaborative filtering over a ratings matrix, and stratified sampling over class-grouped records. When design appears here it is squeezed into roughly 20 minutes — a ranking system, or a recommendation feature for one surface — so the answer must be structured from the first sentence.
+Here's what the interview process can look like:
 
-3. **Onsite loop (4–5 rounds, 45–60 minutes each).** The reported composition is one probability-and-coding round, one pure coding round, one ML fundamentals round, one ML system design round, and one behavioral or leadership round. Some loops compress this into a single long blended session covering project discussion, coding, and theory at once.
+- **Recruiter screen:** A short call on background, target level, team and timing.
+- **Technical phone screen:** About an hour mixing behavioral questions, an ML-flavored coding problem and a compressed design discussion.
+- **Probability and sampling interview:** Simulating random variables from a given distribution, with escalating follow-ups.
+- **Coding interviews (one or two):** Medium algorithms plus ML code written or debugged from scratch.
+- **ML fundamentals interview:** A fast, derivation-heavy pass across classical ML, deep learning and statistics.
+- **ML system design interview:** A product problem on LinkedIn's data, such as skills extraction or job classification.
+- **Behavioral and leadership interview:** Conflict, mentoring and prioritization stories, plus project planning at Staff.
 
-4. **Probability and coding round.** The distinctive round in this track. Reported flow: simulate an M-sided die with given per-side probabilities, defend the cumulative-array-plus-binary-search approach, handle probabilities that do not sum to one (rescaling plus rejection sampling), then optimize for a very large but concentrated distribution — where the alias method and precomputed lookup tables are the expected answers. A separate prompt asked for a uniform point sampled from a circle's area, deriving the square-root transform on the radius rather than recalling it.
+> **Tip:** Prepare the proof behind every classic you consider trivial. Why the median minimizes absolute distance, why rejection sampling from a biased coin is unbiased, and why the alias method samples in constant time all decided outcomes.
 
-5. **Coding round.** Medium-difficulty algorithms judged on optimal complexity and clean implementation: a monotonic-stack problem in O(n), word-ladder-style BFS where the follow-up asks why a deque beats a list for the queue, interval merging. A separate variant is ML code from scratch — a sparse vector and matrix multiplication class with its constructor, internal representation, and methods, explicitly forbidden from O(M*N) work or dense allocation.
+## Technical phone screen
 
-6. **ML fundamentals round.** Depth over breadth, moving fast. Reported coverage: activation functions compared head to head (ReLU, sigmoid, SwiGLU, SiLU), choosing losses per problem setting, Adam internals including bias correction, feature selection across filter, wrapper, and embedded methods, calibration via Platt scaling and isotonic regression, tokenization with BPE and WordPiece, the MLE derivation for a normal distribution, why it breaks for a Gaussian mixture, and the mechanics of expectation-maximization. Pick your own model to discuss and you get grilled on its internals, hyperparameters, and alternatives.
+After a short recruiter call on level, team and timing, the screen usually runs about an hour and is consolidated: a behavioral segment, an ML-flavored coding problem and a mini design discussion, sometimes with a second interviewer shadowing. One Staff candidate who later received an offer had about 20 minutes left to design a ranking system. Coding prompts are short to state: a uniform integer from 0 to 6 using a coin of unknown bias, multinomial sampling with prefix sums and binary search, stratified sampling over class-grouped JSON records, or the L1 meeting point followed by placing K routers to minimize squared distance. Scheduling can be slow, with a reschedule and a week of waiting reported.
 
-7. **ML system design round.** Product-grounded and heavier on classical modeling than on prompt engineering. Reported prompts: mine skill tokens from profiles and resumes and train a model to decide which are genuine skills, classify incoming job postings into categories and create new ones when none fit, build a job-category-and-attributes table with multi-class logistic regression in a one-versus-rest framing, generate personalized recruiter outreach with retrieval plus a language model, and fix a recommendation system with high serving latency from both the infrastructure and modeling side. Interviewers push on data sourcing, label noise, feature engineering, cold start, evaluation, and retraining.
+Interviewers evaluate:
 
-8. **Behavioral and leadership round.** A real evaluation axis, and at Staff it also carries project planning: a conflict between two teams with competing priorities resolved without escalating, a mentoring relationship that failed, prioritizing under a hard deadline and communicating the cut, a broken process you fixed. The planning variant asks you to scope a recommendation feature end to end — milestones, team size, dependencies.
+- **Correctness of the randomness:** Explaining why each outcome has exactly the target probability, not only code that runs.
+- **Follow-up readiness:** Normalizing weights that do not sum to one, or building a biased coin from a fair one via binary expansion.
+- **Compressed design structure:** Data, features, model, serving and evaluation named in the first two minutes.
+- **Behavioral specifics:** A cross-team conflict or a broken process you fixed, with your personal impact.
 
-9. **Tooling.** Some sessions run in a browser editor with an AI assistant enabled, and it can fail: one candidate lost roughly 15 minutes of an onsite round to an assistant that loaded the wrong model version, blocked test writing, and froze the editor, while the interviewer neither reset the session nor returned the time. Narrate the problem and propose falling back to plain code early.
+Practice short sampling problems in 25 minutes, leaving time to state the proof aloud.
 
-10. **Decision.** Roughly four to eight weeks end to end, one to two weeks after the loop. Round-level feedback is uncommon, and down-level offers are a frequent outcome rather than an edge case.
+> **Note:** The coding problem can be a statistics question in disguise. One candidate solved the median meeting point with quickselect and was still down-leveled from Staff to Senior because the optimality proof was shaky.
 
-## What They Actually Evaluate
+### Sample questions for the technical phone screen
 
-### Coding and Algorithm
+Here are some questions reported by recent candidates:
 
-Two to three graded coding sessions, all medium difficulty, with the emphasis on justification rather than novelty. Signal comes from naming the invariant, reaching optimal complexity without hints, and explaining a data-structure choice down to the constant factors — the deque-versus-list follow-up exists to test exactly that. Signal is lost by treating a simple statement as a simple round: one candidate whose accepted solution was a sort still drew explicit feedback on single-letter variable names.
-
-- [Minimum Sum-of-Distances Meeting Point on a Line](https://trueinterview.io/questions/coding-min-sum-distance-line)
-- [Phone Screen: Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md)
-- [Meeting Scheduler — Earliest Available Slot](https://trueinterview.io/questions/coding-meeting-scheduler-earliest-slot)
-
-### ML Theory
-
-One dedicated round plus follow-ups seeded through every other round. The bar is derivation, not vocabulary: write the MLE for a normal distribution, explain why the mixture case breaks it, walk through EM, state what bias correction fixes in Adam, prove why the median minimizes an L1 objective. Probability and sampling are the through-line, appearing as coding problems as well as theory questions. Surface familiarity is caught within two follow-ups, and needing hints at Staff level is read as a miss.
+- Using only a coin with unknown bias, return integers 0 through 6 each with probability one seventh.
+- For a target user in a movie-ratings matrix, find the k most similar users and predict a missing rating.
+- Design a LinkedIn Learning recommendation system in a few minutes, focusing on features from job posts.
 
 - [Biased Coin to Uniform Range](https://trueinterview.io/questions/coding-biased-coin-uniform)
-- [Weighted Sampling from a Probability Distribution](https://trueinterview.io/questions/coding-weighted-sampling-die)
+- [Minimum Sum-of-Distances Meeting Point on a Line](https://trueinterview.io/questions/coding-min-sum-distance-line)
+- [Weighted Sampling from Unnormalized Probabilities](https://trueinterview.io/questions/coding-weighted-sampling-die)
+- [Design Linkedin Learning Recommendation System](https://trueinterview.io/questions/sd-job-recommendation-ranking)
 
-### ML System Design
+## Probability and sampling interview
 
-One full round, occasionally a second compressed into the screen. Prompts are drawn from the company's own surfaces — skills, job classification, recruiter outreach, ranking — so the strongest answers start from where the labels come from and what the data actually looks like, not from a model architecture. Signal comes from naming the training data and its noise, the feature pipeline, the serving path and its latency budget, and the offline-to-online evaluation loop. The recurring failure is reaching for a language model as the whole answer when the interviewer wanted the classical formulation; one candidate was marked down for not immediately recognizing the multi-class extension of logistic regression.
+The most distinctive round in the track. The reported flow starts with simulating an M-sided die with given probabilities via a cumulative array and binary search, then asks what to do when the probabilities do not sum to one, then how to handle a huge but concentrated distribution, where the alias method and precomputed lookup tables are the expected answers. A second prompt in the same hour asked for a uniform point inside a circle, deriving the square-root transform on the radius rather than reciting it.
 
+Interviewers evaluate:
+
+- **Derivation over recall:** Showing why uniform radius sampling clusters points near the center.
+- **Complexity trade-offs:** Logarithmic binary search against constant-time alias sampling and its preprocessing cost.
+- **Edge handling:** Zero weights, unnormalized inputs and floating-point drift in the cumulative array.
+- **Engineering judgment:** Exploiting a skewed distribution instead of treating every side equally.
+
+Rehearse inverse-CDF, rejection and alias sampling until you can derive each on a whiteboard.
+
+### Sample questions for the probability and sampling interview
+
+Here are some questions reported by recent candidates:
+
+- Simulate a weighted M-sided die, then handle probabilities that do not sum to one.
+- The probability list is huge but most mass sits on a few sides; make sampling fast.
+- Sample a point uniformly from the area of a circle and justify the transform.
+
+- [Implement fast sampling for weighted k-sided die](https://trueinterview.io/questions/implement-fast-sampling-for-weighted-k-sided-die)
+- [Sample uniformly from a circle’s area](https://trueinterview.io/questions/sample-uniformly-from-a-circle-s-area)
+- [Derive expectation for two consecutive heads](https://trueinterview.io/questions/derive-expectation-for-two-consecutive-heads)
+
+## Coding interviews
+
+One or two rounds of medium algorithms judged on optimal complexity: an O(n) monotonic-stack problem, word ladder followed by why a deque beats a list for the BFS queue, and interval merging. The second flavor is ML code from scratch: a sparse vector and matrix class where any O(M*N) work or dense allocation disqualifies, debugging a logistic regression trainer, or completing a recommender trainer that turns profile and click data into embedding features. Some rounds run in an editor with an AI assistant enabled; one candidate lost about 15 minutes to an assistant that loaded the wrong model and froze the session.
+
+Interviewers evaluate:
+
+- **Optimal complexity without hints:** Needing a nudge to reach the intended bound reads as a miss at Staff.
+- **Mathematical completeness:** One candidate found the logistic regression bugs but left the gradient unsimplified and was rejected.
+- **Readable code:** One candidate was told directly to replace single-letter variable names.
+- **Handling shifting scope:** Restating the goal when an interviewer switches mid-round, as from data loading to a hand-written MLP and back.
+
+Practice graph, stack and interval mediums alongside ML code in plain Python with no library calls for the core math.
+
+> **Note:** The logistic regression bugs were textbook ones: a gradient that ignored the labels, a sigmoid derivative applied to the pre-activation, and a loss missing its negative-class term. Knowing the standard forms cold leaves time to finish the derivation.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement sparse vector and matrix multiplication from scratch without dense storage.
+- Find and fix three bugs in a logistic regression trainer, then derive and simplify the gradient.
+- Complete a recommender trainer that turns member profiles and clicked or skipped items into features.
+
+- [Sparse Vector / Matrix Product](https://trueinterview.io/questions/coding-sparse-vector-matrix-product)
+- [Logistic Regression Debugging](https://trueinterview.io/questions/coding-logistic-regression-debugging)
+- [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline)
+- [Kth Largest Element / Quick Select](https://trueinterview.io/questions/kth-largest-quick-select)
+
+## ML fundamentals interview
+
+One round, plus follow-ups seeded through every other round. Reported coverage: activation functions compared head to head (ReLU, sigmoid, SwiGLU, SiLU), loss choice per problem setting, Adam internals including bias correction, feature selection by filter, wrapper and embedded methods, calibration with Platt scaling and isotonic regression, and tokenization with BPE and WordPiece. On statistics: the MLE for a normal distribution, why it cannot be applied directly to a Gaussian mixture, and how EM works. A model you volunteer, such as random forests, draws hyperparameters, a boosting comparison and overfitting controls.
+
+Interviewers evaluate:
+
+- **Derivations on demand:** Writing the likelihood and solving it, not naming the result.
+- **Depth on your chosen model:** Internals, failure modes and alternatives.
+- **Precision on basics:** One candidate explained overfitting correctly but was marked down for lacking concrete examples.
+- **Current awareness:** Recent AI developments came up unannounced in one round.
+
+Prepare one-page derivations for MLE, EM, Adam and calibration, and pick one model you can defend to the last hyperparameter.
+
+### Sample questions for the ML fundamentals interview
+
+Here are some questions reported by recent candidates:
+
+- Derive the MLE for a normal distribution, explain why it fails for a Gaussian mixture, and walk through EM.
+- Compare Platt scaling and isotonic regression for calibrating probabilities.
+
+- [Explain Logistic Regression, Backprop, and Adam](https://trueinterview.io/questions/explain-logistic-regression-backprop-and-adam)
+- [Answer practical ML foundations questions](https://trueinterview.io/questions/answer-practical-ml-foundations-questions)
+
+## ML system design interview
+
+Prompts come from LinkedIn's own products and lean on classical modeling more than prompt engineering: mining skill tokens from profiles and resumes and deciding which are genuine skills, classifying job postings and creating new categories when none fit, building a job category table with multi-class logistic regression, generating recruiter outreach with retrieval plus a language model, and cutting latency in a recommendation system from both the infrastructure and modeling side. A feed prompt pushed on pointwise, pairwise and listwise ranking; an ads bidding prompt asked for an ML forecasting pipeline behind the pacer.
+
+Interviewers evaluate:
+
+- **Data and labels first:** Where labels come from, how noisy they are, and how cold start is handled.
+- **Formulation flexibility:** One rejected candidate was faulted for not reaching one-versus-rest immediately.
+- **ML alongside rules:** A rule-based ads pacer was accepted, but a missing ML forecast pipeline drew negative feedback.
+- **Serving and evaluation:** Latency budgets, offline-to-online metrics and retraining loops.
+
+Practice skills, jobs and feed designs out loud, each starting from the data rather than the model.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design LinkedIn Skills: extract candidate skill tokens and decide which are real skills.
+- Classify new job postings into categories, creating new ones when none fit.
+- Design a personalized feed and compare ranking objectives.
+
+- [LinkedIn Skills — Data Mining & ML System Design](https://trueinterview.io/questions/sd-linkedin-skills-extraction)
 - [AI-Powered Personalized Recruiter Message Generation](https://trueinterview.io/questions/sd-personalized-inmail-ai)
-- [Metrics & Monitoring Platform](https://trueinterview.io/questions/sd-metrics-monitoring-platform)
-- [Type-Ahead / Autocomplete Suggestions](https://trueinterview.io/questions/sd-typeahead-autocomplete)
+- [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives)
 
-### Low-Level Design
+## Behavioral and leadership interview
 
-This track writes production code, so at least one session is a class build rather than a function: a sparse vector and matrix multiplication type where the internal representation, constructor, and method set are all graded and dense storage is disqualifying, or a container with an eviction rule. Interviewers want encapsulation, complexity stated per operation, and a memory argument for the representation you chose.
+At least one full round, plus a behavioral opener in most screens: conflict between two teams resolved without escalation, a mentoring relationship that failed, a hard-deadline cut and how it was communicated, and a broken process you fixed. At Staff, one loop added planning a recommendation feature end to end: scope, team size, milestones and dependencies. Interviewers may steer to older projects; one candidate never got to present a recent language-model project.
 
-- [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap)
+Interviewers evaluate:
 
-### Behavioral and Leadership
+- **Organizational impact:** Feedback cited stories describing what was built but not its wider impact.
+- **Level-appropriate scope:** Staff stories must show multi-team influence, not strong personal execution.
+- **Planning realism:** Milestones, staffing and dependencies for a feature you would lead.
 
-At least one full round, plus a behavioral opener inside many screens. The scored dimensions are cross-team influence, mentoring, prioritization under constraint, and initiative on problems nobody assigned you. Feedback in these reports cited discussion that described what was built but not its wider organizational impact — that specific gap contributed to a rejection and to a down-level.
+Prepare each project at two altitudes, personal contribution and organizational impact, and lead with impact.
 
-- [Behavioral / BQ Question Pack (Staff & Senior)](https://trueinterview.io/questions/behavioral-bq-pack)
+### Sample questions for the behavioral and leadership interview
 
-## What They Don't Test
+Here are some questions reported by recent candidates:
 
-- Frontier-model trivia as a substitute for fundamentals; recent developments came up once as a conversational probe, while the graded questions were optimizers, calibration, tokenization, and mixture models.
-- Deep learning at the expense of classical modeling — design rounds leaned on logistic regression, feature engineering, and data mining.
-- Framework API recall; the from-scratch rounds explicitly forbid leaning on library calls.
-- Research publication depth. This is an engineering bar with a modeling core, and production code quality counts alongside theory.
-- A polished narrative of your newest project. One interviewer steered to older work and never asked about the candidate's most recent language-model project, so your evidence must be portable across your whole history.
+- Describe a conflict between two teams with competing priorities and how you aligned them.
+- Tell me about a mentoring relationship that failed and what you changed.
 
-## The Real Filter
+- [Behavioral / BQ Question Pack](https://trueinterview.io/questions/behavioral-bq-pack)
+- [Plan and lead a large recommendation project](https://trueinterview.io/questions/plan-and-lead-a-large-recommendation-project)
+- [How do you lead and drive impact?](https://trueinterview.io/questions/how-do-you-lead-and-drive-impact)
 
-The primary filter is the theoretical follow-up attached to an easy coding problem. Candidates read a two-line prompt, solve it quickly, and relax — then the interviewer asks for a proof, a complexity argument, or a derivation, and grades the level on that answer. This is where a down-level gets decided even when the implementation was flawless. Rehearse the proofs behind the classics you would otherwise consider trivial: why the median minimizes L1 distance, why rejection sampling from a biased source is unbiased, why the alias method is O(1).
+## How LinkedIn levels and evaluates Machine Learning Engineer candidates
 
-The second filter is answering ML system design with a model instead of a data story. These prompts are all about deriving signal from messy member and job data, so an architecture that skips label provenance, noise handling, cold start, and the evaluation loop reads as incomplete no matter how modern the model. Being unable to extend a formulation on the spot — binary to multi-class, single-stage to retrieval-plus-ranking — has been flagged explicitly as a weakness.
+Feedback is pooled after the loop and sets both the decision and the level. Down-leveling is a frequent outcome: of two recent Staff applicants who received offers, one landed at Senior for a shaky proof and the other for behavioral stories pitched below Staff scope. Detailed feedback is uncommon, though several candidates heard specific notes on naming, derivations or missing ML pipelines. A rejection carries a one-year cooldown.
 
-The third is scope in the behavioral rounds at Staff level. Every technical round can go well and the offer still comes back one level lower, because the stories described personal execution rather than influence across teams. Prepare each project at two altitudes and lead with the impact framing.
+> **Tip:** At Staff, treat the behavioral round and the proof follow-ups as level-setting rounds; strong code alone tends to land at Senior.
 
-## Data Source
+## How to prepare for the LinkedIn Machine Learning Engineer interview
 
-Based on 9 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q1.
+1. **Master sampling end to end:** Inverse CDF, rejection sampling from a biased coin, the alias method and the circle-area transform, each with its proof.
+2. **Prove the classics:** Why the median minimizes L1 distance, and correctness arguments for routine algorithms.
+3. **Write ML code without libraries:** Sparse linear algebra and logistic regression with a fully simplified gradient.
+4. **Keep algorithms sharp:** Stacks, BFS, intervals and quickselect still eliminate strong modelers.
+5. **Build a derivation sheet:** MLE, EM, Adam bias correction, calibration and tokenization.
+6. **Design from the data:** Skills, job classification, outreach and feed ranking, starting with labels, noise and cold start.
+7. **Pitch stories at your target level:** Cross-team conflict, mentoring failure and an end-to-end project plan.
 
-## FAQ
+## About the LinkedIn Machine Learning Engineer role
 
-**What is the work like for a machine learning engineer here?**
-These reports document interviews rather than daily work, so treat this as background: the role blends applied science with production engineering, meaning you own modeling decisions and the Java or Python services that serve them. Most external hires land at Senior, where the expectation is end-to-end ownership with little guidance; Staff scope means multi-quarter direction across teams. The schedule is hybrid around the Sunnyvale campus.
+Machine learning engineers at LinkedIn combine applied science with production engineering, owning both modeling decisions and the services that train and serve them across feed, search, jobs, notifications and ads. Many recent postings use AI Engineer titles for this work. Roles are typically hybrid, with offices in Sunnyvale, Mountain View, San Francisco, Bellevue and New York.
 
-**What is the engineering culture like?**
-Rigorous and evidence-driven, with a preference for well-understood methods over novelty — visible in interviews that ask for calibration, feature selection, and mixture models rather than the newest architecture. Interviewers here were mostly collaborative and willing to discuss trade-offs, though panel quality varies: one candidate watched an interviewer sit silent through a tooling failure that consumed a quarter of the round.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Engineer (IC2) | Features and model improvements with guidance | A component |
+| Senior Engineer (IC3) | End-to-end ownership of models and pipelines | A product surface |
+| Staff Engineer (IC4) | Technical leadership across projects | One or several teams |
+| Senior Staff Engineer (IC5) | Direction for an area | An organization |
+| Principal Staff Engineer (IC6) | Strategy across organizations | Multiple organizations |
 
-**How hard is it to get in?**
-Hard, and hardest at the level you asked for. Rejections outnumber offers in these reports, and both offers recorded here arrived one level below the level applied for. Being a strong modeler is not sufficient — the algorithm rounds eliminate people who model well and are rusty on graphs and stacks.
+LinkedIn hires Machine Learning Engineers across teams that include:
 
-**Which round is hardest?**
-The ML fundamentals round, because it is the least bounded: it can move from activation functions to tokenization to expectation-maximization in one session, and every answer invites a derivation. The probability-and-coding round is a close second, since the follow-up chain — non-normalized weights, then a concentrated distribution, then an O(1) requirement — keeps escalating until something breaks.
+- **Hirer AI and Talent Marketplace:** Recruiter tools, candidate matching and job recommendations.
+- **Notifications AI:** Models deciding which content reaches members and when.
+- **Ads AI:** Ranking, bidding and pacing for advertising.
+- **CoreAI and ML systems:** Training and serving infrastructure used by product teams.
+- **Enterprise and Premium AI:** Agentic and generative features for paid products.
+
+### Machine Learning Engineer experience and education requirements
+
+Postings ask for a bachelor's degree in computer science or a related field, or equivalent experience; Senior Staff roles ask for roughly seven to ten or more years. Common requirements are production code in Python, Java or Scala, PyTorch or TensorFlow, and large-scale recommendation or statistical modeling; publications at venues such as KDD, WWW or WSDM and generative AI experience are listed as preferred.
+
+## FAQs about the LinkedIn Machine Learning Engineer interview
+
+### How long does the LinkedIn Machine Learning Engineer interview process take?
+
+Typically several weeks from recruiter call to decision, with scheduling the usual source of delay.
+
+### What is the hardest round in the LinkedIn Machine Learning Engineer interview?
+
+The ML fundamentals round, because it is the least bounded and every answer invites a derivation. The probability round is close behind, since its follow-ups escalate until something breaks.
+
+### Is there an online assessment?
+
+No recent candidate describes one for this track; the first technical stage is a live screen.
+
+### How much does a LinkedIn Machine Learning Engineer make?
+
+Posted US base ranges include about $164K to $268K for Staff AI Engineer, $170K to $277K for Staff Engineer in ML, and $191K to $315K for Senior Staff ML roles. Packages add an annual bonus and stock, and the stock share grows with level.
 
 ---
 

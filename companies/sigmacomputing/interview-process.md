@@ -6,44 +6,216 @@
 
 ---
 
-Sigma Computing runs an unusual engineering loop: almost every technical prompt is a miniature of the product itself, and none of them look like a ranked algorithm list. This guide goes past the process outline on the company page and into how each round actually behaves, drawn from 1 real Sigma Computing question in the bank and 7 candidate interview reports. Use it to calibrate what interviewers actually grade.
+Sigma Computing's technical prompts are small versions of its own product, such as a spreadsheet with formula cells, a pivot table or a boolean formula evaluator. Each prompt arrives in parts that reuse the earlier design, so the first draft's structure decides the round. Clear reasoning can carry an unfinished part: one candidate advanced without coding the last step of the pivot table.
 
-## Interview Process
+This guide breaks down each stage of the Sigma Computing interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 6 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Sigma Computing interview process
 
 <!-- guide-diagram -->
 ![Sigma Computing interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/sigmacomputing/process.webp)
 <!-- guide-diagram -->
 
-The loop has two reported entry points. Most candidates start with a short recruiter or hiring-manager conversation covering the product, the team, and your constraints — the San Francisco office expectation of roughly four days a week surfaces here, and at least one candidate stopped the process on that point alone rather than on anything technical. A second path opens with a take-home style online assessment before any live conversation: a multi-hour sitting (one report describes a window of up to four hours) of product-flavored problems, followed by a separate session in which an engineer walks through the code you submitted and probes the decisions behind it. Treat that review as a real technical round, graded on the same axes as a live screen.
+The loop is short. Most candidates have a recruiter call, one live technical screen, then an onsite of about three rounds: behavioral, design and a second coding round. Some 2025 candidates instead started with an online assessment, followed by a session in which an engineer reviewed their submitted code. The process typically takes three to four weeks.
 
-The **technical phone screen** is a live coding session in a shared browser editor. The prompts cluster tightly around spreadsheet and tabular-data mechanics, and they are almost always multi-part, with each part built on the design you produced for the previous one. Reported prompts include implementing a spreadsheet class with a fixed set of named columns and unbounded rows supporting cell get, cell set, and printing the first n rows including rows never written; a sparse variant of that class where a cell may hold a formula referencing two other cells, which turns the exercise into dependency-graph evaluation with cycle detection; a pivot table built in three escalating steps (two-axis aggregation with a custom printer, then row and column totals, then multi-column axes with the totals removed); and an evaluator for a small boolean expression tree covering logical operators, comparisons, integer truthiness, and mixed-type comparisons. Interviewers hand over a skeleton and sometimes name the technique out loud — one said maps and sets were all the problem needed, another pointed straight at a visited set for cycles. Grading weighs code structure, how you narrate the mental model, and whether you test as you go, over how far down the parts list you reach. A candidate who never finished the third part of the pivot table but had communicated the approach clearly still advanced.
+The shape changes little by level, but the design round follows the track. A front-end candidate designed the data model of a rich-text editor. Back-end and full-stack design rounds typically focus on scaling a service. Every engineering role is in office, with San Francisco roles reported at four days a week.
 
-The **onsite panel** is reported as three sessions, with a fourth sometimes added, so plan for a half day that may include an extra design conversation. The rounds that appear consistently are a behavioral interview covering past projects, collaboration, and conflict; a design round that is closer to modeling than to architecture; and a second coding round in the language of the track. For a front-end candidate, the design round was to design a rich-text editor, and the interviewer steered nearly the whole hour into the data model rather than services, caching, or scale — the candidate rated it the hardest session of the loop. The coding round for that track was a task manager class that executes callbacks on per-task timeouts, with a follow-up requiring batches to run in timeout order internally while preserving the order of the batches themselves — a promises and async control-flow problem wearing a data-structure costume. Where a fourth session appears, it is an interface and code-structure exercise under changing requirements. End to end the process typically runs two to three weeks; decisions can arrive fast and feedback is rarely given.
+Here's what the interview process can look like:
 
-## What Candidates Report
+- **Recruiter screen:** A short call about the team, your background and the in-office expectation.
+- **Online assessment and code review (some candidates):** A timed set of product-flavored problems, then an engineer walks through your submission.
+- **Technical phone screen:** A live, multi-part build of a spreadsheet, pivot table or formula evaluator, starting from a provided skeleton.
+- **Behavioral interview:** Past projects, collaboration and conflict.
+- **Design interview:** A data-model-first design, such as a rich-text editor for front-end candidates.
+- **Coding interview:** A second practical build, such as an async task scheduler in JavaScript.
 
-- **The domain is the question bank.** Spreadsheets, pivot tables, formula evaluation, and dependency cycles come up again and again. Candidates who prepared with graph and hash-map fundamentals in a modeling context did far better than candidates who ground through problem lists.
-- **Multi-part prompts punish fragile first drafts.** Part one is deliberately easy; parts two and three change requirements in ways that expose whether the first design had seams. Several reports describe the follow-up as the real test: formula cells added to a working sheet, totals added to a working pivot, axes widened from one column to three.
-- **Cycle handling is the recurring hinge.** In more than one report the interviewer explicitly raised circular references and expected a plan for detecting them during evaluation rather than a crash or an infinite loop.
-- **Partial solutions pass when the reasoning is audible.** The screen is graded as a demonstration of technique. Finishing one part carefully with tests beat racing through parts with untested code, and at least one candidate advanced without completing the last part.
-- **Edge-case semantics are given, not guessed.** The expression-tree prompt defines its own rules — zero is falsy, a comparison between mismatched types yields false — and candidates are expected to implement the stated behavior instead of the behavior their favorite language would produce.
-- **Logistics decide some outcomes.** The in-office expectation and the near-total absence of post-rejection feedback are the two non-technical friction points reported most.
+> **Tip:** Ask the interviewer what later parts will add before writing part one. Formulas, totals and wider axes are the reported extensions, and a structure built for them avoids a rewrite under time pressure.
 
-## Coding Questions
+## Recruiter screen
 
-Coding here means building a small, extensible object model over tabular data and then surviving two requirement changes. The bank's Sigma question is the expression-evaluation variant, the exact shape of the boolean-formula prompt candidates describe: implement the tree walk, define truthiness for non-boolean operands, and be ready for the follow-up about introducing variables and a binding context.
+The call covers the product, the team and the in-office expectation. One San Francisco candidate withdrew on learning the role required four office days a week. Some candidates speak with the hiring manager instead.
 
+Interviewers evaluate:
+
+- **Location fit:** Willingness to work from the San Francisco, New York, London or Sydney office most of the week.
+- **Track fit:** Front-end, back-end, full-stack, compiler or reliability experience matched to an open team.
+- **Motivation:** A specific reason to build analytics on top of cloud data warehouses.
+
+Settle the office schedule before investing in technical preparation.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about your most recent project and your role in it.
+- Are you able to work from the office four days a week?
+
+## Online assessment and code review
+
+Some 2025 candidates started with a take-home style assessment before any live interview. One report describes a window of up to four hours, with product-flavored problems written in Python. A separate session followed in which an engineer walked through the submitted code and asked about the decisions behind it. Candidates describe the problems as not difficult and the reviewers as patient.
+
+Interviewers evaluate:
+
+- **Code structure:** Whether the submission separates storage, evaluation and output cleanly.
+- **Ownership of decisions:** Explaining why you chose a structure and what you would change.
+- **Extension readiness:** How easily your code takes a new requirement during the review.
+
+Write the assessment as code you will defend line by line, because the review is a second technical round.
+
+### Sample questions for the online assessment and code review
+
+Here are some questions reported by recent candidates:
+
+- Walk through your submission and explain the data structure you chose for storage.
+- How would your code change if a new operation were added?
+
+## Technical phone screen
+
+The screen is a live coding session in a shared editor, usually starting from a skeleton the interviewer provides. Three prompt families recur. The first is a spreadsheet class with fixed, ordered columns and unbounded, sparse rows that supports getting and setting cells and printing the first n rows, including rows that were never written. Its follow-up adds formula cells that sum two other cells and requires cycle detection. The second is a pivot table: aggregate one column by two others with a custom printer, then add row and column totals, then allow multi-column axes. The third is an evaluator for a boolean formula tree with AND, OR, comparisons, integer truthiness and mixed-type comparisons.
+
+Interviewers often name the technique, such as maps and sets for the pivot table or a visited set for cycles. Structure, narration and testing outweigh how many parts you finish. Variants differ from widely shared versions in details such as whether empty rows print, so read carefully.
+
+Interviewers evaluate:
+
+- **Extensible first draft:** A cell store and an evaluator that take formula cells without a rewrite.
+- **Cycle handling:** Treating formula references as a directed graph and stopping circular references instead of recursing forever.
+- **Following given semantics:** Implementing the stated rules exactly, such as zero being false and a mismatched-type comparison returning false.
+- **Communication:** Stating the plan for an unfinished part clearly enough to earn credit for it.
+
+Build a spreadsheet class and a pivot table from scratch, then extend each twice without rewriting.
+
+> **Note:** A front-end candidate did not finish the third part of the pivot table but explained the approach clearly and still advanced to the onsite. Running out of time is survivable; silence about the plan is not.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Implement a sparse spreadsheet with get, set and print-first-n-rows, then let a cell hold the sum of two other cells and detect cycles.
+- Build a pivot table that sums one column across two axis columns, add row and column totals, then support three columns as axes.
+- Evaluate a boolean formula tree with logical and relational operators, then extend it to support variables.
+
+- [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](../../questions/object-oriented-programming/implement-a-mini-spreadsheet-with-get-set-row-printing-and-add-formulas/README.md)
+- [Create a Pivot Table](https://trueinterview.io/questions/caff0d1d-3ad9-47e0-91e8-90c5a734119f)
 - [Evaluate a Boolean Formula AST](../../questions/algorithm/evaluate-a-boolean-formula-ast/README.md)
 
-## How to Prepare
+## Behavioral interview
 
-- Build a spreadsheet class from scratch before the screen: named columns, sparse storage keyed by row and column, printing the first n rows with never-written rows rendered as blanks. This single exercise covers the base of at least three reported prompts.
-- Then extend your own implementation twice without rewriting it — add formula cells that reference other cells, then add cycle detection with a visited set during recursive evaluation. Practicing the extension is the point, since that is where the round is decided.
-- Write a pivot table by hand with map and set primitives only, including a readable text printer, then add row and column totals, then generalize the axes to accept multiple columns. Time the transitions, not the first version.
-- Narrate continuously and test as you go: state the invariant, write a small case, run it, move on. A clean, tested half is worth more than a finished, unverified whole.
-- On a front-end track, practice designing a component's data model out loud — document structure, selections, undo, how edits are represented — rather than reaching for a framework or a services diagram. Drill event-loop and promise ordering too: scheduling callbacks by delay while preserving call order across batches is a reported round.
-- Bring two or three concrete project stories to the behavioral round, one including a disagreement and its resolution, and settle office and location expectations with your recruiter early.
-- Ask what the later parts will add before you code. Since prompts arrive as multi-part sequences, knowing that formulas or totals are coming lets you pick a structure that absorbs them instead of one you must dismantle.
+A standard behavioral round on past experience, collaboration and conflict resolution, focusing on your most recent project. In 2025 reports, it was sometimes held back to back with the final technical round.
+
+Interviewers evaluate:
+
+- **Project depth:** What you personally built and the trade-offs you made on your latest project.
+- **Collaboration:** How you work with design, product and other engineers.
+- **Conflict resolution:** A real disagreement and how it ended.
+
+Prepare two detailed project stories and one conflict story with a clear outcome.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through your most recent project in depth.
+- Describe a conflict with a teammate and how you resolved it.
+
+## Design interview
+
+For a front-end candidate in 2026, the prompt was to design a rich-text editor, and the interviewer steered almost the whole hour into the data model rather than a standard system-design flow. The candidate rated it the hardest round. Earlier back-end loops had a system design round focused on how to scale a solution. Design discussions typically favor precise models of documents, cells and operations over generic architecture boxes.
+
+Interviewers evaluate:
+
+- **Data model:** How a document, its formatting spans and the selection are represented.
+- **Operations:** How edits, undo and redo map onto that model.
+- **Trade-offs:** Flat versus tree representations and their cost for common edits.
+- **Scaling (back-end):** Where load lands and how the service grows.
+
+Practice designing one component's data model out loud for 45 minutes without naming a framework.
+
+> **Tip:** Lead with the model, not the architecture. The rich-text candidate found that services, caching and scale barely came up.
+
+### Sample questions for the design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a rich-text editor, focusing on how the document and formatting are modeled.
+- Explain how a back-end solution scales.
+
+- [Implement a SigmaTable layer that builds computed columns and summaries on top of a data warehouse table without storing customer data](https://trueinterview.io/questions/c1c46947-457b-4138-afd0-d9ca9e90151d)
+
+## Coding interview
+
+The onsite coding round uses the track's language. For a front-end candidate, it was a JavaScript task manager that runs callbacks by their timeout. If a 20 ms task is submitted before a 10 ms task, the 10 ms task still fires first. The follow-up passed a list of tasks per call: tasks within a batch run in timeout order, but every task in one batch must finish before the next batch starts. Several further variations followed, all testing promises and async control flow.
+
+Interviewers evaluate:
+
+- **Async fluency:** Promises, timers and the event loop handled correctly.
+- **Ordering guarantees:** Keeping order across batches while sorting within them.
+- **Incremental design:** A class that absorbs each new variation.
+- **Testing:** Small timing examples checked as you go.
+
+Drill promise chaining and timer ordering until batch-preserving schedulers are routine.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- Implement a task manager that executes callbacks in order of their timeouts regardless of submission order.
+- Extend it so each call takes a batch, ordered by timeout internally, with batches completing in call order.
+
+- [Implement a Task Manager That Executes Tasks in Run Order](https://trueinterview.io/questions/d21635a1-8233-50a5-87b5-df068ad61cc9)
+
+## How Sigma Computing makes hiring decisions
+
+Reports say little about the decision mechanics. Decisions can arrive quickly after the onsite, and feedback after a rejection is rarely given. Level follows the posting, and the reports describe no down-leveling or formal cooldown.
+
+## How to prepare for the Sigma Computing interview
+
+1. **Build the spreadsheet family:** Sparse cells, row printing, formula cells and cycle detection with a visited set.
+2. **Build the pivot table three ways:** Two axes, then totals, then multi-column axes, using only maps and sets.
+3. **Implement a small evaluator:** Walk a formula tree with stated truthiness and type-mismatch rules, then add variables.
+4. **Ask what comes next:** Learn the later parts before writing part one.
+5. **Narrate and test:** State the plan for any part you may not finish.
+6. **Model before architecture:** Practice designing editors and tables as data models.
+7. **Confirm the office schedule early:** All engineering roles are in office.
+
+## About working at Sigma Computing
+
+Sigma, founded in 2014 and based in San Francisco, builds a spreadsheet-style analytics platform that runs on cloud warehouses such as Snowflake, Databricks and BigQuery. In May 2026 it raised an $80 million Series E at a $3 billion valuation, with more than $200 million in annual recurring revenue, and is pushing into AI apps and agents. Engineers work in office in San Francisco and New York, with London and Sydney offices as well.
+
+Sigma Computing hires engineers across product and platform teams. Teams include:
+
+- **Compiler:** Translating spreadsheet operations into optimized SQL query plans, with a Rust back end and TypeScript front end.
+- **Product engineering:** Back-end, front-end and full-stack work on workbooks, apps and the editor.
+- **AI and ML:** Agents and AI features over governed warehouse data.
+- **Observability and reliability:** Metrics, tracing and alerting in Go and Kubernetes, with an on-call rotation.
+
+### Experience and education requirements
+
+Senior postings ask for five or more years building production software and staff postings ask for ten or more. A new-grad program and internships cover early-career hires. Postings emphasize strong computer science fundamentals; compiler roles add query optimization and database internals, and front-end roles use TypeScript.
+
+## FAQs about the Sigma Computing interview
+
+### How long does the Sigma Computing interview process take?
+
+Typically three to four weeks from the first call to a decision.
+
+### What is the hardest round of the Sigma Computing interview?
+
+Candidates rate the design round hardest, because it goes deep on data modeling rather than following a familiar system-design template.
+
+### How much does a Sigma Computing software engineer make?
+
+Posted base salary ranges for San Francisco and New York in 2026:
+
+- **Senior Software Engineer:** ~$170K–$240K base
+- **Staff Software Engineer:** ~$240K–$270K base
+
+Packages add equity on top of base pay.
+
+### Is the Sigma Computing interview remote?
+
+Screens are remote. Onsites have been held both in the office and virtually, and the job itself is in office.
 
 ---
 

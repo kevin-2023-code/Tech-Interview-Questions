@@ -56,20 +56,20 @@ Which stage each question came from, for the **78 of 78** questions at Airbnb th
 
 ## What they ask about
 
-Of the **36 questions at Airbnb that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **34 questions at Airbnb that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 8 | 22% | ████████████ | Jun 26, 2026 |
-| `graphs` | 8 | 22% | ████████████ | Jun 17, 2026 |
-| `hashing` | 8 | 22% | ████████████ | Jun 26, 2026 |
-| `strings` | 7 | 19% | ██████████ | Jun 03, 2026 |
-| `greedy` | 6 | 17% | █████████ | Jun 03, 2026 |
-| `intervals` | 3 | 8% | ████ | Jan 07, 2026 |
-| `math` | 3 | 8% | ████ | Jun 26, 2026 |
+| `dynamic-programming` | 8 | 24% | ████████████ | Jun 26, 2026 |
+| `graphs` | 8 | 24% | ████████████ | Jun 17, 2026 |
+| `hashing` | 8 | 24% | ████████████ | Jun 26, 2026 |
+| `strings` | 7 | 21% | ██████████ | Jun 03, 2026 |
+| `greedy` | 5 | 15% | ████████ | Jun 03, 2026 |
+| `intervals` | 3 | 9% | ████ | Jan 07, 2026 |
 | `arrays` | 2 | 6% | ███ | Feb 28, 2026 |
 | `backtracking` | 2 | 6% | ███ | Jun 03, 2026 |
 | `binary-search` | 2 | 6% | ███ | Jan 07, 2026 |
+| `bit-manipulation` | 2 | 6% | ███ | Feb 28, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

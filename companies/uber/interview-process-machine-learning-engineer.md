@@ -6,108 +6,245 @@
 
 ---
 
-Machine Learning Engineer candidates at Uber are more often screened out in the phone rounds, before any onsite, than by a modeling question. The phone rounds cover a candidate's own project, a first-principles question about it, and a numerical algorithm few people prepare for. A Staff candidate cleared two conversational phone screens and was then rejected because the depth of ML insight was judged below target: when asked to rethink the problem from fundamentals, they improved the existing solution instead. A senior candidate with strong generative-AI work was steered toward pricing and marketplace topics, then told a downlevel to L4 was likely, and withdrew.
+Uber's Machine Learning Engineer loop filters hardest before the onsite. Two or three phone screens mix a coding problem, an ML discussion and a deep dive into your own project, and the coding is often numerical rather than catalog material: minimizing a black-box convex function, placing pickup hubs under Manhattan distance. At senior and Staff level the project conversation sets the outcome, and fit with the hiring team's domain (pricing, marketplace, recommendations or ML infrastructure) shapes how even strong work is read.
 
-## Interview Process
+This guide breaks down each stage of the Uber Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 8 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2, cross-checked against recent public accounts.
+
+## Uber Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Uber Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/uber--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen.** This call is typically short: background, level, and which ML surface you work on (modeling, experimentation or ML infrastructure). It matters more on this track than on others, because later rounds adapt to what you say. One interviewer explicitly tailored a phone screen to a candidate's stated strength in inference optimization. Domain fit is judged early. A GenAI and agents portfolio read as a mismatch for a team working on pricing and growth experiments. Settle your target level here, too: level disagreements surfaced late in two reports.
+Uber hires Machine Learning Engineers into specific teams, and the loop bends toward that team: interviewers adapt sessions to the strength a candidate states, and modeling teams that ship into the marketplace add an experimentation round. The usual shape is a recruiter call, two or three phone screens of 45 to 60 minutes, and a final round of one to several sessions, typically over three to six weeks.
 
-2. **First technical phone screen (45 to 60 minutes).** This is usually a mix rather than a pure coding hour. Reported versions:
-   - A two-pointer squares-of-a-sorted-array warm-up, followed by an ML systems discussion on model selection under latency budgets, distillation, quantization, dynamic batching, versioning, A/B rollout and drift monitoring.
-   - A 60-minute project deep dive plus ML pipeline design, evaluation strategy and post-launch trade-offs.
-   - For a Staff candidate, scope, measurable impact and team structure, followed by a request to redefine the core problem from first principles.
-   - For an applied-scientist loop, ML system design: a restaurant recommendation system for Uber Eats covering features, two-tower retrieval, cold start, and precision and recall at k.
+Mid-level loops weigh coding and ML system design; from L5A (senior) upward the project and leadership conversations decide the level, and Staff loops can be almost entirely conversation.
 
-3. **Second (and sometimes third) phone screen (45 to 60 minutes).** Loops often have two or three screens before any onsite. The standout problem is black-box convex minimization. You can only evaluate the function at points, so the expected answer is ternary search, with golden-section search as the improvement that saves evaluations. Interviewers ask how many evaluations your method costs, when to stop narrowing the interval, and how continuous and discrete domains differ. Other reported screens:
-   - choosing K pickup hubs to minimize total Manhattan distance, which reduces to independent 1D problems
-   - the minimum time to finish unit-length tasks with precedence constraints, which is the longest path after a topological sort
-   - for Staff candidates, an architecture walkthrough of a multi-project system covering latency, orchestration, model selection and cross-team technical influence
+Here's what the interview process can look like:
 
-4. **Onsite coding.** This round is typically 45 to 60 minutes, and it can be combined with a project deep dive in one session. One reported session opened with a project walkthrough, then asked for a Markov-style word-transition frequency map and a weighted random text generator built on it. Grading was on data-structure choice and sampling correctness under time pressure. Plain algorithm questions still appear, such as reversing a linked list with follow-ups.
+- **Recruiter screen:** Background, target level and which ML surface you work on; the answer steers later rounds.
+- **Technical phone screen (one or two):** 45 to 60 minutes of coding, often a numerical problem, sometimes followed by an ML systems discussion.
+- **Project deep dive (phone or onsite):** One past ML project examined for formulation, metrics, impact and what you would change.
+- **ML coding interview:** A small probabilistic model built from scratch in plain Python.
+- **ML system design interview:** About 60 minutes on a recommender, an ML pipeline or a data platform that feeds models.
+- **Experimentation interview (marketplace and applied-science loops):** Experiment design, switchbacks and confidence intervals.
+- **Leadership and behavioral interview:** Mentoring, roadmaps, cross-functional work and disagreements.
 
-5. **Design round (about 60 minutes).** Reports show both ML system design and data-platform design. One onsite prompt was simply "design a system to analyze user behavior data from the Uber app". It covered event instrumentation, batch and streaming layers, feature generation for churn or ETA models, schema evolution, late or duplicate events, and funnel sessionization. The candidate described it as a data-platform deep dive more than a product design. Interviewers pushed on latency versus consistency and cost versus freshness.
+> **Tip:** State your strongest area in one sentence on the recruiter call and at the start of each screen. A candidate who named inference optimization had the screen tailored to serving and latency, while one whose generative-AI work did not match a pricing team's domain was told a downlevel was likely.
 
-6. **Experimentation round, on scientist-leaning loops.** One loop spent two rounds on measurement:
-   - designing an experiment on how ETA affects rider session conversion
-   - switchback designs
-   - launch guardrails and treatment buckets with multipliers
-   - interpreting confidence intervals correctly
+## Technical phone screen
 
-   The candidate's lesson was that ratio metrics need extra care. Despite an enthusiastic interviewer, the result was a rejection.
+Coding screens run 45 to 60 minutes in a shared editor, often in Python. For senior candidates the recurring problem is numerical: two separate reports describe minimizing a convex function on an interval that can only be evaluated at points, with no closed form or derivative. Ternary search is the expected first answer; golden-section search, which reuses one evaluation per iteration, is the improvement interviewers probe for, along with stopping rules for continuous versus discrete domains.
 
-7. **Leadership and behavioral (typically 45 to 60 minutes).** This round starts with a deep dive into an ML project you led: architecture decisions, trade-offs and what you would change. It then covers mentoring, cross-functional work with product, roadmap setting and resolving disagreements.
+Other screens use applied algorithm problems: choosing K pickup hubs to minimize total Manhattan distance (which separates into independent one-dimensional problems), the minimum time to finish unit-length tasks under precedence constraints (a longest path after topological sort), squares of a sorted array with negatives, and reversing a linked list with follow-ups.
 
-8. **Decision.** Senior candidates can be downleveled, and one withdrew after that hint. A rejection triggered a six-month cooldown on applying to other roles at the company.
+Interviewers evaluate:
 
-## What They Actually Evaluate
+- **Recognizing the structure:** Seeing unimodality, L1 separability or a critical path instead of reaching for brute force.
+- **Cost reasoning:** Function-evaluation counts, convergence rate, and time and space bounds.
+- **Termination and precision:** When to stop narrowing an interval and how tolerance is defined.
+- **Improving the first version:** Proposing the better method without being led to it.
 
-### Coding and Algorithm
+Practice ternary and golden-section search, binary search on real values and topological sort in Python until each takes under 15 minutes.
 
-Expect one or two rounds, and the content leans away from the standard canon. Numerical optimization recurs at senior level. Around it sit mediums such as two-pointer array work, topological critical path and L1 facility placement. What earns signal: explaining convergence, counting evaluations, and choosing the better-than-obvious method. What loses it: stopping at the first working version.
+> **Note:** The working answer is only the start. One senior candidate implemented ternary search, was asked to cut the number of evaluations, ran out of time before coding golden-section search, and was rejected.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Minimize a convex black-box function on an interval to a given tolerance, then reduce the number of evaluations.
+- Choose exactly K hub locations to minimize the sum of Manhattan distances from each stop to its nearest hub.
+- Given unit-time tasks and precedence constraints, find the minimum time to finish all of them.
 
 - [Strictly Convex Function Minimum](https://trueinterview.io/questions/strictly-convex-function-minimum)
 - [K Shuttle Pickup Locations](https://trueinterview.io/questions/k-shuttle-pickup-locations)
 - [Task Dependency Completion Time](https://trueinterview.io/questions/98b9acbe-4393-4f2d-b6f2-023dda164e9a)
 - [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c)
 
-### ML Theory
+## Project deep dive
 
-This is tested through implementation and spoken production knowledge rather than recitation. Examples: a probabilistic text generator built from scratch, and a discussion of how to keep tail latency down with distillation, quantization and batching. Experiment statistics also count: ratio metrics, switchbacks, and confidence intervals. Generic textbook answers do not carry the round.
+Most loops examine one past ML project, often in the first screen and sometimes as the opening half of an onsite session. Expect up to an hour on formulation, data, model choice, evaluation metrics, measurable business impact and team structure, sometimes extended into system architecture, latency and orchestration.
+
+At Staff level the conversation adds a harder question: starting over, how would you redefine the core problem from first principles? A Staff candidate who answered by improving the existing approach was rejected because the depth of ML insight was judged below target. Domain fit is judged here too; a senior candidate's generative-AI agents project read as a mismatch for a pricing and growth team.
+
+Interviewers evaluate:
+
+- **Problem formulation:** The real objective, the framings you rejected, and why the chosen one fit the business.
+- **Measurable impact:** How success was defined and which metric moved, by how much.
+- **Individual ownership:** Your own architecture and modeling decisions, separated from the team's.
+- **Reframing at senior levels:** A different approach you would take now, not an increment on the current one.
+
+Prepare two projects with a written counterfactual for each: the objective restated from scratch, two alternative framings, and what you would build today.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Walk through a significant ML project: formulation, data handling, model choice, evaluation and what you would improve.
+- How would you redefine this project's core problem from fundamentals rather than iterate on the current solution?
+- Explain the architecture of a multi-project system you designed, including latency limits and orchestration.
+
+- [Describe an ML system you built](https://trueinterview.io/questions/describe-an-ml-system-you-built)
+- [Describe your strongest project](https://trueinterview.io/questions/describe-your-strongest-project)
+- [Demonstrate business impact from a project](https://trueinterview.io/questions/demonstrate-business-impact-from-a-project)
+
+## ML coding interview
+
+ML coding asks for a small model or sampler from scratch, without libraries doing the core work. The reported onsite version followed a project deep dive in the same session and had two parts: map each word in a corpus to the words that follow it with their counts, then generate text from a start word by weighted random choice until an end token or a length limit.
+
+Interviewers evaluate:
+
+- **Data structure choice:** A transition map that is easy to update and sample from, justified out loud.
+- **Sampling correctness:** Probabilities proportional to observed counts, with dead ends and end tokens handled.
+- **Execution speed:** Both parts working and checked on a toy corpus.
+
+Practice weighted sampling, n-gram counts and simple regression in plain Python, 20 minutes each.
+
+### Sample questions for the ML coding interview
+
+Here are some questions reported by recent candidates:
+
+- Build a word-transition frequency map from a list of sentences, then a generator that samples each next word by observed frequency.
 
 - [ML Coding from Scratch (Regression / Markov / Facility)](https://trueinterview.io/questions/mle-onsite-ml-coding-from-scratch)
-- [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design)
-- [PyTorch Multi-Head Self-Attention](https://trueinterview.io/questions/pytorch-multi-head-self-attention)
+- [Implement weighted sampling without replacement](https://trueinterview.io/questions/implement-weighted-sampling-without-replacement)
+- [Convert a PDF to a CDF](https://trueinterview.io/questions/convert-a-pdf-to-a-cdf)
 
-### ML System Design
+## ML system design interview
 
-This appears as a phone screen or an onsite round. You start from a product goal (restaurant recommendation, data platforms feeding ETA or churn models) and are graded on the full path: data, features, model, offline and online evaluation, scaling and post-launch monitoring. A clear structure carries it. Skipping cold start, data quality or monitoring is where it slips.
+This round appears as a phone screen or a 60-minute onsite session in two forms. The product form starts from an Uber goal, such as restaurant recommendations for Uber Eats: data pipelines, features (order history, cuisine, location, time of day), two-tower retrieval, cold start, precision and recall at k, online engagement metrics and scaling. The platform form is broader; one onsite prompt asked for a system to analyze user behavior data from the Uber app with no further constraints, and covered event instrumentation, batch and streaming layers, features for churn and ETA models, schema evolution and session-based funnels.
+
+Infrastructure-leaning screens go into serving instead: model choice under latency budgets, distillation, quantization, dynamic batching, versioning, A/B rollout and drift monitoring.
+
+Interviewers evaluate:
+
+- **Scoping a vague prompt:** Users, scale, latency and consumers settled before components.
+- **The full ML path:** Data, features, model, offline and online evaluation, and post-launch monitoring, none skipped.
+- **Explicit trade-offs:** Latency against consistency and cost against freshness, defended when pushed.
+- **Data quality:** Out-of-order and duplicate events, schema changes and replaying history.
+
+Practice one ranking system and one event pipeline that feeds model features, 45 minutes each.
+
+> **Tip:** Raise cold start, data quality and monitoring before the interviewer does. In the data-platform round the interviewer kept pushing on late events, duplicates and freshness, and the candidate called it a data-engineering deep dive rather than a product design.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a restaurant recommendation system for Uber Eats, including cold start and offline and online evaluation.
+- Design a system to analyze rider behavior events for daily analytics and real-time dashboards, then support funnel analysis.
 
 - [ML System Design (Recommendation / Feed Ranking / ETA)](https://trueinterview.io/questions/mle-onsite-ml-system-design)
+- [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system)
 - [App User Behavior Data Platform](https://trueinterview.io/questions/onsite-sd-app-user-behavior-data-platform)
-- [Uber Eats Search](https://trueinterview.io/questions/uber-eats-search)
 
-### Project Deep Dive
+## Experimentation interview
 
-This appears in most ML loops, often in the very first screen, and it is decisive at senior and Staff level. It covers problem formulation, metrics, business impact and team structure, and at Staff it adds reframing the problem from fundamentals.
+Marketplace-facing and applied-science loops can spend one or two rounds on measurement. One reported loop paired a linked-list coding round with a round on how ETA affects rider session conversion, including switchback designs, and a third on launch guardrails, treatment buckets with multipliers and correct reading of confidence intervals.
+
+Interviewers evaluate:
+
+- **Marketplace-aware design:** Knowing when rider-driver interference calls for a switchback.
+- **Ratio metrics:** Handling conversion-style ratios, including the variance of the denominator.
+- **Launch safety:** Guardrail metrics and staged rollouts.
+- **Statistical interpretation:** What a confidence interval does and does not say.
+
+Prepare five-minute answers on a switchback design and a ratio-metric analysis.
+
+> **Note:** A friendly round is not a pass. That candidate described enthusiastic interviewers and was still rejected, concluding that prompt, precise answers on design principles and economic metrics were what counted.
+
+### Sample questions for the experimentation interview
+
+Here are some questions reported by recent candidates:
+
+- Design an experiment to measure how ETA affects rider session conversion.
+- Set up a switchback experiment and choose guardrails for the production launch.
+- Configure treatment buckets with multipliers, then interpret the resulting confidence intervals.
+
+- [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design)
+- [Evaluate ETA Impact on Conversion](https://trueinterview.io/questions/evaluate-eta-impact-on-conversion)
+- [Design a switchback and choose block length](https://trueinterview.io/questions/design-a-switchback-and-choose-block-length)
+
+## Leadership and behavioral interview
+
+This round typically runs 45 to 60 minutes. It opens with an ML project you led (architecture decisions and trade-offs), then covers mentoring junior engineers, working with product and engineering partners, setting technical roadmaps and resolving disagreements. At Staff level the focus is how you influenced technical direction across teams, not only within your own scope.
+
+Interviewers evaluate:
+
+- **Scope matching the level:** Team-level delivery for L5A, cross-team direction for Staff.
+- **Mentoring with outcomes:** Who you developed and what changed for them.
+- **Handling disagreement:** The evidence used and how the decision was settled.
+
+Prepare six stories with metrics, including a roadmap you set and a disagreement you resolved with evidence.
+
+### Sample questions for the leadership and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- How have you mentored junior engineers, and what changed as a result?
+- How did you set a technical roadmap with product and engineering partners?
+- Tell me about a disagreement within your team and how it was resolved.
 
 - [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/questions/onsite-bq-hm-deep-dive)
+- [Answer leadership questions on tradeoffs and collaboration](https://trueinterview.io/questions/answer-leadership-questions-on-tradeoffs-and-collaboration)
+- [How do you manage performance and disagreements?](https://trueinterview.io/questions/how-do-you-manage-performance-and-disagreements)
 
-## What They Don't Test
+## How Uber levels and evaluates Machine Learning Engineer candidates
 
-- **Standard algorithm grinding has limited return.** The distinctive coding content is numerical search and from-scratch probabilistic code. Explaining convergence and cost is what gets rewarded.
-- **Model novelty is not the point.** No report asked about a cutting-edge architecture. Evaluation, serving latency and post-launch trade-offs were probed instead.
-- **Friendly rapport is not a signal.** An engaged, enthusiastic interviewer still produced a rejection. Precision on experiment design was what counted.
-- **No take-home.** Every round is live, and past work is judged through the deep dive.
+The target level is set early and re-tested throughout, mostly in the project and leadership conversations. Downleveling is a live outcome: a candidate targeting L5A heard after two phone screens that L4 was more likely, and withdrew. Domain fit with the hiring team carries weight alongside technical performance, and a Staff rejection cited depth of ML insight rather than any single failed answer. A rejection triggered a six-month cooldown before applying to other Uber roles, and detailed feedback is rare.
 
-## The Real Filter
+## How to prepare for the Uber Machine Learning Engineer interview
 
-The primary filter is reframing. Candidates prepare to explain their project well, but the Staff and senior bar asks whether you would define the problem differently if you started over. An answer that improves the existing approach reads as operating one level below target. It is easy to miss because it arrives inside what feels like a friendly retrospective. Prepare the counterfactual: the real objective, the framings you rejected, and what you would build today.
+1. **Drill numerical search:** Implement ternary and golden-section search with explicit tolerances and explain evaluation counts.
+2. **Write a counterfactual for each project:** The objective from scratch, two alternative framings, and what you would build today.
+3. **Match your stories to the team:** Learn whether it owns pricing, ETA, recommendations or ML infrastructure, and lead with the closest work.
+4. **Code small models from scratch:** Weighted sampling, n-gram maps and simple regression, finished and tested in 20 minutes.
+5. **Rehearse two Uber-shaped designs:** A ranking system with cold start and a behavior-event pipeline feeding features, each with monitoring.
+6. **Prepare serving specifics:** Distillation, quantization, batching and drift detection, with numbers from your own systems.
+7. **Know marketplace experiments:** Switchbacks, ratio metrics, guardrails and confidence intervals, answered quickly.
 
-The second filter is domain fit. The same strong project lands differently depending on whether the team works on pricing and marketplace, recommendations, or ML infrastructure. Ask which surface the team owns, lead with matching work, and state your strength early, since interviewers adapt the session to it.
+## About the Uber Machine Learning Engineer role
 
-The third filter is numerical fluency. A black-box convex function with no derivative stalls candidates who only drilled data structures. Know ternary and golden-section search, stopping tolerances, and the continuous versus discrete distinction.
+Uber Machine Learning Engineers build models that make live marketplace decisions (pricing, ETAs, dispatch, recommendations) and own them through serving, latency budgets and monitoring, not only training. Product teams build on Michelangelo, Uber's internal platform for features, training and real-time serving, and platform teams build Michelangelo itself. Corporate staff have worked in the office Tuesday through Thursday since June 2025.
 
-## Data Source
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L4 (Machine Learning Engineer II) | Independently delivering models and pipelines for defined problems | A component of one team's systems |
+| L5A (Senior Machine Learning Engineer) | Leading complex modeling projects end to end and mentoring | A team's ML systems |
+| L5B (Staff Machine Learning Engineer) | Cross-team technical direction and problem framing | Several teams or a product area |
 
-Based on 8 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Uber hires Machine Learning Engineers across product and platform teams. Teams include:
 
-## FAQ
+- **Marketplace pricing and incentives:** Real-time rider and driver pricing, incentive simulation and optimization.
+- **Marketplace signals:** ETA prediction, supply availability and demand forecasting.
+- **Delivery:** Pricing and ranking across food, grocery and other delivery verticals.
+- **AI platform (Michelangelo):** Distributed training, feature computation and real-time model and generative-AI serving.
+- **Uber Freight:** Pricing, matching and recommendation for freight.
 
-**What is it like to work at Uber as a Machine Learning Engineer?**
-The reports cover hiring, not the job, so conditions and pay are undocumented here. Here is what is known. Models serve live marketplace decisions on a shared internal ML platform that handles very high real-time prediction volume. Engineers are expected to own serving, latency budgets and monitoring, not just training. The office policy centers on mid-week anchor days.
+### Machine Learning Engineer experience and education requirements
 
-**What is the engineering culture like?**
-The culture is fast-moving and execution-focused, with interviewers who share their own serving challenges and probe until an answer runs out of depth. It prioritizes speed and in-person collaboration, and the loop rewards end-to-end ownership over narrow modeling.
+Postings ask for a bachelor's degree in computer science, engineering, mathematics or a related field, with a master's or PhD often preferred; Staff roles typically ask for six or more years of production ML. Python is standard, with Java or Go on platform teams, and PyTorch is commonly preferred. Senior postings add large-scale data pipelines and Spark or Ray.
 
-**How hard is it to get in?**
-It is hard. Most of the ML reports with a known outcome are rejections, level calibration is strict, and a six-month cooldown follows a rejection.
+## FAQs about the Uber Machine Learning Engineer interview
 
-**Which round is hardest?**
-The project and scope conversation at senior and Staff level, because it is where the reframing question lands. The numerical-optimization screen is the most common early surprise.
+### How long does the Uber Machine Learning Engineer interview process take?
+
+Typically three to six weeks from recruiter call to decision, longer when screens are spread out or team alignment takes time.
+
+### What is the hardest round of the Uber Machine Learning Engineer interview?
+
+For senior and Staff candidates, the project deep dive, because the reframing question arrives inside what feels like a friendly retrospective. For others, the numerical-optimization screen is the most common surprise.
+
+### Is there an online assessment?
+
+None of the Machine Learning Engineer reports included one; the first technical step was a live phone screen in a shared editor.
+
+### What happens after a rejection?
+
+Candidates reported a six-month cooldown before applying to other Uber roles, and little detailed feedback.
 
 ---
 

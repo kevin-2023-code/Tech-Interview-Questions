@@ -16,17 +16,32 @@ How Atlassian interviews, and the questions candidates reported there. Free ques
 
 ## How Atlassian interviews
 
-Atlassian interviews reward candidates who can grow a simple, correct solution through wave after wave of new requirements — and who can back it up with specific stories in a separately scored values round. This guide goes deeper than the process outline on the company page: round formats, grading signals, follow-up patterns, and where loops actually fail. It draws on 17 real Atlassian questions and 35 candidate interview reports.
+Atlassian grades code under change. Nearly every coding prompt starts as a small product feature, such as rating averages, court bookings, a price store or an org chart, and then picks up two or three new requirements in the same hour. Most reported rejections come from an unfinished extension or a bug still on screen when time ran out, not from a wrong idea. The loop is also split into gates: a failed coding round cancels the design round already on the calendar, and the values and management interviews are scored on their own, so they can sink or down-level an otherwise strong technical loop.
 
-### Interview Process
+This guide breaks down each stage of the Atlassian interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 34 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Atlassian interview process
 
 <!-- guide-diagram -->
 ![Atlassian interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/atlassian/process.webp)
 <!-- guide-diagram -->
 
-**Screening.** After the recruiter conversation, most candidates hit one of two technical screens. The first is a Karat session: a short system discussion (roughly 15 minutes — candidates report diagramming a login flow end to end, or answering a chain of five connected design sub-questions) followed by a coding block that in practice can run closer to 30 minutes than the 40 some candidates expect, so clarify the time split up front. Karat outcomes are pass/fail with little feedback; a candidate who feels the session was mishandled can request a redo through the recruiter, and a failed screen typically means a cooling period of around six months before a retake. The second format is an engineer-led phone screen, usually 60 minutes: one coding problem that grows through staged follow-ups, sometimes paired with a compact design discussion such as an API one engineer could ship in two or three days. Interviewers work from a rubric covering clarification, approach, coding, and testing — hitting those beats explicitly works in your favor.
+Every engineering track follows the same outline: a recruiter call, one or two technical screens, then a virtual onsite of separately scheduled sessions. Reported loops ran from three to seven rounds, with interviewers spread across Australia, New York and the Bay Area. The process typically runs four to six weeks.
 
-**Coding rounds.** The defining pattern is the extension chain. Candidates report a rating-average problem gaining tie-breaking rules, a timestamped price store gaining checkpoint versioning and point-in-time reads, a court-booking scheduler gaining fixed and then usage-triggered maintenance windows, a URL fetcher gaining deduplication and then parallelism, and an org-chart lowest-common-ancestor question expanding from two nodes to a set of nodes, then to employees with multiple parents. Some rounds also demand thread safety — candidates have been asked to make a wildcard-matching route trie and a company-hierarchy structure safe for concurrent access — and to write their own test cases without being prompted. Grading weighs clean structure, complexity analysis, and edge-case handling as heavily as a passing solution, and the most commonly reported rejection reason is an unfinished extension or an unresolved bug at time-up. Onsite loops commonly include two or three coding sessions; several candidates report that coding and system design are scheduled separately, and that failing the coding round cancels the design round outright.
+Level changes the mix more than the topics. Early-career and mid-level loops are mostly coding, with one design round. Senior loops add a heavier system design round and a management conversation that weighs heavily in the debrief, even for individual contributors. Machine Learning Engineer candidates swap the product design round for an ML system design round. Full-stack postings add a full-stack craft round that traces one feature through the whole stack.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short, non-technical call about background, motivation, target level and the shape of the loop.
+- **Technical screen (one or two):** Either an externally run 60-minute screen with rapid design questions followed by coding, or a 60-minute engineer-led call with one evolving problem and sometimes a small design prompt.
+- **Coding interviews:** Two or three 60-minute sessions, each a stateful component or medium problem that grows through follow-ups.
+- **System design interview:** A 60-minute product-shaped design (a tagging API, a crawler, access control), or for full-stack postings a craft round, or for ML candidates a retrieval or recommendation design.
+- **Values interview:** About 45 minutes of situational questions mapped to the company's five published values, scored independently.
+- **Management interview:** A conversation on mentoring, ownership, outages and influence, sometimes followed by a team-matching call.
+
+> **Tip:** Budget every coding hour as baseline, test, then extend, and keep the last five to ten minutes for a dry run. The clearest reported rejections came from candidates who were still debugging the third follow-up when the interviewer called time.
 
 **[Read the full Atlassian interview process →](interview-process.md)**
 

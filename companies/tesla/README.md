@@ -16,21 +16,32 @@ How Tesla interviews, and the questions candidates reported there. Free question
 
 ## How Tesla interviews
 
-Tesla's engineering loop is team-driven to an unusual degree: the same job title can route you toward infrastructure concurrency, backend services, data work, or applied ML, and the interviewers you meet decide what the loop looks like. This guide goes deeper than the process outline on the company page, drawing on 22 real Tesla questions and 23 candidate interview reports to show how each stage is actually run and graded.
+At Tesla the hiring team runs the whole loop. The same job title can lead to a GPU-pool concurrency problem, a SQL screen, a NumPy convolution or a statistics case, depending on which engineers pick up the call. Correct code is often not enough to pass. Interviewers add a constraint once you have a working answer: O(1) memory, recursion and a stack instead of a queue, a trie instead of brute force. One candidate whose solution had no bugs was still told it was not optimal. Your past projects get questioned in unusual depth, and a senior candidate who cleared every design round was rejected for explaining his own past work too shallowly.
 
-### Interview Process
+This guide breaks down each stage of the Tesla interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 22 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Tesla interview process
 
 <!-- guide-diagram -->
 ![Tesla interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/tesla/process.webp)
 <!-- guide-diagram -->
 
-The recruiter call is short and concrete: a resume walkthrough, your favorite project and exact role in it, location and timing constraints, and whether you hold competing offers. Some teams insert a hiring-manager conversation before any technical screen to test mutual fit, and since 2025 many candidates are also asked for an "Evidence of Excellence" write-up, a roughly one-to-two-page summary of their most significant technical achievement with quantified impact. Treat that document seriously; it is read as a filter for ownership, not a formality.
+There is no company-wide question bank or fixed loop. A recruiter routes you to a team, and that team chooses the format. Reported processes range from a single technical call to three phone screens. A senior loop ran a design phone screen followed by four onsite rounds. Many candidates were decided entirely by phone.
 
-Technical phone screens number between one and three depending on the team, each around 60 minutes in a shared online editor. Candidates consistently report that coding starts within minutes of introductions, and a single screen frequently packs in two problems or mixes coding with SQL, machine learning theory, or a systems discussion. The signature Tesla move is the constraint follow-up: after your working solution, the interviewer demands O(1) extra memory, an unusual implementation vehicle such as recursion plus a stack, a trie-based optimization, or crash-and-shutdown handling for concurrent code. A bug-free but suboptimal answer has been explicitly called out as not enough. Some backend teams substitute a take-home project, typically a stateful simulation with strict parsing and edge-case requirements, where the provided examples can be ambiguous and your own adversarial tests decide the outcome.
+Interns reported three calls: recruiter, technical and behavioral. Mid-level Software Engineer candidates mostly get one or two 60-minute coding or design screens, and a few backend teams use a take-home instead. Senior candidates get several system design rounds. Machine Learning Engineer candidates get screens that mix coding with ML theory.
 
-The onsite or virtual panel typically runs three to five back-to-back sessions of 45 to 60 minutes with engineers from the target team. Expect at least one project deep dive that pushes far past the headline description into architecture decisions, framework internals, failure modes, and what you personally built; candidates who could not defend the "why" behind past choices received exactly that feedback in rejection. Senior loops tilt heavily toward system design, sometimes with multiple design sessions in one day, plus fundamentals like language runtime behavior and what happens end to end when a request is made. A hiring-manager or dedicated behavioral round probes disagreement with leadership, criticism, failure, and pace, and it carries real weight; candidates have been cut on behavioral performance despite solid technical rounds.
+Here's what the interview process can look like:
 
-End to end, the process typically takes three to eight weeks, but the operational experience is uneven: reports include interviews rescheduled twice, interviewers joining late or off camera, and silence stretching a week or more after a loop while approvals grind through. Keep other processes moving and ask explicitly for the decision timeline.
+- **Recruiter screen (sometimes plus a hiring-manager call):** A short call covering your resume, your favorite project, location and any competing offers.
+- **Technical phone screens (one to three):** 60-minute calls in a shared editor that start coding within minutes, often with two problems or coding plus SQL or theory.
+- **Low-level design and concurrency:** Small runnable systems such as a scheduler, a cache or a transactional store, extended step by step.
+- **ML, data and domain screens (non-SWE tracks):** NumPy coding, ML or RL theory, SQL, or a statistics case tied to the team's physical domain.
+- **Onsite or virtual panel:** Typically three to five rounds of 45–60 minutes with the target team: system design, project deep dives and fundamentals.
+- **Behavioral and hiring-manager interview:** Questions on disagreement, criticism, failure and pace, as a standalone round or folded into technical calls.
+
+> **Tip:** Budget each hour as one-third baseline, one-third testing, one-third follow-up. In the reports, poor outcomes came more often from running out of time before the constraint follow-up than from a wrong first version.
 
 **[Read the full Tesla interview process →](interview-process.md)**
 

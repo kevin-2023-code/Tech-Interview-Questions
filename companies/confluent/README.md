@@ -16,19 +16,31 @@ How Confluent interviews, and the questions candidates reported there. Free ques
 
 ## How Confluent interviews
 
-Confluent runs one of the most repetitive interview loops in infrastructure hiring: the same handful of file, stream, and feed problems reappear across candidates, and the loop is assembled from phone rounds more often than the word "onsite" suggests. This deep-dive goes beyond the outline on the company page, drawing on 13 real Confluent questions and 9 candidate interview reports to show what each stage contains, how it is graded, and where candidates stall.
+Confluent draws on a small, recurring question pool: implementing `tail -n` over a large file, searching a file for a word and then a phrase, a news feed, and a temporary email service each appear in several reports. Rounds are decided by the follow-up, not the first pass. Interviewers add a constraint (thread safety, preserved positions, run-length-encoded storage) and grade the adaptation. Design rounds lead with API and table design rather than diagrams, and they weigh heavily: one candidate passed both coding rounds, narrowly missed both design rounds, and was rejected.
 
-### Interview Process
+This guide breaks down each stage of the Confluent interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 9 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Confluent interview process
 
 <!-- guide-diagram -->
 ![Confluent interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/confluent/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact and online assessment.** The process typically opens with a short recruiter conversation about background and level, and many applicants then receive a timed online assessment before any live round. Reported OA content is small-scale stream processing rather than classic puzzles: a prefix-sum problem paired with time-series message aggregation where records arrive ordered by timestamp, and a token-management exercise that takes a `create_time` and a `token` and must support both a point lookup of one token and retrieval of the full current list. The grading emphasis is on choosing a data structure that makes both operations cheap and on handling out-of-order or boundary timestamps cleanly.
+The structure is similar across teams, and Confluent assigns many backend hires to a team during or after the process rather than before it. A typical path is a short recruiter call on background and level, an online assessment for some candidates, one to three technical phone rounds, and a virtual onsite of three to five rounds. Some loops never reach an "onsite" by name: one candidate sat three phone rounds (design, then two coding sessions) and was rejected without further contact.
 
-**Technical phone screens.** This is where Confluent departs from the usual single-screen pattern. Candidates commonly sit one to three phone rounds, and some loops consist entirely of phone sessions: one report describes three phone rounds (a system design conversation, a coding session, and a second coding session) ending in a rejection with no further contact. A screen typically holds two coding problems, occasionally split across an initial call and a follow-up session. The recurring prompts are: return the last `n` elements of a list or stream, with edge cases when `n` exceeds the collection; search for a word in a file, then a phrase, with a follow-up that positions must remain unchanged or that the hashmap be optimized; a sensor-stability class that judges health from ping logs across five consecutive 60-second windows; a warehouse load/unload ordering problem asking whether any arrangement of weights reaches a target at some moment; and function-signature matching with optional and variable-length arguments, which for senior candidates extends into how variadic calls work under the hood and how to make such an interface type-safe. Senior screens have also run as purely verbal design conversations, covering `tail -n`, a news feed discussed through SQL queries and API structure, and database questions, with no diagramming at all. Interviewers value stated trade-offs over a bare working snippet, and running out of time while debugging a follow-up is the most reported miss.
+Mid-level loops are mostly coding plus one design round; senior loops add a second design round, a behavioral round and sometimes a Linux deep dive. The process typically runs several weeks, and responses slowed around IBM's acquisition of Confluent, completed in March 2026.
 
-**Virtual onsite.** Reported onsites run three to five rounds over video, generally two coding sessions, one or two system design sessions, and for senior candidates a behavioral conversation; one senior loop also included a dedicated systems-knowledge round.
+Here's what the interview process can look like:
+
+- **Online assessment (some candidates):** Timed coding on small stream-processing and data-structure problems.
+- **Technical phone screens (one to three):** Usually two coding problems per session, sometimes split across a follow-up call; senior screens may be verbal design.
+- **Coding interviews:** Two onsite rounds: file I/O (`tail -n`) and a data-structure design that grows under follow-ups.
+- **System design interview (one or two):** Feeds, temporary email or URL shortening, argued through APIs, schemas and trade-offs.
+- **Systems fundamentals and behavioral (senior loops):** Linux internals, then leadership, customer-success and team-growth stories.
+
+> **Tip:** Build your tests quickly. In a file-based round, one candidate spent so long building test cases from the provided text file that the planned follow-up was cut short.
 
 **[Read the full Confluent interview process →](interview-process.md)**
 

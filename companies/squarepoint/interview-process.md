@@ -6,58 +6,237 @@
 
 ---
 
-Squarepoint Capital runs a compact loop with an unusually high bar per round: a short assessment that behaves as a hard pass-fail gate, then a small number of screens that dig much further into language internals and applied statistics than a standard algorithm interview does. This guide goes past the outline on the company page into how each stage is actually run, which question families keep recurring, and what separates a pass from a rejection. It draws on 17 real Squarepoint Capital questions and 14 candidate interview reports.
+Squarepoint Capital hires each desk and team on its own, so similar titles can mean very different loops. Developer screens spend more time on language internals than on algorithms. Quant screens split into a coding hour and a separate statistics hour that works like an oral exam. The question bank repeats to an unusual degree. Several candidates received identical assessments, and two received identical phone rounds.
 
-## Interview Process
+This guide breaks down each stage of the Squarepoint Capital interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 14 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Squarepoint Capital interview process
 
 <!-- guide-diagram -->
 ![Squarepoint Capital interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/squarepoint/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Engineering and new-grad candidates usually meet a timed assessment before any live round: two coding problems on a standard hosted assessment platform, typically inside about an hour. The problems are implementation-heavy rather than trick-based, and the same pairs recur across candidates. One recurring pair is username generation with collision suffixes (first initial plus last name, lowercased, smallest unused integer appended on a clash) alongside counting how many distinct sentences can be formed by swapping each word for a dictionary anagram, modulo a large prime. Another is a max-heap revenue problem in which selling one unit of an item drops that item's price by one, alongside case-insensitive word counting that must emit exactly the top three words, by frequency descending and then alphabetically. Candidates describe this stage as unforgiving: the expectation is both problems fully correct, and the most cited failure is not the algorithm but a one-line constraint buried in the statement, such as the hard cap of three output words, that quietly fails the hidden tests.
+The process typically runs three to five rounds over four to eight weeks, after a short recruiter conversation. The number of phone rounds depends on the track and desk, not on seniority. A C++ developer in Montreal sat three phone screens, and most quant candidates sat one or two.
 
-**Technical phone screens.** Reported loops run one to three phone rounds, and the count varies by track and desk rather than by seniority. Screens commonly open with a walk through your resume and stack, with pointed follow-ups on choices you made: why a particular cache technology, how a database index actually works. Two shapes then dominate. Engineering-track screens spend most of their time on language internals before the coding starts. C++ candidates report the compilation and linking pipeline, virtual functions and destructors, compile-time versus runtime polymorphism including CRTP, smart pointers and RAII, iterator invalidation, move semantics, and the internal layout and complexity trade-offs of vector, list, map and unordered_map, plus Linux signals and process control groups. Python candidates report generators and lazy evaluation, decorators, context managers, mutable versus immutable semantics, threads versus processes, and everyday Linux tooling. The coding that follows is deliberately modest in algorithmic difficulty: merging two sorted vectors with an edge-case discussion, validating a string against stated criteria, or a frequency count with a lexicographic tie-break. Quant-leaning tracks instead get two separate rounds, one purely coding and one purely statistics and probability.
+Graduate developers choose a preferred track (Python, C++ or front-end React) and usually start with an online assessment. Experienced developers start with a screen that opens on their resume. Quant research and trading candidates start with live screens that mix coding, probability and statistics.
 
-**Applied and design-heavy rounds.** Later or longer rounds shift from recall to building something. Reports describe a session built around a single practical task that grows through follow-ups: a line-by-line document generator taking a configurable delimiter and returning one dictionary per line, then extended to handle quoted fields containing that delimiter. A C++ third round asked for a deterministic function wrapper with caching, then made it generic, then bounded it with an LRU eviction policy, then required it to degrade gracefully for arguments that are not hashable. Grading here rewards clean, correct implementation over speed.
+Here's what the interview process can look like:
 
-**Research-leaning tracks and timing.** Candidates on research-oriented tracks report a final day built around a multi-hour hands-on data exercise in the firm's own environment, using Python and pandas on a supplied dataset, followed by presenting the analysis and model to a researcher. An introductory conversation with a recruiter about background and motivation typically opens the process, and overall timelines run several weeks. Feedback after a single strong round can be much faster: one candidate had a decision within one business day.
+- **Online assessment (developer and graduate tracks):** Two implementation-heavy coding problems, graded as a strict pass-or-fail gate.
+- **Developer technical screens (one to three):** A walkthrough of your resume, rapid C++ or Python internals questions, then modest coding.
+- **Quant coding and probability screen:** One or two classic algorithm problems, then textbook dice and coin probability.
+- **Statistics and markets screen:** An hour of regression theory and calculation by hand. Trading desks ask about Greeks and markets instead.
+- **Final round:** For developers, one practical build that grows through follow-ups. For researchers, a long hands-on data exercise.
 
-## What Candidates Report
+> **Tip:** Practice the recurring problems below until they are routine. Candidates on the same track keep getting the same assessment pairs and the same pair of phone rounds.
 
-- The question bank repeats. Two candidates received the identical first round, product of array except self followed by maximum subarray, and then the identical statistics second round. Two others received the identical assessment pair. Preparing on the recurring set is unusually high-leverage here.
-- Interviewers chase the "why" rather than the answer, asking you to justify a container choice by its memory layout, explain what breaks under iterator invalidation, or defend how allocations are avoided, well past the point where the coding question was already solved.
-- The statistics round is a graded exam, not a chat. It has covered each ordinary least squares assumption in turn, multicollinearity detection via variance inflation factor and its remedies, overfitting and the bias-variance trade-off, a least-squares line fitted by hand to three given points with the residual sum of squares computed, and the correlation between the counts of two die faces over repeated rolls.
-- Follow-ups turn a solved problem into a design problem. A working parser gains quoted-field handling; a caching wrapper becomes generic, then size-bounded, then has to survive unhashable inputs. Candidates who wrote a rigid first version paid for it.
-- Coverage can exceed what the scheduling email announced. A trading-track candidate was taken through Greeks and profit-and-loss attribution, futures versus forwards, and volatility skew, none of which had been listed in advance.
-- Tone varies sharply between interviewers. Several candidates describe relaxed, conversational screens with no adversarial pressure; another describes a curt and visibly disengaged interviewer through the technical portion. Neither reliably predicted the outcome.
+## Online assessment
 
-## Coding Questions
+You get two coding problems in a shared time limit of typically about an hour. The problems are long on rules and short on cleverness. One recurring pair has two tasks. The first builds unique usernames (first initial plus last name, lowercased, with the smallest unused integer appended on a collision). The second counts the sentences you can form by swapping each word for a dictionary anagram, modulo 10^9 + 7. A 2026 pair has two different tasks. One maximizes revenue when each unit sold drops that item's price by one, which is a max-heap problem. The other counts words case-insensitively and returns exactly the top three, by frequency and then alphabetically.
 
-Squarepoint's coding pool splits into two halves: assessment problems that are long on rules and short on cleverness, where output format and constraint compliance decide the result, and screen problems drawn from a small set of classic array and dynamic-programming patterns that you are expected to code cleanly and then explain. Practice restating every stated constraint out loud before writing, then close with complexity and edge cases.
+Hidden tests grade the solutions, and you need both problems fully correct to reach a phone screen.
 
-- Company Usernames
-- [How many Sentences?](../../questions/algorithm/sentence-variations-with-anagram/README.md)
+Interviewers evaluate:
+
+- **Constraint compliance:** Output caps, tie-break order, case folding and the modulus must all match the statement exactly.
+- **Clean bookkeeping:** A map from each base username to its next free suffix, instead of rescanning every name already issued.
+- **Overflow discipline:** Take the modulus after every multiplication.
+- **Correct grouping:** Group anagrams by a sorted-letter signature. A word with no dictionary match still counts as one choice.
+
+Turn each statement into a checklist of rules and check your output against it before you submit.
+
+> **Note:** One candidate's sorting logic was correct, but the solution returned more than three words and failed the hidden tests. Missing one rule is graded as a wrong answer.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Assign each person a unique lowercase username (first initial plus surname), appending the smallest unused number on a collision.
+- Count the sentences formed by replacing each word with any dictionary anagram, modulo 10^9 + 7.
+- Sell a limited number of units across items whose price drops by one after each sale, maximizing revenue.
+- Count words case-insensitively and output only the three most frequent, ties broken alphabetically.
+
+- [Generate Unique Usernames](../../questions/algorithm/generate-unique-usernames/README.md)
+- [Sentence Variations with Anagram](../../questions/algorithm/sentence-variations-with-anagram/README.md)
 - [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680)
-- [Top 3 frequent words (case-insensitive, tie by lexicographic order)](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d)
-- Product of Array Except Self
+- [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d)
 
-## Low-Level Design Questions
+## Developer technical screens
 
-Design prompts here stay at the level of a single component and are judged as real code, not as boxes on a whiteboard. Expect to build something small, then defend it as the interviewer adds genericity, a size bound, and inputs your first design cannot handle. For C++ sessions the examination extends to ownership, allocation counts, and what the template machinery does at compile time.
+Screens open on your resume and stack, with follow-ups on your choices, such as why you used Redis or how a database index works. Then come fast language questions. For C++, these cover compilation and linking, smart pointers and RAII, virtual and pure virtual functions and destructors, CRTP versus runtime polymorphism, and `std::move`. They also cover structured bindings and `std::optional`, iterator invalidation, and the internals and costs of `vector`, `list`, `map` and `unordered_map`. Linux signals and process control groups have come up as well. For Python, they cover generators, decorators, context managers, mutability, threads versus processes, and `find`, `kill`, `top` and `ps`.
+
+The coding is deliberately modest. Reported tasks include merging two sorted vectors and discussing the edge cases, validating a string against given rules, returning the values above a list's average, and finding the most frequent character with a lexicographic tie-break. One C++ screen asked for an LRU cache, then made it a template and asked how to cut heap allocations with move semantics.
+
+Interviewers evaluate:
+
+- **Depth behind the answer:** Explain why a container behaves as it does, from its memory layout to what invalidates its iterators.
+- **Ownership of your resume:** Any technology you list can be pressed down to its internals.
+- **Allocation awareness:** Know where heap allocations happen and how moves or reserved capacity remove them.
+- **Speed on simple tasks:** One candidate lost time overthinking a frequency count that built-ins and a sort key would have solved.
+
+Prepare short, precise explanations of each container and language feature, and be ready to answer at least two levels of why.
+
+### Sample questions for the developer technical screens
+
+Here are some questions reported by recent candidates:
+
+- Compare `vector` with `list` and `map` with `unordered_map` by operation cost, then explain the iterator invalidation rules.
+- Design an LRU cache in C++, make it a template, and reduce heap allocations with move semantics.
+- Merge two sorted vectors, then list the edge cases the code must handle.
+- Find the most frequent character in a string, breaking ties lexicographically.
+
+- [Merge Two Sorted Vectors](../../questions/algorithm/merge-two-sorted-vectors/README.md)
+- [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6)
+- [Filter Numbers Greater Than the Average](https://trueinterview.io/questions/cd12a6b3-ba3b-5639-be01-4b54adbee445)
+- [Most Frequent Character with Lexicographical Tie-Breaking](https://trueinterview.io/questions/d51e32aa-3b44-5206-a122-5dc924dc34c9)
+
+## Quant coding and probability screen
+
+This is the first live round for research and trading candidates. It has one or two coding problems, often followed by probability. Two candidates got the same pair. The first was product of array except self, without division and in linear time, with zeros handled. The second was maximum subarray, including an all-negative input. Other screens used a grasshopper jump problem, the fewest umbrellas of given sizes covering exactly N people, a dice-sum distribution by dynamic programming, longest increasing subsequence and Newton's method for a square root.
+
+The probability questions come from the standard quant books. Reported examples are the variance of a fair N-sided die, and the expected number of flips to see k heads in a row. Another asks whether to roll a fair die or one whose probabilities you design to hit a target, and another whether two chords between random points intersect.
+
+Interviewers evaluate:
+
+- **Pattern fluency:** Prefix and suffix products, running maxima, and a dice-sum DP that adds one die at a time without double-counting.
+- **Edge cases stated aloud:** Zeros, all-negative arrays and the base cases of the DP table.
+- **Recurrence setup:** Write the expected-value recurrence instead of guessing a closed form.
+- **Complexity defense:** State time and space for each approach without being asked.
+
+Work through the classic dice, coin and card problems, which candidates recognized almost word for word.
+
+### Sample questions for the quant coding and probability screen
+
+Here are some questions reported by recent candidates:
+
+- Compute each element's product of all the others without division in O(n), then find the maximum-sum subarray.
+- Find the minimum number of umbrellas of given capacities that cover exactly N people.
+- For every k from 1 to N, find the expected number of fair-coin flips until k heads appear in a row.
+
+- [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md)
+- [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md)
+- [Minimum Number of Umbrellas](../../questions/algorithm/minimum-number-of-umbrellas/README.md)
+- [Grasshopper Problem](../../questions/algorithm/grasshopper-problem/README.md)
+
+## Statistics and markets screen
+
+For research-leaning candidates, this call is all statistics, and it works like an oral exam. Two candidates got the same sequence:
+
+1. Each OLS assumption in turn.
+2. Multicollinearity: how the variance inflation factor detects it, what it does to the coefficients, and how to fix it.
+3. Overfitting and the bias-variance trade-off.
+4. A least-squares fit by hand to (0,0), (0,1) and (1,1), with the residual sum of squares.
+5. The correlation between the counts of 1s and 5s in n die rolls, which is −1/5.
+
+Other screens asked about hypothesis testing on 10,000 binary trials.
+
+Trading-desk screens cover markets. Topics include Greeks and delta-gamma P&L, futures versus forwards, volatility skew, Black-Scholes assumptions and put-call parity. Candidates also wrote an exponential moving average in pandas, discussed market news and assessed liquidity, and solved brain teasers such as the 3- and 5-gallon jugs.
+
+Interviewers evaluate:
+
+- **Why each assumption matters:** Explain what breaks in the estimates when an assumption fails, not just recite the list.
+- **Hand calculation:** The normal equations, slope, intercept and residuals, worked out without a computer.
+- **Structural insight:** The die counts are multinomial, and the fixed total makes them negatively correlated.
+- **Market literacy (trading):** Explain Greeks-based P&L, carry and skew fluently, and write working pandas code.
+
+Rehearse small worked examples on paper until they need no notes.
+
+> **Note:** A trading candidate's invitation did not list derivatives, but the screen covered Greeks, futures and skew, with a curt interviewer, and ended in a rejection. Other candidates found the screens friendly. The interviewer's tone did not predict the outcome.
+
+### Sample questions for the statistics and markets screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through each OLS assumption, then explain how to detect and fix multicollinearity.
+- Fit a least-squares line to (0,0), (0,1) and (1,1) by hand and compute the residual sum of squares.
+- Find the correlation between the number of 1s and the number of 5s in n rolls of a fair die.
+- Compute delta-gamma P&L on an option position, then explain volatility skew.
+
+- [Evaluate Linear Regression Assumptions and Fit Three Points](https://trueinterview.io/questions/evaluate-linear-regression-assumptions-and-fit-three-points)
+- [Find the Correlation Between Two Die-Face Counts](https://trueinterview.io/questions/find-the-correlation-between-two-die-face-counts)
+- [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition)
+- [Compute EMA Indicators and Detect Crossovers in Pandas](https://trueinterview.io/questions/eec3b2bb-0fda-44b2-bc31-5efa0e915e2d)
+
+## Final round
+
+Developer finals center on one build that grows through follow-ups. In one C++ final, a deterministic function wrapper with caching had to become generic, then bounded by LRU eviction, and then handle unhashable arguments with SFINAE. A London onsite asked for a Python generator that turns a document into one dictionary per line, with a configurable delimiter. The follow-up added quoted fields that contain the delimiter. Other finals have included a small exchange server, debugging lock-based concurrency code, or a design session such as a backtesting engine.
+
+Research finals are typically a hands-on data exercise of about five hours, done in Python and pandas in the firm's environment. You get a real dataset, such as power-storage or order-flow data, and you clean it, explore it, and then build and validate a model.
+
+Interviewers evaluate:
+
+- **Extensible first versions:** A rigid first design gets expensive when the next requirement arrives.
+- **Quality over speed:** Clean, correct code you can explain counts for more than finishing early.
+- **Calm debugging:** One candidate quickly fixed a quote-handling bug, explained it clearly, and got a decision within one business day.
+- **Modeling hygiene (research):** Catch leaky rows, multicollinearity, an inflated R-squared and time-series structure.
+
+Build the recurring components from scratch and add each follow-up yourself before the interviewer does.
+
+> **Tip:** For research finals, drill pandas groupby, merge, resample, pivot and rolling windows against a timer. The exercise is open-ended, and fluency with the tool counts nearly as much as the statistics.
+
+### Sample questions for the final round
+
+Here are some questions reported by recent candidates:
+
+- Wrap a deterministic function with a cache, make it generic, bound it with LRU eviction, and handle unhashable arguments.
+- Write a generator that parses each line of a document with a configurable delimiter, then support quoted fields.
+- Implement a vector with metaprogramming and RAII.
 
 - [Deterministic Function Wrapper with Caching](../../questions/object-oriented-programming/deterministic-function-wrapper-with-caching/README.md)
-- LRU Cache Implementation
+- [Line by Line Document Generator](../../questions/algorithm/line-by-line-document-generator/README.md)
 - [Implement a Custom Vector Using Metaprogramming](../../questions/object-oriented-programming/implement-a-custom-vector-using-metaprogramming/README.md)
+- [Concatenate Two C++ Index Sequences at Compile Time](https://trueinterview.io/questions/concatenate-two-cplusplus-index-sequences-at-compile-time)
 
-## How to Prepare
+## How Squarepoint Capital makes hiring decisions
 
-- Treat the assessment as a reading exercise first. Extract every rule into a checklist, especially output caps, tie-break order, case handling and modulus, then verify each one before submitting; a correct algorithm with one missed rule reads the same as a wrong answer.
-- Rehearse the recurring components until they are automatic: a bounded cache with eviction, a memoizing wrapper, a streaming line parser with quoting rules, and a merge of two sorted sequences with the empty and duplicate cases handled.
-- On a C++ track, prepare to be quizzed like a language lawyer: container internals and their complexity, iterator invalidation, virtual dispatch and destruction order, RAII, move semantics, and template techniques for adapting a design to types that do not satisfy your assumptions.
-- On a Python track, be ready to explain generators, decorators and context managers by writing them rather than describing them, and to argue concretely about threads versus processes for a workload you have actually run.
-- Drill applied statistics to the level of a hand calculation: fit a small least-squares line and compute its residuals on paper, explain every regression assumption and its failure mode, and derive covariance and correlation for counts of two outcomes in repeated trials.
-- Refresh the classic quant probability canon alongside the coding prep, especially expected values via recurrence, and add derivatives fundamentals if any part of your application touches trading, since topics outside the announced scope do appear.
-- Know your own resume at implementation depth. Screens routinely open by picking one technology from it and pressing until you either explain the internals or admit the limit of your knowledge.
+Each hiring team runs its own loop and decides on its own timeline. One decision came within a business day, while gaps between rounds have run from a day to about two weeks. The assessment is a hard filter. After it, interviewers weigh the depth of your explanations as heavily as whether your code is correct.
+
+## How to prepare for the Squarepoint Capital interview
+
+1. **Read the assessment like a contract:** List every output cap, tie-break, case rule and modulus, and check your output against the list.
+2. **Drill the repeat set:** Usernames, anagram sentences, diminishing-price revenue, top-three words, product except self and maximum subarray.
+3. **Learn your language to its internals:** For C++, containers, invalidation, virtual dispatch, RAII and moves. For Python, generators, decorators, context managers and threads versus processes.
+4. **Build extensible components:** A memoizing wrapper, a template LRU cache and a parser that handles quoted fields.
+5. **Do statistics by hand:** OLS failure modes, the variance inflation factor, a three-point fit and multinomial covariance.
+6. **Prepare beyond the invitation:** Trading candidates should cover Greeks, carry and skew even if the invitation does not list them.
+7. **Defend your resume at implementation depth:** Expect every technology you list to be questioned down to its internals.
+
+## About working at Squarepoint Capital
+
+Squarepoint is a systematic investment manager. It grew inside Lehman Brothers and then Barclays before becoming independent in 2014. It trades equities, futures, currencies and fixed income on platforms it builds itself. Investment, technology and operations teams are organized by function across offices that include London, New York, Montreal, Singapore, Bengaluru and Warsaw.
+
+Squarepoint Capital hires engineers and researchers across its trading and technology groups. Teams include:
+
+- **Alpha Data:** Python teams in London and Montreal that build data pipelines for researchers.
+- **Quant Development:** Turns research into production trading code.
+- **Trading infrastructure:** Low-latency, distributed C++ systems.
+- **Market Data and Data Engineering:** Ingests and stores market data for research and trading.
+- **Risk:** Firm-wide risk systems and analytics.
+- **Front-end:** React and TypeScript tools for users worldwide.
+
+### Experience and education requirements
+
+Postings ask for a degree in computer science, computer engineering or a quantitative field such as applied math or physics. Junior roles ask for up to about four years of experience. Developers need strong Python or C++, plus git and Linux. Rust, KDB+/q, SQL and TypeScript are listed as pluses.
+
+## FAQs about the Squarepoint Capital interview
+
+### How long does the Squarepoint Capital interview process take?
+
+Typically four to eight weeks. Some single rounds have been decided within one business day.
+
+### What is the hardest round of the Squarepoint Capital interview?
+
+For developers, it is the assessment, where one missed rule fails you, along with the language-internals questions. For quant candidates, it is the statistics screen, which expects derivations by hand.
+
+### Is there an online assessment?
+
+Yes, for most developer and graduate candidates, and both problems must be correct. Quant candidates usually start with a live screen.
+
+### What does a Squarepoint Capital graduate developer make?
+
+Graduate developer postings in New York state a minimum base salary of $100,000. Discretionary bonuses can be a significant part of total pay.
 
 ---
 

@@ -2,13 +2,13 @@
 
 # Gusto interview process, OA & interview questions
 
-**5 questions** reported at Gusto. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/gusto), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at Gusto · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/gusto), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Gusto interviews & the free questions](gusto/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-gusto)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-gusto)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
 | Difficulty (easy / medium / hard) | 1 / 4 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 0 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 5 questions reported at Gusto. 2 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -78,6 +78,14 @@ The 5 questions to open first if you are preparing for Gusto, ranked by **the mo
 | **5** | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Guides & writeups
+
+**1 writeup** filed under Gusto in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Gusto Interview Process & Questions](https://trueinterview.io/study/gusto-interview-process) | — |
 
 ---
 

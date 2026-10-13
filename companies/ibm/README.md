@@ -16,17 +16,32 @@ How IBM interviews, and the questions candidates reported there. Free questions 
 
 ## How IBM interviews
 
-IBM's engineering loop is shorter and less algorithm-heavy than most big-tech processes, but it is also far less standardized: what you actually face depends heavily on the team, ranging from a timed two-problem assessment to a Kubernetes troubleshooting deep-dive or a hardware-optimization discussion. This guide goes beyond the outline on the company page, drawing on 16 real IBM questions and 21 candidate interview reports to show what each stage probes, how follow-ups escalate, and where otherwise solid candidates lose points.
+IBM's engineering loop is shorter and less algorithm-heavy than most large tech companies' processes, but it is far less standardized. The hiring team, not a central committee, decides what you face: a timed two-problem assessment, a rapid-fire Kubernetes and Linux quiz, or a convolution kernel you must then parallelize. For most early-career and cold applicants, the online assessment is the real filter. It often arrives automatically within days of applying, and many candidates hear nothing afterward.
 
-### Interview Process
+This guide breaks down each stage of the IBM interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 27 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### IBM interview process
 
 <!-- guide-diagram -->
 ![IBM interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/ibm/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** For early-career and cold applications the assessment often arrives fast — sometimes automatically within days of applying, before any recruiter contact. The common format is two coding problems in roughly 60 minutes (some sessions run to 90). Difficulty sits at easy-to-medium, but the problems lean practical rather than competition-style: merging inclusive time intervals and summing effective execution time, counting maximum concurrent processes, splitting an array to maximize distinct counts on both sides, shortest subarray with exactly k distinct values, minimum insertions to complete a repeating pattern, JSON key-difference finders, and simulation problems driven by removal rules or move strings. Two traps recur in reports: inclusive interval boundaries (off-by-one errors in duration math) and hidden test cases that punish unhandled edge inputs even when the core idea is right. A few pipelines add or substitute a recorded behavioral assessment — one reported session had five questions with one minute to prepare and three minutes to answer each, about 20 minutes total — and some candidates applying to AI or research roles received a front-end CSS layout task alongside a generic algorithm problem, so the assessment content does not always match the job title. Results typically come back within a week or two, but many candidates report the assessment is the last they hear; completing it is not confirmation that an interview follows.
+Each team runs its own hiring, so the technical content follows the team's domain rather than the job title. Most reported pipelines have two to four stages: an assessment, one or two live technical rounds of 45–60 minutes, and a behavioral or manager conversation. From application to decision, the process typically takes two to six weeks when every stage happens.
 
-**Technical interview or phone screen.** Teams usually run one or two rounds of 45 to 60 minutes, most often built around two moderate problems rather than one hard one. The distinguishing feature is the follow-up: a clean baseline solution is routinely extended with a changed constraint — unsorted input, a stream too large to hold in memory, a command string millions of characters long, parallel execution, or an external API that can fail mid-call. Some interviewers deliberately leave the first problem underspecified and watch whether you ask targeted clarifying questions, state assumptions, and explain how the answer shifts under each interpretation. For cloud and infrastructure teams the round can instead be a rapid-fire breadth check: CI/CD tooling, deploying with ArgoCD, Helm chart structure, diagnosing a pod stuck in CrashLoopBackOff, StatefulSet versus Deployment, Linux commands for process and file inspection, network troubleshooting, and how to roll out a database change safely. Grading weighs clarification behavior, reasoning aloud, complexity analysis, and how naturally you absorb the changed requirement — not just whether the first version ran.
+Early-career and intern candidates usually start with the automated assessment. Several reported pipelines skipped it and began with a live round, where depth in the team's stack outweighs puzzle speed. At senior and advisory bands, expect design discussion tied to the team's product rather than a generic system design prompt.
+
+Here's what the interview process can look like:
+
+- **Online coding assessment (most early-career and cold applicants):** Two problems in 60–90 minutes, sometimes paired with a CSS task or a full-stack debugging exercise.
+- **Recorded behavioral assessment (some pipelines):** Five pre-recorded competency questions with one minute to prepare and three to answer each, about 20 minutes in total.
+- **Technical interview (one or two rounds):** A 45–60 minute live session, usually two moderate coding problems with escalating follow-ups.
+- **Infrastructure and DevOps screen (cloud and platform teams):** A breadth check on CI/CD, Kubernetes, Helm, Linux and network troubleshooting in place of algorithms.
+- **ML and systems design round (AI, inference and platform teams):** Implement a numerical primitive and parallelize it, or design a Kubernetes controller that survives failures.
+- **Behavioral and hiring manager interview:** A calm conversation about strengths, a missed deadline, motivation for IBM and a deep walk through your projects.
+
+> **Tip:** Prepare for the team, not the title. An AI research intern applicant got a CSS layout task, and an infrastructure candidate got a Kubernetes quiz instead of a coding problem. Read the posting's technology list and ask the recruiter which stack the team runs.
 
 **[Read the full IBM interview process →](interview-process.md)**
 

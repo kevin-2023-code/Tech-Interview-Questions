@@ -6,48 +6,179 @@
 
 ---
 
-This is the deep dive behind StubHub's process page: what each round actually contains, how the coding session is graded, and why strong-feeling loops still end in rejection. It draws on 2 questions and 6 candidate interview reports from StubHub's engineering loop, all of them clustered around the same distinctive round: a domain object-modelling exercise set inside StubHub's own ticket marketplace.
+StubHub's technical rounds are built around its own marketplace rather than abstract puzzles. The coding round asks for an event recommendation or marketing-notification engine inside a prepared Java or Python skeleton, with new campaign rules added one at a time. The system design round asks for a deadline-bound messaging or email pipeline. The hiring manager probes how far your scope reaches beyond code, and in reported loops friendly sessions and early finishes did not predict the outcome.
 
-## Interview Process
+This guide breaks down each stage of the StubHub interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 5 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## StubHub interview process
 
 <!-- guide-diagram -->
 ![StubHub interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/stubhub/process.webp)
 <!-- guide-diagram -->
 
-The loop is short and front-loaded with a hiring manager. Candidates consistently describe four stages: a recruiter call, a hiring-manager conversation, then a virtual on-site made up of a coding round and a design round. Some candidates report an online assessment before the recruiter call; most do not see one. Pacing is typically about a week between stages, and results arrive fast — one candidate received a decision two days after the on-site, another received a template rejection the morning after the coding round.
+The loop is short. Reports describe a recruiter call, a hiring-manager conversation, and a virtual on-site of one coding round and one system design round. The order varies: some candidates met the hiring manager before the on-site, while others went straight from the recruiter to coding. Some loops were split across two days. Stages are typically about a week apart, and decisions arrive within one or two days.
 
-**Recruiter screen.** Mostly calibration rather than screening. Recruiters describe the company as small relative to its brand and growing hard, stress that engineers own unusually broad scope, and raise the European side of the business acquired with viagogo. Expect to walk through projects you personally led. Level is negotiated here, not later: one candidate who applied for a senior role with seven years of experience was moved to Software Engineer II on this call.
+The same object-design problem appears for full-stack and back-end tracks and across levels. What changes with level is how much product and stakeholder ownership the hiring manager expects to hear about.
 
-**Hiring manager round (about 45 minutes).** A project deep dive in classic behavioral shape: self-introduction, your most impactful recent project, and the hardest part of it. The manager typically spends real time describing the team, and the recurring message is that the job is not pure product engineering — you are expected to negotiate requirements directly with product managers and stakeholders. Answers that stay purely technical miss what this round is probing.
+Here's what the interview process can look like:
 
-**Coding round (typically 60 minutes, sometimes closer to 90).** This is a pair-programming object-design session, not an algorithm round. Interviewers hand over a prepared skeleton — domain classes such as `Event`, `Customer`, `Inventory`, and a coordinate-based location service, plus static data services and a sample customer — and a short document of product insights: engagement drops beyond about 100 miles, tickets under $50 convert better, events in the next 30 days perform best, metro-area buyers cross into adjacent cities, and returning one weak recommendation beats returning nothing. The task is to build a recommendation or notification engine on top of that skeleton with no hard-coded rules. Java and Python both appear. Requirements arrive in waves: recommend events in the customer's city, then only those under a price threshold, then the five nearest by straight-line distance, then the single event closest to the customer's birthday, then combine several filters at once. The grade is whether each new wave costs you a new class rather than an edit to an existing one.
+- **Recruiter screen:** A short call about your recent projects, the team's scope and the target level, which may be adjusted here.
+- **Hiring manager interview (about 45 minutes):** A behavioral project deep dive focused on impact, difficulty and working with product partners.
+- **Coding round (about 60 minutes):** An object-oriented design exercise in a provided skeleton, building a recommendation or notification engine whose requirements arrive in parts.
+- **System design interview (about 60 minutes):** A design for a messaging or email system with a hard delivery deadline, often followed by product-minded discussion.
 
-**Design round (typically 60 minutes).** Also drawn from StubHub's own operations, and almost always about delivery under a deadline: a marketing email system that must push two or three messages inside a 15-minute window while handling time zones, A/B variants, and delivery plus conversion tracking; an internal chat system that also emails customers inactive for ten days; a support-email path with a five-minute delivery bound. Interviewers often read requirements straight from a prepared list, so the round can feel like a checklist. Ask early whether they want a high-level sketch or a component-level walkthrough.
+> **Tip:** Finishing early is not a pass. One candidate completed the coding task in about 40 minutes, spent the last 30 chatting, heard "good job" in both rounds, and was rejected two days later. Use spare time for extensions such as testing, configuration and empty-result handling.
 
-## What Candidates Report
+## Recruiter screen
 
-- **Positive verbal signals mean nothing.** Multiple candidates were told "good job" in the room, finished the coding task with 20 to 30 minutes to spare, and were rejected within two days. Warmth in the session is not calibration feedback.
-- **The design round can feel one-sided.** Several reports describe interviewers who ask no follow-up questions and simply move through their requirement list, leaving candidates with no read on how they are doing.
-- **Abstraction level is an unstated grading axis.** One candidate who kept drilling into details in a design round was faulted, in retrospect, for not matching the interviewer's preferred altitude. Another lost points for not explaining how bidirectional connections route across multiple servers until prompted.
-- **No feedback is given.** Requests for evaluation detail typically go unanswered, and at least one candidate noted the company declines to give feedback while later asking candidates for theirs.
-- **Recruiting coordination is uneven.** Reports include roles being closed mid-process, last-minute cancellations, re-levelling, and repeated rescheduling. It is worth confirming the role is genuinely open before rearranging your week.
-- **Scope talk is a real theme, not filler.** Both the recruiter and the hiring manager return to the breadth of an engineer's remit here; candidates who treat it as small talk lose an easy signal.
+The recruiter call is mainly calibration. Recruiters describe StubHub as small relative to its brand and growing fast, stress that each engineer owns unusually broad scope, and mention the European business that operates as viagogo. Expect to walk through projects you personally led. Level is set here: one senior applicant with seven years of experience was moved to Software Engineer II during the screen.
 
-## Low-Level Design Questions
+Interviewers evaluate:
 
-Every reported technical question is the same shape: model StubHub's marketplace domain, then prove the model bends. Interviewers care much less about the ranking maths than about whether adding a birthday campaign, a radius filter, or a price band requires touching code you already wrote. Practise writing a filter or strategy interface first, an engine that composes a list of them second, and concrete rules last — and be ready to say how ranking weights and tie-breaks are configured rather than compiled in.
+- **Scope of your work:** Whether the projects you led match the level you applied for.
+- **Breadth:** Comfort owning work end to end, including requirements, rather than only implementation.
+- **Logistics:** Location, hybrid expectations and timing.
+
+Prepare a two-minute summary of your largest project that states your own decisions and the scope you owned.
+
+> **Note:** Confirm the role and level in writing after this call. One candidate was told the role was filled, offered another, had the interview cancelled on the day, and was then moved back to the original role.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through the projects you have led recently.
+- Why StubHub, and what kind of scope are you looking for?
+
+## Hiring manager interview
+
+This is a roughly 45-minute behavioral conversation. The manager describes the team, then asks for a self-introduction, your most impactful recent project, and its hardest part. The recurring message is that the role goes beyond product engineering: engineers work directly with product managers and stakeholders to define requirements.
+
+Interviewers evaluate:
+
+- **Impact:** A project whose business result you can state, not just its technical architecture.
+- **Requirement ownership:** How you worked with product managers and stakeholders to decide what to build.
+- **Handling difficulty:** A concrete obstacle, what you did about it, and what you would change.
+- **Fit for broad scope:** Willingness to move between product, back-end and front-end work.
+
+Bring one project story that includes a real disagreement about requirements and how you resolved it.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Introduce yourself and describe the most impactful project you have worked on recently.
+- What was the most challenging part of that project, and how did you handle it?
+
+## Coding round
+
+This is an object-design session, not an algorithm round. Candidates receive a skeleton with domain classes such as `Event`, `Customer` and `Inventory`, a coordinate-based location service, static sample data and one test customer. Code comments give product insights: engagement is highest within 100 miles, tickets under $50 convert better, events within 30 days drive engagement, and the engine should always return something. Java and Python both appear.
+
+Requirements arrive in parts. Reported versions include notifying a customer about every event in their city, then only events under a price threshold, then the five nearest events by straight-line distance, then the single event closest to the customer's next birthday, then a combination of filters. Other versions ask for events within 100 miles, on the coming weekend, or within a radius and price range, then all filters combined. Some sessions end with an open discussion of improving recommendation quality.
+
+Interviewers evaluate:
+
+- **No hard-coded rules:** Each new campaign should be a new strategy or filter class, not an edit to existing logic.
+- **Composition:** An engine that takes a list of strategies or filters and combines them cleanly.
+- **Fallback behavior:** Returning a reasonable recommendation when filters leave nothing.
+- **Configurable ranking:** How distance, price and date weights and tie-breaks are set without recompiling.
+
+Practice writing the filter interface first, the composing engine second, and concrete rules last.
+
+> **Tip:** Define a `RecommendationStrategy` interface before the first rule. One candidate passed a list of location and price strategies into an email marketing engine, so each new rule was one new class.
+
+### Sample questions for the coding round
+
+Here are some questions reported by recent candidates:
+
+- Implement a marketing engine that notifies a customer about every event in their city, then add a birthday campaign and a five-nearest-events campaign.
+- Build an event recommendation engine with separate filters for distance, the coming weekend, radius and price range, then combine them.
+- Assemble reusable filtering and scoring behaviors for several marketing campaigns, always returning at least one recommendation.
 
 - [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](../../questions/object-oriented-programming/composable-event-recommendation-campaign-engine-flexible-filters-ranking/README.md)
 - [Design a Recommender System Based on Price and Distance](../../questions/object-oriented-programming/design-a-recommender-system-based-on-price-and-distance/README.md)
-## How to Prepare
 
-- Rehearse building a small service from someone else's skeleton. You will not start from an empty file; you will start from provided domain classes and have to fit into them under time pressure.
-- Practise adding requirements to your own design mid-exercise. Write a city filter, then bolt on price, distance, and date filters without editing the first one. That drill is the interview.
-- Have a fallback rule ready. The product notes explicitly prefer a mediocre recommendation over an empty result, and candidates who never handle the empty case leave signal on the table.
-- Prepare a deadline-bound delivery design: fan-out to a queue, worker pool, time-zone-aware scheduling, idempotent sends, and delivery-versus-conversion tracking cover most variants of the design round.
-- Open the design round by asking for the altitude the interviewer wants, and restate it when you switch between components. Misalignment here has sunk otherwise clean sessions.
-- Bring one project story with a genuine conflict over requirements, since the manager round is explicitly hunting for stakeholder work rather than implementation detail.
-- Do not read a friendly room as a pass. Finish early, then spend the remaining time volunteering extensions — testing strategy, configuration, what breaks at marketplace scale — instead of chatting.
+## System design interview
+
+The design round also comes from StubHub's own operations, and usually centers on delivery within a deadline. Reported prompts include a marketing email system that sends two or three emails within a 15-minute window and handles time zones, A/B tests of content, and tracking of delivery and conversion; an internal chat system that also emails customers inactive for ten days; and a customer-support email path with a five-minute delivery bound.
+
+Sessions run about 60 minutes: roughly 45 on the design, ten on product-minded improvements, five for questions. Interviewers often work from a prepared requirement list and may ask few follow-ups. One candidate who clarified details step by step was steered back to high-level design, and missed how WebSocket connections route across servers until prompted, then added Redis Pub/Sub.
+
+Interviewers evaluate:
+
+- **Deadline guarantees:** Queues, workers, retries and idempotent sends that meet the stated time bound.
+- **Cross-server routing:** How messages reach a user connected to a different server.
+- **Scheduling details:** Time zones, inactivity triggers and campaign windows.
+- **Measurement:** Delivery tracking, conversion tracking and A/B test assignment.
+- **Altitude control:** Matching the level of detail the interviewer wants.
+
+Prepare one reusable design for scheduled, deadline-bound fan-out.
+
+> **Note:** Ask at the start whether the interviewer wants a high-level sketch or a component-level walkthrough. One rejected candidate traced the outcome to that mismatch, after a session that ended with positive feedback.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a marketing email system that sends two or three emails within 15 minutes, with time-zone handling, A/B testing and conversion tracking.
+- Design an internal chat system that also emails customers who have not logged in for ten days.
+- Design a path that delivers a customer-support email within five minutes of the request.
+
+- [Design Internal Chat and Re-engagement Emails](https://trueinterview.io/questions/design-internal-chat-and-re-engagement-emails)
+
+## How StubHub makes hiring decisions
+
+Each technical round is judged on its own; in one report both were marked unsuccessful although both felt positive. Decisions typically arrive within one or two days, and StubHub generally does not share feedback. Level is set before the on-site, so the loop tests whether you meet that level rather than placing you on a ladder.
+
+## How to prepare for the StubHub interview
+
+1. **Drill the strategy pattern:** Write a city filter, then add price, distance and date filters without touching the first one.
+2. **Practice inside a skeleton:** Rehearse extending provided domain classes and services under a 60-minute limit instead of starting from a blank file.
+3. **Handle the empty case:** Always return a fallback recommendation, as the product notes require.
+4. **Prepare one deadline-bound pipeline:** Queue, workers, time-zone scheduling, idempotent retries, delivery and conversion tracking, plus cross-server WebSocket routing.
+5. **Set the altitude early:** Ask how detailed the design should be, and confirm it again when you change components.
+6. **Show stakeholder ownership:** Bring a project where you shaped requirements with product managers.
+7. **Fill spare time with extensions:** Discuss tests, configuration and scale instead of chatting once the core task works.
+
+## About working at StubHub
+
+StubHub runs a global ticket resale marketplace, operating as StubHub in North America and viagogo internationally, and listed on the New York Stock Exchange in September 2025. Engineering teams are small relative to the business: engineers own ambiguous problems end to end and work closely with product, and senior roles add mentoring. Most US roles are hybrid, with offices in New York and Southern California.
+
+StubHub hires software engineers across buyer, seller and platform teams. Teams include:
+
+- **Supply Platform:** Systems that manage seller ticket inventory flowing into and out of the marketplace.
+- **Supply Integrations:** Connections with large sellers and external inventory systems.
+- **Seller Success:** Mostly front-end tools that help large sellers onboard and manage listings.
+- **Catalog:** The event and venue catalog behind search and listings.
+- **Core Experience and Consumer Experience:** Buyer-facing browsing, recommendations and checkout, including international markets.
+
+### Experience and education requirements
+
+Software Engineer II postings typically ask for three to five years of professional development experience, experience with distributed systems in a general-purpose language such as Java or C#, and, for full-stack roles, React. Senior postings ask for six to seven or more years, experience taking projects from idea to production, and mentoring. Posted degree requirements are minimal.
+
+## FAQs about the StubHub interview
+
+### How long does the StubHub interview process take?
+
+Reported loops moved quickly: stages typically about a week apart, and a decision one or two days after the last technical round. Rescheduling on the company's side can add weeks.
+
+### What is the hardest round of the StubHub interview?
+
+The system design round, because grading is opaque. The coding round is not hard algorithmically but is strict about extensible design.
+
+### Is there an online assessment?
+
+None of the recent reports included one. Candidates went straight from the recruiter screen to live interviews.
+
+### What language should I use in the coding round?
+
+Java and Python are both reported. Choose the one in which you define interfaces and compose classes fastest.
+
+### How much does a StubHub software engineer make?
+
+Posted US base salary ranges are roughly $165K–$230K for Software Engineer II and $200K–$275K for Senior Software Engineer. Total compensation adds equity and benefits on top of base.
 
 ---
 

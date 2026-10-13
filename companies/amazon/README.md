@@ -16,17 +16,32 @@ How Amazon interviews, and the questions candidates reported there. Free questio
 
 ## How Amazon interviews
 
-Amazon runs two evaluations at once in almost every hour: a technical exercise and a Leadership Principles interrogation, and candidates lose offers to either one. This page goes past the outline on the company page, drawing on 248 real Amazon questions and 135 candidate interview reports to show how each stage is run and graded, where the time goes, and what changed in 2026.
+Amazon grades two things in almost every hour: a technical exercise and Leadership Principles stories, usually about 30 minutes of behavioral questions and 25 of technical work. Candidates lose offers on either half. The decision comes from a debrief led by a Bar Raiser from outside the hiring team. Since 2025 the online assessment has included an AI-assisted debugging task, and a question about a time generative AI gave you a wrong answer has become close to standard.
 
-### Interview Process
+This guide breaks down each stage of the Amazon interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 137 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Amazon interview process
 
 <!-- guide-diagram -->
 ![Amazon interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/amazon/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Early-career candidates, and many experienced ones, now get a four-part assessment rather than two coding problems. Reports describe a 40-minute algorithm section, a 60-minute AI-assisted practical task, an untimed work simulation and an untimed work-style survey. Some versions put leadership and system-design multiple-choice questions in place of the simulation. The algorithm problems are dressed up as logistics: drone stops on a ring solved with prefix sums, inventory handed out by bid priority with round-robin ties, a sparse array of money-filled bag segments where a naive prefix array runs out of memory, or a grid where one extra delivery center must minimize the worst distance. The practical task is a small repository with about six failing tests, usually Django or Spring Boot, with Node.js and C++ also reported. Typical bugs are missing persistence, 401 versus 403 authorization gaps, a broken URL setting or a flipped comparison. The built-in assistant explains the file you have open but will not write the fix. Several candidates advanced without making every test pass. The link nominally expires after seven days, and one recruiter extended it by about a month on request.
+Each team runs its own hiring, so the technical topics follow the hiring team's domain while the structure stays fixed. The usual sequence is an online assessment for early-career and many SDE I/II candidates, then one to four phone screens of 45–60 minutes, then a loop of four to five hour-long rounds. Reported loops ranged from two rounds for rehires to seven. The whole process takes anywhere from about a month to more than six months.
 
-**Phone screens.** Expect one to four calls of 45–60 minutes. Some pipelines run them back to back, and internal transfers can face three or four. The usual split is about 30 minutes of behavioral questions and 25 of technical work, though some calls run 20/30. Coding happens in a shared editor with no execution. The technical half varies a lot. Many candidates get a classic problem (topological sort shows up more than any other family), but others get object-oriented design from a two-sentence prompt, a Java service that routes JSON events, an API-and-schema design, or an open design question such as a robot that avoids people. Several of these came after a recruiter promised pure coding. A generative-AI question is now close to standard: how you use AI tools, and a time one gave you a wrong answer. Results often arrive the next business day.
+Interns and new grads often get two back-to-back hours, and some new-grad loops were held in person over two days. For summer 2026 internships, the pipeline was reportedly reorganized into an assessment, a technical interview, and a hiring-manager interview that also serves as team matching. SDE II (L5) loops add system design, and L6 loops have two or more design rounds.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short, non-technical call about the role, level, location and the rounds ahead.
+- **Online assessment (early career and many SDE I/II):** A 40-minute algorithm section and a 60-minute AI-assisted repository task, followed by untimed work-simulation and work-style sections.
+- **Phone screens (one to four):** 45–60 minute calls, about half principles and half coding or design, in an editor that does not run code.
+- **Coding interviews:** Two or three loop rounds, each with principle questions followed by one or two medium problems.
+- **Design and domain interviews:** Low-level and system design for engineers, UI and fundamentals for frontend, and ML design or science depth for ML and science tracks.
+- **Bar Raiser interview:** A mostly behavioral hour with a trained interviewer from outside the team, sometimes held on a separate day.
+
+> **Tip:** Practice a 25-minute technical slice in a plain editor: confirm the requirements, write a working baseline, then describe improvements. In the reports, most failed technical segments ran out of time rather than being wrong.
 
 **[Read the full Amazon interview process →](interview-process.md)**
 

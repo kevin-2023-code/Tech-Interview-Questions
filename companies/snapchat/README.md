@@ -16,21 +16,32 @@ How Snapchat interviews, and the questions candidates reported there. Free quest
 
 ## How Snapchat interviews
 
-Snapchat's loop looks like a standard big-tech process on paper, but the details that decide outcomes — how behavioral probing is folded into technical rounds, how bare the coding environment is, and how the panel scores across rounds — are rarely written down anywhere. This deep-dive fills in those specifics, drawing on 20 real Snapchat questions and 24 candidate interview reports.
+Three details decide most Snapchat outcomes. Behavioral questions are not confined to one slot: candidates on both tracks describe five to ten minutes of collaboration or trade-off probing inside nearly every technical round. Coding happens in a bare editor and is usually extended after the first working version. The final call goes to a review of the whole panel, where clearing roughly three of four technical rounds is the reported threshold, and that review can offer a lower level than the one you interviewed for.
 
-### Interview Process
+This guide breaks down each stage of the Snapchat interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 23 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Snapchat interview process
 
 <!-- guide-diagram -->
 ![Snapchat interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/snapchat/process.webp)
 <!-- guide-diagram -->
 
-The recruiter conversation is a 30–45 minute logistics and background call, and the whole process typically wraps up in three to six weeks. Scheduling between stages is usually quick, but the back end of the process is slower than the front: several candidates describe multiple quiet days between the final round and a decision, and rejections generally arrive as an automated email with no round-level feedback. If leveling matters to you, pin it down early — candidates targeting senior roles have completed the full loop only to be offered a level below the one they interviewed for.
+Content follows the hiring team: ads teams ask about click aggregation, Stories teams about ephemeral media, and mobile teams add a platform round. A typical process runs three to six weeks: a recruiter call, one technical phone screen, and an onsite of four to six rounds of 45–60 minutes. Several loops on both tracks ran entirely as three or four phone interviews with no separate onsite day.
 
-The technical phone screen runs about 60 minutes in a shared online editor. Plan for one or two coding problems plus a 15–20 minute project deep-dive; the interviewer will push past the summary into your specific decisions, metrics, and what you would redo. The editor is deliberately plain — no syntax highlighting, no autocomplete, no test runner — so typos and scoping mistakes that an IDE would catch instantly can quietly sink an otherwise correct solution. Some loops, especially for remote or ML-adjacent roles, run entirely as a series of three or four phone calls with no separate onsite.
+Software Engineer loops are usually two coding rounds, one or two system design rounds, and a behavioral or team conversation; a Level 5 loop had two of each. Machine Learning Engineer loops swap a coding round for ML system design, a fundamentals round and a project retrospective, and new grads still sit ML design. Staff candidates reported a design-only phone screen and a product-sense round.
 
-The virtual onsite is typically four to six rounds of 45–60 minutes each, most commonly two coding rounds, one or two design rounds, and a behavioral or team conversation, sometimes closed by an informal Q&A with a future teammate. Two structural quirks matter. First, behavioral questioning is not confined to its own round: candidates consistently report 5–10 minutes of collaboration, conflict, or trade-off questions embedded in nearly every technical session. Second, the agenda is not always announced in advance — more than one candidate walked into an unexpected system design round, so prepare for the full spread even if the recruiter only mentions coding.
+Here's what the interview process can look like:
 
-Coding difficulty sits at LeetCode medium with occasional hard follow-ups, but Snapchat's question bank is large and repeats are rare, so pattern fluency beats memorization. The recurring format is a familiar pattern wearing a new costume: an island problem that asks for the maximum perimeter instead of a count, a cache with weighted item sizes instead of unit counts, a BFS grid where the obstacle spreads over time. Interviewers almost always continue after a working solution — asking for a space optimization, a changed constraint, or a concurrency-safe version — and grade the follow-up discussion as heavily as the first pass. On scoring, candidates report the panel effectively requires passing roughly three of four technical rounds; failing two is usually fatal.
+- **Recruiter screen:** A 30–45 minute call on background, motivation, target level and the round list.
+- **Technical phone screen:** About 45–60 minutes in a shared editor with a resume or behavioral segment and one or two coding problems; ML candidates may get fundamentals or ML design instead.
+- **Coding interviews:** Medium algorithm problems with a twist, or a from-scratch component build such as a custom list or an in-memory pub/sub system.
+- **System design and ML design interviews:** Product-grounded design for engineers; ranking, recommendation and retrieval design for ML candidates.
+- **ML fundamentals interview (ML track):** A fast question-and-answer round on regularization, normalization, optimizers and transformers.
+- **Behavioral and hiring manager conversation:** Project scrutiny and values questions, often paired with a team Q&A.
+
+> **Tip:** Ask the recruiter for the round list and target level in writing, then prepare for every format anyway. Candidates were surprised by an unannounced system design round and by a downlevel offer after a completed loop.
 
 **[Read the full Snapchat interview process →](interview-process.md)**
 

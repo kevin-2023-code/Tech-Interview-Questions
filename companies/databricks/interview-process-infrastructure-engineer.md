@@ -6,103 +6,267 @@
 
 ---
 
-Infrastructure candidates arrive braced for the distributed-systems round and are usually broken somewhere else. The hour that ends loops is a single-machine one: writing bytes to disk correctly under concurrency, where the follow-ups run batching, fsync, group commit, log truncation and lock contention, and where a candidate with positive feedback everywhere else named a multi-threaded write-to-disk design as the round that sank them. The networking screen is the second trap, because it opens as a warm-up — match an IP against a list of CIDR rules — then escalates inside the same hour to block-versus-block coverage and overlapping-range intersection, difficulty one candidate called unreachable without prior exposure to interval data structures.
+The Databricks Infrastructure Engineer loop is decided less by distributed-systems vocabulary than by single-machine implementation. Its signature hour asks you to write bytes to one disk correctly while thousands of threads call in, then defend batching, fsync, crash recovery and lock contention, and candidates with strong feedback elsewhere named it as the round that sank them. The phone screen opens with matching an IP against ordered CIDR rules, then asks whether a whole CIDR block survives overlapping allow and deny rules.
 
-## Interview Process
+Passing every interview does not end it: references follow the onsite, a committee weighs the packet, and one negative hiring-manager read has outweighed three strong-hire ratings. This guide breaks down each stage of the Databricks Infrastructure Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 70 candidate-reported interview experiences, primarily from 2025 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Databricks Infrastructure Engineer interview process
 
 <!-- guide-diagram -->
 ![Databricks Infrastructure Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/databricks--infrastructure-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen — about 30 minutes, phone.** Background, target level, location and visa, competing processes. Infrastructure candidates are frequently sourced by cold outreach rather than applications, and the call establishes which part of the platform organization you are routed toward, since matching happens early and the loop is assembled around it. It also carries weight on employment history: candidates have been rejected shortly after this call over how they explained leaving a current role, or a missing internship return offer.
+Infrastructure candidates sit on the general software engineering ladder, but the loop is assembled around the platform team, so prompts skew toward networking, durability and concurrency. The skeleton is a recruiter call, one or two technical screens, and a virtual onsite of four to six rounds of 45 to 60 minutes, then references and a committee decision. It typically runs four to eight weeks.
 
-2. **Technical phone screen — 45 to 60 minutes, live code.** The signature prompt is networking as executable logic: convert a dotted-decimal address to a 32-bit integer, evaluate an ordered allow and deny list with first-match semantics, return the matching rule. The escalation decides it — whether a whole CIDR block is covered rather than a single address, how to eliminate rules without scanning the list, and interval-intersection queries over overlapping blocks, with tries and segment trees as the expected answers. Some screens are deliberately broad instead, moving briskly through subnet arithmetic, a messaging-platform sketch, a thread-safe event logger and a sliding-window hit counter in one hour. At staff level a screen has consisted entirely of designing a distributed file system, with no coding.
+New-grad loops weight coding and the systems-programming hour, and design can be a schema-and-API conversation. Senior loops add a full distributed design round, sometimes two; one staff screen was an hour of distributed file system design with no coding.
 
-3. **Onsite coding round — 45 to 60 minutes.** The algorithm slot is systems-flavoured rather than puzzle-flavoured: predicate pushdown over a logical query-plan tree handed to you in an unfamiliar representation, bitwise aggregation over a stream too large for memory with a follow-up demanding a partitioned external plan, run-length and bit-packing encoders, and a directory-tree optimization where per-request and per-file costs force a tree dynamic program over batch-versus-individual API calls. Complete, running code inside the hour is the bar.
+Here's what the interview process can look like:
 
-4. **Onsite systems-programming round — 45 to 60 minutes.** The track's centre of gravity, and an implementation hour rather than a discussion. Reported tasks: a durable data writer; a thread-safe log writer with a background flush thread and a master coordinating disk writes; a single-machine cache combining an in-memory map, write-ahead logging, fine-grained locking and LRU eviction; an iterator over MVCC-versioned values that walks a version chain to serve reads at a given snapshot identifier. Interviewers probe replay after a crash, when the log may be truncated, how writes batch into the WAL, and contention when throughput spikes. Circuit breakers with closed, open and half-open states appear in the same slot, driven by an injected lambda simulating a failing downstream.
+- **Recruiter screen:** About 30 minutes on background, level, location and, pointedly, why you are leaving your current role.
+- **Technical phone screen (one or two):** 45 to 60 minutes of live coding on a problem that escalates mid-hour, usually networking or windowed metrics.
+- **Coding interviews (one or two):** Hour-long implementation rounds on systems-flavored APIs, with tests you write and run.
+- **Systems-programming interview:** A thread-safe, durable writer, cache or log, implemented and probed on concurrency and crash recovery.
+- **System design interview (one, sometimes two at senior levels):** Infrastructure surfaces such as file systems, schedulers and rate limiters, driven by you.
+- **Hiring manager and behavioral interview:** STAR questions plus a granular audit of one past project, often with an operational slant.
 
-5. **Onsite distributed design round — 45 to 60 minutes, whiteboarding only.** Prompts skew to infrastructure surfaces: a distributed file system, a VM allocation service with its API and schema and request workflow, a scheduler over an arbitrary job dependency graph, a CRUD service extended into asynchronous worker pools. You are expected to drive. In the distributed file system rounds the entire session went to the metadata layer — namespace sharding, avoiding a metadata bottleneck, replication and consistency choices, crash recovery. Senior loops sometimes carry a second design hour.
+> **Tip:** Budget each technical hour as two problems. The base case is a 15-minute warm-up, and the follow-up that changes the answer's shape arrives with about 20 minutes left; candidates who spent half the hour polishing part one were rejected even when it was clean.
 
-6. **Hiring manager and behavioral round — 30 to 45 minutes plus your questions.** Structured STAR questions on disagreement, feedback, ambiguity and cross-team work, wrapped around a granular audit of one resume project. On this track the deep dive gravitates to operational history, so bring an incident with real failure modes, the signals you watched, and the trade-off you took. A negative read here has overridden strong technical feedback outright.
+## Recruiter screen
 
-7. **References, committee and team match — days to several weeks.** References are requested before the decision and typically include a manager plus more senior colleagues; the packet then goes to a committee that ranks candidates against one another, and some candidates additionally wait on team matching. Rejections have arrived as fast as four days after the onsite with no feedback.
+The 30-minute call covers background, target level, location, visa and competing processes. Many infrastructure candidates are sourced through recruiter or hiring-manager outreach, and the call shapes which platform team the loop is built around; some waited on team matching before the onsite.
 
-## What They Actually Evaluate
+It carries real weight on employment history. One candidate was rejected two days later with a missing internship return offer named as the reason; another blamed an unconvincing answer about leaving a current job. Candidates also found the actual prompts diverged from the recruiter's outline.
 
-### Coding and Algorithm
+Interviewers evaluate:
 
-One to two live coding hours at the hard end of medium, with the second part carrying the grade. Networking and bit-level fluency is assumed rather than taught: subnet arithmetic without slowly counting bits, and masking, tries or prefix elimination without hints. Signal is lost by finishing part one late and by treating the escalation as an afterthought — one candidate solved the CIDR base case cleanly, offered sorting by prefix length for the elimination follow-up, and was rejected despite completing every stated task.
+- **A clean career narrative:** A specific, non-defensive reason for leaving and for any gap or missing return offer.
+- **Motivation for Databricks infrastructure:** Why multi-cloud compute or storage work, not generic interest in data and AI.
+- **Level fit:** Scope of systems you have owned, which sets the bar for the design rounds.
+
+Prepare a factual two-sentence account of every job transition.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Why are you leaving your current role, and why now?
+- Why did your last internship not end in a return offer?
+- Why Databricks, and how well do you know the platform?
+
+## Technical phone screen
+
+The screen is 45 to 60 minutes of live coding in a shared editor, with tests you write yourself. The infrastructure signature is network access rules as code: convert a dotted-decimal IPv4 address to a 32-bit integer, build masks from prefix lengths, and return the action of the first matching rule in an ordered allow and deny list, checking `0.0.0.0/0`, `/32` and reordering.
+
+Escalation decides the round. Follow-ups make the query itself a CIDR block, or carve allowed overlaps out of a target block, fail on any denied overlap, and return true only if nothing remains. Scaling to millions of rules brings in tries and segment trees. Other screens use windowed metrics, such as a key-value store reporting put and get rates over five minutes at hundreds of thousands of queries per second; Fibonacci-tree index arithmetic and multi-mode grid paths also recur. A few screens are deliberately broad: subnet arithmetic, a messaging sketch, a multi-threaded event logger and a hit counter in one hour. Results usually arrive within two days; one rejection came four hours after the call.
+
+Interviewers evaluate:
+
+- **Bit-level fluency:** Network address, broadcast address and usable hosts computed without slowly counting bits.
+- **Reaching the follow-up:** Block containment or overlap removal implemented, not just described, before time runs out.
+- **The intended scaling structure:** A prefix trie or interval structure for rule elimination. One candidate who proposed sorting rules by prefix length was rejected after completing every stated task.
+- **Test discipline:** Self-written boundary cases, plus a clear convention for errors and no-match results.
+
+Drill IPv4 and CIDR bit manipulation until the base case takes under 15 minutes, then practice range subtraction over overlapping blocks.
+
+> **Note:** On the five-minute rate problem, one candidate's working ring buffer divided by 300 seconds even when the server had run for only a few. The interviewer flagged it, and the candidate believed that edge case caused the rejection four days later. Follow-ups then stretched the window to 300 days or made traffic bursty and sparse.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given ordered allow and deny rules in CIDR notation, return whether an IP is allowed under first-match semantics, then accept a CIDR block as the query.
+- Given a target block and an ordered rule list, remove allowed overlaps, fail on any denied overlap, and report whether the target was fully covered.
+- Size memory for 1,000 timestamped writes per second over five minutes and then 24 hours, and redesign when it no longer fits.
 
 - [Firewall CIDR Rules](https://trueinterview.io/questions/firewall-cidr-rules)
-- [Integer Stream Encoder/Decoder](https://trueinterview.io/questions/integer-stream-encoder-decoder)
+- [Check if CIDR is fully canceled by rules](https://trueinterview.io/questions/check-if-cidr-is-fully-canceled-by-rules)
+- [Compute last-5-minute QPS in memory](https://trueinterview.io/questions/compute-last-5-minute-qps-in-memory)
+- [Design Hit Counter with Variable Time Windows](https://trueinterview.io/questions/design-hit-counter-with-variable-time-windows)
+
+## Coding interviews
+
+Onsite coding rounds run 45 to 60 minutes and are implementation exercises, often extending a provided skeleton. Infrastructure prompts lean toward data-system internals: a query-plan optimizer applying predicate pushdown and a second rewrite with runnable tests; a hybrid run-length and bit-packing encoder with an iterator decoder; a directory tree where each folder chooses per-file encryption or one fixed-cost folder-wide call. Lazy arrays, snapshot sets and key-value stores with hit counters fill the rest.
+
+Grading favors complete, running code. Interviewers add their own tests, such as negative values and integer limits; one candidate rewrote a decoder after missing the iterator requirement, and another was pressed on a mocking library. A candidate on a distributed data systems team found that loop noticeably harder than general ones.
+
+Interviewers evaluate:
+
+- **Reading the specification:** Iterator versus batch output, and whether order must be preserved. One candidate built an ordered structure the problem never required and was rejected.
+- **Data-system correctness:** Predicates pushed only where semantics allow, and encodings that round-trip at integer limits.
+- **Optimal structure on request:** O(1) snapshot creation without copying, and O(log n) ordered updates instead of sorted-array inserts.
+- **Testing as part of the answer:** Tests that prove laziness or confirm a plan rewrite preserves results, written and run in the editor.
+
+Practice extending an unfamiliar skeleton in 45 minutes, finishing with your own tests at integer and empty-input boundaries.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Rewrite a logical query plan by pushing filters below projections and joins, then prove the rewrite with runnable tests.
+- Encode a stream of integers by choosing run-length or bit-packing per run for the shortest output, and decode it lazily as an iterator.
+- Count encrypted files in a directory tree, then minimize total cost when a folder-wide call re-encrypts everything below it at a fixed price.
+- Build a set whose iterators see the contents at creation time, with O(1) iterator creation and space linear in elements plus live iterators.
+
 - [SQL Query Plan Optimizer](https://trueinterview.io/questions/sql-query-plan-optimizer)
+- [Run-Length Encoding (RLE)](https://trueinterview.io/questions/implement-rle-and-bit-packing-compression-run-length-encoding-rle)
+- [Encode And Decode](https://trueinterview.io/questions/integer-stream-encoder-decoder)
+- [File Encryption Tree Optimization](https://trueinterview.io/questions/file-encryption-tree-optimization)
+- [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6)
 
-### Low-Level Design
+## Systems-programming interview
 
-The durability and concurrency hour is what this track is really hired on. Signal comes from separating the plain API from the durability machinery and stating which guarantee each layer provides — a buffered append is not durable until fsync returns, group commit amortizes that fsync across transactions, the log can only be truncated past a checkpoint. It is lost by an unsubstantiated lock-free claim; interviewers ask which memory-visibility guarantee you rely on, and a correct explainable mutex design outscores a hand-waved atomic one. Candidates who could describe these mechanisms but not implement them stalled here.
+This hour decides the track most often. A typical prompt: thousands of threads share one writer object, each calling `push` with up to 1 KB of bytes that must be appended durably to a local file. Variants include a buffered log writer with a background flush thread, a log writer whose every write is synchronous, a master thread coordinating disk writes, a write-ahead-logged cache with sharded locks and LRU eviction, and a cache with blocking reads. Circuit breakers land here too: a primary and two replicas, each opening after two consecutive failures, driven by an injected function simulating the backend.
+
+Follow-ups go below the API: when data is durable relative to fsync, what group commit buys, when the log can be truncated, how replay works, and where the lock is contended at peak. Some interviewers accepted a walk-through; others ran tests, and one candidate whose durable writer still had bugs believed it decided the rejection.
+
+Interviewers evaluate:
+
+- **Separation of layers:** A plain append API kept apart from buffering, flushing and durability, with the guarantee of each layer stated.
+- **Correct synchronization:** Condition waits that do not spin. One candidate's use of a broadcast wake-up was judged to leave busy-waiting unresolved, which failed the round.
+- **Defensible concurrency claims:** Naming the memory-visibility guarantee you rely on. A correct mutex design outscores a hand-waved lock-free one.
+- **Crash semantics:** What is lost on a crash before flush, how recovery replays the log, and what shutdown must drain.
+
+Implement a write-ahead-logged store and a batched multi-threaded file writer end to end before the loop, including a crash-and-replay test.
+
+> **Note:** Candidates who could describe write-ahead logging but had never implemented one stalled here. One candidate passed every other round and was rejected on a blocking cache; another named a multi-threaded disk-write design as the round that sank them.
+
+### Sample questions for the systems-programming interview
+
+Here are some questions reported by recent candidates:
+
+- Implement a thread-safe, durable writer that thousands of threads call with byte arrays up to 1 KB, appending to one local file under high load.
+- Design a single-machine key-value cache with write-ahead logging, sharded fine-grained locks, LRU eviction and deadlock avoidance.
+- Route database requests across a primary and two replicas, each with a circuit breaker that opens after two consecutive failures.
 
 - [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md)
-- [Multi-Threaded Chat System](https://trueinterview.io/questions/multi-threaded-chat-system)
+- [Design a single-node persistent in-memory cache](https://trueinterview.io/questions/design-a-single-node-persistent-in-memory-cache)
 - [Implement Circuit Breaker Pattern](https://trueinterview.io/questions/implement-circuit-breaker-pattern)
-- [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system)
+- [Circuit Breaker Based Database Replica Routing](https://trueinterview.io/questions/4ce104e2-73c6-501b-8be8-92ced07f6431)
 
-### System Design
+## System design interview
 
-One hour, occasionally two at senior levels, and the expected depth scales sharply with level. Mid-level sessions can stay at the core flow — one interviewer explicitly waived scaling and middleware. Staff-level sessions do not: an entire hour inside the metadata layer of a distributed file system, sustained interrogation on namespace sharding, replication and consistency model, and crash recovery, with no hand-holding. The failure mode is a component inventory with a happy path.
+The design round is 45 to 60 minutes of discussion, sometimes in typed notes rather than diagrams. Infrastructure prompts include a distributed file system, a scheduler over an arbitrary job dependency graph, a CRUD service extended into an asynchronous job pipeline, a host bandwidth limiter guaranteeing each virtual machine a minimum, and a write-ahead-logged key-value cache. Product prompts appear too: chat with message deletion, a book-seller platform fanning out to dozens of vendors, a stock-order service cancelling at deadlines.
+
+Depth scales with level. Mid-level sessions can stay at APIs, schema and flow; one interviewer waived scaling. One staff-level file system round spent the whole hour in the metadata layer: namespace sharding, the metadata bottleneck, replication, consistency and crash recovery. Candidates are expected to raise idempotency, timeouts and duplicate requests themselves.
+
+Interviewers evaluate:
+
+- **Driving the session:** Requirements, API and data model stated before components, then depth where the interviewer steers.
+- **Metadata and state ownership:** Where state lives, how it is sharded, and how it recovers after a crash.
+- **Failure handling you raise yourself:** Retries with idempotency keys, compensation when a later step fails, and circuit breaking toward slow dependencies.
+- **Numbers at senior levels:** A component list with a happy path is the common failure mode for staff candidates.
+
+Prepare a distributed file system and a dependency-graph scheduler to the depth of their metadata and recovery paths.
+
+> **Tip:** For file-system prompts, candidates recommend studying how GFS and HDFS separate metadata from data. Questioning stays on metadata and recovery rather than moving to new components.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a distributed file system with uploads, reads and directory operations, keeping the namespace consistent and recoverable.
+- Design a scheduler that runs jobs with arbitrary dependencies, detects cycles and handles failed jobs.
+- Design a rate limiter so the virtual machines on one host never exceed its total bandwidth while each keeps a guaranteed minimum.
 
 - [Distributed File System](https://trueinterview.io/questions/distributed-file-system)
+- [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md)
+- [Design A VM Bandwidth Rate Limiter](../../questions/system-design/design-a-vm-bandwidth-rate-limiter-2/README.md)
 - [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log)
-- [Design a Distributed Job Scheduler for GPU Compute Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform)
 
-### Domain Deep Dive
+## Hiring manager and behavioral interview
 
-Storage and database internals are examined as working knowledge, not vocabulary. Sessions have turned on how snapshot isolation actually resolves a read — walking a per-value version chain, skipping uncommitted or newer entries, handling keys with no visible version — on the trade-off between a global append-only log and per-key version lists, and on whether an in-memory design still holds when retention grows from five minutes to twenty-four hours.
+Expect 30 to 60 minutes with a hiring manager or senior engineer: questions on disagreement, feedback, ambiguity and cross-team work around a granular audit of one project. Some loops split it into a cross-functional conversation about on-call surprises and a tech-fit session presenting projects to an organization's technical lead. Some interviewers press deliberately, cutting answers off or questioning harshly. The round carries outsized weight: one very negative hiring-manager read overrode three strong-hire ratings.
 
-- [SnapshotSet with Iterator](https://trueinterview.io/questions/snapshotset-with-iterator)
-- [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree)
+Interviewers evaluate:
 
-### Behavioral and Leadership
+- **Depth on one system:** The schema, the alternatives you discarded and why, defended down to specifics.
+- **Operational judgment:** An incident with its signals, the trade-off you took and what changed afterward.
+- **Handling disagreement:** Feedback you disagreed with, what you did next, and what you would do differently.
+- **Cross-functional range:** Work that required coordinating with other teams, a theme senior candidates found emphasized.
 
-The recruiter call and the manager round each carry behavioral weight and each has independently ended a technically clean loop. The manager round is a depth test disguised as a fit conversation: it rewards one system you can defend down to the schema and the alternatives you discarded, and punishes generic teamwork narratives.
+Prepare one infrastructure project you can defend for 30 minutes and one incident story with concrete metrics.
 
-## What They Don't Test
+### Sample questions for the hiring manager and behavioral interview
 
-- No take-home and no automated assessment appear in any report; every stage is a live hour with an engineer, so timed auto-graded practice trains the wrong reflex.
-- Product trivia about the company's own platform never comes up. The internals that do are vendor-neutral — fsync semantics, group commit, write-ahead logging, MVCC, LRU eviction, query-plan rewriting.
-- Cloud-service breadth earns nothing. Prompts are single systems taken deep, and naming managed services is no substitute for a metadata shard-recovery path.
-- Configuration and tooling knowledge is absent: nothing resembling a container-orchestration or infrastructure-as-code quiz. The infrastructure examined is one you implement, not one you configure.
-- Verbal elegance does not clear the coding bar. Interviewers run the code and ask for tests; fluency in your language's concurrency and testing primitives is assumed rather than excused.
+Here are some questions reported by recent candidates:
 
-## The Real Filter
+- Describe the hardest technical challenge you have faced and your biggest mistake.
+- Tell me about feedback you disagreed with and how you handled it.
+- How do you respond to an on-call surprise in a system you do not own?
 
-The primary rejection path is depth on durability and concurrency internals that candidates assume they can reason out live. Infrastructure candidates prepare architecture and arrive fluent in replication and consensus, then meet an hour about a single machine writing to a single disk: when fsync returns, what group commit buys, when the log can be truncated, where the lock is contended. Deriving these from first principles under time pressure reads as hedging; the candidates who did well had implemented a WAL-backed store before, not read about one.
+- [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round)
+- [Describe project impact and critical feedback](https://trueinterview.io/questions/describe-project-impact-and-critical-feedback)
+- [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752)
 
-Second: the escalating screen. CIDR matching is not the question — block containment and overlapping-range queries are, and they arrive with twenty minutes left. Budgeting the whole hour for the base case loses the round even when the base case is clean, and one candidate who completed every stated task was still rejected because the elimination strategy was not the one the interviewer wanted.
+## How Databricks levels and evaluates Infrastructure Engineer candidates
 
-Third: the packet after the interviews. References are collected before the decision and weighted, and a candidate was rejected specifically for being unable to produce a current-manager reference. The committee then ranks candidates against one another, so a technical pass is relative — one was told after sign-off that a cross-candidate ranking decided it, another cleared everything and lost the role to headcount.
+A hiring committee reviews the full packet: interview scores, references and team fit. References are requested within days of a passed onsite, typically three including a manager and a senior colleague or technical lead. One candidate was rejected for lacking a current-manager reference; others with strong technical feedback were rejected at committee without a technical reason, one citing headcount. Candidates are compared against one another, so a pass is relative.
 
-## Data Source
+The target level is set before the loop, and design and systems-programming depth carry most of the level signal; an extra coding screen has occasionally been added after the onsite. Decisions typically arrive within one to two weeks of references, and feedback is rarely given.
 
-Based on 70 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+> **Tip:** Line up a current manager as a reference before the onsite; the request arrives within days, and a missing one has ended an otherwise passing loop.
 
-## FAQ
+## How to prepare for the Databricks Infrastructure Engineer interview
 
-**What is it like to work at Databricks in an infrastructure role?**
+1. **Implement durability, do not just describe it:** Build a write-ahead-logged key-value store and a batched multi-threaded file writer with a crash-and-replay test before the onsite.
+2. **Master IPv4 and CIDR arithmetic:** Practice first-match rule evaluation, block containment and overlap subtraction, and know when a prefix trie beats a linear scan.
+3. **Plan every hour for the follow-up:** Finish the base case in 15 minutes so that range queries, configurable windows or cost optimizations get the remaining time.
+4. **Get synchronization exactly right:** Use condition waits without spinning, state the visibility guarantee you rely on, and prefer a correct lock over an unproven lock-free design.
+5. **Write tests as part of every answer:** Cover integer limits, empty inputs, short uptime and ordering assumptions, and know your language's mocking and clock-injection tools.
+6. **Prepare two infrastructure designs to metadata depth:** A distributed file system and a dependency-graph scheduler, each with sharding, consistency and recovery choices justified.
+7. **Rehearse the narrative rounds and references:** Script each job change, prepare one project and one incident to defend under interruption, and have a current manager ready as a reference.
 
-Our reports document the hiring loop rather than the job. Infrastructure charters here are large — compute abstractions, workload orchestration and scheduling, fleet management across multiple clouds — and engineers describe unusual autonomy and ownership on flat teams. The counterweight is intensity: work-life balance is the most criticized dimension, with periodic crunch around ship dates and a structured in-office expectation at most locations.
+## About the Databricks Infrastructure Engineer role
 
-**What is the engineering culture like?**
+Infrastructure engineers build the multi-cloud platform under Databricks' products: compute launching very large numbers of virtual machines daily across AWS, Azure and GCP, systems managing thousands of Kubernetes clusters, and deployment tooling. Teams own services end to end, including on-call, and the published principles (customer obsessed, raise the bar, truth seeking, first principles, bias for action, company first) shape behavioral discussions.
 
-The interview content is an unusually direct sample of it. Every recurring prompt is a shrunken version of platform work — a durable writer, a WAL-backed cache, a dependency-graph scheduler, a query-plan rewriter — and grading rewards production reasoning over cleverness. Interviewers steer toward crash recovery, contention and partial failure rather than asymptotics.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L3 (Software Engineer) | Well-scoped features and services with guidance | A component within one team |
+| L4 (Software Engineer) | Owning services through design, delivery and operations | A team's systems |
+| L5 (Senior Software Engineer) | Leading designs, reliability and cost trade-offs, mentoring | Several services and neighboring teams |
+| L6 (Staff Software Engineer) | Technical direction for a platform area | An organization's architecture |
 
-**How hard is it to get in?**
+Databricks hires Infrastructure Engineers across its platform organization. Teams include:
 
-Hard, and back-loaded. The coding bar is complete, tested, running code on problems that change shape mid-hour, the systems round assumes internals you cannot bluff, and outcomes skew heavily toward rejection — including candidates whose feedback was positive in every round. A rejection can carry a one-year cooldown.
+- **Serverless Compute Platform:** The compute layer behind the serverless product lines, including efficiency and margin work.
+- **Compute Fabric (Clusters):** The serverful cluster platform, aimed at reliable, cost-competitive compute.
+- **Infrastructure and Tools:** Multi-cloud systems and services that run Kubernetes clusters at scale, plus build and deployment tooling.
+- **Execution Sandbox:** Isolated execution for user code, including GPU onboarding and managed REPL environments.
 
-**Which round is hardest?**
+### Infrastructure Engineer experience and education requirements
 
-The systems-programming hour, by self-report and by the shape of the failures: it is where candidates who considered distributed systems their strength still rated their own performance weakest. The escalated networking screen is a close second, since it can end the process before an onsite is scheduled. The design round is punishing at staff level, where the whole hour can sit inside a metadata layer.
+Postings ask for a bachelor's degree or higher in computer science or a related field: two or more years of backend work at mid level, five or more at senior, and about ten of large-scale distributed systems at staff. Java, Scala, Go and C++ are common, and Kubernetes experience is preferred for compute roles. Interviews accept any mainstream language.
+
+## FAQs about the Databricks Infrastructure Engineer interview
+
+### How long does the Databricks Infrastructure Engineer interview process take?
+
+Usually four to eight weeks. Reported spans run from about two weeks for a fast senior loop to about twelve for a new graduate, with team matching and references causing most waits.
+
+### What is the hardest round of the Databricks Infrastructure Engineer interview?
+
+The systems-programming hour; even candidates strong in distributed systems rated it their weakest. The escalating CIDR screen is second because it can end the process before an onsite.
+
+### Can you write pseudocode in the systems-programming round?
+
+Databricks' own preparation material allows it, but some interviewers ran tests against the code, so plan for working code and use pseudocode only when told.
+
+### How much does a Databricks Infrastructure Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **L3 (Software Engineer):** ~$250K
+- **L4 (Software Engineer):** ~$410K
+- **L5 (Senior Software Engineer):** ~$630K
+
+Packages combine base salary with restricted stock units that vest over four years, a quarter after the first year and the rest in equal installments. Stock makes up most of the package at senior levels.
+
+### What happens after a rejection?
+
+Feedback is rarely shared, and candidates rejected after the screen reported a one-year cooldown before reapplying.
 
 ---
 

@@ -16,19 +16,33 @@ How Ramp interviews, and the questions candidates reported there. Free questions
 
 ## How Ramp interviews
 
-Ramp interviews at every stage test the same thing from different angles: can you turn an underspecified, evolving requirement into working, extensible code quickly. This guide goes deeper than the process outline on the company page — stage-by-stage formats, the recurring problem families, and how candidates actually pass or fail — grounded in 22 real Ramp questions and 28 candidate interview reports in our library.
+Ramp interviews almost never use textbook algorithm puzzles. Nearly every round is a small, realistic build: a banking or file-storage system that grows level by level, a crawler that must survive 503 and 401 responses, a recurring-charge detector with no definition of "recurring." Speed, correctness and how you handle ambiguity without help are graded together. Interviewers are often close to silent, and several candidates who passed every test were still rejected. A dedicated AI-assisted coding round, plus questions about your AI workflow in most conversations, sets the loop apart.
 
-### Interview Process
+This guide breaks down each stage of the Ramp interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 21 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Ramp interview process
 
 <!-- guide-diagram -->
 ![Ramp interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/ramp/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Most software engineering funnels start with a CodeSignal assessment, and it comes in two reported shapes. The first is a 45-minute single problem: a sliding-window rate limiter keyed by IP address, or a request-processing simulation that computes final balances and cashback across bank accounts. The logic is rarely algorithmically hard; the challenge is a long problem statement full of conditional rules you must not misread. The second shape is a 90-minute, four-level progressive build in the industry-coding style: levels unlock sequentially, each layering requirements onto your earlier code. Reported subjects rotate through a recipe manager, a hierarchical task management system, an in-memory banking simulator, and a cloud storage or file system. Later levels reliably add the same families of complexity — case-insensitive uniqueness, search with multi-key sorting (one key descending, the tiebreaker ascending), per-user ownership checks, quotas and rolling-window assignment limits, version history with rollback, and capacity arithmetic across copy/compress operations. Correctness is what is graded, not efficiency; candidates who reach level four usually credit an extensible data model chosen in the first ten minutes. You typically get a multi-day window to start once the link arrives, and invitations can come within days of a cold application. Two caveats from recent reports: some rejections arrive the same day as the OA invite through automated pre-screening, and finishing early with all tests passing does not guarantee advancing.
+The order of the stages is stable, but the content depends on the track. Backend and full-stack candidates get simulation-style online assessments and HTTP-heavy live coding. Frontend candidates get a React and DOM assessment. A typical funnel runs from an online assessment to a 45–60 minute technical screen, then a virtual onsite of three to five rounds totaling about four hours. Candidates usually describe a few weeks from application to decision, though some recruiter-led processes took about two months.
 
-Frontend-flavored assessments replace the simulation with practical React work: a playable Wordle clone judged purely on logic (watch duplicate-letter handling), a custom DOM query selector over a nested structure, hooks debugging (stale closures, dependency arrays, missing list keys), browser-versus-Node environment questions, and a capture-the-flag-style finale where you extract a URL, fetch an answer, and submit it.
+New grads are screened mainly on the progressive assessment and practical coding. Experienced candidates get a heavier architecture round that pairs a project deep dive with an unannounced design prompt, and since many postings span several levels, the loop itself often sets the level.
 
-**Recruiter screen.** A short conversation about background, motivation, and increasingly how you use AI in your work. Recruiters sometimes preview exactly what a later round will cover — one candidate was told in advance that the AI-assisted round would involve data reconciliation. Treat any such hint as the study guide it is.
+Here's what the interview process can look like:
+
+- **Online assessment:** A timed exercise, usually CodeSignal. It is either a 45-minute single simulation problem or a 90-minute build in four levels. Frontend candidates get a React and DOM version instead.
+- **Recruiter screen (sometimes with an async video screen):** A short call about background, why Ramp, and how you use AI. Some candidates also record a values video.
+- **Technical phone screen:** 45–60 minutes of practical coding with an engineer, such as scraping with retries, flight-history lookups, or a cache extended in stages.
+- **Practical coding rounds (onsite):** One or two live builds, such as a URL maze over HTTP, recurring-transaction detection, a flight tracker with pytest tests, or a spreadsheet with formulas.
+- **AI-assisted coding round (onsite):** A data-reconciliation task done with AI tools allowed. It is graded on the rules you set and how you verify the generated code.
+- **Architecture round (onsite):** A project deep dive followed by a surprise design question.
+- **Behavioral and hiring manager interview (onsite):** Motivation, values, and your most impactful project, with follow-up questions that keep digging.
+
+> **Tip:** Assume every live round is a working-software exercise. Get a running baseline within the first third of the time, then add error handling. Candidates who started with a polished design ran out of time on the edge cases that actually decided the round.
 
 **[Read the full Ramp interview process →](interview-process.md)**
 

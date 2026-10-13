@@ -52,20 +52,20 @@ Which stage each question came from, for the **38 of 38** questions at Instacart
 
 ## What they ask about
 
-Of the **16 questions at Instacart that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Instacart that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 5 | 31% | ████████████ | Sep 06, 2026 |
-| `stack` | 3 | 19% | ███████ | Jun 24, 2026 |
-| `graphs` | 2 | 12% | █████ | Sep 11, 2026 |
-| `hashing` | 2 | 12% | █████ | Jul 30, 2025 |
-| `arrays` | 1 | 6% | ██ | — |
-| `backtracking` | 1 | 6% | ██ | Nov 17, 2025 |
-| `binary-search` | 1 | 6% | ██ | — |
-| `greedy` | 1 | 6% | ██ | — |
-| `heap` | 1 | 6% | ██ | — |
-| `math` | 1 | 6% | ██ | Sep 18, 2026 |
+| `strings` | 5 | 33% | ████████████ | Sep 06, 2026 |
+| `stack` | 3 | 20% | ███████ | Jun 24, 2026 |
+| `hashing` | 2 | 13% | █████ | Jul 30, 2025 |
+| `arrays` | 1 | 7% | ██ | — |
+| `backtracking` | 1 | 7% | ██ | Nov 17, 2025 |
+| `binary-search` | 1 | 7% | ██ | — |
+| `graphs` | 1 | 7% | ██ | Apr 04, 2026 |
+| `greedy` | 1 | 7% | ██ | — |
+| `heap` | 1 | 7% | ██ | — |
+| `math` | 1 | 7% | ██ | Sep 18, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

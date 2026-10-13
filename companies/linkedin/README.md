@@ -16,21 +16,34 @@ How LinkedIn interviews, and the questions candidates reported there. Free quest
 
 ## How LinkedIn interviews
 
-This guide is the deep-dive companion to the short process outline on the LinkedIn company page: how each round is actually run, what interviewers grade, and where strong candidates still get filtered out. It draws on 24 real LinkedIn questions and 33 candidate interview reports, so the patterns below reflect how the loop behaves in practice, not just how it is described.
+LinkedIn grades code quality separately from correctness, often in rounds where nothing is compiled. One junior candidate solved every problem and was still rejected, with readability given as the main reason. Rigor is graded the same way. One Staff candidate coded the L1 meeting point correctly, struggled to prove the median is optimal, and was offered Senior. Most recent loops also replace one coding round with an AI-enabled session. The level itself is usually settled in the host-manager and project rounds.
 
-### Interview Process
+This guide breaks down each stage of the LinkedIn interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 51 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### LinkedIn interview process
 
 <!-- guide-diagram -->
 ![LinkedIn interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/linkedin/process.webp)
 <!-- guide-diagram -->
 
-End to end, the process typically takes four to eight weeks. The technical phone screen runs about an hour and sometimes has two interviewers, a lead plus a shadow. At senior and Staff levels it is rarely a pure coding hour: many screens compress behavioral questions, one or two coding problems, and even a twenty-minute design discussion into a single session, so pacing is a skill in itself. Some teams also insert a proctored online assessment before the screen, mixing multiple-choice code-quality questions with one implementation problem. After each round, interviewers submit feedback quickly, and post-onsite decisions often land within a week, though candidates describe recruiter communication as uneven, with reschedules and occasional silence.
+Hiring is team-based. The structure stays the same everywhere, but the hiring team's domain sets the design topics. A typical process runs four to eight weeks: a recruiter call, a technical screen of about an hour, then four to six onsite rounds of 45–60 minutes. Most onsites are virtual, and some pipelines run four separate screening calls instead of a single onsite day.
 
-Coding rounds are distinctive in format: several loops run entirely on a whiteboard or a shared editor where code is never compiled. You are expected to dry-run your solution aloud on concrete examples, and grading extends well beyond correctness to naming, modular structure, and formal reasoning. Interviewers regularly ask for proofs, and a shaky proof can cost you a level even when the code is flawless: one candidate was downleveled from Staff to Senior after implementing a correct quickselect but struggling to prove that the median minimizes the sum of absolute distances. Problems tend to start as recognizable staples, then pivot mid-round: a two-sum becomes a two-product, a binary tree merge generalizes to N-ary trees keyed by label, a BFS gets rerun against a graph of billions of nodes. Junior candidates are not exempt from the quality bar; one rejection cited code readability as the primary reason despite correct solutions.
+Entry-level loops focus on coding. Senior loops add full system design and a host-manager check on scope. At Staff, the phone screen often packs leadership stories, a coding problem and about 20 minutes of design into one hour. Machine Learning Engineer loops replace part of the coding with probability, ML fundamentals and ML system design.
 
-A growing share of loops includes one AI-enabled coding round. The environment provides an AI assistant beside the editor, and the round evaluates how you direct it: generating a scaffold for something like an LRU cache, reviewing the output for bugs, generating and running tests, then handling a thread-safety follow-up yourself. Prompt quality and verification discipline are the signal, not unaided recall. Be warned that the tooling can fail: candidates describe wrong model versions, broken editors, and unresponsive sessions where the interviewer did not intervene, so stay vocal and keep a manual fallback ready.
+Here's what the interview process can look like:
 
-The design round is data-intensive but often deliberately scoped down rather than internet-scale: a single-machine key-value store over 100,000 append-only files holding a billion keys, a metrics platform explicitly without alerting, a job scheduler feeding a real-time dashboard, a top-k exception tracker. Interviewers push back on assumptions and drill into storage layout, ingestion paths, and memory bounds. Terminology mismatches have derailed sessions, so align on component names in the first minutes.
+- **Recruiter screen:** A 15–30 minute call on background, team, target level and logistics.
+- **Online assessment (some pipelines):** A proctored test with code-style multiple-choice questions and one implementation problem.
+- **Technical phone screen:** About an hour and one to three problems, often after a behavioral opening.
+- **Coding interviews:** One or two rounds on a whiteboard or a shared editor that does not run code, each with a classic problem that changes partway through.
+- **AI-enabled coding interview:** One round in an editor with an AI assistant panel, graded on how you direct and check generated code.
+- **System design interview:** A data-heavy design that is often deliberately bounded.
+- **Project deep dive and craftsmanship:** A past project drawn on a diagram, plus a conversation about engineering quality.
+- **Host manager interview:** A 45-minute behavioral and motivation round that weighs heavily on level.
+
+> **Tip:** Practice every problem without running it. Use descriptive names from the first line, then trace one normal case and one edge case aloud. In most reports, coding was judged on that spoken walkthrough.
 
 **[Read the full LinkedIn interview process →](interview-process.md)**
 

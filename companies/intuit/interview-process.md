@@ -6,38 +6,243 @@
 
 ---
 
-This guide goes deeper than the process outline on the company page: how each Intuit stage is actually run, how the Craft Demonstration is structured and graded, and where candidates lose points. Our library currently has 4 real Intuit questions you can use for targeted practice, and the notes below reflect how Intuit's loop has operated through 2025 and into 2026.
+Intuit asks about AI in nearly every engineering interview, whether or not AI appears on your resume. Recruiters say so up front, and later rounds set aside time for when AI belongs in a product and how you use it yourself. The technical bar is practical: medium coding that you test as you go, plus SQL and Bash, which most big-tech loops skip. Some experienced hires also sit a Craft Demonstration, where a panel watches them build or defend real work.
 
-## Interview Process
+This guide breaks down each stage of the Intuit interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 14 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Intuit interview process
 
 <!-- guide-diagram -->
 ![Intuit interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/intuit/process.webp)
 <!-- guide-diagram -->
 
-The end-to-end process typically runs three to six weeks from application to decision, and Intuit tends to move faster than most large tech companies once the loop is scheduled — final decisions usually land within one to two weeks of the last interview.
+The hiring team and level set the shape. Since late 2025, many engineering and data pipelines have been run by a third-party interviewing vendor, and every stage eliminates candidates: an online assessment, a recruiter conversation, a take-home build, a call reviewing that build, and a final interview. Other teams use a phone screen followed by a loop of one to three rounds. Most candidates hear back within three to five weeks.
 
-**Recruiter screen (30–40 minutes).** A conversation about your background, the product area you are matched to (TurboTax, QuickBooks, Credit Karma, Mailchimp, or platform teams), motivation, and logistics. The recruiter is assembling the narrative the panel will later test, so a coherent account of what you personally built and why matters more than a list of technologies.
+New grads and mid-level engineers mostly get coding, SQL and Bash. Staff-level candidates can get coding and a quantified system design in one phone screen.
 
-**Online assessment and early technical screen.** Most engineering candidates get a coding assessment before speaking to an engineer — a timed test with algorithm problems and some logical-reasoning or debugging items. For many roles Intuit outsources the early technical rounds to a third-party interviewing service: expect a live session of roughly 60–90 minutes with one or two medium-difficulty data-structures problems, occasionally a debugging exercise on existing code, and for senior candidates a short design discussion. Interviewers grade working, runnable code plus complexity reasoning; partial solutions with clear narration score better than silent perfect ones.
+Here's what the interview process can look like:
 
-**Craft Demonstration.** This is the round that decides most Intuit outcomes, and it comes in two formats depending on team and level. In the first, you present a project you already built — architecture, decisions, trade-offs, results — to a panel. In the second, increasingly common for hands-on engineering roles, Intuit sends a take-home assignment or a GitHub repository a few days before the interview (sometimes only 24–48 hours ahead) with user stories to implement; you then demo and defend your implementation live. Either way the session typically runs about 90 minutes with a panel of two to four interviewers (occasionally more), and it is interactive from the start: expect interruptions, requests to open specific files, and questions about why you rejected alternatives. Grading emphasizes clean, tested code, error handling, and honest ownership boundaries — panels probe explicitly for the difference between your work and your team's. If you receive a repo in advance, run it locally early, try to break it, and make sure every user story demonstrably works; a demo that fails to launch is very hard to recover from.
+- **Recruiter screen:** A short call about background, product area and how you use AI tools.
+- **Online assessment:** A timed test of about 90 minutes with one algorithm problem, a SQL query, a Bash task and sometimes multiple-choice fundamentals.
+- **Coding interviews:** Live 45–75 minute sessions with one or two medium problems, tests you write yourself and incremental follow-ups.
+- **Craft Demonstration or take-home build (some teams and levels):** A project you build or present, then defend before a panel.
+- **System design interview (mid-level and above):** Product-flavored design, often recommendation or prediction systems, with numbers attached.
+- **AI and behavioral interview:** Your projects, Intuit's values and when AI is the right tool.
 
-**Interview loop.** After the Craft Demo, the remaining loop is typically three to five sessions, often stacked on the same day: a coding round at medium difficulty, a technical discussion that frequently extends your Craft Demo ("how would this scale to ten million users", "what breaks first", "how would you monitor it"), a behavioral round with the hiring manager built on Intuit's values, and sometimes an open-ended round shaped by what the panel saw in your presentation. Machine learning candidates should additionally expect SQL and Python data-manipulation questions, ML fundamentals tied to real product scenarios (fraud, document extraction, personalization), and experiment-design prompts; some ML teams use a substantial take-home whose design choices are dissected onsite. Across all tracks, AI-readiness questions — how you use and validate AI tools in your own workflow, and how you would ship LLM-backed features responsibly on a platform like Intuit's generative AI stack — have become a regular fixture since 2024.
+> **Tip:** Prepare a two-minute answer on how you use AI in your own coding and where it has failed you. The question came up at nearly every stage, from the first recruiter call to the final round.
 
-## Behavioral Questions
+## Recruiter screen
 
-Behavioral rounds at Intuit are values-driven and example-based: interviewers pick one story and drill into context, your specific action, the trade-off you accepted, and the observable result. The Craft Demonstration also generates behavioral follow-ups — disagreement with reviewers, quality compromises under deadline, lessons learned — so prepare your project stories to serve both purposes. Use these prompts to rehearse explaining engineering judgment out loud.
+The recruiter call is short. One candidate described it as rushed, mostly confirming interest and availability. It covers your projects, your stack and the product line you are matched to. In 2026 the vendor-run pipelines placed a recruiter conversation after the assessment, entirely about background and AI usage, with no coding. Scheduling is a common complaint, and prep guidance can be off: one candidate told to study ML fundamentals got algorithms and a prompting discussion instead.
 
+Interviewers evaluate:
 
-## How to Prepare
+- **AI fluency:** Concrete examples of AI tools in your workflow, not a general claim that you use them.
+- **Product match:** Experience that fits the hiring domain: tax, small-business accounting, consumer credit or marketing.
+- **Narrative coherence:** A clear account of what you personally built, which later rounds test.
 
-- Start Craft Demo preparation the day you schedule the loop, not when the assignment arrives. If it is a take-home repo, budget for a possible 24–48 hour turnaround: get it running locally immediately, implement user stories with unit tests and error handling, and rehearse a demo that survives a broken projector or a cold start.
-- If you present your own project, build an ownership map — decisions you made alone, decisions made jointly, systems you inherited — so panel probing about "what did *you* do" never catches you overclaiming.
-- For every major design choice in your demo, prepare the rejected alternative, its cost, and the first signal that would tell you the design was failing. Panels ask these almost verbatim.
-- Drill medium-difficulty algorithm problems with spoken narration: clarify inputs, state a baseline, pick the data structure, estimate complexity, test boundaries. The early screens grade the narration as much as the answer.
-- Have a scaling story ready for whatever you demo: expected load, bottleneck order, monitoring, and rollback. The post-demo technical round usually starts exactly there.
-- Prepare compact stories about customer impact, an operational mistake, and pushing back on a decision — each with a measurable outcome. Generic value statements read as filler to Intuit panels.
-- For AI and ML conversations, be ready to discuss evaluation datasets, hallucination handling, privacy, human review, and rollback for LLM features — framed as engineering responsibilities in a product that touches users' finances.
+Prepare one specific story about using an AI tool, including how you checked its output.
+
+> **Note:** One candidate who later got an offer was told by HR that AI questions would come up regardless of the resume. Candidates without an AI background should not expect to skip them.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and the project you are proudest of.
+- How do you use AI tools in your day-to-day work?
+
+## Online assessment
+
+The assessment is timed, takes about 90 minutes and is usually open for a few days. Software candidates got three or four parts: an algorithm problem, a SQL query, a Bash or scripting task and sometimes multiple-choice fundamentals. The algorithm problem is the hard part. Examples include counting colorings of an n-by-3 grid (n up to 20,000) with no uniform row or column, modulo 10^9+7, and summing a cost over a DNA string's palindromic substrings with a 64-bit result.
+
+SQL tasks lean toward reporting: finding duplicate rows, or normalizing messy failure reasons, grouping transactions by status, ranking reasons with a window function and concatenating them per status. Bash tasks are text processing, such as finding the longest file name in `ls -l` output where names contain spaces. Candidates ran out of time on Bash most often. Data and AI candidates got a Python exercise instead, ranking days by an energy proxy computed from a weather CSV.
+
+Interviewers evaluate:
+
+- **Correctness at scale:** Modular arithmetic and 64-bit types where counts overflow.
+- **SQL range:** Window functions, string normalization and aggregates such as LISTAGG.
+- **Shell robustness:** Parsing that survives spaces in names and irregular columns.
+- **Spec reading:** Getting thresholds and squaring right in a domain formula.
+
+Practice timed SQL and Bash tasks, not just algorithms.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Count the colorings of an n-by-3 grid with three colors so no row or column is uniform, modulo 10^9+7.
+- Rank normalized failure reasons by count within each transaction status and concatenate them per status.
+- From a multiline `ls -l` listing whose names may contain spaces, return the file with the longest name.
+
+- [Three-Column Grid Coloring Count](https://trueinterview.io/questions/three-column-grid-coloring-count)
+- [DNA Substring Palindrome Cost Sum](../../questions/algorithm/dna-substring-palindrome-cost-sum/README.md)
+- [Transactions Status Report SQL](https://trueinterview.io/questions/transactions-status-report-sql)
+- [Bash Largest File from Listing Output](https://trueinterview.io/questions/bash-largest-file-from-ls-output)
+
+## Coding interviews
+
+Live coding runs in 45–75 minute phone screens and loop rounds, in a shared editor. Problems are mostly easy to medium, and one problem grows through follow-ups. A customer scheduler appeared in two reports: build `Customer` and `Scheduler` classes with check-in and next-customer methods, VIPs first, then switch to two VIPs per regular customer. Other prompts included Count and Say, reasoning about primes (sieve versus trial division), an LRU cache extended to LFU, and adding numbers stored as digit arrays.
+
+Some teams test practical skills instead. One 2026 loop had a tree built from a parent array, a SQL round formatting numeric strings as currency with M and B suffixes, and a Bash round on finding the largest file recursively, with heavy use of regular expressions. Staff+ candidates had to fix a buggy Plus One by reading it before they were allowed to run it. In one 75-minute screen, the candidate had to write and run tests before follow-ups were added.
+
+Interviewers evaluate:
+
+- **Testing habit:** Running your own cases, such as all-nines carry and empty queues, unprompted.
+- **Extensible design:** A scheduler that absorbs the 2:1 rule without a rewrite, including when one group runs out.
+- **Fluency on standard families:** Breadth-first search, shortest path and cache structures, written quickly.
+- **Reasoning aloud:** Talking through the approach before coding, which mattered more than full optimization.
+
+Rehearse graph traversal and class-based design problems under a timer, and finish each with tests.
+
+> **Note:** One candidate not selected after a graph-heavy round (BFS, shortest path, degrees of separation) blamed incomplete code, not wrong ideas. Another was praised throughout a screen and still rejected without feedback. Positive comments during the call do not predict the outcome.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement a scheduler that serves VIPs first, then switch to a 2:1 VIP-to-regular ratio.
+- Find the degrees of separation between two businesses in a network, and explain when DFS beats BFS.
+- Fix a buggy Plus One by reading it alone, then run it on edge cases such as all nines.
+
+- [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness)
+- [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation)
+- [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up)
+- [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md)
+
+## Craft Demonstration and take-home build
+
+Intuit's signature round comes in two forms. In the build form, you get a repository or assignment with user stories, usually 24 hours to a few days ahead, then demo and defend your work live to two to four interviewers for about 90 minutes. In the presentation form, more common for senior hires, you walk a panel through your own project: architecture, rejected alternatives and results.
+
+In the 2026 vendor-run pipelines, the take-home is a data-processing project with a firm deadline, followed by a review call. One required multi-threaded processing. AI assistants were allowed, but every prompt was logged, and the review covered both architecture and AI use. Late submissions risk automatic rejection.
+
+Interviewers evaluate:
+
+- **Working software:** Every user story runs. A demo that fails to start is very hard to recover from.
+- **Test coverage:** Unit tests and error handling count for more than extra features.
+- **Ownership boundaries:** A clear line between your decisions, your team's and what you inherited.
+- **Defensible trade-offs:** The rejected alternative, its cost, and the first signal the design is failing.
+
+Get the repository running locally the day it arrives, and write tests before polishing.
+
+> **Tip:** Treat logged prompts as part of your submission. Keep them specific, check the output, and be ready to say where you rejected the assistant's suggestions.
+
+### Sample questions for the Craft Demonstration and take-home build
+
+Here are some questions reported by recent candidates:
+
+- Build a multi-threaded data-processing tool, then explain the concurrency choices on a review call.
+- Walk through how you used an AI assistant on the assignment and what you changed in its output.
+
+- [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769)
+- [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578)
+- [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration)
+
+## System design interview
+
+Design rounds start at the mid level and are tied to Intuit's products. One onsite asked for a recommendation system for Intuit's premium offerings: data sources, model choice, serving and how to measure effectiveness. A Staff+ screen asked for a system predicting a category's best-selling items for a future window, covering agent responsibilities, latency budgets, storage and compute sizing, cached category leaderboards with invalidation, and the flow from raw sales to served rankings.
+
+Interviewers evaluate:
+
+- **Quantified choices:** Latency, throughput and cache hit-rate estimates behind each component.
+- **End-to-end data flow:** Ingestion, aggregation, features, scoring and serving, not a box labeled "model."
+- **ML-aware design:** How the model is evaluated, and what happens when its output is stale or wrong.
+- **Customer framing:** Which user is helped and how success is measured.
+
+Practice one recommendation or prediction design with rough numbers for every box.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a recommendation system for Intuit's premium products, and say how you would measure it.
+- Design a service that predicts best-selling items for a future window, with latency targets and a caching plan.
+
+- [Premium Product Recommendation System](https://trueinterview.io/questions/premium-product-recommendation-system)
+- [Design an idempotent churn ETL pipeline](https://trueinterview.io/questions/design-an-idempotent-churn-etl-pipeline)
+
+## AI and behavioral interview
+
+The final conversation, often with the hiring manager, mixes a project deep dive, behavioral questions and an open discussion about AI. Reported prompts: when AI makes sense and when it doesn't, what an AI-native application means, what to do when a language model's output is poor, how to get reliable JSON from a model API, and, for AI roles, model deployment and data collection. Behavioral questions follow Intuit's values, especially Customer Obsession and Integrity Without Compromise.
+
+Interviewers evaluate:
+
+- **Judgment about AI:** Naming cases where AI is the wrong tool, such as tax or ledger logic that must be exact.
+- **Diagnosis of model failures:** Checking prompt, temperature and task fit before reaching for a bigger model.
+- **Production thinking:** Evaluation data, human review, privacy and rollback for features touching users' finances.
+- **Customer impact:** Stories that end with a measurable change for users.
+
+Prepare stories about a customer-driven change, a quality trade-off and an AI output you had to correct.
+
+### Sample questions for the AI and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- When should a product use AI, and when should it not?
+- What would you do if a large language model kept producing weak ideas?
+- Walk through a past project: what you decided, and what you would change.
+
+- [When should products use AI?](https://trueinterview.io/questions/when-should-products-use-ai)
+- [AI Application Conversation](https://trueinterview.io/questions/ai-application-conversation)
+- [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch)
+
+## How Intuit makes hiring decisions
+
+In vendor-run pipelines each stage is pass or fail, so one weak stage ends the process. In team-run loops the hiring manager and panel decide together. Decisions can be fast: one offer came within 30 minutes of the final round. Rejections usually arrive without feedback, even after calls that seemed to go well.
+
+## How to prepare for the Intuit interview
+
+1. **Build an AI story bank:** How you use AI tools, a time you rejected their output, and a product where AI is the wrong choice.
+2. **Add SQL and Bash to practice:** Window functions, string normalization, `find`, `awk` and regular expressions.
+3. **Write tests unprompted:** Interviewers grade the testing habit in every coding round.
+4. **Rehearse mid-problem rule changes:** Scheduler and cache designs where a 2:1 ratio or LFU eviction arrives midway.
+5. **Drill graph traversal:** BFS, shortest path and degrees of separation should take minutes.
+6. **Debug by reading:** Trace carry and boundary cases without running code, as Staff+ screens require.
+7. **Quantify designs and protect the take-home deadline:** Bring latency and caching numbers, and start any take-home the day it arrives.
+
+## About working at Intuit
+
+Engineers work in product-aligned teams on a shared platform and data layer. Since 2023 much of the work has involved Intuit Assist, an AI assistant built on GenOS, Intuit's internal generative AI platform.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer 1 | Well-defined features with guidance | Tasks within one team |
+| Software Engineer 2 | Owning features end to end | A team's services |
+| Senior Software Engineer | Designing components and mentoring | One or more teams |
+| Staff Software Engineer | Technical direction across teams | A product area |
+| Senior Staff / Principal Software Engineer | Architecture and long-term strategy | A business unit or platform |
+
+Intuit hires engineers across its product lines and platform groups. Teams include:
+
+- **TurboTax:** Consumer tax preparation, accuracy checks and filing.
+- **QuickBooks:** Small-business accounting, payments, payroll and invoicing.
+- **Credit Karma:** Consumer credit monitoring and personalized offers.
+- **Mailchimp:** Email and marketing automation.
+- **GenOS and AI platform:** The generative AI platform behind Intuit Assist, plus data and ML infrastructure.
+
+### Experience and education requirements
+
+Postings typically ask for a bachelor's degree in computer science or equivalent experience, with Java, Python or JavaScript/TypeScript, cloud services and SQL. Senior postings expect several years of production experience, and shipping LLM-backed features is an increasingly common preferred qualification.
+
+## FAQs about the Intuit interview
+
+### How long does the Intuit interview process take?
+
+Typically three to five weeks. Rescheduling often stretches it.
+
+### What is the hardest round of the Intuit interview?
+
+The online assessment eliminates the most candidates: its algorithm problem is often harder than the live rounds, and Bash runs short on time. For experienced hires, the Craft Demonstration or take-home review decides most outcomes.
+
+### Do non-AI engineers get AI questions?
+
+Yes. The questions are practical (prompting, evaluation, when not to use AI), not machine learning theory.
+
+### How much does an Intuit software engineer make?
+
+Posted Bay Area base ranges have been about $165K–$232K for Senior Software Engineer and $208K–$282K for Senior Staff Software Engineer. Offers add a cash bonus and restricted stock vesting over four years.
 
 ---
 

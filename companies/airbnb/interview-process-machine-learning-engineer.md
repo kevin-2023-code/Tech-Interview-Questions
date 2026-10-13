@@ -6,104 +6,249 @@
 
 ---
 
-Machine Learning Engineer candidates here are filtered by design depth, not by code — and the loop will keep testing that depth until it gets an answer. One candidate cleared the coding portion cleanly, was told days later the team wanted to add a further ML design round, sat it, and was still rejected on design structure. The other surprise is how much a single call can carry: one phone screen packed a coding exercise, two ML design prompts and a personal values conversation into one session before any onsite existed.
+Airbnb's Machine Learning Engineer loop is decided in the ML system design rounds, not the coding rounds. A candidate whose coding went well was still rejected on design depth, and a borderline design signal earns another design round rather than a pass. Prompts come from the marketplace itself: search ranking, listing lifetime value, relisting, cover photos. Every report also includes a core values conversation that turns personal and counts in the decision.
 
-## Interview Process
+This guide breaks down each stage of the Airbnb Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2, cross-checked against recent public accounts.
+
+## Airbnb Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Airbnb Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/airbnb--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen — phone, roughly 30 minutes.** Background, level banding (G9 appears in reports for this track), team area, and a walkthrough of the pipeline and timeline. Both cold outreach and referral routes appear; one referral-sourced process ran end to end in about four weeks.
+The loop is run by the hiring team and its shape depends on team and level. A full loop is a phone screen and a virtual onsite of five or six rounds: one coding round, one or two ML system design rounds, an experience deep dive, core values, and a hiring manager conversation. A referred candidate went from application to decision in about four weeks, including a design round added after the screen.
 
-2. **Technical phone screen — 45 to 60 minutes, and for this track often a combined session.** The coding half is practical and lighter than the onsite: exact-fill scheduling of layover activities where activities may repeat, and fixed-width string formatting with a multi-column follow-up, are both reported. Interviewers want a runnable solution, your pruning or memoization reasoning stated before you write, then test cases. Where this track diverges is what gets bolted on — one screen continued straight into two ML design prompts (choosing a listing's cover photo to lift bookings, and identifying high-quality listings) and then into personal values questions, all in the same call.
+The phone screen varies most: a single coding problem for some, coding plus two ML design prompts and values questions for others. At Senior (G9) and above, design carries more weight, and recent senior loops added ranking and retrieval prompts around generative-AI support tools.
 
-3. **Onsite coding — typically one round, 45 to 60 minutes.** Same execution bar as the rest of engineering: complete running code, your own test cases, complexity at the end. Reported problems include a bitmask dynamic program for the minimum cost to cover a wanted item set from priced menu bundles, an exact-fill knapsack variant, and implementing a small key-value store where the entire follow-up was test design rather than a second algorithm.
+Here's what the interview process can look like:
 
-4. **ML system design — one to two rounds, 45 to 60 minutes each, the core of this track.** Prompts sit inside the marketplace and are deliberately broad: design search ranking end to end; estimate the lifetime value of a property; build a recommendation system; design a relisting system including how offline model outputs translate to online metrics, where geohashing came up directly. Scoping questions are part of the grade, not a preamble. Interviewers steer firmly — in the lifetime-value round the interviewer pushed the candidate off pure regression toward a bucketized classification framing — and reading that redirection as an instruction rather than a challenge separates strong performances. A further design round is sometimes added after the loop when the signal is borderline.
+- **Recruiter screen:** Background, target level, team area and timeline.
+- **Technical phone screen:** Live coding with your own tests, sometimes followed by ML design and values questions.
+- **Coding interview (onsite):** One practical problem as complete running code.
+- **ML system design interviews (one or two, sometimes more):** Open-ended marketplace prediction problems designed end to end.
+- **Experience deep dive:** One past ML project examined for decisions, trade-offs and scope.
+- **Core values interview:** A non-technical conversation about Airbnb's values and what you care about.
+- **Hiring manager conversation:** The team's problems and how your background fits them.
 
-5. **Experience deep dive — one round, 45 to 60 minutes.** A single past project taken apart: architecture, the decisions that were personally yours, trade-offs, measured impact. Reports for this track add a warning the general engineering track does not stress as hard — the perceived scope of your past ML work is itself scored, so lead with problem size, ownership and outcome rather than model details.
+> **Tip:** Rehearse one ML design skeleton until it is automatic: decision supported, label, data, features, model, offline and online metrics, serving, experiment. A rejected candidate traced the outcome to jumping straight into model ideas.
 
-6. **Core values — one round, roughly 45 minutes, run by an employee from any function.** Non-technical and genuinely evaluative. This track's reports describe unusually personal questions: what you consider the biggest problem facing the world, a cause you actively support and how you contribute to it, and what drew you here specifically. The tone reads authentic rather than scripted, and rapport shows up in the final decision.
+## Technical phone screen
 
-7. **Hiring manager conversation and close.** A two-way discussion of the team's current problems, roadmap, and how your background maps onto them. Full reported journeys run six to seven conversations end to end, with several days to a week between stages and the possibility of a supplementary design round inserted before a decision.
+The screen is a live session with an engineer in a shared editor. The coding is practical: fixed-width string formatting that extends to a multi-column layout, a key-value store whose follow-up was writing the test cases, and filling a layover with the fewest repeatable activities. A candidate who used depth-first search with memoization and early pruning was credited for explaining the pruning before coding.
 
-## What They Actually Evaluate
+For this track the screen can continue past the coding. One referred candidate moved straight into two ML design prompts (a listing's cover photo to lift bookings, and finding high-quality listings) and then personal values questions in the same call.
 
-### ML System Design
+Interviewers evaluate:
 
-The decisive competency: one to two rounds, each open-ended enough that the first five minutes of scoping shape the grade. Strong answers move in a fixed order — problem framing, label definition, data sources, features, model choice, offline evaluation, then serving, latency, freshness, cold start for new listings, experimentation. Weak answers jump to model ideas, which is exactly what a rejection in these reports cited. Expect follow-ups on how an offline metric becomes an online one, on spatial features such as geohashing, and on whether a target is better framed as regression or bucketized classification.
+- **Running code:** A complete program that executes, not pseudocode with gaps.
+- **Stated strategy:** Memoization, pruning or data layout explained before typing.
+- **Test design:** Your own boundary cases, especially when the follow-up is about tests.
+- **Adaptability:** Extending a single-column formatter to multiple columns without a rewrite.
+- **Fast design framing:** If design is added, a target variable and cold-start plan within minutes.
 
-- [Query System — Time + Geo Filtered User Activity](https://trueinterview.io/questions/query-system-time-geo-search)
-- [Airbnb Booking System Design](https://trueinterview.io/questions/booking-system-design)
+Practice formatting, exact-fill and small-store problems as full programs with a test list, and keep a two-minute design opener ready.
 
-### Coding and Algorithm
+### Sample questions for the technical phone screen
 
-Two graded coding touchpoints, and the bar is not relaxed for this track: running code, self-written tests, complexity on request. Difficulty skews medium with a heavy dynamic-programming and bitmask flavour — exact fill with repetition, minimum-cost cover over bundles, fixed-width formatting. Signal comes from naming the pruning or memoization strategy before writing; it is lost by leaving the main logic unfinished because a helper ate the clock.
+Here are some questions reported by recent candidates:
 
-- [Layover Experiences — Exact-Fill with Min Count](https://trueinterview.io/questions/layover-experiences-exact-fill)
-- [Text Justification — Print as Table](https://trueinterview.io/questions/text-justification-table)
-- [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling)
-- [Account Merge / User Deduplication](https://trueinterview.io/questions/account-merge-dedup-users)
+- Format text into lines of a fixed width, then lay the same content out across several columns.
+- Given activity durations that may repeat, find the fewest activities that exactly fill a layover window.
+- Implement a key-value store, then specify the test cases you would write against it.
 
-### Low-Level Design
+- [Format Articles Within Width](https://trueinterview.io/questions/text-justification-table)
+- [Text Box Formatter](https://trueinterview.io/questions/text-box-formatter)
+- [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill)
+- [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md)
 
-Store-implementation exercises recur in this track's coding rounds and are graded as design as much as code: the interface, what varies behind it, and how you would test it. One reported loop opened with a key-value store on the phone screen and returned to the same object onsite with extra constraints, the follow-up focused entirely on test coverage. Practise these as complete running programs with an explicit test list, not sketches.
+## Coding interview
 
-- [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md)
+The onsite has one coding round with the same bar as the rest of Airbnb engineering: code that runs, your own tests, complexity at the end. Problems are domain-flavored: the cheapest way to buy a wanted item set from priced menu bundles (a bitmask over items, dynamic programming over bundles), the phone-screen key-value store with added constraints, and a document-redaction exercise in recent senior loops.
+
+Interviewers evaluate:
+
+- **Problem modeling:** Recognizing that a small item set calls for a bitmask state before writing any loops.
+- **Correctness first:** A working baseline before optimizing; unfinished main logic is a failing result.
+- **Extensibility:** Adding the second set of constraints to a store without a rewrite.
+- **Verification:** Running the code against cases you wrote yourself, including empty and impossible inputs.
+
+Drill subset dynamic programming and small in-memory stores until each takes about 30 minutes including tests.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- Given menu bundles with prices and the items each contains, find the cheapest way to get every item on a wanted list.
+- Extend the phone-screen key-value store with additional constraints and show how the tests change.
+
+- [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20)
+- [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888)
 - [Key Store With Sum-Dependency Cascades](https://trueinterview.io/questions/key-dependency-sum-store)
-- [Implement Retryer](https://trueinterview.io/questions/implement-retryer)
+- [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md)
 
-### Project Deep Dive
+## ML system design interviews
 
-One dedicated round, plus scope probing inside the manager conversation. The measure is the size of the problem you owned, not the sophistication of the model: who used it, what moved, who outside your team you had to align. Reports flag scope perception as an under-anticipated failure point — a technically deep project with narrow blast radius reads weaker than a simpler one with clear cross-team impact.
+Full loops have had two ML design rounds, and one candidate got an extra one after a combined screen. Prompts are broad and come from Airbnb's product: search ranking end to end, a property's lifetime value, a recommendation system, relisting detection tied to online metrics, and ranking home search results with no text query. The rounds are conversations without code, and the first minutes of scoping are graded.
+
+Interviewers steer firmly. One lifetime-value round defined the label first, then moved from regression to bucketized classification; a relisting round went into geohashing; search ranking rounds pushed on latency, freshness and experimentation. Treat a redirection as a hint about the expected answer and restate the narrower scope before going on.
+
+Interviewers evaluate:
+
+- **Problem framing:** The business decision the model supports and the success metric, before any model is mentioned.
+- **Label definition:** What lifetime value or listing quality means and over what time window.
+- **Data and features:** Concrete marketplace signals such as reviews, host responsiveness, booking completion, photos and location encodings.
+- **Offline-to-online link:** How an offline metric predicts the online result, and how an A/B test would confirm it.
+- **Production behavior:** Candidate generation, latency, freshness, cold start for new listings, and monitoring.
+
+Practice six Airbnb-shaped prompts out loud with the same skeleton every time, ending each with an experiment plan.
+
+> **Note:** A strong coding performance does not offset a weak design. A candidate who felt the coding went well was rejected after the added design round, and the feedback named design depth specifically.
+
+### Sample questions for the ML system design interviews
+
+Here are some questions reported by recent candidates:
+
+- Design Airbnb search ranking, from candidate generation through offline and online evaluation and deployment.
+- Estimate the lifetime value of a property, after first agreeing on what lifetime value means here.
+- Design a relisting system, including how its outputs show up in online metrics and how geohashing helps.
+- Pick a listing's cover photo to raise its booking rate, including cold start for new listings.
+
+- [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d)
+- [Listing Lifetime Value — Estimation](https://trueinterview.io/questions/listing-lifetime-value-ml-design)
+- [Design Airbnb Relisting Detection](https://trueinterview.io/questions/design-airbnb-relisting-detection)
+- [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query)
+- [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies)
+
+## Experience deep dive
+
+One round takes a single past project apart: architecture, your decisions, rejected alternatives, measured impact, and what you would change. The tone is conversational but thorough, and scope is scored separately from modeling difficulty. Recent senior loops also asked about milestones and conflicts.
+
+Interviewers evaluate:
+
+- **Ownership:** The decisions you made personally, as distinct from the team's.
+- **Scope:** Who used the system, which metric moved, and which teams you had to align with.
+- **Trade-off reasoning:** Why you chose this model, feature set or serving path over the alternatives.
+- **Reflection:** What failed, and what you would do differently with what you know now.
+
+Choose a project with clear business reach and open with problem size and outcome.
+
+> **Tip:** A technically deep project that affected only a narrow area reads weaker than a simpler one with impact across teams. Open with the surface the project touched and the metric it moved.
+
+### Sample questions for the experience deep dive
+
+Here are some questions reported by recent candidates:
+
+- Walk through one ML project end to end, covering the decisions that were yours and the impact you measured.
+- Describe the project's milestones, a conflict over scope, and how it was resolved.
 
 - [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
-- [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen)
+- [Discuss ML Project Tradeoffs](https://trueinterview.io/questions/discuss-ml-project-tradeoffs)
+- [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict)
 
-### Behavioral and Leadership
+## Core values interview
 
-One values round and one manager conversation, both non-technical and both weighted in the final decision. The questions reach outside work into what you care about and why this mission; answers assembled from a framework land poorly. Rapport matters more here than in most loops — one candidate named an awkward dynamic with the interviewer as part of why the overall signal came out weak.
+The values round is non-technical, often run by an employee from outside the hiring team, and built around Airbnb's four values: Champion the Mission, Be a Host, Embrace the Adventure, and Be a Cereal Entrepreneur. Questions in this track are unusually personal: why Airbnb, the biggest problem facing the world, and a cause you support and what you do for it. Candidates found it relaxed and sincere, but it counts in the decision.
+
+Interviewers look for:
+
+- **Authentic motivation:** A real reason to work on travel and belonging, not a recited mission.
+- **Hosting behavior:** Times you made someone feel included, gave hard feedback with care, or helped another team.
+- **Follow-through on what you care about:** Specific actions behind a cause, not only an opinion.
+- **Rapport:** One rejected candidate felt missing rapport weakened the overall signal.
+
+Prepare three or four true stories, some from outside work, and map each one to a value.
+
+### Sample questions for the core values interview
+
+Here are some questions reported by recent candidates:
+
+- What drew you to Airbnb rather than another company?
+- What do you think is the biggest problem facing the world today?
+- Tell me about a cause you support and how you contribute to it.
 
 - [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round)
-- [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
+- [Answer cross-team delivery and values questions](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions)
 
-## What They Don't Test
+## Hiring manager conversation
 
-- **Research depth and paper-level theory.** No reported round asked for derivations, loss-function proofs or architecture comparisons; the ask is how you turn a vague product goal into a labelled, measurable prediction problem.
-- **Naming the right model.** Model selection was a short segment in the reported design rounds; the time went to labels, data sources, evaluation and production behaviour. A fashionable architecture with no metric behind it is a negative.
-- **Heavy algorithmic exotica.** The coding rounds are practical scheduling, formatting and set-cover problems — clean implementation with your own tests outweighs a clever asymptotic argument.
-- **A rehearsed values script.** The questions here are personal, and a polished mapping of work anecdotes onto value names does not answer them.
+The final round is a relaxed two-way conversation about the team's current problems, your career direction and where your background fits, while the manager also judges scope and roadmap fit.
 
-## The Real Filter
+Interviewers evaluate:
 
-The primary rejection path is depth in the ML design rounds, and candidates misjudge it because those rounds sound like conversations. They are graded against a required structure: define the problem and the decision it supports, define the label, name the data, then features, model, offline evaluation, then serving, monitoring and experimentation. Skipping to modeling ideas is the single most cited failure in this track's reports, and it survives a strong coding performance — one candidate who felt good about the code was rejected on design depth after an extra design round was added specifically to re-test it.
+- **Fit with the team's problems:** Linking your past work to the ranking, trust or support problems the team owns.
+- **Career direction:** A clear view of the ML work you want next.
+- **Quality of your questions:** Questions about the team's metrics, data and roadmap.
+- **Collaboration:** How you worked with product, data science and infrastructure partners.
 
-The second filter is scope in the experience round. Interviewers assess how large the problem you owned actually was, independently of how hard the modeling was. A deeply technical narrative about a model, with no statement of the business surface it touched, reads narrower than the work really was.
+Read up on the team's area and bring three questions about its current problems.
 
-The third is quieter: interviewer alignment. Reports describe interviewers steering firmly when an answer drifts, and one candidate linked a weak overall signal to never establishing rapport. Treat redirection as an instruction about the framework expected, restate the narrowed scope back to them, and keep the session collaborative rather than defending your first framing.
+### Sample questions for the hiring manager conversation
 
-## Data Source
+Here are some questions reported by recent candidates:
 
-Based on 3 candidate-reported interview experiences, primarily from 2026 Q2 through 2026 Q2.
+- What kind of ML problems do you want to own over the next few years?
+- How would your background help with the problems this team is working on now?
 
-## FAQ
+- [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen)
+- [Describe a cross-functional project you're proud of](https://trueinterview.io/questions/describe-a-cross-functional-project-you-re-proud-of)
 
-**What is it like to work there as a Machine Learning Engineer?**
+## How Airbnb levels and evaluates Machine Learning Engineer candidates
 
-Candidate reports cover the hiring process rather than the job, so this is context: ML work concentrates in relevance and personalization — search ranking, recommendations, marketplace optimization across a very large consumer surface — with engineers owning pipelines, features, models and experimentation rather than handing models to a separate platform team. Pay and remote flexibility draw praise; the recurring complaint is top-down product direction.
+Feedback is combined in a committee-style review, and the target level, such as G9 for Senior, is set before the loop. Design depth and past scope weigh most. On a mixed signal the team adds a round rather than deciding: one candidate was asked for another ML design round days after the screen. Team fit matters too; in a recent senior loop the original team declined, but the candidate was matched to another team. Rejection feedback in the reports pointed to design depth or overall match, never coding.
 
-**What is the engineering culture like?**
+> **Tip:** An added design round is a second look at your weakest signal, not a formality. Rework your design structure before it instead of repeating the same answers.
 
-The loop is the clearest evidence: the same runnable-code bar as every other engineering track, design prompts pulled from live marketplace problems rather than textbook systems, and a values round run by someone outside the hiring team. Candidates describe interviewers as friendly and the process as well organized, with design rounds run as collaborative discussions where the interviewer expects to be engaged and used to narrow scope.
+## How to prepare for the Airbnb Machine Learning Engineer interview
 
-**How hard is it to get in?**
+1. **Drill one design skeleton:** Decision, label, data, features, model, offline and online metrics, serving, experiment, used on every practice prompt; when an interviewer steers, restate the narrower scope and follow it.
+2. **Practice Airbnb's own ML problems:** Search ranking, ranking without a query, listing lifetime value, listing quality, relisting detection, cover-photo selection and recommendations.
+3. **Know spatial and marketplace features:** Geohashing, location buckets, review and host-responsiveness signals, and cold start for new listings.
+4. **Connect offline to online:** For every model, name the offline metric, the online metric it should predict, and the A/B test that confirms it.
+5. **Write running code with tests:** Practice subset dynamic programming, exact-fill search with memoization, text formatting and small key-value stores as complete programs.
+6. **Lead the deep dive with scope:** Open with who used the system and what moved, then go into model detail.
+7. **Prepare personal values stories:** A cause you support, a time you acted as a host, and a specific reason for choosing Airbnb.
 
-Hard, and asymmetrically so. The coding rounds are passable with standard preparation and this track's reports rarely fail there. Attrition happens in the ML design rounds and the scope assessment of past work, and the loop is willing to extend itself rather than pass a borderline design signal. Timelines run around four weeks at the fast end, longer when extra rounds are inserted.
+## About the Airbnb Machine Learning Engineer role
 
-**Which round is hardest?**
+Airbnb ML engineers own models end to end, from features and training through deployment and online experiments, for batch and real-time systems. Postings stress training-serving skew, A/B testing, and feature and model selection. Shared infrastructure includes an internal ML platform and Chronon, Airbnb's open-sourced feature platform for consistent online and offline features.
 
-ML system design, without ambiguity in these reports. It is the only competency where rejections were explicitly attributed to depth, it can occupy two onsite rounds, and it can reappear as a supplementary round afterwards. The experience deep dive is second, because the scope judgement made there is not something you can improve during the interview itself.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| G7–G8 (Machine Learning Engineer) | Well-scoped models and pipelines with guidance | Features and models within one team |
+| G9 (Senior Machine Learning Engineer) | Owning a modeling area from framing to launch and experiments | A team's ranking, trust or support systems |
+| G10 (Staff Machine Learning Engineer) | Technical direction across related ML systems | Several teams and shared platforms |
+
+Airbnb hires Machine Learning Engineers across several orgs. Teams include:
+
+- **Relevance and Personalization:** Search ranking, recommendations and query understanding across the platform.
+- **Trust and Safety:** Fraud defense, reservation screening, party-risk prediction and property-damage risk.
+- **Community Support AI:** LLM fine-tuning, retrieval, evaluation and guardrails for customer-support assistants.
+- **Pricing:** Models behind pricing and host pricing tools.
+- **ML infrastructure:** The ML platform and feature platform that other ML teams build on.
+
+### Machine Learning Engineer experience and education requirements
+
+Mid-level postings accept a new ML or AI PhD, or two or more years of applied ML with a master's or bachelor's. Staff postings ask for about nine or more years, often with a master's or PhD. All ask for strong Python, Scala, Java or C++, data engineering skills, and neural network and optimization experience.
+
+## FAQs about the Airbnb Machine Learning Engineer interview
+
+### How long does the Airbnb Machine Learning Engineer interview process take?
+
+The one reported end-to-end timeline was about four weeks from application to decision, with a few days between stages. It runs longer when a design round is added or another team match is needed.
+
+### What is the hardest round of the Airbnb Machine Learning Engineer interview?
+
+The ML system design rounds: rejections in the reports were attributed to them explicitly, there can be two, and another can be added. The experience deep dive comes second, because the scope of past work cannot be improved during the interview.
+
+### How much does an Airbnb Machine Learning Engineer make?
+
+Total compensation figures were not consistent enough to report by level. Airbnb's own postings list base pay of about $191K to $235K for Senior Machine Learning Engineers and about $252K to $315K for Senior Staff. Packages add bonus eligibility, equity and employee travel credits.
+
+### Is the interview remote?
+
+Yes. Every reported onsite was held over video, and some roles are posted as remote under Airbnb's work-from-anywhere policy.
 
 ---
 

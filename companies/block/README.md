@@ -10,13 +10,39 @@ How Block interviews, and the questions candidates reported there. Free question
 | :-- | :-- |
 | Questions reported | [5](../block.md) |
 | Free to read here | 2 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | May 01, 2026 |
 
 ## How Block interviews
 
-No written process guide yet. [The loop, as reported](../block.md#the-loop-as-reported) counts which round each reported question came from.
+Block's coding rounds are practical, multi-part builds rather than single puzzles. A prompt is revealed one part at a time, and in at least one screen the next part stayed hidden until you had written and passed your own tests and refactored for the change. The problems themselves are moderate. Candidates who struggle usually run short on reading speed, test-writing time or clean structure, not algorithms. The hiring manager reviews your resume only after you pass the phone screen, and a strong screen can lead to team matching rather than straight to an onsite.
+
+This guide breaks down each stage of the Block interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Block interview process
+
+<!-- guide-diagram -->
+![Block interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/block/process.webp)
+<!-- guide-diagram -->
+
+Each team runs its own loop, so domain prompts follow the team: payments graphs for transaction teams, fraud and risk for machine learning. The structure is consistent: a recruiter screen, a one-hour technical phone screen on CoderPad, and a virtual onsite that public accounts put at four to five rounds of about an hour each.
+
+Mid-level onsites typically have two coding rounds, one system design and one behavioral round; senior and lead loops weigh design and project depth more. Machine Learning Engineer candidates get an applied coding problem and an ML-flavored design.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call about background, motivation and logistics, often ending with the phone screen already scheduled.
+- **Technical phone screen:** About an hour on CoderPad with one problem revealed in parts, each needing passing tests before the next.
+- **Onsite coding interviews (typically two):** Practical builds such as board generation, scoring logic or optimization over a small dataset.
+- **System design interview:** A payments-flavored design problem; for ML candidates, a risk or fraud system.
+- **Behavioral and hiring manager interview (typically):** Past projects, collaboration and fit with the team and Block's mission.
+
+> **Tip:** Practice multi-part problems where you stop after each part, write two or three tests, run them, and refactor before reading on. That workflow, not the algorithm, decided how far candidates got.
+
+**[Read the full Block interview process →](interview-process.md)**
 
 ## Free Block questions
 

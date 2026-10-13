@@ -6,107 +6,277 @@
 
 ---
 
-Software Engineer candidates at ByteDance are often rejected after they have passed. In one recent loop a candidate cleared the coding round and both system design rounds, was leveled at 2-1, and was then told the team only had headcount at 2-2. That candidate was moved to another team and failed a single peer round there: a very long, team-specific design prompt had to be typed out in text because the editor could not draw, and the interviewer interrupted throughout. After a successful appeal, a third interviewer failed the candidate on a "holistic assessment" with no further detail. A strong coding hour does not carry you here. Each gate is scored on its own, and level and headcount can end the process at any stage.
+ByteDance runs its software engineering loop as a chain of separate gates: rounds are booked one at a time, each must be passed to unlock the next, and one weak hour ends the process regardless of what came before. Nearly every technical hour opens with a resume interrogation of 10 to 45 minutes that is graded as technical evidence, and the coding that follows must compile and pass tests you write yourself. Level and headcount are judged apart from performance: candidates who cleared full loops were stopped because the team only had a slot one band higher or lower.
 
-## Interview Process
+This guide breaks down each stage of the ByteDance Software Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 92 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## ByteDance Software Engineer interview process
 
 <!-- guide-diagram -->
 ![ByteDance Software Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/bytedance--software-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter outreach or HR screen (about 30 minutes, sometimes skipped).** Most reported loops start with outreach, and some go straight to a full technical hour with no screening call. When a screen happens, it covers background, location and target level. Agree the band here. One candidate asked for 2-2, was told the team would only interview at a lower level, and walked away after three rounds. HR may also move the location, for example from Seattle to San Jose, and may schedule rounds in China's evening hours.
+ByteDance hires engineers into specific teams, and interviewers come from that team, often based in China. The loop is usually two to four sequential video calls of 45 to 60 minutes followed by a hiring manager round, with no single onsite day. Reported timelines run from about two weeks to several weeks with silences between rounds.
 
-2. **Online assessment (new-graduate and intern pipelines).** A timed set of three or four problems. Reported contents include a memory-allocation simulator where allocations must start at multiples of 8 and can be freed by id, counting subarrays with alternating parity, a greedy walking-distance problem with charging stations, a newspaper layout formatter with alignment and an asterisk border, and cyclic-shift and matrix-border problems. The problems use no advanced data structures, and grading rests on boundary conditions.
+New graduates and interns usually start with an online assessment and sit coding-focused rounds. Mid-level (2-1) loops add a backend fundamentals or design hour, and senior (2-2 and above) loops carry one or two system design hours plus a project defense that tests scope.
 
-3. **Technical screen (45-60 minutes).** The standard shape is 10-30 minutes of resume questions followed by one or two problems in a shared editor, often Lark. Some interviewers tell you not to move the cursor outside the coding pad, and many expect the code to compile and pass tests you write. Reported problems: the no-parentheses calculator and its character-array variant, remove duplicate letters for the lexicographically smallest result, reverse a linked list and then reverse it in k-groups, number of islands without modifying the grid plus a distinct-shapes follow-up, a sorted array where you must find elements above n/3 in sub-linear time, and ads-themed merge intervals where `start > end` has to be handled. Time is often uneven. Candidates report 40 minutes of resume questions leaving under 20 to code a greedy-with-backtracking digit problem, or a 45-minute call with only 10 minutes for coding.
+Here's what the interview process can look like:
 
-4. **Second coding round or backend fundamentals round (about 60 minutes).** Some teams run a second pure-coding hour: word search II with a trie, alien dictionary as a topological sort, a round-robin task scheduler where VIP sellers get two tasks per turn and standard sellers get one, or a timestamped task scheduler with add, remove and pop-earliest. Others run a fundamentals hour: CAP, database indexing, including leftmost-prefix matching and covering indexes, cache breakdown and avalanche, Kafka internals, WebSocket versus server-sent events, and a MySQL-to-MongoDB migration scenario, followed by a short coding problem. One candidate spent 50 of 60 minutes on fundamentals and 10 on reversing a linked list.
+- **Online assessment (new grad and intern):** A timed set of three or four auto-graded problems built on simulation and boundary handling.
+- **Recruiter screen (sometimes skipped):** About 30 minutes on background, location, level and timeline.
+- **Technical phone screen:** A resume drill followed by one or two problems in a shared editor, with your own tests.
+- **Backend fundamentals round (many teams):** Oral questions on databases, caching, queues, operating systems and networking, then a short problem.
+- **Coding and data-structure design rounds:** Harder problems and implement-a-structure tasks; a few teams run an AI-assisted variant.
+- **System design interview (mid-level and above):** One or two hours, often a module from the team's own product.
+- **Hiring manager interview:** A project grilling and behavioral questions, often with coding, sometimes followed by a short director call.
 
-5. **System design (one or two hours, about 60 minutes each).** The prompts are often taken from the team's own work: a real-time auction with Redis/Lua, Kafka and WebSocket pushes, content moderation with human review and appeals, a per-country top-10 songs leaderboard refreshed every 10 minutes at about 50,000 reads and writes per second, a real-time top-K over a sliding window, and a distributed key-value store. Interviewers check your back-of-the-envelope estimates, whether you asked exact versus approximate early, and failure handling. Some give a two-sentence prompt and refuse to clarify. Senior screens can compress a resume drill, an AI system design question (serving, drift monitoring, retraining without downtime) and a coding problem into one hour.
+> **Tip:** Budget the coding time yourself. Several candidates lost a round not on the problem but because a 40-minute resume drill left under 20 minutes to code; offer to move on when the project discussion runs long.
 
-6. **AI-assisted coding (some teams).** A newer format: you share your screen and use your own AI tool to build something like an `OrderValidator` whose rules form a dependency DAG. The follow-up removes a rule and reconnects its predecessors to its successors. The reported candidate did not finish the test cases and was rejected the same day. The round grades whether the working code and tests you ship are correct, not how much the tool produced.
+## Online assessment
 
-7. **Hiring manager and sometimes a director (20-60 minutes).** The hiring manager round mixes a project grilling with behavioral questions (conflict, ambiguity, weaknesses, why you are leaving) and often a coding problem: non-overlapping intervals, a minimum-cost grid path with 0-1 BFS, or an in-memory key-value store with snapshot and restore where the serialization logic is the hard part. The round is often in Chinese. A director conversation of about 20 minutes on one project can follow.
+Early-career pipelines send a timed assessment to candidates who pass resume screening. Reported sets contain three or four problems that avoid advanced data structures and instead test careful simulation, so hidden boundary tests decide the score. Recurring problems: a memory allocator where each allocation must start at a multiple of 8 and blocks are freed by an incrementing id, counting subarrays whose adjacent elements alternate parity, a walking-distance greedy where a drone carries goods 10 units forward from each station, and a formatter that wraps words to a width, pads by paragraph alignment and draws an asterisk border. Another set included sorting each concentric matrix border clockwise.
 
-8. **Decision, rematch and offer.** One loop went from outreach to offer in a few weeks, including a rematch after the first team chose someone else. Others report rejections the next day, results after eight business days, hiring manager rounds cancelled because priorities shifted, and ghosting after a passed round. When a competing offer came in, the recruiter asked for documentation and later made a higher counteroffer.
+Interviewers evaluate:
 
-## What They Actually Evaluate
+- **Boundary handling:** Frees of unknown ids, allocations running past the end, the last partial line or group.
+- **Decomposition:** Splitting a long statement into independent steps, such as wrap, pad, then border.
+- **Complexity within stated limits:** Inputs up to 100,000 values require hashing or sorting, not pairwise checks.
 
-### Coding and Algorithm
+Practice timed sets of four medium simulation problems, writing each from the statement without starter code.
 
-Every loop has at least one coding hour, and most rounds include coding. Difficulty ranges from easy warm-ups to hard problems like word search II and maximal rectangle. Interviewers push past brute force: they ask for Manacher after a standard palindrome solution, prefix sums on an N-ary tree path-sum problem, and line-by-line complexity. What earns signal is complete, running code with your own tests and stated intent before typing. Rejections came from an unfinished directed-graph solution, binary-search boundary bugs that took too long, and 30-40 minutes lost to misreading a prompt.
+### Sample questions for the online assessment
 
-- [Reverse Nodes in K-Group (incomplete tail variant)](https://trueinterview.io/questions/reverse-nodes-in-k-group)
-- [Remove Duplicate Letters for Lexicographically Smallest Result](https://trueinterview.io/questions/remove-duplicate-letters-lexicographically-smallest)
+Here are some questions reported by recent candidates:
+
+- Simulate memory with `alloc x` starting only at multiples of 8 (leftmost fit) and `erase id`, returning start indexes and freed counts.
+- Count index pairs whose numbers have the same digit count and are cyclic shifts of each other, for up to 100,000 values.
+- Repeatedly split a digit string into groups of k, replace each group with its digit sum, and stop once the length is at most k.
+
+- [Aligned Memory Allocator and Related Tasks](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026)
+- [Zigzag (Alternating-Parity) Subarrays](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-zigzag-alternating-parity-subarrays)
+- [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e)
+
+## Recruiter screen
+
+Most experienced-hire loops start with recruiter outreach, and some skip the screen and open with a full technical hour. When it happens, the screen runs about 30 minutes on background, location, target level and availability. Recruiters' descriptions of later rounds are unreliable: rounds labeled system design turned out to be pure coding or fundamentals. This is also where level is settled; one candidate who asked for 2-2 was told the team would only interview lower and withdrew after three rounds. Recruiters have also moved the location and scheduled calls at 8 p.m. China time.
+
+Interviewers evaluate:
+
+- **Level fit:** Whether your scope matches the band the team has headcount for.
+- **Location and start date:** Willingness to work from San Jose or another hub.
+- **Language:** Whether you can interview in Mandarin; some rounds switch without asking.
+
+Before this call, decide your target band and ask which team, stack and language each round will use.
+
+> **Note:** New-grad postings cap applications at two positions at a time across TikTok and its affiliates worldwide, and candidates report that interview feedback is shared across loops. Choose openings deliberately and keep one active process at a time.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk me through your background and why you are interested in this team.
+- Which months can you start, and are you willing to work in San Jose?
+- What level are you targeting, and what are your compensation expectations?
+
+## Technical phone screen
+
+The first technical hour sets the shape for the loop: 10 to 45 minutes on your resume, then one or two problems in a shared editor, usually the Lark codepad. Many interviewers require code that compiles and passes tests you write, and some forbid moving the cursor outside the pad. Problems are mostly medium, often reworded in business terms, with hard follow-ups.
+
+Reported problems include the no-parentheses calculator and a character-array variant, remove duplicate letters for the smallest lexicographic result, reversing k-groups (one team also reversed the partial final group), number of islands without modifying the grid plus a distinct-shapes follow-up, ads-themed merge intervals where `start > end` must be handled, and values above n/3 in a sorted array in sub-linear time. A candidate who wrote the standard longest-palindrome solution was then asked for Manacher's algorithm.
+
+Interviewers evaluate:
+
+- **Finished, running code:** A correct idea left as an unfinished directed-graph solution was rejected.
+- **Intent before typing:** A candidate who fixed an alien-dictionary bug without explaining the guard against double-counting in-degrees was marked down.
+- **Constraint reading:** No-modification rules, sorted input and tie-breaking change the intended solution.
+
+Practice medium problems in a bare editor with no class stub, finishing each with your own tests in 20 minutes.
+
+> **Note:** Solving everything does not guarantee a pass. Candidates who finished both problems, or an easy problem in one pass, were rejected the next day with no specific gap cited. Narrate your plan before each block, because silent correct code is weaker evidence than explained code.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given N and allowed digits that may repeat, return the largest number strictly less than N (23415 with {2, 4, 9} gives 22999).
+- Find the subarray maximizing its minimum plus maximum and return its sum, first by brute force, then in linear time.
+- Count downward paths summing to a target in an N-ary tree; brute-force DFS was not accepted.
+
 - [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii)
-- [Word Search II](https://trueinterview.io/questions/word-search-ii)
+- [Reverse Nodes in K-Group (incomplete tail variant)](https://trueinterview.io/questions/reverse-nodes-in-k-group)
+- [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits)
+- [Elements Appearing More Than n/3 in a Sorted Array](https://trueinterview.io/questions/sorted-array-elements-more-than-one-third)
 
-### Low-Level Design
+## Backend fundamentals round
 
-Design-and-implement tasks appear constantly: an LRU cache, often with TTL or LFU follow-ups, a HashMap, a deque with O(1) index access, and schedulers with priority and fairness rules. The grading hinges on getting the data structures right before coding: a per-seller min-heap inside an outer round-robin queue, and a heap keyed by timestamp. One candidate restarted after misunderstanding that `popTask` removes tasks.
+Many backend teams spend most of an hour on oral fundamentals drawn from your resume, then give a short problem; one candidate had 50 minutes of questions and 10 to reverse a linked list. Topics are composite indexes (leftmost-prefix matching, covering indexes, why not index every column), CAP, locking, cache breakdown and avalanche, cache-aside consistency, Kafka partitions and rebalancing, Redis persistence, WebSocket versus server-sent events, and Java's LinkedHashMap versus ConcurrentHashMap. Platform-leaning teams add Linux triage, virtual memory and the TCP handshake. Scenario questions weigh most: why a project used plain HTTP rather than WebSocket, what a relational-to-document-store migration gains, and what to do when an LRU cache's miss rate is high.
 
-- [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl)
-- [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler)
-- [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator)
+Interviewers evaluate:
 
-### System Design
+- **Mechanism, not definition:** Why a covering index avoids table lookups, not just that it is faster.
+- **Tie to your own system:** Applying the concept to a cache or queue you actually ran.
+- **Trade-off reasoning:** Relational versus document stores, consistency versus latency.
 
-One or two hours for mid-level and senior candidates, sometimes squeezed into 15 minutes of a screen (one candidate did an e-commerce platform that way and still got an offer). What wins is separating ingestion from aggregation from serving, estimating before choosing components, and pinning down consistency and accuracy requirements early. One rejected candidate said failing to ask whether top-K had to be exact left the design muddled.
+Review every technology on your resume to the level of how it fails and how you would diagnose it.
 
-- [Realtime Auction Bidding System](https://trueinterview.io/questions/realtime-auction-bidding-system)
-- [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard)
-- [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design)
+### Sample questions for the backend fundamentals round
 
-### Domain Deep Dive
+Here are some questions reported by recent candidates:
 
-Backend fundamentals come up constantly: indexes and why you cannot index every column, CAP, locking, Kafka partitions and rebalancing, Redis persistence, Java's LinkedHashMap versus ConcurrentHashMap, and cache consistency under cache-aside. Answers that recite definitions without the mechanism fail. The SQL-to-NoSQL migration trade-off question is the one candidates named as their weak point.
+- With a cache-aside design, how do you keep the cache and database consistent, and how do you prevent a cache avalanche?
+- Given a composite index and several queries, which queries hit the index and why?
+- A team moves from a relational database to a document store: why, what changes architecturally, and what should improve?
 
 - [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster)
-- [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/questions/rag-agent-kafka-oral-drill)
+- [Evaluate a Migration from MySQL to MongoDB](https://trueinterview.io/questions/evaluate-a-migration-from-mysql-to-mongodb)
+- [Explain Java ConcurrentHashMap and queues](https://trueinterview.io/questions/explain-java-concurrenthashmap-and-queues)
 
-### Project Deep Dive
+## Coding and data-structure design rounds
 
-Resume questioning takes 15-45 minutes of most rounds. Interviewers pick your hardest project and ask for schema choices, edge cases, metrics and failure handling. Some fixate on one old line item. A shaky start here hurt candidates' later coding, and when the drill ran long it left too little time to code.
+Later technical hours raise difficulty and often ask you to build a structure. Reported tasks include an LRU cache with TTL or LFU follow-ups, a deque with O(1) push, pop and index access, a HashMap from scratch, a time-based key-value store, an in-memory store with snapshot and restore where serialization is the hard part, and a seller task scheduler with weighted round-robin (VIP sellers get two tasks per turn) and priority then FIFO order within each seller. Senior algorithm hours have included word search II and maximum path sum with the path printed.
 
-- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
+A few teams now run an AI-assisted round: you share your screen and use your own AI tool to build an `OrderValidator` whose rules form a dependency graph, then remove a rule and reconnect its predecessors to its successors.
+
+Interviewers evaluate:
+
+- **Structures chosen before code:** An outer round-robin queue with per-seller min-heaps; a heap keyed by timestamp.
+- **Clarified semantics:** One candidate restarted after assuming `popTask` did not remove tasks.
+- **Extension under follow-up:** Adding TTL, LFU or rule removal without rewriting the core.
+- **Complete tests:** In the AI round, unfinished tests ended the process the same day.
+
+Practice implementing caches, schedulers and stores in 30 minutes each, then adding one follow-up feature.
+
+> **Tip:** In the AI-assisted round the grade is the working code and tests you ship, not how much the tool generated. Have it draft test cases early and verify the graph rewiring by hand.
+
+### Sample questions for the coding and data-structure design rounds
+
+Here are some questions reported by recent candidates:
+
+- Implement `receive_task` and `process_next_task` for a scheduler that rotates across sellers, giving VIP sellers two tasks per turn.
+- Support `addTask`, `removeTask` and `popTask(num)`, which removes and returns the earliest tasks by timestamp.
+- Implement an in-memory key-value store whose snapshot can be serialized and later restored exactly.
+
+- [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler)
+- [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl)
+- [In-Memory Key-Value Store with Snapshot and Restore](https://trueinterview.io/questions/5534e3f3-24b4-58f4-8835-8f1258d5cd67)
+- [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator)
+
+## System design interview
+
+Mid-level and senior loops include one or two design hours of about 60 minutes, and senior screens have squeezed design into 15 minutes of a mixed hour. Prompts are often modules of the team's own product: a real-time auction with atomic bid updates and live pushes, a per-country top-10 songs leaderboard refreshed every 10 minutes at about 50,000 reads and writes per second, a real-time top-K over a sliding window, content moderation with human review and appeals, a live comment system, and a distributed key-value store. Senior screens have also asked for AI system design, such as serving and drift monitoring. Some interviewers give a two-sentence prompt and decline to clarify; one candidate had to type a design in text because the editor could not draw.
+
+Interviewers evaluate:
+
+- **Estimates first:** Read and write rates and storage per event, which then justify each component.
+- **Exact versus approximate:** One rejected candidate said not asking whether top-K had to be exact muddled the design.
+- **Separating ingestion, aggregation and serving:** Events through a log and stream processor, results served from a cache.
+- **Failure handling:** Reconnection, exactly-once bid processing and hot keys from viral items.
+
+Practice designs from ByteDance's own products, each opening with estimates and a written requirements list.
+
+> **Note:** On a team transfer, a candidate who had passed a full loop received a long internal spec for correlating 50+ videos with 1,000+ keywords per submission, with versioned updates and resumable uploads, and was failed mid-round. Be ready to design from a dense spec in plain text.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a per-country top-10 songs service taking 50,000 listening events per second, with rankings refreshed every 10 minutes.
+- Design a real-time auction where every participant sees the highest bid with minimal latency during popular auctions.
+- Design a moderation pipeline with automated rules, human review and an appeal flow.
+
+- [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard)
+- [Realtime Auction Bidding System](https://trueinterview.io/questions/realtime-auction-bidding-system)
+- [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design)
+- [Video-Keyword Association Review System](https://trueinterview.io/questions/video-keyword-association-review-system)
+
+## Hiring manager interview
+
+The manager round mixes a project defense with behavioral questions and often a coding problem, and it is frequently held in Mandarin. Behavioral topics are a challenging project, conflict, ambiguous requirements, a failure, prioritization, weaknesses and why you are leaving. Reported coding includes non-overlapping intervals and a 0-1 BFS grid path. A 20-minute director conversation can follow. At senior bands the defense turns adversarial by design, challenging every architecture choice and success metric. Manager rounds have also been cancelled when hiring priorities shifted.
+
+Interviewers evaluate:
+
+- **Ownership:** What you personally decided, with metrics proving it worked.
+- **Defending choices:** Why that architecture, what you rejected, what you would change.
+- **Ambiguity and conflict:** Concrete actions, not a summary of the team's work.
+
+Prepare two projects you can defend for 30 minutes each, in Mandarin as well if the team is China-based.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe a project where communicating with others was particularly difficult and how you handled it.
+- Given intervals, return the minimum number to remove so the rest do not overlap.
+- Pick your highest-impact project: why that architecture, what proved success, and what would you change?
+
 - [Hiring Manager / Final Behavioral Round](https://trueinterview.io/questions/hm-behavioral-final-round)
+- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
+- [Non-Overlapping Intervals (LeetCode 435)](https://trueinterview.io/questions/non-overlapping-intervals)
 
-## What They Don't Test
+## How ByteDance levels and evaluates Software Engineer candidates
 
-- **Canonical whiteboard design only.** Several design prompts were modules from the team's own services, and one had to be answered in plain text. Structured written reasoning beats diagram polish.
-- **Memorized problem numbers.** Problems arrive reworded in business terms (ads intervals, seller queues). Recognizing the pattern and handling edge cases like `start > end` is what gets rewarded.
-- **Long rehearsed behavioral stories on their own.** Behavioral questions are woven into project defense and hiring manager coding rounds. Specifics with numbers win.
-- **Tool output in the AI round.** Using your own AI tool is allowed, but the grade depends on whether you ship working code with complete tests.
+Each round is a pass/fail gate, and the hiring manager settles the outcome. Level is assessed during the loop, mostly from the resume drill and design rounds, and checked against the band the team can fill: one candidate was assessed at 2-1 after passing all three rounds and told only 2-2 headcount remained. When a team passes, recruiters often rematch you elsewhere, which restarts part of the loop; one rematched candidate got an offer, another failed the new team's first round. An appeal over interviewer conduct has been granted, but the replacement interviewer also failed the candidate, citing only a holistic assessment. Decisions arrive from the same day to about eight business days, and ghosting after a passed round is common.
 
-## The Real Filter
+> **Tip:** Ask before round one whether the requisition is open at your band and whether passed rounds carry over if you are rematched.
 
-The primary filter is level and headcount, which sits outside your technical performance and can override it. Candidates passed full loops and were stopped by band availability, down-leveling, a team choosing someone else, or cancelled hiring manager rounds. Candidates misjudge this because feedback is generic and they go looking for a coding mistake. Confirm the band and whether the requisition is open before round one, and ask whether feedback carries across teams. One candidate warned that the company's internal system shares feedback between loops, so keep one application active at a time.
+## How to prepare for the ByteDance Software Engineer interview
 
-The second filter is how interviewer-dependent the rounds are. The same candidate met a friendly panel and then an interviewer who interrupted constantly. Others faced cameras off, a language switch with no warning, trivia recall, and a brainteaser given verbally with two minutes left. State your assumptions out loud and keep going, rather than waiting for validation that will not come.
+1. **Settle level and team first:** Confirm the band, the team's stack and the interview language before investing in the loop.
+2. **Compress your project stories:** A few minutes each with metrics, schema choices and one failure, so the resume drill leaves coding time.
+3. **Code in a bare editor with your own tests:** No class stub, no autocomplete, tests run before you say you are done.
+4. **Learn the follow-up for each classic:** Partial final k-group, distinct island shapes, Manacher, sub-linear search on sorted input, LFU after LRU.
+5. **Review backend internals to mechanism depth:** Indexes, caching failures, Kafka rebalancing, Redis persistence and storage trade-offs.
+6. **Build structures under follow-up:** Caches, schedulers and key-value stores in 30 minutes, then extend them.
+7. **Design ByteDance's own products:** Leaderboards, auctions, moderation and live comments, opening with estimates and exact-versus-approximate.
 
-The third filter is time lost in rounds that feel easy. Solid candidates were rejected the next day after an easy problem, or ran out of minutes because the resume drill ran long. Keep project answers tight, and budget the coding time yourself.
+## About the ByteDance Software Engineer role
 
-## Data Source
+ByteDance Software Engineers build the backend and platform services behind TikTok, CapCut, Lark and the company's recommendation, ads and commerce systems. Teams are often split between the US and China, so many roles involve evening meetings in US time. Since January 2026, TikTok's US operations sit in a joint venture majority-owned by American investors, with ByteDance retaining 19.9%, so confirm which entity a US role belongs to.
 
-Based on 92 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| 1-2 | Entry-level engineer delivering features with guidance | Components within one team |
+| 2-1 | Mid-level engineer owning features and services | A team's services |
+| 2-2 | Senior engineer leading designs and mentoring | A team's systems and neighboring teams |
+| 3-1 | Staff-level engineer or technical lead | Several teams or a product area |
 
-## FAQ
+ByteDance hires Software Engineers across most of its products. Teams include:
 
-**What is it like to work at ByteDance as a Software Engineer?**
+- **Monetization and Commerce Ads:** Ad serving, bidding and campaign systems, hiring actively after a reorganization.
+- **TikTok LIVE:** Live-streaming service architecture and real-time interaction.
+- **E-commerce:** Content commerce, sellers and orders.
+- **Recommendation and foundation platforms:** Ranking, retrieval, storage, compute and video infrastructure.
 
-The interview reports cover hiring, not daily work. What is well documented is an intense pace, with core product teams depending on infrastructure and colleagues in China. That means evening meetings in US time, and one candidate turned down a raised counteroffer because of them. Teams working on US-specific scope report more independent schedules. Monetization and ads teams were hiring actively after a reorganization.
+### Software Engineer experience and education requirements
 
-**What is the engineering culture like?**
+New-grad postings ask for a bachelor's or master's in computer science or a related field and solid programming skills, naming Go, C++ or another systems language for platform teams, and graduates must commit to an onboarding date. Experienced roles expect production backend experience, and interviews probe Go, Java, Redis, Kafka and MySQL when they appear on your resume. Any mainstream language is accepted for coding.
 
-Metrics-driven and centred on the resume: you are expected to justify every decision with numbers. Much of the work and many interviews run partly in Chinese, and interviewers are often based in China. Design prompts are taken straight from what the team is building, which gives a fair preview of the job.
+## FAQs about the ByteDance Software Engineer interview
 
-**How hard is it to get in?**
+### How long does the ByteDance Software Engineer interview process take?
 
-Hard and somewhat unpredictable. The coding bar is medium-to-hard, and a senior loop can include hard problems like word search II. Loops typically take several weeks and can go silent between rounds, and non-technical factors decide many outcomes. Expect a recruiter to try rematching you if the first team passes.
+From about two weeks to several weeks. One loop went from first contact to offer in about two weeks; another moved from application to recruiter contact in a week, with rounds three or four days apart.
 
-**Which round is hardest?**
+### What is the hardest round of the ByteDance Software Engineer interview?
 
-The team-specific system design round, because prompts can be long, unusual and lightly clarified. For candidates who have not reviewed backend internals, the fundamentals-heavy hour is where the most points are lost.
+For mid-level and senior candidates, the team-specific system design round, because prompts can be long, unusual and lightly clarified. For candidates who have not reviewed backend internals, the fundamentals hour costs the most points.
+
+### Are the interviews in English or Mandarin?
+
+Both. Many interviewers are China-based and some switch to Mandarin without asking, especially in manager rounds. Tell the recruiter your preference early.
+
+### How much does a ByteDance Software Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **1-2:** ~$195K
+- **2-1:** ~$275K
+- **2-2:** ~$450K
+- **3-1:** ~$620K
+
+Packages combine base salary, an annual bonus and stock that vests over four years, most commonly on a back-loaded 15%, 25%, 25%, 35% schedule.
 
 ---
 

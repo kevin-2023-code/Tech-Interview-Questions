@@ -8,80 +8,274 @@
 
 ---
 
-This guide is the deep dive behind the process summary on the company page: what each Reddit round actually contains, how interviewers grade, and where candidates lose offers they thought they had won. It draws on 25 real Reddit questions and 32 candidate interview reports, so the patterns below are the ones that actually recur.
+Reddit tests coding with practical, multi-part problems drawn from its own product (moderator logs, chat message windows, tennis scoring, billing states) rather than trick algorithms, and interviewers often announce four or five parts while saying completion is not expected. What decides more loops than the coding is the hiring-manager round, which turns into a domain exam on specialized teams such as ads, and the post-panel steps (team matching, down-leveling, headcount) that have ended technically strong loops.
 
-## Interview Process
+This guide breaks down each stage of the Reddit interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 31 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Reddit interview process
 
 <!-- guide-diagram -->
 ![Reddit interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/reddit/process.webp)
 <!-- guide-diagram -->
 
-The recruiter conversation is short and logistical, but it is also where you learn which team the requisition belongs to — and at Reddit that matters more than at most companies. Loops for ads, ML infrastructure, search, and community tooling share the same shell yet diverge sharply in the hiring-manager and design rounds, and several candidates only discovered a team-matching phase (or a hiring freeze on the matched team) after clearing the technical bar. Ask directly which org owns the role and whether matching happens before or after the loop.
+The skeleton is shared across engineering: a recruiter call, one technical screen (or a timed online assessment in some pipelines), then a virtual onsite of four to five rounds of about an hour each. The content is team-dependent: ads, ML platform, search and core product loops share the shell but diverge in the design and hiring-manager rounds. Every report describes a fully remote process.
 
-The technical screen is typically a 45-60 minute session in a shared editor with one problem that grows. Reddit deliberately avoids trick algorithms in favor of production-flavored tasks: merging chronologically sorted message lists without built-in set types, modeling a tennis match's scoring rules, traversing a reporting hierarchy, implementing a billing-status state machine, or building a small rate limiter. The signature move is the staged follow-up — candidates describe problems announced as having four or even seven parts, with the interviewer explicitly not expecting completion. Grading rewards a clean working baseline, visible edge-case testing, and smooth pivots when a new constraint lands (deduplicate by version, add a permission check, support multiple communities). Some funnels substitute a timed online assessment; a recent one asked for a working subset of the memcached text protocol, graded on exact output format.
+Machine Learning Engineer loops open with a modeling case and add ML fundamentals and ML system design. At senior level the design and hiring-manager rounds weigh more, and an unfinished coding round can cost a level.
 
-The virtual onsite typically runs four to five rounds of about an hour each: one or two coding sessions in the same practical style, at least one system design round, a hiring-manager conversation, and a collaboration or values round often run by a product manager. Design prompts lean on Reddit-shaped workloads — leaderboards, notification fan-out, live chat for millions of concurrent viewers, surfacing the hottest post from any day, job scheduling — and interviewers reliably push past the first diagram into partitioning, cache invalidation, consistency, tail latency, and what breaks first. The hiring-manager round can be a genuine domain examination: on an ads team it went deep into ad serving, programmatic auctions, and metrics, and a domain mismatch there colored the rest of the debrief.
+Here's what the interview process can look like:
 
-Timelines vary widely. One candidate went from phone screen through four onsite rounds to an offer in three business days; others waited weeks between stages, were downleveled after the onsite, or lost the role to headcount after passing. A rejection typically starts a 12-month cooling period before reapplying, so treat each attempt as the real one.
+- **Recruiter screen:** A 30–45 minute call on background, target level and which team owns the role.
+- **Online assessment (some pipelines):** An autograded exercise replacing the live screen, such as a small text-protocol server or a chat-merge task.
+- **Technical phone screen:** A 45–60 minute shared-editor session with one practical problem that grows, or a modeling case for ML roles.
+- **Coding interviews (onsite):** One or two hour-long rounds of staged implementation problems.
+- **System design interview (onsite):** One or two product-shaped design rounds; ML candidates get ML system design plus an ML fundamentals round.
+- **Hiring manager interview:** Multiple stories about recent work, or a domain deep dive on specialized teams.
+- **Cross-functional and behavioral interview:** Collaboration with product, design and data partners, sometimes run by a product manager.
 
-## What Candidates Report
+> **Tip:** Ask the recruiter which org owns the role and whether team matching comes before or after the loop. An ads hiring-manager round and an ML platform design round each need preparation a generic loop does not.
 
-- Interviewers are consistently described as friendly and collaborative, offering hints and mid-round feedback. Partial completion with clear reasoning can still advance you; several candidates moved forward after finishing only the first parts of a multi-stage problem.
-- The coding style surprises people who prepared only classic algorithm sets. Expect API integration, protocol parsing, ordered-collection maintenance, and state machines — problems where the data model and the follow-ups are the test.
-- Constraint twists are routine: no built-in set for deduplication, version numbers that decide which duplicate survives, exact byte-count and newline handling. Missing a stated requirement, even a cosmetic one like indented output, gets recorded.
-- System design goes operational fast. Multiple reports describe being pushed on deployment, CI/CD, testing strategy, caching, and reliability — areas most prep glosses over — rather than more boxes on the diagram.
-- Strong technical rounds do not guarantee outcomes. Reports include rejections after passing all test cases, silence after promised follow-ups, and offers that evaporated in team matching. Keep other options alive until paperwork exists.
+## Recruiter screen
 
-## Coding Questions
+The call is short and non-technical: background, target level, location and the next stage. Its real value is learning which org owns the requisition, whether your pipeline uses a live screen or an assessment, and how the next round runs; one candidate was told the next stage was a backend coding round run differently from standard live coding.
 
-Reddit coding rounds are less about spotting a clever invariant and more about shipping a correct, extensible implementation while requirements move. Practice narrating your data-model choice, finishing a baseline early, and treating each follow-up as a small refactor rather than a rewrite.
+Interviewers evaluate:
 
-- [Merge Chat Message Windows](https://trueinterview.io/questions/merge-chat-message-windows)
-- [Moderator List Hierarchy](../../questions/algorithm/moderator-list-hierarchy/README.md)
+- **Level fit:** The scope of your recent work, which sets the target level for the loop.
+- **Domain match:** Hands-on background in the team's area, such as ad serving, ranking, ML infrastructure or safety.
+
+Bring a two-minute summary of a recent project and a specific reason for the team.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and the most recent project you owned.
+- Why Reddit, and why this team?
+
+## Online assessment
+
+Some Software Engineer pipelines swap the live screen for a timed, autograded exercise. One recent version asked for a working subset of the memcached text protocol over TCP: `get` returns a `VALUE` header with the byte count, the raw bytes and `END` (only `END` for a missing key), `set` reads exactly the declared byte count, keys match a fixed character class, commands are case-sensitive, and a bonus adds multi-key `get`. Another asked candidates to gather chat messages from overlapping context windows through an API that returns sorted pages and return one deduplicated sorted list.
+
+Interviewers evaluate:
+
+- **Exact output:** Grading is on byte-level conformance; a stray line on a missing key fails tests.
+- **Using input guarantees:** The chat version expects a linear merge of pre-sorted pages, not collect-then-sort.
+
+Practice a line-based protocol parser and a k-way merge with deduplication under a timer.
+
+> **Note:** The chat-merge assessment fails an O(M log M) solution on performance even when its output is correct. When an API promises sorted results, the grader expects you to exploit it.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Implement `get` and `set` for a pseudo-memcached server, including multi-key `get` and key validation.
+- Merge messages from several sorted context-window API calls into one deduplicated sorted list in linear time.
+
 - [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol)
+- [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows)
+- [Merge JSON Event Logs](https://trueinterview.io/questions/merge-json-event-logs)
 
-## System Design Questions
+## Technical phone screen
 
-Design prompts map to the product: ranking, delivery, and hot-content problems at feed scale. Establish requirements and a single-server baseline quickly, because the real evaluation happens in the scaling and operations discussion that follows — caching hot threads, fan-out strategy, consistency, and failure recovery.
+The screen is a 45–60 minute video call in a shared editor such as CoderPad: five to ten minutes of introductions, then one problem that gains requirements. Software Engineer prompts recur: merging chat-message lists without a built-in set, tennis scoring, a billing-status state machine that throws on invalid transitions, report-chain queries, a fixed-window rate limiter, and a moderator-log parser. A frequent follow-up is designing a cache for the repeated API call.
 
-- [Design a Gaming Leaderboard Service](../../questions/system-design/design-a-gaming-leaderboard-service/README.md)
-- [Design a Notification System for Reddit](../../questions/system-design/design-a-notification-system-for-reddit/README.md)
-- [Design Reddit's Post Comment Ranking System](https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system)
+Machine Learning Engineer screens are a working case instead: turning nested JSON into a dataframe and comparing four classifiers, exploring a click log before explaining XGBoost internals, or handling 20 percent positive labels against an F1 target. ML platform candidates got plain coding (tennis scoring) instead. Candidates are usually told to expect results within a week.
 
-## Low-Level Design Questions
+Interviewers evaluate:
 
-These are the state-machine and object-modeling problems Reddit favors in screens: encode the rules explicitly, reject invalid transitions loudly, and check win-conditions before reset logic. Interviewers frequently ask for test cases, so rehearse writing a handful fast.
+- **Clean modeling:** An explicit state machine or lookup table, with errors for illegal transitions from terminal states.
+- **Absorbing new requirements:** Version-aware deduplication or a permission check handled as a small refactor, not a rewrite.
+- **Tests:** Interviewers often ask for test cases; strong candidates write them unprompted.
+- **Model judgment (ML):** Why a model or metric fits this data, not library syntax; one interviewer allowed syntax lookups.
 
-- [Tennis Match Scoring](https://trueinterview.io/questions/tennis-match-scoring)
+Solve each recurring family twice: a 20-minute baseline, then with two added follow-ups.
+
+> **Tip:** On tennis scoring, check the win condition before the deuce reset; one interviewer flagged the bug that turns a 5-3 win into a 3-3 reset. Another candidate spent so long on tie-break rules that only 20 minutes remained for code, and was rejected.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Merge several message lists, deduplicate without a set, then keep only the highest version of each message.
+- Given a manager-to-reports adjacency list, print the tree indented, list everyone above and below a node, and find the lowest common manager.
+- Explore a click dataset with per-category hour columns, then build and compare CTR models.
+
+- [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring)
 - [Bill Status](https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444)
 - [Report Chain](../../questions/object-oriented-programming/report-chain/README.md)
+- [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction)
 
-## AI-Assisted Coding Questions
+## Coding interviews
 
-ML-adjacent funnels may include a notebook-style working session — exploring a real dataset, engineering features, and justifying model and metric choices aloud. Interviewers sometimes permit documentation lookups; the graded part is your judgment, not your recall of syntax.
+Onsite coding is one or two hour-long rounds in the same practical style with a larger surface. A representative round built a moderator system in five steps: parse an activity log, check whether one moderator can remove another based on addition order, rank moderators by most recent addition, add a per-community layer, and demote a moderator by one position, which called for a doubly linked list. Other rounds included a sliding-window rate limiter, a word-ladder variant, and two classic problems in an ML infrastructure loop where AI assistance was banned.
 
-## Behavioral Questions
+Interviewers evaluate:
 
-The collaboration and hiring-manager rounds ask for multiple concrete stories, not one polished highlight. Bring more examples than you expect to need — recent wins and lowlights, conflict with non-engineers, a decision you reversed — and be ready for a hiring manager to probe the domain details inside each story.
+- **Data-structure pivots:** Moving from a map to an ordered structure once requirements need ordering with O(1) updates.
+- **Right-sizing:** One candidate reached for union-find on a plain reporting hierarchy when a map plus DFS sufficed.
+- **Finishing what you start:** Unreached parts are forgiven; a started part left incomplete, even cosmetic indentation, is recorded.
+
+Practice staged problems with a timer that interrupts you, so each part is left working before the next begins.
+
+> **Note:** Machine Learning Engineer candidates face the full engineering bar here. A senior candidate who finished one and a half parts of the moderator problem was down-leveled after the onsite, and then no headcount existed at the lower level.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Build a moderator system from action logs with removal permissions, ranking, per-community state and demotion.
+- Implement a thread-safe sliding-window rate limiter that evicts expired timestamps in constant time.
+- Decide whether two words connect through dictionary words when each step changes one or two characters.
+
+- [Moderator List Hierarchy](../../questions/algorithm/moderator-list-hierarchy/README.md)
+- [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md)
+- [Dictionary Word Transformation Path](../../questions/algorithm/dictionary-word-transformation-path/README.md)
+- [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705)
+
+## System design interview
+
+Software Engineer loops run one or two design rounds on site features: a global game leaderboard scaled from one server, a notification system for millions of users, subreddit live chat fanning one message to five million concurrent viewers at a peak event, the hottest post of any day, a job scheduler, a rate limiter, a bill-status service, and comment ranking. Interviewers argue against your chosen approach; one candidate had to defend cache-plus-pull delivery against streaming push fan-out.
+
+Machine Learning Engineer loops substitute ML system design (a feature store, predicting whether a user will comment on a post, personalized comment ranking, end-to-end video recommendation) and add an ML fundamentals round covering conversion-rate modeling, interpreting two overlapping distributions, bias-variance, regularization and cold start.
+
+Interviewers evaluate:
+
+- **Incremental scaling:** A working single-server baseline, then partitioning, caching and replication as bottlenecks appear.
+- **Operational depth:** Rollout, CI/CD, testing, cache invalidation and reliability under load; one feature-store round spent most of its time here.
+- **Defending trade-offs:** Holding or revising a position with a clear reason when challenged.
+- **ML lifecycle (ML track):** Labels, batch and streaming features, cold start, low-latency serving, logging and A/B testing.
+
+End every practice design with how it deploys, is tested and degrades.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design live chat that fans one message out to five million concurrent viewers, comparing push and pull.
+- Design a system predicting whether a user will comment on a post, including cold start for new users and posts.
+
+- [Design Online Game Leaderboard](../../questions/system-design/design-a-gaming-leaderboard-service/README.md)
+- [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md)
+- [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md)
+- [Feature Store](https://trueinterview.io/questions/feature-store)
+- [Design comment-likelihood prediction platform](https://trueinterview.io/questions/design-comment-likelihood-prediction-platform)
+
+## Hiring manager interview
+
+Billed as behavioral, this round asks for highlights and lowlights of recent work, and the manager pushes for several distinct stories rather than one polished one. On generalist teams it stays a two-way fit conversation. On specialized teams it becomes a technical exam: on one ads team the hour covered ad serving, the programmatic ecosystem and ads metrics, and the candidate concluded the manager's read also colored how behavioral answers were scored.
+
+Interviewers evaluate:
+
+- **Story range:** Two or three examples per theme, including a genuine lowlight.
+- **Domain depth:** Hands-on knowledge of the team's systems and metrics on specialized teams.
+
+Treat this round as technical when the team is ads, ranking or another specialty.
+
+> **Note:** This is the most common rejection path for Software Engineer candidates on specialized teams who passed the technical rounds; domain experience outweighs general preparation.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through the highlights and lowlights of your recent work, with a second example for each.
+- Explain how ad serving works end to end and which metrics you would watch.
+
+- [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round)
+- [Describe a failure and a success](https://trueinterview.io/questions/describe-a-failure-and-a-success)
+
+## Cross-functional and behavioral interview
+
+This round, often run by a product manager, tests work with product managers, designers and data scientists: conflict with non-engineering partners, aligning on ambiguous requirements, and influencing a technical decision. Some loops add a product-sense case; one ML infrastructure candidate had to improve new-user onboarding and define the metrics that signal a healthy flow.
+
+Interviewers evaluate:
+
+- **Partnership:** Being overruled gracefully and still shipping, or changing a partner's mind with data.
+- **Product sense:** User empathy and simplicity-versus-engagement trade-offs.
+- **Measurement:** The metrics that would show a change worked.
+
+Prepare four or five collaboration stories and one improvement idea for a Reddit surface you use.
+
+### Sample questions for the cross-functional and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Describe a conflict with a product manager or designer and how it was resolved.
+- How would you improve Reddit onboarding, and what would tell you it worked?
 
 - [Cross-Functional & PM Behavioral](https://trueinterview.io/questions/cross-functional-pm-bq)
-- [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round)
 - [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding)
+- [Prioritize competing engineering requests](https://trueinterview.io/questions/prioritize-competing-engineering-requests)
 
-## How to Prepare
+## How Reddit makes hiring decisions
 
-- Drill the recurring problem families under time pressure: merging sorted streams with deduplication, hierarchy traversal with ancestor/descendant queries, rate limiting, and rule-heavy state machines. These specific shapes reappear across screens, onsites, and assessments.
-- Practice multi-part pacing: set a hard timebox on clarification (five to seven minutes), get a baseline running, then take follow-ups incrementally. Candidates who burned the clock on up-front questions ran out of implementation time.
-- Rehearse deduplication and ordering without leaning on built-in set types — a dictionary keyed by id with version tracking is the pattern interviewers repeatedly steer toward.
-- Give every system design answer an operations pass: rollout and rollback, CI/CD, testing, cache invalidation, monitoring, and behavior under dependency failure. This is the layer Reddit interviewers actually grade.
-- Research the target team's domain before the hiring-manager round; for specialized teams like ads, that conversation assumes hands-on familiarity that generic prep cannot fake.
-- Write test cases proactively in coding and design-modeling rounds — several interviewers asked for them explicitly, and finishing every stated requirement (including formatting details) is part of the bar.
-- Confirm process mechanics with your recruiter: whether an online assessment precedes the screen, whether team matching follows the loop, and expected feedback timing — then follow up once and keep moving.
+Feedback goes to a debrief where the hiring manager's view carries heavy weight. The target level is set before the loop and can drop afterward; one senior Machine Learning Engineer was down-leveled, then lost the offer to missing headcount. Team matching can follow the screen, and one candidate's first assignment fell through, after which the recruiter went quiet and the role appeared frozen. Decisions range from three business days after a five-round remote loop to two weeks past a promised one-week answer with no formal notice. Passing every test case with positive in-room feedback has still ended in rejection. A rejection starts a 12-month cooldown.
+
+> **Tip:** If an interviewer seems a poor match, raise it with the recruiter; one offer-track candidate said Reddit accommodated a change. Follow up once when a promised date passes, and keep other processes alive until paperwork exists.
+
+## How to prepare for the Reddit interview
+
+1. **Drill the recurring families:** Message merges without a set, report chains, tennis and billing state machines, rate limiters and moderator logs, until each baseline takes 20 minutes.
+2. **Timebox clarification to about five minutes:** Then build a running baseline and add follow-ups one at a time.
+3. **Finish every stated requirement:** Formatting details such as indented output count once a part is started.
+4. **Exploit input guarantees:** Merge pre-sorted pages linearly and read protocol payloads by exact byte count.
+5. **Add an operations pass to every design:** Rollout, CI/CD, testing, caching and failure modes after the architecture.
+6. **Research the team's domain:** For ads, ranking or safety teams, learn the systems and metrics the hiring manager will probe.
+7. **Keep coding sharp on the ML track:** Expect a full-bar data-structure round alongside modeling, fundamentals and design.
+8. **Bring surplus stories:** Several highlights, lowlights and cross-functional conflicts, ready for follow-ups.
+
+## About working at Reddit
+
+A few thousand employees run community, feed, search and ads systems at very large scale, and engineers describe wide ownership and product-attached work, which the interview prompts mirror. Many US roles are posted as remote, and the company describes itself as flexible-first.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC1–IC2 | Delivering well-defined features with guidance | Tasks within one team |
+| IC3 | Owning features and services end to end | One team's systems |
+| IC4 (Senior) | Leading projects and setting technical direction | A team and its partners |
+| IC5 (Staff) | Cross-team architecture and long-range bets | Several teams or an org |
+
+Reddit hires engineers across product, ads and platform orgs. Teams include:
+
+- **Ads:** Ranking, measurement modeling, targeting and retrieval, marketplace quality, and advertiser creative tools.
+- **Safety:** ML that detects harmful content, plus ad safety and verification.
+- **Search and answers:** Search relevance and AI answers built on community content.
+- **Feeds and relevance:** Home feed, comment ranking and recommendations.
+- **ML platform and infrastructure:** Feature stores, GPU inference for ranking and LLMs, and core platform services.
+- **Data and developer platforms:** Data licensing, API access and tools for developers building on the site.
+
+### Experience and education requirements
+
+A recent mid-level Software Engineer posting asked for three or more years of professional experience; senior and staff postings ask for more, plus a record of leading cross-team projects. Candidates in the reports coded in their language of choice, mostly Python and JavaScript. Machine Learning Engineer postings look for production experience with ranking, recommendation or classification models.
+
+## FAQs about the Reddit interview
+
+### How long does the Reddit interview process take?
+
+Typically two to six weeks from first contact to decision. One offer arrived three business days after the onsite, while team matching or headcount issues can stretch it much longer.
+
+### What is the hardest round of the Reddit interview?
+
+For Software Engineer candidates on specialized teams, the hiring-manager domain round; among technical rounds, system design, because of its operational follow-ups. For Machine Learning Engineer candidates, the coding round has decided outcomes most often.
+
+### What base salary ranges do Reddit engineering postings list?
+
+Reddit posts base ranges for US roles: about $164K–$230K on a mid-level Software Engineer posting and about $191K–$267K on Senior Software Engineer postings, with restricted stock units on top.
+
+### What happens after a rejection?
+
+Candidates report a 12-month cooldown before reapplying. Some received detailed recruiter feedback; others never got a formal notice.
+
+### Is the Reddit interview remote?
+
+Yes. Every report describes a fully virtual process, from the screen through a four- or five-round onsite.
 
 ## Guides by Role
 
-- [Reddit Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 - [Reddit Software Engineer Interview Process](interview-process-software-engineer.md)
+- [Reddit Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 
 ---
 

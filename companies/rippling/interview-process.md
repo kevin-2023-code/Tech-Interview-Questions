@@ -6,76 +6,273 @@
 
 ---
 
-Rippling runs one of the most practical engineering loops among late-stage startups: nearly every round asks you to build, extend, or architect a small piece of business software while the clock runs. This guide goes deeper than the outline on the company page, drawing on 19 real Rippling questions and 52 candidate interview reports to show what each stage actually probes and where candidates lose offers.
+Rippling interviews through small, realistic pieces of business software: driver payouts, expense policies, article votes and loggers in coding, and news feeds, event pipelines and hotel booking in design. Each problem arrives in two or three parts, and the most common rejection reason is an unfinished last part. AI assistants are banned, optional or mandatory depending on the round, and candidates who cannot explain generated code are marked down. A hiring-manager project deep dive largely sets the level, and late down-levels are a recurring theme.
 
-## Interview Process
+This guide breaks down each stage of the Rippling interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 51 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Rippling interview process
 
 <!-- guide-diagram -->
 ![Rippling interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/rippling/process.webp)
 <!-- guide-diagram -->
 
-The recruiter call sets more than logistics. Candidates report that hiring has been shifting toward a general-hire model with team matching, so ask directly whether you are interviewing for a specific team, how leveling is decided, and whether AI assistants are allowed, encouraged, or required in your coding rounds -- all three variants show up. Scheduling moves quickly and the whole process typically wraps in a few weeks; decision feedback has arrived anywhere from the next day to about a week after the final round, and a rejection typically triggers a six-month cooldown before reapplying.
+The loop is short. A recruiter call leads to one technical screen of 45–60 minutes, sometimes two, then a virtual onsite of two to four rounds: practical coding, system design and a hiring-manager deep dive. Recruiters describe a shift toward general hiring with team matching afterward, and the process usually wraps up within a few weeks.
 
-Early-career and intern candidates often get an online assessment first: complexity analysis, heap property checks and insertions, graph traversal traces, a small REST-API data-processing task, and a sliding-window problem. One recurring assessment asks for the maximum number of drivers simultaneously active in a rolling 24-hour window, where the grader expects end events processed before start events at identical timestamps -- getting that ordering wrong fails hidden cases. A bonus third question is worth attempting if time remains.
+Interns and early-career candidates often start with an online assessment and lean toward coding. From senior up, the screen is sometimes a design conversation, the onsite can hold two or three design rounds, and mentorship comes up. Data-focused roles get design rounds on pipelines, schemas and table layout.
 
-The technical screen is usually 45-60 minutes of live coding on a multi-part practical prompt, though a meaningful minority of screens are system-design conversations instead. The coding prompts rotate through a recognizable family: a delivery-cost or driver-payout calculator, an expense-rule validator, a poker-hand comparator, a logger with pluggable handlers, a task manager with filtering and sorting, or a virtual file system. Part one establishes a working baseline; parts two and three extend it -- pay wages only up to a cutoff timestamp, group expenses per trip, decide a winner from incomplete hands, add search to stored logs. Interviewers grade the extension work as heavily as the base: candidates who finished two of three parts but walked through complexity for every method and sketched the third still advanced, while several strong baselines died on an unfinished follow-up.
+Here's what the interview process can look like:
 
-The virtual onsite typically runs three to five rounds. Coding rounds continue the practical theme at greater depth, and some run up to 90 minutes split between building and discussing what you built. This is where the loop turns into object-oriented design in disguise: an expense rules engine that must compose rules with AND, OR, and NOT; a logger where each behavior (filter, truncate, capitalize, store) should be a replaceable handler rather than a conditional pile; an article-voting service that must return a user's last three vote flips in O(1). Interviewers push on the return type of an `evaluate_rules`-style function -- a bare boolean fails, because a transaction can violate multiple policies and the caller needs rule identifiers and reasons. Money and time semantics decide correctness: integer cents instead of doubles, whether a record ending exactly at the cutoff counts (it usually does not), and how duplicate actions behave.
+- **Recruiter screen:** A 30-minute call on background, motivation, level and the rules for each round, including the AI-tool policy.
+- **Online assessment (interns and early career):** A timed test that mixes multiple-choice questions on complexity, heaps and graph traversal with two or three coding problems.
+- **Technical phone screen:** A 45–60 minute live session, usually a multi-part practical coding problem and sometimes a system design discussion.
+- **Coding interviews (onsite):** One or two rounds of 45–60 minutes that extend a small in-memory service through escalating requirements, sometimes with an AI assistant or as a small web API build.
+- **System design interview:** One to three hour-long rounds on data-heavy product systems: news aggregation, event monitoring, booking, rule evaluation and payroll.
+- **Hiring manager interview:** A project presentation, often with slides, followed by probing on decisions, impact and, for senior candidates, mentorship.
 
-System design rounds are grounded in data-heavy product problems rather than textbook social networks. The most frequent prompts are a news aggregator (crawl-versus-pull trade-offs, deduplication and story clustering, personalization, freshness for breaking news), a user-behavior or metrics monitoring platform (one ingestion layer feeding both a low-latency dashboard and an asynchronous warehouse path, with enrichment like geolocation and compliance tagging), a hotel booking system (physical room versus room type modeling, future-dates-only constraints, synchronous versus asynchronous confirmation against external inventory), and the expense rules engine scaled to millions of daily transactions. Payroll runs, distributed task schedulers, logging pipelines, and role-based access control with permission inheritance also appear. Interviewers frequently arrive with a specific checklist and will change a requirement midstream; strong candidates restate the contract at each fork and ask which direction the interviewer wants before committing.
+> **Tip:** Plan every coding hour backward from the last part. Candidates who shipped two of three parts and talked through the third, with complexity stated for each method, advanced. Candidates who polished part one did not.
 
-The hiring-manager round is consistently a project deep dive, and many candidates present three to five slides. The probing afterward matters more than the deck: your hardest technical decision, the trade-off you rejected, how responsibilities were distributed, and -- the gap that sinks otherwise solid candidates -- the business impact and success metrics, not just the launch. Senior candidates should expect direct questions about mentorship and what they demand from senior engineers. Leveling is effectively decided here, and candidates have been down-leveled late in the process, so surface the expectations gap early.
+## Recruiter screen
 
-## What Candidates Report
+The call covers background, why Rippling, target level and logistics. It matters because rules vary by round: recruiters have described AI tools as allowed, encouraged or required. Some calls fold in behavioral questions such as a challenging project or scope creep.
 
-- Time pressure is the single most common stated rejection reason. Multiple candidates completed the core task, ran out of time on a follow-up or an unresolved runtime bug, and were cut for exactly that; one rejection letter arrived the next day citing the unfinished final part.
-- AI assistants are sometimes optional, sometimes mandatory. Candidates who designed first and used the tool for boilerplate did well; one who leaned on generated code could not fix its boundary-timestamp bug when the interviewer flagged it, and was rejected. Another interviewer explicitly warned against pasting the whole prompt into the tool, since rephrasing silently drops constraints.
-- The question pool is heavily reused -- delivery payouts, expense rules, article votes, poker hands, loggers, news aggregators recur across many reports -- but not guaranteed: one candidate prepared exactly those and drew a task-manager problem instead.
-- Interviewer quality varies widely. Some sessions are collaborative and end with candid feedback on request; others describe distracted, checklist-driven, or dismissive interviewers. Positive in-room signals have repeatedly preceded rejections, so do not calibrate on the interviewer's reactions.
-- Offer-stage friction is a theme: late down-levels after strong onsites, teams with stricter years-of-experience bars than the recruiter conveyed, and pressure to decide quickly. Several candidates also heard, unprompted, that the pace is intense and work-life balance is not the draw -- ask about team expectations if that matters to you.
+Interviewers evaluate:
 
-## Coding Questions
+- **Motivation:** A specific reason for Rippling's product (HR, IT and spend on one employee data layer), not a generic interest in startups.
+- **Level fit:** Years of experience and recent scope. Some teams apply a stricter years bar for senior than the recruiter first conveys.
+- **Project readiness:** Whether you have one technically rich project you can present at the onsite.
 
-Rippling coding rounds favor realistic data manipulation with escalating requirements over classic algorithm drills. Practice multi-key sorting with deduplication, interval and sweep-line reasoning over timestamps, and integer arithmetic for currency, and rehearse finishing: the last part of the prompt is where the decision is made.
+Use the call to pin down the level criteria, the AI policy for each round, and whether you are interviewing for a specific team.
 
+> **Note:** Leveling surprises tend to come late. One candidate targeting senior learned after the onsite that the team required more than seven years for that level and was offered the level below. A staff candidate was moved down to senior after a single design round.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through your current and previous roles, and why you are leaving.
+- Why Rippling, and which product areas interest you?
+- Tell me about a project where the scope kept growing, and how you handled it.
+
+- [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team)
+- [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles)
+
+## Online assessment
+
+Interns and early-career applicants usually take a timed online test first. One version had six items: nested-loop complexity, a max-heap check, a depth-first traversal order, a heap insertion with heapify, a REST call returning the best price-to-weight chocolate, and a bounded-range sliding window. Another centered on one time-series problem plus a bonus question: the most drivers active at once in a rolling 24-hour window, where an end must be processed before a start at the same timestamp or hidden cases fail. A live coding hour usually follows.
+
+Interviewers evaluate:
+
+- **Fundamentals:** Heap operations and traversal order written out from memory, not just recognized.
+- **Boundary handling:** Tie-breaking at equal timestamps and inclusive versus exclusive window edges.
+- **Practical coding:** Calling an API, parsing its response, and computing over it cleanly.
+- **Window technique:** A sliding window that tracks the running maximum and minimum efficiently.
+
+Rehearse heap insertion by hand and one sweep-line problem with deliberate tie rules.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Return the maximum number of drivers active simultaneously in any 24-hour window, ending shifts before starting new ones at equal timestamps.
+- Fetch chocolates from an API and return the one with the highest price-to-weight ratio.
+- Find the longest subarray whose maximum and minimum differ by at most a given threshold.
+
+- [Max Simultaneous Driver In Past 24 Hours](https://trueinterview.io/questions/92e84cab-d048-472b-bbcc-48a6170c506b)
+- [DSA Multiple Choice and Costliest Chocolate](https://trueinterview.io/questions/intern-oa-fixed-set)
+- [Time Complexity Analysis](https://trueinterview.io/questions/3ff04932-615f-483c-a528-757dfbfc638a)
+
+## Technical phone screen
+
+Most screens are a 45–60 minute video call with an engineer in a shared editor, with no warm-up. The prompt comes from a recognizable family: a delivery-cost or driver-payout calculator, an expense validator with per-transaction and per-trip rules, a poker-style hand comparator, a logger with pluggable behaviors, a task list to filter and sort, or a virtual file system with search. Part one sets a baseline; later parts pay drivers only up to a cutoff, evaluate rules once a trip ends, compare hands with unknown cards, or add search to stored logs.
+
+A meaningful minority of screens, especially at senior and above, are design conversations on ad-click aggregation, user-event tracking, hotel booking or news aggregation. Rejections often arrive the next day, most often citing the unfinished final part even when the approach was described aloud.
+
+Interviewers evaluate:
+
+- **Completion:** A working, tested implementation of every part they reach. Several candidates were rejected with the last part sketched but not coded.
+- **Money and time semantics:** Integer cents rather than floating-point dollars, and millisecond timestamps in 64-bit integers with explicit boundary rules.
+- **Extensible structure:** Hand-ranking rules or log behaviors as separate strategy or handler objects, not a chain of conditionals.
+- **Complexity per method:** Stating time and space for each operation, and saying when a scan should become an index or heap.
+- **AI discipline:** When a tool is used, the design comes first and every generated line can be explained and debugged.
+
+Practice each family in a strict 45-minute box, leaving the final 15 minutes for the follow-up and tests.
+
+> **Note:** An AI assistant does not lower the bar. One candidate let a tool write a driver-payment class, could not fix its bug on a record ending exactly at the cutoff when the interviewer flagged it, and was rejected. Another interviewer warned against pasting the whole prompt into the tool, because the rephrased version silently drops constraints.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Ingest driving records and return the total pay for all records ending strictly before a given time, efficiently across repeated calls.
+- Compare two five-card hands, then report a winner, a tie or unknown when one hand is only partly known.
+- Build a logger that can filter a substring, truncate, capitalize or store messages in any combination, then add search over stored messages.
+- Filter out assigned or finished tasks, drop duplicates by description and due date, and sort by due date, priority and creation time, printing each parent's description.
+
+- [Driver Payroll: sum salaries of driving records up to a timestamp](https://trueinterview.io/questions/fc5a915a-d060-407d-a337-cbd179a6230d)
+- [Compare Two Five-Card Numeric Hands](https://trueinterview.io/questions/compare-two-five-card-numeric-hands)
+- [Design a Logger with Independent Handlers](https://trueinterview.io/questions/design-a-logger-with-independent-handlers)
 - [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823)
-- [Maximize Amount After Two Days of Conversions](https://trueinterview.io/questions/maximize-amount-after-two-days-of-conversions)
-- [Intern OA Fixed Set](https://trueinterview.io/questions/intern-oa-fixed-set)
 
-## System Design Questions
+## Coding interviews
 
-Design rounds reward tracing one event end to end before drawing boxes: who produces it, how it is enriched, where the durable record lives, and how a low-latency view coexists with offline analytics. For booking- and payroll-shaped prompts, lead with entity modeling, idempotency, and reconciliation against external systems; for feed-shaped prompts, lead with freshness, deduplication, and personalization trade-offs.
+Onsite coding rounds run 45–60 minutes at greater depth. The expense rules engine is the signature problem: a per-transaction restaurant cap, blocked airfare and entertainment, and per-trip totals grow into nested AND, OR and NOT conditions. Interviewers then ask what `evaluate_rules` should return, and a bare boolean loses signal because one transaction can break several policies. Other recurring rounds are an article-voting tracker with constant-time last-three-flips, expenses grouped by trip and category, a driver payout service with a paid-up-to cutoff, and a poker variant run as an AI-assisted round.
 
-- [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator)
-- [Google News / News Aggregator](https://trueinterview.io/questions/google-news-aggregator)
-- [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator)
+Some loops use a build round instead: a small REST service for posting and querying questions, or a JSON API on Python's standard-library HTTP server with no frameworks, tested live. Some prompts close with scale: millions of articles in memory, or millions of daily expenses against tens of thousands of rules.
 
-## Low-Level Design Questions
+Interviewers evaluate:
 
-Low-level design is the heart of the Rippling loop: small in-memory services that grow through follow-ups. Model behaviors as composable components (strategy, decorator, chain of responsibility), keep state transitions explicit, choose return types that carry failure reasons, and be ready to say when a linear scan should become an index.
+- **Follow-up completion:** One candidate left the per-trip grouping unfinished in one round and a last-three-flips print bug in another, and was rejected.
+- **Composable models:** Rules as a composite tree, votes as an append-only per-user history, payouts as sorted records with a cursor.
+- **Debugging under time:** An unresolved runtime bug in a task-manager round outweighed a strong expense round.
+- **Testing unprompted:** A record ending exactly at the cutoff, a double upvote, an upvote then downvote, an empty history.
 
-- [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions)
+Drill the expense, vote, payout and hand-ranking problems until each part takes under 15 minutes, then practice one fresh problem cold.
+
+> **Tip:** Do not pretend a familiar problem is new. One candidate who did so said the interviewer saw through it and the time spent cost the round. Saying you have seen a variant and moving straight to a tested solution and its extensions reads better.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement an expense policy engine with per-transaction and per-trip rules, compose rules with AND, OR and NOT, and return every violation with its reason.
+- Track upvotes and downvotes per user, count a repeated upvote once, log an upvote followed by a downvote as two entries, and return a user's last three flips in O(1).
+- Register drivers with hourly rates, record deliveries, mark everything before a timestamp as paid while tracking the unpaid balance, then find peak concurrent drivers in any 24-hour window.
+- Build a small REST service that accepts question submissions and returns the stored list.
+
+- [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions)
+- [Track article votes and last three flips](https://trueinterview.io/questions/track-article-votes-and-last-three-flips)
+- [Aggregate expenses by person, trip, and category](https://trueinterview.io/questions/aggregate-expenses-by-person-trip-and-category)
 - [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker)
-- [Delivery Billing System](../../questions/object-oriented-programming/delivery-billing-system/README.md)
-- [Expense Rules Engine](https://trueinterview.io/questions/expense-rules-engine)
-- [Logger System (OOD)](../../questions/object-oriented-programming/logger-system-ood/README.md)
-- [Web API for Article Voting System](https://trueinterview.io/questions/web-api-for-article-voting-system)
+- [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding)
 
-## Behavioral Questions
+## System design interview
 
-The behavioral surface at Rippling is concentrated in the project deep dive, and it is graded like a technical round. Interviewers keep drilling until they can separate your decisions from the team's outcome, and they ask for measured impact, not adjectives. Prepare one project you can defend for thirty minutes, including a failure and what you would redo.
+Design rounds are hour-long whiteboard discussions on data-heavy product systems. The news aggregator is the most frequent prompt: push versus pull from publishers, polling APIs under rate limits, clustering articles into stories, subscriptions, personalization with a freshness budget, and spotting high-engagement publishers from partitioned click logs. Next come event pipelines, where one ingestion layer feeds both a low-latency dashboard and an asynchronous warehouse path, with enrichment such as reverse geolocation and compliance tagging.
+
+Other prompts include hotel booking (rooms versus room types, future dates only, synchronous versus asynchronous confirmation against external inventory), the rules engine at scale, payroll with regional taxes, a task scheduler that never loses work, role-based access control with inheritance, and a music player. Many interviewers bring a checklist and change a requirement mid-round, such as switching a city name to latitude and longitude.
+
+Interviewers evaluate:
+
+- **Requirement anchoring:** Pinning down metrics and what real time means. One offer followed a pivot from a cron-and-SQL sketch to streaming once the latency need was clear.
+- **Path separation:** Keeping heavy analytics off the serving path, and handling late events and schema changes.
+- **Entity modeling:** Room versus room type, or raw versus processed events.
+- **Correctness under concurrency:** Idempotency keys against duplicate payouts, write-then-process ordering, and reconciliation with external systems.
+- **Steerability:** Asking which way to go at each fork, since checklist-driven interviewers mark down exploration that misses their points.
+
+Rehearse four shapes end to end: feed aggregation, dual-path event monitoring, booking against external inventory, and rule evaluation at scale.
+
+> **Note:** Interviewer experience varies widely, from collaborative sessions that end with candid feedback to dismissive ones with shifting requirements. Several candidates who felt a round went smoothly were still rejected, so restate the contract at every change and do not judge the round by the room.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a news aggregator with topic and publisher subscriptions, shared top stories, story clustering and fresh personalized feeds.
+- Design a tracking platform that ingests events from several products, enriches them with location and compliance tags, and serves both a fast dashboard and slow warehouse queries.
+- Design a hotel booking system that searches by location and dates, models rooms versus room types, and confirms bookings against third-party inventory.
+- Design a payroll system for monthly and biweekly runs that never pays twice under payday concurrency.
+
+- [Design a News Aggregation Feed](https://trueinterview.io/questions/design-a-news-aggregation-feed)
+- [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator)
+- [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design)
+- [Design an ad-click aggregation and enrichment pipeline](https://trueinterview.io/questions/design-an-ad-click-aggregation-and-enrichment-pipeline)
+
+## Hiring manager interview
+
+The hiring-manager round is consistently a project deep dive, often three to five slides or a 5–10 minute walkthrough. The questioning afterward counts most: the hardest part, rejected alternatives, how responsibilities were split, and how you measured success. Senior candidates also get mentorship questions. Conflict, a weakness and daily AI use also come up, and some loops run this round as a screen before the onsite.
+
+Interviewers evaluate:
+
+- **Personal contribution:** Your decisions, separated clearly from the team's outcome.
+- **Business impact:** Success criteria and metrics, not just launches. One candidate who covered the technical side well was rejected after a thin answer on impact.
+- **Depth on trade-offs:** Defending a choice through several rounds of follow-up questions.
+- **Senior signals:** Mentorship and raising the bar for others.
+
+Build one slide-ready project story with a timeline, your own decisions, quantified impact and one thing you would redo.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Present a recent end-to-end project: what made it succeed, and what business impact did it have?
+- What was the hardest technical problem in that project, and how did you solve it?
+- How do you mentor engineers, and what do you expect from a senior engineer?
+- What AI practices do you use or advocate on your team?
 
 - [Project Deep Dive / HM BQ](https://trueinterview.io/questions/project-deep-dive-and-bq)
+- [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project)
+- [What was the hardest part of your project?](https://trueinterview.io/questions/what-was-the-hardest-part-of-your-project)
+- [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work)
 
-## How to Prepare
+## How Rippling makes hiring decisions
 
-- Drill the recurring problem family end to end: driver payouts with a pay-up-to-cutoff query, expense rules with per-transaction and per-trip scopes, article votes with last-three-flips retrieval, poker-hand comparison with incomplete information, and a handler-based logger with search.
-- Practice in strict time boxes with a hard rule: budget the final third of the session for the follow-up and tests, because an unfinished extension has cost more candidates the round than a slow start.
-- Build the money-and-time toolbox before interviewing: parse currency into integer cents, treat boundary timestamps explicitly (strictly-before versus inclusive), sort events with ends before starts at ties, and write the boundary test first.
-- Decide your AI workflow in advance: design aloud, hand the tool small well-specified pieces, read every generated line, and verify you can explain and debug the invariants without it -- interviewers deliberately probe generated code.
-- For system design, rehearse the four recurring shapes (feed aggregation, event monitoring with dual serving paths, external-inventory booking, rule evaluation at scale) and practice restating requirements whenever the interviewer shifts them.
-- Build a slide-ready project narrative with a timeline of decisions, your personal contribution, and quantified business impact; rehearse follow-ups on mentorship and conflict if you are targeting senior.
-- Pin down leveling criteria, team-matching mechanics, and the interview tooling rules with your recruiter before the loop, and get expectations for each round in writing if you can.
+Feedback is weighed together after the loop, and borderline results are common: one candidate heard the signals were strong, then that they were borderline for senior. Level is effectively set by design and the deep dive, and down-levels come after the loop. Offers have come with pressure to decide quickly. Decisions arrive from the next day to about a week after the final round, and a rejection carries a six-month cooldown before reapplying.
+
+> **Tip:** Ask the recruiter for the exact level criteria and the team's years-of-experience bar before the onsite, so a down-level does not surprise you after the loop.
+
+## How to prepare for the Rippling interview
+
+1. **Drill the recurring families:** Payouts, expense rules, vote flips, partial hands, handler loggers and multi-key task sorting.
+2. **Budget time for the last part:** Reserve the final third of each hour for the follow-up and tests.
+3. **Build a money-and-time toolkit:** Integer cents, 64-bit timestamps, boundaries decided out loud, ends before starts at ties.
+4. **Return failures with reasons:** Violations with rule identifiers, not booleans.
+5. **Practice with and without AI:** Design first, request small pieces, and debug the invariants by hand.
+6. **Rehearse four design shapes:** Feeds, dual-path monitoring, external-inventory booking and rules at scale, with numbers for freshness and load.
+7. **Prepare a deck-ready project:** Timeline, your decisions, measured impact and, for senior roles, mentorship.
+8. **Settle level and rules early:** Confirm leveling, team matching and each round's AI policy before the loop.
+
+## About working at Rippling
+
+Rippling builds HR, IT and spend software on a shared employee data layer, so a hire or termination flows into payroll, benefits, devices, app access and corporate cards. Product teams own a module end to end, mostly in Python and Django with MongoDB, plus Go, Kafka and Flink in data-heavy areas and React on the client. Several interviewers volunteered that the pace is intense and work-life balance is not the draw. Office-based employees are expected in at least three days a week, with hubs in San Francisco, New York and Seattle.
+
+Engineering titles run from Software Engineer I and Software Engineer II to Senior, Staff and Senior Staff.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer I | Shipping well-defined features in one product area | Tasks within a team |
+| Software Engineer II | Owning features and services end to end | A team's systems |
+| Senior Software Engineer | Leading projects, design ownership and mentoring | A product area |
+| Staff Software Engineer | Cross-team architecture and technical direction | Several teams or a suite |
+
+Rippling hires engineers across its product suites and platform. Teams include:
+
+- **HR products:** Payroll, benefits, time and attendance, and talent and recruiting tools.
+- **IT products:** Identity and access management, single sign-on, and device management and inventory.
+- **Spend products:** Corporate cards, expense management, bill pay and travel.
+- **Platform:** The shared employee data layer, app components, notifications, and product infrastructure and tools.
+- **AI Platform:** Shared AI infrastructure used across the product suites.
+
+### Experience and education requirements
+
+Software Engineer I postings ask for about a year of professional experience building production systems. Senior postings ask for five to six or more years, and staff backend postings ask for eight or more. Python, Django, MongoDB, Go and AWS experience is listed as preferred rather than required. Posted base ranges for senior software engineer roles in top-tier US locations have run from about $135K to $280K depending on team and location, with equity on top.
+
+## FAQs about the Rippling interview
+
+### How long does the Rippling interview process take?
+
+Usually a few weeks from the recruiter call to a decision. Feedback after the final round has ranged from the next day to about a week.
+
+### What is the hardest round of the Rippling interview?
+
+The multi-part coding rounds, because the bar is completion: most rejections cite an unfinished follow-up or an unresolved bug. For senior and staff candidates, checklist-driven system design rounds are the other common place offers are lost.
+
+### Can I use AI tools in the Rippling interview?
+
+It depends on the round. Candidates have reported AI assistants as banned, optional, encouraged and mandatory, so confirm the policy before each round and practice in the tool you will use.
+
+### Is there an online assessment?
+
+Mostly for interns and early-career applicants: a timed test with multiple-choice fundamentals and two or three coding problems. Experienced candidates usually go straight to a live screen.
+
+### Can I be down-leveled?
+
+Yes. Senior candidates have been offered the level below after borderline feedback, and a staff candidate was moved to senior after the design round.
+
+### What happens after a rejection?
+
+Rippling applies a six-month cooldown before you can reapply.
 
 ---
 

@@ -6,108 +6,270 @@
 
 ---
 
-The rejection Quantitative Finance candidates least see coming arrives after they win the game. One candidate doubled a $1,000 virtual bankroll inside a 25-minute onsite trading simulation, quoting two-way markets on the sum of three drawn cards, and was told plainly that absolute profit was not the metric; another finished a betting sequence far ahead of the starting 1,000 units and was rejected days later because hesitation and over-analysis, not arithmetic errors, decided it. The graded variables in those rounds are how fast you commit to a number, whether your bet size scales with your edge, and how quickly you absorb mid-game coaching — all of which a profitable but slow candidate fails. Everything earlier in the loop is a speed filter too, just a less personal one.
+Optiver screens Quantitative Finance candidates with a long automated test battery before any person speaks to them: a forward-only probability section at about 90 seconds a question, often with marks deducted for wrong answers. The live rounds that follow are betting and market-making games that grade process, not profit. Candidates who doubled a virtual bankroll or finished far ahead of their starting 1,000 units were still rejected for slow commitment and stakes that did not follow their edge. Trader and researcher paths share the battery and the games; the research path adds a finance-flavored coding test and a take-home data project.
 
-## Interview Process
+This guide breaks down each stage of the Optiver Quantitative Finance interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 52 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q1, cross-checked against recent public accounts.
+
+## Optiver Quantitative Finance interview process
 
 <!-- guide-diagram -->
 ![Optiver Quantitative Finance interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/optiver--quantitative-finance/process.webp)
 <!-- guide-diagram -->
 
-1. **Application and assessment invitation.** Cold applications and referrals both feed the same funnel, and candidates report the assessment link landing within one to two days of applying. No resume conversation happens first — the numerical batteries come before anyone speaks to you.
+The track covers quantitative trader and researcher hiring at intern, graduate and PhD level. Candidates report between one and six stages. A trader loop usually runs about a month from first call to the onsite, and most rejections come from the assessment, within days and without feedback.
 
-2. **Online assessment, module one: probability and expected value.** The largest reported version is 30 questions with roughly 90 seconds each, forward-only, with no way to revisit a submitted answer. Content is classic quant material: gambler's ruin, random walks on polygons, coupon-collector expectations, card and dice counting, drawing until only two colours remain. Several versions apply a penalty for wrong answers on five-option questions, which makes blind guessing negative expected value. Candidates who advance describe recognising the model within twenty seconds and skipping otherwise.
+The order is not fixed: some candidates had a recruiter call first, others went straight from the assessment to technical calls, and one reported a final stage made up entirely of games. PhD researcher candidates sat the longest version, six stages ending in a project presentation and a culture-fit call that covered their research.
 
-3. **Module two: number logic and sequences.** Typically 25 to 26 sequence puzzles in about 25 minutes, no calculator. Patterns run from arithmetic progressions to prime-indexed rules, Fibonacci-style recurrences, interleaved sub-sequences, and product-of-previous-three rules. Candidates who progressed report roughly 15 correct as the working benchmark rather than a clean sweep.
+Here's what the interview process can look like:
 
-4. **Module three: timed mental arithmetic.** Trading tracks typically also sit the widely known eight-minute battery of eighty arithmetic questions — no calculator, and the volume alone means most candidates leave items blank. Practise the zero-sum operations this rewards: two-digit multiplication, percentage-of and fraction-to-decimal conversion, and fast addition chains, until the answer arrives without working.
+- **Online assessment:** Timed probability, number-logic and likelihood-ranking sections plus short cognitive games.
+- **Coding assessment (research track and some trader versions):** Three trading-themed programming problems in 90 minutes to two hours.
+- **Recruiter or HR screen:** About 20 to 30 minutes of behavioral and logistics questions, with English clarity assessed.
+- **Technical phone screen:** About 45 minutes of rapid probability questions answered aloud.
+- **Betting and market-making games:** Expected-value bets, stake sizing and two-sided quotes while the interviewer trades against you.
+- **Take-home data project and presentation (research track):** Pandas or regression work on supplied data, then a video presentation to a panel.
+- **Final round:** A trading simulation, speed games, or a culture-fit and technical conversation.
 
-5. **Module four: likelihood and event ordering.** A newer section that shows tables, line graphs, box plots and network diagrams, then asks you to rank written statements by probability. The reported difficulty is not the statistics but the submission mechanics — the timer runs while you interpret the visual, and several candidates lost the final item by submitting too close to zero.
+> **Tip:** Practice every stage with a timer and a rule for when to skip or commit. Rejected candidates usually ran out of time or hesitated; few reported a wrong method as the cause.
 
-6. **Module five: Zap-N mini-games.** Three or more short cognitive games from a rotating pool: rapid string and code comparison, arrow-direction reaction tasks, number-letter memory recall, a stacking puzzle, an untimed grid rearrangement, a skyscraper grid-deduction puzzle, and a switch-flipping logic game. One version terminates early if accuracy drops below a threshold. Each game gives a practice round, and that practice is the only calibration you get.
+## Online assessment
 
-7. **Coding assessment (where the track includes one).** Three problems in roughly 90 minutes to two hours, all dressed in market language: counting valid buy/sell sequences with a non-negativity constraint, backtesting a proportional-allocation strategy and reporting the mean and standard deviation of daily log returns, matching orders against a book with price-time priority, and detecting arbitrage in an exchange-rate matrix.
+The assessment arrives by email with a fixed completion window and is a battery of separately timed sections, usually taken in a fixed order with no way back; some versions can be split across several days. The largest reported probability section has 30 multiple-choice questions at about 90 seconds each, sometimes with five options and a penalty for wrong answers; another gave a minute per question scored +1 or −1. Content comes from classic quant problem sets: gambler's ruin, random walks on a hexagon or decagon, coupon-collector expectations, martingale doubling, dice products and card draws.
 
-8. **Recruiter phone screen, 20 to 30 minutes.** Purely behavioural and logistical: graduation date, visa sponsorship, why this firm and how you first heard of it, one project walked through with a hard follow-up on what you personally contributed versus the team, what you would do differently and what stopped you then, weaknesses and remediation, hobbies, the last book you read, and your office preference between Chicago and Austin. English clarity is explicitly assessed for a floor role that runs on real-time speech.
+Number logic is typically 25 questions in about 25 minutes without a calculator, with interleaved sub-sequences, prime-based rules, Fibonacci-style recurrences and products of the previous three terms; about 15 correct was treated as competitive. A newer likelihood test shows tables, line graphs, box plots or network diagrams and asks you to rank statements by probability. Some trading candidates also sit the widely known 80-question, eight-minute arithmetic test or a trader-math section on profit and loss and basis points. The game segment draws three or more mini-games from a rotating pool: code comparison, arrow reactions, number-letter memory, color stacking, an untimed grid rearrangement, a skyscraper grid and a switch puzzle.
 
-9. **Technical phone screen, roughly 45 minutes.** Interviewers skip the warm-up and open with brainteasers. One reported round ran dozens of probability questions back to back, each expected in a minute or two, spoken aloud. Others frame the same skill as betting games with two to four minutes per scenario: given odds and a payout, decide whether the bet is positive expected value and how much of your bankroll to risk. The interviewer's neutral, unreadable delivery is deliberate.
+Interviewers evaluate:
 
-10. **Market-making round.** You quote a bid and an ask on a random variable — most often the sum of three cards drawn from a deck — and the interviewer trades against whichever side is wrong, forcing you to re-centre as cards are revealed and inventory builds. Variants include a market-taking game against described robot strategies and a real-time feed of pop-up offers with a few seconds each to take or pass. Feedback arrives mid-round: interviewers call out when your size is too conservative or too aggressive for the edge and expect the next quote to reflect it.
+- **Model recognition speed:** Spotting a gambler's-ruin or hitting-time setup within about 20 seconds and solving it with symmetry or first-step analysis.
+- **Triage under penalty scoring:** Leaving a question blank rather than guessing, unless two options can be eliminated.
+- **Pattern hypothesis testing:** Differences, then ratios, then interleaving, then a guess.
+- **Reaction and accuracy:** Speed games penalize wrong responses as well as slow ones.
 
-11. **Onsite or final round.** Roughly a month after first contact. It bundles a 25-minute trading simulation on a virtual bankroll with reaction and hand-speed games and a logic puzzle such as a Tower of Hanoi variant. Some candidates report three interactive games back to back with no conventional interview at all. Decisions follow quickly; rejections after the assessment stage often arrive within days with no feedback attached.
+Drill probability at 90 seconds a question and sequences at one minute, and play publicly available practice versions of the games, which closely match the real ones.
 
-## What They Actually Evaluate
+> **Note:** Running out of time is a common rejection path: one candidate was rejected for an unfinished assessment alone. Candidates also lost the last likelihood item by submitting too close to zero, so leave a margin. A weak single game did not sink otherwise strong candidates.
 
-### Domain Deep Dive
+### Sample questions for the online assessment
 
-This is the bulk of the loop and the bulk of the rejections. Across the assessment battery and every live technical call, the object is fluency: mapping a described process to a known distribution instantly, using symmetry, linearity of expectation and complementary counting rather than enumeration, and speaking the reasoning while you compute. Live rounds reward a fast bounded estimate over a slow exact answer — one candidate was nudged to act more decisively while computing an exact expectation, then rejected for the pause. In market-making segments the grading shifts to calibration: whether your midpoint is defensible, your spread widens when the variable is noisier, and your stake scales with the edge you claim. Naming a framework does not substitute for the reasoning; one candidate invoked the Kelly criterion and was told immediately it did not apply to that game.
+Here are some questions reported by recent candidates:
 
-- [Beat the Odds: Probability Test](https://trueinterview.io/questions/beat-the-odds-probability)
-- [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game)
-- [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game)
-- [Number Logic: Sequence and Pattern Finding](https://trueinterview.io/questions/number-logic-sequence)
+- A bag holds 10 red, 10 yellow and 10 blue balls; draw until only two colors remain and find the expected number of balls left.
+- Starting with $10 and betting $1 per fair flip, find the probability of reaching $20 before ruin, then repeat with a two-thirds coin.
+- Roll a die until the running total exceeds a threshold, and find the probability that the last roll was a given value.
 
-### Coding and Algorithm
+- [Beat the Odds — Probability Test](https://trueinterview.io/questions/beat-the-odds-probability)
+- [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/questions/number-logic-sequence)
+- [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test)
+- [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games)
 
-Where the track carries a coding stage it is three timed problems, medium in isolation but hostile in aggregate because every statement is wrapped in trading vocabulary you must translate before you can start. The recurring families are combinatorial counting with a non-negativity or exact-target constraint, day-by-day portfolio simulation ending in log-return statistics, order-book matching with two heaps and price-time priority, and negative-cycle detection over exchange rates. Signal comes from picking the right formulation on the first attempt; the loss mode is an exponential first draft that passes samples and fails hidden tests, and there is no partial credit reported for unfinished work.
+## Coding assessment
+
+Research candidates, and trader candidates on some versions, get three problems in about 90 minutes to two hours in a language of their choice, all written in trading language. Each is medium on its own and hard in total; candidates who did not finish reported a high cutoff with no visible partial credit. A few got an object-modeling problem instead, such as a layered nut store with capacity limits and heaviest-first collection.
+
+The families recur: counting buy and sell sequences that never go short (a ballot or Catalan count, sometimes with start, target and exact length), day-by-day backtests reporting the mean and standard deviation of daily log returns, price-time-priority order matching with two heaps, currency arbitrage as a negative cycle over negative log rates, and minimizing expected purchase cost under uniform prices with limited purchases.
+
+Interviewers evaluate:
+
+- **Right formulation first:** Depth-first enumeration passes samples and times out on hidden tests; a DP over position and steps passes.
+- **Exact rule translation:** Previous-day versus all-time returns, the all-cash day, weights that reset each morning.
+- **Numerical care:** Log returns from portfolio values, guards for zero prices.
+- **Data-structure fluency:** Heaps per side, partial fills, traded value accumulated correctly.
+
+Practice each family under a 30-minute clock until it translates directly into code.
+
+> **Note:** Difficulty varied with timing; one candidate found late-August versions noticeably harder than early-August ones. Finishing two problems cleanly beats three half-solutions.
+
+### Sample questions for the coding assessment
+
+Here are some questions reported by recent candidates:
+
+- Count sequences of exactly m single-share buys and sells that take a position from k to n shares without going negative.
+- Each day split capital equally across stocks that rose the previous day, holding cash otherwise, and report the mean and standard deviation of daily log returns.
+- With a price uniform on [a, b] and at most k purchase decisions, find the minimum expected cost of buying exactly n shares.
 
 - [Stock Transaction Sequence Counting (Catalan / DP)](https://trueinterview.io/questions/stock-transaction-counting)
+- [Count Ordered Sequences That Sum to a Target](https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target)
 - [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching)
+- [Currency Arbitrage Detection](../../questions/algorithm/currency-arbitrage-detection/README.md)
+- [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost)
+- [Design Squirrel Nut Tracker](https://trueinterview.io/questions/squirrel-nut-storage)
 
-### Low-Level Design
+## Recruiter or HR screen
 
-Candidates on this track also report object-modelling rounds, either as the whole assessment or as a 45-to-75-minute phone screen in a shared editor. The pattern is always a stateful container with several interacting rules: a store with capacity eviction, timestamp expiry, a hidden-but-still-occupying flag and a compound sort key; a subscription feed with an interest threshold, a sliding-window rate limit, a maximum article age and three tie-breakers; a balloon simulator whose stability rule depends on wind speed and strictly increasing timestamps. Interviewers grade whether you clarified how the rules interact before coding — expiry not re-triggering eviction, hidden items still counting against capacity — because that is where the hidden tests live.
+The recruiter call is short and non-technical, typically 20 to 30 minutes: motivation, one or two behavioral stories, and logistics such as graduation date and work authorization. English fluency is assessed explicitly because the trading floor runs on rapid speech. Some candidates had it first, others after a game round.
 
-- [Squirrel Nut Storage Tracker](https://trueinterview.io/questions/squirrel-nut-storage)
-- [News Aggregation / Subscription System](https://trueinterview.io/questions/news-subscription-system)
-- [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md)
-- [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design)
+Interviewers evaluate:
 
-### Behavioral and Leadership
+- **Structured stories:** Conflict, leadership and a setback in two minutes each, your own actions separated from the team's.
+- **Spoken clarity:** Short, precise sentences.
+- **Interest in trading:** Why market making, why this firm.
+- **Logistics fit:** Start date, sponsorship and office preference.
 
-There is one conventional behavioural conversation and it is short, but temperament is graded continuously everywhere else. The recruiter call wants structured, concise stories and clear English; the assessment's ranking and reaction sections measure whether your judgement degrades under a visible countdown; the live games measure coachability, which interviewers test explicitly by correcting your sizing and watching the next quote. Composure after a visible mistake matters more than the mistake — reports consistently describe candidates who let one bad round contaminate the next.
+Prepare four STAR stories and a specific reason market making appeals to you.
+
+### Sample questions for the recruiter or HR screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a conflict on a team and how you resolved it.
+- Why Optiver, and why trading rather than another quantitative career?
+- When do you graduate, and will you need visa sponsorship?
 
 - [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen)
-- [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test)
-- [Zap-N Reaction and Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games)
 
-## What They Don't Test
+## Technical phone screen
 
-- **Options pricing theory and stochastic calculus.** No reported round asked for Black-Scholes derivations or continuous-time models. The mathematics that appears is discrete: counting, conditional probability, expectation, Markov chains and random walks on small state spaces.
-- **Large-scale distributed system design.** Nobody on this track was asked to shard a service or design for global scale. The design work that appears is single-process object modelling with precisely specified rules.
-- **Deep resume and research narrative.** Even PhD candidates report the resume drill confined to one recruiter call. Interviewers state directly that mental agility, not background, is what they are buying.
-- **Polished final answers.** Interviewers repeatedly interrupt exact computation to demand a number. Practising to deliver a clean solution slowly trains the wrong reflex; practise bounding and committing.
-- **Memorised question banks.** Sequence patterns and datasets are refreshed, and candidates who prepared against older accounts were caught out — one expected a long mini-game sequence and got exactly three rounds.
+The screen lasts about 45 minutes and opens directly with problems. One candidate counted more than 30 spoken probability questions, each expected within a minute or two, across dice, cards, coin runs, random walks, stopping games and geometric probability. Others mixed in brainteasers, a bus waiting-time question and a market-size estimate, and some trading candidates had a second screen of number sequences at about 30 seconds each. Interviewers often stay neutral and give no encouragement; some offer small hints and watch whether you use them.
 
-## The Real Filter
+Interviewers evaluate:
 
-The primary filter is decision latency, and it is invisible because it is never the stated reason. You are graded on the interval between hearing a price and committing to a side, not on the accuracy of the number you eventually produce. That is why one candidate doubled a virtual bankroll and was still rejected, and why another was told that eventually-correct calculations lost to hesitation. The misjudgement is natural: every other quantitative interview rewards the careful, fully-derived answer, so strong candidates slow down precisely where this loop wants speed.
+- **Shortcuts over enumeration:** Symmetry, linearity of expectation and complements, as in the chance of a red card after ten unseen discards.
+- **Thinking aloud:** The setup spoken before the arithmetic; silent calculation earns nothing.
+- **Bounded estimates:** A quick range when an exact answer would take too long.
+- **Recovery from hints:** Using a nudge without restarting.
 
-The second pattern is sizing discipline. Interviewers watch whether your stake tracks your edge and whether you adjust when told you are over- or under-betting. Constant-dollar bets, refusing to press a large edge, or going all-in on a small one all read as an absent risk model — one report describes overbetting drawing a risk-of-ruin comment and underbetting a lost-growth comment in the same session.
+Practice 50 classic probability questions aloud at two minutes each, with no paper.
 
-The third is attrition inside the assessment, before any human sees you. The batteries are forward-only, penalise wrong answers, and are long enough that unfinished sections are common — one candidate was rejected purely for running out of time. Treating the assessment as a completion exercise rather than a triage exercise ends most applications here.
+### Sample questions for the technical phone screen
 
-## Data Source
+Here are some questions reported by recent candidates:
 
-Based on 52 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q1.
+- A couple has children until there are more girls than boys; what is the expected number of children?
+- Flip 100 fair coins, remove every heads-tails pair and keep the rest; what is a fair price to play?
+- Two particles start on one vertex of an octagon and each steps either way on a coin flip; what is the expected time until they meet again?
 
-## FAQ
+- [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/questions/qr-technical-brainteasers)
+- [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes)
 
-**What is it like to work on this track?**
+## Betting and market-making games
 
-Our reports cover the hiring loop rather than the job, so treat this as context. The trading floor is open and in-office, with traders, researchers and engineers seated together so pricing questions get answered in real time. Days start early — around 7:15 to 7:30 at the major hubs — and market close sets a natural end, though accounts of the intensity vary widely and compensation is described as excellent in exchange for high error-intolerance.
+These games run in phone rounds and at the onsite. Many start with a 1,000-unit or $1,000 bankroll and a sequence of wagers on coins, two dice and a card whose payoff depends on the sum and product of rank and suit, with two to four minutes per scenario to decide whether the bet is positive expected value and how much to stake. Later stages move to market making: you quote a bid and an ask on the sum of three cards and the interviewer trades against your mispriced side as cards are revealed. Variants include trading against robots with partly described strategies and pop-up offers to take or pass within seconds.
 
-**What is the engineering and trading culture like?**
+Feedback comes mid-round: interviewers say when a stake is too timid or too aggressive for the edge and expect the next quote to change. Research interviewers extended the games to bookmaker arbitrage, hedging correlated bets with covariance estimates, and how many rolls it takes to judge whether a die is fair.
 
-Flat and direct. Feedback is delivered immediately and bluntly, and the loop previews it: interviewers correct your bet sizing mid-game and expect the correction applied on the next quote. Several candidates describe the atmosphere as intense and unvarnished, with interviewers holding a deliberately neutral expression and offering no encouragement. Being coachable in public, without defensiveness, is treated as a core competency.
+Interviewers evaluate:
 
-**How hard is it actually to get in?**
+- **Decision latency:** How quickly you commit to a side and size after hearing a price.
+- **Sizing that follows the edge:** Stakes as a fraction of the bankroll, raised for a large edge and cut for a thin one, never a constant amount.
+- **Quote calibration:** A defensible midpoint, a spread that widens with uncertainty, fast re-centering after each card.
+- **Coachability:** The interviewer's correction visible in your very next decision.
+- **Framework judgment:** Knowing when the Kelly criterion applies and when it does not.
 
-Very. The firm hires on the order of a hundred to a hundred and fifty interns globally per year against a pool that puts the offer rate under one percent, and the assessment alone eliminates most candidates before a human is involved. Internship-to-full-time conversion is reported in the seventy to eighty percent range, so the hard boundary is the front door rather than the return offer.
+Play the three-card market with a partner who hits your bad quotes, and practice naming a stake within ten seconds.
 
-**Which round is hardest?**
+> **Note:** Profit is not the score. A candidate who doubled $1,000 in a 25-minute simulation was told P&L was not the main measure, and another with a large profit was rejected for hesitation. Kelly is not a safe default: one interviewer called it inapplicable to the game, a fair coin gives a Kelly fraction of zero, and a true arbitrage was meant to take the whole bankroll.
 
-The live market-making or trading game. It is the only stage grading four things at once — fair-value estimate, spread, size, and response to feedback — under a clock, and the stage where candidates most often report rejection while believing they had done well. The probability battery is more brutal minute to minute, but it is a solved-problem exercise you can drill.
+### Sample questions for the betting and market-making games
+
+Here are some questions reported by recent candidates:
+
+- A bet pays 0.6 to 1 if two dice sum to 7; decide whether to take it.
+- Make a two-sided market on the sum of three cards, updating after each reveal while the interviewer trades against you.
+- Given odds from two bookmakers on a tennis match, construct bets that guarantee a profit.
+
+- [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game)
+- [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game)
+
+## Take-home data project and presentation
+
+Research candidates who pass the calls may receive a take-home with a fixed deadline: a pandas time-series analysis of supplied data, or an ordinary least-squares regression with full diagnostics. A video presentation follows, where a panel questions your approach, code and conclusions. One PhD candidate then had a culture-fit and Python call and was rejected, a sign that the degree does not substitute for hands-on skill.
+
+Interviewers evaluate:
+
+- **Evaluation depth:** Residual plots, error distributions and out-of-sample tests, not one headline metric.
+- **Honest limits:** Why the model underperforms, such as nonlinearity, and what would improve it.
+- **Pandas fluency:** Clean resampling, alignment and missing-data handling.
+- **Defending choices live:** Explaining each step of your code to the panel.
+
+Rehearse a regression and time-series notebook end to end, then present it in ten minutes to someone who interrupts.
+
+### Sample questions for the take-home data project and presentation
+
+Here are some questions reported by recent candidates:
+
+- Fit a linear regression to a supplied dataset, evaluate it thoroughly and explain where its assumptions break down.
+- Predict an interval for a new observation from a fitted linear regression.
+
+- [QR Take-Home Data Project & Presentation](https://trueinterview.io/questions/qr-take-home-data-project)
+
+## Final round
+
+For traders the final round is usually onsite, about a month after first contact. Reported formats include a 25-minute trading simulation on a virtual bankroll, three interactive games in a row, and a hand-speed test of visual cues and mouse input. Others had a gambling game as the deciding stage, or a culture-fit conversation with technical follow-ups; a few on this track also had a multiple-choice quiz on CPU caches and code complexity.
+
+Interviewers evaluate:
+
+- **Consistency:** The same sizing logic in the twentieth decision as in the first.
+- **Recovery after a mistake:** A bad hand that does not affect the next one.
+- **Speed and accuracy together:** Fast, precise responses in motor and memory games.
+- **Culture fit:** Comfort with blunt, immediate feedback.
+
+Treat the final as another betting round: commit quickly, scale stakes to the edge and use every correction.
+
+> **Tip:** A low-battery wireless mouse adds noticeable lag and a trackpad is too slow for the reaction games; use a wired or fully charged mouse in a quiet room.
+
+### Sample questions for the final round
+
+Here are some questions reported by recent candidates:
+
+- Run a $1,000 bankroll for 25 minutes across wagers and a three-card market, adjusting stakes as the interviewer critiques them.
+- Answer rapid multiple-choice questions on cache hits and misses and the complexity of short code snippets.
+
+- [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/questions/coding-knowledge-test)
+- [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md)
+
+## How Optiver levels and evaluates Quantitative Finance candidates
+
+Candidates apply into a specific program (internship, graduate trader or researcher, or the PhD-focused researcher track), so the target level is set before the interviews. The assessment is a hard cutoff with fast, unexplained rejections. Later decisions rest on how interviewers judged your process, and they have openly put sizing discipline, speed and coachability ahead of profit; some rejected candidates heard that hesitation was the reason. Strong performers in short programs such as FutureFocus or Career Kickstarter can receive direct internship or graduate offers, and strong interns can be offered a graduate return.
+
+## How to prepare for the Optiver Quantitative Finance interview
+
+1. **Drill probability at test speed:** Random walks, gambler's ruin, coupon collector and card problems at 90 seconds each, skipping any you cannot model in 20 seconds.
+2. **Use a penalty-aware strategy:** Leave a five-option question blank unless two answers are ruled out, and never submit a timed item in its last second.
+3. **Practice sequences systematically:** Differences, ratios, interleaving, primes, recurrences, aiming for about 15 of 25.
+4. **Play the games before the test:** Practice versions are the only calibration, and the real set rotates.
+5. **Code the trading problem families:** Ballot counting, log-return backtests, two-heap order books, negative-cycle arbitrage and expected-cost DP in 30 minutes each.
+6. **Commit first, refine second:** In betting games name a side and a stake within seconds and size every bet as a fraction of the bankroll.
+7. **Know when Kelly applies:** Repeated favorable bets, not fair games, guaranteed arbitrage or structures the interviewer rules out.
+
+## About the Optiver Quantitative Finance role
+
+Optiver is a market maker quoting prices on listed derivatives, cash equities, ETFs, bonds and foreign exchange. Traders set those prices and manage risk on an open floor beside researchers and engineers, while researchers build the signals and automated strategies behind them. Every new trader completes a 12-week training program of options theory, simulated trading on live data and a mentor pairing; interns complete a 10-week program of education sessions, simulated trading and a research project.
+
+Optiver hires Quantitative Finance candidates across several trading groups. Teams include:
+
+- **Options market making:** Pricing and quoting listed options on US exchanges, the core of most trader roles.
+- **Systematic Options Trading:** Automated options strategies run alongside discretionary traders.
+- **Systematic Volatility Trading:** Research-led, fully automated options strategies built on new signals and execution techniques.
+- **ETF trading:** Market making and pricing in exchange-traded funds.
+- **Institutional trading:** Large trades with outside counterparties.
+
+### Quantitative Finance experience and education requirements
+
+Graduate researcher postings are split between bachelor's or master's and PhD openings, and trader training accepts applicants with no industry experience; education programs consider all degree backgrounds. The tests assume fluent undergraduate probability, and pandas is expected on the research track. No one reported options-pricing or stochastic-calculus questions: the mathematics is discrete probability, expectation, Markov chains and quick arithmetic.
+
+## FAQs about the Optiver Quantitative Finance interview
+
+### How long does the Optiver Quantitative Finance interview process take?
+
+A trader loop usually runs about a month from first call to the onsite; one referred applicant finished in the month after applying. Rejections after the assessment often arrive within days. Research loops with a take-home take longer.
+
+### What is the hardest round of the Optiver Quantitative Finance interview?
+
+The live betting and market-making game. It grades fair value, spread, stake size and response to feedback together under a clock, and candidates often report rejection after it while believing they did well. The assessment's probability section is the most stressful minute to minute, but its problems are standard and can be drilled.
+
+### How much does an Optiver Quantitative Finance hire make?
+
+Approximate first-year total compensation in the United States:
+
+- **Graduate quantitative trader:** ~$300K
+
+Packages combine a base salary, a sign-on bonus and a discretionary bonus tied to desk and firm performance, so first-year totals vary with the trading year.
+
+### Do you need a finance background or a PhD?
+
+No. Candidates report that mental agility counts for more than background, and training starts from options basics. Research-heavy candidates who had not recently practiced fast arithmetic said it hurt them in the betting rounds.
 
 ---
 

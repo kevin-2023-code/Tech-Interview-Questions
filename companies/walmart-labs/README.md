@@ -16,19 +16,32 @@ How Walmart Labs interviews, and the questions candidates reported there. Free q
 
 ## How Walmart Labs interviews
 
-This guide goes deeper than the process outline on the company page: how each stage is actually graded, where candidates get surprised, and what separates a pass from a near miss. It draws on 27 real Walmart Global Tech questions and 13 candidate interview reports, so every claim below maps to something you can practice directly.
+Walmart Global Tech seldom runs a pure algorithms loop. Most rounds pair a medium coding problem with practical engineering: Spring Boot behavior in production, extending a function into a REST service, reviewing bad code, or debugging a React and Spring Boot project with an in-house AI assistant. Design prompts come from Walmart's own businesses, and the hiring team makes the decision, so the format varies by team.
 
-### Interview Process
+This guide breaks down each stage of the Walmart Global Tech interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 14 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Walmart Global Tech interview process
 
 <!-- guide-diagram -->
 ![Walmart Global Tech interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/walmartlabs/process.webp)
 <!-- guide-diagram -->
 
-The online assessment comes in two distinct flavors, and knowing which one you have changes your preparation. The classic version is a timed set of around three algorithm problems of low-to-moderate difficulty — greedy pairing, sliding-window counting, small class-design tasks — where the trap is complexity rather than insight: a tempting O(n^2) brute force on the first problem will fail large inputs that an O(n log n) greedy handles easily. Skeleton code may be incomplete (for example, a missing constructor you are expected to fill in), so read the expected API before typing. The newer full-stack version runs about 90 minutes and pairs one algorithm problem with two debugging tasks — a React frontend and a Spring Boot backend — assisted by a proprietary in-browser AI tool that is noticeably weaker than mainstream assistants. Test cases are hidden until you locate the test files and build the project, so budget your first minutes for exploring the repo structure. The platform detects multiple monitors but does not require camera or screen sharing.
+Each hiring team owns its loop. Many pipelines open with a HackerRank assessment. Others start with a short recruiter or hiring-manager call, and some Bentonville teams use an outside vendor for the first live coding screen. Then come one or two technical screens of about an hour and a final loop of three sessions, usually held virtually. The whole process typically takes two to four weeks.
 
-The technical phone screen is roughly an hour and rarely stops at one coding question. Candidates report three shorter algorithm problems in a single call (interval-conflict detection, grid validation) followed by an extensive Spring Boot discussion: bean scopes and their memory implications, dependency structure, environment separation without leaking secrets, unified logging across teams, session behavior, pagination, and keeping long-running work off request threads. Another common screen pattern starts with a scheduling-style coding problem and then asks you to grow it into a production REST service — endpoint shapes, input validation, metrics and structured logging with correlation IDs, and retry logic with exponential backoff for downstream failures. Interviewers actively probe whether you have merely memorized a known problem: expect to justify every step of a pattern like the monotonic stack and to volunteer the brute-force alternative before being asked.
+Level changes the content more than the structure. Early-career candidates mostly face the assessment and medium coding. Senior screens add Spring Boot and API design. At staff level, design rounds cover entire platforms, and behavioral questions turn to operational excellence and leading teams.
 
-The final loop typically runs three sessions: a coding round, a system design round, and a hiring-manager conversation, though some teams add a business-logic coding segment or a code-review exercise on deliberately messy legacy-style code. Coding rounds usually carry two problems — a warm-up variant of a classic (two-sum with tie-breaking on indices, maximum subarray returning indices, rebuilding a binary tree from traversals) followed by either a harder follow-up or a discussion-only extension such as three-sum deduplication. Some rounds run in a bare shared editor or expect HackerRank-style stdin handling, so parsing and printing cleanly under time pressure is part of the grade. The code-review exercise rewards triage: surface correctness, security, and reliability defects first, because candidates who polish style run out of time.
+Here's what the interview process can look like:
+
+- **Online assessment (many pipelines):** A timed test with either three short problems or a 90-minute full-stack task that includes an AI assistant.
+- **Recruiter or hiring-manager screen:** A brief call on background, team fit and logistics.
+- **Technical phone screen (one or two):** About an hour that mixes coding with a Spring Boot, API or design discussion.
+- **Coding interview:** Medium problems that change the output of a classic problem, sometimes followed by business-logic coding or a code review.
+- **System design interview:** A retail-flavored architecture problem, or ML system design for Data and AI roles.
+- **Behavioral and hiring-manager interview:** Stories about influence, data, production incidents and integrity.
+
+> **Tip:** Practice in a plain editor that cannot run code, writing your own tests and parsing HackerRank-style input. Several candidates lost time to the environment, not the algorithm.
 
 **[Read the full Walmart Labs interview process →](interview-process.md)**
 

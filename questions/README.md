@@ -6,7 +6,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 
 [← Question bank](../README.md) · [Companies](../companies/README.md) · [Free questions, with statistics](../free/README.md)
 
-## Algorithm (288)
+## Algorithm (285)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -33,7 +33,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Count Unique Pairs With Difference K](algorithm/unique-pairs-difference-k/README.md) | Easy | Goldman Sachs |
 | [Count Value Occurrences in a Binary Tree](algorithm/count-value-occurrences-in-a-binary-tree/README.md) | Easy | Apple |
 | [Delete-One-Character Positions](algorithm/delete-one-character-positions/README.md) | Easy | JPMorgan |
-| [Determine Employees to Promote](algorithm/determine-employees-to-promote/README.md) | Easy | Snowflake |
 | [Ethernet Cable Square Count](algorithm/ethernet-cable-square-count/README.md) | Easy | Goldman Sachs |
 | [File Profiler](algorithm/file-profiler/README.md) | Easy | Anthropic |
 | [Final Prices With a Special Discount in a Shop](algorithm/final-prices-with-a-special-discount-in-a-shop/README.md) | Easy | Uber · Microsoft |
@@ -86,7 +85,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Split Array: Left Sum Greater](algorithm/split-array-left-sum-greater/README.md) | Easy | JPMorgan |
 | [String Shift](algorithm/string-shift/README.md) | Easy | Rubrik |
 | [Valid Parentheses](algorithm/valid-parentheses/README.md) | Easy | Apple · Amazon · Bloomberg · Boston Consulting Group · ByteDance |
-| [Vowel Substring](algorithm/vowel-substring/README.md) | Easy | Snowflake |
 | [1-D Valid Convolution with Multithreading Follow-up](algorithm/one-dimensional-valid-convolution/README.md) | Medium | IBM |
 | [Anagram Sentence Substitutions](algorithm/anagram-sentence-substitutions/README.md) | Medium | SoFi |
 | [Array Challenge: Left-Comparison Running Counter](algorithm/left-comparison-running-counter/README.md) | Medium | Akuna Capital |
@@ -175,7 +173,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Maximize Score Sum](algorithm/maximize-score-sum/README.md) | Medium | Uber |
 | [Maximum Completable Tasks with Prerequisites (Topological)](algorithm/course-prerequisites-task-count/README.md) | Medium | Oracle |
 | [Maximum Non-Adjacent Chocolates](algorithm/maximum-non-adjacent-chocolates/README.md) | Medium | Cisco |
-| [Maximum Order Volume](algorithm/maximum-order-volume/README.md) | Medium | Snowflake |
 | [Meeting Rooms Allocation with Delay](algorithm/meeting-rooms-allocation-with-delay/README.md) | Medium | Uber |
 | [Merge Common Substring](algorithm/merge-common-substring/README.md) | Medium | Yelp |
 | [Merge Intervals](algorithm/merge-intervals/README.md) | Medium | Apple · Amazon · ByteDance · Google · Lyft |

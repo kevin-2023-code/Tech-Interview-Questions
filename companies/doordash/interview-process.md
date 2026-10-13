@@ -8,82 +8,253 @@
 
 ---
 
-DoorDash runs one of the most practical interview loops among large consumer-tech companies: most technical sessions ask you to build, debug, or design a slice of the real delivery business rather than solve an abstract puzzle. This guide goes deeper than the process outline on the company page, drawing on 33 real DoorDash questions and 51 candidate interview reports to explain what each stage actually measures and where candidates fail.
+DoorDash interviews almost entirely through its own delivery business. Candidates compute a Dasher's pay, repair a buggy dispatcher, and design a donation backend that cannot lose a dollar. Each technical problem is followed by production questions about retries, idempotency and slow upstream services. In March 2026 the company announced it was rebuilding its engineering loop around AI, and the onsite now includes a round where you build working services with an AI coding agent on your own machine.
 
-## Interview Process
+This guide breaks down each stage of the DoorDash interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 72 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## DoorDash interview process
 
 <!-- guide-diagram -->
 ![DoorDash interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/doordash/process.webp)
 <!-- guide-diagram -->
 
-**1. Recruiter screen (about 30 minutes).** Beyond logistics, this call starts level calibration: your resume is circulated to hiring managers, and the level you interview at can shift based on early impressions — candidates have been downleveled after a phone screen, which changes the whole loop. Describe your scope precisely and confirm which screens your team requires, because some teams insert an extra implementation-focused screen between the phone screen and the onsite.
+The loop is unusually standardized. Software Engineer candidates draw from a small set of named exercises that recur across recent loops: pay, aggregator, dispatcher, donation and review prompts. The usual pipeline is a recruiter call, a one-hour practical coding screen, and a virtual onsite of four rounds, sometimes three or five, which can be split across two days. Some candidates were told after passing a first screen that a second code-craft screen was required before the onsite. Timelines run from about a month to two months when a recruiter change stalls scheduling.
 
-**2. Online assessment (early-career and data-adjacent roles).** The OA splits into a SQL section and a Python section, both under tight time limits. The SQL tasks run on a food-delivery schema — bucketing orders by spend with conditional logic, top-5 merchants by revenue with tie handling, percentage calculations over filtered populations — and the Python task is typically a sliding-window aggregation with a twist, such as returning every tied start index. Candidates consistently report that a single unresolved bug can consume an entire section, so validate as you go.
+Machine Learning Engineer loops swap debugging and AI coding for ML design and ML discussion rounds. Data and analytics roles start with a timed SQL and Python assessment and use business cases and data modeling onsite. Senior and staff candidates get longer project deep dives.
 
-**3. Technical phone screen (45–60 minutes).** Expect one substantial practical problem rather than two short puzzles. Recurring families include Dasher pay calculators (overlapping deliveries, peak multipliers, cancellations, duplicate records), time-window encoding, cart modeling, and elimination sweeps over order sequences. Interviewers routinely expect you to negotiate the input and output contract before coding, and then to write and run your own test cases — a working, executed solution beats an elegant sketch. Follow-ups often pivot into design territory: retries, idempotent handling of duplicate events, and what happens when an upstream service is slow.
+Here's what the interview process can look like:
 
-**4. Virtual onsite — typically 3 to 5 rounds of 60–75 minutes.** The standard loop combines an implementation-first Code Craft round (building a small business module such as a payout service or cart), a debugging round on unfamiliar buggy code (dispatcher and round-robin assignment problems recur, often with a consistent-hashing discussion attached), a system design round shaped like the product (donation flows, review and reward systems, notification and monitoring platforms), and a values or hiring-manager behavioral round probing conflict, mistakes, and motivation. Some loops substitute an incident-investigation session, a product-sense discussion, or an AI-assisted coding round run in your own IDE. Role-specific depth — ML rounds for Machine Learning Engineers, deeper reliability rounds for Software Engineers — is covered in the role guides below.
+- **Recruiter screen:** A short call about background, motivation and target level.
+- **Technical screen (Code Craft):** One hour to implement a business rule, run it, and answer production follow-ups.
+- **Debugging interview:** About an hour repairing a dispatcher or Dasher-picker codebase, often followed by consistent hashing.
+- **System design interview:** 75 minutes, opening with about 25 minutes on your own past design.
+- **AI Code Craft interview:** A build session in your own IDE with an AI agent, usually a refund workflow modeled as a directed acyclic graph.
+- **Hiring manager and values interview:** Ownership, conflict, failure, AI usage and an operational scenario.
 
-**5. Decision.** Interviewer feedback moves quickly internally, but candidates report final decisions taking anywhere from days to several weeks, with occasional pauses from hiring freezes and recruiter turnover mid-process. Silence is not a performance signal, and detailed post-rejection feedback is rare — calibrate against your own read of each round.
+> **Tip:** Treat every coding round as running code plus follow-ups. Several rejected candidates reached a working happy path in the final two minutes, leaving no time for edge cases or the reliability discussion where most of the signal sits.
 
-## What Candidates Report
+## Recruiter screen
 
-- The technical material draws heavily on a compact, recycled pool of company-flavored problems. Dasher pay calculation alone appears as a coding exercise, a design prompt, and a reliability discussion; preparing these scenarios end to end pays off across multiple rounds.
-- Follow-ups reshape the problem midway. Overlapping intervals, peak-hour multipliers, new lifecycle states, and duplicate events get layered on after your first working version, rewarding candidates who keep their model flexible instead of defending an early assumption.
-- Finishing matters. Several rejections trace to completing only the happy path — interviewers want a running solution with edge cases and tests, and they notice when setup or over-engineering eats the clock.
-- Interviewer style varies sharply: some collaborate and hint generously, others give minimal instruction or keep cameras off. Narrate your assumptions either way.
-- Strong perceived performance does not guarantee an offer. Candidates describe clean technical rounds followed by rejection, sometimes attributable to freezes, team fit, or calibration factors outside their control.
+The recruiter call is short and non-technical: background, motivation, and the round names for your loop. Candidates typically hear back within one to two days, and some were scheduled straight into a design round. Senior Machine Learning Engineer candidates have received a presentation brief to prepare, and some deep-dive interviewers send an outline in advance covering problem, role, methods, difficulties and success metrics.
 
-## Coding Questions
+Interviewers evaluate:
 
-DoorDash wraps familiar algorithms — BFS, dynamic programming, interval sweeps, tree traversal — in delivery-domain framing, and grades execution: clarified requirements, a running implementation, self-written tests, and complexity analysis.
+- **Level fit:** The scope of your recent work. One senior Machine Learning Engineer was downleveled on phone-screen feedback before the onsite.
+- **Domain overlap:** Payments, logistics or ranking experience, which some interviewers later tie to the design prompt.
+- **Timing:** Recruiter handoffs and hiring pauses have stalled processes for weeks.
 
-- [Find Eligible Order Sequence](https://trueinterview.io/questions/find-eligible-order-sequence)
-- [Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS)](https://trueinterview.io/questions/code-craft-multi-source-bfs-grid)
-- [Menu Tree Diff — Count Changed Nodes](https://trueinterview.io/questions/code-craft-menu-tree-diff)
-- [Code Craft: Generate 5-Minute Day-Time Codes](https://trueinterview.io/questions/code-craft-day-time-interval-codes)
+Ask the recruiter to name every round and its format in writing, because loops vary by team.
 
-## System Design Questions
+### Sample questions for the recruiter screen
 
-Design rounds mirror the marketplace: money movement, reviews and rewards, notifications, and monitoring. Grading centers on state machines, idempotency, retries, reconciliation, and how you protect against duplicate, late, or failed operations — not on the number of boxes in the diagram.
+Here are some questions reported by recent candidates:
 
-- [Charity Donation System](https://trueinterview.io/questions/charity-donation-system)
-- [System Design: Food Review System with Reward Bonus](https://trueinterview.io/questions/system-design-food-review-system)
+- Why DoorDash, and why are you leaving your current role?
+- Which part of the marketplace have you worked on, and at what scope?
 
-## Low-Level Design Questions
+- [Explain why DoorDash and job change](https://trueinterview.io/questions/explain-why-doordash-and-job-change)
 
-Code Craft rounds test whether you can turn shifting business rules into small, testable components under time pressure. Keep the object model minimal, state invariants early, and reserve time to run the code — partial-failure behavior and extension points are common follow-ups.
+## Technical screen (Code Craft)
 
-- [Code Craft: Cart with Promotions (OOD)](https://trueinterview.io/questions/code-craft-cart-promotions-ood)
+The screen runs 45 to 60 minutes with one engineer, sometimes with a silent shadow. You get one practical problem and must agree on the input and output contract, write runnable code, and execute your own tests. Dasher pay is the most common prompt, in variants such as per-minute pay between accept and deliver, a rate multiplied by concurrent orders, peak-hour double pay, partial pay for cancellations, and merging duplicate activity records by ID. The runner-up is a bootstrap API that calls user, payment and address services and returns whatever survives a 500. Cart validation, a path-based key-value store, five-minute interval codes and grid BFS also appear.
+
+The last third usually turns into design: stopping a double-tapped pay button from paying twice, protecting an SLA when the order service is slow, Redis versus a relational store, and when to fail open or closed. Machine Learning Engineer screens cover coding, a project deep dive, A/B testing statistics and an ML case. Data candidates take three SQL tasks on a delivery schema plus one Python sliding-window task.
+
+Interviewers evaluate:
+
+- **Rule negotiation:** Pinning down business rules first. In one screen the interviewer wanted overlapping orders paid twice while the candidate argued for merged intervals, and the round ended unresolved.
+- **Executable output:** Code that passes the provided cases plus corner cases you add.
+- **Partial failure:** Checking status codes, not just catching exceptions, and keeping usable fields when one service fails.
+- **Production reasoning:** Idempotency keys, retries with jitter, circuit breakers and dead-letter queues, explained mechanically.
+
+Drill the pay family with sweep lines and date parsing against a 45-minute timer.
+
+> **Note:** Datetime handling sinks strong candidates. One rejection came from fumbling duration conversions, and another candidate had to look up Java date parsing mid-round with inputs like `2026-3-16 12:00`.
+
+### Sample questions for the technical screen
+
+Here are some questions reported by recent candidates:
+
+- Compute pay when the per-minute rate is multiplied by concurrent orders, then exclude time waiting at the restaurant and add a 5–7 PM double-pay window.
+- Take a user ID, call a consumer service, then payment and address services keyed by a different consumer ID, and return partial data when one fails.
+
+- [Calculate Courier Earnings](https://trueinterview.io/questions/calculate-courier-earnings)
 - [Code Craft: Bootstrap Aggregated API](https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api)
 - [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart)
+- [Design Path Key Value Store](https://trueinterview.io/questions/design-path-key-value-store)
 
-## AI-Assisted Coding Questions
+## Debugging interview
 
-The AI Code Craft round hands you starter code, allows an AI assistant, and evaluates your full development loop: deliberate prompting, reviewing generated changes, running tests, and keeping the diff scoped to the requested feature. The assistant is a collaborator; correctness remains your responsibility.
+Software Engineer onsites include an hour on a small dispatch codebase. The most common version is a Dasher picker that stores Dashers in an index-keyed map, picks one at random, swaps it with the last entry and removes the tail. Planted bugs include a missing constructor, an off-by-one in a key-adjust method, string typos and an unguarded empty map. The alternative is a round-robin dispatcher or load balancer, usually followed by a consistent-hashing ring. Fixes must keep the original time complexity.
 
-- [Round Robin Router Debugging with Sticky Session](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076)
+Recent versions add concurrency: choosing a synchronized method or block, and noticing that calling a remote service while holding the lock stalls the object on a timeout. Rounds often end with a pull-request review, and several candidates only reached pseudocode for consistent hashing.
 
-## Behavioral Questions
+Interviewers evaluate:
 
-Behavioral rounds lean into negative scenarios — conflict, mistakes, failed projects, disagreement with a manager — and into operational judgment: preventing wrong orders, investigating incidents, and balancing customer, merchant, and Dasher interests. Prepare concrete stories with your individual actions and measurable outcomes.
+- **Boundary cases:** A random index that is already the tail, a single entry, an empty map. One candidate lost ten minutes on the self-swap case.
+- **Surgical fixes:** Targeted repairs, not rewrites.
+- **Concurrency awareness:** Lock scope and side effects inside critical sections.
+- **Test discipline:** A unit test for every fixed path.
 
-- [Onsite: On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation)
-- [MLE Onsite: ML Knowledge / Discussion Round](https://trueinterview.io/questions/mle-ml-discussion-round)
+Debug your own broken random picker and round-robin router, then write a hashing ring from memory in 15 minutes.
 
-## How to Prepare
+### Sample questions for the debugging interview
 
-- Drill the Dasher pay family until it is reflexive: event-sorted sweeps over overlapping intervals, concurrency multipliers, peak windows, cancellation states, and duplicate-record merging.
-- Practice in a real editor and execute everything — phone screens and onsites expect you to write, run, and defend your own test cases, not pseudocode.
-- Build one small service end to end with retries, timeouts, idempotency keys, and graceful partial failure; these exact patterns anchor both coding follow-ups and design rounds.
-- Rehearse negotiating requirements aloud: several rounds start deliberately underspecified, and the clarifying conversation is itself graded.
-- Get fluent with an AI coding assistant — prompting, reviewing diffs, and generating tests — before facing the AI Code Craft format live.
-- Prepare failure and conflict stories with real stakes and systemic fixes; hiring-manager rounds probe these harder than accomplishments.
+Here are some questions reported by recent candidates:
+
+- Fix a delivery-assignment service whose random pick-and-remove corrupts the key map without adding a full scan, then review it as a pull request.
+- Make add-rider and dispatch-rider safe under concurrent calls.
+
+- [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin)
+- [Debug a Random Dasher Registry](https://trueinterview.io/questions/debug-a-random-dasher-registry)
+- [Design a Ring Buffer for Consistent Hashing](https://trueinterview.io/questions/b2660ec8-502d-45f2-ad27-401c94329833)
+
+## System design interview
+
+The round runs about 75 minutes: roughly 25 on a system from your resume, presented as a diagram under pointed questioning, then 50 on a product problem in a tool with a coding tab and a diagram tab. The best-known prompt is the donation backend: 10 charities, three days, millions of donations, a $100M target, and a third-party payment API that simply returns 201 Created. Others include dish reviews with toggleable votes and rewards for highly upvoted reviews, alert notifications with a deep dive on retries, a job scheduler, and a sliding-hour top-10 restaurant leaderboard. Machine Learning Engineer rounds cover recommenders from a text query, feed ranking, and training and serving pipelines.
+
+Interviewers evaluate:
+
+- **Money correctness:** Idempotency, reconciliation, and accepting donation intent while the provider is degraded.
+- **Schema justification:** Why a separate vote table exists and how one vote per user is enforced.
+- **Counter mechanics:** Redis operations, eviction, and counts lost before they reach the database.
+- **Depth over vocabulary:** Explaining how a retry queue works, not just naming one.
+
+Write requirements in the coding tab before drawing, and rehearse your own project as a 20-minute diagrammed walkthrough.
+
+> **Note:** System design is the round rejected candidates blame most often, usually for an unprepared notification prompt, an undefended scheduler schema, or requirements never written down.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Build a donation backend with the best chance of collecting all $100M in three days through a simple payment API.
+- Design dish reviews with an average rating, votes, and payouts for reviews that collect many upvotes.
+
+- [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system)
+- [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts)
+- [Design an alert notification system](https://trueinterview.io/questions/design-an-alert-notification-system)
+- [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d)
+
+## AI Code Craft interview
+
+You share your screen and build a feature in your local IDE with an AI agent, sometimes from a skeleton and sometimes from nothing. The usual task is an order-timeout refund workflow defined as a directed acyclic graph: check whether the order is late, then refund or end. Follow-ups add partial refunds, cancellation nodes and slow workflows. Interviewers ask you to call the endpoints, show a refund firing, and have the agent summarize design, trade-offs and tests.
+
+Interviewers evaluate:
+
+- **Working system:** Separate services on their own ports, calling each other over HTTP.
+- **Planning before prompting:** A stated plan, with each change confirmed before the agent edits code.
+- **Review of AI output:** Explaining generated changes and keeping the diff scoped.
+- **Velocity:** Interviewers push candidates to move faster.
+
+Practice a three-service refund workflow with your usual agent in under an hour.
+
+> **Tip:** Confirm at the start whether the interviewer expects in-memory classes or real services. One candidate built class-to-class mocks, had to restructure into HTTP services at the last minute, and could not review the rewrite.
+
+### Sample questions for the AI Code Craft interview
+
+Here are some questions reported by recent candidates:
+
+- Build a service that polls an order-status API and walks a refund DAG, then add partial refunds.
+- Explain what you would change if users wait too long for the workflow.
+
+- [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine)
+- [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies)
+
+## Hiring manager and values interview
+
+The hiring manager round is fast, with six or seven questions, and some managers read from a script. Expect your proudest project, a conflict, your biggest mistake, feedback and growth goals, each probed for ownership. AI usage is now standard: what share of your code is AI-generated, which models you use for which tasks, and token budgets. Many rounds add an operational scenario, such as a spike of misdelivered orders across thousands of orders. Machine Learning Engineer loops ask for the causes of wrong-food deliveries or a check that catches errors before dispatch.
+
+Interviewers evaluate:
+
+- **Concise delivery:** Stories of one to two minutes that reach the result fast.
+- **Ownership of failure:** Incidents you caused and the guardrails you added.
+- **Scalable diagnosis:** Segmenting thousands of complaints instead of inspecting each one.
+- **Practical AI use:** Specific tools, validation habits and measurable gains.
+
+Prepare six to eight stories with metrics, including one AI-assisted project.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Support is flooded with misdelivery complaints across thousands of orders. What do you do first?
+- How much of your code is AI-generated, and how do you choose models?
+
+- [Hiring Manager Behavioral Round](https://trueinterview.io/questions/hm-behavioral-round)
+- [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale)
+- [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation)
+
+## How DoorDash makes hiring decisions
+
+Results come through the recruiter. Screens usually return within a few business days, and onsite decisions often arrive two or three days after the final round, though some candidates waited weeks in silence. Level is set before the onsite and can be lowered on screen feedback. Detailed feedback is withheld by policy, and several candidates who felt every round went well were rejected, sometimes amid a hiring freeze.
+
+> **Tip:** Ask the recruiter for a decision date in writing after the onsite. The candidates who waited weeks had no timeline to follow up against.
+
+## How to prepare for the DoorDash interview
+
+1. **Master the pay family:** Concurrency multipliers, peak windows, cancellations, duplicate IDs and datetime parsing, all tested by you.
+2. **Build the aggregator once:** Three-service calls with status-code checks, partial responses and timeouts, in your interview language.
+3. **Drill the random picker:** Swap-with-last when the index is already the tail, then correct lock scope.
+4. **Write consistent hashing quickly:** A sorted-map ring with add and lookup.
+5. **Rehearse donation and review designs:** Provider failure, idempotency, vote tables and counter caching.
+6. **Practice agent-driven builds:** Three HTTP services and a refund DAG in under an hour, reviewing each diff aloud.
+7. **Diagram one past system:** A 20-minute walkthrough that states exactly what you owned.
+
+## About working at DoorDash
+
+DoorDash runs a three-sided marketplace for consumers, merchants and Dashers, with engineering organized around those sides plus shared platforms. Small teams own services in production, which is why debugging, incident and reliability questions appear in almost every loop. Engineers share a generic title, and the level appears in the offer.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| E3 | Delivering scoped features with guidance | Tasks within one team |
+| E4 | Owning features and services end to end | One team's systems |
+| E5 (senior) | Leading projects and technical direction | A team and its neighbors |
+| E6 (staff) | Cross-team architecture | Several teams |
+
+DoorDash hires engineers across the marketplace. Teams include:
+
+- **Consumer:** Ordering apps, search, discovery and DashPass.
+- **Merchant:** Menus, storefronts and merchant tools.
+- **Logistics:** Dispatch, assignment and ETA prediction.
+- **Ads and commerce:** Advertising, promotions, and the flow of orders and money.
+- **Platform:** Infrastructure, big-data systems and security.
+
+### Experience and education requirements
+
+Postings ask for a computer science degree or equivalent experience. Mid-level backend roles ask for about two or more years of industry experience and senior roles four to six or more, with service-oriented design and SQL and NoSQL fluency. Most reported interviews were done in Java or Python. Machine Learning Engineer roles add production ML for ranking, ETA or growth.
+
+## FAQs about the DoorDash interview
+
+### How long does the DoorDash interview process take?
+
+About three to six weeks from first screen to decision. Recruiter turnover or a hiring pause can stretch it to two months.
+
+### What is the hardest round of the DoorDash interview?
+
+Most rejected candidates name system design, where schema and retry follow-ups go deep. Debugging is second, because of time pressure and concurrency bugs.
+
+### How much does a DoorDash software engineer make?
+
+Approximate US total compensation:
+
+- **E3:** ~$185K
+- **E4:** ~$295K
+- **E5:** ~$380K
+- **E6:** ~$550K
+
+Packages combine base salary with restricted stock, which grows as a share of pay from E5 up.
+
+### Is the DoorDash interview remote?
+
+Yes. Screens and onsites run over video in a browser editor with a diagram tab, and the AI round runs in your own IDE over screen share.
 
 ## Guides by Role
 
-- [DoorDash Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 - [DoorDash Software Engineer Interview Process](interview-process-software-engineer.md)
+- [DoorDash Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 
 ---
 

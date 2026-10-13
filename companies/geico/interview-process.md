@@ -6,52 +6,201 @@
 
 ---
 
-GEICO's technology organisation runs a hiring loop that looks far more like a product company's than an insurer's. This deep dive goes past the summary on the company page: it works through 6 real GEICO questions and 3 candidate interview reports to show what each round contains and where the loop quietly ends for most people.
+GEICO's technology loop is built like a product company's, with no insurance-domain quiz. Senior candidates face a standard coding round, a full-hour behavioral round and a consumer-scale system design round, and the design prompts in the reports (a ride-hailing service, a video platform with recommendations) have nothing to do with insurance. Applied AI loops add a design discussion about retrieval-augmented generation, in which evaluation counts as much as the pipeline.
 
-## Interview Process
+This guide breaks down each stage of the GEICO interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 2 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## GEICO interview process
 
 <!-- guide-diagram -->
 ![GEICO interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/geico/process.webp)
 <!-- guide-diagram -->
 
-The entry point is a recruiter conversation covering background, level, location and sponsorship. Candidates who applied cold report the recruiter reaching out roughly a week later and the first technical round landing the week after — the front of the funnel moves quickly.
+The structure depends on the hiring path. Early-career and Technology Development Program (TDP) candidates typically take an online assessment, a recruiter call and a short final round. Experienced hires skip the assessment and sit three or four virtual rounds after a recruiter screen, sometimes with a technical phone screen first.
 
-The first technical round is a live coding interview, typically an hour, though one report describes a session that wrapped in about 40 minutes including complexity analysis. One problem, screen-shared, interviewer present throughout — they hand out hints when someone stalls and catch small bugs rather than silently marking them down. The expected shape is brute force out loud, then the improved solution, then time and space complexity stated without being asked.
+A recent Senior Software Engineer loop had three rounds: 60 minutes of coding, 60 minutes of behavioral questions, and a 90-minute combined system design and reliability round. A Senior Applied AI Engineer loop had four: coding, AI design, general system design and behavioral.
 
-After that the loop opens up. For general software engineering candidates it typically runs three to four more sessions, often clustered into a single virtual day: a second coding round, a system design round, and an hour-long behavioral round with a hiring manager or panel. Some tracks get a widened design round — one candidate sat a 90-minute combined design and reliability session where the prompt was a ride-hailing platform and the second half pushed on keeping it up. Reliability questions are not confined to SRE postings.
+Here's what the interview process can look like:
 
-Applied AI and machine learning candidates sit a different middle. One report on that track describes four rounds: an algorithmic coding round built on matrix multiplication, an AI design round, a general system design round, and a behavioral round. The AI design round is not a live-coding exercise despite its name — the interviewer supplies a document set and asks for a retrieval-augmented generation framework built from nothing: embedding strategy, search index, similarity retrieval, prompt assembly and, critically, how the result gets evaluated. The general design round in that loop asked for a video platform with search and interest-based recommendations, and the hour went to ranking and retrieval rather than storage or streaming.
+- **Recruiter screen:** A short call about background, level, location and visa status.
+- **Online assessment (early career):** Timed coding problems, typically easy to medium.
+- **Coding interview:** One live problem in about an hour, either a classic problem or a parsing-heavy implementation.
+- **System design interview:** A consumer-scale design, which runs 90 minutes and includes reliability on some senior tracks.
+- **AI design interview (applied AI):** A no-code discussion of a retrieval-augmented generation system built from a supplied document set.
+- **Behavioral interview:** A full hour on conflict, feedback and motivation.
 
-Scheduling and feedback are inconsistent: one candidate got a same-day decision, another had a round cancelled, rescheduled, then waited fifteen minutes for the interviewer. Screen to decision typically runs two to four weeks.
+> **Tip:** Settle sponsorship and pay in the recruiter call. One senior candidate lost interest partway through the loop after learning that senior base pay topped out at $215K and that only green-card sponsorship was offered.
 
-## What Candidates Report
+## Recruiter screen
 
-- **Interviewers are friendly, the problems are not.** Coding rounds are collaborative and hint-friendly, which reads as a good sign — then the problem turns out to be a medium-labelled one with a low pass rate, such as constructing the largest palindrome from a digit string. Warmth is not a proxy for a low bar.
-- **Prompts are classic problems in disguise.** The seat-availability question is a cinema-booking problem re-skinned as an airplane, with seat codes arriving as a raw string; interviewers probe the parsing and the variant, not template recognition.
-- **The design round is where loops die.** Candidates who clear coding comfortably describe design as the round that went sideways, particularly when the prompt is a consumer-scale system with no insurance context.
-- **The AI track tests judgement, not libraries.** Evaluation methodology came up as its own topic in the retrieval design round; building a pipeline you cannot measure answers half the question.
-- **Behavioral rounds are conventional but full-length.** An hour on conflict handling, feedback given and received, and motivation — not a rushed closing chat.
-- **Process friction is real.** Reschedules, late interviewers and silence after strong rounds all appear. One candidate disengaged over the senior compensation ceiling and limited visa sponsorship, not over the interview.
+The recruiter covers your background, target level, hub location and work authorization. Posted senior base ranges run from about $100K to $215K and vary by location.
 
-## Coding Questions
+Interviewers evaluate:
 
-GEICO's coding rounds draw from standard interview canon — dynamic programming, array preprocessing, and implementation problems where the input format is half the work. Expect one problem per round with real follow-up.
+- **Level fit:** Years of professional development and design ownership against the posted level.
+- **Stack match:** Experience with Java, C#/.NET, Python or TypeScript on a public cloud.
+- **Logistics:** Hub location, hybrid schedule and visa needs.
 
-- [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2)
-- [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957)
-- [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md)
+Have your level, location and compensation expectations ready before the call.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and the systems you have owned recently.
+- Why GEICO, and what are your location and work-authorization needs?
+
+## Online assessment
+
+Early-career and internship candidates typically start with a timed coding assessment of easy-to-medium implementation problems. Those who pass take a final round of about 90 minutes, usually one medium technical interview and one behavioral interview.
+
+Interviewers evaluate:
+
+- **Edge cases:** Out-of-range indices, empty input and repeated operations.
+- **Clean simulation:** Straightforward state updates rather than clever tricks.
+- **Pace:** Finishing every problem before the timer runs out.
+
+Practice short implementation problems against a timer.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Implement a text buffer that supports inserting at a position, deleting a range and returning the character at an index.
+
 - [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba)
+
+## Coding interview
+
+The round is live and screen-shared, with one problem in about 60 minutes. Some prompts are classic problems in disguise. In one senior round, a cinema seat-reservation problem was recast as an airplane, with occupied seats arriving as one string of codes like "1A 2B 13F", and most of the work was parsing that string. The applied AI candidate got matrix multiplication close to the sparse variant. Screens draw on standard dynamic programming and array problems.
+
+Interviewers evaluate:
+
+- **Input handling:** Turning a raw string format into a clean data structure before the logic.
+- **Optimization path:** A correct baseline, then the improvement.
+- **Complexity:** Time and space stated for both versions without being asked.
+
+Practice medium dynamic programming and parsing-heavy array problems.
+
+> **Note:** Confirm the input format before you code. In the airplane variant, each row effectively held one seat even though letters still appeared in the codes, and that assumption changes the whole solution.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- Given occupied seat codes such as "1A 2B 13F" in one string, compute what is still available.
+- Multiply two matrices, then take advantage of sparsity.
+- Return the product of every element except the current one, without division.
+
 - [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a)
 - [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md)
+- [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md)
+- [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2)
+- [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957)
 
-## How to Prepare
+## System design interview
 
-- Rehearse brute force, improvement and complexity as three explicit beats — one report shows the whole round fitting inside 40 minutes when the candidate drives that structure.
-- Practise medium problems with low pass rates rather than more easy ones, and parse awkward input formats cleanly; prompts like seat-code strings hide most of their difficulty in the setup.
-- Prepare two consumer-scale designs end to end (ride-hailing, and a search-plus-recommendation feed), and expect the interviewer to spend the hour inside one subsystem.
-- If the design slot is booked for 90 minutes, prepare availability, failure modes, monitoring and rollout as a distinct half of the answer.
-- For AI tracks, build a retrieval pipeline verbally from documents to answer, and bring an evaluation story: offline metrics, retrieval quality, catching regressions.
-- Have full stories ready on conflict and on giving difficult feedback; that round is a full hour, not a formality.
+Senior loops include a general consumer-scale design. For one Senior Software Engineer, it was a 90-minute combined system design and site-reliability round: design a ride-hailing platform, including how it stays up. The Senior Applied AI Engineer designed a video platform with search and interest-based recommendations, and the interviewer cared about retrieval and ranking, not video storage or streaming.
+
+Interviewers evaluate:
+
+- **Scoping:** Finding the subsystem that matters for the role and going deep on it.
+- **Reliability:** Failure modes, monitoring and graceful degradation in the 90-minute version.
+- **Trade-offs:** Consistency, latency and cost decisions, stated explicitly.
+
+Prepare a marketplace design and a search-and-feed design, each with a reliability section.
+
+> **Note:** Scheduling here has been unreliable. One candidate's interviewer cancelled once and then arrived 15 minutes late to the rescheduled slot, so make sure your design still holds together in less time.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a ride-hailing service, covering matching, location updates and availability.
+- Design a video platform with search and personalized recommendations, focusing on ranking.
+
+## AI design interview
+
+Applied AI candidates get a round that may be labelled AI coding, but no code is written. The interviewer supplies a set of documents and asks you to build a basic retrieval-augmented generation framework from scratch, covering embedding strategy, indexing with Elasticsearch, similarity search, prompt construction and evaluation.
+
+Interviewers evaluate:
+
+- **Pipeline completeness:** Every stage from ingestion to answer, each one justified.
+- **Retrieval choices:** Keyword, vector or hybrid search, and why.
+- **Evaluation:** Retrieval quality, answer faithfulness and catching regressions.
+
+Practice explaining a RAG pipeline aloud, with a concrete plan for measuring it.
+
+### Sample questions for the AI design interview
+
+Here are some questions reported by recent candidates:
+
+- Given a document set, design a RAG system with embeddings, an Elasticsearch index, similarity search, prompt assembly and an evaluation method.
+
+## Behavioral interview
+
+The behavioral round is a full 60 minutes with the hiring manager or a panel. The questions are conventional, covering conflict, constructive feedback and motivation, and each answer draws follow-ups.
+
+Interviewers evaluate:
+
+- **Conflict handling:** How a disagreement was resolved and what the result was.
+- **Feedback:** A specific piece of critical feedback and what changed afterward.
+- **Ownership:** Your own actions and results, not the team's.
+
+Prepare five or six detailed stories that can hold up through an hour of follow-ups.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a conflict with a teammate and how you resolved it.
+- Describe constructive feedback you gave or received and what you did with it.
+
+- [Answer impact, disagreement, and motivation questions](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions)
+
+## How GEICO makes hiring decisions
+
+All rounds are weighed together, and decisions can come quickly: the Senior Applied AI Engineer got a positive result the same day. The posting sets the level, and the senior band is wide, so where an offer lands depends on scope and location. Early-career pipelines are slower and can take several months.
+
+## How to prepare for the GEICO interview
+
+1. **Clarify input formats first:** Confirm the separators and the meaning of each code before coding.
+2. **Drill medium dynamic programming:** Stock trading with a cooldown, coin change and prefix products.
+3. **Prepare two consumer designs:** Ride-hailing and a search-and-recommendation feed, each with reliability.
+4. **Rehearse a RAG walkthrough (AI tracks):** Go from documents to answer, then explain how you would measure it.
+5. **Build hour-long behavioral stories:** Conflict and feedback, with concrete outcomes.
+6. **Settle logistics early:** Sponsorship, location and base range in the recruiter call.
+
+## About working at GEICO
+
+GEICO, a Berkshire Hathaway subsidiary, is rebuilding its insurance platforms in-house on cloud-based microservices. Engineers work hybrid from hubs including Palo Alto (opened October 2025), the Washington, DC area and Dallas. Posted titles include Engineer II, Senior Software Engineer and Senior Staff Software Engineer.
+
+GEICO hires engineers across its technology organization. Teams include:
+
+- **Data and AI/ML engineering:** Applied AI, LLM-based applications and data platforms.
+- **Product engineering:** Customer-facing web and mobile experiences.
+- **Platform development:** Policy services and core systems moving to cloud-based microservices.
+- **Cybersecurity:** Security engineering across customer and internal systems.
+
+### Experience and education requirements
+
+Postings ask for a bachelor's degree in computer science or a related field, or equivalent experience. Senior roles typically require four to seven years of professional development, three or more of them in architecture and design, plus public-cloud experience. Common languages are Java, C#, Python and TypeScript, and some senior postings ask for a year of generative AI work.
+
+## FAQs about the GEICO interview
+
+### How long does the GEICO interview process take?
+
+For experienced hires, it typically takes a few weeks from the recruiter screen to a decision, and same-day decisions have been reported. Early-career pipelines can take several months.
+
+### What is the hardest round of the GEICO interview?
+
+For senior candidates, it is system design, especially the 90-minute version that adds reliability. For applied AI candidates, it is the open-ended RAG design round.
+
+### Does GEICO sponsor visas?
+
+Support appears limited: one senior candidate was told only green-card sponsorship was available. Confirm your situation with the recruiter before the loop.
 
 ---
 

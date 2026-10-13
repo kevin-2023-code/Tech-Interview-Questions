@@ -16,19 +16,33 @@ How Scale AI interviews, and the questions candidates reported there. Free quest
 
 ## How Scale AI interviews
 
-Scale AI hires for people who can ship working systems against a spec that keeps moving — the interviews are built to surface exactly that, and they reward builders over puzzle-solvers. This guide goes deeper than the process outline on the company page: round-by-round formats, what each interviewer is grading, and where candidates get filtered out. Our library includes 7 real Scale AI questions you can practice against, with a strong tilt toward the machine learning track.
+Scale AI tests building more than puzzle-solving. The signature screen is one problem that grows in three parts within an hour, usually a deadline-ordered task scheduler that picks up dependencies and then deadline updates. The onsite adds a debugging round in an unfamiliar codebase and a practical round where you call an LLM API and validate what it returns. Behavioral rounds weigh as much as technical ones, and some loops ask how your current manager would rate you.
 
-### Interview Process
+This guide breaks down each stage of the Scale AI interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 19 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Scale AI interview process
 
 <!-- guide-diagram -->
 ![Scale AI interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/scale-ai/process.webp)
 <!-- guide-diagram -->
 
-The recruiter call runs about 20–30 minutes and is more of a fit filter than it looks. Beyond the usual background walkthrough, recruiters probe whether you actually want the operating environment: rapid priority shifts, close contact with customers and operations, and an expectation that you deliver a usable first version fast. Have a crisp story about a system you owned end to end, and ask for the exact loop structure — the mix of rounds varies noticeably between product engineering and ML positions.
+The skeleton holds across teams: a recruiter call, a 60-minute technical screen, then a virtual onsite of four to six rounds, typically three to five weeks end to end. Some experienced hires got only one live technical round plus a hiring-manager round.
 
-The technical screen is typically a one-hour session, either a timed online assessment or live coding with an engineer. The house style is a scenario-based implementation problem rather than an algorithm puzzle — a well-known example is a card-game simulation where you implement game rules from a long written spec, and the spec then evolves: new rules and constraints arrive mid-interview and your code has to absorb them without a rewrite. The prompts are dense and deliberately over-specified, so careful reading is part of the test. Grading centers on implementation speed, correct handling of the many stated edge cases, and code that stays clean under time pressure; candidates who pause to structure their solution around the likely next requirement tend to outperform those who sprint at the literal spec. ML candidates see a more data-flavored screen — practical Python around distributions and statistics, plotting and sanity-checking data, or debugging a broken model-training script — and some ML tracks substitute or add a take-home built around raw data: assemble a small pipeline, train something simple, and evaluate its behavior.
+Software Engineer onsites mix coding, debugging, an LLM API practical, system design and behavioral rounds. ML and research candidates get post-training theory, NumPy model components and a presentation instead. Level, and with it pay, is set by interview performance.
 
-The final loop is a virtual onsite of typically three to five rounds of roughly 45 minutes each, often scheduled back-to-back in a single block. Expect deeper practical coding and a debugging exercise, a system design round, a role-specific round, and a values conversation. The coding rounds extend the screen's philosophy: you may be handed working-but-flawed code to diagnose, or asked to extend a service as requirements change, with interviewers watching how you decompose the work and what you choose to build first.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A 20–30 minute call about your current project, why you are leaving, why Scale, and the shape of the loop.
+- **Technical phone screen:** A 60-minute live session on one multi-part coding problem in a shared editor, often with no hints.
+- **Debugging interview (onsite):** Find and fix planted bugs in a multi-file feature or a short ML training script while narrating.
+- **LLM practical interview (onsite, engineering):** Prompt an LLM API, format and validate the output, then discuss production concerns.
+- **System design interview (onsite):** A large-scale design, often shaped around data pipelines, worker routing or schedulers.
+- **ML and research interviews (ML track):** Post-training theory, NumPy sampling and attention, and a 45-minute presentation.
+- **Behavioral, credo and customer-engagement interviews:** One or two values rounds, plus a customer-engagement or hiring-manager round on some tracks.
+
+> **Tip:** Build every first version with the next requirement in mind. In the scheduler reports, each part landed on top of the last: a plain heap had to absorb dependency counts, then deadline changes, with stale entries skipped lazily.
 
 **[Read the full Scale AI interview process →](interview-process.md)**
 

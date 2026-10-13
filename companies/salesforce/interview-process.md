@@ -6,68 +6,288 @@
 
 ---
 
-This guide goes deeper than the process outline on the company page: what each Salesforce round actually contains, how loop length varies by team, and where candidates lose points. It draws on 11 real Salesforce questions and 16 candidate interview reports, so every pattern described here comes from loops that actually happened.
+Salesforce loops are assembled by the hiring team, so candidates for the same title see anything from a single hiring-manager call to seven rounds. Three things hold across them. Behavioral questions run through almost every round, often 20 minutes of each hour, and they weigh heavily on the offered level. Design rounds are product-shaped and drift toward SQL, data models and multi-tenant isolation. And the offer comes before the team: feedback is reviewed, an offer is approved, and team matching follows.
 
-## Interview Process
+This guide breaks down each stage of the Salesforce interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 34 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Salesforce interview process
 
 <!-- guide-diagram -->
 ![Salesforce interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/salesforce/process.webp)
 <!-- guide-diagram -->
 
-Loop length at Salesforce varies more than at most enterprise companies. Candidates report anywhere from two phone rounds straight to onsite, up to seven rounds total (three pre-onsite plus four onsite) for senior infrastructure roles; five to six rounds is common for MTS-level hires. The full process typically runs three to five weeks, though decisions after the final round can be fast — one candidate received an offer a single day after the onsite.
+The usual path is a recruiter or hiring-manager call, a timed online assessment, a technical phone screen, and an onsite of two to four rounds, held virtually or in person in offices such as San Francisco and Bellevue. Five or six rounds is typical for MTS hires; one senior infrastructure loop ran seven. The process usually takes three to six weeks, but it can also end after a single hiring-manager call.
 
-The online assessment is usually two to three algorithmic problems, occasionally with multiple-choice CS fundamentals attached. Recent OA problems cluster around arrays, strings, and careful simulation: synchronous binary-string swaps where naive one-at-a-time updates fail, sliding-window counting over timestamps, linked-list deduplication, and integer-reduction problems in the LeetCode 2571 family. One fullstack track replaced the algorithm OA entirely with a four-hour code-review assessment: annotate Python and SQL files with bugs (hardcoded secrets, race conditions, schema mistakes), with a minimum of ten comments expected — budget far more time than the recruiter estimate suggests.
+The shape shifts by team more than by level. Frontend and fullstack teams swap the algorithm screen for vanilla JavaScript or a refactoring task. Cloud teams add a Kubernetes and AWS/GCP round, and AI teams add ML and LLM fundamentals plus a multi-hour build. SMTS and above add a second design round or a long architecture deep dive.
 
-The technical phone screen is a shared-editor session on one medium data-structures problem, but the format bends toward the team. Frontend loops replace it with vanilla JavaScript work — implementing a curry function, then building a traffic-light component with HTML, CSS, and plain JS in an editor with no framework and no autocomplete. Interviewers grade how you structure state transitions and handle edge cases like overlapping timers, not just whether the light blinks.
+Here's what the interview process can look like:
 
-Onsite coding rounds mix classic and pragmatic problems. The LFU cache with O(1) operations appears repeatedly, as do recursion over nested JSON/HashMap structures, dynamic-programming partition problems, and whiteboard DFS. Some rounds go the other way entirely: a deliberately simple if-else logic task that tests whether you write clean, correct code under observation. AI-track candidates have been given a multi-hour hands-on project — build a concurrent web crawler that sorts extracted content and exports CSV — followed by a discussion of optimizations and edge cases.
+- **Recruiter or hiring-manager screen:** A 25–30 minute call on background, motivation and logistics, occasionally with a surprise coding problem.
+- **Online assessment (most tracks):** Two or three timed algorithm problems, or a code-review or project task for fullstack teams.
+- **Technical phone screen:** One or two medium problems in a shared editor, or vanilla JavaScript for frontend teams, wrapped in behavioral questions.
+- **Coding interviews:** One or two onsite rounds of practical, recursion-heavy problems, often on a whiteboard.
+- **System design interview:** One or two rounds on a product-shaped system, often with SQL mixed in.
+- **Project deep dive and domain round (senior, cloud and AI tracks):** An architecture walk-through of your work and an oral fundamentals round.
+- **Behavioral and hiring manager interview:** A 45-minute round on ownership, conflict and failure that also calibrates level.
 
-System design prompts are product-shaped rather than pure infrastructure: a coffee ordering system (the single most repeated prompt), a rate limiter with a configurable monthly quota, a Dropbox-like file service, an analytics dashboard where the discussion centers on DAU and latency metrics, a collaborative spreadsheet with multi-user concurrency control, and a 911 call-routing service. Interviewers push past the block diagram into data models, API surfaces, consistency-versus-latency trade-offs, and notification coordination. Expect SQL to appear inside these rounds without warning: users who never placed an order (left join with null check), top spender in the last calendar month, and indexing strategy follow-ups all show up mid-design.
+> **Tip:** Treat every round as partly behavioral. One candidate counted about 20 minutes of behavioral questions in every round but the last, and another was down-leveled to SMTS on the behavioral portion of the hiring-manager chat alone.
 
-Behavioral evaluation is not confined to one round — nearly every session, including the recruiter and hiring-manager calls, includes it. Recurring themes: explaining a complex concept to a non-technical audience, mentoring junior engineers, leading a migration, and convincing a stakeholder to change their mind. After the final round, the flow is interview feedback review, then offer, then team matching — an offer can arrive before you know which team you will join, and final level (MTS versus SMTS) is influenced by design-round performance.
+## Recruiter or hiring-manager screen
 
-## What Candidates Report
+The first call is usually a recruiter covering background, work authorization, compensation and why Salesforce. On many teams it is the hiring manager instead, and on one Cross Cloud loop a vice president. The hiring-manager version sets the target level and can turn technical: one candidate expecting a behavioral chat got a graph problem first, solved it, and was still rejected.
 
-- Interviewers interrupt and challenge answers mid-stream. Candidates who stayed calm and re-derived their reasoning advanced even after rounds that felt rough; treat pushback as a composure test, not a verdict.
-- Recruiter prep calls do not reliably predict what gets asked. Several candidates were surprised by SQL inside design rounds, accounting-flavored modeling questions, or a code-review OA that ran twice its advertised length.
-- Simulation problems punish shortcut thinking. The binary-string OA questions specifically break solutions that apply changes sequentially instead of simultaneously, and consecutive-element interference is the intended trap.
-- The LFU cache is a known favorite — multiple candidates faced it in separate loops. Interviewers expect the O(1) hash-map-plus-frequency-list design and probe eviction edge cases, not just a working sketch.
-- Scheduling hiccups happen: one candidate's design interviewer never showed and the round was rescheduled. Recruiters handled it smoothly; flexibility is rewarded.
-- Decision speed cuts both ways — some offers arrive within a day of the onsite, while other loops pause between stages while feedback is reconciled and teams are matched.
+These calls end loops more often than candidates expect. One hiring manager discussed the team's roadmap, promised to speed up scheduling, and a rejection arrived shortly afterwards.
 
-## Coding Questions
+Interviewers evaluate:
 
-Salesforce coding rounds span careful simulation, recursion over nested data, dynamic programming, and implementation-heavy tasks where clean structure matters as much as the algorithm. Practice narrating invariants and testing boundary cases aloud — interviewers add follow-up cases (empty input, deep nesting, blocking interactions) after your first working version.
+- **Stack alignment:** Whether your recent technologies match what the team builds now.
+- **Scope for the level:** The size of what you owned, which decides between MTS, SMTS or higher.
+- **Concrete examples:** Specific decisions and outcomes rather than a survey of projects.
 
+Prepare a two-minute project summary with your own decisions and numbers, and keep one graph problem warm.
+
+> **Note:** Warm signals predict little. Several candidates heard enthusiastic feedback and were rejected within days.
+
+### Sample questions for the recruiter or hiring-manager screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through your recent projects, the technologies used, and what you personally built.
+- Why Salesforce, and why this team?
+- Solve a graph traversal problem, then return to resume and behavioral questions.
+
+## Online assessment
+
+The standard version is two or three problems in roughly 60–90 minutes on a proctored platform, sometimes with multiple-choice CS questions. Difficulty is medium to slightly above; time is the real constraint. Recurring families are arrays, binary strings and simulation: duplicate checks against the left and right parts of an array, synchronous "01" to "10" replacement, reducing an integer to zero with powers of two, string compression, a sliding window over request timestamps, top-K with a heap, coin-change DP, and minimum deletions to make an array "almost sorted".
+
+Fullstack teams use other formats. One 90-minute version paired an algorithm problem with AI tools banned and a Java Spring project task, AI allowed, where code had to be changed to pass provided tests. Another was a code review of Python files with SQL tasks: estimated at one to two hours, it took four, and the candidate left about 30 comments against a minimum of 10.
+
+Interviewers evaluate:
+
+- **Simulation correctness:** Applying a step's changes all at once; one-at-a-time updates fail when consecutive 1s block each other.
+- **Template speed:** Sliding window, heap and DP written without hesitation.
+- **Review depth:** Catching hardcoded secrets, race conditions and schema errors, well past the minimum comment count.
+
+Practice two medium problems in 60 minutes, including one simultaneous-update simulation traced by hand.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Replace every "01" with "10" in a binary string simultaneously and count the steps until nothing changes.
+- Given request timestamps and a window length, find the most requests inside any window.
+- Remove all copies of one character so the rest splits into the fewest segments without repeats.
+
+- [Binary String Synchronous '01' → '10' Replacement](https://trueinterview.io/questions/binary-string-01-10-swap)
 - [Array Left / Right Duplicate Check (Binary Strings)](https://trueinterview.io/questions/array-left-right-duplicate-check)
-- [Campaign Cost Weekly Partition](https://trueinterview.io/questions/campaign-cost-weekly-partition)
-- [Flatten Nested JSON / HashMap to String](https://trueinterview.io/questions/flatten-nested-json)
-- [Longest Subsequence of X That Is a Substring of Y](https://trueinterview.io/questions/longest-subsequence-substring)
-- [Maximum Requests in a Time Window (OA)](https://trueinterview.io/questions/maximum-requests-in-time-window)
 - [Minimum Operations to Reduce an Integer to 0](../../questions/algorithm/minimum-operations-to-reduce-an-integer-to-0/README.md)
+- [Code Review of a Python Repository](https://trueinterview.io/questions/code-review-oa)
 
-## System Design Questions
+## Technical phone screen
 
-Design rounds start from a concrete product and drill into the data model, API design, and concurrent-order or multi-user behavior before touching infrastructure. Make consistency and latency trade-offs explicit, sketch the schema, and be ready to write actual SQL against it — the boundary between design and query questions is porous here.
+The screen is a 45–60 minute call with an engineer: background, one or two medium problems in a shared editor, then behavioral questions. Reported problems include deleting duplicates from an unsorted linked list while keeping first occurrences, and the longest subsequence of one string that is a substring of another, where a brute-force triple loop must give way to DP.
 
-- [Coffee Ordering System Design](https://trueinterview.io/questions/coffee-ordering-system)
+Frontend teams test vanilla JavaScript with no framework and no autocomplete: curry for arbitrary arity, then a traffic light in plain HTML, CSS and JavaScript that cycles on fixed timers and highlights the active light. One frontend second screen combined a coffee-ordering design, a SQL anti-join, an accounting system for product profitability, and a migration story. Senior fullstack screens can be pure TypeScript refactoring discussion.
 
-## Low-Level Design Questions
+Interviewers evaluate:
 
-Low-level rounds reward precise interfaces and disciplined state ownership: define the invariants and complexity targets before writing code, and justify the data-structure combination that meets them. For the refactoring-style assessments, show how your changes improve testability and maintainability, not just tidiness.
+- **State handling:** Clean transitions and timers that never overlap, rather than elaborate CSS.
+- **Optimization path:** Moving from brute force to an efficient approach and explaining the trade-off.
+- **Edge cases:** Empty lists, all-duplicate lists, and pointer breaks during deletion.
+- **Composure:** Interviewers interrupt and challenge answers mid-stream on purpose.
+
+Frontend and fullstack candidates should build two timer-driven components in a bare editor before the call.
+
+> **Note:** Recruiter prep calls often miss what is asked. A frontend candidate told to expect frontend coding also got SQL and an accounting design, and advanced despite a rough moment.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Implement curry so an adder can be called one argument at a time, then test three chained calls.
+- Build a traffic light in vanilla JavaScript with configurable timings that never stacks intervals.
+- Delete repeated values from an unsorted singly linked list in one pass, keeping the first of each.
+
+- [Frontend Curry: addTwoNumbers → addThreeNumbers(a)(b)(c)](https://trueinterview.io/questions/frontend-currying-add-numbers)
+- [Singly Linked List — Remove Duplicate Values](https://trueinterview.io/questions/linked-list-remove-duplicates)
+- [Longest Subsequence of X That Is a Substring of Y](https://trueinterview.io/questions/longest-subsequence-substring)
+- [TypeScript Test and Code Refactor](https://trueinterview.io/questions/typescript-refactor-oa)
+
+## Coding interviews
+
+Onsite coding rounds run about an hour with one or two problems, and in-person rounds are often on a whiteboard with dry runs. Nested data is the house favorite: flatten nested JSON or HashMaps into dot-separated keys, serialize raw JSON with escaping, or print every parent key of a nested map with a stack, then handle list values. The O(1) LFU cache appeared in at least three separate loops. Other prompts include splitting workloads into k contiguous weeks to minimize the sum of weekly maxima, maximal square then maximal rectangle, find-the-celebrity and word ladder.
+
+Some interviewers want brute force first, then the optimal solution with complexity stated as you code. One MTS onsite was simply an if-else logic task graded on clean, correct code. Follow-ups often steer toward the platform. One kth-smallest-in-a-BST question moved to frequent updates, then a B+ tree backing a database table, then per-tenant trees versus a shared tree with tenant labels.
+
+Interviewers evaluate:
+
+- **Recursion discipline:** Base cases, empty maps, nulls and very deep nesting handled unprompted.
+- **Data-structure design:** For LFU, the hash map plus frequency-list design with clear tie-breaking.
+- **Edge cases listed early:** One interviewer credited a candidate for enumerating them before coding.
+- **DP framing:** A clear state and boundaries, such as k = 1 and k = n in the partition problem.
+- **Whiteboard clarity:** One candidate was told to practice handwriting.
+
+Rehearse LFU and the nested-map family on paper, then practice absorbing one changed requirement aloud.
+
+> **Tip:** Some candidates memorize LFU and still fail. Interviewers probe eviction among keys with equal frequency and the update path on put, so be able to derive it, not recite it.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Flatten a nested map of strings and maps into one level with dot-joined keys, handling empty and deep input.
+- Split daily workloads into exactly k contiguous weeks so the sum of weekly maxima is minimal.
 
 - [LFU Cache](https://trueinterview.io/questions/lfu-cache)
-- [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/questions/typescript-refactor-oa)
+- [Flatten Nested JSON / HashMap to String](https://trueinterview.io/questions/flatten-nested-json)
+- [Print All Parent Keys in a Nested Map](https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8)
+- [Campaign Cost Weekly Partition](https://trueinterview.io/questions/campaign-cost-weekly-partition)
+- [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups)
 
-## How to Prepare
+## System design interview
 
-- Drill the O(1) LFU cache until you can implement and explain it cold — it recurs across separate Salesforce loops and interviewers probe eviction-order edge cases specifically.
-- Practice simultaneous-update simulation problems: apply all changes of a step at once, model interference between adjacent elements, and verify against a hand-traced example before coding.
-- Rehearse the coffee-ordering design end to end — entities, API surface, schema, concurrent orders, and customer-store status notifications — then reuse that skeleton for rate limiters, file sync, and analytics dashboards.
-- Brush up SQL patterns that appear mid-design: anti-joins for "users with no orders", top-N aggregation with date boundaries, and the indexing follow-up each invites.
-- If interviewing for a frontend or fullstack team, build a timer-driven vanilla JS component (traffic light, carousel) in a bare editor and implement curry from scratch; frameworks will not be available.
-- Prepare STAR stories for mentoring, leading a migration, and changing a stakeholder's mind — behavioral probes appear in nearly every round, and specific outcomes beat teamwork generalities.
-- For a code-review style OA, block out four hours and hunt systematically for hardcoded secrets, race conditions, and schema errors; comment well past the stated minimum.
+Design is one round at MTS and two at SMTS and above, each about an hour. Prompts are products. A coffee ordering system is the most repeated, in phone screens and onsites across frontend, MTS and Cross Cloud loops. Others include a rate limiter with a user-configurable monthly quota, a Dropbox-style file service, a collaborative spreadsheet, 911 call routing, an async job system, a high-throughput cache, an idempotent payment platform, a notification service, a URL shortener, and an analytics dashboard for an LLM chat product.
+
+Interviewers push past the diagram into entities, APIs, schemas and concurrency. SQL appears mid-round: users who never ordered, the top spender last calendar month, and the index each needs. Multi-tenancy is a recurring deep dive; one enterprise-messaging design compared per-tenant databases, separate schemas and a shared tenant column.
+
+Interviewers evaluate:
+
+- **Data model first:** Entities and customizations (an extra shot, a milk type) and the schema behind them.
+- **Consistency trade-offs:** Order status, quota counters and concurrent edits, each with an explicit choice.
+- **Tenant isolation:** Where tenant boundaries live and how permissions are enforced server-side.
+- **Reliability mechanics:** Retries with back-off, idempotency keys and job state transitions.
+- **Product metrics:** For the dashboard, defining daily active users and latency and computing them from existing databases.
+
+Practice the coffee-ordering design end to end with a schema and two SQL queries, then reuse that skeleton.
+
+> **Note:** Design performance appears to set the level. One candidate hoping for SMTS was offered MTS and attributed it to the frontend and design rounds.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design coffee ordering with customizations, concurrent orders, peak morning load and real-time status updates to customers and the store.
+- Design a rate limiter where each user sets a monthly quota, and explain the monthly reset at scale.
+- Design a collaborative spreadsheet with multi-user concurrency control, snapshots and table design.
+
+- [Coffee Ordering System Design](https://trueinterview.io/questions/coffee-ordering-system)
+- [Rate Limiter for Expensive API with User-Configurable Monthly Quota](https://trueinterview.io/questions/rate-limiter-user-configurable-quota)
+- [Design a Collaborative Spreadsheet (Google Sheets)](https://trueinterview.io/questions/google-sheets-design)
+- [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system)
+
+## Project deep dive and domain round
+
+Senior, cloud and AI loops add rounds about what you already know. In the deep dive you present one complex system and defend its architecture and trade-offs. One senior backend session covered splitting a monolith, events versus synchronous calls, broker selection, poison messages, dead-letter queues, the outbox pattern, consumer race conditions and on-call practice. A Machine Learning Engineer was rejected after a 45-minute deep dive full of positive verbal feedback; the written reason was a lack of specific examples.
+
+Domain rounds are oral. Cloud teams ask about Kubernetes, AWS and GCP fundamentals and pipeline design. AI Engineer loops cover F1, classification versus regression, inference optimization, agent deployment, transformers, RAG, grounding and guardrails, and one included a multi-hour onsite build of a concurrent web crawler that sorts results and exports a CSV.
+
+Interviewers look for:
+
+- **Personal decisions:** What you chose, the rejected alternatives, and the numbers behind them.
+- **Failure handling:** Retries, dead letters and real production debugging.
+- **Fundamentals on demand:** Fluent definitions of the cloud or ML concepts the team uses daily.
+
+Prepare two projects at three levels of depth, each with a diagram you can draw in two minutes.
+
+### Sample questions for the project deep dive and domain round
+
+Here are some questions reported by recent candidates:
+
+- Explain why your team chose an event-driven design, and how you would find and fix a poison message.
+- Explain RAG, grounding and guardrails, and how you would deploy and monitor an agent service.
+- Build a concurrent crawler that sorts results and writes a CSV, then discuss optimizations.
+
+- [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/questions/project-deep-dive-ai-engineer)
+- [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/questions/ai-ml-fundamentals-oral)
+- [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/questions/cloud-domain-knowledge-round)
+- [Onsite Mini Project — Concurrent Web Crawler](https://trueinterview.io/questions/web-crawler-mini-project)
+
+## Behavioral and hiring manager interview
+
+The dedicated round is usually about 45 minutes with the hiring manager and purely behavioral. Recurring themes: the project with your strongest ownership, driving a technical disagreement, disagree and commit, an incident and its post-mortem, mentoring juniors, explaining a complex idea to a non-technical audience, and changing a stakeholder's mind.
+
+The company's stated values put trust first, then customer success, innovation and equality, and stories framed around collaboration and customer impact land well. Follow-ups test whether the change you describe really happened, including the pushback and the outcome.
+
+Interviewers evaluate:
+
+- **Ownership:** Decisions you made yourself, and what you did when the project slipped.
+- **Influence:** A real case where your argument changed an outcome.
+- **Learning from failure:** A specific post-mortem and what changed afterwards.
+- **Level signal:** Scope consistent with the target level, since this round can lower the offer.
+
+Prepare eight to ten stories with dates, metrics and your own actions, each mapped to two themes.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe convincing a manager or stakeholder to change a technical decision, including the pushback.
+- Tell me about an incident or setback, your post-mortem, and what changed.
+
+- [Hiring Manager + Behavioral Rounds](https://trueinterview.io/questions/hm-and-bq-rounds)
+- [Answer ownership, conflict, and failure recovery questions](https://trueinterview.io/questions/answer-ownership-conflict-and-failure-recovery-questions)
+- [Describe a memorable bug and persuasion story](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story)
+
+## How Salesforce makes hiring decisions
+
+Interviewer feedback is reviewed together, an offer is approved, and only then does team matching start. Level is decided inside the loop, mostly by the hiring-manager, design and behavioral rounds, and candidates report MTS instead of SMTS, or SMTS instead of a higher target. Strong feedback is no guarantee: one candidate was turned away in December because the team's headcount had filled. One offer came a day after the onsite and one team-match notice the Monday after a Wednesday onsite; other loops went quiet for a week or more. Engineering headcount has been held roughly flat since 2025, so openings are competitive.
+
+> **Tip:** Ask the recruiter early which level the loop targets. For SMTS and above, the design and behavioral answers must show that scope; coding alone will not raise the level.
+
+## How to prepare for the Salesforce interview
+
+1. **Open every hour with stories:** Expect behavioral blocks inside technical rounds, with follow-ups on ownership, mentoring and failure.
+2. **Own the nested-data family:** Flatten maps, print parent keys with a stack, and serialize JSON on a whiteboard.
+3. **Derive the LFU cache:** Explain tie-breaking and the update path, not just the structure.
+4. **Drill simultaneous-update simulations:** Trace binary-string swaps by hand, since sequential updates are the trap.
+5. **Rehearse coffee ordering with SQL:** Write the schema, a no-orders anti-join, a top-spender query and their indexes.
+6. **Prepare a multi-tenancy answer:** Compare isolation models and say where permissions are enforced.
+7. **Match the team's format:** Vanilla JavaScript for frontend, Kubernetes basics for cloud, LLM vocabulary and a buildable project for AI.
+8. **Anchor projects in specifics:** Lead with the problem, your decision and a metric; one rejection cited missing examples.
+
+## About working at Salesforce
+
+Salesforce builds the CRM clouds and the multi-tenant, metadata-driven platform underneath them, which is why tenant isolation, configurability and API limits surface in interviews. Engineers work in scrum teams that own features and services, and the V2MOM planning framework (vision, values, methods, obstacles, measures) cascades goals down to teams. Engineering titles follow the Member of Technical Staff ladder.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| AMTS (Associate MTS) | Scoped features with guidance; usually new graduates | Tasks in one scrum team |
+| MTS | Independently owning features; typically two or more years | One team's components |
+| SMTS (Senior MTS) | Designing services and mentoring; typically five or more years | A team's services and integrations |
+| LMTS (Lead MTS) | Technical leadership; postings ask for eight or more years | Several teams |
+| PMTS (Principal MTS) and Architect | Architecture and long-range direction | A cloud or the platform |
+
+Salesforce hires engineers across its clouds and acquired product lines. Teams include:
+
+- **Sales, Service and Marketing Clouds:** The core CRM applications.
+- **Platform and Hyperforce:** The multi-tenant core, metadata, APIs and the public-cloud infrastructure layer.
+- **Agentforce and AI:** Autonomous agents, LLM grounding and the trust layer around model calls.
+- **Data Cloud:** Real-time customer data ingestion and unification.
+- **Slack, Tableau and MuleSoft:** Collaboration, analytics, and integration and API management.
+
+### Experience and education requirements
+
+Postings typically ask for a computer science degree or equivalent experience, strong skills in a language such as Java, Python, Go or TypeScript, and distributed-systems experience for SMTS and above. Lead roles ask for eight or more years. Platform-facing roles may list Apex and Lightning Web Components, and AI roles want hands-on LLM, retrieval and agent work.
+
+## FAQs about the Salesforce interview
+
+### How long does the Salesforce interview process take?
+
+Usually three to six weeks. Fast loops close within a day of the onsite; slow ones pause a week or more for feedback review or team matching.
+
+### What is the hardest round of the Salesforce interview?
+
+System design, because it mixes product design with SQL, schema and multi-tenancy follow-ups and also sets the level. For senior candidates, the architecture deep dive is the most demanding.
+
+### How much does a Salesforce engineer make?
+
+Per-level totals vary too much between data snapshots to state reliably. Posted base ranges give a guide: a recent MTS posting in San Francisco listed about $117K–$194K, and an SMTS posting for California about $181K–$237K. Packages add an annual bonus and restricted stock vesting over four years.
+
+### Is the Salesforce interview remote?
+
+Early rounds and many onsites are virtual. Some final rounds are in person in San Francisco or Bellevue, often on a whiteboard.
 
 ---
 

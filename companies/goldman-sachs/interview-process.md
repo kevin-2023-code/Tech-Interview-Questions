@@ -6,66 +6,269 @@
 
 ---
 
-This guide goes deeper than the process outline on the Goldman Sachs company page: how each stage actually runs, what interviewers grade, and where candidates lose offers. It draws on 22 real Goldman Sachs questions and 29 candidate interview reports covering software engineering, quantitative strats and research tracks, and behavioral rounds. The same stages appear across pipelines — what changes is how much math is layered on top of the coding.
+Goldman Sachs keeps its coding bar deliberately moderate and filters on execution: live problems sit at easy to medium, and offers turn on follow-up extensions, self-driven testing and unprompted complexity analysis. Integrity is graded as seriously as code, with ethics scenarios recurring from the first video screen to the Superday. Strats and quant candidates sit the same pipeline with a probability, statistics and linear-algebra layer that often outweighs the coding.
 
-## Interview Process
+This guide breaks down each stage of the Goldman Sachs interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 37 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Goldman Sachs interview process
 
 <!-- guide-diagram -->
 ![Goldman Sachs interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/goldmansachs/process.webp)
 <!-- guide-diagram -->
 
-**Structured behavioral screen (video or phone).** Campus and analyst pipelines usually start with a recorded video interview: five to six prompts, roughly 30 seconds to organize your thoughts before each answer, then a timed recording with no retakes. The question bank is remarkably stable across reports: a conflict between competing deadlines, a teammate not delivering their share, a challenging goal you achieved, a client asking for something that violates firm policy, accidentally sending confidential information, spotting a fraudulent request for sensitive data, and one communication test such as explaining recursion to a listener with no computer-science background. Experienced hires often get the same script delivered live in a 30-minute call, with probing follow-ups on who was affected and how you escalated. The ethics scenarios are not filler — vague answers that dodge ownership or skip escalation are a common failure point.
+Each division and desk hires for itself, so the order varies, but the building blocks are stable: an automated assessment, a structured behavioral screen, one to three live coding screens, and a Superday of back-to-back interviews. Applications are made to a corporate title (Analyst, Associate or Vice President), which sets the depth of the loop. End to end, the process typically runs one to three months.
 
-**Online assessment.** Engineering pipelines get a timed coding test, most often two problems, with reported windows up to 180 minutes when a quantitative section is attached. The typical pair is one approachable parsing or string problem and one genuinely harder task — candidates report a rightmost-smaller-element query over 10^5 entries that defeats the naive O(n^2) scan, a grid-clearing minimization that reduces to set cover, and a three-server load-balancing partition. Quant and research candidates get a mixed paper: the same style of coding plus multiple-choice or numeric-entry questions on dice and coin-flip probabilities, conditional card probabilities, Laplace and normal distributions, expected runs, sample-mean standard deviation, and constrained optimization on the unit circle via Lagrange multipliers or trigonometric substitution. Budget time deliberately: several candidates finish the math quickly and need every remaining minute for the second coding problem, or vice versa.
+Campus candidates usually take the assessment and a video screen, one live screen, then a Superday of two or three 45-minute sessions. Associate and VP candidates often start with a recruiter call and a CoderPad screen and face low-level and system design at the Superday. Strats candidates get math in nearly every round.
 
-**Technical phone screens.** Expect one to three live screens of about 45 minutes, usually two problems each, occasionally with two behavioral questions in front. The problems stay easy-to-medium — first unique character, second-smallest unique element, computing the highest average from name-score records (the single most-repeated question in our reports), longest substring without repeating characters, spiral traversal — but the grading lives in the follow-ups: return the substring instead of its length, handle mixed-case commands, debug a supplied buggy fragment, state time and space complexity unprompted. Screens for quant-adjacent roles append a rapid-fire math drill on the chain rule, eigenvalues, Bayes' theorem, expectation, and variance.
+Here's what the interview process can look like:
 
-**Superday.** The final loop runs as back-to-back sessions, typically 45 minutes each with one or two interviewers per slot; engineering onsites reported here included a coding round (merging three or k sorted lists, queue variants, first missing positive), a design conversation set in a trading or market-data context probing throughput, consistency, and failure handling, a resume deep dive into technical decisions, and a testing-and-quality discussion about test plans and fault injection for distributed systems. Logic puzzles such as the 25-horses race appear alongside coding. Interviewers compare notes, so an inconsistent story across sessions costs more than one weak answer.
+- **Online assessment (most engineering and campus pipelines):** A timed HackerRank test, usually two coding problems of which one is genuinely hard, with a math and probability section for quant tracks.
+- **Behavioral video screen (campus and analyst):** Five or six structured prompts with about 30 seconds to prepare each, recorded or delivered live, heavy on ethics and teamwork.
+- **Technical phone screens (one to three):** Live CoderPad sessions of about 45 minutes, usually two easy-to-medium problems plus extensions, sometimes with behavioral questions or a math drill.
+- **Superday coding rounds:** Two or more 45-minute sessions with one or two interviewers, mixing data-structure implementation, classic problems, pseudocode and a logic puzzle.
+- **Superday design rounds (Associate and above):** Object-oriented design of a small system, then system design set in a trading, messaging or high-throughput context.
+- **Quantitative and strats rounds:** Probability, statistics, calculus and linear algebra, plus fixed-income basics for some desks, embedded in screens and panels.
 
-**Research Scientist and strats depth.** For quantitative tracks the shared stages stay, but the center of gravity moves to mathematical reasoning. Phone screens run by quant team members range across brainteasers, conditional probability and expectation, sampling from arbitrary distributions, and stochastic processes — reported discussions reached biased random walks on curved spaces and cointegrated random walks. Language choice can be flexible (one candidate coded in Julia and was asked to argue Julia versus Python trade-offs). Superday sessions for this track mix CoderPad coding on fundamental data structures with math, statistics, and probability brainteasers at the level of the standard quant-interview probability workbooks; ML-flavored questions such as what happens to regression coefficients when the dataset is duplicated also show up. Grading is explicitly about process: define every variable, state assumptions before computing, narrate intermediate results, and sanity-check the final number. Coding difficulty does not rise for this track — arrays, strings, and hash tables stay easy-to-medium, with classic dynamic-programming questions only if the interviewer reaches for trees or DP.
+> **Tip:** Treat every first prompt as an opening move. Reports describe the interviewer asking for the substring instead of its length, adding case-insensitive input, or handing over buggy code once the first version works; finish the base problem early enough to absorb the twist.
 
-**Timeline.** One offer-holder heard back verbally about 10 days after the onsite, but formal approval and background checks stretched close to two months. Silence is the common rejection signal: multiple candidates advise assuming a no if two weeks pass without contact. End to end, the process typically spans one to two months.
+## Online assessment
 
-## What Candidates Report
+Engineering applicants typically receive a HackerRank link automatically after applying, before any human contact. The common shape is two problems: one approachable string or parsing task and one harder optimization. Reported windows run from about 60 to 120 minutes, and up to 180 minutes when a quantitative section is attached. Some campus candidates received a preparation set of about ten problems in advance (decode ways, a trailing-average compliance alert, anagram queries, palindromic substrings and similar), and the real test drew on the same style.
 
-- Interviewers are friendly and conversational but grade communication hard. A senior candidate with working solutions attributed a weak performance entirely to rusty articulation; people who narrate assumptions, volunteer test cases, and give complexity unprompted consistently report better outcomes.
-- The first version of a problem is never the whole problem. Reports describe extensions mid-round — new output requirements, case-insensitivity twists, added operations — and a debugging exercise on code you did not write. Treat every prompt as the opening move.
-- Difficulty is deliberately moderate; execution is the filter. Most live questions sit at easy-to-medium, and candidates fail on unhandled duplicates, empty inputs, and tie-breaking rules rather than on algorithmic depth.
-- Behavioral pacing surprises people: about 30 seconds of prep per structured question, ethics scenarios that recur across rounds, and follow-ups that dig into escalation judgment. Rehearsed-but-flexible stories beat polished monologues.
-- Quantitative candidates are surprised by breadth — calculus and statistics inside a coding assessment, stochastic-process conversation in a screen — and report that a clearly structured derivation matters more than landing the exact number on the first try.
-- Motivation for finance comes up early and often. You do not need markets knowledge, but "why a bank rather than a tech company" gets asked directly and a thin answer sets a bad tone.
+The hard problem is where candidates lose the stage: assigning module loads to three servers to minimize pairwise imbalance (a three-way partition needing subset-sum state, not greedy), equalizing letter frequencies with additions and removals, or a rightmost-smaller-element query over 100,000 entries that defeats the quadratic scan. Quant versions add multiple-choice or numeric-entry questions on dice, conditional card probabilities, the Laplace distribution and optimization on the unit circle.
 
-## Coding Questions
+Interviewers evaluate:
 
-Goldman's live coding leans on fundamentals executed cleanly: hash-map aggregation, string scanning, matrix traversal, and the occasional partition or optimization problem in assessments. Practice finishing: several reports show the decision hinging on self-driven testing and complexity analysis after the code worked.
+- **Hidden test cases:** Grading is automatic, so a quadratic solution that passes the examples can still fail most hidden cases.
+- **Parsing discipline:** Multi-digit counts in a mixed letter-and-number string, a lone zero in decode ways, and empty inputs are where the easy problem breaks.
+- **Partition reasoning:** Recognizing that the three-server problem is a bounded subset-sum or meet-in-the-middle search, and clarifying that a server may be empty.
+- **Time allocation:** On combined papers, banking enough minutes for the second coding problem after the math.
 
-- [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person)
-- [First Unique Character](https://trueinterview.io/questions/first-unique-character)
+Practice two-problem sets against a 90-minute timer, with one deliberately chosen hard partition or dynamic-programming problem.
+
+> **Note:** On mixed papers the math is fast only if it is fresh. Several candidates advise starting with your stronger section, because running out of time on the second coding problem is the most common regret.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Assign each module's load to one of three servers so the sum of pairwise absolute differences between server totals is as small as possible.
+- Given lowercase letter groups each followed by a multi-digit count, total each letter's frequency and return the pairs alphabetically.
+- Count the ways a digit string decodes to letters with 1 through 26, returning zero for any undecodable zero.
+
 - [Efficient Tasks / Three-Server Difficulty Split](https://trueinterview.io/questions/efficient-tasks-three-server-difficulty)
+- [Equalize Letter Frequencies With Add / Remove](../../questions/algorithm/equalize-letter-frequencies/README.md)
+- [Decode Ways / Alphanumeric Combination](../../questions/algorithm/decode-ways/README.md)
+- [Compliance Alert / Trailing-Average Sliding Window](../../questions/algorithm/compliance-alert-sliding-window/README.md)
 
-## Low-Level Design Questions
+## Behavioral video screen
 
-Implementation rounds ask you to build a small, coherent abstraction — a container with O(1) guarantees or a tree of resources with create, recursive delete, and move operations — then defend invariants, pointer bookkeeping, error behavior, and tests. Expect the interviewer to add an operation after your first version works.
+Campus, analyst and many associate pipelines include a structured behavioral screen: a recorded one-way video, or the same script read by an interviewer in a 30-minute call. Each prompt allows about 30 seconds to organize your thoughts (one candidate who expected 45 found it was 30), then a timed answer with no retakes. The bank is stable: competing deadlines, a teammate not doing their share, a challenging goal, a time others doubted you, and repeated attempts before success.
 
-- [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea)
-- [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree)
+The distinctive cluster is ethics and control: a client asking for something against firm policy, confidential information sent to a client by mistake, a fraudulent email asking for sensitive data, and a manager asking you to share restricted data. Most screens end with one communication check, such as explaining recursion to someone with no computing background, defining regression, or explaining Big O notation. Live versions add a resume walk-through and follow-ups.
 
-## Behavioral Questions
+Interviewers evaluate:
 
-The behavioral bank centers on integrity, accountability, and judgment under pressure — client-policy conflicts, confidential-data mishaps, teammates who miss deadlines — plus communication tests and quantitative reasoning prompts that blur into the technical evaluation. Structure answers around your specific actions and escalation decisions.
+- **Escalation judgment:** Naming who you would inform (manager, compliance) and acting promptly; answers that quietly fix a data leak alone lose signal.
+- **Ownership:** Your own actions and decisions, not the team's, with a result you can measure.
+- **Structure under a clock:** A clear situation, action and result after 30 seconds of preparation.
+- **Plain-language explanation:** A technical idea explained without jargon, a proxy for client-facing communication.
+- **Motivation:** A credible reason to build software at a bank, which experienced hires from technology companies are asked directly.
+
+Prepare six to eight stories plus a stated escalation path for each ethics scenario, and rehearse them against a 30-second preparation timer.
+
+### Sample questions for the behavioral video screen
+
+Here are some questions reported by recent candidates:
+
+- A client asks you to do something that violates firm policy: what do you do?
+- You accidentally sent confidential information to a client; walk through your thinking and who you would talk to.
+- You receive an email asking for sensitive information; how do you decide whether it is fraud and how do you respond?
 
 - [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/questions/hirevue-behavioral-six-questions)
-- [Quant OA Math / Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank)
+- [Explain Recursion to a Non-CS Audience](https://trueinterview.io/questions/explain-recursion-no-cs-audience)
+- [Describe a proud project and handling credit conflict](https://trueinterview.io/questions/describe-a-proud-project-and-handling-credit-conflict)
 
-## How to Prepare
+## Technical phone screens
 
-- Drill the recurring live-round set until it is reflexive: hash-map aggregation with averages and ties, first-unique and second-smallest variants, substring windows, and matrix traversal. Then practice extending each solution on demand, because that is how the rounds actually run.
-- Rehearse behavioral answers against a 30-second prep clock, and prepare specific stories for the ethics cluster — client asks you to break policy, confidential data sent by mistake, suspicious request for sensitive information — with your escalation path stated explicitly.
-- Practice debugging code you did not write: take a working solution to a familiar problem, introduce two or three defects, and narrate finding them. A buggy-fragment exercise appears in real screens.
-- After every practice problem, do the closing ritual Goldman rewards: propose your own edge-case tests, run them aloud, and state time and space complexity without being asked.
-- If you are on a quant, strats, or research path, split preparation roughly evenly between coding and math: conditional probability, expectation, combinatorics, common distributions, sampling methods, and Lagrange-multiplier optimization, always deriving with named variables and stated assumptions.
-- Prepare a concrete answer to why you want to build software at a bank, and read up on how trading and risk systems stress throughput and consistency — the design round uses that setting even when no finance knowledge is required.
-- Plan the timeline: keep other processes moving, treat two weeks of silence as a probable rejection, and expect the post-offer paperwork and background check to take weeks even after a fast verbal yes.
+Expect one to three live screens of about 45 minutes on CoderPad or a shared editor, run by an engineer. Most contain two problems; some add two behavioral questions at the start or end, and one VP screen opened with conceptual questions on time complexity and hash collisions. A second screen is often standard procedure, not a sign of a weak first round.
+
+The most repeated problem is the highest average from name and score records with repeated names, returning the value or the name. Others are the first non-repeating character, the second-smallest unique value, strictly increasing windows of length k, spiral traversal, counting squares in a grid, string compression and trapping rain water. Follow-ups carry the grading: return the substring, not just its length; reach linear time; or debug a supplied fragment after a counting-bits problem. Quant-adjacent screens append a quick drill on the chain rule, eigenvalues, Bayes' theorem and variance.
+
+Interviewers evaluate:
+
+- **Edge cases in code:** Empty input, ties, negative scores and fewer than two distinct values handled in the implementation, not just mentioned.
+- **Unprompted complexity:** Time and space stated, including where a logarithmic factor comes from and how to remove it.
+- **Adaptability:** Modifying working code for a new output requirement without restarting.
+- **Debugging others' code:** Tracing a short buggy snippet aloud and naming each defect.
+- **Articulation:** One VP candidate with correct solutions attributed a poor result entirely to unclear explanation.
+
+Drill hash-map aggregation, string scanning and matrix traversal until they take ten minutes each, leaving time for the extension.
+
+> **Tip:** Clarify early whether a brute-force answer is acceptable. One candidate's recursive path search was accepted without memoization, while another interviewer pushed explicitly for an O(n) solution; asking saves minutes either way.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Given (name, score) records with repeats, return the student with the highest average, handling ties and empty input.
+- Find the longest substring without repeating characters, then return the substring itself.
+- Return the second-smallest distinct value in an array with duplicates, and define the behavior when it does not exist.
+
+- [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person)
+- [First Unique Element III](https://trueinterview.io/questions/first-unique-character)
+- [Second-Smallest Unique Element](../../questions/algorithm/second-smallest-unique-element/README.md)
+- [Transaction Segments / Increasing Subarrays of Length K](https://trueinterview.io/questions/transaction-segments-increasing-subarrays)
+
+## Superday coding rounds
+
+The Superday is a block of back-to-back sessions, typically 45 minutes each with one or two interviewers: two sessions for campus hires, a half day of four for some experienced hires. Sessions often open with behavioral questions on teamwork, conflict or a colleague taking credit for your work.
+
+Coding leans toward data-structure implementation and classic problems rather than contest tricks: a string deque on a doubly linked list, the root of the largest tree from child-to-parent links, merging three or k sorted lists, the first missing positive, a constant-time random set, an LRU cache, and the most frequent element after k increments. Some rounds want pseudocode only, such as a heap insert or validating a binary search tree. Queue extensions and a 25-horses, 5-lanes puzzle also appear.
+
+Interviewers evaluate:
+
+- **Invariant bookkeeping:** Pointer updates in linked structures that stay correct under interleaved front and back operations.
+- **Self-testing:** Writing a small harness and proposing cases (empty, single node, ties, deep trees) without being asked.
+- **Consistency:** Interviewers compare notes, so a project story that changes between sessions costs more than one weak answer.
+- **Fundamentals on paper:** Heap sift-up and BST bound checks written correctly as pseudocode, without an IDE.
+
+Practice implementing deque, heap, LRU cache and hash map from scratch, then testing them aloud.
+
+### Sample questions for the Superday coding rounds
+
+Here are some questions reported by recent candidates:
+
+- Implement a deque of strings from scratch with constant-time push, pop and peek at both ends, then test it.
+- Given child-to-parent links, return the root of the largest tree, breaking ties by the smaller root ID.
+- Merge three sorted lists, then generalize to k lists.
+
+- [Implement a Deque](https://trueinterview.io/questions/implement-deque)
+- [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest)
+- [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md)
+- [Extend Queue: Min-Size & Min-Sum Selector](../../questions/object-oriented-programming/queue-extension-min-size-min-sum/README.md)
+- [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1)
+- [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/questions/horse-race-25)
+
+## Superday design rounds
+
+Associate and VP Superdays add design in two forms. Object-oriented rounds extend a small class step by step: a workspace of resources keyed by ID with parent pointers, then recursive delete, then move; or role permissions with inherited allow and deny lists, then multiple parents. An in-memory concurrent job scheduler, later distributed, was also reported.
+
+System design prompts lean toward trading and high-throughput messaging: a stock trading system covering order matching, market data, latency and consistency; live chat for a streaming platform; a pastebin walked from requirements through entities and APIs; and a deduplication engine that rejects notification IDs seen in the last ten minutes at about 10,000 per second under a strict memory cap. One offer-holder's loop also had a resume deep dive on technical decisions and a testing round on fault injection and monitoring for distributed systems.
+
+Interviewers evaluate:
+
+- **Requirements first:** Functional and non-functional requirements and core entities stated before any boxes are drawn.
+- **Bounded memory:** Expiring state efficiently (time-bucketed sets or a queue beside a hash set) rather than letting it grow.
+- **Override semantics:** A clear, testable rule for how child settings beat inherited ones, and what multiple parents do to it.
+- **Engineering judgment:** In the resume deep dive, why you chose an approach and how you measured impact, not a list of technologies.
+
+Practice extending a small class over three requirement changes, and one design in which latency and memory are both hard limits.
+
+### Sample questions for the Superday design rounds
+
+Here are some questions reported by recent candidates:
+
+- Build a workspace class that creates and lists resources with parent pointers, then add recursive delete and move.
+- Resolve a role's effective permissions from inherited allow and deny lists, then support multiple parents.
+- Design a deduplication engine for 10,000 notifications per second with a ten-minute window and fixed memory.
+
+- [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree)
+- [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance)
+- [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine)
+- [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture)
+
+## Quantitative and strats rounds
+
+Strats, quantitative engineering and quant research candidates sit the same stages with math throughout. Assessments include the maximum of three dice, expected runs in 10 or 21 coin tosses, the maximum covariance given two variances, a two-sided exponential probability, an arc length, and what follows about BA when AB is the identity or has rank 2. Screens by quant team members ranged from conditional expectation to sampling from arbitrary distributions, biased random walks and cointegration; one allowed Julia and asked for a comparison with Python.
+
+Superday and panel rounds mix expected-value games (a die rerolled up to three times, then with a cost per roll, then coded in Python), coupon-collector and pigeonhole questions and, for fixed-income desks, loan-rate ranking, prepayment and duration. Asset-management research candidates were asked how duplicating every row of a regression dataset differs from collecting twice the data. One PhD candidate's three-round virtual panel had almost no coding despite CoderPad links, mostly probability and broad machine-learning questions.
+
+Interviewers look for:
+
+- **Defined variables:** Every quantity named and every assumption stated before computing.
+- **Narrated steps:** Intermediate results said aloud, so a wrong final number still earns credit.
+- **Sanity checks:** Bounding the answer or checking a limiting case before committing.
+- **Composure with silent panels:** Senior panelists may give no hints; casual conversation is still graded.
+
+Work through a standard quant probability workbook and timed numeric drills, and say each derivation aloud.
+
+### Sample questions for the quantitative and strats rounds
+
+Here are some questions reported by recent candidates:
+
+- A coin is tossed 21 times; what is the expected number of maximal runs?
+- Given Var(X) = 3 and Var(Y) = 27, what is the largest possible covariance?
+- Roll a die up to three times, keeping the last roll: what is the expected payoff, and how does a cost per roll change the strategy?
+
+- [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses)
+- [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances)
+- [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income)
+- [Math and Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank)
+
+## How Goldman Sachs makes hiring decisions
+
+Feedback from all Superday sessions is pooled and the hiring team decides; no single round is decisive, but inconsistency across sessions is costly. Level is fixed by the posting's corporate title rather than set by the loop, so apply at the right title. Campus applicants use one firm-wide application with a limited number of business and location choices, and divisions review on a rolling basis. One offer-holder received a verbal offer about 10 days after the onsite, while formal approval and background checks took close to two months. Rejections are often silent.
+
+> **Tip:** If two weeks pass after a round with no contact, multiple candidates report it was a rejection. Keep other processes moving rather than waiting.
+
+## How to prepare for the Goldman Sachs interview
+
+1. **Master the repeat set:** Highest average per name, first unique character, second-smallest unique value and sliding windows, each in ten minutes.
+2. **Rehearse the extension:** After each practice problem, change the output or complexity target and adapt the code live.
+3. **Close every problem yourself:** Propose and run edge-case tests and state time and space complexity before the interviewer asks.
+4. **Build structures from scratch:** Deque, heap insert, LRU cache, hash map and a constant-time random set, with pointer invariants tested aloud.
+5. **Script the ethics answers:** For policy conflicts, misdirected data and phishing, state the escalation path to your manager or compliance.
+6. **Prepare for the hard assessment problem:** Practice three-way partitions and bounded dynamic programming against hidden test cases.
+7. **Ground design in finance settings:** For Associate and above, practice trading, messaging and deduplication designs with memory and latency limits.
+8. **Split quant prep evenly:** Strats candidates should give probability, statistics and linear algebra as much time as coding.
+
+## About working at Goldman Sachs
+
+Engineers sit with the businesses they support, from trading desks to risk, finance and client platforms. Java dominates the estate, alongside Python and C++; strats write models and analytics that run inside the same platforms. Engineers share the firm's corporate title ladder.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Analyst | Delivering well-defined features and fixes with guidance | Tasks within one team |
+| Associate | Owning components and features end to end | One team's systems |
+| Vice President | Leading designs, technical direction and mentoring juniors | A team or several related systems |
+| Managing Director | Setting strategy and running engineering organizations | A business area or platform |
+
+Goldman Sachs hires engineers and strats across its businesses. Teams include:
+
+- **Global Banking & Markets:** Front-office engineering for trading, execution, post-trade and sales data, embedded with desks.
+- **Marquee:** The client-facing platform delivering research, data, pricing and analytics through APIs and web applications.
+- **The Core:** Engineering for the firm's control functions, including risk, finance, reporting, payments and procurement.
+- **Asset & Wealth Management:** Platforms for portfolio management, client accounts and investment research.
+- **Corporate Treasury and Global Investment Research:** Funding, liquidity and research-publishing systems.
+
+### Experience and education requirements
+
+Campus roles expect a degree in computer science or a related field and fluency in one general-purpose language. Associate and VP postings ask for a computing or related degree; recent VP postings required three years of experience with a master's or five with a bachelor's, and listed skills such as Java or C++, Spring, Kafka or RabbitMQ, relational databases and SQL. Strats and quant research roles favor quantitative degrees, often a master's or PhD.
+
+## FAQs about the Goldman Sachs interview
+
+### How long does the Goldman Sachs interview process take?
+
+Typically one to three months of interviews. Screens can lead to a panel within a week, but formal approval and background checks after a verbal offer took one offer-holder nearly two more months.
+
+### What is the hardest round of the Goldman Sachs interview?
+
+For software engineers, the hard problem in the assessment and the follow-up extensions in live rounds. For strats and quant candidates, the probability-heavy panels, where interviewers may give no hints.
+
+### What base salary do Goldman Sachs engineering postings list?
+
+Recent New York postings listed annual base ranges of about $104,000 to $171,200 for Associate software engineers, and $190,000 to $252,500 for Vice Presidents. Bonuses are paid on top, and stock forms a small share of pay at junior titles.
+
+### Do you need finance knowledge?
+
+Not for engineering roles, though you will be asked why you want to work at a bank, and design rounds use trading settings. Fixed-income and strats desks do test basics such as duration and prepayment.
+
+### Is the Goldman Sachs interview remote?
+
+Mostly. Screens and many panels run over video with CoderPad, while some Superdays, particularly experienced-hire and campus loops in India, were held in person.
 
 ---
 

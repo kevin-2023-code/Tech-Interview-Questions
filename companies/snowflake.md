@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (74% of 128) |
 | Difficulty (easy / medium / hard) | 21 / 88 / 19 |
-| Free to practise | [28](../free/README.md) |
+| Free to practise | [25](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 4 in this snapshot |
 
@@ -54,18 +54,18 @@ Which stage each question came from, for the **128 of 128** questions at Snowfla
 
 ## What they ask about
 
-Of the **96 questions at Snowflake that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **94 questions at Snowflake that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 20 | 21% | ████████████ | Jun 17, 2026 |
-| `backtracking` | 12 | 12% | ███████ | Jun 17, 2026 |
-| `dynamic-programming` | 12 | 12% | ███████ | Jun 07, 2026 |
-| `trees` | 12 | 12% | ███████ | Jun 24, 2026 |
-| `arrays` | 10 | 10% | ██████ | Jun 24, 2026 |
-| `greedy` | 9 | 9% | █████ | Jun 17, 2026 |
-| `hashing` | 9 | 9% | █████ | May 30, 2026 |
-| `strings` | 9 | 9% | █████ | Jun 17, 2026 |
+| `backtracking` | 12 | 13% | ███████ | Jun 17, 2026 |
+| `dynamic-programming` | 12 | 13% | ███████ | Jun 07, 2026 |
+| `trees` | 12 | 13% | ███████ | Jun 24, 2026 |
+| `arrays` | 10 | 11% | ██████ | Jun 24, 2026 |
+| `hashing` | 9 | 10% | █████ | May 30, 2026 |
+| `strings` | 9 | 10% | █████ | Jun 17, 2026 |
+| `greedy` | 7 | 7% | ████ | Jun 17, 2026 |
 | `binary-search` | 6 | 6% | ████ | Jun 04, 2026 |
 | `heap` | 6 | 6% | ████ | Jun 10, 2026 |
 
@@ -126,7 +126,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/093ea1be-0a23-4b05-8c78-d15b7c09e2f9) | Sep 27, 2026 |
 | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/4b999f4f-c271-41a9-972c-0401de88773b) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

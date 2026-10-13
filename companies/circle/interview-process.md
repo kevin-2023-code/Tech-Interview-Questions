@@ -6,51 +6,208 @@
 
 ---
 
-Circle hires engineers to run dollar-denominated money movement on public blockchains, and its interview reflects that: the coding rounds are almost never a single self-contained puzzle, they are small ledgers and schedulers that keep growing while you sit there. This guide goes past the stage list on the company page and into how each round is actually run, drawing on 4 real Circle questions and 4 candidate interview reports. Read it as a description of one specific style of problem — a stateful system built in code, extended four times — because that is what the evidence keeps showing.
+Circle's coding rounds are small ledgers and schedulers that keep growing while you work: a bank that adds ranking, delayed payments, merging and historical balances, or a task tracker that adds user quotas. The online assessment and the live rounds both use this multi-level format, so the data model you choose in the first ten minutes decides how the last level goes. Some rules are not stated at all and surface only through failing tests.
 
-## Interview Process
+This guide breaks down each stage of the Circle interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 4 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Circle interview process
 
 <!-- guide-diagram -->
 ![Circle interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/circle/process.webp)
 <!-- guide-diagram -->
 
-After a short recruiter conversation about background and interest in payments and crypto infrastructure, the first technical filter is a timed coding assessment delivered through CodeSignal's industry-style framework: one project-shaped problem split into four levels, each level adding requirements on top of the code you already wrote. Candidates report a typical window of around 90 minutes for the whole thing, scored automatically by hidden test cases with partial credit per test, so submitting a working Level 2 beats leaving a half-finished Level 4 in the editor. One report describes a strong numeric score achieved even though the final sub-problem was never implemented — the candidate wrote a comment describing the intended approach with four minutes left and still scored well. The scale is not published to candidates, so treat the score as relative, not absolute.
+The structure is consistent across teams, while onsite topics follow the team's domain. A typical loop moves from a recruiter call to a timed online assessment, a live technical screen, and a virtual onsite of technical, design and behavioral rounds, ending with a hiring-manager conversation. Some candidates receive a take-home in place of the assessment.
 
-The levels escalate predictably. Level 1 is object construction plus formatted output. Level 2 introduces querying: filter by time window, match a substring in a name, sort, print. Level 3 introduces constrained state — quotas, expiry, scheduling — and Level 4 usually asks for a historical or cross-entity operation, such as reading a balance as of a past timestamp or merging two entities and carrying their pending work across. Reports consistently show Level 4 as the point where candidates run out of clock rather than out of ideas.
+Early-career candidates are filtered mainly on the assessment and live coding; senior and staff candidates are weighted more heavily on system design for financial infrastructure.
 
-Beyond the assessment, the loop moves to live rounds run over video. Candidates describe a system design conversation of roughly an hour, a long pair-programming session (commonly around 90 minutes) where you build a working web API against a framework's real documentation, sometimes with a SQL component, and a behavioral conversation covering motivation, past projects and how you handle pressure. Some candidates instead receive a take-home project first, with the pairing round spent extending that same project alongside an engineer. A hiring manager conversation typically closes the loop. Because the pairing round is graded on working software rather than on a whiteboard sketch, several candidates report losing time to environment friction and to interviewer guidance that turned out to be wrong — budget for it and keep moving rather than waiting to be unblocked.
+Here's what the interview process can look like:
 
-## What Candidates Report
+- **Recruiter screen:** A call of about 30 minutes on background, level and interest in payments and digital assets.
+- **Online assessment:** A timed, roughly 90-minute CodeSignal exercise in four levels, each extending the code from the last.
+- **Technical screen:** About an hour of live coding on a stateful, product-shaped problem, sometimes with requirements hidden in the tests.
+- **Virtual onsite (technical and design):** A language and engineering deep dive, hands-on building, and a system design round on financial infrastructure.
+- **Behavioral and hiring manager interviews:** Project deep dives against Circle's values, then a conversation on team fit.
 
-- **The problem is not fully specified on purpose.** In one report, a recipe-storage CRUD exercise hid its real rules inside the test cases: names had to match case-insensitively but keep the original casing on retrieval, IDs arrived as strings like `recipe2` and had to be parsed back to a number, and an update was accepted or rejected depending on whether the supplied name differed only in case or actually differed. The candidate could not reverse-engineer these rules fast enough and did not clear the level.
-- **Requirements arrive on a timer.** The banking exercise begins as create/deposit/transfer, then adds a top-spender ranking, then delayed payments with cancellation, then account merging and point-in-time balance queries. Each layer is trivially easy to bolt on if the earlier data model anticipated it and painful if it did not.
-- **Ordering semantics are where correctness is lost.** In the delayed-payment level, every operation must first execute all payments whose scheduled time has passed, in creation order, before doing its own work; a payment that cannot be funded fails silently and is never retried. Candidates who process payments lazily or only on query pass the early tests and fail the later ones.
-- **Definitions are load-bearing.** Spending counts outflows only — outgoing transfers and successfully executed scheduled payments — never deposits or incoming money. A merge must add both balance and accumulated spending to the target, move unexecuted payments, and leave the source account completely gone.
-- **Speed beats polish on the assessment.** Reports advise finishing visible levels quickly rather than perfecting one, noting that later levels shipped sparse test cases, so a straightforward implementation that satisfies the examples is enough. One candidate felt Java cost them time relative to Python for this format.
+> **Tip:** Write one internal helper that advances the system to the current timestamp, and call it at the top of every public method from Level 1. Most failed later levels in the reports come from processing scheduled work in the wrong order.
 
-## Coding Questions
+## Recruiter screen
 
-Circle's coding prompts read like small product features rather than algorithm trivia: a store of records, a query over them with filters and sorting, then a scheduling rule with expiry. Practice these as multi-part builds — implement part one, then force yourself to add the next requirement without rewriting the core.
+The recruiter call is conversational: background, target level, why Circle, and familiarity with stablecoins or payments. Deep crypto knowledge is not tested, but interest in moving money on public blockchains is expected.
 
+Interviewers evaluate:
+
+- **Motivation:** A specific reason for working on USDC, cross-border payments or onchain infrastructure.
+- **Level fit:** Scope of recent ownership, which sets the target level.
+- **Stack match:** Experience in the team's languages, commonly Java, Go or Node.js.
+
+Prepare a two-minute account of a system you owned where correctness mattered.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and your recent projects.
+- Why Circle, and why payments or digital assets?
+
+## Online assessment
+
+The assessment is an industry-style CodeSignal task of about 90 minutes: one project-shaped problem in four levels, scored automatically by hidden tests with partial credit. Level 1 builds objects and output, Level 2 adds filtered and sorted queries, Level 3 adds constrained state such as quotas or scheduling, and Level 4 asks for a historical or cross-entity operation.
+
+Two 2026 reports describe the banking version: create, deposit and transfer; then top spenders by outgoing money, formatted like `alice(1200)` with ties broken by account ID; then delayed payments that run in creation order before any other operation; then account merges and balances at a past timestamp. One candidate had four minutes left for the historical balance, wrote a comment describing the approach, and scored 775. A May 2026 task-manager version in Java added per-user concurrency quotas with expiry at Level 3; that candidate never reached Level 4.
+
+Interviewers evaluate:
+
+- **Speed through early levels:** Finishing Levels 1–3 cleanly earns more than a partial Level 4.
+- **Ordering semantics:** Due payments execute before each operation; an unfunded payment fails silently and is marked processed.
+- **Precise definitions:** Spending counts outgoing transfers and executed payments only, never deposits or incoming money.
+- **A history-ready model:** Keeping a per-account log of balance changes makes the as-of query a lookup rather than a redesign.
+
+Practice four-level builds against a 90-minute timer in your fastest language.
+
+> **Note:** Test cases for the harder levels were sparse in one report, so a direct solution that passes the visible examples was enough. Spend saved time on the next level, not on perfecting this one.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Build a bank with transfers, then top-k spenders, then scheduled and cancellable payments, then account merges and historical balances.
+- Build a task manager that lists tasks active at a given time whose names contain a substring, sorted.
+- Assign tasks to users with a maximum number of concurrent tasks, where a task on [4, 10) frees capacity at time 10.
+
+- [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](../../questions/object-oriented-programming/banking-system-with-transfers-top-spenders-delayed-payments-and-account/README.md)
 - [Task Management System: Add and List Current Tasks](https://trueinterview.io/questions/f59f7803-1b1c-45b7-94bf-8af1205b5abc)
 - [Task Query by Time and Name Filter with Sorting](../../questions/algorithm/task-query-by-time-and-name-filter-with-sorting/README.md)
 - [User Quota Scheduling with Expiring Assignments](https://trueinterview.io/questions/352f05c4-1319-4655-a5b4-7ce1c67f972c)
 
-## Low-Level Design Questions
+## Technical screen
 
-The banking prompt is the single most representative Circle question we have: an in-memory ledger that gains ranking, scheduling, cancellation, merging and historical queries one layer at a time. Solve it end to end at least once, including the merge semantics, before an interview.
+The live screen is about an hour with a Circle engineer and resembles a work sample, and the banking problem also appears here level by level. A March 2026 candidate got a recipe store with full create, read, update and delete, where the real rules lived only in the tests. Names had to match case-insensitively but keep their original casing, IDs arrived as strings like `recipe2` and had to be parsed to a number, and an update with a matching ID was accepted when the name differed only in case and rejected otherwise. The candidate could not infer the rules fast enough and did not pass the first part.
 
+Interviewers evaluate:
+
+- **Reading tests as a specification:** Comparing expected and actual output to infer casing, ID-format and rejection rules.
+- **Clean, growing APIs:** Methods that stay consistent as levels add parameters such as timestamps.
+- **Edge cases with money:** Insufficient funds, transfers to self, and operations on deleted or merged accounts.
+- **Communication:** Stating each inferred rule before coding it.
+
+Practice problems whose requirements are partly hidden, re-running tests after each inference.
+
+> **Tip:** When a test fails without explanation, check casing, identifier format and the return value on failure first. These caused the reported misses, not the core logic.
+
+### Sample questions for the technical screen
+
+Here are some questions reported by recent candidates:
+
+- Implement a recipe store with CRUD where names are unique case-insensitively, IDs arrive as strings, and updates follow hidden rules.
+- Merge one bank account into another, moving balance, accumulated spending and pending payments, and delete the source.
+
+- [Design a Recipe Storage System with Case-Insensitive Name Uniqueness and String IDs](https://trueinterview.io/questions/a50dfa50-dd7a-4d96-92e5-4a2f7fef2dbd)
 - [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](../../questions/object-oriented-programming/banking-system-with-transfers-top-spenders-delayed-payments-and-account/README.md)
 
-## How to Prepare
+## Virtual onsite: technical and design rounds
 
-- Pick a representation that survives three more requirements: accounts in a map, an append-only event or transaction list, and a heap keyed by `(execute_time, creation_order, id)` for anything scheduled. Retrofitting history onto a bare balance integer is the most common self-inflicted wound.
-- Write a single internal `advance_to(timestamp)` helper on day one and call it at the top of every public method. The delayed-payment rules are graded on ordering, and a helper makes ordering a one-line invariant instead of five copies of the same loop.
-- Rehearse point-in-time queries specifically, since that is the level candidates most often run out of time on. Keeping a per-account log of `(timestamp, delta)` makes an as-of balance a prefix sum rather than a redesign.
-- Treat failing hidden tests as a specification, not as a bug report: read the diff between expected and actual output to infer rules about casing, identifier formats and rejection conditions, and re-run after each inference.
-- Get fast at boring output formatting — string identifiers to parse, formatted result strings such as `name(amount)`, ties broken lexicographically. Reports show these details, not the algorithms, eating the clock.
-- For the pairing round, be fluent in one web framework end to end: routing, request validation, persistence and a couple of SQL queries, working from the documentation live rather than from memory.
-- Have a crisp story ready about a system you owned where correctness under concurrency or money movement mattered, since the behavioral round leans on judgment under pressure rather than on trivia.
+The onsite is held over video. The technical deep dive tests your primary language and engineering fundamentals beyond the screen, and some candidates instead get a long pairing session that extends a take-home project or builds a small working API alongside an engineer. The system design round focuses on financial infrastructure rather than generic scale: a high-throughput transaction ledger with strict consistency, or querying and indexing transactions across several blockchains. Data-science candidates may get a modeling case, such as forecasting future sale prices from historical listings.
+
+Interviewers evaluate:
+
+- **Correctness under failure:** Idempotent operations, retries, and reconciliation when a chain or partner call fails.
+- **State and consistency:** Where the source of truth lives and how balances stay correct under concurrent writes.
+- **Working software:** In pairing, a running, tested increment beats a complete but untested design.
+- **Domain judgment:** Awareness of confirmation times, reorgs and per-chain differences.
+
+Rehearse one ledger design end to end, including double-entry records, idempotency keys and reconciliation.
+
+### Sample questions for the virtual onsite
+
+Here are some questions reported by recent candidates:
+
+- Design a transaction ledger that handles high write throughput with strict consistency.
+- Design a service that indexes and queries transactions across multiple blockchain protocols.
+- Build a model to predict future car sale prices and explain how to validate it.
+
+- [Predict Future Car Sale Prices](https://trueinterview.io/questions/predict-future-car-sale-prices)
+
+## Behavioral and hiring manager interviews
+
+The behavioral round is a project deep dive against Circle's values: multistakeholder, mindful, driven by excellence and high integrity. Expect questions on taking a risk, recovering from failure and collaborating across time zones in a remote-first company. The hiring-manager conversation is lighter on technical content and checks team fit and career direction.
+
+Interviewers evaluate:
+
+- **Integrity under pressure:** Raising a problem early, especially where money or compliance is involved.
+- **Ownership:** Clear personal decisions and measurable results in your stories.
+- **Remote collaboration:** Written communication and work across time zones.
+
+Prepare four or five stories that each map to a value.
+
+### Sample questions for the behavioral and hiring manager interviews
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a risk you took and how it turned out.
+- Describe a failure and what you changed afterward.
+- How have you collaborated with a team spread across time zones?
+
+## How Circle makes hiring decisions
+
+Little about Circle's decision process has been reported. The assessment produces a numeric score with partial credit, which typically decides whether a candidate moves to live rounds. After the onsite, interviewer feedback is typically combined with the hiring manager's view, and the final conversation doubles as a team-fit check. Design and behavioral depth matter most for the senior and staff levels.
+
+## How to prepare for the Circle interview
+
+1. **Pick a model that survives three more levels:** Accounts in a map, an append-only transaction log and a heap keyed by execution time and creation order.
+2. **Centralize time handling:** Process due scheduled work in one helper called first in every method.
+3. **Rehearse point-in-time queries:** The historical balance is where candidates most often run out of time.
+4. **Get fast at output formatting:** Parsing IDs like `payment1`, strings like `name(amount)` and lexicographic tie-breaks cost real minutes.
+5. **Treat failing tests as requirements:** Practice inferring hidden rules from expected output.
+6. **Use your fastest language:** One Java candidate felt Python would have saved time.
+7. **Prepare one ledger design:** Consistency, idempotency and failure recovery for money movement.
+8. **Map stories to the values:** Integrity and mindfulness are scored, not decoration.
+
+## About working at Circle
+
+Circle issues the USDC stablecoin and builds payments and treasury infrastructure on public blockchains. Founded in 2013 and headquartered in New York, it listed on the NYSE in June 2025. Engineering is remote-first, and the work centers on money-movement correctness: issuance and redemption, cross-chain transfers and wallets.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer I | Delivering scoped features with guidance | Tasks within one team |
+| Software Engineer II | Owning features and services | One team's systems |
+| Senior Software Engineer | Leading projects and design decisions | A team and its neighbors |
+| Staff Software Engineer | Cross-team architecture and technical direction | Several teams |
+
+Circle hires engineers across product and infrastructure teams; teams include:
+
+- **USDC and stablecoin infrastructure:** Issuance, redemption and reserve-related systems.
+- **Circle Payments Network:** Cross-border money movement between financial institutions.
+- **Arc:** Circle's enterprise blockchain, including validator and smart-contract work.
+- **Blockchain integration:** Connecting new chains to Circle's infrastructure, including cross-chain transfer.
+- **Data Platform:** Data pipelines and analytics infrastructure.
+
+### Experience and education requirements
+
+Postings typically ask for a computer science degree or equivalent experience, production work in Java, Go, Node.js or similar, and distributed-systems familiarity. Blockchain experience is a plus for most teams and expected for blockchain-integration roles.
+
+## FAQs about the Circle interview
+
+### How long does the Circle interview process take?
+
+Typically several weeks from the recruiter call to an offer, depending on assessment scheduling and onsite availability.
+
+### What is the hardest round of the Circle interview?
+
+The online assessment's final level, where historical queries or account merges must fit a model built for earlier levels under a 90-minute clock.
+
+### Is there an online assessment?
+
+Yes. Most candidates take a four-level CodeSignal exercise of about 90 minutes; some receive a take-home instead.
+
+### Is the Circle interview remote?
+
+Yes. The company is remote-first, and every reported round was held online.
+
+### How much does a Circle software engineer make?
+
+Posted base ranges for Senior Software Engineer roles have run from about $150K to the low $200Ks depending on location tier, with equity and bonus on top.
 
 ---
 

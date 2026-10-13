@@ -48,16 +48,16 @@ Which stage each question came from, for the **83 of 83** questions at Bloomberg
 
 ## What they ask about
 
-Of the **63 questions at Bloomberg that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **62 questions at Bloomberg that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 15 | 24% | ████████████ | Jul 09, 2026 |
-| `strings` | 13 | 21% | ██████████ | Aug 04, 2026 |
-| `graphs` | 11 | 17% | █████████ | Jun 28, 2026 |
-| `backtracking` | 10 | 16% | ████████ | Aug 04, 2026 |
-| `arrays` | 9 | 14% | ███████ | Jun 16, 2026 |
-| `stack` | 9 | 14% | ███████ | Aug 04, 2026 |
+| `hashing` | 14 | 23% | ████████████ | Jul 09, 2026 |
+| `strings` | 13 | 21% | ███████████ | Aug 04, 2026 |
+| `graphs` | 11 | 18% | █████████ | Jun 28, 2026 |
+| `backtracking` | 10 | 16% | █████████ | Aug 04, 2026 |
+| `arrays` | 9 | 15% | ████████ | Jun 16, 2026 |
+| `stack` | 9 | 15% | ████████ | Aug 04, 2026 |
 | `sorting` | 6 | 10% | █████ | Jun 04, 2026 |
 | `greedy` | 5 | 8% | ████ | Jun 04, 2026 |
 | `dynamic-programming` | 4 | 6% | ███ | Apr 01, 2026 |
@@ -153,7 +153,7 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Implement sliding-window timestamped average](https://trueinterview.io/questions/implement-sliding-window-timestamped-average) | Object Oriented Programming | Medium | Feb 12, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
-| [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Jan 31, 2026 |
+| [Gas Tank Grid Reachability](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Jan 31, 2026 |
 | [Top-K Frequent Tickers (Stock Leaderboard)](https://trueinterview.io/questions/top-k-frequent-stock-tickers) | Object Oriented Programming | Hard | Jan 26, 2026 |
 | [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d) | Algorithm | Hard | Jan 22, 2026 |
 | [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Algorithm | Hard | Jan 22, 2026 |

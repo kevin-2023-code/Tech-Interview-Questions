@@ -16,19 +16,32 @@ How Verkada interviews, and the questions candidates reported there. Free questi
 
 ## How Verkada interviews
 
-Verkada's loop is unusually compressed: a single hour frequently carries both a coding problem and a full system design discussion, and the design prompt is almost always a version of the company's own operational problem — millions of cameras sending a heartbeat every minute. This guide goes deeper than the outline on the company page, drawing on 15 real Verkada questions and 17 candidate interview reports to show what each stage actually probes and where candidates lose the loop.
+Verkada compresses its loop more than most companies. A single phone-screen hour often holds both a coding problem and a full system design discussion, and the design prompt is nearly always the company's own operating problem: a fleet of millions of cameras, each sending a heartbeat every minute. Coding prompts are framed in the same product terms (camera motion intervals, door permissions, nested camera groups), and practical work counts alongside algorithms: some screens are live API builds in a prepared local environment.
 
-### Interview Process
+This guide breaks down each stage of the Verkada interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 16 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Verkada interview process
 
 <!-- guide-diagram -->
 ![Verkada interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/verkada/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact.** Many candidates enter through outbound rather than an application: a recruiter message on LinkedIn, in several reports with the technical screen scheduled before a resume was ever requested. A short conversational call sometimes precedes the technical round, especially for new-grad and frontend candidates, and it stays at the level of motivation and logistics — why Verkada, and where you are in your search. End to end, the process typically runs from a few weeks to a couple of months, with a decision after the final round typically taking around two weeks.
+The skeleton is stable across backend, full-stack and frontend hiring: a recruiter contact, one or two technical screens, then an onsite of four to five rounds. What changes is the middle. Backend candidates get system design in the screen and again onsite; frontend candidates swap design for React and layout work. Device-facing teams have reportedly added networking and product-troubleshooting questions. End to end the process typically takes a few weeks to two months.
 
-**Technical phone screen.** Reported screens run 45–60 minutes with an engineer and come in three recognizable shapes. The most common is a split hour: roughly half coding, half system design. One candidate described about ten minutes sketching a high-level video platform architecture, followed by deep dives into search, upload scaling, and upload failure handling, then roughly twenty minutes on a coding problem before the call turned casual. Other split-hour screens paired an in-place merge of two sorted arrays with a device-health monitoring design, or a linear-time single-pass array problem with a real-time device status counter. The second shape is two coding problems back to back with no design segment — typically a base problem plus an extension, such as extracting intervals where a camera's motion score exceeds a threshold, then merging those intervals across many cameras, with a scaling discussion tacked on at the end. The third shape is hands-on and practical rather than algorithmic: candidates are told in advance to have a working local environment ready (reports name a repository checkout, Docker, and an IDE) and then implement API endpoints live, in one case building a Flask API directly from a data-flow diagram the interviewer shared on screen.
+New grads are more likely to get a non-technical recruiter call and an algorithm-heavy onsite. Experienced hires see more design: one onsite had two architecture rounds plus a detailed review of scope in a previous job.
 
-Two constraints recur inside these rounds and catch people off guard. Interviewers frequently pin the API contract — a required entry-point name and return type — so free-form solutions do not count. And at least one screen specified both the implementation language and a hard runtime budget, in that case Java with a three-second execution limit on a permissions-graph traversal.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call on motivation, search timeline and logistics, often after the recruiter reached out first.
+- **Technical phone screen (one or two):** 45–60 minutes with an engineer, either half coding and half design, two linked coding problems, or a hands-on API build.
+- **Onsite coding interview:** Data-structure implementation from a blank file, such as LRU and LFU caches or coin change.
+- **Practical and pair-programming round:** A small feature built collaboratively: schema, data access layer, request parsing and response formatting (frontend: extending an earlier component).
+- **System design interviews (one or two):** Device-fleet and access-control architectures with ingestion, storage and query paths.
+- **Behavioral interview:** A deep dive into a previous role: your scope, hard problems and how you worked with the team.
+
+> **Tip:** Treat every hour as two time boxes. In split-hour screens the coding half is about 20 minutes. In two-problem screens, one candidate who over-invested in the first problem could not finish the second and named that as the deciding factor.
 
 **[Read the full Verkada interview process →](interview-process.md)**
 

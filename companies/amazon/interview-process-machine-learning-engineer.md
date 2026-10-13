@@ -6,108 +6,296 @@
 
 ---
 
-Machine Learning Engineer candidates at Amazon get rejected for weak project scale as often as for weak answers. One candidate cleared four back-to-back phone screens: a correct topological-sort solution, a detailed project deep dive, an object-oriented ad-metrics design and an end-to-end ML design. The feedback said their projects lacked the business impact and scale for the target level, and that they had needed too many hints on a problem they felt they had solved alone. That rejection also came with a six-month cooldown specific to this track. Another rejected MLE was given a twelve-month cooldown after a five-round process in which the last round was nothing but three behavioral questions.
+Amazon builds its machine learning loops team by team, so the same title can mean a 30-minute rapid-fire sweep of statistics and deep learning, an hour on GRPO training and pipeline parallelism, or plain algorithm problems with no ML at all. What stays constant is the Leadership Principles: they open most rounds, are often paired with named science competencies (breadth, depth, application), and have sunk candidates who passed every technical segment. The other recurring failure is project scope: impact that sounds purely technical, or too small for the target level, is marked down even when the work is solid.
 
-## Interview Process
+This guide breaks down each stage of the Amazon Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 20 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Amazon Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Amazon Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/amazon--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter contact.** MLE candidates are sourced by recruiters for specific organizations, and generative-AI teams in particular. Recruiters ask about post-training, agents and production deployment. The format preview is often wrong. One candidate was told the hour would be 30 minutes of ML and 30 of coding with no behavioral questions, then got 30 minutes of Leadership Principles first, leaving the project dive and the coding problem squeezed into what remained.
+Machine learning hiring runs under two related titles: Machine Learning Engineer, on the software engineering ladder and production-leaning, and Applied Scientist, which leans toward modeling depth. Many loops mix both kinds of interviewer, and the hiring team picks what to probe: search and ranking, ads, generative-AI post-training or training infrastructure. The skeleton is a recruiter call, an optional online assessment, one to four phone screens of 30 to 60 minutes, and an onsite loop of four or five hour-long rounds.
 
-2. **Online assessment (some pipelines).** When it appears, it matches the engineering assessment: a timed algorithm section, an AI-assisted repository task with failing tests, and work-style sections. Candidates coming from the general engineering pipeline sit it before being routed to ML teams.
+Intern and new-grad candidates got two screens of behavioral questions, ML fundamentals and a publication deep dive. Mid-level loops add ML system design, plus an LLM depth round on generative-AI teams. Staff loops for infrastructure teams have added GPU programming, a paper discussion and a distributed data-pipeline design; manager screens cover project leadership and people management with no coding.
 
-3. **Phone screen(s), 30–60 minutes each.** The number varies more on this track than on any other: one screen, two, or four in a row. The reported building blocks:
-   - **Coding.** Course schedule by topological sort, valid parentheses, two-sum and a variant, a set-and-dictionary lookup problem, or a click counter for an ad over a sliding k-minute window using a deque and a hashmap. Difficulty is easy to medium, and the grade depends on doing it independently, not just correctly.
-   - **Project deep dive.** One past ML project from framing to data, features, model choice, evaluation and deployment, with questions about mistakes (one candidate volunteered a data-leakage bug and how cross-validation caught it) and measured business impact.
-   - **Design.** Either an object-oriented design (an advertiser metrics service with campaign and event entities, windowed pre-aggregation, idempotency keys for duplicate events) or an architecture question such as an AI chatbot's intent, dialogue, generation and retrieval layers.
-   - **Fundamentals, rapid-fire.** One 30-minute team screen covered bias-variance, A/B test design and power, anomaly detection, choosing k, bagging versus boosting, attention variants (multi-head, multi-query, grouped-query) and a bootstrap confidence-interval implementation with a loop-free follow-up.
+Here's what the interview process can look like:
 
-4. **Onsite loop (four to five rounds, about 60 minutes each).** Every technical round also carries behavioral questions. The reported composition for a search, recommendation and ads team:
-   - **Project plus foundations.** A past internship project, then transformer basics, pretraining versus fine-tuning, and evaluation, ending with questions about ambiguity and deadlines.
-   - **LLM depth.** Architecture comparisons, scaling laws, RLHF in practice and the trade-offs of putting LLMs into production, with principle questions added at the end.
-   - **ML system design.** An end-to-end retrieval and ranking pipeline covering candidate generation, serving, offline metrics versus online guardrails, A/B testing and position bias, with Invent and Simplify questions in the same hour.
-   - **Behavioral only.** Three questions with long follow-ups: a calculated risk, disagreeing with a manager, going above and beyond for a customer.
+- **Recruiter call:** Background and team fit; generative-AI recruiters ask specifically about post-training and agent experience.
+- **Online assessment (some pipelines):** The general engineering assessment, or one or two ML-specific assessments mixing written ML questions with coding.
+- **Phone screens (one to four):** 30 to 60 minutes each, pairing principle questions with coding, ML fundamentals, a project dive or a small design.
+- **Coding interviews (one or two):** Easy-to-medium algorithm problems or hand-written ML components, usually after 20 to 30 minutes of principles.
+- **ML breadth and depth interview:** Classical ML and statistics, then transformers, fine-tuning and alignment at formula level.
+- **ML system design interview:** An end-to-end system from the team's domain, such as ranking, a chatbot or an evaluation framework.
+- **Project deep dive:** One past project, from business motivation to deployment, followed several layers down.
+- **Bar Raiser interview:** An hour of behavioral depth with an interviewer from outside the hiring team.
 
-5. **Senior and infrastructure-heavy loops.** A staff-level loop for a generative-AI infrastructure role added a round on GPU architecture and programming with a small implementation, a paper discussion of a recent open-weights model report (latent attention, mixture-of-experts load balancing without auxiliary losses, multi-token prediction, pipeline parallelism), and a full design of a distributed training-data preprocessing pipeline: object-store ingestion, streaming, tokenization, deduplication and quality filtering. Other screens asked hardware-level questions. One gave an MLP with a residual connection plus memory bandwidth, SRAM size and compute throughput, and asked for latency at batch sizes 1 and 256 and which one is compute-bound.
+> **Tip:** Prepare every round for all of its possible formats. One candidate was promised 30 minutes of ML and 30 of coding with no behavioral questions, got 30 minutes of principles first, rushed the rest, and was rejected the next day.
 
-6. **Decision and cooldown.** Rejections in the reports carried six-month or twelve-month cooldowns. One candidate noted that engineering roles had no cooldown at the time, so applying to both tracks in parallel is worth considering. Feedback between recruiter channels was reported as inconsistent.
+## Online assessment
 
-## What They Actually Evaluate
+Not every candidate sits an assessment. Those routed from the general engineering pipeline take the software one: about 40 minutes of auto-graded algorithm problems, about 60 minutes of AI-assisted work fixing failing tests in a small repository, and untimed work-simulation and work-style sections. Some science-facing pipelines use ML-specific assessments instead. One candidate sat two: the first on parameter-efficient fine-tuning, the vLLM inference engine and image-text embedding; the second on the ML work in their resume plus a merge-intervals coding problem.
 
-### ML System Design
+Interviewers evaluate:
 
-One dedicated onsite round, and often a phone-screen segment too. Strong answers follow the whole lifecycle: turn the business goal into an ML task, source data and check it for leakage, features and a feature store, offline and online evaluation, deployment, drift-triggered retraining, and monitoring with alert thresholds and rollback. Ranking prompts expect position-bias handling and guardrail metrics. Candidates lose signal by stopping at the model choice.
+- **Correctness under hidden tests:** Auto-graded problems include large inputs, so a solution that exceeds time or memory limits scores as wrong.
+- **Applied LLM literacy:** Fine-tuning, serving and multimodal embeddings explained in terms of cost and trade-offs, not names.
+- **Consistency with your resume:** Resume questions check that you can explain the ML work you list in your own words.
+- **Debugging method:** In the repository task, running the tests first and tracing back from the failing assertion.
 
-- [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking)
-- [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt)
-- [Distributed Training Data Pipeline (FAR)](https://trueinterview.io/questions/distributed-training-data-pipeline)
-- [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis)
+Practice timed medium problems on intervals and heaps, and be able to explain the memory arithmetic behind LoRA, quantization and KV caching in a few sentences each.
 
-### ML Theory
+### Sample questions for the online assessment
 
-On generative-AI teams this is one or two rounds, often LLM-focused: transformers, fine-tuning versus pretraining, RLHF and newer policy-optimization variants, parameter-efficient tuning, KV caching and attention efficiency. Team screens can also run through classical statistics quickly. Interviewers follow up on practical details, such as the memory cost of an adapter or where an efficient attention kernel fits into an existing codebase.
+Here are some questions reported by recent candidates:
+
+- Explain parameter-efficient fine-tuning, which parameters each method trains, and when you would choose it over full fine-tuning.
+- Describe how an inference engine such as vLLM raises serving throughput for large language models.
+- Given a list of intervals, merge all overlapping ones.
+
+- [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants)
+- [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390)
+- [AI Assistant Repo Bug-Fix](https://trueinterview.io/questions/ai-assistant-repo-bug-fix)
+
+## Phone screens
+
+The number of screens varies more on this track than on any other at Amazon: one candidate had a single 30-minute call, another four 60-minute screens in a row covering coding, a project dive, object-oriented design and ML design. Most split the hour between principles and one technical segment, in an editor that does not run code. Coding is easy to medium: course schedule, valid parentheses, two-sum with a variant, minimum of a rotated sorted array, or an ad's clicks in the last k minutes with a deque and a hashmap.
+
+Science-leaning screens add fundamentals. One ads-team screen covered bias-variance, A/B test power, anomaly detection, bagging versus boosting and multi-head versus grouped-query attention in 30 minutes, then asked for a bootstrap confidence interval without a loop. Another ran from regression assumptions and log loss to Adam versus SGD, then set an original dynamic program on batching items to minimize padding.
+
+Interviewers evaluate:
+
+- **Visible independence:** A candidate who solved course schedule correctly was told too many hints had been given; narrate every decision as your own.
+- **Fundamentals in a scenario:** Choosing precision or recall when a false negative is costly, and why AUC holds up on imbalanced data.
+- **Honest limits:** Saying which statistics a bootstrap can and cannot estimate, rather than bluffing.
+- **Scale of claimed impact:** Projects described in user or revenue terms that fit the level being hired.
+
+Rehearse easy-to-medium problems in a plain editor alongside a 20-minute spoken review of statistics and deep learning basics.
+
+> **Note:** The recruiter's preview of a screen is often wrong in both directions. Candidates told to expect pure technical work got principle questions first, and one applied-science screen became an unfamiliar dynamic program after rapid-fire theory.
+
+### Sample questions for the phone screens
+
+Here are some questions reported by recent candidates:
+
+- Given a stream of clicks with an ad ID and timestamp, return a given ad's clicks in the last k minutes.
+- Implement bootstrap sampling for a mean and its confidence interval, then remove the explicit loop.
+- Split items of known length into ordered batches, each costing a fixed overhead plus padding to its longest item, at minimum total cost.
+- Design an advertiser platform that records impressions, clicks and conversions and returns rates over custom time windows.
+
+- [Sliding-Window Ad Click Counter](https://trueinterview.io/questions/ea41a698-48dd-51f0-92ce-3f9a925b628a)
+- [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval)
+- [Bucket Batching DP (Applied Scientist Phone Screen)](https://trueinterview.io/questions/bucket-batching-dp-applied-scientist)
+- [Course Schedule](../../questions/algorithm/course-schedule/README.md)
+
+## Coding interviews
+
+Loops include one or two coding segments, usually inside rounds that open with 20 to 30 minutes of principles. Classic problems stay easy to medium: two-sum then minimum meeting rooms, random pick with weight, or the average salary of each manager's direct reports in a hierarchy. ML-implementation problems ask for components by hand: a numerically stable InfoNCE loss in PyTorch, sigmoid, softmax and attention, a Bayesian classifier, or a NumPy mean and variance followed by maximum likelihood. Time binds: one candidate had about 15 minutes left for code after principles ran long, and the follow-up went poorly.
+
+Interviewers evaluate:
+
+- **Working code in a short window:** A complete, tested solution in 25 minutes outweighs an elegant unfinished one.
+- **Numerical care:** Log-sum-exp, temperature scaling and symmetric terms in contrastive losses, without prompting.
+- **Connecting code to theory:** Why the sample variance and the maximum-likelihood estimate differ.
+- **Edge cases you raise:** Zero weights, a single element, empty hierarchies.
+
+Practice writing softmax, attention, a contrastive loss and a training loop from memory, plus heap and prefix-sum problems timed at 25 minutes.
+
+> **Tip:** Keep each principle answer near five minutes so the code gets its time. A candidate who wrote a correct weighted random picker noted that a perfect algorithm with rushed principle answers still leaves a weak impression.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Return a random index with probability proportional to its weight.
+- Given a company hierarchy as a tree, compute the average salary of each manager's direct reports.
+- Write InfoNCE in PyTorch for paired image and text embeddings, stable and symmetric in both directions.
+
+- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
+- [Org-Chart Salary Aggregation](https://trueinterview.io/questions/org-chart-salary-aggregation)
+- [Handwritten InfoNCE in PyTorch](https://trueinterview.io/questions/infonce-handwritten-pytorch)
+- [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle)
+
+## ML breadth and depth interview
+
+Most loops have a breadth round and, on generative-AI teams, a deeper second one. Breadth covers bias-variance, L1 versus L2, logistic regression derived on a whiteboard, convolution and receptive fields, and random-forest feature importance. Depth expects formula-level recall: write rotary position embeddings, contrast Adam and AdamW, explain PPO's clipped objective, compare GRPO with GSPO, and cover flash attention, the KV cache, LoRA variants, scaling laws and RLHF in practice.
+
+The most specialized screens reach training at scale: why GRPO drops the critic, how to parallelize it, latent attention, pipeline-parallel schedules and inter-node communication. A manager screen asked for the compute and memory time of a residual MLP at batch sizes 1 and 256 from bandwidth, on-chip memory and peak throughput.
+
+Interviewers evaluate:
+
+- **Derivation, not definition:** The update rule or loss written from the likelihood, and what breaks when an assumption fails.
+- **Practical trade-offs:** An adapter's memory cost, where an efficient attention kernel fits into an existing codebase.
+- **Currency:** Recent post-training methods and attention variants, not only the original papers.
+- **Hands-on evidence:** Answers that show you have trained and debugged these models.
+
+Build mini versions of attention, LoRA and a policy-optimization loss, and practice deriving logistic regression and regularization on paper.
+
+> **Note:** LLM depth is the most common technical reason for rejection on generative-AI teams. A rejected candidate for a search, recommendation and ads team described a full round on architectures, scaling laws and RLHF trade-offs that went past a general ML background.
+
+### Sample questions for the ML breadth and depth interview
+
+Here are some questions reported by recent candidates:
+
+- Write the rotary position embedding formula and explain how it preserves relative position inside attention.
+- Explain why GRPO removes the critic, what that risks, and how you would parallelize its training.
+- For a residual MLP of width 4096 in BF16, decide which of batch sizes 1 and 256 is compute-bound.
 
 - [Transformer / Attention Deep-Dive](https://trueinterview.io/questions/transformer-attention-deep-dive)
 - [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo)
-- [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants)
+- [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis)
+- [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](https://trueinterview.io/questions/as-ml-breadth-orals)
 
-### Coding and Algorithm
+## ML system design interview
 
-One or two segments, easy to medium, often in the first round. Reported problems are graph ordering, hashing and streaming windows. The reported failure was not a wrong answer but an interviewer noting "too many hints", so think out loud in a way that makes it obvious the ideas are your own.
+Most mid-level and senior loops include one ML design round, and some screens a shorter one. Prompts follow the team's domain: a retrieval and ranking pipeline with candidate generation, online experiments and position bias; an AI chatbot with intent detection, dialogue state, retrieval and fallback; a multi-turn search agent with long context; an agentic proposal for a hypothetical project; or evaluating text-to-image output for a correctly spelled, naturally placed brand name. A staff loop asked for a distributed pipeline that ingests, tokenizes, deduplicates and filters training data. Strong answers cover the lifecycle through monitoring; one candidate spent much of the hour on alert thresholds and rollback.
 
-- [Course Schedule](../../questions/algorithm/course-schedule/README.md)
-- [Sliding-Window Ad Click Counter](https://trueinterview.io/questions/ea41a698-48dd-51f0-92ce-3f9a925b628a)
+Interviewers evaluate:
 
-### Project Deep Dive
+- **Framing first:** The customer, the business metric and the learning target before any model choice.
+- **Evaluation design:** Offline metrics tied to online outcomes, guardrails, and automated checks plus human review for generated output.
+- **Failure modes you raise:** Train-serve skew, drift, duplicate events and rollback paths.
+- **Scale reasoning:** Throughput, cost and distribution; engineering-leaning interviewers push here harder than science-leaning ones.
 
-At least one round is entirely about your work, and it is often combined with fundamentals. It is graded on ownership and impact, not novelty: which decisions you made, what went wrong, and how the result moved a user-level or revenue metric. Impact that sounds purely technical is marked down against the target level.
+Practice ranking, ads-measurement and assistant designs, each opened with customer requirements and closed with a monitoring plan.
 
-- [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/questions/paper-read-round-far)
+### Sample questions for the ML system design interview
 
-### Behavioral and Leadership
+Here are some questions reported by recent candidates:
 
-A full behavioral round plus principle questions in every technical hour, even when the recruiter says there will be none. Stories need data and measurable results, and they should involve ML work.
+- Design a search retrieval and ranking pipeline, including online experiments and position-bias correction.
+- Architect an AI chatbot, covering intent detection, dialogue state, generation, fallback and continuous learning.
+- Design an evaluation framework that checks whether a text-to-image system renders a requested brand name correctly and naturally.
+
+- [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking)
+- [Design a Reliable AI Chatbot Architecture](https://trueinterview.io/questions/design-a-reliable-ai-chatbot-architecture)
+- [Design an LLM quality validation system](https://trueinterview.io/questions/design-an-llm-quality-validation-system)
+- [Distributed Training Data Pipeline (FAR)](https://trueinterview.io/questions/distributed-training-data-pipeline)
+
+## Project deep dive
+
+Almost every loop gives a round, or half of one, to your own work, often with the resume read in advance and introductions skipped. Expect 10 to 15 minutes per project, then layered questions: business motivation, decisions you owned, why this model, offline and online metrics, A/B design, what you did when online results fell short, and what you would change. Intern candidates had each publication taken apart, baselines included.
+
+Level is decided here as much as anywhere. A candidate who presented a full pipeline, including a leakage bug caught in cross-validation, was told the impact and scale were below the target level. Conversely, a candidate who expected rejection found the depth round on their most impactful project to be their strongest.
+
+Interviewers evaluate:
+
+- **Personal ownership:** What you decided, as distinct from what the team shipped.
+- **Business impact in numbers:** User-level or revenue-level results, not only offline gains.
+- **Scope matching the level:** Data scale, systems and influence consistent with the target level.
+- **Honest mistakes:** A real error, how it was caught and what changed afterward.
+
+Prepare two projects you can each present for 15 minutes and defend through five layers of follow-up, with numbers for every claim.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Walk through a ranking project: the pain point, why this model, the metrics, and how you diagnosed a disappointing A/B result.
+- For a detection system you built, explain the backbone choice, how you handled class imbalance and what more resources would change.
+
+- [Diagnose and fix underperforming ML model](https://trueinterview.io/questions/diagnose-and-fix-underperforming-ml-model)
+- [Explain an AI-Agent Project and Its Adoption](https://trueinterview.io/questions/explain-an-ai-agent-project-and-its-adoption)
+
+## Bar Raiser interview
+
+The Bar Raiser is a trained interviewer from outside the hiring team who judges whether a candidate raises the bar. The round is usually a full hour of three or four behavioral questions, each followed many layers down: a calculated risk, disagreeing with a manager, going above and beyond for a customer. In one round the interviewer repeatedly said answers were not what they were looking for. Principles also fill the other rounds: one five-round loop covered ten principles, two per round, and one team required every story to contain machine learning work. Candidates with too few stories ran out by the fourth round.
+
+Interviewers evaluate:
+
+- **First-person specifics:** Dates, data and the exact role you played.
+- **Depth under follow-up:** A third "why" that still has an answer.
+- **ML content in stories:** Decisions about models, data or experiments, not generic teamwork.
+- **Measured results:** Accuracy, latency, revenue or time saved, plus what you would change.
+
+Prepare 10 to 12 stories, each tagged with two or three principles, so none has to be reused within a loop.
+
+> **Tip:** When an interviewer says an answer is not what they want, switch stories instead of retelling the same one in more detail; the signal is usually that the story does not show the principle being asked.
+
+### Sample questions for the Bar Raiser interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time a client or decision maker proposed an overly aggressive plan, and what you did.
+- Describe a calculated risk you took, what you knew at the time and how it turned out.
+- Tell me about a time you challenged a team decision and then supported the final direction.
 
 - [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
+- [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal)
+- [Demonstrate calculated risk and deep-dive leadership](https://trueinterview.io/questions/demonstrate-calculated-risk-and-deep-dive-leadership)
+- [Make an Important Decision Before Every Option Can Be Explored](https://trueinterview.io/questions/make-an-important-decision-before-every-option-can-be-explored)
 
-## What They Don't Test
+## How Amazon levels and evaluates Machine Learning Engineer candidates
 
-- **Research novelty.** Reported rounds rewarded production trade-offs and measured impact, not new methods.
-- **Hard competitive algorithms.** Coding stayed at easy-to-medium, and working independently with clear narration mattered more.
-- **Model trivia without deployment context.** Design rounds kept pushing toward monitoring, skew and rollback.
-- **The recruiter's format preview.** Behavioral questions showed up in a screen described as purely technical, so prepare every segment regardless.
+Each interviewer is assigned principles and technical competencies in advance and writes feedback independently. A debrief led by the Bar Raiser, who has an effective veto, weighs it with the hiring manager, whose own round may pair principles with a short coding task such as a Bayesian classifier. Evidence is pooled, so strong technical rounds do not offset thin stories.
 
-## The Real Filter
+The target level is fixed before the loop and the project dive is judged against it. Decisions can come the day after the loop. Cooldowns after rejection were reported at six months and at twelve months for this track; one candidate noted that the software engineering track had no cooldown at the time, making a parallel application worth considering.
 
-The main filter is impact at the right scale. MLE candidates prepare a technically rich project story and are judged on whether it shows ownership of a production system with business-level results. The rejection described above came after every round was passed on content. What works is quantifying outcomes in user or revenue terms and presenting the project at the scope of the level you are targeting.
+## How to prepare for the Amazon Machine Learning Engineer interview
 
-The second filter is the depth of LLM knowledge on generative-AI teams. One rejected candidate noted that a whole round went deeper into architectures, scaling laws and alignment than a general ML background supports. Staff-level candidates were also examined on distributed systems, where a lack of hands-on experience was named as the gap.
+1. **Ask which competencies each round covers:** Loops vary by team; recruiters can say which rounds are breadth, depth or design, and one candidate received preparation material on data science, ML and LLMs.
+2. **Budget every hour for principles first:** Treat each technical problem as a 25-minute exercise and keep principle answers near five minutes.
+3. **Write 10 to 12 stories with ML inside them:** Cover ownership, disagree and commit, a calculated risk, an aggressive stakeholder plan, a deadline and a mistake, each with numbers.
+4. **Present two projects at the target level:** Lead with business impact and scale, and rehearse five layers of "why".
+5. **Derive, do not recite:** Logistic regression, regularization, maximum likelihood and attention on paper; rotary embeddings, AdamW and PPO at formula level.
+6. **Hand-write ML components:** Softmax, attention, a contrastive loss and a training loop from memory, numerically stable.
+7. **Keep current on post-training and efficiency:** LoRA variants, RLHF, GRPO-style methods, flash attention and KV caching, plus compute-versus-memory arithmetic.
+8. **Close every ML design with evaluation and monitoring:** Offline-to-online metrics, guardrails, drift and rollback, and human review for generated output.
 
-The third filter is the behavioral round at the end. A full hour of three principle questions with deep follow-ups comes after the technical rounds, and a thin story bank shows by then.
+## About the Amazon Machine Learning Engineer role
 
-## Data Source
+Machine Learning Engineers at Amazon build, deploy and operate production models alongside Applied Scientists who lean toward modeling research. The work centers on training and inference pipelines, latency and cost, experimentation and monitoring. Teams are small and own their systems end to end, including on-call, and design decisions are argued in written documents. Corporate staff have worked in the office five days a week since January 2025.
 
-Based on 20 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L4 (entry level) | Well-defined model or pipeline work with mentoring | A component of one team's ML system |
+| L5 (mid level) | ML components owned through design, deployment and operations | A team's models and pipelines |
+| L6 (senior) | Architecture of ML platforms and serving, mentoring | Several systems and neighboring teams |
+| L7 (principal) | Technical direction for ML infrastructure | An organization's ML architecture |
 
-## FAQ
+Amazon hires Machine Learning Engineers across most of the company. Teams include:
 
-**What is it like to work there as a Machine Learning Engineer?**
+- **Foundation models:** Pre-training, fine-tuning and post-training of Amazon's own large models, and the training infrastructure behind them.
+- **Amazon Web Services AI:** Managed machine learning and generative-AI services for external customers.
+- **Stores search and personalization:** Product search ranking, recommendations and the shopping assistant.
+- **Amazon Ads:** Ad ranking, click and conversion prediction, and measurement.
+- **Devices and Alexa:** Speech, language understanding and the generative-AI assistant.
+- **Operations and supply chain:** Demand forecasting, fulfillment and delivery optimization.
 
-The reports cover hiring rather than the job. What is documented: MLEs build, deploy, monitor and improve production models, with a focus on latency, cost and reliability, often on managed cloud ML tooling. The reported teams worked on search, recommendations, ads and generative-AI post-training.
+### Machine Learning Engineer experience and education requirements
 
-**What is the engineering culture like?**
+Mid-level postings typically ask for three or more years of non-internship software development and two of design or architecture, with a computer science bachelor's preferred. Senior postings ask for about five years plus design leadership, mentoring and at least two years of machine learning expertise. Python dominates interviews; infrastructure teams value C++, CUDA and distributed training, and generative-AI teams ask directly about post-training and agents.
 
-The culture runs on documents and principles, with strong ownership. Engineers own their systems in production, and design decisions are argued in writing and defended with data, which is why the loop keeps asking how you measured results.
+## FAQs about the Amazon Machine Learning Engineer interview
 
-**How hard is it to get in?**
+### How long does the Amazon Machine Learning Engineer interview process take?
 
-It is hard, and the track's cooldowns make each attempt costly. Rejections in the reports cite project scale, LLM depth and distributed-systems experience more often than coding.
+It depends on how many screens the team uses: some candidates went from one screen to the loop, others sat four first, and slow recruiter scheduling sometimes required candidates to follow up. After the final round, decisions have arrived as soon as the next day.
 
-**Which round is hardest?**
+### What is the hardest round of the Amazon Machine Learning Engineer interview?
 
-On generative-AI teams, the LLM depth round. Elsewhere, the ML system design round, because it asks for the full lifecycle under follow-up questions.
+On generative-AI teams, the LLM depth round. Across teams, the Bar Raiser round and the project deep dive decide more outcomes than coding, because they test whether stories and impact hold up at the target level.
+
+### Is the Amazon Machine Learning Engineer interview mostly coding?
+
+No. Coding is usually easy to medium and often gets 15 to 30 minutes of an hour. Some applied-science loops had no algorithm problems at all, only hand-written sigmoid, softmax and attention during the technical discussion.
+
+### How much does an Amazon Machine Learning Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **L4:** ~$175K
+- **L5:** ~$270K
+- **L6:** ~$400K
+
+Packages combine base salary, stock vesting over four years on a back-loaded 5%, 15%, 40%, 40% schedule, and a sign-on bonus paid across the first two years.
+
+### What happens after a rejection?
+
+Candidates reported six- or twelve-month cooldowns for the machine learning track, and feedback relayed through different recruiters was brief or inconsistent.
 
 ---
 

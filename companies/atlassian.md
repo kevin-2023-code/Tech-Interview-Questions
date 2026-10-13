@@ -49,19 +49,19 @@ Which stage each question came from, for the **61 of 61** questions at Atlassian
 
 ## What they ask about
 
-Of the **28 questions at Atlassian that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **26 questions at Atlassian that carry a topic label** (43% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 8 | 29% | ████████████ | Aug 26, 2026 |
-| `graphs` | 4 | 14% | ██████ | Apr 21, 2026 |
-| `greedy` | 4 | 14% | ██████ | Apr 01, 2026 |
-| `sliding-window` | 4 | 14% | ██████ | May 01, 2026 |
-| `sorting` | 3 | 11% | ████ | Oct 02, 2025 |
-| `arrays` | 2 | 7% | ███ | Oct 02, 2025 |
-| `heap` | 2 | 7% | ███ | Feb 23, 2026 |
-| `strings` | 2 | 7% | ███ | Aug 26, 2026 |
-| `two-pointers` | 2 | 7% | ███ | — |
+| `hashing` | 8 | 31% | ████████████ | Aug 26, 2026 |
+| `sliding-window` | 4 | 15% | ██████ | May 01, 2026 |
+| `graphs` | 3 | 12% | ████ | Feb 26, 2026 |
+| `greedy` | 3 | 12% | ████ | Apr 01, 2026 |
+| `sorting` | 3 | 12% | ████ | Oct 02, 2025 |
+| `arrays` | 2 | 8% | ███ | Oct 02, 2025 |
+| `heap` | 2 | 8% | ███ | Feb 23, 2026 |
+| `strings` | 2 | 8% | ███ | Aug 26, 2026 |
+| `two-pointers` | 2 | 8% | ███ | — |
 | `backtracking` | 1 | 4% | ██ | Feb 26, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>

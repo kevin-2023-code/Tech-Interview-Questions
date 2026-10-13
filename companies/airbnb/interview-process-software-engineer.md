@@ -6,108 +6,293 @@
 
 ---
 
-The most common way a Software Engineer loses this loop is by clearing every technical round and then losing the decision in the project deep dive or the hiring-manager conversation, on a judgement about the scope and match of past work — one candidate passed every round and was still held in a talent pool for a year after headcount closed. The second surprise is a full graded round with no coding in it: three pull requests to review, scored on how you prioritize the defects.
+Airbnb grades coding on whether the program runs. Screens and onsite coding rounds expect a complete solution that executes against the stated cases, plus test cases you write yourself and a complexity analysis; candidates with the right idea but unfinished or untested code were rejected. The onsite also has two rounds most companies skip: a code review of one to four pull requests, and one or two non-technical core values interviews weighed in the same decision as coding.
 
-## Interview Process
+The decision often turns after the technical rounds: several candidates cleared every coding round and lost on how their past work matched the team, judged in the project deep dive and the hiring manager conversation. This guide breaks down each stage of the Airbnb Software Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 41 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2, cross-checked against recent public accounts.
+
+## Airbnb Software Engineer interview process
 
 <!-- guide-diagram -->
 ![Airbnb Software Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/airbnb--software-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen — phone, roughly 30 minutes.** Background, why this team, level banding (senior, G9 and L9 all appear in reports), timeline, and a walkthrough of the pipeline.
+Airbnb hires Software Engineers into specific teams, and the hiring manager's view of your background carries real weight. The common shape is a recruiter call, one to three phone rounds and a virtual onsite of four to six sessions; with prep calls and team match, senior candidates counted eight to ten conversations over about seven weeks.
 
-2. **Hiring manager screen — sometimes before the technical screen, roughly 45 minutes.** Not universal but common: past projects, the decisions you owned, how you scoped work when requirements moved.
+Nearly every report is from a mid-level or senior candidate. Senior loops move system design into the phone stage, add a second design round and expect depth one candidate called staff level. Some pipelines open with a timed online assessment instead of a live screen.
 
-3. **Technical phone screen — 45 minutes, one problem in a shared editor.** Code that runs, your own test cases written in the same editor, then complexity; partial logic fails even when the approach is right. Reported problems are practical rather than exotic: merging duplicate accounts that share an email or phone via union-find, parsing a query string with repeated keys and percent-decoded separators, splitting a stay across two listings, the smallest digit permutation at or above a lower bound, scoring connected board areas. Some pipelines substitute a timed assessment of several problems — refund allocation by recency, max-score path in a directed graph, maximum-profit job scheduling, terrain water simulation. Results can take over a week.
+Here's what the interview process can look like:
 
-4. **Onsite coding — one to two rounds, 45 to 60 minutes each.** Same bar: complete running programs plus tests. Follow-ups mutate constraints instead of introducing a new problem — two-attribute dedup extended to arbitrary attributes, flood fill extended to diagonals. Reported prompts include linked-list intersection where either list may hold a cycle (four structural cases), a round-robin iterator over stream types built with inheritance, and dynamic programming combined with topological ordering.
+- **Recruiter phone screen:** About 30 minutes on background, team, level and the pipeline.
+- **Hiring manager screen (some teams):** Past projects and how they map to the team, sometimes before any coding.
+- **Technical phone screen (one to three rounds):** 45 to 60 minutes on one practical problem in a shared editor, run and tested live.
+- **Coding interviews (one or two):** Hour-long onsite rounds on scenario or class-design problems that must execute.
+- **Code review interview:** One to four pull requests in Python or Java, graded on which defects you find and how you rank them.
+- **System design interview (one or two):** Marketplace prompts such as booking, chat, notifications and waitlists.
+- **Past experience deep dive:** One project from your resume examined in detail.
+- **Core values interview (one or two):** Personal questions about hosting, belonging and why Airbnb.
+- **Hiring manager and team match:** Behavioral questions and a two-way conversation about the team.
 
-5. **Code review — one round, 45 to 60 minutes.** Roughly three pull-request diffs, usually with a choice of Python or Java. What earns signal: silent failures that return wrong results without crashing, exceptions swallowed without logging, methods returning null with no caller handling, race conditions on shared mutable state, quadratic loops hidden in comprehensions. Graded on severity ordering and comment quality, not volume — one candidate covered three of four diffs and that was not the problem.
+> **Tip:** Plan each coding hour as core logic first, tests second, polish last. Two candidates lost their screens by polishing a trivial helper early and then rushing the main function and its tests.
 
-6. **System design — one to two rounds, 45 to 60 minutes each.** Prompts stay inside the marketplace: booking with availability search and double-booking prevention, a unified notification platform covering event-triggered and batch sends, group chat with top-N active chats, a distributed key-value store pushed onto CAP trade-offs, a job scheduler at roughly ten million users. Depth reads staff-level even for senior candidates, and a second design round is sometimes appended late — in one report that extra round decided the outcome.
+## Recruiter phone screen
 
-7. **Experience or project deep dive — one round.** One project taken apart: motivation, how you persuaded stakeholders, metrics, a real conflict, alternatives rejected. Keep the opening walkthrough near ten minutes; one candidate spent over twenty and lost the follow-up time that carries the signal.
+A short call covers your background, what you want next, the level band (reports name G9 and senior targets) and the rounds ahead. Recruiters often return between stages with screen feedback, and some hold a prep call before the final rounds that explains what the hiring manager and values interviewers look for, with sample questions.
 
-8. **Core values — one to two rounds, roughly 45 minutes, run by employees from any function.** Non-technical and genuinely evaluative: hosting something, absorbing hard feedback, a calculated risk, and what you think the company's hardest problem is today. Personal stories count as much as work stories.
+Interviewers evaluate:
 
-9. **Recruiter prep call, hiring manager and team match.** Recruiters often hold a short prep call before the final block. The closing conversation covers team charter, org structure and the senior-to-staff path; an extra team match call appears when headcount shifts. One report clocked about seven weeks from first contact to final conversation across nine or more calls.
+- **Specific motivation:** A reason for Airbnb and this team, not a generic interest in travel.
+- **Level fit:** Years and scope of past ownership consistent with the band discussed.
+- **Timeline transparency:** One recruiter sped up the process for a candidate who raised a competing offer.
+- **Headcount status:** Which team owns the role and whether it is still open.
 
-## What They Actually Evaluate
+Ask early which team owns the role and whether the headcount is still open.
 
-### Coding and Algorithm
+> **Note:** Two candidates in one office passed every round and were not hired because the position had been filled; both were placed in a talent pool for a year. Elsewhere a team match call was added late after headcount shifted.
 
-Two to three graded sessions under the same rule: it must run and you must test it. Difficulty is medium-to-hard, but the differentiator is execution against a 45-minute clock — intervals and date ranges, string parsing, union-find, grids and knapsack dynamic programming recur. Signal dies by polishing a helper before the core logic exists or by switching approaches mid-implementation; one rejection traced to pivoting from depth-first to breadth-first search and running out of clock.
+### Sample questions for the recruiter phone screen
 
-- [Split Stay — Two-Listing Date Coverage](https://trueinterview.io/questions/split-stay-availability-combinations)
-- [URL Query-String Parser](https://trueinterview.io/questions/url-query-string-parser)
-- [Account Merge / User Deduplication](https://trueinterview.io/questions/account-merge-dedup-users)
-- [Smallest Permutation — Lower Bound](https://trueinterview.io/questions/smallest-permutation-bound)
+Here are some questions reported by recent candidates:
 
-### Low-Level Design
+- Walk me through your background and what you are looking for next.
+- Why Airbnb, and why this team?
 
-Many coding rounds are really class-design rounds with an algorithm attached, and the abstraction is expected before implementation: a retry mechanism with pluggable backoff, nested boxes with keys and candies, a configurable Connect-4 board, a cell store optimized for frequent writes and rare reads. One candidate passed every test case and was still rejected because the interviewer had a structure in mind that never got surfaced — clarify signatures and boundaries aloud first.
+## Technical phone screen
 
-- [Implement Retryer](https://trueinterview.io/questions/implement-retryer)
-- [Banking — Deposit / Withdraw / Transaction / Balance](https://trueinterview.io/questions/banking-transactions-class)
-- [Connect-4-Style Board Game](https://trueinterview.io/questions/board-game-ood)
+The screen is 45 to 60 minutes in a shared editor that runs code. One problem fills the block: clarify, explain, implement, run, write a small test suite in the editor, and analyze complexity. Some candidates had two or three phone rounds, one of them a background conversation with the hiring manager. One senior candidate who got a complexity bound wrong was given an extra round to make up for it.
 
-### System Design
+Problems are practical and many recur: merging accounts that share an email or phone, parsing a query string with repeated keys and a provided percent-decoding function, splitting a stay across two listings, the smallest digit permutation at or above a bound, scoring connected regions of a board game grid, printing sentences in a bordered fixed-width table and the fewest items that exactly spend a gift card, returning the items. Some screens are class design: a retry mechanism with pluggable backoff, or a banking class with transaction history.
 
-The highest-variance part of the loop: candidates who got offers cite design as what carried them, rejected ones cite it as the gap. Drive requirements yourself, fix a minimal scope in the first few minutes, then go deep where the interviewer leans in. Unfamiliar domains punish hard — one candidate lost the round covering every feature of an in-memory SQL engine instead of agreeing what "done" meant.
+Pipelines with an online assessment send several timed problems at once: refund allocation by recency, a maximum-score path in a directed graph, cheapest menu combos covering a wish list, maximum-profit job scheduling and a terrain water-flow simulation. Live-screen results took more than a week for some.
 
-- [Airbnb Booking System Design](https://trueinterview.io/questions/booking-system-design)
+Interviewers evaluate:
 
-### Project Deep Dive
+- **Bug-free, running code:** One candidate failed a split-stay screen with partial logic that missed given cases.
+- **Your own tests:** Empty input, impossible targets and ties between equally good answers, written in the editor.
+- **Clean decomposition:** A candidate who got an offer felt modular code offset minor runtime errors.
 
-A dedicated round that also drives leveling. Interviewers probe scope and ownership: what was yours versus the team's, who outside your group you influenced, how success was measured. A narrow solo feature gives too little material, and scope judgements here overturn good technical performance.
+Practice the recurring parsing, interval and knapsack problems until each runs with tests in 35 minutes.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Parse a query string so repeated keys collect a list and valueless keys map to an empty string, then add percent-decoding so encoded separators stay literal.
+- Given accounts as lists of phones and emails, return the indices of all accounts linked through any shared value.
+- Given digits and a lower bound, return the smallest permutation at least the bound, or empty if none exists.
+
+- [URL Query Parameter Parsing](https://trueinterview.io/questions/url-query-string-parser)
+- [Account Registration Deduplication](https://trueinterview.io/questions/account-merge-dedup-users)
+- [Build Smallest Number](https://trueinterview.io/questions/smallest-permutation-bound)
+- [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d)
+
+## Coding interviews
+
+The onsite has one or two hour-long coding rounds under the same rule. Problems fall into marketplace scenarios (split stays, menus, layovers, cascading bookings), classics with a twist (search in a rotated sorted array, intersection of two linked lists that may each contain a cycle, pouring water on terrain, removing digits for the smallest number), and class design with an algorithm attached (a round-robin iterator over stream types built with inheritance, nested boxes with keys and candies, a configurable Connect Four board, a cell store where cells hold sums of others).
+
+Follow-ups change the problem rather than replace it: account deduplication from two attributes to any number, diagonal spread in a grid infection simulation, multiple skiers on a best-ski-run search, and a cell store optimized for frequent writes by marking dependents dirty and computing lazily.
+
+Interviewers evaluate:
+
+- **The optimal method when it matters:** A greedy answer to maximum-profit scheduling fell short; dynamic programming was expected.
+- **Committing to an approach:** A candidate who switched from depth-first to breadth-first search mid-implementation ran out of time for tests and named that as the reason for rejection.
+- **Class structure before algorithm:** Members, interfaces and edge rules settled first on design-flavored prompts.
+- **Systematic cases:** The linked-list problem has four structural cases, each needing linear time and constant space.
+
+Practice union-find, topological sort, grid search, interval coverage and unbounded knapsack inside scenario wrappers, each finished with tests in 40 minutes.
+
+> **Note:** Passing every test is not enough on design-flavored problems. A candidate whose box-and-candy solution passed all tests was rejected because the class model did not match what the interviewer intended; asking about nesting, key rules and signatures first would have surfaced it.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Determine whether two singly linked lists intersect when either may contain a cycle, in linear time and constant space.
+- Implement a store where a cell holds a value or the sum of other cells, keep dependents correct, and optimize for frequent writes.
+- Decide whether repeatable activities of given durations can exactly fill a layover, then return the fewest that do.
+
+- [Linked-List Intersection With Cycles](https://trueinterview.io/questions/linked-list-intersection-with-cycles)
+- [Key Store With Sum-Dependency Cascades](https://trueinterview.io/questions/key-dependency-sum-store)
+- [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill)
+- [Multi-Stream Round-Robin Iterator](https://trueinterview.io/questions/multi-stream-iterator)
+- [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood)
+- [Split Stay Booking](https://trueinterview.io/questions/split-stay-availability-combinations)
+
+## Code review interview
+
+You read prepared code as a pull request and leave comments; nothing is written from scratch. Candidates choose Python or Java, and several picked Python because more preparation material describes it. Material ranges from one feature block to three or four diffs; one candidate reviewing four Java pull requests completed three, with comment quantity and quality both watched. It is usually onsite, occasionally a phone round.
+
+Planted defects lean toward production reliability: wrong results without a crash, exceptions swallowed without logging, null returns the caller never checks, race conditions on shared mutable state, no error handling around an external API call, and a quadratic loop hidden in a list comprehension.
+
+Interviewers evaluate:
+
+- **Severity ordering:** Correctness first, then design, then style; nits before the race condition read poorly.
+- **Explaining impact:** Why each defect matters in production and what input triggers it.
+- **Concrete fixes:** A suggested change, not just a flag.
+
+Rehearse reviewing production-style Python or Java under a timer, with one-line comments naming defect, impact and fix.
+
+> **Tip:** Candidates who ran mock reviews with a colleague called this their strongest round. Go through each diff once for correctness and concurrency before writing any style comment.
+
+### Sample questions for the code review interview
+
+Here are some questions reported by recent candidates:
+
+- Review three pull requests and find the silent failures, swallowed exceptions, unchecked nulls and unsafe shared state.
+
+- [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr)
+
+## System design interview
+
+Mid-level loops typically have one design round and senior loops two, each an hour of discussion without code; a distributed key-value store has also appeared as a senior phone screen, pushed toward CAP trade-offs, consistent hashing and vector clocks. Prompts stay close to the business: booking with availability search, double-booking prevention, pagination and indexing; group chat with presence, read receipts and a top-N most active chats view; a unified notification platform; a waitlist; a host dashboard serving 100+ listings; the homepage backend with ranking signals; and a job scheduler for about ten million users.
+
+The notification prompt is specific: one pipeline for event-triggered messages (a booking confirmation, a lock code by SMS on check-in morning) and batch campaigns to prospective hosts, for guests, hosts and employees, over SMS, push, email and social posts. A design round is sometimes added after the onsite; one candidate's extra round on a support ticketing system, with agent claim rules by language and location and first-response metrics, decided the outcome.
+
+Interviewers evaluate:
+
+- **Scoping early:** A candidate asked for an in-memory SQL database tried to cover everything and ran out of time.
+- **Collaborative pacing:** One senior candidate chased perfection on the chat schema instead of aligning on trade-offs, and was rejected.
+- **Domain correctness:** Double-booking under contention, idempotent refunds, delivery guarantees.
+- **Data modeling:** Schemas and indexes that make the stated queries cheap, including top-N and time-and-location filters.
+
+Practice the marketplace prompts above, opening each with a two-minute requirements agreement.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design one notification platform for instant event-triggered messages and scheduled bulk campaigns across four channels.
+- Design group chat, then serve the top N most active group chats over a configurable window.
+- Design a waitlist with APIs to join, check position and leave, notifying people when spots open under high contention.
+
+- [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design)
+- [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md)
+- [Waitlist System Design](https://trueinterview.io/questions/waitlist-system-design)
+- [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md)
+- [Design Customer Support Ticketing System](https://trueinterview.io/questions/ticket-routing-system-design)
+
+## Past experience deep dive
+
+One interviewer, often a senior engineer, takes one or two resume projects apart: motivation, how you persuaded cross-functional stakeholders, success metrics, a specific conflict, rejected alternatives and what you would change. One interviewer focused on product thinking and user impact over implementation.
+
+Interviewers evaluate:
+
+- **Scope of ownership:** What was yours versus the team's, and whom you influenced outside your group.
+- **Concise framing:** One senior candidate spent over 20 minutes on background and lost the follow-up time.
+- **Measured impact:** Numbers behind the outcome.
+- **Fit with the team's problems:** Several rejected candidates believed this round surfaced a background mismatch.
+
+Prepare a ten-minute version of your widest cross-team project and let the interviewer steer.
+
+### Sample questions for the past experience deep dive
+
+Here are some questions reported by recent candidates:
+
+- Why did the project start, and how did you get stakeholders to commit?
+- Describe a conflict during the project, and which alternatives you would choose now.
 
 - [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
-- [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen)
+- [Describe a cross-functional project you're proud of](https://trueinterview.io/questions/describe-a-cross-functional-project-you-re-proud-of)
+- [Answer cross-team delivery and values questions](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions)
 
-### Behavioral and Leadership
+## Core values interview
 
-One to two values rounds plus the manager conversation, run by people from across the company and weighted in the same debrief as the technical rounds. A few honest, structured stories — including non-work ones — read well; engineering wins remapped onto value names do not.
+One or two values conversations with no technical content. Questions are personal: why Airbnb, travel, experiences as a guest or host, a time you hosted something, hard feedback, a calculated risk, mentoring, working across time zones, and the biggest challenge Airbnb faces today. Candidates mapped answers to values such as being a host, embracing the adventure and championing the mission. The tone is relaxed; the evaluation is real.
+
+Interviewers look for:
+
+- **Authenticity:** Specific, honest stories; recited value names read poorly.
+- **Hospitality instincts:** Making others feel welcome, at work or outside it.
+- **Mission connection:** A personal reason the product matters to you.
+- **Growth from feedback:** What you changed after hearing something difficult.
+
+Prepare five or six short stories, at least one from outside work, each mapped to a value.
+
+### Sample questions for the core values interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you were a host, at work or outside it.
+- What do you think is the biggest challenge Airbnb faces today?
 
 - [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round)
-- [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
 
-## What They Don't Test
+## Hiring manager interview and team match
 
-- **Pseudocode and complexity recital alone.** No report describes a sketched solution passing; what passes is code that executes against every stated case with tests you wrote in the session.
-- **Competitive-programming exotica.** The recurring families are parsing, intervals, grids, union-find and knapsack DP inside marketplace scenarios; reasoning about the scenario's edge cases earns more.
-- **Language and framework trivia.** You pick the language, and nothing quizzes frameworks or internals. Readability gets commented on instead.
-- **Reciting a canonical architecture.** Design rounds reward scoping and negotiated trade-offs; candidates who tried to cover everything ran out of time.
-- **Volume of review comments.** Ordering findings by severity — correctness, then design, then style — is what is being watched.
+The hiring manager screens early or appears in the onsite, mixing resume review with behavioral questions on cross-team collaboration, an incident's root cause and scoping a project to a deadline. Some candidates were matched to a team before the onsite; others had a match call added after headcount moved. Candidates asked about org structure, the senior-to-staff ratio and the path to staff.
 
-## The Real Filter
+Interviewers evaluate:
 
-The primary rejection path lands after the technical rounds are behind you: a subjective judgement about background match and project scope, made in the deep dive and the hiring-manager conversation. Candidates misjudge it because the loop feels like a technical gauntlet, so they spend everything on algorithms and arrive with a project they have never compressed into a clean narrative. Reports are blunt — strong technical performance does not guarantee an offer, and the final call leans on whether your work maps onto the team's problems. Pick the widest cross-team project you genuinely owned, rehearse a ten-minute version, and bring metrics, a conflict and a rejected alternative.
+- **Background match:** Whether your recent work maps onto the team's problems; several rejections cited this alone.
+- **Ownership under ambiguity:** How you re-planned when requirements moved.
+- **Root-cause rigor:** A real incident traced to cause and fix.
 
-The second filter is the code review round, because almost nobody prepares it: a graded slot where the skills are defect triage and written communication, not implementation. Candidates who ran mock reviews on production-shaped code call it their best round; those who improvised scattered nits and never reached the concurrency bug.
+Bring team-specific questions and two stories on collaboration and incidents.
 
-The third is clock management. The bar is a complete, tested program, so every minute lost to a helper or a mid-round algorithm switch comes out of the tests — and multiple reports name that, not the algorithm, as why they fell short.
+- [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen)
 
-## Data Source
+## How Airbnb levels and evaluates Software Engineer candidates
 
-Based on 41 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Feedback from every round, values included, is pooled into one hiring decision, and strong design performance is repeatedly named as what carries a packet. The level is set before the onsite and design depth rises with it. Clearing the coding rounds is necessary but not sufficient: candidates who solved every problem were rejected on background match or project scope, and others lost a borderline packet in an added design round. Candidates who did not advance were told to wait a year before reapplying.
 
-## FAQ
+## How to prepare for the Airbnb Software Engineer interview
 
-**What is it like to work there as a Software Engineer?**
+1. **Make every solution run:** Practice in an editor that executes code, core logic before helpers, with ten minutes left for your own tests.
+2. **Drill the recurring families:** Query-string parsing, account merging, split stays, bounded digit permutations, board scoring, text tables and knapsack variants that return the chosen items.
+3. **Treat class-design prompts as design first:** Settle classes, signatures and edge rules aloud before the algorithm.
+4. **Rehearse the code review:** Timed Python or Java diffs, ranking correctness and concurrency above style.
+5. **Practice marketplace designs:** Booking, group chat, unified notifications, waitlists and read-heavy listing pages, scoped in five minutes.
+6. **Compress your best project to ten minutes:** Motivation, stakeholders, metrics, a conflict and rejected alternatives, from your widest-scope work.
+7. **Write honest values stories:** Hosting, hard feedback, a calculated risk and why Airbnb, one from outside work.
+8. **Confirm headcount early:** Ask which team owns the role and whether it is still open.
 
-Candidate reports cover the hiring loop rather than daily life on teams, so this is context: engineers sit in small cross-functional groups of around ten with product, design and data, in a design-led organization on a service-oriented backend. Pay and remote flexibility draw praise; the recurring criticism is top-down direction limiting how much an engineer shapes what gets built.
+## About the Airbnb Software Engineer role
 
-**What is the engineering culture like?**
+Airbnb Software Engineers build the marketplace for stays, experiences and services on a service-oriented backend, in small product teams with design, product and data science. Teams own their areas end to end, and engineers review each other's code in the way the code review interview mirrors. Under the Live and Work Anywhere policy most employees can work remotely, with offices used for in-person collaboration.
 
-Values are not decoration — one to two dedicated rounds, run by employees from any function, weighted in the same debrief as your coding. The technical culture shows in the loop itself: running code over sketches, a standalone round on reading other people's code, design prompts from real marketplace problems. Interviewers are collaborative and expect to be used as a resource mid-round.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| G7 (Software Engineer) | Well-scoped features with guidance | Components within one team |
+| G8 (Software Engineer) | Moderately complex features delivered independently | A team's services |
+| G9 (Senior Software Engineer) | Leading meaningful projects and mentoring | A team and its partners |
+| G10 (Staff Software Engineer) | Technical direction across several teams | An organization's systems |
+| G11 (Senior Staff Software Engineer) | Architecture across organizations | Multiple organizations |
 
-**How hard is it to get in?**
+Airbnb hires Software Engineers across the product and platform. Teams include:
 
-Hard, and concentrated where candidates do not expect. The coding set is widely circulated and many clear it, which is exactly why the decision turns on design depth, project scope and values fit. Timelines run several weeks to a couple of months, and headcount can close mid-process.
+- **Search:** Ranking, the search feed and the homepage.
+- **Pricing and Availability:** Calendars, availability and pricing tools for hosts.
+- **Payments:** Pay-ins, payouts and refunds.
+- **Community Support:** Ticketing, routing and AI-assisted customer support.
+- **Communication and Connectivity:** Messaging and notification systems connecting guests, hosts and Airbnb.
+- **BizTech and internal platforms:** Business systems and engineering automation.
 
-**Which round is hardest?**
+### Software Engineer experience and education requirements
 
-By reported outcomes, system design and the project deep dive decide the most cases. Design punishes unfamiliar domains and poor scoping, and an extra design round appears when the signal is borderline. The deep dive is where scope judgements get made, and it is the round most candidates under-rehearse relative to its weight.
+Postings ask for strong fundamentals in data structures, algorithms and design patterns, listing languages such as Java, Scala, Ruby, C++, JavaScript and SQL. New-graduate roles target recent degree holders; senior roles expect several years building production backend or full-stack systems. You choose the interview language.
+
+## FAQs about the Airbnb Software Engineer interview
+
+### How long does the Airbnb Software Engineer interview process take?
+
+Usually four to eight weeks; one senior candidate measured about seven. Screen feedback alone took over a week for some, and a competing offer shortened the process for another.
+
+### What is the hardest round of the Airbnb Software Engineer interview?
+
+System design and the past experience deep dive decide the most outcomes: design punishes poor scoping and unfamiliar domains, and the deep dive is where scope and fit are judged. Coding is hard to pass with untested code but rarely sinks an offer alone.
+
+### Is there an online assessment?
+
+Not for most candidates, who start with a live screen. Some pipelines first send a timed set of scenario-based algorithm problems.
+
+### How much does an Airbnb Software Engineer make?
+
+Recent United States postings for Senior Software Engineer list base salaries of roughly $185K to $223K, and a mid-level remote platform posting listed $165K to $180K. Packages add equity, and may add a bonus and travel credits.
+
+### What language should I use?
+
+Any mainstream language. Candidates favored Python and Java for concise syntax under a 45-minute clock, and the code review offers Python or Java.
 
 ---
 

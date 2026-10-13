@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| System Design | Medium | Robinhood · Airbnb · Atlassian · ByteDance · Databricks · DoorDash · +10 | Phone screen, Onsite / virtual onsite | greedy | Mar 2026 |
+| System Design | Medium | Robinhood · Airbnb · Atlassian · ByteDance · Databricks · DoorDash · +10 | Phone screen, Onsite / virtual onsite | — | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/job-scheduler-design)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.

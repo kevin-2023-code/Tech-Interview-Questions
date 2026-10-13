@@ -6,93 +6,284 @@
 
 ---
 
-Machine Learning Engineer candidates are not rejected for weak modeling intuition here — they are rejected on numerical detail. The loop asks you to write the primitives yourself, with no high-level module shortcuts, and then grades the parts most practitioners let a library handle: subtracting the maximum logit before exponentiating, rewriting a log of a softmax as a difference to avoid a log of zero, keeping the epsilon in a normalized advantage, knowing that an in-place matrix multiply silently breaks autograd because the values needed for the backward pass were overwritten. One reported round asked for a cumulative product of N matrices of shape D by D, then the hand-derived backward pass, then both directions re-expressed as a parallel prefix scan. The other structural surprise is the shape of the pipeline: this track often runs as a sequence of separate screens rather than one onsite day, and clearing three of them can earn you a fourth rather than a decision.
+OpenAI's Machine Learning Engineer loop grades the numerical details most practitioners leave to a library. Candidates write primitives from scratch in NumPy or PyTorch, such as a stable softmax, an entropy computed block by block in constant memory, or the backward pass of a cumulative matrix product. They also debug a transformer with four or five planted defects. Alongside that come a general coding round with no ML content, graded on how many parts work, and often a round on noisy human annotators. Each question is scored on a four-point scale, and a final project deep dive has ended processes that were going well.
 
-## Interview Process
+This guide breaks down each stage of the OpenAI Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 43 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## OpenAI Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![OpenAI Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/openai--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (30–45 minutes).** Background, motivation and logistics — sponsorship, relocation, the three-days-per-week onsite expectation, timeline, competing processes and compensation expectations. Recruiters on this track frequently name the topics for the technical screens in advance and will schedule additional rounds mid-process, so ask what is coming and take the list literally.
+OpenAI hires machine learning engineers into specific teams, and the title overlaps heavily with Research Engineer. Recruiters have offered candidates a choice between the MLE and Software Engineer tracks, saying the MLE package was higher. The usual shape is a recruiter call, two technical screens of about an hour each (often back to back with no break), and a virtual onsite of four or five rounds. Some candidates instead sit three or four separate screens before a deep dive. A smooth process takes about four to eight weeks, but several candidates waited months between screens and onsite while headcount opened.
 
-2. **ML coding screen (60–75 minutes).** Implementation from scratch in Python with numpy or PyTorch. Reported prompts: a one-nearest-neighbor classifier written with pure vectorized operations and no loops, then re-expressed as a neural network forward pass — a linear layer plus a bias with the distance expansion worked out by hand — and extended to a different distance metric; entropy computed from raw logits with numerical stability, then converted to a streaming or block-wise version using constant extra space with a running maximum corrected retroactively; automatic differentiation built up from nothing, including debugging its error messages; and matrix routines with manually derived backward passes. Interviewers ask you to narrate every shape change and will stop you if a dimension is asserted rather than reasoned.
+The rounds follow the team. Post-training and product teams add ML system design around agents and evaluation, while training- and inference-adjacent teams lean on sharded matrix math. PhD new graduates in research-adjacent roles reported no system design round. Senior candidates face a longer deep dive with a more senior interviewer.
 
-3. **ML debugging screen (45–60 minutes).** A model implementation with planted defects — position embedding initialization, a mask not driven to a large negative value, a missing backward call, a projection with the wrong output dimension — followed by an extension such as adding key-value caching for decoding or turning an encoder into a classifier with pooling before the logits. You are expected to explain the training-dynamics consequence of each defect, not merely fix it.
+Here's what the interview process can look like:
 
-4. **Applied ML and data screen.** The recurring scenario is a classifier trained on labels from multiple annotators of varying reliability: how to detect low-quality annotators, quantify their effect, decide whether removing them helps, and design the pipeline that improves an offline metric. Adjacent prompts cover annotation schema design, high-dimensional inputs, avoiding excessive data deletion, and precision, recall and F1 as decision tools rather than definitions.
+- **Recruiter screen (30–45 minutes):** Background, motivation, logistics, compensation and the topics of coming rounds.
+- **ML coding interview (60 or 75 minutes):** ML primitives implemented from scratch in a notebook, usually without tests.
+- **ML debugging interview (45–60 minutes):** Planted bugs in a transformer, MLP or RL training loop, then an extension.
+- **General coding interview (60 or 75 minutes):** A multi-part simulation, interpreter or stateful service.
+- **Applied ML, data and statistics interview (some loops):** Noisy annotators, data filtering and probability reasoning.
+- **ML system design interview (60 minutes):** A team-shaped design on data mining, retrieval or agent evaluation.
+- **Project deep dive and behavioral interviews:** A defense of past work, motivation, AI safety and a hiring-manager conversation.
 
-5. **General coding screen.** At least one round with no ML content: a grid simulation whose rules accrete over several parts, a turn-based battle simulator graded on object design, a toy language, or a resource ledger. These are scored the same way as any engineering round — working code, extended cleanly, on the clock.
+> **Tip:** Ask the recruiter how long each ML round is. Candidates noticed that 75-minute ML rounds bring the cumulative matrix product, autograd and parallel-scan problem, while 60-minute rounds lean toward NumPy numerics such as 1-nearest-neighbor, streaming entropy and cross-entropy.
 
-6. **ML system design (60 minutes).** Broad and production-oriented rather than architectural. One candidate expected model design and instead spent the round on scaling an ML-powered service, infrastructure choices, observability and performance optimization. Retrieval and data-mining prompts also appear, including grounding a model in an enterprise corpus and extracting high-quality training data from noisy sources.
+## Recruiter screen
 
-7. **Behavioral, deep dive and close.** A motivation and safety conversation, a project deep dive where technical judgment is scored as heavily as outcomes, then candidate review and team match. Extra rounds appear when a signal is missing; timelines and reference-check duration vary widely, and offer acceptance windows have been quoted inconsistently, so confirm dates in writing with your recruiter.
+The first call is conversational and lasts 30 to 45 minutes. Recruiters ask about your current role, why you are leaving, promotion history, sponsorship, competing processes, current base and equity, expected compensation and your interview language. They also explain the pipeline. Final interviews are virtual by default, and many teams expect hybrid work from the San Francisco office.
 
-## What They Actually Evaluate
+Recruiters on this track often name each round's topic in advance. One candidate was told a coding round would center on error bars and confidence intervals in clean Python; another got only a generic preparation document.
 
-### Coding and Algorithm
+Interviewers look for:
 
-Two or more rounds, always implementation. What earns signal is vectorized, numerically safe code produced quickly and explained while it is written; what loses it is reaching for a framework abstraction, or improvising a clever shortcut without checking shapes. One candidate tried to use a sigmoid to surface a minimum distance, hit a dimension mismatch and had to back out to a straightforward argmin — recoverable, but only because they narrated it. Streaming variants are common: recompute the same quantity block by block in constant space.
+- **Mission fit:** A specific reason to work on OpenAI's models or products.
+- **Clear career story:** Departures, layoffs and short tenures explained factually.
+- **Track alignment:** Whether your background fits the team, a question that returns after the onsite.
+- **Logistics:** Location, sponsorship and competing deadlines settled early.
 
+Name the team you are targeting and ask for the format and length of every remaining round.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through your current role, your promotion history, and why you are leaving.
+- Why OpenAI, and have you interviewed here before?
+- Would you prefer the Machine Learning Engineer or the Software Engineer track?
+
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
+
+## ML coding interview
+
+This round appears as a screen and again on the onsite, and it is the one most often named in rejections. It runs in a hosted Python notebook with NumPy and PyTorch, sometimes with starter function names, and usually with no tests. Some tasks forbid loops, others forbid high-level modules. One candidate wrote more than 400 lines of PyTorch across three parts and a bonus.
+
+The problems repeat in families. For 1-nearest-neighbor, you compute L2 distances by broadcasting, then express the model as a linear layer whose weights are the training points plus a bias and softmax, then handle L1 distance. For entropy from logits, you subtract the maximum, rewrite the log of the softmax to avoid a log of zero, then process logits in blocks with constant memory, rescaling running sums when a new maximum appears. Cross-entropy adds masking, label smoothing and KL divergence. The 75-minute variant asks for every prefix product of N D-by-D matrices: in place, why that breaks autograd, out of place with a hand-derived backward pass, then a Hillis-Steele scan for both directions.
+
+Interviewers evaluate:
+
+- **Numerical safety by default:** Stable softmax and log-sum-exp without prompting.
+- **Shape reasoning out loud:** One candidate's sigmoid shortcut caused a shape mismatch they then had to explain before falling back to argmin.
+- **Gradient literacy:** Why overwriting a tensor destroys values the backward pass needs.
+- **Reformulation:** Turning a distance into a linear layer, or a sequential product into a parallel scan.
+- **Completion:** A score of 4 usually requires every sub-part.
+
+Practice each primitive in plain NumPy until it takes 20 minutes, then add its streaming, masked or backward extension.
+
+> **Note:** Confirm the allowed libraries first. One candidate wrote cross-entropy in NumPy without asking whether PyTorch was allowed, and another faced a problem matching no known question, mixing probability, inference and an open-ended task.
+
+### Sample questions for the ML coding interview
+
+Here are some questions reported by recent candidates:
+
+- Implement 1-nearest-neighbor in NumPy without loops, express it as a linear layer plus softmax, then adapt it to L1 distance.
+- Compute entropy from raw logits safely, then block by block with O(1) extra memory as logits stream in.
+- Compute all prefix products of N matrices in place and out of place, derive the backward pass, then parallelize with a Hillis-Steele scan.
+
+- [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass)
 - [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy)
 - [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation)
+- [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827)
+
+## ML debugging interview
+
+The most widely reported ML round hands you a transformer that will not train or generate sensible text, with four or five planted defects. Reported bugs include wrong position-embedding initialization, a padding mask not set to negative infinity, a causal mask that sees future tokens, missing attention scaling, a residual shape mismatch, a missing backward call, a loss with the wrong reduction, and a projection with the wrong output size. The extension is usually a KV cache for autoregressive decoding, or turning the model into a classifier with pooling before the logits.
+
+Variants follow the pattern: a NumPy MLP with backpropagation and data sharding containing five bugs, a sharded matrix multiplication across devices derived with the interviewer and then debugged, and a GRPO training loop for a language model. One screen wrote the transformer in a custom toy language. A July sample saw no transformer debugging, but August and September reports included it again.
+
+Interviewers evaluate:
+
+- **Systematic search:** Forward pass and shapes first, then loss and training loop; interviewers suggest printing shapes when you stall.
+- **Consequences, not just fixes:** What each bug does to convergence or output.
+- **KV cache correctness:** Keys and values stored, concatenated and aligned with positions.
+- **Focus:** Staying on the likely failure instead of auditing unrelated code.
+
+Build a small GPT-style decoder, plant bugs in it, and practice fixing them and adding a KV cache within 45 minutes.
+
+### Sample questions for the ML debugging interview
+
+Here are some questions reported by recent candidates:
+
+- Fix four or five bugs in a miniGPT so it generates correct text, then implement KV-cache decoding in PyTorch.
+- Debug a transformer, then convert it into a classifier and explain why mean pooling precedes the logits.
+- Find the bugs in a GRPO training loop and explain advantage normalization and how GRPO differs from PPO.
+
+- [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding)
+- [Debug a Transformer and Convert It to a Classifier](https://trueinterview.io/questions/transformer-debug)
+- [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging)
+- [Debug and Improve a GRPO RL Training Loop for Language Models (PyTorch)](https://trueinterview.io/questions/906a162e-db6b-4431-8c41-1c53c758d2b9)
+
+## General coding interview
+
+Every MLE loop includes at least one coding round with no ML, in a shared editor sometimes limited to the standard library. Sixty-minute rounds bring one problem in four or five escalating parts. The grid infection simulation is the most frequent, adding immune cells, recovery after D days, infection thresholds and countdown states; one variant lets you burn a row or column on day one. Others include a turn-based monster battle with type multipliers, a type-unification checker for a toy language, a rate limiter and session tracker, malloc with first-fit then best-fit, and balanced assignment of annotators, models and questions.
+
+Seventy-five-minute rounds bring a GPU credit ledger with expiring grants, or the smallest package version meeting a requirement, which moves from a linear scan to binary search under a call budget. Some rounds are debugging instead: a job scheduler with races and deadlocks, or a rate-limiter bug in a Django app.
+
+Interviewers evaluate:
+
+- **Parts completed:** Three or four of five infection parts is often enough, and interviewers say up front that all five are not required.
+- **Extensible structure:** Code that absorbs each new rule without a rewrite.
+- **Self-testing:** Your own edge cases, such as an empty or 1-by-1 grid, ties and draws.
+- **Calm debugging:** One MLE candidate lost the round by auditing unrelated parts of the app.
+
+Rehearse the recurring multi-part problems on a 60-minute clock, plus one unfamiliar prompt each week.
+
+> **Note:** Two consecutive hours with no break wear candidates down. One rejected candidate said the second hour was noticeably weaker than any solo practice, so run at least one two-hour mock with a stranger.
+
+### Sample questions for the general coding interview
+
+Here are some questions reported by recent candidates:
+
+- Simulate plant infection on a grid in five parts: spread, immune barriers, recovery after D days, a neighbor threshold, then a countdown state.
+- Assign annotator-model-question triplets so each model-question pair and each annotator's per-model counts stay as even as possible.
+- Find the smallest satisfying package version with few lookups when versions are monotone only within each major and minor group.
+
 - [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md)
+- [Simulate Plant Infection With Controlled Burning](https://trueinterview.io/questions/simulate-plant-infection-with-controlled-burning)
+- [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system)
+- [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system)
+- [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check)
 
-### ML Theory
+## Applied ML, data and statistics interview
 
-Assessed through code rather than definitions. Reported ground: attention written with explicit einsum-style index reasoning, why mean pooling precedes the logits in a classifier, how gradients flow through an in-place versus an out-of-place operation, the complexity of matrix multiplication in the framework you are using, and reading a several-hundred-line implementation to find its bottleneck. Depth is probed by asking what breaks if a choice is reversed.
+Many loops include a data-quality round. The recurring scenario is a text classifier trained on labels from annotators of uneven reliability: find the weak annotators, measure their effect, decide whether dropping them helps an offline metric, and argue with precision, recall and F1. One version supplies a notebook with data, metrics and a training loop to improve; another asks you to find the bad labeler with pandas.
 
-- ML Programming Screen — QKV Attention & einsum
-- [Transformer Debug](https://trueinterview.io/questions/transformer-debug)
+Some MLE screens extend into probability. Reported prompts include the distribution of tokens generated before a decoding rule stops, a program that holds up against adversaries using that distribution, expected flips until two heads in a row, and an optimal restart interval for a process with random completion time.
 
-### ML System Design
+Interviewers evaluate:
 
-One round, weighted toward the engineering half of the lifecycle. Interviewers push on serving, scaling, monitoring, evaluation and data quality; a purely modeling answer under-delivers because the prompt is intentionally open. Retrieval systems get taken down into candidate generation, ranking, chunking and tenant isolation, and data-centric prompts ask how you would extract or clean training data at corpus scale and prove the result improved.
+- **A concrete annotator-quality method:** Agreement with a consensus or gold set and per-annotator error rates, not just majority voting.
+- **Proof of improvement:** A held-out comparison showing the cleaning helped.
+- **Data economy:** Cleaning without deleting so much that the model gets worse.
+- **Derivation:** Markov-chain and stopping-time arguments built from simple assumptions first.
 
-- ChatGPT Enterprise (RAG ML System Design)
-- [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus)
+Prepare one noisy-label workflow you can code in pandas, and derive stopping-time and restart results on paper.
+
+### Sample questions for the applied ML, data and statistics interview
+
+Here are some questions reported by recent candidates:
+
+- Find the unreliable annotators behind a text classifier, quantify their impact, and decide whether removing them improves the model.
+- Derive the decoding length when generation stops once cumulative log-probability falls below a threshold, then design against adversaries.
+- Choose a restart interval that maximizes success for a process with random completion time.
+
 - [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators)
+- [Find the Incorrect Data Labeler](https://trueinterview.io/questions/d2fcfdcf-7015-535c-aecb-8729bdd9edcf)
+- [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f)
+
+## ML system design interview
+
+The design round runs about 60 minutes on a virtual whiteboard and follows the hiring team. Reported prompts include surfacing interesting images from a huge unlabeled corpus with sparing human labeling, extracting de-identified training data from medical records, a contrastive text-embedding model for retrieval with hard-negative mining, and grounding a model in an enterprise corpus. In one MLE onsite the interviewer ruled out training and serving and spent the hour on an agent harness and its evaluation. Others drew a scaling and observability discussion for an ML service, or shard balancing.
+
+Interviewers evaluate:
+
+- **Fit to the stated problem:** Answering the prompt as framed, not the system you know best.
+- **Data strategy:** Where labels come from and how scarce human review is spent.
+- **Evaluation design:** Offline metrics and how an agent or retrieval system is judged before launch.
+- **Explicit trade-offs:** Safety versus latency, recall versus labeling cost.
+
+Prepare a data-mining, a retrieval and an agent-evaluation design, each starting from how success is measured.
+
+> **Note:** A candidate from search and recommendation tried to steer an agent-evaluation prompt toward embeddings and index serving, the interviewer showed no interest, and the round went badly. Ask early where the interviewer wants to spend time.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Mine novel, interesting images from a massive unlabeled collection with minimal human labeling.
+- Design a contrastive embedding model for retrieval-augmented generation, including positive and negative pair selection.
+- Design an agent harness and its evaluation framework, with training and serving out of scope.
+
+- [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus)
+- [Design an Agent Harness and Evaluation System](https://trueinterview.io/questions/design-an-agent-harness-and-evaluation-system)
 - [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design)
 
-### Behavioral and Leadership
+## Project deep dive and behavioral interview
 
-Usually one dedicated round plus a project deep dive. Motivation, views on AGI and safety, and reasons for previous moves are asked directly, and candidates report the recruiter emphasizing this preparation as much as the technical rounds. The deep dive punishes decisions you cannot defend: one candidate's choice of a simplistic similarity method over a learned representation was read as a judgment gap and named in the outcome.
+The loop closes with a project deep dive and a behavioral conversation, often with the hiring manager. The deep dive, sometimes run by a senior product-organization leader, probes every decision, trade-off and lesson, and candidates say the scope exceeded the time. One applied candidate's hash-based embedding similarity, where learned embeddings were expected, read as a judgment gap, and no hiring manager picked up the application. One MLE candidate's process ended at a final deep dive held after the onsite.
+
+Behavioral questions are direct: why OpenAI, why you are leaving, your view of AGI and AI safety, what you would do if your manager launched a system you considered unsafe, and what you would watch for in a new OpenAI product. Recruiters stress this preparation as much as the technical rounds.
+
+Interviewers evaluate:
+
+- **Defensible decisions:** Every choice backed by reasons and rejected alternatives.
+- **Depth under pressure:** Clear answers at the third or fourth follow-up.
+- **Scope control:** Asking what to focus on when the project is too large for the hour.
+- **Considered safety views:** A specific position on AI safety and escalation.
+
+Pick one project you can defend down to its failure modes, and rehearse it with someone who interrupts often.
+
+> **Tip:** Prepare a two-minute safety answer. Candidates who cleared the technical screens still named a late "what about AI safety?" question as their weakest moment.
+
+### Sample questions for the project deep dive and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through a complex ML project you led and defend each modeling choice.
+- What would you do if your supervisor launched an AI system you believed was unsafe?
+- If OpenAI shipped a new product tomorrow, what would you pay attention to?
 
 - [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety)
 - [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
 
-## What They Don't Test
+## How OpenAI levels and evaluates Machine Learning Engineer candidates
 
-- Framework fluency as a substitute for mechanics. Rounds explicitly forbid the convenient abstraction and ask for the primitive; knowing which module exists is worth nothing here.
-- Architecture trivia. Nobody asks you to recite variants; they ask what happens to the loss when normalization moves or a mask is wrong.
-- Large-scale distributed system design. This track's design round is about serving, monitoring and data quality for an ML product, not about sharding a social graph.
-- Interview-style algorithm puzzles. The general coding round is simulation and object modeling with layered requirements, judged on extensibility under a clock.
+Each interviewer scores their question out of 4, and finishing every sub-part usually earns the 4. Research-track candidates describe a bar of about 4, 4, 3 and 3 across four technical rounds. Scores go to a candidate review, and a hiring manager must want the candidate; without that, the application stops. Team fit counts too: one candidate who did well on the screen was told the onsite team saw a poor background fit.
 
-## The Real Filter
+Timelines vary. Screen passes have arrived the same evening, while one onsite rejection surfaced only after three weeks and a follow-up email. Reference checks have no fixed length, and recruiters quoted both one- and two-week acceptance windows. Recruiters said there is no fixed cooling-off period and encouraged applying to other teams directly.
 
-The primary rejection path is numerical and gradient detail. Candidates prepare model concepts and are then graded on whether their implementation is stable and differentiable: the maximum subtracted before exponentiating, the log-sum-exp rewrite that avoids a log of zero, the epsilon that stops a division by an almost-zero standard deviation, and the awareness that overwriting a tensor destroys what the backward pass needed. These are the exact points interviewers stop on, and getting the algorithm right while getting the numerics wrong reads as not having built the thing before.
+> **Tip:** Ask which team the loop targets before and after the onsite. A recruiter who knows your strengths can redirect you without a new process.
 
-Second, the pipeline is longer and less predictable than candidates plan for. This track often runs as several independent screens; clearing three can produce a fourth, added because a specific signal was missing rather than because you did badly. Reports also describe a screen that felt strong ending in a rejection because the receiving team judged the background a poor fit — outcomes here are not purely a function of performance, and it is worth asking the recruiter which team the loop is aimed at.
+## How to prepare for the OpenAI Machine Learning Engineer interview
 
-Third, data reasoning is a graded competency, not a warm-up. Noisy labels, annotator reliability and filtering decisions appear in a majority of loops on this track, and vague answers about majority voting lose ground. Come with a concrete method for estimating annotator quality, a way to measure whether removing them improved the model, and an opinion about the precision-recall trade-off in the filter.
+1. **Write the primitives without a framework:** 1-NN, stable softmax and entropy, cross-entropy with masking and smoothing, and a manual matmul backward pass, in NumPy without loops.
+2. **Master the prefix-product problem:** In-place versus out-of-place, why autograd breaks, the backward pass, and the Hillis-Steele scan.
+3. **Build and break your own transformer:** Plant mask, scaling, position and loss bugs, fix them on a clock, then add a KV cache.
+4. **Treat general coding as a parts race:** Practice five-part simulations and interpreters in 60 minutes with your own tests.
+5. **Have a noisy-annotator workflow ready:** Agreement, per-annotator error, a held-out comparison and a precision-recall argument in pandas.
+6. **Prepare three team-shaped designs:** Data mining with scarce labels, contrastive retrieval, and agent evaluation.
+7. **Rehearse one deep-dive project and a safety answer:** Defend each choice against stronger learned alternatives.
+8. **Simulate back-to-back rounds:** Run a two-hour session with a stranger and confirm every round's length and libraries.
 
-## Data Source
+## About the OpenAI Machine Learning Engineer role
 
-Based on 43 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Machine learning engineers at OpenAI sit between research and product: they train and post-train models, build the data and evaluation systems those models depend on, and turn research into ChatGPT, API and agent features. Many postings use the Research Engineer title and ask for strong ML engineering alongside research experience with large models. Many teams work hybrid from San Francisco.
 
-## FAQ
+OpenAI hires Machine Learning Engineers across research and applied teams. Teams include:
 
-**What is the Machine Learning Engineer job like here?**
-Our reports describe the loop rather than the job, so this is context: the interview content — data quality pipelines, decoding behavior, model debugging, serving and monitoring — reflects applied work close to shipping systems rather than open-ended research. Teams are small and technically dense, decisions sit with engineers, and the pace is consistently described as urgent. The onsite expectation is three days a week; compensation specifics are not something candidates report reliably on this track.
+- **Post-Training:** Turns pre-trained models into the versions deployed in ChatGPT and the API, combining reinforcement learning with product research.
+- **Human Data:** Builds data, tools and platforms for training and evaluating models with AI trainers.
+- **Safety Systems:** Safety, robustness and reliability of deployed models, including safety reasoning and preparedness.
+- **Model Inference:** Fast, efficient model serving that brings new research into production.
+- **Retrieval and Search:** Retrieval and search capabilities for OpenAI's products.
 
-**What is the engineering culture like?**
-Interviewers are repeatedly described as sharp, friendly and willing to give thinking room, with several rounds reading as intellectually enjoyable rather than adversarial. They also expect you to drive: prompts are open, and asking clarifying questions is treated as part of the answer. Outside accounts consistently emphasize autonomy and high internal caliber alongside sustained intensity.
+### Machine Learning Engineer experience and education requirements
 
-**How hard is it to get in?**
-Hard, and unusually broad — one loop can span vectorized numerics, gradient derivations, annotator statistics, an ordinary simulation problem and a production design discussion. Final decisions are made by reviewers who did not interview you, feedback is rarely shared, and team fit can end a process that went technically well.
+Postings ask for strong Python, experience training or tuning large language or multimodal models, the ability to debug large ML codebases, and experience building evaluations; infrastructure-leaning teams add large distributed systems. A PhD is not a stated requirement for engineering roles. Posted base salary ranges for research engineering roles have run from about $295K to $555K plus equity, depending on team and level.
 
-**Which round is hardest?**
-The from-scratch ML coding round. It combines unfamiliar primitives, a hard clock and grading on details that are invisible until they are wrong, and it is the round most often named in rejections. The debugging round is close behind because its scoring is effectively all-or-nothing on the planted defects.
+## FAQs about the OpenAI Machine Learning Engineer interview
+
+### How long does the OpenAI Machine Learning Engineer interview process take?
+
+Usually four to eight weeks. One July loop ran from phone screen to final deep dive within the month; others stalled for months between screens and onsite.
+
+### What is the hardest round of the OpenAI Machine Learning Engineer interview?
+
+The ML coding round, which pairs from-scratch primitives with a hard clock and numerical grading and is most often named in rejections. For senior candidates the deep dive is a close second.
+
+### Which language and libraries should I use?
+
+Python. ML rounds run in a notebook with NumPy and PyTorch, though some tasks forbid loops or high-level modules; general coding sometimes allows only the standard library.
+
+### Is the interview remote?
+
+Final interviews are virtual by default, with an option to interview in San Francisco. PhD new graduates have been invited onsite for a 45-minute research presentation and team conversations.
 
 ---
 

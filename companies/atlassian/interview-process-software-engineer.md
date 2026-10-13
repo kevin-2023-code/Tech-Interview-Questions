@@ -6,103 +6,286 @@
 
 ---
 
-The most common way a Software Engineer loses this loop is not a wrong algorithm — it is the last five minutes of a coding round. Every reported coding problem mutates two or three times, and you are graded on the state your code is in when time runs out: one candidate solved an interval-scheduling core cleanly, took a third follow-up on cumulative court maintenance, and was rejected with an unresolved indexing bug still on screen. Coding is also a hard gate — failing it cancels the system design round already on the calendar — and the separately scored values and management conversations can still turn a clean technical loop into a rejection or a level downgrade.
+Atlassian's coding problems are rarely hard on their own, but nearly every one grows two or three follow-ups that change a requirement mid-round: a court-booking scheduler gains a maintenance gap and then a cumulative-usage rule, and an org-chart ancestor query extends to a set of employees and then to people in several departments. Candidates are graded on the code on screen when time runs out, so unfinished or unverified extensions cause more rejections than wrong ideas. Coding is also a gate: a candidate who failed onsite coding never got the design round already scheduled.
 
-## Interview Process
+Behavior is scored separately. A values interview run by someone outside the hiring team and a management interview with a hiring manager both feed a hiring committee, and clean work on easy problems without trade-off depth has produced an offer one level down. This guide breaks down each stage of the Atlassian Software Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 30 candidate-reported interview experiences, primarily from 2025 Q2 through 2026 Q2, cross-checked against recent public accounts.
+
+## Atlassian Software Engineer interview process
 
 <!-- guide-diagram -->
 ![Atlassian Software Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/atlassian--software-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (about 30 minutes).** Non-technical: background, motivation, target level, compensation range, loop walkthrough. The recruiter confirms which posting you are on — backend, full-stack, or a product team — because that decides whether a full-stack craft round is added.
+The process is virtual and only loosely standardized at the start: many candidates take an outsourced Karat screen, others take one to three phone screens with Atlassian engineers, and a few start with an online assessment. The onsite then runs four or five hour-long rounds: usually two coding rounds, one system design round (occasionally two), a values interview and a management interview.
 
-2. **Online assessment or externally administered screen (60 minutes).** Some candidates start with a plain coding assessment; more often the first technical contact is an outsourced screen: a system-level discussion, then coding. Reported design segments are a login lifecycle traced from client credentials through load balancer, application server, hashing and session token issuance, and a chain of five connected sub-questions. Coding then delivers one or two problems — a bounded jump-and-obstacle search, a snowfall-and-melt simulation, a mutual-follow-count service — and that half can run closer to 30 minutes than the 40 people expect, so pin the split down at the start. Results are pass/fail with no detail; a failure carries a cooling-off period of roughly six months.
+A smooth loop takes three to six weeks, but several candidates waited a month or more on rescheduling or slow recruiter replies. Full-stack postings add a craft round. At P50 (senior) and above, design probing goes deeper and the management round weighs heavily even for individual contributors.
 
-3. **Engineer-led phone screens (60 minutes each, one or two).** One evolving coding problem plus a deliberately small design prompt: an API a single engineer could ship in two or three days, a text-only greeting-card app, a support ticket tool. Scope discipline is part of the grade. Coding draws from a recognizable family — merge intervals, org-chart ancestor queries, sequential-then-parallel URL fetching with deduplication, rating averages with tie-breaking.
+Here's what the interview process can look like:
 
-4. **Onsite coding (typically two or three 60-minute sessions).** Stateful components built live, then hardened: a wildcard route trie (`*` for one segment, `**` for many, first-match-wins, `:id` parameters), an O(1) popularity counter tie-broken by which item reached the count first, court-booking scheduling extended with fixed maintenance gaps and then cumulative-usage maintenance. Two expectations recur that generic loops skip: thread safety is asked for explicitly, and you write and walk your own test cases unprompted.
+- **Recruiter screen:** A 20- to 30-minute call on background, motivation, target level and location, with no technical questions.
+- **Karat screen (many candidates):** About 60 minutes with an outside interviewer: rapid design sub-questions, then one to three coding problems.
+- **Technical phone screens (one to three):** About an hour each with an Atlassian engineer, one evolving coding problem, sometimes with a small design segment.
+- **Coding interviews (usually two):** Stateful components or medium problems, extended through follow-ups.
+- **Full-stack craft interview (full-stack postings):** One feature, usually login or upload, traced from browser to database.
+- **System design interview (one or two):** A product-shaped design graded on API contract, data model, pagination and failure handling.
+- **Values interview:** Behavioral questions on Atlassian's five values, scored independently.
+- **Management interview:** A hiring manager's round on mentoring, incidents and influence, sometimes followed by a team-fit conversation.
 
-5. **Full-stack craft round (60 minutes, full-stack postings only).** Additional, not a substitute. You trace one feature — usually login, sometimes avatar or file upload — from browser to database: TLS, DNS, how a React front end talks to the back end, session storage, image variants and CDN delivery, partitioning under load. One interviewer worked from a keyword checklist and re-asked until the exact term surfaced.
+> **Tip:** Keep the last five to ten minutes of every coding round for a dry run with your own test cases, however many follow-ups are pending. One rejected candidate took a third follow-up and left an indexing bug in code that had been correct two stages earlier.
 
-6. **System design (60 minutes).** Product-shaped rather than planet-scale: a cross-product tagging REST API, an image crawler with unlimited seeds and depth, a role- and resource-based access control system modeled on managed cloud policies, a distributed rate limiter behind an API gateway, top-N popular content for a wiki product. REST specifics get probed hard, and cursor pagination over large datasets is treated as a requirement.
+## Karat screen
 
-7. **Values interview (about 45 minutes) and management interview (60 minutes).** Values is scored independently, usually run by someone outside the hiring team, mapped to the five published values and kept situational: pushing back on a decision, driving a change, helping a colleague improve, ambiguity, a mistake and the recovery. Some candidates get the topics in advance. The management conversation covers mentoring, outage behavior and aligning others on strategy, and weighs heavily in the debrief even at individual-contributor levels.
+Many candidates meet an outsourced Karat interviewer before any Atlassian engineer. The hour opens with a chain of short design scenarios rather than one system: a login traced through load balancer, password hashing and session token; strong versus eventual consistency for banking, streaming metadata and analytics; detecting failed notifications when only successes are logged. One 2026 candidate sat two Karat rounds before the onsite.
 
-8. **Team matching and decision.** Cleared candidates may take a team-fit conversation before a hiring committee consolidates feedback. Stages run roughly five to ten business days apart, four to six weeks end to end, but several reports describe weeks of post-onsite silence, one lasting a month. Candidates repeat one rule of thumb: no word within two business days of the last round usually means no.
+Coding follows: one to three practical problems framed as scenarios, such as fixed-length jumps around obstacles on a number line, snow that falls daily and melts from both edges, mutual-follow counts, or passengers routed into two carpools on a directed road graph. Candidates say the coding half is often about 30 minutes, not the 40 they expected. Results are pass or fail with no detailed feedback. Full-stack postings may get a front-end version with browser questions, an avatar-upload design and a plain HTML and CSS layout.
 
-## What They Actually Evaluate
+Interviewers evaluate:
 
-### Coding and Algorithm
+- **Pace through the design chain:** Short, correct answers leave time for the second coding problem; tangents cost it.
+- **Precise fundamentals:** Consistency models, what a load balancer decides, where session state lives.
+- **Working code in about 30 minutes:** A correct search or simulation, run on a few examples.
+- **Avoiding brute force:** Computing the snow height at the target position directly instead of simulating the whole array each day.
 
-Two or three graded sessions at solid medium difficulty — merge intervals, insert interval, subsequence checking, ancestor queries on an org tree, minimum courts for a booking set. The difficulty is the follow-ups stacked on top, each changing a requirement rather than the topic. Signal comes from code that absorbs those changes without a rewrite, a contract agreed before the first line, and your own test walk; it is lost by burning time on scaffolding or declaring done with a live bug.
+Rehearse back-to-back 15-minute scenario problems in a plain editor, with one-line answers ready for common distributed-systems trade-offs.
 
-- [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md)
-- [Smallest Department Covering Two Employees (LCA Variant on an Org Tree)](../../questions/object-oriented-programming/org-tree-lowest-common-department/README.md)
+> **Note:** Ask how the hour is split before starting. One candidate left the second problem half-finished after design ran long; another noted that candidates who feel the split was unfair can ask the recruiter for a redo. A failed screen was reported to mean roughly six months before a retake.
+
+### Sample questions for the Karat screen
+
+Here are some questions reported by recent candidates:
+
+- Given products mapped to categories and a shopping list, find the fewest trips when one trip covers any number of items from one category.
+- Two cars drive fixed routes on a directed road network picking up waiting people; report which car each person ends up in.
+- Find the first day a hiker can pass a position when daily snowfall raises the terrain and melting advances one unit a night from both edges.
+
+- [Minimize Shopping Department Visits](../../questions/algorithm/shopping-category-trip-difference/README.md)
+- [Campground Carpool](../../questions/algorithm/karat-carpool-linear-routes/README.md)
+- [Snowy Mountain Path with Melting](https://trueinterview.io/questions/snowy-mountain-path-with-melting)
+- [Robot Parts Assembly](https://trueinterview.io/questions/robot-parts-assembly)
+
+## Technical phone screens
+
+Engineer-led screens run about an hour in a shared editor, usually on one problem that keeps growing, from a small set of families. Org-chart ancestor queries extend from two employees to a set, to employees in several departments (a graph, not a tree), or to trees mixing departments and people. Interval scheduling asks for the fewest tennis courts, then a fixed maintenance gap, then maintenance after cumulative use. A timestamped price store adds historical reads by checkpoint version, close to the classic stock-price-fluctuation problem. URL fetching goes from sequential with deduplication to parallel with each distinct URL called once. Agent ratings are sorted by average with a tie-breaking follow-up.
+
+Others are small object-oriented builds: Snake, a release-notification service that rolls forward past a failed version, and a router where `*` matches one segment, `**` any number and `:id` captures a parameter, first registered match winning. About half the screens add a design segment, such as an API one engineer could ship in two or three days, a text-only greeting-card app, or a rate limiter grown from an in-memory class into a distributed service behind a gateway.
+
+Interviewers evaluate:
+
+- **Clarifying the structure:** Strict tree or graph, whether IDs exist, whether rejected requests count against the limit.
+- **Code that absorbs follow-ups:** A model that takes a version parameter or maintenance rule without a rewrite.
+- **Spotting your own bottlenecks:** A rejected candidate waited for the interviewer to point out a timestamp list growing without bound.
+- **Your own tests:** Normal, edge and boundary cases walked through unprompted.
+
+Drill these families until each base version takes 15 minutes, then practice two extensions of each.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Store timestamp-price pairs with upsert and getMax, then add checkpoint versions so getPrice returns the value as of any version.
+- Find the lowest common ancestor of two employees, then of any set, in an org chart where groups contain people and other groups.
+- Return the minimum courts for a set of bookings, then add a cleanup gap, then maintenance only after a court accumulates a set number of hours.
+
+- [Commodity Price Checkpoints](../../questions/object-oriented-programming/commodity-price-checkpoints/README.md)
+- [Org Tree Lowest Common Department](../../questions/object-oriented-programming/org-tree-lowest-common-department/README.md)
 - [Expanding Tennis Club Court Assignment](https://trueinterview.io/questions/expanding-tennis-club-court-assignment)
 - [Sequential, Deduped, and Parallel URL Fetcher](https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher)
+- [OOD Release Notification Service](https://trueinterview.io/questions/739ed936-8be9-4ea6-a5a3-58c71cfa16f1)
 
-### Low-Level Design
+## Coding interviews
 
-Much of this track's coding time is component design against a strict target: O(1) for all three popularity operations, constant time for linked-list insert, delete and lookup, bounded memory for a rate limiter that must not accumulate expired timestamps. Tie-breaking and concurrency are the traps — earliest-increased wins on equal popularity, stable order on equal averages, correctness under simultaneous updates.
+The onsite usually has two hour-long coding rounds; one candidate had three. Problems are medium and practical, often small components: a popularity counter with constant-time increase, decrease and most-popular (ties go to the item that reached the count first), a map from file paths to handlers with wildcards, a doubly linked list with constant-time insert, delete and lookup, a moving average over the last k values, and a running total-and-average scorer. Classic problems appear with twists: insert interval, merge intervals, an org chart sorted by subtree average score.
+
+Thread safety is requested explicitly more often than elsewhere; a wildcard route trie and an org hierarchy with add and remove both had to support concurrent access. Interviewers push for the optimal bound, such as single-pass lowest common ancestor instead of parent pointers. At senior level coding can be booked apart from design, and failing it cancels design.
+
+Interviewers evaluate:
+
+- **Agreed contract before code:** Signatures, input format and edge behavior settled in the first minutes.
+- **Clean class design:** A clear split between the hash map and the linked list, readable names.
+- **Concurrency awareness:** Naming the shared state and guarding it precisely, not locking everything.
+- **Time on the core logic:** One candidate spent too long on a test scaffold, lost the depth discussion and was offered a lower level.
+
+Practice the constant-time frequency structure, LRU-style linked lists, interval merging and tries until routine, then write thread-safe versions.
+
+> **Note:** An easy problem raises the bar. A candidate who solved a running-average component and an interval merge correctly was offered a level below the target because neither round went deep on trade-offs. When a prompt looks simple, raise concurrency, memory and extension points yourself.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Track content popularity with increase, decrease and most-popular in constant time, returning the earliest to reach the top count on ties.
+- Map file paths to functions with wildcard segments and return the handler for a concrete path.
+- Given agents and their rating lists, compute averages and sort descending, handling agents with no ratings.
 
 - [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one)
-- [Commodity Price Checkpoints](../../questions/object-oriented-programming/commodity-price-checkpoints/README.md)
-- [Customer Service Rating](https://trueinterview.io/questions/customer-service-rating)
-- [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md)
+- [O(1) Data Structure Using Double Linked List](https://trueinterview.io/questions/03803768-eb29-4336-bf49-784383ae7338)
+- [URL Router Design](https://trueinterview.io/questions/url-router-design)
+- [Trending (Moving) Average on Integer Stream](https://trueinterview.io/questions/80ba1fe6-a6cd-4143-b4d5-c0b0744e4dea)
+- [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md)
 
-### System Design
+## Full-stack craft interview
 
-One 60-minute round, occasionally a second. Interviewers reward candidates who lead — one report credits positive feedback to driving the discussion with minimal prompting — and want the API contract and data model on the board: adjacency list versus nested set, orphan and cycle handling, bulk subtree moves, cursor pagination for a level with thousands of children. The failure mode is a discussion that flows pleasantly and stays shallow; one candidate left confident and later learned this round caused the rejection.
+Full-stack postings add a craft round on top of coding. It traces one feature across the request path, usually login and sometimes avatar or image upload: TLS, DNS, how a React front end calls the back end, session tokens and storage, and database partitioning under load. One 20-minute front-end screen on form submission was run from a keyword list; the interviewer re-asked until the expected term came out.
 
-- [Tagging System REST API](https://trueinterview.io/questions/tagging-system-rest-api)
-- [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service)
-- [Role and Resource Access System](https://trueinterview.io/questions/role-and-resource-access-system)
+Interviewers evaluate:
 
-### Domain Deep Dive
+- **What each hop does:** What the load balancer decides, what the token holds and where it lives.
+- **Security mechanics:** Handshake, password hashing, session expiry, concurrent logins.
+- **Scale and storage:** How user data is partitioned and what changes under load.
 
-For full-stack postings, one round proves you understand the whole request path rather than one layer. Strong answers say what each hop actually does — what the load balancer decides, what the session token contains and where it lives, what happens to an image between upload and CDN delivery — and hold up when pushed on failure and retry behavior. Layer-name-only answers are how this round goes wrong.
+Prepare one login flow and one upload flow you can draw end to end, naming the exact term for each step.
+
+### Sample questions for the full-stack craft interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through a login from browser to database, covering TLS, DNS, the React client, session state and partitioning.
+- Design an avatar upload with client-side cropping, signed direct-to-storage uploads, resolution variants and CDN delivery.
 
 - [Full-Stack Craft: Login and Upload Flow](https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow)
+- [File Directory Tree UI with Expand/Collapse Functionality](https://trueinterview.io/questions/0e93c101-4680-4bdd-9fc6-779898a9e6ae)
 
-### Behavioral and Leadership
+## System design interview
 
-Two separately scored conversations, and not a formality: reports include loops where the technical rounds went well and the outcome was still negative. Interviewers ask for a situation, then keep pulling — your exact role, what you decided, the result.
+Most loops have one hour-long design round; one had two (a per-customer rate limiter and an access control system). Prompts are product-shaped: a tagging REST API shared across products, an image crawler from unlimited roots to unlimited depth, top-N popular wiki posts, an org hierarchy service, routing customer Jira bugs to internal teams, a search layer answering questions from wiki pages, tickets and drive files, and role- and resource-based permissions modeled on managed cloud policies.
+
+Interviewers probe REST detail: endpoint shape, status codes, idempotency and especially cursor pagination. A P40 candidate who got an offer compared adjacency lists with nested sets and covered cycles, orphans and moving whole subtrees. Leading helps: a candidate who drove an image-crawler design with little prompting was told the feedback was very positive.
+
+Interviewers evaluate:
+
+- **API contract and data model:** Concrete endpoints and a schema that answers the main queries.
+- **Pagination and bulk operations:** Stable cursors over thousands of children and batch associations.
+- **Failure modes you raise:** Redirect loops, per-host politeness, deduplication, retries.
+- **Fit-for-purpose tools:** Redis with expiring keys for a distributed counter, not a general database by default.
+
+Practice tagging, crawler, hierarchy and access-control designs end to end, each with an explicit pagination and failure pass.
+
+> **Note:** Confidence is a weak signal here. A candidate rejected after a top-N posts design felt it flowed well, then learned it was the deciding round: it never went past architecture into probing questions, trade-offs or failure scenarios. Another candidate named access control as the round they were least prepared for.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a cross-product tagging service with create, associate, delete and search over millions of associations, with no orphaned tags.
+- Design a REST service that extracts image links from URLs and follows sublinks until exhausted without loops or overloading hosts.
+- Design a department-and-employee hierarchy API, choosing a tree schema and paginating levels with thousands of nodes.
+
+- [Design Tagging System](https://trueinterview.io/questions/tagging-system-rest-api)
+- [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service)
+- [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system)
+- [Compute top-N posts in a workspace](https://trueinterview.io/questions/compute-top-n-posts-in-a-workspace)
+- [Store a hierarchy and return all children](https://trueinterview.io/questions/store-a-hierarchy-and-return-all-children)
+
+## Values interview
+
+The values interview runs about 45 to 60 minutes, typically with an interviewer from another part of the company, and is scored on its own. Candidates report being asked for an example of each of the five published values, which cover open communication, building with heart and balance, the customer, playing as a team and driving change. Some receive topic areas in advance. Reported themes include ambiguity, cross-team collaboration, technical disagreement, customer-centered decisions, sudden project changes and missed expectations.
+
+Interviewers look for:
+
+- **A specific situation:** One project, your exact role and decision, not a team summary.
+- **Depth under follow-up:** Questions continue until the details run out.
+- **Candor:** A real mistake or disagreement, including what you said and to whom.
+
+Prepare two stories per value and rehearse them aloud against probing follow-ups.
+
+### Sample questions for the values interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you failed to meet expectations and what you changed afterward.
+- Describe a technical disagreement with another team and how it was resolved.
 
 - [Atlassian Values and Management Rounds](https://trueinterview.io/questions/atlassian-values-and-management-rounds)
+- [Demonstrate motivation, feedback, and prioritization](https://trueinterview.io/questions/demonstrate-motivation-feedback-and-prioritization)
 
-## What They Don't Test
+## Management interview
 
-- **Hard dynamic programming and exotic graph theory.** Problems sit at medium: intervals, trees, hash maps, heaps, tries. Rewarded instead is a solution that absorbs three requirement changes without collapsing.
-- **Capacity-estimation theater.** Design rounds go into REST semantics, schema shape, pagination and failure handling, not QPS arithmetic for a hypothetical billion users.
-- **Framework breadth.** Even the full-stack round is about mechanisms — TLS, DNS, sessions, partitioning — not the current React ecosystem.
-- **Elaborate test infrastructure.** Your own test cases are expected; a test framework is not, and one candidate's scaffolding cost the depth discussion that would have carried the round.
-- **Polished values monologues.** Prepared narratives get interrupted; the round rewards a story you can be cross-examined on, down to your contribution and the measured outcome.
+A hiring manager runs this round, covering engineering maturity whether or not you have managed people: mentoring a struggling teammate, what makes a team effective, taking feedback, owning an outcome, and handling a production outage. Senior candidates also discuss driving technical strategy and influencing without authority. A P40 candidate who got an offer said this round carried significant weight in the debrief. Some loops add a separate team-fit conversation afterward.
 
-## The Real Filter
+Interviewers look for:
 
-The primary filter is the follow-up cascade in the coding rounds. Solving the stated problem is the starting point: a booking scheduler grows a maintenance rule, then a cumulative-usage rule; a price map grows checkpoint versioning; a two-node ancestor query becomes an arbitrary set of employees, then a hierarchy where a person belongs to several departments. Because reaching the last extension feels like the goal, earlier stages go unverified — and reported rejections are almost always an unfinished or unproven extension rather than a wrong idea. Guard the final five to ten minutes for a dry run no matter how many follow-ups are pending.
+- **Mentoring evidence:** A named teammate you helped and what changed for them.
+- **Composure in incidents:** Your first move in an outage, whom you told and what you fixed afterward.
+- **Influence without authority:** Aligning peers on a direction you did not own.
+- **Level-appropriate scope:** Team impact at P40, cross-team impact at P50 and above.
 
-The second pattern is the confident design round. The prompts look conversational and are graded on depth, so a smooth tour of components scores below a rougher discussion that names failure modes, argues a schema trade-off, and handles pagination and idempotency unprompted. Access control is the most reported blind spot — candidates who drilled rate limiters and crawlers describe being caught by a policy-evaluation system with hierarchical roles and resources.
+Prepare a mentoring story, an outage story and a strategy story, each with measurable results.
 
-The third pattern is level rather than pass or fail: clean work on easier problems without trade-off depth has produced a downgraded offer, and the values and management rounds feed that calibration directly.
+### Sample questions for the management interview
 
-## Data Source
+Here are some questions reported by recent candidates:
 
-Based on 30 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2.
+- How do you help teammates improve their skills? Give one example.
+- Walk through a production outage you handled under pressure.
 
-## FAQ
+- [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive)
 
-**What is it like to work there as a Software Engineer?**
-Candidate accounts cover the hiring loop rather than the job, but two things show through: the company is distributed-first with no office-attendance expectation, and teams span time zones — one panel included interviewers in Australia, New York and the Bay Area. It is not uniformly smooth: one candidate relayed interviewers describing a dip in culture, and another had a process ended abruptly by a layoff round.
+## How Atlassian levels and evaluates Software Engineer candidates
 
-**What is the engineering culture like?**
-Explicitly values-driven, and the interview design shows it: a values round scored on its own by someone outside the hiring team, plus a management conversation about mentoring and outage behavior. Technically it is production-code oriented — naming, structure, error handling and your own tests are graded inside the coding round, and interviewers push on trade-offs rather than clever one-liners.
+Interviewers submit separate feedback and a hiring committee decides on the combined evidence rather than averaging strong and weak rounds. The target P-level is set with the recruiter early, but interviewers can recommend a lower one; a candidate whose coding was correct but shallow was offered a lower level and declined. Values and management feed the level as well as the hire decision.
 
-**How hard is it to get in?**
-Hard and front-loaded. A large share of reported rejections land at or before the first technical round, and a failed external screen locks you out for roughly six months. The loop runs four to six weeks, longer with team matching, and every stage is a real gate: a missed coding round removes the design round entirely, and a hiring committee reviews consolidated feedback rather than averaging good rounds against bad.
+Decisions can arrive in days, yet reports describe long silences: two unanswered follow-ups over two weeks, a month without next steps, and a March 2026 process that ended when the recruiter stopped responding after layoffs. One candidate's rule of thumb was that no news within two business days of the final round meant a rejection.
 
-**Which round is hardest?**
-By outcome, the onsite coding rounds: they produce the most reported rejections and fail people on completeness under follow-up pressure. By subject matter, the access-control design prompt is the one candidates most often say they were underprepared for, and the management round is the most underestimated relative to its weight.
+> **Tip:** At P50 and above, both coding and design must clear the bar on their own. A senior candidate failed a three-stage agent-rating problem and the scheduled design round was cancelled.
+
+## How to prepare for the Atlassian Software Engineer interview
+
+1. **Learn the recurring families:** Org-chart ancestors (set, graph and department variants), court bookings with maintenance rules, versioned price stores, deduplicated parallel fetching and rating sorts with ties.
+2. **Finish each stage before the next:** Test every follow-up stage before taking another, and keep time for a final dry run.
+3. **Write thread-safe versions:** Tries, hierarchies, counters and rate limiters have all carried explicit concurrency requirements.
+4. **Test by hand, not with a harness:** Walk edge cases yourself; scaffolding has cost candidates depth and level.
+5. **Practice product-shaped designs with REST detail:** Tagging, crawling, hierarchies, access control and top-N, each with cursor pagination and failure handling.
+6. **Lead the design conversation:** Propose scope, API and schema, and raise failure modes before you are asked.
+7. **Map two stories to each value:** Add mentoring, outage and influence-without-authority stories for the management round.
+8. **Plan for about 30 minutes of Karat coding:** Confirm the time split at the start.
+
+## About the Atlassian Software Engineer role
+
+Atlassian engineers build and run cloud collaboration and developer products (Jira, Confluence, Bitbucket, Loom, Trello) and the Rovo AI layer across them, on a shared cloud platform. Under the work-from-anywhere policy there are no mandated office days, but engineers must work within their team's time zones. In March 2026 Atlassian cut about 10% of its workforce, mostly in engineering and design, to fund AI investment.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| P30 | Well-scoped tasks with guidance | Features within one team |
+| P40 (Engineer) | Independent delivery of features and services | One team's components |
+| P50 (Senior Engineer) | Leading projects and mentoring | A team's systems and neighbors |
+| P60 (Principal Engineer) | Architecture across teams | A product area |
+| P70 (Senior Principal Engineer) | Technical strategy | An organization |
+
+Atlassian hires Software Engineers across product and platform groups. Teams include:
+
+- **Jira and Jira Service Management:** Issue tracking, workflow and service desk.
+- **Confluence and Loom:** The wiki, whiteboards and async video.
+- **Developer tools:** Bitbucket, Pipelines, Compass, Rovo Dev and DX engineering intelligence (acquired November 2025).
+- **Rovo and AI:** Search, chat and agents over Atlassian and connected content.
+- **Platform:** Identity, permissions, data and shared cloud services.
+
+### Software Engineer experience and education requirements
+
+Postings ask for a bachelor's or master's degree, preferably in computer science, or equivalent experience; mid-level backend roles ask for four to five years and senior roles about seven. Any modern object-oriented language is accepted (Java, Kotlin, Go, Scala, Python), plus relational or NoSQL databases, REST microservices and public cloud. Full-stack postings add React and browser fundamentals.
+
+## FAQs about the Atlassian Software Engineer interview
+
+### How long does the Atlassian Software Engineer interview process take?
+
+Usually three to six weeks from first contact to decision; rescheduling and slow follow-up have stretched it past two months.
+
+### What is the hardest round of the Atlassian Software Engineer interview?
+
+By outcome, coding: rejections usually come from an unfinished or buggy follow-up. By topic, access control is the design prompt candidates most often feel unprepared for, and the management round is the most underestimated.
+
+### Is there an online assessment or Karat screen?
+
+Many candidates take a 60-minute Karat screen with an outside interviewer and a few report a standard online assessment; others go straight to engineer-led phone screens.
+
+### How much does an Atlassian Software Engineer make?
+
+Atlassian posts US base ranges by pay zone rather than per-level totals. A 2026 senior software engineer posting listed $180,000 to $235,000 base in the highest zone and about $149,000 to $195,000 in the lowest, plus equity, and the company says most hires land near the bottom of the range.
+
+### Can you be down-leveled?
+
+Yes. Candidates who solved easier problems without trade-off depth have received offers one level below the target.
 
 ---
 

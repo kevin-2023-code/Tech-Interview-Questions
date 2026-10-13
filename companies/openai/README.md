@@ -16,19 +16,33 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 
 ## How OpenAI interviews
 
-This guide goes deeper than the process outline on the OpenAI company page: how each round is actually run, how answers are graded, and where strong candidates lose points. It draws on 66 real OpenAI questions and 113 candidate interview reports, plus role-specific guides for the six engineering tracks below.
+OpenAI's coding rounds grade working, tested code delivered against a clock: one scenario split into three to five parts that unlock one at a time, with about three finished cleanly as the reported pass line. Design rounds are decided by how the system behaves when a GPU worker disappears or a payment times out, not by the happy path. The round candidates underestimate most is the project deep dive: several otherwise strong loops ended there, some at a final approval step after every other round had passed.
 
-### Interview Process
+This guide breaks down each stage of the OpenAI interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 149 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### OpenAI interview process
 
 <!-- guide-diagram -->
 ![OpenAI interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/openai/process.webp)
 <!-- guide-diagram -->
 
-The recruiter screen is a real filter, not a scheduling call. In roughly 30 minutes it covers your departure story from previous employers (including level history and whether you were full-time or contract), visa and relocation status, willingness to work onsite three days a week in San Francisco, compensation expectations, competing processes, and your preferred interview language. Several candidates were also asked scripted technical questions on this call - walk through a production incident, how you would detect faults if traffic grew 10x, how you designed a retry mechanism - sometimes read by a non-technical recruiter. Rejections directly after this call happen, so treat every answer as evaluated.
+Each team hires for its own headcount, so prompts follow the team's domain while the skeleton stays fixed: a recruiter call, a technical screen, then four to six interviews of 45–75 minutes, usually virtual, over one or two days. Reported processes ran from about three weeks to several months when headcount paused.
 
-The technical screen is typically a 60-minute session in a shared editor such as CoderPad, and it is practical rather than puzzle-style: build a small working component against interviewer-provided test cases. The most common format is one scenario split into three to five escalating parts; candidates consistently report that finishing about three parts cleanly meets the bar, and one interviewer said so explicitly. Some teams run a double screen instead - an hour of coding, a short break, then an hour of system design. Grading is execution-oriented: each question is scored on a 4-point scale in at least some loops, and working code with verified edge cases beats an elegant but unfinished design. A minority of tracks add a paid take-home work trial: an NDA-covered project brief with a roughly 48-hour window, scoped to a few hours of real work and paid at a flat rate.
+Software, infrastructure and frontend candidates get practical coding plus system design, often back to back in a two-hour first screen at senior levels. Machine Learning Engineer and research candidates swap some general coding for ML coding and often sit a series of separate screens. PhD new-grad research candidates reported no system design and a 45-minute research talk instead.
 
-The virtual onsite typically runs three to five rounds: another practical coding session, a system design round, a project deep dive, and a hiring-manager or behavioral conversation; some loops add a cross-functional round with a product manager. The project deep dive is the most underestimated round - some teams ask for a slide presentation, and candidates have been rejected at final review specifically because the deep dive "lacked depth" even after passing every other round. System design rounds concentrate on failure modes: worker death mid-job, checkpoint-versus-restart trade-offs, idempotency, and queue behavior under fixed GPU capacity. Behavioral rounds probe why OpenAI specifically, views on AGI and AI safety (including hypotheticals like a supervisor shipping an unsafe system), and they drill into the engineering details behind every story you tell.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** About 30 minutes on background, level history, logistics and motivation, sometimes with scripted technical questions.
+- **Technical screen:** A 60-minute multi-part coding problem in a shared editor, often followed by an hour of system design or ML coding.
+- **Coding interviews:** One or two 60–75 minute practical problems in the final loop, graded on passing tests.
+- **ML coding interview (ML and research tracks):** Implementing or debugging model code, with NumPy or PyTorch and no high-level shortcuts.
+- **System design interview:** A 60-minute design in OpenAI's own problem space, driven into failure handling.
+- **Project deep dive:** An hour defending one past project, sometimes with slides, often with a senior engineer.
+- **Behavioral and hiring manager interviews:** Mission, AI safety and collaboration, plus a cross-functional conversation in some loops.
+
+> **Tip:** Rehearse in a plain editor with a visible clock and a rule: no part gets polished until the next part runs. In the reports, the most common reason for failing a coding round was running out of time on part one or two, not getting an answer wrong.
 
 **[Read the full OpenAI interview process →](interview-process.md)**
 

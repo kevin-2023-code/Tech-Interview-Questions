@@ -6,56 +6,186 @@
 
 ---
 
-Hudson River Trading interviews the language, not just the algorithm: candidates are asked how `new` differs from `malloc`, to read typed values out of a raw byte buffer, and to reason about why a fast path occasionally stalls, often in the same call that contains a standard coding problem. This guide goes deeper than the process summary on the company page, drawing on 12 real Hudson River Trading questions and 8 candidate interview reports to show what each stage contains, how it is judged, and where people lose ground.
+Hudson River Trading examines the language as closely as the algorithm. Candidates are asked how `new` differs from `malloc`, to read typed values out of a raw byte buffer, and why a fast trading path occasionally stalls, often in the same call as a standard coding problem. Problems are read out without sample tests, so edge cases are the candidate's job, and the firm grades collaboration and teachability alongside correctness. Research tracks add probability and a data analysis round on top of the coding.
 
-## Interview Process
+This guide breaks down each stage of the Hudson River Trading interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 7 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Hudson River Trading interview process
 
 <!-- guide-diagram -->
 ![Hudson River Trading interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/hudson-river-trading/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Most loops open with a timed, proctored assessment, and its shape depends on the track. A quantitative research applicant reports a monitored CodeSignal session of 45 minutes with two questions that read as a C++ proficiency drill rather than a puzzle set: implement functions that read a `char`, an `int`, and a `std::string` sequentially from a raw buffer while advancing a pointer and handling alignment and invalid reads, then write a template class that wraps either `std::map` or `std::unordered_map` for `int` or `std::string` keys and values, with overloaded operations and correct empty-container behavior. The platform records mouse and keystroke activity, so treat it as supervised. Engineering postings are typically assessed on HackerRank or a similar platform with two to four problems in roughly 90 minutes, and the firm's own guidance is that the provided sample tests are deliberately incomplete, so write your own before submitting. Another candidate's OA was a plain coding set that gated a later math call, so expect the assessment to be about programming even when the role is research.
+The process is track-dependent but follows one skeleton: a timed online assessment, one or two technical phone interviews, and a final day of back-to-back one-on-one interviews held virtually or in person. Software and algorithm engineering candidates are tested in C++ or Python; quantitative research candidates sit the same coding gate, then a probability call and a final round mixing programming, data analysis and math. Internship loops are a slightly shorter version. The whole process typically takes one to two months.
 
-**Phone screens.** Expect one or two calls of about 45 to 60 minutes with a working engineer, in a shared editor. The firm describes two flavors, a technical discussion on systems and data structures and a programming session in C++ or Python, and the reports match that split closely. One screen was a rapid sweep of C++ fundamentals (stack versus heap, how you would determine stack growth direction on an unknown architecture and why comparing local addresses is unreliable, what `inline` does and when over-inlining hurts, how `new` relates to `malloc`, placement `new` for performance, pointers versus references, common causes of segmentation faults) followed by two-sum in a vector and k smallest elements via quickselect with a full complexity discussion, average O(n) and worst case O(n^2). Another screen asked the candidate to implement a coroutine step by step from first principles, then to enumerate causes of rare latency spikes in a low-latency trading system across runtime, OS scheduling, cache, lock, and hardware layers. An intern screen was a root-to-leaf path sum on a binary tree by DFS, extended to returning every valid path with backtracking, with the interviewer spending most of the time on edge cases such as negative values, single nodes, and empty trees rather than on C++ trivia. A simulation problem recurs across several reports: N players move right along a 1D array at one cell per step, a watcher moves and flips direction at timestamps given in unsorted order, players freeze while observed, and you must count how many reach the end by time T. Parameters are described verbally, no sample tests are given, and the emphasis is on careful state tracking under time pressure rather than asymptotic cleverness. A second call in one loop was a 32-bit signed `itoa` with no built-in conversions. Quantitative research candidates report a separate math call covering probability, combinatorics, and central limit theorem applications.
+Here's what the interview process can look like:
 
-**Final round.** The final round is a full day of back-to-back one-on-one sessions, typically five or six, run virtually or in person (the firm prefers in person). One candidate's onsite mixed programming, a data analysis exercise, a system design conversation, and math; that candidate was rejected and singled out pandas and seaborn fluency for the analysis round and the ability to navigate unfamiliar C++ code quickly for the programming round as the skills that decided it. Design discussions typically concern latency-critical infrastructure, and the firm is explicit that it grades collaboration and teachability alongside correctness: whether you take hints, whether you apply feedback from one problem to the next, and whether you explain at the right level for the listener. It also states it avoids questions that hinge on a single sudden insight, preferring ones a strong practitioner could handle without special study. Overall timelines typically run one to two months from application to decision, with offers usually following the final round within a couple of weeks, and team matching conversations typically happen after an offer rather than before.
+- **Online assessment:** A timed, monitored coding test; for some tracks a C++ proficiency drill rather than a puzzle set.
+- **Technical phone interviews (one or two):** Live sessions of about 45 to 60 minutes, either a systems and C++ discussion or a hands-on programming problem.
+- **Probability interview (research tracks):** A call on probability, combinatorics and the central limit theorem.
+- **Final round:** Typically four to six back-to-back interviews covering programming, systems or design, and, for research, data analysis and math.
 
-## What Candidates Report
+> **Tip:** Write down every parameter the interviewer reads out and list the boundary cases before coding. No sample tests are given in live rounds, and candidates who enumerated edges first fared better.
 
-- C++ is examined as a language, not as a vehicle. Raw buffer parsing, pointer arithmetic, template wrappers with overloaded constructors, placement `new`, and inlining trade-offs all appear, and one candidate attributed a shaky assessment specifically to fumbling constructor overloads and the empty-container case.
-- Problems arrive by voice, without sample tests. Several candidates stress that the interviewer read out the parameters of the simulation problem and left edge cases entirely to them; those who took notes and enumerated boundaries before coding fared better.
-- Screens are built as one problem plus escalating follow-ups, and the follow-up is where the evaluation happens: path sum becomes all paths, k smallest becomes quickselect plus its worst case, a coroutine sketch becomes a discussion of suspension and resumption mechanics.
-- Systems reasoning shows up early. The latency-spike question landed in a phone screen, not an onsite, and the intern screen still expected crisp answers on memory behavior even though the interviewer was not grading syntax trivia.
-- The research track is a genuine blend. Candidates face coding first, then probability and combinatorics, then data analysis in Python tooling, and weakness in any one leg is enough to end the loop.
-- Time pressure is cited in nearly every report. The assessment budget is tight, the simulation problem rewards a clean model of state over optimization, and candidates describe finishing with little room to test.
+## Online assessment
 
-## Coding Questions
+Most loops open with a timed, monitored assessment, usually on a third-party platform. Its shape depends on the track. A quantitative research applicant had 45 minutes for two questions that were pure C++ fundamentals: read a `char`, an `int` and a `std::string` sequentially from a raw buffer while advancing a pointer, then write a template class wrapping either `std::map` or `std::unordered_map` with `int` or `std::string` keys and values. Engineering assessments are more often a standard coding set, typically two to four problems in about 90 minutes.
 
-HRT's coding pool leans on implementation fidelity: build-it-yourself primitives (`itoa`, buffer readers, a coroutine), stateful simulations where the rules matter more than the complexity, and classic selection and tree problems pushed to their complexity limits. Practice writing these in C++ with edge cases stated before the first line of code.
+Sample tests on the assessment are deliberately incomplete, so passing them proves little; the firm advises testing corner cases yourself. The platform may track keystrokes and mouse activity, and the use of AI tools at any stage is prohibited and can lead to disqualification.
+
+Interviewers evaluate:
+
+- **Language fluency:** Pointer arithmetic, type conversion, templates and standard containers, used correctly under time pressure.
+- **Edge cases:** Alignment, endianness, invalid reads and empty containers.
+- **Interface completeness:** Overloaded constructors and operations that behave consistently for every supported type.
+- **Speed with accuracy:** Finishing both parts with your own tests, not just the sample ones.
+
+Practice small, self-contained C++ tasks against a 45-minute clock.
+
+> **Note:** One candidate attributed a weak result to the template question, specifically clumsy constructor overloads and the empty-container case. The details of the type, not the algorithm, decide this round.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Implement functions that read a character, an integer and a string in sequence from a raw buffer, advancing a pointer and converting types at each step.
+- Write a C++ template wrapper over an ordered or hashed map that supports integer and string keys and values, with overloaded operations and correct empty behavior.
+
+- [Implement buffer readers for char/int/string with pointer advancement](https://trueinterview.io/questions/dd77f43b-876b-4c4a-828b-2e48ea7294dc)
+- [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f)
+- [Fancy Number](https://trueinterview.io/questions/e4e49d37-3d74-4d00-b000-445874bf217a)
+- [Max Harvested Crops](../../questions/algorithm/max-harvested-crops/README.md)
+
+## Technical phone interviews
+
+The firm runs two flavors of phone interview, typically about 45 minutes each with a working engineer in a shared editor: a technical discussion of systems, memory and data structures, and a programming session. Candidates report both. One discussion screen swept C++ fundamentals (stack versus heap, how to detect stack growth direction on an unknown architecture and why comparing local addresses is unreliable, what `inline` does and when it hurts, `new` versus `malloc`, placement `new`, pointers versus references, causes of segmentation faults), then moved to two-sum in a vector and the k smallest elements by quickselect, with average and worst-case complexity. Another asked for a coroutine built step by step from first principles, then for the causes of rare latency spikes in a low-latency trading system.
+
+Programming screens favor careful implementation over clever algorithms. A simulation recurs across several reports: players move right along a one-dimensional array, a watcher blocks them while looking their way and flips direction at timestamps given out of order, and the task is to count how many reach the end by time T. One loop's second call was a 32-bit signed integer-to-string conversion with no built-in helpers. An intern screen was a root-to-leaf path sum on a binary tree, extended to returning every valid path, with most of the time spent on negative values, single nodes and empty trees.
+
+Interviewers evaluate:
+
+- **Memory model depth:** Explaining stack, heap and allocation from first principles, and deriving answers rather than reciting them.
+- **State tracking:** Modeling the simulation's positions, blocks and unsorted timestamps without losing a rule.
+- **Self-testing:** Producing your own edge cases, such as zero, negative numbers and the minimum integer in the conversion.
+- **Systems breadth:** Tracing latency spikes across application code, runtime, scheduler, caches, locks and hardware.
+
+Practice simulations from spoken specifications and explain memory behavior aloud.
+
+> **Tip:** Finish the base problem fast and cleanly. Every reported screen added a harder variant, and the follow-up is where most of the signal comes from.
+
+### Sample questions for the technical phone interviews
+
+Here are some questions reported by recent candidates:
+
+- Players move right along an array while a watcher blocks them and flips direction at unsorted timestamps; count how many reach the end by time T.
+- Convert a 32-bit signed integer to its decimal string without library conversions.
+- Explain stack versus heap, how to detect stack growth direction, and what placement `new` is for; then find the k smallest elements with quickselect.
+- Implement a coroutine step by step, then list what could cause rare latency spikes in a fast trading path.
 
 - [1D Players and Watcher With Direction Changes](../../questions/algorithm/1d-players-and-watcher-with-direction-changes/README.md)
-- [Implement itoa() for 32-bit signed integer](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397)
-- [Implement buffer readers for char/int/string with pointer advancement](https://trueinterview.io/questions/dd77f43b-876b-4c4a-828b-2e48ea7294dc)
-- [Implement a Coroutine Step by Step](../../questions/algorithm/implement-a-coroutine-step-by-step/README.md)
+- [Implement itoa()](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397)
 - [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72)
+- [Implement a Coroutine Step by Step](../../questions/algorithm/implement-a-coroutine-step-by-step/README.md)
 - [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228)
+
+## Probability interview
+
+Quantitative research candidates who pass the assessment move to an online interview on mathematics rather than code. Reported topics are basic probability, combinatorics and applications of the central limit theorem, worked live.
+
+Interviewers evaluate:
+
+- **Setup:** Defining the sample space and random variables before computing.
+- **Fluency:** Expected values and counting arguments done quickly by hand.
+- **Approximation:** Knowing when the central limit theorem applies and stating the resulting estimate.
+
+Practice timed probability and counting problems without a calculator.
+
+### Sample questions for the probability interview
+
+Here are some questions reported by recent candidates:
+
+- Combinatorics and basic probability problems solved live.
+- Use the central limit theorem to approximate a sum of many independent outcomes.
+
+## Final round interviews
+
+The final round is a full day of back-to-back one-on-one interviews, typically four to six, run virtually or in person. Engineering days mix programming, systems knowledge and problem solving; programming rounds may involve extending an existing codebase, such as an order-management system, rather than starting from a blank file. A rejected research candidate's day covered programming, a data analysis exercise, system design and math, and that candidate named two deciding skills: navigating unfamiliar C++ code quickly, and fluency with pandas and plotting libraries in the analysis round.
+
+The firm states its grading criteria plainly: idiomatic, resource-efficient and readable code; knowledge of memory, I/O and process management; incremental problem solving; collaboration, meaning taking hints well; teachability, meaning applying earlier ideas to later questions; and explaining past work at the right level. Mistakes and hints are acceptable.
+
+Interviewers evaluate:
+
+- **Code quality:** Modern, well-encapsulated code that does not waste resources.
+- **Codebase navigation:** Finding where a change belongs in unfamiliar code and making it safely.
+- **Systems knowledge:** Memory, I/O and process behavior behind your code.
+- **Teachability:** Using a hint from one question on the next.
+- **Communication:** Saying when you are stuck, changing approach or have seen a problem before.
+
+Practice adding a feature to an unfamiliar C++ codebase under a timer, and, for research, a short exploratory analysis in pandas.
+
+> **Note:** Silence reads worse than a wrong turn. The firm asks candidates to narrate when they change approach, catch a mistake or need quiet time, and grades how hints are absorbed.
+
+### Sample questions for the final round interviews
+
+Here are some questions reported by recent candidates:
+
+- Extend an existing order-management codebase with a new operation.
+- Work through a data analysis exercise in pandas and present the findings with plots.
+- Answer system design questions and math problems in the same day.
+
+- [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609)
 - [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e)
+- [Count inversions in a permutation](https://trueinterview.io/questions/count-inversions-in-a-permutation)
+- [Python Language and Runtime Fundamentals](https://trueinterview.io/questions/python-language-and-runtime-fundamentals)
 
-## Low-Level Design Questions
+## How Hudson River Trading makes hiring decisions
 
-Design at HRT is asked at the level of a single C++ type rather than a distributed system: a template that must wrap two container types, accept two value types, expose overloaded operations, and behave correctly when empty. Interviewers look at constructor overloads, const-correctness, and ownership as closely as at the interface.
+The recruiter sets the focus of each round, and feedback from all final-round interviewers is weighed together. Because hints and mistakes are explicitly acceptable, decisions rest on code quality, systems knowledge and collaboration across the day rather than any single solved problem. In the research track a weakness in one leg (coding, probability or data analysis) has been enough to end the loop.
 
-- [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f)
+## How to prepare for the Hudson River Trading interview
 
-## How to Prepare
+1. **Drill C++ primitives:** Buffer readers, integer-to-string conversion and a templated container wrapper, each with an explicit empty and invalid case.
+2. **Rebuild the memory model:** Stack and heap, `new` and `malloc`, placement `new`, inlining costs and segmentation faults, explained in a sentence or two each.
+3. **Practice spoken simulations:** Note every parameter, state invariants, then code against your own boundary tests.
+4. **Prepare a layered latency answer:** Application, runtime, scheduler, cache, lock and hardware causes, and what you would measure for each.
+5. **Keep probability sharp for research:** Counting, expected value and the central limit theorem, plus quick pandas analysis.
+6. **Practice taking hints aloud:** Narrate pivots and apply each hint to the next question.
 
-- Drill small, self-contained C++ tasks under a clock: parse typed values from a byte buffer, write `itoa` without the standard library, and build a templated container wrapper with overloaded constructors and an explicit empty case. The assessment grades language fluency, not pattern recognition.
-- Rebuild the memory model from first principles until you can explain stack versus heap, `new` versus `malloc`, placement `new`, inlining costs, and segmentation fault causes in one or two sentences each, and be ready to derive answers such as how to detect stack growth direction rather than recite them.
-- Practice simulation problems delivered verbally: write the parameters down, state the invariants, enumerate boundary timestamps and positions, then code. No sample tests will be supplied, so generate your own before you declare done.
-- Prepare a layered answer on latency: for any fast path, be able to list where rare stalls come from at the application, runtime, OS, cache, lock, and hardware levels, and what you would measure to tell them apart.
-- For research-track loops, keep probability and combinatorics sharp (expected value, central limit theorem applications) and be fluent in pandas and seaborn, since a data analysis round sits alongside the coding and math.
-- Rehearse taking a hint gracefully and applying it to the next problem; the firm states it grades teachability and communication, and a candidate who explains status while stuck reads better than one who goes quiet.
-- Expect the first technical problem to be followed by a harder variant; finish the base version cleanly and fast so the follow-up has room to happen.
+## About working at Hudson River Trading
+
+Hudson River Trading runs automated trading strategies across global markets, and engineering is the core of the firm. The codebase is predominantly C++, with a Python stack for research. Engineers build low-latency trading systems, venue connectivity, risk monitoring and the compute cluster research runs on, and every engineering role, senior ones included, involves hands-on coding. The firm is headquartered in New York, with offices including Chicago, Austin, Boulder, London, Singapore, Hong Kong and Mumbai.
+
+Hudson River Trading hires engineers and researchers across several groups. Teams include:
+
+- **Software and algorithm engineering:** Trading systems, venue connectivity and strategy implementation.
+- **Platform and infrastructure:** The compute cluster, scheduling, storage and databases.
+- **Hardware:** FPGA and ASIC design for low-latency compute.
+- **HRT AI Labs:** Large models used by trading teams, alongside an LLM group.
+- **Quantitative research:** Strategy research combining statistics, data and code.
+
+### Experience and education requirements
+
+Campus roles typically target computer science, mathematics or other STEM graduates with strong data structures, algorithms and design fundamentals in C++ or Python. Experienced roles emphasize C++ systems work, careful and reliable deployment, and clear written and verbal communication.
+
+## FAQs about the Hudson River Trading interview
+
+### How long does the Hudson River Trading interview process take?
+
+Typically one to two months from application to decision, depending on scheduling of the final day.
+
+### What is the hardest round of the Hudson River Trading interview?
+
+Candidates most often name the C++ assessment and the systems-heavy phone discussion, where questions go below the language surface to memory, allocation and latency.
+
+### What language should I use?
+
+C++ for most engineering tracks, and Python is accepted in some programming rounds and in research work. Language choice can be restricted on the assessment, so confirm with the recruiter.
+
+### How much does a Hudson River Trading software engineer make?
+
+Posted base salary for new-graduate software engineers is roughly $175K–$250K, with a sign-on bonus and a discretionary performance bonus on top.
 
 ---
 

@@ -6,64 +6,243 @@
 
 ---
 
-Applied Intuition builds its interview almost entirely out of its own product surface: expression parsers, vehicle simulators, sensor logs, and replay systems show up as the coding problems themselves, and the rounds reward finished, running code over algorithmic elegance. Going deeper than the outline on the company page, this guide draws on 16 real Applied Intuition questions and 15 candidate interview reports to show what each stage contains, how it is paced, and where candidates fall out.
+Applied Intuition writes its coding problems around its own products. Candidates see expression evaluators, vehicle collision simulators, telemetry logs, protobuf schemas and simulation replay systems, and the bar is finished, running code within the hour rather than an elegant approach on a whiteboard. Coding speed is graded openly. The loop closes with a leads chat that walks through every major decision in your life, and the expectation of five office days a week and long weeks is stated before the first technical round.
 
-## Interview Process
+This guide breaks down each stage of the Applied Intuition interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 13 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Applied Intuition interview process
 
 <!-- guide-diagram -->
 ![Applied Intuition interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/applied-intuition/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact.** A large share of candidates enter through outbound recruiting rather than an application, and the opening call is longer and more substantive than a typical scheduling chat. Reports describe roughly 30 minutes covering background, motivation, and what you are looking for — and, notably, an explicit statement of the working expectation, with one candidate told during the recruiter call to plan on 50-hour weeks and full five-day office attendance. Referred candidates have had the matched team named before the first technical round, with a separate conversation with that team's lead arranged afterward. Some processes fold a light culture-fit conversation into this first call rather than saving it for the end.
+Hiring runs by team, and the domain shows through: a robotics screen centered on a kinematics simulation, while other loops leaned on job monitoring, key-value stores or vehicle log analysis. The structure is fairly stable. After a recruiter call, candidates take one technical screen (sometimes an online assessment instead), then an onsite of three to five rounds. Reported processes ranged from a single technical round to six rounds, and the process typically takes two to four weeks.
 
-**Online assessment.** Not every candidate sees one, but when it appears it is a single substantial algorithmic problem rather than a battery of short ones. The reported example is a grid world with traversable land, obstacles, and roads, where you must place a camp so total distance to every point of interest is minimized — obstacle-aware shortest paths, then multi-source aggregation. The same problem has also been given live as a phone screen, so the OA pool and the screen pool overlap.
+Onsites happen at the Sunnyvale or Palo Alto office or as a virtual block. One 2026 virtual onsite opened with a 30-minute group introduction, followed by three 45-minute coding rounds and a 45-minute hiring-manager conversation. New grads mostly see coding rounds. Experienced candidates add a system design round and a resume project deep dive, and ML-leaning teams swap in ML system design and an ML fundamentals round.
 
-**Technical phone screen.** Reported screens run about 45 to 60 minutes with an engineer, including discussion and follow-ups, and the defining risk is volume: one candidate was given three separate problems inside a single phone round — a mini compiler, a modified grid-traversal problem, and a first-collision simulation for n vehicles with constant speed, yaw rate, and a collision radius. The recurring families are narrow and worth recognizing on sight. Expression and dependency evaluation dominates: parsing assignment statements such as `x = 5` and `y = x + 3`, resolving values through a dependency graph with depth-first search and memoization, then extending to unresolved variables and cycle detection. Serialization and schema work is the second family — a message parser with `get_size` and `get_type` over primitives and nested types, and validating JSON payloads against a protobuf schema including optional fields. The third is telemetry processing: parsing a JSON log of vehicle velocities to find the fastest vehicle and the widest velocity range, computing a five-second sliding-window average, and filtering outliers. Some candidates also get a data-analysis-flavored screen as a separate second phone round rather than a single screen.
+Here's what the interview process can look like:
 
-**Onsite.** Loops that reach the full onsite report three to four technical sessions plus a leadership conversation, and reports place them both onsite at the office and as consecutive phone rounds. The composition is stable: two coding or implementation rounds, one design round, one project or background round. Coding rounds at this stage stay practical rather than puzzle-like — scaling Conway's Game of Life to a one-million-by-one-million matrix, where the accepted solution offloads to the file system and streams three rows at a time; merging collinear and intersecting 2D line segments with vertical lines handled explicitly; route-curve simplification over a polyline with error thresholds and colinear-point edge cases; computing the sizes of nested data structures and then discussing traversal with lazy loading. Design prompts sit squarely in the company's domain: a playback system for replaying time-series data from autonomous-driving simulations, and a cloud simulation service with a per-run state machine, parameter distribution, result aggregation, event notification for state changes, and retry behavior for transient failures and partial crashes. One recent onsite included a hands-on practical round instead of a whiteboard problem: working over SSH on a remote host with an AI coding assistant, processing sensor data, adding query support, demonstrating results, and attempting optional stretch goals. Candidates on machine-learning-leaning teams report a variant loop with an ML system design round and a separate round on ML fundamentals with deep follow-ups.
+- **Recruiter screen:** A roughly 30-minute call on background, motivation, the matched team, and working expectations.
+- **Online assessment (some candidates):** A single substantial grid or graph problem, used in place of the live screen.
+- **Technical phone screen:** A 45–60 minute live coding session built on a domain problem, sometimes with two or three problems in one sitting.
+- **Onsite coding interviews:** Two or three practical implementation rounds (geometry, parsing, data processing), and recently a hands-on round with an AI coding assistant.
+- **System design interview (experienced hires):** Simulation lifecycles, time-series replay, storage and data that does not fit in memory.
+- **Leads chat:** A conversation with one or two leads about your decisions, motivation, career arc and attitude toward the work.
 
-**Lead chat and decision.** The final conversation is the most distinctive round in the loop. Rather than standard behavioral prompts, interviewers walk candidates through the arc of their decisions — in reports, from school years through each career move — asking why each choice was made and how interests and values shifted, with sharp, pointed follow-ups aimed at self-awareness and consistency. Cultural probes are direct: attitude toward overtime, response to negative feedback, working with a manager you dislike, and willingness to take on whatever work is assigned. Interviewers often spend part of the session explaining why they personally joined. Feedback moves quickly; candidates report hearing back within a couple of days at several stages.
+> **Tip:** Treat every coding round as a timed build. Get a working baseline running in the first 20–25 minutes, because each reported problem had a second or third stage (caching, cycles, missing references, a new message type) that only comes once the core works.
 
-## What Candidates Report
+## Recruiter screen
 
-- Speed of implementation is graded explicitly. One rejected candidate was told directly that coding pace was slower than expected for the task, and left parts of the parser unfinished. Tight timing is the most cited pressure in the coding rounds.
-- The bar is working, low-defect code, not a described approach. Candidates repeatedly note that solutions are expected to run with minimal bugs, and that the follow-up extension only arrives if the core is done.
-- Interviewer style varies more than the format does. One candidate was advised to ask clarifying questions early on ambiguous prompts; another met an interviewer who interrupted frequently and wanted minimal edge-case discussion. Stating assumptions out loud and then moving into implementation satisfies both.
-- Domain framing is real, not decorative. Vehicle logs, simulation replay, sensor queries, kinematic collision checks, and protobuf schemas appear as the substance of the problems, and candidates with robotics or AV background describe them as approachable.
-- Design rounds are the reported difficulty spike. Even candidates comfortable in coding rounds named the design session as the round that went worst, particularly when the prompt asked for lifecycle state machines and failure handling rather than a familiar web architecture.
-- The final conversation carries real weight and is unusually personal. Candidates flagged questions about accepting any assigned task and about hours as evaluative signals, and the office culture is described plainly during the process — five days in office, long weeks, shoes removed indoors.
+Many candidates come in through recruiter outreach or a referral rather than a cold application. The opening call runs about 30 minutes and goes further than scheduling. It covers your background, why you want Applied Intuition, and what you are looking for. Recruiters state the working expectations plainly: candidates in 2026 were told to plan on more than 50 hours a week and full-time office attendance. Referred candidates have been told about the matched team before the technical screen and then had a separate call with that team's lead.
 
-## Coding Questions
+For a 2026 robotics role, the screen was split into three calls: role and team, background, then coding.
 
-Coding rounds here are implementation-heavy and domain-flavored: parsing, dependency resolution, geometry, and simulation, usually with an extension waiting once the base case runs. Practice writing these as complete, executable programs under a clock rather than sketching approaches.
+Interviewers evaluate:
 
-- Mini Compiler for Variable Initialization with Addition and Subtraction
-- [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1)
-- [First Collision Time in a Multi-Agent Unicycle Simulator](https://trueinterview.io/questions/602b6710-f264-58a7-8e1e-56e2c9cac37c)
+- **Motivation:** A specific reason to work on autonomy, simulation or vehicle software, not a general interest in AI.
+- **Commitment to the work model:** Your honest reaction to five office days and long weeks, since recruiters raise it to filter early.
+- **Team fit:** Whether your stack (C++, Python, robotics, infrastructure, frontend) matches an open team.
+- **Timeline:** Competing offers, which the process can be paced around.
+
+Have a clear answer on why this company and how you feel about the schedule before you take the call.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk me through your background and what you want next.
+- Why Applied Intuition, and why now?
+- Are you comfortable working from the office five days a week with roughly 50-hour weeks?
+
+## Online assessment
+
+Not every candidate takes an online assessment. When one appears, candidates describe a single substantial problem rather than a set of short ones. The reported version is a grid with open land, obstacles and roads, plus several marked points of interest. You choose the camp cell that minimizes the total walking distance to every point. The same problem has been given as a live phone screen, and a 2025 screen used a modified version where houses could also be crossed.
+
+Interviewers evaluate:
+
+- **Pathfinding correctness:** Obstacle-aware breadth-first search with the movement rules (diagonals, road cost, which cells are valid camp sites) settled first.
+- **Efficiency:** Running BFS out from each point of interest and summing distances per cell, instead of a separate BFS from every candidate cell.
+- **Unreachable cases:** Disconnected regions, points that cannot be reached, and grids with no valid site.
+
+Practice grid BFS problems where the movement rules change between versions.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Place a camp on a grid with obstacles and roads so the total distance to all marked points is as small as possible.
+- Repeat the same search when houses can also be crossed, not just roads.
+
 - [Finding Optimal Camp Location](../../questions/algorithm/finding-optimal-camp-location/README.md)
+
+## Technical phone screen
+
+The live screen runs 45–60 minutes with an engineer, in an editor where you run the code. The risk is volume: one 2025 candidate got three problems in a single screen (a mini compiler, the modified grid traversal, and first-collision time for n vehicles). Three families come up again and again.
+
+The first is expression and dependency evaluation. You parse statements such as `x = 5` and `y = x + 3`, resolve a requested variable through the dependency graph, cache results for repeated queries, report variables that never get a value, and detect cycles. The second is serialization: a message parser with `get_size` and `get_type` over primitives and nested message types, or validating JSON against a protobuf schema with optional fields. The third is simulation and telemetry. Examples include agents with unicycle kinematics and circular footprints, where you find the first collision, and a vehicle velocity log where you find the fastest car, the widest velocity range and a five-second sliding-window average with outliers removed. Some processes run the data-analysis problem as a separate second screen.
+
+Interviewers evaluate:
+
+- **Pace:** A rejected 2025 candidate was told directly that their coding was slower than expected and that parts of the parser were left unfinished.
+- **Graph fundamentals:** Depth-first search with an on-stack marker for cycles, kept separate from the evaluation logic.
+- **Physical modeling:** Clean state updates, circle-to-circle distance checks, threshold edge cases, and agents that already overlap at time zero.
+- **Clarifying, then building:** Interviewer styles vary. Some reward early clarifying questions, others interrupt and want less discussion of edge cases, so state your assumptions briefly and then code.
+
+Rehearse the three families from a blank file, and aim for a working base case in 20 minutes.
+
+> **Note:** The extension decides the round. In the equation-resolution screen, the candidate who was rejected moved through substitution, unresolved variables and cycle detection as three separate stages, and each stage arrived only after the previous one worked.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given assignment statements with addition and subtraction, compute a target variable's value, cache results, and raise an error on cyclic definitions.
+- Compute byte sizes for message types built from primitives and nested messages, then look up a field's type by name.
+- Simulate n agents with constant speed, heading and yaw rate, modeled as circles, and return the time of the first collision.
+- Reconstruct every point in a plane using only an oracle that reports whether a square, and later any rectangle, contains a point.
+
+- [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1)
+- [Design a mini compiler/interpreter](https://trueinterview.io/questions/design-a-mini-compiler-interpreter)
+- [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e)
+- [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b)
+- [First Collision Time in a Multi-Agent Unicycle Simulator](https://trueinterview.io/questions/602b6710-f264-58a7-8e1e-56e2c9cac37c)
+- [Analyze Vehicle JSON Log](../../questions/algorithm/analyze-vehicle-json-log/README.md)
+- [Find all points in a 2D plane](../../questions/algorithm/find-all-points-in-a-2d-plane/README.md)
+- [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api)
+
+## Onsite coding interviews
+
+Onsite coding rounds look like engineering tasks with a longer spec, not puzzles. Reported prompts include merging collinear and intersecting 2D line segments with vertical lines handled explicitly, simplifying a route polyline within an error threshold (Ramer–Douglas–Peucker, keeping endpoints, handling collinear points and very short segments), and computing the sizes of nested data structures and then traversing them with lazy loading. Others are an in-memory database with indexing and range filters, a key-value store with transactions, and an event-driven car collision simulation built on a priority queue.
+
+A newer format appeared in 2026: a hands-on round where the candidate used AI coding assistants over SSH on a remote host to process sensor data, add query support, show results, and try optional stretch goals. Another 2026 onsite also listed an AI coding round.
+
+Interviewers evaluate:
+
+- **Numerical robustness:** Vertical segments, floating-point comparisons, zero-length segments and threshold boundaries handled without being prompted.
+- **Code structure:** A design where a new message type, query or transaction operation fits in without a rewrite.
+- **Defending your code:** One candidate disagreed with the interviewer over an index error and resolved it by talking through the code calmly.
+- **Tool fluency:** In the AI-assisted round, moving quickly on a remote machine and verifying generated code against real data.
+
+Practice geometry and small-store problems until you can finish the core and one extension in 45 minutes.
+
+### Sample questions for the onsite coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Merge a set of 2D segments wherever they are collinear and overlapping, including vertical ones.
+- Reduce the points in a route polyline while keeping its shape within an error tolerance.
+- Build an in-memory database that supports CRUD and filtering or range queries on several fields, with no persistence.
+
 - [Merge 2D Line Segments](https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1)
+- [Route Curve Simplification Function](../../questions/algorithm/route-curve-simplification-function/README.md)
+- [Find intersection of two line segments](https://trueinterview.io/questions/find-intersection-of-two-line-segments)
+- [Sensor Data Query Processor](https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76)
+- [In-Memory Database](../../questions/object-oriented-programming/in-memory-database/README.md)
+- [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md)
 
-## System Design Questions
+## System design interview
 
-Design discussions favor systems that must survive scale and failure rather than product architectures: simulation lifecycles, replay of time-series data, and computations too large to hold in memory. Start from the data path and the failure path, and be ready to justify what gets streamed, what gets persisted, and what happens when a run crashes halfway.
+Experienced candidates get a design round set in the company's own domain, and candidates have named it the round that went worst. Prompts include a playback system for time-series data from autonomous-driving simulations and a cloud service that runs many simulations in parallel. For the cloud service, the expected answer covers a per-run state machine (queued, initializing, running, completed, failed), parameter distribution, result aggregation, event notifications that downstream users subscribe to, and retries for transient failures, timeouts and runs that crash partway.
+
+Other prompts sit between coding and design. In one, Conway's Game of Life is scaled to a million-by-million grid, and the accepted answer stores the grid on disk and keeps only three rows in memory. Another is a job monitor that flags timed-out runs, with discussion of a heap versus a timing wheel, a virtual clock for testing, and thread safety. A third is data storage that has to scale as usage grows.
+
+Interviewers evaluate:
+
+- **Lifecycle thinking:** Explicit states and transitions for each run, not just boxes and arrows.
+- **Failure paths:** What happens when a worker dies halfway, and how progress survives a retry.
+- **Memory awareness:** Saying what is streamed, what is buffered and what stays in memory at any moment.
+- **Testability:** Injecting time and isolating the components that are hard to test.
+
+Prepare one simulation or job-orchestration design end to end, including its failure handling.
+
+> **Note:** The prompts ask for state machines, replay and crash recovery around simulation workloads, not a familiar read-heavy web service with a cache and a load balancer, which is where candidates who prepared only generic designs struggled.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a system that replays time-series data recorded from driving simulations.
+- Design a cloud service that runs many simulations at once, with lifecycle states, event notifications and retry logic.
+- Run Game of Life on a 1M x 1M matrix that does not fit in memory.
 
 - [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182)
+- [Track simulations and report timeouts](https://trueinterview.io/questions/track-simulations-and-report-timeouts)
+- [Build a File-Driven Data Visualization and Replay UI](https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui)
+- [Design Parsing Boundaries for Interdependent Message Types](https://trueinterview.io/questions/design-parsing-boundaries-for-interdependent-message-types)
 
-## Low-Level Design Questions
+## Leads chat
 
-Object-design rounds here are coding rounds with a longer specification: a small store or parser that must behave correctly as the interviewer adds types, queries, and constraints. Structure the core so extensions drop in cleanly, because the follow-up is where the round is decided.
+The final conversation is the most unusual round. It is run by one or two leads, and instead of standard behavioral prompts it traces your decisions over time, from school (one candidate was taken back to elementary school) through each job change. At each step it asks why you chose that path and what changed. The follow-ups are short and pointed, testing self-awareness and whether your story stays consistent. Experienced candidates also get a resume project deep dive covering scope, their own role, key decisions and lessons, sometimes as a separate round.
 
-- [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e)
+Culture probes are direct. Reported topics include overtime, negative feedback, working with a manager you dislike, what you thought of previous employers' environments, and whether you will take on any task you are assigned. One candidate read that last question as a negative signal. Interviewers often spend part of the hour explaining why they joined.
 
-## How to Prepare
+Interviewers evaluate:
 
-- Drill expression-and-dependency problems until they are automatic: parse assignments, evaluate through a dependency graph with memoization, detect variables that can never resolve, and catch cycles with recursion-stack tracking — this is the single most repeated family in the screens.
-- Build speed, not just correctness. Rehearse writing a parser or small store from a blank file in under 25 minutes so the extension has time left, since pace has been named directly in rejections.
-- Get fluent with structured telemetry: reading a JSON or log payload into records, sliding-window aggregation, outlier filtering, and answering queries over the result set.
-- Practice geometry and kinematics with edge cases in hand — collinear and intersecting segments, vertical lines with undefined slope, circle-circle distance checks, agents that already overlap at t=0, and threshold boundaries.
-- Prepare one design walkthrough on a job or simulation lifecycle: a state machine per run, parameter distribution, result aggregation, subscriptions to state changes, and retry semantics for transient failures and partial crashes.
-- Practice at least one problem where the data does not fit in memory, and be able to argue explicitly about what you stream, what you buffer, and how much of the input is resident at any moment.
-- Prepare the final conversation as a continuous narrative rather than a set of stories: why each school, job, and team change was chosen, what changed your mind, and an honest position on hours, in-office work, and taking on assignments outside your preference — the follow-ups here are pointed and probe consistency.
+- **Ownership and drive:** Evidence that you go after hard problems and finish them.
+- **Consistency:** A story that holds up when a single choice is examined closely.
+- **Flexibility:** Willingness to take on unglamorous or customer-facing work.
+- **Self-awareness:** Owning a mistake or a bad fit without blaming others.
+
+Prepare your career as one connected story with a reason behind each move.
+
+> **Tip:** Have an honest, specific answer ready on hours, office attendance and taking whatever task comes up. These questions are evaluative: one rejected candidate came away reading the any-task question as the point where the conversation went against them.
+
+### Sample questions for the leads chat
+
+Here are some questions reported by recent candidates:
+
+- Walk through the major decisions in your life, starting from school, and explain why you made each one.
+- How do you handle overtime, critical feedback, and a manager you did not get along with?
+- Would you be willing to take on any task assigned to you?
+
+## How Applied Intuition makes hiring decisions
+
+The decision combines the technical rounds with the leads chat. The company describes the leads chat as a judgment of drive and team fit, and candidates treat it as a real filter rather than a formality. Referred candidates were often matched to a team before the loop, with that team's lead involved early. Several candidates heard back within a couple of days of each stage. No consistent pattern has been reported on down-leveling or cooldown periods.
+
+## How to prepare for the Applied Intuition interview
+
+1. **Master dependency evaluation:** Parse assignments, evaluate with memoization, report variables that never resolve, and catch cycles with an on-stack set, all in one clean pass.
+2. **Code at full speed:** Build parsers, small key-value stores and log processors from a blank file in under 25 minutes, because pace has been cited in rejections.
+3. **Drill geometry and kinematics:** Segment intersection and merging, vertical lines, polyline simplification, unicycle motion, circle collisions, and agents that start out overlapping.
+4. **Process telemetry fluently:** Load JSON logs into records, compute sliding-window averages, filter outliers, and answer queries.
+5. **Design around simulations:** Practice a run-lifecycle state machine, time-series replay, partial-crash recovery, and streaming data that does not fit in memory.
+6. **Practice with an AI assistant on a remote machine:** Work over SSH, guide the tool, and check its output against real data.
+7. **Tell your career as one story:** Have a reason for each move and a clear position on hours and office attendance.
+
+## About working at Applied Intuition
+
+Applied Intuition was founded in 2017 and is headquartered in Sunnyvale. It builds simulation and validation tools, vehicle software and autonomy systems for automotive, trucking, defense, construction, mining and agriculture customers. It raised a Series F at a $15B valuation in mid-2025 and acquired defense autonomy developer EpiSci the same year. Engineers own technical and product decisions, work directly with customers, and move between full-stack, infrastructure, robotics and graphics problems. The company works in the office five days a week, and calls with customers in other time zones late in the evening are not unusual.
+
+Applied Intuition hires engineers across several product lines. Teams include:
+
+- **Simulation and validation:** Scenario simulation, sensor simulation and test suites for driver-assistance and autonomy programs.
+- **Vehicle OS:** Software that lets vehicle makers develop, deploy and update in-vehicle software and AI applications.
+- **Autonomy:** Planning and perception stacks for on-road and off-road vehicles.
+- **Defense:** Autonomy software for land, air and sea, expanded by the EpiSci acquisition.
+
+### Experience and education requirements
+
+New-grad postings ask for a completed or in-progress BS or MS in computer science, computer engineering, electrical engineering or a related field, plus evidence of working independently. Most engineering roles expect strong C++ or Python. Robotics, embedded and autonomy teams value kinematics, geometry and sensor-data experience. Recent Mountain View software engineer postings list a base salary range of $125,000–$222,000.
+
+## FAQs about the Applied Intuition interview
+
+### How long does the Applied Intuition interview process take?
+
+Most processes take two to four weeks from the recruiter call to a decision, and feedback often arrives within a couple of days of each stage.
+
+### What is the hardest round of the Applied Intuition interview?
+
+Experienced candidates most often name system design, because its prompts center on simulation lifecycles and failure recovery. For new grads, the main risk is a coding round where the core works but the extension is never reached.
+
+### What language should I use?
+
+Python and C++ are the most common. Use whichever lets you write working code fastest, because speed is graded.
+
+### Is the Applied Intuition interview remote?
+
+Screens are remote. Onsites have been held both virtually and in person at the Sunnyvale and Palo Alto offices, and the job itself requires being in the office five days a week.
 
 ---
 

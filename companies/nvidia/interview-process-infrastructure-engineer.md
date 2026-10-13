@@ -6,106 +6,252 @@
 
 ---
 
-Infrastructure candidates at NVIDIA are cut far more often by the resume conversation that opens every round than by the coding problem that follows it. Reported onsite loops ran five and six rounds, nearly all opening the same way — walk me through this project, then a behavioral question or two — before a 15 to 20 minute coding exercise candidates describe as easy: bracket matching, log aggregation, threshold detection. People solve those cleanly, get no visible reaction, and are rejected about a week later. The coding is a floor check; the decision is made on whether your systems work survives an hour of questioning from engineers who have spent a long time near the hardware and do not stop at the first layer.
+NVIDIA infrastructure loops are built by the hiring team, so questions follow what the team runs: an HPC fleet, a GPU cluster, telemetry or system software. Nearly every round opens with a resume walkthrough and a behavioral question before a short, moderate coding problem, and candidates who solved every problem were still rejected. The decision turns on how far a past project holds up under questioning and on the failure-handling half of the design round.
 
-## Interview Process
+This guide breaks down each stage of the NVIDIA Infrastructure Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 9 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q3, cross-checked against recent public accounts.
+
+## NVIDIA Infrastructure Engineer interview process
 
 <!-- guide-diagram -->
 ![NVIDIA Infrastructure Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/nvidia--infrastructure-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (typically 30 to 45 minutes).** A background call whose real purpose is routing: which cluster, fleet, telemetry, or system-software team your history maps to, since the loop is built by that team rather than by a central rubric. Expect questions on your C/C++ and Linux depth, the scale of infrastructure you have operated, location and work authorization, and compensation expectations. The logistics layer is uneven — one initial call was cancelled with no explanation and follow-up messages went largely unanswered; another candidate had an interviewer simply not appear. Typical wait to the next stage is one to two weeks, sometimes longer.
+The same title can produce very different loops: one HPC software screen was a full system design, while a system software onsite was six coding-and-resume rounds. The usual skeleton is a recruiter call, one or two technical screens of about an hour, and an onsite of four to six rounds of 45 to 60 minutes, over four to eight weeks. At senior levels the design and hiring manager rounds carry more weight and expect Kubernetes or Slurm operating depth.
 
-2. **Technical phone screen (about one hour, with an engineer from the hiring team).** Live, in a shared editor, and reported in three shapes. Most common: a resume walkthrough and behavioral questions about past project challenges, then one coding problem — detecting a temperature spike across a stream of CPU time and temperature pairs, with a complexity discussion afterward. Second: one problem stretched across the whole hour, such as encoding a list of strings into a single string and decoding it back, with follow-ups on fixed-width length fields versus a delimiter, malformed input, and bounding reads so a corrupt length cannot trigger a runaway allocation. Third: no coding at all — one screen was spent entirely designing a service that manages roughly 1,000 HPC hosts, another asked only for the data structures behind an in-memory disk-space manager and accepted a whiteboard sketch. A screen purely on resume projects has also been reported, with the recruiter afterward warning that coding rounds were next.
+Here's what the interview process can look like:
 
-3. **Second technical screen (in some loops).** One reported version opened with a piece of C containing a pointer-arithmetic bug to find and fix, moved to transposing a matrix in place versus with extra memory, and finished with an object-oriented key-value store supporting `set`, `get`, and a `setAll` that must still lose to later per-key writes. Another was staffed by two interviewers: Excel column-title conversion in both directions, then a class that ingests build events and returns the ten most frequently built targets with ties broken by the most recent timestamp, pseudo code accepted.
+- **Recruiter screen:** A 30 to 45 minute call that matches your background to a team and covers logistics.
+- **Technical phone screens (one or two):** About an hour with hiring-team engineers, covering a resume walkthrough plus coding, a small design or a full system design.
+- **Coding interviews (onsite):** Several rounds, each opening with resume and behavioral questions and ending with one 15 to 20 minute problem built on operational data.
+- **Low-level design interview (in some loops):** A class or data-structure design with invariants, often in pseudo code.
+- **System design interview:** A 45 to 60 minute distributed-systems discussion drawn from the interviewer's domain.
+- **Hiring manager and director interviews:** A resume interrogation, behavioral scenarios, often a design exercise, and a domain deep dive.
 
-4. **Onsite loop (typically four to six rounds of 45 to 60 minutes).** Coding drew from operational material rather than contest problems: minimum array sum after exactly K increment operations, bracket and brace matching in an expression, aggregating log entries by HTTP status code into counts and average response times, the maximum number of trees plantable on a grid with no two adjacent even diagonally, and finding the node in a weighted tree minimizing total distance to three given nodes. One loop added a dedicated software-design round: a bank-transfer transaction object with real atomicity and consistency guarantees.
+> **Tip:** Prepare three versions of every screen: resume-only, coding, and design. Candidates on this track met all three under the same job title, sometimes with no warning from the recruiter.
 
-5. **System design round.** The single most predictive round, and its content depends heavily on who runs it. Reported prompts: a rate limiter posed by an interviewer with an embedded-systems background, so the discussion went toward request accounting and storage rather than distributed framing; a URL shortener covering database choice, ID generation, scaling, and read/write trade-offs; a real-time fraud detection pipeline sustaining over 10,000 requests per second inside a 50 millisecond budget while swapping models with no downtime and absorbing promotional traffic spikes; and the HPC fleet control plane — 10-second heartbeats, a 30-second miss window, jitter to avoid synchronized bursts, schema for host metadata and heartbeat history, roughly 1,000 persistent connections on an async server, and then the part that decides the round: removing the single point of failure via leader election or advisory locks for the sweeper, replicated storage with automatic failover, split-brain handling with fencing tokens, and rolling deploys that drop no heartbeats.
+## Recruiter screen
 
-6. **Hiring manager round.** Noticeably higher pressure than the rest: an in-depth resume interrogation, behavioral scenarios, a full system design exercise, and a domain deep dive compressed into one session.
+The 30 to 45 minute call is mainly routing: which cluster, fleet, telemetry or system-software team your history fits, since that team builds the loop. Expect questions on C/C++ and Linux depth, infrastructure scale, location, work authorization and pay expectations. Logistics are uneven: one first call was cancelled without explanation, and in another process the interviewer never joined.
 
-7. **Director or skip-level conversation (in some loops).** More resume discussion plus hypotheticals about handling an ambiguous situation. Conversational in tone and still scored.
+Interviewers evaluate:
 
-8. **Debrief and decision.** Interviewers file feedback and the hiring manager drives the call, so a strong day can still end in nothing if the team's need shifts. Waits are long and quiet — weeks between stages is common, and the rejection arrives about a week after the final round with no explanation. End to end, four to eight weeks is typical, faster through a referral.
+- **Domain fit:** Whether your clusters, schedulers, monitoring or system software match an open team.
+- **Scale and ownership:** Node counts, traffic, and whether you ran the system or only used it.
+- **Language depth:** C/C++, Python or Go at the level the team works in.
+- **Logistics:** Location, visa status and timeline.
 
-## What They Actually Evaluate
+Prepare a two-minute summary of the largest system you operated, and ask which round formats you will see.
 
-### Coding and Algorithm
+### Sample questions for the recruiter screen
 
-One problem per round, 15 to 20 minutes in the reported onsites, and consistently modest in difficulty. The exception is a one-hour screen that opened with character-frequency counting and then escalated to a four-dimensional dynamic programming problem on constrained subarray selection where greedy silently gives wrong answers; that candidate needed hints and still moved through the round. Signal comes from stating the approach before typing, naming edge cases, and giving complexity unprompted. The reported failure mode is time management: one candidate over-polished a working solution and left too little room for the discussion half, where the interviewer was actually taking notes.
+Here are some questions reported by recent candidates:
+
+- Walk me through your background and the infrastructure you have owned.
+- Why NVIDIA, and why this team?
+- What are your visa status, location preferences and compensation expectations?
+
+- [Explain NVIDIA fit and role value](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value)
+
+## Technical phone screens
+
+Screens are live, about an hour, with one or two hiring-team engineers in a shared editor or on a whiteboard; no timed online assessment was reported. Shapes vary: a resume walkthrough then one problem (detect a temperature spike in CPU time and temperature readings); one problem stretched over the hour (length-prefixed string encoding, with follow-ups on fixed-width prefixes and malformed input); or three parts (fix a C pointer bug, transpose a matrix, design a `setAll` key-value store).
+
+Some screens skip coding. One HPC software screen was entirely a fleet control-plane design, and another wanted only the data structures for a disk-space manager, sketched on a whiteboard. A second screen appears in some loops; one paired Excel column-title conversion with a top-ten build-target tracker. Interviewers often gave no reaction to correct answers.
+
+Interviewers evaluate:
+
+- **Clarifying before building:** One candidate took disk capacity as an item count when it meant total bytes, which changed the eviction rule.
+- **Low-level reading:** Following C pointer arithmetic and spotting the logic error without running it.
+- **Robustness:** Bounded reads, malformed input, empty strings, a dataset larger than the disk.
+- **Complexity unprompted:** Time and space for each approach, and when lazy updates beat eager ones.
+
+Practice short problems in C or Python without autocomplete, saying aloud what breaks on hostile input.
+
+> **Note:** The problems rarely matched lists tagged with this employer; candidates described them as written for the team. Practice fundamentals on parsing, counting and memory bounds instead of memorizing a list.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Encode a list of arbitrary strings, including ones containing the delimiter, into one string using a length prefix, then decode it and make reads robust to a corrupt length.
+- Build a disk-space manager with a byte capacity that evicts the earliest-added datasets until a new one fits and rejects a dataset larger than the disk without changing state.
+- Implement a key-value store whose `setAll` assigns every key in constant time while later per-key `set` calls still win.
+- Ingest build events and return the ten most frequently built targets, preferring the most recent timestamp on ties.
+
+- [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding)
+- [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall)
+- [Compress and Decompress String (Excel-like Encoding)](https://trueinterview.io/questions/855bd20f-2c9a-4217-822e-2130419c0b5f)
+- [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f)
+
+## Coding interviews
+
+In the most detailed system software onsite, each of four coding rounds opened with resume and behavioral questions, then gave one easy-to-medium problem of 15 to 20 minutes on operational data: minimum array sum after exactly K increments, bracket matching, aggregating logs by HTTP status code, and planting the most trees on a grid with no two touching. Another loop asked for the weighted-tree node closest in total to three given nodes. The outlier was a screen that escalated from character counting to a constrained subarray selection needing four-dimensional dynamic programming, where greedy fails; that candidate needed hints.
+
+Interviewers evaluate:
+
+- **Approach before code:** Method and complexity first; candidates said the explanation mattered more than the code.
+- **Edge cases aloud:** Empty input, unbalanced closers, unknown status codes.
+- **Knowing when greedy fails:** Several interacting constraints signal dynamic programming.
+- **Concise project stories:** The resume segment shares the clock with the problem.
+
+Practice 20-minute problems on stacks, hash-map aggregation, greedy choices and grid search, each preceded by a 90-second project story.
+
+> **Note:** Solving every problem is not enough. A candidate who solved all five coding problems in a six-round loop was rejected after a high-pressure hiring manager round; the loop pools its evidence, and resume depth weighs as much as code.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Given log entries with a status code and response time, report each code's count and average latency.
+- Find the most trees that can be planted on a grid when no two may be adjacent horizontally, vertically or diagonally.
+- Add 1 to array elements exactly K times in total and return the smallest possible final sum.
+- In a weighted tree, find the node that minimizes the sum of distances to three specified nodes.
 
 - [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding)
-- [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding)
-- [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md)
+- [Minimum Sum After K Operations](https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2)
+- [Tree Planting on a Grid (no adjacent trees)](https://trueinterview.io/questions/bd352d63-afa7-4443-b0fa-3b3dfcb9948a)
+- [Log Parser for Top N Items](https://trueinterview.io/questions/7c107386-3c24-4acd-9385-b7d274fca67b)
 
-### System Design
+## Low-level design interview
 
-One or two rounds, 45 to 60 minutes, graded almost entirely on the second half. Candidates get through a clean architecture — load balancer, stateless service tier, replicated store — then spend the rest on failure mechanics. Numbers matter because they are given to you: 1,000 hosts at a 10-second heartbeat is only about 100 requests per second, so the difficulty is connection management and coordination, not throughput. Designs that stop at the happy path lose even when the boxes are right.
+Some loops have a separate software-design round, and design pieces also appear in screens. The interviewer wants classes, data structures and invariants, often in pseudo code: a bank-transfer transaction object that stays atomic if a step fails, a disk-space manager pairing a hash map with an insertion-ordered list, a `setAll` store resolved lazily with version numbers, and a top-ten tracker on a bounded min-heap. Matrix prompts add memory layout: row-major versus column-major order and cache-friendly tiling.
+
+Interviewers evaluate:
+
+- **Invariants under failure:** A transfer completes fully or not at all; a rejected insert leaves state unchanged.
+- **Lazy versus eager work:** Versioning a global write instead of touching every entry.
+- **Interface clarity:** Method signatures, missing-key returns and tie-breaking rules.
+- **Hardware awareness:** How access patterns hit the cache.
+
+Rehearse turning a three-sentence prompt into an interface, two or three structures and a check that each invariant holds.
+
+### Sample questions for the low-level design interview
+
+Here are some questions reported by recent candidates:
+
+- Implement a bank-transfer transaction object that preserves atomicity and consistency.
+- Transpose a matrix in place when square and with extra memory when rectangular, then discuss the cache behavior of each.
+- Design a class tracking build counts and timestamps that returns the top ten targets on demand.
+
+- [Implement matrix transpose and KV store](https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store)
+- [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout)
+- [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer)
+- [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md)
+
+## System design interview
+
+Design is a 45 to 60 minute discussion shaped by the interviewer: one rate limiter round, run by an engineer with an embedded-systems background, centered on request accounting and storage rather than distributed framing. The most detailed report is an HPC control plane for about 1,000 hosts: 10-second heartbeats, a 30-second down threshold, jitter against synchronized bursts, a schema for metadata and heartbeat history, and an async server. The rest of the hour went to single points of failure: leader election or an advisory lock so one sweeper marks hosts down, replicated storage with failover, fencing tokens against split-brain, and rolling deploys that lose no heartbeats.
+
+Other prompts: a fraud-scoring service above 10,000 requests per second within 50 milliseconds with zero-downtime model swaps, and, in a data-infrastructure loop, a telemetry collector at 30-second and 1-second resolution with a dashboard drilling to per-GPU, per-second detail.
+
+Interviewers evaluate:
+
+- **Numbers you derive:** 1,000 hosts at 10-second heartbeats is about 100 requests per second, so the hard part is connections and coordination.
+- **Failure mechanics:** Leader election, fencing, failover and deploy safety, raised unprompted.
+- **Storage reasoning:** Relational tables for current state versus time-series or partitioned history.
+- **Operability:** Monitoring, alerting and upgrades without downtime.
+
+Practice heartbeat, scheduler and telemetry designs until the failure-handling half is as detailed as the diagram.
+
+> **Tip:** Rounds are decided in the second half. A correct box diagram without a split-brain story or a rolling-deploy plan loses to a rough sketch that handles both.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a central service tracking the health and state of about 1,000 HPC hosts with no single point of failure.
+- Design a rate limiter, including where counters live and how limits hold across several instances.
+- Design a telemetry pipeline that computes GPU utilization from raw metrics and supports per-second drill-down.
+- Design real-time fraud scoring at more than 10,000 requests per second within 50 milliseconds, surviving holiday traffic spikes.
 
 - [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination)
+- [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard)
 - [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system)
 
-### Low-Level Design
+## Hiring manager and director interviews
 
-A recurring round, often with no code required — the interviewer wants the data structures and the invariants. In the disk-space manager, capacity means total bytes rather than item count (the candidate's initial wrong assumption changed the entire eviction rule, and clarifying it was itself part of the grade), eviction runs by insertion order rather than access order, and an oversized dataset must be rejected without mutating state. The global `setAll` has to be resolved lazily with versioning instead of touching every entry, and the transaction object has to stay atomic under partial failure. Memory-layout reasoning attaches here too — row-major versus column-major, cache-friendly tiling, prefetching for matrices that exceed cache.
+Candidates call the hiring manager round the most pressured: a resume interrogation, behavioral scenarios, a full system design such as a URL shortener, and a domain deep dive in one session. Some loops add a director conversation with more resume discussion and hypotheticals; it feels conversational but is scored. In one long data-infrastructure loop every interviewer was a long-tenured engineer with an electrical engineering background, probing whether candidates understood the hardware beneath their services.
 
-- [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall)
-- [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout)
+Interviewers evaluate:
 
-### Project Deep Dive
+- **Ownership depth:** Topology, what broke, how you measured it, the decision you would reverse.
+- **Hardware awareness:** GPU, memory and network behavior behind your systems.
+- **Composure:** Steady pacing when the manager interrupts or jumps topics.
+- **Judgment in hypotheticals:** Ambiguity, priorities and disagreement.
 
-It runs in every round, not one, and is the highest-weight competency on the track. Interviewers pull one infrastructure system off your resume and stay on it: the topology, what broke, how you measured it, which decision you would reverse. Telemetry, monitoring, and cluster-management work draws the most attention, and hardware-adjacent experience is examined for whether you understood the machine or only the service running on it. Vague ownership language collapses because the interviewer has usually built the same kind of system.
+Choose two infrastructure projects and rehearse them five layers deep, including the metrics and the incident you would handle differently.
+
+### Sample questions for the hiring manager and director interviews
+
+Here are some questions reported by recent candidates:
+
+- Take one project on your resume and explain the architecture, your exact contribution and the hardest problem you solved.
+- Design a URL shortener, covering ID generation, database choice and read-heavy scaling.
+- How would you handle a hypothetical situation where priorities conflict and the right answer is unclear?
 
 - [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive)
 - [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals)
-
-### Behavioral and Leadership
-
-There is no scripted values rubric here. Behavioral shows up as five to ten minutes at the top of nearly every round — a challenge on a past project, a disagreement, why you are moving — plus the director conversation's hypotheticals. It is graded as coherence and candor, and the recurring weakness is candidates burning technical time on long, unrehearsed project narratives.
-
 - [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits)
+- [Resolve conflict and learn from failure](https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure)
 
-## What They Don't Test
+## How NVIDIA levels and evaluates Infrastructure Engineer candidates
 
-- **Timed automated assessments.** Reported screens on this track are all live sessions with an engineer, not a proctored platform test. Rewarded instead: thinking out loud while an interviewer interrupts you.
-- **Company-tagged problem lists.** A candidate who prepared from a list tagged to this employer reported that none of it matched; the problems felt written for the team. Fundamentals applied to operational data — parsing, aggregating, bounding memory — carry the round.
-- **Contest-grade algorithms.** Outside a single dynamic programming escalation, coding stayed inside 20 minutes and common patterns; the remaining time buys the trade-off conversation, which is what gets scored.
-- **Polished architecture diagrams.** Several design rounds accepted rough sketches and pseudo code. Fault tolerance detail — leader election, fencing, replication, deploy safety — is what moves the score.
-- **Rehearsed answers to a published leadership framework.** Behavioral questions here are project-anchored and improvised, so what pays is compressing a real incident into ninety seconds.
+There is no central hiring committee: interviewers file feedback and the hiring manager, sometimes with a tech lead, decides, so a strong day can still end without an offer if the team's needs shift. The target level comes from the requisition and your experience, and sets how much design the loop carries. Rejections usually arrive about a week after the final round without explanation. No fixed wait before reapplying is published, and because each team hires for itself, another team's opening remains a path.
 
-## The Real Filter
+> **Tip:** Do not read meaning into silence. Candidates got no reaction to correct answers, no follow-ups and long gaps between stages, and none of it predicted the outcome.
 
-The primary rejection path is passing the code and failing the resume. Because the coding problems are short and moderate, candidates read the technical bar as low and prepare accordingly. A candidate can solve five problems correctly across a six-round loop and still be rejected: the loop was scoring six independent samples of whether you actually built what your resume claims.
+## How to prepare for the NVIDIA Infrastructure Engineer interview
 
-The second pattern is design rounds decided in the fault-tolerance segment. Preparation that produces a correct diagram but no failure story loses a round that felt like it went well.
+1. **Make two projects hold up under questioning:** Every round starts with your resume, so know the topology, metrics, failures and reversed decisions of two infrastructure systems.
+2. **Drill 20-minute operational problems:** Log aggregation, bracket matching, threshold detection, greedy counting and grid search, solved in plain C or Python.
+3. **Practice length-prefixed and lazy-versioned structures, clarifying units first:** Encoding and decoding, byte-capacity eviction and constant-time `setAll` recurred, and bytes versus items changed the expected answer.
+4. **Design for failure first:** For fleet and telemetry designs, prepare leader election, fencing tokens, replica failover and rolling deploys before you need them.
+5. **Read low-level code fluently:** Pointer bugs in C, memory layout in matrix transposes and C++ ownership rules come up in screens.
+6. **Learn the team's stack:** Slurm or Kubernetes scheduling, GPU telemetry and the team's product, so the domain deep dive has substance.
 
-The third pattern is format volatility. The same title produces very different loops depending on the interviewer, and candidates who prepare exactly one format get caught out. Read the team's actual product before the call and prepare a story from that domain.
+## About the NVIDIA Infrastructure Engineer role
 
-The fourth pattern is misreading silence. Interviewers give no reaction to a correct answer and ask no follow-ups; calls get cancelled and gaps run to weeks. None of it predicts the outcome, and letting it rattle your pacing does more damage than the original problem.
+Infrastructure engineers at NVIDIA run the compute behind its products and its own engineering: GPU clusters for AI training and inference, HPC fleets, schedulers, telemetry pipelines and the Linux and system software beneath them. The work stays close to hardware, from GPU utilization to RDMA networking and fleet-scale fault tolerance, and teams own their systems end to end.
 
-## Data Source
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC1 | Well-scoped features and operational tasks with guidance | A component of one team's systems |
+| IC2 | Independent delivery of services and automation | A team's systems |
+| IC3 (Senior) | Design and reliability ownership of major systems | A team and its dependencies |
+| IC4 to IC5 (Senior) | Architecture across several systems, mentoring | Several teams |
+| IC6 (Principal) | Technical direction for a platform or organization | An organization |
 
-Based on 9 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q3.
+NVIDIA hires Infrastructure Engineers across several groups. Teams include:
 
-## FAQ
+- **DGX Cloud:** GPU cloud services, AI infrastructure and site reliability on Kubernetes and Slurm.
+- **Internal AI and HPC clusters:** Linux administration, scheduler configuration and automation for research and product teams.
+- **EDA compute:** GPU and CPU clusters running electronic design automation for chip design.
+- **HPC and system software:** Fleet management, host control planes and low-level system software.
+- **Networking:** High-performance datacenter networking and RDMA fabrics.
 
-**What is it like to work as an infrastructure engineer at NVIDIA?**
+### Infrastructure Engineer experience and education requirements
 
-Candidate reports cover the hiring loop rather than daily life, so treat this as context: infrastructure teams here own GPU and HPC fleets, cluster schedulers, telemetry and monitoring pipelines, and the system software underneath them, so the work stays close to hardware behavior. The environment is widely described as fast and launch-driven with intensity spiking around milestones, and work-life balance as strongly team-dependent.
+Postings ask for a computer science or related degree or equivalent experience, strong Linux, and programming in Python, Go or C/C++. Senior roles typically ask for five to six or more years with large-scale clusters or distributed systems, preferring experience operating Kubernetes, Slurm or LSF, infrastructure as code such as Terraform or Ansible, RDMA networking and GPU hardware.
 
-**What is the engineering culture like?**
+## FAQs about the NVIDIA Infrastructure Engineer interview
 
-Team-driven and unusually decentralized for a company of this size; the interviews demonstrate it. Interviewers on this track are frequently long-tenured engineers, several with hardware or electrical engineering backgrounds, which shows up as a preference for people who can reason about the physical machine and measure their claims rather than cite frameworks.
+### How long does the NVIDIA Infrastructure Engineer interview process take?
 
-**How hard is it to get in?**
+Typically four to eight weeks from recruiter call to decision, longer when scheduling slips. Several weeks between stages is common, and rejections usually came about a week after the final round.
 
-Very. The company receives applications in the millions each year against hiring in the low tens of thousands, and infrastructure openings are routed by domain fit before anyone reads for general engineering ability. Our reports skew toward rejections even among candidates who solved every problem given to them.
+### What is the hardest round of the NVIDIA Infrastructure Engineer interview?
 
-**Which round is hardest?**
+The hiring manager round, which combines a resume interrogation, behavioral scenarios, a system design and a domain deep dive in one session, with the decision-maker in the room. Close behind is a system design round that turns to fault tolerance.
 
-The hiring manager round — four separate examinations compressed into one hour, and the manager owns the final decision. The design round is a close second when the interviewer takes the fault-tolerance line of questioning.
+### Is there an online assessment?
+
+No timed online assessment was reported on this track. Every screen was a live session with hiring-team engineers.
+
+### How much does an NVIDIA Infrastructure Engineer make?
+
+Recent US postings for senior AI and GPU infrastructure roles list base salaries of roughly $148K to $288K. Some higher-level postings list up to about $357K, and HPC cluster roles list about $144K to $270K. Packages add restricted stock and an employee stock purchase plan, and base pay varies by location and level.
 
 ---
 

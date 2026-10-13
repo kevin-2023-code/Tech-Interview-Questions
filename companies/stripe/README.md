@@ -16,19 +16,35 @@ How Stripe interviews, and the questions candidates reported there. Free questio
 
 ## How Stripe interviews
 
-Stripe's loop rewards a different kind of preparation than most big-tech processes: the same practical exercises recur across candidates, and outcomes hinge on finishing incremental parts, not algorithmic flash. Going deeper than the outline on the company page, this guide draws on 46 real Stripe questions and 51 candidate interview reports to show what each stage contains, how it is graded, and where candidates lose offers.
+Stripe tests everyday engineering work, not puzzle solving. A typical onsite has one round where you fix bugs in an open-source codebase you have never seen, one where you call a real HTTP API against the clock, and coding prompts about fees, ledgers and reconciliation that arrive in three or four parts. Partial progress is graded hard: candidates were rejected after finishing three of four parts, and also after writing correct code while debugging an unexpected response in silence. Many 2026 loops also include an AI-assisted round that grades how you use the assistant rather than how fast you finish.
 
-### Interview Process
+This guide breaks down each stage of the Stripe interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 64 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Stripe interview process
 
 <!-- guide-diagram -->
 ![Stripe interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/stripe/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Many candidates, especially new-grad, intern, and cold applicants, meet an OA before any live round. It is usually a single multi-part problem in roughly a 70-minute window, with a few visible tests and many hidden ones. The same archetypes keep appearing: a load balancer routing connections to Jupyter servers in five incremental parts (least-loaded CONNECT with index tie-breaks, silent DISCONNECT, object stickiness, capacity rejection, SHUTDOWN with re-routing); merchant fraud scoring with rules evaluated over sliding time windows at the scale of a million transactions; a data-center command processor mixing validation, Haversine distances, and greedy capacity routing; and 30-minute slot generation from weekly working hours. Grading is dominated by hidden edge tests and exact output formatting; a failing case shows only your output, not the expected one, so log your inputs. Candidates have passed every visible test and still been cut, so resolve spec ambiguities rather than skipping them.
+The round types are the same across teams, but the order and count vary. New-grad, intern and cold applicants usually start with an online assessment, while referred and experienced candidates often go straight to a technical screen. The virtual onsite runs three to six sessions of 45–60 minutes, most often four or five, sometimes split across two days. The process typically takes one to two months, and one L2 offer took five months.
 
-**Technical phone screen.** A 45–60 minute session with an engineer, in a hosted sandbox or your own IDE with screen share, and scheduling slots are available almost around the clock on weekdays. Expect a long, domain-flavored specification with escalating parts: transaction fee calculation from CSV with integer cents and per-method rules, earliest-invoice matching, weighted record similarity escalating into union-find connected components, alert trigger and resolve logic over a sliding window, contact matching that grows wildcard support, and dataset joins with inner, left, and multi-match semantics. The interviewer keeps adding requirements as long as you keep finishing; some screens run camera-off or fold in a short design discussion, and results have arrived the same day.
+L1 and L2 loops are mostly coding, bug squash, integration and behavioral. L3 (senior) and staff loops add system design, and sometimes a project deep dive or a second manager conversation. Engineers are mostly full-stack, so frontend-leaning candidates get React work in the same round slots.
 
-**Virtual onsite.** Reported loops run three to seven rounds, most commonly four or five: coding, bug squash, integration, system design for senior candidates, and a hiring-manager or behavioral conversation, sometimes plus a project deep-dive or a second manager chat.
+Here's what the interview process can look like:
+
+- **Recruiter call:** A short non-technical call about the role, level, location and the hybrid work policy.
+- **Online assessment (early career and many cold applicants):** A timed multi-part simulation scored by hidden tests.
+- **Technical phone screen:** 45–60 minutes on one practical problem that grows in parts.
+- **Coding interview:** A multi-part implementation built on a domain model such as balances, bitmap fonts or schedulers.
+- **Bug squash interview:** Find and fix about three bugs in an unfamiliar open-source repository with failing tests.
+- **Integration interview:** Extend a small codebase that calls HTTP APIs, completing ordered parts as fast as possible.
+- **AI-assisted coding interview:** Build a rule parser or similar feature with an assistant, graded on planning, review and tests.
+- **System design interview (L3 and above):** A ledger, feature-flag or dispatch design grounded in Stripe's domain.
+- **Behavioral and hiring manager interview:** Project depth, motivation and AI usage, usually followed by reference checks.
+
+> **Tip:** Before each round, ask which environment, debugger and AI policy it uses and how many parts it has. These change at short notice, and candidates lost more time to setup surprises than to hard problems.
 
 **[Read the full Stripe interview process →](interview-process.md)**
 

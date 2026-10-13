@@ -6,109 +6,232 @@
 
 ---
 
-The round that ends senior Machine Learning Engineer loops here is not an ML round. One senior candidate delivered an end-to-end video recommendation design and handled bias-variance, distribution interpretation and cold-start questions in the fundamentals round, then finished one and a half parts of the plain coding problem — a moderator-list data structure — and was downleveled after the onsite, at which point there was no headcount at the lower level and the loop ended with nothing. The ML rounds themselves surprise people in the opposite direction: the system design session is graded less on model choice than on deployment strategy, CI/CD, testing, cache layers and reliability, which is where a feature-store round spent most of its hour. Two of the rejected candidates in our reports rated their own performance as solid across every round.
+Reddit's Machine Learning Engineer loop is mostly ML-shaped, but the round that has ended loops is a plain data-structure coding hour held to the full engineering bar. One senior candidate who handled design and theory well finished one and a half parts of the coding problem, was downleveled after the onsite, and got no offer because the lower level had no headcount. The ML system design round is graded as much on how a model ships, is tested, cached and kept reliable as on which model you pick.
 
-## Interview Process
+The team shapes the loop more than the level does: ads modeling screens are notebook-style cases, ML platform screens are coding problems, and a team-matching step after the screen can stall a candidacy. This guide breaks down each stage of the Reddit Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 7 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2, cross-checked against recent public accounts.
+
+## Reddit Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Reddit Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/reddit--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen — 30 to 45 minutes.** Background, level, and which ML org the requisition sits in: ads ranking, recommendations and search, content understanding, or ML platform and feature infrastructure. That distinction determines whether your design round is a modeling problem or an infrastructure problem. Referral and cold-application candidates appear in our reports with identical loops.
+Reddit hires Machine Learning Engineers into teams in its Consumer and Ads organizations, and the loop bends toward the requisition. Recent accounts also describe general MLE hiring, where the team is assigned after interviews. After a recruiter call and one technical screen, the virtual onsite typically runs four hour-long rounds: coding, ML system design, ML fundamentals and a hiring manager conversation. An ML infrastructure loop ran five: two coding rounds, system design, product sense and behavioral. Senior candidates sit the same round types, judged on completion and depth against the senior bar, and the level can change after the onsite.
 
-2. **Technical phone screen — a single 45-minute working session.** For modeling-leaning roles this is a case, not trivia. Reported versions: a raw nested JSON dataset to be turned into a modeling-ready dataframe, then dummy, logistic-regression, random-forest and XGBoost classifiers built and compared on interpretability, training speed and performance, with metric choices justified; an exploratory pass over a click log with columns for per-category dwell hours, a current tag and a binary click label, leading into CTR model comparison and then the internals of logistic regression and XGBoost — objective functions, optimization, key hyperparameters; and a case with missing values and only 20 percent positive labels targeting an F1 above 0.97, forcing a concrete discussion of imbalance handling and of normalizing time-spent features per person. One interviewer explicitly allowed documentation lookups for syntax. For platform and infrastructure roles the screen is instead a plain coding problem — one ML Platform candidate got tennis scoring with deuce and tie-break handling.
+Here's what the interview process can look like:
 
-3. **Team matching.** Clearing the screen does not put you straight into a loop; candidates report an assignment step to a specific team. This is a real failure point rather than a formality — one candidate's initial team assignment fell through after a passed screen, the recruiter stopped responding, and the requisition appeared to be frozen.
+- **Recruiter screen:** A short call on background, target level and which team owns the opening.
+- **Technical phone screen (about 45 minutes):** A live modeling case on a raw dataset for modeling roles, or a multi-part coding problem for platform roles.
+- **Team matching (some pipelines):** Assignment to a specific team between the screen and the onsite.
+- **Coding interviews (one or two):** Hour-long practical data-structure problems with staged follow-ups and no AI assistance.
+- **ML system design interview:** An end-to-end design for a live product surface, from labels to serving, rollout and retraining.
+- **ML fundamentals interview:** Applied modeling on a given dataset plus theory, plot interpretation and cold start.
+- **Hiring manager and behavioral interview:** Projects, a failure and a success, conflict and collaboration; infrastructure loops add product sense.
 
-4. **Onsite — typically four rounds: ML fundamentals, coding, ML system design, and hiring manager.** Infrastructure variants have run five, adding a product and design session. Rounds run about an hour each and are all virtual in every report.
+> **Tip:** Ask the recruiter which team and level the opening maps to before preparing. It decides whether your screen is a notebook case or a coding problem, and whether design leans toward ranking models or feature and serving infrastructure.
 
-5. **Onsite coding round.** The general engineering bar applies unchanged — the same practical, multi-part problems the rest of engineering gets. Reported instances: a moderator-list structure for geographic subforums supporting add, remove and query; a sliding-window rate limiter with constant-time timestamp eviction and thread safety; a billing-status transition problem; shortest palindrome with a KMP or rolling-hash optimization; odd-even linked-list regrouping in place. Completion under time pressure is graded, and it is where the senior downlevel above came from.
+## Technical phone screen
 
-6. **ML system design — the signature round.** Reported prompts: design a feature store; predict whether a user will comment on a post and serve the prediction; rank comments for a personalized feed; build a video recommendation system end to end. The expected coverage is the full lifecycle — prediction target and label definition, signals available at inference time (user history, content, temporal context, social graph), batch-plus-streaming feature pipelines, training and retraining, low-latency serving, cold start for new users and new content, interaction logging, and A/B experiment infrastructure. The differentiator is the operational half: rollout strategy, CI/CD, testing, caching, offline and online consistency, and behavior under load. For ranking prompts a two-stage design — a pointwise scorer plus a lightweight reranker balancing predicted engagement, recency and diversity — landed well, as did sharding, replication and micro-batching for tail latency.
+For modeling roles the screen is a single 45-minute working case. One version turned a raw nested JSON dataset into a modeling-ready dataframe, then built and compared a dummy baseline, logistic regression, random forest and XGBoost on interpretability, training speed and performance. Another explored a click log with per-category dwell-hour columns, a current tag and a binary click label, compared CTR models including SVM, and ended in the objectives, optimization and hyperparameters of logistic regression and XGBoost. A third set an F1 target above 0.97 on data with missing values and only 20% positive labels, probing imbalance handling and per-user normalization of time spent.
 
-7. **ML fundamentals round.** A separate session mixing applied modeling with theory. Reported content: being handed features X and target y and walking through the whole modeling approach; framing and evaluating a conversion-rate model end to end; interpreting a plot of two overlapping probability distributions and saying what it implies about the data or the model; classic theory on bias-variance and regularization; and cold-start strategy for new users and items.
+Platform roles get coding instead: one ML Platform candidate implemented tennis scoring with deuce and tie-breaks, and a recent account describes a screen with two data-structure rounds. One interviewer allowed web lookups for syntax; that session stayed on modeling and evaluation, with nothing on deployment.
 
-8. **Hiring manager and behavioral.** Past projects, conflict resolution, cross-team collaboration, and one failure plus one success story told with situation, action and outcome. ML-infrastructure loops add a product and design session — one candidate had to redesign new-user onboarding, name the pain points, propose personalized community recommendations, and define the A/B metrics, with the interviewer pressing on simplicity versus engagement.
+Interviewers evaluate:
 
-9. **Decision.** Wait times in our reports range from a few business days to weeks of silence, and one candidate's outcome was decided by headcount rather than by performance. A 12-month cooling period applies before reapplying after a rejection.
+- **Data-to-model fluency:** Parsing, missing values and feature engineering without stalling on one step.
+- **Justified model choice:** Why boosted trees beat logistic regression on categorical-heavy click data, and what interpretability you give up.
+- **Metric reasoning:** Metrics for imbalanced labels and how a precision-recall target changes thresholds and sampling.
+- **Algorithm internals:** The loss each model optimizes, how it is fitted and which hyperparameters matter.
+- **Pacing:** Covering data, models, evaluation and improvement ideas inside 45 minutes.
 
-## What They Actually Evaluate
+Rehearse a full pipeline from raw JSON to a four-model comparison in under 40 minutes, narrating each choice.
 
-### ML System Design
+> **Note:** Documentation lookup does not lower the bar. The scope is broad enough that pacing, not syntax, is the constraint, and the interviewer wants a reason for each model rather than working code alone.
 
-One onsite round, about an hour, and the heaviest weight in the loop. The prompt is always a real product surface, so the framing work — what exactly are we predicting, on what label, with what latency budget — is graded before any architecture. What earns signal is treating the pipeline as a production system rather than a diagram: point-in-time-correct features, batch and streaming paths that stay consistent, safe rollout of a new model, cache layers, and the logging that makes retraining possible. The concrete failure mode is stopping at the happy-path architecture; the feature-store round pushed straight past it into deployment, CI/CD, testing and reliability, and one candidate felt the round was effectively graded there. Interviewer engagement varies — one reported a visibly disengaged interviewer and still had to drive the hour.
+### Sample questions for the technical phone screen
 
-- [Feature Store](https://trueinterview.io/questions/feature-store)
-- [Design Reddit's Post Comment Ranking System](https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system)
-- [Video Recommendation](https://trueinterview.io/questions/video-recommendation)
+Here are some questions reported by recent candidates:
 
-### ML Theory
+- Turn a nested JSON dataset into a clean dataframe, then train and compare a dummy classifier, logistic regression, random forest and XGBoost.
+- Explore a click log with dwell hours per category, build a CTR model, and explain how logistic regression and XGBoost are optimized.
+- Reach an F1 above 0.97 with 20% positives and missing values, explaining imbalance handling.
+- Implement tennis scoring for points, games and sets, including deuce and tie-breaks.
 
-Covered in the fundamentals round and probed again inside the phone screen. Expect to justify model choices rather than list them: why boosted trees over logistic regression for categorical-heavy click data, what regularization is buying you, where the bias-variance trade sits for your chosen capacity. Two recurring specifics: cold start appeared in fundamentals, in design and in ranking prompts across separate loops, and interpreting a two-distribution overlap plot was asked directly. Depth on internals is expected — objectives, optimization procedure and the hyperparameters that actually move the metric, not API familiarity.
+- [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction)
+- [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring)
+- [Design Tennis Scoring with Pluggable Rules](https://trueinterview.io/questions/design-tennis-scoring-with-pluggable-rules)
 
-- [ML Fundamentals](https://trueinterview.io/questions/ml-fundamentals)
+## Coding interviews
 
-### Coding and Algorithm
+Every reported onsite had at least one hour of pure coding, with AI assistance and external tools not permitted. Problems match what software engineers get: a moderator list for location-based communities with add, remove and query; a sliding-window rate limiter with constant-time eviction and thread safety; billing-status logic with edge cases; shortest palindrome; and regrouping a linked list's odd and even nodes in place. Follow-ups extend the same structure, and how much you finish is graded.
 
-At least one dedicated onsite round, plus a coding-style screen for platform roles, held to the general engineering bar with no ML discount. Problems are medium and practical, with staged follow-ups; the scoring is on completing what you started under time. This is the single most under-prepared round on the track — candidates arrive rehearsed on modeling and get graded on data-structure fluency, and slow completion has cost a senior offer outright.
+Interviewers evaluate:
+
+- **Completion under time:** Reaching the follow-up; one and a half parts fell short of the senior bar.
+- **Data-structure choice:** Keeping add, remove and query efficient as constraints grow.
+- **Concurrency awareness:** Thread safety and constant-time eviction raised without prompting.
+- **Edge cases:** Invalid billing transitions and boundary inputs handled and tested.
+- **Clarity:** Confirming requirements early; a candidate who felt a communication gap here was rejected.
+
+Practice medium problems with two or three staged follow-ups on a 45-minute timer, in plain code.
+
+> **Note:** This is the round that has cost offers on this track. Candidates rehearse modeling and are graded on data-structure fluency, and a post-onsite downlevel can become no offer when the lower level has no headcount.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Maintain moderators for location-based communities with efficient add, remove and query, then extend it in a follow-up.
+- Build a sliding-window rate limiter that evicts expired timestamps in constant time and is thread-safe.
+- Implement billing-status transitions, rejecting every invalid one.
 
 - [Moderator List Hierarchy](../../questions/algorithm/moderator-list-hierarchy/README.md)
-- [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter)
-- [Coding 1 - Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705)
-- [Coding 2 - Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a)
-
-### Low-Level Design
-
-Object-modeling problems reach this track through the screen rather than a dedicated round. A tennis scoring model and a billing-status state machine each appear in ML candidates' sessions. Signal comes from an explicit state machine, illegal-transition errors, and unprompted test cases; the reported trap is spending too long on rule clarification and leaving under half the session for code.
-
-- [Tennis Match Scoring](https://trueinterview.io/questions/tennis-match-scoring)
+- [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md)
 - [Bill Status](https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444)
-- [Billing Status Replay (OOD)](https://trueinterview.io/questions/billing-status-replay-ood)
+- [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705)
 
-### Behavioral and Leadership
+## ML system design interview
 
-One round with the hiring manager, plus a product session on infrastructure loops. The questions are conventional — a failure, a success, a conflict, cross-team collaboration — but the round is where team fit and level get argued. Tie examples to concrete ML delivery rather than teamwork in general, and be ready to reason about a user-facing change and the experiment that would validate it.
+The design round is an hour on a live Reddit surface: predict whether a user will comment on a post and serve it; predict whether a user will upvote, reply to or ignore each comment and rank a personalized feed; build video recommendation from scratch; design feature serving and inference; rank post comments; or design a feature store. Expected coverage spans target and label, signals at inference time (user history, content, temporal context, social graph), batch-plus-streaming features, retraining, low-latency serving, cold start, interaction logging and A/B infrastructure.
 
+The operational half separates answers. A feature-store round spent most of its hour on deployment, CI/CD, testing, caching and reliability under load. For ranking, a pointwise scorer plus a lightweight reranker balancing engagement, recency and diversity landed well, as did sharding, replication and micro-batching for tail latency. One candidate had to drive the hour with a disengaged interviewer.
+
+Interviewers evaluate:
+
+- **Problem framing:** A precise target, label and latency budget before architecture.
+- **Feature consistency:** Batch and streaming paths that serve identical features offline and online.
+- **Production readiness:** Rollout, testing, caching and degradation under load, raised by you.
+- **Model trade-offs:** Collaborative filtering versus deep and sequence models, weighed against latency and cost.
+- **Feedback loops:** Logging for retraining and experiments, plus a cold-start plan.
+
+Prepare one ranking-feed design and one prediction-serving design, each with a rollout, testing and caching section.
+
+> **Tip:** Treat the happy-path diagram as the first third of the answer. Candidates who stopped at ingestion, training and serving were pushed into how the model ships and how the feature store is tested, and that part appeared to carry the grade.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Estimate the likelihood a user comments on a post, with real-time and batch features, low-latency inference and cold start.
+- Rank comments for a personalized feed from predicted upvote, reply or ignore, balancing engagement, recency and diversity.
+- Design a feature store, then explain its deployment, CI/CD, testing and reliability.
+
+- [Design comment-likelihood prediction platform](https://trueinterview.io/questions/design-comment-likelihood-prediction-platform)
+- [Design Reddit Comments Ranking System](https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system)
+- [Video Recommendation](https://trueinterview.io/questions/video-recommendation)
+- [Feature Store](https://trueinterview.io/questions/feature-store)
+
+## ML fundamentals interview
+
+This round mixes applied modeling with theory. One version gave features X and a target y for a full modeling approach, showed two overlapping probability distributions to interpret, then covered bias-variance, regularization and cold start for new users and items. Another was a conversion-rate model from framing to evaluation, and a recent account describes a deep dive on position bias in ranking. Models discussed are mostly logistic regression, SVM, random forests and boosted trees.
+
+Interviewers evaluate:
+
+- **Structured approach:** Target, baseline, features, validation and metric, in order.
+- **Reading plots:** What distribution overlap says about separability, calibration or leakage.
+- **Applied theory:** Bias-variance and regularization tied to the model you proposed.
+- **Cold start and logged-data bias:** New-user and new-item strategies, and position bias in click labels.
+
+Prepare spoken walkthroughs of a CTR model, a conversion model and a position-bias correction.
+
+### Sample questions for the ML fundamentals interview
+
+Here are some questions reported by recent candidates:
+
+- Given features X and target y, describe your modeling approach, then interpret a plot of two overlapping distributions.
+- Build a conversion-rate prediction model from framing through evaluation.
+
+- [ML Fundamentals](https://trueinterview.io/questions/ml-fundamentals)
+- [Model y from x and interpret distributions](https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions)
+- [Explain and Reduce Position Bias in Ranking](https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking)
+
+## Hiring manager and behavioral interview
+
+The manager round covers past projects, collaboration and alignment with the team's goals; behavioral rounds add conflict resolution and cross-team work. One senior loop centered on a significant failure and a major success. ML infrastructure loops added product sense: improve new-user onboarding and define the metrics that show a healthy flow.
+
+Interviewers evaluate:
+
+- **Ownership:** Your decisions on a shipped model, not a team summary.
+- **Failure analysis:** What went wrong, the signal you missed and what you changed.
+- **Cross-functional work:** Launching with product, data science and infrastructure partners.
+- **Product sense:** Turning a user problem into a measurable experiment.
+
+Prepare a failure and a success story with metrics, plus one product proposal with its success metric.
+
+### Sample questions for the hiring manager and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Describe a significant professional failure and a major success.
+- How would you improve Reddit's onboarding, and which metrics show it is working?
+
+- [Describe a failure and a success](https://trueinterview.io/questions/describe-a-failure-and-a-success)
 - [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding)
 - [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round)
 
-## What They Don't Test
+## How Reddit levels and evaluates Machine Learning Engineer candidates
 
-- **Research novelty.** No paper deep-dives, no derivations from scratch, no ask to invent an architecture. The theory that surfaces is applied — imbalance handling, regularization, cold start, metric selection — and it is always attached to a concrete dataset.
-- **Deep learning trivia.** Reported models are logistic regression, SVM, random forest and gradient-boosted trees far more often than neural architectures; sequence and transformer models come up as a trade-off option inside design discussions, not as an implementation exercise.
-- **Library syntax.** One interviewer permitted documentation lookups outright; knowing why you pick a model beats recalling an argument name.
-- **A pure modeling story in design rounds.** A flawless offline model with no serving, rollout or monitoring story is the reported way to underperform; the operational half is the differentiator.
-- **Big-O puzzles.** The coding round is practical implementation with follow-ups, not hard algorithm trickery — but it is timed strictly, so speed on ordinary structures matters more than exotic technique.
+Feedback from all rounds is pooled, and strong ML rounds do not offset a short coding round. Postings say the final level is set during interviews, and it can move after the onsite: the downleveled senior candidate got no offer because the lower level had no open headcount. One rejected candidate felt the whole loop had gone adequately, so a good feeling is a weak predictor.
 
-## The Real Filter
+Team matching can sit between screen and onsite. One referred ads candidate passed the screen, the initial team assignment fell through, the recruiter stopped responding and the opening appeared frozen. Rescheduled rounds kept the same panel.
 
-The primary rejection path is the coding round applying the full engineering bar to a candidate who prepared as a modeler. It is easy to misjudge because everything else in the loop is ML-shaped: the screen is a case study, the fundamentals round is theory, the design round is pipelines — and then one hour is a plain multi-part data-structure problem scored on how much you finished. The senior candidate in our reports who cleared the ML rounds and stalled halfway through the coding follow-up was downleveled on that basis, and the downlevel converted into no offer when the lower level had no headcount. Practice medium implementation problems on a timer, not just notebooks.
+> **Tip:** After a passed screen, ask which team you are matched to, follow up if it stalls, and keep other processes running.
 
-The second pattern is the design round graded on infrastructure. Candidates rehearse the modeling lifecycle and are then asked how the model ships, how the feature store is tested, what the cache layer looks like, and how it degrades under load. Build the operational layer into your default answer so those questions are part of your narrative rather than interruptions to it.
+## How to prepare for the Reddit Machine Learning Engineer interview
 
-The third pattern is organizational. Team matching sits between the screen and the loop, and one candidate's process died there when an assignment fell through and the requisition appeared frozen. Reports also describe communication disconnects with interviewers during coding and design rounds being cited afterwards as a factor — stating assumptions out loud and confirming the interviewer agrees before building on them is the documented fix.
+1. **Confirm team and screen format:** Ads modeling, relevance and ML platform roles screen differently.
+2. **Train coding as an engineer:** Solve multi-part data-structure problems on a timer, including a rate limiter and a state machine.
+3. **Rehearse a 45-minute modeling case:** Raw JSON to four compared models, with metrics for imbalanced labels.
+4. **Know model internals:** State the objective, optimization and key hyperparameters of logistic regression and boosted trees.
+5. **Add the operational half to every design:** Rollout, CI/CD, testing, caching and offline-online consistency belong in your default answer.
+6. **Design for Reddit surfaces:** Comment prediction, comment ranking, feed recommendation and a feature store, each with cold start and logging.
+7. **Prepare stories with numbers:** A failure, a success, a cross-team conflict and one product proposal.
 
-## Data Source
+## About the Reddit Machine Learning Engineer role
 
-Based on 7 candidate-reported interview experiences, primarily from 2025 Q2 through 2026 Q2.
+Reddit MLEs build the models and systems behind feeds, search, notifications, ads and safety. Interest-based communities produce text-heavy, strongly structured signals, which is why comment prediction and ranking recur in interviews. Ads MLEs work on ranking, targeting and retrieval, and on auction, bidding and budget pacing across CPC, CPA and ROAS objectives.
 
-## FAQ
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC3 | Owns scoped projects, ships models and services, contributes to experimentation | A component of one team's ML stack |
+| IC4 | Leads multi-quarter initiatives, sets technical direction, mentors while hands-on | A team's modeling or serving systems |
 
-**What is it like to work there as a Machine Learning Engineer?**
+Reddit hires Machine Learning Engineers across its Consumer and Ads organizations. Teams include:
 
-Our reports describe the loop rather than the job, so this is context: ML work here concentrates in ads — ranking, conversion and measurement modeling, bidding and pacing, auction quality, targeting — plus recommendations, search, and content understanding, which increasingly means deciding when a hosted large language model beats a custom one and extending coverage to video. The distinctive part is the data: interest-based communities produce text-heavy signals with strong structure, which is why comment ranking and comment-prediction prompts recur in the interviews themselves. Compensation is not something our reports document.
+- **Feed Relevance:** Candidate retrieval and ranking for personalized feeds.
+- **Search and Answers Relevance:** Ranking for search and question-answering surfaces.
+- **Ads Ranking and Ads Targeting and Retrieval:** Ad relevance models, embeddings and language-model representations.
+- **Ads Marketplace Quality:** Auction, bidding and budget pacing.
+- **Safety ML:** Language-model systems that detect harmful content and support rule enforcement.
+- **ML platform and AI serving:** Feature infrastructure and GPU inference for search, ranking and language models.
 
-**What is the engineering culture like?**
+### Machine Learning Engineer experience and education requirements
 
-Practical and product-attached. The design prompts are all live surfaces of the site, the fundamentals round asks about a conversion model rather than an abstract classifier, and infrastructure loops add a product-sense session. Engineers describe wide ownership and unusual scale relative to headcount, with the common complaints being shifting quarterly priorities and a pace that can wear people down. Interviewers in our reports were mostly collaborative and hint-giving, though one candidate encountered a visibly disengaged panelist.
+Postings ask for three to five or more years of building and operating production ML systems, typically five or more for IC4 and senior titles, with Python, Java or Go. Deep learning roles add PyTorch, TensorFlow or Hugging Face and distributed training. A bachelor's in computer science or a related field, or equivalent experience, is accepted.
 
-**How hard is it to get in?**
+## FAQs about the Reddit Machine Learning Engineer interview
 
-Technically reachable, organizationally uncertain. Nothing in the reported questions is exotic, and multiple candidates said the problems were standard ones from common preparation material — yet several strong loops ended in rejection, downlevel, or a stalled team match. Content and format also vary by team and hiring manager more than on other tracks, so the loop you get for an ads ranking role and the one you get for ML platform can differ substantially in emphasis.
+### How long does the Reddit Machine Learning Engineer interview process take?
 
-**Which round is hardest?**
+Reports do not pin a consistent timeline. The process is a recruiter call, one technical screen and a virtual onsite of four or five hour-long rounds; the largest delay is team matching, which stalled one candidacy indefinitely.
 
-By reported outcome, the coding round — it is the one that has actually ended loops on this track. By preparation difficulty, the ML system design round, because the half that decides it (deployment, testing, caching, reliability, offline-online consistency) is the half that most ML interview preparation never covers.
+### What is the hardest round of the Reddit Machine Learning Engineer interview?
+
+By outcome, coding, since it applies the general engineering bar and is the round that ended loops. By preparation, ML system design, because its operational half is what most ML preparation skips.
+
+### Is there an online assessment?
+
+No reported Machine Learning Engineer pipeline used one; the first technical step is a live screen.
+
+### How much does a Reddit Machine Learning Engineer make?
+
+Reddit posts base pay ranges on United States openings. Recent ranges were roughly $186K to $303K for Senior Machine Learning Engineer, $230K to $322K for Staff, and $266K to $372K for Senior Staff in Ads Ranking. Packages add restricted stock units to base salary.
+
+### Is the process remote?
+
+Every reported onsite was virtual, and many postings are remote within the United States, with some in Canada and the United Kingdom.
 
 ---
 

@@ -6,84 +6,271 @@
 
 ---
 
-Vanta's loop looks conventional on paper and behaves like a practical engineering exercise in the room: a phone screen built around one problem with a decisive follow-up, an onsite mixing a small coding pool with analytics-flavored design and two or three conversational rounds, and graders who reward the simplest defensible answer. This deep dive goes past the outline on the company page, drawing on 14 real Vanta questions and 34 candidate interview reports to show what each stage actually probes and where candidates lose the loop.
+Vanta's coding questions come from a small, stable pool shaped like its own product: dependency ordering, deduplication at scale, and compliance rollups over an org tree. Almost every coding session is one scenario in two parts, and the second part decides the round. Design interviews reward the leanest architecture that fits the stated scale, and one candidate was rejected for a textbook streaming design. The behavioral side is unusually large for a startup: a values round, a project deep dive and often a leadership interview each act as a real gate, and recent loops add an AI deep dive on Vanta's own assistant.
 
-## Interview Process
+This guide breaks down each stage of the Vanta interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 30 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Vanta interview process
 
 <!-- guide-diagram -->
 ![Vanta interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/vanta/process.webp)
 <!-- guide-diagram -->
 
-### Recruiter screen
+The structure barely changes between teams: a recruiter call, one coding screen (sometimes two), then a virtual onsite of three to five rounds, most often four. The onsite mixes one coding round, one system design round, and two or three conversational rounds, and recruiters will split it across two days on request. It usually takes three to four weeks, sometimes six. Some 2026 pipelines add a timed online assessment, and some recruiters offer a choice between algorithm-style and practical coding tracks.
 
-The opening call is short and mostly about routing: background, why Vanta, and which open team fits. Some candidates received a written breakdown of every round before the loop began, with the format and focus of each session; those who had it reported no format surprises later, so ask for it if it does not arrive. Occasionally the first call is entirely behavioral and past-project questions, followed by a very short timed online exercise (a letter-to-number conversion under a five-minute limit) rather than a live coding screen.
+Early-career loops lean on the coding rounds; senior and staff loops weigh the leadership interview more heavily. Frontend loops swap the algorithm round for a React and TypeScript practical, and Data and AI candidates get an ML design round on a retrieval-augmented chatbot.
 
-### Technical phone screen
+Here's what the interview process can look like:
 
-The screen runs about 45 to 60 minutes in a shared editor, and it is almost always one scenario that evolves in two parts rather than two unrelated puzzles. The problem pool is small and stable enough to learn:
+- **Recruiter screen:** A short call about background, motivation and team fit.
+- **Online assessment (some pipelines):** A short timed test, from a five-minute single task to a six-question set.
+- **Technical phone screen (one or two):** A 45–60 minute shared-editor session built on one scenario with a harder follow-up.
+- **Onsite coding interview:** A practical round, most often the `uniq` family, with a memory or scale follow-up.
+- **System design interview:** A narrow pool of analytics and storage prompts, graded on calibration.
+- **AI technical deep dive (recent loops):** A conversation about LLM-backed features, evaluation and Vanta's own AI assistant.
+- **Principles, leadership and project deep dive interviews:** Two or three conversational rounds on values, past projects and leadership scope.
 
-- **Task dependency resolution** is the most frequently reported screen. A `Task` carries an id and a list of dependencies; given all tasks and a set of targets, return everything required to run the targets, transitively, prerequisites before dependents, no duplicates when a task is both requested and pulled in as a dependency. Follow-ups have asked for the ancestors of a given task, for cycle handling, for a recursive DFS formulation instead of the in-degree approach, and for scaling on large graphs.
-- **Employee training compliance** is drawn straight from the product: an employee with a start day, a trained day (possibly missing), a policy window and a check day; compute a status (pending, completed, overdue) and the number of overdue days. The follow-up adds a tree of groups and asks for per-group employee counts and overdue-day totals across all descendants, which is a post-order DFS. Every report of this problem is a two-part session, and several candidates ran out of time on the tree half.
-- **`uniq`** in several framings: collapse consecutive duplicate lines the way the Unix tool does, or return distinct elements preserving first appearance, then the follow-up where the file or stream no longer fits in memory, which pushes toward streaming, partitioning, or hashing across machines while preserving arrival order.
-- **Word-pattern and metapattern matching** with a twist on the mapping rule (several numbers may map to one word, or each position carries its own list of allowed elements), solved by backtracking; a 2D grid variant has appeared as a follow-up.
+> **Tip:** Ask the recruiter for the round-by-round prep document. Candidates who received it reported no format surprises, while one candidate briefed only verbally expected hypothetical leadership questions and was instead pressed for real cases.
 
-Some candidates meet a second phone round before the onsite: another coding screen, a design discussion on analytics metrics, or a conversation about an AI product. One candidate's phone round was instead a practical exercise writing fetch, create and update calls against a provided, deliberately buggy API, with code packaged and submitted at the end.
+## Recruiter screen
 
-### Virtual onsite
+The opening call is short and mostly about routing: background, why Vanta, which open team fits, and compensation expectations. Some first calls are entirely behavioral, built around a recent project and a disagreement. Recruiters typically follow up with a document describing the format and focus of every later round.
 
-Reported onsites run three to five rounds, with four the most common; recruiters will typically split the day in two on request. The mix is consistent across reports:
+Interviewers evaluate:
 
-- **One coding round.** Often the same `uniq` family as the screen, or a CLI-style prompt to print the unique lines of a file with a memory-constrained follow-up. One candidate met an in-memory file-system simulator (create, read, navigate, then move subtrees and compute sizes, then lazy-load large files). Frontend loops replace this with a React and TypeScript practical: fetch with GET and POST, filter client-side, manage selections with a Set. One report describes building and running a standard algorithm problem on a company-provided laptop with a bug-fix follow-up, and losing most of the session to a machine with no toolchain installed; confirm tooling in advance.
-- **One system design round.** The pool is narrow: a DAU/MAU metrics pipeline (ingestion, aggregation, late-arriving events, double counting across day and month windows), sometimes extended into most-viewed pages for internal users and a subscription funnel, and Pastebin (API, data model, short-URL generation, expiration, read-heavy scaling). Interviewers probe whether a new analytics pipeline could degrade the production application and expect performance isolation treated as a first-class constraint.
-- **A project deep dive.** Your largest project, with technical decisions, trade-offs and your specific contributions; surface-level descriptions do not survive the follow-ups.
-- **A values or principles round.** Behavioral scenarios framed around Vanta's stated values, sometimes opening with what you have learned in the past six months, plus judgment prompts such as shipping on schedule versus fixing a bug that will leave technical debt.
-- **A leadership round**, reported in several loops: scope owned, measurable impact on the team and business, and influence above your level. It is pitched at altitude, not implementation detail, and interviewers press for concrete real cases even when the candidate was told it would be hypothetical.
-- **An AI technical deep dive**, appearing in recent loops: how large language models work at a high level, latency, cost and reliability of shipping AI features, evaluation strategy, retrieval-augmented generation, build versus buy, and a critique of Vanta's own AI assistant with a plan to improve and debug it in production. Data and AI candidates instead get an ML design round on a RAG question-answering chatbot, covering structured versus unstructured data and evaluation metrics.
+- **Motivation for the domain:** A specific reason security compliance automation interests you.
+- **Project articulation:** One recent project, your role and one trade-off, told in two or three minutes.
+- **Team and level fit:** Where your recent scope sits, since many postings hire at more than one level.
 
-The full loop is typically scheduled even when an earlier round went badly; one candidate sat the design round before hearing the outcome of a weak screen. End-to-end timelines of roughly two to three weeks are typical, and rejected candidates frequently received no specific feedback.
+Prepare a two-minute project summary and a concrete answer to why compliance automation, and ask for the round-by-round document before you hang up.
 
-## What Candidates Report
+### Sample questions for the recruiter screen
 
-- The follow-up decides the round. Unfinished second parts are the most common self-diagnosed failure: an off-by-one in the easy training-status function ate the clock and the tree aggregation never got written; a viable sweep-line plan for the failing-window query was never translated into code before the hour ended.
-- Over-engineering is a stated rejection reason in design. A candidate who answered the DAU/MAU prompt with textbook streaming architecture was told it was too heavy for what Vanta needed; a lean, incremental design after clarifying scale was what the interviewer wanted.
-- Familiar prompts still need exact requirements. One rejection on `uniq` came from not aligning with the interviewer's specific expected behavior; repeat the spec back before coding, even when the problem looks trivial.
-- Behavioral rounds are real gates. The leadership session pressed for detailed real examples per principle, and a candidate briefed to expect hypotheticals struggled to recall them under time pressure.
-- Interviewers are usually described as friendly and supportive, and the process as structured and predictable with a small question pool. Variance exists: one report describes contradictory explanations, code pasted in fragments at random line numbers, and no feedback on the proposed approach.
+Here are some questions reported by recent candidates:
 
-## Coding Questions
+- Tell me about yourself and why you want to work at Vanta.
+- Walk through a recent project: what you built, why you made the key choices, and what went wrong.
 
-Vanta's coding rounds favor problems shaped like the product's own data: dependency ordering, deduplication at scale, and compliance rollups over a group tree. Get a correct, readable baseline down fast, then spend the remaining time on the extension, because the extension is where the decision is made.
+## Online assessment
+
+Not every pipeline uses one, and versions vary widely. One candidate, after a behavioral first call, got a single letter-to-number conversion task with a hard five-minute limit: trivial logic, so the test measured speed and accuracy. In 2026, other candidates sat a six-question timed set of array, hash-map, two-pointer and grid problems, followed by a one-hour live technical interview; one advanced with five of six solved.
+
+Interviewers evaluate:
+
+- **Speed on simple logic:** A short task correct the first time, without an off-by-one that costs the window.
+- **Breadth of fundamentals:** Hash maps, two-pointer scans and grid traversal written without hesitation.
+- **Edge cases:** Empty input, unmapped characters and boundaries, which hidden tests check.
+
+Practice easy string and array problems against a visible countdown, and read the invitation for question count and allowed languages.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Convert a string of letters to numbers using a given mapping table, within five minutes.
+- Solve six array, hash-map and grid problems of mixed difficulty in one timed sitting.
+
+## Technical phone screen
+
+The screen runs 45 to 60 minutes in a shared editor. Almost every report describes one scenario in two parts, not two unrelated puzzles, and the pool is small enough to learn. The most frequent prompt is task dependency resolution: each `Task` has an id and a dependency list; given all tasks and a list of targets, return everything needed to run them, transitively, prerequisites first, with no duplicates when a task is both requested and pulled in. Follow-ups ask for every ancestor of a task, cycle handling, a recursive DFS version instead of in-degree ordering, and very large graphs.
+
+The second most frequent prompt comes straight from the product. Part one computes each employee's training status (pending, completed or overdue) and overdue days from a start day, a possibly missing trained day, a window and a check day; the exact rules vary, so restate them. Part two asks for employee counts and overdue-day totals for every group in a tree, including descendants, a post-order traversal. Other prompts are word-pattern matching by backtracking, with per-position option lists or a 2D grid variant, and a test-run logger whose follow-up is a sweep-line query.
+
+Some candidates sit a second screen: another coding problem (`uniq`, or class-dependency ordering solved recursively), an analytics design discussion, or an AI conversation. A 2025 practical variant had a candidate write fetch, create and update calls against a deliberately buggy API.
+
+Interviewers evaluate:
+
+- **Requirement capture:** Restating the mapping rule, status rules or window boundaries before coding. One rejection on a familiar `uniq` prompt came from missing the interviewer's expected behavior.
+- **Pacing to the follow-up:** Finishing part one fast enough to leave half the hour. An unfinished second part is the most common self-reported rejection cause.
+- **Readable modeling:** A small class or enum and named helpers; readability was explicitly requested on the dependency problem.
+- **Algorithm flexibility:** Moving between in-degree and recursive DFS ordering and explaining when each fits.
+
+Rehearse each family as a two-part, 50-minute exercise.
+
+> **Tip:** On the training problem, write one explicit branch per status and test three tiny inputs before moving on. A single off-by-one in that easy function cost one rejected candidate the time needed for the tree half.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given all tasks with dependency lists and a set of requested tasks, return every task to run in prerequisite order without duplicates, then list all ancestors of a given task.
+- Compute an employee's training status and overdue days, then aggregate employee counts and overdue days up a group tree.
+- Decide whether a sentence fits a number pattern when several numbers may share a word, then allow a list of numbers per position.
+- Log pass/fail results with increasing timestamps, return a test's first fail-to-pass time, then the longest window with at least k tests failing.
 
 - [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution)
-- [Recursive Class Dependency Ordering](https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf)
 - [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation)
-- [Implement Unix uniq](../../questions/algorithm/implement-unix-uniq/README.md)
 - [Word Pattern / Meta-Pattern Match (Backtracking)](../../questions/algorithm/word-pattern-meta-match/README.md)
-- [Test Run Status Monitor (Failing to Passing Windows)](../../questions/algorithm/test-status-monitor/README.md)
+- [Test Run Status Monitor (Failing → Passing Windows)](../../questions/algorithm/test-status-monitor/README.md)
 
-## System Design Questions
+## Onsite coding interview
 
-Design prompts repeat across loops and stay close to product analytics. Interviewers grade accuracy guarantees, late data, double counting and the blast radius on the production app, and they penalize architectures sized for a scale the prompt never stated.
+The onsite usually has one coding round, up to 90 minutes in some 2026 loops. The most common prompt is the `uniq` family: collapse consecutive duplicate lines like the command-line tool, return distinct elements in first-appearance order, or print a file's unique lines. Each version ends with input that no longer fits in memory, which pushes toward streaming, external sorting, or hashing elements to partitions across machines while preserving arrival order. One 2026 loop used an in-memory file-system simulator instead: create, read and navigate; then subtree moves and recursive sizes; then lazy loading of large files from a backing store.
+
+Frontend loops replace it with a React practical in mandatory TypeScript. One 2026 onsite had a candidate build and run an algorithm problem on a company-provided laptop and then fix a bug; the machine had no development tools, and most of the session was lost.
+
+Interviewers evaluate:
+
+- **Exact semantics:** Adjacent versus global duplicates, counts, case and whitespace, settled before coding.
+- **Extensible baseline:** Data structures that survive the follow-ups without a rewrite.
+- **Memory reasoning:** A concrete plan once data exceeds RAM, including what happens to ordering.
+- **Working code:** A program that runs, and a bug found and fixed while the interviewer watches.
+
+Practice `uniq` in all three framings with the memory follow-up planned in advance.
+
+> **Note:** On a provided machine, check the toolchain in the first minute and flag anything missing at once. The candidate who quietly worked around a bare laptop never reached the follow-up.
+
+### Sample questions for the onsite coding interview
+
+Here are some questions reported by recent candidates:
+
+- Implement a command-line tool that prints a file's unique lines, then adapt it to a file larger than memory.
+- Build an in-memory file system, then add subtree moves with recursive sizes, then lazy loading of large files.
+- Build a typed React view that fetches with GET and POST, filters on the client, and tracks selected rows in a set.
+
+- [Implement `uniq` — Unique Lines in a File](../../questions/algorithm/unique-lines-command/README.md)
+- [Implement Unix uniq](../../questions/algorithm/implement-unix-uniq/README.md)
+- [Frontend Practical Coding — Work Against a Provided API](../../questions/object-oriented-programming/frontend-api-practical/README.md)
+
+## System design interview
+
+The design round is a whiteboard discussion with a narrow pool. The most frequent prompt is an internal DAU/MAU metrics system: ingestion from client and server, time-bucket aggregation, storage, freshness, late events, idempotency, and users counted twice across day and month windows. Extensions rank the most-viewed pages for a small set of internal users and model a subscription funnel's conversion over configurable windows. Interviewers then ask what happens if the new instrumentation slows the production application. The other recurring prompt is a Pastebin-style service: API, data model, short-URL generation, expiration, large pastes, rate limiting and read-heavy scaling.
+
+Interviewers evaluate:
+
+- **Calibration:** The smallest architecture that meets the stated scale. A template-heavy streaming design was judged too heavy for Vanta's needs and led to a rejection.
+- **Accuracy trade-offs:** Asking whether counts must be exact before choosing exact sets or probabilistic sketches.
+- **Messy data:** Event-time handling, deduplication keys, and reload or late-event double counting.
+- **Blast radius:** Fire-and-forget emission, bounded buffers and a separate pipeline, so analytics back-pressure never reaches the product tier.
+- **Justified choices:** A reason for each database, cache and expiration policy, and the option you rejected.
+
+Prepare DAU/MAU and Pastebin end to end at a lean size and a scaled size, and lead with the lean one.
+
+> **Tip:** Ask about scale, accuracy and audience (internal dashboard or customer-facing) in the first five minutes, propose a simple database-backed design, and add streaming only when a stated requirement forces it.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a system that computes and serves DAU, MAU and their ratio, handling late events and double counting across windows.
+- Extend it to rank the most-viewed pages for internal users and to measure conversion through a subscription funnel.
+- Design a Pastebin-style service with short URLs, expiration, large pastes and read-heavy traffic.
 
 - [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system)
-- [RAG Q&A Chatbot - ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design)
+- [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates)
 
-## Behavioral Questions
+## AI technical deep dive
 
-Behavioral surface area is larger than the round count suggests: a values round, a project deep dive graded like a technical session, and often a separate leadership conversation about scope and organizational impact. Bring one substantial project you can defend for an hour, plus distinct concrete stories for conflict, prioritization, mentoring and trade-offs.
+Loops from 2025 and 2026 increasingly include a conversational AI round with no live coding. Topics include how large language models work (architecture, training, inference), the latency, cost and reliability of AI features, prompt engineering versus fine-tuning versus retrieval-augmented generation, output evaluation, and third-party models versus in-house hosting. In one 2026 loop the round centered on Vanta's own AI assistant: analyze it, propose improvements, and explain how to debug its production failures. Data and AI candidates get an ML design round instead, on a retrieval-augmented question-answering chatbot over structured and unstructured data, with evaluation metrics.
+
+Interviewers evaluate:
+
+- **Systems understanding:** Models treated as components with failure modes, not a black-box API call.
+- **Product ownership:** Concrete opinions on the assistant from a user's and an owner's view.
+- **Evaluation discipline:** Offline and online metrics, regression checks, and catching bad answers in production.
+- **Cost and latency trade-offs:** Caching, model choice and build-versus-buy in a compliance context.
+
+Use Vanta's AI features before the loop and arrive with two specific improvements and a debugging plan for each.
+
+### Sample questions for the AI technical deep dive
+
+Here are some questions reported by recent candidates:
+
+- How would you improve Vanta's AI assistant, and how would you debug a wrong answer it gave a customer?
+- Design a question-answering chatbot over structured and unstructured data, and define how you would measure its quality.
+
+- [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design)
+
+## Principles, leadership and project deep dive interviews
+
+Most onsites include two or three conversational rounds, and each is a real gate. The project deep dive spends an hour on your largest project: architecture, decisions, trade-offs and which parts were yours. The principles (values) round often opens with something you learned in the past six months, then moves to scenarios such as shipping on schedule versus fixing a bug that adds technical debt. Standard prompts cover conflict, a failed project, prioritizing when everything is urgent, stakeholder communication, scope creep and mentoring.
+
+The leadership interview, sometimes run by the hiring manager, stays at altitude: what you shipped, the scope you owned, what changed for the team and the business, and how you influenced senior leadership. Implementation detail is steered away unless relevant. In one loop the candidate was told to expect hypotheticals and was instead asked for a real, detailed case for every principle.
+
+Interviewers evaluate:
+
+- **Depth under follow-up:** Specific contributions, numbers and decisions; surface-level descriptions do not survive.
+- **Trade-off judgment:** A defensible rule for when debt outranks a deadline, with a real case.
+- **Learning orientation:** Something learned deliberately and recently that changed how you work.
+- **Leadership altitude:** Outcomes, ownership and upward influence, especially in senior and staff loops.
+- **Self-awareness:** Owning a failure plainly.
+
+Build eight to ten real stories mapped to likely principles, plus one project you can defend for a full hour.
+
+### Sample questions for the principles, leadership and project deep dive interviews
+
+Here are some questions reported by recent candidates:
+
+- What is something significant you learned in the past six months, and how did you learn it?
+- A feature is due to launch and a quick bug fix would add technical debt. What do you do, and when would you delay?
+- Describe a project you led: its scope, its measurable impact, and how you worked with senior leadership.
 
 - [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq)
-- Project Deep Dive
 
-## How to Prepare
+## How Vanta makes hiring decisions
 
-- Drill the dependency-resolution family until automatic: transitive collection from multiple requested roots, prerequisite-before-dependent ordering, duplicate suppression, ancestor queries, and cycle detection, in both the in-degree and recursive DFS forms.
-- Rehearse the compliance rollup: a per-employee status from a few integer days and a window, then employee counts and overdue totals aggregated up a group tree by post-order traversal, pivoting from the single-entity version without restarting your design.
-- Practice `uniq` with the memory follow-up already in mind: first-appearance versus adjacent-duplicate semantics, then what changes when the input exceeds memory.
-- Time-box in thirds (baseline, follow-up, edge cases) and dry-run small examples before coding; reported rejections are dominated by clocks, not concepts.
-- For design, start with the smallest architecture that meets the stated scale, ask about accuracy and volume before drawing, and name the trade-offs of the option you rejected; keep a DAU/MAU pipeline and a Pastebin design ready end to end.
-- Prepare leadership and values stories as concrete past cases mapped to likely principles, including a ship-on-time-versus-tech-debt decision and something you learned recently on purpose.
-- Be ready to discuss AI systems as both engineer and product owner, with a real opinion on how you would improve and debug Vanta's assistant; and ask the recruiter which rounds run locally, what is provided, and how code is submitted.
+Feedback from every round is weighed together after the onsite, and the hiring manager has a direct voice, often through the leadership interview. The full onsite is usually held even after a weak early round: one candidate sat the design round before hearing the result of a poor screen, and the process ended after it. Many postings hire at more than one level, and the leadership and project rounds set where you land. Rejected candidates often receive no specific feedback, and no fixed cooldown period has been reported.
+
+> **Tip:** An unfinished coding follow-up or an over-built design was each enough to sink a loop on its own.
+
+## How to prepare for the Vanta interview
+
+1. **Drill the dependency family:** Multiple targets, prerequisite-first order, no duplicates, ancestors and cycles, in in-degree and recursive DFS form.
+2. **Rehearse the compliance rollup:** A status-and-overdue-days function with explicit branches, then a post-order aggregation over a group tree, as one 50-minute exercise.
+3. **Plan the `uniq` memory follow-up:** Adjacent and global semantics, then streaming, external sort and hash partitioning that preserve arrival order.
+4. **Split every coding round in halves:** Stop part one when it is correct and keep half the time for the extension.
+5. **Lead with the lean design:** Clarify scale and accuracy, propose the simplest design that fits, and isolate analytics from the production path.
+6. **Form a view on Vanta's AI assistant:** Two improvements, each with an evaluation and production-debugging plan.
+7. **Prepare real stories for every principle:** A deadline-versus-debt decision, a recent deliberate learning, and a led project told at leadership altitude.
+8. **Confirm logistics in writing:** The round-by-round document and the coding environment.
+
+## About working at Vanta
+
+Vanta, founded in 2018 and headquartered in San Francisco, builds a trust management platform that collects evidence continuously from a customer's cloud, code, identity and HR systems and tracks controls for frameworks such as SOC 2 and ISO 27001. Engineering is organized into product-area teams that own features end to end, largely on TypeScript, React and Node.js, and AI agent features increasingly handle security questionnaires and vendor reviews. The company has passed 1,000 employees, hires for San Francisco and New York offices, and opens many engineering postings to remote US candidates.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer | Shipping well-scoped features within a product team | One team's features |
+| Senior Software Engineer | Independently driving complex projects and mentoring | A team's systems and technical decisions |
+| Staff Software Engineer | Setting technical direction and leading cross-team projects | Several teams or a product area |
+
+Vanta hires engineers across product and platform groups. Teams include:
+
+- **GRC products:** Frameworks, controls and the authoring experience for compliance programs.
+- **Evaluation engine:** Continuous testing of collected evidence against controls.
+- **Cloud, code and security:** Integrations that pull security configuration from cloud providers and code hosts.
+- **Personnel workflows:** Onboarding, offboarding and security-training tracking, the domain behind the training-compliance question.
+- **Vendor risk management:** Vendor onboarding, security reviews and questionnaire automation.
+- **Core platform, data and monitoring:** Shared infrastructure and data pipelines.
+- **Self-serve:** Activation, trials and in-app purchasing.
+
+### Experience and education requirements
+
+Entry-level postings ask for a recent bachelor's or master's degree in computer science or equivalent, one to two years of experience including internships, and willingness to work from the San Francisco or New York office. Mid-level roles typically ask for three or more years, senior roles five or more with technical leadership, and staff roles around ten. Postings value interest in security and startup experience.
+
+## FAQs about the Vanta interview
+
+### How long does the Vanta interview process take?
+
+Usually three to four weeks from the recruiter call to a decision, and up to six when the onsite is split or rescheduled.
+
+### What is the hardest round of the Vanta interview?
+
+The second half of the coding screen: the tree aggregation, the failing-window query or the 2D pattern match, where rejected candidates usually had a correct plan they did not finish coding. On the onsite, system design catches over-builders.
+
+### What language should I use?
+
+Any mainstream language works on the coding rounds, and Python appears most often. Frontend practicals require TypeScript with React.
+
+### What do Vanta engineering postings pay?
+
+Vanta publishes base pay ranges on US postings. Recent ranges are roughly $160K–$190K for mid-level fullstack roles, $195K–$265K for senior roles and $238K–$280K for staff roles, with equity on top.
+
+### Is the Vanta interview remote?
+
+Yes. Screens and onsites are virtual, and onsites can be split across days. One reported onsite used a company-provided laptop, so confirm the setup in advance.
 
 ---
 

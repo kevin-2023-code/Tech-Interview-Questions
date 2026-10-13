@@ -6,98 +6,275 @@
 
 ---
 
-Infrastructure Engineer candidates at ByteDance are mostly rejected in rounds with little or no coding, and often right after they thought they had done well. One SRE candidate was told by the recruiter that the networking phone screen had gone well and was asked for availability. A template rejection arrived two days later. Another finished a 30-minute round of Linux commands, a slow-service triage scenario and a clean valid-parentheses solution, and was rejected the next day. A third left an onsite confident after a smooth backtracking problem and was rejected within 48 hours. The deciding signal is how deep your Linux and networking reasoning goes under follow-up questions, and in the one offer-winning loop reported, failing any stacked round would have cancelled the rest.
+ByteDance infrastructure loops are decided mostly in conversation rather than in code. Friendly-sounding knowledge checks on Linux, networking and operations go three or four follow-ups deep, and candidates who answered every first-level question were rejected a day or two later. Rounds are gated one at a time, so a weak shell script or a small coding slip ends the loop before the stronger rounds happen. The interviewing team is often not the team in the posting: an SRE applicant expecting a cloud and Kubernetes conversation was interviewed by an internal Hadoop group.
 
-## Interview Process
+This guide breaks down each stage of the ByteDance Infrastructure Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 92 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## ByteDance Infrastructure Engineer interview process
 
 <!-- guide-diagram -->
 ![ByteDance Infrastructure Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/bytedance--infrastructure-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Application or recruiter contact (about one week).** Infrastructure loops start with a cold application, a referral or LinkedIn outreach. One network monitoring SDE loop in San Jose ran on a tight timeline: recruiter contact about a week after applying, round one 4 days later, a pass notice 2 days after that, round two 3 days later and round three 4 days after that. Ask which platform the team owns (traffic, network, data infrastructure, compute, video). The fundamentals mix changes a lot between teams.
+The track covers site reliability engineers (SREs), network and traffic engineers, and platform software engineers. Each team runs its own loop: network teams lean on protocols and Linux, platform teams on distributed systems and middleware such as Kafka and Redis.
 
-2. **Linux and networking screen (30-60 minutes).** This is often the first technical call and sometimes the only one. It is an open-ended knowledge check with little or no coding. Reported topics: IP routing, MAC addresses and ARP, the PXE boot sequence with DHCP and TFTP, OSI layers, TCP versus UDP, the TCP three-way handshake, virtual memory and whether it can exceed physical RAM, how HTTPS moves from asymmetric to symmetric encryption, common Linux commands, and "a service is responding slowly, walk me through triage." Some interviewers go down to textbook detail, such as the exact size of a TCP segment. Several rejections came from this round alone.
+Most loops are three to five video or phone rounds of 30 to 60 minutes, scheduled one at a time; failing a round cancels the rest. Fast loops close in about two weeks from first contact, while others stall for a week after a team change. Early-career candidates may take an online assessment first, mid-level loops add a design hour, and senior loops add a second design round and a harder project grilling.
 
-3. **Coding and data structures (45-60 minutes).** Mainstream medium problems, graded on a complete, self-tested implementation. Reported problems: implement BST search and delete, then write the whole tree class and its test cases; all combinations of k numbers from 1 to n; topological order of a DAG plus cycle detection with three-color marking; all paths and all cycles in a hard-coded directed graph; multi-source BFS on an elevation grid plus number of islands; sliding window maximum; longest repeating character replacement; search in a rotated sorted array plus a QuickSelect discussion. Interviewers watch edge cases and structure. Some network teams run three video rounds of 45-55 minutes, each pairing a resume discussion (including your view on applying LLMs to operations) with one coding problem.
+Here's what the interview process can look like:
 
-4. **Operations and troubleshooting drill (about 60 minutes).** This is the round most specific to the track. A rapid-fire version covers browser connectivity, DNS diagnosis, a full disk, IPv4 versus IPv6, attaching a network device to a node, port forwarding versus tunneling, HTTP status codes, libvirt and CDNs. A scenario version starts from a slow backend and expects you to go from system metrics (CPU, memory, disk I/O, network) through GC, database contention and timeouts to the four golden signals, dashboards and alerts. Disk-full questions go past `df -h` and `du -sh` to `lsof` and `fuser`, because the interviewer wants the process holding the space. Hosting an application three ways (package manager, Docker, VM) is asked with concrete steps and trade-offs for each. Some teams add a live shell script and questions on processes, signals and filesystems.
+- **Recruiter or HR screen (sometimes skipped):** A short call on background, location and level.
+- **Online assessment (early-career and intern roles):** Three or four timed implementation problems graded on hidden tests.
+- **Linux and networking fundamentals screen:** 30 to 60 minutes of oral questions on protocols, operating systems and middleware, often with one short problem.
+- **Coding interviews (one to three):** 45 to 60 minutes each, a resume discussion plus one or two medium problems you test yourself.
+- **Operations and troubleshooting round:** Scenario drills on full disks, slow services, DNS failures and deployment methods, sometimes with a live shell script.
+- **System design interview (mid-level and above):** An hour on a reliability-heavy design such as payments, top-K analytics or a scheduler.
+- **Hiring manager and project deep dive:** Your production incidents and stability decisions, sometimes with coding, often in Chinese.
 
-5. **System design and platform internals (about 60 minutes).** Prompts are general but graded on reliability. One offer-winning candidate designed a Stripe-like payment platform, and the discussion centred on idempotency, transactions, the data model and security, not the diagram. Other prompts are native to infrastructure: a scalable service, a job scheduler, or a real-time top-K pipeline where exact versus approximate counting and throughput estimates decided the round. Network and platform teams ask about Kafka rebalancing and consumer groups, Redis persistence, MySQL versus Redis, concurrency versus parallelism and Python's GIL. One China-based network group also covered RAG pipelines, agent memory and tool integration in the same hour.
+> **Tip:** Ask the recruiter which team is interviewing and what it owns (traffic, network, data infrastructure, compute) before you prepare. A traffic SRE team and a Hadoop platform team ask almost entirely different fundamentals.
 
-6. **Behavioral and resume deep dive.** The final conversation walks through your projects with an operational focus: production incidents you owned, how you diagnosed them, and the stability decisions you made. Practical Linux command questions are often added at the end. Rounds may be in Chinese, and the interviewer may have an accent you need to adjust to.
+## Recruiter or HR screen
 
-7. **Gating and turnaround.** The offer-winning SRE loop ran four phone rounds back to back, on the understanding that failing an earlier one cancelled the rest. It went from first contact to offer in about two weeks. Other outcomes came one to two days after a round, including reversals of positive verbal feedback.
+Loops begin with recruiter outreach, a referral or a cold application. The HR call, when there is one, runs about 30 minutes on background, location, availability and level, and several candidates went straight into a technical round instead. Recruiters schedule rounds one at a time and often do not say what each covers; rounds billed as system design turned out to be pure coding.
 
-## What They Actually Evaluate
+Level and headcount are settled here more than candidates expect. One candidate passed a full loop at 2-1 and was told the team only had headcount at 2-2; another asked to interview at 2-2 and was offered only a lower level.
 
-### Domain Deep Dive
+Interviewers evaluate:
 
-This is the heaviest-weighted competency and it decides most outcomes. One rejected candidate concluded that his Linux fundamentals were weaker than he had thought, and that day-to-day scripting had not prepared him to write a shell script live. Interviewers keep asking the next question: which process is filling the disk and how you would prove it, why a DNS lookup fails, what the kernel does with a signal. A list of keywords invites the follow-up that exposes the gap. Explaining why each command works is what scores.
+- **Team fit on paper:** Whether your stack (Kubernetes, networking, Hadoop, storage) matches the interviewing team, not the posting.
+- **Level alignment:** Years and scope that justify the target band.
+- **Location and hours:** San Jose relocation, intern availability, and comfort with evening calls to colleagues in China.
+- **Language:** Whether rounds can run in Mandarin, which many interviewers prefer.
 
-- [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/questions/sre-linux-networking-troubleshoot)
-- [Write a Shell Script](https://trueinterview.io/questions/e4cf0983-ff34-459a-94c1-19fd845d217f)
-- [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster)
+Confirm the interviewing team, its stack, the target level and each round's format before the first technical call.
 
-### Coding and Algorithm
+### Sample questions for the recruiter or HR screen
 
-Expect one or more medium-difficulty hours, with the bar at finished code that you have tested yourself. Graphs and grids dominate, along with sliding windows and structure implementation such as a BST with its own test harness. In one network-team loop, a minor bug in rotated-array search stood out more than a correct approach. Because rounds are stacked, a weak coding hour can cancel the fundamentals rounds where you would have been strongest.
+Here are some questions reported by recent candidates:
+
+- Tell me about your current responsibilities and the systems you operate.
+- Are you willing to work in San Jose, and which months are you available?
+- Are you comfortable interviewing in Mandarin?
+
+## Online assessment
+
+Early-career, new-grad and intern candidates may get a timed assessment of three or four problems, graded automatically. These are specification-heavy implementation tasks: a memory allocator over a 0/1 array whose blocks must start at multiples of 8 and are freed by ID, counting alternating-parity subarrays, a drone-relay walking-distance simulation, justified page layout with a border, and counting house segments after sequential demolitions. Experienced hires generally skip this stage.
+
+Interviewers evaluate:
+
+- **Reading every rule:** Alignment, tie-breaking and inclusive bounds decide whether hidden tests pass.
+- **Clean decomposition:** Splitting layout and simulation problems into small steps.
+- **Complexity within limits:** Inputs up to 100,000 elements rule out quadratic scans.
+
+Practice timed simulation and string-formatting problems where the difficulty is in the specification, not the algorithm.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Simulate an allocator that places each block at the leftmost free run starting at a multiple of 8, returns an ID, and frees every cell of an ID on erase.
+- Given houses at distinct positions and an order of demolitions, report the number of contiguous segments after each removal.
+
+- [Aligned Memory Allocator and Related Tasks](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026)
+- [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md)
+- [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions)
+- [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e)
+
+## Linux and networking fundamentals screen
+
+This is often the first technical call and sometimes the only one: 30 to 60 minutes of open questions with little or no coding. Network and SRE screens cover IP routing, MAC addresses and ARP, PXE boot through DHCP and TFTP, OSI layers, TCP versus UDP, the three-way handshake, and how HTTPS moves from asymmetric to symmetric encryption and how a debugging proxy decrypts it with a trusted root certificate. Operating-system questions include whether virtual memory can exceed physical RAM, processes and signals, and the path from source code to executable. Platform teams add Kafka rebalancing and consumer groups, Redis persistence, MySQL composite and covering indexes, the CAP theorem and Python's GIL.
+
+Some interviewers go to textbook detail, such as the exact size of a TCP segment. A China-based network group spent 30 minutes on retrieval-augmented generation, agent memory and tool calling over MCP before a linked-list problem; another round ran 50 minutes of fundamentals and 10 of coding.
+
+Interviewers evaluate:
+
+- **Mechanism, not vocabulary:** Why ARP is needed on a local segment, or what the kernel does with a signal.
+- **Depth under follow-up:** The third "why" or "what if" is where answers are graded.
+- **Breadth across layers:** Moving from the network stack to the OS to middleware in one conversation.
+- **AI-for-operations judgment:** A grounded view on applying LLMs and agents to operations, which several teams now ask.
+
+Rebuild networking and operating-system fundamentals to the mechanism level and rehearse explaining each one aloud in two minutes.
+
+> **Note:** Positive verbal feedback is not a pass. One SRE candidate was told the networking screen had gone well and asked for availability, then received a template rejection two days later; another answered a 30-minute Linux and triage round comfortably and was rejected the next day.
+
+### Sample questions for the Linux and networking fundamentals screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through how a machine boots over the network with PXE, including what DHCP and TFTP each provide.
+- Can a process's virtual address space exceed physical memory, and what makes that work?
+- During an HTTPS session, is data encrypted symmetrically or asymmetrically, and how can a debugging proxy read it?
+
+- [Explain Virtual Memory Beyond Physical RAM](https://trueinterview.io/questions/explain-virtual-memory-beyond-physical-ram)
+- [Explain the TCP Three-Way Handshake and Its Guarantees](https://trueinterview.io/questions/explain-the-tcp-three-way-handshake-and-its-guarantees)
+- [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection)
+- [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/questions/rag-agent-kafka-oral-drill)
+
+## Coding interviews
+
+Expect one to three coding rounds of 45 to 60 minutes, usually opening with 15 to 30 minutes of resume discussion and leaving 25 to 30 for one or two medium problems. Reported problems: BST search and delete followed by a full tree class with tests, combinations of k numbers from 1 to n, DAG topological order with three-color cycle detection, all paths and cycles in a hard-coded directed graph, multi-source BFS on an elevation grid, sliding window maximum, search in a rotated sorted array, restoring IPv4 addresses, and reversing a linked list in groups of k. Code runs in a shared editor, often the Lark codepad, and you write and run your own tests.
+
+A network monitoring loop at level 1-2 ran three video rounds of 55, 45 and 45 minutes, each pairing a conversation about LLMs in operations with one problem.
+
+Interviewers evaluate:
+
+- **Finished, tested code:** Your own edge cases; a correct rotated-array approach with a minor bug was held against one candidate.
+- **Pointer and boundary discipline:** Linked-list reconnection and binary-search bounds cost the most time.
+- **Clarifying first:** Misreading a binary search variant cost one candidate 30 to 40 minutes of a 60-minute round.
+- **Complexity on request:** A brute force first, then the optimal bound when asked.
+
+Practice graph, grid, sliding-window and linked-list mediums until each takes under 25 minutes including tests, in an editor without autocomplete.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement search and delete in a binary search tree, then write the full tree class and tests proving both.
+- Given a directed graph as a hard-coded adjacency list, print every path between two nodes and every cycle, each cycle once.
+- Return all valid IPv4 addresses formed from a digit string, then generalize to any number of segments.
 
 - [BST Node Search and Delete](https://trueinterview.io/questions/31cfc7de-9b80-4134-aa0c-dca151fdaf0b)
 - [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a)
 - [Enumerate All Simple Paths and Directed Cycles](https://trueinterview.io/questions/da77d8f0-0d6f-5c7b-b2d3-7817a85ee644)
+- [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md)
 - [Sliding Window Maximum](https://trueinterview.io/questions/sliding-window-maximum)
-- [Choose k numbers from 1..n without repetition (combinations / permutations)](https://trueinterview.io/questions/a0485034-7630-45ac-8ddd-d194614132a0)
 
-### System Design
+## Operations and troubleshooting round
 
-One hour, graded on operating a system rather than drawing it: idempotency and failure handling for payments, and accuracy SLAs, sliding-window mechanics and sketch error bounds for analytics. One candidate named back-of-the-envelope scrutiny and not asking the accuracy question early as the turning points of a rejected round.
+This is the round most specific to the track, typically about an hour and sometimes folded into a fundamentals call. A rapid-fire version covers browser connectivity failures, DNS diagnosis, a full disk, IPv4 versus IPv6, attaching a network device to a node, port forwarding versus tunneling, HTTP status codes, libvirt and CDNs, each with "what if" follow-ups. A scenario version starts from a backend that suddenly slowed and expects a path from host metrics through garbage collection, database contention, timeouts and excessive logging to dashboards and alerts on latency, traffic, errors and saturation.
+
+Disk-full questions go past `df -h` and `du -sh` to `lsof` and `fuser`, because the interviewer wants the process holding the space. Hosting an application three ways (package manager, Docker, virtual machine) is asked with concrete steps and trade-offs in isolation, overhead and rollback. Some teams add questions on processes, signals and filesystems and a shell script written live.
+
+Interviewers evaluate:
+
+- **Structured triage:** Symptom, hypothesis, evidence, safe mitigation, in that order.
+- **Knowing why a command works:** What `lsof` reveals about deleted-but-open files, not just its name.
+- **Observability design:** Which signals to alert on and how to drill from infrastructure to code.
+- **Hands-on scripting:** A working shell script without a reference, which daily use does not guarantee.
+
+Rehearse five triage scenarios end to end aloud, and write a few log-parsing shell scripts from a blank file.
+
+> **Tip:** Treat every answer as the start of a chain. A candidate who left this round confident after naming the right disk and monitoring commands was rejected two days later, and concluded the follow-ups had been the real test.
+
+### Sample questions for the operations and troubleshooting round
+
+Here are some questions reported by recent candidates:
+
+- A production host's disk is full: confirm it, find the directory, then find the process still holding the space.
+- A backend service suddenly responds slowly: isolate the bottleneck and say what you would monitor afterward.
+- Host the same application with a package manager, a container and a virtual machine, with the steps and trade-offs of each.
+
+- [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/questions/sre-linux-networking-troubleshoot)
+- [How to triage slow service alerts](https://trueinterview.io/questions/how-to-triage-slow-service-alerts)
+- [Write a Shell Script](https://trueinterview.io/questions/e4cf0983-ff34-459a-94c1-19fd845d217f)
+
+## System design interview
+
+Mid-level and senior loops include one or two design hours. Prompts are general but graded on operating the system rather than drawing it. An offer-winning SRE designed a payment platform, and the discussion centered on idempotency, transactions, data model and security. Other prompts include a scalable service, a job scheduler, a distributed key-value store after a Kafka deep dive, and a real-time top-K pipeline over a sliding window. Some interviewers give a two-sentence prompt and no further help; senior candidates were asked for an AI feature's serving, monitoring and rollout infrastructure.
+
+Interviewers evaluate:
+
+- **Requirements you pin down:** Accuracy, consistency and latency targets stated before components.
+- **Numbers:** Write throughput, read QPS, storage per event and bandwidth, justified quickly.
+- **Failure handling:** Idempotent retries, exactly-once processing and late or out-of-order events.
+- **Mechanics of the tools you name:** Window types, count-min sketch error bounds, Kafka partitioning.
+
+Practice infrastructure-flavored designs that open with an accuracy question and a one-minute estimate.
+
+> **Note:** A rejected top-K candidate named two turning points: not asking early whether the ranking had to be exact, and estimates that did not survive scrutiny. Sparse prompts are deliberate; state assumptions aloud and design against them.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a payment platform like Stripe, covering idempotency, transaction handling, data model and security.
+- Design a real-time pipeline serving the top K items over a sliding window, and say when approximate counting is acceptable.
+- Design a distributed key-value store after explaining how Kafka guarantees ordering and durability.
 
 - [Design Payment System](https://trueinterview.io/questions/payment-platform-design)
 - [Recent Like Count and Top Posts in a Sliding Window](https://trueinterview.io/questions/recent-like-count-and-top-posts)
 - [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md)
+- [Design a Monitoring Dashboard with Explicit Latency Goals](https://trueinterview.io/questions/design-a-monitoring-dashboard-with-explicit-latency-goals)
 
-### Project Deep Dive
+## Hiring manager and project deep dive
 
-Projects are discussed with a production focus: incidents you personally handled, the metrics you watched and what you changed afterwards. Some interviewers read your resume live and ask very specific low-level questions about whatever they land on.
+The final conversation walks through your projects with an operational focus: incidents you owned, how you diagnosed them and the stability decisions you made. Linux command questions often close the round, and some managers code: one asked for a key-value store with snapshot and restore. Manager and director rounds frequently run in Chinese; one director round was a 20-minute walkthrough of a recent project.
 
-- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
+Resume drills can dominate any round: one interviewer spent 40 minutes on the resume and left under 20 for coding.
 
-## What They Don't Test
+Interviewers evaluate:
 
-- **Hard algorithm exotica.** Coding stays at medium difficulty (graphs, BST, sliding window). A finished, tested implementation is worth more than a rare technique.
-- **Cloud vendor product knowledge.** No report asked about managed-service catalogs. Questions go to Linux, networking protocols and virtualization primitives like libvirt.
-- **Polished architecture diagrams.** Design rounds reward reasoning about reliability and trade-offs over whiteboard polish.
-- **Command-name recall alone.** Naming `lsof` scores little unless you can explain what it reveals and what you would do next.
+- **Ownership of incidents:** What you personally did, the evidence you used and the fix that stuck.
+- **Stability versus delivery judgment:** When you slowed a release or added safeguards, and why.
+- **Implementation-level recall:** Schema, index and concurrency choices in your own systems.
+- **Composure:** Staying structured when the interviewer interrupts, goes silent or switches language.
 
-## The Real Filter
+Prepare three incident stories and one system you can defend line by line, in English and ideally Mandarin.
 
-The main filter is fundamentals depth in rounds that feel like conversations. Candidates misjudge these because there is often no code and the interviewer seems friendly. But a correct first-level answer is only the start, and the grade comes from the second and third follow-ups. Positive verbal feedback has been reversed within two days. Prepare each networking and OS topic to the mechanism level, and practice explaining a triage out loud: symptom, hypothesis, evidence, safe mitigation.
+### Sample questions for the hiring manager and project deep dive
 
-The second filter is the stacked schedule. With back-to-back rounds that cancel on failure, one uneven area (shell scripting, a coding slip, a weak design) ends a loop you would otherwise have passed. Consistency across all areas matters more than excelling in one.
+Here are some questions reported by recent candidates:
 
-The third filter is team fit and the evaluation environment. Some network roles felt closer to operations than engineering, some interviewers had not read the resume beforehand, and rounds switch to Chinese. Ask what the role actually owns, and stay composed when a round is unstructured.
+- Is your background more development or stability, and what is the most memorable incident you handled?
+- When an agent's call to an external tool fails, how would you trace it end to end?
+- Implement an in-memory key-value store that supports snapshot and restore.
 
-## Data Source
+- [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project)
+- [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents)
+- [Trace and Debug Agent Tool-Call Failures](https://trueinterview.io/questions/trace-and-debug-agent-tool-call-failures)
+- [In-Memory Key-Value Store with Snapshot and Restore](https://trueinterview.io/questions/5534e3f3-24b4-58f4-8835-8f1258d5cd67)
 
-Based on 92 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+## How ByteDance levels and evaluates Infrastructure Engineer candidates
 
-## FAQ
+Each round is a gate: a failed round ends the loop, so outcomes often arrive within a day. The level (1-2, 2-1, 2-2 and up) depends on team headcount as much as performance, and hiring managers use the resume discussion to set it. Candidates were told a passed loop did not matter because no seat existed at their level, or that only a down-level was available. When a team picks someone else, recruiters sometimes rematch the candidate to another team, which restarts part of the loop. Feedback is rarely given; one rejection cited a policy against it, and an appeal over an interviewer's conduct earned a new round but still ended in a vague rejection.
 
-**What is it like to work at ByteDance as an Infrastructure Engineer?**
+> **Tip:** Keep one ByteDance application active at a time. Interview records are shared across loops, so a weak round with one team can follow you to the next, and graduate applicants are limited to two positions across ByteDance and its affiliates.
 
-The interview reports cover hiring rather than daily work. What is documented: infrastructure teams run traffic, network monitoring, data and video platforms at very large scale, and many coordinate with engineers in China, which means evening meetings in US time for many teams. One candidate's network monitoring loop suggested a role closer to routine operations than project work, so ask about the scope.
+## How to prepare for the ByteDance Infrastructure Engineer interview
 
-**What is the engineering culture like?**
+1. **Confirm the team, level and round formats:** Ask who interviews, what they own and whether headcount exists at your level.
+2. **Rebuild fundamentals to the mechanism level:** ARP, routing, PXE, TCP and TLS handshakes, virtual memory, signals, and Kafka and Redis internals.
+3. **Drill triage scenarios aloud:** Full disk, slow service, DNS failure and broken connectivity, each taken three follow-ups deep.
+4. **Write shell scripts from a blank file:** Log parsing, cleanup and process inspection without a reference.
+5. **Finish and test medium code in 25 minutes:** Graphs, grids, sliding windows and linked lists, with your own tests.
+6. **Open designs with accuracy and numbers:** Ask whether results must be exact, estimate load, then design for retries and failure.
+7. **Prepare incident stories and an LLM-for-operations view:** Several teams ask how agents could help operations work.
+8. **Practice in Mandarin if you can:** Many rounds switch language without warning.
 
-Grounded in fundamentals and operations. Interviewers value knowing why a system behaves as it does over tool familiarity, and increasingly ask how you would apply LLMs and agents to operations work. Interviewer style ranges from collaborative to terse.
+## About the ByteDance Infrastructure Engineer role
 
-**How hard is it to get in?**
+Infrastructure engineers build and operate the platforms under TikTok, Douyin, CapCut and ByteDance's other products: hyperscale data centers, a global backbone and edge network, Kubernetes-managed compute across on-premises and public cloud, and storage and data systems. SRE work mixes incident response and capacity planning with building automation. Many teams work closely with engineers in China, which means evening meetings for US staff. US SRE postings list base pay from roughly $137K to the high $300Ks, plus equity.
 
-Harder than the medium coding problems suggest, because breadth is examined in depth: Linux, networking, virtualization, scripting, design and coding. Several candidates were rejected after rounds they felt were strong. When it works, the loop is fast, and one offer came about two weeks after first contact.
+ByteDance hires Infrastructure Engineers across several groups. Teams include:
 
-**Which round is hardest?**
+- **Traffic infrastructure:** Layer 4 load balancing, layer 4 and 7 acceleration, global ingress, web application firewall and CDN cache.
+- **Networking:** Backbone, data center, public cloud and edge network design, and software-defined networking.
+- **Infrastructure platform:** Capacity delivery, asset management and server fleet lifecycle tooling.
+- **Data infrastructure:** The internal ByteCloud platform for deployment, service governance and observability, plus Hadoop and streaming platforms.
+- **Storage, compute and database SRE:** Reliability for the core storage, computing and database systems.
 
-The Linux and networking drill. It covers the widest range, follows every answer with "what if," and rejections from it often come with no explanation.
+### Infrastructure Engineer experience and education requirements
+
+New-grad postings ask for a bachelor's or master's in computer science or a related field, with solid data structures, algorithms, operating systems and networking. SRE postings look for TCP/IP, BGP and DNS knowledge and experience with Kubernetes, Docker, Nginx, load balancers, logging stacks and Hadoop. Go, Python and Java are common, and Linux depth is assumed at every level.
+
+## FAQs about the ByteDance Infrastructure Engineer interview
+
+### How long does the ByteDance Infrastructure Engineer interview process take?
+
+About two to four weeks when it moves: one SRE loop went from first contact to offer in about two weeks, and a network monitoring loop ran three rounds within about two weeks of the recruiter's call. Loops stall after team changes, and some candidates heard nothing after passing a round.
+
+### What is the hardest round of the ByteDance Infrastructure Engineer interview?
+
+The Linux and networking fundamentals screen. It covers the widest ground, follows every answer with another "why", and its rejections usually arrive without explanation after a conversation that felt positive.
+
+### Is there an online assessment?
+
+Mostly for early-career and intern roles, which may get three or four timed implementation problems. Experienced candidates usually start with a recruiter call or a technical round.
+
+### Will the interview be in Chinese?
+
+Often. Many interviewers are Mandarin speakers and switch to Chinese, sometimes without asking, especially in manager and director rounds. English rounds are common too; say early which you prefer.
 
 ---
 

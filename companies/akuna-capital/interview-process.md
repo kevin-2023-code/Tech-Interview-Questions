@@ -8,71 +8,226 @@
 
 ---
 
-Akuna Capital runs one of the more assessment-heavy loops in proprietary trading, and it grades explicit reasoning as hard as it grades correct output. This guide goes deeper than the process summary on the company page: how each stage is actually run, what interviewers probe, and where candidates fail. It draws on 21 real Akuna Capital questions and 35 candidate interview reports.
+Akuna Capital filters most candidates before anyone speaks to them: a coding assessment, a timed math and probability battery, or a recorded video math test, depending on the track. The live rounds then score reasoning as much as output. One candidate who never finished a follow-up got an offer on the discussion, while another wrote optimal-complexity code and was rejected. Trading mechanics such as ticks, order books and cancellations show up even in developer screens.
 
-## Interview Process
+This guide breaks down each stage of the Akuna Capital interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 35 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Akuna Capital interview process
 
 <!-- guide-diagram -->
 ![Akuna Capital interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/akunacapital/process.webp)
 <!-- guide-diagram -->
 
-The online assessment is where most of the filtering happens, and its exact shape depends heavily on the track and posting. Developer-track assessments are usually delivered on HackerRank and come in a few reported flavors: a classic set of three algorithmic problems in roughly 60 to 90 minutes; a mixed-format battery that adds SQL multiple choice, a code-trace exercise, and a small object-oriented design task (a communications handler with connect, hangup, and clear operations is a recurring one); and, for some positions, a 72-hour take-home in which you build a working order matching engine with price-time priority, IOC and GFD order types, and cancel, modify, and print operations. The coding problems themselves sit at medium difficulty and reward pattern recognition: minimum swaps via cycle decomposition, prefix sums, greedy selection after sorting, and dynamic programming with a state restriction all recur across reports. Trading-track candidates instead face a battery of speed math, sequence, probability, and market-making assessments, and research candidates get a recorded video assessment of mathematics under strict per-question clocks; both are covered in the role guides below.
+The shape depends on the track you apply to. Developer candidates (C++ or Python) take a coding assessment and then a technical phone screen. Trader candidates take speed-math, probability and market-making batteries. Quantitative research, quantitative developer and strategist candidates may face both a coding assessment and a math assessment that requires written or spoken explanations. After the assessments, most pipelines have one or two live technical calls, sometimes a separate behavioral round, and a final round of several back-to-back sessions.
 
-Technical phone rounds start almost immediately after introductions, and several candidates report three distinct problems packed into a single hour. The interviewer expects an approach, working code or precise pseudocode, complexity analysis, and self-written test cases. What distinguishes Akuna's screens is the follow-up pattern: a clean solution is treated as the starting point, not the finish. A statistics class gets a sliding window bolted on; a rate limiter gets a memory budget; a bid tracker gets cancellations; a stream-sum gets an overflow discussion and a concrete memory estimate against 1 GB of RAM. C++ candidates should expect a syntax-heavy debugging exercise — completing and fixing a buggy object pool, including compilation errors, leaks, double frees, and race conditions — while Python-track candidates report deep dives on streaming statistics and data-structure trade-offs. Hints are given when reasoning is sound, and one candidate received an offer despite not finishing a follow-up, purely on the strength of the discussion.
+Most reports come from junior, intern and new-grad pipelines, which carry the heaviest assessment load. The process can finish within a few weeks, but gaps of a month also appear.
 
-The final round typically consists of several back-to-back panels with engineers and leads — commonly around four sessions — combining deeper technical work, a design discussion, and team-fit conversation. A pair-coding session appears in some loops (one candidate built a thread-safe ring buffer live). Behavioral coverage is thin throughout; several candidates report no resume walkthrough at all. Pacing varies widely: the overall process can move in a couple of weeks, but candidates also report month-long gaps between assessment stages and multi-week silences after positive-sounding interviews, so a quiet inbox is weak signal in either direction.
+Here's what the interview process can look like:
 
-## What Candidates Report
+- **Coding online assessment (developer and most quant tracks):** Typically three medium problems in 60–90 minutes; some versions mix in SQL, code tracing and object-oriented design, or replace the whole test with a 72-hour order-matching-engine build.
+- **Quantitative assessments (trading and research tracks):** Timed mental-math, sequence, probability-to-stake and market-making tests for traders, and a recorded or written math assessment for research and strategist tracks.
+- **Technical phone screen:** A 45–60 minute call that starts within minutes, with two to four problems and follow-ups that add memory, window or concurrency constraints.
+- **Behavioral interview (some pipelines):** A non-technical round on motivation, knowledge of the firm and handling feedback, which some reports describe as a real filter.
+- **Final round:** Several back-to-back sessions: a design deep dive or pair-coding build for developers and strategists, and live trading games for traders.
 
-- Interviews open cold. Multiple candidates were solving a problem within minutes of the call starting, with no behavioral warm-up. The conversational, friendly tone hides a structured evaluation of how you narrate assumptions and progress.
-- Follow-ups are the real exam. Reports consistently describe a solved problem being mutated — add a window, cut the memory, handle duplicates, survive concurrency — until the candidate's actual understanding is exposed. Memorized patterns without the underlying why do not survive this.
-- Trading-domain mechanics ambush software candidates. Order books, tick rounding, partial fills, lazy deletion under cancellations, and object lifetime management show up in what looks like a normal coding screen. A toy-input solution gets challenged on eviction, overflow, and races.
-- Problem statements are long and precise, and misreading them under time pressure is a named failure mode. Candidates who budgeted reading time and dry-ran edge cases before submitting fared better on the assessments.
-- Rejections happen even with optimal-complexity solutions. Candidates attribute this to communication, edge-case handling, and test design — correctness alone is not the bar.
-- Decision timelines are inconsistent: some loops conclude within about a week of the final technical conversation, while others stall for a month with no update despite explicit positive feedback in the room.
+> **Tip:** Narrate while you work. In the reports, the only offer after an unfinished follow-up went to a candidate who talked through the data structures they would have used, and trader screens graded the structure of an answer over the final number.
 
-## Coding Questions
+## Coding online assessment
 
-Akuna's coding pool favors classic patterns executed cleanly and fast: cycle decomposition, prefix sums, greedy-after-sort, sliding windows, BFS with tie-breaking, and DP with constrained transitions. Practice stating the key insight before typing, then close with complexity and two or three targeted edge cases.
+The standard developer assessment is three medium algorithm problems in about 60–90 minutes, in your track's language. They come from a small set of recurring patterns: cycle-decomposition swaps, prefix sums that turn an O(n²) scan into O(n), greedy after sorting, and DP with a constrained transition. Statements are long, and several candidates say misreading a constraint cost them more than the algorithm did.
 
-- [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
+Three other formats appear. A sectioned version of about 90 minutes mixes SQL multiple choice, a code trace, a string function and a communications-handler design task. A C++ version adds a segment where you repair a multi-threaded object pool. Some postings use a 72-hour take-home instead: an order matching engine with price-time priority, immediate-or-cancel and good-for-day orders, cancel, modify and print, with hidden tests strict on partial fills.
+
+Interviewers evaluate:
+
+- **Pattern recognition:** Naming the structure before coding, for example cycles for swap counts or a running sum for left-hand differences.
+- **Statement discipline:** Tie-break rules such as the smaller city number first or the lexicographically smallest window, which hidden tests check.
+- **Exception and state design:** In design tasks, handling every illegal state, such as hanging up an idle endpoint or connecting a busy one.
+- **Engine correctness:** In the take-home, partial fills, resting orders and order-ID lookup for cancel and modify.
+
+Practice three medium array and graph problems in 75 minutes, with a dry run on edge cases before each submission.
+
+> **Note:** For C++ candidates the object pool is not a one-off. It appears as an assessment segment and as a live screen. The bugs include a leak when a constructor throws, an unlocked free-list update on the return path, and allocation past capacity under concurrent load.
+
+### Sample questions for the coding online assessment
+
+Here are some questions reported by recent candidates:
+
+- Count index pairs whose combined net profit (profit minus implementation cost) is strictly positive.
+- Output the delivery order to every city by shortest distance from a factory, breaking ties by the smaller city number.
+- Implement a communications handler that throws a custom exception on self-connection or when either endpoint is already busy.
+
 - [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
-- [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps)
+- [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order)
 - [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips)
-- [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md)
-- [Fun With Anagrams (Deduplicate Anagrams)](https://trueinterview.io/questions/fun-with-anagrams-dedup)
-
-## Low-Level Design Questions
-
-Design prompts start small — a pool, a handler, a moving statistic — and grow through constraints. Interviewers grade the invariants you state, the per-operation costs you can defend, and how the design behaves under cancellation, eviction, exceptions, and concurrent access. For C++ sessions, ownership and object lifetime are examined line by line.
-
-- [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging)
-- [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
 - [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler)
-- [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system)
-- [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer)
+- [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
 
-## Behavioral Questions
+## Quantitative assessments
 
-Formal behavioral rounds are minimal, but trading-flavored judgment exercises fill the same slot: scenario games, fair-bet sizing, and open-ended allocation questions that measure structured thinking rather than biography. Prepare a few concise stories about debugging under pressure and revising a position on new evidence, then drill the scenario formats below.
+Trader candidates take short, fast tests. One intern pipeline had three: 80 mental-math and sequence questions in 8 minutes; 30 probability questions in 12 minutes, each asking for the stake that wins exactly $1,000; and a market-making simulation of about 24 questions over roughly 45 minutes on letter-coded instruments, which later asks you to recall specific letter-price pairs. Another junior trader got an unscheduled test of 17 break-even wagers, rounded to the dollar, and 33 sequence completions.
 
-- [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games)
+Research candidates take a recorded video assessment with five minutes per problem, explaining their reasoning on camera while solving: the chain rule, the Leibniz integral rule, Markov chains, Newton's method convergence, orthogonal vectors and a grid-infection puzzle. Quantitative developer and strategist candidates reported a written math test where bare answers were not enough.
+
+Interviewers evaluate:
+
+- **Speed with accuracy:** At about six seconds per arithmetic item, you need reliable shortcuts, not just raw speed.
+- **Probability-to-stake conversion:** Turning p into a break-even or $1,000-winning stake without hesitating.
+- **Working memory:** Keeping the letter-price mappings from the simulation for the questions that recall them later.
+- **Explained derivation:** On the research and strategist tests, a complete argument that can be followed within the time limit.
+
+Drill each format under its real clock, and practice deriving out loud for the video test.
+
+### Sample questions for the quantitative assessments
+
+Here are some questions reported by recent candidates:
+
+- For a card drawn from a standard deck, find the stake that makes a $1,000-payout bet on a face card fair.
+- Complete sequences such as 68, 8, 60, 10, 50, 15, … under a per-section timer.
+- On a square grid where a cell becomes infected once two orthogonal neighbors are infected, find the minimum initial infected set that infects the whole board.
+
 - [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences)
+- [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning)
 
-## How to Prepare
+## Technical phone screen
 
-- Rehearse the mutation game: solve a problem, then force a second pass that adds one constraint — a bounded window, cancellations, duplicates, an overflow risk, or a hard memory cap — and adapt the design aloud.
-- Build the recurring trading primitives from scratch until they are automatic: an order book with price-time priority, a best-bid tracker with lazy deletion, a ring buffer, a token-bucket rate limiter, and sliding-window max/mean/mode.
-- If interviewing in C++, practice reading broken code cold: find the compile errors, the leak, the double free, and the unlocked shared state in someone else's object pool, and narrate each fix.
-- Budget explicit reading time in assessments; the statements are long and the hidden tests punish a misread constraint more than slow code.
-- Practice memory estimation as a party trick: for any structure you propose, be ready to bound its footprint numerically for a given value range and machine.
-- Keep a running-commentary habit: assumptions first, a small worked example, then code, then self-written edge-case tests. Silence while thinking reads as a weakness here.
-- Expect probability and expected-value questions even on developer tracks, and drill quick, exact arithmetic on them.
+Screens are 45–60 minutes and often skip the resume entirely. Developer screens have two to four problems in a shared editor, with complexity and self-written tests expected. Each problem is then extended: a statistics class gets a sliding window, a rate limiter gets a memory budget, a bid tracker gets cancellations. Recurring prompts include tick rounding, a log rate limiter rewritten as a constant-space token bucket, the highest live bid under cancels, a C++ object pool to debug, and an enemy factory that leads into pooling and the flyweight pattern.
+
+Trader screens are conversational scenarios: investing $1 million over three days and then three years, a dice game with paid rerolls, and making a market in an instrument that trades in Sydney and Chicago. Research screens cover orthogonal matrices, Newton's method and expected hitting times, such as an ant walking randomly on a cube.
+
+Interviewers evaluate:
+
+- **Resource estimates on request:** One Python screen asked for the memory footprint of a stream of values from 1 to 1,001 on a machine with 1 GB of RAM.
+- **Alternatives and trade-offs:** XOR bucketing versus sum and sum-of-squares, including overflow risk, or a timestamp queue versus a token bucket.
+- **C++ lifetime fluency:** Fixing compile errors, leaks and double frees, and adding an allocated-object count. A candidate was rejected after this screen and described it as very syntax-heavy.
+- **Structured uncertainty:** For traders, setting up an optimal-stopping threshold and stating its boundary conditions out loud.
+
+Rehearse each common problem with a second pass that adds one constraint: a window, cancellations, a memory cap, or concurrency.
+
+> **Note:** Interviewer warmth is weak evidence. One candidate was told they did a great job and would hear within a week, and had no update four weeks later.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Track max, mean and mode over an unbounded stream, estimate its memory, guard the running sum against overflow, then restrict it to the last k elements.
+- Round a price to the nearest tick given a lower bound and tick width, including exact halfway prices and prices outside the range.
+- Return the highest active bid over a stream of bids and cancels, and say how the design changes when cancels are frequent.
+- You may pay $1 to reroll a 100-sided die as often as you like: what is the game worth, and when do you stop?
+
+- [Round Price to Nearest Valid Tick](../../questions/algorithm/round-price-to-nearest-tick/README.md)
+- [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter)
+- [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
+- [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging)
+- [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md)
+
+## Behavioral interview
+
+Technical rounds carry little behavioral content; it is collected in one round instead. A quantitative developer and strategist candidate had a full HR round before the final on why Akuna, what they knew of the business, and positive and critical feedback, and described it as able to end the process. Trader pipelines ask why trading and why Akuna, sometimes as recorded video answers.
+
+Interviewers evaluate:
+
+- **Firm-specific motivation:** Knowing that Akuna is an options market maker and why that work appeals to you.
+- **Self-awareness:** What you changed after critical feedback, not just how it felt.
+- **Consistency:** Answers that match how you came across in the technical rounds.
+
+Prepare three or four short stories about feedback, debugging under pressure and changing your mind on new evidence.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Why Akuna, and what do you know about how the firm makes money?
+- Describe a time you received critical feedback and what you did differently afterward.
+- Why trading rather than software or research?
+
+## Final round
+
+The final is several back-to-back sessions, virtual or on site. For developers and strategists the centerpiece is often streaming statistics: min, max, median and mode over a stream, rebuilt for a sliding window, then made faster with caching, batching and approximate quantile sketches. One loop added pair coding on a fixed-size, thread-safe ring buffer. Developer finals also probe C++ depth, multithreading and low-latency design. Trader finals center on live investment and market-making games.
+
+Interviewers evaluate:
+
+- **Design under eviction:** Keeping an exact mode or median correct as old elements leave the window, with lazy deletion where it fits.
+- **Latency thinking:** Precomputation, memory access patterns and approximation, each stated with what it costs in accuracy.
+- **Concurrency correctness:** Full and empty detection and lock scope in the ring buffer.
+- **Market-making judgment:** Quoting width, inventory risk and updating on new information during games.
+
+Build the ring buffer, a windowed mode tracker and a price-time order book from scratch until each takes under 30 minutes.
+
+> **Tip:** Treat a correct answer as the start of the round. The rejected candidate with optimal complexity on every operation said afterward that duplicates, eviction edge cases and trade-offs went undiscussed.
+
+### Sample questions for the final round
+
+Here are some questions reported by recent candidates:
+
+- Design a component that returns min, max, median and mode over a stream, then over only the last k values, then with lower latency.
+- Implement a fixed-size, thread-safe circular buffer with enqueue and dequeue, and test the full and empty states.
+- Play a series of investment and market-making games against traders, explaining each quote.
+
+- [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode)
+- [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system)
+- [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games)
+- [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances)
+
+## How Akuna Capital makes hiring decisions
+
+Feedback from all stages is combined, and one report warns that a single weak round, including the behavioral one, can end the process. The assessments act as hard cutoffs: a weak coding test ends the process immediately. The track and posting you apply to set your route, so a developer and a strategist applicant at the same level sit different tests. Timing after the final is inconsistent. Some candidates heard within about a week. Others waited a month despite positive signals, so a polite follow-up after two weeks is reasonable.
+
+## How to prepare for the Akuna Capital interview
+
+1. **Drill the recurring patterns:** Cycle-decomposition swaps, prefix sums, BFS with explicit tie-breaks, greedy after sorting, and DP with a skip restriction.
+2. **Build the trading primitives:** An order book with price-time priority, a best-bid tracker with lazy deletion, a token-bucket limiter, and a ring buffer.
+3. **Rehearse the second pass:** After each solution, add a window, cancellations, a memory cap or concurrency, and adapt the design out loud.
+4. **Estimate memory in numbers:** For any structure you propose, be ready to give its footprint for a given value range and machine.
+5. **Read broken C++ cold:** If you interview in C++, find the compile errors, leaks, double frees and unlocked shared state in an object pool.
+6. **Train for each assessment clock:** 80 arithmetic items in 8 minutes, probability-to-stake conversions, and five-minute spoken derivations.
+7. **Expect probability on every track:** Expected value and optimal stopping appear in trader screens and in developer interviews.
+8. **Prepare a real "why Akuna":** Ground it in options market making, and have feedback stories with concrete changes.
+
+## About working at Akuna Capital
+
+Akuna Capital is a proprietary derivatives market maker founded in 2011 in Chicago, now with more than 400 employees. Traders, quants and developers work closely in a flat structure. The firm builds its own low-latency systems, pricing models and strategies: C++ runs the timing-critical paths, and Python supports data and research. Junior traders learn options theory through the same games used in interviews.
+
+Akuna Capital hires developers, quants and traders across its Chicago headquarters and offices in Sydney (its hub for Asian trading since 2018), Shanghai, Boston and London. Teams include:
+
+- **C++ development:** Exchange connectivity, trading algorithms, pricing and automation on low-latency systems.
+- **Python development:** Data and research platforms and tooling for the technology group.
+- **Trading services:** Works with the quant team to calculate theoretical prices and risk across instruments.
+- **Quantitative research and strategy:** Models and signals for the firm's market-making strategies.
+- **Trading:** Options market making, with a structured training program for junior traders.
+
+### Experience and education requirements
+
+Junior developer postings ask for a BS, MS or PhD in computer science, engineering, math, physics or a related field, plus strong C++ for C++ roles. Trader postings stress strong math, interest in options market making and quick decisions on live markets. Research roles need calculus, linear algebra and probability. Finance knowledge is not required; trader screens are solvable from first principles.
+
+## FAQs about the Akuna Capital interview
+
+### How long does the Akuna Capital interview process take?
+
+Typically a few weeks from the first assessment to a decision, but reports include a month between two assessments and four weeks of silence after a final conversation.
+
+### What is the hardest round of the Akuna Capital interview?
+
+For traders and researchers, the timed quantitative assessments. For developers, the phone screen follow-ups and, in C++, the object-pool debugging.
+
+### Is there an online assessment?
+
+Yes, almost always, and often more than one; the track decides which.
+
+### Which programming language should you use?
+
+Use your track's language. C++ candidates should expect syntax-heavy debugging and memory-ownership questions. Python candidates get streaming-statistics and data-structure trade-offs.
+
+### Is the Akuna Capital interview remote?
+
+The assessments and screens are remote. Final rounds are reported both as virtual onsites and in person.
 
 ## Guides by Role
 
-- [Akuna Capital Research Scientist Interview Process](interview-process-research-scientist.md)
 - [Akuna Capital Quantitative Finance Interview Process](interview-process-quantitative-finance.md)
+- [Akuna Capital Research Scientist Interview Process](interview-process-research-scientist.md)
 
 ---
 

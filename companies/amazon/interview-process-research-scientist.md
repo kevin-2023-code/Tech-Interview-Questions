@@ -6,102 +6,294 @@
 
 ---
 
-The rejection path Research Scientist candidates don't see coming at Amazon is the behavioral load built into every science round. In a reported five-round loop, each round was assigned both Leadership Principles and a science competency. The hiring manager covered Ownership, Earn Trust and Science Application. The Bar Raiser covered Customer Obsession, Learn and Be Curious and Highest Standards. Later rounds paired Bias for Action with Science Breadth, Invent and Simplify with Think Big, and Dive Deep with Science Depth. In the fourth round the principle questions took so long that only about 15 minutes remained to write a NumPy mean-and-variance function and answer follow-ups on maximum likelihood. That candidate's strongest round was the research deep dive, and they still expected a rejection.
+Amazon grades scientists on two axes at once. Every loop round carries a named science competency (breadth, depth or application) plus two or three assigned Leadership Principles, and interviewers expect the behavioral stories themselves to contain machine learning content. In one reported five-round loop, principle questions took so much of the fourth hour that only about 15 minutes were left for coding, and a strong depth round did not rescue the outcome. The breadth bar is also unusually wide: one hour can move from least-squares assumptions to rotary position embeddings, and coding includes numerical code such as a stable contrastive loss written from scratch.
 
-## Interview Process
+This guide breaks down each stage of the Amazon Research Scientist interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 20 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Amazon Research Scientist interview process
 
 <!-- guide-diagram -->
 ![Amazon Research Scientist interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/amazon--research-scientist/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter contact.** Candidates arrive through referrals, recruiter outreach for teams such as ads, seller services and generative AI, and internship pipelines. The recruiter sets the level and sends preparation material. One candidate called it thorough across data science, ML and LLMs. Scheduling was often slow, and the topic preview was often wrong. One screen promised in advance turned out to be a rapid-fire mix ending in an original dynamic-programming problem.
+Amazon interviews Research Scientists and Applied Scientists against the same science competencies, and most recent reports come from Applied Scientist loops on ads, seller services, search and generative-AI teams. Hiring is team by team, so the theory follows the team: ads and seller teams lean on classical statistics, experimentation and ranking, while generative-AI and post-training teams ask about LoRA, RLHF, GRPO, KV caching and distributed training.
 
-2. **Online assessments (some pipelines).** Reported as two sittings. The first is a written knowledge check on applied ML infrastructure: parameter-efficient fine-tuning, LLM inference engines and image-text embeddings. The second combines ML questions based on your resume with a plain coding problem such as merging overlapping intervals.
+The skeleton is a recruiter call, an online assessment in some pipelines, one or two technical phone screens of 30 to 60 minutes, and a loop of three to five back-to-back rounds of about an hour each. Interns reported two phone screens and no loop. Manager-level screens split the hour between project leadership and people management, and senior loops weight the scope of past work more heavily.
 
-3. **Technical phone screen(s), 30–60 minutes.** Most have three segments: a dive into two resume projects (the data, training problems, why the design was chosen), a theory block, and a coding problem. Reported theory ranges from classical statistics (OLS assumptions and what breaks without each, squared loss as a Gaussian likelihood, log loss from the Bernoulli likelihood, impurity versus permutation importance, Adam versus momentum SGD, local minima in wide networks, precision, recall and AUC for imbalanced fraud data) to LLM machinery (LoRA and its variants, RLHF and PPO, KV caching, RoPE and ALiBi, efficient attention, GRPO and why it drops the critic, pipeline parallelism, reward design). The coding is usually a classic medium such as the minimum of a rotated array. One screen instead asked for an original DP that splits an ordered sequence into batches to minimize padding plus overhead, with state, recurrence and a worked example. Intern candidates reported two phone screens, the second walking through each publication in turn. A manager-level screen was half project leadership and half people questions, with no coding.
+Here's what the interview process can look like:
 
-4. **Onsite loop (three to five rounds, about 60 minutes each, back to back).** Reported compositions vary, but the building blocks repeat:
-   - **Science breadth.** Bias-variance with detection and fixes, L1 versus L2, CNN receptive fields drawn by hand, a logistic-regression update derived on the board, then LoRA, RAG and agents, or embedding-model history and a comparison of two sizes of the same embedding family.
-   - **Science depth / project deep dive.** Your most complex project or your publications, one at a time: framing, baselines, class imbalance, why that backbone, what you would do with more compute.
-   - **Modern deep-learning depth.** Transformer internals, AdamW's decoupled weight decay, PPO's clipped objective, VQ-VAE codebook collapse, the RoPE formula written out, a dual-encoder versus a vision-language model with a resampler, diffusion noise schedules.
-   - **Science application.** An open-ended problem: propose an agentic AI solution for a hypothetical product, design a multi-turn search agent with long-context handling, or build an evaluation framework that checks whether generated images spell a brand name correctly (OCR, embedding checks and a human protocol).
-   - **Coding.** Meeting rooms with a heap, weighted random pick, average salary per manager over an org tree, a Bayesian classifier implemented and applied to scenarios, an InfoNCE loss in PyTorch with numerical stability, or sigmoid, softmax and attention written by hand.
-   - **Bar Raiser.** Often entirely behavioral. One candidate described repeated "this is not what I am looking for" replies that wore them down.
+- **Recruiter call:** Background, level and team fit (generative-AI recruiters ask about post-training and agent work), with a preview of the rounds that is often inaccurate.
+- **Online assessment (some pipelines):** Two sittings, a written check on applied ML infrastructure and a mix of resume-based ML questions with a standard coding problem.
+- **Technical phone screen (one or two):** A two-project resume dive, a theory block and a coding problem, sometimes after 30 minutes of principle questions.
+- **Science breadth interview:** Graduate-level ML and statistics, from regularization to transformer variants, with derivations on the board.
+- **Science depth interview:** Your most complex project or your papers, one at a time, defended decision by decision.
+- **Science application interview:** An open-ended product problem such as an agentic solution or an evaluation framework for generated images.
+- **Coding interview:** Classic mediums or numerical code written from scratch, inside a round that also covers principles.
+- **Bar Raiser interview:** An hour, often entirely behavioral, with a trained interviewer from outside the hiring team.
 
-5. **Principle assignment.** Every round is typically given two or three principles in addition to its science topic. One loop's rounds each covered two principles, including Bias for Action, Have Backbone, Ownership, Deliver Results, Insist on the Highest Standards, Earn Trust, Learn and Be Curious, Invent and Simplify, Dive Deep and Think Big. The science stories are expected to contain ML content.
+> **Tip:** Plan each loop hour as two halves. Keep every story to a three-minute core with an ML result in it, and assume the technical half may not start until minute 25 or later; a candidate who ran out of prepared stories by round four lost most of the coding time.
 
-6. **Decision.** The debrief follows the loop. Several reported loops ended in rejection, with cited reasons in breadth answers and the balance between behavioral answers and science.
+## Online assessment
 
-## What They Actually Evaluate
+Some recruiter-sourced pipelines start with an online assessment in two sittings. The first is a written knowledge check on applied ML infrastructure: parameter-efficient fine-tuning, how an inference engine such as vLLM serves large models, and approaches to image-text embedding. The second combines ML questions tied to your resume with a plain coding problem; the reported one was merging overlapping intervals. Referred and intern candidates often skip it.
 
-### ML Theory
+Interviewers evaluate:
 
-This spans the phone screen plus one or two loop rounds. Interviewers want the formula-level reason behind a concept, not a summary: why decoupled weight decay changes generalization, how rotation preserves relative position, why log loss beats squared loss for classification. Classical statistics gets the same scrutiny as generative modeling. The reported failure is a specialist who cannot re-derive coursework material, or who struggles to compare two recent embedding models.
+- **Hands-on infrastructure knowledge:** Why low-rank adapters cut memory, what an inference engine does with the cache, how a dual-encoder embedding is trained.
+- **Consistency with your resume:** The methods you list are methods you can explain.
+- **Clean baseline coding:** A correct sort-then-merge interval solution with edge cases handled.
+- **Precision in writing:** Mechanism-level explanations rather than long surveys.
 
+Review fine-tuning, inference serving and contrastive embedding training at the level of mechanisms, and keep standard array and interval problems fast.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Explain the main parameter-efficient fine-tuning techniques and when each beats full fine-tuning.
+- Compare approaches to building joint image-text embeddings.
+- Given a list of intervals, merge all overlapping ones.
+
+- [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants)
+- [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390)
+
+## Technical phone screen
+
+Screens run 30 to 60 minutes, usually in three segments: two resume projects (the data, training problems and why the design was chosen), a theory block, and one coding problem discussed rather than run. Statistics-heavy teams such as ads ask about least-squares assumptions and what breaks without each, squared loss as a Gaussian likelihood, log loss from the Bernoulli likelihood, impurity versus permutation importance, Adam versus momentum SGD, precision, recall and AUC for imbalanced fraud data, A/B test power, and bagging versus boosting. Generative-AI teams ask about LoRA variants, RLHF and PPO, KV caching, RoPE and ALiBi, efficient attention, grouped-query attention, and GRPO: why it drops the critic, what that costs, how to parallelize it, and how to design the reward.
+
+Coding is usually a classic medium such as the minimum of a rotated sorted array, or short numerical code such as a bootstrap confidence interval with a loop-free follow-up. One rejected candidate instead got an original dynamic program on batching with padding costs. Interns reported a second screen that walked through each publication. A manager-level screen asked for compute and memory latency of an MLP block at batch sizes 1 and 256 on given hardware, and which is memory-bound.
+
+Interviewers evaluate:
+
+- **Formula-level theory:** Deriving a loss from a likelihood or writing the rotation behind RoPE, not describing it.
+- **Hands-on recency:** For post-training teams, evidence you have run GRPO-style training and fixed its instabilities.
+- **Project ownership:** Which decisions were yours, and why the alternatives lost.
+- **Reasoning on unfamiliar problems:** A clear DP state and recurrence for a problem not on any standard list.
+
+Prepare a one-minute derivation for each core loss and optimizer, and two resume projects you can defend for 15 minutes each.
+
+> **Note:** The recruiter's preview is frequently wrong. One candidate was promised 30 minutes of ML and 30 of coding with no behavioral questions, spent the first 30 minutes on principles, rushed the project dive and a sliding-window click counter, and was rejected the next day.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Split an ordered list into contiguous batches, each costing a fixed overhead plus padding up to its longest item, to minimize total cost; give state, recurrence and a worked example.
+- Why does GRPO remove the critic, what does that cost, and how would you design the reward?
+- Implement bootstrap sampling for a mean and confidence interval, say which statistics it estimates poorly, then remove the loop.
+
+- [Bucket Batching DP (Applied Scientist Phone Screen)](https://trueinterview.io/questions/bucket-batching-dp-applied-scientist)
+- [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo)
+- [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval)
+- [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis)
+
+## Science breadth interview
+
+The breadth round is an hour of graduate-level fundamentals, usually paired with two principles. It starts classical and moves forward: bias and variance with detection and fixes, L1 versus L2 with the geometry of sparsity, CNN receptive fields drawn by hand, a logistic-regression update derived on the board, then LoRA, retrieval-augmented generation and LLM agents. A generative-AI hour asked for transformer internals, AdamW's decoupled weight decay, PPO's clipped objective, VQ-VAE codebook collapse, the RoPE formula written out, and a dual-encoder model compared with a vision-language model that uses a resampler.
+
+Method history counts too: one candidate felt a weak comparison of a small and a large model from the same text-embedding family hurt the round.
+
+Interviewers evaluate:
+
+- **Derivations, not definitions:** Why log loss suits classification, why decoupled weight decay helps generalization, how stride changes a receptive field.
+- **Range across eras:** Classical statistics answered as carefully as diffusion noise schedules.
+- **Trade-off reasoning:** When to choose L1 over L2, or a smaller embedding model over a larger one.
+- **Honest limits:** Reasoning from first principles where your knowledge ends, rather than a confident guess.
+
+Practice deriving each standard topic out loud in under three minutes, from linear models through current alignment methods.
+
+### Sample questions for the science breadth interview
+
+Here are some questions reported by recent candidates:
+
+- How do you detect overfitting versus underfitting, and what would you change in each case?
+- Draw a small CNN, explain its receptive field and derive the logistic-regression update step.
+- Compare a small and a large model from the same text-embedding family: what you gain and what you pay.
+
+- [Explain the bias–variance trade-off](https://trueinterview.io/questions/explain-the-biasvariance-trade-off)
+- [Describe overfitting and L1/L2 regularization](https://trueinterview.io/questions/describe-overfitting-and-l1-l2-regularization)
 - [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](https://trueinterview.io/questions/as-ml-breadth-orals)
 - [Transformer / Attention Deep-Dive](https://trueinterview.io/questions/transformer-attention-deep-dive)
-- [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants)
-- [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo)
 
-### Project Deep Dive
+## Science depth interview
 
-One full round, plus parts of the screens. It is graded on whether you can defend your choices: your contribution versus your collaborators', the baselines, the limitation you raise before being asked, and for applied teams, how the work was deployed and what effect it had. Candidates who called it their strongest round spent it on their most impactful project.
+The depth round is a full hour on your most complex project or your publications, often paired with Dive Deep, Deliver Results or Earn Trust. Interviewers read the resume in advance and choose: problem framing, data cleaning, baselines, class imbalance, why that backbone, metrics, deployment, and what you would do with more compute. Interns had each publication taken in turn.
+
+Applied teams care where the work went. A manager candidate spoke for 10 to 15 minutes on a search-ranking project, then took questions on business motivation, offline and online metrics, A/B design, and debugging an online result that missed the offline gain. Several candidates called this their strongest round, but it is also where scale is judged: a machine learning candidate passed every round on content and was told the projects lacked the impact expected for the target level.
+
+Interviewers evaluate:
+
+- **Personal contribution:** Your decisions separated from your collaborators' and your advisor's.
+- **Justified choices:** Why that model, loss and baseline, and what failed.
+- **Self-identified limitations:** The weakness you raise before being asked.
+- **Measured impact:** Offline and online metrics and the effect on customers or revenue.
+
+Write a decision log for one flagship project (choice, alternatives, evidence) and rehearse it at 2, 10 and 30 minutes.
+
+> **Tip:** Lead with the project that has the largest measured business effect, not the most elegant method. Scope is read as a level signal, and the strongest-round reports came from candidates who chose their most impactful work.
+
+### Sample questions for the science depth interview
+
+Here are some questions reported by recent candidates:
+
+- Why did you choose this backbone, how did you handle class imbalance, and what would you do with more resources?
+- Your model's online A/B result fell short of the offline gain: how do you find out why?
+- For each publication, what was your specific contribution and how did you choose the baselines?
 
 - [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/questions/asm-phone-screen-deep-dive-bq)
 - [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/questions/paper-read-round-far)
+- [Diagnose and fix underperforming ML model](https://trueinterview.io/questions/diagnose-and-fix-underperforming-ml-model)
+
+## Science application interview
+
+The application round hands you an open-ended product problem and watches you turn it into a science plan. Reported prompts: propose agentic AI solutions for a hypothetical project and defend their viability; design a multi-turn search agent that handles long context; architect an AI chatbot across intent detection, dialogue management, generation and a knowledge base; and build an evaluation framework that checks whether a text-to-image system spells a brand name correctly and places it naturally. Ads and search teams ask for ranking pipelines instead.
+
+The round is often paired with Think Big or Invent and Simplify. There is no single right architecture; the grade comes from framing, a measurable evaluation plan and a credible launch path. One candidate answered the brand-name case with OCR accuracy, embedding-based semantic checks and a human review protocol.
+
+Interviewers evaluate:
+
+- **Problem framing:** A vague product goal turned into an ML task with a target metric and stated assumptions.
+- **Evaluation design:** Automatic metrics, a human protocol, and how the two are reconciled.
+- **Methods applied with judgment:** Retrieval, agents and fine-tuning used where they help, with failure modes named.
+- **Launch realism:** Latency, cost, monitoring and what ships first.
+
+Practice an agent, a generation-quality evaluation and a ranking system end to end in 40 minutes each, starting with the metric.
+
+### Sample questions for the science application interview
+
+Here are some questions reported by recent candidates:
+
+- Design an evaluation framework that measures whether generated images spell a brand name correctly and place it naturally.
+- Design a multi-turn search agent and explain how it handles long conversation context.
+- Architect an AI chatbot, including fallback behavior, evaluation and continuous learning.
+
 - [Science Application (Ambiguous Problem)](https://trueinterview.io/questions/science-application-ambiguous-problem)
+- [Design an LLM quality validation system](https://trueinterview.io/questions/design-an-llm-quality-validation-system)
+- [Design a Reliable AI Chatbot Architecture](https://trueinterview.io/questions/design-a-reliable-ai-chatbot-architecture)
+- [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking)
 
-### Coding and Algorithm
+## Coding interview
 
-One or two segments, often squeezed by principle questions: classic mediums, numerical code written from scratch, and the occasional original DP. Interviewers discuss the code as much as run it. The loop-free follow-up and the maximum-likelihood connection are where the grade comes from.
+Coding appears in one or two loop rounds, sometimes the hiring manager's, and shares the hour with principle questions. Two families appear. Classic mediums: meeting rooms with a min-heap after a warm-up two-sum, weighted random pick with prefix sums and binary search, or average salary per manager over an org tree. Numerical code from scratch: a Bayesian classifier applied to scenarios, an InfoNCE loss in PyTorch with a stable log-sum-exp in both directions, a NumPy mean and variance followed by maximum-likelihood questions, or sigmoid, softmax and attention by hand.
 
-- [Bucket Batching DP (Applied Scientist Phone Screen)](https://trueinterview.io/questions/bucket-batching-dp-applied-scientist)
+Some interviewers improvise the task from the discussion, but expectations are consistent: correct code, edge cases such as all-zero weights or a single element, complexity, and the statistics behind the numbers.
+
+Interviewers evaluate:
+
+- **Numerical stability:** Subtracting the maximum before exponentiating, and stable variance formulas.
+- **Vectorization:** Replacing loops with array operations when asked.
+- **Statistical grounding:** Linking sample mean and variance to their maximum-likelihood estimators.
+- **Edge cases and complexity:** Stated without prompting.
+
+Write softmax, attention, cross-entropy and a contrastive loss from memory in NumPy and PyTorch, and keep heap, prefix-sum and tree mediums under 20 minutes.
+
+> **Note:** Coding is the segment that gets squeezed. In one loop the principle questions left roughly 15 minutes for the NumPy task and its MLE follow-ups, and the candidate could not follow the interviewer's reasoning in the time left.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- Implement a numerically stable InfoNCE loss for a batch of image and text embeddings in both directions.
+- Write a NumPy function for the mean and variance of an array, then relate it to maximum-likelihood estimation.
+- Given an org tree with salaries, compute the average salary of each manager's direct reports.
+
+- [Handwritten InfoNCE in PyTorch](https://trueinterview.io/questions/infonce-handwritten-pytorch)
 - [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle)
 - [Handwrite Sigmoid, Softmax, and Attention](https://trueinterview.io/questions/handwrite-sigmoid-softmax-attention)
+- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
 - [Org-Chart Salary Aggregation](https://trueinterview.io/questions/org-chart-salary-aggregation)
 
-### Behavioral and Leadership
+## Bar Raiser interview
 
-Assigned principles in every round, and usually one round that is only behavioral. Stories are questioned for dates, data and your exact role. Several reports say the stories count as much as the technical answers. One candidate ran out of prepared examples by round four and struggled to explain how an individual contributor shapes a roadmap.
+The Bar Raiser is an experienced interviewer from outside the hiring team who guards the hiring bar and has an effective veto at the debrief. For scientists the round is usually entirely behavioral, covering principles such as Customer Obsession, Learn and Be Curious and Insist on the Highest Standards. One candidate described an interviewer who repeatedly said the answers missed what was wanted, and left worn down. Other loops ended with a behavioral-only round of three questions with long follow-ups: a calculated risk, disagreeing with a manager, going above and beyond for a customer. Across one five-round loop, ten different principles were assigned.
+
+Interviewers evaluate:
+
+- **Science in the story:** A disagreement about an evaluation metric beats one about meeting schedules.
+- **Specifics under follow-up:** Dates, data and your exact role, three questions deep.
+- **What happened after you committed:** How you mitigated the risk you had raised.
+- **Results with numbers:** The measured outcome and what you would change now.
+
+Prepare 10 to 12 stories, each tagged with two or three principles and each containing an ML decision, and rehearse their follow-up layers.
+
+### Sample questions for the Bar Raiser interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time a client or decision maker proposed a plan that was far too aggressive.
+- Describe a decision you made with incomplete information and how you later validated it.
+- Tell me about a time a teammate's work did not meet the bar and what you did.
 
 - [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
+- [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal)
+- [Make an Important Decision Before Every Option Can Be Explored](https://trueinterview.io/questions/make-an-important-decision-before-every-option-can-be-explored)
 
-## What They Don't Test
+## How Amazon levels and evaluates Research Scientist candidates
 
-- **Depth limited to your subfield.** Breadth rounds moved from OLS assumptions to diffusion models in one hour, and range with working derivations is what scores.
-- **Contest-level coding.** Coding stayed at classic medium plus numerical implementation, and a correct, stable loss function beats speed.
-- **Publication count.** Interviewers go through papers one at a time asking why, not how many.
-- **A fixed format.** One loop had no standard principle questions and no puzzle-style coding, only ML depth and improvised implementations, so preparing only for the standard format is not enough.
+Each interviewer writes feedback against the assigned competencies and principles before a debrief led by the Bar Raiser, where the Bar Raiser and hiring manager settle the outcome. The target level is set before the loop and checked against the scope of your projects and stories, so clean technical answers can still end in a rejection for insufficient impact. Candidates describe the stories as counting at least as much as the technical answers. Decisions have arrived as soon as the next day, and recent rejections in ML and science pipelines carried cooldowns of six to twelve months for the same role.
 
-## The Real Filter
+> **Tip:** Feedback relayed by different recruiters after a rejection was reported as inconsistent, one citing coding and another design breadth. Treat it as a hint, not a diagnosis.
 
-The main filter is time lost to principle questions. Scientists expect science rounds to be about science, but each round comes with assigned principles, and interviewers ask for stories that contain ML content. Candidates who have not prepared a dozen ML-flavored stories run out of material, answer slowly, and lose the coding or depth time that follows. Keep short versions of each story, and set aside ten to twelve minutes on purpose.
+## How to prepare for the Amazon Research Scientist interview
 
-The second filter is a breadth exam that ignores your specialization. Questions move from classical statistics to the newest alignment variants, and summary-level answers end each thread early. Practice derivations out loud across the whole syllabus.
+1. **Write ML-flavored principle stories:** Prepare 10 to 12 stories that each contain a modeling, data or evaluation decision, with a three-minute core.
+2. **Drill derivations across the whole syllabus:** Least-squares and logistic losses from likelihoods, regularization geometry, optimizers, attention, RoPE and the PPO and GRPO objectives.
+3. **Match theory to the hiring team:** Ads and seller teams test statistics and experimentation; generative-AI teams test fine-tuning, alignment and distributed training in hands-on detail.
+4. **Code ML primitives from memory:** Stable softmax, attention, cross-entropy and InfoNCE, plus vectorized statistics, in NumPy and PyTorch.
+5. **Keep unfamiliar DP in practice:** State, recurrence and a worked example for partition problems you have not seen.
+6. **Build a decision log for your flagship project:** Choices, rejected alternatives, metrics and measured business effect, at several lengths.
+7. **Rehearse open application problems:** An agent, a generation-quality evaluation and a ranking system, each opened with the metric.
+8. **Prepare every screen for every format:** The recruiter's preview is often wrong, so be ready for principles, theory and coding in any hour.
 
-The third filter is treating coding as a formality. The reports include an original DP in a phone screen, a contrastive loss with numerical-stability requirements, and a Bayesian classifier written from scratch, all set by interviewers who expected a working implementation.
+## About the Amazon Research Scientist role
 
-## Data Source
+Amazon scientists work on applied problems inside product teams: they survey the literature, run experiments, build prototypes and often write production code, then measure results through A/B tests alongside engineers who scale the models. Research Scientist roles lean toward modeling research and Applied Scientist roles toward shipped systems, but both are interviewed against the same science bar. Scientists share the company's level ladder with engineers.
 
-Based on 20 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L4 (Applied or Research Scientist I) | Well-scoped modeling and experiments with guidance | Components of one team's science |
+| L5 (Applied or Research Scientist II) | Owning a science problem from framing to launch | A team's models and roadmap |
+| L6 (Senior Applied or Research Scientist) | Setting technical direction and mentoring scientists | Several teams or a product area |
+| L7 (Principal Applied or Research Scientist) | Long-range science strategy and standards | An organization |
 
-## FAQ
+Amazon hires Research Scientists across its consumer, cloud and devices businesses. Teams include:
 
-**What is it like to work there as a Research Scientist?**
+- **Artificial General Intelligence (AGI):** Foundation models, post-training, multimodal systems and agents.
+- **Amazon Web Services AI:** Models and services for cloud customers, and automated reasoning.
+- **Amazon Ads:** Ad ranking, bidding, measurement and generative creative tools.
+- **Stores search and personalization:** Product search ranking, recommendations and experimentation.
+- **Selling Partner Services:** Science for seller tools, catalog quality and seller growth.
+- **Alexa and devices:** Conversational assistants and language understanding.
 
-The reports cover the hiring loop rather than the job. What is documented: science roles are applied. They mix literature work and experiments with prototypes, production code and A/B-tested launches, alongside engineers who scale the models. Scientists publish, but the work is tied to a product. The reported teams worked on ads, seller services, search and generative-AI post-training, and one candidate called an ads team's model architecture impressive.
+### Research Scientist experience and education requirements
 
-**What is the engineering culture like?**
+Research Scientist hires typically hold a PhD in computer science, machine learning, statistics or a related quantitative field. Applied Scientist postings usually accept a PhD, or a master's degree plus about four years of relevant experience, along with several years of building models for business applications. Intern postings require enrollment in a master's or PhD program and programming in Python, Java or C++, with top-venue publications preferred. Python is the default interview language, with NumPy and PyTorch expected for numerical tasks.
 
-The culture relies on writing and data. Arguments are made in documents, and the same principles used in interviews shape reviews, so scientists are expected to defend decisions with measured results.
+## FAQs about the Amazon Research Scientist interview
 
-**How hard is it to get in?**
+### How long does the Amazon Research Scientist interview process take?
 
-Hard. Depth in your own work and breadth across the field both have to clear the bar, on top of heavy behavioral questioning. Rejections in the reports cite breadth gaps and behavioral delivery more often than a single wrong technical answer.
+Usually several weeks from the first recruiter call to a decision. Slow recruiter scheduling is the usual delay; decisions can follow the final interview by a day.
 
-**Which round is hardest?**
+### What is the hardest round of the Amazon Research Scientist interview?
 
-The breadth round, for its range and its demand for formulas. The Bar Raiser is next, and candidates found it the most draining.
+The science breadth round, for its range and its demand for derivations rather than definitions. The Bar Raiser is next, and candidates describe it as the most draining hour.
+
+### How much does an Amazon Research Scientist make?
+
+Approximate total annual compensation for Amazon scientists in the United States:
+
+- **L4:** ~$245K
+- **L5:** ~$320K
+- **L6:** ~$405K
+
+Packages combine base salary, a sign-on bonus paid over the first two years, and stock that vests over four years on a back-loaded 5%, 15%, 40%, 40% schedule, which drives most of the increase between levels.
+
+### What happens after a rejection?
+
+Recent rejections in science and ML pipelines carried six-month to twelve-month cooldowns for the same role, and feedback was brief and sometimes inconsistent. One candidate noted that engineering roles had no cooldown at the time, so a parallel application there is worth considering.
 
 ---
 

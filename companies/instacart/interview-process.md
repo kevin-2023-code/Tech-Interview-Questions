@@ -6,59 +6,247 @@
 
 ---
 
-Instacart's engineering loop is one of the more practically flavored interviews among marketplace companies: expect to parse real-looking data, extend working code across multiple parts, and design around grocery-specific failure modes rather than recite textbook architectures. This guide goes deeper than the process outline on the company page — durations, grading signals, and follow-up patterns for each stage. Our library has 4 real Instacart questions you can use to rehearse the expected level of depth.
+Instacart tests practical code that keeps growing, not classic puzzles. The online assessment is either a four-level system you extend under a timer or a full-stack exercise in which you direct Claude through requirements, features and fixes. A vendor-run live round puts you in an unfamiliar bus-simulation codebase with an AI assistant. In some loops the onsite is split in two, and candidates who miss the coding half never reach design. ML-leaning pipelines add a fundamentals screen that goes down to formulas.
 
-## Interview Process
+This guide breaks down each stage of the Instacart interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 16 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Instacart interview process
 
 <!-- guide-diagram -->
 ![Instacart interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/instacart/process.webp)
 <!-- guide-diagram -->
 
-### Recruiter screen and online assessment
-After the recruiter conversation — role alignment, timeline, team matching — many candidates receive a timed online assessment before speaking to an engineer. It typically runs about 70 minutes with several tasks of increasing difficulty, weighted toward array and string manipulation and straightforward implementation rather than obscure algorithms. Instacart does not run a separate culture or values interview; recruiters and interviewers assess collaboration and communication continuously, so treat even logistics calls as evaluative. The full process from first contact to decision typically spans four to six weeks.
+Most software pipelines open with a 90-minute online assessment. Others go straight to one or two phone screens, and some candidates sit both. The virtual onsite is typically three to five rounds: an AI-assisted round and two coding rounds, then system design and behavioral. End to end, the process typically takes three to six weeks.
 
-### Technical phone screen
-The phone screen usually lasts about an hour in a shared coding environment, with one or two problems that are practically flavored: transforming records, parsing structured text, or building a small utility end to end. The bar is working, runnable code — interviewers frequently execute it — plus clean handling of malformed data, duplicates, ordering, and empty inputs. Candidates who narrate assumptions, test as they go, and adapt when a follow-up changes the requirements do noticeably better than those who silently produce a clever one-pass solution they cannot extend.
+New grad, L4 and senior candidates get the same medium-difficulty coding. At L5 and above, the design round and the project deep dive carry more weight. Backend candidates, senior ones included, still get the full-stack AI assessment.
 
-### Virtual onsite — coding rounds
-The onsite typically runs four to five back-to-back rounds over four to five hours, and it is heavier on coding than most loops: two coding sessions of roughly an hour each. The problems are largely written in-house and are frequently multi-part — each part builds directly on your previous solution, so a brittle or over-specialized part one becomes a tax on parts two and three. Recurring shapes include text and log parsing, JSON-like payload processing, calling or simulating an API and chaining values from one response into the next request, file input and output, and stateful data wrangling with maps, queues, and intervals. Difficulty sits at a medium level; the differentiator is engineering discipline. Interviewers grade a clear progression from a simple correct version to an optimized one, readable naming, sensible use of the standard library, and deliberate testing. Expect follow-ups about larger inputs, repeated or out-of-order events, missing fields, and preserving ordering — and expect to actually run your code rather than pseudocode on a whiteboard.
+Here's what the interview process can look like:
 
-### Virtual onsite — system design
-The design round is about an hour and is grounded in Instacart's own product domain: synchronizing catalog and inventory data with retailers, batching and dispatching orders to shoppers, or handling payment and fulfillment workflows. This is where marketplace reasoning matters most. Inventory can go stale between selection and fulfillment; substitutions can change an order mid-flight; delivery capacity shifts; and multiple parties — consumer, shopper, retailer — may update the same order concurrently. Strong answers explicitly define the source of truth, describe conflict resolution when data disagrees, and separate user-visible correctness from eventual background reconciliation. Interviewers steer toward data models, APIs, asynchronous workflows, idempotency, retries, and observability, and they grade the reasoning process — focused clarifying questions, stated assumptions, bottleneck identification, design evolution under new constraints — more heavily than any particular architecture.
+- **Recruiter screen:** A short call about role, level and timeline.
+- **Online assessment (most software pipelines):** 90 minutes, either a four-level build-and-extend system or a five-part AI-assisted full-stack exercise.
+- **Technical phone screens (one or two):** Hour-long practical coding, or ML fundamentals for ML-leaning roles.
+- **AI-assisted coding round:** About 50 minutes in a large, unfamiliar codebase with an AI assistant.
+- **Coding interviews (two):** Parsing and data-structure problems with multi-part follow-ups.
+- **System design interview:** An Instacart-domain design, usually inventory, catalog or storage.
+- **Behavioral interview:** A technical deep dive on your biggest project, plus a conflict scenario.
 
-### Virtual onsite — behavioral and hiring manager rounds
-The behavioral slot is roughly 45 minutes and often runs as a bar-raiser conversation led by a senior engineer or manager from a different team, focused on ownership, leadership, and the measurable impact of past work. Answers should spend most of their time on your decisions, the alternatives you weighed, and observable outcomes — reliability improvements, incidents handled, pragmatic calls made with incomplete information. Some loops add a shorter hiring manager conversation covering team fit and the problems you want to work on. After the onsite, most candidates hear back within about a week, with feedback assembled by a hiring committee. Consistency across rounds matters: a polished design discussion does not offset a coding round where the interviewer could not follow your process.
+> **Tip:** A few problems recur across phone screens and onsites: password decoding, expression evaluation with variables, and the bus simulation. Practice their full multi-part versions. Candidates who knew only part one ran out of time.
 
-## What Candidates Report
+## Online assessment
 
-- The coding rounds surprise people who prepared exclusively on algorithm puzzles: prompts read like small work tasks — parse this feed, chain these API calls, reconcile these records — and pattern-matching to memorized solutions helps less than comfort with everyday data handling.
-- Multi-part problems are the defining format. Candidates who write extensible, well-factored code early move through later parts quickly; those who hard-code assumptions in part one report running out of time restructuring.
-- Interviewers run the code. Off-by-one errors and unhandled edge cases that would slide by on a whiteboard get caught, so candidates who test incrementally report much smoother sessions.
-- The back-to-back onsite is a stamina test. Four to five consecutive hours with a short break means energy management and quick context switching visibly affect the later rounds.
-- Design rounds reward domain grounding. Candidates who reason naturally about stale inventory, substitutions, and courier batching describe the conversation as collaborative; those who deliver a generic scalable-service template report heavy redirection.
-- The bar-raiser round probes deeper than a standard behavioral: follow-ups push for concrete personal contribution and quantified impact, and vague team-level accomplishments fall flat.
+The classic version is one problem in four levels over 90 minutes. Each level adds timestamped methods to the system you already built. Reported scenarios: a task manager, a banking system, a worker payroll tracker, a key-value store with TTL and point-in-time reads, and an in-memory file store. In the task-manager version, scheduled deletions had to run before any other operation with the same timestamp. The last level asked for a user's task count at a past time. Scores are out of 600, and a candidate with 570 advanced.
 
-## Coding Questions
+The newer version, reported from mid-2026, has five timed parts on a small library app. You gather requirements from an AI product-manager agent, build search and notification features with Claude, and fix a JavaScript-and-Python bug without AI. One variant added a FastAPI dashboard bug and a FIFO hold queue with idempotent APIs, all with full test coverage.
 
-Prepare in a run-and-verify style rather than a whiteboard style: keep the first implementation simple, factor it so a follow-up part can build on it, and test aloud against empty, duplicate, malformed, and out-of-order inputs. String decoding and nested-structure transformations are especially representative of Instacart's parsing-heavy prompts, where a stack or recursive descent over structured text mirrors the payload-processing work the loop favors.
+Interviewers evaluate:
 
+- **Extensibility:** Whether your level-one model survives levels three and four. A design that stores only current state fails the history queries.
+- **Ordering rules:** Equal timestamps and queued actions, such as promotions applied only after a worker leaves the office.
+- **AI direction:** Turning vague requirements into precise prompts and checking the output with tests.
+- **Test coverage:** Unit and integration tests were required in the full-stack tasks.
+
+Rehearse one timestamped four-level system and one AI-built mini app, each against a 90-minute timer.
+
+> **Note:** The tooling caused avoidable failures. The test file was read-only, so print debugging was impossible. Terminal errors could not be pasted into the assistant. Code from an earlier AI round did not carry over, and running two agents at once corrupted the project. The final task allowed 30 minutes, and C++ was missing even for a role that listed it.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Build a task manager with CRUD, then priorities, then users and delayed deletions, then historical task counts.
+- Track worker office time, rank the top N workers, queue promotions until a worker leaves, and compute pay over a period.
+- Gather requirements from an AI product manager, implement search with Claude, then fix a cross-stack bug without AI.
+
+- [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md)
+- [Worker Attendance & Payroll](https://trueinterview.io/questions/oa-worker-attendance-payroll)
+- [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment)
+- [Debug the Library Dashboard Metrics (FastAPI)](https://trueinterview.io/questions/188b0a14-9295-5582-85d5-f77c1ac6826e)
+
+## Technical phone screens
+
+Screens run about an hour in a shared editor, usually with two problems. Common ones: decode a password in which a letter followed by a number of one or more digits repeats that many times, evaluate an expression string, and find the largest change in adjacent stock prices along with its dates. One screen was a key-field-value store with prefix scans, TTLs and restore to any past time. Another fit a storage design for text, images and video in alongside two coding problems.
+
+Follow-ups shift to production concerns: malformed input, huge repeat counts, logging and tests. ML-leaning roles replace one screen with fundamentals: regression types, bias-variance, softmax with the max-subtraction trick, and gradient descent versus SGD under MSE. Feedback typically takes about a week.
+
+Interviewers evaluate:
+
+- **Pace:** Over-clarifying an easy problem uses up time the second problem needs.
+- **Running tests:** Interviewers point you to their test cases and expect code that runs before time is up.
+- **Production thinking:** Error handling, validation and memory limits once the solution works.
+- **ML depth:** Answers you can defend at the level of the formulas.
+
+Drill two medium parsing problems per hour, with tests.
+
+> **Note:** One rejected ML candidate said gradient descent and SGD converge to the same point under MSE, and the interviewer did not accept it. Another, who had prepared for system design, had to write out softmax term by term. Neither got feedback.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Find the fewest shoppers who can deliver every one-unit order between its ready time and its deadline, then handle uneven durations.
+- Build a key-field-value store with prefix scans, TTL expiry on read, and restore to a past timestamp.
+- Find the largest change between adjacent dates in stock records and return it with both dates.
+
+- [Find Minimal Shoppers](https://trueinterview.io/questions/bf1e0319-2d75-436c-99b9-4ff2b4c85911)
+- [In-Memory Key-Value Store](https://trueinterview.io/questions/oa-in-memory-key-value-store)
+- [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change)
+- [Decode Password from File](https://trueinterview.io/questions/f8add70b-e695-4d00-b0db-7a7b6aa7646c)
+
+## AI-assisted coding round
+
+This 50-minute round is run and recorded by a third-party vendor, and Instacart reviews the recording. You work in an editor with an AI assistant on a bus-route simulation you have never seen. The tasks build on each other: trace how the classes relate, reduce the simulated population, handle boarding under capacity, find a bug in the logs, and add priority-pass boarding and wheelchair support.
+
+Interviewers evaluate:
+
+- **Orientation:** How quickly you find the logic you need to change.
+- **Directed AI use:** The assistant searches and drafts, and you verify.
+- **Testing unfamiliar code:** Candidates found this the hardest part.
+- **Constraint handling:** Priority and accessibility rules under a fixed capacity.
+
+Practice adding features to an unfamiliar repository with an AI assistant, against a 50-minute timer.
+
+> **Tip:** Keep each step small and verified. One candidate reached only the fourth task. The candidate who got an offer kept answers short, which left time for every follow-up.
+
+### Sample questions for the AI-assisted coding round
+
+Here are some questions reported by recent candidates:
+
+- Implement priority boarding in the bus simulator, then add wheelchair accommodation within capacity.
+- Find the class responsible for a behavior, change it, and propose an efficiency metric.
+
+- [Bus Simulation Codebase](https://trueinterview.io/questions/karat-ai-bus-simulation-codebase)
+
+## Coding interviews
+
+The onsite usually has two live coding rounds of medium difficulty. Recurring prompts: an expression calculator that supports variable definitions and reassignment, a file of keyed matrices queried by matrix, row and column, and the password decoder. One loop paired expression evaluation with a depth-first search question. Another added a full-stack take-home AI test, even for a backend role. What decides the round is finishing every part with code that runs.
+
+Interviewers evaluate:
+
+- **Parsing correctness:** Multi-digit numbers, precedence and undefined variables.
+- **Data-structure fit:** For example, a nested map from matrix key to row and column, rather than re-reading the file.
+- **Bug-free delivery:** Candidates who left working but buggy code felt it cost them.
+
+Write a calculator with variables and a keyed-matrix reader from scratch, each in under 40 minutes.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Evaluate expressions in which later lines reuse and reassign variables defined earlier.
+- Load a file of named matrices and return the character at a given matrix, row and column.
+
+- [Expression Evaluation with Variables](https://trueinterview.io/questions/onsite-expression-evaluation-with-variables)
+- [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup)
+- [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii)
 - [Decode String (k[encoded])](https://trueinterview.io/questions/decode-string-lc394)
 
-## Low-Level Design Questions
+## System design interview
 
-Object-design discussions at Instacart reward the same production-mindedness as the coding rounds: define responsibilities and state transitions before writing classes, and call out validation, concurrency assumptions, and idempotent updates. A good answer distinguishes the in-memory exercise from production concerns — retries, authorization, auditability — and shows how the design evolves when a new requirement lands, mirroring the multi-part escalation pattern used in coding rounds.
+This hour-long round uses Instacart's domain. Reported prompts include inventory with real-time stock updates and reservations behind the shopper's picking flow, a product catalog, and asset storage. In the inventory prompt, overselling was ruled out from the start. The discussion covered the schema for counts, reservations and carts, transactional stock decrements, the shopper's scan API, and optimistic locking. It also covered caching product pages while writes go to the source of truth.
 
-- [Task Management System](../../questions/object-oriented-programming/task-management-system/README.md)
+Interviewers evaluate:
 
-## How to Prepare
+- **Consistency choices:** Strong consistency for reservations and payments, and where staleness is acceptable.
+- **Schema depth:** Reservations and their expiry, not just a stock counter.
+- **Concurrency control:** Preventing two shoppers from claiming the last unit.
+- **Cache boundaries:** The cache serves hot reads but never decides availability.
 
-- Drill practical implementation, not just algorithms: write scripts that read files, parse structured text or JSON-like payloads, chain simulated API calls, and emit clean output — timed, and actually executed.
-- Practice multi-part extension deliberately: solve a problem, then impose your own follow-up (new field, new constraint, larger scale) and refactor. Code that survives three escalations is exactly what the onsite grades.
-- Build one deep design template around a grocery-marketplace workflow — order placement through fulfillment with substitutions and stale inventory — covering source of truth, idempotency, retries, reconciliation, and what the customer sees during partial failure.
-- Rehearse verbalizing tests: enumerate edge cases out loud and run them before declaring done, since interviewers execute your code and grade the testing habit itself.
-- Prepare bar-raiser stories with quantified personal impact — an incident you owned, a reliability gain you measured, a pragmatic call under ambiguity — and be ready for follow-ups isolating your individual contribution.
-- Do at least one full-length mock of consecutive rounds to build stamina for the four-to-five-hour back-to-back onsite, including recovering from a rough round without carrying it into the next.
-- If an online assessment precedes your phone screen, warm up on timed array and string tasks; the cut is score-based, so speed on the easy tasks buys time for the hard ones.
+Build one inventory-reservation design from schema to locking, and defend each consistency choice.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design inventory with reservations that never oversell, including the shopper's scan API.
+- Design a storage system for text, image and video assets, with its limitations.
+
+- [Design Instacart Inventory System](https://trueinterview.io/questions/system-design-inventory-management)
+- [Reserve Cart Inventory Without Overselling](https://trueinterview.io/questions/reserve-cart-inventory-without-overselling)
+- [Design Online Product Catalog](https://trueinterview.io/questions/system-design-product-catalog)
+
+## Behavioral interview
+
+The round pairs a technical deep dive on your biggest project with a conflict scenario. One candidate's story about a migration drew probing on broker choice, partial failures, and why payments stayed strongly consistent. The conflict question was about two senior engineers disagreeing on a schema.
+
+Interviewers evaluate:
+
+- **Trade-off ownership:** What you chose, what you rejected, and why.
+- **Depth under probing:** Specific failures and how you handled them.
+- **Evidence-based resolution:** Settling disagreements with use cases or quick benchmarks, not seniority.
+- **Motivation:** Why Instacart, given the competition from larger retailers.
+
+Prepare two project stories you can defend down to schemas, plus one disagreement you settled with evidence.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through your biggest project and its consistency trade-offs.
+- Describe how you aligned two engineers who disagreed on a schema.
+
+- [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project)
+- [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake)
+- [Justify Instacart fit and leaving your role](https://trueinterview.io/questions/justify-instacart-fit-and-leaving-your-role)
+
+## How Instacart makes hiring decisions
+
+In split loops the first half acts as a gate. Feedback from all rounds feeds a single decision, which can arrive the day after the final round. Rejections rarely come with feedback. In ML-leaning loops, one weak fundamentals round sank candidates whose coding was solid. The level is set up front, and the design and project rounds are where L5 and L6 candidates show their scope.
+
+## How to prepare for the Instacart interview
+
+1. **Master the recurring parsers:** Password decoding with multi-digit counts, and expressions with variables.
+2. **Design for history from level one:** Store timestamped state so that later levels need no rewrite.
+3. **Practice AI-directed development:** Build and test features with an assistant in code you did not write.
+4. **Know two scheduling patterns:** An earliest-deadline heap and binary search on the answer.
+5. **Harden code out loud:** Validation, malformed input, memory limits and tests.
+6. **Own the inventory design:** Reservations, locking and cache boundaries.
+7. **Derive ML basics for ML roles:** Softmax stability, bias-variance and optimizer convergence.
+
+## About working at Instacart
+
+Instacart runs a real-time grocery marketplace connecting customers, shoppers and retailers, alongside a retail media business and an enterprise platform for grocers. Product-aligned teams, often of eight to a dozen engineers, own their services. Under the company's Flex First policy, many roles are remote within the US or certain Canadian provinces.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L4 (Software Engineer) | Delivering features within an established design | One team |
+| L5 (Senior Software Engineer) | Owning projects with moderate ambiguity | A team's systems |
+| L6 (Senior Software Engineer II) | Leading larger, more ambiguous initiatives | Several teams |
+
+Instacart hires engineers across its consumer, shopper and retailer businesses. Teams include:
+
+- **Order Experience:** Checkout, order management and post-order quality.
+- **Fulfillment and Core Picking:** The shopper app, picking and delivery logistics.
+- **Enterprise and Storefront Pro:** Branded e-commerce sites for retail partners.
+- **Ads (Carrot Ads):** Retail media, ranking and measurement.
+- **Connected Stores (Caper Carts):** Smart carts and in-store technology.
+
+### Experience and education requirements
+
+Postings ask for a computer science degree or equivalent experience, plus fluency in a general-purpose language such as Python, Ruby or Go. Senior roles ask for five or more years. Posted US base pay for one Senior Software Engineer II role ranged from about $187K to $250K depending on location, plus equity.
+
+## FAQs about the Instacart interview
+
+### How long does the Instacart interview process take?
+
+Typically three to six weeks. Phone screen feedback takes about a week, and onsite decisions can arrive the next day.
+
+### What is the hardest round of the Instacart interview?
+
+Candidates most often name the AI-assisted rounds, because of the time pressure and tooling friction. In ML-leaning loops, it is the fundamentals screen.
+
+### Is there an online assessment?
+
+Yes, in most software pipelines. It runs 90 minutes, and candidates have advanced without a perfect score.
+
+### Can I use AI tools during the interview?
+
+Only in the designated rounds. The full-stack assessment and the bus-simulation round require an assistant. The bug-fix task does not allow one.
+
+### Is the Instacart interview remote?
+
+Yes. Every reported stage was held virtually.
 
 ---
 

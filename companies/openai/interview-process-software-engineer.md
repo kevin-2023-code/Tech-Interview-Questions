@@ -6,100 +6,275 @@
 
 ---
 
-The round that ends most Software Engineer candidacies here is not a coding round at all — it is the project deep dive, and it lands after every technical round has already been cleared. One candidate passed coding, system design and behavioral, cleared candidate review, and was declined at final approval for one stated reason: the deep-dive presentation was judged to lack depth. The coding rounds are unusual in a different way — a single scenario is released one sub-part at a time, commonly five parts on a strict clock, with three cleanly finished parts treated as the passing bar. Nothing in this loop rewards polish; it rewards volume of correct running code and the ability to defend every decision you have ever made.
+OpenAI's Software Engineer loop has two unusual features. Coding rounds are a single scenario released one part at a time, often five parts against a strict clock, and finishing three cleanly is the commonly reported passing bar. And offers are lost after every technical round has gone well: the deep dive and the manager conversation feed a review that needs strong advocates. One candidate cleared coding, design, behavioral and candidate review and was then declined at final approval because the deep-dive presentation was judged too shallow.
 
-## Interview Process
+This guide breaks down each stage of the OpenAI Software Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 104 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## OpenAI Software Engineer interview process
 
 <!-- guide-diagram -->
 ![OpenAI Software Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/openai--software-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (30–45 minutes).** Heavily logistical for this track: in-office preference and the three-days-per-week onsite commitment, relocation and visa sponsorship, current level and promotion history, reasons for leaving, timeline and competing processes, previous base and equity, compensation expectations, and which language you want to code in. Interspersed are real behavioral prompts — walk through a project with significant ambiguity, describe a production bug you fixed. Some Software Engineer candidates report a recruiter unexpectedly running technical prompts here (how would you find faults if this system took ten times the traffic; describe a retry strategy you built). Candidates are rejected at this stage, so treat it as an evaluated round.
+OpenAI hires most Software Engineers for a specific team. The skeleton is stable: a recruiter screen, one or two technical screens (coding, then system design), and a virtual onsite of four or five rounds. Applied teams sometimes swap in a practical full-stack build, and infrastructure teams add a domain systems round. Timelines run from about three weeks to more than two months.
 
-2. **Technical phone screen — coding (60 minutes, occasionally a two-hour block split with design and a short break).** One scenario, multiple parts, each unlocked only after the previous one is working. Recurring families for this track: grid infection simulations that accrete rules (immunity, recovery after D days, death thresholds, an optional one-time row or column burn), IPv4 and CIDR parsing or iteration, GPU credit grants with expiry and earliest-expiry-first deduction, memory allocators, toy-language parsers and type inference, social graphs with follow, unfollow, snapshots and friend-of-friend recommendations, and key-value stores with log recovery. Interviewers frequently supply their own test cases and expect your code to pass them on the spot; several ran the session with no interest in trade-off discussion at all.
+The shape changes little by level: mid-level and senior candidates (commonly targeted at L5 or L6) sit the same coding problems, and seniority shows in the depth expected in design and the deep dive. Some teams run both screens as one two-hour block.
 
-3. **Second phone screen — system design (60 minutes).** Product-shaped prompts rather than abstract scaling: a payment system with holds, batch settlement and reconciliation; Slack-style messaging; Sora-style video generation scheduling; a sandboxed cloud IDE; an online chess matching service; a CI/CD platform with build caching. Grading favors a crisp component breakdown, an explicit data model, and a rigorous treatment of failure — idempotency keys, retries, exactly-once semantics, worker crashes mid-job.
+Here's what the interview process can look like:
 
-4. **Virtual onsite (typically four to five rounds).** A second coding round, one or two more design rounds, a project deep dive (sometimes a slide-based presentation), and a behavioral conversation run by an engineering manager rather than a dedicated interviewer. Some loops add a cross-functional session with a product manager where you pitch a developer-facing feature and explain how you would measure it.
+- **Recruiter screen (30 to 45 minutes):** Background, motivation, logistics and compensation, sometimes with technical questions mixed in.
+- **Technical phone screen (60 minutes, occasionally 75):** One multi-part coding scenario in a shared editor that runs code.
+- **System design screen (60 minutes):** A product-shaped design prompt, graded on component breakdown and failure handling.
+- **Onsite coding (one or two rounds):** Another multi-part problem, or a refactoring, concurrency or persistence exercise.
+- **Onsite system design (one or two rounds):** A second design prompt, often drawn from OpenAI's own products.
+- **Project deep dive (45 to 60 minutes):** A past project examined at implementation depth, often with slides.
+- **Behavioral and hiring manager interviews:** Motivation, AI safety views and conflict stories, sometimes with a cross-functional partner.
 
-5. **Additional rounds when signal is incomplete.** Loops are routinely extended: an extra coding round after a weak screen, an extra system design round, or a director conversation added post-loop for match assessment. An added round is not itself a negative signal, but it means the committee did not see enough.
+> **Tip:** Decide your language before the recruiter asks. Python is the most common choice; at least three candidates who chose C++ lost parts to boilerplate, custom comparators and hand-built test scaffolding.
 
-6. **Review, references and team match.** After the loop comes candidate review and a final approval step, and the two are separate gates — strong round feedback can still stop at approval. Expect reference requirements: two reference letters with at least one from a manager, plus internal references if you were referred. Team matching needs sign-off from more than one hiring manager. Turnaround varies sharply: one offer arrived two days after the final round, another candidate got a template rejection a week later with no feedback, and several report the process going silent after team matching begins.
+## Recruiter screen
 
-## What They Actually Evaluate
+The recruiter call runs 30 to 45 minutes and is heavily logistical: three days a week in the office, relocation and sponsorship, level and promotion history, reasons for leaving, competing deadlines, previous base and equity, expectations, and your coding language. Recruiters also ask why OpenAI and for a project with ambiguity, and the motivation answer goes into feedback. Some screens are run by an engineer and ask how much of the last year you spent hands-on coding.
 
-### Coding and Algorithm
+Candidates are rejected here. Several met scripted technical prompts from a recruiter (finding faults at ten times the traffic, a retry strategy, a production bug you fixed), and dense jargon landed poorly with a non-engineer.
 
-Two to three rounds, 45–60 minutes each, almost always a multi-part scenario rather than a single puzzle. The reward function is throughput: candidates who finished three of five parts passed, and candidates who spent the first twenty minutes debating BFS versus iterative scanning, or writing C++ boilerplate and their own test harness, ran out of clock. Interviewers hand you follow-ups that deliberately break the first solution — the classic being infection that becomes immunity after a fixed delay, which invalidates a level-synchronous traversal. Losing signal looks like silence while debugging; earning it looks like narrating the fix.
+Interviewers evaluate:
 
-- [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md)
-- [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support)
-- [GPU Credit Tracker](https://trueinterview.io/questions/gpu-credit-tracker)
-- [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler)
+- **Specific motivation:** A reason tied to your own work, not general enthusiasm for AI.
+- **Clean career narrative:** Departures, layoffs and promotions explained briefly and without defensiveness.
+- **Logistics fit:** Hybrid attendance, relocation and timeline stated plainly.
+- **Plain-language technical answers:** Scaling and debugging stories a non-engineer can follow.
 
-### Low-Level Design
+Prepare a two-minute background, a concrete why-OpenAI answer and a short scaling story that avoids jargon.
 
-A large share of the coding load is really object and API design under a growing spec: build a working component, then extend it without a rewrite. Reports include memory allocators pushed from a first-fit linked list to logarithmic allocation, a resumable iterator where the interviewer demanded the tests before the implementation, and a chatroom refactored onto an event bus with per-subscriber access rules. The grade is whether the second requirement fits your first abstraction.
+> **Tip:** Ask which level the role is calibrated at during this call. A candidate who asked directly got a clear answer (senior and above), and recruiters readily moved interview dates later for candidates with parallel processes.
 
-- [Memory Allocator](../../questions/object-oriented-programming/memory-allocator/README.md)
-- [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system)
-- [Social Network with Snapshots](https://trueinterview.io/questions/social-network-with-snapshots)
+### Sample questions for the recruiter screen
 
-### System Design
+Here are some questions reported by recent candidates:
 
-One to three rounds. Interviewers push on mechanics, not diagrams: how a queue is actually consumed, where the lock lives, how a session table supports multiple devices, what happens to a half-finished job when a worker dies. Candidates who front-loaded capacity math scored worse than those who front-loaded failure paths; one interviewer simply invited the candidate to pick their own daily-active-user number so the conversation could move on. The recurring loss is spending too long on the happy path and being prompted for sharding and caching instead of raising them yourself.
+- Why are you leaving your current role, and what was your starting and ending level there?
+- Walk through a project with significant ambiguity and how you resolved it.
+- If your system suddenly took ten times its traffic, how would you find what breaks first?
+- Are you comfortable being in the office three days a week, and do you need sponsorship?
 
-- [Design a Stripe-like Payment Platform](https://trueinterview.io/questions/payment-platform-design)
-- [Design a Distributed Job Scheduler for GPU Compute Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform)
-- [Design Chess.com (Online Chess Game)](../../questions/system-design/design-chess-com-online-chess-game/README.md)
-- [Multi-Tenant CI/CD Workflow System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow)
-
-### Project Deep Dive
-
-A dedicated 45–60 minute session, sometimes with slides you prepare in advance. Interviewers pick one project and go down to memory management, serialization formats, backpressure and the numbers you measured. Describing what you built is scored as a fail; what earns signal is the alternatives you rejected and why, the edge cases you handled, and what you would change now. A related variant hands you a messy codebase and asks you to critique and restructure it live, graded the same way — every change must be justified.
-
-- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
-- [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring)
-
-### Behavioral and Leadership
-
-One or two rounds, one usually with the hiring manager. Motivation is the load-bearing question and a generic answer visibly costs candidates; one rejection cited insufficient signal after the candidate answered correctly but never volunteered enthusiasm to a quiet manager. Other recurring prompts: a project that stalled, a conflict with a product manager, critical feedback you acted on, and delivering something quickly without causing an incident. Expect technical follow-ups inside the behavioral round — the stories you tell get drilled.
-
-- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [How to answer common recruiter screen questions](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions)
 - [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 
-## What They Don't Test
+## Technical phone screen
 
-- Contest-style algorithm tricks. The coding rounds are simulations, parsers, allocators and resource trackers drawn from real product surfaces; what is rewarded is finishing parts, not recognizing an exotic pattern.
-- Beautiful code. Multiple interviewers declined to discuss comments, refactoring or trade-offs and graded only whether the tests passed; time spent tidying is time lost on the next sub-part.
-- Capacity-estimation theater. Very few reports involve back-of-envelope throughput math; the design bar is component responsibility, data model and failure recovery.
-- Memorized reference architectures. Candidates who prepared a single popular walkthrough were taken outside it by the second follow-up; reasoning from the prompt's own constraints is what scores.
+The coding screen is usually 60 minutes in a shared editor that runs code, with some teams booking 75. It is one scenario split into parts, each revealed only after the previous one passes, so you cannot design ahead. Five parts is common and three finished parts is the bar most candidates were told or inferred; one candidate reported the same three-of-four bar at both the screen and the onsite. Interviewers often supply their own test cases and advance only when they pass; several declined to discuss trade-offs, comments or refactoring at all.
 
-## The Real Filter
+The recurring families are well known. The grid infection simulation grows rule by rule: eight-neighbor spread with a threshold of K, immune cells, recovery after D days (to immunity in some variants, back to healthy in others), delayed death, and a final part where burning one row or column per day minimizes deaths. Others include IPv4 and CIDR iteration, GPU credit grants with expiry, a malloc and free allocator, a follow graph with snapshots and recommendations, a toy-language type checker, a monster battle and a 15-minute chat-event counter. Since mid-2026 several candidates met unfamiliar prompts instead: binary search whose feedback arrives one guess late, a card-dealing game, and a scheduler for dependent agent tool calls.
 
-The primary rejection path is the deep dive, not the algorithms. Candidates prepare the loop as a coding gauntlet, clear it, and then present a past project at the altitude of a resume bullet. Interviewers for this track expect a defense: the alternatives you rejected, the exact trade-offs, the numbers you measured after launch, and the memory or serialization details underneath. One candidate was told plainly that the deep-dive presentation lacked depth after everything else had passed; another had positive signals in coding, design and behavioral and still stalled because the deep dive was rated shallow. Pick a project you can discuss at three altitudes and rehearse it out loud.
+Interviewers evaluate:
 
-Second, pace kills the coding rounds. Sub-parts arrive one at a time with no preview, three of five is the working bar, and reports of finishing only three — or finishing everything but only at the final minute — correlate strongly with rejection. Choosing a verbose language costs real parts; two candidates named C++ boilerplate as the reason they fell short.
+- **Throughput:** Parts completed with passing tests; finishing three of five is common, finishing all five preceded at least one offer.
+- **State modeling:** Applying a day's changes simultaneously, and tracking per-cell timers so delayed recovery or death does not break a level-by-level traversal.
+- **Complexity on request:** Moving an allocator from a linear free list to logarithmic operations with a size-ordered index plus an address-ordered list for coalescing.
+- **Debugging out loud:** Narrating a fix instead of going silent; one interviewer stayed hands-off while a candidate chased the same regression twice.
+- **Self-testing when asked:** Some interviewers want your own edge cases or a test plan rather than supplied tests.
 
-Third, passivity fails design. Interviewers here are willing to sit quietly. The candidates who advance raise sharding, caching, multi-device sessions and mid-job worker failure before being asked, and keep any single tangent short — one candidate's own diagnosis was rambling on pointwise versus listwise reranking until the round ran out.
+Drill each known family until its first three parts take under 30 minutes, in the language you will use.
 
-## Data Source
+> **Note:** The editor's quirks cost real time. Candidates reported output appended to the end of a long buffer, an editor that crashed mid-round, and an indentation fix that silently reverted. Run small checks often and reread your diff before each part.
 
-Based on 104 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+### Sample questions for the technical phone screen
 
-## FAQ
+Here are some questions reported by recent candidates:
 
-**What is the Software Engineer job actually like here?**
-Our reports cover the hiring loop rather than daily work, so treat this as context: the organization is smaller than it looks from outside, technical decisions sit with engineers rather than product management, and individual projects tend to have one directly responsible owner. The pace is the widely reported cost — urgency is constant and predictable hours are not the norm. The hybrid expectation is three days a week in the office, and the recruiter screen asks about it explicitly.
+- Simulate plant infection on a grid where a healthy plant falls ill with at least K infected neighbors, then add immunity, recovery after D days, delayed death, and optional row or column burns that minimize deaths.
+- Track GPU credit grants with expiry, deduct from the earliest-expiring grants first, and leave state unchanged when a deduction cannot be covered.
+- Implement malloc and free over a buffer of N bytes with no compaction, first fit and then best fit, with costs independent of N.
+- Iterate IPv4 addresses forward and backward, including across CIDR blocks, without enumerating large ranges.
 
-**What is the engineering culture like?**
-Candidates consistently describe interviewers as collaborative rather than adversarial — several rounds read like working sessions, with interviewers nudging toward missed areas. The work described in the prompts matches what the loop tests: fixed GPU capacity, long-running jobs that fail midway, real product surfaces. One candidate was told the team had written almost no code in recent months, which sits oddly against a coding-heavy loop, so calibrate expectations with your specific team.
+- [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md)
+- [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid)
+- [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker)
+- [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md)
+- [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support)
 
-**How hard is it to get in?**
-Very. The coding bar sits above most large technology companies and closer to other frontier labs, applicant-to-hire ratios are widely described in the low single-digit percentages or below, and the final decision is made by reviewers you never met who default to no. Reports of strong verbal feedback in every round followed by rejection are common, sometimes attributed to shifting headcount rather than performance.
+## System design interviews
 
-**Which round is hardest?**
-By outcome, the project deep dive and the extended system design round. The deep dive is where prepared candidates get caught, because it cannot be studied for in a week; the design round is hardest when the interviewer stays silent and expects you to drive. The coding screen is the most stressful but the most trainable — its difficulty is clock management, not insight.
+Most candidates sit one design screen and one or two onsite design rounds of about 60 minutes. Prompts are product-shaped and repeat. A payment system is the most frequent: holds at purchase, then settlement batched to a bank at midnight, in one version at about 10,000 transactions per second. Next comes a Sora-style video service where each worker renders one video, the GPU pool grows and shrinks, and jobs die mid-render. Chess, Slack, a sandboxed cloud IDE, CI/CD with build caching and a crossword solver also recur.
+
+Grading leans on mechanics, not diagrams: how a queue is consumed, what happens when a worker disappears mid-job, how to resume without duplicating work, how a client returning after a long absence catches up. Capacity math is rarely the point; one interviewer let the candidate pick any user count to move on. Design is the round most often named as the reason for a rejection.
+
+Interviewers evaluate:
+
+- **Requirement clarification:** A crossword candidate was told design fell just below the bar after skipping scoping and missing the interviewer's focus on deduplicating work; an offer candidate spent ten minutes clarifying first.
+- **Failure handling you raise yourself:** Idempotency keys, retries, preemption, checkpointing and reconciliation before being prompted.
+- **Component responsibilities:** A clear lifecycle (ingest, queue, schedule, execute, notify) and an explicit data model.
+- **Reasoning from the prompt:** Candidates reciting a memorized payment template were pulled off-script by follow-ups.
+- **Breadth under time:** Covering the whole system rather than spending the round on one component, such as chess state distribution.
+
+Practice the recurring prompts until you can walk the full request lifecycle in ten minutes, then spend the rest on failure paths.
+
+> **Note:** Staying tightly focused matters as much as depth. A candidate whose coding was rated strong lost the loop partly because a design discussion drifted into pointwise versus listwise reranking; keep any single tangent short unless the interviewer pulls you into it.
+
+### Sample questions for the system design interviews
+
+Here are some questions reported by recent candidates:
+
+- Design a payment service that places holds on purchase and sends the day's approved charges to the bank in a batch at midnight, with idempotent retries and late settlement.
+- Design Sora-style video generation where each worker renders one video at a time, the GPU pool fluctuates, and users are notified on completion.
+- Design an online chess service where move timing stays authoritative even though the client cannot be trusted to report elapsed time.
+- Add a build cache, custom image layers and failure-safe artifact uploads to a CI/CD system.
+
+- [Design Payment System](https://trueinterview.io/questions/payment-platform-design)
+- [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform)
+- [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md)
+- [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide)
+- [Design a Crossword Puzzle Solver](https://trueinterview.io/questions/crossword-puzzle-solver)
+
+## Onsite coding interviews
+
+The onsite has one or two coding rounds. Some repeat the screen format; others are object and API design under a growing spec, graded on whether the second requirement fits your first abstraction. Prompts include a chatroom refactored onto an event bus, a chat app with pluggable bots extended to isolated channels, a work queue with timeouts and a dead-letter queue, a key-value store recovered from a log, shard key-range rebalancing, and a snapshot set.
+
+Concurrency appears inside coding too: counting a tree's nodes using only an asynchronous send, with retries and idempotent request IDs, or scheduling dependent agent tool calls under a global concurrency limit. One applied full-stack loop swapped a round for a practical build (React front end, API, streaming updates) with documentation and AI tools allowed.
+
+Interviewers evaluate:
+
+- **Missing abstractions:** An offer candidate's first refactor worked but lacked an event bus; restructuring around one was the turning point.
+- **Extensibility without rewrite:** New bot types, channels or file-size limits added without touching existing paths.
+- **Correctness under failure:** Duplicate messages, timeouts and crashed nodes handled explicitly.
+- **Tests as part of the answer:** Several rounds made written tests an explicit deliverable.
+- **Explaining why:** One interviewer ignored a failing test and graded the explanation of the approach instead.
+
+Practice extending a working class through three rounds of new requirements in 45 minutes, including threading primitives such as locks, semaphores and condition variables.
+
+### Sample questions for the onsite coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Refactor a working chatroom so bots receive messages through an event bus with access rules, then handle ordering edge cases.
+- Count the nodes of a machine tree using only an asynchronous send, then add retries, idempotent request IDs and concurrent requests.
+- Build a work queue with reserve, complete and fail, visibility timeouts, retry limits and a dead-letter queue.
+- Persist a key-value store to disk and reload it, then split the data so no file exceeds 1 KB.
+
+- [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring)
+- [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e)
+- [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue)
+- [Implement follow graph with snapshots and recommendations](https://trueinterview.io/questions/implement-follow-graph-with-snapshots-and-recommendations)
+- [Dependency-Aware Multi-Agent Request Scheduler](https://trueinterview.io/questions/472b106a-5204-5e12-acf4-8a1fca2a099f)
+
+## Project deep dive
+
+The deep dive is a dedicated 45- to 60-minute session, often with slides you prepare (one candidate used eight), sometimes led by a principal engineer. You choose the project; the interviewer goes as deep as it allows: memory management, serialization formats, backpressure, consistency, the numbers measured after launch. Some versions add behavioral probing on influence and disagreement.
+
+This is the round prepared candidates underrate. Describing what you built is scored as insufficient; the signal is the alternatives you rejected, the edge cases you handled, and what you would redesign now. A candidate who had not revisited an old pipeline could not recall its numbers or trade-offs and was rejected.
+
+Interviewers evaluate:
+
+- **Decision depth:** Why each technology was chosen over named alternatives, with the cost of each.
+- **Personal ownership:** What you built, decided and measured, separate from the team.
+- **Hindsight:** A credible redesign with today's knowledge.
+- **Quantified impact:** Latency, throughput, reliability or adoption figures you can defend.
+
+Rehearse one project at three altitudes (business problem, architecture, implementation details) and refresh every number before the loop.
+
+> **Note:** A strong deep dive does not rescue a weak design round, but a weak one can sink an otherwise passing loop. The candidate rejected at final approval had positive feedback everywhere else.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Present the most difficult problem in a past project, the trade-offs you weighed and how you worked with other teams to ship it.
+- How did your pipeline handle backpressure, and why that serialization format?
+- What alternatives did you reject, and how did you measure success after launch?
+
+- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
+- [Answer project deep dive and cross-functional questions](https://trueinterview.io/questions/answer-project-deep-dive-and-cross-functional-questions)
+- [Explain Your Engineering Ownership](https://trueinterview.io/questions/explain-your-engineering-ownership)
+
+## Behavioral and hiring manager interview
+
+Behavioral signal comes from one or two rounds, usually with the hiring manager and sometimes a cross-functional partner such as a product manager. Motivation is the load-bearing question, followed by views on AI safety and AGI. Recurring prompts: a project that slipped, conflict with a product manager or manager, critical feedback, shipping fast without an incident, and a project you finished but chose not to release. Interviewers drill into each story's technical details.
+
+Hiring manager rounds range from 15 minutes to a full hour, and short ones still decide outcomes: a candidate who cleared both technical screens was rejected two days after a brief, perfunctory manager call. Directors are sometimes added after the loop when signal is mixed.
+
+Interviewers evaluate:
+
+- **Genuine mission alignment:** A personal answer connecting your work to OpenAI, not a generic one.
+- **Initiative with quiet interviewers:** A candidate who answered correctly but showed no enthusiasm to a silent manager was rejected for insufficient signal.
+- **Speed with judgment:** Moving fast without compromising quality or safety.
+- **Technical substance in stories:** Implementation details that hold up under follow-up.
+- **Collaboration:** How you align trade-offs with product and design partners.
+
+Prepare six to eight stories with technical depth, plus a considered view on AI safety that you can defend.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Why OpenAI rather than another AI company, and what is your view on AI safety?
+- Tell me about a project you completed but decided not to release.
+- Describe delivering a critical feature quickly without causing a major incident.
+- Pitch a developer-facing feature and explain how you would measure its success.
+
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety)
+- [Explain motivation and mission alignment](https://trueinterview.io/questions/explain-motivation-and-mission-alignment)
+
+## How OpenAI levels and evaluates Software Engineer candidates
+
+After the loop comes candidate review and then a separate final approval, and strong round feedback can still stop at approval. One recruiter said a candidate needs one or two strong-hire ratings to go to the hiring committee, and another loop was declined for lacking enough strong positive signals. A borderline loop may get an added coding or design round, or a director conversation. References are part of the process: two reference letters with at least one from a manager, internal references when referred, and in one case references requested the day after the loop.
+
+Team matching depends on the req. Team-specific hires skip it; others matched after approval, needed sign-off from more than one hiring manager, or went back into matching when the original team filled. One rejected candidate was told they could re-enter team matching. Turnaround varies: offers came two days after the final round and within a week of an onsite; rejections came within a week, usually without feedback.
+
+> **Tip:** Treat any added round as a real chance to supply strong signal, not a formality. Candidates who reached approval needed advocates in the debrief, and a quiet but adequate round counted for little.
+
+## How to prepare for the OpenAI Software Engineer interview
+
+1. **Drill the known coding families to speed:** Infection grid, IPv4 and CIDR, GPU credits, allocator, follow graph, key-value store and toy language, each through three or more parts in under 45 minutes.
+2. **Code in your fastest language:** Python with built-in sorted structures or heaps beats hand-rolled C++ under this clock.
+3. **Practice the unfamiliar, too:** Newer prompts (delayed-feedback search, agent tool scheduling, card dealing) reward calm decomposition over recall.
+4. **Prepare design prompts around failure:** Payment holds and batch settlement, Sora-style GPU scheduling, chess clocks and reconnects, each with idempotency, preemption, checkpointing and reconciliation.
+5. **Clarify before designing:** Spend the first five to ten minutes on scope, inputs and the interviewer's real concern.
+6. **Rebuild your deep-dive project from memory:** Slides, numbers, rejected alternatives and a hindsight redesign, rehearsed aloud.
+7. **Write a specific why-OpenAI answer:** Tie it to your own work and pair it with a defensible view on AI safety.
+8. **Line up references early:** A manager reference letter and internal referees should be ready before the onsite.
+
+## About the OpenAI Software Engineer role
+
+Software Engineers at OpenAI build the products and platforms around the models: ChatGPT, the API, Codex, Sora, and the identity, payments and infrastructure layers underneath. Teams are small, technical decisions sit with engineers, and projects typically have one directly responsible owner. Levels are numeric; one hiring manager shared base bands topping out near $327K for L5 and $385K for L6, with formal performance checkpoints at 90 days and one year. Work is hybrid, three days a week in the office, and interviewers describe fast-changing direction with more problems than people.
+
+OpenAI hires Software Engineers across product and platform teams. Teams include:
+
+- **ChatGPT engineering:** Backend, full-stack and mobile work on the consumer and enterprise product.
+- **Applied Foundations:** Core product and platform layers such as identity and access, safety, and payments and commerce.
+- **Codex:** Coding-agent products and the infrastructure behind them.
+- **Sora:** Video generation products and their GPU job pipelines.
+- **API and developer platform:** The developer-facing API and its capabilities.
+- **Infrastructure and developer productivity:** Inference serving, orchestration and internal engineering tooling.
+
+### Software Engineer experience and education requirements
+
+Postings emphasize building and scaling reliable production systems, distributed-systems and API skills, and a backend language such as Python, Go, Rust or C++. Some backend postings ask for five or more years of experience and favor startup backgrounds; no specific degree is required. Mobile candidates code in their own platform's stack.
+
+## FAQs about the OpenAI Software Engineer interview
+
+### How long does the OpenAI Software Engineer interview process take?
+
+Usually three to eight weeks. One offer came about three to four weeks after the recruiter screen, while a referral took nearly a month to reach the phone screen and two more weeks to the onsite. Team matching and reference checks can add weeks, and some processes went silent during matching.
+
+### What is the hardest round of the OpenAI Software Engineer interview?
+
+By outcome, system design and the project deep dive: design rejections usually followed a template answer or failures raised only when prompted, and the deep dive cannot be crammed in a week. The coding screen is the most stressful but the most trainable, since its difficulty is pace, not insight.
+
+### Is there an online assessment or take-home?
+
+Rarely for this track. One candidate reported an online assessment on prefix-balanced scheduling of labeling tasks, and some teams are described as using a 48-hour work trial, but most candidates go straight from the recruiter call to a live coding screen.
+
+### Which programming language should you use?
+
+Use the language you write fastest, usually Python. Interviewers allow advanced structures and documentation lookups, but they do not slow the clock for verbose syntax.
+
+### What happens after a rejection?
+
+Feedback is usually withheld by policy, though recruiters sometimes name the weak round. Rejections at approval are sometimes attributed to headcount rather than performance, and one candidate was invited back into team matching. Candidates have reinterviewed about a year later.
 
 ---
 

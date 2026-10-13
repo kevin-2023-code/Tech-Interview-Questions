@@ -6,91 +6,276 @@
 
 ---
 
-Frontend Engineer candidates here lose the loop in the product design round for what they did not say. One candidate built the streaming UI cleanly, then designed the ChatGPT Playground and waited to be asked about what the client shows when the server dies mid-stream — the rejection takeaway was that the round expects you to walk the happy path, every error state and the recovery path unprompted. The other surprise arrives earlier: the first call is run by an engineer, not a coordinator, and inside forty-five minutes of visa and compensation logistics it turns into a sustained interrogation of real-time client state, before you have written a line of code. Streaming is the spine of this track — token rendering, concurrent responses and duplicate-request handling recur in the screen, the coding round and the design round of separate loops.
+OpenAI's frontend loop is built around the product it ships. Streaming model output comes up at every stage: the first call can go deep on React state for token-by-token rendering, the coding round asks for a working streaming interface, and the design round asks what the client shows when a response fails halfway. Frontend candidates also sit the same multi-part practical coding problems as other engineers, where finishing three of five parts is the usual bar. The final decision is made in a review by people who never met the candidate, and a project deep dive that lacks depth can sink an otherwise clean loop.
 
-## Interview Process
+This guide breaks down each stage of the OpenAI Frontend Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 104 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## OpenAI Frontend Engineer interview process
 
 <!-- guide-diagram -->
 ![OpenAI Frontend Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/openai--frontend-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter or engineer screen (about 45 minutes).** Some candidates get a short introductory call about the role and pipeline; more often for this track an engineer runs it. The logistics block is real and specific: what percentage of the last twelve months you spent hands-on coding, whether you identify as frontend, backend or full stack, your daily frameworks, your preferred interview language and when you last practiced it, visa sponsorship, willingness to relocate and commit to three days a week onsite, job-search deadlines, and base plus total compensation expectations. The technical block that follows asks you to describe a system you owned end to end and a production incident you diagnosed, then goes deep on real-time features: state management for live data streams, React state for streaming tokens, preventing flicker and overwrite, race conditions across multiple simultaneous streaming responses, useRef versus useState trade-offs, and idempotency so a repeated network request is not processed twice.
+OpenAI hires frontend engineers into specific product teams, such as ChatGPT, Codex, billing and developer platforms, and many hires skip a separate matching step. Web candidates are tested in React and TypeScript; mobile candidates in SwiftUI or UIKit, or in Jetpack Compose. The process typically runs three to six weeks: one applied full-stack candidate went from recruiter call to offer in about three to four weeks, while a referred candidate waited almost a month just to reach the phone screen.
 
-2. **Frontend coding round (typically 45–60 minutes, shared editor).** A build, not a puzzle. One candidate was asked to construct from scratch an input box and submit button that renders streaming model output, graded on handling incremental token arrival and updating the display smoothly without blocking the interface. Expect the transport to be your choice and loading, error and cancellation states to be part of the grade. Client-platform loops substitute an equivalent: an iOS interface built in a sample project with a discussion of when to prefer UIKit over SwiftUI, or a Jetpack Compose screen modeled on a real app's home page, built live on a shared screen.
+The skeleton is a recruiter or engineer screen, one or two technical screens, and a virtual onsite of four to five rounds. Some teams run the screen as a two-hour block: an hour of coding, a 15-minute break, then an hour of design. Senior candidates get more design and a harder deep dive, and loops that need more signal get extra rounds.
 
-3. **Product system design (60 minutes).** Prompts are drawn from surfaces this company actually ships. Reported examples: the ChatGPT Playground, covering the parameter panel, preset management and streaming output structure, plus backend behavior including a server failure mid-response; the error-handling flow when a free-tier user hits a message cap, covering the API contract, how the client interprets each error, and rate-limit behavior across text, voice and image messages; and a WhatsApp-style messaging app where a written requirements document is supplied and must be incorporated.
+Here's what the interview process can look like:
 
-4. **Project deep dive (45–60 minutes, sometimes slide-based).** One project, examined to the level of architectural alternatives you rejected, trade-offs and measured outcomes. This session decides more outcomes than candidates expect, and describing what you shipped is not enough.
+- **Recruiter or engineer screen (30–45 minutes):** Logistics, compensation and motivation, often followed by technical questions on real-time state and past incidents.
+- **Technical phone screen (about 60 minutes, sometimes paired with design):** A multi-part practical coding problem or a small UI build in a runnable editor.
+- **Frontend coding interview (45–60 minutes):** A working interface built live, usually a streaming chat surface, a full-stack mini app or a native mobile screen.
+- **Product system design interview (60 minutes):** A model-powered product designed client to server, including streaming, error states and limits.
+- **Project deep dive (45–60 minutes, often with slides):** One past project examined down to rejected alternatives and measured results.
+- **Behavioral and hiring manager interview:** Mission, safety, ownership and collaboration, sometimes with a separate cross-functional session.
 
-5. **Behavioral, usually with an engineering manager.** Motivation for working on this specific product area, conflict and feedback stories, ambiguity, and follow-up technical questions inside your stories. Mobile loops have also appended a classic algorithm round late — a grid path-counting variation with obstacles solved by dynamic programming, with complexity analysis.
+> **Tip:** Rehearse one streaming chat client until you can rebuild it from memory in 30 minutes, covering cancellation, retries and error states. The same scenario appears in the screen questions, the coding build and the design prompt.
 
-6. **Review and team match.** Feedback is aggregated across rounds and reviewed by people you never spoke with; positive verbal feedback after a round does not guarantee advancement, and extra rounds can be appended when signal is thin. Timelines vary from a two-day turnaround to a templated rejection about a week later with no feedback offered.
+## Recruiter or engineer screen
 
-## What They Actually Evaluate
+The first call lasts 30 to 45 minutes. On this track it is often run by an engineer rather than a recruiter. The logistics part is detailed: the share of the past year spent coding hands-on, whether you see yourself as frontend, backend or full stack, daily frameworks, preferred interview language, visa sponsorship, relocation, the three-days-a-week office expectation, competing deadlines, and base and total compensation expectations. Recruiters also ask about promotion history, reasons for leaving and previous equity.
 
-### Coding and Algorithm
+Engineer-led calls then cover a system you owned end to end and a production incident you diagnosed, before moving to real-time features: state for live data streams, keeping streamed tokens from flickering or overwriting each other in React, races between several streaming responses, useRef versus useState, and making a repeated request idempotent. Even some recruiter-run calls asked how to find faults when traffic grows tenfold. Candidates have been rejected at this stage.
 
-One build-style round plus, in some loops, one classic round. The build is scored on whether the interface stays responsive while data arrives incrementally: component structure, where transient stream state lives, cancellation, and clean handling of a partial or duplicated response. Candidates who reach for a state library before establishing the render path lose time. In loops that append a traditional round, the problems are ordinary patterns with complexity analysis, and speed matters more than cleverness — coding performance weighs heavily in leveling even when project and behavioral signals are strong.
+Interviewers evaluate:
 
-- [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f)
-- [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md)
+- **Mission clarity:** A specific reason for this product area, tied to your own work, is recorded in feedback; general enthusiasm for AI is not.
+- **Hands-on recency:** A low share of recent coding or a vague answer about frameworks raises doubts about the role.
+- **Real-time state fluency:** Explaining where transient stream state lives and why, without reaching for a library first.
+- **Incident ownership:** A clear sequence of what broke, how you diagnosed it and what changed afterward.
 
-### System Design
+Prepare a two-minute project summary, a fully worked incident story and your answer on streaming state before this call.
 
-One round, always anchored on a model-powered product rather than a generic social feed. The graded axis is the full client-to-server path for a streaming feature: API contract, the error taxonomy the client must render, degraded behavior under rate limits or tier caps, and recovery when a stream breaks halfway. Candidates who cover only the architecture diagram and wait for prompts score poorly; the interviewer may deliberately stay quiet.
+> **Tip:** Ask which level the role is calibrated at during this call. Candidates who asked got a direct answer, and recruiters also agreed to space out loops for candidates with parallel processes.
 
-- [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture)
-- [Design an AI Chatbot System](../../questions/system-design/design-an-ai-chatbot-system/README.md)
-- [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide)
+### Sample questions for the recruiter or engineer screen
 
-### Low-Level Design
+Here are some questions reported by recent candidates:
 
-Object and component structuring shows up as a live restructuring exercise: one onsite round handed over a chatbot codebase to refactor for separation of concerns and testability. Others push a working component through added requirements — extra channels, snapshots, dependency-driven recomputation — and grade whether your first abstraction survives the second requirement without a rewrite.
+- How would you manage React state while tokens stream in, so the text neither flickers nor overwrites itself?
+- With several streaming responses in flight, how do you prevent races between them, and when would you use a ref instead of state?
+- How do you guarantee that a duplicated network request is not processed twice?
+- What percentage of the last twelve months did you spend coding, and are you frontend, backend or full stack?
 
-- [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring)
-- [Design Excel Sum Formula](https://trueinterview.io/questions/design-excel-sum-formula)
-- [Social Network with Snapshots](https://trueinterview.io/questions/social-network-with-snapshots)
-
-### Project Deep Dive and Behavioral
-
-Expect one project session and one behavioral session, with technical follow-ups inside the behavioral one. Interviewers want the incident you diagnosed, the system you owned end to end, and the decisions you would reverse today. Motivation questions are not a formality on this track — a thin answer to why this product, rather than frontend work generally, reads as a negative signal.
-
-- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
-- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Explain JS threading and useState vs useRef](https://trueinterview.io/questions/explain-js-threading-and-usestate-vs-useref)
+- [How to answer common recruiter screen questions](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions)
 - [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 
-## What They Don't Test
+## Technical phone screen
 
-- Algorithm grinding. Only a minority of frontend loops include a classic round at all, and when one appears it is a standard pattern; the hours are better spent on a streaming client you can rebuild from memory.
-- CSS and visual polish. No report describes pixel-accuracy grading; the questions center on data arrival, state and failure, with layout treated as a means to demonstrate structure.
-- Distributed-systems scale math. The design round asks what the user sees when the server fails, not how many shards the message store needs.
-- Single-framework depth as an end in itself. Mobile loops explicitly probe both native frameworks on the platform and when each wins, and web loops probe why you chose a state primitive, not which library you have memorized.
+The technical screen is about 60 minutes in a shared editor that runs code, and looking up documentation is allowed. Product-track candidates describe a semi-realistic task, such as parsing and processing a stream of structured data, followed by edge cases, complexity and what changes when the input is large or streaming. Many frontend candidates get the multi-part problems used across engineering: a grid infection simulation with up to five parts (immunity, recovery after a set number of days, death above a neighbor threshold, burning a row or column to minimize deaths), IP address iteration, a follow graph with snapshots, and counting chat events in a 15-minute window ending at the latest message. One candidate solved the infection parts in TypeScript.
 
-## The Real Filter
+Each part unlocks only when the previous one passes the interviewer's tests, so you cannot plan ahead. The clock is enforced strictly, and several interviewers said three finished parts is enough. Mobile screens differ: an iOS candidate built a given interface in a sample project and was asked when to choose UIKit over SwiftUI. A weak but not failing screen can lead to an extra coding round instead of a rejection.
 
-The dominant rejection path is passivity in the product design round. Candidates treat it as a diagram exercise and answer accurately when prompted, which produces a transcript full of correct answers and no evidence of ownership. The candidates who advance narrate the whole surface unasked: request lifecycle, what renders during streaming, what renders on a mid-stream failure, what happens at a tier limit, what the retry does, and how a duplicate request is made idempotent. When a written requirements document is supplied, quoting its constraints back into your design is part of the grade.
+Interviewers evaluate:
 
-Second, the first call is under-respected. It is frequently an engineer, and reports of that call include a full deep dive on transient state, streaming race conditions and useRef versus useState. Candidates who prepare it as an intro chat get filtered before any code round exists.
+- **Throughput:** Working code for each part before the next one unlocks; a polished first part alone scores below three rough parts.
+- **Rule handling:** Reading the scenario exactly, for example infection driven by neighbor counts rather than direction, or when a recovery timer starts.
+- **Debugging under time pressure:** Fixing a failing test quickly while saying what you are doing.
+- **Language fluency:** Using the standard library without hesitating; candidates in C++ lost parts to comparator syntax and boilerplate.
 
-Third, positive round feedback is not advancement. Strong project and behavioral signal does not offset a slow coding round, and loops get extended with additional rounds when the committee wants more evidence. Assume every round must stand on its own.
+Practice the recurring multi-part problems in your interview language, at about 12 minutes per part.
 
-## Data Source
+> **Note:** Rejected candidates often describe the same mistake: twenty minutes on structure, comments or a custom test harness, then the clock ran out on part four. Interviewers would not extend time even when a candidate was close.
 
-Based on 104 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+### Sample questions for the technical phone screen
 
-## FAQ
+Here are some questions reported by recent candidates:
 
-**What is frontend work like here?**
-Our reports document the hiring loop rather than daily life, so this is context rather than testimony: product engineering sits close to the model teams, surfaces ship fast, and the interview prompts — playgrounds, streaming chat, tier-limit errors — are recognizably the real work. The hybrid expectation is three days a week in the office and the screen asks about it directly; relocation for non-local hires is expected rather than negotiated.
+- Simulate infection on a plant grid where a healthy plant is infected once at least K of its eight neighbors are infected, then add immunity, recovery after D days and delayed death.
+- Implement `processEvent` and `getCount` for chat activity, counting the 15 minutes that end at the latest message for that user and chat.
+- Implement follow, unfollow and snapshots for a social graph, then recommend friends of friends ranked by mutual connections.
 
-**What is the engineering culture like?**
-Interviewers on this track come across as collaborative, and several candidates described design rounds as working sessions where the interviewer nudged them toward gaps. The counterweight is pace: the organization is widely described as operating with sustained urgency and bottom-up technical ownership, with one named owner per project, so predictable hours are not what this environment optimizes for.
+- [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md)
+- [Simulate Plant Infection With Controlled Burning](https://trueinterview.io/questions/simulate-plant-infection-with-controlled-burning)
+- [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation)
+- [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots)
 
-**How hard is it to get in?**
-Hard, and not primarily because of algorithms. The frontend bar is product-quality construction under time pressure plus visible ownership of failure states, and the final decision is made by reviewers who did not interview you. Multiple candidates report enthusiastic verbal feedback in every round and a rejection anyway, sometimes framed as shifted headcount rather than performance.
+## Frontend coding interview
 
-**Which round is hardest?**
-The product system design round, by outcome. It is open-ended, the interviewer may not steer, and the scoring depends on scenarios you volunteer rather than answers you give. The engineer screen is a close second because most candidates arrive expecting a conversation and get a technical deep dive on streaming state instead.
+The onsite coding round is a build, not a puzzle, and runs 45 to 60 minutes. The best-documented web version asks for an input box and submit button that render a model's streaming output, updating smoothly as tokens arrive without blocking the page. An applied full-stack loop instead asked for a small working app with a React frontend, a backend API, shared state and real-time updates, built in the candidate's own environment with web search and AI assistants allowed; the grade depended on what was delivered.
+
+Mobile loops use a Jetpack Compose home screen modeled on a translation app, or a ChatGPT-style chat interface built from a bare Xcode project in about 40 minutes. Some onsites add a refactoring round on a working but poorly structured chatbot codebase, where candidates separate concerns, make it testable and add pieces such as an event bus so bots can read messages without being tied to the sending code.
+
+Interviewers evaluate:
+
+- **A working loop first:** Something runnable from input to rendered output early, then improved.
+- **Complete states:** Loading, empty, error and cancelled states handled, plus what happens to a partial response.
+- **Stream handling:** Where in-progress data lives, how renders are batched, and how duplicated or out-of-order chunks are handled.
+- **Component and API structure:** Clear component boundaries and a sensible contract with the backend.
+- **Trade-offs spoken aloud:** Saying what you are skipping and why when time runs short.
+
+Build a streaming chat client and a small full-stack app from scratch under a 45-minute timer at least twice before the onsite.
+
+> **Note:** Polish alone does not pass. A senior mobile candidate built a bug-free, highly polished chat UI with basic error handling but skipped login and networking, was rejected within a week, and concluded that a complete flow was the real bar.
+
+### Sample questions for the frontend coding interview
+
+Here are some questions reported by recent candidates:
+
+- Build an input and submit button that streams a model's response into the page token by token, keeping the page responsive.
+- Build a small full-stack tool with a React client, an API and live updates, handling loading, error and empty states.
+- Refactor a chatbot codebase so new bots can be added without touching existing ones, then support several channels with separate state.
+
+- [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18)
+- [Build a Reliable Streaming Chat UI](https://trueinterview.io/questions/build-a-reliable-streaming-chat-ui)
+- [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f)
+- [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring)
+
+## Product system design interview
+
+The design round is an hour, with prompts drawn from OpenAI's own products. Reported frontend prompts include the ChatGPT Playground (parameter panel, presets, streaming output, server failure mid-response) and the error flow when a free-tier user hits the message cap: the API contract, how the client reads each error, and how limits apply to text, voice and image messages. Others asked for a WhatsApp-style app from a written requirements document, ChatGPT itself, and an AI feature streaming responses to many users.
+
+Follow-ups go below the diagram: server-sent events versus WebSockets, rate limiting and queuing in front of model calls, caching and token cost, observability, and recovering missed messages with sequence numbers after a reconnect. Some interviewers deliberately say little. Candidates who drove the discussion did well; those who waited to be asked about each scenario did not.
+
+Interviewers evaluate:
+
+- **Unprompted coverage:** The normal flow, every error state, rate and tier limits, retries and recovery, raised before the interviewer asks.
+- **Client-server contract:** Error codes the client can act on, idempotency keys, and what the client renders for each failure.
+- **Streaming choices:** Transport, back-pressure and cancellation, justified by the product.
+- **Use of given requirements:** When a document is supplied, its constraints should visibly shape the design.
+- **Focus:** Covering the whole system; going deep on one subtopic cost candidates the rest of the round.
+
+Practice three or four OpenAI product surfaces end to end, out loud, without prompts.
+
+> **Note:** Design was the round most often blamed for rejection on this track. A candidate rejected after the message-cap prompt pointed to the API and client error handling; another fell short by applying a memorized framework instead of reasoning about the specific prompt.
+
+### Sample questions for the product system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design the ChatGPT Playground, including presets, streaming output, and what happens when the server fails mid-response.
+- Design how the client and API handle a free-tier user reaching the message cap, across text, voice and image messages.
+- Design a real-time AI feature with streaming responses for a large user base, covering rate limiting, caching, token cost and observability.
+
+- [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture)
+- [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature)
+- [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt)
+- [Design a Slack-Like Messaging System](https://trueinterview.io/questions/design-a-slack-like-messaging-system-3)
+
+## Project deep dive
+
+The deep dive lasts 45 to 60 minutes, often as a prepared presentation; one candidate brought eight slides, and another's session was led by a principal engineer. Questions cover the problem, your role, why you rejected alternatives, how you measured success after launch, and what you would change now, sometimes down to memory management or back-pressure. One candidate passed coding, design and behavioral rounds and candidate review, then was rejected at final approval because the deep dive was judged too shallow.
+
+Interviewers evaluate:
+
+- **Depth on demand:** Moving from architecture to implementation detail and back without losing the thread.
+- **Decision rationale:** For each major choice, the alternatives considered and why they were dropped.
+- **Measured impact:** Numbers for performance, adoption or reliability, and how you got them.
+- **Self-critique:** What you would redesign with hindsight, stated plainly.
+
+Choose a frontend-heavy project with real performance or reliability numbers, and reread its code and design docs beforehand.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Present a technically challenging project, then explain why you rejected each alternative architecture.
+- How did you measure the project's success after launch, and what would you do differently today?
+
+- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
+- [Answer project deep dive and cross-functional questions](https://trueinterview.io/questions/answer-project-deep-dive-and-cross-functional-questions)
+- [Explain Your Engineering Ownership](https://trueinterview.io/questions/explain-your-engineering-ownership)
+
+## Behavioral and hiring manager interview
+
+This round is usually run by an engineering manager or a hiring-team member, and some loops add a 30-minute cross-functional session where you may pitch a developer-facing feature and explain how you would measure it. Topics recur: why OpenAI and why this product, views on AI safety and AGI, balancing speed with quality and safety, a project you drove and shipped, disagreements, feedback and failure. Interviewers often follow up on the technical details of your stories.
+
+Hiring-manager calls can be as short as 15 minutes and still decide the outcome: one candidate was rejected two days after such a call. Some managers stay quiet, and a candidate who waited for one to lead was rejected for insufficient signal.
+
+Interviewers evaluate:
+
+- **Specific motivation:** A reason for OpenAI and this team grounded in your own shipped work.
+- **Safety judgment:** A considered view on moving fast responsibly, illustrated with a real decision.
+- **Ownership:** Projects you started and finished, with your contribution clear.
+- **Initiative:** Driving a quiet conversation with good questions and a clear case for your fit.
+
+Prepare five stories with technical depth behind each, and a personal answer on mission and safety.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Why OpenAI rather than another AI company, and what is your view on AI safety?
+- How do you balance shipping fast with quality and safety? Give an example.
+- Tell me about a project you completed but decided not to release.
+
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety)
+- [Explain motivation and mission alignment](https://trueinterview.io/questions/explain-motivation-and-mission-alignment)
+
+## How OpenAI levels and evaluates Frontend Engineer candidates
+
+Feedback goes through two gates, candidate review and then final approval, run by people who did not interview you. One candidate was told that one or two "strong hire" ratings are needed to reach the hiring committee, and several heard encouraging feedback after every round and were rejected anyway, sometimes because headcount moved. Thin signal triggers an extra coding round, design round or director conversation. Coding performance weighs heavily in the final level even when project and behavioral signals are strong.
+
+References come late and move fast: two letters, one from a manager, plus internal references if referred. In one case, a Friday onsite led to a Monday reference request and a Thursday offer. A candidate approved by committee whose team filled up was sent back to team matching. Rejections usually arrive within about a week, without specific feedback.
+
+> **Tip:** Treat a request for internal references, or a newly added round, as a sign the decision is close. Line up references before the onsite.
+
+## How to prepare for the OpenAI Frontend Engineer interview
+
+1. **Master one streaming client:** Rebuild a chat interface that streams tokens, supports cancel and retry, and shows each failure state, until it takes 30 minutes without notes.
+2. **Explain your state choices:** Be ready to justify ref versus state, where stream data lives, and how concurrent responses avoid races; engineers ask before any coding.
+3. **Drill the multi-part problems:** Practice infection simulations, snapshot graphs and windowed counters in your interview language, aiming for three finished parts in an hour.
+4. **Ship complete flows, not polish:** In build rounds, get a running loop first, then loading, error and empty states, then visual refinement.
+5. **Design OpenAI products end to end:** Rehearse the Playground, ChatGPT and message-cap errors aloud, covering the API contract, streaming transport, rate limits and recovery unprompted.
+6. **Rehearse a deep-dive deck:** Prepare about eight slides on one project with rejected alternatives, measured impact and what you would redo.
+7. **Personalize mission and safety answers:** Link why OpenAI and your view on safe deployment to a decision you actually made.
+
+## About the OpenAI Frontend Engineer role
+
+Frontend engineers at OpenAI own the interfaces through which most people use the models. Postings describe owning component systems, state management, routing and client performance, building features end to end with backend teams, and improving reliability through testing, instrumentation, accessibility and careful handling of loading, errors and concurrent edits. Hiring is mainly in San Francisco, with roles also in New York and Seattle, on a hybrid schedule of three days a week in the office. Many roles are full-stack in practice.
+
+OpenAI does not publish its ladder, and accounts disagree on where senior ends and staff begins; most external offers land at L4 or L5.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L3 | Well-scoped features with guidance; rare for external hires | Parts of a product surface |
+| L4 | Owning features end to end; the most common external entry point | A team's product area |
+| L5 | Leading architecture and cross-team delivery; often compared to staff elsewhere | Several surfaces or a platform |
+| L6 | Technical direction at a senior-staff level | An organization's product area |
+
+OpenAI hires Frontend Engineers across several product groups. Teams include:
+
+- **ChatGPT Engineering:** The core ChatGPT web experience, including conversation and streaming.
+- **ChatGPT workspace (Codex Engineering):** A shared space where people and AI agents work on documents, sheets and slides, calling for real-time collaboration and rich-text editing.
+- **Codex Cloud Apps:** Agent products, including site building and code review.
+- **Applied Foundations:** Shared layers such as identity and access, safety, and payments across OpenAI's apps.
+- **Financial Web Platform:** Pricing, purchasing and billing interfaces, plus internal tools for finance and sales.
+- **Developer platform:** APIs, SDKs and interfaces for developers who extend ChatGPT and Codex.
+
+### Frontend Engineer experience and education requirements
+
+Postings ask for strong production experience with React and TypeScript, a record of shipping UI at scale, and a high bar for interface craft. One listing targets up to six years of experience; senior loops weigh architecture ownership and design depth more heavily. Preferred backgrounds include collaborative or real-time apps, rich-text editors and AI products. Mobile roles expect fluency in both native UI frameworks of their platform.
+
+## FAQs about the OpenAI Frontend Engineer interview
+
+### How long does the OpenAI Frontend Engineer interview process take?
+
+Typically three to six weeks from first call to decision. Fast cases end in an offer two days to a week after the onsite; slow ones include a month between referral and phone screen, or added rounds and team matching afterward.
+
+### What is the hardest round of the OpenAI Frontend Engineer interview?
+
+The product system design round, by outcome: it is open-ended, the interviewer may not steer, and the score depends on failure scenarios you raise yourself. The project deep dive is next, because a shallow one can stop an offer at final approval.
+
+### Is there an online assessment or take-home?
+
+Most frontend loops have no automated assessment; the first technical step is a live screen. Some teams use a longer practical build in your own environment with AI tools allowed, so ask your recruiter which format applies.
+
+### Which language should I use?
+
+The one you are fastest in, named at the first call. Web candidates generally use TypeScript or JavaScript, and Python is common on the general coding problems. Candidates who chose C++ reported losing subproblems to boilerplate.
+
+### How much does an OpenAI Frontend Engineer make?
+
+Approximate total annual compensation by level:
+
+- **L4:** ~$680K
+- **L5:** ~$1,000K, with a wide spread between roughly $870K and $1.4M
+
+Posted frontend base salaries range from about $230K to $405K, and candidates were told of base caps near $327K at L5 and $385K at L6. Most of the total is equity, granted as profit participation units whose value depends on the company's valuation.
 
 ---
 

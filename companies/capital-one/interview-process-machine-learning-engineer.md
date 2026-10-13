@@ -6,105 +6,238 @@
 
 ---
 
-The decisive round for a Capital One Machine Learning Engineer is not about machine learning. After the ML fundamentals screen and the coding-and-deployment screen are both cleared, candidates hit a case hour built on a credit card product: argue the pros and cons of virtual card numbers for the customer and for the bank, then apply a dense set of transaction validation rules — card number, transaction ID, amount, online versus offline, merchant-bound, network type — to specific scenarios by hand, and finally debug someone else's implementation of those rules. A second surprise sits next to it: a role-play where you explain a production model that has started degrading to a non-technical product manager, in plain language, with no jargon allowed.
+Capital One spends less of its Machine Learning Engineer loop on modeling than candidates expect. The final day pairs one ML hour with a credit card case that ends in debugging rule code, a role-play explaining a failing model to a non-technical product manager, and a themed behavioral hour. Production ownership is tested directly, down to a fraud API that must answer in under 50 milliseconds, and a timed general-purpose coding assessment filters hard at the front.
 
-## Interview Process
+This guide breaks down each stage of the Capital One Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 9 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Capital One Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Capital One Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/capitalone--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (20–30 minutes).** Background, motivation, target level and logistics, plus a walkthrough of the stages ahead. Recruiters probe which parts of the model lifecycle you have personally owned — training only, or deployment, monitoring and retraining as well — because the loop is weighted toward production ownership rather than research. Expect the assessment or the first technical screen within about a week.
+Capital One runs a structured loop with the same round types across teams. The skeleton is a recruiter screen, a timed coding assessment, one or two technical screens, and a final "Power Day" of about four one-hour interviews. End to end it typically takes four weeks to a few months; one candidate heard about an offer the day after the final round.
 
-2. **Online assessment (typically four coding problems, timed; two-problem variants also reported).** Externally hosted and proctored, with webcam on and no copy-paste in the editor, scored out of 600. Content is general-purpose algorithms, not machine learning: prefix sums over visit counts, exact-specification array simulation, matrix border extraction with spiral refill, Tetris-style shape placement, round-robin allocation across warehouses with capacity and closure events, combination sums across two arrays with point updates, and pair counting to a target. Solve the cheap problems first and leave the update-heavy one for last. Turnaround is a few days to a few weeks.
+The shape shifts with the posting. Core MLE loops split the screens into ML fundamentals and coding-plus-deployment; applied-research and AI-engineering openings add a research presentation and ML code written from scratch, and some loops add a short hiring manager conversation before Power Day.
 
-3. **Technical phone screen 1 — ML fundamentals and project deep dive (about 1 hour).** Rapid-fire theory followed by your own work: bias-variance tradeoff, parameters versus hyperparameters, batch versus real-time inference, how you would handle a very large training set, what feature engineering is and why it matters, and a walkthrough of the end-to-end ML lifecycle. Then one project you owned start to finish, with the interviewer pushing on why each modeling decision was made.
+Here's what the interview process can look like:
 
-4. **Technical phone screen 2 — coding and deployment (about 1 hour).** Split in half. The coding half is a standard data structures problem in a shared editor — printing all root-to-leaf paths in a binary tree is a reported prompt — not an ML implementation exercise. The second half is production engineering: how you deploy a model, how you monitor it after release, and a scenario where a fraud detection API must answer in under 50 milliseconds and you must diagnose and fix the latency.
+- **Recruiter screen:** A short call on background, which parts of the model lifecycle you have owned, target level and logistics.
+- **Online assessment:** Four timed coding problems in about 70 minutes, proctored and auto-scored out of 600.
+- **Technical phone screens (one or two):** About an hour each, covering ML fundamentals and a project deep dive, then a coding problem with deployment and monitoring.
+- **Case interview (Power Day):** A credit card product case with business reasoning, rule application and debugging.
+- **Technical deep dive (Power Day):** Tree-based models, data quality, live SQL and a Python data-wrangling task.
+- **Role-play interview (Power Day):** Explaining a degraded production model to a non-technical product manager.
+- **Behavioral interview (Power Day):** A full STAR hour on unusually specific themes.
 
-5. **Interview day, case round (about 1 hour).** The virtual card product case, its rule set and the debugging exercise. Related reported variants include improving identification of card type from the leading digits and reasoning about a credit business P&L with mental arithmetic. Grading is on structure, on holding a multi-condition rule set without contradicting yourself, and on connecting the technical answer to customer and business consequences.
+> **Tip:** Two of the four Power Day hours are graded mainly on how you explain. Rehearse aloud both a business framing with rough arithmetic and a jargon-free account of a model problem you actually had.
 
-6. **Interview day, technical deep dive (about 1 hour).** Machine learning and data engineering in one session: tree-based models — XGBoost specifically — handling missing values, detecting and mitigating overfitting, then hands-on SQL with window functions and several join types, plus a Python task that cleans and reshapes a messy dataset.
+## Online assessment
 
-7. **Interview day, role play (about 1 hour).** A model in production has suddenly degraded. You explain it to a non-technical product manager: translate precision, recall and drift into business consequences, propose an investigation plan in plain language, and recommend immediate mitigations. Every unexplained term costs you.
+The assessment sometimes arrives with no recruiter contact first. It is four coding problems in about 70 minutes on a proctored platform, with webcam, microphone and ID check, scored out of 600. All four are visible at once and can be solved in any order. Content is general-purpose algorithms, not machine learning. Reported problems include spiral refills of matrix borders, a two-array combination sum with point updates, alternating-parity subarray counts, digit-and-operator paths through a grid, and pairs that match after a two-digit swap.
 
-8. **Interview day, behavioral round (about 1 hour).** STAR format, themed. Reported prompts: a time you challenged the status quo, a time unexpected difficulties hit and you still delivered on schedule, an achievement colleagues considered very hard, plus interpersonal conflict and shifting or ambiguous requirements.
+Interviewers evaluate:
 
-9. **Debrief and decision.** Interviewer ratings are consolidated in a hiring discussion. When the outcome is positive it moves fast — one candidate was called with an offer the day after finishing.
+- **Breadth of correct answers:** Hidden tests decide the score, and brute force passed on several reported problems within the constraints.
+- **Reading the specification:** Misreading the swap rule in the digit-pair problem cost one candidate the whole problem.
+- **Time allocation:** Banking quick problems before the update-heavy or ambiguous one.
 
-## What They Actually Evaluate
+Practice timed sets of four mixed problems, finishing the two easy ones inside 15 minutes.
 
-### ML Theory
+> **Note:** The score is a filter, not a guarantee. An applied-research candidate who solved all four for 540 of 600 was rejected within days, and candidates describe rejections at the top of the range too. A referral into a named team matters as much as the number.
 
-One screen and part of the deep dive, both breadth-first rather than deep. The questions are fundamentals asked crisply — bias-variance, hyperparameter versus parameter, missing-value strategies, overfitting detection — and the interviewer is checking whether your definitions survive one follow-up, not whether you can derive anything. Tree ensembles come up far more than deep learning. Signal is lost by giving a memorized definition and then failing to say when the tradeoff actually bit you on a project.
+### Sample questions for the online assessment
 
-- [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/questions/model-risk-quant-orals)
+Here are some questions reported by recent candidates:
 
-### ML System Design
+- Extract each border ring of a matrix, reorder it by a given rule and write it back clockwise.
+- Count pairs, one from each array, that reach a target, while values change between queries.
+- Count pairs of integers where one becomes the other by swapping at most two digits.
 
-Production ownership is the differentiator on this track. Expect deployment mechanics, post-deployment monitoring, drift detection, batch versus real-time inference, and at least one hard latency constraint — the reported one is a fraud detection API that must respond in under 50 milliseconds, where you are expected to name the actual culprits: feature fetch, model size, cold starts, network hops, and the caching or distillation you would trade against accuracy. Regulated context matters: say how a model version is audited and rolled back.
-
-- [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study)
-- [Account Balance & Cross-Region Event Platform](https://trueinterview.io/questions/account-balance-cross-region-events)
-
-### Coding and Algorithm
-
-Two touchpoints — the timed assessment and roughly half of one phone screen — and both are conventional software problems rather than ML code. The assessment leans on simulation and careful state tracking, and brute force passed within the stated constraints in several reports. The live coding half is a single medium problem, and the SQL portion of the deep dive is graded just as hard: window functions and multi-table joins written live, followed by a Python data-wrangling task.
-
+- [Matrix Border Sort & Clockwise Fill](https://trueinterview.io/questions/matrix-border-sort-clockwise-fill)
 - [Dynamic Two-Array Pair Sum Queries](https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries)
-- [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value)
-- [Repeated Leading-Nonzero Subtraction](https://trueinterview.io/questions/repeated-subtraction-zeroing)
-- [Color Match-Three Grid](https://trueinterview.io/questions/color-match-three-grid)
+- [Sawtooth (Alternating Parity) Subarray Count](https://trueinterview.io/questions/sawtooth-subarray-count)
+- [Count Pairs Matchable by One Digit Swap](https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc)
 
-### Domain Deep Dive
+## Technical phone screens
 
-The case hour rewards a candidate who can be a product thinker for sixty minutes. You are graded on framing the problem before computing, on getting the arithmetic right out loud, on applying an intricate rule set consistently, and on spotting the bug in an implementation of those rules. Candidates fail by narrating their modeling instincts instead of answering the business question, or by silently doing the mental math and reporting only the number.
+The core MLE track runs two screens of about an hour. The first is rapid ML fundamentals (bias-variance, parameters versus hyperparameters, batch versus real-time inference, very large training sets, feature engineering, the ML lifecycle), then one project you owned end to end with every decision questioned.
+
+The second is split in half: a standard data structures problem in a shared editor (printing every root-to-leaf path of a binary tree), then production engineering: deploying a model, monitoring it after release, and fixing a fraud detection API that misses a 50-millisecond budget.
+
+Interviewers evaluate:
+
+- **Definitions that survive a follow-up:** A crisp bias-variance answer plus when it actually bit you.
+- **Decision rationale on your project:** Why that model, those features and that metric, not only what you built.
+- **Clean ordinary code:** The coding prompt is a tree traversal, not an ML implementation.
+- **Latency reasoning:** Naming where 50 milliseconds goes, such as feature fetch, model size, network hops and cold starts, and what you trade for it.
+
+Prepare one deep project story and a latency budget for a real-time scoring service you could draw from memory.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Compare batch and real-time inference and say when each is the right choice.
+- Print all root-to-leaf paths of a binary tree.
+- A fraud detection API must answer in under 50 milliseconds and does not; how do you find and fix the problem?
+
+- [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/questions/mle-ml-knowledge-orals)
+- [Print All Root-to-Leaf Tree Paths](https://trueinterview.io/questions/print-tree-paths)
+- [MLE Deployment & Latency (Set B)](https://trueinterview.io/questions/mle-deployment-and-latency)
+
+## Case interview
+
+The case is the distinctive Capital One round, usually built on a card product. In the most detailed report, the candidate first argued the pros and cons of virtual card numbers for customers and for the bank. The interviewer then gave transaction validation rules keyed on card number, transaction ID, amount, online versus offline, merchant binding and card network; the candidate applied them to scenarios by hand, then debugged code implementing them. Other reported cases improve card-type identification from leading digits, or build a card P&L with break-even and margin estimates done in your head.
+
+Interviewers evaluate:
+
+- **Structure before computation:** Framing the customer and business question before any rule or formula.
+- **Consistency across many conditions:** Applying a six-factor rule set to each scenario without contradicting yourself.
+- **Arithmetic out loud:** Showing each step of a mental-math estimate rather than only the result.
+- **Business consequence:** Tying fraud exposure, customer friction and cost back to the bank.
+
+Practice one card-product case end to end, then debug code that implements its rules.
+
+> **Note:** This hour rewards a product thinker, not a modeler. The opening question is whether the product helps the bank, and the rule set is dense enough that one inconsistent ruling on a scenario is visible.
+
+### Sample questions for the case interview
+
+Here are some questions reported by recent candidates:
+
+- What are the pros and cons of virtual card numbers for customers and for Capital One?
+- Apply a set of transaction validation rules to given scenarios, then debug code that implements them.
+- Build a profit framework for a credit card and estimate break-even figures without a calculator.
 
 - [Virtual Credit Card Validator (Case Study)](https://trueinterview.io/questions/virtual-credit-card-validator)
+- [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/questions/ds-business-analyst-case-study)
+- [Assess card rewards profitability and break-even spend](https://trueinterview.io/questions/assess-card-rewards-profitability-and-break-even-spend)
 
-### Behavioral and Leadership
+## Technical deep dive
 
-A full graded hour with unusually specific prompts — challenging the status quo, delivering on time after something broke, doing something peers thought was very hard — plus conflict and ambiguity. Quantified outcomes matter; so does showing you drove a decision rather than executed one. The role-play round is graded on the same axis, which makes communication effectively two of the interview-day hours.
+This hour mixes machine learning and data engineering. On the ML side, gradient-boosted trees come up far more than deep learning: how XGBoost works, how it and you handle missing values, and how to detect and mitigate overfitting. On the data side, you write SQL live with window functions and several join types, then clean and reshape a messy dataset in Python. Applied-research and AI-engineering variants swap the data work for a recent-paper discussion and ML coding from scratch, implementing linear regression and top-p sampling.
+
+Interviewers evaluate:
+
+- **Tree-model depth:** Split finding, regularization and missing-value handling explained at the mechanism level.
+- **Overfitting diagnosis:** Validation design, early stopping and what the curves would show.
+- **Fluent SQL:** Window functions and joins written correctly the first time.
+- **Practical wrangling:** Types, nulls and duplicates handled deliberately, with stated assumptions.
+
+Drill SQL window functions and pandas cleanup together, and rehearse one boosted-tree model you tuned.
+
+### Sample questions for the technical deep dive
+
+Here are some questions reported by recent candidates:
+
+- How does XGBoost handle missing values, and how would you detect and reduce overfitting in it?
+- Write SQL using window functions and several join types against a multi-table schema.
+- Implement top-p sampling over a vector of logits.
+
+- [Deep-dive XGBoost handling and overfitting](https://trueinterview.io/questions/deep-dive-xgboost-handling-and-overfitting)
+- [Write SQL using joins and window functions](https://trueinterview.io/questions/write-sql-using-joins-and-window-functions)
+- [Merge seven tables into one clean DataFrame](https://trueinterview.io/questions/merge-seven-tables-into-one-clean-dataframe)
+- [Top-p (Nucleus) Sampling with Logits or Probabilities](https://trueinterview.io/questions/ml-coding-top-p-sampling)
+
+## Role-play interview
+
+A production model has suddenly started performing worse, and the interviewer plays a non-technical product manager. You explain what happened, translate metrics such as precision and drift into business consequences, propose an investigation plan in plain language, and recommend immediate mitigations. Every unexplained term counts against you.
+
+Interviewers evaluate:
+
+- **Plain language:** Each technical term defined at once or avoided.
+- **Business translation:** Lower precision expressed as declined good customers or missed fraud dollars.
+- **A credible investigation plan:** Data pipeline changes, population shift and label delay checked in order.
+- **Immediate mitigation:** Rollback, threshold change or fallback rules, with their costs.
+
+Rehearse a five-minute explanation of a real model regression to someone outside engineering.
+
+> **Tip:** Lead with impact and next steps, then cause. A manager-facing answer that opens with what customers are experiencing and what you are doing today lands better than one that opens with a confusion matrix.
+
+### Sample questions for the role-play interview
+
+Here are some questions reported by recent candidates:
+
+- Explain to a product manager why a production model's performance dropped and what you will do this week.
+- Translate a fall in precision into what the business and its customers are experiencing.
+
+- [DS Role-Play: Explain Model Regression to PM](https://trueinterview.io/questions/ds-role-play-pm-explanation)
+- [Evaluate and monitor a credit risk model](https://trueinterview.io/questions/evaluate-and-monitor-a-credit-risk-model)
+
+## Behavioral interview
+
+The behavioral hour is a full graded round in STAR form, and its themes are more specific than usual. Reported prompts: a time you challenged the status quo, a time unexpected difficulties hit and you still delivered on schedule, an achievement colleagues considered very hard or impossible, plus interpersonal conflict, shifting requirements and feedback you received.
+
+Interviewers evaluate:
+
+- **Driving, not executing:** You changed a decision or process, not only carried one out.
+- **Delivery under pressure:** The blocker, the trade-off you made and the date you still hit.
+- **Quantified results:** Latency, loss avoided, adoption or time saved.
+
+Write six stories mapped to these themes and practice each in under three minutes.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you challenged the status quo at work.
+- Describe a time unexpected difficulties arose and you still delivered on time.
+- What achievement of yours did colleagues consider very difficult?
 
 - [Power Day Behavioral](https://trueinterview.io/questions/power-day-behavioral)
-- [AR Panel Talk Project Deep-Dive](https://trueinterview.io/questions/ar-panel-talk-deep-dive)
+- [Answer conflict and ambiguity with STAR stories](https://trueinterview.io/questions/answer-conflict-and-ambiguity-with-star-stories)
 
-## What They Don't Test
+## How Capital One levels and evaluates Machine Learning Engineer candidates
 
-- **Deep learning research depth.** No report describes transformer internals, training-at-scale tricks or paper discussion on this track; tree-based models and lifecycle ownership come up instead.
-- **ML algorithms implemented from scratch in the coding round.** The live coding prompt was a binary tree traversal. Practice ordinary data structures, not gradient descent by hand.
-- **Advanced algorithm material in the assessment.** The problems are simulation and careful bookkeeping, and quadratic solutions passed. Correctness across all four beats optimality on two.
-- **Silent brilliance.** Two of the interview-day rounds are graded almost entirely on how you explain, so working out an answer in your head and delivering only the conclusion scores as a miss.
+The target level comes from the posting and is confirmed at the recruiter screen. After Power Day, interviewer ratings are consolidated in a hiring discussion, and decisions come quickly in both directions: one candidate was offered the day after the final round, and another was turned down the next morning after a day that felt strong. Evidence is pooled, so strong ML answers do not offset a weak case or role-play hour. In applied-research loops, a research presentation to a senior panel is a critical filter: a high-level summary led to rejection.
 
-## The Real Filter
+## How to prepare for the Capital One Machine Learning Engineer interview
 
-The main rejection path is arriving as a modeler and being asked to be a product engineer. This loop spends one hour on ML fundamentals and then two — the case and the role-play — on whether you can reason about a credit card product and speak to someone who does not know what recall is. Candidates prepare model architectures and get asked whether virtual card numbers are good for the bank, or to walk a product manager through a degradation without using the word drift. Rehearse two things aloud: a business framing with rough arithmetic, and a jargon-free explanation of a model problem you actually had.
+1. **Treat the assessment as a speed test:** Practice four-problem sets in 70 minutes with matrix layers, simulations and pair counting, leaving the update-heavy problem for last.
+2. **Own one project completely:** Be ready to defend every modeling, feature and metric choice and say what you monitored after launch.
+3. **Build a latency budget:** Know where milliseconds go in a real-time fraud scoring call and which fixes trade accuracy for speed.
+4. **Run a card-product case aloud:** Weigh a product for customers and the bank, apply multi-condition rules by hand, debug code for them, and narrate any P&L arithmetic.
+5. **Refresh boosted trees, SQL and pandas together:** XGBoost internals, missing values, overfitting, window functions and data cleanup in one sitting.
+6. **Rehearse the product manager conversation:** Explain a model regression with impact first and no undefined terms.
+7. **Prepare themed STAR stories:** Challenging the status quo, delivering despite setbacks, a very hard achievement, conflict and feedback, each with a number.
 
-The second pattern is the assessment, which is a filter and not a score gate. Candidates report rejection within about three days despite solving every problem, with scores in the 500s out of 600, and the same outcome is described at the top of the range. A strong score does not carry a weak resume fit, so pursue a referral into a named team rather than relying on the number.
+## About the Capital One Machine Learning Engineer role
 
-The third is thin production experience. The deployment-and-monitoring half of the second screen and the latency scenario are where research-only backgrounds stall: candidates who have never owned a model after launch have nothing concrete to say about monitoring, rollback, or where 50 milliseconds actually goes.
+Capital One Machine Learning Engineers productionize ML applications at scale inside Agile product teams: data pipelines, training, serving, monitoring and retraining on public cloud infrastructure. Models feed credit decisions, real-time fraud detection and, increasingly, generative and agentic AI products. Model risk review is a real gate in a regulated bank, so explainability carries more weight than at most tech companies.
 
-## Data Source
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Machine Learning Engineer (Senior Associate band) | Design, build and ship ML application components | Part of one team's models or pipelines |
+| Senior Machine Learning Engineer | Own production models end to end, including deployment and monitoring | A team's ML systems |
+| Lead and Senior Lead Machine Learning Engineer | Technical design across applications; lead other engineers | Several systems or a product area |
+| Staff and Distinguished Machine Learning Engineer (Director band) | Technical direction for ML platforms and practices | An organization or the enterprise |
 
-Based on 9 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Capital One hires Machine Learning Engineers across several organizations. Teams include:
 
-## FAQ
+- **AI Foundations (Intelligent Foundations and Experiences):** Foundation model training, LLM inference, similarity search, guardrails and model evaluation.
+- **Enterprise Platforms Technology:** Shared ML platforms and tooling used across lines of business.
+- **Card fraud and authentication:** Models that score transactions in milliseconds and trigger instant customer alerts.
+- **Enterprise generative AI platform:** Multi-agent customer experiences such as a dealership chat assistant for auto financing.
 
-**What is the work actually like on this track?**
+### Machine Learning Engineer experience and education requirements
 
-Our reports document the hiring loop rather than daily work, so take this as context: the organization was among the first large banks to move fully onto public cloud, and machine learning work is concentrated in credit decisioning, fraud and customer-facing assistants. Engineers write production Python, ship through code review, and operate models on cloud infrastructure — modeling is part of the job rather than all of it. Our reports document no compensation figures.
+Senior MLE postings ask for a bachelor's degree, four or more years of non-internship coding in Python, Scala or Java, three years of distributed data work, two years with an ML framework such as PyTorch, Spark or scikit-learn, and one year running models in production; a graduate degree and public cloud experience are preferred. Senior Staff postings ask for about ten years. Python is the usual interview language.
 
-**What is the engineering culture like?**
+## FAQs about the Capital One Machine Learning Engineer interview
 
-Consensus-driven and heavily governed. Model risk review is a real gate before anything reaches customers, and documentation and explainability expectations are heavier than outside financial services — which is precisely why the loop tests plain-language explanation twice. Candidates should also know that performance management is widely described as stack-ranked with semi-annual reviews and formal improvement plans; one candidate raised exactly that during their process.
+### How long does the Capital One Machine Learning Engineer interview process take?
 
-**How hard is it to get in?**
+Typically four weeks to a few months. Assessment rejections arrive within about three days, Power Day can come several weeks after the screens, and final decisions follow within a day or two.
 
-The technical bar in the live rounds is moderate rather than punishing — fundamentals, one medium coding problem, live SQL. Difficulty concentrates in the assessment filter at the front and in the business-facing rounds at the end. People with strong modeling records and no product instincts are the most common near-miss.
+### What is the hardest round of the Capital One Machine Learning Engineer interview?
 
-**Which round is hardest?**
+The case interview. It combines business judgment, mental arithmetic, consistent application of a dense rule set and debugging in one unscripted hour. The role-play is a close second because there is no terminology to hide behind.
 
-The case hour. It is long, unscripted, and combines business judgment, mental arithmetic, meticulous rule application and code debugging in a single sitting. The role-play is a close second, because there is nowhere to hide behind terminology.
+### What does a Capital One Machine Learning Engineer make?
+
+Posted base salary ranges for McLean, Virginia run about $136K to $155K for Machine Learning Engineer, $159K to $181K for Senior, $193K to $225K for Lead, and $269K to $307K for Distinguished. Roles are also eligible for performance-based cash bonuses and long-term incentives, and ranges vary by location.
 
 ---
 

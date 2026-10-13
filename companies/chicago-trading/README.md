@@ -16,25 +16,31 @@ How Chicago Trading interviews, and the questions candidates reported there. Fre
 
 ## How Chicago Trading interviews
 
-This guide goes below the summary on the company page: what each round contains, how answers are graded, and where candidates lose the offer. It draws on 5 real Chicago Trading Company questions and 3 candidate interview reports.
+Chicago Trading Company tests engineers on building C++ primitives rather than calling them: a `unique_ptr`, a simplified `vector`, a bounded producer-consumer buffer. Each implementation leads into a long chain of follow-ups on ownership, move semantics and concurrency. Behavioral rounds carry real weight. Recruiters warn candidates about this in advance, and one candidate who found the technical work straightforward was still rejected after the behavioral block.
 
-### Interview Process
+This guide breaks down each stage of the Chicago Trading Company interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Chicago Trading Company interview process
 
 <!-- guide-diagram -->
 ![Chicago Trading Company interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/chicago-trading/process.webp)
 <!-- guide-diagram -->
 
-The loop is short in round count but dense inside each round. It opens with a recruiter call covering background that also spells out how many rounds are coming and in what order. Write that number down: the shape is not uniform across tracks.
+The loop is short in round count but dense inside each round. Reported processes run three to five stages: a recruiter call, a 60-minute C++ implementation screen on a shared editor, then a second stage that pairs behavioral and technical blocks, and, for some candidates, a final purely behavioral round. In one loop the second stage was a 45-minute behavioral block plus a 60-minute technical block; another opened with a dual behavioral round, then separate C++ data-structures and concurrency rounds.
 
-The first technical round runs about 60 minutes on a shared executable editor such as CoderPad, and it is an implementation round rather than an algorithm round. One report describes building a `unique_ptr` and a simplified `vector` class in the same session, then discussing how move semantics differ from copy semantics. The code is expected to compile and run, so it rewards muscle memory on destructors, deleted copy operations, move constructors and reallocation far more than pattern recognition.
+Campus applicants choose a preferred interview language, and interviewers are matched to it.
 
-Between rounds a recruiter may schedule a short prep call, roughly ten minutes. In one report it existed for one reason: to warn that the behavioral portion of the next stage would carry substantial weight. Treat such a call as a signal about where the risk sits, not a formality.
+Here's what the interview process can look like:
 
-The middle of the loop splits. One reported second round was two blocks back to back: a 45-minute behavioral conversation with a team manager, then a 60-minute technical block containing a Python problem built around dictionaries and a C++ debugging exercise. The debugging task supplied a pre-built orderbook template with 10 test cases and asked for exactly 2 bugs to be found and fixed; almost no new code was written, and the work was reading someone else's logic for small typos and inverted conditions. Another report describes a different arrangement: a dual behavioral opener themed on communication and continuous improvement, a dedicated C++ data structures round (a fixed-window moving average class and a stock-quote container), and a separate C++ concurrency round.
+- **Recruiter screen:** A short call on background that also lays out the number and order of rounds.
+- **Technical phone screen:** A 60-minute live C++ session implementing standard-library primitives such as `unique_ptr` and `vector`.
+- **Behavioral interviews:** A 45-minute conversation with a team manager or a two-interviewer session themed on communication and continuous improvement, sometimes with a final behavioral round.
+- **Coding and debugging interviews:** A Python problem, a C++ orderbook debugging task, or C++ data-structure classes with O(1) requirements.
+- **C++ concurrency interview:** A producer-consumer system followed by a long ladder of threading and memory-ordering follow-ups.
 
-That concurrency round is the deepest one reported. It starts from a producer-consumer system with a fixed-capacity shared buffer and rate-controlled worker threads, then climbs a long follow-up ladder: why `std::queue` operations need a mutex, why check-then-pop outside the critical section is a race, why an external stop flag must be `std::atomic<bool>`, which memory ordering is required, what stop latency one sleep interval costs, and whether a lock-free single-producer single-consumer ring buffer could replace the mutex. Getting the first implementation working buys you the right to be asked the next nine questions.
-
-At least one track closes with a final, purely behavioral round after the technical rounds have passed. The process typically runs several weeks end to end; one candidate was rejected about a week after the second round.
+> **Tip:** Write down the round count the recruiter gives you. The shape differs between candidates, and knowing whether a behavioral round comes first or last changes how you budget preparation.
 
 **[Read the full Chicago Trading interview process →](interview-process.md)**
 

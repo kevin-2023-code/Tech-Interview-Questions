@@ -16,17 +16,30 @@ How Palantir interviews, and the questions candidates reported there. Free quest
 
 ## How Palantir interviews
 
-Palantir runs one of the most publicly discussed engineering loops in the industry, which makes it easy to prepare for the wrong thing: the named rounds people trade stories about are real, but the reports we hold describe something plainer and more searching. This guide goes past the stage list on the company page into what each stage actually asks, drawing on 3 real Palantir Technologies questions and 2 candidate interview reports, and it is deliberate about marking where our own evidence ends and the widely reported shape of the loop takes over.
+Palantir grades how you frame a problem as much as the code you write. Its signature decomposition round hands you a vague real-world problem with little code, and strong coders are still rejected there. Coding prompts are small working systems with business rules and invariants, such as session allocation, proximity search over text or coupon pricing with exact rounding, rather than trick puzzles. Motivation is screened harder than at most companies, including your view of Palantir's government and defense work.
 
-### Interview Process
+This guide breaks down each stage of the Palantir Technologies interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 1 candidate-reported interview experience, cross-checked against recent public accounts.
+
+### Palantir Technologies interview process
 
 <!-- guide-diagram -->
 ![Palantir Technologies interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/palantir/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** A short call, typically 20 to 45 minutes, covering background and motivation. Palantir screens harder than most companies on why you want to work on its particular problem domain, so a generic answer about interesting technology tends to stall here. Nothing technical is graded; the call exists to confirm you can articulate what the company builds and for whom.
+Each team assembles its onsite from a menu of round types: coding, decomposition, re-engineering, learning and system design. Decomposition is close to universal; core software engineering loops lean toward coding and design, forward-deployed loops toward decomposition and learning. Expect typically three to four onsite rounds and four to six weeks overall.
 
-**Technical screen.** This is the stage our reports cover directly, and both describe a single live conversation rather than an automated assessment. One candidate's screen opened with a walkthrough of a project from their own resume — technical choices, why each was made, what the hard part was — and only then moved into code. The coding task was not a puzzle but a small piece of working software: implement a session manager whose allocation keeps server loads within one of each other, using a heap keyed on the pair (session count, server id) and a set to reject duplicate session ids. The round closed with writing test cases for both normal and boundary inputs, which is worth planning time for; candidates who spend the whole slot on the happy path leave the last graded piece unwritten. The other report describes a purely algorithmic screen built around querying text: matching a query under a distance constraint, tracking word positions, and tolerating gaps between matched terms. Elsewhere the screen is commonly reported to appear as a timed online assessment mixing a coding task, a SQL query and an API exercise, so expect either format and confirm which one you are getting when the invitation arrives.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call on background, motivation and mission fit.
+- **Online assessment (many loops):** A timed, multi-part implementation test that can include API and SQL tasks.
+- **Technical screen:** About an hour of live coding, sometimes opened with a resume project deep dive.
+- **Decomposition interview:** An open-ended problem broken into data model, interfaces and logic as requirements shift.
+- **Coding and re-engineering interviews:** Algorithm or class-implementation problems, or work inside an unfamiliar codebase.
+- **Hiring manager interview:** Past work, values and how you handle disagreement.
+
+> **Tip:** Ask the recruiter which round types your loop includes. The learning and re-engineering rounds need different practice from algorithm drills.
 
 **[Read the full Palantir interview process →](interview-process.md)**
 

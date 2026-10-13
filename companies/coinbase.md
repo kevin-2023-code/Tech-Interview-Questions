@@ -47,20 +47,20 @@ Which stage each question came from, for the **72 of 72** questions at Coinbase 
 
 ## What they ask about
 
-Of the **22 questions at Coinbase that carry a topic label** (31% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **21 questions at Coinbase that carry a topic label** (29% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 23% | ████████████ | May 06, 2026 |
-| `sorting` | 4 | 18% | ██████████ | May 05, 2026 |
-| `arrays` | 3 | 14% | ███████ | Feb 13, 2026 |
+| `hashing` | 5 | 24% | ████████████ | May 06, 2026 |
+| `sorting` | 4 | 19% | ██████████ | May 05, 2026 |
 | `graphs` | 3 | 14% | ███████ | May 06, 2026 |
 | `strings` | 3 | 14% | ███████ | Feb 08, 2026 |
-| `backtracking` | 2 | 9% | █████ | May 06, 2026 |
-| `dynamic-programming` | 2 | 9% | █████ | Feb 13, 2026 |
-| `greedy` | 2 | 9% | █████ | May 05, 2026 |
-| `math` | 2 | 9% | █████ | Mar 01, 2026 |
-| `sliding-window` | 2 | 9% | █████ | — |
+| `arrays` | 2 | 10% | █████ | Feb 13, 2026 |
+| `backtracking` | 2 | 10% | █████ | May 06, 2026 |
+| `dynamic-programming` | 2 | 10% | █████ | Feb 13, 2026 |
+| `greedy` | 2 | 10% | █████ | May 05, 2026 |
+| `math` | 2 | 10% | █████ | Mar 01, 2026 |
+| `sliding-window` | 2 | 10% | █████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -121,7 +121,7 @@ What candidates said happened in the room at Coinbase — written up by the peop
 | Software | [Coinbase Software Engineer Interview Experience: Production-Quality Coding and Engineering Focus](https://trueinterview.io/interviews/f552c22a-573f-4e06-b88c-34e12599d3bd) | Sep 30, 2026 |
 | Software | [Coinbase Task Management System Coding Interview Experience](https://trueinterview.io/interviews/cde9f50f-363c-41fa-890d-e5fb59299e40) | Sep 30, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Coinbase and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Coinbase and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

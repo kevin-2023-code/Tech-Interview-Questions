@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Medium | Anthropic | Onsite / virtual onsite | graphs | — |
+| AI Coding | Medium | Anthropic | Onsite / virtual onsite | — | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.

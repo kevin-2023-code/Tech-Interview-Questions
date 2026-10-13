@@ -2,13 +2,13 @@
 
 # Free questions
 
-**398 of the 4,121 tracked questions open without a paid plan** (10%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
+**395 of the 4,121 tracked questions open without a paid plan** (10%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [Free reading](../guides/README.md)
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 288 | 77 | 165 | 46 |
+| [Algorithm](algorithm.md) | 285 | 75 | 164 | 46 |
 | [SQL](sql.md) | 6 | 0 | 4 | 2 |
 | [System Design](system-design.md) | 34 | 5 | 16 | 13 |
 | [AI Coding](ai-coding.md) | 9 | 1 | 7 | 1 |

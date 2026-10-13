@@ -2,13 +2,13 @@
 
 # OKX interview process, OA & interview questions
 
-**5 questions** reported at OKX. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okx), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at OKX · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okx), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OKX interviews & the free questions](okx/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-okx)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-okx)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (80% of 5) |
 | Difficulty (easy / medium / hard) | 1 / 4 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 0 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 5 questions reported at OKX. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -66,6 +66,14 @@ The 5 questions to open first if you are preparing for OKX, ranked by **the ones
 | **5** | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Guides & writeups
+
+**1 writeup** filed under OKX in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
+
+| Writeup | Topics |
+| :-- | :-- |
+| [OKX Interview Process & Questions](https://trueinterview.io/study/okx-interview-process) | — |
 
 ---
 

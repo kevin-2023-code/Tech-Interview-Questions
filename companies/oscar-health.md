@@ -2,13 +2,13 @@
 
 # Oscar Health interview process, OA & interview questions
 
-**3 questions** reported at Oscar Health. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oscar-health), judged server-side.
+**3 questions** reported at Oscar Health · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oscar-health), judged server-side.
 
 [📖 How Oscar Health interviews & the free questions](oscar-health/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧬 Health, biotech & medical devices · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-oscar-health)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-oscar-health)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 3) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 0 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 3 questions reported at Oscar Health. 0 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -62,6 +62,14 @@ The 3 questions to open first if you are preparing for Oscar Health. **This is n
 | **3** | [Morse Code Conversion](https://trueinterview.io/questions/f2fd49a4-36ff-4528-aade-cf3f781b1d59) 🆓 | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Guides & writeups
+
+**1 writeup** filed under Oscar Health in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Oscar Health Interview Process & Questions](https://trueinterview.io/study/oscar-health-interview-process) | — |
 
 ---
 

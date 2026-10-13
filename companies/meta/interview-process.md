@@ -8,84 +8,270 @@
 
 ---
 
-This guide goes past the outline on the Meta company page. It covers how the screens actually run, what the 2026 AI-native loop looks like from the inside, and what happens to your packet after the last round. It draws on 182 real Meta questions and 116 candidate interview reports.
+Meta scores every round as a separate signal, and a strong design hour does not cover a weak coding hour. A hiring committee that never met you reviews the packet and can reject a loop the interviewers liked or offer a level below the target. Since mid-April 2026, most loops are AI-native: coding runs in a multi-file project with a built-in assistant, design rounds often add an agent prompt, and the behavioral round asks in detail how you use AI tools. The assistant does not lower the bar, because inputs are sized so that only the optimal algorithm passes.
 
-## Interview Process
+This guide breaks down each stage of the Meta interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 116 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Meta interview process
 
 <!-- guide-diagram -->
 ![Meta interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/meta/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment, when your pipeline uses one.** Some pipelines add a 90-minute proctored online assessment before the full loop or in place of a phone screen. This is common for new-grad, senior and AI-native pipelines. It is almost never a set of short puzzles. You usually get one progressive class-design task: a banking system (transfers, scheduled payments, account merging, balance at a past timestamp), an in-memory key-value store (TTL, prefix scans, backup and restore) or a cloud file store with users and capacity limits. Each level unlocks only after the previous level passes its hidden tests. Candidates have passed without finishing level 3, and one went straight to the full loop with no technical screen. Recruiters have also said a failed assessment carries a one-year freeze on reapplying.
+Most candidates are matched to a team only after the committee approves, so the loop does not depend on the team. A typical path is a recruiter call, an optional online assessment, a 45-minute technical screen, and a loop of four to six rounds. Reported timelines run from about four weeks to two or three months when team matching or a freeze stalls the packet.
 
-**Phone screen.** The typical screen is 45 minutes: a few minutes of introductions, then two problems in a shared editor. Some screens run an hour, and one packed in four short problems. Most screens don't let you run code, so you check your work by dry-running test cases out loud. Most of the grade comes from the follow-ups. Kth-largest moves on to quickselect and why it averages O(n). Weighted random sampling moves on to the Alias method. Lowest common ancestor gets asked again for a BST, with parent pointers, and with tight memory. One candidate needed a single hint on the prefix case in Alien Dictionary and was rejected at the screen. Some pipelines add a separate behavioral screen or start the call with a project deep dive.
+Level sets the mix. New-grad and E4 loops are mostly coding with one design round. E5 loops usually have two design rounds. At E6 and above, design and behavioral scope carry the most weight: one E6 loop was two design rounds plus behavioral. Experienced candidates sometimes have the phone screen waived.
 
-**The loop and the April 2026 change.** Onsites typically run four to six rounds. Candidates whose loops were scheduled on or after April 16, 2026 report an AI-native format. Traditional coding is partly or fully replaced by AI-enabled coding: one project that grows in stages inside a multi-file environment with a built-in assistant. Design rounds split by track. Product and infrastructure candidates get distributed design, ML candidates get ML system design, and many loops now add an AI-enabled design round about agents or LLM pipelines. The behavioral round now asks for details of how you use AI tools in your own work. Design rounds last 45 minutes, which candidates consistently find short.
+Here's what the interview process can look like:
 
-**After the loop.** Each round produces its own signal, and a strong design round does not make up for a weak coding round. A hiring committee reviews the packet. It can reject a loop the interviewers liked, give no feedback, or offer a lower level: an E6 target has become an E5 offer, and an E5 target has become E4. Rejections sometimes arrive within three business days. After a positive committee decision comes team matching, which can include several calls with hiring managers and an extra approval step. Freezes and reorganizations have stretched that stage by weeks.
+- **Recruiter screen:** A short call about level, location, and whether your loop is traditional or AI-native.
+- **Online assessment (some pipelines):** A 90-minute proctored task, usually one class whose requirements grow over four levels.
+- **Technical phone screen:** 45 minutes, two coding problems in a shared editor that usually cannot run code.
+- **Coding interviews:** Up to two traditional rounds, each with two medium problems and follow-ups.
+- **AI-enabled coding interview:** A 60-minute round in a multi-file codebase with an assistant, where one problem grows in stages.
+- **Design interviews:** 45-minute system design, ML system design or AI-enabled design, depending on track and level.
+- **Behavioral interview:** About 45 minutes on ownership, conflict, feedback and your use of AI tools.
 
-## What Candidates Report
+> **Tip:** Ask the recruiter in writing which rounds are AI-native. Candidates scheduled around the April 16, 2026 cutover got mixed formats, and several faced a format they had not prepared for.
 
-- **The same few coding families keep coming back.** A maze that picks up one-way cells, keys and doors, then wall-destroying bombs. A word list where you pick a subset with no shared letters. A three-card game where the cards must sum to 15. Most failures come from modeling state wrong, not from picking the wrong algorithm.
-- **AI assistance does not lower the bar.** The inputs are big enough that only the optimal algorithm passes. Interviewers make you explain generated code line by line, and some plant bugs on purpose, sometimes inside the test suite itself.
-- **The optimality bar is real.** Several rejections trace back to a correct but suboptimal second solution. Interviewers push past backtracking to bitmask DP, and past a heap to quickselect.
-- **Headcount affects outcomes.** Candidates describe canceled positions, packets stalled during freezes, and rejections after loops where every round felt strong.
-- **Interviewer styles differ widely.** Some interviewers collaborate and give hints. Others interrupt, discourage using the assistant partway through, or are clearly new to the AI-native format.
+## Recruiter screen
 
-## Coding Questions
+The call covers background, current level, location and team interests. Some pipelines add a separate 30-minute behavioral screen with the recruiter, covering ambiguity, conflict, a proudest project, a role model and a growth area.
 
-Meta coding problems are recognizable patterns with a twist, and you are graded on how you get there. Clarify before you type, state the brute force, reach the optimal approach, and write your own test cases. Expect the follow-up to change exactly one assumption.
+Interviewers evaluate:
+
+- **Level fit:** The scope of your recent work, which sets the target level before any interview.
+- **Track fit:** Product, infrastructure, machine learning, research or data.
+- **Timeline:** Competing deadlines, which can compress assessment-to-loop to about two weeks.
+
+Prepare a two-minute summary of your scope, with numbers.
+
+## Online assessment
+
+Where it appears (common for new-grad, senior and AI-native pipelines), the assessment is usually one 90-minute class-design task in four levels. Each level unlocks only when the previous one passes hidden tests. Scenarios include a banking system (scheduled transfers, account merges, top spenders, balance at a past timestamp), a key-value store with TTL and backup, a store with key locks, and a cloud file store with capacity limits. Specs are long, tests cannot be edited, and failures show no line numbers.
+
+Candidates have passed without finishing level 3 and gone straight to the loop with no phone screen. Recruiters have said a failed assessment brings a one-year freeze on reapplying.
+
+Interviewers evaluate:
+
+- **Forward-compatible design:** Level-1 structures that survive TTL, history and top-N queries.
+- **Test-driven debugging:** Inferring behavior from fixed tests when the spec is vague.
+- **Pacing:** Submitting each level as soon as it passes, about 15 to 20 minutes per level.
+- **State correctness:** Lazy expiry, ties broken by ID, failed transfers leaving balances unchanged.
+
+Read all four levels before coding, and keep an event log from level 1.
+
+> **Note:** One rejected candidate could not add a per-field value at a past timestamp in level 4. The task was easy; the early structure simply left no room to extend.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Build a bank that schedules future transfers, merges accounts with rerouted payments, and returns a balance at any past timestamp.
+- Build a key-value store whose backup and restore keep remaining TTL rather than absolute expiry.
+
+- [Banking System (Progressive OOD)](https://trueinterview.io/questions/codesignal-oa-banking-system)
+- [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5)
+- [Implement a versioned in-memory DB with CAS and history](https://trueinterview.io/questions/implement-a-versioned-in-memory-db-with-cas-and-history)
+
+## Technical phone screen
+
+The standard screen is 45 minutes: brief introductions, then two well-known problems, usually without running code. The follow-ups carry most of the grade. Kth-largest leads to quickselect and why its average is O(n). Weighted sampling leads to the Alias method. Lowest common ancestor returns with a BST, parent pointers and tight memory. Parenthesis removal extends to three bracket types.
+
+Tracks change the screen. Infrastructure and Production Engineer screens add live troubleshooting, such as an outage caused by a full disk. Machine Learning Engineer screens can be a full ML design hour. Research Scientist screens are often a hiring-manager project deep dive plus an open research question. Data screens tie business framing, data modeling, SQL debugging and Python into one scenario.
+
+Interviewers evaluate:
+
+- **Independent edge cases:** One candidate needed a single hint on the prefix case in Alien Dictionary and was rejected.
+- **Optimality:** One rejection traced to a working but suboptimal second solution.
+- **Self-testing:** Building and dry-running empty, single, duplicate and all-equal cases unprompted.
+- **Complexity reasoning:** One E4 candidate was asked to prove quickselect's expected linear time.
+
+Practice each common problem with its follow-up chain until both fit in about 20 minutes.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Pick an index with probability proportional to its weight, then make each pick O(1) for huge call volumes.
+- Derive an alien alphabet from sorted words, returning empty on a cycle or a word listed before its own prefix.
 
 - [Kth Largest Element / Quick Select](https://trueinterview.io/questions/kth-largest-quick-select)
 - [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
 - [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary)
+- [Lowest Common Ancestor (BT / BST / N-ary)](https://trueinterview.io/questions/lowest-common-ancestor)
+
+## Coding interviews
+
+Traditional rounds give two mostly medium problems in about 40 minutes, sometimes with a hard follow-up you must code. Recurring prompts include vertical-order traversal, side views, valid palindrome with up to k deletions, a local minimum without binary search, and a calculator in O(1) extra space. Interviewers often change a rule partway: iterative only, no hash map, or many queries on the same tree. AI-native loops cut traditional coding to one round or none.
+
+Interviewers evaluate:
+
+- **Speed with accuracy:** Two problems leave no room for a slow brute force.
+- **Adapting to a new constraint:** Switching approach cleanly when recursion or memory is taken away.
+- **Bug ownership:** Bugs you catch in your own dry run cost far less than ones the interviewer finds.
+- **Precise complexity:** For example, O(n·k) for the k-deletion palindrome.
+
+Drill two-problem sets against a 40-minute clock.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Return a tree's leftmost nodes from the deepest level up, then its rightmost nodes from the top down.
+- Find the minimum hours to finish a target list of courses with prerequisites in a possibly disconnected graph.
+
 - [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal)
 - [Valid Palindrome II](https://trueinterview.io/questions/valid-palindrome-ii)
-- [Min Remove to Make Valid Parentheses](../../questions/algorithm/min-remove-to-make-valid-parens/README.md)
+- [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2)
 
-## System Design Questions
+## AI-enabled coding interview
 
-Prompts stay close to products at Meta's scale: feeds, live comments, search, leaderboards, auctions, ticketing and judging systems. Candidates who fail usually either accept a single-machine framing without asking or spend so long on schemas that they never design the core flow. One candidate was flagged for covering everything without narrowing the problem first.
+One codebase with several files, a test suite and an assistant, and the task grows in stages. The most reported problem is a maze: fix the printer so start and goal markers survive, add the missing visited set, then one-way cells, then keys and doors (state becomes position plus a key bitmask), then bombs that clear walls. Other recurring problems are a word subset with no shared letters (backtracking to bitmask DP over thousands of words), a sum-to-15 card game comparing greedy and DP strategies by simulation, and a friend recommender that wrongly allows recommending yourself.
 
-- [Design Instagram](../../questions/system-design/design-instagram/README.md)
-- [Facebook Search (Mini Elasticsearch)](https://trueinterview.io/questions/system-design-facebook-search)
-- [Online Auction / eBay](https://trueinterview.io/questions/system-design-online-auction)
-- [Design a ticket or hotel reservation system](https://trueinterview.io/questions/design-a-ticket-or-hotel-reservation-system)
-- [AI-Enabled System Design — Agent System](https://trueinterview.io/questions/system-design-ai-enabled-agent-system)
+Interviewers plant bugs, sometimes in the tests: one expected result was wrong because the goal was walled in. Some ask you to explain generated code line by line; some discourage the assistant halfway through.
 
-## Low-Level Design Questions
+Interviewers evaluate:
 
-Object-level design shows up mostly in the assessment: a class whose requirements grow level by level. If your level-one design doesn't anticipate TTL, snapshots and top-N queries, later levels force a rewrite you have no time for.
+- **Directing the tool:** Prompting for small functions rather than accepting a whole solution.
+- **Verification:** Catching type mismatches and missing guards in generated code.
+- **Optimal core logic:** Large inputs time out anything short of the right algorithm.
+- **State modeling:** Most failed mazes tracked visited cells by position alone.
+- **Completion:** Finishing every stage is what earns the strongest signal.
 
-- [Banking System (Progressive OOD)](https://trueinterview.io/questions/codesignal-oa-banking-system)
-- [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5)
+Build one maze solver and extend it stage by stage, with and without an assistant.
 
-## AI-Assisted Coding Questions
+> **Note:** One rejected candidate passed only four or five hidden tests after leaning on suggestions they did not understand. Undoing bad generated code cost more time than writing it.
 
-The AI-enabled round is one codebase that changes in stages: fix a failing test, add the missing visited set, then extend the state. You are graded on how you direct the tool: small prompts, reviewing every change, testing adversarially, and rejecting output that looks plausible but is wrong.
+### Sample questions for the AI-enabled coding interview
+
+Here are some questions reported by recent candidates:
+
+- Extend a BFS maze solver with one-way cells, keys and doors, and a wall-clearing bomb, then reconstruct the path.
+- Choose words sharing no letters to cover the most distinct letters, scaling from backtracking to bitmask DP.
 
 - [Maze Solver](../../questions/ai-coding/ai-coding-maze-solver/README.md)
 - [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset)
 - [Card Game (Three Cards Summing to 15)](https://trueinterview.io/questions/ai-coding-card-game-sum-fifteen)
 - [Fix validation for friend recommendations](https://trueinterview.io/questions/021b6f7e-4100-443e-aa5d-09ddf9ae43ca)
 
-## Behavioral Questions
+## Design interviews
 
-The behavioral rounds sound conversational but dig hard: your proudest project, a conflict, critical feedback, a project whose direction changed. Each answer is pressed for what you personally drove and what number moved. Newer sessions add a structured thread on AI: which tools you use, where they misled you, and how you check their output.
+Design rounds last 45 minutes, which candidates consistently find short. Software and infrastructure prompts stay close to Meta products: live comments, Instagram, post search with AND and OR queries, auctions, a contest judge, and ad-click aggregation at 100 million events a second. One auction design had to move to pessimistic locking when a celebrity listing created a hot spot. AI-enabled design asks for an agent, such as code review with a cost estimate per call, or ticket triage built on a reason-act loop.
+
+Machine Learning Engineer loops use ML system design instead: nearby places, notification ranking, Reels, ads ranking with calibration, weapon-sale detection, image copyright detection. Research loops can add theory on optimizers and attention; Data Scientist loops center on metrics and experiments.
+
+Interviewers evaluate:
+
+- **Scoping:** One otherwise strong design was flagged for never narrowing the problem.
+- **Time allocation:** Over-investing in schemas left one candidate without the core flow.
+- **Trade-off depth:** WebSockets versus server-sent events, fan-out strategy, locking under contention.
+- **Detail on request:** Presigned-URL security and write amplification each sank a candidate who stayed at box level.
+- **ML judgment (ML tracks):** Position bias, training-serving skew, cold start, and a counter-metric for each metric.
+
+Budget five minutes for requirements, fifteen for architecture, then one deep dive with failure modes.
+
+### Sample questions for the design interviews
+
+Here are some questions reported by recent candidates:
+
+- Design live comments for a popular post, including reconnection and missed events.
+- Design a code-review agent: what goes to an LLM, how output is verified, and the inference cost per review.
+
+- [Design real-time live comments](https://trueinterview.io/questions/design-real-time-live-comments)
+- [Online Auction / eBay](https://trueinterview.io/questions/system-design-online-auction)
+- [AI-Enabled System Design — Agent System](https://trueinterview.io/questions/system-design-ai-enabled-agent-system)
+- [Harmful / Weapon-Sales Content Detection](https://trueinterview.io/questions/mlsd-harmful-content-detection)
+
+## Behavioral interview
+
+The round sounds conversational but presses hard on your proudest recent project, a conflict, critical feedback, a project that changed direction, and a difficult coworker. Each answer is pushed for what you did yourself, what data supported it, and what you would change. Newer loops add a structured section on which AI tools you use, where they misled you, and how you check their output. One E4 loop used a single case study probed from several angles; staff-level sessions focus on cross-team direction and mentoring senior engineers.
+
+Interviewers evaluate:
+
+- **Personal ownership:** Describing how you drove alignment and reset a timeline reads as a higher level than saying the team agreed.
+- **Measured impact:** Numbers tied to a recent outcome.
+- **AI fluency:** Specific workflows and failures, not enthusiasm.
+- **Scope for level:** Influence beyond your team at E6 and above.
+
+Prepare six to eight recent stories with numbers, including one where AI output was wrong.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Describe committed work that slipped through the cracks: how you found out and how you recovered.
+- How do you use AI tools day to day, and where have they failed you?
 
 - [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
 - [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
-- [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/questions/03c246e8-c1a4-47b1-b1bd-5c212e569288)
+- [Answer conflict, ambiguity, feedback, difficult coworker prompts](https://trueinterview.io/questions/answer-conflict-ambiguity-feedback-difficult-coworker-prompts)
 
-## How to Prepare
+## How Meta makes hiring decisions
 
-- Before you schedule, ask your recruiter whether your loop is AI-native, partly AI-native or traditional. Candidates scheduled around the April 2026 cutover got mixed formats.
-- Build one maze solver and keep extending it: mark cells visited when you discover them, key the state on position plus a key bitmask, add one-way cells, and reconstruct the path.
-- For each classic problem, prepare the chain of follow-ups: quickselect with its average-case argument, the Alias method, LCA variants, and palindrome with k deletions.
-- Practice the same problems both with an assistant and with none. Some interviewers restrict usage partway through.
-- Rehearse one progressive class-design task under a 90-minute clock, and submit each level as soon as it passes.
-- Prepare specific, measurable stories about how you use AI tools at work, because vague answers get probed until they fall apart.
-- Treat the 45-minute design round as a budget: about five minutes on requirements, fifteen on architecture, one deep dive, then failure modes.
+Each interviewer rates separately, and a committee that includes non-interviewers reviews the packet. It can turn down a positive loop without explanation and sets the final level: E6 targets have become E5 offers, and E5 targets E4. One candidate with 13 years of experience was matched at E5 and rejected because most rounds met the bar without exceeding it. A rejection within about three business days usually means the packet never reached committee. After approval comes an extra sign-off, then team-matching calls with hiring managers (one candidate had four). Freezes have stalled packets and cancelled roles after the loop. Recent rejections carried a one-year cooldown for the same role family, while other roles stayed open.
+
+> **Tip:** After a weak round, a short follow-up email with a corrected solution and tests is acceptable. One candidate with a weak coding signal still received an offer.
+
+## How to prepare for the Meta interview
+
+1. **Confirm the format in writing:** Ask which rounds are AI-native, then prepare for traditional coding too.
+2. **Build the maze and keep extending it:** Mark cells visited on discovery, carry keys as a bitmask, add one-way cells, bombs and path reconstruction.
+3. **Learn the follow-up chains:** Quickselect's expected time, the Alias method, LCA variants, k-deletion palindromes.
+4. **Practice with and without the assistant:** Prompt for small functions, review every line, and be ready to code by hand.
+5. **Design the assessment for level 4 from level 1:** Keep an event log, separate counters and remaining-TTL snapshots.
+6. **Treat 45 minutes as a budget:** Scope first, reach the core flow, then defend one deep dive under contention.
+7. **Quantify every story:** Name what you personally drove and the number it moved.
+
+## About working at Meta
+
+Engineers work in one large monorepo and ship quickly behind experiments; the step from E5 to E6 depends on influence across teams.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| E3 | Delivering well-defined features with guidance | Tasks within one team |
+| E4 | Owning features with little oversight | A feature area |
+| E5 (Senior) | Owning a problem space and the team's quality bar | One team's roadmap |
+| E6 (Staff) | Setting technical direction across teams | Several teams |
+| E7 (Senior Staff) | Organization-wide technical strategy | An organization |
+
+Meta hires engineers and scientists across apps, ads, infrastructure and AI. Teams include:
+
+- **Family of Apps:** Facebook, Instagram, WhatsApp, Messenger and Threads.
+- **Monetization:** Ads ranking, delivery and measurement.
+- **Infrastructure:** Data centers, storage, networking and production engineering.
+- **Meta Superintelligence Labs:** Foundation models, fundamental AI research and AI products.
+- **Reality Labs:** Quest headsets, smart glasses and AR/VR software.
+
+### Experience and education requirements
+
+University-grad roles require a bachelor's in computer science or a related field, completed before the start date. Experienced roles ask for a degree or equivalent experience plus professional coding in a mainstream language; senior infrastructure postings ask for seven or more years on large-scale systems. Research roles usually expect a PhD or equivalent publications.
+
+## FAQs about the Meta interview
+
+### How long does the Meta interview process take?
+
+Usually four to eight weeks from recruiter call to committee decision. Team matching and approvals can add several weeks, more during freezes.
+
+### What is the hardest round of the Meta interview?
+
+Recent candidates most often name the AI-enabled coding round and call it pivotal. At E5 and above, design rounds are the next most common cause of a rejection or a lower level.
+
+### Is there an online assessment?
+
+Only in some pipelines: usually a 90-minute class-design task in four gated levels. A strong partial result can skip the phone screen.
+
+### How much does a Meta software engineer make?
+
+Approximate US total compensation:
+
+- **E4:** ~$295K
+- **E5:** ~$465K
+- **E6:** ~$730K
+
+Packages combine base salary, an annual bonus target, and stock that vests evenly over four years; equity is the main negotiation lever.
 
 ## Guides by Role
 

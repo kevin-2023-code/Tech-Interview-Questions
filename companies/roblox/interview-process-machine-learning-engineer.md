@@ -6,93 +6,242 @@
 
 ---
 
-The round that ends Machine Learning Engineer loops here is almost never the modeling round. It is the hour a senior engineer spends dismantling one project on your resume — motivation, architecture, data pipeline, model choice, failure cases, what you would do differently, how it scales — and a 45-minute behavioral session that fires more than fifteen scripted questions with almost no follow-ups. Both land after the coding and ML design rounds are already cleared. Candidates arrive optimized for recommendation architecture and get graded on how well they defend work they finished two years ago, under interruption, with numbers.
+Roblox hires Machine Learning Engineers into a specific team, so the interviewers are usually future colleagues and the ML modeling prompt is often taken from the team's current work. Every loop that reached the onsite included an hour-long deep dive on one of your projects or papers, followed by questions on how it would apply to Roblox. Coding is never waived: expect a practical medium problem, usually log parsing or a sliding window, where the follow-up changes the input.
 
-## Interview Process
+This guide breaks down each stage of the Roblox Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 5 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Roblox Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Roblox Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/roblox--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (typically 30 minutes, no technical content).** Loops on this track usually start with recruiter outreach. The call covers background, the team's problem area — recommendations and personalization, safety and content moderation, or economy and marketplace ranking — level, and in-office expectations at the San Mateo headquarters, which runs a three-day-a-week onsite policy. Recruiters here have been notably hands-on, sending study material and an explicit map of the rounds; candidates who read it met recognizable problem families rather than surprises.
+The loop depends on the hiring team. Reported loops ran from three to eight conversations: a recruiter call, one or two phone-screen sessions, and a virtual onsite of three or four rounds of 45 to 60 minutes. The phone-screen slot varies most. It was coding for some candidates, ML system design for one, and a project deep dive plus a hiring-manager conversation for a senior candidate. Senior loops add a director conversation that sets the level.
 
-2. **Technical phone screen (60 minutes).** Coding is not waived for this track and it is not ML-flavored: it is ordinary data structures under time pressure. Reported screens include a medium sliding-window problem finding subarrays that sum to a target, and parsing a log of caller, callee and timestamp records to find the most frequent call, followed by extensions on scalability and edge cases. Hash maps and trees are the recurring toolkit. Some loops swap this slot for ML system design instead — one candidate's screen was designing a game-genre classifier from scratch — so confirm the format rather than assuming.
+Here's what the interview process can look like:
 
-3. **Onsite coding (60 minutes, sometimes two linked sessions).** When two coding rounds appear, the second deliberately extends the first: one loop moved from listing every fixed-size window containing a target value to returning the leftmost window with the maximum number of occurrences, forcing a naive scan of order n times k down to linear time. Interviewers push on boundary behavior — a window larger than the array, repeated targets, ties. Verbal feedback is sparse by design, since interviewers stay quiet to avoid leading you, so treat silence as neutral and narrate your own checks.
+- **Recruiter screen:** About 30 minutes on background, motivation and timeline, with no technical questions.
+- **Technical phone screen (one or two sessions):** An hour of medium coding, ML system design or a project deep dive, depending on the team.
+- **Coding interview (one or two rounds):** A practical medium problem in runnable code, then an extension.
+- **ML modeling interview:** An hour designing a model end to end, from framing to loss, metrics and an online test.
+- **Project deep dive:** An hour presenting one project or paper and defending every decision in it.
+- **Hiring manager and behavioral interview:** About 45 minutes on motivation, ambiguity and past behavior.
+- **Director interview (senior candidates):** A 45-minute conversation on scope and leadership that decides the level.
 
-4. **ML system design (60 minutes).** The differentiating round, and sometimes the first technical contact. Reported prompts: classify a video game into one or more genres from scratch, and build a game recommendation system over a very large catalog; broadly framed personalization and abuse-detection spaces also appear. The expected sweep is the whole pipeline — problem scoping and success definition, data collection and labeling, features across mixed inputs such as structured metadata, text descriptions and icon imagery, candidate generation and ranking, model family and loss function, optimizer, offline metrics, and an online A/B test to validate impact. Long-tail and cold-start titles and the exact loss formulation get probed specifically. The hour does not fit even coverage: one candidate never reached deployment and monitoring, so budget depth deliberately and say what you are deferring.
+> **Tip:** Ask the recruiter which rounds you will get and in what order. Recruiters on this track sent study material, an outline of the rounds and even behavioral questions in advance, and the phone screen differs enough between teams that preparing for the wrong format costs the round.
 
-5. **Project or paper deep dive (60 minutes).** A senior engineer takes one piece of your work apart. Candidates presented an authored paper or a production ML project and were interrupted continuously with detailed questions on methodology, baselines and results — one prepared two papers and only got through the first. A second consistent move is the transfer question: how would this idea apply to in-game recommendations, content moderation, or another problem on this platform. Have the timeline, the decisions, the quantitative results and the honest failure cases for every stage.
+## Recruiter screen
 
-6. **Hiring manager behavioral (45–60 minutes).** Motivation for joining, how you approach ambiguous ML problems where the objective is not given, and culture fit. Format varies sharply: some sessions are conversational, while one senior loop ran more than fifteen behavioral questions in 45 minutes with the interviewer sticking to a script and not probing — a format that punishes long answers and rewards rehearsed 60-second stories.
+A 30-minute call, usually within a day or two of applying or after recruiter outreach, covers your experience, why you are moving, the team's problem area and the timeline. No technical questions were reported. Roblox asks most employees to work from its San Mateo headquarters Tuesday through Thursday, so location comes up here.
 
-7. **Decision.** Reported loops ran two to five rounds depending on team and level, and outcomes are decided on the full packet after the loop rather than round by round. Because interviewers give little in-the-moment feedback, candidates consistently misread how their rounds went.
+Interviewers evaluate:
 
-## What They Actually Evaluate
+- **Domain fit:** Recommendation, safety or generative AI experience that maps onto the open role.
+- **Seniority signal:** The scope of projects you led, which shapes the level the loop targets.
+- **Motivation:** A reason for Roblox specifically, beyond general interest in games.
+- **Timeline:** Competing processes, since the rest of the loop can move very quickly.
 
-### Coding and Algorithm
+Prepare a two-minute summary of your strongest ML project and a specific answer to why Roblox.
 
-One to three hours across the loop, medium difficulty, drawn from ordinary data-structure territory rather than ML tooling: sliding windows, hash-map frequency counting over logs, tree traversal. The distinguishing feature is the layered follow-up — the second problem is usually the first plus one constraint — so a solution structured to be extended is worth more than a tight one-off. Losing this round looks like solving the base case elegantly and then rewriting from scratch when the extension arrives, or failing to state boundary behavior before coding.
+## Technical phone screen
 
-- [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting)
+The screen is one hour with an engineer. Coding screens use ordinary data-structure problems rather than ML tooling: subarrays summing exactly to a target with an efficient window, or the most frequent caller-callee pair in a log of calls with timestamps, followed by questions on scale and edge cases. One recruiter-sourced candidate got an ML system design screen instead. A senior candidate's screen was two sessions, a one-hour project deep dive with two interviewers and a 45-minute hiring-manager conversation, and the onsite invitation followed two days later.
+
+Interviewers evaluate:
+
+- **Working code within the hour:** A complete pass before the extension questions start.
+- **Clarifying the input:** Negative values, duplicates, ties and malformed log lines.
+- **Scaling the solution:** How a frequency count changes when the log is streamed or does not fit in memory.
+- **Framing in design screens:** Labels, data sources and metrics before any model.
+
+Practice hash-map counting over logs and window problems until each takes under 25 minutes.
+
+> **Note:** A sum-to-target window only works as a two-pointer slide when all values are non-negative. Ask before coding: with negatives the answer is a prefix-sum hash map, and interviewers here say little to stop you building the wrong one.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given a log of calls with caller, callee and timestamp, return the pair that occurs most often, then discuss scaling and edge cases.
+- Find the subarrays whose elements sum exactly to a given target using an efficient window technique.
+- Design an ML system that assigns genres to video games from scratch, where a game can belong to several genres.
+
+- [Find the Most Frequent Log Call](https://trueinterview.io/questions/find-the-most-frequent-log-call)
 - [Most Frequently Called Function From Logs](https://trueinterview.io/questions/most-frequently-called-function-from-logs)
-- [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md)
-- [Closest Binary Search Tree Value](https://trueinterview.io/questions/closest-binary-search-tree-value)
-
-### ML System Design
-
-One hour, open prompt, and the conversation branches from your own first framing, so no two candidates get the same follow-ups. Signal comes from spending the opening minutes on problem definition — what is predicted, what the label is, how success is measured offline and online, what data exists — before naming a model. Platform-specific hazards are where depth is tested: cold-start and long-tail titles with almost no interaction history, multi-label and hierarchical genre assignment, mixed modalities, and user-generated content of wildly varying quality. The recurring failure is even coverage: narrating all ten pipeline stages at the same shallow depth and running out of clock before the loss function or the experiment design.
-
-- [ML Modeling: Recommend Games to a Roblox User](https://trueinterview.io/questions/ml-modeling-game-recommendation)
 - [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification)
 
-### Project Deep Dive
+## Coding interview
 
-A full hour on one project, run as an interrogation rather than a presentation. Graded on whether you own the decisions: why this architecture over the alternative, what the baseline was, how the data pipeline actually worked, where it broke, what the measured impact was, what you would rebuild. Expect to be stopped every couple of minutes, and expect to be asked to port the idea onto a problem on this platform. Lead with your strongest single piece of work — candidates planning to cover breadth have run out of time inside the first item.
+The onsite holds one or two coding rounds of 45 to 60 minutes; one senior candidate was told Roblox runs a single coding round, while another loop had two linked ones. Code runs on CodeSignal, and problems are medium scenarios without dynamic programming or puzzle tricks. The most reported family parses function-call logs: find the most frequent call path with a stack, then handle interleaved logs from several threads with per-thread state. The logic is simple, but the volume of code is large and parsing details hide bugs.
+
+The other family is fixed-size windows. Part one lists the start of every length-k window that contains a target value; part two returns the leftmost window with the most occurrences of the target, moving from an n-times-k scan to linear time with a running count. Interviewers pushed on windows longer than the array, repeated targets and ties, and offered little verbal feedback.
+
+Interviewers evaluate:
+
+- **Extensible structure:** Code the follow-up can reuse, such as per-thread stacks added to an existing parser, not a rewrite.
+- **Parsing discipline:** Correct handling of start and end records and nesting before any optimization.
+- **Complexity improvement:** Reaching linear time and explaining why the sliding count is correct.
+- **Self-testing:** Running your own edge cases, since interviewer silence is not confirmation.
+
+Practice log-parsing problems end to end in a runnable editor, including a multi-threaded variant.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- Parse function enter and exit logs and return the most frequent call path, then extend it to interleaved multi-threaded logs.
+- Return the starting index of every fixed-length window that contains a target number at least once.
+- Return the leftmost fixed-length window with the most occurrences of a target, in linear time.
+
+- [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md)
+- [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain)
+- [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting)
+- [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2)
+
+## ML modeling interview
+
+This hour starts from an open prompt, often from the hiring team's roadmap: a game recommendation system, a game genre classifier, broad personalization or abuse-detection spaces, and for one senior candidate a live, confidential team project. The expected sweep covers scoping, data and labels, features from metadata, text and images, model choice, loss function, optimizer, offline metrics and an online A/B test.
+
+Interviewers probe two or three components rather than the whole list. In the recommendation prompt they focused on long-tail and cold-start games and on the loss definition; in the genre prompt, on multi-label assignment, where one candidate proposed a hierarchical classifier. Interviewers do not steer, and one candidate never reached deployment and monitoring.
+
+Interviewers evaluate:
+
+- **Framing before modeling:** What is predicted, what the label is and what data exists.
+- **Loss and objective choices:** Why the loss fits the goal and how it handles imbalance or multiple labels.
+- **Platform hazards:** Cold-start games, uneven quality of user-generated content and adversarial behavior in safety problems.
+- **Evaluation that reaches production:** Offline metrics tied to an online experiment with guardrails.
+
+Rehearse one recommender and one safety or content classifier, each in 45 minutes.
+
+> **Tip:** State your agenda in the first two minutes and name what you will skip. A senior candidate who still ran out of time advised covering the architecture quickly and spending the depth on long-tail handling and the loss function.
+
+### Sample questions for the ML modeling interview
+
+Here are some questions reported by recent candidates:
+
+- Design a game recommendation system for Roblox users, with attention to long-tail and cold-start games and to the loss function.
+- Build a multi-label genre classifier for games combining structured metadata with icons and descriptions.
+- For a personalization or abuse-detection problem, walk through features, models, loss, optimizer, offline metrics and an A/B test.
+
+- [Recommend Games to a Roblox User](https://trueinterview.io/questions/ml-modeling-game-recommendation)
+- [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md)
+- [Design real-time payments fraud model under constraints](https://trueinterview.io/questions/design-real-time-payments-fraud-model-under-constraints)
+- [Design experiment for homepage tab replacement](https://trueinterview.io/questions/design-experiment-for-homepage-tab-replacement)
+
+## Project deep dive
+
+One senior engineer, or two interviewers from the team, spend an hour on a project you led or a paper you wrote: motivation, method, architecture, data pipeline, model choices and impact. Follow-ups cover failure cases, rejected alternatives, what you would change and how it would scale, then how the idea transfers to a Roblox problem such as recommendations or content moderation. One rejected candidate called the questioning intense; a senior candidate with a slide deck on work close to the team's ran past the hour on follow-ups and received an offer.
+
+Interviewers evaluate:
+
+- **Ownership of decisions:** Why each component beat its obvious alternative, in your own words.
+- **Quantified results:** Baselines and how far the key metric moved.
+- **Honest failure analysis:** What broke, how you found out and what you changed.
+- **Transfer to Roblox:** A credible mapping onto recommendation, discovery or safety at Roblox's scale.
+
+Pick the project closest to the team, build a short deck and rehearse with someone who interrupts often.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Present a paper you authored, then explain how its method could improve in-game recommendations or content moderation.
+- Walk through a past project's data pipeline, model choices and failure cases, and how you would scale it.
 
 - [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive)
+- [Explain an ML project end-to-end with tradeoffs](https://trueinterview.io/questions/explain-an-ml-project-end-to-end-with-tradeoffs)
+- [Defend a metric choice under scrutiny](https://trueinterview.io/questions/defend-a-metric-choice-under-scrutiny)
 
-### Behavioral and Leadership
+## Hiring manager and behavioral interview
 
-Weighted more heavily than candidates expect, and in one reported loop delivered as a rapid-fire 45-minute session with more than fifteen questions and no follow-up probing. That format rewards short, structured, self-contained answers and punishes anyone who builds context before reaching the action. Content is standard — conflict, failure, leadership, ambiguity — plus a direct question about why this company and this platform, and a weak connection between your background and user-generated-content problems has been called out as a negative here.
+These rounds run about 45 minutes and vary by interviewer. Hiring managers asked about background, why Roblox, and how you approach an ML problem with an ambiguous objective; one rejected candidate felt this conversation never connected. In a senior loop, one behavioral round fired more than 15 questions on conflict, leadership and failure in 45 minutes, following a script with almost no follow-ups. A second hiring-manager conversation late in the loop can be largely candidate-driven, built on your questions about the team.
 
-## What They Don't Test
+Interviewers evaluate:
 
-- **Closed-book theory.** No reported round asked for derivations or textbook proofs; loss choice, optimizer selection and metric design are probed as decisions inside an applied pipeline instead.
-- **Distributed-training or serving internals.** Design rounds ran out of time before deployment and monitoring rather than digging into infrastructure — scoping, data, features, loss and experiment design consume the hour.
-- **Exotic algorithms in coding.** Sliding windows, hash maps and trees cover what has actually been asked; the difficulty comes from the extension question, not the base technique.
-- **Breadth of publications.** Interviewers went deep on one piece of work and interrupted constantly; a second prepared paper went unused.
-- **Presentation polish.** The deep dive is not a talk, and slides that cannot survive being stopped every two minutes actively hurt.
+- **Concise structure:** Complete answers in about a minute, since no follow-up rescues a vague one.
+- **Handling ambiguity:** Turning an unclear goal into a measurable objective.
+- **Motivation for Roblox:** A specific link between your work and the platform's users, creators or safety needs.
+- **Quality of your questions:** Informed questions about the team's roadmap.
 
-## The Real Filter
+Prepare 8 to 10 short stories and rehearse them at a one-minute pace.
 
-The primary rejection path is the project deep dive. Candidates prepare it as a summary of good work and get an hour of adversarial questioning about failure cases, alternatives not taken and quantified impact — the parts most people never wrote down. It is misjudged because it contains no unknown problem, so it feels safe; in practice it is where a senior engineer decides whether you actually made the decisions you are describing. Prepare it as a defense: baseline numbers, the metric that moved and by how much, the experiment that failed first, and the specific reason you chose each component over its obvious alternative.
+### Sample questions for the hiring manager and behavioral interview
 
-The second pattern is the modeling round running out of clock. The prompt is broad, the interviewer will not steer, and reports include loops where deployment and monitoring were never reached. Because the discussion branches from your own framing, an unstructured start compounds: state a plan for the hour in the first two minutes, mark the one or two components you will go deep on — long-tail handling and loss design have both been probed explicitly — and name what you are consciously skipping.
+Here are some questions reported by recent candidates:
 
-The third is under-rehearsing the behavioral round. A 45-minute sprint through more than fifteen questions leaves no room to warm up and no follow-up to rescue a weak answer. Have concise stories ready, including a specific one about an ML problem where the objective itself was ambiguous.
+- Why Roblox, and why this team?
+- How would you approach a machine learning problem where the right objective is not defined?
+- Tell me about a conflict with a teammate and a project that failed.
 
-## Data Source
+- [Demonstrate fit with quantified stories and motivations](https://trueinterview.io/questions/demonstrate-fit-with-quantified-stories-and-motivations)
+- [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers)
 
-Based on 5 candidate-reported interview experiences, primarily from 2026 Q2 through 2026 Q2.
+## Director interview
 
-## FAQ
+Senior candidates meet a director for 45 minutes, primarily to set the level. The director asks about projects you led, the scope you owned and standard behavioral topics, in a more formal tone than the hiring-manager rounds. In the reported case it placed the candidate at the highest senior level, one step below principal.
 
-**What is the work like for a Machine Learning Engineer here?**
+Interviewers evaluate:
 
-Our reports document the interview loop rather than the job, so treat this as context: ML teams sit behind recommendations and personalization, search and content understanding, safety and moderation including multimodal abuse detection, and economy surfaces such as marketplace ranking and pricing. The common thread is very large scale with real latency budgets, so modeling is coupled to serving constraints rather than done offline in isolation. The company runs a three-day in-office week at its San Mateo headquarters. Our reports say nothing about compensation, hours or team workload.
+- **Scope of leadership:** Projects driven from proposal to production, and the teams involved.
+- **Cross-system judgment:** Trade-offs that affected more than one system.
+- **Trajectory:** Whether recent scope supports the level under discussion.
 
-**What is the engineering culture like?**
+Prepare your two largest projects with your exact role, team size and outcome.
 
-Applied and product-coupled rather than research-first, and the loop shows it: coding is never waived for ML candidates, the design round asks about A/B tests and guardrails as often as architecture, and the deep dive keeps pulling your past work toward a problem on this platform. Interviewers stay quiet rather than lead you, which candidates repeatedly read as disinterest — it is deliberate. The stated values around community respect, responsibility, long-view thinking and shipping surface as questions about ownership and judgment, and safety trade-offs are treated as a first-class engineering concern.
+## How Roblox levels and evaluates Machine Learning Engineer candidates
 
-**How hard is it to get in?**
+Interviewers are the hiring team, so no separate team matching follows the offer. Feedback is combined after the loop, and rejected candidates pointed to coding and hiring-manager rounds that felt merely adequate, not to modeling gaps, so a strong design round does not carry a weak packet. Roblox uses an IC ladder starting at IC1; senior titles generally span IC3 and IC4, with principal above, and the director round sets the level for senior candidates. One candidate had a verbal offer the day after a two-day onsite, followed by a chat with the hiring manager and a senior technical lead before the written offer.
 
-Hard, and the sample for this track is small: the loops we have are recent, and most ended in rejection or without a recorded outcome. What they show clearly is where candidates fell short — coding rounds that felt merely adequate, a hiring-manager conversation that did not connect, deep dives that could not withstand detailed follow-ups — rather than failure to know modern modeling techniques. Decisions are made on the full packet, so a strong ML design round alone does not carry a candidate.
+> **Tip:** Line up your other timelines before the onsite. Candidates found it awkward to hold a next-day offer while other loops caught up.
 
-**Which round is hardest?**
+## How to prepare for the Roblox Machine Learning Engineer interview
 
-The project deep dive: a full hour of detailed grilling on one piece of work, described as intense and thorough, with the added requirement of mapping it onto this platform's problems. ML system design is a close second, less for difficulty than for the clock — an open prompt covering data, features, model, loss and experimentation rarely fits in sixty minutes.
+1. **Confirm each round's format:** Ask whether the phone screen is coding, ML design or a presentation, and use the recruiter's prep material.
+2. **Master log parsing in runnable code:** Call-path and caller-frequency problems with stacks and hash maps, including the multi-threaded extension.
+3. **Drill fixed-window follow-ups:** Go from listing windows to the leftmost best window in linear time, with ties handled.
+4. **Build two Roblox-shaped designs:** A game recommender with cold-start handling and a safety or multi-label classifier, each with a loss, metrics and an A/B test.
+5. **Plan the modeling hour aloud:** Go deep on one or two components and name what you defer.
+6. **Prepare the deep dive as a defense:** Baselines, measured impact, a failure, rejected alternatives and a Roblox application.
+7. **Rehearse one-minute behavioral answers:** Expect a scripted round of 15 or more questions.
+
+## About the Roblox Machine Learning Engineer role
+
+Machine Learning Engineers at Roblox build production models for a platform of user-generated experiences, where content quality varies widely and safety stakes are high. The work spans data, training, real-time serving and monitoring, with modeling tied to latency and scale. Most employees work in San Mateo three days a week. Teams include:
+
+- **Recommendation systems:** Ranking, retrieval and personalization for experiences, avatars and creator content, increasingly with multimodal and large language models.
+- **Safety and content safety:** Real-time detection and remediation of abusive content across text, images, audio, video, avatars and code.
+- **Generative AI:** Foundation models such as Cube, the 3D generation system introduced and partly open-sourced in 2025, and creator tools built on them.
+- **ML infrastructure:** Training and serving platforms behind the safety and recommendation teams.
+
+### Machine Learning Engineer experience and education requirements
+
+Senior postings ask for several years of production ML and a strong foundation in statistics and mathematics. Early-career PhD postings in recommendation systems ask for a completed or nearly completed PhD with a thesis aligned to Roblox's areas and top-venue publications. Python is standard, with C++, Go or Java also listed; some postings say visa sponsorship may not be available.
+
+## FAQs about the Roblox Machine Learning Engineer interview
+
+### How long does the Roblox Machine Learning Engineer interview process take?
+
+About a month in the fastest reported case: a recruiter call within two days, a two-to-three-week wait for the phone screen, an onsite invitation two days later and a verbal offer the day after the onsite.
+
+### What is the hardest round of the Roblox Machine Learning Engineer interview?
+
+The project deep dive, an hour of detailed questions on one piece of your work and its application to Roblox. The ML modeling round is close behind because an open prompt rarely fits in 60 minutes.
+
+### Is the Roblox Machine Learning Engineer interview remote?
+
+Reported onsites were virtual, and one candidate split the onsite over two days. The job is usually based in San Mateo with three office days a week.
+
+### How much does a Roblox Machine Learning Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **IC3:** ~$340K
+- **IC4:** ~$515K
+- **IC5:** ~$560K
+
+Packages are mostly base salary and restricted stock units, with little or no annual cash bonus.
 
 ---
 

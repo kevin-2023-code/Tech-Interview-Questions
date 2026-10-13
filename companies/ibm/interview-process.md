@@ -6,56 +6,260 @@
 
 ---
 
-IBM's engineering loop is shorter and less algorithm-heavy than most big-tech processes, but it is also far less standardized: what you actually face depends heavily on the team, ranging from a timed two-problem assessment to a Kubernetes troubleshooting deep-dive or a hardware-optimization discussion. This guide goes beyond the outline on the company page, drawing on 16 real IBM questions and 21 candidate interview reports to show what each stage probes, how follow-ups escalate, and where otherwise solid candidates lose points.
+IBM's engineering loop is shorter and less algorithm-heavy than most large tech companies' processes, but it is far less standardized. The hiring team, not a central committee, decides what you face: a timed two-problem assessment, a rapid-fire Kubernetes and Linux quiz, or a convolution kernel you must then parallelize. For most early-career and cold applicants, the online assessment is the real filter. It often arrives automatically within days of applying, and many candidates hear nothing afterward.
 
-## Interview Process
+This guide breaks down each stage of the IBM interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 27 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## IBM interview process
 
 <!-- guide-diagram -->
 ![IBM interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/ibm/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** For early-career and cold applications the assessment often arrives fast — sometimes automatically within days of applying, before any recruiter contact. The common format is two coding problems in roughly 60 minutes (some sessions run to 90). Difficulty sits at easy-to-medium, but the problems lean practical rather than competition-style: merging inclusive time intervals and summing effective execution time, counting maximum concurrent processes, splitting an array to maximize distinct counts on both sides, shortest subarray with exactly k distinct values, minimum insertions to complete a repeating pattern, JSON key-difference finders, and simulation problems driven by removal rules or move strings. Two traps recur in reports: inclusive interval boundaries (off-by-one errors in duration math) and hidden test cases that punish unhandled edge inputs even when the core idea is right. A few pipelines add or substitute a recorded behavioral assessment — one reported session had five questions with one minute to prepare and three minutes to answer each, about 20 minutes total — and some candidates applying to AI or research roles received a front-end CSS layout task alongside a generic algorithm problem, so the assessment content does not always match the job title. Results typically come back within a week or two, but many candidates report the assessment is the last they hear; completing it is not confirmation that an interview follows.
+Each team runs its own hiring, so the technical content follows the team's domain rather than the job title. Most reported pipelines have two to four stages: an assessment, one or two live technical rounds of 45–60 minutes, and a behavioral or manager conversation. From application to decision, the process typically takes two to six weeks when every stage happens.
 
-**Technical interview or phone screen.** Teams usually run one or two rounds of 45 to 60 minutes, most often built around two moderate problems rather than one hard one. The distinguishing feature is the follow-up: a clean baseline solution is routinely extended with a changed constraint — unsorted input, a stream too large to hold in memory, a command string millions of characters long, parallel execution, or an external API that can fail mid-call. Some interviewers deliberately leave the first problem underspecified and watch whether you ask targeted clarifying questions, state assumptions, and explain how the answer shifts under each interpretation. For cloud and infrastructure teams the round can instead be a rapid-fire breadth check: CI/CD tooling, deploying with ArgoCD, Helm chart structure, diagnosing a pod stuck in CrashLoopBackOff, StatefulSet versus Deployment, Linux commands for process and file inspection, network troubleshooting, and how to roll out a database change safely. Grading weighs clarification behavior, reasoning aloud, complexity analysis, and how naturally you absorb the changed requirement — not just whether the first version ran.
+Early-career and intern candidates usually start with the automated assessment. Several reported pipelines skipped it and began with a live round, where depth in the team's stack outweighs puzzle speed. At senior and advisory bands, expect design discussion tied to the team's product rather than a generic system design prompt.
 
-**Machine Learning Engineer track.** MLE and AI-inference candidates share the stages above, then hit a deeper implementation-and-systems layer. One reported inference screen ran about 50 minutes: implement valid one-dimensional convolution with a bias term from scratch — correct output sizing, indexing, and edge cases — followed immediately by a requirement to parallelize it for input and kernel sizes that vary at runtime. The discussion graded work partitioning and chunk sizing, thread-pool choices, and the judgment call of when a small kernel makes threading overhead not worth paying; it then extended into hardware-level territory — SIMD vectorization, loop unrolling, and cache-friendly blocking — where the strongest answers separate a correct baseline from an optimization justified by measurement. A separate design round centered on writing a Kubernetes controller that keeps pod counts balanced across nodes: watching for pod changes, deciding placement, reconciling state over time, and surviving API-server failures with retries instead of crashing. Open-source contributions with visible pull requests carry real weight on these teams, and interviewers ask about the substance of a contribution and how you collaborated, not just that it exists.
+Here's what the interview process can look like:
 
-**Behavioral and manager round.** The tone reported here is consistently calm — interviewers seem more interested in understanding you than in pressure-testing you. Expect your biggest strength, a missed deadline and how you handled it, why IBM, why this role, and a walk through side projects covering motivation, how you built them, and the technology choices. Client-facing and consulting-adjacent teams put genuine decision weight on structured communication and professionalism. End to end, the loop typically runs a few weeks when every stage happens, but scheduling variance is high; keep stories and role-specific questions ready rather than assuming a fixed cadence.
+- **Online coding assessment (most early-career and cold applicants):** Two problems in 60–90 minutes, sometimes paired with a CSS task or a full-stack debugging exercise.
+- **Recorded behavioral assessment (some pipelines):** Five pre-recorded competency questions with one minute to prepare and three to answer each, about 20 minutes in total.
+- **Technical interview (one or two rounds):** A 45–60 minute live session, usually two moderate coding problems with escalating follow-ups.
+- **Infrastructure and DevOps screen (cloud and platform teams):** A breadth check on CI/CD, Kubernetes, Helm, Linux and network troubleshooting in place of algorithms.
+- **ML and systems design round (AI, inference and platform teams):** Implement a numerical primitive and parallelize it, or design a Kubernetes controller that survives failures.
+- **Behavioral and hiring manager interview:** A calm conversation about strengths, a missed deadline, motivation for IBM and a deep walk through your projects.
 
-## What Candidates Report
+> **Tip:** Prepare for the team, not the title. An AI research intern applicant got a CSS layout task, and an infrastructure candidate got a Kubernetes quiz instead of a coding problem. Read the posting's technology list and ask the recruiter which stack the team runs.
 
-- Format inconsistency is the biggest surprise. An AI-research applicant can receive a CSS flexbox exercise, an infrastructure candidate a Kubernetes quiz instead of an algorithm puzzle. Prepare for the team's domain, not the job title.
-- Follow-ups are where differentiation happens. Interviewers rarely stop at a working solution; they add scale, concurrency, streaming, or failure handling and watch how the design bends.
-- Ambiguity is sometimes intentional. Candidates who clarify constraints, propose the simplest consistent interpretation, and explain the alternatives report better outcomes than those who freeze on an underspecified prompt.
-- Time management and edge cases fail more people than difficulty does: overrunning on the first assessment problem, missing inclusive-boundary arithmetic, or leaving hidden cases untested outweighs a sound central idea.
-- Logistics have teeth. An accommodation form must be completed before some assessments, several candidates note strict work-authorization requirements with no visa sponsorship for certain postings, and a completed assessment frequently leads to silence rather than a scheduled interview.
+## Online coding assessment
 
-## Coding Questions
+The assessment is usually sent automatically shortly after an online application, before any recruiter contact. The common format is two coding problems in 60 minutes. Some sessions run 80–90 minutes, and one pipeline split the two problems into two separate assessments. Difficulty is easy to medium, and the problems lean practical: merge inclusive time intervals and sum the total execution time, find the maximum number of concurrent processes, split an array to maximize distinct counts on both sides, find the shortest subarray with exactly k distinct values, or count the minimum insertions needed to turn a string into repeated "abc." Simulations driven by removal rules, move strings or heap-based pricing recur.
 
-IBM coding rounds favor fundamentals applied to realistic data-processing patterns — intervals, sliding windows, distinct counts, and rate limiting — with a strong bias toward extending your first solution rather than moving to a new puzzle. Practice explaining a baseline, naming its bottleneck, and upgrading it under a changed constraint.
+The format is changing. In 2026, two candidates got a version (80 minutes in one case) that opened with a choice of Django, Spring Boot or Node.js. One problem was algorithmic or a token manager with expiry; the other was debugging a ticket-booking web app built on Django and Redis, where only about 50 lines across dozens of files needed changes. The bugs were query filters not chained into the queryset, a pagination crash on non-positive page sizes, and a cache that was never invalidated after an event changed. Other variants pair an algorithm problem with a CSS layout task. Proctoring varies: one session required full-screen mode and banned extra monitors, and another was unproctored.
 
-- [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes)
+Interviewers evaluate:
+
+- **Hidden test cases:** Solving every problem but missing edge inputs (empty arrays, single elements, touching intervals) earns only partial credit.
+- **Boundary arithmetic:** Inclusive intervals such as [4, 5] and [5, 7] must merge, and the duration is end minus start plus one. Off-by-one errors here are the most common reported bug.
+- **Complexity fit:** Distinct-count splits and dictionary-substring checks pass only with O(n) prefix and suffix counts or a trie, not with quadratic recomputation.
+- **Pacing:** One candidate overran on the first problem and had to rush the harder second one.
+- **Codebase navigation:** In the debugging variant, searching the URL routes and tracing the request flow beats reading files from the top.
+
+Practice timed pairs of interval, sliding-window and heap-simulation problems, and do one small web-app bug hunt under a clock.
+
+> **Note:** A completed assessment is often the last contact. Several candidates who finished both problems, some with time to spare, received no further communication. Some US postings also offer no visa sponsorship, and one pipeline required an accommodation form before the assessment could start.
+
+### Sample questions for the online coding assessment
+
+Here are some questions reported by recent candidates:
+
+- Given inclusive run intervals for a process, merge overlapping and touching blocks and return the total execution time.
+- Each of m customers rents the VM type with the most remaining stock and pays that stock count. Compute total revenue.
+- Given a move string of U, D, L and R that must be processed in order but where any move may be skipped, find the fewest moves needed to reach a target coordinate.
+- Pool all characters across a list of strings, keep each string's length, and maximize how many strings can become palindromes.
+
 - [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals)
+- [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes)
+- [Max Distinct Counts After Splitting Array](../../questions/algorithm/distinct-count-split/README.md)
 - [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct)
-- [Sliding-Window Rate Limiter / Abuse IP Detection](../../questions/algorithm/sliding-window-rate-limiter-and-abuse-ips/README.md)
-- [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern)
+- [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue)
+- [Earliest Coordinate Reach with Optional Moves](../../questions/algorithm/earliest-coordinate-reach-with-optional-moves/README.md)
+- [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps)
+- [Design Authentication Manager](https://trueinterview.io/questions/fffd1adb-8564-54b2-a493-eb65a9b78c1a)
 
-## Behavioral Questions
+## Recorded behavioral assessment
 
-Behavioral evaluation at IBM rewards evidence over polish: concrete ownership, a failure handled well, and the ability to explain a technical system to a non-specialist. Resume and project questions go one level deeper than a summary — expect to defend motivations, decisions, and technology choices on anything you list.
+Some pipelines, especially for AI and early-career roles, add or substitute a recorded competency assessment with no live interviewer. For one AI engineer intern it was the only stage: five questions, one minute to prepare and three to record each, about 20 minutes, and no technical content despite the AI title. Questions cover teamwork, preparation, initiative, closing a skill gap and explaining technical work to non-specialists.
+
+Interviewers evaluate:
+
+- **Structure under a clock:** A clear situation, action and result that fits in three minutes without trailing off.
+- **Personal contribution:** What you did on a team project, separated from what the team did.
+- **Communication range:** Explaining a technical concept so a non-technical listener could follow it.
+- **Self-direction:** Evidence of initiative beyond the assignment and a concrete plan for closing a gap.
+
+Rehearse five stories aloud with a three-minute timer, recording yourself at least once.
+
+### Sample questions for the recorded behavioral assessment
+
+Here are some questions reported by recent candidates:
+
+- Describe a team project that succeeded and what you personally contributed.
+- Tell me about a time preparation made an execution go smoothly.
+- Explain a technical concept you know well to someone without a technical background.
 
 - [Competency and Resume Interview](https://trueinterview.io/questions/competency-and-resume-interview)
+
+## Technical interview
+
+The live technical round is typically 45–60 minutes with an engineer or the hiring manager, usually two moderate problems rather than one hard one. After a clean baseline, the interviewer changes a constraint: unsorted timestamps that must be answered in the original order, a window too large to hold comfortably, a command string millions of characters long, or a real-time stream instead of a fixed input. One candidate's grid simulation ended with a request to design an asynchronous queue-based processor for incoming commands.
+
+Ambiguity is sometimes deliberate. One interviewer presented an array problem with an unstated rule and invited the candidate to ask about it. The interviewer stayed vague, and the round graded how the candidate clarified, chose the simplest consistent interpretation and explained how the answer would change under the alternatives. Frontend candidates may get one easy array problem paired with a flexbox positioning exercise. Data and AI candidates may get statistics questions such as detecting multicollinearity. One rejected candidate got a sliding-window rate limiter and then a combinatorial team-formation problem.
+
+Interviewers evaluate:
+
+- **Clarifying behavior:** Targeted questions and stated assumptions before coding, especially when the prompt is visibly underspecified.
+- **Adapting the baseline:** How naturally the first solution bends to unsorted input, streaming or scale, rather than being thrown away.
+- **Greedy insight with proof:** For problems like the minimum number of contiguous hammer hits, stating why the first height plus all positive rises is optimal.
+- **Edge cases and complexity:** Walking through empty inputs and all-zero arrays and naming time and space without being asked.
+
+For every practice problem, rehearse a follow-up ladder: baseline, bottleneck, better structure, then huge input, streaming and failure.
+
+### Sample questions for the technical interview
+
+Here are some questions reported by recent candidates:
+
+- For each event timestamp, count events in the trailing W seconds when the input is unsorted and output must keep the input order.
+- Find the minimum number of hits, each lowering a contiguous segment by one, to reduce all heights to zero.
+- Make an array strictly increasing with unit increments under an adjacency rule you must ask the interviewer to define.
+- Implement a sliding-window rate limiter and compare it with a token bucket.
+
+- [Minimum Hits Needed](../../questions/algorithm/minimum-hits-needed/README.md)
+- [Sliding-Window Rate Limiter / Abuse IP Detection](../../questions/algorithm/sliding-window-rate-limiter-and-abuse-ips/README.md)
+- [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02)
+- [How do you detect and fix multicollinearity?](https://trueinterview.io/questions/how-do-you-detect-and-fix-multicollinearity)
+
+## Infrastructure and DevOps screen
+
+Cloud, platform and DevSecOps teams often replace the coding round with one discussion of rapid-fire concept and troubleshooting questions. One 2026 session covered CI/CD tools, deploying with ArgoCD, Helm chart structure, a pod in CrashLoopBackOff because of a database dependency, StatefulSet versus Deployment, HPC versus VPC, why teams containerize, Linux commands to find a process by PID or a file by name, network troubleshooting, and a zero-downtime database rollout. It closed with the candidate's view on generative AI at work.
+
+Interviewers evaluate:
+
+- **Mechanisms over tool names:** Explaining what ArgoCD reconciles or what a StatefulSet guarantees, not just naming the tools.
+- **Troubleshooting order:** For a crashing pod, checking events, logs, probes and the failing dependency in a sensible sequence.
+- **Command fluency:** Producing the actual Linux and networking commands quickly.
+- **Safe change management:** Migrations, backward compatibility and rollback for database deployments.
+
+Build a one-page drill of Kubernetes objects, failure states and Linux commands, and answer each item aloud in under a minute.
+
+### Sample questions for the infrastructure and DevOps screen
+
+Here are some questions reported by recent candidates:
+
+- A JDBC-dependent pod is in CrashLoopBackOff. Walk through how you diagnose and fix it.
+- When would you choose a StatefulSet over a Deployment?
+- How would you deploy a database change safely, with zero downtime and a rollback plan?
+
 - [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/questions/devsecops-kubernetes-cicd-screen)
+- [How would you use generative AI at work?](https://trueinterview.io/questions/how-would-you-use-generative-ai-at-work)
 
-## How to Prepare
+## ML and systems design round
 
-- Run timed two-problem sessions of 60 minutes. Read both prompts first, start with the higher-confidence problem, and reserve the final minutes for edge cases — reported failures are overwhelmingly about pacing, not difficulty.
-- Drill inclusive-interval arithmetic, sliding-window variants, and distinct-count splitting specifically; these patterns recur across IBM assessments far more than graph or DP-heavy puzzles.
-- Rehearse a follow-up ladder for every practice problem: baseline, bottleneck, better data structure, complexity, then behavior under huge input, parallel execution, and a failing dependency.
-- For infrastructure and DevOps roles, build a rapid-fire drill covering Kubernetes objects and troubleshooting, Helm, CI/CD flows, Linux process and file inspection, and network diagnosis — answers should be commands and mechanisms, not tool-name recitation.
-- For ML and inference roles, implement convolution and similar numerical primitives from scratch, then practice parallelizing them and discussing SIMD, cache blocking, and when optimization overhead is not worth it; polish one open-source contribution story with your specific role and impact.
-- Keep practical breadth: basic CSS layout and JSON or API handling appear even in assessments for non-front-end roles.
-- Prepare recorded-format behavioral answers — one minute of thought, a three-minute STAR response — for stories covering a missed deadline, initiative beyond expectations, and explaining technical work to a non-technical audience.
+AI-inference and platform teams, including Red Hat's AI inference group, add an implementation-and-systems layer. One 50-minute inference screen opened with valid-mode 1-D convolution plus a bias (output length is input length minus kernel length plus one), then asked for a parallel version when input and kernel sizes vary at runtime. The discussion covered chunking the output across a thread pool, chunk sizing, and skipping threads for small workloads, then moved to SIMD, loop unrolling and cache blocking.
+
+Platform teams use design prompts grounded in their own stack. One round asked for a Kubernetes controller that keeps pod counts balanced across nodes. It covered watching pod events, deciding placement, reconciling toward balance over time, and catching API-server timeouts and network errors so the loop retries instead of crashing. Both teams asked about open-source contributions and how the candidate collaborated.
+
+Interviewers evaluate:
+
+- **Correct baseline first:** Output sizing, indexing and edge cases in the sequential version before any optimization.
+- **Adaptive parallelism:** Work partitioning that responds to input size, not a fixed thread count.
+- **Hardware awareness:** Justifying when SIMD and blocking help rather than listing techniques.
+- **Reconciliation and resilience:** A loop that converges on the desired state and retries API-server errors instead of crashing.
+- **Open-source substance:** Visible pull requests and a specific account of your role in them.
+
+Implement convolution from scratch in C++ or Python, parallelize it, and practice explaining a controller's watch-and-reconcile loop.
+
+> **Tip:** Platform and inference candidates report that visible pull requests carry real weight. Have one contribution ready in detail: the problem, your change, the review and the outcome.
+
+### Sample questions for the ML and systems design round
+
+Here are some questions reported by recent candidates:
+
+- Implement valid 1-D convolution with a scalar bias, then parallelize it for runtime-varying input and kernel sizes.
+- How would SIMD, loop unrolling and cache blocking speed up the convolution on a modern CPU?
+- Design a Kubernetes controller that keeps pods balanced across nodes and survives API-server failures.
+
+- [1-D Valid Convolution with Multithreading Follow-up](../../questions/algorithm/one-dimensional-valid-convolution/README.md)
+- [Kubernetes Controller for Pod Balance](../../questions/object-oriented-programming/kubernetes-controller-pod-balance/README.md)
+
+## Behavioral and hiring manager interview
+
+The final conversation is usually with the hiring manager, sometimes alongside a technical lead or HR. Candidates consistently describe the tone as relaxed: the interviewer is trying to understand you rather than pressure-test you. Expect your biggest strength, a missed deadline and how you handled it, why IBM, why this role, a few resume questions and a walk through your side projects. One candidate found the resume barely examined while the projects drew most of the time. For 2026, IBM has rewritten many entry-level job descriptions to emphasize client engagement and judgment, so consulting-adjacent and client-facing teams weigh structured communication and professionalism heavily.
+
+Interviewers evaluate:
+
+- **Honest accountability:** A missed deadline told with the moment you noticed, who you informed and what changed afterward.
+- **Motivation specific to the team:** Why this product or client area, not a generic answer about IBM's size or history.
+- **Project ownership:** Explaining your own design decisions and trade-offs in work you list.
+- **Client-facing communication:** Clear, structured answers a non-engineer stakeholder could follow.
+
+Prepare six to eight concise stories and a two-minute walkthrough of each project on your resume.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you missed a deadline and how you handled it.
+- Why IBM, and what attracted you to this particular role?
+- Walk through a side project: what motivated it, how you built it and why you chose that stack.
+
+- [Competency and Resume Interview](https://trueinterview.io/questions/competency-and-resume-interview)
+- [Describe building statistical vs ML models](https://trueinterview.io/questions/describe-building-statistical-vs-ml-models)
+
+## How IBM makes hiring decisions
+
+IBM does not use a central hiring committee for most engineering roles. The hiring manager makes or endorses the final decision, informed by the technical interviewers and often after running the last round personally. Level is expressed as a band, and candidates report little about how it is set, so confirm the band with the recruiter before the final round. Decisions typically arrive within a few weeks of the last round, and some candidates waited a month or more. Silence after the online assessment is common enough that it should be treated as a likely rejection after a few weeks. A background check follows acceptance. IBM publishes no fixed cooldown, and each requisition is screened independently.
+
+> **Tip:** A silent assessment for one posting does not block another. Target postings whose stack matches yours instead of re-applying cold to the same one.
+
+## How to prepare for the IBM interview
+
+1. **Run timed two-problem sessions:** Read both prompts first, start with the surer one, and keep ten minutes for edge cases.
+2. **Drill IBM's recurring families:** Inclusive interval merging, sweep-line concurrency, prefix and suffix distinct counts, k-distinct windows and max-heap simulations.
+3. **Rehearse a web-app bug hunt:** Fix filters, pagination guards and cache invalidation in a small Django, Spring Boot or Node.js app under a clock.
+4. **Practice clarifying out loud:** On a vague prompt, ask, pick the simplest interpretation, and say how the others would change the answer.
+5. **Prepare a follow-up ladder:** Know the next step for unsorted input, streaming data, parallel execution and a failing dependency.
+6. **Match the team's domain:** Kubernetes and Linux commands for cloud teams, threading and SIMD for inference teams, flexbox for frontend.
+7. **Prepare five three-minute stories:** A team success, a missed deadline, initiative, a skill gap and explaining technical work simply.
+8. **Polish project narratives:** Defend motivation, design and stack choices, and your exact role in any pull request you cite.
+
+## About working at IBM
+
+IBM sells enterprise software, hybrid cloud, consulting and infrastructure to large organizations, so most engineering work serves long-lived, regulated client systems rather than consumer products. Red Hat operates as a largely independent subsidiary with its own hiring. IBM uses numbered bands rather than tech-industry level names, and its titles can mislead: a Staff Software Engineer sits below a Senior Software Engineer.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Band 6 (Associate / entry-level Software Engineer) | Delivering well-defined tasks with guidance | Features within one team |
+| Band 7 (Staff Software Engineer) | Owning components and features independently | One team's codebase |
+| Band 8 (Advisory Software Engineer) | Leading designs and mentoring; team lead on the management track | A product area |
+| Band 9 (Senior Software Engineer) | Technical leadership across teams | Several teams or a product |
+| Band 10 (Senior Technical Staff Member) | Architecture and technical strategy | A product line or business unit |
+
+IBM hires engineers across its software, infrastructure, consulting and research businesses. Teams include:
+
+- **IBM Software:** The watsonx AI and data platform, automation, security and HashiCorp products.
+- **IBM Infrastructure:** IBM Z mainframes, Power systems and storage, including firmware and systems software.
+- **Red Hat:** OpenShift, Enterprise Linux and AI inference, built largely in the open.
+- **IBM Consulting:** Client-facing engineering, cloud migration and application modernization.
+- **IBM Research:** AI, hybrid cloud, semiconductors and quantum computing.
+
+### Experience and education requirements
+
+Entry-level postings vary. Some require only a high school diploma and prefer a bachelor's degree, while infrastructure and internship postings require a bachelor's or master's in computer science, engineering or a related field. Common languages are Java, Python, Go and C++. Mainframe roles add C, Assembler and PL/I, and postings commonly ask for Git, Agile practice and public-cloud exposure. Some US postings require independent work authorization.
+
+## FAQs about the IBM interview
+
+### How long does the IBM interview process take?
+
+Typically two to six weeks. The assessment often arrives within days of applying, and the final decision can take a further week to a month.
+
+### What is the hardest round of the IBM interview?
+
+For early-career candidates, the online assessment, because pacing and hidden edge cases end more pipelines than difficulty does. For experienced hires, the team-specific round is hardest, whether that is the infrastructure breadth check or the parallelization and hardware discussion.
+
+### Is there an online assessment?
+
+Most early-career and cold applicants get one: two coding problems in about 60–90 minutes, sometimes paired with CSS or a full-stack debugging task. Some pipelines use a recorded behavioral assessment instead, and several reported pipelines started directly with a live technical round.
+
+### What language should I use?
+
+Use any mainstream language for algorithm problems, but check the job posting. One 2026 invitation urged a language from the description, yet the assessment offered only one of the three listed.
+
+### Is the IBM interview remote?
+
+Mostly. Assessments and early rounds are remote, and some teams hold a final technical round on site.
 
 ---
 

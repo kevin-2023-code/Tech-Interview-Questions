@@ -16,19 +16,33 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 
 ## How Anthropic interviews
 
-This guide goes deeper than the short outline on the Anthropic company page: what each stage actually contains, how it is graded, and where strong candidates still get cut. It draws on 66 real Anthropic questions and 136 candidate interview reports, so the patterns below reflect how the loop runs in practice, not how it is described in a job posting.
+Anthropic's technical questions come from a small, recycled pool of practical problems: a web crawler, file deduplication, a tokenizer, stack-trace reconstruction, an LRU cache and an image pipeline. Each grows in stages, so the grade rests on speed, self-testing and clean handling of a changed constraint, not on novelty. The values round is a hard gate. Candidates who rated every technical round strong were still rejected, and one loop gained an extra culture interview after a weak first signal. Level is set in the hiring review after the loop, and references are checked before any offer. In 2026 some rounds began providing Claude Code, while most live coding still bans AI tools.
 
-### Interview Process
+This guide breaks down each stage of the Anthropic interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 148 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Anthropic interview process
 
 <!-- guide-diagram -->
 ![Anthropic interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/anthropic/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen (15–30 minutes).** This is a genuine filter, and candidates are rejected at this stage. Beyond logistics (visa status, competing pipelines, leveling), the recruiter probes whether you can articulate why Anthropic specifically: your view on the risks and benefits of advanced AI, and in some cases familiarity with the company's Responsible Scaling Policy, which reading material may be shared ahead of the call. Two other things distinguish this stage. First, recruiters often send the exact topics of every upcoming round in advance — treat that email as your preparation spec. Second, expectations get set early: reference checks with two former coworkers are a formal step before offer, and remote employees are expected onsite roughly a quarter of the time. Some recruiter calls turn into hour-long technical discussions, so do not show up in small-talk mode.
+The skeleton is shared across engineering roles, and each track swaps in its own technical rounds: inference and distributed-systems work for infrastructure, agent and prompting exercises for AI engineering, timed take-homes for research. A typical path is an online assessment, a recruiter screen, one or two technical screens, and a virtual onsite of four to six rounds, often split across two days. Referred, senior and staff candidates often skip the assessment and start with a hiring-manager chat or a design screen.
 
-**Online assessment (roughly 90 minutes, CodeSignal).** Most tracks start with a four-level progressive build of one stateful system rather than isolated puzzles. The recurring families: an in-memory database (transactions, backup/restore, TTL expiry, then a time-travel `get_when` lookup), a bank system (transfers with pending holds, accept/timeout semantics, account merges where an old ID can be recreated), a task manager (TTL plus point-in-time snapshots), a recipe manager (versioning and rollback with case-insensitive uniqueness), cloud storage, and worker/grant management. Tests are usually visible, only the standard library is allowed, and scoring is out of 600 or 1000 points. Level four routinely consumes half the clock, so bank time on the early levels — and note that even a perfect score does not guarantee advancement, since resume review and team matching continue in parallel.
+Gaps of two to three weeks between stages are common, so the whole process usually takes one to two months. Post-onsite decisions are fast, often within one to three days. Recent loops ran the full technical loop before team matching, so a late hiring manager round can still end the process.
 
-**Technical phone screen (45–60 minutes).** A live, practical exercise in a shared editor — Anthropic explicitly avoids standard algorithm-memorization questions, and the problems are drawn from a small recycled pool: a web crawler (single-threaded BFS first, then concurrent), file deduplication (size pre-filter, then streaming hashes), a longest-match tokenizer, stack-trace reconstruction, an image-processing pipeline (typically Pillow plus `ProcessPoolExecutor`), and an LRU cache with debugging or durability follow-ups. Searching documentation is allowed; AI tools are not, and this is enforced. Follow-ups predictably shift constraints — is it I/O-bound or CPU-bound, what changes for huge files, how does it distribute across machines — so the round is graded on iteration speed, self-testing, and clean handling of the constraint change more than on the base solution.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A 15–30 minute call on motivation, safety views and logistics that rejects candidates outright.
+- **Online assessment (most cold applicants):** A 90-minute, four-level build of one stateful system, scored out of 600 or 1,000.
+- **Technical phone screen (one or two):** A 45–60 minute pool problem with follow-ups on concurrency, scale and I/O versus CPU limits.
+- **Coding interviews:** One or two onsite hours extending a practical problem through several parts.
+- **System design interview:** About an hour, often on inference serving or model distribution, sometimes as a critique of an existing design document.
+- **Project deep dive and hiring manager interview:** A 20-minute presentation of one past project with granular Q&A, plus a team-fit conversation.
+- **Culture and values interview:** A mission and ethics conversation, often with a senior or non-engineering interviewer.
+
+> **Tip:** Recruiters often email the exact topic of every upcoming round. Ask for that list and study from it; several candidates then saw the named problem.
 
 **[Read the full Anthropic interview process →](interview-process.md)**
 

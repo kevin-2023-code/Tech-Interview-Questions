@@ -16,17 +16,31 @@ How Akuna Capital interviews, and the questions candidates reported there. Free 
 
 ## How Akuna Capital interviews
 
-Akuna Capital runs one of the more assessment-heavy loops in proprietary trading, and it grades explicit reasoning as hard as it grades correct output. This guide goes deeper than the process summary on the company page: how each stage is actually run, what interviewers probe, and where candidates fail. It draws on 21 real Akuna Capital questions and 35 candidate interview reports.
+Akuna Capital filters most candidates before anyone speaks to them: a coding assessment, a timed math and probability battery, or a recorded video math test, depending on the track. The live rounds then score reasoning as much as output. One candidate who never finished a follow-up got an offer on the discussion, while another wrote optimal-complexity code and was rejected. Trading mechanics such as ticks, order books and cancellations show up even in developer screens.
 
-### Interview Process
+This guide breaks down each stage of the Akuna Capital interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 35 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Akuna Capital interview process
 
 <!-- guide-diagram -->
 ![Akuna Capital interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/akunacapital/process.webp)
 <!-- guide-diagram -->
 
-The online assessment is where most of the filtering happens, and its exact shape depends heavily on the track and posting. Developer-track assessments are usually delivered on HackerRank and come in a few reported flavors: a classic set of three algorithmic problems in roughly 60 to 90 minutes; a mixed-format battery that adds SQL multiple choice, a code-trace exercise, and a small object-oriented design task (a communications handler with connect, hangup, and clear operations is a recurring one); and, for some positions, a 72-hour take-home in which you build a working order matching engine with price-time priority, IOC and GFD order types, and cancel, modify, and print operations. The coding problems themselves sit at medium difficulty and reward pattern recognition: minimum swaps via cycle decomposition, prefix sums, greedy selection after sorting, and dynamic programming with a state restriction all recur across reports. Trading-track candidates instead face a battery of speed math, sequence, probability, and market-making assessments, and research candidates get a recorded video assessment of mathematics under strict per-question clocks; both are covered in the role guides below.
+The shape depends on the track you apply to. Developer candidates (C++ or Python) take a coding assessment and then a technical phone screen. Trader candidates take speed-math, probability and market-making batteries. Quantitative research, quantitative developer and strategist candidates may face both a coding assessment and a math assessment that requires written or spoken explanations. After the assessments, most pipelines have one or two live technical calls, sometimes a separate behavioral round, and a final round of several back-to-back sessions.
 
-Technical phone rounds start almost immediately after introductions, and several candidates report three distinct problems packed into a single hour. The interviewer expects an approach, working code or precise pseudocode, complexity analysis, and self-written test cases. What distinguishes Akuna's screens is the follow-up pattern: a clean solution is treated as the starting point, not the finish. A statistics class gets a sliding window bolted on; a rate limiter gets a memory budget; a bid tracker gets cancellations; a stream-sum gets an overflow discussion and a concrete memory estimate against 1 GB of RAM. C++ candidates should expect a syntax-heavy debugging exercise — completing and fixing a buggy object pool, including compilation errors, leaks, double frees, and race conditions — while Python-track candidates report deep dives on streaming statistics and data-structure trade-offs. Hints are given when reasoning is sound, and one candidate received an offer despite not finishing a follow-up, purely on the strength of the discussion.
+Most reports come from junior, intern and new-grad pipelines, which carry the heaviest assessment load. The process can finish within a few weeks, but gaps of a month also appear.
+
+Here's what the interview process can look like:
+
+- **Coding online assessment (developer and most quant tracks):** Typically three medium problems in 60–90 minutes; some versions mix in SQL, code tracing and object-oriented design, or replace the whole test with a 72-hour order-matching-engine build.
+- **Quantitative assessments (trading and research tracks):** Timed mental-math, sequence, probability-to-stake and market-making tests for traders, and a recorded or written math assessment for research and strategist tracks.
+- **Technical phone screen:** A 45–60 minute call that starts within minutes, with two to four problems and follow-ups that add memory, window or concurrency constraints.
+- **Behavioral interview (some pipelines):** A non-technical round on motivation, knowledge of the firm and handling feedback, which some reports describe as a real filter.
+- **Final round:** Several back-to-back sessions: a design deep dive or pair-coding build for developers and strategists, and live trading games for traders.
+
+> **Tip:** Narrate while you work. In the reports, the only offer after an unfinished follow-up went to a candidate who talked through the data structures they would have used, and trader screens graded the structure of an answer over the final number.
 
 **[Read the full Akuna Capital interview process →](interview-process.md)**
 

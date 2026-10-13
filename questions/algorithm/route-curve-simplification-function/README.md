@@ -35,7 +35,7 @@ Output:
 ```
 
 
-**Explanation:** The algorithm removes points whose perpendicular distance from the line segment connecting the retained endpoints is less than or equal to `epsilon`. Points like `(1, 0.1)`, `(7, 9)`, and `(8, 9.2)` fall within the 1.0-unit error corridor and are discarded, while points marking significant deviations, such as `(2, -0.1)` and `(3, 5)`, are kept.
+**Explanation:** The algorithm removes points whose perpendicular distance from the line segment connecting the retained endpoints is less than or equal to `epsilon`. Points like `(1, 0.1)`, `(7, 9)`, and `(8, 9.2)` fall within the 1.0-unit error corridor and are discarded, while points marking significant deviations, such as `(2, -0.1)` and `(3, 5)`, are kept. Concretely, apply the Ramer-Douglas-Peucker rule: for the current sub-route, find the intermediate point farthest from the finite segment joining its first and last points (the earliest such point on ties); if that distance is greater than `epsilon`, keep the point and simplify the two sub-routes on either side of it independently, otherwise keep only the two endpoints.
 
 
 ## Constraints

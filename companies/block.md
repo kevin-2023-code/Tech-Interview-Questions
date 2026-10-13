@@ -2,13 +2,13 @@
 
 # Block interview process, OA & interview questions
 
-**5 questions** reported at Block. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/block), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at Block · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/block), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Block interviews & the free questions](block/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-block)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-block)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (80% of 5) |
 | Difficulty (easy / medium / hard) | 2 / 3 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 0 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 5 questions reported at Block. 1 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -73,6 +73,14 @@ The 5 questions to open first if you are preparing for Block, ranked by **the mo
 | **5** | [Customer Transaction Network](https://trueinterview.io/questions/75fa093e-5e81-4716-9970-30851399b351) | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Guides & writeups
+
+**1 writeup** filed under Block in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Block Interview Process & Questions](https://trueinterview.io/study/block-interview-process) | — |
 
 ---
 

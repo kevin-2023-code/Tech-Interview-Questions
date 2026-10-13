@@ -47,20 +47,20 @@ Which stage each question came from, for the **88 of 88** questions at Netflix t
 
 ## What they ask about
 
-Of the **43 questions at Netflix that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **42 questions at Netflix that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 16 | 37% | ████████████ | May 26, 2026 |
-| `arrays` | 7 | 16% | █████ | May 26, 2026 |
+| `hashing` | 16 | 38% | ████████████ | May 26, 2026 |
+| `arrays` | 7 | 17% | █████ | May 26, 2026 |
 | `strings` | 6 | 14% | ████ | Apr 24, 2026 |
-| `topological-sort` | 4 | 9% | ███ | Jun 04, 2026 |
+| `topological-sort` | 4 | 10% | ███ | Jun 04, 2026 |
 | `binary-search` | 3 | 7% | ██ | May 21, 2026 |
 | `graphs` | 3 | 7% | ██ | Mar 20, 2026 |
 | `sliding-window` | 3 | 7% | ██ | May 26, 2026 |
 | `sorting` | 3 | 7% | ██ | May 01, 2026 |
-| `stack` | 3 | 7% | ██ | Apr 15, 2026 |
 | `trees` | 3 | 7% | ██ | Mar 09, 2026 |
+| `backtracking` | 2 | 5% | ██ | Apr 24, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -115,7 +115,7 @@ What candidates said happened in the room at Netflix — written up by the peopl
 | :-- | :-- | :-- |
 | Software | [Netflix String Arrays and Movie Deduplication Interview Experience](https://trueinterview.io/interviews/5d86dc85-2b88-4b1e-a8eb-0305663b9ec3) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Netflix and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Netflix and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

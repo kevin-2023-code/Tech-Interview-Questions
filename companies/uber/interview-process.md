@@ -8,98 +8,274 @@
 
 ---
 
-This is the deep dive behind the short outline on the Uber company page. It covers how each stage is graded, which problems keep coming back, and where offers are actually lost. It draws on 146 real Uber questions and 92 candidate interview reports, most of them from the past year, so it reflects the loop as it runs now.
+Uber grades its loop on follow-ups more than on first answers. The coding problems are mostly familiar mediums that candidates often finish in under half the hour, and the rest goes to streaming input, millions of moving points or thread safety. Design rounds are set in Uber's own products: driver heatmaps, rider-driver matching and the Eats cart. From L5a up, the level is decided in a project review after the technical rounds, and strong coders are regularly offered L4 instead.
 
-## Interview Process
+This guide breaks down each stage of the Uber interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 94 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Uber interview process
 
 <!-- guide-diagram -->
 ![Uber interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/uber/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen and loop shape.** The recruiter call is short, but it matters more than it seems. Loops vary a lot by team, and the recruiter's description is not always accurate. One candidate was promised a dedicated behavioral round and instead sat two system design rounds and two coding rounds. Others never had a traditional onsite: they did three separate phone rounds and then a single project-and-behavioral session. Settle two things on this call: the level you are being assessed at, and which round types your panel includes. Downleveling from L5a to L4 is a common outcome. A rejection can also start a cooldown of about six months across the company.
+The hiring team sets the shape of the loop, so two candidates with the same title can face very different panels. The usual path is a recruiter call, an optional online assessment, one technical phone screen (sometimes two or three), and a virtual onsite of three to six sessions of 45–60 minutes each. One loop had no traditional onsite: three phone rounds, then a single project-and-behavioral session.
 
-**Online assessment, when used.** Two formats appear. The first is 60 to 70 minutes with four problems: two warm-ups you can finish in five to ten minutes, then two harder ones. The second is 60 to 90 minutes with two harder problems. One 90-minute sitting required the camera on and banned external monitors. The problems are not standard catalog items, but they repeat a lot:
+New-grad screens pair a 45-minute problem with about 10 minutes of behavioral questions. Mid-level loops add object-oriented and system design. At L5a and above, system design and the project review decide the outcome. Machine Learning Engineer loops swap part of the coding for numerical optimization, ML system design and, on scientist-leaning teams, experimentation.
 
-- a jump game where jumps must be primes ending in 3
-- maximizing pipeline throughput under a budget, solved by binary search on the answer
-- counting palindrome-capable ancestor paths in a tree with a 26-bit parity mask
-- a union-find problem where large hidden tests punish unoptimized code
+Here's what the interview process can look like:
 
-Grading looks automated. One rejection arrived fifteen minutes after submission.
+- **Recruiter screen:** A short call about background, target level, team and the round types on the panel.
+- **Online assessment (many Software Engineer candidates):** Four problems in 60–70 minutes or two harder ones in 60–90 minutes, proctored.
+- **Technical phone screen:** A 45–60 minute live session with a practical, API-shaped problem, often combined with a project deep dive.
+- **Coding interviews:** One or two onsite rounds with a medium problem and follow-ups that change the scale or the input model.
+- **Object-oriented design interview:** A runnable class design, most often a parking lot, a scheduler or a pricing engine.
+- **System design interview:** A 60-minute design of an Uber product, such as a heatmap, dispatch, the Eats cart or payouts.
+- **Hiring manager or bar raiser interview:** A 45–75 minute review of one past project plus behavioral questions; it sets the level.
 
-**Technical phone screen.** This is usually 45 to 60 minutes. Some screens are pure coding. Others are split: one reported hour ran five minutes of introductions, twenty minutes of coding, a thirty-minute project deep dive and five minutes of questions. New-grad screens have added about ten minutes of behavioral questions after a 45-minute problem. The problems are practical and API-shaped: a meeting-room booking function that returns success plus a room ID, a first-unique-visitor tracker with constant-time operations, a nested `add`/`mult` expression evaluator, a tournament bracket printer. Interviewers routinely ask you to write and run your own tests. A Staff candidate's rejection named the failure to do so.
+> **Tip:** Confirm the round types with the recruiter, then prepare for all of them anyway. One candidate was promised a behavioral round and got two system design and two coding rounds instead. Others met an unannounced SQL segment, a React exercise, or debugging in an AI-enabled editor.
 
-**Virtual onsite.** Most loops have three to six sessions of 45 to 60 minutes. The common mix is:
+## Recruiter screen
 
-- one or two coding rounds
-- one object-oriented design round
-- one system design round
-- one hiring-manager or bar-raiser conversation
+The call is short and non-technical: background, team (marketplace, Eats, grocery, infrastructure or an ML platform), target level and logistics. The level named here is the bar the panel applies, so raise any doubt now. One senior Machine Learning Engineer learned of a likely downlevel only after two phone screens, and withdrew. Expect slow scheduling; two-week gaps between steps are common.
 
-In coding rounds, candidates typically solve the core problem in under half the time. The rest goes to follow-ups: streaming input, moving points, tens of millions of records, thread safety. Design prompts come straight from Uber's products: driver heatmaps, rider-driver matching, Eats cart and search. Some panels add a wildcard, such as a SQL segment, a React frontend exercise, or a debugging round in an AI-enabled IDE on a full-stack money-transfer app.
+Interviewers evaluate:
 
-**Hiring manager, bar raiser and team match.** This round is a technical review of one past project. Some panels welcome a short slide deck, and one bar raiser also asked for concrete examples of customer obsession and ownership. At L5 and above, this round sets the level. Passing the loop is not the end: offers are often contingent on team matching, and one candidate's hiring manager changed three times before the final conversation.
+- **Level fit:** Whether the scope of your recent work supports L4, L5a or above.
+- **Domain match:** Whether your work fits the team's surface, such as pricing and marketplace rather than generative AI.
+- **Stated strengths:** Later rounds are sometimes tailored to the strength you name, such as inference optimization.
 
-## What Candidates Report
+Ask which round types your panel includes and which level you are being assessed at.
 
-- **Recycled problems.** The question bank recycles aggressively. The prime-step jump game appears in seven separate reports and the pipeline-throughput problem in six. First-unique-visitor, parking lot and heatmap each show up in five or more loops. What trips candidates up is the twist, not the base problem.
-- **Downleveling.** It is the typical senior-level disappointment. Several candidates got positive coding and design feedback and still ended at L4, because their project stories showed too little scope, mentoring or cross-team influence.
-- **Uneven interviewers.** Candidates describe interviewers arriving seven or nine minutes late, yawning through a round, answering "I'll leave that to you" when asked for requirements, or improvising a problem on the spot. Candidates who kept talking and drove the session themselves fared better.
-- **Underspecified problems are deliberate.** One phone screen was spent almost entirely pinning down merge rules for timestamped arrays. Clarifying requirements is part of the grade.
-- **Slow logistics.** Two-week gaps between stages, a promised same-day result that took fourteen days, and an HR process called frustrating even by a candidate who got an offer.
+### Sample questions for the recruiter screen
 
-## Coding Questions
+Here are some questions reported by recent candidates:
 
-Uber coding favors graphs, grids, intervals and binary search on the answer, usually wrapped in a logistics story. Expect a second approach and a scale follow-up after your first working answer.
+- Tell me about yourself and the project you are proudest of.
+- Why Uber, and which part of the business interests you?
 
-- [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d)
+## Online assessment
+
+Two formats are reported: four problems in 60–70 minutes, where the first two take five to ten minutes combined, or two harder problems in 60–90 minutes. One 90-minute sitting required the camera on and banned external monitors. Grading appears automated; one rejection arrived 15 minutes after submission.
+
+The pool repeats heavily. A jump game with steps of 1 or a prime ending in 3 appears in seven reports, budgeted pipeline throughput (binary search on the answer) in six, and palindrome-capable ancestor paths with a 26-bit parity mask in four. Other repeats include chain-reaction ball absorption (union-find over sorted rows and columns), tree edge-reversal rerooting and a matrix gravity simulation.
+
+Interviewers evaluate:
+
+- **Complexity under hidden limits:** Pairwise union-find or an O(n²) simulation passes the samples and times out at scale.
+- **Reading precision:** Long prompts hide the real definition in one sentence.
+- **Pattern breadth:** Sieves, monotonic stacks, rerooting and XOR masks can all appear in one sitting.
+
+Drill the recurring set until each problem takes under 20 minutes, edge cases included.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Maximize the score collected from index 0 to the end, moving 1 step or a prime number of steps ending in 3.
+- Spend a budget scaling services in a serial pipeline so that the bottleneck throughput is as high as possible.
+- For each query node, count the ancestors whose path letters can be rearranged into a palindrome.
+
 - [Jump Game Prime](https://trueinterview.io/questions/jump-game-prime)
 - [Maximize Pipeline Throughput](../../questions/algorithm/oa-pipeline-throughput/README.md)
-- [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes)
-- [Longest Subarray with Bounded Diff](https://trueinterview.io/questions/phone-screen-longest-stable-subarray)
+- [Count Paths That Can Form a Palindrome in a Tree](../../questions/algorithm/count-paths-that-can-form-a-palindrome-in-a-tree/README.md)
+- [Minimum Triggers to Absorb All Balls](https://trueinterview.io/questions/minimum-triggers-to-absorb-all-balls)
+
+## Technical phone screen
+
+The screen runs 45–60 minutes in a shared editor, and many open with a resume walkthrough. One interviewer said the format had recently changed to split the hour between coding and a project discussion; one reported hour was 20 minutes of coding and a 30-minute deep dive. The problems are practical and API-shaped: a meeting-room booking function returning success and a room ID, a first-unique-visitor tracker in O(1), a nested `add`/`mult` expression evaluator, a struct-equality check. Some are deliberately underspecified; one candidate spent nearly the whole hour extracting merge rules for timestamped arrays.
+
+Interviewers evaluate:
+
+- **Self-testing:** Candidates are often told to write and run their own tests, and a Staff rejection cited the failure to do so.
+- **Optimal form:** A heap where two pointers fit, or a boundary bug in the two-pointer version, has ended screens.
+- **Trade-off reasoning:** A referral-revenue screen was graded mostly on read-heavy versus write-heavy structure choices.
+
+For each practice problem, state the contract, code it, then run edge cases you built yourself.
+
+> **Note:** Machine Learning Engineer screens diverge most here. The standout problem is minimizing a black-box convex function: ternary search is expected, and golden-section search is the improvement that saves evaluations.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Book a meeting into any free room and return its ID, then cut the conflict check from linear to logarithmic.
+- Return the earliest visitor seen exactly once with O(1) operations, then scale it to 10 million logs.
+
+- [First Customer Who Visited Only Once](https://trueinterview.io/questions/phone-screen-first-unique-visitor)
+- [Design Meeting Scheduler](https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms)
 - [Evaluate String Expression](../../questions/algorithm/nested-function-expression-evaluator/README.md)
+- [Strictly Convex Function Minimum](https://trueinterview.io/questions/strictly-convex-function-minimum)
 
-## System Design Questions
+## Coding interviews
 
-Design rounds mirror real Uber systems. Interviewers drill into geospatial indexing, write pressure from location pings every few seconds, checkout consistency across devices, and batch-versus-streaming splits.
+Rounds run 45–60 minutes, and the follow-ups carry the grade. Meeting Rooms II gains room assignment, then interruptions, then unsorted streaming input. K closest points becomes tens of millions of moving drivers, with a question on grid-cell size, then road-network distance. Number of Islands II becomes the largest island after each step.
+
+Some loops swap an algorithm round for concurrency: a thread-safe token bucket, a time-windowed counter tuned for very high write rates, or a downloader where duplicate URLs share one in-flight result. Full-stack loops have included a React parking-lot UI, and one loop was a single debugging round in an AI-enabled editor on a money-transfer app, where the assistant only helped locate the suspect function.
+
+Interviewers evaluate:
+
+- **Follow-up handling:** Solving the core in 20 minutes and then reasoning cleanly about scale earns the most.
+- **Alternatives:** Offering and coding quickselect after a size-K heap was received as a plus.
+- **Iterative fluency:** One candidate was rejected for not converting a recursive directory-tree build to an explicit stack.
+- **Driving through silence:** Interviewers who arrived late or gave few cues still expected the candidate to steer.
+
+Practice each recurring medium with a streaming follow-up and a much larger-scale follow-up.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Return the k closest drivers to a passenger, then handle tens of millions of moving points and road distance.
+- Assign meetings to exactly two rooms, print each schedule, then update it when meetings are delayed.
+- Download URLs concurrently so that duplicate requests share a single in-flight download.
+
+- [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points)
+- [Meeting Rooms III](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01)
+- [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d)
+- [Concurrent File Downloader with Request Coalescing](https://trueinterview.io/questions/e17f7845-6d5f-5238-af43-5d5a1680d562)
+
+## Object-oriented design interview
+
+This round appears in most full Software Engineer loops and surprises algorithm-only preparation. Parking lot is the most common prompt, in at least six reports: multi-level with bike and car spots, motorcycle-only spots with park, unpark and checkcar, or a black-box sketch that must later become runnable code. Others are a meeting reservation system, a 3x9 bingo card, an in-memory file system whose `cd` supports `**` globs, and an Eats cart where surge, membership discounts and promo codes stack into an itemized receipt. The boundary with system design is loose: one ride-hailing design round required runnable code and ended on failed message-queue publishes.
+
+Interviewers evaluate:
+
+- **Ownership of rules:** Which class owns pricing, spot assignment or conflict detection.
+- **Extensibility:** Adding a vehicle type or pricing rule without editing existing code.
+- **Separation:** One rejected candidate coupled receipt generation to the pricing logic.
+- **Hidden requirements:** An unclarified `**` multi-level glob made the file-system round far harder.
+
+Practice two or three classic designs as runnable, tested code in 40 minutes.
+
+### Sample questions for the object-oriented design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a parking lot whose motorcycle spots take only motorcycles while regular spots take both.
+- Build an Eats cart whose receipt lists base price, surge, membership savings and promo discount separately.
+
+- [Parking Lot System II](https://trueinterview.io/questions/design-parking-lot-ood)
+- [Uber Eats Cart & Pricing Engine](https://trueinterview.io/questions/onsite-ood-eats-cart-pricing-engine)
+- [Random Bingo Card Generator](https://trueinterview.io/questions/bingo-card-generator)
+- [Design an In-Memory File System with Recursive Wildcards](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd)
+
+## System design interview
+
+The 60-minute round is almost always set in an Uber product. The driver location heatmap and the Eats cart each appear in about five reports; others are rider-driver matching without double-booking, a nearby-driver proximity service, Eats search, trip tracking with five fixed APIs, idempotent payouts, and a stock alert system with rolling windows. One cart prompt was sized for 10 million concurrent orders and expected optimistic version checks. Machine Learning Engineer loops swap in ML system design or a data-platform prompt, and a few loops have two design rounds.
+
+Interviewers evaluate:
+
+- **Driving the session:** Asking about driver counts, ping frequency (every four seconds in one report) and query radius before drawing.
+- **Geospatial choices:** Defending geohash, S2 or hexagonal cells, neighbor-cell scans and partitioning by city.
+- **Correctness at the money step:** Consistent checkout and no duplicate payouts.
+- **Capacity reasoning:** One candidate who fumbled capacity questions on a dispatch design felt it missed the key points.
+
+Learn one spatial index well enough to defend a cell size, and walk the cart's checkout path in detail.
+
+> **Tip:** Go past the textbook design. One candidate was credited for bringing up hexagonal indexing unprompted, and another was asked how to keep driver icons from jittering on the map.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a real-time driver heatmap that ingests location pings and serves map tiles to the app.
+- Design the Eats cart lifecycle for 10 million concurrent orders with edits from several devices.
 
 - [Design Driver Location Heatmap](https://trueinterview.io/questions/onsite-sd-driver-location-heatmap)
 - [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching)
-- [Uber Eats Search](https://trueinterview.io/questions/uber-eats-search)
-- [Design Online Shopping Cart](https://trueinterview.io/questions/design-an-online-shopping-cart)
+- [Design cart management lifecycle service](https://trueinterview.io/questions/design-cart-management-lifecycle-service)
+- [Design a Stock Price Alert Notification System](https://trueinterview.io/questions/design-a-stock-price-alert-notification-system)
+- [ML System Design (Recommendation / Feed Ranking / ETA)](https://trueinterview.io/questions/mle-onsite-ml-system-design)
 
-## Low-Level Design Questions
+## Hiring manager or bar raiser interview
 
-Object-oriented design is a standing round, and it often shows up again inside phone screens as "support these operations in O(1)". Grading focuses on which class owns which rule, and whether a new rule can be added without editing existing code.
+This 45–75 minute session centers on one past project: architecture, rejected alternatives and your personal contribution. Some candidates presented a short slide deck. The behavioral half covers conflict, ambiguity, mentoring and "why Uber," and a bar raiser asked for concrete customer-obsession and ownership examples. Some hiring managers add a short coding problem.
 
-- [Uber Eats Cart & Pricing Engine](https://trueinterview.io/questions/onsite-ood-eats-cart-pricing-engine)
-- [First Customer Who Visited Only Once](https://trueinterview.io/questions/phone-screen-first-unique-visitor)
-- [Last-Click Attribution Tracker](https://trueinterview.io/questions/last-click-attribution)
-- [Implement a Quadtree for Geospatial Point Storage and Range Query](https://trueinterview.io/questions/9fce13a5-2923-5538-97c0-e69f174b435f)
+Interviewers evaluate:
 
-## AI-Assisted Coding Questions
+- **Scope:** Systems you owned, plus mentoring and cross-team influence at L5a and above.
+- **Decision depth:** Why each choice was made, probed at a much finer level than candidates expect.
+- **Data-backed persuasion:** How you won disagreements and what evidence you used.
 
-Some loops now replace a coding round with work inside an existing codebase with an assistant available. The assistant helps you narrow down suspect functions, but the diagnosis and the fix are graded as your own work.
+Build one project narrative that survives 30–60 minutes of questioning, with and without slides.
 
-- [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store)
-- [Parking Lot System II](https://trueinterview.io/questions/design-parking-lot-ood)
+> **Note:** Downleveling is the most common senior outcome. One L5a candidate had positive feedback on every technical round and was offered L4 because the project evidence read as L4 scope.
 
-## Behavioral Questions
+### Sample questions for the hiring manager or bar raiser interview
 
-The behavioral round is a cross-examination of one project: architecture, rejected alternatives, and your personal contribution. At senior levels it also looks for evidence of influence beyond your own team.
+Here are some questions reported by recent candidates:
+
+- Walk through a complex system you designed: the key decisions, the trade-offs, and what you would change.
+- Describe a project whose complexity you badly underestimated.
 
 - [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/questions/onsite-bq-hm-deep-dive)
 - [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/questions/bar-raiser-architecture-and-values)
-- [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design)
 
-## How to Prepare
+## How Uber makes hiring decisions
 
-- **Drill the recurring assessment set until it is automatic.** That means prime-step DP, binary search on throughput, parity-mask tree DFS and optimized union-find. Speed on the two warm-ups buys time for the two hard problems.
-- **Finish every practice problem by saying your edge cases out loud and running them.** Uber interviewers ask for this and cite its absence in rejections.
-- **For each recurring pattern, prepare a scale follow-up.** Examples: K closest points across millions of moving drivers, or a first-unique tracker over ten million logs.
-- **Learn one hexagonal or geohash spatial index well enough to defend a cell size.** It carries heatmap, matching and nearby-search prompts.
-- **Build one project narrative that survives thirty to sixty minutes of questioning.** Prepare a slide version and a no-slides version, with your scope and measurable outcomes stated explicitly.
-- **Confirm your loop's round types with the recruiter in writing.** Loops can include OOD, SQL, frontend or AI-assisted debugging.
+Feedback from all rounds is reviewed together, and the hiring manager's read on scope weighs heavily on the level. When the scope evidence falls short, the usual result is a lower-level offer rather than a rejection. Some offers depend on team matching, and one candidate's hiring manager changed three times before the final round. Decisions have come the next business day and after 14 days of silence. Rejections rarely include feedback, and a six-month cooldown before applying to other roles has been reported.
+
+## How to prepare for the Uber interview
+
+1. **Drill the recurring assessment set:** Prime-step jumps, budgeted throughput, parity-mask tree paths and sorted union-find, each under 20 minutes.
+2. **Test without being asked:** List edge cases and run them before declaring a solution done.
+3. **Prepare scale follow-ups:** A streaming and a tens-of-millions version of intervals, k closest points and islands.
+4. **Write runnable object-oriented designs:** Parking lot, scheduler and cart pricing, extensible without edits.
+5. **Master one spatial index:** Cell size, neighbor scans and partitioning by city.
+6. **Rehearse concurrency basics:** A thread-safe token bucket and request coalescing.
+7. **Build a level-proof project story:** Your own decisions, scope, mentoring and cross-team influence, with numbers.
+
+## About working at Uber
+
+Engineers build the real-time marketplaces behind rides, Uber Eats, grocery and freight: dispatch, pricing, maps and ETAs, payments, and the shared platforms beneath them. Teams own their services in production, and the interview prompts mirror that work. Since June 2025 most employees have been expected in the office Tuesday through Thursday.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L3 (Software Engineer I) | Delivering well-scoped features with guidance | Tasks within one team |
+| L4 (Software Engineer II) | Owning features and services end to end | One team's systems |
+| L5a (Senior Software Engineer) | Leading projects, mentoring, setting a team's technical direction | A team and its neighbors |
+| L5b (staff-scope senior) | Cross-team architecture and technical influence | Several teams |
+
+Uber hires engineers and scientists across its consumer, merchant and platform businesses. Teams include:
+
+- **Mobility:** Rider and driver apps, dispatch and matching, and marketplace pricing.
+- **Delivery:** Uber Eats ordering, cart and checkout, search, and grocery.
+- **Freight:** Shipper and carrier marketplace systems.
+- **Earner and payments systems:** Payouts and money movement, where correctness comes first.
+- **AI platform (Michelangelo):** Feature computation, training and serving for models across the company.
+
+### Experience and education requirements
+
+Software Engineer I postings ask for a bachelor's degree in computer science or a related field and about a year of experience. Software Engineer II accepts a degree or three years of full-time engineering work, plus about three years in a language such as Java, Go, Python or C++. Senior postings ask for five or more years, and some senior ML platform roles prefer a master's degree.
+
+## FAQs about the Uber interview
+
+### How long does the Uber interview process take?
+
+Usually several weeks. Two-week gaps between stages are common, so a slow loop can take two months or more.
+
+### What is the hardest round of the Uber interview?
+
+For mid-level candidates, system design, which drills into geospatial indexing and checkout consistency. For senior candidates, the project review, because it sets the level.
+
+### Is there an online assessment?
+
+Often, for Software Engineer candidates. It is four problems in 60–70 minutes or two in 60–90 minutes, drawn from a small, heavily repeated pool.
+
+### How much does an Uber software engineer make?
+
+Approximate US total compensation:
+
+- **L4 (Software Engineer II):** ~$275K
+- **L5a (Senior Software Engineer):** ~$400K
+
+Packages combine base pay, an annual bonus, and stock that vests over four years on a front-loaded schedule.
+
+### Is the Uber interview remote?
+
+Mostly. The onsite usually runs as a virtual loop, sometimes spread over more than one day.
 
 ## Guides by Role
 

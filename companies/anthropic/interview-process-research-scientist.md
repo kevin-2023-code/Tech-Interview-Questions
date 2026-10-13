@@ -6,86 +6,284 @@
 
 ---
 
-The stage that decides this track is not an interview at all — it is a take-home graded as a research artifact rather than as code. One reported interpretability assignment gave four hours to design an experiment reproducing sample-aspect double descent, derive the phenomenon for linear regression using random matrix theory, show that regularisation mitigates it, and assemble the derivations and figures into a presentable slide deck. A separate fellowship assignment allowed five hours; another asked for hypothesis-driven PyTorch experiments with a written conclusions section. Candidates who treat these as coding exercises hand in a working notebook and no argument — the one thing the deliverable is scored on. The live rounds test the same instinct in miniature: interviewers want the dead ends you rejected and why.
+Anthropic's research loop checks whether you can do the work hands-on, not how well you know the literature. The screens give you a training implementation with planted faults or a stateful data component to build, and the follow-ups go straight to mechanics: why a probability ratio should equal one at a particular line, or what breaks when the batch size stops dividing the sampling weights. Many teams add a time-boxed take-home graded as a research artifact rather than as code, and every loop includes a values interview where agreeing with the company's safety positions without examining them is a reported way to fail.
 
-## Interview Process
+This guide breaks down each stage of the Anthropic Research Scientist interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 22 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q3, cross-checked against recent public accounts.
+
+## Anthropic Research Scientist interview process
 
 <!-- guide-diagram -->
 ![Anthropic Research Scientist interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/anthropic--research-scientist/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (15–30 minutes, phone).** Background and research direction, why this company rather than another lab, level and scope, work authorisation, competing timelines. Recruiters on research tracks are unusually forthcoming about what each round contains and several candidates received specific preparation prompts; ask, because the screens differ sharply between reinforcement-learning, interpretability and applied sub-tracks.
-2. **Technical phone screen (roughly 60 minutes, shared cloud notebook).** Fundamentals plus live implementation. Reported openings: transformer architecture, the role of temperature in sampling, and how you would debug a training run that is not converging — practical rather than textbook, checking whether you have actually operated large models. Some candidates get a reinforcement-learning variant instead: three planted faults in a training implementation, then policy-gradient mechanics in depth.
-3. **Second technical screen (roughly 60 minutes).** Usually pure implementation — most often a weighted data batcher on a supplied registry iterator, with an offset argument, deterministic checkpoint and resume, then removal of the assumption that batch size divides the sum of the weights. Alternatives include an algorithmic problem with real search structure, such as evaluating a prefix expression whose operators and leaves are partly hidden and constrained to a sampled set, and a debugging round on a vectorised tree-ensemble implementation.
-4. **Take-home research assignment (four to five hours).** Design and run experiments, derive the theory where it applies, write it up. Reported deliverables include a slide deck and a written conclusions section. This is where the track separates from engineering loops, and it is time-boxed hard.
-5. **Live review and onsite rounds (55–60 minutes each).** Some loops review the take-home live. Alongside it: a research deep dive on your own past work, an ML system design conversation that leans production — scaling, infrastructure, observability, cost — and a reproducibility discussion about how experimenters get tunable knobs and how determinism survives.
-6. **Values and culture round (45–60 minutes).** Why this company specifically, your view of concrete rather than general risks, a value upheld under real pressure, and how you handle disagreement with people you respect. Usually the most senior interviewer you meet.
-7. **Reference checks and team matching (1–2 weeks).** References are contacted before an offer and matching runs in parallel; both can end a process that went well technically.
+Research Scientist and Research Engineer candidates go through largely the same pipeline, and the team shapes it more than the title. Reinforcement-learning teams screen on policy-gradient mechanics, interpretability and fellowship tracks rely on a take-home, and applied research teams test prompting and engineering with language models. Recruiters adjust the sequence, and at least one posting let candidates choose among four formats for the technical assessment.
 
-The sequence runs several weeks, with the take-home the longest single commitment.
+A typical process has a recruiter screen, one or two technical screens of 55 to 60 minutes, a take-home on many teams, a virtual onsite of four or five rounds, then references and team matching, usually over several weeks to two months. The level is not always fixed in advance; at least one candidate was told it would be set after the hiring decision.
 
-## What They Actually Evaluate
+Here's what the interview process can look like:
 
-### ML Theory
-Probed at the level of mechanics and failure modes rather than coverage. Reported ground: value functions, policy gradients and importance sampling; the training flow from rollout collection to update; group-relative advantage estimation, when it lowers variance and when badly constructed groups introduce bias; the conditions that trigger clipping and its effect on the update; on-policy versus off-policy handling of stale data; recent variants and the trade-off each addresses. Attention mechanics appear directly, written out with index notation.
+- **Recruiter screen:** 15 to 30 minutes on motivation, research direction and timeline, sometimes with sustained questioning on AI safety.
+- **Technical phone screen:** About 55 to 60 minutes in a shared notebook on ML or reinforcement-learning fundamentals plus debugging or implementing a training component, with no AI assistance.
+- **Coding and design interview:** About 60 minutes building a stateful, deterministic component such as a weighted data batcher.
+- **Take-home research assignment (many teams):** Four to five strict hours to design and run an experiment and write up the conclusions.
+- **ML system design interview:** A production-focused design or design-document review on inference serving, scaling and observability.
+- **Project deep dive:** A walkthrough of your own past work, your specific role and how you handled disagreement.
+- **Values and culture interview:** Your views on AI safety, a critique of Anthropic's own positions, and how you change your mind.
+
+> **Tip:** Ask the recruiter exactly what each screen covers. Recruiters on research tracks have handed candidates the specific topics for the next round, and the screens differ enough between reinforcement-learning, interpretability and applied teams that the answer changes what you should study.
+
+## Recruiter screen
+
+The call lasts 15 to 30 minutes and is not always a formality. Some candidates describe a rigorous call with no small talk: about 20 minutes on why Anthropic rather than another lab, which recent Anthropic publications or announcements they had followed and where they disagreed, why AI safety matters to them personally, and where they had applied safety thinking in past work. Other calls covered background, a recent project and competing timelines. The closing minutes outline next steps; recruiters have mentioned that reference checks are standard and that remote staff spend about a quarter of their time in the office.
+
+Interviewers evaluate:
+
+- **Specific motivation:** A reason tied to Anthropic's research agenda or governance, not to AI in general.
+- **Informed opinions:** Having read recent work closely enough to disagree with part of it.
+- **Safety in practice:** A concrete instance where safety or responsible deployment changed a decision you made.
+- **Research fit:** Whether your direction matches a hiring team; candidates who sensed a mismatch asked to be considered elsewhere.
+
+Prepare a two-minute research narrative, one specific opinion on a recent Anthropic paper or policy, and one story about applying safety thinking.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Why Anthropic specifically, compared with the other frontier labs?
+- Which recent Anthropic article or announcement did you follow, and what did you agree or disagree with?
+- Why is AI safety important to you personally, and where have you applied it in your work?
+
+- [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
+- [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values)
+- [Explain Your Motivation and Practical Approach to AI Safety](https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety)
+
+## Technical phone screen
+
+The first technical screen runs 55 to 60 minutes in a shared notebook, in Python and PyTorch. Candidates are expected to know basic linear algebra and plotting, the problem is not shared in advance, and AI assistance is not allowed. The reinforcement-learning version covers value functions, policy gradients and importance sampling, asks for the GRPO training flow from rollout collection to update, then hands over a snippet with three planted bugs. Reported bugs include a missing softmax before multinomial sampling that produces NaNs, advantage normalization with no epsilon in the standard deviation, and a probability ratio computed as a difference of log-probabilities.
+
+The follow-ups are the hard part: why clipping exists, exactly when it triggers and what it does to the gradient, why the ratio should equal one at a given point and what it means when it doesn't, and how an on-policy method handles stale data. The general version opens with 10 to 15 minutes on transformer architecture, sampling temperature and debugging a run that won't converge, then moves to implementation such as attention written with einsum. Some screens are performance estimation instead.
+
+Interviewers evaluate:
+
+- **Mechanism over vocabulary:** Explaining how a bug would show up in a loss or reward curve, not just naming it.
+- **Numerical hygiene:** Spotting missing normalization, unguarded divisions and log-space mistakes.
+- **Back-of-envelope rigor:** Stating FLOPs, bytes moved and hardware limits, then deciding whether a workload is compute-bound or memory-bound.
+- **Unassisted fluency:** Tensor shapes, einsum and quick plots written without autocomplete or a model's help.
+
+Implement a small policy-gradient loop and attention from scratch in PyTorch, then break each deliberately and describe the symptom each break produces.
+
+> **Note:** Knowing what GRPO is earns little here. Candidates consistently call the follow-ups deceptively tricky: the interviewer wants the exact clipping conditions and why the ratio drifts from one after an update, explained under time pressure.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- A GRPO snippet produces NaNs: find the missing softmax before sampling, then the instability in advantage normalization.
+- What happens if the ratio is computed as new minus old log-probability, and why should it equal one at a given line?
+- Estimate an m-by-k-by-n matrix multiplication on a 40 GB A100, decide which resource bounds it, then check whether a 72-layer network's FP16 weights fit in memory.
 
 - [RL Fundamentals — GRPO Debug](https://trueinterview.io/questions/rl-fundamentals-grpo-debug)
 - [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen)
+- [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
+- [Estimate FFN Compute, Memory, and Sharding Communication](https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication)
 
-### Domain Deep Dive
-The take-home plus its live review, and the closest thing in the loop to real research output. It asks for a hypothesis, a controlled experimental design, a theoretical treatment where one is available, an intervention that changes the outcome, and a presentation a colleague could read. Analysis rounds on supplied datasets and debugging rounds on someone else's model implementation serve the same purpose in shorter form: orienting in unfamiliar research code quickly and saying something defensible under a clock.
+## Coding and design interview
+
+The second technical round is usually pure implementation over about 60 minutes, and the most frequent problem is a weighted data batcher built on a supplied registry that returns an iterator per dataset. Part one yields batches of indices under per-dataset weights, with the batch size dividing the weight sum. Part two adds an offset for reproducibility and sharding, and from then on the iterator must checkpoint and resume at exactly the same position. Part three drops the divisibility assumption, so leftovers must be handled without bias or silent loss. The discussion then turns to weights changing between saves, sharding, weight lists too large for memory, and testing determinism in distributed training.
+
+Other reported problems include the mode and then the median of numbers spread across many workers, a longest-match tokenizer with an unknown-token fallback, and reconstructing traces whose prefixes are hidden and whose visible leaves are partial. Some loops add ML configuration questions or debugging someone else's vectorized model code. Interviewers want the approaches you rejected as well as the final code.
+
+Interviewers evaluate:
+
+- **Explicit state:** Naming what must be serialized for exact resume: position, offset, remaining weights and counters.
+- **Absorbing new requirements:** A design that survives part three without a rewrite or broken guarantees.
+- **Correctness at the edges:** Fair remainders, no dropped data, deterministic output under sharding.
+- **Communication cost:** In distributed problems, minimizing what crosses the network.
+- **Proactive optimization:** Bounding tokenizer lookahead by the longest token and merging consecutive unknowns unprompted.
+
+Practice small checkpointable iterators, relaxing one assumption at a time while explaining your reasoning aloud.
+
+> **Tip:** Decide the iterator's state before writing logic. Exact resume becomes mandatory in part two and must survive the relaxed divisibility rule in part three, so list up front what a checkpoint holds instead of adding fields as each part arrives.
+
+### Sample questions for the coding and design interview
+
+Here are some questions reported by recent candidates:
+
+- Build a weighted batcher over a supplied registry that accepts an offset, saves and resumes exactly, then handles a batch size that does not divide the weight sum.
+- Many workers each hold a number; find the mode, then the median, with as little communication as possible.
+- Tokenize by longest vocabulary match, emit a single merged unknown token for unmatched runs, and limit lookahead to the longest token.
+
+- [Weighted Data Batcher with Checkpointing](https://trueinterview.io/questions/afa9e386-7de2-4dd2-8747-3810328a9c39)
+- [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median)
+- [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2)
+- [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system)
+- [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171)
+
+## Take-home research assignment
+
+Interpretability, fellowship and several other research teams give a strictly timed take-home, and this is where the track differs most from engineering loops. One interpretability assignment allowed four hours to design an experiment reproducing sample-wise double descent, derive the effect for linear regression with random matrix theory, show that regularization mitigates it, and present it all as a slide deck. A safety fellowship assignment asked for hypothesis-driven experiments on a small PyTorch model with a written conclusions section. Fellowship candidates took two timed assessments before a five-hour project.
+
+The work is graded as research. A notebook that runs but makes no argument is the reported weak result, and because the assignments are explicitly multi-part (reproduce, explain, intervene, present), each part needs reserved time. Expect no feedback on the take-home itself.
+
+Interviewers evaluate:
+
+- **A clear claim:** A stated hypothesis and what result would count against it.
+- **Controlled design:** Baselines, a sweep over the variable that matters, and enough seeds to trust the curve.
+- **Theory where it exists:** A derivation that predicts the empirical result.
+- **An intervention:** Showing that changing one factor, such as regularization strength, moves the effect as predicted.
+- **Readable communication:** Slides or a write-up a colleague could follow without running the code.
+
+Rehearse a full four-hour cycle on a known phenomenon, from hypothesis to three slides, before the real one.
+
+> **Note:** The most common failure is spending the whole budget getting code to run. Plan backwards from the write-up: decide the claim and the smallest experiment that supports it, and reserve at least an hour for theory, figures and conclusions.
+
+### Sample questions for the take-home research assignment
+
+Here are some questions reported by recent candidates:
+
+- In four hours, reproduce sample-wise double descent, analyze it for linear regression with random matrix theory, show how regularization removes it, and present the results as slides.
+- Form a hypothesis about a small PyTorch model, build the training and evaluation pipeline, run the experiments and write up conclusions.
 
 - [Mechanistic Interpretability Take-Home — Sample-Aspect Double Descent](https://trueinterview.io/questions/mech-interp-take-home)
-- [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171)
 - [Python Data Analysis on a Provided Dataset (Capacity Management Context)](https://trueinterview.io/questions/d03ad0c8-580a-4af4-8619-328ea8011719)
 
-### Coding and Algorithm
-Two live rounds, Python, applied. The recurring exercise is stateful and incremental: build a deterministic, checkpointable iterator, then have an assumption removed and keep the earlier behaviour intact. Distributed statistics also appears — mode and median across workers, with communication as the scarce resource and iterative reduction of it as the grade. Vectorised debugging shows up throughout, where an axis or broadcasting fault propagates silently. Small testable components with explicit state earn signal; monolithic solutions lose it.
+## ML system design interview
 
-- [Implement a Weighted Data Batcher with Deterministic Save/Resume (DataRegistry Iterator Interface)](https://trueinterview.io/questions/afa9e386-7de2-4dd2-8747-3810328a9c39)
-- [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median)
-- [Numpy Debugging Task](https://trueinterview.io/questions/cf0e36da-02f9-46a9-be16-dd6fac7d456c)
-- [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system)
+The onsite design round is deliberately broad, and candidates who prepared model architecture were steered to production concerns: how an ML-powered service scales, what infrastructure it needs, how it is observed, and where performance and cost improve. Inference serving dominates. One candidate had to explain why GPU inference is memory-bound rather than compute-bound and how a serving layer batches requests for the hardware. Another critiqued a design document adding a batching layer and load balancer in front of an inference service, with each batch finishing within 100 ms at 10,000 queries per second; after two or three flaws, the discussion moved to batching mechanics, server count, circuit breaking and load shedding, and scheduling across several model types. Clarifying questions are expected; defining the boundary is part of the grade.
 
-### Behavioral and Leadership
-A dedicated values conversation plus a research and career discussion. Reported prompts: why this company rather than another lab, a specific value you can name and evidence you have acted on it, a person you deeply respect but fundamentally disagree with, how you engage with the organisation's internal tensions, and where your ethical limits sit. Critical engagement is rewarded over praise.
+Interviewers evaluate:
+
+- **Scoping:** Pinning down latency, throughput and the number of models before drawing components.
+- **Quantitative sizing:** Turning 100 ms and 10,000 QPS into batch sizes and a server count, out loud.
+- **Hardware intuition:** Memory bandwidth versus compute, and the latency cost of larger batches.
+- **Overload behavior:** What the system sheds, queues or rejects beyond capacity.
+- **Operability:** Metrics, alerting and rollout for a model-backed service.
+
+Practice two or three inference-serving designs with explicit numbers, plus one critique of a written design document.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design an inference API, explaining why GPU inference is memory-bound and how requests are batched.
+- Review a design adding batching and load balancing to an inference service at 100 ms per batch and 10,000 QPS, then size the fleet and handle overload.
+- Design an ML-powered service focused on scaling, infrastructure, observability and performance rather than model choice.
+
+- [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design)
+- [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design)
+- [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus)
+- [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform)
+
+## Project deep dive
+
+One onsite round goes deep on a substantial project of your choosing, with an engineer or the hiring manager. Expect questions on team size and duration, exactly what you contributed, how you handled pushback from teammates or stakeholders, the hardest technical problem, and what you would do differently. For research candidates the questions extend to judgment: which directions you dropped, why the result should be believed, and what others did differently because of it.
+
+Interviewers evaluate:
+
+- **Individual ownership:** Your decisions, separated from the team's results.
+- **Technical depth:** The alternatives behind each major choice and why they lost.
+- **Research judgment:** When you stopped a line of work and what evidence made you stop.
+- **Handling disagreement:** A real conflict, how it was resolved and what you conceded.
+
+Choose one project you can discuss for 45 minutes, dead ends included, and rehearse the follow-ups on scope, conflict and impact.
+
+### Sample questions for the project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Walk through your most substantial project: team size, duration, your role and the measurable outcome.
+- Describe pushback from a teammate or stakeholder and how it was resolved.
+
+- [Describe your most impactful project](https://trueinterview.io/questions/describe-your-most-impactful-project-2)
+- [Describe failure impact and resolve cross-functional conflict](https://trueinterview.io/questions/describe-failure-impact-and-resolve-cross-functional-conflict)
+- [Explain How You Resolved a Professional Conflict](https://trueinterview.io/questions/explain-how-you-resolved-a-professional-conflict)
+
+## Values and culture interview
+
+Every reported onsite includes a 45 to 60 minute conversation on mission and values, often with a senior interviewer. Reported topics include your view of Claude's constitution, a genuine critique of Anthropic's safety positions, how you handle being wrong, concerns about deploying language models in production, and how the Long-Term Benefit Trust governs the company. Related prompts include where you would draw the line for resigning and a belief most peers reject.
+
+On a research track this round carries extra weight because safety research is the mission. Candidates who felt solid on every technical round and were still rejected without feedback have attributed the outcome to this conversation.
+
+Interviewers evaluate:
+
+- **Independent thinking:** A specific disagreement with Anthropic's own positions, argued carefully.
+- **Concrete risk models:** Particular failure modes of deployed models rather than general concern.
+- **Epistemic humility:** A real case where evidence changed your mind.
+- **Knowledge of the institution:** The constitution, the governance structure and recent safety publications.
+- **Integrity under pressure:** A value you held when it cost something.
+
+Read the constitution, the governance materials and two or three recent safety papers, and prepare one disagreement you can defend for ten minutes.
+
+> **Tip:** Agreement without engagement reads as evasion. Candidates were explicitly asked to critique the company's choices; a workable structure is to name a trade-off Anthropic made, what it costs, and what evidence would change your own view.
+
+### Sample questions for the values and culture interview
+
+Here are some questions reported by recent candidates:
+
+- What do you think of Claude's constitution, and where would you critique Anthropic's safety approach?
+- Tell me about a time you were wrong and changed your mind.
+- If a project conflicted with your values, where would you draw the line for resigning?
 
 - [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
-- [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
+- [Identify the Most Important AI Safety Risk](https://trueinterview.io/questions/identify-the-most-important-ai-safety-risk)
+- [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks)
+- [Reason About Delaying an AI Breakthrough Under Uncertain Risk](https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk)
 
-## What They Don't Test
+## How Anthropic levels and evaluates Research Scientist candidates
 
-- **Publication breadth.** No reported round surveys your bibliography. The take-home and debugging screens ask you to produce and defend a result inside a few hours instead.
-- **Competitive-programming algorithms.** The live problems are batchers, distributed aggregation and pruned search over a constrained space. Clean state management and communicated reasoning beat asymptotic tricks.
-- **Framework recall.** Reference implementations are supplied to build on, documentation lookup is permitted, and AI assistants are not.
-- **Model architecture depth in the design round.** Candidates who prepared architecture report the interviewer steering to scaling, infrastructure, observability and cost.
-- **Polished narratives in the values round.** Interviewers ask you to critique the organisation's own policies and tensions, so agreement without engagement reads as evasion.
+The decision pools evidence from every round, and one or two average rounds can outweigh strong ones: candidates who felt most rounds went well were still rejected. When the onsite is split across two days, weak early rounds can cancel the later ones. The level is not always set before the loop, and at least one candidate was told it would follow the hiring committee's decision. References, typically a former manager and a current colleague, are contacted before an offer, and team matching runs alongside. Reported rejections arrived about a week after the final round, usually without specific feedback, and reports do not establish a consistent reapplication waiting period.
 
-## The Real Filter
+## How to prepare for the Anthropic Research Scientist interview
 
-The primary rejection path is treating the take-home as an implementation task. The reported assignments are explicitly multi-part — reproduce the effect, ground it in theory, show a mitigation, present it — and the presentation is not decoration. With four hours on the clock, candidates spend the budget getting code to run and hand in results with no derivation, no baseline and no argument about what the experiment establishes. Plan backwards from the write-up: decide the claim, the minimum experiment supporting it, and reserve explicit time for theory and figures.
+1. **Implement and break a policy-gradient loop:** Write GRPO or PPO in PyTorch, plant the reported bugs (missing softmax, no epsilon, log-difference ratio), and explain the training symptom each causes.
+2. **Know clipping exactly:** State when the clipped objective activates, what it does to the gradient, and why the ratio is one before the first update but not after.
+3. **Build checkpointable iterators:** Practice weighted sampling with offsets and exact resume, then relax one assumption at a time without rewriting.
+4. **Drill back-of-envelope estimates:** FLOPs, arithmetic intensity, memory footprint and server counts for matrix multiplications, model weights and inference fleets.
+5. **Run a full mock take-home:** Four hours from hypothesis to slides on a known phenomenon, keeping the last hour for theory and write-up.
+6. **Prepare an inference-serving design with numbers:** Batching, latency budgets, overload handling and multi-model scheduling, plus a design-document critique.
+7. **Choose one project to defend in depth:** Include the dead ends, a disagreement and what you would change.
+8. **Form your own view of Anthropic's safety approach:** Read the constitution and governance materials, and prepare a fair, specific critique and a time you changed your mind.
 
-The second pattern is easy to miss: in the live rounds you are graded on narration. One candidate's most emphatic takeaway was that communicating every small step is harder than it sounds, because the interviewer needs the rejected approaches and the reasoning behind them, not only the final code. These problems are built with plausible wrong turns — a linear scan where the structure is really a tree, a naive pairing that the hidden elements break — and the recovery is what is watched.
+## About the Anthropic Research Scientist role
 
-The third is the values round, which on a research track carries extra weight because the mission is the product. Interviewers ask for a personal history with safety, a value you can evidence, and genuine engagement with the tensions inside the organisation's own commitments. Informed general agreement is the reported failure.
+Research scientists at Anthropic run empirical research on large language models, from designing experiments and training runs to presenting results internally and publicly. Research and engineering overlap heavily, and one candidate described the batcher exercise as a fair sample of internal work. The company is headquartered in San Francisco, and remote employees are expected in the office about 25% of the time.
 
-## Data Source
+Anthropic hires Research Scientists across its research organization. Teams include:
 
-Based on 22 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+- **Interpretability:** Reverse-engineering how trained models work internally, as a foundation for safety.
+- **Alignment Science:** Understanding the risks of AI models and keeping future systems helpful, honest and harmless.
+- **Reinforcement Learning:** RL research and infrastructure behind the Claude models, including reasoning, coding and computer use.
+- **Pretraining:** Architecture, algorithms, data processing and optimizers for the next generation of models.
+- **Societal Impacts:** Technical research on how AI is used in the real world, alongside policy and safeguards teams.
+- **Frontier Red Team:** Assessing what frontier models mean for cybersecurity, biosecurity and autonomous systems.
 
-## FAQ
+### Research Scientist experience and education requirements
 
-**What is it like to work there as a Research Scientist?**
-Our reports document the interview loop rather than the job, with two data points: a recruiter cited a typical week of roughly 60 hours, and a candidate was told remote staff are expected onsite about a quarter of the time. What the loop reveals is that research and infrastructure are not separated — the same candidates asked about double descent and policy-gradient mechanics must build deterministic, resumable training components, and one called that exercise a fair sample of internal work.
+Postings put a research track record first. Interpretability roles ask for strong scientific research in any field plus some interpretability work, without naming a degree, while some fine-tuning alignment roles list an MS or PhD in computer science, machine learning or a related field. Strong Python, hands-on PyTorch and empirical work on large models are common requirements, and interviews are conducted in Python.
 
-**What is the engineering culture like?**
-Interviewers are described as friendly, collaborative and willing to supply reference code and constraints rather than withhold them; several candidates called the sessions conversational. The organisation is characterised as research-driven with a flat structure and unusual individual autonomy, and the values the loop grades — low ego, kind but direct disagreement, willingness to hold an unresolved tension — mirror how the rounds are run.
+## FAQs about the Anthropic Research Scientist interview
 
-**How hard is it to get in?**
-Extremely. Published estimates put acceptance for research roles under one percent, and this track adds a multi-hour take-home to a loop already spanning several weeks. The offsetting factor is that the technical families repeat: the batcher, the policy-gradient debug, distributed statistics and an experiment-design take-home cover most reported rounds.
+### How long does the Anthropic Research Scientist interview process take?
 
-**Which round is hardest?**
-The take-home, on both difficulty and consequence — four to five hours to produce a defensible research result with a written argument is the tightest constraint in the loop. The reinforcement-learning theory and debugging screen is the hardest live round.
+Usually several weeks to two months. The take-home, where there is one, is the longest single commitment, and references and team matching add one to two weeks after the onsite.
+
+### What is the hardest round of the Anthropic Research Scientist interview?
+
+The take-home: a defensible research result with theory and a written argument in four or five hours is the tightest constraint in the loop. Among live rounds, the reinforcement-learning debugging screen is the hardest, and the values interview is the one most often blamed after a rejection.
+
+### Is there an online assessment?
+
+Not for most research scientist candidates, who start with a recruiter call and a live screen. Fellowship applicants reported two timed assessments, a DNS resolver and a Python debugging task, before the take-home.
+
+### Can you use AI tools during the interview?
+
+Generally not. The research screens explicitly forbid AI assistance, and Anthropic's candidate guidance allows AI for polishing application materials but not during most assessments or live interviews unless stated.
+
+### Do you need a PhD?
+
+Not for many teams. Interpretability postings emphasize a research track record in any field, while some alignment and domain-science roles list a graduate degree.
 
 ---
 

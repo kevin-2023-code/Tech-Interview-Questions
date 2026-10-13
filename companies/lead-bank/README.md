@@ -16,21 +16,29 @@ How Lead Bank interviews, and the questions candidates reported there. Free ques
 
 ## How Lead Bank interviews
 
-Lead Bank runs a compact, hands-on loop that looks nothing like a big-bank hiring pipeline: the coding rounds are miniature product systems with an API, and the conversation that decides the outcome sits at the end, not the start. This deep dive is built on 4 real Lead Bank interview questions and 4 candidate interview reports, and it goes past the stage list on the company page into what each round actually contains and how it is graded.
+Lead Bank's coding rounds are miniature product systems, not algorithm puzzles: a table of rows, an interface to build over it, and later parts that extend the API from the part before. The loop is short, one technical screen and a virtual on-site of four to five rounds, and it ends with a hiring manager conversation that has decided outcomes on its own after strong technical rounds.
 
-### Interview Process
+This guide breaks down each stage of the Lead Bank interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 4 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Lead Bank interview process
 
 <!-- guide-diagram -->
 ![Lead Bank interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/lead-bank/process.webp)
 <!-- guide-diagram -->
 
-The loop opens with a recruiter conversation and a single technical phone screen, then moves to a virtual on-site. Candidates describe the on-site as four to five rounds, and the composition is consistent across accounts: a deep dive into past work, a system design round, two coding rounds, and a behavioral conversation with the hiring manager. The order moves around - in one account the past-experience deep dive opened the loop as its own round, in another the project discussion was folded into the closing hiring manager round. No candidate reported a take-home or an automated online assessment, and none reported fixed waiting periods between stages.
+Engineers join a single backend-heavy engineering organization, and the reported loops, from early 2025 to mid-2026, barely varied: a technical screen, then an on-site with a past-work deep dive, system design, two coding rounds and a hiring manager round. The order moves. One loop opened with the deep dive as its own round; another folded it into the closing hiring manager conversation. No candidate reported an online assessment or take-home. Postings run from Software Engineer II (2+ years) to Software Engineer V (15+ years), and the design and project rounds typically weigh more for senior candidates.
 
-The technical screen is one problem, presented as data plus an interface rather than as a puzzle. One candidate was handed a table of user pairs with directed like counts and asked first to store it so that a lookup of "how many times did user A like user B" is cheap, then to turn the same structure into a recommendation: find the person a user liked most, and surface who that person liked most in turn. Nothing in the reported screens was drawn from a standard algorithm catalogue.
+Here's what the interview process can look like:
 
-On-site coding rounds keep that shape and add parts. Reported prompts include a stock tick store keyed by ticker and date supporting reads, updates, a formatted percentage change between two dates, and a comparison across two tickers; and a calendar store with sorted insert, delete by event name, offset/limit pagination, and an interval-overlap query. Problems run two to four parts, each part extending the API built in the part before it, and interviewers sometimes flag the last part as a bonus to be reasoned through out loud instead of coded. Grading leans on the parts that are easy to skip: candidates were asked to state the complexity of every method they wrote, and follow-ups pushed on ordering, tie-breaking, and update semantics - for instance, distinguishing a write that creates a new entry from one that overwrites an existing value, and reflecting that distinction in what a later read returns.
+- **Recruiter screen:** A short, typically non-technical call on background, level and logistics.
+- **Technical phone screen:** One live problem, usually a small data store with two or three parts.
+- **Coding interviews (two on-site rounds):** Multi-part problems where each part extends the code you already wrote.
+- **System design interview:** A hotel reservation system in every reported loop, pushed on failures and concurrent holds.
+- **Project deep dive and hiring manager interview:** Your proudest project in depth plus behavioral questions, sometimes split into two rounds.
 
-The design round recurred in both on-site accounts as a hotel reservation system, with one interviewer varying it by asking for reservations modeled against a specific room number rather than a room type. The pressure is in the follow-ups rather than the initial diagram: failure scenarios one after another, and how to keep two users searching the same room from colliding, where one candidate proposed database-level locking alongside a fast in-memory store of currently held rooms so the site can show holds in real time.
+> **Tip:** Write every coding answer as a class with an ingest method, accessors and a mutation path. Part one is rarely hard; a representation that only answers part one forces a rewrite once part two arrives.
 
 **[Read the full Lead Bank interview process →](interview-process.md)**
 

@@ -57,16 +57,16 @@ Which stage each question came from, for the **95 of 95** questions at Stripe th
 
 ## What they ask about
 
-Of the **50 questions at Stripe that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **49 questions at Stripe that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 20 | 40% | ████████████ | Sep 11, 2026 |
-| `hashing` | 15 | 30% | █████████ | Sep 11, 2026 |
+| `strings` | 19 | 39% | ████████████ | Sep 11, 2026 |
+| `hashing` | 15 | 31% | █████████ | Sep 11, 2026 |
 | `greedy` | 7 | 14% | ████ | Aug 24, 2026 |
 | `graphs` | 6 | 12% | ████ | Jun 24, 2026 |
 | `intervals` | 5 | 10% | ███ | Sep 04, 2026 |
-| `sorting` | 4 | 8% | ██ | Jun 10, 2026 |
+| `sorting` | 4 | 8% | ███ | Jun 10, 2026 |
 | `arrays` | 2 | 4% | █ | May 13, 2026 |
 | `dynamic-programming` | 2 | 4% | █ | Jun 11, 2026 |
 | `heap` | 2 | 4% | █ | Sep 11, 2026 |
@@ -129,7 +129,7 @@ What candidates said happened in the room at Stripe — written up by the people
 | Software | [Stripe OA Interview Experience](https://trueinterview.io/interviews/81361fdd-0cb7-47a2-82cf-2dfe921530c8) | Sep 27, 2026 |
 | Software | [Stripe Request Routing Coding Interview Experience](https://trueinterview.io/interviews/d0fbea13-bf1a-4e52-a1d8-fab28a138dfe) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Stripe and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Stripe and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

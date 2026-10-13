@@ -6,47 +6,202 @@
 
 ---
 
-Palantir runs one of the most publicly discussed engineering loops in the industry, which makes it easy to prepare for the wrong thing: the named rounds people trade stories about are real, but the reports we hold describe something plainer and more searching. This guide goes past the stage list on the company page into what each stage actually asks, drawing on 3 real Palantir Technologies questions and 2 candidate interview reports, and it is deliberate about marking where our own evidence ends and the widely reported shape of the loop takes over.
+Palantir grades how you frame a problem as much as the code you write. Its signature decomposition round hands you a vague real-world problem with little code, and strong coders are still rejected there. Coding prompts are small working systems with business rules and invariants, such as session allocation, proximity search over text or coupon pricing with exact rounding, rather than trick puzzles. Motivation is screened harder than at most companies, including your view of Palantir's government and defense work.
 
-## Interview Process
+This guide breaks down each stage of the Palantir Technologies interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 1 candidate-reported interview experience, cross-checked against recent public accounts.
+
+## Palantir Technologies interview process
 
 <!-- guide-diagram -->
 ![Palantir Technologies interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/palantir/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** A short call, typically 20 to 45 minutes, covering background and motivation. Palantir screens harder than most companies on why you want to work on its particular problem domain, so a generic answer about interesting technology tends to stall here. Nothing technical is graded; the call exists to confirm you can articulate what the company builds and for whom.
+Each team assembles its onsite from a menu of round types: coding, decomposition, re-engineering, learning and system design. Decomposition is close to universal; core software engineering loops lean toward coding and design, forward-deployed loops toward decomposition and learning. Expect typically three to four onsite rounds and four to six weeks overall.
 
-**Technical screen.** This is the stage our reports cover directly, and both describe a single live conversation rather than an automated assessment. One candidate's screen opened with a walkthrough of a project from their own resume — technical choices, why each was made, what the hard part was — and only then moved into code. The coding task was not a puzzle but a small piece of working software: implement a session manager whose allocation keeps server loads within one of each other, using a heap keyed on the pair (session count, server id) and a set to reject duplicate session ids. The round closed with writing test cases for both normal and boundary inputs, which is worth planning time for; candidates who spend the whole slot on the happy path leave the last graded piece unwritten. The other report describes a purely algorithmic screen built around querying text: matching a query under a distance constraint, tracking word positions, and tolerating gaps between matched terms. Elsewhere the screen is commonly reported to appear as a timed online assessment mixing a coding task, a SQL query and an API exercise, so expect either format and confirm which one you are getting when the invitation arrives.
+Here's what the interview process can look like:
 
-**Onsite rounds.** Beyond the screen our reports go quiet, and the following is the loop as it is commonly and consistently reported rather than something our two reports established. Candidates typically sit three to five rounds drawn from a fixed menu: decomposition, coding, re-engineering, learning and system design. Almost everyone gets **decomposition** — a 45 to 60 minute open-ended session where you are handed a vague real-world problem and expected to break it into data model, inputs, business logic, interfaces and outputs, usually on a shared drawing surface. It is graded on how you narrow ambiguity, not on algorithms, and interviewers routinely change a constraint partway through to watch you adapt. **Re-engineering** drops you into an unfamiliar codebase of a few hundred to a thousand lines with a subtle logic bug or a feature request; it rewards reproducing the failure and isolating it before editing anything, and it punishes speculative refactoring. The **learning** round asks you to absorb an unfamiliar concept live and then reason with it, which is the round candidates report as the least prepable. A final hiring manager conversation typically closes the loop, and the whole process is usually reported to run three to four weeks end to end.
+- **Recruiter screen:** A short call on background, motivation and mission fit.
+- **Online assessment (many loops):** A timed, multi-part implementation test that can include API and SQL tasks.
+- **Technical screen:** About an hour of live coding, sometimes opened with a resume project deep dive.
+- **Decomposition interview:** An open-ended problem broken into data model, interfaces and logic as requirements shift.
+- **Coding and re-engineering interviews:** Algorithm or class-implementation problems, or work inside an unfamiliar codebase.
+- **Hiring manager interview:** Past work, values and how you handle disagreement.
 
-## What Candidates Report
+> **Tip:** Ask the recruiter which round types your loop includes. The learning and re-engineering rounds need different practice from algorithm drills.
 
-Our evidence base here is genuinely thin — two reports, both describing a single round, neither recording a final outcome — so treat the following as narrow but firsthand rather than as a survey.
+## Recruiter screen
 
-- The screen can start with your resume, not with a problem. One candidate spent the opening stretch defending technical decisions on a past project and answering follow-ups on methodology before any code was written.
-- The coding prompt was a small system with invariants, not a trick. The session manager task was judged on maintaining a balance property across servers and on picking the data structures that make the invariant cheap to hold, rather than on finding a clever asymptotic result.
-- Tests were part of the deliverable. The interviewer explicitly asked for cases covering ordinary use and edge conditions once the implementation ran.
-- Where the round was algorithmic, it was framed around search over text with a proximity limit — closer to the problems Palantir's products actually solve than to abstract puzzle questions.
-- The atmosphere read as high-stakes to at least one candidate, who compared the level of technical scrutiny to a bank's rather than to a relaxed peer conversation.
+The call typically lasts 30–45 minutes. Palantir treats it as a real filter: a generic answer about interesting technology tends to stall, and candidates should be ready to discuss the company's government and defense work. Many forward-deployed roles require a US security clearance or eligibility for one.
 
-## Coding Questions
+Interviewers evaluate:
 
-The small set of prompts we hold leans toward search and optimisation over structured data, which matches the products: text matched under a proximity limit, a path cost minimised over a graph, and a parity-driven rearrangement. All three reward stating constraints out loud before coding and being able to argue the trade-off between preprocessing cost and per-query cost — the same instinct the decomposition round grades in a different costume.
+- **Mission motivation:** A specific reason to work on Palantir's problems and customers.
+- **Comfort with the work:** A considered view of defense and government use.
+- **Track fit:** Software engineer or forward-deployed, with travel and clearance constraints.
+
+Prepare a two-minute answer on why Palantir that names a product, a customer type and what you would build.
+
+## Online assessment
+
+Many candidates take a timed, multi-part implementation test before any live round, sometimes with SQL and a REST API task, in which later parts build on earlier ones. Reported problems are rules-heavy: coupons applied with exact per-item cent rounding, a cap on the total discount, or coupon selection under a point budget.
+
+Interviewers evaluate:
+
+- **Rule fidelity:** Every business rule applied exactly, including rounding and caps.
+- **Building in parts:** Early functions correct enough that later parts do not inherit their bugs.
+- **API handling:** Fetching and aggregating endpoint data correctly.
+- **Reading discipline:** The whole prompt understood before typing.
+
+Practice multi-part pricing problems where a cent of rounding error fails the test.
+
+> **Note:** Because the parts chain together, a shaky first function can sink everything after it. Read every part first, and test the first function on its own.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Apply item and category coupons to a cart, rounding each item's discount to the cent and capping the total discount at a percentage.
+- Pick the best set of coupons under a fixed point budget.
+
+- [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding)
+- [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap)
+- [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget)
+- [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450)
+
+## Technical screen
+
+The screen is typically about an hour of live coding with a Palantir engineer. In the March 2025 report, the whole round was text search: match a query within a distance limit k, track word positions to enforce it, and allow gaps between matched terms. Another candidate's screen opened with a walkthrough of a resume project and its technical choices, then asked for a session manager that keeps every server's load within one of the others, and closed with test cases for normal and boundary input. That candidate found the scrutiny unusually intense.
+
+Interviewers evaluate:
+
+- **Constraint questions:** What can be preprocessed and how large the inputs are, asked before coding.
+- **Data structure choice:** A position index for proximity search, or a heap keyed on load and server ID.
+- **Invariants:** Duplicate session IDs rejected and balance held after every operation.
+- **Testing:** Typical, empty and boundary cases written when asked.
+
+Keep the last ten minutes of every practice session for tests.
+
+### Sample questions for the technical screen
+
+Here are some questions reported by recent candidates:
+
+- Find where a query's words occur in a text within distance k of each other, tolerating gaps.
+- Implement a session manager that assigns sessions so server loads never differ by more than one.
 
 - [Efficient Text Search with Proximity Constraint](../../questions/algorithm/efficient-text-search-with-proximity-constraint/README.md)
-- [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d)
+- [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10)
 - [Swap Parity](../../questions/algorithm/swap-parity/README.md)
 
-## How to Prepare
+## Decomposition interview
 
-- Rehearse one project from your resume to the depth of a design review: the alternatives you rejected, the failure you did not anticipate, and what you would change now. Our reports show this can occupy the first half of a technical screen and set the interviewer's prior for the coding half.
-- Practise writing small stateful classes with an invariant to maintain — allocators, schedulers, caches — under a timer, including the choice of heap or ordered structure that keeps the invariant cheap. That shape came up directly; pure puzzle drilling did not.
-- Budget the last five to ten minutes of any coding round for tests. Name your typical case, your empty and single-element cases, and the case where the invariant is about to break.
-- Build a habit of restating constraints and asking what is allowed to be preprocessed before you write a line. Both the text-proximity and path-cost families turn on that decision, and it is the visible behaviour the loop grades.
-- For decomposition, practise on messy operational problems rather than on classic scalability prompts: get to a data model and an interface quickly, then let the interviewer's new constraint force a revision without restarting.
-- For re-engineering, read unfamiliar mid-sized repositories and fix real bugs in them: reproduce first, narrow with prints or assertions, then make the smallest change that satisfies the request.
-- Have a concrete, specific answer for why this company's problem domain, ready for the first call. It is the cheapest round to fail and the easiest to prepare.
+Decomposition typically runs about 60 minutes. You break an ambiguous real-world problem into inputs, a data model, business logic, interfaces and outputs, usually on a shared drawing surface with little code. Interviewers change a constraint partway through to see whether you revise or restart. Some loops add a separate system design round on a practical service, such as server metrics monitoring.
+
+Interviewers evaluate:
+
+- **Narrowing ambiguity:** Sharp clarifying questions and an explicit scope.
+- **Data modeling:** Entities and relationships that match how the user actually works.
+- **Adaptability:** Absorbing a new constraint without discarding the design.
+- **User focus:** Each component tied back to the person who will use it.
+
+Practice on messy operational problems, such as tracking supplies or scheduling field crews, rather than classic scale prompts.
+
+> **Tip:** Reach a rough data model and one end-to-end flow within the first 15 minutes. An hour spent only on clarifying questions leaves the interviewer nothing to push on.
+
+- [Design a Server Metrics Monitor](https://trueinterview.io/questions/design-a-server-metrics-monitor)
+
+## Coding and re-engineering interviews
+
+Onsite coding covers algorithms over structured data, such as shortest paths across a road network, and class or API implementation. Re-engineering drops you into an unfamiliar codebase of a few hundred lines, sometimes with a proprietary library's documentation, to fix a subtle bug or add a feature. The learning round teaches a new concept live and asks you to apply it.
+
+Interviewers evaluate:
+
+- **Graph fluency:** Dijkstra and its variants, with clear reasoning on edge weights.
+- **Orientation speed:** Reproducing a failure and isolating it before editing.
+- **Minimal changes:** The smallest fix that meets the request, without speculative refactoring.
+- **Learning in real time:** Good questions about a new concept, then correct use of it.
+
+Practice by fixing bugs in open-source repositories you have never read.
+
+### Sample questions for the coding and re-engineering interviews
+
+Here are some questions reported by recent candidates:
+
+- Compute shortest paths from a source across a road network.
+- Implement a class or API whose behavior must follow stated rules exactly.
+
+- [Find Shortest Paths in Road Network](https://trueinterview.io/questions/find-shortest-paths-in-road-network)
+- [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d)
+- [Minimal Operations](../../questions/algorithm/minimal-operations/README.md)
+
+## Hiring manager interview
+
+The final conversation typically mixes a deep dive on past projects with values. Reported themes include disagreeing with leadership and conflicts between your values and a project. The hiring manager may reopen a thread where an earlier interviewer had doubts.
+
+Interviewers evaluate:
+
+- **Ownership:** What you personally decided and delivered.
+- **Principled disagreement:** Raising a concern, then committing or escalating.
+- **Mission fit:** Motivation that holds up under follow-up.
+
+Prepare one disagreement story with a clear outcome.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you disagreed with leadership.
+- Describe a project that conflicted with your values and how you handled it.
+
+- [Handle value conflicts and disagreeing with leadership](https://trueinterview.io/questions/handle-value-conflicts-and-disagreeing-with-leadership)
+
+## How Palantir Technologies makes hiring decisions
+
+Little is reported about the decision mechanics. The hiring manager round comes last, and decomposition is the round most often cited when strong coders are rejected. Neither reported candidate had an outcome at the time of reporting, and no cooldown period is consistently reported.
+
+## How to prepare for the Palantir Technologies interview
+
+1. **Practice decomposition aloud:** Turn a vague operational problem into a data model and flow, then absorb a new constraint.
+2. **Drill rules-heavy implementation:** Pricing problems with exact rounding, caps and chained parts.
+3. **Write tests as part of the solution:** Keep time for typical, empty and boundary cases.
+4. **Know heaps and graph search:** Balanced allocation with a heap, Dijkstra on weighted graphs.
+5. **Read unfamiliar code fast:** Reproduce, isolate, then make the smallest fix.
+6. **Rehearse one project deeply:** Alternatives rejected, the failure you missed, what you would change.
+7. **Own your motivation:** A specific why-Palantir answer and a considered view of its government work.
+
+## About working at Palantir Technologies
+
+Palantir builds Gotham, Foundry, AIP and Apollo, platforms that integrate an organization's data and let it act on that data. Engineers build the core platforms or work forward-deployed with customers. Postings use tracks rather than level numbers: new grad, experienced software engineer and forward-deployed software engineer.
+
+Palantir Technologies hires software engineers across product and customer-facing teams. Teams include:
+
+- **Foundations:** Shared backend, developer, frontend and storage infrastructure for all platforms.
+- **Production infrastructure:** Deploying and operating Palantir's software across environments.
+- **Product development:** Foundry, Gotham and AIP features.
+- **Forward deployed engineering:** Customer-embedded teams for US government, international and commercial clients, often with travel.
+
+### Experience and education requirements
+
+Postings ask for an engineering background in computer science, mathematics, physics or a related field and proficiency in languages such as Java, Python, C++ or TypeScript. Forward-deployed postings can ask for a year or more of post-college experience, and many government roles require an active clearance. Backend teams use Java and Go; frontend teams use TypeScript and React.
+
+## FAQs about the Palantir Technologies interview
+
+### How long does the Palantir Technologies interview process take?
+
+Typically four to six weeks from recruiter screen to decision.
+
+### What is the hardest round of the Palantir Technologies interview?
+
+Decomposition. It has no single right answer, and good coders fail it by over-clarifying or by restarting when a constraint changes.
+
+### How much does a Palantir Technologies software engineer make?
+
+Recent postings list estimated base salaries of $145K–$155K for new grad software engineers and $135K–$200K for experienced and forward-deployed engineers. Total compensation can add restricted stock units and a sign-on bonus.
+
+### Is the Palantir Technologies interview remote?
+
+Screens and onsite rounds are typically virtual. Most roles are hybrid, with one or two remote days a week.
 
 ---
 

@@ -16,21 +16,33 @@ How Robinhood interviews, and the questions candidates reported there. Free ques
 
 ## How Robinhood interviews
 
-Robinhood runs one of the more predictable engineering loops in fintech: a compact, recurring question bank, heavy weight on debugging and finished code, and a project deep dive that can decide the outcome on its own. This guide draws on 25 real Robinhood questions and 32 candidate interview reports to map what each round actually measures.
+Robinhood draws on a small, stable question bank: a job scheduler and a trading system for design, a dependency-graph "load factor" problem for phone screens, and a social-payments command parser for object-oriented design. The difficulty is in the follow-ups. Interviewers plant bugs and ban print statements, swap the problem mid-round, and press on failure handling. The project deep dive can decide the loop by itself, and passing the bar does not guarantee an offer, because team matching comes afterwards and "no team match" is a common result.
 
-### Interview Process
+This guide breaks down each stage of the Robinhood interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 30 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Robinhood interview process
 
 <!-- guide-diagram -->
 ![Robinhood interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/robinhood/process.webp)
 <!-- guide-diagram -->
 
-The process is centralized rather than team-owned: candidates interview with engineers from other teams, and team matching happens after the loop. The recruiter screen is short — sometimes only about fifteen minutes — and covers motivation ("Why Robinhood?"), your most impactful project, offer criteria, competing processes, compensation expectations, and work authorization. It is a real filter: candidates have been rejected the day after this call, so bring a concise, specific answer for why this company. Some funnels insert an online assessment before any conversation.
+Hiring is centralized: you interview with engineers from across the company, and a team is picked afterwards. The usual sequence is a recruiter call, a 45–60 minute technical screen, and a virtual onsite of three or four one-hour rounds, typically over four to six weeks. Some reported loops ran past two months because rounds were rescheduled. Cold applicants and new grads often take an online assessment first, and some candidates sit the whole loop as three separate phone rounds instead of one onsite day.
 
-The technical phone screen runs about 45 to 60 minutes on CoderPad and frequently opens with a short project discussion before coding. The problem bank recurs heavily — dependency-graph and referral-hierarchy counting, merge intervals, LRU cache, fractional-share inventory — and two patterns hold regardless of track. First, debugging is an explicit, graded skill: interviewers have hidden a second bug in a candidate's working solution and asked them to find it by mental tracing alone, no print statements allowed. Second, follow-ups keep arriving until time runs out — a correct first answer buys a harder variant, not a rest. Senior candidates sometimes get system design here instead, occasionally even open-book with the bar shifted to justifying every decision.
+Tracks share the structure but not the content. Software Engineer loops cover coding, object-oriented design, system design and a project deep dive. Frontend Engineer loops swap in a UI build and a client-side design. Mobile candidates code live in Xcode or Android Studio. At senior level, the screen itself can be system design, and some loops have two design hours.
 
-The virtual onsite is typically three to five back-to-back rounds: coding, a practical or object-oriented design round, system design, and a project deep dive, with a hiring-manager behavioral conversation added for some levels. Correctness is weighted over scalability in the coding rounds, and fully working code is the bar everywhere: leaving a comment like "handle edge case later" does not count, and one candidate attributed their rejection directly to code that did not run to completion. The practical round blends implementation with modeling — parsing commands for a social payments app, for example — and grades validation, class boundaries, and idempotency.
+Here's what the interview process can look like:
 
-System design draws from a small, stable bank that varies by track. The job scheduler is the single most reported prompt company-wide, followed by trading systems — order management and real-time quotes. Specialized tracks swap in their own flavors: a photo album with cross-device sync for frontend, Slack or a chess platform for ML-adjacent roles, access-control and audit-pipeline designs for security. Whatever the prompt, interviewers push hardest on failure semantics — silently dropped jobs, partitioned workers, crashes mid-money-movement. The role guides below break down the scheduler, trading, and frontend prompts in full detail.
+- **Online assessment (cold applicants, early career):** A timed test of about four coding tasks, mostly rule-heavy data processing.
+- **Recruiter screen:** A 15–30 minute call on motivation, your strongest project, work authorization and pay.
+- **Technical phone screen:** 45–60 minutes of live coding in a shared editor, or system design for some senior candidates.
+- **Coding interview:** A practical, finance-flavored problem, or a UI or mobile build on client tracks.
+- **Object-oriented design (Software Engineer):** A runnable payments model built from text commands.
+- **System design interview:** A job scheduler or trading system, or a client-side app for frontend roles.
+- **Project deep dive and behavioral:** One owned system, sometimes presented from slides.
+
+> **Tip:** Prepare each known prompt with its follow-ups. One candidate finished the planned problem and was handed a new one in the same hour.
 
 **[Read the full Robinhood interview process →](interview-process.md)**
 

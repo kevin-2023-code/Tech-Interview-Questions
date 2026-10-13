@@ -16,27 +16,32 @@ How Upstart interviews, and the questions candidates reported there. Free questi
 
 ## How Upstart interviews
 
-This deep-dive goes past the short outline on the company page: how the timed assessment is actually paced, why candidates run out of clock on problems they could solve, and what the later rounds ask of senior applicants. It draws on 16 real Upstart questions and 6 candidate interview reports, which concentrate on the recruiter call and the coding assessment that follows it.
+Upstart's early screens test reading speed as much as coding: several easy-to-medium problems with long, exact specifications, each on its own timer of roughly 12–17 minutes, plus a written explanation of your approach. The senior onsite adds an unusual project round in which you extend a full-stack app you bring with you.
 
-### Interview Process
+This guide breaks down each stage of the Upstart interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 5 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Upstart interview process
 
 <!-- guide-diagram -->
 ![Upstart interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/upstart/process.webp)
 <!-- guide-diagram -->
 
-#### Recruiter screen
+Recent reports concentrate on the first half of the loop: a recruiter call, then a timed online assessment or a timed coding phone screen. Candidates who pass move to a virtual onsite. Senior loops are typically about four hours across five sessions, while mid-level loops are typically three technical interviews plus a hiring-manager meeting. The process commonly takes about three weeks end to end.
 
-The loop opens with a short recruiter call, typically around 30 minutes, covering background, motivation, and logistics. Candidates report that the recruiter spends part of this call previewing the online assessment: its format, how many problems to expect, and that each problem is individually timed. Treat this preview as real information rather than small talk, because the assessment is where most reported journeys are decided. Upstart's stack leans on Ruby on Rails, but candidates have been allowed to interview in other languages after the recruiter flagged the preference.
+The early screens look the same across levels; level shows up in the project and design rounds. Data science loops follow a similar shape with probability and statistics rounds.
 
-#### Timed online assessment
+Here's what the interview process can look like:
 
-This is the stage our reports describe in the most detail, and it is the defining Upstart round. Candidates receive a proctored assessment of roughly an hour, with between two and five independent coding problems; four or five is the most common count reported. The platform enforces a strict per-question timer, reported at roughly 12 to 17 minutes for the shorter tasks and up to about 20 minutes for the two more involved ones, so you cannot bank time from an easy problem and spend it on a hard one.
+- **Recruiter screen:** A short call about background and motivation, plus a preview of the assessment format.
+- **Online assessment:** About an hour of four or five independent coding problems, each on its own timer, with a written explanation prompt.
+- **Technical phone screen:** One or two practical coding problems, or a run of timed string tasks, with long prompts.
+- **Project interview (onsite):** An hour adding requirements to a full-stack app you prepared in advance.
+- **System design and coding interviews (onsite):** An hour each, set at the target level.
+- **Hiring manager and values interviews (onsite):** Two 30-minute conversations about past work, ownership and fit.
 
-Problem difficulty is deliberately modest: the work is string manipulation, array cleanup, and small stateful simulations, not graph theory or dynamic programming. The catch is the prompts. Every report mentions unusually long problem statements; one candidate measured more than two minutes of reading per problem before writing a line, which on a 12-minute timer is a meaningful fraction of the budget. Recurring tasks include replacing periods with exclamation marks and extending every run of exclamation marks by one, decrypting a message through two layered substitution maps, restoring scrambled words using an anagram dictionary keyed on fixed first and last letters, formatting byte counts into B/KB/MB with two-decimal rules, simulating restaurant capacity and first-entry billing, computing the bounding box of points encoded as three strings, scaling a recipe to eight servings, reporting positional flags for a value in an array, calculating on-disk file size in allocation clusters, parsing a byte stream with a checksum, and deriving possible parent genotypes from ABO phenotypes. A phone-screen variant has paired a greedy west-to-east city-visiting problem with a CSV parser that must handle quoted fields and doubled quotes.
-
-After one or more problems, the assessment asks for an explanation of your approach in writing, with a short response window of a couple of minutes; candidates report this is triggered especially when a solution only partially passes. Grading is test-case driven, and a failing hidden case with no time left to debug is the most common way a strong candidate exits here.
-
-#### Hiring-manager conversation
+> **Tip:** Reading is the bottleneck. One candidate measured more than two minutes per problem just to read the prompt, on a timer of 12 to 17 minutes. Before typing, write the input shape, the rules in order, and the exact output format.
 
 **[Read the full Upstart interview process →](interview-process.md)**
 

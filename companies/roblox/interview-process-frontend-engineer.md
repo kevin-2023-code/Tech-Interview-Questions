@@ -6,102 +6,292 @@
 
 ---
 
-Frontend Engineer candidates here are most often rejected after every technical round has already passed. Reported loops run six sessions, and the ones that ended in rejection ended in the hiring-manager and executive conversations at the very end: one candidate was told technical execution was solid but the project stories showed assigned work rather than decisions personally driven, and another drew explicit concern that a fullstack background was not frontend-specialized enough. The second surprise comes at the start — the phone screen is a frontend system design discussion, not a coding exercise, so algorithm-only preparation fails before the loop begins.
+Roblox screens Frontend Engineers as specialists. Design outweighs algorithms: an image-feed design hour and an onsite dropdown-component session sit beside a single coding round and a UI build in vanilla JavaScript or React. The rounds that end loops come last. One candidate who passed every technical round was rejected because the profile read as fullstack rather than frontend and the project stories showed assigned work, not decisions the candidate drove.
 
-## Interview Process
+This guide breaks down each stage of the Roblox Frontend Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 51 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Roblox Frontend Engineer interview process
 
 <!-- guide-diagram -->
 ![Roblox Frontend Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/roblox--frontend-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (typically 30 minutes).** Background, level and role-alignment questions, plus in-office expectations — the San Mateo headquarters runs a three-day-a-week onsite policy. For this track the recruiter probes how much of your recent work was genuinely frontend, because specialization is graded later and mismatches get flagged here first. Candidates who passed the screen were told upfront the onsite would contain frontend coding, system design, and a hiring-manager behavioral round.
+Roblox hires into specific teams, so interviewers are usually future colleagues and design prompts follow the team's product surface. Experienced candidates typically get a recruiter call, one technical screen, an onsite of three sessions (component design, coding, behavioral), then separate hiring manager and executive conversations. Reported timelines run from about two weeks to three months.
 
-2. **Phone screen: frontend system design (60 minutes).** The dominant prompt is an image feed. Candidates walked through data fetching and the pagination-versus-infinite-scroll trade-off, rendering performance, lazy loading, caching, state management, varying viewport sizes, and structuring the component for reuse. One variant deliberately narrowed the scope — no likes, no comments — and spent the full hour on three pillars: infinite loading under fast scrolling, offline support (what metadata to persist, serving already-loaded images when connectivity drops, how stale entries are handled), and a layered testing strategy from unit tests on cache logic to integration tests on offline fallback and UI tests on scrolling. The interviewer supplied a detailed API specification and functional requirements up front, so the round rewards designing inside the given constraints rather than re-scoping. Some loops on this track have run this slot as a backend-shaped design instead — one candidate's only technical session was a real-time notification system covering delivery guarantees, queuing, consistency and fault tolerance at millions of concurrent users.
+New-grad and intern loops lean on an online assessment and algorithm coding. Senior and principal candidates get design as the first technical round and a director conversation that also sets the level. Onsites are increasingly in person, and the job requires three office days a week (Tuesday to Thursday) in San Mateo.
 
-3. **Onsite component design (60 minutes).** The recurring onsite prompt is a reusable dropdown menu built from scratch. Interviewers probe the props and API contract and how flexible it stays across use cases, accessibility with full keyboard navigation and screen-reader semantics, positioning strategy including portal-based rendering to escape overflow clipping, nested submenus, dynamically loaded content, and rendering performance with long option lists. It is a design interview answered at code level: state the controlled-versus-uncontrolled decision, the focus-management rules and the escape hatches before being asked.
+Here's what the interview process can look like:
 
-4. **Onsite coding (60 minutes).** Reports describe a hard-tier algorithm problem with intentionally relaxed constraints where brute force was acceptable; the round grades explanation quality and complexity analysis rather than optimality. Problems draw on hash maps, string and log parsing, arrays, intervals and simulation, typically written in JavaScript or TypeScript since the web stack is React and TypeScript.
+- **Recruiter screen:** About 30 minutes on background, salary, the office requirement and how frontend-heavy your work is.
+- **Online assessment (new grad and intern):** Cognitive mini-games, a situational-judgment section and two coding problems in 50 minutes.
+- **Technical phone screen:** 45 to 60 minutes building a UI component live, or a frontend design discussion.
+- **Frontend system design interview:** An hour on a client feature such as an image feed or a reusable dropdown.
+- **Coding interview:** One onsite hour on an algorithm problem, graded on explanation and complexity.
+- **Behavioral interview:** A structured session on projects, collaboration and conflict.
+- **Hiring manager and executive interviews:** Motivation, scope, ownership and, at senior levels, the level itself.
 
-5. **Onsite behavioral (45–60 minutes).** Past projects, cross-functional collaboration, a conflict and how it resolved, and how you pick up unfamiliar technology. Answers are expected in a tight situation-action-result shape; the interviewer keeps the session structured and moves on rather than digging.
+> **Tip:** Recruiters on this track often describe the first technical round precisely, down to "a UI component that manages state and responds to user events." Take it literally but prepare the other format too: candidates told to expect design have been given pure coding, and the reverse.
 
-6. **Hiring manager conversation (45–60 minutes).** Career goals, what you want from a team, how you approach engineering problems, and the team's current challenges. The distinctive element is a persistent, understated probe into whether your background is frontend-specialized or broadly fullstack; candidates who could not point to owned UI architecture, performance or accessibility work saw the loop slow or stall here.
+## Recruiter screen
 
-7. **Executive round (45–60 minutes).** A senior leader asks why Roblox specifically, why you left each previous role, then takes apart the most challenging project you have led, looking for decisions you drove and the impact they produced. Ownership is the explicit grading axis.
+Most candidates are sourced by recruiters, often through LinkedIn. The 30-minute call covers your resume, why you are looking, salary expectations and whether you can work from the office three days a week. Principal candidates are told the first technical round is system design and the onsite requires travel. Recruiters have been unusually open about format and have sent prep material. Candidates were also told that equity grants are sized partly by interview performance, there is no annual bonus, and signing bonuses are uncommon.
 
-8. **Decision.** A committee reviews the packet after the loop rather than each interviewer deciding, so the mood in individual rounds predicts little. One rejected candidate was told their profile would be forwarded to other teams, so a lost loop for one team is not always the end.
+Interviewers evaluate:
 
-## What They Actually Evaluate
+- **Frontend depth:** Recent, owned React and TypeScript work rather than a general fullstack mix.
+- **Scale:** Traffic and user counts on the surfaces you shipped.
+- **Location fit:** A clear yes on the office schedule or on relocating.
+- **Motivation:** A specific reason for Roblox, not gaming in general.
 
-### System Design
+Prepare a two-minute summary that leads with your strongest frontend architecture or performance work.
 
-Two design rounds — the frontend design screen and the onsite component session — put design, not algorithms, at the center of this track. The image feed round is graded on concrete mechanisms: the pagination contract against the supplied API, a virtualization or windowing plan, a cache store with an explicit staleness rule, what is persisted for offline reads, and how each layer is tested. Candidates who stayed at "I would cache the images" without naming store, eviction policy or fallback path lost the round. Expect the conversation to cross the client boundary into push versus poll, ordering, and what the server contract must guarantee.
+### Sample questions for the recruiter screen
 
-- [Design Frontend Feed Status App](https://trueinterview.io/questions/design-frontend-feed-status-app)
-- [Front-End System Design: Notification System](https://trueinterview.io/questions/front-end-system-design-notification-system)
+Here are some questions reported by recent candidates:
 
-### Low-Level Design
+- Walk through your background and the projects on your resume.
+- Why are you leaving your current role, and what do you want next?
+- Can you work from the San Mateo office three days a week?
 
-The dropdown round is component API design under scrutiny, and where accessibility is actually tested rather than mentioned: keyboard interaction for every state, focus trapping and restoration, roles and labels, rendering through a portal to escape a clipping ancestor, and what changes when the list is long enough to need windowing or submenus load asynchronously. The failure mode is answering with a rendering approach and leaving the interface contract, state ownership, and error and empty states undefined.
+## Online assessment
 
-- [Design a Multi-Resource Resource Loader](https://trueinterview.io/questions/design-a-multi-resource-resource-loader)
-- [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system)
-- [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2)
+The assessment goes mainly to new-grad and intern applicants, sometimes right after they apply. It opens with gamified tasks: a factory game (find bottleneck stations, route money to profitable lines), a builder game (assemble vehicles or robots to cross terrain) and Mars: Outpost, a modular programming game. A situational-judgment section of about 23 workplace scenarios follows, at roughly one per minute, picking the most and least effective response.
 
-### Coding and Algorithm
+The coding part is two problems in 50 unproctored minutes on CodeSignal, leaning toward simulation and data processing: a robot on a grid where lasers destroy whole rows and columns, file chunks merged into consecutive byte ranges, digit-rotation pairs, and a grouping task modeled on group anagrams. Some finished in 20 minutes; others lost hidden tests to an O(N² · L) rotation comparison that timed out. At least one candidate was rejected at this stage.
 
-One onsite hour with an unusual bar: hard-tier problems arrive with constraints relaxed enough that brute force passes, so the round tests whether you can decompose out loud and state complexity correctly. Signal comes from clarifying inputs, naming the naive approach and its cost, then discussing what an optimization would buy. Silent typing is how candidates lose it — there is no partial credit for an optimal solution nobody could follow.
+Interviewers evaluate:
 
+- **Hidden-test correctness:** Pairwise brute force passes samples and times out; a canonical minimal rotation is expected.
+- **Index precision:** The laser grid is 1-indexed and the start cell counts as zero steps.
+- **Boundary rules:** Chunks [1, 3] and [4, 6] merge because 4 is at most 3 + 1.
+- **Scenario judgment:** Assessing risk, telling stakeholders and adding monitoring beats hiding a bug.
+
+Practice timed simulation and interval problems with careful indexing, about 20 minutes each.
+
+> **Note:** In Mars: Outpost, only functions encapsulated during the test phase can be called later, and defaults cannot be changed afterward. Encapsulate everything before moving on.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Lasers destroy their whole row and column; return the robot's longest safe straight-line walk.
+- After each file-upload chunk arrives, return the current consecutive byte ranges.
+- A non-critical bug appears just before launch: pick the most and least effective response.
+
+- [Lasers and Robot](https://trueinterview.io/questions/cc7ea860-4eb6-5776-9026-f8bb5368ca1b)
+- [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges)
+- [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs)
+- [Choose Best/Worst Actions Under Time Pressure](https://trueinterview.io/questions/choose-best-worst-actions-under-oa-pressure)
+
+## Technical phone screen
+
+The screen is a 45- to 60-minute video call with an engineer and takes one of three forms. The most frontend-specific is a live UI build. One prompt was a six-key piano in vanilla HTML, CSS and JavaScript: holding the mouse or the matching letter key adds an `active` class, releasing removes it, chords work, other keys are ignored. Another was Tic-Tac-Toe in React with a configurable board and two players; that candidate never reached the game logic and also lost time when the shared editor stopped syncing and showed the interviewer a stale error.
+
+The second form is the image-feed design hour described below. The third is an algorithm problem: one frontend candidate passed a most-frequent-element-in-a-call-stack problem with two follow-ups and was told the onsite would cover frontend coding, design and a hiring manager round.
+
+Interviewers evaluate:
+
+- **Event handling:** Correct keydown/keyup and mousedown/mouseup, including key repeat and releases outside the element.
+- **State modeling:** One source of truth for active keys or board cells, so chords and board sizes fall out naturally.
+- **Requirement coverage:** Every stated rule, input filtering included, before polish.
+- **Pace:** A playable core early; setup that never reaches the logic reads as a miss.
+
+Practice building small widgets from a blank file in 30 minutes, once in plain DOM code and once in React with TypeScript.
+
+> **Tip:** Run the starter environment in the first two minutes. When the editor misbehaves, the interviewer may see errors you cannot, and flagging it early protects your time.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Build a six-key piano in plain JavaScript that responds to held mouse buttons and letter keys, supports chords and ignores other keys.
+- Build two-player Tic-Tac-Toe in React with a configurable board size.
+- Find the most frequent function in a call stack, then add a tie-break and per-thread results.
+
+- [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui)
+- [Configurable Tic-Tac-Toe Board](https://trueinterview.io/questions/027d9159-df55-5351-b2d2-b3f7e1bbac99)
+- [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md)
 - [Flatten Nested Array](https://trueinterview.io/questions/flatten-nested-array)
+
+## Frontend system design interview
+
+Design decides this track technically and can appear twice. The recurring screen prompt is an image feed. In one version the interviewer handed over a detailed API specification and requirements, removed likes and comments, and spent the hour on three areas: infinite loading under fast scrolling, offline support (what metadata to persist, serving loaded images without a connection, handling stale entries), and testing from cache unit tests to offline integration tests and scroll UI tests. Another version weighed pagination against infinite scroll, rendering performance and state management.
+
+The onsite session is a component: a reusable dropdown built from scratch, probed on its props API, keyboard navigation, screen-reader semantics and positioning through a portal to escape a clipping parent. Some loops instead ran a backend-leaning prompt, a real-time notification system for millions of users with delivery guarantees and queuing; that candidate was rejected on backend depth.
+
+Interviewers evaluate:
+
+- **Working inside the spec:** Using the supplied API rather than re-scoping the problem.
+- **Concrete mechanisms:** A named store, eviction and staleness rule, and windowing plan; "cache the images" loses the round.
+- **Accessibility:** Focus management, keyboard behavior and roles, raised before being asked.
+- **Component API:** Controlled versus uncontrolled state, composition points, empty and error states.
+- **Testing strategy:** Which layer catches which failure, especially offline and scroll behavior.
+
+Rehearse an image feed and an accessible dropdown aloud, each in 45 minutes from requirements to tests.
+
+> **Note:** When a detailed API is handed over, grading follows how well the design uses it. Time spent proposing a different backend contract is time not spent on offline support or tests.
+
+### Sample questions for the frontend system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design an infinitely scrolling image feed against a given API, covering fast scrolling, offline viewing and a layered test plan.
+- Design a reusable dropdown menu with keyboard support, screen-reader semantics and portal positioning.
+- Design a real-time notification system for millions of concurrent users with delivery guarantees.
+
+- [Build an Image Feed (Infinite Scroll + Offline Support + Testing)](https://trueinterview.io/questions/e2867a7a-4237-432e-be98-b694a3f3ca9e)
+- [Design Frontend Feed Status App](https://trueinterview.io/questions/design-frontend-feed-status-app)
+- [Notification System](https://trueinterview.io/questions/front-end-system-design-notification-system)
+- [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app)
+
+## Coding interview
+
+Roblox usually runs one onsite coding hour in a runnable editor (CodeSignal in recent loops). In the reported frontend loop it was a hard-tier problem with constraints relaxed enough that brute force passed; the grade rested on explaining the approach and analyzing complexity. JavaScript or TypeScript is fine.
+
+Problems come from a bank shared with other engineering tracks. The most common family parses function-call logs: return the most frequent active call path, then handle interleaved multi-threaded logs with one stack per thread, or return the top K functions across stack traces with alphabetical ties. Others include a cursor with move, insert and delete across many boundary cases, a topological sort that must pick the smallest available ID, and, for new grads, a hat-assignment problem paired with a Candy Crush simulation. One interviewer accepted pseudocode when time ran out; another demanded bug-free code passing every test.
+
+Interviewers evaluate:
+
+- **Clarifying first:** Empty inputs, ties, K larger than the distinct count.
+- **Stated complexity:** A correct bound for the naive approach and what optimizing would buy.
+- **Parsing discipline:** Simple logic, but enough code to hide off-by-one and nesting bugs.
+- **Clean extension:** Per-thread follow-ups should be a dictionary away, not a rewrite.
+
+Drill stack-and-hash-map parsing problems and their multi-threaded extensions, narrating as you code.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- From function start and end logs, return the most frequent active call path, then extend to interleaved threads.
+- Return the top K function names across stack traces, breaking ties alphabetically.
+- Order courses from prerequisites, always taking the smallest available ID, and report cycles.
+
+- [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain)
 - [Most Frequently Called Function From Logs](https://trueinterview.io/questions/most-frequently-called-function-from-logs)
-- [Optimize the Space of Code in Coding Screen](https://trueinterview.io/questions/92dadf5d-6db1-424c-b110-2cd7b367704d)
+- [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering)
+- [Candy Crush Grid Matching and Gravity](https://trueinterview.io/questions/candy-crush-grid-matching-and-gravity)
 
-### Domain Deep Dive
+## Behavioral interview
 
-Design prompts are drawn from surfaces this platform actually ships — feeds of user-generated content, game detail pages, social proof lines, notification streams — and interviewers reward reasoning about that content's properties: unbounded and unevenly sized media, one experience going viral and skewing every cache, friend-graph fan-out driving what a page must show, and moderation state that can change after render. Generic social-app answers pass; naming the platform-specific hazard reads a level above.
+A team member runs this onsite session, typically 45 to 60 minutes. It is tightly structured: past projects, cross-functional collaboration, a disagreement, a hard trade-off, learning unfamiliar technology, with little probing. One loop fit more than 15 questions into 45 minutes. Some loops add a project presentation challenged on trade-offs and what you would change.
 
-- [Design Instagram](../../questions/system-design/design-instagram/README.md)
+Interviewers evaluate:
 
-### Behavioral and Leadership
+- **Concise structure:** Situation, action, result in about two minutes, since follow-ups may never come.
+- **Personal decisions:** What you chose and against which alternative.
+- **Measured outcomes:** Load-time, conversion or error-rate numbers.
+- **Design and product partnership:** How a UI trade-off disagreement was resolved.
 
-Three reported sessions are non-technical — behavioral, hiring manager, executive — which is why outcomes on this track are so often decided outside the technical rounds. Interviewers want proactive ownership: a problem you spotted before it was assigned, the call you made, the resistance you handled, the measured result. Motivation questions are asked literally, and vague answers about growth read as a lack of conviction. The documented rejection reason for this track is narratives that show execution without initiative.
+Prepare eight short stories, each turning on a decision you made, with a number attached.
 
-## What They Don't Test
+### Sample questions for the behavioral interview
 
-- **Algorithmic optimality.** Hard problems come with relaxed constraints and brute force accepted; explanation clarity and correct complexity analysis earn the round instead.
-- **Framework trivia.** No reported round quizzed lifecycle methods, hook internals or configuration syntax — component architecture decisions get probed instead.
-- **Pixel-level visual implementation.** No styling-fidelity or CSS-recreation exercises appear; rendering performance, viewport behavior and clipping are the visual concerns that do.
-- **Backend depth as a specialty.** Design talk crosses into queues, delivery guarantees and consistency, but no round required schema tuning or storage internals — stating what the client needs from the server is enough.
-- **Breadth over ownership in your story bank.** A long list of shipped projects does not clear the executive round; one deep story where you made and defended a decision does.
+Here are some questions reported by recent candidates:
 
-## The Real Filter
+- Tell me about a time you disagreed with a teammate and how it was resolved.
+- Describe a difficult trade-off you made under a deadline.
+- How do you handle a blocker from a team you depend on?
 
-The primary rejection path is the ownership read in the final two rounds. Every technical round can pass and the loop still ends here, because the hiring manager and the executive grade a different thing: whether you drive decisions or receive them. Candidates misjudge it because these feel like fit conversations after the real interviews are over, so they narrate projects chronologically and credit the team. The documented feedback was solid technical execution but project narratives lacking proactive decision-making. Rebuild two or three stories around a decision point — what you noticed, what you chose against an alternative, who disagreed, what shipped, what it measurably changed.
+- [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers)
+- [Demonstrate fit with quantified stories and motivations](https://trueinterview.io/questions/demonstrate-fit-with-quantified-stories-and-motivations)
 
-The second pattern is role-alignment doubt. This track is screened as a specialization, and a fullstack-leaning profile has slowed loops and contributed to rejections even with strong performance. If your recent work spans the stack, front-load frontend evidence: a rendering-performance fix with numbers, an accessibility rework, a component system you designed, an offline strategy you shipped.
+## Hiring manager and executive interviews
 
-The third is assuming the phone screen will be coding. It is a design conversation, and the image feed prompt with its supplied API and requirements has repeated across loops. Candidates who drilled only algorithms spend the first fifteen minutes discovering the format, and the round has no fifteen minutes to spare.
+These come last, typically two 45-minute conversations: the hiring manager, then a director, VP or senior leader. The manager covers career goals, the team's challenges and the scale you have worked at, sometimes asking for daily active users and traffic figures. On this track the manager also checks quietly whether your background is frontend-specialized.
 
-## Data Source
+The executive asks why Roblox, why you left each role, and then dissects the hardest project you led, looking for decisions you drove. At senior levels the director round doubles as the leveling conversation. These rounds have ended loops in which every technical round passed, and one candidate's manager round was cancelled after a clean technical screen.
 
-Based on 51 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Interviewers evaluate:
 
-## FAQ
+- **Ownership:** A problem you found unassigned, the call you made, who disagreed and what shipped.
+- **Frontend specialization:** Owned UI architecture, performance, accessibility or design-system work.
+- **Scope for the level:** How many teams or users your decisions affected.
+- **Motivation:** A concrete reason for Roblox's products and audience.
 
-**What is the job actually like on the frontend side?**
+Rebuild two or three projects around one decision point each and rehearse them for an interviewer who keeps asking why.
 
-Our reports document the hiring loop rather than daily work, so this is context: the web organization ships React and TypeScript across the main site and companion surfaces, feature teams own their surfaces end to end, and changes reach a very large live audience quickly — the part engineers describe as the main draw. The company runs a three-day in-office week at its San Mateo headquarters with a punctual, tightly scheduled meeting culture. Our reports say nothing about compensation or hours.
+> **Note:** The documented rejection on this track followed strong technical feedback. The stated reasons were role alignment (fullstack, not frontend) and narratives showing execution without proactive decisions.
 
-**What is the engineering culture like?**
+### Sample questions for the hiring manager and executive interviews
 
-Product-engineering oriented rather than research oriented, and unusually specific: interviewers ask for the mechanism — the cache, the portal, the focus rule — not an architectural philosophy. The stated values around community respect, responsibility, long-view thinking and shipping appear directly in the behavioral and executive rounds. Because the audience skews young, design discussions can turn to moderation, age-appropriate content and parental controls, and treating those as first-class requirements reads well.
+Here are some questions reported by recent candidates:
 
-**How hard is it to get in?**
+- Why Roblox, and why did you leave each previous role?
+- Walk me through the most challenging project you led and the decisions you made.
+- What is the largest traffic scale you have worked at, and what broke as it grew?
 
-Hard, with the difficulty concentrated late. Technical rounds were frequently cleared and the loop still ended in rejection at the fit and ownership stages, and a committee reviews the outcome after the loop rather than any single interviewer deciding. Specialization matters more than at generalist employers: a strong engineer with a diffuse profile can lose on alignment alone. On the upside, a rejected candidate's profile has been forwarded to other teams internally.
+- [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/questions/behavioral-hm-traffic-and-scope)
 
-**Which round is hardest?**
+## How Roblox levels and evaluates Frontend Engineer candidates
 
-The executive round, judged by where loops actually end — it is short, has no technical scaffolding to hide behind, and asks you to justify your career moves and prove you drove your own projects. Among technical rounds, the frontend design screen is the most demanding, because one hour has to cover pagination, rendering performance, an offline strategy and a testing plan against an API specification you are seeing for the first time.
+Feedback goes to a hiring committee, then VP and compensation review; no single interviewer decides. The target level is set before the loop but can move: one candidate accepted an offer a level below target, and offering to take a lower level after a weak loop has not saved an offer. Rejections have arrived the same afternoon; one senior verbal offer came the day after an onsite split over two days; other candidates waited weeks in committee and compensation review.
+
+> **Tip:** Confirm the target level before the onsite. At senior grades the director conversation sets it, so bring scope numbers (teams, users, surfaces) for the projects you plan to discuss.
+
+## How to prepare for the Roblox Frontend Engineer interview
+
+1. **Master the image feed:** Infinite loading against a given API, an offline cache with a staleness rule, and a three-layer test plan in under an hour.
+2. **Build an accessible dropdown:** Keyboard navigation, focus restoration, ARIA roles and portal positioning, with the API stated first.
+3. **Code UI without a framework:** Held keys, chords and ignored input in plain DOM code, then the same widget in React with TypeScript.
+4. **Drill the log-parsing family:** Call paths, top-K stack frames and per-thread extensions, with complexity stated up front.
+5. **Front-load frontend evidence:** Lead with performance fixes, accessibility work or component systems you owned, with numbers.
+6. **Rewrite stories around decisions:** What you noticed, what you chose over an alternative, who pushed back, what changed.
+7. **Make "why Roblox" specific:** Tie it to a surface such as discovery, the avatar marketplace or creator tools.
+
+## About the Roblox Frontend Engineer role
+
+Frontend engineers build the website and app surfaces users and creators touch: discovery pages, the avatar marketplace, creator dashboards and internal engine tooling. The web stack is React and TypeScript. Some teams also work in Luau through internal React-inspired UI libraries that render across iOS, Android, Xbox and VR. Feature teams own a surface end to end with product, design and data partners.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC1–IC2 (Software Engineer) | Shipping features and components | A single surface |
+| IC3–IC4 (Senior Software Engineer) | Owning feature areas and technical direction | A team and its partners |
+| IC5 (Principal) | Frontend architecture and standards | An organization |
+| IC6 (Senior Principal) | Platform-wide technical strategy | Multiple organizations |
+
+Roblox hires Frontend Engineers across teams including:
+
+- **Discovery:** Home, search and recommendation surfaces for finding experiences.
+- **Avatar Marketplace:** Commerce UI for avatar items across web and cross-platform clients.
+- **Avatar Search and Discovery:** UI components that carry a majority of on-platform commerce.
+- **Engine Productivity Tools:** Internal engine tooling in TypeScript, React and C#.
+- **Frontend Architecture:** Frontend standards and the internal Luau UI libraries.
+
+### Frontend Engineer experience and education requirements
+
+New-grad postings ask for a computer science or related degree (or enrollment), a language such as JavaScript, TypeScript, C++ or Lua, and a framework such as React, Angular or Vue. Senior postings ask for roughly five to eight years building user-facing React and TypeScript applications, with Redux- or Flux-style state management. Principal postings ask for eight or more years plus deep HTML, CSS and component-architecture expertise. Mobile or game development and Luau are pluses.
+
+## FAQs about the Roblox Frontend Engineer interview
+
+### How long does the Roblox Frontend Engineer interview process take?
+
+Usually a few weeks to a month from the first technical round to a decision. One senior candidate had a verbal offer the day after the onsite; another counted three months from recruiter contact to offer.
+
+### What is the hardest round of the Roblox Frontend Engineer interview?
+
+By where loops end, the executive round: short, with no technical work to lean on, and focused on proving you drove your projects. Among technical rounds, the frontend design hour, which must fit pagination, rendering, offline support and testing against an unfamiliar spec.
+
+### Is there an online assessment for frontend roles?
+
+Mainly for new-grad and intern applicants: mini-games, situational judgment and two coding problems in 50 minutes. Experienced candidates usually go straight to a technical screen.
+
+### How much does a Roblox Frontend Engineer make?
+
+Approximate total annual compensation for software engineers by level:
+
+- **IC1:** ~$220K
+- **IC3:** ~$340K–$420K
+- **IC4:** ~$460K–$500K
+- **IC5:** ~$680K–$760K
+
+Packages are base salary plus a stock grant that dominates at senior levels, with no annual bonus.
+
+### Is the Roblox Frontend Engineer interview remote?
+
+Screens are remote. Onsites are increasingly in person, and principal candidates were told to expect travel to San Mateo. The job requires three office days a week.
 
 ---
 

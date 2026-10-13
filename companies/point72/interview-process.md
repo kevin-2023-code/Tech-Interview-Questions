@@ -6,61 +6,241 @@
 
 ---
 
-Point72 does not run one interview loop — it runs a different one per hiring desk, and that variance is the hardest thing to prepare for. What holds across tracks is a preference for practical, market-flavored problems over algorithmic showpieces, and an assessment stage that grades exact output rather than approach. Going deeper than the summary on the company page, this guide draws on 13 real Point72 questions and 12 candidate interview reports to show what each stage contains and where candidates lose the process.
+Point72 hires desk by desk, and each desk designs its own loop: a data engineer may sit three themed phone screens and a five-part onsite, while a software developer finishes after an assessment and two short calls. What holds across tracks is a preference for practical, market-flavored work (trading optimizers, transaction validation, fraud queries) over algorithm showpieces, an online assessment graded on exact output, and very little behavioral content.
 
-## Interview Process
+This guide breaks down each stage of the Point72 interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 12 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Point72 interview process
 
 <!-- guide-diagram -->
 ![Point72 interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/point72/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** Most loops open with a short call that walks the resume and establishes which team you fit. It is light on structure, but it is where language expectations get set: one software candidate was asked about a preference for working in C#, and later rounds were built on that answer. Not every loop starts here — a senior data engineering candidate reached through cold outreach began with the assessment instead. Scheduling is handled loosely, so raise time zones early; one West Coast candidate was offered a 7 a.m. slot without comment.
+The hiring team sets the topics, the number of rounds and even the order. Most loops open with a recruiter call and an online assessment, then run one to three technical phone screens and a final round. Reported loops range from a single onsite round to five stages, and from a few weeks to about three months.
 
-**Online assessment.** Delivered on HackerRank, typically a small number of problems in a fixed window of roughly 90 minutes, and its content varies more than at most firms. Reported shapes include two algorithmic problems plus a block of multiple-choice technical questions; a DFA simulation and an array-beauty problem alongside multiple choice on defensive testing and the benefits of pair programming; a SQL fraud-detection section built on CTEs, HAVING filters, ROW_NUMBER ranking, STRING_AGG with CASE WHEN, and TO_CHAR with the FM modifier, paired with a PySpark section using left semi joins, concat_ws, and casting to double before sorting; an election exit-poll report requiring top-three states per candidate with alphabetical tie-breaking and exact formatting, followed by PySpark transaction validation graded by provided unit tests; and, on one data-and-AI loop, an algorithm problem plus a five-part prompt-engineering exercise. The grading is unforgiving on presentation: candidates report losing cases to an ellipsis rendered with three dots instead of two and to numbers carrying leading spaces. Backtracking solutions have timed out where dynamic programming was needed, and the interface truncates visible rows, so scroll before assuming you have seen the data.
+The shape shifts more by track than by level. Software roles lean on medium algorithm problems plus language questions (C# on some teams, idiomatic Python on others). Data roles are built around SQL, pandas, PySpark and pipeline reliability. Quantitative research screens cover probability, statistics, machine learning and some C++. Senior data candidates add design discussions on ingestion and Spark internals; systems candidates get C++ container design.
 
-**Technical phone screens.** Loops run one to three of these, each partitioned by theme rather than escalating on one problem. A software screen mixed SQL and Python live in a shared editor: a query producing a derived table with both aggregates and computed columns, an explanation of why particular functions were chosen, then a `compose` implementation whose first function is variadic while every later one is unary, then `DictMixin` and `JSONMixin` classes that must skip underscore-prefixed attributes and raise a `TypeError` rather than emit broken JSON. A different software loop ran two screens of standard algorithm work — a buy-and-sell-stock variant with a transaction cap, a hash-map problem at easy difficulty — with C# conceptual questions attached to both. Data engineering candidates report three separate screens: Python and SQL fundamentals extended into heap versus stack and Python garbage collection; API-driven ingestion covering pagination, filtering, and schema evolution; and streaming challenges such as computing a median or arbitrary percentile over a high-volume stream under a memory cap, plus pipeline monitoring. A machine learning screen was two calls, one a business case study with no engineering content at all, the other pure pandas wrangling built around merge semantics, key mismatches, duplicate rows, and a custom apply. Quantitative research screens run broad and fast: optimal stopping over three dice rolls, uniform-arrival meeting probability, Poisson rate inference, p-values and Type I and II errors, choosing among Z-, t-, chi-square, and F-tests, ensemble methods, C++ object orientation, and two standard algorithm problems — or, in another report, auction theory folded straight into comparison-count puzzles about finding the largest and second-largest of 32 items.
+Here's what the interview process can look like:
 
-**Final rounds.** The onsite differs by desk. A senior data engineering onsite was five back-to-back sessions: a data-ingestion design discussion (API design, data lake structure, schema design, cost optimization); a Spark internals deep dive on very large joins, query optimization, and data skew; a SQL exercise on complex window functions; an Airflow session on observability and alerting; and a hiring-manager conversation about the role of AI in data engineering. Another data engineering onsite was a single Python exercise — a Portfolio Trading Optimizer requiring a `validate_prices` decorator, a transaction search function, and a formatted report generator. A systems-oriented onsite ran two C++ class-template designs back to back, then rapid questions on mmap, TCP versus UDP, atomics, and the TLB. Several software teams run a lighter shape: two technical rounds plus a hiring-manager conversation.
+- **Recruiter screen:** A short resume walk-through that places you on a team and sets language expectations.
+- **Online assessment:** A timed test of roughly 45–90 minutes mixing algorithms, SQL or PySpark, multiple choice and, on AI teams, prompt engineering.
+- **Technical phone screens (one to three):** Live calls, each owning one theme, such as Python and SQL, API ingestion, streaming or Spark.
+- **Quantitative research screen (quant tracks):** One fast call spanning probability, statistics, machine learning, C++ concepts and coding.
+- **Final rounds:** From one long Python or C++ exercise to five back-to-back sessions on design, Spark, SQL and orchestration.
+- **Behavioral and hiring manager interview:** A short conversation on stakeholder work, data incidents and views on AI.
 
-**Behavioral coverage and timing.** Behavioral content is thin and occasionally literal — one candidate described a round read from a fixed questionnaire with no dynamic follow-ups, blended with questions about personal views on AI. Data engineering loops want one concrete stakeholder-collaboration story and one data-quality incident, not a full battery. Timelines swing hard: one senior data engineering process ran about three months from assessment to decision, while a single onsite round produced a rejection a week later. No feedback is given after a rejection, and recruiters going quiet is common enough that a silent inbox carries no information either way.
+> **Tip:** Ask the recruiter in writing which themes each round covers. Candidates report that topics were not shared in advance, and with each screen owning one theme, knowing the themes is most of the preparation.
 
-## What Candidates Report
+## Recruiter screen
 
-- The assessment is a formatting exam as much as a coding exam. Output shape, numeric formatting, and delimiter details decide hidden cases, and candidates who solved the logic still failed on presentation.
-- SQL and Spark are not supporting skills here; they carry entire rounds. Window functions, CTEs, ranking with ties, left semi joins, lazy evaluation, and skew handling appear as primary content, not warm-ups.
-- Rounds are partitioned by theme rather than escalated on one problem. Each screen owns a topic — memory management, API ingestion, streaming, Spark — so breadth across the stack beats depth in one area.
-- The problems are domain-flavored: trading optimizers, transaction validation, fraud detection, exit-poll reporting. Candidates repeatedly describe this as more practical than a standard big-tech loop, but it means generic algorithm drilling covers only part of the surface.
-- Interviewer experience is uneven. One candidate reported an openly hostile interviewer whose hints pointed the wrong way, answered everything anyway, and was rejected a week later with no explanation.
-- Communication is the recurring complaint: no post-rejection feedback, recruiters who stop replying after the loop ends, and scheduling offered without regard to the candidate's time zone.
+The call is a resume walk-through, why the team, and which language you work in. Later rounds are built on the answers: one software candidate was asked about working in C#, and both later phone screens included C# conceptual questions. Some loops skip the call; a senior data engineer reached through cold outreach started with the assessment.
 
-## Coding Questions
+Interviewers evaluate:
 
-The coding pool splits in two. The assessment side is compact and algorithmic — automata simulation, array optimization, greedy and dynamic programming under tight limits. The live side is Python and SQL fluency dressed in market data: decorators, mixins, function composition, dataframe wrangling, and report generation, judged on working code and clean structure rather than on the cleverest asymptotics.
+- **Stack fit:** Whether your daily languages (C#, Python, Java, Scala) match the desk's codebase.
+- **Domain exposure:** Prior work with financial data, trading workflows or alternative data.
+- **Logistics:** Location, time zone and office expectations; many roles are in-office or hybrid in New York or Stamford.
 
-- [DFA Simulation: Binary String Acceptance](https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe)
-- [Implement DictMixin and JSONMixin for object serialization](https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc)
-- [Portfolio Trading Optimizer (Multiple Transactions + Input Validation + Report)](https://trueinterview.io/questions/931ca2a6-3886-4c5c-84f7-d2208582067e)
-- [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907)
+Prepare a two-minute resume story that names the languages and data tools you are ready to be tested on.
+
+> **Note:** Scheduling is handled loosely. A West Coast candidate was offered a 7 a.m. slot without comment, so raise time-zone limits early.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk me through your resume and the systems you built.
+- How do you feel about working primarily in C#?
+- Why Point72, and why this team?
+
+## Online assessment
+
+The assessment runs 45 to 90 minutes and varies more than at most firms. Software versions pair two algorithm problems with multiple choice: one recent test had a finite automaton simulation and an array-beauty optimization alongside questions on defensive testing and pair programming. Data versions are SQL plus PySpark. One SQL section was fraud detection (group transfers by sender and recipient, keep pairs seen twice or more with HAVING, rank amounts with ROW_NUMBER, format with STRING_AGG and CASE WHEN); its PySpark half used left semi joins, concat_ws and casting before sorting. Another was an election exit-poll report followed by PySpark transaction validation graded by unit tests. A data-and-AI version added a five-part prompt-engineering task.
+
+Interviewers evaluate:
+
+- **Exact output:** Candidates lost hidden cases to a three-dot ellipsis where two were specified and to numbers with leading spaces (TO_CHAR needs the FM modifier).
+- **Tie-breaking:** Top-three states per candidate, ties broken alphabetically, stated once in the prompt.
+- **Complexity under limits:** Backtracking timed out on the array problem where dynamic programming was needed.
+- **Type discipline:** Sorting an amount column before casting it to double sorts strings, not numbers.
+
+Practice SQL and PySpark tasks against a timer, then diff your output against the sample character by character.
+
+> **Note:** The test interface truncates visible table rows. Scroll through the full input before assuming you have seen the data.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Simulate a deterministic finite automaton over binary strings.
+- List each candidate's top three states by votes, breaking ties alphabetically, with exact formatting.
+- In PySpark, keep transfers that pass a balance check and whose destination account exists, then return the top 10 senders by distinct transaction count.
+- Write five prompts that filter a news feed for an Olympic coach.
+
+- [Simulate a Deterministic Finite Automaton](https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe)
 - [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4)
-- [Find Minimum in Rotated Sorted Array](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c)
+- [Design a News-Filtering Prompt](https://trueinterview.io/questions/design-a-news-filtering-prompt)
+- [Convert integer dates to quarters](https://trueinterview.io/questions/convert-integer-dates-to-quarters)
+
+## Technical phone screens
+
+Loops run one to three live screens with an engineer, typically 30 to 45 minutes, in a shared editor. Each screen owns a theme rather than escalating one problem. A 2026 software screen asked for a SQL derived table with aggregates and computed columns, with a defense of each function choice, then a `compose` function and two serialization mixins. An earlier software loop ran two algorithm screens (stock trading capped at k transactions, then an easy hash-map problem), each with C# questions. A senior data engineer sat three: Python and SQL extended into heap, stack and garbage collection; API ingestion with pagination and schema evolution; and streaming percentiles under a memory cap. A machine learning engineer got one business case and one pure pandas session.
+
+Interviewers evaluate:
+
+- **Language precision:** In `compose`, the first function is variadic and the rest unary; `to_dict` skips underscore-prefixed attributes and `to_json` raises `TypeError` on unserializable values.
+- **Reasoning about choices:** Explaining why a window function or aggregate fits, not just producing rows.
+- **Spark depth:** Lazy evaluation, shuffle reduction and partitioning trade-offs.
+- **Failure handling:** For a stream where about 2% of records fail validation, isolate, retry, dead-letter and alert without blocking the pipeline.
+- **Merge semantics:** Join types, unmatched keys and row explosion from duplicate keys in pandas.
+
+Rehearse explaining trade-offs aloud while typing, since screens grade the explanation as heavily as the code.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Implement `DictMixin` and `JSONMixin`, deciding where to detect unserializable values.
+- Compute the median or any percentile over a high-volume stream with capped memory.
+- Merge two dataframes with mismatched and duplicated keys, then transform a column with a conditional apply.
+
+- [Implement DictMixin and JSONMixin for object serialization](https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc)
+- [Design a system to find median in a data stream under memory constraints](https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c)
+- [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907)
+- [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md)
+- [Explain Spark Execution and Optimization](https://trueinterview.io/questions/explain-spark-execution-and-optimization)
+
+## Quantitative research screen
+
+Quantitative researcher candidates report one wide call rather than several themed ones. It opens with motivation, how you learned finance and which strategies you know, then moves fast. One 2026 call covered three probability problems, hypothesis-testing definitions, choosing among Z-, t-, chi-square and F-tests, ensemble methods, C++ object orientation, and two standard coding problems (greedy and binary search). Another went from auction theory straight into comparison-count puzzles. The systematic arm, Cubist, runs its own pipelines.
+
+Interviewers evaluate:
+
+- **Clean derivations:** Optimal stopping over three dice rolls solved backward from the last roll.
+- **Economic intuition:** Truthful bidding dominates in a second-price auction; bids shade below value in a first-price auction.
+- **Algorithmic counting:** The largest of 32 items takes 31 comparisons; the runner-up needs only 4 more, among items that lost to the winner.
+- **Statistical vocabulary:** Precise definitions of p-value, significance level and Type I and II errors.
+
+Drill classic probability and statistics questions until each takes under five minutes, derivation included.
+
+### Sample questions for the quantitative research screen
+
+Here are some questions reported by recent candidates:
+
+- Two people arrive uniformly between 1:00 and 2:00 and each waits 15 minutes; what is the chance they meet?
+- If at least one car passes in an hour with probability 0.96 under a Poisson process, what is it for half an hour?
+- How many extra comparisons find the second largest of 32 items after a tournament finds the largest?
+
 - [Optimal Stopping with Up to Three Dice Rolls](https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be)
+- [Find the Largest and Second Largest Elements](https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27)
+- [Derive the Optimal Bid in a Two-Bidder Second-Price Auction](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction)
+- [Choose and Explain a Classical Hypothesis Test](https://trueinterview.io/questions/choose-and-explain-a-classical-hypothesis-test)
 
-## Low-Level Design Questions
+## Final rounds
 
-Design rounds on the systems track are C++ template exercises with the requirements stated up front and then tightened. Interviewers grade the invariants you commit to, the per-operation cost you can defend, and what happens under growth and concurrent access — stable element addresses across reallocation, block-based non-contiguous storage, lazy node creation, constant-time length, and identical addresses returned by concurrent accesses to the same index.
+The onsite depends on the desk. A senior data engineering onsite in New York was five back-to-back sessions: ingestion design (API, data lake, schema, cost), Spark internals on large joins and skew, SQL with complex window functions, Airflow observability, and the hiring manager. Another data engineering onsite was one Python exercise, a portfolio trading optimizer. A systems-oriented onsite ran two C++ class-template designs, then rapid questions on mmap, TCP versus UDP, atomics and the TLB. Some software teams run two technical rounds plus a hiring manager.
+
+Interviewers evaluate:
+
+- **Invariants:** A `SmartString` with constant-time length and `max_size` of storage minus one, then extended past the inline buffer.
+- **Memory layout:** An `Array<T>` whose addresses never move, built from fixed blocks under a constant-height tree with lazily created nodes.
+- **Concurrency:** Concurrent `at()` calls for one index must return the same address.
+- **Python structure:** Decorators written from scratch and functions that compose into a readable report.
+- **Production judgment:** Observability, alerting and cost in pipelines you would own.
+
+Practice a 45-minute build-from-requirements exercise in your strongest language, stating invariants before coding.
+
+> **Note:** One senior candidate did well technically but stumbled on one Airflow observability question and the hiring manager's AI discussion, and was rejected. In a themed loop, one weak theme can decide the outcome.
+
+### Sample questions for the final rounds
+
+Here are some questions reported by recent candidates:
+
+- Design a `SmartString` template with inline storage, then support longer strings, for example by storing the length in the last byte.
+- Build an `Array<T>` that auto-creates zero-initialized elements on `at()` with stable addresses.
+- Write a `validate_prices` decorator, a transaction search function and a trading-activity report generator.
 
 - [SmartString Class Template](https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6)
-- [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902)
+- [Expandable Array<T> Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902)
+- [Portfolio Trading Optimizer (Multiple Transactions + Input Validation + Report)](https://trueinterview.io/questions/931ca2a6-3886-4c5c-84f7-d2208582067e)
+- [Design Data Quality and Observability Pipeline](https://trueinterview.io/questions/design-data-quality-and-observability-pipeline)
 
-## How to Prepare
+## Behavioral and hiring manager interview
 
-- Treat output formatting as part of the problem: re-read the spec for delimiter counts, number formatting, column order, and tie-breaking rules, then diff your output against the sample character by character.
-- Drill SQL to the level the reports describe — CTEs, ranking with explicit tie-breaks, window functions, conditional string aggregation, and building a derived table with aggregates and computed columns in one statement.
-- Get fluent in PySpark specifically, not Spark in the abstract: session setup, semi joins, casting before sorting, aggregation into scalars, plus internals on lazy evaluation, shuffle reduction, large joins, and skew.
-- Practice Python as a language, not as an algorithm vehicle. Decorators, mixins, variadic-then-unary composition, apply functions, and correct exception behavior are asked directly.
-- Prepare one memory-constrained streaming answer end to end — approximate percentiles over a high-volume stream — and one data-quality answer covering isolation, retries, dead-letter handling, and alerting.
-- On systems or C++ tracks, rehearse designing a container from a requirements list and defending it: ownership and lifetime, stable addresses, block growth, lazy allocation, and concurrent access.
-- Confirm the shape of your loop with the recruiter in writing, and plan around quiet stretches — assessments and decisions have been reported months apart with no interim contact.
+Behavioral content is thin. A senior data engineer described almost none across the loop. A data-and-AI candidate's follow-up call mixed behavioral questions with views on AI and was read from a fixed questionnaire without follow-up probing. Data engineering screens embed one stakeholder story and one data-quality incident. In one senior loop, the hiring manager conversation was almost entirely about AI in data engineering.
+
+Interviewers evaluate:
+
+- **Concrete stakeholder work:** A specific case of turning a non-engineer's request into requirements; vague answers lose signal.
+- **Incident ownership:** How you detected, contained and communicated a data-quality failure.
+- **A view on AI:** A grounded position on where AI tools help in your work and where they do not.
+
+Prepare three or four stories with numbers, plus a two-minute position on AI in your field.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe working with non-engineering stakeholders to resolve a data issue.
+- What role will AI play in data engineering?
+
+- [Describe Resolving Stakeholder Trade-Offs](https://trueinterview.io/questions/describe-resolving-stakeholder-trade-offs)
+
+## How Point72 makes hiring decisions
+
+The hiring team and its manager own the decision, so the bar and level are set desk by desk, and a single weak theme can sink an otherwise strong loop. Decisions after a final round have come within about a week, while longer processes run past three months with quiet gaps. Candidates consistently report no feedback after a rejection and recruiters who stop replying once the loop ends.
+
+## How to prepare for the Point72 interview
+
+1. **Treat formatting as part of the problem:** Check delimiters, ellipses, number formats and tie-breaks, then diff output against the sample.
+2. **Drill production SQL:** CTEs, ROW_NUMBER with explicit tie-breaks, HAVING, STRING_AGG with CASE WHEN, and derived tables in one statement.
+3. **Get fluent in PySpark itself:** Session setup, semi joins, cast-before-sort, plus lazy evaluation, shuffles and skew.
+4. **Practice Python as a language:** Decorators, mixins, variadic-then-unary composition and correct exceptions are asked directly.
+5. **Prepare one streaming answer end to end:** Memory-capped percentiles plus a bad-record plan with retries, dead letters and alerts.
+6. **For systems roles, design containers from requirements:** Stable addresses, block growth, lazy allocation and concurrent access, then mmap and atomics.
+7. **For quant roles, cover foundations fast:** Dice stopping, geometric and Poisson probability, test selection, ensembles and comparison counts.
+8. **Pin down your loop in writing:** Confirm themes, time zones and timelines, and do not read silence as a decision.
+
+## About working at Point72
+
+Point72 is a multi-strategy hedge fund founded in 2014, headquartered in Stamford, Connecticut, with more than $40 billion in assets under management and engineering in New York, London and Warsaw. Engineers sit in technology teams aligned to investing businesses, closer to a desk's in-house developers than product engineers at a big tech firm. The work spans trading and risk platforms, finance systems, data pipelines over internal and alternative data, and increasingly AI tooling.
+
+Point72 hires engineers across teams such as:
+
+- **Long/short equity:** The largest business, split from January 2026 into Point72 Equities and a new affiliate, Valist Asset Management.
+- **Cubist Systematic Strategies:** The systematic arm, with computer-driven strategies and low-latency order and risk systems.
+- **Macro front office technology:** Tools for the global macro investing teams.
+- **Risk, treasury and fund accounting technology:** Risk analytics, funding, profit-and-loss and investor administration systems.
+- **Trading and compliance technology:** Full-stack surveillance and compliance applications.
+- **Data and research:** Pipelines and data science over alternative data for investment research.
+
+### Experience and education requirements
+
+Experienced postings typically ask for 5 to 8 or more years of development, with some roles open at about three. A bachelor's in computer science, mathematics, physics or a related field is the common baseline. Python, Java and SQL recur; individual teams add C# and .NET, Scala, React or KDB/q, and finance-facing teams prefer financial-industry and data-warehouse experience.
+
+## FAQs about the Point72 interview
+
+### How long does the Point72 interview process take?
+
+From a few weeks for a short software loop to more than three months for a senior data engineering loop with three phone screens and a five-part onsite. Expect quiet stretches between stages.
+
+### What is the hardest round of the Point72 interview?
+
+For data candidates, the online assessment, because hidden cases are graded on exact formatting and types. For systems candidates, the C++ class-template onsite, which tests memory layout and concurrency in depth.
+
+### Is there an online assessment?
+
+Usually. Most software and data candidates take one; some quantitative research and senior candidates go straight to a phone or onsite round.
+
+### How much does a Point72 software engineer make?
+
+Recent New York software engineering postings list base salaries from about $170K to $300K depending on team and seniority, with a discretionary bonus on top of base.
+
+### What happens after a rejection?
+
+Candidates report no feedback and little recruiter follow-up. Because each desk hires separately, applying to a different team starts a separate process.
 
 ---
 

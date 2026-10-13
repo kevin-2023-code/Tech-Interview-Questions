@@ -16,19 +16,32 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 
 ## How Goldman Sachs interviews
 
-This guide goes deeper than the process outline on the Goldman Sachs company page: how each stage actually runs, what interviewers grade, and where candidates lose offers. It draws on 22 real Goldman Sachs questions and 29 candidate interview reports covering software engineering, quantitative strats and research tracks, and behavioral rounds. The same stages appear across pipelines — what changes is how much math is layered on top of the coding.
+Goldman Sachs keeps its coding bar deliberately moderate and filters on execution: live problems sit at easy to medium, and offers turn on follow-up extensions, self-driven testing and unprompted complexity analysis. Integrity is graded as seriously as code, with ethics scenarios recurring from the first video screen to the Superday. Strats and quant candidates sit the same pipeline with a probability, statistics and linear-algebra layer that often outweighs the coding.
 
-### Interview Process
+This guide breaks down each stage of the Goldman Sachs interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 37 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Goldman Sachs interview process
 
 <!-- guide-diagram -->
 ![Goldman Sachs interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/goldmansachs/process.webp)
 <!-- guide-diagram -->
 
-**Structured behavioral screen (video or phone).** Campus and analyst pipelines usually start with a recorded video interview: five to six prompts, roughly 30 seconds to organize your thoughts before each answer, then a timed recording with no retakes. The question bank is remarkably stable across reports: a conflict between competing deadlines, a teammate not delivering their share, a challenging goal you achieved, a client asking for something that violates firm policy, accidentally sending confidential information, spotting a fraudulent request for sensitive data, and one communication test such as explaining recursion to a listener with no computer-science background. Experienced hires often get the same script delivered live in a 30-minute call, with probing follow-ups on who was affected and how you escalated. The ethics scenarios are not filler — vague answers that dodge ownership or skip escalation are a common failure point.
+Each division and desk hires for itself, so the order varies, but the building blocks are stable: an automated assessment, a structured behavioral screen, one to three live coding screens, and a Superday of back-to-back interviews. Applications are made to a corporate title (Analyst, Associate or Vice President), which sets the depth of the loop. End to end, the process typically runs one to three months.
 
-**Online assessment.** Engineering pipelines get a timed coding test, most often two problems, with reported windows up to 180 minutes when a quantitative section is attached. The typical pair is one approachable parsing or string problem and one genuinely harder task — candidates report a rightmost-smaller-element query over 10^5 entries that defeats the naive O(n^2) scan, a grid-clearing minimization that reduces to set cover, and a three-server load-balancing partition. Quant and research candidates get a mixed paper: the same style of coding plus multiple-choice or numeric-entry questions on dice and coin-flip probabilities, conditional card probabilities, Laplace and normal distributions, expected runs, sample-mean standard deviation, and constrained optimization on the unit circle via Lagrange multipliers or trigonometric substitution. Budget time deliberately: several candidates finish the math quickly and need every remaining minute for the second coding problem, or vice versa.
+Campus candidates usually take the assessment and a video screen, one live screen, then a Superday of two or three 45-minute sessions. Associate and VP candidates often start with a recruiter call and a CoderPad screen and face low-level and system design at the Superday. Strats candidates get math in nearly every round.
 
-**Technical phone screens.** Expect one to three live screens of about 45 minutes, usually two problems each, occasionally with two behavioral questions in front. The problems stay easy-to-medium — first unique character, second-smallest unique element, computing the highest average from name-score records (the single most-repeated question in our reports), longest substring without repeating characters, spiral traversal — but the grading lives in the follow-ups: return the substring instead of its length, handle mixed-case commands, debug a supplied buggy fragment, state time and space complexity unprompted. Screens for quant-adjacent roles append a rapid-fire math drill on the chain rule, eigenvalues, Bayes' theorem, expectation, and variance.
+Here's what the interview process can look like:
+
+- **Online assessment (most engineering and campus pipelines):** A timed HackerRank test, usually two coding problems of which one is genuinely hard, with a math and probability section for quant tracks.
+- **Behavioral video screen (campus and analyst):** Five or six structured prompts with about 30 seconds to prepare each, recorded or delivered live, heavy on ethics and teamwork.
+- **Technical phone screens (one to three):** Live CoderPad sessions of about 45 minutes, usually two easy-to-medium problems plus extensions, sometimes with behavioral questions or a math drill.
+- **Superday coding rounds:** Two or more 45-minute sessions with one or two interviewers, mixing data-structure implementation, classic problems, pseudocode and a logic puzzle.
+- **Superday design rounds (Associate and above):** Object-oriented design of a small system, then system design set in a trading, messaging or high-throughput context.
+- **Quantitative and strats rounds:** Probability, statistics, calculus and linear algebra, plus fixed-income basics for some desks, embedded in screens and panels.
+
+> **Tip:** Treat every first prompt as an opening move. Reports describe the interviewer asking for the substring instead of its length, adding case-insensitive input, or handing over buggy code once the first version works; finish the base problem early enough to absorb the twist.
 
 **[Read the full Goldman Sachs interview process →](interview-process.md)**
 

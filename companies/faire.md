@@ -2,13 +2,13 @@
 
 # Faire interview process, OA & interview questions
 
-**5 questions** reported at Faire. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/faire), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at Faire · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/faire), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Faire interviews & the free questions](faire/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-faire)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-faire)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (80% of 5) |
 | Difficulty (easy / medium / hard) | 1 / 2 / 2 |
 | Free to practise | [3](../free/README.md) |
-| Guides & writeups | 0 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 5 questions reported at Faire. 1 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -74,6 +74,14 @@ The 5 questions to open first if you are preparing for Faire, ranked by **the mo
 | **5** | [Peak Capacity Overlapping Events (Line Sweep)](https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8) 🆓 | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Guides & writeups
+
+**1 writeup** filed under Faire in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Faire Interview Process & Questions](https://trueinterview.io/study/faire-interview-process) | — |
 
 ---
 

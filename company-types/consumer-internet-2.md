@@ -205,7 +205,7 @@
 | **ByteDance / Amazon / Google / Meta / Microsoft** | [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Easy | Feb 01, 2026 |
 | **OpenAI / Amazon / Datadog / Google / HubSpot / Netflix / Snapchat / Verkada** | [Design Youtube](https://trueinterview.io/questions/design-youtube) | Medium | Feb 2026 |
 | **Reddit / Netflix** | [Video Recommendation](https://trueinterview.io/questions/video-recommendation) | Hard | Feb 2026 |
-| **Bloomberg / ByteDance** | [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Medium | Jan 31, 2026 |
+| **Bloomberg / ByteDance** | [Gas Tank Grid Reachability](https://trueinterview.io/questions/gas-tank-grid-bfs) | Medium | Jan 31, 2026 |
 | **Meta** | [Design Nearby and Notification Ranking](https://trueinterview.io/questions/design-nearby-and-notification-ranking) | Hard | Jan 30, 2026 |
 | **Snapchat** | [Design a ranking system pipeline](https://trueinterview.io/questions/design-a-ranking-system-pipeline) | Hard | Jan 30, 2026 |
 | **Meta** | [Solve Three Algorithmic Problems](https://trueinterview.io/questions/solve-three-algorithmic-problems) | Hard | Jan 30, 2026 |

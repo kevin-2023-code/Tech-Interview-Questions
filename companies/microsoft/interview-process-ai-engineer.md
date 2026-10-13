@@ -6,100 +6,262 @@
 
 ---
 
-AI Engineer candidates at Microsoft are now graded on whether their code runs, including code an assistant wrote for them. One rejected loop had four rounds. First came an agent design for incident handling, then a coding-with-AI round that meant debugging a project supplied as an archive and adding disk persistence to its in-memory store. The third round was coding with no assistant, building a single-flight component that collapses bursts of identical calls to a language model service. The last was a project deep dive with pull-request links. The candidate traced the rejection to code that did not execute, not to design. Candidates prepare to talk about models and get filtered on working software.
+Microsoft AI Engineer loops are built by the hiring team, so two candidates with the same title can sit very different interviews: one gets data-loader and decoding code plus an LLM product design, another gets a transformer written from scratch and a CUDA kernel. What stays constant is that the code has to run. Candidates were rejected for a correct idea with an unhandled edge case, for code that did not execute in an AI-assisted round, and for a ten-minute solution that did not match the approach the interviewer wanted.
 
-## Interview Process
+This guide breaks down each stage of the Microsoft AI Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 8 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Microsoft AI Engineer interview process
 
 <!-- guide-diagram -->
 ![Microsoft AI Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/microsoft--ai-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter contact (about 30 minutes).** Background, level, and which AI surface you would join: product copilots, core AI platform, or training and inference infrastructure. One recruiter used this call mainly to decide which loop fit the candidate. Expect questions about what you shipped with models and how you measured impact. Scheduling can drag, and one rejection arrived only through the applicant portal with no recruiter contact.
+Microsoft hires AI engineers into specific teams: product copilots, the CoreAI platform, and the model training and inference groups in Microsoft AI. The team sets the content. Product teams lean on LLM application design and data plumbing; pretraining and post-training teams test model internals and generation code. Reported loops ran from a single 45-minute screen to eight rounds, usually over several weeks.
 
-2. **Online assessment (some pipelines).** Reported as a build rather than a quiz: a tiny next-token model written end to end in PyTorch without high-level model libraries. The pieces were a loader with batch size 32 over a token-ID sequence, and embedding, linear, ReLU, linear layers producing vocabulary logits. The forward pass returns raw logits, inputs and targets are shifted by one position, and the script finishes with cross-entropy, backward, and an optimizer step. Grading was on whether the script ran and the loss fell, and the shift indices are where people slip.
+Interns and early-career candidates mostly see ML fundamentals and from-scratch implementations; mid-level loops add LLM system design; senior and principal loops add a hiring manager hour, an AI fluency round and more behavioral rounds.
 
-3. **Technical phone screen (45 to 60 minutes).** Usually a short behavioral block on practical AI work, then code. Reported prompts: sort candidate results by relevance score and break ties by distance, returning the top K; a subsets variant over a string with sorted output; generation from scratch, starting with greedy sampling and extending to top-k beam path selection that tracks and prunes sequences by score. A 45-minute core AI screen was rejected even though the solution was complete in about ten minutes, and the candidate believed the approach did not match what the interviewer expected.
+Here's what the interview process can look like:
 
-4. **Applied coding rounds (one to two).** These are data and model plumbing rather than puzzles. One rejected candidate had to write a batch dataloader with weighted sampling and could not resolve the case where total weight does not divide evenly into the batch size. Another round asked for a resumable loader that checkpoints progress and resumes without reprocessing. Stop-token detection over streamed output, with partial matches, also appears.
+- **Recruiter screen:** A short call on background and level that some recruiters use to choose which loop you sit.
+- **Online assessment (some pipelines):** A from-scratch PyTorch build or a timed two-problem coding test.
+- **Technical phone screens (one to five):** 45 to 60 minutes, a short AI-experience conversation followed by an algorithm or a from-scratch ML implementation.
+- **Applied coding interviews:** Data loaders, sample packing, parsers and LLM-serving components written live, with edge cases decisive.
+- **AI-assisted coding interview (some teams):** Debugging or extending a supplied project with an assistant, or reviewing AI-generated code.
+- **LLM system design interview:** A product-shaped design built around retrieval, personalization, latency and hallucination control.
+- **Project deep dive and hiring manager interview:** One or two of your projects in depth, plus ambiguity, ownership and conflict questions.
 
-5. **AI-assisted coding round (some teams).** You work in an editor with an assistant, and the grade is on judgment: clarify, solve, debug, verify what the assistant produced, and explain it. A variant hands you AI-generated code for a URL shortener and asks for the synchronization, hash-truncation, and validation bugs. Other candidates were told to expect an agent and got ordinary algorithm problems with the assistant optional, so ask the recruiter which version you will get.
+> **Tip:** Ask the recruiter which team the loop is for and whether an assistant is allowed in each round. The team decides whether you face model internals or product design, and assistant rules differed between teams using the same round names.
 
-6. **LLM system design round (45 to 60 minutes).** Product-shaped prompts dominate. One asked for resuming past chatbot conversations with personalization, including storage, retrieval, and scale. Another asked for re-engaging dormant users of an AI companion, including detecting implicit reminders in chat history. A third was an incident-handling agent with role-based content and abuse controls. A fourth was a local sports news recommender whose real subject was retrieval-augmented generation: hosted versus self-run vector search, fine-tuning versus prompting, quantization and distillation for latency, and a verification layer against hallucination.
+## Online assessment
 
-7. **Project deep dive (one round).** One or two recent projects, with design decisions and trade-offs. One interviewer asked for pull-request links, so prepare them in advance.
+Not every pipeline uses one. The AI-specific version is a tiny next-token model in one PyTorch script with no high-level model libraries: a loader with batch size 32 over token IDs, embedding, linear, ReLU and linear layers returning vocabulary logits, inputs and targets shifted by one, then cross-entropy, backward and an optimizer step. It passes only if it runs and the loss falls.
 
-8. **Hiring manager or senior closing round.** Behavioral and judgment: ambiguity, ownership, influence. At senior level this can open the day and last an hour. It can decide the outcome on its own.
+Others got two problems in about 90 minutes: an easy string task and a hard minimum-fuel-cost route with city-dependent prices, which needs Dijkstra over a fuel-level state.
 
-9. **Decision.** Typically a few weeks. Portal updates can arrive before email.
+Interviewers evaluate:
 
-## What They Actually Evaluate
+- **End-to-end execution:** The pipeline runs without errors; partial components earn little.
+- **Sequence shifting:** Input and target offset by exactly one position, which is where most index bugs occur.
+- **API fluency without boilerplate:** A dataset, loader and training step written from memory.
 
-### Coding and Algorithm
+Practice writing a complete next-token training script in under 30 minutes with no reference material.
 
-Two or three coding sessions, easy to medium in algorithmic terms but strict on edge cases and on matching the interviewer's intended approach. Signal comes from explaining comparator and tie rules before coding and from testing identical keys and K equal to the list size. A fast correct answer is not enough if the interviewer wanted a different method, so say your plan first.
+> **Note:** The assessment is proctored. A candidate who pasted an assistant's code into the graph problem got a time-limit failure and believed the use was obvious to reviewers.
 
-- [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47)
-- [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding)
-- [Resumable Batch Dataloader with Weighted Sampling](https://trueinterview.io/questions/resumable-batch-dataloader)
+### Sample questions for the online assessment
 
-### ML System Design
+Here are some questions reported by recent candidates:
 
-One round, sometimes two. Interviewers reward balance: a data model and serving path first, then one or two deep dives. A rejected senior candidate spent too long on reminder detection and never covered scaling. Expect grounding, hallucination control, latency, and personalization trade-offs to be probed, along with product judgment about what makes a nudge helpful rather than spammy.
-
-- [Chatbot Personalization / Memory System Design](https://trueinterview.io/questions/chatbot-personalization-memory-design)
-- [LLM Training Dataset Quality Check for Excel Copilot Tasks](https://trueinterview.io/questions/cca976aa-f821-4b1f-ba1a-44dafd0b7d8d)
-
-### Domain Deep Dive
-
-Hands-on model knowledge rather than theory recital: PyTorch data loading and training steps, sequence shifting for next-token prediction, generation strategies, and stop conditions in streamed output. Losing signal looks like the right idea with wrong indices or broken pruning.
+- Build a next-token prediction model in one PyTorch script, from the data loader to an optimizer step, and show the loss decreasing.
+- Find the cheapest way to travel between two cities when fuel prices differ by city and the tank has no capacity limit.
 
 - [Tiny Next-Token Prediction Model (PyTorch Fill-In)](https://trueinterview.io/questions/c0d89abb-ff3b-48a7-b818-75334a7ae968)
+- [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network)
+
+## Technical phone screens
+
+Screens run 45 to 60 minutes in a shared editor. Most open with a few minutes on practical AI work (what you built, how you measured impact) and then move to code. The coding is either a standard algorithm or a from-scratch ML piece. Reported examples include K-means in Python with NumPy or PyTorch allowed, greedy decoding extended to top-k beam selection, sorting candidates by relevance with ties broken by distance, and generating a string's subsets in sorted order. Intern screens can be all concepts: overfitting, precision versus recall, bagging versus boosting, self-attention, and fine-tuning versus parameter-efficient methods.
+
+Some teams replace the onsite with phone rounds: one loop had five calls, covering a resumable data loader, OCR text cleaning for LLM training, streamed stop-token detection and a video vision-language model design.
+
+Interviewers evaluate:
+
+- **Matching the intended approach:** A candidate who finished the subsets variant in about ten minutes was still rejected; state your plan and confirm it first.
+- **Edge cases raised unprompted:** Empty clusters, convergence tolerance, identical scores and distances, K equal to the list size.
+- **Algorithm mechanics:** In beam search, how candidate sequences are kept and pruned by score; the rejected candidate knew the concept.
+- **Complexity and limitations:** Cost of K-means per iteration, local minima, restarts and better initialization.
+
+Rehearse K-means, top-k decoding and a streaming stop-token matcher until each is clean in 25 minutes.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Implement K-means from scratch, handle a cluster that ends up empty, and explain how it can get stuck in a local minimum.
+- Write greedy sampling over a fixed vocabulary, then extend it to top-k beam path selection that prunes sequences purely by score.
+- Detect stop tokens in streamed model output, including matches split across chunks.
+
+- [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means)
+- [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding)
 - [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection)
-- [Processing Service Logs for Error Detection and Reporting](https://trueinterview.io/questions/d179f051-5594-4883-b756-5c65264930c3)
+- [Generate Lexicographically Sorted String Subsets](https://trueinterview.io/questions/0de96483-d0cb-5095-8e67-dc544847a643)
 
-### Project Deep Dive
+## Applied coding interviews
 
-Present in most AI loops, often as a full round. Interviewers probe what you personally decided, how impact was measured, and what you would change. Concrete artifacts such as pull requests help.
+Onsite coding is mostly the plumbing around models rather than puzzles, about an hour each with follow-ups layered on. Product and data teams asked for a batch loader with weighted sampling, sample packing for supervised fine-tuning that places the attention mask and answer tokens correctly, a CSV query engine that handles commas inside quoted fields, and a single-flight component that collapses bursts of identical calls to a language model service. Training and infrastructure teams went deeper: multi-head attention, feed-forward layers and positional encoding written from scratch, a CUDA kernel, roofline analysis, and a matrix multiplication runtime estimated from bandwidth and compute specs.
+
+Some loops still include classics such as an LRU cache or merging intervals, and one intern round paired a hypothesis test with a Python debugging task.
+
+Interviewers evaluate:
+
+- **The uneven case:** Total weight not divisible by the batch size cost one candidate the round despite a correct structure.
+- **Base first, then follow-ups:** A senior candidate lost the aggregation and malformed-row follow-ups to an escape-handling bug in the base parser.
+- **Concurrency for serving code:** Request deduplication, waiter fan-out and error propagation in the single-flight component.
+- **Hardware reasoning (infrastructure teams):** Arithmetic intensity, compute-bound versus memory-bound, and loss scaling when moving from FP32 to FP16.
+
+Practice data and serving components with their awkward inputs, and keep a tested base version working before the first follow-up.
+
+> **Note:** One loop told candidates to share their screen and code in their own editor. Have a working local Python setup ready, and also practice in a plain editor without autocomplete.
+
+### Sample questions for the applied coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Write a batch loader that samples by weight and stays unbiased when total weight does not divide evenly into the batch size.
+- Pack supervised fine-tuning samples into fixed-length sequences with a correct mask window, answer-token positions and balanced lengths.
+- Build a CSV engine that types fields as strings or integers and filters rows by column comparisons, with commas inside quotes.
+
+- [Resumable Batch Dataloader with Weighted Sampling](https://trueinterview.io/questions/resumable-batch-dataloader)
+- [SFT Sample Packing](https://trueinterview.io/questions/sft-sample-packing)
+- [In-Memory SQL Engine II](https://trueinterview.io/questions/in-memory-sql-engine)
+- [Transformer Roofline + FP32→FP16 Drill](https://trueinterview.io/questions/transformer-roofline-fp-precision)
+- [CUDA Vibe Coding: Implement or Optimize a CUDA Kernel](https://trueinterview.io/questions/8eb54136-fc2f-4f32-b89d-b97c5fbf9e38)
+
+## AI-assisted coding interview
+
+Newer loops add a round with an assistant, and its format varies most by team. In one, the candidate debugged a small project supplied as an archive, added disk persistence to its in-memory store, and explained every AI-generated line. In another, a single round covered a URL shortener's high-level design, class design, working code, and then bug-hunting in AI-generated code for the same service. A principal candidate had an AI fluency round on daily AI use, a metrics ingestion pipeline designed with an assistant, and its failure modes.
+
+Elsewhere the label meant little: a candidate told to expect an agent got two ordinary algorithm rounds with the assistant optional.
+
+Interviewers evaluate:
+
+- **Running code:** The rejected archive-round candidate traced the outcome to code that did not execute.
+- **Verification of generated code:** Spotting improper synchronization, wrong hash truncation and missing input validation.
+- **Ownership of the output:** Explaining why the generated code works, not just that it does.
+
+Practice adding a small feature to an unfamiliar repository in 45 minutes, running it, and reviewing an assistant's diff line by line.
+
+### Sample questions for the AI-assisted coding interview
+
+Here are some questions reported by recent candidates:
+
+- Fix a small project delivered as an archive, then persist its in-memory key-value store to disk, explaining the assistant's code as you go.
+- Find the bugs in AI-generated URL shortener code, covering concurrency, hashing and validation.
+- Design a metrics ingestion pipeline with an assistant, then walk through how it fails.
+
+- [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c)
+- [Implement concurrent structures and debug queue code](https://trueinterview.io/questions/implement-concurrent-structures-and-debug-queue-code)
+- [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work)
+
+## LLM system design interview
+
+Most loops have one design round of 45 to 60 minutes; some have two. Prompts are product-shaped: resuming past chatbot conversations with personalization, re-engaging dormant users of a Copilot-style companion by detecting implicit reminders in chat history, an incident-handling agent with role-based content and abuse controls, and a local sports news recommender. Model-building teams asked for a video vision-language model from data collection to evaluation, or how to clean OCR text for LLM training. One ML data loop instead had two classic designs, a team chat platform and an online chess site.
+
+Follow-ups target LLM production trade-offs: managed versus self-hosted vector search, fine-tuning versus prompting, quantization and distillation for latency, and retrieval grounding, verification layers and red-team-style auditing against hallucination.
+
+Interviewers evaluate:
+
+- **Breadth before depth:** Data model, serving path and scale first, then one or two deep dives.
+- **Grounding and safety:** A concrete plan against hallucination and abuse, not a mention of it.
+- **Latency awareness:** How scanning conversation context or calling a model stays off the critical path.
+- **Product judgment:** What makes a nudge helpful rather than spammy, and how you would test it.
+
+Practice three LLM product designs end to end, timing yourself so that scaling is covered before the 35-minute mark.
+
+> **Note:** A rejected senior candidate spent too long on reminder detection in the re-engagement design and never reached the data model or scaling. The candidate considered that imbalance the main mistake of the day.
+
+### Sample questions for the LLM system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a feature that lets users reopen and search past chatbot conversations, personalized to their preferences.
+- Design re-engagement for inactive users of an AI companion, including reminders detected implicitly in chat history.
+- Design a local sports news recommender using retrieval-augmented generation, and explain how you would reduce hallucinations.
+
+- [Chatbot Personalization / Memory System Design](https://trueinterview.io/questions/chatbot-personalization-memory-design)
+- [Design User Re-engagement Notifications](https://trueinterview.io/questions/design-user-re-engagement-notifications)
+- [Design local sports team recommendation system](https://trueinterview.io/questions/design-local-sports-team-recommendation-system)
+- [Design a RAG system with agentic tools](https://trueinterview.io/questions/design-a-rag-system-with-agentic-tools)
+- [Design a Secure Copilot API](https://trueinterview.io/questions/design-a-secure-copilot-api)
+
+## Project deep dive and hiring manager interview
+
+Nearly every loop includes a project round. Some interviewers grilled the resume line by line before any code. One asked for pull-request links. An intern presented a project that turned into a case study on extensions and trade-offs. A pretraining team ran three conversation rounds on background, technical fit and collaboration before its single coding round. At senior level the hiring manager may open the day with an hour on signature projects, ambiguity and influencing without authority.
+
+Interviewers evaluate:
+
+- **Personal decisions:** What you chose, which alternatives you rejected and why.
+- **Measured impact:** Numbers for quality, latency or adoption, and how you got them.
+- **Handling ambiguity:** Moving forward with vague requirements and resolving design conflicts.
+
+Prepare two projects with artifacts (pull requests, metrics, a design document) and a three-minute version of each.
+
+### Sample questions for the project deep dive and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through one or two recent projects, their design trade-offs and the pull requests behind them.
+- Describe a time you moved forward with limited information or vague guidance.
+- What draws you to this team, and how did you handle a conflict over ownership?
 
 - [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2)
+- [Describe leading an ambiguous ML project end-to-end](https://trueinterview.io/questions/describe-leading-an-ambiguous-ml-project-end-to-end)
+- [Describe handling ambiguity and resolving design conflicts](https://trueinterview.io/questions/describe-handling-ambiguity-and-resolving-design-conflicts)
 - [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/questions/behavioral-round)
 
-## What They Don't Test
+## How Microsoft levels and evaluates AI Engineer candidates
 
-- **Research-paper recall.** No reported AI Engineer round asked for derivations of recent papers. The questions were about building and shipping, so prepare working pipelines instead.
-- **Prompt tricks in isolation.** Prompting came up only as a trade-off against fine-tuning and retrieval inside a design, not as a standalone skill.
-- **Heavy assistant fluency everywhere.** Some AI-branded rounds were ordinary algorithms with the assistant optional, while others banned it. Correct, running code was the constant.
-- **Hard dynamic programming.** Algorithm content stayed at sorting, heaps, subsets, and search. The difficulty was in edge cases and data handling.
+The hiring team owns the loop, and the hiring manager or a senior interviewer's round can decide it. The level comes from the posting, and senior loops add behavioral and design depth. Execution failures (non-running code, a missed edge case) and approach mismatches ended loops more often than weak design. Outcomes often appear in the applicant portal first: one rejection arrived there with no recruiter contact, another about four business days before the email. Waiting periods after a rejection are reported inconsistently, from none for a different team's posting to several months.
 
-## The Real Filter
+## How to prepare for the Microsoft AI Engineer interview
 
-**Code that runs, whoever wrote it.** Candidates misjudge AI-assisted rounds as tests of prompting. They are tests of verification: can you make a supplied project work, explain every generated line, and catch the bug an assistant introduced. The rejected loop above failed on execution. Practice finishing a small feature in an unfamiliar repository within 45 minutes and running it before you call it done.
+1. **Pin down the team and the assistant policy:** The team decides whether you face model internals or LLM product design, and assistant rules differ by round.
+2. **Write the from-scratch set:** K-means, a next-token training script, multi-head attention, greedy and top-k decoding, all without references.
+3. **Drill the uneven data cases:** Weighted sampling with remainders, sample packing masks, stop tokens split across chunks, quoted commas in CSV.
+4. **Confirm the approach before coding:** Offer two approaches on simple problems and ask which the interviewer wants.
+5. **Practice reviewing generated code:** Run it, find synchronization, hashing and validation bugs, and explain each fix.
+6. **Rehearse three LLM product designs:** Cover retrieval, latency, hallucination control and abuse handling, with scaling inside the first 35 minutes.
+7. **Bring project artifacts:** Pull-request links, metrics and the decisions you personally made.
 
-**The one edge case in data plumbing.** Weighted sampling when weights do not divide the batch size, sequence pruning in top-k generation, partial stop-token matches: each decided a reported round even though the candidate had the right structure. Write these loaders and decoders yourself and test the uneven cases.
+## About the Microsoft AI Engineer role
 
-**Approach mismatch on simple problems.** A complete ten-minute solution still failed. Offer two approaches, ask which the interviewer prefers, and then code.
+AI engineers at Microsoft build the software around models: copilots inside products, agent and retrieval platforms, evaluation and data pipelines, and the infrastructure that trains and serves models. Most sit on the software engineering ladder and own their services end to end, including responsible-AI review before launch.
 
-## Data Source
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| 59–60 (Software Engineer) | Well-scoped features with guidance | A component within one team |
+| 61–62 (Software Engineer II) | Features owned from design to production | A team's services |
+| 63–64 (Senior Software Engineer) | Technical direction for a product area, mentoring | Several services and neighboring teams |
+| 65–67 (Principal Software Engineer) | Architecture and strategy across teams | An organization |
 
-Based on 8 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Microsoft hires AI Engineers across several organizations. Teams include:
 
-## FAQ
+- **CoreAI – Platform and Tools:** Formed in 2025 to build the AI app and agent stack, including developer tools, the AI platform and agent runtimes.
+- **Microsoft AI:** The consumer Copilot and in-house MAI models, with pretraining and post-training infrastructure teams.
+- **Microsoft 365 Copilot:** Copilot features in Word, Excel, Outlook and Teams, plus the data and evaluation behind them.
+- **Azure AI infrastructure:** The supercomputing and serving layer behind training and inference.
 
-**What is it like to work at Microsoft as an AI Engineer?**
+### AI Engineer experience and education requirements
 
-The reports cover hiring, not the job. As context, teams building copilots and AI platforms are described as running closer to startup tempo than the rest of the company. AI teams have also been reported as largely protected during recent hiring slowdowns, and responsible-AI review is part of shipping.
+Postings ask for a bachelor's degree in computer science or a related field, or equivalent experience. A recent senior AI engineer posting required four or more years of coding experience in languages such as Python, and preferred two to three years with LLMs, retrieval-augmented generation and model serving, plus Azure experience. Many roles also require passing Microsoft Cloud background checks. Python is the default interview language for ML coding.
 
-**What is the engineering culture like?**
+## FAQs about the Microsoft AI Engineer interview
 
-Product-driven and pragmatic. Interviews ask about measured impact, hallucination control, and abuse handling alongside code, and the growth-mindset vocabulary is common in behavioral rounds. Practices differ by team, including whether assistants are allowed in interviews.
+### How long does the Microsoft AI Engineer interview process take?
 
-**How hard is it to get in?**
+Typically several weeks. Single-screen rejections came quickly; multi-round phone loops and onsites stretched past a month. Phone screens are remote, while some teams held in-person onsites, including a six-round loop in Seattle.
 
-Competitive. AI teams are among the few still hiring steadily, so loops are well populated. The bar mixes software engineering rigor with applied model knowledge, and reports show rejections both on execution and on approach fit.
+### What is the hardest round of the Microsoft AI Engineer interview?
 
-**Which round is hardest?**
+The applied coding round, whether or not an assistant is allowed: working data or model code with the edge cases handled in under an hour. LLM system design is second, mainly for pacing.
 
-The applied coding round, whether AI-assisted or not, because it demands working data or model code with the edge cases handled in under an hour. The LLM design round is second, mainly for pacing.
+### Can you use AI tools during the interview?
+
+Only where the round allows it. Some teams run dedicated assistant rounds and others make the assistant optional. Assessments and no-AI rounds forbid it, and use in a proctored assessment can be detected.
+
+### How much does a Microsoft AI Engineer make?
+
+Approximate total annual compensation in the United States on the software engineering ladder:
+
+- **Level 59:** ~$165K
+- **Level 62:** ~$205K
+- **Level 63:** ~$250K
+- **Level 64:** ~$275K
+- **Level 65:** ~$320K
+
+Packages combine base salary, an annual cash bonus and stock awards that vest over several years, with stock a growing share at senior levels.
 
 ---
 

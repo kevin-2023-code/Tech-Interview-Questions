@@ -59,16 +59,16 @@ Which stage each question came from, for the **266 of 266** questions at Google 
 
 ## What they ask about
 
-Of the **190 questions at Google that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **186 questions at Google that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 41 | 22% | ████████████ | Aug 18, 2026 |
-| `arrays` | 30 | 16% | █████████ | Aug 30, 2026 |
+| `arrays` | 29 | 16% | ████████ | Aug 30, 2026 |
 | `hashing` | 24 | 13% | ███████ | Sep 10, 2026 |
 | `strings` | 21 | 11% | ██████ | Sep 02, 2026 |
-| `greedy` | 20 | 11% | ██████ | Aug 11, 2026 |
-| `trees` | 18 | 9% | █████ | Sep 16, 2026 |
+| `greedy` | 19 | 10% | ██████ | Aug 11, 2026 |
+| `trees` | 18 | 10% | █████ | Sep 16, 2026 |
 | `dynamic-programming` | 15 | 8% | ████ | Sep 09, 2026 |
 | `sorting` | 15 | 8% | ████ | Aug 11, 2026 |
 | `backtracking` | 13 | 7% | ████ | Aug 16, 2026 |

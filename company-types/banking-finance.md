@@ -28,18 +28,18 @@
 
 ## What they ask about
 
-Of the **176 questions in this cut that carry a topic label** (66% of it):
+Of the **173 questions in this cut that carry a topic label** (65% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `arrays` | 37 | 21% | ████████████ |
-| `hashing` | 33 | 19% | ███████████ |
-| `strings` | 29 | 16% | █████████ |
+| `hashing` | 32 | 18% | ██████████ |
+| `strings` | 29 | 17% | █████████ |
 | `graphs` | 16 | 9% | █████ |
 | `sorting` | 15 | 9% | █████ |
 | `dynamic-programming` | 14 | 8% | █████ |
-| `greedy` | 13 | 7% | ████ |
-| `matrix` | 13 | 7% | ████ |
+| `greedy` | 13 | 8% | ████ |
+| `matrix` | 13 | 8% | ████ |
 | `backtracking` | 12 | 7% | ████ |
 | `sliding-window` | 11 | 6% | ████ |
 
@@ -164,7 +164,7 @@ Of the **176 questions in this cut that carry a topic label** (66% of it):
 | **Capital One** | [MLE Deployment & Latency (Set B)](https://trueinterview.io/questions/mle-deployment-and-latency) | Easy | Feb 04, 2026 |
 | **Capital One** | [Print All Root-to-Leaf Tree Paths](https://trueinterview.io/questions/print-tree-paths) | Medium | Feb 04, 2026 |
 | **xAI / Amazon / Bloomberg / ByteDance / Citadel / Google / LinkedIn / Microsoft / Netflix / Snapchat** | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Medium | Feb 01, 2026 |
-| **Bloomberg / ByteDance** | [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Medium | Jan 31, 2026 |
+| **Bloomberg / ByteDance** | [Gas Tank Grid Reachability](https://trueinterview.io/questions/gas-tank-grid-bfs) | Medium | Jan 31, 2026 |
 | **Capital One** | [How would you design delay and watchlist models?](https://trueinterview.io/questions/how-would-you-design-delay-and-watchlist-models) | Hard | Jan 30, 2026 |
 | **Capital One** | [Lunar Phase State Lookup](https://trueinterview.io/questions/lunar-phase-state) | Medium | Jan 27, 2026 |
 | **Capital One** | [AP Replacement Rounds](https://trueinterview.io/questions/ap-replacement-rounds) | Medium | Jan 27, 2026 |

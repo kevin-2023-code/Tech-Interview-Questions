@@ -16,21 +16,30 @@ How Tradedesk interviews, and the questions candidates reported there. Free ques
 
 ## How Tradedesk interviews
 
-The Trade Desk runs a loop that looks conventional on paper — assessment, phone screens, onsite — but the problems inside it behave differently from big-tech LeetCode drills: almost every technical exercise is a single scenario that keeps growing, and the onsite pulls its design prompts straight from ad-tech. This deep-dive goes beyond the short outline on the company page, drawing on 16 real The Trade Desk questions and 8 candidate interview reports to show what each stage contains, how it is graded, and where candidates drop out.
+The Trade Desk builds most technical rounds around one problem that keeps growing: a small in-memory system or a plain function that gains requirements level by level, from the online assessment through the phone screen. Candidates are graded on whether their first data model survives the later levels and on reading the prompt exactly, more than on exotic algorithms. The onsite adds system design tied to real-time bidding, with concrete data sizes and request rates.
 
-### Interview Process
+This guide breaks down each stage of The Trade Desk interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 8 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### The Trade Desk interview process
 
 <!-- guide-diagram -->
 ![The Trade Desk interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/tradedesk/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Cold applicants, interns, and many experienced candidates start with a CodeSignal assessment built as one multi-level problem rather than a set of unrelated questions. Candidates describe reaching "level 3 and level 4" of a tiered task, and the archetype is a small stateful system grown in sub-questions: a recipe store that needs create, read, update, and delete, then name-plus-version identity, then search, user assignment, listing every version, and rollback to an earlier version. Reported windows are typically around 90 minutes, with later levels unlocking only after the earlier ones pass, so time allocation is itself graded — candidates who polished one level and left others untouched were cut. Silence for more than a week after submission is, in practice, a rejection.
+The structure is broadly the same across tracks and offices: an assessment, one or two phone calls, and an onsite of typically three to four sessions, drawn from an internal problem bank. Early-career candidates almost always take the assessment; senior loops weight the onsite toward design (one senior candidate sat two design and two coding rounds); data science onsites become a modeling and ad-tech deep dive.
 
-**Recruiter and first phone conversation.** The first human round is usually a 30-minute call that mixes recruiting logistics with a light screen: self-introduction, why this company, what you have built, where you want your career to go, salary expectations, and a walkthrough of the remaining rounds. For some candidates this call is folded together with the technical screen into a single session that moves from background questions straight into live coding, so treat even the "HR" call as one where a shared editor might open.
+Here's what the interview process can look like:
 
-**Technical phone screen.** The second phone round is a 45–60 minute live-coding session on one problem that expands in phases. Reported prompts include a 3Sum variant, a "debugging without algorithms" exercise where the task is to fix a broken implementation rather than invent one, an interpolation function over monotonic arrays with follow-ups on out-of-range behavior (raise, clamp, or extrapolate, and which is defensible), a benchmark-distance computation over GPS trackpoints that escalated into thread-safety and then production-readiness (validation, out-of-order input, logging, testing), and a versioned in-memory key-field-value store that grew from set/get through compare-and-set, prefix scans, TTL expiry, and historical lookup. Interviewers draw from an internal bank, expect a working implementation in your language of choice, and reward an initial data model that survives the later phases. One candidate who shipped a small bug and a sub-optimal prefix scan still passed on architecture and communication, which tells you where the weight sits.
+- **Online assessment:** A timed, multi-level coding task that grows a small stateful system in stages.
+- **Recruiter call:** A short call on background, motivation, salary expectations and the remaining rounds.
+- **Technical phone screen:** Live coding on one problem that expands into concurrency, edge cases or production readiness.
+- **Coding interviews (onsite):** One or two sessions mixing classic problems with rule-heavy simulations and object-oriented structure.
+- **System design interview (onsite):** Low-latency, read-heavy ad-tech scenarios; senior loops may have two.
+- **Hiring manager interview (onsite):** Projects and behavioral questions, combined with design for senior candidates.
 
-**Onsite.** The final loop is typically three to four sessions, sometimes compressed into roughly a half day, combining coding, system design, and a hiring-manager conversation:
+> **Tip:** Before coding any multi-level task, read every requirement shown and pick a data model that can absorb versions, timestamps and ownership later. Candidates who extended a clean base finished more levels than those who optimized level one.
 
 **[Read the full Tradedesk interview process →](interview-process.md)**
 

@@ -16,19 +16,33 @@ How Two Sigma interviews, and the questions candidates reported there. Free ques
 
 ## How Two Sigma interviews
 
-Two Sigma runs one of the most implementation-heavy loops in quantitative finance: nearly every stage asks you to ship complete, tested code against a dense specification, not just sketch an idea. This guide goes beyond the process outline on the company page — how each stage is actually graded, which problems keep resurfacing, and where candidates lose offers. It draws on 15 real Two Sigma questions and 18 candidate interview reports.
+Two Sigma grades finished code, not ideas. Assessments are graded on hidden tests, and phone screens expect a working build of a trading or data component in about 30 minutes. The most common rejection in the reports is a correct approach that ran out of time. The loop is also quantitative well beyond research: interpolation, least squares and open-ended prediction cases appear for software, data and research candidates alike. Interviewers often stay neutral for the whole hour, and positive rapport has not predicted offers.
 
-### Interview Process
+This guide breaks down each stage of the Two Sigma interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 26 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Two Sigma interview process
 
 <!-- guide-diagram -->
 ![Two Sigma interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/twosigma/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** The OA runs on HackerRank, typically 60–90 minutes, with a completion window of several days after the invite. It can arrive by email with no recruiter conversation first, so a cold application may go straight to the timed test. Software-track assessments usually contain two problems, and candidates report the same pair with striking regularity: an IPO-style allocation problem (in both its classic maximize-capital form and a nastier variant that groups orders by price and round-robins within each group by timestamp) and a "sewer" problem that is really a tree-partition or connected-components exercise. Quant-track assessments swap in three data-flavored tasks — a linear interpolator with duplicate and extrapolation edge cases, statistics and regression over an NYC temperature dataset, and an efficient OLS problem with incremental updates. Grading is dominated by hidden test cases, and clearing essentially all of them is generally what advances you; a conceptually right solution that mishandles tie-breaking or termination reads as a fail.
+Every track follows the same skeleton: an online assessment, one or two technical screens of 45–60 minutes, and a final loop of three to five hour-long sessions, sometimes split across two days. The content diverges early. Software candidates get algorithm assessments and from-scratch implementation screens. Quantitative research and data candidates get numerical coding, a modeling case and a statistics oral. The process typically takes four to eight weeks, and assessment results can take one to two weeks.
 
-**Technical phone screen.** A 60-minute session with an engineer or researcher on a shared editor. It is one substantial problem plus escalating follow-ups rather than two quick exercises. Reported screens include an order matching engine built on complementary heaps (with out-of-order sequence numbers and hidden cancellation cases), an in-memory database that parses CREATE/INSERT/SELECT commands with chained AND filters, maximum independent set on a tree with a follow-up about the jump to general graphs, and a Huffman-style encode/decode. Interviewers ask for test cases and complexity unprompted-level rigor: you are expected to propose your own edge cases, and a working happy path with unfinished follow-ups is a common rejection.
+Experienced hires see more design and project depth, such as object-oriented design with unit tests, distributed system design, or a manager round on production ML. Early-career and PhD candidates see more statistics and questions on their own field.
 
-**Final loop.** Typically 3–5 back-to-back sessions of about an hour each, virtual or onsite, sometimes split across two days. The mix is hard coding, a design-and-implementation or systems round, and a hiring-manager or behavioral conversation; quant-adjacent loops add statistics and modeling discussions (regularization, feature selection, numerical stability). The hiring-manager round is genuinely evaluative — candidates report background-fit conversations deciding outcomes even after clean technical rounds. End to end, the process usually takes four to eight weeks, with OA results often taking one to two weeks to come back; quiet stretches between stages are normal and reflect team-matching rather than a verdict.
+Here's what the interview process can look like:
+
+- **Recruiter screen (not always):** A short, non-technical call. Some candidates skip it and receive the assessment by email.
+- **Online assessment:** A timed HackerRank test of two or three problems, typically 60–90 minutes, graded on hidden tests.
+- **Technical phone screen (one or two):** A live 45–60 minute build of one component, with escalating follow-ups.
+- **Data analysis and modeling interview (research and data tracks):** An open-ended prediction case driven by repeated follow-up questions.
+- **Statistics and math interview (research and data tracks):** A derivation-level oral on probability and linear models, with no coding.
+- **Final-round coding interviews:** Simpler coding problems, often paired with field-specific questions and an unconventional puzzle.
+- **Hiring manager interview:** A graded conversation about your background and the team's mandate.
+
+> **Tip:** Get every build fully working before adding edge cases. Several rejected candidates had the right data structures but spent their time on validation or rare cases and never showed a complete flow.
 
 **[Read the full Two Sigma interview process →](interview-process.md)**
 

@@ -16,21 +16,32 @@ How NVIDIA interviews, and the questions candidates reported there. Free questio
 
 ## How NVIDIA interviews
 
-NVIDIA does not run one standardized loop: the team you interview with decides the format, the depth, and even the number of rounds, so preparation is mostly about anticipating how a given team will probe you. This guide goes beyond the process outline on the company page, drawing on 17 real NVIDIA questions and 18 candidate interview reports to show what each stage actually feels like and where candidates get caught out.
+NVIDIA has no central loop. The hiring team writes it, the hiring manager owns the decision, and the format follows the team's domain: an HPC team may open with fleet design, an inference team with quantization math, a system-software team with five short coding rounds. The coding is often easier than candidates expect. Rejections come from what follows it: cache behavior, failure handling, and a resume reopened in nearly every round by long-tenured engineers, many with hardware backgrounds.
 
-### Interview Process
+This guide breaks down each stage of the NVIDIA interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 19 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### NVIDIA interview process
 
 <!-- guide-diagram -->
 ![NVIDIA interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/nvidia/process.webp)
 <!-- guide-diagram -->
 
-**Phone screens are unpredictable in format, not in intent.** Candidates report screens that were pure system design (one opened directly with designing a control plane for roughly 1,000 HPC hosts), screens that were a single coding problem stretched across the whole hour, screens that mixed one easy problem with a rapid-fire domain quiz, and screens that never left the resume. Whatever the format, the interviewer is testing whether you can reason aloud: clarify constraints before committing, state an approach, and defend the trade-offs. Several candidates lost ground by mis-assuming a requirement (capacity in bytes versus item count, insertion order versus access order) rather than asking.
+The usual sequence is a recruiter call, one or two technical screens of about an hour, and a team loop. Reported loops ranged from four phone conversations to nine one-hour rounds with nine interviewers for a senior data platform role. End to end, it runs about three weeks to two months.
 
-**The team loop is a sequence of near-identical units.** A representative onsite ran five team-member rounds plus a hiring-manager round, and every team-member round followed the same template: a short resume walkthrough, a few behavioral questions, then a 15–20 minute coding problem on the easier side, graded mostly on how clearly you explain the approach and its complexity. Loops are often compressed into a single 4–6 hour video block. Specialized and senior roles can run much longer — one data-platform loop stretched to nine one-hour rounds with nine different interviewers, spanning coding, design, domain depth, behavioral, and a recruiter close.
+New-grad loops lean on short coding problems and fundamentals. Senior loops add system design, a hiring-manager round that mixes design with domain depth, and sometimes a director conversation. Infrastructure Engineer loops weight distributed design and operational coding; Machine Learning Engineer loops weight deep-learning theory, tensor code written from a formula, and inference performance, often in C++.
 
-**The hiring-manager round carries the most weight.** Candidates consistently describe it as the highest-pressure conversation: an in-depth resume interrogation, behavioral scenarios, a system design exercise, and a deep dive into your domain expertise, back to back. Managers push past your prepared narrative — why that technology, what broke, what you personally wrote, what you would redo.
+Here's what the interview process can look like:
 
-**Decisions come in batches, not rolling.** NVIDIA typically interviews several candidates for an opening and compares them before deciding, so silence after a strong loop is common. Rejections have arrived about a week after the final round; pending states can drag longer. Scheduling is also a known weak spot — candidates report cancelled calls without explanation, no-show interviewers, and quiet recruiters. Treat logistics friction as normal, follow up politely, and keep preparing for the next likely stage while you wait.
+- **Recruiter screen:** A 30 to 45 minute call on background, motivation and domain, which decides the loop you get.
+- **Technical phone screen (one or two):** About an hour mixing a resume walkthrough with coding, design or domain questions.
+- **Coding interviews:** Several loop rounds, each opening with your resume and closing with a 15 to 20 minute practical problem.
+- **System and low-level design interviews:** Fleet control planes, telemetry and latency-bound serving, plus object design with strict invariants.
+- **Domain deep dive:** GPU architecture, inference optimization, deep-learning theory or data-platform depth, matched to the team.
+- **Hiring manager and behavioral interview:** The highest-pressure round: resume interrogation, behavioral scenarios and often a design exercise.
+
+> **Tip:** Ask the recruiter what the team ships and whether it works on training or inference, cluster or device. One candidate prepared for training frameworks and met a team focused almost entirely on inference serving.
 
 **[Read the full NVIDIA interview process →](interview-process.md)**
 

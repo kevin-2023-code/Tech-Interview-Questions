@@ -16,21 +16,32 @@ How Visa interviews, and the questions candidates reported there. Free questions
 
 ## How Visa interviews
 
-Visa's engineering loop is less punishing than most big-tech processes on raw algorithm difficulty, but it asks more of you in places candidates tend to under-prepare: proctored assessments, back-to-back variations of one classic problem, and resume deep-dives that keep circling back to AI. Going beyond the outline on the company page, this guide draws on 13 real Visa questions and 6 candidate interview reports to show what each stage contains, how it is graded, and where the loop actually thins out.
+Visa's engineering loop is moderate on raw algorithm difficulty but tests what candidates under-prepare. The online assessment is proctored with camera and screen recording, even for staff hires. Interviewers reuse one classic problem and tighten the constraint in the same session. Recent resume deep dives keep returning to AI, and a passed loop still waits on team matching.
 
-### Interview Process
+This guide breaks down each stage of the Visa interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 6 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Visa interview process
 
 <!-- guide-diagram -->
 ![Visa interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/visa/process.webp)
 <!-- guide-diagram -->
 
-End to end, candidates describe a pipeline of roughly four to six touchpoints that typically runs several weeks, with the exact shape varying by team and level. Every stage is treated as an elimination gate, and the loop below is assembled from what candidates most consistently report.
+Each hiring team runs its own loop, so rounds vary by team. A typical pipeline has four to six touchpoints over three to eight weeks, each an elimination gate.
 
-**Online assessment.** Most applicants, from new grad through staff level, start with a timed coding assessment. Candidates report two problems in a 75- to 90-minute window on a proctored HackerRank sitting, with the camera and desktop recording active for the full session and both problems visible from the first minute, so you can order them yourself. Other tracks route through a CodeSignal variant with four shorter tasks in about 70 minutes; ask your recruiter which one you are getting. The problems are algorithmic rather than domain-flavored, and a few patterns dominate: counting substrings where every digit appears exactly k times, counting connected components from an adjacency matrix, maximizing the bottleneck edge on a path between two cities (sort-plus-union-find or a modified shortest path), minimizing the cost of covering a schedule with single-day and multi-day passes, and counting constrained movement subsequences on a number line with modulo arithmetic. Expect one graph or string problem paired with one dynamic-programming problem. Grading is by hidden tests, so a solution that handles only the sample is not a pass.
+Interns and new grads usually take the assessment and then one or two short interviews that mix behavioral questions with an easy or medium problem. Senior and staff candidates take the same assessment, then two phone screens and a final round with system design. One senior loop added a fifth conversation after the onsite, on AI concepts and a second design, so the onsite is not always the last technical round.
 
-**Technical phone screens.** One or two 45- to 60-minute calls with an engineer follow, usually mixing a project discussion with live coding in a shared editor. The coding portion is deliberately layered: two quick array and string warm-ups that function as filters, then a moderate state-management problem such as a memory allocator that processes allocate and erase queries over a slot array, or a pattern-recognition problem such as sorted-array absolute-difference sums solved with prefix sums. Classic problems appear in close-to-textbook form, including Jump Game and Find K Closest Elements with the binary-search approach expected. The conversational half probes latency in distributed systems, a past project's design decisions, and, in recent loops, how you use AI at work and what you know about prompt engineering. Some candidates met a behavioral-plus-design screen instead, where an Uber-style ride-matching system was discussed alongside conflict and decision-making questions.
+Here's what the interview process can look like:
 
-**Final rounds.** The onsite or virtual final stage typically runs three to five sessions, often short, and is where team-specific variation is largest. The recurring components are:
+- **Recruiter screen:** A 15–20 minute call about background, goals and logistics, with no technical questions.
+- **Online assessment (new grad through staff):** A proctored test, either two problems in 75–90 minutes or four shorter tasks in about 70 minutes.
+- **Technical phone screens (one or two):** 45–60 minute calls pairing a project discussion with live coding.
+- **Final-round coding:** One or two sessions built on a single well-known problem and its harder variants.
+- **System design and project deep dive (experienced hires):** A ride-sharing-style design plus a detailed walkthrough of a resume project, often an AI one.
+- **Hiring manager interview:** A behavioral and team-fit conversation that sometimes turns technical.
+
+> **Tip:** Ask the recruiter which assessment format you will get. The two-problem and four-task versions reward different pacing.
 
 **[Read the full Visa interview process →](interview-process.md)**
 

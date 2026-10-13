@@ -6,87 +6,300 @@
 
 ---
 
-AI Engineer candidates are rejected for the opposite reason they expect: not for missing model theory, but for lacking hands-on craft with the loop *around* the model. One candidate built a working tool-calling agent in the coding round — mocked search, calculator and database tools, termination logic, multi-step decomposition — then lost it when the interviewer added the real constraint: too many tool-call rounds, cut them without losing accuracy. The answers on batching calls, pre-planning and few-shot instruction design were thin. Interviewers here supply whatever model context you need and explicitly do not quiz internals; they measure whether you have actually programmed a model as a component and engineered the parsing, retry and evaluation code around it.
+Anthropic tests AI Engineers on building with language models, not on describing them. The defining rounds hand you a model as a component, such as a broken tool-calling agent, a prompt that must work every time, or an inference service with a latency budget, and grade what you do after the first version works. One candidate finished all three parts of an agentic coding task and was still rejected; others lost an agent round when asked to cut tool-call rounds without losing accuracy. A values conversation about AI safety carries real weight, and recruiters start probing it in the first call.
 
-## Interview Process
+This guide breaks down each stage of the Anthropic AI Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 22 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q3, cross-checked against recent public accounts.
+
+## Anthropic AI Engineer interview process
 
 <!-- guide-diagram -->
 ![Anthropic AI Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/anthropic--ai-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (15–30 minutes, phone).** Motivation, why this company rather than AI broadly, preferred language, level and scope, work authorisation, other processes in flight. Recruiters here are unusually specific about what to prepare and several candidates received the exact topic list for the next round; ask for it. Reading on the safety and scaling policy is sometimes sent first, then discussed.
-2. **Online assessment (60–90 minutes, timed).** Two shapes. One is dependency resolution or a stateful simulation — the recurring case is a recipe problem where intermediate products feed later recipes and cycles must resolve. The other is a debugging exercise: a program calling a language model with several planted logic and integration faults in its flow and response handling. Tests are usually visible; scoring is numeric.
-3. **Technical phone screen (55–60 minutes, shared cloud notebook).** The defining round. Reported forms: build an agent loop that decides between calling a mocked tool and answering, feeds results back into context and terminates safely, then cut the number of tool-call rounds through prompt design; or a live prompt-engineering exercise where you must make a model perform a non-trivial task reliably while the interviewer injects new constraints mid-session. You are graded on systematic experimentation and on the code around the prompt — parsing, failure handling, swappability — as much as on wording.
-4. **Onsite coding and design session (60 minutes).** Live implementation plus design discussion, usually in Python, in whatever environment you are fastest in. All required model-side context is supplied. Search is allowed; AI assistants are not.
-5. **Onsite system design (55–60 minutes).** Deliberately broad prompts, and candidates expecting model-architecture depth are caught out: the round is about the production system around the model — scaling an inference-backed service, infrastructure, observability, cost and latency, and internal tooling such as a prompt playground with versioning and very large prompts. Clarifying scope early is part of the grade.
-6. **Values and culture round (45–60 minutes).** Why this company specifically, your position on where the field is heading, a value upheld under pressure, and how you reason about deployment risk. Frequently the most senior interviewer you meet.
-7. **Reference checks and team matching (1–2 weeks).** References are contacted before an offer and matching runs in parallel; both are real decision points.
+The track covers applied roles that build on Claude, such as applied AI and forward deployed engineers, plus engineering-heavy research teams, and each team assembles its own loop. The technical screen is assigned from a short menu of topics (practical coding, coding and design, ML configuration, prompting and engineering with language models, agents and tool use), and recruiters have changed the sequence to fit a candidate's background.
 
-Expect roughly a month between the screen and the final rounds, then a decision within days to a couple of weeks.
+Most candidates sit an online assessment, one or two screens of about 55 minutes, and a virtual onsite of four or five rounds, with stages typically two to three weeks apart. Senior candidates may open with a system design screen, and research-leaning teams can substitute a take-home.
 
-## What They Actually Evaluate
+Here's what the interview process can look like:
 
-### Domain Deep Dive
-The track-defining competency: practical fluency with agents, tools and prompts. Reported probes include agent loop architecture and termination, dynamic tool selection, multi-step decomposition, context and conversation-state management, and cutting round-trips without losing accuracy. Interviewers reward treating the model as a programmable component — hypothesis, intervention, measurement — and penalise prompt-engineering vocabulary with no evidence of iteration. The reported failure mode is stalling when asked to justify optimisation strategies under time pressure.
+- **Recruiter screen:** About 30 minutes on motivation, your view of Anthropic and AI safety, and the next round's topics.
+- **Online assessment (most candidates):** A timed, multi-level recipe-building task, sometimes with a debugging exercise.
+- **Technical phone screen (one or two):** About 55 minutes in a shared notebook on the assigned topic, such as a weighted data batcher or a tokenizer.
+- **Agent and prompt engineering interview:** Build or repair an agent loop with tool calls, or make a model do a task reliably, then optimize under a new constraint.
+- **Coding interview (onsite):** Practical Python such as a web crawler that becomes multithreaded.
+- **System design interview:** A broad production prompt, often an inference API or a design document review.
+- **Hiring manager and project deep dive:** One past project in depth, your exact role, and conflict.
+- **Culture and AI safety interview:** Your own position on safety and deployment risk, including where you disagree with Anthropic.
 
-- [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use)
-- [Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table](https://trueinterview.io/questions/46a64535-7d55-4b9f-af3e-9db6d856187a)
-- [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a)
+> **Tip:** Ask the recruiter which screen topic you have been assigned. Recruiters give unusually specific preparation prompts for the screens, while onsite design prompts are deliberately left open.
 
-### Coding and Algorithm
-One to two rounds of 45–60 minutes plus the assessment. Problems are applied rather than contest-shaped: dependency graphs, tokenisation, text processing, debugging someone else's code. The bar is clean, tested, readable code delivered quickly; candidates report raw language fluency mattering because the assessments are tight, and writing your own small tests unprompted is expected rather than extra credit.
+## Recruiter screen
 
-- [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c)
-- [Coding Q6 — Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer)
-- [Tokenize (Python)](https://trueinterview.io/questions/tokenize-python)
-- [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e)
+The recruiter call runs about 30 minutes and is more rigorous than an introduction. One recent call skipped small talk and spent 20 minutes on layered follow-ups: why Anthropic, which recent company interviews or announcements you read and where you disagreed, why AI safety matters to you personally, and where you have applied it in your work. Others covered your preferred language, a recent project and collaboration style. The last minutes outline the next rounds, sometimes with exact screen topics, and flag that reference checks are standard. If the team seems a poor fit for your background, say so here.
 
-### System Design
-One round, 55–60 minutes, consistently broader than candidates prepare for. The prompt is vague on purpose and the interviewer wants production answers: how the service scales, what infrastructure it needs, how it is observed, where latency and cost go, how versions and experiments are handled. Internal tooling prompts recur — a playground for iterating on and comparing prompts, with versioning, sharing and multi-megabyte inputs — where workflow counts as design surface.
+Interviewers evaluate:
 
-- [Prompt Playground System Design](https://trueinterview.io/questions/prompt-playground-system-design)
-- [Inference API System Design](https://trueinterview.io/questions/inference-api-system-design)
-- [Distributed Model Deployment System Design](https://trueinterview.io/questions/distributed-model-deployment-system-design)
+- **Considered views on Anthropic:** Specific announcements or research you read, with a point you would challenge.
+- **A personal reason for safety:** A concrete experience; recruiters said generic mission answers do not stand out.
+- **Applied safety in past work:** A decision where you chose the more careful path and what it cost.
+- **Collaboration style:** A supportive, low-ego way of working is assessed, not just advertised.
 
-### Behavioral and Leadership
-At least one dedicated conversation, and it carries real weight. Reported prompts: why this company and not another lab, your own view of current developments and their risks, a time you upheld a value when it cost you, a disagreement you handled well, and how you would act if a project conflicted with your ethics. Generic mission enthusiasm is the most reported way to lose it.
+Prepare a two-minute answer on why Anthropic and why safety, anchored in one recent piece of company writing you can discuss critically.
 
-- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Why Anthropic rather than another AI company?
+- What recent Anthropic interview or announcement did you read, and did you disagree with anything?
+- Have you applied AI safety principles in your own work? Give a specific example.
+
 - [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
 
-## What They Don't Test
+## Online assessment
 
-- **Model internals.** Candidates are told outright that any required context about language models will be provided and no specialised knowledge is assumed.
-- **Training and fine-tuning pipelines.** Nothing reported asks you to train anything; the work is inference-time — prompts, tools, loops, evaluation, serving.
-- **Competitive-programming algorithms.** The coding problems are dependency resolution, tokenisation and debugging. Speed and correctness in idiomatic code beat clever asymptotics.
-- **Prompt-engineering theory.** Naming techniques earns nothing; the rounds are live and iterative, and the signal is your measurement loop — what failure you are addressing, what you changed, how you know it worked.
-- **Model-architecture depth in the design round.** Candidates who prepared architecture diagrams report the interviewer wanting deployment, scaling, monitoring and lifecycle instead.
+The assessment is a timed implementation task whose requirements unlock in levels, scored out of 600; candidates who advanced reported 600 out of 600. For this track the recurring task is a recipe problem: model ingredients and recipes whose outputs feed later recipes, then find a valid, minimal sequence of steps to a target dish under transformation rules. Some versions add a debugging exercise with off-by-one and branching errors in a supplied function, and one centered on code that calls a language model.
 
-## The Real Filter
+Time is the main enemy. A candidate who hit a bug in the third part could not finish because the editor made copying and pasting awkward, and was rejected. Each level builds on the last, so a data model that cannot absorb new rules forces a late rewrite.
 
-The primary rejection path is being conversant about language models but not practised at building with them. The rounds are structured so a first working version is not the test — the test is what happens after it works, when the interviewer imposes a production constraint. Cut the tool-call rounds. Make the output parseable every time. Handle the case where the model ignores the instruction. Candidates misjudge this because the session is billed as a coding interview, so they optimise for finishing the implementation and leave no time for the part that is scored. Build agents end to end beforehand and keep notes on the failure modes you hit and the fix that worked.
+Interviewers evaluate:
 
-The second pattern is time pressure in the assessment and notebook rounds: raw typing and language fluency become a factor, model-integration faults take longer to trace than expected, and the optimisation discussion gets lost to setup. Practising in the environment you will use, with your own scaffolding for logging and inspecting model outputs, converts directly into surviving that segment.
+- **Modeling the constraints:** Intermediate products, quantities and cycles represented explicitly before any search logic.
+- **Completeness:** Every level submitted and passing; an unfinished level tends to end the process.
+- **Extensibility:** State and classes that take the next level's rule without a rewrite.
+- **Debugging speed:** Tracing a failing case to the exact branch without IDE help.
 
-The third is the values round, which here is not a soft close. Interviewers press for a personal position on the risks of the systems you would ship and evidence you have acted on it. A general endorsement of responsible AI is the reported failure; a specific instance where you argued for a safer choice at a real cost is what lands.
+Practice multi-level implementation tasks in a plain browser editor, typing everything by hand against a timer.
 
-## Data Source
+> **Note:** A full score is common among those who advance, so treat partial credit as risky and keep buffer for one unexpected bug, the reported cause of an incomplete submission.
 
-Based on 22 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+### Sample questions for the online assessment
 
-## FAQ
+Here are some questions reported by recent candidates:
 
-**What is it like to work there as an AI Engineer?**
-Our reports describe the hiring loop, not the job, with two exceptions: a recruiter cited a typical week of roughly 60 hours, and a candidate was told remote employees are expected onsite about a quarter of the time, roughly one week a month. The prompts are the best available signal about the work — agent loops, tool schemas, prompt reliability, playgrounds, evaluation harnesses.
+- Given ingredients and recipes with transformation rules, produce the shortest sequence of operations that yields a target dish.
+- Find and fix subtle off-by-one and branching errors in a supplied function.
 
-**What is the engineering culture like?**
-Interviewers are collaborative and hands-on, running rounds as working sessions in shared notebooks and volunteering constraints rather than withholding them. The norms — low ego, kind but direct disagreement, mission before individual credit — are graded, not just advertised, and the loop is arranged so a values conversation carries as much weight as a design round.
+- [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)
+- [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c)
+- [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management)
 
-**How hard is it to get in?**
-Hard in a way that resists brute-force preparation. The algorithmic bar is moderate and the question pool recurs, but the two rounds that decide outcomes — practical agent and prompt engineering, and values — cannot be crammed. Published estimates put acceptance far below a few percent over a three-to-six-week process.
+## Technical phone screen
 
-**Which round is hardest?**
-The agent and prompt-engineering screen, because it is graded on the follow-up rather than the implementation and the optimisation question has no memorisable answer. The values round runs a close second and accounts for more reported rejections overall.
+Screens run about 55 minutes with an engineer in a shared notebook. The most reported coding-and-design problem is a weighted data batcher built on a supplied registry that returns an iterator per dataset: yield batches of indices by per-dataset weights, then add an offset with deterministic save and resume, then drop the guarantee that the batch size divides the weight total. Discussion follows on weights changing between saves, sharding, weight lists too large for memory, and testing determinism in distributed training.
+
+Other screens: a longest-match tokenizer with an unknown-token fallback that merges consecutive unknowns and bounds its scan by the longest vocabulary entry; stack traces with hidden prefixes and partial leaf samples; the mode and then the median across many workers; and matmul FLOPs, arithmetic intensity and whether a 72-layer network fits on a 40 GB GPU. Some open with 10 to 15 minutes on temperature, transformer structure and a non-converging training run. Research-leaning teams use planted bugs in a GRPO implementation, and one such screen allowed no AI assistance.
+
+Interviewers evaluate:
+
+- **State you can checkpoint:** Exactly which counters and offsets you save so a resumed iterator emits the same next batch.
+- **Generalizing without breaking:** Relaxing an assumption in part three without invalidating earlier parts.
+- **Proactive optimization:** Bounding the tokenizer's look-ahead before being asked.
+- **Estimation fluency:** Calling a workload compute-bound or bandwidth-bound from FLOPs and bytes moved.
+
+Write small deterministic, stateful iterators and practice explaining what state they need to resume exactly.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Build a batcher that samples several datasets by weight, then add an offset, checkpoint and resume, and batch sizes that do not divide the weight total.
+- Tokenize by longest match against a vocabulary, emitting one unknown token per run of unmatched characters.
+- Estimate a matrix multiplication's runtime on an A100 and whether a 72-layer model's weights fit in 40 GB.
+
+- [Weighted Data Batcher with Checkpointing](https://trueinterview.io/questions/afa9e386-7de2-4dd2-8747-3810328a9c39)
+- [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2)
+- [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
+- [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median)
+
+## Agent and prompt engineering interview
+
+This round defines the track. It appears as a screen labeled prompting and engineering with language models, an onsite round, or an agentic coding session, and runs about 55 minutes. In the agent form you write or repair code that calls the Anthropic API, defines tools, parses tool-use responses, keeps conversation state and loops until the model answers. One version had three parts: fix the bugs, make the agent answer every question within two turns, then within one. Another asked for multi-step reasoning and then fewer tool-call rounds.
+
+In the prompting form you iterate live until a model performs a task reliably in a required output format, while the interviewer adds edge cases. The code around the prompt is graded too: parsing, handling off-format output, keeping prompts swappable. An AI-assisted variant supplies a command-line coding assistant and open web search; its preparation notes list message roles, token limits, prompt caching, time to first token, parallel and strict tool use, subagents, and failure modes such as hallucinations and unintended actions, with deep ML knowledge out of scope.
+
+Interviewers evaluate:
+
+- **Correct tool-call mechanics:** Matching results to calls, feeding them back, and ending the loop safely.
+- **Optimization after it works:** Batching tool calls, planning up front and instruction design that cut round trips without losing accuracy.
+- **Systematic iteration:** Naming the failure each prompt change targets and how you check it worked.
+- **Reasoning about model behavior:** Explaining why the model produced an output rather than retrying blindly.
+
+Build a small agent on the Anthropic API with two or three tools, rework it to finish in fewer turns, and note each failure and its fix.
+
+> **Note:** Finishing is not the bar. A candidate who completed all three agentic parts in 55 minutes, after rehearsing a near-identical prompt many times, was rejected a week later. Another found the rubric unclear; ask early whether correctness, efficiency or design clarity matters most.
+
+### Sample questions for the agent and prompt engineering interview
+
+Here are some questions reported by recent candidates:
+
+- Fix the bugs in a tool-using agent, then make it answer every question within two turns, and then within one.
+- Build an agent loop with tool calling and multi-step reasoning, then reduce the tool-call rounds it needs.
+- Given a domain and an output format, iterate on prompts until a model's answers are correct and parseable as new edge cases arrive.
+
+- [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use)
+- [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a)
+- [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf)
+
+## Coding interview
+
+The onsite coding round is about 60 minutes of practical Python. The staple is a web crawler: parse HTML for links, crawl breadth-first from a start URL in one thread, then make it concurrent with a thread pool. The details that cost candidates are keeping only URLs on the start hostname and stripping fragments so a page is not crawled twice. Other loops use a tokenizer or file deduplication with performance follow-ups. Tool rules vary by round, so confirm them beforehand.
+
+Interviewers evaluate:
+
+- **A correct baseline first:** A working single-threaded crawler before concurrency.
+- **Concurrency correctness:** A shared visited set and queue without races, and clean termination.
+- **URL hygiene:** Hostname filtering and fragment normalization without reminders.
+- **Readable, tested code:** Small functions and your own quick tests.
+
+Practice converting a single-threaded crawler into a thread-pool version in under 20 minutes.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- Crawl every page under the starting hostname by parsing HTML for links, then make the crawler multithreaded.
+- Treat URLs that differ only by fragment as the same page.
+
+- [Web Crawler](../../questions/algorithm/web-crawler/README.md)
+- [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871)
+- [Tokenize (Python)](https://trueinterview.io/questions/tokenize-python)
+
+## System design interview
+
+The design round runs 55 to 60 minutes and is broader than candidates expect. An inference API is the most common prompt: why GPU inference is memory-bound rather than compute-bound, and how to batch and dispatch requests to accelerators. One loop used a design document review: add a batching layer and load balancer to an inference service with 100 ms batches at 10,000 queries per second. The candidate found two or three flaws, then went deep on batching, server count, load shedding and circuit breaking, and scheduling several model types.
+
+Other prompts were an ML-powered service judged on scaling, infrastructure, observability and performance rather than model architecture; data infrastructure covering ingestion, storage, access control, cost and fault tolerance, with no ML knowledge expected; and an internal prompt playground with versioning, sharing and prompts over 10 MB. Clarifying questions count, because the prompts are intentionally open.
+
+Interviewers evaluate:
+
+- **Hardware-aware serving:** Batching, memory bandwidth and accelerator utilization tied to latency and throughput targets.
+- **Numbers:** The servers a stated latency budget and load require, worked out explicitly.
+- **Overload behavior:** Shedding, backpressure and what happens when one model type saturates.
+- **Production lifecycle:** Monitoring, versioning, rollout and cost, raised unprompted.
+
+Prepare one inference-serving design you can size numerically, opening with requirements and load.
+
+> **Tip:** Do not expect a modeling discussion. Candidates who prepared model architectures were steered to deployment, monitoring and cost, and one who prepared only algorithms got a design document to critique.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design an inference API that batches requests onto GPUs, and explain why inference is memory-bound.
+- Review a design that adds batching and load balancing for 100 ms batches at 10,000 queries per second, then size the fleet and handle overload.
+- Design a prompt playground for internal researchers with versioning, sharing and very large prompts.
+
+- [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design)
+- [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design)
+- [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design)
+- [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure)
+
+## Hiring manager and project deep dive
+
+One onsite conversation, usually with the hiring manager and sometimes a 45-minute project deep dive, covers your past work: the size and duration of your teams, your specific role and impact, the hardest technical decision, and how you handled pushback from teammates or stakeholders. A substantial, well-understood project is the most valuable thing to bring.
+
+Interviewers evaluate:
+
+- **Personal ownership:** What you decided and built, separated from the team's work.
+- **Depth under follow-up:** Architecture, trade-offs and what you would change.
+- **Handling disagreement:** How a conflict was resolved and what changed afterward.
+- **Working with ambiguity:** Progress made when requirements were unclear.
+
+Rehearse one substantial LLM-related project from a two-minute summary down to its hardest decision.
+
+### Sample questions for the hiring manager and project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Walk through a significant project: team size, duration, and exactly what you owned.
+- Tell me about pushback from a teammate or stakeholder and how you handled it.
+
+- [Describe your most impactful project](https://trueinterview.io/questions/describe-your-most-impactful-project-2)
+- [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
+
+## Culture and AI safety interview
+
+The final round probes your views on AI safety, often with a senior interviewer. Reported topics include Anthropic's constitution for Claude, whether you can genuinely critique the company's safety positions, the Long-Term Benefit Trust, the risks of deploying language models in production, and how you handle being wrong. Interviewers want candidates who engage critically rather than repeat the company line.
+
+Interviewers evaluate:
+
+- **Independent judgment:** A specific, reasoned critique of an Anthropic position, delivered constructively.
+- **Knowledge of the company's commitments:** Enough familiarity with the constitution and governance to discuss them.
+- **Deployment realism:** Concrete risks of systems you would ship.
+- **Intellectual honesty:** A real time you changed your mind and why.
+
+Read Anthropic's constitution for Claude and its governance materials, with one point of agreement and one of disagreement for each.
+
+### Sample questions for the culture and AI safety interview
+
+Here are some questions reported by recent candidates:
+
+- What do you think of Claude's constitution, and where would you change it?
+- What concerns you most about deploying large language models in production?
+- Describe a time you were wrong and changed your mind.
+
+- [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks)
+- [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values)
+- [Identify the Most Important AI Safety Risk](https://trueinterview.io/questions/identify-the-most-important-ai-safety-risk)
+
+## How Anthropic levels and evaluates AI Engineer candidates
+
+A hiring committee decides, and candidates were told the level is set after that decision rather than fixed up front. Rounds are weighed together: a couple of merely acceptable rounds have sunk otherwise positive loops, and friendly live feedback predicts little. In loops split over two days, weak early rounds can cancel later ones. Team matching now follows the full technical loop for some candidates and does not guarantee an offer if your background fits no team. References from a former manager and a current colleague are checked before the offer, and at least one candidate was rejected after that step. Decisions usually arrive within two days to a week of the final round, without detailed feedback.
+
+> **Tip:** Brief two references before the onsite; the request typically arrives within about a week of the final round.
+
+## How to prepare for the Anthropic AI Engineer interview
+
+1. **Build an agent on the Anthropic API:** Implement tools, tool-result handling and a terminating loop, then cut its turn count without losing accuracy.
+2. **Practice live prompt iteration:** Make a strict-format task reliable and explain each change by the failure it fixes.
+3. **Learn the API surface:** System prompts, tool use variants, prompt caching, token limits and latency metrics come up in AI-assisted rounds.
+4. **Drill the recipe assessment by hand:** Finish multi-level tasks in a plain editor with time left for one bug.
+5. **Master stateful iterators and crawlers:** The checkpointed weighted batcher and the concurrent crawler recur across screens and onsites.
+6. **Size an inference service numerically:** Practice batching, latency budgets and memory-bound reasoning, plus critiquing a flawed design document.
+7. **Ask for your screen topic:** Prepare for the assigned topic instead of every possible screen.
+8. **Form your own view on safety:** Prepare a constructive critique of an Anthropic position and an example from your own work.
+
+## About the Anthropic AI Engineer role
+
+AI Engineers at Anthropic build production systems on Claude. Applied AI engineers act as technical advisers to customers on the Claude Developer Platform through pair programming, architecture reviews, evaluation suites and code contributions, and feed repeatable patterns back to product teams. Forward deployed engineers embed with strategic customers to ship applications inside their systems, delivering MCP servers, subagents and agent skills, with travel of about a quarter of the time in some postings. Remote employees are expected onsite about 25% of the time, and a recruiter described a typical week of around 60 hours.
+
+Anthropic hires AI Engineers across several teams. Teams include:
+
+- **Applied AI, Startups:** Advises AI-native startups building on the Claude Developer Platform as they scale.
+- **Applied AI for technology companies:** Advises tech-forward companies scaling on the platform, in the US and London.
+- **Forward deployed engineering:** Builds production Claude applications inside strategic enterprise customers.
+- **Forward deployed engineering, federal civilian:** Works with federal civilian agencies and some state and local customers.
+- **Research engineering:** Alignment and interpretability groups that hire through RL-debugging, coding-and-design or take-home screens.
+- **Data infrastructure:** Builds ingestion, processing and storage for large datasets, with no ML background required.
+
+### AI Engineer experience and education requirements
+
+Postings lead with experience: typically three or more years in a technical, customer-facing role such as forward deployed engineer, or as a software engineer with consulting experience, and former technical founders are encouraged to apply. Applied roles ask for production LLM application experience, strong Python and familiarity with current model capabilities; TypeScript and MCP appear in several postings. Research engineering roles add PyTorch, basic linear algebra and plotting in Python. Nearly every reported round is conducted in Python.
+
+## FAQs about the Anthropic AI Engineer interview
+
+### How long does the Anthropic AI Engineer interview process take?
+
+Usually one to two months. Candidates describe two to three weeks between most stages, then a decision within about a week of the last round, with reference checks before the offer.
+
+### What is the hardest round of the Anthropic AI Engineer interview?
+
+The agent and prompt engineering round, because it is graded on what happens after the code works: fewer turns, reliable output and explanations of model behavior. The culture and AI safety round is the next most common place to fall short, when answers stay at general agreement with the mission.
+
+### Is there an online assessment?
+
+Most candidates take one: a staged recipe-building task, sometimes with a debugging exercise, scored out of 600. Some research-leaning teams use a take-home instead, such as a four-hour experiment presented as a slide deck.
+
+### Can you use AI tools during the interview?
+
+It depends on the round. One research screen allowed no AI assistance, while an AI-assisted coding round supplied a coding assistant and open web search. Confirm the rules for each round with your recruiter.
+
+### Is the process remote?
+
+All reported rounds were virtual, and some onsites were split over two days. The job itself is hybrid, with remote employees onsite about a quarter of the time.
 
 ---
 

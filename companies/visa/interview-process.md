@@ -6,67 +6,211 @@
 
 ---
 
-Visa's engineering loop is less punishing than most big-tech processes on raw algorithm difficulty, but it asks more of you in places candidates tend to under-prepare: proctored assessments, back-to-back variations of one classic problem, and resume deep-dives that keep circling back to AI. Going beyond the outline on the company page, this guide draws on 13 real Visa questions and 6 candidate interview reports to show what each stage contains, how it is graded, and where the loop actually thins out.
+Visa's engineering loop is moderate on raw algorithm difficulty but tests what candidates under-prepare. The online assessment is proctored with camera and screen recording, even for staff hires. Interviewers reuse one classic problem and tighten the constraint in the same session. Recent resume deep dives keep returning to AI, and a passed loop still waits on team matching.
 
-## Interview Process
+This guide breaks down each stage of the Visa interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 6 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Visa interview process
 
 <!-- guide-diagram -->
 ![Visa interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/visa/process.webp)
 <!-- guide-diagram -->
 
-End to end, candidates describe a pipeline of roughly four to six touchpoints that typically runs several weeks, with the exact shape varying by team and level. Every stage is treated as an elimination gate, and the loop below is assembled from what candidates most consistently report.
+Each hiring team runs its own loop, so rounds vary by team. A typical pipeline has four to six touchpoints over three to eight weeks, each an elimination gate.
 
-**Online assessment.** Most applicants, from new grad through staff level, start with a timed coding assessment. Candidates report two problems in a 75- to 90-minute window on a proctored HackerRank sitting, with the camera and desktop recording active for the full session and both problems visible from the first minute, so you can order them yourself. Other tracks route through a CodeSignal variant with four shorter tasks in about 70 minutes; ask your recruiter which one you are getting. The problems are algorithmic rather than domain-flavored, and a few patterns dominate: counting substrings where every digit appears exactly k times, counting connected components from an adjacency matrix, maximizing the bottleneck edge on a path between two cities (sort-plus-union-find or a modified shortest path), minimizing the cost of covering a schedule with single-day and multi-day passes, and counting constrained movement subsequences on a number line with modulo arithmetic. Expect one graph or string problem paired with one dynamic-programming problem. Grading is by hidden tests, so a solution that handles only the sample is not a pass.
+Interns and new grads usually take the assessment and then one or two short interviews that mix behavioral questions with an easy or medium problem. Senior and staff candidates take the same assessment, then two phone screens and a final round with system design. One senior loop added a fifth conversation after the onsite, on AI concepts and a second design, so the onsite is not always the last technical round.
 
-**Technical phone screens.** One or two 45- to 60-minute calls with an engineer follow, usually mixing a project discussion with live coding in a shared editor. The coding portion is deliberately layered: two quick array and string warm-ups that function as filters, then a moderate state-management problem such as a memory allocator that processes allocate and erase queries over a slot array, or a pattern-recognition problem such as sorted-array absolute-difference sums solved with prefix sums. Classic problems appear in close-to-textbook form, including Jump Game and Find K Closest Elements with the binary-search approach expected. The conversational half probes latency in distributed systems, a past project's design decisions, and, in recent loops, how you use AI at work and what you know about prompt engineering. Some candidates met a behavioral-plus-design screen instead, where an Uber-style ride-matching system was discussed alongside conflict and decision-making questions.
+Here's what the interview process can look like:
 
-**Final rounds.** The onsite or virtual final stage typically runs three to five sessions, often short, and is where team-specific variation is largest. The recurring components are:
+- **Recruiter screen:** A 15–20 minute call about background, goals and logistics, with no technical questions.
+- **Online assessment (new grad through staff):** A proctored test, either two problems in 75–90 minutes or four shorter tasks in about 70 minutes.
+- **Technical phone screens (one or two):** 45–60 minute calls pairing a project discussion with live coding.
+- **Final-round coding:** One or two sessions built on a single well-known problem and its harder variants.
+- **System design and project deep dive (experienced hires):** A ride-sharing-style design plus a detailed walkthrough of a resume project, often an AI one.
+- **Hiring manager interview:** A behavioral and team-fit conversation that sometimes turns technical.
 
-- *Coding,* where one interviewer presents successive variations of a single well-known problem, for example the single-transaction stock problem followed immediately by the at-most-two-transactions version, and expects you to extend an O(n) scan into a left-and-right dynamic-programming solution within the same session, then walk test cases by hand.
-- *Project deep dive,* which goes well past impact statements: candidates with generative AI work on their resume were asked about model architecture, data pipelines, evaluation of output quality, latency, and hallucination; another was asked how a knowledge base was built and where its data came from, then pushed into API design for it.
-- *System design,* anchored by an Uber-like ride-sharing service in more than one report: driver-passenger matching, real-time location updates, geographic partitioning, global usage, low latency, and traffic bursts. The grading centers on the core workflow and data flow and on trade-offs, not on exhaustive component lists.
-- *Fundamentals and behavioral,* reported more often from the web than in our own reports: Java and concurrency questions, hash map internals, and a hiring-manager conversation covering ownership and team fit.
+> **Tip:** Ask the recruiter which assessment format you will get. The two-problem and four-task versions reward different pacing.
 
-One senior candidate's loop ran assessment, two phone screens, an onsite, and then a further screen covering AI concepts and a second design discussion before a rejection, so do not assume the onsite is the last technical conversation.
+## Online assessment
 
-**Team matching and decision.** Candidates who pass the technical bar can still wait on team matching, which one report singled out as the slowest and least predictable part of the process, with delays and mismatches possible even after a successful loop.
+The assessment is Visa's main filter, and staff candidates take it too. One format is a HackerRank sitting with both problems shown at the start, 75 or 90 minutes, and camera and desktop recording throughout. The other is a four-task general coding assessment in about 70 minutes, roughly two easy and two medium-to-hard; solving three of four is typically needed to advance.
 
-## What Candidates Report
+Problems are generic algorithms, not payments puzzles: digit substrings where every digit appears exactly k times, connected components from an N×N adjacency matrix, the weakest road on any path between two cities, and the cheapest way to cover a schedule with single-day and multi-day passes. A staff candidate counted subsequences of a left/right move string that end on a target point, taken modulo a large number. Hidden tests decide the grade.
 
-- The technical bar is described as moderate relative to other large tech companies; standard algorithms, solved cleanly in roughly thirty minutes, carry most rounds. The differentiator is consistency across many short sessions rather than one hard problem.
-- AI is a recurring thread, not a one-off: prompt engineering, practical AI usage at work, AI concepts, and deep technical questions on AI projects surfaced across different rounds and different loops.
-- Variations stack up fast. Interviewers reuse one problem and tighten the constraint; candidates who could only reproduce the memorized first version struggled when the follow-up arrived.
-- Assessment proctoring is strict: camera plus screen recording for the full window. Set up a quiet, compliant environment and expect no tolerance for leaving the editor.
-- The easy warm-ups in phone screens are graded as filters; a sloppy bug on a trivial array problem costs more than a partial answer on the hard one.
-- Passing interviews does not end the process: team matching can stall or fail to produce a fit, and rejections arrive with little explanation.
+Interviewers evaluate:
 
-## Coding Questions
+- **Pattern recognition:** Seeing union-find or BFS behind a city-and-roads story, and DP behind pass pricing.
+- **Counting discipline:** Applying modulo at every step of a substring or subsequence count.
+- **Triage:** Both problems are visible from the start, so choosing the order is part of the test.
+- **Edge cases:** Disconnected graphs, impossible k values, empty schedules.
 
-Visa coding rounds draw from the classic catalog: graph connectivity, dynamic programming over sequences and schedules, prefix-sum tricks, and binary search on sorted data. Practice extending a first solution under a tightened constraint, since interviewers reuse one problem with escalating variants in the same session.
+Drill timed pairs of one graph or string-counting problem and one DP problem.
+
+> **Note:** Camera and screen recording stay on for the full window. Use a quiet room and one monitor, and do not leave the editor.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Count the substrings of a digit string in which every digit present occurs exactly k times.
+- Given weighted roads, return the smallest edge weight on any path connecting two given cities.
+- Find the minimum cost to cover a set of days when each day can be bought alone or through multi-day passes.
 
 - [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1)
 - [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b)
 - [Minimum Score of a Path Between Two Cities](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d)
 - [Count Distinct Movement Subsequences on a Number Line](https://trueinterview.io/questions/f70afa37-90a2-5c42-a173-236efea88ec0)
-- [Maximize Profit from Single Stock Buy and Sell](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761)
+- [Minimize Maximum of Array](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47)
+- [Minimize Value by Parentheses in Concatenated Expression](https://trueinterview.io/questions/2c206b9d-3d55-4b5e-a350-1617c3666b7b)
+
+## Technical phone screens
+
+Expect one or two 45–60 minute calls with an engineer in a shared editor. One screen was layered: easy array and string warm-ups as filters, then a memory allocator over a slot array, then a prefix-sum problem. Senior candidates got near-textbook classics such as Jump Game, and Find K Closest Elements with binary search expected. The talk covers latency in distributed systems, a past project's design decisions, and how you use AI and prompt engineering at work. One experienced candidate got behavioral questions plus an Uber-style design instead.
+
+Interviewers evaluate:
+
+- **Clean warm-ups:** A bug on the easy problem costs more than a partial answer on the hard one.
+- **State management:** Handling fragmented free space, and asking about first fit versus best fit before coding.
+- **Optimization:** Deriving the O(n) prefix-sum formula instead of stopping at O(n²).
+- **Systems vocabulary:** Explaining where latency comes from in a distributed call path.
+
+Practice simulations that keep state across a stream of queries.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Process allocate(size) and erase(start, size) queries over free and occupied slots, returning the start index or -1 for each allocation.
+- For each element of a sorted array, return the sum of its absolute differences with every other element.
+- Return the k elements closest to a target in a sorted array, using binary search to place the window.
+
+- [Jump Game](../../questions/algorithm/jump-game/README.md)
 - [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2)
+- [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md)
+- [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb)
+
+## Final-round coding
+
+Final coding sessions build on one problem rather than switch topics. One interviewer asked for one-transaction stock profit, then at most two transactions, expecting the candidate to turn the minimum-price scan into left and right profit arrays and trace sample prices by hand. Another used Course Schedule framed as ML tasks with prerequisites: topological sort, cycle detection, and scaling to thousands of tasks. Some loops add fundamentals: object-oriented principles, Java concurrency, hash map internals, SQL and REST.
+
+Interviewers evaluate:
+
+- **Extending a solution:** Reaching the constrained variant without starting over.
+- **Verification:** Walking test cases before being asked.
+- **Complexity reasoning:** Time and space of the final version and its behavior at scale.
+- **Fundamentals:** Explaining language and data-structure internals, not just using them.
+
+Rehearse each base problem and one harder variant back to back within 30 minutes.
+
+> **Tip:** For each classic you practice, prepare the follow-up too: two transactions after one, cycle detection after ordering, the bottleneck path after the shortest path.
+
+### Sample questions for the final-round coding
+
+Here are some questions reported by recent candidates:
+
+- Maximize profit from one buy and one sell, then from at most two non-overlapping transactions.
+- Given ML tasks with prerequisite pairs, decide whether all can finish, and discuss scaling to thousands of tasks.
+
+- [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761)
 - [AI-augmented Course Schedule Variation](https://trueinterview.io/questions/f07d3e71-08f4-4626-a568-17e13bd74cbc)
+- [Largest Square Area in Cityscape](https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6)
 
-## System Design Questions
+## System design and project deep dive
 
-Design conversations at Visa favor real-time, high-fan-out systems with a geographic or concurrency dimension, and interviewers care most about the core data flow and the trade-offs you name unprompted. Lead with the matching or messaging workflow, then scale it out; avoid getting lost in peripheral components.
+For experienced hires, two separate reports describe an Uber-like ride-sharing design: rider-driver matching, live location over WebSockets, geographic partitioning, the schema, global traffic, low latency and bursts. The round is conversational and rewards the core workflow and data flow with trade-offs, not long component lists. Elevator systems and large websites are also reported. The deep dive goes past impact: one candidate defended a generative AI project's architecture, data pipeline, evaluation, latency and hallucination handling, and another explained a knowledge base's data sources and the API serving it.
+
+Interviewers evaluate:
+
+- **Core flow first:** Matching and location updates end to end before caching or analytics.
+- **Scaling choices:** Geographic sharding, burst absorption, a fast matching path.
+- **Reliability instincts:** Failover and idempotent retries, which matter on a network that cannot go down.
+- **Implementation-level ownership:** Loss functions, metrics and failure modes of what you built.
+
+Prepare a 20-minute ride-matching design and know each resume project down to its data sources.
+
+> **Note:** One senior candidate met AI questions in a phone screen, the onsite deep dive and a final AI-concepts conversation. Treat AI fluency as a thread through the whole loop.
+
+### Sample questions for the system design and project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Design a ride-sharing service with rider-driver matching, live tracking, geographic partitioning and burst handling.
+- Walk through a generative AI project's architecture, data pipeline, evaluation and hallucination handling.
 
 - [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637)
+- [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a)
 
-## How to Prepare
+## Hiring manager interview
 
-- Drill the assessment pairings under a 75-minute timer: one graph or substring-counting problem plus one dynamic-programming problem with modulo arithmetic, solved against your own hidden-style edge cases.
-- For every classic you know, prepare the next variant: one-transaction to two-transaction stock profit, course scheduling to prerequisite ordering with cycle detection, shortest path to maximizing the bottleneck edge.
-- Rehearse a memory-allocator style simulation, clarifying first-fit versus best-fit before writing, and a prefix-sum derivation you can reproduce from scratch in a few minutes.
-- Build a ride-sharing design you can deliver in twenty minutes: matching, live location updates, geographic partitioning, burst handling, and the database schema underneath, with a trade-off stated for each choice.
-- Prepare your AI story at implementation depth: loss function, evaluation metrics, data pipeline, latency, and failure modes of any model you list, plus a concrete answer on how you use AI and prompt engineering in daily work.
-- Confirm the assessment platform and proctoring requirements with your recruiter, and test the camera and recording setup before the window opens.
-- Ask early about team matching and timelines; a passed loop is not an offer until a team commits.
+This round is usually behavioral and team-fit: challenging situations, disagreements, collaboration, ownership and why Visa. Some managers push on scaling and fault tolerance instead. Behavioral questions also open some phone screens.
+
+Interviewers evaluate:
+
+- **Ownership:** Concrete decisions you made and their outcomes.
+- **Conflict handling:** How a disagreement was resolved and what changed afterward.
+- **Technical judgment:** Fault-tolerance trade-offs when the manager probes.
+
+Prepare five or six stories plus one technical walkthrough.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe a difficult technical decision and the alternatives you rejected.
+- How do you use AI tools in your day-to-day work?
+
+## How Visa makes hiring decisions
+
+Feedback typically goes to the hiring manager and team, who decide together; some candidates heard back the day after the final round. Passing is not an offer: one senior candidate called post-loop team matching the slowest, least predictable part, with delays and possible mismatches. Rejections come with little explanation.
+
+## How to prepare for the Visa interview
+
+1. **Rehearse the proctored format:** Two problems in 75 minutes, camera on, one screen, hidden-test edge cases first.
+2. **Pair graphs with DP:** Connected components, bottleneck paths and pass-pricing DP, with modulo in every count.
+3. **Prepare the next variant:** Solve each classic and its constrained follow-up within 30 minutes.
+4. **Build stateful simulations:** Write a slot allocator and settle the fit strategy before coding.
+5. **Own a ride-matching design:** Matching, live location, partitioning and bursts, with a trade-off for each.
+6. **Know your AI work deeply:** Architecture, evaluation, latency, hallucination handling and your daily prompt practice.
+7. **Ask about team matching early:** Learn whether the role is tied to a team or matched after the loop.
+
+## About working at Visa
+
+Visa engineers build the systems behind one of the largest payment networks, with heavy emphasis on scalability, security and reliability. Backend work is mostly Java, Spring Boot and REST, with Kafka and cloud tooling on some teams. Hubs include Foster City, Austin, Bellevue, Highlands Ranch, Bengaluru, Warsaw and Belfast, and hybrid roles typically require two or three set office days a week.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Associate Software Engineer | Well-defined features with guidance | Tasks within one team |
+| Software Engineer | Features, code reviews and testing | One team's services |
+| Senior Software Engineer | Architecture and design decisions, mentoring | A product area |
+| Staff Software Engineer | Product features and system architecture | Several teams |
+
+Visa hires engineers across its processing and product businesses. Teams include:
+
+- **VisaNet:** The global authorization and settlement network, handling tens of thousands of transaction messages per second.
+- **Cybersource:** Merchant payment gateway and payment management services.
+- **Payment Services and Transaction Platforms:** Core transaction processing and shared platforms.
+- **Real-Time Payments:** Push payments and money movement.
+- **Buy Now Pay Later Technology:** Installment payment products.
+
+### Experience and education requirements
+
+Staff postings typically require five or more years with a bachelor's degree, two with an advanced degree, none with a PhD, or eight or more without a degree. Senior postings ask for data structures, algorithms, design patterns and SQL. One posted base range for a Senior Software Engineer in Austin was about $109K–$164K.
+
+## FAQs about the Visa interview
+
+### How long does the Visa interview process take?
+
+Typically three to eight weeks from assessment to decision; team matching can add more.
+
+### What is the hardest round of the Visa interview?
+
+The online assessment rejects the most candidates because it is proctored, timed and graded on hidden tests. For senior candidates, system design and the AI deep dive weigh most.
+
+### Is the Visa interview remote?
+
+Assessments and screens are remote; final rounds are reported both virtual and onsite. Most offers are hybrid with set office days.
 
 ---
 

@@ -6,63 +6,252 @@
 
 ---
 
-Datadog's technical rounds are unusually literal about the company's own product: candidates are handed logs, queries, buffers, and unbounded streams, and asked to make them fast. Going deeper than the outline on the company page, this guide draws on 15 real Datadog questions and 16 candidate interview reports to show what each stage contains, which problem families recur, and where loops actually end.
+Datadog's technical rounds come straight from its own product: streams of logs and queries, buffered writers, file-system traversals and query clients. Candidates make them correct, then fast, then safe under deletion, memory pressure and concurrency. The follow-up chain decides the round more than the opening problem. System design ends more loops than coding, and recent loops have added AI-assisted coding and AI-agent design.
 
-## Interview Process
+This guide breaks down each stage of the Datadog interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 14 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Datadog interview process
 
 <!-- guide-diagram -->
 ![Datadog interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/datadog/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact and prep materials.** Recruiters send an outline of what the first technical round will contain, and it is not always accurate — one candidate was told the phone screen would open with a project deep dive and got sixty minutes of pure coding instead. Confirm the format, the tool, and whether AI assistants are permitted before each round. One referral candidate reported roughly four weeks from application to a post-onsite decision; a few weeks between stages is typical.
+Hiring is centralized, with team matching after the loop, and problem families repeat across teams. The sequence is a recruiter call, a one-hour technical screen and a virtual onsite of three to five rounds, usually over three to six weeks.
 
-**Technical phone screen.** A single one-hour technical round, and it is where most of our reports concentrate. The dominant format is one practical, systems-flavored problem plus escalating follow-ups, sometimes followed by a shorter classic algorithm question. The most repeated family by far is log-and-query matching: a live stream delivers queries and log lines, each query gets a unique ID and an acknowledgment, and every log must be emitted with the IDs of active queries that share a word with it. The expected arc is explicit — start with a correct brute-force scan over active queries, then move to an inverted index from words to query IDs when the interviewer raises the volume, then support deletion in constant time using a hash map into a doubly linked list per posting list. A variant gives you stored log entries with timestamps and asks for keyword plus time-range retrieval, where the answer combines an inverted index with binary search over timestamps.
+The shape changes little by level. New-grad and junior loops also include system design. Senior and staff loops raise the bar in that round and in project depth. Data and ML candidates may get a conceptual modeling round instead of a second coding round.
 
-Other reported screens: implement a buffered file writer, then design its test cases, then sketch thread-safe behavior for concurrent writes and a slow flush; simplify a Unix absolute path, then explain how memory behaves under a recursive versus an iterative implementation when the machine is close to out of memory, then redo it in constant extra space; longest palindromic substring, comparing the dynamic-programming and expand-around-center solutions; bucket counting over a sorted array with integer division and an overflow bucket; a Snowflake query client that submits SQL, polls for status, handles secret management and batching, and then must cope with a very large result set; and a `DeleteTree` implementation given only `List`, `Delete`, and `IsDirectory`, extended into stack-overflow risk on deep trees and memory cost on wide ones. The follow-ups are the round: interviewers grade how your first design survives scale, deletion, concurrency, and failure.
+Here's what the interview process can look like:
 
-**Onsite loop.** Reported loops run three to five rounds in total, typically one or two coding rounds, one system design round, and one behavioral round with a hiring manager that often folds in a resume or project deep dive. Onsite coding reuses the same catalogue — one candidate met log-and-query again onsite, another got sliding-window maximum with the deque optimization and its edge cases. Reports differ on pacing: some onsite coding rounds are a single problem with no follow-up at all, so completeness on the first pass matters more than saving time for extensions.
+- **Recruiter screen:** A short call about background, level, interest in observability and the next round's format.
+- **Technical phone screen:** A 60-minute live coding session on a practical problem with escalating follow-ups, sometimes plus a short classic question.
+- **Coding interviews (onsite):** One or two pair-programming rounds on streaming, windowing, file-system or I/O problems.
+- **System design interview:** A one-hour diagrammed design of a high-volume ingestion and query system.
+- **AI and ML rounds (some loops):** AI-assisted coding, AI-agent design, or a conceptual ML deep dive for data and AI roles.
+- **Hiring manager interview:** Behavioral questions, often merged with a resume or project deep dive.
 
-**System design.** A one-hour discussion, usually diagrammed in a tool of your choice. Reported prompts stay close to streaming data: a Mint-style personal finance app covering transaction history and budgets; a bank transaction dashboard ingesting a high-volume stream and serving real-time aggregates plus suspicious-transaction flags, with sustained pushing on exactly-once semantics, late-arriving data, and read-path latency across time granularities; and, in two separate loops, matching photos out of a firehose and sending notifications on match. This is the round that decides outcomes — one rejected candidate named the design round as the deciding factor, and it is widely reported as both the leveling round and the most common rejection point.
+> **Tip:** Treat every coding question as step one of three: a correct brute force, an indexed version for higher volume, then deletion or concurrency. Candidates who jumped straight to an optimized design ran out of time.
 
-**AI-assisted and AI-design rounds.** Recent loops add AI content in two shapes. One candidate's first onsite round was AI-assisted coding: connect to Snowflake, use a locally running model, and work through package compatibility problems — debugging consumed most of the hour and left no room for follow-ups. Another loop ended with an open-ended prompt to design an agent that monitors cloud infrastructure, detects anomalies, and proposes remediation, where the interviewer pressed on guardrails against destructive actions and on the observability of the agent's own reasoning. An interviewer told one candidate the company was moving further toward AI-assisted formats; where such a round is scheduled, grading shifts to how you direct and verify the tool rather than what you recall.
+## Recruiter screen
 
-**Behavioral and project depth.** The manager conversation covers conflict, pushing back on a product requirement for technical reasons, mentoring, and what you look for in an engineering culture. One candidate found the behavioral portion did not demand deep answers; another had it merged with a line-by-line resume walkthrough. Machine-learning-flavored tracks can also draw a purely conceptual round: one candidate spent an onsite session with no coding at all, deriving focal loss and placing grouped query attention between multi-head and multi-query attention.
+The recruiter call is conversational and non-technical: background, why observability, level, location and the next round. Recruiters send preparation material. The outline is not always accurate. One candidate was told the screen would open with a project deep dive and got sixty minutes of pure coding.
 
-## What Candidates Report
+Interviewers evaluate:
 
-- The recruiter's description of a round and the round itself can diverge completely, including the disappearance of a promised project deep dive. Preparing for both formats beats splitting preparation by the outline.
-- The base problem is rarely the filter; the follow-up chain is. Out-of-memory behavior, stack depth, constant-space rewrites, O(1) deletion, and thread safety are asked as a matter of course, so a first solution with a clean, mutable structure is worth more than a clever one-liner.
-- The question pool visibly repeats around Datadog's own domain: logs, queries, inverted indexes, buffers, time windows, and streaming aggregation. Targeted practice on those families pays off unusually well here.
-- System design is where reported loops end. Rejections trace to the design round more often than to coding, and the pressure lands on ingestion, windowed aggregation, and keeping the read path fast rather than on drawing more boxes.
-- Tooling friction is a real risk in the AI-assisted round: when environment and package problems ate the hour, there was nothing left to show.
-- Interviewers come across as relaxed and conversational, and candidates who narrated their confusion instead of going silent got useful steering. Work-life balance and, on some teams, remote flexibility came up positively in candidate impressions.
+- **Domain motivation:** A specific reason to work on monitoring, logs or infrastructure data.
+- **Level fit:** The scope of recent work, which sets the interview level.
+- **Logistics:** Location, remote preference and competing timelines.
 
-## Coding Questions
+Ask which tool the screen uses and whether AI help is allowed, then prepare for both coding and project discussion anyway.
 
-Datadog coding rounds simulate small pieces of an observability pipeline: ingest a stream, index it, query it under a time or memory constraint. Build a correct baseline quickly, state its complexity, and be ready to convert it into an indexed version and then to support deletion and concurrency.
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and the system you are most proud of.
+- Why Datadog, and which part of the product interests you?
+
+## Technical phone screen
+
+The screen is one 60-minute live coding session in a shared editor, in any language. Most reports follow one pattern: a systems-flavored problem whose requirements change in the same code, sometimes followed by a shorter classic question. The most repeated problem is log-and-query matching. Queries and logs arrive on an unbounded stream. Each query gets an ID and an acknowledgment, and each log is emitted with the IDs of active queries sharing at least one word with it.
+
+The expected path is explicit: scan active queries with word sets first, add an inverted index from words to query IDs when queries reach millions, then remove queries in constant time by holding each posting list as a hash map into a doubly linked list. A variant asks for keyword plus time-range lookup over stored logs, solved with an inverted index and binary search on timestamps.
+
+Interviewers evaluate:
+
+- **Baseline first:** A correct, simple solution before any optimization.
+- **Structure that survives change:** Whether the first version absorbs deletion or a new constraint without a rewrite.
+- **Complexity per operation:** Ingest, match and delete stated separately, with no hidden linear cost in delete.
+- **Memory and edge cases:** Recursion near out-of-memory, buffer boundaries, an empty flush.
+- **Thinking aloud:** Candidates who voiced confusion got useful hints.
+
+Practice the log-and-query and buffered-writer families until all three follow-up stages fit in 45 minutes.
+
+> **Note:** On a path-simplification screen the algorithm was routine. The follow-ups asked how memory behaves under recursion versus iteration on a nearly out-of-memory machine, then for a constant-space rewrite parsing the string in place.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Tag each log in a live stream with every active query sharing a word, then scale it and support constant-time query removal.
+- Implement a buffered file writer with flush, then a test plan with error injection, then thread safety when the flush is slow.
+- Simplify a Unix absolute path, then discuss memory under recursion and redo it with constant extra space.
+- Count values of a sorted array into fixed-width buckets using integer division, with an overflow bucket.
 
 - [Log Ingestion and Query](https://trueinterview.io/questions/c10482fd-12d2-4f57-8a05-f821a2f2d1c0)
-- Buffered Read
-- [Bucketize Sorted Data (Histogram with Overflow Bucket)](https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e)
-- [Delete a File System Subtree with Limited APIs](https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518)
+- [Query Log Matching](https://trueinterview.io/questions/83d7ff94-bab7-47e3-a4b4-e177692a608e)
+- [Buffer Write Implementation](https://trueinterview.io/questions/16e264d7-ba41-4958-96cb-06b6d50400ed)
+- [Design a Buffered File Writer](https://trueinterview.io/questions/ccd44a38-a924-48e6-b5c0-af34aa48b27e)
+- [Latency Bucket Counter](https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e)
+
+## Coding interviews
+
+Onsite coding runs one or two hour-long pair-programming rounds drawn from the same pool, so log-and-query can reappear. Reported problems include sliding-window maximum (naive scan, then a deque of decreasing indices, plus k larger than the array and empty input), time-window statistics, a buffered reader over a fixed-size read primitive with a mutex, and `DeleteTree` built only from `List`, `Delete` and `IsDirectory`.
+
+Pacing varies. Some rounds are one problem with no follow-up, where a complete first pass is the whole signal. Others become a production discussion: `List` loads a whole directory so memory scales with width, recursion overflows on deep trees, and absolute paths allow a delete-and-climb traversal in constant extra memory and linear time.
+
+Interviewers evaluate:
+
+- **First-pass completeness:** Edge cases handled unprompted, since there may be no second problem.
+- **Trade-offs before code:** The brute force and its limits named before the optimization.
+- **Production instincts:** Stack depth, fan-out memory and partial failure raised by the candidate.
+- **Concurrency literacy:** The critical section named and lock granularity compared, not just "add a lock."
+
+Time yourself on file-system and windowing problems and state each solution's memory profile aloud.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Return the maximum of every window of size k, first naively and then in linear time.
+- Implement `DeleteTree` with only list, delete and is-directory calls, then handle very deep and very wide trees.
+
+- [File System Deletion](https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518)
+- [Remove Read-Only Files](../../questions/algorithm/remove-read-only-files/README.md)
+- [File System Directory Size Sum](https://trueinterview.io/questions/1a1f123e-d4ee-4722-a9c2-1aeefecbc649)
+- [Geography Related Log Query](https://trueinterview.io/questions/4e25dade-77dd-4886-a217-9542455cab48)
+- [Implement Prefix Match Filter](https://trueinterview.io/questions/implement-prefix-match-filter)
+- [Linear Interpolation of Missing Points](https://trueinterview.io/questions/linear-interpolation-of-missing-points)
+
+## System design interview
+
+A one-hour discussion, diagrammed in a whiteboard tool. Prompts stay close to streaming data: a Mint-style finance app with transactions and budgets, a bank transaction dashboard serving real-time totals, suspicious-transaction counts and balances, and, in two separate loops, matching photos from a firehose and notifying on a match. On the dashboard prompt, most of the hour went to exactly-once processing, late events, sliding-window anomaly detection and low read latency across time granularities.
+
+Interviewers evaluate:
+
+- **Ingestion under volume:** Partitioning, back-pressure and what is sampled or dropped.
+- **Windowed aggregation:** Pre-aggregation by granularity and the cost of late data.
+- **Delivery semantics:** Where duplicates appear and how idempotence is achieved.
+- **Read path:** Serving recent and historical ranges without scanning raw events.
+- **Concrete components:** A named queue, stream processor and time-series store, with failure modes, at senior level unprompted.
+
+Prepare one streaming design you can draw from memory and defend against late data and duplicates.
+
+> **Note:** System design is the most commonly reported deciding round. One candidate who cleared coding and behavioral named the photo-matching design as the reason for rejection, and this round also drives level.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a real-time bank transaction dashboard with windowed aggregates, suspicious-transaction flags and balances.
+- Design a system that matches photos from a high-volume firehose and notifies subscribers.
+- Design a personal finance app covering transaction history and budgets.
+
+- [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b)
+- [Design Mint.com](https://trueinterview.io/questions/mint-com)
+- [Design A Facial Image Matching System](https://trueinterview.io/questions/design-a-facial-image-matching-system)
+- [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design)
+
+## AI and ML rounds
+
+AI content appears in three forms. In an AI-assisted coding round, one candidate connected to Snowflake with a locally running model, and package conflicts consumed most of the hour. In an AI-agent design round, the prompt was an agent that detects infrastructure anomalies and proposes remediation, with pressure on guardrails against destructive actions and on logging the agent's reasoning for post-mortems. A 2026 interviewer said the company was moving further toward AI-driven formats, and published candidate guidelines warn that undisclosed AI use can disqualify. Data and AI candidates may instead get a no-code conceptual round: derive focal loss and place grouped query attention between multi-head and multi-query attention, with its savings and quality risks.
+
+Interviewers evaluate:
+
+- **Directing the tool:** Small, verified steps and critical reading of generated code.
+- **Environment fluency:** Fixing dependency and connection problems fast enough to reach the task.
+- **Agent boundaries:** Clear observation and action spaces, runbook-first planning and safety limits.
+- **Mathematical grounding (ML):** The formulation written out and each term explained.
+
+Rehearse a task against a real API in a fresh environment with an assistant enabled, and confirm the allowed tools with the recruiter.
+
+> **Tip:** In the AI-assisted round, set up and test the environment in the first five minutes. The reported failure was an hour lost to tooling with nothing to show.
+
+### Sample questions for the AI and ML rounds
+
+Here are some questions reported by recent candidates:
+
+- Design an AI agent that monitors cloud infrastructure, detects anomalies and remediates safely.
+- Submit a SQL query to Snowflake, poll until done, then handle a result too large to load at once.
+- Explain focal loss and when to prefer it over weighted cross-entropy.
+- Derive the memory and speed savings of grouped query attention over multi-head attention.
+
+- [Implement a Snowflake Query Client (Start Query & Get Query Status)](https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053)
 - [Implement Binary Focal Loss](https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc)
 - [Implement Grouped Query Attention Forward Pass](https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7)
 
-## Low-Level Design Questions
+## Hiring manager interview
 
-Several screens are really an object-design exercise: a small class with a few methods that must stay correct across repeated calls, boundary conditions, and multiple threads. Expect to be asked how you would test it and what your critical section is before anyone asks about performance.
+About an hour, often doubling as a resume walkthrough. Reported questions cover pushing back on a product requirement for technical reasons, mentoring a junior engineer through hard debugging, conflict, and what makes a healthy engineering culture. One candidate found deep answers unnecessary; keep stories concise.
 
-- [Buffer Write Implementation](https://trueinterview.io/questions/16e264d7-ba41-4958-96cb-06b6d50400ed)
-- [Implement a Snowflake Query Client (Start Query & Get Query Status)](https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053)
+Interviewers evaluate:
 
-## How to Prepare
+- **Ownership:** Projects driven end to end, including incidents and what broke.
+- **Technical pushback:** Disagreeing on feasibility with evidence, then committing.
+- **Mentorship:** Concrete help given to others, expected from mid-level up.
+- **Defending past architecture:** Why you made your choices and what you would change.
 
-- Drill the log-and-query family until the escalation is automatic: linear scan, inverted index with word counts, O(1) query removal via a hash map into a doubly linked list, and keyword-with-time-range retrieval using binary search over timestamps.
-- Practice writing a stateful I/O class from a bare specification — buffered writer, buffered reader — and rehearse the three follow-ups that always come: buffer-boundary edge cases, a test plan including error injection, and the locking scheme for concurrent writers.
-- Rehearse memory and failure reasoning out loud, not just complexity: recursion versus an explicit stack, stack overflow on deep structures, memory that scales with fan-out, behavior under out-of-memory conditions.
-- Prepare one streaming design you can draw cold — ingestion, windowed aggregation, storage, low-latency query layer — with defensible positions on late data, duplicate delivery, and multiple time granularities, and push the discussion into ingestion and indexing rather than breadth.
-- Get comfortable working against a real external API: submit a job, poll for status, page through a large result set, keep credentials out of the code. That exact shape shows up as a whole round.
-- Review two or three of your own projects at production depth, including what broke and what you would change, since the resume deep dive can arrive folded into the behavioral round with no separate warning.
+Prepare four or five short stories and two projects you can explain down to the data structures.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you pushed back on a product requirement as technically infeasible.
+- How did you help a junior engineer through a difficult debugging problem?
+- What do you look for in an engineering culture?
+
+## How Datadog makes hiring decisions
+
+Interviewers write independent feedback that a hiring committee reviews. Candidates then hold two-way team-matching conversations, and the offer follows a match. A match can fail after a strong loop: candidates were turned down after two teams passed, with feedback that they seemed unmotivated for those teams. System design and project depth set the level. Decisions usually arrive within one to two weeks, faster with a competing offer.
+
+> **Tip:** Name the product areas you want during team matching. Vague openness has been read as low motivation.
+
+## How to prepare for the Datadog interview
+
+1. **Drill the log-and-query chain:** Linear scan, inverted index with word counts, constant-time removal, then keyword plus time-range lookup.
+2. **Write stateful I/O classes from a bare spec:** Buffered writer and reader, each with boundary tests, error injection and a locking plan.
+3. **Reason about memory aloud:** Recursion versus an explicit stack, fan-out memory and constant-space rewrites.
+4. **Own one streaming design:** Ingest, windowed aggregation, time-series storage and a fast read path, with positions on late data and duplicates.
+5. **Work against a real API:** Submit a job, poll status, page a large result and keep credentials out of code.
+6. **Rehearse AI-assisted work:** Fresh environment, small verified steps, disclosed use.
+7. **Prepare both formats for every call:** The announced format does not always match the round.
+
+## About working at Datadog
+
+Datadog runs an observability and security platform that ingests metrics, traces and logs at very high volume. Product-aligned teams own the path from agents and SDKs through ingestion, indexing and query, which is why interviews return to streams, indexes and buffers. Headquarters is in New York, with a large Paris engineering office.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer I | Well-scoped features with guidance | Tasks within one team |
+| Software Engineer II | Features and services end to end | One team's systems |
+| Senior Software Engineer | Multi-quarter projects and mentoring | A team and its neighbors |
+| Staff Software Engineer | Architecture and cross-team leadership | A product area |
+
+Datadog hires engineers across its product lines. Teams include:
+
+- **Logs:** Ingestion, indexing and search for one of the largest products.
+- **APM and tracing:** Tracing SDKs and automatic instrumentation across many languages.
+- **Live Debugging:** Investigating production issues without redeploying code.
+- **Database Monitoring:** Query-level visibility into customer databases.
+- **Security:** Cloud and application security products.
+
+### Experience and education requirements
+
+Early-career roles expect a computer science or related degree and solid algorithms. Senior roles ask for several years on distributed or data-intensive systems. Candidates interview in the language of their choice, and high-throughput pipelines, time-series data or concurrency experience is a strong plus.
+
+## FAQs about the Datadog interview
+
+### How long does the Datadog interview process take?
+
+Typically three to six weeks. One referral candidate reported about four weeks from application to an onsite decision; team matching can add time.
+
+### What is the hardest round of the Datadog interview?
+
+System design, the most reported rejection point and the main input to level. In coding, the follow-up chain is harder than the base problem.
+
+### Is there an online assessment?
+
+Not in the reported loops. The first technical step is a live 60-minute screen.
+
+### How much does a Datadog software engineer make?
+
+Datadog's New York postings list base pay of about $187K–$240K for senior and $234K–$300K for staff roles, plus a four-year RSU grant; total compensation depends on level and team.
+
+### Is the Datadog interview remote?
+
+Mostly virtual, and some teams offer remote or hybrid work.
 
 ---
 

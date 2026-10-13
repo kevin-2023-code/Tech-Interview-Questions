@@ -6,100 +6,290 @@
 
 ---
 
-Research Scientist candidates here are rejected by arithmetic more often than by disagreement. Each round is scored out of four, a full mark generally requires finishing every sub-part of the problem, and the reported passing bar across a four-round block is roughly four, four, three, three — with four, four, four, three described as the safe target. That means one merely-competent round is survivable and two are not, and it means the coding rounds are graded on completion, not on insight. The second surprise cuts the other way: there is no system design round on this track. Preparation spent on architecture and scaling is wasted, while the rounds that actually appear are probability, hand-derived gradients, numerical implementation and a great deal of ordinary coding.
+OpenAI tests Research Scientist candidates mostly on code they write themselves. Most rounds are hands-on: multi-part general coding problems, and ML coding in which you implement a loss, a nearest-neighbor rule, a streaming entropy or a backward pass from scratch in NumPy or PyTorch. Each round is reportedly scored out of four, and a full mark usually requires every sub-part, so unfinished extensions cause more rejections than wrong ideas. The research presentation and the conversations after it do double duty as team matching, and a strong technical run can still end there if no team sees a fit.
 
-## Interview Process
+This guide breaks down each stage of the OpenAI Research Scientist interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 43 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## OpenAI Research Scientist interview process
 
 <!-- guide-diagram -->
 ![OpenAI Research Scientist interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/openai--research-scientist/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen.** Low-pressure and informational: your background, how the research organization is structured, which teams might be a mutual fit, and a walk-through of the full pipeline. Logistics are covered here — relocation support, the hybrid working model and the three-days-per-week onsite expectation, start dates, sponsorship and timeline. Candidates describe this call as genuinely a conversation rather than a filter, but what you say about your interests feeds directly into which teams see you later.
+The research loop depends on the team, and OpenAI recruits Research Scientists and Research Engineers through overlapping pipelines, so the same candidate can see prompts from either. The common shape is a recruiter call, one to three technical screens, then a final loop of about four rounds. Rounds are 60 or 75 minutes each and are sometimes scheduled back to back with no break, and the process typically takes several weeks.
 
-2. **Technical phone screen — ML coding (60–75 minutes).** Dense implementation with no library shortcuts. One candidate wrote more than four hundred lines of PyTorch across three parts plus a bonus extension, building a classifier over data labeled by multiple annotators of differing reliability, while the interviewer probed autograd mechanics, a numpy vectorization puzzle, matrix algorithms and manual backpropagation. Nothing critical may be delegated to a high-level module; the round is checking whether you can construct the primitive and derive its gradient.
+The loop changes by seniority. PhD new graduates report no system design: their screens are ML coding and general coding, and the final day is a 45-minute research presentation followed by one-on-one conversations with researchers. Experienced candidates more often get a probability round, an ML research design discussion and a project deep dive with a senior leader instead of a formal talk.
 
-3. **Additional screens (commonly three).** A typical block is one further ML coding round and two general coding rounds, each 60–75 minutes in a shared editor with a full implementation expected plus follow-up optimizations. Reported general problems include a multi-source epidemic simulation with immune cells, infection thresholds and death countdowns; generic type inference over an expression tree with unification, substitution and clear error messages; binary search over version strings with a layered monotonic condition; a turn-based battle simulator graded on object design and an audit log; and a credit ledger with out-of-order events and expiry-aware consumption. Interviewer style varies from collaborative to deliberately hands-off, so be ready to drive.
+Here's what the interview process can look like:
 
-4. **Mathematics and probability round.** A distinctive and heavily weighted component. Reported ground: bounding a tail with Markov's inequality; expected number of flips until two consecutive heads via a Markov chain and recurrences; stopping times and Las Vegas restart strategies applied to a model sampling repeatedly under test-time scaling, including the restart interval that maximizes success rate, the generalization to N restarts, and which distribution would make the success rate invariant to restarts entirely; and the hitting-time distribution when generation stops once cumulative log-probability crosses a threshold.
+- **Recruiter screen:** An informational call on background, research interests, candidate teams, logistics and the shape of the loop.
+- **General coding interviews (one or two):** 60 or 75 minutes on a multi-part simulation or toy-system problem in an editor that runs tests.
+- **ML coding interviews (one to three):** 60 or 75 minutes implementing or debugging model components in NumPy or PyTorch, often in a notebook.
+- **Probability and mathematics interview (common for experienced candidates):** Derivations on stopping times, restart strategies, tail bounds and applied statistics.
+- **ML research design interview (experienced candidates):** An open-ended discussion of a data, retrieval, evaluation or safety system.
+- **Research presentation and project deep dive:** A talk on your own work or a deep defense of a past project, followed by conversations with researchers.
+- **Behavioral and hiring manager interview:** Motivation, collaboration and a direct question about AI safety.
 
-5. **Numerical and autograd round.** Entropy from raw logits with a safe softmax, then a block-wise or streaming version in constant extra space; cumulative products of N matrices with a hand-written backward pass; why an in-place multiply breaks automatic differentiation; and re-expressing both forward and backward passes as a parallel prefix scan.
+> **Tip:** Ask the recruiter how long each ML coding round is. Candidates report that 75-minute rounds tend to be the cumulative-matrix-product autograd problem with a parallel scan, while 60-minute rounds tend to be NumPy-heavy numerical problems such as streaming entropy, cross-entropy or nearest neighbor.
 
-6. **Onsite: research presentation and team match.** A 45-minute presentation of your own research followed by questions, then a sequence of one-to-one conversations with researchers from different teams. These are simultaneously technical deep dives into your past work and a matching exercise to find where your interests fit, so treat every conversation as both an evaluation and a mutual selection.
+## Recruiter screen
 
-7. **Close.** Round scores are aggregated and reviewed by people you did not meet, references are requested, and team matching needs sign-off from more than one hiring manager. Problems are reused across candidates, so the same prompts recur across cycles; timelines run several weeks and rejections are typically templated.
+The first call is a low-pressure conversation with a research recruiter about your background, how the research organization is structured, which teams might fit, the pipeline, and logistics such as relocation, the hybrid work model and start dates. Some candidates are offered a choice of track here. What you say about your interests decides which teams see your profile, so it is less of a formality than it sounds.
 
-## What They Actually Evaluate
+Recruiters send a generic technical preparation document and sometimes say what a round will emphasize; one research candidate was told the coding round would focus on error bars and confidence intervals in plain Python.
 
-### Coding and Algorithm
+Interviewers look for:
 
-Two to three rounds, and their weight surprises people who expected a research-only loop. Problems arrive in parts, each part building on the last, and a full score generally requires all of them. Object design is graded explicitly in the simulation prompts — clean classes that absorb the next requirement without a rewrite — and interviewers layer on constraints such as immunity, delayed death, out-of-order events or an audit log to see whether the first abstraction holds. Speed is a real constraint; unfamiliarity with the editor has cost candidates parts.
+- **Clear research identity:** A one-sentence account of the problems you want to work on that maps to real teams.
+- **Track fit:** Whether your record reads as research scientist, research engineer or applied ML, which sets the loop you get.
+- **Mission motivation:** A specific reason for OpenAI beyond prestige.
+
+Prepare a two-minute summary of your research agenda and ask the recruiter which round types, durations and libraries the loop will use.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through your background and the research you want to do next.
+- Which teams in the research organization interest you, and why?
+- Why OpenAI, and why now?
+
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
+- [How to answer common recruiter screen questions](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions)
+
+## General coding interviews
+
+Most research loops include one or two general coding rounds, as a screen, in the final loop or both. Rounds run 60 or 75 minutes in a shared editor, usually with starter code and runnable tests, sometimes standard library only. The problems are practical: one scenario grows through four or five parts, each adding a rule the first design must absorb.
+
+The best-known prompt is a grid infection simulation: spread to eight neighbors daily, then immune cells, recovery after D days, an infection threshold, and a countdown to death; one variant lets you burn a row or column on day one. Others include a turn-based monster battle with type multipliers, a recursive type system with generic binding, a version search with a budget on lookup calls, expiring GPU credits, and balanced assignment of annotators, models and tasks.
+
+Interviewers evaluate:
+
+- **Completed parts:** On the infection problem, finishing three or four of five parts is reportedly a pass; stopping after part three of five has ended candidacies.
+- **Extensible first design:** Code that takes the next rule without a rewrite; state machines and double-buffered updates beat clever one-pass shortcuts.
+- **Day and boundary semantics:** Off-by-one on when a newly infected cell starts spreading, or what happens to a 1-by-1 grid.
+- **Testing:** Writing your own cases, since some rounds have few tests and some none.
+- **Driving without help:** Some interviewers say little, and candidates who waited for hints fell behind.
+
+Practice multi-part simulation and toy-interpreter problems against a 60-minute clock, getting a simple correct version passing before generalizing.
+
+> **Note:** Problems are heavily reused, but not reliably. A July 2026 candidate who had rehearsed the infection problem got an unseen annotation-assignment task with scattered requirements and few tests. Practice the habit of extending code, not specific answers.
+
+### Sample questions for the general coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Simulate infection on a grid of plants, then add immune cells, recovery after D days, an infection threshold and a countdown to death.
+- Implement generic type binding for a toy language: unify a template like (T1, int) with (char, int) and raise a conflict when T1 binds two types.
+- Assign (annotator, model, question) triples so each model-question pair and each annotator's model counts stay as even as possible.
 
 - [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md)
+- [Simulate Plant Infection With Controlled Burning](https://trueinterview.io/questions/simulate-plant-infection-with-controlled-burning)
 - [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system)
-- [Monster Battle System](https://trueinterview.io/questions/monster-battle-system)
-- [GPU Credit Tracker](https://trueinterview.io/questions/gpu-credit-tracker)
+- [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check)
+- [Balanced Sequence Generation for (AI, Human, Task) Tags with Prefix Constraints](https://trueinterview.io/questions/6c63f46e-8897-4039-b189-0fed5e159bf7)
 
-### ML Theory
+## ML coding interviews
 
-Tested through implementation and derivation rather than discussion. Candidates are asked to derive a backward pass by hand for an arbitrary matrix expression, explain why an in-place operation destroys the values the gradient needs, restate a nearest-neighbor rule as a linear layer plus bias, and make a softmax numerically safe before making it streaming. Depth is probed by reversing a choice and asking what breaks.
+The ML coding rounds set this track apart. Expect one to three, each 60 or 75 minutes, usually in a notebook with NumPy and PyTorch available and often no tests. The rule throughout is to write the primitive yourself: one PhD candidate wrote more than 400 lines of PyTorch across three parts and a bonus, building a classifier over labels from annotators of differing reliability.
 
-- [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation)
+Reported tasks fall into four families. Debugging: a transformer with four or five planted bugs (positional-embedding initialization, a padding mask not set to negative infinity, a missing backward call, a wrong projection size), then a KV cache or a classifier head; also a NumPy MLP with sharding hiding five bugs, and a GRPO training loop. From scratch: loop-free 1-nearest neighbor, cross-entropy with masking and label smoothing, and stable entropy from logits streamed in constant memory. Autograd: cumulative matrix products in place and out of place, a hand-written backward pass, then a Hillis-Steele scan. Data: finding the unreliable annotator with pandas, or improving training on noisy labels in a supplied notebook.
+
+Interviewers evaluate:
+
+- **Shape fluency:** Narrating tensor dimensions at every step; one candidate who tried a creative sigmoid trick on distances hit a shape error and had to explain it.
+- **Numerical stability:** Subtracting the max logit, rewriting log-softmax as a difference, and correcting running sums when a new maximum arrives in a stream.
+- **Gradient derivation:** Writing the backward pass of an arbitrary matrix expression by hand and knowing what in-place operations destroy.
+- **Systematic debugging:** Checking masks, initialization, loss reduction and positional alignment in order, and printing shapes rather than auditing the whole file.
+- **Conceptual follow-ups:** Short coding often leads into label smoothing, KL divergence, mean pooling before logits, or matrix-multiply complexity.
+
+Rehearse each family in plain NumPy and PyTorch with a timer and no autocomplete, saying shapes aloud as you write.
+
+> **Note:** The transformer-debugging task, once the default, did not appear in the July 2026 loops candidates described, and one ML round that month was an open-ended cross-entropy exercise followed by fundamentals questions. Prepare the numerical and autograd families as seriously as the debugging one.
+
+### Sample questions for the ML coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement 1-nearest neighbor with L2 distance in NumPy without Python loops, then express it as a linear layer plus softmax, then adapt it to L1 distance.
+- Compute entropy from raw logits stably, then compute it over logits arriving in blocks using constant extra space.
+- Given W of shape [N, D, D], return every cumulative product, derive the backward pass, and compute both passes with a Hillis-Steele scan.
+- Find and fix the bugs in a transformer so a small GPT generates correct text, then add a KV cache for autoregressive decoding.
+
+- [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass)
 - [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy)
+- [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation)
+- [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding)
+- [Debug and Improve a GRPO RL Training Loop for Language Models (PyTorch)](https://trueinterview.io/questions/906a162e-db6b-4431-8c41-1c53c758d2b9)
+- [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators)
 
-### Domain Deep Dive
+## Probability and mathematics interview
 
-The probability and decoding-behavior round is where this track separates from engineering loops. The recurring shape is a random completion time and a policy over it: bound the tail, design a restart schedule, prove how much it improves over a single-threshold baseline, then extend to variable restart times. Adjacent prompts cover post-training methods — instruction tuning, preference optimization, reward model design, data quality and alignment cost — and experiment design under a tight budget, including deriving a theoretical account of an empirical effect and regularizing it away.
+Many research loops, especially for experienced candidates, include a round of live derivation. It often opens with a warm-up, such as bounding P(T > 5) by Markov's inequality when E[T] = 1, then moves to a model-flavored problem. One version treats a model's time to a correct answer under test-time scaling as random and asks for a restart strategy: one restart, then N, the best interval, which distribution makes restarts useless, and variable restart times. Another asks for the distribution of tokens generated before cumulative log-probability falls below a threshold, first with independent tokens, then with dependence.
+
+Some versions add light coding: simulating a distribution in NumPy and checking it against an inequality.
+
+Interviewers evaluate:
+
+- **Setting up the recurrence:** Writing the Markov chain or renewal equation, not describing the idea in words.
+- **Pushing past the first answer:** Follow-ups that ask when your strategy stops helping or what changes under dependence.
+- **Bounds and guarantees:** Worst-case improvement over a single-threshold baseline, with a stated probability guarantee.
+- **Simulation as a check:** Confirming a derived mean or tail numerically when the interviewer allows code.
+
+Practice stopping-time, restart and hitting-time problems by deriving each on paper and then verifying it in a short NumPy simulation.
+
+### Sample questions for the probability and mathematics interview
+
+Here are some questions reported by recent candidates:
+
+- A process succeeds at a random time T; derive the success rate if you restart after a fixed time, choose the best interval, and say which distribution makes restarts pointless.
+- Generation stops when cumulative log-probability drops below t; derive the mean and variance of the stopping time under independent tokens.
+- Find the expected number of biased-coin flips until two consecutive heads.
 
 - [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f)
 - [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy)
 - [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a)
 
-### Project Deep Dive
+## ML research design interview
 
-The 45-minute research presentation plus the researcher conversations that follow are a single graded competency. Interviewers are practitioners in the same area and go straight at the choices: why this hypothesis, why this baseline, what the negative results were, what you would run next. A slide-based deep dive on a past project appears in some loops as a separate session with the same standard — the narrative is not the point, the defense is.
+Experienced candidates often get an hour-long open design discussion about data and evaluation, not serving: mining interesting images from a huge unlabeled corpus, extracting training data from unstructured medical records, contrastive text embeddings for retrieval, layered defenses against adaptive adversaries, and an agent harness and evaluation with training and serving off the table. PhD new graduates generally do not get this round.
+
+Interviewers evaluate:
+
+- **Data judgment:** How you find signal, budget human labels and detect bad annotators before touching architecture.
+- **Evaluation design:** Metrics, held-out sets and what would convince you the system improved.
+- **Method fit:** Choosing current techniques; a candidate who proposed hash-based similarity where learned embeddings were expected lost credit.
+- **Adversarial thinking:** Assuming attackers adapt, and trading safety against latency explicitly.
+- **Following the interviewer's focus:** Steering toward your home domain when the interviewer wants something else reads as misalignment.
+
+Prepare two or three designs centered on data curation and evaluation, each with a labeling budget and a measurement plan.
+
+> **Note:** This round follows the team's work, not a standard system-design list. A recommendation specialist was rejected after steering an agent-evaluation prompt toward embedding retrieval and index serving, which the interviewer had no interest in.
+
+### Sample questions for the ML research design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a system that surfaces novel, interesting images from a massive unlabeled collection, using human labelers sparingly.
+- Build a text-embedding model for retrieval with contrastive learning: choose the loss and how to mine positive and hard negative pairs.
+- Design a pipeline that defends an LLM against prompt injection and subtler manipulation, assuming attackers learn your defenses.
+
+- [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus)
+- [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design)
+- [Design an Agent Harness and Evaluation System](https://trueinterview.io/questions/design-an-agent-harness-and-evaluation-system)
+
+## Research presentation and project deep dive
+
+New-graduate PhD candidates give a 45-minute research presentation with questions, then one-on-one conversations with researchers from different teams that double as team matching. Experienced candidates more often get a project deep dive, sometimes with a senior leader, on decisions, trade-offs and lessons learned. The scope is large: one candidate ran out of time and advised asking early which part to focus on.
+
+Interviewers evaluate:
+
+- **Defending choices:** Why this hypothesis, this baseline and this method over the alternatives.
+- **Negative results:** What failed, what you ruled out and what you would run next.
+- **Depth under pressure:** Experts in your area keep probing; rehearsed slides do not survive the third follow-up.
+- **Relevance:** Whether your direction points at problems a team here is working on, such as post-training, reasoning or data quality.
+- **Time management:** Steering a sprawling project toward the parts the interviewer cares about.
+
+Rehearse the talk with a hostile audience, preparing answers to "why not X?" for every major design decision.
+
+> **Tip:** Use the one-on-ones to ask what each team is trying to answer next, and connect your work to it explicitly. Candidates with strong screens were still declined when the receiving team judged their background a poor fit for its focus.
+
+### Sample questions for the research presentation and project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Present your thesis work in 45 minutes, then defend the experimental design and the baselines you chose.
+- Walk through a complex past project and justify each architectural decision and trade-off.
+- Which post-training techniques, such as RLHF, fine-tuning strategy and evaluation, would you apply to this problem, and what are their costs?
 
 - [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
-- [ML Coding Interview: Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f)
+- [Defend a Research Direction and Experiment Design](https://trueinterview.io/questions/defend-a-research-direction-and-experiment-design)
+- [Answer project deep dive and cross-functional questions](https://trueinterview.io/questions/answer-project-deep-dive-and-cross-functional-questions)
 
-### Behavioral and Leadership
+## Behavioral and hiring manager interview
 
-Lighter than on engineering tracks but not absent. Motivation, reasons for leaving, views on AGI and safety, and concrete hypotheticals about what you would do if a system you considered unsafe were being launched. Answers are expected to be personal and specific; a diplomatic non-answer registers as a gap.
+The behavioral round is usually 30 to 45 minutes with a hiring or engineering manager; one research candidate went from two screens straight to a 45-minute behavioral round with a director in place of a full loop. Questions cover teamwork, conflict, failure, past job changes and why OpenAI. AI safety is a fixture, from views on AGI to what you would do if a supervisor launched a system you considered unsafe.
+
+Interviewers evaluate:
+
+- **A real position on safety:** A considered view with trade-offs, not a slogan; a weak late answer to an AI safety question preceded silence.
+- **Judgment under conflict:** A concrete escalation path in the unsafe-launch hypothetical.
+- **Ownership and pace:** Evidence you drive work to completion quickly with little structure.
+- **Coherent career story:** Moves between roles that make sense.
+
+Prepare a two-minute position on AI safety with one concrete example, and an answer to the unsafe-launch hypothetical that names whom you would go to and in what order.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- What would you do if your supervisor launched an AI system you believed was unsafe?
+- If OpenAI rolled out a new product, what would you pay attention to?
+- Why are you leaving your current role, and why OpenAI?
 
 - [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
-- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
+- [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety)
+- [Explain motivation and mission alignment](https://trueinterview.io/questions/explain-motivation-and-mission-alignment)
 
-## What They Don't Test
+## How OpenAI levels and evaluates Research Scientist candidates
 
-- System design. Candidates on this track report no architecture round at all, and one explicitly advised that general system design resources were not useful preparation for it.
-- Publication counts as an argument. The presentation is examined on method and reasoning; interviewers ask what you rejected and what failed, not how many venues accepted the work.
-- Distributed training infrastructure. The implementation rounds stay at the level of numpy, autograd and single-device primitives.
-- Framework breadth. There is no reward for knowing many libraries; there is a large penalty for not being able to write the primitive yourself.
+Each technical round is reportedly scored out of four; a full score usually needs every sub-part. The reported passing bar for a four-round block is about 4-4-3-3, with 4-4-4-3 safer, so one middling round is survivable and two usually are not. Round scores go to a review by people you did not meet, and team matching runs alongside or after the loop. For PhD new graduates, matching happens through the researcher conversations on the final day.
 
-## The Real Filter
+Decisions are uneven in timing: some candidates heard the same day, others waited three weeks after a final loop and learned of a rejection only after following up, and one was left without updates during team matching. Reference checks vary in length, and recruiters have quoted both one and two weeks to accept an offer, so confirm the deadline in writing.
 
-The primary rejection path is partial completion. Because rounds are scored out of four and a top mark generally requires every sub-part, candidates who solve the interesting part of a problem elegantly and leave the last extension unfinished land at a three, and two threes in the wrong places end the process. This changes preparation: get a correct, simple version down fast, then extend, rather than designing the general solution first. Several candidates who felt good about their sessions were still declined, and the pattern in those accounts is consistently unfinished extensions rather than wrong answers.
+> **Tip:** If a week passes after a final round with no word, email the recruiter. Several candidates learned their outcome only that way.
 
-Second, the mathematics round is not a warm-up. Stopping times, restart strategies, Markov bounds and hitting-time distributions come up repeatedly and are expected to be derived live, including the follow-up asking which distribution makes your strategy pointless. Candidates who can discuss these ideas qualitatively but cannot set up the recurrence lose the round.
+## How to prepare for the OpenAI Research Scientist interview
 
-Third, the presentation is a matching decision as much as a technical one. The researcher conversations that follow it determine where — and whether — you land, and one candidate's rejection came from the receiving team judging the background a poor fit despite a strong screen. Present work that points at the problems the team you want is actually working on, and use the one-to-ones to ask which questions they are trying to answer next.
+1. **Plan for completion, not elegance:** Rounds are scored on finished sub-parts, so get a simple correct version passing, then extend.
+2. **Drill the ML coding families:** 1-nearest neighbor as a network, stable and streaming entropy, cross-entropy with masking and label smoothing, cumulative-product autograd with a parallel scan, and transformer debugging plus a KV cache.
+3. **Derive gradients by hand:** Write backward passes for matrix expressions and explain what in-place operations destroy.
+4. **Practice extensible simulations:** Infection grids, battle systems, type unification and version search, with your own tests at each part.
+5. **Rehearse stopping-time math:** Markov bounds, restart strategies, hitting times and two-heads Markov chains, each checked with a quick simulation.
+6. **Center designs on data and evaluation:** Labeling budgets, noisy annotators, contrastive retrieval and adversarial defenses, not serving infrastructure.
+7. **Stress-test your presentation:** Defend every choice and negative result, and tie your agenda to a team's current problems.
+8. **Simulate two hours back to back:** Rounds can run consecutively with no break, and candidates report focus dropping in the second hour.
 
-## Data Source
+## About the OpenAI Research Scientist role
 
-Based on 43 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+OpenAI Research Scientists design and run the experiments behind its models: training methods, data strategies, evaluations and safety techniques, carried from small runs to large ones. Research sits close to product, teams are small, and research scientists and engineers work side by side; the two titles share loops, and early-career researchers can join through a cohort program with structured team matching. Work is hybrid, centered in San Francisco.
 
-## FAQ
+OpenAI hires Research Scientists across its research organization. Teams include:
 
-**What is research work like here?**
-Our reports cover the hiring loop rather than the job, so this is context: research sits unusually close to shipping, teams are small and technically dense, and individual projects tend to have one accountable owner rather than a committee. The problems described in interviews — decoding behavior, post-training methods, data quality at corpus scale — are the same problems the loop implies you would work on. The onsite expectation is three days a week; compensation is not something candidates on this track report consistently.
+- **Pretraining and foundations:** Scaling, architecture, data mixtures and training efficiency for base models.
+- **Post-training:** Fine-tuning, reinforcement learning from human feedback and preference optimization.
+- **Reasoning:** Models trained with reinforcement learning to reason step by step, and test-time compute.
+- **Safety and alignment:** Safety reasoning, red-teaming, moderation and alignment methods built into training.
+- **Multimodal:** Image, video and audio generation and understanding.
+- **Agents and evaluation:** Agent harnesses, coding agents and the evaluations used to measure them.
 
-**What is the engineering culture like?**
-Interviewers are described as sharp and often genuinely collaborative, with several candidates calling the process intellectually stimulating; others report a deliberately hands-off style where you are expected to drive the session yourself. Technical decisions are made by researchers and engineers rather than being handed down, and the widely reported cost is pace — sustained urgency rather than predictable hours.
+### Research Scientist experience and education requirements
 
-**How hard is it to get in?**
-Very. Nearly all candidates in these reports hold or are finishing a doctorate, the coding load is heavier than a research title suggests, and the scoring bar leaves little room for a soft round. Reviewers who never met you make the final call, feedback is rarely given, and team fit can end a process that went well technically.
+Most candidates hold or are finishing a PhD in machine learning or a related field, but OpenAI does not require one; it looks for a record of new or improved ideas through first-author papers or independent projects. Postings ask for strong Python, deep familiarity with PyTorch and NumPy, and statistical rigor in experiment design. Some safety roles ask for about five years of research engineering experience or expertise in RLHF and adversarial training.
 
-**Which round is hardest?**
-The mathematics and probability round, followed by the ML coding round. Both require live derivation under a clock with follow-ups designed to break the first answer, and both are scored on completion. The presentation feels highest-stakes but is the one round you can fully control in advance.
+## FAQs about the OpenAI Research Scientist interview
+
+### How long does the OpenAI Research Scientist interview process take?
+
+Usually several weeks from recruiter call to decision, with a final loop of about four rounds. Delays are common: one process paused for months between the screens and the final loop, and decisions have taken from the same day to more than three weeks.
+
+### What is the hardest round of the OpenAI Research Scientist interview?
+
+Most candidates name the ML coding rounds, especially the autograd problem with a parallel scan and debugging NumPy backpropagation with sharding, where unfamiliarity with shape inspection ended at least one candidacy. Experienced candidates add the probability round, because derivations are expected live with follow-ups designed to break the first answer.
+
+### Is there system design for Research Scientists?
+
+Not for PhD new graduates, who report none. Experienced candidates often get an ML research design round on data mining, retrieval, adversarial robustness or agent evaluation, not classic distributed systems.
+
+### Which language and libraries can you use?
+
+Python throughout. General coding rounds sometimes allow only the standard library; ML rounds usually provide NumPy and PyTorch in a notebook. Confirm which libraries are allowed at the start.
+
+### What happens after a rejection?
+
+Feedback is rarely detailed. There is reportedly no fixed cooldown, and after a team-fit rejection one recruiter offered to look for other openings.
 
 ---
 

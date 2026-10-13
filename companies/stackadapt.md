@@ -2,13 +2,13 @@
 
 # StackAdapt interview process, OA & interview questions
 
-**5 questions** reported at StackAdapt. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stackadapt), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at StackAdapt · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stackadapt), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How StackAdapt interviews & the free questions](stackadapt/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-stackadapt)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-stackadapt)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 2 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 0 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 5 questions reported at StackAdapt. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -65,6 +65,14 @@ The 5 questions to open first if you are preparing for StackAdapt. **This is not
 | **5** | [Median and Percentile from a Data Stream](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993) 🆓 | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Guides & writeups
+
+**1 writeup** filed under StackAdapt in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
+
+| Writeup | Topics |
+| :-- | :-- |
+| [StackAdapt Interview Process & Questions](https://trueinterview.io/study/stackadapt-interview-process) | — |
 
 ---
 

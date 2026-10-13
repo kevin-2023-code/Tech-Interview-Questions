@@ -16,19 +16,31 @@ How Circle interviews, and the questions candidates reported there. Free questio
 
 ## How Circle interviews
 
-Circle hires engineers to run dollar-denominated money movement on public blockchains, and its interview reflects that: the coding rounds are almost never a single self-contained puzzle, they are small ledgers and schedulers that keep growing while you sit there. This guide goes past the stage list on the company page and into how each round is actually run, drawing on 4 real Circle questions and 4 candidate interview reports. Read it as a description of one specific style of problem — a stateful system built in code, extended four times — because that is what the evidence keeps showing.
+Circle's coding rounds are small ledgers and schedulers that keep growing while you work: a bank that adds ranking, delayed payments, merging and historical balances, or a task tracker that adds user quotas. The online assessment and the live rounds both use this multi-level format, so the data model you choose in the first ten minutes decides how the last level goes. Some rules are not stated at all and surface only through failing tests.
 
-### Interview Process
+This guide breaks down each stage of the Circle interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 4 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Circle interview process
 
 <!-- guide-diagram -->
 ![Circle interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/circle/process.webp)
 <!-- guide-diagram -->
 
-After a short recruiter conversation about background and interest in payments and crypto infrastructure, the first technical filter is a timed coding assessment delivered through CodeSignal's industry-style framework: one project-shaped problem split into four levels, each level adding requirements on top of the code you already wrote. Candidates report a typical window of around 90 minutes for the whole thing, scored automatically by hidden test cases with partial credit per test, so submitting a working Level 2 beats leaving a half-finished Level 4 in the editor. One report describes a strong numeric score achieved even though the final sub-problem was never implemented — the candidate wrote a comment describing the intended approach with four minutes left and still scored well. The scale is not published to candidates, so treat the score as relative, not absolute.
+The structure is consistent across teams, while onsite topics follow the team's domain. A typical loop moves from a recruiter call to a timed online assessment, a live technical screen, and a virtual onsite of technical, design and behavioral rounds, ending with a hiring-manager conversation. Some candidates receive a take-home in place of the assessment.
 
-The levels escalate predictably. Level 1 is object construction plus formatted output. Level 2 introduces querying: filter by time window, match a substring in a name, sort, print. Level 3 introduces constrained state — quotas, expiry, scheduling — and Level 4 usually asks for a historical or cross-entity operation, such as reading a balance as of a past timestamp or merging two entities and carrying their pending work across. Reports consistently show Level 4 as the point where candidates run out of clock rather than out of ideas.
+Early-career candidates are filtered mainly on the assessment and live coding; senior and staff candidates are weighted more heavily on system design for financial infrastructure.
 
-Beyond the assessment, the loop moves to live rounds run over video. Candidates describe a system design conversation of roughly an hour, a long pair-programming session (commonly around 90 minutes) where you build a working web API against a framework's real documentation, sometimes with a SQL component, and a behavioral conversation covering motivation, past projects and how you handle pressure. Some candidates instead receive a take-home project first, with the pairing round spent extending that same project alongside an engineer. A hiring manager conversation typically closes the loop. Because the pairing round is graded on working software rather than on a whiteboard sketch, several candidates report losing time to environment friction and to interviewer guidance that turned out to be wrong — budget for it and keep moving rather than waiting to be unblocked.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A call of about 30 minutes on background, level and interest in payments and digital assets.
+- **Online assessment:** A timed, roughly 90-minute CodeSignal exercise in four levels, each extending the code from the last.
+- **Technical screen:** About an hour of live coding on a stateful, product-shaped problem, sometimes with requirements hidden in the tests.
+- **Virtual onsite (technical and design):** A language and engineering deep dive, hands-on building, and a system design round on financial infrastructure.
+- **Behavioral and hiring manager interviews:** Project deep dives against Circle's values, then a conversation on team fit.
+
+> **Tip:** Write one internal helper that advances the system to the current timestamp, and call it at the top of every public method from Level 1. Most failed later levels in the reports come from processing scheduled work in the wrong order.
 
 **[Read the full Circle interview process →](interview-process.md)**
 

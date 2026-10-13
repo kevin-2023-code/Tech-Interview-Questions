@@ -16,25 +16,31 @@ How WeRide interviews, and the questions candidates reported there. Free questio
 
 ## How WeRide interviews
 
-WeRide hires engineers for an autonomous-driving stack, and its loop reads like it: short algorithm problems are paired with systems-level follow-ups on C++, concurrency, and file I/O, and the same handful of problem families keeps resurfacing. This guide goes beyond the outline on the company page and draws on 18 real WeRide questions and 10 candidate interview reports to show what each stage contains, how it is graded, and where candidates lose ground.
+WeRide's loop pairs short, classic algorithm problems with systems follow-ups: infrastructure and platform teams go on to C++ memory ownership, thread safety and file I/O once the code works. Complexity is graded out loud, and interviewers sometimes name the exact state-space reduction they expect. Round counts vary widely, from one screen to five phone rounds, and some China-based teams interview in Chinese.
 
-### Interview Process
+This guide breaks down each stage of the WeRide interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 10 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### WeRide interview process
 
 <!-- guide-diagram -->
 ![WeRide interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/weride/process.webp)
 <!-- guide-diagram -->
 
-#### Online assessment
+Each team hires for itself, so every round opens the same way (a resume walk-through, then one or two coding problems) and ends on the team's domain. WeRide's 2026 postings describe an optional online assessment, a recruiter call, then interviews with future colleagues: three for summer interns, three to four for China-based new-grad software roles, and four to five for US new-grad algorithm and computer vision roles. Candidates report one to five technical rounds, most often three.
 
-Most candidates, and nearly all interns and new grads, start with a timed online assessment of three coding problems delivered through a standard online-judge platform. Reported time limits vary: candidates describe windows from roughly 75 minutes up to two hours, so check the invitation rather than assuming. Two problem mixes recur. One set is graph-heavy: an array transformation warm-up, a BFS/DFS traversal, and a graph-coloring or bipartiteness task, all with strict runtime limits that punish unpruned search. The other set is gentler: two easy problems and one medium, such as converting a date string into YYYY-MM-DD form, reversing a singly linked list, and a dynamic-programming problem that minimizes the cost of adjusting heights so that no two adjacent values are equal. The bar is not perfection: one candidate who passed two of three problems, with the third failing a few hidden cases on runtime errors, still received a recruiter call shortly after submitting.
+Interns and new grads nearly always take the assessment. Experienced candidates on infrastructure teams get fewer pure-algorithm questions and more C++, concurrency and process-level follow-ups. The process typically takes two to three weeks after the application review, with reported extremes of one and four.
 
-#### Recruiter call
+Here's what the interview process can look like:
 
-A short recruiter conversation follows the assessment, typically about 15 minutes, covering your resume, motivation, and availability for the technical rounds. For candidates interviewing with China-based teams, this and later rounds may be conducted in Chinese. The interviewer in a later round may not have been briefed on your exact role or level, so be ready to state it yourself.
+- **Online assessment (interns, new grads, many others):** Three timed coding problems, either graph-heavy or an easy-easy-medium mix.
+- **Recruiter call:** A short, non-technical conversation about background, motivation and availability.
+- **Technical phone screens (one to five):** A resume deep dive, then one or two easy-to-medium problems with a live twist.
+- **Systems and language rounds (infrastructure and platform teams):** C++ internals, Java concurrency, parallel file I/O and small object-oriented exercises.
+- **Final round (onsite or video):** A background discussion, one algorithm problem from approach to code, and time for your questions.
 
-#### Technical phone or video rounds
-
-This is the core of the loop. Reports describe anywhere from a single screen to five phone rounds, with three being the most common count for full-time and intern tracks; new-grad candidates are told to expect four to five conversations with future teammates. Each round runs a recognizable pattern: a resume walk-through first, then one or two coding problems, then a conceptual tail that depends on the team.
+> **Tip:** Leave a third of every coding slot for the follow-up. Prompts are classics with a twist added live, such as swapping list nodes by value and then by reference, and the twist is where rounds are decided.
 
 **[Read the full WeRide interview process →](interview-process.md)**
 

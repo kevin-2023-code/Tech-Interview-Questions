@@ -51,18 +51,17 @@ Which stage each question came from, for the **23 of 23** questions at Figma tha
 
 ## What they ask about
 
-Of the **13 questions at Figma that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Figma that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 4 | 31% | ████████████ | Aug 04, 2026 |
-| `greedy` | 3 | 23% | █████████ | Aug 12, 2026 |
-| `arrays` | 2 | 15% | ██████ | Aug 12, 2026 |
-| `graphs` | 2 | 15% | ██████ | — |
-| `math` | 2 | 15% | ██████ | Apr 13, 2026 |
-| `stack` | 2 | 15% | ██████ | Aug 04, 2026 |
-| `backtracking` | 1 | 8% | ███ | Aug 04, 2026 |
-| `sorting` | 1 | 8% | ███ | Aug 12, 2026 |
+| `strings` | 4 | 44% | ████████████ | Aug 04, 2026 |
+| `arrays` | 2 | 22% | ██████ | Aug 12, 2026 |
+| `graphs` | 2 | 22% | ██████ | — |
+| `stack` | 2 | 22% | ██████ | Aug 04, 2026 |
+| `backtracking` | 1 | 11% | ███ | Aug 04, 2026 |
+| `greedy` | 1 | 11% | ███ | Jul 09, 2026 |
+| `sorting` | 1 | 11% | ███ | Aug 12, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

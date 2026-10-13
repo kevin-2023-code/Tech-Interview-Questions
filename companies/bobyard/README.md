@@ -10,13 +10,38 @@ How Bobyard interviews, and the questions candidates reported there. Free questi
 | :-- | :-- |
 | Questions reported | [6](../bobyard.md) |
 | Free to read here | 2 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 13, 2026 |
 
 ## How Bobyard interviews
 
-No written process guide yet. [The loop, as reported](../bobyard.md#the-loop-as-reported) counts which round each reported question came from.
+Bobyard's engineering loop revolves around one artifact: a small full-stack comment system. Candidates build it as a take-home, then extend it live in short sessions (sorting, then nesting from a parent field, then filtering the tree), without AI assistance. The final panel seats the CEO, a product manager, an engineering manager and a senior engineer together, and its design questions come from Bobyard's own product.
+
+This guide breaks down each stage of the Bobyard interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Bobyard interview process
+
+<!-- guide-diagram -->
+![Bobyard interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/bobyard/process.webp)
+<!-- guide-diagram -->
+
+Bobyard is a small, in-person San Francisco startup hiring mainly full-stack engineers for a React, Django and PostgreSQL product, so the loop tests that stack end to end rather than abstract algorithms. Reported loops run three to five stages. The fullest had a recruiter call, a take-home, live-coding sessions of 30 and 45 minutes, and an on-site panel followed by a manager one-on-one. Another candidate started directly with live coding on the comment problem.
+
+The format shifts. A session billed as a take-home walkthrough turned into live coding, and one candidate learned that a later round would allow AI tools while the first did not.
+
+Here's what the interview process can look like:
+
+- **Recruiter or intro call:** A resume conversation with quick frontend and backend troubleshooting questions.
+- **Take-home project:** A comment system with full CRUD across front end, back end and database.
+- **Live coding (one or two sessions):** 30–45 minute sessions that extend the comment system with sorting, nesting and filtering, without AI tools.
+- **On-site panel and manager conversation:** A four-person panel covering product-specific system design and behavioral questions, then a one-on-one follow-up.
+
+> **Tip:** Build the take-home so it is easy to extend. Every reported live round reused the comment data model, so a clean state structure saves minutes when a `parentId` field appears.
+
+**[Read the full Bobyard interview process →](interview-process.md)**
 
 ## Free Bobyard questions
 

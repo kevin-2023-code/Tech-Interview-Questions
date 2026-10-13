@@ -6,102 +6,283 @@
 
 ---
 
-For Research Scientist candidates at Meta, the first gate is often a 45-minute call with the hiring manager that feels like a friendly chat but works as a stress test. Half the call takes apart one past project. The other half is a research problem made up on the spot, and the manager attacks every idea you propose. One candidate was asked how to stop a code-generation model from reproducing code from private repositories in its training data while keeping it useful, and was rejected after that call. Senior candidates who get past that gate are often rejected in ML system design for missing architecture, scaling and business metrics, not for weak research.
+Meta runs Research Scientist candidates through most of the engineering loop its machine learning engineers sit: timed algorithm rounds, an AI-enabled coding round and 45-minute ML system design rounds, with research depth tested on top rather than instead. The first filter is often a hiring manager who spends half an hour picking apart one past project and then attacks the candidate's ideas on an open research problem. At E6, rejections cluster in ML system design, where a strong model answer without architecture, scaling and business metrics falls short. A hiring committee decides the outcome and the level, and the team is usually settled afterward.
 
-## Interview Process
+This guide breaks down each stage of the Meta Research Scientist interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 25 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Meta Research Scientist interview process
 
 <!-- guide-diagram -->
 ![Meta Research Scientist interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/meta--research-scientist/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter call — typically 30 minutes.** The recruiter covers your research area, publications or shipped work, level (E4 through E6 appear in reports), and which organization is hiring. Research roles are often tied to a specific team from the start, so be ready to explain which problem space you want and why.
-2. **Hiring-manager screen — 45 minutes.** This is often the real filter. It has two parts:
-   - *Project deep dive.* Pick one past project. The manager wants the technical difficulty, your personal contribution, which alternatives you rejected, and the measured impact. Assumptions get questioned and every result gets pushed for a number.
-   - *Open research question.* This is a hypothetical Meta problem with no code, such as keeping a coding agent from reproducing private training code without harming everyday usefulness. You are asked for pros, cons and trade-offs, and each proposal is pushed toward its failure modes. Candidates who laid out several approaches (filtering the training data, checking outputs for similarity, privacy mechanisms, watermarking) and evaluated each did better than those who defended one idea.
-   A candidate who hears nothing within a week should treat that silence as a no. In research-engineering pipelines, this screen can also serve as the first team-matching conversation.
-3. **Coding screen or onsite coding — 45 minutes, two problems.** The problems are standard medium algorithms and must be optimal and clean. Reported examples include merging sorted arrays, a right-side-view variant with a changed definition, Making a Large Island, Sum Root to Leaf Numbers, and a research-flavored sparse-vector dot product. Loops can include more than one coding session.
-4. **AI-enabled coding — typically 60 minutes.** This round also appears in research loops. One was a maze in three escalating parts: basic pathfinding, then obstacles and dynamic elements, then an open-ended constraint or optimization, with assistants allowed. A research-engineering loop used an ML implementation problem paired with a sparse-vector dot product instead.
-5. **ML system design — 45 minutes, one or two rounds, sometimes two prompts in one round.** Research-leaning loops report designing a code-generation LLM end to end: repository sourcing, filtering and deduplication, a decoder-only model, context-length trade-offs, fill-in-the-middle versus next-token objectives, pass@k and functional correctness, and serving. Other reported prompts include a general chatbot with retrieval and safety guardrails, a recommendation system, weapon-ad detection (class imbalance, features from ad content and metadata, real-time inference), an auto-advancing image feed that predicts dwell time, and an LLM in a recommender's blending stage with semantic item IDs.
-6. **ML theory round.** This is a mixed round that expects derivations. One version compared SGD, Adam and AdamW, then worked through scaling laws connecting parameters, data and compute, then contrasted k-means with Gaussian mixtures, including deriving expectation-maximization, convergence and initialization.
-7. **Technical deep dive.** One topic taken as deep as it goes. In a reported loop it was attention: implement scaled dot-product attention from scratch, analyze its time and memory cost, explain how Flash Attention avoids building the full matrix, and identify where linear-attention variants break down.
-8. **Behavioral, sometimes combined with research discussion.** Past projects, conflict, cross-functional collaboration, ambiguity and failure, each expected with measurable impact. One offer loop ended with a mixed round that combined research experience and standard behavioral questions.
-9. **Committee and after.** No feedback is given. Candidates describe the bar at E6 as clearly high, and loops from recruiter to offer typically take four to eight weeks.
+Fundamental-research teams lean on a research talk and theory; applied research in ranking, integrity and generative AI leans on ML system design. Most candidates get a recruiter call, one or two screens, and an onsite of four to six rounds of about 45 minutes each. Timelines run from under a month to about six weeks before team matching.
 
-## What They Actually Evaluate
+Level changes the weighting. E4 loops, often for new PhD graduates, pair one or two coding rounds and an AI-enabled round with one or two design rounds. At E5 and E6 the design and research discussion carry most of the decision, and one E6 loop was rejected mainly on system design. Since mid-April 2026 most loops use the AI-native format, so at least one coding round runs in a multi-file project with a built-in assistant.
 
-### Project Deep Dive
+Here's what the interview process can look like:
 
-You are graded on how you reason when you are unsure. Separate your contribution from the team's, justify decisions against alternatives, name what failed, and give results as numbers. In the open problem, concede the weaknesses of your favorite idea before the manager points them out. Defending a single proposal under pressure makes you look brittle. Listing failure modes without being asked makes you look like a researcher.
+- **Recruiter call:** About 30 minutes on research area, target level, location and which rounds are AI-native.
+- **Hiring manager screen (common for research and applied-research teams):** 45 minutes split between a deep dive on one past project and an open research problem.
+- **Technical phone screen:** 45 minutes of one or two coding problems, sometimes opening with behavioral questions.
+- **Coding interviews (one or two):** Two medium algorithm problems per round, often with a twist on a well-known problem.
+- **AI-enabled coding interview:** About 60 minutes extending one problem in stages inside a codebase with an assistant.
+- **ML system design interviews (one or two):** 45 minutes per round on a Meta product, integrity or generative-AI system.
+- **Research and ML theory deep dive (some loops):** Derivations, a from-scratch implementation, or a talk on your own research.
+- **Behavioral interview:** About 45 minutes on projects, conflict, feedback and your use of AI tools.
 
-- [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/questions/03c246e8-c1a4-47b1-b1bd-5c212e569288)
+> **Tip:** Ask the recruiter to list every round by name. Candidates in AI-focused loops who prepared mainly for AI rounds met a traditional write-heavy system design round or a backtracking problem coded by hand, and named those as their weakest rounds.
 
-### ML Theory
+## Hiring manager screen
 
-The round expects derivations, not descriptions. Signal comes from explaining when to pick an optimizer and why, deriving EM, and working out attention's quadratic cost and the memory savings of fused kernels. Candidates who can only summarize a method at a high level are exposed quickly. The rejected candidate whose loop covered theory and attention advised knowing vanilla attention cold and being able to contrast the efficient variants.
+For research and applied-research teams the first real gate is often a 45-minute call with the hiring manager. The first half is a deep dive on one past project you choose, covering the technical difficulty, your own contribution, the alternatives you rejected and the measured impact. Assumptions get questioned and every result gets pushed for a number. The second half is a hypothetical problem Meta cares about, with no code. One candidate was asked how to stop a code-generation model from reproducing code from private repositories in its training data while keeping it useful for everyday tasks, and every proposal was pressed for limitations and failure modes.
 
-- [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/questions/ml-foundations-optimizers-scaling-law-clustering)
-- [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb)
+On some research-engineering pipelines the call doubles as team matching against the team's roadmap. Candidates who hear nothing within a week should treat the silence as a rejection.
 
-### ML System Design
+Interviewers evaluate:
 
-Two halves are graded, and candidates tend to prepare only one. The research half is objectives, data curation and evaluation that actually measures the claimed capability. The engineering half is architecture, scale, serving cost and turning a model gain into a business metric. A rejected E6 candidate described their own gap in exactly those terms. Structure every answer as data, model, training, evaluation, then deployment, and let the interviewer pick the deep dive.
+- **Ownership of the project:** Your decisions, separated from the team's, with dates, data and a number for the result.
+- **Range of approaches:** Laying out several mechanisms, such as training-data filtering, output similarity checks, differential privacy and watermarking, before committing to one.
+- **Honest trade-offs:** Naming the weakness of your own favorite idea before the manager does.
+- **Reasoning under uncertainty:** Defining the problem and a way to measure success when no one has an answer.
+- **Fit with the team's problems:** Whether your past work transfers to what the team ships.
 
-- [Recommendation System Design](https://trueinterview.io/questions/7041135a-e932-4cd2-99d6-02ff8d199174)
-- [Harmful / Weapon-Sales Content Detection](https://trueinterview.io/questions/mlsd-harmful-content-detection)
-- [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation)
+Prepare one project you can defend down to its failed experiments, and practice open problems by listing at least three approaches with the failure mode of each.
 
-### Coding and Algorithm
+> **Note:** The call sounds informal, but it is where several research candidates were stopped before reaching the onsite. A rejected candidate described the open problem as a high-pressure research debate in which every idea was stress-tested, not a question-and-answer session.
 
-Coding is a gate here. You need optimal, clean solutions to medium problems, often with a small twist that breaks a memorized answer. A rejected E6 candidate said the right-view variant was a reminder to learn variants rather than solutions.
+### Sample questions for the hiring manager screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through a past research project: the hardest technical problem, what you personally did, and the measured result.
+- How would you keep a coding model from emitting code that came from private repositories in its training data, and what are the costs of your approach?
+
+- [Discuss Research Experience and Challenges](https://trueinterview.io/questions/discuss-research-experience-and-challenges)
+- [Explain an AI System You Designed and the Problem It Solved](https://trueinterview.io/questions/explain-an-ai-system-you-designed-and-the-problem-it-solved)
+- [Explain Your Highest-Impact Project](https://trueinterview.io/questions/explain-your-highest-impact-project)
+
+## Technical phone screen
+
+The technical screen is 45 minutes in a shared editor, usually with one or two well-known medium problems and follow-ups. Some screens open with a few minutes of behavioral questions about your background and how you handle setbacks. Reported problems include sampling an index with probability proportional to its weight using prefix sums and binary search, and finding a local minimum in O(log n). Interviewers can be nearly silent and leave you to drive the session. Candidates who passed were invited to the full loop within about two business days, and candidates with a valid recent screen for another Meta role have had this step waived.
+
+Interviewers evaluate:
+
+- **Driving the session:** Clarifying, stating the approach and testing without waiting for prompts.
+- **Complexity reasoning:** Stating and justifying setup and per-query cost, such as linear setup and logarithmic picks.
+- **Edge cases:** Equal weights, a single element, boundary minima, overflow in running sums.
+
+Practice common medium problems until each, with its main follow-up, fits in about 20 minutes.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Build a class that returns a random index with probability equal to its weight divided by the total weight.
+- Find an element smaller than both neighbors in O(log n) by deciding which half must contain one.
+
+- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
+- [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2)
+
+## Coding interviews
+
+Onsite loops include one or two traditional coding rounds, each with two medium problems at the engineering bar: optimal, clean, and often a familiar problem with a changed rule. Reported pairs include merging sorted arrays with a redefined right-side view, Making a Large Island with Sum Root to Leaf Numbers, merging k sorted lists with vertical-order traversal, and copying a list with random pointers with an LRU cache.
+
+Research-flavored problems appear too, such as a streaming mean that must guard against overflow and numerical drift. Interviewers give incremental hints when a candidate gets stuck, and thinking aloud makes them usable.
+
+Interviewers evaluate:
+
+- **Optimal solutions:** A working but slower second answer is a common reason for a weak coding signal.
+- **Adapting to twists:** Changing traversal logic when a side view is redefined, without starting over.
+- **Numerical care:** Overflow, precision and stability, which research candidates are expected to raise.
+- **Speed:** Both problems finished with tests inside the round.
+
+Drill two-problem sets against a 40-minute clock, focusing on trees, heaps, intervals and grids.
+
+> **Tip:** Do not treat coding as a formality for a research role. A rejected E6 candidate said the right-side-view twist was a reminder to learn variants rather than solutions, and coding is the round where a strong research profile cannot make up for a weak performance.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Return the visible nodes of a binary tree under a changed definition of the right-side view.
+- Change at most one water cell to land to make the largest island, after summing all root-to-leaf numbers in a tree.
+- Given m sorted arrays, output the smallest k numbers overall in sorted order.
 
 - [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place)
 - [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view)
 - [Making a Large Island](https://trueinterview.io/questions/making-a-large-island)
-- [Dot Product of Two Sparse Vectors](https://trueinterview.io/questions/aa3b7b34-eb9e-40d4-9c23-9ab29c4827a4)
+- [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md)
+
+## AI-enabled coding interview
+
+In AI-native loops one round runs in a multi-file project with a test suite and an assistant, and a single problem grows in stages. The most reported is a maze in three or four escalating parts: basic pathfinding, then obstacles or dynamic elements, then an open-ended constraint or optimization. Others are a word-subset problem that moves from planted bugs to backtracking, pruning, bitmask DP and memory reduction, and a card game where a naive strategy for drawing three cards summing to 15 is measured by simulation, then optimized. A research-engineering loop used a sparse-vector dot product and a short ML implementation task instead.
+
+The assistant does not lower the bar. Inputs are sized so only the optimal algorithm passes, interviewers plant bugs, and some discourage the assistant partway through. One rejected candidate lost pacing on planted bugs.
+
+Interviewers evaluate:
+
+- **Directing the tool:** Asking for small, specific functions and explaining the plan to the interviewer while you prompt.
+- **Verification:** Testing generated code against the constraints instead of trusting it.
+- **Algorithmic depth:** Reaching dynamic programming or a stateful search when the input size demands it.
+- **Evaluation thinking:** Measuring a strategy by simulation, which research candidates are expected to set up well.
+- **Completing stages:** Finishing more stages earns more signal than polishing one.
+
+Build a maze solver and a word-subset solver and extend each stage by stage, once with an assistant and once by hand.
+
+### Sample questions for the AI-enabled coding interview
+
+Here are some questions reported by recent candidates:
+
+- Extend a maze solver across three parts: a basic path, then obstacles and changing cells, then an optimization constraint.
+- Select words with no shared letters to maximize distinct letters, starting from buggy code and ending with space-optimized bitmask DP.
+- Simulate a card game in which the player wants three cards summing to 15, then compare a naive strategy with an optimized one.
+
 - [Maze Solver](../../questions/ai-coding/ai-coding-maze-solver/README.md)
+- [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset)
+- [Card Game (Three Cards Summing to 15)](https://trueinterview.io/questions/ai-coding-card-game-sum-fifteen)
+- [Dot Product of Two Sparse Vectors](https://trueinterview.io/questions/aa3b7b34-eb9e-40d4-9c23-9ab29c4827a4)
 
-### Behavioral and Leadership
+## ML system design interview
 
-The prompts are conventional: your most challenging project, critical feedback, disagreement with peers, and cross-functional work. They are pressed for concrete decisions and outcomes. Research candidates who treat the round as a formality and answer with stories instead of specifics lose ground.
+Loops include one or two ML design rounds of 45 minutes, which candidates consistently call short; some fit two prompts in. Prompts come from Meta's products: feed, short-video, event and nearby-place recommendation; weapon-sale ads and image copyright detection; and, on generative-AI teams, a code-generation LLM (repository sourcing and deduplication, fill-in-the-middle training, pass@k, serving) or a chatbot with retrieval and guardrails. Others include an image-only feed that predicts dwell time to advance automatically, and an LLM in a recommender's blending stage with semantic item IDs.
 
+Follow-ups target what is hard in practice: labeling rare violations, adversarial text overlaid on images, a photograph of a copyrighted photograph, calibration, and why offline AUC disagrees with the online result. Some AI-native loops add an agent design built on a reason-act (ReAct) loop; one candidate whose framing did not match it struggled throughout.
+
+Interviewers evaluate:
+
+- **End-to-end structure:** Data, labels, features, model, training, evaluation and deployment, before any deep dive.
+- **Production constraints:** Latency, serving cost, feature freshness and training-serving skew.
+- **Metrics with counter-metrics:** An online metric tied to the business goal plus a guardrail against gaming it.
+- **Research judgment on the model:** Why this objective and architecture, and how the evaluation would catch a false gain.
+- **Scope for level:** At E6, scaling decisions and business impact weigh as much as modeling.
+
+Practice a recommendation design, an integrity design and an LLM design, each in 45 minutes from requirements to evaluation.
+
+> **Note:** A rejected E6 Research Scientist said the gap was not model knowledge but system architecture, scaling and business metrics. Research candidates who spend the round on model novelty often never reach serving or measurement.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a system that flags ads selling weapons, from data collection and labeling under heavy imbalance to real-time inference.
+- Design a large language model for code generation: data pipeline, objectives, evaluation and serving across many languages.
+- Predict the probability that a user dislikes a feed post using a liked-in-the-last-six-months feature, and explain why offline and online metrics disagree.
+
+- [Harmful / Weapon-Sales Content Detection](https://trueinterview.io/questions/mlsd-harmful-content-detection)
+- [Recommendation System Design](https://trueinterview.io/questions/7041135a-e932-4cd2-99d6-02ff8d199174)
+- [Image Copyright Violation Detection](https://trueinterview.io/questions/mlsd-image-copyright-detection)
+- [AI-Enabled System Design — Agent System](https://trueinterview.io/questions/system-design-ai-enabled-agent-system)
+
+## Research and ML theory deep dive
+
+Research-leaning loops add depth that engineering loops lack, in one of three forms. One is a mixed theory round. A reported version compared SGD, Adam and AdamW, worked through scaling laws relating model size, data and compute, then contrasted k-means with Gaussian mixtures and derived expectation-maximization, convergence and initialization. Another is a single-topic deep dive. In one loop it was attention: implement scaled dot-product attention from scratch, analyze its time and memory cost, explain how Flash Attention avoids materializing the full matrix, and show where linear-attention approximations fail.
+
+The third form, common for PhD hires on fundamental-research teams, is a talk of about 50 minutes to an hour on your own research, followed by a technical discussion of methods, alternatives and limitations. Elsewhere the research discussion is folded into the behavioral round. One offer loop ended with a combined session on research experience and standard behavioral questions.
+
+Interviewers evaluate:
+
+- **Derivations, not descriptions:** Writing EM or attention's complexity on the board, not summarizing them.
+- **Choosing between methods:** When AdamW beats Adam, and when a mixture model beats k-means.
+- **Current techniques:** Efficient attention, scaling-law reasoning and their failure cases.
+- **Defending your research:** Clear contribution, honest limitations and the experiment you would run next.
+
+Rehearse EM, optimizer behavior, scaling laws and attention at a whiteboard until each derivation takes under ten minutes.
+
+### Sample questions for the research and ML theory deep dive
+
+Here are some questions reported by recent candidates:
+
+- Compare SGD, Adam and AdamW, then explain how scaling laws should change how a fixed compute budget is spent.
+- Derive EM for a Gaussian mixture and contrast its assumptions with k-means.
+- Implement scaled dot-product attention, then derive the savings of Flash Attention and linear variants.
+
+- [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/questions/ml-foundations-optimizers-scaling-law-clustering)
+- [Attention Implementation + Flash / Linear Attention Follow-ups](https://trueinterview.io/questions/attention-implementation-and-follow-ups)
+- [Which clustering algorithm would you use and why](https://trueinterview.io/questions/which-clustering-algorithm-would-you-use-and-why)
+
+## Behavioral interview
+
+The behavioral round runs about 45 minutes, and senior loops sometimes have two. Prompts cover your most challenging project, critical feedback, conflict with peers, cross-functional work, failure and deadlines, each pushed for your specific role and the outcome. Newer loops add a section on which AI tools you use daily and where they failed; one candidate was also asked about improving communication and recent books. Senior sessions add leadership and mentoring.
+
+Interviewers evaluate:
+
+- **Personal ownership:** What you decided and drove, separated from the team's result.
+- **Measured impact:** A number tied to each story, including research outcomes that shipped.
+- **Handling disagreement:** How a conflict with a peer was resolved and what changed afterward.
+- **AI fluency:** Concrete workflows and a time an AI tool misled you.
+
+Prepare six to eight recent stories with numbers, including one research disagreement and one AI-tool failure.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Describe your most challenging project and a time you received critical feedback on it.
+- Tell me about a conflict with a peer and a time you found an optimization nobody had asked for.
+- How do you personally use AI coding tools, and where have they let you down?
+
+- [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
 - [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
+- [Describe a failed project and lessons learned](https://trueinterview.io/questions/describe-a-failed-project-and-lessons-learned)
 
-## What They Don't Test
+## How Meta levels and evaluates Research Scientist candidates
 
-- **Publication count on its own.** The screen interrogates one project for your contribution and measured impact, not your publication list.
-- **A single "right" answer to the open problem.** The manager is looking for a range of options you evaluate honestly and the trade-offs you admit.
-- **Research-only design answers.** Model novelty without serving cost, scaling and a business metric has sunk senior candidates.
-- **Hard competition-style coding.** Coding is medium difficulty. Clean code and knowing the variants matter more than puzzle skill.
+Each interviewer writes feedback separately, and a hiring committee reviews the full packet and sets the final level, so a target of E6 can become an E5 offer. Rounds are scored as separate signals, so a strong research discussion does not cover a weak coding or design round. Most candidates are matched to a team after the loop, about six weeks after the phone screen in one report, though some research teams attach a hiring manager from the first call. Headcount matters: one loop stayed pending on headcount, and another role was cancelled after the onsite despite earlier assurances.
 
-## The Real Filter
+Rejections usually arrive within about a week and come with no feedback. Recent rejections have carried a one-year wait before reapplying to the same role family.
 
-The main rejection path is the hiring-manager screen, and candidates misjudge it because it sounds informal. It is a live test of research judgment under pressure. Prepare one project you can defend down to its failed experiments, and practice open prompts by listing at least three mechanisms and the failure mode of each before you commit to one.
+> **Tip:** Write down what happened in each round right after it ends. Meta gives no feedback after a rejection, so your own notes are the only record of which signal was missing when you prepare to reapply.
 
-The second pattern hits senior candidates in ML system design. They show deep model knowledge but give thin answers on architecture, latency and business metrics. Practice full pipeline designs for integrity and recommendation problems, not just the model component.
+## How to prepare for the Meta Research Scientist interview
 
-The third pattern is the theory and deep-dive rounds, where fluency at the level of a blog summary falls apart once the interviewer asks for a derivation or complexity proof. Rehearse EM, scaling-law reasoning and attention at the whiteboard.
+1. **Defend one project to the bottom:** Know your contribution, the alternatives you rejected, the failed experiments and the measured impact well enough to survive 20 minutes of questioning.
+2. **Practice open research problems aloud:** For each prompt, propose at least three approaches, evaluate each, and state the failure mode of your favorite before you are asked.
+3. **Keep engineering-level coding sharp:** Two medium problems in 40 minutes, including twists on side views, islands, heaps and intervals.
+4. **Extend one problem in stages with an assistant:** Build the maze and word-subset solvers, find planted bugs, and be ready to finish by hand.
+5. **Design full ML systems, not models:** Cover recommendation, integrity and LLM prompts from data to serving and online metrics within 45 minutes.
+6. **Rehearse derivations at a whiteboard:** EM for mixtures, optimizer differences, scaling laws and attention complexity, with efficient variants.
+7. **Prepare stories that include AI tools:** Six to eight stories with numbers, one of them about AI output you had to catch and correct.
 
-## Data Source
+## About the Meta Research Scientist role
 
-Based on 25 candidate-reported interview experiences, primarily from 2026 Q2 through 2026 Q2.
+Meta Research Scientists work on everything from long-horizon basic science to models shipped to billions of users. Fundamental researchers publish openly; applied researchers in ranking, integrity and generative AI work alongside engineers and are judged on product metrics as well as papers. Since 2025 most AI research has sat inside Meta Superintelligence Labs, which was reorganized into four groups and cut about 600 roles in October 2025, so team scope and headcount can shift quickly.
 
-## FAQ
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| E4 | Executing research projects with defined goals, often straight from a PhD | A project within one team |
+| E5 | Owning a research direction and taking results into production or publication | A team's research agenda |
+| E6 | Setting technical direction and leading researchers across projects | Several teams |
+| E7 | Defining research strategy for an area | An organization |
 
-**What is it like to work as a Research Scientist at Meta?**
+Meta hires Research Scientists across its AI and product organizations. Teams include:
 
-The reports cover hiring, not daily work or pay. What is documented is that research scientists are hired into specific research or applied-research organizations. The problems they get in interviews, such as code-generation safety, LLM-based recommendation and integrity models, reflect work that is expected to reach products.
+- **Fundamental AI Research (FAIR):** Longer-term research in areas such as language, vision, reasoning and core machine learning.
+- **TBD Lab:** A small group building Meta's frontier large language models.
+- **Products and applied research:** Bringing models into Meta AI and the apps, including assistants and generative features.
+- **MSL Infra:** Training and inference infrastructure for large-scale models.
+- **Monetization and ranking:** Ads, feed and Reels ranking models tied directly to revenue and engagement.
+- **Reality Labs Research:** Perception, interaction and AR/VR research for headsets and smart glasses.
 
-**What is the research culture like?**
+### Research Scientist experience and education requirements
 
-It is ambitious and focused on impact, and hiring managers expect rigorous self-criticism. In 2026 the wider company has gone through layoffs and a heavy AI investment push, which has made research hiring both more focused and more exposed to shifts in headcount.
+Most postings ask for a PhD in computer science, AI, statistics or a related quantitative field, or equivalent research experience. First-author papers at peer-reviewed venues such as NeurIPS, ICML, ICLR, CVPR or ACL are required for some teams and preferred for others. Python, PyTorch and hands-on work with large language or foundation models are standard asks.
 
-**How hard is it to get in?**
+## FAQs about the Meta Research Scientist interview
 
-It is very hard at senior levels. Candidates describe the E6 bar as explicitly high, and rejections have come both at the manager screen and after full loops that felt solid.
+### How long does the Meta Research Scientist interview process take?
 
-**Which round is hardest?**
+Usually four to eight weeks. One candidate went from first round to accepted offer within a month, while another took about six weeks to reach team matching. Headcount reviews and team matching can add several more weeks.
 
-The hiring-manager screen, because it filters so many candidates. For senior candidates who get past it, the hardest round is ML system design. The theory and attention deep dive is the hardest for candidates who have not worked through the derivations themselves.
+### What is the hardest round of the Meta Research Scientist interview?
+
+Many candidates name the hiring manager screen, because the open research problem is argued live under constant pressure. For those who reach the onsite, ML system design is the most common reason for rejection at E5 and E6. Candidates who have not done the derivations themselves find the theory deep dive hardest.
+
+### What happens after a rejection?
+
+Recent candidates were told to wait one year before reapplying to the same role family, while roles in other families stayed open.
 
 ---
 

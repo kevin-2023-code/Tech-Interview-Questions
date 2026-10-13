@@ -16,21 +16,32 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 
 ## How Intuit interviews
 
-This guide goes deeper than the process outline on the company page: how each Intuit stage is actually run, how the Craft Demonstration is structured and graded, and where candidates lose points. Our library currently has 4 real Intuit questions you can use for targeted practice, and the notes below reflect how Intuit's loop has operated through 2025 and into 2026.
+Intuit asks about AI in nearly every engineering interview, whether or not AI appears on your resume. Recruiters say so up front, and later rounds set aside time for when AI belongs in a product and how you use it yourself. The technical bar is practical: medium coding that you test as you go, plus SQL and Bash, which most big-tech loops skip. Some experienced hires also sit a Craft Demonstration, where a panel watches them build or defend real work.
 
-### Interview Process
+This guide breaks down each stage of the Intuit interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 14 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Intuit interview process
 
 <!-- guide-diagram -->
 ![Intuit interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/intuit/process.webp)
 <!-- guide-diagram -->
 
-The end-to-end process typically runs three to six weeks from application to decision, and Intuit tends to move faster than most large tech companies once the loop is scheduled — final decisions usually land within one to two weeks of the last interview.
+The hiring team and level set the shape. Since late 2025, many engineering and data pipelines have been run by a third-party interviewing vendor, and every stage eliminates candidates: an online assessment, a recruiter conversation, a take-home build, a call reviewing that build, and a final interview. Other teams use a phone screen followed by a loop of one to three rounds. Most candidates hear back within three to five weeks.
 
-**Recruiter screen (30–40 minutes).** A conversation about your background, the product area you are matched to (TurboTax, QuickBooks, Credit Karma, Mailchimp, or platform teams), motivation, and logistics. The recruiter is assembling the narrative the panel will later test, so a coherent account of what you personally built and why matters more than a list of technologies.
+New grads and mid-level engineers mostly get coding, SQL and Bash. Staff-level candidates can get coding and a quantified system design in one phone screen.
 
-**Online assessment and early technical screen.** Most engineering candidates get a coding assessment before speaking to an engineer — a timed test with algorithm problems and some logical-reasoning or debugging items. For many roles Intuit outsources the early technical rounds to a third-party interviewing service: expect a live session of roughly 60–90 minutes with one or two medium-difficulty data-structures problems, occasionally a debugging exercise on existing code, and for senior candidates a short design discussion. Interviewers grade working, runnable code plus complexity reasoning; partial solutions with clear narration score better than silent perfect ones.
+Here's what the interview process can look like:
 
-**Craft Demonstration.** This is the round that decides most Intuit outcomes, and it comes in two formats depending on team and level. In the first, you present a project you already built — architecture, decisions, trade-offs, results — to a panel. In the second, increasingly common for hands-on engineering roles, Intuit sends a take-home assignment or a GitHub repository a few days before the interview (sometimes only 24–48 hours ahead) with user stories to implement; you then demo and defend your implementation live. Either way the session typically runs about 90 minutes with a panel of two to four interviewers (occasionally more), and it is interactive from the start: expect interruptions, requests to open specific files, and questions about why you rejected alternatives. Grading emphasizes clean, tested code, error handling, and honest ownership boundaries — panels probe explicitly for the difference between your work and your team's. If you receive a repo in advance, run it locally early, try to break it, and make sure every user story demonstrably works; a demo that fails to launch is very hard to recover from.
+- **Recruiter screen:** A short call about background, product area and how you use AI tools.
+- **Online assessment:** A timed test of about 90 minutes with one algorithm problem, a SQL query, a Bash task and sometimes multiple-choice fundamentals.
+- **Coding interviews:** Live 45–75 minute sessions with one or two medium problems, tests you write yourself and incremental follow-ups.
+- **Craft Demonstration or take-home build (some teams and levels):** A project you build or present, then defend before a panel.
+- **System design interview (mid-level and above):** Product-flavored design, often recommendation or prediction systems, with numbers attached.
+- **AI and behavioral interview:** Your projects, Intuit's values and when AI is the right tool.
+
+> **Tip:** Prepare a two-minute answer on how you use AI in your own coding and where it has failed you. The question came up at nearly every stage, from the first recruiter call to the final round.
 
 **[Read the full Intuit interview process →](interview-process.md)**
 

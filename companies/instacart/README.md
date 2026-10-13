@@ -16,22 +16,33 @@ How Instacart interviews, and the questions candidates reported there. Free ques
 
 ## How Instacart interviews
 
-Instacart's engineering loop is one of the more practically flavored interviews among marketplace companies: expect to parse real-looking data, extend working code across multiple parts, and design around grocery-specific failure modes rather than recite textbook architectures. This guide goes deeper than the process outline on the company page — durations, grading signals, and follow-up patterns for each stage. Our library has 4 real Instacart questions you can use to rehearse the expected level of depth.
+Instacart tests practical code that keeps growing, not classic puzzles. The online assessment is either a four-level system you extend under a timer or a full-stack exercise in which you direct Claude through requirements, features and fixes. A vendor-run live round puts you in an unfamiliar bus-simulation codebase with an AI assistant. In some loops the onsite is split in two, and candidates who miss the coding half never reach design. ML-leaning pipelines add a fundamentals screen that goes down to formulas.
 
-### Interview Process
+This guide breaks down each stage of the Instacart interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 16 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Instacart interview process
 
 <!-- guide-diagram -->
 ![Instacart interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/instacart/process.webp)
 <!-- guide-diagram -->
 
-#### Recruiter screen and online assessment
-After the recruiter conversation — role alignment, timeline, team matching — many candidates receive a timed online assessment before speaking to an engineer. It typically runs about 70 minutes with several tasks of increasing difficulty, weighted toward array and string manipulation and straightforward implementation rather than obscure algorithms. Instacart does not run a separate culture or values interview; recruiters and interviewers assess collaboration and communication continuously, so treat even logistics calls as evaluative. The full process from first contact to decision typically spans four to six weeks.
+Most software pipelines open with a 90-minute online assessment. Others go straight to one or two phone screens, and some candidates sit both. The virtual onsite is typically three to five rounds: an AI-assisted round and two coding rounds, then system design and behavioral. End to end, the process typically takes three to six weeks.
 
-#### Technical phone screen
-The phone screen usually lasts about an hour in a shared coding environment, with one or two problems that are practically flavored: transforming records, parsing structured text, or building a small utility end to end. The bar is working, runnable code — interviewers frequently execute it — plus clean handling of malformed data, duplicates, ordering, and empty inputs. Candidates who narrate assumptions, test as they go, and adapt when a follow-up changes the requirements do noticeably better than those who silently produce a clever one-pass solution they cannot extend.
+New grad, L4 and senior candidates get the same medium-difficulty coding. At L5 and above, the design round and the project deep dive carry more weight. Backend candidates, senior ones included, still get the full-stack AI assessment.
 
-#### Virtual onsite — coding rounds
-The onsite typically runs four to five back-to-back rounds over four to five hours, and it is heavier on coding than most loops: two coding sessions of roughly an hour each. The problems are largely written in-house and are frequently multi-part — each part builds directly on your previous solution, so a brittle or over-specialized part one becomes a tax on parts two and three. Recurring shapes include text and log parsing, JSON-like payload processing, calling or simulating an API and chaining values from one response into the next request, file input and output, and stateful data wrangling with maps, queues, and intervals. Difficulty sits at a medium level; the differentiator is engineering discipline. Interviewers grade a clear progression from a simple correct version to an optimized one, readable naming, sensible use of the standard library, and deliberate testing. Expect follow-ups about larger inputs, repeated or out-of-order events, missing fields, and preserving ordering — and expect to actually run your code rather than pseudocode on a whiteboard.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call about role, level and timeline.
+- **Online assessment (most software pipelines):** 90 minutes, either a four-level build-and-extend system or a five-part AI-assisted full-stack exercise.
+- **Technical phone screens (one or two):** Hour-long practical coding, or ML fundamentals for ML-leaning roles.
+- **AI-assisted coding round:** About 50 minutes in a large, unfamiliar codebase with an AI assistant.
+- **Coding interviews (two):** Parsing and data-structure problems with multi-part follow-ups.
+- **System design interview:** An Instacart-domain design, usually inventory, catalog or storage.
+- **Behavioral interview:** A technical deep dive on your biggest project, plus a conflict scenario.
+
+> **Tip:** A few problems recur across phone screens and onsites: password decoding, expression evaluation with variables, and the bus simulation. Practice their full multi-part versions. Candidates who knew only part one ran out of time.
 
 **[Read the full Instacart interview process →](interview-process.md)**
 

@@ -6,102 +6,285 @@
 
 ---
 
-The most common way a Software Engineer loses this loop is a design round that felt like a good conversation. Interviewers frequently stay at the architecture-box level and never ask for the schema, the cache keys, or the failure path — then the feedback cites insufficient depth in exactly those places. One candidate whose interviewer explicitly declined to probe Redis key formats or query patterns was rejected for a shallow design after being complimented on requirement-gathering in the room. The rate limiter that opens most technical screens is the easy part of this process.
+Roblox coding problems come from a small, recurring bank framed in platform terms, such as a rate limiter keyed by user and experience or the most frequent call path in function logs. Each problem starts easy and gets harder through follow-ups, and some screens are graded on hidden tests. Most rejections come from system design, where interviewers often stay at a high level, let you choose how deep to go, and later fault the design for lacking depth. Senior loops add a project deep dive and a director round that tests whether you drove decisions yourself.
 
-## Interview Process
+This guide breaks down each stage of the Roblox Software Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 51 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Roblox Software Engineer interview process
 
 <!-- guide-diagram -->
 ![Roblox Software Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/roblox--software-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (typically 30 minutes).** Most loops begin with recruiter outreach. The call covers background, level, the traffic scale of systems you have run, and in-office expectations — the San Mateo headquarters runs a three-day-a-week onsite policy. Recruiters on this track often send prep material and name the topic families, which is worth taking literally. Treat it as directional, though: one senior candidate was told system design would anchor the screen and got a pure coding hour.
+Roblox hires engineers onto specific teams, and interviewers are usually future colleagues, so design prompts follow the team's domain: payments, social features, data pipelines. The process starts with a recruiter call. Early-career candidates then take an online assessment, and most candidates have one or two phone screens. The onsite has three to six sessions, held virtually or in San Mateo. Most processes take three to six weeks, though one accepted offer took about three months.
 
-2. **Online assessment (not every loop, typically 1–2 hours).** Some pipelines insert an assessment before any live round, and it is not always coding. One Software Engineer assessment was a written system design exercise on a likes service: schema, like and unlike, "has this user liked this item", a user's liked items, total counts, race conditions, scaling to millions of users and items. Rejections happen here with no further contact.
+New-grad loops center on the assessment and two coding problems. Mid-level loops typically have one coding round, one or two design rounds and a hiring manager round. Senior loops add a project deep dive and a director conversation, and principal candidates start with system design instead of coding.
 
-3. **Technical phone screen (45–60 minutes, live coding).** Rate limiting dominates this stage. The base task is a sliding-window limiter — a deque of timestamps or a sorted set, token bucket accepted — and the near-universal follow-up adds independent per-user and per-experience windows, sometimes with an aggregate cap on top. Interviewers pin the semantics with concrete numbers (five requests per one-second window, with a worked example of which timestamp is rejected) and then ask for complexity and stale-key cleanup. Other reported screens: dependency resolution by topological sort with real twists (missing nodes that must not crash, or a smallest-ID tie-break forcing a min-heap), grid reachability with obstacles, a trie paired with a sliding-window string problem, and a streaming top-earning-experience tracker driven by UPDATE and GET_TOP. Some screens grade against hidden tests you never see, so finishing running code beats an elegant sketch.
+Here's what the interview process can look like:
 
-4. **Onsite coding (60 minutes, one or two sessions).** The call-stack and log-parsing family recurs most: return the most frequent function or active call path from function logs, then extend to the longest stack, top-K with alphabetical tie-breaks, or a multithreaded variant reporting per-thread results. One loop ran three rate-limiter variations back to back with speed explicitly emphasized; another used cursor manipulation where the logic was trivial and the boundary cases — empty state, cursor at either end, consecutive operations — decided the round. Hard problems appear with relaxed constraints, where a narrated brute force plus complexity analysis is accepted.
+- **Recruiter screen:** A 30-minute call on background, operating scale, salary expectations and the three-day office policy.
+- **Online assessment (early career):** Simulation games, a situational-judgment section and two timed CodeSignal problems.
+- **Technical phone screen (one or two):** About an hour of live coding, most often a rate limiter with layered follow-ups.
+- **Coding interview (usually one):** 45 to 60 minutes of runnable code on a parsing-heavy problem with two follow-ups.
+- **System design interview (one or two):** An hour on a product feature at Roblox scale.
+- **Project deep dive (mid-level and above):** An hour of questions on one project from your resume.
+- **Hiring manager and leadership interviews:** Behavioral rounds on scale and ownership, plus a director or executive round for senior candidates.
 
-5. **System design (60 minutes, one or two sessions).** The most repeated prompt is a like/unlike or favorite system, then matchmaking for multiplayer sessions, delayed or scheduled payments, a social-proof line on a game page, and near-real-time friend activity at a stated 10 million users and 100,000 active games. Grading lands on concrete artifacts: the toggle state machine across all four transitions, idempotency for duplicate requests, exact versus approximate counts, sharding user rows by user and counters by item, a queue absorbing bursts, cache plus reconciliation, change-data-capture between two stores. One social-proof round demanded an actual SQL query, hot-key mitigation, a latency target, and a live debugging walkthrough when a user stops seeing the line.
+> **Tip:** Recruiters on this track often name the problem area of the coding round, such as rate limiting or call-stack parsing, and sometimes send written prep material. Use that. Treat the stated format with more caution: a senior candidate told to expect system design got a pure coding hour.
 
-6. **Project deep dive and hiring manager (60 minutes each).** A senior engineer takes one resume project apart — architecture, database choice, consistency, failure handling, what you would rebuild — while the hiring manager anchors on operating scale: daily actives, data volume, requests per second, and incidents you handled as a system grew by orders of magnitude.
+## Recruiter screen
 
-7. **Director or executive conversation (45–60 minutes).** Senior loops add a session on technical vision, prioritization and team growth, plus why Roblox and why you left each previous role. Interviewers at the most senior individual-contributor levels appear here.
+The recruiter call lasts about 30 minutes. It covers your projects, why you are looking, salary expectations, and whether you can work from the San Mateo headquarters three days a week, which is a firm requirement. Recruiters also ask about the traffic scale of systems you have built. Candidates describe them as unusually open about which languages are allowed and what the first technical round covers.
 
-8. **Decision.** A committee reviews the packet after the loop, so per-round warmth predicts little. Outcomes have arrived within four hours of a round; at the other extreme one accepted offer took roughly three months from first contact. Loops also stall — one candidate cleared a coding round cleanly, then had the hiring-manager session canceled with no follow-up.
+The call can end the process. A principal candidate for the Ads team was rejected the day after a screen with no technical questions, so how well your experience fits the team is screened from the start.
 
-## What They Actually Evaluate
+Interviewers evaluate:
 
-### Coding and Algorithm
+- **Team fit:** How closely your past systems match the team's domain.
+- **Operating scale:** Daily users, requests per second and data volume you have personally handled.
+- **Location commitment:** A clear yes to three office days a week.
+- **Motivation:** A specific reason for choosing Roblox.
 
-Two to three coding hours across the loop, medium difficulty with layered follow-ups rather than one hard problem. Signal comes from clarifying semantics before typing — the window boundary, whether either or both limits must be exceeded, whether calls are properly nested — and from code that extends cleanly when a dimension is added. The recurring failure is running out of time on the follow-up because the first solution could not generalize: candidates who hardcoded a single limiter could not re-key it by user and experience, and hidden tests caught the unfinished branches.
+Prepare a two-minute summary that includes the traffic numbers of your largest system, and ask exactly which topic families to expect.
 
-- [Sliding-Window Rate Limiter](../../questions/algorithm/sliding-window-rate-limiter/README.md)
-- [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md)
-- [Topological Sort with Secondary Ordering](https://trueinterview.io/questions/topological-sort-with-ordering)
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk me through your background and the projects on your resume.
+- Why are you leaving your current role, and why Roblox?
+- What are your salary expectations, and can you work on site three days a week?
+
+## Online assessment
+
+Interns and new graduates receive the assessment right after applying and can spread it over about a week. It has three simulation games (a factory network with bottlenecks, a robot or vehicle builder crossing terrain, and a modular programming puzzle), about 23 workplace scenarios where you pick the most and least effective response, and two unproctored CodeSignal problems in about 50 minutes.
+
+The coding problems are easy-to-medium simulation and data processing, and hidden tests decide the score. One candidate lost time on a laser-grid problem because the board was 1-indexed and the starting cell did not count as a step. Another failed hidden tests on a digit-rotation problem by comparing every pair instead of grouping by a canonical rotation. Experienced hires rarely take an assessment. One mid-level variant was a written design of a likes service covering schema, counts, race conditions and scaling.
+
+Interviewers evaluate:
+
+- **Hidden-test correctness:** Indexing conventions, off-by-one boundaries and large inputs.
+- **Efficient grouping:** A canonical key or hash map instead of an O(n²) comparison.
+- **Systems thinking in the games:** Trying several configurations to find the bottleneck.
+- **Scenario judgment:** Assessing risk and telling stakeholders early, rather than hiding a bug or blaming another team.
+
+Practice timed grid simulations and interval merging on CodeSignal, and play the official practice games first.
+
+> **Note:** In the modular programming game, functions must be wrapped up during the test phase to be callable later, and parameters are locked once that phase ends. Plan the full set of functions before writing any.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- On a grid where lasers destroy whole rows and columns, find the longest safe straight-line walk from the start.
+- After each file chunk arrives as a byte range, return the merged consecutive ranges, treating [1, 3] and [4, 6] as one block.
+- Count the distinct pairs in an array where one number is a digit rotation of the other.
+
+- [Lasers and Robot](https://trueinterview.io/questions/cc7ea860-4eb6-5776-9026-f8bb5368ca1b)
+- [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges)
+- [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs)
+- [Choose Best/Worst Actions Under Time Pressure](https://trueinterview.io/questions/choose-best-worst-actions-under-oa-pressure)
+
+## Technical phone screen
+
+The screen is a 45- to 60-minute call in a shared editor, often with no introductions. The rate limiter is by far the most reported prompt. The base task is a `shouldAllow` method that allows at most N requests per sliding window; a deque works, some interviewers want a sorted set, and a token bucket is accepted. Follow-ups add independent per-user and per-experience windows, then per-game caps with an aggregate cap, stale-key cleanup and distributed behavior.
+
+Other screens used topological sort with undeclared components or smallest-ID-first ordering, merge intervals plus meeting rooms, grid reachability, a trie, and a highest-earning-experience tracker. Some senior screens are system design instead: a distributed rate limiter, a URL shortener or matchmaking.
+
+Interviewers evaluate:
+
+- **Pinned semantics:** Whether window edges are inclusive and whether one limit or both must be exceeded; one interviewer worked through an example with five requests per second.
+- **Extensible first code:** A limiter keyed by entity that can take a new dimension without a rewrite.
+- **Finishing under time:** Running follow-up code, including entities seen for the first time.
+- **Complexity and memory:** The amortized cost of each check and a policy for evicting idle keys.
+
+Rehearse the rate limiter and topological sort until the base version takes 15 minutes.
+
+> **Note:** A candidate who wrote a limiter for a single client could not re-key it by user and experience in time. The candidate never got to run the hidden tests and was rejected. Build the first version for many keys even when the prompt names one.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Allow N requests per sliding window, then add per-user and per-experience limits and deny the request if either is exceeded.
+- Return a build order from dependency pairs, report cycles, and handle undeclared components without crashing.
+- Process UPDATE commands that change an experience's earnings (up or down) and GET_TOP commands that return the current highest earner.
+
+- [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md)
+- [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893)
+- [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering)
 - [Highest Earning Experience Tracker](https://trueinterview.io/questions/highest-earning-experience-tracker)
 
-### System Design
+## Coding interview
 
-The heaviest-weighted competency and the source of most rejections. Sessions run an hour, start from an open prompt, and branch off your own first architecture. Interviewers work from a checklist of core requirements, and once those are met extra polish counts as bonus rather than a raised bar — but "met" means the concrete layer: schema with indexes, key formats, shard boundaries, hot-key handling, idempotency, reconciliation. Depth without a decision also loses: leaning on one cloud vendor's managed services without comparing alternatives drew explicit criticism.
+Most onsites have one coding round of 45 to 60 minutes, run on CodeSignal with runnable code. One loop instead ran three quick rate-limiter variants and stressed speed. The most common family is call-stack logs: find the most frequent active call path from start and end events, or the top K functions across stack traces with alphabetical tie-breaks. Follow-ups ask for the longest stack, a new tie-break rule, or multithreaded logs reported per thread.
 
-- [Design Like/Unlike/Favorite System](https://trueinterview.io/questions/design-like-unlike-favorite-system)
-- [Design Multiplayer Game Matchmaking System](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system)
+Other prompts include cursor operations in an editor-like structure, arranging items so no two adjacent ones match (feasibility, then construction), and IP bot detection over a time window with stale-entry cleanup. New-grad onsites included a hard hat-assignment problem followed by grid elimination in the style of Candy Crush. When time ran out, the interviewer accepted pseudocode for the rest.
+
+Interviewers evaluate:
+
+- **Input contract:** Empty traces, whether calls always nest, and what to return when K exceeds the number of distinct items.
+- **Bug-free parsing:** The logic is simple but the code is long, and some interviewers insist that every test pass.
+- **Adapting to follow-ups:** Adding a per-thread map or a tie-break rule without restarting.
+- **Boundaries:** Empty state, a cursor at either end, and repeated operations.
+
+Practice stack-plus-hash-map log parsing, including the multithreaded extension, until a full solution with tests takes 30 minutes.
+
+> **Tip:** Before coding, write three test inputs: an empty input, a tie, and a boundary case. A candidate who later received an offer said edge cases, not the algorithm, made the cursor round hard.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- From function start and end logs, return the most frequent call path, then handle interleaved logs from several threads.
+- Return the top K function names across stack traces, breaking ties alphabetically.
+- Flag IPs that exceed a threshold within a time window, and evict stale entries so memory stays bounded.
+
+- [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain)
+- [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md)
+- [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12)
+- [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8)
+
+## System design interview
+
+System design carries the most weight and causes the most rejections. Each round lasts about an hour, and IC4 and senior loops often have two. The most reported prompt is a like/unlike or favorites system. Other prompts include multiplayer matchmaking, delayed or held payments, a social-proof line on a game page, friend activity at 10 million users and 100,000 active games, notifications, and a full payment system.
+
+Strong like-system answers cover every toggle transition, idempotent duplicates, a unique row per user and item, exact versus approximate counts, user-sharded interactions with item-sharded counters, Redis key formats, and a burst queue with reconciliation. The social-proof round asked for a real SQL query, a latency target, a hot-key plan, and a step-by-step diagnosis for a user who stops seeing the line. Interviewers seem to work from a checklist. Once the core requirements are met, extra polish counts as a bonus.
+
+Interviewers evaluate:
+
+- **Depth you drive:** Schema, keys, shard function and a failure path. One candidate was praised for requirement-gathering, never asked about Redis keys, and then rejected for a shallow design.
+- **State and idempotency:** Correct toggles and payment holds, including duplicates and expired holds.
+- **Compared alternatives:** A delayed-payment design that relied on one cloud vendor without weighing other queues drew criticism.
+- **Operations:** Monitoring, failover and disconnects. A matchmaking candidate who went deep only on the algorithm did not advance.
+- **Flexibility:** Following the interviewer's preferred path, such as real-time queries over a precomputed cache.
+
+After the diagram, always write the schema, the cache keys and one failure scenario.
+
+> **Note:** Nods and note-taking do not mean you are passing. A matchmaking candidate was rejected the same afternoon. A senior candidate who stopped adding detail when the interviewer ended 20 minutes early was turned down for a "closer match." If time remains, offer the next layer yourself.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design like and dislike for catalog items, with correct toggles, a user's liked list, exact counts and handling for hot items.
+- Design matchmaking that groups players by region, skill and party size without starving high-skill players.
+- Design payments that run on a future date or are held until conditions are met, with idempotency and capture or release.
+- Show "two of your friends and 12 others played this" on a game page, write the query, and debug a user who loses the line.
+
+- [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system)
+- [Design Online Game Matching Service](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system)
 - [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system)
+- [Design Game Dashboard Friend Activity and Counts](https://trueinterview.io/questions/friend-played-game-near-realtime)
 
-### Low-Level Design
+## Project deep dive
 
-A smaller but real slice: a trie with insert and search, a limiter class that must be re-keyed by entity, cursor operations over a mutable structure. These grade as API and state design, not algorithms — one candidate spent ten minutes discussing trie structure and never finished the implementation, which is the standard failure. Name the interface, the invariants, and the cleanup policy for stale entries, then write it fast.
+A senior engineer, sometimes with a second interviewer, spends about an hour on one project you choose. It may be a presentation, with slides allowed, or a straight Q&A. Questions cover the architecture, the database choice, consistency and failure handling, scaling bottlenecks, monitoring, and what you would rebuild. Interviewers interrupt often, and sessions have run over time.
 
-- [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2)
-- [Cursor-Based Pagination Over Sorted Logs](https://trueinterview.io/questions/cursor-based-pagination-over-sorted-logs)
-- [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system)
+Interviewers evaluate:
 
-### Domain Deep Dive
+- **Individual decisions:** What you chose and rejected, separate from the team's work.
+- **Measured impact:** Numbers for latency, throughput or adoption. A rejected candidate believed vague impact hurt the round.
+- **Failure handling:** How the system degraded and how you found the root cause.
+- **Retrospective honesty:** One specific change you would make now.
 
-Problems arrive wrapped in platform vocabulary — experiences, creators, game pages, in-platform currency — and that context carries weight. A screen framed as tracking the highest-earning experience is a heap-and-hashmap problem whose follow-ups are about streaming updates and negative deltas from a real economy. Design rounds reward knowing what shapes this traffic: one game going viral creates the hot key, friend graphs create the fan-out, creator payouts create the idempotency requirement.
+Prepare a 10- to 15-minute narrative covering the problem, your role, your decisions, the outcome and what you learned, then practice answering three layers of "why."
 
-- [Near-Real-Time Friend-Played-Game Counter](https://trueinterview.io/questions/friend-played-game-near-realtime)
-- [Design Roblox Wallet](https://trueinterview.io/questions/design-roblox-wallet)
-- [Design Roblox Release Deployment Workflow](https://trueinterview.io/questions/design-roblox-release-deployment-workflow)
+### Sample questions for the project deep dive
 
-## What They Don't Test
+Here are some questions reported by recent candidates:
 
-- **Exotic algorithms.** No reported round needed advanced dynamic programming or heavy math; heaps, hash maps, deques, stacks and topological sort with unusual twists are the whole surface, so breadth across ordinary graph variants beats rare techniques.
-- **Optimality under time pressure.** Hard problems have shipped with relaxed constraints where a narrated brute force passed. Auditable reasoning is what is graded instead.
-- **Memorized architecture diagrams.** Textbook layered designs without a schema, key format or failure path were failed as shallow; concrete artifacts beat canonical templates.
-- **Polished decks for the project deep dive.** It is an interrogation of one project — failure cases, what you would change, measured impact — and prepared narration without numbers is the common miss.
-- **Frontend or engine specialization.** Reported loops stayed on backend services, pipelines and platform features; specialization mismatch is screened by the hiring manager, not probed technically.
+- Why did you choose that database, and how did you keep data consistent when a component failed?
+- What were the scaling bottlenecks, and what would you change if you rebuilt it today?
 
-## The Real Filter
+## Hiring manager and leadership interviews
 
-The primary rejection path is unrequested depth in system design. Interviewers often stay high-level and let you set the resolution of your own answer — then the feedback says the design lacked depth. Candidates misjudge this because the room feels collaborative and silence reads as satisfaction. Drive the descent yourself: after the boxes, write the table schema, the cache keys, the shard function, the hot-key path and one concrete failure scenario, and state which trade-off you are taking and why.
+The hiring manager round, 45 to 60 minutes, covers conflict, deadlines, ambiguity, trade-offs and why you want to join Roblox. What sets it apart is scale. Managers ask about daily users, data volume, requests per second, and incidents you handled as a system grew from thousands to millions of requests. Recruiters sometimes share the questions in advance. One senior behavioral round ran more than 15 scripted questions in 45 minutes.
 
-The second pattern is the initiative test in the leadership rounds. Directors and executives grade whether you personally identified problems and drove decisions, not whether the projects were impressive; a rejection at this stage explicitly cited narratives showing competent execution of assigned work. Every story needs a decision made against resistance and an outcome you owned.
+Senior loops add a director, VP or senior-director round. It may focus on technical vision, prioritization and growing a team, or it may be a relaxed fit conversation. At senior levels it also confirms the offer level.
 
-The third is process attrition unrelated to performance. A committee decides after the loop, so strong per-round signals do not carry: reports include same-afternoon rejections after rounds that felt good, canceled hiring-manager sessions, and unanswered follow-ups. Keep other loops alive and ask for an explicit decision date.
+Interviewers evaluate:
 
-## Data Source
+- **Hands-on scale:** High-traffic work you did yourself, with numbers and an incident you owned.
+- **Initiative:** Problems you found and decisions you drove. One rejection at the executive stage cited stories about carrying out assigned work.
+- **Reasoning:** Why you took each step, not just the order of events.
+- **Long-term thinking:** Maintainability trade-offs and how you would set a team's priorities.
 
-Based on 51 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Prepare six to eight short stories with numbers, at least three of which show a decision you pushed through against resistance.
 
-## FAQ
+### Sample questions for the hiring manager and leadership interviews
 
-**What is the job actually like for a Software Engineer here?**
+Here are some questions reported by recent candidates:
 
-Our reports cover the hiring loop rather than daily work, so treat this as context: teams own user-facing surfaces of a live platform with tens of millions of daily users, and shipped changes show up in real usage fast. The company runs a three-day in-office week at its San Mateo headquarters with a punctual meeting culture, and platform and infrastructure work is described as intense with occasional crunch. Compensation is not something our reports document.
+- Describe a system you ran as traffic grew by orders of magnitude, and the incidents along the way.
+- Tell me about disagreeing with a teammate on architecture under a tight deadline.
+- Why Roblox, and why did you leave each previous role?
 
-**What is the engineering culture like?**
+- [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/questions/behavioral-hm-traffic-and-scope)
+- [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers)
+- [Demonstrate fit with quantified stories and motivations](https://trueinterview.io/questions/demonstrate-fit-with-quantified-stories-and-motivations)
 
-Founder-led and craft-oriented, and the loop mirrors it: interviewers ask for mechanisms rather than frameworks and care how systems behave when a single experience goes viral. The stated values — respect the community, take responsibility, take the long view, get stuff done — surface as behavioral prompts about ownership and long-horizon decisions, and the hiring manager consistently probes the traffic scale you have personally operated at.
+## How Roblox levels and evaluates Software Engineer candidates
 
-**How hard is it to get in?**
+The target level is set before the loop. IC1 and IC2 loops are mostly coding; from IC3 (Senior) upward, design and the deep dive carry the decision, and a director round confirms senior levels. Feedback is reviewed together after the loop, so one warm round predicts little, and rejection notes are generic. Decisions come within hours to a week, but processes also stall: one candidate passed every test in a coding round, then had the hiring manager round canceled. One candidate accepted an offer a level below target; another offered to down-level after a weak round and was still rejected.
 
-Hard, and not primarily for algorithmic reasons. Rejections cluster in the design and leadership rounds rather than in coding, and several candidates who felt they performed well everywhere were still declined after committee review. Timelines vary: typical loops run several weeks, and one offer took about three months from first contact.
+> **Tip:** Ask for a decision date after every stage and keep other processes moving. Senior offers have arrived the day after the onsite.
 
-**Which round is hardest?**
+## How to prepare for the Roblox Software Engineer interview
 
-System design by a clear margin. A payment-system design was described as the hardest round of an otherwise successful loop because the interviewer kept pushing on consistency, durability and reconciliation. The social-proof round is the sharpest version: high-level requirements for ten minutes, then a demand for an actual query, sharding strategy, latency budget and a debugging walkthrough.
+1. **Master every form of the rate limiter:** Deque and sorted-set windows, token bucket, per-user and per-experience keys, aggregate caps and eviction of idle keys.
+2. **Drill call-stack log parsing:** Most frequent path, top K with tie-breaks, and per-thread results, written as runnable code.
+3. **Practice topological sort with twists:** Undeclared nodes, cycle reporting and smallest-ID-first ordering with a min-heap.
+4. **Go deep in design without being asked:** Write the schema, cache keys, shard keys, hot-key path and one failure, and compare two technology options.
+5. **Rehearse the Roblox design set:** Likes, matchmaking, delayed payments, social proof with SQL, and friend activity.
+6. **Bring scale numbers:** Daily users, requests per second, data volume and one incident for each major system.
+7. **Build initiative stories:** For senior loops, every story needs a problem you found and a decision you drove.
+8. **Rehearse the assessment if you are early career:** Replay the practice games and solve two grid or interval problems in 50 minutes.
+
+## About the Roblox Software Engineer role
+
+Roblox engineers build the services behind a platform where creators publish experiences and tens of millions of daily users spend an in-platform currency. Small teams own services end to end, and their problems shape the interview: idempotent payments, hot keys from viral experiences and friend-graph fan-out. Employees work in the San Mateo office three days a week. Engineers are leveled on an IC scale, where IC1 is entry level and IC3 is Senior Software Engineer.
+
+Roblox hires Software Engineers across the platform. Teams include:
+
+- **Economy and creator business:** Virtual currency, transactions and creator payouts that must be accurate to the cent.
+- **Ads:** The ads manager and a three-sided marketplace of advertisers, brands and publishers.
+- **Infrastructure:** Deployment of thousands of microservices across on-premises data centers and the cloud.
+- **Data infrastructure:** Event pipelines and aggregation for products and analytics.
+- **Safety:** Account authentication, fraud detection and moderation.
+- **Engine:** The runtime creators build on, with C++ and performance work.
+
+### Software Engineer experience and education requirements
+
+Early-career postings ask for a degree in computer science or a related field, or equivalent experience, and proficiency in at least one language such as C++, C#, Java, Go, Python, Lua or Node.js. New graduates are matched to teams in areas such as discovery, the economy, the engine and infrastructure. Experienced hires are recruited for a specific team, and domain fit with that team weighs heavily. Any mainstream language is accepted in interviews.
+
+## FAQs about the Roblox Software Engineer interview
+
+### How long does the Roblox Software Engineer interview process take?
+
+Usually three to six weeks, although one accepted offer took about three months. Rejections have arrived within hours of a round.
+
+### What is the hardest round of the Roblox Software Engineer interview?
+
+System design. Several candidates who felt the round went well were rejected for insufficient depth. A candidate who received an offer called the payment-system round the hardest because the interviewer kept pushing on consistency and reconciliation.
+
+### Does Roblox ask dynamic programming?
+
+Rarely. Most problems use hash maps, heaps, stacks, deques, intervals and graph traversal. However, one new-grad loop included a hard assignment-counting problem even though candidates had been told not to expect dynamic programming. The limits were small enough that backtracking worked.
+
+### How much does a Roblox Software Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **IC1:** ~$220K
+- **IC2:** ~$310K
+- **IC3 (Senior):** ~$390K
+- **IC4:** ~$490K
+- **IC5:** ~$700K
+
+Packages are base salary plus a large stock grant. There is no annual cash bonus, sign-on bonuses are uncommon, and the size of the grant reportedly depends on interview performance.
 
 ---
 

@@ -59,19 +59,19 @@ Which stage each question came from, for the **186 of 186** questions at Microso
 
 ## What they ask about
 
-Of the **121 questions at Microsoft that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **117 questions at Microsoft that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 21 | 17% | ████████████ | Aug 16, 2026 |
+| `graphs` | 21 | 18% | ████████████ | Aug 16, 2026 |
 | `strings` | 20 | 17% | ███████████ | Sep 02, 2026 |
-| `hashing` | 19 | 16% | ███████████ | Sep 10, 2026 |
-| `arrays` | 17 | 14% | ██████████ | Sep 09, 2026 |
+| `hashing` | 18 | 15% | ██████████ | Sep 10, 2026 |
+| `arrays` | 17 | 15% | ██████████ | Sep 09, 2026 |
 | `trees` | 12 | 10% | ███████ | Aug 16, 2026 |
-| `binary-search` | 9 | 7% | █████ | Mar 20, 2026 |
-| `greedy` | 9 | 7% | █████ | Aug 20, 2026 |
-| `two-pointers` | 9 | 7% | █████ | Sep 10, 2026 |
+| `binary-search` | 9 | 8% | █████ | Mar 20, 2026 |
+| `two-pointers` | 9 | 8% | █████ | Sep 10, 2026 |
 | `dynamic-programming` | 8 | 7% | █████ | Sep 09, 2026 |
+| `greedy` | 8 | 7% | █████ | Aug 20, 2026 |
 | `heap` | 8 | 7% | █████ | Jul 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>

@@ -16,21 +16,31 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 
 ## How Microsoft interviews
 
-This is the deep dive behind the company page: what each Microsoft stage actually contains, how the rounds are graded, and where candidates lose ground. It draws on 109 real Microsoft questions and 64 candidate interview reports, so the patterns below reflect what interviewers are asking now.
+Each Microsoft hiring team runs its own loop, from four phone rounds with no onsite to eight rounds at principal level. A few things hold everywhere. Behavioral questions open most technical hours. Coding problems come in several parts, and a part you only talked through counts as unfinished. A hiring manager or senior interviewer closes the loop and can reject a candidate whose technical feedback was positive. Since 2025, some teams have added rounds that require an AI assistant, rounds that ban it, and reviews of AI-generated code.
 
-### Interview Process
+This guide breaks down each stage of the Microsoft interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 64 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Microsoft interview process
 
 <!-- guide-diagram -->
 ![Microsoft interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/microsoft/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Not every pipeline uses one, but when it appears it is a timed, auto-graded set of two problems, with one reported sitting at 90 minutes. Recent problems turn on a single insight rather than raw difficulty: a permutation prefix check that reduces to tracking the span of positions of 1 through k, a next-smaller-price pass with a monotonic stack, a bitwise product maximization, and a shortest path where fuel price varies by city and the state has to carry fuel. A first failure is not always final: one candidate failed the initial assessment, was offered a second attempt, and was moving to interviews about a week later. Another candidate who leaned on an AI assistant during a proctored sitting believed it was obvious and expected the attempt to be void.
+The common pattern is a recruiter call, sometimes an online assessment, one to three phone screens, and three to five rounds of 45–60 minutes, usually on one day. Some teams use only phone rounds. Early-career loops are mostly coding plus a low-level design. System design starts at mid-level, and senior loops add a second design round and an hour on ownership with the hiring manager.
 
-**Phone screens.** Screens run 30 to 60 minutes and rarely test one thing. A recurring shape is a long resume interrogation followed by a short coding window: one hour-long screen spent 30 minutes on every resume line and left about 25 minutes for a multi-threaded keyed task executor; another spent roughly 30 minutes on a project before two coding problems. A 30-to-35-minute screen fit a full cycle-detection problem and a web-crawler design discussion. Some teams run two to four phone rounds that replace the onsite entirely, and one offer-winning loop had a second screen with no new code at all, only debugging habits, error handling, and refactoring during code review.
+Here's what the interview process can look like:
 
-**The loop.** Typically three to five rounds of 45 to 60 minutes, often on a single day; reports range up to eight for a principal-level loop. Rounds are blended: 10 to 15 minutes of behavioral questions open most technical sessions, a coding problem escalates into distributed design, or a design session ends in a code review. Coding problems are commonly multi-part, and interviewers treat unreached parts as unfinished work: a DNA-fragment problem that grew across three stages cost a candidate the offer when the last stage was only discussed, and another interviewer had five follow-ups prepared that the candidate never reached.
+- **Recruiter screen:** A short call on level, team and location that sometimes decides which loop you get.
+- **Online assessment (some pipelines):** Two auto-graded problems in 75–90 minutes, or a PyTorch build task on some AI teams.
+- **Technical phone screens (one to three):** 30–60 minutes, usually a resume block followed by one or two coding problems.
+- **Coding interviews:** Two or three rounds, each with about 15 minutes of behavioral questions before a multi-part problem.
+- **Design interviews:** Low-level design of a working component and, from mid-level up, system design.
+- **AI-assisted and code review rounds (some teams):** Coding with or without an assistant, or finding bugs in supplied code.
+- **Hiring manager interview:** A judgment and ownership conversation that can decide the outcome.
 
-**AI rounds are arriving unevenly.** Newer loops include a coding-with-AI round (debug a supplied project archive, add persistence to an in-memory store, explain the generated code), a coding-without-AI round in a browser editor, an AI fluency round on how you use assistants day to day, and review of AI-generated code for synchronization and validation bugs. Other candidates were told to expect an AI agent and then got ordinary algorithm problems where the assistant was optional. Confirm the format with your recruiter.
+> **Tip:** Plan each hour as 15 minutes of stories and 30 of code. Several rejections came from a final part that was never reached, not from wrong answers, so get a tested first part working in about 15 minutes.
 
 **[Read the full Microsoft interview process →](interview-process.md)**
 

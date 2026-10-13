@@ -6,86 +6,317 @@
 
 ---
 
-Stripe's loop rewards a different kind of preparation than most big-tech processes: the same practical exercises recur across candidates, and outcomes hinge on finishing incremental parts, not algorithmic flash. Going deeper than the outline on the company page, this guide draws on 46 real Stripe questions and 51 candidate interview reports to show what each stage contains, how it is graded, and where candidates lose offers.
+Stripe tests everyday engineering work, not puzzle solving. A typical onsite has one round where you fix bugs in an open-source codebase you have never seen, one where you call a real HTTP API against the clock, and coding prompts about fees, ledgers and reconciliation that arrive in three or four parts. Partial progress is graded hard: candidates were rejected after finishing three of four parts, and also after writing correct code while debugging an unexpected response in silence. Many 2026 loops also include an AI-assisted round that grades how you use the assistant rather than how fast you finish.
 
-## Interview Process
+This guide breaks down each stage of the Stripe interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 64 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Stripe interview process
 
 <!-- guide-diagram -->
 ![Stripe interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/stripe/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Many candidates, especially new-grad, intern, and cold applicants, meet an OA before any live round. It is usually a single multi-part problem in roughly a 70-minute window, with a few visible tests and many hidden ones. The same archetypes keep appearing: a load balancer routing connections to Jupyter servers in five incremental parts (least-loaded CONNECT with index tie-breaks, silent DISCONNECT, object stickiness, capacity rejection, SHUTDOWN with re-routing); merchant fraud scoring with rules evaluated over sliding time windows at the scale of a million transactions; a data-center command processor mixing validation, Haversine distances, and greedy capacity routing; and 30-minute slot generation from weekly working hours. Grading is dominated by hidden edge tests and exact output formatting; a failing case shows only your output, not the expected one, so log your inputs. Candidates have passed every visible test and still been cut, so resolve spec ambiguities rather than skipping them.
+The round types are the same across teams, but the order and count vary. New-grad, intern and cold applicants usually start with an online assessment, while referred and experienced candidates often go straight to a technical screen. The virtual onsite runs three to six sessions of 45–60 minutes, most often four or five, sometimes split across two days. The process typically takes one to two months, and one L2 offer took five months.
 
-**Technical phone screen.** A 45–60 minute session with an engineer, in a hosted sandbox or your own IDE with screen share, and scheduling slots are available almost around the clock on weekdays. Expect a long, domain-flavored specification with escalating parts: transaction fee calculation from CSV with integer cents and per-method rules, earliest-invoice matching, weighted record similarity escalating into union-find connected components, alert trigger and resolve logic over a sliding window, contact matching that grows wildcard support, and dataset joins with inner, left, and multi-match semantics. The interviewer keeps adding requirements as long as you keep finishing; some screens run camera-off or fold in a short design discussion, and results have arrived the same day.
+L1 and L2 loops are mostly coding, bug squash, integration and behavioral. L3 (senior) and staff loops add system design, and sometimes a project deep dive or a second manager conversation. Engineers are mostly full-stack, so frontend-leaning candidates get React work in the same round slots.
 
-**Virtual onsite.** Reported loops run three to seven rounds, most commonly four or five: coding, bug squash, integration, system design for senior candidates, and a hiring-manager or behavioral conversation, sometimes plus a project deep-dive or a second manager chat.
+Here's what the interview process can look like:
 
-- *Coding* stays incremental and practical: rendering text from bitmap fonts, an email scheduler that must print messages in strict chronological order, path-string compression with truncation rules, and account-balance systems extended into legality checks and cross-account reconciliation. Some rounds start with downloading a repository and fixing a setup issue; one candidate was left with about 30 minutes to implement, and skipped tests were noted in feedback.
-- *Bug squash* drops you into an unfamiliar repository with failing tests. Python tracks have used the Mako template engine, the Colander validation library, and requests-based HTTP flows; Java tracks have used SnakeYAML and Moshi. Bugs come layered, typically three at once: unsafe string operations on empty errors, a missing function call that silently drops output, comment-only control lines parsed as real statements, or a YAML parser coercing "yes" and "no" into booleans. Grading centers on reproducing the failure, reading neighboring tests to infer intended behavior, and explaining why a minimal fix is safe; the Mako exercise sometimes runs without workable debugger support, so practice tracing by hand.
-- *Integration* is the round candidates most often underestimate. Recurring exercises: a multi-part bike-map service that fetches and stores binary images without corrupting them, invoice reconciliation against an API with authorization headers, a request-replay task where a dynamic ID from the first response must be substituted into every later request, and webhook ingestion with idempotency keys. Speed matters, and so does communication: one candidate shipped working code but was flagged for wrestling silently with an unexpected response format instead of asking.
-- *System design*, typically for senior loops, is grounded in money and infrastructure: a ledger with record-transaction and balance-query APIs where integer versus float representation is challenged in detail, feature-flag rollout, a distributed metric counter, high-throughput time-sortable ID generation, and a dispatch system matching the nearest responder under bursty load via a geospatial index. Every technology choice must be justified from a stated constraint; thinking in silence has sunk otherwise strong candidates here.
-- An *AI-assisted round* has appeared in recent loops, usually a rule parser evaluating boolean conditions over attributes. Some interviewers explicitly allow assistants and grade prompting, review, and edge-case testing; others expect manual reasoning even while discussing AI. The format has been switched shortly before the interview, so clarify the policy up front.
+- **Recruiter call:** A short non-technical call about the role, level, location and the hybrid work policy.
+- **Online assessment (early career and many cold applicants):** A timed multi-part simulation scored by hidden tests.
+- **Technical phone screen:** 45–60 minutes on one practical problem that grows in parts.
+- **Coding interview:** A multi-part implementation built on a domain model such as balances, bitmap fonts or schedulers.
+- **Bug squash interview:** Find and fix about three bugs in an unfamiliar open-source repository with failing tests.
+- **Integration interview:** Extend a small codebase that calls HTTP APIs, completing ordered parts as fast as possible.
+- **AI-assisted coding interview:** Build a rule parser or similar feature with an assistant, graded on planning, review and tests.
+- **System design interview (L3 and above):** A ledger, feature-flag or dispatch design grounded in Stripe's domain.
+- **Behavioral and hiring manager interview:** Project depth, motivation and AI usage, usually followed by reference checks.
 
-**Hiring manager, behavioral, and references.** Behavioral interviews probe stories several levels deep in structured STAR style, and questions overlap heavily when there are multiple manager conversations, so keep your accounts consistent. Motivation for Stripe and how you use AI in your daily workflow both recur. After the onsite, senior candidates have faced an additional manager call plus reference checks: one process required five references, three colleagues and two managers or directors, with two 30-minute calls, and weak reference signal was cited in a rejection. Timelines swing widely: one L2 offer ran about five months from October to February, while others moved from screen to onsite within weeks; onsite rejections typically land within about two weeks, occasionally personalized but rarely detailed.
+> **Tip:** Before each round, ask which environment, debugger and AI policy it uses and how many parts it has. These change at short notice, and candidates lost more time to setup surprises than to hard problems.
 
-## What Candidates Report
+## Online assessment
 
-- Reading is the first test. Specifications run long, and several candidates lost decisive minutes re-reading rules about duplicates, ordering, or conditional behavior. A first pass that extracts entities, operations, and output format pays for itself.
-- Unfinished parts are the most cited reason for rejection: wildcard matching left incomplete, a third bike-map feature only described verbally, tests never written. A tested, extensible core beats a polished fragment of part one.
-- Environment overhead is real. Repository downloads, broken fixtures, and even an offline documentation site have eaten interview time; candidates who ran a minimal check early and flagged blockers fared better.
-- Interviewers grade communication as much as code. Silent debugging, unstated assumptions, and failing to ask about an unclear API contract drew negative feedback even when the final code worked.
-- The process varies more than the official outline suggests: camera-off screens, problem packets delivered as PDFs, rounds reformatted at short notice, and unannounced recruiter calls all appear in reports.
-- A strong finish does not guarantee an offer. Several rejections came down to close comparisons among finalists or reference-check signal, with polite but sparse explanations.
+The assessment arrives as a link shortly after applying: usually one problem in several parts, with a 60–70 minute window, a few visible tests and many hidden ones. When a hidden test fails you see only your own output, not the expected output or the input, so logging arguments is the only way to debug. An intern who left parts unfinished still advanced after focusing on clean naming and edge cases.
 
-## Coding Questions
+The problems rotate in families. A Jupyter load balancer runs five parts: least-loaded CONNECT with lowest-index ties, silent DISCONNECT, object stickiness, capacity rejection, and SHUTDOWN with re-routing. A datacenter router, the most common prompt in mid-2026, validates coordinates, computes Haversine distances rounded to integers, and routes to the nearest healthy node with capacity, breaking ties alphabetically. Others include a deployment-window scheduler over the 10,080 minutes of a week, merchant fraud scoring over a million transactions, and AI-token billing.
 
-Stripe coding rounds simulate small payment and infrastructure systems with escalating requirements. Practice stateful, multi-part implementations where integer money, timestamp semantics, and exact output format are graded as strictly as the algorithm.
+Interviewers evaluate:
 
-- [Account Balance Manager](https://trueinterview.io/questions/account-balance-manager)
-- [Payment Invoice Reconciliation](../../questions/algorithm/payment-invoice-reconciliation/README.md)
-- [Dataset Join](https://trueinterview.io/questions/dataset-join)
-- [Jupyter / WebSocket Load Balancer (OA)](https://trueinterview.io/questions/jupyter-load-balancer-oa)
+- **Spec fidelity:** Exact output strings, ordering and tie-breaks; most hidden failures are format details.
+- **Validation:** Coordinate ranges, duplicate names and non-positive capacity, each returning the specified error token.
+- **Boundary arithmetic:** Half-open intervals, week wrap-around and integer rounding.
+
+Practice two of these simulations against a 70-minute timer, writing your own boundary tests before submitting.
+
+> **Note:** On the deployment-window problem, taking a modulo directly on timezone-shifted intervals splits windows that are actually continuous. A candidate who lost one of six part-two tests recommended working on a timeline three weeks wide and folding it back at the end.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Route connections to the least-loaded server, keep connections sharing an object on one server, reject when full, and re-route everything when a server shuts down.
+- Register datacenters, toggle their health, and route each request to the nearest healthy one with spare capacity, listing every healthy candidate in order.
+- Return the first k deployment windows of a minimum length after a lead time, from allowed and freeze rules given in local time zones.
+
+- [Jupyter / WebSocket Load Balancer](https://trueinterview.io/questions/jupyter-load-balancer-oa)
+- [Data Center Registration and Health Management](https://trueinterview.io/questions/76f1e6e8-026a-5193-a5b0-643bba04e47e)
+- [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa)
+
+## Technical phone screen
+
+The screen is 45–60 minutes with one engineer, in a hosted sandbox or your own IDE over screen share; weekday slots are offered at almost any hour. The prompt is a long business scenario where part 1 is easy and each later part changes a rule. Some open part 2 in an empty editor or reveal the output format only through tests.
+
+Recurring screens: a fee calculator with per-method percentage-plus-fixed rates, a capped bank-transfer fee and zero fees on refunds, in integer cents; a dataset join (inner, left, multiple matches, then a skip-unmatched flag); an incident monitor that triggers and resolves alerts per (merchant, status code) in a 30-second window; weighted record linkage that grows into union-find; and task/subtask CSV formatting ending in unlimited nesting. Machine learning screens go straight to modeling questions.
+
+Interviewers evaluate:
+
+- **Throughput:** Parts completed. One candidate who finished three of four and described the fourth was rejected.
+- **Clarifying questions:** Duplicates, ordering and window semantics settled before coding.
+- **Tests:** Unit tests written unprompted, including zero, negative and unknown-type inputs.
+- **Code shape:** Parsing separated from rules so each new part is a small change.
+
+Read the sample input and output first, then skim every part before writing the parser.
+
+> **Tip:** Scroll to the end of the prompt before starting. One candidate missed a third question further down the page, and another never saw part 4 after a substitute interviewer started five minutes late.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Compute per-transaction fees from a CSV with method-specific rates, a capped bank-transfer fee and free refunds, then emit an output CSV.
+- Mark business records verified or not using required fields, a 5–32 character length rule, forbidden description terms, and a check that half the name's words appear in its nickname.
+
+- [Fee Calculation for Transactions](https://trueinterview.io/questions/012ccdf5-7691-4ff9-9a61-9b5cf3c60ead)
+- [Implement Dataset Join Operation](https://trueinterview.io/questions/dataset-join)
 - [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve)
+- [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv)
 
-## System Design Questions
+## Coding interview
 
-Design rounds stay close to Stripe's domain: correctness of money movement, idempotent event delivery, and safe rollout. Lead with invariants and data models, and be ready to defend numeric representation and delivery semantics under sustained follow-ups.
+The onsite coding round is a longer version of the screen. Common prompts: an account-balance processor that adds a legality check and then cross-account borrowing by a platform; text rendering from bitmap fonts; an email scheduler that prints messages in strict date order through plan changes; and compressing path strings by truncating minor segments to m characters. Rarer ones include an LRU account scheduler and unique ID generation.
 
-- [Ledger System](https://trueinterview.io/questions/ledger-system)
-- [Payment Webhook System](https://trueinterview.io/questions/payment-webhook-system)
-- [Feature Flag SDK](https://trueinterview.io/questions/feature-flag-sdk)
+Formats vary, including a craft-style round where you clone a repository, set it up and resolve an open issue, with setup timed separately. One candidate had about 30 minutes left to implement after setup, and the skipped tests came up in feedback.
 
-## Low-Level Design Questions
+Interviewers evaluate:
 
-Low-level design at Stripe becomes an implementation conversation: a class with a few methods that must behave correctly under mutation, repeated calls, and time-based state. Explain locking assumptions, expiration rules, and how you would test the object.
+- **Incremental design:** Code that absorbs part 3 without a rewrite.
+- **Reasoning aloud:** Why each data structure and edge case, before writing it.
+- **Testing:** Future start dates, ended subscriptions and leap years, checked unprompted.
+- **Time split:** Leaving room for the later parts, where most of the signal is.
 
-- [Account Scheduler with LRU](https://trueinterview.io/questions/account-scheduler-lru)
-- [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md)
-- [RBAC Role Resolver](https://trueinterview.io/questions/rbac-role-resolver)
+Practice building a four-part feature from a blank file in 45 minutes, running tests after each part.
 
-## AI-Assisted Coding Questions
+### Sample questions for the coding interview
 
-Repo-based rounds test how you navigate unfamiliar code, with or without an assistant. Whatever tools are allowed, the grading centers on reproducing failures, constraining and reviewing generated code, and explaining why each change is safe.
+Here are some questions reported by recent candidates:
+
+- Process timestamped transfers, reject illegal ones, then let a platform account cover shortfalls and report what it is owed.
+- Render a string from a bitmap font, then decode compressed font data through two decoders applied in a fixed order.
+
+- [Account Balance Processor](https://trueinterview.io/questions/account-balance-manager)
+- [Bit Font Renderer](https://trueinterview.io/questions/bit-font-renderer)
+- [String Path Compression](https://trueinterview.io/questions/string-path-compression)
+
+## Bug squash interview
+
+You get a real open-source repository with failing tests, usually three bugs, and about 45 minutes. Python candidates most often get the Mako template engine, others the Colander validation library or a requests-based flow; Java candidates get SnakeYAML or Moshi. Reported Mako bugs: a missing folder-versus-file check, a missing visit call that silently drops template arguments, comment-only control lines treated as statements, and a closing tag missing inside a nested conditional. SnakeYAML turned "yes" and "no" into booleans.
+
+Candidates commonly fixed two of three. Mako has run without a working debugger when the local Python version did not match. Interviewers care more about why the bug happens and which alternative fixes you weighed than about a fast patch.
+
+Interviewers evaluate:
+
+- **Reproduction first:** Run the failing tests and narrow down before reading the whole codebase.
+- **Using the tests:** Neighboring passing tests often use similar inputs and reveal intended behavior.
+- **Minimal fixes:** A small, explainable change, and why a broader one is risky in payments code.
+- **Running commentary:** Hypotheses spoken aloud; silence counted against correct fixes.
+
+Do timed reps on a template engine and a YAML or JSON parser, once with a debugger and once with prints only.
+
+> **Note:** Match your local language version to the repository before the interview. Candidates who could not attach a debugger lost the time they needed for the third bug.
+
+### Sample questions for the bug squash interview
+
+Here are some questions reported by recent candidates:
+
+- Fix a template engine where a folder path is treated as a file, an argument visitor is never called, and comment-only control lines run as code.
+- Fix a validation library that crashes on null error messages and mishandles nested schemas and sequence defaults.
+
+- [Mako Template Engine](../../questions/ai-coding/debug-mako-template-engine/README.md)
+- [Colander Validation Debug (BugSquash)](https://trueinterview.io/questions/colander-validation-debug)
+- [SnakeYAML Debug (Java)](https://trueinterview.io/questions/snakeyaml-debug)
+- [CSV Parsing Drops Quotes](https://trueinterview.io/questions/3edbdc05-8e28-41b5-b174-305e4e4e96bc)
+
+## Integration interview
+
+This is the round candidates most underestimate. You extend a small project that calls HTTP services, in strictly ordered parts. Bikemap is the most common: fetch data with an HTTP library, store binary images without corrupting them, then add three or four features. Reconciliation is next: authorized requests with JSON bodies, epoch-second filtering, invoices matched to payments. Others replay five requests, substituting the ID from the first response everywhere.
+
+Speed is graded directly. Candidates who finished two of four parts said the unfinished half counted against them, and one who misread the requirements completed nothing.
+
+Interviewers evaluate:
+
+- **Coverage:** Most parts finished; the first alone is not enough.
+- **API fluency:** Headers, auth, JSON bodies and binary responses written without lookups.
+- **Defensive handling:** Missing fields and unexpected payloads handled cleanly.
+- **Asking at the right time:** Raising an unclear API contract instead of struggling in silence.
+
+Build one small client twice, against a clean JSON API and against one with binary payloads and missing fields.
+
+> **Note:** One candidate shipped bug-free, well-structured code and still got negative feedback for working through an unexpected response format for several minutes without saying anything.
+
+### Sample questions for the integration interview
+
+Here are some questions reported by recent candidates:
+
+- Fetch bike-share data and map images from an HTTP service, save the images intact, then add station queries in later parts.
+- Replay a recorded sequence of five requests, replacing a hardcoded ID with the one returned by the first response.
 
 - [Bike Map](https://trueinterview.io/questions/bike-map)
-- [Debug: Mako Template Engine](../../questions/ai-coding/debug-mako-template-engine/README.md)
-- [Repo Debugging: Fix Failing Tests in a Failsafe Project](https://trueinterview.io/questions/46333f06-4228-4ad2-9088-75edef798537)
+- [Payment Reconciliation](https://trueinterview.io/questions/payment-reconciliation-integration)
+- [Replay request handling](https://trueinterview.io/questions/c518bfcb-f16d-4898-8fb9-0f9b492fa7d9)
 
-## Behavioral Questions
+## AI-assisted coding interview
 
-Manager conversations return to the same stories from multiple angles, pressing for your individual decisions, conflicts, and measurable outcomes. Prepare consistent, detailed accounts, including a concrete answer on how AI fits into your workflow.
+Many 2026 loops include this round, sometimes at the phone-screen stage. The usual prompt is a rule parser over attributes, extended part by part, often with test cases given up front.
 
-- Hiring Manager Behavioral
+The bar is still being calibrated. A staff candidate noted that feeding the README to the assistant yields a working answer but shows nothing about you, while dictating the solution defeats the round. A frontend candidate who one-shot a 90-minute task was told they could not program; the expected flow was plan, break down, generate, review, then check by hand. Other interviewers wanted manual reasoning, and one 2026 round banned AI outright.
 
-## How to Prepare
+Interviewers evaluate:
 
-- Drill multi-part state simulations under a timer: connection routing, schedulers, balances, reconciliation. Build a tested spine for part one fast, then add parts without breaking earlier behavior.
-- Make money and time handling automatic: integer cents everywhere, explicit rounding rules, epoch-second arithmetic, and ISO date strings compared lexically. These details recur in nearly every coding and OA report.
-- Do debugging reps in two stacks: a Python templating or validation codebase and a Java YAML or JSON parser, once with a full debugger and once with only print statements and test reading, because both conditions occur.
-- Build one small integration twice: against a clean JSON API, then against a hostile one with missing fields, binary payloads, auth headers, and duplicate deliveries requiring idempotency keys.
-- For design rounds, rehearse a ledger, a webhook pipeline, and a flag rollout end to end, defending integer versus float storage and at-least-once versus exactly-once delivery from first principles.
-- Line up five strong references early, including managers who can speak to specifics; reference checks are substantive and have decided outcomes.
-- Before each round, ask your recruiter about the platform, debugger availability, AI-tool policy, and expected number of parts; formats change late and candidates who adapted fastest fared best.
+- **Ownership:** Structure and decisions are yours; the assistant implements.
+- **Review:** Catching misread requirements and skipped edge cases in generated code.
+- **Craft:** Naming, small functions and tests you add yourself.
+- **Narration:** Thinking aloud while waiting for or reading output.
+
+Rehearse a plan, generate, review and test loop on a small parser, narrating each step.
+
+### Sample questions for the AI-assisted coding interview
+
+Here are some questions reported by recent candidates:
+
+- Decide accept or block from ordered rules such as "block if fraud flag", then add comparisons joined by AND and OR in the same processor.
+
+- [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03)
+- [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records)
+
+## System design interview
+
+Design appears mostly at L3 and above. A double-entry ledger needs record and balance APIs, integer-cent amounts with currency, idempotency keys and scale; one staff candidate prepared for external payment networks and got none. Other prompts: feature flags (rollout, targeting, evaluation latency), a distributed metric counter trading exactly-once against latency, an RBAC service with caching and audit, and a superhero dispatch system matching incidents to the nearest hero.
+
+The dispatch prompt had no API design; the candidate had to defend each database, messaging and scaling choice from a stated constraint. A senior candidate who worked through the geospatial index in silence named this round as the reason for rejection.
+
+Interviewers evaluate:
+
+- **Money correctness:** Integer amounts, currency, rounding and idempotent writes under retries.
+- **Justified choices:** Each technology tied to a requirement.
+- **Momentum:** Picking geohashes or a quadtree, stating limits, and moving on to failures.
+- **Operational detail:** Hot keys, duplicate events and processor failure.
+
+Rehearse a ledger, a flag service and a dispatcher end to end, defending your idempotency-key design in detail.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a ledger that records transfers and returns a merchant's balance, with idempotency keys and horizontal scale.
+- Design a dispatch service that assigns the nearest available responder to each incident under bursty load.
+
+- [Design a Scalable Idempotent Ledger Service](https://trueinterview.io/questions/design-a-scalable-idempotent-ledger-service)
+- [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2)
+- [Design a Superhero Dispatch System](https://trueinterview.io/questions/design-a-superhero-dispatch-system)
+
+## Behavioral and hiring manager interview
+
+Most loops have one behavioral hour with a manager; senior loops may add a project deep dive or a post-onsite manager call. Questions overlap heavily across conversations, so stories must match. Common topics: why Stripe, your proudest or hardest project, feedback that changed you, disagreements, mentoring, what your manager would say, and a five-to-ten-minute segment on how you use AI daily.
+
+Interviewers evaluate:
+
+- **Depth:** Your own decisions, rejected alternatives and measured results.
+- **Consistency:** The same facts told the same way to every manager.
+- **User focus:** Times you worked directly with customers or chose their outcome.
+- **Judgment about AI:** Where you trust tools and where you verify.
+
+Prepare six to eight stories with numbers, including one about a customer and one about AI.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Why Stripe, and what kind of work environment do you not want?
+- Walk through your most impactful project: how you assigned work, the trade-offs, and what you would change.
+
+- [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral-2)
+- [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project)
+
+## How Stripe makes hiring decisions
+
+Interviewers meet after the onsite to give a yes or no; a yes goes to reference checks and then a hiring committee. References are substantive: one senior candidate was asked for five, three peers and two managers or directors, and lukewarm reference signal was cited in a rejection. Decisions can turn on a comparison between finalists, and strong behavioral or AI-round ratings do not offset weak technical rounds. Most candidates hear back within two weeks; one staff rejection came in three business days.
+
+> **Tip:** Agree to reference checks only after you know the loop went well; a candidacy that stops later still uses up your referees' time.
+
+## How to prepare for the Stripe interview
+
+1. **Drill multi-part simulations:** Routers, schedulers, balances and reconciliation on a 45–70 minute timer, with a tested part 1 written fast.
+2. **Make money and time automatic:** Integer cents, explicit rounding, epoch seconds and half-open intervals should take no thought.
+3. **Read prompts strategically:** Examples first, then skim every part, then clarify duplicates, ordering and output format.
+4. **Squash bugs in two stacks:** A Python template or validation library and a Java YAML or JSON library, with and without a debugger.
+5. **Write HTTP clients from memory:** Auth headers, JSON bodies, binary downloads and ID substitution.
+6. **Rehearse the AI workflow:** Plan, delegate, review and test aloud, keeping decisions your own.
+7. **Prepare domain designs:** A ledger with idempotency keys, a flag service and a geospatial dispatcher, every choice justified.
+8. **Line up references early:** Managers and peers who can give specifics, matching the stories you tell.
+
+## About working at Stripe
+
+Stripe builds payments and financial infrastructure consumed through its APIs. Most engineers work full-stack on small product or infrastructure teams, under principles that put users first and prize meticulous craft and fast iteration. Much of the core codebase is Ruby, but interviews are language-agnostic, and Python and Java are the usual bug squash choices.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L1 | Shipping well-scoped features with guidance | Tasks within one team |
+| L2 | Owning projects end to end | One team's systems |
+| L3 (senior) | Leading complex projects and mentoring | A team and its neighbors |
+| L4 (staff) | Technical direction across teams | A product area |
+
+L1 to L3 are all posted as Software Engineer, so ask which level a role targets. Stripe hires engineers across its product lines. Teams include:
+
+- **Payments:** Card and local payment methods, checkout and the core API.
+- **Billing:** Subscriptions, invoicing and usage-based pricing.
+- **Connect:** Payments and payouts for platforms and marketplaces.
+- **Radar and risk:** Fraud detection and merchant risk models.
+- **Terminal:** In-person payments, including Android device software.
+
+### Experience and education requirements
+
+L1 hires are new grads or engineers with up to about two years of experience; L2 typically has several years, and L3 and staff roles expect a record of leading cross-team projects. Intern and new-grad candidates typically have a computer science or related background and fluency in one general-purpose language.
+
+## FAQs about the Stripe interview
+
+### How long does the Stripe interview process take?
+
+Typically one to two months, though one L2 offer took five. References and committee review add a week or more after the onsite.
+
+### What is the hardest round of the Stripe interview?
+
+Integration and bug squash, because both are graded on how much you finish in the time. At L3 and above, rejections cluster in system design.
+
+### Is there an online assessment?
+
+Usually for new grads, interns and cold applicants: a timed multi-part simulation scored by hidden tests that show only your own output.
+
+### Can I use AI during the interview?
+
+In the AI-assisted round, yes, and deliberately. Other rounds may allow or ban it, so confirm the policy for each session.
+
+### How much does a Stripe software engineer make?
+
+Approximate US total compensation:
+
+- **L1:** ~$210K
+- **L2:** ~$290K
+- **L3:** ~$450K
+- **L4 (staff):** ~$680K
+
+Packages combine base salary, a smaller bonus and an equity grant whose share grows with level until it exceeds base pay at staff.
 
 ---
 

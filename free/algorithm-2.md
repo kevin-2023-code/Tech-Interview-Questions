@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**288 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**285 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,6 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](https://trueinterview.io/questions/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner) | **Jane Street** | Hard | Nov 06, 2025 |
-| [Code Review: Thread Safety of a Python Compute-and-Cache Function](https://trueinterview.io/questions/code-review-thread-safety-of-a-python-compute-and-cache-function) | **Mercor** | Hard | May 01, 2026 |
-| [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) | **Mistral AI** | Hard | Apr 16, 2026 |
 | [Connect-N on an Infinite Board with Gravity](https://trueinterview.io/questions/connect-n-on-an-infinite-board-with-gravity) | **Jane Street** | Hard | Dec 26, 2025 |
 | [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | **Render** | Hard | Feb 26, 2026 |
 | [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | **Sig** | Hard | 🆕 Sep 17, 2026 |

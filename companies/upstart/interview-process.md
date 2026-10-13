@@ -6,63 +6,226 @@
 
 ---
 
-This deep-dive goes past the short outline on the company page: how the timed assessment is actually paced, why candidates run out of clock on problems they could solve, and what the later rounds ask of senior applicants. It draws on 16 real Upstart questions and 6 candidate interview reports, which concentrate on the recruiter call and the coding assessment that follows it.
+Upstart's early screens test reading speed as much as coding: several easy-to-medium problems with long, exact specifications, each on its own timer of roughly 12–17 minutes, plus a written explanation of your approach. The senior onsite adds an unusual project round in which you extend a full-stack app you bring with you.
 
-## Interview Process
+This guide breaks down each stage of the Upstart interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 5 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Upstart interview process
 
 <!-- guide-diagram -->
 ![Upstart interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/upstart/process.webp)
 <!-- guide-diagram -->
 
-### Recruiter screen
+Recent reports concentrate on the first half of the loop: a recruiter call, then a timed online assessment or a timed coding phone screen. Candidates who pass move to a virtual onsite. Senior loops are typically about four hours across five sessions, while mid-level loops are typically three technical interviews plus a hiring-manager meeting. The process commonly takes about three weeks end to end.
 
-The loop opens with a short recruiter call, typically around 30 minutes, covering background, motivation, and logistics. Candidates report that the recruiter spends part of this call previewing the online assessment: its format, how many problems to expect, and that each problem is individually timed. Treat this preview as real information rather than small talk, because the assessment is where most reported journeys are decided. Upstart's stack leans on Ruby on Rails, but candidates have been allowed to interview in other languages after the recruiter flagged the preference.
+The early screens look the same across levels; level shows up in the project and design rounds. Data science loops follow a similar shape with probability and statistics rounds.
 
-### Timed online assessment
+Here's what the interview process can look like:
 
-This is the stage our reports describe in the most detail, and it is the defining Upstart round. Candidates receive a proctored assessment of roughly an hour, with between two and five independent coding problems; four or five is the most common count reported. The platform enforces a strict per-question timer, reported at roughly 12 to 17 minutes for the shorter tasks and up to about 20 minutes for the two more involved ones, so you cannot bank time from an easy problem and spend it on a hard one.
+- **Recruiter screen:** A short call about background and motivation, plus a preview of the assessment format.
+- **Online assessment:** About an hour of four or five independent coding problems, each on its own timer, with a written explanation prompt.
+- **Technical phone screen:** One or two practical coding problems, or a run of timed string tasks, with long prompts.
+- **Project interview (onsite):** An hour adding requirements to a full-stack app you prepared in advance.
+- **System design and coding interviews (onsite):** An hour each, set at the target level.
+- **Hiring manager and values interviews (onsite):** Two 30-minute conversations about past work, ownership and fit.
 
-Problem difficulty is deliberately modest: the work is string manipulation, array cleanup, and small stateful simulations, not graph theory or dynamic programming. The catch is the prompts. Every report mentions unusually long problem statements; one candidate measured more than two minutes of reading per problem before writing a line, which on a 12-minute timer is a meaningful fraction of the budget. Recurring tasks include replacing periods with exclamation marks and extending every run of exclamation marks by one, decrypting a message through two layered substitution maps, restoring scrambled words using an anagram dictionary keyed on fixed first and last letters, formatting byte counts into B/KB/MB with two-decimal rules, simulating restaurant capacity and first-entry billing, computing the bounding box of points encoded as three strings, scaling a recipe to eight servings, reporting positional flags for a value in an array, calculating on-disk file size in allocation clusters, parsing a byte stream with a checksum, and deriving possible parent genotypes from ABO phenotypes. A phone-screen variant has paired a greedy west-to-east city-visiting problem with a CSV parser that must handle quoted fields and doubled quotes.
+> **Tip:** Reading is the bottleneck. One candidate measured more than two minutes per problem just to read the prompt, on a timer of 12 to 17 minutes. Before typing, write the input shape, the rules in order, and the exact output format.
 
-After one or more problems, the assessment asks for an explanation of your approach in writing, with a short response window of a couple of minutes; candidates report this is triggered especially when a solution only partially passes. Grading is test-case driven, and a failing hidden case with no time left to debug is the most common way a strong candidate exits here.
+## Recruiter screen
 
-### Hiring-manager conversation
+The recruiter call typically lasts about 30 minutes and covers background, motivation and logistics, plus a preview of the assessment: how many problems and that each has its own timer. Upstart leans on Ruby on Rails, but candidates who preferred another language were allowed to use it. Ask which team and level the loop targets and what framework the project round expects.
 
-Candidates who clear the assessment typically meet the hiring manager for a conversation that mixes a technical deep dive on past work with a lightweight system design discussion. Some candidates describe a separate behavioral screen with the manager before the onsite. Our reports end at the assessment stage, so the depth of this round comes from candidates describing the later loop rather than from detailed accounts.
+Interviewers evaluate:
 
-### Virtual onsite
+- **Motivation:** A clear reason for choosing an AI lending company over other fintech companies.
+- **Level signal:** The scope of your recent projects, which sets senior versus mid-level loops.
 
-The onsite for senior candidates is reported as roughly four hours across five sessions: a one-hour system design round, a one-hour project round, a one-hour coding challenge, a 30-minute hiring-manager interview, and a 30-minute values interview. The project round is distinctive: candidates are told in advance to arrive with a boilerplate full-stack web application in their preferred framework that can already render a page, handle a form submission, and read and write a database; new requirements are then layered on during the hour. Arriving with setup done is the difference between finishing a feature and spending the round on scaffolding. Mid-level loops are described as three technical interviews plus one more meeting with the hiring manager. Reference checks have been requested for senior candidates after the onsite. End to end, the process is commonly reported to take around three weeks.
+Treat the assessment preview as real information and plan your practice around it.
 
-## What Candidates Report
+### Sample questions for the recruiter screen
 
-- Reading is the bottleneck, not the algorithm. Every assessment report describes straightforward problems wrapped in long specifications, and the per-question timer means slow comprehension is penalized directly.
-- There is no time to recover from a wrong first submission. With roughly a quarter-hour per problem, candidates who hit a failing test case on the first run described debugging under real stress; those who dry-ran a small example mentally before submitting caught off-by-one and grouping errors earlier.
-- Edge cases decide the score. Consecutive punctuation groups, multiple valid anagrams, repeat guests who should not be charged twice, exact two-decimal formatting, and escaped quotes inside quoted fields are the details candidates cite as the difference between a pass and a partial.
-- Typing speed is a genuine advantage. One candidate noted that with 12 to 17 minutes per problem, every second spent hunting for keys is a second not spent on edge cases.
-- Expect to justify your logic in writing. The assessment's explanation prompt arrives with a tight window, so candidates who had already articulated their approach while coding handled it more comfortably than those caught off guard.
-- The assessment can feel disconnected from the job. Candidates observe that the problems say little about fintech or lending; the platform is filtering for precise implementation under time pressure, not domain knowledge.
+Here are some questions reported by recent candidates:
 
-## Coding Questions
+- Introduce yourself and walk through your recent work.
+- Why Upstart, and why this role?
 
-Upstart's coding bank is unusually uniform: short implementation tasks where the specification is exact, the edge cases are the whole test, and the time limit is tight. Practice these as strictly timed sprints, reading the full prompt once, writing down the rules, then coding the first correct version without detours.
+- [Professional Introduction for a Recruiter Screen](https://trueinterview.io/questions/professional-introduction-for-a-recruiter-screen)
+- [Why This Company and Role](https://trueinterview.io/questions/why-this-company-and-role)
+- [Discuss Compensation Expectations](https://trueinterview.io/questions/discuss-compensation-expectations)
+
+## Online assessment
+
+The assessment is proctored and lasts roughly an hour. Reports describe two to five independent problems, most often four or five, with a strict timer on each: about 12–17 minutes for short tasks and up to about 20 for the two longer ones. Unused time does not carry over. Difficulty is modest, covering string transforms, array cleanup and small simulations, but every prompt is long and exact.
+
+Recurring tasks include a punctuation transform, decoding through two substitution maps, anagrams that keep the first letter, a bounding box of points encoded as three strings, scaling a recipe to eight servings, order-preserving deduplication, and positional flags for a value in an array. A 2026 version added on-disk file size in allocation clusters, a byte-stream parser with a checksum, and ABO parent genotypes. After at least one problem, a prompt asks you to explain your approach within a couple of minutes, especially when a solution passes only some tests.
+
+Interviewers evaluate:
+
+- **Specification accuracy:** Following every rule, including grouped punctuation and exact formatting.
+- **Edge cases:** Multiple valid anagrams, repeat guests not charged twice, two-decimal output and 1024-based units.
+- **Explanation:** A clear written account of your logic when tests fail.
+
+Practice easy string and array tasks against a hard 12-minute timer, including the first full read.
+
+> **Note:** Grading is driven by hidden tests. The most common way strong candidates fail is a hidden-case failure with no time left on that problem's clock. Trace one small example by hand before every submission.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Replace every period with an exclamation mark, then add one more to each consecutive run of exclamation marks.
+- Decrypt a message that was encrypted with two parties' substitution maps in sequence.
+- Compute how much disk space a file occupies when storage is allocated in fixed-size clusters.
+- Given two parents' blood-type phenotypes, list every genotype pair consistent with ABO inheritance.
 
 - [Increase Exclamation Marks and Replace Periods](https://trueinterview.io/questions/f2aa7ead-a63b-5709-8feb-03c891c03e4d)
 - [Decrypt a Double-Substitution Cipher](https://trueinterview.io/questions/f7f2a358-a5bb-55e0-a442-4ba0ed8f1869)
-- [Interleave Three Equal-Length Strings](../../questions/algorithm/interleave-three-equal-length-strings/README.md)
 - [Format Bytes into Human-Readable String (B/KB/MB)](https://trueinterview.io/questions/51be1242-45a4-47fc-9f37-e1bcd9800d17)
-- [Buffet Restaurant Entry/Exit Billing with Capacity Constraints](https://trueinterview.io/questions/ad4d08a8-81ae-4e50-874c-42d39325d532)
+- [Compute File Size on Disk](https://trueinterview.io/questions/a211b99f-1398-5507-9083-717ef2216133)
+
+## Technical phone screen
+
+Some candidates get a phone screen instead of, or as well as, the assessment. One was a run of string problems under the same per-question timer: the punctuation transform, two-layer decryption, and rebuilding a scrambled sentence from an anagram dictionary. Another had two problems: a west-to-east city trip with lexicographic constraints, and a CSV parser with quoted fields.
+
+Interviewers evaluate:
+
+- **Clarifying questions:** Asking whether the start city is fixed and how names are compared.
+- **Algorithm choice:** Recognizing the city problem as a longest-path or dynamic programming problem rather than a greedy walk.
+- **Parser state:** Handling empty fields, fully quoted fields and consecutive escaped quotes.
+
+Write a quoted-field parser and an anagram-key lookup from memory under time pressure.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Find the maximum number of cities visited moving only west to east, where each next name is lexicographically larger.
+- Parse a CSV line in which quoted fields may contain commas and escaped quotes.
+- Restore a sentence whose words were scrambled except for their first and last letters, using an anagram dictionary.
+
+- [Maximum Cities Visited Traveling West to East with Lexicographic City Names](https://trueinterview.io/questions/fd4b3743-ae4a-56c3-8ddc-875d67c82fb9)
 - [Parse a Comma-Separated String with Quoted Fields](https://trueinterview.io/questions/1f5e8959-fd67-587b-bdd9-b271a10016ac)
+- [Decode an anagram sentence using vocabulary constraints](https://trueinterview.io/questions/decode-an-anagram-sentence-using-vocabulary-constraints)
 
-## How to Prepare
+## Project interview
 
-- Rehearse the assessment format, not just the problems: solve easy string and array tasks under a hard 12-minute timer, including a first full read of a long prompt, and stop when the clock stops.
-- Build a reading routine for long specifications: extract the input shape, the transformation rules in order, and the exact output format into three lines before touching the keyboard.
-- Drill the recurring families in this bank until they are reflex — punctuation transforms with grouped runs, two-layer substitution decoding, anagram reconstruction with pinned letters, CSV parsing with escaped quotes, and capacity simulations with first-entry billing.
-- Practice exact formatting details: two-decimal output, 1024-based unit thresholds, integer versus float division, and order-preserving deduplication, since hidden tests target them.
-- Trace one small example by hand before every submission; a wrong first run leaves almost no time to debug.
-- Prepare a two-minute written explanation of your approach as you code, so the assessment's explanation prompt does not cost you composure.
-- If you reach a senior onsite, have a full-stack boilerplate app ready that renders a page, handles a form, and talks to a database, and be ready for a one-hour system design round and a values conversation alongside the coding challenge.
+Candidates are told in advance to bring a boilerplate full-stack app in their preferred framework that can render a page, handle a form submission, and read and write a database. During the hour the interviewer adds requirements, typically CRUD features, sometimes followed by security questions such as CSRF and SQL injection. Rails, Sinatra and React setups are all reported.
+
+Interviewers evaluate:
+
+- **Readiness:** A running app and database at minute one, with no time spent on scaffolding.
+- **Feature delivery:** How many requirements you ship, working end to end.
+- **Code quality:** Validations, sensible models and tests, not just a demo that runs.
+- **Web fundamentals:** Form handling, persistence and basic security.
+
+Build the boilerplate app once, then practice adding a model, a form and a list view in under 20 minutes.
+
+> **Tip:** Boot the app and database right before the round. Candidates who arrive with setup done finish features, and those who scaffold during the hour often do not.
+
+## System design and coding interviews
+
+The senior onsite includes a one-hour system design round and a one-hour coding challenge. Mid-level loops are typically three technical interviews. Reports give few specific design prompts; one account of a technical screen described two medium-level problems with probing follow-ups, a step up from the short assessment tasks.
+
+Data science loops replace these with probability and statistics rounds, often two back to back: stopping-time puzzles, noisy measurements, length-biased samples, logistic regression gradients, regularization and experiment decisions.
+
+Interviewers evaluate:
+
+- **Requirements first:** Pinning down scale and consistency before drawing components.
+- **Follow-up depth:** Defending your reasoning when the interviewer probes a choice.
+- **First-principles reasoning:** For data candidates, deriving results rather than reciting them.
+- **Communication:** Explaining trade-offs as you go.
+
+Prepare a general web-service design and, for data roles, a set of classic probability derivations.
+
+### Sample questions for the system design and coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Compare the expected waiting times for HT and HH in fair coin flips, and explain why they differ.
+- Combine readings from two noisy thermometers into one best estimate.
+- Decide whether to ship a signup-flow experiment from its results.
+
+- [Analyze HT vs HH stopping-time probabilities](https://trueinterview.io/questions/analyze-ht-vs-hh-stopping-time-probabilities)
+- [Combine noisy thermometers; compute random-walk correlations](https://trueinterview.io/questions/combine-noisy-thermometers-compute-random-walk-correlations)
+- [Derive logistic regression objective and gradients](https://trueinterview.io/questions/derive-logistic-regression-objective-and-gradients)
+- [Decide to ship a signup experiment](https://trueinterview.io/questions/decide-to-ship-a-signup-experiment)
+
+## Hiring manager and values interviews
+
+The senior onsite ends with 30-minute hiring-manager and values interviews. Some candidates meet the manager earlier, in a screen that mixes a deep dive on past work with light design discussion.
+
+Interviewers evaluate:
+
+- **Ownership:** Projects you drove from problem to launch, with outcomes.
+- **Handling ambiguity:** How you chose a direction without full information.
+- **Values fit:** Comfort in a remote-first, fast-moving lending business.
+
+Prepare four or five stories with measurable results.
+
+### Sample questions for the hiring manager and values interviews
+
+Here are some questions reported by recent candidates:
+
+- Describe a project you owned end to end and what you would change.
+- Tell me about a time you faced ambiguity and had to defend your decision.
+
+- [Demonstrate Project Ownership](https://trueinterview.io/questions/demonstrate-project-ownership)
+- [Explain tackling ambiguity and defending a decision](https://trueinterview.io/questions/explain-tackling-ambiguity-and-defending-a-decision)
+
+## How Upstart makes hiring decisions
+
+The early screens are hard filters scored mostly on passed tests. After the onsite, interviewer feedback is combined with the hiring manager's view, level is checked against the design and project rounds, and senior candidates have been asked for references. Decisions typically arrive within a week or two.
+
+## How to prepare for the Upstart interview
+
+1. **Train under a per-question timer:** Solve easy string and array tasks in 12 minutes, and stop when the clock does.
+2. **Use a reading routine:** Write the input, ordered rules and exact output in three lines before coding.
+3. **Drill the recurring families:** Punctuation runs, two-map decoding, anagram keys with fixed letters, quoted CSV parsing and capacity simulations.
+4. **Draft your explanation as you code:** The written prompt has a short window.
+5. **Prepare the project app:** A full-stack app that renders, accepts a form and persists data, tested the day before.
+6. **Prepare stories with numbers:** Ownership, ambiguity and a decision you defended, each with a measurable result.
+
+## About working at Upstart
+
+Upstart runs an AI lending marketplace that partners with banks and credit unions on personal, auto, home equity and small-dollar loans. It is digital first: most employees work remotely anywhere in the US, and teams meet in person for a few days each quarter, with offices in San Mateo, Columbus and Austin. Engineering teams are organized around lending products, and postings stress quality, testability and turning business requirements into designs.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer (L4) | Delivering features within a team's product area | One team |
+| Senior Software Engineer (L5) | Owning projects from design to launch, mentoring | A team and its partners |
+| Principal | Technical direction across products | Several teams |
+
+Upstart hires engineers across its lending products. Teams include:
+
+- **Auto Retail Lending:** Dealership tools and the auto loan platform, focused on turning applications into funded loans.
+- **Home Lending:** The home equity line of credit and mortgage products.
+- **Small Dollar Loans:** Short-term, small-balance lending.
+- **Onboarding Experience:** The borrower application and verification flow.
+- **Core Pricing:** Loan pricing systems built on Upstart's models.
+
+### Experience and education requirements
+
+Software Engineer postings typically ask for about four years of experience, including full-stack work in Node.js, TypeScript or Python with React or Angular; some teams require Ruby on Rails. Senior postings add ownership of larger projects from design to launch. Degree requirements are rarely stated.
+
+## FAQs about the Upstart interview
+
+### How long does the Upstart interview process take?
+
+About three weeks is typical from the recruiter call to a decision, longer if the assessment and onsite are scheduled far apart.
+
+### What is the hardest round of the Upstart interview?
+
+For most candidates, the timed assessment. The problems are easy, but the long prompts and per-question timers leave almost no room for a wrong first submission.
+
+### Is there an online assessment?
+
+Usually. Most candidates take one after the recruiter screen, and some instead take a phone screen run on a similar per-question timer.
+
+### How much does an Upstart software engineer make?
+
+Posted US remote base salary ranges are about $142K–$196K for Software Engineer and $164K–$226K for Senior Software Engineer. Packages add a target bonus and equity.
 
 ---
 

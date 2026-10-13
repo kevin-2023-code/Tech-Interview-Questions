@@ -6,63 +6,197 @@
 
 ---
 
-This is the deep dive behind the process summary on the company page: what each Amplitude round actually contains, how the problems are framed, and where candidates lose the offer. It draws on 5 real Amplitude questions and 2 candidate interview reports, plus corroborating accounts of recent loops.
+Amplitude's technical rounds build on each other. In the reported loop, the phone screen asked the candidate to extend their own online-assessment code with a new rule, and the onsite coding round was an implementation exercise, a small playable game, rather than another algorithm puzzle. The non-technical half is unusually long: three separate conversations with a product manager, an engineering director and the hiring manager.
 
-## Interview Process
+This guide breaks down each stage of the Amplitude interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 1 candidate-reported interview experience, cross-checked against recent public accounts.
+
+## Amplitude interview process
 
 <!-- guide-diagram -->
 ![Amplitude interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/amplitude/process.webp)
 <!-- guide-diagram -->
 
-Amplitude does not run one fixed loop for every candidate. Reports describe two entry paths into the same technical bar, and which one you get depends on the team and the recruiter.
+The shape depends on the team. Some candidates start with an online assessment and a phone screen that extends it; others go straight to an hour of live coding. The April 2026 report ran seven rounds: assessment, phone screen, onsite coding, system design and three behavioral conversations. Other recent loops are described as two coding rounds, system design, a project deep dive and one behavioral round, over typically three to four weeks. Senior candidates should expect more weight on design and the deep dive.
 
-**Path A — take-home style assessment first.** Some candidates start with an untimed-feeling but self-contained coding assessment before speaking to any engineer. The task in our reports was a small piece of business modelling rather than a puzzle: validate a set of employee records against a rule set, where each employee may carry a list of subordinates that must be validated recursively. It is graded on correctness against hidden cases, so the recursion has to terminate cleanly on malformed input, not just on the happy path.
+Here's what the interview process can look like:
 
-**Path B — a live coding screen with a recruiter conversation in front of it.** This round runs roughly an hour and packs **two** problems into it, which is the single most important scheduling fact about Amplitude. Most candidates budget an hour for one problem and pace themselves accordingly; here, spending forty minutes on the first problem leaves the second one half-finished. One report describes exactly this compression: the first problem solved, the second submitted with a single failing case, and a rejection on that basis alone.
+- **Recruiter screen:** A short call on background, team and motivation.
+- **Online assessment (some loops):** One coding task framed as business logic.
+- **Technical phone screen:** About an hour of live coding, often building on the assessment.
+- **Onsite coding:** An implementation exercise such as a small game.
+- **System design:** A scoped product design focused on endpoints and schema.
+- **Behavioral interviews:** Separate rounds with a product manager, an engineering leader and the hiring manager.
 
-The screen is also conducted over screen share **using your own editor**, and at least one candidate was not told this in advance. Confirm the setup with the recruiter before the call — whether you are coding in a shared browser pad or in your own IDE changes what you should have open, whether you can run code, and whether you have a scratch test harness ready.
+> **Tip:** Ask the recruiter which environment each round uses, whether code can be run, and how many problems are planned. One candidate learned only on the call that they would share their own editor.
 
-**The follow-up screen builds on what you already wrote.** In one report, the phone screen after the assessment did not introduce a fresh problem: the interviewer asked the candidate to extend their own employee-validation code with a new rule that detects circular reporting relationships. That is a deliberate test of whether the code you shipped in the assessment was structured well enough to extend. Write the assessment as if you will have to modify it live.
+## Online assessment
 
-**The onsite is a virtual loop with a heavy non-technical half.** Our fuller report describes a coding round, a system design round, and then *three* separate behavioral conversations — one with a product manager, one with an engineering director, and a final one with the hiring manager of the team. Independent accounts of recent loops describe a comparable shape: two coding rounds, a system design round, a deeper craft or project conversation, and a behavioral round, with the overall cycle typically running three to four weeks end to end.
+The assessment is a single coding task in business terms. In the April 2026 report, candidates validated a set of employees against rules, recursing into each employee's subordinates. Hidden cases typically decide the score, so handle empty and malformed input. The next round reopened this code, so a tangled first draft hurts twice.
 
-The onsite coding round is not another algorithm puzzle. It was an implementation problem — build a Snake game that handles directional input, detects wall collisions, and grows the snake when it eats an apple. That is state management and clean object modelling under time pressure, closer to a low-level design exercise than to a graph question.
+Interviewers evaluate:
 
-The system design round is scoped small and concrete rather than planet-scale: design a shareable to-do list application, with the interviewer steering toward API endpoints and a database schema that supports real-time updates. Expect to be graded on the schema and the endpoint contracts, not on a diagram of message queues.
+- **Domain modeling:** An org chart turned into a clear tree or graph structure.
+- **Recursive correctness:** Rules applied at every level, including leaves and empty lists.
+- **Extensible structure:** Each rule a separate check, so a new one drops in without a rewrite.
+- **Edge cases:** Missing fields, duplicate IDs, an employee under two managers.
 
-## What Candidates Report
+Write the assessment as though you will have to change it live.
 
-- **Two problems in one hour is the norm on the screen, and pacing is the failure mode.** Candidates who treat the first problem as the whole interview run out of runway.
-- **One failing test case is enough to end it.** A report describes a two-pointer linked-list solution rejected over a single case, with no explanation of which one. Amplitude interviewers appear to weight correctness heavily and do not always trade it for a clean approach.
-- **The environment can surprise you.** Being asked to use your own IDE without warning cost one candidate composure early in the round.
-- **Business framing over textbook framing.** Problems arrive dressed as employee hierarchies, reporting structures, and word lists rather than as "traverse this graph" — you have to recognise the structure yourself.
-- **Follow-ups extend your own code, not the interviewer's.** Cycle detection was added on top of the candidate's earlier validation code, so messy first drafts get punished twice.
-- **The behavioral half is unusually long.** Three separate fit conversations, including one specifically about collaborating with product managers, is more people-facing surface than a typical startup loop.
+### Sample questions for the online assessment
 
-## Coding Questions
+Here are some questions reported by recent candidates:
 
-The algorithmic questions Amplitude reaches for share a signature: a domain description that hides a graph or a pointer invariant, plus a strict output format. Encoding and decoding must round-trip exactly; linked-list work is asked with an explicit O(1) extra-memory constraint. Practise stating the format contract out loud before writing code — that is where the hidden test cases live.
+- Validate a list of employees against a rule set, recursing into each employee's subordinates.
 
 - [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7)
+- [Implement Employee Validation and Snake](https://trueinterview.io/questions/implement-employee-validation-and-snake)
+
+## Technical phone screen
+
+The screen lasts about an hour. After an assessment, you may extend your own code: in the April 2026 report, the new rule detected circular reporting relationships. Without one, it is live coding over screen share, sometimes in your own editor. One earlier candidate got two problems in the hour, solved the first, left one failing case on a two-pointer linked-list problem, and was rejected.
+
+Problems share a pattern: a domain description hiding a graph or pointer invariant, plus a strict output format, such as lossless dictionary encoding of comma-separated words.
+
+Interviewers evaluate:
+
+- **Recognizing the structure:** A reporting chain as a directed graph, with visited-state tracking for cycles.
+- **Working in existing code:** Adding the cycle rule without breaking passing rules.
+- **Pacing:** Leaving time for a second problem.
+- **Exact correctness:** One failing case has been enough to end a candidacy.
+
+Practice two medium problems in one hour and switch at the halfway mark.
+
+> **Note:** The rejected candidate was not told which case failed. Test the empty list, one node and k equal to the length before submitting.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Extend the employee-validation code with a rule that flags circular reporting relationships.
+- Swap the k-th node from the end of a singly linked list with the head, using constant extra memory.
+
 - [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2)
-- [Dictionary Encoding (Lossless) for Comma-Separated Words](../../questions/algorithm/dictionary-encoding-lossless-for-comma-separated-words/README.md)
 - [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f)
+- [Dictionary Encoding (Lossless) for Comma-Separated Words](../../questions/algorithm/dictionary-encoding-lossless-for-comma-separated-words/README.md)
 
-## Low-Level Design Questions
+## Onsite coding interview
 
-The onsite coding slot leans implementation rather than algorithms: a playable simulation with input handling, collision rules, and growth state. What earns signal is a class layout you can explain and extend, plus explicit handling of the boundary conditions — reversing into yourself, hitting a wall, eating on the final free cell.
+This round is an implementation exercise, not an algorithm puzzle. In the April 2026 report, the candidate built Snake: arrow-key movement, wall collisions, and growth by one cell per apple. Working, well-organized code beats clever algorithms.
+
+Interviewers evaluate:
+
+- **Class design:** Board, snake and game loop separated and easy to extend.
+- **State handling:** A deque for the body plus a set for constant-time self-collision.
+- **Boundary rules:** Reversing into yourself, walls, eating on the last free cell.
+- **Working code:** A runnable core before extras such as scoring.
+
+Build one small game or simulation from scratch in 45 minutes before the loop.
+
+### Sample questions for the onsite coding interview
+
+Here are some questions reported by recent candidates:
+
+- Implement Snake with directional input, wall collision and growth when the snake eats an apple.
 
 - [Snake Game](../../questions/object-oriented-programming/snake-game/README.md)
+- [Implement Employee Validation and Snake](https://trueinterview.io/questions/implement-employee-validation-and-snake)
 
-## How to Prepare
+## System design interview
 
-- **Rehearse a strict 25-minute solve.** Take two medium problems, set one hour, and force yourself to leave the first one when the timer says so. Amplitude's screen is a pacing test disguised as a coding test.
-- **Email the recruiter about the environment.** Ask whether you code in your own IDE or a shared pad, whether you can run code, and how many problems are planned. Both are answerable questions and one candidate was hurt by not asking.
-- **Write the assessment code to be extended.** Assume the next interviewer will ask you to bolt a new rule onto it — a cycle check, an extra constraint — while they watch.
-- **Drill round-trip correctness.** For any encode/decode or serialise/deserialise problem, write the inverse first and test with duplicates, empty input, and separator characters appearing inside the data.
-- **Practise recognising graphs in business language.** Org charts, reporting lines, and dependency lists are cycle-detection problems wearing a suit; get to that recognition in the first minute.
-- **Prepare an implementation-heavy exercise, not just algorithms.** Build a small game or simulation from scratch under 45 minutes so the class structure comes out cleanly under pressure.
-- **Bring product instincts to the design and behavioral rounds.** With a PM, a director, and a hiring manager all in the loop, be ready to talk about how you decided what to build and how you worked with product partners — not only how you built it.
+The design round is small and concrete. The reported prompt was a shared to-do list app: requirements were given, and the interviewer steered toward API endpoints and a schema supporting real-time item updates. Senior candidates should expect deeper probing on concurrency and permissions.
+
+Interviewers evaluate:
+
+- **API contracts:** Endpoints for lists, items and sharing, with clear request and response shapes.
+- **Schema design:** Users, lists, items and memberships, with the indexes queries need.
+- **Real-time updates:** How clients hear about changes and how concurrent edits resolve.
+- **Scope control:** Answering the question rather than drawing a planet-scale system.
+
+Practice turning a product brief into endpoints and tables in 20 minutes.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a to-do list app that users can share, defining the endpoints and a schema that supports real-time item updates.
+
+- [Design a Shared Todo App](https://trueinterview.io/questions/design-a-shared-todo-app)
+
+## Behavioral interviews
+
+The reported loop had three behavioral rounds. A product manager asked about collaborating with product and communicating across teams. An engineering director focused on mutual fit with the candidate's background and goals. The hiring manager closed with a standard behavioral round. Other loops include a deep dive on a project of your choice and its design decisions.
+
+Interviewers evaluate:
+
+- **Product partnership:** How you shaped what was built with a product manager.
+- **Cross-team communication:** Resolving dependencies and disagreements.
+- **Career fit:** A clear reason this role fits where you are going.
+- **Values:** Humility, ownership, growth mindset and customer centricity, Amplitude's stated values.
+
+Prepare six to eight stories and map them to each interviewer in advance.
+
+### Sample questions for the behavioral interviews
+
+Here are some questions reported by recent candidates:
+
+- Describe how you worked with a product manager to decide what to build.
+- Why this role, and how does it fit your career goals?
+
+- [Describe Product and Team Collaboration](https://trueinterview.io/questions/describe-product-and-team-collaboration)
+
+## How Amplitude makes hiring decisions
+
+Little is reported about the decision mechanics. The hiring manager closes the loop, and the April 2026 candidate was still awaiting a result after it. Recent accounts put recruiter call to decision at about four weeks. Because earlier rounds feed later ones, weak assessment code can count against you twice.
+
+## How to prepare for the Amplitude interview
+
+1. **Write extensible assessment code:** Keep each rule as its own check so a cycle rule can be added live.
+2. **Recognize graphs in business language:** Treat reporting lines as directed graphs and know DFS cycle detection cold.
+3. **Pace two problems per hour:** Switch at the halfway point and test edge cases before submitting.
+4. **Build a small game from scratch:** Snake or a similar simulation, with clean classes and boundary rules, in 45 minutes.
+5. **Design from endpoints and tables:** Start with the API and schema, then add real-time delivery.
+6. **Prepare product-partner stories:** At least two about deciding what to build with a product manager.
+7. **Confirm the environment:** Ask whether you will use your own editor and whether code can be run.
+
+## About working at Amplitude
+
+Amplitude builds product analytics, experimentation, session replay and customer data tools. Product teams build on shared infrastructure, including a proprietary analytics database. Engineering titles run from Software Engineer I and II through Senior and Staff, with many roles in the San Francisco Bay Area and Vancouver.
+
+Amplitude hires software engineers across its analytics platform. Teams include:
+
+- **Analytics infrastructure:** The compute and query layer behind charts, insights and experiment results.
+- **Experiment:** Feature-flag evaluation and delivery, with SDKs serving very high request volumes.
+- **SDKs:** Web, mobile and cross-platform client libraries for analytics and session replay.
+- **Growth and activation:** Full-stack product work on onboarding and adoption.
+- **Foundations, security and infrastructure:** Shared platform, reliability and security work.
+
+### Experience and education requirements
+
+Requirements vary by team. SDK roles value experience across several languages and platforms, growth roles list TypeScript, React, Node.js and GraphQL, and feature-flag or A/B testing knowledge is a plus for Experiment.
+
+## FAQs about the Amplitude interview
+
+### How long does the Amplitude interview process take?
+
+Typically three to four weeks from recruiter call to decision; seven-round loops can run longer.
+
+### What is the hardest round of the Amplitude interview?
+
+The reported rejection came at the phone screen, where one failing case ended the process. At the onsite, the Snake round is hard for candidates who have only practiced algorithm puzzles.
+
+### Is there an online assessment?
+
+In some loops. When there is one, the phone screen may build on your assessment code, so its structure matters as much as passing it.
+
+### How much does an Amplitude software engineer make?
+
+Recent Senior Software Engineer postings in the San Francisco Bay Area list total target cash of roughly $183K–$276K, before equity. Packages include RSU grants that vest quarterly.
+
+### Is the Amplitude interview remote?
+
+Recent loops have typically been held virtually, including the onsite.
 
 ---
 

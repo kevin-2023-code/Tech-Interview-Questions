@@ -16,17 +16,32 @@ How Point72 interviews, and the questions candidates reported there. Free questi
 
 ## How Point72 interviews
 
-Point72 does not run one interview loop — it runs a different one per hiring desk, and that variance is the hardest thing to prepare for. What holds across tracks is a preference for practical, market-flavored problems over algorithmic showpieces, and an assessment stage that grades exact output rather than approach. Going deeper than the summary on the company page, this guide draws on 13 real Point72 questions and 12 candidate interview reports to show what each stage contains and where candidates lose the process.
+Point72 hires desk by desk, and each desk designs its own loop: a data engineer may sit three themed phone screens and a five-part onsite, while a software developer finishes after an assessment and two short calls. What holds across tracks is a preference for practical, market-flavored work (trading optimizers, transaction validation, fraud queries) over algorithm showpieces, an online assessment graded on exact output, and very little behavioral content.
 
-### Interview Process
+This guide breaks down each stage of the Point72 interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 12 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Point72 interview process
 
 <!-- guide-diagram -->
 ![Point72 interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/point72/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** Most loops open with a short call that walks the resume and establishes which team you fit. It is light on structure, but it is where language expectations get set: one software candidate was asked about a preference for working in C#, and later rounds were built on that answer. Not every loop starts here — a senior data engineering candidate reached through cold outreach began with the assessment instead. Scheduling is handled loosely, so raise time zones early; one West Coast candidate was offered a 7 a.m. slot without comment.
+The hiring team sets the topics, the number of rounds and even the order. Most loops open with a recruiter call and an online assessment, then run one to three technical phone screens and a final round. Reported loops range from a single onsite round to five stages, and from a few weeks to about three months.
 
-**Online assessment.** Delivered on HackerRank, typically a small number of problems in a fixed window of roughly 90 minutes, and its content varies more than at most firms. Reported shapes include two algorithmic problems plus a block of multiple-choice technical questions; a DFA simulation and an array-beauty problem alongside multiple choice on defensive testing and the benefits of pair programming; a SQL fraud-detection section built on CTEs, HAVING filters, ROW_NUMBER ranking, STRING_AGG with CASE WHEN, and TO_CHAR with the FM modifier, paired with a PySpark section using left semi joins, concat_ws, and casting to double before sorting; an election exit-poll report requiring top-three states per candidate with alphabetical tie-breaking and exact formatting, followed by PySpark transaction validation graded by provided unit tests; and, on one data-and-AI loop, an algorithm problem plus a five-part prompt-engineering exercise. The grading is unforgiving on presentation: candidates report losing cases to an ellipsis rendered with three dots instead of two and to numbers carrying leading spaces. Backtracking solutions have timed out where dynamic programming was needed, and the interface truncates visible rows, so scroll before assuming you have seen the data.
+The shape shifts more by track than by level. Software roles lean on medium algorithm problems plus language questions (C# on some teams, idiomatic Python on others). Data roles are built around SQL, pandas, PySpark and pipeline reliability. Quantitative research screens cover probability, statistics, machine learning and some C++. Senior data candidates add design discussions on ingestion and Spark internals; systems candidates get C++ container design.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short resume walk-through that places you on a team and sets language expectations.
+- **Online assessment:** A timed test of roughly 45–90 minutes mixing algorithms, SQL or PySpark, multiple choice and, on AI teams, prompt engineering.
+- **Technical phone screens (one to three):** Live calls, each owning one theme, such as Python and SQL, API ingestion, streaming or Spark.
+- **Quantitative research screen (quant tracks):** One fast call spanning probability, statistics, machine learning, C++ concepts and coding.
+- **Final rounds:** From one long Python or C++ exercise to five back-to-back sessions on design, Spark, SQL and orchestration.
+- **Behavioral and hiring manager interview:** A short conversation on stakeholder work, data incidents and views on AI.
+
+> **Tip:** Ask the recruiter in writing which themes each round covers. Candidates report that topics were not shared in advance, and with each screen owning one theme, knowing the themes is most of the preparation.
 
 **[Read the full Point72 interview process →](interview-process.md)**
 

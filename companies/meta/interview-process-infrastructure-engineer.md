@@ -6,95 +6,297 @@
 
 ---
 
-Infrastructure candidates at Meta are usually filtered out in the troubleshooting conversation, not in coding. The troubleshooting round has no terminal and no real host. You diagnose an outage out loud while the interviewer releases clues one at a time. Its root cause sits one layer below the obvious one: in one reported loop the web server was down because the database transaction log was full, even though disk space looked fine. A candidate with deep reliability experience finished both coding problems early and was still rejected, because the open-ended troubleshooting screen never produced a structured, step-by-step diagnosis.
+Meta scores each infrastructure round as a separate signal, and the one that most often ends a candidacy is the troubleshooting conversation. There is no terminal and no real host: you diagnose an outage out loud while the interviewer releases clues, and the root cause usually sits one layer below the obvious one. A candidate with deep reliability experience finished both coding problems early and was still rejected on that screen alone. A hiring committee that never met you then reviews the packet, and it has declined infrastructure loops that felt strong in every room.
 
-## Interview Process
+This guide breaks down each stage of the Meta Infrastructure Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 91 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Meta Infrastructure Engineer interview process
 
 <!-- guide-diagram -->
 ![Meta Infrastructure Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/meta--infrastructure-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter call — typically 30 minutes, no technical content.** The recruiter explains what production and infrastructure engineering covers at Meta: software work on the reliability, capacity and performance of serving paths. They also walk through each stage and set the level. Ask which format your loop uses. One AI-native infrastructure candidate was told that every round after the phone screen would use the AI-native format.
-2. **Coding phone screen — 45 minutes, shared editor.** An engineer runs it, usually with two medium problems. Some interviewers keep conversation to a minimum and expect you to drive. One screen was booked early in the morning Pacific time for an interviewer in the UK. Reported problems include Friends Of Appropriate Ages, top N frequent words from a file too large for memory (discussion only, no runnable code), a local minimum in O(log n) by binary search, and weighted random selection. A pass has turned into a full-loop invitation within two business days.
-3. **Systems and troubleshooting screen — typically 45 minutes.** This is sometimes its own call and sometimes the second half of the coding screen. Reported scenarios include slow user requests traced from the application down to database logs, identifying which processes are consuming a host, reasoning under CPU or memory limits, and advising a product team on operational practice. One candidate found the expectations so open-ended that it was hard to tell whether the answers were landing. That candidate was rejected despite a strong coding screen.
-4. **Onsite coding and scripting.** Beyond standard problems, this track gets operational scripting. Reported tasks include parsing `vmstat` output into CPU, memory and I/O-wait readings and alerting when a reading crosses a threshold, and writing a full program that takes thresholds as command-line flags, reads a metrics line from standard input and handles malformed input. It also gets playful algorithm prompts, such as simulating an endless-runner dinosaur jumping obstacles. Arithmetic expression evaluation without parentheses shows up in screens, and one interviewer pushed an iterative stack approach over the candidate's recursive one.
-5. **Troubleshooting round.** This is an on-call simulation such as "the web server is down" or "the site is unreachable." You work down the stack: system logs, then application logs, then the database. The interviewer gives hints but expects you to drive the diagnosis. The two documented root causes are a full disk, found after checking disk usage and logs, and a full database transaction log that blocked every new write.
-6. **System design — 45 minutes, often two rounds at senior levels.** Prompts focus on throughput and distribution rather than product features. Reported examples include an online auction, a location-based search service, a distributed web crawler, ticketing, top-K over an event stream, an ads impression aggregator with very high write rates, an ad click counter at 100 million events per second, a write-heavy ingestion platform, and a concurrent tally service with `bump` and range `query` that must keep memory bounded. One E6 infrastructure loop was one phone screen plus five onsite rounds: two coding (one of them the word-subset problem), two design (auction and location search) and one behavioral.
-7. **AI-enabled coding.** This round also appears in infrastructure loops. It is a staged codebase where you fix a bug, add a feature, then optimize, usually on the maze theme. The assistant is allowed, and you still have to explain every change.
-8. **Behavioral.** Topics include conflict, cross-team alignment, a mistake you own and what changed afterwards, and increasingly a detailed discussion of your AI workflow.
-9. **Committee and after.** Packets that felt strong in every room have still been declined by the committee without feedback. A rejection for an infrastructure role carries about a one-year cooldown before you can reapply for the same role. Other Meta roles remain open immediately.
+Infrastructure hiring covers two related paths: Software Engineer (Infrastructure), who builds storage, cluster and serving systems, and Production Engineer, who writes software for their reliability, capacity and performance and joins on-call as an escalation point. Both sit the same coding screens and design rounds; the production path adds operational scripting and troubleshooting. Team matching usually follows committee approval.
 
-## What They Actually Evaluate
+A typical path is a recruiter call, an optional online assessment, one or two 45-minute screens, and a loop of four to six rounds, over four weeks to two or three months. New-grad and E4 loops are mostly coding, E5 loops usually carry two design rounds, and one E6 infrastructure loop was a coding screen plus five onsite rounds, two of them design.
 
-### Domain Deep Dive
+Here's what the interview process can look like:
 
-This is the round that sets the track apart, and it is graded on method. The interviewer wants a hypothesis, the exact signal that would confirm it (`df`, `du`, `top`, process tables, database logs), and what each result would rule out. You should state all three before you ask for the reading. Candidates who reason from instinct come across as unstructured, which is how one experienced reliability engineer reconstructed their own rejection. Scripting tasks are graded the same way. The interviewer checks whether you know what normal and alarming `vmstat` readings look like, not whether you remember flags.
+- **Recruiter screen:** About 30 minutes on background, level, loop format and timeline, with no technical questions.
+- **Online assessment (some pipelines):** A 90-minute progressive class-implementation task whose levels unlock one at a time.
+- **Technical phone screen:** 45 to 60 minutes with two coding problems, often plus a troubleshooting segment or a separate systems screen on the production path.
+- **Coding interviews (one or two):** Medium problems with scale follow-ups, plus operational scripting for production engineers.
+- **AI-enabled coding interview:** A staged multi-file project with a built-in assistant, standard since mid-April 2026.
+- **Troubleshooting interview (Production Engineer):** A verbal on-call simulation that works down the stack to a root cause.
+- **System design interview (one or two):** 45 minutes on throughput, aggregation and distribution.
+- **Behavioral interview:** Conflict, ownership, missed commitments and how you use AI tools.
 
-- [PE Troubleshooting — Web Server / Disk Full](https://trueinterview.io/questions/pe-troubleshooting)
-- [Write a Script to Monitor 'vmstat' Output](https://trueinterview.io/questions/0237fc06-24d7-4e05-97ce-e1b07257a2e8)
-- [Parse System Metrics and Warn on Threshold Breaches](https://trueinterview.io/questions/7cb3cfba-be69-52a2-bb54-8ffac2c723c4)
+> **Tip:** Ask the recruiter in writing which rounds are AI-native and whether troubleshooting is included. Candidates near the April 16, 2026 cutover got mixed formats, and one was told only that the loop had an "AI-native coding" and an "AI-structured coding" round, with no explanation of the difference.
 
-### Coding and Algorithm
+## Online assessment
 
-Expect two medium problems per session with a stated complexity for each. The infrastructure twist usually comes as a follow-up: the file doesn't fit on one host, the call runs millions of times, or the input arrives as a stream. Discuss external merge versus in-memory counting before you are asked. One candidate completed both problems early and got credit, but it didn't make up for a weak systems round, because the signals are scored separately.
+Some pipelines open with a 90-minute assessment built as one progressive task: implement a class, pass every test at the current level, then see the next. Reported tasks include an in-memory database with add, delete, lock and unlock; a key-value store that adds prefix scans, time-to-live expiry, then backup and restore; a banking system with scheduled transfers and account merges; and a versioned store whose `get_when` returns a field's value at a past timestamp. The platform gives no line-level errors, so you debug by reading fixed tests that can run to dozens of lines.
+
+Perfection is not required. One candidate reached level 3 of 4 with tests still failing and was sent straight to the full loop; the recruiter said a fail would have meant a one-year wait to reapply. A senior candidate was rejected because the level 1 design could not absorb the versioning required at level 4.
+
+Interviewers evaluate:
+
+- **Forward-compatible design:** A data model chosen after reading every level, such as an event log kept from level 1.
+- **Correct expiry handling:** Lazy expiration first in every operation; snapshots that store remaining time-to-live, not absolute expiry.
+- **Reading the spec through the tests:** Where the prose is ambiguous, the tests define the behavior.
+- **Pace:** Roughly 15 to 20 minutes per level, submitting each level as soon as it passes.
+
+Practice two or three progressive in-memory store tasks end to end in 90 minutes, reading all levels before writing level 1.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Build an in-memory database where a locked key rejects updates and deletes until unlocked.
+- Add `get_when(key, field, at)` to a time-to-live key-value store so each field's history can be read at a past timestamp.
+
+- [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5)
+- [Implement a versioned in-memory DB with CAS and history](https://trueinterview.io/questions/implement-a-versioned-in-memory-db-with-cas-and-history)
+- [Banking System (Progressive OOD)](https://trueinterview.io/questions/codesignal-oa-banking-system)
+
+## Technical phone screen
+
+An engineer runs the screen in a shared editor, usually 45 minutes and occasionally an hour, with two medium problems. Code often is not executed, and some interviewers say little and expect you to drive. On the production path the screen often adds a troubleshooting segment, or the two are split into separate calls. Follow-ups push toward scale: the file is too large for memory, the function runs millions of times, the tree does not fit in memory.
+
+Reported problems include Friends Of Appropriate Ages; the top N words from a file too large for memory, discussed without runnable code; weighted random selection followed by the alias method; a local minimum in logarithmic time; kth largest pushed to quickselect; lowest common ancestor with parent-pointer and low-memory variants; and arithmetic without parentheses, where one interviewer pressed for an iterative stack over recursion. A pass has become an onsite invitation within two business days.
+
+Interviewers evaluate:
+
+- **Optimal solutions with stated complexity:** One candidate was rejected for missing the optimal approach to the second problem.
+- **Independence on edge cases:** A candidate who needed one hint on the prefix case of an alien-dictionary problem was rejected.
+- **Scale reasoning:** External merge versus in-memory counting, and what changes when input streams or exceeds one host.
+- **Self-testing:** Empty, single-element and duplicate cases dry-run unprompted.
+
+Drill two mediums in 45 minutes in a plain editor, then add a memory or streaming follow-up to each.
+
+> **Note:** Strong coding does not carry a weak systems screen. The two are scored separately, and the candidate who finished both coding problems with time to spare was rejected on the troubleshooting call.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Count valid friend requests among users whose ages follow fixed rules, then remove the quadratic scan.
+- Return the N most frequent words from a file far larger than memory.
+- Pick an item in proportion to its weight, then support millions of calls at constant expected time per pick.
 
 - [Friend Request](https://trueinterview.io/questions/6a131d8f-2002-477c-be7f-ee4b4a01b54b)
+- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
 - [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2)
-- [Token Bucket Rate Limiter II](../../questions/algorithm/token-bucket-rate-limiter-ii/README.md)
+- [Find top-K frequent elements in a stream](https://trueinterview.io/questions/find-top-k-frequent-elements-in-a-stream)
+
+## Coding interviews
+
+The loop has one or two traditional coding rounds, usually two problems each. They reuse screen families (calculators, interval merges, island counting, sparse vectors, a round-trip minimum cost reduced from quadratic to linear) and add production-flavored scenarios: a cache with rate limiting, then what changes at higher volume, across machines and under failures; a dependency graph with concurrency follow-ups; a tally service whose `bump` and range `query` must stay thread-safe with bounded memory.
+
+Production Engineer loops add operational scripting: parsing `vmstat` output into CPU, memory and I/O-wait readings and alerting on thresholds, or a full program that takes thresholds as command-line flags, reads a metrics line from standard input and handles malformed fields. One onsite paired that script with a simulation of an endless-runner dinosaur jumping obstacles.
+
+Interviewers evaluate:
+
+- **Complete programs:** Argument parsing, input validation and clear alert output in scripting tasks.
+- **Operational judgment:** Knowing what normal and alarming readings look like matters more than remembering flags.
+- **Pushing the bound when asked:** A two-pass calculator was taken to a stack and then to constant extra space.
+- **Concurrency and memory awareness:** Locks, bucketing and bounded windows raised before the interviewer asks.
+
+Write two or three small command-line monitoring tools from scratch, and practice each coding family with its scale follow-up.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Parse a line such as `cpu:90 mem:80 disk:50`, compare it with thresholds passed as flags, and print an alert for each breach.
+- Design a tally service that records events by timestamp and answers range counts under heavy concurrency with bounded memory.
+- Evaluate an expression with addition and multiplication, then with a stack, then with constant extra space.
+
+- [Parse System Metrics and Warn on Threshold Breaches](https://trueinterview.io/questions/7cb3cfba-be69-52a2-bb54-8ffac2c723c4)
+- [Write a Script to Monitor 'vmstat' Output](https://trueinterview.io/questions/0237fc06-24d7-4e05-97ce-e1b07257a2e8)
+- [Tally Service](https://trueinterview.io/questions/tally-service-concurrent-windowed-counter)
+- [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii)
+
+## AI-enabled coding interview
+
+Loops scheduled on or after April 16, 2026 replace some or all traditional coding with an AI-enabled round, and infrastructure loops include it. You work in a multi-file project with a built-in assistant, and the task grows in stages. The most common is a maze solver: fix a print bug, add a missing visited set, honor one-way `<` and `>` cells, add keys and doors with a bitmask in the visited state, then bombs that clear nearby walls. Others are the largest subset of words with no shared letters, a friend recommender with a planted bug, and a card game scoring triples that sum to 15.
+
+The assistant does not lower the bar. Inputs are sized so only the optimal algorithm passes, a test can itself be wrong, and the tool sometimes misbehaves. A candidate who leaned on suggestions in a compiler-optimization task passed four or five hidden tests and was rejected.
+
+Interviewers evaluate:
+
+- **Knowing the solution before prompting:** Successful candidates planned the algorithm, then prompted for small, single-purpose functions.
+- **Verifying generated code:** Catching the assistant passing an object where an ID was expected.
+- **State modeling:** Visited state that includes collected keys; a 26-bit mask for the word subset.
+- **Debugging tests as well as code:** Recognizing an impossible test case and saying so.
+
+Practice the maze and word-subset tasks with an assistant, writing your own tests for every stage.
+
+> **Tip:** Measure, do not just claim. In the card-game task one candidate wrote a test running 100 games: the greedy strategy scored a perfect game about 20 times, the improved strategy about 60. Evidence like that is what this round rewards.
+
+### Sample questions for the AI-enabled coding interview
+
+Here are some questions reported by recent candidates:
+
+- Extend a buggy maze solver through one-way cells, keys and doors, and a bomb that clears nearby walls.
+- Choose words with no letter in common to maximize total distinct letters, under a strict timeout.
+
 - [Maze Solver](../../questions/ai-coding/ai-coding-maze-solver/README.md)
+- [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset)
+- [Friend Recommendation II](https://trueinterview.io/questions/ai-coding-friend-recommendation)
 
-### System Design
+## Troubleshooting interview
 
-The deep dive lands on partitioning, aggregation windows, hot keys, back-pressure, replication and storage tiers. Two failure modes are documented. The first is accepting a framing as given instead of asking early whether the system is single-machine or distributed and what the write volume is. The second is leaving the traditional design round under-prepared: one candidate who focused on AI material said a write-heavy design round went badly for lack of depth on replication, write amplification and compaction. At E6, one candidate who was declined advised not to rely on memorized designs and to go deep on the details the interviewer chooses.
+This is the Production Engineer track's signature round, run inside the phone screen, as a standalone screen, or onsite. The interviewer describes a symptom (the site is unreachable, the web server is down, requests are slow) and you investigate verbally while they reveal what each check shows. Candidates work down the stack: system logs, application logs, then the database. Some versions go deeper into syscalls, kernel behavior and network retransmits, with tools such as `strace` and `tcpdump`.
+
+Documented root causes are a full disk and a full database transaction log that blocked every write while disk space looked fine. Other screens asked which processes were consuming a host, how a service behaves under tight CPU or memory, and what operational practices to recommend to a product team.
+
+Interviewers evaluate:
+
+- **Hypothesis-driven method:** The hypothesis, the exact check (`df`, `du`, `top`, database logs) and what each result rules out.
+- **Driving the diagnosis:** Hints come, but you are expected to lead.
+- **Going one layer deeper:** Not stopping at the first plausible cause when the evidence does not fit.
+- **Scoping a vague prompt:** Early clarifying questions that bound the scenario.
+- **Remediation and prevention:** Mitigation first, then alerting and capacity changes.
+
+Rehearse five or six outage scenarios aloud, narrating each check as if no one could see your screen.
+
+> **Note:** This round grades narration, not knowledge. An experienced reliability engineer reconstructed the rejection as answers that felt intuitive but were never laid out in a structured, almost pedantic sequence.
+
+### Sample questions for the troubleshooting interview
+
+Here are some questions reported by recent candidates:
+
+- A web server is unreachable; work through system, application and database layers to a full transaction log.
+- Users report slow requests; trace the delay from the application to the database logs and the busiest processes on the host.
+
+- [PE Troubleshooting — Web Server / Disk Full](https://trueinterview.io/questions/pe-troubleshooting)
+- [Troubleshoot a production server outage](https://trueinterview.io/questions/troubleshoot-a-production-server-outage)
+- [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence)
+
+## System design interview
+
+Design rounds last 45 minutes, which candidates find short; E5 loops usually have two. Infrastructure prompts center on throughput and distribution: an ad click counter at 100 million events per second, an ads impression aggregator with heavy writes, top K over a stream with tumbling and sliding windows, trending hashtags surfaced within a minute, a distributed web crawler, ticketing, location-based search, an online auction, post search with AND and OR queries, and live comments fanned out to millions of viewers. One auction design had to move to pessimistic locking when a celebrity listing created extreme contention. Newer loops add an AI-enabled design round, such as a code review agent with a cost per model call.
+
+Interviewers evaluate:
+
+- **Scoping first:** Volume, latency target and single-machine versus distributed before any boxes; a comprehensive Twitter-style design was flagged for never narrowing the problem.
+- **Time allocation:** One candidate spent too long on requirements and schema and never reached the core architecture.
+- **Write-path depth:** Pre-aggregation versus on-the-fly counting, sharding by term or by document, write amplification.
+- **Failure handling:** What happens when an edge server, consumer or partition dies.
+- **Senior rigor:** At E5 and above, explicit trade-offs, maintainability and production failure modes.
+
+Practice aggregation and fan-out designs in 45 minutes, leaving 15 for the deep dive the interviewer picks.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Count ad clicks at 100 million events per second, with a real-time advertiser dashboard and durable history.
+- Surface trending hashtags within one minute, weighting the last 24 hours and favoring new topics.
+- Design status search with AND and OR queries, then shard the index when it outgrows one machine.
 
 - [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation)
+- [Trending Hashtags](https://trueinterview.io/questions/system-design-trending-hashtags)
+- [Facebook Search (Mini Elasticsearch)](https://trueinterview.io/questions/system-design-facebook-search)
 - [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4)
-- [Online Auction / eBay](https://trueinterview.io/questions/system-design-online-auction)
 
-### Behavioral and Leadership
+## Behavioral interview
 
-This round has an operations angle: how you communicated during an incident, a missed commitment and how you found it, and cross-team alignment. Interviewers probe for accountability and for measurable outcomes, and they increasingly ask how AI tooling fits into your on-call and development work.
+The behavioral round, sometimes as short as 35 minutes, presses each answer for what you personally did, what data supported it, and what you would change. Infrastructure candidates report an operations angle: aligning teams on conflicting requirements, your biggest mistake, and committed work that slipped through the cracks. Newer loops ask which AI tools you use, where they misled you and how you check their output. Staff-level sessions focus on cross-team direction and mentoring senior engineers.
+
+Interviewers evaluate:
+
+- **Personal ownership:** "I wrote the design document and realigned the timeline," not "we discussed and agreed."
+- **Measurable outcomes:** Latency, availability, cost or time saved, in numbers.
+- **Accountability for misses:** How a dropped commitment was discovered and what changed.
+- **Scope for level:** Influence beyond your own team at E6 and above.
+
+Prepare six to eight recent stories, including an incident you led and a commitment you missed, each with metrics.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Describe committed work that was missed entirely: how did you discover it and recover?
+- Which AI tools do you use day to day, and when did one give you a wrong answer?
 
 - [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
 - [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
+- [Handle conflict and missed delivery deadlines](https://trueinterview.io/questions/handle-conflict-and-missed-delivery-deadlines)
 
-## What They Don't Test
+## How Meta levels and evaluates Infrastructure Engineer candidates
 
-- **Command trivia.** The tools named in reports are ordinary. What earns credit is interpreting the reading and choosing the next check.
-- **Hands-on access to a system.** Troubleshooting is entirely verbal, so practicing on real hosts builds the skill but not the narration that gets graded.
-- **Hard algorithm puzzles.** Problems stay at medium difficulty. The difficulty comes from memory and streaming follow-ups instead.
-- **Runnable code in every round.** Several tasks, such as top N words from a huge file, were explicitly not executed. The algorithm and its trade-offs carried the grade.
-- **ML depth.** Screens labeled AI-native still consisted of binary search and array problems. The AI content shows up in the tooling and the behavioral questions.
+Each interviewer rates a separate signal, and a hiring committee reviews the packet and sets the level. It can decline a loop that felt positive: an E6 infrastructure candidate was rejected without feedback. Down-leveling is common: an E6 target was offered E5, and a candidate with 13 years of experience was matched at E5 and rejected because most rounds met the bar without exceeding it. Borderline signals can still pass; one offer followed a round flagged as a weak coding signal.
 
-## The Real Filter
+A rejection within about three business days usually means the packet never reached committee. After approval come a further sign-off and team-matching calls (one candidate had four), which freezes have delayed by weeks. An infrastructure rejection carries about a one-year cooldown for the same role, while other Meta roles stay open.
 
-The main rejection path is troubleshooting, and candidates misjudge it as a knowledge test. It is really a test of how clearly you communicate a diagnosis. Strong operators stay silent while they think, jump to the likely cause, or wait for confirmation, and the round records no evidence of their skill. Candidates who pass narrate each step: the symptom, a hypothesis, the check, and what each outcome rules out. They also ask clarifying questions early to set the scope when the prompt is vague. Expect the first guess to be wrong on purpose, for example a full transaction log instead of a full disk.
+> **Tip:** Aim for one clearly strong round rather than uniform "meets." Packets rated as meeting the bar everywhere have been declined.
 
-The second pattern is preparing only half the loop. The AI-native shift has pulled preparation toward assistant workflows, but traditional design for write-heavy and aggregation systems is still scored on its own.
+## How to prepare for the Meta Infrastructure Engineer interview
 
-The third pattern is the committee. Infrastructure loops that went well in every room have still ended in rejection without feedback. Because of the one-year cooldown, going in under-prepared costs a full year before you can try again for the same role.
+1. **Narrate troubleshooting like a runbook:** State the hypothesis, the command and what each result rules out, and expect the first likely cause to be wrong.
+2. **Add a scale follow-up to every coding problem:** Top N from a huge file, weighted selection at millions of calls, trees that do not fit in memory.
+3. **Write small operational tools from scratch:** A metrics parser with command-line thresholds and malformed-input handling, in under 20 minutes.
+4. **Rehearse the staged AI-enabled tasks:** Maze, word subset and recommender, prompting for small functions and testing every stage.
+5. **Drill aggregation and fan-out designs:** Click counting, streaming top K, trending topics and live comments, scoped in five minutes.
+6. **Read every assessment level before writing level 1:** Keep an event log and remaining time-to-live from the start.
+7. **Prepare operations-flavored stories:** An incident you led, a missed commitment and an AI tool that misled you, each with numbers.
+8. **Confirm the format in writing:** The one-year cooldown makes a surprise round costly.
 
-## Data Source
+## About the Meta Infrastructure Engineer role
 
-Based on 91 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Infrastructure software engineers build the distributed systems behind Meta's apps (data storage, coordination of large server clusters, and the runtime that serves front-end code) for millions of requests per second with sub-second latency. Production Engineers write and review code, build capacity plans, debug live systems and serve as escalation contacts for incidents, which is why their loop simulates an outage. Most work is in C++, Java, Python, PHP and Hack.
 
-## FAQ
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| E3 | Delivering well-defined features with guidance | Tasks within one team |
+| E4 | Owning components and on-call work with little oversight | A component or service |
+| E5 (Senior) | Owning a system's reliability, performance and roadmap | One team's systems |
+| E6 (Staff) | Setting technical direction across teams | Several teams |
+| E7 (Senior Staff) | Organization-wide technical strategy | An infrastructure organization |
 
-**What is it like to work in infrastructure at Meta?**
+Meta hires Infrastructure Engineers across its infrastructure organization. Teams include:
 
-The reports cover hiring, not daily work or pay. What is documented is that infrastructure and production engineers write software for reliability, capacity and performance across very large fleets, and they join on-call rotations as the escalation point. That is why the loop simulates an outage.
+- **Production Engineering:** Reliability, capacity and performance of services, with on-call escalation.
+- **Storage:** Distributed data storage and the systems that keep it available.
+- **Cluster management:** Scheduling and coordinating very large server fleets.
+- **Serving runtime:** The environment that runs front-end and backend code at scale.
+- **Networking and data centers:** Network infrastructure and the physical capacity beneath it.
 
-**What is the engineering culture like?**
+### Infrastructure Engineer experience and education requirements
 
-It is direct and measured by impact, and in 2026 it has been under pressure from layoffs, reassignments and a strong push toward AI tooling. Reliability work is often invisible, so engineers have to present it as measurable outcomes. The troubleshooting and behavioral rounds grade exactly that kind of clear explanation.
+University-grad postings ask for a bachelor's in computer science or a related field, completed before joining, or equivalent experience. Production Engineer postings require Linux or UNIX fundamentals and list TCP/IP networking, relational databases and load balancing. Software Engineer (Infrastructure) postings ask for about two years of large-scale infrastructure work at mid level, six or more at senior and seven to eight or more at staff, plus scripting in Python or Hack. Any mainstream language is accepted in coding rounds.
 
-**How hard is it to get in?**
+## FAQs about the Meta Infrastructure Engineer interview
 
-It is difficult, and most of the losses happen early, at the systems screen. Committee rejections without feedback happen even after smooth loops, and the one-year cooldown for the same role raises the cost of trying before you are ready.
+### How long does the Meta Infrastructure Engineer interview process take?
 
-**Which round is hardest?**
+Usually four to eight weeks from recruiter call to committee decision. One path ran about six weeks to an offer, two weeks per stage; team matching can add several more.
 
-Candidates who name one pick troubleshooting, with traditional distributed design close behind at senior levels. Coding is consistently described as the most predictable part of the loop.
+### What is the hardest round of the Meta Infrastructure Engineer interview?
+
+For production engineers, troubleshooting: open-ended, verbal and graded on structure. For infrastructure software engineers, the AI-enabled coding round and, at E5 and above, the design rounds cause most rejections and down-levels.
+
+### Is there an online assessment?
+
+In some pipelines: a 90-minute progressive task, and candidates have advanced without passing every level. Others go straight to a technical screen.
+
+### How much does a Meta Infrastructure Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **E4:** ~$300K
+- **E5:** ~$460K
+- **E6:** ~$725K
+
+Packages combine base salary, an annual bonus and restricted stock that vests over four years; equity is the largest component from E5 up and the main negotiation lever.
+
+### What happens after a rejection?
+
+Expect about a one-year wait for the same role, usually without specific feedback. Other Meta roles stay open, and recruiters have reached back out within months for a different position.
 
 ---
 

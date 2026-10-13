@@ -6,102 +6,295 @@
 
 ---
 
-The most common way Software Engineer candidates fail at Amazon is by running out of time. They lose the clock, not the algorithm. Phone screens and most loop rounds give about 25–30 minutes to the technical problem, because 20–30 minutes have already gone to Leadership Principles. Candidates who spend that window on a careful data model never finish the code. Two rejected candidates in the reports ran out of time on exactly this, one building an event router and the other an abusive-content stream detector, and both said a working skeleton would have saved them. Senior candidates hit the same trap in design rounds: an L5 loop was lost in the one round spent on schemas and sync flows instead of customer trade-offs.
+Amazon grades its Leadership Principles in almost every round. A typical hour opens with 20 to 30 minutes of principle questions and leaves 25 to 30 for the technical problem, so the most common failure is running out of time, not missing the algorithm. At the debrief a Bar Raiser from outside the hiring team weighs that evidence alongside coding and design, and strong code does not offset thin stories. The online assessment now includes an hour of AI-assisted repository work, and design questions reach phone screens and new-grad loops.
 
-## Interview Process
+This guide breaks down each stage of the Amazon Software Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 117 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Amazon Software Engineer interview process
 
 <!-- guide-diagram -->
 ![Amazon Software Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/amazon--software-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter contact.** Candidates come in through cold applications, referrals, recruiter outreach and a program for rehiring former employees. The recruiter confirms location and relocation, walks through the rounds, and sometimes names the two principles the screen will focus on. Treat that as a hint, not a script. Several candidates were told a call would be pure coding, or would have no behavioral questions, and got the opposite. Recruiter messages have landed in spam folders, and one candidate had to chase a missed reply to stay in the process.
+Amazon hires Software Development Engineers (SDEs) team by team, so interviewers usually come from the hiring team and problems follow its domain. The skeleton is an online assessment for most early-career candidates, one to four phone screens, and a loop of three to five hour-long rounds; the whole process takes from about five weeks to more than six months.
 
-2. **Online assessment.** New-grad, intern and many SDE I/II candidates get a multi-part assessment. The algorithm part runs about 40 minutes with one or two problems. Recurring families are prefix sums on a circle (drone stops, product redistribution), greedy merging to make values contiguous, heap simulations, sparse-segment sliding windows where an O(n) prefix array blows the memory limit, and binary search on the answer over a grid after a multi-source BFS. The AI-assisted part runs about 60 minutes inside a small repository, usually Django or Spring Boot and sometimes Node.js or C++. You get about six failing tests: missing persistence, 401 versus 403 authorization, a misconfigured URL setting, a flipped comparison, or a stale variable. The assistant explains the selected file but will not write the fix, and in one report it did not work at all. Some variants ask you to extend the app instead, for example a review-moderation feature that returns 403 on banned words and flags users after three violations. After that come an untimed work simulation (email scenarios where you rank responses, playing developer, tester and reviewer) and an untimed work-style survey. Candidates report advancing with some tests still failing. Invitations nominally expire in seven days, and extensions are available on request.
+SDE I loops (interns and new graduates) run two to four rounds weighted toward coding and object-oriented design, some in person over two days with travel covered. SDE II adds system design and often skips the assessment; SDE III loops carry two or more design rounds.
 
-3. **Phone screen(s).** One to four calls of 45–60 minutes. Internal transfer candidates reported three phone screens that felt as demanding as a full loop. The behavioral half comes first and pushes for specifics: disagreeing with a manager, a missed deadline and who you told, work outside your scope. The technical half is usually a medium problem (course-schedule variants, top-K, merge sorted arrays with ascending then descending then unsorted follow-ups, word search, cycle detection where you must also break the cycle). A significant minority get something else: design a hashmap with no libraries, a Minesweeper design, a restaurant waitlist that seats a party of eight ahead of a party of two plus thread safety, or a playlist-voting service with a sort-strategy extension. Code is typed in a shared editor and not run. Candidates who advanced usually heard the next day.
+Here's what the interview process can look like:
 
-4. **Loop scheduling.** An availability survey comes first, sometimes with a short response window, and the panel schedule arrives about a day before. Loops take place from a few weeks to several months after the assessment. Some new-grad loops were held in person over two days with travel and daily allowances covered. In other cases team matching happened before the loop, so the hiring team ran the interviews.
+- **Recruiter call:** Confirms location, relocation and timeline and outlines the rounds.
+- **Online assessment (most intern, new-grad and SDE I/II candidates):** About 40 minutes of algorithms, 60 minutes of AI-assisted repository work, then untimed work-simulation and work-style sections.
+- **Phone screens (one to four):** 45 to 60 minutes, half Leadership Principles and half coding or small design in an editor that does not run code.
+- **Coding interviews (two or three):** Hour-long loop rounds pairing principle questions with one or two problems.
+- **Low-level design interview (usually one):** A two-sentence prompt turned into classes and working code.
+- **System design interview (SDE II and above, sometimes earlier):** A distributed-systems discussion from the team's domain.
+- **Bar Raiser interview:** An hour of behavioral depth with a trained interviewer from another team.
+- **Hiring manager interview:** Motivation, metrics and generative-AI questions plus a lighter technical segment.
 
-5. **Coding rounds (two or three).** Each is about 60 minutes: behavioral questions, then one or two problems. Reported problems mix unmodified classics (longest substring without repeats, multi-word grid search, maximum frequency stack with only 15 minutes left) with custom prompts: an out-of-order package receiver that reports the largest consecutive ID and the gaps, a file-search API with substring and size filters and a question about symlinks, a cache for traffic that peaks by time zone, points redemption across loyalty programs, and a coin change with limited inventory. Interviewers ask for complexity, a better bound ("can this be O(n)?"), concurrency and memory follow-ups, and they reward boundary tests you write yourself.
+> **Tip:** Plan every technical segment as a 25-minute problem: two minutes of plan, a working baseline in code, then improvements described aloud. Candidates who finished a careful data model but not the core logic were rejected even with the right approach.
 
-6. **Low-level design round.** Usually one round, sometimes two. Prompts are short: a pizza or cinema pricing system, a deck with in-place shuffle and suit-ordered sort, a pub-sub broker with priorities, an employee-cost calculator, a partition split-and-merge service, or a locker system. One new-grad round banned native collections entirely: build a queue from linked nodes with O(1) operations, then add delete and remove-duplicates. Grading rewards clarifying first and an extension point such as a strategy or decorator.
+## Online assessment
 
-7. **System design round (mid-level and above, sometimes earlier).** Reported prompts include ride-hailing location ingestion with spatial indexing, primary-database failover and read replicas, file-sharing permissions, a Kindle-style reader with offline sync and conflict resolution, seller image upload, product search by price and category, a distributed cron scheduler, a web crawler to be designed in 20 minutes, and a notification service for traffic spikes. One mid-level candidate with no machine-learning background was asked to design an ML training-and-deployment platform.
+The assessment is emailed after a resume screen; the link nominally expires in seven days, but recruiters have extended it by up to a month on request. It has up to four parts: about 40 minutes of one or two auto-graded algorithm problems, about 60 minutes of AI-assisted repository work, an untimed work simulation ranking responses to email scenarios, and an untimed work-style survey.
 
-8. **Bar Raiser.** A trained interviewer from outside the team, usually running an entirely behavioral hour of 30–45 minutes of questions. Common threads are dive deep, receiving critical feedback, and disagree-and-commit, where the grade depends on what you did after committing. It sometimes runs as a separate session weeks after the other rounds. In senior loops the Bar Raiser may also add coding (one asked for a priority queue from scratch) and design.
+Algorithm problems come from recurring families: prefix sums on a circle (drone hubs on a ring, redistributing products), greedy merging so each value forms one contiguous block, heap simulations, and placing one extra delivery center on a grid with multi-source BFS plus binary search. A sparse-segment window with coordinates up to a billion is a known trap: one candidate's O(n) prefix array failed most tests on memory.
 
-9. **Hiring manager and decision.** The manager round leans behavioral (why Amazon, metrics, recognizing bad AI output, your biggest weakness) with a lighter coding or whiteboard segment. Decisions came in anywhere from two hours to about a week. Recent rejections after a full loop reported a one-year cooldown.
+The repository task uses a small Django, Spring Boot, Node.js or C++ project with about six failing tests. Bugs are small: a record never persisted, a 401 where a 403 belongs, a missing URL setting, an inverted comparison, a stale variable. Some variants ask for a feature instead, such as review moderation that flags a user after three violations. The assistant explains the selected file but will not write fixes, and sometimes did not work at all.
 
-## What They Actually Evaluate
+Interviewers evaluate:
 
-### Coding and Algorithm
+- **Correctness at scale:** Hidden tests include large inputs, so an approach that exceeds time or memory limits scores as wrong.
+- **Reading constraints:** Value ranges, coordinate bounds and the wrap-around edge on a ring decide the intended solution.
+- **Debugging method:** Running the tests first and tracing back from the failing assertion instead of reading the codebase top to bottom.
+- **Judgment in the simulation:** Protecting testing near a launch, escalating early and gathering context outscore the fastest option.
 
-Two to four coding segments across the process, easy to medium with an occasional exact hard problem, done in 25–30 minutes without running code. Signal comes from saying the invariant out loud, finishing, dry-running your own edge cases and answering the "what if it's a stream" follow-up. Candidates lose points by rewriting a correct approach under silent pressure, by stopping at brute force on a sliding-window maximum, or by treating a scenario prompt as a textbook problem and missing a constraint such as a value range of 0–9 that makes the problem linear.
+Practice timed medium problems on arrays, heaps and grids, and rehearse fixing failing tests in an unfamiliar Django or Spring Boot project inside an hour.
 
-- [Course Schedule](../../questions/algorithm/course-schedule/README.md)
-- [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order)
+> **Note:** A perfect score is not required. Candidates advanced with some of the six tests still failing, while those who stalled had sunk the hour into one bug. Leave a few minutes to commit and push your changes, which at least one version required.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Given non-overlapping segments of bags holding a fixed amount each, with indices up to a billion, find the most money in any k consecutive bags without building the array.
+- Add at most one delivery center to a grid so that the largest distance from any cell to its nearest center is minimized.
+- Fix a movie-watchlist app so that add, remove and lookup persist correctly and return the right HTTP status codes.
+
+- [Max Money from K Consecutive Bags](https://trueinterview.io/questions/311525d4-2675-4709-b108-5237fc93c89c)
+- [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience)
+- [Drone Delivery on a Hub Ring — Minimum Travel](https://trueinterview.io/questions/drone-hub-ring-min-travel)
+- [Debug a Movie DB Watchlist Full-Stack Project](https://trueinterview.io/questions/01d139bb-66c2-5317-b9ee-d6817b67e4a5)
+
+## Phone screens
+
+Screens run 45 to 60 minutes; internal transfers reported three that felt like a full loop. Each opens with 20 to 30 minutes of principle questions, then 25 to 30 minutes of coding in a shared editor that does not run code. The problem is usually one medium with layered follow-ups: course-schedule variants, merging sorted arrays in place then descending then unsorted, or finding a linked-list cycle and then breaking it. A large minority get a scenario or small design instead: a hashmap with no library support, Minesweeper, or a waitlist that seats a party of eight ahead of a party of two. Those who advanced usually heard back the next day.
+
+Interviewers evaluate:
+
+- **Finishing inside the window:** A complete, dry-run solution in 25 minutes; a half-built class hierarchy counts against you.
+- **Adapting to follow-ups:** Changing sort order, breaking the cycle or handling a stream without starting over.
+- **Clarifying scenario prompts:** Whether events repeat, whether progress only grows, which table sizes exist.
+- **Story specifics:** When you knew a deadline would slip, whom you told and what data you used.
+
+Rehearse medium problems in a plain editor without autocomplete, finishing each in 25 minutes including your own test cases.
+
+> **Note:** The recruiter's description of a screen is often wrong. Candidates told to expect pure coding got a library-system schema design, and two rejected candidates ran out of time on an event router and a stream detector they had not expected.
+
+### Sample questions for the phone screens
+
+Here are some questions reported by recent candidates:
+
+- Flag a book as abusive when more than 20% of its reading events jump to the final 5% from a user who never passed 10%, with counters updated concurrently.
+- Build a Java service skeleton that parses JSON events, evaluates field filters and routes each match to named queues.
+- Given services and their dependencies, return every service that fails when a set of services is taken offline.
+
+- [Abusive Books in Reading Event Stream](https://trueinterview.io/questions/audible-abusive-books-stream)
+- [Event Filter & Queue Routing Service](https://trueinterview.io/questions/event-filter-routing-service)
+- [Service Shutdown / Topological Sort](https://trueinterview.io/questions/service-shutdown-topological-sort)
+
+## Coding interviews
+
+The loop has two or three coding rounds of about 60 minutes, each opening with principle questions and then one or two problems, mostly easy to medium with occasional unmodified hard ones; one candidate got a hard problem with 15 minutes left. About half are custom scenarios: an out-of-order package receiver reporting the consecutive run and the gaps, a file-search API with substring and size filters and a question about symbolic links, a cache for traffic that peaks by time zone. Follow-ups push for a better bound ("can this be linear?"), memory, concurrency and streaming input. Treat each scenario as a small service: interface first, then bodies.
+
+Interviewers evaluate:
+
+- **Optimal complexity when asked:** A brute-force sliding-window maximum with no route to the deque version cost one candidate the round.
+- **Using every constraint:** Package weights limited to 0 to 9 turn a sort into one counting pass, and interviewers wait to see if you notice.
+- **Self-testing:** Candidates who wrote their own boundary cases were consistently credited.
+- **Stability under silence:** Some interviewers say almost nothing; a candidate who rewrote a correct approach into a wrong one was rejected.
+
+Practice topological sort, heaps, sliding windows, tries and LRU-style caches until each takes under 20 minutes, then their streaming variants.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Packages arrive with IDs in any order; report the end of the consecutive run starting at 0 and the missing IDs below the maximum.
+- Pay a target amount with points from several programs at different rates, using the fewest points without exceeding any balance.
+- Decide whether packages weighing 0 to 9 can be ordered so each adjacent pair sums to less than 10, then make it linear.
+
 - [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver)
+- [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption)
+- [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement)
 - [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack)
 
-### Low-Level Design
+## Low-level design interview
 
-At least one design-and-code round per loop, and often a phone screen as well. Prompts are two sentences long, and the interviewer expects you to pull out the requirements. Strong answers separate entities cleanly (a book title versus a physical copy, for example), make ordering rules pluggable and cover concurrency when asked. Weak answers stop at a list of if-statements, or spend so long clarifying that nothing gets built.
+Most loops include one object-oriented design round, some two. The prompt is about two sentences; you extract requirements, define classes and write enough code to run the core path in roughly 30 minutes. Reported prompts include a pizza ordering system, a cinema ticket price calculator, a deck with in-place shuffle and suit-ordered sort, a locker system, and splitting or merging database partitions around a size threshold. One new-grad round banned native collections: build a queue from linked nodes with constant-time operations, then add delete and remove-duplicates.
 
-- [Pub-Sub Messaging System](https://trueinterview.io/questions/pub-sub-system-ood)
-- [Playlist / Guide Voting System](https://trueinterview.io/questions/playlist-guide-voting-ood)
+Interviewers evaluate:
+
+- **Requirement extraction:** Asking about capacities, formats and ties before modeling anything.
+- **Entity boundaries:** Separating a book title from a physical copy, or a pricing rule from the ticket it prices.
+- **Extension points:** A strategy or decorator wherever new sort orders, formats or add-ons are hinted.
+- **Working code, not just diagrams:** The core method runs end to end before time is up.
+
+Practice turning a two-line prompt into an interface, three classes and a tested core method within 30 minutes.
+
+> **Note:** A list of if-statements is a failing answer even when it works. A candidate who handled partition split-and-merge with conditional checks, after spending most of the round clarifying, believed that round decided the rejection; a small class model with a pluggable policy was expected.
+
+### Sample questions for the low-level design interview
+
+Here are some questions reported by recent candidates:
+
+- Implement a queue with constant-time enqueue and dequeue from linked nodes only, then add delete of a value and removal of all duplicates.
+- Price a cinema ticket from format, showtime, seat tier and add-ons so that new options need no edits to existing classes.
+- Design a single-machine pub-sub system that delivers higher-priority messages in a topic first.
+
 - [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation)
+- [Pub-Sub Messaging System](https://trueinterview.io/questions/pub-sub-system-ood)
+- [Employee Total-Cost Object Model](https://trueinterview.io/questions/employee-total-cost-object-model)
 
-### System Design
+## System design interview
 
-One round for mid-level candidates, and two or more plus design inside the Bar Raiser round at L6. The reported bar is a clear customer framing and explicit assumptions before any schema, several concrete reasons for each storage choice, and failure handling you bring up yourself. Prompts are rarely the canonical list, and candidates who prepared only the popular set reported topics they had never seen.
+SDE II loops include one system design round and senior loops two or more; a hiring manager once asked for a web crawler in 20 minutes. It is a whiteboard conversation of 30 to 60 minutes. Prompts come from the interviewer's domain rather than the popular list: ride-hailing location ingestion, database failover with read replicas and split-brain handling, file-sharing permissions, seller image upload, product search by price and category, and a distributed cron scheduler. A mid-level candidate with no machine-learning background was asked to design a model training and deployment platform.
 
-- [Core Dump System Design](https://trueinterview.io/questions/core-dump-system-design)
+Interviewers evaluate:
 
-### Behavioral and Leadership
+- **Customer framing first:** Users, the experience that must not break, and stated assumptions before any schema.
+- **Justified storage choices:** Several concrete reasons per choice, such as consistency for stock levels, transactions and indexing.
+- **Failure handling you raise yourself:** Queue-decoupled notifications, idempotent sync APIs, conflict resolution.
+- **Rigor at senior levels:** A staff-level candidate was rejected for a design that worked but lacked numbers and failure modes.
 
-This is the heaviest competency by time. Candidates estimate that more loop minutes go to principles than to code, and one counted 17 questions in four hours. Each story is questioned for dates, metrics, alternatives and what you would change. Generative AI is its own theme: how you validate generated code, and a time it was wrong.
+Practice designs from Amazon's own domains, opening each with a customer-facing requirements pass.
+
+> **Note:** An SDE II candidate who did well on coding was rejected after designing a multi-device e-book reader. The candidate went deep on APIs, caching, schemas and sync flows, and realized afterward that the round expected the customer experience, explicit assumptions and high-level trade-offs first.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design an e-book reader where one account reads a book on several devices, works offline and never lets one device overwrite another's progress.
+- Design ingestion for high-frequency driver location updates and nearby-driver queries.
+- Design a microservice that receives notifications and stays low-latency through sudden spikes.
+
+- [Design an Offline Multi-Device E-Book Reader](https://trueinterview.io/questions/design-an-offline-multi-device-e-book-reader)
+- [Ride-Hailing System Design (Uber)](https://trueinterview.io/questions/ride-hailing-system-design)
+- [Design a Product Image Upload Pipeline for Sellers](https://trueinterview.io/questions/design-a-product-image-upload-pipeline-for-sellers)
+- [Accept Notification Bursts With Low Latency](https://trueinterview.io/questions/accept-notification-bursts-with-low-latency)
+
+## Bar Raiser interview
+
+The Bar Raiser is an experienced interviewer from another team, trained to judge whether a candidate raises the average of the team. The round is usually an hour of behavioral questions, often held apart from the loop, from the day before to a month later; senior Bar Raisers have also asked for a priority queue from scratch. Expect three or four principles, each followed several layers down: dive deep, critical feedback, disagree and commit, root-cause analysis. One candidate counted 17 principle questions across a four-hour loop.
+
+Interviewers evaluate:
+
+- **Ownership of specific actions:** "I" statements with tools, dates and decisions, not team summaries.
+- **Depth under follow-up:** The third "why" still has an answer; rehearsed outlines collapse there.
+- **Honest misjudgment:** A real mistake dissected, including the signal that changed your mind.
+- **Results with numbers:** Latency, adoption or time saved, and what you would change now.
+
+Prepare 8 to 12 recent stories, each tagged with two or three principles, and rehearse their follow-up layers out loud.
+
+> **Tip:** On disagree-and-commit questions the grade turns on what you did after committing. A candidate who did not reopen the debate but mitigated the specific risk they had raised was credited; stories that stop at "I disagreed" are not.
+
+### Sample questions for the Bar Raiser interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through a significant technical decision, the alternatives you rejected, and whether you would make it again.
+- Describe a time you found an issue no one else had noticed: how you isolated it and why your first hypothesis was wrong.
+- Tell me about a time you disagreed with a manager, committed anyway, and what happened next.
 
 - [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
+- [Answer Dive Deep and Ownership in LP interview](https://trueinterview.io/questions/answer-dive-deep-and-ownership-in-lp-interview)
+- [Demonstrate leadership under disagreement](https://trueinterview.io/questions/demonstrate-leadership-under-disagreement)
+
+## Hiring manager interview
+
+The manager's round leans behavioral, with about 30 minutes of technical work: an easy-to-medium problem, a deliberately vague rate limiter, or a whiteboard of a past project. Common questions are why Amazon, the weakness you are working on, and the metrics behind your impact. Generative AI is a standing theme: how you use it, how you noticed its output was wrong, and how you would test AI-generated code.
+
+Interviewers evaluate:
+
+- **Self-awareness:** A real weakness with changes already made, not a disguised strength.
+- **AI judgment:** Concrete validation steps and a failure you caught.
+- **Metrics literacy:** Numbers attached to the impact you claim.
+- **Coachability:** Responding well when the manager redirects your approach mid-problem.
+
+Prepare one generative-AI story that includes a failure and its fix, and a weakness story with evidence of improvement.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- How did you realize output from a generative AI tool was not good enough, and what did you do?
+- What do you most need to improve, and what have you changed so far?
+- Implement a rate limiter from a vague description, then say what could replace your sliding-window deque.
+
 - [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/questions/bq-genai-usage)
-- [Work Simulation & Work Style Assessment](https://trueinterview.io/questions/work-style-simulation-assessment)
+- [Evaluating Generative AI Use and Accuracy](https://trueinterview.io/questions/evaluating-generative-ai-use-and-accuracy)
+- [Own a Mistake with Real Consequences](https://trueinterview.io/questions/own-a-mistake-with-real-consequences)
 
-## What They Don't Test
+## How Amazon levels and evaluates Software Engineer candidates
 
-- **Contest-level difficulty.** Reported problems are mostly easy-to-medium, and clear communication plus self-testing outweighs clever tricks.
-- **Library-heavy shortcuts in design rounds.** Some rounds ban native collections, so building structures from raw nodes is what earns credit.
-- **Memorized canonical system designs.** Prompts come from the team's own domain, and reasoning through an unfamiliar scenario is what gets graded.
-- **Perfect assessment scores.** Candidates advanced with failing tests, and methodical triage mattered more than a clean sweep.
-- **Framework trivia.** Interviewers said they did not care which languages a story involved. They wanted the actions you took and the result.
+Each interviewer writes feedback independently against assigned principles and the target level's technical bar. A debrief run by the Bar Raiser, who has an effective veto, follows, and the Bar Raiser and hiring manager settle the outcome. Evidence is pooled: candidates who solved an LRU cache cleanly were still rejected when another round fell short, and one who thought the manager round went badly got an offer.
 
-## The Real Filter
+The target level is set before the loop and the bar moves with it; at SDE II and above, rejections concentrate in design. Team matching usually follows the offer, though some new graduates matched first and were interviewed by the hiring team itself. Amazon aims to decide within about five business days; reported waits ranged from two hours to just over a week. Candidates rejected after a full loop were recently told to wait one year before reapplying, not the six months many expected.
 
-The main filter is the split hour. Candidates prepare as if coding gets the full 45 minutes and then find that half of it is already gone. The mistake is designing first and coding second, and it is easy to miss because the design discussion feels productive. Two rejected candidates spent their window on class hierarchies and data-structure choices and ran out of time before the core logic worked. What passes is a two-minute plan, a working baseline, and improvements described out loud.
+## How to prepare for the Amazon Software Engineer interview
 
-The second filter is design judgment at L5 and above. A rejected L5 candidate believed the deciding round was a reader-sync design where they went deep on APIs, caching and schemas without first anchoring on the customer experience and the high-level trade-offs. An L6 candidate was rejected after a Bar Raiser asked for a priority queue from scratch in the middle of a design-heavy session.
+1. **Budget for the split hour:** Practice each problem as a 25-minute exercise in a plain editor, with your own test cases.
+2. **Write 8 to 12 tagged stories:** Cover ownership, dive deep, disagree and commit, a missed deadline, critical feedback and a misjudgment, with metrics, dates and rejected alternatives.
+3. **Prepare a generative-AI story with a failure in it:** Nearly every stage asks how you validate generated code.
+4. **Rehearse the repository task:** Fix failing tests in a small Django or Spring Boot app in under an hour, starting from the test output.
+5. **Learn the assessment's problem families:** Circular prefix sums, contiguous-block merging, sparse segments that must not be materialized, and multi-source BFS with binary search.
+6. **Turn two-sentence prompts into working classes:** Include an extension point and a running core method, and build one structure without native collections.
+7. **Open every system design with the customer:** State users, assumptions and trade-offs before APIs and schemas, and raise failure handling yourself.
+8. **Prepare every screen for all three formats:** The recruiter's description of a round is often inaccurate.
 
-The third filter is behavioral depth. Stories that hold up once fall apart at the third "why". Reported rejections include candidates whose coding went well, so plan for eight to twelve stories you can take to that level.
+## About the Amazon Software Engineer role
 
-## Data Source
+Amazon SDEs own services end to end: design documents, code, tests, deployment and on-call. Teams are small and independent, owning services behind well-defined APIs, and the same Leadership Principles shape design reviews and promotions. Since January 2025 corporate staff work in the office five days a week.
 
-Based on 117 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L4 (SDE I) | Well-defined features and components, with mentoring | A component of one team's services |
+| L5 (SDE II) | Larger components owned through design, delivery and operations | A team's systems |
+| L6 (SDE III / Senior SDE) | Architecture, business trade-offs, mentoring and interviewing | Several systems and neighboring teams |
+| L7 (Principal SDE) | Technical direction and standards across many teams | An organization's architecture |
 
-## FAQ
+Amazon hires Software Engineers across most of the company. Teams include:
 
-**What is it like to work there as a Software Engineer?**
+- **Amazon Web Services:** Compute, storage, databases, networking and managed services.
+- **Worldwide Amazon Stores:** Search, catalog, checkout, payments and seller tools.
+- **Operations and logistics:** Fulfillment, transportation, delivery routing and inventory.
+- **Devices and Services:** Alexa, Echo, Kindle, Fire TV and their cloud backends.
+- **Amazon Ads and Prime Video:** Ad serving and measurement, and streaming platforms.
+- **Amazon Leo:** The satellite broadband network formerly called Project Kuiper.
 
-The reports cover the hiring loop, not the job itself. What is documented elsewhere: engineers own their services from design through deployment and operations, including on-call. Teams are small and fairly independent, and proposals are written as long narrative documents that senior engineers read and question line by line. Some candidates also mentioned reorganizations and performance-management pressure in their own experience.
+### Software Engineer experience and education requirements
 
-**What is the engineering culture like?**
+New-grad SDE I postings ask for a bachelor's or higher in a STEM field (completed or in progress), one general-purpose language such as Java, Python, C++ or Go, and data structures and algorithms experience. SDE II postings ask for three or more years of non-internship development and two of system design, with a computer science degree preferred, not required; SDE III asks for about eight years. Any mainstream language is accepted in interviews.
 
-The culture is driven by documents and principles. The same Leadership Principles that run the interview also shape design reviews and promotions, so feedback is often direct and framed in terms like Dive Deep or Have Backbone. Operational excellence and customer impact are the values that get stated most often.
+## FAQs about the Amazon Software Engineer interview
 
-**How hard is it to get in?**
+### How long does the Amazon Software Engineer interview process take?
 
-The technical bar is moderate, but the combined bar is hard. Problems are mostly medium, yet the loop requires strong coding, design and behavioral performance in the same hours. Rejections in the reports often followed rounds the candidate felt went well, and a failed loop now appears to mean a year's wait.
+Usually one to three months: about five weeks from referral to decision at SDE II, about six weeks from recruiter contact to a verbal offer for a new graduate, and over six months when the loop came long after the assessment.
 
-**Which round is hardest?**
+### What is the hardest round of the Amazon Software Engineer interview?
 
-For most candidates it is the Bar Raiser: a full hour of layered follow-ups from someone outside the team. At L5 and above, the system design round is where rejections concentrate.
+For most candidates, the Bar Raiser round: an hour of layered follow-ups from someone outside the team with an outsized say. At SDE II and above, rejections concentrate in system design, usually when schemas came before the customer experience.
+
+### Can you use AI tools during the interview?
+
+Only in the assessment's repository task, which supplies a restricted assistant. Candidates confirm they will not use unauthorized generative AI in live interviews, and using it can disqualify a candidacy; one candidate who paused mid-problem was asked whether a second screen was in use.
+
+### How much does an Amazon Software Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **L4 (SDE I):** ~$180K
+- **L5 (SDE II):** ~$275K
+- **L6 (SDE III):** ~$385K
+
+Packages combine base salary, stock that vests over four years on a back-loaded 5%, 15%, 40%, 40% schedule, and a sign-on bonus paid across the first two years to offset the low early vesting.
+
+### What happens after a rejection?
+
+Candidates rejected after a full loop reported a one-year wait before reapplying, and feedback requests usually went unanswered. Earlier-stage rejections have carried a shorter wait.
 
 ---
 

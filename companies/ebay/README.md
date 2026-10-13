@@ -16,25 +16,33 @@ How Ebay interviews, and the questions candidates reported there. Free questions
 
 ## How Ebay interviews
 
-eBay does not run one standard loop — the shape of your interview is decided by the team that opened the requisition, and candidates who prepared for the format their recruiter described have arrived to find something else entirely. This deep-dive covers what each round actually contains, how it is graded, and where offers are lost, drawing on 8 real eBay questions and 12 candidate interview reports.
+eBay's loop is set by the hiring team, so the same title can mean a two-problem algorithm screen, an object-oriented design exercise, or a code-review conversation, and the recruiter's preview, even of the required language, is often wrong. Code is held to a literal bug-free standard, and a strong design discussion does not offset slow or buggy code. Recent senior loops added AI-assisted code review rounds.
 
-### Interview Process
+This guide breaks down each stage of the eBay interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 11 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### eBay interview process
 
 <!-- guide-diagram -->
 ![eBay interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/ebay/process.webp)
 <!-- guide-diagram -->
 
-#### Recruiter contact and online assessment
+The process usually takes about a month. Early-career and cold applicants usually start with a timed online assessment, while experienced candidates go straight to one or two phone screens. Final loops run about four rounds, or up to six stages counting the phone rounds.
 
-Sourcing matters more here than at most companies: one candidate reported that internal referrals and direct applications went nowhere while contact through an external recruiter opened the process. After the recruiter call, many candidates — especially new-grad and cold-pipeline applicants — take a timed online assessment. Reported assessments carry four coding tasks in one sitting, mixing easy warm-ups with one genuinely fiddly simulation: counting uppercase and lowercase letters, rearranging numbers by comparison against two reference groups, simulating a balloon explosion on an n x n grid with fragments falling under gravity, and applying a sequence of operations to a binary array to produce a string. Assessments typically run about an hour and are graded on hidden tests, so output format and off-by-one behavior in the grid simulation matter as much as the idea. Some teams instead issue a codebase-style assessment where you implement interfaces and classes until each level's tests pass.
+New-grad and SE-level loops are almost all algorithms. MTS 1 and MTS 2 loops add system design, a hiring-manager round and, in some 2026 loops, AI-assisted code review. One reported senior onsite was system design, two coding rounds and a managerial discussion.
 
-#### Technical phone screens
+Here's what the interview process can look like:
 
-Phone screens are where eBay's variance shows most. The common case is a 45-60 minute live coding session in a shared editor with **two problems back-to-back** rather than one deep problem — Two Sum followed by Sliding Window Maximum in one report, K smallest elements across multiple sorted arrays followed by a single-pass binary search on a rotated array in another. Interviewers ask for the brute-force baseline first, then the optimization, then a dry run and a complexity statement. Follow-ups mutate the original constraint instead of introducing a new problem: after a balanced-subarray solution, one interviewer allowed a single element to be modified before the equality requirement applied; after a subtree-counting solution, added a complete-binary-tree condition.
+- **Recruiter screen:** A short call on background, level and location, and the only chance to pin down the language and round types.
+- **Online assessment (early career):** Four timed coding tasks ending in a grid simulation.
+- **Technical phone screen (one or two):** 45–60 minutes, usually two algorithm problems back to back, though some teams substitute design or infrastructure questions.
+- **Hiring manager and behavioral interview:** Influence, scope and technical-depth stories, sometimes as a separate phone screen.
+- **Coding interviews:** One or two onsite rounds at the screen's bar, often ending in a scalability discussion.
+- **System design interview (MTS and above):** Prompts drawn from eBay's own operations, such as payment disputes and database migrations.
+- **AI-assisted code review (some recent loops):** Critique supplied code for extensibility gaps and wrong data types.
 
-But the screen is not always an algorithm round. Reported variants include an object-oriented design task implemented live (a bitmap block class with allocation, free-bit lookup, and hole counting, plus a main function proving it works); a screen that moved from Redis internals to the MySQL storage engine, then Docker versus Kubernetes and Docker versus a virtual machine, then a single hidden bug planted in a long code listing, then a regex for US phone numbers; a screen conducted entirely in JavaScript or TypeScript, with the language requirement communicated only at the start; and a screen that was a code review, where the interviewer supplied code and asked what design-pattern weaknesses and unsuitable data type choices it contained. Some teams use editors where code cannot be executed, which puts the whole weight on reading your own code correctly.
-
-#### Hiring manager and behavioral rounds
+> **Tip:** Ask the recruiter in writing for the language, the editor and whether code can be run. Two reported failures began with a surprise in the first minute: a TypeScript-only requirement, and a promised new format that turned out to be a classic algorithm problem.
 
 **[Read the full Ebay interview process →](interview-process.md)**
 

@@ -16,19 +16,32 @@ How Cisco interviews, and the questions candidates reported there. Free question
 
 ## How Cisco interviews
 
-Cisco's loop rewards engineers who write dependable code and can explain the fundamentals underneath it, not contest-style tricksters. This guide goes deeper than the process outline on the company page: how each stage is actually graded, where candidates get tripped up, and how to pace your preparation. It draws on 5 real Cisco questions and 8 candidate interview reports.
+For many Cisco software roles, the first hurdle is an automated coding assessment. Most reported versions have three problems in no fixed difficulty order, hidden tests that never show the failing input, and integrity monitoring of tab switches and pastes. The coding itself is mostly easy to medium: strings, arrays, grids and linked lists. Candidates fail more often on exact output format and untested edge cases than on choosing the algorithm.
 
-### Interview Process
+This guide breaks down each stage of the Cisco interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 8 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Cisco interview process
 
 <!-- guide-diagram -->
 ![Cisco interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/cisco/process.webp)
 <!-- guide-diagram -->
 
-End to end, the Cisco pipeline typically runs four to eight weeks, though scheduling gaps between stages vary a lot by team — a quiet week rarely means a rejection.
+Each business unit hires for its own teams, so the technical content follows the group. Platform and networking teams probe TCP/IP and OS internals, while cloud, security and collaboration teams lean toward services and APIs. A resume screen comes first and not every applicant receives the assessment. Those who pass it typically have one or two live technical screens, then a final loop of three to five interviews, sometimes split across two days. The process typically takes four to eight weeks.
 
-**Online assessment.** For university hiring and many experienced software roles, the first technical gate is a timed HackerRank-style assessment, typically 70–90 minutes. Candidates consistently describe exactly three coding problems: a quick warm-up, then two meatier tasks drawing on dynamic programming, hash-based frequency counting, grid or spiral simulation, string expansion with nested repetition, zigzag matrix printing, and linked-list manipulation. Two quirks matter. First, the problems are not always ordered by difficulty — an easy question can appear last, so budget time across all three instead of assuming the last one is hardest. Second, hidden tests give no diagnostic feedback: a wrong-answer verdict arrives with no failing input, so you must anticipate edge cases (empty input, single elements, multi-digit counts, already-sorted data) yourself before submitting. Some assessment variants add multiple-choice sections on networking, operating systems, and databases, and not every version requires a camera — but the platform may flag excessive tab-switching or large pastes, so stay inside the editor. Not everyone who applies receives the assessment; a resume screen typically happens first, and results tend to come back within about a week.
+New graduates face the assessment plus coding-heavy live rounds; Software Engineer II applicants report the assessment too, and system design and deeper fundamentals weigh more at senior levels.
 
-**Technical screens.** Next come one or two live technical conversations, typically 45–60 minutes each over Webex, pairing a resume walkthrough with a medium-level coding exercise in a shared editor. Live rounds lean heavily on strings and arrays with exacting requirements: look-and-say sequence variants, expanding strings like `2(ab3(c))` with nested multipliers, and compressing sorted arrays into range notation such as `1 to 4, 6, 7, 9`. Interviewers grade the output format literally — a misplaced space or missing separator can sink an otherwise correct solution. Some interviewers present problems as diagrams or figures rather than text, making requirement interpretation part of the test: translate the picture into states, coordinates, or invariants aloud before you write a line.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call about background, motivation and the role.
+- **Online assessment:** A timed, auto-graded test, usually three coding problems, sometimes with multiple-choice sections on networking, operating systems and databases.
+- **Technical screens (one or two):** Live video calls of typically 45–60 minutes that pair a resume walkthrough with an easy-to-medium coding problem.
+- **Coding interviews:** String and array problems graded on exact output, with complexity discussion.
+- **Fundamentals and design interview:** Networking, OS and concurrency questions matched to the team, plus system design for experienced roles.
+- **Hiring manager and behavioral interview:** Projects, teamwork, conflict and role fit, sometimes with a senior leader.
+
+> **Tip:** Before each submission, write the expected output for an empty input and a one-element input and compare it character by character. Several reported failures were format or edge-case mismatches on otherwise correct logic.
 
 **[Read the full Cisco interview process →](interview-process.md)**
 

@@ -47,18 +47,18 @@ Which stage each question came from, for the **45 of 45** questions at Ebay that
 
 ## What they ask about
 
-Of the **31 questions at Ebay that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **30 questions at Ebay that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 10 | 32% | ████████████ | Aug 21, 2026 |
-| `strings` | 9 | 29% | ███████████ | Jun 16, 2026 |
-| `hashing` | 8 | 26% | ██████████ | Jun 12, 2026 |
-| `graphs` | 5 | 16% | ██████ | Jun 06, 2026 |
+| `arrays` | 10 | 33% | ████████████ | Aug 21, 2026 |
+| `strings` | 9 | 30% | ███████████ | Jun 16, 2026 |
+| `hashing` | 8 | 27% | ██████████ | Jun 12, 2026 |
+| `graphs` | 5 | 17% | ██████ | Jun 06, 2026 |
 | `topological-sort` | 3 | 10% | ████ | Jun 06, 2026 |
-| `binary-search` | 2 | 6% | ██ | Aug 21, 2026 |
-| `matrix` | 2 | 6% | ██ | Jun 12, 2026 |
-| `sorting` | 2 | 6% | ██ | Jun 12, 2026 |
+| `binary-search` | 2 | 7% | ██ | Aug 21, 2026 |
+| `matrix` | 2 | 7% | ██ | Jun 12, 2026 |
+| `sorting` | 2 | 7% | ██ | Jun 12, 2026 |
 | `dynamic-programming` | 1 | 3% | █ | — |
 | `heap` | 1 | 3% | █ | — |
 

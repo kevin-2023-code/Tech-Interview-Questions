@@ -42,20 +42,20 @@ Which stage each question came from, for the **23 of 23** questions at PayPal th
 
 ## What they ask about
 
-Of the **17 questions at PayPal that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at PayPal that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 24% | ████████████ | Apr 14, 2026 |
-| `dynamic-programming` | 3 | 18% | █████████ | — |
-| `greedy` | 3 | 18% | █████████ | — |
+| `graphs` | 4 | 25% | ████████████ | Apr 14, 2026 |
+| `dynamic-programming` | 3 | 19% | █████████ | — |
+| `greedy` | 3 | 19% | █████████ | — |
 | `backtracking` | 2 | 12% | ██████ | Feb 26, 2026 |
-| `hashing` | 2 | 12% | ██████ | Apr 09, 2026 |
 | `heap` | 2 | 12% | ██████ | — |
 | `math` | 2 | 12% | ██████ | Oct 29, 2025 |
 | `trees` | 2 | 12% | ██████ | Feb 26, 2026 |
 | `binary-search` | 1 | 6% | ███ | — |
-| `linked-list` | 1 | 6% | ███ | Apr 09, 2026 |
+| `hashing` | 1 | 6% | ███ | — |
+| `sorting` | 1 | 6% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

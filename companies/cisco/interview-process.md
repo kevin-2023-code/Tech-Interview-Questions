@@ -6,50 +6,203 @@
 
 ---
 
-Cisco's loop rewards engineers who write dependable code and can explain the fundamentals underneath it, not contest-style tricksters. This guide goes deeper than the process outline on the company page: how each stage is actually graded, where candidates get tripped up, and how to pace your preparation. It draws on 5 real Cisco questions and 8 candidate interview reports.
+For many Cisco software roles, the first hurdle is an automated coding assessment. Most reported versions have three problems in no fixed difficulty order, hidden tests that never show the failing input, and integrity monitoring of tab switches and pastes. The coding itself is mostly easy to medium: strings, arrays, grids and linked lists. Candidates fail more often on exact output format and untested edge cases than on choosing the algorithm.
 
-## Interview Process
+This guide breaks down each stage of the Cisco interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 8 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Cisco interview process
 
 <!-- guide-diagram -->
 ![Cisco interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/cisco/process.webp)
 <!-- guide-diagram -->
 
-End to end, the Cisco pipeline typically runs four to eight weeks, though scheduling gaps between stages vary a lot by team — a quiet week rarely means a rejection.
+Each business unit hires for its own teams, so the technical content follows the group. Platform and networking teams probe TCP/IP and OS internals, while cloud, security and collaboration teams lean toward services and APIs. A resume screen comes first and not every applicant receives the assessment. Those who pass it typically have one or two live technical screens, then a final loop of three to five interviews, sometimes split across two days. The process typically takes four to eight weeks.
 
-**Online assessment.** For university hiring and many experienced software roles, the first technical gate is a timed HackerRank-style assessment, typically 70–90 minutes. Candidates consistently describe exactly three coding problems: a quick warm-up, then two meatier tasks drawing on dynamic programming, hash-based frequency counting, grid or spiral simulation, string expansion with nested repetition, zigzag matrix printing, and linked-list manipulation. Two quirks matter. First, the problems are not always ordered by difficulty — an easy question can appear last, so budget time across all three instead of assuming the last one is hardest. Second, hidden tests give no diagnostic feedback: a wrong-answer verdict arrives with no failing input, so you must anticipate edge cases (empty input, single elements, multi-digit counts, already-sorted data) yourself before submitting. Some assessment variants add multiple-choice sections on networking, operating systems, and databases, and not every version requires a camera — but the platform may flag excessive tab-switching or large pastes, so stay inside the editor. Not everyone who applies receives the assessment; a resume screen typically happens first, and results tend to come back within about a week.
+New graduates face the assessment plus coding-heavy live rounds; Software Engineer II applicants report the assessment too, and system design and deeper fundamentals weigh more at senior levels.
 
-**Technical screens.** Next come one or two live technical conversations, typically 45–60 minutes each over Webex, pairing a resume walkthrough with a medium-level coding exercise in a shared editor. Live rounds lean heavily on strings and arrays with exacting requirements: look-and-say sequence variants, expanding strings like `2(ab3(c))` with nested multipliers, and compressing sorted arrays into range notation such as `1 to 4, 6, 7, 9`. Interviewers grade the output format literally — a misplaced space or missing separator can sink an otherwise correct solution. Some interviewers present problems as diagrams or figures rather than text, making requirement interpretation part of the test: translate the picture into states, coordinates, or invariants aloud before you write a line.
+Here's what the interview process can look like:
 
-**Final loop.** The onsite or virtual final round is typically three to five back-to-back interviews, occasionally split across two days. The mix depends on the team: coding rounds at medium difficulty with strong emphasis on narrating your reasoning and complexity analysis; a system design conversation for experienced roles (rate limiters, chat systems, URL shorteners are representative), where the grading centers on trade-offs, API and schema decisions, and failure modes; and a fundamentals deep-dive matched to the group — TCP handshakes, TCP versus UDP, DNS resolution, and routing for network-adjacent teams, or threads versus processes, mutexes, deadlock, and scheduling for platform teams. Expect follow-ups that push from your code into how it behaves in a resource-constrained, real-world environment.
+- **Recruiter screen:** A short call about background, motivation and the role.
+- **Online assessment:** A timed, auto-graded test, usually three coding problems, sometimes with multiple-choice sections on networking, operating systems and databases.
+- **Technical screens (one or two):** Live video calls of typically 45–60 minutes that pair a resume walkthrough with an easy-to-medium coding problem.
+- **Coding interviews:** String and array problems graded on exact output, with complexity discussion.
+- **Fundamentals and design interview:** Networking, OS and concurrency questions matched to the team, plus system design for experienced roles.
+- **Hiring manager and behavioral interview:** Projects, teamwork, conflict and role fit, sometimes with a senior leader.
 
-**Hiring-manager and behavioral round.** This is a genuine ownership test, not a formality. Expect sustained follow-ups on a project you claim to have led: the original problem, the trade-offs, what went wrong, your exact contribution, and the measurable outcome. Conflict, incident recovery, and changing requirements are favorite territories because they expose judgment. A story with a real setback and a real lesson lands better than a polished, responsibility-free success.
+> **Tip:** Before each submission, write the expected output for an empty input and a one-element input and compare it character by character. Several reported failures were format or edge-case mismatches on otherwise correct logic.
 
-## What Candidates Report
+## Online assessment
 
-- The assessment's difficulty is moderate, but the challenge is breadth: switching from a warm-up into dynamic programming, then hashing or grid simulation, within one sitting.
-- Problem ordering surprises people. More than one candidate found the easiest task last and burned time second-guessing it; treat displayed order as arbitrary.
-- Exactness fails more candidates than algorithms do. Multi-digit repetition counts, stray whitespace, sorted-input guarantees, character-versus-string comparisons, and output separators all show up as silent test failures.
-- Hidden test cases give nothing away. One candidate passed every visible sample on a linked-list task, then failed a hidden case with no error message and no input dump — local testing of empty and single-node cases beforehand is the only defense.
-- Diagram-based prompts appear in live rounds. Candidates who methodically converted figures into concrete requirements fared better than those who guessed and coded.
-- Across stages, interviewers reward candidates who connect code to fundamentals — explaining why an approach suits the constraints counts as much as producing it.
+The assessment runs on a hosted platform, reportedly HackerRank in most cases. Recent reports describe three coding problems, often two easy and one medium. The time limit varies by version: one 2025 account allowed about 30 minutes for three problems, and longer variants of typically 70–90 minutes add multiple-choice questions on networking, operating systems and databases. Topics included Kadane's maximum subarray, the smallest element that appears exactly once, a dynamic-programming problem over a sequence of states, a hash-based frequency problem, zigzag matrix printing and nested string expansion.
 
-## Coding Questions
+One candidate found the easiest problem placed last. Another passed every visible sample on a linked-list task, then failed the first hidden test with no error message and no input shown, and ran out of time guessing the cause. One version did not require a camera, but candidates were warned that tab switching, large pastes and outside tools such as chatbots may be flagged.
 
-Cisco coding practice should emphasize clean implementation of common patterns under time pressure rather than obscure algorithms. String parsing and grid traversal deserve disproportionate attention, because small interpretation errors invalidate otherwise sound solutions, and the nested-expansion pattern below has appeared in live Cisco rounds in nearly identical form. Practice stating the invariant while you work, then defending complexity with an adversarial example.
+Interviewers evaluate:
 
-- [Find Elements Largest in Row Smallest in Column](../../questions/algorithm/row-maximum-column-minimum/README.md)
-- [Minimum Insertions / Deletions Password Update](../../questions/algorithm/minimum-insertions-deletions-password-update/README.md)
+- **Hidden-case correctness:** Empty lists, single nodes, multi-digit counts and boundary coordinates handled before you submit.
+- **Efficiency:** A hash map or DP table where nested loops would time out.
+- **Time allocation:** Solving all three problems rather than polishing the first one, since the order is not by difficulty.
+- **Simulation accuracy:** Exact direction and skip rules on grid-walk problems, without off-by-one errors.
+
+Practice sets of three mixed problems under a 30-minute and a 90-minute limit, testing your own edge cases before every submission.
+
+> **Note:** Hidden tests return only a verdict, with no failing input. If a submission fails, you have to work out the bad case on your own, so build an edge-case list before you start coding.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Return the largest sum of any contiguous subarray.
+- From an integer array, return the smallest value that appears exactly once.
+- Starting at (1,1), jump counterclockwise in a spiral while skipping every other cell, and report the last reachable cell.
+- Print a matrix in zigzag order, alternating direction on each row.
+
+- [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md)
+- [Find Last Cell](../../questions/algorithm/find-last-cell/README.md)
+- [Matrix Zig-Zag Traversal](../../questions/algorithm/matrix-zig-zag-traversal/README.md)
+- [Identify the Non-Twin Person](https://trueinterview.io/questions/61ccd7ec-3ff5-4114-8e18-d910c7dc001e)
+- [Linked List Binary to Decimal](../../questions/algorithm/linked-list-binary-to-decimal/README.md)
+
+## Technical screens
+
+Screens are typically 45–60 minute video calls with an engineer from the hiring team. Each opens with a walkthrough of your resume and then moves to one easy-to-medium coding problem in a shared editor. Some prompts are given as figures or diagrams rather than text. One candidate's round combined a prime-number task with two diagram-based problems, so part of the test was turning the picture into requirements. Expect to state complexity and how the code behaves with limited memory or CPU.
+
+Interviewers evaluate:
+
+- **Requirement extraction:** Turning a diagram into states, coordinates or rules out loud before writing code.
+- **Math and number classics:** Prime checks and sieves, including the number one and large ranges.
+- **Resume depth:** Explaining your own projects accurately, including the protocols and systems they touched.
+- **Communication:** Narrating your approach and complexity without being prompted.
+
+Practice explaining a figure-based problem aloud before coding, and review number-theory basics.
+
+### Sample questions for the technical screens
+
+Here are some questions reported by recent candidates:
+
+- Decide whether a number is prime, then make the check fast for large ranges.
+- Implement the logic of a process shown only as a diagram.
+- Walk through a project on your resume and the design choices behind it.
+
+- [Find Out Prime or Composite](../../questions/algorithm/find-out-prime-or-composite/README.md)
+- [Count Numbers with Sum of Digits](https://trueinterview.io/questions/c17c4233-5a37-452b-933f-4a3994c7295f)
+- [Rotate a Matrix by 90 Degrees In Place](../../questions/algorithm/rotate-a-matrix-by-90-degrees-in-place/README.md)
+
+## Coding interviews
+
+Coding rounds stay at easy to medium and focus on string handling, with output checked exactly. In one three-round sequence, the first round asked for the next look-and-say term ("111221" becomes "312211"). The second expanded strings such as "2(ab3(c))" into "abcccabccc", with nesting and multi-digit counts. The third compressed a sorted array into ranges, so [1, 2, 3, 4, 6, 7, 9] becomes "1 to 4, 6, 7, 9".
+
+The pitfalls the candidate reported were small ones: comparing a Java `char` to a string literal, sorting input that was already guaranteed sorted, and a missing space or newline that failed an otherwise correct answer.
+
+Interviewers evaluate:
+
+- **Exact format:** Separators, spacing and newlines that match the specification.
+- **Robust parsing:** Multi-digit numbers, stray whitespace and nested brackets handled by recursion or a stack.
+- **Respecting guarantees:** Using sorted or order-preserving input as given, without extra work.
+
+Write each of the three classics from scratch and compare the output to the specification byte for byte.
+
+> **Tip:** For nested expansion, write the recursive parser so it returns both the expanded string and the index where it stopped. Bugs with multi-digit counts and nested brackets usually come from losing that index.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Given a digit string, return the next term of the look-and-say sequence.
+- Expand a string where a number before parentheses repeats the enclosed part, with nesting allowed.
+- Compress a sorted integer array into a comma-separated list where runs appear as "a to b".
+
+- [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md)
 - [Nested Pattern String Expansion](../../questions/algorithm/nested-pattern-string-expansion/README.md)
+- [Compress Consecutive Ranges](../../questions/algorithm/compress-consecutive-ranges/README.md)
+- [Add Two Reversed Digit Lists](../../questions/algorithm/add-two-reversed-digit-lists/README.md)
+- [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring)
 
-## How to Prepare
+## Fundamentals and design interview
 
-- Simulate the assessment exactly: three unrelated problems, 90 minutes, no external tools. Practice abandoning a stuck problem and returning, since ordering will not follow difficulty.
-- Build a written edge-case checklist for linked lists, parsers, grids, and maps — empty input, single element, duplicates, multi-digit numbers, boundary coordinates — and run it before every submission, because Cisco's graders will not show you the failing case.
-- Drill string-format discipline: implement look-and-say, nested string expansion, and range-compression from scratch, matching the specified output byte for byte, including separators and spacing.
-- Practice interpreting visual problem statements — flowcharts, grids, state diagrams — by converting a figure into explicit requirements before coding.
-- Rehearse explaining TCP setup and teardown, TCP versus UDP trade-offs, DNS resolution, and deadlock conditions aloud, with implementation consequences, not textbook definitions.
-- Prepare two project deep-dives — one clean delivery, one involving an incident or reversal — with quantified outcomes and a clear account of what you personally did and changed.
-- In mocks, end every solution with complexity, limitations, tests you would add, and how the code behaves under real resource constraints; that closing habit maps directly to how Cisco panels grade.
+Final loops typically include a round matched to the team's domain. Networking and embedded teams ask about TCP/IP, routing, memory management and bit manipulation. General software teams focus on API design, microservices and cloud-native patterns. Operating-system topics such as threads versus processes, mutexes and semaphores, deadlock conditions and CPU scheduling come up across groups. Experienced candidates typically also get a system design conversation, such as a rate limiter, chat system or URL shortener, graded on trade-offs, APIs, schema and failure modes.
+
+Interviewers evaluate:
+
+- **Protocol depth:** The TCP handshake, TCP versus UDP trade-offs and DNS resolution, explained step by step.
+- **Concurrency judgment:** When to use a mutex or a semaphore, and how to avoid deadlock.
+- **Constrained environments:** How your code behaves on devices with limited memory and CPU.
+- **Design trade-offs:** Explicit failure modes and scaling limits at senior levels.
+
+Rehearse networking and OS explanations aloud, tied to concrete implementation consequences.
+
+### Sample questions for the fundamentals and design interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through the TCP three-way handshake and when you would choose UDP instead.
+- Explain how DNS resolution works from client to authoritative server.
+- Describe the conditions for deadlock and how to prevent it.
+- Design a rate limiter.
+
+## Hiring manager and behavioral interview
+
+The hiring manager typically covers your projects, how you work, the team's direction and role fit, and may also discuss compensation expectations. Some loops add a final round with a director on behavioral topics, work style and technology ethics. Questions follow the "tell me about a time" format and focus on conflict, leading a project, and failing and recovering.
+
+Interviewers look for:
+
+- **Ownership:** Your exact contribution and its measurable result.
+- **Recovery:** A real setback, what you changed afterwards and what you learned.
+- **Collaboration:** How you handled a disagreement within a team.
+
+Prepare two project deep dives, one clean delivery and one involving a setback, each with numbers.
+
+### Sample questions for the hiring manager and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you handled a conflict on your team.
+- Describe a project you led and how you measured its success.
+- Tell me about a failure and how you recovered from it.
+
+## How Cisco makes hiring decisions
+
+The hiring manager's team runs the loop and makes the decision, and level usually follows the posting, such as Software Engineer I or II. Timelines vary by business unit, and some candidates waited weeks between the assessment and the next contact. The reports and public accounts say little about formal committees or cooldowns, so ask your recruiter about next steps after each stage.
+
+## How to prepare for the Cisco interview
+
+1. **Simulate the assessment:** Three unrelated problems in random order, under both a short and a long time limit, with no outside tools.
+2. **Keep an edge-case checklist:** Empty input, single element, duplicates, multi-digit numbers and boundary cells, run before every submission.
+3. **Drill the string classics:** Look-and-say, nested expansion and range compression, matching the output exactly.
+4. **Practice grid simulations:** Spiral and zigzag walks with skip rules, traced on paper first.
+5. **Read diagrams into requirements:** Turn figures into explicit rules before coding.
+6. **Review networking and OS basics:** The TCP handshake, DNS, deadlock and scheduling, explained with implementation consequences.
+7. **Prepare two quantified stories:** One clean delivery and one with a setback.
+
+## About working at Cisco
+
+Cisco engineers build software for networking hardware, security products and cloud services, often close to the hardware. The software engineer track runs from Software Engineer I upward through senior titles to Technical Leader, Principal Engineer and Distinguished Engineer. Cisco hires software engineers across its business units. Teams include:
+
+- **Networking:** Switching, routing, wireless and Silicon One, where C, C++ and protocol knowledge matter.
+- **Security:** Firewalls, identity and zero-trust products.
+- **Splunk:** Observability and security analytics.
+- **Collaboration:** Webex meetings, calling and devices.
+- **Cloud and AI infrastructure:** Data-center networking and ThousandEyes monitoring.
+
+### Experience and education requirements
+
+Software Engineer I postings ask for a recent or final-year bachelor's degree in computer science, computer or electrical engineering or a related field, or equivalent credentials. They also ask for proficiency in C/C++, Python or Java and hands-on testing or debugging experience. Linux, networking, OS fundamentals and cloud platforms are listed as preferred, and many postings require work authorization without sponsorship. Principal roles ask for twelve or more years of large-scale systems experience.
+
+## FAQs about the Cisco interview
+
+### How long does the Cisco interview process take?
+
+Typically four to eight weeks, with wide gaps between stages depending on the team.
+
+### What is the hardest round of the Cisco interview?
+
+Candidates most often name the online assessment, because hidden tests give no feedback and the problem order is unpredictable. Senior candidates point to the fundamentals and design round.
+
+### What language should I use?
+
+Any mainstream language works for coding rounds. C, C++ and Python suit networking teams best, and in Java watch the difference between char and String.
 
 ---
 

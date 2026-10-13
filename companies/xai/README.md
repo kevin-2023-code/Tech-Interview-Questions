@@ -16,19 +16,32 @@ How xAI interviews, and the questions candidates reported there. Free questions 
 
 ## How xAI interviews
 
-This guide goes deeper than the process outline on the company page: how each xAI stage is actually graded, which problem archetypes keep reappearing, and how compressed the timeline can get. It draws on 29 real xAI questions and 31 candidate interview reports, covering everything from 15-minute behavioral screens to 4-hour build-a-backend assessments.
+SpaceXAI, the Grok lab SpaceX acquired in February 2026, swaps the usual algorithm test for a four-hour build you then explain on video, and weighs one project you can defend down to the code above a run of solved problems. Screens last eight minutes to an hour, and decisions can arrive within the hour. The most common complaint is a rejection without feedback after every test passed.
 
-### Interview Process
+This guide breaks down each stage of the SpaceXAI interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 29 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### SpaceXAI (formerly xAI) interview process
 
 <!-- guide-diagram -->
 ![xAI interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/xai/process.webp)
 <!-- guide-diagram -->
 
-**The screen is short, variable, and decisive.** First calls last anywhere from 8 to 30 minutes and the content is unpredictable: purely behavioral (most challenging project, why xAI, why leave your current job), operating-systems fundamentals (process vs. thread, shared memory and its risks), resume-driven technology checks (Go, Rust, Kerberos), or a live debugging exercise — fixing a race condition in a concurrent bank-account deposit function — compressed into roughly 15 minutes. Two things are consistent: the "most challenging project" question appears in nearly every screen, and turnaround is startlingly fast — multiple candidates heard back within an hour of hanging up, one with an offer. An 8-minute call with correct answers can still end in rejection; the screen filters on project depth and articulation, not just correctness.
+Hiring teams run their own loops, and reported loops ran from one round (a conversational screen ending in an offer) to five (recruiter call, timed project, live coding, hiring-manager deep dive and a closing call). A moving pipeline books each round within 24 hours of the last; a stalled one sits through holiday delays, holds or a hiring pause.
 
-**The project-based assessment is where xAI diverges most from other companies.** Instead of a LeetCode-style OA, many software candidates receive a roughly 4-hour project build with up to 7 prompts to choose from — backend services, frontend, ML pipelines, an Android app, a Grok-powered search experience, a RAG system. The most commonly reported brief is a "Twitter Insight Platform" backend with a two-tier rate limiter and Docker packaging. AI coding assistants are explicitly allowed and effectively assumed, but a recorded or live demo follows and you must be able to explain every line. The full anatomy of the assessment — variants, timing rules, and where candidates lose points — is broken down in the Software Engineer guide.
+Everyone is hired as a Member of Technical Staff, so the loop shifts by track rather than level. Software Engineer candidates are the most likely to get the project assessment; Infrastructure Engineer candidates get concurrency and cluster problems; Machine Learning Engineer candidates get distributed-training questions, research discussion and sometimes a talk. Senior candidates are judged mostly on how far one project holds up.
 
-**Live coding is practical, infrastructure-flavored, and escalates relentlessly.** Problems start from a simple baseline — multithreaded sorting, event-log aggregation, k-th element queries, token limiters, nested structure transforms, resumable iterators, LRU variants — then tighten constraints toward streaming input, memory caps, concurrency, and production hardening, often drawn from a problem the interviewer personally worked on rather than a question bank. Grading rewards a fast correct core and precisely stated assumptions: rejections have cited imprecise problem definitions and early design wrong turns that spawned unrecoverable bugs. The coding environment's test scaffolding may be Python-only, so budget time for your own harness in other languages.
+Here's what the interview process can look like:
+
+- **Application and recruiter screen:** A written exceptional-work statement, then a short call on background and eligibility.
+- **Initial phone screen:** An 8–30 minute engineer call on your hardest project and motivation, sometimes with a fundamentals or debugging task.
+- **Project assessment (many Software Engineer candidates):** A four-hour build from about seven briefs, AI allowed, demo video within 24 hours.
+- **Technical phone screens:** 45–60 minute live rounds: a resume deep dive, then one practical coding problem with tightening follow-ups.
+- **Final technical rounds:** Coding and design in Palo Alto, San Francisco or remotely, plus domain rounds for machine learning candidates.
+- **Hiring manager deep dive and close:** A full call on your strongest project, then a vision and offer conversation.
+
+> **Tip:** Prepare one project at three depths (a two-minute summary, a ten-minute architecture walkthrough, a code-level account of the hardest bug). The same project is examined in the statement, the first screen and the hiring-manager round.
 
 **[Read the full xAI interview process →](interview-process.md)**
 

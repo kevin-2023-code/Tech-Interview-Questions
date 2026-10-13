@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Hard | xAI | Phone screen | math | Apr 2026 |
+| AI Coding | Hard | xAI | Phone screen | — | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.

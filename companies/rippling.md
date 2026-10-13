@@ -51,20 +51,20 @@ Which stage each question came from, for the **48 of 48** questions at Rippling 
 
 ## What they ask about
 
-Of the **23 questions at Rippling that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at Rippling that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 5 | 22% | ████████████ | Aug 17, 2026 |
-| `hashing` | 4 | 17% | ██████████ | May 29, 2026 |
-| `arrays` | 3 | 13% | ███████ | Jun 16, 2026 |
-| `backtracking` | 3 | 13% | ███████ | Mar 14, 2026 |
-| `sorting` | 3 | 13% | ███████ | Feb 04, 2026 |
+| `graphs` | 5 | 23% | ████████████ | Aug 17, 2026 |
+| `hashing` | 4 | 18% | ██████████ | May 29, 2026 |
+| `arrays` | 3 | 14% | ███████ | Jun 16, 2026 |
+| `backtracking` | 3 | 14% | ███████ | Mar 14, 2026 |
+| `sorting` | 3 | 14% | ███████ | Feb 04, 2026 |
 | `binary-search` | 2 | 9% | █████ | Sep 13, 2026 |
 | `intervals` | 2 | 9% | █████ | Feb 04, 2026 |
-| `greedy` | 1 | 4% | ██ | Sep 10, 2026 |
-| `math` | 1 | 4% | ██ | Jan 25, 2026 |
-| `strings` | 1 | 4% | ██ | Jun 09, 2026 |
+| `math` | 1 | 5% | ██ | Jan 25, 2026 |
+| `strings` | 1 | 5% | ██ | Jun 09, 2026 |
+| `two-pointers` | 1 | 5% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -6,88 +6,221 @@
 
 ---
 
-Machine Learning Engineer candidates at Tesla are rejected mid-call, on an oral fundamentals question, after the coding is already over. One reported screen turned on whether `y = 0.01x` is usable as an activation function; the answer exposed a gap in why non-linearity is required, the interviewer's tone cooled audibly, and the loop ended there despite the round having started with a real coding problem. The other structural surprise is how short the track is: across the reports here the entire process is one to three phone screens with no onsite reached, so a single hour with one engineer decides it. Coding fluency gets you into the conversation; the conceptual answers you give in the last fifteen minutes decide the outcome.
+Tesla's Machine Learning Engineer track is decided almost entirely on the phone. One to three hour-long screens with a team engineer made every reported call. Each blends hands-on coding with rapid oral theory. The coding is shaped by the vehicle domain: NumPy kernels, waypoint tensors and reward functions rather than puzzle lists. The theory questions arrive late in the hour, sound conversational, and are where most rejections happen. The team you are routed to (planning, sensing, cell quality, data) sets the subject matter.
 
-## Interview Process
+This guide breaks down each stage of the Tesla Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 6 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2, cross-checked against recent public accounts.
+
+## Tesla Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Tesla Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/tesla--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter contact and screen.** Most candidates on this track are approached by a recruiter rather than arriving through an application, and the opening call is short: background, which team's problem space fits (perception, motion planning, sensing, controls, cell quality, or ML infrastructure), and availability. The team you get routed to determines almost everything downstream, because each one runs its own screen with its own emphasis. Expect the first technical call within a week or two.
+Tesla hires ML engineers team by team, and each team runs its own screens. The skeleton is a recruiter call, one to three technical phone screens of about an hour each, and, for candidates who clear them, an onsite panel of typically three to five rounds. The process usually takes four to eight weeks. Junior candidates are often decided after a single screen. Experienced candidates sit two or three screens that move from implementation toward research-level questions, and senior loops add ML system design at the onsite.
 
-2. **First technical phone screen, roughly 60 minutes.** Nearly every reported screen opens with an unhurried discussion of your background and past ML work before flowing into technical material, and that discussion is graded. Interviewers pick one project and interrogate the architectural decisions inside it: why an LSTM and not a transformer for that sequence task, what went wrong in training, how you knew the model was working. The coding half is domain-shaped rather than puzzle-shaped — a suffix sum computed backwards along the waypoint axis of a `[batch, num_waypoint, 2]` tensor, vectorized distance computations over coordinate geometry, or a streaming moving average that the interviewer constrains to recursion and a stack instead of the obvious queue.
+Here's what the interview process can look like:
 
-3. **Second technical screen, coding plus theory in one hour.** The blend is the defining feature of this track: one call moved from a transformer walkthrough covering self-attention, positional encoding and multi-head mechanics into calculating the parameter count of a convolutional layer from its channel counts, kernel size, stride, padding and bias flag, and then into implementing a 2D convolution forward pass from scratch in NumPy. The follow-up is always vectorization — removing the Python loops is treated as part of the answer, not an extension. Another reported second round paired reinforcement learning theory (GRPO versus PPO, learned reward functions versus hand-crafted heuristics) with writing a reward that keeps a vehicle at a speed limit given trajectory samples at 10 Hz, then asked what breaks when the speed limit changes over time.
+- **Recruiter call:** A short conversation about background, which team's problem space fits, and availability.
+- **Technical phone screen (coding):** About 60 minutes that open with a graded project discussion and then a domain-shaped NumPy or tensor problem.
+- **ML theory and research screen:** An hour of oral fundamentals (transformers, CNNs, activations, RL, importance sampling), sometimes paired with a second implementation.
+- **Team-specific technical screen:** The team's own domain, from reward shaping and agent modeling to computer vision, statistics cases or SQL.
+- **Onsite panel (when reached):** Typically three to five back-to-back rounds covering ML system design, coding, a project deep dive and a hiring-manager conversation.
 
-4. **Third screen, research-flavored.** Candidates who advance report a further call that is closer to a research conversation than a coding round: explaining importance sampling from its mathematical basis through its variance-reduction properties and its use in off-policy reinforcement learning and probabilistic inference. Nothing is implemented here; the interviewer is checking whether you own the mathematics behind the methods you list.
+> **Tip:** Treat the final fifteen minutes of every screen as the scored part. Candidates who finished the coding cleanly were still rejected when a short conceptual question exposed a gap.
 
-5. **Team-specific screens.** Sensing roles fold computer vision fundamentals into the same hour — CNN versus MLP and when each is appropriate, ResNet skip connections and why they help, and the statistical properties of Gaussian noise in sensor data. Controls-adjacent roles add Model Predictive Control and ask for automatic braking logic written in Python under time pressure. Motion planning and reinforcement learning teams open with how you model other agents' behavior and intent in a multi-agent driving simulation. Cell and quality engineering runs a statistics case instead of a coding problem: given pass/fail inspection counts from several production lines, pick the right test for comparing proportions across more than two groups, state the null hypothesis and the assumptions, and turn the p-value into a decision on the factory floor.
+## Recruiter call
 
-6. **Onsite panel, when it happens.** No report in this set reached one, which is itself the finding — the phone stage is where this track is decided. Where an onsite does follow, it typically runs three to five back-to-back rounds with engineers, a team lead and the hiring manager, mixing an end-to-end ML system design round with coding and behavioral conversation, and AI-organization roles may add a research presentation. Senior and Autopilot-side loops typically stretch longer than other tracks because of team matching.
+Most candidates on this track are approached by a recruiter. The short first call covers background, why Tesla, relocation, and which team your experience maps to: perception, planning and simulation, sensing, controls, cell quality, data, or ML infrastructure. That routing decides everything downstream. The first technical screen usually follows within one to two weeks.
 
-7. **Waiting.** Feedback timing is inconsistent. Reports include candidates advancing after a single well-executed screen and others left without an answer, so keep parallel processes alive.
+Interviewers look for:
 
-## What They Actually Evaluate
+- **Fit to a concrete team problem:** A clear statement of which models you have trained and shipped, and on what data.
+- **Hands-on ownership:** Evidence that you built the systems on your resume rather than supervised them.
+- **Motivation:** A specific reason to work on autonomy, robotics or energy.
+- **Logistics:** Willingness to work on site in Palo Alto, Austin or a factory location, since remote options are limited.
 
-### Coding and Algorithm
+Prepare a two-minute summary of your strongest ML project: model choice, data and measured result.
 
-Coding is live, in a shared editor, and framed in the vehicle domain rather than in abstract puzzles. The recurring shapes are tensor manipulation with explicit shape contracts (input `[batch, num_waypoint, 2]`, output `[batch, num_waypoint]`), from-scratch numerical kernels, and reward or metric functions computed over trajectory samples. Two things earn signal beyond correctness: writing unit tests against hand-calculated cases as you go, which one candidate did and was advanced on, and vectorizing away every Python loop when asked. What loses it is index arithmetic that falls apart at padding and stride boundaries, and freezing when a familiar problem is given an unfamiliar constraint — the moving-average problem became a rejection specifically because the recursion-and-stack requirement broke the candidate's fluency.
+### Sample questions for the recruiter call
+
+Here are some questions reported by recent candidates:
+
+- Walk through your background and the ML project you are proudest of.
+- Why Tesla, and which team's work interests you?
+
+## Technical phone screen
+
+The first technical call runs about an hour in a shared editor, usually in Python with NumPy. Every reported screen opened with a graded discussion of past work: why one model over another, what went wrong in training, how you knew it generalized.
+
+The coding half is domain-shaped. One candidate wrote vectorized NumPy to compute distances between coordinate points. Another implemented a 2D convolution forward pass from scratch with stride and padding across multiple input channels, plus unit tests against hand-calculated cases, and advanced. A planning team gave a suffix sum over the waypoint axis of a `[batch, num_waypoint, 2]` tensor that had to return `[batch, num_waypoint]`. A sensing screen took a streaming moving average and required a recursion-and-stack solution instead of a queue. That constraint broke the candidate's fluency and ended in rejection.
+
+Interviewers evaluate:
+
+- **Shape discipline:** Stating input and output shapes up front and reducing or broadcasting along the right axis.
+- **Index arithmetic:** Output-size formulas, padding and stride boundaries that hold at the edges.
+- **Vectorization:** Removing Python loops when asked is treated as part of the answer, not an extension.
+- **Testing habits:** Writing small hand-checked cases (an identity or edge-detector kernel) while coding.
+
+Practice writing convolution, cumulative and distance kernels in raw NumPy without library helpers, then vectorize them.
+
+> **Note:** Interviewers routinely remove the tool you would reach for. Recursion instead of a queue, no framework calls, a parameter count without the formula in front of you. Candidates who had memorized the standard solution rather than the mechanism ran out of time.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Implement the forward pass of conv2d with stride, padding and multi-channel kernels, and write unit tests for it.
+- Given a `[batch, num_waypoint, 2]` tensor, compute a reversed cumulative sum along the waypoint axis and return `[batch, num_waypoint]`.
+- Write vectorized NumPy that computes pairwise distances between sets of 2D points.
+- Implement a moving average over a data stream using recursion and a stack rather than a queue.
 
 - [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward)
-- [Shortest Bridge](../../questions/algorithm/shortest-bridge-2/README.md)
+- [Compute suffix sums over waypoints](https://trueinterview.io/questions/compute-suffix-sums-over-waypoints)
+- [Route Nearest Checkpoint](../../questions/algorithm/trajectory-waypoint-distance-queries/README.md)
 
-### ML Theory
+## ML theory and research screen
 
-This is the highest-variance competency and the one that ends interviews. Questions are oral, rapid and sequenced from easy to sharp: describe the transformer, then how backpropagation flows through softmax in attention, then CNN versus MLP, then ResNet skip connections, then whether a linear function can serve as an activation. Interviewers are not checking that you can name things — the reported failures all involved answers that were correct at the headline level and empty underneath. Derivation beats recall: be able to produce a convolutional layer's parameter count from hyperparameters without a formula sheet, explain why a purely linear activation collapses a deep network into a single affine map, and state importance sampling's variance behavior rather than its definition. For quality and manufacturing roles the same bar applies to statistics, where naming the test is worth nothing without the null hypothesis, the assumptions and the decision it drives.
+Candidates who advance report a mostly oral call that moves quickly from easy to sharp. One covered autoregressive models and the Transformer: scaled dot-product and multi-head attention, softmax in the attention weights, and how gradients flow back through it. A later call asked for importance sampling from its mathematical basis through its variance behavior and its use in reinforcement learning, with nothing implemented.
+
+Other loops fold theory into a coding hour, for example a transformer walkthrough, then a convolutional layer's parameter count, then a NumPy convolution. Sensing screens asked CNN versus MLP, why ResNet skip connections help, and whether `y = 0.01x` works as an activation function. That last question decided one interview: the candidate's answer missed that stacked linear layers collapse into one linear map, and the interviewer's tone cooled for the rest of the call.
+
+Interviewers evaluate:
+
+- **Derivation over recall:** Producing a parameter count, a gradient path or a variance argument without a formula sheet.
+- **Why, not what:** Explaining why non-linearity, residual connections or attention scaling are needed, not just naming them.
+- **Mathematical ownership:** Comfort with the probability and linear algebra behind the methods on your resume.
+- **Honest limits:** Saying plainly what you do not know beats a confident answer that collapses under one follow-up.
+
+Write out, by hand, the attention equations, a convolution parameter count, and the importance-sampling estimator with its variance, and explain each aloud.
+
+### Sample questions for the ML theory and research screen
+
+Here are some questions reported by recent candidates:
+
+- Explain multi-head scaled dot-product attention and how backpropagation flows through the softmax.
+- Explain importance sampling, its variance properties, and where it appears in reinforcement learning.
+- Compare a CNN with an MLP, and explain how ResNet's skip connections help training.
+- Is `y = 0.01x` a usable activation function? Why or why not?
 
 - [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral)
-- [Battery Cell Quality Statistical Case](https://trueinterview.io/questions/battery-cell-quality-statistical-case)
 
-### Domain Deep Dive
+## Team-specific technical screen
 
-Every team grafts its physical problem onto the interview. Reinforcement learning and planning rounds ask about modeling the intent of other agents in simulation, then about reward design and its pathologies — what an agent learns to exploit when the reward lags a changing constraint, and when a learned reward beats a hand-written one. Controls rounds go through Model Predictive Control and then ask for braking logic that translates a physical control problem into clean code. Sensing rounds want the noise model behind the sensor, not just the network on top of it. Candidates who treat these as ML questions with a car-shaped skin underperform; the interviewers want the physical failure mode named.
+Every team grafts its physical problem onto the interview. A motion-planning candidate's first screen covered modeling other agents' intent in a multi-agent driving simulation. The second covered GRPO versus PPO and learned versus hand-crafted rewards, then a reward on `[batch, num_waypoint, 2]` samples at 10 Hz that keeps a vehicle at a speed limit. The follow-up asked what breaks when the limit changes over time, such as exploiting reward lag or oscillating around transitions. Controls-adjacent rounds have covered Model Predictive Control with braking logic in Python.
+
+Non-autonomy teams test differently. A cell-quality screen was a single statistics case: pass/fail inspection counts from several production lines, the right test for comparing proportions across more than two groups, the null hypothesis, the assumptions, and what the p-value means for a decision on the floor. A data-engineering screen asked for a cleaning and validation pipeline for messy sales CSVs, then SQL: a running total that resets monthly, a recursive reporting chain, and a conditional daily summary.
+
+Interviewers evaluate:
+
+- **Physical failure modes:** Naming what the vehicle or line actually does when the model or reward is wrong.
+- **Reward and metric design:** Penalties that are smooth, bounded and hard to exploit.
+- **Data hygiene:** Validating cleaned data with row counts, format checks, value ranges and outlier flags.
+- **Statistical framing:** Choosing a test that fits categorical data, with its hypothesis and assumptions stated.
+
+Ask the recruiter which team you are interviewing with, then prepare that team's domain as seriously as the ML fundamentals.
+
+> **Note:** One planning interviewer came across as aggressive. The candidate who stayed on the technical content rather than reacting to tone completed both rounds.
+
+### Sample questions for the team-specific technical screen
+
+Here are some questions reported by recent candidates:
+
+- Implement a reward from 10 Hz waypoint samples that penalizes deviation from a speed limit, then explain how it fails when the limit changes.
+- Compare GRPO and PPO, and discuss when a learned reward beats a heuristic one.
+- Given pass/fail counts across several production batches, test whether failure rates differ and turn the result into a decision.
+- Compute each store's cumulative sales with the total resetting at the start of every month.
 
 - [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward)
+- [Model other agents in simulation](https://trueinterview.io/questions/model-other-agents-in-simulation)
+- [Battery Cell Quality Statistical Case](https://trueinterview.io/questions/battery-cell-quality-statistical-case)
+- [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen)
+- [Cumulative Monthly Sales by Store with Month Reset](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b)
+
+## Onsite panel
+
+No report in this set reached an onsite: the phone stage is where this track is decided. Where one follows, it typically runs three to five rounds: an end-to-end ML system design (for example, a training-data pipeline from fleet video under on-vehicle latency limits), another coding round, a project deep dive, and a hiring-manager conversation about ownership. AI-organization roles may add a research presentation.
+
+Interviewers evaluate:
+
+- **End-to-end design:** Data collection, labeling, training, evaluation and on-vehicle deployment as one system.
+- **Hardware constraints:** Inference latency, memory and compute budgets on the car or robot.
+- **Pace and drive:** Concrete stories of shipping hard things under tight timelines.
+- **Ownership:** Specific contributions you personally made, separated from the team's.
+
+Prepare one ML system design end to end for an autonomy problem and one project story that holds up under five levels of "why".
+
+### Sample questions for the onsite panel
+
+Here are some questions candidates report at this stage:
+
+- Design a pipeline that turns fleet data into training sets for a perception model.
+- Describe the hardest technical problem you solved and what you personally did.
+- Describe a conflict with a teammate and the work you are proudest of.
+
+- [Describe conflict and proudest work](https://trueinterview.io/questions/describe-conflict-and-proudest-work)
+- [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner)
 - [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md)
-- [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid)
 
-### Project Deep Dive
+## How Tesla levels and evaluates Machine Learning Engineer candidates
 
-Both of the multi-round loops in this set opened every single call with the candidate's own experience, which makes the project narrative the most repeated artifact of the process. The questioning is architectural, not biographical: which sequence model you chose and what the alternative would have cost, what the training pitfalls were, how the deployed model behaved on data it had not seen. Reports describe at least one interviewer as aggressive in this section; candidates who stayed on the technical content rather than reacting to tone got through it. Have one project prepared that survives interrogation at the level of individual design decisions, including the ones that did not work.
+The hiring manager and the team's interviewers decide; candidates describe no separate committee, so one engineer's read of a single screen can end the process. The target level is set from experience before the loop and tested by how deep the theory and design answers go. Feedback timing is inconsistent: some candidates advanced after one strong screen, others waited without word, and team matching on Autopilot and AI teams adds weeks.
 
-## What They Don't Test
+> **Tip:** Keep other processes alive. Silence after a screen is common, and a rejection usually comes without detailed feedback.
 
-- **Framework API fluency.** No reported round asked about PyTorch or TensorFlow idioms. The tested skill is the opposite: reimplementing convolution, distance computation and cumulative operations in raw NumPy with the abstractions stripped away.
-- **Large-scale training infrastructure trivia.** Distributed training recipes, cluster scheduling and hyperparameter sweep tooling did not appear. What appeared was per-op efficiency — vectorization, shape correctness, parameter counts.
-- **Standard algorithm grinding.** The coding problems come from the vehicle domain, not from a curated list. A generic graph or dynamic-programming drill is poor preparation next to writing a reward function or a convolution by hand.
-- **Model-zoo breadth.** Being able to list architectures earned nothing; the rejections here came from thin explanations of the small number of concepts the interviewers chose to open up.
+## How to prepare for the Tesla Machine Learning Engineer interview
 
-## The Real Filter
+1. **Rebuild core ops in NumPy:** Implement conv2d, cumulative sums, pairwise distances and attention from scratch, then vectorize every loop.
+2. **State shapes before coding:** Write the input and output shapes, including the batch dimension, as the first line of every answer.
+3. **Explain fundamentals at derivation depth:** Activations and non-linearity, residual connections, softmax gradients, parameter counts and importance-sampling variance.
+4. **Prepare one project for interrogation:** Every screen opens with it, so know every design choice, failed attempt and evaluation metric.
+5. **Learn the team's domain:** Reward shaping and multi-agent simulation for planning, CNNs and noise models for sensing, proportion tests for quality, window and recursive SQL for data.
+6. **Practice under constraints:** Re-solve familiar problems with the obvious structure removed, such as recursion instead of a queue or no library calls.
+7. **Name physical failure modes:** For any reward or model, say what the vehicle or production line would actually do when it goes wrong.
 
-The dominant rejection path is a shallow answer to a fundamentals question that sounds like small talk. These questions arrive after the coding, in a conversational register, and candidates relax into them — but the reports show they are the scored portion. The activation-function question is the cleanest example: it looks like trivia, it is actually a check on whether you understand that stacking linear maps yields a linear map, and the interview visibly turned on it. Prepare to answer at derivation depth for the handful of things you claim, and say plainly when you do not know something rather than producing a confident surface answer, which is what the reported failures did.
+## About the Tesla Machine Learning Engineer role
 
-The second filter is being fluent only along the path you rehearsed. Interviewers routinely take a problem you recognize and remove the tool you would reach for: implement the streaming average with recursion and a stack, write the convolution without library calls, produce the parameter count without the formula in front of you. Candidates who had practiced the standard solution rather than the underlying mechanism ran out of time or produced something that did not run.
+ML engineers at Tesla sit close to hardware: the people who train networks often also write the code that captures sensor data and runs inference on the vehicle or robot, with fleet data at unusual scale. Teams are small and favor generalists who span model, data pipeline and deployment.
 
-The third is treating the project discussion as warm-up. It opens every round on this track and it is where the interviewer decides how hard to push later. A vague answer early converts the rest of the hour into a verification exercise, and the tone shift candidates describe is usually the point at which that decision was made.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| P1 Associate Engineer | Implementing well-scoped model and data tasks | Own components |
+| P2 Engineer | Owning training or evaluation pieces end to end | A feature or model |
+| P3 Senior Engineer | Leading a model or pipeline through deployment | A team's area |
+| P4 Staff Engineer | Setting technical direction across models | Several teams |
+| P5 Senior Staff Engineer | Cross-organization architecture | An organization |
+| P6 Principal Engineer | Long-range technical strategy | Across Tesla |
 
-## Data Source
+Tesla hires Machine Learning Engineers across several teams, which include:
 
-Based on 6 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2.
+- **Autopilot and Full Self-Driving:** End-to-end networks for perception, planning and control trained on fleet video.
+- **Optimus:** Vision, foundation models and control for the humanoid robot, plus agentic computer-use work.
+- **AI infrastructure:** Training clusters, RL training infrastructure, and model optimization for deployment.
+- **Simulation and planning:** Multi-agent simulation, reward design and evaluation for driving policies.
+- **Sensing and cell engineering:** Sensor modeling and statistical quality control for battery manufacturing.
 
-## FAQ
+### Machine Learning Engineer experience and education requirements
 
-**What is it like to work here as a Machine Learning Engineer?**
-Our reports document the hiring loop rather than the job itself, so this is context, not measurement. ML work at Tesla sits unusually close to hardware: the same engineers who train models also write the low-level, memory-efficient code that captures high-frequency sensor data and runs inference on custom silicon, and the fleet supplies a data scale few other teams have. The trade-off is intensity — long hours and limited remote flexibility are consistent themes in public employee sentiment, with mission and growth rated well above work-life balance. No report in this set covers compensation for the track.
+Tesla's leadership has said that educational background matters less than evidence of exceptional ability, and AI roles are known for demanding coding tests rather than credential filters. In practice, candidates bring strong Python and NumPy, a deep learning framework, and solid probability and linear algebra. Postings value experience shipping models to production, and for Optimus and planning roles, post-training or RL methods such as PPO, GRPO or RLHF. C++ helps for on-vehicle inference work.
 
-**What is the engineering culture like?**
-It is a first-principles culture and the interview is a fair sample of it: interviewers strip away frameworks and check what you can rebuild from the mathematics. The AI and Autopilot organization is deliberately small relative to its output and biased toward engineers who span the stack — model, kernel and vehicle — rather than specialists who hand work across a boundary. Practically, that shows up as a strong preference for people who have personally implemented the thing they are describing, and as very direct feedback in the room.
+## FAQs about the Tesla Machine Learning Engineer interview
 
-**How hard is it to get in?**
-Very. Engineering acceptance rates at this company are widely quoted at around one percent or below, and AI and Autopilot tracks sit at the tighter end of that. The reports here reinforce it: four of six candidates were rejected, most without reaching a second or third round, and the failures were conceptual rather than logistical. Loops for this track also tend to be longer than average once an onsite is involved, with team matching adding weeks.
+### How long does the Tesla Machine Learning Engineer interview process take?
 
-**Which round is hardest?**
-The theory-heavy second screen, because it compounds two hard things in one hour: a from-scratch numerical implementation with unit tests and vectorization, followed by rapid conceptual questioning where a single weak answer changes the interviewer's posture. The research-style round on topics like importance sampling is narrower but only reached by candidates who already cleared the harder blend.
+Usually four to eight weeks from recruiter call to decision. Single-screen outcomes come faster; onsite loops with team matching take longer, and feedback can stall without notice.
+
+### What is the hardest round of the Tesla Machine Learning Engineer interview?
+
+The screen that combines a from-scratch implementation (index arithmetic, tests, vectorization) with rapid theory, where one weak conceptual answer changes the interviewer's posture.
+
+### Is there an online assessment?
+
+Not in the reported ML loops; screening is live with a hiring-team engineer. Expect runnable Python with NumPy in a shared editor. Framework fluency was not tested directly, and data roles use SQL.
+
+### How much does a Tesla Machine Learning Engineer make?
+
+Posted base-pay ranges for AI and Optimus machine learning roles span roughly $140K to $420K a year depending on level and location. Packages add stock awards on top of base, and stock is a large share of senior compensation.
 
 ---
 

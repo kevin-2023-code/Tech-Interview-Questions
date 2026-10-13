@@ -16,23 +16,29 @@ How Luma AI interviews, and the questions candidates reported there. Free questi
 
 ## How Luma AI interviews
 
-Luma AI hires a small team against a very specific bar, and the first gate is not a conversation at all: it is a timed, recorded, library-free assessment that most candidates run out of clock on. This guide goes past the summary on the company page into how that assessment is actually built, what it grades, and where the two hiring tracks diverge. Our library holds 6 real Luma AI questions and 2 candidate interview reports.
+At Luma AI, the first gate is an automated assessment with no interviewer, and it is graded on how much gets finished, not on difficulty. The assessment depends on the track. Machine learning candidates write numerical and image routines with every library import disabled. Software candidates fill in a large, half-written codebase against hidden tests. Later stages are small-company and team-specific: a substantial take-home for product roles, model-debugging rounds for ML roles, and a closing conversation with leadership.
 
-### Interview Process
+This guide breaks down each stage of the Luma AI interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 2 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Luma AI interview process
 
 <!-- guide-diagram -->
 ![Luma AI interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/luma-ai/process.webp)
 <!-- guide-diagram -->
 
-The loop opens with an automated online assessment rather than a live screen, and it is the stage we have the most detail on. It is delivered unproctored but recorded: camera and screen capture must be started before the timer and stay on for the full session, and AI assistance of any kind is prohibited. There is no interviewer, no feedback, and the session terminates precisely on the clock, which is why the last minutes are where most of the damage happens.
+The process is not standardized and splits early by track. Both reported candidates started with an online assessment. One was rejected there, and the other was still waiting on a result, so evidence for the later stages is thinner. Those stages typically include a recruiter call, one or two technical rounds shaped by the team, a take-home for product engineering roles, and a closing conversation with the CEO or CTO. The process typically takes two to four weeks from first call to decision.
 
-The assessment comes in two clearly different shapes depending on which side you applied to.
+Here's what the interview process can look like:
 
-**The machine-learning shape** is a one-hour set of seven short problems with all library imports disabled, so every routine has to be written from raw language primitives. Reported problems included copying an image buffer, a non-standard transpose variant, implementing softmax directly from the formula, a Gaussian image filter, a light string-processing warm-up, minimum pairwise distance across a point set, and a longer data-processing task involving NaN handling and conditional aggregation. Scoring is cumulative rather than per-problem pass/fail; a cutoff around 700 points was cited, which worked out to roughly five and a half problems fully solved to advance. Candidates elsewhere describe the same format at a similar size, with unusually long prompts and a heavy bias toward array and tensor manipulation.
+- **Machine learning online assessment:** One hour, seven short problems, no library imports, scored against a points cutoff.
+- **Software engineering online assessment:** A 45- or 90-minute task that completes partially written code against provided tests.
+- **Take-home project (product roles):** A self-contained build over several hours, followed by a review of the trade-offs.
+- **Technical rounds:** Coding and system design for engineers, plus a past-work walkthrough and hands-on model debugging for ML and research roles.
+- **Leadership conversation:** A closing round with the CEO or CTO on experience and fit.
 
-**The engineering shape** is a refactoring-style assessment instead of a puzzle set. You are given a requirements document plus partially implemented code and asked to fill in the missing behavior until the hidden tests pass; the reported sitting was in Java. Candidates choose between a 45-minute version and a 90-minute version. The 90-minute variant was a multi-layered, versioned key-value store shipped with a very large volume of pre-written code; the 45-minute variant was a smaller graph and recursion task. Neither mapped to a known public problem, and the algorithmic ceiling sat below a standard medium.
-
-Beyond the assessment our reports go quiet, and Luma AI is a small enough company that the later stages are not standardized the way a large employer's loop would be. What is described publicly is a hiring-manager conversation, further technical rounds pulled from the actual model stack rather than from a generic question bank, and a founder round weighted toward experience and culture fit; one candidate also reported a take-home that amounted to building a small working product and cost well over a day. Expect a few weeks end to end rather than a same-week decision, and expect the shape of the later rounds to be set by the specific team.
+> **Tip:** Treat both assessments as timed delivery exercises, and finish and verify one unit of work before starting the next. The problems are easy to medium, and advancing depends on how many you complete: about five and a half of seven on the ML set.
 
 **[Read the full Luma AI interview process →](interview-process.md)**
 

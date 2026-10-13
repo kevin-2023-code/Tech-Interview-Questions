@@ -51,20 +51,20 @@ Which stage each question came from, for the **38 of 38** questions at xAI that 
 
 ## What they ask about
 
-Of the **15 questions at xAI that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at xAI that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 6 | 40% | ████████████ | Apr 01, 2026 |
-| `hashing` | 2 | 13% | ████ | Jan 26, 2026 |
-| `heap` | 2 | 13% | ████ | Jan 26, 2026 |
-| `sorting` | 2 | 13% | ████ | Jan 15, 2026 |
-| `arrays` | 1 | 7% | ██ | Jan 15, 2026 |
-| `backtracking` | 1 | 7% | ██ | Feb 26, 2026 |
-| `binary-search` | 1 | 7% | ██ | Dec 14, 2025 |
-| `math` | 1 | 7% | ██ | Apr 04, 2026 |
-| `strings` | 1 | 7% | ██ | Jan 17, 2026 |
-| `trees` | 1 | 7% | ██ | Feb 26, 2026 |
+| `greedy` | 4 | 33% | ████████████ | Apr 01, 2026 |
+| `hashing` | 2 | 17% | ██████ | Jan 26, 2026 |
+| `heap` | 2 | 17% | ██████ | Jan 26, 2026 |
+| `sorting` | 2 | 17% | ██████ | Jan 15, 2026 |
+| `arrays` | 1 | 8% | ███ | Jan 15, 2026 |
+| `backtracking` | 1 | 8% | ███ | Feb 26, 2026 |
+| `binary-search` | 1 | 8% | ███ | Dec 14, 2025 |
+| `strings` | 1 | 8% | ███ | Jan 17, 2026 |
+| `trees` | 1 | 8% | ███ | Feb 26, 2026 |
+| `tries` | 1 | 8% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -106,10 +106,10 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 
 | Writeup | Topics |
 | :-- | :-- |
-| [xAI Infrastructure Engineer Interview Process](https://trueinterview.io/study/xai-infrastructure-engineer-interview-process) | — |
-| [xAI Interview Process & Questions](https://trueinterview.io/study/xai-interview-process) | — |
-| [xAI Machine Learning Engineer Interview Process](https://trueinterview.io/study/xai-machine-learning-engineer-interview-process) | — |
-| [xAI Software Engineer Interview Process](https://trueinterview.io/study/xai-software-engineer-interview-process) | — |
+| [SpaceXAI (formerly xAI) Infrastructure Engineer Interview Process](https://trueinterview.io/study/xai-infrastructure-engineer-interview-process) | — |
+| [SpaceXAI (formerly xAI) Interview Process & Questions](https://trueinterview.io/study/xai-interview-process) | — |
+| [SpaceXAI (formerly xAI) Machine Learning Engineer Interview Process](https://trueinterview.io/study/xai-machine-learning-engineer-interview-process) | — |
+| [SpaceXAI (formerly xAI) Software Engineer Interview Process](https://trueinterview.io/study/xai-software-engineer-interview-process) | — |
 
 ---
 

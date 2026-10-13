@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Easy | Ramp · Databricks · SoFi | Phone screen | matrix | Jun 2025 |
+| AI Coding | Easy | Ramp · Databricks · SoFi | Phone screen | — | Jun 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/tic-tac-toe)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.

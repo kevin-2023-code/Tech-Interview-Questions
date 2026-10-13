@@ -16,17 +16,32 @@ How Sigmacomputing interviews, and the questions candidates reported there. Free
 
 ## How Sigmacomputing interviews
 
-Sigma Computing runs an unusual engineering loop: almost every technical prompt is a miniature of the product itself, and none of them look like a ranked algorithm list. This guide goes past the process outline on the company page and into how each round actually behaves, drawn from 1 real Sigma Computing question in the bank and 7 candidate interview reports. Use it to calibrate what interviewers actually grade.
+Sigma Computing's technical prompts are small versions of its own product, such as a spreadsheet with formula cells, a pivot table or a boolean formula evaluator. Each prompt arrives in parts that reuse the earlier design, so the first draft's structure decides the round. Clear reasoning can carry an unfinished part: one candidate advanced without coding the last step of the pivot table.
 
-### Interview Process
+This guide breaks down each stage of the Sigma Computing interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 6 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Sigma Computing interview process
 
 <!-- guide-diagram -->
 ![Sigma Computing interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/sigmacomputing/process.webp)
 <!-- guide-diagram -->
 
-The loop has two reported entry points. Most candidates start with a short recruiter or hiring-manager conversation covering the product, the team, and your constraints — the San Francisco office expectation of roughly four days a week surfaces here, and at least one candidate stopped the process on that point alone rather than on anything technical. A second path opens with a take-home style online assessment before any live conversation: a multi-hour sitting (one report describes a window of up to four hours) of product-flavored problems, followed by a separate session in which an engineer walks through the code you submitted and probes the decisions behind it. Treat that review as a real technical round, graded on the same axes as a live screen.
+The loop is short. Most candidates have a recruiter call, one live technical screen, then an onsite of about three rounds: behavioral, design and a second coding round. Some 2025 candidates instead started with an online assessment, followed by a session in which an engineer reviewed their submitted code. The process typically takes three to four weeks.
 
-The **technical phone screen** is a live coding session in a shared browser editor. The prompts cluster tightly around spreadsheet and tabular-data mechanics, and they are almost always multi-part, with each part built on the design you produced for the previous one. Reported prompts include implementing a spreadsheet class with a fixed set of named columns and unbounded rows supporting cell get, cell set, and printing the first n rows including rows never written; a sparse variant of that class where a cell may hold a formula referencing two other cells, which turns the exercise into dependency-graph evaluation with cycle detection; a pivot table built in three escalating steps (two-axis aggregation with a custom printer, then row and column totals, then multi-column axes with the totals removed); and an evaluator for a small boolean expression tree covering logical operators, comparisons, integer truthiness, and mixed-type comparisons. Interviewers hand over a skeleton and sometimes name the technique out loud — one said maps and sets were all the problem needed, another pointed straight at a visited set for cycles. Grading weighs code structure, how you narrate the mental model, and whether you test as you go, over how far down the parts list you reach. A candidate who never finished the third part of the pivot table but had communicated the approach clearly still advanced.
+The shape changes little by level, but the design round follows the track. A front-end candidate designed the data model of a rich-text editor. Back-end and full-stack design rounds typically focus on scaling a service. Every engineering role is in office, with San Francisco roles reported at four days a week.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call about the team, your background and the in-office expectation.
+- **Online assessment and code review (some candidates):** A timed set of product-flavored problems, then an engineer walks through your submission.
+- **Technical phone screen:** A live, multi-part build of a spreadsheet, pivot table or formula evaluator, starting from a provided skeleton.
+- **Behavioral interview:** Past projects, collaboration and conflict.
+- **Design interview:** A data-model-first design, such as a rich-text editor for front-end candidates.
+- **Coding interview:** A second practical build, such as an async task scheduler in JavaScript.
+
+> **Tip:** Ask the interviewer what later parts will add before writing part one. Formulas, totals and wider axes are the reported extensions, and a structure built for them avoids a rewrite under time pressure.
 
 **[Read the full Sigmacomputing interview process →](interview-process.md)**
 

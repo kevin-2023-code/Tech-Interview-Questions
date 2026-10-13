@@ -16,21 +16,32 @@ How DoorDash interviews, and the questions candidates reported there. Free quest
 
 ## How DoorDash interviews
 
-DoorDash runs one of the most practical interview loops among large consumer-tech companies: most technical sessions ask you to build, debug, or design a slice of the real delivery business rather than solve an abstract puzzle. This guide goes deeper than the process outline on the company page, drawing on 33 real DoorDash questions and 51 candidate interview reports to explain what each stage actually measures and where candidates fail.
+DoorDash interviews almost entirely through its own delivery business. Candidates compute a Dasher's pay, repair a buggy dispatcher, and design a donation backend that cannot lose a dollar. Each technical problem is followed by production questions about retries, idempotency and slow upstream services. In March 2026 the company announced it was rebuilding its engineering loop around AI, and the onsite now includes a round where you build working services with an AI coding agent on your own machine.
 
-### Interview Process
+This guide breaks down each stage of the DoorDash interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 72 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### DoorDash interview process
 
 <!-- guide-diagram -->
 ![DoorDash interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/doordash/process.webp)
 <!-- guide-diagram -->
 
-**1. Recruiter screen (about 30 minutes).** Beyond logistics, this call starts level calibration: your resume is circulated to hiring managers, and the level you interview at can shift based on early impressions — candidates have been downleveled after a phone screen, which changes the whole loop. Describe your scope precisely and confirm which screens your team requires, because some teams insert an extra implementation-focused screen between the phone screen and the onsite.
+The loop is unusually standardized. Software Engineer candidates draw from a small set of named exercises that recur across recent loops: pay, aggregator, dispatcher, donation and review prompts. The usual pipeline is a recruiter call, a one-hour practical coding screen, and a virtual onsite of four rounds, sometimes three or five, which can be split across two days. Some candidates were told after passing a first screen that a second code-craft screen was required before the onsite. Timelines run from about a month to two months when a recruiter change stalls scheduling.
 
-**2. Online assessment (early-career and data-adjacent roles).** The OA splits into a SQL section and a Python section, both under tight time limits. The SQL tasks run on a food-delivery schema — bucketing orders by spend with conditional logic, top-5 merchants by revenue with tie handling, percentage calculations over filtered populations — and the Python task is typically a sliding-window aggregation with a twist, such as returning every tied start index. Candidates consistently report that a single unresolved bug can consume an entire section, so validate as you go.
+Machine Learning Engineer loops swap debugging and AI coding for ML design and ML discussion rounds. Data and analytics roles start with a timed SQL and Python assessment and use business cases and data modeling onsite. Senior and staff candidates get longer project deep dives.
 
-**3. Technical phone screen (45–60 minutes).** Expect one substantial practical problem rather than two short puzzles. Recurring families include Dasher pay calculators (overlapping deliveries, peak multipliers, cancellations, duplicate records), time-window encoding, cart modeling, and elimination sweeps over order sequences. Interviewers routinely expect you to negotiate the input and output contract before coding, and then to write and run your own test cases — a working, executed solution beats an elegant sketch. Follow-ups often pivot into design territory: retries, idempotent handling of duplicate events, and what happens when an upstream service is slow.
+Here's what the interview process can look like:
 
-**4. Virtual onsite — typically 3 to 5 rounds of 60–75 minutes.** The standard loop combines an implementation-first Code Craft round (building a small business module such as a payout service or cart), a debugging round on unfamiliar buggy code (dispatcher and round-robin assignment problems recur, often with a consistent-hashing discussion attached), a system design round shaped like the product (donation flows, review and reward systems, notification and monitoring platforms), and a values or hiring-manager behavioral round probing conflict, mistakes, and motivation. Some loops substitute an incident-investigation session, a product-sense discussion, or an AI-assisted coding round run in your own IDE. Role-specific depth — ML rounds for Machine Learning Engineers, deeper reliability rounds for Software Engineers — is covered in the role guides below.
+- **Recruiter screen:** A short call about background, motivation and target level.
+- **Technical screen (Code Craft):** One hour to implement a business rule, run it, and answer production follow-ups.
+- **Debugging interview:** About an hour repairing a dispatcher or Dasher-picker codebase, often followed by consistent hashing.
+- **System design interview:** 75 minutes, opening with about 25 minutes on your own past design.
+- **AI Code Craft interview:** A build session in your own IDE with an AI agent, usually a refund workflow modeled as a directed acyclic graph.
+- **Hiring manager and values interview:** Ownership, conflict, failure, AI usage and an operational scenario.
+
+> **Tip:** Treat every coding round as running code plus follow-ups. Several rejected candidates reached a working happy path in the final two minutes, leaving no time for edge cases or the reliability discussion where most of the signal sits.
 
 **[Read the full DoorDash interview process →](interview-process.md)**
 

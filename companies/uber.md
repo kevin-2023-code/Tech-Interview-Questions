@@ -55,13 +55,13 @@ Which stage each question came from, for the **217 of 217** questions at Uber th
 
 ## What they ask about
 
-Of the **152 questions at Uber that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **148 questions at Uber that carry a topic label** (68% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 39 | 26% | ████████████ | Sep 09, 2026 |
-| `arrays` | 29 | 19% | █████████ | Aug 16, 2026 |
-| `hashing` | 16 | 11% | █████ | Aug 16, 2026 |
+| `arrays` | 29 | 20% | █████████ | Aug 16, 2026 |
+| `hashing` | 15 | 10% | █████ | Jun 28, 2026 |
 | `matrix` | 15 | 10% | █████ | Sep 09, 2026 |
 | `strings` | 15 | 10% | █████ | Jun 24, 2026 |
 | `trees` | 14 | 9% | ████ | Jun 28, 2026 |
@@ -128,7 +128,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | Software | [Uber Senior Software Engineer Interview Experience](https://trueinterview.io/interviews/b0cbabe9-08e0-4f09-aff4-1a9e1c3313e1) | Sep 27, 2026 |
 | Software | [Uber Word Search II Variant and Project Deep Dive Interview Experience (2025)](https://trueinterview.io/interviews/37b6ec25-fbfe-42d4-b5a7-c81151899d3b) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Uber and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Uber and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

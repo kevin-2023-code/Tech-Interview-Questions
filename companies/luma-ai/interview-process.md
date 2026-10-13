@@ -6,58 +6,166 @@
 
 ---
 
-Luma AI hires a small team against a very specific bar, and the first gate is not a conversation at all: it is a timed, recorded, library-free assessment that most candidates run out of clock on. This guide goes past the summary on the company page into how that assessment is actually built, what it grades, and where the two hiring tracks diverge. Our library holds 6 real Luma AI questions and 2 candidate interview reports.
+At Luma AI, the first gate is an automated assessment with no interviewer, and it is graded on how much gets finished, not on difficulty. The assessment depends on the track. Machine learning candidates write numerical and image routines with every library import disabled. Software candidates fill in a large, half-written codebase against hidden tests. Later stages are small-company and team-specific: a substantial take-home for product roles, model-debugging rounds for ML roles, and a closing conversation with leadership.
 
-## Interview Process
+This guide breaks down each stage of the Luma AI interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 2 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Luma AI interview process
 
 <!-- guide-diagram -->
 ![Luma AI interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/luma-ai/process.webp)
 <!-- guide-diagram -->
 
-The loop opens with an automated online assessment rather than a live screen, and it is the stage we have the most detail on. It is delivered unproctored but recorded: camera and screen capture must be started before the timer and stay on for the full session, and AI assistance of any kind is prohibited. There is no interviewer, no feedback, and the session terminates precisely on the clock, which is why the last minutes are where most of the damage happens.
+The process is not standardized and splits early by track. Both reported candidates started with an online assessment. One was rejected there, and the other was still waiting on a result, so evidence for the later stages is thinner. Those stages typically include a recruiter call, one or two technical rounds shaped by the team, a take-home for product engineering roles, and a closing conversation with the CEO or CTO. The process typically takes two to four weeks from first call to decision.
 
-The assessment comes in two clearly different shapes depending on which side you applied to.
+Here's what the interview process can look like:
 
-**The machine-learning shape** is a one-hour set of seven short problems with all library imports disabled, so every routine has to be written from raw language primitives. Reported problems included copying an image buffer, a non-standard transpose variant, implementing softmax directly from the formula, a Gaussian image filter, a light string-processing warm-up, minimum pairwise distance across a point set, and a longer data-processing task involving NaN handling and conditional aggregation. Scoring is cumulative rather than per-problem pass/fail; a cutoff around 700 points was cited, which worked out to roughly five and a half problems fully solved to advance. Candidates elsewhere describe the same format at a similar size, with unusually long prompts and a heavy bias toward array and tensor manipulation.
+- **Machine learning online assessment:** One hour, seven short problems, no library imports, scored against a points cutoff.
+- **Software engineering online assessment:** A 45- or 90-minute task that completes partially written code against provided tests.
+- **Take-home project (product roles):** A self-contained build over several hours, followed by a review of the trade-offs.
+- **Technical rounds:** Coding and system design for engineers, plus a past-work walkthrough and hands-on model debugging for ML and research roles.
+- **Leadership conversation:** A closing round with the CEO or CTO on experience and fit.
 
-**The engineering shape** is a refactoring-style assessment instead of a puzzle set. You are given a requirements document plus partially implemented code and asked to fill in the missing behavior until the hidden tests pass; the reported sitting was in Java. Candidates choose between a 45-minute version and a 90-minute version. The 90-minute variant was a multi-layered, versioned key-value store shipped with a very large volume of pre-written code; the 45-minute variant was a smaller graph and recursion task. Neither mapped to a known public problem, and the algorithmic ceiling sat below a standard medium.
+> **Tip:** Treat both assessments as timed delivery exercises, and finish and verify one unit of work before starting the next. The problems are easy to medium, and advancing depends on how many you complete: about five and a half of seven on the ML set.
 
-Beyond the assessment our reports go quiet, and Luma AI is a small enough company that the later stages are not standardized the way a large employer's loop would be. What is described publicly is a hiring-manager conversation, further technical rounds pulled from the actual model stack rather than from a generic question bank, and a founder round weighted toward experience and culture fit; one candidate also reported a take-home that amounted to building a small working product and cost well over a day. Expect a few weeks end to end rather than a same-week decision, and expect the shape of the later rounds to be set by the specific team.
+## Machine learning online assessment
 
-## What Candidates Report
+Machine Learning Engineer candidates get one hour for seven problems, with all library imports disabled, so every routine is written from language primitives. The reported set was copying an image, a non-standard transpose, softmax from its formula, a Gaussian image filter, a simple string task, the minimum distance among a set of points, and a long data-processing task with NaN handling and conditional aggregation. Scoring is cumulative. A cutoff of 700 points was cited, roughly five and a half problems fully solved.
 
-- **The clock is the filter, not the difficulty.** Both reported sittings ended with correct, partially finished code. Candidates felt the remaining work would have been routine given more time, which is exactly the outcome the format is designed to produce.
-- **Prompts are long and layered.** Simply parsing the requirements can consume ten minutes before a line is written, and the constraints that matter are embedded in descriptive prose rather than called out.
-- **The provided skeleton costs time.** The refactoring variant ships heavily commented code, much of it irrelevant to the task or marking regions that must not be modified, so locating the sections you actually own is its own exercise.
-- **The editing environment is cramped.** Candidates describe a split-screen layout compressing hundreds of lines into a small pane, with no global search-and-replace, which punishes anyone who navigates code by searching.
-- **Correctness beats elegance.** Tests do not appear to measure performance, so brute force passes; style counts for nothing. Points are lost instead on error handling and edge cases specified only in the problem text.
-- **API fluency is decisive.** With libraries banned on the ML side and the clock tight on the engineering side, any time spent looking up a map or list method is time you do not get back.
+Interviewers evaluate:
 
-## Coding Questions
+- **Math from scratch:** Softmax and Gaussian kernels written without libraries, including numerical stability, such as subtracting the maximum before exponentiating.
+- **Index discipline:** Image copies, transposes and convolution windows with correct edge handling.
+- **Data hygiene:** NaN handling and conditional aggregation done exactly as specified.
+- **Throughput:** Enough problems fully solved to clear the cutoff.
 
-The coding set is built from numerical and image-buffer primitives rather than classic interview algorithms, and the ban on imports is the whole point: you are being asked whether you can write the math itself. Numerical stability and vectorization tend to surface in follow-ups, so a softmax that subtracts the max before exponentiating reads very differently from one that does not.
+Practice writing array, image and numerical routines in plain code, timing yourself at under ten minutes each.
+
+> **Note:** The data-processing problem is the longest in the set. Solve the short image and math problems first. Partial credit across many problems scores worse than complete solutions to most of them.
+
+### Sample questions for the machine learning online assessment
+
+Here are some questions reported by recent candidates:
+
+- Implement softmax directly from its formula, with no numerical libraries.
+- Apply a Gaussian filter to an image represented as nested lists.
+- Find the minimum pairwise distance among a set of 2D points.
+- Clean a tabular dataset with missing (NaN) values and compute conditional aggregates.
 
 - [Implement Softmax](../../questions/algorithm/implement-softmax/README.md)
-- [Copy an Image Matrix](https://trueinterview.io/questions/6f016452-d9b6-5e16-b260-34ec46994410)
-- [Transpose an Image Matrix](https://trueinterview.io/questions/f85a7968-6ba9-5be9-a5ab-4f13d57b3fd4)
 - [Gaussian Image Filter](https://trueinterview.io/questions/8725ba22-7231-5ba5-9991-fbf266e5c571)
+- [Transpose an Image Matrix](https://trueinterview.io/questions/f85a7968-6ba9-5be9-a5ab-4f13d57b3fd4)
+- [Copy an Image Matrix](https://trueinterview.io/questions/6f016452-d9b6-5e16-b260-34ec46994410)
 - [Closest Pair of Points](../../questions/algorithm/closest-pair-of-points/README.md)
 
-## Low-Level Design Questions
+## Software engineering online assessment
 
-The design work here arrives disguised as an implementation task: a large, multi-layered structure with versioning semantics, handed to you half-built under a hard timer. The grading is behavioral rather than architectural, so what matters is getting the nesting and version lookup rules exactly right, including the awkward cases the prompt mentions only once.
+Software candidates take an unproctored, automated refactoring assessment. Camera and screen recording stay on throughout, and AI tools are banned. You get a requirements document and partially implemented code, and you add the missing behavior until the provided tests pass. There are two versions. The 45-minute one is a graph and recursion task, a simplified itinerary reconstruction. The 90-minute one is a multi-layered, versioned key-value store that ships with a very large volume of code. Neither needs heavy algorithms, and both sit below medium difficulty. The reported candidate wrote Java.
+
+Interviewers evaluate:
+
+- **Requirement extraction:** The edge cases and error conditions buried in a layered prompt.
+- **Codebase navigation:** Finding the methods you own inside a heavily commented skeleton, and leaving the regions marked do-not-modify alone.
+- **Error handling:** Exact behavior on the invalid inputs the description names.
+- **API fluency:** Map and list operations written without looking anything up.
+
+Practice completing someone else's half-finished code against unit tests with a hard stop.
+
+> **Note:** Style and performance do not appear to count. The tests check behavior, so brute force and convenience shortcuts are fine. The rejected candidate spent at least ten minutes just understanding the prompt, worked in a cramped split-screen editor with no global search-and-replace, and ran out of time on both versions.
+
+### Sample questions for the software engineering online assessment
+
+Here are some questions reported by recent candidates:
+
+- Complete a multi-layered key-value store that keeps versions of nested values and answers lookups as of a given version.
+- Finish a recursive graph traversal that builds a route from a list of edges, following the stated tie-breaking rules.
 
 - [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80)
 
-## How to Prepare
+## Take-home project
 
-- Rehearse writing softmax, a Gaussian kernel, and a convolution loop with no library at all, in the language you will sit in. Being able to import is not the skill being tested.
-- Practice against a running timer with a hard stop, and practice partial delivery: finish and verify one problem completely before opening the next, because cumulative scoring rewards completed work over broad coverage.
-- Drill nested container manipulation until indices, transposes, and boundary rows are automatic. Off-by-one errors on image edges are the most common quiet failure.
-- Read the whole prompt before coding, then write the buried constraints and error cases into a checklist. In this format that reading time is an investment, not overhead.
-- Get comfortable working inside someone else's half-finished file: skim for the regions you may edit, ignore decorative comments, and resist refactoring anything the tests do not touch.
-- Do not optimize. Brute force passes, and every minute spent on complexity is a minute not spent on the next problem.
-- Prepare a crisp account of a system you built and shipped, with real usage numbers. The later conversations lean on what you have actually put in front of users.
+Product and full-stack candidates are typically given a substantial take-home. Reported versions offered a choice among several prompts covering frontend, backend and infrastructure, with a budget of roughly eight to twelve hours. Staff-level candidates were asked to build a deployable end-to-end product with documentation and a recorded walkthrough, and to submit their AI-assistant session history. A follow-up review covers the trade-offs, scaling limits, customer needs and UI choices.
+
+Interviewers evaluate:
+
+- **Shipping:** A working, deployed product rather than a polished fragment.
+- **Product judgment:** Who the user is and why each feature exists.
+- **Trade-off reasoning:** What breaks at scale and what you would build next.
+- **Use of AI tools:** How you directed the assistant, since the session history may be reviewed.
+
+Scope the take-home to something you can finish and deploy, and write down the trade-offs as you go.
+
+### Sample questions for the take-home project
+
+Here are some questions reported by recent candidates:
+
+- Build and deploy a small end-to-end product from one of several prompts, with docs and a video walkthrough.
+- In the review, explain how the design would hold up at scale and what you would change for real customers.
+
+## Technical rounds
+
+Later technical rounds come from the team's actual work rather than a generic question bank. Engineers typically get coding and a system design round, which turns into ML systems design for roles that touch training or serving infrastructure. ML and research candidates walk through past work and do hands-on model rounds, such as debugging a denoising network in a notebook. Expect questions on diffusion, samplers and video model trade-offs.
+
+Interviewers evaluate:
+
+- **Practical debugging:** Finding why a model or pipeline misbehaves, quickly and methodically.
+- **Generative model depth:** Diffusion training and sampling, guidance and video-specific architecture choices.
+- **Serving awareness:** GPU scheduling, latency and throughput for large models.
+- **Ownership:** A concise account of one or two systems you shipped, with real results.
+
+Prepare one deep project walkthrough and refresh diffusion fundamentals before these rounds.
+
+### Sample questions for the technical rounds
+
+Here are some questions reported by recent candidates:
+
+- Debug a denoising network in a notebook and explain each fix.
+- In a build-style design round, design a ride-hailing service end to end, then discuss how it scales.
+
+## How Luma AI makes hiring decisions
+
+Assessments are scored automatically and give no feedback. After the assessment, the hiring team and leadership decide together, and most loops close with the CEO or CTO. Some candidates reported slow follow-up and generic rejections after substantial take-homes.
+
+## How to prepare for the Luma AI interview
+
+1. **Write the math without imports:** Softmax with max subtraction, Gaussian kernels, and copy, transpose and filter loops with correct edges.
+2. **Finish before moving on:** Cumulative scoring rewards completed problems, so verify each one before opening the next.
+3. **Practice inside half-built code:** Locate the editable regions, ignore decorative comments and avoid refactoring code the tests do not cover.
+4. **Read for error cases, skip optimization:** List every failure mode in the prompt before coding. Brute force passes.
+5. **Scope the take-home to ship:** Deploy something complete and document its trade-offs.
+6. **Refresh diffusion basics (ML roles):** Samplers, guidance and debugging a training run.
+
+## About working at Luma AI
+
+Luma AI builds multimodal generative models, including the Ray3 video model behind Dream Machine. A $900M Series C in late 2025 funded large-scale training and expanded hiring. Teams are small, and engineers work close to the models, from training and evaluation to serving and the product.
+
+Luma AI hires engineers across research and product. Teams include:
+
+- **Research and ML engineering:** Training and evaluating video and multimodal models.
+- **Infrastructure and reliability:** Model serving pipelines, GPU resource management and large-scale training stability.
+- **Data infrastructure:** Pipelines that feed training and evaluation.
+- **Product engineering:** Customer-facing apps, APIs and AI agent features.
+- **Forward deployed engineering:** Deploying Luma's models with customers and partners.
+
+### Experience and education requirements
+
+Product engineering postings ask for two or more years of professional software engineering experience. One posted hybrid Bay Area range was $168K to $252K base. ML and research roles expect hands-on deep learning experience, ideally with diffusion or video models, and strong coding. Infrastructure roles weight distributed systems and GPU work.
+
+## FAQs about the Luma AI interview
+
+### How long does the Luma AI interview process take?
+
+Typically two to four weeks from the first call to a decision. A take-home adds several days.
+
+### What is the hardest round of the Luma AI interview?
+
+The online assessment, because of time rather than difficulty: the rejected software candidate found both versions simple but could not finish either. Staff and research engineer loops are considered the hardest overall.
+
+### What language should I use?
+
+Use the one whose map and list APIs you know without looking anything up. The software candidate chose Java and found its verbosity costly under the clock.
 
 ---
 

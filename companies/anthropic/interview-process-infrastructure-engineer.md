@@ -6,90 +6,312 @@
 
 ---
 
-The first surprise for Infrastructure Engineer candidates is that the recruiter call is not a formality — one booked for 30 minutes ran 50 and became a technical interview on latency definitions, accelerator architecture, and how you would choose between GPU, TPU and Neuron for a workload, with roughly half the call spent on safety and where your personal red line for resigning sits. The loop then punishes two things generalist preparation misses: architectures presented without arithmetic, and a background that solves a different infrastructure problem than the team is hiring for. Candidates report clean crawler, deduplication and stack-trace rounds plus a solid inference-API design, then a rejection traced to serving-capacity experience they did not have.
+The Anthropic Infrastructure Engineer loop is built from the company's own problems: pushing hundreds of gigabytes of model weights onto a GPU fleet, batching inference traffic, turning profiler samples into traces, and aggregating data across machines where the network is the bottleneck. Interviewers want numbers, not boxes. Two non-technical filters decide many outcomes: a separate AI safety values round that can sink a strong technical performance, and team fit, since infrastructure here is several distinct teams and a background that solves a different bottleneck loses even after a clean loop.
 
-## Interview Process
+This guide breaks down each stage of the Anthropic Infrastructure Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 123 candidate-reported interview experiences, primarily from 2025 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Anthropic Infrastructure Engineer interview process
 
 <!-- guide-diagram -->
 ![Anthropic Infrastructure Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/anthropic--infrastructure-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (15–50 minutes, phone).** Motivation, why this company over other labs, level and scope, work authorisation, competing timelines. For this track it frequently goes technical: accelerator background, how you define and measure time-to-first-token and end-to-end latency, your framework for hardware selection. Recruiters here often disclose the topic of each later round and send policy reading; ask for both.
-2. **Online assessment or take-home (60–90 minutes; up to five hours for specialised roles).** A stateful simulation using the standard library only — a file system that gets a mid-problem requirement change, a bank ledger with holds and merges, an in-memory store with backup, restore and TTL. Performance-leaning variants instead ship a mocked system kernel to optimise, where loop unrolling, memory coalescing and operation fusion are the expected moves.
-3. **Technical phone screen (45–60 minutes, shared editor).** Practical systems code: a web crawler taken from single-threaded BFS to a thread pool with per-domain politeness, file deduplication by size then streaming hash, stack-trace processing with noise stripping and suffix matching, an LRU cache extended with crash durability. Expect redirection — several were told to keep the crawler strictly sequential — and pressure on I/O-bound versus CPU-bound reasoning. Search is allowed; AI assistants are not.
-4. **Virtual onsite, day one (three to four rounds, 55–60 minutes each).** A systems coding round, a heavyweight infrastructure design round, and a values round. The design round decides this track.
-5. **Virtual onsite, day two (two to three rounds).** A technical project deep dive or a design review of an internal document, a hiring-manager conversation on ownership and judgement, and sometimes a second architecture session on a system you built, drilling into QPS, latency and scaling. Day two is dropped if day one is weak.
-6. **Reference checks and team matching (1–2 weeks).** Reference calls — two former coworkers in one report — happen before the offer, and matching is a genuine decision point; candidates have been closed out here on headcount or domain fit.
+The skeleton is shared across infrastructure teams: a recruiter screen, an online assessment or a direct technical screen, then a virtual onsite of four to seven rounds, often over two consecutive days. The team sets the content. Inference loops lean on batching and GPU utilization, data infrastructure loops on telemetry and pipelines, and performance loops add a take-home and FLOP arithmetic. Stages are typically two to three weeks apart, so the process runs one to three months.
 
-Typical cadence: about a month between phone screen and onsite, then a decision three days to just over a week later.
+Level changes the entry point more than the content. Earlier-career candidates usually start with the timed assessment. Senior and staff candidates often skip it for a hiring-manager chat, a design screen or a distributed coding screen, and staff loops have carried two design rounds.
 
-## What They Actually Evaluate
+Here's what the interview process can look like:
 
-### System Design
-One or two rounds, and the densest signal in the loop. Recurring prompts are the company's own problems: distributing a several-hundred-gigabyte model to hundreds of hosts over bandwidth-constrained links, where chunked or tree propagation and mid-transfer recovery are the whole question; an inference API dominated by batching, queue depth, backpressure and accelerator saturation; a control plane for model updates with prompt caching, tier-aware rate limiting driven by live cluster health, and per-tier queues; a data platform ingesting tens of billions of events a day with column-level sensitivity labels. Interviewers reliably ask for numbers.
+- **Recruiter screen:** 15 to 50 minutes on motivation, AI safety and logistics, technical for performance roles.
+- **Online assessment (often skipped at senior levels):** A 90-minute, four-level stateful build in the standard library, or a take-home for performance roles.
+- **Technical phone screen:** 45 to 60 minutes of practical systems code, or a design discussion for senior candidates.
+- **Coding interviews (one to three):** Profiler traces, bandwidth-limited distributed aggregation and file-system problems with layered follow-ups.
+- **System design interview (one or two):** Model distribution, an inference API, or a review of a flawed design document.
+- **Performance and domain deep dive (team-dependent):** Roofline and sharding arithmetic, memory budgets, or a role-played network debugging session.
+- **Project deep dive and hiring manager interview:** One major project presented and questioned, then ownership and team fit.
+- **Culture and values interview:** AI safety scenarios and pointed behavioral questions, scored separately.
 
-- [Inference API System Design](https://trueinterview.io/questions/inference-api-system-design)
-- [Distributed Model Deployment System Design](https://trueinterview.io/questions/distributed-model-deployment-system-design)
-- [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure)
+> **Tip:** Ask the recruiter which infrastructure team the role sits on and what each round covers. Recruiters on this track often email the exact topic of every round, and that lets you aim your project deep dive at the team's bottleneck.
 
-### Coding and Algorithm
-Two to three rounds, all grounded in real systems work: crawlers exercise concurrency models, the frontier, deduplication and politeness; deduplication exercises streaming hashes, symlink cycles and collision fallbacks; trace problems exercise stack discipline and per-thread state. A distributed statistics round recurs — mode and median across ten nodes with only send, receive and barrier, local reads at ten bytes per second against a network at one, then iteratively cut the network cost. It is graded on successive optimisation, not a first correct answer.
+## Recruiter screen
 
-- [Coding Q3 — Stack Trace Reconstruction](../../questions/algorithm/coding-q3-stack-trace/README.md)
-- [File Deduplication (find duplicate files)](../../questions/object-oriented-programming/find-duplicate-files/README.md)
+The call is booked for 15 to 30 minutes and is a real gate; one candidate was cut after 15 minutes. Expect why Anthropic over other labs, why you are moving now, your coding language, work authorization and competing timelines. Some 2026 calls were unusually probing: one recruiter spent 20 minutes on which company statements the candidate agreed or disagreed with, why safety matters personally, and where the candidate had applied safety principles at work.
+
+For performance and hardware-adjacent roles the call turns technical. One booked for 30 minutes ran 50, covering how to define time to first token and end-to-end latency, accelerator core designs, and how to choose among GPU, TPU and other accelerators. About half was culture, including where the candidate would draw the line and resign.
+
+Interviewers evaluate:
+
+- **Specific motivation:** Reasons tied to this company's mission and published positions, not to AI in general.
+- **Considered views:** Agreement and disagreement with real company statements, defended in detail.
+- **Applied safety:** A concrete case where safety or reliability changed a technical decision.
+- **Technical fluency (performance roles):** Precise latency definitions on the spot.
+
+Prepare a two-minute answer on why Anthropic that cites something the company has published, plus one applied-safety story.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- What recent company statement did you read, and what did you disagree with?
+- If a project here conflicted with your ethics, where is your line for resigning?
+
+- [Recruiter Screen: Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
+- [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values)
+
+## Online assessment
+
+Candidates without a senior referral usually get a timed assessment: about 90 minutes, one problem in four levels, standard library only. Each level extends the last, so the first data structure decides whether level four is reachable. Reported builds: an in-memory database with TTL, then backup and restore where a backup pauses TTL timers; a bank ledger with held transfers, timeout cancellation and merges, where a merged account recreated under the same ID restarts at zero; a task manager with expiry and point-in-time snapshots; a file store adding quotas, then compression.
+
+Reported scores include 600/600, 925/1000, 800/1000 and 98/100. A perfect score is neither required nor sufficient: one recruiter called two hours after an 800, while some perfect scorers never heard back. Performance candidates instead get a take-home optimizing a mocked compute kernel through loop unrolling, memory coalescing and operation fusion. One 2026 variant had candidates build parts of an inference server, including caching and prefill, inside an undocumented codebase.
+
+Interviewers evaluate:
+
+- **Foundational modeling:** A first-level structure that absorbs TTL, history and merges without a rewrite.
+- **Spec precision:** Tie-breaks, case-insensitive uniqueness and return types exactly as stated.
+- **Temporal correctness:** Point-in-time queries on ordered storage with binary search, not scans.
+- **Pacing:** Every level partly working before any is polished.
+
+Read all four levels before coding, then practice two or three full builds inside 90 minutes.
+
+> **Note:** Provided tests mostly cover happy paths, and practice versions differ from the real one in signatures and return types. Write your own boundary tests for expiry exactly at a snapshot instant and for reused account IDs.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Build a key-value store with TTL, then add backup and restore so restoring resumes paused expiry timers.
+- Implement held transfers that must be accepted, cancel them on timeout, then merge accounts with queryable history.
+
+- [In-Memory Database with Backup and Restore](https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f)
+- [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system)
+- [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management)
+
+## Technical phone screen
+
+The screen runs 45 to 60 minutes in a shared editor; search is allowed and visible over screen share, AI assistants are not. Problems come from a small, recurring pool: a web crawler taken from single-threaded BFS to a thread pool, keeping same-host URLs and stripping fragments before deduplication; file deduplication by size, then streamed content hash, with I/O-bound versus CPU-bound follow-ups; an LRU memoization cache whose key must cover positional and keyword arguments, then crash recovery from a write-ahead log; and a Pillow image pipeline parallelized with processes.
+
+Infrastructure screens add distributed mode and median over 1,000 values on 10 nodes, a resumable and integrity-checked model download, and an inference API discussion on why CPUs idle while GPUs are saturated. Senior candidates are often told their first technical round is system design.
+
+Interviewers evaluate:
+
+- **Following the interviewer's path:** Several were told to keep the crawler sequential; one ran out of time before the concurrent part.
+- **The right concurrency model:** A thread pool for I/O, processes for CPU-bound work, with the GIL explained.
+- **Finishing cleanly:** An unresolved bug at the end is the most common reported rejection.
+- **Bottleneck reasoning:** Whether disk, CPU or network dominates, how to measure it, and how the code partitions across machines.
+
+Practice each pool problem until the base version takes 20 minutes, leaving the rest for follow-ups.
+
+> **Note:** Lead with the expected design. A candidate who opened with hand-placed locks before reaching a thread pool was rejected despite recovering, and another who cut 90 seconds to 70 with async threads but could not explain threads versus processes was rejected the next morning.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Crawl every same-host URL from a start page, stripping fragments before deduplication, sequentially and then with a thread pool.
+- Fix the key generation in a memoizing LRU cache, then persist it with an append-only log and rebuild it after a crash.
+- Compute the mode of values spread across 10 nodes while minimizing network traffic, then discuss the median.
+
+- [Web Crawler](../../questions/algorithm/web-crawler/README.md)
+- [Find Duplicate Files](../../questions/object-oriented-programming/find-duplicate-files/README.md)
+- [In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability)
+- [Batch Image Processor](https://trueinterview.io/questions/batch-image-processor)
+
+## Coding interviews
+
+Onsite coding rounds run 50 to 60 minutes, often with no test harness. The track's signature problems are a profiler trace and distributed statistics. The trace problem turns timestamped call-stack samples into start and end events: compare adjacent stacks by longest common prefix, emit ends innermost-first and starts outermost-first, separate recursive frames of the same name, then count a frame only after N consecutive samples. The last follow-up handles an unbounded stream, or only the last N samples, with minimal state.
+
+The distributed round finds the mode and median of data on ten nodes using only send, receive and barrier, with local reads at ten bytes per second and the network at one. It is graded on cutting network cost round after round from a gather-everything baseline: local pre-aggregation for the mode, partitioning for the median.
+
+Interviewers evaluate:
+
+- **Incremental optimization:** Each version cheaper than the last, with its cost stated in bytes or passes.
+- **State discipline:** Per-thread stacks, recursion and partial samples handled without special cases.
+- **Reading the spec:** One candidate missed a stated rule (print nothing when there are no duplicates) and was rejected the next day.
+- **Self-testing and steadiness:** Your own edge cases, written unprompted, even when the interviewer says nothing.
+
+Rehearse the trace and distributed-statistics problems through every follow-up, explaining each cost model aloud.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Turn sampled call stacks into start and end events, then require a frame to persist for N consecutive samples.
+- Find the mode and median of data across ten workers when the network is ten times slower than local reads.
+
+- [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events)
+- [Stack Trace Reconstruction](../../questions/algorithm/coding-q3-stack-trace/README.md)
 - [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median)
 
-### Domain Deep Dive
-A dedicated performance or hardware round appears in infrastructure-leaning loops, and it is where hints are most often needed. Reported content: FLOP counting and arithmetic intensity for a dense matmul, roofline reasoning about compute- versus bandwidth-bound kernels, whether a 72-layer network's weights fit a fixed VRAM budget, co-locating input activations, weights and outputs on one device, and pipeline versus tensor parallelism with the latency, memory and communication trade-offs spelled out.
+## System design interview
 
-- [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
-- [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
+Loops have one or two design rounds. Recruiters say no research background is needed, but prompts are Anthropic's own problems. The most common is model distribution: push a model of hundreds of gigabytes (500 GB in one version) to 100 to 1,000 GPU workers with 10 Gbps of external and per-worker bandwidth, minimize deployment time, survive failures and scale to 10,000 workers. Strong answers chunk the model and compare pipeline with tree propagation. Follow-ups ask how to recover without a central coordinator, spot a stuck deployment, and route traffic only to instances that loaded the right version.
+
+The second family is inference serving: batch requests for a few GPUs under roughly a 500 ms to one-second latency target, with queue depth, backpressure, pre-warming and graceful degradation. Data infrastructure loops design telemetry that reconciles metric names older clients spelled differently, and some loops use a design document review instead, such as an inference service adding batching and load balancing at 10,000 QPS with 100 ms per batch, then sizing servers and load shedding.
+
+Interviewers evaluate:
+
+- **Sizing from first principles:** Transfer times, GPU counts and queue lengths derived, not asserted.
+- **Failure and recovery:** Partial transfers, dead workers and overload behavior raised unprompted.
+- **Rollout correctness:** How you know a deployment is healthy and that no request reaches a half-loaded model.
+- **Batching judgment:** Static versus dynamic batching, variable sequence lengths, and why serving is memory-bound.
+
+Practice model distribution and batched inference until you can quote the deployment time and GPU count your design implies.
+
+> **Note:** Qualitative answers lose here. A candidate who passed coding called design the weakest round after the interviewer challenged every proposal, and another spent so long reading the design document that the batching discussion the interviewer wanted was cut short.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Deploy a 500 GB model to a thousand GPU workers as fast as possible, then recover from failures without a coordinator.
+- Review a proposed inference design that must reach 10,000 QPS, then size the servers and define overload behavior.
+- Design telemetry ingestion when deployed clients send several spellings of the same metric name.
+
+- [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design)
+- [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design)
+- [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design)
+- [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names)
+- [System Design Q5: Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure)
+
+## Performance and domain deep dive
+
+Performance, accelerator and compute-platform loops add a domain round, where hints are most often needed. One version supplies a spreadsheet-like tool: compute by hand the FLOPs, memory and network traffic of a feed-forward block under several sharding schemes, then label each compute-, memory- or communication-bound. Another starts from a dense matrix multiplication (2·m·k·n FLOPs, arithmetic intensity, roofline against peak compute and bandwidth) and asks whether a 72-layer network's weights fit in a 40 GB GPU; specs are given on request.
+
+Follow-ups compare pipeline parallelism on two GPUs with tensor parallelism for latency, per-GPU memory and communication; other loops role-play debugging a networking fault in a production compute job. One candidate who reached references after this round was rejected as not senior enough.
+
+Interviewers evaluate:
+
+- **Arithmetic fluency:** Parameters to bytes and operations to seconds, done quickly and checked aloud.
+- **Bottleneck classification:** The binding constraint, and what would change it.
+- **Parallelism trade-offs:** Latency, memory and communication costs of each sharding choice.
+- **Diagnostic method:** In the role-play, hypothesis-driven checks narrated step by step.
+
+Work roofline and sharded matrix multiplication examples by hand until a full estimate takes under ten minutes.
+
+### Sample questions for the performance and domain deep dive
+
+Here are some questions reported by recent candidates:
+
+- Compute FLOPs, memory and communication for a feed-forward layer under different sharding strategies, and name each bound.
+- Estimate whether a matrix multiplication of given size is compute- or bandwidth-bound on a specific GPU.
+
+- [Performance Modeling: Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
+- [Estimate FFN Compute, Memory, and Sharding Communication](https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication)
 - [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337)
 
-### Low-Level Design
-The assessment stage tests whether you can build a correct stateful component and extend it without breaking the earlier contract: a cache surviving restart through an append-only log replayed in the right order, a file system that gets versioning added mid-problem. Crash consistency and idempotent replay are worth raising unprompted.
+## Project deep dive and hiring manager interview
 
-- [Coding Q2 — In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability)
-- [OA — File Systems](https://trueinterview.io/questions/oa-file-systems)
+The project round often opens with a 20-minute presentation, sometimes with a live demo, then detailed questions on architecture, failures and your role. A staff candidate was asked whether a project costing about 50 engineer-years (roughly $20 million) had paid for itself, and infrastructure managers have pressed on QPS and how latency was measured. The manager round is where domain fit is quietly decided: candidates were rejected right after it, and one was reassigned mid-loop when the original headcount filled.
 
-### Behavioral and Leadership
-The hiring-manager round covers ownership, technical disagreement, delivering under constrained resources, and translating research needs into production systems. The values round is separate and heavier: why this company, a value upheld when it was costly, someone you respect but fundamentally disagree with, safety-versus-commercial hypotheticals. One candidate strong on every technical round attributed the rejection entirely to that session.
+Interviewers evaluate:
 
-- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
-- [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
+- **Ownership:** Decisions you made, alternatives you rejected, and what you would change.
+- **Quantified impact:** Throughput, latency, cost or reliability numbers behind the outcome.
+- **Return on investment:** Whether the work justified its cost, especially at staff level.
+- **Domain alignment:** How your experience maps onto this team's bottleneck.
 
-## What They Don't Test
+Pick a project close to the team's domain and rehearse its numbers, failures and cost justification.
 
-- **Puzzle algorithms.** Nothing reported resembles a contest problem; the coding rounds are crawlers, hashes, traces and distributed aggregation, scored on concurrency, streaming and failure handling.
-- **Research-level machine learning.** A recruiter told one candidate the systems design screen requires no specialised model or research background; scalability, security and reliability replace it.
-- **Architecture diagrams without arithmetic.** Interviewers ask for GPU counts, bandwidth budgets and daily storage. Estimating from first principles matters more than naming the right component.
-- **Cloud-vendor product trivia.** Discussions stay at brokers, queues, tiers and schedulers, and interviewers probe internals when you name a technology.
+### Sample questions for the project deep dive and hiring manager interview
 
-## The Real Filter
+Here are some questions reported by recent candidates:
 
-The dominant unexpected rejection is a domain mismatch never named until the end. Infrastructure is not one job here: training platform, inference serving capacity, data platform, model distribution and accelerator performance are distinct teams with distinct emphases. One candidate with search, recommendation and training-infrastructure experience was rejected from a role centred on inference-server capacity despite a competent loop; another was reassigned mid-process when the original team filled. The generic-looking coding and design rounds are why this goes unnoticed. Establish which team and bottleneck you are measured against before the onsite, and steer your project deep dive onto it.
+- If the project cost 50 engineer-years, did its benefits justify the spend?
+- What QPS and latency did your system sustain, and how did you measure them?
 
-The second pattern is qualitative design under a quantitative bar. These are constraint problems — bandwidth, VRAM, queue depth, cost per day — and interviewers keep pulling toward figures; reasonable layered architectures have lost the round for lack of sizing. Practise sizing out loud: parameters to bytes, tokens to FLOPs, events to terabytes, traffic to accelerators.
+- [Hiring Manager Round: Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
 
-The third is the values round, which here has an extra edge: infrastructure work is furthest from the mission on paper, so interviewers press harder on why safety matters to you personally and where your ethical line sits. A general endorsement of responsible AI is the reported failure.
+## Culture and values interview
 
-## Data Source
+The values round is separate from the manager round, sometimes run by a non-engineer, and graded on whether your reasoning holds under follow-ups rather than on a right answer. Safety scenarios recur: a breakthrough with unknown risks, whether you would delay it if competitors would not, and whether you would accept lower pay or equity value for the mission. Behavioral prompts are pointed: something you did that was morally wrong, a time you challenged authority (personal examples accepted), and a disliked task you must persuade someone else to take.
 
-Based on 123 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Interviewers evaluate:
 
-## FAQ
+- **Personal stake in safety:** A lived reason and a concrete action, not general support for responsible AI.
+- **Coherence under pressure:** Positions that survive three layers of "what if."
+- **Honest self-assessment:** A real mistake or ethical lapse, owned without spin.
+- **Critical engagement:** A reasoned disagreement with the company's own approach.
 
-**What is it like to work there as an Infrastructure Engineer?**
-Our reports cover the loop, not the job, with two exceptions: a recruiter cited a typical week of about 60 hours, and a candidate was told remote staff are expected onsite roughly a quarter of the time, about one week a month. Judging by the prompts, the work is compute-constrained.
+Write out your safety positions in advance, including one disagreement with the company, and test them against hostile follow-ups.
 
-**What is the engineering culture like?**
-Interviewers come across as collaborative and technically deep, several candidates describing the design rounds as partnering exercises where constraints and hints were offered freely. The stated norms — low ego, direct disagreement in good faith, humility over heroics — are graded, and one leadership-level round rewarded measured, reversible decisions over dramatic fixes.
+> **Note:** A weak culture signal can trigger an extra culture interview after the onsite, and several candidates who did well technically attributed their rejection to this round alone. Infrastructure candidates are pressed hardest on why safety matters to them, since their work looks furthest from the mission.
 
-**How hard is it to get in?**
-Hard, with the difficulty concentrated where infrastructure candidates rarely prepare. The technical pool recurs, so the coding rounds are learnable; losses cluster in quantitative design, domain fit and values. Published estimates put acceptance far below a few percent over a three-to-six-week process.
+### Sample questions for the culture and values interview
 
-**Which round is hardest?**
-The performance and distributed-efficiency round technically — candidates report needing hints through parallelism trade-offs and memory budgeting — but the design round is hardest to prepare for, since prompts like distributing model weights across a bandwidth-limited cluster do not map onto standard material.
+Here are some questions reported by recent candidates:
+
+- A breakthrough has unknown risks: would you delay it, and what if other labs do not?
+- Have you ever done something morally wrong, and what did you do about it?
+- What work do you dislike most, and how would you convince someone else to do it?
+
+- [Reason About Delaying an AI Breakthrough Under Uncertain Risk](https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk)
+- [Explain Your Motivation and Practical Approach to AI Safety](https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety)
+- [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value)
+
+## How Anthropic levels and evaluates Infrastructure Engineer candidates
+
+All rounds are weighed together, and one average round can outweigh several strong ones. The level is often set after the decision rather than before the loop, which is how one infrastructure candidate was rejected as not senior enough; a role posted as senior can still expect staff-level influence.
+
+References come before the offer, such as one former manager and one current colleague, and do not guarantee it: one candidate was rejected a week after references were called. Team matching increasingly follows the full loop, where headcount or domain fit can end a process. Rejections usually come two to three days after the final round, without feedback.
+
+> **Tip:** If the assigned team does not fit your background, tell the recruiter early. Candidates have been moved to a better-matched design track the night before the round.
+
+## How to prepare for the Anthropic Infrastructure Engineer interview
+
+1. **Pin down the team first:** Inference, model distribution, data infrastructure, compute platform or performance, and aim your project deep dive at that bottleneck.
+2. **Master the recurring systems pool:** Crawler, file deduplication, durable LRU cache, image pipeline, profiler trace and distributed mode and median, through every follow-up.
+3. **Size every design out loud:** Parameters to bytes, bandwidth to transfer time, traffic to GPU counts.
+4. **Practice the two flagship designs:** Chunked model distribution with coordinator-free recovery, and batched inference with backpressure and load shedding.
+5. **Learn roofline and sharding arithmetic:** FLOPs, arithmetic intensity, memory fit, and pipeline versus tensor parallelism by hand.
+6. **Rehearse design document reviews:** Find the top three flaws in ten minutes, then spend the rest on fixes.
+7. **Write your own tests in every round:** Unresolved bugs and missed constraints are the most common technical rejections.
+8. **Prepare safety positions you can defend:** A personal reason, an applied example, one disagreement with the company, and a morally difficult story.
+
+## About the Anthropic Infrastructure Engineer role
+
+Infrastructure engineers build and run the systems that train, serve and observe Claude: accelerator clusters, inference routing across thousands of chips, research data platforms and the pipelines that release new models. The work is compute-constrained, and accelerator time is treated as the scarcest resource. Staff work from San Francisco, New York or Seattle at least 25% of the time; one recruiter described a typical week as about 60 hours.
+
+Anthropic hires Infrastructure Engineers across several teams, with placement often settled after interviews. Teams include:
+
+- **Inference:** Request routing, load balancing, autoscaling and model release pipelines for serving Claude.
+- **Cloud Inference:** Packaging and scaling Claude serving on partner cloud platforms.
+- **Core Infrastructure:** Large Kubernetes clusters running GPU, TPU and Trainium workloads.
+- **Data Infrastructure:** Data systems for research and products.
+- **Runtime Platform:** Health, performance and efficiency monitoring and alerting.
+- **Developer Productivity and Product Infrastructure:** The internal build and deploy path, and reliability for products.
+
+### Infrastructure Engineer experience and education requirements
+
+Postings ask for a bachelor's degree in a related field or equivalent experience, strong proficiency in a language such as Python, Rust, Go or Java, and significant distributed systems experience. Senior infrastructure postings have asked for eight or more years, three of them leading large projects, plus Kubernetes, infrastructure as code and major clouds. Python is the default interview language, and requests for another language have not always been honored.
+
+## FAQs about the Anthropic Infrastructure Engineer interview
+
+### How long does the Anthropic Infrastructure Engineer interview process take?
+
+Usually one to three months. Two- to three-week gaps between stages are common, and references plus team matching add one to two weeks after the loop.
+
+### What is the hardest round of the Anthropic Infrastructure Engineer interview?
+
+Technically, the performance deep dive, where candidates report needing hints on sharding and memory budgets; system design is the most frequent technical rejection. Overall, the values round decides more outcomes than either.
+
+### Is there an online assessment?
+
+Usually for earlier-career candidates. Senior and staff candidates often skip it, and performance roles get a kernel-optimization take-home instead.
+
+### Can you use AI tools during the interview?
+
+Not in standard coding rounds, where search is allowed but AI assistants are not. Some 2026 loops added a separate 55-minute round, built around reviewing and improving pull requests, where an AI coding assistant is allowed.
+
+### How much does an Anthropic Infrastructure Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **Senior Software Engineer:** ~$550K
+- **Lead / Staff Software Engineer:** ~$750K
+
+Posted base salaries for senior and staff infrastructure roles run about $300K to $485K; most of the rest is equity, whose value tracks the company's private valuation.
 
 ---
 

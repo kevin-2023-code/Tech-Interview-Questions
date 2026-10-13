@@ -16,19 +16,33 @@ How Lyft interviews, and the questions candidates reported there. Free questions
 
 ## How Lyft interviews
 
-Lyft's loop rewards a different reflex than a pure algorithm gauntlet: the rounds that recur most often ask you to build a small working component — a key-value store with transactions, a wrapper over a paginated API, a scheduler that assigns jobs to workers — and to prove it runs with test cases you write yourself. Going deeper than the outline on the company page, this guide draws on 17 real Lyft questions and 26 candidate interview reports to show what each stage contains, how it is graded, and where offers are lost.
+Lyft's loop is built around small working programs rather than puzzle-style algorithms. The problems that come up most are a key-value store with transactions, a wrapper that returns exactly n items from a paginated source, and a scheduler that assigns jobs to the fewest workers. Several interviewers want a runnable `main` that runs test cases you wrote yourself. The design prompts come from a short list that repeats, and the hiring manager conversation is often unusually candid in both directions.
 
-### Interview Process
+This guide breaks down each stage of the Lyft interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 24 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Lyft interview process
 
 <!-- guide-diagram -->
 ![Lyft interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/lyft/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** A short call, typically around 30 minutes, covering background, work authorization, and the stages ahead. Nothing technical is asked, but pin down the round schedule here: one candidate was told to expect five onsite rounds and found only four booked.
+The structure is stable across teams while the content follows the track: Software Engineer candidates get coding, a hands-on build, system design and behavioral rounds; frontend candidates get browser UI builds; data and ML candidates get applied statistics and from-scratch model code. The usual sequence is a recruiter call, one technical screen, then a virtual onsite of three to six rounds, most often four or five, over typically four to six weeks.
 
-**Online assessment.** An OA is not universal; it shows up mostly in cold-application and university funnels. One reported assessment was a single grid-BFS problem (rotten oranges). The intern assessment had no algorithms at all, but two workplace simulations — drafting replies to product-manager comments in a shared document, then applying requested changes to a small codebase from review comments.
+Intern and some cold-application funnels add an online assessment before the screen. Senior candidates face a stricter screen, and their loops can include two system design rounds or a round that pairs a coding extension with a design discussion. Some backend loops also add a domain-expertise session on the candidate's own specialty.
 
-**Technical phone screen.** One live session with an engineer in a shared editor, most often around an hour; the machine-learning screens reported ran 45 and 75 minutes. It is one problem, and the families repeat hard. Pagination wrappers are the most common: implement `fetch_n` over a paginated source with buffering and unreliable upstream calls, wrap a read-only page client so callers get an exact number of items, or design a pagination API over an external page-based one. Job scheduling is next — minimum workers for jobs parsed from a CSV-style stream, with a tie-break rule (always the lowest-index idle worker) that breaks the standard min-heap answer if you miss it. Then classics: minimum window substring (the most repeated), rotten oranges, a max stack, interval merging, an LRU-style cache, and a command-string parser with heterogeneous line formats. Several interviewers expect a complete `main` plus your own test cases, sometimes with no harness at all, and at least one enforced the clock rigidly. Frontend screens are JavaScript-only on a browser editor with no autocomplete — a live `hh:mm:ss` clock, drag-to-select across a 5x4 grid. Data and ML screens split their time: SQL and pandas plus conditional probability; 30 minutes diagnosing train/test error patterns then 45 minutes implementing a one-hot encoder; a logistic-regression bias-shift question plus k-means from scratch.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call covering background, work authorization and the rounds ahead, with no technical questions.
+- **Online assessment (some funnels):** Either a single grid-traversal problem or, for interns, two workplace simulations built around written feedback.
+- **Technical phone screen:** One live problem, usually about an hour in a shared editor, often graded on a runnable program you test yourself.
+- **Onsite coding and laptop rounds:** One or two practical builds, such as in-memory stores, schedulers and API wrappers, typically in a longer hands-on slot.
+- **System design interview:** One or two rounds drawn from a small, recurring set of prompts and sketched on a shared canvas.
+- **Track-specific rounds:** UI builds for frontend, business cases and ML design for data roles, and a deep domain session for some backend loops.
+- **Behavioral and hiring manager interview:** Conflict, failure, decisions and inclusion questions, plus a manager conversation about the team.
+
+> **Tip:** Rehearse building a complete program, not just a function: the core logic, a `main`, and four or five edge-case tests in one timed sitting. Several screens required exactly that, and one candidate with the right idea still failed because boundary bugs surfaced only on the second example.
 
 **[Read the full Lyft interview process →](interview-process.md)**
 

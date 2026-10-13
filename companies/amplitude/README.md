@@ -16,25 +16,30 @@ How Amplitude interviews, and the questions candidates reported there. Free ques
 
 ## How Amplitude interviews
 
-This is the deep dive behind the process summary on the company page: what each Amplitude round actually contains, how the problems are framed, and where candidates lose the offer. It draws on 5 real Amplitude questions and 2 candidate interview reports, plus corroborating accounts of recent loops.
+Amplitude's technical rounds build on each other. In the reported loop, the phone screen asked the candidate to extend their own online-assessment code with a new rule, and the onsite coding round was an implementation exercise, a small playable game, rather than another algorithm puzzle. The non-technical half is unusually long: three separate conversations with a product manager, an engineering director and the hiring manager.
 
-### Interview Process
+This guide breaks down each stage of the Amplitude interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 1 candidate-reported interview experience, cross-checked against recent public accounts.
+
+### Amplitude interview process
 
 <!-- guide-diagram -->
 ![Amplitude interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/amplitude/process.webp)
 <!-- guide-diagram -->
 
-Amplitude does not run one fixed loop for every candidate. Reports describe two entry paths into the same technical bar, and which one you get depends on the team and the recruiter.
+The shape depends on the team. Some candidates start with an online assessment and a phone screen that extends it; others go straight to an hour of live coding. The April 2026 report ran seven rounds: assessment, phone screen, onsite coding, system design and three behavioral conversations. Other recent loops are described as two coding rounds, system design, a project deep dive and one behavioral round, over typically three to four weeks. Senior candidates should expect more weight on design and the deep dive.
 
-**Path A — take-home style assessment first.** Some candidates start with an untimed-feeling but self-contained coding assessment before speaking to any engineer. The task in our reports was a small piece of business modelling rather than a puzzle: validate a set of employee records against a rule set, where each employee may carry a list of subordinates that must be validated recursively. It is graded on correctness against hidden cases, so the recursion has to terminate cleanly on malformed input, not just on the happy path.
+Here's what the interview process can look like:
 
-**Path B — a live coding screen with a recruiter conversation in front of it.** This round runs roughly an hour and packs **two** problems into it, which is the single most important scheduling fact about Amplitude. Most candidates budget an hour for one problem and pace themselves accordingly; here, spending forty minutes on the first problem leaves the second one half-finished. One report describes exactly this compression: the first problem solved, the second submitted with a single failing case, and a rejection on that basis alone.
+- **Recruiter screen:** A short call on background, team and motivation.
+- **Online assessment (some loops):** One coding task framed as business logic.
+- **Technical phone screen:** About an hour of live coding, often building on the assessment.
+- **Onsite coding:** An implementation exercise such as a small game.
+- **System design:** A scoped product design focused on endpoints and schema.
+- **Behavioral interviews:** Separate rounds with a product manager, an engineering leader and the hiring manager.
 
-The screen is also conducted over screen share **using your own editor**, and at least one candidate was not told this in advance. Confirm the setup with the recruiter before the call — whether you are coding in a shared browser pad or in your own IDE changes what you should have open, whether you can run code, and whether you have a scratch test harness ready.
-
-**The follow-up screen builds on what you already wrote.** In one report, the phone screen after the assessment did not introduce a fresh problem: the interviewer asked the candidate to extend their own employee-validation code with a new rule that detects circular reporting relationships. That is a deliberate test of whether the code you shipped in the assessment was structured well enough to extend. Write the assessment as if you will have to modify it live.
-
-**The onsite is a virtual loop with a heavy non-technical half.** Our fuller report describes a coding round, a system design round, and then *three* separate behavioral conversations — one with a product manager, one with an engineering director, and a final one with the hiring manager of the team. Independent accounts of recent loops describe a comparable shape: two coding rounds, a system design round, a deeper craft or project conversation, and a behavioral round, with the overall cycle typically running three to four weeks end to end.
+> **Tip:** Ask the recruiter which environment each round uses, whether code can be run, and how many problems are planned. One candidate learned only on the call that they would share their own editor.
 
 **[Read the full Amplitude interview process →](interview-process.md)**
 

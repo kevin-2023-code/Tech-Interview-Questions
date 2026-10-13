@@ -6,79 +6,283 @@
 
 ---
 
-This guide goes deeper than the process outline on the company page: how each stage is actually graded, where candidates get surprised, and what separates a pass from a near miss. It draws on 27 real Walmart Global Tech questions and 13 candidate interview reports, so every claim below maps to something you can practice directly.
+Walmart Global Tech seldom runs a pure algorithms loop. Most rounds pair a medium coding problem with practical engineering: Spring Boot behavior in production, extending a function into a REST service, reviewing bad code, or debugging a React and Spring Boot project with an in-house AI assistant. Design prompts come from Walmart's own businesses, and the hiring team makes the decision, so the format varies by team.
 
-## Interview Process
+This guide breaks down each stage of the Walmart Global Tech interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 14 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Walmart Global Tech interview process
 
 <!-- guide-diagram -->
 ![Walmart Global Tech interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/walmartlabs/process.webp)
 <!-- guide-diagram -->
 
-The online assessment comes in two distinct flavors, and knowing which one you have changes your preparation. The classic version is a timed set of around three algorithm problems of low-to-moderate difficulty — greedy pairing, sliding-window counting, small class-design tasks — where the trap is complexity rather than insight: a tempting O(n^2) brute force on the first problem will fail large inputs that an O(n log n) greedy handles easily. Skeleton code may be incomplete (for example, a missing constructor you are expected to fill in), so read the expected API before typing. The newer full-stack version runs about 90 minutes and pairs one algorithm problem with two debugging tasks — a React frontend and a Spring Boot backend — assisted by a proprietary in-browser AI tool that is noticeably weaker than mainstream assistants. Test cases are hidden until you locate the test files and build the project, so budget your first minutes for exploring the repo structure. The platform detects multiple monitors but does not require camera or screen sharing.
+Each hiring team owns its loop. Many pipelines open with a HackerRank assessment. Others start with a short recruiter or hiring-manager call, and some Bentonville teams use an outside vendor for the first live coding screen. Then come one or two technical screens of about an hour and a final loop of three sessions, usually held virtually. The whole process typically takes two to four weeks.
 
-The technical phone screen is roughly an hour and rarely stops at one coding question. Candidates report three shorter algorithm problems in a single call (interval-conflict detection, grid validation) followed by an extensive Spring Boot discussion: bean scopes and their memory implications, dependency structure, environment separation without leaking secrets, unified logging across teams, session behavior, pagination, and keeping long-running work off request threads. Another common screen pattern starts with a scheduling-style coding problem and then asks you to grow it into a production REST service — endpoint shapes, input validation, metrics and structured logging with correlation IDs, and retry logic with exponential backoff for downstream failures. Interviewers actively probe whether you have merely memorized a known problem: expect to justify every step of a pattern like the monotonic stack and to volunteer the brute-force alternative before being asked.
+Level changes the content more than the structure. Early-career candidates mostly face the assessment and medium coding. Senior screens add Spring Boot and API design. At staff level, design rounds cover entire platforms, and behavioral questions turn to operational excellence and leading teams.
 
-The final loop typically runs three sessions: a coding round, a system design round, and a hiring-manager conversation, though some teams add a business-logic coding segment or a code-review exercise on deliberately messy legacy-style code. Coding rounds usually carry two problems — a warm-up variant of a classic (two-sum with tie-breaking on indices, maximum subarray returning indices, rebuilding a binary tree from traversals) followed by either a harder follow-up or a discussion-only extension such as three-sum deduplication. Some rounds run in a bare shared editor or expect HackerRank-style stdin handling, so parsing and printing cleanly under time pressure is part of the grade. The code-review exercise rewards triage: surface correctness, security, and reliability defects first, because candidates who polish style run out of time.
+Here's what the interview process can look like:
 
-Design rounds are grounded in retail operations rather than abstract scale trivia. Reported prompts include a membership system, a multi-carrier delivery management system integrating several shipping partners, a ticketing platform with no-double-booking inventory, and — at senior levels — an end-to-end advertising platform spanning event collection, bidding, pacing, experimentation, and attribution. Strong answers narrow requirements fast, define entities and state transitions, and then get concrete on the operational layer: carrier-specific adapters behind a common interface, reservation holds with TTLs instead of naive row locks, idempotent order flows, queues to absorb release bursts, circuit breakers and fallbacks when a partner API goes down, and what changes during a holiday traffic spike. Machine learning candidates get a parallel track: ML system design (item-category prediction is a recurring theme), a research-paper discussion, and LLM specifics such as RAG-based agents and the effect of the temperature parameter.
+- **Online assessment (many pipelines):** A timed test with either three short problems or a 90-minute full-stack task that includes an AI assistant.
+- **Recruiter or hiring-manager screen:** A brief call on background, team fit and logistics.
+- **Technical phone screen (one or two):** About an hour that mixes coding with a Spring Boot, API or design discussion.
+- **Coding interview:** Medium problems that change the output of a classic problem, sometimes followed by business-logic coding or a code review.
+- **System design interview:** A retail-flavored architecture problem, or ML system design for Data and AI roles.
+- **Behavioral and hiring-manager interview:** Stories about influence, data, production incidents and integrity.
 
-The hiring-manager round digs into specific past behavior rather than generic values questions: convincing others without formal authority, a decision driven by data, diagnosing and resolving a production incident, and how you handled an integrity or compliance concern. The full process moves quickly when it moves — several candidates completed everything within about three weeks, and decisions typically land within a week or two of the final round — but post-interview communication can be inconsistent, so silence is not a reliable signal either way.
+> **Tip:** Practice in a plain editor that cannot run code, writing your own tests and parsing HackerRank-style input. Several candidates lost time to the environment, not the algorithm.
 
-## What Candidates Report
+## Online assessment
 
-- Interviewer feedback varies sharply between rounds. Some engage collaboratively on trade-offs; others give near-zero reaction during coding, so candidates who narrate assumptions and self-validate fare better than those who wait for confirmation.
-- Spring Boot depth is a genuine differentiator, not a checkbox. Framework discussions have covered configuration, logging, session loss, validation, high availability, and accessibility — far beyond a quick annotation quiz.
-- Known problems invite scrutiny. When a candidate lands quickly on an optimal pattern, interviewers ask them to re-derive it step by step; fluency in the reasoning matters more than reaching the answer.
-- Scope expands mid-round. A single function becomes an API service; a delivery design becomes a conversation about monitoring, retries, partner failures, and even how the frontend team should test the feature.
-- Practical environments add friction: bare text editors with no debugging support, HackerRank I/O formats, and hidden test files all consume time that pure algorithm practice does not simulate.
-- Behavioral delivery is graded. Candidates with solid experience report struggling when stories came out choppy; rehearsed, structured answers with concrete outcomes hold up under the follow-up probing.
+The classic version has three easy-to-medium problems where the trap is complexity. One 2026 set had a greedy problem with n up to 100,000, where a quadratic brute force times out. The other two were a small task scheduler class and a group-by-and-sort aggregation. Another assessment had one sliding-window problem: for each start index, find the shortest window covering all required talents.
 
-## Coding Questions
+The newer version runs 90 minutes. It has one moderate algorithm problem plus two debugging tasks, a React frontend and a Spring Boot backend, done with Walmart's own AI assistant. Tests are hidden: candidates must locate them, build the project and work from the failures. The platform detects extra monitors but uses no camera.
 
-Coding at Walmart Global Tech leans on dependable medium-level patterns — intervals, stacks, greedy pairing, string manipulation — with a twist in the output contract, such as returning original indices or a specific tie-break order. Practice stating the invariant, the complexity, and the edge cases out loud before writing.
+Interviewers evaluate:
 
-- [Merge Intervals Returning Original Start/End Indices](https://trueinterview.io/questions/merge-intervals-with-indices)
+- **Complexity under limits:** O(n log n) greedy passes where O(n²) pairing fails.
+- **Careful reading:** Starter code can be incomplete, such as a missing constructor, and the API must be implemented exactly.
+- **Language fluency:** Maps, custom sorts and simple classes written cleanly.
+- **Debugging method:** Working from failing tests rather than trusting the assistant.
+
+Spend the first five minutes of a full-stack assessment mapping the repository and running the tests.
+
+> **Note:** The assistant is weaker than mainstream coding tools and has its own interface. Candidates who relied on it ran short of time. Verify every change against a test run.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Permute array B to maximize the sum of every B[i] that exceeds A[i].
+- For each start index, return the shortest contiguous window covering every required talent.
+- Implement a scheduler whose executeAll method runs added tasks in time order, then clears them.
+
 - [Permutation Maximizing Σ B[i] where B[i] > A[i]](https://trueinterview.io/questions/permutation-max-greater-sum)
-- [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces)
-- [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md)
+- [Minimum Talent-Complete Team from Every Start](https://trueinterview.io/questions/minimum-talent-complete-team-from-each-start)
+- [AI-Assisted Full-Stack Project Debugging](https://trueinterview.io/questions/ai-assisted-fullstack-oa)
 
-## System Design Questions
+## Recruiter and hiring-manager screen
 
-Design prompts mirror the company's actual systems: memberships, delivery logistics, and ML-driven catalog features that must survive holiday-scale bursts. Anchor your design in the source of truth, state transitions, idempotency, and partner-failure handling rather than a generic box diagram.
+Candidates come in through cold applications and recruiter outreach. Some pipelines open with a short non-technical call. In others, the hiring manager holds the first conversation, covering projects and team fit before the technical rounds. Several senior postings rule out visa sponsorship, and one candidate was told so before the assessment.
+
+Interviewers evaluate:
+
+- **Stack match:** Java and Spring Boot, React for full-stack roles, production ML for Data and AI teams.
+- **Scope of recent work:** The size of the systems you owned, which sets the level.
+- **Logistics:** Location, work authorization and timeline.
+
+Prepare a two-minute walkthrough of one project, covering its scale and your own decisions.
+
+### Sample questions for the recruiter and hiring-manager screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and the most complex system you have owned.
+- Why Walmart, and why this team?
+
+## Technical phone screen
+
+Screens last about an hour and hold more than most companies' screens. One senior screen had three short problems (overlapping courses per student, a Sudoku validator, a nonogram checker) and then a Spring Boot discussion. Topics included memory pressure from application-scoped beans, keeping secrets out of environment configs, unified logging, sessions lost between secured pages, and moving long-running work off request threads.
+
+A staff screen started with free slots shared by two calendars. It grew into a REST service with validation, correlation-ID logging and retries with backoff and jitter, and ended with how the frontend team should test it. Other screens pair a monotonic-stack problem with a short multi-carrier delivery design.
+
+Interviewers evaluate:
+
+- **Genuine understanding:** Interviewers ask candidates to justify every step of a well-known pattern.
+- **Alternatives:** One candidate was told they should have considered other approaches earlier.
+- **Runnable code without tools:** A staff candidate was expected to write bug-free code in a plain-text editor.
+- **Production instincts:** Validation, observability, retries and configuration, explained in Spring Boot terms.
+
+Practice extending a solved problem into a validated, observable endpoint in about 20 minutes.
+
+> **Tip:** Some interviewers give almost no feedback and brush aside questions about edge cases. State an assumption, such as how to treat touching intervals, and test it yourself.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Each day, plants with more pesticide than their surviving left neighbor die. Return the number of days until none die.
+- Given two calendars and a duration, return the common free slots, then expose this as a `POST` endpoint with retries.
+- How would you debug sessions lost between secured pages in a Spring Boot app?
+
+- [Plants Pesticide — Days Until Stable](https://trueinterview.io/questions/plants-pesticide-days)
+- [Course Overlap by Student ID](https://trueinterview.io/questions/course-overlap)
+- [Validate Nonogram Solution](https://trueinterview.io/questions/validate-nonogram)
+- [Spring Boot Verbal Quiz](https://trueinterview.io/questions/spring-boot-verbal-quiz)
+- [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor)
+
+## Coding interviews
+
+Final-loop coding is medium difficulty, usually a classic problem with a different output. Reported problems:
+
+- Two-sum returning the smallest i, then j.
+- Three-sum without duplicates (explained aloud only).
+- Maximum subarray returning its indices, with HackerRank I/O.
+- Rebuilding a binary tree from its inorder and postorder traversals.
+- First occurrence of a target in O(log n).
+- Palindrome partitioning.
+- A weekly-hours pattern with wildcards.
+
+Sessions labeled as coding can include other work. Candidates reported a business-logic segment that turned real rules into maintainable code, and a ten-minute review of four badly written files followed by behavioral questions.
+
+Interviewers evaluate:
+
+- **Exact output requirements:** Tie-breaks, indices and duplicate removal done as specified.
+- **Trade-off reasoning:** A hashmap versus two pointers, DP versus backtracking.
+- **Self-testing:** Writing your own cases, because the editor often cannot run them.
+- **Readable domain code:** Structure and naming count in business-logic segments.
+
+Drill intervals, two pointers, binary-search boundaries and backtracking, and state the invariant before coding.
+
+> **Note:** One candidate reviewed only two of the four files and was told they had found every issue in both. Correctness and reliability defects earn more credit than covering every file.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Find two indices summing to a target. Among ties, return the smallest i, then the smallest j.
+- Remove exactly m elements so the fewest distinct values remain.
+- Fill a 7-character pattern of digits and question marks with at most 8 hours per day and at most 56 per week.
+
+- [Two Sum with Smallest-Indices Tiebreak (+ 3 Sum Follow-up)](https://trueinterview.io/questions/two-sum-smallest-indices)
+- [Remove m Elements to Minimize Unique Count](https://trueinterview.io/questions/remove-m-minimize-unique-elements)
+- [Work Schedule](https://trueinterview.io/questions/work-schedule)
+- [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md)
+
+## System design interview
+
+Prompts come from Walmart's own businesses:
+
+- A membership system.
+- A delivery service that picks among UPS, USPS and FedEx and tracks packages.
+- Ticketmaster-style booking with no double-booking.
+- Statewide sensor ingestion serving the latest reading, top-k and a heat map.
+- A server that waits on every downstream service.
+- An end-to-end advertising platform with bidding, pacing and attribution, for senior roles.
+
+Some rounds open with how you would drive operational excellence. Data and AI candidates instead discuss a research paper, ML system design (predicting item categories), RAG-based agents and LLM temperature.
+
+Interviewers evaluate:
+
+- **Requirements discipline:** Separating consistency-critical flows such as inventory from latency-critical ones such as seat maps.
+- **State modeling:** Entity status transitions, and holds with a TTL instead of naive row locks.
+- **Partner failures:** Carrier adapters behind one interface, retry queues, circuit breakers, fallback carriers and idempotency.
+- **Peak traffic:** One round asked how to diagnose slow pages and 404 errors during holiday traffic.
+- **Honesty:** Admitting what you don't know beats guessing about something like ad bidding.
+
+Rehearse one retail template and stress-test it against a traffic spike and a partner outage.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design multi-carrier delivery that picks the best carrier per shipment and handles asynchronous tracking updates.
+- Ingest readings from one sensor per N square feet across a state.
+- Design event booking that survives on-sale spikes.
 
 - [Design Walmart+ Membership System](https://trueinterview.io/questions/design-membership-system)
 - [Design Multi-Carrier Package Delivery Routing System](https://trueinterview.io/questions/design-multi-carrier-delivery-system)
-- [ML System Design — Predict Item Category](https://trueinterview.io/questions/mlsd-predict-item-category)
+- [Design State-Wide Temperature Sensor Ingestion](https://trueinterview.io/questions/design-sensor-temperature-ingestion)
+- [Design Ticketmaster — Event Booking & Seat Reservation](https://trueinterview.io/questions/design-ticketmaster-event-booking)
+- [Predict Item Category](https://trueinterview.io/questions/mlsd-predict-item-category)
 
-## Low-Level Design Questions
+## Behavioral and hiring-manager interview
 
-The practical-engineering rounds test whether you can turn a working function into production-quality code: clean interfaces, validation, observability, retries, and a test strategy — the exact progression several phone screens followed.
+The hiring manager usually leads this round and keeps asking how and why you made each choice. Reported prompts cover influencing without authority, a decision based on data, fixing a production issue, and an integrity or compliance violation. Senior candidates are also asked about conflict and team motivation.
 
-- [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor)
+Interviewers evaluate:
 
-## AI-Assisted Coding Questions
+- **Ownership:** What you did, separate from what the team did.
+- **Outcomes:** Measurable results.
+- **Integrity:** How a compliance concern was raised and resolved.
+- **Delivery:** One candidate believed hesitant answers here outweighed strong coding and design.
 
-The AI-assisted assessment evaluates judgment with an unfamiliar, limited assistant: you must verify its suggestions against failing tests instead of trusting generated code. Treat the tool as a junior pair, not an oracle.
+Rehearse four STAR stories aloud on these themes.
 
-- [Check Output Correctness in Code](https://trueinterview.io/questions/d65899f8-0f93-47d6-9fd4-ca6ae30663bc)
+### Sample questions for the behavioral and hiring-manager interview
 
-## Behavioral Questions
+Here are some questions reported by recent candidates:
 
-Behavioral and verbal-knowledge rounds are specific and probing: hiring managers push past the surface story into what you personally did, and technical screens include rapid-fire framework and SQL fluency checks that punish vague answers.
+- Tell me about convincing others without formal authority.
+- Walk through a production incident: the symptoms, the diagnosis and the fix.
 
 - [Walmart Behavioral / HM Loop](https://trueinterview.io/questions/walmart-bq-loop)
-- [Spring Boot Verbal Quiz](https://trueinterview.io/questions/spring-boot-verbal-quiz)
-- [SQL Live Coding: Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)](https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217)
+- [Answer leadership scenarios about influence and integrity](https://trueinterview.io/questions/answer-leadership-scenarios-about-influence-and-integrity)
+- [Handle conflict and motivate engineering teams](https://trueinterview.io/questions/handle-conflict-and-motivate-engineering-teams)
 
-## How to Prepare
+## How Walmart Global Tech makes hiring decisions
 
-- Drill medium interval, stack, and greedy problems in a plain text editor with your own test harness, including HackerRank-style input parsing — the environment friction is part of the exam.
-- Build a Spring Boot production-scenario review sheet: bean scopes and memory, environment and secret management, unified logging, session handling, pagination, async work off request threads, validation, and high availability. Rehearse each as a "what breaks and how do you fix it" story.
-- Practice the function-to-service progression: take any solved algorithm and extend it into a REST endpoint with input validation, structured logging, metrics, retry-with-backoff, and a testing plan, since screens explicitly walk this path.
-- Rehearse one retail design template — entities, APIs, state machine, reservation holds with TTL, queues, caching, idempotency, adapters for third-party partners, circuit breakers — then stress it against a holiday spike and a carrier outage.
-- For code-review rounds, practice a strict triage order: bugs and correctness first, then security and reliability, then structure, and only then style; delivering partial but high-impact findings beats a complete cosmetic pass.
-- Prepare four STAR stories keyed to the reported hiring-manager themes — influence without authority, data-driven decisions, production incident recovery, and integrity/compliance — and rehearse them aloud until they flow.
-- If your loop includes the full-stack OA, spend the opening minutes mapping the repo and locating hidden test files, and validate every AI-assistant suggestion against an actual test run before accepting it.
+The hiring team decides after a debrief, and reports mention no separate committee. The hiring manager's view carries weight. A weak behavioral round can sink an otherwise strong loop, and positive reactions in the room predict little. Decisions usually take one to two weeks, but follow-up is uneven. One candidate heard nothing for two weeks after the final round, despite two emails to the recruiter.
+
+> **Tip:** Ask for a decision date at the end of the loop, and keep other processes moving if follow-ups go unanswered.
+
+## How to prepare for the Walmart Global Tech interview
+
+1. **Code without tooling:** Solve mediums in a plain editor with HackerRank-style I/O and your own tests.
+2. **Drill output variants:** Practice indices, tie-breaks and duplicate removal on two-sum, subarray, interval and binary-search problems.
+3. **Build a Spring Boot sheet:** Cover scopes, per-environment config, logging, sessions, async work and availability as "what breaks and how to fix it."
+4. **Extend functions into services:** Add endpoints, validation, correlation IDs, backoff retries and a test plan.
+5. **Prepare a retail design template:** Include holds with a TTL, idempotent orders, carrier adapters, circuit breakers and holiday scaling.
+6. **Triage code reviews:** Look for bugs and reliability problems first and style last.
+7. **Mock the full-stack assessment:** Debug a React and Spring Boot repository from failing tests in 90 minutes.
+8. **Rehearse behavioral stories:** Prepare influence, data, incident and integrity stories until they come out fluently.
+
+## About working at Walmart Global Tech
+
+Walmart Global Tech builds the systems behind Walmart's stores, e-commerce and supply chain, serving about 240 million customers a week across 19 countries. Engineering is concentrated in Bentonville and Sunnyvale, with sites such as Bellevue and Hoboken and large centers in India. Since 2023, Walmart has closed smaller U.S. hubs and called remote engineers back to the main offices. Backend work is mostly Java and Spring Boot microservices, and ML teams build on Element, Walmart's internal ML platform.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Software Engineer II | Delivering features with guidance | Components within a team |
+| Software Engineer III | Owning services, typically 3–5 years in | A team's services |
+| Senior, Software Engineer | Designing systems, mentoring | A product area |
+| Staff, Software Engineer | Technical direction, operational excellence | Multiple teams |
+| Principal Software Engineer | Cross-organization architecture | Organization-wide platforms |
+
+Walmart Global Tech hires engineers across many teams. Teams include:
+
+- **E-commerce:** Search, product pages, cart and checkout.
+- **Membership:** Walmart+ subscriptions and benefits.
+- **Supply chain and last mile:** Fulfillment, delivery and carrier integration.
+- **Advertising (Walmart Connect):** Ad delivery, bidding and attribution.
+- **Data and AI platforms:** Element, catalog ML and generative AI.
+- **Store technology:** Systems for stores and distribution centers.
+
+### Experience and education requirements
+
+Postings typically ask for a computer science or related bachelor's degree plus experience. Senior roles want about 3–4 years with a degree, or 5–6 without one, and staff roles want more. A master's degree is often preferred. Java, Spring Boot, microservices, cloud and SQL are the most common requirements. Full-stack roles add React, and ML roles add Python.
+
+## FAQs about the Walmart Global Tech interview
+
+### How long does the Walmart Global Tech interview process take?
+
+Usually two to four weeks. One ML loop finished within three weeks, while some candidates waited two weeks or more after the final round.
+
+### What is the hardest round of the Walmart Global Tech interview?
+
+System design at senior and staff levels, where a prompt can span an entire advertising or logistics platform. The phone screen is close behind because it packs several problems and deep Spring Boot questions into one hour.
+
+### Is there an online assessment?
+
+Many pipelines have one: three short problems, or a 90-minute full-stack debugging task with an AI assistant. Some teams skip it.
+
+### How much does a Walmart Global Tech software engineer make?
+
+Posted annual base salary ranges include:
+
+- **Software Engineer III:** ~$90K–$180K in Bentonville, ~$117K–$234K in Sunnyvale
+- **Staff, Software Engineer:** ~$132K–$264K in Bellevue, ~$143K–$286K in Sunnyvale
+
+Packages add performance bonuses and, for many positions, stock.
+
+### Does Walmart Global Tech sponsor visas?
+
+It depends on the posting. Several senior postings rule out sponsorship, so check before you apply.
+
+### Is the interview remote?
+
+The screens and assessment are remote, and most reported final loops were virtual. The jobs themselves are mostly office-based.
 
 ---
 

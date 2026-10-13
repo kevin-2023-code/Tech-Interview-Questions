@@ -54,12 +54,12 @@ Which stage each question came from, for the **72 of 72** questions at Citadel t
 
 ## What they ask about
 
-Of the **55 questions at Citadel that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **54 questions at Citadel that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 9 | 16% | ████████████ | Aug 05, 2026 |
-| `math` | 8 | 15% | ███████████ | Aug 29, 2026 |
+| `hashing` | 9 | 17% | ████████████ | Aug 05, 2026 |
+| `math` | 7 | 13% | █████████ | Jan 28, 2026 |
 | `arrays` | 6 | 11% | ████████ | Aug 05, 2026 |
 | `heap` | 6 | 11% | ████████ | Sep 18, 2026 |
 | `strings` | 6 | 11% | ████████ | May 07, 2026 |

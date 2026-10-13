@@ -6,65 +6,214 @@
 
 ---
 
-WeRide hires engineers for an autonomous-driving stack, and its loop reads like it: short algorithm problems are paired with systems-level follow-ups on C++, concurrency, and file I/O, and the same handful of problem families keeps resurfacing. This guide goes beyond the outline on the company page and draws on 18 real WeRide questions and 10 candidate interview reports to show what each stage contains, how it is graded, and where candidates lose ground.
+WeRide's loop pairs short, classic algorithm problems with systems follow-ups: infrastructure and platform teams go on to C++ memory ownership, thread safety and file I/O once the code works. Complexity is graded out loud, and interviewers sometimes name the exact state-space reduction they expect. Round counts vary widely, from one screen to five phone rounds, and some China-based teams interview in Chinese.
 
-## Interview Process
+This guide breaks down each stage of the WeRide interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 10 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## WeRide interview process
 
 <!-- guide-diagram -->
 ![WeRide interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/weride/process.webp)
 <!-- guide-diagram -->
 
-### Online assessment
+Each team hires for itself, so every round opens the same way (a resume walk-through, then one or two coding problems) and ends on the team's domain. WeRide's 2026 postings describe an optional online assessment, a recruiter call, then interviews with future colleagues: three for summer interns, three to four for China-based new-grad software roles, and four to five for US new-grad algorithm and computer vision roles. Candidates report one to five technical rounds, most often three.
 
-Most candidates, and nearly all interns and new grads, start with a timed online assessment of three coding problems delivered through a standard online-judge platform. Reported time limits vary: candidates describe windows from roughly 75 minutes up to two hours, so check the invitation rather than assuming. Two problem mixes recur. One set is graph-heavy: an array transformation warm-up, a BFS/DFS traversal, and a graph-coloring or bipartiteness task, all with strict runtime limits that punish unpruned search. The other set is gentler: two easy problems and one medium, such as converting a date string into YYYY-MM-DD form, reversing a singly linked list, and a dynamic-programming problem that minimizes the cost of adjusting heights so that no two adjacent values are equal. The bar is not perfection: one candidate who passed two of three problems, with the third failing a few hidden cases on runtime errors, still received a recruiter call shortly after submitting.
+Interns and new grads nearly always take the assessment. Experienced candidates on infrastructure teams get fewer pure-algorithm questions and more C++, concurrency and process-level follow-ups. The process typically takes two to three weeks after the application review, with reported extremes of one and four.
 
-### Recruiter call
+Here's what the interview process can look like:
 
-A short recruiter conversation follows the assessment, typically about 15 minutes, covering your resume, motivation, and availability for the technical rounds. For candidates interviewing with China-based teams, this and later rounds may be conducted in Chinese. The interviewer in a later round may not have been briefed on your exact role or level, so be ready to state it yourself.
+- **Online assessment (interns, new grads, many others):** Three timed coding problems, either graph-heavy or an easy-easy-medium mix.
+- **Recruiter call:** A short, non-technical conversation about background, motivation and availability.
+- **Technical phone screens (one to five):** A resume deep dive, then one or two easy-to-medium problems with a live twist.
+- **Systems and language rounds (infrastructure and platform teams):** C++ internals, Java concurrency, parallel file I/O and small object-oriented exercises.
+- **Final round (onsite or video):** A background discussion, one algorithm problem from approach to code, and time for your questions.
 
-### Technical phone or video rounds
+> **Tip:** Leave a third of every coding slot for the follow-up. Prompts are classics with a twist added live, such as swapping list nodes by value and then by reference, and the twist is where rounds are decided.
 
-This is the core of the loop. Reports describe anywhere from a single screen to five phone rounds, with three being the most common count for full-time and intern tracks; new-grad candidates are told to expect four to five conversations with future teammates. Each round runs a recognizable pattern: a resume walk-through first, then one or two coding problems, then a conceptual tail that depends on the team.
+## Online assessment
 
-- **Resume deep dive.** Nearly every round opens with it, and one reported round was nothing else: a conversational dissection of past projects, the technical decisions behind them, and what the candidate personally owned. Interviewers ask about the why, not just the what.
-- **Coding problems.** Difficulty sits at LeetCode easy-to-medium for screens and climbs for infrastructure teams. Reported problems include fast exponentiation, valid parentheses (with a follow-up that ignores non-bracket characters), k-th largest element (expected to reach quickselect, then discuss worst-case behavior and randomized pivots), swapping linked-list node values and then swapping the node references instead, a trie, a diagonal-traverse variant, reorder list, multi-source BFS, and a grid shortest path that must collect ten coins between fixed start and end points. On that last one the interviewer explicitly compared a 100 x 100 x 2^10 state space against a pruned 12 x 12 x 2^10 version, so complexity analysis and pruning are graded, not decorative. Tree DP has appeared too: maximum independent set on a binary tree, with the candidate asked to justify both the recurrence and its running time.
-- **Systems and language follow-ups.** The AI-infrastructure and platform teams layer systems questions on top of the algorithm: explaining std::weak_ptr and then implementing shared_ptr from scratch with a control block and reference counting; move semantics, perfect forwarding, inline, threads, and coroutines; Java concurrency, why a shared i++ loses updates, and how to make it thread-safe; implementing a message queue; parallel file I/O that reverses strings across concurrent readers and writers; and what happens to resources and data consistency if a process is killed mid-I/O. Operating-systems topics such as virtual memory, file systems, and scheduling have also been raised. A Java-oriented round instead handed over an interface with a few method signatures and asked for a correct implementing class, followed by a discussion of interfaces versus abstract classes.
-- **Math-flavored problems.** Matrix multiplication, fast exponentiation, and Fibonacci via matrix exponentiation showed up together in one round, a reminder that the company likes problems with a clean mathematical core.
+The assessment is three coding problems with hidden tests, in a window reported at about 75 minutes to two hours. Two sets recur. The graph-heavy set runs an array transformation, a BFS or DFS traversal, and a graph-coloring or bipartiteness task under strict runtime limits. A late-2025 intern set was two easy problems and one medium: reformat a date string into YYYY-MM-DD, reverse a linked list, and a DP that minimizes the cost of adjusting heights so that no two adjacent values are equal.
 
-### Onsite and final rounds
+A perfect score is not required. One candidate passed two problems, hit runtime errors on a few hidden cases of the coloring problem, and still got a recruiter call shortly after.
 
-Some candidates finish with an onsite or a final video round that looks like the phone rounds in content: a brief background discussion, one algorithm problem worked from approach through complexity to code, then genuine time for the candidate to ask about the team, stack, and culture. China-based algorithm tracks report a longer ladder, a written test of several programming problems followed by three technical rounds that escalate from coding and project depth to scenario design and a director-level conversation, then HR. End-to-end timelines are reported from about one week to four weeks, with two to three weeks typical.
+Interviewers evaluate:
 
-## What Candidates Report
+- **Runtime discipline:** Unpruned backtracking or repeated traversals fail the hidden limits.
+- **Graph fundamentals:** Visited-state handling, cycle awareness and two-coloring.
+- **Edge cases:** Disconnected components, single nodes and malformed date fields.
+- **Robustness:** Iterative traversal where deep recursion would crash.
 
-- The loop is algorithm-first but not algorithm-only. Candidates who expected pure LeetCode were caught by systems follow-ups: smart-pointer internals, thread safety, process cleanup after I/O. Those questions decide rounds on infrastructure teams.
-- Complexity analysis is an explicit grading item. Interviewers ask for time and space bounds on every problem and push for the optimized version, sometimes naming the exact state-space reduction they want to hear.
-- Interviewers are described as supportive: they offer hints when a candidate stalls, engage with candidate questions, and the tone is conversational rather than adversarial. That does not lower the bar, but it means thinking aloud is safe.
-- Resume depth matters in every round. The follow-up questions go to the reasoning behind design choices and the candidate's personal contribution; vague project descriptions read poorly.
-- Problems are short and classic, with a twist added live. Swap values, then swap references; validate brackets, then ignore other characters; solve k-th largest, then handle adversarial input. Expect the twist and leave time for it.
-- Logistics can be uneven: round counts differ widely between candidates, interviewers are not always briefed on the role, and some rounds are held in Chinese.
+Practice three-problem sets against a two-hour timer.
 
-## Coding Questions
+> **Note:** The reported coloring failures were runtime errors, not wrong answers. Convert recursive DFS to an explicit stack before submitting anything that walks a large graph.
 
-WeRide coding rounds draw from a compact set of families: graph traversal and coloring, linked-list manipulation, stack-based validation, selection and heap problems, tries, and a recurring taste for fast exponentiation and matrix methods. Most prompts are familiar, so the differentiator is a clean implementation plus a precise complexity argument under follow-up pressure.
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Decide whether a graph can be colored under the given constraints, such as a bipartiteness check.
+- Traverse a graph and compute a result from its connectivity or path properties.
+- Convert a date string into YYYY-MM-DD format.
+- Minimize the cost of raising heights so that no two adjacent heights are equal.
 
 - [Graph Coloring Problem](../../questions/algorithm/graph-coloring-problem/README.md)
 - [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455)
+- [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3)
+- [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099)
+- [Minimize Cost to Make Blocks Unique](https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37)
+
+## Recruiter call
+
+A brief recruiter conversation typically follows the assessment: your resume, why autonomous driving, location and availability. There are no technical questions. WeRide gives no individual feedback during the process, so ask the recruiter about timing and format here.
+
+Interviewers evaluate:
+
+- **Track fit:** General software, algorithm (prediction, planning, mapping, simulation) or infrastructure.
+- **Motivation:** Real interest in autonomous vehicles, which every posting lists.
+- **Logistics:** Graduation date, location and work authorization.
+
+Ask which team you are interviewing for and which language each round will use.
+
+### Sample questions for the recruiter call
+
+Here are some questions reported by recent candidates:
+
+- Walk me through your background and your most relevant project.
+- Why WeRide, and why autonomous driving?
+
+## Technical phone screens
+
+Engineers from the hiring team run these phone or video calls. Nearly every one opens with a resume deep dive, and one reported round was nothing else: past projects, the decisions behind them and what the candidate personally owned. Coding is easy to medium: fast exponentiation, valid parentheses, a trie, a diagonal matrix traversal variant, reorder list, and swapping linked-list node values followed by swapping the nodes themselves. Interviewers offer hints when a candidate stalls.
+
+Infrastructure teams push harder. One AI infrastructure candidate had to find the shortest grid path collecting ten coins between fixed endpoints, and the interviewer compared a 100 x 100 x 2^10 search with a 12 x 12 x 2^10 search over the points of interest. Another round asked for the maximum independent set of a binary tree, with the include/exclude recurrence proven. Multi-source BFS also appears.
+
+Interviewers evaluate:
+
+- **Complexity reasoning:** Bounds for every solution, and the reduced state space found unprompted.
+- **Adaptability:** Absorbing the twist (references instead of values, extra characters in a bracket string) without restarting.
+- **Resume ownership:** The reasoning behind your technical choices, not a feature list.
+- **Correctness argument:** A short proof that a DP recurrence covers every case.
+
+Prepare a five-minute decision narrative for each resume project.
+
+> **Tip:** Interviewers are not always briefed on your role or level. State both at the start so follow-ups are pitched correctly.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Find the shortest path on a 100 x 100 grid that collects all ten coins, then shrink the state space.
+- Swap adjacent linked-list node values, then redo it by relinking the nodes.
+- Validate a bracket string, then ignore characters that are not brackets.
+- Compute the maximum independent set of a binary tree and prove the DP.
+
 - [Shortest Path to Collect All Coins](https://trueinterview.io/questions/ebc36290-8e59-49ee-aba8-88d6ce49f1cb)
-- [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e)
-- [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010)
 - [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md)
+- [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e)
 - [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c)
+- [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87)
 
-## How to Prepare
+## Systems and language rounds
 
-- Drill graph problems with an eye on runtime: BFS/DFS with explicit visited state, bipartiteness checks, and backtracking coloring with pruning, and make sure recursion depth and memory fit an online judge's limits.
-- Rehearse the state-space argument for search problems: be able to say why a bitmask over ten coins on a compressed 12 x 12 grid beats the naive grid, because interviewers have asked for exactly that comparison.
-- If you are interviewing with an infrastructure or platform team, be ready to implement shared_ptr from scratch, explain weak_ptr, move semantics, and perfect forwarding, and write a thread-safe counter; the language follow-up is where these rounds are won.
-- Prepare one concurrency and I/O story end to end: parallel readers and writers over file segments, and what cleanup and consistency guarantees you provide if the process dies midway.
-- Practice the classic twists, not just the classics: swapping list nodes by reference, bracket validation with ignored characters, quickselect with randomized pivot and a worst-case discussion.
-- Build a crisp five-minute resume narrative per project, centered on the decisions you made and why, since every round opens there and follow-ups probe rationale.
-- Brush up the math-core problems the company favors: fast exponentiation, matrix multiplication, and Fibonacci through matrix powers, with complexity stated for each.
+Infrastructure and platform teams add systems questions after the algorithm or give them a full round. C++ candidates explained std::weak_ptr, then implemented shared_ptr with a control block and reference counting; move semantics, perfect forwarding, threads, coroutines and virtual memory have also come up. A Java round asked why a shared i++ loses updates and how to make it thread-safe, then moved to Fibonacci by matrix exponentiation.
+
+One candidate had to reverse strings with parallel file I/O, several workers reading and writing segments at once, and then explain cleanup and consistency if a process is killed mid-write. Other prompts include implementing a message queue and, on Java teams, implementing a given interface and comparing interfaces with abstract classes.
+
+Interviewers evaluate:
+
+- **Memory ownership:** Correct counts across copy, move and destruction, and when a weak reference breaks a cycle.
+- **Concurrency correctness:** Spotting the read-modify-write race and costing an atomic, lock or partitioning fix.
+- **Failure thinking:** What survives a crash during I/O, and how temporary files or atomic renames restore consistency.
+- **Design rationale:** Why a language feature exists, beyond code that compiles.
+
+Write shared_ptr, a thread-safe counter and a bounded message queue from memory before an infrastructure loop.
+
+> **Note:** On infrastructure teams the algorithm is often the warm-up. Candidates who expected pure algorithm screens were caught by smart-pointer and process-cleanup follow-ups, and those decide the round.
+
+### Sample questions for the systems and language rounds
+
+Here are some questions reported by recent candidates:
+
+- Implement shared_ptr from scratch, then explain when std::weak_ptr is needed.
+- Explain why concurrent i++ loses updates, then write a thread-safe version.
+- Reverse strings in a file with parallel workers and keep it consistent if a process dies mid-I/O.
+
+- [Implement matrix multiplication and fast exponentiation](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation)
+- [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010)
+- [Implement Power Function](../../questions/algorithm/implement-power-function/README.md)
+
+## Final round
+
+Some candidates finish with an onsite or final video round shaped like a phone screen: a short background discussion, then one problem from approaches to tested code. A recent example was the k-th largest element in an unsorted array, taken to quickselect, its average linear time, and a randomized pivot for worst-case inputs. The last minutes are for your questions. China-based algorithm tracks have reported a longer ladder ending in scenario design and a director-level conversation before HR.
+
+Interviewers evaluate:
+
+- **Approach before code:** Options and trade-offs outlined, with alignment checked before writing.
+- **Worst-case awareness:** The adversarial input and its fix, named unprompted.
+- **Testing:** Edge cases walked through the finished code.
+- **Engagement:** Specific questions about the team's stack and problems.
+
+Practice comparing sorting, a heap and quickselect in two minutes.
+
+### Sample questions for the final round
+
+Here are some questions reported by recent candidates:
+
+- Find the k-th largest element in an unsorted array, then discuss quickselect's worst case.
+- Walk through the technical decisions on your most recent project and what you would change.
+
+- [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements)
+- [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md)
+
+## How WeRide makes hiring decisions
+
+The hiring team weighs the interview feedback and decides. WeRide says AI tools may help screen applications, but people make the final call. It gives no individual feedback during the process, and the reports describe no separate committee or cooldown policy.
+
+## How to prepare for the WeRide interview
+
+1. **Write graph code iteratively:** BFS, DFS, bipartiteness and coloring with an explicit stack, so hidden tests do not hit recursion limits.
+2. **Argue the state space:** For grid and bitmask search, explain why compressing to the points of interest wins.
+3. **Rehearse the twists:** Node swaps by reference, brackets with ignored characters, quickselect with a random pivot.
+4. **Know the math-core problems:** Fast exponentiation, matrix multiplication and Fibonacci by matrix powers, with complexity.
+5. **Implement ownership primitives:** shared_ptr with a control block, weak_ptr and move semantics for infrastructure teams.
+6. **Prepare one concurrency case end to end:** The race, the fix and its cost, and crash consistency during file I/O.
+7. **Tell each project as decisions:** Every round opens on your resume, and follow-ups ask why.
+
+## About working at WeRide
+
+WeRide, founded in 2017 and headquartered in Guangzhou, builds Level 2 to Level 4 autonomous-driving products on one platform: robotaxis, robobuses, robosweepers, robovans and driver assistance. By early 2026 its fleet passed 2,000 vehicles, including more than 1,100 robotaxis, across about a dozen countries, and its Abu Dhabi robotaxi service runs with Uber. It has been listed in New York since 2024 and in Hong Kong since November 2025. Engineers work in China, San Jose, Singapore and the Middle East, mostly in safety-critical C++.
+
+WeRide hires software engineers across its driving stack and supporting systems. Teams include:
+
+- **Prediction:** Forecasting the behavior of nearby vehicles and pedestrians.
+- **Planning and control:** Motion planning, decision-making and vehicle control.
+- **Mapping and localization:** High-definition maps and precise positioning.
+- **Simulation:** Sensor modeling and 3D world reconstruction for validation.
+- **General software and infrastructure:** In-vehicle real-time systems, data logging, fleet cloud services and ML training and deployment infrastructure.
+
+### Experience and education requirements
+
+New-grad software roles ask for a bachelor's or master's degree in computer science, software engineering, mathematics or a related field, with C++ and/or Python, Java or Go. Algorithm roles typically ask for an MS or PhD, and ML or robotics publications help. Experienced backend, infrastructure and mapping roles typically ask for about three years of professional C++.
+
+## FAQs about the WeRide interview
+
+### How long does the WeRide interview process take?
+
+Typically two to three weeks from the first technical round to a decision, with reported extremes of one and four weeks. The application review before that can take a few weeks.
+
+### What is the hardest round of the WeRide interview?
+
+The systems and language rounds on infrastructure teams, where a solved problem is followed by implementing shared_ptr or reasoning about crash consistency. In algorithm-only loops, the follow-up twist decides most rounds.
+
+### What language should I use?
+
+C++ is the default for vehicle and infrastructure work, and those teams probe its internals. Java-oriented teams ask concurrency and interface questions. Some China-based rounds are held in Chinese.
+
+### How much does a WeRide software engineer make?
+
+Official US postings list base pay of $120K to $165K for 2026 new-grad algorithm roles and $130K to $182K for an experienced San Jose engineering role, with an annual performance bonus and equity on top.
 
 ---
 

@@ -6,66 +6,285 @@
 
 ---
 
-This guide goes deeper than the process summary on the company page: how each Citadel stage is actually run, what interviewers escalate to after your first working solution, and where strong candidates still get cut. It draws on 25 real Citadel questions and 15 candidate interview reports so you can calibrate against what the loop really asks.
+Citadel interviews are built around escalation. A round usually starts with one familiar problem and then changes a constraint every few minutes: more transactions, less memory, an infinite board, a second thread, a second process, a second data center. The follow-ups weigh at least as much as the base solution. Rounds are not averaged, so one weak round can end the loop. Resume claims are audited as hard as the code, often for 15–30 minutes before any problem appears. The hedge fund (Citadel) and the market maker (Citadel Securities) hire separately, with similar bars.
 
-## Interview Process
+This guide breaks down each stage of the Citadel interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 42 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Citadel interview process
 
 <!-- guide-diagram -->
 ![Citadel interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/citadel/process.webp)
 <!-- guide-diagram -->
 
-The loop typically runs four to five rounds beyond the recruiter call, and the full cycle usually takes four to eight weeks, moving faster for experienced hires and for candidates with credible competing offers. A hiring decision generally comes quickly once the final round ends — sometimes the next day — and rejection can be just as fast even after a session that felt like it went well.
+The shape depends on the business and the track. New-grad and intern candidates almost always start with a timed online assessment. Experienced hires, NXT candidates (the program for engineers with two to five years of experience moving into finance) and quantitative tracks often skip it, or take a short fundamentals test, and go straight to team-lead interviews. After that come one to four live technical screens of 45–60 minutes, then an onsite of three to four rounds, which can run up to 90 minutes each for C++ roles. Team-match and leadership conversations close the loop.
 
-**Online assessment.** New-grad and intern tracks usually start with a timed HackerRank assessment, around 75 minutes for two to three problems; some tracks add CS-fundamentals multiple choice. The problems look like standard fare — intervals, counting, DP — but the constraints are tuned so that a naive quadratic approach fails the larger hidden tests. Candidates report sweep-line interval-overlap problems and layered combinatorial counting with answers taken modulo a large prime; passing nearly all test cases is effectively required to advance.
+The full cycle usually takes four to eight weeks. It moves faster for experienced hires and for candidates with competing offers. Feedback often comes the next day. Senior candidates face more system design and resume probing, but interns can get a distributed-systems round too: one internship loop had four technical screens.
 
-**Technical phone screens.** Expect one or two live sessions of 45–60 minutes in a shared editor, each built around one substantial problem rather than several small ones. The signature Citadel move is progressive escalation: solve Best Time to Buy and Sell Stock, then the unlimited-transactions variant, then at most k transactions with DP; implement Game of Life, then do it in-place, then handle a sparse or infinite board. Interviewers grade the follow-ups at least as heavily as the base problem, and they expect complexity analysis that matches the code at every step. Several screens open with roughly twenty minutes of detailed resume drilling before any code is written, and language fluency is part of the evaluation — one candidate was explicitly graded on Python type annotations, and C++ candidates are expected to implement structures like a bounded ring buffer with correct condition-variable predicates, spurious-wakeup handling, and lock scoping.
+Here's what the interview process can look like:
 
-**Onsite.** Typically three to four 45-minute rounds mixing coding, design, and behavioral, often with one or more team-match conversations after the technical loop. Coding stays at LeetCode medium-hard with an optimization emphasis; design rounds skew low-level — market-data classes, schedulers, caches, sliding-window alerting — and then scale the same object into a distributed, exactly-once, multi-datacenter version. Infrastructure and C++ tracks add systems fundamentals: quicksort worst-case behavior, Linux shared memory and interrupts, and designing an efficient tail-follow mechanism. Quant-adjacent tracks layer in expected-value puzzles, random walks, and case-study modeling. Team-match rounds may still include live coding, and a final decision goes through senior engineers or a committee, usually within about a week.
+- **Recruiter screen:** A short call on background, stack, motivation and track. Recruiters sometimes redirect candidates to a better-fitting team.
+- **Online assessment (new grad and intern):** 75 minutes for two coding problems, with hidden tests sized so that only efficient solutions pass.
+- **Technical phone screens (one to four):** 45–60 minutes in a shared editor, built around one problem that escalates, often after a resume deep dive.
+- **Design rounds:** Object-oriented design of trading-flavored classes, then scaling the same object into a concurrent or distributed system.
+- **Quantitative and domain rounds (quant tracks):** Research deep dives, probability and expected-value puzzles, statistics, and data-handling code written from scratch.
+- **Onsite:** Three or four rounds that mix coding, design, systems fundamentals, code review and a project deep dive.
+- **Team match and final conversations:** Fit and project discussions with team leads or senior leadership. These can still include coding.
 
-## What Candidates Report
+> **Tip:** Treat every base problem as the first step of a ladder. Code the simple version quickly and keep its invariants explicit, because the session is usually decided on the second and third follow-ups, not the first answer.
 
-- **Every round is an elimination round.** There is no averaging across the loop: candidates were cut after a single weak systems round despite strong coding, and one report notes rejection the day after a screen that ran long and felt collaborative.
-- **The first solution is the starting point, not the finish.** LRU became LFU became a pluggable custom-eviction cache; a 2048 simulation became a 64-bit state encoding; a counter became thread-safe, then shared across processes. Stopping after the base version reads as a ceiling.
-- **Pace is deliberately compressed.** Interviewers push for immediate answers and rapid iteration, leaving little silent thinking time. Narrating a plan and invariants before coding is what keeps the session under your control.
-- **Resume claims get audited.** Backtesting methodology, leakage checks, model objectives, concurrency decisions, and performance numbers were all probed in depth; vague answers invited harder follow-ups.
-- **Correctness details decide edge cases.** Reports call out timestamps before the first stored value, tiles merging only once per move, one-slot buffers, and worst-case tree degeneration as the moments where evaluations turned.
-- **Team match is a real filter.** Multiple match conversations can follow a clean technical loop and still end in rejection if no team converges on you.
+## Recruiter screen
 
-## Coding Questions
+The recruiter call is non-technical. It covers past projects, the stack you know best, why you want to work in trading, and what the role involves. One quantitative developer candidate was steered toward a different track that better matched their background.
 
-Citadel coding rounds reward a clean baseline that you can extend on demand. Practice stating the invariant, coding the simple version fast, and then absorbing new constraints — more transactions, less memory, sparse or infinite input — without breaking what already works.
+Interviewers evaluate:
 
+- **Track fit:** Whether your experience points to core engineering, low-latency C++, data infrastructure, site reliability or quantitative development.
+- **Motivation:** A concrete reason for wanting to work in finance and in a high-pressure environment.
+- **Stack depth:** Which language you will interview in. C++ roles expect real fluency, not familiarity.
+
+Know which business you are interviewing with before the call.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and the project you are most proud of.
+- Why Citadel, and why move into finance now?
+- Which technologies have you used most in production?
+
+## Online assessment
+
+The assessment runs 75 minutes with two problems. From August to September 2026 more than ten candidates reported the same pair. The first is a work schedule where each workday pays a base amount, a workday that follows another workday earns a bonus, and up to k days off can be converted to maximize earnings. The second asks for the minimum character changes that make every k-length group of a password a palindrome. Earlier versions featured sweep-line interval overlap and layered combinatorial counting with answers modulo a large prime.
+
+Candidates call the problems conceptually easy; passing every hidden test is the real difficulty, because brute-force approaches time out, and near-perfect scores are effectively required.
+
+Interviewers evaluate:
+
+- **Complexity under hidden limits:** A greedy or DP solution that scales, planned from the start rather than retrofitted after timeouts.
+- **State modeling:** For the schedule problem, tracking whether the previous day was worked and how many conversions remain.
+- **Modular arithmetic:** Applying the modulus after every operation in counting problems.
+
+Practice medium problems against a strict timer and always check the worst-case input size before coding.
+
+> **Note:** Candidates recall the password condition two ways: every sliding window of length k, or left-to-right groups of k with a possibly shorter final group. The two readings need different algorithms, so confirm the intended one from the sample cases before writing code.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Maximize earnings over n days with a base pay per workday and a bonus for consecutive workdays, converting at most k days off.
+- Find the fewest replacements so that every group of k characters in a password reads the same in both directions.
+- Find the largest number of intervals that overlap at a single point.
+
+- [Maximum Earnings After Converting Days Off to Workdays](https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb)
+- [Minimum Changes to Make a K-Periodic Palindromic Password](https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03)
+- [Minimum Changes to Make Every Block a Palindrome](https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7)
+- [Largest Team Whose Members Share a Common Office Window](https://trueinterview.io/questions/interval-overlap-max-team)
+
+## Technical phone screens
+
+Expect one to four live sessions of 45–60 minutes in a shared editor, each built around one substantial problem rather than several small ones. Many open with 15–20 minutes of resume drilling. The signature move is the ladder. Stock trading goes from one transaction to unlimited to at most k, or adds a fee and a one-day cooldown. Game of Life goes from an extra board to in-place, then to a sparse board, then to an infinite one. An N-ary tree sum ends with linking all leaves in O(1) extra space by reusing an existing pointer.
+
+Language fluency is graded. One Python candidate was marked on type annotations in a time-keyed key-value store and fumbled the lookup that precedes the first stored value. A Java candidate lost time to a fixed signature in a topological sort, then was asked not to mutate the input. Data-heavy screens give raw trade records to parse, such as finding unpaired buys and sells, or the top ten buys and sells without floating-point money.
+
+Interviewers evaluate:
+
+- **Adaptation speed:** Absorbing a new constraint without breaking what already works.
+- **Complexity matching the code:** A stated bound for every version, including space after an in-place rewrite.
+- **Idiomatic code:** Type hints, clean interfaces and edge cases you test without being asked.
+- **Clarifying questions:** Data volume, timestamp tolerance, partial fills and whether the input is a stream, asked before coding.
+- **Time management:** In one rejected case, a three-part ladder stopped after part one because the resume segment and setup ran long.
+
+Rehearse each problem family end to end, out loud, in the language you will use.
+
+> **Tip:** If time runs short with a failing run, ask whether the interviewer prefers debugging or the follow-up. One candidate with a null-pointer bug asked, moved to the follow-ups on cycle detection and complexity, and kept the session productive.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Maximize stock profit with one transaction, then unlimited, then at most k transactions, with complexity at each step.
+- Implement 2048 moves where a tile merges once per move, then pack the board into one 64-bit integer.
+- Return a valid order for string-labeled tasks with dependencies, without mutating the input, and say whether all tasks can finish.
+- Find the closest pair of points in the plane, starting from brute force and reaching O(n log n).
+
+- [Implement max profit with K transactions (DP)](https://trueinterview.io/questions/implement-max-profit-with-k-transactions-dp)
 - [Game of Life — In-Place and Infinite Board](https://trueinterview.io/questions/game-of-life-in-place-infinite)
-- [2048 Simulation + Compress State to a `long long`](https://trueinterview.io/questions/simulate-2048-encode-state)
 - [Time-Keyed Key-Value Store (set / get-before-timestamp)](https://trueinterview.io/questions/time-keyed-kv-store)
-- [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching)
+- [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer)
 
-## Low-Level Design Questions
+## Design rounds
 
-Design at Citadel means a concrete class with stated complexity per operation, not architecture vocabulary. Expect the interviewer to make your structure thread-safe, bounded, pluggable, or distributed, and to press on contention, blocking behavior, and failure modes — especially in C++.
+Design at Citadel means a concrete class with a stated complexity for each operation. Recurring prompts: per-exchange and national best bid and offer with heaps and lazy deletion, an LRU cache rewritten as LFU and then given a pluggable eviction policy, and a key counter made thread-safe, then shared across processes. C++ candidates implement a bounded single-producer, multi-consumer ring buffer with a mutex and two condition variables. Follow-ups cover spurious wakeups, notification order, lock scope and the size-one buffer.
 
+System design usually scales the object you just built. In one case, an application-to-exchange tracker with sliding-window alerts became millions of applications with exactly-once alerting, replication across data centers and node failures. Other prompts were a deduplicating file system and a metrics and alerting platform. Site reliability candidates designed safe configuration rollout with rollback for more than 200 services. In one open-ended design discussion, the candidate was expected to lead and raise trade-offs unprompted.
+
+Interviewers evaluate:
+
+- **Per-operation complexity:** Exact costs for add, query and delete, including amortized lazy cleanup.
+- **Concurrency correctness:** Predicates on waits, wakeup handling, contention and exception safety.
+- **Extensibility:** Turning a hard-coded policy into an interface without a rewrite.
+- **Scaling the same model:** Sharding key, checkpointing state, idempotent writes and failure detection.
+- **Driving the discussion:** Raising trade-offs before being asked, at a fast pace with little silent thinking time.
+
+Practice building each structure from scratch, then extending it one constraint at a time.
+
+### Sample questions for the design rounds
+
+Here are some questions reported by recent candidates:
+
+- Ingest exchange, price, quantity and side entries and answer per-exchange best bid and offer and the national best in amortized constant time.
+- Alert when an application submits to more than a threshold of distinct exchanges inside a ten-hour window, then scale it with exactly-once alerts.
+- Store identical file contents once across many paths, skip hashing when no file of the same size exists, and support safe deletion.
+- Design a metrics and alerting system, including how to detect a failed worker on each machine.
+
+- [Multi-Exchange BBO / NBBO Class](https://trueinterview.io/questions/multi-exchange-nbbo-class)
 - [Single-Producer Multi-Consumer Ring Buffer](https://trueinterview.io/questions/single-producer-multi-consumer-ring-buffer)
 - [LRU + LFU + Custom Eviction Function](https://trueinterview.io/questions/lru-lfu-custom-evict)
-- [Thread-Safe Key Call Counter](https://trueinterview.io/questions/thread-safe-key-call-counter)
-- [Multi-Exchange BBO / NBBO Class](https://trueinterview.io/questions/multi-exchange-nbbo-class)
-- [Implement a Round-Robin Task Scheduler](https://trueinterview.io/questions/round-robin-task-scheduler)
+- [Application-to-Exchange Routing OOD with Sliding-Window Alerts](https://trueinterview.io/questions/application-exchange-routing-alerting)
 
-## Behavioral Questions
+## Quantitative and domain rounds
 
-Behavioral time at Citadel is mostly a technical audit of your resume plus breadth checks that can surface in any round. Prepare each project as a defensible narrative — decisions, alternatives, measured results — and expect quantitative or systems quickfire segments on quant-adjacent tracks.
+Quantitative researcher and developer tracks add rounds that test research judgment. One researcher screen ran well past its slot on factor construction, look-ahead bias, rank versus Pearson information coefficient, purging and embargoing, and telling decay from crowding, then asked what sample size makes a correlation estimate stable. A quantitative developer loop added expected-value, random-walk and brain-teaser puzzles, a modeling case study, fixed income products, and the design of a high-frequency trading framework.
+
+Coding on these tracks favors precision over trickiness. Prompts include wildcard matching with memoized recursion, piecewise linear interpolation with extrapolation from unsorted knots, and no-intercept regression slopes recomputed as batches arrive. Library restrictions are common.
+
+Interviewers evaluate:
+
+- **Leakage discipline:** Timestamp alignment and validation design that would hold up on real capital.
+- **Derivation from first principles:** Sample-size, regression and probability results worked out live.
+- **Numerical care:** Running sums, edge cases and precision-safe arithmetic in code written without libraries.
+- **Connecting math to decisions:** How long to observe a signal before allocating to it.
+
+Do timed probability drills alongside streaming-statistics coding so you can switch between the two quickly.
+
+### Sample questions for the quantitative and domain rounds
+
+Here are some questions reported by recent candidates:
+
+- How do you detect look-ahead bias in a factor signal, and how do you decide a factor has degraded rather than become crowded?
+- Given a preliminary correlation between two return streams, what sample size makes the estimate stable?
+- Recompute each no-intercept regression slope on cumulative data as each new batch arrives.
+
+- [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive)
+- [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/questions/gqs-quant-phone-brainteasers)
+- [Online Batched No-Intercept Regression](https://trueinterview.io/questions/73c7aafc-4208-59c9-9bc1-f3dddb06e125)
+- [Town Temperature Regression Analysis](https://trueinterview.io/questions/40633852-5eda-59ea-9c7a-4e233abff5ec)
+
+## Onsite
+
+The onsite is typically three or four rounds, often in person for C++ roles. C++ rounds can run 60–90 minutes: one candidate built a task scheduler that accepts parameterized tasks in 90 minutes, then a low-latency queue with an analysis of its maximum required size. Infrastructure tracks test fundamentals directly, sometimes already at the phone stage: quicksort's worst case and pivot choice compared with mergesort and heapsort, how processes share physical pages, hardware versus software interrupts, and a `tail -f` that avoids busy polling and survives file rotation.
+
+Some schedules included an hour of code review and an hour of project deep dive. Design interviewers may add requirements midway, such as sub-two-second alert latency.
+
+Interviewers evaluate:
+
+- **Low-level fluency:** Memory layout, copies, locking and cache behavior in C++.
+- **Systems fundamentals:** Operating system and sorting behavior explained precisely, not from memory of a summary.
+- **Adapting to new requirements:** Absorbing a constraint added mid-design without restarting.
+
+Prepare your weakest area as hard as your strongest, because one weak round is enough to end the day.
+
+> **Note:** Two C++ candidates had their onsites ended after lunch, with the code-review and project rounds cancelled. Treat the first round of the day as decisive. A design round that goes badly in the morning can end the process before the afternoon.
+
+### Sample questions for the onsite
+
+Here are some questions reported by recent candidates:
+
+- Implement a C++ scheduler that lets callers add tasks with their own parameters.
+- Explain what drives quicksort to quadratic time and how mergesort and heapsort differ in stability and memory.
+- Design an efficient `tail -f` that streams appended lines without busy polling and handles rotation.
+
+- [Implement a C++ Task Scheduler with Parameterized Tasks](https://trueinterview.io/questions/d893a368-33e5-51ad-a5d0-517ad8e801dd)
+- [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals)
+- [External Merge Sort with a Heap](https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d)
+- [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design)
+
+## Team match and final conversations
+
+After the technical loop, candidates meet team leads, often in several team-match conversations, and sometimes a senior leader. Behavioral content is mostly a technical audit of your own projects: implementation choices, rejected alternatives, measured results and concurrency decisions. One London team lead spent about 30 minutes on it in a session scheduled for 45–60 minutes that ran to about 80.
+
+Team match is not a formality. One NXT candidate went through behavioral and open-ended match rounds plus a coding round that simulated a stock trading system, and was still rejected when no team converged.
+
+Interviewers evaluate:
+
+- **Defensible claims:** Every number and design choice on your resume, explained in depth.
+- **Separating depth from impact:** Distinct stories for technical difficulty and business outcome.
+- **Mutual fit:** Interest in the desk's problems and the pace of a trading environment.
+- **Retained coding sharpness:** Match rounds can still include live coding.
+
+Prepare a technical defense of each resume project.
+
+### Sample questions for the team match and final conversations
+
+Here are some questions reported by recent candidates:
+
+- Walk through a recent hard problem you solved and the alternatives you rejected.
+- How do you handle conflict at work?
+- Simulate a simple stock trading system in code.
 
 - [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/questions/citadel-bq-resume-loop)
-- [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals)
+- [Discuss a Project You Are Proud Of and How You Work](https://trueinterview.io/questions/discuss-a-project-you-are-proud-of-and-how-you-work)
+- [How do you handle conflict at work?](https://trueinterview.io/questions/how-do-you-handle-conflict-at-work)
+- [Implement a Round-Robin Task Scheduler](https://trueinterview.io/questions/round-robin-task-scheduler)
 
-## How to Prepare
+## How Citadel makes hiring decisions
 
-- Drill progressive problem families end to end: stock trading I to II to at-most-k transactions with fees and cooldown, and Game of Life from extra-board to in-place to sparse-infinite — the escalation pattern is the interview.
-- Implement core structures from scratch, including the unglamorous parts: BST deletion, O(1) LRU and LFU, heaps with lazy deletion of arbitrary IDs, and binary search over versioned per-key data.
-- For C++ tracks, rehearse producer-consumer code until mutex scope, condition-variable predicates, spurious wakeups, and the size-one buffer case are automatic, and be ready to discuss cache behavior and copy elimination.
-- Practice thinking aloud at speed: interviewers compress pauses, so build the habit of announcing your plan, invariants, and complexity before and while you code.
-- Write idiomatic, typed code in your interview language — type annotations, clean interfaces, and self-generated test cases are graded, not decorative.
-- Prepare a deep technical defense of every resume line: data assumptions, validation and leakage controls, concurrency choices, and how you measured each claimed result.
-- If your track touches trading or research, add timed expected-value and random-walk drills so you can switch between probability reasoning and code without losing precision.
+Each round can end the process on its own. Candidates were rejected after a single weak systems round despite strong coding, and the day after a long, friendly research screen. Final decisions go through the hiring team's senior engineers and leads, and offers depend on a team choosing you in team match. Even with positive feedback, the decision can turn on the wider candidate pool. A final decision usually comes within about a week.
+
+> **Tip:** Don't read a conversational, over-time session as a pass. Cover every technical dimension, including clarifying questions, edge cases, numeric precision and complexity, whether or not the interviewer prompts for it.
+
+## How to prepare for the Citadel interview
+
+1. **Drill ladders, not single problems:** Take stock trading to k transactions with fees and cooldown, and Game of Life to an infinite board, out loud and timed.
+2. **Plan for hidden limits:** The assessment is passed on runtime, not ideas, so check input bounds first.
+3. **Build structures from scratch:** Cover BST deletion, O(1) LRU and LFU, heaps with lazy deletion by ID, a Fenwick tree for weighted sampling, and binary search over versioned values.
+4. **Own concurrency:** Write producer-consumer code until wait predicates, spurious wakeups and lock scope are automatic, then extend a counter from threads to processes.
+5. **Model trading data cleanly:** Practice order books, best bid and offer, reconciliation and top-k with heaps, timestamp tolerance and no floating-point money.
+6. **Audit your own resume:** Prepare each project's decisions, alternatives and measured results, with separate stories for technical depth and business impact.
+7. **Write typed, idiomatic code:** Type hints, unmodified inputs and self-made tests are scored.
+8. **Add quantitative drills for quant tracks:** Do expected-value, random-walk and regression derivations next to library-free numeric code.
+
+## About working at Citadel
+
+Engineers at Citadel build the systems behind research, trading, risk, funding and settlement, and they sit close to portfolio managers and quantitative researchers. Teams are small, development cycles are short, and commercial judgment counts alongside technical skill. Citadel Securities, the market-making affiliate, runs its own low-latency engineering organization. There is no public engineering level ladder; level follows experience and track.
+
+Citadel hires engineers across its investment businesses and platform groups. Teams include:
+
+- **Equities:** Fundamental and quantitative equity research platforms and data pipelines.
+- **Global Quantitative Strategies:** Research infrastructure, simulation and automated trading for systematic strategies.
+- **Fixed Income & Macro and Commodities:** Pricing, risk and desk-aligned trading tools, including physical and financial energy markets.
+- **Core engineering and data infrastructure:** Storage, market data, compute and site reliability for the whole firm.
+- **NXT Engineering Network:** A cohort program with training and mentorship for experienced engineers new to finance.
+
+### Experience and education requirements
+
+New-grad postings ask for a degree in computer science, computer engineering or a related field, exceptional programming and design skills, and familiarity with probability and statistics. Interviews run in C++, Python or Java. C++ roles expect production-level command of memory and concurrency, and Python roles expect type annotations.
+
+## FAQs about the Citadel interview
+
+### How long does the Citadel interview process take?
+
+Usually four to eight weeks from the first call to a decision. Competing offers speed it up.
+
+### What is the hardest round of the Citadel interview?
+
+Candidates most often name the escalating phone screens and the C++ design or concurrency rounds. The base problems are standard, and rejections come from the follow-ups and from resume deep dives that expose shallow claims.
+
+### How much does a Citadel software engineer make?
+
+Recent official job postings list these US base salary ranges:
+
+- **Software Engineer, University Graduate (New York):** ~$200K–$250K base
+- **NXT Software Engineer:** ~$150K–$300K base
+
+Both add a discretionary incentive bonus and benefits. Citadel Securities posts its own ranges.
+
+### What happens after a rejection?
+
+No official cooldown is published. Recruiters have quoted about six months to a year; Citadel and Citadel Securities are separate employers.
 
 ---
 

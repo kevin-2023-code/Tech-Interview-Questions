@@ -27,7 +27,7 @@
 
 ## What they ask about
 
-Of the **51 questions in this cut that carry a topic label** (66% of it):
+Of the **50 questions in this cut that carry a topic label** (65% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -36,9 +36,9 @@ Of the **51 questions in this cut that carry a topic label** (66% of it):
 | `arrays` | 7 | 14% | ███████ |
 | `strings` | 6 | 12% | ██████ |
 | `dynamic-programming` | 4 | 8% | ████ |
-| `math` | 4 | 8% | ████ |
 | `backtracking` | 3 | 6% | ███ |
 | `binary-search` | 3 | 6% | ███ |
+| `math` | 3 | 6% | ███ |
 | `sorting` | 3 | 6% | ███ |
 | `topological-sort` | 3 | 6% | ███ |
 

@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**4,121 questions** · **196 writeups** · **131 companies** · **398 free to practise** · **441 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**4,121 questions** · **205 writeups** · **131 companies** · **395 free to practise** · **441 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -55,9 +55,9 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**398 of the 4,121 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**395 of the 4,121 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (288)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (34)](free/system-design.md) · [AI Coding (9)](free/ai-coding.md) · [Object Oriented Programming (61)](free/object-oriented-programming.md)
+[Algorithm (285)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (34)](free/system-design.md) · [AI Coding (9)](free/ai-coding.md) · [Object Oriented Programming (61)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -65,7 +65,7 @@ share naming the population it is a share of.
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
-**Interview process:** [Writeups on how 82 companies interview (196 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
+**Interview process:** [Writeups on how 91 companies interview (205 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
 <!-- gen:guides:end -->
 
 How a round runs, a problem worked end to end, notes on a process — each one filed
@@ -102,10 +102,10 @@ happened.
 | **Coinbase** | Software | [Coinbase Software Engineer Interview Experience: Production-Quality Coding and Engineering Focus](https://trueinterview.io/interviews/f552c22a-573f-4e06-b88c-34e12599d3bd) | Sep 30, 2026 |
 | **Coinbase** | Software | [Coinbase Task Management System Coding Interview Experience](https://trueinterview.io/interviews/cde9f50f-363c-41fa-890d-e5fb59299e40) | Sep 30, 2026 |
 | **Goldman Sachs** | Data & AI | [Goldman Sachs AI Model Training Engineering Interview Experience](https://trueinterview.io/interviews/4d120ad8-545f-4e03-800f-56bd90a62fe5) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs Booking.com Graduate Software Engineer Interview Experience (Amsterdam)](https://trueinterview.io/interviews/278a71b1-a4d7-4d33-92f5-bc1071bbbd0a) | Sep 30, 2026 |
 | **Goldman Sachs** | Software | [Goldman Sachs Coderpad Coding Interview Experience: First Non-Repeating Character & Grid DP](https://trueinterview.io/interviews/06eb061a-51ea-4cbe-99a1-23014b993183) | Sep 30, 2026 |
+| **Goldman Sachs** | Software | [Goldman Sachs Coderpad DSA and SuperDay System Design Interview Experience](https://trueinterview.io/interviews/cc8e57a3-d365-42f2-b035-337909cec077) | Sep 30, 2026 |
 
-[**2,997 reports on the board →**](experiences/README.md)
+[**2,993 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏷️ Browse by company type

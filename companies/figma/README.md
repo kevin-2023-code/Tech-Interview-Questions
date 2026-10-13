@@ -16,19 +16,33 @@ How Figma interviews, and the questions candidates reported there. Free question
 
 ## How Figma interviews
 
-Figma's question pool is unusually narrow — one document-and-layers exercise appears in roughly four of every ten reports — and solving it cleanly settles nothing: candidates have finished every part, heard warm feedback, and still been rejected, and only three of the reports below end in an offer. Going deeper than the outline on the company page, this guide draws on 60 candidate interview reports and 18 real Figma questions in our library to show what each stage contains, how it is graded, and where offers are lost.
+Figma's question pool is narrow and product-shaped. A layered document with apply, undo and batch-commit operations appears in about four of every ten reports, and design rounds are almost always about Figma's own features: canvas comments, trending files, components and instances, permission-aware search. A clean solve is still not enough. Candidates finished every part, heard warm feedback and were rejected for team fit, level, or a weak behavioral or hiring-manager conversation. Only three of the reports below ended in an offer.
 
-### Interview Process
+This guide breaks down each stage of the Figma interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 55 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Figma interview process
 
 <!-- guide-diagram -->
 ![Figma interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/figma/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** About 30 minutes and no exercise: your most challenging project and your part in it, why Figma specifically, what you want next, and — distinctively — your view on AI products and what they mean for design and collaboration. Treat "why Figma" as graded, and because interviewers other than the hiring manager are typically drawn from a pool rather than your target team, use this call to ask what the team is actually scoping.
+The structure is consistent across software teams. Apart from the hiring manager and any executive screen, interviewers typically come from a shared pool rather than the target team. A typical path is a 30-minute recruiter call, a hiring-manager screen, a 60-minute technical screen, and a virtual onsite of four to seven sessions, most often five or six on one day, occasionally spread over three. Most processes run three to five weeks.
 
-**Hiring-manager screen.** Typically about 45 minutes, in two reported shapes. The conversational version walks your resume and projects with no technical questions and decides fit for reasons that never appear in code — a modeling-heavy profile when the team wanted modeling plus serving, deployment, and infrastructure; too little zero-to-one ownership for the level. The other opens with a project discussion and folds in a live coding problem — `commit_batch` with oldest-value semantics, or INDENT/DEDENT tokenization — so treat this call as technical until told otherwise.
+Senior candidates face the same coding families but a higher bar for driving design without help; several senior rejections cited missing autonomy or zero-to-one ownership, not wrong answers. Machine learning loops swap system design for two ML design rounds.
 
-**Technical phone screen.** Roughly 60 minutes with an engineer in a shared editor, in the language you choose, run as pair programming rather than a quiz: prompts are long, product-flavored, under-specified, and layered into parts that keep arriving as long as you keep finishing, and several interviewers grade mainly on whether test cases pass. Five families cover nearly every report. First, by a wide margin: a `Document` of layers with key-value properties supporting `apply`, `undo`, and `commit_batch`, extended into redo, batch undo, `getLayerById`, memory-efficient history compaction, and an old-value flag deciding whether a property is reverted or deleted; interviewers have pushed past the obvious stack toward a deque of operation lists with an explicit eviction policy. Second: a table class — cell, row, and whole-table selection with color precedence, or set/get/aggregate over rows and columns. Third: display sort — order canvas documents left to right, cluster them into rows by y-coordinate before sorting within each row, then respect parent-child containment; it arrives as three escalating parts and is the family candidates most often fail to finish. Fourth: parsing — validating INDENT/DEDENT sequences, reconstructing rich text from nested groups, converting bracketed strings into nested lists. Fifth: resizing stacked rectangles by a delta with a minimum-height clamp and redistribution of the leftover. Some tracks get two phone screens — a 30-minute behavioral call plus the technical session — and a few senior or infrastructure screens replace code with a design discussion (an async job scheduler with exactly-once semantics, Kubernetes).
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A 30-minute call on your hardest project, why Figma, what you want next, and your view of AI products.
+- **Hiring manager screen:** A conversation about your resume and fit, sometimes with a live coding problem added.
+- **Technical phone screen:** About 60 minutes of pair programming in a shared editor on a multi-part, product-flavored problem.
+- **Onsite coding (one or two rounds):** Stateful or graph problems that stack two or three related parts.
+- **System design (one or two rounds):** Figma-specific features, or ML design for machine learning tracks.
+- **Project deep dive:** A long walkthrough of one substantial production project, often with slides.
+- **Behavioral interview:** Conflict, feedback, mentorship and scope, with several distinct stories expected.
+
+> **Tip:** Ask the recruiter what the team is building and what gap it is filling. Several rejections after clean coding came down to a mismatch in background or level, such as modeling-only experience for a role that also needed serving and infrastructure.
 
 **[Read the full Figma interview process →](interview-process.md)**
 

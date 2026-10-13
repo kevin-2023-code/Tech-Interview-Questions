@@ -49,15 +49,15 @@ Which stage each question came from, for the **21 of 21** questions at Pinduoduo
 
 ## What they ask about
 
-Of the **21 questions at Pinduoduo that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **20 questions at Pinduoduo that carry a topic label** (95% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `matrix` | 5 | 24% | ████████████ | Aug 16, 2026 |
-| `arrays` | 4 | 19% | ██████████ | Aug 16, 2026 |
-| `hashing` | 4 | 19% | ██████████ | Jun 08, 2026 |
-| `dynamic-programming` | 3 | 14% | ███████ | Jul 17, 2026 |
-| `sliding-window` | 3 | 14% | ███████ | Aug 22, 2026 |
+| `matrix` | 5 | 25% | ████████████ | Aug 16, 2026 |
+| `arrays` | 4 | 20% | ██████████ | Aug 16, 2026 |
+| `dynamic-programming` | 3 | 15% | ███████ | Jul 17, 2026 |
+| `hashing` | 3 | 15% | ███████ | Jun 08, 2026 |
+| `sliding-window` | 3 | 15% | ███████ | Aug 22, 2026 |
 | `heap` | 2 | 10% | █████ | Jun 08, 2026 |
 | `sorting` | 2 | 10% | █████ | Mar 27, 2026 |
 | `stack` | 2 | 10% | █████ | Mar 24, 2026 |

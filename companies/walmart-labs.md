@@ -46,18 +46,18 @@ Which stage each question came from, for the **29 of 29** questions at Walmart L
 
 ## What they ask about
 
-Of the **21 questions at Walmart Labs that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at Walmart Labs that carry a topic label** (66% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 7 | 33% | ████████████ | May 07, 2026 |
-| `two-pointers` | 5 | 24% | █████████ | Jul 07, 2026 |
-| `stack` | 3 | 14% | █████ | Feb 24, 2026 |
-| `binary-search` | 2 | 10% | ███ | — |
-| `greedy` | 2 | 10% | ███ | May 07, 2026 |
-| `intervals` | 2 | 10% | ███ | Apr 24, 2026 |
-| `sorting` | 2 | 10% | ███ | Apr 24, 2026 |
-| `strings` | 2 | 10% | ███ | Apr 24, 2026 |
+| `arrays` | 7 | 37% | ████████████ | May 07, 2026 |
+| `two-pointers` | 5 | 26% | █████████ | Jul 07, 2026 |
+| `binary-search` | 2 | 11% | ███ | — |
+| `greedy` | 2 | 11% | ███ | May 07, 2026 |
+| `intervals` | 2 | 11% | ███ | Apr 24, 2026 |
+| `sorting` | 2 | 11% | ███ | Apr 24, 2026 |
+| `stack` | 2 | 11% | ███ | Feb 24, 2026 |
+| `strings` | 2 | 11% | ███ | Apr 24, 2026 |
 | `backtracking` | 1 | 5% | ██ | Jul 20, 2025 |
 | `hashing` | 1 | 5% | ██ | Mar 03, 2026 |
 

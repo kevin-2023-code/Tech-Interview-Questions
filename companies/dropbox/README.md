@@ -16,19 +16,32 @@ How Dropbox interviews, and the questions candidates reported there. Free questi
 
 ## How Dropbox interviews
 
-Dropbox runs a compact loop with an unusually stable problem pool: a word-guessing game, a file-system crawler, a key-value store, a circuit breaker, an event logger recur across phone screens and onsites, and nearly every one comes with a prepared chain of follow-ups pushing a working solution toward scale, durability, or an adversarial twist. Going deeper than the outline on the company page, this guide draws on 12 real Dropbox questions and 9 candidate interview reports to show what each stage contains, how it escalates, and where candidates fall out.
+Dropbox draws its rounds from a small, recurring pool of practical problems: a file crawler, a word-guessing game, a key-value store, a circuit breaker, an event logger. Each comes with a prepared chain of follow-ups toward scale, durability or an adaptive opponent, and the follow-up carries most of the signal. The gate before live rounds is strict: a 500 out of 600 assessment score was not enough to advance.
 
-### Interview Process
+This guide breaks down each stage of the Dropbox interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 9 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Dropbox interview process
 
 <!-- guide-diagram -->
 ![Dropbox interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/dropbox/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact and online assessment.** Candidates typically start with a short recruiter conversation and then a timed online assessment on a hosted coding platform. Reported assessments are small but strictly scored: one had two problems (registering workers, then computing their pay from the registered data); another was a single object-oriented task, a banking class supporting deposits, withdrawals, transfers, and balance queries. The cutoff is high — a candidate who scored 500 out of 600 was told that did not clear the threshold and was cut before any live round, so treat the assessment as pass/fail on near-perfect completion rather than as a warm-up. Recent candidates also report that the platform's built-in AI assistant is allowed or even expected during the assessment while AI tools are prohibited in live rounds; confirm the policy with your recruiter before you start.
+Dropbox is a Virtual First company, so every interview happens over video. After a recruiter call, candidates take a timed online assessment or one or two live technical screens, then a virtual onsite of three to five rounds. The loop that ended in an offer had two phone screens, then object-store design, a project deep dive and a behavioral round. The process typically takes three to five weeks.
 
-**Technical phone screens.** One or two 45–60 minute live coding sessions with an engineer follow. The problems are practical rather than puzzle-like, and every reported screen had a second act. A file-system access simulation asked for a `HasAccess` method over a folder tree where permissions granted on a node propagate to descendants — a walk up the parent chain, then a discussion of O(depth) cost and precomputing transitive access for repeated queries. A file crawler (given a helper that lists one directory, return every file under a path) turned into a scaling conversation about memory and single-request limits, and then into filling in template code for an asynchronous, batch-yielding job that keeps state between invocations. A word-guessing game moved from implementing reveal-and-miss logic to an adversarial variant where the secret word may change as long as it stays consistent with prior feedback. Other screens covered a key-value store's design and implementation, a token-bucket rate limiter, and an optimal-commute shortest path with a follow-up that charged a cost for each turn. Whatever the opener, interviewers want running code first and only then open the follow-up.
+Early-career candidates get more coding and an internship deep dive; system design is standard from IC3 (senior) upward.
 
-**Onsite (virtual).** Reported onsites run three to five rounds in total, and one candidate describes the scheduling rule explicitly: a first day of exactly three rounds must be completed before a second day is scheduled. A full loop typically contains one or two coding rounds, one design round, a project deep dive, and a behavioral conversation; the loop that produced an offer had two phone screens plus three onsite rounds.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call about background, motivation, level and logistics.
+- **Online assessment (many pipelines):** A timed, auto-scored exercise that builds one small system in stages.
+- **Technical phone screens (one or two):** Live sessions of typically 45–60 minutes, each a practical problem plus a scaling or adversarial follow-up.
+- **Coding interviews:** One or two onsite rounds of simulations and games with exact state.
+- **Design interviews:** API and low-level design with a coding core, plus storage-flavored system design for experienced candidates.
+- **Project deep dive and behavioral interview:** One round on a single past project and one on career history and direction.
+
+> **Tip:** Get a small, clean, tested core running within the first third of every round. Candidates who treated the opening prompt as the whole exercise had no time left for the follow-up, where most of the grading happens.
 
 **[Read the full Dropbox interview process →](interview-process.md)**
 

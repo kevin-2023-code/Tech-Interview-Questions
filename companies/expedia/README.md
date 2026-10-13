@@ -16,27 +16,33 @@ How Expedia interviews, and the questions candidates reported there. Free questi
 
 ## How Expedia interviews
 
-Expedia Group runs a conventional-looking loop — assessment, phone screen, virtual onsite — but the weight inside it is unusual: behavioral evaluation is spread across almost every session, system design shows up even for entry-level candidates, and a coding round can be lost on how precisely you describe the problem rather than on the code. This deep-dive goes beyond the outline on the company page and draws on 16 real Expedia Group questions and 12 candidate interview reports.
+Expedia Group runs a familiar sequence of assessment, phone screen and virtual onsite, with three twists. Behavioral evaluation runs through almost every session. System design reaches down to entry-level candidates, with prompts drawn from the company's own domain: refunds, payments, rate limits and partner APIs. And a coding round can be lost on how precisely you describe the problem, even when the code works.
 
-### Interview Process
+This guide breaks down each stage of the Expedia Group interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 11 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Expedia Group interview process
 
 <!-- guide-diagram -->
 ![Expedia Group interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/expedia/process.webp)
 <!-- guide-diagram -->
 
-#### Application and online assessment
+Teams hire for their own headcount, so the onsite mix follows the team and level. Most candidates take an online assessment, one or two technical phone screens, then a virtual onsite of three to five sessions of roughly 45 minutes each. The process typically takes three to eight weeks, and the gaps between stages are often longer than the stages themselves.
 
-Cold applications do reach interviews. First contact is typically a recruiter conversation about background, motivation, and logistics; in at least one loop the recruiter call already carried an Expedia values-based behavioral question, so a prepared "why Expedia" answer is useful before any code is written.
+Entry-level loops lean on the assessment and add an object-oriented design round. Senior loops more often skip the assessment and open with a project deep dive. Data and AI teams swap classic coding for a notebook case study.
 
-The online assessment is two coding problems on a hosted platform, typically within a 60–90 minute window. Reported pairs are uneven: one straightforward problem — counting connected components in a graph, or counting strictly increasing windows of length k in a price array with a sliding run counter — next to one genuinely demanding problem, such as counting subsequences in which every distinct character appears the same number of times, modulo 1e9+7, which needs precomputed binomial coefficients and a combinatorial DP. Bank the easy problem fast, then spend the remaining time on the hard one.
+Here's what the interview process can look like:
 
-#### Technical phone screen
+- **Recruiter screen:** A short call about background, motivation and logistics, sometimes with a values question.
+- **Online assessment (mostly early career):** Two coding problems on a hosted platform in about 60 to 90 minutes.
+- **Technical phone screen (one or two):** About 45 minutes of live coding in a shared editor, with no warm-up.
+- **Coding interviews:** One or two onsite rounds, often dynamic programming, graphs or counting.
+- **Design interviews:** System design at every level, plus object-oriented or low-level design for junior candidates.
+- **Project deep dive and behavioral interview:** A walk through a system you built, then pointed situational questions.
+- **Hiring manager interview:** Team fit, mentorship and, in recent loops, your experience with AI.
 
-The screen is a live coding session of about 45 minutes in a shared editor, and candidates describe it as all business: a brief introduction, then the problem, with no resume walk-through and no behavioral warm-up. Interviewers tend to be quiet, nudging only when you stall, and several did not supply test cases — you are expected to propose and dry-run your own. Problems sit at a medium level with a structural twist: a mountain-shaped tower sum that needs a monotonic stack with prefix and suffix sums; a round-trip itinerary search over a flight list by DFS with a shortest-path follow-up; a grid of bars where removals create a largest hole (sort, take the largest gap in each direction, multiply); binary search and recursion; primes and divisors; a connected-components count "with a twist"; splicing one linked list into another between two indices; and explaining Kosaraju's algorithm rather than coding it. Some candidates get two technical screens, or a separate behavioral phone round about past projects and motivation. Senior screens drift toward practicality: how you use AI tools in daily coding, parsing JSON with a library, then an open-ended coding problem graded on structure and trade-offs rather than a single right answer.
-
-#### Virtual onsite
-
-Reported onsites run three to five rounds, roughly 45 minutes each. Four kinds of sessions recur, with the mix depending on level:
+> **Tip:** Restate every definition before you code (subarray or subsequence, strict or non-strict) and propose your own test cases. Across reported loops, those two habits decided more rounds than the choice of algorithm.
 
 **[Read the full Expedia interview process →](interview-process.md)**
 

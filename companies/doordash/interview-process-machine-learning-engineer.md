@@ -6,97 +6,234 @@
 
 ---
 
-Machine Learning Engineer candidates here are most often rejected in rounds that do not look like machine learning at all. The loop reliably contains a marketplace-reasoning session — enumerate every reason a customer received the wrong meal, design the check that catches a mis-assigned order at the moment of dispatch, build a decision tree that decides refunds — and it is graded as seriously as the modeling rounds, with several candidates naming it as the round that caught them off guard. The other early surprise is leveling: one senior applicant was downleveled on phone-screen feedback alone and never got to interview at the level they applied for, so the background call is a scoring round, not a formality.
+DoorDash interviews Machine Learning Engineers across algorithm coding, ML system design and marketplace reasoning, and rejections often come from the rounds with no modeling in them: a refund policy built as a decision tree, a case on why customers get the wrong meal, or a grid-aggregation problem that fills the whole coding round. Level is decided early, too. A one-hour deep dive on a single past project can down-level a senior applicant before the onsite is booked.
 
-## Interview Process
+This guide breaks down each stage of the DoorDash Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 11 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## DoorDash Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![DoorDash Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/doordash--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (about 30 minutes).** Track fit, current modeling scope, and level. For this track the recruiter probes which surface you have shipped models onto — ranking and recommendations, ETA and dispatch prediction, growth and promotions, or platform and serving infrastructure — because the onsite is assembled from those areas. Level is provisional and can move later in the process.
+The loop depends on the team, and interviewers choose their own questions, so two candidates rarely see the same set. Most processes have one to four phone-stage rounds and a virtual onsite of four to five back-to-back rounds, over three to six weeks.
 
-2. **Background and ML fundamentals screen (typically 45-60 minutes).** A single past project, taken apart. Interviewers push on problem framing, why that model class, offline metrics versus the business metric, feature engineering choices, and what happened after deployment: monitoring, drift, retraining cadence, and how the launch was measured. Candidates with generative-model work on their resume get pointed follow-ups on retrieval-augmented setups, evaluation, and efficient fine-tuning, and one such screen ended with a design prompt about layering a language model over an existing query-based restaurant retrieval pipeline. Hand-waving your own project is fatal here; the questioning goes several layers past the summary.
+Analytics-leaning and early-career pipelines add a timed SQL-and-Python assessment. Senior loops get deeper project questioning and sometimes two design rounds, one product-facing and one on training and serving infrastructure.
 
-3. **Coding screen (45-60 minutes, shared editor).** Live coding, medium difficulty, frequently interval- or window-shaped: maximum-sum sliding window over daily sales, greedy batch packing under a capacity and a time window, minimum drivers needed to cover a set of trips by sweep line, word segmentation against a dictionary. You are commonly asked to author and run your own test cases, then discuss where the greedy or dynamic-programming choice breaks. Follow-up problems arrive late in the session on purpose.
+Here's what the interview process can look like:
 
-4. **Timed online assessment (some pipelines, data-leaning roles).** Two sections under tight clocks: SQL against a delivery schema — bucketing orders by spend, top merchants by revenue in a window with tie handling, a single-value percentage over active merchants — and one Python algorithm problem. Candidates consistently report that a single bug consumes the section.
+- **Recruiter screen:** About 30 minutes on background, the modeling areas you have shipped in, and a provisional level.
+- **Project deep-dive screen:** 60 minutes on one past project, from problem framing to production metrics.
+- **Coding interviews (one screen, one onsite):** 45 to 60 minutes of medium algorithms in a shared editor.
+- **ML system design interview (one or two):** A recommender end to end, or the training and inference platform behind it.
+- **ML domain and experimentation interview:** A no-code discussion of delivery time, multi-objective ranking, promotion uplift or A/B testing.
+- **Behavioral and marketplace-scenario interview:** Conflict and failure stories, often paired with an order-failure case.
 
-5. **Virtual onsite (typically four to five rounds, back to back).** The recurring composition is one algorithm coding round, one ML system design round, one ML discussion or domain round, and one behavioral round; loops that run longer add a second design session on training and serving infrastructure, or a data modeling round. The coding round is not always a clean textbook problem — one candidate was asked to bucket restaurant locations onto a geographic grid and aggregate a demand metric per cell, which ate the whole session. Design prompts are drawn from the product: recommend a store or a dish given a text query, rank a personalized feed, prevent order errors at dispatch. Interviewers are given wide latitude in what they ask, so two candidates on the same track rarely see the same set.
+## Recruiter screen
 
-6. **Behavioral round (typically 45-60 minutes).** Weighted toward negatives — conflicts, mistakes, projects that went off track — and often blended with a scenario question about marketplace failure modes.
+The call typically runs about 30 minutes on scope, motivation, and the business area you have modeled for: ranking, delivery time and dispatch, consumer growth, or ML infrastructure. The level set here is provisional. In one senior process the recruiter supplied materials for a presentation, the single interview centered on it, and a rejection with no feedback arrived the next day.
 
-7. **Decision.** End to end this commonly runs about four weeks, sometimes longer. Multi-week silence after the onsite is frequently reported even for candidates who felt strong, rescheduling happens when an interviewer does not appear, and rejections arrive without specific feedback.
+Interviewers evaluate:
 
-## What They Actually Evaluate
+- **Area match:** Whether your shipped models map to a team that is hiring, which shapes your design and domain rounds.
+- **Scope at the claimed level:** Owning a model end to end rather than contributing features to someone else's pipeline.
+- **Motivation:** A concrete interest in logistics and marketplace problems, not ML in general.
 
-### Coding and Algorithm
+Prepare a two-minute summary of each shipped model with its business metric, and confirm the role is still open before building custom presentation material.
 
-One screen plus at least one onsite round, both medium difficulty and both timed tightly enough that debugging speed matters more than insight. Sliding windows, sweep lines over start and end events, greedy packing, and grid traversal cover most reported prompts. Modeling-heavy candidates underestimate this and lose the loop here: a clean, tested, complexity-annotated solution is the whole bar, and being asked to write your own tests is normal rather than a hint that something went wrong.
+### Sample questions for the recruiter screen
 
-- [Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS)](https://trueinterview.io/questions/code-craft-multi-source-bfs-grid)
-- [Find Eligible Order Sequence](https://trueinterview.io/questions/find-eligible-order-sequence)
-- [Find Peak Element](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61)
+Here are some questions reported by recent candidates:
 
-### ML System Design
+- Why DoorDash, and why are you leaving your current role?
 
-The centerpiece, and sometimes two separate rounds. The product-facing one asks for recommendation or ranking end to end: candidate generation, feature stores, handling short-lived session signals alongside stable long-term preferences, cold start, online versus offline evaluation, and serving at low latency. The platform-facing one asks for the training and inference pipeline itself — distributed training, experiment tracking, containerized serving, monitoring, and how model updates ship behind an experiment. Strong answers commit to a serving path and defend its latency budget; weak ones stay at the box-diagram level and never say where features come from at request time.
+- [Explain why DoorDash and job change](https://trueinterview.io/questions/explain-why-doordash-and-job-change)
+- [Explain Why You Are Changing Roles](https://trueinterview.io/questions/explain-why-you-are-changing-roles)
 
-- [Job Scheduler System Design](../../questions/system-design/job-scheduler-design/README.md)
+## Project deep-dive screen
 
-### ML Theory
+This is the most consistently reported screen. It runs 60 minutes with almost no small talk, and some interviewers send an outline in advance: problem, your role, methods and tools, key difficulties, and how success was measured. The questions go several layers deep: why that model, why that offline metric, how it tracked the online and business metrics, and what happened after launch.
 
-A discussion round with no code, aimed squarely at marketplace modeling rather than textbook theory. Reported prompts include designing a single ranking model with two heads — one predicting conversion, one predicting delivery time — and specifying the shared and task-specific layers, the loss for each head, and how both predictions combine into one ranking score; modeling promotion redemption to trade growth against margin with uplift methods and a cold-start story for new users; and choosing an evaluation metric for an ETA model, defending mean absolute error, and handling long-tail deliveries. Experimentation depth is tested directly in some loops: hypothesis testing, sample sizing, peeking, and multiple-comparison corrections.
+Candidates with language-model work get questions on evaluation, retrieval-augmented generation and fine-tuning; one such screen ended with designing a language-model layer over query-based restaurant retrieval. Some loops split this stage into two resume screens, one on values and one on past methods.
 
-- [MLE Onsite: ML Knowledge / Discussion Round](https://trueinterview.io/questions/mle-ml-discussion-round)
+Interviewers evaluate:
 
-### Domain Deep Dive
+- **Individual contribution:** What you decided and built, kept separate from what the team did.
+- **Metric reasoning:** How the offline metric connected to the online and business results.
+- **Production depth:** Drift you saw, what you monitored, how often you retrained, and how you would roll back a bad model.
+- **Calibration signal:** The scope and ambiguity of the project, which feeds the level decision.
 
-The analytics-facing sessions in this family are heavier than candidates expect. Reported content includes a data modeling exercise where you design a schema for a consumer app, define an active-user metric for that specific schema, then write the query that computes it and follow-on window-function SQL; and a roughly 40-minute pipeline deep dive where architecture, error handling, schema evolution, and performance tuning are all fair game. Business-judgment cases also appear — allocating budget across support agents by ticket volume, or diagnosing a metric that dropped overnight — and are scored on how you structure the investigation, not on the answer.
+Fill in the outline for two projects and rehearse each down to the feature pipeline and the experiment readout.
 
+> **Note:** This screen sets your level. One senior applicant was down-leveled on its feedback and never interviewed at the senior level.
+
+### Sample questions for the project deep-dive screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through one project's problem, role, methods, hardest difficulty and success metric, defending each metric choice.
+- Design a personalized restaurant recommendation feature that adds a language model to query-based retrieval.
+
+- [Describe a Project End-to-End](https://trueinterview.io/questions/describe-a-project-end-to-end)
+- [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth)
+
+## Coding interviews
+
+Expect one screen and one onsite coding round, each 45 to 60 minutes at medium difficulty. Screen problems include the maximum-sum window of length k (edge cases: an empty array, k larger than the array), word segmentation against a dictionary using dynamic programming, and greedy batch packing within capacity B and time window W. In the packing screen the candidate had to write and run their own tests, and a second problem came late: the minimum number of drivers needed to cover timed trips.
+
+Onsite problems are less textbook. One asked for the fewest deletions so that no even-indexed element equals the next. Another put restaurant locations on a geographic grid and aggregated a demand metric per cell, which took the whole round. Analytics-leaning pipelines use a timed assessment instead: three SQL tasks on a delivery schema and one Python window problem, where one bug can use up a section.
+
+Interviewers evaluate:
+
+- **A tested, working solution:** Code that runs against cases you wrote. Being asked to test is routine, not a hint.
+- **Complexity and limits:** Time and space stated unprompted, and where a greedy choice breaks.
+- **Requirement clarification:** Grid bounds, sparse cells, ties and word reuse settled before coding.
+- **Composure late in the round:** A clear sweep-line plan when there is no time left to code it.
+
+Practice sliding windows, interval sweeps, greedy packing and grid aggregation on a 30-minute clock, writing your own tests.
+
+> **Tip:** The onsite heatmap problem used up one candidate's whole round. Settle bounds and the output format in the first five minutes and get a simple version running before optimizing.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Return every 1-based start day of a length-k window with the maximum total sales.
+- Build a demand heatmap by bucketing restaurant locations into grid cells.
+
+- [Max Sum Sliding Window and Return Start Days (1-based)](https://trueinterview.io/questions/cb56b885-74d2-47ca-aefe-725df4a97b39)
+- [Code Craft: Batch with Capacity & Time Window](https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle)
+- [Minimum Number of Couriers Needed (Meeting Rooms II Variant)](https://trueinterview.io/questions/9b6179b4-2319-4efe-9129-adc78a2d421d)
+- [Code Craft: Restaurant Delivery Heatmap](https://trueinterview.io/questions/code-craft-restaurant-heatmap)
 - [DE / AE Screen: SQL + Python (Sliding Window + Joins)](https://trueinterview.io/questions/de-ae-sql-python-screen)
-- [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling)
-- [SQL: Restaurant query (classic)](https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196)
 
-### Behavioral and Leadership
+## ML system design interview
 
-One dedicated round, occasionally two, focused almost entirely on friction: a disagreement with a colleague, a mistake you owned, a project that failed. Several loops attach an operational scenario to it — trace why an order arrived wrong across platform, merchant, and courier causes, or propose the process change that prevents a class of complaints. Interviewers want the causal decomposition and the fix you actually shipped, and generic well-formatted stories consistently underperform.
+This is the centerpiece of the onsite and sometimes takes two rounds. The product round asks for a recommender end to end: a personalized feed at millions of requests per minute, store-item recommendations with cold start, or a restaurant matched to a text query. The platform round covers distributed training, experiment tracking, serving, monitoring, and shipping model updates behind an A/B test.
 
-- [Onsite: On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation)
+One candidate got an ads recommendation design at the phone stage. Candidates describe these rounds as general system design applied to an ML problem, weighted toward data pipelines and where features live at request time.
 
-## What They Don't Test
+Interviewers evaluate:
 
-- **Deriving algorithms from scratch.** No proofs, no gradient hand-derivations, no ask to implement backpropagation. Theory questions arrive attached to a product decision — which head, which loss, which metric — and are rewarded for judgment rather than recall.
-- **Framework or library depth.** No reported round graded fluency in a specific training stack. What is graded is whether your pipeline story survives questions about drift, retraining, and rollback.
-- **Deep architecture novelty.** Gradient-boosted trees are an acceptable and often preferred answer for tabular prediction problems, provided you justify it against a deep model and can talk about feature importance and error behavior.
-- **Puzzle-grade algorithms.** The coding rounds stay at medium; the pressure comes from the clock and from having to test your own solution, not from problem difficulty.
-- **A single track script.** Interviewers pick their own material, so preparing only the canonical recommendation-system answer leaves you exposed to the experimentation, infrastructure, and domain-reasoning rounds that appear just as often.
+- **Serving path:** Where each feature comes from at request time and how the latency budget holds at scale.
+- **Feature freshness:** Short-term and long-term signals stored and updated differently, with a reason for each.
+- **Cold start and evaluation:** A plan for new users and stores, and an online test linked to an offline metric.
+- **Lifecycle:** Retraining, monitoring, rollback and experiment gating for model updates.
 
-## The Real Filter
+Practice two recommender designs and one training-and-serving platform design, with request-volume and latency numbers.
 
-The rejection path most candidates never see coming is the non-modeling round. Preparation naturally concentrates on ranking architectures and feature stores, but the sessions that decide these loops are frequently the domain-reasoning one — refund logic as a decision tree, dispatch-time error prevention, root-causing an order discrepancy — and the coding one. Both are unglamorous, both are graded strictly, and one candidate explicitly noted that the knowledge and design rounds here diverged from what similar roles elsewhere had asked. Prepare to reason about the marketplace as a system of failure modes, not only as a source of training data.
+### Sample questions for the ML system design interview
 
-The second pattern is depth on your own work. The background screen is where leveling gets decided, and the questioning drives past architecture into production behavior: what drifted, what you monitored, what the experiment actually showed. A summary-level project narrative reads as thin and can cost you the level before the onsite is scheduled.
+Here are some questions reported by recent candidates:
 
-The third pattern is silence. Multi-week gaps after the onsite are common, feedback is generic or absent, and at least one process stalled on scheduling rather than performance. Ask for a decision timeline up front, and do not read the delay as a signal about your loop.
+- Recommend a restaurant from a text query, serving short-term session features and long-term preferences from different stores.
+- Design the training and inference pipeline that supports distributed training, A/B tests and safe model updates.
 
-## Data Source
+- [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d)
+- [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system)
+- [Design a scalable recommendation serving system](https://trueinterview.io/questions/design-a-scalable-recommendation-serving-system)
+- [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr)
 
-Based on 11 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+## ML domain and experimentation interview
 
-## FAQ
+This no-code discussion draws the most difficulty reports. In one, the candidate designed a ranking model with two heads, one predicting conversion and one predicting delivery time, then specified shared and task-specific layers, a loss for each head, and how the outputs combine into one score. Another covered consumer growth: modeling offer redemption, setting discounts that balance growth against margin, and measuring incremental lift with uplift modeling.
 
-**What is it like to work there as a Machine Learning Engineer?**
-Our reports describe the hiring loop rather than daily working life, so this is context rather than measurement. The modeling surfaces are unusually concrete: arrival-time prediction across billions of orders, dispatch models that estimate how an order will unfold if offered to a particular courier, ranking and recommendation over stores and items, and growth models for promotions. That means production ownership rather than research isolation, and the interview mirrors it — serving latency, monitoring, and experiment design come up in almost every loop.
+The candidate who got an offer had a delivery-time case at the phone stage: framing for checkout and dispatch, features such as prep time and traffic, gradient-boosted trees, mean absolute error, and log-transforming long deliveries. Trees are a defensible baseline, but the production delivery-time model is now a deep multi-task network, so be ready to say when that switch pays off. Some loops run this stage as an A/B testing screen on sample size, peeking and Bonferroni correction.
 
-**What is the engineering culture like?**
-Fast-moving, ownership-heavy, and measurement-driven. Models are expected to ship behind experiments and to be judged on business metrics, which is why sample sizing, peeking, and multiple-comparison corrections show up as interview material rather than trivia. Interviewers are given latitude to choose their own questions, which makes the loop feel less standardized than at comparable companies and rewards genuine breadth over rehearsed answers.
+Interviewers evaluate:
 
-**How hard is it to get in?**
-Hard in an asymmetric way. Individual questions are rarely brutal, but the surface area is: coding, applied statistics, ML system design, platform and serving concerns, SQL and data modeling in some loops, and marketplace judgment. Candidates report being cut both for a shaky medium-difficulty algorithm round and for a thin project narrative, and rejections routinely arrive with no explanation attached.
+- **Business framing first:** Which decision the prediction serves and what an error costs there.
+- **Multi-objective design:** How competing targets share layers and combine without one dominating.
+- **Causal thinking:** Uplift instead of raw redemption, and incrementality against a proper control.
+- **Statistical rigor:** Sample sizing, peeking, multiple comparisons, and the long tail of extreme outcomes.
 
-**Which round is hardest?**
-The ML discussion round draws the most difficulty reports — the dual-head ranking and promotion-uplift prompts require you to hold modeling, business economics, and serving constraints in one answer. The coding round eliminates the most people, though, because it is where preparation is thinnest for this track and where the clock is least forgiving.
+Rehearse three cases aloud (delivery time, two-head ranking, promotion uplift), each running from business goal to launch test.
+
+> **Note:** Candidates found this round and the design round different from other ML loops. Experimentation statistics and marketplace economics come up as often as model architecture.
+
+### Sample questions for the ML domain and experimentation interview
+
+Here are some questions reported by recent candidates:
+
+- Design one ranking model with a conversion head and a delivery-time head, and explain how both enter the ranking score.
+- Model promotion redemption, choose discount levels, and measure incremental lift.
+
+- [ML Knowledge / Discussion Round](https://trueinterview.io/questions/mle-ml-discussion-round)
+- [Build ETA prediction and simulate impact](https://trueinterview.io/questions/build-eta-prediction-and-simulate-impact)
+- [Evaluate a new ranking model](https://trueinterview.io/questions/evaluate-a-new-ranking-model)
+- [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control)
+
+## Behavioral and marketplace-scenario interview
+
+Usually one round, focused on negatives: conflicts, mistakes, projects that went off track. Several loops add an operational case: why delivered food might not match the order, or what checks catch an order error just before hand-off to a driver. One phone screen asked for refund decisions as a decision tree, a format the candidate had not seen before.
+
+Interviewers evaluate:
+
+- **Ownership of failure:** A real mistake, what you changed afterward, and evidence the change held.
+- **Conflict specifics:** How you learned the other side's view and how it was resolved.
+- **Causal decomposition:** Failures split by actor before any fix is proposed.
+- **Decision logic:** Ordered, complete rules for refunds or escalation.
+
+Prepare four failure-and-conflict stories with measurable outcomes, and practice breaking a delivery failure into causes by actor.
+
+### Sample questions for the behavioral and marketplace-scenario interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a disagreement with a colleague and how it was resolved.
+- What are the main reasons the food delivered might not match what was ordered?
+- Build a decision tree that decides whether to refund an order.
+
+- [Refund Decision Tree Evaluation](https://trueinterview.io/questions/541ffb96-2770-590b-b5b6-0df02380d374)
+- [How would you prevent wrong items in deliveries?](https://trueinterview.io/questions/how-would-you-prevent-wrong-items-in-deliveries)
+- [Describe a conflict and how you resolved it](https://trueinterview.io/questions/describe-a-conflict-and-how-you-resolved-it)
+
+## How DoorDash levels and evaluates Machine Learning Engineer candidates
+
+All rounds feed a debrief, but the target level is largely set at the project deep dive. Of the 11 reported outcomes, one was an offer, eight were rejections and two were pending. Rejections usually came without specific feedback, and several weeks of post-onsite silence were common even for candidates who felt strong. One onsite round was rescheduled when the interviewer did not show up.
+
+> **Tip:** Ask for a decision date at the end of the onsite and follow up on it. A long gap usually reflects scheduling, not your result.
+
+## How to prepare for the DoorDash Machine Learning Engineer interview
+
+1. **Script two projects to production depth:** Cover problem, role, methods, difficulty and success metric, plus drift, monitoring and the A/B readout.
+2. **Treat coding as a full round:** Practice medium window, sweep-line, greedy and grid problems, writing and running your own tests.
+3. **Build two recommender designs and one platform design:** Cover feature freshness, cold start, caching and model rollout with real numbers.
+4. **Rehearse marketplace modeling cases:** Delivery time, conversion plus delivery-time ranking, and promotion uplift.
+5. **Refresh experimentation statistics:** Sample size, power, peeking and multiple-comparison correction.
+6. **Practice failure-mode reasoning:** Break wrong orders, refunds and dispatch errors into causes by actor, then rank fixes.
+
+## About the DoorDash Machine Learning Engineer role
+
+Machine Learning Engineers at DoorDash own production models that are judged on business metrics. The delivery-time model was rebuilt as a deep multi-task mixture-of-experts network, reported to improve accuracy by about 20% relative to the earlier tree-based models. Dispatch feeds ML estimates for each order, store and Dasher into a mixed-integer optimizer, and the shared prediction service handles more than ten billion predictions a day.
+
+DoorDash hires Machine Learning Engineers across teams including:
+
+- **ETA and logistics:** Delivery-time prediction, routing and dispatch models.
+- **Search and personalization:** Ranking and recommendations for stores, dishes and items.
+- **Consumer growth:** Promotion targeting and incrementality measurement.
+- **New Verticals:** Grocery and retail catalog models, computer vision and reinforcement learning for fulfillment.
+- **Merchant:** Menu understanding using vision, language and generative models.
+
+### Machine Learning Engineer experience and education requirements
+
+Full-time postings typically ask for five or more years shipping production ML systems with measurable business impact, and a bachelor's, master's or PhD. They expect strong Python, PyTorch, and distributed data tools such as Spark and Airflow, plus deep expertise in one area such as deep learning, optimization, reinforcement learning, or large language and vision models. Separate internship tracks exist for master's and PhD students.
+
+## FAQs about the DoorDash Machine Learning Engineer interview
+
+### How long does the DoorDash Machine Learning Engineer interview process take?
+
+Typically three to six weeks, longer when post-onsite feedback stalls or interviews are rescheduled.
+
+### What is the hardest round in the DoorDash Machine Learning Engineer interview?
+
+The ML domain discussion draws the most difficulty reports, because two-head ranking and promotion uplift combine modeling, economics and serving constraints. The onsite coding round is the most underestimated, since its problems are often custom.
+
+### Is there an online assessment?
+
+Not for most experienced ML candidates, who start with a project deep dive and a live coding screen. Analytics-leaning and early-career pipelines can include a timed SQL-and-Python assessment.
 
 ---
 

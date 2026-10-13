@@ -6,67 +6,251 @@
 
 ---
 
-Verkada's loop is unusually compressed: a single hour frequently carries both a coding problem and a full system design discussion, and the design prompt is almost always a version of the company's own operational problem — millions of cameras sending a heartbeat every minute. This guide goes deeper than the outline on the company page, drawing on 15 real Verkada questions and 17 candidate interview reports to show what each stage actually probes and where candidates lose the loop.
+Verkada compresses its loop more than most companies. A single phone-screen hour often holds both a coding problem and a full system design discussion, and the design prompt is nearly always the company's own operating problem: a fleet of millions of cameras, each sending a heartbeat every minute. Coding prompts are framed in the same product terms (camera motion intervals, door permissions, nested camera groups), and practical work counts alongside algorithms: some screens are live API builds in a prepared local environment.
 
-## Interview Process
+This guide breaks down each stage of the Verkada interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 16 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Verkada interview process
 
 <!-- guide-diagram -->
 ![Verkada interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/verkada/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact.** Many candidates enter through outbound rather than an application: a recruiter message on LinkedIn, in several reports with the technical screen scheduled before a resume was ever requested. A short conversational call sometimes precedes the technical round, especially for new-grad and frontend candidates, and it stays at the level of motivation and logistics — why Verkada, and where you are in your search. End to end, the process typically runs from a few weeks to a couple of months, with a decision after the final round typically taking around two weeks.
+The skeleton is stable across backend, full-stack and frontend hiring: a recruiter contact, one or two technical screens, then an onsite of four to five rounds. What changes is the middle. Backend candidates get system design in the screen and again onsite; frontend candidates swap design for React and layout work. Device-facing teams have reportedly added networking and product-troubleshooting questions. End to end the process typically takes a few weeks to two months.
 
-**Technical phone screen.** Reported screens run 45–60 minutes with an engineer and come in three recognizable shapes. The most common is a split hour: roughly half coding, half system design. One candidate described about ten minutes sketching a high-level video platform architecture, followed by deep dives into search, upload scaling, and upload failure handling, then roughly twenty minutes on a coding problem before the call turned casual. Other split-hour screens paired an in-place merge of two sorted arrays with a device-health monitoring design, or a linear-time single-pass array problem with a real-time device status counter. The second shape is two coding problems back to back with no design segment — typically a base problem plus an extension, such as extracting intervals where a camera's motion score exceeds a threshold, then merging those intervals across many cameras, with a scaling discussion tacked on at the end. The third shape is hands-on and practical rather than algorithmic: candidates are told in advance to have a working local environment ready (reports name a repository checkout, Docker, and an IDE) and then implement API endpoints live, in one case building a Flask API directly from a data-flow diagram the interviewer shared on screen.
+New grads are more likely to get a non-technical recruiter call and an algorithm-heavy onsite. Experienced hires see more design: one onsite had two architecture rounds plus a detailed review of scope in a previous job.
 
-Two constraints recur inside these rounds and catch people off guard. Interviewers frequently pin the API contract — a required entry-point name and return type — so free-form solutions do not count. And at least one screen specified both the implementation language and a hard runtime budget, in that case Java with a three-second execution limit on a permissions-graph traversal.
+Here's what the interview process can look like:
 
-**Onsite.** Candidates who reached the full loop describe four to five sessions, typically some combination of: a pure algorithms round, where implementing an LRU cache and then an LFU cache from scratch in the same session is a reported pairing; a pair-programming round built around a small practical feature — a simple database schema, a data access layer, and code to parse requests and format responses, run collaboratively rather than as a silent exercise; one or two architecture rounds; and a culture round. The architecture rounds are the most Verkada-specific part of the loop. Reported prompts include an access-management system with many-to-many relationships (given a person, list every door they can open; given a door, list every person; then implement granting access), and a heartbeat monitoring system for ten million devices reporting once per minute with a dashboard that stays responsive. The culture round is a structured deep dive into a previous role: your actual scope, the projects, the hard parts, and how you worked with your team.
+- **Recruiter screen:** A short call on motivation, search timeline and logistics, often after the recruiter reached out first.
+- **Technical phone screen (one or two):** 45–60 minutes with an engineer, either half coding and half design, two linked coding problems, or a hands-on API build.
+- **Onsite coding interview:** Data-structure implementation from a blank file, such as LRU and LFU caches or coin change.
+- **Practical and pair-programming round:** A small feature built collaboratively: schema, data access layer, request parsing and response formatting (frontend: extending an earlier component).
+- **System design interviews (one or two):** Device-fleet and access-control architectures with ingestion, storage and query paths.
+- **Behavioral interview:** A deep dive into a previous role: your scope, hard problems and how you worked with the team.
 
-Frontend loops follow the same skeleton with the middle swapped out. One new-grad frontend candidate had a technical screen writing React against a Figma design with close attention to Flexbox, Grid, and general CSS, then an onsite of two algorithm rounds (an LRU cache and coin change), a frontend round extending a component built earlier in the process by adding filtering, and a behavioral round.
+> **Tip:** Treat every hour as two time boxes. In split-hour screens the coding half is about 20 minutes. In two-problem screens, one candidate who over-invested in the first problem could not finish the second and named that as the deciding factor.
 
-**After the onsite.** Long silences are a consistent theme. Multiple candidates were still waiting weeks after their final round when they wrote up the experience, and rejections generally arrive without round-level feedback.
+## Recruiter screen
 
-## What Candidates Report
+Several candidates were contacted by a recruiter first, and some had the technical screen booked before sending a resume. A separate recruiter call, mostly for new-grad and frontend candidates, covers why Verkada and your search timeline. San Mateo roles are onsite, five days a week on some teams.
 
-- The product leaks into the questions more than at most companies. Camera motion intervals, alert-interval merging across cameras, permission graphs over cameras and nested groups, and device heartbeat streams all appear as coding or design prompts — the domain vocabulary is worth being fluent in before you sit down.
-- One design prompt dominates. Some form of "N million devices send a heartbeat every minute; report status counts in near real time" appeared in a large share of reports, with the variable parts being the device count, the number of statuses, and which constraint the interviewer emphasizes: freshness, deduplication of repeated heartbeats, cost of ingestion, or what happens when a device goes silent.
-- Pacing decides rounds. In two-problem screens, candidates who over-optimized the first problem ran out of time on the second; one was explicit that not finishing was the outcome-deciding factor. Split-hour screens leave roughly twenty minutes for the code, which is not much for a problem that still needs edge cases.
-- Prompts are deliberately underspecified. A word-guessing feedback problem left repeated-letter handling and case sensitivity unstated, and the candidate's takeaway after a rejection was that asking for examples, method signatures, and input formats up front is part of the graded work, not an interruption of it.
-- Practical engineering counts as much as algorithms. Framework familiarity (Flask), reading a data-flow diagram and turning it into endpoints, filesystem traversal with path handling, and working inside a prepared local environment all show up as live tasks. Candidates who had only drilled algorithm patterns reported leaning heavily on interviewer guidance.
-- The behavioral round is not a formality. At least one rejected candidate who cleared every technical round attributed the outcome to the behavioral conversation. Expect real follow-ups on ownership and collaboration rather than a friendly wrap-up chat.
-- Tooling can fail you. One candidate lost the first problem's code when the shared editor did not carry it into the second problem, burning interview minutes on recovery — keep your own copy of anything you may need again.
+Interviewers evaluate:
 
-## Coding Questions
+- **Motivation:** A specific reason for physical security and connected devices, not a generic interest in startups.
+- **Timeline:** Competing processes and how fast you can move.
+- **Shipping record:** How much you have personally built and shipped, which shapes the rest of the loop.
 
-Verkada's coding problems skew toward interval arithmetic, graph traversal over permission data, and careful in-place array manipulation, usually dressed in camera and device scenarios. Classic patterns do appear, but the version you get is typically restated in product terms with a scaling follow-up attached, so practice explaining how your solution behaves when the input is a fleet rather than a single device.
+Prepare a two-minute account of what you have shipped end to end and why device-plus-cloud products interest you.
 
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Why are you interested in Verkada?
+- Where are you in your job search, and what other timelines do you have?
+
+## Technical phone screen
+
+Screens run 45–60 minutes with an engineer in three shapes. The most common is a split hour of coding plus design: single-number-by-XOR with a device-status counter, an in-place merge of two sorted arrays with a camera health monitor, or linked-list big-integer addition (four digits per node) after a video-platform design. The second is two linked coding problems, such as motion-threshold intervals for one camera and then a merge across cameras, with a scaling discussion at the end. The third is a hands-on API build, covered in the practical round below.
+
+Classic problems come with constraints. One screen fixed the entry-point name and return type for tree diameter; another required Java and a three-second runtime limit for a permissions-graph traversal. A word-guess problem left repeated letters and case sensitivity unstated, and one rejected candidate could not finish a buy-and-sell-stock variant in the coding half.
+
+Interviewers evaluate:
+
+- **Pacing:** A working baseline for each problem inside its time box, then a stated optimization.
+- **Clarification:** Asking for signatures, input formats and worked examples before coding. The rejected word-guess candidate named skipping this as the lesson.
+- **Contract discipline:** Matching the required function name, return type, language and runtime budget exactly.
+- **Edge cases:** Malformed IP segments, single-element arrays, overlapping versus adjacent intervals.
+- **Scaling instinct:** How the single-camera solution behaves across a fleet.
+
+Practice interval and array problems against a 20-minute timer and say each clarifying question out loud.
+
+> **Note:** The shared editor does not always carry code from the first problem into the second. One candidate lost minutes rebuilding earlier code, so keep a local copy of anything you may need to reuse.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given timestamped motion scores from one camera, return every interval at or above a threshold; then find the intervals where all cameras are above it at once.
+- Given permission triples (owner of a camera, member of a group, with nested groups), find the one user who can reach every camera, in Java within three seconds.
+- Score a word guess with green, yellow and gray feedback, adding input validation and exceptions.
+- Walk a directory tree, extract valid IPv4 addresses from file contents and return them sorted.
+- Simulate jumps through an array to the next element equal to the current height plus one, reversing direction after each jump.
+
+- [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection)
 - [Merge Alert Intervals Across Multiple Cameras](https://trueinterview.io/questions/a4f0ae26-f3ea-4975-9c68-99712a354b65)
 - [Find Overlapping Time Intervals Across Multiple Cameras](https://trueinterview.io/questions/3dc3ae54-1022-4a39-8aa6-c14d6f4cc6ba)
-- [Find the Camera Admin User from Nested Group Permissions](https://trueinterview.io/questions/7379fb26-87ba-489a-a10c-ae5bc4342cce)
+- [Find Camera Admin User](https://trueinterview.io/questions/7379fb26-87ba-489a-a10c-ae5bc4342cce)
+- [Word Guess Game Feature](https://trueinterview.io/questions/6d1fe4b2-f023-4871-bfb3-daec9af6dbc3)
+- [Find IPv4 Addresses in Nested Files](https://trueinterview.io/questions/d5905d81-f1d5-4f11-97ad-b8162610cc37)
+- [Jumping by Height](https://trueinterview.io/questions/b0999093-eb28-5f5e-a89c-b103e821d914)
 - [Add Two Large Integers Stored in Linked Lists (4 digits per node)](https://trueinterview.io/questions/68fd7f68-6e89-4955-b27b-d02bcde92cae)
-- [Find Valid IP Addresses in Files Under a Directory (Recursive)](https://trueinterview.io/questions/d5905d81-f1d5-4f11-97ad-b8162610cc37)
+- [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place)
+- [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677)
 
-## System Design Questions
+## Onsite coding interview
 
-Design discussions here reward concrete, cheap architectures over textbook diagrams. The recurring heartbeat prompt is deliberately simple on the surface and gets its difficulty from the constraints the interviewer adds one at a time: minute-level freshness, deduplicated ingestion, a status that must be derived from absence of signal, and explicit pressure to keep infrastructure cost down. Start from the write path for a single heartbeat, then justify where counts live and how queries stay fast.
+The onsite algorithms round leans on building data structures from scratch: one backend candidate wrote an LRU cache and then an LFU cache in one session, and a new-grad frontend onsite had separate LRU-cache and coin-change rounds. Another process opened with an in-place square-matrix transpose, then a distributed version where each worker's ID decides which blocks it reads and exchanges.
+
+Interviewers evaluate:
+
+- **Correct eviction logic:** O(1) get and put, plus correct LFU tie-breaking when frequencies match.
+- **Clean state management:** A hash map and linked list that stay consistent through updates and evictions.
+- **Index handling:** In-place swaps without overwriting values you still need.
+- **Distributed extension:** Partitioning work across workers and avoiding duplicate exchanges.
+
+Be able to write an LRU and an LFU cache from a blank file in under 25 minutes each.
+
+### Sample questions for the onsite coding interview
+
+Here are some questions reported by recent candidates:
+
+- Implement an LRU cache, then an LFU cache, both from scratch.
+- Return the fewest coins needed to make an amount.
+- Transpose a square matrix in place, then partition the transpose across workers for a matrix larger than one machine.
+
+- [Implement LRU and LFU caches](https://trueinterview.io/questions/implement-lru-and-lfu-caches)
+- [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221)
+- [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts)
+- [Matrix Transpose with Workers](https://trueinterview.io/questions/d2c51fe8-e8cb-4b41-9fb4-1dc03c1b4c3b)
+
+## Practical and pair-programming round
+
+This round appears both as a screen and onsite. One candidate was told to prepare a repository checkout, container tooling and an IDE in advance, then built three API calls live. Another implemented Flask endpoints from a shared data-flow diagram and, new to Flask, leaned on the interviewer. The onsite version is collaborative: a simple schema, a data access layer, then request parsing and response formatting.
+
+Frontend candidates do this in React: a screen implementing a design mockup with close attention to Flexbox, Grid and CSS, then an onsite task adding filtering to a component built earlier, so your earlier structure is graded again.
+
+Interviewers evaluate:
+
+- **Setup readiness:** A working environment at minute one, not minute fifteen.
+- **Translating specs:** Turning a diagram or mockup into routes, handlers and components without being walked through it.
+- **Layering:** A clear split between schema, data access and request handling that survives a new endpoint.
+- **Collaboration:** Explaining choices while you code and taking suggestions well.
+- **Extensibility (frontend):** Components that can accept filtering without a rewrite.
+
+Before the screen, build two or three endpoints in a lightweight web framework inside the exact environment you were told to prepare.
+
+### Sample questions for the practical and pair-programming round
+
+Here are some questions reported by recent candidates:
+
+- From a shared data-flow diagram, implement the API endpoints in Flask.
+- Design a small schema and data access layer, then write the request-parsing and response code for it.
+- Build a React layout from a design mockup, then add filtering to it in a later round.
+
+- [Implement APIs in a Flask Application](../../questions/ai-coding/implement-apis-in-a-flask-application/README.md)
+- [React UI Implementation from Figma (Flexbox/Grid heavy)](https://trueinterview.io/questions/fdefc42f-efc5-4cce-b95d-a9881714b78c)
+- [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server)
+
+## System design interview
+
+Design appears as half of a phone screen and as one or two onsite rounds. One prompt dominates: one or ten million devices send a heartbeat every minute, and the system reports status counts in near real time. Variants push different constraints: ten statuses with per-minute aggregation, healthy versus unhealthy from staleness, deduplication at low collection cost, or a dashboard that stays responsive. The second recurring prompt is door access management with lookups in both directions, and video-platform prompts (upload, failure handling, search) also appear.
+
+Strong answers start small. One well-received answer used an in-memory status-to-count map behind a thin API: each heartbeat moves a device between counters, counters shard by device ID, and silent devices time out to offline. Follow-ups covered out-of-order heartbeats and consistency.
+
+Interviewers evaluate:
+
+- **Write path first:** What one heartbeat does, end to end, before boxes multiply.
+- **Absence as a signal:** How a device that stops reporting becomes offline, and when.
+- **Cost awareness:** Avoiding heavy infrastructure when a sharded in-memory counter is enough.
+- **Data modeling:** Many-to-many access tables indexed for both directions of the query.
+- **Failure handling:** Duplicate, late and out-of-order heartbeats, and failed uploads.
+
+Rehearse the heartbeat design until you can sketch it in ten minutes and spend the rest on the interviewer's chosen constraint.
+
+> **Tip:** Ask early which constraint matters most: freshness, deduplication, ingestion cost or query latency. Each reported variant emphasized a different one, and the follow-ups were built around it.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- One million devices with ten possible statuses send a heartbeat every minute; serve current counts per status instantly.
+- Ten million cameras report every minute; count healthy and unhealthy devices with minute-level freshness and deduplication at minimum cost.
+- Design door access management with lookups in both directions and a grant operation.
+- Design a video upload service, then search over the uploaded videos.
 
 - [Real-time status counting system design](https://trueinterview.io/questions/86e2e2dd-5c95-496d-ba7e-2e052ef2f37f)
+- [Design access control and heartbeat systems](https://trueinterview.io/questions/design-access-control-and-heartbeat-systems)
+- [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system)
+- [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system)
+- [Design Youtube](../../questions/system-design/design-youtube/README.md)
 
-## Low-Level Design Questions
+## Behavioral interview
 
-The practical screens and the pair-programming round are effectively low-level design under time pressure: a small service, a schema, request parsing, and response shaping, judged on whether the structure holds up when the interviewer adds an endpoint. Being able to stand up routes and handlers quickly in a familiar web framework matters more than knowing a design-pattern catalog.
+The behavioral round is a deep dive into one previous role: what you owned, the projects, the hardest problems and how you worked with your team. New-grad loops use more standard behavioral questions. Expect follow-ups on how much you shipped yourself.
 
-- Implement APIs in a Flask Application
+Interviewers evaluate:
 
-## How to Prepare
+- **Personal scope:** What you did yourself, separated from what the team did.
+- **Ownership:** Problems you carried from start to finish without being assigned them.
+- **Pace:** How you made progress when requirements were unclear.
+- **Collaboration:** A specific disagreement and how it was resolved.
 
-- Rehearse the heartbeat design until it is automatic: ingestion for millions of devices at one message per minute, last-seen tracking, deriving an offline status from staleness, sharded or in-memory counters per status, and an explicit cost argument for each choice.
-- Practice interval problems fast and clean — threshold detection over a time series, merging across multiple sources, and finding common free windows across several schedules — because these are the single most repeated coding family.
-- Time-box two-problem sessions in practice: get a correct baseline for the first problem, state the optimization you would make, and move on. Unfinished second problems have cost candidates rounds here.
-- Set up a working local environment before the screen if you are told to (repository, container tooling, IDE) and do a dry run building two or three endpoints in a lightweight web framework, Flask included, so setup friction does not eat your hour.
-- Drill classic in-memory structures you can write from a blank file under time: an LRU cache and an LFU cache in one sitting is a reported onsite pairing.
-- Treat vague prompts as a first test: ask for method signatures, input formats, duplicate and case-sensitivity rules, and one worked example before writing code, and confirm any required function name or return type.
-- Prepare the culture round like a technical one — a previous project you can narrate at depth, your specific scope inside it, and a concrete conflict and failure story — since a strong technical loop has been undone here by a weak behavioral conversation.
+Prepare one project you can explain in technical depth, along with a conflict story and a failure story.
+
+> **Note:** This round can decide the outcome. A frontend new-grad candidate who cleared both algorithm rounds and the frontend round was rejected and pointed to the behavioral conversation as the likely cause.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through your role at your last company: scope, projects and the hardest challenge.
+- How did you collaborate with your team, and what challenges did you face along the way?
+
+## How Verkada makes hiring decisions
+
+Little is known about the decision mechanics. Decisions follow the full loop, and rejections usually arrive without round-level feedback. Waits are uneven: one candidate had heard nothing two weeks after a four-round onsite, and several were still waiting after their screens. Level appears to follow experience and design depth rather than a separate leveling round, so confirm the target level with your recruiter before the onsite.
+
+## How to prepare for the Verkada interview
+
+1. **Master the heartbeat design:** Ingestion at one message per device per minute, last-seen tracking, offline derived from staleness, sharded counters and a cost argument for each choice.
+2. **Drill interval problems fast:** Threshold runs over a time series, merges across sources and common free windows are the most repeated coding family.
+3. **Practice split hours:** Rehearse 20 minutes of coding followed by 30 of design in one sitting, and move on once you have a correct baseline.
+4. **Prepare your environment:** If told to set up a repository, container tooling and an IDE, do a dry run building endpoints in Flask or your framework.
+5. **Clarify before coding:** Confirm signatures, required names, return types, language, runtime limits, duplicate rules and one example.
+6. **Prepare the behavioral round seriously:** A strong technical loop has still ended in rejection after a weak behavioral round.
+
+## About working at Verkada
+
+Verkada sells cloud-managed physical security: cameras, access control, environmental sensors, alarms, intercoms and workplace products such as visitor management, all run from one web platform called Command. Engineering spans the device, the video and event pipeline and the web console, and San Mateo roles are in-office.
+
+Verkada hires engineers across teams including:
+
+- **Core Command services:** Backend services and APIs behind the unified web platform, in Python or Go.
+- **Device platform and device security:** Fleet connectivity, provisioning and hardening for millions of connected devices.
+- **Platform infrastructure:** Reliability and cost efficiency of the cloud infrastructure as the device count grows.
+- **Alerts and operations:** Event and notification pipelines built on message queues.
+- **Product teams:** Intercom, workplace products and growth.
+- **Embedded and computer vision:** Firmware and on-camera software in C, C++, Go and Python, plus on-device detection models.
+
+### Experience and education requirements
+
+New-grad backend postings ask for a BS or MS in computer science or a related field, shipping experience from internships, Python or Go and REST API familiarity. Mid-level roles ask for about three years in Go, Python, Java or C++ plus database experience, with message queues and containers as pluses. Senior roles ask for four to seven or more years, mastery of Python or Go and experience setting technical direction.
+
+## FAQs about the Verkada interview
+
+### How long does the Verkada interview process take?
+
+Typically a few weeks to two months from first contact to decision. The wait after the onsite is the least predictable part and has run past two weeks with no update.
+
+### What is the hardest round in the Verkada interview?
+
+For backend candidates, the split-hour phone screen: about 20 minutes of clean coding, then a fleet-scale design under shifting constraints. For frontend candidates, the onsite, where algorithms, extending your own component and a decisive behavioral round share one day.
+
+### Is there an online assessment?
+
+Reported processes used live screens with an engineer rather than an automated test. Some screens are hands-on builds in a local environment you set up beforehand, so read the scheduling instructions carefully.
+
+### What language should I use?
+
+Usually your choice, but one screen required Java with a runtime limit, and practical rounds assume a web framework such as Flask. Postings favor Python and Go.
+
+### How much does a Verkada software engineer make?
+
+Posted annual pay ranges run about $120K–$160K for new-grad backend roles, about $160K–$260K for senior backend roles and about $190K–$300K for staff roles. Equity is offered on top, and the exact figure depends on level, location and experience.
 
 ---
 

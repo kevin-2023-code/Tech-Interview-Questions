@@ -6,96 +6,238 @@
 
 ---
 
-One candidate implemented streaming max, median and mode with optimal complexity on every operation and was rejected; another never finished the sliding-window mode, talked through the structures that could support it, and got the offer. That inversion is the sharpest finding in the Quantitative Finance loop at Akuna Capital: live rounds are scored on the running commentary — the memory footprint you estimate unprompted, the overflow you flag in your own running sum, the design you rejected and why — not on whether the code compiled at the buzzer. Candidates who compute in silence lose rounds they technically solved.
+Akuna Capital's Quantitative Finance pipeline is really three loops that share a front door: trading candidates face automated speed batteries in arithmetic, probability and market making; research candidates face recorded mathematics with a five-minute clock per problem; and developer-strategist candidates face medium coding problems that quietly turn into trading utilities such as tick rounding, bid tracking and matching engines. Most of the filtering happens before a human is involved, and in the live rounds the narrated reasoning is graded as hard as the answer.
 
-## Interview Process
+This guide breaks down each stage of the Akuna Capital Quantitative Finance interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 17 candidate-reported interview experiences, primarily from 2025 Q3 through 2025 Q4, cross-checked against recent public accounts.
+
+## Akuna Capital Quantitative Finance interview process
 
 <!-- guide-diagram -->
 ![Akuna Capital Quantitative Finance interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/akunacapital--quantitative-finance/process.webp)
 <!-- guide-diagram -->
 
-1. **Application and recruiter contact.** Referrals, cold applications and recruiter outreach all appear in reports and none changes what follows. Recruiter contact is thin and administrative: it confirms which variant you are routed to — trading, quantitative development, or the combined developer-strategist track — and releases the first assessment. Reports describe assessments landing unscheduled with no call first, so the first real evaluation can begin before anyone has spoken to you.
+The posting decides the loop. Junior Trader and Quantitative Trader candidates are routed into math and market-making assessments; Quantitative Researcher candidates into a coding test plus recorded mathematics; Junior Quantitative Developer and Strategist candidates into coding assessments and engineering screens. Assessments often arrive unscheduled, with no recruiter call first, and the gap between stages can be a month.
 
-2. **Coding online assessment.** Typically three problems in 60–90 minutes, in the track's language: C++ for systems-facing variants, Python for data and strategy variants. Reported problems are medium-difficulty pattern work with unusually long statements — counting index pairs whose combined net profit is strictly positive, a city-graph delivery order by shortest distance with ties broken by smaller city number, minimum swaps via cycle decomposition. Some sittings are sectioned instead: one reported 90-minute assessment mixed SQL multiple choice, a manual code trace, a string-frequency function and an object-oriented design task. Grading is hidden test cases, and reports lose this round to misread statements more often than to algorithms.
+A full developer-strategist pipeline ran five stages: a coding assessment, a math assessment with written explanations, a 45-minute phone screen, a behavioral interview and a virtual final. Trader candidates in the 2026 junior intake sat an options course as the first interview round in early April, with final-round interviews spread over the following two weeks.
 
-3. **Quantitative assessment battery.** Trading-flavored variants add speed tests developers do not expect: mental arithmetic at 80 questions in 8 minutes with sequence puzzles mixed in; a probability screen of 30 questions in 12 minutes where each item is two-step — compute the event probability, then convert it into the stake that wins exactly $1,000; and a market-making simulation of roughly 24 questions over about 45 minutes on letter-coded instruments with bid and ask prices, which doubles as a memory test because it later asks you to recall specific letter-price pairs. A separate unscheduled battery ran 17 break-even wager scenarios plus 33 sequence completions.
+Here's what the interview process can look like:
 
-4. **Extended take-home.** Some pipelines add a long-form build. The reported version is an order matching engine with a 72-hour window: limit orders, both sides of the book, price-time priority matching, cancel, modify, a book-state print, and immediate-or-cancel plus good-for-day types. Hidden tests are described as rigorous on partial fills and resting orders.
+- **Online coding assessment (developer-strategist and research postings):** Typically three medium algorithm problems in about 60 to 90 minutes, sometimes with design and SQL sections.
+- **Math and trading assessments:** Timed batteries of mental math, sequences, probability-to-stake conversions and a market-making simulation, or a recorded video math test for research postings.
+- **Technical phone screen:** About 45 to 60 minutes with two to four coding problems, often with a trading flavor.
+- **Trading and math interview (trader and research postings):** A conversational round of expected-value games, allocation scenarios, or calculus and linear algebra.
+- **Behavioral interview:** Motivation, firm knowledge and feedback stories; it can end the process on its own.
+- **Final round:** Back-to-back sessions, either a design deep dive with live coding or market-making and investment games with traders.
 
-5. **Technical phone screen.** Typically 45–60 minutes with an engineer, two to four problems, no resume walkthrough — the first problem usually opens within minutes. Three families recur: array and graph algorithms (BFS then a sort keyed on the traversal, prefix sums, connected components returning max-minus-min node ID); trading utilities (rounding a price to the nearest valid tick given a lower bound and tick width, a sliding-window log rate limiter then its constant-space token-bucket rewrite, a highest-bid tracker over an insert-and-cancel stream); and C++ lifetime work (debugging an object pool, fixing compilation errors, leaks and double frees, adding an allocated-object count). You code in a shared editor and state complexity for each answer.
+> **Tip:** Treat every automated stage as the real interview. Candidates who passed one assessment were sent a second a month later, and the batteries reward accuracy under a clock that leaves no time to recover from a slow start.
 
-6. **Pair-coding round.** A live build with an engineer — one candidate wrote a fixed-size thread-safe ring buffer from scratch, discussing storage choice, full-versus-empty detection and concurrency.
+## Online coding assessment
 
-7. **Behavioral round.** Entirely non-technical and reported as a genuine filter, not a formality: motivation for this firm specifically, what you actually know about its business, and structured examples of receiving positive and critical feedback and what changed afterward. Self-awareness is the graded axis.
+The coding assessment is a timed set of typically three problems, described as medium and fairly timed; one research intern found the time generous. Statements are long, and misreading them is the named failure mode. Recurring problems include counting index pairs whose combined profit minus cost is strictly positive, ordering deliveries to cities by shortest distance from a factory with ties broken by smaller city number, minimum swaps to sort via cycle decomposition, maximizing distinct values in one array after at most k swaps with another, and an array transformation that drops from quadratic to linear with a running sum.
 
-8. **Final round.** Back-to-back sessions, virtual or on-site. For developer and strategist variants the centerpiece is a design deep dive — track min, max, median and mode over a continuous stream, rework it for a sliding window, then cut latency with caching, batching and approximation. For trading variants it is live market-making and investment games with traders plus fit conversation. Decision timing is inconsistent: one candidate was told roughly a week and was still waiting four weeks later.
+Some sittings are sectioned instead: an abstract telephony base class with a custom exception, a minimum-operations search, and how SQL compares the string '0' with the integer 0. One developer-strategist assessment was a full order matching engine with price-time priority, limit and market orders, and cancels.
 
-## What They Actually Evaluate
+Interviewers evaluate:
 
-### Coding and Algorithm
+- **Reading precision:** Tie-breaks, strict inequalities and lexicographic rules decide hidden tests more often than the algorithm does.
+- **Pattern recognition:** Sort-then-two-pointer, cycle counting, BFS with a two-key sort, sliding windows.
+- **Complexity under hidden tests:** A quadratic pair count or naive transformation fails the large cases.
 
-Two to four coded problems per live round at medium difficulty, with the bar set on recognizing the governing structure fast rather than grinding out optimality. The same families recur across assessments and screens: cycle decomposition, prefix sums, BFS plus a two-key sort, sliding windows, two pointers. Signal comes from naming the insight before coding and giving exact complexity; the failure mode is a correct brute force delivered without acknowledging the linear alternative.
+Drill medium array, graph and string problems against the clock, and dry-run each tie-break before submitting.
 
-- [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order)
-- [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
-- [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips)
+### Sample questions for the online coding assessment
+
+Here are some questions reported by recent candidates:
+
+- Given profit and cost arrays of equal length, count index pairs whose combined net profit is strictly positive.
+- Return the order in which to deliver to every city in a road graph, by distance from the factory, with smaller city numbers first on ties.
+- Find the shortest substring containing all required characters, returning the lexicographically smallest on ties.
+- Turn A into B using only subtract-one and multiply-by-two in the fewest steps.
+
+- [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95)
+- [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f)
+- [K Smallest Substring](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c)
+- [Minimal Operations](../../questions/algorithm/minimal-operations/README.md)
 - [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps)
 
-### Low-Level Design
+## Math and trading assessments
 
-The competency that decides offers here. Design questions are never abstract architecture — they are a component you implement and then defend under resource constraints: an order book with separate structures per side, a best-bid tracker using a heap plus lazy deletion, streaming statistics with bounded memory, an object pool with correct ownership. Interviewers go straight to second-order questions: estimate the footprint for integers in a fixed range on a machine with 1 GB of RAM, keep a running sum from overflowing, say what changes when cancellations are rare versus constant. "It depends" without a number loses the round.
+Trader postings get a battery of short, separately timed tests. One intern reported three: 80 mental-math and sequence questions in 8 minutes; 30 probability questions in 12 minutes, each requiring the event probability and then the stake that wins exactly $1,000; and a market-making simulation of about 24 questions over roughly 45 minutes, quoting letter-coded options from bid and ask prices. A junior trader received an unscheduled version with 17 break-even wager scenarios (cards, marbles, dice, February 2025 weekdays, primes up to 20) and 33 next-term sequences ranging from simple geometric series to interleaved fractions and look-and-say.
 
-- [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
-- [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
-- [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode)
-- [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging)
+Research and developer-strategist postings get mathematics with explanation. One research candidate recorded a video answer for each problem under a strict five-minute limit: a grid-infection teaser, the chain rule, the Leibniz integral rule, a Markov chain, Newton's method convergence and extending a set of orthogonal vectors. A developer-strategist's math assessment required step-by-step written reasoning, not just answers.
 
-### Domain Deep Dive
+Interviewers evaluate:
 
-Quantitative judgment is tested on every variant, not only trading. Reported phone screens open with scenarios and grade structure rather than answers: allocating one million dollars over three days versus three years, an optimal-stopping game on a 100-sided die where each reroll costs one dollar, and making a market on an instrument trading in both Sydney and Chicago with an overnight inventory handoff. Interviewers say explicitly that no memorized formulas are wanted; they push boundary cases instead — what happens as the stopping threshold approaches the maximum face, what your quotes do while one venue sleeps. Silence while you compute scores worse than a narrated wrong turn.
+- **Speed with accuracy:** Throughput counts, but wrong answers under the clock cost as much as skipped ones.
+- **Probability-to-odds fluency:** Converting a probability into a break-even stake without hesitating.
+- **Working memory:** The simulation later asks for letter-price pairs shown earlier.
+- **Explained derivations:** In the recorded test, the spoken method is part of the grade.
+
+Practice both short-clock formats and rehearse deriving aloud on camera.
+
+> **Note:** The market-making simulation is also a memory test, with no warning. Candidates who did not note each letter-price mapping as it appeared could not answer the recall questions later.
+
+### Sample questions for the math and trading assessments
+
+Here are some questions reported by recent candidates:
+
+- For a card drawn from a standard deck, find the stake that makes a bet paying $1,000 plus the stake back on a face card exactly fair.
+- Give the next term of 2, 7, 20, 55, 152, 427.
+- Find the fewest initially infected cells that eventually infect a whole square grid when a cell becomes infected with two infected neighbors.
+- State when Newton's method converges and how fast, within five minutes on camera.
 
 - [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences)
+- [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning)
+
+## Technical phone screen
+
+Developer-strategist and research candidates sit a 45- to 60-minute screen with an engineer, usually starting a problem within minutes and packing two to four in. Expect to code in a shared editor and state time and space complexity for each. Reported sets include minimum swaps to sort descending, BFS followed by a sort keyed on the traversal, choosing one of two dates per update to minimize distinct release days, and the cost of moving every 1 in a binary string to the end.
+
+Trading utilities recur: round a price to the nearest valid tick between bounds, throttle logs to N per W seconds with a timestamp queue then in constant memory, and track the highest live bid across an insert-and-cancel stream. Follow-ups add constraints rather than new problems: one min-mod-and-max question extended to the last k elements of a stream.
+
+Interviewers evaluate:
+
+- **Naming the insight first:** Cycles for swaps, prefix sums for ranges, before any code.
+- **Trade-off narration:** Queue versus token bucket, eager versus lazy deletion, and when each wins.
+- **Adapting to a mutation:** Extending a working solution to a window or a memory cap without restarting.
+
+Build a tick rounder, a sliding-window rate limiter and a best-bid tracker from scratch, then rehearse each follow-up aloud.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Round a price to the nearest tick given lower and upper bounds and a tick width, handling halfway and out-of-range prices.
+- Emit at most N log messages in any W-second window, then cut the state to two variables.
+- Maintain the highest active bid as bids and cancellations stream in, and say what changes if cancels are rare.
+
+- [Round Price to Nearest Valid Tick](../../questions/algorithm/round-price-to-nearest-tick/README.md)
+- [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter)
+- [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
+- [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
+- [Minimum Days to Release Updates](https://trueinterview.io/questions/minimum-days-to-release-updates)
+
+## Trading and math interview
+
+Trader candidates get a fast, friendly, purely scenario round with no resume walkthrough. One junior trader faced four problems: invest one million dollars over three days, the same over three years, a 100-sided die with paid rerolls at a dollar each, and making a market in an instrument that trades in both Sydney and Chicago. Interviewers pushed boundaries: thresholds near 100, how the reroll cost moves the policy, and what to do about a sharp move in Chicago while Sydney sleeps.
+
+Research candidates get mathematics instead: properties of an orthogonal matrix, the chain rule and Newton's method, the expected steps for an ant to cross a cube, and the grid-infection teaser. Interviewers probe intuition, not recall.
+
+Interviewers evaluate:
+
+- **Structure under uncertainty:** Breaking an open question into mandate, horizon and risk before answering.
+- **Expected-value setup:** Defining a stopping threshold and solving the indifference equation cleanly.
+- **Market-making judgment:** Spreads, inventory risk overnight and quote adjustments around opens and closes.
+- **State reduction:** Grouping cube vertices by distance instead of tracking all eight.
+
+Practice optimal-stopping and market-making scenarios out loud, narrating every assumption.
+
+> **Tip:** No formulas were expected from memory. Candidates reported that silence while computing scored worse than a narrated estimate, so state the setup before the arithmetic.
+
+### Sample questions for the trading and math interview
+
+Here are some questions reported by recent candidates:
+
+- Roll a 100-sided die and pay $1 per reroll as often as you like; what would you pay to play, and when do you stop?
+- Quote an instrument listed in Sydney and Chicago and explain how inventory and spreads change when one venue is closed.
+- An ant walks randomly on a cube's vertices; find the expected steps to reach the opposite corner.
+
 - [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games)
+- [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences)
+
+## Behavioral interview
+
+The behavioral round sits late and is easy to underestimate. A developer-strategist candidate described an entirely behavioral conversation on motivation for Akuna, what the candidate knew about its options market-making business, and specific moments of receiving positive and critical feedback, then was rejected after the virtual final. Trader candidates in the options-course pipeline move to a behavioral interview only if they perform well in the course.
+
+Interviewers evaluate:
+
+- **Firm-specific motivation:** Why options market making and why Akuna rather than a peer firm.
+- **Self-awareness:** What changed after critical feedback, with evidence.
+
+Prepare three concise stories about feedback, a mistake and a decision under pressure, plus a researched answer on the business.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Why Akuna, and what do you know about how the firm makes money?
+- Tell me about a time you received critical feedback and what you changed.
+
+## Final round
+
+Finals are back-to-back sessions, virtual or on site. For developer-strategist candidates the centerpiece is a data-stream design: track minimum, maximum, median and mode over all numbers seen, then only the last k, then reduce latency with caching, batching or an approximate median. Related reported prompts include estimating memory for integers between 1 and 1001 on a machine with 1 GB, guarding a running sum against overflow, and a pair-coding session building a fixed-size, thread-safe ring buffer. For trader candidates the final is live market-making and investment games with traders.
+
+Interviewers evaluate:
+
+- **Design under a changing spec:** Reworking structures when the window arrives, not patching them.
+- **Quantified resources:** A concrete footprint and latency figure for each structure.
+- **Correctness details:** Duplicates, evictions, full-versus-empty buffer states and locking.
+- **Discussion quality:** Comparing two heaps with an order-statistic tree aloud.
+
+Build streaming statistics with a sliding window, a ring buffer and an order book end to end, then practice defending their memory use with numbers.
+
+> **Note:** Finishing is not the bar. A candidate who never completed sliding-window mode but reasoned through supporting structures passed, while another with optimal complexity on every operation was rejected.
+
+### Sample questions for the final round
+
+Here are some questions reported by recent candidates:
+
+- Track min, max, median and mode of a stream, then restrict to the last k values and cut latency.
+- Implement a fixed-size thread-safe ring buffer and say how you detect full versus empty.
+- Build a matching engine with price-time priority, limit and market orders, and cancels.
+
+- [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode)
+- [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
 - [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system)
-- [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer)
 
-## What They Don't Test
+## How Akuna Capital levels and evaluates Quantitative Finance candidates
 
-- **Algorithmic exotica.** No reported round needed advanced graph theory or heavy dynamic programming; depth goes into memory, latency and correctness under mutation instead.
-- **Distributed architecture.** Nobody was asked to scale a service across regions. Design questions stay inside one process, where allocation and cache behavior matter.
-- **Finance credentials.** No derivatives coursework questions and no expectation of trading experience; what is rewarded is reasoning about uncertainty from first principles, out loud.
-- **Framework knowledge.** The C++ rounds test lifetimes, ownership and compiler errors, not library trivia; the Python rounds test data-structure choice and footprint.
-- **Résumé narrative.** Multiple screens skipped the walkthrough and started with a problem. Fit is graded in one dedicated round, not across the loop.
+Every stage is a cut, and the decision weighs all of them; a weak single round, including behavioral, can end a candidacy. Postings are junior intakes with fixed start dates, so level is set by the posting, not by the loop. Junior traders are hired into a training class in Chicago and rotate across desks before placement. Timing is uneven: one candidate was told a decision would come within a week and was still waiting four weeks later.
 
-## The Real Filter
+## How to prepare for the Akuna Capital Quantitative Finance interview
 
-The primary rejection path is silent correctness. This track grades commentary, and the reports contain the direct pair: an optimal-complexity streaming-statistics solution rejected, against an unfinished one that converted to an offer because the candidate priced the memory, flagged overflow in the running sum, and compared two heaps against an order-statistic tree out loud. Candidates misjudge it because the questions look like assessment problems with a right answer, so they optimize for finishing. The round is a design conversation wearing a coding problem's clothes, and finishing early with no trade-off discussion reads as no signal.
+1. **Drill the short-clock formats:** 80 arithmetic and sequence items in 8 minutes and 30 probability-to-stake items in 12 minutes.
+2. **Make break-even stakes automatic:** Convert any probability into the fair wager for a $1,000 payout without writing.
+3. **Derive on camera:** For research postings, solve calculus, linear algebra and Markov problems aloud in five minutes each.
+4. **Build trading utilities from scratch:** Tick rounding, a constant-memory rate limiter, a lazy-deletion bid tracker and a matching engine.
+5. **Rehearse the mutation:** Extend every stream solution to a sliding window and price its memory in bytes.
+6. **Narrate scenario answers:** Define the stopping rule or quoting logic before computing anything.
+7. **Prepare the behavioral round seriously:** Know the options market-making business and bring real feedback stories.
 
-The second pattern is the assessment funnel. The batteries are automated, arrive unscheduled, and cut hard before any human is involved — 80 arithmetic items in 8 minutes, 30 probability-to-stake conversions in 12, a market-making simulation that quietly turns into a memory test. Candidates who treat automated stages as warm-ups never reach the interviews they prepared for.
+## About the Akuna Capital Quantitative Finance role
 
-The third is the behavioral round. It sits late, so candidates arrive expecting a scheduling call, and reports describe a substantive interview on motivation, firm-specific knowledge and response to critical feedback that can end the process on its own.
+Akuna Capital is a Chicago-founded options market maker that quotes two-sided prices across listed derivatives. Its quant group is split into quantitative traders, researchers and developers, working directly with trading and development teams on data analysis, models and strategies. Junior traders train on options theory, the Greeks and an in-house options simulator before rotating across desks.
 
-## Data Source
+Akuna Capital hires Quantitative Finance candidates across several tracks. Teams include:
 
-Based on 17 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2.
+- **Options market making:** Traders quoting and managing risk on listed options.
+- **Quantitative research:** Statistical and machine-learning strategies, portfolio optimization and market-behavior models, including a prediction-markets team.
+- **Quantitative development and strategy:** Python-heavy tooling that turns research into production signals.
+- **Other trading desks:** Delta one, index products, relative value and commodities.
 
-## FAQ
+### Quantitative Finance experience and education requirements
 
-**What is the work like on this track?**
+Postings ask for a bachelor's, master's or PhD in a technical field such as mathematics, statistics, physics, engineering or computer science, completed before the start date. Developer-strategist roles require strong Python; some research postings screen for a GPA of 3.5 or higher. Junior trader roles state that no finance or trading experience is needed.
 
-Our reports cover the hiring loop rather than the job, so treat this as context. The firm is an options market maker whose technology teams build low-latency trading systems in C++ and research tooling in Python; the developer-strategist variants sit deliberately between the two, which is what the interview content reflects. Engineers work directly alongside traders and researchers rather than behind a ticket queue.
+## FAQs about the Akuna Capital Quantitative Finance interview
 
-**What is the engineering culture like?**
+### How long does the Akuna Capital Quantitative Finance interview process take?
 
-Described externally as flat and collaborative, best-idea-wins, with unusual freedom to pick up projects and a bias toward keeping the stack current. The counterweight in public employee accounts is turnover and low tolerance for mistakes. The loop mirrors that: it prefers people who narrate their reasoning and revise it in the open.
+Typically a few weeks to two months. Assessment stages can be a month apart, and post-interview silences of several weeks have been reported even after positive feedback in the room.
 
-**How hard is it to get in?**
+### What is the hardest round of the Akuna Capital Quantitative Finance interview?
 
-Hard, but front-loaded. Public difficulty ratings sit mid-to-high rather than at the extreme end, yet the reported attrition happens in the automated stages, not the interviews. Public timelines range from a few weeks to about two months.
+For trader postings, the assessment battery, because the clocks are short and the memory component is unannounced. For research postings, the five-minute recorded math. For developer-strategist postings, the sliding-window streaming-statistics final.
 
-**Which round is hardest?**
+### Do you need options knowledge?
 
-For developer and strategist variants, the streaming-statistics deep dive — exact mode under window evictions is the wall, and clearing it only escalates the round into latency and approximation. For trading variants, the market-making simulation, because the memory-recall twist arrives with no warning and a letter-price mapping you did not record cannot be recovered.
+Not for the early scenario rounds, which candidates solved from first principles. Trader pipelines do include an options course round, so learning payoffs, volatility and the Greeks beforehand helps.
+
+### How much does an Akuna Capital Quantitative Finance hire make?
+
+Chicago postings for Junior Trader and Junior Quantitative Researcher list a minimum base salary of $145,000. Packages add a discretionary performance bonus, which can be substantial.
 
 ---
 

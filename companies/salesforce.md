@@ -61,17 +61,17 @@ Which stage each question came from, for the **88 of 88** questions at Salesforc
 
 ## What they ask about
 
-Of the **70 questions at Salesforce that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **67 questions at Salesforce that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `arrays` | 13 | 19% | ████████████ | Jun 22, 2026 |
-| `greedy` | 12 | 17% | ███████████ | Apr 05, 2026 |
+| `greedy` | 11 | 16% | ██████████ | Apr 05, 2026 |
 | `strings` | 11 | 16% | ██████████ | Aug 24, 2026 |
 | `dynamic-programming` | 9 | 13% | ████████ | Jul 25, 2026 |
-| `graphs` | 8 | 11% | ███████ | Aug 24, 2026 |
-| `two-pointers` | 8 | 11% | ███████ | Aug 16, 2026 |
-| `hashing` | 6 | 9% | ██████ | Aug 31, 2026 |
+| `two-pointers` | 8 | 12% | ███████ | Aug 16, 2026 |
+| `graphs` | 7 | 10% | ██████ | Aug 24, 2026 |
+| `hashing` | 5 | 7% | █████ | Mar 19, 2026 |
 | `math` | 5 | 7% | █████ | — |
 | `trees` | 5 | 7% | █████ | Aug 16, 2026 |
 | `backtracking` | 4 | 6% | ████ | Aug 16, 2026 |
@@ -128,7 +128,7 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | :-- | :-- | :-- |
 | Software | [Salesforce Software Engineer (GCP Team) Interview Experience (San Francisco)](https://trueinterview.io/interviews/044cf02a-8ec0-4c03-af09-3847e3713990) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Salesforce and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Salesforce and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

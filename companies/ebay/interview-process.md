@@ -6,72 +6,250 @@
 
 ---
 
-eBay does not run one standard loop — the shape of your interview is decided by the team that opened the requisition, and candidates who prepared for the format their recruiter described have arrived to find something else entirely. This deep-dive covers what each round actually contains, how it is graded, and where offers are lost, drawing on 8 real eBay questions and 12 candidate interview reports.
+eBay's loop is set by the hiring team, so the same title can mean a two-problem algorithm screen, an object-oriented design exercise, or a code-review conversation, and the recruiter's preview, even of the required language, is often wrong. Code is held to a literal bug-free standard, and a strong design discussion does not offset slow or buggy code. Recent senior loops added AI-assisted code review rounds.
 
-## Interview Process
+This guide breaks down each stage of the eBay interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 11 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## eBay interview process
 
 <!-- guide-diagram -->
 ![eBay interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/ebay/process.webp)
 <!-- guide-diagram -->
 
-### Recruiter contact and online assessment
+The process usually takes about a month. Early-career and cold applicants usually start with a timed online assessment, while experienced candidates go straight to one or two phone screens. Final loops run about four rounds, or up to six stages counting the phone rounds.
 
-Sourcing matters more here than at most companies: one candidate reported that internal referrals and direct applications went nowhere while contact through an external recruiter opened the process. After the recruiter call, many candidates — especially new-grad and cold-pipeline applicants — take a timed online assessment. Reported assessments carry four coding tasks in one sitting, mixing easy warm-ups with one genuinely fiddly simulation: counting uppercase and lowercase letters, rearranging numbers by comparison against two reference groups, simulating a balloon explosion on an n x n grid with fragments falling under gravity, and applying a sequence of operations to a binary array to produce a string. Assessments typically run about an hour and are graded on hidden tests, so output format and off-by-one behavior in the grid simulation matter as much as the idea. Some teams instead issue a codebase-style assessment where you implement interfaces and classes until each level's tests pass.
+New-grad and SE-level loops are almost all algorithms. MTS 1 and MTS 2 loops add system design, a hiring-manager round and, in some 2026 loops, AI-assisted code review. One reported senior onsite was system design, two coding rounds and a managerial discussion.
 
-### Technical phone screens
+Here's what the interview process can look like:
 
-Phone screens are where eBay's variance shows most. The common case is a 45-60 minute live coding session in a shared editor with **two problems back-to-back** rather than one deep problem — Two Sum followed by Sliding Window Maximum in one report, K smallest elements across multiple sorted arrays followed by a single-pass binary search on a rotated array in another. Interviewers ask for the brute-force baseline first, then the optimization, then a dry run and a complexity statement. Follow-ups mutate the original constraint instead of introducing a new problem: after a balanced-subarray solution, one interviewer allowed a single element to be modified before the equality requirement applied; after a subtree-counting solution, added a complete-binary-tree condition.
+- **Recruiter screen:** A short call on background, level and location, and the only chance to pin down the language and round types.
+- **Online assessment (early career):** Four timed coding tasks ending in a grid simulation.
+- **Technical phone screen (one or two):** 45–60 minutes, usually two algorithm problems back to back, though some teams substitute design or infrastructure questions.
+- **Hiring manager and behavioral interview:** Influence, scope and technical-depth stories, sometimes as a separate phone screen.
+- **Coding interviews:** One or two onsite rounds at the screen's bar, often ending in a scalability discussion.
+- **System design interview (MTS and above):** Prompts drawn from eBay's own operations, such as payment disputes and database migrations.
+- **AI-assisted code review (some recent loops):** Critique supplied code for extensibility gaps and wrong data types.
 
-But the screen is not always an algorithm round. Reported variants include an object-oriented design task implemented live (a bitmap block class with allocation, free-bit lookup, and hole counting, plus a main function proving it works); a screen that moved from Redis internals to the MySQL storage engine, then Docker versus Kubernetes and Docker versus a virtual machine, then a single hidden bug planted in a long code listing, then a regex for US phone numbers; a screen conducted entirely in JavaScript or TypeScript, with the language requirement communicated only at the start; and a screen that was a code review, where the interviewer supplied code and asked what design-pattern weaknesses and unsuitable data type choices it contained. Some teams use editors where code cannot be executed, which puts the whole weight on reading your own code correctly.
+> **Tip:** Ask the recruiter in writing for the language, the editor and whether code can be run. Two reported failures began with a surprise in the first minute: a TypeScript-only requirement, and a promised new format that turned out to be a classic algorithm problem.
 
-### Hiring manager and behavioral rounds
+## Online assessment
 
-A behavioral round often sits early rather than at the end, sometimes as a standalone phone screen with the hiring manager. The questions run to influence and scope — a time you swayed a significant decision, a project with real organizational impact, the most technically complex thing you have shipped — and the follow-ups press on why you chose what you chose and what you would change. In a manager round, a discussion topic drawn from the team's own domain, such as a recommendation system, can replace generic questions entirely.
+The assessment is four auto-graded tasks, typically on CodeSignal and typically 70–90 minutes. A December 2025 sitting had two easy warm-ups, a rearrangement task, and one long simulation. The tasks were counting uppercase and lowercase letters, rearranging numbers against two reference groups, bursting balloons on an n x n grid with fragments falling under gravity, and applying operations to a binary array to build a string.
 
-### Onsite loop
+Interviewers evaluate:
 
-Reported onsites run around four rounds for a full finalist loop and up to six when phone stages are counted, weighted toward coding: one reported senior loop was system design, then two separate coding rounds, then a managerial discussion. Another ran six stages across phone and onsite: behavioral and projects, an AI-assisted code review, system design, a coding round, a second behavioral, and a second AI-assisted review. What appears in the loop:
+- **Throughput:** Clearing the warm-ups in minutes leaves time for the simulation.
+- **Simulation order:** Applying the explosion and the settling phase in the right sequence without double-counting cells.
+- **Edge cases:** Empty inputs, single-row grids, and operations that change nothing.
+- **Indexing:** Hidden tests catch off-by-one errors in grid traversal.
 
-- **Coding.** One or two rounds at the same bar as the screen. Reported problems include course-schedule dependency ordering, implementing a trie, an LRU cache, validating whether a string is a legal integer, decimal, or exponent-form number, and wildcard pattern matching over a dictionary where one symbol matches exactly one character and another matches one or more. Onsite coding frequently ends in a scalability discussion of the same problem.
-- **System design.** Prompts stay close to eBay's own operations: a customer dispute payment system, and a migration of a production service from a relational database to DynamoDB together with the monitoring indicators that would prove it safe. Expect the round to weigh on level calibration, with pressure on data modeling, consistency, and failure behavior rather than a diagram.
-- **API and design-through-code.** One reported screen coded a function assigning ads to browser slots without duplicates and under per-ad limits, mutating per-user state, then turned directly into an API design conversation: persistence, error handling, schema, REST versus the alternatives, which HTTP method fits, and how the URL should read.
-- **AI-assisted review.** Recent loops have included rounds where you critique supplied code for extensibility gaps and wrong data type choices, and one candidate met this format twice in the same process.
+Practice four-question timed sets that end in a multi-step grid simulation.
 
-### Decision
+### Sample questions for the online assessment
 
-Outcomes here are not purely performance-driven. Reports include a recruiter going silent after every round was completed, and a rejection where the stated reason was that the coding round was not bug-free at the target level — with the added detail that the position had been filled before a final decision was reached. End to end, the process typically takes several weeks, and senior loops with level calibration run longer.
+Here are some questions reported by recent candidates:
 
-## What Candidates Report
-
-- Bug-free is the literal standard, not a figure of speech. A rejection at senior level was attributed directly to code that did not run clean, and rounds are sometimes conducted in editors where you cannot execute anything to find out.
-- The advertised format is not reliable. One candidate was told to expect a new interview format and got a conventional algorithm problem; another discovered mid-call that the round had to be done in TypeScript. Confirming language, tooling, and round type with the recruiter is worth doing explicitly.
-- Two problems in one 45-60 minute slot is common, so pacing decides outcomes. Candidates who stated the brute force in a sentence and moved on kept enough clock for the second problem and the follow-up mutation.
-- The loop tests more than algorithms. Storage engine internals, container versus virtual machine trade-offs, regex, isolating a single defect in unfamiliar code, and refactoring a working solution into idiomatic, production-shaped code all appear inside rounds labeled technical screen.
-- Strength in one dimension does not offset weakness in another. One candidate handled the API design portion well and was still rejected because the coding half was slow.
-- The tail of the process is unpredictable: silence after complete loops, roles closing mid-decision, and referrals that produce nothing while an outside recruiter gets traction.
-
-## Coding Questions
-
-eBay coding rounds pair a recognizable algorithm with an implementation detail that punishes carelessness — a movement rule with an extra blocking condition, a grid simulation with a settling phase, a parser with a long tail of legal forms. Practice writing these clean on the first pass, because you may not get to run them, and expect the interviewer to change one constraint the moment you finish.
+- Count uppercase and lowercase letters across a list and report the difference.
+- Burst balloons on an n x n grid, let fragments fall under gravity, and return the final board.
+- Apply count and flip operations to a binary array and output the resulting string.
 
 - [Count Difference in Uppercase and Lowercase Letters](https://trueinterview.io/questions/012dd142-0e9b-4871-95f8-a216182794b4)
-- [Find the K Smallest Elements from Multiple Sorted Arrays](https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4)
-- [Maximum Length Balanced Subarray (Equal Sum Halves)](https://trueinterview.io/questions/f588f532-09ac-4651-97ca-e680fb0b1c3b)
-- [Chinese Chess Horse Reachability with Blocked Legs](https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b)
-- [Pattern Matching with Question Mark and Dot Wildcards](https://trueinterview.io/questions/d680cb59-9cef-5307-9b68-cd74bc912b09)
-- [Valid Number](https://trueinterview.io/questions/lc-valid-number)
 - [Balloon Explosion](https://trueinterview.io/questions/bec1bae5-6bc3-4a83-8430-077c684da76c)
-- [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads)
+- [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations)
 
-## How to Prepare
+## Technical phone screen
 
-- Ask the recruiter, in writing, which language, editor, and round type you will face. Two of the reported failures trace back to a surprise at the start of the call, not to the problem itself.
-- Rehearse under a no-execution rule: write a medium problem end to end without running it, then hand-trace one example. That is the exact condition several eBay rounds impose.
-- Budget each 45-minute slot for two problems. State the brute force in one sentence, implement the optimal version, and leave a few minutes for the constraint change that usually follows.
-- Drill grid and rule simulations, not just clean textbook algorithms — falling fragments, blocked movement legs, multi-form number validation. These are where bug-free breaks down under time pressure.
-- Prepare to defend a working solution as production code: idiomatic standard-library usage, extensibility, and correct type choices, since separate rounds exist purely to critique code on those grounds.
-- Refresh the infrastructure layer you actually use — in-memory store internals, relational storage engines, containers versus virtual machines — because these come up conversationally inside coding screens.
-- Have one design story ready in eBay's own terms: a payments or dispute flow, or a live migration of a relational store to a managed key-value database with the monitoring that proves it is safe.
+This is the stage with the most variance. The common version is a 45–60 minute shared-editor call with two problems: Two Sum then Sliding Window Maximum, or K smallest elements across sorted arrays then a single-pass rotated-array search. Interviewers want the brute force, the optimal solution, a dry run and the complexity. Follow-ups change one constraint. A balanced-subarray answer was followed by allowing one element to be modified, and a subtree count by adding a completeness requirement.
+
+Other teams use the slot differently. One screen was an object-oriented bitmap block class (allocate a range, find a free bit, count holes) with a working main function. Another covered Redis and MySQL internals, Docker versus Kubernetes and versus virtual machines, finding one bug in a long listing, and a phone-number regex. A third had the candidate code ad-to-slot assignment in TypeScript and then design its API. A senior screen on top-K frequency turned into a review of the candidate's Java streams and map usage.
+
+Interviewers evaluate:
+
+- **Pacing:** Finishing both problems and the follow-up within the hour.
+- **Bug-free code:** One candidate was rejected on a chess-horse problem whose leg-blocking rule had to be right for all eight jumps.
+- **Production quality:** Idiomatic standard-library use and willingness to refactor a correct answer.
+- **Balance:** One candidate did the API design well but was still rejected for slow coding in a rusty language.
+
+Rehearse two mediums in 45 minutes without running code, hand-tracing one input each.
+
+> **Note:** Some screens use editors that cannot run code. With a bug-free bar, reading your own code line by line is part of the job.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Find the longest even-length subarray whose halves have equal sums, then allow one element to change first.
+- Find where a Chinese-chess horse can move on a board with obstacles when a blocked adjacent square cancels the jump.
+- Assign ads to browser positions with no duplicates and per-ad caps, update per-user state, then design the REST API.
+- Write a regex matching US phone numbers in the form 123-456-7890.
+
+- [Maximum Length Balanced Subarray (Equal Sum Halves)](https://trueinterview.io/questions/f588f532-09ac-4651-97ca-e680fb0b1c3b)
+- [Find the K Smallest Elements from Multiple Sorted Arrays](https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4)
+- [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array)
+- [Chinese Chess Horse Reachability with Blocked Legs](https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b)
+- [Assign Random Ads](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1)
+- [Validate US Phone Numbers with Regular Expression](https://trueinterview.io/questions/1714f199-0812-421e-8e1a-edb4b9379eb8)
+- [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator)
+
+## Hiring manager and behavioral interview
+
+This round often comes early, sometimes as a hiring-manager phone screen, and some MTS loops add a second behavioral hour onsite. Questions cover influence and scope: changing a major decision, a project with organization-level impact, and the most complex system you have shipped. The manager presses on why you made each choice and what you would change. In one MTS 1 loop, the round was a discussion of the team's own recommendation system.
+
+Interviewers evaluate:
+
+- **Influence:** Named objections and how you resolved them, not just "I proposed and we agreed."
+- **Scope for the level:** Cross-team impact for MTS 2, one-service ownership for MTS 1.
+- **Depth:** Going two or three levels into the hardest project, including rejected options.
+- **Domain fluency:** Discussing the team's problem space, such as recommendations, search or payments.
+
+Prepare four or five quantified stories, each with what you would do differently.
+
+### Sample questions for the hiring manager and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you influenced a big decision.
+- Describe your most technically complex project and why you made its key choices.
+
+- [Answer senior behavioral questions](https://trueinterview.io/questions/answer-senior-behavioral-questions)
+- [Describe Your Most Technically Difficult Project](https://trueinterview.io/questions/describe-your-most-technically-difficult-project)
+
+## Coding interviews
+
+Onsite coding is one or two hour-long rounds, sometimes with two problems each. Reported problems include course-schedule ordering, implementing a trie, an LRU cache, and validating integer, decimal and scientific-notation strings. Another was dictionary pattern matching, where one wildcard matches exactly one character and another matches one or more.
+
+Interviewers evaluate:
+
+- **First-pass correctness:** One MTS candidate was rejected because the number validator was not bug-free.
+- **Structure choice:** A trie for prefix and pattern lookups, a hash map plus linked list for the cache.
+- **Edge cases:** Signs, dots and e-notation markers in parsers, and cycles in dependency graphs.
+- **Scaling:** Memory and latency once inputs outgrow one process.
+
+Drill parsers with many legal forms until you can write them clean without running them.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Decide whether courses can be completed given prerequisites, then implement a trie in the same round.
+- Validate whether a string is an integer, a decimal or a scientific-notation number.
+- Return dictionary words matching a two-wildcard pattern, then discuss scaling.
+
+- [Course Schedule Cycle Detection](https://trueinterview.io/questions/course-schedule-cycle-detection)
+- [Solve Dependency, Prefix, and Cache Problems](https://trueinterview.io/questions/solve-dependency-prefix-and-cache-problems)
+- [Valid Number](https://trueinterview.io/questions/lc-valid-number)
+- [Find Pattern Matching Words](https://trueinterview.io/questions/d680cb59-9cef-5307-9b68-cd74bc912b09)
+
+## System design interview
+
+Experienced candidates get one design round grounded in eBay's operations. Reported prompts include a customer dispute payment system and a migration of a live service from a relational database to DynamoDB. The migration round asked which indicators to monitor and followed with DevOps questions on rollout. API design (persistence, errors, schema, REST versus alternatives, HTTP methods, URL structure) can also appear inside a coding screen.
+
+Interviewers evaluate:
+
+- **Data modeling:** The states a dispute or listing moves through, and where the source of truth sits.
+- **Money correctness:** Idempotency, double-write windows and reconciliation.
+- **Migration safety:** Backfill, dual writes, read verification, cutover and rollback.
+- **Operations:** Deployment, monitoring and alerting, not just a box diagram.
+
+Prepare one payments design and one live-migration design end to end.
+
+> **Tip:** In the migration prompt, monitoring and rollback weighed as much as the architecture. Name the signals, such as row-count drift, read-mismatch rate and replication lag, and the threshold that triggers a rollback.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a system that handles customer payment disputes from filing to resolution.
+- Design a relational-to-DynamoDB migration and list the indicators you would monitor.
+
+- [Design a Relational-to-DynamoDB Migration System](https://trueinterview.io/questions/design-a-relational-to-dynamodb-migration-system)
+- [Design an Ad Assignment API](https://trueinterview.io/questions/design-an-ad-assignment-api)
+- [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2)
+- [Design a Shopping Search Bar with Autocomplete](https://trueinterview.io/questions/design-a-shopping-search-bar-with-autocomplete)
+
+## AI-assisted code review
+
+This round appeared in a 2026 MTS loop, once as a phone screen and again onsite. The interviewer presents existing code and asks what is wrong with its design rather than whether it runs: missing extension points, misapplied patterns and unsuitable data types.
+
+Interviewers evaluate:
+
+- **Design smells:** Branching that should be polymorphic, and classes that cannot be extended without editing.
+- **Type choices:** Floats for money, strings for enums, lists where a map fits.
+- **Prioritization:** Leading with defects and blockers to change, not style nits.
+- **Concrete fixes:** Naming the refactor and its trade-off.
+
+Practice reviewing unfamiliar classes out loud and ranking what you would fix first.
+
+### Sample questions for the AI-assisted code review
+
+Here are some questions reported by recent candidates:
+
+- Identify design-pattern weaknesses that limit the extensibility of a provided module.
+- Point out unsuitable data types in supplied code and propose replacements.
+
+## How eBay makes hiring decisions
+
+The hiring team decides after reviewing all rounds, and in the reports one weak round was not offset by strong ones. Code is judged against the target level, which is often open between MTS 1 and MTS 2 and settled by design and behavioral scope. Outcomes are not purely about performance: one role was filled before a decision, and another candidate heard nothing after finishing every round.
+
+> **Note:** Silence after a full loop is common. Follow up once or twice, then keep other processes moving.
+
+## How to prepare for the eBay interview
+
+1. **Confirm the format in writing:** Language, editor, whether code runs, and round types. Keep TypeScript warm in case a team requires it.
+2. **Code without a run button:** Write mediums end to end and hand-trace one input, because the bar is bug-free.
+3. **Budget for two problems:** One sentence of brute force, then the optimal solution, with five minutes left for the follow-up.
+4. **Drill rule-heavy simulations:** Grid gravity, blocked chess moves and number parsers are where correctness slips.
+5. **Refresh infrastructure basics:** Redis, MySQL storage engines, and containers versus virtual machines.
+6. **Prepare two marketplace designs:** A payment-dispute flow and a relational-to-DynamoDB migration, each with monitoring and rollback.
+7. **Rehearse code review:** Critique unfamiliar code for extensibility and types, and refactor your own answers into idiomatic code.
+
+## About working at eBay
+
+eBay engineers work on long-lived commerce systems (search, listings, payments, trust and ads), mostly in Java, with Scala and JavaScript in places. Since 2025 the company has shipped agent-based experiences, including an AI listing tool that builds a listing from photos and is the default for new US mobile sellers. Most engineering roles are hybrid, with in-office expectations set by team.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| SE 1 / SE 2 | Well-defined features with guidance | Tasks within one team |
+| SE 3 | Features and small services independently | A team's components |
+| MTS 1 | Owning services end to end, leading projects | A team's systems |
+| MTS 2 | Technical leadership across services | Several teams |
+| Senior MTS / Principal MTS | Architecture and technical direction | A domain or organization |
+
+eBay hires software engineers across its marketplace. Teams include:
+
+- **Search:** Query understanding, ranking and low-latency retrieval.
+- **Payments and fintech:** Managed payments, disputes and payouts.
+- **Trust and risk:** Fraud detection on large data pipelines and ML models.
+- **Seller experience:** Listing creation, pricing guidance and the AI listing agent.
+- **Advertising:** Promoted listings and ad placement.
+
+### Experience and education requirements
+
+Postings ask for a computer science degree or equivalent experience. MTS roles expect several years of backend work on large-scale, low-latency systems. Java is the most common requirement, with Scala, Python and TypeScript depending on the team, and distributed systems and cloud experience are preferred.
+
+## FAQs about the eBay interview
+
+### How long does the eBay interview process take?
+
+Usually about a month; senior loops calibrating between MTS 1 and MTS 2 can run longer.
+
+### What is the hardest round of the eBay interview?
+
+Most rejections in the reports came from coding, not design: a chess-horse problem, a number validator, and slow work in an unfamiliar language. The bug-free bar makes routine mediums unforgiving.
+
+### Is there an online assessment?
+
+Yes, for many new-grad, intern and cold applicants; experienced candidates usually skip it.
+
+### What language should I use?
+
+Most rounds let you choose, and Java is common. Some teams require JavaScript or TypeScript and say so only at the start of the call.
+
+### How much does an eBay software engineer make?
+
+Posted US base pay for MTS 1 roles is about $119K to $206K depending on location. Total compensation adds a target bonus and restricted stock units vesting over four years.
 
 ---
 

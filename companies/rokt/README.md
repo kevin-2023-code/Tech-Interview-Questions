@@ -10,13 +10,40 @@ How Rokt interviews, and the questions candidates reported there. Free questions
 | :-- | :-- |
 | Questions reported | [5](../rokt.md) |
 | Free to read here | 3 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Dec 06, 2025 |
 
 ## How Rokt interviews
 
-No written process guide yet. [The loop, as reported](../rokt.md#the-loop-as-reported) counts which round each reported question came from.
+Rokt filters candidates with a timed cognitive aptitude test before any engineer is involved, so failing it ends the process before your coding is ever seen. The coding bar is unusual too: problems are relatively easy, but solutions must run and pass every provided test case. The same expression-calculator problem recurs across loops, served in parts of increasing difficulty.
+
+This guide breaks down each stage of the Rokt interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Rokt interview process
+
+<!-- guide-diagram -->
+![Rokt interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/rokt/process.webp)
+<!-- guide-diagram -->
+
+The loop typically starts with a recruiter (often through outreach), an aptitude test, and a coding phone screen, followed by a final round of three or more sessions. Candidates have been offered a choice between an on-site and a virtual final. In one recent loop each step took about a week to clear, and the final was scheduled two weeks after the phone screen. The process typically takes four to five weeks.
+
+Content follows the team: backend candidates get large-scale system design, frontend candidates a dashboard architecture discussion, and infrastructure candidates may face a long fundamentals quiz. Loops typically end with a cross-team bar-raiser conversation on culture fit.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call on interest and fit, often after a recruiter reaches out first.
+- **Aptitude and personality tests:** A timed cognitive aptitude test, sometimes paired with a personality questionnaire or a one-way recorded video answer.
+- **Technical phone screen:** One easy-to-medium coding problem whose solution must run and pass all provided tests.
+- **Coding interview (final round):** An expression calculator or similar parsing problem, often split into escalating parts.
+- **System design interview:** Large-scale backend design, or a frontend dashboard architecture for UI roles.
+- **Leadership and behavioral interview:** Past-experience questions, typically plus a bar-raiser-style round with a senior leader from another team.
+
+> **Tip:** Take a few full-length practice aptitude tests before you start. The test is the first gate, and one candidate who passed recommended practicing with sample questions beforehand.
+
+**[Read the full Rokt interview process →](interview-process.md)**
 
 ## Free Rokt questions
 

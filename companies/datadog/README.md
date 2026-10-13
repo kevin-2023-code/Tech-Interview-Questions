@@ -16,19 +16,32 @@ How Datadog interviews, and the questions candidates reported there. Free questi
 
 ## How Datadog interviews
 
-Datadog's technical rounds are unusually literal about the company's own product: candidates are handed logs, queries, buffers, and unbounded streams, and asked to make them fast. Going deeper than the outline on the company page, this guide draws on 15 real Datadog questions and 16 candidate interview reports to show what each stage contains, which problem families recur, and where loops actually end.
+Datadog's technical rounds come straight from its own product: streams of logs and queries, buffered writers, file-system traversals and query clients. Candidates make them correct, then fast, then safe under deletion, memory pressure and concurrency. The follow-up chain decides the round more than the opening problem. System design ends more loops than coding, and recent loops have added AI-assisted coding and AI-agent design.
 
-### Interview Process
+This guide breaks down each stage of the Datadog interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 14 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Datadog interview process
 
 <!-- guide-diagram -->
 ![Datadog interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/datadog/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact and prep materials.** Recruiters send an outline of what the first technical round will contain, and it is not always accurate — one candidate was told the phone screen would open with a project deep dive and got sixty minutes of pure coding instead. Confirm the format, the tool, and whether AI assistants are permitted before each round. One referral candidate reported roughly four weeks from application to a post-onsite decision; a few weeks between stages is typical.
+Hiring is centralized, with team matching after the loop, and problem families repeat across teams. The sequence is a recruiter call, a one-hour technical screen and a virtual onsite of three to five rounds, usually over three to six weeks.
 
-**Technical phone screen.** A single one-hour technical round, and it is where most of our reports concentrate. The dominant format is one practical, systems-flavored problem plus escalating follow-ups, sometimes followed by a shorter classic algorithm question. The most repeated family by far is log-and-query matching: a live stream delivers queries and log lines, each query gets a unique ID and an acknowledgment, and every log must be emitted with the IDs of active queries that share a word with it. The expected arc is explicit — start with a correct brute-force scan over active queries, then move to an inverted index from words to query IDs when the interviewer raises the volume, then support deletion in constant time using a hash map into a doubly linked list per posting list. A variant gives you stored log entries with timestamps and asks for keyword plus time-range retrieval, where the answer combines an inverted index with binary search over timestamps.
+The shape changes little by level. New-grad and junior loops also include system design. Senior and staff loops raise the bar in that round and in project depth. Data and ML candidates may get a conceptual modeling round instead of a second coding round.
 
-Other reported screens: implement a buffered file writer, then design its test cases, then sketch thread-safe behavior for concurrent writes and a slow flush; simplify a Unix absolute path, then explain how memory behaves under a recursive versus an iterative implementation when the machine is close to out of memory, then redo it in constant extra space; longest palindromic substring, comparing the dynamic-programming and expand-around-center solutions; bucket counting over a sorted array with integer division and an overflow bucket; a Snowflake query client that submits SQL, polls for status, handles secret management and batching, and then must cope with a very large result set; and a `DeleteTree` implementation given only `List`, `Delete`, and `IsDirectory`, extended into stack-overflow risk on deep trees and memory cost on wide ones. The follow-ups are the round: interviewers grade how your first design survives scale, deletion, concurrency, and failure.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call about background, level, interest in observability and the next round's format.
+- **Technical phone screen:** A 60-minute live coding session on a practical problem with escalating follow-ups, sometimes plus a short classic question.
+- **Coding interviews (onsite):** One or two pair-programming rounds on streaming, windowing, file-system or I/O problems.
+- **System design interview:** A one-hour diagrammed design of a high-volume ingestion and query system.
+- **AI and ML rounds (some loops):** AI-assisted coding, AI-agent design, or a conceptual ML deep dive for data and AI roles.
+- **Hiring manager interview:** Behavioral questions, often merged with a resume or project deep dive.
+
+> **Tip:** Treat every coding question as step one of three: a correct brute force, an indexed version for higher volume, then deletion or concurrency. Candidates who jumped straight to an optimized design ran out of time.
 
 **[Read the full Datadog interview process →](interview-process.md)**
 

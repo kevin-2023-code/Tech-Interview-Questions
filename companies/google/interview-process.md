@@ -8,83 +8,261 @@
 
 ---
 
-This is the in-depth companion to the Google company page. It covers how each stage is actually run and graded, the patterns that decide outcomes, and what changed through 2026. It draws on 152 real Google questions and 124 candidate interview reports, and every section links to questions you can practice.
+Google separates the interview from the team. Interviewers write independent ratings, a hiring committee decides on the packet, and team matching follows, often in parallel with the vote. Most rounds are 45-minute coding sessions in a shared document that cannot run code, so outcomes usually turn on whether the code was finished and hand-traced in time. Many candidates now start with a no-code work-style assessment whose format changed in 2026, and an AI-assisted code-comprehension round is being piloted for junior and mid-level engineers.
 
-## Interview Process
+This guide breaks down each stage of the Google interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 130 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Google interview process
 
 <!-- guide-diagram -->
 ![Google interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/google/process.webp)
 <!-- guide-diagram -->
 
-**Two different online assessments.** Many candidates first get the Google Hiring Assessment, which has no code. In 2026 it switched to sets of three positive statements where you pick the one most like you and the one least like you. It still includes a Likert section and scenario questions on gifts, conflicts of interest and confidential data. Near-duplicate items check whether your answers are consistent. Other candidates get a coding assessment: two problems in 90 minutes, two visible sample cases, and your own tests allowed. At least one version was a long-context rollout task with a planted parsing bug and a weak built-in AI assistant.
+The loop is standardized, with the bar set by level rather than by the hiring team. A typical path is a recruiter call, an assessment, one to four phone screens, and an onsite of two to five rounds, virtual or partly in person. Reported timelines run from about six weeks to five months.
 
-**Phone screens.** There are usually one to three 45-minute coding screens in a shared document with no code execution, and often a separate behavioral screen with five to nine prompts. Some screens combine both, with eight or nine behavioral questions followed by a coding problem. The follow-ups carry the most weight: data that no longer fits in memory, input arriving as a stream, a search spread across parallel workers.
+At L3 and L4 the onsite is mostly coding plus a behavioral round. L5 adds a system design round. L6 adds a second design round, a leadership round and a deep dive on a system you built. Machine Learning Engineer loops trade one coding round for an ML domain or ML system design round, and research roles add a research talk.
 
-**Onsite loop.** The loop is often split into one or two virtual rounds and then two coding rounds, sometimes in person at an office with reimbursed travel. Google has brought back at least one in-person round for many locations, and in 2026 it began piloting a code-comprehension round where junior and mid-level candidates debug existing code with an AI assistant. L5 adds a design round. L6 adds a second design round, a leadership round and a deep dive on a system you designed. Design happens in a text document with no diagram tools.
+Here's what the interview process can look like:
 
-**Decision and matching.** Each interviewer writes a rating (candidates have seen "okay" and "strong" in the same loop), and results typically arrive about a week later. A visa check or transcript request is routine and does not mean you passed. For many candidates team matching now starts before the committee vote, and approval still depends on a team having headcount.
+- **Recruiter screen:** A short call on background, level, location and logistics.
+- **Online assessment (many candidates):** Either the no-code Google Hiring Assessment or a 90-minute, two-problem coding test.
+- **Phone screens (one to four):** 45-minute calls in a shared document: coding, behavioral, or both.
+- **Coding interviews:** Two to four onsite rounds of 45–60 minutes, each one medium problem with layered follow-ups.
+- **Design and domain interviews (L5+, ML and research tracks):** System design in a text document, ML design or fundamentals, or a research talk.
+- **Googleyness and leadership interview:** A structured behavioral hour on collaboration, ambiguity and ownership.
 
-## What Candidates Report
+> **Tip:** Practice in a plain text editor with a 30-minute cap on the base solution. Among rejected candidates, the most common story is a correct idea with an unfinished or untested implementation, not a wrong algorithm.
 
-- The same question families keep coming back: minimum cars for rental requests, meeting-room variants, flipping expression-tree leaves, file-system size, piano-hand movement and deducing player rankings each appear in multiple reports.
-- Time is the usual reason candidates fail. Unfinished final conditionals, specs that stayed vague until 12 minutes remained, and follow-ups that were explained but never coded all show up among the rejections.
-- Interviewers vary a lot: some give hints freely, some refuse, some take notes in silence, and one turned a string converter into a 30-minute conversation about refactoring a repository.
-- Easy questions are a trap too. Candidates who prepared for hard problems over-built simple ones.
-- Behavioral rounds dig deep: a second and third example per theme, a whole round spent on one project, and critiquing Google constructively.
-- Timelines range from days between stages to about five months from a cold application to team match.
+## Recruiter screen
 
-## Coding Questions
+Referrals and recruiter outreach move noticeably faster than cold applications. One candidate who mentioned a team match elsewhere went straight to a virtual onsite. The call covers background, level, location and the rounds ahead. Early-career and PhD candidates are often asked for a transcript.
 
-Google coding rounds grade a finished, hand-traced solution plus how well you handle two or three layered follow-ups. Interval scheduling, union-find and grid BFS dominate recent reports.
+Interviewers evaluate:
+
+- **Level fit:** The scope of your recent work, which sets the level the committee tests against.
+- **Track fit:** Whether you belong in the general software loop, an ML domain variant or a research loop.
+- **Motivation:** A specific answer to why Google, which comes up again later.
+- **Logistics:** Location, sponsorship, deadlines and availability for an in-person round.
+
+Ask which loop variant you have: ML domain or not, in person or not, and whether the AI-assisted pilot applies.
+
+> **Note:** Some ML candidates were offered a choice between behavioral plus three coding rounds, or behavioral plus an ML domain round plus two coding rounds. Recruiters mention it only if asked.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about your background. Why Google?
+- Why are you considering leaving your current company?
+
+## Online assessment
+
+The Google Hiring Assessment has no code. In 2026 its first section switched to sets of three positive statements: pick the one most like you and the one least like you. Agree/disagree items and workplace scenarios follow. The scenarios cover a client's gift card, a friend's startup in a vendor selection, and a confidential call in a crowded cafe. Many items are reworded duplicates that check consistency.
+
+The coding assessment gives two problems in 90 minutes, two visible sample cases, and the ability to run your own tests. Recurring problems are moving tokens exactly three cells right to collect coins, and the largest group of two-digit numbers sharing a digit. One version added a long-context feature-rollout repository with a planted bug in its dependency parser and an AI assistant that refused most logic questions.
+
+Interviewers evaluate:
+
+- **Consistent persona:** A stable ranking of work styles across reworded items. Contradictions are what get flagged.
+- **Policy judgment:** In scenarios, follow written policy over deadlines or friendships, and escalate rather than work around a rule.
+- **Edge-case care:** Hidden tests catch boundary mistakes that the two samples miss.
+- **Code reading:** Tracing the provided code yourself, since the assistant will not find the planted bug.
+
+Before the hiring assessment, rank four themes (collaborative, thorough, reflective, adaptable) and answer every trio from that ranking.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Move tokens on a one-dimensional board exactly three cells right, never onto another token, to collect as many coins as possible.
+- Find the largest subset of two-digit numbers in which the numbers share a digit.
+- Fix a feature-rollout service's buggy dependency parser, then report circular dependencies.
+
+- [Collect Coins on 1D Board](https://trueinterview.io/questions/oa-collect-coins-1d-board)
+- [Largest Group Sharing a Digit](https://trueinterview.io/questions/oa-group-two-digit-numbers-shared-digit)
+- [Feature Rollout with Dependency Cycle Detection](https://trueinterview.io/questions/oa-feature-rollout-dependency-cycle-report)
+- [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/questions/google-hiring-assessment-gha)
+
+## Phone screens
+
+Expect one to four 45-minute screens in a shared document with no highlighting, autocomplete or execution. You may have to define your own tree node class. Mixed screens are common, and one opened with eight or nine behavioral questions before the coding problem.
+
+Problems are medium, and the follow-ups carry the weight. Intersecting two log files becomes an external sort with two pointers once memory runs out. Top-K chat users becomes a stream, and first-bad-version gets split across parallel workers. Machine Learning Engineer screens can be entirely ML, covering LLM fine-tuning trade-offs, VAEs, or cold start in ranking.
+
+Interviewers evaluate:
+
+- **Baseline first:** Two candidates who proposed spatial indexing for point clustering were told to implement the brute-force version.
+- **Clarification:** Boundary inclusivity, cyclic time and duplicates confirmed before coding.
+- **Follow-up range:** Memory limits, streams and parallelism, each with a correct cost analysis.
+- **Story specifics:** On behavioral screens, a second example ready for the same theme.
+
+After each practice problem, answer a "what if it doesn't fit in memory?" variant aloud.
+
+### Sample questions for the phone screens
+
+Here are some questions reported by recent candidates:
+
+- Count clusters of 2D points, where points within radius r are linked directly or transitively.
+- Find users present in two log files, then redo it when neither file fits in memory.
+- Build a restaurant waitlist with join, delete and "seat the first party that fits this table."
+
+- [2D Points Connected Components by Radius](https://trueinterview.io/questions/points-connected-components-by-radius)
+- [Two-Day Log Intersection under Memory Limit](https://trueinterview.io/questions/two-logs-intersection-memory-limit)
+- [Restaurant Waitlist: join / delete / find_first_match](https://trueinterview.io/questions/waitlist-data-structure-with-table-size-match)
+- [Compute File System Total Size](https://trueinterview.io/questions/file-system-total-size)
+
+## Coding interviews
+
+Onsite rounds run 45–60 minutes with one main problem and two or three follow-ups. Several candidates sat them in person in New York or Mountain View, with travel booked by Google and an unscored lunch. Recurring families include the fewest rental cars with a car assigned to every booking, meeting-room variants, union-find over timed friend events, and flipping each leaf of a boolean expression tree.
+
+Interviewers vary sharply. Some give hints freely, one gave none, and one took notes in silence. One answered "up to you" to every spec question, and coding started with 12 minutes left. Easy problems are a trap too. One candidate turned an interval-conflict check into a sort with special cases when a linear scan was enough.
+
+Interviewers evaluate:
+
+- **Complete code:** One candidate missed only the final conditional, and small syntax or bounds slips have cost offers.
+- **Self-testing:** Catching your own bug during a hand trace earns credit. Bugs the interviewer finds go into the feedback.
+- **Optimal choice:** A working DFS earned only an "okay" because BFS was the better fit.
+- **Adapting to follow-ups:** Going from two lists to K lists with a heap, then to external memory, without starting over.
+
+Practice by family (intervals, union-find, tree re-rooting, binary search on the answer), not by individual problem.
+
+> **Note:** Warm verbal feedback does not predict the result. Candidates who left a round feeling positive have still been rejected on its written feedback.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Find the fewest cars that cover a set of rental bookings, and assign each booking to a car.
+- In an AND/OR/XOR expression tree, report the root value after flipping each leaf in turn, in linear total time.
+- Merge two sorted interval lists into their union, then K lists, then lists too large for memory.
 
 - [Minimum Cars to Satisfy Rental Requests + Assignment Records](https://trueinterview.io/questions/e44dda44-9b47-453a-9c31-9c5b589b348f)
-- [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants)
 - [Expression Tree Single-Leaf Mutation](https://trueinterview.io/questions/expression-tree-single-leaf-mutation)
 - [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390)
-- [Piano Hand Movement Grouping](https://trueinterview.io/questions/piano-hand-movement-grouping)
+- [Determine Players with Unique Ranks from Match Results](https://trueinterview.io/questions/f6331f0f-11ef-453f-a5fa-06bb97821266)
 
-## System Design Questions
+## Design and domain interviews
 
-Design prompts are about specific products and leave the requirements open: quotas and rate limiting, notification fan-out, crawlers, and image ingestion. You earn credit for naming failure modes and pinning down the scope early.
+Software Engineer loops add one system design round at L5 and two at L6, held in a text document without drawing tools. Prompts name a product and leave the scope open: a web crawler at billions of pages, a Drive quota limiter, a notification system for 100 million users, and a global restaurant menu push that must work offline. Some L3 and L4 loops have an object-oriented design round instead, such as a bookshelf whose bookmark stays valid as books move.
 
-- [L6 System Design (Staff Loop)](https://trueinterview.io/questions/l6-system-design-staff-loop)
+Machine Learning Engineer candidates get ML system design, such as a real-time news-feed recommender or a chatbot over structured and unstructured data, or a fundamentals round (cross-entropy from maximum likelihood, L1 sparsity, attention). Research scientist loops add a research talk and a one-on-one with a senior researcher.
+
+Interviewers evaluate:
+
+- **Early scoping:** Scale, consistency and the downstream consumer settled first, because requirements arrive incrementally.
+- **Failure modes:** Fail open or closed, hot keys, crawler traps and Bloom filter false positives.
+- **Driving the discussion:** Candidates who steered into deeper areas unprompted were rated well.
+- **Production ML detail:** Cold start, nearline features, fallbacks, drift monitoring and latency against accuracy.
+
+Rehearse six to eight designs in plain text, each with two trade-offs, a failure case and a future evolution.
+
+### Sample questions for the design and domain interviews
+
+Here are some questions reported by recent candidates:
+
+- Design a crawler for a search index at billions of pages, covering per-host politeness, deduplication and traps.
+- Design a chatbot that answers from both structured tables and unstructured documents.
+
+- [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale)
 - [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system)
-- [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md)
+- [L6 System Design (Staff Loop)](https://trueinterview.io/questions/l6-system-design-staff-loop)
 - [ML System Design (Recsys / Chatbot / Image Classifier)](https://trueinterview.io/questions/ml-system-design-recsys-chatbot-classifier)
 
-## Low-Level Design Questions
+## Googleyness and leadership interview
 
-Object-oriented design is usually delivered as a coding round. Constraints arrive one at a time, and you are graded on whether your class can handle them without a rewrite.
+This round appears as a phone screen, an onsite hour or half of a mixed round, sometimes run by a manager. Common themes are conflict, failure, ambiguity, helping a struggling teammate, and credit taken by someone else. One interviewer spent all 45 minutes on a single project.
 
-- [Employee Hierarchy Add / Delete](https://trueinterview.io/questions/employee-hierarchy-add-delete)
-- [Restaurant Waitlist: join / delete / find_first_match](https://trueinterview.io/questions/waitlist-data-structure-with-table-size-match)
-- [Run-Length Vector Storage + Dot Product](https://trueinterview.io/questions/compressed-vector-dot-product)
-- [Implement deleteDirectory with getChildrenPaths and deleteFile APIs](https://trueinterview.io/questions/4e02ab32-f7f8-4070-b12a-604e8470808c)
+Interviewers ask for a second and third example per theme. At L6 the focus shifts to influence without authority, incidents and your most consequential technical decision.
 
-## AI-Assisted Coding Questions
+Interviewers evaluate:
 
-Some assessments already include AI assistance, with long-context code, planted bugs and an assistant too restricted to do much. Reading the code yourself still decides the result.
+- **Measured results:** Stories that end in numbers, not in process.
+- **Decision reasoning:** Why the plan looked right then, and which signals you missed.
+- **Range:** A second conflict story that is genuinely different from the first.
+- **Scaled ownership:** Responsibility that grows with ownership but never drops to zero.
 
-- [Feature Rollout with Dependency Cycle Detection](https://trueinterview.io/questions/oa-feature-rollout-dependency-cycle-report)
-- [Refactoring Exercise](https://trueinterview.io/questions/c827c677-e606-4d3c-8704-230bdc66ab55)
+Prepare six or seven stories with numeric outcomes, and record yourself to tighten the endings.
 
-## Behavioral Questions
+> **Tip:** When asked to critique Google, treat it like a design review: name a real constraint, explain why it matters, and propose a workable fix. Venting reads badly.
 
-The hiring assessment rewards one consistent work persona, and the Googleyness round rewards stories with numbers and clear reasons behind each decision.
+### Sample questions for the Googleyness and leadership interview
 
-- [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/questions/google-hiring-assessment-gha)
+Here are some questions reported by recent candidates:
+
+- Describe a disagreement with a teammate, then a second one, and why you handled them differently.
+- You find a bug in a codebase your team doesn't own, then one in a codebase it does. Walk through both.
+
 - [Behavioral Round (Googliness Themes)](https://trueinterview.io/questions/bq-round-google-style)
-- [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/questions/ml-fundamentals-deep-dive)
+- [Answer Google Behavioral Questions](https://trueinterview.io/questions/answer-google-behavioral-questions)
+- [Lead a deep dive on your most complex project](https://trueinterview.io/questions/lead-a-deep-dive-on-your-most-complex-project)
 
-## How to Prepare
+## How Google makes hiring decisions
 
-- Before the hiring assessment, rank the four themes that keep recurring (collaborative, thorough, reflective, adaptable) and answer every forced-choice set from that ranking.
-- Practice each problem with a 30-minute timer so a complete, traced solution still leaves time for follow-ups.
-- If the spec is still unclear after a couple of questions, state your interpretation and start coding.
-- Practice the recurring families together: interval allocation with assignment output, union-find over time-ordered events, and re-rooting or flip propagation on trees.
-- Practice writing in a plain document with no highlighting, and if you code in Python, know its internals (attribute lookup, recursion limit, hashing).
-- Prepare six or seven stories with numbers in the results, and be ready to spend a full round on one project.
-- Ask the recruiter which loop you have (domain round or not, in-person or not, AI pilot or not).
+Each interviewer submits a written rating, and one candidate advanced with an "okay" and a "strong." Feedback typically arrives about a week after the onsite, and committee approval about a week later. The committee sets the level and can down-level: one L4 candidate was approved at L3. An offer comes only after a team with headcount at that level picks you, and candidates reported slow matching, especially in Europe. Reported cooldowns after a rejection range from about six months to a year.
+
+> **Note:** A visa check or transcript request after the onsite is routine and does not mean you passed. One candidate had a visa check in late December and a rejection in mid-January.
+
+## How to prepare for the Google interview
+
+1. **Code in a plain document:** Practice with no highlighting, autocomplete or execution, and write your own node classes.
+2. **Finish, then trace:** Keep the base solution to about 30 minutes so two follow-ups still fit.
+3. **Commit when the spec stays vague:** After two clarifying questions, state your interpretation and start coding.
+4. **Drill the recurring families:** Interval allocation with assignment output, union-find over timed events, and tree leaf flips.
+5. **Rehearse scale follow-ups:** For each problem, solve it again for a stream, external memory and parallel workers.
+6. **Fix your assessment persona:** Rank your work-style themes beforehand and follow policy in every scenario.
+7. **Build a numbered story bank:** Two stories per core theme, plus one project you can defend for an hour.
+
+## About working at Google
+
+Engineers build on shared infrastructure, with a monorepo, mandatory code review and design docs before major work. Candidates are approved for Google first, then matched to a team.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L3 (Software Engineer II) | Well-scoped features with guidance | Tasks within one team |
+| L4 (Software Engineer III) | Features owned end to end | A component or service |
+| L5 (Senior Software Engineer) | Leading projects and design decisions | One team's systems |
+| L6 (Staff Software Engineer) | Technical direction across teams | Several teams |
+| L7 (Senior Staff Software Engineer) | Organization-wide architecture | An organization |
+
+Google hires engineers and scientists across its product areas. Teams include:
+
+- **Search:** Ranking, indexing and crawling.
+- **Ads:** Ad serving, bidding and measurement.
+- **YouTube:** Video infrastructure and recommendations.
+- **Google Cloud:** Compute, storage, databases and AI services.
+- **Platforms and Devices:** Android, Chrome and Pixel.
+- **Google DeepMind:** Research and applied work on Gemini.
+
+### Experience and education requirements
+
+Postings ask for a bachelor's degree in a technical field or equivalent practical experience. Early-career roles stress data structures, algorithms and software design. Mid-level postings typically ask for two years of development experience, or one with an advanced degree. Senior postings ask for about five years, including product launches and system design.
+
+## FAQs about the Google interview
+
+### How long does the Google interview process take?
+
+Usually six weeks to five months. Referrals shorten it, and cold applications and team matching stretch it.
+
+### What is the hardest round of the Google interview?
+
+Usually an onsite coding round, where layered follow-ups leave little time to finish and test. At L6, the two design rounds carry the most weight.
+
+### How much does a Google software engineer make?
+
+Approximate US total compensation:
+
+- **L3:** ~$200K
+- **L4:** ~$295K
+- **L5:** ~$420K
+- **L6:** ~$630K
+
+Packages combine base salary, an annual bonus and stock that vests over four years, weighted toward the early years.
+
+### Is the Google interview remote?
+
+Mostly, but Google has reintroduced at least one in-person round in many locations, with travel covered.
 
 ## Guides by Role
 

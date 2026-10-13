@@ -6,99 +6,272 @@
 
 ---
 
-Frontend Engineer candidates at Amazon prepare for framework questions and component design. What catches them out is plain JavaScript trivia and layout questions asked with little context, followed by a separate, fully behavioral Bar Raiser round that one reported loop held about two weeks after the technical rounds. In that loop the candidate got the output of a short snippet wrong because it turned on `var` versus `let` scoping, a rule modern code rarely uses. A centering question drawn in ASCII was dropped after two clarifying attempts. The same candidate also built a UI from a mockup in an editor with no autocomplete and no lookups. The frontend loop tests fundamentals from memory, not framework fluency.
+Amazon interviews Front-End Engineers (FEEs) with the same Leadership Principles weighting as every other engineering track, so most hours open with 20 to 30 minutes of behavioral questions before any code. The technical half differs from the software engineer loop: UI builds from a mockup in an editor with no autocomplete, rapid JavaScript and CSS fundamentals asked with little context, and a progressive search-box exercise that ends in debouncing. Algorithm problems still appear, often in the hiring manager's round, and a fully behavioral Bar Raiser can be scheduled on its own after the technical rounds.
 
-## Interview Process
+This guide breaks down each stage of the Amazon Frontend Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 117 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3, cross-checked against recent public accounts.
+
+## Amazon Frontend Engineer interview process
 
 <!-- guide-diagram -->
 ![Amazon Frontend Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/amazon--frontend-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter contact and application.** Frontend candidates report cold applications through the careers site, with the team named only once the final round is booked. The recruiter describes the loop and level. From the reports, the timeline is slow: one candidate applied in early June, got the assessment within days, finished it mid-June, was invited to a phone screen in early July, passed it in late July, had two virtual rounds in mid-August and a Bar Raiser in late August.
+Amazon hires front-end engineers team by team, and the team is often named only once the final round is booked; in one reported loop it turned out to be an AWS team. The skeleton is an online assessment, one phone screen, and three or four hour-long final rounds. One complete frontend loop ran about three months: an application in early June, the assessment within days, a phone screen in mid-July, two virtual rounds in mid-August and the Bar Raiser in late August.
 
-2. **Online assessment.** Frontend candidates typically get the same multi-part assessment as other engineering tracks: a timed algorithm section of about 40 minutes, a 60-minute AI-assisted practical task in a small full-stack repository with about six failing tests, and untimed work-simulation and work-style sections. The full-stack task matters more on this track than candidates expect. Reported projects pair a React front end with a Django backend, or put a movie watchlist with login and CRUD behind a web UI. Several failures involve HTTP status codes or data that never reaches the page. The built-in assistant explains the selected file but will not write fixes. Candidates advanced without passing every test.
+Entry-level candidates sit the full assessment and a loop weighted toward UI coding and data structures. Front-End Engineer II candidates, who need about two years of professional front-end work, typically add a design round, and senior loops lean further on architecture and on behavioral depth. Final loops usually run three to five interviews of 45 to 60 minutes each.
 
-3. **Phone screen (about 60 minutes).** A senior engineer runs roughly half behavioral and half coding. For frontend candidates, the coding is a UI build from a reference image. In one report it was three numbered buttons, each opening a closable floating panel that renders data fetched from an API, styled to match the mockup. The editor has no autocomplete and no external references, but questions are allowed throughout, and the interviewer said afterward that pixel-perfect output was not expected. The behavioral half asks for a time you went beyond your role and what you would do differently. Another frontend screen asked for an autocomplete suggestion list from a mockup with alternating row colors, after questions about tight deadlines and acting with incomplete information. Typically a data-structures problem can replace or follow the UI task.
+Here's what the interview process can look like:
 
-4. **Hiring manager round (about 60 minutes).** Self-introduction and "why Amazon", then about 30 minutes of coding, then behavioral questions. The reported coding problem had nothing to do with the browser: print a hierarchical comment thread from a flat array of objects with an ID, a parent ID and text, nested to any depth. The manager asked clarifying questions throughout, which stretched the time. The candidate used an N-ary tree and later thought a hashmap from parent to children would have been cleaner. The behavioral question asked for a mistake with real consequences.
+- **Online assessment:** About 40 minutes of algorithms, 60 minutes of AI-assisted work in a small full-stack repository, then untimed work-simulation and work-style sections.
+- **Phone screen:** About 60 minutes with a senior engineer, half Leadership Principles and half building a UI from a reference image.
+- **Hiring manager interview:** Motivation and one or two behavioral questions around 30 minutes of data-structure coding, usually unrelated to the browser.
+- **Frontend fundamentals and UI coding interview:** Output-prediction and layout questions, then a search component built up in stages.
+- **Frontend system design interview (FEE II and above):** Architecture for a feature such as typeahead or a feed, sometimes drifting into backend scaling.
+- **Bar Raiser interview:** An hour of behavioral depth with an interviewer from outside the team, sometimes held days or weeks after the other rounds.
 
-5. **Frontend fundamentals and practical round (about 60 minutes).** A senior engineer opens with a recent project, including the tech stack and why you chose it, then asks rapid fundamentals questions: predict a snippet's output (scoping and hoisting), center a layout, and typically explain event handling, the box model or the rendering path. The main exercise builds up in stages: a search bar for a shopping page that shows the ten most relevant products, first from hard-coded mock data, then from a real API, then debounced to cut down requests. The reported interviewer asked questions abruptly and without much context, so asking for clarification was part of the job.
+> **Tip:** Practice every UI exercise in a plain editor with no autocomplete and no documentation. The reported phone screen and fundamentals round both banned lookups, and the graded signal was clean structure and data flow written from memory, not framework fluency.
 
-6. **Additional technical round (level-dependent).** Loops for L5 and above typically add a frontend system design round (component architecture, state, caching, performance and accessibility for a feature such as a feed or typeahead) and sometimes a second coding round from the general algorithm pool.
+## Online assessment
 
-7. **Bar Raiser (about 60 minutes).** Entirely behavioral, and in the reported loop scheduled on its own about two weeks after the other rounds. The Bar Raiser explained up front that the job was to gather evidence. Questions covered a deep investigation you solved, a time the team was heading the wrong way and you acted, a frontend technology you learned and applied (with follow-ups on handling different devices and screen sizes), and an open invitation to share anything the earlier rounds had missed. Use that last question to cover a principle you have not yet shown.
+The assessment arrives by email shortly after a resume screen. The link nominally expires in seven days, but recruiters have extended it by up to a month on request. It has up to four parts: about 40 minutes of one or two auto-graded algorithm problems, about 60 minutes of AI-assisted repository work, an untimed work simulation built on email scenarios, and an untimed work-style survey. In the simulation, candidates rotate through front-end, back-end and tester roles, responding to bug reports and code reviews.
 
-8. **Decision.** The debrief follows the Bar Raiser round. Reports describe loops ending in both offers and one-year cooldowns after rejection, and decisions have come anywhere from days to about a week after the final round.
+The repository task matters more for front-end candidates than they expect, because the bugs usually sit on the server side of a web app. Reported projects include a Django and React blogging app whose post-creation endpoint must validate required fields, link the post to the requesting user and return a 201 with a nested author object, a movie watchlist with login and six failing tests on persistence and status codes, and a Node.js project built on Mongoose. Some versions let you pick Node.js, Django, Spring Boot or C++. The built-in assistant explains the selected file but will not write fixes, and in one report it did not work at all. Algorithm problems come from recurring families: prefix sums on a circular route, and a sparse array of segments where materializing the array runs out of memory.
 
-## What They Actually Evaluate
+Interviewers evaluate:
 
-### Domain Deep Dive
+- **Tracing from the failing test:** Running the suite first and working back from the assertion, not reading the codebase top to bottom.
+- **HTTP and persistence basics:** Correct status codes, saved records and data that actually reaches the page.
+- **Correctness at scale:** Hidden tests include large inputs, so an approach that blows the memory limit scores as wrong.
+- **Judgment in the simulation:** Protecting testing near a launch, escalating early and gathering context outscore the fastest option.
 
-This is graded in the fundamentals round and again during every UI build. Interviewers want core JavaScript semantics recalled without tools: scoping, closures, the event loop, CSS layout and centering, and DOM updates. The reported failure is a candidate fluent in a modern framework who could not explain a legacy scoping rule. The signal comes from reasoning through the output aloud even when unsure, not from guessing.
+Rehearse fixing failing tests in a small Django or Node.js project with a React front end inside an hour, starting from the test output.
+
+> **Note:** A perfect score is not required. Candidates advanced with some of the six tests still failing. One front-end candidate lost the Mongoose test to print-statement debugging without realizing the environment offered a real debugger.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Fix a blogging app so that creating a post with the required fields persists it, links it to the user in the request header and returns it under that user's posts.
+- Fix a movie watchlist so that add, remove and lookup persist correctly and return the right HTTP status codes.
+- Given non-overlapping segments of bags with indices up to a billion, find the most money in any k consecutive bags without building the array.
+
+- [Fix Django Post Creation API](https://trueinterview.io/questions/71e6edc3-c57b-529a-8419-d1445f2419fd)
+- [Debug a Movie DB Watchlist Full-Stack Project](https://trueinterview.io/questions/01d139bb-66c2-5317-b9ee-d6817b67e4a5)
+- [Max Money from K Consecutive Bags](https://trueinterview.io/questions/311525d4-2675-4709-b108-5237fc93c89c)
+- [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience)
+
+## Phone screen
+
+The screen runs about an hour with a senior engineer: roughly half behavioral, half coding. For front-end candidates the coding is usually a UI build from a reference image. In the fullest report, the task was three numbered buttons, each opening a closable floating panel that renders data fetched from an API, styled to match the mockup. The editor had no autocomplete and no external references, but questions were allowed throughout, and the interviewer said afterward that pixel-perfect output was not expected. Another screen, run by two interviewers with one shadowing, asked for an autocomplete suggestion list from a mockup with alternating row background colors.
+
+The behavioral half follows one story several layers down: going beyond your defined role, a tight deadline, or a decision made with less information than you wanted. Some screens swap the UI task for a data-structure problem.
+
+Interviewers evaluate:
+
+- **Component structure without tooling:** A fetch layer, state for which panel is open, and rendering kept separate, written without autocomplete.
+- **Working data flow:** The API call resolves, the panel shows the data and closes cleanly; layout polish comes second.
+- **Clarifying the mockup:** Asking what the panel contains, whether several can be open and what happens while data loads.
+- **Story specifics:** What exactly you changed beyond your role, who you told and what you would do differently.
+
+Build three or four small widgets from screenshots in a bare editor, each in under 25 minutes with fetch, loading state and close behavior.
+
+### Sample questions for the phone screen
+
+Here are some questions reported by recent candidates:
+
+- From a reference image, build three numbered buttons that each open a closable floating window showing data fetched from an API.
+- From a design mockup, render an autocomplete suggestion list whose even and odd rows have different background colors.
+- Tell me about a time you took on work outside your defined responsibilities, and what you would do differently.
 
 - [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers)
 - [Build an Autocomplete Search Bar](https://trueinterview.io/questions/9cac8236-2361-5ae3-be47-3fcb128bb6c4)
-- [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete)
+- [Get Nested Object by Path](https://trueinterview.io/questions/get-nested-object-by-path)
 
-### Coding and Algorithm
+## Hiring manager interview
 
-One or two rounds from the general pool, at medium difficulty: tree building from flat data, top-K, graph ordering. Frontend candidates usually code these in plain JavaScript. Interviewers reward choosing the simplest structure (a parent-to-children map beats a hand-built tree class), dry-running your own cases and stating complexity without being asked.
+The manager's hour opens with a self-introduction and why Amazon, then about 30 minutes of coding, then behavioral questions. The reported coding problem had nothing to do with the browser: print a comment thread from a flat array of objects holding an ID, a parent ID and text, nested to any depth. The manager asked clarifying questions throughout, so a problem that took about 20 minutes to code consumed 30 and left room for only one behavioral question, about a mistake with real consequences. The candidate built an N-ary tree class and concluded afterward that a map from parent ID to children would have been simpler.
+
+Managers also ask about metrics behind the impact you claim and how you use generative AI, including a time its output was wrong and how you caught it. Expect easy-to-medium data-structure problems in plain JavaScript, with follow-ups on input that arrives out of order or contains orphans.
+
+Interviewers evaluate:
+
+- **Choosing the simplest structure:** A parent-to-children map plus a recursive print beats a hand-built tree hierarchy.
+- **Pacing under clarification:** Settling input shape and output format early so the stories still fit.
+- **Self-awareness:** A real mistake with consequences and what changed afterward, not a disguised strength.
+- **AI judgment:** Concrete validation steps and a failure you caught yourself.
+
+Practice tree-from-flat-data, grouping and ordering problems in JavaScript until each takes under 20 minutes including your own test cases.
+
+> **Tip:** Agree on the output format, such as indentation per depth and sibling order, before writing code. The reported comment-thread problem ran long because each clarification arrived mid-implementation.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Given an array of comments with an ID, a parent ID and text, print every comment in its nested position at any depth.
+- Describe a mistake that had real consequences and how you handled it.
+- How did you realize output from a generative AI tool was not good enough, and what did you do?
 
 - [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print)
-- [Simplified Autocomplete System](https://trueinterview.io/questions/10bfe093-3d82-4bd5-a250-c65af800e04c)
-- [Course Schedule](../../questions/algorithm/course-schedule/README.md)
-
-### Low-Level Design
-
-Practical UI builds are graded like design problems. Can you split the work into a fetch layer, state and rendering? Can you add a real API and then debouncing without a rewrite? Is the pop-up closable and the list keyed correctly? The progressive search-bar round is the clearest example: each follow-up changes one requirement.
-
-- [Debug a Movie DB Watchlist Full-Stack Project](https://trueinterview.io/questions/01d139bb-66c2-5317-b9ee-d6817b67e4a5)
-- [Modified OA with AI assisted debugging](https://trueinterview.io/questions/fc060aa0-b909-41da-b78b-6ee1285b13a5)
-
-### Behavioral and Leadership
-
-At least half of every hour, plus the dedicated Bar Raiser round. The reported advice from the frontend loop is to prepare eight to ten stories, each covering two or three principles, because interviewers credit an answer that covers several principles and then probe the gaps. Expect a question about AI tools as well.
-
-- [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
+- [Format a Forest of Nested Comments](https://trueinterview.io/questions/format-a-forest-of-nested-comments)
+- [Own a Mistake with Real Consequences](https://trueinterview.io/questions/own-a-mistake-with-real-consequences)
 - [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/questions/bq-genai-usage)
-- [Work Simulation & Work Style Assessment](https://trueinterview.io/questions/work-style-simulation-assessment)
 
-## What They Don't Test
+## Frontend fundamentals and UI coding interview
 
-- **Pixel-perfect styling.** The interviewer said matching the mockup exactly was not required, and clear structure plus working data flow earned the credit.
-- **Framework-specific APIs.** The reported coding happened with no autocomplete or references, and core language behavior was graded instead.
-- **Hard algorithm puzzles.** The reported frontend loop featured scenario problems like nested comments, where a clean data structure mattered most.
-- **Memorized optimization patterns out of context.** Debouncing came up only as the third follow-up, and building up to it in stages was what earned credit.
+A senior engineer opens with a recent project, its tech stack and why you chose it, then fires short fundamentals questions. In the reported round, questions came abruptly and with little context. The first was a snippet whose output turned on `var` versus `let` scoping, which the candidate, fluent in modern code that rarely uses `var`, got wrong. The second was a layout drawn in ASCII with a request to center it; after two clarifying attempts the interviewer moved on without an answer. Other front-end candidates have been asked about DOM traversal and manipulation and, after building a component, whether they knew what ARIA attributes are.
 
-## The Real Filter
+The main exercise builds in stages: a search bar for a shopping page that shows the ten most relevant products for a keyword. It starts with hard-coded mock data, then switches to a real API that you must call correctly, then asks how to debounce the input to cut requests. Other reported variants ask for a reusable, responsive product card or a tabbed component that is accessible and fires events.
 
-The main filter is fundamentals asked with no context. Frontend candidates assume the loop will be about components and frameworks, then face "what does this print?" and "how would you center this?" with a vague diagram. A wrong answer on a scoping rule, or giving up on an unclear layout question, costs signal in a round that otherwise looks easy. Practice predicting output for hoisting, closures and asynchronous ordering, and practice asking one precise clarifying question and then committing to an answer.
+Interviewers evaluate:
 
-The second filter is pacing in the manager round. The hierarchical-comments problem took about 30 minutes because clarifications kept stretching it, which left just one behavioral question. Settle the input shape early, pick the simplest mapping, and finish with time left for stories.
+- **Language semantics from memory:** Hoisting, block scope, closures and asynchronous ordering, reasoned aloud even when unsure.
+- **CSS layout:** Centering and alignment with flexbox or grid, explained without a browser to test in.
+- **Incremental design:** Swapping mock data for an API and adding debounce without rewriting the component.
+- **Accessibility and reuse:** Keyboard support, ARIA roles and props that let the component serve more than one page.
+- **Driving an unclear prompt:** One precise clarifying question, then a committed answer.
 
-The third filter is the Bar Raiser, which arrives last after the technical rounds feel finished. Its open-ended final question is a chance to cover a principle the earlier interviewers missed. Candidates who have run out of fresh stories by then have nothing to add.
+Drill output-prediction snippets on scoping and the event loop, and build a debounced, API-backed search box from scratch twice before the loop.
 
-## Data Source
+> **Note:** The fundamentals portion is where front-end candidates are most often surprised. Treat a vague layout question as a chance to state an assumption and answer it; letting the interviewer move on leaves no signal for that question.
 
-Based on 117 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+### Sample questions for the frontend fundamentals and UI coding interview
 
-## FAQ
+Here are some questions reported by recent candidates:
 
-**What is it like to work there as a Frontend Engineer?**
+- Predict the output of a short snippet whose result depends on the difference between `var` and `let` scoping.
+- Center the content shown in an ASCII layout diagram and explain which CSS you would use.
+- Build a product search bar that shows the ten most relevant results, first from mock data, then from an API, then debounced.
 
-The reports cover hiring, not the day-to-day work. What is documented: frontend engineers sit on product and service teams (the reported loop was for a cloud team), own their features through launch and operation, and write design documents that senior engineers review closely. Browser support across devices and screen sizes came up even from a backend-focused interviewer.
+- [Design a Debounced Product Search Box](https://trueinterview.io/questions/design-a-debounced-product-search-box)
+- [Simplified Autocomplete System](https://trueinterview.io/questions/10bfe093-3d82-4bd5-a250-c65af800e04c)
+- [Design Lazy Array](../../questions/object-oriented-programming/implement-lazyarray-with-deferred-function-execution/README.md)
 
-**What is the engineering culture like?**
+## Frontend system design interview
 
-The culture is built on documents and principles. The Leadership Principles are used in reviews and promotions as well as interviews, and feedback tends to be direct. Frontend engineers work next to backend engineers, so full-stack debugging skills are valued, which is why the assessment includes a server-side repository.
+Front-End Engineer II and senior loops typically include one design round of 45 to 60 minutes. The prompt is usually a user-facing feature: typeahead suggestions, a news feed, product search with filters, or a form-heavy application. Interviewers often drive the conversation and go deep wherever they choose, and several front-end candidates found the round more backend-oriented than expected, covering load balancing, caching and protocols. One FEE II candidate with strong front-end and behavioral rounds was rejected on design alone.
 
-**How hard is it to get in?**
+Across engineering loops, candidates who opened with schemas and caching before stating users, assumptions and trade-offs were marked down.
 
-The coding difficulty is moderate, and candidates describe the frontend loop as less focused on algorithms than at some peers. The combined bar is still demanding, because fundamentals, practical builds and deep behavioral questioning all have to hold up across four or more rounds spread over about three months.
+Interviewers evaluate:
 
-**Which round is hardest?**
+- **Customer framing first:** Who uses the feature, what must feel instant and what can lag.
+- **Client architecture:** Component boundaries, state ownership, caching of responses and request cancellation.
+- **Performance budgets:** Debounce intervals, pagination or virtualization, and what loads first on a slow device.
+- **Backend literacy:** API shape, caching layers and how the service scales behind the UI.
+- **Accessibility and device range:** Keyboard navigation, screen readers and layouts across screen sizes.
 
-It is usually the fundamentals-and-practical round, because questions come quickly and with little context. The Bar Raiser is second, since it is a full hour of behavioral follow-ups.
+Practice three Amazon-style features end to end, from requirements through components, APIs and one backend scaling pass.
+
+### Sample questions for the frontend system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a financial dashboard that aggregates balances and holdings from several external data providers.
+- Design a news feed, then keep answering what else the system needs.
+- Design product search that filters by price, category and subcategory at Amazon scale.
+
+- [Design a Multi-Provider Financial Dashboard](https://trueinterview.io/questions/design-a-multi-provider-financial-dashboard)
+- [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete)
+- [Design News Feed](../../questions/system-design/design-news-feed/README.md)
+- [Design Faceted Product Search at Large Scale](https://trueinterview.io/questions/design-faceted-product-search-at-large-scale)
+
+## Bar Raiser interview
+
+The Bar Raiser is an experienced interviewer from another team, trained to judge whether a candidate raises the average of the team. In the reported front-end loop the round was entirely behavioral and held on its own about two weeks after the other final rounds; the interviewer explained up front that the job was only to gather evidence. Questions covered a deep investigation you resolved, a time the team was heading the wrong way and you acted, and a front-end technology you learned and applied. The interviewer, from a backend background, followed up on how that technology handled different devices and screen sizes. The round closed with an open invitation to share anything earlier interviewers had missed.
+
+Bar Raisers typically follow three or four principles several layers deep, such as dive deep, critical feedback and disagree and commit.
+
+Interviewers evaluate:
+
+- **Ownership of specific actions:** "I" statements with tools, dates and decisions, not team summaries.
+- **Depth under follow-up:** The third "why" still has an answer; rehearsed outlines collapse there.
+- **Front-end judgment explained simply:** Device support, performance or accessibility trade-offs made clear to a non-specialist.
+- **Results with numbers:** Load time, adoption or defects avoided, and what you would change now.
+
+Prepare 8 to 10 stories, each covering two or three principles, because interviewers credit a story that hits several principles and then probe its gaps.
+
+> **Tip:** Use the closing "anything else to share" question deliberately. Keep one strong story in reserve for a principle no earlier interviewer asked about, and name the principle as you tell it.
+
+### Sample questions for the Bar Raiser interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a front-end technology you learned on your own and applied, and how it handled different devices and screen sizes.
+- Describe a time you saw your team heading in the wrong direction and what you did.
+- Walk through an investigation where you dug deep and eventually found the cause.
+
+- [Learn and Apply a Front-End Technology Across Devices](https://trueinterview.io/questions/learn-and-apply-a-front-end-technology-across-devices)
+- [Intervene When Your Team Is Heading in the Wrong Direction](https://trueinterview.io/questions/intervene-when-your-team-is-heading-in-the-wrong-direction)
+- [Describe a Deep Debugging Investigation](https://trueinterview.io/questions/describe-a-deep-debugging-investigation)
+- [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
+
+## How Amazon levels and evaluates Frontend Engineer candidates
+
+Each interviewer writes feedback independently against assigned principles and the target level's technical bar. A debrief led by the Bar Raiser, who has an effective veto, follows, and the Bar Raiser and hiring manager settle the outcome. Evidence is pooled: candidates in engineering loops were rejected after one weak round despite clean coding elsewhere, and others received offers after a round they believed went badly.
+
+The target level is set before the loop. Entry-level front-end loops weight UI coding and data structures; at FEE II and above, design carries more of the decision. Reported decisions came anywhere from two hours to just over a week after the final round, and feedback requests usually went unanswered. Candidates rejected after a full loop were recently told to wait one year before reapplying, not the six months many expected.
+
+## How to prepare for the Amazon Frontend Engineer interview
+
+1. **Code UI without tooling:** Build popovers, suggestion lists and search boxes from screenshots in a bare editor, with fetch, loading state and close behavior working.
+2. **Relearn legacy JavaScript semantics:** Practice predicting output for `var` hoisting, closures in loops, `this` binding and promise versus timer ordering.
+3. **Rehearse the staged search box:** Mock data, then a real API, then debounce and request cancellation, without rewriting the component at each step.
+4. **Fix a full-stack repository in an hour:** Use a small Django or Node.js app with a React front end, starting from the failing test output.
+5. **Keep data-structure skills current:** Tree-from-flat-data, grouping, top-k and graph ordering in JavaScript, each finished in under 20 minutes.
+6. **Write 8 to 10 tagged stories:** Include one on a front-end technology you learned and applied across devices, one on a mistake with consequences and one on a generative-AI failure you caught.
+7. **Open every design with the customer:** State users, latency expectations and accessibility needs before components and APIs, and be ready for backend scaling questions.
+8. **Commit after one clarifying question:** Vague layout or design prompts reward a stated assumption and an answer over repeated requests for detail.
+
+## About the Amazon Frontend Engineer role
+
+Amazon front-end engineers build customer-facing and internal web experiences, typically in React, on small teams that own features through launch and operation. They work alongside software engineers on the same services, which is why full-stack debugging is tested. Since January 2025 corporate staff work in the office five days a week. Posted base pay for Front-End Engineer II in US offices runs roughly $144K to $224K depending on location, with stock and sign-on payments on top.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Front-End Engineer | Well-defined features and components, with guidance | Parts of one team's interfaces |
+| Front-End Engineer II (L5) | Features owned through design, delivery and operation; reusable components | A team's front-end surface |
+| Senior Front-End Engineer | Front-end architecture, frameworks, mentoring and interviewing | Several products or a shared UI platform |
+
+Amazon hires Frontend Engineers across many organizations. Teams include:
+
+- **AWS user experience:** The AWS Management Console, the console mobile app and the shared UI platform behind them.
+- **Prime Video:** Web and living-room interfaces for browsing and playback.
+- **Amazon Ads:** Advertiser-facing portals and campaign tools, largely built in React.
+- **Amazon Stores:** Shopping pages and the web frameworks that serve them.
+
+### Frontend Engineer experience and education requirements
+
+Postings ask for two or more years of non-internship professional front-end, web or mobile development using JavaScript, HTML and CSS, one or more years of computer science fundamentals (object-oriented design, data structures, algorithms and complexity analysis), and experience with a framework such as React or Angular. Preferred qualifications include TypeScript, Node.js, agile development and building reusable UX components or libraries; some senior and Ads postings ask for four or more years. A degree is not a stated requirement in these postings.
+
+## FAQs about the Amazon Frontend Engineer interview
+
+### How long does the Amazon Frontend Engineer interview process take?
+
+Usually two to three months. The fullest reported frontend process ran from an early-June application to a late-August Bar Raiser, with about a month between the assessment and the phone screen and two weeks between the technical rounds and the Bar Raiser.
+
+### What is the hardest round of the Amazon Frontend Engineer interview?
+
+Usually the fundamentals and UI coding round, because questions arrive quickly, with little context and no tools, and they test details modern frameworks hide. At FEE II and above the design round decides more outcomes, especially when it drifts into backend scaling.
+
+### Is there an online assessment for frontend candidates?
+
+Yes, for most applicants. It includes the same algorithm section as other engineering tracks plus an hour of AI-assisted debugging in a full-stack repository, often a Django or Node.js backend with a React front end, followed by the untimed work simulation and work-style survey.
+
+### What language should I use?
+
+JavaScript or TypeScript for UI builds and fundamentals. Any mainstream language is accepted for data-structure problems, but front-end candidates usually stay in JavaScript.
+
+### Can you use AI tools during the interview?
+
+Only in the assessment's repository task, which supplies a restricted assistant. Candidates confirm they will not use unauthorized generative AI in live rounds, and one candidate who paused mid-problem was asked whether a second screen was in use.
+
+### What happens after a rejection?
+
+Candidates rejected after a full loop reported a one-year wait before reapplying, and feedback requests were usually ignored. Earlier-stage rejections have carried a shorter wait.
 
 ---
 

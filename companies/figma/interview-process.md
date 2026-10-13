@@ -6,75 +6,285 @@
 
 ---
 
-Figma's question pool is unusually narrow — one document-and-layers exercise appears in roughly four of every ten reports — and solving it cleanly settles nothing: candidates have finished every part, heard warm feedback, and still been rejected, and only three of the reports below end in an offer. Going deeper than the outline on the company page, this guide draws on 60 candidate interview reports and 18 real Figma questions in our library to show what each stage contains, how it is graded, and where offers are lost.
+Figma's question pool is narrow and product-shaped. A layered document with apply, undo and batch-commit operations appears in about four of every ten reports, and design rounds are almost always about Figma's own features: canvas comments, trending files, components and instances, permission-aware search. A clean solve is still not enough. Candidates finished every part, heard warm feedback and were rejected for team fit, level, or a weak behavioral or hiring-manager conversation. Only three of the reports below ended in an offer.
 
-## Interview Process
+This guide breaks down each stage of the Figma interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 55 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Figma interview process
 
 <!-- guide-diagram -->
 ![Figma interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/figma/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** About 30 minutes and no exercise: your most challenging project and your part in it, why Figma specifically, what you want next, and — distinctively — your view on AI products and what they mean for design and collaboration. Treat "why Figma" as graded, and because interviewers other than the hiring manager are typically drawn from a pool rather than your target team, use this call to ask what the team is actually scoping.
+The structure is consistent across software teams. Apart from the hiring manager and any executive screen, interviewers typically come from a shared pool rather than the target team. A typical path is a 30-minute recruiter call, a hiring-manager screen, a 60-minute technical screen, and a virtual onsite of four to seven sessions, most often five or six on one day, occasionally spread over three. Most processes run three to five weeks.
 
-**Hiring-manager screen.** Typically about 45 minutes, in two reported shapes. The conversational version walks your resume and projects with no technical questions and decides fit for reasons that never appear in code — a modeling-heavy profile when the team wanted modeling plus serving, deployment, and infrastructure; too little zero-to-one ownership for the level. The other opens with a project discussion and folds in a live coding problem — `commit_batch` with oldest-value semantics, or INDENT/DEDENT tokenization — so treat this call as technical until told otherwise.
+Senior candidates face the same coding families but a higher bar for driving design without help; several senior rejections cited missing autonomy or zero-to-one ownership, not wrong answers. Machine learning loops swap system design for two ML design rounds.
 
-**Technical phone screen.** Roughly 60 minutes with an engineer in a shared editor, in the language you choose, run as pair programming rather than a quiz: prompts are long, product-flavored, under-specified, and layered into parts that keep arriving as long as you keep finishing, and several interviewers grade mainly on whether test cases pass. Five families cover nearly every report. First, by a wide margin: a `Document` of layers with key-value properties supporting `apply`, `undo`, and `commit_batch`, extended into redo, batch undo, `getLayerById`, memory-efficient history compaction, and an old-value flag deciding whether a property is reverted or deleted; interviewers have pushed past the obvious stack toward a deque of operation lists with an explicit eviction policy. Second: a table class — cell, row, and whole-table selection with color precedence, or set/get/aggregate over rows and columns. Third: display sort — order canvas documents left to right, cluster them into rows by y-coordinate before sorting within each row, then respect parent-child containment; it arrives as three escalating parts and is the family candidates most often fail to finish. Fourth: parsing — validating INDENT/DEDENT sequences, reconstructing rich text from nested groups, converting bracketed strings into nested lists. Fifth: resizing stacked rectangles by a delta with a minimum-height clamp and redistribution of the leftover. Some tracks get two phone screens — a 30-minute behavioral call plus the technical session — and a few senior or infrastructure screens replace code with a design discussion (an async job scheduler with exactly-once semantics, Kubernetes).
+Here's what the interview process can look like:
 
-**Virtual onsite.** The most common software loop is five sessions — one or two coding rounds, one or two system design rounds, a behavioral round, and a project deep dive — usually in a single day and occasionally spread over three; loops of four, six, and seven sessions also appear. Onsite coding stays in the screen's families and often stacks related problems: the permissions graph asked directed, then undirected, then with pruning at revoked edges; a file tree with per-user permissions asking for the topmost accessible files and then the effect of moving one; the rich-text tokenizer; a Number of Islands variant. Design rounds draw almost entirely from Figma's own product: real-time comment threads in Figma and FigJam, trending or top-K hot files, template-to-instance propagation for components and presentation decks, retrieval and ranking over files under inherited access control with a fallback when the ranking service fails, and an evaluation platform for AI agent actions with online and offline metrics. Front-end candidates have had a UI component round instead — a filterable multi-select with drag-and-drop reordering built from scratch. The project deep dive expects a large, production-grade project with real users, frequently presented as slides, and probes phases, decisions that changed mid-flight, and trade-offs; it is the longest segment in several reports and typically sits with the hiring manager. Machine learning tracks swap in ML design — asset/template recommendation, a prompt-to-design vision-language model, home-feed ranking, natural-language-to-HTML generation with LLM-as-judge evaluation — plus a coding round completing a BERT extractive-summarization skeleton. Data engineering screens test SQL window functions, self-joins, explicit varchar-to-integer casts, and Python IPv4 validation.
+- **Recruiter screen:** A 30-minute call on your hardest project, why Figma, what you want next, and your view of AI products.
+- **Hiring manager screen:** A conversation about your resume and fit, sometimes with a live coding problem added.
+- **Technical phone screen:** About 60 minutes of pair programming in a shared editor on a multi-part, product-flavored problem.
+- **Onsite coding (one or two rounds):** Stateful or graph problems that stack two or three related parts.
+- **System design (one or two rounds):** Figma-specific features, or ML design for machine learning tracks.
+- **Project deep dive:** A long walkthrough of one substantial production project, often with slides.
+- **Behavioral interview:** Conflict, feedback, mentorship and scope, with several distinct stories expected.
 
-**After the onsite.** Some loops continue: a director-level behavioral round has been added after the onsite, followed by reference checks with a former manager and a peer — consistent with the executive screen senior candidates typically face. Decisions move fast when they move: rejections within two business days, feedback within three, one offer the day after the interview, one full process in about three weeks. Silence is the ambiguous case — candidates have waited past four days with no word, been refused feedback on request, and watched recruiters go quiet after a rejection.
+> **Tip:** Ask the recruiter what the team is building and what gap it is filling. Several rejections after clean coding came down to a mismatch in background or level, such as modeling-only experience for a role that also needed serving and infrastructure.
 
-## What Candidates Report
+## Recruiter screen
 
-- A clean, complete solve is not sufficient. Candidates implemented every part, discussed optimizations beyond the ask, got explicit positive feedback, and were rejected anyway. The inverse also holds: one candidate who only mostly finished the batch-commit follow-up was told approach and communication were what counted.
-- Unfinished follow-ups are the most cited concrete failure: describing the last part without implementing it, running out of time on the third sub-problem, or leaving a known bug in after a hint have each preceded a rejection.
-- Edge cases are expected unprompted — undo with an empty stack is the canonical one — and problem statements are verbose enough that misreading a rule costs real minutes.
-- Interviewer quality swings hard: some are warm and collaborative; others are expressionless, give no hints, repeat the prompt instead of clarifying, or are unfamiliar with your language. Drive the session yourself, and know your language's traps — a C++ range-loop dangling pointer and an unaddressable Go map value both cost candidates time.
-- Fit is decided after the technical rounds, not instead of them: team mismatch, too few years or too little zero-to-one ownership for the level, and a weak behavioral or hiring-manager conversation are the stated reasons in many rejections that followed clean coding.
-- Design rounds punish over-engineering: the relevant systems run at far lower QPS than the reflex web-scale answer assumes, and one backend candidate was told the core runs as a monolith. Depth on ranking logic — scoring, time decay, cold start — is where the trending round is won or lost. Several candidates also blame a flubbed late round on fatigue and advise scheduling breaks.
+The recruiter call lasts about 30 minutes with no exercise. Topics are consistent: your most challenging project and your part in it, what you learned, why Figma, and what you want next. The distinctive question is your view of AI products and what they mean for design and collaboration. Many candidates come in through recruiter outreach, others through referrals.
 
-## Coding Questions
+Interviewers evaluate:
 
-Figma coding rounds are practical and stateful rather than algorithmic trivia: model a small piece of the editor, then extend it under follow-ups. Interviewers often grade on passing tests in a pair-programming setting, so a working, tested core beats a fuller explanation.
+- **Product affinity:** A specific reason for Figma, grounded in real use of the product.
+- **Scope of your best project:** How large it was and what you personally owned, which sets the expected level early.
+- **A balanced view of AI:** Candidates who acknowledged both potential and limits had a more natural conversation.
+- **Clear goals:** Next-role expectations that match the team.
 
-- [Display Sort](https://trueinterview.io/questions/bd0ea67e-c112-509d-9f77-688c4ae97445)
-- [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right)
+Prepare a two-minute version of your hardest project and one honest opinion about AI in design tools.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about the most challenging project you have worked on and what you learned from it.
+- Why Figma specifically?
+- How do you think about AI products, and what excites or worries you about where they are going?
+
+- [Deliver a crisp self-introduction](https://trueinterview.io/questions/deliver-a-crisp-self-introduction)
+- [Describe your most and least engaging work](https://trueinterview.io/questions/describe-your-most-and-least-engaging-work)
+
+## Hiring manager screen
+
+The hiring-manager call, typically 30–45 minutes, comes in two forms. The conversational form covers your resume and interest with no technical questions, yet it still decides: one ML candidate who did well on coding was turned down here for a modeling-only background when the role also needed serving and infrastructure. One infrastructure call was mostly about Kubernetes, and revealed that the backend still runs largely as a monolith.
+
+The second form adds live coding after the project discussion: validating INDENT and DEDENT tokens and rebuilding nested rich text, or a `commit_batch` that keeps the oldest value per key since the last commit. One candidate who needed a hint to find a bug and ran out of time to fix it was rejected. Other tracks get a 30-minute behavioral screen on conflicts, learning quickly, and working with designers.
+
+Interviewers evaluate:
+
+- **Breadth versus the team's needs:** Whether your experience covers the whole scope of the role, not only your specialty.
+- **Staying in scope:** One candidate advised following the manager's lead rather than showing breadth nobody asked for.
+- **Bug-free finishing:** In the coding version, a correct but buggy solution at time was treated as a fail.
+- **Ownership:** Decisions you made yourself, and why.
+
+Treat this call as technical until told otherwise, and keep a project story ready that matches the team's stack.
+
+### Sample questions for the hiring manager screen
+
+Here are some questions reported by recent candidates:
+
+- Implement `is_well_formed` for a token list containing INDENT and DEDENT markers, then `read_rich_text` to rebuild the nesting.
+- Implement `commit_batch` over a stream of key-value updates so that each batch stores the oldest value per key.
+
+- [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral)
 - [Validate INDENT/DEDENT Token Sequence](https://trueinterview.io/questions/c9e11307-d41a-5d23-8371-436987ec6541)
-- [Validate Brackets & Parse Nested Rich Text](https://trueinterview.io/questions/nested-brackets-rich-text-parse)
-- [Path Existence in Directed and Undirected Graphs with a Blocked Edge](https://trueinterview.io/questions/e7f7ba6c-551c-5ef7-9ccc-04f30e4aa149)
+
+## Technical phone screen
+
+This is about 60 minutes of pair programming with an engineer in a shared editor, in any language. Statements are long and under-specified, parts keep arriving as you finish, and several candidates said grading came down mainly to passing test cases. Five families cover nearly every report.
+
+The layered document is the most common: a `Document` of layers with key-value properties supporting `apply`, `undo` and `commit_batch`, extended into redo, batch undo, `getLayerById`, memory-efficient history, and an old-value flag deciding whether undo restores or deletes a property. One interviewer pushed past a simple stack toward a deque of operation lists with a cap and an eviction rule. Second is a table class with cell, row and table selection and color precedence, or set, get and aggregates. Third is display sort: order canvas documents left to right, group them into rows by y, then respect parent-child containment. Its three escalating parts are the ones candidates most often fail to finish. The last two are parsing (balanced brackets, then a bracketed string into nested lists) and resizing stacked rectangles by a delta with a minimum height of 1.
+
+Interviewers evaluate:
+
+- **Separation of concerns:** Keeping the document model, the command representation and the history manager separate earned explicit credit.
+- **Minimal undo state:** The removed layer and its index, or the old value, not full snapshots.
+- **Unprompted edge cases:** Undo on an empty history is the classic one. One rejected candidate only handled it after being prompted.
+- **Finishing every part:** Running out of time on part three of display sort, or only describing redo without coding it, preceded rejections.
+- **Language fluency:** A C++ range-loop dangling pointer and a non-addressable Go map value each cost candidates significant time.
+
+Rehearse each family against a 60-minute timer, through its last part.
+
+> **Note:** Interviewer engagement varies widely. Some are warm and collaborative. Others stay expressionless, give no hints, repeat the prompt when asked to clarify, or don't know your language. Plan to drive the session and debug alone.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Apply property changes to layers, undo them, group changes with `commit_batch` so one undo reverts the batch, then add redo and keep the history memory-efficient.
+- Build a table that can select a cell, a row or the whole table, apply a color to the selection, and report any cell's color.
+- Sort canvas documents left to right, then group them into rows by y position, then output parents before children with siblings in spatial order.
+- Resize a stack of rectangles by a shared delta, keep every height at least 1, redistribute any leftover shrinkage, and recompute the y positions.
+
+- [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo)
+- [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color)
+- [Display Sort](https://trueinterview.io/questions/bd0ea67e-c112-509d-9f77-688c4ae97445)
 - [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height)
+- [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse)
 
-## System Design Questions
+## Onsite coding interviews
 
-Design at Figma is domain-specific: real-time collaboration semantics, permissions inherited through folders and organizations, and popularity ranking over files. Start simple and add complexity out loud; reported failures came from thin ranking reasoning and from technology picks not tied to a stated constraint.
+Onsite coding stays in the same families and often stacks related problems in one hour. One round asked for permission reachability in a directed graph with cycles, then the undirected version, then pruning at a revoked edge. Another wanted the topmost files a user can access in a permissioned file tree, then the effect of moving a file; a team-and-folder version asked for the fewest grants needed. Others include a nested-group tokenizer feeding `read_rich_text`, grouping documents with overlapping vertical intervals, a preorder walk of a document tree, and a long-winded Number of Islands variant.
 
-- [Real-Time Comment Threads (FigJam / Figma)](https://trueinterview.io/questions/realtime-comments-design)
-- [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking)
+Tracks diverge here. One full-stack hire had a spatial collision problem (brute force to bounding boxes) and a UI round building a filterable, drag-to-reorder multi-select in React. Machine learning candidates completed a BERT extractive-summarization skeleton on movie reviews (initialization, forward pass, prediction and loss) with no generative model allowed. Data engineering screens tested SQL window functions, self-joins, varchar-to-integer casts, and IPv4 validation in Python.
+
+Interviewers evaluate:
+
+- **Working baseline first:** A brute-force solution that is tested and then optimized beat an optimal solution left half finished.
+- **Graph reasoning:** Cycle-safe DFS, reachability, and pruning that respects revoked permissions.
+- **Reading precision:** Statements are long enough that misreading a rule costs real minutes.
+- **UI judgment:** Controlled versus uncontrolled inputs and accessibility, on frontend-leaning loops.
+
+Practice permission graphs and tree traversals until you can write them without thinking, and read the full statement before coding.
+
+### Sample questions for the onsite coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Given a file tree with per-user access, return the topmost files a user can reach, then handle moving a file.
+- Decide whether a permission path exists in a directed graph with cycles, then in an undirected graph, then prune at a revoked edge.
+- Complete the initialization, forward pass, prediction and loss of a BERT extractive summarizer from a skeleton.
+
+- [File System Permissions](https://trueinterview.io/questions/file-system-permissions)
+- [Path Existence in Directed and Undirected Graphs with a Blocked Edge](https://trueinterview.io/questions/e7f7ba6c-551c-5ef7-9ccc-04f30e4aa149)
+- [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right)
+- [BERT Span / Keyphrase Extraction](../../questions/ai-coding/bert-keyphrase-span-extraction/README.md)
+- [Data Engineer Screen — SQL Collaborator Model + IPv4 Validation](https://trueinterview.io/questions/data-engineer-sql-collaborator-ip-validation)
+- [Write SQL for first share and closest collaborator](https://trueinterview.io/questions/write-sql-for-first-share-and-closest-collaborator)
+
+## System design interviews
+
+Software loops usually include two hour-long design rounds drawn from Figma's own product. The most common are real-time comment threads on a Figma or FigJam canvas (data model, viewport fetching, pushing updates to collaborators) and trending or top-K hot files (windowed counts, hotness scoring, caching, sometimes a fast approximate path beside a slow exact one). Others include component templates whose instances update, presentation templates that notify users of new versions, and version control for design files. Two recent prompts are search over files under inherited access control with a fallback when ranking fails, and an evaluation platform for AI agent actions with online and offline metrics.
+
+Some screens are design instead of coding: an async job scheduler with timed jobs, exactly-once execution and worker-failure recovery at L4, or a URL-lifecycle discussion that drilled into DNS, CDNs, service discovery and OAuth. Machine learning tracks get ML design instead: asset and template recommendation modeled on a social feed, a vision-language model that turns prompts into concept sketches (data crawling, labeling and augmentation), home-feed ranking, and natural language to HTML with fine-tuning, reinforcement learning and LLM-as-judge evaluation.
+
+Interviewers evaluate:
+
+- **Realistic scale:** Several of the relevant systems run at far lower QPS than a reflexive web-scale answer assumes.
+- **Ranking depth:** One candidate traced their rejection to a thin answer on time decay, cold start and keeping the top K accurate under heavy writes.
+- **Collaboration semantics:** Conflicting annotations, and when last-write-wins suffices instead of OT or CRDTs.
+- **Driving the hour:** Senior candidates are expected to scope, compare options and recommend without prompting.
+
+Rehearse canvas comments, trending files and permission-aware search end to end at realistic traffic.
+
+> **Tip:** Tie every technology choice to a stated constraint. Candidates did better by starting simple, adding complexity out loud, and acknowledging trade-offs when challenged than by disputing the interviewer.
+
+### Sample questions for the system design interviews
+
+Here are some questions reported by recent candidates:
+
+- Design real-time comment threads that users can place anywhere on a FigJam board, including concurrent replies and hundreds of threads on screen.
+- Design a trending-files feature that balances long-term popularity with recent activity and handles new files with no history.
+- Design search over Figma files that respects permissions inherited through teams and folders and still returns useful results when ranking is down.
+
+- [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design)
+- [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md)
 - [Template & Instance System with Update Propagation](../../questions/system-design/template-instance-propagation-system/README.md)
+- [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking)
 - [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design)
+- [Asset / Template Recommendation & Feed](https://trueinterview.io/questions/ml-recsys-assets-feed)
+- [ML Model Design — Prompt-to-Design Generation](https://trueinterview.io/questions/prompt-to-design-generation)
+- [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/questions/deep-dive-url-request-lifecycle)
 
-## Low-Level Design Questions
+## Project deep dive
 
-The phone screen's signature problems are object design with escalating requirements: separating document model, command representation, and history manager earns explicit credit; a hand-waved memory policy loses it.
+Nearly every onsite includes a deep dive on one past project, often with slides and in several reports the longest session of the day. Interviewers cover the original design, the build phases, what changed and why, the hardest problems, and the second-order effects of each trade-off. Expect to need a substantial production system with real users; side projects were judged insufficient.
 
-- [Document / Layer — Apply, Undo, Commit Batch, Redo](https://trueinterview.io/questions/document-layer-apply-undo)
-- [FigJam Table — Selection & Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color)
-- [File / Folder / Team Permissions — Fewest Grants](https://trueinterview.io/questions/file-system-permissions)
+Interviewers evaluate:
 
-## Behavioral Questions
+- **Your own contribution:** What you drove personally, separate from what the team did.
+- **How the design changed:** The decisions that changed during the project, with reasons.
+- **Leadership scope:** For senior and ML roles, zero-to-one work led at the organization level.
+- **Fit with the interviewer:** One ML candidate's project was misread by an interviewer from another domain; a computer vision project would have landed better.
 
-Behavioral rounds return to conflict resolution, constructive feedback, difficult colleagues, mentorship, growth mindset, roadmap planning, and expanding scope — interviewers want several distinct stories, and a conflict between two reasonable perspectives lands better than one where somebody was plainly wrong. Some screens are instead a broad technical discussion drilling one opening prompt outward into networking, distributed systems, and security.
+Bring the technical detail up yourself, because gaps invite a stream of follow-up questions that eats the hour.
 
+### Sample questions for the project deep dive
 
-## How to Prepare
+Here are some questions reported by recent candidates:
 
-- Build the layered `Document` from scratch more than once: `apply`, `undo`, `commit_batch`, then redo, batch undo, `getLayerById`, and a history compact enough to survive a memory-efficiency follow-up with an explicit cap and eviction rule. This one exercise covers more reported rounds than anything else.
-- Drill display sort as a three-part ladder — sort by x, cluster rows by y, then traverse a parent-child tree preserving order at every level — with a hand-written stable comparator; it is the family most often left unfinished.
-- Practice the permissions graph until reflexive: reachability with cycles, pruning revoked edges, topmost accessible nodes, and what a move does to inherited access.
-- Surface edge cases before you are asked, and spend the final minutes reaching a bug-free state rather than a fuller explanation; incomplete last parts are the most common stated reason for a no.
-- Prepare one substantial production project with real users, told in phases with the decisions that changed and why, and be ready to present it as slides.
-- For design rounds, rehearse real-time comments on a shared canvas and a top-K trending service end to end, defending time decay, cold-start handling, and a ranking-service fallback — at realistic, not web-scale, traffic.
-- Ask the recruiter what the team actually needs before the loop; several rejections came down to breadth or level mismatch that one question up front would have exposed.
+- Present a large project: the initial architecture, its phases, and how it changed over time.
+- Which trade-offs did you consider, and what were the second-order effects of the path you chose?
+
+## Behavioral interview
+
+The behavioral round covers conflict, constructive feedback, a difficult colleague, mentorship, growth mindset, roadmaps and expanding scope; ML loops stress cross-functional collaboration. One senior full-stack loop had a session with a senior engineering manager on product trade-offs and rolling back a feature. Interviewers expect several distinct stories. Some ML loops add a director-level round on leadership and ambiguity, followed by reference checks with a former manager and a peer.
+
+Interviewers evaluate:
+
+- **Real disagreement:** Conflicts between two reasonable views land better than ones where somebody was clearly wrong or the dispute was about values.
+- **High agency, low ego:** Disagreeing with a product manager productively and owning a rollback.
+- **Range:** A fresh, specific example for each question.
+- **Tech-lead judgment:** What leading means to you, with evidence.
+
+Prepare six to eight stories with dates and outcomes, including one about mentorship and one about taking on more scope.
+
+> **Note:** Several rejected candidates named the behavioral or hiring-manager round as the deciding factor, even after strong coding. Treat it as an equal round, not a formality.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Tell me about a time you gave constructive feedback to a teammate.
+- Describe a difficult working relationship and how you handled it.
+- Tell me about a time you expanded your scope beyond your core responsibilities.
+
+- [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral)
+
+## How Figma makes hiring decisions
+
+Feedback from all sessions is weighed together, and correct code alone does not decide the result. Rejections after clean coding cited team mismatch, too little experience or zero-to-one ownership for the level, and weak behavioral answers. One senior candidate believed the bar rose after the mid-2025 IPO. Senior and ML candidates may face a director or executive screen and two reference checks (a former manager and a peer) after the onsite. Decisions come fast: a rejection within two business days, feedback within three, one offer the day after the interview. Silence is harder to read; candidates waited more than four days with no word, were refused feedback, and saw recruiters go quiet after a rejection.
+
+## How to prepare for the Figma interview
+
+1. **Build the layered document twice:** `apply`, `undo`, `commit_batch`, then redo, batch undo and a bounded history with an explicit eviction rule.
+2. **Drill display sort as three parts:** Sort by x, group rows by y, then traverse the parent-child tree, finishing all three within the hour.
+3. **Make permission graphs routine:** Reachability with cycles, pruning at revoked edges, topmost accessible nodes, and the effect of a move on inherited access.
+4. **Finish bug-free, not just well explained:** Unfinished final parts and bugs left after a hint are the most common stated reasons for a no.
+5. **Know your language's pitfalls:** Pointer lifetimes in C++ and map value semantics in Go have each cost candidates time. Expect to debug without help.
+6. **Go deep on ranking:** Time decay, cold start and a ranking-service fallback decide the trending and search rounds.
+7. **Prepare one production project for slides:** Phases, decisions that changed, and your own contribution, in enough detail to fill an hour.
+8. **Confirm team fit early:** Ask the recruiter what the team needs, and tailor your project and stories to it.
+
+## About working at Figma
+
+Figma builds browser-based collaborative design tools: Figma Design, FigJam, Dev Mode, Slides, Sites and the AI-driven Make. The canvas engine is C++ compiled to WebAssembly, the surrounding UI is TypeScript and React, and backend services use Ruby, Go and Rust. Engineers work closely with designers and product managers. The company went public in July 2025 with about 1,650 employees. Software engineers are leveled from L1 to L5.
+
+Figma hires engineers across product and platform groups. Teams include:
+
+- **Editor and design tools:** The C++ canvas engine, the scene graph, and rendering in the browser.
+- **Multiplayer and infrastructure:** Real-time sync and the systems behind live collaboration.
+- **Product engineering:** TypeScript and React surfaces such as panels and toolbars, plus FigJam and Slides features.
+- **AI and machine learning:** Generative design, recommendations, search and evaluation.
+- **Platform, traffic and production engineering:** Backend services, AWS infrastructure and reliability.
+
+### Experience and education requirements
+
+Early-career postings ask for solid computer science fundamentals and clean code in one general-purpose language, with one to three years of experience. Mid-level product roles typically ask for three or more years, and senior backend, infrastructure and ML roles four to five or more. C++ helps on editor teams, TypeScript on product teams, and ML roles expect modeling, serving and deployment experience.
+
+## FAQs about the Figma interview
+
+### How long does the Figma interview process take?
+
+Usually three to five weeks from the recruiter call to a decision. One full-stack offer took about three weeks; reference checks and director rounds add time for senior and ML candidates.
+
+### What is the hardest round of the Figma interview?
+
+The technical phone screen, because parts keep arriving and an unfinished final part often ends the process. Display sort is the variant candidates most often fail to finish. At the onsite, candidates most often cite the trending-files design and the behavioral round.
+
+### Is there an online assessment?
+
+Not for most software roles; the first technical step is a live pair-programming screen in the language of your choice. One ML candidate received the BERT skeleton exercise as an assessment step, while others did the same task live.
+
+### How much does a Figma software engineer make?
+
+Approximate US total compensation:
+
+- **L1:** ~$225K
+- **L2:** ~$305K
+- **L3:** ~$470K
+- **L4:** ~$580K
+- **L5:** ~$780K
+
+Packages combine base salary with RSUs vesting evenly over four years.
+
+### Is the Figma interview remote?
+
+Yes. Reported onsites were virtual, sometimes spread over several days.
 
 ---
 

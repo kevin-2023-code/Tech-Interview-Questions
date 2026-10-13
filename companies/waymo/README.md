@@ -16,17 +16,34 @@ How Waymo interviews, and the questions candidates reported there. Free question
 
 ## How Waymo interviews
 
-Waymo holds candidates to a Google-grade coding bar while testing how they reason about safety-critical, data-heavy systems under ambiguity. This guide goes deeper than the outline on the company page: how each stage is graded, where candidates fail, and how the Machine Learning Engineer track layers ML coding and ML system design onto the shared loop, drawing on 30 real Waymo questions and 37 candidate interview reports.
+Waymo expects finished, tested code for problems interviewers wrote themselves, and unfinished code is the most common rejection reason in the reports. The hiring team builds the loop, so rounds vary widely: a phone screen can be a parser, an object-oriented design or two ML design sessions. Two rounds are rare elsewhere: data fluency, which grades statistical judgment on driving metrics, and system design drawn from the interviewer's own autonomous-driving project.
 
-### Interview Process
+This guide breaks down each stage of the Waymo interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 35 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Waymo interview process
 
 <!-- guide-diagram -->
 ![Waymo interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/waymo/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter conversation and logistics.** Use this call to pin down three things candidates repeatedly wish they had confirmed: the exact track (software, ML, simulation, infrastructure, SRE, mobile), the target level, and the format of the next round. Leveling mismatch is a real failure mode — one candidate passed the technical screen cleanly and was still turned down because the recruiter framed the opening as L4 while the hiring manager wanted senior scope. Recruiters are not always specific about topics, so ask directly whether the screen will be algorithmic, design-flavored, or domain-specific. End to end, the process typically runs four to eight weeks, with interviewer feedback reviewed by a hiring committee before an offer.
+The usual path is a recruiter call, one technical screen (sometimes two), and a virtual onsite of three to five rounds. Each team picks its own onsite mix. One software loop had two coding rounds, fleet design and behavioral. Another had pen-plotter design, data fluency, data system design and technical leadership. The process typically takes four to six weeks.
 
-**Technical phone screen.** Usually a single 45-60 minute call built around one substantial problem, sometimes preceded by 10-15 minutes of project and behavioral questions. Two patterns stand out in candidate reports. First, many problems are interviewer-authored rather than textbook: custom string grammars with escapes, contamination tracking on a number line, alternating two-column layout minimized by binary search, expression trees serialized with minimal parentheses. Recognizing a famous pattern helps less than disciplined requirement discovery. Second, the grading is strict about finished code: candidates who produced only detailed pseudocode or an unpolished implementation report quick rejections, even when the interviewer liked their reasoning. Expect follow-ups that mutate the problem — query an encoded string by index without decoding, extend a fixed chessboard to an infinite one, generalize three operands to n — and expect to define your own function signatures, write your own tests, and sometimes share your screen while coding. A meaningful fraction of screens are not algorithmic at all: candidates have been asked to design a text editor, a passenger-pickup scheduler, or an interval tracker over timestamp signal streams at this stage.
+Early-career and L4 loops are mostly coding plus one design round. Senior loops add system design, data fluency with experiment design, and sometimes a technical leadership round built on hypotheticals. ML loops keep an algorithm round and add ML coding, ML system design and a project deep-dive.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call that confirms team, track, target level and the next round's format.
+- **Technical phone screen (one or two):** A 45–60 minute live session, usually one substantial problem.
+- **Coding interviews:** One or two onsite rounds of interviewer-written problems that change as you solve them.
+- **Object-oriented and practical design round:** Model a workflow, parse messy data or rewrite flawed code, at the screen or onsite.
+- **System design interview:** A conversational round on fleets, simulation, evaluation platforms or logs.
+- **Data fluency interview:** Compare experiments on driving or latency metrics and defend a statistical conclusion.
+- **ML coding and ML system design (ML tracks):** NumPy from scratch and perception or prediction design on sensor data.
+- **Behavioral and technical leadership interview:** Project deep-dive, motivation and judgment scenarios, sometimes with the hiring manager.
+
+> **Tip:** Ask the recruiter for each round's topic, then keep a fallback ready. One candidate told to expect C++ coding got a protocol-style parser. Another expected algorithms and got a text-editor design.
 
 **[Read the full Waymo interview process →](interview-process.md)**
 

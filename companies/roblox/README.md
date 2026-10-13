@@ -16,21 +16,33 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 
 ## How Roblox interviews
 
-The company page sketches the shape of the Roblox loop; this guide covers what happens inside each round — how follow-ups branch, what interviewers actually grade, and where otherwise strong candidates lose the offer. It draws on 46 real Roblox questions and 42 candidate interview reports, so the patterns below reflect the loop as it runs in practice, not as it reads on paper.
+Roblox interviews draw on a small set of recurring problems, each extended with follow-ups. A sliding-window rate limiter opens more screens than any other prompt, and call-stack log parsing and topological sort with a tie-break recur too. Candidates who knew these families still failed when their first version could not be extended. Most rejections come in design and leadership rounds: interviewers expect schemas, cache keys and a SQL query, and hiring managers ask for the traffic numbers behind your past work. The target team hires, and a director conversation that also sets the level ends most experienced loops.
 
-### Interview Process
+This guide breaks down each stage of the Roblox interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 56 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Roblox interview process
 
 <!-- guide-diagram -->
 ![Roblox interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/roblox/process.webp)
 <!-- guide-diagram -->
 
-**Getting in the door.** The entry path depends on level. New-grad and early-career applicants frequently receive an online assessment soon after applying — a CodeSignal-style package that pairs two algorithm problems (commonly one medium, one hard) with short strategy mini-games and a timed workplace-judgment section — and some candidates are cut after it with no feedback at all. Experienced hires usually move from a short recruiter call straight to a technical screen. Use the recruiter conversation to pin down what your loop will emphasize, but treat the answer as directional: one senior candidate was told to expect system design and got a pure implementation screen instead.
+The hiring team runs its own loop, so round topics follow the team's domain: ads, fraud and payments, data infrastructure, frontend, or machine learning. Early-career applicants usually get an online assessment as soon as they apply. Experienced hires go from a recruiter call to one technical screen and then a virtual or in-person onsite. Reported onsites ranged from two rounds (one coding, one design) to six, and four or five is typical. The whole process has run from about three weeks to about three months.
 
-**Technical phone screen.** The screen runs about 45–60 minutes and starts fast — often only a minute or two of introductions before the problem appears. The standard shape is one problem plus a follow-up that stretches it: a single-key rate limiter grows independent per-user and per-experience windows, a dependency ordering gains a smallest-ID tie-break that forces a min-heap, a call-stack counter picks up two extra constraints. Some screens run submissions against hidden test cases, so a solution that is only verbally correct can still fail. Interviewers weigh clarifying questions, complexity analysis, and boundary handling — empty inputs, exact window edges, first-seen keys — as heavily as the happy path.
+New-grad and intern loops are mostly coding: an assessment, then a virtual onsite with two problems. Mid-level loops add system design and a hiring-manager round; senior loops add a project deep dive and a director or VP round that sets the level. Principal candidates were told their first technical round would be system design and the onsite would be in person.
 
-**Virtual onsite.** Most loops land at 4–5 rounds, but candidates report real variance: some onsites ran just two rounds (one coding, one design) while others stretched to six across coding, design, behavioral, hiring-manager, and executive conversations. Beyond coding and design, most loops include a project deep dive in which a senior engineer spends up to an hour interrogating one resume project — architecture, data volumes, failure cases, measurable impact, and what you would rebuild differently. Shallow ownership is exposed quickly here. Senior candidates should also expect a director or senior-leader conversation about technical vision, prioritization, and motivation, sometimes run bar-raiser style by someone outside the target team.
+Here's what the interview process can look like:
 
-**Behavioral and values rounds.** Tone varies from relaxed and conversational to strictly scripted: one candidate fielded more than 15 behavioral questions in 45 minutes with no follow-up probing. Hiring managers push hard on the scale of your past work — daily active users, request rates, data volume — because hands-on experience with large traffic carries real weight. Roblox publishes its values (Respect the Community, Take Responsibility, Take the Long View, Get Stuff Done), and answers that tie decisions to community impact and long-term consequences land better than generic recitals.
+- **Recruiter screen:** A non-technical call of about 30 minutes about background, level, salary expectations and the three-day in-office policy.
+- **Online assessment (early career):** Game-based cognitive tests, a workplace-judgment section and one or two timed coding problems.
+- **Technical phone screen:** About an hour with one problem and two follow-ups that extend it, or a design prompt for senior candidates.
+- **Coding interviews:** Usually one round for experienced hires and two for new grads, with practical, scenario-framed problems.
+- **System design interview:** Social and game-platform features at scale. ML candidates get a modeling round instead, and frontend candidates a component design.
+- **Project deep dive:** A senior engineer spends up to an hour questioning one project from your resume.
+- **Behavioral and leadership interviews:** The hiring manager, plus a director, VP or senior director for experienced roles.
+
+> **Tip:** Write every first solution so it can take a key. Candidates rarely failed the base problem; they failed rewriting a single-key design into a per-entity one under time pressure.
 
 **[Read the full Roblox interview process →](interview-process.md)**
 

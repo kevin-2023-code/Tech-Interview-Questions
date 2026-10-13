@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn · Meta · +5 | Phone screen | hashing, linked-list | Apr 2026 |
+| AI Coding | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn · Meta · +5 | Phone screen | — | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/lru-cache)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.

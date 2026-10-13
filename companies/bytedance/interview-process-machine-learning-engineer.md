@@ -6,100 +6,241 @@
 
 ---
 
-Machine Learning Engineer candidates at ByteDance are rejected even when their theory answers are correct. One candidate explained Flash Attention, KV cache and RoPE on request, solved a course-schedule topological sort and binary-tree maximum path sum, and was still cut. He could discuss multimodal embedding training conceptually but not describe pipeline details and failure modes from his own work. An intern who completed a stalled project, shipped the model and published the paper had a return-offer presentation approved. He was then asked for an extra interview and, after passing it, a one-hour coding round with four medium-to-hard problems. He did not finish all four and was rejected. Most technical hours on this track are split three ways, roughly twenty minutes each of resume, ML fundamentals and coding, so a weak third costs you in every round.
+ByteDance runs its Machine Learning Engineer loop as a series of near-identical technical hours, each split into roughly 20 minutes of resume drill, 20 of ML fundamentals and 20 of coding, with fundamentals deliberately repeated: one candidate who got an offer was asked about dropout in all three rounds, one layer deeper each time. Textbook answers are not enough. Candidates who explained attention, KV caching and RoPE fluently were still rejected when they could not describe how their own training pipeline broke and was fixed. Coding stays a hard gate even for published researchers, and headcount shapes outcomes.
 
-## Interview Process
+This guide breaks down each stage of the ByteDance Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 19 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## ByteDance Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![ByteDance Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/bytedance--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter and HR screen (20 minutes to about 1.5 hours).** Background, motivation, start date and, for new graduates, visa status and graduation timing. One senior candidate on a data-security team had an HR screen of about 1.5 hours, then waited two weeks before the technical rounds. Compensation can come up early: a PhD new-grad candidate was told the ceiling in that organization was 300k. Ask which domain the team works in (recommendation, ads, multimodal, LLM safety, serving), because the fundamentals questions follow it. One candidate found the team's real need differed from the recruiter's description.
+ByteDance hires ML engineers team by team, and the team's domain (recommendation, ads, e-commerce, multimodal content, LLM safety, model serving) sets the fundamentals and design questions. Most loops are two to four technical hours by phone or video, then an HR or hiring-manager conversation; some teams run five rounds over two days instead. Candidates report about two weeks between rounds and about a week for each result.
 
-2. **Online assessment (ML and research pipelines, 70 minutes).** A hosted battery of 10 questions. The theory questions cover confusion matrix, recall and false positive rate, ensembles, decision-tree impurity, reasons training loss rises, overfitting and regularization, gradient boosting versus random forest, and a neural-network forward pass computed by hand. The three coding items are local-maximum detection, bagging and k-means, with no external libraries allowed. That is about seven minutes per question, so implementations you have already memorized turn directly into score.
+New-grad and PhD loops lean on fundamentals; senior loops shorten coding and probe domain fit, sometimes in two back-to-back hours, one in English and one in Mandarin. Research-leaning variants swap a technical hour for a research talk.
 
-3. **Technical rounds (typically two to four phone or video hours).** Each hour opens with a project or research deep dive, moves to ML fundamentals, and ends with a medium problem in a shared editor, often Lark with visible test cases only. Reported problems: rotate array in place, maximum subarray, MinStack then MaxStack then a streaming median, an upward path-sum on a tree, reverse nodes in k-groups, counting interesting subarrays with prefix sums and a Fenwick tree, a binary-search variant, BFS for minimum jumps home, and a path-exists graph problem where the interviewer said BFS was enough. Fundamentals overlap between rounds on purpose. In one offer-winning loop, dropout came up in all three rounds, going from the mechanism, to BatchNorm versus LayerNorm, to the train-versus-inference scaling. Senior loops may run two one-hour rounds back to back, one in English and one in Mandarin.
+Here's what the interview process can look like:
 
-4. **Onsite-style extended loop (some teams, over two days).** One reported loop had five rounds over two days: three coding hours (stickers to spell word with bitmask DP, minimum window substring, find median from a data stream with follow-ups on bounded ranges, deletions and concurrency), a short-video recommendation design, and a behavioral hour. A surprise extra round ("checking another area") asked whether an array contains a Pythagorean triple. The interviewer then asked for a better-than-O(n^2) solution, only to see whether the candidate would invent a wrong optimization.
+- **Recruiter and HR screen:** Background, start date, visa status and sometimes compensation, from 20 minutes to about 90.
+- **Online assessment (some ML and research pipelines):** Ten questions in 70 minutes of ML theory, a hand-computed forward pass and from-scratch code.
+- **ML fundamentals and project deep dive (every technical hour):** About 40 minutes of resume drill and theory at derivation depth.
+- **Coding interviews:** One medium problem per hour in a shared editor, harder in extended loops.
+- **ML system design interview:** An open-ended design from the team's domain, inside a technical hour or as a full round.
+- **Behavioral and hiring manager interview:** Hardest project, conflict, weaknesses and workload tolerance.
 
-5. **ML system design.** This is usually folded into a technical hour, though it is a full round in extended loops. Reported prompts: choosing K, the number of retrieved candidates, per request; detecting sham transactions with graph features and a rules-then-XGBoost-then-GNN cascade; training a multimodal model for joint embeddings; deploying a captioning model under tight compute; tool-use agents that keep state; and a full short-video recommender with recall, coarse ranking, fine ranking and re-ranking. Interviewers push on the objective, label construction, cold start, feature leakage, real-time features and choosing online metrics like watch time over CTR.
+> **Tip:** Prepare the one project closest to the team's domain at implementation level: data, loss, the failure you hit and the metric that moved. Every hour opens on your resume, and rejections cluster where answers stayed conceptual.
 
-6. **Research presentation (research scientist and research engineer variants).** One round becomes a job talk to a panel, followed by defense-style questions. A candidate who got an offer prepared over an hour of slides and gave interviewers a menu of papers to choose from. A separate conversation with a second group, pure research with no coding, has also been reported, conducted in Chinese.
+## Recruiter and HR screen
 
-7. **Behavioral, HR and closing.** Questions include your most challenging project, disagreements, weaknesses, why you are leaving, and a blunt "can you handle a high-intensity workload?" Rejections sometimes come with an offer to match you to another team in the same organization.
+The first call covers background, motivation and start date; for new graduates also visa status and graduation timing, and some graduate postings require a committed onboarding date. One senior candidate's HR screen ran about 90 minutes, followed by two weeks before technical rounds. Compensation can come up directly: a PhD new-grad candidate was told the ceiling in that organization was 300k. The recruiter's team description can be wrong; one senior candidate learned mid-loop that the real need was not LLM post-training at all.
 
-8. **Pacing.** This track runs slower than the others. Candidates report about two weeks between rounds and about a week to hear whether they advanced. Some candidates made three or four attempts across departments before an offer.
+Interviewers look for:
 
-## What They Actually Evaluate
+- **Domain alignment:** Recent work that maps onto the team's product area.
+- **Availability:** A firm start date and graduation timeline, which decide many graduate offers.
+- **Motivation:** A concrete reason for this team, not big-tech ML in general.
+- **Expectation fit:** Compensation expectations that match the level the team has open.
 
-### ML Theory
+Use this call to ask what the team builds, how many rounds remain and which language they run in.
 
-The heaviest competency, examined at derivation depth. Candidates wrote pseudocode for self-attention and cross-entropy, derived the binary classification loss by hand, and explained the √d_k scaling, the purpose of the feed-forward block, KL divergence as a loss, AUC/ROC, and why XGBoost overfits less than a single tree. One ads-team candidate was pressed on the math behind log-q correction and why MSE is a poor fit for classification. Generative-model teams add multi-head attention, vLLM PagedAttention and continuous batching, and RLHF. The failure mode is a fluent first answer that falls apart on the second "why."
+## Online assessment
+
+Some ML and research pipelines open with a hosted assessment of 10 questions in 70 minutes. Theory items cover the confusion matrix, recall and false positive rate, ensembles, Gini and entropy, why training loss rises, regularization, and gradient boosting versus random forest, plus a neural-network forward pass computed by hand. The coding items were local-maximum detection, bagging and k-means, with no external libraries. At about seven minutes per question, code you can write from memory decides the score.
+
+Interviewers evaluate:
+
+- **Theory precision:** Exact definitions; loose answers fail the multiple-choice items.
+- **From-scratch fluency:** Bootstrap sampling, centroid updates and convergence checks with only the standard library.
+- **Arithmetic accuracy:** Forward-pass values computed correctly under time pressure.
+
+Write bagging, k-means and a forward pass from scratch until each takes under ten minutes.
+
+> **Note:** Because numerical libraries are banned, candidates used to library calls for distances or resampling lose most of their time rebuilding them mid-test.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Implement k-means from scratch and return the final cluster assignments.
+- Implement bagging with bootstrap samples and majority voting, without libraries.
+
+- [ML Concepts and Coding Assessment](https://trueinterview.io/questions/codesignal-ml-rs-oa)
+- [Bagging from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-bagging-from-scratch)
+- [k-Means from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-k-means-from-scratch)
+- [Local maximum on a 1-D stream](https://trueinterview.io/questions/codesignal-ml-rs-oa-local-maximum-on-a-1-d-stream)
+
+## ML fundamentals and project deep dive
+
+Every technical hour opens with your resume: why each design choice was made, how experiments were run and what you personally owned; one interviewer criticized a project's small user base. Fundamentals then follow the project, so an ads candidate was pressed on the math of log-q correction and why mean squared error suits classification poorly. Reported topics: self-attention and cross-entropy pseudocode, the square-root scaling in attention, the feed-forward block, binary classification loss derived by hand, KL divergence, AUC, XGBoost regularization, BatchNorm versus LayerNorm, and dropout scaling. Generative-model teams add Flash Attention, KV caching, RoPE, paged attention, continuous batching and RLHF.
+
+Interviewers evaluate:
+
+- **Derivation depth:** The third "why" still has an answer, down to formulas and gradients.
+- **Ownership:** Your decisions and trade-offs, not the team's summary.
+- **Hands-on detail:** Pipelines, data alignment and failure modes from your own runs.
+
+Memorize every formula behind your resume projects and practice deriving common losses on a blank page.
+
+> **Note:** A candidate who discussed multimodal embedding training well at the concept level, with contrastive losses and modality encoders, was rejected after two strong coding rounds; interviewers wanted first-hand pipeline details and failure modes.
+
+### Sample questions for the ML fundamentals and project deep dive
+
+Here are some questions reported by recent candidates:
+
+- Write pseudocode for self-attention and cross-entropy, then explain why scores are divided by the square root of the key dimension.
+- Explain dropout and how activations are scaled so training and inference match.
+- Explain why XGBoost overfits less than a single tree, naming each regularization mechanism.
 
 - [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/questions/ml-knowledge-oral-cluster)
 - [Hand-Code Self-Attention and Cross-Entropy](https://trueinterview.io/questions/self-attention-cross-entropy-pseudocode)
-- [Bagging from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-bagging-from-scratch)
-- [k-Means from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-k-means-from-scratch)
+- [Explain XGBoost's Overfitting Resistance](https://trueinterview.io/questions/explain-xgboosts-overfitting-resistance)
+- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
 
-### ML System Design
+## Coding interviews
 
-Open-ended and driven by the interviewer. The dynamic-K prompt shows the style: whatever threshold you propose becomes the next modeling problem, so you end up discussing bandits and reward design. What earns credit is a stated objective, a labeling plan, offline and online evaluation, and cost-quality trade-offs. Naming architectures does not.
+Each standard hour ends with one medium problem, sometimes two, in a shared editor, often ByteDance's Lark with only the given examples to pass. Reported problems: rotating an array in place, maximum subarray, reversing a linked list in groups of k, binary-tree maximum path sum, course scheduling, minimum jumps home by BFS, and counting subarrays where values above a threshold outnumber the rest, solved with prefix sums and a Fenwick tree. Chains are common: MinStack, then MaxStack, then a streaming median. Extended loops go harder, with stickers-to-spell-word bitmask DP and minimum window substring, and a converting intern faced four medium-to-hard problems in one hour.
+
+Interviewers evaluate:
+
+- **Finishing:** Running code in about 20 minutes; pseudocode at the bell counts as unsolved.
+- **Edge cases:** Exact multiples of k, k equal to 1, zeros and duplicates.
+- **Honest complexity:** A real lower bound instead of an invented optimization.
+- **Follow-up adaptation:** Extending a working structure rather than restarting.
+
+Practice linked lists, trees, prefix sums, heaps and graph search until a medium takes 20 minutes.
+
+> **Note:** In a surprise extra round, the interviewer asked for a faster-than-quadratic Pythagorean-triple check only to see whether the candidate would invent one. Stating that the bound holds without extra constraints was correct.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Reverse a linked list in groups of k, leaving a short final group unchanged.
+- Decide whether some upward path from a node toward the root of a positive-valued tree sums to a target.
+- Detect a, b and c in an array with a squared plus b squared equal to c squared, handling zeros and duplicates.
+
+- [Reverse the Order of k-Groups in a Linked List](https://trueinterview.io/questions/696ce95e-fd57-5869-a38c-d7a4db538696)
+- [MinStack, MaxStack and Streaming Median](https://trueinterview.io/questions/streaming-median-min-max-stack)
+- [Count of Interesting Subarrays](https://trueinterview.io/questions/183844b9-53d4-5fd4-b729-237e53de7f2a)
+- [Pythagorean Triple in an Integer Array](https://trueinterview.io/questions/pythagorean-triple-integer-array)
+
+## ML system design interview
+
+Design is usually a 20- to 30-minute segment of a technical hour and a full round in extended loops. Prompts come from the team's product: choosing per request how many retrieved candidates go to ranking, detecting self-dealing transactions, training a multimodal embedding model, captioning video under tight compute, keeping state in a tool-using agent, and a full short-video recommender. In the dynamic-K prompt, each threshold a candidate proposed became the next modeling problem, ending in contextual bandits.
+
+Interviewers evaluate:
+
+- **Objective first:** A metric balancing quality against compute cost before any architecture.
+- **Labels and features:** Where labels come from; graph, temporal and relational features for fraud.
+- **Production realism:** Cold start, timestamp-safe features against leakage, and real-time behavior sequences.
+- **Evaluation:** Offline metrics plus A/B tests on watch time or retention, not click-through alone.
+
+Practice recommendation and integrity designs, opening each with the objective and label plan.
+
+> **Tip:** In the short-video recommender, follow-ups targeted how multi-objective weights are set, how a swipe-away reaches the next request, and why click-through rate alone breeds clickbait. Have an answer for each.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Use a model to set K, the number of retrieved items passed to ranking, per request, and evaluate it offline and online.
+- Detect sham transactions on an e-commerce platform, covering features, a rules-then-model cascade and evaluation.
+- Deploy a multimodal captioning model under tight compute, then speed up search over captions and embeddings.
 
 - [Dynamic K in Retrieval Stage](https://trueinterview.io/questions/dynamic-k-retrieval-ml-system-design)
 - [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system)
-- [Agent Tool-Use System Design (AML Volcano Engine)](https://trueinterview.io/questions/agent-tool-use-system-design)
+- [Design Self-Dealing Detection for Marketplaces](https://trueinterview.io/questions/design-self-dealing-detection-for-marketplaces)
+- [Design video captioning under compute limits](https://trueinterview.io/questions/design-video-captioning-under-compute-limits)
 
-### Coding and Algorithm
+## Behavioral and hiring manager interview
 
-About 20-25 minutes per hour at medium difficulty, with hard problems in extended loops and conversion rounds. Linked lists, trees, prefix sums and heaps dominate. One candidate who wrote only pseudocode for reverse nodes in k-groups ran out of time and was rejected. Interviewers are said to reuse problems across candidates, so covering many patterns pays off.
+Behavioral questions come in an HR round, a hiring-manager conversation or a dedicated hour in extended loops: your hardest project, disagreements, your biggest weakness, why you are leaving, and a blunt question about handling a high-intensity workload. Hiring managers also test whether your experience matches what the team builds. Research variants use a job talk instead; one candidate who got an offer prepared over an hour of slides and offered a menu of papers.
 
-- [Reverse the Order of k-Groups in a Linked List](https://trueinterview.io/questions/696ce95e-fd57-5869-a38c-d7a4db538696)
-- [Binary Tree Maximum Path Sum (with path reconstruction)](https://trueinterview.io/questions/binary-tree-max-path-sum)
-- [Count of Interesting Subarrays](https://trueinterview.io/questions/183844b9-53d4-5fd4-b729-237e53de7f2a)
-- [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring)
+Interviewers look for:
 
-### Project Deep Dive
+- **Candor on workload:** A direct answer about sustained pace and cross-timezone meetings.
+- **Conflict handled with data:** A disagreement settled by evidence, with the outcome.
+- **Team fit:** A specific reason this team's problems match your experience.
 
-Every round opens here. Interviewers probe design choices, escalation thresholds, and offline evaluation methodology, and one criticized a project's small user base. Candidates advise memorizing every formula tied to projects on your resume.
+Prepare four or five stories with metrics and an honest answer about working intensity.
 
-- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
+### Sample questions for the behavioral and hiring manager interview
 
-## What They Don't Test
+Here are some questions reported by recent candidates:
 
-- **Framework or library fluency.** From-scratch implementations are required (bagging, k-means without libraries). What gets asked is the math of the model, not API details.
-- **Leaderboard-style model trivia.** Design rounds reward objectives and evaluation over naming the newest architecture.
-- **Heavy hard-algorithm grinding for standard loops.** Most rounds use medium problems, and the extended and conversion loops are the exception.
-- **Invented optimizations.** Interviewers test whether you will claim a speedup that does not exist. Stating a correct lower bound is rewarded.
+- Tell me about your most challenging project.
+- Can you handle a high-intensity workload?
 
-## The Real Filter
+- [Describe your most challenging project and leadership](https://trueinterview.io/questions/describe-your-most-challenging-project-and-leadership)
+- [Hiring Manager / Final Behavioral Round](https://trueinterview.io/questions/hm-behavioral-final-round)
 
-The primary filter is hands-on depth in the team's own domain. Candidates who answer theory correctly still fail when the conversation moves to how their own pipeline was trained, broke and was fixed. Candidates misjudge this because the early questions feel like a textbook quiz. Choose one project that matches the team's domain and be ready to discuss it at the implementation level.
+## How ByteDance levels and evaluates Machine Learning Engineer candidates
 
-The second filter is coding under time pressure, even for strong researchers. A published intern lost a return offer on an unfinished four-problem hour, and others ran out of time on linked-list pointer work.
+The hiring team owns the decision, and level and headcount are usually fixed before the loop. Strong rounds do not guarantee an offer: one candidate had a third round scheduled after two good screens, then was rejected before it happened. Rejections sometimes include an offer to match with another team in the same organization. Conversions are not automatic: an intern whose model shipped and whose paper was accepted was asked to extend instead, then given an extra interview and a four-problem coding hour, and was rejected.
 
-The third filter is the organization itself. Rounds scheduled and then cancelled, extra rounds after approval, and recruiter descriptions that did not match the team's needs all show up. Get the conversion or hiring process in writing, and confirm the team's actual focus on the first call.
+> **Tip:** Confirm the level, the team's real focus and the remaining rounds in writing early; interns should get conversion criteria in writing before the internship ends.
 
-## Data Source
+## How to prepare for the ByteDance Machine Learning Engineer interview
 
-Based on 19 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+1. **Prepare one domain-matched project in depth:** Data, loss, failures, fixes and the metric that moved.
+2. **Derive the classics on paper:** Cross-entropy, binary classification loss, scaled attention, dropout scaling and log-q correction.
+3. **Expect repeated topics:** Prepare three layers on dropout, normalization, overfitting and XGBoost.
+4. **Add LLM serving for generative teams:** KV caching, paged attention, continuous batching, Flash Attention, RoPE and RLHF.
+5. **Write ML algorithms without libraries:** Bagging, k-means and forward passes for the assessment.
+6. **Finish mediums in 20 minutes:** Linked lists, trees, prefix sums, heaps and graph search, with your own edge cases.
+7. **Open every design with the objective:** Metric, labels, cold start, leakage and online evaluation before architecture.
+8. **Be ready for Mandarin rounds:** Keep code comments and identifiers in English either way.
 
-## FAQ
+## About the ByteDance Machine Learning Engineer role
 
-**What is it like to work as a Machine Learning Engineer at ByteDance?**
+ML engineers at ByteDance ship models to very large traffic, with recommendation and ranking at the core: multi-stage pipelines with real-time features and constant online experiments. Many teams work closely with colleagues in China. Since January 2026, TikTok's US data protection and algorithm security work sits in a separate US joint venture, while commerce, ads and global product teams stay with ByteDance entities, so the employer depends on the team.
 
-The interview reports focus on hiring. What they do document: ML teams ship models to very large traffic quickly, research groups publish, and interviewers ask directly whether you can handle a high-intensity workload. One former intern described their team as chaotic. Many teams sync with China in the evening US time.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| 1-2 | Entry level, including most new-grad and PhD hires | A model component or feature pipeline |
+| 2-1 | Independent owner of models and experiments | A team's model or ranking stage |
+| 2-2 | Senior engineer leading projects | Several models or a cross-team effort |
+| 3-1 | Technical lead | An organization's ML direction |
 
-**What is the engineering culture like?**
+ByteDance hires Machine Learning Engineers across many product groups. Teams include:
 
-Grounded in fundamentals and driven by metrics. You are expected to defend objectives and evaluation, and to own a business metric. Interviewers are usually collaborative and give hints when you think aloud, and questions come straight from your resume.
+- **TikTok recommendation:** Recall, ranking and re-ranking for the main feed.
+- **Ads and monetization:** Ad ranking, targeting and measurement, including commerce ads.
+- **Global e-commerce:** Search and recommendation for the shopping business.
+- **Seed:** Foundation models across language, speech and vision.
+- **Trust and safety and data security:** Moderation, multimodal safety and LLM safety.
+- **Volcano Engine:** Cloud ML platform and agent tooling.
 
-**How hard is it to get in?**
+### Machine Learning Engineer experience and education requirements
 
-Hard, and often it takes several attempts. One offer came on a third attempt, and another candidate had interviewed with four departments. The bar is broad: classical ML, deep learning internals, LLM serving, open design and coding, often inside the same hour.
+Graduate postings typically ask for a master's or PhD in computer science or a related field, Python or C++, and PyTorch or TensorFlow; research-leaning roles prefer top-venue publications. Experienced roles want production work in recommendation, ads, search or large-model training and serving.
 
-**Which round is hardest?**
+## FAQs about the ByteDance Machine Learning Engineer interview
 
-The round closest to the team's domain, where conceptual answers stop being enough. For pure time pressure, the 70-minute, 10-question assessment and the multi-problem conversion coding hour are the hardest.
+### How long does the ByteDance Machine Learning Engineer interview process take?
+
+Usually one to two months, with about two weeks between rounds and about a week per result.
+
+### What is the hardest round of the ByteDance Machine Learning Engineer interview?
+
+The round closest to the team's domain, where conceptual answers stop earning credit. For time pressure, the ten-question assessment and multi-problem coding hours are hardest.
+
+### How much does a ByteDance Machine Learning Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **1-2:** ~$182K
+- **2-1:** ~$297K
+- **2-2:** ~$388K
+
+Packages combine base salary, a cash bonus and stock vesting over four years after a one-year cliff, with base the largest component.
+
+### What happens after a rejection?
+
+Another team in the same organization may pick up your profile, and reapplying to other departments is common: one candidate had interviewed with four departments, and another got an offer on a third attempt.
 
 ---
 

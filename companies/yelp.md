@@ -45,17 +45,17 @@ Which stage each question came from, for the **20 of 20** questions at Yelp that
 
 ## What they ask about
 
-Of the **11 questions at Yelp that carry a topic label** (55% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Yelp that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `heap` | 4 | 36% | ████████████ | Apr 20, 2025 |
-| `greedy` | 3 | 27% | █████████ | Mar 30, 2026 |
-| `strings` | 2 | 18% | ██████ | Apr 20, 2025 |
-| `graphs` | 1 | 9% | ███ | Apr 20, 2025 |
-| `hashing` | 1 | 9% | ███ | Apr 20, 2025 |
-| `sliding-window` | 1 | 9% | ███ | Apr 21, 2025 |
-| `sorting` | 1 | 9% | ███ | Aug 27, 2026 |
+| `heap` | 4 | 40% | ████████████ | Apr 20, 2025 |
+| `greedy` | 2 | 20% | ██████ | Apr 20, 2025 |
+| `strings` | 2 | 20% | ██████ | Apr 20, 2025 |
+| `graphs` | 1 | 10% | ███ | Apr 20, 2025 |
+| `hashing` | 1 | 10% | ███ | Apr 20, 2025 |
+| `sliding-window` | 1 | 10% | ███ | Apr 21, 2025 |
+| `sorting` | 1 | 10% | ███ | Aug 27, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

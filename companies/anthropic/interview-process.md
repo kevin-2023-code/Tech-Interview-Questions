@@ -8,90 +8,268 @@
 
 ---
 
-This guide goes deeper than the short outline on the Anthropic company page: what each stage actually contains, how it is graded, and where strong candidates still get cut. It draws on 66 real Anthropic questions and 136 candidate interview reports, so the patterns below reflect how the loop runs in practice, not how it is described in a job posting.
+Anthropic's technical questions come from a small, recycled pool of practical problems: a web crawler, file deduplication, a tokenizer, stack-trace reconstruction, an LRU cache and an image pipeline. Each grows in stages, so the grade rests on speed, self-testing and clean handling of a changed constraint, not on novelty. The values round is a hard gate. Candidates who rated every technical round strong were still rejected, and one loop gained an extra culture interview after a weak first signal. Level is set in the hiring review after the loop, and references are checked before any offer. In 2026 some rounds began providing Claude Code, while most live coding still bans AI tools.
 
-## Interview Process
+This guide breaks down each stage of the Anthropic interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 148 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Anthropic interview process
 
 <!-- guide-diagram -->
 ![Anthropic interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/anthropic/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen (15–30 minutes).** This is a genuine filter, and candidates are rejected at this stage. Beyond logistics (visa status, competing pipelines, leveling), the recruiter probes whether you can articulate why Anthropic specifically: your view on the risks and benefits of advanced AI, and in some cases familiarity with the company's Responsible Scaling Policy, which reading material may be shared ahead of the call. Two other things distinguish this stage. First, recruiters often send the exact topics of every upcoming round in advance — treat that email as your preparation spec. Second, expectations get set early: reference checks with two former coworkers are a formal step before offer, and remote employees are expected onsite roughly a quarter of the time. Some recruiter calls turn into hour-long technical discussions, so do not show up in small-talk mode.
+The skeleton is shared across engineering roles, and each track swaps in its own technical rounds: inference and distributed-systems work for infrastructure, agent and prompting exercises for AI engineering, timed take-homes for research. A typical path is an online assessment, a recruiter screen, one or two technical screens, and a virtual onsite of four to six rounds, often split across two days. Referred, senior and staff candidates often skip the assessment and start with a hiring-manager chat or a design screen.
 
-**Online assessment (roughly 90 minutes, CodeSignal).** Most tracks start with a four-level progressive build of one stateful system rather than isolated puzzles. The recurring families: an in-memory database (transactions, backup/restore, TTL expiry, then a time-travel `get_when` lookup), a bank system (transfers with pending holds, accept/timeout semantics, account merges where an old ID can be recreated), a task manager (TTL plus point-in-time snapshots), a recipe manager (versioning and rollback with case-insensitive uniqueness), cloud storage, and worker/grant management. Tests are usually visible, only the standard library is allowed, and scoring is out of 600 or 1000 points. Level four routinely consumes half the clock, so bank time on the early levels — and note that even a perfect score does not guarantee advancement, since resume review and team matching continue in parallel.
+Gaps of two to three weeks between stages are common, so the whole process usually takes one to two months. Post-onsite decisions are fast, often within one to three days. Recent loops ran the full technical loop before team matching, so a late hiring manager round can still end the process.
 
-**Technical phone screen (45–60 minutes).** A live, practical exercise in a shared editor — Anthropic explicitly avoids standard algorithm-memorization questions, and the problems are drawn from a small recycled pool: a web crawler (single-threaded BFS first, then concurrent), file deduplication (size pre-filter, then streaming hashes), a longest-match tokenizer, stack-trace reconstruction, an image-processing pipeline (typically Pillow plus `ProcessPoolExecutor`), and an LRU cache with debugging or durability follow-ups. Searching documentation is allowed; AI tools are not, and this is enforced. Follow-ups predictably shift constraints — is it I/O-bound or CPU-bound, what changes for huge files, how does it distribute across machines — so the round is graded on iteration speed, self-testing, and clean handling of the constraint change more than on the base solution.
+Here's what the interview process can look like:
 
-**Virtual onsite (typically 4–6 rounds, sometimes split across two days).** The usual mix is one or two practical coding rounds, a system design round, a project deep dive, a hiring-manager conversation, and a values round. The project round is often a formal 20–25 minute presentation of one past project followed by granular Q&A, and some candidates are asked for a live demo — expect questions on every layer. A distinctive design format is the design-document review: you are handed an existing inference-pipeline document and asked to critique it, and the strongest performances prioritize the one consequential flaw (usually the batching strategy) over a laundry list of nitpicks. The values round is frequently run by a senior leader and goes far beyond "why AI": candidates report being asked to critique current safety approaches, discuss trade-offs between safety and commercial pressure, and produce a personal story where they learned why safety matters. Poor early rounds can cause the hiring-manager round to be shortened or cancelled, and team assignments sometimes shift mid-process.
+- **Recruiter screen:** A 15–30 minute call on motivation, safety views and logistics that rejects candidates outright.
+- **Online assessment (most cold applicants):** A 90-minute, four-level build of one stateful system, scored out of 600 or 1,000.
+- **Technical phone screen (one or two):** A 45–60 minute pool problem with follow-ups on concurrency, scale and I/O versus CPU limits.
+- **Coding interviews:** One or two onsite hours extending a practical problem through several parts.
+- **System design interview:** About an hour, often on inference serving or model distribution, sometimes as a critique of an existing design document.
+- **Project deep dive and hiring manager interview:** A 20-minute presentation of one past project with granular Q&A, plus a team-fit conversation.
+- **Culture and values interview:** A mission and ethics conversation, often with a senior or non-engineering interviewer.
 
-**Decision.** Phone screen to onsite commonly takes about a month; final decisions can arrive within a day or two of the last round. References and team matching follow. Candidates report rejections with no feedback even after solving everything — near-uniform strength across rounds is the realistic bar.
+> **Tip:** Recruiters often email the exact topic of every upcoming round. Ask for that list and study from it; several candidates then saw the named problem.
 
-## What Candidates Report
+## Recruiter screen
 
-- The question pool is small and heavily recycled, and interviewers give hints freely. The bar is therefore execution quality — speed, tests, clean handling of follow-ups — rather than novelty, and well-prepared candidates are expected to be near-flawless.
-- The values conversation is a hard gate, not a formality. Strong LLM engineering resumes get rejected when the candidate lacks a genuine, personal connection to safety; interviewers look for a concrete narrative, ideally anchored in a past mistake or hard decision, and push back on rehearsed answers.
-- "Every round counts" comes up repeatedly: candidates who rate four of six rounds as strong and two as merely average still get rejected. There is little tolerance for an uneven loop.
-- The style is consistently practical. Even rounds that start with a textbook structure (an LRU cache, mode and median) pivot into debugging your own code, durability, distributed scaling, or interface design.
-- Logistics can wobble: interviewers unfamiliar with your preferred language, rescheduled screens, onsites split across days, and mid-loop team reassignment all appear in multiple accounts. Candidates who stay composed and steer back to fundamentals fare better.
-- Speed matters more than people expect — several candidates attribute rejections to a single unresolved bug or slow debugging under time pressure rather than a wrong approach.
+The call can be as short as 15 minutes, and it is a real filter: one candidate was cut after a call covering motivation, the hardest past project, visa status and other pipelines. Some recruiters skip small talk and spend 20 minutes probing why Anthropic, which recent announcements you agree or disagree with, and where you have applied safety thinking at work. The recruiter also asks your interview language and mentions references and periodic office time.
 
-## Coding Questions
+Interviewers evaluate:
 
-Coding rounds favor small working systems that grow: get a correct baseline fast, test it yourself before being asked, then absorb the constraint change. Practice the recycled pool until the pointer-level details are automatic.
+- **Specific motivation:** Why this company rather than AI in general, tied to something it has published or done.
+- **A defended safety stance:** A view that survives follow-up, not a summary of the website.
+- **Track fit:** Recruiters reroute candidates to a product, data-infrastructure or agentic-coding track when the background fits better.
 
-- [In-Memory Database with Backup and Restore](https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f)
-- [Web Crawler Challenge](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e)
-- [Coding Q3 — Stack Trace Reconstruction](../../questions/algorithm/coding-q3-stack-trace/README.md)
+Prepare one announcement you agree with and one you would push back on.
 
-## System Design Questions
+### Sample questions for the recruiter screen
 
-Design prompts center on the systems Anthropic actually runs: model serving, developer tooling, and GPU-backed pipelines. Expect capacity math (how many accelerators for this traffic), batching versus latency trade-offs, and overload behavior, plus one review-style round where critiquing an existing document matters more than drawing a new one.
+Here are some questions reported by recent candidates:
 
-- [Inference API System Design](https://trueinterview.io/questions/inference-api-system-design)
-- [Prompt Playground System Design](https://trueinterview.io/questions/prompt-playground-system-design)
-- [Onsite Design Doc Review](https://trueinterview.io/questions/onsite-design-doc-review)
-
-## Low-Level Design Questions
-
-The assessment families live here: multi-operation stateful systems where a mid-exercise requirement change punishes rigid designs. Model lifecycles explicitly — holds, expiries, merges, reused identifiers — and write your own boundary tests, because the visible ones mostly cover the happy path.
-
-- [OA — Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system)
-- [OA — Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management)
-- [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)
-
-## AI-Assisted Coding Questions
-
-Debugging someone else's code is a first-class format here: a buggy cache, a broken instruction interpreter, or numerical code that fails silently. Narrate hypotheses as you trace, and verify fixes against the failing tests without breaking the passing ones.
-
-- [Coding Q2 — In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability)
-- [Fix Bootloader Program by Swapping One Instruction to Avoid Loop](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8)
-- [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e)
-
-## Behavioral Questions
-
-Behavioral rounds ask for evidence, not principles: a conflict where you were wrong, a value you upheld under pressure, someone you respect but disagree with. The safety discussion rewards critical engagement — including thoughtful critique of Anthropic's own policies — over enthusiasm.
+- Why Anthropic, and why change jobs now?
+- Have you applied AI safety principles in your past work? Give a concrete example.
 
 - [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
-- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+- [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values)
+
+## Online assessment
+
+The standard assessment is a 90-minute progressive build in Python using only the standard library, with each level depending on the last. Recurring families: an in-memory database (TTL, backup and restore that pauses TTL timers, a lookup of the value at or before a timestamp), a bank (transfers held until accepted, timeouts, merges after which a recreated ID starts at zero), a task manager with TTL and snapshots, a recipe manager with case-insensitive names and versioned rollback, cloud storage, and employee grants. Level four routinely takes half the clock. Scores of 600/600, 925/1000 and 800/1000 all advanced, but a perfect score does not guarantee a call.
+
+Tracks diverge here. Fellows candidates built a DNS resolver with alias cycles, debugged a Python codebase, then did a five-hour take-home. One 2026 version required implementing inference-server caching inside an undocumented codebase.
+
+Interviewers evaluate:
+
+- **Upfront data modeling:** Structures that make later levels cheap; a rigid level-one design forces a rewrite.
+- **Lifecycle edge cases:** Reused IDs after merges, expiry exactly at the boundary, ties broken by ID.
+- **Pacing:** Banking early levels fast, since partial credit counts.
+
+Build one four-level system against a 90-minute timer, writing your own boundary tests.
+
+> **Note:** Visible tests mostly cover the happy path. Candidates lost points on merged-then-recreated accounts and same-timestamp ordering that only later tests exposed.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Build a bank whose transfers hold funds until accepted, cancel on timeout, and survive merges that free an account ID for reuse.
+- Make a database backup freeze every TTL timer and a restore resume them where they stopped.
+
+- [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system)
+- [In-Memory Database with Backup and Restore](https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f)
+- [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management)
+- [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)
+
+## Technical phone screen
+
+The screen is a 45–60 minute live session in a shared editor. Documentation search is allowed, AI tools are not, and the interviewer can see your screen. A crawler starts single-threaded with same-host filtering and fragment stripping, then moves to a thread pool. Deduplication filters by size, then streams hashes. A longest-match tokenizer must merge consecutive unknown tokens. An image pipeline applies JSON-configured transforms and needs a process pool for large files. An LRU memoization cache needs deterministic keys from positional and keyword arguments, then recovery from an append-only log.
+
+Infrastructure screens use distributed mode and median across 10 nodes, where network is the bottleneck. Research screens debug a GRPO implementation or build a checkpointable weighted data batcher. AI and Machine Learning Engineer screens build a tool-using agent loop or iterate on prompts in a notebook.
+
+Interviewers evaluate:
+
+- **Concurrency model:** Processes for CPU-bound image work, threads or asyncio for I/O, and why the GIL matters. Opening with raw locks instead of a thread pool cost one candidate.
+- **Constraint shifts:** Huge files, millions of files, several machines, or a stream.
+- **Pace and accuracy:** One unresolved bug or a misread rule was cited in several rejections.
+
+Drill each pool problem until the baseline takes half the slot.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Crawl every same-host URL, strip fragments before deduplicating, then go concurrent without double-fetching.
+- Find duplicate files, then discuss hash collisions, files larger than memory and distribution across nodes.
+
+- [Web Crawler Implementation](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e)
+- [Find Duplicate Files](../../questions/object-oriented-programming/find-duplicate-files/README.md)
+- [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2)
+- [In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability)
+
+## Coding interviews
+
+Onsite coding reuses the practical style, usually with a different pool problem. Stack traces recur most: convert sampled call stacks into start and end events by diffing adjacent stacks on their common prefix, then handle recursion, events confirmed only after N samples, and unbounded streams. Other problems include a boot program where exactly one jump or no-op must be flipped to stop a loop, and infection spread on a grid with a neighbor threshold.
+
+Infrastructure loops add a roofline exercise, computing FLOPs, memory and communication for a sharded feed-forward layer by hand. AI Engineer loops build an agent and then cut its tool-call rounds. A newer 55-minute format provides Claude Code in a browser editor; one version asked for a review of four pull requests, then an improvement to one, in TypeScript only.
+
+Interviewers evaluate:
+
+- **Fast baseline:** One candidate passed every test after a slow start and was still rejected.
+- **Reading the rules:** Tracing the example first; misread index semantics sank one candidate.
+- **Judgment with AI help:** In assisted rounds, what you catch, prioritize and explain.
+
+Practice each multi-part problem with the timer running from the first keystroke.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Turn stack samples into function start and end events, then emit a frame only after it persists for N samples.
+- Compute the mode and median of data on 10 nodes when the network is ten times slower than local reads.
+
+- [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events)
+- [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8)
+- [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median)
+- [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use)
+
+## System design interview
+
+The round centers on systems Anthropic runs: an inference API batching requests onto limited GPUs under a 500 ms to 1 s budget, or distributing a 500 GB model to hundreds or thousands of workers over 10 Gbps links despite failures. Others include a prompt playground, a 1-to-1 chat with Kafka internals, and telemetry ingestion. A distinctive variant hands you a flawed design document, such as an inference service that must batch within 100 ms at 10,000 QPS, to critique. A data infrastructure version needs no ML knowledge.
+
+Interviewers evaluate:
+
+- **Capacity math:** GPU or server counts from QPS and latency, and why decoding is memory-bound.
+- **Batching and overload:** Dynamic batching, queue limits, load shedding, multi-model scheduling.
+- **Failure and observability:** Spotting a stuck rollout and routing only to replicas on the right model version.
+
+Practice two inference designs with real numbers, plus one document critique.
+
+> **Tip:** In a design-document review, lead with the one consequential flaw, usually batching, and leave time for the deep dive. A candidate who catalogued small issues ran out of time for the part the interviewer cared about.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Deploy a 500 GB model to 1,000 workers as fast as possible, then recover from failures without a central coordinator.
+- Design an internal prompt playground for a user with many tabs open on very long prompts.
+
+- [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design)
+- [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design)
+- [Review and Improve a Flawed Design Document](https://trueinterview.io/questions/review-and-improve-a-flawed-design-document)
+- [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design)
+
+## Project deep dive and hiring manager interview
+
+The project round is often a 20-minute slide presentation followed by questions on every layer; one candidate was asked for a live demo. Staff candidates face return-on-investment questions, such as whether a project costing about 50 engineer-years paid off. The hiring manager conversation covers roadmap influence, mentoring and team fit, and can be short or cancelled after a weak first day.
+
+Interviewers evaluate:
+
+- **Personal ownership:** Your decisions, the alternatives you rejected, and what you would change.
+- **Scope for level:** One infrastructure candidate was told the loop signalled not senior enough.
+- **Domain alignment:** Rejections cited inference-capacity and billing teams that did not match the candidate's background.
+
+Rehearse one project as a 20-minute talk and defend it against hostile follow-ups.
+
+### Sample questions for the project deep dive and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Present your most impactful project, then explain an obstacle you did not anticipate.
+- How did you shape a roadmap beyond your scope, and whom did you mentor?
+
+- [Describe your most impactful project](https://trueinterview.io/questions/describe-your-most-impactful-project-2)
 - [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
 
-## How to Prepare
+## Culture and values interview
 
-- Drill the recycled screen pool (crawler, deduplication, tokenizer, stack trace, image pipeline, LRU cache) under a 45-minute timer until you can finish the baseline in half the time and spend the rest on follow-ups.
-- Simulate the assessment format: build one stateful system through four requirement waves in 90 minutes, writing your own edge tests for expiry-at-boundary, reused IDs, and rollback-then-recreate cases.
-- Practice without AI assistance but with documentation open — fluency in Pillow, `concurrent.futures`, `asyncio`, and `hashlib` lookups under observation is a tested skill, and use a clean browser profile when screen sharing.
-- Prepare one 20-minute project presentation with a demo, rehearsed against hostile Q&A on every architectural decision, plus honest answers about what you would change.
-- Build a real safety narrative: a specific experience that shaped your view, familiarity with Anthropic's published safety commitments, and at least one substantive critique you can defend.
-- Rehearse back-of-envelope capacity math — request rates to GPU counts, FLOPs to bandwidth — since design rounds regularly demand concrete numbers, not boxes.
-- Treat the recruiter's topic list and the hiring-manager round as seriously as the coding: multiple candidates trace rejections to an "average" conversation, not a failed technical.
+This round decides more loops than any other. Safety prompts include whether to delay a breakthrough with unknown risks if competitors might not, critiques of Anthropic's constitution or trust structure, and whether you would accept your equity losing value for safety. Behavioral prompts include a conflict where you were wrong, challenging authority, a morally questionable act, and persuading someone to do work you both dislike. Some interviewers are not engineers.
+
+Interviewers evaluate:
+
+- **Coherence under follow-up:** No answer is standard, but the reasoning must hold as the scenario shifts.
+- **Critical engagement:** A defended critique of Anthropic's own approach, not agreement.
+- **Lived values:** A named value, an Anthropic action that reflects it, and evidence you act on it.
+
+Prepare five candid stories, including a real mistake; personal-life examples are accepted.
+
+> **Note:** A weak culture signal can add rounds. One candidate who cleared every technical round got an extra culture interview, then was rejected after the hiring manager round.
+
+### Sample questions for the culture and values interview
+
+Here are some questions reported by recent candidates:
+
+- Would you delay a major capability breakthrough with unknown risks if others might not?
+- Where should Anthropic improve its approach to safety?
+
+- [Reason About Delaying an AI Breakthrough Under Uncertain Risk](https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk)
+- [Explain Your Motivation and Practical Approach to AI Safety](https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety)
+- [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value)
+- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+
+## How Anthropic makes hiring decisions
+
+A hiring review weighs the whole loop, and an uneven loop rarely passes: one candidate rated four of six rounds strong and two average and was rejected. Level is set in that review, not upfront, and offers may not state an internal level. References follow, typically a former manager and a current colleague, and at least one candidate was rejected after references were contacted. Team matching comes after the loop, and headcount can shift mid-process; one candidate's team filled and the loop moved to a new hiring manager. Rejections arrive within days, without feedback.
+
+## How to prepare for the Anthropic interview
+
+1. **Master the recycled pool:** Crawler, deduplication, tokenizer, stack traces, image pipeline and LRU cache, each done in half the slot.
+2. **Rehearse four-level builds:** One stateful system in 90 minutes, with your own tests for expiry, merges and reused IDs.
+3. **Own your concurrency answer:** Processes versus threads versus asyncio, the GIL, and thread-safe visited sets.
+4. **Do inference math:** GPU counts from QPS, batching under latency budgets, chunked model distribution.
+5. **Practice critiquing designs:** Find the one flaw that matters, then go deep on it.
+6. **Build a real safety position:** Read Anthropic's published policies and constitution and prepare a critique you can defend.
+7. **Prepare for both AI policies:** Code without AI help, and also review and improve code with Claude Code.
+8. **Confirm your language with the interviewer:** Python is safest; Java and TypeScript candidates met interviewers who did not use them.
+
+## About working at Anthropic
+
+Anthropic builds the Claude models and products alongside a safety research program. Technical staff share one Member of Technical Staff title. Remote employees are expected to spend about a quarter of their time in an office, often one week a month. Teams include:
+
+- **Inference:** Serving Claude at scale, with batching, routing and GPU utilization.
+- **Infrastructure and data:** Compute platforms, model distribution, telemetry and data pipelines.
+- **Performance engineering:** Kernel optimization and accelerator performance modeling.
+- **Product engineering:** Claude apps, Claude Code, and the developer platform and API.
+- **Research:** Interpretability, alignment, reinforcement learning and pretraining, plus the Fellows program.
+
+### Experience and education requirements
+
+Postings ask for a bachelor's degree in a related field or equivalent experience. Infrastructure and inference roles emphasize distributed systems at scale, with Python or Rust preferred, and recruiters state ML knowledge is not required. Research roles expect PyTorch, linear algebra and hands-on reinforcement learning or interpretability work.
+
+## FAQs about the Anthropic interview
+
+### How long does the Anthropic interview process take?
+
+Typically one to two months, with two-to-three-week gaps between stages and fast decisions after the onsite.
+
+### What is the hardest round of the Anthropic interview?
+
+Rejected candidates most often point to the culture and values round or one slow coding round.
+
+### Is there an online assessment?
+
+Usually for cold applicants. Referred and senior candidates often skip it.
+
+### Can you use AI tools during the interview?
+
+Not in most live coding, where search is allowed and AI is not. Some 2026 rounds explicitly provide Claude Code, so ask before each round.
+
+### Is the Anthropic interview remote?
+
+Yes. The onsite is virtual and often split across two days.
 
 ## Guides by Role
 
 - [Anthropic Software Engineer Interview Process](interview-process-software-engineer.md)
-- [Anthropic Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
-- [Anthropic Research Scientist Interview Process](interview-process-research-scientist.md)
 - [Anthropic Infrastructure Engineer Interview Process](interview-process-infrastructure-engineer.md)
 - [Anthropic AI Engineer Interview Process](interview-process-ai-engineer.md)
+- [Anthropic Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
+- [Anthropic Research Scientist Interview Process](interview-process-research-scientist.md)
 
 ---
 

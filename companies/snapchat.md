@@ -50,15 +50,15 @@ Which stage each question came from, for the **69 of 69** questions at Snapchat 
 
 ## What they ask about
 
-Of the **35 questions at Snapchat that carry a topic label** (51% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **34 questions at Snapchat that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 9 | 26% | ████████████ | May 13, 2026 |
-| `heap` | 6 | 17% | ████████ | Aug 28, 2026 |
-| `binary-search` | 4 | 11% | █████ | Mar 28, 2026 |
-| `hashing` | 4 | 11% | █████ | Mar 06, 2026 |
-| `strings` | 4 | 11% | █████ | Mar 12, 2026 |
+| `heap` | 6 | 18% | ████████ | Aug 28, 2026 |
+| `binary-search` | 4 | 12% | █████ | Mar 28, 2026 |
+| `hashing` | 4 | 12% | █████ | Mar 06, 2026 |
+| `strings` | 4 | 12% | █████ | Mar 12, 2026 |
 | `arrays` | 3 | 9% | ████ | Mar 28, 2026 |
 | `sliding-window` | 3 | 9% | ████ | May 01, 2026 |
 | `backtracking` | 2 | 6% | ███ | — |

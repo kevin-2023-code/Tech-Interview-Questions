@@ -16,17 +16,33 @@ How Harvey interviews, and the questions candidates reported there. Free questio
 
 ## How Harvey interviews
 
-Harvey's loop is unusual in how narrow it is: a small set of problem families — citation tagging over text, a spreadsheet engine with dependency cycles, an in-memory file system, and a permissioned document store in design — recur across candidate after candidate, and the decisive line is almost always whether you finished the escalating parts inside the hour. Going past the short outline on the company page, this deep dive draws on 13 real Harvey questions and 55 candidate interview reports to show what each stage contains, how it is graded, and where offers are lost.
+Harvey draws its coding prompts from a narrow, product-shaped pool: citation tagging over generated text, a spreadsheet engine with dependency cycles, an in-memory file system, and in design a permissioned document store or a retrieval pipeline. These problems recur across many candidates and months. Each one unfolds in parts, and the deciding factor is usually whether the escalating final part works before time runs out, not which algorithm you pick. Fit with the AI domain is also weighed: a candidate with positive feedback in every round still lost to a finalist with closer AI experience.
 
-### Interview Process
+This guide breaks down each stage of the Harvey interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 54 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Harvey interview process
 
 <!-- guide-diagram -->
 ![Harvey interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/harvey/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter screen.** Candidates arrive by recruiter outreach, referral, and cold application alike. The recruiter call is more useful than usual: recruiters have offered prep calls and named in advance which coding topics would appear, so ask. Two practical details candidates report: sponsorship is not immediate — the company expects roughly six months of employment before beginning the PERM process — and hiring is not limited to San Francisco, with a Toronto office opened in 2025. A founder conversation typically appears for senior candidates.
+The skeleton is stable: a recruiter call, one technical screen, then an onsite of three to five sessions, held as one integrated block, as separate rounds, or entirely by video. Software engineers usually get a file-storage design round; AI-focused candidates get a retrieval-augmented generation (RAG) design and a notebook coding round. The process typically runs three to five weeks.
 
-**Technical phone screen.** Usually a single 45-minute session in a shared editor with one problem that unfolds in stages, occasionally two stacked back to back. Two families dominate. The first is **citation and highlight tagging**: given a text and a list of source strings, find every exact match, merge overlapping intervals into one span, wrap the result in HTML-like tags, count how often each source appears, and attach citation IDs — assigned by first appearance, or sorted by frequency with a stable tie-break. The variants matter: some interviewers want whole-word matching only, so "blue" must not fire inside "blueprint"; one asked for the longest possible span when phrases chain, so "New York" and "York City" become one tag; one pushed a scaling follow-up toward a single-pass automaton such as Aho-Corasick. The second family is a **spreadsheet engine**, reported by roughly a dozen candidates: `set_cell` and `get_cell` over labelled cells, extended to formulas beginning with `=` that reference other cells, then propagation so dependents update, then rejection of circular references via DFS or topological sort. Interviewers press on write-time versus read-time evaluation, constant-time reads, and writing your own test cases live. A third, smaller family is an **in-memory file system** — `addFile` and `getFile` over a directory hierarchy, a cap of five entries per directory, `(1)`, `(2)` suffixing on duplicate names — with a verbal pivot to production storage and deduplication by hashing. Also reported: DFS over an expression map with three-color cycle detection, and an H-index citation variant. One candidate met three phone rounds — coding, values, and a data-room design — before any onsite.
+The edges vary. One candidate sat three phone rounds (coding, values, a data-room design) before any onsite. Senior loops weigh the deep dive and leadership questions (mentoring, delegation) more heavily, and senior candidates may also meet a founder or executive.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call on background, interest in legal AI, location and sponsorship, often with a preview of the coding topic.
+- **Technical phone screen:** About 45 minutes of live coding on one multi-part problem, sometimes two stacked tasks or a short design discussion.
+- **Onsite coding interview:** A practical build-and-extend problem such as a text editor, connection pool or file store, or work against a live database.
+- **System design interview:** Either a Google Drive-style file store with access control or an LLM retrieval system over legal documents.
+- **ML coding interview (AI-focused roles):** Implementing chunking, embeddings, similarity search and evaluation in a notebook.
+- **Project deep dive:** Roughly 45 minutes on one complex past project, often with the hiring manager or an engineering lead.
+- **Behavioral and values interview:** Questions mapped to Harvey's three values, sometimes folded into the last 15 minutes of the deep dive.
+
+> **Tip:** Ask the recruiter which coding topic to expect. Recruiters have offered prep calls and named the topic in advance, and with a pool this narrow that lets you rehearse the exact problem.
 
 **[Read the full Harvey interview process →](interview-process.md)**
 

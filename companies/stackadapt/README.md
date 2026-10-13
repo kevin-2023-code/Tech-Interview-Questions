@@ -10,13 +10,39 @@ How StackAdapt interviews, and the questions candidates reported there. Free que
 | :-- | :-- |
 | Questions reported | [5](../stackadapt.md) |
 | Free to read here | 2 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | — |
 
 ## How StackAdapt interviews
 
-No written process guide yet. [The loop, as reported](../stackadapt.md#the-loop-as-reported) counts which round each reported question came from.
+StackAdapt's technical rounds draw on what an ad platform does all day: state that expires on a time window, statistics over a stream, and clean in-memory models of business rules. Precision matters more than difficulty. One interviewer demanded strict worst-case O(1) operations and probed hash-table internals before any code, and one rejection came from over-discussing edge cases on a simple object-oriented problem. Data-track candidates instead get a verbal algorithm walkthrough plus probability.
+
+This guide breaks down each stage of the StackAdapt interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 4 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### StackAdapt interview process
+
+<!-- guide-diagram -->
+![StackAdapt interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/stackadapt/process.webp)
+<!-- guide-diagram -->
+
+Candidates interview for a specific team, such as ingestion, bidding or audiences, and the first technical round can reflect that team's domain. A full loop is typically four or five conversations over a few weeks: a recruiter call, a first technical round, one to three more technical rounds mixing live coding and design, and a hiring-manager or culture interview. One candidate sat several rounds back to back in a single block of about three hours. One data science loop ran two screens and then a virtual onsite of four rounds spread across different days.
+
+Coding is described as medium to medium-hard, and design weighs more for senior and staff candidates. The stated round order can change: one candidate was told one sequence and got another.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call on background, team interest, location and timeline.
+- **First technical interview:** One round that typically opens with a resume or project deep dive, then a coding, design or statistics problem.
+- **Coding interviews:** Live problems built around hash maps, sliding windows, heaps and object-oriented modeling.
+- **System design interview:** Mid-level design of streaming or crawling components, with deep questions on data-structure internals.
+- **Hiring manager and culture interview:** Past projects, how you work, and the kind of team you want.
+
+> **Tip:** Ask which team the first technical round is for. In one report the "system design" round for the ingestion team was really a timed data-structure implementation.
+
+**[Read the full StackAdapt interview process →](interview-process.md)**
 
 ## Free StackAdapt questions
 

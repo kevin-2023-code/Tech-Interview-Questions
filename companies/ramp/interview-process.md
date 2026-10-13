@@ -6,79 +6,280 @@
 
 ---
 
-Ramp interviews at every stage test the same thing from different angles: can you turn an underspecified, evolving requirement into working, extensible code quickly. This guide goes deeper than the process outline on the company page — stage-by-stage formats, the recurring problem families, and how candidates actually pass or fail — grounded in 22 real Ramp questions and 28 candidate interview reports in our library.
+Ramp interviews almost never use textbook algorithm puzzles. Nearly every round is a small, realistic build: a banking or file-storage system that grows level by level, a crawler that must survive 503 and 401 responses, a recurring-charge detector with no definition of "recurring." Speed, correctness and how you handle ambiguity without help are graded together. Interviewers are often close to silent, and several candidates who passed every test were still rejected. A dedicated AI-assisted coding round, plus questions about your AI workflow in most conversations, sets the loop apart.
 
-## Interview Process
+This guide breaks down each stage of the Ramp interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 21 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Ramp interview process
 
 <!-- guide-diagram -->
 ![Ramp interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/ramp/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Most software engineering funnels start with a CodeSignal assessment, and it comes in two reported shapes. The first is a 45-minute single problem: a sliding-window rate limiter keyed by IP address, or a request-processing simulation that computes final balances and cashback across bank accounts. The logic is rarely algorithmically hard; the challenge is a long problem statement full of conditional rules you must not misread. The second shape is a 90-minute, four-level progressive build in the industry-coding style: levels unlock sequentially, each layering requirements onto your earlier code. Reported subjects rotate through a recipe manager, a hierarchical task management system, an in-memory banking simulator, and a cloud storage or file system. Later levels reliably add the same families of complexity — case-insensitive uniqueness, search with multi-key sorting (one key descending, the tiebreaker ascending), per-user ownership checks, quotas and rolling-window assignment limits, version history with rollback, and capacity arithmetic across copy/compress operations. Correctness is what is graded, not efficiency; candidates who reach level four usually credit an extensible data model chosen in the first ten minutes. You typically get a multi-day window to start once the link arrives, and invitations can come within days of a cold application. Two caveats from recent reports: some rejections arrive the same day as the OA invite through automated pre-screening, and finishing early with all tests passing does not guarantee advancing.
+The order of the stages is stable, but the content depends on the track. Backend and full-stack candidates get simulation-style online assessments and HTTP-heavy live coding. Frontend candidates get a React and DOM assessment. A typical funnel runs from an online assessment to a 45–60 minute technical screen, then a virtual onsite of three to five rounds totaling about four hours. Candidates usually describe a few weeks from application to decision, though some recruiter-led processes took about two months.
 
-Frontend-flavored assessments replace the simulation with practical React work: a playable Wordle clone judged purely on logic (watch duplicate-letter handling), a custom DOM query selector over a nested structure, hooks debugging (stale closures, dependency arrays, missing list keys), browser-versus-Node environment questions, and a capture-the-flag-style finale where you extract a URL, fetch an answer, and submit it.
+New grads are screened mainly on the progressive assessment and practical coding. Experienced candidates get a heavier architecture round that pairs a project deep dive with an unannounced design prompt, and since many postings span several levels, the loop itself often sets the level.
 
-**Recruiter screen.** A short conversation about background, motivation, and increasingly how you use AI in your work. Recruiters sometimes preview exactly what a later round will cover — one candidate was told in advance that the AI-assisted round would involve data reconciliation. Treat any such hint as the study guide it is.
+Here's what the interview process can look like:
 
-**Technical phone screen.** A 45–60 minute practical session with an engineer, not a LeetCode drill. Recurring problems: web scraping with retry logic where you must inspect status codes and response bodies before attempting to parse JSON; an LRU cache extended into cache-key generation for arbitrary arguments and crash recovery via a write-ahead log; and flight-history queries — find a user's location at a timestamp with binary search — sometimes inside a small multi-folder codebase where you also handle module imports and write pytest tests. Expectations on details vary by interviewer (one pushed for a high retry count with no backoff, another wanted delayed retries on 503), so ask rather than assume. Many screeners stay almost completely silent; narrating assumptions, running your own examples, and checking boundaries without prompting are part of the evaluation.
+- **Online assessment:** A timed exercise, usually CodeSignal. It is either a 45-minute single simulation problem or a 90-minute build in four levels. Frontend candidates get a React and DOM version instead.
+- **Recruiter screen (sometimes with an async video screen):** A short call about background, why Ramp, and how you use AI. Some candidates also record a values video.
+- **Technical phone screen:** 45–60 minutes of practical coding with an engineer, such as scraping with retries, flight-history lookups, or a cache extended in stages.
+- **Practical coding rounds (onsite):** One or two live builds, such as a URL maze over HTTP, recurring-transaction detection, a flight tracker with pytest tests, or a spreadsheet with formulas.
+- **AI-assisted coding round (onsite):** A data-reconciliation task done with AI tools allowed. It is graded on the rules you set and how you verify the generated code.
+- **Architecture round (onsite):** A project deep dive followed by a surprise design question.
+- **Behavioral and hiring manager interview (onsite):** Motivation, values, and your most impactful project, with follow-up questions that keep digging.
 
-**Virtual onsite.** Reported loops run three to five rounds, roughly four hours total, typically some combination of the following. A practical coding round: build a web crawler, or traverse a maze of URLs via HTTP where each response links to neighbors — BFS plus retry-on-503, constructing an Authorization header on 401, and noticing the exit field buried in a JSON body. A second coding round built on ambiguity, such as detecting recurring transactions from raw merchant/amount/date data, where defining "recurring," setting gap and amount tolerances, and separating true subscriptions from frequent small purchases matter more than the implementation. An AI-assisted coding round: reconcile records from multiple sources that describe the same real-world entity with slightly different fields — you are judged on the matching rules and thresholds you define and on verifying generated code, not on typing speed. An architecture round that mixes a project deep dive with a surprise design question: aggregate website visits over the past minute, batch heterogeneous GPU requests, design a hotel-booking aggregator over slow external APIs (caching, TTL versus event invalidation, pre-booked inventory), or evolve a banking system through scheduled payments with cashback, status tracking, and account merges. Finally, hiring-manager and values conversations with notably persistent follow-ups — expect deep digs into conflict, failure, your most impactful project, and how AI has changed how you code. End-to-end, candidates typically report a few weeks from application to decision.
+> **Tip:** Assume every live round is a working-software exercise. Get a running baseline within the first third of the time, then add error handling. Candidates who started with a polished design ran out of time on the edge cases that actually decided the round.
 
-## What Candidates Report
+## Online assessment
 
-- Interviewers are frequently near-silent, offering no signal while you work. Candidates who treat silence as neutral — thinking aloud, testing their own code, driving the design — fare better than those who wait for guidance.
-- Progressive tasks punish improvised data models. The candidates who clear all four OA levels plan for later requirements (ownership, history, quotas) before writing level one.
-- Ambiguity is deliberate. Recurring-transaction definitions, flight-time boundary semantics, and intentionally underspecified response formats are all invitations to scope the problem with the interviewer before coding.
-- Small operational details decide outcomes: a missed field in a JSON response, sloppy debug output, a stale React closure, an off-by-one in capacity math, or a broken test import can sink an otherwise sound round.
-- Passing is not just correctness. Multiple candidates finished early with all tests green and were still rejected; polish, communication, and judgment are being scored alongside the code, and some outcomes trace to fit factors outside the interview entirely.
-- The question pool visibly repeats. The same problem families — recipes, banking, flights, URL traversal — show up across many candidates and months, so targeted practice on known Ramp patterns pays off unusually well here.
+Most software funnels open with a CodeSignal link, often within days of a cold application, with about three days to start. It comes in two shapes. The first is a single 45-minute problem, such as a per-IP sliding-window rate limiter over time-sorted input, or a simulation computing final balances and cashback across bank accounts. The logic is simple; the difficulty is a long statement full of conditional rules that are easy to misread.
 
-## Coding Questions
+The second shape is a four-level build, about 90 minutes long, where each level unlocks only after the previous one passes. Reported subjects are a recipe manager, an in-memory banking system (transfers, payments, account merges), cloud file storage with per-user capacity, and a task manager over a four-level nested file system. Later levels add the same features each time: case-insensitive uniqueness, search sorted by one key descending with an ascending tiebreaker, owner-only edits, quotas, compress and decompress operations that must do nothing when repeated, and immutable version history where a rollback adds a new version. The grade is correctness, not runtime, and a shell command runs each level's tests.
 
-Ramp's live coding leans on realistic data processing with production concerns attached: HTTP failures, timestamps, dedup, and requirements that shift mid-round. Practice getting a working baseline fast, then hardening it.
+Frontend candidates get a 90-minute assessment instead: a custom query selector that walks a nested DOM object to find a hidden URL, a playable Wordle clone in React, and a final step that fetches an answer from that URL and submits it. Another version tested hooks bugs (stale closures, wrong dependency arrays, missing list keys), browser-versus-Node differences, and tests that failed on missing browser globals.
 
-- [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions)
-- [Find a User's Airport from Flight History](../../questions/algorithm/find-a-user-s-airport-from-flight-history/README.md)
-- [URL Maze Graph Traversal](https://trueinterview.io/questions/url-maze-graph-traversal)
-- [Rate Limiter by IP Address](../../questions/algorithm/rate-limiter-by-ip-address/README.md)
-- [Sliding-Window Rate Limiter](../../questions/algorithm/sliding-window-rate-limiter/README.md)
-- [AI Coding: Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources)
+Interviewers evaluate:
 
-## System Design Questions
+- **Data model foresight:** A store keyed by ID with indexes, chosen in the first ten minutes, absorbs ownership, history and quotas without a rewrite.
+- **Spec fidelity:** Cashback conditions, case-insensitive comparisons, capacity math on copy and compress, and a task completed exactly at its deadline (not overdue) are where hidden tests fail.
+- **Harness awareness:** One file-replacement task shipped tests whose import syntax didn't match the module system the runner expected. Another frontend candidate built all three parts and still failed tests that weren't clearly documented.
+- **Duplicate handling in Wordle:** Letter feedback when a guess repeats a letter is the classic logic trap.
 
-Design discussions reward product-engineering reasoning over memorized architectures: start from the user flow and correctness requirements, then work through consistency, idempotency, external-dependency latency, and failure handling — often in a domain that is not obviously fintech.
+Practice a four-level simulation against a 90-minute timer, and plan the model for level four before you write level one.
 
-## Low-Level Design Questions
+> **Note:** Passing does not guarantee you advance. An Applied AI Engineer candidate finished in about 25 minutes and was rejected the same day by automated pre-screening, and a software engineer who passed every test early was also rejected.
 
-The four-level OA is effectively a low-level design exam under time pressure. Centralize state and validation, keep interfaces stable as levels unlock, and make rules like uniqueness, ownership, and rollback explicit in the model rather than scattered across handlers.
+### Sample questions for the online assessment
 
-- [OA — In-Memory Banking System (4 Levels)](https://trueinterview.io/questions/oa-banking-system)
-- [OA — Task Management System (4 Levels)](https://trueinterview.io/questions/oa-task-management-system-2)
+Here are some questions reported by recent candidates:
+
+- Build a recipe manager with case-insensitive unique names, ingredient search, owner-only edits, and version history with rollback.
+- Implement per-user cloud storage with copy, prefix-and-suffix search, and compression that changes the user's free space.
+- Build a React Wordle clone with correct duplicate-letter feedback, then fetch and submit a flag from a URL hidden in a nested DOM object.
+
 - [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)
-- Progressive DB Design OA
-- [Design Excel Sum Formula](https://trueinterview.io/questions/design-excel-sum-formula)
+- [Cloud Storage System](../../questions/algorithm/cloud-storage-system/README.md)
+- [Rate Limiter by IP Address](../../questions/algorithm/rate-limiter-by-ip-address/README.md)
+- [Frontend Hidden URL and React Wordle](https://trueinterview.io/questions/frontend-challenge-dom-wordle)
 
-## AI-Assisted Coding Questions
+## Recruiter screen
 
-Ramp explicitly evaluates how you work with AI tools: whether you keep ownership of the specification, write targeted tests, and verify generated output instead of trusting it. The frontend assessment's fetch-and-submit finale rewards the same investigative instinct.
+The recruiter call is short and conversational: background, why Ramp, and increasingly how AI fits into your daily engineering. Some candidates also record a short async values video. Recruiters sometimes preview a later round precisely; one candidate was told the AI-assisted round would involve data reconciliation, and it did.
 
-- [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f)
+Interviewers evaluate:
 
-## Behavioral Questions
+- **Builder signal:** Concrete things you shipped, and how fast, matter more than titles or where you trained.
+- **AI fluency:** What you hand off to coding assistants, and how you check what they produce.
+- **Motivation:** A specific reason for Ramp's product area, such as cards, bill pay, travel or finance automation, rather than general excitement about fintech.
 
-Behavioral rounds are conversational but pointed: why Ramp, a technology you learned recently and how you would teach it to an intern, how AI changed your daily workflow, and detailed walkthroughs of recent projects — with follow-ups that keep drilling until they hit real decisions.
+Ask the recruiter directly what each onsite round covers, and treat any hint as a study guide.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself, and why Ramp?
+- How do you use AI in your daily work, and has it changed how you code?
+- How do you keep up with new technologies?
 
 - [Async Video Behavioral Screen](https://trueinterview.io/questions/video-interview-behavioral)
 
-## How to Prepare
+## Technical phone screen
 
-- Drill the four-level OA format under a 90-minute timer: build a CRUD core in the first 20 minutes with a data model that can absorb ownership, search-and-sort, quotas, and version history without a rewrite.
-- Build one small program that walks a graph of live HTTP endpoints: handle 503 with retries, 401 with constructed auth headers, and inspect every response body before parsing — this exact shape recurs across Ramp screens and onsites.
-- Rehearse scoping ambiguous prompts out loud: for a problem like recurring-transaction detection, practice proposing definitions, tolerances, and false-positive filters before writing code.
-- Keep your Python mechanics sharp beyond algorithms: module imports across folders, writing pytest tests during the interview, and clean date/timestamp boundary handling all appear as graded material.
-- Prepare for an AI-assisted round where the tool is allowed but audited: practice decomposing a reconciliation task, specifying matching thresholds yourself, and writing tests that catch the generated code's mistakes.
-- Have crisp answers ready on your AI workflow — what you delegate, how you verify — plus one story each for a fast ship, a failure, and a conflict, with the reasoning behind each decision, since follow-ups go several layers deep.
-- For frontend tracks, rebuild Wordle in React from scratch (duplicate letters included), and review hooks pitfalls and browser-versus-Node differences until they are automatic.
+The screen is 45–60 minutes with an engineer, practical rather than algorithmic. Recurring prompts: scrape endpoints with retry logic, checking status and body before parsing JSON; walk a graph of URLs whose response format is deliberately vague; find a user's airport at a timestamp from flight records (repeated across many months); and an LRU cache extended to generate keys for arbitrary arguments and recover from crashes with a write-ahead log.
+
+Interviewers differ on details, so ask: one pushed for a high retry count with no backoff, while an onsite interviewer wanted a delayed retry on 503. Screeners are often nearly silent. One candidate solved a nearest-flight binary search, clarified the tie rule unprompted, tested boundaries, and was still rejected without feedback.
+
+Interviewers evaluate:
+
+- **Exploration before assumption:** On the URL-graph prompt, the interviewer wanted the response format probed, not a known solution recited.
+- **Boundary semantics:** Is the user at the departure airport at the exact departure time? What does a query return mid-flight, before the first flight, or after the last one?
+- **Defensive I/O:** Never parse a body as JSON before confirming the status code and content.
+- **Self-driven testing:** Running your own examples and stating complexity unprompted, because the interviewer may never ask.
+
+Practice two or three HTTP-driven problems end to end in Python, narrating every assumption out loud.
+
+> **Tip:** On the flight problem, state the timeline convention before coding: at the departure airport until departure, in transit until arrival, at the arrival airport afterward. Then build the lookup as a sorted search per user.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given flights with airports, times and user IDs, return where a user is at a given moment, including in-transit gaps and exact boundary times.
+- Scrape a set of endpoints with retries, inspecting each response before parsing it as JSON.
+- Traverse a graph of linked URLs with deliberately vague responses, handling redirects and auth status codes.
+
+- [User Flight Location Tracker](../../questions/algorithm/find-a-user-s-airport-from-flight-history/README.md)
+- [Track Users From Flight History](https://trueinterview.io/questions/track-users-from-flight-history)
+- [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal)
+
+## Practical coding rounds
+
+Onsite coding rounds run about 60 minutes in your own environment. In the URL maze, each GET returns JSON with links to neighbors and sometimes an exit key; you find the shortest path with BFS, retry 503 responses after a delay, and build an Authorization header on 401. One interviewer told the candidate to favor speed over elegance: traversal first, error handling later.
+
+The recurring-transactions prompt is deliberately open-ended: given date, merchant, amount and currency, decide which charges recur. The work is in gap and amount tolerances (daily, weekly, roughly monthly) and in excluding frequent small purchases like transit fares. Other builds are a spreadsheet with formulas and dependent cells, and a flight tracker (user with the most flights, location by binary search) with helpers imported from other folders and pytest tests written live.
+
+Interviewers evaluate:
+
+- **Problem scoping:** For recurring transactions, agreeing on definitions and thresholds with the interviewer before coding. One candidate's small-amount heuristic was immediately challenged with the case of a $5.99 subscription.
+- **Operational discipline:** One rejected candidate had correct BFS but flooded the terminal with debug output and missed the exit key in a response until the interviewer pointed it out.
+- **Real-world date handling:** Varying month lengths, weekends and multiple currencies are part of the problem, not extras.
+- **Python fluency beyond algorithms:** Imports across folders, pytest, and datetime handling are graded material.
+
+Rehearse each of these builds under a 60-minute timer, logging responses selectively instead of printing everything.
+
+### Sample questions for the practical coding rounds
+
+Here are some questions reported by recent candidates:
+
+- Find the shortest path to the exit of a maze explored only through HTTP, retrying on 503 and building an auth header on 401.
+- Detect recurring charges from raw transactions, separating subscriptions from frequent small purchases.
+- Implement a flight tracker (most flights per user, location at a time) with pytest tests across a multi-folder project.
+- Build a spreadsheet whose cells hold formulas referring to other cells.
+
+- [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions)
+- [Find an Exit in a URL Maze](https://trueinterview.io/questions/find-an-exit-in-a-url-maze)
+- [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula)
+- [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells)
+
+## AI-assisted coding round
+
+In the newest onsite format, one round lets you use AI tools openly while the interviewer watches. The reported task is data reconciliation: several sources describe the same entities with slightly different fields, and you decide what counts as a match, set thresholds, and handle conflicts and missing values. The signal is the rules you choose and the AI mistakes you catch, not typing speed.
+
+Interviewers evaluate:
+
+- **Spec ownership:** You define the matching keys and fuzziness thresholds. The assistant does not.
+- **Verification:** Targeted tests and spot checks on generated code, especially for near-duplicates and conflicting fields.
+- **Decomposition:** Breaking the task into normalize, block, match and merge steps that the tool can implement one at a time.
+
+Practice a reconciliation task with your usual assistant, writing the tests yourself before accepting any generated code.
+
+> **Note:** This round grades the opposite of what many candidates practice. Pasting the prompt into the assistant and accepting the result shows no judgment. Writing the rules and the tests yourself, and correcting the tool, is the passing pattern.
+
+### Sample questions for the AI-assisted coding round
+
+Here are some questions reported by recent candidates:
+
+- Reconcile records from multiple sources that describe the same entity with slightly different fields, defining match logic, thresholds and edge cases.
+- Clean inconsistent listing data where structured fields disagree with free-text descriptions.
+
+- [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources)
+- [Correct Bedroom Counts from Descriptions](https://trueinterview.io/questions/correct-bedroom-counts-from-descriptions)
+
+## Architecture round
+
+This round usually starts with a project you are proud of, then switches to a design question; one candidate who prepared only the deep dive was caught off guard. Prompts include counting website visits over the last minute, batching mixed GPU requests, a hotel-booking aggregator over slow third-party APIs, and an evolving banking system (ranking accounts by outgoing value, scheduled payments with cashback and status, merging two accounts' balances and histories).
+
+On the hotel aggregator, discussion moved from caching to its consistency costs (TTL versus write-through versus event invalidation), then to the p99 latency of the slowest hotel API, then to pre-booking room blocks for instant confirmation. The rejected candidate concluded the key framing came too late: an aggregator that owns no inventory faces different constraints from a hotel's own booking system.
+
+Interviewers evaluate:
+
+- **Framing first:** Naming who owns the data and where latency comes from before drawing components.
+- **Trade-off depth:** Accuracy versus cost in time-window counters, and freshness versus speed in caches.
+- **Evolvability:** How each new banking feature changes the schema, including idempotent scheduled payments and conflicts during an account merge.
+- **Project ownership:** In the deep dive, clear decisions you made yourself, with results.
+
+Prepare one project story in depth plus two or three applied designs built around time windows and external dependencies.
+
+### Sample questions for the architecture round
+
+Here are some questions reported by recent candidates:
+
+- Count visits to a website over the past minute.
+- Design an Expedia-style hotel aggregator that stays fast although every search fans out to dozens of slow hotel APIs.
+- Extend a banking system with cashback-earning scheduled payments, status lookups, and account merging.
+
+- [Count Visits in One Minute](https://trueinterview.io/questions/count-visits-in-one-minute)
+- [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design)
+- [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md)
+- [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system)
+
+## Behavioral and hiring manager interview
+
+The values conversation, often with the hiring manager, is friendly but persistent; follow-ups continue until they reach a real decision. Topics include why Ramp, a technology you learned recently and how you would teach it to an intern, how AI changed your coding, your proudest project, and teamwork, conflict and ambiguity. One screen was purely behavioral, with no code.
+
+Interviewers evaluate:
+
+- **Velocity:** Evidence that you ship quickly and iterate, consistent with a culture built around speed.
+- **Ownership:** Problems you took on beyond your assigned scope, and outcomes you can measure.
+- **Clarity of explanation:** The teach-an-intern prompt checks whether you can make a hard topic simple.
+- **Self-awareness:** Honest accounts of failure and conflict, not a polished success story.
+
+Prepare five or six recent stories (a fast ship, a failure, a conflict, a hard technical call, and your AI workflow) with the reasoning behind each one.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe a technology you learned recently, and how you would explain it to an intern.
+- Which project are you proudest of, and why?
+- Tell me about a conflict with a teammate and how it was resolved.
+
+- [What Project Are You Proudest Of?](https://trueinterview.io/questions/what-project-are-you-proudest-of)
+- [From Take-Home Script to Production: Python Trade-offs and Hardening a Data Job](https://trueinterview.io/questions/from-take-home-script-to-production-python-trade-offs-and-hardening-a-data-job)
+
+## How Ramp makes hiring decisions
+
+The team decides after the full loop, and in-round feedback is minimal. Several rejections followed rounds that felt solid, so polish, communication and fit count alongside correctness. Some applicants are filtered automatically before any human review. Postings often consider candidates for multiple levels, with pay set by the level hired, so the loop places you. No reapplication cooldown is published; ask your recruiter.
+
+## How to prepare for the Ramp interview
+
+1. **Drill the four-level simulation:** Build banking, storage, recipe and task managers against a 90-minute timer, with ownership, quotas and history planned from level one.
+2. **Build an HTTP crawler harness:** BFS over live endpoints with retries on 503, auth headers on 401, and status checks before parsing JSON.
+3. **Scope out loud first:** For open prompts like recurring charges, propose definitions, tolerances and false-positive filters before coding.
+4. **Sharpen practical Python:** Imports across folders, writing pytest tests live, and datetime boundary handling.
+5. **Rehearse AI-assisted work honestly:** Set the matching rules yourself, write tests first, and correct the tool where it is wrong.
+6. **Prepare a deep dive plus a surprise design:** One proud project and two applied designs around time windows and slow external APIs.
+7. **Frontend candidates:** Rebuild Wordle in React with correct duplicate-letter handling, and review stale closures, dependency arrays and browser-only globals.
+
+## About working at Ramp
+
+Ramp builds corporate cards, bill pay, expense management, travel and other finance-automation products from a New York headquarters, working hybrid. Teams are organized around business outcomes, with product, design and engineering in one technical organization, and the company openly prioritizes velocity and what you have built over where you trained. Engineers typically work across the stack in Python (Flask) and PostgreSQL on the backend and TypeScript and React on the frontend, with Kotlin used for Android.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| University Grad / Software Engineer | Shipping features end to end with guidance | Features within one product team |
+| Senior Software Engineer | Owning product areas and technical direction | A product team's systems |
+| Staff Software Engineer | Cross-team architecture and platform decisions | Several teams or the platform |
+
+Ramp hires engineers across its product and platform groups. Teams include:
+
+- **Credit:** Systems behind the corporate card's credit and risk decisions.
+- **Banking:** Banking and money-movement products.
+- **Ramp Travel:** Business travel booking.
+- **Agent Developer Platform:** APIs for developers and agents building on Ramp.
+- **Data Platform and Reporting:** Data infrastructure and financial reporting.
+- **Production Engineering:** Infrastructure reliability and scale, owned jointly with product teams.
+
+### Experience and education requirements
+
+University-grad postings ask for a computer science or related degree and shipped projects rather than years of professional experience. Experienced roles start at about one year of software experience, and senior and staff roles expect a record of shipping at scale. Strong Python, Go or Java is common on backend postings, and JavaScript or TypeScript with React on frontend postings.
+
+## FAQs about the Ramp interview
+
+### How long does the Ramp interview process take?
+
+Typically a few weeks from application to decision. Assessment invitations arrive within days, with a short window to start. Some recruiter-led processes stretched to about two months.
+
+### What is the hardest round of the Ramp interview?
+
+The open-ended practical rounds, recurring-transaction detection and the URL maze, produce the most reported rejections, followed by the surprise design question in the architecture round.
+
+### Which language should I use?
+
+Use the language you are fastest in. Python is the most commonly reported, and the flight-tracker round expected pytest. Frontend assessments require React and plain DOM APIs without third-party libraries.
+
+### How much does a Ramp software engineer make?
+
+Posted base salaries give a guide. A New York backend new-grad role listed $142K–$175K base, product-team roles listed ranges of about $160K–$275K, and a staff backend role listed about $234K–$275K. Every range is base pay only, with target equity on top.
+
+### Is the Ramp interview remote?
+
+Yes. The onsite is reported as a virtual loop, and the assessments are completed remotely.
 
 ---
 

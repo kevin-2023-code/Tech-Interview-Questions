@@ -57,14 +57,14 @@ Which stage each question came from, for the **101 of 101** questions at Pintere
 
 ## What they ask about
 
-Of the **60 questions at Pinterest that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **59 questions at Pinterest that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `hashing` | 10 | 17% | ████████████ | Aug 26, 2026 |
 | `backtracking` | 9 | 15% | ███████████ | Apr 18, 2026 |
 | `graphs` | 9 | 15% | ███████████ | Aug 26, 2026 |
-| `greedy` | 8 | 13% | ██████████ | Jun 16, 2026 |
+| `greedy` | 7 | 12% | ████████ | Jun 16, 2026 |
 | `math` | 7 | 12% | ████████ | May 27, 2026 |
 | `arrays` | 6 | 10% | ███████ | Aug 26, 2026 |
 | `strings` | 6 | 10% | ███████ | May 27, 2026 |
@@ -131,7 +131,7 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | Software | [Pinterest SDE2 Interview Experience](https://trueinterview.io/interviews/519ecb26-48c1-4198-a490-a8c6b6cfdf77) | Sep 27, 2026 |
 | Software | [Pinterest Senior Software Engineer Interview Experience: Region Tree Access Control System Design](https://trueinterview.io/interviews/b1c34d1b-e5ae-4d52-95ed-c2810a070236) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Pinterest and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Pinterest and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

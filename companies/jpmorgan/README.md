@@ -16,25 +16,33 @@ How JPMorgan interviews, and the questions candidates reported there. Free quest
 
 ## How JPMorgan interviews
 
-This guide goes deeper than the process outline on the JPMorgan Chase company page: how each stage is actually run, what interviewers probe beyond the stated format, and where otherwise solid candidates lose points. It draws on 12 real JPMorgan Chase questions and 19 candidate interview reports, so the patterns below reflect what the loop looks like in practice rather than on paper.
+JPMorgan Chase grades engineers on reading code as much as writing it. Most final loops include a code review or debugging segment on an unfamiliar Java class, and the defects that recur are concurrency ones: misused `volatile`, unsynchronized shared state, global variables. Coding is mostly easy to medium, and design follow-ups push on overselling, duplicate submissions and failure paths. Passing the final round is not the end: candidates are approved for hire first and matched to a team afterward, and the matching step is the least predictable part.
 
-### Interview Process
+This guide breaks down each stage of the JPMorgan Chase interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 18 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### JPMorgan Chase interview process
 
 <!-- guide-diagram -->
 ![JPMorgan Chase interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/jpmorgan/process.webp)
 <!-- guide-diagram -->
 
-#### Online assessment
-The HackerRank assessment is a speed-and-accuracy filter, not a theory exam. Candidates consistently describe two problems in a 60-minute window, typically without a webcam requirement, and the link often arrives within days of applying. Difficulty sits at the easy-to-medium level: string validation and counting, interval overlap (minimum meeting rooms or CPU cores), task scheduling with cooldown, prefix-sum splits, topological ordering, and occasionally a parsing exercise such as generating a numbered table of contents from heading markers. Well-prepared candidates report finishing in 10-15 minutes. The bar is clean, correct implementation: pass the hidden cases and watch off-by-one boundaries.
+The loop varies little by team. Software engineers usually take an online assessment and have a recruiter call (in either order), then a final round called a Superday. The Superday is three or four 45-minute sessions run back to back, about 3.5 hours in total. Some pipelines add technical phone screens first, or run the whole loop as three phone calls.
 
-#### Recruiter and background screen
-A recruiter call, roughly 30 minutes, verifies the story on your resume: work history, motivation for joining a bank, work authorization, and compensation expectations. It can land before or after the assessment, and some recruiters study your profile closely enough to ask pointed questions about specific projects and transitions. Communication is frequently phone-first with little written follow-up; keep your own record of dates and next steps.
+Early-career applicants to the Software Engineer Program must pass the coding assessment before anyone reviews the application, and may also record a video interview. The quantitative track runs a separate, fully technical loop.
 
-#### Technical phone screens
-Some pipelines insert one to three phone rounds before or instead of an onsite. A typical technical call runs about 45 minutes in a bare shared editor, often with two problems back-to-back: a circular sliding-window problem plus a string-deletion check, or a greedy bit-flip problem plus an anagram-conversion count. Interviewers expect you to narrate your reasoning, state complexity, and handle a follow-up constraint. Several candidates also met a code review segment or a full system design call (flash-sale platforms, shopping-cart read/write paths) at the phone stage, so do not assume phones are coding-only.
+Here's what the interview process can look like:
 
-#### Superday
-The final loop is usually three to four back-to-back sessions of 45 minutes each, about 3.5 hours total, sometimes run as a group day where several candidates rotate through interviewers in parallel. The recurring components are:
+- **Online assessment:** Two coding problems in about 60 minutes, easy to medium, with no camera required.
+- **Recruiter screen:** A non-technical call of about 30 minutes covering background, motivation, work authorization and pay expectations.
+- **Technical phone screens (some pipelines):** About 45 minutes in a shared editor, usually two problems, sometimes with a code critique or a full design discussion.
+- **Code review and coding interview:** Critiquing or debugging an existing class, then one or two easy problems dry-run by hand.
+- **System design interview:** A 45-minute high-level design, usually a URL shortener or a commerce flow with concurrency follow-ups.
+- **Behavioral interview:** A project deep dive with a manager, covering conflict, ambiguity, leadership and deadlines.
+- **Team matching:** Placement on a team after the Superday is passed.
+
+> **Tip:** Superdays are often group days, with several candidates rotating through interviewers in parallel and 15-minute breaks between sessions. The round order is not fixed, so prepare a short checklist for each round type and you can switch between them without warming up again.
 
 **[Read the full JPMorgan interview process →](interview-process.md)**
 

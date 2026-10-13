@@ -16,25 +16,33 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 
 ## How Airbnb interviews
 
-This deep-dive goes beyond the short outline on the company page: how each round is actually graded, where candidates lose offers, and which problem families keep resurfacing. It draws on 27 real Airbnb questions and 41 candidate interview reports, covering everything from the first recruiter call through team match.
+Airbnb grades finished programs, not sketches. Every coding round expects code that runs, test cases you write yourself in the editor, and a complexity argument at the end. A correct idea left unfinished or untested is marked down. The loop also includes two rounds most companies skip: a code review of real pull-request diffs and a core values interview. The final decision leans heavily on background match. Several candidates cleared every technical round and were still rejected on fit or project scope, or were moved to a talent pool because headcount had closed.
 
-### Interview Process
+This guide breaks down each stage of the Airbnb interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 44 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Airbnb interview process
 
 <!-- guide-diagram -->
 ![Airbnb interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/airbnb/process.webp)
 <!-- guide-diagram -->
 
-#### Recruiter and hiring-manager screens
+The structure is fairly stable across teams: a recruiter call, one to three phone rounds, then a virtual onsite of four to six sessions, sometimes followed by a team-match call. One senior process took about seven weeks from first contact to final conversation, and a referral-sourced Machine Learning Engineer process took about four.
 
-The process usually opens with a short recruiter call about background, motivation, and logistics, sometimes followed by a separate hiring-manager conversation that probes past projects and team fit before any code is written. Some candidates instead receive a timed online assessment stacked with several practical algorithm tasks before reaching a human. End to end, candidates report timelines from about three weeks to roughly seven for senior loops, and feedback after the technical screen can take more than a week.
+Level mostly changes the design load. Mid-level loops usually have one system design round. Senior (G9) loops often have two, and candidates describe the depth as close to staff level. Extra rounds are sometimes added when the signal is borderline.
 
-#### Technical phone screen
+Here's what the interview process can look like:
 
-The screen is typically a 45-60 minute live session in a shared editor with one problem that fills the entire block. Airbnb's defining trait is that you are expected to write code that actually runs: interviewers routinely ask you to execute it, then to write your own test suite in the editor, and finish with a precise complexity analysis. Problems come from a relatively small pool of recurring, practically framed exercises — parsing, interval coverage, board scoring, small stores — and follow-ups mutate the constraints rather than add a second problem. A correct idea with unfinished or untested code reads as a failure; the role guides below catalog the recurring families and their known variants.
+- **Recruiter and hiring manager screens:** A short recruiter call, sometimes followed by a hiring manager conversation about past projects before any code is written.
+- **Technical phone screen (one or two):** A 45–60 minute live session with one practical problem, your own tests and complexity analysis.
+- **Coding interviews:** One or two onsite rounds on domain-flavored problems extended through follow-ups.
+- **Code review interview:** One round reviewing one to four pull-request diffs in Python or Java.
+- **System design interview:** One or two rounds on marketplace systems, or ML system design for Machine Learning Engineer candidates.
+- **Experience deep dive:** One past project taken apart, from motivation to measured impact.
+- **Core values interview:** A non-technical conversation about mission, hosting and motivation, often followed by a hiring manager or team-match call.
 
-#### Virtual onsite
-
-The onsite generally runs four to six sessions, and senior journeys can stretch to eight or nine conversations once prep calls and team match are counted. Expect some mix of:
+> **Tip:** Split each 45-minute coding block into roughly 5 minutes to clarify, 25 to implement the core path, and 10 to run and test. Two candidates who spent their early minutes polishing a helper function ran out of time for tests.
 
 **[Read the full Airbnb interview process →](interview-process.md)**
 

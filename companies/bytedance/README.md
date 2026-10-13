@@ -16,21 +16,32 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 
 ## How ByteDance interviews
 
-This guide goes past the outline on the company page. It covers how each ByteDance stage actually runs, what interviewers grade, and where candidates lose offers they believed they had won. It draws on 158 real ByteDance questions and 109 candidate interview reports, so the patterns below describe how the loop behaves in practice, not how a job posting describes it.
+ByteDance runs its loop as a chain of gates: each round is booked only after the previous one passes, and the recruiter's label for the next round is often wrong. Most technical hours pair a resume interrogation, which can take 30 to 45 minutes of a 60-minute call, with one or two coding problems. Level and headcount end many loops: candidates have passed every round at 2-1 and been turned away because the team only had a 2-2 opening. Many interviewers are in China, and some switch to Mandarin without asking.
 
-### Interview Process
+This guide breaks down each stage of the ByteDance interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 111 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### ByteDance interview process
 
 <!-- guide-diagram -->
 ![ByteDance interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/bytedance/process.webp)
 <!-- guide-diagram -->
 
-**Entry.** Most loops start with LinkedIn outreach, a referral or a cold application. Some start with a 30-minute HR call, and many skip straight to a full technical hour. Settle the level band early. Loops have ended because a team only had headcount at 2-2 after the candidate was leveled 2-1, or would only interview below the requested band. Rounds are booked one at a time, and the recruiter's description of a round is often wrong: "system design" slots have turned out to be pure coding or fundamentals.
+Each team hires for itself and sets the round count and content. Reported loops run from a single technical hour to six rounds over two days, but the usual shape is two to four sequential video calls of 45–60 minutes. Timelines range from about two weeks to several weeks with long silences.
 
-**Online assessments.** Early-career software pipelines use timed sets of three or four problems: a memory allocator with starts aligned to multiples of 8, counting alternating-parity subarrays, text layout with borders, cyclic-shift pairs. The emphasis is on boundary conditions, not advanced structures. ML and research pipelines use a 70-minute, ten-question battery that mixes theory with implementing k-means and bagging without libraries.
+New graduates and interns usually start with an online assessment and coding-heavy calls. Mid-level candidates (2-1) add one or two system design hours. Senior candidates (2-2 and above) also face harder coding and an ownership-focused project defense.
 
-**Technical rounds.** Usually two to four sequential 45-60 minute calls, each unlocking the next. A typical hour splits between resume interrogation (10-45 minutes) and one or two problems in Lark or another shared editor, often with tests you write and run yourself. Time is uneven: some candidates got 10-20 minutes of coding after a long resume drill. Follow-up variants arrive immediately, such as the partial final k-group, not modifying the grid, sub-linear time on sorted input, or Manacher after a standard palindrome solution. Some rounds are fundamentals-heavy (indexes, CAP, Kafka, caches, Linux, networking), and a few teams now run an AI-assisted coding round where you share your screen and use your own tool.
+Here's what the interview process can look like:
 
-**Design, manager and decision.** Mid-level and senior loops add one or two system design hours, often built from the team's own services, then a hiring manager round (frequently in Chinese, sometimes with a coding problem) and occasionally a 20-minute director conversation. When a team passes, recruiters may rematch you elsewhere. Timelines run from about two weeks when everything clicks to several weeks with silences. Rejections come anywhere from the same day to eight business days later, and hiring manager rounds have been cancelled when priorities shifted.
+- **Recruiter or HR screen (sometimes skipped):** A call of about 30 minutes on background, location, start date and level, with no technical content.
+- **Online assessment (early career and ML pipelines):** Three or four timed algorithm problems for engineers. ML and research candidates get a 70-minute, ten-question mix of theory and from-scratch implementation.
+- **Technical screens:** Two to four 45–60 minute calls, each split between a resume drill and one or two problems you code, test and run yourself.
+- **Fundamentals and domain rounds:** Rapid oral questions on backend internals, Linux and networking, frontend runtime behavior or ML theory, depending on the track.
+- **System design interview (mid-level and above):** One or two hours, often built around the team's real services.
+- **Hiring manager interview:** A project defense, behavioral questions and sometimes a coding problem, frequently in Mandarin.
+
+> **Tip:** Before round one, ask the recruiter for the level band, the team's stack and the interview language. One infrastructure candidate prepared for cloud and Kubernetes work but was matched to an internal Hadoop team.
 
 **[Read the full ByteDance interview process →](interview-process.md)**
 

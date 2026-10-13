@@ -16,21 +16,32 @@ How Google interviews, and the questions candidates reported there. Free questio
 
 ## How Google interviews
 
-This is the in-depth companion to the Google company page. It covers how each stage is actually run and graded, the patterns that decide outcomes, and what changed through 2026. It draws on 152 real Google questions and 124 candidate interview reports, and every section links to questions you can practice.
+Google separates the interview from the team. Interviewers write independent ratings, a hiring committee decides on the packet, and team matching follows, often in parallel with the vote. Most rounds are 45-minute coding sessions in a shared document that cannot run code, so outcomes usually turn on whether the code was finished and hand-traced in time. Many candidates now start with a no-code work-style assessment whose format changed in 2026, and an AI-assisted code-comprehension round is being piloted for junior and mid-level engineers.
 
-### Interview Process
+This guide breaks down each stage of the Google interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 130 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Google interview process
 
 <!-- guide-diagram -->
 ![Google interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/google/process.webp)
 <!-- guide-diagram -->
 
-**Two different online assessments.** Many candidates first get the Google Hiring Assessment, which has no code. In 2026 it switched to sets of three positive statements where you pick the one most like you and the one least like you. It still includes a Likert section and scenario questions on gifts, conflicts of interest and confidential data. Near-duplicate items check whether your answers are consistent. Other candidates get a coding assessment: two problems in 90 minutes, two visible sample cases, and your own tests allowed. At least one version was a long-context rollout task with a planted parsing bug and a weak built-in AI assistant.
+The loop is standardized, with the bar set by level rather than by the hiring team. A typical path is a recruiter call, an assessment, one to four phone screens, and an onsite of two to five rounds, virtual or partly in person. Reported timelines run from about six weeks to five months.
 
-**Phone screens.** There are usually one to three 45-minute coding screens in a shared document with no code execution, and often a separate behavioral screen with five to nine prompts. Some screens combine both, with eight or nine behavioral questions followed by a coding problem. The follow-ups carry the most weight: data that no longer fits in memory, input arriving as a stream, a search spread across parallel workers.
+At L3 and L4 the onsite is mostly coding plus a behavioral round. L5 adds a system design round. L6 adds a second design round, a leadership round and a deep dive on a system you built. Machine Learning Engineer loops trade one coding round for an ML domain or ML system design round, and research roles add a research talk.
 
-**Onsite loop.** The loop is often split into one or two virtual rounds and then two coding rounds, sometimes in person at an office with reimbursed travel. Google has brought back at least one in-person round for many locations, and in 2026 it began piloting a code-comprehension round where junior and mid-level candidates debug existing code with an AI assistant. L5 adds a design round. L6 adds a second design round, a leadership round and a deep dive on a system you designed. Design happens in a text document with no diagram tools.
+Here's what the interview process can look like:
 
-**Decision and matching.** Each interviewer writes a rating (candidates have seen "okay" and "strong" in the same loop), and results typically arrive about a week later. A visa check or transcript request is routine and does not mean you passed. For many candidates team matching now starts before the committee vote, and approval still depends on a team having headcount.
+- **Recruiter screen:** A short call on background, level, location and logistics.
+- **Online assessment (many candidates):** Either the no-code Google Hiring Assessment or a 90-minute, two-problem coding test.
+- **Phone screens (one to four):** 45-minute calls in a shared document: coding, behavioral, or both.
+- **Coding interviews:** Two to four onsite rounds of 45–60 minutes, each one medium problem with layered follow-ups.
+- **Design and domain interviews (L5+, ML and research tracks):** System design in a text document, ML design or fundamentals, or a research talk.
+- **Googleyness and leadership interview:** A structured behavioral hour on collaboration, ambiguity and ownership.
+
+> **Tip:** Practice in a plain text editor with a 30-minute cap on the base solution. Among rejected candidates, the most common story is a correct idea with an unfinished or untested implementation, not a wrong algorithm.
 
 **[Read the full Google interview process →](interview-process.md)**
 

@@ -59,20 +59,20 @@ Which stage each question came from, for the **320 of 320** questions at Amazon 
 
 ## What they ask about
 
-Of the **197 questions at Amazon that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **192 questions at Amazon that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 38 | 19% | ████████████ | Sep 05, 2026 |
-| `graphs` | 29 | 15% | █████████ | Aug 30, 2026 |
+| `hashing` | 37 | 19% | ████████████ | Sep 05, 2026 |
+| `graphs` | 28 | 15% | █████████ | Aug 30, 2026 |
 | `arrays` | 27 | 14% | █████████ | Sep 02, 2026 |
 | `strings` | 21 | 11% | ███████ | Aug 19, 2026 |
-| `greedy` | 19 | 10% | ██████ | Sep 03, 2026 |
+| `greedy` | 18 | 9% | ██████ | Aug 24, 2026 |
 | `sorting` | 18 | 9% | ██████ | Sep 01, 2026 |
 | `dynamic-programming` | 15 | 8% | █████ | Jul 14, 2026 |
 | `heap` | 15 | 8% | █████ | Sep 14, 2026 |
 | `trees` | 15 | 8% | █████ | Aug 22, 2026 |
-| `two-pointers` | 14 | 7% | ████ | Jun 22, 2026 |
+| `two-pointers` | 14 | 7% | █████ | Jun 22, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

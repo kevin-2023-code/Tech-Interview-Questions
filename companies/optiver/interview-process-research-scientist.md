@@ -6,104 +6,255 @@
 
 ---
 
-Research Scientist candidates are most often eliminated by a stage that has nothing to do with research. One PhD applicant cleared four assessment modules — probability, pattern recognition, cognitive mini-games and a three-problem coding set — and was rejected at the fifth, a betting game; another completed six full rounds including a pandas take-home and a live project presentation, only to lose at the final culture-and-Python conversation. The loop is front-loaded with timed arithmetic and back-loaded with a defence of your own work under pushback, and the research substance in the middle is the part candidates over-index on. Interviewers say it directly: a doctorate is not a prerequisite here, mental agility is what is being bought.
+Optiver screens research candidates mostly on speed. Before anyone reads a publication list, candidates sit a multi-module assessment: probability at 60 to 90 seconds per question, number sequences, likelihood ranking, reaction games and often a betting game. Strong researchers lose most often to the clock or the betting game, and interviewers say outright that a PhD is not a prerequisite. The second half of the loop grades how honestly you evaluate a model: a take-home is defended before a panel, and a closing culture-and-Python conversation still decides the outcome after every technical stage has been passed.
 
-## Interview Process
+This guide breaks down each stage of the Optiver Research Scientist interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 83 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2, cross-checked against recent public accounts.
+
+## Optiver Research Scientist interview process
 
 <!-- guide-diagram -->
 ![Optiver Research Scientist interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/optiver--research-scientist/process.webp)
 <!-- guide-diagram -->
 
-1. **Application and assessment invitation.** Cold applications, recruiter outreach and referrals all converge on the same first step, and the assessment link typically arrives within a couple of days. There is no resume screen conversation before it — the numerical batteries run before anyone reads your publications.
+Optiver hires research candidates as Quantitative Researchers, mostly through PhD internship and graduate programs, with separate postings for experienced researchers on named trading teams. The assessment usually arrives within one or two days of applying, so the first filter is automated and identical for everyone.
 
-2. **Online assessment, probability battery.** The reported form is roughly 30 multiple-choice questions at about 90 seconds each, forward-only, with no revisiting a submitted answer. Content is the standard research-track spread: gambler's ruin with fair and biased coins, symmetric random walks on hexagons and octagons, Markov chain hitting times, coupon-collector expectations, expected products of card draws, geometric probability, and counting problems such as integers under 10,000 with all distinct digits. Several versions use five options with a penalty for wrong answers, so guessing without eliminating two choices is negative expected value. One version added a linear-regression prediction-interval question.
+A full loop has six to eight steps over about three weeks to a month, plus the take-home. Intern and graduate candidates sit every assessment module; experienced hires are judged more on a record of profitable strategies, though few reports describe that loop in detail.
 
-3. **Pattern recognition module.** Around 25 questions in 25 minutes, no calculator. Sequences mix arithmetic and geometric progressions with alternating differences, recursive rules and interleaved sub-sequences. Candidates who advanced report roughly 15 correct as the practical bar rather than a perfect score.
+Here's what the interview process can look like:
 
-4. **Cognitive mini-game module.** A rotating set of short games measuring reaction, working memory and task switching: rapid string or code comparison, a water-pouring-style building puzzle, a dual-task exercise pairing arithmetic with shape comparison, an untimed grid rearrangement, and a code-matching game. One reported version comprised nine games; another terminated early when accuracy dropped. Each supplies a practice round, the only calibration available.
+- **Online assessment (all candidates):** Timed modules on probability, number sequences, likelihood ranking and cognitive mini-games, often with a betting game, taken in a fixed order.
+- **Coding assessment (most research candidates):** Three finance-flavored programming problems in roughly 90 minutes to two hours.
+- **Recruiter phone screen:** 20 to 30 minutes on motivation, logistics and one project retrospective.
+- **Technical phone interview (one or two calls):** About 45 minutes with a researcher: probability, betting games, market-making, estimation and brainteasers, all spoken aloud.
+- **Take-home data project and presentation:** A pandas or regression analysis returned within days, then defended to a panel by video.
+- **Final culture-fit and technical interview:** Fit, hands-on Python and your research background, sometimes with a head of research or a team head.
 
-5. **Coding module.** Three problems in a language of your choice, uniformly finance-flavoured: counting order-size sequences summing to a target under discrete step constraints, backtesting a proportional-allocation strategy and reporting the mean and standard deviation of daily log returns, and an optimal-stopping dynamic program where a buyer must acquire a fixed number of units from a broker charging a per-trade fee against randomly quoted prices. Difficulty spreads widely inside one set — reports describe two near-one-liners alongside a genuine dynamic program.
+> **Tip:** Treat every timed stage as a test of decisions, not derivations. Candidates from research backgrounds report the same weakness again and again: they reach correct answers too slowly. Practice speaking a numeric answer within 60 seconds until you do it without thinking.
 
-6. **Recruiter screen, 20 to 30 minutes.** Behavioural and logistical: graduation timeline, visa sponsorship, why this firm and how you found it, a project retrospective probing your contribution against the team's, what you would change and what blocked you then, weaknesses and remediation, competing processes, and office preference. English clarity is assessed here because the role presents to traders continuously.
+## Online assessment
 
-7. **Technical phone interview, 45 minutes.** A researcher runs it and opens without warm-up. Reported content mixes probability and statistics with brainteasers and Fermi estimation — stone-pile games, bus waiting-time problems, estimating annual consumer spending on a large subscription service — plus betting games with two to four minutes per scenario where you must price the bet and state your stake. Reasoning aloud is mandatory; silent computation reads as no signal at all.
+The assessment comes in separately timed sections, in some versions taken in a fixed order with no way back. The probability module ("Beat the Odds") is the core: about 30 multiple-choice questions at 60 to 90 seconds each, forward-only. Several versions use five options with a penalty for wrong answers, so a random guess has negative expected value. Content is classic discrete probability: gambler's ruin with fair and biased coins, random walks on hexagons, octagons and decagons, coupon collector, drawing balls until two colors remain, the expected product of three cards, and counting integers up to 10,000 with distinct digits. One PhD version added a regression prediction interval.
 
-8. **Take-home data project, returned over several days.** Two reported shapes: a pandas and time-series analysis of supplied market data, and a linear-regression modelling exercise carried through pre-processing, fitting and evaluation. The grading weight sits on the evaluation, not the fit. One candidate whose model performed poorly reported that documenting why it was mediocre — residual behaviour, error distribution, where linearity and homoscedasticity broke — was treated as the substance of the exercise.
+The sequence module runs about 25 puzzles in 25 minutes with no calculator, with interleaved sub-sequences, alternating differences and recursive rules. A newer likelihood module asks you to rank statements by probability from tables, box plots and network diagrams. The mini-games rotate: string and code comparison, a water-pouring-style building puzzle, arithmetic paired with shape comparison, an untimed grid rearrangement; one version had nine games. Some research candidates also faced a betting module or an eight-minute, 80-question arithmetic test.
 
-9. **Project presentation to a panel.** A video call where you walk a group through your approach, code and conclusions and defend the choices. Deep pandas and time-series fluency is tested live here rather than assumed from the notebook, and the round doubles as a communication test: the job requires explaining findings to traders who will act on them.
+Interviewers evaluate:
 
-10. **Final culture-fit and technical deep dive.** A closing conversation covering values and working style alongside hands-on Python proficiency and a walk through your doctoral or research background. This is a decision round, not a formality — at least one candidate who reached it after passing everything upstream was rejected here. Timelines across the whole loop run about a month of calls plus the take-home turnaround, and rejections typically arrive quickly with no feedback.
+- **Model recognition on sight:** Reaching for first-step analysis, symmetry or linearity of expectation within 20 seconds; deriving from scratch runs out the clock.
+- **Disciplined guessing:** Leaving a question blank unless two of five options can be eliminated.
+- **Accuracy in sequences:** About 15 correct out of 22 to 25 has been enough to advance.
+- **Submission timing:** Likelihood answers locked in at the last instant sometimes failed to register.
+- **Betting judgment:** One PhD candidate cleared probability, sequences, games and coding and was rejected on the betting module alone.
 
-## What They Actually Evaluate
+Drill random-walk, gambler's-ruin and coupon-collector problems until each takes under a minute, and treat every game's practice round as your only calibration.
 
-### Domain Deep Dive
+> **Note:** Each module is a separate cut, so a strong probability score does not rescue a weak betting or game result. Use a wired or fully charged mouse; a trackpad is too slow for the reaction games.
 
-Probability fluency under a clock is the spine of this track, and it is tested at least twice: once as a timed battery of roughly 30 questions and again live, where an interviewer expects a spoken answer inside a minute or two. Signal comes from recognising the underlying model on sight and reaching for symmetry, linearity of expectation, first-step analysis and complementary counting instead of enumeration. The live variant adds estimation and brainteasers, where interviewers grade the decomposition rather than the final figure — stated assumptions with a defensible number beat a confident guess. The most reported failure mode is a research-trained candidate who can derive everything but has not practised doing it out loud at speed.
+### Sample questions for the online assessment
 
-- [Beat the Odds: Probability Test](https://trueinterview.io/questions/beat-the-odds-probability)
-- [QR Technical Round: Brainteasers and Estimation](https://trueinterview.io/questions/qr-technical-brainteasers)
-- [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game)
-- [Number Logic: Sequence and Pattern Finding](https://trueinterview.io/questions/number-logic-sequence)
+Here are some questions reported by recent candidates:
 
-### Coding and Algorithm
+- A gambler starting with $10 against an opponent with $20 wins each round with probability 2/3; find the probability of winning the opponent's whole stake.
+- A particle on a regular decagon moves clockwise on a die roll of 1 or 2, counterclockwise on 3 or 4, and stays put otherwise; find the expected steps to reach the opposite vertex.
+- Roll a die repeatedly until the running total exceeds a threshold; find the probability that the final roll was a 5.
 
-Three problems, and the difficulty is not the algorithms but the translation: every statement is written as a trading rule that you must convert into a recurrence or a simulation before writing a line. The recurring families are constrained combinatorial counting, day-by-day portfolio simulation producing log-return statistics, optimal stopping with a fixed per-trade cost, negative-cycle detection over an exchange-rate matrix, and order matching with price-time priority. Signal is choosing the dynamic program immediately; the documented loss mode is the intuitive depth-first search that clears the samples and times out on hidden tests. Numerical care matters too — log returns, precision, and degenerate price inputs all appear in the reported edge cases.
+- [Beat the Odds — Probability Test](https://trueinterview.io/questions/beat-the-odds-probability)
+- [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes)
+- [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/questions/number-logic-sequence)
+- [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test)
+- [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games)
+
+## Coding assessment
+
+Research candidates usually get three problems in a language of their choice, in about 90 minutes to two hours, with hidden tests. Each is a trading rule you must turn into a recurrence or a simulation, and the families repeat: buy-and-sell sequences that never go short (a ballot or Catalan count), ordered order sizes summing to a target (a one-dimensional DP), a backtest reporting the mean and standard deviation of daily log returns, and optimal stopping, buying n units at uniformly random prices under a per-trade fee or a cap on purchases.
+
+Difficulty within a set varies widely; one PhD candidate got two near one-liners and one real dynamic program. Variants swap in currency arbitrage (negative-cycle detection on negative log rates) or a two-heap order book with price-time priority. A candidate rejected straight after this stage concluded that unfinished solutions earn no partial credit.
+
+Interviewers evaluate:
+
+- **Choosing the DP immediately:** A depth-first search over trade sequences passes the samples and times out on hidden tests.
+- **Faithful simulation:** Applying the allocation rule on exactly the right day, including all-cash days.
+- **Numerical care:** Log returns rather than simple returns, statistics computed as specified, degenerate prices handled.
+- **Pace:** Finishing the easy problems fast so the dynamic program gets most of the time.
+
+Practice turning a paragraph of trading rules into a recurrence in under five minutes, then coding it with your own edge cases.
+
+### Sample questions for the coding assessment
+
+Here are some questions reported by recent candidates:
+
+- Starting with k shares and making exactly m single-share buys or sells, count the sequences that end at n shares without ever going negative.
+- Each day, split capital equally across the stocks whose previous-day return was positive, then report the mean and standard deviation of the portfolio's daily log returns.
+- Buy n units at prices drawn uniformly from an interval, with at most k purchase decisions, and minimize the expected total cost.
 
 - [Stock Transaction Sequence Counting (Catalan / DP)](https://trueinterview.io/questions/stock-transaction-counting)
+- [Count Ordered Sequences That Sum to a Target](https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target)
+- [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost)
+- [Currency Arbitrage Detection](../../questions/algorithm/currency-arbitrage-detection/README.md)
 - [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching)
 
-### Project Deep Dive
+## Recruiter phone screen
 
-This is the track's distinguishing stage and it spans two rounds: an unsupervised take-home and a live defence of it. What is graded is diagnostic honesty. Candidates report that a mediocre model with a rigorous account of its failure modes is a pass-shaped outcome, while a strong metric with no residual analysis, no out-of-sample check and no statement of where the assumptions break is not. The presentation then tests whether you can hold that account under questioning from people who will trade on it, and evasiveness about a weak result reads worse than the weak result. The analysis of performance deserves as much effort as the fitting.
+Candidates who pass the assessments get a 20- to 30-minute recruiter call with no technical content: graduation date, visa sponsorship, why Optiver, office preference, then one project — your contribution versus the team's, the hardest part, what you would change and what stopped you then. Other reported questions cover strengths and weaknesses, how peers would describe you, competing processes and a five-year plan. The recruiter also notes how clearly you speak English, because researchers explain results to traders all day.
 
-- [QR Take-Home Data Project and Presentation](https://trueinterview.io/questions/qr-take-home-data-project)
-- [OptiCargo: Cargo-to-Flight Scheduling](https://trueinterview.io/questions/opticargo-flight-scheduling)
+Interviewers evaluate:
 
-### Behavioral and Leadership
+- **Specific motivation:** A reason tied to trading and fast feedback, not a general interest in finance.
+- **Personal contribution:** Separating your own work from the team's without being prompted.
+- **Honest retrospection:** A real change you would make, and the constraint that prevented it.
+- **Concise delivery:** Two-minute answers with a clear structure.
 
-Two explicit conversations bracket the loop, and the closing one carries real weight. The recruiter call screens motivation, self-awareness and communication in concise, structured form. The final call revisits culture fit alongside live Python questions and your research background, and candidates report it being decisive after all technical stages passed. Temperament is also sampled indirectly: the ranking and reaction modules measure whether judgement holds while a countdown is visible, and one candidate who answered the technical material adequately attributed their rejection to explanations that were not sharp enough and enthusiasm that did not register.
+Prepare one research project at two depths, two minutes and ten, and a short reason for choosing trading.
+
+### Sample questions for the recruiter phone screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself, and why Optiver specifically?
+- Walk through a project: what did you personally contribute, and what would you do differently now?
+- What is your biggest weakness, and what are you doing about it?
 
 - [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen)
-- [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test)
-- [Zap-N Reaction and Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games)
 
-## What They Don't Test
+## Technical phone interview
 
-- **Deep machine-learning modelling.** No reported round asked for architecture design, training infrastructure or deep-learning theory. The statistical content stayed at regression, diagnostics, time-series returns and classical probability — depth of reasoning about a simple model beats breadth of model families.
-- **Stochastic calculus and derivatives pricing theory.** Continuous-time finance did not appear. Everything quantitative was discrete: counting, expectation, Markov chains, random walks and log-return statistics.
-- **Publication record and thesis depth.** The research narrative is confined to part of one closing conversation. Interviewers state plainly that a PhD is not required, so leading with credentials wins nothing.
-- **Production engineering scale.** Nobody was asked to design distributed infrastructure. What is asked for is clean, correct Python under time pressure, which candidates are warned not to assume their degree demonstrates.
-- **Rehearsed answer banks.** Sequences and datasets are refreshed between sittings, and reports of candidates preparing against older accounts and meeting a different module structure are common.
+Most research candidates have one or two technical calls of about 45 minutes, often with a senior researcher, starting with no warm-up. Some are all probability, each answered aloud in a minute or two. Others are betting games with two to four minutes per scenario: price the bet, take it or not, size the stake. Reported setups include a sum of 7 on two dice at odds of 0.6 to 1, two card ranks whose product exceeds 100 at even money, and a market on the sum of three cards while the interviewer trades against you. Estimation and brainteasers appear too: a stone-pile game, bus waiting times, annual spending on a large streaming service.
 
-## The Real Filter
+Follow-ups move to judgment: the Kelly fraction for a coin that lands heads 60% of the time, how many rolls would show a die is fair, an arbitrage across two bookmakers' odds on a tennis match, and sizing correlated bets so portfolio variance cancels. One call spent its whole length on maximizing expected log wealth over a fixed number of fair-coin flips.
 
-The dominant rejection path is speed of reasoning colliding with a research background, and it is unexpected because the role description suggests depth. The assessment gives about 90 seconds per probability question and roughly a minute per sequence; the live rounds expect a spoken answer inside two minutes; the betting segments expect a stake, not a derivation. Candidates whose training rewards careful, complete work report exactly this dip, and one was eliminated at a gambling-game module placed after they had already cleared the coding and probability sections. Reviewing theory rather than drilling timed, spoken problems trains the wrong muscle.
+Interviewers evaluate:
 
-The second pattern is treating the take-home as a modelling contest. Reports converge on the evaluation carrying the weight — residuals, error distribution, out-of-sample behaviour, and an explicit statement of where linearity or variance assumptions fail. A polished fit with a single headline metric leaves the panel nothing to interrogate, and the presentation is built to interrogate.
+- **Reasoning aloud:** Working silently gives the interviewer nothing to grade, even if the answer is right.
+- **Decisiveness:** One candidate finished with a large profit and was still rejected for hesitating and over-analyzing.
+- **Sizing from first principles:** Kelly was expected in one interview and explicitly ruled out in another, and a guaranteed arbitrage called for going all-in.
+- **Calm under a neutral manner:** Some interviewers stay deliberately expressionless and give no feedback.
 
-The third is underestimating the closing conversation. It reads like a formality after a take-home and a panel presentation, and it is not: it mixes culture fit with live Python and a research walkthrough, and candidates who reached it after passing every technical stage still lost there. Arriving unprepared to demonstrate hands-on coding, assuming the earlier rounds settled it, is a documented way to end at the last step.
+Rehearse dice, coin and card expected-value problems aloud against a two-minute timer, always ending with a stake size.
 
-## Data Source
+> **Tip:** Check the degenerate case before you reach for a formula. On a fair coin with log utility the optimal bet is zero, and candidates who went straight to the Kelly formula missed the point of the question.
 
-Based on 83 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2.
+### Sample questions for the technical phone interview
 
-## FAQ
+Here are some questions reported by recent candidates:
 
-**What is it like to work on this track?**
+- You start with $10 and roll a die 10 times, gaining $1 on an even roll and losing $1 on an odd roll; what is the probability of going bankrupt at some point?
+- A coin lands heads 60% of the time and pays even money; what fraction of your bankroll should you bet each flip, and why?
+- Make a two-sided market on the sum of three cards drawn from a deck, and adjust it as cards are revealed and the interviewer trades.
+- Estimate the total annual spending of a large streaming service's subscribers.
 
-Our reports document the hiring loop rather than the job, so this is context. Researchers sit on the trading floor alongside traders and engineers rather than in a separate group, turning market data into pricing models, volatility surfaces and signals that go into live systems, then iterating on what production shows. The cycle is short and empirical — noisy data, quick tests, immediate feedback from the traders using the output — and the floor is in-office with early starts at the main hubs.
+- [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game)
+- [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game)
+- [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/questions/qr-technical-brainteasers)
 
-**What is the engineering and research culture like?**
+## Take-home data project and presentation
 
-Flat and blunt. The hierarchy is shallow enough that junior researchers are expected to challenge ideas and present to senior people regularly, and feedback is immediate rather than scheduled. The loop previews this: interviewers correct you mid-problem and watch whether the correction lands, and the panel presentation exists to see how you defend assumptions when pushed. Proximity to traders means constant interruption, which suits people who like arguing about a result more than people who want long uninterrupted blocks.
+This stage separates the research track from the trading track. Candidates return an analysis a few days after receiving the data, in one of two reported forms: a pandas time-series analysis of supplied market data, or a linear regression taken through pre-processing, fitting and evaluation, from scratch or with standard libraries.
 
-**How hard is it actually to get in?**
+A video presentation to a panel or a researcher follows, covering approach, code and conclusions, with pandas and time-series knowledge tested live. One candidate's regression performed only moderately because the relationships were not fully linear, and explaining with evidence why it fell short became the substance of the exercise.
 
-Genuinely hard, and the difficulty is concentrated early. The firm hires on the order of a hundred to a hundred and fifty interns globally each year against a pool putting the offer rate under one percent, and the multi-module assessment eliminates most candidates before any human involvement — several of our reports end there. Once inside, internship-to-full-time conversion is reported in the seventy to eighty percent range.
+Interviewers evaluate:
 
-**Which round is hardest?**
+- **Depth of evaluation:** Residual plots, error distributions and out-of-sample tests, not a single headline metric.
+- **Stated assumptions:** Where linearity, constant variance or normality of errors fail, and what that does to the conclusions.
+- **Communication to traders:** Results stated as decisions someone could act on.
+- **Candor about weak results:** Owning a mediocre model is graded better than steering around it.
 
-By outcome, the take-home and its presentation: the only stage where a week of your work is defended live in front of a panel, and where a strong result can still fail on thin diagnostics. By minute-to-minute pressure the probability battery is worse, at roughly 90 seconds a question with no backtracking, but it is drillable in a way that defending a model under direct questioning is not.
+Spend as much time on the evaluation as on the model, and rehearse a ten-minute walkthrough that ends with what you would try next.
+
+> **Note:** A polished fit with no diagnostics gives the panel nothing to question, and the presentation exists to question you. A modest model with a rigorous account of its failures fits what interviewers are looking for better.
+
+### Sample questions for the take-home data project and presentation
+
+Here are some questions reported by recent candidates:
+
+- Fit a linear regression to a supplied dataset, evaluate its predictions, and explain where and why it underperforms.
+- Clean and analyze a market time series in pandas and present the main findings and your code to a panel.
+
+- [QR Take-Home Data Project & Presentation](https://trueinterview.io/questions/qr-take-home-data-project)
+
+## Final culture-fit and technical interview
+
+The last conversation mixes culture fit, live Python and a walk through your doctoral research, in some loops with a head of quantitative research or a team head after a researcher has reviewed your take-home code. It is a real decision round: a PhD candidate who passed a trading game, the recruiter call, a technical call, the take-home and the presentation was rejected here, and warned others not to assume a doctorate proves programming ability. Expect a blunt, fast-moving style.
+
+Interviewers evaluate:
+
+- **Hands-on Python:** Working through data manipulation quickly in pandas and NumPy without looking up basics.
+- **Research translated to markets:** Explaining a thesis result in terms of signal, noise and what you would test on market data.
+- **Visible enthusiasm:** A candidate rejected after a technically solid call believed weak enthusiasm for quant work was part of the reason.
+
+Prepare a five-minute summary of your research for a trader, and practice pandas group-by, rolling-window and merge operations from memory.
+
+### Sample questions for the final culture-fit and technical interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through your PhD research and explain how its methods would apply to market data.
+- Answer live Python and pandas questions about the code in your take-home.
+- Why quant research, and why Optiver?
+
+## How Optiver levels and evaluates Research Scientist candidates
+
+Each stage is a gate and assessment modules are scored separately, so one weak module can end a candidacy. Interviewers grade the decision process rather than the outcome: candidates who finished betting games in profit were rejected for hesitation. After the take-home, a researcher and then a research or team lead make the final call together with fit. Interns and graduates are hired into programs and placed under an experienced researcher; experienced hires apply to a named team and are judged on their track record.
+
+Rejections arrive quickly, sometimes within a day, and generally without feedback. Postings allow one application per role per year, and one PhD internship posting set an eight-month wait before reapplying.
+
+> **Tip:** Assume the closing conversation is scored as heavily as the technical stages. Go in with your take-home code fresh in mind and ready to write Python live, not just to talk about culture.
+
+## How to prepare for the Optiver Research Scientist interview
+
+1. **Drill one-minute probability:** Random walks on polygons, gambler's ruin, coupon collector and card-product expectations, timed and answered out loud.
+2. **Practice penalized multiple choice:** Answer only when you can eliminate two of five options, and keep a pace that reaches every question.
+3. **Train betting and market-making out loud:** Price, decide and size within two to four minutes, check the degenerate case first, and say your stake as a fraction of the bankroll.
+4. **Learn the coding families:** Non-negative trade sequences, ordered sums to a target, log-return backtests, optimal stopping with fees, negative-cycle arbitrage and two-heap order books.
+5. **Make evaluation the core of the take-home:** Show residuals, out-of-sample tests and broken assumptions, and rehearse defending a mediocre result.
+6. **Prove your Python live:** Practice pandas time-series work without references; a doctorate does not count as evidence of coding skill.
+7. **Prepare a trader-facing research story:** A five-minute account of your work, plus a specific reason for choosing trading over academia.
+
+## About the Optiver Research Scientist role
+
+Optiver is a proprietary trading firm and market maker, and its researchers build the models behind its trading: short-term price prediction, stochastic models for option pricing and volatility, Monte Carlo methods and execution strategies. Recent postings put machine learning at the center of signal extraction and forecasting, with researchers owning the cycle from framing a question to deploying a model. New researchers start with firm-led training in market structure and options theory, then work under an experienced researcher alongside the traders who use their output.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Quantitative Research Intern (PhD) | A supervised research project on pricing, risk or signal modelling | One project within a team |
+| Graduate Quantitative Researcher | Building, testing and deploying models after structured training | Models used by one trading team |
+| Quantitative Researcher (experienced) | Alpha, signal and feature research; improving research workflows | A trading strategy or team |
+| Senior Quantitative Researcher | Strategy research and direction for a desk or asset class | A business line |
+
+Optiver hires research candidates across several trading groups. Teams include:
+
+- **HFT Futures and Equities (Delta One):** Fully automated strategies built on machine learning, with research into alpha, signals and features.
+- **Systematic Volatility Trading:** A fully automated options strategy that depends on volatility modelling.
+- **Options pricing and market making:** Stochastic models for option prices and volatility forecasts used in quoting.
+- **Execution research:** Strategies for executing well in fast-moving markets.
+
+### Research Scientist experience and education requirements
+
+Graduate and intern research roles target current or recent PhDs in mathematics, statistics, computer science, physics or a related field, with strong statistics, research ability and Python (R or MATLAB also mentioned), and the ability to explain technical ideas clearly. No trading experience is required, and US sponsorship is supported for the PhD graduate role. Experienced roles ask for at least two years of research on a successful futures or equities trading team, a record of profitable strategies, and C++, C, Python or Java.
+
+## FAQs about the Optiver Research Scientist interview
+
+### How long does the Optiver Research Scientist interview process take?
+
+Usually about three weeks to a month from application to decision, plus the time you spend on the take-home.
+
+### What is the hardest round of the Optiver Research Scientist interview?
+
+By outcomes, the take-home and presentation: days of your own work are questioned live, and a good metric can still fail on thin diagnostics. Minute for minute the probability module is harsher, at 60 to 90 seconds a question with no going back, but it responds well to practice.
+
+### Does the interview test machine learning or stochastic calculus?
+
+Recent reports show neither as a dedicated round. Statistical content stayed at regression, diagnostics, log-return statistics and discrete probability, though the job increasingly relies on machine learning and your own methods are probed in the final round.
+
+### How much does an Optiver Research Scientist make?
+
+Approximate US pay for PhD research hires in Chicago:
+
+- **Quantitative Research Intern (PhD):** ~$80K–$100K annualized base
+- **Graduate Quantitative Researcher (PhD):** ~$175K–$200K base, with first-year total compensation commonly ~$200K–$380K
+
+Packages combine base salary with a discretionary bonus tied to individual and firm performance, so total pay varies widely year to year.
 
 ---
 

@@ -46,20 +46,20 @@ Which stage each question came from, for the **34 of 34** questions at Reddit th
 
 ## What they ask about
 
-Of the **14 questions at Reddit that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Reddit that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 29% | ████████████ | May 12, 2026 |
-| `strings` | 4 | 29% | ████████████ | Jun 23, 2026 |
-| `arrays` | 3 | 21% | █████████ | Jun 12, 2026 |
-| `hashing` | 3 | 21% | █████████ | Jun 23, 2026 |
-| `heap` | 2 | 14% | ██████ | Jun 12, 2026 |
-| `backtracking` | 1 | 7% | ███ | Feb 19, 2026 |
-| `greedy` | 1 | 7% | ███ | Mar 30, 2026 |
-| `linked-list` | 1 | 7% | ███ | Mar 01, 2026 |
-| `sliding-window` | 1 | 7% | ███ | Jun 12, 2026 |
-| `sorting` | 1 | 7% | ███ | Jun 23, 2026 |
+| `graphs` | 4 | 31% | ████████████ | May 12, 2026 |
+| `strings` | 4 | 31% | ████████████ | Jun 23, 2026 |
+| `arrays` | 3 | 23% | █████████ | Jun 12, 2026 |
+| `hashing` | 3 | 23% | █████████ | Jun 23, 2026 |
+| `heap` | 2 | 15% | ██████ | Jun 12, 2026 |
+| `backtracking` | 1 | 8% | ███ | Feb 19, 2026 |
+| `linked-list` | 1 | 8% | ███ | Mar 01, 2026 |
+| `sliding-window` | 1 | 8% | ███ | Jun 12, 2026 |
+| `sorting` | 1 | 8% | ███ | Jun 23, 2026 |
+| `trees` | 1 | 8% | ███ | Feb 17, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

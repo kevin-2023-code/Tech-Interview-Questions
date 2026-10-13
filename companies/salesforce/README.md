@@ -16,21 +16,33 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 
 ## How Salesforce interviews
 
-This guide goes deeper than the process outline on the company page: what each Salesforce round actually contains, how loop length varies by team, and where candidates lose points. It draws on 11 real Salesforce questions and 16 candidate interview reports, so every pattern described here comes from loops that actually happened.
+Salesforce loops are assembled by the hiring team, so candidates for the same title see anything from a single hiring-manager call to seven rounds. Three things hold across them. Behavioral questions run through almost every round, often 20 minutes of each hour, and they weigh heavily on the offered level. Design rounds are product-shaped and drift toward SQL, data models and multi-tenant isolation. And the offer comes before the team: feedback is reviewed, an offer is approved, and team matching follows.
 
-### Interview Process
+This guide breaks down each stage of the Salesforce interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 34 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Salesforce interview process
 
 <!-- guide-diagram -->
 ![Salesforce interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/salesforce/process.webp)
 <!-- guide-diagram -->
 
-Loop length at Salesforce varies more than at most enterprise companies. Candidates report anywhere from two phone rounds straight to onsite, up to seven rounds total (three pre-onsite plus four onsite) for senior infrastructure roles; five to six rounds is common for MTS-level hires. The full process typically runs three to five weeks, though decisions after the final round can be fast — one candidate received an offer a single day after the onsite.
+The usual path is a recruiter or hiring-manager call, a timed online assessment, a technical phone screen, and an onsite of two to four rounds, held virtually or in person in offices such as San Francisco and Bellevue. Five or six rounds is typical for MTS hires; one senior infrastructure loop ran seven. The process usually takes three to six weeks, but it can also end after a single hiring-manager call.
 
-The online assessment is usually two to three algorithmic problems, occasionally with multiple-choice CS fundamentals attached. Recent OA problems cluster around arrays, strings, and careful simulation: synchronous binary-string swaps where naive one-at-a-time updates fail, sliding-window counting over timestamps, linked-list deduplication, and integer-reduction problems in the LeetCode 2571 family. One fullstack track replaced the algorithm OA entirely with a four-hour code-review assessment: annotate Python and SQL files with bugs (hardcoded secrets, race conditions, schema mistakes), with a minimum of ten comments expected — budget far more time than the recruiter estimate suggests.
+The shape shifts by team more than by level. Frontend and fullstack teams swap the algorithm screen for vanilla JavaScript or a refactoring task. Cloud teams add a Kubernetes and AWS/GCP round, and AI teams add ML and LLM fundamentals plus a multi-hour build. SMTS and above add a second design round or a long architecture deep dive.
 
-The technical phone screen is a shared-editor session on one medium data-structures problem, but the format bends toward the team. Frontend loops replace it with vanilla JavaScript work — implementing a curry function, then building a traffic-light component with HTML, CSS, and plain JS in an editor with no framework and no autocomplete. Interviewers grade how you structure state transitions and handle edge cases like overlapping timers, not just whether the light blinks.
+Here's what the interview process can look like:
 
-Onsite coding rounds mix classic and pragmatic problems. The LFU cache with O(1) operations appears repeatedly, as do recursion over nested JSON/HashMap structures, dynamic-programming partition problems, and whiteboard DFS. Some rounds go the other way entirely: a deliberately simple if-else logic task that tests whether you write clean, correct code under observation. AI-track candidates have been given a multi-hour hands-on project — build a concurrent web crawler that sorts extracted content and exports CSV — followed by a discussion of optimizations and edge cases.
+- **Recruiter or hiring-manager screen:** A 25–30 minute call on background, motivation and logistics, occasionally with a surprise coding problem.
+- **Online assessment (most tracks):** Two or three timed algorithm problems, or a code-review or project task for fullstack teams.
+- **Technical phone screen:** One or two medium problems in a shared editor, or vanilla JavaScript for frontend teams, wrapped in behavioral questions.
+- **Coding interviews:** One or two onsite rounds of practical, recursion-heavy problems, often on a whiteboard.
+- **System design interview:** One or two rounds on a product-shaped system, often with SQL mixed in.
+- **Project deep dive and domain round (senior, cloud and AI tracks):** An architecture walk-through of your work and an oral fundamentals round.
+- **Behavioral and hiring manager interview:** A 45-minute round on ownership, conflict and failure that also calibrates level.
+
+> **Tip:** Treat every round as partly behavioral. One candidate counted about 20 minutes of behavioral questions in every round but the last, and another was down-leveled to SMTS on the behavioral portion of the hiring-manager chat alone.
 
 **[Read the full Salesforce interview process →](interview-process.md)**
 

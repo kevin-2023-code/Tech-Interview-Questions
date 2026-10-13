@@ -10,13 +10,39 @@ How Faire interviews, and the questions candidates reported there. Free question
 | :-- | :-- |
 | Questions reported | [5](../faire.md) |
 | Free to read here | 3 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Apr 10, 2026 |
 
 ## How Faire interviews
 
-No written process guide yet. [The loop, as reported](../faire.md#the-loop-as-reported) counts which round each reported question came from.
+Faire's coding rounds are rarely classic puzzles. Most are implementation tasks graded on exact output and on your tests: a Pascal's triangle that has to print symmetrically, a message splitter where every space has a defined place, a tag validator full of malformed edge cases. One interviewer required JUnit tests during the round. The system design round penalizes over-engineering as much as gaps, and a rejected candidate's feedback cited both an architecture that was hard to follow and too little on crash recovery.
+
+This guide breaks down each stage of the Faire interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 5 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Faire interview process
+
+<!-- guide-diagram -->
+![Faire interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/faire/process.webp)
+<!-- guide-diagram -->
+
+Faire hires engineers into product teams in San Francisco, Toronto and Kitchener-Waterloo, and the loop is broadly the same across them. It typically has three stages over three to five weeks: a recruiter call, one technical screen (sometimes an online assessment instead), and a virtual onsite of two coding rounds, a system design round and a behavioral round.
+
+Intern loops usually drop system design and add a further coding round. Senior candidates get the full onsite, where the design round carries the most weight. Each coding round is typically one hour, built on one main problem with follow-ups rather than several unrelated problems.
+
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call on background, motivation, location and the format of the loop.
+- **Technical screen or online assessment:** A one-hour live coding session with a Faire engineer, or a timed assessment of about 70 minutes for some early-career candidates.
+- **Coding interviews (two):** One-hour live rounds on string processing, validation and implementation problems, with heavy emphasis on tests.
+- **System design interview (experienced hires):** A product-flavored design, such as a like system for brands, discussed at a high level, through APIs and the data model, and into failure handling.
+- **Behavioral interview:** A structured conversation about past decisions, disagreements and collaboration.
+
+> **Tip:** Treat every coding round as a small, tested implementation task, not a puzzle. Clarify the exact output format first, write the code, then list your edge cases and run them before the interviewer asks.
+
+**[Read the full Faire interview process →](interview-process.md)**
 
 ## Free Faire questions
 

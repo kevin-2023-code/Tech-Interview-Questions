@@ -16,19 +16,33 @@ How Coinbase interviews, and the questions candidates reported there. Free quest
 
 ## How Coinbase interviews
 
-Coinbase runs one of the most practical interview loops among major tech employers: nearly every technical stage asks you to ship working code or a workable design against requirements that keep changing. This guide goes deeper than the process outline on the company page, breaking down how each stage is actually graded and paced, backed by 34 real Coinbase questions and 42 candidate interview reports.
+Coinbase screens hard before any engineer joins the call: an AI-led recruiter interview, a long work-style inventory and a speeded cognitive test. After that, nearly every technical round is a build from an empty file where you write the classes, signatures and tests yourself. The final gate is a team, not a committee, and candidates who cleared every round were still turned away when no team at their level had headcount.
 
-### Interview Process
+This guide breaks down each stage of the Coinbase interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 45 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Coinbase interview process
 
 <!-- guide-diagram -->
 ![Coinbase interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/coinbase/process.webp)
 <!-- guide-diagram -->
 
-Before you meet a human engineer, expect an automated screening layer that has expanded significantly since 2025. Candidates describe an AI-led recruiter conversation of roughly fifteen minutes, a long work-style inventory (one report counted around 200 items probing collaboration, autonomy, and appetite for hard work), and a timed cognitive test mixing GRE-style vocabulary fill-ins, number-pattern puzzles, and figure sequences — one version ran 50 questions in 30 minutes. None of this is technically hard, but the time pressure is real and a few vocabulary items can be obscure; treat it as a gate to clear quickly rather than a place to earn signal.
+Each team hires for itself, so the coding pool stays narrow while design prompts follow the product. The usual path is automated screening, a coding assessment, one to four technical screens, and a virtual onsite of three or four rounds; one loop finished in under two weeks.
 
-The technical screen is usually a CodeSignal assessment of 60 to 90 minutes built around a single progressive problem in about four levels rather than four separate puzzles. Reported themes rotate through a recipe manager, a digital wallet with scheduled payments and account merging, a file system, cloud storage with per-user capacity, and a simplified database with expiration and backup. Each level exposes only about ten visible tests, partial credit is awarded, and the binding constraint is code volume: candidates who finish practiced this shape beforehand and kept earlier levels working while layering on search, sorting, versioning, or quotas. A newer AI-assisted variant swaps this for a game-agent policy problem (deciding when a Flappy Bird-style character should jump) on a platform with a built-in coding assistant, restricted copy-paste, and a visual auto-pilot replay that is the fastest way to debug your strategy.
+One L4 candidate got a scaled-down assessment, while senior and staff loops probe scope and promotion history harder. Frontend loops use named rounds (Execution, Foundation, Domain, System Design), and machine learning loops swap the build for ML theory and from-scratch algorithms.
 
-Live rounds start with a 60-minute screen that fits either two medium problems or one domain build with layered follow-ups. The virtual onsite is typically four rounds — one or two practical coding sessions, system design, and a hiring-manager or behavioral conversation — and recurring reports show the coding pool is narrow: pagination APIs you must specify yourself, mining-block fee selection where interviewers explicitly prefer a greedy fee-per-size sort over dynamic programming for production practicality, and order-lifecycle state machines. Design prompts stay close to the product: a real-time price dashboard, a wallet ledger, order flow across exchanges. Behavioral rounds dig into your current level, promotion trajectory, project criticality, and increasingly how you use AI tools day to day. The whole loop can finish in under two weeks with decisions in as little as two business days, but several candidates passed every round and still lost out at team matching, so a clean technical performance is necessary, not sufficient.
+Here's what the interview process can look like:
+
+- **Automated screening:** An AI-led recruiter interview, a work-style inventory of about 200 items, and a speeded cognitive test.
+- **Online assessment:** One progressive build in four levels, or a 60-minute AI-assisted game-agent task.
+- **Technical phone screens (one to four):** 60-minute live builds or two medium problems, with escalating follow-ups.
+- **Coding interviews:** One or two onsite rounds from a small, repeating pool: pagination, block mining, order state machines.
+- **AI-assisted coding round (some 2026 loops):** Debugging, feature design, log analysis and pull-request review with an assistant on screen.
+- **System design interview:** Product-anchored prompts such as a live price page, a crypto ledger, or exchange order flow.
+- **Hiring manager interview:** A project deep dive with direct questions on level, promotion and daily AI use.
+
+> **Tip:** Every live round rewards the same habit: pin down the interface before typing, then write your own tests out loud. Candidates who left signatures vague lost time to rework even when their algorithm was right.
 
 **[Read the full Coinbase interview process →](interview-process.md)**
 

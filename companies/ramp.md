@@ -46,19 +46,19 @@ Which stage each question came from, for the **33 of 33** questions at Ramp that
 
 ## What they ask about
 
-Of the **22 questions at Ramp that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **21 questions at Ramp that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 6 | 27% | ████████████ | Apr 01, 2026 |
-| `strings` | 6 | 27% | ████████████ | Sep 18, 2026 |
-| `graphs` | 4 | 18% | ████████ | Sep 18, 2026 |
+| `hashing` | 6 | 29% | ████████████ | Apr 01, 2026 |
+| `strings` | 6 | 29% | ████████████ | Sep 18, 2026 |
+| `graphs` | 4 | 19% | ████████ | Sep 18, 2026 |
 | `binary-search` | 3 | 14% | ██████ | Jun 01, 2026 |
-| `arrays` | 2 | 9% | ████ | Jun 01, 2026 |
-| `greedy` | 2 | 9% | ████ | — |
-| `sliding-window` | 2 | 9% | ████ | May 01, 2026 |
-| `sorting` | 2 | 9% | ████ | Jun 01, 2026 |
-| `two-pointers` | 2 | 9% | ████ | Mar 11, 2026 |
+| `arrays` | 2 | 10% | ████ | Jun 01, 2026 |
+| `greedy` | 2 | 10% | ████ | — |
+| `sliding-window` | 2 | 10% | ████ | May 01, 2026 |
+| `sorting` | 2 | 10% | ████ | Jun 01, 2026 |
+| `two-pointers` | 2 | 10% | ████ | Mar 11, 2026 |
 | `intervals` | 1 | 5% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>

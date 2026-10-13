@@ -8,74 +8,271 @@
 
 ---
 
-Databricks runs one of the most demanding engineering loops in the industry, and the difficulty comes less from exotic algorithms than from an uncompromising completeness bar: interviewers expect running, tested code and keep layering constraints until time runs out. This guide goes beyond the process outline on the company page, covering how each stage is actually graded, the follow-up patterns candidates face, and what happens after the loop. It draws on 36 real Databricks questions and 60 candidate interview reports.
+Databricks rarely asks textbook puzzles. Its rounds are small pieces of platform work: a key-value store that reports its own query rate, an IP firewall evaluated against CIDR rules, a snapshot-capable collection, and a thread-safe writer that appends bytes to disk. Each one starts easy and grows two or three follow-ups within the hour. The bar is complete, running, self-tested code, and candidates with the right approach but an unfinished function are routinely rejected.
 
-## Interview Process
+The second distinctive feature comes after the interviews. Manager references, a hiring committee that reviews the whole packet, and team matching and headcount have all ended loops in which every technical round went well.
+
+This guide breaks down each stage of the Databricks interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 73 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Databricks interview process
 
 <!-- guide-diagram -->
 ![Databricks interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/databricks/process.webp)
 <!-- guide-diagram -->
 
-The recruiter conversation is more consequential than at most companies. Beyond motivation and background, recruiters and HR calls probe reasons for leaving your current role and, for early-career candidates, whether you received a return offer from prior internships — candidates have been rejected primarily over these answers. Ask early about team matching, since some candidates must clear a match before further rounds are scheduled, and start lining up references: Databricks later requests a reference from a current or former manager plus senior colleagues, and treats them as heavyweight input.
+The structure is similar across engineering tracks, and the question pool is small and recurring. A recruiter or HR call is followed by one or two technical phone screens and a virtual onsite of four to six rounds, sometimes split over two days. Most processes take three to six weeks, and waits for references or team matching can stretch that to two months.
 
-The technical phone screen is a single 45–60 minute session built around one problem that expands as you go. A typical arc: solve a clean base version, then absorb two or three escalating follow-ups — a routing problem gains turning costs and mode switches, a metrics window becomes runtime-configurable, a CIDR lookup grows into a range-intersection query that rewards advanced data structures. Interviewers push back on suboptimal approaches immediately and expect you to finish: candidates who reached a correct design but left code undebugged were consistently cut. Passing candidates sometimes receive an onsite invitation the same day; rejections have arrived within hours to a week.
+New-grad and mid-level loops usually include a systems-programming round, where you write concurrency code. Senior and staff loops get heavier design work. One staff phone screen consisted entirely of designing a distributed file system.
 
-The virtual onsite usually runs four to five rounds, though loops from three to six appear. Coding rounds are graded on complete, executable implementations, and several interviewers explicitly require unit tests — candidates have been asked to prove a structure is genuinely lazy, to test state-machine transitions, and to work with their language's mocking APIs for time-dependent behavior. One coding slot is frequently a systems-programming exercise (a buffered log writer or durable data writer) where the follow-ups walk down the stack into flush boundaries, fsync, and group commit. Formats can also surprise: one loop replaced a design round with a review of another candidate's flawed pseudocode, and the exercise was to find and fix the bugs.
+Here's what the interview process can look like:
 
-The design round scales with seniority: mid-level candidates may design a concrete service around vendor integration, ordering, or scheduling, while senior and staff loops go straight into distributed storage and data-system internals — staff phone screens have consisted entirely of one such design. The hiring-manager round doubles as a technical audit of your resume: candidates report being grilled on granular architecture decisions from past projects, and a weak hiring-manager read has overridden strong technical feedback.
+- **Recruiter and HR screen:** A 30-minute call on motivation, career history and logistics, which is weighted more heavily here than at most companies.
+- **Technical phone screen (one or two):** A 45–60 minute live coding session on one problem with escalating follow-ups.
+- **Coding interviews:** One or two onsite hours implementing a small class or algorithm, with tests you write yourself.
+- **System programming interview:** A concurrency and durability exercise, usually a multi-threaded log writer.
+- **System design interview:** A product-shaped design driven by failure handling.
+- **Hiring manager and behavioral interview:** A project deep dive plus behavioral questions.
 
-After the loop, feedback goes to a committee that weighs interviews, references, and trajectory together, and candidates are effectively ranked against each other — several reports describe passing every round yet losing out to ranking, headcount freezes, or an unavailable manager reference. End-to-end timelines typically stay within about five weeks, but expect variance from same-day decisions to multi-week silences, and a roughly one-year cooldown after a rejection.
+> **Tip:** Budget each coding hour as 15 minutes for a tested baseline and the rest for follow-ups. Candidates who spent most of the hour on part one failed even when part one was clean.
 
-## What Candidates Report
+## Recruiter and HR screen
 
-- The real bar is the follow-up chain, not the opening prompt. Problems that start as approachable exercises acquire concurrency, persistence, scale, or tighter complexity targets, and the extension is where most candidates fall.
-- Incomplete code is the most common stated failure. Several candidates with sound designs ran out of time on eviction logic, path reconstruction, or debugging and were rejected despite a correct approach.
-- Testing is graded, not decorative. Reports describe losing ground for shaky mocking fluency and gaining it for unprompted edge-case tests; one interviewer's core question was how to verify laziness itself.
-- Many prompts are deliberately novel — implicit trees too large to build, copy-on-write structures, encryption-cost optimization over directory trees — so pattern recall matters less than deriving invariants live.
-- Interviewer style varies sharply: some are collaborative and hint-driven, others brisk, interruptive, or hard to read. Candidates who kept narrating assumptions fared better than those who let the tone rattle them.
-- Strong technical performance does not guarantee an offer. References, hiring-manager conviction, candidate ranking, and headcount all show up in reported outcomes, sometimes after weeks of waiting.
+The call covers background, level, location and competing offers. It also probes your history in ways that have decided outcomes. One new grad was rejected two days after an HR call about why an internship had not produced a return offer. Another candidate's process ended over how they explained leaving their current job.
 
-## Coding Questions
+Interviewers evaluate:
 
-Databricks coding problems favor layered derivation over memorized patterns: grid routing with multiple transport modes, networking rules, implicit recursive trees, interval maintenance, and tree DP with cost trade-offs all recur. Practice finishing the baseline fast enough to leave room for two rounds of extensions.
+- **Career narrative:** A calm, specific account of each job change or missing return offer.
+- **Company knowledge:** A generic answer about Databricks ended one senior screen on the spot.
+- **Logistics:** Timeline and other processes. Requests for a two-week gap before the technical screen were granted.
+- **Track fit:** Which team you are routed toward, since team matching can gate later rounds.
+
+Prepare a two-sentence explanation for every job change.
+
+> **Note:** Recruiter previews are often wrong. A round billed as full-stack coding turned out to be pure system design.
+
+### Sample questions for the recruiter and HR screen
+
+Here are some questions reported by recent candidates:
+
+- Why are you leaving your current role?
+- Why did your last internship not end in a return offer?
+- If you received several offers, how would you choose?
+
+- [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen)
+
+## Technical phone screen
+
+The screen is a single 45–60 minute session in a shared editor, built around one problem that keeps growing. Four families dominate:
+
+- grid routing with several transport modes, later allowing a limited number of mode switches with penalties
+- first-match CIDR firewall rules, growing into whether an entire block is cleared by the rules
+- a Fibonacci tree that is too large to build, navigated by preorder index arithmetic
+- a key-value store that reports its rolling put and get rates
+
+Many interviewers also ask for unit tests. Results arrive anywhere from four hours to a week later.
+
+Track differences show up here. Infrastructure Engineer screens lean hardest on networking: subnet arithmetic done in your head, and containment follow-ups that push toward tries or segment trees. Software Engineer screens draw more often from the key-value store, revenue-tracker and file-encryption tree families. Some senior candidates get a design screen instead.
+
+Interviewers evaluate:
+
+- **Optimal complexity:** A working anagram search was rejected for not reaching linear time.
+- **Edge-case definitions:** One candidate computed QPS over the full 300 seconds for a server that had run only a few seconds, and suspected that cost the round.
+- **State deduplication:** In commute variants, a cell reached with a different time and cost trade-off must be handled.
+- **Self-testing:** Tests written without being asked, with a clear convention for no-match results.
+
+Drill each family until the base case takes 15 minutes.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Choose among four commute modes on a grid, minimizing time and then cost. Then allow limited mode switches with penalties.
+- Evaluate ordered allow and deny CIDR rules for an IP, then for an entire target CIDR.
+- Find the path between two preorder-numbered nodes of a k-th order Fibonacci tree without building it.
 
 - [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute)
-- [Firewall CIDR Rules](https://trueinterview.io/questions/firewall-cidr-rules)
-- [Find Path Between Nodes in K-th Order Fibonacci Tree](../../questions/algorithm/find-path-between-nodes-in-k-th-order-fibonacci-tree/README.md)
-- [Delete Element from Interval Array by Index](https://trueinterview.io/questions/delete-element-from-interval-array-by-index)
+- [Check if CIDR is fully canceled by rules](https://trueinterview.io/questions/check-if-cidr-is-fully-canceled-by-rules)
+- [Find Path in Fibonacci Tree](../../questions/algorithm/find-path-between-nodes-in-k-th-order-fibonacci-tree/README.md)
+- [Compute last-5-minute QPS in memory](https://trueinterview.io/questions/compute-last-5-minute-qps-in-memory)
+- [Anagrammed indexOf](https://trueinterview.io/questions/anagrammed-indexof)
+
+## Coding interviews
+
+Onsite coding rounds ask you to implement a class against a short specification, often from a skeleton, and to run your own tests. Recurring prompts include a lazy array that defers mapped functions, a set whose iterators see a frozen snapshot, m-by-n tic-tac-toe with a k-in-a-row win, a Tetris drop simulation, a run-length and bit-packing encoder, and a query-plan optimizer with predicate pushdown. One snapshot-set variant required O(1) iterator creation and O(N + M) total space.
+
+Infrastructure Engineer loops tilt toward query plans and encoders. Full-stack loops have swapped one hour for an autocomplete with retries, debouncing and caching.
+
+Interviewers evaluate:
+
+- **Specification discipline:** One candidate preserved an iteration order the spec had waived, and the debrief centered on that assumption.
+- **Interface completeness:** A missing `__iter__`, or a batch decoder where an iterator was required, cost time and signal.
+- **Test design:** Tests that prove laziness or snapshot isolation. One candidate lost ground over unfamiliarity with Python's mocking API.
+- **Data-structure choice:** A sorted array for frequent ordered inserts was marked down. A sorted set was expected.
+
+Practice writing a class, its tests and one follow-up in 45 minutes, with an injectable clock.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement a lazy array whose `map` calls are deferred, and write a test proving the deferral.
+- Count encrypted files in a directory tree, then minimize total encryption cost when a folder-level call costs a flat amount.
+
+- [Design Lazy Array](../../questions/object-oriented-programming/implement-lazyarray-with-deferred-function-execution/README.md)
+- [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator)
+- [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition)
 - [File Encryption Tree Optimization](https://trueinterview.io/questions/file-encryption-tree-optimization)
+- [SQL Query Plan Optimizer](https://trueinterview.io/questions/sql-query-plan-optimizer)
 
-## System Design Questions
+## System programming interview
 
-Design rounds reward tracing real request flows with explicit durability and consistency decisions. Recurring themes include storage systems with write-ahead logging, scheduler dependency graphs, and vendor-aggregation services where partial failure, caching, and idempotent payment flows carry the discussion.
+This round is distinctive to Databricks. The usual task is a durable writer: thousands of threads call `push(data)` with payloads of up to 1 KB, and each payload must be appended to one file safely. Variants include a blocking cache, a master thread coordinating disk-writing workers, and circuit breakers that route between a primary database and two replicas. Follow-ups go down the stack to batching, flush boundaries, fsync and group commit. This is the core round for Infrastructure Engineer candidates.
 
+Interviewers evaluate:
+
+- **Correct synchronization:** One candidate's `signalAll` explanation was judged to leave busy-waiting, and the round failed.
+- **Durability reasoning:** Knowing when a buffered append is actually on disk.
+- **Contention:** Keeping critical sections small when writers spike.
+- **Finishing:** A rushed writer with failing tests caused at least one rejection.
+
+Build a buffered, fsync-backed log writer from scratch before the onsite.
+
+> **Note:** Several candidates who cleared every other round were rejected here. Confident talk about locks does not substitute for correct code.
+
+### Sample questions for the system programming interview
+
+Here are some questions reported by recent candidates:
+
+- Implement a thread-safe `DataWriter` shared by thousands of threads that appends each push to disk durably.
+- Route requests across a primary and two replicas, each with a breaker that opens after two consecutive failures.
+
+- [Design a single-node persistent in-memory cache](https://trueinterview.io/questions/design-a-single-node-persistent-in-memory-cache)
+- [Implement Circuit Breaker Pattern](https://trueinterview.io/questions/implement-circuit-breaker-pattern)
+- [Circuit Breaker Based Database Replica Routing](https://trueinterview.io/questions/4ce104e2-73c6-501b-8be8-92ced07f6431)
+- [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md)
+
+## System design interview
+
+Design rounds focus on APIs, schemas and failure paths, and are often typed in markdown without a diagram. The most common prompt is a book marketplace. A buyer names a maximum price, the service queries many seller APIs, and it auto-buys at the lowest price. One version specified about 30 vendors and hundreds of requests per second. Other prompts include Slack-style chat with deletion, a trading service that cancels expired broker orders, a collaborative playlist and a dependency-graph scheduler.
+
+Senior and staff loops go into storage, such as a distributed file system with strong consistency. Machine learning candidates get ML design instead, such as detecting harmful LLM output.
+
+Interviewers evaluate:
+
+- **Failure-first thinking:** Raising timeouts, idempotency keys, duplicate-charge prevention and compensation before you are asked.
+- **Lean APIs:** One candidate was pushed to remove every field the API did not strictly need.
+- **Data-model trade-offs:** For a playlist, interviewers steered toward linked per-song rows and asked what that model costs on reads.
+- **Depth by level:** Mid-level sessions can stay on the core flow. Staff sessions spend the whole hour on metadata and recovery.
+
+Rehearse the recurring prompts, narrating each failure mode.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a book service that auto-buys under a user's maximum price without overselling or double-charging.
+- Design a stock-order service on a broker API that must cancel orders that miss their deadline.
+- Design group chat where deleting a conversation removes it for everyone.
+
+- [Design Book Price Aggregator](https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform)
+- [Design Stock Trading Platform](../../questions/system-design/design-a-stock-order-trade-management-system/README.md)
+- [Design Messaging With Message Deletion](https://trueinterview.io/questions/design-messaging-with-message-deletion)
 - [Distributed File System](https://trueinterview.io/questions/distributed-file-system)
-- [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log)
-- [Design a Distributed Job Scheduler for GPU Compute Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform)
-- [Book Price Aggregator and Purchase Platform](https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform)
 
-## Low-Level Design Questions
+## Hiring manager and behavioral interview
 
-These rounds turn an API sketch into correct, testable code under state and time pressure: snapshot semantics, deferred evaluation, and sliding-window metrics are house specialties. Define invariants aloud, keep the interface clean, and expect to defend your complexity claims.
+Expect one or two hours with a hiring manager, a director or a senior architect. Common themes are your hardest challenge, your biggest mistake, feedback you disagreed with, technical conflict, and why Databricks. Some loops add a tech-fit presentation of your projects to an organization's tech lead. Some interviewers interrupt constantly.
 
-- [SnapshotSet with Iterator](https://trueinterview.io/questions/snapshotset-with-iterator)
-- [Implement LazyArray with Deferred Function Execution](../../questions/object-oriented-programming/implement-lazyarray-with-deferred-function-execution/README.md)
-- [Design Hit Counter with Variable Time Windows](https://trueinterview.io/questions/design-hit-counter-with-variable-time-windows)
+Interviewers evaluate:
 
-## AI-Assisted Coding Questions
+- **Depth on your own work:** Schema choices, alternatives you rejected and incidents you handled.
+- **Cross-functional range:** Senior candidates who passed noted a heavy emphasis on it.
+- **Composure:** Bringing the conversation back to your point when interrupted.
+- **Judgment about feedback:** Specific cases where you changed course or held your position with evidence.
 
-ML-adjacent candidates implement fundamentals from scratch rather than calling libraries — deriving gradients, catching a sum-versus-mean loss bug, and justifying convergence criteria have all decided rounds.
+Prepare six to eight stories and one project you can defend down to the schema.
 
-- [Implement Gradient Descent for Linear Regression (MSE) and debug convergence](https://trueinterview.io/questions/274c024f-d789-4f9c-99cd-ad66381cfc31)
+> **Note:** One very negative hiring-manager read blocked team matching for a candidate with three strong-hire ratings.
 
-## How to Prepare
+### Sample questions for the hiring manager and behavioral interview
 
-- Train for the one-problem hour: clarify semantics, ship a correct baseline early, test it, then bank time for the inevitable extensions instead of polishing the first version.
-- Drill the recurring families — multi-mode grid shortest paths, CIDR and bitwise manipulation, sliding-window counters with bucketing, interval merging, and navigation of implicit recursive trees without materializing them.
-- Get fluent in your language's testing and mocking toolkit, especially faking clocks; candidates have been graded directly on this.
-- Build a durable log writer and a WAL-backed store from scratch so fsync, group commit, batching, and replay follow-ups feel routine.
-- Prepare resume deep dives at the level of schema choices, rejected alternatives, and incidents — the hiring-manager round audits these in detail.
-- Secure a manager reference before the onsite and ask the recruiter how team matching, ranking, and headcount affect your specific pipeline.
+Here are some questions reported by recent candidates:
+
+- Tell me about your biggest mistake and a time you disagreed with feedback.
+- How do you break down a large, ambiguous task?
+
+- [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round)
+- [Describe project impact and critical feedback](https://trueinterview.io/questions/describe-project-impact-and-critical-feedback)
+
+## How Databricks makes hiring decisions
+
+Within days of the onsite, recruiters request references, typically a current or former manager plus a tech lead or senior colleague. One candidate was rejected for being unable to provide a current-manager reference. A hiring committee then weighs interviews, references and trajectory together. It has rejected candidates with uniformly strong feedback, and others lost out to headcount or to rankings against the same batch. Decisions arrive from the day after references to more than a week later, usually without feedback, and a rejection carries a one-year cooldown.
+
+> **Tip:** Line up a manager reference before the onsite. Once the recruiter asks, there is rarely time to find one.
+
+## How to prepare for the Databricks interview
+
+1. **Master the recurring families:** Commute grids, CIDR containment, Fibonacci-tree indexing, rolling-window stores and snapshot collections.
+2. **Finish part one fast:** The follow-up carries the grade, and unfinished code is the most common rejection reason.
+3. **Write tests as you go:** Inject the clock and cover edge cases such as uptime shorter than the window.
+4. **Implement a durable writer:** Cover locks, condition variables, batching and fsync in real code.
+5. **Confirm the spec first:** Ask about ordering, window semantics and error returns before optimizing.
+6. **Design around failure:** Make timeouts, idempotency and compensation the main thread.
+7. **Secure references early:** Have a manager ready before the onsite is scheduled.
+
+## About working at Databricks
+
+Databricks builds the lakehouse platform that grew out of Apache Spark, and most of its engineering is systems work across multiple clouds. Interview prompts such as write-ahead logs, snapshots and query-plan rewrites are scaled-down versions of that work. Engineers describe flat teams with wide ownership.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| L3 (Software Engineer, new grad) | Scoped features with guidance | Tasks within one team |
+| L4 (Software Engineer) | Owning components end to end | One team's services |
+| L5 (Senior Software Engineer) | Leading projects and technical direction | A team and its neighbors |
+| L6 (Staff Software Engineer) | Architecture across several systems | Multiple teams |
+
+Databricks hires engineers across its product and platform areas. Teams include:
+
+- **Runtime and query engine:** Spark, the Photon engine and Databricks SQL.
+- **Storage and governance:** Delta Lake and Unity Catalog.
+- **Mosaic AI and MLflow:** Model training, serving and agent tooling.
+- **Lakebase:** Serverless Postgres built on the acquired Neon technology.
+- **Platform infrastructure:** Serverless compute and multi-cloud fleet management.
+
+### Experience and education requirements
+
+New-grad postings ask for a degree in computer science, engineering or a related field, skill in a language such as Python, Java or C++, grounding in algorithms, data structures and object-oriented design, and end-to-end project experience. Experienced roles look for distributed systems, database or infrastructure depth.
+
+## FAQs about the Databricks interview
+
+### How long does the Databricks interview process take?
+
+Usually three to six weeks. One new grad went from HR call to offer in about five and a half weeks, while waits for team matching and references pushed others past two months.
+
+### What is the hardest round of the Databricks interview?
+
+Candidates most often name the system programming round, followed by the escalated phone screen. The least predictable stage comes after the interviews, at references and the committee.
+
+### How much does a Databricks software engineer make?
+
+Approximate US total compensation:
+
+- **L3 (Software Engineer):** ~$250K
+- **L4 (Software Engineer):** ~$405K
+- **L5 (Senior Software Engineer):** ~$650K
+- **L6 (Staff Software Engineer):** ~$1M
+
+Most of each package is stock that vests over four years after a one-year cliff, so the total moves with the private valuation.
+
+### Is there an online assessment?
+
+Almost never. One candidate described an open-book assessment covering CIDR filtering, encoding, a payment design and a log writer, but nearly every process starts with a live screen.
+
+### Is the Databricks interview remote?
+
+Yes. Reported onsites were virtual, and loops outside North America followed the same structure.
 
 ## Guides by Role
 

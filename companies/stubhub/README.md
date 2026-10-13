@@ -16,21 +16,30 @@ How Stubhub interviews, and the questions candidates reported there. Free questi
 
 ## How Stubhub interviews
 
-This is the deep dive behind StubHub's process page: what each round actually contains, how the coding session is graded, and why strong-feeling loops still end in rejection. It draws on 2 questions and 6 candidate interview reports from StubHub's engineering loop, all of them clustered around the same distinctive round: a domain object-modelling exercise set inside StubHub's own ticket marketplace.
+StubHub's technical rounds are built around its own marketplace rather than abstract puzzles. The coding round asks for an event recommendation or marketing-notification engine inside a prepared Java or Python skeleton, with new campaign rules added one at a time. The system design round asks for a deadline-bound messaging or email pipeline. The hiring manager probes how far your scope reaches beyond code, and in reported loops friendly sessions and early finishes did not predict the outcome.
 
-### Interview Process
+This guide breaks down each stage of the StubHub interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 5 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### StubHub interview process
 
 <!-- guide-diagram -->
 ![StubHub interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/stubhub/process.webp)
 <!-- guide-diagram -->
 
-The loop is short and front-loaded with a hiring manager. Candidates consistently describe four stages: a recruiter call, a hiring-manager conversation, then a virtual on-site made up of a coding round and a design round. Some candidates report an online assessment before the recruiter call; most do not see one. Pacing is typically about a week between stages, and results arrive fast — one candidate received a decision two days after the on-site, another received a template rejection the morning after the coding round.
+The loop is short. Reports describe a recruiter call, a hiring-manager conversation, and a virtual on-site of one coding round and one system design round. The order varies: some candidates met the hiring manager before the on-site, while others went straight from the recruiter to coding. Some loops were split across two days. Stages are typically about a week apart, and decisions arrive within one or two days.
 
-**Recruiter screen.** Mostly calibration rather than screening. Recruiters describe the company as small relative to its brand and growing hard, stress that engineers own unusually broad scope, and raise the European side of the business acquired with viagogo. Expect to walk through projects you personally led. Level is negotiated here, not later: one candidate who applied for a senior role with seven years of experience was moved to Software Engineer II on this call.
+The same object-design problem appears for full-stack and back-end tracks and across levels. What changes with level is how much product and stakeholder ownership the hiring manager expects to hear about.
 
-**Hiring manager round (about 45 minutes).** A project deep dive in classic behavioral shape: self-introduction, your most impactful recent project, and the hardest part of it. The manager typically spends real time describing the team, and the recurring message is that the job is not pure product engineering — you are expected to negotiate requirements directly with product managers and stakeholders. Answers that stay purely technical miss what this round is probing.
+Here's what the interview process can look like:
 
-**Coding round (typically 60 minutes, sometimes closer to 90).** This is a pair-programming object-design session, not an algorithm round. Interviewers hand over a prepared skeleton — domain classes such as `Event`, `Customer`, `Inventory`, and a coordinate-based location service, plus static data services and a sample customer — and a short document of product insights: engagement drops beyond about 100 miles, tickets under $50 convert better, events in the next 30 days perform best, metro-area buyers cross into adjacent cities, and returning one weak recommendation beats returning nothing. The task is to build a recommendation or notification engine on top of that skeleton with no hard-coded rules. Java and Python both appear. Requirements arrive in waves: recommend events in the customer's city, then only those under a price threshold, then the five nearest by straight-line distance, then the single event closest to the customer's birthday, then combine several filters at once. The grade is whether each new wave costs you a new class rather than an edit to an existing one.
+- **Recruiter screen:** A short call about your recent projects, the team's scope and the target level, which may be adjusted here.
+- **Hiring manager interview (about 45 minutes):** A behavioral project deep dive focused on impact, difficulty and working with product partners.
+- **Coding round (about 60 minutes):** An object-oriented design exercise in a provided skeleton, building a recommendation or notification engine whose requirements arrive in parts.
+- **System design interview (about 60 minutes):** A design for a messaging or email system with a hard delivery deadline, often followed by product-minded discussion.
+
+> **Tip:** Finishing early is not a pass. One candidate completed the coding task in about 40 minutes, spent the last 30 chatting, heard "good job" in both rounds, and was rejected two days later. Use spare time for extensions such as testing, configuration and empty-result handling.
 
 **[Read the full Stubhub interview process →](interview-process.md)**
 

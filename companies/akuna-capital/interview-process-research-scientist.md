@@ -6,93 +6,251 @@
 
 ---
 
-The stage that eliminates most Research Scientist candidates at Akuna Capital has no interviewer in it: a recorded assessment that allows five minutes per problem and makes you narrate the derivation on camera while you solve. The problem set is not interview mathematics but differentiation under the integral sign, convergence of Newton's method, Markov chains and extending orthogonal vector sets. Candidates fluent in algorithm patterns get cut by an exam they cannot ask a clarifying question about, and reports describe knowing the answer yet running out the clock — deriving and speaking at once is its own skill.
+The Akuna Capital research loop front-loads its attrition into stages with no interviewer: after a coding assessment, most candidates face a mathematics assessment with five minutes per problem, narrated on camera while the derivation happens, on topics such as differentiation under the integral sign and Newton's method convergence. The live rounds reward the same habit. In the final round, a candidate who left the sliding-window mode unfinished but priced the memory out loud received an offer, while one with optimal complexity everywhere was rejected. A separate behavioral round can end the process by itself.
 
-## Interview Process
+This guide breaks down each stage of the Akuna Capital Research Scientist interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 35 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2, cross-checked against recent public accounts.
+
+## Akuna Capital Research Scientist interview process
 
 <!-- guide-diagram -->
 ![Akuna Capital Research Scientist interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/akunacapital--research-scientist/process.webp)
 <!-- guide-diagram -->
 
-1. **Application and recruiter contact.** Cold applications and recruiter-sourced candidates both appear in reports and neither is treated differently afterward. Recruiter contact is administrative: it confirms the research track and level and releases the first assessment. Expect imperfect logistics — one candidate hit a broken assessment platform on the first attempt and got a working invitation only later, so a stalled link is not by itself a rejection.
+Akuna sets level, title and team placement only after the interviews end, and an application marks that posting as the candidate's top quant or technology preference, removing the candidate from other quant and technology roles that season. The process runs two automated stages, two or three live technical calls, a behavioral round and a final round over a few weeks to about two months.
 
-2. **Coding online assessment.** A conventional timed challenge, typically three problems, described in reports as fair and generously timed — clean pattern work with no obscure tricks. Reported sets include counting index pairs whose combined net profit is strictly positive, a delivery order over a city graph by shortest distance with ties broken by smaller city number, and an array transformation with a natural linear running-sum solution. The wait afterward can be long: one candidate received the next assessment about a month after clearing this one.
+Intern and junior candidates see the full assessment sequence; experienced hires (three or more years in statistics or machine learning) are pressed harder on research background and on Python or C++, with the same mathematics content. Developer-strategist variants add more systems-flavored coding.
 
-3. **Recorded video mathematics assessment.** The track-defining stage. Each problem carries a strict five-minute limit and you record a spoken explanation while solving; there is no interaction and no second attempt. Reported topics: the chain rule, the Leibniz integral rule, Markov chains, convergence behavior of Newton's method, extending a set of orthogonal vectors, and a grid-infection teaser asking the minimum number of initially infected cells that eventually infect an entire board when a healthy cell falls to any two infected orthogonal neighbors. A written variant of the same filter also appears: a mathematics assessment where step-by-step explanations were mandatory and bare answers scored nothing. Grading rewards a clean, complete argument inside the time box over a correct number produced silently.
+Here's what the interview process can look like:
 
-4. **Mathematics and probability phone screen.** A live interviewer covers the same terrain, moving between domains within one call rather than blocking them: properties of an orthogonal matrix, differentiating a composite function, the mechanics and convergence criteria of Newton's method, and probability puzzles such as the expected number of steps for an ant moving at random along the edges of a cube to first reach the opposite vertex. The infection puzzle reappears here as a discussion problem. The graded axis is intuition — why orthogonality preserves norms, why the iteration converges quadratically near a simple root — probed step by step rather than collected as answers.
+- **Recruiter contact:** Administrative; confirms the track and releases the first assessment, sometimes with no call at all.
+- **Coding online assessment:** Typically three medium algorithm problems in about 60 to 90 minutes, auto-graded on hidden tests.
+- **Video mathematics assessment:** Recorded, five minutes per problem, with a spoken derivation; a written variant requires step-by-step explanations.
+- **Mathematics and probability phone screen:** A live call mixing linear algebra, calculus, probability and a puzzle.
+- **Technical coding interview:** 45 to 60 minutes, two or three problems in a shared editor, usually with no resume walkthrough.
+- **Behavioral interview:** A non-technical round on motivation, firm knowledge and handling feedback.
+- **Final round:** Back-to-back sessions, virtual or in office, centered on a streaming-statistics design problem and harder probability.
 
-5. **Algorithmic phone round.** Research candidates still sit a real coding interview, typically 45–60 minutes with two to three problems and no resume walkthrough. Reported content: BFS followed by a sort keyed on the traversal, minimum swaps to sort descending via cycle decomposition, prefix-sum transformations, one missing and one repeated element via XOR bucketing, and connected components returning the maximum node-ID spread. You write real code in a shared editor, state exact complexity, and are expected to design your own test cases unprompted.
+> **Tip:** Every graded stage, including the automated ones, scores visible reasoning. Practice each problem type with a timer running and your voice on, stating assumptions first and the answer last.
 
-6. **Behavioral round.** A separate non-technical conversation that reports treat as a real gate: motivation for this firm specifically, what you know about its business, and concrete instances of receiving positive and critical feedback and what you did next. Self-awareness is the stated target.
+## Coding online assessment
 
-7. **Final round.** Back-to-back sessions with researchers, developers and traders. The technical centerpiece is a streaming-statistics deep dive — track min, max, median and mode over a continuous flow, rework it for a sliding window, then attack latency with caching, batching and sketch-based approximation — alongside research-judgment conversation about how you formulate and validate a model. Decision timing is inconsistent: one candidate was told roughly a week and had heard nothing four weeks later.
+The first evaluation is a timed coding challenge on an online platform, usually three problems in roughly 60 to 90 minutes in the candidate's choice of language. Candidates describe the time as generous and the problems as fair pattern work. Statements are long, and candidates lose this stage to a misread constraint more often than to the algorithm; grading runs on hidden tests.
 
-## What They Actually Evaluate
+Recurring problems include strictly positive net-profit pair counting, a city-graph delivery order by shortest distance with a smaller-city tie-break, a greedy task that is simple after sorting, maximizing distinct values with at most k cross-array swaps, and an O(n) prefix-sum transformation. Some candidates receive the problems split across two assessments a month apart. Strategist variants have added a dynamic program over a subsequence that may not skip two consecutive elements and minimum swaps via cycle decomposition.
 
-### Domain Deep Dive
+Interviewers evaluate:
 
-The competency the track exists to test, examined twice — once on camera under a five-minute clock, once live. The surface is narrow and repeats across reports: chain rule and Leibniz's rule, orthogonality and bases, Markov chains, Newton's method and its convergence rate, expected values and hitting times, and combinatorial spread puzzles. Signal comes from deriving from first principles and stating assumptions as you go; the failure mode is formula recall with no intuition behind it, and — on the recorded stage — dead air while you compute, which submits a solution with no visible reasoning at all.
+- **Statement accuracy:** Strict versus non-strict inequalities, tie-breaking rules and index conventions are deliberate; a misread rule fails most hidden tests.
+- **Pattern recognition:** Sorting plus two pointers for pair counting, BFS for unweighted shortest distance, prefix sums in place of nested loops.
+- **Complexity:** A linear or n log n answer where a quadratic one is obvious.
 
-- [QR Video OA: Advanced Math and Reasoning](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning)
+Prepare by solving medium array, greedy and graph problems against a timer and rereading each statement once more before submitting.
+
+### Sample questions for the coding online assessment
+
+Here are some questions reported by recent candidates:
+
+- Given equal-length profit and cost arrays, count the pairs of indices whose summed net profit is strictly greater than zero.
+- Given cities joined by bidirectional roads and a factory at one city, output the delivery order by shortest distance, breaking ties by smaller city number.
+- Given two arrays and at most k cross-array swaps, maximize the number of distinct values left in the first array.
+
+- [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order)
+- [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95)
+- [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps)
+- [Array Challenge: Left-Comparison Running Counter](../../questions/algorithm/left-comparison-running-counter/README.md)
+
+## Video mathematics assessment
+
+This stage defines the research track. Candidates record themselves solving each problem under a strict five-minute limit, explaining the derivation aloud as they work. There is no interviewer, no clarifying question and no second attempt. A written variant also appears, in which answers without step-by-step explanations earn no credit. One candidate's first link was broken and a working invitation came later, so a stalled link is not a rejection.
+
+The reported topic list is narrow and consistent: the chain rule, the Leibniz rule for differentiating under the integral sign, a Markov chain (steady state or transition probabilities), the convergence behavior of Newton's method, extending a set of orthogonal vectors, and a grid-infection puzzle. In that puzzle, a healthy cell on a square grid becomes infected once at least two of its orthogonal neighbors are infected, and the task is the minimum number of initially infected cells that eventually infect the whole board. Candidates report running out of time on problems they could solve on paper.
+
+Interviewers evaluate:
+
+- **Reasoning on the record:** The recording is what gets graded; solving silently and summarizing at the end leaves little to score before the clock stops.
+- **First-principles mathematics:** Applying the Leibniz rule or the chain rule correctly, not reciting a formula.
+- **Structure under time pressure:** Setting up the Markov chain states or the Newton iteration in the first minute, then computing.
+- **Puzzle insight:** For the infection grid, a reason the answer is minimal (the perimeter of the infected region never grows), not only a construction.
+
+Prepare by rehearsing undergraduate calculus, linear algebra and probability problems in five-minute recorded takes until narrating while deriving feels normal.
+
+> **Note:** For the grid-infection puzzle, the n-by-n answer is n (for example, the main diagonal), and the clean proof is that each newly infected cell never increases the total perimeter of the infected set. Stating that invariant inside five minutes is what separates a complete answer from a guess.
+
+### Sample questions for the video mathematics assessment
+
+Here are some questions reported by recent candidates:
+
+- Find the minimum number of initially infected cells needed to infect an entire square grid when a cell falls to any two infected orthogonal neighbors.
+- Differentiate an integral whose limits and integrand both depend on the parameter, using the Leibniz rule.
+- Describe the convergence behavior of Newton's method, including when quadratic convergence fails.
+
+- [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning)
+
+## Mathematics and probability phone screen
+
+A live interviewer covers the same territory as the video assessment, moving between domains inside one call rather than in fixed blocks: linear algebra, calculus, probability and a brain teaser. Reported prompts include the properties of an orthogonal matrix, differentiating a composite function, the mechanics and convergence criteria of Newton's method, the expected number of steps for a random walker on a cube to first reach the opposite vertex, and the grid-infection puzzle as a discussion problem.
+
+The graded axis is intuition: why orthogonal matrices preserve lengths, why Newton's method converges quadratically near a simple root and only linearly at a repeated one, and how to collapse the cube walk into states by distance from the target. Expected-value questions also appear, such as comparing two games built on boxes of notes, or pricing a 100-sided die game with paid rerolls as an optimal stopping problem.
+
+Interviewers look for:
+
+- **Intuition behind formulas:** Explaining why a property holds earns more than stating it.
+- **State reduction:** Grouping symmetric states (the cube's vertices by distance) before writing equations.
+- **Communication:** Narrating assumptions and intermediate steps rather than computing in silence.
+
+Prepare by working through a standard quant probability problem set aloud, with calculus and linear-algebra review alongside it.
+
+### Sample questions for the mathematics and probability phone screen
+
+Here are some questions reported by recent candidates:
+
+- A walker starts at one vertex of a cube and moves to a uniformly random adjacent vertex each step; find the expected number of steps to first reach the opposite vertex (the answer is 10).
+- Apply the chain rule to a composite function, then explain how Newton's method uses the derivative and when it converges.
+- Price a game on a fair 100-sided die where each reroll costs $1, and state the stopping rule.
+
 - [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences)
 - [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games)
 
-### Coding and Algorithm
+## Technical coding interview
 
-Two graded coding stages — the initial assessment and at least one live round — both medium difficulty and drawn from a small recurring pattern pool: cycle decomposition, prefix sums, BFS with an explicit tie-breaking rule, two-pointer counting, XOR bucketing. Signal comes from naming the governing structure before writing anything and giving exact complexity; what loses it is a brute force delivered without acknowledging the linear alternative, and misreading the deliberately long statements — reports flag that as a bigger risk here than algorithmic difficulty.
+Research candidates still sit at least one coding interview: 45 to 60 minutes with an engineer, two or three problems in a shared editor, usually starting within minutes with no resume walkthrough. Interviewers give small hints when a candidate stalls and expect exact time and space complexity for each solution.
 
-- [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order)
+Problems are medium classics: BFS followed by a sort keyed on the traversal, minimum swaps to sort descending via cycle decomposition (also with duplicates), prefix-sum transformations, one missing and one repeated value in 1 to n, connected components returning their node-ID spread, and a scheduling task that picks a planned or alternate date per update to minimize distinct days. Follow-ups often move to streams, such as a query over the last K elements.
+
+Interviewers evaluate:
+
+- **Naming the structure first:** Cycles for swaps, prefix sums for ranges, XOR bucketing for the missing and repeated values.
+- **Comparing approaches:** One interviewer wanted XOR bucketing contrasted with sum and sum-of-squares equations, including the overflow risk of the latter.
+- **Self-testing:** Candidates are expected to write their own test cases unprompted, such as isolated nodes or adjacent missing and repeated values.
+- **Exact complexity:** Stated precisely, not hedged.
+
+Prepare by practicing medium graph, array and bit-manipulation problems while explaining each invariant aloud and dry-running your own edge cases.
+
+> **Tip:** For the missing-and-repeated problem, have both the XOR partition and the algebraic method ready and be able to say why the XOR version cannot overflow. Interviewers ask for the comparison.
+
+### Sample questions for the technical coding interview
+
+Here are some questions reported by recent candidates:
+
+- Find the minimum number of swaps to sort an array in descending order, then handle arrays that contain duplicates.
+- An array that should hold 1 to n once each has one value duplicated and one missing; find both in linear time and constant space.
+- For each connected component of an undirected graph, return the difference between its largest and smallest node ID.
+- Each update has a planned and an alternate date; choose one per update to minimize the number of distinct days.
+
 - [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
 - [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md)
-- [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips)
+- [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components)
+- [Minimum Days to Release Updates](https://trueinterview.io/questions/minimum-days-to-release-updates)
+- [Min Mod and Max](https://trueinterview.io/questions/300141c0-9e82-4bc4-8055-d73e3ca2fae2)
 
-### Low-Level Design
+## Behavioral interview
 
-The final round converts research problems into implementable components under hard resource constraints, and reports show offers decided here. The recurring shape is a statistics engine over an unbounded stream: constant work per element, bounded memory, then the same statistics over only the last k elements. Interviewers push straight to numbers — estimate the footprint when values are bounded in a small range on a machine with 1 GB of RAM, keep a running sum from overflowing, say what changes when exact answers are relaxed to approximations. Exact mode under window eviction is where candidates stall, and discussing the structures that would support it earns more than an unexplained correct implementation.
+A separate, entirely non-technical round, often run by HR, arrives after the technical screens. It covers motivation for Akuna specifically, what the candidate actually knows about the firm's business as an options market maker, and concrete examples of receiving positive and critical feedback and what changed afterward.
+
+Interviewers evaluate:
+
+- **Firm-specific motivation:** Reasons tied to derivatives market making and research at Akuna, not a generic case for quantitative finance.
+- **Business knowledge:** A working account of how a market maker earns money and where research feeds into quoting.
+- **Response to feedback:** A specific criticism, the change made, and the result.
+
+Prepare two or three structured feedback stories and a short, specific explanation of why Akuna's research work fits your background.
+
+> **Note:** Because this round follows the technical gauntlet, it reads like a formality, but candidates report it can end the process on its own.
+
+### Sample questions for the behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Why Akuna rather than another trading firm?
+- What do you know about how Akuna makes money?
+- Describe a time you received critical feedback and how you responded.
+
+## Final round
+
+The final round is a set of back-to-back sessions with researchers, developers and traders, run virtually or in the office. Its technical centerpiece is a streaming-statistics problem: track min, max, median and mode over an unbounded stream with constant per-element work, then rework the same statistics for only the last k elements. Interviewers then push into numbers: estimate the memory footprint when values lie between 1 and 1001 on a machine with 1 GB of RAM, keep a running sum from overflowing, and cut latency with caching, batching or approximation such as a t-digest for the median. In-office finals have also packed several hard probability questions into an hour.
+
+Outcomes turn on commentary rather than completion. A candidate who ran out of time on the sliding-window mode but discussed the structures that would support it received an offer; a candidate who produced optimal complexity on every operation without discussing trade-offs was rejected. Decision timing is inconsistent: one candidate was told to expect a decision in about a week and had heard nothing four weeks later.
+
+Interviewers evaluate:
+
+- **Trade-off discussion:** Two heaps versus an order-statistic tree for the median, exact versus approximate statistics, and the option that was rejected and why.
+- **Resource estimates:** A concrete memory figure offered before being asked.
+- **Correctness under eviction:** Duplicates and window evictions handled for max, median and mode.
+- **Latency thinking:** Precomputation, batching and memory access patterns appropriate to a trading firm.
+
+Prepare by implementing a sliding-window statistics class end to end and rehearsing the memory and overflow discussion around it.
+
+> **Tip:** With bounded values, a fixed-size count array replaces hash maps entirely, and mode under eviction becomes O(1) with a map from frequency to the set of values at that frequency plus a tracked maximum frequency, which only ever falls by one when an eviction empties its bucket.
+
+### Sample questions for the final round
+
+Here are some questions reported by recent candidates:
+
+- Implement max, mean and mode over an unbounded stream, then estimate memory when all values lie in 1 to 1001 and RAM is 1 GB.
+- Explain how to keep the running sum for the mean from overflowing, and what precision an approximation would cost.
+- Rework min, max, median and mode for a sliding window of the last k values, then propose ways to reduce latency.
 
 - [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode)
 - [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system)
-- [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer)
 - [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
+- [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter)
 
-## What They Don't Test
+## How Akuna Capital levels and evaluates Research Scientist candidates
 
-- **Machine learning system design.** No reported round asked for a training pipeline, feature store or deployment architecture; the modeling is classical and the systems work is single-process and latency-bound.
-- **Research publication depth.** No line-by-line interrogation of a thesis appears; research judgment surfaces as live model reasoning in the final round instead.
-- **Algorithmic exotica.** The coding surface stops at medium classics; difficulty is loaded into the mathematics stages.
-- **Derivatives coursework.** Nobody was quizzed on pricing models or Greeks; what is rewarded is reasoning about uncertainty from first principles.
-- **Résumé narrative in technical rounds.** Multiple screens skipped introductions and opened with the first problem; motivation is graded in one dedicated round.
+Every stage is a gate, and candidates report rejections from single rounds late in the loop. Level, title and team placement are decided after the final round from the evidence across all rounds, so the same loop serves junior and experienced researchers. Because an application counts as the season's top quant or technology preference, a rejection usually closes Akuna until the next recruiting cycle. Decisions after the final round have taken anywhere from about a week to more than four weeks.
 
-## The Real Filter
+> **Tip:** Follow up politely after the promised decision window passes; long silences have followed positive final rounds.
 
-The primary rejection path is the recorded five-minute mathematics stage, and candidates misjudge it in one specific way: they prepare the content and not the format. The problems are individually tractable — chain rule, a Markov chain, Newton convergence — but the assessment scores what you say inside the window, so solving privately and then summarizing leaves almost nothing gradable before the clock ends. Reports describe candidates who could solve several of these on paper and still submitted incomplete reasoning. What works is rehearsing the mechanics: timer running, voice on, assumptions stated first, answer last.
+## How to prepare for the Akuna Capital Research Scientist interview
 
-The second pattern is silent correctness in the live rounds. This loop grades commentary — a candidate who never finished the sliding-window mode but priced the memory, flagged an overflow risk and compared competing structures out loud converted to an offer, while an implementation with optimal complexity on every operation and no trade-off discussion did not. The problems look like they have one right answer, so candidates optimize for finishing; finishing early in silence reads as no signal.
+1. **Rehearse the recorded format:** Solve calculus, linear-algebra, Markov chain and Newton's method problems in five-minute recorded takes, narrating from the first second.
+2. **Learn proofs, not only answers:** For puzzles like the grid infection, prepare the invariant that proves minimality, since both the video and live rounds ask why.
+3. **Drill quant probability aloud:** Random walks with state reduction, optimal stopping and expected-value wagers should be routine before the phone screen and final round.
+4. **Read every coding statement twice:** Strict inequalities and tie-breaking rules decide hidden tests in the assessment.
+5. **Build the streaming-statistics class end to end:** Max, mean, median and mode over a stream and a sliding window, with memory, overflow and approximation talking points ready.
+6. **Narrate trade-offs in every live round:** Name the alternative you rejected and estimate resources unprompted; silent correct code has lost offers.
+7. **Prepare the behavioral round seriously:** Know how an options market maker makes money and have specific feedback stories ready.
 
-The third is treating the behavioral round as scheduling. It arrives after the technical gauntlet, so it feels like a closing formality, and reports describe a substantive interview on firm-specific motivation and how you absorbed critical feedback that can end the process by itself.
+## About the Akuna Capital Research Scientist role
 
-## Data Source
+Akuna is an options market maker, opened in Chicago in 2011 by founders from Sydney, that quotes continuous two-sided markets in derivatives. Its researchers develop trading strategies with statistical and machine-learning methods, build quantitative models of market behavior, design optimization algorithms for portfolio construction and, on some teams, develop pricing models for volatility-based derivatives. Roles are in office, with offices including Chicago, Sydney, Shanghai, London, Boston and Austin.
 
-Based on 35 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| Quant intern | Structured research projects during a 10-week internship program | A scoped project with mentorship |
+| Junior Quantitative Researcher | Signal research, model building and backtesting on existing initiatives | Contributions to a team's strategies and models |
+| Quantitative Researcher | Independent strategy and feature research, scalable machine-learning workflows | Ownership of models and research directions |
 
-## FAQ
+Akuna Capital hires Research Scientists across several quant teams, which include:
 
-**What is the work like on this track?**
+- **Chicago quant team:** Trading strategies, market-behavior models and pricing models for volatility-based derivatives.
+- **Boston quant research:** A small team of researchers and quant developers focused on alpha signals, strategy optimization and research platforms.
+- **Sydney quant research:** Statistical and machine-learning strategies and the backtesting and optimization of low-latency strategies on large datasets.
+- **Machine-learning research:** Dedicated machine-learning researcher roles that design and analyze experiments on derivatives and market data.
 
-Our reports document the hiring loop rather than the job, so treat this as background. The research organization at this options market maker is built from mathematicians, statisticians and technologists who develop trading strategies, model market behavior, backtest against large historical datasets and hand finished signals to traders and developers. That split shows up in the interview: classical mathematics on one side, implementable low-latency components on the other, and little in between.
+### Research Scientist experience and education requirements
 
-**What is the engineering culture like?**
+Postings accept a bachelor's, master's or PhD in a technical field such as mathematics, statistics, physics, computer science or engineering, completed by the start date, with a GPA of 3.5 or above for junior roles. They ask for expertise in statistics and machine learning, experience building mathematical models and intermediate Python; experienced roles add three or more years of professional statistics or machine-learning work and Python or C++. Financial experience is not required for junior roles and is a plus for experienced ones. Posted Chicago junior roles state a minimum base salary of $145,000 plus a discretionary performance bonus.
 
-Described externally as flat and collaborative with best-idea-wins decision making, real freedom to choose what you work on, and researchers sitting directly with traders. The counterweight in public employee accounts is meaningful turnover and low tolerance for mistakes. The loop reflects that: every graded round rewards thinking aloud and revising in public rather than presenting a finished result.
+## FAQs about the Akuna Capital Research Scientist interview
 
-**How hard is it to get in?**
+### How long does the Akuna Capital Research Scientist interview process take?
 
-Hard, with the attrition front-loaded into stages that have no human on the other end. Public difficulty ratings for this track sit mid-to-high rather than at the extreme end, and the firm states no finance background is required, which makes mathematics and coding aptitude the actual filters. Reported end-to-end timelines run from a few weeks to about two months.
+Typically a few weeks to about two months from first assessment to decision. Gaps of up to a month between assessments have been reported, and the final decision can take from about a week to more than four weeks.
 
-**Which round is hardest?**
+### What is the hardest round of the Akuna Capital Research Scientist interview?
 
-The recorded mathematics assessment, by a wide margin — not because any topic is graduate-level, but because five minutes with a live microphone turns a solvable problem into a performance. The hardest live round is the streaming-statistics deep dive: exact mode under window evictions is the wall, and clearing it only escalates the conversation into latency and approximation.
+The recorded mathematics assessment, because five minutes on camera turns tractable problems into a performance test. Among live rounds, the final streaming-statistics deep dive is hardest, with exact mode under window eviction as the usual sticking point.
+
+### Is there an online assessment for the Akuna Capital Research Scientist role?
+
+Yes, usually two: a coding assessment with about three medium problems, then a mathematics assessment in recorded-video or written form that requires the reasoning, not only the answer.
+
+### Do I need a finance background?
+
+No. Junior research postings state that financial experience is not required, and no reported round tested option pricing or the Greeks. The behavioral round does expect a working account of how a market maker earns money.
 
 ---
 

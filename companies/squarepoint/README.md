@@ -16,17 +16,31 @@ How Squarepoint interviews, and the questions candidates reported there. Free qu
 
 ## How Squarepoint interviews
 
-Squarepoint Capital runs a compact loop with an unusually high bar per round: a short assessment that behaves as a hard pass-fail gate, then a small number of screens that dig much further into language internals and applied statistics than a standard algorithm interview does. This guide goes past the outline on the company page into how each stage is actually run, which question families keep recurring, and what separates a pass from a rejection. It draws on 17 real Squarepoint Capital questions and 14 candidate interview reports.
+Squarepoint Capital hires each desk and team on its own, so similar titles can mean very different loops. Developer screens spend more time on language internals than on algorithms. Quant screens split into a coding hour and a separate statistics hour that works like an oral exam. The question bank repeats to an unusual degree. Several candidates received identical assessments, and two received identical phone rounds.
 
-### Interview Process
+This guide breaks down each stage of the Squarepoint Capital interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 14 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Squarepoint Capital interview process
 
 <!-- guide-diagram -->
 ![Squarepoint Capital interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/squarepoint/process.webp)
 <!-- guide-diagram -->
 
-**Online assessment.** Engineering and new-grad candidates usually meet a timed assessment before any live round: two coding problems on a standard hosted assessment platform, typically inside about an hour. The problems are implementation-heavy rather than trick-based, and the same pairs recur across candidates. One recurring pair is username generation with collision suffixes (first initial plus last name, lowercased, smallest unused integer appended on a clash) alongside counting how many distinct sentences can be formed by swapping each word for a dictionary anagram, modulo a large prime. Another is a max-heap revenue problem in which selling one unit of an item drops that item's price by one, alongside case-insensitive word counting that must emit exactly the top three words, by frequency descending and then alphabetically. Candidates describe this stage as unforgiving: the expectation is both problems fully correct, and the most cited failure is not the algorithm but a one-line constraint buried in the statement, such as the hard cap of three output words, that quietly fails the hidden tests.
+The process typically runs three to five rounds over four to eight weeks, after a short recruiter conversation. The number of phone rounds depends on the track and desk, not on seniority. A C++ developer in Montreal sat three phone screens, and most quant candidates sat one or two.
 
-**Technical phone screens.** Reported loops run one to three phone rounds, and the count varies by track and desk rather than by seniority. Screens commonly open with a walk through your resume and stack, with pointed follow-ups on choices you made: why a particular cache technology, how a database index actually works. Two shapes then dominate. Engineering-track screens spend most of their time on language internals before the coding starts. C++ candidates report the compilation and linking pipeline, virtual functions and destructors, compile-time versus runtime polymorphism including CRTP, smart pointers and RAII, iterator invalidation, move semantics, and the internal layout and complexity trade-offs of vector, list, map and unordered_map, plus Linux signals and process control groups. Python candidates report generators and lazy evaluation, decorators, context managers, mutable versus immutable semantics, threads versus processes, and everyday Linux tooling. The coding that follows is deliberately modest in algorithmic difficulty: merging two sorted vectors with an edge-case discussion, validating a string against stated criteria, or a frequency count with a lexicographic tie-break. Quant-leaning tracks instead get two separate rounds, one purely coding and one purely statistics and probability.
+Graduate developers choose a preferred track (Python, C++ or front-end React) and usually start with an online assessment. Experienced developers start with a screen that opens on their resume. Quant research and trading candidates start with live screens that mix coding, probability and statistics.
+
+Here's what the interview process can look like:
+
+- **Online assessment (developer and graduate tracks):** Two implementation-heavy coding problems, graded as a strict pass-or-fail gate.
+- **Developer technical screens (one to three):** A walkthrough of your resume, rapid C++ or Python internals questions, then modest coding.
+- **Quant coding and probability screen:** One or two classic algorithm problems, then textbook dice and coin probability.
+- **Statistics and markets screen:** An hour of regression theory and calculation by hand. Trading desks ask about Greeks and markets instead.
+- **Final round:** For developers, one practical build that grows through follow-ups. For researchers, a long hands-on data exercise.
+
+> **Tip:** Practice the recurring problems below until they are routine. Candidates on the same track keep getting the same assessment pairs and the same pair of phone rounds.
 
 **[Read the full Squarepoint interview process →](interview-process.md)**
 

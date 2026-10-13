@@ -51,20 +51,20 @@ Which stage each question came from, for the **79 of 79** questions at Anthropic
 
 ## What they ask about
 
-Of the **35 questions at Anthropic that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **32 questions at Anthropic that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 14 | 40% | ████████████ | Aug 24, 2026 |
-| `graphs` | 6 | 17% | █████ | Jun 19, 2026 |
-| `strings` | 6 | 17% | █████ | Jun 04, 2026 |
-| `sorting` | 4 | 11% | ███ | Aug 27, 2026 |
+| `hashing` | 14 | 44% | ████████████ | Aug 24, 2026 |
+| `strings` | 6 | 19% | █████ | Jun 04, 2026 |
+| `graphs` | 5 | 16% | ████ | Jun 19, 2026 |
+| `sorting` | 3 | 9% | ███ | May 03, 2026 |
 | `stack` | 3 | 9% | ███ | Jun 04, 2026 |
 | `arrays` | 2 | 6% | ██ | Jun 15, 2026 |
 | `greedy` | 2 | 6% | ██ | May 28, 2026 |
-| `math` | 2 | 6% | ██ | Mar 02, 2026 |
 | `matrix` | 2 | 6% | ██ | Feb 18, 2026 |
 | `tries` | 2 | 6% | ██ | May 28, 2026 |
+| `backtracking` | 1 | 3% | █ | Jun 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

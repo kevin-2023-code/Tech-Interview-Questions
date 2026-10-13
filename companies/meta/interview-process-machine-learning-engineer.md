@@ -6,92 +6,271 @@
 
 ---
 
-Machine Learning Engineer candidates at Meta most often lose the loop in ML system design, and the cause is usually domain knowledge, not the architecture. The prompts are integrity and ranking problems taken from Meta's own products, such as spotting copyright infringement in uploaded images or weapon sales hidden in ads. The follow-ups go straight to the hard parts: an upload where only one image infringes, adversarial text overlaid to evade detection, or a photograph of a copyrighted photograph. Each design round lasts 45 minutes, and candidates repeatedly call that short. One senior candidate's phone screen was a full 45-minute design problem with no coding at all.
+Meta Machine Learning Engineer loops are decided mostly in ML system design, and candidates who fail there usually fail on domain knowledge rather than on architecture. The prompts are Meta's own ranking and integrity problems, and the follow-ups go straight to the hard cases: one infringing image in a multi-image upload, text overlaid to evade a classifier, a photograph of a copyrighted photograph. Each design round lasts only 45 minutes.
 
-## Interview Process
+Coding is a gate, but the AI-enabled round catches candidates off guard: the assistant is allowed, yet one problem escalated from a planted bug to bitmask dynamic programming over thousands of inputs. A hiring committee reviews every round, and team matching follows it.
+
+This guide breaks down each stage of the Meta Machine Learning Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 25 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Meta Machine Learning Engineer interview process
 
 <!-- guide-diagram -->
 ![Meta Machine Learning Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/meta--machine-learning-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter call — typically 30 minutes.** Background, level (E4 to E6 appear in reports), product area and timeline. The recruiter tells you how many design rounds your level gets and whether coding is AI-native. Referrals carry weight: one referred candidate was moved forward despite holding other offers. Ask whether the headcount is secure. One candidate's role was canceled after the onsite despite earlier assurances.
-2. **Technical phone screen — 45 minutes.** The format varies by level. Mid-level screens are one or two coding problems, sometimes after a few behavioral questions. Examples include Random Pick with Weight with prefix sums and binary search. A senior MLE screen was run by a senior MLE and consisted of a single design problem: recommending nearby places. It covered a two-tower retrieval model, geohash-bucketed approximate nearest-neighbor search, blending distance decay with similarity, batch versus streaming features, and interleaving experiments. Some research-engineering pipelines instead start with a team-fit conversation with the hiring manager.
-3. **Onsite coding — 45 minutes, two problems.** Reported pairs include Meeting Rooms II with a rolling-ball maze, first/last position in a sorted array with Validate BST, second-largest permutation with merging m sorted arrays for the smallest k values (min-heap), Merge k Sorted Lists with vertical order traversal, sliding-window anagrams with a streaming mean, Copy List with Random Pointer with LRU Cache, and Making a Large Island with Sum Root to Leaf Numbers. Some loops have two coding rounds. In one, the second round needed hints and the candidate was still advanced.
-4. **AI-enabled coding — typically 60 minutes.** This is a staged problem with an assistant. Reported examples include a maze in four linked parts, a card game (draw logic, a unit test, a naive strategy for three cards summing to 15, evaluating it by simulation, then backtracking for the maximum score), and the word subset with no shared letters. One run of the word-subset problem went through five stages: find the bug, backtracking, pruning, bitmask DP, then DP space optimization. Candidates warn that the AI round does not avoid DP and that inputs with thousands of words need the optimal solution. Another loop included a kitchen-workstation scheduling problem with several follow-ups.
-5. **ML system design — 45 minutes, one or two rounds.** This is the core of the track. Reported prompts include image copyright detection (fine-tuning a vision-language model), nearby places, cross-product notification ranking, ads ranking with calibration, harmful content and weapon-sale detection, event recommendation (predicting attendance), predicting dislikes in News Feed using a "liked in the last six months" feature, short-video recommendation, marketplace and explore ranking, high-risk account pipelines, and in research-leaning loops, an auto-advancing image feed and an LLM in the blending stage with semantic IDs. One six-round loop had two design rounds, recommendation and harmful-item detection, plus two behavioral rounds.
-6. **Behavioral — 45 minutes.** Your proudest project, pushback, difficult people, failure, feedback and growth areas. One interviewer asked in detail how you personally use AI tools, how you improved your communication, and what you read recently.
-7. **Committee and matching.** A team-matching notice has taken about six weeks from the phone screen. One offer loop finished within a month with a fast-moving recruiter. Several candidates were told the final decision depended on headcount.
+Meta hires Machine Learning Engineers on the same engineering ladder as software engineers (the posting title is usually "Software Engineer, Machine Learning"), and most candidates interview for a level rather than a team. The usual path is a recruiter call, one technical screen, and an onsite of four to six rounds, with team matching after the hiring committee approves. Reported timelines run from under a month to about six weeks before team matching, longer when headcount stalls the packet.
 
-## What They Actually Evaluate
+Level changes the mix more than the stage list. One E4 loop had a coding round, an AI-enabled coding round, two ML design rounds and a behavioral round. E5 and E6 loops lean further on design: a senior screen was a full design hour with no code, an E6 onsite paired two design rounds with two coding rounds, and one six-round loop added a second behavioral session on mentoring and prioritization. Loops for AI-focused roles can swap a design round for a traditional system design or an agent design.
 
-### ML System Design
+Here's what the interview process can look like:
 
-Interviewers want the whole lifecycle in layers: problem framing, labels and data collection, candidate generation, ranking (multi-task heads such as DCN-V2 and MMoE came up), re-ranking for diversity, exploration, and serving. Expect to be probed on position bias with inverse propensity weighting, training-serving skew, feedback loops, cold start and calibration. One candidate was pressed on why offline log loss or AUC failed to predict online behavior. On integrity prompts, the probes go to cold-start labeling for a new weapon type, class imbalance, adversarial evasion, and how a generic harmful-content model and a specialized selling-intent classifier share features. Always pair a metric with a counter-metric, such as dismissals or survey satisfaction. The candidate who called image copyright their weakest round attributed it directly to a lack of domain background.
+- **Recruiter screen:** A short call on background, ML domain, target level and whether the loop is AI-native.
+- **Online assessment (some AI-native pipelines):** A progressive class-design task with hidden tests, reported for AI-focused openings rather than standard MLE pipelines.
+- **Technical phone screen (45 minutes):** One or two medium coding problems at mid level; a full ML system design at senior level; a project deep dive for research-leaning teams.
+- **Coding interview (one or two rounds):** Two well-known medium problems per round, graded on clean code and complexity.
+- **AI-enabled coding interview (about 60 minutes):** One staged problem in a codebase with an assistant, sometimes with planted bugs or an ML implementation task.
+- **ML system design interview (one or two rounds, 45 minutes each):** A ranking, recommendation or integrity system from Meta's products, end to end.
+- **Behavioral interview (one or two rounds):** Conflict, feedback, failure, proudest project, and how you use AI tools.
+
+> **Tip:** Rehearse one design from each recurring family (integrity detection, ads ranking, notifications, places and events, short video) until you can lay out a layered skeleton in five minutes; in a 45-minute round, that leaves time for the deep dives that earn signal.
+
+## Recruiter screen
+
+The call, usually about 30 minutes, covers background, ML domain (ranking, integrity, vision, language models), level and timeline. Reported MLE levels run from E4 to E6. The recruiter tells you how many design rounds your level gets and whether coding is AI-native, as most loops have been since spring 2026.
+
+Referrals and prior screens carry weight. One referred candidate was moved forward despite holding other offers, and another who had cleared a screen for a closed role had the screen waived for the next application. Ask whether the headcount is approved: one E6 candidate's role was canceled after the onsite despite earlier assurances, and several were told the final decision depended on headcount.
+
+Interviewers evaluate:
+
+- **Level fit:** The scope of models you have shipped, which sets the target level before any technical round.
+- **Domain match:** Recommendation, ads, integrity or generative AI experience, which shapes the design prompts you will see.
+- **Production experience:** Models you trained, deployed and measured online, not only offline experiments.
+
+Prepare a two-minute summary of your largest production model, with the online metric it moved.
+
+## Technical phone screen
+
+The screen lasts 45 minutes and its format depends on level. Coding screens are one or two medium problems in a shared editor, sometimes after a few behavioral questions, as in one E6 screen. Reported problems include weighted random sampling with prefix sums and binary search, and finding a local minimum in O(log n). One candidate was invited to the onsite within two business days.
+
+Senior screens can be a full ML design hour instead. One senior screen was a single problem: recommend nearby places to tens of millions of daily users within a couple hundred milliseconds. It covered two-tower retrieval, geohash-bucketed nearest-neighbor search, blending similarity with distance decay, batch versus streaming features, and an interleaving experiment. Research-leaning teams may instead open with a hiring-manager call: either a team-fit conversation about past projects or a project deep dive followed by an open research question that the manager stress-tests.
+
+Interviewers evaluate:
+
+- **Clarifying before building:** Scale, latency and available signals pinned down before any boxes or code.
+- **Follow-up readiness:** Weighted sampling extends to repeated picks; a design extends to cold start and denied location permissions.
+- **Counter-metrics:** Every engagement metric paired with a guard such as dismissals or survey satisfaction.
+- **Driving the session:** Some interviewers say almost nothing, and the candidate must narrate and test unprompted.
+
+Practice both formats, since the recruiter's description of the screen is not always precise.
+
+> **Note:** Silence is a signal. Candidates who did not hear back within about a week after a screen were rejected, while those who advanced were invited within two business days. Some AI-focused pipelines add a progressive online assessment, such as a banking system whose stages unlock only after hidden tests pass; an early design that cannot absorb later stages is the common way to fail it.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Return a random index with probability proportional to its weight, with O(log n) per pick.
+- Find any element smaller than both neighbors in O(log n) time.
+- Design an ML system that recommends nearby places to mobile users, covering retrieval, ranking, freshness and evaluation.
+- Walk through a past project, then design a way to stop a code-generation model from reproducing private-repository code it was trained on.
+
+- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
+- [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2)
+- [Nearby Place Recommendation](https://trueinterview.io/questions/mlsd-nearby-place-recommendation)
+
+## Coding interview
+
+Most MLE loops keep one or two traditional coding rounds, each with two well-known medium problems and about 20 minutes per problem. Reported pairs include Meeting Rooms II with a rolling-ball maze, first and last position in a sorted array with Validate BST, Merge k Sorted Lists with vertical order traversal, and Copy List with Random Pointer with an LRU cache.
+
+Twists matter more than difficulty. One E6 candidate got a right-side-view variant with a changed definition, and a streaming mean drew questions on integer overflow and numerical stability. One loop used a kitchen-workstation scheduling problem whose follow-ups kept adding constraints.
+
+Interviewers evaluate:
+
+- **Clean, bug-free code on the first pass:** Two problems in one round leave little room to debug.
+- **Complexity stated precisely:** O(N log k) for k-way merging, O(n) setup and O(log n) per weighted pick.
+- **Adapting to a twist:** A changed definition of "visible" or an added constraint handled without restarting.
+- **Edge cases unprompted:** Null pointers, a single element, all-equal weights, cache eviction order.
+
+Drill the most frequently asked medium problems in sets of two against a 40-minute clock, then their usual variants.
+
+### Sample questions for the coding interview
+
+Here are some questions reported by recent candidates:
+
+- Given m sorted arrays, output the k smallest numbers overall in sorted order.
+- Find the next permutation of a digit sequence that is not the largest possible one.
+- Given meeting intervals, return the minimum number of rooms required.
+- Deep-copy a linked list whose nodes also carry a random pointer, without modifying the original.
+
+- [Merge M Sorted Arrays and Output First K Elements](https://trueinterview.io/questions/1c0e9ce3-393d-4d67-b88e-b96758389615)
+- [Second Largest Permutation From Given Multiset](https://trueinterview.io/questions/b013b902-f3a6-444e-a0a9-866fa7ac2f06)
+- [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md)
+- [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal)
+
+## AI-enabled coding interview
+
+Since late 2025 Meta has replaced one traditional coding round with an AI-enabled one: about 60 minutes in a multi-file codebase with tests and a built-in assistant whose model you can switch. A single problem grows in stages. The maze is the most reported: find a path, avoid revisiting cells, trace the route, then extend it in three or four linked parts. Another is a card game: test the draw logic, build a naive strategy for three cards summing to 15, judge it by simulation, then backtrack to the maximum score.
+
+A word subset with no shared letters shows how far a round can escalate. One run went through five stages: find the bug in given code, backtracking, pruning, bitmask DP, then DP space optimization, with inputs of thousands of words that reject anything short of the optimal approach. MLE loops can also carry ML-flavored content here: one E4 research-engineering loop paired a sparse-vector dot product with a from-scratch ML implementation problem, and another loop's AI round was model implementation.
+
+Interviewers evaluate:
+
+- **Directing the assistant:** Small, specific prompts and incremental steps, not a whole solution pasted in.
+- **Verification:** Unit tests and dry runs that catch wrong generated code and planted bugs.
+- **Optimal core logic:** Large hidden inputs time out brute force even when the assistant wrote it.
+- **Evaluation thinking:** Measuring a strategy by simulation, the ML habit this round rewards.
+- **Narration:** Explaining reasoning to the interviewer while working with the tool.
+
+Extend a maze solver and a subset search stage by stage, once with an assistant and once by hand.
+
+> **Note:** Interviewers vary in how much assistance they accept. One candidate spent most of a round fixing deliberately planted bugs, and another's interviewer discouraged the assistant so that the backtracking solution had to be written by hand. Candidates also met interviewers unfamiliar with the environment and a platform with rough edges, so confirm expectations at the start.
+
+### Sample questions for the AI-enabled coding interview
+
+Here are some questions reported by recent candidates:
+
+- Draw cards from a deck, test the draw logic, then design and evaluate by simulation a strategy for three cards summing to 15.
+- Select words that share no characters to maximize distinct characters, scaling from backtracking to space-optimized bitmask DP.
+- Extend a grid maze solver over four linked parts with new constraints at each stage.
+- Schedule orders across workstations with fixed step durations, worker proficiency and deadlines to maximize an on-time score.
+
+- [Maze Solver](../../questions/ai-coding/ai-coding-maze-solver/README.md)
+- [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset)
+- [Card Game (Three Cards Summing to 15)](https://trueinterview.io/questions/ai-coding-card-game-sum-fifteen)
+- [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game)
+
+## ML system design interview
+
+This is the core of the track: one or two rounds depending on level and team, each 45 minutes. Prompts come from a small set of Meta product families: image copyright and weapon-sale detection, ads ranking with calibration, cross-product notification ranking, nearby places, event attendance, short video, Marketplace and Explore, News Feed, and high-risk accounts. Modeling questions can target one feature, such as predicting a dislike in News Feed using whether the user liked the post in the last six months.
+
+Follow-ups go to production issues: position bias corrected with inverse propensity weighting, training-serving skew, feedback loops, cold start, calibration, and why offline log loss or AUC can fail to predict online behavior. Ranking discussions reached multi-task models such as DCN-V2 and MMoE, re-ranking for diversity, and exploration with Thompson sampling. Integrity prompts probe cold-start labels for a new weapon type, class imbalance, adversarial evasion, and how a generic harmful-content model shares features with a selling-intent classifier. One weapons-advertising round stayed almost entirely on data collection and labeling.
+
+Interviewers evaluate:
+
+- **Problem framing:** The business objective translated into an ML objective with labels you can actually collect.
+- **Layered architecture:** Candidate generation, ranking, re-ranking and serving, each with a stated latency budget.
+- **Metric design:** Online and offline metrics, a counter-metric for each, and an A/B or interleaving plan.
+- **Domain-specific failure cases:** Multi-image uploads, overlaid text, a photo of a copyrighted image, calibration drift.
+- **Scale and business sense at E6:** One rejected E6 candidate concluded the round expected system architecture and business metrics, not only models.
+
+Practice each product family end to end, then rehearse the five hardest follow-ups for each.
+
+> **Tip:** Treat the integrity prompts as a separate study area. The candidate who called image copyright the weakest round blamed missing domain knowledge, and the reported answers that landed fine-tuned a vision-language model and handled per-image decisions within one upload explicitly.
+
+Generative AI prompts are spreading. One rejected candidate designed a code-generation LLM and a chatbot, then faced a theory round on optimizers, scaling laws, EM for Gaussian mixtures and attention variants; an E4 loop asked for an LLM in the recommendation blending stage with semantic item IDs. AI-focused loops added a traditional design or an agent design, and one candidate was rejected for not framing ticket triage as a reason-and-act loop.
+
+### Sample questions for the ML system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design copyright detection for uploaded images, including multi-image posts, adversarial overlaid text and photos of copyrighted photos.
+- Design detection of weapon sales in ads, from data collection and labeling to the enforcement pipeline.
+- Design a unified ranking model for notifications from several products, balancing engagement, latency and fairness across types.
+- Design an ads ranking system and explain how you calibrate predicted click and conversion probabilities.
+- Predict the probability a user dislikes a News Feed post, and explain why offline and online metrics disagree.
 
 - [Image Copyright Violation Detection](https://trueinterview.io/questions/mlsd-image-copyright-detection)
 - [Harmful / Weapon-Sales Content Detection](https://trueinterview.io/questions/mlsd-harmful-content-detection)
 - [Notification Ranking (Multi-source)](https://trueinterview.io/questions/mlsd-notification-ranking)
 - [Ads Ranking](https://trueinterview.io/questions/mlsd-ads-ranking)
-- [Nearby Place Recommendation](https://trueinterview.io/questions/mlsd-nearby-place-recommendation)
+- [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation)
 
-### Coding and Algorithm
+## Behavioral interview
 
-MLE coding is standard medium algorithm work drawn from frequently asked problems, graded on clean, bug-free code and the complexity analysis. It is a gate rather than a differentiator. The prep you would do for software engineering applies, but with less time than design prep, and candidates who solved both problems optimally described the round as routine.
+Most loops have one behavioral round of about 45 minutes; one six-round loop had two. The core questions are your proudest project, a time you faced pushback, a difficult coworker, a failure and its lessons, critical feedback and how you acted on it, and your growth areas. Each answer is pushed for your own role and the outcome. Senior sessions move to leadership, cross-functional prioritization and mentoring junior engineers.
 
-- [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md)
-- [Second Largest Permutation From Given Multiset](https://trueinterview.io/questions/b013b902-f3a6-444e-a0a9-866fa7ac2f06)
-- [Merge M Sorted Arrays and Output First K Elements](https://trueinterview.io/questions/1c0e9ce3-393d-4d67-b88e-b96758389615)
+AI usage is now a standing thread. Interviewers asked how you use AI tools day to day, where they add value, and where they fail in production. One E6 interviewer's AI-tooling questions felt like a survey, alongside how you improved your communication and the last books you read.
 
-### AI-Assisted Coding
+Interviewers look for:
 
-This round is graded on how you prompt, verify and iterate, and the problems have an ML flavor: you evaluate a strategy by simulation and then optimize it. Offer candidates described breaking the work into small prompts and checking every output. The round punishes candidates who assumed assistance meant no dynamic programming.
+- **Personal ownership:** What you did, with dates and decisions, not what the team did.
+- **Measured impact:** Online metric movement or launch outcomes tied to each story.
+- **Honest failure and feedback:** A real mistake, the signal that changed your mind, and what changed afterward.
+- **AI fluency:** Concrete workflows and a case where generated output was wrong.
+- **Scope for level:** Influence across teams and mentoring at E5 and above.
 
-- [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset)
-- [Card Game (Three Cards Summing to 15)](https://trueinterview.io/questions/ai-coding-card-game-sum-fifteen)
+Prepare six to eight recent stories with numbers, including one AI-tooling failure and one non-trivial ML system you can present in depth.
 
-### Behavioral and Leadership
+### Sample questions for the behavioral interview
 
-Expect a conflict with peers, a project hit by shifting requirements, and your specific role in each. At senior levels, interviewers probe mentoring and cross-functional prioritization. The AI-usage thread is detailed enough that one candidate compared it to a survey.
+Here are some questions reported by recent candidates:
+
+- Describe a conflict with peers: how it started, what you did, and what you learned.
+- Tell me about a project where requirements shifted or the deadline was at risk.
+- How do you personally use AI tools in your work, and where have they let you down?
+- Share a piece of constructive feedback you received and how you acted on it.
 
 - [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
 - [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
+- [Explain an AI System You Designed and the Problem It Solved](https://trueinterview.io/questions/explain-an-ai-system-you-designed-and-the-problem-it-solved)
+- [Describe proudest project and cross-team work](https://trueinterview.io/questions/describe-proudest-project-and-cross-team-work)
 
-## What They Don't Test
+## How Meta levels and evaluates Machine Learning Engineer candidates
 
-- **Pure algorithm recitation.** Candidates advise practicing metric design, online and offline evaluation, and feature engineering over the math of individual models. Interviewers reward practical trade-offs.
-- **Generic distributed-systems diagrams.** MLE design rounds are ML design. Retrieval, ranking and calibration earn signal, and load-balancer diagrams do not.
-- **Ethics essays on sensitive prompts.** In the weapon-ads round, the discussion stayed on data pipelines, labeling and feedback loops.
-- **Hard coding puzzles.** Coding stays at the medium, frequently asked level. The hard part is the design rounds.
+Each interviewer submits independent feedback, and a hiring committee that did not interview you reviews the whole packet; every round is a separate signal, so a strong design round does not cover a weak coding round. The target level is set before the loop from your experience, and design and behavioral performance decide between adjacent levels, so a loop can end in an offer one level below the target. Team matching usually happens after approval, when you talk with hiring managers in ranking, integrity, generative AI or infrastructure teams; one candidate received the team-matching notice about six weeks after the screen.
 
-## The Real Filter
+Outcomes can depend on factors outside the loop. Reports include a role canceled after the onsite, decisions held for headcount, and layoffs shortly after an interview. Rejections arrived about a week after the loop, usually without feedback.
 
-The main filter is domain fluency in Meta's recurring problem families, and candidates misjudge it because they prepare a generic recommendation template. Prompts reuse a small set of themes: integrity detection, ads, notifications, places and events, and short video. The deep dives go straight to issues specific to each theme, such as multi-image uploads, overlaid text, calibration, and negative-feedback signals. With 45 minutes, you need a layered skeleton ready in five minutes so the interviewer can choose where to dig. Rehearse at least one design from each family end to end.
+## How to prepare for the Meta Machine Learning Engineer interview
 
-The second pattern is the AI-enabled round turning into a DP exam. The word-subset problem escalates to bitmask DP with space optimization, and large inputs reject brute force.
+1. **Cover the product families:** Prepare one full design each for integrity detection, ads ranking with calibration, notification ranking, places or events, and short-video ranking.
+2. **Master the standard follow-ups:** Position bias, training-serving skew, feedback loops, cold start, calibration and the offline-online metric gap come up in nearly every design round.
+3. **Pair every metric with a counter-metric:** Engagement alongside dismissals, survey satisfaction or integrity prevalence, plus an A/B or interleaving plan.
+4. **Keep dynamic programming sharp for the AI round:** Backtracking with pruning and bitmask DP over thousands of inputs appeared even with an assistant available.
+5. **Practice with and without an assistant:** Some interviewers expect careful prompting and verification; others expect you to write the core logic by hand.
+6. **Drill frequently asked medium problems in pairs:** Heaps, intervals, trees, sliding windows and binary search, each with its common twist, inside 40 minutes.
+7. **Refresh generative-AI and agent design if the role is AI-focused:** LLM training and evaluation, retrieval-augmented chat, and reason-and-act agent loops appeared in recent loops.
+8. **Build an AI-tooling story with a failure in it:** Behavioral rounds ask how you use assistants and how you catch their mistakes.
 
-The third pattern is outside your control but worth planning for. Canceled roles, headcount-dependent decisions and layoffs shortly after loops all appear in reports. Keep other processes running until an offer is in writing.
+## About the Meta Machine Learning Engineer role
 
-## Data Source
+Meta Machine Learning Engineers build and operate the models behind ranking, recommendation, ads and integrity across Facebook, Instagram, WhatsApp and Messenger: feature pipelines, training at scale, online serving, and experiments that must move a product metric, usually in PyTorch.
 
-Based on 25 candidate-reported interview experiences, primarily from 2026 Q2 through 2026 Q2.
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| E3 | Well-defined tasks and model components | Individual tasks within a team |
+| E4 | Complete features and their technical specifications | A feature or model within one team |
+| E5 (Senior) | A problem space owned end to end, creating scope for others | A team's models and systems |
+| E6 (Staff) | Team direction, roadmaps and problems beyond the team | Several teams |
+| E7 (Senior Staff) | Large programs and the direction of a significant problem area | Multiple teams and organizations |
 
-## FAQ
+Meta hires Machine Learning Engineers across most of the company. Teams include:
 
-**What is it like to work as a Machine Learning Engineer at Meta?**
+- **Monetization:** Ads retrieval, ranking and conversion prediction, including calibration.
+- **Feed and Reels recommendations:** Ranking for News Feed, Reels, Instagram Explore and related surfaces.
+- **Integrity:** Detection of harmful content, prohibited sales and high-risk accounts.
+- **Meta Superintelligence Labs:** Formed in 2025 to bring together foundation-model teams, AI product groups and the FAIR research organization.
+- **AI infrastructure:** Training and serving platforms for models at Meta's scale.
 
-The reports cover hiring, not the job, and say nothing about compensation. What they show is that the work is production ML: ranking, recommendation and integrity models serving billions of users. Deployable systems and measurable product impact are valued over novel modeling.
+### Machine Learning Engineer experience and education requirements
 
-**What is the engineering culture like?**
+Postings ask for a bachelor's degree in computer science or a related field, or equivalent practical experience, and mid-level roles typically want two or more years in machine learning, recommendation systems or a related area, with framework experience such as PyTorch or TensorFlow. Senior postings ask for about six years of software engineering, or three with a PhD, plus a record of setting technical direction. Python is expected, and a master's or PhD in an ML-related field is preferred but not required.
 
-It is fast and focused on impact. In 2026 it also includes a strong push toward AI tooling and a series of layoffs and reassignments. The loop mirrors that environment by testing both how you use assistants and whether a model change moves a product metric.
+## FAQs about the Meta Machine Learning Engineer interview
 
-**How hard is it to get in?**
+### How long does the Meta Machine Learning Engineer interview process take?
 
-It is competitive. Rejected candidates describe the bar as high even when they felt strong. Most external hires land at E4 or E5, and design and behavioral performance decide between those levels.
+Usually one to two months. One offer loop finished within a month with a fast-moving recruiter; another candidate received a team-matching notice about six weeks after the screen. Headcount reviews and team matching can extend that.
 
-**Which round is hardest?**
+### What is the hardest round of the Meta Machine Learning Engineer interview?
 
-Candidates who name one pick ML system design, especially integrity prompts outside their own domain. The AI-enabled coding round comes second when it escalates to dynamic programming.
+ML system design, especially integrity prompts outside your own domain, such as image copyright or weapon-sale detection. The AI-enabled coding round comes second when it escalates to dynamic programming on large inputs.
+
+### Is there an online assessment?
+
+Standard MLE pipelines usually go from the recruiter to a phone screen. Some AI-focused pipelines use a progressive class-design assessment with hidden tests, and candidates have been told that a failed assessment brings a waiting period of about a year before reapplying.
+
+### How much does a Meta Machine Learning Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **E4:** ~$310K
+- **E5:** ~$480K
+- **E6:** ~$700K
+
+Packages combine base salary, an annual bonus and restricted stock units that vest quarterly over four years, so the stock share grows sharply with level.
 
 ---
 

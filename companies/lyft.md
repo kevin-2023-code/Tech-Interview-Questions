@@ -48,20 +48,20 @@ Which stage each question came from, for the **43 of 43** questions at Lyft that
 
 ## What they ask about
 
-Of the **16 questions at Lyft that carry a topic label** (37% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Lyft that carry a topic label** (35% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 19% | ████████████ | May 12, 2026 |
-| `hashing` | 3 | 19% | ████████████ | Jun 29, 2026 |
-| `arrays` | 2 | 12% | ████████ | Feb 04, 2026 |
-| `greedy` | 2 | 12% | ████████ | Jul 29, 2026 |
-| `matrix` | 2 | 12% | ████████ | May 12, 2026 |
-| `sliding-window` | 2 | 12% | ████████ | Jun 29, 2026 |
-| `stack` | 2 | 12% | ████████ | — |
-| `trees` | 2 | 12% | ████████ | Jun 16, 2026 |
-| `backtracking` | 1 | 6% | ████ | — |
-| `dynamic-programming` | 1 | 6% | ████ | — |
+| `graphs` | 3 | 20% | ████████████ | May 12, 2026 |
+| `hashing` | 3 | 20% | ████████████ | Jun 29, 2026 |
+| `arrays` | 2 | 13% | ████████ | Feb 04, 2026 |
+| `matrix` | 2 | 13% | ████████ | May 12, 2026 |
+| `sliding-window` | 2 | 13% | ████████ | Jun 29, 2026 |
+| `stack` | 2 | 13% | ████████ | — |
+| `trees` | 2 | 13% | ████████ | Jun 16, 2026 |
+| `backtracking` | 1 | 7% | ████ | — |
+| `dynamic-programming` | 1 | 7% | ████ | — |
+| `greedy` | 1 | 7% | ████ | Jul 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

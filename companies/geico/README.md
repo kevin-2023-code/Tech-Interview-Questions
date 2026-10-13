@@ -16,23 +16,32 @@ How GEICO interviews, and the questions candidates reported there. Free question
 
 ## How GEICO interviews
 
-GEICO's technology organisation runs a hiring loop that looks far more like a product company's than an insurer's. This deep dive goes past the summary on the company page: it works through 6 real GEICO questions and 3 candidate interview reports to show what each round contains and where the loop quietly ends for most people.
+GEICO's technology loop is built like a product company's, with no insurance-domain quiz. Senior candidates face a standard coding round, a full-hour behavioral round and a consumer-scale system design round, and the design prompts in the reports (a ride-hailing service, a video platform with recommendations) have nothing to do with insurance. Applied AI loops add a design discussion about retrieval-augmented generation, in which evaluation counts as much as the pipeline.
 
-### Interview Process
+This guide breaks down each stage of the GEICO interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 2 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### GEICO interview process
 
 <!-- guide-diagram -->
 ![GEICO interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/geico/process.webp)
 <!-- guide-diagram -->
 
-The entry point is a recruiter conversation covering background, level, location and sponsorship. Candidates who applied cold report the recruiter reaching out roughly a week later and the first technical round landing the week after — the front of the funnel moves quickly.
+The structure depends on the hiring path. Early-career and Technology Development Program (TDP) candidates typically take an online assessment, a recruiter call and a short final round. Experienced hires skip the assessment and sit three or four virtual rounds after a recruiter screen, sometimes with a technical phone screen first.
 
-The first technical round is a live coding interview, typically an hour, though one report describes a session that wrapped in about 40 minutes including complexity analysis. One problem, screen-shared, interviewer present throughout — they hand out hints when someone stalls and catch small bugs rather than silently marking them down. The expected shape is brute force out loud, then the improved solution, then time and space complexity stated without being asked.
+A recent Senior Software Engineer loop had three rounds: 60 minutes of coding, 60 minutes of behavioral questions, and a 90-minute combined system design and reliability round. A Senior Applied AI Engineer loop had four: coding, AI design, general system design and behavioral.
 
-After that the loop opens up. For general software engineering candidates it typically runs three to four more sessions, often clustered into a single virtual day: a second coding round, a system design round, and an hour-long behavioral round with a hiring manager or panel. Some tracks get a widened design round — one candidate sat a 90-minute combined design and reliability session where the prompt was a ride-hailing platform and the second half pushed on keeping it up. Reliability questions are not confined to SRE postings.
+Here's what the interview process can look like:
 
-Applied AI and machine learning candidates sit a different middle. One report on that track describes four rounds: an algorithmic coding round built on matrix multiplication, an AI design round, a general system design round, and a behavioral round. The AI design round is not a live-coding exercise despite its name — the interviewer supplies a document set and asks for a retrieval-augmented generation framework built from nothing: embedding strategy, search index, similarity retrieval, prompt assembly and, critically, how the result gets evaluated. The general design round in that loop asked for a video platform with search and interest-based recommendations, and the hour went to ranking and retrieval rather than storage or streaming.
+- **Recruiter screen:** A short call about background, level, location and visa status.
+- **Online assessment (early career):** Timed coding problems, typically easy to medium.
+- **Coding interview:** One live problem in about an hour, either a classic problem or a parsing-heavy implementation.
+- **System design interview:** A consumer-scale design, which runs 90 minutes and includes reliability on some senior tracks.
+- **AI design interview (applied AI):** A no-code discussion of a retrieval-augmented generation system built from a supplied document set.
+- **Behavioral interview:** A full hour on conflict, feedback and motivation.
 
-Scheduling and feedback are inconsistent: one candidate got a same-day decision, another had a round cancelled, rescheduled, then waited fifteen minutes for the interviewer. Screen to decision typically runs two to four weeks.
+> **Tip:** Settle sponsorship and pay in the recruiter call. One senior candidate lost interest partway through the loop after learning that senior base pay topped out at $215K and that only green-card sponsorship was offered.
 
 **[Read the full GEICO interview process →](interview-process.md)**
 

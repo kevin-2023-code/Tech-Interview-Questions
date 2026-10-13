@@ -6,69 +6,271 @@
 
 ---
 
-Expedia Group runs a conventional-looking loop — assessment, phone screen, virtual onsite — but the weight inside it is unusual: behavioral evaluation is spread across almost every session, system design shows up even for entry-level candidates, and a coding round can be lost on how precisely you describe the problem rather than on the code. This deep-dive goes beyond the outline on the company page and draws on 16 real Expedia Group questions and 12 candidate interview reports.
+Expedia Group runs a familiar sequence of assessment, phone screen and virtual onsite, with three twists. Behavioral evaluation runs through almost every session. System design reaches down to entry-level candidates, with prompts drawn from the company's own domain: refunds, payments, rate limits and partner APIs. And a coding round can be lost on how precisely you describe the problem, even when the code works.
 
-## Interview Process
+This guide breaks down each stage of the Expedia Group interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 11 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Expedia Group interview process
 
 <!-- guide-diagram -->
 ![Expedia Group interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/expedia/process.webp)
 <!-- guide-diagram -->
 
-### Application and online assessment
+Teams hire for their own headcount, so the onsite mix follows the team and level. Most candidates take an online assessment, one or two technical phone screens, then a virtual onsite of three to five sessions of roughly 45 minutes each. The process typically takes three to eight weeks, and the gaps between stages are often longer than the stages themselves.
 
-Cold applications do reach interviews. First contact is typically a recruiter conversation about background, motivation, and logistics; in at least one loop the recruiter call already carried an Expedia values-based behavioral question, so a prepared "why Expedia" answer is useful before any code is written.
+Entry-level loops lean on the assessment and add an object-oriented design round. Senior loops more often skip the assessment and open with a project deep dive. Data and AI teams swap classic coding for a notebook case study.
 
-The online assessment is two coding problems on a hosted platform, typically within a 60–90 minute window. Reported pairs are uneven: one straightforward problem — counting connected components in a graph, or counting strictly increasing windows of length k in a price array with a sliding run counter — next to one genuinely demanding problem, such as counting subsequences in which every distinct character appears the same number of times, modulo 1e9+7, which needs precomputed binomial coefficients and a combinatorial DP. Bank the easy problem fast, then spend the remaining time on the hard one.
+Here's what the interview process can look like:
 
-### Technical phone screen
+- **Recruiter screen:** A short call about background, motivation and logistics, sometimes with a values question.
+- **Online assessment (mostly early career):** Two coding problems on a hosted platform in about 60 to 90 minutes.
+- **Technical phone screen (one or two):** About 45 minutes of live coding in a shared editor, with no warm-up.
+- **Coding interviews:** One or two onsite rounds, often dynamic programming, graphs or counting.
+- **Design interviews:** System design at every level, plus object-oriented or low-level design for junior candidates.
+- **Project deep dive and behavioral interview:** A walk through a system you built, then pointed situational questions.
+- **Hiring manager interview:** Team fit, mentorship and, in recent loops, your experience with AI.
 
-The screen is a live coding session of about 45 minutes in a shared editor, and candidates describe it as all business: a brief introduction, then the problem, with no resume walk-through and no behavioral warm-up. Interviewers tend to be quiet, nudging only when you stall, and several did not supply test cases — you are expected to propose and dry-run your own. Problems sit at a medium level with a structural twist: a mountain-shaped tower sum that needs a monotonic stack with prefix and suffix sums; a round-trip itinerary search over a flight list by DFS with a shortest-path follow-up; a grid of bars where removals create a largest hole (sort, take the largest gap in each direction, multiply); binary search and recursion; primes and divisors; a connected-components count "with a twist"; splicing one linked list into another between two indices; and explaining Kosaraju's algorithm rather than coding it. Some candidates get two technical screens, or a separate behavioral phone round about past projects and motivation. Senior screens drift toward practicality: how you use AI tools in daily coding, parsing JSON with a library, then an open-ended coding problem graded on structure and trade-offs rather than a single right answer.
+> **Tip:** Restate every definition before you code (subarray or subsequence, strict or non-strict) and propose your own test cases. Across reported loops, those two habits decided more rounds than the choice of algorithm.
 
-### Virtual onsite
+## Recruiter screen
 
-Reported onsites run three to five rounds, roughly 45 minutes each. Four kinds of sessions recur, with the mix depending on level:
+The recruiter call runs about 15 to 30 minutes and covers your background, why Expedia Group, the target level, location and the rounds ahead. Cold applications do reach interviews. In one Global Payments loop the call already included a values-based behavioral question. Some early-career pipelines add an automated strengths questionnaire that scores traits, not technical skill.
 
-- **Coding, one or two rounds.** Problems are similar in flavor to the screen but longer, and a second problem may be discussed at the approach level only when time runs short. Reported rounds include a lengthy binary-search problem followed by a palindrome-merging discussion; a classic string-generation problem paired with counting substrings that can be rearranged into palindromes and a backtracking problem over a wildcard pattern with a digit-sum constraint; a House-Robber-style DP where the interviewer wanted the recurrence stated and the table compressed to a few variables; and counting subarrays with exactly k odd numbers. Entry-level loops add a hybrid object-design-and-data-structures round: model a small system, justify HashMap versus heap versus sorted set, write a custom comparator for a priority queue, and state the cost of inserts and updates in each.
-- **System design, at every level.** Prompts are domain-flavored and operational: a rate limiter (token bucket versus sliding window, where state lives, race conditions when distributed); a payments system; an order-cancellation and refund processor constrained to stay synchronous; and a service consolidating three partner APIs to answer user queries, walked from functional and non-functional requirements through entities, API shape, and scaling. One design round opened with roughly 20 minutes of behavioral questions, so expect to switch modes mid-session. SDE I candidates have instead met a low-level design round.
-- **Project deep dive.** Senior loops begin with an extended walk through a system you built — why one messaging pattern over another, how failures were handled in production, consistency and scalability trade-offs. Data and AI loops replace it with a hands-on notebook case study: implement a tokenizer with word-to-token and token-to-word mapping, then an optimizer step and loss from scratch, with runnable code and attention to edge cases and numerical stability.
-- **Behavioral, operational excellence, and hiring manager.** Behavioral questions are pointed and situational: a conflict within a team, a difficult manager, a colleague you distrusted, how you show accountability, delaying a task for a higher priority, being blocked by others, mentoring juniors, a project that went wrong, your proudest work, and why this team. A dedicated operational-excellence round probes how you resolved production incidents. The hiring-manager conversation returns to mentorship, challenging projects, conflict, and — in recent loops — your experience with AI, or for AI teams a discussion of agent architectures and roadmap.
+Interviewers evaluate:
 
-### Timelines and decisions
+- **Motivation:** A specific reason for this team and the travel domain.
+- **Level fit:** Whether the scope of your recent work matches the posted level.
+- **Logistics:** Location, since some Seattle roles require at least three office days a week.
 
-The full process typically takes three to four weeks, but candidates describe a less predictable tail — slow responses, scheduling delays attributed to recruiting staff changes, little visibility into timelines, and a hiring manager whose team had already filled while interviews continued for other teams. Rejections after a complete onsite arrive without much detail.
+Prepare a two-minute "why Expedia Group" answer and one values story before the first call.
 
-## What Candidates Report
+### Sample questions for the recruiter screen
 
-- The coding screen is lean and silent: no small talk, one problem, a quiet interviewer, no supplied test cases. Candidates who narrated their approach first and dry-ran their own examples aloud caught bugs the interviewer would otherwise have caught for them.
-- Precision of language is graded. A senior candidate coded a correct sliding-window solution but described it in terms of subsequences instead of subarrays; the mismatch surfaced during the follow-up discussion and cost the round despite working code.
-- Follow-ups change the objective, not the input size — find the round trip, then the shortest one; solve one problem fully, outline the second. Rushing the first problem left no time to show range on the second.
-- Behavioral evaluation is everywhere: a dedicated round, a 20-minute preamble to the design round, an operational-excellence session, and the hiring manager. The prompts are specific enough (distrust, difficult manager, accountability) that generic stories fell flat, and candidates wished they had clarified a question's intent before answering.
-- System design is not reserved for seniors. An entry-level candidate was asked to design a rate limiter; others met payments, refunds, and partner-API aggregation. Interviewers cared about where state lives, concurrency, and synchronous versus asynchronous trade-offs more than about box diagrams.
-- Logistics are the main frustration: delayed or missing responses, uncertain timelines, and interviews that continued after the intended team filled. Proactive follow-up is repeatedly advised.
+Here are some questions reported by recent candidates:
 
-## Coding Questions
+- Tell me about yourself and the work you are most proud of.
+- Why Expedia Group, and why this team?
 
-Expedia Group coding problems are medium-level catalog patterns with a concrete twist — graph traversal over flights, gaps in a grid after removals, monotonic stacks with prefix and suffix sums, combinatorial counting under a modulus — graded on a complete, explained solution plus an accurate complexity statement. Practice restating the problem's definitions and proposing your own test cases; those two habits decided more reported rounds than the algorithm did.
+## Online assessment
 
-- Number of Provinces
-- [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0)
+The assessment is two coding problems on a hosted platform, typically in a 60 to 90 minute window, sometimes with multiple-choice questions on fundamentals. The pair is uneven. One problem is straightforward, such as counting connected components or counting strictly increasing windows of length k in a price array. The other is hard, such as counting subsequences in which every distinct character appears equally often, modulo 1e9+7. Hidden test cases grade the work, so a correct brute force that times out still scores poorly.
+
+Interviewers evaluate:
+
+- **Time management:** Banking the easy problem quickly to leave most of the window for the hard one.
+- **Avoiding re-scans:** Tracking a running streak length instead of re-checking every window.
+- **Combinatorial counting:** Precomputed factorials and inverse factorials so each nCr is constant time.
+
+Practice timed pairs of one easy sliding-window or graph problem and one counting DP.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Given daily stock prices and k, count the windows of exactly k days in which prices strictly increase.
+- Count the non-empty subsequences of a string in which every distinct character appears equally often, modulo 1e9+7.
+
+- [Counting Subsequence with Same Character Frequency](../../questions/algorithm/counting-subsequence-with-same-character-frequency/README.md)
+- [Number of Provinces](https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2)
+- [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution)
+
+## Technical phone screen
+
+The screen is about 45 minutes of live coding in a shared editor: a brief introduction, then one problem, with no resume talk. Interviewers stay quiet and often supply no test cases. Some candidates sit two screens.
+
+Problems are medium to hard with a twist. Reported examples include a mountain-shaped tower sum (monotonic stack with prefix and suffix sums), the largest hole left after removing bars from a grid (sort, take the largest gap each way, multiply), and round-trip itineraries over a flight list with a shortest-trip follow-up. Others include splicing linked lists, primes and divisors, and explaining Kosaraju's algorithm. Senior screens are more practical: how you use AI tools, parsing JSON with a library, then an open-ended problem graded on structure and trade-offs.
+
+Interviewers evaluate:
+
+- **Self-testing:** Dry-running your own cases aloud. One candidate caught a suffix-sum bug only this way.
+- **Index discipline:** Stack and gap boundaries right without long debugging.
+- **Brute force first:** A baseline that proves you understand the constraints, then the optimization.
+- **Practical judgment (senior):** Library tools over hand-rolled parsing, with trade-offs explained.
+
+Build a 45-minute routine with no warm-up: restate, brute force, optimize, code, then test three cases you invented.
+
+> **Note:** A senior candidate was rejected after a screen that opened with questions about AI-assisted coding. Have a concrete account of which tools you use and how you check their output.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Given maximum heights, build a mountain-shaped arrangement of towers with the largest total height.
+- After removing some horizontal and vertical bars from a grid, find the area of the largest rectangular hole.
+- Parse a JSON payload with a standard library, extract the required fields, then extend it to an open-ended requirement.
+
 - [Beautiful Towers II](https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9)
-- [Prison Break: Largest Hole After Removing Bars](https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817)
-- [Scattered Palindrome Substring Count (Swappable to Palindrome)](https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d)
-- [Generate All Strings Matching Pattern With Digit Sum Constraint](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f)
-- House Robber Series
+- [Maximize Hole in Prison Gate](https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817)
+- [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0)
 - [Merge One Linked List Into Another Between Two Indices](https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69)
 - [Parse a JSON string and extract required information (open-ended)](https://trueinterview.io/questions/8a6ac321-b88a-4686-abf2-851967bbfbce)
 
-## How to Prepare
+## Coding interviews
 
-- Drill the reported problem families until the index arithmetic is automatic: monotonic stack with prefix/suffix sums, DFS over an edge list with a shortest-path variant, sort-and-largest-gap, run-counting sliding windows, wildcard backtracking, and combinatorial DP with precomputed factorials under a modulus.
-- Build a 45-minute screen routine with no warm-up: restate the problem's definitions (subarray versus subsequence, strict versus non-strict), outline a brute force, optimize, code, then invent and dry-run three test cases aloud before declaring done.
-- Prepare system-design walkthroughs that match the domain and the constraints interviewers actually imposed: a distributed rate limiter with its race conditions, a synchronous refund or cancellation flow, and an aggregator over several partner APIs with explicit non-functional requirements.
-- If you are entry-level or SDE I, rehearse the hybrid object-design round: modeling with HashMap, heap, and sorted-set choices, a custom comparator, and the cost of each operation.
-- Write behavioral stories for the exact prompts reported — a colleague you distrusted, a difficult manager, accountability, deprioritizing a task, unblocking yourself, mentoring, a project that slipped — plus a production-incident story for the operational-excellence round, and ask what is being probed when a question is ambiguous.
-- Have a concrete answer on how you use AI tools in day-to-day engineering; it has appeared in senior screens and hiring-manager rounds.
-- Expect a slow, opaque tail: follow up politely on schedules, keep practicing between stages, and treat every round as real even if the team's headcount seems uncertain.
+The onsite has one or two coding rounds of about 45 minutes. A second problem may be discussed only at the approach level when time runs short. Dynamic programming is the most frequent family: a House Robber variant had the interviewer asking for the recurrence, the optimal substructure, and the table compressed to a few variables. One Global Payments onsite stacked a string-generation problem, counting substrings that can be rearranged into palindromes, and backtracking over a wildcard pattern to hit a target digit sum. A senior round asked for subarrays containing exactly k odd numbers.
+
+Data and AI teams replace this round with a notebook case study: implement a tokenizer with word-to-token and token-to-word mapping, then an optimizer step and loss from scratch, as runnable code.
+
+Interviewers evaluate:
+
+- **Precise framing:** A senior candidate coded a correct subarray solution but described it as counting subsequences, and the mismatch cost the round.
+- **DP derivation:** Recurrence, base cases and space reduction, explained before coding.
+- **Range:** Finishing the first problem fast enough to show an approach on the second.
+
+Drill DP space reduction, exactly-k subarray counting and wildcard backtracking until each takes under 20 minutes.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Choose non-adjacent houses to rob for the maximum total, then cut memory to constant space.
+- Count the substrings that can be rearranged into a palindrome.
+- In a notebook, convert text to token IDs and back, then write an optimizer update and loss.
+
+- [House Robber Series](../../questions/algorithm/house-robber-series/README.md)
+- [Scattered Palindrome Substring Count (Swappable to Palindrome)](https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d)
+- [Restore String with Target Digit Sum](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f)
+- [Count Number of Nice Subarrays](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19)
+- [Implement a Basic Tokenizer and Train a Simple LLM-like Model in a Notebook Case Study](https://trueinterview.io/questions/3fce3482-1d0c-4a6c-b134-e4ac6a07601b)
+
+## Design interviews
+
+System design appears at every level, including entry level, and the prompts are operational. Reported ones include a rate limiter (token bucket versus sliding window, where state lives, races once distributed), a payments platform, an order-cancellation and refund processor that must stay synchronous, and a service that consolidates three partner APIs, walked from requirements through entities, API shape and scaling. One design round opened with about 20 minutes of behavioral questions.
+
+Junior candidates also meet an object-oriented or low-level design round: model a small system, justify a hash map versus a heap versus a sorted set, write a custom priority-queue comparator, and state the cost of inserts and updates.
+
+Interviewers evaluate:
+
+- **Requirements first:** Consistency, latency and idempotency needs before components.
+- **State and concurrency:** Where counters or booking state live and how concurrent updates stay correct.
+- **Honoring constraints:** Designing within an imposed rule, such as a synchronous refund path.
+- **Data structure costs:** Exact complexity of the operations in the structures you pick.
+
+Prepare a rate limiter, a payment or refund flow and a multi-API aggregator end to end, each with a failure model.
+
+> **Tip:** When a constraint like "must be synchronous" looks odd, ask why, then design to it. The interviewer is testing timeouts and partial failure without the comfort of an async queue.
+
+### Sample questions for the design interviews
+
+Here are some questions reported by recent candidates:
+
+- Design a distributed rate limiter and explain how you prevent races between nodes.
+- Design an order cancellation and refund processor that must respond synchronously.
+- Model a small system with classes, choosing between a hash map, heap and sorted set with a custom comparator.
+
+- [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md)
+- [Design Payment System](https://trueinterview.io/questions/payment-platform-design)
+- [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design)
+- [Design a listing connectivity ingestion service](https://trueinterview.io/questions/design-a-listing-connectivity-ingestion-service)
+
+## Project deep dive and behavioral interview
+
+Senior and data loops open with an extended walk through a system you built: why one messaging pattern over another, how failures were handled in production, what you would change. Behavioral questions come in a dedicated round or folded into other sessions, and they are specific: a conflict within a team, a difficult manager, a colleague you distrusted, accountability, a task delayed by a higher priority, being blocked by others, mentoring, and a project that went wrong. Some loops add a scenario round on investigating a production incident.
+
+Interviewers evaluate:
+
+- **Individual contribution:** What you decided and built, separated from the team's work.
+- **Trade-off depth:** Scalability and consistency choices you can defend under follow-up.
+- **Handling dependencies:** How you unblock yourself when another team or priority holds you up.
+- **Incident handling:** Detection, mitigation, communication and the follow-up fix.
+
+Write stories for the exact prompts above, and ask what a question is probing when its intent is unclear.
+
+> **Note:** Interviewers often stay neutral and take detailed notes, so a calm room signals nothing either way.
+
+### Sample questions for the project deep dive and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Describe a time you distrusted a colleague and what you did about it.
+- How did you handle a task that slipped because a higher-priority assignment came in?
+- Walk through the architecture of a system you built and how it handled failures in production.
+
+- [Describe when you distrusted a colleague](https://trueinterview.io/questions/describe-when-you-distrusted-a-colleague)
+- [Lead alignment under ambiguity and pressure](https://trueinterview.io/questions/lead-alignment-under-ambiguity-and-pressure)
+
+## Hiring manager interview
+
+The hiring manager covers mentorship, challenging projects, conflict and your fit with the team's roadmap. Recent loops asked about your experience with AI. For AI teams it became a technical discussion of agent architectures, planning and tool use, evaluation, and productionizing research.
+
+Interviewers look for:
+
+- **Roadmap fit:** Whether your experience maps to what the team ships next.
+- **AI fluency:** Concrete use of AI tools or agent systems, including limits you have hit.
+- **Mentorship:** Evidence you raise the people around you, weighted more at senior levels.
+
+Read up on the team's product area and prepare two questions about its roadmap.
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- How do you use AI in your day-to-day engineering work?
+- How would you design and evaluate an agent that plans and calls tools in production?
+
+- [How do you use AI for coding?](https://trueinterview.io/questions/how-do-you-use-ai-for-coding)
+- [Choose KPIs and prove impact with experiments](https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments)
+
+## How Expedia Group makes hiring decisions
+
+Interviewers submit feedback to the hiring team, which typically decides for its own headcount. Rounds are weighed together, but a single shaky coding round ended at least one otherwise solid senior loop. Openings can close mid-process: one candidate learned the hiring manager's team had filled while interviews continued for other teams. Rejections after a full onsite usually come without detailed feedback, and candidates report slow responses and scheduling delays when recruiting staff changed.
+
+> **Tip:** Follow up after each stage and ask whether other teams are hiring at your level. If the original team fills, a completed loop can still be considered elsewhere.
+
+## How to prepare for the Expedia Group interview
+
+1. **Drill the reported families:** Monotonic stack with prefix sums, sort-and-largest-gap, flight-graph DFS, exactly-k subarrays, wildcard backtracking and counting DP under a modulus.
+2. **Rehearse a silent 45-minute screen:** Restate definitions, give a brute force, optimize, code, then dry-run your own test cases.
+3. **Explain DP aloud:** State the recurrence and substructure, then reduce the table to a few variables.
+4. **Prepare domain designs:** A distributed rate limiter, a synchronous refund flow, a payment system and a partner-API aggregator.
+5. **Know data structure costs:** Operation costs for hash maps, heaps and sorted sets, plus custom comparators.
+6. **Write targeted stories:** Distrust, a difficult manager, accountability, deprioritized work, being blocked, a failed project and a production incident.
+7. **Have an AI answer ready:** Which tools you use, where they fail, and how you verify their output.
+
+## About working at Expedia Group
+
+Expedia Group runs consumer brands including Expedia, Hotels.com and Vrbo, plus a B2B business that powers booking for travel partners. About half of its roughly 16,000 employees work in technology. Since late 2025 the company has reorganized toward smaller, AI-focused teams, and early 2026 layoffs cut about a tenth of its Seattle technology staff.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| SDE I | Delivering well-scoped features with guidance | Tasks within one team |
+| SDE II | Owning features and services end to end | One team's services |
+| SDE III | Leading complex projects and production systems | A team and its neighbors |
+| Senior SDE | Technical direction and mentoring | Several teams |
+| Principal SDE | Architecture and strategy across a domain | An organization |
+
+Expedia Group hires software engineers across teams including:
+
+- **Lodging and supply:** Inventory, pricing and connectivity for hotels and vacation rentals.
+- **Expedia Partner Solutions (B2B):** APIs and white-label platforms for travel partners.
+- **Global Payments:** Payment processing, billing and refunds.
+- **Advertising Technology:** Ad products for travel suppliers.
+- **Cloud Platform and Site Reliability:** Infrastructure and reliability for other engineering teams.
+- **Data and AI:** Machine learning, LLM and agent systems.
+
+### Experience and education requirements
+
+SDE III postings ask for a bachelor's degree and five or more years of software development, a master's and three or more, or equivalent experience. Graduate programs hire recent computer science graduates in Austin, Seattle and London. Data and AI roles expect fluent Python in notebooks. Confirm any language limits with the recruiter before the first coding round.
+
+## FAQs about the Expedia Group interview
+
+### How long does the Expedia Group interview process take?
+
+Typically three to eight weeks from application to decision. The stages move quickly, but the gaps between them stretch when schedules slip or headcount changes.
+
+### What is the hardest round of the Expedia Group interview?
+
+The onsite coding round, which often has hard DP or counting problems. Candidates lost it on imprecise framing or by running out of time. Entry-level candidates are most often surprised by system design.
+
+### What pay ranges does Expedia Group post for engineers?
+
+Recent US postings list total cash of about $119K to $127K for Seattle graduate roles and a base band of about $119K to $191K for SDE II. Seattle SDE III was posted at about $137K to $204K, and Senior SDE at about $173K to $243K in total cash. Stock awards come on top of these cash figures.
+
+### Is the Expedia Group interview remote?
+
+Screens and onsites are typically held over video. The job itself is often hybrid, so confirm the office requirement with the recruiter.
 
 ---
 

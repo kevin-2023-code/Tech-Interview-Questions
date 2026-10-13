@@ -6,49 +6,174 @@
 
 ---
 
-Arista Networks hires engineers who can build and debug systems software for data-centre switching, and its loop is unusual in that the coding prompts are the easy part. This guide goes past the summary on the company page and into how the rounds actually run, drawing on 4 real Arista Networks questions and 4 candidate interview reports.
+Arista Networks keeps the algorithm problems easy to medium and spends the rest of each round on C and C++ fundamentals: pointers, object lifetime, memory layout and debugging. Once your code runs, the follow-up questions about it are the real test. Speed in the coding environment is graded too. One candidate solved both problems optimally and was still rejected for slow error reading and debugging under time pressure.
 
-## Interview Process
+This guide breaks down each stage of the Arista Networks interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Arista Networks interview process
 
 <!-- guide-diagram -->
 ![Arista Networks interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/arista/process.webp)
 <!-- guide-diagram -->
 
-The loop starts with a recruiter conversation that candidates consistently describe as non-technical: role and team context, location, timing, nothing to prepare for beyond your own background. Referrals are a common entry path, and referred candidates report going straight from that call into a technical round rather than sitting a separate take-home.
+The hiring team sets the content, but every reported loop tested systems-level C++. Referrals are a common way in, and referred candidates went from the recruiter call straight to a live technical round, with no online assessment.
 
-The first technical round is live coding, typically on CoderPad rather than a structured judge. This detail matters more than it sounds. You write the full program, including driver code and input handling, and you compile and run it yourself, so the failure output you see is raw compiler and runtime text rather than a tidy "wrong answer on test 3". One report describes a round of roughly 40 minutes covering two problems back to back, with no self-introduction and no resume discussion at all — the interviewer opened with the first problem and asked for time and space complexity immediately after each solution ran. Others describe a slightly longer session that opens with a five-minute introduction before moving to problems. C and C++ dominate; candidates are generally allowed to choose among C, C++ and Java, but the follow-up questions assume you can reason in C-family memory terms whichever you pick.
+Reported loops ranged from one technical round ending in rejection to two rounds still in progress. Public accounts describe three to five rounds in total, with later rounds typically covering concurrency, operating-system and networking fundamentals, and a hiring-manager conversation. The language bar does not drop for junior candidates; senior candidates should expect more design and debugging discussion, not harder algorithms.
 
-The distinguishing stage is the technical deep-dive that follows. Here the coding task is a container or data-structure implementation rather than an algorithm puzzle, and the real interview begins once your code works. One documented round asked for a generic stack in C++, then spent the remaining time on the implementation's own choices: `new` versus `malloc`, the `new` operator versus placement `new`, what `top()` should return among `T&`, `const T&`, `T` and `T&&` and why, what happens to a reference obtained from `top()` after `pop()` destroys the element, and where arguments and return values physically live during a function call. Another round handed over a snippet with an out-of-bounds memory access and asked why it produced an infinite loop instead of the segmentation fault you would expect. A third mixed pointer and format-string behaviour — the output of various `printf` calls against a `const char*` — with how you would step through it in GDB, then moved on to `malloc` versus `new` and the heap, stack, data and text segments.
+Here's what the interview process can look like:
 
-Beyond that, reported loops vary. One candidate describes a process of around five rounds in total; another was rejected after a single technical round. A hiring-manager conversation covering motivation, team fit and any technical ground the earlier rounds missed is typical as the final stage. Candidates generally describe the end-to-end process as taking a few weeks and as being run efficiently, with rejections arriving within days rather than being left open.
+- **Recruiter screen:** A short, non-technical call about background, team, location and timeline.
+- **Technical screen:** A 40–60 minute live CoderPad session with one or two easy-to-medium problems, often mixed with rapid C or C++ fundamentals.
+- **Technical deep-dive:** An implementation round, such as a generic container in C++, followed by detailed questions on every design and language choice.
+- **Later rounds and hiring manager (typically):** Further coding and systems rounds, then a conversation about past work and team fit.
 
-## What Candidates Report
+> **Tip:** Practice where you write your own `main`, compile, and read raw compiler and runtime errors. Candidates lost minutes to unfamiliar CoderPad output, and the delay counted against them.
 
-- **Depth after correctness is the whole test.** Getting a working solution ends the first half of the round and starts the second. Candidates who could write the stack but could not justify the return type of an accessor describe the conversation getting steadily harder rather than moving on.
-- **The bar on pacing is tighter than the clock suggests.** Finishing inside the allotted time is not itself a pass; several accounts describe an expectation that approachable problems are done comfortably early, leaving room for follow-ups.
-- **Debugging fluency is graded explicitly.** One candidate who solved both problems optimally was rejected, and the written feedback pointed at reading error messages and debugging under time pressure rather than at the algorithms.
-- **The environment itself trips people up.** Working outside a familiar submission harness — writing your own main, interpreting compiler errors, occasionally in a bare terminal editor — costs minutes that candidates did not budget for.
-- **Interviewers are patient and hint freely.** Reports repeatedly describe a supportive tone, hints offered before the candidate stalls, and a willingness to move past a topic the candidate clearly does not know. That kindness is not a signal of how the round is being scored.
-- **Edge cases are part of the prompt, not a bonus.** Null and empty inputs, values that may or may not exist, and arrays that do not start at zero appear in the base problem statements, and missing one is treated as a defect rather than an oversight.
+## Recruiter screen
 
-## Coding Questions
+Candidates describe a non-technical conversation about the role, team, location and timing, sometimes with visa status and an outline of the rounds. One applicant for a network-systems role in Vancouver went from this call directly to a single technical interview. Candidates consistently call the process professional and quick.
 
-Arista's coding prompts sit at the easy-to-medium level and lean toward strings, arrays, linked lists and matrix construction, with an occasional graph traversal in the screening round. The variants matter: expect the familiar problem with one assumption removed, and expect to be asked for the better complexity after your first working answer.
+Interviewers look for:
+
+- **Systems background:** Recent C, C++ or Linux work that matches the posting.
+- **Domain interest:** Networking or embedded software rather than general application work.
+- **Logistics:** Location, start date and work authorization.
+
+Ask which language the technical rounds expect and whether the next call includes fundamentals questions.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Walk through your background and how your current work maps to this role.
+- Why Arista, and why networking software?
+
+## Technical screen
+
+The screen is a live CoderPad session, typically 40–60 minutes. One report described two problems in 40 minutes with no introduction or resume talk; another opened with a five-minute introduction. You write the whole program, including the driver, and run it yourself, so failures show up as raw compiler or runtime output. C, C++ and Java are usually allowed, but follow-ups assume C-family memory reasoning.
+
+The problems are approachable: palindrome validation that must handle both empty and null input, and a missing-number variant on a sorted array that starts at an arbitrary value, may have nothing missing, and must run in logarithmic time. Another screen paired C++ trivia with a depth-first search problem. A third asked what several `printf` calls print for a `const char*` holding a digit string (`%s`, `%d`, `%c`, with and without dereferencing), how to trace them in GDB, and then `malloc` versus `new` and the heap, stack, data and text segments. Complexity is asked after every solution.
+
+Interviewers evaluate:
+
+- **Edge cases:** A missed null check was treated as a defect, even with the empty-string case handled.
+- **Pacing:** Two problems in about 40 minutes was not enough. A secondhand account describes a rejection after finishing in 30 minutes when about 20 was expected.
+- **Debugging fluency:** Reading unfamiliar errors quickly and fixing them without a hint.
+- **Unprompted optimization:** Moving from the summation solution to binary search and stating complexity without being asked.
+- **Memory model:** What a format specifier does with a pointer versus a character, and where each kind of data lives.
+
+Solve easy and medium problems in plain C++ in under 15 minutes each, guarding null and empty input first.
+
+> **Note:** Interviewers are patient and hint early, but rounds that needed hints still ended in rejection. Hint-free execution is the expectation.
+
+### Sample questions for the technical screen
+
+Here are some questions reported by recent candidates:
+
+- Check whether a string is a palindrome, handling both an empty string and a null input.
+- Find the missing number in a sorted array with an arbitrary start and possibly none missing, in O(log n).
+- Explain the output of several `printf` calls on a `const char*`, then show how to inspect them in GDB.
 
 - [Palindrome String Check (Handle Empty and Null)](../../questions/algorithm/palindrome-string-check-handle-empty-and-null/README.md)
 - [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7)
+- [Solve palindrome and missing-number variants](https://trueinterview.io/questions/solve-palindrome-and-missing-number-variants)
+- [Explain C printf pointers and memory layout](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout)
+
+## Technical deep-dive
+
+This round sets Arista apart. In one report the task was a generic stack in C++, and the interview began once it worked: `new` versus `malloc`, the `new` operator versus placement `new`, and whether `top()` should return `T&`, `const T&`, `T` or `T&&`. A lifetime follow-up asked what printing a reference from `top()` does after `pop()`. The answer is a dangling reference and undefined behavior, because `pop()` destroys the element. The round closed on calling conventions: where arguments and return values live during a call.
+
+Earlier accounts show the same style with other material, including a snippet whose out-of-bounds write looped forever instead of crashing, and linked-list and matrix-construction warm-ups. The questions get harder with each answer rather than moving on.
+
+Interviewers evaluate:
+
+- **API justification:** Returning `T&` or `const T&` as standard containers do, and why the alternatives are worse.
+- **Object lifetime:** What `pop()` destroys, when references dangle, and raw allocation versus construction.
+- **Low-level mechanics:** Stack frames, argument passing and return-value placement.
+- **Undefined behavior:** Why a memory bug can silently corrupt nearby state instead of faulting.
+
+Rebuild a small container from scratch and defend every signature out loud.
+
+> **Tip:** After each practice implementation, ask who owns each piece of memory and what happens if a caller keeps a reference too long. That is where this round's follow-ups go.
+
+### Sample questions for the technical deep-dive
+
+Here are some questions reported by recent candidates:
+
+- Implement a generic stack in C++, then justify the return type of `top()` and the allocation strategy.
+- After taking a reference from `top()` and calling `pop()`, explain what printing the reference does.
+- Explain why an out-of-bounds write in a short snippet causes an infinite loop rather than a segmentation fault.
+
+- [Implement a Generic Stack in C++](../../questions/object-oriented-programming/implement-a-generic-stack-in-c/README.md)
 - [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544)
 - [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd)
 
-## How to Prepare
+## Later rounds and hiring manager
 
-- **Rehearse the second half of the round, not the first.** After you solve a practice problem, force yourself to defend every signature: why that return type, why a reference and not a copy, who owns the memory, what happens if the caller keeps the reference too long.
-- **Know C++ object lifetime cold.** Construction and destruction order, what `pop()` actually destroys, dangling references, and the difference between allocating raw memory and constructing an object in it.
-- **Practise in a plain compile-and-run setup.** Write your own `main`, read real compiler diagnostics, and get comfortable enough that an unexpected error message costs you seconds instead of minutes.
-- **Be able to debug out loud.** Form a hypothesis, name the tool you would reach for, and explain what a GDB session or a trace print would tell you — this is scored as its own skill.
-- **Solve the variant, then the optimum.** Get the straightforward solution running, state its complexity unprompted, then offer the logarithmic or single-pass version. The reported flow expects both.
-- **Handle null and empty first.** Guard clauses before the main body, said aloud as you write them, remove the most commonly reported stumble in the screening round.
-- **Refresh the memory layout basics.** Heap, stack, data and text segments, `malloc` against `new`, and why an out-of-bounds write can corrupt state silently instead of crashing.
+None of the reported candidates reached this stage. Public accounts describe three or four virtual rounds that typically cover coding with concurrency (threads, deadlocks, sometimes a smart pointer), operating-system and networking fundamentals, and low-level design, ending with a hiring manager who covers past projects and fit. Some describe the expected C style as closer to C98 than modern C++: raw pointers, bitwise operations, packing bytes into wider integers.
+
+Interviewers look for:
+
+- **Concurrency basics:** Locks, deadlock conditions and safe shared state.
+- **Systems fundamentals:** Processes, memory, and the Linux tools you would debug with.
+- **Networking awareness:** Layer 2 and Layer 3 concepts, a plus rather than a requirement.
+- **Ownership:** Projects you designed, tested and debugged end to end.
+
+Review threading primitives, bit manipulation and Linux debugging alongside your project stories.
+
+## How Arista Networks makes hiring decisions
+
+Any round can end the process. Two of three reported candidates were rejected after their first technical round, by email within a few days. Feedback given on request was specific: more fluency reading errors and debugging under time pressure. A correct answer that came slowly or needed hints is not enough. The hiring manager and team typically decide, and level follows experience.
+
+## How to prepare for the Arista Networks interview
+
+1. **Code in a bare environment:** Write `main`, compile and run in CoderPad or a terminal until raw errors cost seconds.
+2. **Aim to finish early:** Target 15–20 minutes per easy or medium problem and leave the rest for follow-ups.
+3. **Guard null and empty first:** Say and write the edge-case checks before the main logic.
+4. **Offer the better complexity:** Ship the simple solution, state its cost, then propose the logarithmic version.
+5. **Know C++ object lifetime cold:** Placement `new`, destructor timing, dangling references, accessor return types.
+6. **Refresh memory layout:** Process segments, `malloc` versus `new`, format specifiers and pointer arithmetic.
+7. **Debug out loud:** Explain what GDB or a trace print would show, because debugging is graded on its own.
+
+## About working at Arista Networks
+
+Arista builds data-center, campus and AI-cluster networking around EOS, a single Linux-based operating system image that runs across its switches and routers. Engineers own features from specification and test plans through automated tests and customer-issue debugging. The company describes its management as flat and engineer-led.
+
+Arista Networks hires software engineers across its systems and product lines. Teams include:
+
+- **Network Systems (EOS):** Routing and switching features and protocols, mostly in C and C++.
+- **Platform:** Hardware bring-up and drivers for new switch platforms.
+- **Diagnostics:** Software that validates and troubleshoots hardware.
+- **Campus wired and wireless:** Campus switching and Wi-Fi access points.
+- **SD-WAN:** The VeloCloud portfolio acquired in 2025.
+
+### Experience and education requirements
+
+Postings ask for a degree in computer science, electrical engineering or computer engineering. Mid-level roles typically want two to three or more years of post-graduate experience; some Vancouver roles target one to three. Required skills are C, C++ and/or Python with UNIX or Linux; routing protocols (OSPF, BGP, IS-IS) and Layer 2 features are preferred.
+
+## FAQs about the Arista Networks interview
+
+### How long does the Arista Networks interview process take?
+
+Typically a few weeks. Rejections arrived within a few days of a technical round.
+
+### What is the hardest round of the Arista Networks interview?
+
+The technical deep-dive. The implementation is familiar, but each answer on lifetime, allocation and calling conventions leads to a harder question.
+
+### Is there an online assessment?
+
+None was reported. Referred candidates went straight from the recruiter call to a live CoderPad round.
+
+### Which language should I use?
+
+C or C++. Java is sometimes allowed, but the fundamentals questions assume C-family memory knowledge.
+
+### How much does an Arista Networks software engineer make?
+
+Recent Santa Clara postings list new-hire base pay of about $119K–$148K for a hardware-tools software engineer, $128K–$200K for diagnostics software, and $140K–$210K for senior and lead network-systems roles. Some roles add a discretionary bonus and equity.
 
 ---
 

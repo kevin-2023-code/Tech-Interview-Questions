@@ -49,20 +49,20 @@ Which stage each question came from, for the **44 of 44** questions at Robinhood
 
 ## What they ask about
 
-Of the **19 questions at Robinhood that carry a topic label** (43% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Robinhood that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 5 | 26% | ████████████ | Sep 04, 2026 |
-| `greedy` | 4 | 21% | ██████████ | Sep 17, 2026 |
-| `hashing` | 4 | 21% | ██████████ | Apr 28, 2026 |
-| `topological-sort` | 4 | 21% | ██████████ | May 01, 2026 |
-| `heap` | 2 | 11% | █████ | Apr 28, 2026 |
-| `intervals` | 2 | 11% | █████ | May 09, 2026 |
-| `trees` | 2 | 11% | █████ | Apr 28, 2026 |
-| `dynamic-programming` | 1 | 5% | ██ | Apr 10, 2025 |
-| `sorting` | 1 | 5% | ██ | Feb 28, 2026 |
-| `stack` | 1 | 5% | ██ | Mar 01, 2026 |
+| `graphs` | 5 | 29% | ████████████ | Sep 04, 2026 |
+| `hashing` | 4 | 24% | ██████████ | Apr 28, 2026 |
+| `topological-sort` | 4 | 24% | ██████████ | May 01, 2026 |
+| `greedy` | 2 | 12% | █████ | Apr 01, 2026 |
+| `heap` | 2 | 12% | █████ | Apr 28, 2026 |
+| `intervals` | 2 | 12% | █████ | May 09, 2026 |
+| `trees` | 2 | 12% | █████ | Apr 28, 2026 |
+| `dynamic-programming` | 1 | 6% | ██ | Apr 10, 2025 |
+| `sorting` | 1 | 6% | ██ | Feb 28, 2026 |
+| `stack` | 1 | 6% | ██ | Mar 01, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

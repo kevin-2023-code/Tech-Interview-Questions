@@ -6,99 +6,293 @@
 
 ---
 
-Infrastructure candidates at Microsoft get filtered on concurrency code written against a stopwatch, often in a round that looks like a screen. One hour-long screen spent its first 30 minutes on the resume and then gave about 25 minutes, with a hard stop, to build a keyed task executor. Tasks with the same key run in order, at most 4 run at once, queued plus in-flight work never exceeds 1000, and shutdown has to respect a timeout. The candidate asked whether it could be done in 20 minutes and got no answer. The systems rounds that follow run the same way: storage and concurrency primitives with real invariants, and just enough time if nothing goes wrong.
+Microsoft hires infrastructure engineers team by team, so the hiring team writes the problems and the hiring manager makes the call. Problems follow the team's domain: storage, scheduling, messaging and concurrency, not curated puzzle lists. The defining trait is working systems code on a short clock. One screen spent 30 minutes on the resume and left 25 for a keyed task executor with a concurrency cap, a queue limit and timed shutdown. Follow-ups rarely raise algorithmic difficulty; they change the dimension, from single-threaded to concurrent, in-memory to persistent, one node to many.
 
-## Interview Process
+This guide breaks down each stage of the Microsoft Infrastructure Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 56 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## Microsoft Infrastructure Engineer interview process
 
 <!-- guide-diagram -->
 ![Microsoft Infrastructure Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/microsoft--infrastructure-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter contact (about 30 minutes).** Level, location, and team. For infrastructure-leaning teams the recruiter asks about production ownership and the scale you have run. The expected language can be set here (C# in one report) and then changed to C++ on request. One recruiter told the candidate that every round had to fit into a single day. Others went silent for weeks, and candidates advise following up persistently.
+The loop depends heavily on the team. One storage-flavored pipeline ran three phone rounds before a single onsite; others go from one screen to a virtual onsite of three to five rounds of 45 to 60 minutes, and several recruiters required every onsite round to fit into one day. From first contact to a decision typically takes four to ten weeks.
 
-2. **Online assessment (some pipelines).** Two timed, auto-graded problems. Reported examples include a shortest path where the fuel price varies by city, which needs Dijkstra with fuel in the state (a 90-minute sitting), a bitwise product maximization, and a strength score on a tree network. Many infrastructure loops skip this and go straight to a live screen.
+Early-career loops are mostly coding, with design folded into a coding round. At levels 61 and 62 a dedicated design round is standard. Senior loops grow: one principal loop ran a phone screen plus seven onsite rounds, including two design rounds, an AI fluency round and three behavioral rounds.
 
-3. **Systems phone screen (45 to 60 minutes).** One hands-on problem, usually after a resume block that can take half the hour. Reported prompts: the bounded keyed executor above; a lock where tasks of the same type run concurrently and tasks of different types exclude each other, built on a mutex and condition variables, with follow-ups on fairness and starvation; a key-value store that must serve reads as of any past snapshot, built append-only with per-key version lists and binary search; a mini database handling SELECT with WHERE and ORDER BY over rows given as maps, split into a parser and an executor.
+Here's what the interview process can look like:
 
-4. **Storage and distributed-systems screens (some teams run three).** One loop ran three phone rounds before a single onsite. The first was a two-node redundant store exposing single-byte read and write, compared across mirroring and parity, including an in-flight write when a node dies and rebuilding a replacement. The second was a distributed key-value store with consistent hashing, replication, quorums, node joins, and stale-read detection. The third was verifying stored coordinates in a huge file of store records while calling an expensive geocoding API as rarely as possible. Grouping by ZIP code and caching by city and state were the expected moves.
+- **Recruiter call:** About 30 minutes on level, location, team, production experience and interview language.
+- **Online assessment (some pipelines):** Two auto-graded problems in roughly 90 minutes, mostly for early-career candidates.
+- **Technical phone screens (one to three):** 30 to 60 minutes, often half resume deep dive and half one hands-on systems problem.
+- **Coding interviews (two or three):** Stream processors, parsers and data structures, usually after 10 to 15 minutes of behavioral questions.
+- **Concurrency and low-level design interview:** Build a cache, map, lock or limiter, make it thread-safe, or review concurrent code for races.
+- **AI-assisted coding interview (some teams):** Extend or debug a small project with an assistant, sometimes beside an AI-off round.
+- **System design interview (one or two):** A partitioned log, a job scheduler, a replicated key-value store.
+- **Behavioral and hiring manager interview:** Ownership, conflict, escalation and judgment.
 
-5. **Onsite implementation rounds (two to three, 45 to 60 minutes, often the same day).** Stream and parsing work dominates. Reported prompts: bucket a timestamped event stream into fixed windows and report each window's minimum and maximum; strip comments from C++ source while leaving comment markers inside string literals alone; find a stop token across several character streams, where the token can straddle a stream boundary, and return early without buffering; sort unique integers up to 32,000 from a stream with a bitmap of about 4 KB. Concurrency comes back here too: a hashmap built from scratch and then made safe with striped locking, a thread-safe LRU cache, a C++20 producer-consumer queue to review for races, and a single-flight component that collapses bursts of identical calls to a backend service.
+> **Tip:** Ask the recruiter for the language, the round titles and the AI rules for each round. Several candidates got no agenda at all; one team allowed only C#, while another let a candidate switch from C# to C++ on request.
 
-6. **Design round (one or two).** Prompts are infrastructure-shaped. A messaging system modeled on a partitioned log, pressed on leader election after a broker crash, in-sync replicas, and exactly-once delivery. A job scheduler for an ETL pipeline, with workers, a queue, failure handling, and exactly-once semantics. A payment system spent largely on idempotency, reconciliation, and retry paths without a distributed lock. A typeahead service with sharding and near-real-time index updates. A rate limiter pushed to 100,000 requests per second. At principal level, a distributed key-value store with rebalancing and failure modes, plus external sort of a large CSV.
+## Online assessment
 
-7. **Hiring manager or senior closing round.** A behavioral and judgment pass: a conflict with a peer or manager, what you escalated, and what you owned. It can decide the outcome regardless of the technical rounds. One infrastructure loop had no separately labeled behavioral round and read collaboration out of the project and design discussions.
+The assessment is two timed, auto-graded problems in about 90 minutes; experienced candidates usually skip it. Problems are medium to hard and lean toward graphs, bit manipulation and permutation properties: minimum fuel cost between cities when the fuel price varies by city, which needs Dijkstra with fuel carried in the state; choosing X below 2^N to maximize (A XOR X) times (B XOR X); and a strength score for every node of a tree network.
 
-8. **Decision.** Typically a few weeks. Candidates report portal status changing before any email and multi-week recruiter silences.
+Hidden tests include large inputs, so a correct but slow approach fails. A candidate who pasted an AI-generated solution hit the time limit and expected the attempt to be flagged anyway.
 
-## What They Actually Evaluate
+Interviewers evaluate:
 
-### Low-Level Design
+- **State modeling:** Seeing that a shortest path needs extra state, such as fuel on hand.
+- **Bit-level reasoning:** Deciding XOR problems bit by bit from the top instead of searching values.
+- **Structural insight:** A subarray holds exactly 1 to k only when its length and maximum both equal k.
+- **Performance:** Linear or near-linear solutions that survive hidden large inputs.
 
-Usually the center of the loop: one or two rounds where you build a storage or concurrency primitive and then harden it. Signal comes from stating the invariant up front: ordering per key, a global cap, snapshot visibility, frequency ties. It also comes from naming the synchronization primitive and why. Interviewers pushed on space overhead for version lists, read scaling under different write patterns, and fairness for waiting lock types. The failure mode is a correct single-threaded version with no time left for shutdown semantics or starvation.
+Practice graph-with-state, bitwise greedy and tree DP problems in timed 45-minute blocks without assistance.
 
-- [KV Store with Snapshot Versions](https://trueinterview.io/questions/kv-store-with-snapshot)
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Given roads with fuel costs and a per-city fuel price, find the cheapest trip from A to B when fuel can be bought anywhere.
+- For each k, decide whether some contiguous subarray of a permutation is exactly a permutation of 1 to k.
+
+- [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network)
+- [Maximum XOR Product](https://trueinterview.io/questions/2e9b6434-fdc8-52e3-8863-e469e8a0f2a7)
+- [Maximum Strength of Each Neuron in a Tree Network](https://trueinterview.io/questions/9d18d811-132f-5f8b-abca-0a58be27d911)
+- [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md)
+
+## Technical phone screens
+
+Screens run 30 to 60 minutes with an engineer or manager from the hiring team, and many open with a resume deep dive that can take half the session. The technical half is usually one hands-on systems problem: the bounded keyed executor; a lock where same-type tasks run together but different types exclude each other, built on a mutex and condition variables; a key-value store that reads any key as of any past snapshot; or a SQL-style WHERE filter over rows given as maps.
+
+Storage-flavored screens are closer to design conversations: a two-node redundant store exposing single-byte read and write, compared under mirroring and parity; a distributed key-value store with consistent hashing, quorums and stale-read detection; and verifying coordinates in a huge file of store records with as few calls as possible to an expensive geocoding API.
+
+Interviewers evaluate:
+
+- **Stated invariants:** Per-key ordering, a global cap, snapshot visibility or type exclusivity, said aloud before coding.
+- **Primitive choice:** Which lock, condition or queue, and why; fairness and starvation follow.
+- **Trade-off depth:** Space overhead of per-key version lists and how reads scale under different write patterns.
+- **Cost awareness:** Grouping by ZIP code and caching by city so the cheapest API call is the one never made.
+
+Rehearse a keyed executor, a type-exclusive lock and a versioned store until each runs correctly in 20 minutes.
+
+> **Note:** The clock is how most candidates fail here. The executor candidate asked whether the problem fit in 20 minutes and got no answer. Keep resume answers to two minutes per project, then propose a time split before coding.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Implement submit and shutdown for an executor where same-key tasks run in order, at most 4 run at once, queued plus running tasks never exceed 1000, and shutdown waits for in-flight work up to a timeout.
+- Design a two-node redundant store, then handle a node dying mid-write and rebuilding its replacement.
+
+- [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor)
 - [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2)
+- [KV Store with Snapshot Versions](https://trueinterview.io/questions/kv-store-with-snapshot)
 - [Validate Lat/Long With Minimum Expensive API Calls](https://trueinterview.io/questions/geocode-api-call-minimization)
-- [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md)
 
-### Coding and Algorithm
+## Coding interviews
 
-Two to three rounds of mini-systems rather than list puzzles: parsers, stream processors, bounded-range sorts. They are medium in algorithmic content and hard in implementation detail. Quoted fields, string literals containing comment markers, and partial token matches that fail mid-token each consumed a reported round. Interviewers nudge you to test simple cases, and those tests are where the bugs surface.
+The onsite has two or three coding rounds of 45 to 60 minutes, often in one day. Problems are mini-systems: medium in algorithmic content, hard in implementation detail. Reported prompts: bucket an endless timestamped stream into fixed windows and report each window's minimum and maximum; strip comments from C++ source while leaving markers inside string literals alone; return everything before a stop token that may straddle two input streams, without buffering; sort unique integers up to 32,000 from a stream with a bitmap of about 4 KB; and a CSV query engine where quoted fields and escaped quotes ate most of the clock.
 
-- [In-Memory SQL Engine II](https://trueinterview.io/questions/in-memory-sql-engine)
+Multi-part problems are common. A DNA-fragment problem escalated from chaining fragments by tags to matching in either orientation to finding several independent chains; the candidate only described the last part and was rejected.
+
+Interviewers evaluate:
+
+- **State-machine discipline:** Explicit code, comment and literal states instead of chained string searches.
+- **Partial-match handling:** Resetting state after a mismatch mid-token, the bug that sank one stop-token round.
+- **Testing small cases unprompted:** Empty input, a token at position zero, a token split exactly at a boundary.
+- **Side effects:** One interviewer asked a candidate to restore a linked list the function had mutated.
+
+Practice parsers and streaming problems under a timer, budgeting 20 minutes for the base case so the follow-ups get time.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Group timestamped values into five-minute windows and emit each window's minimum and maximum, then handle empty windows and late events.
+- Read unique numbers from 0 to 32,000 through a getter and write them sorted with minimal memory, then allow duplicates or a larger range.
+
 - [Remove All Comments from Source String (C++)](https://trueinterview.io/questions/0490c246-1ba7-4cf9-bcf9-634c22f273cc)
 - [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection)
 - [Sort 0..32000 with Bit-Vector Storage](https://trueinterview.io/questions/bit-vector-sort-0-to-32000)
+- [In-Memory SQL Engine II](https://trueinterview.io/questions/in-memory-sql-engine)
 
-### System Design
+## Concurrency and low-level design interview
 
-One to two rounds. Candidates who stated scale, consistency needs, and the failure model before drawing anything reported the smoothest sessions. Interviewers drive at the unhappy path: broker crash, duplicate payment, worker death mid-job, a replacement node rejoining. Knowing the internals of one real distributed log well enough to rebuild it was the explicit advice from a rejected candidate.
+Most infrastructure loops build a structure and then make it safe. An SDE II loop built a hashmap with chaining and resizing, then made it concurrent with striped locking and discussed what resizing does to the stripes. An LRU cache went from a global lock to segmented locks, and the candidate was credited for admitting that segmented LRU is only approximate; TTL expiry and consistent-hash sharding followed. Other prompts: a logger that suppresses messages over a count per window, a sliding-window limiter, and an idempotent API keyed by request ID.
+
+The round can also be a code review: one candidate found races in a C++20 producer-consumer queue and refactored it, and another discussed API versioning and deprecation after an object-oriented exercise.
+
+Interviewers evaluate:
+
+- **Lock granularity:** Coarse versus striped versus per-entry locking, and the cost of each.
+- **Honest trade-offs:** Saying when concurrency weakens a guarantee.
+- **Race spotting:** Missed notifications, unlocked reads and shutdown paths in someone else's code.
+- **Code structure:** Small helpers and sentinel nodes; one interviewer explicitly praised extracted helpers.
+
+Take an LRU cache, a hashmap and a rate limiter from single-threaded to striped locking, then review a bounded queue for races.
+
+### Sample questions for the concurrency and low-level design interview
+
+Here are some questions reported by recent candidates:
+
+- Build a hashmap with collision handling and resizing, then support concurrent access with striped locks.
+- Review a C++20 producer-consumer queue for race conditions and explain how to make it correct.
+
+- [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread)
+- [Implement concurrent structures and debug queue code](https://trueinterview.io/questions/implement-concurrent-structures-and-debug-queue-code)
+- [Low Level Logger Design](https://trueinterview.io/questions/2ac0a0ec-b27f-45f3-85bd-1f1476d9ed47)
+- [Explain deadlock cases and how to prevent them](https://trueinterview.io/questions/explain-deadlock-cases-and-how-to-prevent-them)
+
+## AI-assisted coding interview
+
+Since 2026 some teams add rounds titled around AI coding, and practice varies by team. In one loop the AI round supplied a small project as an archive: debug it, add persistence of its in-memory store to disk, and explain the generated code. The next round was AI-free: a single-flight component collapsing bursts of identical calls to an LLM service, written in a browser-based editor. The code did not run, and the candidate believed that cost the offer. In another loop, two rounds billed as AI-agent rounds were ordinary algorithm problems with an optional assistant, although the recruiter had said AI use was expected.
+
+Interviewers look for:
+
+- **Verification habits:** Reading and testing generated code before accepting it.
+- **Ownership:** Explaining every generated line as your own.
+- **Running code:** A feature that executes beats a cleverer one that does not.
+- **Durability reasoning:** Atomic writes and crash recovery for persistence tasks.
+
+Rehearse extending an unfamiliar small codebase with an assistant in 45 minutes, narrating what you check.
+
+> **Note:** Do not infer the format from the round title. Ask whether AI is allowed, whose machine you use and whether code must execute, and prepare for both modes.
+
+### Sample questions for the AI-assisted coding interview
+
+Here are some questions reported by recent candidates:
+
+- Without AI, implement a single-flight component so concurrent identical requests share one in-flight call and its result.
+- Review AI-written URL-shortener code for synchronization, hash-truncation and input-validation defects.
+
+- [LRU Cache](../../questions/ai-coding/lru-cache/README.md)
+
+## System design interview
+
+Loops carry one or two design rounds with infrastructure-shaped prompts: a partitioned-log messaging system, pressed on broker crash, leader election, in-sync replicas and exactly-once delivery; a job scheduler for an ETL pipeline; a payment system spent on idempotency, reconciliation and retries without a distributed lock; a typeahead service with sharding and near-real-time updates; and a rate limiter at 100,000 requests per second. Principal loops asked for a distributed key-value store with rebalancing, plus external sort of a CSV too large for memory.
+
+Operations-flavored prompts also appear: an incident-handling agent with role-based content and abuse controls; a ticket platform that links related tickets and pulls downstream system state for the window around an issue; and a resource-change database that stores diffs and notifies subscribers. Candidates who stated scale, consistency needs and the failure model before drawing had the smoothest sessions.
+
+Interviewers evaluate:
+
+- **Failure-first thinking:** Worker death mid-job, duplicate payments, a replacement node rejoining, raised by you.
+- **Internals depth:** Knowing one real distributed log well enough to rebuild it, the gap one rejected candidate named.
+- **Consistency choices:** Quorums, idempotency keys and exactly-once semantics tied to stated requirements.
+- **Balance:** A senior candidate who lingered on one component lost the data-model and scaling discussion.
+
+Practice a partitioned log, job scheduler, replicated store, rate limiter and payment ledger end to end, leading with failure modes.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a distributed messaging system with partitioned logs and consumer groups, then survive a broker crash with exactly-once delivery.
+- Design a database of resource changes that stores diffs and notifies clients when resources change.
 
 - [Job Scheduler / ETL Pipeline System Design](https://trueinterview.io/questions/job-scheduler-etl-pipeline)
-- [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4)
+- [Design a replicated key-value store with quorums](https://trueinterview.io/questions/design-a-replicated-key-value-store-with-quorums)
+- [Resource Change Database Design](https://trueinterview.io/questions/bcd45958-19cb-4471-90e5-86cdb8a138f5)
+- [Design a High-Concurrency Incident Ticket Correlation Platform](https://trueinterview.io/questions/design-a-high-concurrency-incident-ticket-correlation-platform)
 
-### Behavioral and Leadership
+## Behavioral and hiring manager interview
 
-Short, but present. Conflict and escalation stories dominate, often delivered in a dense one-day schedule. Interviewers mentioned that responsibilities change often and that broad ownership matters, so stories about operating something you did not build land well.
+Behavioral questions open most rounds, and many loops add a dedicated round with the hiring manager or a senior engineer. Themes repeat: a conflict with a peer or manager and whether you escalated, moving forward with limited information, a design decision you regret, and ramping up in an unfamiliar domain. One screen asked no code, only how the candidate debugs, handles production errors and refactors during review.
 
+The manager round can decide the outcome alone: one candidate passed the coding rounds and was rejected because the manager wanted more senior scope.
+
+Interviewers evaluate:
+
+- **Production ownership:** Incidents you drove and what you changed afterward.
+- **Data in disagreements:** One candidate won a tech-debt argument by measuring the maintenance hours a component consumed each quarter.
+- **Scope matching the level:** Cross-team impact for senior roles.
+- **Honest regret:** A real misjudgment and how you fixed it.
+
+Prepare six stories (an incident, a conflict, a regretted design, ambiguity, cross-team influence, mentoring) with numbers.
+
+### Sample questions for the behavioral and hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe the best-designed system you have worked on, then a design decision you regretted and how you convinced others to fix it.
+- Tell me about a disagreement with a peer or manager, whether you escalated, and what you learned.
+
+- [Explain owning and debugging infra modules](https://trueinterview.io/questions/explain-owning-and-debugging-infra-modules)
+- [Describe handling ambiguity and resolving design conflicts](https://trueinterview.io/questions/describe-handling-ambiguity-and-resolving-design-conflicts)
 - [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/questions/behavioral-round)
 
-## What They Don't Test
+## How Microsoft levels and evaluates Infrastructure Engineer candidates
 
-- **Curated algorithm lists.** Dynamic programming and puzzle drilling barely appear. Parsers, stream windows, locks, and version stores do, so practice writing running systems code under a timer.
-- **Cloud service trivia.** No reported infrastructure round asked about specific managed products. The questions were about replication, quorums, idempotency, and leader election in the abstract.
-- **Perfect library knowledge.** Candidates picked their own primitives (a reentrant lock with a condition, deques for a window) and were graded on correctness and reasoning, not API recall.
-- **Exhaustive test suites.** Interviewers wanted the smallest breaking cases run aloud, not a full harness.
+There is no central hiring committee. Interviewers submit feedback, and the hiring manager and recruiter decide, sometimes after a late senior interviewer meets candidates trending toward hire. The team sets the target level before the loop, and a mismatch can sink sound technical rounds.
 
-## The Real Filter
+Decisions typically take one to three weeks. One rejection appeared in the portal about four business days before the email, and a manager no-show stalled another loop for weeks. There is no published cooldown; candidates have been told three to twelve months for the same team, while other teams sometimes interview sooner.
 
-**Concurrency under a short clock.** The executor, lock, and hashmap rounds all assume you can write correct synchronization quickly. Candidates misjudge this because the problems sound like design discussions, but they are graded as working code with shutdown, fairness, and caps handled. Rehearse a keyed executor, a type-exclusive lock, and a striped-lock map until each takes under 20 minutes.
+> **Tip:** If a round feels off target, ask for calibration mid-round. One candidate realized too late that the interviewer wanted a specific restructuring of the data, not general caching ideas.
 
-**Edge-case state in parsers and streams.** A stop-token round failed on resetting match state after a partial mismatch, even though the overall logic was right. A comment stripper lives or dies on string literals. The core idea is rarely the problem. Test empty input, a token at position zero, and a token split exactly at a boundary before you are asked.
+## How to prepare for the Microsoft Infrastructure Engineer interview
 
-**A dense day with thin logistics.** One candidate was told all rounds had to fit in one day and described some interviewers as underprepared and the transitions as rushed. Open every round by asking what the interviewer wants to see and how the time should split.
+1. **Drill concurrency primitives to 20 minutes:** A keyed bounded executor, a type-exclusive lock, a striped-lock hashmap and a thread-safe LRU cache, with shutdown and fairness handled.
+2. **Build state-machine parsers:** C++ comment stripping, CSV with quoted and escaped fields, and a WHERE evaluator, tested on boundary inputs first.
+3. **Practice streaming problems:** Fixed windows, tokens split across streams and bitmap sorting of bounded integers.
+4. **Prepare each follow-up dimension:** Know the concurrent, persistent and distributed version of every structure and the guarantee each weakens.
+5. **Know one distributed log and one replicated store deeply:** Leader election, in-sync replicas, quorums, rebalancing and exactly-once delivery.
+6. **Compress your resume:** Two minutes per project with decisions and numbers.
+7. **Rehearse both AI modes:** Extend a repository with an assistant, then write runnable code without one.
 
-## Data Source
+## About the Microsoft Infrastructure Engineer role
 
-Based on 56 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Infrastructure engineers build and operate the platform layers under Azure and Microsoft's AI products: storage, compute control planes, networking, hardware onboarding and GPU clusters. Storage and compute teams work largely in C and C++, with C# common in control planes.
 
-## FAQ
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| 59–60 (Software Engineer) | Well-scoped features and fixes with guidance | A component of one service |
+| 61–62 (Software Engineer II) | Components owned through design, delivery and on-call | A team's service |
+| 63–64 (Senior Software Engineer) | Architecture, reliability and mentoring | Several services and neighboring teams |
+| 65–67 (Principal Software Engineer) | Technical direction for a platform area | An organization's systems |
 
-**What is it like to work at Microsoft as an Infrastructure Engineer?**
+Microsoft hires Infrastructure Engineers across several groups. Teams include:
 
-The reports cover hiring, not the job. As context, platform teams sit close to production (storage, scheduling, serving paths) and on-call duty comes with that. Interviewers volunteered that charters shift often. Teams tied to AI infrastructure are described as running at a faster tempo than the rest of the company.
+- **Azure Compute:** Control plane and lifecycle management for virtual machines, scale sets, images and serverless containers.
+- **Azure Storage:** Blob, disk and file services, their control plane and a hyperscale distributed file system.
+- **Azure networking:** Network virtualization beneath compute and storage.
+- **Azure hardware onboarding:** Validating and tracking datacenter hardware from arrival to disposal.
+- **AI infrastructure:** Storage and accelerated-compute platforms for large-scale model training and inference.
 
-**What is the engineering culture like?**
+### Infrastructure Engineer experience and education requirements
 
-Implementation-first. Interviewers hand you code to review for races, ask how you debug and handle errors, and push on trade-offs rather than one right answer. Collaboration is often good, but interviewer preparation varies.
+Postings typically ask for a bachelor's degree in computer science or a related field, or equivalent experience; senior roles ask for about four or more years and principal roles about eight. Common languages are C, C++, C#, Java and Python. Storage and compute roles prefer C or C++ with multithreading and distributed-systems experience, and some ask for Azure or networking background.
 
-**How hard is it to get in?**
+## FAQs about the Microsoft Infrastructure Engineer interview
 
-Hard in a specific way. Algorithm content is modest, but you must write correct concurrent and storage code fast and then defend it at scale. Returning candidates describe a higher bar than a couple of years ago, and team-by-team hiring after several rounds of layoffs means good loops can still end without an offer.
+### How long does the Microsoft Infrastructure Engineer interview process take?
 
-**Which round is hardest?**
+Typically four to ten weeks. Onsite rounds are often packed into one day, and a decision usually follows in one to three weeks.
 
-The systems-implementation round with concurrency follow-ups, because design, coding, and testing are compressed into one sitting. The distributed-log or payment design round is a close second for candidates who have not run such systems.
+### What is the hardest round of the Microsoft Infrastructure Engineer interview?
+
+The concurrency round, whether it arrives as a screen or onsite, because designing, writing and testing synchronization code is compressed into 25 to 45 minutes. The partitioned-log or payment design round is a close second for candidates who have not run such systems.
+
+### Is there an online assessment?
+
+Only in some pipelines, mostly early-career: two auto-graded problems in about 90 minutes. Experienced candidates usually start with a live screen.
+
+### Can you use AI tools during the interview?
+
+Only where a round explicitly allows it. Some loops pair an AI-assisted round with an AI-off round, and assistant use during a proctored assessment is detectable.
+
+### How much does a Microsoft Infrastructure Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **Level 59:** ~$160K
+- **Level 61:** ~$185K
+- **Level 62:** ~$210K
+- **Level 63:** ~$250K
+- **Level 64:** ~$275K
+- **Level 65:** ~$315K
+
+Packages combine base salary, an annual bonus and stock awards vesting over several years, and vary by location.
 
 ---
 

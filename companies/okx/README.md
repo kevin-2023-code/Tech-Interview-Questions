@@ -10,13 +10,39 @@ How OKX interviews, and the questions candidates reported there. Free questions 
 | :-- | :-- |
 | Questions reported | [5](../okx.md) |
 | Free to read here | 2 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | — |
 
 ## How OKX interviews
 
-No written process guide yet. [The loop, as reported](../okx.md#the-loop-as-reported) counts which round each reported question came from.
+OKX interviews are run by the hiring team, and the bar swings with the team. Some loops are mostly conversations about your past projects with a trivial coding check. Backend and payments loops go deep on exchange infrastructure: cross-region data, reconciliation with payment providers and transactional failure modes. In both, how closely your stack matches the team's weighs more than algorithm performance.
+
+This guide breaks down each stage of the OKX interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 4 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### OKX interview process
+
+<!-- guide-diagram -->
+![OKX interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/okx/process.webp)
+<!-- guide-diagram -->
+
+Each team runs its own process, so the number and depth of rounds vary widely. Reports from 2025 and 2026 describe two shapes. The first is one or two chat-style technical rounds, each a project deep dive followed by a very simple coding exercise. The second is a heavier backend session that combines two system design discussions with two coding problems. Recent accounts typically add a recruiter or HR call at the start and a hiring manager or senior leader round near the end, for about four to six conversations in total.
+
+Graduate hires are posted with a Java and Spring backend stack and a general algorithms bar. For senior candidates, the design and leadership rounds typically carry the decision.
+
+Here's what the interview process can look like:
+
+- **Recruiter or HR screen:** A typically short call on background, motivation and interest in crypto.
+- **Project deep dive:** Often the first 30 minutes of a technical round, testing whether your past work matches the team's stack.
+- **Coding interview:** Anything from a linked-list exercise to two medium problems in about 45 minutes, depending on the team.
+- **System design interview (backend and infrastructure):** Exchange-style problems such as cross-region data movement and payment reconciliation.
+- **Hiring manager and HR rounds:** Open-ended technical and behavioral questions from a team leader, then offer logistics.
+
+> **Tip:** Before the first technical round, find out the team's stack from the posting or the recruiter, and line up a project that used the same tools. One candidate whose coding was trivially easy concluded that matching the team's stack was what the rounds actually tested.
+
+**[Read the full OKX interview process →](interview-process.md)**
 
 ## Free OKX questions
 

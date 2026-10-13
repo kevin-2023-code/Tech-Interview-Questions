@@ -16,19 +16,33 @@ How SoFi interviews, and the questions candidates reported there. Free questions
 
 ## How SoFi interviews
 
-This guide goes deeper than the process outline on the company page: what each SoFi round actually probes, how screens are graded, and where candidates lose offers. It draws on 13 real SoFi questions and 22 candidate interview reports spanning backend, full-stack, and frontend loops, from phone screen through hiring-manager round.
+SoFi often outsources its first technical screen to Karat: a scripted hour with a rapid concept block, then a multi-part coding problem checked against hidden tests. Some candidates now get an AI-assisted version built on an existing codebase. After that, the loop is practical. Coding prompts are product-shaped, and design prompts follow the hiring team's domain, such as loan withdrawals or market-price broadcasts. Backend applicants are sometimes routed into full-stack loops with frontend work, and rejected candidates repeatedly report that encouraging feedback during a round did not mean a pass.
 
-### Interview Process
+This guide breaks down each stage of the SoFi interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 22 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### SoFi interview process
 
 <!-- guide-diagram -->
 ![SoFi interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/sofi/process.webp)
 <!-- guide-diagram -->
 
-**1. Recruiter and hiring-manager conversations.** The recruiter call covers background, team matching, and logistics; candidates report being matched to a department (lending, invest, platform) before the technical assessment is scheduled, and backend applicants are sometimes routed into full-stack loops automatically, so state your preference early. A hiring-manager conversation may come before or after the technical screen. End to end, the process typically runs four to eight weeks, and movement between stages can be fast — one candidate heard back the day after the technical screen. Note that a rejection carries a six-month cooldown before reapplying.
+The loop depends on the team. The recruiter matches candidates to a department (lending, invest, money or platform) before the technical screen, and that team sets the domain of later prompts. Reported loops ran one to five rounds. The most common shape was a recruiter call, one or two technical screens, and a virtual onsite of three or four sessions. One loop ran over two consecutive days, and one onsite was in person at a whiteboard. The process usually takes one to two months.
 
-**2. Technical screen, frequently administered through Karat.** This is the most distinctive stage. The 60-minute session opens with a rapid Q&A block — high-level system design questions and short conceptual checks — before moving into coding, and some sessions run fully scripted with no free-form interviewer interaction. Coding prompts sit at medium difficulty but come wrapped in product scenarios: counting complete vehicle journeys from time-ordered sensor logs, extracting the second most frequent tag from a flattened id/name/tag stream with explicit tie-breaking rules, graph reachability, text-justification variants with input preprocessing, and pagination that must preserve source order. Problems often hide several sub-questions behind one statement, and submissions run against hidden test cases — candidates have failed on tie handling and short-input edge cases they never discussed. Full-stack screens add a JavaScript fundamentals block (lockfile purpose, closure output prediction, async error handling, debugging a function against failing tests). Some candidates instead receive an online assessment: three coding problems (string frequency, greedy prefix-sum rearrangement, set-bit counting) plus multiple-choice conceptual questions.
+Early-career candidates more often start with an online assessment. Senior and Staff loops add domain-specific design, deeper project dives and, for backend roles, Java internals. Frontend and full-stack loops swap part of the algorithm work for HTML, CSS, vanilla JavaScript and React builds.
 
-**3. Onsite coding rounds.** The virtual onsite typically runs three to five rounds, most commonly four. Coding here shifts toward object-oriented implementation and practicality: designing an abstract class with two concrete subclasses and validating string output, backtracking on arrays, deduplication with tag filtering and pagination, and game simulations that start brute-force and get pushed toward a greedy optimum. Backend rounds probe Java specifics — garbage collection, thread-safe singletons, concurrency control with semaphores — even when the posting lists Kotlin. One candidate was allowed to search for algorithm templates online but explicitly barred from AI tools; interviewers will flag typos but expect you to find your own logic errors.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A non-technical call on background, team matching and logistics.
+- **Online assessment (some candidates):** Three algorithm problems with multiple-choice questions, or two small frontend builds for UI roles.
+- **Technical phone screen (one or two):** 45–60 minutes, often run by Karat, with short concept or behavioral questions and then a multi-part coding problem.
+- **Coding interviews:** One or two onsite rounds of practical algorithms, object-oriented implementation or UI builds.
+- **System design interview:** A domain-flavored design round graded on depth: failure handling, back-pressure and data modeling.
+- **AI-assisted coding interview (some loops):** Extending a partly built application with an AI assistant while explaining your choices.
+- **Hiring manager interview:** A project deep dive and behavioral questions, sometimes with a coding task.
+
+> **Tip:** Ask the recruiter which team you are matched to and whether the loop is backend or full-stack, then prepare for every format anyway. One candidate was told the second round would be system design and got a second coding round instead.
 
 **[Read the full SoFi interview process →](interview-process.md)**
 

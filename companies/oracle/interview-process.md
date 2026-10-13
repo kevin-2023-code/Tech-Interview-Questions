@@ -6,72 +6,283 @@
 
 ---
 
-Oracle's interview loop changes shape more from team to team than almost any comparable employer: a database or applications org, an OCI infrastructure team, and an AI/ML group can run visibly different processes under the same recruiting banner. This guide goes beyond the outline on the company page and into what actually happens inside each stage — round counts, question styles, grading signals, and timelines — grounded in 20 real Oracle questions and 30 candidate interview reports.
+Oracle's loop is set by the hiring organization, not a central template, and candidates often learn what a round covers only when it starts: rounds billed as system design became resume reviews, and rounds billed as coding opened with design. Behavioral weight is unusually high, with one or two fully behavioral hours on top of questions folded into most coding rounds. The coding bar is moderate, mostly easy to medium classics with a twist, but one missed edge case or timeout ends many solid loops. Cloud infrastructure (OCI) teams also weigh background fit, and candidates without networking, virtualization or operations experience report rejections after rounds they thought they had passed.
 
-## Interview Process
+This guide breaks down each stage of the Oracle interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 45 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Oracle interview process
 
 <!-- guide-diagram -->
 ![Oracle interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/oracle/process.webp)
 <!-- guide-diagram -->
 
-**Screening and online assessments.** After recruiter contact, early-career and some experienced candidates get a HackerRank assessment before speaking to an engineer. Two distinct OA styles show up: a single algorithm problem with hidden tests and strict time limits, where a naive quadratic solution times out and one timed-out case means automatic rejection; and a small implementation task on top of a provided code skeleton, such as adding folder and file operations to an existing hashmap-backed structure. Candidates who lost time to the HackerRank interface itself — input parsing, output format, the in-browser debugger — say that friction hurt as much as the problem did, so rehearse on the exact platform beforehand.
+OCI, the database group, Fusion applications, Oracle Health and the AI groups run visibly different loops. The common skeleton is a recruiter call, sometimes a HackerRank assessment, one or two technical screens of 45 to 60 minutes, and a virtual onsite of four to six rounds of 45 to 60 minutes, sometimes split over two days.
 
-**The technical phone screen.** The screen is typically a 45–60 minute call with a fairly predictable anatomy: a few minutes of small talk, a resume walk that can consume a full 30 minutes, one coding exercise, and time for your questions. Interviewers dig into individual contribution, design trade-offs, and scalability decisions on past projects before any code is written, and senior candidates get proportionally more of this. The coding portion sits at easy-to-medium: binary search for a rightmost occurrence, decoding a nested `k[encoded]` string, validating a poker straight with the ace counting high or low, Container With Most Water, or parsing multi-line log entries with format validation. Some screens compress behavioral questions, a mini design discussion, and coding into a single call, so do not assume a "phone screen" means algorithms only. The environment varies — HackerRank, a shared editor, or your own IDE over screen share.
+Early-career and IC2 or IC3 candidates face more coding plus Java and SQL fundamentals. IC4 (Principal Member of Technical Staff) loops add one or two design rounds, a deeper resume review, and often a director round and an independent interviewer from another team. AI and ML roles swap much of the algorithm work for ML theory and implementation questions.
 
-**The onsite loop.** Full loops typically run 4–6 rounds of about an hour each, and OCI generalist loops follow the cloud-provider pattern: roughly two coding rounds, a system design round, and one or more behavioral rounds. Coding stays at LeetCode medium or below — LRU cache, Course Schedule II, N-ary tree comparison, heap-based array minimization — with interviewers asking for complexity analysis in nearly every round and sometimes an iterative rewrite of a recursive solution. Database and applications teams add a Java fundamentals segment (abstract class versus interface, HashMap collision handling, collections internals) and occasionally a live MySQL query; infrastructure teams probe operating-system and networking depth, such as steering incoming packets across CPU cores. Expect at least one round that is entirely behavioral, sometimes eight to ten questions deep.
+Here's what the interview process can look like:
 
-**Object-oriented design and practical-engineering rounds.** OOD carries unusual weight at Oracle relative to peer companies. Reported prompts include modeling patients and treatment schedules with recurrence rules, designing a file-management system and then identifying which operations need synchronization under concurrency, and building trie-based autocomplete with a frequency-ranking follow-up. Interviewers grade responsibility boundaries, extensibility when a requirement is added mid-round, and whether your invariants survive the follow-up. Some loops swap a puzzle for practical work: reading an unfamiliar codebase to find missing features, implementing a command-line tool against a spec, applying operation sequences with the command pattern, or a timed 20-minute code review of an existing snippet.
+- **Recruiter screen:** A short call on background, level and logistics, sometimes with a preview of each round.
+- **Online assessment (early career and some experienced roles):** A timed HackerRank algorithm problem with hidden tests, or an implementation task in a provided code stub.
+- **Technical phone screen (one or two):** 45 to 60 minutes of resume deep dive, behavioral questions and one easy to medium problem.
+- **Coding interviews (two to four):** One or two problems per round with complexity analysis, usually with behavioral questions attached.
+- **System design interview (most experienced roles):** Operational, cloud-scale prompts, or a walkthrough of a system you built.
+- **Object-oriented design interview (many teams):** Classes or a small data structure from scratch, then a concurrency or extension follow-up.
+- **Behavioral, hiring manager and Bartender rounds:** Fully behavioral hours with team members, the manager, a director, or an interviewer from another team.
 
-**System design.** Reported prompts skew toward cloud-scale operational systems: a rate limiter, a ride-hailing service, monitoring one million VMs with ping and heartbeat under a five-minute collection cycle, a file-system virus scanner, a job scheduler with recurring and delayed jobs, and a video upload platform with speech-to-text and LLM-based semantic search. A recurring twist is that the "design round" becomes a deep walkthrough of a system you personally built, with probing on trade-offs and what you would change now. Candidates who failed this round usually cite pacing: spending too long on the high-level diagram, then rushing capacity estimates and failure modes when the interviewer explicitly asked for them. Budget the first 10–15 minutes for requirements and back-of-the-envelope math, and drive the conversation yourself.
+> **Tip:** Treat every round as possibly mixed. Candidates who prepared only for the advertised topic were caught out most often; those who did well brought a coding warm-up, a system they could diagram and three short stories to every hour.
 
-**Hiring-manager close and decision.** Later stages are conversational — a hiring-manager chat about team fit, sometimes a director-level call covering industry trends and your intent to accept. Decision timelines are wildly inconsistent: one candidate received an offer 20 minutes after a phone screen, another two business days after the final round, while a third heard nothing for four months before a rejection. Down-leveling between application and offer also happens, so confirm the level and its flexibility with the recruiter early, and set explicit follow-up checkpoints rather than waiting in silence.
+## Recruiter screen
 
-## What Candidates Report
+Candidates come in through cold applications, referrals and recruiter outreach; one cold applicant heard back the next day and reached the onsite two weeks later. The call covers background, level, location and the rounds ahead. Quality varies: one recruiter sent each round's topic and each interviewer's profile in advance, while other candidates waited weeks without updates.
 
-- Behavioral evaluation is heavier than the technical bar suggests: some loops dedicate one or two full rounds to it, and two themes — cross-team collaboration and working beyond your defined scope — recur in nearly every behavioral segment of certain loops.
-- The coding bar is moderate but unforgiving on edge cases. Candidates were sunk by unhandled cycles in a topological sort, a missed all-zeros case causing a timeout, and off-by-one errors in binary search boundaries — a single oversight can cost the offer.
-- Resume deep-dives are substantive, not filler: interviewers, many with 15+ years at the company, allocate real time to architecture decisions and personal ownership, and the tone is pragmatic rather than adversarial.
-- Problem statements can be vague or evolve mid-round. Candidates who paused to propose a concrete test case and force alignment on requirements recovered; those who kept coding against assumptions reworked their solutions repeatedly.
-- Process quality varies by team: one recruiter shared each round's topics and the interviewer's profile in advance, while other candidates dealt with late interviewers, rescheduling, or ghosting after seemingly positive rounds.
+Interviewers evaluate:
 
-## Coding Questions
+- **Level fit:** The scope of your recent work, which sets the target IC level.
+- **Domain match:** Infrastructure, database, applications or AI experience that fits the hiring organization.
+- **Location flexibility:** Two candidates who missed IC4 were offered IC3 only with relocation or when a role opened.
 
-Oracle coding rounds favor clean implementations of familiar patterns with robustness follow-ups — duplicate handling, malformed records, cycles, and performance limits on large inputs — over algorithmic tricks. These questions come directly from Oracle interviews:
+Ask which organization owns the role and what each round covers, then prepare for every format anyway.
 
-- [Merge K Sorted (Key, Value) Lists with Later Override](https://trueinterview.io/questions/merge-k-sorted-key-value-lists)
-- [Decode String (k[encoded])](https://trueinterview.io/questions/decode-string-lc394)
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and why you are leaving your current role.
+- Why Oracle, and are you open to relocating?
+
+## Online assessment
+
+The assessment runs on HackerRank in two styles. One is a single algorithm problem with large hidden tests: an anagram-replacement task ran over phrases of about 10,000 characters and dictionaries of 100,000 words, and a quadratic solution timed out. The other is an implementation task in a provided skeleton, such as adding folder and file operations to a hashmap-backed structure, or fetching paginated JSON records from a REST endpoint and filtering them. A 2026 version of the REST task required working without AI assistance, and one candidate withdrew over it.
+
+Interviewers evaluate:
+
+- **Every hidden test:** One timed-out case was reported as an automatic rejection.
+- **Exact reading:** A missed "lexicographically smallest" detail failed several hidden cases.
+- **Preprocessing:** Grouping a dictionary by sorted-letter signature once rather than comparing words pairwise.
+- **Practical I/O:** Pagination loops, date parsing and sentinel return values for empty results.
+
+Rehearse two or three timed problems on HackerRank itself; candidates lost real time to its input format and debugger.
+
+> **Note:** The REST task's filter condition contradicted its own parameter description. When wording conflicts, follow the sample output and note the assumption in a comment.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Replace each word in a phrase with the lexicographically smallest anagram from a dictionary, if one exists.
+- Fetch all pages of patient records and return sorted IDs whose age at record creation falls in a range and whose blood-pressure difference exceeds a threshold.
+
 - [Anagram Word Replacement in Phrases](https://trueinterview.io/questions/anagram-phrase-replacement)
+- [Find Users with Valid Login Sessions](https://trueinterview.io/questions/a780c95b-69ec-4029-b04a-55101695e5d1)
 
-## System Design Questions
+## Technical phone screen
 
-Design prompts lean operational and cloud-scale, reflecting OCI's influence: storage, ingestion pipelines, async workers, and monitoring at scale. Capacity estimation is asked for explicitly, so practice doing the math out loud.
+The screen is usually 45 to 60 minutes with an engineer from the hiring team, on HackerRank, a shared editor, or your own IDE over screen share. A typical split is 15 to 30 minutes of resume questions and one coding problem, though some calls add a short design question or a timed 20-minute code review.
 
-- [Design Dropbox](../../questions/system-design/design-dropbox/README.md)
-- [System Design — Video Upload + Search with LLM](https://trueinterview.io/questions/system-design-video-upload-search)
+Problems are easy to medium with a twist: a rightmost duplicate by binary search, a nested `k[encoded]` decoder, a poker straight where the ace is high or low, and k sorted key-value lists merged so later lists override earlier ones. Follow-ups change the input, as when zero-the-matrix moved to jagged rows and then a generic type with `'z'` as the zero marker. OCI screens may probe Linux internals such as steering packets across CPU cores; AI roles get bias and variance, LLM evaluation, and multi-head attention or sparse matrix multiplication explained step by step.
 
-## Low-Level Design Questions
+Interviewers evaluate:
 
-Object-oriented and data-structure design is a distinct Oracle round, not an afterthought. Prompts start with a small API and then add concurrency, expiration, or strict performance bounds — state your invariants and explain why each structure owns its state.
+- **Resume ownership:** Architecture, trade-offs and your own contribution, before any code is written.
+- **Clarifying first:** Asking what counts as a continuation line, an invalid level or an empty line before writing a log parser.
+- **Boundary handling:** Off-by-one errors in binary search and empty or two-element inputs, dry-run unprompted.
+- **Explaining the mechanism:** Tracing a heap merge on a small example when the interviewer does not follow it at first.
 
+Practice medium problems in 20 to 25 minutes in a plain editor, then answer one changed-input variant aloud.
+
+> **Note:** Outcomes can be fast. One candidate had an offer 20 minutes after a single screen; another got an offer after one screen, but one level below the role applied for.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Convert raw log lines, some spanning several lines, into one formatted entry each, dropping lines with an invalid timestamp or level.
+- Merge k lists of sorted key-value pairs into unique keys, with later lists overriding earlier ones.
+- Implement a token service with generate, renew and a count of unexpired tokens at a given time.
+
+- [Log Parser with Multi-Line Follow-up](../../questions/algorithm/log-parser-multiline/README.md)
+- [Merge K Sorted (Key, Value) Lists with Later Override](https://trueinterview.io/questions/merge-k-sorted-key-value-lists)
+- [Poker Straight Sequence Check](https://trueinterview.io/questions/valid-poker-straight)
+- [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul)
+
+## Coding interviews
+
+Loops include two to four coding rounds with one or two easy to medium problems each. Recurring families are grid traversal (islands with heights, or the largest island), topological sort (course order, package deployment), LRU caches with expiration, N-ary tree comparison, linked-list surgery and heaps. Accounts Merge was the hardest reported problem, and one candidate passed after finishing about 90 percent of it.
+
+Complexity is asked in nearly every round, sometimes with an iterative rewrite of a recursive solution. Some rounds require the code to run against supplied or self-written tests; others never execute it. Database and applications teams add Java fundamentals (abstract class versus interface, HashMap collisions, the string pool) and occasionally a live SQL query.
+
+Interviewers evaluate:
+
+- **Edge-case discipline:** A heap solution for halving the largest value k times timed out because it did not stop once the maximum hit zero.
+- **Language fluency:** Library calls such as a ceiling function from memory; one interviewer refused a mid-round language switch.
+- **Adapting a classic:** Rule changes such as house robbing where neither neighbor may be taken, or islands returned as coordinate sets.
+- **Working under drift:** Statements that arrive vague or change mid-round, sometimes through chat after coding has begun.
+
+Drill classic mediums with one twist each, and state complexity before you are asked.
+
+> **Tip:** When a prompt is vague, walk a concrete test case aloud before coding. Candidates who did this aligned in a minute; those who coded against assumptions rewrote their solutions repeatedly and ran out of time.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Find every island in a grid of heights and report each island's maximum height.
+- Replace nodes i through j of one linked list with an entire second list, and pass the interviewer's tests.
+- Count dropped requests from sorted timestamps under limits of 3 per second, 20 per 10 seconds and 60 per minute, where dropped requests still count.
+
+- [Maximum Height of Each Island](https://trueinterview.io/questions/712ca994-03d3-589e-9d9b-9ea213f907da)
+- [Replace a Range of Nodes in a Linked List](https://trueinterview.io/questions/3ff8e86f-0abd-5967-bf35-5f1aac1c42e6)
+- [Deploy Packages in Dependency Order](https://trueinterview.io/questions/610c4faf-c13d-5349-80df-fc912257f0c4)
+- [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721)
+- [Dropped Requests Rate Limiter II](https://trueinterview.io/questions/3cf3a0aa-2d80-5652-bb0d-975c8f3fd6ec)
+- [Rank Departments by Student Count](https://trueinterview.io/questions/rank-departments-by-student-count)
+
+## System design interview
+
+Experienced candidates get one or two design rounds, sometimes run by the hiring manager or a tech lead. OCI prompts are operational: monitor a million VMs with ping and heartbeat inside a five-minute cycle, trigger repairs from GPU health across 100,000 hosts, a software load balancer with health checks, or metrics ingestion. General prompts include a rate limiter, ride hailing, video upload with speech-to-text and LLM search, and a healthcare ingestion pipeline. Several rounds then ask for code, such as the core of a sliding-window top-K counter or of a five-minute error-log aggregator.
+
+Other rounds replace the prompt with a walkthrough of a system you built, probing trade-offs and what you would change. Candidates who failed usually ran out of time, spending too long on the diagram and rushing estimates the interviewer had asked for.
+
+Interviewers evaluate:
+
+- **Estimates first:** Storage, throughput and latency numbers in the first 10 to 15 minutes, with the design following from them.
+- **Failure handling:** A failed repair workflow, a silent heartbeat, or a worker crashing partway through.
+- **Push versus pull:** Where each monitoring model's bottleneck sits at a million nodes.
+- **Domain depth:** Admitted unfamiliarity with video encoding or GPU signals cost credibility, and one candidate saw it as decisive.
+
+Practice two infrastructure-monitoring designs end to end, including the counting code at their core.
+
+> **Note:** Previews of this round are unreliable. A director round billed as 60 minutes of design had no design question and ended in under 45 minutes, and another design round closed with 13 minutes of troubleshooting a failing frontend from a client-server diagram.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Collect health status from one million VMs within five minutes when each heartbeat fires every ten seconds, and compare ping with heartbeat.
+- Trigger repair from GPU health across 100,000 hosts when pinging a host only reaches its CPU.
+
+- [VM Health Monitoring at 1M Scale](https://trueinterview.io/questions/system-design-vm-health-monitoring)
+- [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair)
+- [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service)
+- [Video Upload + Search with LLM](https://trueinterview.io/questions/system-design-video-upload-search)
+
+## Object-oriented design interview
+
+Object-oriented and data-structure design carries more weight at Oracle than at most peers and can appear in a screen, an onsite round or the independent interviewer's hour. Healthcare prompts recur on some teams: patient categories, temperature classes with unit and fever threshold, and a treatment scheduler that expands daily, weekly and monthly rules into a date range. Infrastructure teams ask for strict bounds instead: an O(1) tracker of the earliest user who logged in exactly once, a Redis-like store with expiry, or active-passive hashmap replication that fails writes when synchronous replication fails.
+
+Follow-ups add a requirement mid-round: frequency ranking for trie autocomplete, expiration for an LRU cache, or which file-system operations need locking once threads appear. Execution is often not required, but the interfaces must be written out.
+
+Interviewers evaluate:
+
+- **Responsibility boundaries:** Which class owns each piece of state, such as a recurrence rule kept apart from the scheduler.
+- **Invariants under change:** The single-login list head stays correct after a second login.
+- **Concurrency precision:** Shared resources and lock granularity, such as two threads creating the same missing directory.
+- **Trade-off stance:** Arguing for an exception or for `mkdir -p` creation when a path's parents are missing.
+
+Model two small domains in classes, then practice absorbing a new requirement without restarting.
+
+### Sample questions for the object-oriented design interview
+
+Here are some questions reported by recent candidates:
+
+- Model treatments with daily, weekly and monthly frequencies and list every instance in a date range.
+- Design a logger that passes each message through handlers, including one that truncates and one that stores messages.
+- Replicate a hashmap from one writer to one reader so each write replicates synchronously or fails.
+
+- [Treatment Frequency Scheduler](../../questions/object-oriented-programming/ood-treatment-scheduler/README.md)
 - [First-Login Only-Once User Tracker (O(1) Worst-Case)](https://trueinterview.io/questions/first-unique-login-tracker)
-- [OOD — File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md)
+- [File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md)
+- [Design a Synchronously Replicated Hash Map](https://trueinterview.io/questions/design-a-synchronously-replicated-hash-map)
+- [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration)
 
-## Behavioral Questions
+## Behavioral, hiring manager and Bartender rounds
 
-Behavioral rounds probe cross-team collaboration, conflict, delegation, mentoring, and ownership beyond formal scope, and verbal fundamentals quizzes can appear inside otherwise behavioral conversations.
+Most onsites include one to three fully behavioral hours; one ran about ten questions and another eight or nine with no technical content. Cross-team collaboration and work beyond your defined scope recur in nearly every segment of some loops, alongside missed deadlines, conflict, feedback, mentoring, delegation, on-call incidents and how you use AI day to day.
+
+Hiring-manager rounds review the resume, on-call handling and the team's business, and some loops add operational scenarios such as a failed data-center camera password. Directors ask about industry trends and, once, directly about willingness to accept an offer. The Bartender round is Oracle's independent interviewer from another team who checks the loop, usually behavioral and project-focused, sometimes low-level design.
+
+Interviewers evaluate:
+
+- **Story range:** Several distinct collaboration and beyond-scope stories, since later rounds repeat the themes.
+- **Concrete conflict:** One hiring manager rejected a general conflict process and pushed for a real incident.
+- **Concision:** Tight two-minute stories leave room for follow-ups; a candidate who rambled felt it cost them.
+- **Ownership with metrics:** Customer impact, failures you owned and post-mortems you drove.
+
+Write eight to ten stories, map at least two each to collaboration and beyond-scope ownership, and add one about AI use.
+
+### Sample questions for the behavioral, hiring manager and Bartender rounds
+
+Here are some questions reported by recent candidates:
+
+- Describe a time you delegated work: how you chose the person, followed up, and what resulted.
+- How do you prioritize a bug fix against a new feature that takes the same time?
+- How would you respond within an hour, a day and a week to a security-camera password failure in a data center?
 
 - [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/questions/behavioral-bq-bar-raiser)
-- [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/questions/verbal-java-cs-fundamentals)
+- [Data-Center Camera Access Incident Response](https://trueinterview.io/questions/data-center-camera-access-incident-response)
+- [Prioritize Two Critical Tasks](https://trueinterview.io/questions/prioritize-two-critical-tasks)
+- [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive)
 
-## How to Prepare
+## How Oracle makes hiring decisions
 
-- Rehearse on HackerRank specifically — timed, with hidden-test discipline — until the I/O mechanics and debugger are muscle memory; several candidates lost rounds to the platform, not the problem.
-- Build a two-layer story for every resume project: a two-minute summary plus a deep layer covering architecture, alternatives rejected, failure modes, and your measurable individual contribution — 30 minutes of a screen can go here.
-- Drill boundary-condition variants of classics: rightmost/leftmost binary search, topological sort with explicit cycle semantics, cache eviction with expiration follow-ups, and stack-based string decoding with multi-digit counts.
-- Prepare a dedicated OOD rep: model a small domain (scheduling, files, tracking) in classes, then practice absorbing a mid-exercise requirement change and a concurrency follow-up without restarting.
-- For design, practice a strict time budget — requirements and estimates in the first 15 minutes — and prepare to present one of your own past systems as if it were the design prompt.
-- Write six to eight STAR stories and map at least two each to cross-team collaboration and beyond-scope ownership; those two themes repeat across rounds within the same loop.
-- Ask the recruiter which organization owns the role and calibrate: Java/SQL depth for database and applications teams, OS/networking and distributed-systems depth for OCI infrastructure teams.
+Each interviewer's feedback goes to the hiring team, and the Bartender checks the loop's consistency from outside it. Candidates who passed most rounds still report rejections tied to one weak round or to background fit. Level is set before the loop, and a candidate who misses it may be offered one level lower if headcount exists. Decisions arrive from the same day (one candidate heard positive feedback and a relocation question within two hours) to more than four months later.
+
+> **Tip:** Set follow-up checkpoints with the recruiter at the end of the onsite. Candidates who waited in silence reported the longest gaps.
+
+## How to prepare for the Oracle interview
+
+1. **Confirm the organization:** OCI loops lean toward distributed systems and operations; database and applications loops add Java and SQL.
+2. **Rehearse on HackerRank:** Pass hidden tests with an optimal solution, since one timeout can end the process.
+3. **Build two layers per project:** A two-minute summary plus architecture, rejected alternatives, failure modes and your own contribution.
+4. **Drill classics with one twist:** Rightmost binary search, topological sort with cycles, islands with sizes or heights, LRU with expiry.
+5. **Prepare a data-structure design rep:** Build an O(1) tracker or TTL cache from scratch, then add locking.
+6. **Practice operational design with estimates:** Monitoring, repair and ingestion systems, numbers first and core code last.
+7. **Expect the preview to be wrong:** Bring coding, design and behavioral answers to every round.
+
+## About working at Oracle
+
+Oracle builds the Oracle Database, enterprise applications and Oracle Cloud Infrastructure, which is the main hiring engine behind large AI and data-center commitments. In 2026 the company also cut thousands of roles while redirecting spending to AI infrastructure. Engineers sit on an IC ladder mapped to Member of Technical Staff titles, and panels often include engineers with 10 to 15 or more years at the company.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC1 (Software Developer) | Well-defined tasks with close guidance | Components within one team |
+| IC2 (Member of Technical Staff) | Delivering features independently | One team's services |
+| IC3 (Senior Member of Technical Staff) | Owning services and their operations | A team's systems |
+| IC4 (Principal Member of Technical Staff) | Leading designs across services and mentoring | Several teams |
+| IC5 (Consulting Member of Technical Staff) | Technical direction and design review | An organization |
+
+Oracle hires engineers across its cloud, database and applications businesses. Teams include:
+
+- **Oracle Cloud Infrastructure:** Compute, networking, storage and GPU clusters.
+- **Database:** Oracle Database, Autonomous Database and MySQL.
+- **Fusion Cloud Applications:** ERP, HCM and supply-chain software.
+- **Oracle Health:** Electronic health records and healthcare data platforms.
+- **AI and data science groups:** Generative-AI services and agent tooling on OCI.
+
+### Experience and education requirements
+
+Postings typically ask for a bachelor's or master's degree in computer science or equivalent experience. Senior OCI postings ask for about three to six years with large-scale distributed services, depending on level. Java is the most commonly named language, with Go, Python and C++ also common on OCI teams; operating-system, networking or virtualization depth helps on infrastructure teams.
+
+## FAQs about the Oracle interview
+
+### How long does the Oracle interview process take?
+
+A fast loop runs three to four weeks from application to decision. After the onsite, decisions take from minutes to several months, and the longest reported gap was about four months of silence before a rejection.
+
+### What is the hardest round of the Oracle interview?
+
+Candidates most often name system design, especially operational prompts outside their domain, followed by behavioral rounds that repeat the same themes with deep follow-ups.
+
+### Can you get down-leveled?
+
+Yes. Candidates who missed IC4 were told they could be considered for IC3, though in two cases only with relocation or when a role opened.
+
+### Is the Oracle interview remote?
+
+Mostly. Onsites ran over Zoom with HackerRank or a shared document, sometimes across two days, and interviewers switched to screen sharing when HackerRank access failed.
 
 ---
 

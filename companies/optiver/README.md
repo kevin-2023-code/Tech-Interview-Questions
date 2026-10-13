@@ -16,21 +16,32 @@ How Optiver interviews, and the questions candidates reported there. Free questi
 
 ## How Optiver interviews
 
-Optiver hires on one conviction: good engineers and good traders both make accurate decisions while a clock is running, and every stage of the loop is built to measure exactly that. This guide goes deeper than the process summary on the company page — into scoring rules, round-by-round formats, and what actually fails people — grounded in 22 real Optiver questions and 87 candidate interview reports.
+Optiver grades speed at every stage, including untimed ones: one software assessment with no deadline still tracked time to submission, and a trading candidate who doubled a virtual bankroll was cut for hesitating. In trading games, interviewers score bet sizing and coachability, not profit. Engineering rounds use rule-heavy simulations with hidden tests and long skeleton codebases with planted bugs. A short closing behavioral call has ended offers after strong technical rounds.
 
-### Interview Process
+This guide breaks down each stage of the Optiver interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 83 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Optiver interview process
 
 <!-- guide-diagram -->
 ![Optiver interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/optiver/process.webp)
 <!-- guide-diagram -->
 
-**Pacing and logistics.** The funnel moves unusually fast. Candidates report receiving the online assessment within a day or two of applying, and an OA verdict — including rejection — can land within 24 hours. The full loop typically runs assessment, recruiter screen, one or two technical phone rounds, then a final block of virtual interviews or an on-site (Chicago is the usual US destination, and recruiters may ask early whether you prefer Chicago or Austin). End to end, successful candidates typically clear the process in a few weeks.
+All tracks share one funnel: an online assessment, a short recruiter call, one to three technical phone rounds, and a virtual or on-site final. The content is track-specific. Traders face probability batteries and live betting games; quantitative researchers add coding, a take-home and a presentation; software engineers get object-oriented simulations, a fundamentals quiz and infrastructure design; FPGA candidates get digital logic and Verilog.
 
-**Online assessment.** The OA is modular, and the modules differ by track. Engineering candidates usually face one substantial object-oriented simulation — a news-feed pub/sub system with rate limits, a satellite message-propagation protocol, a balloon-festival tracker, a capacity-constrained storage system — rather than a string of abstract puzzles, sometimes paired with two shorter problems such as date arithmetic or building and validating a binary tree from edge pairs. Many versions add roughly 20 forward-only multiple-choice questions on CS fundamentals (TCP, scheduling, cache behavior, data-structure trade-offs) and a battery of Zap-N cognitive mini-games. Quant-track assessments swap the simulation for the famous 80-questions-in-8-minutes arithmetic test (scored +1 for a correct answer, -2 for a wrong one, so blind guessing is punished), a probability battery of about 30 questions at roughly 90 seconds each, a 25-question number-sequence section, and the same mini-games. Two details surprise people: several sections forbid backtracking, and at least one OA variant advertises unlimited time while quietly tracking elapsed time to submission — slow, polished solutions have preceded rejections.
+Assessment links arrive within one or two days of applying, rejections can come within 24 hours, and the process usually takes two to four weeks. Intern and graduate pipelines lean hardest on the assessment; experienced engineers more often start with a recruiter, then project-focused phone screens and a half-day final.
 
-**Recruiter screen.** A 20-30 minute behavioral call covering graduation timeline, work authorization, why Optiver, how you found the company, and a project retrospective — what you personally contributed versus the team, where you took initiative, and what you would redo. Answers are expected to be specific and concise; this round also previews the remaining stages.
+Here's what the interview process can look like:
 
-**Technical phone rounds.** For engineers, these are practical rather than puzzle-driven. A recurring format is a deep dive on a deceptively simple structure — design a queue, then defend array versus linked-list versus ring-buffer backing through cache locality, resizing cost, thread safety, and lock-free variants. Others get a live simulation (balloon altitude tracking, order-to-plane cargo allocation) inside a large provided skeleton, where reading unfamiliar code, fixing planted bugs, and extending behavior under new constraints matter as much as the initial solution. Quant phone rounds are rapid-fire probability and betting games; the role guides below cover them in depth.
+- **Online assessment (all tracks):** A modular test of one to three hours covering probability, number logic and cognitive mini-games, plus coding for engineers and researchers.
+- **Recruiter screen:** A 20–30 minute behavioral and logistics call about your timeline, sponsorship, motivation and one project retrospective.
+- **Technical phone interviews:** Rapid probability and betting games for trading tracks, and practical design or simulation coding for engineers.
+- **Trading and betting games (trading and research tracks):** 25–45 minutes of live bet sizing and two-sided market making on dice and cards.
+- **Research take-home and presentation (quantitative research):** A data project in pandas or a regression, followed by a panel discussion of your work.
+- **Final round:** For engineers, low-latency infrastructure design plus extended coding. For traders, more games. Every track ends with a culture conversation.
+
+> **Tip:** Rehearse every stage under a clock that is stricter than the real one. Across tracks, candidates who reached the right answer slowly were rejected more often than those who committed early to a good-enough answer and then refined it.
 
 **[Read the full Optiver interview process →](interview-process.md)**
 

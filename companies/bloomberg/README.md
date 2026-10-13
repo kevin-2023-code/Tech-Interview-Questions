@@ -16,19 +16,32 @@ How Bloomberg interviews, and the questions candidates reported there. Free ques
 
 ## How Bloomberg interviews
 
-This guide is the deep dive behind the short outline on Bloomberg's company page: what each round actually contains, how answers are graded, and where candidates lose offers. It draws on 29 real Bloomberg questions and 23 candidate interview reports, covering everything from new-grad phone screens to senior design loops.
+Bloomberg's loop is coding-first and unusually strict about completion: the common format is two problems in about 40 minutes of coding, and candidates who solved one problem well but left the second as pseudocode were rejected. The second distinctive element is a design-through-code round, where you turn an underspecified object (a trade processor with subscribers, an ordered stream, an O(1) lottery) into working code. "Why Bloomberg" is asked at almost every stage, and the HR and engineering manager conversations at the end are evaluative, not ceremonial.
 
-### Interview Process
+This guide breaks down each stage of the Bloomberg interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 39 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Bloomberg interview process
 
 <!-- guide-diagram -->
 ![Bloomberg interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/bloomberg/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter conversation (30–45 minutes).** More substantive than most companies' logistics calls. New-grad candidates report a fully behavioral 45-minute screen: background, a teamwork story, an initiative story, strengths and weaknesses, visa and timeline, and a serious "why Bloomberg" probe. Experienced candidates occasionally get a different opening round with no code at all — a structured conversation about how they kick off projects, handle mid-project scope doubling, verify requirements, and hand work off. One candidate received an offer-track outcome from exactly that round, so treat it as a real evaluation of ownership and communication, not a formality.
+Hiring runs per team, and a profile can be considered by several teams at once. Two candidates sat parallel pipelines with different teams, each with its own interviewers, pace and outcome. The structure is stable: a recruiter call, one or two technical phone screens, a superday of two or three technical sessions, then an HR conversation and an engineering manager (EM) interview.
 
-2. **Technical phone screen (45–60 minutes, one or two rounds).** Conducted in a shared editor over video, and tightly paced — interviewers frequently skip introductions and present the first problem within minutes. The dominant format is two problems per session, and candidates report that finishing both with working code matters: one account describes a rejection that followed a round where the second problem ended at pseudo-code. Expect either two classic-pattern problems (sliding window plus nested-string decoding, greedy circuit completion plus monotonic stack) or a single design-flavored data-structure problem that fills the whole session, such as O(1) insert/delete/random-access or a frequency tracker with top-K queries. Follow-ups routinely change the contract mid-problem — an arbitrary quota instead of a half split, arbitrary insertion positions, rate-limited data sources, or scaling to billions of events — and several candidates were asked to write their own test cases at the end.
+New grads and interns get coding plus object-oriented design. Experienced candidates add a system design hour, often right after a coding hour, and the EM round may carry design or an unannounced coding problem. Some onsites are split into two days, and a weak first day ends the process before the second is held.
 
-3. **Onsite or virtual superday (two to four sessions, 45–60 minutes each).** Sessions are often scheduled back-to-back or across consecutive days, and feedback can arrive within hours of an individual round. Most sessions open with a brief resume discussion before coding. The problems escalate from the phone screen in two ways. First, familiar patterns pick up extra state: grid BFS with a fuel budget or a wall-breaking allowance, string elimination with cascading removals, a custom alphabet where digraphs sort as single letters. Second, genuine surprises appear — one loop included a contest-style grid DP the candidate had never seen, apparently to test how they handle unfamiliar territory. Candidates report the bar is roughly two fully worked, optimal solutions per session; a strong discussion of the second idea without an implementation reads as incomplete.
+Here's what the interview process can look like:
+
+- **Recruiter screen (30–45 minutes):** Background, motivation, visa and timeline; for some new-grad pipelines a full behavioral interview with STAR stories.
+- **Technical phone screen (one or two, 45–60 minutes):** A few minutes of resume or behavioral questions, then one or two problems coded live in a shared editor over video.
+- **Coding interviews (superday, two or three sessions):** Hour-long rounds with a short resume discussion and two problems each, harder than the screen and often with extra state or a changed rule.
+- **Object-oriented design round:** Design and implement a small class or container from a vague prompt, with strict complexity or API contracts.
+- **System design interview (experienced candidates):** A real-time data system in Bloomberg's domain, such as market-data distribution or streaming aggregation.
+- **HR and engineering manager interviews:** About 30 minutes of HR behavioral and logistics, then a 40–45 minute resume deep dive with the EM.
+
+> **Tip:** Budget each coding hour as two 18–20 minute problems plus testing time. Across the reports, the most common rejection was a second problem left unimplemented, including for candidates who had fully solved a hard first problem.
 
 **[Read the full Bloomberg interview process →](interview-process.md)**
 

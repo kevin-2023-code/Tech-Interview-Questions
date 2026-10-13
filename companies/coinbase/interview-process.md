@@ -8,81 +8,275 @@
 
 ---
 
-Coinbase runs one of the most practical interview loops among major tech employers: nearly every technical stage asks you to ship working code or a workable design against requirements that keep changing. This guide goes deeper than the process outline on the company page, breaking down how each stage is actually graded and paced, backed by 34 real Coinbase questions and 42 candidate interview reports.
+Coinbase screens hard before any engineer joins the call: an AI-led recruiter interview, a long work-style inventory and a speeded cognitive test. After that, nearly every technical round is a build from an empty file where you write the classes, signatures and tests yourself. The final gate is a team, not a committee, and candidates who cleared every round were still turned away when no team at their level had headcount.
 
-## Interview Process
+This guide breaks down each stage of the Coinbase interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 45 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Coinbase interview process
 
 <!-- guide-diagram -->
 ![Coinbase interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/coinbase/process.webp)
 <!-- guide-diagram -->
 
-Before you meet a human engineer, expect an automated screening layer that has expanded significantly since 2025. Candidates describe an AI-led recruiter conversation of roughly fifteen minutes, a long work-style inventory (one report counted around 200 items probing collaboration, autonomy, and appetite for hard work), and a timed cognitive test mixing GRE-style vocabulary fill-ins, number-pattern puzzles, and figure sequences — one version ran 50 questions in 30 minutes. None of this is technically hard, but the time pressure is real and a few vocabulary items can be obscure; treat it as a gate to clear quickly rather than a place to earn signal.
+Each team hires for itself, so the coding pool stays narrow while design prompts follow the product. The usual path is automated screening, a coding assessment, one to four technical screens, and a virtual onsite of three or four rounds; one loop finished in under two weeks.
 
-The technical screen is usually a CodeSignal assessment of 60 to 90 minutes built around a single progressive problem in about four levels rather than four separate puzzles. Reported themes rotate through a recipe manager, a digital wallet with scheduled payments and account merging, a file system, cloud storage with per-user capacity, and a simplified database with expiration and backup. Each level exposes only about ten visible tests, partial credit is awarded, and the binding constraint is code volume: candidates who finish practiced this shape beforehand and kept earlier levels working while layering on search, sorting, versioning, or quotas. A newer AI-assisted variant swaps this for a game-agent policy problem (deciding when a Flappy Bird-style character should jump) on a platform with a built-in coding assistant, restricted copy-paste, and a visual auto-pilot replay that is the fastest way to debug your strategy.
+One L4 candidate got a scaled-down assessment, while senior and staff loops probe scope and promotion history harder. Frontend loops use named rounds (Execution, Foundation, Domain, System Design), and machine learning loops swap the build for ML theory and from-scratch algorithms.
 
-Live rounds start with a 60-minute screen that fits either two medium problems or one domain build with layered follow-ups. The virtual onsite is typically four rounds — one or two practical coding sessions, system design, and a hiring-manager or behavioral conversation — and recurring reports show the coding pool is narrow: pagination APIs you must specify yourself, mining-block fee selection where interviewers explicitly prefer a greedy fee-per-size sort over dynamic programming for production practicality, and order-lifecycle state machines. Design prompts stay close to the product: a real-time price dashboard, a wallet ledger, order flow across exchanges. Behavioral rounds dig into your current level, promotion trajectory, project criticality, and increasingly how you use AI tools day to day. The whole loop can finish in under two weeks with decisions in as little as two business days, but several candidates passed every round and still lost out at team matching, so a clean technical performance is necessary, not sufficient.
+Here's what the interview process can look like:
 
-## What Candidates Report
+- **Automated screening:** An AI-led recruiter interview, a work-style inventory of about 200 items, and a speeded cognitive test.
+- **Online assessment:** One progressive build in four levels, or a 60-minute AI-assisted game-agent task.
+- **Technical phone screens (one to four):** 60-minute live builds or two medium problems, with escalating follow-ups.
+- **Coding interviews:** One or two onsite rounds from a small, repeating pool: pagination, block mining, order state machines.
+- **AI-assisted coding round (some 2026 loops):** Debugging, feature design, log analysis and pull-request review with an assistant on screen.
+- **System design interview:** Product-anchored prompts such as a live price page, a crypto ledger, or exchange order flow.
+- **Hiring manager interview:** A project deep dive with direct questions on level, promotion and daily AI use.
 
-- Interviewer engagement swings widely: some collaborate and even help debug typos, while others stay nearly silent, so practice narrating and testing your own work without prompts.
-- Almost no round hands you scaffolding. You define the classes, function signatures, and test cases yourself, and vague requirements are intentional — candidates who pushed for precise interfaces early fared better.
-- Visible test suites are sparse (around ten per level) and skip edge cases like TTL boundaries or duplicate assignments; interviewers credit candidates who verbalize and handle corner cases the judge never checks.
-- The expected answer is the production-minded one, not the theoretically optimal one — one candidate proposed dynamic programming for block selection and was steered to the greedy ratio sort.
-- Rejections often come from calibration, not code: hiring managers probed whether past projects were truly critical or promotion-worthy, and some candidates who passed all rounds were dropped when no team at their level had headcount.
+> **Tip:** Every live round rewards the same habit: pin down the interface before typing, then write your own tests out loud. Candidates who left signatures vague lost time to rework even when their algorithm was right.
 
-## Coding Questions
+## Automated screening
 
-Coinbase coding rounds wrap algorithms in exchange-flavored scenarios: parsing, stream processing, and greedy optimization under a capacity constraint recur far more often than graph or DP puzzles.
+The first touchpoints are often not human: an AI-driven interview with pre-recorded prompts, a questionnaire probing communication and appetite for intense work, and a timed cognitive test of sentence completion, number patterns and figure sequences. One version ran 50 questions in 30 minutes; others describe a tighter clock. All tracks take these screens, often alongside the coding assessment, and a later recruiter call may redirect you to another role.
+
+Interviewers look for:
+
+- **Speed under a hard clock:** Guessing costs nothing, and stalling on one obscure vocabulary item costs several easy ones.
+- **Culture alignment:** Answers consistent with a high-intensity, mission-driven workplace.
+- **Level and fit:** The target band and which team or role you match.
+
+Do one timed practice run of a 50-question aptitude test so the pace is not a surprise.
+
+### Sample questions for the automated screening
+
+Here are some questions reported by recent candidates:
+
+- Complete sentences with the most fitting, sometimes obscure, vocabulary word.
+- Find the missing number in a sequence, or pick the next figure in a series.
+- Rate statements about consistency, hard work and direct communication.
+
+## Online assessment
+
+The software engineer assessment is one problem revealed in four levels, about 60–90 minutes, with partial credit: one candidate solved three of four levels and advanced. Themes rotate: a recipe manager with versioned rollback, a wallet with scheduled payments and account merges, cloud storage that evicts the largest files when a quota drops, a database with expiry and backups, and, in late 2026, a task manager replacing the payments theme.
+
+A newer 60-minute variant asks for a jump-or-not function for a Flappy Bird-style game, with a built-in AI assistant, copy-paste disabled and a visual replay; one candidate advanced with 16 of 20 tests. Frontend candidates build a React app in steps instead, and machine learning candidates get ML multiple choice, a hand-computed forward pass, and k-means or a decision tree from scratch.
+
+Interviewers evaluate:
+
+- **Code volume under time:** The algorithms are easy to medium; wiring a lot of state quickly is the bottleneck.
+- **Forward-compatible state:** The data shape chosen at level one decides whether level four is ten lines or a rewrite.
+- **Self-testing:** Each level exposes about ten tests and skips boundaries such as expiry at the exact timestamp.
+- **Policy iteration (AI variant):** A lookahead strategy with an emergency-jump override, tuned from the replay.
+
+Rehearse a four-level build from an empty file against a 75-minute timer.
+
+> **Note:** The built-in assistant was described as laggy and often wrong. Candidates who passed treated it as optional and debugged from the replay rather than the terse failure messages.
+
+### Sample questions for the online assessment
+
+Here are some questions reported by recent candidates:
+
+- Build a wallet with transfers, then rank top spenders, then schedule and cancel delayed payments, then merge accounts.
+- Lower a user's storage capacity and evict files largest-first until they fit.
+- Decide each frame whether a bird should jump when every flap costs one of a limited supply of coins.
+
+- [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md)
+- [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)
+- [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md)
+- [Flappy-Bird-like Autopilot With Coins as Jump Budget](https://trueinterview.io/questions/bb1c3959-faaf-438a-b87a-d07fb13b9668)
+- [ML Concepts and Coding Assessment](https://trueinterview.io/questions/mle-codesignal-oa)
+
+## Technical phone screens
+
+Screens run 60 minutes and fit either two medium problems or one domain build with three or four follow-ups. Reported prompts include a thread-log parser, NFT generation by rarity weight, a key-value store with per-user locks, and an order state machine followed by offset-versus-cursor pagination. One senior candidate sat four screens back to back. Machine learning screens pair simple ML coding with medium SQL using window functions.
+
+Interviewers evaluate:
+
+- **Data-structure choices out loud:** One candidate was marked down for a list of orders per state instead of a state-to-map-by-ID structure.
+- **Contract definition:** Inputs and outputs are deliberately vague, and pinning them down is graded.
+- **Debugging pace:** A rejected candidate ran out of time fixing errors on the NFT problem's third level.
+- **Production follow-ups:** Concurrency, idempotency and pagination trade-offs once the core works.
+
+Practice one-hour builds that absorb three follow-ups without a restructure.
+
+### Sample questions for the technical phone screens
+
+Here are some questions reported by recent candidates:
+
+- Parse log lines, group them by thread ID and sort each group chronologically.
+- Generate unique NFTs from JSON attribute lists, then sample by rarity weight.
+- Track per-key operation counts in a key-value store with user locks and return the top N keys.
+
+- [Thread Logs Processing](https://trueinterview.io/questions/thread-logs-processing)
+- [Generate Random NFT](https://trueinterview.io/questions/c371c4af-f5cd-4071-967e-e37e7b38cdb3)
+- [In-Memory DB with per-key user lock: setByUser/deleteByUser/lock/unlock](https://trueinterview.io/questions/64e826a3-6585-4f8a-a6a0-6b3fcb775999)
+
+## Coding interviews
+
+Onsite coding is one or two rounds of 45–60 minutes with no class templates and often no test cases. Three families dominate: pagination (forward and backward cursors, invalid cursors, an API you specify yourself); block mining (maximize fees in a fixed-size block, then respect parent-child dependencies via depth-first search over complete paths); and a crypto order system with place, pause, resume and cancel, extended to multiple users and user-partitioned streams. Some 2026 loops added conventional problems judged on maintainability, such as a cooldown task scheduler and a moving-average tracker.
+
+Interviewers evaluate:
+
+- **Production-minded answers:** On block mining, interviewers prefer a greedy fee-per-size sort to dynamic programming, and one variant banned heaps.
+- **Explicit state machines:** Valid transitions defined before code; illegal ones return cleanly.
+- **Unprompted tests:** Recruiters have advised writing test cases proactively.
+- **Engineering follow-ups:** Floating-point drift, thread safety, and which line a future maintainer would break.
+
+Drill pagination, block mining and order lifecycles until each takes under 30 minutes.
+
+> **Tip:** Engagement varies widely: some interviewers help debug typos, others stay silent for the hour. Practice narrating and self-testing as if no one will prompt you.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Select transactions to maximize fees in a block of size 100, then honor parent-child dependencies.
+- Implement forward and backward cursor pagination, including invalid cursors and past-the-end requests.
+- Manage crypto orders through live, paused, completed and canceled states, then add cancel-all per user.
 
 - [Mining Block](../../questions/algorithm/mining-block/README.md)
-- [Crypto Order Management (Kafka Consumer)](https://trueinterview.io/questions/crypto-order-management-kafka)
-- [Log File Parser](https://trueinterview.io/questions/log-file-parser)
-- [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer)
+- [Paginate forward and backward through results](https://trueinterview.io/questions/paginate-forward-and-backward-through-results)
+- [Implement a crypto order management system](https://trueinterview.io/questions/implement-a-crypto-order-management-system)
+- [Minimum Days to Execute Ordered Tasks with Cooldown](https://trueinterview.io/questions/aceaaa24-bfc7-5f9d-9dac-8462aa82ba07)
 
-## System Design Questions
+## AI-assisted coding round
 
-Design rounds reward operational depth over box-drawing: interviewers push on backpressure, idempotency, replay after restart, and what you would monitor, and several candidates were failed specifically on shallow production answers.
+Since early 2026, some loops add a screen-shared round, sometimes billed as an AI Enhanced Pilot, where an assistant sees the task and your open files. One version had four parts on a transaction pager: fix a buggy sort, design a new sort order, find from logs why a request timed out (a missing index), and review a colleague's pull request.
 
-- [System Design — Coinbase Explore (Real-Time Price Dashboard)](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price)
-- [Design a Crypto Exchange Order Flow System](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system)
+Interviewers evaluate:
 
-## Low-Level Design Questions
+- **Verification:** Catching wrong suggestions instead of pasting them in.
+- **Structured debugging:** From logs and metrics to a root cause, with fixes both with and without schema changes.
+- **Trade-off reasoning:** Offset versus cursor designs and how keys affect correctness.
+- **Time management:** Each part has many sub-questions, and candidates report running short.
 
-The progressive OA and many live rounds are really low-level design exercises: model entities cleanly, keep listing and filtering logic reusable, and make lifecycle rules (expiration, rollback, quotas) explicit so the next requirement does not break the last one.
+Practice reading unfamiliar code with an assistant, and decide in advance when to write the fix yourself.
 
-- [Task Management System](../../questions/object-oriented-programming/task-management-system/README.md)
-- [In-Memory Database](../../questions/object-oriented-programming/in-memory-database/README.md)
-- [Query Pagination](../../questions/object-oriented-programming/query-pagination/README.md)
-- [Food Delivery System](https://trueinterview.io/questions/food-delivery-system)
+### Sample questions for the AI-assisted coding round
 
-## AI-Assisted Coding Questions
+Here are some questions reported by recent candidates:
 
-Coinbase now runs dedicated AI-assisted rounds where you steer an integrated assistant through debugging, feature work, and PR review. The grading includes how you prompt, verify, and override the tool — candidates report the assistant can be slow or wrong, and knowing when to just write the code yourself is part of the test.
+- Debug a paginator that mishandles timestamp ties and malformed cursors without breaking existing clients.
+- Explain from logs why a sort-by-amount request times out, and how to fix it without adding an index.
 
+- [Debug and Extend Cursor Queries](https://trueinterview.io/questions/debug-and-extend-cursor-queries)
 - [AI Enhanced Pilot — Domain (AI-Assisted Coding Round)](https://trueinterview.io/questions/ai-enhanced-pilot-domain)
-- [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy)
 
-## Behavioral Questions
+## System design interview
 
-Behavioral conversations here are unusually pointed: expect a project deep-dive with relentless follow-ups on scope, trade-offs, and your individual contribution, plus direct questions about your level, promotion history, and daily AI usage.
+Prompts stay close to the product. The most frequent is a live price page like Coinbase Explore: external feeds over WebSockets, real-time updates to many clients, push versus polling. Others include a crypto ledger, order flow through a third-party matching engine, a ring buffer with backpressure, and blob storage on the moon. Frontend candidates design a signup form or a trading UI.
+
+Interviewers evaluate:
+
+- **Product-specific requirements:** One rejected candidate blamed a generic brokerage template applied before clarifying the real-time needs.
+- **Operational depth:** Backpressure, replay after restart, idempotency, monitoring and load testing.
+- **Coverage, then depth:** Some interviewers expect every subsystem outlined before any deep dive.
+- **Proactive driving:** Several interviewers barely answered clarifying questions.
+
+Prepare the price page and ledger end to end, including failure modes and metrics.
+
+> **Note:** Design rejections cluster on shallow production answers, not missing boxes. One candidate who drew a clean ring buffer failed on deployment, restart recovery and observability.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design a page showing the latest asset prices from multiple external sources, updating in real time.
+- Design order flow that routes to external exchanges through a third-party matching engine.
+- Design a ring buffer for producers and consumers at different speeds, then deploy and monitor it.
+
+- [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price)
+- [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system)
+- [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer)
+- [Design a blob storage system for lunar environment](https://trueinterview.io/questions/design-a-blob-storage-system-for-lunar-environment)
+
+## Hiring manager interview
+
+The manager round is a project deep dive plus behavioral questions; machine learning candidates sometimes present slides on their proudest project. Expect follow-ups on trade-offs, your own contribution and what you would redesign with unlimited resources, plus cross-team conflict, missed deadlines and daily AI use. Managers ask your level and promotion timeline directly; one told a candidate the chosen project was not a tier-0 service.
+
+Interviewers evaluate:
+
+- **Scope for the level:** A staff candidate found a narrow project gave too little to discuss.
+- **Business criticality:** Why the project mattered, in impact rather than technology.
+- **Ownership and testing philosophy:** When skipping tests is acceptable, and how incidents were handled.
+- **AI fluency:** Concrete, current use of AI tools.
+
+Pick your largest-scope project and rehearse it against "why was this critical?"
+
+### Sample questions for the hiring manager interview
+
+Here are some questions reported by recent candidates:
+
+- Describe your most challenging project, then how you would rebuild it with unlimited resources.
+- What would you do if you could not meet the deadline of an important launch?
+- How do you use AI in your day-to-day workflow?
 
 - [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive)
+- [Describe cross-team collaboration on past projects](https://trueinterview.io/questions/describe-cross-team-collaboration-on-past-projects)
+- [Show culture add at Coinbase](https://trueinterview.io/questions/show-culture-add-at-coinbase)
 
-## How to Prepare
+## How Coinbase makes hiring decisions
 
-- Rehearse four-level progressive builds under a timer: start from an empty file, define the API yourself, and add search, versioning, users, or expiration without breaking earlier levels.
-- Drill the recurring trio — cursor pagination, greedy fee-per-size block selection (including the tree-dependency extension), and order state machines with idempotent cancel rules — they appear across screens and onsites.
-- Write your own edge-case checklist (boundary timestamps, duplicate operations, malformed input, empty results) and run it aloud; sparse visible tests mean this is where signal is won.
-- For system design, prepare the real-time price dashboard and ledger scenarios end to end, with explicit positions on WebSockets versus polling, backpressure, replay, and monitoring.
-- Practice with an AI coding assistant on unfamiliar code, including recovering when its output is wrong, so the AI-assisted round feels routine.
-- Prepare crisp answers about your level, promotion trajectory, and why your flagship project mattered to the business — hiring managers here challenge these directly.
-- Take the aptitude and work-style screens seriously enough to practice timed reasoning puzzles once; running out of clock there ends the process before it starts.
+Hiring is decentralized: the hiring team's manager decides after the loop, comparing finalists at the same level, so passing is necessary but not sufficient. One machine learning candidate cleared the assessment and was rejected in the same call because no team was available, and others told they were very strong were still declined. Decisions can arrive within two business days, and postings cap applicants at three applications in six months.
+
+> **Tip:** Ask the recruiter early which team you are interviewing for and whether headcount is confirmed at your level.
+
+## How to prepare for the Coinbase interview
+
+1. **Clear the gates fast:** Take one timed 50-question aptitude test, and answer the culture inventory consistently.
+2. **Rehearse four-level builds:** Start from an empty file and add search, users, versioning or expiry without regressions.
+3. **Drill the recurring trio:** Cursor pagination, greedy block mining with dependencies, and order state machines.
+4. **Test without being asked:** Cover exact-boundary timestamps, duplicate operations and empty results, aloud.
+5. **Practice with a flawed assistant:** Debug unfamiliar code with an AI tool and override it when it is wrong.
+6. **Design for operations:** Prepare backpressure, replay, idempotency and monitoring for the price page and ledger.
+7. **Defend your level:** Bring a large-scope project and a clear account of why it was business-critical.
+
+## About working at Coinbase
+
+Coinbase runs exchange, custody and payments businesses and the Base network under heavy regulatory and security requirements, hence the interview focus on idempotency and reconciliation. Many roles are remote-first, with periodic in-person sessions. In May 2026 the company cut about 14% of staff and reorganized around small AI-native teams.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC4 (Software Engineer) | Shipping well-defined features and services | Tasks within one team |
+| IC5 (Senior Software Engineer) | Owning services end to end and leading projects | One team's systems |
+| IC6 (Staff Software Engineer) | Cross-team technical direction | Several teams or a product group |
+
+Coinbase hires engineers across its consumer, platform and developer businesses. Teams include:
+
+- **Consumer products:** The retail app, growth and consumer risk.
+- **Platform:** Core infrastructure, identity and the financial ledger.
+- **Developer products:** Onchain and stablecoin payments APIs.
+- **Blockchain platform:** Node infrastructure and the Base network.
+- **Data and risk:** Data infrastructure and machine learning teams that mostly use tree-based models.
+
+### Experience and education requirements
+
+Senior backend postings ask for five to six or more years of experience, often with Go or Ruby and production service-oriented systems; junior backend roles also exist. Crypto knowledge is a plus rather than a requirement, though some design rounds assume familiarity with exchanges and wallets.
+
+## FAQs about the Coinbase interview
+
+### How long does the Coinbase interview process take?
+
+Fast loops finish in under two weeks from recruiter contact to the end of the onsite; others stretch over several weeks of screens.
+
+### What is the hardest round of the Coinbase interview?
+
+Many candidates name the progressive online assessment for its code volume and clock. At senior levels, rejections cluster in system design and the manager's calibration of scope.
+
+### How much does a Coinbase software engineer make?
+
+Posted US base ranges are about $186K–$219K for senior software engineers and about $254K–$299K for senior staff. Offers add equity and bonus eligibility.
+
+### Is the Coinbase interview remote?
+
+Yes. Screens and onsites are held by video.
 
 ## Guides by Role
 
-- [Coinbase Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 - [Coinbase Frontend Engineer Interview Process](interview-process-frontend-engineer.md)
 - [Coinbase Software Engineer Interview Process](interview-process-software-engineer.md)
+- [Coinbase Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 
 ---
 

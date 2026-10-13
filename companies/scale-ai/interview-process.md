@@ -6,60 +6,249 @@
 
 ---
 
-Scale AI hires for people who can ship working systems against a spec that keeps moving — the interviews are built to surface exactly that, and they reward builders over puzzle-solvers. This guide goes deeper than the process outline on the company page: round-by-round formats, what each interviewer is grading, and where candidates get filtered out. Our library includes 7 real Scale AI questions you can practice against, with a strong tilt toward the machine learning track.
+Scale AI tests building more than puzzle-solving. The signature screen is one problem that grows in three parts within an hour, usually a deadline-ordered task scheduler that picks up dependencies and then deadline updates. The onsite adds a debugging round in an unfamiliar codebase and a practical round where you call an LLM API and validate what it returns. Behavioral rounds weigh as much as technical ones, and some loops ask how your current manager would rate you.
 
-## Interview Process
+This guide breaks down each stage of the Scale AI interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 19 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## Scale AI interview process
 
 <!-- guide-diagram -->
 ![Scale AI interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/scale-ai/process.webp)
 <!-- guide-diagram -->
 
-The recruiter call runs about 20–30 minutes and is more of a fit filter than it looks. Beyond the usual background walkthrough, recruiters probe whether you actually want the operating environment: rapid priority shifts, close contact with customers and operations, and an expectation that you deliver a usable first version fast. Have a crisp story about a system you owned end to end, and ask for the exact loop structure — the mix of rounds varies noticeably between product engineering and ML positions.
+The skeleton holds across teams: a recruiter call, a 60-minute technical screen, then a virtual onsite of four to six rounds, typically three to five weeks end to end. Some experienced hires got only one live technical round plus a hiring-manager round.
 
-The technical screen is typically a one-hour session, either a timed online assessment or live coding with an engineer. The house style is a scenario-based implementation problem rather than an algorithm puzzle — a well-known example is a card-game simulation where you implement game rules from a long written spec, and the spec then evolves: new rules and constraints arrive mid-interview and your code has to absorb them without a rewrite. The prompts are dense and deliberately over-specified, so careful reading is part of the test. Grading centers on implementation speed, correct handling of the many stated edge cases, and code that stays clean under time pressure; candidates who pause to structure their solution around the likely next requirement tend to outperform those who sprint at the literal spec. ML candidates see a more data-flavored screen — practical Python around distributions and statistics, plotting and sanity-checking data, or debugging a broken model-training script — and some ML tracks substitute or add a take-home built around raw data: assemble a small pipeline, train something simple, and evaluate its behavior.
+Software Engineer onsites mix coding, debugging, an LLM API practical, system design and behavioral rounds. ML and research candidates get post-training theory, NumPy model components and a presentation instead. Level, and with it pay, is set by interview performance.
 
-The final loop is a virtual onsite of typically three to five rounds of roughly 45 minutes each, often scheduled back-to-back in a single block. Expect deeper practical coding and a debugging exercise, a system design round, a role-specific round, and a values conversation. The coding rounds extend the screen's philosophy: you may be handed working-but-flawed code to diagnose, or asked to extend a service as requirements change, with interviewers watching how you decompose the work and what you choose to build first.
+Here's what the interview process can look like:
 
-The system design round is distinctly AI-shaped compared to a generic big-tech loop. Recurring prompt families include designing a massive data-annotation pipeline, an LLM evaluation harness, and real-time task routing across a very large pool of concurrent human workers. Strong answers make the human-in-the-loop mechanics explicit — how tasks get assigned, how reviewer disagreement is resolved, how label quality is audited and fed back — and cover idempotent retries, quality gates, and operational visibility. Interviewers routinely mutate the requirements (throughput, latency, a new customer constraint) to see whether the design bends or breaks.
+- **Recruiter screen:** A 20–30 minute call about your current project, why you are leaving, why Scale, and the shape of the loop.
+- **Technical phone screen:** A 60-minute live session on one multi-part coding problem in a shared editor, often with no hints.
+- **Debugging interview (onsite):** Find and fix planted bugs in a multi-file feature or a short ML training script while narrating.
+- **LLM practical interview (onsite, engineering):** Prompt an LLM API, format and validate the output, then discuss production concerns.
+- **System design interview (onsite):** A large-scale design, often shaped around data pipelines, worker routing or schedulers.
+- **ML and research interviews (ML track):** Post-training theory, NumPy sampling and attention, and a 45-minute presentation.
+- **Behavioral, credo and customer-engagement interviews:** One or two values rounds, plus a customer-engagement or hiring-manager round on some tracks.
 
-For ML roles the loop typically adds an ML theory round and a research or project presentation, where you walk through your own work — or a paper — end to end and defend the experimental choices and metrics. A notable pattern: Scale AI weighs your ability to explain technical work to non-technical audiences heavily, since engineers sit close to customers and operations, and candidates have been dinged for depth delivered without clarity.
+> **Tip:** Build every first version with the next requirement in mind. In the scheduler reports, each part landed on top of the last: a plain heap had to absorb dependency counts, then deadline changes, with stale entries skipped lazily.
 
-The values round is a structured interview against Scale's published credo, with ownership, urgency, and customer obsession as the dominant axes. It is graded as seriously as the technical rounds: prepare specific stories of delivering under pressure with imperfect information, and expect follow-ups that re-ask the same story from another angle. End to end, the process commonly runs two to five weeks — screens can move within days when a team has urgent headcount, while senior loops with extra calibration stretch longer.
+## Recruiter screen
 
-## What Candidates Report
+Recruiters cover your current project, how your time splits across coding, design and mentoring, and why you want to leave. One described the technical round as building or updating a production-ready system, not an algorithm puzzle.
 
-- The coding prompts are long. Several candidates were surprised that reading and parsing the spec consumed a meaningful fraction of the interview; skimming leads to missed rules that surface as failed cases late in the hour.
-- Requirements change mid-round by design. People who hard-coded for the first version of the problem spent the back half refactoring; those who left seams for extension finished comfortably.
-- The loop is far less LeetCode-style than most companies of this size. Classic algorithm grinding helps less than being fast and correct at building small, testable programs.
-- The values round eliminates real candidates. Reports consistently describe it as heavily weighted, not a formality — vague or borrowed-sounding stories about ownership and pace read poorly.
-- Communication is scored throughout. Candidates who narrated decisions and could translate technical work for a non-specialist audience report better outcomes, especially in ML and presentation rounds.
-- The bar is high and pacing is intense; back-to-back virtual rounds with dense prompts left some candidates drained, so plan energy and breaks accordingly.
+Interviewers evaluate:
 
-## AI-Assisted Coding Questions
+- **Project ownership:** One project you are proud of, with the architecture decisions you personally made and their impact.
+- **Motivation:** A reason for Scale specifically, tied to AI data, evaluation, or enterprise and government AI.
+- **Pace fit:** Comfort with fast priority changes and close contact with customers and operations staff.
+- **Role mapping:** How your daily work lines up with the team's, which shapes the loop you get.
 
-Scale AI's practical rounds sit close to the model layer itself, so expect exercises where you implement core inference or training machinery by hand and are judged on both correctness and numerical soundness. Work through this one in plain NumPy first, then rehearse explaining every tensor shape out loud.
+Ask for each remaining round and its format, since loops vary by team.
 
-- NumPy Top-p Sampling and Multi-Head Attention
+### Sample questions for the recruiter screen
 
-## Behavioral Questions
+Here are some questions reported by recent candidates:
 
-Behavioral evaluation at Scale AI runs through the credo-based values round plus the project deep-dives, and it rewards specifics: what you personally decided, how fast you moved, and how you handled a customer or teammate pushing back. The ML-track questions below double as presentation practice — the same clarity bar applies.
+- Tell me about a project you are proud of.
+- Why Scale AI, and why are you leaving your current role?
 
-- Credo Behavioral and Customer Engagement
-- Behavioral High-level Conflict Resolution
-- Project Deep Dive and Paper Presentation
-- LLM Post-Training Theory Conversation
-- Designing GPT-2 Prompts Using Given Keywords
+## Technical phone screen
 
-## How to Prepare
+The screen is 60 minutes in a shared editor; one candidate's preferred language was unavailable, so confirm yours early. The dominant prompt is a three-part task scheduler: return tasks by earliest deadline from a min-heap, then block parents until their subtasks are done, then a third twist. That twist was an `update_deadline` rejected once a task is fully consumed, cycle detection plus parallelizable tasks, or production questions. One candidate never reached part three; another finished all three with passing tests and treated that as the bar.
 
-- Drill evolving-spec implementation: take a rules-heavy toy problem (a card or board game works well), implement it from a written spec in under 40 minutes, then add two rule changes without rewriting — this mirrors the signature screen format.
-- Practice reading dense prompts fast: before coding, write down the entities, rules, and edge cases the spec enumerates, and check them off as you implement.
-- Build one small data pipeline end to end in Python — ingest messy raw data, validate it, run a simple model or heuristic over it, and report quality metrics — so the practical ML screen and take-home feel familiar.
-- Design annotation and evaluation systems on paper: task assignment, reviewer disagreement, label auditing, and idempotent retries should be moves you can make instantly, not ideas you discover mid-round.
-- Rehearse a debugging workflow you can narrate: reproduce, isolate, hypothesize, fix, verify — interviewers grade the process, not just the found bug.
-- Write six short credo-aligned stories (ownership, urgency, customer impact, conflict, a fast decision that worked, one that didn't) and practice telling each in under three minutes with concrete outcomes.
-- Prepare a two-tier project walkthrough: a plain-language version for a non-technical listener and a deep version defending metrics and experiment design — you will likely need both in the same loop.
+Other screens used party-schedule time-range problems, where timestamp parsing and exact output format mattered as much as the logic, and a Game of Life variant in which firing neurons reset to six and idle ones count down by neighbor rules, with an in-place follow-up. One rejected candidate also had to design unit tests for production code. These families recur in onsite coding rounds, alongside rule-heavy card-game simulations.
+
+Interviewers evaluate:
+
+- **Extensible structure:** Maps from task ID to remaining-dependency count and current deadline, so each new part is an addition rather than a rewrite.
+- **Self-managed testing:** Writing and running your own tests, since some interviewers stay silent the whole hour.
+- **Complexity under lazy deletion:** Explaining why `get_next` stays O(log N) amortized when stale heap entries are popped at most once.
+- **Exact spec reading:** Custom rules and output formats are where points are lost.
+
+Practice the full three-part scheduler against a 60-minute timer.
+
+> **Note:** Silence is not a bad sign. One candidate got no hints for a full hour, finished, answered one complexity question and advanced.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Implement `addTask` and `consumeTask` by earliest deadline, then block parents until all their subtasks are consumed.
+- Add `update_deadline` that repositions a pending task and rejects updates to fully consumed tasks.
+- Compute the next state of a neuron grid under custom firing rules, first with a copy and then in place.
+
+- [Task Processor: Dependencies and Deadlines](../../questions/algorithm/task-processor-dependencies-and-deadlines/README.md)
+- [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/69a906b1-a3e0-43a1-a3c1-267fc6556d5c)
+- [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata)
+- [Party Times / Peak Concurrent Parties (Time Range Overlap Counting)](https://trueinterview.io/questions/8998a0af-970e-4c4b-be16-21fe90c5d1a0)
+
+## Debugging interview
+
+Software Engineer candidates got a multi-file project-assignment feature with two planted bugs: a variable not reset inside a loop and a wrong filter condition. ML candidates got a short training script with three or four one-line bugs, in an IDE-like environment with stepping. One candidate said communication outweighed raw problem-solving.
+
+Interviewers evaluate:
+
+- **Navigation:** Following the failing feature's path across files instead of reading every file top to bottom.
+- **Hypothesis-driven debugging:** Saying what you suspect and why, then checking it.
+- **Narration:** Explaining each step out loud, which is graded explicitly.
+
+Rehearse a timed pass through an unfamiliar repository: run it, trace one feature, fix it.
+
+### Sample questions for the debugging interview
+
+Here are some questions reported by recent candidates:
+
+- Fix the two bugs in a multi-file project-assignment feature: a counter not reset in a loop and a wrong filter predicate.
+- Repair a short ML training script with three or four one-line bugs and explain each fix.
+
+- [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round)
+
+## LLM practical interview
+
+You write a prompt for a given scenario, call a commercial LLM API, format the response into a required structure, then write a function that validates it. The discussion ends on production: monitoring, recovery from malformed output, retries and scaling.
+
+Interviewers evaluate:
+
+- **Prompt precision:** Constraining the output format enough to make validation tractable.
+- **Defensive validation:** Treating model output as untrusted input, with a clear failure path.
+- **Production judgment:** Logging bad outputs, bounded retries, fallbacks and rate limits.
+
+Before the onsite, build one script that prompts a model, parses its JSON and validates it.
+
+### Sample questions for the LLM practical interview
+
+Here are some questions reported by recent candidates:
+
+- Write a prompt for a scenario, call the API, format the response into a fixed structure, then validate it.
+
+- [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation)
+- [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/questions/147c9781-846f-407b-a3e9-cb2f61ae898d)
+
+## System design interview
+
+The design round covers a large system end to end: data model, caching, service boundaries and trade-offs. Prompts often mirror Scale's business, such as classification and embedding pipelines, workers in a state machine behind a load balancer, or annotation flows with human review. Coding rounds also end in design: after the scheduler, one interviewer asked about crashes, idempotency and distribution, and the candidate rated their broad but shallow answer as average.
+
+Interviewers evaluate:
+
+- **Failure handling:** Persisting in-flight work, idempotent retries, and what happens when a worker dies.
+- **Human-in-the-loop mechanics:** Task assignment, reviewer disagreement and quality audits, where relevant.
+- **Depth on one axis:** Going deep on one hard component rather than touching every topic.
+
+Practice taking each coding solution to production in ten minutes.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Make the deadline-based task scheduler production-ready: survive restarts, process idempotently and scale out consistently.
+- Extend a job scheduler to accept a continuous stream of new jobs while others run.
+
+- [Design a large-scale ticketing system](https://trueinterview.io/questions/design-a-large-scale-ticketing-system)
+- [Design pipeline using classification and embedding services](https://trueinterview.io/questions/design-pipeline-using-classification-and-embedding-services)
+- [Explain worker state machine load balancer design](https://trueinterview.io/questions/explain-worker-state-machine-load-balancer-design)
+- [Design a Streaming Job Scheduler](https://trueinterview.io/questions/design-a-streaming-job-scheduler)
+
+## ML and research interviews
+
+Phone screens pair a resume deep dive with post-training topics such as GRPO versus other RLHF methods. One applied loop instead held five phone interviews: annotation quality review, values, a RAG system, LLM-evaluation coding and past projects. Onsite coding is top-p sampling, then single-head and multi-head attention, in plain NumPy; one candidate's unoptimized code passed every test. Theory covers regularization, vocabulary size versus sequence length, fine-tuning data, and DPO versus GRPO versus PPO. The 45-minute presentation ends in a defense of your architecture choices.
+
+Interviewers evaluate:
+
+- **LLM internals from scratch:** Masking, scaling and head reshaping in attention, and sorting and renormalizing in top-p, without framework helpers.
+- **Post-training depth:** When to use DPO, PPO or GRPO, and what each costs.
+- **Evaluation and data quality:** Scoring model outputs and reviewing annotation quality, Scale's core business.
+- **Resume command:** Motivation, contribution and hard parts of every listed project; one rejected researcher was grilled on a project, then GRPO.
+
+Implement sampling and attention in NumPy from memory, and rehearse the presentation against a 45-minute clock.
+
+### Sample questions for the ML and research interviews
+
+Here are some questions reported by recent candidates:
+
+- Implement nucleus sampling in NumPy, then single-head and multi-head attention.
+- Compare DPO, GRPO and PPO, and explain how you would format data for supervised fine-tuning.
+- Design a RAG system and write code that evaluates LLM outputs.
+
+- [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention)
+- [Transformer Attention Mask and Heads Coding](../../questions/algorithm/transformer-attention-mask-and-heads-coding/README.md)
+- [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation)
+- [Project Deep Dive and Paper Presentation](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation)
+
+## Behavioral, credo and customer-engagement interviews
+
+Two Software Engineer candidates had two behavioral rounds: one on a proud project, feedback and a tight deadline, the other on side projects, strengths and weaknesses. The values round follows Scale's published credos: ambition, quality at every level, earning customer love and intellectual rigor. ML candidates were asked about disagreeing with a manager. In one customer-engagement round, the candidate had to name their manager and predict that manager's rating of them.
+
+Interviewers evaluate:
+
+- **Ownership under pressure:** A real deadline, your own decisions and a measurable result.
+- **Self-awareness:** Specific weaknesses and feedback you acted on, not a disguised strength.
+- **Candor about your manager:** A calm answer on how your manager would rate you, including where they would mark you down.
+
+Prepare about eight credo-mapped stories plus a rehearsed answer about your manager's view of you.
+
+> **Note:** Technical strength alone has not been enough. One candidate who handled the attention and sampling coding was rejected after the credo and customer-engagement rounds, and in hindsight blamed unprepared values stories.
+
+### Sample questions for the behavioral, credo and customer-engagement interviews
+
+Here are some questions reported by recent candidates:
+
+- Describe work you delivered under a tight deadline, and constructive feedback you received.
+- What is your current manager's name, and how would they rate you?
+- Describe a challenging project and why specifically it was hard.
+
+- [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement)
+- [Handle customer engagement and manager-rating questions](https://trueinterview.io/questions/handle-customer-engagement-and-manager-rating-questions)
+- [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work)
+
+## How Scale AI makes hiring decisions
+
+Rounds are judged together, but weak values or customer-engagement signals have sunk strong technical loops. Level, and the pay point within a posted range that can span several career levels, come from interview performance. Candidates describe a recruiter debrief call within a few days of the onsite, with offers sometimes waiting on director-level approval; decisions typically land within one to two weeks. Job postings state a 90-day wait before a candidate is reconsidered for the same role.
+
+## How to prepare for the Scale AI interview
+
+1. **Drill the three-part scheduler:** Heap by deadline, dependency counts, then deadline updates with lazy deletion, inside 60 minutes with your own tests.
+2. **Restate custom rules before coding:** Grid automata and party-time problems turn on exact transition rules and output formats.
+3. **Rehearse an LLM API loop:** Prompt, parse, validate and retry in one script, with answers ready on monitoring and recovery.
+4. **Practice narrated debugging:** Trace one feature through an unfamiliar multi-file repository, saying each hypothesis out loud.
+5. **Take every solution to production:** Persistence, idempotency and scaling; shallow answers here cost candidates.
+6. **For ML roles, code from scratch:** Top-p sampling and multi-head attention in NumPy, plus a DPO, GRPO and PPO comparison.
+7. **Prepare for two behavioral rounds:** Separate stories for deadlines, feedback, side projects and weaknesses, and an honest view of how your manager rates you.
+
+## About working at Scale AI
+
+Scale AI builds data and evaluation infrastructure for AI: training and evaluation data for model labs, an enterprise generative AI platform, and government AI programs. Engineers work close to customers and labeling operations and ship first versions fast. After Meta's minority investment in mid-2025, the founding CEO left for Meta, about 14% of staff were laid off, and the business refocused on enterprise and government; a new CEO took over in August 2026.
+
+Scale AI hires engineers across its data, platform and government businesses. Teams include:
+
+- **Generative AI data:** Pipelines, tooling and quality systems producing post-training and evaluation data.
+- **Enterprise AI:** The generative AI platform, with APIs for retrieval, inference and evaluation.
+- **Public Sector:** AI products for defense and government, including deployments on controlled networks.
+- **Platform and infrastructure:** Shared backend, developer experience and core infrastructure.
+- **ML research and ML systems:** Post-training, evaluation and model-systems work.
+
+### Experience and education requirements
+
+Engineering postings ask for three or more years of experience (seven or more for Staff), with Python or TypeScript, React, Node, SQL, Kubernetes and a major cloud; LLM and vector-database experience is preferred. ML research roles favor post-training or evaluation experience, often with published work.
+
+## FAQs about the Scale AI interview
+
+### How long does the Scale AI interview process take?
+
+Typically three to five weeks from recruiter call to decision; senior loops that need extra approval run longer.
+
+### What is the hardest round of the Scale AI interview?
+
+For engineers, the three-part phone screen, because all three parts must work within 60 minutes with little feedback. For ML candidates, the from-scratch NumPy and theory rounds, though the values and customer-engagement rounds have also ended strong technical loops.
+
+### How much does a Scale AI software engineer make?
+
+Posted US base ranges run about $180K–$270K for Software Engineer roles and about $248K–$310K for Staff roles, varying by team and location. Packages add equity, and the offer depends on the level assigned in interviews.
+
+### Can I use AI tools during the Scale AI interview?
+
+No. Looking up syntax, such as NumPy signatures, is allowed, but using an AI tool to generate answers is not.
 
 ---
 

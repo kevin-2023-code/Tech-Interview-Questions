@@ -43,20 +43,20 @@ Which stage each question came from, for the **23 of 23** questions at Optiver t
 
 ## What they ask about
 
-Of the **14 questions at Optiver that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Optiver that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 5 | 36% | ████████████ | Apr 28, 2026 |
-| `graphs` | 3 | 21% | ███████ | Aug 26, 2025 |
-| `arrays` | 2 | 14% | █████ | Apr 14, 2026 |
-| `binary-search` | 2 | 14% | █████ | Apr 14, 2026 |
-| `greedy` | 1 | 7% | ██ | Jan 22, 2026 |
-| `heap` | 1 | 7% | ██ | Nov 18, 2025 |
-| `intervals` | 1 | 7% | ██ | Feb 04, 2026 |
-| `math` | 1 | 7% | ██ | Nov 03, 2025 |
-| `sorting` | 1 | 7% | ██ | Feb 04, 2026 |
-| `trees` | 1 | 7% | ██ | Jun 15, 2026 |
+| `dynamic-programming` | 5 | 38% | ████████████ | Apr 28, 2026 |
+| `graphs` | 3 | 23% | ███████ | Aug 26, 2025 |
+| `arrays` | 2 | 15% | █████ | Apr 14, 2026 |
+| `binary-search` | 1 | 8% | ██ | Apr 14, 2026 |
+| `heap` | 1 | 8% | ██ | Nov 18, 2025 |
+| `intervals` | 1 | 8% | ██ | Feb 04, 2026 |
+| `math` | 1 | 8% | ██ | Nov 03, 2025 |
+| `sorting` | 1 | 8% | ██ | Feb 04, 2026 |
+| `trees` | 1 | 8% | ██ | Jun 15, 2026 |
+| `two-pointers` | 1 | 8% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

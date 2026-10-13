@@ -10,13 +10,39 @@ How Gusto interviews, and the questions candidates reported there. Free question
 | :-- | :-- |
 | Questions reported | [5](../gusto.md) |
 | Free to read here | 2 |
-| Interview-process guides | 0 |
+| Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 01, 2026 |
 
 ## How Gusto interviews
 
-No written process guide yet. [The loop, as reported](../gusto.md#the-loop-as-reported) counts which round each reported question came from.
+Gusto's coding rounds are payroll logic in miniature: progressive tax brackets, splitting money under per-person caps, and turning logs into statistics. Code must run and get rounding right. The design round is mostly a data-modeling exercise, and the loop includes a values conversation that may be led by someone outside engineering; in one recent loop it was a member of the legal team.
+
+This guide breaks down each stage of the Gusto interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 3 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Gusto interview process
+
+<!-- guide-diagram -->
+![Gusto interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/gusto/process.webp)
+<!-- guide-diagram -->
+
+The loop typically runs a recruiter or hiring-manager screen, a live technical screen, then an on-site of three to five rounds; one recent Software Engineer on-site ran five rounds over two days. The process typically takes three to five weeks.
+
+Mid-level loops center on two coding rounds plus one design round. Staff loops open with a manager screen on past projects and push the design round toward architecture and scale.
+
+Here's what the interview process can look like:
+
+- **Recruiter or manager screen:** A short call on background and level; at staff level a hiring manager runs it as a project deep dive.
+- **Technical screen:** A live coding exercise of about an hour, usually a practical parsing or aggregation problem.
+- **Coding interviews (on-site):** Two rounds of money-flavored problems such as tax calculation and money distribution, extended with follow-ups.
+- **System design interview:** A scheduling system judged mostly on its data model, with architecture and scale added at senior levels.
+- **Behavioral and values interviews:** An engineering-manager behavioral round plus a separate values-alignment conversation.
+
+> **Tip:** Confirm your level and team in writing after every stage. One staff candidate applied for a senior staff role on one team and found out mid-loop that both the level and the team had been changed without notice.
+
+**[Read the full Gusto interview process →](interview-process.md)**
 
 ## Free Gusto questions
 

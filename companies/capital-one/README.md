@@ -16,19 +16,33 @@ How Capital One interviews, and the questions candidates reported there. Free qu
 
 ## How Capital One interviews
 
-Capital One runs one of the most distinctive loops among large engineering employers: part software interview, part consulting-style case, delivered on a compressed schedule with unusually fast decisions. This guide goes deeper than the process outline on the company page, drawing on 25 real Capital One questions and 28 candidate interview reports to show how each stage is actually graded and where candidates lose points.
+Capital One mixes a software interview with a consulting-style case. Most tracks sit a proctored coding assessment, then a Power Day of about four hour-long rounds in which a card-product case carries as much weight as coding. The assessment is an unusually strict filter: candidates who solved every problem and scored 512 or 540 out of 600 were still rejected without speaking to an interviewer. On Power Day, engineers build an incremental banking class against a test harness they write themselves.
 
-### Interview Process
+This guide breaks down each stage of the Capital One interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 34 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Capital One interview process
 
 <!-- guide-diagram -->
 ![Capital One interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/capitalone/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact and logistics.** Cold recruiter outreach is a common entry channel alongside referrals and direct applications. The recruiter call is worth using aggressively: candidates report that recruiters share preparation materials and offer an optional prep call before the final block, both of which telegraph the exact round structure. The full process commonly runs about a month, but the back end is fast — offers have arrived one to three days after the final round. One practical tip from a successful candidate: after finishing the online assessment, follow up with the recruiter to confirm completion rather than waiting silently.
+The round types barely change from team to team; what changes by track is what fills each slot. Software engineers get coding, banking system design, a case and behavioral. Data scientists swap coding for a data challenge and a second case. Machine learning engineers add ML fundamentals and deployment screens. Applied researchers add a research presentation. The process commonly takes about a month. Decisions come fast once Power Day is over, and one candidate had an offer the next day.
 
-**Online assessment.** Most software and data roles start with a proctored CodeSignal test — typically 70 minutes for four problems, webcam on, with a photo ID upload before starting. Candidates consistently describe scoring out of 600, with a rough passing bar around 400 — but the bar is unpredictable: candidates scoring 512 and 540 with all four problems solved have still been rejected, so treat a strong score as necessary rather than sufficient. The problem style is distinctive: careful simulation and specification-following rather than clever algorithms. Recurring patterns include matrix transformations and layer traversal, tetris-like shape placement on a grid, round-robin allocation with capacity limits and closures, string segment counting after deletions, pair counting with concatenation or sum targets, and digit-property counting. Usually one or two of the four hide a performance trap where brute force times out; the rest reward clean, literal implementation. Triage order matters — several reports flag the third slot as the time sink and recommend banking the quick wins first.
+New-grad and Technology Development Program loops are lighter, with hash-map and class-design coding. Senior engineers may sit two design rounds. In 2026 reports, Power Day ran about 4.5 hours virtually, sometimes split across two days.
 
-**Technical screen.** When a screen is used before the final block, it varies by team: some candidates get a largely behavioral project deep-dive (root-causing a hard bug, handling a difficult stakeholder, a hypothetical about being blocked by an infrastructure team), while others get coding plus practical engineering discussion. Either way it is graded on communication and ownership, not just answers.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A short call on background, level and motivation, followed by written prep material.
+- **Online assessment (most tracks):** Four proctored coding problems in 70 minutes, scored out of 600. Data science may instead get a take-home data challenge.
+- **Technical phone screen (some teams and tracks):** A project deep dive, behavioral scenarios, or for ML candidates, fundamentals plus a coding-and-deployment hour.
+- **Coding interview (Power Day):** An incremental banking class or a medium data-structures problem, tested with your own harness.
+- **System design interview (Power Day, engineering):** A banking or credit card platform graded on correctness more than scale.
+- **Case interview (Power Day):** A product and rules case that ends in debugging code for engineers, or one or two profitability cases for data science.
+- **Behavioral interview (Power Day):** Themed STAR question sets with deep follow-ups and, in recent loops, questions about using AI at work.
+
+> **Tip:** Ask the recruiter for the prep packet and accept the optional prep call. Candidates say they match the real round formats closely.
 
 **[Read the full Capital One interview process →](interview-process.md)**
 

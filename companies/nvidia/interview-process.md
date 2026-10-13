@@ -8,75 +8,266 @@
 
 ---
 
-NVIDIA does not run one standardized loop: the team you interview with decides the format, the depth, and even the number of rounds, so preparation is mostly about anticipating how a given team will probe you. This guide goes beyond the process outline on the company page, drawing on 17 real NVIDIA questions and 18 candidate interview reports to show what each stage actually feels like and where candidates get caught out.
+NVIDIA has no central loop. The hiring team writes it, the hiring manager owns the decision, and the format follows the team's domain: an HPC team may open with fleet design, an inference team with quantization math, a system-software team with five short coding rounds. The coding is often easier than candidates expect. Rejections come from what follows it: cache behavior, failure handling, and a resume reopened in nearly every round by long-tenured engineers, many with hardware backgrounds.
 
-## Interview Process
+This guide breaks down each stage of the NVIDIA interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 19 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+## NVIDIA interview process
 
 <!-- guide-diagram -->
 ![NVIDIA interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/nvidia/process.webp)
 <!-- guide-diagram -->
 
-**Phone screens are unpredictable in format, not in intent.** Candidates report screens that were pure system design (one opened directly with designing a control plane for roughly 1,000 HPC hosts), screens that were a single coding problem stretched across the whole hour, screens that mixed one easy problem with a rapid-fire domain quiz, and screens that never left the resume. Whatever the format, the interviewer is testing whether you can reason aloud: clarify constraints before committing, state an approach, and defend the trade-offs. Several candidates lost ground by mis-assuming a requirement (capacity in bytes versus item count, insertion order versus access order) rather than asking.
+The usual sequence is a recruiter call, one or two technical screens of about an hour, and a team loop. Reported loops ranged from four phone conversations to nine one-hour rounds with nine interviewers for a senior data platform role. End to end, it runs about three weeks to two months.
 
-**The team loop is a sequence of near-identical units.** A representative onsite ran five team-member rounds plus a hiring-manager round, and every team-member round followed the same template: a short resume walkthrough, a few behavioral questions, then a 15–20 minute coding problem on the easier side, graded mostly on how clearly you explain the approach and its complexity. Loops are often compressed into a single 4–6 hour video block. Specialized and senior roles can run much longer — one data-platform loop stretched to nine one-hour rounds with nine different interviewers, spanning coding, design, domain depth, behavioral, and a recruiter close.
+New-grad loops lean on short coding problems and fundamentals. Senior loops add system design, a hiring-manager round that mixes design with domain depth, and sometimes a director conversation. Infrastructure Engineer loops weight distributed design and operational coding; Machine Learning Engineer loops weight deep-learning theory, tensor code written from a formula, and inference performance, often in C++.
 
-**The hiring-manager round carries the most weight.** Candidates consistently describe it as the highest-pressure conversation: an in-depth resume interrogation, behavioral scenarios, a system design exercise, and a deep dive into your domain expertise, back to back. Managers push past your prepared narrative — why that technology, what broke, what you personally wrote, what you would redo.
+Here's what the interview process can look like:
 
-**Decisions come in batches, not rolling.** NVIDIA typically interviews several candidates for an opening and compares them before deciding, so silence after a strong loop is common. Rejections have arrived about a week after the final round; pending states can drag longer. Scheduling is also a known weak spot — candidates report cancelled calls without explanation, no-show interviewers, and quiet recruiters. Treat logistics friction as normal, follow up politely, and keep preparing for the next likely stage while you wait.
+- **Recruiter screen:** A 30 to 45 minute call on background, motivation and domain, which decides the loop you get.
+- **Technical phone screen (one or two):** About an hour mixing a resume walkthrough with coding, design or domain questions.
+- **Coding interviews:** Several loop rounds, each opening with your resume and closing with a 15 to 20 minute practical problem.
+- **System and low-level design interviews:** Fleet control planes, telemetry and latency-bound serving, plus object design with strict invariants.
+- **Domain deep dive:** GPU architecture, inference optimization, deep-learning theory or data-platform depth, matched to the team.
+- **Hiring manager and behavioral interview:** The highest-pressure round: resume interrogation, behavioral scenarios and often a design exercise.
 
-## What Candidates Report
+> **Tip:** Ask the recruiter what the team ships and whether it works on training or inference, cluster or device. One candidate prepared for training frameworks and met a team focused almost entirely on inference serving.
 
-- Coding bars vary wildly by interviewer, from character counting and bracket matching to a four-dimensional dynamic programming problem where greedy provably fails. Broad fundamentals beat memorizing any tagged question list, which candidates found did not match reality.
-- Correct code is the midpoint, not the finish. A matrix transpose becomes a conversation about row-major access, cache behavior, tiling, and prefetching; a working solution invites questions about what changes at 100x the input size.
-- Interviewers can be strikingly quiet — several candidates finished a clean solution to silence, with no follow-ups and no feedback. Keep narrating assumptions and tests instead of reading the room.
-- Every round tends to reopen the resume. Interviewers chase the architecture, the bottleneck, and your individual contribution on past projects, and hardware-adjacent or telemetry-related work draws especially close inspection.
-- At least one team hands you a large, buggy C++ codebase and lets you use an AI coding assistant, grading how you localize root causes and verify the tool's suggestions rather than raw typing speed.
-- Time management sinks people: polishing an early coding solution too long left candidates without time for the domain-discussion half of the session, which is where teams differentiate.
+## Recruiter screen
 
-## Coding Questions
+The call is short and mostly about routing: background, why NVIDIA, location and work authorization, and which team your experience maps to. Logistics are uneven: one call was cancelled without explanation and another interviewer never joined. In one nine-round loop, compensation and visa questions came last, in a separate recruiter round.
 
-NVIDIA coding rounds favor short, practical problems — log aggregation, threshold detection, encode/decode protocols — over contest puzzles, but any of them can escalate into memory layout, complexity, or scale discussion. Practice finishing cleanly in 20 minutes while explaining out loud.
+Interviewers evaluate:
 
-- [Longest Substring Without Repeating Characters](../../questions/algorithm/longest-substring-without-repeating-characters/README.md)
-- [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout)
+- **Domain match:** Whether your work maps to the team's stack: CUDA and C++, cluster operations, inference engines or data pipelines.
+- **Level signal:** The scale of systems you have owned, which sets the target level.
+- **Motivation:** A specific reason for this team's product, not a general interest in AI.
+
+Prepare a two-minute summary naming the systems you built and the hardware or scale they ran on.
+
+### Sample questions for the recruiter screen
+
+Here are some questions reported by recent candidates:
+
+- Tell me about yourself and your current role.
+- Why NVIDIA, and why are you leaving your current company?
+
+- [Explain NVIDIA fit and role value](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value)
+- [Introduce yourself for a senior role](https://trueinterview.io/questions/introduce-yourself-for-a-senior-role)
+
+## Technical phone screen
+
+An engineer from the hiring team runs it live for about an hour. Formats vary: one coding problem plus domain questions, a single problem stretched across the hour, pure system design, or a resume walkthrough with no code. Some loops have two screens, and one had two interviewers on the same call. Difficulty varies too. One screen opened with counting character frequencies and escalated to a four-dimensional dynamic program for choosing subarrays under length and count limits, where greedy fails. Others asked for Excel column titles in both directions or a three-sum with duplicates handled.
+
+Machine Learning Engineer screens are often theory or hardware questions instead of code; Infrastructure Engineer screens lean toward design and data-structure prompts. Several candidates finished a clean solution to no follow-up and no reaction.
+
+Interviewers evaluate:
+
+- **Clarifying before committing:** One candidate assumed a disk manager's capacity meant item count rather than total bytes, which changed the whole eviction rule.
+- **Approach before code:** Data structures and complexity stated first; several screens accepted a sketch or pseudo code.
+- **Follow-up depth:** Length prefix versus fixed-width encoding, malformed input, and bounded reads so a corrupt length cannot exhaust memory.
+- **Time split:** One candidate over-polished a three-sum and squeezed the domain half of the call.
+
+Practice hour-long sessions that pair one problem with ten minutes of trade-off discussion.
+
+> **Note:** Silence is not a signal. Several candidates got no feedback during or after a correct answer, and outcomes in the reports did not track interviewer demeanor.
+
+### Sample questions for the technical phone screen
+
+Here are some questions reported by recent candidates:
+
+- Build a disk space manager that evicts datasets by insertion order until a new one fits, and rejects anything larger than total capacity.
+- Implement a key-value store with set, get and a setAll that later per-key writes must override, without touching every entry.
+- Find a pointer-arithmetic bug in a C snippet, then transpose a matrix in place and with extra memory.
+
+- [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall)
 - [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding)
+- [Compress and Decompress String (Excel-like Encoding)](https://trueinterview.io/questions/855bd20f-2c9a-4217-822e-2130419c0b5f)
+- [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f)
+
+## Coding interviews
+
+Loop coding rounds are short and practical. In one in-person system software loop, all five team rounds ran the same way: a resume walkthrough, a few behavioral questions, then one 15 to 20 minute problem on the easier side. The problems were operational: threshold detection on CPU temperature readings, bracket matching, log aggregation by HTTP status code, the minimum array sum after K increments, and the most trees on a grid with no two adjacent. Another loop asked for the node in a weighted tree minimizing total distance to three given nodes. Company-tagged practice lists did not match what candidates got.
+
+Interviewers evaluate:
+
+- **Clear narration:** Restating the problem, naming the approach and giving complexity unprompted.
+- **Edge cases:** Empty input, ties and malformed records, tested aloud.
+- **Pace:** Finishing well inside 20 minutes, since the resume and behavioral segments share the hour.
+- **Consistency:** The unit repeats four to six times in a day, so one sloppy round stands out.
+
+Drill 20-minute reps on parsing, aggregation, stack and greedy problems with mandatory narration.
+
+### Sample questions for the coding interviews
+
+Here are some questions reported by recent candidates:
+
+- Detect a temperature spike above a threshold in a stream of CPU time and temperature pairs.
+- Group log entries by HTTP status code and output each code's count and average response time.
+- Find the maximum number of trees on a grid when no two may touch, diagonals included.
+
 - [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding)
+- [Minimum Sum After K Operations](https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2)
+- [Tree Planting on a Grid (no adjacent trees)](https://trueinterview.io/questions/bd352d63-afa7-4443-b0fa-3b3dfcb9948a)
+- [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390)
 
-## System Design Questions
+## System and low-level design interviews
 
-Design exercises lean toward NVIDIA's own operational world: fleets of hosts, telemetry at multiple resolutions, ML models serving under strict latency budgets. Interviewers probe failure handling hardest — leader election, split-brain, zero-downtime model rollout — so budget your time to reach the reliability discussion.
+Design prompts come from NVIDIA's own operations. One HPC screen asked for a central service tracking about 1,000 hosts. It moved from 10-second heartbeats with a 30-second miss window and jitter to leader election for the sweeper, replicated storage with failover, and fencing against split-brain. Others asked for fraud scoring at 10,000 requests per second inside 50 milliseconds with zero-downtime model swaps. A data platform loop asked for a telemetry collector at 30-second and 1-second resolution and a SQL chatbot that must enforce per-user access and avoid a cluster-crashing cross join.
+
+Low-level design is graded on invariants: a bank-transfer object that stays atomic, a graph builder that rejects cycles, a rate limiter. The interviewer's background shapes the round. A rate limiter posed by an embedded-systems engineer went toward request accounting rather than distributed coordination.
+
+Interviewers evaluate:
+
+- **Arithmetic from the prompt:** 1,000 hosts every 10 seconds is only about 100 requests per second, so the hard part is connections and coordination.
+- **Failure mechanics:** Leader election, fencing, failover and rolling deploys that drop nothing.
+- **Degradation paths:** Backpressure, pre-warmed capacity and shedding non-critical checks under spikes.
+- **Invariants first:** Atomicity, eviction order and validation rules stated before data structures.
+
+Practice one fleet-management design and one latency-bound serving design all the way to the failure discussion.
+
+> **Note:** Correct boxes do not pass the round. The decisive time was the second half, on split-brain, failure mid-deploy and saturation; designs that stopped at the happy path lost signal.
+
+### Sample questions for the system and low-level design interviews
+
+Here are some questions reported by recent candidates:
+
+- Design a service that tracks liveness and state for about 1,000 HPC hosts with no single point of failure.
+- Design a dashboard showing three months of GPU utilization that drills down to per-GPU, per-second detail.
+- Build a graph that supports node insertion and edge configuration, then validates it for cycles and dependency order.
 
 - [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination)
 - [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system)
+- [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard)
+- [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety)
+- [Computation / Dependency Graph Validation and Pruning](https://trueinterview.io/questions/graph-validation-and-pruning)
 
-## Low-Level Design Questions
+## Domain deep dive
 
-Object-design exercises here reward defining the interface and invariants before touching data structures. Reported problems center on stateful stores with eviction or bulk-update semantics, where the naive approach works but an interviewer expects the lazy, O(1) refinement and a clear account of edge cases.
+This is where teams differ most. Machine Learning Engineer candidates have faced a 45-minute screen of pure optimization theory: convexity and global minima, gradient variance by batch size, sharp versus flat minima. Hardware-aware screens covered SRAM versus HBM, threads per block, tiling for matrix multiply, Amdahl's law and C++ virtual dispatch. Implementation rounds asked for an attention variant with a distance-decay bias inside a working training loop, or 2-D convolution in NumPy with no explicit loops.
 
-- [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall)
+Inference teams go deeper into systems. One six-round loop covered FP32-to-Int8 quantization, a cache-aware C++ transpose, channel pruning with dynamic kernel selection, and a large C++ codebase with a memory leak and a race condition, debugged with an AI coding assistant allowed. Data candidates got GPU cluster monitoring, Spark skew and idempotent ingestion.
 
-## Behavioral Questions
+Interviewers evaluate:
 
-Behavioral assessment is woven into nearly every round rather than isolated in one. Expect integrity scenarios, motivation questions, curiosity checks (the last engineering book you read, a favorite technical blog post), and repeated tests of whether you can explain deep technical work to different audiences.
+- **Hardware reasoning:** Explaining a speedup in terms of memory bandwidth, locality or the parallel fraction.
+- **Math to code:** The right softmax axis, a loop-free index bias, and correct optimizer wiring.
+- **Measurement discipline:** Which device, baseline and metric proved an optimization worked.
+- **Tool judgment:** Directing the AI assistant and verifying its patches rather than accepting them.
 
-- [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits)
+Read the team's product documentation and prepare to defend one optimization you shipped, with numbers.
+
+> **Tip:** Even non-engineering technical roles write code here. A technical marketing candidate whose posting mentioned no coding was asked to implement 2-D convolution in NumPy.
+
+### Sample questions for the domain deep dive
+
+Here are some questions reported by recent candidates:
+
+- Implement attention biased by the negative absolute distance between positions, then train a small model with it and show the loss falling.
+- Explain asymmetric FP32-to-Int8 quantization, including how to choose the scale factor and zero point.
+- Compare tensor and pipeline parallelism and say when to choose each.
+
+- [FP32 Tensor to Int8 Quantization](https://trueinterview.io/questions/fp32-to-int8-quantization)
+- [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop)
+- [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout)
+- [C++ Project Debugging with AI Tools](https://trueinterview.io/questions/cpp-debugging-with-ai-tools)
+
+## Hiring manager and behavioral interview
+
+Behavioral questions run through nearly every round, but the hiring manager's hour carries the most weight. Candidates describe it as the highest-pressure conversation: detailed resume interrogation, behavioral scenarios, a design exercise such as a URL shortener, and a domain deep dive in one session. Some loops add a director conversation with hypotheticals. Longer loops have a culture round on integrity, what motivates and demotivates you, and the last engineering and non-engineering books you read.
+
+Interviewers evaluate:
+
+- **Ownership:** Exactly which parts of a project you wrote, measured and would redo.
+- **Intellectual honesty:** Admitting what failed and what you do not know, a value NVIDIA states formally.
+- **Curiosity:** A real answer on recent reading and which skills you would build in the role.
+
+Prepare a twenty-minute defense of each resume project: architecture, scale, bottleneck, failures and your contribution.
+
+### Sample questions for the hiring manager and behavioral interview
+
+Here are some questions reported by recent candidates:
+
+- Walk through a past project on hardware telemetry or resource monitoring: architecture, challenges and results.
+- Tell me about a situation that tested your integrity at work.
+
 - [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive)
-- [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals)
-- [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/questions/deep-learning-fundamentals)
+- [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits)
+- [Resolve conflict and learn from failure](https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure)
 
-## How to Prepare
+## How NVIDIA makes hiring decisions
 
-- Drill 20-minute coding reps with mandatory narration: restate the problem, name the approach, code, test aloud, state complexity. The loop repeats this unit four to six times in a day, so consistency matters more than peak difficulty.
-- For every resume project, prepare a two-minute summary and a twenty-minute defense covering architecture, scale, bottleneck, failure history, measurements, and exactly which parts you built. Assume each interviewer will reopen it.
-- Rehearse escalation paths for simple problems: after solving a transpose or an interval merge, explain what changes for cache-unfriendly sizes, concurrent access, or streaming input. This second layer is where NVIDIA rounds are actually decided.
-- Practice one fleet-management design and one low-latency ML-serving design end to end, reaching heartbeats, replication, leader election, rollout strategy, and overload behavior — not just the happy-path boxes.
-- Build a habit of interrogating requirements before coding; multiple candidates traced failures to a single unchecked assumption in the first two minutes.
-- Prepare for an evaluation environment with little feedback and possible scheduling churn: have answers ready for integrity and motivation questions, bring genuine questions about the team's workload, and do not interpret silence as failure.
+The hiring team owns the decision: interviewers file feedback and the hiring manager weighs it, with no central committee. The team sets the level from the scope of your past work. Because each team hires for its own opening, a strong loop can end without an offer if another finalist fits the domain better. Rejections arrived about a week after the final round, usually without explanation. There is no published cooldown; a rejection is tied to the team and opening, and candidates have later interviewed with other teams.
+
+> **Tip:** Treat scheduling friction and silence as normal. Keep preparing between stages, since recruiters sometimes announce coding rounds only after a resume-only first call.
+
+## How to prepare for the NVIDIA interview
+
+1. **Find the team's domain first:** Training or inference, cluster or device; prepare the matching deep-dive topics.
+2. **Drill the 20-minute coding unit:** Parsing, aggregation and stack problems, narrated and tested aloud, several in a row.
+3. **Escalate your own solutions:** After any transpose or interval merge, explain what changes for cache-hostile sizes or streaming input.
+4. **Rehearse two designs to failure:** A fleet control plane and a latency-bound serving system, through fencing, failover and saturation.
+5. **Learn the hardware vocabulary:** Memory hierarchy, threads per block, tiling, Amdahl's law and quantization math.
+6. **Write tensor code without a library call:** Attention, convolution and a training step, from the formula, without loops.
+7. **Clarify every requirement:** Ask about units, ordering and limits early; several failures traced to one unchecked assumption.
+
+## About working at NVIDIA
+
+NVIDIA builds GPUs and the stack around them: CUDA and math libraries, inference and training software, networking, data-center systems, and graphics, automotive and robotics platforms. Specialized teams hire for themselves. The code of conduct lists five values: innovation, intellectual honesty, speed and agility, excellence and determination, and one team.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| IC1–IC2 (Software Engineer) | Delivering defined features with guidance | Tasks within one team |
+| IC3–IC5 (titles carrying Senior) | Owning components and leading technical direction | One team, then several |
+| IC6 (Principal) | Architecture across products | An organization |
+| IC7 (Distinguished) | Company-wide technical strategy | Multiple organizations |
+
+The IC number, not the title, sets the pay band, so confirm it with the recruiter. NVIDIA hires engineers across many organizations. Teams include:
+
+- **GPU compute software:** Compilers, drivers, CUDA libraries and system software for GPUs and SoCs.
+- **Deep learning software:** Inference engines such as TensorRT, training frameworks and performance work.
+- **Networking:** InfiniBand and Ethernet switching, adapters and their software.
+- **Data-center infrastructure:** GPU clusters, HPC fleets, telemetry and internal platforms.
+- **Autonomous vehicles and robotics:** Perception and embedded platforms for DRIVE and robotics products.
+
+### Experience and education requirements
+
+New-graduate postings ask for a bachelor's, master's or PhD in computer science, computer engineering, electrical engineering or a related field, or equivalent experience. Systems and infrastructure roles center on C and C++, Linux and parallel programming; ML roles add Python, PyTorch and GPU performance work. Senior system software postings commonly ask for eight or more years of experience.
+
+## FAQs about the NVIDIA interview
+
+### How long does the NVIDIA interview process take?
+
+Typically three weeks to two months from first call to decision, longer for specialized and senior loops.
+
+### What is the hardest round of the NVIDIA interview?
+
+Most candidates name the hiring manager round, which packs resume interrogation, design and domain depth into one hour. For ML candidates, the implementation round is close behind.
+
+### Is there an online assessment?
+
+Not in the reported engineering loops. Screens are live sessions with an engineer in a shared editor.
+
+### What language should I use?
+
+C or C++ for systems, inference and infrastructure teams, which ask about pointers, virtual functions, memory layout and races. Python with NumPy and PyTorch for ML and data roles.
+
+### How much does an NVIDIA engineer make?
+
+Posted US base salary ranges in 2026 engineering listings:
+
+- **Level 3:** $152K–$241.5K base
+- **Level 4:** $184K–$287.5K base
+- **Level 5:** $224K–$356.5K base
+
+Restricted stock units come on top of base pay.
 
 ## Guides by Role
 
-- [NVIDIA Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 - [NVIDIA Infrastructure Engineer Interview Process](interview-process-infrastructure-engineer.md)
+- [NVIDIA Machine Learning Engineer Interview Process](interview-process-machine-learning-engineer.md)
 
 ---
 

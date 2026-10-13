@@ -46,20 +46,20 @@ Which stage each question came from, for the **26 of 26** questions at Shopify t
 
 ## What they ask about
 
-Of the **15 questions at Shopify that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Shopify that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 33% | ████████████ | Apr 28, 2026 |
-| `strings` | 4 | 27% | ██████████ | May 12, 2026 |
-| `linked-list` | 3 | 20% | ███████ | Apr 14, 2026 |
-| `arrays` | 2 | 13% | █████ | Aug 29, 2025 |
-| `backtracking` | 2 | 13% | █████ | May 12, 2026 |
-| `dynamic-programming` | 2 | 13% | █████ | Aug 29, 2025 |
-| `stack` | 2 | 13% | █████ | Aug 29, 2025 |
-| `matrix` | 1 | 7% | ██ | — |
-| `trees` | 1 | 7% | ██ | Jun 15, 2026 |
-| `tries` | 1 | 7% | ██ | Jun 15, 2026 |
+| `hashing` | 4 | 31% | ████████████ | Apr 28, 2026 |
+| `strings` | 4 | 31% | ████████████ | May 12, 2026 |
+| `arrays` | 2 | 15% | ██████ | Aug 29, 2025 |
+| `backtracking` | 2 | 15% | ██████ | May 12, 2026 |
+| `dynamic-programming` | 2 | 15% | ██████ | Aug 29, 2025 |
+| `linked-list` | 2 | 15% | ██████ | Apr 14, 2026 |
+| `matrix` | 1 | 8% | ███ | — |
+| `stack` | 1 | 8% | ███ | Aug 29, 2025 |
+| `trees` | 1 | 8% | ███ | Jun 15, 2026 |
+| `tries` | 1 | 8% | ███ | Jun 15, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

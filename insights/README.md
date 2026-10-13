@@ -50,7 +50,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,426 | 59% | 201 | 431 | 1,484 | 511 | 2,426 | 288 |
+| [Algorithm](../formats/algorithm.md) | 2,426 | 59% | 201 | 431 | 1,484 | 511 | 2,426 | 285 |
 | [SQL](../formats/sql.md) | 297 | 7% | 38 | 65 | 179 | 53 | 297 | 6 |
 | [System Design](../formats/system-design.md) | 700 | 17% | 136 | 28 | 367 | 305 | 700 | 34 |
 | [AI Coding](../formats/ai-coding.md) | 109 | 3% | 1 | 7 | 73 | 29 | 109 | 9 |
@@ -85,22 +85,22 @@ Of the **4,121 questions that name a round** (100% of the bank):
 
 ## Topics
 
-Of the **2,406 questions that carry a topic label** (58% of the bank — the rest are unlabelled, which is not the same as having no topic):
+Of the **2,326 questions that carry a topic label** (56% of the bank — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
-| `hashing` | 412 | 17% | 50 | ████████████████ |
-| `graphs` | 346 | 14% | 37 | █████████████ |
-| `arrays` | 340 | 14% | 31 | █████████████ |
-| `strings` | 320 | 13% | 28 | ████████████ |
-| `greedy` | 212 | 9% | 18 | ████████ |
-| `math` | 192 | 8% | 25 | ███████ |
-| `dynamic-programming` | 179 | 7% | 13 | ███████ |
-| `sorting` | 178 | 7% | 22 | ███████ |
-| `trees` | 164 | 7% | 22 | ██████ |
+| `hashing` | 407 | 17% | 48 | ████████████████ |
+| `arrays` | 338 | 15% | 31 | █████████████ |
+| `graphs` | 338 | 15% | 35 | █████████████ |
+| `strings` | 318 | 14% | 28 | █████████████ |
+| `greedy` | 196 | 8% | 13 | ████████ |
+| `dynamic-programming` | 179 | 8% | 13 | ███████ |
+| `math` | 178 | 8% | 21 | ███████ |
+| `sorting` | 176 | 8% | 21 | ███████ |
+| `trees` | 163 | 7% | 21 | ██████ |
 | `backtracking` | 135 | 6% | 18 | █████ |
-| `matrix` | 135 | 6% | 18 | █████ |
-| `heap` | 129 | 5% | 20 | █████ |
+| `matrix` | 132 | 6% | 16 | █████ |
+| `binary-search` | 118 | 5% | 6 | █████ |
 
 [**Every topic, with difficulty mix and who asks it →**](topics.md)
 
@@ -145,11 +145,11 @@ The closest thing this data has to an instruction. A question reported at one em
 
 | Plan needed | Questions | Share of bank |
 | :-- | --: | --: |
-| Free | 398 | 10% |
+| Free | 395 | 10% |
 | Pro | 78 | 2% |
-| Insider | 3,645 | 88% |
+| Insider | 3,648 | 89% |
 
-<sub>Straight from the catalog's own `accessTier`, never asserted here. The **398 free ones are listed in full** — [start there](../free/README.md).</sub>
+<sub>Straight from the catalog's own `accessTier`, never asserted here. The **395 free ones are listed in full** — [start there](../free/README.md).</sub>
 
 ## Month by month
 

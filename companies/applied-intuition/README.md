@@ -16,19 +16,32 @@ How Applied Intuition interviews, and the questions candidates reported there. F
 
 ## How Applied Intuition interviews
 
-Applied Intuition builds its interview almost entirely out of its own product surface: expression parsers, vehicle simulators, sensor logs, and replay systems show up as the coding problems themselves, and the rounds reward finished, running code over algorithmic elegance. Going deeper than the outline on the company page, this guide draws on 16 real Applied Intuition questions and 15 candidate interview reports to show what each stage contains, how it is paced, and where candidates fall out.
+Applied Intuition writes its coding problems around its own products. Candidates see expression evaluators, vehicle collision simulators, telemetry logs, protobuf schemas and simulation replay systems, and the bar is finished, running code within the hour rather than an elegant approach on a whiteboard. Coding speed is graded openly. The loop closes with a leads chat that walks through every major decision in your life, and the expectation of five office days a week and long weeks is stated before the first technical round.
 
-### Interview Process
+This guide breaks down each stage of the Applied Intuition interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 13 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Applied Intuition interview process
 
 <!-- guide-diagram -->
 ![Applied Intuition interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/applied-intuition/process.webp)
 <!-- guide-diagram -->
 
-**Recruiter contact.** A large share of candidates enter through outbound recruiting rather than an application, and the opening call is longer and more substantive than a typical scheduling chat. Reports describe roughly 30 minutes covering background, motivation, and what you are looking for — and, notably, an explicit statement of the working expectation, with one candidate told during the recruiter call to plan on 50-hour weeks and full five-day office attendance. Referred candidates have had the matched team named before the first technical round, with a separate conversation with that team's lead arranged afterward. Some processes fold a light culture-fit conversation into this first call rather than saving it for the end.
+Hiring runs by team, and the domain shows through: a robotics screen centered on a kinematics simulation, while other loops leaned on job monitoring, key-value stores or vehicle log analysis. The structure is fairly stable. After a recruiter call, candidates take one technical screen (sometimes an online assessment instead), then an onsite of three to five rounds. Reported processes ranged from a single technical round to six rounds, and the process typically takes two to four weeks.
 
-**Online assessment.** Not every candidate sees one, but when it appears it is a single substantial algorithmic problem rather than a battery of short ones. The reported example is a grid world with traversable land, obstacles, and roads, where you must place a camp so total distance to every point of interest is minimized — obstacle-aware shortest paths, then multi-source aggregation. The same problem has also been given live as a phone screen, so the OA pool and the screen pool overlap.
+Onsites happen at the Sunnyvale or Palo Alto office or as a virtual block. One 2026 virtual onsite opened with a 30-minute group introduction, followed by three 45-minute coding rounds and a 45-minute hiring-manager conversation. New grads mostly see coding rounds. Experienced candidates add a system design round and a resume project deep dive, and ML-leaning teams swap in ML system design and an ML fundamentals round.
 
-**Technical phone screen.** Reported screens run about 45 to 60 minutes with an engineer, including discussion and follow-ups, and the defining risk is volume: one candidate was given three separate problems inside a single phone round — a mini compiler, a modified grid-traversal problem, and a first-collision simulation for n vehicles with constant speed, yaw rate, and a collision radius. The recurring families are narrow and worth recognizing on sight. Expression and dependency evaluation dominates: parsing assignment statements such as `x = 5` and `y = x + 3`, resolving values through a dependency graph with depth-first search and memoization, then extending to unresolved variables and cycle detection. Serialization and schema work is the second family — a message parser with `get_size` and `get_type` over primitives and nested types, and validating JSON payloads against a protobuf schema including optional fields. The third is telemetry processing: parsing a JSON log of vehicle velocities to find the fastest vehicle and the widest velocity range, computing a five-second sliding-window average, and filtering outliers. Some candidates also get a data-analysis-flavored screen as a separate second phone round rather than a single screen.
+Here's what the interview process can look like:
+
+- **Recruiter screen:** A roughly 30-minute call on background, motivation, the matched team, and working expectations.
+- **Online assessment (some candidates):** A single substantial grid or graph problem, used in place of the live screen.
+- **Technical phone screen:** A 45–60 minute live coding session built on a domain problem, sometimes with two or three problems in one sitting.
+- **Onsite coding interviews:** Two or three practical implementation rounds (geometry, parsing, data processing), and recently a hands-on round with an AI coding assistant.
+- **System design interview (experienced hires):** Simulation lifecycles, time-series replay, storage and data that does not fit in memory.
+- **Leads chat:** A conversation with one or two leads about your decisions, motivation, career arc and attitude toward the work.
+
+> **Tip:** Treat every coding round as a timed build. Get a working baseline running in the first 20–25 minutes, because each reported problem had a second or third stage (caching, cycles, missing references, a new message type) that only comes once the core works.
 
 **[Read the full Applied Intuition interview process →](interview-process.md)**
 

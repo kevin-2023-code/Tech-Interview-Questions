@@ -57,20 +57,20 @@ Which stage each question came from, for the **107 of 107** questions at DoorDas
 
 ## What they ask about
 
-Of the **41 questions at DoorDash that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **39 questions at DoorDash that carry a topic label** (36% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 7 | 17% | ████████████ | Sep 01, 2026 |
-| `hashing` | 7 | 17% | ████████████ | Aug 16, 2026 |
+| `arrays` | 7 | 18% | ████████████ | Sep 01, 2026 |
+| `hashing` | 7 | 18% | ████████████ | Aug 16, 2026 |
 | `strings` | 6 | 15% | ██████████ | Aug 16, 2026 |
 | `trees` | 6 | 15% | ██████████ | Feb 04, 2026 |
-| `graphs` | 5 | 12% | █████████ | Apr 29, 2026 |
-| `binary-search` | 3 | 7% | █████ | Aug 16, 2026 |
-| `greedy` | 3 | 7% | █████ | Aug 16, 2026 |
-| `intervals` | 3 | 7% | █████ | Jan 09, 2026 |
-| `sliding-window` | 3 | 7% | █████ | — |
+| `graphs` | 5 | 13% | █████████ | Apr 29, 2026 |
+| `binary-search` | 3 | 8% | █████ | Aug 16, 2026 |
+| `intervals` | 3 | 8% | █████ | Jan 09, 2026 |
 | `dynamic-programming` | 2 | 5% | ███ | Feb 07, 2026 |
+| `greedy` | 2 | 5% | ███ | Aug 16, 2026 |
+| `math` | 2 | 5% | ███ | Aug 16, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

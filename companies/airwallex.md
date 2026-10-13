@@ -49,15 +49,15 @@ Which stage each question came from, for the **8 of 8** questions at Airwallex t
 
 ## What they ask about
 
-Of the **4 questions at Airwallex that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Airwallex that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `matrix` | 2 | 50% | ████████████ | Sep 10, 2026 |
-| `arrays` | 1 | 25% | ██████ | Jan 29, 2026 |
-| `dynamic-programming` | 1 | 25% | ██████ | Sep 02, 2026 |
-| `heap` | 1 | 25% | ██████ | Sep 10, 2026 |
-| `stack` | 1 | 25% | ██████ | Jan 29, 2026 |
+| `arrays` | 1 | 33% | ████████████ | Jan 29, 2026 |
+| `dynamic-programming` | 1 | 33% | ████████████ | Sep 02, 2026 |
+| `heap` | 1 | 33% | ████████████ | Sep 10, 2026 |
+| `matrix` | 1 | 33% | ████████████ | Sep 02, 2026 |
+| `stack` | 1 | 33% | ████████████ | Jan 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

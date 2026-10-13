@@ -6,97 +6,287 @@
 
 ---
 
-The most common way Software Engineer candidates lose this loop is by treating the 45-60 minute technical screen as a coding round. It usually is not one: the problem is a business-rule implementation from a small recurring set — computing a Dasher's pay from timestamped accept and deliver events is by far the most frequent — and the interviewer spends the back half on production follow-ups such as idempotent handling of a retried pay request, timeouts when the upstream order service is slow, or Redis versus a relational store. Candidates repeatedly report getting the happy path running with two minutes left and never reaching the edge cases, which is where the score lives. A second surprise sits behind it: clearing that screen does not always mean an onsite, since several candidates were told afterward that an additional code-craft screen was required first.
+DoorDash tests practical engineering, not puzzle solving. The screen is a "Code Craft" problem, usually Dasher pay or an API that aggregates three services, and it must run. The onsite adds rounds few companies use: debugging someone else's delivery code, a system design that opens with a 25-minute defense of your own past architecture, and an AI Code Craft round where using an AI coding agent is required. The question bank is small and repeats, so most rejected candidates knew the problem and lost on the clock, on concurrency follow-ups, or in the values round.
 
-## Interview Process
+This guide breaks down each stage of the DoorDash Software Engineer interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 61 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3, cross-checked against recent public accounts.
+
+## DoorDash Software Engineer interview process
 
 <!-- guide-diagram -->
 ![DoorDash Software Engineer interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/doordash--software-engineer/process.webp)
 <!-- guide-diagram -->
 
-1. **Recruiter screen (about 30 minutes).** Motivation, current scope, and level calibration. The recruiter asks which part of the marketplace you have worked on — payments, logistics, merchant services, front end — and previews the round names, because loop composition varies by team. One candidate with under three years of experience was told directly that tenure would weigh against them. The technical screen is typically scheduled within a week.
+Recruiters hire by team, but onsite interviewers often come from other teams. The 2026 loop is fairly standard: a recruiter call, one Code Craft screen, then a virtual onsite of four rounds (sometimes three or five), taken in one day or split over two. Most processes take three to eight weeks.
 
-2. **Technical phone screen (45-60 minutes, one engineer, shared editor).** One practical problem, no warm-up. Reported prompts cluster tightly: Dasher pay across overlapping order intervals with peak multipliers and cancellation credits; merging duplicate activity records by ID; a bootstrap API that sequentially calls three internal services and degrades on failure; cart validation against inventory and order limits; a hierarchical path key-value store; encoding a delivery window into five-minute interval codes; menu tree diffs; multi-source BFS on an obstacle grid. You are expected to produce running code, write your own tests, then answer 10-20 minutes of systems follow-ups on the same problem. Results typically return in one to two weeks.
+Senior and staff candidates often get an extra project deep-dive screen, sometimes with a director, and some pipelines require a second coding screen even after the first is passed. Some teams still run a classic algorithm round or an operations-incident round. Frontend-leaning loops swap in UI coding but keep a backend system design.
 
-3. **Additional code-craft screen (about 60 minutes, not every candidate).** Some pipelines insert a second live coding round before scheduling the onsite. It uses the same practical style, graded harder on structure, naming, and testability than on cleverness.
+Here's what the interview process can look like:
 
-4. **Virtual onsite (typically four rounds, sometimes three or five, back to back).** The recurring composition is a practical coding or code-craft round; a debugging round of about an hour on an unfamiliar delivery-domain codebase; a system design session that runs long — around 75 minutes — folding in domain knowledge and a project deep dive; and a values or hiring-manager round of about 45 minutes. Coding rounds want a finished, executable, tested solution. The debugging round hands you a partially working component — a Dasher picker, a round-robin dispatcher, a map component with a bad hash map initialization — and grades surgical fixes plus unit tests, not rewrites; consistent hashing usually follows as an implementation or discussion. At least one reported loop had no traditional algorithm round at all, only design and debugging.
+- **Recruiter screen:** A short call on background, your area of the marketplace and why DoorDash.
+- **Code Craft phone screen (45 to 60 minutes):** One business-logic problem coded to a running state, then production follow-ups.
+- **Onsite coding round (some loops):** Delivery-framed algorithm problems with layered follow-ups.
+- **Debugging interview (about 60 minutes):** Fix planted bugs in a dispatcher or Dasher picker, then handle concurrency and consistent hashing.
+- **System design interview (about 75 minutes):** About 25 minutes on a past project, then a payments, reviews or alerting design.
+- **AI Code Craft interview:** Build a small workflow system with an AI coding agent in your own IDE.
+- **Hiring manager and engineering values interview:** Behavioral depth, AI usage and an operational scenario.
 
-5. **AI Code Craft round (increasingly common, local IDE).** Starter code is provided and an AI assistant is explicitly permitted. Reported tasks include a workflow engine for delayed-delivery refunds and a DAG order pipeline with a timeout refund node. Interviewers watch how you scope prompts, review output, keep changes narrow, and add tests at each step.
+> **Tip:** Every technical round is scored on finishing. Agree on rules and input format in the first five minutes, get the core path running, then spend the remaining time on edge cases. One candidate who reached a working cart happy path with two minutes left expected a rejection.
 
-6. **Debrief and decision.** End to end this commonly runs three to six weeks; one candidate's calendar ran mid-February to mid-March. Several weeks of post-onsite silence is frequently reported, as are recruiter handoffs mid-process and pauses attributed to hiring freezes. Detailed feedback is essentially never given, including to candidates who cleared every technical round.
+## Recruiter screen
 
-## What They Actually Evaluate
+The call is brief: current scope, which part of the three-sided marketplace you have built for (payments, logistics, merchant or consumer systems), target level and round names. Recruiter turnover is common: one went silent for three weeks and left the company, delaying the onsite by about a month.
 
-### Coding and Algorithm
+Interviewers look for:
 
-At most two rounds, both practical. Problems come from a compact, well-circulated set built on delivery mechanics: interval sweeps over order events, greedy assignment, aggregation with deduplication, time and string parsing. Difficulty is medium and the failure mode is never the algorithm, it is the clock. Candidates lose points for over-engineering setup, for not pinning the payout or eligibility rules before coding, and for shipping code they never ran. Writing test cases unprompted is treated as signal.
+- **Marketplace relevance:** A one-line summary of systems you owned that maps onto pay, dispatch, orders or merchants.
+- **Motivation:** A specific reason for DoorDash and for leaving now, which the hiring manager asks again.
+- **Level fit:** Tenure is weighed openly; a candidate with under three years of experience was told it would count against them.
+- **Communication:** A crisp account of your role, not your team's.
 
-- [Code Craft: Generate 5-Minute Day-Time Codes](https://trueinterview.io/questions/code-craft-day-time-interval-codes)
-- [Find Eligible Order Sequence](https://trueinterview.io/questions/find-eligible-order-sequence)
-- [Code Craft: Chef Skill → Dish Profit Assignment](https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment)
+Ask which onsite rounds your team uses and in which rounds AI tools are allowed.
 
-### Low-Level Design
+### Sample questions for the recruiter screen
 
-The signature competency of this track, tested on the screen and again onsite. You get an ambiguous product requirement, negotiate the API contract live, then implement it. Graders reward a small clean object model, explicit partial-failure handling, and floors and guards on money arithmetic. Elaborate class hierarchies that never reach a working state fail; one candidate was told upfront that reaching the best-promotion logic quickly was the bar.
+Here are some questions reported by recent candidates:
 
+- Why DoorDash, and why change roles now?
+- Walk through your current scope and the systems you own.
+
+- [Explain why DoorDash and job change](https://trueinterview.io/questions/explain-why-doordash-and-job-change)
+
+## Code Craft phone screen
+
+One engineer runs a 45-to-60-minute live session in a browser environment that executes code, sometimes with a silent shadow. Some versions start from a blank file (in Java, you write your own `Main` and print results); others supply boilerplate and mock services.
+
+Dasher pay dominates: per-minute pay from accept to drop-off with partial minutes rounded up, a rate multiplied by concurrent orders (a sweep line), double pay in peak windows, partial pay for cancellations, excluding restaurant wait time, or merging duplicate activity IDs. Timestamps like `2026-3-16 12:00` trip up candidates rusty with their date library. The other staple is a bootstrap API: resolve a user to a consumer ID, then call payment and address services. A failed user lookup may return HTTP 500, but payment or address failures must still return the remaining fields. Rarer prompts include cart promotions, a path-based key-value store and five-minute interval codes. The last 10 to 20 minutes become design on the same problem: a double-tapped pay button, Redis versus a relational store, a slow upstream against an SLA, retries with jitter, dead-letter queues, and fail-open versus fail-closed.
+
+Interviewers evaluate:
+
+- **Requirement negotiation:** Whether overlapping orders pay once or twice, whether discounts touch shipping, what a failed call returns.
+- **Running code:** Passing provided tests plus your own edge cases, such as empty input or delivery before acceptance.
+- **Failure semantics:** Checking status codes rather than only catching exceptions, and testing each upstream failure separately.
+- **Production depth:** Idempotency keys with a TTL, timeouts and circuit breakers explained as mechanisms.
+
+Code two or three Dasher pay variants and the bootstrap API end to end against a 45-minute timer.
+
+> **Note:** The interviewer's rules are the spec. One candidate argued overlapping orders should be paid once after the interviewer said each order is paid in full, and was rejected. Confirm the rule early, then implement it as given.
+
+### Sample questions for the Code Craft phone screen
+
+Here are some questions reported by recent candidates:
+
+- Compute shift pay when the per-minute rate scales with active orders, then exclude restaurant wait time and double the rate from 5 to 7 PM.
+- Aggregate consumer, payment and address services into one response that keeps every field it can when a service returns 500.
+- Apply the best of several percentage and fixed promotions to a cart, never discounting shipping by percentage and never going below zero.
+- Convert "Mon 10:00 AM - 11:00 AM" into five-digit codes for each five-minute slot, handling noon, midnight and day rollover.
+
+- [Dasher Pay](https://trueinterview.io/questions/054aef30-72eb-5371-97a8-c65988e21e4f)
 - [Code Craft: Bootstrap Aggregated API](https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api)
-- [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart)
-- [Code Craft: Cart with Promotions (OOD)](https://trueinterview.io/questions/code-craft-cart-promotions-ood)
+- [Code Craft: Cart with Promotions](https://trueinterview.io/questions/code-craft-cart-promotions-ood)
+- [Design Path Key Value Store](https://trueinterview.io/questions/design-path-key-value-store)
 
-### Domain Deep Dive
+## Onsite coding round
 
-An hour reading code you did not write, in the delivery domain, with planted defects: a missing constructor, an off-by-one in a key-adjustment method that mismatches an internal array, a null pointer from swapped map keys, a round-robin that skips or double-assigns a courier. What is scored is diagnostic method — reproduce, isolate, prove the fix — followed by hardening questions on concurrency and monitoring. Rewriting the component instead of repairing it loses the round even when the rewrite works.
+Not every loop has one: several 2026 onsites had none, while one had three. Problems are medium and delivery-framed, with follow-ups that change constraints. Examples: assigning chefs to dishes for maximum profit, then letting chefs pool skill, which turns greedy into grouping; the slowest rider speed that finishes all orders in H hours; and the first restaurant ID seen exactly once in an order stream.
 
-- [Debugging: Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin)
-- [Round Robin Router Debugging with Sticky Session](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076)
+Interviewers evaluate:
 
-### System Design
+- **Unwrapping the scenario:** Spotting binary search on the answer, a map plus linked list, or counters instead of a stack before coding.
+- **Adaptability:** Multiple riders, returning deletion indices, or a profit function in place of a list.
+- **Memory and concurrency:** Whether a map grows without bound and what breaks under concurrent `add` calls.
+- **Time management:** One candidate finished only part one after losing time to environment setup and parsing.
 
-One long round, often opened by a resume walkthrough, then pushed by an interviewer playing deliberate challenger. Prompts mirror the product: a three-day donation flow where the charge is authorized now and captured later, a review system paying credits past a vote threshold, an alerting or monitoring platform, a monthly settlement job. The reliable scoring surface is payment correctness — idempotency keys, reconciliation, exactly-once processing over at-least-once delivery, dead-letter queues, state machines with explicit expiry. Vague retry talk without those mechanics is the common miss.
+Drill medium problems wrapped in delivery stories and practice extending your own solution twice per session.
 
-- [Charity Donation System](https://trueinterview.io/questions/charity-donation-system)
-- [System Design: Food Review System with Reward Bonus](https://trueinterview.io/questions/system-design-food-review-system)
+### Sample questions for the onsite coding round
 
-### Behavioral and Leadership
+Here are some questions reported by recent candidates:
 
-Roughly 45 minutes, usually with the hiring manager, weighted toward negatives: your biggest engineering mistake, a conflict you did not win cleanly, a project that went sideways, feedback you had to deliver. Several loops attach an operational scenario — a payment incident or a wrong-order complaint — graded on triage sequence and stakeholder communication rather than the technical fix. Polished success stories score poorly; specific failures with the guardrail you added afterward score well.
+- Maximize kitchen profit when each chef cooks one dish no harder than their skill, then allow chefs to combine skill.
+- Find the minimum hourly speed that lets a rider finish all orders in H hours, then discuss multiple riders.
 
-- [Onsite: On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation)
+- [Code Craft: Chef Skill → Dish Profit Assignment](https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment)
+- [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed)
+- [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream)
+- [Find Closest Dashmart](https://trueinterview.io/questions/find-closest-dashmart)
 
-## What They Don't Test
+## Debugging interview
 
-- **Hard graph and dynamic-programming grinding.** The question set is small, practical, and repeats. Timed practice at finishing and testing a business rule buys more than contest-level problems.
-- **Whiteboard pseudocode.** Multiple rounds require code that compiles and runs against tests you write yourself, sometimes in your own editor.
-- **Avoiding AI assistance.** One round exists specifically to watch you use an assistant well, and behavioral interviewers ask how you use these tools daily. Scoping and reviewing output is what earns credit.
-- **Canonical design set-pieces.** Link shorteners and chat systems do not appear. Money moving through a marketplace under partial failure does, and reconciliation beats capacity math.
-- **Framework depth in front-end-leaning loops.** One reported front-end round was plain DOM building and Flexbox against a mockup, and its design round was backend architecture anyway.
+About an hour on a component with planted bugs, sometimes framed as a pull request review. One family is a round-robin dispatcher or load balancer followed by consistent hashing. The other is a random Dasher picker that keeps Dashers under contiguous integer keys and removes one by moving the last element into the gap, without breaking its time complexity. Reported defects include a missing constructor, a one-letter string typo, an off-by-one between map size and array length, and a random index that is already the last element.
 
-## The Real Filter
+After the logic fixes, recent interviewers expect thread safety: where `synchronized` belongs, method versus block, and why calling a remote recording service inside the lock can freeze the object when that service times out. Consistent hashing often shrinks to pseudocode for adding and finding a node.
 
-The primary rejection path is running out of clock on a problem that looked easy. These prompts have shallow algorithmic depth, so candidates relax, skip the requirements conversation, and then discover that peak-pay windows, overlapping deliveries, cancellations, and malformed records each change the arithmetic. The real checklist is finish, test, then defend under systems follow-ups — a correct partial solution with no tests and no follow-up discussion scores below a plainer one that got all the way through. Pin the rules and the input contract in the first five minutes, then code the core path immediately.
+Interviewers evaluate:
 
-The second pattern is the values round quietly deciding an otherwise clean loop. Candidates report solid technical rounds followed by rejection with the behavioral session as the weak link, usually because the stories were polished successes when the questions asked for mistakes and conflicts. The bar is self-awareness plus a concrete systemic fix.
+- **Diagnostic method:** Reproducing each defect with a test and explaining its root cause before a minimal fix, not a rewrite.
+- **Boundary cases:** Last index, single element and empty structure, each with its own test.
+- **Concurrency judgment:** Correct lock scope and slow I/O kept out of critical sections.
+- **Pace:** Both parts must fit the hour; when an interviewer arrived 10 minutes late, the candidate only sketched the hash ring.
 
-The third pattern is outside your control and worth naming: leveling pushback for candidates with limited tenure, rounds rescheduled when an interviewer did not appear, recruiter turnover stretching timelines, and processes paused mid-loop by hiring freezes. Rejections come with generic or no feedback, so a silent reject is not a verdict on one round.
+Implement a round-robin router, an O(1)-removal random picker and a minimal hash ring from memory, then break each and find the bug.
 
-## Data Source
+> **Note:** Knowing the problem is not enough. Candidates who had studied the picker still stalled on removing at size versus size minus one, and one spent ten minutes on the last-element case and was rejected.
 
-Based on 61 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+### Sample questions for the debugging interview
 
-## FAQ
+Here are some questions reported by recent candidates:
 
-**What is it like to work there as a Software Engineer?**
-Candidate reports cover the hiring loop rather than daily working conditions, so treat this as context. Most of these roles sit on backend services holding a three-sided marketplace together — consumers, couriers, merchants — meaning payments, dispatch, catalog, and logistics systems with real operational duty attached. The interview mirrors that: incident triage, debugging live components, and payment correctness all appear because they are the job. Publicly, engineers describe a fast, ownership-heavy environment with strong career-growth opportunities and mixed marks on work-life balance.
+- Fix a delivery assignment service that randomly picks and removes a Dasher without adding a full scan, then review it as a pull request.
+- Find why a round-robin dispatcher skips a Dasher or assigns two orders in a row to one, then implement consistent hashing.
 
-**What is the engineering culture like?**
-Operations-first and bias to action. The loop rewards shipping a working thing and then hardening it, not designing first and implementing never. Culture fit is a real gate rather than a formality, and behavioral questions consistently probe conflict, mistakes, and cross-functional friction instead of accomplishments. The addition of AI-assisted rounds signals a team that expects fast tool adoption with critical review.
+- [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin)
+- [Debug a Random Dasher Registry](https://trueinterview.io/questions/debug-a-random-dasher-registry)
+- [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case)
+- [Debugging a Load Balancer Implementation and Add Round-Robin Routing](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076)
 
-**How hard is it to get in?**
-Hard, but not because of algorithmic difficulty. Most problems are medium and many candidates recognize them in advance. Attrition comes from breadth: one loop can demand a finished tested implementation, a surgical debug of unfamiliar code, a payments design defended against an adversarial interviewer, and genuine failure stories. Several candidates who felt strong technically were still rejected without explanation, and market timing visibly affects outcomes.
+## System design interview
 
-**Which round is hardest?**
-Two compete. The design round is the most demanding in the moment, with the payment prompts drawing pushback on double-charge prevention, network failure modes, and proving correctness to a finance team. But the round that most often ends an otherwise clean loop is the values conversation, while the technical screen eliminates the largest number of candidates outright.
+About 75 minutes. The first 25 or so are a diagrammed walkthrough of a resume project, with pointed questions on what you personally owned and what you would rebuild; the remaining 50 cover one prompt. Write functional and non-functional requirements down before drawing.
+
+The best-known prompt is a donation app for a three-day charity weekend: millions of donations, about $100M for ten charities, a third-party payment API that simply returns 201, and funds pooled for manual payout. The goal is to capture every dollar despite provider failures. The other staple is dish reviews: one restaurant, 0-to-5 ratings, one review per user per dish, toggleable votes, about 10,000 reviews and millions of votes a day. Follow-ups hit Redis counters, eviction before counts persist, and rewarding highly voted reviews. Others include alert notifications, a job scheduler and a real-time restaurant leaderboard.
+
+Interviewers evaluate:
+
+- **Payment correctness:** Idempotency keys, exactly-once effects over at-least-once delivery, reconciliation, and proving totals to finance.
+- **Schema justification:** Every table defended, such as separating reviews from votes and enforcing one vote per user and review.
+- **Mechanism depth:** Exactly how a retry queue or cache-database sync works, not just its name.
+- **Holding a position:** Interviewers play a skeptical challenger and often answer questions with "you decide."
+
+Prepare the donation and review designs end to end, and rehearse a 20-minute diagrammed walkthrough of your strongest distributed-systems project.
+
+> **Tip:** Pick the deep-dive project for technical depth, not organizational scope. A candidate who presented a migration centered on cross-team coordination was grilled on partitions, consistency and rollback and believed the mismatch cost the offer.
+
+### Sample questions for the system design interview
+
+Here are some questions reported by recent candidates:
+
+- Design the backend for a three-day donation app that must capture an expected $100M through a simple third-party payment API.
+- Design dish reviews with average ratings and votes, then explain what happens if Redis evicts counts before they reach the database.
+
+- [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system)
+- [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts)
+- [Design an alert notification system](https://trueinterview.io/questions/design-an-alert-notification-system)
+- [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard)
+
+## AI Code Craft interview
+
+This newer round appears in a majority of recent onsites. Candidates share their screen and work in a local IDE with an AI assistant or command-line agent; other live rounds forbid AI unless the interviewer invites it. The common task is a refund workflow defined as a directed acyclic graph: check an order-status API and refund late orders. Follow-ups add partial-refund and cancel nodes, repeated API calls and user-visible latency. One version had no starter code and required separate services on their own ports calling each other over HTTP, demonstrated with `curl`.
+
+Interviewers evaluate:
+
+- **A running system:** End-to-end behavior outweighs clean abstractions or test volume.
+- **Scoping:** Defining "late" and node dependencies, and stating a plan before prompting.
+- **Controlled AI use:** Narrow prompts, reviewed diffs, each change confirmed with the interviewer and tested.
+- **Velocity:** Interviewers push for speed; candidates who read the whole codebase first felt rushed.
+
+Rehearse the refund workflow with your own AI tool, including two services on separate ports, until it runs in under 45 minutes.
+
+> **Note:** The costliest mistake was assuming in-memory classes would do. One interviewer wanted genuinely separate HTTP services, and the candidate's last-minute rewrite could not be reviewed. Ask early whether services must be real processes.
+
+### Sample questions for the AI Code Craft interview
+
+Here are some questions reported by recent candidates:
+
+- Build an order-status service, a refund service and a workflow engine that refunds late orders, and show a refund firing live.
+- Extend a DAG workflow engine with partial-refund and cancel nodes, then reduce latency when the workflow is slow.
+
+- [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine)
+- [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies)
+- [Refund Decision Tree Evaluation](https://trueinterview.io/questions/541ffb96-2770-590b-b5b6-0df02380d374)
+
+## Hiring manager and engineering values interview
+
+Usually the hiring manager, sometimes billed as engineering values, and fast: one asked six or seven questions, another two or three with deep probes. Topics lean negative (a conflict, your biggest mistake, feedback received, a project to redo) plus a proud project told in business terms. AI usage comes up in most loops: share of code generated, which models and why, token budgets.
+
+Many loops add an operational scenario: a spike in misdelivered orders across thousands of deliveries, a merchant price error that left Dashers' cards declined while support lines flooded, or a payment outage. These are graded on triage order, investigating at scale and stakeholder communication, not the code fix.
+
+Interviewers evaluate:
+
+- **Ownership:** Self-started work, and who owned migration health when an alert never fired.
+- **Self-awareness:** A real mistake plus the guardrail added afterward; unprompted complaints about past teams cost points.
+- **Concision:** One to two minutes per story before the result.
+- **Engagement:** Four or five specific questions for the interviewer.
+
+Prepare six stories (conflict, failure, feedback, an AI-assisted project, a self-started project, an incident), each with a metric.
+
+### Sample questions for the hiring manager and engineering values interview
+
+Here are some questions reported by recent candidates:
+
+- Support reports misdelivered orders across thousands of deliveries; how do you find the cause without reviewing each one?
+- How much of your code is AI-generated, and which models do you use?
+
+- [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale)
+- [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation)
+- [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations)
+- [Hiring Manager Behavioral Round](https://trueinterview.io/questions/hm-behavioral-round)
+
+## How DoorDash levels and evaluates Software Engineer candidates
+
+Interviewers submit independent feedback, and the hiring manager and a debrief decide. Candidates have cleared most technical rounds and still been rejected on values or one stalled debugging case, usually without explanation. The target level is set at the recruiter stage; senior and staff candidates face more project deep dives, and short tenure has counted against mid-level candidates. Decisions usually arrive within two to three business days of the onsite, occasionally two weeks. Hiring pauses have ended loops that seemed to be going well. DoorDash publishes no reapplication waiting period, so ask the recruiter.
+
+> **Tip:** Treat every round as a gate. In the reports, strong design never offset a messy debugging round.
+
+## How to prepare for the DoorDash Software Engineer interview
+
+1. **Master the recurring Code Craft problems:** Dasher pay with concurrency, peak and cancellation rules, and the three-service bootstrap API, to running code with your own tests.
+2. **Practice date-time parsing in your language:** Timestamp handling has sunk otherwise correct pay solutions.
+3. **Rebuild the debugging components, then add threads:** A random picker, a round-robin router and a hash ring, with lock placement and slow-I/O questions.
+4. **Run the refund workflow with your own AI tool:** Plan, prompt narrowly, review each diff and run real services on separate ports.
+5. **Prepare two payment-grade designs:** The donation app and dish reviews with votes, covering idempotency, reconciliation and cache consistency.
+6. **Rehearse a 20-minute project deep dive:** A technically deep project, with exactly what you owned.
+7. **Bring failure stories and an AI-usage story:** Mistakes and incidents with the fix you added, plus how you validate AI output.
+
+## About the DoorDash Software Engineer role
+
+DoorDash engineers build the logistics platform behind a marketplace of consumers, merchants and Dashers handling millions of orders a day. Backend engineers own services such as order routing, dispatch, Dasher pay, merchant payouts, subscriptions and search, with on-call duty where an incident means late food or a wrong payout.
+
+| Level | Primary focus | Impact scope |
+|---|---|---|
+| E3 (Software Engineer, entry) | Well-scoped features with guidance | Components of one team's service |
+| E4 (Software Engineer) | Features and services end to end, including on-call | A team's services |
+| E5 (Senior Software Engineer) | Leading projects, design reviews and mentoring | A team's roadmap and adjacent services |
+| E6 (Staff Software Engineer) | Cross-functional projects and technical roadmaps | Several teams or a platform |
+
+DoorDash hires Software Engineers across the marketplace. Teams include:
+
+- **Logistics and dispatch:** Assignment, ETAs, last-mile delivery and Dasher-facing systems.
+- **Dasher pay and money movement:** Earnings calculation, payouts and payment reliability.
+- **Order platform:** The order service that routes, schedules and tracks every order.
+- **Merchant platform:** Menus, onboarding, integrations and merchant finance.
+- **DashPass and consumer growth:** Subscription lifecycle, billing, benefits and promotions.
+- **Search, ads and infrastructure:** Discovery, ranking, advertising and shared platform services.
+
+### Software Engineer experience and education requirements
+
+Postings ask for a computer science degree or equivalent experience. Senior postings ask for several years of industry experience (five or more on some teams); staff backend postings ask for eight or more plus cross-functional project leadership and mentoring. Any mainstream language works; Java and Python dominate reports, and Java users note that mapping-heavy Code Craft tasks punish boilerplate.
+
+## FAQs about the DoorDash Software Engineer interview
+
+### How long does the DoorDash Software Engineer interview process take?
+
+Usually three to eight weeks; a recruiter change stretched one to about two months. Screen results take about a week; onsite decisions often come within three business days.
+
+### What is the hardest round of the DoorDash Software Engineer interview?
+
+Most name the 75-minute system design, where the resume deep dive and an adversarial payment discussion leave little slack. Debugging surprised the most strong candidates because it now tests concurrency as well as logic.
+
+### Can you use AI tools during the interview?
+
+Only when invited. The AI Code Craft round requires an assistant in your own IDE; other live rounds forbid AI unless the interviewer allows it.
+
+### How much does a DoorDash Software Engineer make?
+
+Approximate total annual compensation in the United States:
+
+- **E3:** ~$180K
+- **E4:** ~$280K
+- **E5:** ~$385K
+- **E6:** ~$530K
+
+Packages combine base salary with a large stock component vesting over four years, so totals move with the share price, especially at E5 and above.
 
 ---
 

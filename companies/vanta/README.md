@@ -16,26 +16,33 @@ How Vanta interviews, and the questions candidates reported there. Free question
 
 ## How Vanta interviews
 
-Vanta's loop looks conventional on paper and behaves like a practical engineering exercise in the room: a phone screen built around one problem with a decisive follow-up, an onsite mixing a small coding pool with analytics-flavored design and two or three conversational rounds, and graders who reward the simplest defensible answer. This deep dive goes past the outline on the company page, drawing on 14 real Vanta questions and 34 candidate interview reports to show what each stage actually probes and where candidates lose the loop.
+Vanta's coding questions come from a small, stable pool shaped like its own product: dependency ordering, deduplication at scale, and compliance rollups over an org tree. Almost every coding session is one scenario in two parts, and the second part decides the round. Design interviews reward the leanest architecture that fits the stated scale, and one candidate was rejected for a textbook streaming design. The behavioral side is unusually large for a startup: a values round, a project deep dive and often a leadership interview each act as a real gate, and recent loops add an AI deep dive on Vanta's own assistant.
 
-### Interview Process
+This guide breaks down each stage of the Vanta interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 30 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Vanta interview process
 
 <!-- guide-diagram -->
 ![Vanta interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/vanta/process.webp)
 <!-- guide-diagram -->
 
-#### Recruiter screen
+The structure barely changes between teams: a recruiter call, one coding screen (sometimes two), then a virtual onsite of three to five rounds, most often four. The onsite mixes one coding round, one system design round, and two or three conversational rounds, and recruiters will split it across two days on request. It usually takes three to four weeks, sometimes six. Some 2026 pipelines add a timed online assessment, and some recruiters offer a choice between algorithm-style and practical coding tracks.
 
-The opening call is short and mostly about routing: background, why Vanta, and which open team fits. Some candidates received a written breakdown of every round before the loop began, with the format and focus of each session; those who had it reported no format surprises later, so ask for it if it does not arrive. Occasionally the first call is entirely behavioral and past-project questions, followed by a very short timed online exercise (a letter-to-number conversion under a five-minute limit) rather than a live coding screen.
+Early-career loops lean on the coding rounds; senior and staff loops weigh the leadership interview more heavily. Frontend loops swap the algorithm round for a React and TypeScript practical, and Data and AI candidates get an ML design round on a retrieval-augmented chatbot.
 
-#### Technical phone screen
+Here's what the interview process can look like:
 
-The screen runs about 45 to 60 minutes in a shared editor, and it is almost always one scenario that evolves in two parts rather than two unrelated puzzles. The problem pool is small and stable enough to learn:
+- **Recruiter screen:** A short call about background, motivation and team fit.
+- **Online assessment (some pipelines):** A short timed test, from a five-minute single task to a six-question set.
+- **Technical phone screen (one or two):** A 45–60 minute shared-editor session built on one scenario with a harder follow-up.
+- **Onsite coding interview:** A practical round, most often the `uniq` family, with a memory or scale follow-up.
+- **System design interview:** A narrow pool of analytics and storage prompts, graded on calibration.
+- **AI technical deep dive (recent loops):** A conversation about LLM-backed features, evaluation and Vanta's own AI assistant.
+- **Principles, leadership and project deep dive interviews:** Two or three conversational rounds on values, past projects and leadership scope.
 
-- **Task dependency resolution** is the most frequently reported screen. A `Task` carries an id and a list of dependencies; given all tasks and a set of targets, return everything required to run the targets, transitively, prerequisites before dependents, no duplicates when a task is both requested and pulled in as a dependency. Follow-ups have asked for the ancestors of a given task, for cycle handling, for a recursive DFS formulation instead of the in-degree approach, and for scaling on large graphs.
-- **Employee training compliance** is drawn straight from the product: an employee with a start day, a trained day (possibly missing), a policy window and a check day; compute a status (pending, completed, overdue) and the number of overdue days. The follow-up adds a tree of groups and asks for per-group employee counts and overdue-day totals across all descendants, which is a post-order DFS. Every report of this problem is a two-part session, and several candidates ran out of time on the tree half.
-- **`uniq`** in several framings: collapse consecutive duplicate lines the way the Unix tool does, or return distinct elements preserving first appearance, then the follow-up where the file or stream no longer fits in memory, which pushes toward streaming, partitioning, or hashing across machines while preserving arrival order.
-- **Word-pattern and metapattern matching** with a twist on the mapping rule (several numbers may map to one word, or each position carries its own list of allowed elements), solved by backtracking; a 2D grid variant has appeared as a follow-up.
+> **Tip:** Ask the recruiter for the round-by-round prep document. Candidates who received it reported no format surprises, while one candidate briefed only verbally expected hypothetical leadership questions and was instead pressed for real cases.
 
 **[Read the full Vanta interview process →](interview-process.md)**
 

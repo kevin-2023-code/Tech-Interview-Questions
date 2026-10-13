@@ -59,20 +59,20 @@ Which stage each question came from, for the **255 of 255** questions at ByteDan
 
 ## What they ask about
 
-Of the **172 questions at ByteDance that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **167 questions at ByteDance that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 33 | 19% | ████████████ | Sep 04, 2026 |
+| `graphs` | 33 | 20% | ████████████ | Sep 04, 2026 |
 | `arrays` | 25 | 15% | █████████ | Aug 21, 2026 |
-| `strings` | 23 | 13% | ████████ | Sep 04, 2026 |
-| `hashing` | 21 | 12% | ████████ | Sep 06, 2026 |
-| `backtracking` | 18 | 10% | ███████ | Sep 04, 2026 |
+| `strings` | 23 | 14% | ████████ | Sep 04, 2026 |
+| `hashing` | 20 | 12% | ███████ | Sep 06, 2026 |
+| `backtracking` | 18 | 11% | ███████ | Sep 04, 2026 |
 | `binary-search` | 14 | 8% | █████ | Aug 21, 2026 |
 | `stack` | 14 | 8% | █████ | Sep 02, 2026 |
-| `greedy` | 13 | 8% | █████ | Sep 02, 2026 |
-| `sliding-window` | 13 | 8% | █████ | Jun 29, 2026 |
 | `dynamic-programming` | 12 | 7% | ████ | Aug 17, 2026 |
+| `greedy` | 12 | 7% | ████ | Sep 02, 2026 |
+| `sliding-window` | 12 | 7% | ████ | Jun 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -248,7 +248,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Easy | Feb 01, 2026 |
-| [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Jan 31, 2026 |
+| [Gas Tank Grid Reachability](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Jan 31, 2026 |
 | [Valid Parentheses with Wildcard '*' and DFS All Strings](https://trueinterview.io/questions/valid-parentheses-with-wildcard) | Algorithm | Medium | Jan 30, 2026 |
 | [MinStack, MaxStack and Streaming Median](https://trueinterview.io/questions/streaming-median-min-max-stack) | Algorithm | Hard | Jan 30, 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |

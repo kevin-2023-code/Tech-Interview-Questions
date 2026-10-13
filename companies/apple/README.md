@@ -16,21 +16,33 @@ How Apple interviews, and the questions candidates reported there. Free question
 
 ## How Apple interviews
 
-Apple runs one of the least standardized loops in big tech: the team you apply to owns the process end to end, interviewers write their own questions, and there is no central question bank. That makes generic prep advice less useful here than almost anywhere else, so this guide focuses on how the stages actually run and what they grade — grounded in 81 real Apple questions and 41 candidate interview reports. Use it to calibrate, then confirm specifics with your recruiter, because two Apple loops rarely look alike.
+Apple has no central interview loop. The hiring team writes its own questions, chooses its own round types and makes the decision, so two candidates for the same job title can face very different processes. The grading pattern is consistent, though. A correct first answer only opens the round, and the score comes from the follow-ups: scale it, make it thread-safe, speed it up without threads, write the tests. Since spring 2026, loops have also included an AI-assisted coding round.
 
-### Interview Process
+This guide breaks down each stage of the Apple interview, what interviewers evaluate in each round, and how to prepare, with questions candidates were actually asked.
+
+> **Verified:** Based on 60 candidate-reported interview experiences, cross-checked against recent public accounts.
+
+### Apple interview process
 
 <!-- guide-diagram -->
 ![Apple interview process — the rounds in order](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/guides/apple/process.webp)
 <!-- guide-diagram -->
 
-The first conversation is often more evaluative than its label suggests. Outreach frequently comes from the hiring manager rather than a generic recruiter, and that first call already counts: candidates describe team-fit discussions that pivot into live coding, and standalone behavioral screens — one recent 30-minute call packed four questions on prioritization, resource allocation, and a hardest-project walkthrough. Teams whose product direction is still forming probe explicitly for comfort with ambiguity and the ability to define your own work.
+The usual sequence is a first call, then one to four phone screens of 45–60 minutes, then a loop of four to six rounds held virtually or in Cupertino. In fast processes, an onsite was booked two days after the screen and the offer was signed about five weeks after the first call. Reorganizations and approvals slowed others down by weeks.
 
-Technical phone screens — typically one to three, about 45 minutes each in a shared editor — vary widely by team. Some interviewers ask classic algorithm problems (subarray sums, tree iterators, merge intervals, island counting); others wrap the same skills in practical stories: parsing server logs for failed logins, computing arrival times against a bus schedule, or building a seat-reservation system in C with manual memory management. A screen billed as coding can also turn out to be a design discussion or a pure domain conversation with no code at all. Grading rewards clarifying the prompt, a correct baseline, edge cases, complexity analysis — and surviving the follow-up twist, which is where many screens are decided.
+The mix of rounds depends on the track. Software Engineer loops usually have two coding rounds of two problems each, plus a design round. Infrastructure Engineer loops have less coding and one or two distributed-systems design rounds. Machine Learning Engineer loops can skip algorithm coding entirely in favor of ML fundamentals, ML design and project deep dives. Senior candidates have met a senior manager or a director after the main loop.
 
-Onsites typically run four to six rounds of 45–60 minutes. A common shape in recent loops: two coding rounds (often two problems each), one system design round, a project deep dive, and a behavioral session with the hiring manager — but teams freely swap in domain rounds on operating systems and concurrency, hashmap internals, frontend frameworks, or ML fundamentals depending on their stack. Coding follow-ups push past the first working solution: scaling a toy problem to billions of requests, making an iterator thread-safe, or speeding up a traversal without threads. Design prompts range from familiar (logging systems, ad-click aggregation, Dropbox-style sync, S3-like storage) to deliberately constrained, like serving inventory lookups from a machine with spinning disks and almost no RAM. Project deep dives can fill 75 minutes and interrogate architecture choices, rejected alternatives, and how you measured impact.
+Here's what the interview process can look like:
 
-Timelines can be strikingly fast: candidates report onsites scheduled two days after a phone screen, verbal offers one to two weeks after the onsite, and written offers about a week later. But because loops are team-owned, the process is also fragile — onsites get canceled after prep calls, roles get filled or relocated mid-loop, and weeks of silence before a decision are common. A rejection from one team sometimes routes your profile to another, so a "no" is not always final.
+- **Recruiter or hiring-manager screen:** About 30 minutes on background, motivation and location, sometimes with scored behavioral questions.
+- **Technical phone screens (one to four):** 45–60 minute calls with coding, a design discussion or a domain conversation.
+- **Coding interviews:** One to three loop rounds, often two problems each, frequently wrapped in a business story.
+- **AI-assisted coding round (2026):** Coding with an AI agent in a side panel, graded on how well you direct it.
+- **System design and domain interviews:** Distributed, resource-constrained or ML design, plus questions on the team's technology.
+- **Project deep dive:** One past project examined in detail, sometimes across several rounds.
+- **Behavioral and hiring manager interview:** Prioritization, conflict and influence, often followed by sign-off rounds for senior candidates.
+
+> **Tip:** Treat the job posting as the syllabus. Candidates repeatedly found that their screen topics followed the posted requirements almost item by item, from video codecs to Redis atomicity.
 
 **[Read the full Apple interview process →](interview-process.md)**
 
