@@ -156,9 +156,9 @@ Of the **1,208 questions in this cut that carry a topic label** (58% of it):
 | **Microsoft** | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Medium | 🆕 Aug 30, 2026 |
 | **ByteDance** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | Hard | 🆕 Aug 30, 2026 |
 | **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Hard | 🆕 Aug 30, 2026 |
-| **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | 🆕 Aug 29, 2026 |
-| **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | 🆕 Aug 29, 2026 |
-| **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | 🆕 Aug 29, 2026 |
+| **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | Aug 29, 2026 |
+| **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | Aug 29, 2026 |
+| **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | Aug 29, 2026 |
 | **ByteDance** | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | Medium | Aug 28, 2026 |
 | **ByteDance** | [Design a Data Service for Downstream Consumers](https://trueinterview.io/questions/design-a-data-service-for-downstream-consumers) | Medium | Aug 28, 2026 |
 | **ByteDance** | [Choose Components for a Data Warehouse](https://trueinterview.io/questions/choose-components-for-a-data-warehouse) | Medium | Aug 28, 2026 |

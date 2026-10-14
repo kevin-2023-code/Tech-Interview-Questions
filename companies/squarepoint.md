@@ -116,9 +116,9 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Algorithm | Medium | 🆕 Aug 29, 2026 |
-| [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | 🆕 Aug 29, 2026 |
-| [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Algorithm | Hard | 🆕 Aug 29, 2026 |
+| [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Algorithm | Medium | Aug 29, 2026 |
+| [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | Aug 29, 2026 |
+| [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Algorithm | Hard | Aug 29, 2026 |
 | [Design an Ordered Vector with Move Semantics and Analyze Its Memory Layout](https://trueinterview.io/questions/design-an-ordered-vector-with-move-semantics-and-analyze-its-memory-layout) | Object Oriented Programming | Hard | Aug 16, 2026 |
 | [Concatenate Two C++ Index Sequences at Compile Time](https://trueinterview.io/questions/concatenate-two-cplusplus-index-sequences-at-compile-time) | Algorithm | Medium | Aug 16, 2026 |
 | [Find a Target Sum Using Two Sorted Arrays](https://trueinterview.io/questions/find-a-target-sum-using-two-sorted-arrays) | Algorithm | Medium | Aug 16, 2026 |

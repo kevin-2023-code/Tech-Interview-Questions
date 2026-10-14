@@ -14,7 +14,7 @@
 | [ByteDance](../companies/bytedance.md) | 25 | 255 | Sep 15, 2026 | ████████ |
 | [Google](../companies/google.md) | 24 | 266 | Sep 18, 2026 | ████████ |
 | [Microsoft](../companies/microsoft.md) | 23 | 186 | Sep 10, 2026 | ███████ |
-| [OpenAI](../companies/openai.md) | 20 | 144 | Sep 17, 2026 | ██████ |
+| [OpenAI](../companies/openai.md) | 19 | 144 | Sep 17, 2026 | ██████ |
 | [LinkedIn](../companies/linkedin.md) | 18 | 116 | Sep 17, 2026 | ██████ |
 | [Meta](../companies/meta.md) | 15 | 334 | Sep 04, 2026 | █████ |
 | [Oracle](../companies/oracle.md) | 14 | 95 | Sep 11, 2026 | ████ |
@@ -46,7 +46,7 @@
 | [ByteDance](../companies/bytedance.md) | 255 | 5 | 26 | 25 | Sep 15, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 217 | 3 | 37 | 9 | Sep 09, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 186 | 5 | 22 | 23 | Sep 10, 2026 | Algorithm | `graphs` |
-| [OpenAI](../companies/openai.md) | 144 | 7 | 13 | 20 | Sep 17, 2026 | Algorithm | `graphs` |
+| [OpenAI](../companies/openai.md) | 144 | 7 | 13 | 19 | Sep 17, 2026 | Algorithm | `graphs` |
 | [Apple](../companies/apple.md) | 142 | 4 | 22 | 12 | Aug 26, 2026 | Algorithm | `hashing` |
 | [Snowflake](../companies/snowflake.md) | 128 | 1 | 25 | 8 | Sep 05, 2026 | Algorithm | `graphs` |
 | [LinkedIn](../companies/linkedin.md) | 116 | 4 | 11 | 18 | Sep 17, 2026 | Algorithm | `hashing` |

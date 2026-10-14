@@ -8,7 +8,7 @@ What the bank is *about*, counted over the **2,326 questions that carry a topic 
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
-| `hashing` | 407 | 17% | 48 | 97 | 252 | 58 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Apple](../companies/apple.md) |
+| `hashing` | 407 | 17% | 47 | 97 | 252 | 58 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Apple](../companies/apple.md) |
 | `arrays` | 338 | 15% | 31 | 96 | 200 | 42 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
 | `graphs` | 338 | 15% | 35 | 22 | 216 | 100 | [Google](../companies/google.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
 | `strings` | 318 | 14% | 28 | 86 | 191 | 41 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |

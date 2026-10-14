@@ -83,9 +83,9 @@
 | **Microsoft** | [Keep Stable Unique Column Names Across Schema Changes](https://trueinterview.io/questions/keep-stable-unique-column-names-across-schema-changes) | Hard | 🆕 Aug 30, 2026 |
 | **Microsoft** | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Medium | 🆕 Aug 30, 2026 |
 | **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Hard | 🆕 Aug 30, 2026 |
-| **Squarepoint** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Medium | 🆕 Aug 29, 2026 |
-| **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | 🆕 Aug 29, 2026 |
-| **Squarepoint** | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Hard | 🆕 Aug 29, 2026 |
+| **Squarepoint** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Medium | Aug 29, 2026 |
+| **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | Aug 29, 2026 |
+| **Squarepoint** | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Hard | Aug 29, 2026 |
 | **Snapchat** | [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Hard | Aug 28, 2026 |
 | **Oracle** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Hard | Aug 28, 2026 |
 | **Palantir** | [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Hard | Aug 27, 2026 |

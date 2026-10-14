@@ -146,7 +146,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Design a Bookshelf with Book CRUD and a Stable Bookmark](https://trueinterview.io/questions/design-a-bookshelf-with-book-crud-and-a-stable-bookmark) | Object Oriented Programming | Medium | 🆕 Aug 30, 2026 |
 | [Compute Entity Size and Validate a Hierarchical File System](https://trueinterview.io/questions/compute-entity-size-and-validate-a-hierarchical-file-system) | Object Oriented Programming | Hard | 🆕 Aug 30, 2026 |
 | [Find the Longest Continuous Increasing Subsequence](https://trueinterview.io/questions/find-the-longest-continuous-increasing-subsequence) | Algorithm | Easy | 🆕 Aug 30, 2026 |
-| [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Medium | 🆕 Aug 29, 2026 |
+| [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Medium | Aug 29, 2026 |
 | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | Medium | Aug 20, 2026 |
 | [Dependency-Safe Deletion Order](https://trueinterview.io/questions/dependency-safe-deletion-order) | Algorithm | Hard | Aug 18, 2026 |
 | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | System Design | Hard | Aug 16, 2026 |

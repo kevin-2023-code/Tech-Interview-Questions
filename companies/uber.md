@@ -143,7 +143,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Algorithm | Medium | 🆕 Sep 09, 2026 |
 | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | System Design | Medium | 🆕 Sep 09, 2026 |
 | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Algorithm | Hard | 🆕 Sep 09, 2026 |
-| [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | 🆕 Aug 29, 2026 |
+| [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | Aug 29, 2026 |
 | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | System Design | Medium | Aug 22, 2026 |
 | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | Aug 16, 2026 |
 | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | Medium | Aug 16, 2026 |

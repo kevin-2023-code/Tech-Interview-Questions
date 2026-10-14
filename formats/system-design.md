@@ -85,9 +85,9 @@
 | **Nuro** | [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | Hard | 🆕 Aug 31, 2026 |
 | **Mercor** | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | Hard | 🆕 Aug 30, 2026 |
 | **ByteDance** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | Hard | 🆕 Aug 30, 2026 |
-| **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | 🆕 Aug 29, 2026 |
-| **Citadel** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | Hard | 🆕 Aug 29, 2026 |
-| **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | 🆕 Aug 29, 2026 |
+| **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | Aug 29, 2026 |
+| **Citadel** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | Hard | Aug 29, 2026 |
+| **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | Aug 29, 2026 |
 | **ByteDance** | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | Medium | Aug 28, 2026 |
 | **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | Aug 28, 2026 |
 | **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | Aug 28, 2026 |

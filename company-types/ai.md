@@ -47,7 +47,7 @@ Of the **139 questions in this cut that carry a topic label** (39% of it):
 
 ## Asked here in the last 90 days
 
-**49 sightings** across this cut. Newest first.
+**48 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **139 questions in this cut that carry a topic label** (39% of it):
 | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | Anthropic | System Design | Sep 08, 2026 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | OpenAI | System Design | Sep 07, 2026 |
 
-<sub>37 more in this window are in the table below.</sub>
+<sub>36 more in this window are in the table below.</sub>
 
 ---
 

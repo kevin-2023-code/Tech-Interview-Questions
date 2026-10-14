@@ -47,7 +47,7 @@ Of the **704 questions in this cut that carry a topic label** (52% of it):
 
 ## Asked here in the last 90 days
 
-**131 sightings** across this cut. Newest first.
+**130 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **704 questions in this cut that carry a topic label** (52% of it):
 | [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | xAI | Algorithm | Sep 15, 2026 |
 | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | Tradedesk | System Design | Sep 15, 2026 |
 
-<sub>119 more in this window are in the table below.</sub>
+<sub>118 more in this window are in the table below.</sub>
 
 ---
 
@@ -135,7 +135,7 @@ Of the **704 questions in this cut that carry a topic label** (52% of it):
 | **Tradedesk** | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | Hard | 🆕 Aug 31, 2026 |
 | **Stripe** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | Easy | 🆕 Aug 31, 2026 |
 | **Airbnb** | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Medium | 🆕 Aug 30, 2026 |
-| **Airbnb** | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Hard | 🆕 Aug 29, 2026 |
+| **Airbnb** | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Hard | Aug 29, 2026 |
 | **Pinterest** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Hard | Aug 28, 2026 |
 | **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | Aug 28, 2026 |
 | **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | Aug 28, 2026 |

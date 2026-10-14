@@ -80,10 +80,10 @@ Of the **181 questions in this cut that carry a topic label** (66% of it):
 | **Citadel** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Hard | 🆕 Sep 18, 2026 |
 | **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | 🆕 Sep 08, 2026 |
 | **Citadel** | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | Medium | 🆕 Sep 03, 2026 |
-| **Squarepoint** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Medium | 🆕 Aug 29, 2026 |
-| **Citadel** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | Hard | 🆕 Aug 29, 2026 |
-| **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | 🆕 Aug 29, 2026 |
-| **Squarepoint** | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Hard | 🆕 Aug 29, 2026 |
+| **Squarepoint** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Medium | Aug 29, 2026 |
+| **Citadel** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | Hard | Aug 29, 2026 |
+| **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | Aug 29, 2026 |
+| **Squarepoint** | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Hard | Aug 29, 2026 |
 | **Akuna Capital** | [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Easy | Aug 26, 2026 |
 | **Jane Street** | [Process One Million Quote Updates per Second](https://trueinterview.io/questions/process-one-million-quote-updates-per-second) | Hard | Aug 24, 2026 |
 | **Jane Street** | [Design Exchange and Instrument Abstractions for Quote Arbitrage](https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage) | Medium | Aug 24, 2026 |
