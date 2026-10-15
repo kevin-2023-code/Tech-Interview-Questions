@@ -31,7 +31,7 @@ def rob(nums: List[int], k: int, circular: bool) -> int:
 
 - **`nums`** – a list of non‑negative integers; the amount of money stored in each house.
 - **`k`** – the minimum safe gap between robbed houses. If you rob house `i`, you may not rob any house with index in `[i+1, i+k]`.
-- **`circular`** – when `True`, houses are arranged in a circle, so house `0` and house `n-1` are adjacent and cannot both be robbed.
+- **`circular`** – when `True`, houses are arranged in a circle, so house `0` and house `n-1` are adjacent and cannot both be robbed. The gap rule above still applies by index; the circle only adds this one extra restriction (for $$n \ge 2$$).
 
 ---
 

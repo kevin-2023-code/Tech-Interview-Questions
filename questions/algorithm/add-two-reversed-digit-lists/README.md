@@ -19,6 +19,7 @@
 - The third input row gives `list2_size`, the length of the second list.
 - The fourth row supplies the digits for the second list.
 - Each list stores its number with the least significant digit first.
+- A number has no leading zeros: the last digit of a non-empty list is non-zero, unless the list is the single digit `0`.
 - Output `K` integers separated by spaces; these must be the sum's digits in least-significant-digit-first order.
 
 ## Examples

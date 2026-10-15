@@ -8,25 +8,25 @@ What the bank is *about*, counted over the **2,326 questions that carry a topic 
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
-| `hashing` | 407 | 17% | 47 | 97 | 252 | 58 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Apple](../companies/apple.md) |
+| `hashing` | 405 | 17% | 46 | 97 | 251 | 57 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Apple](../companies/apple.md) |
 | `arrays` | 338 | 15% | 31 | 96 | 200 | 42 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
-| `graphs` | 338 | 15% | 35 | 22 | 216 | 100 | [Google](../companies/google.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
-| `strings` | 318 | 14% | 28 | 86 | 191 | 41 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
+| `graphs` | 338 | 15% | 34 | 22 | 216 | 100 | [Google](../companies/google.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
+| `strings` | 319 | 14% | 28 | 86 | 191 | 42 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `greedy` | 196 | 8% | 13 | 15 | 139 | 42 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
-| `dynamic-programming` | 179 | 8% | 13 | 10 | 105 | 64 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
+| `dynamic-programming` | 179 | 8% | 12 | 10 | 105 | 64 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
 | `math` | 178 | 8% | 21 | 29 | 94 | 55 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
 | `sorting` | 176 | 8% | 21 | 33 | 99 | 44 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `trees` | 163 | 7% | 21 | 19 | 108 | 36 | [Meta](../companies/meta.md), [Google](../companies/google.md), [Amazon](../companies/amazon.md) |
 | `backtracking` | 135 | 6% | 18 | 10 | 85 | 40 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Snowflake](../companies/snowflake.md) |
 | `matrix` | 132 | 6% | 16 | 10 | 92 | 30 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Capital One](../companies/capital-one.md) |
 | `binary-search` | 118 | 5% | 6 | 11 | 75 | 32 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Uber](../companies/uber.md) |
-| `heap` | 117 | 5% | 16 | 7 | 74 | 36 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
+| `heap` | 118 | 5% | 16 | 7 | 74 | 37 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
 | `two-pointers` | 115 | 5% | 7 | 30 | 76 | 9 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [ByteDance](../companies/bytedance.md) |
 | `sliding-window` | 103 | 4% | 5 | 18 | 72 | 13 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `stack` | 94 | 4% | 8 | 11 | 66 | 17 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `intervals` | 82 | 4% | 7 | 1 | 62 | 19 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
-| `linked-list` | 53 | 2% | 6 | 7 | 37 | 9 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Microsoft](../companies/microsoft.md) |
-| `topological-sort` | 48 | 2% | 9 | 0 | 36 | 12 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
+| `linked-list` | 54 | 2% | 6 | 7 | 37 | 10 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Microsoft](../companies/microsoft.md) |
+| `topological-sort` | 48 | 2% | 8 | 0 | 36 | 12 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
 | `bit-manipulation` | 43 | 2% | 3 | 9 | 19 | 15 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |
 | `tries` | 33 | 1% | 0 | 4 | 24 | 5 | [Amazon](../companies/amazon.md), [Snowflake](../companies/snowflake.md), [ByteDance](../companies/bytedance.md) |
 
@@ -36,7 +36,7 @@ What the bank is *about*, counted over the **2,326 questions that carry a topic 
 
 The most recently reported question carrying each label — newest sighting first, so this is what somebody was actually asked, not what sorts first alphabetically.
 
-**`hashing`** — 407 questions
+**`hashing`** — 405 questions
 
 - [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) · Algorithm · Hard
 - [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) · Object Oriented Programming · Medium
@@ -54,7 +54,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) · Algorithm · Hard
 - [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) · Algorithm · Medium
 
-**`strings`** — 318 questions
+**`strings`** — 319 questions
 
 - [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) · Algorithm · Hard
 - [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) · Algorithm · Medium
@@ -108,7 +108,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) · Algorithm · Hard
 - [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) · Algorithm · Medium
 
-**`heap`** — 117 questions
+**`heap`** — 118 questions
 
 - [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) · Algorithm · Medium
 - [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) · Algorithm · Medium
@@ -138,7 +138,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) · Algorithm · Hard
 - [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) · Algorithm · Medium
 
-**`linked-list`** — 53 questions
+**`linked-list`** — 54 questions
 
 - [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) · Object Oriented Programming · Medium
 - [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) · Object Oriented Programming · Medium

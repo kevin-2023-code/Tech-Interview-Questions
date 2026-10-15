@@ -87,7 +87,7 @@ The 5 questions to open first if you are preparing for Disney, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | 🆕 Aug 30, 2026 |
+| [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | Aug 30, 2026 |
 | [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses) | Algorithm | Medium | Mar 27, 2026 |
 | [Design a frontend shopping cart and feature flags](https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags) | System Design | Medium | Nov 24, 2025 |
 | [Determine if chasing points will meet](https://trueinterview.io/questions/determine-if-chasing-points-will-meet) | Algorithm | Hard | Nov 01, 2025 |

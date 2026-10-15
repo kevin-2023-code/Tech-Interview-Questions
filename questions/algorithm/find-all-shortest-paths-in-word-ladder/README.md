@@ -22,7 +22,7 @@ If no such sequence exists, return an empty list.
 - `wordList`: a list of unique strings, all lowercase letters.
 
 **Output:**
-- A list of all shortest transformation sequences. Each sequence is itself a list of words starting with `beginWord` and ending with `endWord`.
+- A list of all shortest transformation sequences. Each sequence is itself a list of words starting with `beginWord` and ending with `endWord`. Return the sequences in lexicographical order (compare sequences word by word).
 
 **Examples:**
 
@@ -44,7 +44,7 @@ Explanation: "cog" is missing from the dictionary, so the transformation cannot 
 - `endWord` is present in `wordList`.
 - Word length and list size are bounded such that a solution can run within typical time limits (roughly 1 ≤ word length ≤ 10, 1 ≤ |wordList| ≤ 5000).
 
-**Follow-up:** Can you also output the sequences in lexicographical order? Discuss how that changes your approach.
+**Follow-up:** Producing the sequences in lexicographical order is required here. Discuss how that changes your approach (sorting at the end versus generating them already in order).
 
 ## Hints
 

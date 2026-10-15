@@ -46,7 +46,7 @@ Of the **50 questions in this cut that carry a topic label** (65% of it):
 
 ## Asked here in the last 90 days
 
-**6 sightings** across this cut. Newest first.
+**4 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -54,8 +54,6 @@ Of the **50 questions in this cut that carry a topic label** (65% of it):
 | [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | Verkada | System Design | Sep 04, 2026 |
 | [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Verkada | Algorithm | Sep 04, 2026 |
 | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Okta | Algorithm | Aug 20, 2026 |
-| [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |
-| [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Vanta | Algorithm | Jul 16, 2026 |
 
 ---
 

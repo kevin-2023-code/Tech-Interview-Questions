@@ -32,22 +32,22 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 15 | 28% | ████████████ |
-| `strings` | 11 | 21% | █████████ |
-| `graphs` | 8 | 15% | ██████ |
+| `hashing` | 14 | 26% | ████████████ |
+| `strings` | 12 | 23% | ██████████ |
+| `graphs` | 8 | 15% | ███████ |
 | `trees` | 7 | 13% | ██████ |
 | `topological-sort` | 5 | 9% | ████ |
+| `heap` | 4 | 8% | ███ |
 | `intervals` | 4 | 8% | ███ |
 | `tries` | 4 | 8% | ███ |
-| `arrays` | 3 | 6% | ██ |
-| `backtracking` | 3 | 6% | ██ |
-| `dynamic-programming` | 3 | 6% | ██ |
+| `arrays` | 3 | 6% | ███ |
+| `backtracking` | 3 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**11 sightings** across this cut. Newest first.
+**9 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -60,8 +60,6 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Harvey | System Design | Sep 01, 2026 |
 | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Harvey | Algorithm | Sep 01, 2026 |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Harvey | Algorithm | Aug 09, 2026 |
-| [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |
-| [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Vanta | Algorithm | Jul 16, 2026 |
 
 ---
 

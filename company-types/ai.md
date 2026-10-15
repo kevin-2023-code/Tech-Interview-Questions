@@ -32,22 +32,22 @@ Of the **139 questions in this cut that carry a topic label** (39% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 30 | 22% | ████████████ |
-| `strings` | 23 | 17% | █████████ |
+| `hashing` | 29 | 21% | ████████████ |
+| `strings` | 24 | 17% | ██████████ |
 | `graphs` | 17 | 12% | ███████ |
 | `math` | 15 | 11% | ██████ |
 | `sorting` | 13 | 9% | █████ |
 | `matrix` | 12 | 9% | █████ |
-| `arrays` | 11 | 8% | ████ |
-| `greedy` | 11 | 8% | ████ |
-| `heap` | 10 | 7% | ████ |
+| `arrays` | 11 | 8% | █████ |
+| `greedy` | 11 | 8% | █████ |
+| `heap` | 11 | 8% | █████ |
 | `trees` | 8 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**48 sightings** across this cut. Newest first.
+**47 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **139 questions in this cut that carry a topic label** (39% of it):
 | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | Anthropic | System Design | Sep 08, 2026 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | OpenAI | System Design | Sep 07, 2026 |
 
-<sub>36 more in this window are in the table below.</sub>
+<sub>35 more in this window are in the table below.</sub>
 
 ---
 
@@ -93,8 +93,8 @@ Of the **139 questions in this cut that carry a topic label** (39% of it):
 | **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Hard | 🆕 Sep 01, 2026 |
 | **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Medium | 🆕 Sep 01, 2026 |
 | **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | 🆕 Sep 01, 2026 |
-| **Mercor** | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Hard | 🆕 Aug 30, 2026 |
-| **Mercor** | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | Hard | 🆕 Aug 30, 2026 |
+| **Mercor** | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Hard | Aug 30, 2026 |
+| **Mercor** | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | Hard | Aug 30, 2026 |
 | **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | Aug 28, 2026 |
 | **Anthropic** | [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | Hard | Aug 27, 2026 |
 | **OpenAI** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Hard | Aug 27, 2026 |

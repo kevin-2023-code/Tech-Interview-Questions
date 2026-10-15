@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**4,121 tracked questions** across **131 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 14, 2026**, and everything on this page is recomputed hourly.
+**4,121 tracked questions** across **131 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 15, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,13 +10,13 @@
 
 ## The last 90 days
 
-**440 sightings** recorded between Jul 16, 2026 → Oct 14, 2026 — 18% of the 2,490 questions in the bank that carry a sighting date at all.
+**437 sightings** recorded between Jul 17, 2026 → Oct 15, 2026 — 18% of the 2,490 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 201 | 46% | ████████████████ |
+| [Algorithm](../formats/algorithm.md) | 198 | 45% | ████████████████ |
 | [SQL](../formats/sql.md) | 38 | 9% | ███ |
 | [System Design](../formats/system-design.md) | 136 | 31% | ███████████ |
 | [AI Coding](../formats/ai-coding.md) | 1 | 0% | █ |
@@ -30,8 +30,8 @@
 | [ByteDance](../companies/bytedance.md) | 25 | ████████ |
 | [Google](../companies/google.md) | 24 | ████████ |
 | [Microsoft](../companies/microsoft.md) | 23 | ███████ |
-| [OpenAI](../companies/openai.md) | 19 | ██████ |
 | [LinkedIn](../companies/linkedin.md) | 18 | ██████ |
+| [OpenAI](../companies/openai.md) | 18 | ██████ |
 | [Meta](../companies/meta.md) | 15 | █████ |
 | [Oracle](../companies/oracle.md) | 14 | ████ |
 | [Salesforce](../companies/salesforce.md) | 13 | ████ |
@@ -42,7 +42,7 @@
 | [Stripe](../companies/stripe.md) | 11 | ███ |
 | [Citadel](../companies/citadel.md) | 9 | ███ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 440 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 437 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -50,7 +50,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,426 | 59% | 201 | 431 | 1,484 | 511 | 2,426 | 285 |
+| [Algorithm](../formats/algorithm.md) | 2,426 | 59% | 198 | 431 | 1,484 | 511 | 2,426 | 285 |
 | [SQL](../formats/sql.md) | 297 | 7% | 38 | 65 | 179 | 53 | 297 | 6 |
 | [System Design](../formats/system-design.md) | 700 | 17% | 136 | 28 | 367 | 305 | 700 | 34 |
 | [AI Coding](../formats/ai-coding.md) | 109 | 3% | 1 | 7 | 73 | 29 | 109 | 9 |
@@ -89,12 +89,12 @@ Of the **2,326 questions that carry a topic label** (56% of the bank — the res
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
-| `hashing` | 407 | 17% | 47 | ████████████████ |
+| `hashing` | 405 | 17% | 46 | ████████████████ |
 | `arrays` | 338 | 15% | 31 | █████████████ |
-| `graphs` | 338 | 15% | 35 | █████████████ |
-| `strings` | 318 | 14% | 28 | █████████████ |
+| `graphs` | 338 | 15% | 34 | █████████████ |
+| `strings` | 319 | 14% | 28 | █████████████ |
 | `greedy` | 196 | 8% | 13 | ████████ |
-| `dynamic-programming` | 179 | 8% | 13 | ███████ |
+| `dynamic-programming` | 179 | 8% | 12 | ███████ |
 | `math` | 178 | 8% | 21 | ███████ |
 | `sorting` | 176 | 8% | 21 | ███████ |
 | `trees` | 163 | 7% | 21 | ██████ |

@@ -91,7 +91,7 @@ The 5 questions to open first if you are preparing for Mercor, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety](https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety) | Algorithm | Hard | 🆕 Sep 03, 2026 |
-| [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Algorithm | Hard | 🆕 Aug 30, 2026 |
-| [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | System Design | Hard | 🆕 Aug 30, 2026 |
+| [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Algorithm | Hard | Aug 30, 2026 |
+| [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | System Design | Hard | Aug 30, 2026 |
 | [Code Review: Thread Safety of a Python Compute-and-Cache Function](https://trueinterview.io/questions/code-review-thread-safety-of-a-python-compute-and-cache-function) | Algorithm | Hard | May 01, 2026 |
 | [Design Candidate Search And LLM Evaluation Tasks](https://trueinterview.io/questions/design-candidate-search-and-llm-evaluation-tasks) | System Design | Medium | Apr 21, 2026 |

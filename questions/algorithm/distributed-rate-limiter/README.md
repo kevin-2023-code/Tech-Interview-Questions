@@ -149,7 +149,7 @@ assert updated.tokens == 90 # The bucket reaches full capacity
 
 ---
 
-### Part 2: Request अनुमति Function
+### Part 2: Allow Request Function
 
 #### Problem Statement
 

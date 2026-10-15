@@ -53,7 +53,7 @@ Of the **30 questions at Ebay that carry a topic label** (67% of them — the re
 | :-- | --: | --: | :-- | :-- |
 | `arrays` | 10 | 33% | ████████████ | Aug 21, 2026 |
 | `strings` | 9 | 30% | ███████████ | Jun 16, 2026 |
-| `hashing` | 8 | 27% | ██████████ | Jun 12, 2026 |
+| `hashing` | 7 | 23% | ████████ | Jun 12, 2026 |
 | `graphs` | 5 | 17% | ██████ | Jun 06, 2026 |
 | `topological-sort` | 3 | 10% | ████ | Jun 06, 2026 |
 | `binary-search` | 2 | 7% | ██ | Aug 21, 2026 |

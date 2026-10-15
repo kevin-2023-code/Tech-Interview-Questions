@@ -50,16 +50,16 @@ Of the **12 questions at Perplexity that carry a topic label** (50% of them — 
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 3 | 25% | ████████████ | Jun 08, 2026 |
-| `heap` | 3 | 25% | ████████████ | Jun 08, 2026 |
-| `tries` | 3 | 25% | ████████████ | Jun 15, 2026 |
-| `strings` | 2 | 17% | ████████ | Jan 06, 2026 |
-| `trees` | 2 | 17% | ████████ | Jun 15, 2026 |
-| `binary-search` | 1 | 8% | ████ | Feb 23, 2026 |
-| `dynamic-programming` | 1 | 8% | ████ | — |
-| `graphs` | 1 | 8% | ████ | Oct 03, 2025 |
-| `intervals` | 1 | 8% | ████ | Aug 09, 2025 |
-| `linked-list` | 1 | 8% | ████ | Jan 06, 2026 |
+| `heap` | 4 | 33% | ████████████ | Jun 08, 2026 |
+| `strings` | 3 | 25% | █████████ | Jan 06, 2026 |
+| `tries` | 3 | 25% | █████████ | Jun 15, 2026 |
+| `hashing` | 2 | 17% | ██████ | Jun 08, 2026 |
+| `linked-list` | 2 | 17% | ██████ | Jan 06, 2026 |
+| `trees` | 2 | 17% | ██████ | Jun 15, 2026 |
+| `binary-search` | 1 | 8% | ███ | Feb 23, 2026 |
+| `dynamic-programming` | 1 | 8% | ███ | — |
+| `graphs` | 1 | 8% | ███ | Oct 03, 2025 |
+| `intervals` | 1 | 8% | ███ | Aug 09, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

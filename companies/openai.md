@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **144** |
 | Most recent sighting | Sep 17, 2026 |
-| Reported in the last 90 days | 19 |
+| Reported in the last 90 days | 18 |
 | Most common format | [Algorithm](../formats/algorithm.md) (38% of 144) |
 | Difficulty (easy / medium / hard) | 10 / 67 / 67 |
 | Free to practise | [13](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **144 of 144** questions at OpenAI 
 
 ## Asked here in the last 90 days
 
-**19 sightings** in this window. Newest first.
+**18 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **144 of 144** questions at OpenAI 
 | [Design a Dependency-Aware Concurrent Tool Scheduler](https://trueinterview.io/questions/design-a-dependency-aware-concurrent-tool-scheduler) | Object Oriented Programming | Medium | Phone screen | Aug 16, 2026 |
 | [Design a Digital Game Distribution Platform](https://trueinterview.io/questions/design-a-digital-game-distribution-platform) | System Design | Hard | Phone screen | Aug 16, 2026 |
 
-<sub>7 more in this window are in the table below.</sub>
+<sub>6 more in this window are in the table below.</sub>
 
 ## What they ask about
 

@@ -180,7 +180,7 @@ Of the **181 questions in this cut that carry a topic label** (66% of it):
 | **Citadel / Luma AI** | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | Hard | Jan 05, 2026 |
 | **Jane Street** | [Connect-N on an Infinite Board with Gravity](https://trueinterview.io/questions/connect-n-on-an-infinite-board-with-gravity) | Hard | Dec 26, 2025 |
 | **Citadel** | [Non-Consecutive Process Scheduling](https://trueinterview.io/questions/grace-hopper-non-consecutive-processes) | Medium | Dec 22, 2025 |
-| **Citadel** | [Largest Team Whose Members Share a Common Office Window](https://trueinterview.io/questions/interval-overlap-max-team) | Medium | Dec 22, 2025 |
+| **Citadel** | [Largest Team Built Around a Core Employee](https://trueinterview.io/questions/interval-overlap-max-team) | Medium | Dec 22, 2025 |
 | **Akuna Capital / JPMorgan** | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Medium | Dec 20, 2025 |
 | **Citadel** | [Live coding closer](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-live-coding-closer) | Hard | Dec 16, 2025 |
 | **Citadel / ByteDance** | [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching) | Medium | Dec 16, 2025 |

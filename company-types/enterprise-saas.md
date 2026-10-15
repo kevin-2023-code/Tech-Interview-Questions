@@ -101,11 +101,11 @@ Of the **357 questions in this cut that carry a topic label** (60% of it):
 | **Salesforce** | [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | Hard | 🆕 Aug 31, 2026 |
 | **Tradedesk** | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | Hard | 🆕 Aug 31, 2026 |
 | **Salesforce** | [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | Hard | 🆕 Aug 31, 2026 |
-| **Microsoft** | [Recover Sorted Digits from Scrambled English Number Words](https://trueinterview.io/questions/recover-sorted-digits-from-scrambled-english-number-words) | Medium | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Parse a Signed Integer in an Arbitrary Base](https://trueinterview.io/questions/parse-a-signed-integer-in-an-arbitrary-base) | Medium | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Keep Stable Unique Column Names Across Schema Changes](https://trueinterview.io/questions/keep-stable-unique-column-names-across-schema-changes) | Hard | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Design a Dictionary for Heterogeneous Key and Value Types](https://trueinterview.io/questions/design-a-dictionary-for-heterogeneous-key-and-value-types) | Medium | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Medium | 🆕 Aug 30, 2026 |
+| **Microsoft** | [Recover Sorted Digits from Scrambled English Number Words](https://trueinterview.io/questions/recover-sorted-digits-from-scrambled-english-number-words) | Medium | Aug 30, 2026 |
+| **Microsoft** | [Parse a Signed Integer in an Arbitrary Base](https://trueinterview.io/questions/parse-a-signed-integer-in-an-arbitrary-base) | Medium | Aug 30, 2026 |
+| **Microsoft** | [Keep Stable Unique Column Names Across Schema Changes](https://trueinterview.io/questions/keep-stable-unique-column-names-across-schema-changes) | Hard | Aug 30, 2026 |
+| **Microsoft** | [Design a Dictionary for Heterogeneous Key and Value Types](https://trueinterview.io/questions/design-a-dictionary-for-heterogeneous-key-and-value-types) | Medium | Aug 30, 2026 |
+| **Microsoft** | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Medium | Aug 30, 2026 |
 | **Oracle** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Hard | Aug 28, 2026 |
 | **Palantir** | [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Hard | Aug 27, 2026 |
 | **Palantir** | [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Hard | Aug 27, 2026 |

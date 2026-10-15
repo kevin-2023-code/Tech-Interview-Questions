@@ -34,7 +34,7 @@ Of the **1,208 questions in this cut that carry a topic label** (58% of it):
 | :-- | --: | --: | :-- |
 | `arrays` | 192 | 16% | ████████████ |
 | `graphs` | 185 | 15% | ████████████ |
-| `hashing` | 185 | 15% | ████████████ |
+| `hashing` | 184 | 15% | ████████████ |
 | `strings` | 156 | 13% | ██████████ |
 | `greedy` | 101 | 8% | ██████ |
 | `dynamic-programming` | 90 | 7% | ██████ |
@@ -146,16 +146,16 @@ Of the **1,208 questions in this cut that carry a topic label** (58% of it):
 | **Salesforce** | [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | Hard | 🆕 Aug 31, 2026 |
 | **LinkedIn** | [Scale a NoSQL Key–Value Store to One Million QPS](https://trueinterview.io/questions/scale-a-nosql-key-value-store-to-one-million-qps) | Hard | 🆕 Aug 31, 2026 |
 | **Salesforce** | [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | Hard | 🆕 Aug 31, 2026 |
-| **Google** | [Design a Bookshelf with Book CRUD and a Stable Bookmark](https://trueinterview.io/questions/design-a-bookshelf-with-book-crud-and-a-stable-bookmark) | Medium | 🆕 Aug 30, 2026 |
-| **Google** | [Compute Entity Size and Validate a Hierarchical File System](https://trueinterview.io/questions/compute-entity-size-and-validate-a-hierarchical-file-system) | Hard | 🆕 Aug 30, 2026 |
-| **Google** | [Find the Longest Continuous Increasing Subsequence](https://trueinterview.io/questions/find-the-longest-continuous-increasing-subsequence) | Easy | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Recover Sorted Digits from Scrambled English Number Words](https://trueinterview.io/questions/recover-sorted-digits-from-scrambled-english-number-words) | Medium | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Parse a Signed Integer in an Arbitrary Base](https://trueinterview.io/questions/parse-a-signed-integer-in-an-arbitrary-base) | Medium | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Keep Stable Unique Column Names Across Schema Changes](https://trueinterview.io/questions/keep-stable-unique-column-names-across-schema-changes) | Hard | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Design a Dictionary for Heterogeneous Key and Value Types](https://trueinterview.io/questions/design-a-dictionary-for-heterogeneous-key-and-value-types) | Medium | 🆕 Aug 30, 2026 |
-| **Microsoft** | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Medium | 🆕 Aug 30, 2026 |
-| **ByteDance** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | Hard | 🆕 Aug 30, 2026 |
-| **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Hard | 🆕 Aug 30, 2026 |
+| **Google** | [Design a Bookshelf with Book CRUD and a Stable Bookmark](https://trueinterview.io/questions/design-a-bookshelf-with-book-crud-and-a-stable-bookmark) | Medium | Aug 30, 2026 |
+| **Google** | [Compute Entity Size and Validate a Hierarchical File System](https://trueinterview.io/questions/compute-entity-size-and-validate-a-hierarchical-file-system) | Hard | Aug 30, 2026 |
+| **Google** | [Find the Longest Continuous Increasing Subsequence](https://trueinterview.io/questions/find-the-longest-continuous-increasing-subsequence) | Easy | Aug 30, 2026 |
+| **Microsoft** | [Recover Sorted Digits from Scrambled English Number Words](https://trueinterview.io/questions/recover-sorted-digits-from-scrambled-english-number-words) | Medium | Aug 30, 2026 |
+| **Microsoft** | [Parse a Signed Integer in an Arbitrary Base](https://trueinterview.io/questions/parse-a-signed-integer-in-an-arbitrary-base) | Medium | Aug 30, 2026 |
+| **Microsoft** | [Keep Stable Unique Column Names Across Schema Changes](https://trueinterview.io/questions/keep-stable-unique-column-names-across-schema-changes) | Hard | Aug 30, 2026 |
+| **Microsoft** | [Design a Dictionary for Heterogeneous Key and Value Types](https://trueinterview.io/questions/design-a-dictionary-for-heterogeneous-key-and-value-types) | Medium | Aug 30, 2026 |
+| **Microsoft** | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Medium | Aug 30, 2026 |
+| **ByteDance** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | Hard | Aug 30, 2026 |
+| **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Hard | Aug 30, 2026 |
 | **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | Aug 29, 2026 |
 | **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | Aug 29, 2026 |
 | **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | Aug 29, 2026 |

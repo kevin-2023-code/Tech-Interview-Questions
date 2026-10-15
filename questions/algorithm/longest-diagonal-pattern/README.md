@@ -16,11 +16,11 @@ You are given a 2‑D integer array `grid` of size `m x n`. Every cell contains 
 
 A valid pattern is a contiguous sequence of cells along a single diagonal (either top‑left to bottom‑right or bottom‑left to top‑right) where:
 - The sequence must begin with the value `1`.
-- After the starting `1`, the values strictly alternate between `2` and `0`.
+- After the starting `1`, the values strictly alternate between `2` and `0`; the value right after the `1` may be either `2` or `0`.
 
 You are allowed to start the pattern at any cell and extend it in the chosen diagonal direction without changing direction. The sequence ends when the alternating rule is broken or the grid boundary is reached.
 
-Return the length (number of cells) of the longest such pattern that can be found anywhere in the grid.
+Return the length (number of cells) of the longest such pattern that can be found anywhere in the grid. If the grid contains no `1`, return `0`.
 
 Example 1:
 
@@ -35,7 +35,7 @@ grid = [
 Output: 3
 ```
 
-Explanation: Starting at `grid[0][2]` (value `1`) and moving down‑right gives $$1 \to 0 \to 1$$, but `1` is not `2`, so the pattern length is `1`. Starting at `grid[1][0]` (value `1`) and moving down‑right gives $$1 \to 0 \to 1$$ (length `1`). The longest is $$1 \to 2 \to 0$$ from `grid[2][1]` moving up‑right, yielding length `3`.
+Explanation: Starting at `grid[0][2]` (value `1`) and moving down‑left gives $$1 \to 0 \to 2$$ (`grid[1][1]`, then `grid[2][0]`), yielding length `3`. Shorter patterns include $$1 \to 2$$ from `grid[2][1]` moving up‑right and $$1 \to 2$$ from `grid[1][0]` moving up‑right (length `2` each).
 
 Example 2:
 
@@ -51,7 +51,7 @@ grid = [
 Output: 3
 ```
 
-Explanation: The pattern $$1 \to 2 \to 0$$ appears along the top‑left to bottom‑right diagonal starting at `grid[1][2]` and continuing to `grid[3][4]`. No longer alternating sequence starting with `1` exists.
+Explanation: The pattern $$1 \to 0 \to 2$$ appears along the top‑left to bottom‑right diagonal starting at `grid[1][2]` and continuing to `grid[3][4]`. No longer alternating sequence starting with `1` exists.
 
 Constraints:
 
@@ -70,7 +70,7 @@ Think of each diagonal as an independent line that must start with 1 and then st
 <details>
 <summary>Hint 2</summary>
 
-For each starting cell that is 1, simulate extending the pattern along the diagonal while tracking the expected next value (2 then 0 then 2…) until the rule fails or the grid ends.
+For each starting cell that is 1, simulate extending the pattern along the diagonal while tracking the expected next value (2 then 0 then 2…, or 0 then 2 then 0…) until the rule fails or the grid ends.
 
 </details>
 

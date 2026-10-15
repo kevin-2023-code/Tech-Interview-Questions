@@ -14,7 +14,7 @@
 
 ### Fewest Hits Required
 
-You are given an integer array `targets`, with each value indicating how much durability a target has before it is eliminated. A single range hit may fully remove targets only if the targets included in that hit currently have identical durability. Determine the smallest number of hits required to eliminate every target.
+You are given an integer array `targets`, with each value indicating how much durability a target has before it is eliminated. A single range hit may fully remove targets only if the targets included in that hit currently have identical durability. Each hit covers a contiguous range of positions in the original array, and every target in that range must still be present, so destroying a target never makes its two neighbors adjacent. Determine the smallest number of hits required to eliminate every target.
 
 **Input:**
 - An integer array `targets`, where each entry gives one target's durability.

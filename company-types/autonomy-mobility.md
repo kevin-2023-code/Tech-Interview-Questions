@@ -84,7 +84,7 @@ Of the **97 questions in this cut that carry a topic label** (58% of it):
 | **Nuro** | [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | Hard | 🆕 Aug 31, 2026 |
 | **Nuro** | [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | Hard | 🆕 Aug 31, 2026 |
 | **Nuro** | [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | Hard | 🆕 Aug 31, 2026 |
-| **Applied Intuition** | [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Medium | 🆕 Aug 30, 2026 |
+| **Applied Intuition** | [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Medium | Aug 30, 2026 |
 | **Waymo** | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Hard | Aug 27, 2026 |
 | **Tesla** | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | Hard | Aug 24, 2026 |
 | **Tesla** | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | Hard | Aug 24, 2026 |

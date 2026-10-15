@@ -74,7 +74,7 @@
       "dated": 119,
       "free": 22,
       "guides": 5,
-      "inLastYear": 118,
+      "inLastYear": 117,
       "inWindow": 23,
       "lastSighting": "2026-09-10",
       "name": "Microsoft",
@@ -88,7 +88,7 @@
       "free": 13,
       "guides": 7,
       "inLastYear": 91,
-      "inWindow": 19,
+      "inWindow": 18,
       "lastSighting": "2026-09-17",
       "name": "OpenAI",
       "questions": 144,
@@ -718,7 +718,7 @@
       "questions": 24,
       "slug": "perplexity",
       "topFormat": "Algorithm",
-      "topTopic": "hashing"
+      "topTopic": "heap"
     },
     {
       "dated": 19,
@@ -946,7 +946,7 @@
       "free": 6,
       "guides": 1,
       "inLastYear": 6,
-      "inWindow": 3,
+      "inWindow": 1,
       "lastSighting": "2026-09-12",
       "name": "Vanta",
       "questions": 14,
@@ -997,7 +997,7 @@
       "dated": 11,
       "free": 2,
       "guides": 0,
-      "inLastYear": 11,
+      "inLastYear": 10,
       "inWindow": 2,
       "lastSighting": "2026-08-24",
       "name": "Jane Street",
@@ -1722,7 +1722,7 @@
       "free": 285,
       "graded": 2426,
       "hard": 511,
-      "inWindow": 201,
+      "inWindow": 198,
       "label": "Algorithm",
       "medium": 1484,
       "questions": 2426
@@ -1772,7 +1772,7 @@
       "questions": 589
     }
   ],
-  "generated": "2026-10-14",
+  "generated": "2026-10-15",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -2476,11 +2476,11 @@
   "topics": [
     {
       "easy": 97,
-      "graded": 407,
-      "hard": 58,
-      "inWindow": 47,
-      "medium": 252,
-      "questions": 407,
+      "graded": 405,
+      "hard": 57,
+      "inWindow": 46,
+      "medium": 251,
+      "questions": 405,
       "topCompanies": [
         {
           "name": "Amazon",
@@ -2550,7 +2550,7 @@
       "easy": 22,
       "graded": 338,
       "hard": 100,
-      "inWindow": 35,
+      "inWindow": 34,
       "medium": 216,
       "questions": 338,
       "topCompanies": [
@@ -2584,11 +2584,11 @@
     },
     {
       "easy": 86,
-      "graded": 318,
-      "hard": 41,
+      "graded": 319,
+      "hard": 42,
       "inWindow": 28,
       "medium": 191,
-      "questions": 318,
+      "questions": 319,
       "topCompanies": [
         {
           "name": "ByteDance",
@@ -2658,7 +2658,7 @@
       "easy": 10,
       "graded": 179,
       "hard": 64,
-      "inWindow": 13,
+      "inWindow": 12,
       "medium": 105,
       "questions": 179,
       "topCompanies": [
@@ -2908,11 +2908,11 @@
     },
     {
       "easy": 7,
-      "graded": 117,
-      "hard": 36,
+      "graded": 118,
+      "hard": 37,
       "inWindow": 16,
       "medium": 74,
-      "questions": 117,
+      "questions": 118,
       "topCompanies": [
         {
           "name": "Amazon",
@@ -3088,11 +3088,11 @@
     },
     {
       "easy": 7,
-      "graded": 53,
-      "hard": 9,
+      "graded": 54,
+      "hard": 10,
       "inWindow": 6,
       "medium": 37,
-      "questions": 53,
+      "questions": 54,
       "topCompanies": [
         {
           "name": "Apple",
@@ -3126,7 +3126,7 @@
       "easy": 0,
       "graded": 48,
       "hard": 12,
-      "inWindow": 9,
+      "inWindow": 8,
       "medium": 36,
       "questions": 48,
       "topCompanies": [
@@ -3238,8 +3238,8 @@
     "futureDated": 0,
     "gradedDifficulty": 4121,
     "guides": 205,
-    "inLastYear": 2314,
-    "inWindow": 440,
+    "inLastYear": 2312,
+    "inWindow": 437,
     "labelledTopic": 2326,
     "namingARound": 4121,
     "questions": 4121,

@@ -20,6 +20,8 @@ Given an array, determine the fewest swaps needed to arrange it in sorted order.
 - Sorting in **descending** order, from largest to smallest.
 - Handling arrays that contain **duplicate** values.
 
+When values repeat, equal values are treated as distinct items: the final array must be the stable sort of the input, so equal values keep their original relative order.
+
 ## Examples
 
 Descending variant:

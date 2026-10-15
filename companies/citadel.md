@@ -165,7 +165,7 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [Find Complete Flight Path](https://trueinterview.io/questions/find-complete-flight-path) | Algorithm | Hard | Jan 05, 2026 |
 | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | Algorithm | Hard | Jan 05, 2026 |
 | [Non-Consecutive Process Scheduling](https://trueinterview.io/questions/grace-hopper-non-consecutive-processes) | Algorithm | Medium | Dec 22, 2025 |
-| [Largest Team Whose Members Share a Common Office Window](https://trueinterview.io/questions/interval-overlap-max-team) | Algorithm | Medium | Dec 22, 2025 |
+| [Largest Team Built Around a Core Employee](https://trueinterview.io/questions/interval-overlap-max-team) | Algorithm | Medium | Dec 22, 2025 |
 | [Live coding closer](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-live-coding-closer) | Algorithm | Hard | Dec 16, 2025 |
 | [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching) | Algorithm | Medium | Dec 16, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
