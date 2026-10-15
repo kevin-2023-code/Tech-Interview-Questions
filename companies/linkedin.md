@@ -60,16 +60,16 @@ Which stage each question came from, for the **116 of 116** questions at LinkedI
 
 ## What they ask about
 
-Of the **62 questions at LinkedIn that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **63 questions at LinkedIn that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 14 | 23% | ████████████ | Aug 27, 2026 |
+| `hashing` | 14 | 22% | ████████████ | Aug 27, 2026 |
 | `graphs` | 10 | 16% | █████████ | Aug 27, 2026 |
-| `trees` | 9 | 15% | ████████ | Sep 01, 2026 |
-| `arrays` | 7 | 11% | ██████ | Aug 16, 2026 |
+| `trees` | 9 | 14% | ████████ | Sep 01, 2026 |
+| `arrays` | 8 | 13% | ███████ | Aug 16, 2026 |
 | `backtracking` | 7 | 11% | ██████ | Sep 04, 2026 |
-| `binary-search` | 6 | 10% | █████ | Aug 16, 2026 |
+| `binary-search` | 7 | 11% | ██████ | Aug 16, 2026 |
 | `linked-list` | 5 | 8% | ████ | Mar 02, 2026 |
 | `math` | 5 | 8% | ████ | Aug 24, 2026 |
 | `stack` | 5 | 8% | ████ | Aug 16, 2026 |

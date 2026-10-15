@@ -24,24 +24,24 @@
 | [SQL](../formats/sql.md) | 17 | 6% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 0% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **54 / 160 / 51**, over the rows the catalog has graded. 48 of the 265 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **54 / 159 / 52**, over the rows the catalog has graded. 48 of the 265 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **173 questions in this cut that carry a topic label** (65% of it):
+Of the **175 questions in this cut that carry a topic label** (66% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 37 | 21% | ████████████ |
+| `arrays` | 38 | 22% | ████████████ |
 | `hashing` | 32 | 18% | ██████████ |
 | `strings` | 29 | 17% | █████████ |
 | `graphs` | 16 | 9% | █████ |
 | `sorting` | 15 | 9% | █████ |
-| `dynamic-programming` | 14 | 8% | █████ |
-| `greedy` | 13 | 8% | ████ |
-| `matrix` | 13 | 8% | ████ |
+| `dynamic-programming` | 14 | 8% | ████ |
+| `matrix` | 14 | 8% | ████ |
+| `greedy` | 13 | 7% | ████ |
 | `backtracking` | 12 | 7% | ████ |
-| `sliding-window` | 11 | 6% | ████ |
+| `sliding-window` | 11 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -244,7 +244,7 @@ Of the **173 questions in this cut that carry a topic label** (65% of it):
 | **Capital One** | [Fix failing tests and refactor code](https://trueinterview.io/questions/fix-failing-tests-and-refactor-code) | Medium | — |
 | **Capital One** | [Design profit evaluation for loyalty program](https://trueinterview.io/questions/design-profit-evaluation-for-loyalty-program) | Hard | — |
 | **Capital One** | [Design late-tolerant streaming window aggregator](https://trueinterview.io/questions/design-late-tolerant-streaming-window-aggregator) | Hard | — |
-| **Capital One** | [Design a production face recognition system](https://trueinterview.io/questions/design-a-production-face-recognition-system) | Medium | — |
+| **Capital One** | [Design a production face recognition system](https://trueinterview.io/questions/design-a-production-face-recognition-system) | Hard | — |
 | **Capital One** | [Decide content volume and price under uncertainty](https://trueinterview.io/questions/decide-content-volume-and-price-under-uncertainty) | Hard | — |
 | **Capital One** | [Choose cashback segment and model post-launch impact](https://trueinterview.io/questions/choose-cashback-segment-and-model-post-launch-impact) | Medium | — |
 | **Capital One** | [Build a causal ML pipeline end-to-end](https://trueinterview.io/questions/build-a-causal-ml-pipeline-end-to-end) | Hard | — |

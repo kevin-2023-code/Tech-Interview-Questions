@@ -42,20 +42,20 @@ Which stage each question came from, for the **18 of 18** questions at Hudson Ri
 
 ## What they ask about
 
-Of the **12 questions at Hudson River Trading that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Hudson River Trading that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 3 | 25% | ████████████ | — |
-| `hashing` | 2 | 17% | ████████ | — |
-| `sorting` | 2 | 17% | ████████ | Nov 28, 2025 |
-| `backtracking` | 1 | 8% | ████ | Oct 16, 2025 |
-| `binary-search` | 1 | 8% | ████ | May 01, 2026 |
-| `bit-manipulation` | 1 | 8% | ████ | — |
-| `graphs` | 1 | 8% | ████ | — |
-| `math` | 1 | 8% | ████ | — |
-| `stack` | 1 | 8% | ████ | — |
-| `strings` | 1 | 8% | ████ | — |
+| `arrays` | 4 | 31% | ████████████ | — |
+| `hashing` | 2 | 15% | ██████ | — |
+| `sorting` | 2 | 15% | ██████ | Nov 28, 2025 |
+| `backtracking` | 1 | 8% | ███ | Oct 16, 2025 |
+| `binary-search` | 1 | 8% | ███ | May 01, 2026 |
+| `bit-manipulation` | 1 | 8% | ███ | — |
+| `graphs` | 1 | 8% | ███ | — |
+| `math` | 1 | 8% | ███ | — |
+| `matrix` | 1 | 8% | ███ | — |
+| `stack` | 1 | 8% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

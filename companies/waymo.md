@@ -46,12 +46,12 @@ Which stage each question came from, for the **62 of 62** questions at Waymo tha
 
 ## What they ask about
 
-Of the **37 questions at Waymo that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **38 questions at Waymo that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 10 | 27% | ████████████ | Aug 27, 2026 |
-| `matrix` | 5 | 14% | ██████ | Aug 27, 2026 |
+| `graphs` | 10 | 26% | ████████████ | Aug 27, 2026 |
+| `matrix` | 5 | 13% | ██████ | Aug 27, 2026 |
 | `arrays` | 4 | 11% | █████ | May 13, 2026 |
 | `backtracking` | 4 | 11% | █████ | Jul 09, 2026 |
 | `greedy` | 4 | 11% | █████ | Nov 14, 2025 |

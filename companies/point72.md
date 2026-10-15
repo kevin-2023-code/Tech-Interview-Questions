@@ -52,19 +52,19 @@ Which stage each question came from, for the **29 of 29** questions at Point72 t
 
 ## What they ask about
 
-Of the **16 questions at Point72 that carry a topic label** (55% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Point72 that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 4 | 25% | ████████████ | Jul 29, 2026 |
-| `greedy` | 4 | 25% | ████████████ | Jul 29, 2026 |
-| `math` | 4 | 25% | ████████████ | — |
-| `sorting` | 4 | 25% | ████████████ | Jul 29, 2026 |
-| `arrays` | 2 | 12% | ██████ | Jul 29, 2026 |
-| `strings` | 2 | 12% | ██████ | — |
-| `binary-search` | 1 | 6% | ███ | — |
-| `hashing` | 1 | 6% | ███ | Jul 29, 2026 |
-| `stack` | 1 | 6% | ███ | Mar 25, 2026 |
+| `math` | 5 | 28% | ████████████ | Jul 29, 2026 |
+| `sorting` | 5 | 28% | ████████████ | Jul 29, 2026 |
+| `arrays` | 4 | 22% | ██████████ | Jul 29, 2026 |
+| `dynamic-programming` | 4 | 22% | ██████████ | Jul 29, 2026 |
+| `greedy` | 4 | 22% | ██████████ | Jul 29, 2026 |
+| `strings` | 2 | 11% | █████ | — |
+| `binary-search` | 1 | 6% | ██ | — |
+| `hashing` | 1 | 6% | ██ | Jul 29, 2026 |
+| `stack` | 1 | 6% | ██ | Mar 25, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

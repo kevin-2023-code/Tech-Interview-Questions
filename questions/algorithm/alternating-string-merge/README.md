@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Cisco | Online assessment | — | Sep 2025 |
+| Algorithm | Easy | Cisco | Online assessment | strings, two-pointers | Sep 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/alternating-string-merge)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -47,21 +47,21 @@ Explanation: Alternating characters produces `azbs`; the leftover `d` is then ap
 <details>
 <summary>Hint 1</summary>
 
-Think of using two pointers to track positions in each string, advancing alternately until both are exhausted.
+Picture zipping two strings together one character at a time, then handling whatever remains of the longer one.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a loop that continues while either pointer is within bounds, appending the current character from the non-exhausted string.
+Use one index that advances over both strings while both have characters, then append the leftover tail of whichever is longer.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for the case where one string ends early, simply append the remainder of the other string.
+With lengths up to 25000, build the result with a string builder or list join rather than repeated concatenation, so the work stays linear.
 
 </details>
 

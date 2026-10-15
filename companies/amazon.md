@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 20, 2026 |
 | Reported in the last 90 days | 51 |
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 320) |
-| Difficulty (easy / medium / hard) | 54 / 206 / 60 |
+| Difficulty (easy / medium / hard) | 54 / 205 / 61 |
 | Free to practise | [31](../free/README.md) |
 | Guides & writeups | 5 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **320 of 320** questions at Amazon 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 43 | ███ | [Algorithm](../formats/algorithm.md) (88%) | 19 / 17 / 7 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 153 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 21 / 104 / 28 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 153 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 21 / 103 / 29 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 151 | ██████████ | [Algorithm](../formats/algorithm.md) (41%) | 18 / 105 / 28 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,20 +59,20 @@ Which stage each question came from, for the **320 of 320** questions at Amazon 
 
 ## What they ask about
 
-Of the **192 questions at Amazon that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **195 questions at Amazon that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 37 | 19% | ████████████ | Sep 05, 2026 |
-| `graphs` | 28 | 15% | █████████ | Aug 30, 2026 |
-| `arrays` | 27 | 14% | █████████ | Sep 02, 2026 |
+| `hashing` | 38 | 19% | ████████████ | Sep 05, 2026 |
+| `graphs` | 29 | 15% | █████████ | Aug 30, 2026 |
+| `arrays` | 28 | 14% | █████████ | Sep 02, 2026 |
 | `strings` | 21 | 11% | ███████ | Aug 19, 2026 |
 | `greedy` | 18 | 9% | ██████ | Aug 24, 2026 |
 | `sorting` | 18 | 9% | ██████ | Sep 01, 2026 |
 | `dynamic-programming` | 15 | 8% | █████ | Jul 14, 2026 |
 | `heap` | 15 | 8% | █████ | Sep 14, 2026 |
 | `trees` | 15 | 8% | █████ | Aug 22, 2026 |
-| `two-pointers` | 14 | 7% | █████ | Jun 22, 2026 |
+| `two-pointers` | 14 | 7% | ████ | Jun 22, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -332,7 +332,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design causal study for reminder impact](https://trueinterview.io/questions/design-causal-study-for-reminder-impact) | System Design | Hard | — |
 | [Design an operations dashboard with justifications](https://trueinterview.io/questions/design-an-operations-dashboard-with-justifications) | System Design | Medium | — |
 | [Design an LLM quality validation system](https://trueinterview.io/questions/design-an-llm-quality-validation-system) | System Design | Hard | — |
-| [Design an end-to-end spam detection system](https://trueinterview.io/questions/design-an-end-to-end-spam-detection-system) | System Design | Medium | — |
+| [Design an end-to-end spam detection system](https://trueinterview.io/questions/design-an-end-to-end-spam-detection-system) | System Design | Hard | — |
 | [Decide standardization, sparse numerics, correlated features](https://trueinterview.io/questions/decide-standardization-sparse-numerics-correlated-features) | System Design | Medium | — |
 | [Build a package-allocation model for couriers](https://trueinterview.io/questions/build-a-package-allocation-model-for-couriers) | System Design | Hard | — |
 | [Verify subscriptions and analyze orders with SQL/Python](https://trueinterview.io/questions/verify-subscriptions-and-analyze-orders-with-sql-python) | SQL | Medium | — |

@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**4,121 questions** · **205 writeups** · **131 companies** · **395 free to practise** · **437 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**4,122 questions** · **205 writeups** · **131 companies** · **395 free to practise** · **437 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -55,7 +55,7 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**395 of the 4,121 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**395 of the 4,122 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
 [Algorithm (285)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (34)](free/system-design.md) · [AI Coding (9)](free/ai-coding.md) · [Object Oriented Programming (61)](free/object-oriented-programming.md)
 
@@ -115,7 +115,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 **company**, kept in one registry, and every cut says exactly what it selects.
 
 <!-- gen:company-types:start -->
-[🏛️ Big Tech (2,065)](company-types/big-tech.md) · [🏗️ Large tech (1,000–9,999) (1,343)](company-types/large-tech.md) · [🏤 Mid-sized tech (200–999) (110)](company-types/mid-size-tech.md) · [🌱 Startups (under 200) (14)](company-types/startups.md) · [🧠 AI labs & AI infrastructure (356)](company-types/ai.md) · [📱 Consumer internet & media (1,118)](company-types/consumer-internet.md) · [🛒 E-commerce & marketplaces (891)](company-types/ecommerce-marketplace.md) · [☁️ Developer tools, cloud & data infrastructure (270)](company-types/dev-infra.md) · [🏢 Enterprise & business software (596)](company-types/enterprise-saas.md) · [🔒 Cybersecurity (77)](company-types/security.md) · [💳 Fintech, payments & crypto (367)](company-types/fintech.md) · [📈 Quant trading & hedge funds (273)](company-types/quant-trading.md) · [🏦 Banks, insurers & asset managers (265)](company-types/banking-finance.md) · [🔬 Semiconductors & chips (40)](company-types/semiconductors.md) · [🖥️ Hardware, devices & networking (177)](company-types/hardware-devices.md) · [🚗 Autonomy, automotive & mobility (167)](company-types/autonomy-mobility.md) · [🎮 Gaming & interactive (86)](company-types/gaming.md) · [🧾 IT services & consulting (33)](company-types/it-consulting.md)
+[🏛️ Big Tech (2,066)](company-types/big-tech.md) · [🏗️ Large tech (1,000–9,999) (1,343)](company-types/large-tech.md) · [🏤 Mid-sized tech (200–999) (110)](company-types/mid-size-tech.md) · [🌱 Startups (under 200) (14)](company-types/startups.md) · [🧠 AI labs & AI infrastructure (356)](company-types/ai.md) · [📱 Consumer internet & media (1,119)](company-types/consumer-internet.md) · [🛒 E-commerce & marketplaces (891)](company-types/ecommerce-marketplace.md) · [☁️ Developer tools, cloud & data infrastructure (270)](company-types/dev-infra.md) · [🏢 Enterprise & business software (596)](company-types/enterprise-saas.md) · [🔒 Cybersecurity (77)](company-types/security.md) · [💳 Fintech, payments & crypto (367)](company-types/fintech.md) · [📈 Quant trading & hedge funds (273)](company-types/quant-trading.md) · [🏦 Banks, insurers & asset managers (265)](company-types/banking-finance.md) · [🔬 Semiconductors & chips (40)](company-types/semiconductors.md) · [🖥️ Hardware, devices & networking (177)](company-types/hardware-devices.md) · [🚗 Autonomy, automotive & mobility (167)](company-types/autonomy-mobility.md) · [🎮 Gaming & interactive (86)](company-types/gaming.md) · [🧾 IT services & consulting (33)](company-types/it-consulting.md)
 
 [**Every company type, with what each one selects →**](company-types/README.md)
 <!-- gen:company-types:end -->
@@ -123,7 +123,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 🏢 Browse by company
 
 <!-- gen:companies:start -->
-[Meta (334)](companies/meta/README.md) · [Amazon (320)](companies/amazon/README.md) · [Google (266)](companies/google/README.md) · [ByteDance (255)](companies/bytedance/README.md) · [Uber (217)](companies/uber/README.md) · [Microsoft (186)](companies/microsoft/README.md) · [OpenAI (144)](companies/openai/README.md) · [Apple (142)](companies/apple/README.md) · [Snowflake (128)](companies/snowflake/README.md) · [LinkedIn (116)](companies/linkedin/README.md) · [DoorDash (107)](companies/doordash/README.md) · [Pinterest (101)](companies/pinterest/README.md) · [Oracle (95)](companies/oracle/README.md) · [Stripe (95)](companies/stripe/README.md) · [Netflix (88)](companies/netflix/README.md) · [Salesforce (88)](companies/salesforce/README.md) · [Roblox (86)](companies/roblox/README.md) · [Capital One (84)](companies/capital-one/README.md) · [Bloomberg (83)](companies/bloomberg/README.md) · [Anthropic (79)](companies/anthropic/README.md) · [Databricks (79)](companies/databricks/README.md) · [Airbnb (78)](companies/airbnb/README.md) · [Citadel (72)](companies/citadel/README.md) · [Coinbase (72)](companies/coinbase/README.md)
+[Meta (335)](companies/meta/README.md) · [Amazon (320)](companies/amazon/README.md) · [Google (266)](companies/google/README.md) · [ByteDance (255)](companies/bytedance/README.md) · [Uber (217)](companies/uber/README.md) · [Microsoft (186)](companies/microsoft/README.md) · [OpenAI (144)](companies/openai/README.md) · [Apple (142)](companies/apple/README.md) · [Snowflake (128)](companies/snowflake/README.md) · [LinkedIn (116)](companies/linkedin/README.md) · [DoorDash (107)](companies/doordash/README.md) · [Pinterest (101)](companies/pinterest/README.md) · [Oracle (95)](companies/oracle/README.md) · [Stripe (95)](companies/stripe/README.md) · [Netflix (88)](companies/netflix/README.md) · [Salesforce (88)](companies/salesforce/README.md) · [Roblox (86)](companies/roblox/README.md) · [Capital One (84)](companies/capital-one/README.md) · [Bloomberg (83)](companies/bloomberg/README.md) · [Anthropic (79)](companies/anthropic/README.md) · [Databricks (79)](companies/databricks/README.md) · [Airbnb (78)](companies/airbnb/README.md) · [Citadel (72)](companies/citadel/README.md) · [Coinbase (72)](companies/coinbase/README.md)
 
 <details>
 <summary><b>+ 107 more companies</b></summary>
@@ -138,13 +138,13 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (2,426)](formats/algorithm.md) · [SQL (297)](formats/sql.md) · [System Design (700)](formats/system-design.md) · [AI Coding (109)](formats/ai-coding.md) · [Object Oriented Programming (589)](formats/object-oriented-programming.md)
+[Algorithm (2,427)](formats/algorithm.md) · [SQL (297)](formats/sql.md) · [System Design (700)](formats/system-design.md) · [AI Coding (109)](formats/ai-coding.md) · [Object Oriented Programming (589)](formats/object-oriented-programming.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported
 
 <!-- gen:months:start -->
-[Sep 2026 (162)](by-month/2026-09.md) · [Aug 2026 (217)](by-month/2026-08.md) · [Jul 2026 (97)](by-month/2026-07.md) · [Jun 2026 (202)](by-month/2026-06.md) · [May 2026 (227)](by-month/2026-05.md) · [Apr 2026 (332)](by-month/2026-04.md) · [Mar 2026 (202)](by-month/2026-03.md) · [Feb 2026 (237)](by-month/2026-02.md) · [Jan 2026 (256)](by-month/2026-01.md) · [Dec 2025 (156)](by-month/2025-12.md) · [Nov 2025 (158)](by-month/2025-11.md) · [Oct 2025 (113)](by-month/2025-10.md) · [**every month →**](by-month/README.md)
+[Sep 2026 (162)](by-month/2026-09.md) · [Aug 2026 (217)](by-month/2026-08.md) · [Jul 2026 (97)](by-month/2026-07.md) · [Jun 2026 (202)](by-month/2026-06.md) · [May 2026 (227)](by-month/2026-05.md) · [Apr 2026 (332)](by-month/2026-04.md) · [Mar 2026 (203)](by-month/2026-03.md) · [Feb 2026 (237)](by-month/2026-02.md) · [Jan 2026 (256)](by-month/2026-01.md) · [Dec 2025 (156)](by-month/2025-12.md) · [Nov 2025 (158)](by-month/2025-11.md) · [Oct 2025 (113)](by-month/2025-10.md) · [**every month →**](by-month/README.md)
 <!-- gen:months:end -->
 
 ---

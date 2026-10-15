@@ -19,14 +19,14 @@ Your task is to solve the following two parts:
 1. Compute the maximum total resource usage that occurs at any point in time, denoted as `peak`.
 2. Identify every maximal time interval during which the total usage is exactly `peak`. Return these intervals as a list of `[start, end)` pairs, sorted by start time, with no overlaps.
 
-Input format:
-- The first line contains an integer `n` (number of tasks).
-- Each of the next `n` lines contains three integers: `start`, `end`, `demand`.
+Function specification:
+- Implement `maximumPeakIntervals(tasks)`, where `tasks` is a list of `n` tasks (`n` is the number of tasks); each task is a list of three integers `[start, end, demand]`.
 
-Output format:
-- The first line: the integer `peak`.
-- The second line: the integer `k` (number of peak intervals).
-- Each of the next `k` lines: two integers representing the start and end of a peak interval.
+Return value:
+- Return a tuple `(peak, intervals)`, where `peak` is the integer maximum usage and `intervals` is the list of `k` peak intervals, each a pair `[start, end]`.
+
+(The example outputs below show this as `peak`, then `k`, then one interval per line.)
+
 
 Example 1:
 

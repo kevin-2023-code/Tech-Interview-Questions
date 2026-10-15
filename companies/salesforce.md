@@ -61,14 +61,14 @@ Which stage each question came from, for the **88 of 88** questions at Salesforc
 
 ## What they ask about
 
-Of the **67 questions at Salesforce that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **68 questions at Salesforce that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `arrays` | 13 | 19% | ████████████ | Jun 22, 2026 |
 | `greedy` | 11 | 16% | ██████████ | Apr 05, 2026 |
 | `strings` | 11 | 16% | ██████████ | Aug 24, 2026 |
-| `dynamic-programming` | 9 | 13% | ████████ | Jul 25, 2026 |
+| `dynamic-programming` | 10 | 15% | █████████ | Jul 25, 2026 |
 | `two-pointers` | 8 | 12% | ███████ | Aug 16, 2026 |
 | `graphs` | 7 | 10% | ██████ | Aug 24, 2026 |
 | `hashing` | 5 | 7% | █████ | Mar 19, 2026 |

@@ -8,12 +8,12 @@ The same bank cut by **what kind of company asks**, because that is how preparat
 
 | Company type | Companies | Questions | What it selects |
 | :-- | --: | --: | :-- |
-| [🏛️ Big Tech](big-tech.md) | 24 | 2,065 | A technology-sector employer with 10,000+ people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
+| [🏛️ Big Tech](big-tech.md) | 24 | 2,066 | A technology-sector employer with 10,000+ people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
 | [🏗️ Large tech (1,000–9,999)](large-tech.md) | 41 | 1,343 | A technology-sector employer with between 1,000 and 9,999 people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
 | [🏤 Mid-sized tech (200–999)](mid-size-tech.md) | 11 | 110 | A technology-sector employer with between 200 and 999 people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
 | [🌱 Startups (under 200)](startups.md) | 3 | 14 | A technology-sector employer with fewer than 200 people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
 | [🧠 AI labs & AI infrastructure](ai.md) | 15 | 356 | Every employer the company registry files under AI labs & AI infrastructure, at any size. The sector is a fact about the company recorded once, never inferred from a question. |
-| [📱 Consumer internet & media](consumer-internet.md) | 10 | 1,118 | Every employer the company registry files under Consumer internet & media, at any size. The sector is a fact about the company recorded once, never inferred from a question. |
+| [📱 Consumer internet & media](consumer-internet.md) | 10 | 1,119 | Every employer the company registry files under Consumer internet & media, at any size. The sector is a fact about the company recorded once, never inferred from a question. |
 | [🛒 E-commerce & marketplaces](ecommerce-marketplace.md) | 14 | 891 | Every employer the company registry files under E-commerce & marketplaces, at any size. The sector is a fact about the company recorded once, never inferred from a question. |
 | [☁️ Developer tools, cloud & data infrastructure](dev-infra.md) | 7 | 270 | Every employer the company registry files under Developer tools, cloud & data infrastructure, at any size. The sector is a fact about the company recorded once, never inferred from a question. |
 | [🏢 Enterprise & business software](enterprise-saas.md) | 17 | 596 | Every employer the company registry files under Enterprise & business software, at any size. The sector is a fact about the company recorded once, never inferred from a question. |

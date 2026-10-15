@@ -22,14 +22,15 @@ The structure must expose two methods:
 
 **Follow‑up:** Modify the design so that it can also answer arbitrary percentile queries: `findPercentile(p)` with `p` an integer between 0 and 100 inclusive. Use the nearest‑rank rule: for `n` sorted elements, the `p`‑th percentile is the element at index `ceil(p / 100 * n) - 1` (using 0‑based indexing). When `p = 0`, return the smallest value. Discuss how to keep operations efficient while supporting these additional queries.
 
-The first line of input contains a single integer `q`, representing the number of operations to process.  
-Each subsequent line is an operation – either:
+Implement `processOperations(operations)`, where `operations` is a list of strings, each one an operation – either:
 - `add x`  (insert integer `x`), or
-- `median` (output the median of all inserted numbers so far).
+- `median` (report the median of all inserted numbers so far).
 
 There will always be at least one `add` before any `median` command.
 
-For every `median` query, print the result on its own line. If the value is a whole number, print it as an integer; otherwise print it with exactly one digit after the decimal point (e.g., `5.5`).
+Return a list with the median (as a float) for every `median` query, in order. In the example outputs below, a whole-number median is shown as an integer, and any other median with exactly one digit after the decimal point (e.g., `5.5`).
+
+
 
 Example 1:
 

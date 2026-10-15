@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Drw | Online assessment | — | Oct 2025 |
+| Algorithm | Medium | Drw | Online assessment | arrays | Oct 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -54,6 +54,29 @@ Constraints:
 * The length of `rating` is $$n$$.
 * `rating` is a permutation of the integers from $$1$$ through $$n$$; therefore all ratings are distinct.
 * An $$O(n \log n)$$ time solution is sufficient.
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+A player keeps playing until the first time they meet someone with a higher rating, so think about each player's own path through the rounds.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Simulate the rounds by keeping the list of survivors in order, pairing neighbors and adding one match to both players of every pair.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+There are only log n rounds and the survivor count halves each time, so total work is linear in n, and note the champion plays exactly log2(n) matches.
+
+</details>
 
 ## Solution
 

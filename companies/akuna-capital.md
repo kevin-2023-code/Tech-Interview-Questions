@@ -47,19 +47,19 @@ Which stage each question came from, for the **31 of 31** questions at Akuna Cap
 
 ## What they ask about
 
-Of the **23 questions at Akuna Capital that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **24 questions at Akuna Capital that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 8 | 35% | ████████████ | Jul 29, 2026 |
-| `greedy` | 6 | 26% | █████████ | Dec 20, 2025 |
+| `arrays` | 8 | 33% | ████████████ | Jul 29, 2026 |
+| `greedy` | 6 | 25% | █████████ | Dec 20, 2025 |
 | `graphs` | 4 | 17% | ██████ | May 25, 2026 |
 | `hashing` | 4 | 17% | ██████ | May 25, 2026 |
 | `sorting` | 4 | 17% | ██████ | Jul 29, 2026 |
-| `heap` | 2 | 9% | ███ | Nov 11, 2025 |
-| `sliding-window` | 2 | 9% | ███ | Jan 23, 2026 |
-| `stack` | 2 | 9% | ███ | Jan 23, 2026 |
-| `strings` | 2 | 9% | ███ | Nov 04, 2025 |
+| `sliding-window` | 3 | 12% | ████ | Jan 23, 2026 |
+| `strings` | 3 | 12% | ████ | Nov 04, 2025 |
+| `heap` | 2 | 8% | ███ | Nov 11, 2025 |
+| `stack` | 2 | 8% | ███ | Jan 23, 2026 |
 | `backtracking` | 1 | 4% | ██ | Oct 29, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>

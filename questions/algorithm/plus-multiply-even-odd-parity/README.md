@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Goldman Sachs | Online assessment | — | Oct 2024 |
+| Algorithm | Medium | Goldman Sachs | Online assessment | arrays | Oct 2024 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/plus-multiply-even-odd-parity)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -67,21 +67,21 @@ Explanation: The streams finish at `8` and `6`; because both values have remaind
 <details>
 <summary>Hint 1</summary>
 
-Separate the array into two sequences: one from even indices and one from odd indices, preserving original order.
+Split the array by index parity first, then treat each stream as its own small simulation that starts from zero.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Process each sequence using a flag that toggles between addition and multiplication, starting with addition for the first element.
+Walk each stream once, keeping a running value and a flag that flips between adding and multiplying for each successive element.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The result is a pair (result_even, result_odd), ensure the alternation pattern resets correctly per sequence.
+Only the parity of each final value matters for the comparison, so you can work modulo 2 throughout, and remember an empty stream stays at 0.
 
 </details>
 

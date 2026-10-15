@@ -24,18 +24,18 @@
 | [AI Coding](../formats/ai-coding.md) | 31 | 9% | ███ | 2 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **27 / 207 / 122**, over the rows the catalog has graded. 50 of the 356 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **27 / 206 / 123**, over the rows the catalog has graded. 50 of the 356 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **139 questions in this cut that carry a topic label** (39% of it):
+Of the **141 questions in this cut that carry a topic label** (40% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 29 | 21% | ████████████ |
-| `strings` | 24 | 17% | ██████████ |
+| `strings` | 25 | 18% | ██████████ |
 | `graphs` | 17 | 12% | ███████ |
-| `math` | 15 | 11% | ██████ |
+| `math` | 16 | 11% | ███████ |
 | `sorting` | 13 | 9% | █████ |
 | `matrix` | 12 | 9% | █████ |
 | `arrays` | 11 | 8% | █████ |
@@ -134,7 +134,7 @@ Of the **139 questions in this cut that carry a topic label** (39% of it):
 | **OpenAI** | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | Hard | Jun 19, 2026 |
 | **OpenAI / Anthropic** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Medium | Jun 19, 2026 |
 | **Apple / Scale AI** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Hard | Jun 16, 2026 |
-| **Anthropic** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Medium | Jun 15, 2026 |
+| **Anthropic** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Hard | Jun 15, 2026 |
 | **Anthropic** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Medium | Jun 15, 2026 |
 | **Anthropic** | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | Medium | Jun 15, 2026 |
 | **Anthropic** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | Medium | Jun 15, 2026 |

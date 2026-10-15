@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Oracle · Google · Meta | Onsite / virtual onsite | — | Jun 2025 |
+| Algorithm | Medium | Oracle · Google · Meta | Onsite / virtual onsite | strings, stack, backtracking | Jun 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/simplify-parentheses-expression)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -53,21 +53,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Think of this as evaluating the sign of each variable based on the number of minus signs that affect it, similar to flipping a sign when encountering a '-' before parentheses.
+A minus sign in front of a parenthesized group flips the sign of every term inside it, while a plus sign leaves them unchanged.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a stack to track the current sign multiplier as you traverse the expression, updating it when you see '+' or '-' and pushing/popping on parentheses.
+Scan left to right with a stack of sign multipliers, so each variable's effective sign is the product of the signs of the groups enclosing it.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The trickiest part is handling nested parentheses with multiple minus signs, the sign flips each time you encounter a '-' that is not inside a deeper context.
+Once every variable has its final sign you can emit a flat expression, taking care with a leading term that is positive so you do not print a stray plus.
 
 </details>
 

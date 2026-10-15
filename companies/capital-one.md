@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 16, 2026 |
 | Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (54% of 84) |
-| Difficulty (easy / medium / hard) | 11 / 52 / 21 |
+| Difficulty (easy / medium / hard) | 11 / 51 / 22 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 5 |
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **84 of 84** questions at Capital O
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 37 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 10 / 24 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 23 | ██████ | [Algorithm](../formats/algorithm.md) (39%) | 0 / 15 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 24 | ██████ | [System Design](../formats/system-design.md) (50%) | 1 / 13 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 24 | ██████ | [System Design](../formats/system-design.md) (50%) | 1 / 12 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -175,7 +175,7 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Fix failing tests and refactor code](https://trueinterview.io/questions/fix-failing-tests-and-refactor-code) | Algorithm | Medium | — |
 | [Design profit evaluation for loyalty program](https://trueinterview.io/questions/design-profit-evaluation-for-loyalty-program) | System Design | Hard | — |
 | [Design late-tolerant streaming window aggregator](https://trueinterview.io/questions/design-late-tolerant-streaming-window-aggregator) | Object Oriented Programming | Hard | — |
-| [Design a production face recognition system](https://trueinterview.io/questions/design-a-production-face-recognition-system) | System Design | Medium | — |
+| [Design a production face recognition system](https://trueinterview.io/questions/design-a-production-face-recognition-system) | System Design | Hard | — |
 | [Decide content volume and price under uncertainty](https://trueinterview.io/questions/decide-content-volume-and-price-under-uncertainty) | System Design | Hard | — |
 | [Choose cashback segment and model post-launch impact](https://trueinterview.io/questions/choose-cashback-segment-and-model-post-launch-impact) | System Design | Medium | — |
 | [Build a causal ML pipeline end-to-end](https://trueinterview.io/questions/build-a-causal-ml-pipeline-end-to-end) | System Design | Hard | — |

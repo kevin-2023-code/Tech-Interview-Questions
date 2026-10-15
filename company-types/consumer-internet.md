@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,118 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,119 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (334)](../companies/meta.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [LinkedIn (116)](../companies/linkedin.md) · [Pinterest (101)](../companies/pinterest.md) · [Netflix (88)](../companies/netflix.md) · [Snapchat (69)](../companies/snapchat.md) · [Reddit (34)](../companies/reddit.md) · [Yelp (20)](../companies/yelp.md) · [Discord (8)](../companies/discord.md)
+[Meta (335)](../companies/meta.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [LinkedIn (116)](../companies/linkedin.md) · [Pinterest (101)](../companies/pinterest.md) · [Netflix (88)](../companies/netflix.md) · [Snapchat (69)](../companies/snapchat.md) · [Reddit (34)](../companies/reddit.md) · [Yelp (20)](../companies/yelp.md) · [Discord (8)](../companies/discord.md)
 
 <sub>10 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 646 | 58% | ██████████████ | 47 |
+| [Algorithm](../formats/algorithm.md) | 647 | 58% | ██████████████ | 47 |
 | [System Design](../formats/system-design.md) | 216 | 19% | █████ | 12 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 124 | 11% | ███ | 10 |
 | [SQL](../formats/sql.md) | 120 | 11% | ███ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 12 | 1% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **133 / 719 / 266**, over the rows the catalog has graded. 71 of the 1,118 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **133 / 718 / 268**, over the rows the catalog has graded. 71 of the 1,119 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **637 questions in this cut that carry a topic label** (57% of it):
+Of the **662 questions in this cut that carry a topic label** (59% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 111 | 17% | ████████████ |
-| `hashing` | 100 | 16% | ███████████ |
-| `arrays` | 87 | 14% | █████████ |
-| `strings` | 80 | 13% | █████████ |
-| `trees` | 58 | 9% | ██████ |
-| `backtracking` | 52 | 8% | ██████ |
-| `greedy` | 47 | 7% | █████ |
-| `binary-search` | 44 | 7% | █████ |
-| `heap` | 41 | 6% | ████ |
-| `two-pointers` | 39 | 6% | ████ |
+| `graphs` | 114 | 17% | ████████████ |
+| `hashing` | 105 | 16% | ███████████ |
+| `arrays` | 90 | 14% | █████████ |
+| `strings` | 85 | 13% | █████████ |
+| `trees` | 60 | 9% | ██████ |
+| `backtracking` | 54 | 8% | ██████ |
+| `greedy` | 48 | 7% | █████ |
+| `binary-search` | 47 | 7% | █████ |
+| `two-pointers` | 44 | 7% | █████ |
+| `heap` | 42 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

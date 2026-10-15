@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Tesla | Phone screen | — | Aug 2025 |
+| Algorithm | Medium | Tesla | Phone screen | arrays, binary-search | Aug 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/trajectory-waypoint-distance-queries)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -64,21 +64,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Think of the route as a polyline and compute cumulative distances between consecutive waypoints to map travel lengths to positions along the route.
+Think of the route as a chain of segments with known lengths, so each cumulative distance lands somewhere inside exactly one segment.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For each travel length, use binary search on the cumulative distances to find the segment containing that distance, then interpolate or find the nearest waypoint.
+Precompute the cumulative segment lengths, find the segment for each query with a moving pointer or binary search, and interpolate linearly to get the exact position.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Consider the limit_miles parameter: it may restrict how far from the route you can consider, ensure your answer respects that bound.
+Then find the closest waypoint to that position and compare its distance with the threshold, watching zero-length segments and distances landing exactly on a waypoint.
 
 </details>
 

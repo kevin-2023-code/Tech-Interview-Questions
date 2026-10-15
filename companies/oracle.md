@@ -60,20 +60,20 @@ Which stage each question came from, for the **95 of 95** questions at Oracle th
 
 ## What they ask about
 
-Of the **64 questions at Oracle that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **66 questions at Oracle that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 12 | 19% | ████████████ | Apr 14, 2026 |
-| `strings` | 9 | 14% | █████████ | Aug 10, 2026 |
+| `hashing` | 12 | 18% | ████████████ | Apr 14, 2026 |
+| `strings` | 10 | 15% | ██████████ | Aug 10, 2026 |
 | `graphs` | 8 | 12% | ████████ | Sep 11, 2026 |
 | `arrays` | 7 | 11% | ███████ | Apr 14, 2026 |
 | `greedy` | 7 | 11% | ███████ | Apr 14, 2026 |
+| `math` | 7 | 11% | ███████ | Aug 10, 2026 |
 | `linked-list` | 6 | 9% | ██████ | Apr 14, 2026 |
-| `math` | 6 | 9% | ██████ | Aug 10, 2026 |
+| `backtracking` | 5 | 8% | █████ | Nov 17, 2025 |
 | `dynamic-programming` | 5 | 8% | █████ | Nov 24, 2025 |
-| `backtracking` | 4 | 6% | ████ | Nov 17, 2025 |
-| `matrix` | 4 | 6% | ████ | Sep 11, 2026 |
+| `stack` | 5 | 8% | █████ | Feb 07, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

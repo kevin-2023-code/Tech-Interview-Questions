@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 08, 2026 |
 | Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (34% of 79) |
-| Difficulty (easy / medium / hard) | 8 / 51 / 20 |
+| Difficulty (easy / medium / hard) | 8 / 50 / 21 |
 | Free to practise | [10](../free/README.md) |
 | Guides & writeups | 6 |
 
@@ -31,8 +31,8 @@ Which stage each question came from, for the **79 of 79** questions at Anthropic
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 17 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (59%) | 6 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (51%) | 0 / 25 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 43 | ██████████ | [System Design](../formats/system-design.md) (30%) | 3 / 28 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (51%) | 0 / 24 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 43 | ██████████ | [System Design](../formats/system-design.md) (30%) | 3 / 27 / 13 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 2 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -51,19 +51,19 @@ Which stage each question came from, for the **79 of 79** questions at Anthropic
 
 ## What they ask about
 
-Of the **32 questions at Anthropic that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **33 questions at Anthropic that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 14 | 44% | ████████████ | Aug 24, 2026 |
-| `strings` | 6 | 19% | █████ | Jun 04, 2026 |
-| `graphs` | 5 | 16% | ████ | Jun 19, 2026 |
+| `hashing` | 14 | 42% | ████████████ | Aug 24, 2026 |
+| `strings` | 7 | 21% | ██████ | Jun 04, 2026 |
+| `graphs` | 5 | 15% | ████ | Jun 19, 2026 |
 | `sorting` | 3 | 9% | ███ | May 03, 2026 |
 | `stack` | 3 | 9% | ███ | Jun 04, 2026 |
+| `tries` | 3 | 9% | ███ | May 28, 2026 |
 | `arrays` | 2 | 6% | ██ | Jun 15, 2026 |
 | `greedy` | 2 | 6% | ██ | May 28, 2026 |
 | `matrix` | 2 | 6% | ██ | Feb 18, 2026 |
-| `tries` | 2 | 6% | ██ | May 28, 2026 |
 | `backtracking` | 1 | 3% | █ | Jun 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -99,7 +99,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | **5** | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Object Oriented Programming | Medium | — | Aug 24, 2026 |
 | **6** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
 | **7** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) 🆓 | Algorithm | Medium | 1 | Jun 19, 2026 |
-| **8** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Algorithm | Medium | — | Jun 15, 2026 |
+| **8** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Medium | — | Jun 15, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -133,7 +133,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Object Oriented Programming | Medium | Aug 24, 2026 |
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |
-| [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Algorithm | Medium | Jun 15, 2026 |
+| [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Algorithm | Hard | Jun 15, 2026 |
 | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | Jun 15, 2026 |
 | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Medium | Jun 15, 2026 |

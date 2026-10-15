@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Atlassian | Phone screen | — | Jul 2025 |
+| Algorithm | Easy | Atlassian | Phone screen | arrays, hashing, greedy | Jul 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/shopping-category-trip-difference)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -58,21 +58,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Think of the shopping list as a sequence where you need to count how many times the category changes between consecutive items.
+The cost you care about is how many times you switch from one department to another while following the list in order, compared with visiting each needed department once.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a hash map to look up each product's category in constant time, then iterate through the list comparing adjacent categories.
+Build a hash map from product name to department, then translate the shopping list into a sequence of departments.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The answer is simply the number of adjacent pairs in the list that belong to different categories.
+Count the visits in the original order by counting changes between consecutive departments, count the distinct departments for the grouped plan, and subtract.
 
 </details>
 

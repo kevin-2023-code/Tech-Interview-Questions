@@ -54,20 +54,20 @@ Which stage each question came from, for the **128 of 128** questions at Snowfla
 
 ## What they ask about
 
-Of the **94 questions at Snowflake that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **95 questions at Snowflake that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 20 | 21% | ████████████ | Jun 17, 2026 |
+| `graphs` | 21 | 22% | ████████████ | Jun 17, 2026 |
 | `backtracking` | 12 | 13% | ███████ | Jun 17, 2026 |
 | `dynamic-programming` | 12 | 13% | ███████ | Jun 07, 2026 |
 | `trees` | 12 | 13% | ███████ | Jun 24, 2026 |
 | `arrays` | 10 | 11% | ██████ | Jun 24, 2026 |
-| `hashing` | 9 | 10% | █████ | May 30, 2026 |
-| `strings` | 9 | 10% | █████ | Jun 17, 2026 |
+| `hashing` | 9 | 9% | █████ | May 30, 2026 |
+| `strings` | 9 | 9% | █████ | Jun 17, 2026 |
 | `greedy` | 7 | 7% | ████ | Jun 17, 2026 |
-| `binary-search` | 6 | 6% | ████ | Jun 04, 2026 |
-| `heap` | 6 | 6% | ████ | Jun 10, 2026 |
+| `binary-search` | 6 | 6% | ███ | Jun 04, 2026 |
+| `heap` | 6 | 6% | ███ | Jun 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,065 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,066 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (334)](../companies/meta.md) · [Amazon (320)](../companies/amazon.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [Uber (217)](../companies/uber.md) · [Microsoft (186)](../companies/microsoft.md) · [Apple (142)](../companies/apple.md) · [LinkedIn (116)](../companies/linkedin.md) · [DoorDash (107)](../companies/doordash.md) · [Oracle (95)](../companies/oracle.md) · [Netflix (88)](../companies/netflix.md) · [Salesforce (88)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Ebay (45)](../companies/ebay.md) · [NVIDIA (37)](../companies/nvidia.md) · [Expedia (34)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Intuit (28)](../companies/intuit.md) · [Cisco (25)](../companies/cisco.md) · [PayPal (23)](../companies/paypal.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md) · [AMD (3)](../companies/amd.md)
+[Meta (335)](../companies/meta.md) · [Amazon (320)](../companies/amazon.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [Uber (217)](../companies/uber.md) · [Microsoft (186)](../companies/microsoft.md) · [Apple (142)](../companies/apple.md) · [LinkedIn (116)](../companies/linkedin.md) · [DoorDash (107)](../companies/doordash.md) · [Oracle (95)](../companies/oracle.md) · [Netflix (88)](../companies/netflix.md) · [Salesforce (88)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Ebay (45)](../companies/ebay.md) · [NVIDIA (37)](../companies/nvidia.md) · [Expedia (34)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Intuit (28)](../companies/intuit.md) · [Cisco (25)](../companies/cisco.md) · [PayPal (23)](../companies/paypal.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md) · [AMD (3)](../companies/amd.md)
 
 <sub>24 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 1,243 | 60% | ██████████████ | 103 |
+| [Algorithm](../formats/algorithm.md) | 1,244 | 60% | ██████████████ | 103 |
 | [System Design](../formats/system-design.md) | 370 | 18% | ████ | 16 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 241 | 12% | ███ | 19 |
 | [SQL](../formats/sql.md) | 179 | 9% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 32 | 2% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **301 / 1293 / 471**, over the rows the catalog has graded. 140 of the 2,065 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **300 / 1292 / 474**, over the rows the catalog has graded. 140 of the 2,066 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **1,208 questions in this cut that carry a topic label** (58% of it):
+Of the **1,251 questions in this cut that carry a topic label** (61% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 192 | 16% | ████████████ |
-| `graphs` | 185 | 15% | ████████████ |
-| `hashing` | 184 | 15% | ████████████ |
-| `strings` | 156 | 13% | ██████████ |
-| `greedy` | 101 | 8% | ██████ |
-| `dynamic-programming` | 90 | 7% | ██████ |
-| `trees` | 88 | 7% | ██████ |
-| `sorting` | 85 | 7% | █████ |
-| `math` | 79 | 7% | █████ |
-| `two-pointers` | 79 | 7% | █████ |
+| `arrays` | 198 | 16% | ████████████ |
+| `hashing` | 192 | 15% | ████████████ |
+| `graphs` | 190 | 15% | ████████████ |
+| `strings` | 163 | 13% | ██████████ |
+| `greedy` | 106 | 8% | ██████ |
+| `dynamic-programming` | 95 | 8% | ██████ |
+| `trees` | 90 | 7% | █████ |
+| `sorting` | 89 | 7% | █████ |
+| `math` | 85 | 7% | █████ |
+| `two-pointers` | 85 | 7% | █████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

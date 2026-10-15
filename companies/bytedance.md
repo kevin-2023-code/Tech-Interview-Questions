@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 15, 2026 |
 | Reported in the last 90 days | 25 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 255) |
-| Difficulty (easy / medium / hard) | 32 / 167 / 56 |
+| Difficulty (easy / medium / hard) | 33 / 165 / 57 |
 | Free to practise | [26](../free/README.md) |
 | Guides & writeups | 5 |
 
@@ -30,8 +30,8 @@ Which stage each question came from, for the **255 of 255** questions at ByteDan
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 34 | ██ | [Algorithm](../formats/algorithm.md) (85%) | 18 / 11 / 5 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 173 | ██████████ | [Algorithm](../formats/algorithm.md) (72%) | 11 / 124 / 38 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 34 | ██ | [Algorithm](../formats/algorithm.md) (85%) | 19 / 10 / 5 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 173 | ██████████ | [Algorithm](../formats/algorithm.md) (72%) | 11 / 123 / 39 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 79 | █████ | [Algorithm](../formats/algorithm.md) (57%) | 5 / 54 / 20 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,20 +59,20 @@ Which stage each question came from, for the **255 of 255** questions at ByteDan
 
 ## What they ask about
 
-Of the **167 questions at ByteDance that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **173 questions at ByteDance that carry a topic label** (68% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 33 | 20% | ████████████ | Sep 04, 2026 |
-| `arrays` | 25 | 15% | █████████ | Aug 21, 2026 |
-| `strings` | 23 | 14% | ████████ | Sep 04, 2026 |
-| `hashing` | 20 | 12% | ███████ | Sep 06, 2026 |
-| `backtracking` | 18 | 11% | ███████ | Sep 04, 2026 |
-| `binary-search` | 14 | 8% | █████ | Aug 21, 2026 |
+| `graphs` | 33 | 19% | ████████████ | Sep 04, 2026 |
+| `arrays` | 25 | 14% | █████████ | Aug 21, 2026 |
+| `strings` | 25 | 14% | █████████ | Sep 04, 2026 |
+| `hashing` | 22 | 13% | ████████ | Sep 06, 2026 |
+| `backtracking` | 18 | 10% | ███████ | Sep 04, 2026 |
+| `binary-search` | 15 | 9% | █████ | Aug 21, 2026 |
 | `stack` | 14 | 8% | █████ | Sep 02, 2026 |
-| `dynamic-programming` | 12 | 7% | ████ | Aug 17, 2026 |
-| `greedy` | 12 | 7% | ████ | Sep 02, 2026 |
-| `sliding-window` | 12 | 7% | ████ | Jun 29, 2026 |
+| `greedy` | 13 | 8% | █████ | Sep 02, 2026 |
+| `sliding-window` | 13 | 8% | █████ | Jun 29, 2026 |
+| `trees` | 13 | 8% | █████ | Aug 17, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -293,7 +293,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Drive product decisions with causal product sense](https://trueinterview.io/questions/drive-product-decisions-with-causal-product-sense) | System Design | Hard | — |
 | [Design recommendations objective balancing growth and monetization](https://trueinterview.io/questions/design-recommendations-objective-balancing-growth-and-monetization) | System Design | Hard | — |
 | [Design causal measurement without randomization](https://trueinterview.io/questions/design-causal-measurement-without-randomization) | System Design | Medium | — |
-| [Design an ad-selection system across objectives](https://trueinterview.io/questions/design-an-ad-selection-system-across-objectives) | System Design | Medium | — |
+| [Design an ad-selection system across objectives](https://trueinterview.io/questions/design-an-ad-selection-system-across-objectives) | System Design | Hard | — |
 | [Decide launch of downranking suspected bad sellers](https://trueinterview.io/questions/decide-launch-of-downranking-suspected-bad-sellers) | System Design | Hard | — |
 | [Calculate valid daily usage with gap constraints](https://trueinterview.io/questions/calculate-valid-daily-usage-with-gap-constraints) | SQL | Hard | — |
 | [Write SQL for last-7-day metrics without windows](https://trueinterview.io/questions/write-sql-for-last-7-day-metrics-without-windows) | SQL | Medium | — |
@@ -365,7 +365,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Find Highest Salary In Each Department](https://trueinterview.io/questions/5348b956-13e3-4f3a-a381-f80594e38002) | SQL | Medium | — |
 | [LRU Cache with TTL](https://trueinterview.io/questions/5177f4aa-d20c-4ded-b262-94815c6e6a0c) | Object Oriented Programming | Medium | — |
 | [Interval Problem Requiring Sorting by Start (or End)](https://trueinterview.io/questions/5164c36d-171e-41d6-8bf0-1f573c012781) | Algorithm | Medium | — |
-| [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Algorithm | Medium | — |
+| [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Algorithm | Easy | — |
 | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | Algorithm | Easy | — |
 | [Spiral Matrix Fill](https://trueinterview.io/questions/3b33f241-83ae-4754-af33-8eac2267c5b2) | Algorithm | Medium | — |
 | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Algorithm | Medium | — |

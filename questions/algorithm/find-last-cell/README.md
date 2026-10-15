@@ -18,12 +18,16 @@ Create an algorithm that identifies Lucy's last visited cell when she moves anti
 
 **Input**
 
-The first input line contains two integers, `matrix_row` and `matrix_col`, which specify the matrix row count `(N)` and column count `(M)`.
-The following `N` lines each contain `M` space-separated integers that give the values stored in the matrix cells.
+Implement `lastVisited(matrix_row, matrix_col, matrix)`:
+
+- `matrix_row` and `matrix_col` are the matrix row count `(N)` and column count `(M)`.
+- `matrix` is a list of `N` rows, each a list of `M` integers giving the values stored in the matrix cells.
 
 **Output**
 
-Output one integer: the value of the last cell Lucy hops onto after applying the described movement.
+Return one integer: the value of the last cell Lucy hops onto after applying the described movement.
+
+
 
 
 

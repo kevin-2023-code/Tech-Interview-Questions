@@ -27,18 +27,18 @@
 
 ## What they ask about
 
-Of the **50 questions in this cut that carry a topic label** (65% of it):
+Of the **52 questions in this cut that carry a topic label** (68% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 12 | 24% | ████████████ |
-| `graphs` | 9 | 18% | █████████ |
-| `arrays` | 7 | 14% | ███████ |
-| `strings` | 6 | 12% | ██████ |
+| `hashing` | 12 | 23% | ████████████ |
+| `graphs` | 10 | 19% | ██████████ |
+| `arrays` | 7 | 13% | ███████ |
+| `strings` | 7 | 13% | ███████ |
 | `dynamic-programming` | 4 | 8% | ████ |
+| `math` | 4 | 8% | ████ |
 | `backtracking` | 3 | 6% | ███ |
 | `binary-search` | 3 | 6% | ███ |
-| `math` | 3 | 6% | ███ |
 | `sorting` | 3 | 6% | ███ |
 | `topological-sort` | 3 | 6% | ███ |
 

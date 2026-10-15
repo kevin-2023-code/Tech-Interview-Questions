@@ -46,19 +46,19 @@ Which stage each question came from, for the **29 of 29** questions at Upstart t
 
 ## What they ask about
 
-Of the **20 questions at Upstart that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **25 questions at Upstart that carry a topic label** (86% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 6 | 30% | ████████████ | Sep 12, 2026 |
-| `strings` | 6 | 30% | ████████████ | Sep 12, 2026 |
-| `math` | 4 | 20% | ████████ | Nov 29, 2025 |
-| `arrays` | 3 | 15% | ██████ | Mar 09, 2026 |
-| `dynamic-programming` | 1 | 5% | ██ | — |
-| `linked-list` | 1 | 5% | ██ | Mar 09, 2026 |
-| `matrix` | 1 | 5% | ██ | Jan 20, 2026 |
-| `sorting` | 1 | 5% | ██ | Apr 05, 2026 |
-| `two-pointers` | 1 | 5% | ██ | — |
+| `math` | 7 | 28% | ████████████ | Apr 20, 2026 |
+| `strings` | 7 | 28% | ████████████ | Sep 12, 2026 |
+| `hashing` | 6 | 24% | ██████████ | Sep 12, 2026 |
+| `arrays` | 5 | 20% | █████████ | Apr 20, 2026 |
+| `matrix` | 2 | 8% | ███ | Apr 20, 2026 |
+| `dynamic-programming` | 1 | 4% | ██ | — |
+| `linked-list` | 1 | 4% | ██ | Mar 09, 2026 |
+| `sorting` | 1 | 4% | ██ | Apr 05, 2026 |
+| `two-pointers` | 1 | 4% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

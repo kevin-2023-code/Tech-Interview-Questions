@@ -16,7 +16,7 @@
 | [Microsoft](../companies/microsoft.md) | 23 | 186 | Sep 10, 2026 | ███████ |
 | [LinkedIn](../companies/linkedin.md) | 18 | 116 | Sep 17, 2026 | ██████ |
 | [OpenAI](../companies/openai.md) | 18 | 144 | Sep 17, 2026 | ██████ |
-| [Meta](../companies/meta.md) | 15 | 334 | Sep 04, 2026 | █████ |
+| [Meta](../companies/meta.md) | 15 | 335 | Sep 04, 2026 | █████ |
 | [Oracle](../companies/oracle.md) | 14 | 95 | Sep 11, 2026 | ████ |
 | [Salesforce](../companies/salesforce.md) | 13 | 88 | Aug 31, 2026 | ████ |
 | [Apple](../companies/apple.md) | 12 | 142 | Aug 26, 2026 | ████ |
@@ -40,13 +40,13 @@
 
 | Company | Questions | Guides | Free | Last 90d | Last sighting | Most asked format | Most asked topic |
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
-| [Meta](../companies/meta.md) | 334 | 6 | 26 | 15 | Sep 04, 2026 | Algorithm | `graphs` |
+| [Meta](../companies/meta.md) | 335 | 6 | 26 | 15 | Sep 04, 2026 | Algorithm | `graphs` |
 | [Amazon](../companies/amazon.md) | 320 | 5 | 31 | 51 | Sep 20, 2026 | Algorithm | `hashing` |
 | [Google](../companies/google.md) | 266 | 3 | 25 | 24 | Sep 18, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 255 | 5 | 26 | 25 | Sep 15, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 217 | 3 | 37 | 9 | Sep 09, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 186 | 5 | 22 | 23 | Sep 10, 2026 | Algorithm | `graphs` |
-| [OpenAI](../companies/openai.md) | 144 | 7 | 13 | 18 | Sep 17, 2026 | Algorithm | `graphs` |
+| [OpenAI](../companies/openai.md) | 144 | 7 | 13 | 18 | Sep 17, 2026 | Algorithm | `math` |
 | [Apple](../companies/apple.md) | 142 | 4 | 22 | 12 | Aug 26, 2026 | Algorithm | `hashing` |
 | [Snowflake](../companies/snowflake.md) | 128 | 1 | 25 | 8 | Sep 05, 2026 | Algorithm | `graphs` |
 | [LinkedIn](../companies/linkedin.md) | 116 | 4 | 11 | 18 | Sep 17, 2026 | Algorithm | `hashing` |
@@ -67,7 +67,7 @@
 | [Snapchat](../companies/snapchat.md) | 69 | 3 | 13 | 5 | Sep 09, 2026 | Algorithm | `graphs` |
 | [Waymo](../companies/waymo.md) | 62 | 1 | 4 | 1 | Aug 27, 2026 | Algorithm | `graphs` |
 | [Atlassian](../companies/atlassian.md) | 61 | 3 | 16 | 4 | Sep 04, 2026 | Algorithm | `hashing` |
-| [Goldman Sachs](../companies/goldman-sachs.md) | 53 | 1 | 24 | 3 | Sep 13, 2026 | Algorithm | `hashing` |
+| [Goldman Sachs](../companies/goldman-sachs.md) | 53 | 1 | 24 | 3 | Sep 13, 2026 | Algorithm | `arrays` |
 | [Rippling](../companies/rippling.md) | 48 | 1 | 5 | 6 | Sep 18, 2026 | Algorithm | `graphs` |
 | [Ebay](../companies/ebay.md) | 45 | 1 | 7 | 2 | Aug 21, 2026 | Algorithm | `arrays` |
 | [Tesla](../companies/tesla.md) | 45 | 3 | 9 | 6 | Sep 13, 2026 | Algorithm | `arrays` |
@@ -87,8 +87,8 @@
 | [SoFi](../companies/sofi.md) | 30 | 1 | 5 | 0 | Jul 04, 2026 | Algorithm | `hashing` |
 | [Applied Intuition](../companies/applied-intuition.md) | 29 | 1 | 8 | 1 | Aug 30, 2026 | Algorithm | `graphs` |
 | [Confluent](../companies/confluent.md) | 29 | 1 | 2 | 0 | Apr 29, 2026 | Algorithm | `arrays` |
-| [Point72](../companies/point72.md) | 29 | 1 | 2 | 7 | Jul 29, 2026 | Algorithm | `dynamic-programming` |
-| [Upstart](../companies/upstart.md) | 29 | 1 | 2 | 1 | Sep 12, 2026 | Algorithm | `hashing` |
+| [Point72](../companies/point72.md) | 29 | 1 | 2 | 7 | Jul 29, 2026 | Algorithm | `math` |
+| [Upstart](../companies/upstart.md) | 29 | 1 | 2 | 1 | Sep 12, 2026 | Algorithm | `math` |
 | [Walmart Labs](../companies/walmart-labs.md) | 29 | 1 | 3 | 1 | Aug 15, 2026 | Algorithm | `arrays` |
 | [Intuit](../companies/intuit.md) | 28 | 1 | 3 | 0 | Jun 28, 2026 | Algorithm | `strings` |
 | [Datadog](../companies/datadog.md) | 27 | 1 | 4 | 0 | Apr 10, 2026 | Algorithm | `hashing` |
@@ -105,7 +105,7 @@
 | [Tradedesk](../companies/tradedesk.md) | 21 | 1 | 2 | 5 | Sep 15, 2026 | Algorithm | `arrays` |
 | [Harvey](../companies/harvey.md) | 20 | 1 | 2 | 5 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Yelp](../companies/yelp.md) | 20 | 0 | 11 | 1 | Aug 27, 2026 | Algorithm | `heap` |
-| [Rubrik](../companies/rubrik.md) | 19 | 1 | 4 | — | — | Algorithm | `sorting` |
+| [Rubrik](../companies/rubrik.md) | 19 | 1 | 4 | — | — | Algorithm | `graphs` |
 | [Hudson River Trading](../companies/hudson-river-trading.md) | 18 | 1 | 3 | 0 | May 01, 2026 | Algorithm | `arrays` |
 | [Affirm](../companies/affirm.md) | 17 | 0 | 2 | 4 | Aug 12, 2026 | Algorithm | `hashing` |
 | [Whatnot](../companies/whatnot.md) | 17 | 0 | 2 | 0 | Jun 12, 2026 | System Design | `hashing` |

@@ -42,18 +42,18 @@ Which stage each question came from, for the **34 of 34** questions at Expedia t
 
 ## What they ask about
 
-Of the **25 questions at Expedia that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **26 questions at Expedia that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 5 | 20% | ████████████ | May 30, 2026 |
-| `backtracking` | 4 | 16% | ██████████ | Jan 06, 2026 |
-| `greedy` | 4 | 16% | ██████████ | May 30, 2026 |
+| `arrays` | 5 | 19% | ████████████ | May 30, 2026 |
+| `greedy` | 5 | 19% | ████████████ | May 30, 2026 |
+| `backtracking` | 4 | 15% | ██████████ | Jan 06, 2026 |
 | `dynamic-programming` | 3 | 12% | ███████ | Nov 18, 2025 |
 | `graphs` | 3 | 12% | ███████ | — |
 | `math` | 3 | 12% | ███████ | May 30, 2026 |
+| `sorting` | 3 | 12% | ███████ | — |
 | `sliding-window` | 2 | 8% | █████ | May 30, 2026 |
-| `sorting` | 2 | 8% | █████ | — |
 | `strings` | 2 | 8% | █████ | — |
 | `bit-manipulation` | 1 | 4% | ██ | — |
 

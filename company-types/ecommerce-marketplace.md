@@ -24,24 +24,24 @@
 | [SQL](../formats/sql.md) | 64 | 7% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 19 | 2% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **120 / 590 / 181**, over the rows the catalog has graded. 89 of the 891 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **120 / 588 / 183**, over the rows the catalog has graded. 89 of the 891 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **510 questions in this cut that carry a topic label** (57% of it):
+Of the **516 questions in this cut that carry a topic label** (58% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 90 | 18% | ████████████ |
-| `graphs` | 82 | 16% | ███████████ |
-| `hashing` | 80 | 16% | ███████████ |
-| `strings` | 69 | 14% | █████████ |
-| `dynamic-programming` | 45 | 9% | ██████ |
-| `greedy` | 45 | 9% | ██████ |
-| `sorting` | 42 | 8% | ██████ |
+| `arrays` | 91 | 18% | ████████████ |
+| `graphs` | 83 | 16% | ███████████ |
+| `hashing` | 81 | 16% | ███████████ |
+| `strings` | 69 | 13% | █████████ |
+| `dynamic-programming` | 46 | 9% | ██████ |
+| `greedy` | 46 | 9% | ██████ |
+| `sorting` | 43 | 8% | ██████ |
 | `matrix` | 35 | 7% | █████ |
-| `trees` | 34 | 7% | █████ |
-| `two-pointers` | 30 | 6% | ████ |
+| `trees` | 34 | 7% | ████ |
+| `math` | 30 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -256,7 +256,7 @@ Of the **510 questions in this cut that carry a topic label** (57% of it):
 | **Anthropic / Lyft** | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | Medium | Jun 02, 2026 |
 | **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
 | **Amazon** | [Playlist / Guide Voting System](https://trueinterview.io/questions/playlist-guide-voting-ood) | Medium | May 31, 2026 |
-| **Uber** | [Minimum Root Edges Reversal](https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a) | Medium | May 31, 2026 |
+| **Uber** | [Minimum Root Edges Reversal](https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a) | Hard | May 31, 2026 |
 | **Expedia** | [Range Negate Data Updates](https://trueinterview.io/questions/range-negate-data-updates) | Medium | May 30, 2026 |
 | **Expedia** | [Count Dropped Requests](https://trueinterview.io/questions/count-dropped-requests) | Medium | May 30, 2026 |
 | **Expedia / IBM** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Medium | May 30, 2026 |

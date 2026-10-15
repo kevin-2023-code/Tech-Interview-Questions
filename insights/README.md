@@ -2,15 +2,15 @@
 
 # What companies are actually asking
 
-**4,121 tracked questions** across **131 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 15, 2026**, and everything on this page is recomputed hourly.
+**4,122 tracked questions** across **131 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 15, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
-> **What the numbers are counted over.** 2,490 of the 4,121 questions carry a sighting date and 1,631 do not; an undated question is *unmeasured*, not *old*, so it is in every total below and in no window. Every share on this page names the population it is a share of, because most of them are not the whole bank.
+> **What the numbers are counted over.** 2,491 of the 4,122 questions carry a sighting date and 1,631 do not; an undated question is *unmeasured*, not *old*, so it is in every total below and in no window. Every share on this page names the population it is a share of, because most of them are not the whole bank.
 
 ## The last 90 days
 
-**437 sightings** recorded between Jul 17, 2026 → Oct 15, 2026 — 18% of the 2,490 questions in the bank that carry a sighting date at all.
+**437 sightings** recorded between Jul 17, 2026 → Oct 15, 2026 — 18% of the 2,491 questions in the bank that carry a sighting date at all.
 
 ### By format
 
@@ -50,9 +50,9 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,426 | 59% | 198 | 431 | 1,484 | 511 | 2,426 | 285 |
+| [Algorithm](../formats/algorithm.md) | 2,427 | 59% | 198 | 430 | 1,483 | 514 | 2,427 | 285 |
 | [SQL](../formats/sql.md) | 297 | 7% | 38 | 65 | 179 | 53 | 297 | 6 |
-| [System Design](../formats/system-design.md) | 700 | 17% | 136 | 28 | 367 | 305 | 700 | 34 |
+| [System Design](../formats/system-design.md) | 700 | 17% | 136 | 28 | 364 | 308 | 700 | 34 |
 | [AI Coding](../formats/ai-coding.md) | 109 | 3% | 1 | 7 | 73 | 29 | 109 | 9 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 589 | 14% | 64 | 48 | 465 | 76 | 589 | 61 |
 
@@ -60,47 +60,47 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 ## Difficulty
 
-Of the **4,121 questions the catalog has graded** (100% of the bank):
+Of the **4,122 questions the catalog has graded** (100% of the bank):
 
 | Difficulty | Questions | Share of graded |  |
 | :-- | --: | --: | :-- |
-| Easy | 579 | 14% | ████ |
-| Medium | 2,568 | 62% | ████████████████ |
-| Hard | 974 | 24% | ██████ |
+| Easy | 578 | 14% | ████ |
+| Medium | 2,564 | 62% | ████████████████ |
+| Hard | 980 | 24% | ██████ |
 
 <sub>The other 0 carry no grade. That is not *easy* — it is ungraded, and the two are only the same number if you let them be.</sub>
 
 ## Where in the loop
 
-Of the **4,121 questions that name a round** (100% of the bank):
+Of the **4,122 questions that name a round** (100% of the bank):
 
 | Round | Questions |  |
 | :-- | --: | :-- |
-| Online assessment | 674 | █████ |
-| Phone screen | 2,107 | ████████████████ |
-| Onsite / virtual onsite | 1,640 | ████████████ |
+| Online assessment | 673 | █████ |
+| Phone screen | 2,109 | ████████████████ |
+| Onsite / virtual onsite | 1,641 | ████████████ |
 | Take-home | 10 | █ |
 
 <sub>One question can be reported in more than one round — the same problem turns up in a phone screen at one company and onsite at another — so this column sums to more than the row above it.</sub>
 
 ## Topics
 
-Of the **2,326 questions that carry a topic label** (56% of the bank — the rest are unlabelled, which is not the same as having no topic):
+Of the **2,397 questions that carry a topic label** (58% of the bank — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
-| `hashing` | 405 | 17% | 46 | ████████████████ |
-| `arrays` | 338 | 15% | 31 | █████████████ |
-| `graphs` | 338 | 15% | 34 | █████████████ |
-| `strings` | 319 | 14% | 28 | █████████████ |
-| `greedy` | 196 | 8% | 13 | ████████ |
-| `dynamic-programming` | 179 | 8% | 12 | ███████ |
-| `math` | 178 | 8% | 21 | ███████ |
-| `sorting` | 176 | 8% | 21 | ███████ |
-| `trees` | 163 | 7% | 21 | ██████ |
-| `backtracking` | 135 | 6% | 18 | █████ |
-| `matrix` | 132 | 6% | 16 | █████ |
-| `binary-search` | 118 | 5% | 6 | █████ |
+| `hashing` | 414 | 17% | 46 | ████████████████ |
+| `arrays` | 353 | 15% | 33 | ██████████████ |
+| `graphs` | 348 | 15% | 34 | █████████████ |
+| `strings` | 332 | 14% | 28 | █████████████ |
+| `greedy` | 203 | 8% | 13 | ████████ |
+| `math` | 193 | 8% | 22 | ███████ |
+| `dynamic-programming` | 185 | 8% | 12 | ███████ |
+| `sorting` | 181 | 8% | 21 | ███████ |
+| `trees` | 167 | 7% | 21 | ██████ |
+| `matrix` | 139 | 6% | 16 | █████ |
+| `backtracking` | 138 | 6% | 18 | █████ |
+| `binary-search` | 123 | 5% | 7 | █████ |
 
 [**Every topic, with difficulty mix and who asks it →**](topics.md)
 
@@ -147,7 +147,7 @@ The closest thing this data has to an instruction. A question reported at one em
 | :-- | --: | --: |
 | Free | 395 | 10% |
 | Pro | 78 | 2% |
-| Insider | 3,648 | 89% |
+| Insider | 3,649 | 89% |
 
 <sub>Straight from the catalog's own `accessTier`, never asserted here. The **395 free ones are listed in full** — [start there](../free/README.md).</sub>
 
@@ -161,7 +161,7 @@ The closest thing this data has to an instruction. A question reported at one em
 | [Jun 2026](../by-month/2026-06.md) | 202 | 55 | ██████████ |
 | [May 2026](../by-month/2026-05.md) | 227 | 57 | ███████████ |
 | [Apr 2026](../by-month/2026-04.md) | 332 | 76 | ████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 202 | 62 | ██████████ |
+| [Mar 2026](../by-month/2026-03.md) | 203 | 62 | ██████████ |
 | [Feb 2026](../by-month/2026-02.md) | 237 | 71 | ███████████ |
 | [Jan 2026](../by-month/2026-01.md) | 256 | 68 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 156 | 55 | ████████ |

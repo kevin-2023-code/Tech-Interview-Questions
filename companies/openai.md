@@ -60,17 +60,17 @@ Which stage each question came from, for the **144 of 144** questions at OpenAI 
 
 ## What they ask about
 
-Of the **49 questions at OpenAI that carry a topic label** (34% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **50 questions at OpenAI that carry a topic label** (35% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 8 | 16% | ████████████ | Aug 15, 2026 |
-| `math` | 8 | 16% | ████████████ | Sep 08, 2026 |
-| `matrix` | 7 | 14% | ██████████ | Aug 27, 2026 |
-| `hashing` | 6 | 12% | █████████ | Aug 22, 2026 |
-| `strings` | 6 | 12% | █████████ | May 15, 2026 |
-| `arrays` | 4 | 8% | ██████ | Feb 04, 2026 |
-| `sorting` | 4 | 8% | ██████ | Mar 09, 2026 |
+| `math` | 9 | 18% | ████████████ | Sep 08, 2026 |
+| `graphs` | 8 | 16% | ███████████ | Aug 15, 2026 |
+| `matrix` | 7 | 14% | █████████ | Aug 27, 2026 |
+| `hashing` | 6 | 12% | ████████ | Aug 22, 2026 |
+| `strings` | 6 | 12% | ████████ | May 15, 2026 |
+| `arrays` | 4 | 8% | █████ | Feb 04, 2026 |
+| `sorting` | 4 | 8% | █████ | Mar 09, 2026 |
 | `backtracking` | 3 | 6% | ████ | Jun 19, 2026 |
 | `greedy` | 3 | 6% | ████ | May 31, 2026 |
 | `topological-sort` | 3 | 6% | ████ | Sep 17, 2026 |

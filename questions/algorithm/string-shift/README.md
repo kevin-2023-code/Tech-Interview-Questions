@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Rubrik | Online assessment | — | — |
+| Algorithm | Easy | Rubrik | Online assessment | strings, math | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/dae58234-6fb4-4c0f-9168-307c63e27905)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -37,21 +37,21 @@ abc
 <details>
 <summary>Hint 1</summary>
 
-The net shift is the sum of all shifts modulo the string length.
+Many shifts in sequence collapse into a single net effect, so ask what the combined shift really is before touching the string.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use string slicing or concatenation to rotate by the net displacement.
+Sum the signed shifts (right as positive, left as negative), reduce the total modulo the string length, and rotate the string once.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for the case when the string is empty or the net shift is zero.
+Watch for a negative total after the modulo operation and for shifts larger than the string length, and note that the whole work should be linear in the string length.
 
 </details>
 

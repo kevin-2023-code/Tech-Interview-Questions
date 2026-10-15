@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Expedia | Online assessment | — | — |
+| Algorithm | Medium | Expedia | Online assessment | intervals, greedy, sorting | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -54,21 +54,21 @@ Output: 1
 <details>
 <summary>Hint 1</summary>
 
-Sort all intervals by their start time to enable linear comparison.
+The number of machines you need equals the largest number of jobs that are running at the same instant.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For minimum rooms, use a min-heap to track the earliest ending meeting among ongoing ones.
+Process start and end events in time order, or sort the starts and ends separately, and track how many jobs are currently active.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-For attend-all, simply check if any meeting ends after the next one begins.
+Because intervals are inclusive on both ends, a job ending at time t still conflicts with one starting at t, so decide carefully how to order ties between an end and a start.
 
 </details>
 

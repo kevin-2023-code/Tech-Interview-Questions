@@ -16,14 +16,17 @@ Mike is stationed on planet AFWP-700, located on the outskirts of the Milky Way.
 
 A numerical value represents each gem's potency. Mike's stamina must never drop below zero at any point during his journey. Given the sequence of gem potencies, determine the maximum number of gems Mike can collect while ensuring his stamina remains non-negative throughout the entire trip.
 
-## Input Format for Custom Testing
+## Function Parameters
 
-The first line contains a single integer `n`, the total number of gems on the path.
-The next line contains `n` space-separated integers (`a_i` for all $$1 \le i \le n$$), representing the potency of each gem in the order encountered.
+Implement `maxGemsCollected(n, gemPotencies)`:
 
-## Output Format
+- `n` is the total number of gems on the path.
+- `gemPotencies` is a list of `n` integers (`a_i` for all $$1 \le i \le n$$), representing the potency of each gem in the order encountered.
 
-A single integer denoting the maximum number of gems Mike can successfully collect without his stamina ever falling below zero.
+## Return Value
+
+Return a single integer denoting the maximum number of gems Mike can successfully collect without his stamina ever falling below zero.
+
 
 ## Constraints
 $$1 \le n \le 10^5$$

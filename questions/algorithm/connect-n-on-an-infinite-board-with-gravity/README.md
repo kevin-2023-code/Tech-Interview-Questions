@@ -25,14 +25,18 @@ Your task is to process an ordered list of moves. For each move `(col, player)`,
 
 The board is too large to scan in full. Each insertion should inspect only the local area affected by the new piece and take `$$O(n)$$` time; total memory usage should be proportional to the number of placed pieces.
 
-Input Format:
+Function Specification:
 
-- The first line contains two integers `n` and `m`: the required run length and the number of moves.
-- Each of the next `m` lines contains two integers `col` and `player`.
+Implement `connectNMoves(n, moves)`:
 
-Output Format:
+- `n` is the required run length.
+- `moves` is a list of the `m` moves in order, each a pair `[col, player]`.
 
-For each move, print one line containing `true` or `false`.
+Return Value:
+
+Return a list of `m` booleans, one per move: `True` if the move creates a winning run, `False` otherwise.
+
+
 
 Example 1:
 

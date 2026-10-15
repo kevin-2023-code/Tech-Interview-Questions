@@ -49,14 +49,14 @@ Which stage each question came from, for the **53 of 53** questions at Goldman S
 
 ## What they ask about
 
-Of the **38 questions at Goldman Sachs that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **40 questions at Goldman Sachs that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 10 | 26% | ████████████ | Sep 13, 2026 |
-| `arrays` | 9 | 24% | ███████████ | Apr 01, 2026 |
+| `arrays` | 10 | 25% | ████████████ | Apr 01, 2026 |
+| `hashing` | 10 | 25% | ████████████ | Sep 13, 2026 |
 | `strings` | 7 | 18% | ████████ | Feb 05, 2026 |
-| `dynamic-programming` | 5 | 13% | ██████ | Apr 01, 2026 |
+| `dynamic-programming` | 5 | 12% | ██████ | Apr 01, 2026 |
 | `math` | 3 | 8% | ████ | Oct 10, 2025 |
 | `sliding-window` | 3 | 8% | ████ | Nov 25, 2025 |
 | `trees` | 3 | 8% | ████ | Jun 21, 2026 |

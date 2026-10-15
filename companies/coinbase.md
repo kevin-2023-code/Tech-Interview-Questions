@@ -47,20 +47,20 @@ Which stage each question came from, for the **72 of 72** questions at Coinbase 
 
 ## What they ask about
 
-Of the **21 questions at Coinbase that carry a topic label** (29% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at Coinbase that carry a topic label** (31% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 24% | ████████████ | May 06, 2026 |
-| `sorting` | 4 | 19% | ██████████ | May 05, 2026 |
-| `graphs` | 3 | 14% | ███████ | May 06, 2026 |
+| `hashing` | 5 | 23% | ████████████ | May 06, 2026 |
+| `graphs` | 4 | 18% | ██████████ | May 06, 2026 |
+| `sorting` | 4 | 18% | ██████████ | May 05, 2026 |
+| `dynamic-programming` | 3 | 14% | ███████ | Feb 13, 2026 |
 | `strings` | 3 | 14% | ███████ | Feb 08, 2026 |
-| `arrays` | 2 | 10% | █████ | Feb 13, 2026 |
-| `backtracking` | 2 | 10% | █████ | May 06, 2026 |
-| `dynamic-programming` | 2 | 10% | █████ | Feb 13, 2026 |
-| `greedy` | 2 | 10% | █████ | May 05, 2026 |
-| `math` | 2 | 10% | █████ | Mar 01, 2026 |
-| `sliding-window` | 2 | 10% | █████ | — |
+| `arrays` | 2 | 9% | █████ | Feb 13, 2026 |
+| `backtracking` | 2 | 9% | █████ | May 06, 2026 |
+| `greedy` | 2 | 9% | █████ | May 05, 2026 |
+| `math` | 2 | 9% | █████ | Mar 01, 2026 |
+| `sliding-window` | 2 | 9% | █████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

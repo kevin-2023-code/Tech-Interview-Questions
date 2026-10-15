@@ -52,20 +52,20 @@ Which stage each question came from, for the **45 of 45** questions at Tesla tha
 
 ## What they ask about
 
-Of the **17 questions at Tesla that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at Tesla that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 4 | 24% | ████████████ | Apr 18, 2026 |
-| `graphs` | 4 | 24% | ████████████ | Apr 17, 2026 |
-| `matrix` | 2 | 12% | ██████ | Apr 17, 2026 |
-| `stack` | 2 | 12% | ██████ | Apr 18, 2026 |
-| `backtracking` | 1 | 6% | ███ | Oct 16, 2025 |
-| `bit-manipulation` | 1 | 6% | ███ | Jun 01, 2026 |
-| `dynamic-programming` | 1 | 6% | ███ | — |
-| `hashing` | 1 | 6% | ███ | Jun 03, 2026 |
-| `heap` | 1 | 6% | ███ | May 27, 2026 |
-| `sliding-window` | 1 | 6% | ███ | — |
+| `arrays` | 5 | 26% | ████████████ | Apr 18, 2026 |
+| `graphs` | 5 | 26% | ████████████ | Apr 17, 2026 |
+| `matrix` | 2 | 11% | █████ | Apr 17, 2026 |
+| `stack` | 2 | 11% | █████ | Apr 18, 2026 |
+| `strings` | 2 | 11% | █████ | Jun 03, 2026 |
+| `tries` | 2 | 11% | █████ | Nov 28, 2025 |
+| `backtracking` | 1 | 5% | ██ | Oct 16, 2025 |
+| `binary-search` | 1 | 5% | ██ | Aug 11, 2025 |
+| `bit-manipulation` | 1 | 5% | ██ | Jun 01, 2026 |
+| `dynamic-programming` | 1 | 5% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

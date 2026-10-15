@@ -23,11 +23,11 @@ You are given `K` crop types, an initial capital `money`, and a deadline `n`. Ea
 
 All crops are planted on day 0. You may choose any subset of crop types, and each type may be selected at most once. The total cost of the chosen crops cannot exceed `money`.
 
-Part 1 has no deadline, so every selected crop eventually matures. Find a subset that maximizes total profit, where profit is `sell[i] - buy[i]`. Print the sorted 0-based indices of the selected crops. If several subsets achieve the same maximum profit, print the lexicographically smallest sorted index list, comparing index by index; a shorter prefix is smaller. If no crop can be purchased, print `-1`.
+Part 1 has no deadline, so every selected crop eventually matures. Find a subset that maximizes total profit, where profit is `sell[i] - buy[i]`. Report the sorted 0-based indices of the selected crops. If several subsets achieve the same maximum profit, report the lexicographically smallest sorted index list, comparing index by index; a shorter prefix is smaller. If no crop can be purchased, report an empty list (shown as `-1` in the example outputs).
 
 Part 2 adds the rule that every selected crop must mature by day `n`. Crops with `days[i] > n` cannot be harvested in time and are excluded. Determine the maximum profit achievable by day `n`.
 
-The output has two lines: the first line is the answer to Part 1, and the second line is the answer to Part 2.
+Implement `cropProfitMaximization(K, money, n, buy, sell, days)`, where `K`, `money` and `n` are the integers described above and `buy`, `sell`, `days` are lists of `K` integers. Return a tuple `(selected, profit)`: `selected` is the answer to Part 1 (a sorted list of 0-based indices) and `profit` is the answer to Part 2. The example outputs show the two answers on separate lines.
 
 Example 1:
 

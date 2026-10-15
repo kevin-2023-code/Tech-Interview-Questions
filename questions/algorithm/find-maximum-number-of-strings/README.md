@@ -46,12 +46,12 @@ Example 3:
 ```text
 Input: n = 3, k = 1
 
-Output: 98
+Output: 224
 ```
 
 Constraints:
 
-* `1 <= n <= 1,000,000`
+* `1 <= n <= 20,000`
 * `1 <= k <= 25`
 * The result must be returned modulo `1,000,000,007`.
 

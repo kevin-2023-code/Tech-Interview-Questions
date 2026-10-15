@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Atlassian | Phone screen | — | Jul 2025 |
+| Algorithm | Medium | Atlassian | Phone screen | hashing, graphs | Jul 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/karat-carpool-linear-routes)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -70,21 +70,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Model each route as a linked list or array of stops with cumulative durations, then the problem reduces to finding the earliest time when both vehicles can meet at a person's location.
+Since every location has at most one outgoing road, the whole network is a set of chains that merge into a single path to the Campground.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Simulate both vehicles moving simultaneously along their routes, tracking their current positions and times, for each person, check if either vehicle's path intersects that location at the same time.
+Build a next-location map with durations, then compute each driver's cumulative travel time to every location along their own path.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The trickiest edge case is when a person is located at a point that both vehicles pass at different times—you need to determine which vehicle arrives first, considering that vehicles can wait.
+Look for the first location the two drivers have in common, and handle the cases where one driver's start lies on the other driver's path.
 
 </details>
 

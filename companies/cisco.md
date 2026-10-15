@@ -42,20 +42,20 @@ Which stage each question came from, for the **25 of 25** questions at Cisco tha
 
 ## What they ask about
 
-Of the **21 questions at Cisco that carry a topic label** (84% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at Cisco that carry a topic label** (88% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `matrix` | 5 | 24% | ████████████ | May 01, 2026 |
-| `arrays` | 4 | 19% | ██████████ | Sep 04, 2025 |
-| `strings` | 4 | 19% | ██████████ | Jun 16, 2026 |
+| `matrix` | 5 | 23% | ████████████ | May 01, 2026 |
+| `strings` | 5 | 23% | ████████████ | Jun 16, 2026 |
+| `arrays` | 4 | 18% | ██████████ | Sep 04, 2025 |
 | `dynamic-programming` | 3 | 14% | ███████ | Sep 06, 2025 |
-| `linked-list` | 2 | 10% | █████ | Sep 06, 2025 |
-| `math` | 2 | 10% | █████ | Jul 17, 2025 |
+| `linked-list` | 2 | 9% | █████ | Sep 06, 2025 |
+| `math` | 2 | 9% | █████ | Jul 17, 2025 |
+| `two-pointers` | 2 | 9% | █████ | Sep 04, 2025 |
 | `backtracking` | 1 | 5% | ██ | — |
 | `graphs` | 1 | 5% | ██ | — |
 | `greedy` | 1 | 5% | ██ | — |
-| `hashing` | 1 | 5% | ██ | Jul 17, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

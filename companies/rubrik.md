@@ -41,20 +41,20 @@ Which stage each question came from, for the **19 of 19** questions at Rubrik th
 
 ## What they ask about
 
-Of the **16 questions at Rubrik that carry a topic label** (84% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Rubrik that carry a topic label** (95% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `sorting` | 3 | 19% | ████████████ | — |
-| `binary-search` | 2 | 12% | ████████ | — |
-| `bit-manipulation` | 2 | 12% | ████████ | — |
-| `dynamic-programming` | 2 | 12% | ████████ | — |
-| `graphs` | 2 | 12% | ████████ | — |
-| `two-pointers` | 2 | 12% | ████████ | — |
+| `graphs` | 3 | 17% | ████████████ | — |
+| `sorting` | 3 | 17% | ████████████ | — |
+| `binary-search` | 2 | 11% | ████████ | — |
+| `bit-manipulation` | 2 | 11% | ████████ | — |
+| `dynamic-programming` | 2 | 11% | ████████ | — |
+| `math` | 2 | 11% | ████████ | — |
+| `strings` | 2 | 11% | ████████ | — |
+| `two-pointers` | 2 | 11% | ████████ | — |
 | `arrays` | 1 | 6% | ████ | — |
 | `backtracking` | 1 | 6% | ████ | — |
-| `greedy` | 1 | 6% | ████ | — |
-| `hashing` | 1 | 6% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

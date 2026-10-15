@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Hudson River Trading | Phone screen | — | — |
+| Algorithm | Medium | Hudson River Trading | Phone screen | arrays, matrix | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/0364d8f3-180c-434b-96f4-fbdf7412a3e3)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -53,21 +53,21 @@ This output is the stated maximum harvest for the supplied grid dimension and cr
 <details>
 <summary>Hint 1</summary>
 
-Think of the path as a single column you choose, and you can only harvest from adjacent cells on each row.
+Notice that a path moving straight downward is fully determined by a single choice, so the question becomes which choice yields the most crops beside it.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-This is a dynamic programming problem where you track the maximum harvest possible for each column as you move down.
+Count the crops per column from the given coordinates, then score each candidate path by combining the counts of the columns immediately to its left and right.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The key edge case is that you cannot harvest from the path itself, only from left or right neighbors.
+Watch the edge columns, where one side does not exist, and remember that K may be large while crops are sparse, so avoid building the full grid if you can.
 
 </details>
 

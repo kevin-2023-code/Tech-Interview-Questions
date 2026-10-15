@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 10, 2026 |
 | Reported in the last 90 days | 23 |
 | Most common format | [Algorithm](../formats/algorithm.md) (64% of 186) |
-| Difficulty (easy / medium / hard) | 30 / 112 / 44 |
+| Difficulty (easy / medium / hard) | 29 / 113 / 44 |
 | Free to practise | [22](../free/README.md) |
 | Guides & writeups | 5 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **186 of 186** questions at Microso
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 24 | ███ | [Algorithm](../formats/algorithm.md) (88%) | 10 / 10 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 86 | █████████ | [Algorithm](../formats/algorithm.md) (70%) | 14 / 54 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 86 | █████████ | [Algorithm](../formats/algorithm.md) (70%) | 13 / 55 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 92 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 9 / 58 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,20 +59,20 @@ Which stage each question came from, for the **186 of 186** questions at Microso
 
 ## What they ask about
 
-Of the **117 questions at Microsoft that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **121 questions at Microsoft that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 21 | 18% | ████████████ | Aug 16, 2026 |
-| `strings` | 20 | 17% | ███████████ | Sep 02, 2026 |
+| `graphs` | 21 | 17% | ████████████ | Aug 16, 2026 |
+| `strings` | 21 | 17% | ████████████ | Sep 02, 2026 |
+| `arrays` | 18 | 15% | ██████████ | Sep 09, 2026 |
 | `hashing` | 18 | 15% | ██████████ | Sep 10, 2026 |
-| `arrays` | 17 | 15% | ██████████ | Sep 09, 2026 |
 | `trees` | 12 | 10% | ███████ | Aug 16, 2026 |
-| `binary-search` | 9 | 8% | █████ | Mar 20, 2026 |
-| `two-pointers` | 9 | 8% | █████ | Sep 10, 2026 |
+| `greedy` | 10 | 8% | ██████ | Aug 20, 2026 |
+| `binary-search` | 9 | 7% | █████ | Mar 20, 2026 |
+| `math` | 9 | 7% | █████ | Aug 30, 2026 |
+| `two-pointers` | 9 | 7% | █████ | Sep 10, 2026 |
 | `dynamic-programming` | 8 | 7% | █████ | Sep 09, 2026 |
-| `greedy` | 8 | 7% | █████ | Aug 20, 2026 |
-| `heap` | 8 | 7% | █████ | Jul 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -302,7 +302,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Path With Maximum Minimum Value](https://trueinterview.io/questions/866086d0-9514-4858-a0a7-e7350f4ccd0d) | Algorithm | Hard | — |
 | [Find Shortest Path in Cyclic Graph](https://trueinterview.io/questions/73071813-b198-4495-aaa6-2e6ae5f847da) | Algorithm | Medium | — |
 | [Kth Smallest Element in a Binary Search Tree (write full main, with follow-ups)](https://trueinterview.io/questions/65a8813c-9014-4ae9-af67-cfef594d9d98) | Algorithm | Medium | — |
-| [Rotate String (variant with two string arrays)](https://trueinterview.io/questions/5a8c9bdf-ba15-4e3f-bed8-09c457108d6e) | Algorithm | Easy | — |
+| [Rotate String (variant with two string arrays)](https://trueinterview.io/questions/5a8c9bdf-ba15-4e3f-bed8-09c457108d6e) | Algorithm | Medium | — |
 | [Longest Palindromic Subsequence](https://trueinterview.io/questions/476e68bd-f245-4818-88e5-fc21d78ebda5) | Algorithm | Hard | — |
 | [Max Points on a Line](https://trueinterview.io/questions/42a95a21-be60-46fa-b782-1995f17fe56d) | Algorithm | Medium | — |
 | [Rate Limiter and Scaling](https://trueinterview.io/questions/38e79c9a-4c70-46a0-b781-d63b089c8571) | System Design | Medium | — |

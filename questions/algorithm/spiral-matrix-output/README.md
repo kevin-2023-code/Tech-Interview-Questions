@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Goldman Sachs · Microsoft | Phone screen | — | Nov 2024 |
+| Algorithm | Medium | Goldman Sachs · Microsoft | Phone screen | matrix | Nov 2024 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/spiral-matrix-output)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -92,21 +92,21 @@ A one-column matrix is read from top to bottom without revisiting any element.
 <details>
 <summary>Hint 1</summary>
 
-Visualize the traversal as peeling off layers of the matrix one ring at a time.
+Picture the matrix as a set of shrinking rectangular layers, where each layer is read as four edges.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Maintain four boundaries (top, bottom, left, right) and update them after completing each side of the spiral.
+Keep four boundaries for the top, bottom, left and right, and move each one inward after its edge has been read.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Aim for O(m*n) time, the edge case is a single row or single column matrix.
+Visit every cell exactly once in linear time, and watch matrices with a single row or column, where the return pass would otherwise repeat elements.
 
 </details>
 

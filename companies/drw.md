@@ -40,11 +40,12 @@ Which stage each question came from, for the **3 of 3** questions at Drw that na
 
 ## What they ask about
 
-Of the **1 question at Drw that carries a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Drw that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 100% | ████████████ | Oct 08, 2025 |
+| `arrays` | 2 | 67% | ████████████ | Oct 08, 2025 |
+| `graphs` | 1 | 33% | ██████ | Oct 08, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

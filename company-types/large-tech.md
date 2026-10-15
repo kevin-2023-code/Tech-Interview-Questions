@@ -24,24 +24,24 @@
 | [AI Coding](../formats/ai-coding.md) | 68 | 5% | █ | 7 |
 | [SQL](../formats/sql.md) | 64 | 5% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **183 / 857 / 303**, over the rows the catalog has graded. 146 of the 1,343 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **183 / 855 / 305**, over the rows the catalog has graded. 146 of the 1,343 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **704 questions in this cut that carry a topic label** (52% of it):
+Of the **717 questions in this cut that carry a topic label** (53% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 152 | 22% | ████████████ |
-| `strings` | 112 | 16% | █████████ |
-| `graphs` | 106 | 15% | ████████ |
-| `arrays` | 80 | 11% | ██████ |
-| `greedy` | 59 | 8% | █████ |
-| `dynamic-programming` | 50 | 7% | ████ |
+| `hashing` | 152 | 21% | ████████████ |
+| `strings` | 116 | 16% | █████████ |
+| `graphs` | 109 | 15% | █████████ |
+| `arrays` | 82 | 11% | ██████ |
+| `greedy` | 60 | 8% | █████ |
+| `dynamic-programming` | 51 | 7% | ████ |
 | `backtracking` | 49 | 7% | ████ |
+| `math` | 49 | 7% | ████ |
 | `sorting` | 49 | 7% | ████ |
-| `math` | 44 | 6% | ███ |
-| `trees` | 44 | 6% | ███ |
+| `trees` | 45 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -249,7 +249,7 @@ Of the **704 questions in this cut that carry a topic label** (52% of it):
 | **Apple / Scale AI** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Hard | Jun 16, 2026 |
 | **Uber / DoorDash / Lyft / Snapchat** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | Medium | Jun 16, 2026 |
 | **Rippling / Bloomberg / ByteDance / Uber** | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Hard | Jun 16, 2026 |
-| **Anthropic** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Medium | Jun 15, 2026 |
+| **Anthropic** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Hard | Jun 15, 2026 |
 | **Coinbase** | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Hard | Jun 15, 2026 |
 | **Anthropic** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Medium | Jun 15, 2026 |
 | **Snowflake** | [Rewrite Tree With Subtree Sums](https://trueinterview.io/questions/rewrite-tree-with-subtree-sums) | Medium | Jun 15, 2026 |

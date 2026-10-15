@@ -24,23 +24,23 @@
 | [SQL](../formats/sql.md) | 21 | 4% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 8 | 1% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **92 / 379 / 125**, over the rows the catalog has graded. 77 of the 596 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **91 / 380 / 125**, over the rows the catalog has graded. 77 of the 596 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **357 questions in this cut that carry a topic label** (60% of it):
+Of the **366 questions in this cut that carry a topic label** (61% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 56 | 16% | ████████████ |
-| `strings` | 53 | 15% | ███████████ |
-| `graphs` | 52 | 15% | ███████████ |
-| `arrays` | 50 | 14% | ███████████ |
-| `greedy` | 36 | 10% | ████████ |
-| `dynamic-programming` | 28 | 8% | ██████ |
+| `hashing` | 58 | 16% | ████████████ |
+| `strings` | 55 | 15% | ███████████ |
+| `graphs` | 53 | 14% | ███████████ |
+| `arrays` | 52 | 14% | ███████████ |
+| `greedy` | 39 | 11% | ████████ |
+| `dynamic-programming` | 29 | 8% | ██████ |
+| `math` | 27 | 7% | ██████ |
 | `trees` | 25 | 7% | █████ |
 | `two-pointers` | 25 | 7% | █████ |
-| `math` | 24 | 7% | █████ |
 | `sorting` | 23 | 6% | █████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>

@@ -2,7 +2,7 @@
 
 # By month reported
 
-**2,490 questions** carry a recorded sighting date and are filed below by the month they were reported in.
+**2,491 questions** carry a recorded sighting date and are filed below by the month they were reported in.
 
 The other **1,631** carry no sighting date. They are in the bank and on every company and format page; they are absent here because a month page is a claim about when a question was asked, and an undated row cannot be put behind that claim. It is not the same fact as *old*.
 
@@ -16,7 +16,7 @@ The other **1,631** carry no sighting date. They are in the bank and on every co
 | [Jun 2026](2026-06.md) | 202 |
 | [May 2026](2026-05.md) | 227 |
 | [Apr 2026](2026-04.md) | 332 |
-| [Mar 2026](2026-03.md) | 202 |
+| [Mar 2026](2026-03.md) | 203 |
 | [Feb 2026](2026-02.md) | 237 |
 | [Jan 2026](2026-01.md) | 256 |
 | [Dec 2025](2025-12.md) | 156 |

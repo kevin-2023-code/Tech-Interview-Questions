@@ -18,6 +18,35 @@
 - Operation: choose a position `(i, j)`. This deletes the chosen encyclopedia and every other encyclopedia written by that author that lies in row `i` or column `j`.
 - Output: determine the fewest cell choices required to delete all encyclopedias.
 
+## Function Specification
+
+Implement `minSelections(grid, k)`:
+
+- `grid` is a list of `n` rows, each a list of `m` integers: one row of the grid, where every entry is an author identifier from `1` to `k`.
+- `k` is the largest author identifier.
+
+## Return Value
+
+- Return a single integer: the minimum number of cell choices needed to delete every encyclopedia.
+
+
+
+## Example
+
+Input:
+```text
+2 3 2
+1 1 2
+2 1 1
+```
+
+Output:
+```text
+4
+```
+
+Author `1` occupies `(0, 0)`, `(0, 1)`, `(1, 1)`, and `(1, 2)`. The cells `(0, 0)` and `(1, 2)` share neither a row nor a column, and the only cells lying on a line with both, `(0, 2)` and `(1, 0)`, belong to author `2`, so author `1` needs at least two choices; choosing `(0, 0)` and then `(1, 1)` is enough. Author `2` occupies `(0, 2)` and `(1, 0)`, which share no row or column, so it also needs two choices. The total is `2 + 2 = 4`.
+
 ## Notes
 
 - Since the complete bounds are unavailable, first establish the limits for `n`, `m`, and `k` before deciding among exhaustive search, matching/cover models, or solving separately by author.

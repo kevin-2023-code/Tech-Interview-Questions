@@ -59,20 +59,20 @@ Which stage each question came from, for the **266 of 266** questions at Google 
 
 ## What they ask about
 
-Of the **186 questions at Google that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **191 questions at Google that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 41 | 22% | ████████████ | Aug 18, 2026 |
-| `arrays` | 29 | 16% | ████████ | Aug 30, 2026 |
+| `graphs` | 41 | 21% | ████████████ | Aug 18, 2026 |
+| `arrays` | 30 | 16% | █████████ | Aug 30, 2026 |
 | `hashing` | 24 | 13% | ███████ | Sep 10, 2026 |
-| `strings` | 21 | 11% | ██████ | Sep 02, 2026 |
+| `strings` | 22 | 12% | ██████ | Sep 02, 2026 |
 | `greedy` | 19 | 10% | ██████ | Aug 11, 2026 |
-| `trees` | 18 | 10% | █████ | Sep 16, 2026 |
+| `trees` | 18 | 9% | █████ | Sep 16, 2026 |
+| `sorting` | 16 | 8% | █████ | Aug 11, 2026 |
 | `dynamic-programming` | 15 | 8% | ████ | Sep 09, 2026 |
-| `sorting` | 15 | 8% | ████ | Aug 11, 2026 |
-| `backtracking` | 13 | 7% | ████ | Aug 16, 2026 |
-| `heap` | 13 | 7% | ████ | Jul 23, 2026 |
+| `backtracking` | 14 | 7% | ████ | Aug 16, 2026 |
+| `intervals` | 14 | 7% | ████ | Jun 26, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

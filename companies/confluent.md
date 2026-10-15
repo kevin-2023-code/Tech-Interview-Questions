@@ -42,20 +42,20 @@ Which stage each question came from, for the **29 of 29** questions at Confluent
 
 ## What they ask about
 
-Of the **11 questions at Confluent that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Confluent that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 4 | 36% | ████████████ | — |
-| `dynamic-programming` | 2 | 18% | ██████ | — |
-| `hashing` | 2 | 18% | ██████ | — |
-| `strings` | 2 | 18% | ██████ | — |
-| `backtracking` | 1 | 9% | ███ | — |
-| `bit-manipulation` | 1 | 9% | ███ | — |
-| `sliding-window` | 1 | 9% | ███ | — |
-| `sorting` | 1 | 9% | ███ | — |
-| `stack` | 1 | 9% | ███ | — |
-| `trees` | 1 | 9% | ███ | — |
+| `arrays` | 4 | 33% | ████████████ | — |
+| `strings` | 3 | 25% | █████████ | Feb 22, 2026 |
+| `dynamic-programming` | 2 | 17% | ██████ | — |
+| `hashing` | 2 | 17% | ██████ | — |
+| `backtracking` | 1 | 8% | ███ | — |
+| `bit-manipulation` | 1 | 8% | ███ | — |
+| `greedy` | 1 | 8% | ███ | Feb 22, 2026 |
+| `sliding-window` | 1 | 8% | ███ | — |
+| `sorting` | 1 | 8% | ███ | — |
+| `stack` | 1 | 8% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

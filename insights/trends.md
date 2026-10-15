@@ -2,7 +2,7 @@
 
 # Trends by month
 
-Counted over the **2,490 questions that carry a sighting date**. The other 1,631 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
+Counted over the **2,491 questions that carry a sighting date**. The other 1,631 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
 
 [← Insights](README.md) · [← Every month](../by-month/README.md)
 
@@ -14,7 +14,7 @@ Counted over the **2,490 questions that carry a sighting date**. The other 1,631
 | [Jun 2026](../by-month/2026-06.md) | 202 | 55 | 12 | 115 | 39 | 1 | 35 | ██████████ |
 | [May 2026](../by-month/2026-05.md) | 227 | 57 | 10 | 116 | 41 | 22 | 38 | ███████████ |
 | [Apr 2026](../by-month/2026-04.md) | 332 | 76 | 8 | 179 | 48 | 7 | 90 | ████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 202 | 62 | 5 | 121 | 21 | 11 | 44 | ██████████ |
+| [Mar 2026](../by-month/2026-03.md) | 203 | 62 | 5 | 122 | 21 | 11 | 44 | ██████████ |
 | [Feb 2026](../by-month/2026-02.md) | 237 | 71 | 6 | 129 | 40 | 6 | 56 | ███████████ |
 | [Jan 2026](../by-month/2026-01.md) | 256 | 68 | 2 | 142 | 44 | 8 | 60 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 156 | 55 | 4 | 92 | 15 | 8 | 37 | ████████ |
