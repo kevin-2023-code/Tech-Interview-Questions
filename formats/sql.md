@@ -16,7 +16,7 @@
 | **Airbnb** | [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | Medium | 🆕 Sep 04, 2026 |
 | **Airbnb** | [Calculate the Median House Price in Each City](https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city) | Medium | 🆕 Sep 04, 2026 |
 | **Meta** | [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | Easy | 🆕 Sep 03, 2026 |
-| **Stripe** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | Easy | 🆕 Aug 31, 2026 |
+| **Stripe** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | Easy | Aug 31, 2026 |
 | **Oracle** | [Rank Departments by Student Count](https://trueinterview.io/questions/rank-departments-by-student-count) | Easy | Aug 21, 2026 |
 | **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Easy | Aug 13, 2026 |
 | **Oracle** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | Easy | Aug 13, 2026 |

@@ -64,7 +64,7 @@ The sector and size of an employer are facts about the company rather than about
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 255 | 5 | 25 | Sep 15, 2026 | 26 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 217 | 3 | 9 | Sep 09, 2026 | 37 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 186 | 5 | 23 | Sep 10, 2026 | 22 |
-| [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 144 | 7 | 18 | Sep 17, 2026 | 13 |
+| [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 144 | 7 | 17 | Sep 17, 2026 | 13 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 142 | 4 | 12 | Aug 26, 2026 | 22 |
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 128 | 1 | 8 | Sep 05, 2026 | 25 |
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 116 | 4 | 18 | Sep 17, 2026 | 11 |
@@ -73,7 +73,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 95 | 1 | 14 | Sep 11, 2026 | 13 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 95 | 1 | 11 | Sep 11, 2026 | 5 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 88 | 4 | 1 | Aug 21, 2026 | 12 |
-| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 88 | 1 | 13 | Aug 31, 2026 | 4 |
+| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 88 | 1 | 11 | Aug 31, 2026 | 4 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 86 | 4 | 3 | Sep 09, 2026 | 15 |
 | [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 84 | 5 | 5 | Sep 16, 2026 | 2 |
 | [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 83 | 1 | 3 | Aug 04, 2026 | 12 |
@@ -118,7 +118,7 @@ The sector and size of an employer are facts about the company rather than about
 | [PayPal](paypal.md) | Fintech, payments & crypto · 10,000+ people | 23 | 1 | 0 | Apr 14, 2026 | 8 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 22 | 1 | 0 | Jun 23, 2026 | 6 |
 | [WeRide](weride.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 22 | 1 | 1 | Jul 29, 2026 | 6 |
-| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 21 | 1 | 4 | Aug 22, 2026 | 5 |
+| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 21 | 1 | 3 | Aug 22, 2026 | 5 |
 | [Scale AI](scale-ai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 21 | 1 | 1 | Aug 26, 2026 | 2 |
 | [Tradedesk](tradedesk.md) | Enterprise & business software · 1,000–9,999 people | 21 | 1 | 5 | Sep 15, 2026 | 2 |
 | [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 20 | 1 | 5 | Sep 15, 2026 | 2 |

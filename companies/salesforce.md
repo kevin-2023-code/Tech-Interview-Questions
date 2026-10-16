@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **88** |
 | Most recent sighting | Aug 31, 2026 |
-| Reported in the last 90 days | 13 |
+| Reported in the last 90 days | 11 |
 | Most common format | [Algorithm](../formats/algorithm.md) (77% of 88) |
 | Difficulty (easy / medium / hard) | 16 / 52 / 20 |
 | Free to practise | [4](../free/README.md) |
@@ -40,7 +40,7 @@ Which stage each question came from, for the **88 of 88** questions at Salesforc
 
 ## Asked here in the last 90 days
 
-**13 sightings** in this window. Newest first.
+**11 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,9 +55,6 @@ Which stage each question came from, for the **88 of 88** questions at Salesforc
 | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Easy | Phone screen | Jul 26, 2026 |
 | [Delete One Character Type, Minimize Unique-Character Segments](https://trueinterview.io/questions/delete-character-minimize-unique-segments) | Algorithm | Medium | Online assessment | Jul 25, 2026 |
 | [Optimal Account Balancing (LeetCode 465)](https://trueinterview.io/questions/optimal-account-balancing) | Algorithm | Hard | Phone screen | Jul 25, 2026 |
-| [Maximal Rectangle (LeetCode 85)](https://trueinterview.io/questions/maximal-rectangle) | Algorithm | Hard | Onsite / virtual onsite | Jul 17, 2026 |
-
-<sub>1 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -140,8 +137,8 @@ What candidates said happened in the room at Salesforce — written up by the pe
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | System Design | Hard | 🆕 Aug 31, 2026 |
-| [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | System Design | Hard | 🆕 Aug 31, 2026 |
+| [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | System Design | Hard | Aug 31, 2026 |
+| [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | System Design | Hard | Aug 31, 2026 |
 | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | Aug 24, 2026 |
 | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | Aug 24, 2026 |
 | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | Aug 16, 2026 |

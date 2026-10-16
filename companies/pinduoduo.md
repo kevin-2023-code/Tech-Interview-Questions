@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **21** |
 | Most recent sighting | Aug 22, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (95% of 21) |
 | Difficulty (easy / medium / hard) | 5 / 11 / 5 |
 | Free to practise | [5](../free/README.md) |
@@ -38,14 +38,13 @@ Which stage each question came from, for the **21 of 21** questions at Pinduoduo
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Count Longest Substrings After Character Replacements](https://trueinterview.io/questions/count-longest-substrings-after-character-replacements) | Algorithm | Medium | Phone screen | Aug 22, 2026 |
 | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Medium | Phone screen | Jul 30, 2026 |
-| [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Hard | Onsite / virtual onsite | Jul 17, 2026 |
 
 ## What they ask about
 

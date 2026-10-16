@@ -47,7 +47,7 @@ Of the **516 questions in this cut that carry a topic label** (58% of it):
 
 ## Asked here in the last 90 days
 
-**100 sightings** across this cut. Newest first.
+**99 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **516 questions in this cut that carry a topic label** (58% of it):
 | [Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts](https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts) | Instacart | System Design | Sep 11, 2026 |
 | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | DoorDash | Algorithm | Sep 10, 2026 |
 
-<sub>88 more in this window are in the table below.</sub>
+<sub>87 more in this window are in the table below.</sub>
 
 ---
 

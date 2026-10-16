@@ -100,12 +100,12 @@ The 8 questions to open first if you are preparing for Nuro, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | System Design | Hard | 🆕 Aug 31, 2026 |
-| [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | System Design | Medium | 🆕 Aug 31, 2026 |
-| [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | System Design | Hard | 🆕 Aug 31, 2026 |
-| [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | System Design | Hard | 🆕 Aug 31, 2026 |
-| [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | System Design | Hard | 🆕 Aug 31, 2026 |
-| [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | System Design | Hard | 🆕 Aug 31, 2026 |
+| [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | System Design | Hard | Aug 31, 2026 |
+| [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | System Design | Medium | Aug 31, 2026 |
+| [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | System Design | Hard | Aug 31, 2026 |
+| [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | System Design | Hard | Aug 31, 2026 |
+| [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | System Design | Hard | Aug 31, 2026 |
+| [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | System Design | Hard | Aug 31, 2026 |
 | [Coordinate Video Reading and Rendering at 25 Frames per Second](https://trueinterview.io/questions/coordinate-video-reading-and-rendering-at-25-frames-per-second) | Object Oriented Programming | Hard | Feb 15, 2026 |
 | [Check Vertical Reflection Symmetry with Duplicate Points](https://trueinterview.io/questions/check-vertical-reflection-symmetry-with-duplicate-points) | Algorithm | Medium | Feb 15, 2026 |
 | [Design an Inference Pipeline](https://trueinterview.io/questions/design-an-inference-pipeline) | System Design | Medium | Jan 30, 2026 |
