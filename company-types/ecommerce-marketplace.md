@@ -111,13 +111,13 @@ Of the **516 questions in this cut that carry a topic label** (58% of it):
 | **Amazon** | [Generalize Dictionary Merging](https://trueinterview.io/questions/generalize-dictionary-merging) | Medium | 🆕 Sep 02, 2026 |
 | **Amazon** | [Design an Object-Oriented Shopping Cart](https://trueinterview.io/questions/design-an-object-oriented-shopping-cart) | Medium | 🆕 Sep 02, 2026 |
 | **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Medium | 🆕 Sep 02, 2026 |
-| **DoorDash** | [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | Hard | 🆕 Sep 01, 2026 |
-| **DoorDash** | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Medium | 🆕 Sep 01, 2026 |
-| **DoorDash** | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | Easy | 🆕 Sep 01, 2026 |
-| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | 🆕 Sep 01, 2026 |
-| **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Medium | 🆕 Sep 01, 2026 |
-| **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Hard | 🆕 Sep 01, 2026 |
-| **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Hard | 🆕 Sep 01, 2026 |
+| **DoorDash** | [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | Hard | Sep 01, 2026 |
+| **DoorDash** | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Medium | Sep 01, 2026 |
+| **DoorDash** | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | Easy | Sep 01, 2026 |
+| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | Sep 01, 2026 |
+| **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Medium | Sep 01, 2026 |
+| **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Hard | Sep 01, 2026 |
+| **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Hard | Sep 01, 2026 |
 | **Airbnb** | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Medium | Aug 30, 2026 |
 | **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Hard | Aug 30, 2026 |
 | **Airbnb** | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Hard | Aug 29, 2026 |

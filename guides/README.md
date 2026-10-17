@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**205 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
+**216 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,18 +10,18 @@
 
 | Writeup | Company | Topics |
 | :-- | :-- | :-- |
+| [8 Most-Reported Behavioral Question Sets at Big Tech (2026)](https://trueinterview.io/study/most-reported-behavioral-questions-big-tech-2026) | **General** | — |
+| [8 Most-Reported LLM Interview Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-llm-interview-questions-big-tech-2026) | **General** | — |
+| [Caching Interview Questions: LRU, Expiry and Durable Caches](https://trueinterview.io/study/caching-interview-questions-lru-expiry-durable-caches) | **General** | — |
+| [Concurrency Interview Questions: Web Crawler, LRU Cache, Counter](https://trueinterview.io/study/concurrency-interview-questions-web-crawler-lru-cache-counter) | **General** | — |
+| [LLM Inference Interview Questions: KV Cache, Batching and GPUs](https://trueinterview.io/study/llm-inference-interview-questions-kv-cache-batching-gpus) | **General** | — |
+| [LLM System Design Interviews: 36 Reported Prompts (2026)](https://trueinterview.io/study/llm-generative-ai-system-design-interview-questions) | **General** | — |
+| [Payment and Ledger Interview Questions: Coding, OOD and Design](https://trueinterview.io/study/payment-ledger-interview-questions-coding-ood-design) | **General** | — |
+| [Recommendation System Design Interview: 57 Reported Prompts](https://trueinterview.io/study/recommendation-system-design-interview-reported-prompts) | **General** | — |
+| [Staff Engineer Interviews: What Changes From the Senior Loop](https://trueinterview.io/study/staff-engineer-interview-loop-vs-senior) | **General** | — |
+| [SWE vs ML Engineer Interviews: What Changes at Senior Level](https://trueinterview.io/study/software-engineer-to-ml-engineer-interview-what-changes) | **General** | — |
+| [System Design Interview in Four Weeks: A Company-Based Plan](https://trueinterview.io/study/system-design-interview-four-week-plan-by-company) | **General** | — |
 | [Block Interview Process & Questions](https://trueinterview.io/study/block-interview-process) | **Block** | — |
-| [Bobyard Interview Process & Questions](https://trueinterview.io/study/bobyard-interview-process) | **Bobyard** | — |
-| [Faire Interview Process & Questions](https://trueinterview.io/study/faire-interview-process) | **Faire** | — |
-| [Gusto Interview Process & Questions](https://trueinterview.io/study/gusto-interview-process) | **Gusto** | — |
-| [OKX Interview Process & Questions](https://trueinterview.io/study/okx-interview-process) | **OKX** | — |
-| [Oscar Health Interview Process & Questions](https://trueinterview.io/study/oscar-health-interview-process) | **Oscar Health** | — |
-| [Rokt Interview Process & Questions](https://trueinterview.io/study/rokt-interview-process) | **Rokt** | — |
-| [StackAdapt Interview Process & Questions](https://trueinterview.io/study/stackadapt-interview-process) | **StackAdapt** | — |
-| [Voleon Interview Process & Questions](https://trueinterview.io/study/voleon-interview-process) | **Voleon** | — |
-| [8 Big Tech Questions Only Senior Candidates Report (2026)](https://trueinterview.io/study/big-tech-questions-only-senior-candidates-report-2026) | **General** | — |
-| [8 Interview Questions Filed at the Most Big Tech Companies (2026)](https://trueinterview.io/study/interview-questions-filed-at-most-big-tech-companies-2026) | **General** | — |
-| [AI-Assisted Coding Interviews at Big Tech: What to Drill](https://trueinterview.io/study/ai-assisted-coding-interview-big-tech-prep-2026) | **General** | — |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -29,18 +29,22 @@
 
 ### General
 
-<sub>33 guides · no questions reported at this employer yet</sub>
+<sub>44 guides · no questions reported at this employer yet</sub>
 
 | Writeup | Topics |
 | :-- | :-- |
 | [8 Big Tech Questions Only Senior Candidates Report (2026)](https://trueinterview.io/study/big-tech-questions-only-senior-candidates-report-2026) | — |
 | [8 Interview Questions Filed at the Most Big Tech Companies (2026)](https://trueinterview.io/study/interview-questions-filed-at-most-big-tech-companies-2026) | — |
+| [8 Most-Reported Behavioral Question Sets at Big Tech (2026)](https://trueinterview.io/study/most-reported-behavioral-questions-big-tech-2026) | — |
+| [8 Most-Reported LLM Interview Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-llm-interview-questions-big-tech-2026) | — |
 | [AI-Assisted Coding Interviews at Big Tech: What to Drill](https://trueinterview.io/study/ai-assisted-coding-interview-big-tech-prep-2026) | — |
 | [AI-Assisted vs Traditional Coding Interviews: What Changes](https://trueinterview.io/study/ai-assisted-vs-traditional-coding-interviews) | — |
 | [Big Tech Behavioral Questions by Company and Round](https://trueinterview.io/study/big-tech-behavioral-interview-questions-by-company-round-2026) | — |
 | [Big Tech Coding Topics by Company: Where Each One Differs](https://trueinterview.io/study/big-tech-coding-topics-by-company-2026) | — |
 | [Big Tech Onsite Interview Rounds for Senior Engineers (2026)](https://trueinterview.io/study/big-tech-onsite-interview-rounds-senior-engineers-2026) | — |
 | [Big Tech System Design Questions by Company and Round (2026)](https://trueinterview.io/study/big-tech-system-design-questions-by-company-and-round-2026) | — |
+| [Caching Interview Questions: LRU, Expiry and Durable Caches](https://trueinterview.io/study/caching-interview-questions-lru-expiry-durable-caches) | — |
+| [Concurrency Interview Questions: Web Crawler, LRU Cache, Counter](https://trueinterview.io/study/concurrency-interview-questions-web-crawler-lru-cache-counter) | — |
 | [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | — |
 | [Do Big Tech Phone Screens Include System Design Now?](https://trueinterview.io/study/do-big-tech-phone-screens-include-system-design-now) | — |
 | [Experiment Design and A/B Test Questions: 46 Reported (2026)](https://trueinterview.io/study/experiment-design-ab-test-interview-questions-big-tech-2026) | — |
@@ -52,17 +56,24 @@
 | [interviewing.io Review 2026: Anonymous Mock Interviews — Worth It?](https://trueinterview.io/study/interviewing-io-review-2026) | — |
 | [Is LeetCode Still Enough for Big Tech Interviews in 2026?](https://trueinterview.io/study/is-leetcode-enough-big-tech-interviews-2026) | — |
 | [LeetCode Premium Review 2026: Is $159 a Year Worth It?](https://trueinterview.io/study/leetcode-review-2026) | — |
+| [LLM Inference Interview Questions: KV Cache, Batching and GPUs](https://trueinterview.io/study/llm-inference-interview-questions-kv-cache-batching-gpus) | — |
+| [LLM System Design Interviews: 36 Reported Prompts (2026)](https://trueinterview.io/study/llm-generative-ai-system-design-interview-questions) | — |
 | [Meta vs Google vs Amazon Interviews: How Formats Differ (2026)](https://trueinterview.io/study/meta-vs-google-vs-amazon-interview-formats-2026) | — |
 | [ML Coding Questions for Senior Engineers: 81 Reported (2026)](https://trueinterview.io/study/ml-coding-interview-questions-senior-engineers-2026) | — |
 | [ML System Design Questions for Senior MLEs: 125 Reported (2026)](https://trueinterview.io/study/ml-system-design-interview-questions-senior-big-tech-2026) | — |
 | [ML System Design vs System Design Interviews: What Changes](https://trueinterview.io/study/ml-system-design-vs-system-design-interviews) | — |
 | [ML Theory Questions for Senior Engineers: 100 Reported (2026)](https://trueinterview.io/study/ml-theory-interview-questions-senior-engineers-big-tech-2026) | — |
 | [NeetCode Pro Review 2026: Worth It Beyond the Free Roadmap?](https://trueinterview.io/study/neetcode-review-2026) | — |
+| [Payment and Ledger Interview Questions: Coding, OOD and Design](https://trueinterview.io/study/payment-ledger-interview-questions-coding-ood-design) | — |
 | [PracHub Review 2026: A Low-Cost Question Bank — Worth It?](https://trueinterview.io/study/prachub-review-2026) | — |
 | [Project Deep Dive Questions for Senior Engineers: 88 Reported](https://trueinterview.io/study/project-deep-dive-interview-questions-senior-engineers-2026) | — |
+| [Recommendation System Design Interview: 57 Reported Prompts](https://trueinterview.io/study/recommendation-system-design-interview-reported-prompts) | — |
 | [Senior Data Science Product Case Questions: 50 Reported (2026)](https://trueinterview.io/study/data-science-product-case-questions-senior-big-tech-2026) | — |
 | [SQL Interview Questions for Senior Engineers: 219 Reported (2026)](https://trueinterview.io/study/sql-interview-questions-senior-engineers-big-tech-2026) | — |
+| [Staff Engineer Interviews: What Changes From the Senior Loop](https://trueinterview.io/study/staff-engineer-interview-loop-vs-senior) | — |
 | [Statistics and Probability Questions: 227 Reported (2026)](https://trueinterview.io/study/statistics-probability-interview-questions-big-tech-2026) | — |
+| [SWE vs ML Engineer Interviews: What Changes at Senior Level](https://trueinterview.io/study/software-engineer-to-ml-engineer-interview-what-changes) | — |
+| [System Design Interview in Four Weeks: A Company-Based Plan](https://trueinterview.io/study/system-design-interview-four-week-plan-by-company) | — |
 | [What is on a big tech OA in 2026, and what to drill first](https://trueinterview.io/study/big-tech-online-assessment-whats-on-it-2026) | — |
 | [Which System Design Problems Gained Share in 2026?](https://trueinterview.io/study/which-system-design-problems-gained-share-2026) | — |
 | [Will I Be Down-Leveled in a Big Tech Interview?](https://trueinterview.io/study/will-i-be-down-leveled-big-tech-interview) | — |

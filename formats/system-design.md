@@ -67,13 +67,13 @@
 | **Oracle** | [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | Hard | 🆕 Sep 03, 2026 |
 | **Atlassian** | [Design a Social-Media Comments and Notifications System](https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system) | Easy | 🆕 Sep 03, 2026 |
 | **Pinterest** | [Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing](https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing) | Hard | 🆕 Sep 02, 2026 |
-| **LinkedIn** | [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | Hard | 🆕 Sep 01, 2026 |
-| **DoorDash** | [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | Hard | 🆕 Sep 01, 2026 |
-| **Perplexity** | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | Medium | 🆕 Sep 01, 2026 |
-| **Pinterest / Airwallex** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | Medium | 🆕 Sep 01, 2026 |
-| **Tesla** | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | Medium | 🆕 Sep 01, 2026 |
-| **DoorDash** | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | Easy | 🆕 Sep 01, 2026 |
-| **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Medium | 🆕 Sep 01, 2026 |
+| **LinkedIn** | [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | Hard | Sep 01, 2026 |
+| **DoorDash** | [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | Hard | Sep 01, 2026 |
+| **Perplexity** | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | Medium | Sep 01, 2026 |
+| **Pinterest / Airwallex** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | Medium | Sep 01, 2026 |
+| **Tesla** | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | Medium | Sep 01, 2026 |
+| **DoorDash** | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | Easy | Sep 01, 2026 |
+| **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Medium | Sep 01, 2026 |
 | **Salesforce** | [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | Hard | Aug 31, 2026 |
 | **Nuro** | [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | Hard | Aug 31, 2026 |
 | **Nuro** | [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | Medium | Aug 31, 2026 |

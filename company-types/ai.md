@@ -89,10 +89,10 @@ Of the **141 questions in this cut that carry a topic label** (40% of it):
 | **OpenAI** | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Hard | 🆕 Sep 08, 2026 |
 | **OpenAI** | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | Hard | 🆕 Sep 07, 2026 |
 | **Mercor** | [Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety](https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety) | Hard | 🆕 Sep 03, 2026 |
-| **Perplexity** | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | Medium | 🆕 Sep 01, 2026 |
-| **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Hard | 🆕 Sep 01, 2026 |
-| **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Medium | 🆕 Sep 01, 2026 |
-| **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | 🆕 Sep 01, 2026 |
+| **Perplexity** | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | Medium | Sep 01, 2026 |
+| **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Hard | Sep 01, 2026 |
+| **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Medium | Sep 01, 2026 |
+| **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | Sep 01, 2026 |
 | **Mercor** | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Hard | Aug 30, 2026 |
 | **Mercor** | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | Hard | Aug 30, 2026 |
 | **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | Aug 28, 2026 |

@@ -118,7 +118,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | 🆕 Sep 01, 2026 |
+| [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | Sep 01, 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Jun 08, 2026 |
 | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Object Oriented Programming | Medium | May 26, 2026 |

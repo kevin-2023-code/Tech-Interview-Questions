@@ -99,10 +99,10 @@ Of the **662 questions in this cut that carry a topic label** (59% of it):
 | **Pinterest** | [Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing](https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing) | Hard | 🆕 Sep 02, 2026 |
 | **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Medium | 🆕 Sep 02, 2026 |
 | **Google** | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Medium | 🆕 Sep 02, 2026 |
-| **LinkedIn** | [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | Hard | 🆕 Sep 01, 2026 |
-| **Pinterest** | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Hard | 🆕 Sep 01, 2026 |
-| **LinkedIn** | [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees) | Hard | 🆕 Sep 01, 2026 |
-| **Pinterest / Airwallex** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | Medium | 🆕 Sep 01, 2026 |
+| **LinkedIn** | [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | Hard | Sep 01, 2026 |
+| **Pinterest** | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Hard | Sep 01, 2026 |
+| **LinkedIn** | [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees) | Hard | Sep 01, 2026 |
+| **Pinterest / Airwallex** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | Medium | Sep 01, 2026 |
 | **LinkedIn** | [Scale a NoSQL Key–Value Store to One Million QPS](https://trueinterview.io/questions/scale-a-nosql-key-value-store-to-one-million-qps) | Hard | Aug 31, 2026 |
 | **Google** | [Design a Bookshelf with Book CRUD and a Stable Bookmark](https://trueinterview.io/questions/design-a-bookshelf-with-book-crud-and-a-stable-bookmark) | Medium | Aug 30, 2026 |
 | **Google** | [Compute Entity Size and Validate a Hierarchical File System](https://trueinterview.io/questions/compute-entity-size-and-validate-a-hierarchical-file-system) | Hard | Aug 30, 2026 |

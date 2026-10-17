@@ -151,8 +151,8 @@ What candidates said happened in the room at LinkedIn — written up by the peop
 | [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives) | System Design | Hard | 🆕 Sep 09, 2026 |
 | [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | Object Oriented Programming | Hard | 🆕 Sep 06, 2026 |
 | [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Algorithm | Medium | 🆕 Sep 04, 2026 |
-| [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | System Design | Hard | 🆕 Sep 01, 2026 |
-| [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees) | Object Oriented Programming | Hard | 🆕 Sep 01, 2026 |
+| [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | System Design | Hard | Sep 01, 2026 |
+| [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees) | Object Oriented Programming | Hard | Sep 01, 2026 |
 | [Scale a NoSQL Key–Value Store to One Million QPS](https://trueinterview.io/questions/scale-a-nosql-key-value-store-to-one-million-qps) | System Design | Hard | Aug 31, 2026 |
 | [Collect and Query Recent User Activity](https://trueinterview.io/questions/collect-and-query-recent-user-activity) | System Design | Medium | Aug 27, 2026 |
 | [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | Algorithm | Medium | Aug 27, 2026 |

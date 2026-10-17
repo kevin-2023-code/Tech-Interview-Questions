@@ -77,7 +77,7 @@ Of the **100 questions in this cut that carry a topic label** (60% of it):
 | **Tesla** | [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Medium | 🆕 Sep 13, 2026 |
 | **Tesla** | [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | Hard | 🆕 Sep 04, 2026 |
 | **Tesla** | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Medium | 🆕 Sep 04, 2026 |
-| **Tesla** | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | Medium | 🆕 Sep 01, 2026 |
+| **Tesla** | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | Medium | Sep 01, 2026 |
 | **Nuro** | [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | Hard | Aug 31, 2026 |
 | **Nuro** | [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | Medium | Aug 31, 2026 |
 | **Nuro** | [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | Hard | Aug 31, 2026 |

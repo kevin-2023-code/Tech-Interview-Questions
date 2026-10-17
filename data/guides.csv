@@ -42,6 +42,7 @@ bytedance-infrastructure-engineer-interview-process,ByteDance Infrastructure Eng
 bytedance-interview-process,ByteDance Interview Process & Questions,ByteDance,,https://trueinterview.io/study/bytedance-interview-process,2026-07-24T14:41:44.432528+00:00
 bytedance-machine-learning-engineer-interview-process,ByteDance Machine Learning Engineer Interview Process,ByteDance,,https://trueinterview.io/study/bytedance-machine-learning-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
 bytedance-software-engineer-interview-process,ByteDance Software Engineer Interview Process,ByteDance,,https://trueinterview.io/study/bytedance-software-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
+caching-interview-questions-lru-expiry-durable-caches,"Caching Interview Questions: LRU, Expiry and Durable Caches",General,,https://trueinterview.io/study/caching-interview-questions-lru-expiry-durable-caches,2026-10-16T22:40:14.996478+00:00
 capitalone-data-scientist-interview-process,Capital One Data Scientist Interview Process,Capital One,,https://trueinterview.io/study/capitalone-data-scientist-interview-process,2026-07-31T04:36:40.593833+00:00
 capitalone-interview-process,Capital One Interview Process & Questions,Capital One,,https://trueinterview.io/study/capitalone-interview-process,2026-07-24T14:41:44.432528+00:00
 capitalone-machine-learning-engineer-interview-process,Capital One Machine Learning Engineer Interview Process,Capital One,,https://trueinterview.io/study/capitalone-machine-learning-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
@@ -55,6 +56,7 @@ coinbase-frontend-engineer-interview-process,Coinbase Frontend Engineer Intervie
 coinbase-interview-process,Coinbase Interview Process & Questions,Coinbase,,https://trueinterview.io/study/coinbase-interview-process,2026-07-24T14:41:44.432528+00:00
 coinbase-machine-learning-engineer-interview-process,Coinbase Machine Learning Engineer Interview Process,Coinbase,,https://trueinterview.io/study/coinbase-machine-learning-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
 coinbase-software-engineer-interview-process,Coinbase Software Engineer Interview Process,Coinbase,,https://trueinterview.io/study/coinbase-software-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
+concurrency-interview-questions-web-crawler-lru-cache-counter,"Concurrency Interview Questions: Web Crawler, LRU Cache, Counter",General,,https://trueinterview.io/study/concurrency-interview-questions-web-crawler-lru-cache-counter,2026-10-16T22:36:20.934875+00:00
 confluent-interview-process,Confluent Interview Process & Questions,Confluent,,https://trueinterview.io/study/confluent-interview-process,2026-08-22T03:02:59.028389+00:00
 darkinterview-review-2026,DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?,General,,https://trueinterview.io/study/darkinterview-review-2026,2026-09-19T09:53:33.125916+00:00
 data-science-product-case-questions-senior-big-tech-2026,Senior Data Science Product Case Questions: 50 Reported (2026),General,,https://trueinterview.io/study/data-science-product-case-questions-senior-big-tech-2026,2026-10-11T15:02:56.238225+00:00
@@ -97,6 +99,8 @@ linkedin-infrastructure-engineer-interview-process,LinkedIn Infrastructure Engin
 linkedin-interview-process,LinkedIn Interview Process & Questions,LinkedIn,,https://trueinterview.io/study/linkedin-interview-process,2026-07-24T14:41:46.159705+00:00
 linkedin-machine-learning-engineer-interview-process,LinkedIn Machine Learning Engineer Interview Process,LinkedIn,,https://trueinterview.io/study/linkedin-machine-learning-engineer-interview-process,2026-07-24T14:41:46.159705+00:00
 linkedin-software-engineer-interview-process,LinkedIn Software Engineer Interview Process,LinkedIn,,https://trueinterview.io/study/linkedin-software-engineer-interview-process,2026-07-24T14:41:46.159705+00:00
+llm-generative-ai-system-design-interview-questions,LLM System Design Interviews: 36 Reported Prompts (2026),General,,https://trueinterview.io/study/llm-generative-ai-system-design-interview-questions,2026-10-16T22:27:38.146499+00:00
+llm-inference-interview-questions-kv-cache-batching-gpus,"LLM Inference Interview Questions: KV Cache, Batching and GPUs",General,,https://trueinterview.io/study/llm-inference-interview-questions-kv-cache-batching-gpus,2026-10-16T22:38:17.814466+00:00
 luma-ai-interview-process,Luma AI Interview Process & Questions,Luma AI,,https://trueinterview.io/study/luma-ai-interview-process,2026-09-04T14:45:48.380701+00:00
 lyft-interview-process,Lyft Interview Process & Questions,Lyft,,https://trueinterview.io/study/lyft-interview-process,2026-08-22T03:02:59.028389+00:00
 meta-data-scientist-interview-process,Meta Data Scientist Interview Process,Meta,,https://trueinterview.io/study/meta-data-scientist-interview-process,2026-07-31T04:36:40.593833+00:00
@@ -116,6 +120,8 @@ ml-system-design-interview-questions-senior-big-tech-2026,ML System Design Quest
 ml-system-design-vs-system-design-interviews,ML System Design vs System Design Interviews: What Changes,General,,https://trueinterview.io/study/ml-system-design-vs-system-design-interviews,2026-10-11T20:39:01.340815+00:00
 ml-theory-interview-questions-senior-engineers-big-tech-2026,ML Theory Questions for Senior Engineers: 100 Reported (2026),General,,https://trueinterview.io/study/ml-theory-interview-questions-senior-engineers-big-tech-2026,2026-10-11T14:57:13.013307+00:00
 mongodb-interview-process,MongoDB Interview Process & Questions,MongoDB,,https://trueinterview.io/study/mongodb-interview-process,2026-09-04T14:45:48.380701+00:00
+most-reported-behavioral-questions-big-tech-2026,8 Most-Reported Behavioral Question Sets at Big Tech (2026),General,,https://trueinterview.io/study/most-reported-behavioral-questions-big-tech-2026,2026-10-16T22:26:42.63014+00:00
+most-reported-llm-interview-questions-big-tech-2026,8 Most-Reported LLM Interview Questions at Big Tech (2026),General,,https://trueinterview.io/study/most-reported-llm-interview-questions-big-tech-2026,2026-10-16T22:09:59.159815+00:00
 neetcode-review-2026,NeetCode Pro Review 2026: Worth It Beyond the Free Roadmap?,General,,https://trueinterview.io/study/neetcode-review-2026,2026-09-19T11:12:16.896463+00:00
 netflix-infrastructure-engineer-interview-process,Netflix Infrastructure Engineer Interview Process,Netflix,,https://trueinterview.io/study/netflix-infrastructure-engineer-interview-process,2026-07-31T04:36:40.593833+00:00
 netflix-interview-process,Netflix Interview Process & Questions,Netflix,,https://trueinterview.io/study/netflix-interview-process,2026-07-24T14:41:46.159705+00:00
@@ -139,6 +145,7 @@ optiver-research-scientist-interview-process,Optiver Research Scientist Intervie
 oracle-interview-process,Oracle Interview Process & Questions,Oracle,,https://trueinterview.io/study/oracle-interview-process,2026-07-24T14:41:46.159705+00:00
 oscar-health-interview-process,Oscar Health Interview Process & Questions,Oscar Health,,https://trueinterview.io/study/oscar-health-interview-process,2026-10-13T14:10:45.927476+00:00
 palantir-interview-process,Palantir Technologies Interview Process & Questions,Palantir,,https://trueinterview.io/study/palantir-interview-process,2026-09-04T14:45:48.380701+00:00
+payment-ledger-interview-questions-coding-ood-design,"Payment and Ledger Interview Questions: Coding, OOD and Design",General,,https://trueinterview.io/study/payment-ledger-interview-questions-coding-ood-design,2026-10-16T22:36:58.660772+00:00
 paypal-interview-process,PayPal Interview Process & Questions,PayPal,,https://trueinterview.io/study/paypal-interview-process,2026-08-22T03:02:59.028389+00:00
 perplexity-interview-process,Perplexity Interview Process & Questions,Perplexity,,https://trueinterview.io/study/perplexity-interview-process,2026-07-24T14:41:46.159705+00:00
 perplexity-machine-learning-engineer-interview-process,Perplexity Machine Learning Engineer Interview Process,Perplexity,,https://trueinterview.io/study/perplexity-machine-learning-engineer-interview-process,2026-07-24T14:41:46.159705+00:00
@@ -152,6 +159,7 @@ prachub-review-2026,PracHub Review 2026: A Low-Cost Question Bank — Worth It?,
 prepare-from-candidate-reported-interview-questions-2026,How to Prepare from Candidate-Reported Interview Questions,General,,https://trueinterview.io/study/prepare-from-candidate-reported-interview-questions-2026,2026-10-11T12:02:03.560072+00:00
 project-deep-dive-interview-questions-senior-engineers-2026,Project Deep Dive Questions for Senior Engineers: 88 Reported,General,,https://trueinterview.io/study/project-deep-dive-interview-questions-senior-engineers-2026,2026-10-11T15:17:45.865028+00:00
 ramp-interview-process,Ramp Interview Process & Questions,Ramp,,https://trueinterview.io/study/ramp-interview-process,2026-07-24T14:41:46.159705+00:00
+recommendation-system-design-interview-reported-prompts,Recommendation System Design Interview: 57 Reported Prompts,General,,https://trueinterview.io/study/recommendation-system-design-interview-reported-prompts,2026-10-16T22:37:39.556309+00:00
 reddit-interview-process,Reddit Interview Process & Questions,Reddit,,https://trueinterview.io/study/reddit-interview-process,2026-07-24T14:41:46.159705+00:00
 reddit-machine-learning-engineer-interview-process,Reddit Machine Learning Engineer Interview Process,Reddit,,https://trueinterview.io/study/reddit-machine-learning-engineer-interview-process,2026-07-24T14:41:46.159705+00:00
 reddit-software-engineer-interview-process,Reddit Software Engineer Interview Process,Reddit,,https://trueinterview.io/study/reddit-software-engineer-interview-process,2026-07-24T14:41:46.159705+00:00
@@ -174,12 +182,15 @@ snapchat-machine-learning-engineer-interview-process,Snapchat Machine Learning E
 snapchat-software-engineer-interview-process,Snapchat Software Engineer Interview Process,Snapchat,,https://trueinterview.io/study/snapchat-software-engineer-interview-process,2026-07-24T14:41:47.326299+00:00
 snowflake-interview-process,Snowflake Interview Process & Questions,Snowflake,,https://trueinterview.io/study/snowflake-interview-process,2026-07-24T14:41:47.326299+00:00
 sofi-interview-process,SoFi Interview Process & Questions,SoFi,,https://trueinterview.io/study/sofi-interview-process,2026-07-24T14:41:47.326299+00:00
+software-engineer-to-ml-engineer-interview-what-changes,SWE vs ML Engineer Interviews: What Changes at Senior Level,General,,https://trueinterview.io/study/software-engineer-to-ml-engineer-interview-what-changes,2026-10-16T22:25:48.018041+00:00
 sql-interview-questions-senior-engineers-big-tech-2026,SQL Interview Questions for Senior Engineers: 219 Reported (2026),General,,https://trueinterview.io/study/sql-interview-questions-senior-engineers-big-tech-2026,2026-10-11T14:49:44.977361+00:00
 squarepoint-interview-process,Squarepoint Capital Interview Process & Questions,Squarepoint,,https://trueinterview.io/study/squarepoint-interview-process,2026-08-22T03:02:59.028389+00:00
 stackadapt-interview-process,StackAdapt Interview Process & Questions,StackAdapt,,https://trueinterview.io/study/stackadapt-interview-process,2026-10-13T14:10:45.927476+00:00
+staff-engineer-interview-loop-vs-senior,Staff Engineer Interviews: What Changes From the Senior Loop,General,,https://trueinterview.io/study/staff-engineer-interview-loop-vs-senior,2026-10-16T22:19:38.132144+00:00
 statistics-probability-interview-questions-big-tech-2026,Statistics and Probability Questions: 227 Reported (2026),General,,https://trueinterview.io/study/statistics-probability-interview-questions-big-tech-2026,2026-10-11T15:35:32.713434+00:00
 stripe-interview-process,Stripe Interview Process & Questions,Stripe,,https://trueinterview.io/study/stripe-interview-process,2026-07-24T14:41:47.326299+00:00
 stubhub-interview-process,StubHub Interview Process & Questions,Stubhub,,https://trueinterview.io/study/stubhub-interview-process,2026-09-04T14:45:48.380701+00:00
+system-design-interview-four-week-plan-by-company,System Design Interview in Four Weeks: A Company-Based Plan,General,,https://trueinterview.io/study/system-design-interview-four-week-plan-by-company,2026-10-16T22:24:54.257526+00:00
 tesla-interview-process,Tesla Interview Process & Questions,Tesla,,https://trueinterview.io/study/tesla-interview-process,2026-07-24T14:41:47.326299+00:00
 tesla-machine-learning-engineer-interview-process,Tesla Machine Learning Engineer Interview Process,Tesla,,https://trueinterview.io/study/tesla-machine-learning-engineer-interview-process,2026-07-24T14:41:47.326299+00:00
 tesla-software-engineer-interview-process,Tesla Software Engineer Interview Process,Tesla,,https://trueinterview.io/study/tesla-software-engineer-interview-process,2026-07-24T14:41:47.326299+00:00

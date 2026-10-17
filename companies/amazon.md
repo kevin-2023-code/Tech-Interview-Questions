@@ -149,10 +149,10 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Generalize Dictionary Merging](https://trueinterview.io/questions/generalize-dictionary-merging) | Algorithm | Medium | 🆕 Sep 02, 2026 |
 | [Design an Object-Oriented Shopping Cart](https://trueinterview.io/questions/design-an-object-oriented-shopping-cart) | Object Oriented Programming | Medium | 🆕 Sep 02, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | 🆕 Sep 02, 2026 |
-| [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | Medium | 🆕 Sep 01, 2026 |
-| [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | Medium | 🆕 Sep 01, 2026 |
-| [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | Hard | 🆕 Sep 01, 2026 |
-| [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | Hard | 🆕 Sep 01, 2026 |
+| [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | Medium | Sep 01, 2026 |
+| [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | Medium | Sep 01, 2026 |
+| [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | Hard | Sep 01, 2026 |
+| [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | Hard | Sep 01, 2026 |
 | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Algorithm | Hard | Aug 30, 2026 |
 | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Object Oriented Programming | Hard | Aug 27, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Aug 27, 2026 |

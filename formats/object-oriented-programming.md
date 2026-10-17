@@ -34,8 +34,8 @@
 | **Atlassian** | [Design a Music Player with Queue, Loop, and Shuffle](https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle) | Medium | 🆕 Sep 03, 2026 |
 | **Amazon** | [Design an Object-Oriented Shopping Cart](https://trueinterview.io/questions/design-an-object-oriented-shopping-cart) | Medium | 🆕 Sep 02, 2026 |
 | **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Medium | 🆕 Sep 02, 2026 |
-| **LinkedIn** | [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees) | Hard | 🆕 Sep 01, 2026 |
-| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | 🆕 Sep 01, 2026 |
+| **LinkedIn** | [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees) | Hard | Sep 01, 2026 |
+| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | Sep 01, 2026 |
 | **Disney** | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Hard | Aug 30, 2026 |
 | **Applied Intuition** | [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Medium | Aug 30, 2026 |
 | **Airbnb** | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Medium | Aug 30, 2026 |

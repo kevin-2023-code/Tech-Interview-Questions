@@ -134,15 +134,15 @@ Of the **1,251 questions in this cut that carry a topic label** (61% of it):
 | **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Medium | 🆕 Sep 02, 2026 |
 | **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Medium | 🆕 Sep 02, 2026 |
 | **Google** | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Medium | 🆕 Sep 02, 2026 |
-| **LinkedIn** | [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | Hard | 🆕 Sep 01, 2026 |
-| **LinkedIn** | [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees) | Hard | 🆕 Sep 01, 2026 |
-| **DoorDash** | [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | Hard | 🆕 Sep 01, 2026 |
-| **DoorDash** | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Medium | 🆕 Sep 01, 2026 |
-| **DoorDash** | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | Easy | 🆕 Sep 01, 2026 |
-| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | 🆕 Sep 01, 2026 |
-| **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Medium | 🆕 Sep 01, 2026 |
-| **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Hard | 🆕 Sep 01, 2026 |
-| **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Hard | 🆕 Sep 01, 2026 |
+| **LinkedIn** | [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | Hard | Sep 01, 2026 |
+| **LinkedIn** | [Merge and Serialize N-ary Trees](https://trueinterview.io/questions/merge-and-serialize-n-ary-trees) | Hard | Sep 01, 2026 |
+| **DoorDash** | [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | Hard | Sep 01, 2026 |
+| **DoorDash** | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Medium | Sep 01, 2026 |
+| **DoorDash** | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | Easy | Sep 01, 2026 |
+| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | Sep 01, 2026 |
+| **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Medium | Sep 01, 2026 |
+| **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Hard | Sep 01, 2026 |
+| **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Hard | Sep 01, 2026 |
 | **Salesforce** | [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | Hard | Aug 31, 2026 |
 | **LinkedIn** | [Scale a NoSQL Key–Value Store to One Million QPS](https://trueinterview.io/questions/scale-a-nosql-key-value-store-to-one-million-qps) | Hard | Aug 31, 2026 |
 | **Salesforce** | [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | Hard | Aug 31, 2026 |

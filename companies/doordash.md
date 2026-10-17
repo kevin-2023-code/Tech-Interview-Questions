@@ -136,9 +136,9 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | System Design | Medium | 🆕 Sep 10, 2026 |
 | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | System Design | Medium | 🆕 Sep 10, 2026 |
 | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | System Design | Medium | 🆕 Sep 05, 2026 |
-| [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | System Design | Hard | 🆕 Sep 01, 2026 |
-| [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Algorithm | Medium | 🆕 Sep 01, 2026 |
-| [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | System Design | Easy | 🆕 Sep 01, 2026 |
+| [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | System Design | Hard | Sep 01, 2026 |
+| [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Algorithm | Medium | Sep 01, 2026 |
+| [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | System Design | Easy | Sep 01, 2026 |
 | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | Medium | Aug 16, 2026 |
 | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | Easy | Aug 16, 2026 |
 | [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Algorithm | Medium | Aug 16, 2026 |

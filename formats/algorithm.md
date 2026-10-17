@@ -69,13 +69,13 @@
 | **Microsoft** | [Detect Repeated Patterns in a String Sequence](https://trueinterview.io/questions/detect-repeated-patterns-in-a-string-sequence) | Medium | 🆕 Sep 02, 2026 |
 | **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Medium | 🆕 Sep 02, 2026 |
 | **Google** | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Medium | 🆕 Sep 02, 2026 |
-| **Pinterest** | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Hard | 🆕 Sep 01, 2026 |
-| **DoorDash** | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Medium | 🆕 Sep 01, 2026 |
-| **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Hard | 🆕 Sep 01, 2026 |
-| **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | 🆕 Sep 01, 2026 |
-| **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Medium | 🆕 Sep 01, 2026 |
-| **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Hard | 🆕 Sep 01, 2026 |
-| **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Hard | 🆕 Sep 01, 2026 |
+| **Pinterest** | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Hard | Sep 01, 2026 |
+| **DoorDash** | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Medium | Sep 01, 2026 |
+| **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Hard | Sep 01, 2026 |
+| **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | Sep 01, 2026 |
+| **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Medium | Sep 01, 2026 |
+| **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Hard | Sep 01, 2026 |
+| **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Hard | Sep 01, 2026 |
 | **Mercor** | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Hard | Aug 30, 2026 |
 | **Google** | [Find the Longest Continuous Increasing Subsequence](https://trueinterview.io/questions/find-the-longest-continuous-increasing-subsequence) | Easy | Aug 30, 2026 |
 | **Microsoft** | [Recover Sorted Digits from Scrambled English Number Words](https://trueinterview.io/questions/recover-sorted-digits-from-scrambled-english-number-words) | Medium | Aug 30, 2026 |
