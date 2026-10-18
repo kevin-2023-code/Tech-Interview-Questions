@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **84** |
 | Most recent sighting | Sep 16, 2026 |
-| Reported in the last 90 days | 5 |
+| Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (54% of 84) |
 | Difficulty (easy / medium / hard) | 11 / 51 / 22 |
 | Free to practise | [2](../free/README.md) |
@@ -38,15 +38,13 @@ Which stage each question came from, for the **84 of 84** questions at Capital O
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Algorithm | Medium | Online assessment | Sep 16, 2026 |
 | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Algorithm | Medium | Online assessment | Sep 07, 2026 |
 | [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | System Design | Hard | Onsite / virtual onsite | Aug 23, 2026 |
-| [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Algorithm | Easy | Online assessment | Jul 19, 2026 |
-| [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Algorithm | Easy | Online assessment | Jul 19, 2026 |
 
 ## What they ask about
 

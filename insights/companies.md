@@ -12,11 +12,11 @@
 | :-- | --: | --: | :-- | :-- |
 | [Amazon](../companies/amazon.md) | 51 | 320 | Sep 20, 2026 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 25 | 255 | Sep 15, 2026 | ████████ |
-| [Google](../companies/google.md) | 24 | 266 | Sep 18, 2026 | ████████ |
+| [Google](../companies/google.md) | 23 | 266 | Sep 18, 2026 | ███████ |
 | [Microsoft](../companies/microsoft.md) | 23 | 186 | Sep 10, 2026 | ███████ |
 | [LinkedIn](../companies/linkedin.md) | 18 | 116 | Sep 17, 2026 | ██████ |
 | [OpenAI](../companies/openai.md) | 17 | 144 | Sep 17, 2026 | █████ |
-| [Meta](../companies/meta.md) | 15 | 335 | Sep 04, 2026 | █████ |
+| [Meta](../companies/meta.md) | 14 | 335 | Sep 04, 2026 | ████ |
 | [Oracle](../companies/oracle.md) | 14 | 95 | Sep 11, 2026 | ████ |
 | [Apple](../companies/apple.md) | 12 | 142 | Aug 26, 2026 | ████ |
 | [DoorDash](../companies/doordash.md) | 12 | 107 | Sep 16, 2026 | ████ |
@@ -40,9 +40,9 @@
 
 | Company | Questions | Guides | Free | Last 90d | Last sighting | Most asked format | Most asked topic |
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
-| [Meta](../companies/meta.md) | 335 | 6 | 26 | 15 | Sep 04, 2026 | Algorithm | `graphs` |
+| [Meta](../companies/meta.md) | 335 | 6 | 26 | 14 | Sep 04, 2026 | Algorithm | `graphs` |
 | [Amazon](../companies/amazon.md) | 320 | 5 | 31 | 51 | Sep 20, 2026 | Algorithm | `hashing` |
-| [Google](../companies/google.md) | 266 | 3 | 25 | 24 | Sep 18, 2026 | Algorithm | `graphs` |
+| [Google](../companies/google.md) | 266 | 3 | 25 | 23 | Sep 18, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 255 | 5 | 26 | 25 | Sep 15, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 217 | 3 | 37 | 9 | Sep 09, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 186 | 5 | 22 | 23 | Sep 10, 2026 | Algorithm | `graphs` |
@@ -57,7 +57,7 @@
 | [Netflix](../companies/netflix.md) | 88 | 4 | 12 | 1 | Aug 21, 2026 | Algorithm | `hashing` |
 | [Salesforce](../companies/salesforce.md) | 88 | 1 | 4 | 11 | Aug 31, 2026 | Algorithm | `arrays` |
 | [Roblox](../companies/roblox.md) | 86 | 4 | 15 | 3 | Sep 09, 2026 | Algorithm | `arrays` |
-| [Capital One](../companies/capital-one.md) | 84 | 5 | 2 | 5 | Sep 16, 2026 | Algorithm | `arrays` |
+| [Capital One](../companies/capital-one.md) | 84 | 5 | 2 | 3 | Sep 16, 2026 | Algorithm | `arrays` |
 | [Bloomberg](../companies/bloomberg.md) | 83 | 1 | 12 | 3 | Aug 04, 2026 | Algorithm | `hashing` |
 | [Anthropic](../companies/anthropic.md) | 79 | 6 | 10 | 5 | Sep 08, 2026 | Algorithm | `hashing` |
 | [Databricks](../companies/databricks.md) | 79 | 3 | 14 | 5 | Sep 15, 2026 | Algorithm | `hashing` |

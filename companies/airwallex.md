@@ -101,7 +101,7 @@ The 8 questions to open first if you are preparing for Airwallex, ranked by **th
 | :-- | :-- | :-: | :-- |
 | [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Algorithm | Hard | 🆕 Sep 10, 2026 |
 | [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid) | System Design | Hard | 🆕 Sep 10, 2026 |
-| [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Algorithm | Medium | 🆕 Sep 02, 2026 |
+| [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Algorithm | Medium | Sep 02, 2026 |
 | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | Sep 01, 2026 |
 | [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system) | System Design | Hard | Aug 09, 2026 |
 | [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) | Algorithm | Hard | Jan 29, 2026 |

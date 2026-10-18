@@ -47,7 +47,7 @@ Of the **175 questions in this cut that carry a topic label** (66% of it):
 
 ## Asked here in the last 90 days
 
-**11 sightings** across this cut. Newest first.
+**9 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -60,8 +60,6 @@ Of the **175 questions in this cut that carry a topic label** (66% of it):
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Bloomberg … | Algorithm | Aug 04, 2026 |
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | Bloomberg | SQL | Jul 22, 2026 |
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Bloomberg | SQL | Jul 22, 2026 |
-| [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Capital One | Algorithm | Jul 19, 2026 |
-| [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Capital One | Algorithm | Jul 19, 2026 |
 
 ---
 

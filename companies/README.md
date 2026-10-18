@@ -58,9 +58,9 @@ The sector and size of an employer are facts about the company rather than about
 
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
-| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 335 | 6 | 15 | Sep 04, 2026 | 26 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 335 | 6 | 14 | Sep 04, 2026 | 26 |
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 320 | 5 | 51 | Sep 20, 2026 | 31 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 266 | 3 | 24 | Sep 18, 2026 | 25 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 266 | 3 | 23 | Sep 18, 2026 | 25 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 255 | 5 | 25 | Sep 15, 2026 | 26 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 217 | 3 | 9 | Sep 09, 2026 | 37 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 186 | 5 | 23 | Sep 10, 2026 | 22 |
@@ -75,7 +75,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 88 | 4 | 1 | Aug 21, 2026 | 12 |
 | [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 88 | 1 | 11 | Aug 31, 2026 | 4 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 86 | 4 | 3 | Sep 09, 2026 | 15 |
-| [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 84 | 5 | 5 | Sep 16, 2026 | 2 |
+| [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 84 | 5 | 3 | Sep 16, 2026 | 2 |
 | [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 83 | 1 | 3 | Aug 04, 2026 | 12 |
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 79 | 6 | 5 | Sep 08, 2026 | 10 |
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 79 | 3 | 5 | Sep 15, 2026 | 14 |

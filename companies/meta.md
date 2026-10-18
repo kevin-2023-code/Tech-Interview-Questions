@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **335** |
 | Most recent sighting | Sep 04, 2026 |
-| Reported in the last 90 days | 15 |
+| Reported in the last 90 days | 14 |
 | Most common format | [Algorithm](../formats/algorithm.md) (51% of 335) |
 | Difficulty (easy / medium / hard) | 43 / 203 / 89 |
 | Free to practise | [26](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **335 of 335** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**15 sightings** in this window. Newest first.
+**14 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **335 of 335** questions at Meta th
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Phone screen | Jul 22, 2026 |
 
-<sub>3 more in this window are in the table below.</sub>
+<sub>2 more in this window are in the table below.</sub>
 
 ## What they ask about
 
