@@ -92,7 +92,7 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 | **2** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | — | Jul 29, 2026 |
 | **3** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | — | Jul 29, 2026 |
 | **4** | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | 2 | Jun 29, 2026 |
-| **5** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
+| **5** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 1 | Jun 21, 2026 |
 | **6** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 5 | Jun 16, 2026 |
 | **7** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | 3 | Jun 16, 2026 |
 | **8** | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | System Design | Medium | 1 | Jun 02, 2026 |

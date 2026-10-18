@@ -12,7 +12,7 @@ How Pinduoduo interviews, and the questions candidates reported there. Free ques
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Aug 22, 2026 |
+| Most recent sighting | Oct 01, 2026 |
 
 ## How Pinduoduo interviews
 
@@ -52,7 +52,7 @@ Here's what the interview process can look like:
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Sort Colors and Sizes](../../questions/algorithm/sort-colors-and-sizes/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc) |

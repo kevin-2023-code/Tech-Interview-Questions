@@ -117,7 +117,7 @@ Here are some questions reported by recent candidates:
 - Pair two arrays to minimize the sum of pairwise XORs, using DP over a bitmask of used elements.
 - Crawl from a start URL with a fixed concurrency limit, visiting each URL once.
 
-- [Implement a Bounded Concurrent Web Crawler](../../questions/algorithm/implement-a-bounded-concurrent-web-crawler/README.md)
+- [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6)
 - [Minimum XOR Sum of Two Arrays](../../questions/algorithm/minimum-xor-sum-of-two-arrays/README.md)
 
 ## System design interview

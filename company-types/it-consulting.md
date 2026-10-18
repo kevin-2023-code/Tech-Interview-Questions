@@ -2,7 +2,7 @@
 
 # 🧾 IT services & consulting — interview & OA questions
 
-**33 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**34 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[IBM (33)](../companies/ibm.md)
+[IBM (34)](../companies/ibm.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,28 +18,28 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 29 | 88% | ██████████████ | 9 |
+| [Algorithm](../formats/algorithm.md) | 30 | 88% | ██████████████ | 9 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 9% | █ | 1 |
 | [SQL](../formats/sql.md) | 1 | 3% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **7 / 22 / 4**, over the rows the catalog has graded. 10 of the 33 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **7 / 23 / 4**, over the rows the catalog has graded. 10 of the 34 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **27 questions in this cut that carry a topic label** (82% of it):
+Of the **28 questions in this cut that carry a topic label** (82% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `greedy` | 8 | 30% | ████████████ |
-| `arrays` | 6 | 22% | █████████ |
-| `strings` | 5 | 19% | ████████ |
-| `hashing` | 4 | 15% | ██████ |
+| `greedy` | 8 | 29% | ████████████ |
+| `arrays` | 6 | 21% | █████████ |
+| `hashing` | 5 | 18% | ████████ |
+| `strings` | 5 | 18% | ████████ |
 | `intervals` | 3 | 11% | ████ |
 | `math` | 3 | 11% | ████ |
+| `sliding-window` | 3 | 11% | ████ |
 | `sorting` | 3 | 11% | ████ |
 | `dynamic-programming` | 2 | 7% | ███ |
 | `graphs` | 2 | 7% | ███ |
-| `heap` | 2 | 7% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -75,6 +75,7 @@ Of the **27 questions in this cut that carry a topic label** (82% of it):
 | **IBM** | [Frontend CSS Flexbox Layout Task](https://trueinterview.io/questions/frontend-css-flexbox-layout) | Easy | Oct 07, 2025 |
 | **IBM** | [Write SQL to compute max and min marks](https://trueinterview.io/questions/write-sql-to-compute-max-and-min-marks) | Easy | Oct 03, 2025 |
 | **IBM** | [Find minimum operations to make array sorted](https://trueinterview.io/questions/find-minimum-operations-to-make-array-sorted) | Hard | Oct 03, 2025 |
+| **Ramp / IBM** | [Rate Limiter by IP Address](https://trueinterview.io/questions/rate-limiter-by-ip-address) | Medium | Sep 29, 2025 |
 | **IBM** | [Minimum Link Reallocation to Connect Repositories](https://trueinterview.io/questions/minimum-link-reallocation) | Medium | Sep 21, 2025 |
 | **IBM** | [Sliding-Window Rate Limiter / Abuse IP Detection](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) | Medium | Sep 09, 2025 |
 | **IBM** | [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Medium | Sep 09, 2025 |

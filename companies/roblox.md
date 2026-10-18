@@ -2,7 +2,7 @@
 
 # Roblox interview process, OA & interview questions
 
-**86 questions** reported at Roblox · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
+**87 questions** reported at Roblox · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Roblox interviews & the free questions](roblox/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,64 +14,65 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **86** |
-| Most recent sighting | Sep 09, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (56% of 86) |
-| Difficulty (easy / medium / hard) | 16 / 52 / 18 |
-| Free to practise | [15](../free/README.md) |
+| Questions tracked | **87** |
+| Most recent sighting | Sep 10, 2026 |
+| Reported in the last 90 days | 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (56% of 87) |
+| Difficulty (easy / medium / hard) | 16 / 52 / 19 |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 86 questions reported at Roblox. 59 of them carry a sighting date; the other 27 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 87 questions reported at Roblox. 60 of them carry a sighting date; the other 27 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **86 of 86** questions at Roblox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **87 of 87** questions at Roblox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 9 | ██ | [Algorithm](../formats/algorithm.md) (78%) | 2 / 5 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 10 | ██ | [Algorithm](../formats/algorithm.md) (80%) | 2 / 6 / 2 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 53 | ██████████ | [Algorithm](../formats/algorithm.md) (66%) | 12 / 30 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 37 | ███████ | [System Design](../formats/system-design.md) (57%) | 4 / 26 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 37 | ███████ | [System Design](../formats/system-design.md) (57%) | 4 / 25 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | Online assessment | Sep 10, 2026 |
 | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Algorithm | Medium | Online assessment | Sep 09, 2026 |
 | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Algorithm | Easy | Phone screen | Aug 17, 2026 |
 | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Algorithm | Medium | Online assessment | Aug 12, 2026 |
 
 ## What they ask about
 
-Of the **48 questions at Roblox that carry a topic label** (56% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **49 questions at Roblox that carry a topic label** (56% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 12 | 25% | ████████████ | Sep 09, 2026 |
-| `hashing` | 12 | 25% | ████████████ | Aug 12, 2026 |
+| `arrays` | 13 | 27% | ████████████ | Sep 10, 2026 |
+| `hashing` | 12 | 24% | ███████████ | Aug 12, 2026 |
 | `sliding-window` | 6 | 12% | ██████ | May 19, 2026 |
 | `sorting` | 6 | 12% | ██████ | May 24, 2026 |
+| `strings` | 6 | 12% | ██████ | Sep 10, 2026 |
 | `heap` | 5 | 10% | █████ | Jun 29, 2026 |
 | `matrix` | 5 | 10% | █████ | May 31, 2026 |
-| `strings` | 5 | 10% | █████ | Aug 12, 2026 |
 | `greedy` | 4 | 8% | ████ | Jun 29, 2026 |
+| `math` | 4 | 8% | ████ | Sep 10, 2026 |
 | `stack` | 4 | 8% | ████ | Jun 10, 2026 |
-| `graphs` | 3 | 6% | ███ | Jun 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Roblox, by the month it was reported in — Sep 02, 2025 to Sep 09, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Roblox, by the month it was reported in — Sep 02, 2025 to Sep 10, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ███ |
+| [Sep 2026](../by-month/2026-09.md) | 2 | █████ |
 | [Aug 2026](../by-month/2026-08.md) | 2 | █████ |
 | [Jun 2026](../by-month/2026-06.md) | 4 | ███████████ |
 | [May 2026](../by-month/2026-05.md) | 9 | ████████████████████████ |
@@ -90,14 +91,14 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Algorithm | Medium | — | Sep 09, 2026 |
-| **2** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Algorithm | Easy | — | Aug 17, 2026 |
-| **3** | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Algorithm | Medium | — | Aug 12, 2026 |
-| **4** | [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Algorithm | Hard | — | Jun 29, 2026 |
-| **5** | [Design Game Dashboard Friend Activity and Counts](https://trueinterview.io/questions/friend-played-game-near-realtime) | System Design | Medium | — | Jun 19, 2026 |
-| **6** | [Most Frequent Function Call Stack](https://trueinterview.io/questions/most-frequent-function-call-stack) 🆓 | Algorithm | Hard | — | Jun 10, 2026 |
-| **7** | [Notification System](https://trueinterview.io/questions/front-end-system-design-notification-system) | System Design | Medium | — | Jun 04, 2026 |
-| **8** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Algorithm | Medium | 2 | May 31, 2026 |
+| **1** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | 2 | Sep 10, 2026 |
+| **2** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Algorithm | Medium | — | Sep 09, 2026 |
+| **3** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Algorithm | Easy | — | Aug 17, 2026 |
+| **4** | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Algorithm | Medium | 1 | Aug 12, 2026 |
+| **5** | [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Algorithm | Hard | — | Jun 29, 2026 |
+| **6** | [Design Game Dashboard Friend Activity and Counts](https://trueinterview.io/questions/friend-played-game-near-realtime) | System Design | Medium | — | Jun 19, 2026 |
+| **7** | [Most Frequent Function Call Stack](https://trueinterview.io/questions/most-frequent-function-call-stack) 🆓 | Algorithm | Hard | — | Jun 10, 2026 |
+| **8** | [Notification System](https://trueinterview.io/questions/front-end-system-design-notification-system) | System Design | Medium | — | Jun 04, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -122,6 +123,7 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Algorithm | Medium | 🆕 Sep 09, 2026 |
 | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Algorithm | Easy | Aug 17, 2026 |
 | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Algorithm | Medium | Aug 12, 2026 |
@@ -201,7 +203,7 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893) | Algorithm | Medium | — |
-| [Build an Image Feed (Infinite Scroll + Offline Support + Testing)](https://trueinterview.io/questions/e2867a7a-4237-432e-be98-b694a3f3ca9e) | AI Coding | Medium | — |
+| [Build an Image Feed (Infinite Scroll + Offline Support + Testing)](https://trueinterview.io/questions/e2867a7a-4237-432e-be98-b694a3f3ca9e) | AI Coding | Hard | — |
 | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
 | [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Algorithm | Easy | — |
 | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Algorithm | Easy | — |

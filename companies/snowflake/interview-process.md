@@ -87,9 +87,9 @@ Here are some questions reported by recent candidates:
 
 - [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178)
 - [Compute height of tree with deleted nodes; minimize deletions](https://trueinterview.io/questions/compute-height-of-tree-with-deleted-nodes-minimize-deletions)
-- [Closest Cake and Global Assignment](https://trueinterview.io/questions/closest-cake-and-global-assignment)
+- [Closest Cake and Global Assignment](../../questions/algorithm/closest-cake-and-global-assignment/README.md)
 - [DAG Allow / Disallow Propagation](https://trueinterview.io/questions/dag-allow-disallow-letters)
-- [Dropped Requests (Rate Limiter)](https://trueinterview.io/questions/dropped-requests-rate-limiter)
+- [Dropped Requests (Rate Limiter)](../../questions/algorithm/dropped-requests-rate-limiter/README.md)
 
 ## Onsite coding interviews
 

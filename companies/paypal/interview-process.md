@@ -106,7 +106,7 @@ Here are some questions reported by recent candidates:
 - Prune a binary search tree to a value range.
 - Count the structurally distinct binary trees with n nodes and explain the recurrence.
 
-- [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md)
+- [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree)
 - [Binary Search Tree Pruning](../../questions/algorithm/binary-search-tree-pruning/README.md)
 - [Number of Unique Binary Trees](../../questions/algorithm/number-of-unique-binary-trees/README.md)
 - [Word Search in 2D Grid with Diagonal Moves](https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530)

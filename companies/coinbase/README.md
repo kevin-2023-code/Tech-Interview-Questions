@@ -9,7 +9,7 @@ How Coinbase interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [72](../coinbase.md) |
-| Free to read here | 8 |
+| Free to read here | 9 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Aug 27, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Coinbase questions
 
-8 questions reported at Coinbase open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Coinbase open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -62,6 +62,7 @@ Here's what the interview process can look like:
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/task-management-system) |
 | [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/cloud-file-system) |
+| [Bank System](../../questions/object-oriented-programming/bank-system/README.md) | Object Oriented Programming | Hard | Online assessment | — | [Solve](https://trueinterview.io/questions/bank-system) |
 
 ## Everything else
 

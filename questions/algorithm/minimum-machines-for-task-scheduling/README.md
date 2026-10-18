@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Expedia | Online assessment | intervals, greedy, sorting | — |
+| Algorithm | Medium | Expedia · Google | Online assessment | intervals, greedy, sorting | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -78,7 +78,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Expedia](../../../companies/expedia/README.md)
+[Expedia](../../../companies/expedia/README.md) · [Google](../../../companies/google/README.md)
 
 ---
 

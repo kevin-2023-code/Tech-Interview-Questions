@@ -8,11 +8,11 @@ How Scale AI interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [21](../scale-ai.md) |
+| Questions reported | [22](../scale-ai.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Aug 26, 2026 |
+| Most recent sighting | Oct 01, 2026 |
 
 ## How Scale AI interviews
 
@@ -57,7 +57,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 21 questions reported at Scale AI](../scale-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 22 questions reported at Scale AI](../scale-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Scale AI question on TrueInterview](https://trueinterview.io/problems/company/scale-ai).
 
 ---

@@ -95,7 +95,7 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | **4** | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | 3 | May 21, 2026 |
 | **5** | [Correct Bedroom Counts from Descriptions](https://trueinterview.io/questions/correct-bedroom-counts-from-descriptions) | Algorithm | Easy | — | May 21, 2026 |
 | **6** | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | — | May 06, 2026 |
-| **7** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 4 | May 2026 |
+| **7** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 13 | May 2026 |
 | **8** | [Find an Exit in a URL Maze](https://trueinterview.io/questions/find-an-exit-in-a-url-maze) | Algorithm | Medium | — | Apr 21, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>

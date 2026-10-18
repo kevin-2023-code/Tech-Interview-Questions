@@ -12,11 +12,11 @@
 
 ## Problem
 
-1. 🍽️ Designing a Top‑K Best‑selling Items Feature for Restaurants
+1. Designing a Top-K Best-selling Items Feature for Restaurants
 
-An online restaurant marketplace often highlights each store’s best‑selling dishes, helping customers decide faster and helping merchants gauge what sells well. On the surface it looks like a compact “Popular items” shelf, but three questions drive the entire design: how do we define “popular”, how current must the answer be, and how do we serve it inexpensively across thousands of restaurant pages?
+An online restaurant marketplace often highlights each store’s best-selling dishes, helping customers decide faster and helping merchants gauge what sells well. On the surface it looks like a compact “Popular items” shelf, but three questions drive the entire design: how do we define “popular”, how current must the answer be, and how do we serve it inexpensively across thousands of restaurant pages?
 
-We will evolve the solution from a simple real‑time query to a batch‑processing system that publishes stable, reusable snapshots. If you’re new to this topic, keep one principle in mind: sorting the counts is trivial. The actual design problem is deciding which counts you can trust and what freshness guarantees the API can make.
+We will evolve the solution from a simple real-time query to a batch-processing system that publishes stable, reusable snapshots. If you’re new to this topic, keep one principle in mind: sorting the counts is trivial. The actual design problem is deciding which counts you can trust and what freshness guarantees the API can make.
 
 ## 2. Requirements
 
@@ -24,45 +24,45 @@ A restaurant marketplace might display a small “Popular items” shelf on each
 
 ### Functional requirements
 
-- The system consumes finalized order‑item facts so that popularity for each restaurant’s menu items is based solely on completed purchases.
-- For every restaurant, it determines the top‑`K` menu items across a fixed set of time windows, such as `1 day`, `7 days`, and `30 days`.
-- The primary read path serves the consumer restaurant‑page shelf for exactly one restaurant and one supported window per call.
+- The system consumes finalized order-item facts so that popularity for each restaurant’s menu items is based solely on completed purchases.
+- For every restaurant, it determines the top-`K` menu items across a fixed set of time windows, such as `1 day`, `7 days`, and `30 days`.
+- The primary read path serves the consumer restaurant-page shelf for exactly one restaurant and one supported window per call.
 - The read response includes item identifiers, their rank order, and popularity counts derived from purchased units.
 - The read response also carries metadata that describes the snapshot’s freshness or its batch version.
-- Operators can launch targeted re‑computations or backfills to correct for late cancellations, refunds, delayed finalization, or changes in the scoring logic.
+- Operators can launch targeted re-computations or backfills to correct for late cancellations, refunds, delayed finalization, or changes in the scoring logic.
 - When the most recent snapshot is late, callers receive the last successful snapshot or a controlled “not ready” response.
-- Client applications can discover which window values are supported without having to hard‑code server enum values in every app release.
+- Client applications can discover which window values are supported without having to hard-code server enum values in every app release.
 - Menu names, images, prices, and availability come from the existing menu platform.
 
-### Non‑functional requirements
+### Non-functional requirements
 
-- Favor trustworthy batch‑computed rankings with accurate freshness over pretending the shelf is real‑time.
+- Favor trustworthy batch-computed rankings with accurate freshness over pretending the shelf is real-time.
 - Target batch freshness in the range of `30` to `60` minutes under normal conditions.
 - Target *p95 read latency* of about `50 ms` when a cache hit occurs, and roughly `150 ms` for reads that fall through to PostgreSQL.
-- Accommodate approximately `200k` active restaurants, `20M` orders per day, and about `80M` order‑line facts per day, with a skew toward a small subset of restaurants.
+- Accommodate approximately `200k` active restaurants, `20M` orders per day, and about `80M` order-line facts per day, with a skew toward a small subset of restaurants.
 - Preserve replayable batch inputs, manifests, and versioned snapshot publications so that a rerun can safely replace previously published rankings.
-- Expose read APIs as bounded product endpoints with rate limits, not as open‑ended analytics query surfaces.
-- Prefer incremental aggregations and pre‑computed snapshots over scanning the raw order history on every read request.
+- Expose read APIs as bounded product endpoints with rate limits, not as open-ended analytics query surfaces.
+- Prefer incremental aggregations and pre-computed snapshots over scanning the raw order history on every read request.
 
-### Back‑of‑the‑envelope estimation
+### Back-of-the-envelope estimation
 
 | Assumption | Order of magnitude | Used for |
 | --- | --- | --- |
 | Active restaurants | about `200k` | Partitioning and snapshot cardinality |
 | Orders per day | about `20M` | Ingest volume into immutable facts |
-| Order‑line facts per day | about `80M` | Batch scan size and daily rollup work |
-| Restaurant‑page reads | bursty, repeat‑heavy | Redis cache value and hit ratio |
+| Order-line facts per day | about `80M` | Batch scan size and daily rollup work |
+| Restaurant-page reads | bursty, repeat-heavy | Redis cache value and hit ratio |
 | Batch cadence | about `30` to `60` minute freshness | Spark job frequency and publish rate |
 | Top `K` per shelf | on the order of `10` to `50` items | Snapshot row width and response size |
 
-These anchors justify why reads should hit a pre‑published snapshot keyed by `(restaurant, window)`, instead of running a `GROUP BY` over raw orders for every page view.
+These anchors justify why reads should hit a pre-published snapshot keyed by `(restaurant, window)`, instead of running a `GROUP BY` over raw orders for every page view.
 
 **Below the line (out of scope for this tutorial)**
 
-- Personalized recommendations or per‑user ranking that goes beyond organic popularity.
+- Personalized recommendations or per-user ranking that goes beyond organic popularity.
 - Search relevance, sponsored placements, or merchandising rules that override organic popularity as the baseline.
-- Arbitrary custom historical windows or ad‑hoc analytics APIs over arbitrary date ranges.
-- Sub‑second real‑time ranking updates driven by every order event.
+- Arbitrary custom historical windows or ad-hoc analytics APIs over arbitrary date ranges.
+- Sub-second real-time ranking updates driven by every order event.
 - A full restaurant menu management system or the checkout/payment stack.
 - A global marketplace trending list that merges all restaurants into one leaderboard.
 

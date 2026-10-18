@@ -8,11 +8,11 @@ How Bloomberg interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [83](../bloomberg.md) |
+| Questions reported | [86](../bloomberg.md) |
 | Free to read here | 12 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Aug 04, 2026 |
+| Most recent sighting | Oct 01, 2026 |
 
 ## How Bloomberg interviews
 
@@ -51,8 +51,8 @@ Here's what the interview process can look like:
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
-| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
@@ -66,7 +66,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 83 questions reported at Bloomberg](../bloomberg.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 86 questions reported at Bloomberg](../bloomberg.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Bloomberg question on TrueInterview](https://trueinterview.io/problems/company/bloomberg).
 
 ---

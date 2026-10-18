@@ -8,8 +8,8 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [79](../anthropic.md) |
-| Free to read here | 10 |
+| Questions reported | [78](../anthropic.md) |
+| Free to read here | 12 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
 | Most recent sighting | Sep 08, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Anthropic questions
 
-10 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -61,13 +61,15 @@ Here's what the interview process can look like:
 | [In-Memory Database](../../questions/object-oriented-programming/in-memory-database/README.md) | Object Oriented Programming | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/in-memory-database) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
+| [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [File Profiler](../../questions/algorithm/file-profiler/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) |
 | [Web Crawler with Asyncio](../../questions/ai-coding/web-crawler-with-asyncio/README.md) | AI Coding | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) |
+| [Bank System](../../questions/object-oriented-programming/bank-system/README.md) | Object Oriented Programming | Hard | Online assessment | — | [Solve](https://trueinterview.io/questions/bank-system) |
 
 ## Everything else
 
-- [All 79 questions reported at Anthropic](../anthropic.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 78 questions reported at Anthropic](../anthropic.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Anthropic question on TrueInterview](https://trueinterview.io/problems/company/anthropic).
 
 ---

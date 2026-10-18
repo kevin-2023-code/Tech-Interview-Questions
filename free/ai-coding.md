@@ -9,7 +9,7 @@
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | **Ramp / Databricks / SoFi** | Easy | Jun 2025 |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / Oracle / PayPal / Pinduoduo / Shopify** | Medium | Apr 09, 2026 |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | Medium | 🆕 Oct 01, 2026 |
 | [BERT Span / Keyphrase Extraction](https://trueinterview.io/questions/bert-keyphrase-span-extraction) | **Figma** | Medium | Dec 24, 2024 |
 | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | **Tesla** | Medium | Aug 23, 2025 |
 | [Implement APIs in a Flask Application](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) | **Verkada** | Medium | — |

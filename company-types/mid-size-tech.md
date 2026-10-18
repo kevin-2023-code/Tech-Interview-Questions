@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Perplexity (24)](../companies/perplexity.md) · [Harvey (20)](../companies/harvey.md) · [Whatnot (17)](../companies/whatnot.md) · [Vanta (14)](../companies/vanta.md) · [Airtable (8)](../companies/airtable.md) · [Amplitude (7)](../companies/amplitude.md) · [Moveworks (6)](../companies/moveworks.md) · [Rokt (5)](../companies/rokt.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md)
+[Perplexity (24)](../companies/perplexity.md) · [Harvey (20)](../companies/harvey.md) · [Whatnot (17)](../companies/whatnot.md) · [Vanta (14)](../companies/vanta.md) · [Airtable (9)](../companies/airtable.md) · [Amplitude (7)](../companies/amplitude.md) · [Moveworks (6)](../companies/moveworks.md) · [Rokt (5)](../companies/rokt.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md)
 
 <sub>11 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 51 | 46% | ██████████████ | 14 |
+| [Algorithm](../formats/algorithm.md) | 51 | 46% | ██████████████ | 13 |
 | [System Design](../formats/system-design.md) | 29 | 26% | ████████ | 5 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 25 | 23% | ███████ | 9 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 25 | 23% | ███████ | 10 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 3% | █ | 0 |
 | [SQL](../formats/sql.md) | 2 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **8 / 83 / 19**, over the rows the catalog has graded. 28 of the 110 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **8 / 82 / 20**, over the rows the catalog has graded. 28 of the 110 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -92,7 +92,7 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 | **Perplexity** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Medium | May 26, 2026 |
 | **Lyft / DoorDash / Ebay / Whatnot** | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | Medium | May 12, 2026 |
 | **Whatnot** | [Design A WhatsApp-Style Messaging System](https://trueinterview.io/questions/design-a-whatsapp-style-messaging-system) | Medium | May 08, 2026 |
-| **Harvey** | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Medium | Apr 30, 2026 |
+| **Harvey / Airtable** | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Medium | Apr 30, 2026 |
 | **Whatnot** | [Solve Adjacent-Deletion and Sorted-Square Problems](https://trueinterview.io/questions/solve-adjacent-deletion-and-sorted-square-problems) | Hard | Apr 24, 2026 |
 | **Mistral AI** | [Design a PDF-to-Markdown Inference API](https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api) | Hard | Apr 16, 2026 |
 | **Mistral AI** | [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) | Hard | Apr 16, 2026 |
@@ -138,7 +138,7 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 | **Rokt** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Medium | — |
 | **Moveworks** | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Medium | — |
 | **Airtable** | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Medium | — |
-| **Airtable** | [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Medium | — |
+| **Airtable** | [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Hard | — |
 | **Airtable** | [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Medium | — |
 | **Airtable** | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) | Medium | — |
 | **Rokt / Instacart** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Medium | — |

@@ -58,9 +58,9 @@ Of the **43 questions at Netflix that carry a topic label** (49% of them — the
 | `trees` | 4 | 9% | ███ | Apr 03, 2026 |
 | `binary-search` | 3 | 7% | ██ | May 21, 2026 |
 | `graphs` | 3 | 7% | ██ | Mar 20, 2026 |
+| `heap` | 3 | 7% | ██ | Mar 29, 2026 |
 | `sliding-window` | 3 | 7% | ██ | May 26, 2026 |
 | `sorting` | 3 | 7% | ██ | May 01, 2026 |
-| `backtracking` | 2 | 5% | ██ | Apr 24, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

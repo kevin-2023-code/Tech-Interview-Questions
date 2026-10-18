@@ -8,7 +8,7 @@ How Cisco interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [25](../cisco.md) |
+| Questions reported | [26](../cisco.md) |
 | Free to read here | 17 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -51,7 +51,7 @@ Here's what the interview process can look like:
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Rotate a Matrix by 90 Degrees In Place](../../questions/algorithm/rotate-a-matrix-by-90-degrees-in-place/README.md) | Algorithm | Medium | Online assessment, Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) |
+| [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/house-robber-series) |
 | [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/look-and-say-sequence) |
 | [Linked List Binary to Decimal](../../questions/algorithm/linked-list-binary-to-decimal/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/linked-list-binary-to-decimal) |
 | [Minimum Insertions / Deletions Password Update](../../questions/algorithm/minimum-insertions-deletions-password-update/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) |
@@ -71,7 +71,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 25 questions reported at Cisco](../cisco.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 26 questions reported at Cisco](../cisco.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cisco question on TrueInterview](https://trueinterview.io/problems/company/cisco).
 
 ---

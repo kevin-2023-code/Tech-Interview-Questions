@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Databricks · Amazon · Expedia | Phone screen, Onsite / virtual onsite | dynamic-programming | Nov 2025 |
+| Algorithm | Medium | Databricks · Amazon · Cisco · Expedia · Meta | Phone screen, Onsite / virtual onsite | dynamic-programming | Nov 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/house-robber-series)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -172,7 +172,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Databricks](../../../companies/databricks/README.md) · [Amazon](../../../companies/amazon/README.md) · [Expedia](../../../companies/expedia/README.md)
+[Databricks](../../../companies/databricks/README.md) · [Amazon](../../../companies/amazon/README.md) · [Cisco](../../../companies/cisco/README.md) · [Expedia](../../../companies/expedia/README.md) · [Meta](../../../companies/meta/README.md)
 
 ---
 

@@ -8,7 +8,7 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [95](../oracle.md) |
+| Questions reported | [96](../oracle.md) |
 | Free to read here | 13 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -53,9 +53,10 @@ Here's what the interview process can look like:
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
-| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Dropped Requests (Rate Limiter)](../../questions/algorithm/dropped-requests-rate-limiter/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dropped-requests-rate-limiter) |
 | [File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-file-management-system) |
 | [Trie-Based Autocomplete](../../questions/object-oriented-programming/trie-autocomplete/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/trie-autocomplete) |
 | [Treatment Frequency Scheduler](../../questions/object-oriented-programming/ood-treatment-scheduler/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-treatment-scheduler) |
@@ -64,11 +65,10 @@ Here's what the interview process can look like:
 | [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |
 | [Maximum Completable Tasks with Prerequisites (Topological)](../../questions/algorithm/course-prerequisites-task-count/README.md) | Algorithm | Medium | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/course-prerequisites-task-count) |
 | [Body-Temperature Measurement Classes](../../questions/object-oriented-programming/ood-patient-temperature-classes/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/ood-patient-temperature-classes) |
-| [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Everything else
 
-- [All 95 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 96 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Oracle question on TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 ---

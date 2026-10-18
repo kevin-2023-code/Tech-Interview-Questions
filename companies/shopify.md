@@ -2,7 +2,7 @@
 
 # Shopify interview process, OA & interview questions
 
-**26 questions** reported at Shopify · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
+**25 questions** reported at Shopify · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Shopify interviews & the free questions](shopify/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,48 +14,49 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **26** |
-| Most recent sighting | Sep 07, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (42% of 26) |
-| Difficulty (easy / medium / hard) | 5 / 17 / 4 |
+| Questions tracked | **25** |
+| Most recent sighting | Oct 01, 2026 |
+| Reported in the last 90 days | 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (44% of 25) |
+| Difficulty (easy / medium / hard) | 5 / 17 / 3 |
 | Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 26 questions reported at Shopify. 20 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 25 questions reported at Shopify. 19 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **26 of 26** questions at Shopify that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **25 of 25** questions at Shopify that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (42%) | 1 / 8 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 11 | █████████ | [System Design](../formats/system-design.md) (45%) | 1 / 8 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 5 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 1 / 8 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 10 | █████████ | [System Design](../formats/system-design.md) (50%) | 1 / 8 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | Oct 01, 2026 |
 | [Bank Account Simulation Class With Self-Written Tests at 90% Coverage](https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage) | Object Oriented Programming | Medium | Phone screen | Sep 07, 2026 |
 
 ## What they ask about
 
-Of the **13 questions at Shopify that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Shopify that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 31% | ████████████ | Apr 28, 2026 |
-| `strings` | 4 | 31% | ████████████ | May 12, 2026 |
-| `arrays` | 2 | 15% | ██████ | Aug 29, 2025 |
-| `backtracking` | 2 | 15% | ██████ | May 12, 2026 |
-| `dynamic-programming` | 2 | 15% | ██████ | Aug 29, 2025 |
-| `linked-list` | 2 | 15% | ██████ | Apr 14, 2026 |
+| `strings` | 4 | 33% | ████████████ | May 12, 2026 |
+| `hashing` | 3 | 25% | █████████ | Apr 28, 2026 |
+| `arrays` | 2 | 17% | ██████ | Aug 29, 2025 |
+| `backtracking` | 2 | 17% | ██████ | May 12, 2026 |
+| `dynamic-programming` | 2 | 17% | ██████ | Aug 29, 2025 |
+| `linked-list` | 1 | 8% | ███ | Apr 14, 2026 |
 | `matrix` | 1 | 8% | ███ | — |
 | `stack` | 1 | 8% | ███ | Aug 29, 2025 |
 | `trees` | 1 | 8% | ███ | Jun 15, 2026 |
@@ -65,18 +66,19 @@ Of the **13 questions at Shopify that carry a topic label** (50% of them — the
 
 ## When they asked it
 
-Every recorded sighting at Shopify, by the month it was reported in — Jun 19, 2025 to Sep 07, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Shopify, by the month it was reported in — Jun 19, 2025 to Oct 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ████ |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ████ |
-| [May 2026](../by-month/2026-05.md) | 3 | ████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 6 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
-| [Aug 2025](../by-month/2025-08.md) | 4 | ████████████████ |
-| [Jun 2025](../by-month/2025-06.md) | 1 | ████ |
+| [Oct 2026](../by-month/2026-10.md) | 1 | █████ |
+| [Sep 2026](../by-month/2026-09.md) | 1 | █████ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | █████ |
+| [May 2026](../by-month/2026-05.md) | 3 | ██████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 5 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | █████ |
+| [Aug 2025](../by-month/2025-08.md) | 4 | ███████████████████ |
+| [Jun 2025](../by-month/2025-06.md) | 1 | █████ |
 
 ## Start here
 
@@ -84,14 +86,14 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Bank Account Simulation Class With Self-Written Tests at 90% Coverage](https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage) | Object Oriented Programming | Medium | — | Sep 07, 2026 |
-| **2** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
-| **3** | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | — | May 12, 2026 |
-| **4** | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Medium | — | May 10, 2026 |
-| **5** | [Choose Between Batch and Streaming for a Data Pipeline](https://trueinterview.io/questions/choose-between-batch-and-streaming-for-a-data-pipeline) | System Design | Hard | — | May 05, 2026 |
-| **6** | [Compute Jaccard Similarity for Lists](https://trueinterview.io/questions/compute-jaccard-similarity-for-lists) | Algorithm | Easy | — | Apr 28, 2026 |
-| **7** | [Analyze Pirated Theme Usage Impact](https://trueinterview.io/questions/analyze-pirated-theme-usage-impact) | SQL | Medium | — | Apr 28, 2026 |
-| **8** | [Design a Product Photography Upload Service](https://trueinterview.io/questions/design-a-product-photography-upload-service) | System Design | Medium | — | Apr 28, 2026 |
+| **1** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Oct 01, 2026 |
+| **2** | [Bank Account Simulation Class With Self-Written Tests at 90% Coverage](https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage) | Object Oriented Programming | Medium | — | Sep 07, 2026 |
+| **3** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
+| **4** | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | — | May 12, 2026 |
+| **5** | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Medium | — | May 10, 2026 |
+| **6** | [Choose Between Batch and Streaming for a Data Pipeline](https://trueinterview.io/questions/choose-between-batch-and-streaming-for-a-data-pipeline) | System Design | Hard | — | May 05, 2026 |
+| **7** | [Compute Jaccard Similarity for Lists](https://trueinterview.io/questions/compute-jaccard-similarity-for-lists) | Algorithm | Easy | — | Apr 28, 2026 |
+| **8** | [Analyze Pirated Theme Usage Impact](https://trueinterview.io/questions/analyze-pirated-theme-usage-impact) | SQL | Medium | — | Apr 28, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -113,6 +115,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Bank Account Simulation Class With Self-Written Tests at 90% Coverage](https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage) | Object Oriented Programming | Medium | 🆕 Sep 07, 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | May 12, 2026 |
@@ -122,11 +125,9 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | [Compute Jaccard Similarity for Lists](https://trueinterview.io/questions/compute-jaccard-similarity-for-lists) | Algorithm | Easy | Apr 28, 2026 |
 | [Analyze Pirated Theme Usage Impact](https://trueinterview.io/questions/analyze-pirated-theme-usage-impact) | SQL | Medium | Apr 28, 2026 |
 | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Object Oriented Programming | Medium | Apr 14, 2026 |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Design Personalized Product Feeds](https://trueinterview.io/questions/design-personalized-product-feeds) | System Design | Medium | Apr 01, 2026 |
 | [Design search autocomplete ML system](https://trueinterview.io/questions/design-search-autocomplete-ml-system) | System Design | Hard | Feb 18, 2026 |
 | [Build model to predict package delivery time](https://trueinterview.io/questions/build-model-to-predict-package-delivery-time) | System Design | Medium | Feb 18, 2026 |
-| [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Object Oriented Programming | Hard | Jan 22, 2026 |
 | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Jan 05, 2026 |
 | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | Aug 29, 2025 |
 | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Algorithm | Easy | Aug 29, 2025 |

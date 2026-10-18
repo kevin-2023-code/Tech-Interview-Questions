@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Roblox · Atlassian · Okta · Ramp · Snapchat | Phone screen, Onsite / virtual onsite | sliding-window | May 2026 |
+| Algorithm | Medium | Roblox · Amazon · Atlassian · LinkedIn · Microsoft · NVIDIA · +8 | Phone screen, Onsite / virtual onsite | sliding-window | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/sliding-window-rate-limiter)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -262,7 +262,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Roblox](../../../companies/roblox/README.md) · [Atlassian](../../../companies/atlassian/README.md) · [Okta](../../../companies/okta/README.md) · [Ramp](../../../companies/ramp/README.md) · [Snapchat](../../../companies/snapchat/README.md)
+[Roblox](../../../companies/roblox/README.md) · [Amazon](../../../companies/amazon/README.md) · [Atlassian](../../../companies/atlassian/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Okta](../../../companies/okta/README.md) · [Oracle](../../../companies/oracle/README.md) · [Ramp](../../../companies/ramp/README.md) · [Reddit](../../../companies/reddit/README.md) · [Rippling](../../../companies/rippling/README.md) · [Snapchat](../../../companies/snapchat/README.md) · [Waymo](../../../companies/waymo/README.md) · [xAI](../../../companies/xai/README.md)
 
 ---
 

@@ -116,7 +116,7 @@ Here are some questions reported by recent candidates:
 - Solve a storage "vault" problem, then explain how to keep files consistent when they are modified concurrently.
 
 - [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor)
-- [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool)
+- [Implement a DB Connection Pool](../../questions/object-oriented-programming/implement-a-db-connection-pool/README.md)
 - [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb)
 - [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault)
 

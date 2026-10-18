@@ -8,8 +8,8 @@ How Uber interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [217](../uber.md) |
-| Free to read here | 37 |
+| Questions reported | [225](../uber.md) |
+| Free to read here | 35 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 09, 2026 |
@@ -50,14 +50,13 @@ Here's what the interview process can look like:
 
 ## Free Uber questions
 
-37 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+35 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Evaluate String Expression](../../questions/algorithm/nested-function-expression-evaluator/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/nested-function-expression-evaluator) |
 | [Maximize Pipeline Throughput](../../questions/algorithm/oa-pipeline-throughput/README.md) | Algorithm | Medium | Online assessment | Jun 2026 | [Solve](https://trueinterview.io/questions/oa-pipeline-throughput) |
 | [Generate 2D Minesweeper Grid](../../questions/algorithm/generate-2d-minesweeper-grid/README.md) | Algorithm | Easy | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/generate-2d-minesweeper-grid) |
-| [Rotate a Matrix by 90 Degrees In Place](../../questions/algorithm/rotate-a-matrix-by-90-degrees-in-place/README.md) | Algorithm | Medium | Online assessment, Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [Minimum Operations to Reduce an Integer to 0](../../questions/algorithm/minimum-operations-to-reduce-an-integer-to-0/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) |
 | [Final Prices With a Special Discount in a Shop](../../questions/algorithm/final-prices-with-a-special-discount-in-a-shop/README.md) | Algorithm | Easy | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) |
@@ -67,7 +66,6 @@ Here's what the interview process can look like:
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
-| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
 | [Shortest Bridge](../../questions/algorithm/shortest-bridge-2/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/shortest-bridge-2) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md) | Algorithm | Easy | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/oa-permutation-prefix-balanced) |
@@ -85,7 +83,7 @@ Here's what the interview process can look like:
 | [Find Index of Max Rate to Price Ratio](../../questions/algorithm/find-index-of-max-rate-to-price-ratio/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/2d92d9fc-3676-44e1-a4f8-db5e99c47868) |
 | [Find Combinations After Flip](../../questions/algorithm/find-combinations-after-flip/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1da69ce4-74fb-48ef-9eb8-ebca7578ec21) |
 | [Maximize Score Sum](../../questions/algorithm/maximize-score-sum/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1aaab4e0-9f68-4ab4-b6f5-430ea315a3b6) |
-| [Meeting Rooms Allocation with Delay](../../questions/algorithm/meeting-rooms-allocation-with-delay/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) |
+| [Meeting Rooms Allocation with Delay](../../questions/algorithm/meeting-rooms-allocation-with-delay/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) |
 | [Rotate Matrix with Gravity Effect](../../questions/algorithm/rotate-matrix-with-gravity-effect/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) |
 | [Flip and Compare in Arrays](../../questions/algorithm/flip-and-compare-in-arrays/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f) |
 | [Token Bucket Rate Limiter II](../../questions/algorithm/token-bucket-rate-limiter-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) |
@@ -94,7 +92,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 217 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 225 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Uber question on TrueInterview](https://trueinterview.io/problems/company/uber).
 
 ---

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Netflix · Goldman Sachs | Phone screen, Onsite / virtual onsite | arrays | Mar 2026 |
+| Algorithm | Medium | Netflix · Goldman Sachs · Google | Phone screen, Onsite / virtual onsite | arrays | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/first-missing-positive)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -77,7 +77,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Netflix](../../../companies/netflix/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md)
+[Netflix](../../../companies/netflix/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md) · [Google](../../../companies/google/README.md)
 
 ---
 

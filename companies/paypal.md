@@ -2,7 +2,7 @@
 
 # PayPal interview process, OA & interview questions
 
-**23 questions** reported at PayPal · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/paypal), judged server-side on the algorithm, low-level-design and SQL formats.
+**24 questions** reported at PayPal · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/paypal), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How PayPal interviews & the free questions](paypal/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **23** |
-| Most recent sighting | Apr 14, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (65% of 23) |
-| Difficulty (easy / medium / hard) | 4 / 13 / 6 |
+| Questions tracked | **24** |
+| Most recent sighting | Oct 01, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 24) |
+| Difficulty (easy / medium / hard) | 4 / 13 / 7 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 23 questions reported at PayPal. 8 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 24 questions reported at PayPal. 8 of them carry a sighting date; the other 16 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **23 of 23** questions at PayPal that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **24 of 24** questions at PayPal that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 2 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 7 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (43%) | 0 / 3 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -38,11 +38,15 @@ Which stage each question came from, for the **23 of 23** questions at PayPal th
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at PayPal since Apr 14, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | Oct 01, 2026 |
 
 ## What they ask about
 
-Of the **16 questions at PayPal that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at PayPal that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -61,15 +65,16 @@ Of the **16 questions at PayPal that carry a topic label** (70% of them — the 
 
 ## When they asked it
 
-Every recorded sighting at PayPal, by the month it was reported in — Oct 29, 2025 to Apr 14, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at PayPal, by the month it was reported in — Oct 29, 2025 to Oct 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ██████ |
+| [Oct 2026](../by-month/2026-10.md) | 1 | ████████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ████████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ████████ |
 
 ## Start here
 
@@ -77,11 +82,11 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design a Payment Fraud Detection Service](https://trueinterview.io/questions/design-a-payment-fraud-detection-service) | System Design | Hard | 1 | Apr 14, 2026 |
-| **2** | [Design a Cross-Border Money Transfer Service](https://trueinterview.io/questions/design-a-cross-border-money-transfer-service) | System Design | Hard | — | Apr 14, 2026 |
-| **3** | [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Algorithm | Hard | — | Apr 14, 2026 |
-| **4** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 10 | Apr 09, 2026 |
-| **5** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) 🆓 | Algorithm | Easy | 8 | Feb 26, 2026 |
+| **1** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Oct 01, 2026 |
+| **2** | [Design a Payment Fraud Detection Service](https://trueinterview.io/questions/design-a-payment-fraud-detection-service) | System Design | Hard | 1 | Apr 14, 2026 |
+| **3** | [Design a Cross-Border Money Transfer Service](https://trueinterview.io/questions/design-a-cross-border-money-transfer-service) | System Design | Hard | — | Apr 14, 2026 |
+| **4** | [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Algorithm | Hard | — | Apr 14, 2026 |
+| **5** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | 7 | Feb 26, 2026 |
 | **6** | [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints) | System Design | Medium | — | Jan 02, 2026 |
 | **7** | [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates) | SQL | Medium | — | Dec 07, 2025 |
 | **8** | [Compute Variance from a Python List](https://trueinterview.io/questions/compute-variance-from-a-python-list) | Algorithm | Easy | — | Oct 29, 2025 |
@@ -106,10 +111,10 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Design a Payment Fraud Detection Service](https://trueinterview.io/questions/design-a-payment-fraud-detection-service) | System Design | Hard | Apr 14, 2026 |
 | [Design a Cross-Border Money Transfer Service](https://trueinterview.io/questions/design-a-cross-border-money-transfer-service) | System Design | Hard | Apr 14, 2026 |
 | [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Algorithm | Hard | Apr 14, 2026 |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | Feb 26, 2026 |
 | [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints) | System Design | Medium | Jan 02, 2026 |
 | [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates) | SQL | Medium | Dec 07, 2025 |
@@ -129,3 +134,4 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 | [Number of Unique Binary Trees](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0) | Algorithm | Medium | — |
 | [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f) | Algorithm | Easy | — |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | — |
+| [Bank System](https://trueinterview.io/questions/bank-system) | Object Oriented Programming | Hard | — |

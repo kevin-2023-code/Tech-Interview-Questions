@@ -8,11 +8,11 @@ How Stripe interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [95](../stripe.md) |
+| Questions reported | [103](../stripe.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Sep 11, 2026 |
+| Most recent sighting | Oct 04, 2026 |
 
 ## How Stripe interviews
 
@@ -62,7 +62,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 95 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 103 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Stripe question on TrueInterview](https://trueinterview.io/problems/company/stripe).
 
 ---

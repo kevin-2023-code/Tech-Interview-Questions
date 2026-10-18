@@ -84,7 +84,7 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
+| **1** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 9 | Jul 29, 2026 |
 | **2** | [Univariate OLS Regression Through Origin](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | — | May 10, 2026 |
 | **3** | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) 🆓 | Algorithm | Medium | — | May 10, 2026 |
 | **4** | [NYC Temperature Regression Analysis](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | — | May 10, 2026 |

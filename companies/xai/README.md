@@ -8,7 +8,7 @@ How xAI interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [38](../xai.md) |
+| Questions reported | [39](../xai.md) |
 | Free to read here | 5 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -53,15 +53,15 @@ Here's what the interview process can look like:
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Data Parallel & FSDP Matrix Multiplication](../../questions/ai-coding/data-parallel-fsdp-matrix-multiplication/README.md) | AI Coding | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Nested Structure Flatten and Unflatten](../../questions/algorithm/nested-structure-flatten-and-unflatten/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) |
-| [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Everything else
 
-- [All 38 questions reported at xAI](../xai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 39 questions reported at xAI](../xai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every xAI question on TrueInterview](https://trueinterview.io/problems/company/xai).
 
 ---

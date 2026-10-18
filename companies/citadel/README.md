@@ -8,7 +8,7 @@ How Citadel interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [72](../citadel.md) |
+| Questions reported | [73](../citadel.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -60,7 +60,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 72 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 73 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Citadel question on TrueInterview](https://trueinterview.io/problems/company/citadel).
 
 ---

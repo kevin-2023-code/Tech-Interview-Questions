@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Ramp | Online assessment | hashing, sliding-window | Sep 2025 |
+| Algorithm | Medium | Ramp · IBM | Online assessment | hashing, sliding-window | Sep 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/rate-limiter-by-ip-address)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -98,7 +98,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Ramp](../../../companies/ramp/README.md)
+[Ramp](../../../companies/ramp/README.md) · [IBM](../../../companies/ibm/README.md)
 
 ---
 

@@ -88,7 +88,7 @@ Here are some questions reported by recent candidates:
 
 - [Find Out Prime or Composite](../../questions/algorithm/find-out-prime-or-composite/README.md)
 - [Count Numbers with Sum of Digits](https://trueinterview.io/questions/c17c4233-5a37-452b-933f-4a3994c7295f)
-- [Rotate a Matrix by 90 Degrees In Place](../../questions/algorithm/rotate-a-matrix-by-90-degrees-in-place/README.md)
+- [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56)
 
 ## Coding interviews
 

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple · Amazon · ByteDance · DoorDash · Google · Meta · +4 | Phone screen | graphs, topological-sort | Mar 2026 |
+| Algorithm | Medium | Apple · Amazon · DoorDash · Google · Meta · Netflix · +3 | Phone screen | graphs, topological-sort | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/course-schedule)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -81,7 +81,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [DoorDash](../../../companies/doordash/README.md) · [Google](../../../companies/google/README.md) · [Meta](../../../companies/meta/README.md) · [Netflix](../../../companies/netflix/README.md) · [Snapchat](../../../companies/snapchat/README.md) · [Snowflake](../../../companies/snowflake/README.md) · [Uber](../../../companies/uber/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [DoorDash](../../../companies/doordash/README.md) · [Google](../../../companies/google/README.md) · [Meta](../../../companies/meta/README.md) · [Netflix](../../../companies/netflix/README.md) · [Snapchat](../../../companies/snapchat/README.md) · [Snowflake](../../../companies/snowflake/README.md) · [Uber](../../../companies/uber/README.md)
 
 ---
 

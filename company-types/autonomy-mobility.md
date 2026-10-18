@@ -2,7 +2,7 @@
 
 # 🚗 Autonomy, automotive & mobility — interview & OA questions
 
-**167 questions** reported across the **5 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**169 questions** reported across the **5 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Waymo (62)](../companies/waymo.md) · [Tesla (45)](../companies/tesla.md) · [Applied Intuition (29)](../companies/applied-intuition.md) · [WeRide (22)](../companies/weride.md) · [Nuro (11)](../companies/nuro.md)
+[Waymo (64)](../companies/waymo.md) · [Tesla (45)](../companies/tesla.md) · [Applied Intuition (29)](../companies/applied-intuition.md) · [WeRide (22)](../companies/weride.md) · [Nuro (11)](../companies/nuro.md)
 
 <sub>5 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 102 | 61% | ██████████████ | 18 |
+| [Algorithm](../formats/algorithm.md) | 104 | 62% | ██████████████ | 20 |
 | [System Design](../formats/system-design.md) | 29 | 17% | ████ | 2 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 24 | 14% | ███ | 8 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 24 | 14% | ███ | 7 |
 | [SQL](../formats/sql.md) | 10 | 6% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **19 / 100 / 48**, over the rows the catalog has graded. 29 of the 167 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **19 / 102 / 48**, over the rows the catalog has graded. 30 of the 169 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **100 questions in this cut that carry a topic label** (60% of it):
+Of the **101 questions in this cut that carry a topic label** (60% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -88,7 +88,7 @@ Of the **100 questions in this cut that carry a topic label** (60% of it):
 | **Waymo** | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Hard | Aug 27, 2026 |
 | **Tesla** | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | Hard | Aug 24, 2026 |
 | **Tesla** | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | Hard | Aug 24, 2026 |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Uber / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Waymo** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Hard | Jul 09, 2026 |
 | **Waymo** | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Hard | Jul 06, 2026 |
 | **Waymo** | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Medium | Jul 02, 2026 |
@@ -117,6 +117,7 @@ Of the **100 questions in this cut that carry a topic label** (60% of it):
 | **Waymo** | [Count Squares Formed by Segments](https://trueinterview.io/questions/count-squares-formed-by-segments) | Hard | May 05, 2026 |
 | **Databricks / Apple / Google / Oracle / Tesla** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | Hard | May 03, 2026 |
 | **Waymo** | [Shortest Path from Source to Target Nodes (Dijkstra)](https://trueinterview.io/questions/dijkstra-shortest-path-to-targets) | Medium | May 01, 2026 |
+| **Roblox / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Okta / Oracle / Ramp / Reddit / Rippling / Snapchat / Waymo / xAI** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
 | **Tesla** | [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Medium | Apr 30, 2026 |
 | **Coinbase / Anthropic / Applied Intuition** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Medium | Apr 28, 2026 |
 | **Waymo** | [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens) | Hard | Apr 27, 2026 |
@@ -140,6 +141,7 @@ Of the **100 questions in this cut that carry a topic label** (60% of it):
 | **Waymo** | [Streaming Interval Coverage on a Number Axis](https://trueinterview.io/questions/interval-pollution-coverage) | Hard | Apr 01, 2026 |
 | **Waymo** | [Prefix Autocomplete via Trie](https://trueinterview.io/questions/trie-prefix-autocomplete) | Medium | Mar 27, 2026 |
 | **Waymo** | [Car Maze with Incrementally Revealed Neighbors (DFS)](https://trueinterview.io/questions/car-maze-incremental-discovery-dfs) | Medium | Mar 25, 2026 |
+| **Apple / Microsoft / Waymo** | [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | Medium | Mar 25, 2026 |
 | **Waymo** | [Sort a Quadratic-Transformed Sorted Array](https://trueinterview.io/questions/sort-transformed-quadratic-array) | Medium | Mar 23, 2026 |
 | **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
 | **Waymo** | [Ratings in the First and Third Active Months](https://trueinterview.io/questions/analyze-user-ride-activity-with-sql-ratings-in-the-first-and-third-active-months) | Hard | Mar 14, 2026 |

@@ -8,7 +8,7 @@ How NVIDIA interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [37](../nvidia.md) |
+| Questions reported | [38](../nvidia.md) |
 | Free to read here | 6 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -53,16 +53,16 @@ Here's what the interview process can look like:
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
 | [Remove Duplicates from Sorted Array](../../questions/algorithm/remove-duplicates-from-sorted-array/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) |
-| [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Everything else
 
-- [All 37 questions reported at NVIDIA](../nvidia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 38 questions reported at NVIDIA](../nvidia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every NVIDIA question on TrueInterview](https://trueinterview.io/problems/company/nvidia).
 
 ---

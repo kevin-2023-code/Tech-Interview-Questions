@@ -120,7 +120,7 @@ Here are some questions reported by recent candidates:
 
 - [Twitter Insight Platform](https://trueinterview.io/questions/twitter-insight-platform-take-home)
 - [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup)
-- [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md)
+- [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f)
 - [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions)
 
 ## Coding interviews

@@ -9,7 +9,7 @@ How Harvey interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [20](../harvey.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -48,12 +48,13 @@ Here's what the interview process can look like:
 
 ## Free Harvey questions
 
-2 questions reported at Harvey open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Harvey open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/citation-highlighting) |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
+| [Implement a DB Connection Pool](../../questions/object-oriented-programming/implement-a-db-connection-pool/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/implement-a-db-connection-pool) |
 
 ## Everything else
 

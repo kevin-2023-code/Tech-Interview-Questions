@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (35% of 20) |
 | Difficulty (easy / medium / hard) | 1 / 16 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 20 questions reported at Harvey. 15 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

@@ -8,11 +8,11 @@ How Airtable interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [8](../airtable.md) |
+| Questions reported | [9](../airtable.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Feb 12, 2026 |
+| Most recent sighting | Apr 30, 2026 |
 
 ## How Airtable interviews
 
@@ -24,12 +24,12 @@ No written process guide yet. [The loop, as reported](../airtable.md#the-loop-as
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Determine Valid Build Order](../../questions/algorithm/determine-valid-build-order/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) |
+| [Implement a DB Connection Pool](../../questions/object-oriented-programming/implement-a-db-connection-pool/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/implement-a-db-connection-pool) |
 | [Design Spreadsheet Undo and Redo](../../questions/object-oriented-programming/design-spreadsheet-undo-and-redo/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) |
 
 ## Everything else
 
-- [All 8 questions reported at Airtable](../airtable.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 9 questions reported at Airtable](../airtable.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airtable question on TrueInterview](https://trueinterview.io/problems/company/airtable).
 
 ---

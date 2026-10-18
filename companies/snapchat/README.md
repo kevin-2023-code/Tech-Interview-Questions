@@ -8,7 +8,7 @@ How Snapchat interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [69](../snapchat.md) |
+| Questions reported | [70](../snapchat.md) |
 | Free to read here | 13 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -69,7 +69,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 69 questions reported at Snapchat](../snapchat.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 70 questions reported at Snapchat](../snapchat.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snapchat question on TrueInterview](https://trueinterview.io/problems/company/snapchat).
 
 ---

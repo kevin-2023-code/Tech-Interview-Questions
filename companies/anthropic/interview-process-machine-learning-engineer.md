@@ -121,7 +121,7 @@ Here are some questions reported by recent candidates:
 - [Weighted Data Batcher with Checkpointing](https://trueinterview.io/questions/afa9e386-7de2-4dd2-8747-3810328a9c39)
 - [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system)
 - [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2)
-- [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871)
+- [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md)
 - [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median)
 
 ## ML fundamentals and RL debugging screen

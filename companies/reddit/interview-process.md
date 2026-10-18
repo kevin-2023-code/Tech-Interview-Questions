@@ -131,7 +131,7 @@ Here are some questions reported by recent candidates:
 - Decide whether two words connect through dictionary words when each step changes one or two characters.
 
 - [Moderator List Hierarchy](../../questions/algorithm/moderator-list-hierarchy/README.md)
-- [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md)
+- [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f)
 - [Dictionary Word Transformation Path](../../questions/algorithm/dictionary-word-transformation-path/README.md)
 - [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705)
 

@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**700 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**703 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,9 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Snapchat** | [Short Video Recommendation & Ranking](https://trueinterview.io/questions/short-video-recommendation-and-ranking) | Hard | Apr 21, 2026 |
+| **Meta** | [LeetCode / Online Judge + Contest Leaderboard](https://trueinterview.io/questions/system-design-leetcode-online-judge) | Medium | Apr 21, 2026 |
+| **Atlassian** | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | Hard | Apr 21, 2026 |
 | **Snowflake** | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | Hard | Apr 20, 2026 |
 | **Affirm** | [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing) | Medium | Apr 19, 2026 |
 | **OpenAI** | [Design an Agent Harness and Evaluation System](https://trueinterview.io/questions/design-an-agent-harness-and-evaluation-system) | Hard | Apr 19, 2026 |
@@ -143,7 +146,7 @@
 | **Oracle** | [Video Upload + Search with LLM](https://trueinterview.io/questions/system-design-video-upload-search) | Hard | Feb 13, 2026 |
 | **Capital One** | [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study) | Hard | Feb 13, 2026 |
 | **Snowflake / Amazon / Google** | [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system) | Easy | Feb 13, 2026 |
-| **Databricks** | [Optimize least-k revenue queries for read/write load](https://trueinterview.io/questions/optimize-least-k-revenue-queries-for-read-write-load) | Hard | Feb 12, 2026 |
+| **Databricks** | [Optimize least-k revenue queries for read/write load](https://trueinterview.io/questions/optimize-least-k-revenue-queries-for-read-write-load) | Medium | Feb 12, 2026 |
 | **Tesla** | [Model other agents in simulation](https://trueinterview.io/questions/model-other-agents-in-simulation) | Hard | Feb 12, 2026 |
 | **ByteDance** | [Design video captioning under compute limits](https://trueinterview.io/questions/design-video-captioning-under-compute-limits) | Hard | Feb 12, 2026 |
 | **Applied Intuition** | [Design a KV store with transactions](https://trueinterview.io/questions/design-a-kv-store-with-transactions) | Hard | Feb 12, 2026 |
@@ -257,8 +260,5 @@
 | **OpenAI** | [Design a harmful video content moderation system](https://trueinterview.io/questions/design-a-harmful-video-content-moderation-system) | Hard | Dec 15, 2025 |
 | **Microsoft** | [Design a cloud console main page](https://trueinterview.io/questions/design-a-cloud-console-main-page) | Medium | Dec 15, 2025 |
 | **OpenAI** | [Design a chatbot fallback for unknown questions](https://trueinterview.io/questions/design-a-chatbot-fallback-for-unknown-questions) | Hard | Dec 15, 2025 |
-| **Moveworks** | [Design a car rental booking system](https://trueinterview.io/questions/design-a-car-rental-booking-system) | Hard | Dec 15, 2025 |
-| **Optiver** | [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design) | Hard | Dec 13, 2025 |
-| **Uber** | [Measure feature impact with switchback, PSM, and CACE](https://trueinterview.io/questions/measure-feature-impact-with-switchback-psm-and-cace) | Hard | Dec 11, 2025 |
 
 <sub>[← Page 1](system-design.md) · Page 2 of 3 · [Page 3 →](system-design-3.md)</sub>

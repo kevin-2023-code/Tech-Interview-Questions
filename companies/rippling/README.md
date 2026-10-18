@@ -8,7 +8,7 @@ How Rippling interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [48](../rippling.md) |
+| Questions reported | [49](../rippling.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -53,13 +53,13 @@ Here's what the interview process can look like:
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Delivery Cost Calculate](../../questions/object-oriented-programming/delivery-billing-system/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/delivery-billing-system) |
 | [Logger System](../../questions/object-oriented-programming/logger-system-ood/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/logger-system-ood) |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
-| [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Everything else
 
-- [All 48 questions reported at Rippling](../rippling.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 49 questions reported at Rippling](../rippling.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Rippling question on TrueInterview](https://trueinterview.io/problems/company/rippling).
 
 ---

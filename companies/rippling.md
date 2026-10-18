@@ -2,7 +2,7 @@
 
 # Rippling interview process, OA & interview questions
 
-**48 questions** reported at Rippling · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rippling), judged server-side on the algorithm, low-level-design and SQL formats.
+**49 questions** reported at Rippling · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rippling), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Rippling interviews & the free questions](rippling/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **48** |
+| Questions tracked | **49** |
 | Most recent sighting | Sep 18, 2026 |
 | Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (40% of 48) |
-| Difficulty (easy / medium / hard) | 1 / 28 / 19 |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 49) |
+| Difficulty (easy / medium / hard) | 1 / 29 / 19 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 48 questions reported at Rippling. 33 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 49 questions reported at Rippling. 34 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **48 of 48** questions at Rippling that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **49 of 49** questions at Rippling that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [SQL](../formats/sql.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 29 | ██████████ | [Algorithm](../formats/algorithm.md) (52%) | 0 / 17 / 12 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 26 | █████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (46%) | 0 / 18 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 30 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 0 / 18 / 12 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 27 | █████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (44%) | 0 / 19 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -51,20 +51,20 @@ Which stage each question came from, for the **48 of 48** questions at Rippling 
 
 ## What they ask about
 
-Of the **22 questions at Rippling that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **23 questions at Rippling that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 5 | 23% | ████████████ | Aug 17, 2026 |
-| `hashing` | 4 | 18% | ██████████ | May 29, 2026 |
-| `arrays` | 3 | 14% | ███████ | Jun 16, 2026 |
-| `backtracking` | 3 | 14% | ███████ | Mar 14, 2026 |
-| `sorting` | 3 | 14% | ███████ | Feb 04, 2026 |
+| `graphs` | 5 | 22% | ████████████ | Aug 17, 2026 |
+| `hashing` | 4 | 17% | ██████████ | May 29, 2026 |
+| `arrays` | 3 | 13% | ███████ | Jun 16, 2026 |
+| `backtracking` | 3 | 13% | ███████ | Mar 14, 2026 |
+| `sorting` | 3 | 13% | ███████ | Feb 04, 2026 |
 | `binary-search` | 2 | 9% | █████ | Sep 13, 2026 |
 | `intervals` | 2 | 9% | █████ | Feb 04, 2026 |
-| `math` | 1 | 5% | ██ | Jan 25, 2026 |
-| `strings` | 1 | 5% | ██ | Jun 09, 2026 |
-| `two-pointers` | 1 | 5% | ██ | — |
+| `math` | 1 | 4% | ██ | Jan 25, 2026 |
+| `sliding-window` | 1 | 4% | ██ | May 01, 2026 |
+| `strings` | 1 | 4% | ██ | Jun 09, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -77,7 +77,7 @@ Every recorded sighting at Rippling, by the month it was reported in — Oct 17,
 | [Sep 2026](../by-month/2026-09.md) | 4 | ██████████████ |
 | [Aug 2026](../by-month/2026-08.md) | 2 | ███████ |
 | [Jun 2026](../by-month/2026-06.md) | 7 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 3 | ██████████ |
+| [May 2026](../by-month/2026-05.md) | 4 | ██████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 3 | ██████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | ██████████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ███ |
@@ -136,6 +136,7 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 | [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker) | Object Oriented Programming | Medium | May 29, 2026 |
 | [Design Article System](https://trueinterview.io/questions/web-api-for-article-voting-system) | Object Oriented Programming | Medium | May 25, 2026 |
 | [Build Reliable Employee-Operations and Expense Intelligence Systems](https://trueinterview.io/questions/build-reliable-employee-operations-and-expense-intelligence-systems) | System Design | Hard | May 01, 2026 |
+| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [Clarify and Solve Currency Conversion Queries with a Maximum-Amount Follow-up](https://trueinterview.io/questions/clarify-and-solve-currency-conversion-queries-with-a-maximum-amount-follow-up) | Algorithm | Hard | Apr 25, 2026 |
 | [Implement logger and card ranking](https://trueinterview.io/questions/implement-logger-and-card-ranking) | Object Oriented Programming | Medium | Apr 19, 2026 |
 | [Design an Extensible Rule Engine](https://trueinterview.io/questions/design-an-extensible-rule-engine) | Object Oriented Programming | Medium | Apr 02, 2026 |

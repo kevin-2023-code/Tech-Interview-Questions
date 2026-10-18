@@ -164,7 +164,7 @@ Here are some questions reported by recent candidates:
 - Treat URLs that differ only by fragment as the same page.
 
 - [Web Crawler](../../questions/algorithm/web-crawler/README.md)
-- [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871)
+- [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md)
 - [Tokenize (Python)](https://trueinterview.io/questions/tokenize-python)
 
 ## System design interview

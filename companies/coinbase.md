@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (43% of 72) |
 | Difficulty (easy / medium / hard) | 12 / 45 / 15 |
-| Free to practise | [8](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 4 |
 | Interview reports on the board | 5 in this snapshot |
 

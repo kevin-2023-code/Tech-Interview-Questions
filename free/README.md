@@ -2,17 +2,17 @@
 
 # Free questions
 
-**395 of the 4,122 tracked questions open without a paid plan** (10%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
+**395 of the 4,233 tracked questions open without a paid plan** (9%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [Free reading](../guides/README.md)
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 285 | 75 | 164 | 46 |
+| [Algorithm](algorithm.md) | 283 | 75 | 163 | 45 |
 | [SQL](sql.md) | 6 | 0 | 4 | 2 |
 | [System Design](system-design.md) | 34 | 5 | 16 | 13 |
 | [AI Coding](ai-coding.md) | 9 | 1 | 7 | 1 |
-| [Object Oriented Programming](object-oriented-programming.md) | 61 | 4 | 53 | 4 |
+| [Object Oriented Programming](object-oriented-programming.md) | 63 | 4 | 54 | 5 |
 
 ## Start here
 
@@ -26,7 +26,6 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | Easy | Mar 06, 2026 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | Easy | Dec 06, 2025 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | Easy | Mar 09, 2026 |
-| [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | **Uber / Amazon / Atlassian / ByteDance / Google / Meta / Microsoft / PayPal / Unknown** | Easy | Feb 26, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | Easy | Mar 24, 2026 |
 | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | Easy | Mar 17, 2026 |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | **Apple / Amazon / Atlassian / ByteDance / Cisco / PayPal / Squarepoint** | Easy | — |
@@ -60,5 +59,6 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Chairs / Restaurant Order Simulation](https://trueinterview.io/questions/chairs-restaurant-simulation) | **Goldman Sachs** | Easy | Oct 26, 2024 |
 | [Check Validity of Input String](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) | **Snowflake** | Easy | — |
 | [Compliance Alert / Trailing-Average Sliding Window](https://trueinterview.io/questions/compliance-alert-sliding-window) | **Goldman Sachs** | Easy | Oct 26, 2024 |
+| [Compress Consecutive Ranges](https://trueinterview.io/questions/compress-consecutive-ranges) | **Cisco** | Easy | Aug 26, 2025 |
 
 <sub>The rest are on the per-format pages above. A dash in *Reported* means no sighting date was recorded, which is not the same as old.</sub>

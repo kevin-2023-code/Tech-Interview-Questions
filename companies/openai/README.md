@@ -8,11 +8,11 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [144](../openai.md) |
+| Questions reported | [158](../openai.md) |
 | Free to read here | 13 |
 | Interview-process guides | 7 |
 | Other guides | 0 |
-| Most recent sighting | Sep 17, 2026 |
+| Most recent sighting | Sep 28, 2026 |
 
 ## How OpenAI interviews
 
@@ -70,7 +70,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 144 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 158 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every OpenAI question on TrueInterview](https://trueinterview.io/problems/company/openai).
 
 ---

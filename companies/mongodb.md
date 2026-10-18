@@ -2,7 +2,7 @@
 
 # MongoDB interview process, OA & interview questions
 
-**6 questions** reported at MongoDB · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/mongodb), judged server-side.
+**7 questions** reported at MongoDB · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/mongodb), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How MongoDB interviews & the free questions](mongodb/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **6** |
+| Questions tracked | **7** |
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 6) |
-| Difficulty (easy / medium / hard) | 1 / 2 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (86% of 7) |
+| Difficulty (easy / medium / hard) | 1 / 3 / 3 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 6 questions reported at MongoDB. 0 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 7 questions reported at MongoDB. 0 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **6 of 6** questions at MongoDB that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **7 of 7** questions at MongoDB that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 5 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,32 +41,33 @@ Which stage each question came from, for the **6 of 6** questions at MongoDB tha
 
 ## What they ask about
 
-Of the **6 questions at MongoDB that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **7 questions at MongoDB that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `trees` | 3 | 50% | ████████████ | — |
-| `bit-manipulation` | 1 | 17% | ████ | — |
-| `dynamic-programming` | 1 | 17% | ████ | — |
-| `graphs` | 1 | 17% | ████ | — |
-| `hashing` | 1 | 17% | ████ | — |
-| `sorting` | 1 | 17% | ████ | — |
-| `strings` | 1 | 17% | ████ | — |
+| `trees` | 3 | 43% | ████████████ | — |
+| `graphs` | 2 | 29% | ████████ | — |
+| `bit-manipulation` | 1 | 14% | ████ | — |
+| `dynamic-programming` | 1 | 14% | ████ | — |
+| `hashing` | 1 | 14% | ████ | — |
+| `sorting` | 1 | 14% | ████ | — |
+| `strings` | 1 | 14% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Start here
 
-The 6 questions to open first if you are preparing for MongoDB. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 6 questions on file, easiest first. 🆓 opens without a paid plan.
+The 7 questions to open first if you are preparing for MongoDB, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Algorithm | Easy | — | — |
-| **2** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | — | — |
-| **3** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Algorithm | Medium | — | — |
-| **4** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) 🆓 | Algorithm | Hard | — | — |
-| **5** | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) 🆓 | Algorithm | Hard | — | — |
-| **6** | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Algorithm | Hard | — | — |
+| **1** | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) 🆓 | Object Oriented Programming | Medium | 1 | — |
+| **2** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Algorithm | Easy | — | — |
+| **3** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | — | — |
+| **4** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Algorithm | Medium | — | — |
+| **5** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) 🆓 | Algorithm | Hard | — | — |
+| **6** | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) | Algorithm | Hard | — | — |
+| **7** | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -94,3 +95,4 @@ The 6 questions to open first if you are preparing for MongoDB. **This is not a 
 | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Algorithm | Easy | — |
 | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | — |
 | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | Algorithm | Hard | — |
+| [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Object Oriented Programming | Medium | — |

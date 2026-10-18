@@ -61,7 +61,7 @@ Here are some questions reported by recent candidates:
 - Change a user's storage quota, deleting their largest files first until usage fits, and compress or decompress files by renaming and halving or doubling them.
 - Decide every frame whether a character should jump, simulating both choices ahead and forcing a jump when a collision is imminent.
 
-- [Bank System](https://trueinterview.io/questions/bank-system)
+- [Bank System](../../questions/object-oriented-programming/bank-system/README.md)
 - [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md)
 - [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md)
 - [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)

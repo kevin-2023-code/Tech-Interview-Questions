@@ -8,11 +8,11 @@ How Shopify interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [26](../shopify.md) |
+| Questions reported | [25](../shopify.md) |
 | Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Sep 07, 2026 |
+| Most recent sighting | Oct 01, 2026 |
 
 ## How Shopify interviews
 
@@ -42,8 +42,8 @@ The stages below follow Shopify's public description of its process; the order a
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
-| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Ruby only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-ruby-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) |
 | [C++ only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-c-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) |
 | [Dynamic programming, ~45 min, any language](../../questions/algorithm/swe-intern-coding-oa-dynamic-programming-45-min-any-language/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) |
@@ -52,7 +52,7 @@ The stages below follow Shopify's public description of its process; the order a
 
 ## Everything else
 
-- [All 26 questions reported at Shopify](../shopify.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 25 questions reported at Shopify](../shopify.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Shopify question on TrueInterview](https://trueinterview.io/problems/company/shopify).
 
 ---

@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**335 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**337 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,35 +14,36 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **335** |
-| Most recent sighting | Sep 04, 2026 |
-| Reported in the last 90 days | 14 |
-| Most common format | [Algorithm](../formats/algorithm.md) (51% of 335) |
-| Difficulty (easy / medium / hard) | 43 / 203 / 89 |
-| Free to practise | [26](../free/README.md) |
+| Questions tracked | **337** |
+| Most recent sighting | Oct 01, 2026 |
+| Reported in the last 90 days | 15 |
+| Most common format | [Algorithm](../formats/algorithm.md) (52% of 337) |
+| Difficulty (easy / medium / hard) | 47 / 202 / 88 |
+| Free to practise | [27](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 335 questions reported at Meta. 179 of them carry a sighting date; the other 156 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 337 questions reported at Meta. 181 of them carry a sighting date; the other 156 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **335 of 335** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **337 of 337** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 31 | ██ | [Algorithm](../formats/algorithm.md) (61%) | 20 / 7 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 184 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 18 / 132 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 144 | ████████ | [System Design](../formats/system-design.md) (40%) | 9 / 81 / 54 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 33 | ██ | [Algorithm](../formats/algorithm.md) (64%) | 21 / 8 / 4 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 185 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 20 / 132 / 33 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 144 | ████████ | [System Design](../formats/system-design.md) (39%) | 10 / 80 / 54 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**14 sightings** in this window. Newest first.
+**15 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | Oct 01, 2026 |
 | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 04, 2026 |
 | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | System Design | Medium | Onsite / virtual onsite | Sep 04, 2026 |
 | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | Onsite / virtual onsite | Sep 04, 2026 |
@@ -51,49 +52,49 @@ Which stage each question came from, for the **335 of 335** questions at Meta th
 | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | System Design | Easy | Phone screen | Aug 29, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Aug 27, 2026 |
 | [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Algorithm | Hard | Onsite / virtual onsite | Aug 25, 2026 |
-| [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
+| [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Easy | Onsite / virtual onsite | Aug 16, 2026 |
 | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
-| [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Phone screen | Jul 22, 2026 |
 
-<sub>2 more in this window are in the table below.</sub>
+<sub>3 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **171 questions at Meta that carry a topic label** (51% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **175 questions at Meta that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 28 | 16% | ████████████ | Aug 25, 2026 |
-| `strings` | 25 | 15% | ███████████ | Jun 29, 2026 |
-| `hashing` | 23 | 13% | ██████████ | Jul 19, 2026 |
-| `trees` | 20 | 12% | █████████ | Aug 16, 2026 |
+| `graphs` | 30 | 17% | ████████████ | Aug 25, 2026 |
+| `hashing` | 26 | 15% | ██████████ | Jul 19, 2026 |
+| `strings` | 26 | 15% | ██████████ | Jun 29, 2026 |
+| `trees` | 20 | 11% | ████████ | Aug 16, 2026 |
 | `arrays` | 19 | 11% | ████████ | Jul 19, 2026 |
-| `two-pointers` | 18 | 11% | ████████ | May 08, 2026 |
+| `two-pointers` | 18 | 10% | ███████ | May 08, 2026 |
 | `stack` | 14 | 8% | ██████ | Jun 24, 2026 |
-| `backtracking` | 13 | 8% | ██████ | Aug 16, 2026 |
+| `backtracking` | 13 | 7% | █████ | Aug 16, 2026 |
 | `binary-search` | 12 | 7% | █████ | Apr 27, 2026 |
-| `matrix` | 12 | 7% | █████ | Apr 21, 2026 |
+| `dynamic-programming` | 12 | 7% | █████ | Jun 16, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Meta, by the month it was reported in — Jun 10, 2025 to Sep 04, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Meta, by the month it was reported in — Jun 10, 2025 to Oct 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Oct 2026](../by-month/2026-10.md) | 1 | █ |
 | [Sep 2026](../by-month/2026-09.md) | 5 | ███ |
 | [Aug 2026](../by-month/2026-08.md) | 5 | ███ |
 | [Jul 2026](../by-month/2026-07.md) | 6 | ████ |
-| [Jun 2026](../by-month/2026-06.md) | 14 | ████████ |
+| [Jun 2026](../by-month/2026-06.md) | 13 | ████████ |
 | [May 2026](../by-month/2026-05.md) | 15 | █████████ |
-| [Apr 2026](../by-month/2026-04.md) | 41 | ████████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 15 | █████████ |
-| [Feb 2026](../by-month/2026-02.md) | 28 | ████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 20 | ████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 40 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 16 | ██████████ |
+| [Feb 2026](../by-month/2026-02.md) | 28 | █████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 21 | █████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 13 | ████████ |
-| [Nov 2025](../by-month/2025-11.md) | 10 | ██████ |
+| [Nov 2025](../by-month/2025-11.md) | 11 | ███████ |
 | [Oct 2025](../by-month/2025-10.md) | 5 | ███ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | █ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | █ |
@@ -104,14 +105,14 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | — | Sep 04, 2026 |
-| **2** | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | System Design | Medium | — | Sep 04, 2026 |
-| **3** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | — | Sep 04, 2026 |
-| **4** | [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | SQL | Easy | — | Sep 03, 2026 |
-| **5** | [Measure Game Monetization and Validate a Reporting Repair](https://trueinterview.io/questions/measure-game-monetization-and-validate-a-reporting-repair) | System Design | Hard | — | Sep 03, 2026 |
-| **6** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | System Design | Easy | — | Aug 29, 2026 |
-| **7** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | 1 | Aug 27, 2026 |
-| **8** | [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Algorithm | Hard | — | Aug 25, 2026 |
+| **1** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Oct 01, 2026 |
+| **2** | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | — | Sep 04, 2026 |
+| **3** | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | System Design | Medium | — | Sep 04, 2026 |
+| **4** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | — | Sep 04, 2026 |
+| **5** | [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | SQL | Easy | — | Sep 03, 2026 |
+| **6** | [Measure Game Monetization and Validate a Reporting Repair](https://trueinterview.io/questions/measure-game-monetization-and-validate-a-reporting-repair) | System Design | Hard | — | Sep 03, 2026 |
+| **7** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | System Design | Easy | — | Aug 29, 2026 |
+| **8** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | 1 | Aug 27, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -140,6 +141,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | 🆕 Sep 04, 2026 |
 | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | System Design | Medium | 🆕 Sep 04, 2026 |
 | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | 🆕 Sep 04, 2026 |
@@ -149,7 +151,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Aug 27, 2026 |
 | [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Algorithm | Hard | Aug 25, 2026 |
 | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | Aug 16, 2026 |
-| [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Medium | Aug 16, 2026 |
+| [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Easy | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Medium | Jul 22, 2026 |
 | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Jul 22, 2026 |
@@ -162,7 +164,6 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset) | Algorithm | Hard | Jun 28, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
 | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Jun 24, 2026 |
-| [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [Find Shortest Unique Prefix](https://trueinterview.io/questions/shortest-unique-prefix) | Algorithm | Medium | Jun 18, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Word Break](https://trueinterview.io/questions/word-break) | Algorithm | Medium | Jun 16, 2026 |
@@ -216,7 +217,6 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Solve Two String Problems](https://trueinterview.io/questions/solve-two-string-problems-3) | Algorithm | Medium | Apr 12, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
 | [Design Queue And Taxi Matching Services](https://trueinterview.io/questions/design-queue-and-taxi-matching-services) | System Design | Hard | Apr 09, 2026 |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Design an Online Judge and Live Comments](https://trueinterview.io/questions/design-an-online-judge-and-live-comments) | System Design | Hard | Apr 08, 2026 |
 | [Count unconnected posts and reactions](https://trueinterview.io/questions/count-unconnected-posts-and-reactions) | SQL | Medium | Apr 05, 2026 |
 | [Exclusive Time of Functions](https://trueinterview.io/questions/exclusive-time-of-functions) | Algorithm | Medium | Apr 05, 2026 |
@@ -227,6 +227,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
+| [Minimum Knight Moves](https://trueinterview.io/questions/minimum-knight-moves) | Algorithm | Medium | Mar 28, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [Execute matrix transformation commands](https://trueinterview.io/questions/solve-four-online-assessment-problems-execute-matrix-transformation-commands) | Algorithm | Medium | Mar 19, 2026 |
 | [Schedule round trips](https://trueinterview.io/questions/solve-four-online-assessment-problems-schedule-round-trips) | Algorithm | Medium | Mar 19, 2026 |
@@ -286,6 +287,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
 | [Binary Tree Longest Consecutive Sequence II](https://trueinterview.io/questions/binary-tree-longest-consecutive-sequence-ii) | Algorithm | Medium | Jan 11, 2026 |
+| [Top K Frequent Elements](https://trueinterview.io/questions/top-k-frequent-elements-3) | Algorithm | Medium | Jan 10, 2026 |
 | [Making a Large Island](https://trueinterview.io/questions/making-a-large-island) | Algorithm | Medium | Jan 07, 2026 |
 | [Compute seller counts and vehicle share](https://trueinterview.io/questions/compute-seller-counts-and-vehicle-share) | SQL | Medium | Jan 05, 2026 |
 | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Algorithm | Hard | Jan 04, 2026 |
@@ -308,6 +310,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [How do you expand nested placeholders in strings?](https://trueinterview.io/questions/how-do-you-expand-nested-placeholders-in-strings) | Algorithm | Hard | Nov 24, 2025 |
 | [Python Coding Questions](https://trueinterview.io/questions/solve-sql-and-python-coding-tasks-python-coding-questions) | Algorithm | Medium | Nov 20, 2025 |
 | [SQL Questions](https://trueinterview.io/questions/solve-sql-and-python-coding-tasks-sql-questions) | SQL | Medium | Nov 20, 2025 |
+| [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Nov 18, 2025 |
 | [Design a time-versioned key-value store and find common free time](https://trueinterview.io/questions/design-a-time-versioned-key-value-store-and-find-common-free-time) | Object Oriented Programming | Medium | Nov 12, 2025 |
 | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | Nov 11, 2025 |
 | [Longest balanced subarray](https://trueinterview.io/questions/find-balanced-subarray-and-increasing-tree-path-longest-balanced-subarray-0-1) | Algorithm | Medium | Nov 02, 2025 |
@@ -319,6 +322,8 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Compute interval mode, BST range sum, exclusive time](https://trueinterview.io/questions/compute-interval-mode-bst-range-sum-exclusive-time) | Algorithm | Hard | Oct 02, 2025 |
 | [Verifying an Alien Dictionary](https://trueinterview.io/questions/verifying-an-alien-dictionary) | Algorithm | Easy | Sep 2025 |
 | [Simplify Expression](https://trueinterview.io/questions/simplify-parentheses-expression) | Algorithm | Medium | Jun 10, 2025 |
+| [Friend Recommendation System](https://trueinterview.io/questions/e983b63c-1861-5f76-898f-d52f22247679) | Algorithm | Medium | — |
+| [Find Values Unique to the Current User](https://trueinterview.io/questions/5cbd9ffa-3077-56ce-8d45-0c05aedccd8b) | Algorithm | Easy | — |
 | [Write dating profile report with final reviews](https://trueinterview.io/questions/write-dating-profile-report-with-final-reviews) | SQL | Hard | — |
 | [Prove source growth is cannibalization, not incremental](https://trueinterview.io/questions/prove-source-growth-is-cannibalization-not-incremental) | System Design | Hard | — |
 | [Optimize IG Shopping ranking with multiple objectives](https://trueinterview.io/questions/optimize-ig-shopping-ranking-with-multiple-objectives) | System Design | Hard | — |
@@ -386,9 +391,5 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Medium | — |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-3) | SQL | Easy | — |
-| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
-| [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Medium | — |
-| [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
-| [Implement a ReAct-style Agent Loop with Given APIs](https://trueinterview.io/questions/a81a953d-0af2-4e47-85bd-a1243047e6d9) | AI Coding | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](meta-2.md)</sub>

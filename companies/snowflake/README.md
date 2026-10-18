@@ -8,11 +8,11 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [128](../snowflake.md) |
-| Free to read here | 25 |
+| Questions reported | [133](../snowflake.md) |
+| Free to read here | 26 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Sep 05, 2026 |
+| Most recent sighting | Oct 01, 2026 |
 
 ## How Snowflake interviews
 
@@ -47,12 +47,12 @@ Here's what the interview process can look like:
 
 ## Free Snowflake questions
 
-25 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+26 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
-| [Maximize Pipeline Throughput](../../questions/algorithm/oa-pipeline-throughput/README.md) | Algorithm | Medium | Online assessment | Jun 2026 | [Solve](https://trueinterview.io/questions/oa-pipeline-throughput) |
+| [Closest Cake and Global Assignment](../../questions/algorithm/closest-cake-and-global-assignment/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/closest-cake-and-global-assignment) |
 | [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
 | [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
@@ -62,6 +62,7 @@ Here's what the interview process can look like:
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [Dropped Requests (Rate Limiter)](../../questions/algorithm/dropped-requests-rate-limiter/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dropped-requests-rate-limiter) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Vowels Substring](../../questions/algorithm/vowels-substring/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/vowels-substring) |
 | [Unequal Elements](../../questions/algorithm/unequal-elements/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/unequal-elements) |
@@ -79,7 +80,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 128 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 133 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snowflake question on TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 ---

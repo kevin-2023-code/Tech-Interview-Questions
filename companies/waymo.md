@@ -2,7 +2,7 @@
 
 # Waymo interview process, OA & interview questions
 
-**62 questions** reported at Waymo · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
+**64 questions** reported at Waymo · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Waymo interviews & the free questions](waymo/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **62** |
+| Questions tracked | **64** |
 | Most recent sighting | Aug 27, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 62) |
-| Difficulty (easy / medium / hard) | 6 / 39 / 17 |
-| Free to practise | [4](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 64) |
+| Difficulty (easy / medium / hard) | 6 / 41 / 17 |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 62 questions reported at Waymo. 56 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 64 questions reported at Waymo. 58 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **62 of 62** questions at Waymo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **64 of 64** questions at Waymo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 7 | ██ | [SQL](../formats/sql.md) (86%) | 4 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 32 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 0 / 25 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 25 | ████████ | [Algorithm](../formats/algorithm.md) (44%) | 2 / 14 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 34 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 0 / 27 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 27 | ████████ | [Algorithm](../formats/algorithm.md) (48%) | 2 / 16 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,16 +46,16 @@ Which stage each question came from, for the **62 of 62** questions at Waymo tha
 
 ## What they ask about
 
-Of the **38 questions at Waymo that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **39 questions at Waymo that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 10 | 26% | ████████████ | Aug 27, 2026 |
 | `matrix` | 5 | 13% | ██████ | Aug 27, 2026 |
-| `arrays` | 4 | 11% | █████ | May 13, 2026 |
-| `backtracking` | 4 | 11% | █████ | Jul 09, 2026 |
-| `greedy` | 4 | 11% | █████ | Nov 14, 2025 |
-| `strings` | 4 | 11% | █████ | May 13, 2026 |
+| `arrays` | 4 | 10% | █████ | May 13, 2026 |
+| `backtracking` | 4 | 10% | █████ | Jul 09, 2026 |
+| `greedy` | 4 | 10% | █████ | Nov 14, 2025 |
+| `strings` | 4 | 10% | █████ | May 13, 2026 |
 | `binary-search` | 3 | 8% | ████ | May 05, 2026 |
 | `dynamic-programming` | 3 | 8% | ████ | Jul 06, 2026 |
 | `intervals` | 3 | 8% | ████ | May 05, 2026 |
@@ -72,9 +72,9 @@ Every recorded sighting at Waymo, by the month it was reported in — Sep 29, 20
 | [Aug 2026](../by-month/2026-08.md) | 1 | ██ |
 | [Jul 2026](../by-month/2026-07.md) | 3 | █████ |
 | [Jun 2026](../by-month/2026-06.md) | 5 | ████████ |
-| [May 2026](../by-month/2026-05.md) | 14 | ██████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 15 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 15 | ████████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 6 | ██████████ |
+| [Mar 2026](../by-month/2026-03.md) | 7 | ███████████ |
 | [Jan 2026](../by-month/2026-01.md) | 6 | ██████████ |
 | [Dec 2025](../by-month/2025-12.md) | 2 | ███ |
 | [Nov 2025](../by-month/2025-11.md) | 2 | ███ |
@@ -138,6 +138,7 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | [Randomly Populate Grid with Connected Equal-Size Token Regions](https://trueinterview.io/questions/random-grid-token-fill) | Algorithm | Hard | May 06, 2026 |
 | [Count Squares Formed by Segments](https://trueinterview.io/questions/count-squares-formed-by-segments) | Algorithm | Hard | May 05, 2026 |
 | [Shortest Path from Source to Target Nodes (Dijkstra)](https://trueinterview.io/questions/dijkstra-shortest-path-to-targets) | Algorithm | Medium | May 01, 2026 |
+| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens) | Algorithm | Hard | Apr 27, 2026 |
 | [Roadway Segment Speed Query](https://trueinterview.io/questions/roadway-segment-speed-query) | Algorithm | Medium | Apr 24, 2026 |
 | [Garage Occupancy per Timestamp](https://trueinterview.io/questions/garage-occupancy-per-timestamp) | Algorithm | Medium | Apr 24, 2026 |
@@ -155,6 +156,7 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | [Streaming Interval Coverage on a Number Axis](https://trueinterview.io/questions/interval-pollution-coverage) | Algorithm | Hard | Apr 01, 2026 |
 | [Prefix Autocomplete via Trie](https://trueinterview.io/questions/trie-prefix-autocomplete) | Algorithm | Medium | Mar 27, 2026 |
 | [Car Maze with Incrementally Revealed Neighbors (DFS)](https://trueinterview.io/questions/car-maze-incremental-discovery-dfs) | Algorithm | Medium | Mar 25, 2026 |
+| [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | Algorithm | Medium | Mar 25, 2026 |
 | [Sort a Quadratic-Transformed Sorted Array](https://trueinterview.io/questions/sort-transformed-quadratic-array) | Algorithm | Medium | Mar 23, 2026 |
 | [Ratings in the First and Third Active Months](https://trueinterview.io/questions/analyze-user-ride-activity-with-sql-ratings-in-the-first-and-third-active-months) | SQL | Hard | Mar 14, 2026 |
 | [Implement Safe Average Function](https://trueinterview.io/questions/implement-safe-average-function) | Algorithm | Easy | Mar 07, 2026 |

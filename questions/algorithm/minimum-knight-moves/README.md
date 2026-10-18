@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Salesforce | Online assessment | graphs | Mar 2026 |
+| Algorithm | Medium | Uber · Meta · Salesforce | Online assessment | graphs | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/minimum-knight-moves)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -92,7 +92,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Uber](../../../companies/uber/README.md) · [Salesforce](../../../companies/salesforce/README.md)
+[Uber](../../../companies/uber/README.md) · [Meta](../../../companies/meta/README.md) · [Salesforce](../../../companies/salesforce/README.md)
 
 ---
 

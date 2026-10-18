@@ -5,102 +5,66 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn · Meta · +5 | Phone screen | — | Apr 2026 |
+| AI Coding | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn · Meta · +4 | Phone screen | — | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/lru-cache)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
 
 ## Problem
 
-## Overview
+Build a data structure that behaves like a **Least Recently Used (LRU) cache**, which holds a limited number of key-value pairs and discards the entry that has gone the longest without being used when it runs out of room.
 
-Build a **Least Recently Used (LRU) cache** from scratch. The cache is constructed with a positive `capacity` and supports two operations, each in **O(1) average time**:
+Implement the `LRUCache` class with the following members:
 
-- `get(key)` returns the value stored for `key`, or `-1` if the key is not cached.
-- `put(key, value)` updates the value if `key` is cached; otherwise it inserts the pair. If the insert pushes the number of keys past `capacity`, the least recently used key is evicted.
+- `LRUCache(int capacity)` creates a cache that can hold at most `capacity` entries, where `capacity` is a positive integer.
+- `int get(int key)` returns the value stored for `key`, or `-1` if `key` is not currently in the cache.
+- `void put(int key, int value)` stores `value` under `key`. If `key` is already present, overwrite its value. If it is not present, insert the new pair. Whenever an insertion pushes the number of stored keys past `capacity`, remove the key that was used least recently.
 
-This is a build round: the workspace hands you a specification, an empty class in the language of your choice and a conformance suite -- no prefilled code.
+Both `get` and `put` must run in `O(1)` average time.
 
-## Rules
-
-A key is *used* when `get` finds it or `put` writes it.
-
-1. `LRUCache(capacity)` creates an empty cache; `capacity` is positive.
-2. `get(key)` returns the cached value, or `-1`.
-3. A `get` hit makes the key the most recently used.
-4. A `get` miss returns `-1` and changes nothing.
-5. `put` on a cached key replaces the value and makes it the most recently used; nothing is evicted, even if the value is unchanged.
-6. `put` on a new key inserts it as the most recently used; if the cache now exceeds `capacity`, exactly one key -- the least recently used -- is evicted.
-7. `get` and `put` run in O(1) average time.
-8. Key `0` and value `0` are ordinary; a cached `0` is a hit.
-
-Constraints: `1 <= capacity <= 3000`, `0 <= key <= 10^4`, `0 <= value <= 10^5`, at most `2 * 10^5` calls.
-
-## Example
+Example 1:
 
 ```text
-Input:
-["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"]
-        [[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]
+Input: ["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"] [[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]
+
 Output: [null, null, null, 1, null, -1, null, -1, 3, 4]
 ```
 
-With capacity 2: `get(1)` returns 1 and makes key 1 the most recent, so `put(3,3)` evicts key 2; `get(2)` returns -1; `put(4,4)` evicts key 1; then `get(1)` is -1, `get(3)` is 3 and `get(4)` is 4.
+Explanation:
 
-## What is in the workspace
+Constraints:
 
-```text
-SPEC.md                         the full task: interface per language, rules, examples, evaluation
-README.md                       how to run the tests offline
-run_tests.py                    runs one or all language tracks
-fixtures/                       shared scenarios (the example above, one per rule, a 600-call churn trace,
-                                and a 200,000-call trace at the constraint limits)
-python/lru_cache.py             Python track      -- implement LRUCache here
-java/src/LRUCache.java          Java track        -- implement LRUCache here
-typescript/src/lruCache.ts      TypeScript track  -- implement LRUCache here
-go/lru/lru.go                   Go track          -- implement lru.New / Get / Put here
-<track>/tests/conformance/      the conformance tests for that track
-answer/                         a worked answer for every track -- open it only when you are done
-```
+* `1 <= capacity <= 3000`
+* `0 <= key <= 10^4`
+* `0 <= value <= 10^5`
+* At most `2 * 10^5` calls will be made to `get` and `put`.
 
-Pick one track. Every skeleton throws "not implemented", so the suite fails until you build the class.
+## Interview Notes
 
-## How to run
-
-```text
-python run_tests.py --lang python      # or java / typescript / go
-python run_tests.py                    # all four tracks
-```
-
-Python 3.9+, JDK 17+, Node 22.18+ or Go 1.21+ -- standard library only, no network.
-
-## What is evaluated
-
-- **Conformance:** every fixture passes, including the max-constraints trace.
-- **Design:** O(1) `get` and `put` from the structure itself -- typically a hash map paired with a doubly linked list. A version that scans a list on every call is correct but misses rule 7.
-- **Edge cases:** update versus insert at full capacity, capacity 1, a cached value of 0.
-- **Communication:** explaining the structure, the per-entry memory cost and how you would extend it (thread safety, TTL expiry) when asked.
+* This question was asked in a phone screen for one team, after about 30 minutes of behavioral questions and a project deep-dive, so the time left for the coding portion was short.
+* Even a correct implementation that works on the first attempt did not by itself decide the outcome, because the team also weighed which candidate seemed the closer fit for its work. The behavioral and project discussion therefore mattered alongside the code.
+* That team's production stack is Clojure.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think about how to combine fast key lookup with a way to know which item was used least recently.
+You need both fast lookup by key and fast reordering by recency, which no single simple structure gives.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a hash map for O(1) access and a doubly linked list to maintain recency order, with dummy head and tail nodes.
+Combine a hash map from key to node with a doubly linked list ordered by recency, moving a node to the front on every get or put.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The hardest edge case is when the cache is full and you need to evict the least recently used item while updating all pointers in O(1).
+Aim for O(1) per operation, and make sure updating an existing key refreshes its recency and eviction removes the tail entry from both the list and the map.
 
 </details>
 
@@ -110,7 +74,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Oracle](../../../companies/oracle/README.md) · [PayPal](../../../companies/paypal/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Shopify](../../../companies/shopify/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [PayPal](../../../companies/paypal/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Shopify](../../../companies/shopify/README.md)
 
 ---
 

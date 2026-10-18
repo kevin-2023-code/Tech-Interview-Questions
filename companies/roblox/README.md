@@ -8,11 +8,11 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [86](../roblox.md) |
-| Free to read here | 15 |
+| Questions reported | [87](../roblox.md) |
+| Free to read here | 14 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
-| Most recent sighting | Sep 09, 2026 |
+| Most recent sighting | Sep 10, 2026 |
 
 ## How Roblox interviews
 
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Roblox questions
 
-15 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -67,12 +67,11 @@ Here's what the interview process can look like:
 | [Find Minimum Score Threshold](../../questions/algorithm/find-minimum-score-threshold/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/find-minimum-score-threshold) |
 | [Auto Email Generation](../../questions/algorithm/auto-email-generation/README.md) | Algorithm | Easy | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/auto-email-generation) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
-| [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
 
-- [All 86 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 87 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Roblox question on TrueInterview](https://trueinterview.io/problems/company/roblox).
 
 ---

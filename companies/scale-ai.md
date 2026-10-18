@@ -2,7 +2,7 @@
 
 # Scale AI interview process, OA & interview questions
 
-**21 questions** reported at Scale AI · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/scale-ai), judged server-side on the algorithm, low-level-design and SQL formats.
+**22 questions** reported at Scale AI · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/scale-ai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Scale AI interviews & the free questions](scale-ai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,61 +14,63 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **21** |
-| Most recent sighting | Aug 26, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 21) |
-| Difficulty (easy / medium / hard) | 0 / 15 / 6 |
+| Questions tracked | **22** |
+| Most recent sighting | Oct 01, 2026 |
+| Reported in the last 90 days | 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (59% of 22) |
+| Difficulty (easy / medium / hard) | 0 / 16 / 6 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 21 questions reported at Scale AI. 12 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 22 questions reported at Scale AI. 13 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **21 of 21** questions at Scale AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **22 of 22** questions at Scale AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (64%) | 0 / 9 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 8 | ██████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 10 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (56%) | 0 / 8 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Oct 01, 2026 |
 | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Object Oriented Programming | Medium | Phone screen | Aug 26, 2026 |
 
 ## What they ask about
 
-Of the **9 questions at Scale AI that carry a topic label** (43% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Scale AI that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `trees` | 2 | 22% | ████████████ | — |
-| `arrays` | 1 | 11% | ██████ | Feb 06, 2026 |
-| `greedy` | 1 | 11% | ██████ | Apr 09, 2026 |
-| `heap` | 1 | 11% | ██████ | Jun 14, 2026 |
-| `intervals` | 1 | 11% | ██████ | Mar 29, 2026 |
-| `math` | 1 | 11% | ██████ | Jun 16, 2026 |
-| `matrix` | 1 | 11% | ██████ | May 01, 2026 |
-| `sorting` | 1 | 11% | ██████ | Mar 29, 2026 |
-| `topological-sort` | 1 | 11% | ██████ | — |
-| `two-pointers` | 1 | 11% | ██████ | Feb 06, 2026 |
+| `trees` | 3 | 30% | ████████████ | Oct 01, 2026 |
+| `arrays` | 1 | 10% | ████ | Feb 06, 2026 |
+| `graphs` | 1 | 10% | ████ | Oct 01, 2026 |
+| `greedy` | 1 | 10% | ████ | Apr 09, 2026 |
+| `hashing` | 1 | 10% | ████ | Oct 01, 2026 |
+| `heap` | 1 | 10% | ████ | Jun 14, 2026 |
+| `intervals` | 1 | 10% | ████ | Mar 29, 2026 |
+| `math` | 1 | 10% | ████ | Jun 16, 2026 |
+| `matrix` | 1 | 10% | ████ | May 01, 2026 |
+| `sorting` | 1 | 10% | ████ | Mar 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Scale AI, by the month it was reported in — Feb 06, 2026 to Aug 26, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Scale AI, by the month it was reported in — Feb 06, 2026 to Oct 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Oct 2026](../by-month/2026-10.md) | 1 | ████████ |
 | [Aug 2026](../by-month/2026-08.md) | 1 | ████████ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████ |
 | [May 2026](../by-month/2026-05.md) | 3 | ████████████████████████ |
@@ -82,14 +84,14 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Object Oriented Programming | Medium | — | Aug 26, 2026 |
-| **2** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) 🆓 | Algorithm | Hard | 1 | Jun 16, 2026 |
-| **3** | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) 🆓 | Algorithm | Hard | — | Jun 14, 2026 |
-| **4** | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | — | May 01, 2026 |
-| **5** | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | — | May 01, 2026 |
-| **6** | [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Algorithm | Medium | — | May 01, 2026 |
-| **7** | [Design a Streaming Job Scheduler](https://trueinterview.io/questions/design-a-streaming-job-scheduler) | Object Oriented Programming | Hard | — | Apr 09, 2026 |
-| **8** | [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks) | Algorithm | Medium | — | Mar 29, 2026 |
+| **1** | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | 1 | Oct 01, 2026 |
+| **2** | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Object Oriented Programming | Medium | — | Aug 26, 2026 |
+| **3** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) 🆓 | Algorithm | Hard | 1 | Jun 16, 2026 |
+| **4** | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) 🆓 | Algorithm | Hard | — | Jun 14, 2026 |
+| **5** | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | — | May 01, 2026 |
+| **6** | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | — | May 01, 2026 |
+| **7** | [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Algorithm | Medium | — | May 01, 2026 |
+| **8** | [Design a Streaming Job Scheduler](https://trueinterview.io/questions/design-a-streaming-job-scheduler) | Object Oriented Programming | Hard | — | Apr 09, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -111,6 +113,7 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | 🆕 Oct 01, 2026 |
 | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Object Oriented Programming | Medium | Aug 26, 2026 |
 | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Algorithm | Hard | Jun 16, 2026 |
 | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Algorithm | Hard | Jun 14, 2026 |
