@@ -66,7 +66,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 207 | 5 | 35 | Oct 03, 2026 | 22 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 158 | 7 | 18 | Sep 28, 2026 | 13 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 150 | 4 | 14 | Oct 02, 2026 | 22 |
-| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 133 | 1 | 10 | Oct 01, 2026 | 26 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 133 | 1 | 10 | Oct 01, 2026 | 25 |
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 118 | 4 | 19 | Oct 01, 2026 | 11 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 108 | 3 | 12 | Sep 16, 2026 | 5 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 103 | 1 | 12 | Oct 04, 2026 | 5 |

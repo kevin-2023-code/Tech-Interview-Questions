@@ -2,7 +2,7 @@
 
 # Uber interview process, OA & interview questions
 
-**225 questions** reported at Uber · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
+**225 questions** reported at Uber · **3 writeups** · **8 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Uber interviews & the free questions](uber/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -21,7 +21,7 @@
 | Difficulty (easy / medium / hard) | 29 / 152 / 44 |
 | Free to practise | [35](../free/README.md) |
 | Guides & writeups | 3 |
-| Interview reports on the board | 2 in this snapshot |
+| Interview reports on the board | 8 in this snapshot |
 
 <sub>Counted from the 225 questions reported at Uber. 143 of them carry a sighting date; the other 82 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -127,10 +127,16 @@ What candidates said happened in the room at Uber — written up by the people w
 
 | Role | Report | Posted |
 | :-- | :-- | :-- |
-| Software | [Uber Senior Software Engineer Interview Experience](https://trueinterview.io/interviews/b0cbabe9-08e0-4f09-aff4-1a9e1c3313e1) | Sep 27, 2026 |
-| Software | [Uber Word Search II Variant and Project Deep Dive Interview Experience (2025)](https://trueinterview.io/interviews/37b6ec25-fbfe-42d4-b5a7-c81151899d3b) | Sep 27, 2026 |
+| Software | [Uber Find Robot by Distance to Blockers Coding Interview](https://trueinterview.io/interviews/995a4c44-2530-456c-a84d-b7487a91833a) | Oct 18, 2026 |
+| Software | [Uber First Unique Visit Tracker Data Structure Coding Interview](https://trueinterview.io/interviews/c0707176-d4a0-4673-9fa6-b9c479271105) | Oct 18, 2026 |
+| Software | [Uber Graph Database Access Control System Design and N-ary Tree Serialization Interview Experience](https://trueinterview.io/interviews/6defb2b9-dcfd-4e67-b6a8-845a65da5617) | Oct 18, 2026 |
+| Software | [Uber Grid Robot with Charging Cells Coding Interview Experience](https://trueinterview.io/interviews/b83c8fe9-5578-4e73-bc3d-a21f75da0be3) | Oct 18, 2026 |
+| Software | [Uber Grid Robot with Charging Cells Coding Interview Experience](https://trueinterview.io/interviews/bbcbd83c-86a7-4221-9ae2-cc81c4a664ec) | Oct 18, 2026 |
+| Software | [Uber Infra Backend SDE L5a Interview Experience](https://trueinterview.io/interviews/83c33274-13dc-4a85-bd9e-54f4afb89aad) | Oct 18, 2026 |
+| Software | [Uber Next Palindrome (LeetCode 564 Variant) Coding Interview Experience](https://trueinterview.io/interviews/7b7279a7-3c15-4030-ad90-1cd3bb6a58fd) | Oct 18, 2026 |
+| Software | [Uber Number of Islands, Restaurant Listing Design and Parking Lot OOD Interview Experience](https://trueinterview.io/interviews/4bb9ef97-0a70-4546-aaa6-e02ed365dd12) | Oct 18, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Uber and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 3,208 in total). [Every report at Uber and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

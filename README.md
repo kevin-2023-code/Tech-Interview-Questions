@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**4,233 questions** · **216 writeups** · **130 companies** · **395 free to practise** · **471 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**4,233 questions** · **216 writeups** · **130 companies** · **394 free to practise** · **471 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -55,9 +55,9 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**395 of the 4,233 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**394 of the 4,233 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (283)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (34)](free/system-design.md) · [AI Coding (9)](free/ai-coding.md) · [Object Oriented Programming (63)](free/object-oriented-programming.md)
+[Algorithm (282)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (34)](free/system-design.md) · [AI Coding (9)](free/ai-coding.md) · [Object Oriented Programming (63)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -96,16 +96,16 @@ happened.
 <!-- gen:experiences:start -->
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |
-| **Coinbase** | Software | [Coinbase Cloud Compute Credits System Interview Experience](https://trueinterview.io/interviews/ece1fecd-5a08-42a7-80a4-b7e979f44825) | Sep 30, 2026 |
-| **Coinbase** | Software | [Coinbase Interview Experience](https://trueinterview.io/interviews/32d1ae3c-5cb4-4f6b-818b-c2153eca769d) | Sep 30, 2026 |
-| **Coinbase** | Software | [Coinbase Interview Experience](https://trueinterview.io/interviews/33b859fa-d7f9-4a03-977e-edcbd9e137ad) | Sep 30, 2026 |
-| **Coinbase** | Software | [Coinbase Software Engineer Interview Experience: Production-Quality Coding and Engineering Focus](https://trueinterview.io/interviews/f552c22a-573f-4e06-b88c-34e12599d3bd) | Sep 30, 2026 |
-| **Coinbase** | Software | [Coinbase Task Management System Coding Interview Experience](https://trueinterview.io/interviews/cde9f50f-363c-41fa-890d-e5fb59299e40) | Sep 30, 2026 |
-| **Goldman Sachs** | Data & AI | [Goldman Sachs AI Model Training Engineering Interview Experience](https://trueinterview.io/interviews/4d120ad8-545f-4e03-800f-56bd90a62fe5) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs Coderpad Coding Interview Experience: First Non-Repeating Character & Grid DP](https://trueinterview.io/interviews/06eb061a-51ea-4cbe-99a1-23014b993183) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs Coderpad DSA and SuperDay System Design Interview Experience](https://trueinterview.io/interviews/cc8e57a3-d365-42f2-b035-337909cec077) | Sep 30, 2026 |
+| **OpenAI** | Software | [OpenAI Count Paths Coding Interview Experience](https://trueinterview.io/interviews/e19a3821-34d1-45ae-b9d8-e28986865664) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Fault-Tolerant Queue and Typing Race Game Phone Screen Interview Experience](https://trueinterview.io/interviews/2b0b28b7-5326-4749-82af-216e74fe83da) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Lowest Cost Shirts Coding Interview](https://trueinterview.io/interviews/d2a14eaa-c4e8-4397-a458-1759ba59d823) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Memory Allocator (malloc/free) Phone Interview Experience](https://trueinterview.io/interviews/11d50dad-2ad3-4e78-bff8-e71f684d6c0f) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Microorganism Simulation Coding Interview Experience](https://trueinterview.io/interviews/a6346c05-0684-465d-ad2e-e7b9066b9c57) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Simple Network Endpoint and Loop Detection Coding Interview Experience](https://trueinterview.io/interviews/73a33263-39b3-480b-8db4-c7b34b7d5b20) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Software Engineer Interview Experience: Design ChatGPT, Vector Store, Job Scheduler Debugging](https://trueinterview.io/interviews/f13201af-27b5-45ac-8e62-36c1cfb80a39) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Task Scheduling Queue Coding and Online IDE System Design Interview Experience](https://trueinterview.io/interviews/c46d7a2e-ed2c-40a4-a19b-9051eedf2c00) | Oct 18, 2026 |
 
-[**2,993 reports on the board →**](experiences/README.md)
+[**3,208 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏷️ Browse by company type

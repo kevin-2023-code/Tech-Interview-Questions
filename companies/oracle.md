@@ -2,13 +2,13 @@
 
 # Oracle interview process, OA & interview questions
 
-**96 questions** reported at Oracle · **1 writeup** · **17 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
+**96 questions** reported at Oracle · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Oracle interviews & the free questions](oracle/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-oracle)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-oracle)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 18 / 65 / 13 |
 | Free to practise | [13](../free/README.md) |
 | Guides & writeups | 1 |
-| Interview reports on the board | 17 in this snapshot |
 
 <sub>Counted from the 96 questions reported at Oracle. 62 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -124,32 +123,6 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | Writeup | Topics |
 | :-- | :-- |
 | [Oracle Interview Process & Questions](https://trueinterview.io/study/oracle-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Oracle — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Data & AI | [Oracle AI Agent Evaluation and Python Technical Interview Experience](https://trueinterview.io/interviews/403c48ad-cd4a-4213-a8b4-3c12c15b3965) | Sep 30, 2026 |
-| Software | [Oracle Behavioral and Coding Interview Experience](https://trueinterview.io/interviews/fa406301-182a-4a14-b7d4-54116de900f7) | Sep 30, 2026 |
-| Software | [Oracle Binary Tree Coding and System Design Interview Experience (2025)](https://trueinterview.io/interviews/098b678a-72bb-4df2-a622-e6d9cfcbef46) | Sep 30, 2026 |
-| Software | [Oracle Cloud Infrastructure (OCI) IC4 Interview Experience (United States)](https://trueinterview.io/interviews/e3ab743a-99b1-44fa-860b-5ab2f9ab5105) | Sep 30, 2026 |
-| Software | [Oracle Coding, System Design, and Behavioral Interview Experience](https://trueinterview.io/interviews/95d252b2-d141-4b2d-87a0-7de0bbe5ff85) | Sep 30, 2026 |
-| Software | [Oracle DSA, Java, SQL, System Design, and Behavioral Interview Experience](https://trueinterview.io/interviews/dfa3997f-66a4-4538-b0f4-22235caa1b1e) | Sep 30, 2026 |
-| Software | [Oracle Four-Round Coding and Behavioral Interview Experience](https://trueinterview.io/interviews/e58b67e7-d241-492f-b149-bb78c3c62492) | Sep 30, 2026 |
-| Software | [Oracle Four-Round Final Interview Experience: Coding, Behavioral, and Design Rounds](https://trueinterview.io/interviews/fa310692-231c-4c0f-a586-f55fe76806c3) | Sep 30, 2026 |
-| Software | [Oracle Interview Experience](https://trueinterview.io/interviews/3557789f-9e93-4f47-9cf8-c15a5ec5449b) | Sep 30, 2026 |
-| Software | [Oracle Interview Experience](https://trueinterview.io/interviews/3dcd5f49-295a-41db-98a8-41117782deb5) | Sep 30, 2026 |
-| Software | [Oracle Interview Experience](https://trueinterview.io/interviews/f38c5f2c-c39d-4404-afb7-e1ffd4b2127f) | Sep 30, 2026 |
-| Software | [Oracle REST API Medical Records By Age Coding Assessment Interview Experience](https://trueinterview.io/interviews/eab5bad8-6236-4107-9282-ffddd37dc482) | Sep 30, 2026 |
-| Software | [Oracle Sliding Window & SQL Tree Classification Interview Experience](https://trueinterview.io/interviews/24a1e54e-3c46-4083-a14d-b262a2ec1bb6) | Sep 30, 2026 |
-| Software | [Oracle Software Engineer Interview Experience](https://trueinterview.io/interviews/3fd6e832-f468-4a11-98f3-d1e80e63f4b0) | Sep 30, 2026 |
-| Software | [Oracle Software Engineer Interview Experience](https://trueinterview.io/interviews/7836661b-38bb-4f30-bb95-54a7ca1ea406) | Sep 30, 2026 |
-| Software | [Oracle System Design Interview Experience: Top K URL, Event Stream, and Log Collection](https://trueinterview.io/interviews/0861e4f8-afcb-4287-84ce-382b20895da8) | Sep 30, 2026 |
-| Software | [Oracle Zoom + HackerRank Behavioral and LeetCode Sqrt(x) Coding Interview Experience](https://trueinterview.io/interviews/46a91614-afa6-49f7-a74d-77ffae87a7c6) | Sep 30, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Oracle and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

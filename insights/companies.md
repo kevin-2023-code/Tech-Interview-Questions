@@ -48,7 +48,7 @@
 | [Microsoft](../companies/microsoft.md) | 207 | 5 | 22 | 35 | Oct 03, 2026 | Algorithm | `strings` |
 | [OpenAI](../companies/openai.md) | 158 | 7 | 13 | 18 | Sep 28, 2026 | Algorithm | `graphs` |
 | [Apple](../companies/apple.md) | 150 | 4 | 22 | 14 | Oct 02, 2026 | Algorithm | `hashing` |
-| [Snowflake](../companies/snowflake.md) | 133 | 1 | 26 | 10 | Oct 01, 2026 | Algorithm | `graphs` |
+| [Snowflake](../companies/snowflake.md) | 133 | 1 | 25 | 10 | Oct 01, 2026 | Algorithm | `graphs` |
 | [LinkedIn](../companies/linkedin.md) | 118 | 4 | 11 | 19 | Oct 01, 2026 | Algorithm | `hashing` |
 | [DoorDash](../companies/doordash.md) | 108 | 3 | 5 | 12 | Sep 16, 2026 | Algorithm | `arrays` |
 | [Stripe](../companies/stripe.md) | 103 | 1 | 5 | 12 | Oct 04, 2026 | Algorithm | `strings` |

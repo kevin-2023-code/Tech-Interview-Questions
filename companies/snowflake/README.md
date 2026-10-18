@@ -9,7 +9,7 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [133](../snowflake.md) |
-| Free to read here | 26 |
+| Free to read here | 25 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Snowflake questions
 
-26 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+25 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -69,7 +69,6 @@ Here's what the interview process can look like:
 | [Find Unique Number in Consecutive Pairs](../../questions/algorithm/find-unique-number-in-consecutive-pairs/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027) |
 | [Minimize Marbles in Grid](../../questions/algorithm/minimize-marbles-in-grid/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) |
 | [Implement Trie with Non-Standard Alphabet](../../questions/algorithm/implement-trie-with-non-standard-alphabet/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712) |
-| [Connect Four Game Evaluation](../../questions/algorithm/connect-four-game-evaluation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/996df6f4-26e7-4a59-953f-eeec0b118171) |
 | [Calculate Fibonacci Number](../../questions/algorithm/calculate-fibonacci-number/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216) |
 | [Determine if a Binary Tree is Perfect](../../questions/algorithm/determine-if-a-binary-tree-is-perfect/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671) |
 | [Simple TypeScript Program](../../questions/algorithm/simple-typescript-program/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) |

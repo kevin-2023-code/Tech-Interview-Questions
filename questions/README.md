@@ -6,7 +6,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 
 [← Question bank](../README.md) · [Companies](../companies/README.md) · [Free questions, with statistics](../free/README.md)
 
-## Algorithm (283)
+## Algorithm (282)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -102,7 +102,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Citation Highlighting](algorithm/citation-highlighting/README.md) | Medium | Harvey |
 | [Closest Cake and Global Assignment](algorithm/closest-cake-and-global-assignment/README.md) | Medium | Snowflake |
 | [Cloud Storage System](algorithm/cloud-storage-system/README.md) | Medium | Ramp |
-| [Connect Four Game Evaluation](algorithm/connect-four-game-evaluation/README.md) | Medium | Snowflake |
 | [Contains Duplicate III](algorithm/contains-duplicate-iii/README.md) | Medium | Netflix |
 | [Count Alert Triggers](algorithm/count-alert-triggers/README.md) | Medium | Yelp |
 | [Count Palindromic Substrings](algorithm/palindromic-substrings/README.md) | Medium | Goldman Sachs · Citadel · Voleon |

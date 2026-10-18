@@ -2,7 +2,7 @@
 
 # Stripe interview process, OA & interview questions
 
-**103 questions** reported at Stripe · **1 writeup** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
+**103 questions** reported at Stripe · **1 writeup** · **23 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Stripe interviews & the free questions](stripe/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -21,7 +21,7 @@
 | Difficulty (easy / medium / hard) | 19 / 64 / 20 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
-| Interview reports on the board | 4 in this snapshot |
+| Interview reports on the board | 23 in this snapshot |
 
 <sub>Counted from the 103 questions reported at Stripe. 62 of them carry a sighting date; the other 41 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -126,12 +126,31 @@ What candidates said happened in the room at Stripe — written up by the people
 
 | Role | Report | Posted |
 | :-- | :-- | :-- |
-| Software | [Stripe Distributed Cloud Request Routing System Coding Interview Experience](https://trueinterview.io/interviews/357b044e-fe20-4ab8-9537-1d45527b0ca0) | Sep 27, 2026 |
-| Software | [Stripe Incident Monitor Interview Experience](https://trueinterview.io/interviews/c9e0df7a-3b7d-4b7f-a3e0-20e4bbe18a29) | Sep 27, 2026 |
-| Software | [Stripe OA Interview Experience](https://trueinterview.io/interviews/81361fdd-0cb7-47a2-82cf-2dfe921530c8) | Sep 27, 2026 |
-| Software | [Stripe Request Routing Coding Interview Experience](https://trueinterview.io/interviews/d0fbea13-bf1a-4e52-a1d8-fab28a138dfe) | Sep 27, 2026 |
+| Software | [Stripe CSV Data Validator Coding Interview Experience](https://trueinterview.io/interviews/e70214b8-3f70-477f-965c-35384d22002d) | Oct 18, 2026 |
+| Software | [Stripe Data Center Routing OA and Task Tree Virtual Onsite Interview Experience](https://trueinterview.io/interviews/c16aeced-4da1-4176-8f76-3556afda388e) | Oct 18, 2026 |
+| Software | [Stripe Intern Interview Experience (San Francisco, 2025)](https://trueinterview.io/interviews/79b9ec1f-bf2e-4fb2-89a0-6becba4c6c37) | Oct 18, 2026 |
+| Software | [Stripe Interview Experience](https://trueinterview.io/interviews/2f288c0b-a8c1-474e-aa5f-8c00dc142e19) | Oct 18, 2026 |
+| Software | [Stripe Interview Experience](https://trueinterview.io/interviews/98a64178-8085-4667-9e4a-43f36ebdfd28) | Oct 18, 2026 |
+| Software | [Stripe Interview Experience: AI-Assisted Coding, Integration, Debug](https://trueinterview.io/interviews/1a97e8e2-0616-4c45-b0a9-adbd354f7a70) | Oct 18, 2026 |
+| Software | [Stripe Invoice Payment Coding Interview Experience](https://trueinterview.io/interviews/02b1fb43-1ad9-451d-afa1-437890c123f7) | Oct 18, 2026 |
+| Software | [Stripe KYC Verification Coding Interview Experience](https://trueinterview.io/interviews/c671c0da-707d-4960-82d2-591e63e5fba3) | Oct 18, 2026 |
+| Software | [Stripe Ledger System Design, Debugging and AI Coding Virtual Onsite Interview Experience](https://trueinterview.io/interviews/8f65829d-5a0b-4e05-8b42-6bd0afc19dce) | Oct 18, 2026 |
+| Software | [Stripe Memo Line and Payment Reconciliation Interview Experience](https://trueinterview.io/interviews/9c13b35b-bf62-4698-b5d9-82116278ba91) | Oct 18, 2026 |
+| Software | [Stripe New Grad Software Engineer Interview Experience](https://trueinterview.io/interviews/b762ada8-122e-4444-8d66-297abd3c831a) | Oct 18, 2026 |
+| Software | [Stripe Online Assessment Interview Experience](https://trueinterview.io/interviews/e1683e06-5af6-42e3-a4e7-d4dceee6cb60) | Oct 18, 2026 |
+| Software | [Stripe Online Assessment Interview Experience (Deployment Window Scheduler)](https://trueinterview.io/interviews/8a4cbaa2-b844-4e80-8fde-10de02f8e7b2) | Oct 18, 2026 |
+| Software | [Stripe Proximity Request Routing Coding Interview Experience (Rejected)](https://trueinterview.io/interviews/4d8bb20b-8047-433a-825a-5bbbf514b8a3) | Oct 18, 2026 |
+| Software | [Stripe Senior Interview Experience: Debugging, AI-Assisted Coding and Map Plotting Onsite](https://trueinterview.io/interviews/fd1052e3-43a9-4a94-9bbe-8b86a2c2ea2c) | Oct 18, 2026 |
+| Software | [Stripe Software Engineer Interview Experience](https://trueinterview.io/interviews/4cb102cb-356a-4fce-87df-e5e7f70af30d) | Oct 18, 2026 |
+| Software | [Stripe Software Engineer Interview Experience](https://trueinterview.io/interviews/5725435a-80d8-41c0-8f82-2ae2d4dd0368) | Oct 18, 2026 |
+| Software | [Stripe Software Engineer Interview Experience](https://trueinterview.io/interviews/b258fe6a-dcdd-4ef9-b873-c2778c15dbe7) | Oct 18, 2026 |
+| Software | [Stripe Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/8cbabf5f-f46e-4226-a50c-41be2f404517) | Oct 18, 2026 |
+| Software | [Stripe Split Tender Coding Interview Experience](https://trueinterview.io/interviews/89838328-8195-451b-914e-1987df903f2d) | Oct 18, 2026 |
+| Software | [Stripe Staff Software Engineer Interview Experience (Feature Flag Design and AI-Assisted Coding)](https://trueinterview.io/interviews/cb203597-1fd6-49ee-8444-b12c135194ef) | Oct 18, 2026 |
+| Software | [Stripe Staff-Level Interview Experience: AI-Assisted Coding and Metrics Monitoring System Design](https://trueinterview.io/interviews/2bc42fb7-a860-468e-aa4e-43a0e1d2e664) | Oct 18, 2026 |
+| Software | [Stripe Subscription and Usage Billing Calculator Coding Interview](https://trueinterview.io/interviews/7d496d32-5bc7-4d66-9901-a075c051f00a) | Oct 18, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Stripe and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 3,208 in total). [Every report at Stripe and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

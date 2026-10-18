@@ -6,59 +6,59 @@ What candidates say happened in the room — written up by the people who sat th
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md)
 
-> **These are the 50 newest of 2,993 reports on the board.** The catalog API hands over one capped page and takes no offset, so this page cannot carry the rest; they are all at [the board](https://trueinterview.io/interviews).
+> **These are the 50 newest of 3,208 reports on the board.** The catalog API hands over one capped page and takes no offset, so this page cannot carry the rest; they are all at [the board](https://trueinterview.io/interviews).
 
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |
-| **Coinbase** | Software | [Coinbase Cloud Compute Credits System Interview Experience](https://trueinterview.io/interviews/ece1fecd-5a08-42a7-80a4-b7e979f44825) | Sep 30, 2026 |
-| **Coinbase** | Software | [Coinbase Interview Experience](https://trueinterview.io/interviews/32d1ae3c-5cb4-4f6b-818b-c2153eca769d) | Sep 30, 2026 |
-| **Coinbase** | Software | [Coinbase Interview Experience](https://trueinterview.io/interviews/33b859fa-d7f9-4a03-977e-edcbd9e137ad) | Sep 30, 2026 |
-| **Coinbase** | Software | [Coinbase Software Engineer Interview Experience: Production-Quality Coding and Engineering Focus](https://trueinterview.io/interviews/f552c22a-573f-4e06-b88c-34e12599d3bd) | Sep 30, 2026 |
-| **Coinbase** | Software | [Coinbase Task Management System Coding Interview Experience](https://trueinterview.io/interviews/cde9f50f-363c-41fa-890d-e5fb59299e40) | Sep 30, 2026 |
-| **Goldman Sachs** | Data & AI | [Goldman Sachs AI Model Training Engineering Interview Experience](https://trueinterview.io/interviews/4d120ad8-545f-4e03-800f-56bd90a62fe5) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs Coderpad Coding Interview Experience: First Non-Repeating Character & Grid DP](https://trueinterview.io/interviews/06eb061a-51ea-4cbe-99a1-23014b993183) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs Coderpad DSA and SuperDay System Design Interview Experience](https://trueinterview.io/interviews/cc8e57a3-d365-42f2-b035-337909cec077) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs Coding and System Design Interview Experience (Pastebin System Design)](https://trueinterview.io/interviews/2f5dfe0e-71d2-44b6-a618-820de3ee08a6) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs Coding and System Design Interview Experience: The Maze, Deduplication Engine, and Frequency of the Most Frequent Element](https://trueinterview.io/interviews/18374f4f-cce7-4c85-8d11-e29bdd35c3d0) | Sep 30, 2026 |
-| **Goldman Sachs** | Quantitative Finance | [Goldman Sachs GSAM QR Interview Experience (2023)](https://trueinterview.io/interviews/6df385e3-fb0c-4675-be81-85a3c316bf6c) | Sep 30, 2026 |
-| **Goldman Sachs** | Quantitative Finance | [Goldman Sachs Probability and Fixed Income Interview Experience](https://trueinterview.io/interviews/6d962c65-67fa-4ae3-9419-71ad8385ab63) | Sep 30, 2026 |
-| **Goldman Sachs** | Quantitative Finance | [Goldman Sachs Quantitative and Linear Algebra Interview Experience](https://trueinterview.io/interviews/21bd3ab4-b32d-4b59-9295-6d869a3fa58a) | Sep 30, 2026 |
-| **Goldman Sachs** | Quantitative Finance | [Goldman Sachs Quantitative Engineering Interview Experience](https://trueinterview.io/interviews/9f536166-21f4-4226-9942-63c1f76d9ac3) | Sep 30, 2026 |
-| **Goldman Sachs** | Software | [Goldman Sachs SDE Interview Experience (Beijing, 2025)](https://trueinterview.io/interviews/39d0c1f5-d42b-4d8f-8e62-7cfbe891b99c) | Sep 30, 2026 |
-| **Oracle** | Data & AI | [Oracle AI Agent Evaluation and Python Technical Interview Experience](https://trueinterview.io/interviews/403c48ad-cd4a-4213-a8b4-3c12c15b3965) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Behavioral and Coding Interview Experience](https://trueinterview.io/interviews/fa406301-182a-4a14-b7d4-54116de900f7) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Binary Tree Coding and System Design Interview Experience (2025)](https://trueinterview.io/interviews/098b678a-72bb-4df2-a622-e6d9cfcbef46) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Cloud Infrastructure (OCI) IC4 Interview Experience (United States)](https://trueinterview.io/interviews/e3ab743a-99b1-44fa-860b-5ab2f9ab5105) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Coding, System Design, and Behavioral Interview Experience](https://trueinterview.io/interviews/95d252b2-d141-4b2d-87a0-7de0bbe5ff85) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle DSA, Java, SQL, System Design, and Behavioral Interview Experience](https://trueinterview.io/interviews/dfa3997f-66a4-4538-b0f4-22235caa1b1e) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Four-Round Coding and Behavioral Interview Experience](https://trueinterview.io/interviews/e58b67e7-d241-492f-b149-bb78c3c62492) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Four-Round Final Interview Experience: Coding, Behavioral, and Design Rounds](https://trueinterview.io/interviews/fa310692-231c-4c0f-a586-f55fe76806c3) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Interview Experience](https://trueinterview.io/interviews/3557789f-9e93-4f47-9cf8-c15a5ec5449b) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Interview Experience](https://trueinterview.io/interviews/3dcd5f49-295a-41db-98a8-41117782deb5) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Interview Experience](https://trueinterview.io/interviews/f38c5f2c-c39d-4404-afb7-e1ffd4b2127f) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle REST API Medical Records By Age Coding Assessment Interview Experience](https://trueinterview.io/interviews/eab5bad8-6236-4107-9282-ffddd37dc482) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Sliding Window & SQL Tree Classification Interview Experience](https://trueinterview.io/interviews/24a1e54e-3c46-4083-a14d-b262a2ec1bb6) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Software Engineer Interview Experience](https://trueinterview.io/interviews/3fd6e832-f468-4a11-98f3-d1e80e63f4b0) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Software Engineer Interview Experience](https://trueinterview.io/interviews/7836661b-38bb-4f30-bb95-54a7ca1ea406) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle System Design Interview Experience: Top K URL, Event Stream, and Log Collection](https://trueinterview.io/interviews/0861e4f8-afcb-4287-84ce-382b20895da8) | Sep 30, 2026 |
-| **Oracle** | Software | [Oracle Zoom + HackerRank Behavioral and LeetCode Sqrt(x) Coding Interview Experience](https://trueinterview.io/interviews/46a91614-afa6-49f7-a74d-77ffae87a7c6) | Sep 30, 2026 |
-| **LinkedIn** | Software | [LinkedIn Multiple Roles Interview Experience](https://trueinterview.io/interviews/8c7d147c-48c7-4b95-ad45-65f0aab9308a) | Sep 27, 2026 |
-| **LinkedIn** | Software | [LinkedIn Software Engineer Interview Experience](https://trueinterview.io/interviews/fafffd7d-0148-4e0c-b7e7-49088380fe6b) | Sep 27, 2026 |
-| **LinkedIn** | Software | [LinkedIn Staff Software Engineer Interview Experience](https://trueinterview.io/interviews/55459b32-c957-40d9-ad40-49afec7d2dae) | Sep 27, 2026 |
-| **Netflix** | Software | [Netflix String Arrays and Movie Deduplication Interview Experience](https://trueinterview.io/interviews/5d86dc85-2b88-4b1e-a8eb-0305663b9ec3) | Sep 27, 2026 |
-| **OpenAI** | Software | [OpenAI Chess.com System Design Interview Experience](https://trueinterview.io/interviews/f8f5171e-ab67-4ea2-83e8-852449b6a893) | Sep 27, 2026 |
-| **Pinterest** | Software | [Pinterest SDE2 Interview Experience](https://trueinterview.io/interviews/519ecb26-48c1-4198-a490-a8c6b6cfdf77) | Sep 27, 2026 |
-| **Pinterest** | Software | [Pinterest Senior Software Engineer Interview Experience: Region Tree Access Control System Design](https://trueinterview.io/interviews/b1c34d1b-e5ae-4d52-95ed-c2810a070236) | Sep 27, 2026 |
-| **Salesforce** | Software | [Salesforce Software Engineer (GCP Team) Interview Experience (San Francisco)](https://trueinterview.io/interviews/044cf02a-8ec0-4c03-af09-3847e3713990) | Sep 27, 2026 |
-| **Snowflake** | Software | [Snowflake Dynamic Programming OA and Coding Onsite Interview Experience](https://trueinterview.io/interviews/4fa317f2-802f-489a-9f79-51caeb3f7042) | Sep 27, 2026 |
-| **Snowflake** | Software | [Snowflake Interview Experience](https://trueinterview.io/interviews/2f6df099-034d-44a9-88b6-b2b6bfb0d61a) | Sep 27, 2026 |
-| **Snowflake** | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/093ea1be-0a23-4b05-8c78-d15b7c09e2f9) | Sep 27, 2026 |
-| **Snowflake** | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/4b999f4f-c271-41a9-972c-0401de88773b) | Sep 27, 2026 |
-| **Stripe** | Software | [Stripe Distributed Cloud Request Routing System Coding Interview Experience](https://trueinterview.io/interviews/357b044e-fe20-4ab8-9537-1d45527b0ca0) | Sep 27, 2026 |
-| **Stripe** | Software | [Stripe Incident Monitor Interview Experience](https://trueinterview.io/interviews/c9e0df7a-3b7d-4b7f-a3e0-20e4bbe18a29) | Sep 27, 2026 |
-| **Stripe** | Software | [Stripe OA Interview Experience](https://trueinterview.io/interviews/81361fdd-0cb7-47a2-82cf-2dfe921530c8) | Sep 27, 2026 |
-| **Stripe** | Software | [Stripe Request Routing Coding Interview Experience](https://trueinterview.io/interviews/d0fbea13-bf1a-4e52-a1d8-fab28a138dfe) | Sep 27, 2026 |
-| **Uber** | Software | [Uber Senior Software Engineer Interview Experience](https://trueinterview.io/interviews/b0cbabe9-08e0-4f09-aff4-1a9e1c3313e1) | Sep 27, 2026 |
-| **Uber** | Software | [Uber Word Search II Variant and Project Deep Dive Interview Experience (2025)](https://trueinterview.io/interviews/37b6ec25-fbfe-42d4-b5a7-c81151899d3b) | Sep 27, 2026 |
+| **OpenAI** | Software | [OpenAI Count Paths Coding Interview Experience](https://trueinterview.io/interviews/e19a3821-34d1-45ae-b9d8-e28986865664) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Fault-Tolerant Queue and Typing Race Game Phone Screen Interview Experience](https://trueinterview.io/interviews/2b0b28b7-5326-4749-82af-216e74fe83da) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Lowest Cost Shirts Coding Interview](https://trueinterview.io/interviews/d2a14eaa-c4e8-4397-a458-1759ba59d823) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Memory Allocator (malloc/free) Phone Interview Experience](https://trueinterview.io/interviews/11d50dad-2ad3-4e78-bff8-e71f684d6c0f) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Microorganism Simulation Coding Interview Experience](https://trueinterview.io/interviews/a6346c05-0684-465d-ad2e-e7b9066b9c57) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Simple Network Endpoint and Loop Detection Coding Interview Experience](https://trueinterview.io/interviews/73a33263-39b3-480b-8db4-c7b34b7d5b20) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Software Engineer Interview Experience: Design ChatGPT, Vector Store, Job Scheduler Debugging](https://trueinterview.io/interviews/f13201af-27b5-45ac-8e62-36c1cfb80a39) | Oct 18, 2026 |
+| **OpenAI** | Software | [OpenAI Task Scheduling Queue Coding and Online IDE System Design Interview Experience](https://trueinterview.io/interviews/c46d7a2e-ed2c-40a4-a19b-9051eedf2c00) | Oct 18, 2026 |
+| **Snowflake** | Data & AI | [Snowflake AI Engineer Interview Experience](https://trueinterview.io/interviews/f8d21bf6-c4f8-45f6-bbc7-edde64e8e22f) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake AI-Conducted Screening Interview Experience](https://trueinterview.io/interviews/93d71564-4ac9-4598-b61c-90c4e6768199) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake Bus Schedule Coding and Web Crawler System Design Interview Experience](https://trueinterview.io/interviews/fe4023de-b2ff-420f-a4f0-7b82552a2582) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake DAG Coding and Cloud Control Plane System Design Phone Screen Interview Experience](https://trueinterview.io/interviews/8b877a75-1ada-4afd-bf36-a0e35fe5b6c5) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake Encode and Decode Strings Phone Screen Interview Experience](https://trueinterview.io/interviews/4b0b8048-2594-4ee3-b398-594b776101f1) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake General SDE Interview Experience](https://trueinterview.io/interviews/2c8b7ea5-dc05-45aa-b4cd-7aa646a06fa2) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake Org Chart Reporting Forest Coding and Agent System Design Interview Experience](https://trueinterview.io/interviews/bea9380f-0960-4466-a56c-061742f2481a) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake Permission Inheritance and N-ary Tree Depth Coding Interview Experience](https://trueinterview.io/interviews/92b5580d-843b-4b78-99c7-e2e4b9ef7028) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake Phone Screen Interview Experience](https://trueinterview.io/interviews/cfa8e587-98f0-4fa5-a1f5-7afe3c591d71) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake Rate Limiter Phone Screen Interview Experience](https://trueinterview.io/interviews/9615e3b1-31ab-410d-b64d-970c78628db8) | Oct 18, 2026 |
+| **Snowflake** | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/80ec60d2-ab1a-4b56-bc3e-b9a4b4371df6) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe CSV Data Validator Coding Interview Experience](https://trueinterview.io/interviews/e70214b8-3f70-477f-965c-35384d22002d) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Data Center Routing OA and Task Tree Virtual Onsite Interview Experience](https://trueinterview.io/interviews/c16aeced-4da1-4176-8f76-3556afda388e) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Intern Interview Experience (San Francisco, 2025)](https://trueinterview.io/interviews/79b9ec1f-bf2e-4fb2-89a0-6becba4c6c37) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Interview Experience](https://trueinterview.io/interviews/2f288c0b-a8c1-474e-aa5f-8c00dc142e19) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Interview Experience](https://trueinterview.io/interviews/98a64178-8085-4667-9e4a-43f36ebdfd28) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Interview Experience: AI-Assisted Coding, Integration, Debug](https://trueinterview.io/interviews/1a97e8e2-0616-4c45-b0a9-adbd354f7a70) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Invoice Payment Coding Interview Experience](https://trueinterview.io/interviews/02b1fb43-1ad9-451d-afa1-437890c123f7) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe KYC Verification Coding Interview Experience](https://trueinterview.io/interviews/c671c0da-707d-4960-82d2-591e63e5fba3) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Ledger System Design, Debugging and AI Coding Virtual Onsite Interview Experience](https://trueinterview.io/interviews/8f65829d-5a0b-4e05-8b42-6bd0afc19dce) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Memo Line and Payment Reconciliation Interview Experience](https://trueinterview.io/interviews/9c13b35b-bf62-4698-b5d9-82116278ba91) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe New Grad Software Engineer Interview Experience](https://trueinterview.io/interviews/b762ada8-122e-4444-8d66-297abd3c831a) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Online Assessment Interview Experience](https://trueinterview.io/interviews/e1683e06-5af6-42e3-a4e7-d4dceee6cb60) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Online Assessment Interview Experience (Deployment Window Scheduler)](https://trueinterview.io/interviews/8a4cbaa2-b844-4e80-8fde-10de02f8e7b2) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Proximity Request Routing Coding Interview Experience (Rejected)](https://trueinterview.io/interviews/4d8bb20b-8047-433a-825a-5bbbf514b8a3) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Senior Interview Experience: Debugging, AI-Assisted Coding and Map Plotting Onsite](https://trueinterview.io/interviews/fd1052e3-43a9-4a94-9bbe-8b86a2c2ea2c) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Software Engineer Interview Experience](https://trueinterview.io/interviews/4cb102cb-356a-4fce-87df-e5e7f70af30d) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Software Engineer Interview Experience](https://trueinterview.io/interviews/5725435a-80d8-41c0-8f82-2ae2d4dd0368) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Software Engineer Interview Experience](https://trueinterview.io/interviews/b258fe6a-dcdd-4ef9-b873-c2778c15dbe7) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/8cbabf5f-f46e-4226-a50c-41be2f404517) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Split Tender Coding Interview Experience](https://trueinterview.io/interviews/89838328-8195-451b-914e-1987df903f2d) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Staff Software Engineer Interview Experience (Feature Flag Design and AI-Assisted Coding)](https://trueinterview.io/interviews/cb203597-1fd6-49ee-8444-b12c135194ef) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Staff-Level Interview Experience: AI-Assisted Coding and Metrics Monitoring System Design](https://trueinterview.io/interviews/2bc42fb7-a860-468e-aa4e-43a0e1d2e664) | Oct 18, 2026 |
+| **Stripe** | Software | [Stripe Subscription and Usage Billing Calculator Coding Interview](https://trueinterview.io/interviews/7d496d32-5bc7-4d66-9901-a075c051f00a) | Oct 18, 2026 |
+| **Uber** | Software | [Uber Find Robot by Distance to Blockers Coding Interview](https://trueinterview.io/interviews/995a4c44-2530-456c-a84d-b7487a91833a) | Oct 18, 2026 |
+| **Uber** | Software | [Uber First Unique Visit Tracker Data Structure Coding Interview](https://trueinterview.io/interviews/c0707176-d4a0-4673-9fa6-b9c479271105) | Oct 18, 2026 |
+| **Uber** | Software | [Uber Graph Database Access Control System Design and N-ary Tree Serialization Interview Experience](https://trueinterview.io/interviews/6defb2b9-dcfd-4e67-b6a8-845a65da5617) | Oct 18, 2026 |
+| **Uber** | Software | [Uber Grid Robot with Charging Cells Coding Interview Experience](https://trueinterview.io/interviews/b83c8fe9-5578-4e73-bc3d-a21f75da0be3) | Oct 18, 2026 |
+| **Uber** | Software | [Uber Grid Robot with Charging Cells Coding Interview Experience](https://trueinterview.io/interviews/bbcbd83c-86a7-4221-9ae2-cc81c4a664ec) | Oct 18, 2026 |
+| **Uber** | Software | [Uber Infra Backend SDE L5a Interview Experience](https://trueinterview.io/interviews/83c33274-13dc-4a85-bd9e-54f4afb89aad) | Oct 18, 2026 |
+| **Uber** | Software | [Uber Next Palindrome (LeetCode 564 Variant) Coding Interview Experience](https://trueinterview.io/interviews/7b7279a7-3c15-4030-ad90-1cd3bb6a58fd) | Oct 18, 2026 |
+| **Uber** | Software | [Uber Number of Islands, Restaurant Listing Design and Parking Lot OOD Interview Experience](https://trueinterview.io/interviews/4bb9ef97-0a70-4546-aaa6-e02ed365dd12) | Oct 18, 2026 |
 
 [**Every report on the board →**](https://trueinterview.io/interviews)

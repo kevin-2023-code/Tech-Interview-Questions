@@ -50,7 +50,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,516 | 59% | 223 | 447 | 1,542 | 527 | 2,516 | 283 |
+| [Algorithm](../formats/algorithm.md) | 2,516 | 59% | 223 | 447 | 1,542 | 527 | 2,516 | 282 |
 | [SQL](../formats/sql.md) | 297 | 7% | 38 | 65 | 179 | 53 | 297 | 6 |
 | [System Design](../formats/system-design.md) | 703 | 17% | 138 | 29 | 365 | 309 | 703 | 34 |
 | [AI Coding](../formats/ai-coding.md) | 109 | 3% | 2 | 7 | 69 | 33 | 109 | 9 |
@@ -145,11 +145,11 @@ The closest thing this data has to an instruction. A question reported at one em
 
 | Plan needed | Questions | Share of bank |
 | :-- | --: | --: |
-| Free | 395 | 9% |
+| Free | 394 | 9% |
 | Pro | 78 | 2% |
-| Insider | 3,760 | 89% |
+| Insider | 3,761 | 89% |
 
-<sub>Straight from the catalog's own `accessTier`, never asserted here. The **395 free ones are listed in full** — [start there](../free/README.md).</sub>
+<sub>Straight from the catalog's own `accessTier`, never asserted here. The **394 free ones are listed in full** — [start there](../free/README.md).</sub>
 
 ## Month by month
 

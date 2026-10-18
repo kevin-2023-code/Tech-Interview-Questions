@@ -2,13 +2,13 @@
 
 # LinkedIn interview process, OA & interview questions
 
-**118 questions** reported at LinkedIn · **4 writeups** · **3 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
+**118 questions** reported at LinkedIn · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How LinkedIn interviews & the free questions](linkedin/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📱 [Consumer internet & media](../company-types/consumer-internet.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-linkedin)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-linkedin)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 12 / 82 / 24 |
 | Free to practise | [11](../free/README.md) |
 | Guides & writeups | 4 |
-| Interview reports on the board | 3 in this snapshot |
 
 <sub>Counted from the 118 questions reported at LinkedIn. 68 of them carry a sighting date; the other 50 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -125,18 +124,6 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [LinkedIn Interview Process & Questions](https://trueinterview.io/study/linkedin-interview-process) | — |
 | [LinkedIn Machine Learning Engineer Interview Process](https://trueinterview.io/study/linkedin-machine-learning-engineer-interview-process) | — |
 | [LinkedIn Software Engineer Interview Process](https://trueinterview.io/study/linkedin-software-engineer-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at LinkedIn — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [LinkedIn Multiple Roles Interview Experience](https://trueinterview.io/interviews/8c7d147c-48c7-4b95-ad45-65f0aab9308a) | Sep 27, 2026 |
-| Software | [LinkedIn Software Engineer Interview Experience](https://trueinterview.io/interviews/fafffd7d-0148-4e0c-b7e7-49088380fe6b) | Sep 27, 2026 |
-| Software | [LinkedIn Staff Software Engineer Interview Experience](https://trueinterview.io/interviews/55459b32-c957-40d9-ad40-49afec7d2dae) | Sep 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at LinkedIn and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

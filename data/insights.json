@@ -1,7 +1,7 @@
 {
   "accessTiers": {
-    "free": 395,
-    "insider": 3760,
+    "free": 394,
+    "insider": 3761,
     "pro": 78
   },
   "companies": [
@@ -111,7 +111,7 @@
     },
     {
       "dated": 87,
-      "free": 26,
+      "free": 25,
       "guides": 1,
       "inLastYear": 83,
       "inWindow": 10,
@@ -1706,7 +1706,7 @@
     {
       "easy": 447,
       "format": "algorithm",
-      "free": 283,
+      "free": 282,
       "graded": 2516,
       "hard": 527,
       "inWindow": 223,
@@ -3232,7 +3232,7 @@
   "totals": {
     "companies": 130,
     "dated": 2535,
-    "free": 395,
+    "free": 394,
     "futureDated": 0,
     "gradedDifficulty": 4233,
     "guides": 216,

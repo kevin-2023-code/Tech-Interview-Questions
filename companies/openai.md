@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**158 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**158 questions** reported at OpenAI · **7 writeups** · **8 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OpenAI interviews & the free questions](openai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -21,7 +21,7 @@
 | Difficulty (easy / medium / hard) | 13 / 75 / 70 |
 | Free to practise | [13](../free/README.md) |
 | Guides & writeups | 7 |
-| Interview reports on the board | 1 in this snapshot |
+| Interview reports on the board | 8 in this snapshot |
 
 <sub>Counted from the 158 questions reported at OpenAI. 95 of them carry a sighting date; the other 63 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -134,9 +134,16 @@ What candidates said happened in the room at OpenAI — written up by the people
 
 | Role | Report | Posted |
 | :-- | :-- | :-- |
-| Software | [OpenAI Chess.com System Design Interview Experience](https://trueinterview.io/interviews/f8f5171e-ab67-4ea2-83e8-852449b6a893) | Sep 27, 2026 |
+| Software | [OpenAI Count Paths Coding Interview Experience](https://trueinterview.io/interviews/e19a3821-34d1-45ae-b9d8-e28986865664) | Oct 18, 2026 |
+| Software | [OpenAI Fault-Tolerant Queue and Typing Race Game Phone Screen Interview Experience](https://trueinterview.io/interviews/2b0b28b7-5326-4749-82af-216e74fe83da) | Oct 18, 2026 |
+| Software | [OpenAI Lowest Cost Shirts Coding Interview](https://trueinterview.io/interviews/d2a14eaa-c4e8-4397-a458-1759ba59d823) | Oct 18, 2026 |
+| Software | [OpenAI Memory Allocator (malloc/free) Phone Interview Experience](https://trueinterview.io/interviews/11d50dad-2ad3-4e78-bff8-e71f684d6c0f) | Oct 18, 2026 |
+| Software | [OpenAI Microorganism Simulation Coding Interview Experience](https://trueinterview.io/interviews/a6346c05-0684-465d-ad2e-e7b9066b9c57) | Oct 18, 2026 |
+| Software | [OpenAI Simple Network Endpoint and Loop Detection Coding Interview Experience](https://trueinterview.io/interviews/73a33263-39b3-480b-8db4-c7b34b7d5b20) | Oct 18, 2026 |
+| Software | [OpenAI Software Engineer Interview Experience: Design ChatGPT, Vector Store, Job Scheduler Debugging](https://trueinterview.io/interviews/f13201af-27b5-45ac-8e62-36c1cfb80a39) | Oct 18, 2026 |
+| Software | [OpenAI Task Scheduling Queue Coding and Online IDE System Design Interview Experience](https://trueinterview.io/interviews/c46d7a2e-ed2c-40a4-a19b-9051eedf2c00) | Oct 18, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at OpenAI and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 3,208 in total). [Every report at OpenAI and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

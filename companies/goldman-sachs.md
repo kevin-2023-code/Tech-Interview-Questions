@@ -2,13 +2,13 @@
 
 # Goldman Sachs interview process, OA & interview questions
 
-**53 questions** reported at Goldman Sachs · **1 writeup** · **10 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
+**53 questions** reported at Goldman Sachs · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Goldman Sachs interviews & the free questions](goldman-sachs/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏦 [Banks, insurers & asset managers](../company-types/banking-finance.md) · 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-goldman-sachs)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-goldman-sachs)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 16 / 33 / 4 |
 | Free to practise | [24](../free/README.md) |
 | Guides & writeups | 1 |
-| Interview reports on the board | 10 in this snapshot |
 
 <sub>Counted from the 53 questions reported at Goldman Sachs. 40 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -113,25 +112,6 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | Writeup | Topics |
 | :-- | :-- |
 | [Goldman Sachs Interview Process & Questions](https://trueinterview.io/study/goldmansachs-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Goldman Sachs — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Data & AI | [Goldman Sachs AI Model Training Engineering Interview Experience](https://trueinterview.io/interviews/4d120ad8-545f-4e03-800f-56bd90a62fe5) | Sep 30, 2026 |
-| Software | [Goldman Sachs Coderpad Coding Interview Experience: First Non-Repeating Character & Grid DP](https://trueinterview.io/interviews/06eb061a-51ea-4cbe-99a1-23014b993183) | Sep 30, 2026 |
-| Software | [Goldman Sachs Coderpad DSA and SuperDay System Design Interview Experience](https://trueinterview.io/interviews/cc8e57a3-d365-42f2-b035-337909cec077) | Sep 30, 2026 |
-| Software | [Goldman Sachs Coding and System Design Interview Experience (Pastebin System Design)](https://trueinterview.io/interviews/2f5dfe0e-71d2-44b6-a618-820de3ee08a6) | Sep 30, 2026 |
-| Software | [Goldman Sachs Coding and System Design Interview Experience: The Maze, Deduplication Engine, and Frequency of the Most Frequent Element](https://trueinterview.io/interviews/18374f4f-cce7-4c85-8d11-e29bdd35c3d0) | Sep 30, 2026 |
-| Quantitative Finance | [Goldman Sachs GSAM QR Interview Experience (2023)](https://trueinterview.io/interviews/6df385e3-fb0c-4675-be81-85a3c316bf6c) | Sep 30, 2026 |
-| Quantitative Finance | [Goldman Sachs Probability and Fixed Income Interview Experience](https://trueinterview.io/interviews/6d962c65-67fa-4ae3-9419-71ad8385ab63) | Sep 30, 2026 |
-| Quantitative Finance | [Goldman Sachs Quantitative and Linear Algebra Interview Experience](https://trueinterview.io/interviews/21bd3ab4-b32d-4b59-9295-6d869a3fa58a) | Sep 30, 2026 |
-| Quantitative Finance | [Goldman Sachs Quantitative Engineering Interview Experience](https://trueinterview.io/interviews/9f536166-21f4-4226-9942-63c1f76d9ac3) | Sep 30, 2026 |
-| Software | [Goldman Sachs SDE Interview Experience (Beijing, 2025)](https://trueinterview.io/interviews/39d0c1f5-d42b-4d8f-8e62-7cfbe891b99c) | Sep 30, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,993 in total). [Every report at Goldman Sachs and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
