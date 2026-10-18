@@ -8,8 +8,8 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [28](../intuit.md) |
-| Free to read here | 3 |
+| Questions reported | [38](../intuit.md) |
+| Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 28, 2026 |
@@ -47,17 +47,28 @@ Here's what the interview process can look like:
 
 ## Free Intuit questions
 
-3 questions reported at Intuit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Intuit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Pandas Meeting Work-Duration Calculation](../../questions/algorithm/pandas-meeting-work-duration/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/pandas-meeting-work-duration) |
+| [AI Application Conversation](https://trueinterview.io/questions/ai-application-conversation) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/ai-application-conversation) |
+| [When should products use AI?](https://trueinterview.io/questions/when-should-products-use-ai) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/when-should-products-use-ai) |
+| [Engineer and Impute ZIP Features](https://trueinterview.io/questions/engineer-and-impute-zip-features) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/engineer-and-impute-zip-features) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [DNA Substring Palindrome Cost Sum](../../questions/algorithm/dna-substring-palindrome-cost-sum/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) |
+| [Design an experiment for pricing page redesign](https://trueinterview.io/questions/design-an-experiment-for-pricing-page-redesign) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/design-an-experiment-for-pricing-page-redesign) |
+| [Handle missing and unavailable predictive features](https://trueinterview.io/questions/handle-missing-and-unavailable-predictive-features) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/handle-missing-and-unavailable-predictive-features) |
+| [Extract insights from a multi-entry funnel scorecard](https://trueinterview.io/questions/extract-insights-from-a-multi-entry-funnel-scorecard) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/extract-insights-from-a-multi-entry-funnel-scorecard) |
+| [Design an experiment to evaluate an onboarding progress bar](https://trueinterview.io/questions/design-an-experiment-to-evaluate-an-onboarding-progress-bar) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-experiment-to-evaluate-an-onboarding-progress-bar) |
 | [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/look-and-say-sequence) |
+| [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) |
+| [Diagnose rising delivery cost precisely](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) |
+| [Choose the right test for proportions](https://trueinterview.io/questions/choose-the-right-test-for-proportions) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/choose-the-right-test-for-proportions) |
 
 ## Everything else
 
-- [All 28 questions reported at Intuit](../intuit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 38 questions reported at Intuit](../intuit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Intuit question on TrueInterview](https://trueinterview.io/problems/company/intuit).
 
 ---

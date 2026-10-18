@@ -8,11 +8,11 @@ How MongoDB interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [7](../mongodb.md) |
+| Questions reported | [8](../mongodb.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Jan 05, 2026 |
 
 ## How MongoDB interviews
 
@@ -47,16 +47,17 @@ Here's what the interview process can look like:
 
 ## Free MongoDB questions
 
-2 questions reported at MongoDB open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at MongoDB open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [How do you answer common HR screen questions?](https://trueinterview.io/questions/how-do-you-answer-common-hr-screen-questions) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-answer-common-hr-screen-questions) |
 | [Minimum XOR Sum of Two Arrays](../../questions/algorithm/minimum-xor-sum-of-two-arrays/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) |
 | [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) |
 
 ## Everything else
 
-- [All 7 questions reported at MongoDB](../mongodb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 8 questions reported at MongoDB](../mongodb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every MongoDB question on TrueInterview](https://trueinterview.io/problems/company/mongodb).
 
 ---

@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**274 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**368 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Citadel (73)](../companies/citadel.md) · [Two Sigma (41)](../companies/two-sigma.md) · [Squarepoint (34)](../companies/squarepoint.md) · [Akuna Capital (31)](../companies/akuna-capital.md) · [Point72 (29)](../companies/point72.md) · [Optiver (23)](../companies/optiver.md) · [Hudson River Trading (18)](../companies/hudson-river-trading.md) · [Jane Street (11)](../companies/jane-street.md) · [Voleon (11)](../companies/voleon.md) · [Chicago Trading (5)](../companies/chicago-trading.md) · [Imc (4)](../companies/imc.md) · [Drw (3)](../companies/drw.md)
+[Citadel (91)](../companies/citadel.md) · [Two Sigma (50)](../companies/two-sigma.md) · [Squarepoint (45)](../companies/squarepoint.md) · [Point72 (41)](../companies/point72.md) · [Akuna Capital (35)](../companies/akuna-capital.md) · [Optiver (35)](../companies/optiver.md) · [Hudson River Trading (22)](../companies/hudson-river-trading.md) · [Voleon (18)](../companies/voleon.md) · [Jane Street (15)](../companies/jane-street.md) · [Drw (10)](../companies/drw.md) · [Imc (10)](../companies/imc.md) · [Chicago Trading (5)](../companies/chicago-trading.md)
 
 <sub>12 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 202 | 74% | ██████████████ | 38 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 44 | 16% | ███ | 5 |
-| [System Design](../formats/system-design.md) | 16 | 6% | █ | 0 |
-| [SQL](../formats/sql.md) | 7 | 3% | █ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 5 | 2% | █ | 0 |
+| [Algorithm](../formats/algorithm.md) | 202 | 55% | ██████████████ | 40 |
+| [Blog](../formats/blog.md) | 94 | 26% | ███████ | 94 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 44 | 12% | ███ | 6 |
+| [System Design](../formats/system-design.md) | 16 | 4% | █ | 0 |
+| [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
+| [AI Coding](../formats/ai-coding.md) | 5 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **35 / 177 / 62**, over the rows the catalog has graded. 43 of the 274 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **35 / 177 / 62**, over the rows the catalog has graded. 141 of the 368 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **194 questions in this cut that carry a topic label** (71% of it):
+Of the **194 questions in this cut that carry a topic label** (53% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,24 +48,24 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 
 ## Asked here in the last 90 days
 
-**28 sightings** across this cut. Newest first.
+**46 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Citadel | Object Oriented Programming | Sep 18, 2026 |
 | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Citadel | Algorithm | Sep 18, 2026 |
-| [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Citadel | Object Oriented Programming | Sep 08, 2026 |
-| [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | Citadel | System Design | Sep 03, 2026 |
-| [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | Citadel | System Design | Aug 29, 2026 |
-| [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Squarepoint | Algorithm | Aug 29, 2026 |
-| [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Squarepoint | Algorithm | Aug 29, 2026 |
-| [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Squarepoint … | Algorithm | Aug 29, 2026 |
-| [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Akuna Capital | Algorithm | Aug 26, 2026 |
-| [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves) | Imc | Algorithm | Aug 24, 2026 |
-| [Design Exchange and Instrument Abstractions for Quote Arbitrage](https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage) | Jane Street | System Design | Aug 24, 2026 |
-| [Process One Million Quote Updates per Second](https://trueinterview.io/questions/process-one-million-quote-updates-per-second) | Jane Street | System Design | Aug 24, 2026 |
+| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Voleon | Blog | Sep 14, 2026 |
+| [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | Drw | Blog | Sep 13, 2026 |
+| [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | Drw | Blog | Sep 13, 2026 |
+| [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | Drw | Blog | Sep 13, 2026 |
+| [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | Drw | Blog | Sep 13, 2026 |
+| [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | Drw | Blog | Sep 13, 2026 |
+| [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | Drw | Blog | Sep 13, 2026 |
+| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | Squarepoint | Blog | Sep 09, 2026 |
+| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | Squarepoint | Blog | Sep 09, 2026 |
+| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | Squarepoint | Blog | Sep 09, 2026 |
 
-<sub>16 more in this window are in the table below.</sub>
+<sub>34 more in this window are in the table below.</sub>
 
 ---
 
@@ -78,15 +79,33 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 | :-- | :-- | :-: | :-- |
 | **Citadel** | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Medium | 🆕 Sep 18, 2026 |
 | **Citadel** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Hard | 🆕 Sep 18, 2026 |
+| **Voleon** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | — | 🆕 Sep 14, 2026 |
+| **Drw** | [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | — | 🆕 Sep 13, 2026 |
+| **Drw** | [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | — | 🆕 Sep 13, 2026 |
+| **Drw** | [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | — | 🆕 Sep 13, 2026 |
+| **Drw** | [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | — | 🆕 Sep 13, 2026 |
+| **Drw** | [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | — | 🆕 Sep 13, 2026 |
+| **Drw** | [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | — | 🆕 Sep 13, 2026 |
+| **Squarepoint** | [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | — | 🆕 Sep 09, 2026 |
+| **Squarepoint** | [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | — | 🆕 Sep 09, 2026 |
+| **Squarepoint** | [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | — | 🆕 Sep 09, 2026 |
+| **Squarepoint** | [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | — | 🆕 Sep 09, 2026 |
+| **Squarepoint** | [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | — | 🆕 Sep 09, 2026 |
+| **Squarepoint** | [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | — | 🆕 Sep 09, 2026 |
 | **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | 🆕 Sep 08, 2026 |
 | **Citadel** | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | Medium | 🆕 Sep 03, 2026 |
+| **Squarepoint** | [Value a Die Game with Optional Continuation](https://trueinterview.io/questions/value-a-die-game-with-optional-continuation) | — | Aug 29, 2026 |
 | **Squarepoint** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Medium | Aug 29, 2026 |
+| **Squarepoint** | [Choose Between an Array and a Linked List](https://trueinterview.io/questions/choose-between-an-array-and-a-linked-list) | — | Aug 29, 2026 |
 | **Citadel** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | Hard | Aug 29, 2026 |
 | **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | Aug 29, 2026 |
 | **Squarepoint** | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Hard | Aug 29, 2026 |
 | **Akuna Capital** | [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Easy | Aug 26, 2026 |
+| **Akuna Capital** | [Evaluate a Hexadecimal Bitwise AND](https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and) | — | Aug 26, 2026 |
 | **Jane Street** | [Process One Million Quote Updates per Second](https://trueinterview.io/questions/process-one-million-quote-updates-per-second) | Hard | Aug 24, 2026 |
+| **Jane Street** | [Estimate the Number of Florists in Sydney and Make a Market](https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market) | — | Aug 24, 2026 |
 | **Jane Street** | [Design Exchange and Instrument Abstractions for Quote Arbitrage](https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage) | Medium | Aug 24, 2026 |
+| **Imc** | [Demonstrate Self-Awareness and a Practical Mentoring Plan](https://trueinterview.io/questions/demonstrate-self-awareness-and-a-practical-mentoring-plan) | — | Aug 24, 2026 |
 | **Imc** | [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves) | Hard | Aug 24, 2026 |
 | **Squarepoint** | [Design an Ordered Vector with Move Semantics and Analyze Its Memory Layout](https://trueinterview.io/questions/design-an-ordered-vector-with-move-semantics-and-analyze-its-memory-layout) | Hard | Aug 16, 2026 |
 | **Squarepoint** | [Concatenate Two C++ Index Sequences at Compile Time](https://trueinterview.io/questions/concatenate-two-cplusplus-index-sequences-at-compile-time) | Medium | Aug 16, 2026 |
@@ -105,7 +124,12 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 | **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Easy | Jul 29, 2026 |
 | **Citadel** | [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Hard | Jul 27, 2026 |
 | **Citadel / Snapchat** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | Hard | Jul 08, 2026 |
+| **Citadel** | [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/questions/gqs-swe-whiteboard-boundary-search-top-k) | — | Jun 30, 2026 |
+| **Voleon** | [Row and Column Sums: Square Matrices and Nilpotence](https://trueinterview.io/questions/row-and-column-sums-square-matrices-and-nilpotence) | — | Jun 27, 2026 |
 | **Voleon** | [Return Words in Repeated Anagram Groups](https://trueinterview.io/questions/return-words-in-repeated-anagram-groups) | Medium | Jun 27, 2026 |
+| **Voleon** | [Reason About Train and Test Loss Under Regularization and More Data](https://trueinterview.io/questions/reason-about-train-and-test-loss-under-regularization-and-more-data) | — | Jun 27, 2026 |
+| **Voleon** | [Bound R-Squared for Individual and Combined OLS Regressions](https://trueinterview.io/questions/bound-r-squared-for-individual-and-combined-ols-regressions) | — | Jun 27, 2026 |
+| **Citadel** | [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/questions/citadel-bq-resume-loop) | — | Jun 22, 2026 |
 | **Squarepoint** | [Apply Insert, Update, and Remove Operations to a Keyed Store](https://trueinterview.io/questions/apply-insert-update-and-remove-operations-to-a-keyed-store) | Medium | Jun 20, 2026 |
 | **Optiver** | [Build Binary Tree from Edges / S-Expression](https://trueinterview.io/questions/binary-tree-from-edges) | Hard | Jun 15, 2026 |
 | **Citadel** | [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer) | Hard | Jun 13, 2026 |
@@ -115,15 +139,25 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 | **Akuna Capital** | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Medium | May 25, 2026 |
 | **Squarepoint** | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | Medium | May 23, 2026 |
 | **Citadel** | [Thread-Safe Key Call Counter](https://trueinterview.io/questions/thread-safe-key-call-counter) | Hard | May 21, 2026 |
+| **Two Sigma** | [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive) | — | May 12, 2026 |
 | **Two Sigma** | [NYC Temperature Regression Analysis](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Medium | May 10, 2026 |
 | **Two Sigma** | [Univariate OLS Regression Through Origin](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Medium | May 10, 2026 |
 | **Two Sigma** | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) | Medium | May 10, 2026 |
 | **Citadel** | [Implement `tac` — Reverse-Order File Reader](https://trueinterview.io/questions/reverse-file-tac-implementation) | Medium | May 07, 2026 |
 | **Citadel** | [Order Book Pair Coding](https://trueinterview.io/questions/order-book-pair-coding) | Medium | May 07, 2026 |
+| **Citadel** | [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals) | — | May 07, 2026 |
 | **Citadel** | [Compute Every Fixed-Size Submatrix Sum](https://trueinterview.io/questions/compute-every-fixed-size-submatrix-sum) | Medium | May 04, 2026 |
 | **Hudson River Trading** | [Guess Number II](https://trueinterview.io/questions/guess-number-ii) | Medium | May 01, 2026 |
+| **Hudson River Trading** | [Python Language and Runtime Fundamentals](https://trueinterview.io/questions/python-language-and-runtime-fundamentals) | — | Apr 30, 2026 |
+| **Hudson River Trading** | [Linux Host and Filesystem Fundamentals](https://trueinterview.io/questions/linux-host-and-filesystem-fundamentals) | — | Apr 30, 2026 |
+| **Point72** | [Explain Spark Execution and Optimization](https://trueinterview.io/questions/explain-spark-execution-and-optimization) | — | Apr 30, 2026 |
 | **Point72** | [Design Data Quality and Observability Pipeline](https://trueinterview.io/questions/design-data-quality-and-observability-pipeline) | Medium | Apr 30, 2026 |
+| **Point72** | [Describe Resolving Stakeholder Trade-Offs](https://trueinterview.io/questions/describe-resolving-stakeholder-trade-offs) | — | Apr 30, 2026 |
 | **Optiver** | [Count Ordered Sequences That Sum to a Target](https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target) | Medium | Apr 28, 2026 |
+| **Citadel** | [When Does `min x'Qx + c'x` Have a Finite Minimum?](https://trueinterview.io/questions/quadratic-form-finite-min) | — | Apr 28, 2026 |
+| **Citadel** | [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/questions/gqs-quant-phone-brainteasers) | — | Apr 28, 2026 |
+| **Squarepoint** | [Find the Correlation Between Two Die-Face Counts](https://trueinterview.io/questions/find-the-correlation-between-two-die-face-counts) | — | Apr 22, 2026 |
+| **Squarepoint** | [Evaluate Linear Regression Assumptions and Fit Three Points](https://trueinterview.io/questions/evaluate-linear-regression-assumptions-and-fit-three-points) | — | Apr 22, 2026 |
 | **Two Sigma** | [No-intercept linear regression](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-no-intercept-linear-regression) | Medium | Apr 21, 2026 |
 | **Two Sigma** | [Greedy feature selection](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-greedy-feature-selection) | Medium | Apr 21, 2026 |
 | **Two Sigma** | [Prediction task](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-prediction-task) | Medium | Apr 21, 2026 |
@@ -133,24 +167,40 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 | **Squarepoint** | [Minimum Idleness After K Flips](https://trueinterview.io/questions/minimum-idleness-after-k-flips) | Hard | Apr 11, 2026 |
 | **Squarepoint** | [Chunk a List of Lists](https://trueinterview.io/questions/chunk-a-list-of-lists) | Easy | Apr 11, 2026 |
 | **Two Sigma** | [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46) | Medium | Apr 07, 2026 |
+| **Hudson River Trading** | [Why pursue full-stack engineering?](https://trueinterview.io/questions/why-pursue-full-stack-engineering) | — | Apr 06, 2026 |
+| **Hudson River Trading** | [Explain Python and React performance fundamentals](https://trueinterview.io/questions/explain-python-and-react-performance-fundamentals) | — | Apr 06, 2026 |
 | **Citadel** | [Design Inventory Availability and Order Placement](https://trueinterview.io/questions/design-inventory-availability-and-order-placement) | Medium | Apr 06, 2026 |
 | **Meta / ByteDance / Citadel** | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / GEICO / Microsoft / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
 | **Apple / ByteDance / Citadel / Meta / Snowflake** | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Medium | Apr 01, 2026 |
+| **Citadel** | [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/questions/qd-eqr-onsite-coding-ladder) | — | Mar 30, 2026 |
+| **Citadel** | [Discuss a Project You Are Proud Of and How You Work](https://trueinterview.io/questions/discuss-a-project-you-are-proud-of-and-how-you-work) | — | Mar 29, 2026 |
+| **Squarepoint** | [How Does Removing Zeros Affect Sharpe?](https://trueinterview.io/questions/how-does-removing-zeros-affect-sharpe) | — | Mar 27, 2026 |
 | **Two Sigma** | [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition) | Medium | Mar 25, 2026 |
 | **Two Sigma / Point72** | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Hard | Mar 25, 2026 |
 | **Two Sigma** | [Minimum Operations to Reduce to Zero](https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero) | Hard | Mar 21, 2026 |
+| **Optiver** | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game) | — | Mar 21, 2026 |
 | **Citadel** | [Game of Life — In-Place and Infinite Board](https://trueinterview.io/questions/game-of-life-in-place-infinite) | Hard | Mar 21, 2026 |
+| **Two Sigma** | [Explain why the t-statistic helps](https://trueinterview.io/questions/explain-why-the-t-statistic-helps) | — | Mar 13, 2026 |
 | **Two Sigma** | [Predict bike demand and avoid overfitting](https://trueinterview.io/questions/predict-bike-demand-and-avoid-overfitting) | Medium | Mar 13, 2026 |
 | **Ramp / Citadel** | [Minimum Character Changes to Make Every k-Length Block a Palindrome](https://trueinterview.io/questions/minimum-character-changes-to-make-every-k-length-block-a-palindrome) | Medium | Mar 11, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
 | **Citadel** | [Single-Producer Multi-Consumer Ring Buffer](https://trueinterview.io/questions/single-producer-multi-consumer-ring-buffer) | Medium | Mar 08, 2026 |
+| **Point72** | [Explain Transformer Encoder and Decoder Behavior](https://trueinterview.io/questions/explain-transformer-encoder-and-decoder-behavior) | — | Mar 06, 2026 |
+| **Imc** | [Compute the Probability for Two Uniform Variables](https://trueinterview.io/questions/compute-the-probability-for-two-uniform-variables) | — | Mar 05, 2026 |
 | **Two Sigma** | [Evaluate piecewise linear function at x](https://trueinterview.io/questions/evaluate-piecewise-linear-function-at-x) | Medium | Mar 01, 2026 |
+| **Two Sigma** | [How detect duplicate card records?](https://trueinterview.io/questions/how-detect-duplicate-card-records) | — | Feb 26, 2026 |
 | **Two Sigma** | [Implement merge sort and largest 1-rectangle](https://trueinterview.io/questions/implement-merge-sort-and-largest-1-rectangle) | Hard | Feb 26, 2026 |
+| **Point72** | [Compute Gaussian Probability and Regression Coefficients](https://trueinterview.io/questions/compute-gaussian-probability-and-regression-coefficients) | — | Feb 25, 2026 |
 | **Squarepoint** | [Solve two coding assessment tasks](https://trueinterview.io/questions/solve-two-coding-assessment-tasks) | Medium | Feb 23, 2026 |
+| **Two Sigma** | [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral) | — | Feb 18, 2026 |
+| **Two Sigma** | [QR Data Analysis Prediction Case](https://trueinterview.io/questions/qr-data-analysis-prediction-case) | — | Feb 18, 2026 |
 | **Citadel** | [Time-Keyed Key-Value Store (set / get-before-timestamp)](https://trueinterview.io/questions/time-keyed-kv-store) | Medium | Feb 18, 2026 |
 | **Two Sigma / Microsoft** | [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder) | Medium | Feb 18, 2026 |
+| **Optiver** | [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/questions/number-logic-sequence) | — | Feb 16, 2026 |
+| **Optiver** | [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test) | — | Feb 16, 2026 |
+| **Optiver** | [Beat the Odds — Probability Test](https://trueinterview.io/questions/beat-the-odds-probability) | — | Feb 16, 2026 |
 | **Jane Street** | [Transform sparse time-code stream to dense rows](https://trueinterview.io/questions/transform-sparse-time-code-stream-to-dense-rows) | Hard | Feb 12, 2026 |
 | **Optiver** | [Target Stock Portfolio Operations](https://trueinterview.io/questions/target-stock-portfolio-operations) | Medium | Feb 06, 2026 |
 | **Optiver** | [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost) | Hard | Feb 06, 2026 |
@@ -158,6 +208,7 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
 | **Optiver** | [Implement a Level-Aware Expiring Inventory Store](https://trueinterview.io/questions/implement-a-level-aware-expiring-inventory-store) | Medium | Feb 03, 2026 |
 | **xAI / Amazon / Bloomberg / ByteDance / Citadel / Google / LinkedIn / Microsoft / Netflix / Snapchat** | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Medium | Feb 01, 2026 |
+| **Citadel** | [Solve probability and expectation problems](https://trueinterview.io/questions/solve-probability-and-expectation-problems-3) | — | Jan 30, 2026 |
 | **Citadel** | [Sort a nearly sorted array](https://trueinterview.io/questions/sort-a-nearly-sorted-array) | Medium | Jan 30, 2026 |
 | **Citadel** | [Multi-Exchange BBO / NBBO Class](https://trueinterview.io/questions/multi-exchange-nbbo-class) | Medium | Jan 29, 2026 |
 | **Citadel** | [Application-to-Exchange Routing OOD with Sliding-Window Alerts](https://trueinterview.io/questions/application-exchange-routing-alerting) | Medium | Jan 28, 2026 |
@@ -169,12 +220,16 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 | **Akuna Capital** | [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter) | Medium | Jan 23, 2026 |
 | **Akuna Capital** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Medium | Jan 23, 2026 |
 | **Akuna Capital** | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Easy | Jan 23, 2026 |
+| **Two Sigma** | [How to prepare for a hiring manager round](https://trueinterview.io/questions/how-to-prepare-for-a-hiring-manager-round) | — | Jan 22, 2026 |
+| **Citadel** | [How do you handle conflict at work?](https://trueinterview.io/questions/how-do-you-handle-conflict-at-work) | — | Jan 22, 2026 |
 | **Optiver** | [Schedule Orders onto Planes](https://trueinterview.io/questions/opticargo-flight-scheduling) | Medium | Jan 22, 2026 |
 | **Citadel** | [BST from Scratch (insert / search / delete) + Balancing Discussion](https://trueinterview.io/questions/bst-from-scratch) | Medium | Jan 22, 2026 |
 | **Point72** | [Design a News-Filtering Prompt](https://trueinterview.io/questions/design-a-news-filtering-prompt) | Medium | Jan 21, 2026 |
+| **Citadel** | [Estimate constant under absolute loss](https://trueinterview.io/questions/estimate-constant-under-absolute-loss) | — | Jan 16, 2026 |
 | **Citadel / ByteDance** | [Merge K Sorted Price Streams](https://trueinterview.io/questions/merge-k-sorted-streams-ood) | Medium | Jan 16, 2026 |
 | **Optiver** | [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design) | Medium | Jan 16, 2026 |
 | **Citadel** | [Implement a Round-Robin Task Scheduler](https://trueinterview.io/questions/round-robin-task-scheduler) | Medium | Jan 15, 2026 |
+| **Optiver** | [QR Take-Home Data Project & Presentation](https://trueinterview.io/questions/qr-take-home-data-project) | — | Jan 12, 2026 |
 | **Citadel** | [Pandigital Sum](https://trueinterview.io/questions/pandigital-sum) | Easy | Jan 05, 2026 |
 | **Citadel** | [Find Earliest Available Meeting Slot](https://trueinterview.io/questions/find-earliest-available-meeting-slot) | Medium | Jan 05, 2026 |
 | **Citadel** | [Find Complete Flight Path](https://trueinterview.io/questions/find-complete-flight-path) | Hard | Jan 05, 2026 |
@@ -184,27 +239,49 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 | **Citadel** | [Largest Team Built Around a Core Employee](https://trueinterview.io/questions/interval-overlap-max-team) | Medium | Dec 22, 2025 |
 | **Akuna Capital / JPMorgan** | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Medium | Dec 20, 2025 |
 | **Citadel** | [Live coding closer](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-live-coding-closer) | Hard | Dec 16, 2025 |
+| **Citadel** | [Case study — LLM inference stability](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | — | Dec 16, 2025 |
+| **Citadel** | [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive) | — | Dec 16, 2025 |
 | **Citadel / ByteDance** | [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching) | Medium | Dec 16, 2025 |
 | **Jane Street** | [Validate order book data across multiple databases](https://trueinterview.io/questions/validate-order-book-data-across-multiple-databases) | Hard | Dec 15, 2025 |
 | **Jane Street** | [Design exchange–trading system message flow](https://trueinterview.io/questions/design-exchangetrading-system-message-flow) | Hard | Dec 15, 2025 |
+| **Two Sigma** | [Answer four core statistics questions](https://trueinterview.io/questions/answer-four-core-statistics-questions) | — | Dec 15, 2025 |
 | **Jane Street** | [Sort trade executions into a canonical order](https://trueinterview.io/questions/sort-trade-executions-into-a-canonical-order) | Medium | Dec 15, 2025 |
 | **Imc** | [Find k-th recipient in command propagation order](https://trueinterview.io/questions/find-k-th-recipient-in-command-propagation-order) | Medium | Dec 15, 2025 |
 | **Two Sigma** | [Huffman-Style Binary Encode / Decode](https://trueinterview.io/questions/huffman-style-binary-encode-decode) | Hard | Dec 15, 2025 |
+| **Point72** | [Solve Three Probability Models](https://trueinterview.io/questions/solve-three-probability-models) | — | Dec 14, 2025 |
+| **Point72** | [Explain Ensemble Learning and Its Main Families](https://trueinterview.io/questions/explain-ensemble-learning-and-its-main-families) | — | Dec 14, 2025 |
+| **Point72** | [Explain Encapsulation, Inheritance, and Polymorphism in C++](https://trueinterview.io/questions/explain-encapsulation-inheritance-and-polymorphism-in-cplusplus) | — | Dec 14, 2025 |
+| **Point72** | [Choose and Explain a Classical Hypothesis Test](https://trueinterview.io/questions/choose-and-explain-a-classical-hypothesis-test) | — | Dec 14, 2025 |
 | **Optiver** | [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design) | Hard | Dec 13, 2025 |
+| **Optiver** | [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen) | — | Dec 13, 2025 |
 | **Voleon** | [Validate whether a binary string is good](https://trueinterview.io/questions/validate-whether-a-binary-string-is-good) | Hard | Dec 09, 2025 |
 | **Voleon** | [Implement sparse matrix addition and multiplication](https://trueinterview.io/questions/implement-sparse-matrix-addition-and-multiplication) | Medium | Dec 09, 2025 |
 | **Voleon** | [Count queen attacks on points with blockers](https://trueinterview.io/questions/count-queen-attacks-on-points-with-blockers) | Hard | Dec 09, 2025 |
+| **Optiver** | [Answer why SWE and why Optiver](https://trueinterview.io/questions/answer-why-swe-and-why-optiver) | — | Dec 05, 2025 |
 | **Two Sigma** | [Predicting Stock Prices from Twitter Data](https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data) | Hard | Dec 02, 2025 |
 | **Two Sigma** | [Expected Number of Good Pairs in a Randomly Weighted Complete Graph](https://trueinterview.io/questions/expected-number-of-good-pairs-in-a-randomly-weighted-complete-graph) | Hard | Dec 02, 2025 |
+| **Jane Street** | [Solve probability and game-theory puzzles](https://trueinterview.io/questions/solve-probability-and-game-theory-puzzles) | — | Dec 01, 2025 |
+| **Imc** | [Choose and Defend a Betting Strategy Under Uncertain Odds](https://trueinterview.io/questions/choose-and-defend-a-betting-strategy-under-uncertain-odds) | — | Nov 30, 2025 |
+| **Imc** | [Analyze Optimal Funding Allocations Across Election Districts](https://trueinterview.io/questions/analyze-optimal-funding-allocations-across-election-districts) | — | Nov 30, 2025 |
+| **Two Sigma** | [Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal) | — | Nov 28, 2025 |
 | **Two Sigma** | [Smallest Palindrome Strictly Greater Than K](https://trueinterview.io/questions/smallest-palindrome-strictly-greater-than-k) | Hard | Nov 28, 2025 |
 | **Hudson River Trading** | [Count inversions in a permutation](https://trueinterview.io/questions/count-inversions-in-a-permutation) | Medium | Nov 28, 2025 |
 | **Two Sigma** | [Assign 2n Workers to Two Tasks to Minimize Total Time](https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time) | Hard | Nov 28, 2025 |
+| **Point72** | [Derive the Optimal Bid in a Two-Bidder Second-Price Auction](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction) | — | Nov 25, 2025 |
 | **Optiver** | [Implement a News Publishing System with Topic Subscriptions and Delivery Limits](https://trueinterview.io/questions/implement-a-news-publishing-system-with-topic-subscriptions-and-delivery-limits) | Medium | Nov 25, 2025 |
+| **Drw** | [Compute expected arc length on a circle](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) | — | Nov 22, 2025 |
+| **Citadel** | [Probability and Combinatorics Quickfire Quiz](https://trueinterview.io/questions/trading-probability-quickfire) | — | Nov 21, 2025 |
+| **Jane Street** | [Alternating Die-Roll Game: Optimal Accept/Reject Strategy](https://trueinterview.io/questions/alternating-die-roll-game-optimal-accept-reject-strategy) | — | Nov 20, 2025 |
+| **Akuna Capital** | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) | — | Nov 20, 2025 |
+| **Optiver** | [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes) | — | Nov 19, 2025 |
 | **Two Sigma** | [Maximum Independent Set on a Tree](https://trueinterview.io/questions/maximum-independent-set-on-tree) | Medium | Nov 18, 2025 |
 | **Optiver** | [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching) | Medium | Nov 18, 2025 |
+| **Optiver** | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games) | — | Nov 17, 2025 |
+| **Optiver** | [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/questions/coding-knowledge-test) | — | Nov 17, 2025 |
 | **Optiver** | [News Aggregation / Subscription System](https://trueinterview.io/questions/news-subscription-system) | Medium | Nov 17, 2025 |
 | **Two Sigma** | [Implement Univariate Linear Regression with Ordinary Least Squares](https://trueinterview.io/questions/implement-univariate-linear-regression-with-ordinary-least-squares) | Medium | Nov 15, 2025 |
 | **Two Sigma** | [Count Distinct Island Shapes in a Binary Grid](https://trueinterview.io/questions/count-distinct-island-shapes-in-a-binary-grid) | Medium | Nov 15, 2025 |
+| **Optiver** | [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/questions/qr-technical-brainteasers) | — | Nov 14, 2025 |
 | **Two Sigma** | [HashMap from Scratch](https://trueinterview.io/questions/hashmap-from-scratch) | Medium | Nov 13, 2025 |
 | **Akuna Capital** | [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode) | Medium | Nov 11, 2025 |
 | **Squarepoint** | [Maximize profit from one or many stock trades](https://trueinterview.io/questions/maximize-profit-from-one-or-many-stock-trades) | Medium | Nov 07, 2025 |
@@ -212,119 +289,43 @@ Of the **194 questions in this cut that carry a topic label** (71% of it):
 | **Jane Street** | [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](https://trueinterview.io/questions/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner) | Hard | Nov 06, 2025 |
 | **Akuna Capital** | [Fun With Anagrams (Deduplicate Anagrams)](https://trueinterview.io/questions/fun-with-anagrams-dedup) | Easy | Nov 04, 2025 |
 | **Akuna Capital** | [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler) | Medium | Nov 04, 2025 |
+| **Imc** | [Explain a project to non-technical stakeholders](https://trueinterview.io/questions/explain-a-project-to-non-technical-stakeholders) | — | Nov 03, 2025 |
 | **Imc** | [Design an in-memory hotel booking system](https://trueinterview.io/questions/design-an-in-memory-hotel-booking-system) | Medium | Nov 03, 2025 |
+| **Imc** | [Analyze time complexity and threading trade-offs](https://trueinterview.io/questions/analyze-time-complexity-and-threading-trade-offs) | — | Nov 03, 2025 |
 | **Optiver** | [Stock Transaction Sequence Counting (Catalan / DP)](https://trueinterview.io/questions/stock-transaction-counting) | Medium | Nov 03, 2025 |
 | **Two Sigma** | [Predict a Company's Stock Price from Six Years of Web Search Logs](https://trueinterview.io/questions/predict-a-companys-stock-price-from-six-years-of-web-search-logs) | Hard | Nov 02, 2025 |
 | **Akuna Capital** | [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances) | Medium | Nov 02, 2025 |
 | **Akuna Capital** | [Minimum Days to Release Updates](https://trueinterview.io/questions/minimum-days-to-release-updates) | Medium | Oct 29, 2025 |
 | **Akuna Capital** | [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps) | Medium | Oct 29, 2025 |
 | **Akuna Capital** | [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips) | Medium | Oct 29, 2025 |
+| **Two Sigma** | [How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?](https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks) | — | Oct 28, 2025 |
+| **Point72** | [How would you explain PCA and SHAP?](https://trueinterview.io/questions/how-would-you-explain-pca-and-shap) | — | Oct 24, 2025 |
 | **Akuna Capital** | [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order) | Medium | Oct 21, 2025 |
 | **Point72** | [K-th missing number](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) | Medium | Oct 20, 2025 |
+| **Akuna Capital** | [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning) | — | Oct 20, 2025 |
 | **Bloomberg / Citadel / Hudson River Trading / Meta / Tesla** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Easy | Oct 16, 2025 |
 | **Jane Street** | [Solve queue switch and coin change puzzles](https://trueinterview.io/questions/solve-queue-switch-and-coin-change-puzzles) | Hard | Oct 14, 2025 |
 | **Akuna Capital / Two Sigma** | [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine) | Medium | Oct 13, 2025 |
+| **Jane Street** | [Sealed-Bid Auction for a Box of 200 Coin Flips (and an Informed Opponent)](https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent) | — | Oct 10, 2025 |
 | **Two Sigma** | [Palindrome Warmup + Two-Task Worker Scheduling](https://trueinterview.io/questions/palindrome-and-task-scheduling-round) | Medium | Oct 09, 2025 |
 | **Two Sigma** | [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph) | Hard | Oct 09, 2025 |
 | **Drw** | [Robot Path Planning](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-robot-path-planning) | Hard | Oct 08, 2025 |
 | **Drw** | [Knockout Tournament Match Counts](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts) | Medium | Oct 08, 2025 |
 | **Drw** | [Solve Three Algorithmic Problems](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems) | Hard | Oct 08, 2025 |
 | **Optiver** | [Design Squirrel Nut Tracker](https://trueinterview.io/questions/squirrel-nut-storage) | Medium | Oct 07, 2025 |
+| **Voleon** | [Solve Markov, OLS-rotation, and coin-toss probability](https://trueinterview.io/questions/solve-markov-ols-rotation-and-coin-toss-probability) | — | Oct 06, 2025 |
 | **Imc** | [Choose container set to minimize waste](https://trueinterview.io/questions/choose-container-set-to-minimize-waste) | Medium | Oct 06, 2025 |
 | **Akuna Capital** | [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging) | Medium | Oct 05, 2025 |
 | **Akuna Capital** | [Array Challenge: Left-Comparison Running Counter](https://trueinterview.io/questions/left-comparison-running-counter) | Medium | Sep 24, 2025 |
 | **Akuna Capital** | [Find Missing and Repeated Element](https://trueinterview.io/questions/find-missing-and-repeated-element) | Medium | Sep 23, 2025 |
 | **Akuna Capital** | [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) | Hard | Sep 22, 2025 |
 | **Akuna Capital** | [Round Price to Nearest Valid Tick](https://trueinterview.io/questions/round-price-to-nearest-tick) | Medium | Sep 22, 2025 |
+| **Akuna Capital** | [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games) | — | Sep 16, 2025 |
 | **Optiver** | [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation) | Medium | Sep 09, 2025 |
 | **Optiver** | [Currency Arbitrage Detection](https://trueinterview.io/questions/currency-arbitrage-detection) | Hard | Aug 26, 2025 |
 | **Akuna Capital / Google** | [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | Easy | Aug 26, 2025 |
+| **Optiver** | [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game) | — | Aug 06, 2025 |
 | **Optiver** | [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | Medium | Aug 05, 2025 |
 | **Goldman Sachs / Citadel / Voleon** | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Medium | Oct 26, 2024 |
-| **Citadel** | [Estimate OLS via streaming sufficient statistics](https://trueinterview.io/questions/estimate-ols-via-streaming-sufficient-statistics) | Hard | — |
-| **Citadel** | [Design city home-price prediction system](https://trueinterview.io/questions/design-city-home-price-prediction-system) | Medium | — |
-| **Voleon** | [Build a regularized regression pipeline](https://trueinterview.io/questions/build-a-regularized-regression-pipeline) | Medium | — |
-| **Point72** | [Write SQL for top student per department](https://trueinterview.io/questions/write-sql-for-top-student-per-department) | Medium | — |
-| **Point72** | [Write SQL for recent customer activity](https://trueinterview.io/questions/write-sql-for-recent-customer-activity) | Medium | — |
-| **Squarepoint** | [Parse payroll file and answer queries](https://trueinterview.io/questions/parse-payroll-file-and-answer-queries) | Hard | — |
-| **Point72** | [Maximize outfits with distinct colors](https://trueinterview.io/questions/maximize-outfits-with-distinct-colors) | Hard | — |
-| **Citadel** | [Implement max profit with K transactions (DP)](https://trueinterview.io/questions/implement-max-profit-with-k-transactions-dp) | Hard | — |
-| **Citadel** | [Implement left join on Python lists, no packages](https://trueinterview.io/questions/implement-left-join-on-python-lists-no-packages) | Medium | — |
-| **Citadel** | [Implement lazy unique-merge generator for sorted streams](https://trueinterview.io/questions/implement-lazy-unique-merge-generator-for-sorted-streams) | Hard | — |
-| **Point72** | [Convert integer dates to quarters](https://trueinterview.io/questions/convert-integer-dates-to-quarters) | Medium | — |
-| **Point72** | [Classify relationships for multiple circle pairs](https://trueinterview.io/questions/classify-relationships-for-multiple-circle-pairs) | Medium | — |
-| **Voleon** | [Analyze time-zoned events with pandas](https://trueinterview.io/questions/analyze-time-zoned-events-with-pandas) | Hard | — |
-| **Two Sigma** | [Analyze NYC taxi trips efficiently over last 7 days](https://trueinterview.io/questions/analyze-nyc-taxi-trips-efficiently-over-last-7-days) | Medium | — |
-| **Salesforce / Akuna Capital / Palantir** | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Medium | — |
-| **Citadel** | [Second Largest Distinct Value](https://trueinterview.io/questions/e94171d2-2436-5ce7-8c4f-ba711a9dc42b) | Easy | — |
-| **Citadel** | [Print a Message Repeatedly with Blank Lines](https://trueinterview.io/questions/e3077f6d-c663-5701-8372-4cd14485be37) | Easy | — |
-| **Citadel** | [Minimum Changes for Every Length-K Substring to Be a Palindrome](https://trueinterview.io/questions/e177ccb7-1580-508a-a95e-14b16aaea032) | Medium | — |
-| **Citadel** | [Implement a C++ Task Scheduler with Parameterized Tasks](https://trueinterview.io/questions/d893a368-33e5-51ad-a5d0-517ad8e801dd) | Medium | — |
-| **Citadel** | [Statistics from a 256-Bucket Frequency Array](https://trueinterview.io/questions/d00a6fa5-a7cf-5259-903f-603e51c7bfea) | Medium | — |
-| **Citadel** | [Word Frequency Counter](https://trueinterview.io/questions/aada71de-6b38-53c5-89d3-6988b6a5865a) | Easy | — |
-| **Citadel** | [Online Batched No-Intercept Regression](https://trueinterview.io/questions/73c7aafc-4208-59c9-9bc1-f3dddb06e125) | Medium | — |
-| **Citadel / Amazon** | [Search Suggestions System](https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13) | Medium | — |
-| **Citadel** | [Piecewise Linear Interpolation with Extrapolation](https://trueinterview.io/questions/4796cc39-cf33-52af-9075-2fa0d3a0bf34) | Medium | — |
-| **Citadel** | [Town Temperature Regression Analysis](https://trueinterview.io/questions/40633852-5eda-59ea-9c7a-4e233abff5ec) | Hard | — |
-| **Citadel** | [Square and Reverse a List](https://trueinterview.io/questions/053a4fe5-1f9c-51b1-a965-6f9698ca8bcd) | Easy | — |
-| **Citadel** | [Reconcile Unmatched Buy and Sell Trades](https://trueinterview.io/questions/0060bc58-0dc6-5b92-a4a9-07bef5b895c0) | Hard | — |
-| **Citadel / Ramp** | [Minimum Changes to Make Every Block a Palindrome](https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7) | Medium | — |
-| **Citadel** | [Minimum Changes for a Palindromic Periodic Password](https://trueinterview.io/questions/5f178ac0-8422-5332-b151-6b030e7edb50) | Medium | — |
-| **Voleon** | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead) | Hard | — |
-| **Voleon** | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a) | Hard | — |
-| **Voleon** | [Earliest Time with Maximum Running Processes](https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61) | Medium | — |
-| **Voleon** | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) | Hard | — |
-| **Squarepoint** | [OOP Concepts in Python: Classes, Inheritance, and Polymorphism](https://trueinterview.io/questions/b334f7cb-9c94-4ce6-b861-9164f44eb748) | Medium | — |
-| **Hudson River Trading** | [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609) | Medium | — |
-| **Chicago Trading** | [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4) | Medium | — |
-| **Chicago Trading** | [Smart Queue / Stock Quote Container](https://trueinterview.io/questions/dc9b15b6-587c-50f2-b57d-e78f195df65e) | Medium | — |
-| **Chicago Trading** | [Implement a Simplified C++ Vector](https://trueinterview.io/questions/949cdc20-2c65-5d5c-be42-64c71e7ef665) | Medium | — |
-| **Chicago Trading** | [Simple Moving Average over a Fixed-Size Sliding Window](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa) | Medium | — |
-| **Chicago Trading** | [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](https://trueinterview.io/questions/15eeeb4d-047a-5c82-b3f2-0fe0eb40fe1c) | Hard | — |
-| **Snowflake / Citadel / Two Sigma / Uber** | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Medium | — |
-| **Hudson River Trading / Google** | [Winner in a Dot Grid Game](https://trueinterview.io/questions/winner-in-a-dot-grid-game-2) | Medium | — |
-| **Hudson River Trading / Amazon** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Medium | — |
-| **Squarepoint** | [Filter Numbers Greater Than the Average](https://trueinterview.io/questions/cd12a6b3-ba3b-5639-be01-4b54adbee445) | Easy | — |
-| **Squarepoint / Google** | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Medium | — |
-| **Squarepoint** | [Max Element at Position k with Adjacent Differences 1 and Sum m](https://trueinterview.io/questions/9dff9807-6525-4d06-a397-7a9128038bf6) | Medium | — |
-| **Point72** | [Design a system to find median in a data stream under memory constraints](https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c) | Medium | — |
-| **Point72** | [Lexicographically Smallest String After Substring Operation](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205) | Medium | — |
-| **Hudson River Trading** | [Black and White Chess Problem](https://trueinterview.io/questions/e829f3ce-e920-412d-b31a-72a804d9272e) | Medium | — |
-| **Hudson River Trading** | [Fancy Number](https://trueinterview.io/questions/e4e49d37-3d74-4d00-b000-445874bf217a) | Medium | — |
-| **Hudson River Trading** | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Easy | — |
-| **Hudson River Trading** | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | Medium | — |
-| **Hudson River Trading** | [Max Harvested Crops](https://trueinterview.io/questions/0364d8f3-180c-434b-96f4-fbdf7412a3e3) | Medium | — |
-| **Squarepoint** | [Compute EMA Indicators and Detect Crossovers in Pandas](https://trueinterview.io/questions/eec3b2bb-0fda-44b2-bc31-5efa0e915e2d) | Easy | — |
-| **Squarepoint** | [Most Frequent Character with Lexicographical Tie-Breaking](https://trueinterview.io/questions/d51e32aa-3b44-5206-a122-5dc924dc34c9) | Easy | — |
-| **Squarepoint** | [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Medium | — |
-| **Squarepoint** | [Implement Square Root Without Using sqrt (Precision Required)](https://trueinterview.io/questions/9e64a322-382b-47f3-8bdf-41f3a925fe32) | Medium | — |
-| **Squarepoint** | [Line by Line Document Generator](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) | Medium | — |
-| **Squarepoint** | [Merge Two Sorted Vectors](https://trueinterview.io/questions/80025de7-bb7b-4d7a-bbef-34ca4648dad8) | Easy | — |
-| **Squarepoint** | [Grasshopper Problem](https://trueinterview.io/questions/6963da19-4f4b-4340-8237-43ced6656932) | Easy | — |
-| **Squarepoint** | [Minimum Number of Umbrellas](https://trueinterview.io/questions/3b3782d9-dd83-4be7-a787-f7c182f4ab30) | Medium | — |
-| **Squarepoint** | [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | Medium | — |
-| **Squarepoint** | [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | Medium | — |
-| **Squarepoint** | [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d) | Easy | — |
-| **Point72** | [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902) | Medium | — |
-| **Point72** | [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4) | Medium | — |
-| **Point72** | [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907) | Medium | — |
-| **Point72** | [SmartString Class Template](https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6) | Hard | — |
-| **Point72** | [Optimal Stopping with Up to Three Dice Rolls](https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be) | Medium | — |
-| **Point72** | [Find Minimum in Rotated Sorted Array](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c) | Medium | — |
-| **Point72** | [Find the Largest and Second Largest Elements](https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27) | Medium | — |
-| **Point72** | [Implement DictMixin and JSONMixin for object serialization](https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc) | Easy | — |
-| **Point72** | [Simulate a Deterministic Finite Automaton](https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe) | Easy | — |
-| **Hudson River Trading** | [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72) | Medium | — |
-| **Hudson River Trading** | [Implement buffer readers for char/int/string with pointer advancement](https://trueinterview.io/questions/dd77f43b-876b-4c4a-828b-2e48ea7294dc) | Medium | — |
-| **Hudson River Trading** | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) | Easy | — |
-| **Hudson River Trading** | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Easy | — |
-| **Hudson River Trading** | [Implement itoa()](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397) | Medium | — |
-| **Hudson River Trading** | [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f) | Medium | — |
-| **Squarepoint** | [Sentence Variations with Anagram](https://trueinterview.io/questions/715c9fe9-1402-470e-b461-3433e80ff0f9) | Medium | — |
-| **Squarepoint** | [Generate Unique Usernames](https://trueinterview.io/questions/1ac76be5-90d6-4f8f-b5af-24baa7b56ea9) | Medium | — |
-| **Point72** | [Portfolio Trading Optimizer (Multiple Transactions + Input Validation + Report)](https://trueinterview.io/questions/931ca2a6-3886-4c5c-84f7-d2208582067e) | Medium | — |
-| **Hudson River Trading** | [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | Hard | — |
-| **Citadel** | [External Merge Sort with a Heap](https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d) | Medium | — |
-| **Citadel / Verkada** | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](quant-trading-2.md)</sub>

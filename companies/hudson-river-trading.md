@@ -2,7 +2,7 @@
 
 # Hudson River Trading interview process, OA & interview questions
 
-**18 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side on the algorithm, low-level-design and SQL formats.
+**22 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Hudson River Trading interviews & the free questions](hudson-river-trading/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **18** |
+| Questions tracked | **22** |
 | Most recent sighting | May 01, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (83% of 18) |
+| Most common format | [Algorithm](../formats/algorithm.md) (68% of 22) |
 | Difficulty (easy / medium / hard) | 4 / 13 / 1 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 18 questions reported at Hudson River Trading. 3 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 22 questions reported at Hudson River Trading. 7 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **18 of 18** questions at Hudson River Trading that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **22 of 22** questions at Hudson River Trading that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 8 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ███ | [AI Coding](../formats/ai-coding.md) (67%) | 0 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 5 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 1 / 8 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ██ | [AI Coding](../formats/ai-coding.md) (67%) | 0 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **18 of 18** questions at Hudson Ri
 
 ## What they ask about
 
-Of the **13 questions at Hudson River Trading that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Hudson River Trading that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -65,9 +65,10 @@ Every recorded sighting at Hudson River Trading, by the month it was reported in
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [May 2026](../by-month/2026-05.md) | 1 | ████████████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ████████████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ████████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 1 | ██████ |
+| [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ██████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ██████ |
 
 ## Start here
 
@@ -76,13 +77,13 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Guess Number II](https://trueinterview.io/questions/guess-number-ii) | Algorithm | Medium | — | May 01, 2026 |
-| **2** | [Count inversions in a permutation](https://trueinterview.io/questions/count-inversions-in-a-permutation) | Algorithm | Medium | — | Nov 28, 2025 |
-| **3** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | 4 | Oct 16, 2025 |
-| **4** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | 1 | — |
-| **5** | [Winner in a Dot Grid Game](https://trueinterview.io/questions/winner-in-a-dot-grid-game-2) | Algorithm | Medium | 1 | — |
-| **6** | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Algorithm | Easy | — | — |
-| **7** | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Algorithm | Easy | — | — |
-| **8** | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) 🆓 | Algorithm | Easy | — | — |
+| **2** | [Linux Host and Filesystem Fundamentals](https://trueinterview.io/questions/linux-host-and-filesystem-fundamentals) 🆓 | Blog | — | — | Apr 30, 2026 |
+| **3** | [Python Language and Runtime Fundamentals](https://trueinterview.io/questions/python-language-and-runtime-fundamentals) 🆓 | Blog | — | — | Apr 30, 2026 |
+| **4** | [Explain Python and React performance fundamentals](https://trueinterview.io/questions/explain-python-and-react-performance-fundamentals) 🆓 | Blog | — | — | Apr 06, 2026 |
+| **5** | [Why pursue full-stack engineering?](https://trueinterview.io/questions/why-pursue-full-stack-engineering) 🆓 | Blog | — | — | Apr 06, 2026 |
+| **6** | [Count inversions in a permutation](https://trueinterview.io/questions/count-inversions-in-a-permutation) | Algorithm | Medium | — | Nov 28, 2025 |
+| **7** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | 4 | Oct 16, 2025 |
+| **8** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -105,6 +106,10 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Guess Number II](https://trueinterview.io/questions/guess-number-ii) | Algorithm | Medium | May 01, 2026 |
+| [Python Language and Runtime Fundamentals](https://trueinterview.io/questions/python-language-and-runtime-fundamentals) | Blog | — | Apr 30, 2026 |
+| [Linux Host and Filesystem Fundamentals](https://trueinterview.io/questions/linux-host-and-filesystem-fundamentals) | Blog | — | Apr 30, 2026 |
+| [Why pursue full-stack engineering?](https://trueinterview.io/questions/why-pursue-full-stack-engineering) | Blog | — | Apr 06, 2026 |
+| [Explain Python and React performance fundamentals](https://trueinterview.io/questions/explain-python-and-react-performance-fundamentals) | Blog | — | Apr 06, 2026 |
 | [Count inversions in a permutation](https://trueinterview.io/questions/count-inversions-in-a-permutation) | Algorithm | Medium | Nov 28, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
 | [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609) | AI Coding | Medium | — |

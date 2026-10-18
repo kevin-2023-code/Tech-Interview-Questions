@@ -2,7 +2,7 @@
 
 # Rippling interview process, OA & interview questions
 
-**49 questions** reported at Rippling · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rippling), judged server-side on the algorithm, low-level-design and SQL formats.
+**58 questions** reported at Rippling · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rippling), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Rippling interviews & the free questions](rippling/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,36 +14,40 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **49** |
+| Questions tracked | **58** |
 | Most recent sighting | Sep 18, 2026 |
-| Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (41% of 49) |
+| Reported in the last 90 days | 10 |
+| Most common format | [Algorithm](../formats/algorithm.md) (34% of 58) |
 | Difficulty (easy / medium / hard) | 1 / 29 / 19 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 49 questions reported at Rippling. 34 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 58 questions reported at Rippling. 41 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **49 of 49** questions at Rippling that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **58 of 58** questions at Rippling that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | █ | [SQL](../formats/sql.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 30 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 0 / 18 / 12 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 27 | █████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (44%) | 0 / 19 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 2 | █ | [Blog](../formats/blog.md) (50%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 35 | ██████████ | [Algorithm](../formats/algorithm.md) (46%) | 0 / 18 / 12 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 30 | █████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (40%) | 0 / 19 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**10 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Object Oriented Programming | Hard | Onsite / virtual onsite | Sep 18, 2026 |
 | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Algorithm | Hard | Phone screen | Sep 13, 2026 |
+| [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | Blog | — | Phone screen | Sep 13, 2026 |
+| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | Blog | — | Phone screen | Sep 13, 2026 |
+| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | Blog | — | Phone screen | Sep 13, 2026 |
+| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | Blog | — | Phone screen | Sep 13, 2026 |
 | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Object Oriented Programming | Hard | Phone screen | Sep 11, 2026 |
 | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | System Design | Medium | Phone screen | Sep 10, 2026 |
 | [Design a Logger with Independent Handlers](https://trueinterview.io/questions/design-a-logger-with-independent-handlers) | Object Oriented Programming | Medium | Phone screen | Aug 21, 2026 |
@@ -51,7 +55,7 @@ Which stage each question came from, for the **49 of 49** questions at Rippling 
 
 ## What they ask about
 
-Of the **23 questions at Rippling that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **23 questions at Rippling that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -74,31 +78,32 @@ Every recorded sighting at Rippling, by the month it was reported in — Oct 17,
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 4 | ██████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 2 | ███████ |
-| [Jun 2026](../by-month/2026-06.md) | 7 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 4 | ██████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████ |
-| [Mar 2026](../by-month/2026-03.md) | 3 | ██████████ |
+| [Sep 2026](../by-month/2026-09.md) | 8 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ██████ |
+| [Jun 2026](../by-month/2026-06.md) | 8 | ████████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 4 | ████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | █████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | █████████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ███ |
-| [Jan 2026](../by-month/2026-01.md) | 4 | ██████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | ███████ |
-| [Oct 2025](../by-month/2025-10.md) | 4 | ██████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 4 | ████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ██████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
+| [Oct 2025](../by-month/2025-10.md) | 5 | ███████████████ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Rippling, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Rippling, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Object Oriented Programming | Hard | — | Sep 18, 2026 |
 | **2** | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Algorithm | Hard | — | Sep 13, 2026 |
-| **3** | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Object Oriented Programming | Hard | — | Sep 11, 2026 |
-| **4** | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | System Design | Medium | — | Sep 10, 2026 |
-| **5** | [Design a Logger with Independent Handlers](https://trueinterview.io/questions/design-a-logger-with-independent-handlers) | Object Oriented Programming | Medium | — | Aug 21, 2026 |
-| **6** | [Propagate Task Filtering Through Ancestors](https://trueinterview.io/questions/propagate-task-filtering-through-ancestors) | Algorithm | Hard | — | Aug 17, 2026 |
-| **7** | [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | 3 | Jun 28, 2026 |
-| **8** | [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator) | System Design | Hard | — | Jun 28, 2026 |
+| **3** | [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **4** | [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **5** | [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **6** | [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **7** | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Object Oriented Programming | Hard | — | Sep 11, 2026 |
+| **8** | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | System Design | Medium | — | Sep 10, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -121,6 +126,10 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Object Oriented Programming | Hard | 🆕 Sep 18, 2026 |
+| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | Blog | — | 🆕 Sep 13, 2026 |
+| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | Blog | — | 🆕 Sep 13, 2026 |
+| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | Blog | — | 🆕 Sep 13, 2026 |
+| [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | Blog | — | 🆕 Sep 13, 2026 |
 | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Algorithm | Hard | 🆕 Sep 13, 2026 |
 | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Object Oriented Programming | Hard | 🆕 Sep 11, 2026 |
 | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | System Design | Medium | 🆕 Sep 10, 2026 |
@@ -128,6 +137,7 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 | [Propagate Task Filtering Through Ancestors](https://trueinterview.io/questions/propagate-task-filtering-through-ancestors) | Algorithm | Hard | Aug 17, 2026 |
 | [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | Jun 28, 2026 |
 | [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator) | System Design | Hard | Jun 28, 2026 |
+| [Project Deep Dive / HM BQ](https://trueinterview.io/questions/project-deep-dive-and-bq) | Blog | — | Jun 26, 2026 |
 | [Expense System](https://trueinterview.io/questions/expense-rules-engine) | Object Oriented Programming | Medium | Jun 18, 2026 |
 | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | Object Oriented Programming | Medium | Jun 18, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
@@ -150,12 +160,16 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Clarify and Find Common Ancestors in a Graph](https://trueinterview.io/questions/clarify-and-find-common-ancestors-in-a-graph) | Algorithm | Hard | Dec 12, 2025 |
 | [Music Player](https://trueinterview.io/questions/music-player) | Object Oriented Programming | Medium | Dec 08, 2025 |
+| [DSA Multiple Choice and Costliest Chocolate](https://trueinterview.io/questions/intern-oa-fixed-set) | Blog | — | Nov 16, 2025 |
+| [What was the hardest part of your project?](https://trueinterview.io/questions/what-was-the-hardest-part-of-your-project) | Blog | — | Oct 17, 2025 |
 | [Design an ad-click aggregation and enrichment pipeline](https://trueinterview.io/questions/design-an-ad-click-aggregation-and-enrichment-pipeline) | System Design | Hard | Oct 17, 2025 |
 | [Design a large-scale news app with caching](https://trueinterview.io/questions/design-a-large-scale-news-app-with-caching) | System Design | Medium | Oct 17, 2025 |
 | [Track article votes and last three flips](https://trueinterview.io/questions/track-article-votes-and-last-three-flips) | Object Oriented Programming | Medium | Oct 17, 2025 |
 | [Aggregate expenses by person, trip, and category](https://trueinterview.io/questions/aggregate-expenses-by-person-trip-and-category) | Algorithm | Medium | Oct 17, 2025 |
+| [Find minimum of unknown convex function](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) | Blog | — | — |
 | [Convert amounts between multiple currencies](https://trueinterview.io/questions/convert-amounts-between-multiple-currencies) | Algorithm | Hard | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
+| [Time Complexity Analysis](https://trueinterview.io/questions/3ff04932-615f-483c-a528-757dfbfc638a) | Blog | — | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Delivery Cost Problem](https://trueinterview.io/questions/bff10176-f542-49a7-972c-e05025a0460d) | Algorithm | Medium | — |
 | [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823) | Algorithm | Medium | — |

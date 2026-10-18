@@ -2,7 +2,7 @@
 
 # Harvey interview process, OA & interview questions
 
-**20 questions** reported at Harvey · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/harvey), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at Harvey · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/harvey), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Harvey interviews & the free questions](harvey/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **20** |
+| Questions tracked | **23** |
 | Most recent sighting | Sep 15, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (35% of 20) |
+| Most common format | [Algorithm](../formats/algorithm.md) (30% of 23) |
 | Difficulty (easy / medium / hard) | 1 / 16 / 3 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 20 questions reported at Harvey. 15 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at Harvey. 18 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **20 of 20** questions at Harvey that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at Harvey that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 8 | ██████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 6 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 13 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (38%) | 0 / 11 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (44%) | 0 / 6 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 15 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (33%) | 0 / 11 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -50,7 +50,7 @@ Which stage each question came from, for the **20 of 20** questions at Harvey th
 
 ## What they ask about
 
-Of the **8 questions at Harvey that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **8 questions at Harvey that carry a topic label** (35% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -72,12 +72,12 @@ Every recorded sighting at Harvey, by the month it was reported in — Feb 18, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 4 | ████████████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ██████ |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ██████████████████ |
-| [Jun 2026](../by-month/2026-06.md) | 2 | ████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ███████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | █████ |
+| [Jul 2026](../by-month/2026-07.md) | 4 | ███████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ██████████ |
+| [Apr 2026](../by-month/2026-04.md) | 5 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | ██████████ |
 
 ## Start here
 
@@ -91,8 +91,8 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 | **4** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Algorithm | Hard | — | Sep 01, 2026 |
 | **5** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) 🆓 | Algorithm | Medium | — | Aug 09, 2026 |
 | **6** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | — | Jul 07, 2026 |
-| **7** | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Medium | — | Jul 2026 |
-| **8** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | — | Jul 2026 |
+| **7** | [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral) 🆓 | Blog | — | — | Jul 02, 2026 |
+| **8** | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Medium | — | Jul 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -120,14 +120,17 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Algorithm | Medium | Sep 01, 2026 |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Medium | Aug 09, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Jul 07, 2026 |
+| [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral) | Blog | — | Jul 02, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Medium | Jul 2026 |
 | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | Jul 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | AI Coding | Medium | Jun 11, 2026 |
 | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Object Oriented Programming | Medium | Apr 30, 2026 |
 | [Design a Cloud File Storage Service](https://trueinterview.io/questions/design-a-cloud-file-storage-service-2) | System Design | Hard | Apr 12, 2026 |
+| [Describe Leading a Technical Project](https://trueinterview.io/questions/describe-leading-a-technical-project) | Blog | — | Apr 12, 2026 |
 | [Implement a Hierarchical File System](https://trueinterview.io/questions/implement-a-hierarchical-file-system) | Object Oriented Programming | Medium | Apr 12, 2026 |
 | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Object Oriented Programming | Medium | Apr 2026 |
+| [Resolve conflict across teams](https://trueinterview.io/questions/resolve-conflict-across-teams) | Blog | — | Feb 18, 2026 |
 | [Implement tag matcher and filesystem](https://trueinterview.io/questions/implement-tag-matcher-and-filesystem) | Object Oriented Programming | Medium | Feb 18, 2026 |
 | [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb) | Object Oriented Programming | Medium | — |
 | [Citation Problem](https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e) | Algorithm | Easy | — |

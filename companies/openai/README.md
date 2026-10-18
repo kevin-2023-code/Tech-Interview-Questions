@@ -8,7 +8,7 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [158](../openai.md) |
+| Questions reported | [175](../openai.md) |
 | Free to read here | 13 |
 | Interview-process guides | 7 |
 | Other guides | 0 |
@@ -50,27 +50,44 @@ Here's what the interview process can look like:
 
 ## Free OpenAI questions
 
-13 questions reported at OpenAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+30 questions reported at OpenAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/questions/engineering-management-fundamentals) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/engineering-management-fundamentals) |
+| [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/hm-bq-why-openai) |
+| [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/technical-deep-dive) |
 | [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/infection-spread-simulation) |
 | [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
 | [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/memory-allocator) |
+| [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) |
+| [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/recruiter-hr-screen) |
+| [Defend a Research Direction and Experiment Design](https://trueinterview.io/questions/defend-a-research-direction-and-experiment-design) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/defend-a-research-direction-and-experiment-design) |
+| [Explain Your Engineering Ownership](https://trueinterview.io/questions/explain-your-engineering-ownership) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-your-engineering-ownership) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
+| [Model particle hits on a screen](https://trueinterview.io/questions/model-particle-hits-on-a-screen) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/model-particle-hits-on-a-screen) |
+| [Analyze matrix multiplication complexity](https://trueinterview.io/questions/analyze-matrix-multiplication-complexity) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/analyze-matrix-multiplication-complexity) |
+| [Derive Backpropagation for Matrix-Product Layers](https://trueinterview.io/questions/derive-backpropagation-for-matrix-product-layers) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/derive-backpropagation-for-matrix-product-layers) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
+| [How to answer common recruiter screen questions](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
+| [Answer project deep dive and cross-functional questions](https://trueinterview.io/questions/answer-project-deep-dive-and-cross-functional-questions) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-project-deep-dive-and-cross-functional-questions) |
+| [Explain KV cache in Transformer inference](https://trueinterview.io/questions/explain-kv-cache-in-transformer-inference) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-kv-cache-in-transformer-inference) |
+| [Explain JS threading and useState vs useRef](https://trueinterview.io/questions/explain-js-threading-and-usestate-vs-useref) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-js-threading-and-usestate-vs-useref) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/in-memory-database-with-sql-operations) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
+| [Explain motivation and mission alignment](https://trueinterview.io/questions/explain-motivation-and-mission-alignment) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-motivation-and-mission-alignment) |
+| [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 | [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) |
 | [Cell Simulation / Conway's Game of Life](../../questions/algorithm/cell-simulation-conway-s-game-of-life/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) |
+| [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) |
 | [Toy Language](../../questions/algorithm/toy-language/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) |
 
 ## Everything else
 
-- [All 158 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 175 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every OpenAI question on TrueInterview](https://trueinterview.io/problems/company/openai).
 
 ---

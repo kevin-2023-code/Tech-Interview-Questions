@@ -2,46 +2,46 @@
 
 # MongoDB interview process, OA & interview questions
 
-**7 questions** reported at MongoDB · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/mongodb), judged server-side on the algorithm, low-level-design and SQL formats.
+**8 questions** reported at MongoDB · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/mongodb), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How MongoDB interviews & the free questions](mongodb/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > ☁️ [Developer tools, cloud & data infrastructure](../company-types/dev-infra.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-mongodb)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-mongodb)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **7** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (86% of 7) |
+| Questions tracked | **8** |
+| Most recent sighting | Jan 05, 2026 |
+| Reported in the last 90 days | 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (75% of 8) |
 | Difficulty (easy / medium / hard) | 1 / 3 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 7 questions reported at MongoDB. 0 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 8 questions reported at MongoDB. 1 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **7 of 7** questions at MongoDB that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **8 of 8** questions at MongoDB that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at MongoDB.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at MongoDB since Jan 05, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **7 questions at MongoDB that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **7 questions at MongoDB that carry a topic label** (88% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -55,19 +55,28 @@ Of the **7 questions at MongoDB that carry a topic label** (100% of them — the
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
+## When they asked it
+
+Every recorded sighting at MongoDB, by the month it was reported in — Jan 05, 2026 to Jan 05, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████████████████ |
+
 ## Start here
 
-The 7 questions to open first if you are preparing for MongoDB, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for MongoDB, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) 🆓 | Object Oriented Programming | Medium | 1 | — |
-| **2** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Algorithm | Easy | — | — |
-| **3** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | — | — |
-| **4** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Algorithm | Medium | — | — |
-| **5** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) 🆓 | Algorithm | Hard | — | — |
-| **6** | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) | Algorithm | Hard | — | — |
-| **7** | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Algorithm | Hard | — | — |
+| **1** | [How do you answer common HR screen questions?](https://trueinterview.io/questions/how-do-you-answer-common-hr-screen-questions) 🆓 | Blog | — | — | Jan 05, 2026 |
+| **2** | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) 🆓 | Object Oriented Programming | Medium | 1 | — |
+| **3** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Algorithm | Easy | — | — |
+| **4** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | — | — |
+| **5** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Algorithm | Medium | — | — |
+| **6** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) 🆓 | Algorithm | Hard | — | — |
+| **7** | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) | Algorithm | Hard | — | — |
+| **8** | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -89,6 +98,7 @@ The 7 questions to open first if you are preparing for MongoDB, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [How do you answer common HR screen questions?](https://trueinterview.io/questions/how-do-you-answer-common-hr-screen-questions) | Blog | — | Jan 05, 2026 |
 | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Algorithm | Hard | — |
 | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) | Algorithm | Hard | — |
 | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Algorithm | Medium | — |

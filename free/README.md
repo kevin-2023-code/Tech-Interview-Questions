@@ -2,17 +2,18 @@
 
 # Free questions
 
-**394 of the 4,233 tracked questions open without a paid plan** (9%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
+**1,830 of the 5,636 tracked questions open without a paid plan** (32%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [Free reading](../guides/README.md)
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 282 | 75 | 162 | 45 |
+| [Algorithm](algorithm.md) | 304 | 81 | 175 | 48 |
 | [SQL](sql.md) | 6 | 0 | 4 | 2 |
-| [System Design](system-design.md) | 34 | 5 | 16 | 13 |
-| [AI Coding](ai-coding.md) | 9 | 1 | 7 | 1 |
-| [Object Oriented Programming](object-oriented-programming.md) | 63 | 4 | 54 | 5 |
+| [System Design](system-design.md) | 39 | 5 | 19 | 15 |
+| [AI Coding](ai-coding.md) | 10 | 1 | 8 | 1 |
+| [Blog](blog.md) | 1,403 | 0 | 0 | 0 |
+| [Object Oriented Programming](object-oriented-programming.md) | 68 | 5 | 58 | 5 |
 
 ## Start here
 
@@ -45,6 +46,9 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | **Arista / Boston Consulting Group** | Easy | — |
 | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | **ByteDance / Rubrik** | Easy | — |
 | [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | **Akuna Capital / Google** | Easy | Aug 26, 2025 |
+| [Shortest Path in Unweighted Graph](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) | **Pinterest / ByteDance** | Easy | May 30, 2025 |
+| [Verifying an Alien Dictionary](https://trueinterview.io/questions/verifying-an-alien-dictionary) | **Uber / Meta** | Easy | Sep 2025 |
+| [Add Signed Arrays](https://trueinterview.io/questions/add-signed-arrays) | **ByteDance** | Easy | Jul 25, 2025 |
 | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | **Bobyard** | Easy | — |
 | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) | **Cisco** | Easy | Sep 06, 2025 |
 | [Alphanumeric Vowel / Consonant Count](https://trueinterview.io/questions/alphanumeric-vowel-consonant-count) | **JPMorgan** | Easy | Jun 30, 2025 |
@@ -52,13 +56,10 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Anagram Queries on Word List](https://trueinterview.io/questions/anagram-queries) | **Goldman Sachs** | Easy | Oct 26, 2024 |
 | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | **Applied Intuition** | Easy | — |
 | [Auto Email Generation](https://trueinterview.io/questions/auto-email-generation) | **Roblox** | Easy | Sep 02, 2025 |
+| [Bank System Class with Deposit, Withdraw, and Balance Check](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | **Coinbase** | Easy | — |
 | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | **Shopify** | Easy | Aug 29, 2025 |
 | [Calculate and Sort Customer Ratings](https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904) | **Atlassian** | Easy | — |
 | [Calculate Fibonacci Number](https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216) | **Snowflake** | Easy | — |
 | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | **Brex** | Easy | — |
-| [Chairs / Restaurant Order Simulation](https://trueinterview.io/questions/chairs-restaurant-simulation) | **Goldman Sachs** | Easy | Oct 26, 2024 |
-| [Check Validity of Input String](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) | **Snowflake** | Easy | — |
-| [Compliance Alert / Trailing-Average Sliding Window](https://trueinterview.io/questions/compliance-alert-sliding-window) | **Goldman Sachs** | Easy | Oct 26, 2024 |
-| [Compress Consecutive Ranges](https://trueinterview.io/questions/compress-consecutive-ranges) | **Cisco** | Easy | Aug 26, 2025 |
 
 <sub>The rest are on the per-format pages above. A dash in *Reported* means no sighting date was recorded, which is not the same as old.</sub>

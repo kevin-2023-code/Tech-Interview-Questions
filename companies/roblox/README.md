@@ -8,7 +8,7 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [87](../roblox.md) |
+| Questions reported | [102](../roblox.md) |
 | Free to read here | 14 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -50,28 +50,43 @@ Here's what the interview process can look like:
 
 ## Free Roblox questions
 
-14 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+29 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers) | Blog | — | Online assessment | Aug 2026 | [Solve](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers) |
+| [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/questions/behavioral-hm-traffic-and-scope) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/behavioral-hm-traffic-and-scope) |
 | [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/most-frequent-function-call-stack) |
+| [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/mle-project-deep-dive) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [How to estimate a feature’s causal impact on time spent](https://trueinterview.io/questions/how-to-estimate-a-feature-s-causal-impact-on-time-spent) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-to-estimate-a-feature-s-causal-impact-on-time-spent) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [Apply Bayes' rule to compute posterior](https://trueinterview.io/questions/apply-bayes-rule-to-compute-posterior) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/apply-bayes-rule-to-compute-posterior) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
 | [Same Word of HTML Labels](../../questions/algorithm/same-word-of-html-labels/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/same-word-of-html-labels) |
 | [Randomly Partition Array](../../questions/algorithm/randomly-partition-array/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/randomly-partition-array) |
 | [Validate Playlist Sequence](../../questions/algorithm/validate-playlist-sequence/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/validate-playlist-sequence) |
 | [Find Minimum Score Threshold](../../questions/algorithm/find-minimum-score-threshold/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/find-minimum-score-threshold) |
 | [Auto Email Generation](../../questions/algorithm/auto-email-generation/README.md) | Algorithm | Easy | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/auto-email-generation) |
+| [Explain an ML project end-to-end with tradeoffs](https://trueinterview.io/questions/explain-an-ml-project-end-to-end-with-tradeoffs) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-an-ml-project-end-to-end-with-tradeoffs) |
+| [Evaluate friend-interaction feature with network interference](https://trueinterview.io/questions/evaluate-friend-interaction-feature-with-network-interference) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/evaluate-friend-interaction-feature-with-network-interference) |
+| [Determine if players prefer local creators without experiments](https://trueinterview.io/questions/determine-if-players-prefer-local-creators-without-experiments) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/determine-if-players-prefer-local-creators-without-experiments) |
+| [Design ad revenue A/B with guardrails](https://trueinterview.io/questions/design-ad-revenue-a-b-with-guardrails) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-ad-revenue-a-b-with-guardrails) |
+| [Describe resolving revenue–UX metric conflict](https://trueinterview.io/questions/describe-resolving-revenueux-metric-conflict) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-resolving-revenueux-metric-conflict) |
+| [Describe leading an ambiguous ads project](https://trueinterview.io/questions/describe-leading-an-ambiguous-ads-project) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-leading-an-ambiguous-ads-project) |
+| [Demonstrate fit with quantified stories and motivations](https://trueinterview.io/questions/demonstrate-fit-with-quantified-stories-and-motivations) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/demonstrate-fit-with-quantified-stories-and-motivations) |
+| [Defend a metric choice under scrutiny](https://trueinterview.io/questions/defend-a-metric-choice-under-scrutiny) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/defend-a-metric-choice-under-scrutiny) |
+| [Compute GSP vs VCG payments with reserves](https://trueinterview.io/questions/compute-gsp-vs-vcg-payments-with-reserves) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-gsp-vs-vcg-payments-with-reserves) |
+| [Choose Best/Worst Actions Under Time Pressure](https://trueinterview.io/questions/choose-best-worst-actions-under-oa-pressure) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/choose-best-worst-actions-under-oa-pressure) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
 
-- [All 87 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 102 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Roblox question on TrueInterview](https://trueinterview.io/problems/company/roblox).
 
 ---

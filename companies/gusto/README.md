@@ -8,7 +8,7 @@ How Gusto interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../gusto.md) |
+| Questions reported | [6](../gusto.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -46,16 +46,17 @@ Here's what the interview process can look like:
 
 ## Free Gusto questions
 
-2 questions reported at Gusto open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Gusto open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
+| [Compute p-values for 2 variants vs control](https://trueinterview.io/questions/compute-p-values-for-2-variants-vs-control) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/compute-p-values-for-2-variants-vs-control) |
 | [Fairly Distribute Money With Limits](../../questions/algorithm/fairly-distribute-money-with-limits/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) |
 
 ## Everything else
 
-- [All 5 questions reported at Gusto](../gusto.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 6 questions reported at Gusto](../gusto.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Gusto question on TrueInterview](https://trueinterview.io/problems/company/gusto).
 
 ---

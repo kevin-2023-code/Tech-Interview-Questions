@@ -8,7 +8,7 @@ How Expedia interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [34](../expedia.md) |
+| Questions reported | [41](../expedia.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,19 +48,26 @@ Here's what the interview process can look like:
 
 ## Free Expedia questions
 
-5 questions reported at Expedia open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at Expedia open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
+| [How do you learn new knowledge quickly?](https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly) |
+| [Describe when you distrusted a colleague](https://trueinterview.io/questions/describe-when-you-distrusted-a-colleague) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-when-you-distrusted-a-colleague) |
 | [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/house-robber-series) |
+| [How do you use AI for coding?](https://trueinterview.io/questions/how-do-you-use-ai-for-coding) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-do-you-use-ai-for-coding) |
+| [Validate and monitor ranking model end-to-end](https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end) |
+| [Lead alignment under ambiguity and pressure](https://trueinterview.io/questions/lead-alignment-under-ambiguity-and-pressure) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/lead-alignment-under-ambiguity-and-pressure) |
+| [Choose KPIs and prove impact with experiments](https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments) |
+| [Audit and onboard unfamiliar datasets safely](https://trueinterview.io/questions/audit-and-onboard-unfamiliar-datasets-safely) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/audit-and-onboard-unfamiliar-datasets-safely) |
 | [Minimum Machines for Task Scheduling](../../questions/algorithm/minimum-machines-for-task-scheduling/README.md) | Algorithm | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36) |
 | [Counting Subsequence with Same Character Frequency](../../questions/algorithm/counting-subsequence-with-same-character-frequency/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c) |
 
 ## Everything else
 
-- [All 34 questions reported at Expedia](../expedia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 41 questions reported at Expedia](../expedia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Expedia question on TrueInterview](https://trueinterview.io/problems/company/expedia).
 
 ---

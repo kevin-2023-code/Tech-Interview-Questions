@@ -8,8 +8,8 @@ How Akuna Capital interviews, and the questions candidates reported there. Free 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [31](../akuna-capital.md) |
-| Free to read here | 7 |
+| Questions reported | [35](../akuna-capital.md) |
+| Free to read here | 10 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Aug 26, 2026 |
@@ -48,21 +48,28 @@ Here's what the interview process can look like:
 
 ## Free Akuna Capital questions
 
-7 questions reported at Akuna Capital open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Akuna Capital open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Evaluate a Hexadecimal Bitwise AND](https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and) |
 | [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) |
+| [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) |
+| [Enemy Factory with Shared Instances](../../questions/object-oriented-programming/enemy-factory-shared-instances/README.md) | Object Oriented Programming | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/enemy-factory-shared-instances) |
+| [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning) |
 | [Array Challenge: Left-Comparison Running Counter](../../questions/algorithm/left-comparison-running-counter/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/left-comparison-running-counter) |
 | [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/find-missing-and-repeated-element) |
 | [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md) | Object Oriented Programming | Hard | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) |
 | [Round Price to Nearest Valid Tick](../../questions/algorithm/round-price-to-nearest-tick/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/round-price-to-nearest-tick) |
+| [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games) | Blog | — | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/junior-trader-final-games) |
 | [Segregate Binary String (Move Ones to End)](../../questions/algorithm/segregate-binary-string-move-ones/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/segregate-binary-string-move-ones) |
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
+| [An Evening of Movies](../../questions/algorithm/an-evening-of-movies/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) |
+| [K Smallest Substring](../../questions/algorithm/k-smallest-substring/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c) |
 
 ## Everything else
 
-- [All 31 questions reported at Akuna Capital](../akuna-capital.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 35 questions reported at Akuna Capital](../akuna-capital.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Akuna Capital question on TrueInterview](https://trueinterview.io/problems/company/akuna-capital).
 
 ---

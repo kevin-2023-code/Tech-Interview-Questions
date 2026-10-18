@@ -8,7 +8,7 @@ How Optiver interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [23](../optiver.md) |
+| Questions reported | [35](../optiver.md) |
 | Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -49,19 +49,31 @@ Here's what the interview process can look like:
 
 ## Free Optiver questions
 
-5 questions reported at Optiver open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+17 questions reported at Optiver open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/koko-eating-bananas) |
+| [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game) | Blog | — | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/trading-betting-game) |
+| [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/questions/number-logic-sequence) | Blog | — | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/number-logic-sequence) |
+| [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test) | Blog | — | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/likelihood-ordering-test) |
+| [Beat the Odds — Probability Test](https://trueinterview.io/questions/beat-the-odds-probability) | Blog | — | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/beat-the-odds-probability) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
+| [QR Take-Home Data Project & Presentation](https://trueinterview.io/questions/qr-take-home-data-project) | Blog | — | Take-home, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/qr-take-home-data-project) |
+| [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/hr-behavioral-screen) |
+| [Answer why SWE and why Optiver](https://trueinterview.io/questions/answer-why-swe-and-why-optiver) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-why-swe-and-why-optiver) |
+| [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes) |
+| [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/zap-n-reaction-games) |
+| [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/questions/coding-knowledge-test) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/coding-knowledge-test) |
+| [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/questions/qr-technical-brainteasers) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/qr-technical-brainteasers) |
 | [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md) | Object Oriented Programming | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/balloon-festival-simulation) |
 | [Currency Arbitrage Detection](../../questions/algorithm/currency-arbitrage-detection/README.md) | Algorithm | Hard | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/currency-arbitrage-detection) |
+| [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game) | Blog | — | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/market-making-interval-game) |
 | [Satellite Message Propagation](../../questions/object-oriented-programming/satellite-message-propagation/README.md) | Object Oriented Programming | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/satellite-message-propagation) |
 
 ## Everything else
 
-- [All 23 questions reported at Optiver](../optiver.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 35 questions reported at Optiver](../optiver.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Optiver question on TrueInterview](https://trueinterview.io/problems/company/optiver).
 
 ---

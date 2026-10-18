@@ -2,7 +2,7 @@
 
 # Siemens interview process, OA & interview questions
 
-**1 question** reported at Siemens. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/siemens), judged server-side.
+**4 questions** reported at Siemens. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/siemens), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Siemens interviews & the free questions](siemens/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,37 +12,40 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **1** |
+| Questions tracked | **4** |
 | Most recent sighting | Sep 04, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 1) |
+| Reported in the last 90 days | 4 |
+| Most common format | [Blog](../formats/blog.md) (75% of 4) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 0 |
-| Free to practise | [1](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 1 question reported at Siemens. 1 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 4 questions reported at Siemens. 4 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **1 of 1** questions at Siemens that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **4 of 4** questions at Siemens that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 1 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 4 | ██████████ | [Blog](../formats/blog.md) (75%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | Algorithm | Medium | Phone screen | Sep 04, 2026 |
+| [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) | Blog | — | Phone screen | Sep 04, 2026 |
+| [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | Blog | — | Phone screen | Sep 04, 2026 |
+| [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) | Blog | — | Phone screen | Sep 04, 2026 |
 
 ## What they ask about
 
-Of the **1 question at Siemens that carries a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Siemens that carries a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -56,15 +59,18 @@ Every recorded sighting at Siemens, by the month it was reported in — Sep 04, 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ████████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ████████████████████████ |
 
 ## Start here
 
-The 1 question to open first if you are preparing for Siemens, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 4 questions to open first if you are preparing for Siemens, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) 🆓 | Algorithm | Medium | — | Sep 04, 2026 |
+| **2** | [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) 🆓 | Blog | — | — | Sep 04, 2026 |
+| **3** | [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) 🆓 | Blog | — | — | Sep 04, 2026 |
+| **4** | [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) 🆓 | Blog | — | — | Sep 04, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -78,4 +84,7 @@ The 1 question to open first if you are preparing for Siemens, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) | Blog | — | 🆕 Sep 04, 2026 |
 | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | Algorithm | Medium | 🆕 Sep 04, 2026 |
+| [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | Blog | — | 🆕 Sep 04, 2026 |
+| [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) | Blog | — | 🆕 Sep 04, 2026 |

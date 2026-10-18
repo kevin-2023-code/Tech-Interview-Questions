@@ -8,7 +8,7 @@ How Upstart interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [29](../upstart.md) |
+| Questions reported | [49](../upstart.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,16 +47,36 @@ Here's what the interview process can look like:
 
 ## Free Upstart questions
 
-2 questions reported at Upstart open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at Upstart open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Why This Company and Role](https://trueinterview.io/questions/why-this-company-and-role) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/why-this-company-and-role) |
+| [Professional Introduction for a Recruiter Screen](https://trueinterview.io/questions/professional-introduction-for-a-recruiter-screen) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/professional-introduction-for-a-recruiter-screen) |
+| [Explain Technology to a Nontechnical Audience](https://trueinterview.io/questions/explain-technology-to-a-nontechnical-audience) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-technology-to-a-nontechnical-audience) |
+| [Discuss Compensation Expectations](https://trueinterview.io/questions/discuss-compensation-expectations) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/discuss-compensation-expectations) |
+| [Describe Your Python Experience](https://trueinterview.io/questions/describe-your-python-experience) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-your-python-experience) |
+| [Demonstrate Project Ownership](https://trueinterview.io/questions/demonstrate-project-ownership) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/demonstrate-project-ownership) |
+| [Explain L1 vs L2 and ridge vs lasso](https://trueinterview.io/questions/explain-l1-vs-l2-and-ridge-vs-lasso) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-l1-vs-l2-and-ridge-vs-lasso) |
+| [Compute decay, OLS, and classic probability results](https://trueinterview.io/questions/compute-decay-ols-and-classic-probability-results) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/compute-decay-ols-and-classic-probability-results) |
+| [Solve core probability/statistics mini-problems](https://trueinterview.io/questions/solve-core-probability-statistics-mini-problems) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/solve-core-probability-statistics-mini-problems) |
+| [Combine noisy thermometers; compute random-walk correlations](https://trueinterview.io/questions/combine-noisy-thermometers-compute-random-walk-correlations) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/combine-noisy-thermometers-compute-random-walk-correlations) |
+| [Solve drunk-passenger probability and simulate outcome](https://trueinterview.io/questions/solve-drunk-passenger-probability-and-simulate-outcome) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/solve-drunk-passenger-probability-and-simulate-outcome) |
+| [Formulate hypotheses and metrics for video-pin ramp](https://trueinterview.io/questions/formulate-hypotheses-and-metrics-for-video-pin-ramp) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/formulate-hypotheses-and-metrics-for-video-pin-ramp) |
+| [Explain tackling ambiguity and defending a decision](https://trueinterview.io/questions/explain-tackling-ambiguity-and-defending-a-decision) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-tackling-ambiguity-and-defending-a-decision) |
+| [Explain career moves and defend moat](https://trueinterview.io/questions/explain-career-moves-and-defend-moat) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-career-moves-and-defend-moat) |
+| [Evaluate channels and allocate budget](https://trueinterview.io/questions/evaluate-channels-and-allocate-budget) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/evaluate-channels-and-allocate-budget) |
+| [Estimate impact without experiments and pick variant](https://trueinterview.io/questions/estimate-impact-without-experiments-and-pick-variant) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/estimate-impact-without-experiments-and-pick-variant) |
+| [Derive logistic regression objective and gradients](https://trueinterview.io/questions/derive-logistic-regression-objective-and-gradients) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/derive-logistic-regression-objective-and-gradients) |
+| [Correct length-biased sampling from family-size survey](https://trueinterview.io/questions/correct-length-biased-sampling-from-family-size-survey) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/correct-length-biased-sampling-from-family-size-survey) |
+| [Analyze HT vs HH stopping-time probabilities](https://trueinterview.io/questions/analyze-ht-vs-hh-stopping-time-probabilities) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/analyze-ht-vs-hh-stopping-time-probabilities) |
+| [Analyze aggregator lender page flows](https://trueinterview.io/questions/analyze-aggregator-lender-page-flows) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/analyze-aggregator-lender-page-flows) |
 | [Interleave Three Equal-Length Strings](../../questions/algorithm/interleave-three-equal-length-strings/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/0b074bbd-5c4d-5d9c-a970-b8bd946084a7) |
 | [Remove Duplicates from Sorted Array](../../questions/algorithm/remove-duplicates-from-sorted-array/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) |
 
 ## Everything else
 
-- [All 29 questions reported at Upstart](../upstart.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 49 questions reported at Upstart](../upstart.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Upstart question on TrueInterview](https://trueinterview.io/problems/company/upstart).
 
 ---

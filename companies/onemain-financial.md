@@ -2,53 +2,67 @@
 
 # Onemain Financial interview process, OA & interview questions
 
-**3 questions** reported at Onemain Financial. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/onemain-financial), judged server-side on the algorithm, low-level-design and SQL formats.
+**12 questions** reported at Onemain Financial. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/onemain-financial), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Onemain Financial interviews & the free questions](onemain-financial/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-onemain-financial)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-onemain-financial)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **3** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (33% of 3) |
+| Questions tracked | **12** |
+| Most recent sighting | Dec 01, 2025 |
+| Reported in the last 90 days | 0 |
+| Most common format | [Blog](../formats/blog.md) (75% of 12) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 2 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [11](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 3 questions reported at Onemain Financial. 0 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 12 questions reported at Onemain Financial. 4 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **3 of 3** questions at Onemain Financial that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **12 of 12** questions at Onemain Financial that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (33%) | 0 / 1 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 12 | ██████████ | [Blog](../formats/blog.md) (75%) | 0 / 1 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at Onemain Financial.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Onemain Financial since Dec 01, 2025.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-**None of the 3 questions reported at Onemain Financial carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+**None of the 12 questions reported at Onemain Financial carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+
+## When they asked it
+
+Every recorded sighting at Onemain Financial, by the month it was reported in — Oct 07, 2025 to Dec 01, 2025. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Dec 2025](../by-month/2025-12.md) | 3 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ████████ |
 
 ## Start here
 
-The 3 questions to open first if you are preparing for Onemain Financial, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Onemain Financial, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) 🆓 | Object Oriented Programming | Medium | 4 | — |
-| **2** | [Transform clickstream with pandas sessionization](https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization) 🆓 | Algorithm | Hard | — | — |
-| **3** | [Write SQL for cohort retention and ARPU](https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu) | SQL | Hard | — | — |
+| **1** | [Detect and address multicollinearity](https://trueinterview.io/questions/detect-and-address-multicollinearity) 🆓 | Blog | — | — | Dec 01, 2025 |
+| **2** | [Explain decision trees and tree ensembles](https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles) 🆓 | Blog | — | — | Dec 01, 2025 |
+| **3** | [Walk through a DS project end-to-end](https://trueinterview.io/questions/walk-through-a-ds-project-end-to-end) 🆓 | Blog | — | — | Dec 01, 2025 |
+| **4** | [Evaluate shift from branch to digital channel](https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel) 🆓 | Blog | — | — | Oct 07, 2025 |
+| **5** | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) 🆓 | Object Oriented Programming | Medium | 4 | — |
+| **6** | [Transform clickstream with pandas sessionization](https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization) 🆓 | Algorithm | Hard | — | — |
+| **7** | [Write SQL for cohort retention and ARPU](https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu) | SQL | Hard | — | — |
+| **8** | [Differentiate and control Type I/II errors](https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors) 🆓 | Blog | — | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -62,6 +76,15 @@ The 3 questions to open first if you are preparing for Onemain Financial, ranked
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Walk through a DS project end-to-end](https://trueinterview.io/questions/walk-through-a-ds-project-end-to-end) | Blog | — | Dec 01, 2025 |
+| [Explain decision trees and tree ensembles](https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles) | Blog | — | Dec 01, 2025 |
+| [Detect and address multicollinearity](https://trueinterview.io/questions/detect-and-address-multicollinearity) | Blog | — | Dec 01, 2025 |
+| [Evaluate shift from branch to digital channel](https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel) | Blog | — | Oct 07, 2025 |
+| [Select and tune XGBoost hyperparameters](https://trueinterview.io/questions/select-and-tune-xgboost-hyperparameters) | Blog | — | — |
+| [Present a project to non-technical leaders](https://trueinterview.io/questions/present-a-project-to-non-technical-leaders) | Blog | — | — |
+| [Optimize SaaS pricing and profit](https://trueinterview.io/questions/optimize-saas-pricing-and-profit) | Blog | — | — |
+| [Handle missing data and outliers robustly](https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly) | Blog | — | — |
+| [Differentiate and control Type I/II errors](https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors) | Blog | — | — |
 | [Write SQL for cohort retention and ARPU](https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu) | SQL | Hard | — |
 | [Transform clickstream with pandas sessionization](https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization) | Algorithm | Hard | — |
 | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | Object Oriented Programming | Medium | — |

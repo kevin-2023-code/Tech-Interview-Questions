@@ -8,7 +8,7 @@ How Thumbtack interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../thumbtack.md) |
+| Questions reported | [16](../thumbtack.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,27 @@ No written process guide yet. [The loop, as reported](../thumbtack.md#the-loop-a
 
 ## Free Thumbtack questions
 
-2 questions reported at Thumbtack open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+13 questions reported at Thumbtack open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Test regional response-rate differences rigorously](https://trueinterview.io/questions/test-regional-response-rate-differences-rigorously) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/test-regional-response-rate-differences-rigorously) |
+| [Lead XFN decision under tight timeline](https://trueinterview.io/questions/lead-xfn-decision-under-tight-timeline) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/lead-xfn-decision-under-tight-timeline) |
+| [Explain power drivers and resolve unexpected A/B results](https://trueinterview.io/questions/explain-power-drivers-and-resolve-unexpected-a-b-results) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-power-drivers-and-resolve-unexpected-a-b-results) |
+| [Detail NLP preprocessing and n‑gram choices](https://trueinterview.io/questions/detail-nlp-preprocessing-and-ngram-choices) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/detail-nlp-preprocessing-and-ngram-choices) |
+| [Design cross-validation; explain bias–variance](https://trueinterview.io/questions/design-cross-validation-explain-biasvariance) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-cross-validation-explain-biasvariance) |
+| [Demonstrate rapid analysis and stakeholder debrief](https://trueinterview.io/questions/demonstrate-rapid-analysis-and-stakeholder-debrief) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/demonstrate-rapid-analysis-and-stakeholder-debrief) |
+| [Define success metrics for Instant Book](https://trueinterview.io/questions/define-success-metrics-for-instant-book) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/define-success-metrics-for-instant-book) |
+| [Compare list/dict; parse JSON/CSV at scale](https://trueinterview.io/questions/compare-list-dict-parse-json-csv-at-scale) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/compare-list-dict-parse-json-csv-at-scale) |
+| [Choose clustering vs regression; explain KNN](https://trueinterview.io/questions/choose-clustering-vs-regression-explain-knn) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/choose-clustering-vs-regression-explain-knn) |
+| [Compute weighted response rates by job category](https://trueinterview.io/questions/compute-weighted-response-rates-by-job-category) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/compute-weighted-response-rates-by-job-category) |
 | [Compute weekly 3-week rolling sums in SQL](../../questions/sql/compute-weekly-3-week-rolling-sums-in-sql/README.md) | SQL | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql) |
+| [Explain a project and justify choices](https://trueinterview.io/questions/explain-a-project-and-justify-choices) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-a-project-and-justify-choices) |
 | [Design a robust pro-ranking A/B test](../../questions/system-design/design-a-robust-pro-ranking-a-b-test/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test) |
 
 ## Everything else
 
-- [All 5 questions reported at Thumbtack](../thumbtack.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 16 questions reported at Thumbtack](../thumbtack.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Thumbtack question on TrueInterview](https://trueinterview.io/problems/company/thumbtack).
 
 ---

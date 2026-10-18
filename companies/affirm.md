@@ -2,7 +2,7 @@
 
 # Affirm interview process, OA & interview questions
 
-**17 questions** reported at Affirm. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/affirm), judged server-side on the algorithm, low-level-design and SQL formats.
+**18 questions** reported at Affirm. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/affirm), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Affirm interviews & the free questions](affirm/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **17** |
+| Questions tracked | **18** |
 | Most recent sighting | Aug 12, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (59% of 17) |
+| Most common format | [Algorithm](../formats/algorithm.md) (56% of 18) |
 | Difficulty (easy / medium / hard) | 3 / 11 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 17 questions reported at Affirm. 9 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 18 questions reported at Affirm. 10 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **17 of 17** questions at Affirm that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **18 of 18** questions at Affirm that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 8 | █████████ | [Algorithm](../formats/algorithm.md) (50%) | 2 / 3 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (60%) | 2 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | ████████ | [Algorithm](../formats/algorithm.md) (50%) | 2 / 3 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -49,7 +49,7 @@ Which stage each question came from, for the **17 of 17** questions at Affirm th
 
 ## What they ask about
 
-Of the **11 questions at Affirm that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Affirm that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -73,6 +73,7 @@ Every recorded sighting at Affirm, by the month it was reported in — Oct 26, 2
 | [Aug 2026](../by-month/2026-08.md) | 4 | ████████████████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ██████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ██████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██████ |
 
@@ -89,7 +90,7 @@ The 8 questions to open first if you are preparing for Affirm, ranked by **the m
 | **5** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) 🆓 | Algorithm | Medium | 2 | Jun 10, 2026 |
 | **6** | [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing) | System Design | Medium | — | Apr 19, 2026 |
 | **7** | [Detect Fraud by Propagating Suspicious PII](https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii) | Algorithm | Medium | — | Apr 19, 2026 |
-| **8** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 9 | Dec 10, 2025 |
+| **8** | [Describe your highest-impact project](https://trueinterview.io/questions/describe-your-highest-impact-project) 🆓 | Blog | — | — | Mar 07, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -110,6 +111,7 @@ The 8 questions to open first if you are preparing for Affirm, ranked by **the m
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
 | [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing) | System Design | Medium | Apr 19, 2026 |
 | [Detect Fraud by Propagating Suspicious PII](https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii) | Algorithm | Medium | Apr 19, 2026 |
+| [Describe your highest-impact project](https://trueinterview.io/questions/describe-your-highest-impact-project) | Blog | — | Mar 07, 2026 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |
 | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Object Oriented Programming | Medium | — |

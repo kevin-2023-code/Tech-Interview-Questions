@@ -8,7 +8,7 @@ How Scale AI interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [22](../scale-ai.md) |
+| Questions reported | [34](../scale-ai.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,16 +48,28 @@ Here's what the interview process can look like:
 
 ## Free Scale AI questions
 
-2 questions reported at Scale AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Scale AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Transformer Attention Mask and Heads Coding](../../questions/algorithm/transformer-attention-mask-and-heads-coding/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) |
 | [Task Processor: Dependencies and Deadlines](../../questions/algorithm/task-processor-dependencies-and-deadlines/README.md) | Algorithm | Hard | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) |
+| [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement) | Blog | — | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement) |
+| [Project Deep Dive and Paper Presentation](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation) | Blog | — | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation) |
+| [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/llm-post-training-theory-conversation) |
+| [Answer common project leadership questions](https://trueinterview.io/questions/answer-common-project-leadership-questions) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-common-project-leadership-questions) |
+| [Handle customer engagement and manager-rating questions](https://trueinterview.io/questions/handle-customer-engagement-and-manager-rating-questions) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/handle-customer-engagement-and-manager-rating-questions) |
+| [Describe a challenging project](https://trueinterview.io/questions/describe-a-challenging-project) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-a-challenging-project) |
+| [Quantify impact of your projects using STAR](https://trueinterview.io/questions/quantify-impact-of-your-projects-using-star) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/quantify-impact-of-your-projects-using-star) |
+| [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work) |
+| [Describe how you learn quickly in new domains](https://trueinterview.io/questions/describe-how-you-learn-quickly-in-new-domains) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-how-you-learn-quickly-in-new-domains) |
+| [Implement Adversarial Attack using Paper Method](https://trueinterview.io/questions/510f7345-ead1-4ad1-9da1-46c51d1ce8a4) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/510f7345-ead1-4ad1-9da1-46c51d1ce8a4) |
+| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/questions/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) |
+| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/questions/147c9781-846f-407b-a3e9-cb2f61ae898d) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/147c9781-846f-407b-a3e9-cb2f61ae898d) |
 
 ## Everything else
 
-- [All 22 questions reported at Scale AI](../scale-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 34 questions reported at Scale AI](../scale-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Scale AI question on TrueInterview](https://trueinterview.io/problems/company/scale-ai).
 
 ---

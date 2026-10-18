@@ -8,8 +8,8 @@ How Coinbase interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [72](../coinbase.md) |
-| Free to read here | 9 |
+| Questions reported | [86](../coinbase.md) |
+| Free to read here | 10 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Aug 27, 2026 |
@@ -50,15 +50,30 @@ Here's what the interview process can look like:
 
 ## Free Coinbase questions
 
-9 questions reported at Coinbase open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+24 questions reported at Coinbase open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/hm-bq-project-deep-dive) |
 | [Mining Block](../../questions/algorithm/mining-block/README.md) | Algorithm | Medium | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/mining-block) |
 | [In-Memory Database](../../questions/object-oriented-programming/in-memory-database/README.md) | Object Oriented Programming | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/in-memory-database) |
 | [Design Stock Trading Platform](../../questions/system-design/design-a-stock-order-trade-management-system/README.md) | System Design | Hard | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) |
+| [Design Identity-Trust A/B Test](https://trueinterview.io/questions/design-identity-trust-a-b-test) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-identity-trust-a-b-test) |
+| [Calculate a Confidence Interval](https://trueinterview.io/questions/calculate-a-confidence-interval) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/calculate-a-confidence-interval) |
 | [Query Pagination](../../questions/object-oriented-programming/query-pagination/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/query-pagination) |
+| [Present a Previous Project Deep Dive](https://trueinterview.io/questions/present-a-previous-project-deep-dive) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/present-a-previous-project-deep-dive) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
+| [Solve the 12-coin balance puzzle](https://trueinterview.io/questions/solve-the-12-coin-balance-puzzle) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/solve-the-12-coin-balance-puzzle) |
+| [Show culture add at Coinbase](https://trueinterview.io/questions/show-culture-add-at-coinbase) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/show-culture-add-at-coinbase) |
+| [Explain handling pressure to bend rules](https://trueinterview.io/questions/explain-handling-pressure-to-bend-rules) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-handling-pressure-to-bend-rules) |
+| [Estimate Super Bowl QR ad sign-ups](https://trueinterview.io/questions/estimate-super-bowl-qr-ad-sign-ups) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/estimate-super-bowl-qr-ad-sign-ups) |
+| [Diagnose uplift drop in email A/B tests](https://trueinterview.io/questions/diagnose-uplift-drop-in-email-a-b-tests) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/diagnose-uplift-drop-in-email-a-b-tests) |
+| [Diagnose a 20% retail revenue drop](https://trueinterview.io/questions/diagnose-a-20percent-retail-revenue-drop) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-a-20percent-retail-revenue-drop) |
+| [Detect and quantify wash trading](https://trueinterview.io/questions/detect-and-quantify-wash-trading) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/detect-and-quantify-wash-trading) |
+| [Describe cross-team collaboration on past projects](https://trueinterview.io/questions/describe-cross-team-collaboration-on-past-projects) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-cross-team-collaboration-on-past-projects) |
+| [Compute wallet-link probabilities, expectation, and conditionals](https://trueinterview.io/questions/compute-wallet-link-probabilities-and-conditionals) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-wallet-link-probabilities-and-conditionals) |
+| [Build and evaluate a conversion prediction model](https://trueinterview.io/questions/build-and-evaluate-a-conversion-prediction-model) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/build-and-evaluate-a-conversion-prediction-model) |
+| [Bank System Class with Deposit, Withdraw, and Balance Check](../../questions/object-oriented-programming/banking-system-design/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/task-management-system) |
 | [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/cloud-file-system) |
@@ -66,7 +81,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 72 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 86 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Coinbase question on TrueInterview](https://trueinterview.io/problems/company/coinbase).
 
 ---

@@ -8,8 +8,8 @@ How Atlassian interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [61](../atlassian.md) |
-| Free to read here | 14 |
+| Questions reported | [64](../atlassian.md) |
+| Free to read here | 15 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
@@ -49,11 +49,13 @@ Here's what the interview process can look like:
 
 ## Free Atlassian questions
 
-14 questions reported at Atlassian open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+18 questions reported at Atlassian open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
+| [Atlassian Values and Management Rounds](https://trueinterview.io/questions/atlassian-values-and-management-rounds) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/atlassian-values-and-management-rounds) |
 | [Design Online Game Leaderboard](../../questions/system-design/design-a-gaming-leaderboard-service/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
@@ -64,13 +66,15 @@ Here's what the interview process can look like:
 | [Commodity Price Checkpoints](../../questions/object-oriented-programming/commodity-price-checkpoints/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/commodity-price-checkpoints) |
 | [Minimize Shopping Department Visits](../../questions/algorithm/shopping-category-trip-difference/README.md) | Algorithm | Easy | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/shopping-category-trip-difference) |
 | [Campground Carpool](../../questions/algorithm/karat-carpool-linear-routes/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/karat-carpool-linear-routes) |
+| [Demonstrate motivation, feedback, and prioritization](https://trueinterview.io/questions/demonstrate-motivation-feedback-and-prioritization) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/demonstrate-motivation-feedback-and-prioritization) |
+| [Count Singler Role Co-occurrences](../../questions/algorithm/count-singler-role-co-occurrences-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) |
 | [Design A Color Picker Service](../../questions/system-design/design-a-color-picker-service/README.md) | System Design | Easy | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-color-picker-service) |
 | [Calculate and Sort Customer Ratings](../../questions/algorithm/calculate-and-sort-customer-ratings/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
 
 ## Everything else
 
-- [All 61 questions reported at Atlassian](../atlassian.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 64 questions reported at Atlassian](../atlassian.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Atlassian question on TrueInterview](https://trueinterview.io/problems/company/atlassian).
 
 ---

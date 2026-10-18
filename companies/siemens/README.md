@@ -8,7 +8,7 @@ How Siemens interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [1](../siemens.md) |
+| Questions reported | [4](../siemens.md) |
 | Free to read here | 1 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,15 +20,18 @@ No written process guide yet. [The loop, as reported](../siemens.md#the-loop-as-
 
 ## Free Siemens questions
 
-1 question reported at Siemens open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at Siemens open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) |
 | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](../../questions/algorithm/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping/README.md) | Algorithm | Medium | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) |
+| [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) |
+| [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) |
 
 ## Everything else
 
-- [All 1 questions reported at Siemens](../siemens.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 4 questions reported at Siemens](../siemens.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Siemens question on TrueInterview](https://trueinterview.io/problems/company/siemens).
 
 ---

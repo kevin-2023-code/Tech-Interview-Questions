@@ -2,7 +2,7 @@
 
 # PayPal interview process, OA & interview questions
 
-**24 questions** reported at PayPal · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/paypal), judged server-side on the algorithm, low-level-design and SQL formats.
+**37 questions** reported at PayPal · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/paypal), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How PayPal interviews & the free questions](paypal/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **24** |
+| Questions tracked | **37** |
 | Most recent sighting | Oct 01, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (62% of 24) |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 37) |
 | Difficulty (easy / medium / hard) | 4 / 13 / 7 |
-| Free to practise | [8](../free/README.md) |
+| Free to practise | [21](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 24 questions reported at PayPal. 8 of them carry a sighting date; the other 16 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 37 questions reported at PayPal. 18 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **24 of 24** questions at PayPal that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **37 of 37** questions at PayPal that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 2 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 7 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (43%) | 0 / 3 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (63%) | 2 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 15 | ████████ | [Blog](../formats/blog.md) (53%) | 0 / 3 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,7 +46,7 @@ Which stage each question came from, for the **24 of 24** questions at PayPal th
 
 ## What they ask about
 
-Of the **16 questions at PayPal that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at PayPal that carry a topic label** (43% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -65,16 +65,17 @@ Of the **16 questions at PayPal that carry a topic label** (67% of them — the 
 
 ## When they asked it
 
-Every recorded sighting at PayPal, by the month it was reported in — Oct 29, 2025 to Oct 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at PayPal, by the month it was reported in — Oct 10, 2025 to Oct 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Oct 2026](../by-month/2026-10.md) | 1 | ████████ |
-| [Apr 2026](../by-month/2026-04.md) | 3 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ████████ |
+| [Oct 2026](../by-month/2026-10.md) | 1 | ██████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ██████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 4 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 4 | ████████████████████████ |
 
 ## Start here
 
@@ -88,8 +89,8 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 | **4** | [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Algorithm | Hard | — | Apr 14, 2026 |
 | **5** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | 7 | Feb 26, 2026 |
 | **6** | [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints) | System Design | Medium | — | Jan 02, 2026 |
-| **7** | [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates) | SQL | Medium | — | Dec 07, 2025 |
-| **8** | [Compute Variance from a Python List](https://trueinterview.io/questions/compute-variance-from-a-python-list) | Algorithm | Easy | — | Oct 29, 2025 |
+| **7** | [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) 🆓 | Blog | — | — | Jan 02, 2026 |
+| **8** | [Interpret p-values and common pitfalls](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) 🆓 | Blog | — | — | Jan 02, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -116,9 +117,22 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 | [Design a Cross-Border Money Transfer Service](https://trueinterview.io/questions/design-a-cross-border-money-transfer-service) | System Design | Hard | Apr 14, 2026 |
 | [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Algorithm | Hard | Apr 14, 2026 |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | Feb 26, 2026 |
+| [Interpret p-values and common pitfalls](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) | Blog | — | Jan 02, 2026 |
+| [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) | Blog | — | Jan 02, 2026 |
 | [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints) | System Design | Medium | Jan 02, 2026 |
+| [Design metrics and experiment for donation feature](https://trueinterview.io/questions/design-metrics-and-experiment-for-donation-feature) | Blog | — | Dec 16, 2025 |
+| [Answer career, manager, and team fit questions](https://trueinterview.io/questions/answer-career-manager-and-team-fit-questions) | Blog | — | Dec 16, 2025 |
 | [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates) | SQL | Medium | Dec 07, 2025 |
+| [Decide if a dice-betting game is favorable](https://trueinterview.io/questions/decide-if-a-dice-betting-game-is-favorable) | Blog | — | Dec 07, 2025 |
+| [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) | Blog | — | Nov 20, 2025 |
+| [Reduce airport ride cancellations under causal constraints](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints) | Blog | — | Nov 03, 2025 |
 | [Compute Variance from a Python List](https://trueinterview.io/questions/compute-variance-from-a-python-list) | Algorithm | Easy | Oct 29, 2025 |
+| [Explain p-values and interpret regressions](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions) | Blog | — | Oct 10, 2025 |
+| [Evaluate smart cart idea and design experiment](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment) | Blog | — | Oct 10, 2025 |
+| [Diagnose drop in shopper order acceptance](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance) | Blog | — | Oct 10, 2025 |
+| [Optimize thresholds under fraud costs](https://trueinterview.io/questions/optimize-thresholds-under-fraud-costs) | Blog | — | — |
+| [Influence policy with BI deliverables](https://trueinterview.io/questions/influence-policy-with-bi-deliverables) | Blog | — | — |
+| [Design an A/B for ATO rule](https://trueinterview.io/questions/design-an-a-b-for-ato-rule) | Blog | — | — |
 | [Similar Password (Singapore)](https://trueinterview.io/questions/f3594e7e-7600-472c-b414-1cd919d3e0a0) | Algorithm | Medium | — |
 | [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca) | Object Oriented Programming | Medium | — |
 | [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525) | Algorithm | Hard | — |

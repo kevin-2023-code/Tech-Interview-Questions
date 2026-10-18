@@ -2,7 +2,7 @@
 
 # Nuro interview process, OA & interview questions
 
-**11 questions** reported at Nuro. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nuro), judged server-side on the algorithm, low-level-design and SQL formats.
+**12 questions** reported at Nuro. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nuro), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Nuro interviews & the free questions](nuro/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,30 +14,30 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **11** |
+| Questions tracked | **12** |
 | Most recent sighting | Aug 31, 2026 |
-| Reported in the last 90 days | 6 |
-| Most common format | [System Design](../formats/system-design.md) (64% of 11) |
+| Reported in the last 90 days | 7 |
+| Most common format | [System Design](../formats/system-design.md) (58% of 12) |
 | Difficulty (easy / medium / hard) | 0 / 4 / 7 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 11 questions reported at Nuro. 11 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 12 questions reported at Nuro. 12 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **11 of 11** questions at Nuro that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **12 of 12** questions at Nuro that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 5 | ████████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 3 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 6 | ██████████ | [System Design](../formats/system-design.md) (100%) | 0 / 1 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 5 | ███████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 3 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 7 | ██████████ | [System Design](../formats/system-design.md) (86%) | 0 / 1 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -45,12 +45,13 @@ Which stage each question came from, for the **11 of 11** questions at Nuro that
 | [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | System Design | Hard | Onsite / virtual onsite | Aug 31, 2026 |
 | [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | System Design | Hard | Onsite / virtual onsite | Aug 31, 2026 |
 | [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | System Design | Hard | Onsite / virtual onsite | Aug 31, 2026 |
+| [Explain Project Scope, Ownership, and Technical Challenges](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges) | Blog | — | Onsite / virtual onsite | Aug 31, 2026 |
 | [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | System Design | Medium | Onsite / virtual onsite | Aug 31, 2026 |
 | [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | System Design | Hard | Onsite / virtual onsite | Aug 31, 2026 |
 
 ## What they ask about
 
-Of the **3 questions at Nuro that carry a topic label** (27% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Nuro that carry a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -68,10 +69,10 @@ Every recorded sighting at Nuro, by the month it was reported in — Nov 09, 202
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 6 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ████ |
+| [Aug 2026](../by-month/2026-08.md) | 7 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | ███████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ███████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
 
 ## Start here
 
@@ -85,8 +86,8 @@ The 8 questions to open first if you are preparing for Nuro, ranked by **the mos
 | **4** | [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | System Design | Hard | — | Aug 31, 2026 |
 | **5** | [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | System Design | Hard | — | Aug 31, 2026 |
 | **6** | [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | System Design | Hard | — | Aug 31, 2026 |
-| **7** | [Check Vertical Reflection Symmetry with Duplicate Points](https://trueinterview.io/questions/check-vertical-reflection-symmetry-with-duplicate-points) 🆓 | Algorithm | Medium | — | Feb 15, 2026 |
-| **8** | [Coordinate Video Reading and Rendering at 25 Frames per Second](https://trueinterview.io/questions/coordinate-video-reading-and-rendering-at-25-frames-per-second) | Object Oriented Programming | Hard | — | Feb 15, 2026 |
+| **7** | [Explain Project Scope, Ownership, and Technical Challenges](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges) 🆓 | Blog | — | — | Aug 31, 2026 |
+| **8** | [Check Vertical Reflection Symmetry with Duplicate Points](https://trueinterview.io/questions/check-vertical-reflection-symmetry-with-duplicate-points) 🆓 | Algorithm | Medium | — | Feb 15, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -102,6 +103,7 @@ The 8 questions to open first if you are preparing for Nuro, ranked by **the mos
 | :-- | :-- | :-: | :-- |
 | [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | System Design | Hard | Aug 31, 2026 |
 | [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | System Design | Medium | Aug 31, 2026 |
+| [Explain Project Scope, Ownership, and Technical Challenges](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges) | Blog | — | Aug 31, 2026 |
 | [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | System Design | Hard | Aug 31, 2026 |
 | [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | System Design | Hard | Aug 31, 2026 |
 | [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | System Design | Hard | Aug 31, 2026 |

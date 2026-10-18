@@ -8,8 +8,8 @@ How Bloomberg interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [86](../bloomberg.md) |
-| Free to read here | 12 |
+| Questions reported | [91](../bloomberg.md) |
+| Free to read here | 13 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -47,11 +47,12 @@ Here's what the interview process can look like:
 
 ## Free Bloomberg questions
 
-12 questions reported at Bloomberg open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+18 questions reported at Bloomberg open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Behavioral Question Pool](https://trueinterview.io/questions/behavioral-question-pool) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/behavioral-question-pool) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
@@ -59,14 +60,19 @@ Here's what the interview process can look like:
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [String to Integer (atoi)](../../questions/algorithm/string-to-integer-atoi/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/string-to-integer-atoi) |
+| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
+| [Answer project and leadership behavioral questions](https://trueinterview.io/questions/answer-project-and-leadership-behavioral-questions) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-project-and-leadership-behavioral-questions) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [Introduce yourself and explain why Bloomberg](https://trueinterview.io/questions/introduce-yourself-and-explain-why-bloomberg) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/introduce-yourself-and-explain-why-bloomberg) |
+| [Answer core behavioral questions using STAR](https://trueinterview.io/questions/answer-core-behavioral-questions-using-star) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-core-behavioral-questions-using-star) |
+| [Describe leading an end-to-end client project](https://trueinterview.io/questions/describe-leading-an-end-to-end-client-project) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/describe-leading-an-end-to-end-client-project) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
 
-- [All 86 questions reported at Bloomberg](../bloomberg.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 91 questions reported at Bloomberg](../bloomberg.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Bloomberg question on TrueInterview](https://trueinterview.io/problems/company/bloomberg).
 
 ---

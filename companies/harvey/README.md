@@ -8,7 +8,7 @@ How Harvey interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [20](../harvey.md) |
+| Questions reported | [23](../harvey.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,17 +48,20 @@ Here's what the interview process can look like:
 
 ## Free Harvey questions
 
-3 questions reported at Harvey open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Harvey open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/citation-highlighting) |
+| [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral) | Blog | — | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/harvey-values-behavioral) |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
 | [Implement a DB Connection Pool](../../questions/object-oriented-programming/implement-a-db-connection-pool/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/implement-a-db-connection-pool) |
+| [Describe Leading a Technical Project](https://trueinterview.io/questions/describe-leading-a-technical-project) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/describe-leading-a-technical-project) |
+| [Resolve conflict across teams](https://trueinterview.io/questions/resolve-conflict-across-teams) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/resolve-conflict-across-teams) |
 
 ## Everything else
 
-- [All 20 questions reported at Harvey](../harvey.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 23 questions reported at Harvey](../harvey.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Harvey question on TrueInterview](https://trueinterview.io/problems/company/harvey).
 
 ---

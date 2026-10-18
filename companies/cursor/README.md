@@ -8,7 +8,7 @@ How Cursor interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../cursor.md) |
+| Questions reported | [7](../cursor.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,18 @@ No written process guide yet. [The loop, as reported](../cursor.md#the-loop-as-r
 
 ## Free Cursor questions
 
-2 questions reported at Cursor open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at Cursor open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Implement and Explain a Merkle Tree](https://trueinterview.io/questions/implement-and-explain-a-merkle-tree) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/implement-and-explain-a-merkle-tree) |
 | [Hash a Repository with a Merkle Tree and Find Changed Files](../../questions/algorithm/hash-a-repository-with-a-merkle-tree-and-find-changed-files/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) |
 | [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
+| [Connect a Project Deep Dive to Engineering Career Decisions](https://trueinterview.io/questions/connect-a-project-deep-dive-to-engineering-career-decisions) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/connect-a-project-deep-dive-to-engineering-career-decisions) |
 
 ## Everything else
 
-- [All 5 questions reported at Cursor](../cursor.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 7 questions reported at Cursor](../cursor.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cursor question on TrueInterview](https://trueinterview.io/problems/company/cursor).
 
 ---

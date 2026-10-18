@@ -144,7 +144,7 @@ Here are some questions reported by recent candidates:
 
 - [Uber Eats Cart & Pricing Engine](https://trueinterview.io/questions/onsite-ood-eats-cart-pricing-engine)
 - [Parking Lot System II](https://trueinterview.io/questions/design-parking-lot-ood)
-- [Design an In-Memory File System with Recursive Wildcards](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd)
+- [Design an In-Memory File System with Recursive Wildcards](../../questions/object-oriented-programming/design-an-in-memory-file-system-with-recursive-wildcards/README.md)
 - [Last-Click Attribution Tracker](https://trueinterview.io/questions/last-click-attribution)
 
 ## System design interview

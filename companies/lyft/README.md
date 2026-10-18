@@ -8,8 +8,8 @@ How Lyft interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [43](../lyft.md) |
-| Free to read here | 10 |
+| Questions reported | [51](../lyft.md) |
+| Free to read here | 11 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 08, 2026 |
@@ -48,24 +48,33 @@ Here's what the interview process can look like:
 
 ## Free Lyft questions
 
-10 questions reported at Lyft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+19 questions reported at Lyft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) |
+| [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/ds-commuter-coupon-probability) |
+| [Project, Conflict, Failure, and DEI](https://trueinterview.io/questions/behavioral-project-conflict-and-dei) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/behavioral-project-conflict-and-dei) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
+| [Explain Transformer and Fine-Tuning Basics](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics) |
+| [Explain Python and Systems Fundamentals](https://trueinterview.io/questions/explain-python-and-systems-fundamentals) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-python-and-systems-fundamentals) |
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-key-value-store-with-transactions) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Query Pagination](../../questions/object-oriented-programming/query-pagination/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/query-pagination) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [How to Target Coupon Users](https://trueinterview.io/questions/how-to-target-coupon-users) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/how-to-target-coupon-users) |
+| [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2) |
+| [Compute Poisson supply–demand match probability](https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
+| [Web Crawler with Communication Constraint](../../questions/system-design/web-crawler-with-communication-constraint/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) |
 | [Find All Shortest Paths in Word Ladder](../../questions/algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/598ffed4-56aa-44e6-8efa-e18db21262d3) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 
 ## Everything else
 
-- [All 43 questions reported at Lyft](../lyft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 51 questions reported at Lyft](../lyft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Lyft question on TrueInterview](https://trueinterview.io/problems/company/lyft).
 
 ---

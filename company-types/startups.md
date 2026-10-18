@@ -2,7 +2,7 @@
 
 # 🌱 Startups (under 200) — interview & OA questions
 
-**14 questions** reported across the **3 Startups (under 200) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**15 questions** reported across the **3 Startups (under 200) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Bobyard (6)](../companies/bobyard.md) · [Luma AI (6)](../companies/luma-ai.md) · [Render (2)](../companies/render.md)
+[Bobyard (7)](../companies/bobyard.md) · [Luma AI (6)](../companies/luma-ai.md) · [Render (2)](../companies/render.md)
 
 <sub>3 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,15 +18,16 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 9 | 64% | ██████████████ | 5 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 21% | █████ | 1 |
-| [System Design](../formats/system-design.md) | 2 | 14% | ███ | 0 |
+| [Algorithm](../formats/algorithm.md) | 9 | 60% | ██████████████ | 5 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 20% | █████ | 1 |
+| [System Design](../formats/system-design.md) | 2 | 13% | ███ | 0 |
+| [Blog](../formats/blog.md) | 1 | 7% | ██ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **4 / 7 / 3**, over the rows the catalog has graded. 6 of the 14 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **4 / 7 / 3**, over the rows the catalog has graded. 7 of the 15 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **10 questions in this cut that carry a topic label** (71% of it):
+Of the **10 questions in this cut that carry a topic label** (67% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -60,6 +61,7 @@ Of the **10 questions in this cut that carry a topic label** (71% of it):
 | **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | 🆕 Sep 17, 2026 |
 | **ByteDance / Bobyard** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Medium | Aug 13, 2026 |
 | **Bobyard** | [Implement comment sorting and nesting](https://trueinterview.io/questions/implement-comment-sorting-and-nesting) | Medium | Apr 09, 2026 |
+| **Bobyard** | [How do you debug slowness and bugs?](https://trueinterview.io/questions/how-do-you-debug-slowness-and-bugs) | — | Apr 09, 2026 |
 | **Bobyard** | [Design comments and async image generation](https://trueinterview.io/questions/design-comments-and-async-image-generation) | Medium | Apr 09, 2026 |
 | **Bobyard** | [Design a client-side comment system](https://trueinterview.io/questions/design-a-client-side-comment-system) | Medium | Mar 01, 2026 |
 | **Render** | [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | Hard | Feb 26, 2026 |

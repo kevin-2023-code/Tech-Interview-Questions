@@ -199,7 +199,7 @@ Here are some questions reported by recent candidates:
 
 - [Performance Modeling: Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
 - [Estimate FFN Compute, Memory, and Sharding Communication](https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication)
-- [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337)
+- [Efficiency of Distributed Systems](../../questions/system-design/efficiency-of-distributed-systems/README.md)
 
 ## Project deep dive and hiring manager interview
 

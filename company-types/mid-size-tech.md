@@ -2,7 +2,7 @@
 
 # 🏤 Mid-sized tech (200–999) — interview & OA questions
 
-**110 questions** reported across the **11 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**128 questions** reported across the **11 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Perplexity (24)](../companies/perplexity.md) · [Harvey (20)](../companies/harvey.md) · [Whatnot (17)](../companies/whatnot.md) · [Vanta (14)](../companies/vanta.md) · [Airtable (9)](../companies/airtable.md) · [Amplitude (7)](../companies/amplitude.md) · [Moveworks (6)](../companies/moveworks.md) · [Rokt (5)](../companies/rokt.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md)
+[Perplexity (26)](../companies/perplexity.md) · [Harvey (23)](../companies/harvey.md) · [Whatnot (19)](../companies/whatnot.md) · [Vanta (15)](../companies/vanta.md) · [Airtable (11)](../companies/airtable.md) · [Mistral AI (9)](../companies/mistral-ai.md) · [Amplitude (8)](../companies/amplitude.md) · [Moveworks (6)](../companies/moveworks.md) · [Rokt (5)](../companies/rokt.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Cohere (3)](../companies/cohere.md)
 
 <sub>11 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 51 | 46% | ██████████████ | 13 |
-| [System Design](../formats/system-design.md) | 29 | 26% | ████████ | 5 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 25 | 23% | ███████ | 10 |
-| [AI Coding](../formats/ai-coding.md) | 3 | 3% | █ | 0 |
+| [Algorithm](../formats/algorithm.md) | 51 | 40% | ██████████████ | 14 |
+| [System Design](../formats/system-design.md) | 29 | 23% | ████████ | 6 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 25 | 20% | ███████ | 10 |
+| [Blog](../formats/blog.md) | 18 | 14% | █████ | 18 |
+| [AI Coding](../formats/ai-coding.md) | 3 | 2% | █ | 0 |
 | [SQL](../formats/sql.md) | 2 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **8 / 82 / 20**, over the rows the catalog has graded. 28 of the 110 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **8 / 82 / 20**, over the rows the catalog has graded. 48 of the 128 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **53 questions in this cut that carry a topic label** (48% of it):
+Of the **53 questions in this cut that carry a topic label** (41% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,7 +48,7 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 
 ## Asked here in the last 90 days
 
-**9 sightings** across this cut. Newest first.
+**16 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -56,10 +57,15 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Cohere | Algorithm | Sep 15, 2026 |
 | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Vanta | System Design | Sep 12, 2026 |
 | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Harvey | Algorithm | Sep 01, 2026 |
+| [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) | Mistral AI | Blog | Sep 01, 2026 |
+| [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) | Mistral AI | Blog | Sep 01, 2026 |
+| [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | Mistral AI | Blog | Sep 01, 2026 |
 | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | Perplexity | System Design | Sep 01, 2026 |
 | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Harvey | System Design | Sep 01, 2026 |
-| [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Harvey | Algorithm | Sep 01, 2026 |
-| [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Harvey | Algorithm | Aug 09, 2026 |
+| [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | Mistral AI | Blog | Sep 01, 2026 |
+| [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) | Mistral AI | Blog | Sep 01, 2026 |
+
+<sub>4 more in this window are in the table below.</sub>
 
 ---
 
@@ -74,14 +80,23 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 | **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Medium | 🆕 Sep 15, 2026 |
 | **Vanta** | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Medium | 🆕 Sep 12, 2026 |
 | **Perplexity** | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | Medium | Sep 01, 2026 |
+| **Mistral AI** | [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) | — | Sep 01, 2026 |
 | **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Hard | Sep 01, 2026 |
+| **Mistral AI** | [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) | — | Sep 01, 2026 |
+| **Mistral AI** | [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) | — | Sep 01, 2026 |
+| **Mistral AI** | [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | — | Sep 01, 2026 |
 | **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Medium | Sep 01, 2026 |
+| **Mistral AI** | [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | — | Sep 01, 2026 |
+| **Mistral AI** | [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) | — | Sep 01, 2026 |
+| **Mistral AI** | [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) | — | Sep 01, 2026 |
 | **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | Sep 01, 2026 |
 | **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Medium | Aug 09, 2026 |
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |
 | **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Medium | Jul 16, 2026 |
 | **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Medium | Jul 10, 2026 |
+| **Vanta** | [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq) | — | Jul 10, 2026 |
 | **Harvey** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | Medium | Jul 07, 2026 |
+| **Harvey** | [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral) | — | Jul 02, 2026 |
 | **Harvey** | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | Medium | Jul 2026 |
 | **Harvey** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Hard | Jul 2026 |
 | **Perplexity / Harvey / Shopify** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Medium | Jun 15, 2026 |
@@ -98,24 +113,30 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 | **Mistral AI** | [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) | Hard | Apr 16, 2026 |
 | **LinkedIn / Amazon / Google / Meta / Microsoft AI / Perplexity / Pinterest** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | Medium | Apr 16, 2026 |
 | **Harvey** | [Design a Cloud File Storage Service](https://trueinterview.io/questions/design-a-cloud-file-storage-service-2) | Hard | Apr 12, 2026 |
+| **Harvey** | [Describe Leading a Technical Project](https://trueinterview.io/questions/describe-leading-a-technical-project) | — | Apr 12, 2026 |
 | **Harvey** | [Implement a Hierarchical File System](https://trueinterview.io/questions/implement-a-hierarchical-file-system) | Medium | Apr 12, 2026 |
 | **Perplexity** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | Medium | Apr 12, 2026 |
 | **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Meta / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | Easy | Apr 12, 2026 |
 | **Cohere** | [Design an Enterprise Research Assistant with Verifiable Citations](https://trueinterview.io/questions/design-an-enterprise-research-assistant-with-verifiable-citations) | Hard | Apr 09, 2026 |
 | **Harvey** | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Medium | Apr 2026 |
+| **Whatnot** | [Define Marketplace Success Metrics and Investigate Their Movement](https://trueinterview.io/questions/define-marketplace-success-metrics-and-investigate-their-movement) | — | Mar 30, 2026 |
 | **Whatnot** | [Compute a Seven-Day Rolling Average](https://trueinterview.io/questions/compute-a-seven-day-rolling-average-2) | Medium | Mar 30, 2026 |
 | **Whatnot** | [Calculate Monthly Customer Retention](https://trueinterview.io/questions/calculate-monthly-customer-retention) | Medium | Mar 30, 2026 |
 | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | Easy | Mar 24, 2026 |
 | **Vanta** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Medium | Mar 17, 2026 |
 | **Amplitude** | [Design a Shared Todo App](https://trueinterview.io/questions/design-a-shared-todo-app) | Easy | Mar 03, 2026 |
+| **Amplitude** | [Describe Product and Team Collaboration](https://trueinterview.io/questions/describe-product-and-team-collaboration) | — | Mar 03, 2026 |
 | **Amplitude** | [Implement Employee Validation and Snake](https://trueinterview.io/questions/implement-employee-validation-and-snake) | Hard | Mar 03, 2026 |
 | **Perplexity / Microsoft** | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Hard | Feb 23, 2026 |
+| **Harvey** | [Resolve conflict across teams](https://trueinterview.io/questions/resolve-conflict-across-teams) | — | Feb 18, 2026 |
 | **Harvey** | [Implement tag matcher and filesystem](https://trueinterview.io/questions/implement-tag-matcher-and-filesystem) | Medium | Feb 18, 2026 |
 | **Airtable** | [Optimize a dispatcher’s scheduling data structures](https://trueinterview.io/questions/optimize-a-dispatcher-s-scheduling-data-structures) | Hard | Feb 12, 2026 |
+| **Airtable** | [Describe an inclusive action you took](https://trueinterview.io/questions/describe-an-inclusive-action-you-took) | — | Feb 12, 2026 |
 | **Airtable** | [Implement a Connection Pool](https://trueinterview.io/questions/implement-a-connection-pool) | Medium | Jan 25, 2026 |
 | **Whatnot** | [Synchronize Shared Data Across Two Lists](https://trueinterview.io/questions/synchronize-shared-data-across-two-lists) | Medium | Jan 24, 2026 |
 | **Whatnot** | [Propose and Validate a Mobile App Improvement](https://trueinterview.io/questions/propose-and-validate-a-mobile-app-improvement) | Medium | Jan 24, 2026 |
 | **Whatnot** | [Build a Tic-Tac-Toe App](https://trueinterview.io/questions/build-a-tic-tac-toe-app) | Medium | Jan 24, 2026 |
+| **Whatnot** | [Improve and debug the shopping app](https://trueinterview.io/questions/improve-and-debug-the-shopping-app) | — | Jan 17, 2026 |
 | **Whatnot** | [Design trending livestream discovery](https://trueinterview.io/questions/design-trending-livestream-discovery) | Medium | Jan 17, 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
 | **Perplexity** | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | Medium | Jan 06, 2026 |
@@ -126,13 +147,16 @@ Of the **53 questions in this cut that carry a topic label** (48% of it):
 | **Rokt** | [Design Google-scale CI/CD pipeline](https://trueinterview.io/questions/design-google-scale-ci-cd-pipeline) | Hard | Dec 06, 2025 |
 | **Perplexity** | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement) | Medium | Nov 22, 2025 |
 | **Airtable** | [Design NL-to-Formula assistant for Airtable](https://trueinterview.io/questions/design-nl-to-formula-assistant-for-airtable) | Hard | Nov 04, 2025 |
+| **Airtable** | [Answer ambiguity and PM disagreement behavioral questions](https://trueinterview.io/questions/answer-ambiguity-and-pm-disagreement-behavioral-questions) | — | Oct 14, 2025 |
 | **Perplexity** | [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words) | Medium | Oct 12, 2025 |
 | **Perplexity** | [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server) | Medium | Oct 09, 2025 |
 | **Perplexity** | [Rental Car Surge Area Navigation](https://trueinterview.io/questions/premium-zone-escape-path) | Medium | Oct 03, 2025 |
+| **Perplexity** | [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive) | — | Oct 03, 2025 |
 | **Atlassian / Amplitude** | [Snake Game](https://trueinterview.io/questions/snake-game) | Medium | Oct 02, 2025 |
 | **Perplexity** | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Medium | Aug 09, 2025 |
 | **Vanta** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Hard | Jul 31, 2025 |
 | **Vanta** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Medium | Jul 24, 2025 |
+| **Perplexity** | [Map-Reduce and Blockwise Attention](https://trueinterview.io/questions/map-reduce-and-blockwise-attention) | — | Jul 03, 2025 |
 | **Vanta** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Medium | Dec 04, 2024 |
 | **Perplexity** | [Implement Tokenize Function](https://trueinterview.io/questions/dcd37aa2-dbac-4c98-b5d1-35df728f8809) | Hard | — |
 | **Rokt** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Medium | — |

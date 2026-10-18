@@ -2,7 +2,7 @@
 
 # Intuit interview process, OA & interview questions
 
-**28 questions** reported at Intuit · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/intuit), judged server-side on the algorithm, low-level-design and SQL formats.
+**38 questions** reported at Intuit · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/intuit), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Intuit interviews & the free questions](intuit/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **28** |
+| Questions tracked | **38** |
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (54% of 28) |
+| Most common format | [Algorithm](../formats/algorithm.md) (39% of 38) |
 | Difficulty (easy / medium / hard) | 5 / 18 / 5 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 28 questions reported at Intuit. 17 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 38 questions reported at Intuit. 24 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **28 of 28** questions at Intuit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **38 of 38** questions at Intuit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 7 | ████ | [Algorithm](../formats/algorithm.md) (71%) | 3 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 1 / 13 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 7 | ███ | [Algorithm](../formats/algorithm.md) (71%) | 3 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 26 | ██████████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 13 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 6 | ██ | [Blog](../formats/blog.md) (50%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **28 of 28** questions at Intuit th
 
 ## What they ask about
 
-Of the **13 questions at Intuit that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Intuit that carry a topic label** (34% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -65,30 +65,30 @@ Every recorded sighting at Intuit, by the month it was reported in — Sep 29, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 2 | ████████████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ██████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ██████ |
-| [Feb 2026](../by-month/2026-02.md) | 3 | ██████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | ████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 4 | ████████████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 2 | ████████████ |
-| [Sep 2025](../by-month/2025-09.md) | 1 | ██████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ██████████ |
+| [May 2026](../by-month/2026-05.md) | 1 | █████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 4 | ███████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | █████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ██████████ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 5 | ████████████████████████ |
+| [Sep 2025](../by-month/2025-09.md) | 1 | █████ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Intuit, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Intuit, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up) | Algorithm | Medium | — | Jun 28, 2026 |
 | **2** | [Premium Product Recommendation System](https://trueinterview.io/questions/premium-product-recommendation-system) | System Design | Hard | — | Jun 28, 2026 |
 | **3** | [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation) | Algorithm | Medium | — | May 08, 2026 |
-| **4** | [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration) | Algorithm | Medium | — | Apr 22, 2026 |
-| **5** | [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention) | SQL | Hard | — | Feb 23, 2026 |
-| **6** | [Calculate Precision, Recall, and F1](https://trueinterview.io/questions/calculate-precision-recall-and-f1) | Algorithm | Medium | — | Feb 10, 2026 |
-| **7** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 13 | Feb 07, 2026 |
-| **8** | [Bash Largest File from Listing Output](https://trueinterview.io/questions/bash-largest-file-from-ls-output) | Algorithm | Medium | — | Jan 30, 2026 |
+| **4** | [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration) 🆓 | Algorithm | Medium | — | Apr 22, 2026 |
+| **5** | [AI Application Conversation](https://trueinterview.io/questions/ai-application-conversation) 🆓 | Blog | — | — | Apr 03, 2026 |
+| **6** | [When should products use AI?](https://trueinterview.io/questions/when-should-products-use-ai) 🆓 | Blog | — | — | Apr 02, 2026 |
+| **7** | [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention) | SQL | Hard | — | Feb 23, 2026 |
+| **8** | [Engineer and Impute ZIP Features](https://trueinterview.io/questions/engineer-and-impute-zip-features) 🆓 | Blog | — | — | Feb 23, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -114,6 +114,9 @@ The 8 questions to open first if you are preparing for Intuit, ranked by **the m
 | [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up) | Algorithm | Medium | Jun 28, 2026 |
 | [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation) | Algorithm | Medium | May 08, 2026 |
 | [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration) | Algorithm | Medium | Apr 22, 2026 |
+| [AI Application Conversation](https://trueinterview.io/questions/ai-application-conversation) | Blog | — | Apr 03, 2026 |
+| [When should products use AI?](https://trueinterview.io/questions/when-should-products-use-ai) | Blog | — | Apr 02, 2026 |
+| [Engineer and Impute ZIP Features](https://trueinterview.io/questions/engineer-and-impute-zip-features) | Blog | — | Feb 23, 2026 |
 | [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention) | SQL | Hard | Feb 23, 2026 |
 | [Calculate Precision, Recall, and F1](https://trueinterview.io/questions/calculate-precision-recall-and-f1) | Algorithm | Medium | Feb 10, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
@@ -122,11 +125,18 @@ The 8 questions to open first if you are preparing for Intuit, ranked by **the m
 | [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) | Algorithm | Medium | Dec 25, 2025 |
 | [Three-Column Grid Coloring Count](https://trueinterview.io/questions/three-column-grid-coloring-count) | Algorithm | Medium | Nov 19, 2025 |
 | [Clean String: Remove Punctuation and Stop Words](https://trueinterview.io/questions/clean-string-remove-punctuation-stop-words) | Algorithm | Easy | Nov 19, 2025 |
+| [Design an experiment for pricing page redesign](https://trueinterview.io/questions/design-an-experiment-for-pricing-page-redesign) | Blog | — | Nov 08, 2025 |
 | [Pivot daily users and revenue by platform](https://trueinterview.io/questions/pivot-daily-users-and-revenue-by-platform) | SQL | Medium | Nov 08, 2025 |
 | [Compute monthly signups, conversion, and YoY growth](https://trueinterview.io/questions/compute-monthly-signups-conversion-and-yoy-growth) | Algorithm | Medium | Nov 08, 2025 |
+| [Handle missing and unavailable predictive features](https://trueinterview.io/questions/handle-missing-and-unavailable-predictive-features) | Blog | — | Oct 21, 2025 |
+| [Extract insights from a multi-entry funnel scorecard](https://trueinterview.io/questions/extract-insights-from-a-multi-entry-funnel-scorecard) | Blog | — | Oct 21, 2025 |
+| [Design an experiment to evaluate an onboarding progress bar](https://trueinterview.io/questions/design-an-experiment-to-evaluate-an-onboarding-progress-bar) | Blog | — | Oct 21, 2025 |
 | [Weather Data Energy-Usage Ranking](https://trueinterview.io/questions/weather-data-energy-usage-ranking) | Algorithm | Medium | Oct 03, 2025 |
 | [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness) | Object Oriented Programming | Medium | Oct 02, 2025 |
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Sep 29, 2025 |
+| [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) | Blog | — | — |
+| [Diagnose rising delivery cost precisely](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) | Blog | — | — |
+| [Choose the right test for proportions](https://trueinterview.io/questions/choose-the-right-test-for-proportions) | Blog | — | — |
 | [Exclude free subscribers via anti-join](https://trueinterview.io/questions/exclude-free-subscribers-via-anti-join) | SQL | Medium | — |
 | [Design an idempotent churn ETL pipeline](https://trueinterview.io/questions/design-an-idempotent-churn-etl-pipeline) | SQL | Hard | — |
 | [Compute paid subscriber YoY counts by month](https://trueinterview.io/questions/compute-paid-subscriber-yoy-counts-by-month) | SQL | Medium | — |

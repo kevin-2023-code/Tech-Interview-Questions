@@ -8,7 +8,7 @@ How Point72 interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [29](../point72.md) |
+| Questions reported | [41](../point72.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,16 +47,28 @@ Here's what the interview process can look like:
 
 ## Free Point72 questions
 
-2 questions reported at Point72 open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Point72 open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain Spark Execution and Optimization](https://trueinterview.io/questions/explain-spark-execution-and-optimization) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-spark-execution-and-optimization) |
+| [Describe Resolving Stakeholder Trade-Offs](https://trueinterview.io/questions/describe-resolving-stakeholder-trade-offs) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/describe-resolving-stakeholder-trade-offs) |
 | [IPO Share Allocation](../../questions/algorithm/swe-oa-ipo-share-allocation/README.md) | Algorithm | Hard | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) |
+| [Explain Transformer Encoder and Decoder Behavior](https://trueinterview.io/questions/explain-transformer-encoder-and-decoder-behavior) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-transformer-encoder-and-decoder-behavior) |
+| [Compute Gaussian Probability and Regression Coefficients](https://trueinterview.io/questions/compute-gaussian-probability-and-regression-coefficients) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/compute-gaussian-probability-and-regression-coefficients) |
+| [Solve Three Probability Models](https://trueinterview.io/questions/solve-three-probability-models) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/solve-three-probability-models) |
+| [Explain Ensemble Learning and Its Main Families](https://trueinterview.io/questions/explain-ensemble-learning-and-its-main-families) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-ensemble-learning-and-its-main-families) |
+| [Explain Encapsulation, Inheritance, and Polymorphism in C++](https://trueinterview.io/questions/explain-encapsulation-inheritance-and-polymorphism-in-cplusplus) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-encapsulation-inheritance-and-polymorphism-in-cplusplus) |
+| [Choose and Explain a Classical Hypothesis Test](https://trueinterview.io/questions/choose-and-explain-a-classical-hypothesis-test) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/choose-and-explain-a-classical-hypothesis-test) |
+| [Derive the Optimal Bid in a Two-Bidder Second-Price Auction](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction) |
+| [How would you explain PCA and SHAP?](https://trueinterview.io/questions/how-would-you-explain-pca-and-shap) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-explain-pca-and-shap) |
+| [Price a coin-doubling game rationally](https://trueinterview.io/questions/price-a-coin-doubling-game-rationally) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/price-a-coin-doubling-game-rationally) |
+| [Explain and tune decision trees robustly](https://trueinterview.io/questions/explain-and-tune-decision-trees-robustly) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/explain-and-tune-decision-trees-robustly) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 
 ## Everything else
 
-- [All 29 questions reported at Point72](../point72.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 41 questions reported at Point72](../point72.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Point72 question on TrueInterview](https://trueinterview.io/problems/company/point72).
 
 ---

@@ -2,7 +2,7 @@
 
 # Axon interview process, OA & interview questions
 
-**6 questions** reported at Axon. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/axon), judged server-side on the algorithm, low-level-design and SQL formats.
+**11 questions** reported at Axon. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/axon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Axon interviews & the free questions](axon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **6** |
+| Questions tracked | **11** |
 | Most recent sighting | Mar 29, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [System Design](../formats/system-design.md) (83% of 6) |
+| Most common format | [Blog](../formats/blog.md) (45% of 11) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 6 questions reported at Axon. 6 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 11 questions reported at Axon. 11 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **6 of 6** questions at Axon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **11 of 11** questions at Axon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 6 | ██████████ | [System Design](../formats/system-design.md) (83%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 9 | ██████████ | [System Design](../formats/system-design.md) (56%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 2 | ██ | [Blog](../formats/blog.md) (100%) | — | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -40,7 +41,7 @@ Which stage each question came from, for the **6 of 6** questions at Axon that n
 
 ## What they ask about
 
-Of the **1 question at Axon that carries a topic label** (17% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Axon that carries a topic label** (9% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -54,22 +55,24 @@ Every recorded sighting at Axon, by the month it was reported in — Nov 18, 202
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Mar 2026](../by-month/2026-03.md) | 3 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ████████ |
+| [Mar 2026](../by-month/2026-03.md) | 6 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 4 | ████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ████ |
 
 ## Start here
 
-The 6 questions to open first if you are preparing for Axon, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Axon, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files) | System Design | Hard | — | Mar 29, 2026 |
-| **2** | [Find accessible devices via nested memberships](https://trueinterview.io/questions/find-accessible-devices-via-nested-memberships) 🆓 | Algorithm | Medium | — | Mar 01, 2026 |
-| **3** | [Design fulfillment truck routing and inventory system](https://trueinterview.io/questions/design-fulfillment-truck-routing-and-inventory-system) | System Design | Hard | — | Mar 01, 2026 |
-| **4** | [Design camera-footage upload with custody chain](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) | System Design | Hard | — | Feb 11, 2026 |
-| **5** | [Design device logging system with offline upload](https://trueinterview.io/questions/design-device-logging-system-with-offline-upload) | System Design | Medium | — | Feb 06, 2026 |
-| **6** | [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) 🆓 | System Design | Medium | — | Nov 18, 2025 |
+| **2** | [Explain What Motivates and Demotivates You at Work](https://trueinterview.io/questions/explain-what-motivates-and-demotivates-you-at-work) 🆓 | Blog | — | — | Mar 29, 2026 |
+| **3** | [How did you handle an ethical issue?](https://trueinterview.io/questions/how-did-you-handle-an-ethical-issue) 🆓 | Blog | — | — | Mar 16, 2026 |
+| **4** | [Find accessible devices via nested memberships](https://trueinterview.io/questions/find-accessible-devices-via-nested-memberships) 🆓 | Algorithm | Medium | — | Mar 01, 2026 |
+| **5** | [Design fulfillment truck routing and inventory system](https://trueinterview.io/questions/design-fulfillment-truck-routing-and-inventory-system) | System Design | Hard | — | Mar 01, 2026 |
+| **6** | [Explain scope and impact under pressure](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure) 🆓 | Blog | — | — | Mar 01, 2026 |
+| **7** | [Design camera-footage upload with custody chain](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) 🆓 | System Design | Hard | — | Feb 11, 2026 |
+| **8** | [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) 🆓 | Blog | — | — | Feb 09, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -84,8 +87,13 @@ The 6 questions to open first if you are preparing for Axon, ranked by **the mos
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files) | System Design | Hard | Mar 29, 2026 |
+| [Explain What Motivates and Demotivates You at Work](https://trueinterview.io/questions/explain-what-motivates-and-demotivates-you-at-work) | Blog | — | Mar 29, 2026 |
+| [How did you handle an ethical issue?](https://trueinterview.io/questions/how-did-you-handle-an-ethical-issue) | Blog | — | Mar 16, 2026 |
+| [Explain scope and impact under pressure](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure) | Blog | — | Mar 01, 2026 |
 | [Design fulfillment truck routing and inventory system](https://trueinterview.io/questions/design-fulfillment-truck-routing-and-inventory-system) | System Design | Hard | Mar 01, 2026 |
 | [Find accessible devices via nested memberships](https://trueinterview.io/questions/find-accessible-devices-via-nested-memberships) | Algorithm | Medium | Mar 01, 2026 |
 | [Design camera-footage upload with custody chain](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) | System Design | Hard | Feb 11, 2026 |
+| [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) | Blog | — | Feb 09, 2026 |
+| [Answer tough self-awareness and team questions](https://trueinterview.io/questions/answer-tough-self-awareness-and-team-questions) | Blog | — | Feb 08, 2026 |
 | [Design device logging system with offline upload](https://trueinterview.io/questions/design-device-logging-system-with-offline-upload) | System Design | Medium | Feb 06, 2026 |
 | [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) | System Design | Medium | Nov 18, 2025 |

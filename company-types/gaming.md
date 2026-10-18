@@ -2,7 +2,7 @@
 
 # 🎮 Gaming & interactive — interview & OA questions
 
-**87 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**102 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Roblox (87)](../companies/roblox.md)
+[Roblox (102)](../companies/roblox.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 49 | 56% | ██████████████ | 10 |
-| [System Design](../formats/system-design.md) | 26 | 30% | ███████ | 3 |
-| [SQL](../formats/sql.md) | 6 | 7% | ██ | 0 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 6% | █ | 1 |
+| [Algorithm](../formats/algorithm.md) | 49 | 48% | ██████████████ | 10 |
+| [System Design](../formats/system-design.md) | 26 | 25% | ███████ | 3 |
+| [Blog](../formats/blog.md) | 15 | 15% | ████ | 15 |
+| [SQL](../formats/sql.md) | 6 | 6% | ██ | 0 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 5% | █ | 1 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **16 / 52 / 19**, over the rows the catalog has graded. 14 of the 87 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **16 / 52 / 19**, over the rows the catalog has graded. 29 of the 102 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **49 questions in this cut that carry a topic label** (56% of it):
+Of the **49 questions in this cut that carry a topic label** (48% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,12 +48,13 @@ Of the **49 questions in this cut that carry a topic label** (56% of it):
 
 ## Asked here in the last 90 days
 
-**4 sightings** across this cut. Newest first.
+**5 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Roblox … | Algorithm | Sep 10, 2026 |
 | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Roblox | Algorithm | Sep 09, 2026 |
+| [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers) | Roblox | Blog | Aug 30, 2026 |
 | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Roblox | Algorithm | Aug 17, 2026 |
 | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Roblox … | Algorithm | Aug 12, 2026 |
 
@@ -66,8 +68,10 @@ Of the **49 questions in this cut that carry a topic label** (56% of it):
 | :-- | :-- | :-: | :-- |
 | **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | 🆕 Sep 10, 2026 |
 | **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🆕 Sep 09, 2026 |
+| **Roblox** | [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers) | — | Aug 30, 2026 |
 | **Roblox** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Easy | Aug 17, 2026 |
 | **Roblox / ByteDance** | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Medium | Aug 12, 2026 |
+| **Roblox** | [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/questions/behavioral-hm-traffic-and-scope) | — | Jun 30, 2026 |
 | **Roblox** | [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Hard | Jun 29, 2026 |
 | **Roblox** | [Design Game Dashboard Friend Activity and Counts](https://trueinterview.io/questions/friend-played-game-near-realtime) | Medium | Jun 19, 2026 |
 | **Roblox** | [Most Frequent Function Call Stack](https://trueinterview.io/questions/most-frequent-function-call-stack) | Hard | Jun 10, 2026 |
@@ -76,6 +80,7 @@ Of the **49 questions in this cut that carry a topic label** (56% of it):
 | **Roblox** | [Cursor-Based Pagination Over Sorted Logs](https://trueinterview.io/questions/cursor-based-pagination-over-sorted-logs) | Medium | May 24, 2026 |
 | **Roblox / Amazon / Apple / DoorDash** | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Easy | May 20, 2026 |
 | **Roblox** | [Recommend Games to a Roblox User](https://trueinterview.io/questions/ml-modeling-game-recommendation) | Medium | May 19, 2026 |
+| **Roblox** | [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive) | — | May 19, 2026 |
 | **Roblox** | [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting) | Easy | May 19, 2026 |
 | **Robinhood / Roblox** | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | Medium | May 09, 2026 |
 | **Roblox** | [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Medium | May 09, 2026 |
@@ -105,6 +110,7 @@ Of the **49 questions in this cut that carry a topic label** (56% of it):
 | **Roblox / Datadog / DoorDash / Ebay / Google / Lyft / Meta** | [Design Instagram](https://trueinterview.io/questions/design-instagram) | Medium | Jan 22, 2026 |
 | **Roblox / Microsoft / Pinterest** | [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system) | Medium | Jan 16, 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
+| **Roblox** | [How to estimate a feature’s causal impact on time spent](https://trueinterview.io/questions/how-to-estimate-a-feature-s-causal-impact-on-time-spent) | — | Jan 13, 2026 |
 | **Pinterest / Airbnb / Meta / Robinhood / Roblox / Snapchat** | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | Hard | Jan 12, 2026 |
 | **Roblox** | [Maximize Distance to Closest Person](https://trueinterview.io/questions/maximize-distance-to-closest-person) | Medium | Dec 23, 2025 |
 | **Roblox** | [Design a Multi-Resource Resource Loader](https://trueinterview.io/questions/design-a-multi-resource-resource-loader) | Medium | Dec 23, 2025 |
@@ -114,6 +120,7 @@ Of the **49 questions in this cut that carry a topic label** (56% of it):
 | **Roblox** | [Minimum Height Difference Between Distant Peaks](https://trueinterview.io/questions/minimum-height-difference-between-distant-peaks) | Medium | Dec 09, 2025 |
 | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Easy | Dec 06, 2025 |
 | **Roblox** | [Maximum Number of Balls in a Box](https://trueinterview.io/questions/maximum-number-of-balls-in-a-box) | Easy | Dec 05, 2025 |
+| **Roblox** | [Apply Bayes' rule to compute posterior](https://trueinterview.io/questions/apply-bayes-rule-to-compute-posterior) | — | Nov 24, 2025 |
 | **Roblox** | [Compute DiD and validate parallel trends](https://trueinterview.io/questions/compute-did-and-validate-parallel-trends) | Medium | Nov 23, 2025 |
 | **Stripe / Affirm / Robinhood / Roblox / Uber** | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | Hard | Oct 26, 2025 |
 | **Roblox** | [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks) | Hard | Oct 18, 2025 |
@@ -126,9 +133,19 @@ Of the **49 questions in this cut that carry a topic label** (56% of it):
 | **Roblox** | [Auto Email Generation](https://trueinterview.io/questions/auto-email-generation) | Easy | Sep 02, 2025 |
 | **Roblox** | [Optimize bread-factory pipeline for max profit](https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit) | Hard | — |
 | **Roblox** | [Implement robust one/two-sided p-value function](https://trueinterview.io/questions/implement-robust-one-two-sided-p-value-function) | Hard | — |
+| **Roblox** | [Explain an ML project end-to-end with tradeoffs](https://trueinterview.io/questions/explain-an-ml-project-end-to-end-with-tradeoffs) | — | — |
+| **Roblox** | [Evaluate friend-interaction feature with network interference](https://trueinterview.io/questions/evaluate-friend-interaction-feature-with-network-interference) | — | — |
+| **Roblox** | [Determine if players prefer local creators without experiments](https://trueinterview.io/questions/determine-if-players-prefer-local-creators-without-experiments) | — | — |
 | **Roblox** | [Design real-time payments fraud model under constraints](https://trueinterview.io/questions/design-real-time-payments-fraud-model-under-constraints) | Hard | — |
 | **Roblox** | [Design leakage-free predictive maintenance pipeline](https://trueinterview.io/questions/design-leakage-free-predictive-maintenance-pipeline) | Hard | — |
 | **Roblox** | [Design experiment for homepage tab replacement](https://trueinterview.io/questions/design-experiment-for-homepage-tab-replacement) | Medium | — |
+| **Roblox** | [Design ad revenue A/B with guardrails](https://trueinterview.io/questions/design-ad-revenue-a-b-with-guardrails) | — | — |
+| **Roblox** | [Describe resolving revenue–UX metric conflict](https://trueinterview.io/questions/describe-resolving-revenueux-metric-conflict) | — | — |
+| **Roblox** | [Describe leading an ambiguous ads project](https://trueinterview.io/questions/describe-leading-an-ambiguous-ads-project) | — | — |
+| **Roblox** | [Demonstrate fit with quantified stories and motivations](https://trueinterview.io/questions/demonstrate-fit-with-quantified-stories-and-motivations) | — | — |
+| **Roblox** | [Defend a metric choice under scrutiny](https://trueinterview.io/questions/defend-a-metric-choice-under-scrutiny) | — | — |
+| **Roblox** | [Compute GSP vs VCG payments with reserves](https://trueinterview.io/questions/compute-gsp-vs-vcg-payments-with-reserves) | — | — |
+| **Roblox** | [Choose Best/Worst Actions Under Time Pressure](https://trueinterview.io/questions/choose-best-worst-actions-under-oa-pressure) | — | — |
 | **Roblox** | [Write SQL to flag suspect payments and chargebacks](https://trueinterview.io/questions/write-sql-to-flag-suspect-payments-and-chargebacks) | Medium | — |
 | **Roblox** | [Write SQL for ads metrics and variability](https://trueinterview.io/questions/write-sql-for-ads-metrics-and-variability) | Hard | — |
 | **Roblox** | [Match requests and accepts into friendships in SQL](https://trueinterview.io/questions/match-requests-and-accepts-into-friendships-in-sql) | Medium | — |

@@ -2,7 +2,7 @@
 
 # Glean interview process, OA & interview questions
 
-**7 questions** reported at Glean. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/glean), judged server-side on the algorithm, low-level-design and SQL formats.
+**10 questions** reported at Glean. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/glean), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Glean interviews & the free questions](glean/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,24 +12,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **7** |
+| Questions tracked | **10** |
 | Most recent sighting | Apr 23, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 7) |
+| Most common format | [Algorithm](../formats/algorithm.md) (40% of 10) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 6 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 7 questions reported at Glean. 7 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 10 questions reported at Glean. 10 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **7 of 7** questions at Glean that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **10 of 10** questions at Glean that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 5 | ██████████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 1 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | ████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 0 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 1 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ███████ | [Blog](../formats/blog.md) (50%) | 0 / 0 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -39,7 +39,7 @@ Which stage each question came from, for the **7 of 7** questions at Glean that 
 
 ## What they ask about
 
-Of the **4 questions at Glean that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **4 questions at Glean that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -60,11 +60,12 @@ Every recorded sighting at Glean, by the month it was reported in — Nov 10, 20
 | :-- | --: | :-- |
 | [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ██████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 3 | ██████████████████ |
 
 ## Start here
 
-The 7 questions to open first if you are preparing for Glean, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Glean, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
@@ -73,8 +74,9 @@ The 7 questions to open first if you are preparing for Glean, ranked by **the mo
 | **3** | [Search Words in a Character Grid](https://trueinterview.io/questions/search-words-in-a-character-grid) | Algorithm | Hard | 1 | Apr 15, 2026 |
 | **4** | [Find the Kth Largest in Two Sorted Arrays](https://trueinterview.io/questions/find-the-kth-largest-in-two-sorted-arrays) | Algorithm | Hard | — | Apr 01, 2026 |
 | **5** | [Implement 2048 Game Logic](https://trueinterview.io/questions/implement-2048-game-logic) 🆓 | Object Oriented Programming | Medium | — | Mar 01, 2026 |
-| **6** | [Simulate document assignment to indexers](https://trueinterview.io/questions/simulate-document-assignment-to-indexers) | Algorithm | Hard | — | Nov 19, 2025 |
-| **7** | [Compute DAU and rolling MAU with zero days](https://trueinterview.io/questions/compute-dau-and-rolling-mau-with-zero-days) 🆓 | SQL | Hard | — | Nov 10, 2025 |
+| **6** | [How to measure product success?](https://trueinterview.io/questions/how-to-measure-product-success) 🆓 | Blog | — | — | Jan 11, 2026 |
+| **7** | [What are sum expectation and variance?](https://trueinterview.io/questions/what-are-sum-expectation-and-variance) 🆓 | Blog | — | — | Jan 11, 2026 |
+| **8** | [Simulate document assignment to indexers](https://trueinterview.io/questions/simulate-document-assignment-to-indexers) | Algorithm | Hard | — | Nov 19, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -93,5 +95,8 @@ The 7 questions to open first if you are preparing for Glean, ranked by **the mo
 | [Search Words in a Character Grid](https://trueinterview.io/questions/search-words-in-a-character-grid) | Algorithm | Hard | Apr 15, 2026 |
 | [Find the Kth Largest in Two Sorted Arrays](https://trueinterview.io/questions/find-the-kth-largest-in-two-sorted-arrays) | Algorithm | Hard | Apr 01, 2026 |
 | [Implement 2048 Game Logic](https://trueinterview.io/questions/implement-2048-game-logic) | Object Oriented Programming | Medium | Mar 01, 2026 |
+| [What are sum expectation and variance?](https://trueinterview.io/questions/what-are-sum-expectation-and-variance) | Blog | — | Jan 11, 2026 |
+| [How to measure product success?](https://trueinterview.io/questions/how-to-measure-product-success) | Blog | — | Jan 11, 2026 |
 | [Simulate document assignment to indexers](https://trueinterview.io/questions/simulate-document-assignment-to-indexers) | Algorithm | Hard | Nov 19, 2025 |
+| [Reason about MAU error after user ID rehash](https://trueinterview.io/questions/reason-about-mau-error-after-user-id-rehash) | Blog | — | Nov 10, 2025 |
 | [Compute DAU and rolling MAU with zero days](https://trueinterview.io/questions/compute-dau-and-rolling-mau-with-zero-days) | SQL | Hard | Nov 10, 2025 |

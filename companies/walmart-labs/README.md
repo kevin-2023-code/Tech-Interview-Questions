@@ -8,7 +8,7 @@ How Walmart Labs interviews, and the questions candidates reported there. Free q
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [29](../walmart-labs.md) |
+| Questions reported | [35](../walmart-labs.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,17 +47,23 @@ Here's what the interview process can look like:
 
 ## Free Walmart Labs questions
 
-3 questions reported at Walmart Labs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Walmart Labs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Walmart Behavioral / HM Loop](https://trueinterview.io/questions/walmart-bq-loop) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/walmart-bq-loop) |
+| [Evaluate Last-Mile Product Metric Changes](https://trueinterview.io/questions/evaluate-last-mile-product-metric-changes) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/evaluate-last-mile-product-metric-changes) |
+| [Answer leadership scenarios about influence and integrity](https://trueinterview.io/questions/answer-leadership-scenarios-about-influence-and-integrity) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-leadership-scenarios-about-influence-and-integrity) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Spring Boot Verbal Quiz](https://trueinterview.io/questions/spring-boot-verbal-quiz) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/spring-boot-verbal-quiz) |
+| [Handle conflict and motivate engineering teams](https://trueinterview.io/questions/handle-conflict-and-motivate-engineering-teams) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/handle-conflict-and-motivate-engineering-teams) |
+| [Check Output Correctness in Code](https://trueinterview.io/questions/d65899f8-0f93-47d6-9fd4-ca6ae30663bc) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/d65899f8-0f93-47d6-9fd4-ca6ae30663bc) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
 
-- [All 29 questions reported at Walmart Labs](../walmart-labs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 35 questions reported at Walmart Labs](../walmart-labs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Walmart Labs question on TrueInterview](https://trueinterview.io/problems/company/walmart-labs).
 
 ---

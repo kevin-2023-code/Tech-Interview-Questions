@@ -2,7 +2,7 @@
 
 # Mercor interview process, OA & interview questions
 
-**5 questions** reported at Mercor. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/mercor), judged server-side on the algorithm, low-level-design and SQL formats.
+**14 questions** reported at Mercor. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/mercor), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Mercor interviews & the free questions](mercor/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,40 +14,42 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **5** |
+| Questions tracked | **14** |
 | Most recent sighting | Sep 03, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
+| Reported in the last 90 days | 5 |
+| Most common format | [Blog](../formats/blog.md) (64% of 14) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 4 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [11](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 5 questions reported at Mercor. 5 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 14 questions reported at Mercor. 14 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **5 of 5** questions at Mercor that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **14 of 14** questions at Mercor that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 0 / 0 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | ██ | [System Design](../formats/system-design.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 13 | ██████████ | [Blog](../formats/blog.md) (69%) | 0 / 0 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 1 | █ | [System Design](../formats/system-design.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) | Blog | — | Phone screen | Sep 03, 2026 |
+| [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | Blog | — | Phone screen | Sep 03, 2026 |
 | [Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety](https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety) | Algorithm | Hard | Phone screen | Sep 03, 2026 |
 | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | System Design | Hard | Phone screen | Aug 30, 2026 |
 | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Algorithm | Hard | Phone screen | Aug 30, 2026 |
 
 ## What they ask about
 
-Of the **1 question at Mercor that carries a topic label** (20% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Mercor that carries a topic label** (7% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -57,26 +59,30 @@ Of the **1 question at Mercor that carries a topic label** (20% of them — the 
 
 ## When they asked it
 
-Every recorded sighting at Mercor, by the month it was reported in — Apr 21, 2026 to Sep 03, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Mercor, by the month it was reported in — Jan 17, 2026 to Sep 03, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 2 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 3 | ████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ████████ |
+| [May 2026](../by-month/2026-05.md) | 2 | ████████ |
+| [Apr 2026](../by-month/2026-04.md) | 1 | ████ |
+| [Jan 2026](../by-month/2026-01.md) | 6 | ████████████████████████ |
 
 ## Start here
 
-The 5 questions to open first if you are preparing for Mercor, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Mercor, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety](https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety) | Algorithm | Hard | — | Sep 03, 2026 |
-| **2** | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) 🆓 | System Design | Hard | — | Aug 30, 2026 |
-| **3** | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Algorithm | Hard | — | Aug 30, 2026 |
-| **4** | [Code Review: Thread Safety of a Python Compute-and-Cache Function](https://trueinterview.io/questions/code-review-thread-safety-of-a-python-compute-and-cache-function) 🆓 | Algorithm | Hard | — | May 01, 2026 |
-| **5** | [Design Candidate Search And LLM Evaluation Tasks](https://trueinterview.io/questions/design-candidate-search-and-llm-evaluation-tasks) | System Design | Medium | — | Apr 21, 2026 |
+| **2** | [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) 🆓 | Blog | — | — | Sep 03, 2026 |
+| **3** | [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) 🆓 | Blog | — | — | Sep 03, 2026 |
+| **4** | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) 🆓 | System Design | Hard | — | Aug 30, 2026 |
+| **5** | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Algorithm | Hard | — | Aug 30, 2026 |
+| **6** | [Code Review: Thread Safety of a Python Compute-and-Cache Function](https://trueinterview.io/questions/code-review-thread-safety-of-a-python-compute-and-cache-function) 🆓 | Algorithm | Hard | — | May 01, 2026 |
+| **7** | [Project Deep Dive With Product-Level Probing, AI Tool Use, and Startup Motivation](https://trueinterview.io/questions/project-deep-dive-with-product-level-probing-ai-tool-use-and-startup-motivation) 🆓 | Blog | — | — | May 01, 2026 |
+| **8** | [Design Candidate Search And LLM Evaluation Tasks](https://trueinterview.io/questions/design-candidate-search-and-llm-evaluation-tasks) | System Design | Medium | — | Apr 21, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -91,7 +97,16 @@ The 5 questions to open first if you are preparing for Mercor, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety](https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety) | Algorithm | Hard | 🆕 Sep 03, 2026 |
+| [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | Blog | — | 🆕 Sep 03, 2026 |
+| [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) | Blog | — | 🆕 Sep 03, 2026 |
 | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Algorithm | Hard | Aug 30, 2026 |
 | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | System Design | Hard | Aug 30, 2026 |
+| [Project Deep Dive With Product-Level Probing, AI Tool Use, and Startup Motivation](https://trueinterview.io/questions/project-deep-dive-with-product-level-probing-ai-tool-use-and-startup-motivation) | Blog | — | May 01, 2026 |
 | [Code Review: Thread Safety of a Python Compute-and-Cache Function](https://trueinterview.io/questions/code-review-thread-safety-of-a-python-compute-and-cache-function) | Algorithm | Hard | May 01, 2026 |
 | [Design Candidate Search And LLM Evaluation Tasks](https://trueinterview.io/questions/design-candidate-search-and-llm-evaluation-tasks) | System Design | Medium | Apr 21, 2026 |
+| [Explain what happens when opening a website](https://trueinterview.io/questions/explain-what-happens-when-opening-a-website) | Blog | — | Jan 17, 2026 |
+| [Explain VPCs and private/public network connectivity](https://trueinterview.io/questions/explain-vpcs-and-private-public-network-connectivity) | Blog | — | Jan 17, 2026 |
+| [Explain Kubernetes autoscaling and traffic routing](https://trueinterview.io/questions/explain-kubernetes-autoscaling-and-traffic-routing) | Blog | — | Jan 17, 2026 |
+| [Define a one-way function and its uses](https://trueinterview.io/questions/define-a-one-way-function-and-its-uses) | Blog | — | Jan 17, 2026 |
+| [Compare streaming frameworks and delivery semantics](https://trueinterview.io/questions/compare-streaming-frameworks-and-delivery-semantics) | Blog | — | Jan 17, 2026 |
+| [Compare processes and threads in Linux and Python](https://trueinterview.io/questions/compare-processes-and-threads-in-linux-and-python) | Blog | — | Jan 17, 2026 |

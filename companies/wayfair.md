@@ -2,7 +2,7 @@
 
 # Wayfair interview process, OA & interview questions
 
-**6 questions** reported at Wayfair. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/wayfair), judged server-side on the algorithm, low-level-design and SQL formats.
+**7 questions** reported at Wayfair. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/wayfair), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Wayfair interviews & the free questions](wayfair/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,34 +12,35 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **6** |
+| Questions tracked | **7** |
 | Most recent sighting | Sep 10, 2026 |
-| Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (33% of 6) |
+| Reported in the last 90 days | 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (29% of 7) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 6 questions reported at Wayfair. 6 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 7 questions reported at Wayfair. 7 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **6 of 6** questions at Wayfair that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **7 of 7** questions at Wayfair that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 2 | ██████████ | [SQL](../formats/sql.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 0 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 2 | ███████ | [SQL](../formats/sql.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 2 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 0 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (33%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | Blog | — | Onsite / virtual onsite | Sep 10, 2026 |
 | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | System Design | Hard | Onsite / virtual onsite | Sep 10, 2026 |
 | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | System Design | Hard | Phone screen | Sep 10, 2026 |
 | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Algorithm | Medium | Onsite / virtual onsite | Sep 10, 2026 |
@@ -47,7 +48,7 @@ Which stage each question came from, for the **6 of 6** questions at Wayfair tha
 
 ## What they ask about
 
-Of the **2 questions at Wayfair that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **2 questions at Wayfair that carry a topic label** (29% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -62,21 +63,22 @@ Every recorded sighting at Wayfair, by the month it was reported in — Feb 16, 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 4 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 5 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | ██████████ |
 
 ## Start here
 
-The 6 questions to open first if you are preparing for Wayfair, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 7 questions to open first if you are preparing for Wayfair, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Algorithm | Medium | — | Sep 10, 2026 |
 | **2** | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) 🆓 | System Design | Hard | — | Sep 10, 2026 |
 | **3** | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) 🆓 | System Design | Hard | — | Sep 10, 2026 |
-| **4** | [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value) | Algorithm | Hard | — | Sep 09, 2026 |
-| **5** | [How to improve complaint resolution](https://trueinterview.io/questions/how-to-improve-complaint-resolution) | SQL | Medium | — | Feb 16, 2026 |
-| **6** | [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks) | SQL | Medium | — | Feb 16, 2026 |
+| **4** | [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) 🆓 | Blog | — | — | Sep 10, 2026 |
+| **5** | [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value) | Algorithm | Hard | — | Sep 09, 2026 |
+| **6** | [How to improve complaint resolution](https://trueinterview.io/questions/how-to-improve-complaint-resolution) | SQL | Medium | — | Feb 16, 2026 |
+| **7** | [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks) | SQL | Medium | — | Feb 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -93,6 +95,7 @@ The 6 questions to open first if you are preparing for Wayfair, ranked by **the 
 | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | System Design | Hard | 🆕 Sep 10, 2026 |
 | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | System Design | Hard | 🆕 Sep 10, 2026 |
+| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | Blog | — | 🆕 Sep 10, 2026 |
 | [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value) | Algorithm | Hard | 🆕 Sep 09, 2026 |
 | [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks) | SQL | Medium | Feb 16, 2026 |
 | [How to improve complaint resolution](https://trueinterview.io/questions/how-to-improve-complaint-resolution) | SQL | Medium | Feb 16, 2026 |

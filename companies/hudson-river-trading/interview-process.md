@@ -136,7 +136,7 @@ Here are some questions reported by recent candidates:
 - Answer system design questions and math problems in the same day.
 
 - [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609)
-- [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e)
+- [Exploratory Data Analysis & Modeling for Heart Disease Prediction](../../questions/ai-coding/exploratory-data-analysis-and-modeling-for-heart-disease-prediction/README.md)
 - [Count inversions in a permutation](https://trueinterview.io/questions/count-inversions-in-a-permutation)
 - [Python Language and Runtime Fundamentals](https://trueinterview.io/questions/python-language-and-runtime-fundamentals)
 

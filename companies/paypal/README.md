@@ -8,7 +8,7 @@ How PayPal interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [24](../paypal.md) |
+| Questions reported | [37](../paypal.md) |
 | Free to read here | 8 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,11 +48,24 @@ Here's what the interview process can look like:
 
 ## Free PayPal questions
 
-8 questions reported at PayPal open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at PayPal open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Interpret p-values and common pitfalls](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) |
+| [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) |
+| [Design metrics and experiment for donation feature](https://trueinterview.io/questions/design-metrics-and-experiment-for-donation-feature) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/design-metrics-and-experiment-for-donation-feature) |
+| [Answer career, manager, and team fit questions](https://trueinterview.io/questions/answer-career-manager-and-team-fit-questions) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-career-manager-and-team-fit-questions) |
+| [Decide if a dice-betting game is favorable](https://trueinterview.io/questions/decide-if-a-dice-betting-game-is-favorable) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/decide-if-a-dice-betting-game-is-favorable) |
+| [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) |
+| [Reduce airport ride cancellations under causal constraints](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints) |
+| [Explain p-values and interpret regressions](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions) |
+| [Evaluate smart cart idea and design experiment](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment) |
+| [Diagnose drop in shopper order acceptance](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance) |
+| [Optimize thresholds under fraud costs](https://trueinterview.io/questions/optimize-thresholds-under-fraud-costs) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/optimize-thresholds-under-fraud-costs) |
+| [Influence policy with BI deliverables](https://trueinterview.io/questions/influence-policy-with-bi-deliverables) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/influence-policy-with-bi-deliverables) |
+| [Design an A/B for ATO rule](https://trueinterview.io/questions/design-an-a-b-for-ato-rule) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-an-a-b-for-ato-rule) |
 | [API Call and Data Processing](../../questions/object-oriented-programming/api-call-and-data-processing/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) |
 | [Binary Search Tree Pruning](../../questions/algorithm/binary-search-tree-pruning/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605) |
 | [Minimum Steps to Move Balls to Respective Holes](../../questions/algorithm/minimum-steps-to-move-balls-to-respective-holes/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb) |
@@ -63,7 +76,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 24 questions reported at PayPal](../paypal.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 37 questions reported at PayPal](../paypal.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every PayPal question on TrueInterview](https://trueinterview.io/problems/company/paypal).
 
 ---

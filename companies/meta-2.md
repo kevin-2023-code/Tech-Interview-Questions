@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**337 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**485 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,153 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Prove source growth is cannibalization, not incremental](https://trueinterview.io/questions/prove-source-growth-is-cannibalization-not-incremental) | System Design | Hard | — |
+| [Persuade engineers to launch pinned-unread chats](https://trueinterview.io/questions/persuade-engineers-to-launch-pinned-unread-chats) | Blog | — | — |
+| [Optimize IG Shopping ranking with multiple objectives](https://trueinterview.io/questions/optimize-ig-shopping-ranking-with-multiple-objectives) | System Design | Hard | — |
+| [Navigate reschedules, offers, and team-match uncertainty](https://trueinterview.io/questions/navigate-reschedules-offers-and-team-match-uncertainty) | Blog | — | — |
+| [Model user-level ad impression allocation](https://trueinterview.io/questions/model-user-level-ad-impression-allocation) | Blog | — | — |
+| [Model session times and comments with exponential/Poisson](https://trueinterview.io/questions/model-session-times-and-comments-with-exponential-poisson) | Blog | — | — |
+| [Manage promotions and project portfolio tradeoffs](https://trueinterview.io/questions/manage-promotions-and-project-portfolio-tradeoffs) | Blog | — | — |
+| [Learn complex topic fast under deadline](https://trueinterview.io/questions/learn-complex-topic-fast-under-deadline) | Blog | — | — |
+| [Lead a product deep dive with quantified impact](https://trueinterview.io/questions/lead-a-product-deep-dive-with-quantified-impact) | Blog | — | — |
+| [Justify EU B2B Chat Product Strategy](https://trueinterview.io/questions/justify-eu-b2b-chat-product-strategy) | Blog | — | — |
+| [Justify building a new feature with evidence](https://trueinterview.io/questions/justify-building-a-new-feature-with-evidence) | Blog | — | — |
+| [Increase posts receiving comments via experimentation](https://trueinterview.io/questions/increase-posts-receiving-comments-via-experimentation) | Blog | — | — |
+| [Identify trees, lists, and array search costs](https://trueinterview.io/questions/identify-trees-lists-and-array-search-costs) | Blog | — | — |
+| [Identify non-table data for feature demand](https://trueinterview.io/questions/identify-non-table-data-for-feature-demand) | System Design | Medium | — |
+| [How would you define and use retention metrics?](https://trueinterview.io/questions/how-would-you-define-and-use-retention-metrics) | Blog | — | — |
+| [How to measure harmful-content severity and run experiments](https://trueinterview.io/questions/how-to-measure-harmful-content-severity-and-run-experiments) | Blog | — | — |
+| [Handle sales pressure with analytical integrity](https://trueinterview.io/questions/handle-sales-pressure-with-analytical-integrity) | Blog | — | — |
+| [Handle feedback, change pivots, and conflict](https://trueinterview.io/questions/handle-feedback-change-pivots-and-conflict) | Blog | — | — |
+| [Handle diverse styles and give constructive feedback](https://trueinterview.io/questions/handle-diverse-styles-and-give-constructive-feedback) | Blog | — | — |
+| [Explain your main growth area](https://trueinterview.io/questions/explain-your-main-growth-area) | Blog | — | — |
+| [Explain background, team structure, and role fit](https://trueinterview.io/questions/explain-background-team-structure-and-role-fit) | Blog | — | — |
+| [Explain ACID and isolation levels](https://trueinterview.io/questions/explain-acid-and-isolation-levels) | Blog | — | — |
+| [Evaluate fraud classifier with cost-sensitive metrics](https://trueinterview.io/questions/evaluate-fraud-classifier-with-cost-sensitive-metrics) | Blog | — | — |
+| [Evaluate Facebook Dating launch and validate success](https://trueinterview.io/questions/evaluate-facebook-dating-launch-and-validate-success) | Blog | — | — |
+| [Evaluate brand ads effectiveness on social media causally](https://trueinterview.io/questions/evaluate-brand-ads-effectiveness-on-social-media-causally) | Blog | — | — |
+| [Estimate variance for ratio metrics](https://trueinterview.io/questions/estimate-variance-for-ratio-metrics) | Blog | — | — |
+| [Estimate revenue of organic shopping tab](https://trueinterview.io/questions/estimate-revenue-of-organic-shopping-tab) | Blog | — | — |
+| [Estimate delayed CVR nonparametrically with censored data](https://trueinterview.io/questions/estimate-delayed-cvr-nonparametrically-with-censored-data) | Blog | — | — |
+| [Estimate CTR lift with binomial tests and errors](https://trueinterview.io/questions/estimate-ctr-lift-with-binomial-tests-and-errors) | Blog | — | — |
+| [Diagnose rising account switching and falling actives](https://trueinterview.io/questions/diagnose-rising-account-switching-and-falling-actives) | Blog | — | — |
+| [Diagnose a non-significant experiment outcome](https://trueinterview.io/questions/diagnose-a-non-significant-experiment-outcome) | Blog | — | — |
+| [Detect leakage and evaluate a prediction model](https://trueinterview.io/questions/detect-leakage-and-evaluate-a-prediction-model) | Blog | — | — |
+| [Detect and address Simpson’s paradox](https://trueinterview.io/questions/detect-and-address-simpsons-paradox) | Blog | — | — |
+| [Design robust group size limiting for calls](https://trueinterview.io/questions/design-robust-group-size-limiting-for-calls) | System Design | Hard | — |
+| [Design offline segments for Meta Portal retail](https://trueinterview.io/questions/design-offline-segments-for-meta-portal-retail) | Blog | — | — |
+| [Design metrics for violating content exposure](https://trueinterview.io/questions/design-metrics-for-violating-content-exposure) | Blog | — | — |
+| [Design metrics and geo A/B for new feature](https://trueinterview.io/questions/design-metrics-and-geo-a-b-for-new-feature) | Blog | — | — |
+| [Design bot detection and evaluate trade-offs](https://trueinterview.io/questions/design-bot-detection-and-evaluate-trade-offs) | System Design | Hard | — |
+| [Design B2C chatbot success metrics and test plan](https://trueinterview.io/questions/design-b2c-chatbot-success-metrics-and-test-plan) | Blog | — | — |
+| [Design and evaluate P2P payments in messaging](https://trueinterview.io/questions/design-and-evaluate-p2p-payments-in-messaging) | Blog | — | — |
+| [Design and critique teen-parent impact experiment](https://trueinterview.io/questions/design-and-critique-teen-parent-impact-experiment) | Blog | — | — |
+| [Design and analyze an A/B test](https://trueinterview.io/questions/design-and-analyze-an-a-b-test) | Blog | — | — |
+| [Design and analyze a group-calls experiment](https://trueinterview.io/questions/design-and-analyze-a-group-calls-experiment) | Blog | — | — |
+| [Design analysis to test social vs game engagement](https://trueinterview.io/questions/design-analysis-to-test-social-vs-game-engagement) | Blog | — | — |
+| [Design an A/B test for WhatsApp call reliability](https://trueinterview.io/questions/design-an-a-b-test-for-whatsapp-call-reliability) | System Design | Hard | — |
+| [Design an A/B test for WFH filter](https://trueinterview.io/questions/design-an-a-b-test-for-wfh-filter) | System Design | Medium | — |
+| [Design a small-sample launch experiment in Europe](https://trueinterview.io/questions/design-a-small-sample-launch-experiment-in-europe) | System Design | Medium | — |
+| [Design a restaurant recommender under cold start](https://trueinterview.io/questions/design-a-restaurant-recommender-under-cold-start) | System Design | Hard | — |
+| [Design a hashtag recommender for News Feed](https://trueinterview.io/questions/design-a-hashtag-recommender-for-news-feed) | System Design | Medium | — |
+| [Design a feed ads A/B test with guardrails](https://trueinterview.io/questions/design-a-feed-ads-a-b-test-with-guardrails) | System Design | Medium | — |
+| [Describe conflict where you yielded to others](https://trueinterview.io/questions/describe-conflict-where-you-yielded-to-others) | Blog | — | — |
+| [Describe an ambiguous project you handled](https://trueinterview.io/questions/describe-an-ambiguous-project-you-handled) | Blog | — | — |
+| [Derive no-click probability and sketch implications](https://trueinterview.io/questions/derive-no-click-probability-and-sketch-implications) | Blog | — | — |
+| [Derive expected meetings given nonempty room](https://trueinterview.io/questions/derive-expected-meetings-given-nonempty-room) | Blog | — | — |
+| [Derive and validate DID for staggered rollout](https://trueinterview.io/questions/derive-and-validate-did-for-staggered-rollout) | Blog | — | — |
+| [Deploy multi-armed bandits safely](https://trueinterview.io/questions/deploy-multi-armed-bandits-safely) | System Design | Hard | — |
+| [Demonstrate leadership in cross-functional collaboration](https://trueinterview.io/questions/demonstrate-leadership-in-cross-functional-collaboration) | Blog | — | — |
+| [Define success metrics and guardrails for B2B chat](https://trueinterview.io/questions/define-success-metrics-and-guardrails-for-b2b-chat) | Blog | — | — |
+| [Define composite success for search and test it](https://trueinterview.io/questions/define-composite-success-for-search-and-test-it) | Blog | — | — |
+| [Decide when CTR falls but revenue rises](https://trueinterview.io/questions/decide-when-ctr-falls-but-revenue-rises) | Blog | — | — |
+| [Compute view prevalence from views and labels](https://trueinterview.io/questions/compute-view-prevalence-from-views-and-labels) | SQL | Hard | — |
+| [Compute posterior for accurate-but-rare classifier](https://trueinterview.io/questions/compute-posterior-for-accurate-but-rare-classifier) | Blog | — | — |
+| [Compute p-values, power, and adjust errors](https://trueinterview.io/questions/compute-p-values-power-and-adjust-errors) | Blog | — | — |
+| [Compute conditional occupancy across two rooms](https://trueinterview.io/questions/compute-conditional-occupancy-across-two-rooms) | Blog | — | — |
+| [Compare two ad insertion strategies](https://trueinterview.io/questions/compare-two-ad-insertion-strategies) | Blog | — | — |
+| [Compare Bayesian and frequentist decisions](https://trueinterview.io/questions/compare-bayesian-and-frequentist-decisions) | Blog | — | — |
+| [Clarify scope and align to mission](https://trueinterview.io/questions/clarify-scope-and-align-to-mission) | Blog | — | — |
+| [Choose threshold under asymmetric costs](https://trueinterview.io/questions/choose-threshold-under-asymmetric-costs) | Blog | — | — |
+| [Choose tests and solve distribution parameters](https://trueinterview.io/questions/choose-tests-and-solve-distribution-parameters) | Blog | — | — |
+| [Choose robust metrics for skewed comments](https://trueinterview.io/questions/choose-robust-metrics-for-skewed-comments) | Blog | — | — |
+| [Choose metrics for fake-user classifier](https://trueinterview.io/questions/choose-metrics-for-fake-user-classifier) | Blog | — | — |
+| [Choose group-call size cap via experiment](https://trueinterview.io/questions/choose-group-call-size-cap-via-experiment) | System Design | Medium | — |
+| [Choose group-call participant cap via distribution](https://trueinterview.io/questions/choose-group-call-participant-cap-via-distribution) | System Design | Easy | — |
+| [Choose and compute recommender evaluation metrics](https://trueinterview.io/questions/choose-and-compute-recommender-evaluation-metrics) | Blog | — | — |
+| [Choose alternatives when randomization fails](https://trueinterview.io/questions/choose-alternatives-when-randomization-fails) | System Design | Hard | — |
+| [Characterize metric distribution and quantiles](https://trueinterview.io/questions/characterize-metric-distribution-and-quantiles) | Blog | — | — |
+| [Characterize and compare transfer-count distributions over time](https://trueinterview.io/questions/characterize-and-compare-transfer-count-distributions-over-time) | Blog | — | — |
+| [Build predictive model for feature rollout targeting](https://trueinterview.io/questions/build-predictive-model-for-feature-rollout-targeting) | System Design | Medium | — |
+| [Build dashboard; diagnose engagement–purchase gap](https://trueinterview.io/questions/build-dashboard-diagnose-engagementpurchase-gap) | System Design | Hard | — |
+| [Build a model to infer home vs office vs public](https://trueinterview.io/questions/build-a-model-to-infer-home-vs-office-vs-public) | System Design | Hard | — |
+| [Brainstorm how to optimize email engagement](https://trueinterview.io/questions/brainstorm-how-to-optimize-email-engagement) | Blog | — | — |
+| [Apply sequential testing without p-hacking](https://trueinterview.io/questions/apply-sequential-testing-without-p-hacking) | Blog | — | — |
+| [Analyze regression to mean in heavy-tailed shares](https://trueinterview.io/questions/analyze-regression-to-mean-in-heavy-tailed-shares) | Blog | — | — |
+| [Analyze DAU comments distribution and resampling](https://trueinterview.io/questions/analyze-dau-comments-distribution-and-resampling) | Blog | — | — |
+| [Analyze ad targeting expectations and distributions](https://trueinterview.io/questions/analyze-ad-targeting-expectations-and-distributions) | Blog | — | — |
+| [Write SQL with HAVING and efficient joins](https://trueinterview.io/questions/write-sql-with-having-and-efficient-joins) | SQL | Medium | — |
+| [Write SQL to flag coordinated fake accounts](https://trueinterview.io/questions/write-sql-to-flag-coordinated-fake-accounts) | SQL | Hard | — |
+| [Write SQL to compare social-only vs game-only engagement](https://trueinterview.io/questions/write-sql-to-compare-social-only-vs-game-only-engagement) | SQL | Medium | — |
+| [Write SQL to compare exclusive category engagement](https://trueinterview.io/questions/write-sql-to-compare-exclusive-category-engagement) | SQL | Medium | — |
+| [Write SQL to analyze shop visibility](https://trueinterview.io/questions/write-sql-to-analyze-shop-visibility) | SQL | Medium | — |
+| [Write SQL to analyze Group Calls adoption](https://trueinterview.io/questions/write-sql-to-analyze-group-calls-adoption) | SQL | Hard | — |
+| [Write SQL to analyze group-call concurrency](https://trueinterview.io/questions/write-sql-to-analyze-group-call-concurrency) | SQL | Hard | — |
+| [Write SQL for visibility, calls, and cohort activity](https://trueinterview.io/questions/write-sql-for-visibility-calls-and-cohort-activity) | SQL | Medium | — |
+| [Write SQL for video-call recipients and FR activity](https://trueinterview.io/questions/write-sql-for-video-call-recipients-and-fr-activity) | SQL | Medium | — |
+| [Write SQL for social feed metrics and ties](https://trueinterview.io/questions/write-sql-for-social-feed-metrics-and-ties) | SQL | Medium | — |
+| [Write SQL for revenue and advertiser analyses](https://trueinterview.io/questions/write-sql-for-revenue-and-advertiser-analyses) | SQL | Medium | — |
+| [Write SQL for retention, conversion, and churn](https://trueinterview.io/questions/write-sql-for-retention-conversion-and-churn) | SQL | Hard | — |
+| [Write SQL for initiators and French DAU%](https://trueinterview.io/questions/write-sql-for-initiators-and-french-daupercent) | SQL | Medium | — |
+| [Write SQL for hashtag source and safety rates](https://trueinterview.io/questions/write-sql-for-hashtag-source-and-safety-rates) | SQL | Medium | — |
+| [Write SQL for hashtag analytics and joins](https://trueinterview.io/questions/write-sql-for-hashtag-analytics-and-joins) | SQL | Medium | — |
+| [Write SQL for 7-day WhatsApp call metrics](https://trueinterview.io/questions/write-sql-for-7-day-whatsapp-call-metrics) | SQL | Hard | — |
+| [Write SQL filtering, grouping, CASE, UNION tasks](https://trueinterview.io/questions/write-sql-filtering-grouping-case-union-tasks) | SQL | Easy | — |
+| [Write advanced SQL for sales support analytics](https://trueinterview.io/questions/write-advanced-sql-for-sales-support-analytics) | SQL | Medium | — |
+| [Validate complete binary tree](https://trueinterview.io/questions/validate-complete-binary-tree) | Algorithm | Medium | — |
+| [Label new vs old users over time in SQL](https://trueinterview.io/questions/label-new-vs-old-users-over-time-in-sql) | SQL | Medium | — |
+| [Join datasets and compute conversion by assignment](https://trueinterview.io/questions/join-datasets-and-compute-conversion-by-assignment) | SQL | Medium | — |
+| [Define and query shop visibility](https://trueinterview.io/questions/define-and-query-shop-visibility) | SQL | Medium | — |
+| [Compute video-call SQL metrics with edge cases](https://trueinterview.io/questions/compute-video-call-sql-metrics-with-edge-cases) | SQL | Hard | — |
+| [Compute shop visibility and intent metrics in SQL](https://trueinterview.io/questions/compute-shop-visibility-and-intent-metrics-in-sql) | SQL | Medium | — |
+| [Compute multi-account actives and unread coverage](https://trueinterview.io/questions/compute-multi-account-actives-and-unread-coverage) | SQL | Medium | — |
+| [Compute French DAU video-call percentage yesterday](https://trueinterview.io/questions/compute-french-dau-video-call-percentage-yesterday) | SQL | Medium | — |
+| [Compute daily post success rate for last 7 days](https://trueinterview.io/questions/compute-daily-post-success-rate-for-last-7-days) | SQL | Medium | — |
+| [Compute CTR overall and by campaign type](https://trueinterview.io/questions/compute-ctr-overall-and-by-campaign-type) | SQL | Medium | — |
+| [Compute cohort GMV and payer rate with edge cases](https://trueinterview.io/questions/compute-cohort-gmv-and-payer-rate-with-edge-cases) | SQL | Hard | — |
+| [Compute callers contacting &gt;3 people last 7 days](https://trueinterview.io/questions/compute-callers-contacting-3-people-last-7-days) | SQL | Medium | — |
+| [Calculate survey response and quality metrics in SQL](https://trueinterview.io/questions/calculate-survey-response-and-quality-metrics-in-sql) | SQL | Hard | — |
+| [Calculate posts per DAU by country today](https://trueinterview.io/questions/calculate-posts-per-dau-by-country-today) | SQL | Medium | — |
+| [Size opportunity and prioritize experiments](https://trueinterview.io/questions/size-opportunity-and-prioritize-experiments) | Blog | — | — |
+| [Resolve exclusion, learn fast, and manage conflict](https://trueinterview.io/questions/resolve-exclusion-learn-fast-and-manage-conflict) | Blog | — | — |
+| [Model comment count distribution and validate assumptions](https://trueinterview.io/questions/model-comment-count-distribution-and-validate-assumptions) | Blog | — | — |
+| [Diagnose a sudden KPI drop and validate causes](https://trueinterview.io/questions/diagnose-a-sudden-kpi-drop-and-validate-causes) | Blog | — | — |
+| [Design pre-launch plan and cluster A/B test](https://trueinterview.io/questions/design-pre-launch-plan-and-cluster-a-b-test) | System Design | Hard | — |
+| [Design experiment for unconnected content in feed](https://trueinterview.io/questions/design-experiment-for-unconnected-content-in-feed) | System Design | Medium | — |
+| [Design and analyze A/B test with interference](https://trueinterview.io/questions/design-and-analyze-a-b-test-with-interference) | Blog | — | — |
+| [Design a clustered notification experiment with guardrails](https://trueinterview.io/questions/design-a-clustered-notification-experiment-with-guardrails) | System Design | Hard | — |
+| [Describe a failed project and lessons learned](https://trueinterview.io/questions/describe-a-failed-project-and-lessons-learned) | Blog | — | — |
+| [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity) | Blog | — | — |
+| [Compute sample size and test duration correctly](https://trueinterview.io/questions/compute-sample-size-and-test-duration-correctly) | Blog | — | — |
+| [Compute fraud probabilities with Bayes and Binomial](https://trueinterview.io/questions/compute-fraud-probabilities-with-bayes-and-binomial) | Blog | — | — |
+| [Compare Instagram vs. Facebook using causal experiments](https://trueinterview.io/questions/compare-instagram-vs-facebook-using-causal-experiments) | Blog | — | — |
+| [Communicate trade-offs and influence launch](https://trueinterview.io/questions/communicate-trade-offs-and-influence-launch) | Blog | — | — |
+| [Analyze daily comments distribution and sampling](https://trueinterview.io/questions/analyze-daily-comments-distribution-and-sampling) | Blog | — | — |
+| [Define and compute shop visibility in SQL](https://trueinterview.io/questions/define-and-compute-shop-visibility-in-sql) | SQL | Medium | — |
+| [Compute 7-day views and reactions by relationship](https://trueinterview.io/questions/compute-7-day-views-and-reactions-by-relationship) | SQL | Medium | — |
+| [Decide and experiment on Group Call feature](https://trueinterview.io/questions/decide-and-experiment-on-group-call-feature) | Blog | — | — |
+| [Design experiment for fake accounts impact](https://trueinterview.io/questions/design-experiment-for-fake-accounts-impact) | System Design | Medium | — |
+| [Describe a leadership STAR story](https://trueinterview.io/questions/describe-a-leadership-star-story) | Blog | — | — |
+| [Compute multi-account activity and unread percentages in SQL](https://trueinterview.io/questions/compute-multi-account-activity-and-unread-percentages-in-sql) | SQL | Medium | — |
+| [Deliver an elevator pitch and impact example](https://trueinterview.io/questions/deliver-an-elevator-pitch-and-impact-example) | Blog | — | — |
+| [Determine Whether a Target-Sum Subarray Exists](https://trueinterview.io/questions/c2ff0a86-05a2-5b73-ae32-07ebfae4c4c1) | Algorithm | Medium | — |
+| [Binary Tree Paths With Target Sum](https://trueinterview.io/questions/7c3b95ff-ace7-5377-a58a-332635b2b2e7) | Algorithm | Medium | — |
+| [Merge Three Sorted Arrays with Deduplication](https://trueinterview.io/questions/c6b726cd-d319-5469-8ea1-fa90146e850b) | Algorithm | Easy | — |
+| [Reconstruct Binary Tree from Preorder and Postorder](https://trueinterview.io/questions/reconstruct-binary-tree-from-preorder-and-postorder) | Algorithm | Medium | — |
+| [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
+| [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
+| [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Medium | — |
+| [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-3) | SQL | Easy | — |
 | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
 | [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Medium | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
@@ -70,6 +217,7 @@
 | [Check for Duplicate within Range](https://trueinterview.io/questions/171ba77d-6489-4fad-8a63-72730222cf83) | Algorithm | Easy | — |
 | [Bipedal Dinosaur Speed Calculation](https://trueinterview.io/questions/12c1f8ea-f98e-401a-ba26-39ba0ee3a59e) | Algorithm | Medium | — |
 | [Round-Trip Minimum Price](https://trueinterview.io/questions/06966bea-c7df-4954-a767-3dc378714b6d) | Algorithm | Hard | — |
+| [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/questions/03c246e8-c1a4-47b1-b1bd-5c212e569288) | Blog | — | — |
 | [Write a Script to Monitor 'vmstat' Output](https://trueinterview.io/questions/0237fc06-24d7-4e05-97ce-e1b07257a2e8) | AI Coding | Medium | — |
 | [Fix an AI-generated query and address data quality issues](https://trueinterview.io/questions/01f555c7-1416-450a-9bff-c393859356bd) | AI Coding | Medium | — |
 | [Token Bucket Rate Limiter](https://trueinterview.io/questions/e7062e3a-a5ed-4e78-9bb3-93a71d1e4c34) | Object Oriented Programming | Medium | — |

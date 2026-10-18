@@ -2,7 +2,7 @@
 
 # Atlassian interview process, OA & interview questions
 
-**61 questions** reported at Atlassian · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
+**64 questions** reported at Atlassian · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Atlassian interviews & the free questions](atlassian/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,42 +14,43 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **61** |
+| Questions tracked | **64** |
 | Most recent sighting | Sep 04, 2026 |
-| Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (44% of 61) |
+| Reported in the last 90 days | 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (42% of 64) |
 | Difficulty (easy / medium / hard) | 17 / 38 / 6 |
-| Free to practise | [14](../free/README.md) |
+| Free to practise | [18](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 61 questions reported at Atlassian. 39 of them carry a sighting date; the other 22 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 64 questions reported at Atlassian. 41 of them carry a sighting date; the other 23 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **61 of 61** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **64 of 64** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 27 | ███████ | [Algorithm](../formats/algorithm.md) (59%) | 5 / 20 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 37 | ██████████ | [System Design](../formats/system-design.md) (46%) | 8 / 24 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 28 | ███████ | [Algorithm](../formats/algorithm.md) (57%) | 5 / 20 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 39 | ██████████ | [System Design](../formats/system-design.md) (44%) | 8 / 24 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Design Monitoring and Reliability for 99.99% Availability](https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability) | System Design | Hard | Onsite / virtual onsite | Sep 04, 2026 |
 | [Design a Music Player with Queue, Loop, and Shuffle](https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle) | Object Oriented Programming | Medium | Phone screen | Sep 03, 2026 |
 | [Design a Social-Media Comments and Notifications System](https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system) | System Design | Easy | Onsite / virtual onsite | Sep 03, 2026 |
+| [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) | Blog | — | Onsite / virtual onsite | Sep 03, 2026 |
 | [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Algorithm | Hard | Phone screen | Aug 26, 2026 |
 
 ## What they ask about
 
-Of the **28 questions at Atlassian that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **28 questions at Atlassian that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -72,10 +73,10 @@ Every recorded sighting at Atlassian, by the month it was reported in — Jul 03
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | ████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ████████████████ |
 | [Aug 2026](../by-month/2026-08.md) | 1 | ████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ████ |
-| [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 5 | ████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | ████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 6 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 4 | ████████████████ |
@@ -94,11 +95,11 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | **1** | [Design Monitoring and Reliability for 99.99% Availability](https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability) | System Design | Hard | — | Sep 04, 2026 |
 | **2** | [Design a Social-Media Comments and Notifications System](https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system) | System Design | Easy | — | Sep 03, 2026 |
 | **3** | [Design a Music Player with Queue, Loop, and Shuffle](https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle) | Object Oriented Programming | Medium | — | Sep 03, 2026 |
-| **4** | [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Algorithm | Hard | — | Aug 26, 2026 |
-| **5** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 13 | May 2026 |
-| **6** | [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Object Oriented Programming | Medium | — | Apr 21, 2026 |
-| **7** | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | System Design | Hard | — | Apr 21, 2026 |
-| **8** | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) 🆓 | System Design | Medium | 2 | Apr 02, 2026 |
+| **4** | [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) 🆓 | Blog | — | — | Sep 03, 2026 |
+| **5** | [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Algorithm | Hard | — | Aug 26, 2026 |
+| **6** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 13 | May 2026 |
+| **7** | [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Object Oriented Programming | Medium | — | Apr 21, 2026 |
+| **8** | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | System Design | Hard | — | Apr 21, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -123,12 +124,14 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Monitoring and Reliability for 99.99% Availability](https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability) | System Design | Hard | 🆕 Sep 04, 2026 |
+| [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) | Blog | — | 🆕 Sep 03, 2026 |
 | [Design a Social-Media Comments and Notifications System](https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system) | System Design | Easy | 🆕 Sep 03, 2026 |
 | [Design a Music Player with Queue, Loop, and Shuffle](https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle) | Object Oriented Programming | Medium | 🆕 Sep 03, 2026 |
 | [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Algorithm | Hard | Aug 26, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Object Oriented Programming | Medium | Apr 21, 2026 |
 | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | System Design | Hard | Apr 21, 2026 |
+| [Atlassian Values and Management Rounds](https://trueinterview.io/questions/atlassian-values-and-management-rounds) | Blog | — | Apr 21, 2026 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | System Design | Medium | Apr 02, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
@@ -161,6 +164,7 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Object Oriented Programming | Medium | Sep 12, 2025 |
 | [Minimize Shopping Department Visits](https://trueinterview.io/questions/shopping-category-trip-difference) | Algorithm | Easy | Jul 03, 2025 |
 | [Campground Carpool](https://trueinterview.io/questions/karat-carpool-linear-routes) | Algorithm | Medium | Jul 03, 2025 |
+| [Demonstrate motivation, feedback, and prioritization](https://trueinterview.io/questions/demonstrate-motivation-feedback-and-prioritization) | Blog | — | — |
 | [Rank each team’s top 3 scores in 2024](https://trueinterview.io/questions/rank-each-teams-top-3-scores-in-2024) | SQL | Medium | — |
 | [Label game performance by margin](https://trueinterview.io/questions/label-game-performance-by-margin) | Algorithm | Easy | — |
 | [Find 2023 NCAA championship winner](https://trueinterview.io/questions/find-2023-ncaa-championship-winner) | SQL | Medium | — |

@@ -8,7 +8,7 @@ How Imc interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [4](../imc.md) |
+| Questions reported | [10](../imc.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,22 @@ No written process guide yet. [The loop, as reported](../imc.md#the-loop-as-repo
 
 ## Free Imc questions
 
-2 questions reported at Imc open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Imc open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Demonstrate Self-Awareness and a Practical Mentoring Plan](https://trueinterview.io/questions/demonstrate-self-awareness-and-a-practical-mentoring-plan) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/demonstrate-self-awareness-and-a-practical-mentoring-plan) |
+| [Compute the Probability for Two Uniform Variables](https://trueinterview.io/questions/compute-the-probability-for-two-uniform-variables) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/compute-the-probability-for-two-uniform-variables) |
 | [Find k-th recipient in command propagation order](../../questions/algorithm/find-k-th-recipient-in-command-propagation-order/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/find-k-th-recipient-in-command-propagation-order) |
+| [Choose and Defend a Betting Strategy Under Uncertain Odds](https://trueinterview.io/questions/choose-and-defend-a-betting-strategy-under-uncertain-odds) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/choose-and-defend-a-betting-strategy-under-uncertain-odds) |
+| [Analyze Optimal Funding Allocations Across Election Districts](https://trueinterview.io/questions/analyze-optimal-funding-allocations-across-election-districts) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/analyze-optimal-funding-allocations-across-election-districts) |
+| [Explain a project to non-technical stakeholders](https://trueinterview.io/questions/explain-a-project-to-non-technical-stakeholders) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-a-project-to-non-technical-stakeholders) |
+| [Analyze time complexity and threading trade-offs](https://trueinterview.io/questions/analyze-time-complexity-and-threading-trade-offs) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/analyze-time-complexity-and-threading-trade-offs) |
 | [Choose container set to minimize waste](../../questions/algorithm/choose-container-set-to-minimize-waste/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/choose-container-set-to-minimize-waste) |
 
 ## Everything else
 
-- [All 4 questions reported at Imc](../imc.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 10 questions reported at Imc](../imc.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Imc question on TrueInterview](https://trueinterview.io/problems/company/imc).
 
 ---

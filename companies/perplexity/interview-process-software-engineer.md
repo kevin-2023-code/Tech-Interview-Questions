@@ -173,7 +173,7 @@ Here are some questions reported by recent candidates:
 
 - [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2)
 - [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md)
-- [Design Mint.com](https://trueinterview.io/questions/mint-com)
+- [Design Mint.com](../../questions/system-design/mint-com/README.md)
 - [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service)
 
 ## Hiring manager and founder interviews

@@ -2,7 +2,7 @@
 
 # Cisco interview process, OA & interview questions
 
-**26 questions** reported at Cisco · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cisco), judged server-side on the algorithm, low-level-design and SQL formats.
+**27 questions** reported at Cisco · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cisco), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Cisco interviews & the free questions](cisco/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,35 +14,39 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **26** |
-| Most recent sighting | Jun 16, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (96% of 26) |
+| Questions tracked | **27** |
+| Most recent sighting | Sep 17, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (93% of 27) |
 | Difficulty (easy / medium / hard) | 13 / 10 / 3 |
-| Free to practise | [17](../free/README.md) |
+| Free to practise | [18](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 26 questions reported at Cisco. 16 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 27 questions reported at Cisco. 17 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **26 of 26** questions at Cisco that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **27 of 27** questions at Cisco that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 13 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 5 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 8 | ████ | [Algorithm](../formats/algorithm.md) (88%) | 0 / 5 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Cisco since Jun 16, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | — | Phone screen | Sep 17, 2026 |
 
 ## What they ask about
 
-Of the **23 questions at Cisco that carry a topic label** (88% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **23 questions at Cisco that carry a topic label** (85% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -61,10 +65,11 @@ Of the **23 questions at Cisco that carry a topic label** (88% of them — the r
 
 ## When they asked it
 
-Every recorded sighting at Cisco, by the month it was reported in — Jul 17, 2025 to Jun 16, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Cisco, by the month it was reported in — Jul 17, 2025 to Sep 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ███ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
 | [May 2026](../by-month/2026-05.md) | 1 | ███ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
@@ -78,14 +83,14 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 3 | Jun 16, 2026 |
-| **2** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | 3 | May 2026 |
-| **3** | [House Robber Series](https://trueinterview.io/questions/house-robber-series) 🆓 | Algorithm | Medium | 4 | Nov 18, 2025 |
-| **4** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) 🆓 | Algorithm | Easy | 1 | Sep 29, 2025 |
-| **5** | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
-| **6** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
-| **7** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) 🆓 | Algorithm | Medium | — | Sep 06, 2025 |
-| **8** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) 🆓 | Algorithm | Easy | — | Sep 04, 2025 |
+| **1** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) 🆓 | Blog | — | — | Sep 17, 2026 |
+| **2** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 3 | Jun 16, 2026 |
+| **3** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | 3 | May 2026 |
+| **4** | [House Robber Series](https://trueinterview.io/questions/house-robber-series) 🆓 | Algorithm | Medium | 4 | Nov 18, 2025 |
+| **5** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) 🆓 | Algorithm | Easy | 1 | Sep 29, 2025 |
+| **6** | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
+| **7** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
+| **8** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) 🆓 | Algorithm | Medium | — | Sep 06, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -107,6 +112,7 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | — | 🆕 Sep 17, 2026 |
 | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Jun 16, 2026 |
 | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 2026 |
 | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Nov 18, 2025 |

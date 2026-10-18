@@ -2,7 +2,7 @@
 
 # Datadog interview process, OA & interview questions
 
-**27 questions** reported at Datadog · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/datadog), judged server-side on the algorithm, low-level-design and SQL formats.
+**28 questions** reported at Datadog · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/datadog), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Datadog interviews & the free questions](datadog/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,35 +14,39 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **27** |
-| Most recent sighting | Apr 10, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 27) |
+| Questions tracked | **28** |
+| Most recent sighting | Aug 17, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (64% of 28) |
 | Difficulty (easy / medium / hard) | 8 / 17 / 2 |
-| Free to practise | [4](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 27 questions reported at Datadog. 8 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 28 questions reported at Datadog. 9 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **27 of 27** questions at Datadog that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **28 of 28** questions at Datadog that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 7 | ████ | [Algorithm](../formats/algorithm.md) (86%) | 1 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 3 / 13 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 18 | ██████████ | [Algorithm](../formats/algorithm.md) (44%) | 3 / 13 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Datadog since Apr 10, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Prioritize Critical Findings in a High-Load Batch Processor Review](https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review) | Blog | — | Onsite / virtual onsite | Aug 17, 2026 |
 
 ## What they ask about
 
-Of the **16 questions at Datadog that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at Datadog that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -60,10 +64,11 @@ Of the **16 questions at Datadog that carry a topic label** (59% of them — the
 
 ## When they asked it
 
-Every recorded sighting at Datadog, by the month it was reported in — Jan 22, 2026 to Apr 10, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Datadog, by the month it was reported in — Jan 22, 2026 to Aug 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ██████ |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ██████ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | ████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 4 | ████████████████████████ |
@@ -75,14 +80,14 @@ The 8 questions to open first if you are preparing for Datadog, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Maximum Vacation With Minimum Flights](https://trueinterview.io/questions/maximum-vacation-with-minimum-flights) | Algorithm | Medium | — | Apr 10, 2026 |
-| **2** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 9 | Mar 23, 2026 |
-| **3** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 9 | Mar 06, 2026 |
-| **4** | [Implement Prefix Match Filter](https://trueinterview.io/questions/implement-prefix-match-filter) | Algorithm | Medium | — | Feb 25, 2026 |
-| **5** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | 2 | Feb 17, 2026 |
-| **6** | [Linear Interpolation of Missing Points](https://trueinterview.io/questions/linear-interpolation-of-missing-points) | Algorithm | Medium | — | Feb 17, 2026 |
-| **7** | [Design Youtube](https://trueinterview.io/questions/design-youtube) 🆓 | System Design | Medium | 7 | Feb 2026 |
-| **8** | [Design Instagram](https://trueinterview.io/questions/design-instagram) 🆓 | System Design | Medium | 6 | Jan 22, 2026 |
+| **1** | [Prioritize Critical Findings in a High-Load Batch Processor Review](https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review) 🆓 | Blog | — | — | Aug 17, 2026 |
+| **2** | [Maximum Vacation With Minimum Flights](https://trueinterview.io/questions/maximum-vacation-with-minimum-flights) | Algorithm | Medium | — | Apr 10, 2026 |
+| **3** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 9 | Mar 23, 2026 |
+| **4** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 9 | Mar 06, 2026 |
+| **5** | [Implement Prefix Match Filter](https://trueinterview.io/questions/implement-prefix-match-filter) | Algorithm | Medium | — | Feb 25, 2026 |
+| **6** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | 2 | Feb 17, 2026 |
+| **7** | [Linear Interpolation of Missing Points](https://trueinterview.io/questions/linear-interpolation-of-missing-points) | Algorithm | Medium | — | Feb 17, 2026 |
+| **8** | [Design Youtube](https://trueinterview.io/questions/design-youtube) 🆓 | System Design | Medium | 7 | Feb 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -104,6 +109,7 @@ The 8 questions to open first if you are preparing for Datadog, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Prioritize Critical Findings in a High-Load Batch Processor Review](https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review) | Blog | — | Aug 17, 2026 |
 | [Maximum Vacation With Minimum Flights](https://trueinterview.io/questions/maximum-vacation-with-minimum-flights) | Algorithm | Medium | Apr 10, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |

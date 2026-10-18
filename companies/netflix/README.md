@@ -8,7 +8,7 @@ How Netflix interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [88](../netflix.md) |
+| Questions reported | [104](../netflix.md) |
 | Free to read here | 12 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -49,26 +49,42 @@ Here's what the interview process can look like:
 
 ## Free Netflix questions
 
-12 questions reported at Netflix open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+28 questions reported at Netflix open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
+| [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds) |
 | [Contains Duplicate III](../../questions/algorithm/contains-duplicate-iii/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/contains-duplicate-iii) |
+| [Answer Netflix Culture Screen Questions](https://trueinterview.io/questions/answer-netflix-culture-screen-questions) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/answer-netflix-culture-screen-questions) |
 | [Design the Data Model for an Ads Demand Platform](../../questions/system-design/design-the-data-model-for-an-ads-demand-platform/README.md) | System Design | Medium | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) |
+| [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/questions/ml-research-orals) | Blog | — | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/ml-research-orals) |
 | [Tagged Command Undo](../../questions/object-oriented-programming/tagged-command-undo/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/tagged-command-undo) |
+| [Compare Losses and Explain LoRA](https://trueinterview.io/questions/compare-losses-and-explain-lora) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/compare-losses-and-explain-lora) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [First Missing Positive](../../questions/algorithm/first-missing-positive/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/first-missing-positive) |
+| [How do you give and receive feedback?](https://trueinterview.io/questions/how-do-you-give-and-receive-feedback) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/how-do-you-give-and-receive-feedback) |
+| [Estimate ATE of personalization on streaming](https://trueinterview.io/questions/estimate-ate-of-personalization-on-streaming) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/estimate-ate-of-personalization-on-streaming) |
+| [Compute ITT, TOT, and LATE with noncompliance](https://trueinterview.io/questions/compute-itt-tot-and-late-with-noncompliance) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/compute-itt-tot-and-late-with-noncompliance) |
+| [Answer core probability and statistics questions](https://trueinterview.io/questions/answer-core-probability-and-statistics-questions) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-core-probability-and-statistics-questions) |
 | [String to Integer (atoi)](../../questions/algorithm/string-to-integer-atoi/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/string-to-integer-atoi) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
+| [Demonstrate domain expertise and ramp-up ability](https://trueinterview.io/questions/demonstrate-domain-expertise-and-ramp-up-ability) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/demonstrate-domain-expertise-and-ramp-up-ability) |
+| [How would you support ML stakeholders?](https://trueinterview.io/questions/how-would-you-support-ml-stakeholders) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/how-would-you-support-ml-stakeholders) |
+| [Plan and analyze a ranking A/B test](https://trueinterview.io/questions/plan-and-analyze-a-ranking-a-b-test) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/plan-and-analyze-a-ranking-a-b-test) |
+| [Navigate conflicting signals and ambiguous expectations](https://trueinterview.io/questions/navigate-conflicting-signals-and-ambiguous-expectations) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/navigate-conflicting-signals-and-ambiguous-expectations) |
+| [Justify all-cash compensation expectations and trade-offs](https://trueinterview.io/questions/justify-all-cash-compensation-expectations-and-trade-offs) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/justify-all-cash-compensation-expectations-and-trade-offs) |
+| [Design and power a frequency-cap experiment](https://trueinterview.io/questions/design-and-power-a-frequency-cap-experiment) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-and-power-a-frequency-cap-experiment) |
+| [Demonstrate JD skills with quantified outcomes](https://trueinterview.io/questions/demonstrate-jd-skills-with-quantified-outcomes) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/demonstrate-jd-skills-with-quantified-outcomes) |
+| [Demonstrate handling dismissive stakeholders with candor](https://trueinterview.io/questions/demonstrate-handling-dismissive-stakeholders-with-candor) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/demonstrate-handling-dismissive-stakeholders-with-candor) |
 | [Sort Dictionary Keys](../../questions/algorithm/sort-dictionary-keys/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee) |
 | [Contains Duplicate II](../../questions/algorithm/contains-duplicate-ii/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/contains-duplicate-ii) |
 
 ## Everything else
 
-- [All 88 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 104 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Netflix question on TrueInterview](https://trueinterview.io/problems/company/netflix).
 
 ---

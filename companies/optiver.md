@@ -2,7 +2,7 @@
 
 # Optiver interview process, OA & interview questions
 
-**23 questions** reported at Optiver · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/optiver), judged server-side on the algorithm, low-level-design and SQL formats.
+**35 questions** reported at Optiver · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/optiver), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Optiver interviews & the free questions](optiver/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **23** |
+| Questions tracked | **35** |
 | Most recent sighting | Jun 15, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 23) |
+| Most common format | [Algorithm](../formats/algorithm.md) (37% of 35) |
 | Difficulty (easy / medium / hard) | 0 / 18 / 5 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [17](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 23 questions reported at Optiver. 19 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 35 questions reported at Optiver. 31 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **23 of 23** questions at Optiver that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **35 of 35** questions at Optiver that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 0 / 10 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 8 | ██████ | [Algorithm](../formats/algorithm.md) (62%) | 0 / 7 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ███ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
-| **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
+| **Online assessment** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (37%) | 0 / 10 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 11 | ██████ | [Algorithm](../formats/algorithm.md) (45%) | 0 / 7 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | ████ | [Blog](../formats/blog.md) (50%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Take-home** | 2 | █ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -43,7 +43,7 @@ Which stage each question came from, for the **23 of 23** questions at Optiver t
 
 ## What they ask about
 
-Of the **13 questions at Optiver that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Optiver that carry a topic label** (37% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -66,16 +66,17 @@ Every recorded sighting at Optiver, by the month it was reported in — Aug 05, 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ██████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ██████ |
-| [Apr 2026](../by-month/2026-04.md) | 2 | ████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 4 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
-| [Nov 2025](../by-month/2025-11.md) | 4 | ████████████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ██████ |
-| [Sep 2025](../by-month/2025-09.md) | 1 | ██████ |
-| [Aug 2025](../by-month/2025-08.md) | 2 | ████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
+| [May 2026](../by-month/2026-05.md) | 1 | ███ |
+| [Apr 2026](../by-month/2026-04.md) | 2 | ██████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ███ |
+| [Feb 2026](../by-month/2026-02.md) | 7 | █████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | █████████ |
+| [Dec 2025](../by-month/2025-12.md) | 3 | █████████ |
+| [Nov 2025](../by-month/2025-11.md) | 8 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
+| [Sep 2025](../by-month/2025-09.md) | 1 | ███ |
+| [Aug 2025](../by-month/2025-08.md) | 3 | █████████ |
 
 ## Start here
 
@@ -87,10 +88,10 @@ The 8 questions to open first if you are preparing for Optiver, ranked by **the 
 | **2** | [Thread-Safe Buy/Sell Without Overselling](https://trueinterview.io/questions/multithreaded-buy-sell-lock) | Object Oriented Programming | Medium | — | May 30, 2026 |
 | **3** | [Count Ordered Sequences That Sum to a Target](https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target) | Algorithm | Medium | — | Apr 28, 2026 |
 | **4** | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) 🆓 | Algorithm | Medium | 3 | Apr 14, 2026 |
-| **5** | [Target Stock Portfolio Operations](https://trueinterview.io/questions/target-stock-portfolio-operations) | Algorithm | Medium | — | Feb 06, 2026 |
-| **6** | [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost) | Algorithm | Hard | — | Feb 06, 2026 |
-| **7** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) 🆓 | Algorithm | Medium | 15 | Feb 04, 2026 |
-| **8** | [Implement a Level-Aware Expiring Inventory Store](https://trueinterview.io/questions/implement-a-level-aware-expiring-inventory-store) | Object Oriented Programming | Medium | — | Feb 03, 2026 |
+| **5** | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game) 🆓 | Blog | — | — | Mar 21, 2026 |
+| **6** | [Beat the Odds — Probability Test](https://trueinterview.io/questions/beat-the-odds-probability) 🆓 | Blog | — | — | Feb 16, 2026 |
+| **7** | [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test) 🆓 | Blog | — | — | Feb 16, 2026 |
+| **8** | [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/questions/number-logic-sequence) 🆓 | Blog | — | — | Feb 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -118,20 +119,32 @@ The 8 questions to open first if you are preparing for Optiver, ranked by **the 
 | [Thread-Safe Buy/Sell Without Overselling](https://trueinterview.io/questions/multithreaded-buy-sell-lock) | Object Oriented Programming | Medium | May 30, 2026 |
 | [Count Ordered Sequences That Sum to a Target](https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target) | Algorithm | Medium | Apr 28, 2026 |
 | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Apr 14, 2026 |
+| [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game) | Blog | — | Mar 21, 2026 |
+| [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/questions/number-logic-sequence) | Blog | — | Feb 16, 2026 |
+| [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test) | Blog | — | Feb 16, 2026 |
+| [Beat the Odds — Probability Test](https://trueinterview.io/questions/beat-the-odds-probability) | Blog | — | Feb 16, 2026 |
 | [Target Stock Portfolio Operations](https://trueinterview.io/questions/target-stock-portfolio-operations) | Algorithm | Medium | Feb 06, 2026 |
 | [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost) | Algorithm | Hard | Feb 06, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Implement a Level-Aware Expiring Inventory Store](https://trueinterview.io/questions/implement-a-level-aware-expiring-inventory-store) | Object Oriented Programming | Medium | Feb 03, 2026 |
 | [Schedule Orders onto Planes](https://trueinterview.io/questions/opticargo-flight-scheduling) | AI Coding | Medium | Jan 22, 2026 |
 | [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design) | Object Oriented Programming | Medium | Jan 16, 2026 |
+| [QR Take-Home Data Project & Presentation](https://trueinterview.io/questions/qr-take-home-data-project) | Blog | — | Jan 12, 2026 |
 | [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design) | System Design | Hard | Dec 13, 2025 |
+| [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen) | Blog | — | Dec 13, 2025 |
+| [Answer why SWE and why Optiver](https://trueinterview.io/questions/answer-why-swe-and-why-optiver) | Blog | — | Dec 05, 2025 |
 | [Implement a News Publishing System with Topic Subscriptions and Delivery Limits](https://trueinterview.io/questions/implement-a-news-publishing-system-with-topic-subscriptions-and-delivery-limits) | Object Oriented Programming | Medium | Nov 25, 2025 |
+| [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes) | Blog | — | Nov 19, 2025 |
 | [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching) | Algorithm | Medium | Nov 18, 2025 |
+| [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games) | Blog | — | Nov 17, 2025 |
+| [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/questions/coding-knowledge-test) | Blog | — | Nov 17, 2025 |
 | [News Aggregation / Subscription System](https://trueinterview.io/questions/news-subscription-system) | Object Oriented Programming | Medium | Nov 17, 2025 |
+| [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/questions/qr-technical-brainteasers) | Blog | — | Nov 14, 2025 |
 | [Stock Transaction Sequence Counting (Catalan / DP)](https://trueinterview.io/questions/stock-transaction-counting) | Algorithm | Medium | Nov 03, 2025 |
 | [Design Squirrel Nut Tracker](https://trueinterview.io/questions/squirrel-nut-storage) | Object Oriented Programming | Medium | Oct 07, 2025 |
 | [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation) | Object Oriented Programming | Medium | Sep 09, 2025 |
 | [Currency Arbitrage Detection](https://trueinterview.io/questions/currency-arbitrage-detection) | Algorithm | Hard | Aug 26, 2025 |
+| [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game) | Blog | — | Aug 06, 2025 |
 | [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | Object Oriented Programming | Medium | Aug 05, 2025 |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Days Between Dates (Days Between 3.0 V2)](https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6) | Algorithm | Medium | — |

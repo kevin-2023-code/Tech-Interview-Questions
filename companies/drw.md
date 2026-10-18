@@ -2,7 +2,7 @@
 
 # Drw interview process, OA & interview questions
 
-**3 questions** reported at Drw. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/drw), judged server-side.
+**10 questions** reported at Drw. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/drw), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Drw interviews & the free questions](drw/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,33 +14,43 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **3** |
-| Most recent sighting | Oct 08, 2025 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 3) |
+| Questions tracked | **10** |
+| Most recent sighting | Sep 13, 2026 |
+| Reported in the last 90 days | 6 |
+| Most common format | [Blog](../formats/blog.md) (70% of 10) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 2 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 3 questions reported at Drw. 3 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 10 questions reported at Drw. 10 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **3 of 3** questions at Drw that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **10 of 10** questions at Drw that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 4 | ███████ | [Algorithm](../formats/algorithm.md) (75%) | 0 / 1 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Onsite / virtual onsite** | 6 | ██████████ | [Blog](../formats/blog.md) (100%) | — | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Drw since Oct 08, 2025.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**6 sightings** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | Blog | — | Onsite / virtual onsite | Sep 13, 2026 |
+| [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | Blog | — | Onsite / virtual onsite | Sep 13, 2026 |
+| [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | Blog | — | Onsite / virtual onsite | Sep 13, 2026 |
+| [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | Blog | — | Onsite / virtual onsite | Sep 13, 2026 |
+| [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | Blog | — | Onsite / virtual onsite | Sep 13, 2026 |
+| [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | Blog | — | Onsite / virtual onsite | Sep 13, 2026 |
 
 ## What they ask about
 
-Of the **3 questions at Drw that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Drw that carry a topic label** (30% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -51,21 +61,28 @@ Of the **3 questions at Drw that carry a topic label** (100% of them — the res
 
 ## When they asked it
 
-Every recorded sighting at Drw, by the month it was reported in — Oct 08, 2025 to Oct 08, 2025. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Drw, by the month it was reported in — Oct 08, 2025 to Sep 13, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Oct 2025](../by-month/2025-10.md) | 3 | ████████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 6 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ████ |
+| [Oct 2025](../by-month/2025-10.md) | 3 | ████████████ |
 
 ## Start here
 
-The 3 questions to open first if you are preparing for Drw, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Drw, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Knockout Tournament Match Counts](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts) 🆓 | Algorithm | Medium | — | Oct 08, 2025 |
-| **2** | [Solve Three Algorithmic Problems](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems) 🆓 | Algorithm | Hard | — | Oct 08, 2025 |
-| **3** | [Robot Path Planning](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-robot-path-planning) | Algorithm | Hard | — | Oct 08, 2025 |
+| **1** | [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **2** | [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **3** | [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **4** | [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **5** | [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **6** | [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) 🆓 | Blog | — | — | Sep 13, 2026 |
+| **7** | [Compute expected arc length on a circle](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) 🆓 | Blog | — | — | Nov 22, 2025 |
+| **8** | [Knockout Tournament Match Counts](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts) 🆓 | Algorithm | Medium | — | Oct 08, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -79,6 +96,13 @@ The 3 questions to open first if you are preparing for Drw, ranked by **the most
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | Blog | — | 🆕 Sep 13, 2026 |
+| [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | Blog | — | 🆕 Sep 13, 2026 |
+| [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | Blog | — | 🆕 Sep 13, 2026 |
+| [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | Blog | — | 🆕 Sep 13, 2026 |
+| [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | Blog | — | 🆕 Sep 13, 2026 |
+| [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | Blog | — | 🆕 Sep 13, 2026 |
+| [Compute expected arc length on a circle](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) | Blog | — | Nov 22, 2025 |
 | [Robot Path Planning](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-robot-path-planning) | Algorithm | Hard | Oct 08, 2025 |
 | [Knockout Tournament Match Counts](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts) | Algorithm | Medium | Oct 08, 2025 |
 | [Solve Three Algorithmic Problems](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems) | Algorithm | Hard | Oct 08, 2025 |

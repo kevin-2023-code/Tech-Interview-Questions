@@ -2,36 +2,36 @@
 
 # Trends by month
 
-Counted over the **2,535 questions that carry a sighting date**. The other 1,698 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
+Counted over the **3,393 questions that carry a sighting date**. The other 2,243 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
 
 [← Insights](README.md) · [← Every month](../by-month/README.md)
 
-| Month | Sightings | Companies | AI Coding | Algorithm | Object Oriented Programming | SQL | System Design |  |
-| :-- | --: | --: | --: | --: | --: | --: | --: | :-- |
-| [Oct 2026](../by-month/2026-10.md) | 19 | 14 | 1 | 14 | 3 | 0 | 1 | █ |
-| [Sep 2026](../by-month/2026-09.md) | 184 | 50 | 0 | 82 | 30 | 6 | 66 | █████████ |
-| [Aug 2026](../by-month/2026-08.md) | 218 | 58 | 1 | 105 | 34 | 8 | 70 | ███████████ |
-| [Jul 2026](../by-month/2026-07.md) | 98 | 36 | 2 | 50 | 8 | 25 | 13 | █████ |
-| [Jun 2026](../by-month/2026-06.md) | 202 | 55 | 12 | 115 | 39 | 1 | 35 | ██████████ |
-| [May 2026](../by-month/2026-05.md) | 227 | 58 | 10 | 116 | 41 | 22 | 38 | ███████████ |
-| [Apr 2026](../by-month/2026-04.md) | 331 | 76 | 7 | 179 | 48 | 7 | 90 | ████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 203 | 62 | 5 | 122 | 21 | 11 | 44 | ██████████ |
-| [Feb 2026](../by-month/2026-02.md) | 237 | 70 | 6 | 129 | 40 | 6 | 56 | ███████████ |
-| [Jan 2026](../by-month/2026-01.md) | 258 | 68 | 2 | 144 | 44 | 8 | 60 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 156 | 55 | 4 | 92 | 15 | 8 | 37 | ████████ |
-| [Nov 2025](../by-month/2025-11.md) | 158 | 59 | 3 | 89 | 30 | 9 | 27 | ████████ |
-| [Oct 2025](../by-month/2025-10.md) | 113 | 51 | 4 | 60 | 20 | 7 | 22 | █████ |
-| [Sep 2025](../by-month/2025-09.md) | 39 | 17 | 0 | 31 | 7 | 0 | 1 | ██ |
-| [Aug 2025](../by-month/2025-08.md) | 23 | 14 | 1 | 16 | 6 | 0 | 0 | █ |
-| [Jul 2025](../by-month/2025-07.md) | 27 | 16 | 0 | 22 | 5 | 0 | 0 | █ |
-| [Jun 2025](../by-month/2025-06.md) | 10 | 12 | 1 | 6 | 1 | 0 | 2 | █ |
-| [May 2025](../by-month/2025-05.md) | 4 | 2 | 0 | 3 | 1 | 0 | 0 | █ |
-| [Apr 2025](../by-month/2025-04.md) | 10 | 5 | 0 | 10 | 0 | 0 | 0 | █ |
-| [Jan 2025](../by-month/2025-01.md) | 2 | 1 | 0 | 0 | 1 | 0 | 1 | █ |
-| [Dec 2024](../by-month/2024-12.md) | 2 | 2 | 1 | 1 | 0 | 0 | 0 | █ |
-| [Nov 2024](../by-month/2024-11.md) | 4 | 2 | 0 | 4 | 0 | 0 | 0 | █ |
-| [Oct 2024](../by-month/2024-10.md) | 9 | 3 | 0 | 9 | 0 | 0 | 0 | █ |
-| [May 2024](../by-month/2024-05.md) | 1 | 1 | 0 | 0 | 0 | 0 | 1 | █ |
+| Month | Sightings | Companies | AI Coding | Algorithm | Blog | Object Oriented Programming | SQL | System Design |  |
+| :-- | --: | --: | --: | --: | --: | --: | --: | --: | :-- |
+| [Oct 2026](../by-month/2026-10.md) | 19 | 14 | 1 | 14 | 0 | 3 | 0 | 1 | █ |
+| [Sep 2026](../by-month/2026-09.md) | 308 | 62 | 0 | 82 | 124 | 30 | 6 | 66 | ████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 295 | 62 | 1 | 105 | 77 | 34 | 8 | 70 | ████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 115 | 39 | 2 | 50 | 17 | 8 | 25 | 13 | █████ |
+| [Jun 2026](../by-month/2026-06.md) | 243 | 57 | 12 | 115 | 41 | 39 | 1 | 35 | ██████████ |
+| [May 2026](../by-month/2026-05.md) | 257 | 58 | 10 | 116 | 30 | 41 | 22 | 38 | ██████████ |
+| [Apr 2026](../by-month/2026-04.md) | 401 | 79 | 7 | 179 | 70 | 48 | 7 | 90 | ████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 277 | 68 | 5 | 122 | 74 | 21 | 11 | 44 | ███████████ |
+| [Feb 2026](../by-month/2026-02.md) | 330 | 74 | 6 | 129 | 93 | 40 | 6 | 56 | █████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 387 | 75 | 2 | 144 | 129 | 44 | 8 | 60 | ███████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 221 | 62 | 4 | 92 | 65 | 15 | 8 | 37 | █████████ |
+| [Nov 2025](../by-month/2025-11.md) | 218 | 67 | 3 | 89 | 60 | 30 | 9 | 27 | █████████ |
+| [Oct 2025](../by-month/2025-10.md) | 183 | 61 | 4 | 60 | 70 | 20 | 7 | 22 | ███████ |
+| [Sep 2025](../by-month/2025-09.md) | 40 | 17 | 0 | 31 | 1 | 7 | 0 | 1 | ██ |
+| [Aug 2025](../by-month/2025-08.md) | 24 | 14 | 1 | 16 | 1 | 6 | 0 | 0 | █ |
+| [Jul 2025](../by-month/2025-07.md) | 28 | 17 | 0 | 22 | 1 | 5 | 0 | 0 | █ |
+| [Jun 2025](../by-month/2025-06.md) | 11 | 12 | 1 | 6 | 1 | 1 | 0 | 2 | █ |
+| [May 2025](../by-month/2025-05.md) | 5 | 3 | 0 | 3 | 1 | 1 | 0 | 0 | █ |
+| [Apr 2025](../by-month/2025-04.md) | 10 | 5 | 0 | 10 | 0 | 0 | 0 | 0 | █ |
+| [Feb 2025](../by-month/2025-02.md) | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | █ |
+| [Jan 2025](../by-month/2025-01.md) | 2 | 1 | 0 | 0 | 0 | 1 | 0 | 1 | █ |
+| [Dec 2024](../by-month/2024-12.md) | 3 | 3 | 1 | 1 | 1 | 0 | 0 | 0 | █ |
+| [Nov 2024](../by-month/2024-11.md) | 5 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | █ |
+| [Oct 2024](../by-month/2024-10.md) | 9 | 3 | 0 | 9 | 0 | 0 | 0 | 0 | █ |
 
 ## First seen
 
@@ -42,21 +42,20 @@ The month a company's earliest recorded sighting falls in. A company appearing h
 | [Sep 2026](../by-month/2026-09.md) | AMD, Houzz, Nclusion, Siemens |
 | [Aug 2026](../by-month/2026-08.md) | Indeed, Sig |
 | [May 2026](../by-month/2026-05.md) | Block, Brex |
-| [Apr 2026](../by-month/2026-04.md) | Cohere, Faire, GEICO, Mercor, Mistral AI, Tradedesk |
-| [Mar 2026](../by-month/2026-03.md) | Bobyard, Gusto, Palantir |
-| [Feb 2026](../by-month/2026-02.md) | Arista, Cursor, Harvey, Lead Bank, Pinduoduo, Render, Scale AI, Stubhub, Together AI, Wayfair |
-| [Jan 2026](../by-month/2026-01.md) | Asana, Boston Consulting Group, Circle, Datadog, Dropbox, Luma AI, Tubi, Verkada, Whatnot |
-| [Dec 2025](../by-month/2025-12.md) | Applied Intuition, HubSpot, Moveworks, Netflix, NVIDIA, Rokt, xAI |
-| [Nov 2025](../by-month/2025-11.md) | Airtable, Airwallex, Axon, C3 AI, Capital One, Disney, Expedia, Glean, Nuro, Okta, Squarepoint, Upstart, Ziphq |
-| [Oct 2025](../by-month/2025-10.md) | Affirm, Amplitude, Anthropic, Apple, Bitkernel, Bloomberg, Confluent, Cvs Health, Discord, Drw, Hudson River Trading, Imc, Jane Street, Lyft, Microsoft AI, PayPal, Point72, Rippling, Salesforce, Snapchat, Square, Stripe, Two Sigma, WeRide |
+| [Apr 2026](../by-month/2026-04.md) | Cohere, Faire, Mistral AI, Tradedesk |
+| [Mar 2026](../by-month/2026-03.md) | Bobyard, GEICO |
+| [Feb 2026](../by-month/2026-02.md) | Cursor, Harvey, Lead Bank, Render, Scale AI, Stubhub, Together AI, Wayfair |
+| [Jan 2026](../by-month/2026-01.md) | Asana, Circle, Datadog, Luma AI, Mercor, MongoDB, Palantir, Pinduoduo, Tubi, Verkada, Whatnot |
+| [Dec 2025](../by-month/2025-12.md) | Applied Intuition, Boston Consulting Group, HubSpot, Moveworks, Netflix, NVIDIA, Rokt |
+| [Nov 2025](../by-month/2025-11.md) | Axon, C3 AI, Capital One, Disney, Glean, Gusto, Nuro, Okta, Squarepoint, xAI, Ziphq |
+| [Oct 2025](../by-month/2025-10.md) | Affirm, Airtable, Airwallex, Amplitude, Anthropic, Apple, Arista, Bitkernel, Bloomberg, Confluent, Cvs Health, Discord, Dropbox, Drw, Expedia, Hudson River Trading, Imc, Jane Street, Lyft, Microsoft AI, Millennium, Onemain Financial, PayPal, Point72, Rippling, Salesforce, Snapchat, Square, Stripe, Two Sigma, Upstart, WeRide |
 | [Sep 2025](../by-month/2025-09.md) | Airbnb, Intuit, Roblox, Waymo |
-| [Aug 2025](../by-month/2025-08.md) | Akuna Capital, Amazon, DoorDash, LinkedIn, Optiver, Perplexity |
-| [Jul 2025](../by-month/2025-07.md) | Atlassian, Cisco, Coinbase, IBM, Instacart, Reddit, Snowflake, Tesla, Uber, Walmart Labs |
+| [Aug 2025](../by-month/2025-08.md) | Akuna Capital, Amazon, DoorDash, LinkedIn, Optiver |
+| [Jul 2025](../by-month/2025-07.md) | Atlassian, Cisco, Coinbase, IBM, Instacart, Perplexity, Snowflake, Tesla, Uber, Walmart Labs |
 | [Jun 2025](../by-month/2025-06.md) | Databricks, Google, JPMorgan, Meta, OpenAI, Shopify, SoFi |
-| [May 2025](../by-month/2025-05.md) | ByteDance, Pinterest |
+| [May 2025](../by-month/2025-05.md) | ByteDance, Pinterest, Reddit |
 | [Apr 2025](../by-month/2025-04.md) | Ebay, Ramp, Robinhood, Yelp |
 | [Jan 2025](../by-month/2025-01.md) | Oracle |
 | [Dec 2024](../by-month/2024-12.md) | Vanta |
 | [Nov 2024](../by-month/2024-11.md) | Microsoft |
 | [Oct 2024](../by-month/2024-10.md) | Citadel, Goldman Sachs, Voleon |
-| [May 2024](../by-month/2024-05.md) | Figma |

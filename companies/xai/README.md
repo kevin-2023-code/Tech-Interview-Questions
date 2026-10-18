@@ -8,7 +8,7 @@ How xAI interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [39](../xai.md) |
+| Questions reported | [43](../xai.md) |
 | Free to read here | 5 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -49,19 +49,23 @@ Here's what the interview process can look like:
 
 ## Free xAI questions
 
-5 questions reported at xAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at xAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/most-challenging-project-why-xai) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Data Parallel & FSDP Matrix Multiplication](../../questions/ai-coding/data-parallel-fsdp-matrix-multiplication/README.md) | AI Coding | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Nested Structure Flatten and Unflatten](../../questions/algorithm/nested-structure-flatten-and-unflatten/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) |
+| [Answer technical-challenge and motivation questions](https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions) | Blog | — | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions) |
+| [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/process-vs-thread-verbal) |
+| [How Would You Prevent Hallucinations in an LLM-Based System?](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system) |
 
 ## Everything else
 
-- [All 39 questions reported at xAI](../xai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 43 questions reported at xAI](../xai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every xAI question on TrueInterview](https://trueinterview.io/problems/company/xai).
 
 ---

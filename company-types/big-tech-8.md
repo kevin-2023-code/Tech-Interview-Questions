@@ -2,263 +2,263 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,155 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,860 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
-<sub>[← Page 7](big-tech-7.md) · Page 8 of 9 · [Page 9 →](big-tech-9.md)</sub>
+<sub>[← Page 7](big-tech-7.md) · Page 8 of 12 · [Page 9 →](big-tech-9.md)</sub>
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Expedia** | [Restore String with Target Digit Sum](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f) | Medium | — |
-| **Expedia** | [Implement a Basic Tokenizer and Train a Simple LLM-like Model in a Notebook Case Study](https://trueinterview.io/questions/3fce3482-1d0c-4a6c-b134-e4ac6a07601b) | Medium | — |
-| **Expedia** | [Count Strongly Connected Components Using Kosaraju's Algorithm](https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6) | Medium | — |
-| **Expedia** | [Beautiful Towers II](https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9) | Hard | — |
-| **Expedia** | [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0) | Medium | — |
-| **Expedia** | [Counting Subsequence with Same Character Frequency](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c) | Hard | — |
-| **Ebay** | [Maximum Length Balanced Subarray (Equal Sum Halves)](https://trueinterview.io/questions/f588f532-09ac-4651-97ca-e680fb0b1c3b) | Medium | — |
-| **Ebay** | [Find Pattern Matching Words](https://trueinterview.io/questions/d680cb59-9cef-5307-9b68-cd74bc912b09) | Hard | — |
-| **Ebay** | [Balloon Explosion](https://trueinterview.io/questions/bec1bae5-6bc3-4a83-8430-077c684da76c) | Hard | — |
-| **Ebay** | [Chinese Chess Horse Reachability with Blocked Legs](https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b) | Medium | — |
-| **Ebay** | [Find the K Smallest Elements from Multiple Sorted Arrays](https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4) | Medium | — |
-| **Amazon** | [Online Review Content Moderation](https://trueinterview.io/questions/3788662e-d4fb-58b3-944f-0d17e11dcc48) | Medium | — |
-| **Amazon** | [Debug a Movie DB Watchlist Full-Stack Project](https://trueinterview.io/questions/01d139bb-66c2-5317-b9ee-d6817b67e4a5) | Medium | — |
-| **NVIDIA** | [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | Hard | — |
-| **Meta** | [Implement a ReAct-style Agent Loop with Given APIs](https://trueinterview.io/questions/a81a953d-0af2-4e47-85bd-a1243047e6d9) | Hard | — |
-| **Atlassian** | [File Directory Tree UI with Expand/Collapse Functionality](https://trueinterview.io/questions/0e93c101-4680-4bdd-9fc6-779898a9e6ae) | Easy | — |
-| **Amazon** | [Memory Size Calculation for DDN Model Structure](https://trueinterview.io/questions/38d0f1cd-7a43-453d-a61a-07bfe73aeffd) | Easy | — |
-| **Amazon** | [Machine Learning Coding: Reproduce a New Paper Experiment](https://trueinterview.io/questions/36bbfdc3-e117-4a78-bcb0-1e89dae78b5d) | Hard | — |
-| **Meta / Amazon** | [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb) | Medium | — |
-| **DoorDash** | [Dasher Pay](https://trueinterview.io/questions/054aef30-72eb-5371-97a8-c65988e21e4f) | Hard | — |
-| **Waymo / Uber** | [Minimum Number of Refueling Stops](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) | Medium | — |
-| **Pinterest / LinkedIn** | [Split Array Largest Sum](https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f) | Medium | — |
-| **Oracle** | [Missing Number](https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80) | Easy | — |
-| **Microsoft** | [Shortest Path in a Grid with at Most K Cells per Move](https://trueinterview.io/questions/0acfe24d-4391-53e8-bebd-f31d970fbe3a) | Medium | — |
-| **Meta** | [Parse System Metrics and Warn on Threshold Breaches](https://trueinterview.io/questions/7cb3cfba-be69-52a2-bb54-8ffac2c723c4) | Easy | — |
-| **Meta / Netflix** | [Timed Cache / Expiring Key-Value Cache](https://trueinterview.io/questions/0259cb6a-dad1-597f-9f83-2b825ffde92f) | Medium | — |
-| **Google** | [Count Nested Key Pairs and Return Most Frequent Inner Key](https://trueinterview.io/questions/00e2c5ae-3af2-5102-9b0f-51fefca7e047) | Medium | — |
-| **DoorDash** | [Refund Decision Tree Evaluation](https://trueinterview.io/questions/541ffb96-2770-590b-b5b6-0df02380d374) | Medium | — |
-| **ByteDance** | [Minimum Jumps to Reach Home](https://trueinterview.io/questions/cf9a9de0-1885-53cf-a041-0c7ad83b8b83) | Hard | — |
-| **ByteDance / Expedia** | [Count Number of Nice Subarrays](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19) | Medium | — |
-| **ByteDance** | [Reverse the Order of k-Groups in a Linked List](https://trueinterview.io/questions/696ce95e-fd57-5869-a38c-d7a4db538696) | Medium | — |
-| **ByteDance** | [Maximum Candies Allocated to K Children](https://trueinterview.io/questions/399fbb4a-5f57-5d2c-bf6b-ead8141c2dd9) | Medium | — |
-| **ByteDance** | [Count of Interesting Subarrays](https://trueinterview.io/questions/183844b9-53d4-5fd4-b729-237e53de7f2a) | Medium | — |
-| **Amazon** | [Minimize the Maximum Distance to a 1 After Flipping One 0](https://trueinterview.io/questions/87ea5950-a7ad-5eaa-a122-6665f8801e66) | Hard | — |
-| **Amazon** | [Maximum Sum of Fixed-Length Subarray in a Sparse Interval Array](https://trueinterview.io/questions/8011d1ba-a46f-5960-8407-a19423943d4c) | Hard | — |
-| **ByteDance / Amazon / Microsoft** | [Number of Islands and Island Perimeter](https://trueinterview.io/questions/73ad9595-8e31-53b1-b6fa-e87b2565ff10) | Medium | — |
-| **ByteDance** | [Reverse Linked List in Groups of K Including the Last Partial Group](https://trueinterview.io/questions/350eb5bb-42fe-5d74-a546-13518c969355) | Medium | — |
-| **Microsoft** | [CUDA Vibe Coding: Implement or Optimize a CUDA Kernel](https://trueinterview.io/questions/8eb54136-fc2f-4f32-b89d-b97c5fbf9e38) | Hard | — |
-| **Meta** | [Recommendation System Design](https://trueinterview.io/questions/7041135a-e932-4cd2-99d6-02ff8d199174) | Hard | — |
-| **Intuit** | [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769) | Medium | — |
-| **Anthropic / Affirm / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
-| **Meta** | [Get Minimum Round Trip Cost](https://trueinterview.io/questions/fcc5bf9c-4c30-4e73-9e37-d5c8d3d76218) | Easy | — |
-| **Cisco** | [Find Largest Sum Contiguous Subarray](https://trueinterview.io/questions/f29c0c29-2a76-42d9-9ece-3eeaa42c017b) | Easy | — |
-| **Microsoft** | [DNA Sequence Concatenation](https://trueinterview.io/questions/edb32bbd-b688-4323-9145-8935dfef9893) | Hard | — |
-| **Google** | [Minimum Cars to Satisfy Rental Requests + Assignment Records](https://trueinterview.io/questions/e44dda44-9b47-453a-9c31-9c5b589b348f) | Medium | — |
-| **Google / LinkedIn** | [Meeting Rooms II](https://trueinterview.io/questions/ddc8534d-46e9-4b02-abec-60d33c956280) | Medium | — |
-| **DoorDash** | [Adjust Prices](https://trueinterview.io/questions/3e5b7ff1-ae9e-4b12-bb30-53665b60e66f) | Hard | — |
-| **Meta** | [Simplify Absolute Unix File Path with Current Directory](https://trueinterview.io/questions/db364690-0052-4d96-b03d-647b30e84110) | Medium | — |
-| **Cisco** | [Count Numbers with Sum of Digits](https://trueinterview.io/questions/c17c4233-5a37-452b-933f-4a3994c7295f) | Easy | — |
-| **Amazon** | [Word Search with Multi-Word Follow-up](https://trueinterview.io/questions/885fe007-aa27-5ae8-a5a4-adfb66816483) | Hard | — |
-| **DoorDash / Amazon** | [Minimum Replacements to Make Two Strings Anagrams](https://trueinterview.io/questions/ab4d715c-a45e-4d9d-bff9-8fe14a380cbf) | Medium | — |
-| **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
-| **Meta** | [Mouse and Cheese](https://trueinterview.io/questions/a960bd9c-a967-4226-8ce4-63f20024cb31) | Medium | — |
-| **Meta** | [Validate Word Abbreviation With Numeric Substrings](https://trueinterview.io/questions/a4c89deb-7388-4d5c-a0c9-776a23ed31aa) | Medium | — |
-| **Meta** | [Random City Name Output Based on Population](https://trueinterview.io/questions/5aaff290-a986-4847-85a6-09a67567c4ef) | Easy | — |
-| **Atlassian** | [Trending (Moving) Average on Integer Stream](https://trueinterview.io/questions/80ba1fe6-a6cd-4143-b4d5-c0b0744e4dea) | Medium | — |
-| **Amazon** | [Find All Distinct Pairs of Stocks](https://trueinterview.io/questions/0f41501f-5cbf-4b7a-911f-a47ed3c3c7e2) | Medium | — |
-| **Meta** | [Merge Three or N Sorted Lists Efficiently and Analyze Complexity](https://trueinterview.io/questions/4becbb35-63a3-4da1-8235-afd0a9bba30d) | Easy | — |
-| **DoorDash** | [Debugging a Load Balancer Implementation and Add Round-Robin Routing](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076) | Medium | — |
-| **Meta / DoorDash** | [Find Peak Element](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) | Medium | — |
-| **Meta** | [Sum of BST Nodes Within Given Range](https://trueinterview.io/questions/08d3c6cb-aa6e-4d12-9236-73bfdf07ff60) | Easy | — |
-| **Walmart Labs** | [Poisonous Plants (Monotonic Stack)](https://trueinterview.io/questions/d9a75f75-3072-4976-9253-e2e13522a51a) | Medium | — |
-| **Walmart Labs** | [3Sum (No Duplicate Triplets Assumed)](https://trueinterview.io/questions/8fc7c24f-4bbb-435d-9d6a-c35a8c021037) | Medium | — |
-| **Walmart Labs / Amazon** | [Find the First Corrupted Character](https://trueinterview.io/questions/8593ff20-396d-44a7-9fb2-21c5eee2d0e1) | Easy | — |
-| **Walmart Labs** | [Design System for Downstream Data Retrieval](https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8) | Medium | — |
-| **Walmart Labs** | [Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)](https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217) | Medium | — |
-| **Two Sigma / Microsoft** | [Stock Max Profit (Single or Multiple Transactions)](https://trueinterview.io/questions/7b157f40-79a0-48dd-a935-b4e27d6a6d0a) | Easy | — |
-| **Tesla / Google** | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Medium | — |
-| **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
-| **Snapchat / Amazon / ByteDance / Meta / Microsoft** | [Top K Frequent Elements in Integer Array Efficiently](https://trueinterview.io/questions/cd77d63e-ea70-4485-a616-90bf6c1fc5c0) | Medium | — |
-| **Snapchat / Uber** | [K Closest Points to Origin (N log K)](https://trueinterview.io/questions/99a55d10-3af0-49e2-91c4-d24bbfec7bb5) | Medium | — |
-| **Pinterest / Meta** | [Escape Room (Shortest Escape Path in a Room Grid)](https://trueinterview.io/questions/4837fbb0-c247-450e-9607-1c9a42be781c) | Hard | — |
-| **Oracle / Ebay / NVIDIA** | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Medium | — |
-| **Oracle / Uber** | [Insert Intervals with Set](https://trueinterview.io/questions/c7b0a764-6082-4594-b239-e18448718a1c) | Medium | — |
-| **Oracle / LinkedIn** | [Find Users with Valid Login Sessions](https://trueinterview.io/questions/a780c95b-69ec-4029-b04a-55101695e5d1) | Medium | — |
-| **Oracle** | [List All LRU Cache Possibilities](https://trueinterview.io/questions/8783a1ff-f1f9-404a-b4d1-d006ae36d2a1) | Medium | — |
-| **Oracle / ByteDance** | [Maximum Product Subarray in O(n) Time](https://trueinterview.io/questions/7b99193e-c69f-4941-a0be-8ccf49a291c8) | Medium | — |
-| **NVIDIA** | [Minimum Sum After K Operations](https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2) | Medium | — |
-| **NVIDIA** | [Tree Planting on a Grid (no adjacent trees)](https://trueinterview.io/questions/bd352d63-afa7-4443-b0fa-3b3dfcb9948a) | Hard | — |
-| **NVIDIA** | [Compress and Decompress String (Excel-like Encoding)](https://trueinterview.io/questions/855bd20f-2c9a-4217-822e-2130419c0b5f) | Medium | — |
-| **NVIDIA** | [Log Parser for Top N Items](https://trueinterview.io/questions/7c107386-3c24-4acd-9385-b7d274fca67b) | Easy | — |
-| **NVIDIA** | [SQL Aggregation Across Country/State/City/Zip Tables](https://trueinterview.io/questions/53506fd0-9b04-40be-a6f6-eb349d9f220a) | Easy | — |
-| **NVIDIA** | [Python Data Processing Task (Parse, Aggregate, and Validate)](https://trueinterview.io/questions/3a714999-40ed-4da6-b12f-d0addf376068) | Easy | — |
-| **Microsoft / ByteDance** | [Reverse a Linked List](https://trueinterview.io/questions/e65902ca-ab54-4dcc-a633-e1d3b54d718c) | Easy | — |
-| **Microsoft** | [Find the Maximum Length of Subarray with Sum Less Than Target](https://trueinterview.io/questions/d79ccd99-253b-4c50-af8b-1721844580a0) | Medium | — |
-| **Microsoft** | [Processing Service Logs for Error Detection and Reporting](https://trueinterview.io/questions/d179f051-5594-4883-b756-5c65264930c3) | Easy | — |
-| **Microsoft** | [LLM Training Dataset Quality Check for Excel Copilot Tasks](https://trueinterview.io/questions/cca976aa-f821-4b1f-ba1a-44dafd0b7d8d) | Hard | — |
-| **Microsoft** | [Implement a SQL-like WHERE filter for in-memory rows](https://trueinterview.io/questions/cc96cc09-9d90-4ebf-b07c-d22d9a30aaf9) | Easy | — |
-| **Microsoft** | [Resource Change Database Design](https://trueinterview.io/questions/bcd45958-19cb-4471-90e5-86cdb8a138f5) | Medium | — |
-| **Microsoft** | [Design RESTful API for JSON Files](https://trueinterview.io/questions/b03ed863-99c2-4277-87f0-fd74fa4a9331) | Medium | — |
-| **Microsoft / Ebay / Visa** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Easy | — |
-| **Microsoft** | [Woo Restaurant Design](https://trueinterview.io/questions/9b4cb899-5355-4016-b218-5bb90a044898) | Medium | — |
-| **Microsoft** | [React Performance Review](https://trueinterview.io/questions/90794d67-2f02-4fea-8b1a-2c0d024a0416) | Easy | — |
-| **Microsoft / GEICO / WeRide** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
-| **Microsoft** | [Path With Maximum Minimum Value](https://trueinterview.io/questions/866086d0-9514-4858-a0a7-e7350f4ccd0d) | Hard | — |
-| **Microsoft** | [Find Shortest Path in Cyclic Graph](https://trueinterview.io/questions/73071813-b198-4495-aaa6-2e6ae5f847da) | Medium | — |
-| **Microsoft** | [Kth Smallest Element in a Binary Search Tree (write full main, with follow-ups)](https://trueinterview.io/questions/65a8813c-9014-4ae9-af67-cfef594d9d98) | Medium | — |
-| **Microsoft** | [Rotate String (variant with two string arrays)](https://trueinterview.io/questions/5a8c9bdf-ba15-4e3f-bed8-09c457108d6e) | Easy | — |
-| **Microsoft** | [Longest Palindromic Subsequence](https://trueinterview.io/questions/476e68bd-f245-4818-88e5-fc21d78ebda5) | Hard | — |
-| **Microsoft / LinkedIn** | [Max Points on a Line](https://trueinterview.io/questions/42a95a21-be60-46fa-b782-1995f17fe56d) | Medium | — |
-| **Microsoft** | [Rate Limiter and Scaling](https://trueinterview.io/questions/38e79c9a-4c70-46a0-b781-d63b089c8571) | Medium | — |
-| **Microsoft / Google / Salesforce / Uber** | [Minimum Operations to Transform an Integer Using ±2^i Steps](https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec) | Medium | — |
-| **Microsoft** | [Low Level Logger Design](https://trueinterview.io/questions/2ac0a0ec-b27f-45f3-85bd-1f1476d9ed47) | Medium | — |
-| **Microsoft / Meta** | [Insert into a Circular Linked List](https://trueinterview.io/questions/1cc31086-7116-47af-9fc6-bc2cc84bc2c8) | Medium | — |
-| **Microsoft / Meta** | [Minimal Board Length for Holes](https://trueinterview.io/questions/0df3b897-7563-413a-9bea-06eeeb50a399) | Medium | — |
-| **Microsoft** | [Remove All Comments from Source String (C++)](https://trueinterview.io/questions/0490c246-1ba7-4cf9-bcf9-634c22f273cc) | Medium | — |
-| **Meta / Amazon / Apple / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
-| **Meta** | [Compare Two Linked Lists' Concatenated Strings](https://trueinterview.io/questions/f57623fa-df0e-49d8-8275-3787fab19121) | Medium | — |
-| **Meta** | [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5) | Medium | — |
-| **Meta** | [Arithmetic Expression Evaluator (Limited Operators)](https://trueinterview.io/questions/ddaa35f9-b880-41bb-bcd4-e6f0bac02b2c) | Easy | — |
-| **Meta** | [Remove All Adjacent Duplicates in String Repeatedly](https://trueinterview.io/questions/d7f2f296-e2a6-4cea-b7f4-162049ce638b) | Medium | — |
-| **Meta / Snapchat** | [Longest Increasing Path in a Matrix](https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74) | Hard | — |
-| **Meta** | [Copy a Random Linked List](https://trueinterview.io/questions/d28d9f85-a636-4f5a-b551-7e80539bf691) | Medium | — |
-| **Meta / Pinterest** | [Expression Add Operators to Reach Target](https://trueinterview.io/questions/ce65b729-d003-4aba-82e4-ee55204dce4c) | Hard | — |
-| **Meta** | [Ads Impression SQL Query](https://trueinterview.io/questions/cd8e263f-9929-49d1-804b-210708292d39) | Easy | — |
-| **Meta** | [Find Shortest Path in Matrix](https://trueinterview.io/questions/cd73881c-9f33-4f7c-a4a9-74f9eed0f4c1) | Medium | — |
-| **Meta** | [Set Matrix Zeroes (Zero out rows and columns containing a 0)](https://trueinterview.io/questions/c9b3ec81-ac31-4c3b-aa30-3ea4b6e91be5) | Medium | — |
-| **Meta / Apple** | [All Nodes Distance K in Binary Tree](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) | Hard | — |
-| **Meta** | [Find Target Number Frequency in Sorted Array](https://trueinterview.io/questions/c48346eb-8fb7-4454-80ca-6907d18cbf45) | Medium | — |
-| **Meta** | [Mouse and Cheese (Max Reward with k Picks)](https://trueinterview.io/questions/bd5a3ee9-a46f-41a8-9216-146df23a8810) | Medium | — |
-| **Meta** | [Unique Characters](https://trueinterview.io/questions/b765dd59-a8f5-468c-a15e-e2b80ec674f6) | Easy | — |
-| **Meta** | [Second Largest Permutation From Given Multiset](https://trueinterview.io/questions/b013b902-f3a6-444e-a0a9-866fa7ac2f06) | Medium | — |
-| **Meta** | [Minimum Length of Subarray with Min-Max Difference](https://trueinterview.io/questions/a4398c05-cc42-4b2b-804e-6e65102c2ecb) | Hard | — |
-| **Meta / Uber** | [Majority Element](https://trueinterview.io/questions/8ef6f482-db59-407f-adc7-1118a22fdae0) | Easy | — |
-| **Meta** | [Python Data Processing: Merge two messy sources and compute a summary dictionary](https://trueinterview.io/questions/8dfc431c-6a6e-4241-8587-02b33cda60ff) | Medium | — |
-| **Meta** | [3Sum Problem](https://trueinterview.io/questions/872afd2c-9574-4b57-8be4-7a867d8058c3) | Medium | — |
-| **Meta** | [Deep Copy a Graph](https://trueinterview.io/questions/80e7743c-f811-4b3b-ba6c-c9b5d059bcc2) | Medium | — |
-| **Meta / LinkedIn** | [Robot Room Cleaner: Find Target](https://trueinterview.io/questions/7c0209a8-0314-4e7a-967c-5d751c4cf468) | Hard | — |
-| **Meta** | [Count Occurrences in Sorted Array](https://trueinterview.io/questions/7b106e98-f35e-43e3-b09c-40d80f282e66) | Medium | — |
-| **Meta** | [Friend Request](https://trueinterview.io/questions/6a131d8f-2002-477c-be7f-ee4b4a01b54b) | Medium | — |
-| **Meta** | [Find Words That Are Substrings of Other Words](https://trueinterview.io/questions/63481706-9628-4f13-849d-428dc74a0977) | Medium | — |
-| **Meta** | [SQL Query for Data Processing](https://trueinterview.io/questions/604a5e3c-2bb5-495c-bc43-c97818be0c9a) | Easy | — |
-| **Meta** | [Sum of Elements Between Two Numbers](https://trueinterview.io/questions/5372bd2a-ef24-4fab-91fa-e7fa5c798b91) | Easy | — |
-| **Meta** | [Top 3 Customers by Book Purchases in Specific Categories](https://trueinterview.io/questions/48ac9704-e9a2-4d9e-ae72-7e46d09b96ad) | Easy | — |
-| **Meta** | [Implement Modified Intersection](https://trueinterview.io/questions/4068b856-3566-4fc7-bd17-0b9fd211b3e4) | Easy | — |
-| **Meta** | [Group Video Call Data Analysis Queries](https://trueinterview.io/questions/3f8ab151-1633-4675-a957-6dfb74b18779) | Medium | — |
-| **Meta / Amazon** | [Weighted Sum of Nested Integer Array by Depth_inverse](https://trueinterview.io/questions/3a9bae3a-c122-418b-92a8-366126b7e898) | Medium | — |
-| **Meta** | [Optimize Word Container / String Matching Queries (ParanoidEcho)](https://trueinterview.io/questions/32cfb5cb-1695-45bf-9da9-61408d95d237) | Medium | — |
-| **Meta** | [Maze Solver: Print a Maze With Empty Cells Marked](https://trueinterview.io/questions/271c9609-f5e2-49dc-ae3b-192caf02b0fc) | Easy | — |
-| **Meta** | [Evaluate Basic Expression Without Stack or Extra Space](https://trueinterview.io/questions/258a56b8-ee06-4b1b-98e9-a4c13ea3fb11) | Hard | — |
-| **Meta** | [Find Total Sales by Unique Customers](https://trueinterview.io/questions/237e2cdf-214c-4455-9486-bcc9c85df7a9) | Easy | — |
-| **Meta** | [Merge M Sorted Arrays and Output First K Elements](https://trueinterview.io/questions/1c0e9ce3-393d-4d67-b88e-b96758389615) | Medium | — |
-| **Meta** | [Check for Duplicate within Range](https://trueinterview.io/questions/171ba77d-6489-4fad-8a63-72730222cf83) | Easy | — |
-| **Meta** | [Bipedal Dinosaur Speed Calculation](https://trueinterview.io/questions/12c1f8ea-f98e-401a-ba26-39ba0ee3a59e) | Medium | — |
-| **Meta** | [Round-Trip Minimum Price](https://trueinterview.io/questions/06966bea-c7df-4954-a767-3dc378714b6d) | Hard | — |
-| **Meta** | [Write a Script to Monitor 'vmstat' Output](https://trueinterview.io/questions/0237fc06-24d7-4e05-97ce-e1b07257a2e8) | Medium | — |
-| **Meta** | [Fix an AI-generated query and address data quality issues](https://trueinterview.io/questions/01f555c7-1416-450a-9bff-c393859356bd) | Medium | — |
-| **LinkedIn / Meta** | [Token Bucket Rate Limiter](https://trueinterview.io/questions/e7062e3a-a5ed-4e78-9bb3-93a71d1e4c34) | Medium | — |
-| **LinkedIn / Microsoft** | [Populating Next Right Pointers in Each Node](https://trueinterview.io/questions/b1348ffb-2ebe-44e8-8ef2-da6f8e7e04c9) | Medium | — |
-| **LinkedIn** | [Binary Tree Traversal using Iterative and Recursive Methods](https://trueinterview.io/questions/af752656-c437-4650-9101-e1f7472265a5) | Medium | — |
-| **LinkedIn** | [Real-Time Scalable Spam Email Detection System Design](https://trueinterview.io/questions/6b5e2814-d680-40a4-8a95-e002c830c543) | Medium | — |
-| **LinkedIn** | [CPU Execution Time Calculation](https://trueinterview.io/questions/5a23961c-f9e2-4dcb-8484-3040652f49c1) | Medium | — |
-| **LinkedIn** | [Insert/Delete/GetRandom in O(1) with TTL per item (follow-up)](https://trueinterview.io/questions/26f6e8b3-62a6-4359-8ae4-3943de03e7e6) | Hard | — |
-| **LinkedIn / Microsoft** | [Merge N-ary Tree](https://trueinterview.io/questions/26526039-c716-45e9-9bc1-c041c03ce168) | Medium | — |
-| **LinkedIn** | [Degree of Connection Between LinkedIn Users](https://trueinterview.io/questions/1455a901-868c-4006-973c-c5bbc2c3206d) | Easy | — |
-| **LinkedIn** | [O(1) Time Insert, Remove, and RemoveRandom Data Structure](https://trueinterview.io/questions/0c5ac2d7-446b-433d-8632-247de13bec98) | Medium | — |
-| **LinkedIn** | [Implement a Custom Iterator](https://trueinterview.io/questions/00663347-51f2-475a-a0ac-1dc56de070d8) | Easy | — |
-| **Intuit** | [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | Easy | — |
-| **Intuit** | [Find the Safest Path in a Grid](https://trueinterview.io/questions/4a705b25-2a46-4581-866f-381bfd794dab) | Hard | — |
-| **Intuit** | [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578) | Easy | — |
-| **Intuit** | [Matrix Transpose and Multiplication Speed Benchmark](https://trueinterview.io/questions/0cc929c7-175c-4c2b-8748-4777d598bc16) | Medium | — |
-| **Intuit** | [Smart Gardener (Intuit India)](https://trueinterview.io/questions/094b806b-d68d-413f-a536-249524c89249) | Hard | — |
-| **Instacart / Airbnb / DoorDash / Reddit / Robinhood / Uber** | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | Medium | — |
-| **Instacart / ByteDance** | [Count Subarrays With Alternating Parity (Odd/Even) Including Negatives](https://trueinterview.io/questions/8babc81e-6a75-4bc6-b67e-d7f11327c8e8) | Medium | — |
-| **Google** | [Move Chess Pieces to Match Target (R moves right, L moves left)](https://trueinterview.io/questions/ff974fe6-335b-4b51-9f41-21444a6d0ee9) | Medium | — |
-| **Google** | [Split Data into Minimum Chunks with Max Chunk Size](https://trueinterview.io/questions/fc7b2dd9-fee5-40a3-94b2-66a433d95628) | Medium | — |
-| **Google** | [Merge Intervals with Names](https://trueinterview.io/questions/f65573da-74b9-4f0e-b1b7-b107519953e2) | Medium | — |
-| **Google** | [Design Bookshelf Class](https://trueinterview.io/questions/f5a2b1e1-d029-4c8b-8917-96b16beaf8f4) | Medium | — |
-| **Google** | [Dijkstra's Algorithm Implementation](https://trueinterview.io/questions/efc13ca9-aeaa-4b56-991a-b7299fe558d2) | Medium | — |
-| **Google** | [Safe Travel Ranges](https://trueinterview.io/questions/edf263d8-b3ed-4f7e-a78c-1686163531db) | Medium | — |
-| **Google** | [Count Total Number (or Total Area) of Square Submatrices](https://trueinterview.io/questions/ed1d0cbf-3496-440a-b2f6-aad685d2d707) | Medium | — |
-| **Google** | [Find the Longest Subarray with a Given Mean](https://trueinterview.io/questions/e7e5e498-d62e-4b08-9ba0-49e3a3e2616d) | Medium | — |
-| **Google** | [Build a relationship graph and run BFS to answer queries](https://trueinterview.io/questions/d2ec0664-62b2-4331-bd56-fa15c9a86f3b) | Medium | — |
-| **Google** | [Refactoring Exercise](https://trueinterview.io/questions/c827c677-e606-4d3c-8704-230bdc66ab55) | Easy | — |
-| **Google** | [Multi-Elevator Controller: Scheduling and Dispatching](https://trueinterview.io/questions/c0c1eabf-11cc-45b5-902c-f615b8fa389e) | Hard | — |
-| **Google** | [Max Subarray Filled With Zeros](https://trueinterview.io/questions/b86bae80-9169-4a97-ad99-54516018ff73) | Hard | — |
-| **Google** | [Implement a Simplified Transformer Forward Pass](https://trueinterview.io/questions/b581f4c7-dd8a-486e-b735-9c330c32a910) | Medium | — |
-| **Google** | [Belt Packing: Return a Triplet When 3 Items Fit a Threshold](https://trueinterview.io/questions/b529815f-11de-4c9b-b00c-abf641811da9) | Medium | — |
-| **Google** | [Find Timed-Out Activities from Logs (OO Design)](https://trueinterview.io/questions/ad01f55b-fde8-4a15-8995-b438f5576b3a) | Medium | — |
-| **Google** | [Stuck Keyboard / Jammed String Dictionary Match](https://trueinterview.io/questions/ac1394bf-5720-4d6e-bdc5-e5f9614d3050) | Medium | — |
-| **Google** | [Serialize and Deserialize List of Strings](https://trueinterview.io/questions/a0d558e6-66d0-4094-a169-e6e3e081374b) | Medium | — |
-| **Google** | [Consolidate On-call Rotations into Maximal Constant Segments](https://trueinterview.io/questions/9c213936-135f-4a6a-8b44-aa71ed0ac82a) | Hard | — |
-| **Google** | [Unique Paths in a 2D Matrix with Moves](https://trueinterview.io/questions/9bc06af6-5391-48cc-9eb3-8364423d3a52) | Medium | — |
-| **Google / Uber** | [Text Justification](https://trueinterview.io/questions/9213c4e8-b5fd-4c9b-924d-7108600f1f73) | Hard | — |
-| **Google** | [Windowed Average excluding Largest K](https://trueinterview.io/questions/7a3b6266-bc7c-4893-80a9-02a992ba2cc3) | Medium | — |
-| **Google / Snowflake** | [Minimum Distance Between People and Cakes](https://trueinterview.io/questions/787ed7cb-16c1-4605-a606-93dbbc22cb6c) | Easy | — |
-| **Google** | [Validate Tree Given Parent Array](https://trueinterview.io/questions/783f51be-4588-4e1e-ad45-e296bf8082d7) | Medium | — |
-| **Google** | [Activate Features with Dependency Prerequisites (Simulation)](https://trueinterview.io/questions/660e4415-cd22-4d8d-9d65-6287f4804ea8) | Medium | — |
-| **Google / ByteDance** | [Number of Distinct Islands](https://trueinterview.io/questions/4efa382e-08ab-43e2-8ad5-306b5e2fbc86) | Medium | — |
-| **Google** | [Detonate Bombs with Chain Reactions (Graph reachability)](https://trueinterview.io/questions/4e270197-d462-4ba2-8769-4553ba1d3b16) | Medium | — |
-| **Google** | [Implement deleteDirectory with getChildrenPaths and deleteFile APIs](https://trueinterview.io/questions/4e02ab32-f7f8-4070-b12a-604e8470808c) | Medium | — |
-| **Google / ByteDance / Microsoft** | [Binary Tree Level Order Stream Iterator](https://trueinterview.io/questions/4c47d0ad-08ca-4db4-8d2a-25f2172d775b) | Medium | — |
-| **Google** | [Longest Non-Increasing Path in Grid with One-Step Lookback Constraint](https://trueinterview.io/questions/4a968844-11c7-48d6-a31e-f0e5961bb753) | Hard | — |
-| **Google** | [Minimum Number of Servers for Tasks on a 24-hour Cycle (Wrap-around Allowed)](https://trueinterview.io/questions/4a03f64c-e580-40fb-9465-e87a65ec7bbb) | Medium | — |
-| **Google** | [Assign Locker](https://trueinterview.io/questions/476e1653-b479-4045-a60a-5c28cca56e35) | Medium | — |
-| **Google** | [Remove Exactly One Element to Make a Pivot Index Exist](https://trueinterview.io/questions/3d3cc0d8-d70c-444f-9e70-308f9930fbcc) | Medium | — |
-| **Google** | [Chunking with an Unsplittable Header](https://trueinterview.io/questions/2f337555-8465-4711-9231-ee00cf57b26c) | Easy | — |
-| **Google** | [Minimum Racks to Pack Machines with Two Resource Constraints](https://trueinterview.io/questions/27362191-59d6-46ac-be9d-e26334e84049) | Hard | — |
-| **Google** | [Find First Greater or Equal Element](https://trueinterview.io/questions/215ab576-ac0c-498c-b4b3-e14e50b24539) | Easy | — |
-| **Google** | [Determine Whether Two Horses Are Related (Pedigree Graph)](https://trueinterview.io/questions/1a2257f5-ce54-4f27-a801-90df812e0da4) | Medium | — |
-| **Google** | [Range Updates Using Difference Array (Template Problem)](https://trueinterview.io/questions/19526ad7-c78c-462e-a59d-80239253617a) | Easy | — |
-| **Google / Microsoft** | [Employee Shift Timeline Table](https://trueinterview.io/questions/0dbc81af-dd9a-45a6-8f23-c42c1feb88e1) | Medium | — |
-| **Google** | [Shortest Distance to Taxi in a Grid](https://trueinterview.io/questions/05552f4a-424e-469b-ba5a-40c766f4d84a) | Medium | — |
-| **Goldman Sachs / LinkedIn / Oracle** | [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Medium | — |
-| **DoorDash** | [Count and Say](https://trueinterview.io/questions/fd94fd33-664d-46f3-b15b-9121ced75b5e) | Easy | — |
-| **DoorDash** | [Calculate Total Payment for Dasher](https://trueinterview.io/questions/e6ef089b-490d-47b3-8a92-8cf96b06acec) | Medium | — |
-| **DoorDash** | [Dasher Picker](https://trueinterview.io/questions/ce094618-c109-4226-9302-f624c2243e88) | Medium | — |
-| **DoorDash** | [Max Sum Sliding Window and Return Start Days (1-based)](https://trueinterview.io/questions/cb56b885-74d2-47ca-aefe-725df4a97b39) | Easy | — |
-| **DoorDash** | [Dasher Pay Classic Problem](https://trueinterview.io/questions/cb1af2e3-d261-4cd6-9b7c-fb10f0ee8187) | Medium | — |
-| **DoorDash** | [Design a Ring Buffer for Consistent Hashing](https://trueinterview.io/questions/b2660ec8-502d-45f2-ad27-401c94329833) | Medium | — |
-| **DoorDash** | [Minimum Number of Couriers Needed (Meeting Rooms II Variant)](https://trueinterview.io/questions/9b6179b4-2319-4efe-9129-adc78a2d421d) | Medium | — |
-| **DoorDash** | [Restaurant query (classic)](https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196) | Easy | — |
-| **DoorDash** | [Basic SQL Queries for Orders](https://trueinterview.io/questions/56a590ce-9602-42e8-b375-9c55e3b0e55d) | Easy | — |
-| **DoorDash** | [Calculate Dasher Pay](https://trueinterview.io/questions/14422fe4-b9b1-4311-9900-313a365e8e70) | Easy | — |
-| **Citadel / Amazon / Boston Consulting Group** | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Easy | — |
-| **Cisco** | [Chessboard Piece Placement with Opposite Color Constraints](https://trueinterview.io/questions/d4eb414f-978e-4cea-acc3-df07a404c79f) | Medium | — |
-| **Cisco** | [Find Out Prime or Composite](https://trueinterview.io/questions/bb654baa-42a6-45a5-9b96-fa99e3789184) | Easy | — |
-| **Cisco** | [Find Last Cell](https://trueinterview.io/questions/7edbbd51-ddcd-4562-b9af-114fdaabb8c3) | Medium | — |
-| **Cisco** | [Identify the Non-Twin Person](https://trueinterview.io/questions/61ccd7ec-3ff5-4114-8e18-d910c7dc001e) | Easy | — |
-| **Cisco** | [Process Queries to Find Critical Nodes](https://trueinterview.io/questions/3be3ddff-6db5-49c0-916c-299316bc4912) | Hard | — |
-| **Cisco** | [Minimum Steps to Achieve Target State](https://trueinterview.io/questions/06061640-c929-4879-9ba9-f3b90aac35e1) | Medium | — |
-| **ByteDance / Google** | [Determine Players with Unique Ranks from Match Results (Reachability Counts in a Directed Graph)](https://trueinterview.io/questions/f6331f0f-11ef-453f-a5fa-06bb97821266) | Hard | — |
-| **ByteDance** | [Minimum Time to Reach Bottom-Right in a Grid](https://trueinterview.io/questions/eefc1bf4-36bc-4559-9991-c8e115ff4795) | Hard | — |
-| **ByteDance / OKX** | [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Medium | — |
-| **ByteDance** | [Word Ladder (Shortest Transformation Path)](https://trueinterview.io/questions/e6525160-e0ed-4df8-896c-9477534d9e3e) | Hard | — |
-| **ByteDance** | [Write a Shell Script](https://trueinterview.io/questions/e4cf0983-ff34-459a-94c1-19fd845d217f) | Medium | — |
-| **ByteDance** | [Walking with Boost Stations (Greedy Simulation)](https://trueinterview.io/questions/df181ca4-fa5a-4022-975e-2742e47d87d5) | Medium | — |
-| **ByteDance** | [SQL Query Session](https://trueinterview.io/questions/b0150c5e-8dd9-4acb-834f-e778ed8bff5f) | Easy | — |
-| **ByteDance / Meta** | [Dot Product of Two Sparse Vectors](https://trueinterview.io/questions/aa3b7b34-eb9e-40d4-9c23-9ab29c4827a4) | Medium | — |
-| **ByteDance** | [Choose k numbers from 1..n without repetition (combinations / permutations)](https://trueinterview.io/questions/a0485034-7630-45ac-8ddd-d194614132a0) | Medium | — |
-| **ByteDance** | [Longest Consecutive Login Days per User](https://trueinterview.io/questions/958957e9-157b-4f85-9660-bab2890de9f6) | Medium | — |
-| **ByteDance / Atlassian** | [Implement Moving Average from Data Stream](https://trueinterview.io/questions/94192aa7-a909-49a7-80b7-24c84876985d) | Easy | — |
-| **ByteDance** | [Can Cut All Given Squares From a Rectangle Grid](https://trueinterview.io/questions/8df7409a-9106-435c-8157-bf0c94e6467e) | Hard | — |
-| **ByteDance / Whatnot** | [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) | Medium | — |
-| **ByteDance / LinkedIn / NVIDIA / WeRide** | [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) | Medium | — |
-| **ByteDance** | [Semantic Similarity (Text Embedding + Cosine Similarity)](https://trueinterview.io/questions/76f49396-a3e1-499d-bcf8-e66cdb8ed785) | Easy | — |
-| **ByteDance** | [Array Partition](https://trueinterview.io/questions/68134649-a71c-42b7-8c16-1c8baedd96e6) | Easy | — |
-| **ByteDance** | [Equalize Server Latency](https://trueinterview.io/questions/67d10813-b767-4d2d-8492-e2e32d196a80) | Hard | — |
-| **ByteDance / Airbnb / Databricks / Discord / Ebay / LinkedIn / Microsoft AI / OpenAI / Reddit / Yelp** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | Hard | — |
-| **ByteDance** | [Find Highest Salary In Each Department](https://trueinterview.io/questions/5348b956-13e3-4f3a-a381-f80594e38002) | Medium | — |
-| **ByteDance** | [LRU Cache with TTL](https://trueinterview.io/questions/5177f4aa-d20c-4ded-b262-94815c6e6a0c) | Medium | — |
-| **ByteDance / Bloomberg** | [Interval Problem Requiring Sorting by Start (or End)](https://trueinterview.io/questions/5164c36d-171e-41d6-8bf0-1f573c012781) | Medium | — |
-| **ByteDance** | [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Medium | — |
-| **ByteDance / Rubrik** | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | Easy | — |
-| **ByteDance / Pinduoduo** | [Spiral Matrix Fill](https://trueinterview.io/questions/3b33f241-83ae-4754-af33-8eac2267c5b2) | Medium | — |
-| **ByteDance / Microsoft / Pinduoduo** | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Medium | — |
-| **ByteDance** | [Convert Between Integer and Roman (Two-Way)](https://trueinterview.io/questions/37ebf2fa-456e-422b-9a8a-e19c3815f353) | Medium | — |
-| **ByteDance** | [BST Node Search and Delete](https://trueinterview.io/questions/31cfc7de-9b80-4134-aa0c-dca151fdaf0b) | Easy | — |
-| **ByteDance** | [Find Local Maximums in Temperature Data](https://trueinterview.io/questions/2efaddee-93c4-473f-8897-4e45b68612dc) | Medium | — |
-| **ByteDance / Google / Microsoft / Visa** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Medium | — |
+| **ByteDance** | [Rank factors for TikTok market entry](https://trueinterview.io/questions/rank-factors-for-tiktok-market-entry) | — | — |
+| **Meta** | [Quantify launch decision with tests and guardrails](https://trueinterview.io/questions/quantify-launch-decision-with-tests-and-guardrails) | — | — |
+| **Amazon** | [Quantify improvement and compute required sample size](https://trueinterview.io/questions/quantify-improvement-and-compute-required-sample-size) | — | — |
+| **Amazon** | [Quantify build-vs-buy training decision](https://trueinterview.io/questions/quantify-build-vs-buy-training-decision) | — | — |
+| **Meta** | [Quantify base-rate dilution in CTR](https://trueinterview.io/questions/quantify-base-rate-dilution-in-ctr) | — | — |
+| **Meta** | [Prove source growth is cannibalization, not incremental](https://trueinterview.io/questions/prove-source-growth-is-cannibalization-not-incremental) | Hard | — |
+| **Google** | [Prove OLS invariance to linear transforms](https://trueinterview.io/questions/prove-ols-invariance-to-linear-transforms) | — | — |
+| **Amazon** | [Prove new allocation outperforms manual baseline](https://trueinterview.io/questions/prove-new-allocation-outperforms-manual-baseline) | Hard | — |
+| **Amazon** | [Prove and apply statistical ML fundamentals](https://trueinterview.io/questions/prove-and-apply-statistical-ml-fundamentals) | — | — |
+| **Amazon** | [Profile and visualize an unfamiliar dataset](https://trueinterview.io/questions/profile-and-visualize-an-unfamiliar-dataset) | — | — |
+| **DoorDash** | [Prioritize projects and manage tight deadlines](https://trueinterview.io/questions/prioritize-projects-and-manage-tight-deadlines) | — | — |
+| **Amazon** | [Prioritize a new warehouse proposal with data](https://trueinterview.io/questions/prioritize-a-new-warehouse-proposal-with-data) | — | — |
+| **Google** | [Predict and act on contract renewal risk](https://trueinterview.io/questions/predict-and-act-on-contract-renewal-risk) | Medium | — |
+| **Netflix** | [Plan and analyze a ranking A/B test](https://trueinterview.io/questions/plan-and-analyze-a-ranking-a-b-test) | — | — |
+| **Meta** | [Persuade engineers to launch pinned-unread chats](https://trueinterview.io/questions/persuade-engineers-to-launch-pinned-unread-chats) | — | — |
+| **PayPal** | [Optimize thresholds under fraud costs](https://trueinterview.io/questions/optimize-thresholds-under-fraud-costs) | — | — |
+| **ByteDance** | [Optimize threshold using confusion matrix and costs](https://trueinterview.io/questions/optimize-threshold-using-confusion-matrix-and-costs) | — | — |
+| **Meta** | [Optimize IG Shopping ranking with multiple objectives](https://trueinterview.io/questions/optimize-ig-shopping-ranking-with-multiple-objectives) | Hard | — |
+| **Uber** | [Navigate urgency, priorities, and conflict](https://trueinterview.io/questions/navigate-urgency-priorities-and-conflict) | — | — |
+| **Meta** | [Navigate reschedules, offers, and team-match uncertainty](https://trueinterview.io/questions/navigate-reschedules-offers-and-team-match-uncertainty) | — | — |
+| **Netflix** | [Navigate conflicting signals and ambiguous expectations](https://trueinterview.io/questions/navigate-conflicting-signals-and-ambiguous-expectations) | — | — |
+| **Google** | [Narrow a confidence interval for a mean](https://trueinterview.io/questions/narrow-a-confidence-interval-for-a-mean) | — | — |
+| **Uber** | [Model waiting-time abandonment via survival](https://trueinterview.io/questions/model-waiting-time-abandonment-via-survival) | — | — |
+| **Meta** | [Model user-level ad impression allocation](https://trueinterview.io/questions/model-user-level-ad-impression-allocation) | — | — |
+| **Meta** | [Model session times and comments with exponential/Poisson](https://trueinterview.io/questions/model-session-times-and-comments-with-exponential-poisson) | — | — |
+| **Uber** | [Measure rider incentive causal ROI](https://trueinterview.io/questions/measure-rider-incentive-causal-roi) | — | — |
+| **Amazon** | [Measure PMF for Alexa Shopping](https://trueinterview.io/questions/measure-pmf-for-alexa-shopping) | Medium | — |
+| **Google** | [Measure outage impact; choose fix vs build](https://trueinterview.io/questions/measure-outage-impact-choose-fix-vs-build) | Hard | — |
+| **Meta** | [Manage promotions and project portfolio tradeoffs](https://trueinterview.io/questions/manage-promotions-and-project-portfolio-tradeoffs) | — | — |
+| **Amazon** | [List hyperparameter tuning methods](https://trueinterview.io/questions/list-hyperparameter-tuning-methods) | — | — |
+| **Meta** | [Learn complex topic fast under deadline](https://trueinterview.io/questions/learn-complex-topic-fast-under-deadline) | — | — |
+| **Expedia** | [Lead alignment under ambiguity and pressure](https://trueinterview.io/questions/lead-alignment-under-ambiguity-and-pressure) | — | — |
+| **Meta** | [Lead a product deep dive with quantified impact](https://trueinterview.io/questions/lead-a-product-deep-dive-with-quantified-impact) | — | — |
+| **Meta** | [Justify EU B2B Chat Product Strategy](https://trueinterview.io/questions/justify-eu-b2b-chat-product-strategy) | — | — |
+| **Meta** | [Justify building a new feature with evidence](https://trueinterview.io/questions/justify-building-a-new-feature-with-evidence) | — | — |
+| **Netflix** | [Justify all-cash compensation expectations and trade-offs](https://trueinterview.io/questions/justify-all-cash-compensation-expectations-and-trade-offs) | — | — |
+| **ByteDance** | [Investigate visit–report correlation causality](https://trueinterview.io/questions/investigate-visitreport-correlation-causality) | — | — |
+| **Uber** | [Investigate ride declines and test free trials](https://trueinterview.io/questions/investigate-ride-declines-and-test-free-trials) | — | — |
+| **ByteDance** | [Interpret and validate regression with interactions](https://trueinterview.io/questions/interpret-and-validate-regression-with-interactions) | — | — |
+| **PayPal** | [Influence policy with BI deliverables](https://trueinterview.io/questions/influence-policy-with-bi-deliverables) | — | — |
+| **Google** | [Infer causal impact without an A/B test](https://trueinterview.io/questions/infer-causal-impact-without-an-a-b-test) | — | — |
+| **Meta** | [Increase posts receiving comments via experimentation](https://trueinterview.io/questions/increase-posts-receiving-comments-via-experimentation) | — | — |
+| **Apple** | [Improve chip performance without process advances](https://trueinterview.io/questions/improve-chip-performance-without-process-advances) | — | — |
+| **ByteDance** | [Implement streaming SRM detector with late events](https://trueinterview.io/questions/implement-streaming-srm-detector-with-late-events) | Hard | — |
+| **Amazon** | [Implement a high-throughput web crawler safely](https://trueinterview.io/questions/implement-a-high-throughput-web-crawler-safely) | Hard | — |
+| **Meta** | [Identify trees, lists, and array search costs](https://trueinterview.io/questions/identify-trees-lists-and-array-search-costs) | — | — |
+| **Meta** | [Identify non-table data for feature demand](https://trueinterview.io/questions/identify-non-table-data-for-feature-demand) | Medium | — |
+| **Meta** | [How would you define and use retention metrics?](https://trueinterview.io/questions/how-would-you-define-and-use-retention-metrics) | — | — |
+| **Meta** | [How to measure harmful-content severity and run experiments](https://trueinterview.io/questions/how-to-measure-harmful-content-severity-and-run-experiments) | — | — |
+| **Microsoft** | [Handle unreliable email during time-critical coordination](https://trueinterview.io/questions/handle-unreliable-email-during-time-critical-coordination) | — | — |
+| **Amazon** | [Handle scope creep and teammate conflict](https://trueinterview.io/questions/handle-scope-creep-and-teammate-conflict) | — | — |
+| **Meta** | [Handle sales pressure with analytical integrity](https://trueinterview.io/questions/handle-sales-pressure-with-analytical-integrity) | — | — |
+| **Microsoft** | [Handle repeated last-minute interview reschedules](https://trueinterview.io/questions/handle-repeated-last-minute-interview-reschedules) | — | — |
+| **Meta** | [Handle feedback, change pivots, and conflict](https://trueinterview.io/questions/handle-feedback-change-pivots-and-conflict) | — | — |
+| **Meta** | [Handle diverse styles and give constructive feedback](https://trueinterview.io/questions/handle-diverse-styles-and-give-constructive-feedback) | — | — |
+| **ByteDance** | [Handle disengaged interviewer or biased manager](https://trueinterview.io/questions/handle-disengaged-interviewer-or-biased-manager) | — | — |
+| **Apple** | [Handle conflict, priorities, and harsh clients](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients) | — | — |
+| **DoorDash** | [Handle conflict and time-pressured decision](https://trueinterview.io/questions/handle-conflict-and-time-pressured-decision) | — | — |
+| **Uber** | [Formulate OR model to reduce driver backtracking](https://trueinterview.io/questions/formulate-or-model-to-reduce-driver-backtracking) | — | — |
+| **Uber** | [Formulate hypotheses and compute AB test significance](https://trueinterview.io/questions/formulate-hypotheses-and-compute-ab-test-significance) | — | — |
+| **Google** | [Find companies similar to a given client](https://trueinterview.io/questions/find-companies-similar-to-a-given-client) | Hard | — |
+| **Microsoft** | [Find common friends from directed edges](https://trueinterview.io/questions/find-common-friends-from-directed-edges) | Hard | — |
+| **ByteDance** | [Explain your most impactful project trade-offs](https://trueinterview.io/questions/explain-your-most-impactful-project-trade-offs) | — | — |
+| **Meta** | [Explain your main growth area](https://trueinterview.io/questions/explain-your-main-growth-area) | — | — |
+| **Amazon** | [Explain why LASSO selects features](https://trueinterview.io/questions/explain-why-lasso-selects-features) | — | — |
+| **DoorDash** | [Explain why DoorDash and job change](https://trueinterview.io/questions/explain-why-doordash-and-job-change) | — | — |
+| **Amazon** | [Explain vanishing gradients and activations](https://trueinterview.io/questions/explain-vanishing-gradients-and-activations) | — | — |
+| **Apple** | [Explain use cases for clock synchronizers](https://trueinterview.io/questions/explain-use-cases-for-clock-synchronizers) | — | — |
+| **Amazon** | [Explain Transformers and MoE in LLMs](https://trueinterview.io/questions/explain-transformers-and-moe-in-llms) | — | — |
+| **Amazon** | [Explain the bias–variance trade-off](https://trueinterview.io/questions/explain-the-biasvariance-trade-off) | — | — |
+| **ByteDance** | [Explain SHAP vs VIF under collinearity](https://trueinterview.io/questions/explain-shap-vs-vif-under-collinearity) | — | — |
+| **Amazon** | [Explain parallelism and collectives in training](https://trueinterview.io/questions/explain-parallelism-and-collectives-in-training) | Hard | — |
+| **NVIDIA** | [Explain NVIDIA fit and role value](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value) | — | — |
+| **ByteDance** | [Explain motivations, background, and success metrics](https://trueinterview.io/questions/explain-motivations-background-and-success-metrics) | — | — |
+| **DoorDash** | [Explain motivation and align expectations for L4 role](https://trueinterview.io/questions/explain-motivation-and-align-expectations-for-l4-role) | — | — |
+| **Google** | [Explain logistic regression vs forests and boosting](https://trueinterview.io/questions/explain-logistic-regression-vs-forests-and-boosting) | — | — |
+| **DoorDash** | [Explain interest and influence stakeholders](https://trueinterview.io/questions/explain-interest-and-influence-stakeholders) | — | — |
+| **Google** | [Explain handling a tight project deadline](https://trueinterview.io/questions/explain-handling-a-tight-project-deadline) | — | — |
+| **Uber** | [Explain grocery-specific product strategy and scrappy XP](https://trueinterview.io/questions/explain-grocery-specific-product-strategy-and-scrappy-xp) | — | — |
+| **Amazon** | [Explain complex tech to non-technical stakeholder](https://trueinterview.io/questions/explain-complex-tech-to-non-technical-stakeholder) | — | — |
+| **Meta** | [Explain background, team structure, and role fit](https://trueinterview.io/questions/explain-background-team-structure-and-role-fit) | — | — |
+| **Uber** | [Explain and validate A/B test assumptions](https://trueinterview.io/questions/explain-and-validate-a-b-test-assumptions) | — | — |
+| **ByteDance** | [Explain and tune XGBoost; prevent overfitting](https://trueinterview.io/questions/explain-and-tune-xgboost-prevent-overfitting) | — | — |
+| **Google** | [Explain and resolve Simpson’s paradox](https://trueinterview.io/questions/explain-and-resolve-simpsons-paradox) | — | — |
+| **Meta** | [Explain ACID and isolation levels](https://trueinterview.io/questions/explain-acid-and-isolation-levels) | — | — |
+| **Intuit** | [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) | — | — |
+| **Google** | [Explain a favorite model end-to-end](https://trueinterview.io/questions/explain-a-favorite-model-end-to-end) | — | — |
+| **Google** | [Experimentally evaluate jogging-route recommendations](https://trueinterview.io/questions/experimentally-evaluate-jogging-route-recommendations) | — | — |
+| **DoorDash** | [Experiment on increasing order notifications](https://trueinterview.io/questions/experiment-on-increasing-order-notifications) | — | — |
+| **Uber** | [Evaluate impact without randomized experiments](https://trueinterview.io/questions/evaluate-impact-without-randomized-experiments) | — | — |
+| **Meta** | [Evaluate fraud classifier with cost-sensitive metrics](https://trueinterview.io/questions/evaluate-fraud-classifier-with-cost-sensitive-metrics) | — | — |
+| **Meta** | [Evaluate Facebook Dating launch and validate success](https://trueinterview.io/questions/evaluate-facebook-dating-launch-and-validate-success) | — | — |
+| **Amazon** | [Evaluate concession gift-card policy with DID](https://trueinterview.io/questions/evaluate-concession-gift-card-policy-with-did) | — | — |
+| **Meta** | [Evaluate brand ads effectiveness on social media causally](https://trueinterview.io/questions/evaluate-brand-ads-effectiveness-on-social-media-causally) | — | — |
+| **Apple** | [Evaluate a model and choose metrics](https://trueinterview.io/questions/evaluate-a-model-and-choose-metrics) | — | — |
+| **Meta** | [Estimate variance for ratio metrics](https://trueinterview.io/questions/estimate-variance-for-ratio-metrics) | — | — |
+| **Amazon** | [Estimate shuttle impact with robust causal design](https://trueinterview.io/questions/estimate-shuttle-impact-with-robust-causal-design) | — | — |
+| **Meta** | [Estimate revenue of organic shopping tab](https://trueinterview.io/questions/estimate-revenue-of-organic-shopping-tab) | — | — |
+| **Uber** | [Estimate price–ETA trade-offs causally](https://trueinterview.io/questions/estimate-priceeta-trade-offs-causally) | — | — |
+| **Google** | [Estimate population singletons from a 10% log](https://trueinterview.io/questions/estimate-population-singletons-from-a-10percent-log) | — | — |
+| **Amazon** | [Estimate live sports impact on subscriptions](https://trueinterview.io/questions/estimate-live-sports-impact-on-subscriptions) | — | — |
+| **ByteDance** | [Estimate heterogeneous treatment effects with causal ML](https://trueinterview.io/questions/estimate-heterogeneous-treatment-effects-with-causal-ml) | — | — |
+| **Meta** | [Estimate delayed CVR nonparametrically with censored data](https://trueinterview.io/questions/estimate-delayed-cvr-nonparametrically-with-censored-data) | — | — |
+| **Meta** | [Estimate CTR lift with binomial tests and errors](https://trueinterview.io/questions/estimate-ctr-lift-with-binomial-tests-and-errors) | — | — |
+| **Google** | [Estimate b when features exceed samples](https://trueinterview.io/questions/estimate-b-when-features-exceed-samples) | — | — |
+| **Google** | [Establish causality: commute playlist and driving speed](https://trueinterview.io/questions/establish-causality-commute-playlist-and-driving-speed) | — | — |
+| **Amazon** | [Drive stakeholder alignment under trade-offs](https://trueinterview.io/questions/drive-stakeholder-alignment-under-trade-offs) | — | — |
+| **ByteDance** | [Drive product decisions with causal product sense](https://trueinterview.io/questions/drive-product-decisions-with-causal-product-sense) | Hard | — |
+| **LinkedIn** | [Do US members upload more videos than non-US?](https://trueinterview.io/questions/do-us-members-upload-more-videos-than-non-us) | Medium | — |
+| **ByteDance** | [Differentiate LDA and QDA; compute boundary](https://trueinterview.io/questions/differentiate-lda-and-qda-compute-boundary) | — | — |
+| **Intuit** | [Diagnose rising delivery cost precisely](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) | — | — |
+| **Meta** | [Diagnose rising account switching and falling actives](https://trueinterview.io/questions/diagnose-rising-account-switching-and-falling-actives) | — | — |
+| **Google** | [Diagnose and reverse an adoption-rate decline](https://trueinterview.io/questions/diagnose-and-reverse-an-adoption-rate-decline) | — | — |
+| **Uber** | [Diagnose and reduce first-action drop-offs](https://trueinterview.io/questions/diagnose-and-reduce-first-action-drop-offs) | — | — |
+| **Amazon** | [Diagnose and fix underperforming ML model](https://trueinterview.io/questions/diagnose-and-fix-underperforming-ml-model) | — | — |
+| **DoorDash** | [Diagnose and experiment to reduce late deliveries](https://trueinterview.io/questions/diagnose-and-experiment-to-reduce-late-deliveries) | — | — |
+| **Meta** | [Diagnose a non-significant experiment outcome](https://trueinterview.io/questions/diagnose-a-non-significant-experiment-outcome) | — | — |
+| **Google** | [Diagnose a metric drop in search time](https://trueinterview.io/questions/diagnose-a-metric-drop-in-search-time) | — | — |
+| **Google** | [Diagnose 10–11% usage drop across geos](https://trueinterview.io/questions/diagnose-1011percent-usage-drop-across-geos) | — | — |
+| **Meta** | [Detect leakage and evaluate a prediction model](https://trueinterview.io/questions/detect-leakage-and-evaluate-a-prediction-model) | — | — |
+| **Meta** | [Detect and address Simpson’s paradox](https://trueinterview.io/questions/detect-and-address-simpsons-paradox) | — | — |
+| **ByteDance** | [Design robust metrics for a feature launch](https://trueinterview.io/questions/design-robust-metrics-for-a-feature-launch) | — | — |
+| **Meta** | [Design robust group size limiting for calls](https://trueinterview.io/questions/design-robust-group-size-limiting-for-calls) | Hard | — |
+| **ByteDance** | [Design robust A/B test with interference and seasonality](https://trueinterview.io/questions/design-robust-a-b-test-with-interference-and-seasonality) | — | — |
+| **ByteDance** | [Design recommendations objective balancing growth and monetization](https://trueinterview.io/questions/design-recommendations-objective-balancing-growth-and-monetization) | Hard | — |
+| **Google** | [Design pricing and multivariate button experiments](https://trueinterview.io/questions/design-pricing-and-multivariate-button-experiments) | Hard | — |
+| **Meta** | [Design offline segments for Meta Portal retail](https://trueinterview.io/questions/design-offline-segments-for-meta-portal-retail) | — | — |
+| **Meta** | [Design metrics for violating content exposure](https://trueinterview.io/questions/design-metrics-for-violating-content-exposure) | — | — |
+| **Meta** | [Design metrics and geo A/B for new feature](https://trueinterview.io/questions/design-metrics-and-geo-a-b-for-new-feature) | — | — |
+| **Google** | [Design long-tail search evaluation under label budget](https://trueinterview.io/questions/design-long-tail-search-evaluation-under-label-budget) | Hard | — |
+| **ByteDance** | [Design incrementality test for TikTok ads](https://trueinterview.io/questions/design-incrementality-test-for-tiktok-ads) | — | — |
+| **Amazon** | [Design causal study for reminder impact](https://trueinterview.io/questions/design-causal-study-for-reminder-impact) | Hard | — |
+| **ByteDance** | [Design causal measurement without randomization](https://trueinterview.io/questions/design-causal-measurement-without-randomization) | Medium | — |
+| **Meta** | [Design bot detection and evaluate trade-offs](https://trueinterview.io/questions/design-bot-detection-and-evaluate-trade-offs) | Hard | — |
+| **Meta** | [Design B2C chatbot success metrics and test plan](https://trueinterview.io/questions/design-b2c-chatbot-success-metrics-and-test-plan) | — | — |
+| **Uber** | [Design and power an incentive experiment](https://trueinterview.io/questions/design-and-power-an-incentive-experiment) | — | — |
+| **Netflix** | [Design and power a frequency-cap experiment](https://trueinterview.io/questions/design-and-power-a-frequency-cap-experiment) | — | — |
+| **Meta** | [Design and evaluate P2P payments in messaging](https://trueinterview.io/questions/design-and-evaluate-p2p-payments-in-messaging) | — | — |
+| **ByteDance** | [Design and evaluate a dasher bike rollout](https://trueinterview.io/questions/design-and-evaluate-a-dasher-bike-rollout) | — | — |
+| **Meta** | [Design and critique teen-parent impact experiment](https://trueinterview.io/questions/design-and-critique-teen-parent-impact-experiment) | — | — |
+| **Amazon** | [Design and analyze pricing-page A/B test](https://trueinterview.io/questions/design-and-analyze-pricing-page-a-b-test) | — | — |
+| **Meta** | [Design and analyze an A/B test](https://trueinterview.io/questions/design-and-analyze-an-a-b-test) | — | — |
+| **DoorDash** | [Design and analyze a switchback experiment](https://trueinterview.io/questions/design-and-analyze-a-switchback-experiment) | — | — |
+| **Meta** | [Design and analyze a group-calls experiment](https://trueinterview.io/questions/design-and-analyze-a-group-calls-experiment) | — | — |
+| **DoorDash** | [Design analytics for a new-market launch](https://trueinterview.io/questions/design-analytics-for-a-new-market-launch) | — | — |
+| **Meta** | [Design analysis to test social vs game engagement](https://trueinterview.io/questions/design-analysis-to-test-social-vs-game-engagement) | — | — |
+| **Amazon** | [Design an operations dashboard with justifications](https://trueinterview.io/questions/design-an-operations-dashboard-with-justifications) | Medium | — |
+| **Amazon** | [Design an LLM quality validation system](https://trueinterview.io/questions/design-an-llm-quality-validation-system) | Hard | — |
+| **ByteDance** | [Design an interference-robust A/B test for monetization](https://trueinterview.io/questions/design-an-interference-robust-a-b-test-for-monetization) | — | — |
+| **DoorDash** | [Design an experiment for thermal bags](https://trueinterview.io/questions/design-an-experiment-for-thermal-bags) | — | — |
+| **DoorDash** | [Design an experiment for order batching](https://trueinterview.io/questions/design-an-experiment-for-order-batching) | — | — |
+| **Amazon** | [Design an end-to-end spam detection system](https://trueinterview.io/questions/design-an-end-to-end-spam-detection-system) | Hard | — |
+| **ByteDance** | [Design an ad-selection system across objectives](https://trueinterview.io/questions/design-an-ad-selection-system-across-objectives) | Hard | — |
+| **Google** | [Design an A/B test with guardrails and SRM checks](https://trueinterview.io/questions/design-an-a-b-test-with-guardrails-and-srm-checks) | Medium | — |
+| **Meta** | [Design an A/B test for WhatsApp call reliability](https://trueinterview.io/questions/design-an-a-b-test-for-whatsapp-call-reliability) | Hard | — |
+| **Meta** | [Design an A/B test for WFH filter](https://trueinterview.io/questions/design-an-a-b-test-for-wfh-filter) | Medium | — |
+| **Uber** | [Design an A/B test for promo-targeting models](https://trueinterview.io/questions/design-an-a-b-test-for-promo-targeting-models) | Medium | — |
+| **Uber** | [Design an A/B test; choose Z vs T](https://trueinterview.io/questions/design-an-a-b-test-choose-z-vs-t) | — | — |
+| **PayPal** | [Design an A/B for ATO rule](https://trueinterview.io/questions/design-an-a-b-for-ato-rule) | — | — |
+| **Uber** | [Design airport dispatch with ETA uncertainty](https://trueinterview.io/questions/design-airport-dispatch-with-eta-uncertainty) | Hard | — |
+| **Uber** | [Design a switchback and choose block length](https://trueinterview.io/questions/design-a-switchback-and-choose-block-length) | Medium | — |
+| **Meta** | [Design a small-sample launch experiment in Europe](https://trueinterview.io/questions/design-a-small-sample-launch-experiment-in-europe) | Medium | — |
+| **Uber** | [Design a robust email A/B test](https://trueinterview.io/questions/design-a-robust-email-a-b-test) | Medium | — |
+| **Netflix** | [Design a robust conversion propensity model](https://trueinterview.io/questions/design-a-robust-conversion-propensity-model) | Hard | — |
+| **Meta** | [Design a restaurant recommender under cold start](https://trueinterview.io/questions/design-a-restaurant-recommender-under-cold-start) | Hard | — |
+| **Microsoft** | [Design a model for imbalanced conversions](https://trueinterview.io/questions/design-a-model-for-imbalanced-conversions) | Medium | — |
+| **Meta** | [Design a hashtag recommender for News Feed](https://trueinterview.io/questions/design-a-hashtag-recommender-for-news-feed) | Medium | — |
+| **Meta** | [Design a feed ads A/B test with guardrails](https://trueinterview.io/questions/design-a-feed-ads-a-b-test-with-guardrails) | Medium | — |
+| **Google** | [Design a battery-life predictor and cold-start strategy](https://trueinterview.io/questions/design-a-battery-life-predictor-and-cold-start-strategy) | Hard | — |
+| **Amazon** | [Describe overfitting and L1/L2 regularization](https://trueinterview.io/questions/describe-overfitting-and-l1-l2-regularization) | — | — |
+| **Google** | [Describe leading cross-functional research collaboration](https://trueinterview.io/questions/describe-leading-cross-functional-research-collaboration) | — | — |
+| **Microsoft** | [Describe leading an ambiguous ML project end-to-end](https://trueinterview.io/questions/describe-leading-an-ambiguous-ml-project-end-to-end) | — | — |
+| **Meta** | [Describe conflict where you yielded to others](https://trueinterview.io/questions/describe-conflict-where-you-yielded-to-others) | — | — |
+| **Google** | [Describe conflict and failure using STAR framework](https://trueinterview.io/questions/describe-conflict-and-failure-using-star-framework) | — | — |
+| **Apple** | [Describe common RTL lint warnings and errors](https://trueinterview.io/questions/describe-common-rtl-lint-warnings-and-errors) | — | — |
+| **Meta** | [Describe an ambiguous project you handled](https://trueinterview.io/questions/describe-an-ambiguous-project-you-handled) | — | — |
+| **Google** | [Describe a conflict with a colleague](https://trueinterview.io/questions/describe-a-conflict-with-a-colleague) | — | — |
+| **Google** | [Describe a challenging project and how you succeeded](https://trueinterview.io/questions/describe-a-challenging-project-and-how-you-succeeded) | — | — |
+| **Meta** | [Derive no-click probability and sketch implications](https://trueinterview.io/questions/derive-no-click-probability-and-sketch-implications) | — | — |
+| **Google** | [Derive MLEs and conditional Normal distributions](https://trueinterview.io/questions/derive-mles-and-conditional-normal-distributions) | — | — |
+| **ByteDance** | [Derive L1 vs L2 effects with correlation](https://trueinterview.io/questions/derive-l1-vs-l2-effects-with-correlation) | — | — |
+| **Meta** | [Derive expected meetings given nonempty room](https://trueinterview.io/questions/derive-expected-meetings-given-nonempty-room) | — | — |
+| **LinkedIn** | [Derive expectation for two consecutive heads](https://trueinterview.io/questions/derive-expectation-for-two-consecutive-heads) | — | — |
+| **Meta** | [Derive and validate DID for staggered rollout](https://trueinterview.io/questions/derive-and-validate-did-for-staggered-rollout) | — | — |
+| **Amazon** | [Derive and compare core ML and RL methods](https://trueinterview.io/questions/derive-and-compare-core-ml-and-rl-methods) | — | — |
+| **Meta** | [Deploy multi-armed bandits safely](https://trueinterview.io/questions/deploy-multi-armed-bandits-safely) | Hard | — |
+| **Google** | [Demonstrate stakeholder communication and influence](https://trueinterview.io/questions/demonstrate-stakeholder-communication-and-influence) | — | — |
+| **Amazon** | [Demonstrate problem-solving under resistance](https://trueinterview.io/questions/demonstrate-problem-solving-under-resistance) | — | — |
+| **Atlassian** | [Demonstrate motivation, feedback, and prioritization](https://trueinterview.io/questions/demonstrate-motivation-feedback-and-prioritization) | — | — |
+| **Amazon** | [Demonstrate leadership with quantifiable STAR stories](https://trueinterview.io/questions/demonstrate-leadership-with-quantifiable-star-stories) | — | — |
+| **Amazon** | [Demonstrate leadership under strict rules](https://trueinterview.io/questions/demonstrate-leadership-under-strict-rules) | — | — |
+| **Amazon** | [Demonstrate leadership under disagreement](https://trueinterview.io/questions/demonstrate-leadership-under-disagreement) | — | — |
+| **Amazon** | [Demonstrate leadership in data-driven scenarios](https://trueinterview.io/questions/demonstrate-leadership-in-data-driven-scenarios) | — | — |
+| **Google** | [Demonstrate leadership in data ambiguity](https://trueinterview.io/questions/demonstrate-leadership-in-data-ambiguity) | — | — |
+| **ByteDance** | [Demonstrate leadership in cross-functional disagreement](https://trueinterview.io/questions/demonstrate-leadership-in-cross-functional-disagreement) | — | — |
+| **Meta** | [Demonstrate leadership in cross-functional collaboration](https://trueinterview.io/questions/demonstrate-leadership-in-cross-functional-collaboration) | — | — |
+| **Uber** | [Demonstrate Leadership in Ambiguous Analytics Projects](https://trueinterview.io/questions/demonstrate-leadership-in-ambiguous-analytics-projects) | — | — |
+| **Netflix** | [Demonstrate JD skills with quantified outcomes](https://trueinterview.io/questions/demonstrate-jd-skills-with-quantified-outcomes) | — | — |
+| **Amazon** | [Demonstrate invent-and-simplify and customer communication](https://trueinterview.io/questions/demonstrate-invent-and-simplify-and-customer-communication) | — | — |
+| **Netflix** | [Demonstrate handling dismissive stakeholders with candor](https://trueinterview.io/questions/demonstrate-handling-dismissive-stakeholders-with-candor) | — | — |
+| **NVIDIA** | [Demonstrate cultural fit and sales-oriented leadership](https://trueinterview.io/questions/demonstrate-cultural-fit-and-sales-oriented-leadership) | — | — |
+| **Amazon** | [Demonstrate calculated risk and deep-dive leadership](https://trueinterview.io/questions/demonstrate-calculated-risk-and-deep-dive-leadership) | — | — |
+| **Uber** | [Demonstrate business impact from a project](https://trueinterview.io/questions/demonstrate-business-impact-from-a-project) | — | — |
+| **Meta** | [Define success metrics and guardrails for B2B chat](https://trueinterview.io/questions/define-success-metrics-and-guardrails-for-b2b-chat) | — | — |
+| **ByteDance** | [Define QKV for recommender cross-attention](https://trueinterview.io/questions/define-qkv-for-recommender-cross-attention) | — | — |
+| **Uber** | [Define market-only rider experience metrics](https://trueinterview.io/questions/define-market-only-rider-experience-metrics) | — | — |
+| **Meta** | [Define composite success for search and test it](https://trueinterview.io/questions/define-composite-success-for-search-and-test-it) | — | — |
+| **Google** | [Define and sample a truncated normal](https://trueinterview.io/questions/define-and-sample-a-truncated-normal) | — | — |
+| **DoorDash** | [Define and compute retention and churn precisely](https://trueinterview.io/questions/define-and-compute-retention-and-churn-precisely) | — | — |
+| **Google** | [Define and apply Gmail user segments](https://trueinterview.io/questions/define-and-apply-gmail-user-segments) | — | — |
+| **DoorDash** | [Decompose and optimize delivery operational costs](https://trueinterview.io/questions/decompose-and-optimize-delivery-operational-costs) | — | — |
+| **Meta** | [Decide when CTR falls but revenue rises](https://trueinterview.io/questions/decide-when-ctr-falls-but-revenue-rises) | — | — |
+| **Amazon** | [Decide standardization, sparse numerics, correlated features](https://trueinterview.io/questions/decide-standardization-sparse-numerics-correlated-features) | Medium | — |
+| **ByteDance** | [Decide launch of downranking suspected bad sellers](https://trueinterview.io/questions/decide-launch-of-downranking-suspected-bad-sellers) | Hard | — |
+| **ByteDance** | [Decide if subgroup increases imply overall increase](https://trueinterview.io/questions/decide-if-subgroup-increases-imply-overall-increase) | — | — |
+| **Google** | [Decide between two vendors under constraints](https://trueinterview.io/questions/decide-between-two-vendors-under-constraints) | Hard | — |
+| **LinkedIn** | [Decide best email variant using stratified A/B analysis](https://trueinterview.io/questions/decide-best-email-variant-using-stratified-a-b-analysis) | — | — |
+| **ByteDance** | [Control confounding in observational ad lift](https://trueinterview.io/questions/control-confounding-in-observational-ad-lift) | — | — |
+| **Amazon** | [Contrast CNNs and fully connected networks](https://trueinterview.io/questions/contrast-cnns-and-fully-connected-networks) | — | — |
+| **Meta** | [Compute view prevalence from views and labels](https://trueinterview.io/questions/compute-view-prevalence-from-views-and-labels) | Hard | — |
+| **DoorDash** | [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | — | — |
+| **Microsoft** | [Compute sample size and analyze A/B results](https://trueinterview.io/questions/compute-sample-size-and-analyze-a-b-results) | — | — |
+| **Meta** | [Compute posterior for accurate-but-rare classifier](https://trueinterview.io/questions/compute-posterior-for-accurate-but-rare-classifier) | — | — |
+| **Google** | [Compute p-values, probabilities, and regularization choices](https://trueinterview.io/questions/compute-p-values-probabilities-and-regularization-choices) | — | — |
+| **Meta** | [Compute p-values, power, and adjust errors](https://trueinterview.io/questions/compute-p-values-power-and-adjust-errors) | — | — |
+| **Amazon** | [Compute p-values, CIs, and adjust multiples](https://trueinterview.io/questions/compute-p-values-cis-and-adjust-multiples) | — | — |
+| **Microsoft** | [Compute P(Bag B &#124; red) via Bayes](https://trueinterview.io/questions/compute-p-bag-b-red-via-bayes) | — | — |
+| **Meta** | [Compute conditional occupancy across two rooms](https://trueinterview.io/questions/compute-conditional-occupancy-across-two-rooms) | — | — |
+| **ByteDance** | [Compute cluster-aware significance and sequential corrections](https://trueinterview.io/questions/compute-cluster-aware-significance-and-sequential-corrections) | — | — |
+| **Amazon** | [Compute CIs, power, and multiple testing](https://trueinterview.io/questions/compute-cis-power-and-multiple-testing) | — | — |
+| **Uber** | [Compute A/B sample size under clustering](https://trueinterview.io/questions/compute-a-b-sample-size-under-clustering) | — | — |
+| **Google** | [Compare two stores’ profits rigorously](https://trueinterview.io/questions/compare-two-stores-profits-rigorously) | — | — |
+| **Meta** | [Compare two ad insertion strategies](https://trueinterview.io/questions/compare-two-ad-insertion-strategies) | — | — |
+| **Amazon** | [Compare Tableau live vs extract and filters](https://trueinterview.io/questions/compare-tableau-live-vs-extract-and-filters) | — | — |
+| **Amazon** | [Compare Random Forests vs Gradient Boosting rigorously](https://trueinterview.io/questions/compare-random-forests-vs-gradient-boosting-rigorously) | — | — |
+| **Apple** | [Compare Normal vs Poisson; test dispersion and approximate tails](https://trueinterview.io/questions/compare-normal-vs-poisson-test-dispersion-and-approximate-tails) | — | — |
+| **Amazon** | [Compare decision trees and random forests](https://trueinterview.io/questions/compare-decision-trees-and-random-forests) | — | — |
+| **Microsoft** | [Compare CNN, RNN, and LSTM rigorously](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) | — | — |
+| **Meta** | [Compare Bayesian and frequentist decisions](https://trueinterview.io/questions/compare-bayesian-and-frequentist-decisions) | — | — |
+| **ByteDance** | [Compare bagging vs boosting on imbalanced data](https://trueinterview.io/questions/compare-bagging-vs-boosting-on-imbalanced-data) | — | — |
+| **ByteDance** | [Communicate technical impact under skeptical stakeholders](https://trueinterview.io/questions/communicate-technical-impact-under-skeptical-stakeholders) | — | — |
+| **Apple** | [Clarify status, education, and multi-role strategy](https://trueinterview.io/questions/clarify-status-education-and-multi-role-strategy) | — | — |
+| **Meta** | [Clarify scope and align to mission](https://trueinterview.io/questions/clarify-scope-and-align-to-mission) | — | — |
+| **Google** | [Clarify ambiguous requirements under pressure](https://trueinterview.io/questions/clarify-ambiguous-requirements-under-pressure) | — | — |
+| **Meta** | [Choose threshold under asymmetric costs](https://trueinterview.io/questions/choose-threshold-under-asymmetric-costs) | — | — |
+| **Intuit** | [Choose the right test for proportions](https://trueinterview.io/questions/choose-the-right-test-for-proportions) | — | — |
+| **Meta** | [Choose tests and solve distribution parameters](https://trueinterview.io/questions/choose-tests-and-solve-distribution-parameters) | — | — |
+| **Meta** | [Choose robust metrics for skewed comments](https://trueinterview.io/questions/choose-robust-metrics-for-skewed-comments) | — | — |
+| **Amazon** | [Choose regularization norms and model formulations](https://trueinterview.io/questions/choose-regularization-norms-and-model-formulations) | — | — |
+| **Meta** | [Choose metrics for fake-user classifier](https://trueinterview.io/questions/choose-metrics-for-fake-user-classifier) | — | — |
 
-<sub>[← Page 7](big-tech-7.md) · Page 8 of 9 · [Page 9 →](big-tech-9.md)</sub>
+<sub>[← Page 7](big-tech-7.md) · Page 8 of 12 · [Page 9 →](big-tech-9.md)</sub>

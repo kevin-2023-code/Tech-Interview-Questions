@@ -2,7 +2,7 @@
 
 # Disney interview process, OA & interview questions
 
-**5 questions** reported at Disney. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/disney), judged server-side on the algorithm, low-level-design and SQL formats.
+**12 questions** reported at Disney. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/disney), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Disney interviews & the free questions](disney/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,39 +12,41 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **5** |
-| Most recent sighting | Aug 30, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
+| Questions tracked | **12** |
+| Most recent sighting | Sep 08, 2026 |
+| Reported in the last 90 days | 3 |
+| Most common format | [Blog](../formats/blog.md) (58% of 12) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 2 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 5 questions reported at Disney. 5 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 12 questions reported at Disney. 9 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **5 of 5** questions at Disney that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **12 of 12** questions at Disney that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 1 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | ███ | [System Design](../formats/system-design.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 8 | ██████████ | [Blog](../formats/blog.md) (62%) | 0 / 1 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ████ | [Blog](../formats/blog.md) (67%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | Blog | — | Phone screen | Sep 08, 2026 |
+| [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | Blog | — | Phone screen | Sep 08, 2026 |
 | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | Phone screen | Aug 30, 2026 |
 
 ## What they ask about
 
-Of the **3 questions at Disney that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Disney that carry a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -55,25 +57,29 @@ Of the **3 questions at Disney that carry a topic label** (60% of them — the r
 
 ## When they asked it
 
-Every recorded sighting at Disney, by the month it was reported in — Nov 01, 2025 to Aug 30, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Disney, by the month it was reported in — Nov 01, 2025 to Sep 08, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████████ |
-| [Mar 2026](../by-month/2026-03.md) | 1 | ████████ |
-| [Nov 2025](../by-month/2025-11.md) | 3 | ████████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 2 | ██████████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | █████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | █████ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | ████████████████████████ |
 
 ## Start here
 
-The 5 questions to open first if you are preparing for Disney, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Disney, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | — | Aug 30, 2026 |
-| **2** | [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses) 🆓 | Algorithm | Medium | — | Mar 27, 2026 |
-| **3** | [Design a frontend shopping cart and feature flags](https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags) | System Design | Medium | — | Nov 24, 2025 |
-| **4** | [Build Naive Bayes spam classifier with F1](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) 🆓 | Algorithm | Medium | — | Nov 01, 2025 |
-| **5** | [Determine if chasing points will meet](https://trueinterview.io/questions/determine-if-chasing-points-will-meet) | Algorithm | Hard | — | Nov 01, 2025 |
+| **1** | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) 🆓 | Blog | — | — | Sep 08, 2026 |
+| **2** | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) 🆓 | Blog | — | — | Sep 08, 2026 |
+| **3** | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | — | Aug 30, 2026 |
+| **4** | [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses) 🆓 | Algorithm | Medium | — | Mar 27, 2026 |
+| **5** | [Design a frontend shopping cart and feature flags](https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags) | System Design | Medium | — | Nov 24, 2025 |
+| **6** | [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) 🆓 | Blog | — | — | Nov 24, 2025 |
+| **7** | [How would you run a mentoring-focused code review?](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) 🆓 | Blog | — | — | Nov 24, 2025 |
+| **8** | [Build Naive Bayes spam classifier with F1](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) 🆓 | Algorithm | Medium | — | Nov 01, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -87,8 +93,15 @@ The 5 questions to open first if you are preparing for Disney, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | Blog | — | 🆕 Sep 08, 2026 |
+| [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | Blog | — | 🆕 Sep 08, 2026 |
 | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | Aug 30, 2026 |
 | [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses) | Algorithm | Medium | Mar 27, 2026 |
+| [How would you run a mentoring-focused code review?](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) | Blog | — | Nov 24, 2025 |
+| [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) | Blog | — | Nov 24, 2025 |
 | [Design a frontend shopping cart and feature flags](https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags) | System Design | Medium | Nov 24, 2025 |
 | [Determine if chasing points will meet](https://trueinterview.io/questions/determine-if-chasing-points-will-meet) | Algorithm | Hard | Nov 01, 2025 |
 | [Build Naive Bayes spam classifier with F1](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) | Algorithm | Medium | Nov 01, 2025 |
+| [Diagnose and decide on watch-time drop](https://trueinterview.io/questions/diagnose-and-decide-on-watch-time-drop) | Blog | — | — |
+| [Demonstrate influential product leadership under ambiguity](https://trueinterview.io/questions/demonstrate-influential-product-leadership-under-ambiguity) | Blog | — | — |
+| [Compute sample size and plan experiment](https://trueinterview.io/questions/compute-sample-size-and-plan-experiment) | Blog | — | — |

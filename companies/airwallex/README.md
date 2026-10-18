@@ -8,7 +8,7 @@ How Airwallex interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [8](../airwallex.md) |
+| Questions reported | [13](../airwallex.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,21 @@ No written process guide yet. [The loop, as reported](../airwallex.md#the-loop-a
 
 ## Free Airwallex questions
 
-2 questions reported at Airwallex open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Airwallex open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) |
 | [Largest Rectangle in Histogram](../../questions/algorithm/largest-rectangle-histogram/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/largest-rectangle-histogram) |
+| [Investigate Harassment Surge and Mitigation](https://trueinterview.io/questions/investigate-harassment-surge-and-mitigation) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/investigate-harassment-surge-and-mitigation) |
 | [Compute Moderation View Metrics](../../questions/sql/compute-moderation-view-metrics/README.md) | SQL | Hard | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/compute-moderation-view-metrics) |
+| [How do you resolve partner conflict?](https://trueinterview.io/questions/how-do-you-resolve-partner-conflict) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/how-do-you-resolve-partner-conflict) |
+| [How would you test swapping two CTA buttons?](https://trueinterview.io/questions/how-would-you-test-swapping-two-cta-buttons) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-test-swapping-two-cta-buttons) |
+| [Diagnose a dip in approval/conversion rate](https://trueinterview.io/questions/diagnose-a-dip-in-approval-conversion-rate) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/diagnose-a-dip-in-approval-conversion-rate) |
 
 ## Everything else
 
-- [All 8 questions reported at Airwallex](../airwallex.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 13 questions reported at Airwallex](../airwallex.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airwallex question on TrueInterview](https://trueinterview.io/problems/company/airwallex).
 
 ---

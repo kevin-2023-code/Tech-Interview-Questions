@@ -141,7 +141,7 @@ Here are some questions reported by recent candidates:
 
 - [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use)
 - [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a)
-- [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf)
+- [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](../../questions/algorithm/high-concurrency-prompt-template-deduplication-array-hash-map/README.md)
 
 ## Coding interview
 

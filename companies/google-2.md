@@ -2,7 +2,7 @@
 
 # Google interview process, OA & interview questions
 
-**294 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**380 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,92 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Define and sample a truncated normal](https://trueinterview.io/questions/define-and-sample-a-truncated-normal) | Blog | — | — |
+| [Define and apply Gmail user segments](https://trueinterview.io/questions/define-and-apply-gmail-user-segments) | Blog | — | — |
+| [Decide between two vendors under constraints](https://trueinterview.io/questions/decide-between-two-vendors-under-constraints) | System Design | Hard | — |
+| [Compute p-values, probabilities, and regularization choices](https://trueinterview.io/questions/compute-p-values-probabilities-and-regularization-choices) | Blog | — | — |
+| [Compare two stores’ profits rigorously](https://trueinterview.io/questions/compare-two-stores-profits-rigorously) | Blog | — | — |
+| [Clarify ambiguous requirements under pressure](https://trueinterview.io/questions/clarify-ambiguous-requirements-under-pressure) | Blog | — | — |
+| [Choose a precise A/B test primary metric](https://trueinterview.io/questions/choose-a-precise-a-b-test-primary-metric) | System Design | Medium | — |
+| [Build and evaluate a full ML pipeline](https://trueinterview.io/questions/build-and-evaluate-a-full-ml-pipeline) | Blog | — | — |
+| [Analyze data duplication effects in linear regression](https://trueinterview.io/questions/analyze-data-duplication-effects-in-linear-regression) | Blog | — | — |
+| [Implement piecewise linear interpolation for time-to-empty](https://trueinterview.io/questions/implement-piecewise-linear-interpolation-for-time-to-empty) | Algorithm | Hard | — |
+| [Implement longest subarray summing to k](https://trueinterview.io/questions/implement-longest-subarray-summing-to-k) | Algorithm | Hard | — |
+| [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | Object Oriented Programming | Medium | — |
+| [Find most co‑purchased product pairs in SQL](https://trueinterview.io/questions/find-most-copurchased-product-pairs-in-sql) | SQL | Medium | — |
+| [Design data structure similar to LRU cache](https://trueinterview.io/questions/design-data-structure-similar-to-lru-cache) | Object Oriented Programming | Medium | — |
+| [Design a scalable video platform database](https://trueinterview.io/questions/design-a-scalable-video-platform-database) | System Design | Medium | — |
+| [Deduplicate events and rank products with SQL](https://trueinterview.io/questions/deduplicate-events-and-rank-products-with-sql) | SQL | Medium | — |
+| [Compute violation rate and flag precision in SQL](https://trueinterview.io/questions/compute-violation-rate-and-flag-precision-in-sql) | SQL | Hard | — |
+| [Compute precision–recall curve on imbalanced data](https://trueinterview.io/questions/compute-precisionrecall-curve-on-imbalanced-data) | Algorithm | Medium | — |
+| [Compute monthly CRR with merges and gaps](https://trueinterview.io/questions/compute-monthly-crr-with-merges-and-gaps) | SQL | Hard | — |
+| [Compute city skyline outline](https://trueinterview.io/questions/compute-city-skyline-outline) | Algorithm | Hard | — |
+| [Analyze video flags and reviews with SQL](https://trueinterview.io/questions/analyze-video-flags-and-reviews-with-sql) | SQL | Medium | — |
+| [Add a conditional column in Python](https://trueinterview.io/questions/add-a-conditional-column-in-python) | Algorithm | Medium | — |
+| [Build and evaluate bad-link classifier](https://trueinterview.io/questions/build-and-evaluate-bad-link-classifier) | Blog | — | — |
+| [Maximum Assignment Between Problems and Programmers](https://trueinterview.io/questions/da013e43-63d8-5840-93c8-df123b1c76f9) | Algorithm | Hard | — |
+| [Reconstruct the BFS Path Before Reaching a Target](https://trueinterview.io/questions/ceeafc15-ce16-50a3-8890-26d9bd82c3ca) | Algorithm | Medium | — |
+| [Check Whether a Template Occurs in Leaf Text of a Binary Tree](https://trueinterview.io/questions/ccbcfb4f-2b34-53ef-a8da-4bedfb2889e5) | Algorithm | Hard | — |
+| [Permutations II](https://trueinterview.io/questions/b6747ed0-abbd-562b-9c62-8203b7c69d06) | Algorithm | Medium | — |
+| [Count Paths Matching Every Prefix in a Labeled Tree](https://trueinterview.io/questions/666e48b6-38b1-5803-9fbc-c5e3e5601f7b) | Algorithm | Hard | — |
+| [Split a Log Line by Spaces Outside Quoted Fields](https://trueinterview.io/questions/63ad51fb-e5a7-516d-a385-28c429f52b59) | Algorithm | Medium | — |
+| [Maximum Area Rectangle From Given Points](https://trueinterview.io/questions/587db02b-9437-5e6d-8a2a-cb2d0fbe4eeb) | Algorithm | Medium | — |
+| [Deliver to All Grid Locations and Return Home](https://trueinterview.io/questions/4f2dcbed-a308-5c7e-abc6-151ec6fe8790) | Algorithm | Hard | — |
+| [Maximize the Sum of Two Endpoint Values](https://trueinterview.io/questions/4c35c0d9-ec3d-5be8-a9ac-8c286f55cb59) | Algorithm | Medium | — |
+| [Lowest Common Manager for Multiple Employees](https://trueinterview.io/questions/43f7731f-5c9c-5742-98e1-c22daf53b98b) | Algorithm | Medium | — |
+| [Generate All Strings of Ones and Twos That Sum to N](https://trueinterview.io/questions/38374bee-9d47-5a1e-8387-e29ebb2e414a) | Algorithm | Medium | — |
+| [Number of Islands with Diagonal Connectivity](https://trueinterview.io/questions/305f8037-56c2-58a9-bf48-7aa7f999f65a) | Algorithm | Medium | — |
+| [Partition Numbers by Distinct Frequencies](https://trueinterview.io/questions/288aa01a-6399-551f-a549-1c3aaa1ce231) | Algorithm | Easy | — |
+| [Out-of-Order Logger Rate Limiter](https://trueinterview.io/questions/25399763-01ff-5703-bea4-b6441e0a4fbe) | Algorithm | Medium | — |
+| [Tournament Champion Probability](https://trueinterview.io/questions/1a008971-1fb9-5940-880b-d2b73ab4e4c0) | Algorithm | Hard | — |
+| [Find a Horizontal Cut That Bisects Total Rectangle Area](https://trueinterview.io/questions/04ff203b-beaf-5ddb-8988-57f1ba8b4d18) | Algorithm | Medium | — |
+| [Minimum Number of Chairs](https://trueinterview.io/questions/aaf49893-44bd-427b-b264-20ff9897fda6) | Algorithm | Medium | — |
+| [Streaming Latest-Per-Message Log Processor](https://trueinterview.io/questions/6d6b2135-4b5a-5d62-9d36-a219378d3488) | Algorithm | Medium | — |
+| [Count Rectangle Coverage on a Grid](https://trueinterview.io/questions/0ae28282-c544-5bec-9868-a6ca3aaff2d9) | Algorithm | Medium | — |
+| [Remove at Most One Blocker to Minimize Signal Completion Time](https://trueinterview.io/questions/05834c64-3f82-5628-8732-14c6759ded40) | Algorithm | Hard | — |
+| [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | System Design | Hard | — |
+| [Build Binary Tree From Character Counts](https://trueinterview.io/questions/build-binary-tree-from-character-counts-2) | Algorithm | Medium | — |
+| [Minimum Distance in N-ary Tree](https://trueinterview.io/questions/minimum-distance-in-n-ary-tree-2) | Algorithm | Medium | — |
+| [N-ary Tree Leaf Node Removal](https://trueinterview.io/questions/n-ary-tree-leaf-node-removal-2) | Algorithm | Medium | — |
+| [Winner in a Dot Grid Game](https://trueinterview.io/questions/winner-in-a-dot-grid-game-2) | Algorithm | Medium | — |
+| [Highway Checkpoint](https://trueinterview.io/questions/highway-checkpoint) | Algorithm | Easy | — |
+| [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Algorithm | Medium | — |
+| [Design Unix Find Command](https://trueinterview.io/questions/design-unix-find-command-2) | Object Oriented Programming | Medium | — |
+| [Count Intervals Covering Point](https://trueinterview.io/questions/count-intervals-covering-point-2) | Algorithm | Medium | — |
+| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
+| [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
+| [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Medium | — |
+| [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Algorithm | Medium | — |
+| [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
+| [Minimum Machines for Task Scheduling](https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36) | Algorithm | Medium | — |
+| [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | — |
+| [Count Nested Key Pairs and Return Most Frequent Inner Key](https://trueinterview.io/questions/00e2c5ae-3af2-5102-9b0f-51fefca7e047) | Algorithm | Medium | — |
+| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
+| [Minimum Cars to Satisfy Rental Requests + Assignment Records](https://trueinterview.io/questions/e44dda44-9b47-453a-9c31-9c5b589b348f) | Algorithm | Medium | — |
+| [Meeting Rooms II](https://trueinterview.io/questions/ddc8534d-46e9-4b02-abec-60d33c956280) | Algorithm | Medium | — |
+| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
+| [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Object Oriented Programming | Medium | — |
+| [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
+| [Minimum Operations to Transform an Integer Using ±2^i Steps](https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec) | Algorithm | Medium | — |
+| [Move Chess Pieces to Match Target (R moves right, L moves left)](https://trueinterview.io/questions/ff974fe6-335b-4b51-9f41-21444a6d0ee9) | Algorithm | Medium | — |
+| [Split Data into Minimum Chunks with Max Chunk Size](https://trueinterview.io/questions/fc7b2dd9-fee5-40a3-94b2-66a433d95628) | Algorithm | Medium | — |
+| [Merge Intervals with Names](https://trueinterview.io/questions/f65573da-74b9-4f0e-b1b7-b107519953e2) | Algorithm | Medium | — |
+| [Design Bookshelf Class](https://trueinterview.io/questions/f5a2b1e1-d029-4c8b-8917-96b16beaf8f4) | Object Oriented Programming | Medium | — |
+| [Dijkstra's Algorithm Implementation](https://trueinterview.io/questions/efc13ca9-aeaa-4b56-991a-b7299fe558d2) | Algorithm | Medium | — |
+| [Safe Travel Ranges](https://trueinterview.io/questions/edf263d8-b3ed-4f7e-a78c-1686163531db) | Algorithm | Medium | — |
+| [Count Total Number (or Total Area) of Square Submatrices](https://trueinterview.io/questions/ed1d0cbf-3496-440a-b2f6-aad685d2d707) | Algorithm | Medium | — |
+| [Find the Longest Subarray with a Given Mean](https://trueinterview.io/questions/e7e5e498-d62e-4b08-9ba0-49e3a3e2616d) | Algorithm | Medium | — |
+| [Build a relationship graph and run BFS to answer queries](https://trueinterview.io/questions/d2ec0664-62b2-4331-bd56-fa15c9a86f3b) | Algorithm | Medium | — |
+| [Refactoring Exercise](https://trueinterview.io/questions/c827c677-e606-4d3c-8704-230bdc66ab55) | Algorithm | Easy | — |
+| [Multi-Elevator Controller: Scheduling and Dispatching](https://trueinterview.io/questions/c0c1eabf-11cc-45b5-902c-f615b8fa389e) | Object Oriented Programming | Hard | — |
+| [Max Subarray Filled With Zeros](https://trueinterview.io/questions/b86bae80-9169-4a97-ad99-54516018ff73) | Algorithm | Hard | — |
+| [Implement a Simplified Transformer Forward Pass](https://trueinterview.io/questions/b581f4c7-dd8a-486e-b735-9c330c32a910) | Algorithm | Medium | — |
+| [Belt Packing: Return a Triplet When 3 Items Fit a Threshold](https://trueinterview.io/questions/b529815f-11de-4c9b-b00c-abf641811da9) | Algorithm | Medium | — |
+| [Find Timed-Out Activities from Logs (OO Design)](https://trueinterview.io/questions/ad01f55b-fde8-4a15-8995-b438f5576b3a) | Object Oriented Programming | Medium | — |
+| [Stuck Keyboard / Jammed String Dictionary Match](https://trueinterview.io/questions/ac1394bf-5720-4d6e-bdc5-e5f9614d3050) | Algorithm | Medium | — |
+| [Serialize and Deserialize List of Strings](https://trueinterview.io/questions/a0d558e6-66d0-4094-a169-e6e3e081374b) | Algorithm | Medium | — |
+| [Consolidate On-call Rotations into Maximal Constant Segments](https://trueinterview.io/questions/9c213936-135f-4a6a-8b44-aa71ed0ac82a) | Algorithm | Hard | — |
+| [Unique Paths in a 2D Matrix with Moves](https://trueinterview.io/questions/9bc06af6-5391-48cc-9eb3-8364423d3a52) | Algorithm | Medium | — |
 | [Text Justification](https://trueinterview.io/questions/9213c4e8-b5fd-4c9b-924d-7108600f1f73) | Algorithm | Hard | — |
 | [Windowed Average excluding Largest K](https://trueinterview.io/questions/7a3b6266-bc7c-4893-80a9-02a992ba2cc3) | Algorithm | Medium | — |
 | [Minimum Distance Between People and Cakes](https://trueinterview.io/questions/787ed7cb-16c1-4605-a606-93dbbc22cb6c) | Algorithm | Easy | — |

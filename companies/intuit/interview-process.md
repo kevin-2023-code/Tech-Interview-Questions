@@ -138,7 +138,7 @@ Here are some questions reported by recent candidates:
 
 - [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769)
 - [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578)
-- [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration)
+- [Pandas Meeting Work-Duration Calculation](../../questions/algorithm/pandas-meeting-work-duration/README.md)
 
 ## System design interview
 

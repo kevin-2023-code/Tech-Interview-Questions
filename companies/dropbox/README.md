@@ -8,7 +8,7 @@ How Dropbox interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [15](../dropbox.md) |
+| Questions reported | [21](../dropbox.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,16 +47,22 @@ Here's what the interview process can look like:
 
 ## Free Dropbox questions
 
-2 questions reported at Dropbox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Dropbox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Describe surprising project learnings](https://trueinterview.io/questions/describe-surprising-project-learnings) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-surprising-project-learnings) |
+| [Describe Your Most Complex Project](https://trueinterview.io/questions/describe-your-most-complex-project) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/describe-your-most-complex-project) |
+| [Run org-safe online experiment for recommender](https://trueinterview.io/questions/run-org-safe-online-experiment-for-recommender) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/run-org-safe-online-experiment-for-recommender) |
+| [Review checkout code for defects and privacy](https://trueinterview.io/questions/review-checkout-code-for-defects-and-privacy) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/review-checkout-code-for-defects-and-privacy) |
+| [Explain a project with measurable impact](https://trueinterview.io/questions/explain-a-project-with-measurable-impact) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-a-project-with-measurable-impact) |
+| [Answer rapid-fire leadership checklist](https://trueinterview.io/questions/answer-rapid-fire-leadership-checklist) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/answer-rapid-fire-leadership-checklist) |
 | [Hangman Optimal Strategy](../../questions/algorithm/hangman-optimal-strategy/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252) |
 | [Token Bucket Rate Limiter II](../../questions/algorithm/token-bucket-rate-limiter-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) |
 
 ## Everything else
 
-- [All 15 questions reported at Dropbox](../dropbox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 21 questions reported at Dropbox](../dropbox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Dropbox question on TrueInterview](https://trueinterview.io/problems/company/dropbox).
 
 ---

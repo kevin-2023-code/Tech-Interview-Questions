@@ -8,7 +8,7 @@ How GEICO interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [6](../geico.md) |
+| Questions reported | [7](../geico.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,16 +47,17 @@ Here's what the interview process can look like:
 
 ## Free GEICO questions
 
-2 questions reported at GEICO open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at GEICO open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
+| [Answer impact, disagreement, and motivation questions](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions) |
 | [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) |
 
 ## Everything else
 
-- [All 6 questions reported at GEICO](../geico.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 7 questions reported at GEICO](../geico.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every GEICO question on TrueInterview](https://trueinterview.io/problems/company/geico).
 
 ---

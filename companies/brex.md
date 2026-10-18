@@ -2,7 +2,7 @@
 
 # Brex interview process, OA & interview questions
 
-**3 questions** reported at Brex. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/brex), judged server-side on the algorithm, low-level-design and SQL formats.
+**4 questions** reported at Brex. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/brex), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Brex interviews & the free questions](brex/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **3** |
+| Questions tracked | **4** |
 | Most recent sighting | May 08, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (33% of 3) |
+| Most common format | [Algorithm](../formats/algorithm.md) (25% of 4) |
 | Difficulty (easy / medium / hard) | 2 / 0 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 3 questions reported at Brex. 1 of them carry a sighting date; the other 2 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 4 questions reported at Brex. 1 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **3 of 3** questions at Brex that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **4 of 4** questions at Brex that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Onsite / virtual onsite** | 2 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 1 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 1 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Onsite / virtual onsite** | 3 | ██████████ | [Blog](../formats/blog.md) (33%) | 1 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,7 @@ Which stage each question came from, for the **3 of 3** questions at Brex that n
 
 ## What they ask about
 
-Of the **1 question at Brex that carries a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Brex that carries a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -59,13 +59,14 @@ Every recorded sighting at Brex, by the month it was reported in — May 08, 202
 
 ## Start here
 
-The 3 questions to open first if you are preparing for Brex, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 4 questions to open first if you are preparing for Brex, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a Peer-to-Peer Money Transfer System](https://trueinterview.io/questions/design-a-peer-to-peer-money-transfer-system) | System Design | Hard | — | May 08, 2026 |
 | **2** | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) 🆓 | Algorithm | Easy | — | — |
 | **3** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) 🆓 | Object Oriented Programming | Easy | — | — |
+| **4** | [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/questions/72fc1b26-d7bc-4260-a442-36f08b50385c) 🆓 | Blog | — | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -81,4 +82,5 @@ The 3 questions to open first if you are preparing for Brex, ranked by **the mos
 | :-- | :-- | :-: | :-- |
 | [Design a Peer-to-Peer Money Transfer System](https://trueinterview.io/questions/design-a-peer-to-peer-money-transfer-system) | System Design | Hard | May 08, 2026 |
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Object Oriented Programming | Easy | — |
+| [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/questions/72fc1b26-d7bc-4260-a442-36f08b50385c) | Blog | — | — |
 | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | Algorithm | Easy | — |

@@ -8,7 +8,7 @@ How JPMorgan interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [22](../jpmorgan.md) |
+| Questions reported | [28](../jpmorgan.md) |
 | Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,10 +48,16 @@ Here's what the interview process can look like:
 
 ## Free JPMorgan questions
 
-6 questions reported at JPMorgan open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at JPMorgan open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Super Day Behavioral Round](https://trueinterview.io/questions/superday-behavioral-round) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/superday-behavioral-round) |
+| [Explain Core ML Concepts](https://trueinterview.io/questions/explain-core-ml-concepts-5) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-core-ml-concepts-5) |
+| [Explain Daily Signal Construction and a Prediction Workflow](https://trueinterview.io/questions/explain-daily-signal-construction-and-a-prediction-workflow) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-daily-signal-construction-and-a-prediction-workflow) |
+| [Describe a proud project and conflict](https://trueinterview.io/questions/describe-a-proud-project-and-conflict) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/describe-a-proud-project-and-conflict) |
+| [Quant Probability and Statistics Orals](https://trueinterview.io/questions/quant-probability-and-statistics-orals) | Blog | — | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/quant-probability-and-statistics-orals) |
+| [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) |
 | [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) |
 | [Split Array: Left Sum Greater](../../questions/algorithm/split-array-left-sum-greater/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/split-array-left-sum-greater) |
 | [Delete-One-Character Positions](../../questions/algorithm/delete-one-character-positions/README.md) | Algorithm | Easy | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/delete-one-character-positions) |
@@ -61,7 +67,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 22 questions reported at JPMorgan](../jpmorgan.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 28 questions reported at JPMorgan](../jpmorgan.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every JPMorgan question on TrueInterview](https://trueinterview.io/problems/company/jpmorgan).
 
 ---

@@ -8,7 +8,7 @@ How Airtable interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [9](../airtable.md) |
+| Questions reported | [11](../airtable.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,18 @@ No written process guide yet. [The loop, as reported](../airtable.md#the-loop-as
 
 ## Free Airtable questions
 
-2 questions reported at Airtable open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at Airtable open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Implement a DB Connection Pool](../../questions/object-oriented-programming/implement-a-db-connection-pool/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/implement-a-db-connection-pool) |
+| [Describe an inclusive action you took](https://trueinterview.io/questions/describe-an-inclusive-action-you-took) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-an-inclusive-action-you-took) |
+| [Answer ambiguity and PM disagreement behavioral questions](https://trueinterview.io/questions/answer-ambiguity-and-pm-disagreement-behavioral-questions) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/answer-ambiguity-and-pm-disagreement-behavioral-questions) |
 | [Design Spreadsheet Undo and Redo](../../questions/object-oriented-programming/design-spreadsheet-undo-and-redo/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) |
 
 ## Everything else
 
-- [All 9 questions reported at Airtable](../airtable.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 11 questions reported at Airtable](../airtable.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airtable question on TrueInterview](https://trueinterview.io/problems/company/airtable).
 
 ---

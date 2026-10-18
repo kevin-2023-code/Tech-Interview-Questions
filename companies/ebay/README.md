@@ -8,11 +8,11 @@ How Ebay interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [45](../ebay.md) |
+| Questions reported | [48](../ebay.md) |
 | Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Aug 21, 2026 |
+| Most recent sighting | Aug 26, 2026 |
 
 ## How Ebay interviews
 
@@ -48,11 +48,14 @@ Here's what the interview process can look like:
 
 ## Free Ebay questions
 
-7 questions reported at Ebay open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+10 questions reported at Ebay open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Describe Your Most Technically Difficult Project](https://trueinterview.io/questions/describe-your-most-technically-difficult-project) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/describe-your-most-technically-difficult-project) |
+| [Investing in Deliberate Professional Growth](https://trueinterview.io/questions/investing-in-deliberate-professional-growth) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/investing-in-deliberate-professional-growth) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
+| [Answer senior behavioral questions](https://trueinterview.io/questions/answer-senior-behavioral-questions) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-senior-behavioral-questions) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Convert Snake Case to Camel Case](../../questions/algorithm/convert-snake-case-names-to-lowercamelcase/README.md) | Algorithm | Easy | Online assessment | Apr 2025 | [Solve](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) |
 | [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) |
@@ -62,7 +65,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 45 questions reported at Ebay](../ebay.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 48 questions reported at Ebay](../ebay.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Ebay question on TrueInterview](https://trueinterview.io/problems/company/ebay).
 
 ---

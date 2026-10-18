@@ -8,11 +8,11 @@ How Mistral AI interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [2](../mistral-ai.md) |
+| Questions reported | [9](../mistral-ai.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Apr 16, 2026 |
+| Most recent sighting | Sep 01, 2026 |
 
 ## How Mistral AI interviews
 
@@ -20,16 +20,23 @@ No written process guide yet. [The loop, as reported](../mistral-ai.md#the-loop-
 
 ## Free Mistral AI questions
 
-2 questions reported at Mistral AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Mistral AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) |
+| [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) |
+| [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) |
+| [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) |
+| [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) |
+| [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) |
+| [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) |
 | [Design a PDF-to-Markdown Inference API](../../questions/system-design/design-a-pdf-to-markdown-inference-api/README.md) | System Design | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api) |
 | [Compute Remaining GPUs With Switching Limits](../../questions/algorithm/compute-remaining-gpus-with-switching-limits/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) |
 
 ## Everything else
 
-- [All 2 questions reported at Mistral AI](../mistral-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 9 questions reported at Mistral AI](../mistral-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Mistral AI question on TrueInterview](https://trueinterview.io/problems/company/mistral-ai).
 
 ---

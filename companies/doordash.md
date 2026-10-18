@@ -2,7 +2,7 @@
 
 # DoorDash interview process, OA & interview questions
 
-**108 questions** reported at DoorDash · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
+**149 questions** reported at DoorDash · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How DoorDash interviews & the free questions](doordash/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,31 +14,31 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **108** |
+| Questions tracked | **149** |
 | Most recent sighting | Sep 16, 2026 |
-| Reported in the last 90 days | 12 |
-| Most common format | [Algorithm](../formats/algorithm.md) (39% of 108) |
+| Reported in the last 90 days | 21 |
+| Most common format | [Algorithm](../formats/algorithm.md) (28% of 149) |
 | Difficulty (easy / medium / hard) | 18 / 71 / 19 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [47](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 108 questions reported at DoorDash. 73 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 149 questions reported at DoorDash. 99 of them carry a sighting date; the other 50 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **108 of 108** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **149 of 149** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 8 | █ | [Algorithm](../formats/algorithm.md) (50%) | 6 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 56 | ██████████ | [Algorithm](../formats/algorithm.md) (52%) | 8 / 38 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 51 | █████████ | [System Design](../formats/system-design.md) (49%) | 4 / 37 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 9 | █ | [Algorithm](../formats/algorithm.md) (44%) | 6 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 67 | ████████ | [Algorithm](../formats/algorithm.md) (43%) | 8 / 38 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 80 | ██████████ | [Blog](../formats/blog.md) (36%) | 4 / 37 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**12 sightings** in this window. Newest first.
+**21 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,17 +47,19 @@ Which stage each question came from, for the **108 of 108** questions at DoorDas
 | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | System Design | Medium | Onsite / virtual onsite | Sep 10, 2026 |
 | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | System Design | Medium | Onsite / virtual onsite | Sep 10, 2026 |
 | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | System Design | Medium | Onsite / virtual onsite | Sep 05, 2026 |
+| [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | Blog | — | Onsite / virtual onsite | Sep 05, 2026 |
+| [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | Blog | — | Onsite / virtual onsite | Sep 05, 2026 |
+| [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | Blog | — | Onsite / virtual onsite | Sep 05, 2026 |
+| [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | Blog | — | Onsite / virtual onsite | Sep 05, 2026 |
+| [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | Blog | — | Onsite / virtual onsite | Sep 05, 2026 |
 | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Algorithm | Medium | Onsite / virtual onsite | Sep 01, 2026 |
 | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | System Design | Easy | Onsite / virtual onsite | Sep 01, 2026 |
-| [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | System Design | Hard | Onsite / virtual onsite | Sep 01, 2026 |
-| [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
-| [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
-| [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | Easy | Onsite / virtual onsite | Aug 16, 2026 |
-| [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
+
+<sub>9 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **40 questions at DoorDash that carry a topic label** (37% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **40 questions at DoorDash that carry a topic label** (27% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -80,19 +82,19 @@ Every recorded sighting at DoorDash, by the month it was reported in — Aug 23,
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 8 | ████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 4 | ████████ |
-| [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
-| [Jun 2026](../by-month/2026-06.md) | 5 | ██████████ |
-| [May 2026](../by-month/2026-05.md) | 12 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 10 | ████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 7 | ██████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 6 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 10 | ████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 5 | ██████████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
-| [Oct 2025](../by-month/2025-10.md) | 3 | ██████ |
-| [Aug 2025](../by-month/2025-08.md) | 1 | ██ |
+| [Sep 2026](../by-month/2026-09.md) | 17 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 4 | ██████ |
+| [Jul 2026](../by-month/2026-07.md) | 2 | ███ |
+| [Jun 2026](../by-month/2026-06.md) | 5 | ███████ |
+| [May 2026](../by-month/2026-05.md) | 14 | ████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 10 | ██████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 8 | ███████████ |
+| [Feb 2026](../by-month/2026-02.md) | 10 | ██████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 16 | ███████████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 5 | ███████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | █ |
+| [Oct 2025](../by-month/2025-10.md) | 6 | ████████ |
+| [Aug 2025](../by-month/2025-08.md) | 1 | █ |
 
 ## Start here
 
@@ -105,9 +107,9 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | **3** | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | System Design | Medium | — | Sep 10, 2026 |
 | **4** | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | Algorithm | Hard | — | Sep 10, 2026 |
 | **5** | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | System Design | Medium | — | Sep 05, 2026 |
-| **6** | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | System Design | Easy | — | Sep 01, 2026 |
-| **7** | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Algorithm | Medium | — | Sep 01, 2026 |
-| **8** | [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | System Design | Hard | — | Sep 01, 2026 |
+| **6** | [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) 🆓 | Blog | — | — | Sep 05, 2026 |
+| **7** | [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) 🆓 | Blog | — | — | Sep 05, 2026 |
+| **8** | [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) 🆓 | Blog | — | — | Sep 05, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -135,20 +137,31 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | Algorithm | Hard | 🆕 Sep 10, 2026 |
 | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | System Design | Medium | 🆕 Sep 10, 2026 |
 | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | System Design | Medium | 🆕 Sep 10, 2026 |
+| [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | Blog | — | 🆕 Sep 05, 2026 |
+| [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | Blog | — | 🆕 Sep 05, 2026 |
+| [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | Blog | — | 🆕 Sep 05, 2026 |
+| [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | Blog | — | 🆕 Sep 05, 2026 |
+| [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | Blog | — | 🆕 Sep 05, 2026 |
 | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | System Design | Medium | 🆕 Sep 05, 2026 |
+| [Resolve a Workplace Conflict](https://trueinterview.io/questions/resolve-a-workplace-conflict) | Blog | — | Sep 01, 2026 |
+| [Explain Why You Are Changing Roles](https://trueinterview.io/questions/explain-why-you-are-changing-roles) | Blog | — | Sep 01, 2026 |
+| [Explain an AI-Assisted Project](https://trueinterview.io/questions/explain-an-ai-assisted-project) | Blog | — | Sep 01, 2026 |
 | [Design a Multi-Service Workflow Engine](https://trueinterview.io/questions/design-a-multi-service-workflow-engine) | System Design | Hard | Sep 01, 2026 |
 | [Debug the Last-Element Random Allocation Case](https://trueinterview.io/questions/debug-the-last-element-random-allocation-case) | Algorithm | Medium | Sep 01, 2026 |
 | [Design a Food-Item Review System](https://trueinterview.io/questions/design-a-food-item-review-system) | System Design | Easy | Sep 01, 2026 |
+| [Hiring Manager Behavioral Round](https://trueinterview.io/questions/hm-behavioral-round) | Blog | — | Sep 01, 2026 |
 | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | Medium | Aug 16, 2026 |
 | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | Easy | Aug 16, 2026 |
 | [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Algorithm | Medium | Aug 16, 2026 |
 | [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Algorithm | Medium | Aug 16, 2026 |
 | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | AI Coding | Hard | Jul 02, 2026 |
+| [ML Knowledge / Discussion Round](https://trueinterview.io/questions/mle-ml-discussion-round) | Blog | — | Jul 02, 2026 |
 | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
 | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | Jun 11, 2026 |
 | [Design Food Review System](https://trueinterview.io/questions/system-design-food-review-system) | System Design | Medium | Jun 11, 2026 |
 | [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Object Oriented Programming | Medium | Jun 11, 2026 |
 | [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart) | Object Oriented Programming | Medium | Jun 10, 2026 |
+| [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions) | Blog | — | May 29, 2026 |
 | [Percent of Late Orders](https://trueinterview.io/questions/percent-of-late-orders) | SQL | Easy | May 23, 2026 |
 | [Orders with Offer Increase](https://trueinterview.io/questions/orders-with-offer-increase) | SQL | Easy | May 23, 2026 |
 | [Order-Level Request Statistics](https://trueinterview.io/questions/order-level-request-statistics) | SQL | Easy | May 23, 2026 |
@@ -160,6 +173,7 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | May 12, 2026 |
 | [Code Craft: Chef Skill → Dish Profit Assignment](https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment) | Algorithm | Medium | May 11, 2026 |
 | [Measure Daily Late-Order Rates by Delivery Zone](https://trueinterview.io/questions/measure-daily-late-order-rates-by-delivery-zone) | SQL | Medium | May 07, 2026 |
+| [Diagnose Cold-Food Deliveries and Make a Launch Decision](https://trueinterview.io/questions/diagnose-cold-food-deliveries-and-make-a-launch-decision) | Blog | — | May 07, 2026 |
 | [Code Craft: Bootstrap Aggregated API](https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api) | Object Oriented Programming | Medium | May 01, 2026 |
 | [Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS)](https://trueinterview.io/questions/code-craft-multi-source-bfs-grid) | Algorithm | Medium | Apr 29, 2026 |
 | [Calculate Order Request Metrics — Q 3](https://trueinterview.io/questions/calculate-order-request-metrics-q3) | SQL | Medium | Apr 25, 2026 |
@@ -177,33 +191,62 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Build UI from Mockup with API](https://trueinterview.io/questions/frontend-vo-build-ui) | Object Oriented Programming | Medium | Mar 20, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling) | SQL | Medium | Mar 16, 2026 |
+| [On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation) | Blog | — | Mar 15, 2026 |
 | [Code Craft: Similar Restaurant Names (K-Swap Anagram)](https://trueinterview.io/questions/code-craft-similar-restaurant-names) | Algorithm | Easy | Mar 13, 2026 |
+| [How would you mentor junior teammates?](https://trueinterview.io/questions/how-would-you-mentor-junior-teammates) | Blog | — | Feb 28, 2026 |
+| [Describe a Project End-to-End](https://trueinterview.io/questions/describe-a-project-end-to-end) | Blog | — | Feb 28, 2026 |
 | [Closest Binary Search Tree Value](https://trueinterview.io/questions/closest-binary-search-tree-value) | Algorithm | Medium | Feb 13, 2026 |
 | [Design experiments for marketplace product changes](https://trueinterview.io/questions/design-experiments-for-marketplace-product-changes) | System Design | Medium | Feb 09, 2026 |
 | [Code Craft: Batch with Capacity & Time Window](https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle) | Algorithm | Medium | Feb 07, 2026 |
+| [Evaluate a new ranking model](https://trueinterview.io/questions/evaluate-a-new-ranking-model) | Blog | — | Feb 06, 2026 |
 | [Design Real-Time Driver Pay Aggregation](https://trueinterview.io/questions/design-real-time-driver-pay-aggregation) | System Design | Hard | Feb 06, 2026 |
 | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Algorithm | Medium | Feb 04, 2026 |
 | [Find Each Cell's Nearest Source](https://trueinterview.io/questions/find-each-cells-nearest-source) | Algorithm | Medium | Feb 03, 2026 |
+| [Assess Adding Bicycle Dashers](https://trueinterview.io/questions/assess-adding-bicycle-dashers) | Blog | — | Feb 02, 2026 |
+| [Investigate High Memory Usage](https://trueinterview.io/questions/investigate-high-memory-usage) | Blog | — | Jan 31, 2026 |
 | [Menu Tree Diff — Count Changed Nodes](https://trueinterview.io/questions/code-craft-menu-tree-diff) | Algorithm | Hard | Jan 30, 2026 |
+| [How do you discuss mistakes and trade-offs?](https://trueinterview.io/questions/how-do-you-discuss-mistakes-and-trade-offs) | Blog | — | Jan 28, 2026 |
 | [Handle payment-service outages](https://trueinterview.io/questions/handle-payment-service-outages) | System Design | Hard | Jan 28, 2026 |
 | [Design an alert notification system](https://trueinterview.io/questions/design-an-alert-notification-system) | System Design | Hard | Jan 28, 2026 |
 | [Binary Tree Maximum Path Sum (with path reconstruction)](https://trueinterview.io/questions/binary-tree-max-path-sum) | Algorithm | Hard | Jan 26, 2026 |
+| [Diagnose completed orders drop in Los Angeles](https://trueinterview.io/questions/diagnose-completed-orders-drop-in-los-angeles) | Blog | — | Jan 25, 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
+| [Describe a conflict and how you resolved it](https://trueinterview.io/questions/describe-a-conflict-and-how-you-resolved-it) | Blog | — | Jan 18, 2026 |
 | [Design an API for pay computation with retries](https://trueinterview.io/questions/design-an-api-for-pay-computation-with-retries) | System Design | Medium | Jan 14, 2026 |
 | [Design a multi-channel notification system](https://trueinterview.io/questions/design-a-multi-channel-notification-system-2) | System Design | Medium | Jan 14, 2026 |
+| [Describe handling conflict and a proud project](https://trueinterview.io/questions/describe-handling-conflict-and-a-proud-project) | Blog | — | Jan 14, 2026 |
 | [Select the best dasher for an order](https://trueinterview.io/questions/select-the-best-dasher-for-an-order) | Algorithm | Easy | Jan 14, 2026 |
 | [Protect SLA and Choose Storage](https://trueinterview.io/questions/protect-sla-and-choose-storage) | System Design | Medium | Jan 09, 2026 |
 | [Calculate Courier Earnings](https://trueinterview.io/questions/calculate-courier-earnings) | Algorithm | Hard | Jan 09, 2026 |
+| [Answer feedback, conflict, and failure questions](https://trueinterview.io/questions/answer-feedback-conflict-and-failure-questions) | Blog | — | Jan 02, 2026 |
 | [Design a donations service with 3-day rolling totals](https://trueinterview.io/questions/design-a-donations-service-with-3-day-rolling-totals) | System Design | Medium | Dec 16, 2025 |
 | [Compute courier pay and implement load balancing](https://trueinterview.io/questions/compute-courier-pay-and-implement-load-balancing) | Object Oriented Programming | Hard | Dec 16, 2025 |
 | [Code Craft: Common Restaurant Pickup Order (LCS Variant)](https://trueinterview.io/questions/code-craft-common-restaurant-list) | Algorithm | Medium | Dec 11, 2025 |
 | [Find All 5-Minute Intervals](https://trueinterview.io/questions/code-craft-day-time-interval-codes) | Algorithm | Medium | Dec 08, 2025 |
 | [Code Craft: Cart with Promotions](https://trueinterview.io/questions/code-craft-cart-promotions-ood) | Object Oriented Programming | Medium | Dec 07, 2025 |
 | [Design experiment for bike delivery feature](https://trueinterview.io/questions/design-experiment-for-bike-delivery-feature) | System Design | Medium | Nov 15, 2025 |
+| [How would you prevent wrong items in deliveries?](https://trueinterview.io/questions/how-would-you-prevent-wrong-items-in-deliveries) | Blog | — | Oct 17, 2025 |
 | [Design a scalable recommendation serving system](https://trueinterview.io/questions/design-a-scalable-recommendation-serving-system) | System Design | Medium | Oct 17, 2025 |
 | [Find closest value to a target in a BST](https://trueinterview.io/questions/find-closest-value-to-a-target-in-a-bst) | Algorithm | Medium | Oct 17, 2025 |
+| [Walk Through an ETL Project](https://trueinterview.io/questions/walk-through-an-etl-project) | Blog | — | Oct 12, 2025 |
 | [Compute Fitness App DAU](https://trueinterview.io/questions/compute-fitness-app-dau) | SQL | Medium | Oct 12, 2025 |
+| [Allocate Support Cost and Diagnose Decline](https://trueinterview.io/questions/allocate-support-cost-and-diagnose-decline) | Blog | — | Oct 12, 2025 |
 | [Find Closest Dashmart](https://trueinterview.io/questions/find-closest-dashmart) | Algorithm | Medium | Aug 23, 2025 |
+| [Prioritize projects and manage tight deadlines](https://trueinterview.io/questions/prioritize-projects-and-manage-tight-deadlines) | Blog | — | — |
+| [Handle conflict and time-pressured decision](https://trueinterview.io/questions/handle-conflict-and-time-pressured-decision) | Blog | — | — |
+| [Explain why DoorDash and job change](https://trueinterview.io/questions/explain-why-doordash-and-job-change) | Blog | — | — |
+| [Explain motivation and align expectations for L4 role](https://trueinterview.io/questions/explain-motivation-and-align-expectations-for-l4-role) | Blog | — | — |
+| [Explain interest and influence stakeholders](https://trueinterview.io/questions/explain-interest-and-influence-stakeholders) | Blog | — | — |
+| [Experiment on increasing order notifications](https://trueinterview.io/questions/experiment-on-increasing-order-notifications) | Blog | — | — |
+| [Diagnose and experiment to reduce late deliveries](https://trueinterview.io/questions/diagnose-and-experiment-to-reduce-late-deliveries) | Blog | — | — |
+| [Design and analyze a switchback experiment](https://trueinterview.io/questions/design-and-analyze-a-switchback-experiment) | Blog | — | — |
+| [Design analytics for a new-market launch](https://trueinterview.io/questions/design-analytics-for-a-new-market-launch) | Blog | — | — |
+| [Design an experiment for thermal bags](https://trueinterview.io/questions/design-an-experiment-for-thermal-bags) | Blog | — | — |
+| [Design an experiment for order batching](https://trueinterview.io/questions/design-an-experiment-for-order-batching) | Blog | — | — |
+| [Define and compute retention and churn precisely](https://trueinterview.io/questions/define-and-compute-retention-and-churn-precisely) | Blog | — | — |
+| [Decompose and optimize delivery operational costs](https://trueinterview.io/questions/decompose-and-optimize-delivery-operational-costs) | Blog | — | — |
+| [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | Blog | — | — |
+| [Calculate power and test duration](https://trueinterview.io/questions/calculate-power-and-test-duration) | Blog | — | — |
 | [Build ETA prediction and simulate impact](https://trueinterview.io/questions/build-eta-prediction-and-simulate-impact) | System Design | Medium | — |
 | [Build a late-delivery risk model](https://trueinterview.io/questions/build-a-late-delivery-risk-model) | System Design | Medium | — |
 | [Write SQL to backtest refund policy](https://trueinterview.io/questions/write-sql-to-backtest-refund-policy) | SQL | Hard | — |

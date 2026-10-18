@@ -2,7 +2,7 @@
 
 # Goldman Sachs interview process, OA & interview questions
 
-**53 questions** reported at Goldman Sachs · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
+**68 questions** reported at Goldman Sachs · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Goldman Sachs interviews & the free questions](goldman-sachs/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,41 +14,47 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **53** |
+| Questions tracked | **68** |
 | Most recent sighting | Sep 13, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (77% of 53) |
+| Reported in the last 90 days | 9 |
+| Most common format | [Algorithm](../formats/algorithm.md) (60% of 68) |
 | Difficulty (easy / medium / hard) | 16 / 33 / 4 |
-| Free to practise | [24](../free/README.md) |
+| Free to practise | [40](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 53 questions reported at Goldman Sachs. 40 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 68 questions reported at Goldman Sachs. 55 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **53 of 53** questions at Goldman Sachs that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **68 of 68** questions at Goldman Sachs that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 20 | ████████ | [Algorithm](../formats/algorithm.md) (100%) | 7 / 13 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 25 | ██████████ | [Algorithm](../formats/algorithm.md) (84%) | 5 / 16 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 13 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (46%) | 5 / 8 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 28 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 7 / 13 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 30 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 5 / 16 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 15 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (40%) | 5 / 8 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**9 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 13, 2026 |
 | [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Easy | Onsite / virtual onsite | Sep 13, 2026 |
+| [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) | Blog | — | Online assessment | Sep 02, 2026 |
+| [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) | Blog | — | Online assessment | Sep 02, 2026 |
+| [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) | Blog | — | Online assessment | Sep 02, 2026 |
+| [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) | Blog | — | Online assessment | Sep 02, 2026 |
+| [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) | Blog | — | Online assessment | Sep 02, 2026 |
+| [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) | Blog | — | Online assessment | Sep 02, 2026 |
 | [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Easy | Onsite / virtual onsite | Aug 15, 2026 |
 
 ## What they ask about
 
-Of the **40 questions at Goldman Sachs that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **40 questions at Goldman Sachs that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -71,37 +77,38 @@ Every recorded sighting at Goldman Sachs, by the month it was reported in — Oc
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 2 | █████ |
+| [Sep 2026](../by-month/2026-09.md) | 8 | █████████████████████ |
 | [Aug 2026](../by-month/2026-08.md) | 1 | ███ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
 | [Jun 2026](../by-month/2026-06.md) | 4 | ███████████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ███ |
+| [May 2026](../by-month/2026-05.md) | 3 | ████████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | █████ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | █████ |
 | [Feb 2026](../by-month/2026-02.md) | 2 | █████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | █████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | █████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
+| [Dec 2025](../by-month/2025-12.md) | 4 | ███████████ |
+| [Nov 2025](../by-month/2025-11.md) | 3 | ████████ |
+| [Oct 2025](../by-month/2025-10.md) | 2 | █████ |
 | [Sep 2025](../by-month/2025-09.md) | 4 | ███████████ |
 | [Jul 2025](../by-month/2025-07.md) | 1 | ███ |
-| [Jun 2025](../by-month/2025-06.md) | 2 | █████ |
-| [Nov 2024](../by-month/2024-11.md) | 4 | ███████████ |
+| [Jun 2025](../by-month/2025-06.md) | 3 | ████████ |
+| [Dec 2024](../by-month/2024-12.md) | 1 | ███ |
+| [Nov 2024](../by-month/2024-11.md) | 5 | █████████████ |
 | [Oct 2024](../by-month/2024-10.md) | 9 | ████████████████████████ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Goldman Sachs, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Goldman Sachs, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Easy | — | Sep 13, 2026 |
 | **2** | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Object Oriented Programming | Medium | — | Sep 13, 2026 |
-| **3** | [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Easy | — | Aug 15, 2026 |
-| **4** | [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Algorithm | Medium | — | Jul 06, 2026 |
-| **5** | [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Object Oriented Programming | Medium | — | Jun 21, 2026 |
-| **6** | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Object Oriented Programming | Easy | — | Jun 18, 2026 |
-| **7** | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Easy | — | Jun 18, 2026 |
-| **8** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 5 | Jun 16, 2026 |
+| **3** | [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) 🆓 | Blog | — | — | Sep 02, 2026 |
+| **4** | [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) 🆓 | Blog | — | — | Sep 02, 2026 |
+| **5** | [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) 🆓 | Blog | — | — | Sep 02, 2026 |
+| **6** | [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) 🆓 | Blog | — | — | Sep 02, 2026 |
+| **7** | [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) 🆓 | Blog | — | — | Sep 02, 2026 |
+| **8** | [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) 🆓 | Blog | — | — | Sep 02, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -125,12 +132,20 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | :-- | :-- | :-: | :-- |
 | [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Easy | 🆕 Sep 13, 2026 |
 | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Object Oriented Programming | Medium | 🆕 Sep 13, 2026 |
+| [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) | Blog | — | Sep 02, 2026 |
+| [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) | Blog | — | Sep 02, 2026 |
+| [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) | Blog | — | Sep 02, 2026 |
+| [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) | Blog | — | Sep 02, 2026 |
+| [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) | Blog | — | Sep 02, 2026 |
+| [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) | Blog | — | Sep 02, 2026 |
 | [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Easy | Aug 15, 2026 |
 | [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Algorithm | Medium | Jul 06, 2026 |
 | [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Object Oriented Programming | Medium | Jun 21, 2026 |
 | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Easy | Jun 18, 2026 |
 | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Object Oriented Programming | Easy | Jun 18, 2026 |
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
+| [Math and Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank) | Blog | — | May 30, 2026 |
+| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) | Blog | — | May 13, 2026 |
 | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | May 2026 |
 | [String Compression](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | Apr 03, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
@@ -139,9 +154,13 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | [Transaction Authorizer / Fraud Checks](https://trueinterview.io/questions/transaction-authorizer-fraud-checks) | Object Oriented Programming | Medium | Feb 12, 2026 |
 | [Movement Command Controller](https://trueinterview.io/questions/movement-command-controller) | Algorithm | Easy | Feb 05, 2026 |
 | [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Object Oriented Programming | Medium | Dec 22, 2025 |
+| [Describe a proud project and handling credit conflict](https://trueinterview.io/questions/describe-a-proud-project-and-handling-credit-conflict) | Blog | — | Dec 15, 2025 |
 | [First Unique Element III](https://trueinterview.io/questions/first-unique-character) | Algorithm | Easy | Dec 12, 2025 |
+| [How would you handle conflict and data pressure?](https://trueinterview.io/questions/how-would-you-handle-conflict-and-data-pressure) | Blog | — | Dec 09, 2025 |
 | [Transaction Segments / Increasing Subarrays of Length K](https://trueinterview.io/questions/transaction-segments-increasing-subarrays) | Algorithm | Easy | Nov 25, 2025 |
 | [Efficient Tasks / Three-Server Difficulty Split](https://trueinterview.io/questions/efficient-tasks-three-server-difficulty) | Algorithm | Medium | Nov 25, 2025 |
+| [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/questions/hirevue-behavioral-six-questions) | Blog | — | Nov 06, 2025 |
+| [Evaluate TPR/FPR, sigmoid, and activations](https://trueinterview.io/questions/evaluate-tpr-fpr-sigmoid-and-activations) | Blog | — | Oct 10, 2025 |
 | [Complete decision tree and gradient descent functions](https://trueinterview.io/questions/complete-decision-tree-and-gradient-descent-functions) | Algorithm | Medium | Oct 10, 2025 |
 | [Process Starvation Time](https://trueinterview.io/questions/process-starvation-time) | Algorithm | Medium | Sep 22, 2025 |
 | [Ethernet Cable Square Count](https://trueinterview.io/questions/ethernet-cable-square-count) | Algorithm | Easy | Sep 22, 2025 |
@@ -150,7 +169,10 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | [Decode Ways / Alphanumeric Combination](https://trueinterview.io/questions/decode-ways) | Algorithm | Medium | Jul 11, 2025 |
 | [Extend Queue: Min-Size & Min-Sum Selector](https://trueinterview.io/questions/queue-extension-min-size-min-sum) | Object Oriented Programming | Medium | Jun 09, 2025 |
 | [Merge K Sorted Lists (incl. K = 3)](https://trueinterview.io/questions/merge-k-sorted-lists-3) | Algorithm | Medium | Jun 09, 2025 |
+| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/questions/horse-race-25) | Blog | — | Jun 09, 2025 |
+| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/questions/explain-recursion-no-cs-audience) | Blog | — | Dec 05, 2024 |
 | [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring) | Algorithm | Easy | Nov 21, 2024 |
+| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/questions/hash-collision-fundamentals) | Blog | — | Nov 21, 2024 |
 | [Spiral Matrix Traversal](https://trueinterview.io/questions/spiral-matrix-output) | Algorithm | Medium | Nov 15, 2024 |
 | [Maximum-Sum Path in a Matrix (No Revisits)](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat) | Algorithm | Hard | Nov 15, 2024 |
 | [Second-Smallest Unique Element](https://trueinterview.io/questions/second-smallest-unique-element) | Algorithm | Easy | Nov 14, 2024 |

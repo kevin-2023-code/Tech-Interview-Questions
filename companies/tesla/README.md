@@ -8,7 +8,7 @@ How Tesla interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [45](../tesla.md) |
+| Questions reported | [52](../tesla.md) |
 | Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -49,12 +49,19 @@ Here's what the interview process can look like:
 
 ## Free Tesla questions
 
-9 questions reported at Tesla open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+16 questions reported at Tesla open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Use Metrics and Logs to Establish a Production Root Cause](https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause) |
+| [Investigate Recurring Bugs and Prevent the Same Failure from Returning](https://trueinterview.io/questions/investigate-recurring-bugs-and-prevent-the-same-failure-from-returning) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/investigate-recurring-bugs-and-prevent-the-same-failure-from-returning) |
+| [Discuss Distributed-System Experience with Go, Java, Spark, and Elasticsearch](https://trueinterview.io/questions/discuss-distributed-system-experience-with-go-java-spark-and-elasticsearch) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/discuss-distributed-system-experience-with-go-java-spark-and-elasticsearch) |
+| [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral) |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
+| [Battery Cell Quality Statistical Case](https://trueinterview.io/questions/battery-cell-quality-statistical-case) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/battery-cell-quality-statistical-case) |
 | [Shortest Bridge](../../questions/algorithm/shortest-bridge-2/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/shortest-bridge-2) |
+| [Explain reliability and runtime fundamentals](https://trueinterview.io/questions/explain-reliability-and-runtime-fundamentals) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-reliability-and-runtime-fundamentals) |
+| [Describe conflict and proudest work](https://trueinterview.io/questions/describe-conflict-and-proudest-work) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-conflict-and-proudest-work) |
 | [Robot Room Navigation Take-Home](../../questions/algorithm/robot-room-navigation-takehome/README.md) | Algorithm | Hard | Take-home | Sep 2025 | [Solve](https://trueinterview.io/questions/robot-room-navigation-takehome) |
 | [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md) | AI Coding | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/dijkstra-code-review-navigation) |
 | [Priority Expiry LRU Cache](../../questions/object-oriented-programming/priority-expire-cache-eviction/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/priority-expire-cache-eviction) |
@@ -65,7 +72,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 45 questions reported at Tesla](../tesla.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 52 questions reported at Tesla](../tesla.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Tesla question on TrueInterview](https://trueinterview.io/problems/company/tesla).
 
 ---

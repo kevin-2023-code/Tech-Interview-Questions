@@ -8,8 +8,8 @@ How Reddit interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [35](../reddit.md) |
-| Free to read here | 8 |
+| Questions reported | [47](../reddit.md) |
+| Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
@@ -50,22 +50,35 @@ Here's what the interview process can look like:
 
 ## Free Reddit questions
 
-8 questions reported at Reddit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at Reddit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain and Reduce Position Bias in Ranking](https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking) |
 | [Moderator List Hierarchy](../../questions/algorithm/moderator-list-hierarchy/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/moderator-list-hierarchy) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
+| [ML Fundamentals](https://trueinterview.io/questions/ml-fundamentals) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/ml-fundamentals) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design Online Game Leaderboard](../../questions/system-design/design-a-gaming-leaderboard-service/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
+| [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/product-sense-improve-onboarding) |
+| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Report Chain](../../questions/object-oriented-programming/report-chain/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/report-chain) |
+| [Model y from x and interpret distributions](https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions) |
+| [Describe a failure and a success](https://trueinterview.io/questions/describe-a-failure-and-a-success) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-a-failure-and-a-success) |
+| [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/hiring-manager-domain-round) |
+| [Prioritize competing engineering requests](https://trueinterview.io/questions/prioritize-competing-engineering-requests) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/prioritize-competing-engineering-requests) |
+| [Collaborate with PM and Eng as DS](https://trueinterview.io/questions/collaborate-with-pm-and-eng-as-ds) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/collaborate-with-pm-and-eng-as-ds) |
 | [Dictionary Word Transformation Path](../../questions/algorithm/dictionary-word-transformation-path/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/dictionary-word-transformation-path) |
+| [Cross-Functional & PM Behavioral](https://trueinterview.io/questions/cross-functional-pm-bq) | Blog | — | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/cross-functional-pm-bq) |
+| [Justify synthetic control and handle inference](https://trueinterview.io/questions/justify-synthetic-control-and-handle-inference) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/justify-synthetic-control-and-handle-inference) |
+| [Design a causal evaluation without A/B testing](https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing) |
+| [Communicate and de-risk a non-experimental launch](https://trueinterview.io/questions/communicate-and-de-risk-a-non-experimental-launch) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/communicate-and-de-risk-a-non-experimental-launch) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 
 ## Everything else
 
-- [All 35 questions reported at Reddit](../reddit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 47 questions reported at Reddit](../reddit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Reddit question on TrueInterview](https://trueinterview.io/problems/company/reddit).
 
 ---

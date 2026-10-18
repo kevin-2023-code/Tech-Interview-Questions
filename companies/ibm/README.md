@@ -8,7 +8,7 @@ How IBM interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [34](../ibm.md) |
+| Questions reported | [40](../ibm.md) |
 | Free to read here | 10 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,10 +47,16 @@ Here's what the interview process can look like:
 
 ## Free IBM questions
 
-10 questions reported at IBM open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+16 questions reported at IBM open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/questions/devsecops-kubernetes-cicd-screen) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/devsecops-kubernetes-cicd-screen) |
+| [Competency and Resume Interview](https://trueinterview.io/questions/competency-and-resume-interview) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/competency-and-resume-interview) |
+| [Estimate free-trial conversion probability](https://trueinterview.io/questions/estimate-free-trial-conversion-probability) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/estimate-free-trial-conversion-probability) |
+| [How do you detect and fix multicollinearity?](https://trueinterview.io/questions/how-do-you-detect-and-fix-multicollinearity) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/how-do-you-detect-and-fix-multicollinearity) |
+| [Describe building statistical vs ML models](https://trueinterview.io/questions/describe-building-statistical-vs-ml-models) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/describe-building-statistical-vs-ml-models) |
+| [How would you use generative AI at work?](https://trueinterview.io/questions/how-would-you-use-generative-ai-at-work) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-use-generative-ai-at-work) |
 | [Rate Limiter by IP Address](../../questions/algorithm/rate-limiter-by-ip-address/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/rate-limiter-by-ip-address) |
 | [Minimum Link Reallocation to Connect Repositories](../../questions/algorithm/minimum-link-reallocation/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-link-reallocation) |
 | [Sliding-Window Rate Limiter / Abuse IP Detection](../../questions/algorithm/sliding-window-rate-limiter-and-abuse-ips/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) |
@@ -64,7 +70,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 34 questions reported at IBM](../ibm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 40 questions reported at IBM](../ibm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every IBM question on TrueInterview](https://trueinterview.io/problems/company/ibm).
 
 ---

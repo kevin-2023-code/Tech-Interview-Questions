@@ -8,7 +8,7 @@ How Square interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [14](../square.md) |
+| Questions reported | [16](../square.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,18 @@ No written process guide yet. [The loop, as reported](../square.md#the-loop-as-r
 
 ## Free Square questions
 
-2 questions reported at Square open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at Square open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) |
+| [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) |
 | [Stock Trading Agent System Design](../../questions/system-design/stock-trading-agent-system-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/stock-trading-agent-system-design) |
 | [Design Stock Trading Platform](../../questions/system-design/design-a-stock-order-trade-management-system/README.md) | System Design | Hard | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) |
 
 ## Everything else
 
-- [All 14 questions reported at Square](../square.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 16 questions reported at Square](../square.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Square question on TrueInterview](https://trueinterview.io/problems/company/square).
 
 ---

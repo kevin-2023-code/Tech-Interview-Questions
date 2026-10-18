@@ -8,7 +8,7 @@ How Instacart interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [38](../instacart.md) |
+| Questions reported | [64](../instacart.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,18 +48,44 @@ Here's what the interview process can look like:
 
 ## Free Instacart questions
 
-4 questions reported at Instacart open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+30 questions reported at Instacart open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) |
+| [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) |
+| [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) |
+| [Respond to Negative Feedback About Your Work](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
+| [Investigate marketplace metrics and experiment rollout](https://trueinterview.io/questions/investigate-marketplace-metrics-and-experiment-rollout) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/investigate-marketplace-metrics-and-experiment-rollout) |
+| [Analyze an A/B test and present recommendation](https://trueinterview.io/questions/analyze-an-a-b-test-and-present-recommendation) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/analyze-an-a-b-test-and-present-recommendation) |
+| [Present an A/B test project review](https://trueinterview.io/questions/present-an-a-b-test-project-review) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/present-an-a-b-test-project-review) |
 | [Pivot Table Profit Analyzer](../../questions/algorithm/pivot-table-profit-analyzer/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/pivot-table-profit-analyzer) |
+| [Summarize your background concisely](https://trueinterview.io/questions/summarize-your-background-concisely) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/summarize-your-background-concisely) |
+| [Solve a challenge using data](https://trueinterview.io/questions/solve-a-challenge-using-data) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/solve-a-challenge-using-data) |
+| [Should you roll out if NSM decreases?](https://trueinterview.io/questions/should-you-roll-out-if-nsm-decreases) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/should-you-roll-out-if-nsm-decreases) |
+| [Recommend and validate a budget allocation strategy](https://trueinterview.io/questions/recommend-and-validate-a-budget-allocation-strategy) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/recommend-and-validate-a-budget-allocation-strategy) |
+| [Prioritize conflicting tasks under shifting deadlines](https://trueinterview.io/questions/prioritize-conflicting-tasks-under-shifting-deadlines) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/prioritize-conflicting-tasks-under-shifting-deadlines) |
+| [Lead a zero-to-one initiative effectively](https://trueinterview.io/questions/lead-a-zero-to-one-initiative-effectively) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/lead-a-zero-to-one-initiative-effectively) |
+| [Justify Instacart fit and leaving your role](https://trueinterview.io/questions/justify-instacart-fit-and-leaving-your-role) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/justify-instacart-fit-and-leaving-your-role) |
+| [Improve low R² without p‑hacking](https://trueinterview.io/questions/improve-low-r2-without-phacking) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/improve-low-r2-without-phacking) |
+| [How would you investigate a metric decline?](https://trueinterview.io/questions/how-would-you-investigate-a-metric-decline) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/how-would-you-investigate-a-metric-decline) |
+| [How to debug an apparent D14 retention drop](https://trueinterview.io/questions/how-to-debug-an-apparent-d14-retention-drop) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/how-to-debug-an-apparent-d14-retention-drop) |
+| [Explain handling very large datasets](https://trueinterview.io/questions/explain-handling-very-large-datasets) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-handling-very-large-datasets) |
+| [Evaluate Miami Ultrafast impact on orders](https://trueinterview.io/questions/evaluate-miami-ultrafast-impact-on-orders) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/evaluate-miami-ultrafast-impact-on-orders) |
+| [Diagnose Sunday Miami same‑day outages](https://trueinterview.io/questions/diagnose-sunday-miami-sameday-outages) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/diagnose-sunday-miami-sameday-outages) |
+| [Diagnose and fix low conversion rigorously](https://trueinterview.io/questions/diagnose-and-fix-low-conversion-rigorously) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-and-fix-low-conversion-rigorously) |
+| [Describe cross-team collaboration approach](https://trueinterview.io/questions/describe-cross-team-collaboration-approach) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-cross-team-collaboration-approach) |
+| [Describe cross-functional collaboration under time pressure](https://trueinterview.io/questions/describe-cross-functional-collaboration-under-time-pressure) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-cross-functional-collaboration-under-time-pressure) |
+| [Define what you seek next, with trade-offs](https://trueinterview.io/questions/define-what-you-seek-next-with-trade-offs) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/define-what-you-seek-next-with-trade-offs) |
+| [Compute duration and stopping rules correctly](https://trueinterview.io/questions/compute-duration-and-stopping-rules-correctly) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/compute-duration-and-stopping-rules-correctly) |
+| [Analyze A/B test with revenue–cost tradeoffs](https://trueinterview.io/questions/analyze-a-b-test-with-revenuecost-tradeoffs) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/analyze-a-b-test-with-revenuecost-tradeoffs) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/task-management-system) |
 
 ## Everything else
 
-- [All 38 questions reported at Instacart](../instacart.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 64 questions reported at Instacart](../instacart.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Instacart question on TrueInterview](https://trueinterview.io/problems/company/instacart).
 
 ---

@@ -8,7 +8,7 @@ How Yelp interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [19](../yelp.md) |
+| Questions reported | [22](../yelp.md) |
 | Free to read here | 11 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,10 +20,12 @@ No written process guide yet. [The loop, as reported](../yelp.md#the-loop-as-rep
 
 ## Free Yelp questions
 
-11 questions reported at Yelp open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Yelp open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Recommend a Decision After a Nonsignificant Experiment](https://trueinterview.io/questions/recommend-a-decision-after-a-nonsignificant-experiment) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/recommend-a-decision-after-a-nonsignificant-experiment) |
+| [Estimate Experiment Duration with Power Analysis](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
@@ -34,11 +36,12 @@ No written process guide yet. [The loop, as reported](../yelp.md#the-loop-as-rep
 | [Merge Common Substring](../../questions/algorithm/merge-common-substring/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/merge-common-substring) |
 | [Jaccard Business Similarity](../../questions/algorithm/jaccard-business-similarity/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/jaccard-business-similarity) |
 | [Find Destination Node](../../questions/algorithm/find-destination-node/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/find-destination-node) |
+| [Handle PM Ambiguity and Drive Outcomes](https://trueinterview.io/questions/handle-pm-ambiguity-and-drive-outcomes) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/handle-pm-ambiguity-and-drive-outcomes) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 
 ## Everything else
 
-- [All 19 questions reported at Yelp](../yelp.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 22 questions reported at Yelp](../yelp.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Yelp question on TrueInterview](https://trueinterview.io/problems/company/yelp).
 
 ---

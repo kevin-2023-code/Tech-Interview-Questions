@@ -8,7 +8,7 @@ How Boston Consulting Group interviews, and the questions candidates reported th
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [10](../boston-consulting-group.md) |
+| Questions reported | [19](../boston-consulting-group.md) |
 | Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,17 +20,26 @@ No written process guide yet. [The loop, as reported](../boston-consulting-group
 
 ## Free Boston Consulting Group questions
 
-3 questions reported at Boston Consulting Group open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at Boston Consulting Group open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Discuss languages, packages, and tools you know](https://trueinterview.io/questions/discuss-languages-packages-and-tools-you-know) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/discuss-languages-packages-and-tools-you-know) |
+| [Answer common behavioral questions using STAR](https://trueinterview.io/questions/answer-common-behavioral-questions-using-star) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-common-behavioral-questions-using-star) |
+| [Summarize impact and lessons from your resume](https://trueinterview.io/questions/summarize-impact-and-lessons-from-your-resume) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/summarize-impact-and-lessons-from-your-resume) |
+| [Reduce overfitting under constraints](https://trueinterview.io/questions/reduce-overfitting-under-constraints) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/reduce-overfitting-under-constraints) |
+| [Explain AUC, activations, ensembles, and imbalance](https://trueinterview.io/questions/explain-auc-activations-ensembles-and-imbalance) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/explain-auc-activations-ensembles-and-imbalance) |
+| [Defend MSE over MAE for car prices](https://trueinterview.io/questions/defend-mse-over-mae-for-car-prices) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/defend-mse-over-mae-for-car-prices) |
+| [Compute posterior and predictive coin probabilities](https://trueinterview.io/questions/compute-posterior-and-predictive-coin-probabilities) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/compute-posterior-and-predictive-coin-probabilities) |
+| [Compute averages and binomial/Poisson probabilities](https://trueinterview.io/questions/compute-averages-and-binomial-poisson-probabilities) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/compute-averages-and-binomial-poisson-probabilities) |
+| [Build and evaluate imbalanced binary classifier](https://trueinterview.io/questions/build-and-evaluate-imbalanced-binary-classifier) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/build-and-evaluate-imbalanced-binary-classifier) |
 | [Palindrome String Check (Handle Empty and Null)](../../questions/algorithm/palindrome-string-check-handle-empty-and-null/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) |
 | [Palindrome Detection](../../questions/algorithm/palindrome-detection/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) |
 
 ## Everything else
 
-- [All 10 questions reported at Boston Consulting Group](../boston-consulting-group.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 19 questions reported at Boston Consulting Group](../boston-consulting-group.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Boston Consulting Group question on TrueInterview](https://trueinterview.io/problems/company/boston-consulting-group).
 
 ---

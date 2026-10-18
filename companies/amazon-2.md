@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**350 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**467 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,123 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Explain ML evaluation, sequence models, and optimizers](https://trueinterview.io/questions/explain-ml-evaluation-sequence-models-and-optimizers) | Blog | — | Dec 15, 2025 |
+| [Explain core ML concepts and diagnostics](https://trueinterview.io/questions/explain-core-ml-concepts-and-diagnostics) | Blog | — | Dec 15, 2025 |
+| [Implement K-means and solve interval/frequency tasks](https://trueinterview.io/questions/implement-k-means-and-solve-interval-frequency-tasks) | Algorithm | Medium | Dec 15, 2025 |
+| [First Unique Element III](https://trueinterview.io/questions/first-unique-character) | Algorithm | Easy | Dec 12, 2025 |
+| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
+| [Maximum Interval Overlap Count](https://trueinterview.io/questions/maximum-interval-overlap-count) | Algorithm | Medium | Dec 05, 2025 |
+| [Compute peak parking lot occupancy intervals](https://trueinterview.io/questions/compute-peak-parking-lot-occupancy-intervals) | Algorithm | Hard | Dec 02, 2025 |
+| [Answer Leadership and GenAI Behavioral Questions](https://trueinterview.io/questions/answer-leadership-and-genai-behavioral-questions) | Blog | — | Nov 22, 2025 |
+| [Implement Interview Coding Problems](https://trueinterview.io/questions/implement-interview-coding-problems) | Algorithm | Hard | Nov 22, 2025 |
+| [Explain surprisal and its units](https://trueinterview.io/questions/explain-surprisal-and-its-units) | Blog | — | Nov 20, 2025 |
+| [Find recommended friend pairs by shared listening](https://trueinterview.io/questions/find-recommended-friend-pairs-by-shared-listening) | SQL | Medium | Nov 20, 2025 |
+| [Function Inclusive / Exclusive Time](https://trueinterview.io/questions/coding-function-exclusive-inclusive-time) | Algorithm | Medium | Nov 20, 2025 |
+| [Design LFU cache with distributed extension](https://trueinterview.io/questions/design-lfu-cache-with-distributed-extension) | Object Oriented Programming | Medium | Nov 18, 2025 |
+| [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Nov 18, 2025 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Nov 08, 2025 |
+| [Write SQL window functions for D7 retention](https://trueinterview.io/questions/write-sql-window-functions-for-d7-retention) | SQL | Medium | Nov 04, 2025 |
+| [How would you evaluate adding video ads?](https://trueinterview.io/questions/how-would-you-evaluate-adding-video-ads) | System Design | Medium | Nov 04, 2025 |
+| [Compute an A/B test p-value by hand](https://trueinterview.io/questions/compute-an-a-b-test-p-value-by-hand) | Blog | — | Nov 04, 2025 |
+| [URL reachability from navigation table](https://trueinterview.io/questions/solve-two-set-and-graph-problems-url-reachability-from-navigation-table) | Algorithm | Medium | Oct 31, 2025 |
+| [Describe failure, conflict, metrics, and AI lessons](https://trueinterview.io/questions/describe-failure-conflict-metrics-and-ai-lessons) | Blog | — | Oct 31, 2025 |
+| [Explain core components of reinforcement learning](https://trueinterview.io/questions/explain-core-components-of-reinforcement-learning) | Blog | — | Oct 26, 2025 |
+| [Check if adding edge creates cycle in digraph](https://trueinterview.io/questions/check-if-adding-edge-creates-cycle-in-digraph) | Algorithm | Medium | Oct 26, 2025 |
+| [Answer common leadership prompts](https://trueinterview.io/questions/answer-common-leadership-prompts) | Blog | — | Oct 24, 2025 |
+| [Describe a complex problem you solved](https://trueinterview.io/questions/describe-a-complex-problem-you-solved) | Blog | — | Oct 18, 2025 |
+| [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
+| [Walk through an A/B test end-to-end](https://trueinterview.io/questions/walk-through-an-a-b-test-end-to-end) | Blog | — | Oct 11, 2025 |
+| [Explain core ML concepts and metrics](https://trueinterview.io/questions/explain-core-ml-concepts-and-metrics) | Blog | — | Oct 11, 2025 |
+| [Oldest One-Time Visitor](https://trueinterview.io/questions/oldest-one-time-visitor) | Object Oriented Programming | Medium | Aug 23, 2025 |
+| [Merge Multiple Timestamp-Sorted Event Streams](https://trueinterview.io/questions/f9d4f6f9-8614-52f4-b0a7-03d4f4f78ed7) | Algorithm | Medium | — |
+| [Minimum Edge Moves to Connect a Graph](https://trueinterview.io/questions/9f5e5a76-c43a-54fe-9d99-d0966ec173fa) | Algorithm | Medium | — |
+| [Maximize Shipment Order](https://trueinterview.io/questions/88bd164f-3bb4-5381-ab57-3bf1a647136b) | Algorithm | Hard | — |
+| [Maximum Island Area](https://trueinterview.io/questions/7e84bc82-8c78-5110-8f99-f6d0e37284d6) | Algorithm | Easy | — |
+| [Environment Variable String Substitution](https://trueinterview.io/questions/6dbf0445-8381-5636-856e-1bbfc9ab7fbf) | Algorithm | Medium | — |
+| [Squirrel Simulation](https://trueinterview.io/questions/67319d80-5715-5201-9d96-a76d0cd7742a) | Algorithm | Medium | — |
+| [Rerun Affected Tasks After Changes](https://trueinterview.io/questions/5c3a4ba3-9d72-53dc-9a93-75624d55ff79) | Algorithm | Medium | — |
+| [Minimum Moves to Capture the King](https://trueinterview.io/questions/51075cc5-b0a2-585b-a6b3-7b4eb3cfdf7f) | Algorithm | Medium | — |
+| [Extensible Folder Document Search Library](https://trueinterview.io/questions/37a8867d-11c8-5542-8720-cbcdeb63e9eb) | Object Oriented Programming | Medium | — |
+| [Reachability in a Grid Without Turning](https://trueinterview.io/questions/212ec245-7970-5c53-9787-789ae57663b6) | Algorithm | Easy | — |
+| [Word Search (LC 79)](https://trueinterview.io/questions/word-search-lc-79) | Algorithm | Medium | — |
+| [Design end-to-end regression for energy demand](https://trueinterview.io/questions/design-end-to-end-regression-for-energy-demand) | System Design | Medium | — |
+| [Write and explain gradient descent pseudocode](https://trueinterview.io/questions/write-and-explain-gradient-descent-pseudocode) | Algorithm | Medium | — |
+| [Validate DID and IV assumptions rigorously](https://trueinterview.io/questions/validate-did-and-iv-assumptions-rigorously) | Blog | — | — |
+| [Root-cause an incident and drive consensus](https://trueinterview.io/questions/root-cause-an-incident-and-drive-consensus) | Blog | — | — |
+| [Quantify improvement and compute required sample size](https://trueinterview.io/questions/quantify-improvement-and-compute-required-sample-size) | Blog | — | — |
+| [Quantify build-vs-buy training decision](https://trueinterview.io/questions/quantify-build-vs-buy-training-decision) | Blog | — | — |
+| [Prove new allocation outperforms manual baseline](https://trueinterview.io/questions/prove-new-allocation-outperforms-manual-baseline) | System Design | Hard | — |
+| [Prove and apply statistical ML fundamentals](https://trueinterview.io/questions/prove-and-apply-statistical-ml-fundamentals) | Blog | — | — |
+| [Profile and visualize an unfamiliar dataset](https://trueinterview.io/questions/profile-and-visualize-an-unfamiliar-dataset) | Blog | — | — |
+| [Prioritize a new warehouse proposal with data](https://trueinterview.io/questions/prioritize-a-new-warehouse-proposal-with-data) | Blog | — | — |
+| [Measure PMF for Alexa Shopping](https://trueinterview.io/questions/measure-pmf-for-alexa-shopping) | System Design | Medium | — |
+| [List hyperparameter tuning methods](https://trueinterview.io/questions/list-hyperparameter-tuning-methods) | Blog | — | — |
+| [Implement a high-throughput web crawler safely](https://trueinterview.io/questions/implement-a-high-throughput-web-crawler-safely) | System Design | Hard | — |
+| [Handle scope creep and teammate conflict](https://trueinterview.io/questions/handle-scope-creep-and-teammate-conflict) | Blog | — | — |
+| [Explain why LASSO selects features](https://trueinterview.io/questions/explain-why-lasso-selects-features) | Blog | — | — |
+| [Explain vanishing gradients and activations](https://trueinterview.io/questions/explain-vanishing-gradients-and-activations) | Blog | — | — |
+| [Explain Transformers and MoE in LLMs](https://trueinterview.io/questions/explain-transformers-and-moe-in-llms) | Blog | — | — |
+| [Explain the bias–variance trade-off](https://trueinterview.io/questions/explain-the-biasvariance-trade-off) | Blog | — | — |
+| [Explain parallelism and collectives in training](https://trueinterview.io/questions/explain-parallelism-and-collectives-in-training) | System Design | Hard | — |
+| [Explain complex tech to non-technical stakeholder](https://trueinterview.io/questions/explain-complex-tech-to-non-technical-stakeholder) | Blog | — | — |
+| [Evaluate concession gift-card policy with DID](https://trueinterview.io/questions/evaluate-concession-gift-card-policy-with-did) | Blog | — | — |
+| [Estimate shuttle impact with robust causal design](https://trueinterview.io/questions/estimate-shuttle-impact-with-robust-causal-design) | Blog | — | — |
+| [Estimate live sports impact on subscriptions](https://trueinterview.io/questions/estimate-live-sports-impact-on-subscriptions) | Blog | — | — |
+| [Drive stakeholder alignment under trade-offs](https://trueinterview.io/questions/drive-stakeholder-alignment-under-trade-offs) | Blog | — | — |
+| [Diagnose and fix underperforming ML model](https://trueinterview.io/questions/diagnose-and-fix-underperforming-ml-model) | Blog | — | — |
+| [Design causal study for reminder impact](https://trueinterview.io/questions/design-causal-study-for-reminder-impact) | System Design | Hard | — |
+| [Design and analyze pricing-page A/B test](https://trueinterview.io/questions/design-and-analyze-pricing-page-a-b-test) | Blog | — | — |
+| [Design an operations dashboard with justifications](https://trueinterview.io/questions/design-an-operations-dashboard-with-justifications) | System Design | Medium | — |
+| [Design an LLM quality validation system](https://trueinterview.io/questions/design-an-llm-quality-validation-system) | System Design | Hard | — |
+| [Design an end-to-end spam detection system](https://trueinterview.io/questions/design-an-end-to-end-spam-detection-system) | System Design | Hard | — |
+| [Describe overfitting and L1/L2 regularization](https://trueinterview.io/questions/describe-overfitting-and-l1-l2-regularization) | Blog | — | — |
+| [Derive and compare core ML and RL methods](https://trueinterview.io/questions/derive-and-compare-core-ml-and-rl-methods) | Blog | — | — |
+| [Demonstrate problem-solving under resistance](https://trueinterview.io/questions/demonstrate-problem-solving-under-resistance) | Blog | — | — |
+| [Demonstrate leadership with quantifiable STAR stories](https://trueinterview.io/questions/demonstrate-leadership-with-quantifiable-star-stories) | Blog | — | — |
+| [Demonstrate leadership under strict rules](https://trueinterview.io/questions/demonstrate-leadership-under-strict-rules) | Blog | — | — |
+| [Demonstrate leadership under disagreement](https://trueinterview.io/questions/demonstrate-leadership-under-disagreement) | Blog | — | — |
+| [Demonstrate leadership in data-driven scenarios](https://trueinterview.io/questions/demonstrate-leadership-in-data-driven-scenarios) | Blog | — | — |
+| [Demonstrate invent-and-simplify and customer communication](https://trueinterview.io/questions/demonstrate-invent-and-simplify-and-customer-communication) | Blog | — | — |
+| [Demonstrate calculated risk and deep-dive leadership](https://trueinterview.io/questions/demonstrate-calculated-risk-and-deep-dive-leadership) | Blog | — | — |
+| [Decide standardization, sparse numerics, correlated features](https://trueinterview.io/questions/decide-standardization-sparse-numerics-correlated-features) | System Design | Medium | — |
+| [Contrast CNNs and fully connected networks](https://trueinterview.io/questions/contrast-cnns-and-fully-connected-networks) | Blog | — | — |
+| [Compute p-values, CIs, and adjust multiples](https://trueinterview.io/questions/compute-p-values-cis-and-adjust-multiples) | Blog | — | — |
+| [Compute CIs, power, and multiple testing](https://trueinterview.io/questions/compute-cis-power-and-multiple-testing) | Blog | — | — |
+| [Compare Tableau live vs extract and filters](https://trueinterview.io/questions/compare-tableau-live-vs-extract-and-filters) | Blog | — | — |
+| [Compare Random Forests vs Gradient Boosting rigorously](https://trueinterview.io/questions/compare-random-forests-vs-gradient-boosting-rigorously) | Blog | — | — |
+| [Compare decision trees and random forests](https://trueinterview.io/questions/compare-decision-trees-and-random-forests) | Blog | — | — |
+| [Choose regularization norms and model formulations](https://trueinterview.io/questions/choose-regularization-norms-and-model-formulations) | Blog | — | — |
+| [Calculate A/B sample size, CI, decision rules](https://trueinterview.io/questions/calculate-a-b-sample-size-ci-decision-rules) | Blog | — | — |
+| [Build a package-allocation model for couriers](https://trueinterview.io/questions/build-a-package-allocation-model-for-couriers) | System Design | Hard | — |
+| [Apply Double ML with text-address features](https://trueinterview.io/questions/apply-double-ml-with-text-address-features) | Blog | — | — |
+| [Analyze omitted-variable bias in regression](https://trueinterview.io/questions/analyze-omitted-variable-bias-in-regression) | Blog | — | — |
+| [Analyze an A/B test over last 7 days](https://trueinterview.io/questions/analyze-an-a-b-test-over-last-7-days) | Blog | — | — |
+| [Verify subscriptions and analyze orders with SQL/Python](https://trueinterview.io/questions/verify-subscriptions-and-analyze-orders-with-sql-python) | SQL | Medium | — |
+| [Solve two-sum variants at scale](https://trueinterview.io/questions/solve-two-sum-variants-at-scale) | Algorithm | Medium | — |
+| [Solve stock, BFS path, and merge intervals](https://trueinterview.io/questions/solve-stock-bfs-path-and-merge-intervals) | Algorithm | Hard | — |
+| [Implement PyTorch training loop](https://trueinterview.io/questions/implement-pytorch-training-loop) | Algorithm | Hard | — |
+| [Implement list overlap and dense-ranked word frequencies](https://trueinterview.io/questions/implement-list-overlap-and-dense-ranked-word-frequencies) | Object Oriented Programming | Medium | — |
+| [Implement integer division without using division](https://trueinterview.io/questions/implement-integer-division-without-using-division) | Algorithm | Hard | — |
+| [Generate primes up to n efficiently](https://trueinterview.io/questions/generate-primes-up-to-n-efficiently) | Algorithm | Medium | — |
+| [Find top-spend categories per customer with ranking](https://trueinterview.io/questions/find-top-spend-categories-per-customer-with-ranking) | SQL | Hard | — |
+| [Find daily first-order merchants with SQL](https://trueinterview.io/questions/find-daily-first-order-merchants-with-sql) | SQL | Medium | — |
+| [Design student–course data models and SQL](https://trueinterview.io/questions/design-studentcourse-data-models-and-sql) | SQL | Medium | — |
+| [Design idempotent daily loads with deduping](https://trueinterview.io/questions/design-idempotent-daily-loads-with-deduping) | SQL | Medium | — |
+| [Compute join counts and window ranks](https://trueinterview.io/questions/compute-join-counts-and-window-ranks) | SQL | Medium | — |
+| [Compute array modes with ties and no-mode rule](https://trueinterview.io/questions/compute-array-modes-with-ties-and-no-mode-rule) | Algorithm | Medium | — |
+| [Calculate cross-channel login user proportions](https://trueinterview.io/questions/calculate-cross-channel-login-user-proportions) | SQL | Medium | — |
+| [Append country tables and rank salaries in USD](https://trueinterview.io/questions/append-country-tables-and-rank-salaries-in-usd) | SQL | Medium | — |
+| [Demonstrate ownership and communication under pressure](https://trueinterview.io/questions/demonstrate-ownership-and-communication-under-pressure) | Blog | — | — |
+| [Answer Amazon-style behavioral questions](https://trueinterview.io/questions/answer-amazon-style-behavioral-questions) | Blog | — | — |
+| [Design SQL/Pandas aggregations on retail schema](https://trueinterview.io/questions/design-sql-pandas-aggregations-on-retail-schema) | SQL | Hard | — |
+| [Build DiD dataset with SQL](https://trueinterview.io/questions/build-did-dataset-with-sql) | SQL | Medium | — |
+| [Solve two string DP/hash problems](https://trueinterview.io/questions/solve-two-string-dp-hash-problems) | Algorithm | Medium | — |
+| [Top K Frequent Elements with Descending Value Tie-Break](https://trueinterview.io/questions/fafdcfea-e85a-522c-a5d1-256c48782c32) | Algorithm | Medium | — |
+| [Search Suggestions System](https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13) | Algorithm | Medium | — |
+| [Meeting Rooms III](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01) | Algorithm | Hard | — |
+| [Stock Trading Profit Calculator](https://trueinterview.io/questions/f3286655-0c6e-59e7-a316-0de0f93a91e0) | Algorithm | Medium | — |
+| [Add Non-Overlapping Intervals and Query Point Coverage](https://trueinterview.io/questions/cd18c960-2e58-5dfb-8bb7-7557de4179d7) | Algorithm | Medium | — |
+| [Priority Job Scheduler with Invocation-Based Cooldown](https://trueinterview.io/questions/c71062c7-9f71-5cca-9a40-1da03671f934) | Algorithm | Hard | — |
 | [Merge Three Sorted Arrays with Deduplication](https://trueinterview.io/questions/c6b726cd-d319-5469-8ea1-fa90146e850b) | Algorithm | Easy | — |
 | [Build an Autocomplete Search Bar](https://trueinterview.io/questions/9cac8236-2361-5ae3-be47-3fcb128bb6c4) | Algorithm | Medium | — |
 | [Top K Slowest Requests from Logs](https://trueinterview.io/questions/9a6cfc3c-e9ec-5766-b7d6-c9ab05882217) | Algorithm | Medium | — |

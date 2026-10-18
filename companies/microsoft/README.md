@@ -8,8 +8,8 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [207](../microsoft.md) |
-| Free to read here | 22 |
+| Questions reported | [239](../microsoft.md) |
+| Free to read here | 23 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Oct 03, 2026 |
@@ -48,25 +48,58 @@ Here's what the interview process can look like:
 
 ## Free Microsoft questions
 
-22 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+55 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) |
+| [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) |
+| [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) |
+| [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) |
+| [Object-Oriented Design Round](https://trueinterview.io/questions/object-oriented-design-round) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/object-oriented-design-round) |
+| [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/questions/behavioral-round) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/behavioral-round) |
+| [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-2) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
+| [Handle Cross-Team Dependencies and Scope Conflicts](https://trueinterview.io/questions/handle-cross-team-dependencies-and-scope-conflicts) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/handle-cross-team-dependencies-and-scope-conflicts) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
+| [Explain OOP design and API rollout](https://trueinterview.io/questions/explain-oop-design-and-api-rollout) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-oop-design-and-api-rollout) |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Final Prices With a Special Discount in a Shop](../../questions/algorithm/final-prices-with-a-special-discount-in-a-shop/README.md) | Algorithm | Easy | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) |
 | [Implement K-Means in NumPy or PyTorch](../../questions/algorithm/implement-k-means-in-numpy-or-pytorch/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) |
+| [Transformer Roofline + FP32→FP16 Drill](https://trueinterview.io/questions/transformer-roofline-fp-precision) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/transformer-roofline-fp-precision) |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
+| [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
+| [Design Testing Without A/B Experiments](https://trueinterview.io/questions/design-testing-without-a-b-experiments) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/design-testing-without-a-b-experiments) |
+| [Choose Classification Metrics Under Asymmetric Costs](https://trueinterview.io/questions/choose-classification-metrics-under-asymmetric-costs) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/choose-classification-metrics-under-asymmetric-costs) |
+| [Describe motivation, ownership, and conflict](https://trueinterview.io/questions/describe-motivation-ownership-and-conflict) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-motivation-ownership-and-conflict) |
+| [Describe handling ambiguity and resolving design conflicts](https://trueinterview.io/questions/describe-handling-ambiguity-and-resolving-design-conflicts) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-handling-ambiguity-and-resolving-design-conflicts) |
+| [Explain metrics, regularization, and ablation studies](https://trueinterview.io/questions/explain-metrics-regularization-and-ablation-studies) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-metrics-regularization-and-ablation-studies) |
+| [Explain deadlock cases and how to prevent them](https://trueinterview.io/questions/explain-deadlock-cases-and-how-to-prevent-them) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-deadlock-cases-and-how-to-prevent-them) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md) | Algorithm | Easy | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/oa-permutation-prefix-balanced) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Binary Search Tree Iterator](../../questions/object-oriented-programming/binary-search-tree-iterator/README.md) | Object Oriented Programming | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/binary-search-tree-iterator) |
+| [Explain owning and debugging infra modules](https://trueinterview.io/questions/explain-owning-and-debugging-infra-modules) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-owning-and-debugging-infra-modules) |
+| [Explain KNN and how to tune it](https://trueinterview.io/questions/explain-knn-and-how-to-tune-it) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-knn-and-how-to-tune-it) |
+| [Explain bias-variance and evaluate a classifier](https://trueinterview.io/questions/explain-bias-variance-and-evaluate-a-classifier) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-bias-variance-and-evaluate-a-classifier) |
+| [Explain hash map internals and edge cases](https://trueinterview.io/questions/explain-hash-map-internals-and-edge-cases) | Blog | — | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-hash-map-internals-and-edge-cases) |
+| [Describe a recent innovation you delivered](https://trueinterview.io/questions/describe-a-recent-innovation-you-delivered) | Blog | — | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/describe-a-recent-innovation-you-delivered) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [Explain KNN and PCA and key tradeoffs](https://trueinterview.io/questions/explain-knn-and-pca-and-key-tradeoffs) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-knn-and-pca-and-key-tradeoffs) |
+| [Describe resolving a conflict with a teammate](https://trueinterview.io/questions/describe-resolving-a-conflict-with-a-teammate) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/describe-resolving-a-conflict-with-a-teammate) |
+| [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) |
+| [Discuss mutexes, memory alignment, polymorphism, idempotency](https://trueinterview.io/questions/discuss-mutexes-memory-alignment-polymorphism-idempotency) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/discuss-mutexes-memory-alignment-polymorphism-idempotency) |
 | [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/spiral-matrix-output) |
+| [Test classifier difference with McNemar's test](https://trueinterview.io/questions/test-classifier-difference-with-mcnemars-test) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/test-classifier-difference-with-mcnemars-test) |
+| [Handle unreliable email during time-critical coordination](https://trueinterview.io/questions/handle-unreliable-email-during-time-critical-coordination) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/handle-unreliable-email-during-time-critical-coordination) |
+| [Handle repeated last-minute interview reschedules](https://trueinterview.io/questions/handle-repeated-last-minute-interview-reschedules) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/handle-repeated-last-minute-interview-reschedules) |
+| [Describe leading an ambiguous ML project end-to-end](https://trueinterview.io/questions/describe-leading-an-ambiguous-ml-project-end-to-end) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/describe-leading-an-ambiguous-ml-project-end-to-end) |
+| [Compute sample size and analyze A/B results](https://trueinterview.io/questions/compute-sample-size-and-analyze-a-b-results) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/compute-sample-size-and-analyze-a-b-results) |
+| [Compute P(Bag B &#124; red) via Bayes](https://trueinterview.io/questions/compute-p-bag-b-red-via-bayes) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-p-bag-b-red-via-bayes) |
+| [Compare CNN, RNN, and LSTM rigorously](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
 | [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) |
 | [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) |
@@ -77,7 +110,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 207 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 239 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Microsoft question on TrueInterview](https://trueinterview.io/problems/company/microsoft).
 
 ---

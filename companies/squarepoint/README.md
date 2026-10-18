@@ -8,11 +8,11 @@ How Squarepoint interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [34](../squarepoint.md) |
+| Questions reported | [45](../squarepoint.md) |
 | Free to read here | 11 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Aug 29, 2026 |
+| Most recent sighting | Sep 09, 2026 |
 
 ## How Squarepoint interviews
 
@@ -46,12 +46,23 @@ Here's what the interview process can look like:
 
 ## Free Squarepoint questions
 
-11 questions reported at Squarepoint open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at Squarepoint open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) |
+| [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) |
+| [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) |
+| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) |
+| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) |
+| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) |
+| [Value a Die Game with Optional Continuation](https://trueinterview.io/questions/value-a-die-game-with-optional-continuation) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/value-a-die-game-with-optional-continuation) |
+| [Choose Between an Array and a Linked List](https://trueinterview.io/questions/choose-between-an-array-and-a-linked-list) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/choose-between-an-array-and-a-linked-list) |
+| [Find the Correlation Between Two Die-Face Counts](https://trueinterview.io/questions/find-the-correlation-between-two-die-face-counts) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/find-the-correlation-between-two-die-face-counts) |
+| [Evaluate Linear Regression Assumptions and Fit Three Points](https://trueinterview.io/questions/evaluate-linear-regression-assumptions-and-fit-three-points) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/evaluate-linear-regression-assumptions-and-fit-three-points) |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
+| [How Does Removing Zeros Affect Sharpe?](https://trueinterview.io/questions/how-does-removing-zeros-affect-sharpe) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/how-does-removing-zeros-affect-sharpe) |
 | [Line by Line Document Generator](../../questions/algorithm/line-by-line-document-generator/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) |
 | [Merge Two Sorted Vectors](../../questions/algorithm/merge-two-sorted-vectors/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/80025de7-bb7b-4d7a-bbef-34ca4648dad8) |
 | [Grasshopper Problem](../../questions/algorithm/grasshopper-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/6963da19-4f4b-4340-8237-43ced6656932) |
@@ -64,7 +75,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 34 questions reported at Squarepoint](../squarepoint.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 45 questions reported at Squarepoint](../squarepoint.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Squarepoint question on TrueInterview](https://trueinterview.io/problems/company/squarepoint).
 
 ---

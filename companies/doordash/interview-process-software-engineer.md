@@ -110,7 +110,7 @@ Here are some questions reported by recent candidates:
 - [Code Craft: Chef Skill → Dish Profit Assignment](https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment)
 - [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed)
 - [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream)
-- [Find Closest Dashmart](https://trueinterview.io/questions/find-closest-dashmart)
+- [Find Closest Dashmart](../../questions/algorithm/find-closest-dashmart/README.md)
 
 ## Debugging interview
 

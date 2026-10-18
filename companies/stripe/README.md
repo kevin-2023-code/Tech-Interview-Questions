@@ -8,7 +8,7 @@ How Stripe interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [103](../stripe.md) |
+| Questions reported | [118](../stripe.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -50,19 +50,34 @@ Here's what the interview process can look like:
 
 ## Free Stripe questions
 
-5 questions reported at Stripe open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at Stripe open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/recruiter-behavioral-screen) |
+| [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) |
 | [Mako Template Engine](../../questions/ai-coding/debug-mako-template-engine/README.md) | AI Coding | Medium | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/debug-mako-template-engine) |
 | [Payment Invoice Reconciliation](../../questions/algorithm/payment-invoice-reconciliation/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/payment-invoice-reconciliation) |
+| [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral-2) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/hiring-manager-behavioral-2) |
+| [Evaluate Stripe Capital Loan Performance](https://trueinterview.io/questions/evaluate-stripe-capital-loan-performance) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/evaluate-stripe-capital-loan-performance) |
 | [Shipping Cost Calculator](../../questions/algorithm/shipping-cost-calculator/README.md) | Algorithm | Medium | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/shipping-cost-calculator) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [Evaluate Stripe Capital Lending Strategy](https://trueinterview.io/questions/evaluate-stripe-capital-lending-strategy) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/evaluate-stripe-capital-lending-strategy) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
+| [Resolve conflicts and prioritize with stakeholders](https://trueinterview.io/questions/resolve-conflicts-and-prioritize-with-stakeholders) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/resolve-conflicts-and-prioritize-with-stakeholders) |
+| [Plan an experiment to validate targeting impact](https://trueinterview.io/questions/plan-an-experiment-to-validate-targeting-impact) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/plan-an-experiment-to-validate-targeting-impact) |
+| [Evaluate a new product with experimentation](https://trueinterview.io/questions/evaluate-a-new-product-with-experimentation) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/evaluate-a-new-product-with-experimentation) |
+| [Diagnose and validate a ratio trend change](https://trueinterview.io/questions/diagnose-and-validate-a-ratio-trend-change) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/diagnose-and-validate-a-ratio-trend-change) |
+| [Design and power an A/B test](https://trueinterview.io/questions/design-and-power-an-a-b-test) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-and-power-an-a-b-test) |
+| [Describe a high-impact project via STAR](https://trueinterview.io/questions/describe-a-high-impact-project-via-star) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-a-high-impact-project-via-star) |
+| [Compute power and interpret uplift metrics](https://trueinterview.io/questions/compute-power-and-interpret-uplift-metrics) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-power-and-interpret-uplift-metrics) |
+| [Choose threshold under costs and uncertainty](https://trueinterview.io/questions/choose-threshold-under-costs-and-uncertainty) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/choose-threshold-under-costs-and-uncertainty) |
+| [Design a leak-free time-split model](https://trueinterview.io/questions/design-a-leak-free-time-split-model) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-a-leak-free-time-split-model) |
+| [Navigate an ambiguous take-home assessment](https://trueinterview.io/questions/navigate-an-ambiguous-take-home-assessment) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/navigate-an-ambiguous-take-home-assessment) |
 
 ## Everything else
 
-- [All 103 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 118 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Stripe question on TrueInterview](https://trueinterview.io/problems/company/stripe).
 
 ---

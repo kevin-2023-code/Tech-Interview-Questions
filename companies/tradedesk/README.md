@@ -8,7 +8,7 @@ How Tradedesk interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [21](../tradedesk.md) |
+| Questions reported | [22](../tradedesk.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -45,16 +45,17 @@ Here's what the interview process can look like:
 
 ## Free Tradedesk questions
 
-2 questions reported at Tradedesk open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Tradedesk open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [Design an In-Memory Cloud Storage System (Incremental Levels)](../../questions/object-oriented-programming/design-an-in-memory-cloud-storage-system-incremental-levels/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) |
 
 ## Everything else
 
-- [All 21 questions reported at Tradedesk](../tradedesk.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 22 questions reported at Tradedesk](../tradedesk.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Tradedesk question on TrueInterview](https://trueinterview.io/problems/company/tradedesk).
 
 ---

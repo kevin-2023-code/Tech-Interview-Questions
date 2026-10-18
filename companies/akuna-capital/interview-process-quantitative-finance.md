@@ -58,7 +58,7 @@ Here are some questions reported by recent candidates:
 
 - [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95)
 - [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f)
-- [K Smallest Substring](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c)
+- [K Smallest Substring](../../questions/algorithm/k-smallest-substring/README.md)
 - [Minimal Operations](../../questions/algorithm/minimal-operations/README.md)
 - [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps)
 

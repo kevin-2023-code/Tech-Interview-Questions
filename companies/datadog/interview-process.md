@@ -139,7 +139,7 @@ Here are some questions reported by recent candidates:
 - Design a personal finance app covering transaction history and budgets.
 
 - [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b)
-- [Design Mint.com](https://trueinterview.io/questions/mint-com)
+- [Design Mint.com](../../questions/system-design/mint-com/README.md)
 - [Design A Facial Image Matching System](https://trueinterview.io/questions/design-a-facial-image-matching-system)
 - [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design)
 

@@ -8,7 +8,7 @@ How Cvs Health interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [10](../cvs-health.md) |
+| Questions reported | [20](../cvs-health.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,26 @@ No written process guide yet. [The loop, as reported](../cvs-health.md#the-loop-
 
 ## Free Cvs Health questions
 
-2 questions reported at Cvs Health open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at Cvs Health open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Lead structured response to accuracy incident](https://trueinterview.io/questions/lead-structured-response-to-accuracy-incident) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/lead-structured-response-to-accuracy-incident) |
+| [Handle challenges in MMM/MMX](https://trueinterview.io/questions/handle-challenges-in-mmm-mmx) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/handle-challenges-in-mmm-mmx) |
+| [Explain your top strengths concretely](https://trueinterview.io/questions/explain-your-top-strengths-concretely) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-your-top-strengths-concretely) |
+| [Explain p-value and choose correct test](https://trueinterview.io/questions/explain-p-value-and-choose-correct-test) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-p-value-and-choose-correct-test) |
+| [Diagnose a failing campaign](https://trueinterview.io/questions/diagnose-a-failing-campaign) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-a-failing-campaign) |
+| [Design an email flu-shot experiment](https://trueinterview.io/questions/design-an-email-flu-shot-experiment) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-an-email-flu-shot-experiment) |
+| [Describe handling pressure and stakeholder conflicts](https://trueinterview.io/questions/describe-handling-pressure-and-stakeholder-conflicts) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-handling-pressure-and-stakeholder-conflicts) |
+| [Calculate CI and Test Correlation Under Normality](https://trueinterview.io/questions/calculate-ci-and-test-correlation-under-normality) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/calculate-ci-and-test-correlation-under-normality) |
+| [Build an uplift model for targeting](https://trueinterview.io/questions/build-an-uplift-model-for-targeting) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/build-an-uplift-model-for-targeting) |
 | [Compute age-band spend and YoY in Georgia](../../questions/sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | SQL | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) |
 | [Calculate annual percentages and YoY by cohorts](../../questions/sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | SQL | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) |
+| [Compute A/B significance, CI, and power](https://trueinterview.io/questions/compute-a-b-significance-ci-and-power) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/compute-a-b-significance-ci-and-power) |
 
 ## Everything else
 
-- [All 10 questions reported at Cvs Health](../cvs-health.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 20 questions reported at Cvs Health](../cvs-health.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cvs Health question on TrueInterview](https://trueinterview.io/problems/company/cvs-health).
 
 ---

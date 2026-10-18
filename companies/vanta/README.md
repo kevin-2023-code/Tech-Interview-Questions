@@ -8,7 +8,7 @@ How Vanta interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [14](../vanta.md) |
+| Questions reported | [15](../vanta.md) |
 | Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,11 +48,12 @@ Here's what the interview process can look like:
 
 ## Free Vanta questions
 
-6 questions reported at Vanta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Vanta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Implement `uniq` — Unique Lines in a File](../../questions/algorithm/unique-lines-command/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/unique-lines-command) |
+| [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq) | Blog | — | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/principles-and-leadership-bq) |
 | [Test Run Status Monitor (Failing → Passing Windows)](../../questions/algorithm/test-status-monitor/README.md) | Algorithm | Hard | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/test-status-monitor) |
 | [Frontend Practical Coding — Work Against a Provided API](../../questions/object-oriented-programming/frontend-api-practical/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/frontend-api-practical) |
 | [Word Pattern / Meta-Pattern Match (Backtracking)](../../questions/algorithm/word-pattern-meta-match/README.md) | Algorithm | Medium | Phone screen | Dec 2024 | [Solve](https://trueinterview.io/questions/word-pattern-meta-match) |
@@ -61,7 +62,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 14 questions reported at Vanta](../vanta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 15 questions reported at Vanta](../vanta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Vanta question on TrueInterview](https://trueinterview.io/problems/company/vanta).
 
 ---

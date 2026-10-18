@@ -2,7 +2,7 @@
 
 # 🔒 Cybersecurity — interview & OA questions
 
-**77 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**79 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Verkada (32)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (14)](../companies/vanta.md) · [Okta (12)](../companies/okta.md)
+[Verkada (32)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (15)](../companies/vanta.md) · [Okta (13)](../companies/okta.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,16 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 53 | 69% | ██████████████ | 11 |
+| [Algorithm](../formats/algorithm.md) | 53 | 67% | ██████████████ | 13 |
 | [System Design](../formats/system-design.md) | 11 | 14% | ███ | 2 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 13% | ███ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 4% | █ | 1 |
+| [Blog](../formats/blog.md) | 2 | 3% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **10 / 51 / 16**, over the rows the catalog has graded. 16 of the 77 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **10 / 51 / 16**, over the rows the catalog has graded. 20 of the 79 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **52 questions in this cut that carry a topic label** (68% of it):
+Of the **52 questions in this cut that carry a topic label** (66% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -70,9 +71,11 @@ Of the **52 questions in this cut that carry a topic label** (68% of it):
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |
 | **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Medium | Jul 16, 2026 |
 | **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Medium | Jul 10, 2026 |
+| **Vanta** | [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq) | — | Jul 10, 2026 |
 | **Okta** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Medium | Jun 24, 2026 |
 | **Okta** | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Medium | Jun 24, 2026 |
 | **Okta** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Medium | Jun 24, 2026 |
+| **Okta** | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) | — | Jun 24, 2026 |
 | **Airbnb / Amazon / Ebay / Expedia / Meta / Microsoft / Ramp / Rippling / Square / Verkada** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | Hard | Jun 17, 2026 |
 | **Vanta** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | Easy | Jun 10, 2026 |
 | **Verkada** | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Medium | Jun 05, 2026 |

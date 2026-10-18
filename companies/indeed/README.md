@@ -8,11 +8,11 @@ How Indeed interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [1](../indeed.md) |
+| Questions reported | [2](../indeed.md) |
 | Free to read here | 1 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Aug 20, 2026 |
+| Most recent sighting | Sep 16, 2026 |
 
 ## How Indeed interviews
 
@@ -20,15 +20,16 @@ No written process guide yet. [The loop, as reported](../indeed.md#the-loop-as-r
 
 ## Free Indeed questions
 
-1 question reported at Indeed open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+2 questions reported at Indeed open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) |
 | [Redesign a Spam Classifier for Production](../../questions/system-design/redesign-a-spam-classifier-for-production/README.md) | System Design | Hard | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/redesign-a-spam-classifier-for-production) |
 
 ## Everything else
 
-- [All 1 questions reported at Indeed](../indeed.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 2 questions reported at Indeed](../indeed.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Indeed question on TrueInterview](https://trueinterview.io/problems/company/indeed).
 
 ---

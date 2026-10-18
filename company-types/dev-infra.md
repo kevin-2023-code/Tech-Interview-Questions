@@ -2,7 +2,7 @@
 
 # ☁️ Developer tools, cloud & data infrastructure — interview & OA questions
 
-**276 questions** reported across the **7 Developer tools, cloud & data infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**300 questions** reported across the **7 Developer tools, cloud & data infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Snowflake (133)](../companies/snowflake.md) · [Databricks (79)](../companies/databricks.md) · [Confluent (29)](../companies/confluent.md) · [Datadog (27)](../companies/datadog.md) · [MongoDB (7)](../companies/mongodb.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Render (2)](../companies/render.md)
+[Snowflake (145)](../companies/snowflake.md) · [Databricks (88)](../companies/databricks.md) · [Confluent (30)](../companies/confluent.md) · [Datadog (28)](../companies/datadog.md) · [MongoDB (8)](../companies/mongodb.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Render (2)](../companies/render.md)
 
 <sub>7 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 170 | 62% | ██████████████ | 28 |
-| [System Design](../formats/system-design.md) | 51 | 18% | ████ | 11 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 45 | 16% | ████ | 8 |
+| [Algorithm](../formats/algorithm.md) | 170 | 57% | ██████████████ | 34 |
+| [System Design](../formats/system-design.md) | 51 | 17% | ████ | 12 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 45 | 15% | ████ | 8 |
+| [Blog](../formats/blog.md) | 24 | 8% | ██ | 24 |
 | [SQL](../formats/sql.md) | 8 | 3% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **44 / 183 / 49**, over the rows the catalog has graded. 48 of the 276 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **44 / 183 / 49**, over the rows the catalog has graded. 79 of the 300 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **170 questions in this cut that carry a topic label** (62% of it):
+Of the **170 questions in this cut that carry a topic label** (57% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,12 +48,13 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 
 ## Asked here in the last 90 days
 
-**17 sightings** across this cut. Newest first.
+**22 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Tiered Rate Limiting Service](https://trueinterview.io/questions/tiered-rate-limiting-service) | Snowflake | Object Oriented Programming | Oct 01, 2026 |
 | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Snowflake | Algorithm | Sep 29, 2026 |
+| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Snowflake | Blog | Sep 17, 2026 |
 | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Render | Object Oriented Programming | Sep 17, 2026 |
 | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | Databricks | System Design | Sep 15, 2026 |
 | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Databricks … | Algorithm | Sep 10, 2026 |
@@ -62,9 +64,8 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Snowflake | Algorithm | Sep 05, 2026 |
 | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Snowflake | Algorithm | Sep 05, 2026 |
 | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Snowflake | Algorithm | Sep 03, 2026 |
-| [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | Snowflake | System Design | Aug 24, 2026 |
 
-<sub>5 more in this window are in the table below.</sub>
+<sub>10 more in this window are in the table below.</sub>
 
 ---
 
@@ -79,6 +80,7 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Snowflake** | [Tiered Rate Limiting Service](https://trueinterview.io/questions/tiered-rate-limiting-service) | Medium | 🆕 Oct 01, 2026 |
 | **Snowflake** | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Medium | 🆕 Sep 29, 2026 |
 | **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | 🆕 Sep 17, 2026 |
+| **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | — | 🆕 Sep 17, 2026 |
 | **Databricks** | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | Medium | 🆕 Sep 15, 2026 |
 | **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | 🆕 Sep 10, 2026 |
 | **Databricks** | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Medium | 🆕 Sep 06, 2026 |
@@ -88,13 +90,18 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | 🆕 Sep 05, 2026 |
 | **Snowflake** | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Hard | 🆕 Sep 03, 2026 |
 | **Snowflake** | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | Medium | Aug 24, 2026 |
+| **Datadog** | [Prioritize Critical Findings in a High-Load Batch Processor Review](https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review) | — | Aug 17, 2026 |
+| **Snowflake** | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | — | Aug 17, 2026 |
 | **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | Aug 15, 2026 |
+| **Databricks** | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | — | Aug 13, 2026 |
 | **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Easy | Aug 13, 2026 |
 | **Snowflake** | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Medium | Aug 01, 2026 |
 | **Databricks** | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | Medium | Jul 30, 2026 |
 | **Snowflake** | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | Medium | Jul 22, 2026 |
+| **Databricks** | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen) | — | Jul 21, 2026 |
 | **Databricks** | [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Medium | Jun 29, 2026 |
 | **Databricks / Google** | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Medium | Jun 26, 2026 |
+| **Snowflake** | [Proud Project / Conflict / Failure](https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure) | — | Jun 25, 2026 |
 | **Snowflake** | [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | Medium | Jun 25, 2026 |
 | **Snowflake** | [Forest Parent Array Delete Node](https://trueinterview.io/questions/forest-parent-array-delete-node) | Medium | Jun 24, 2026 |
 | **Snowflake** | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Medium | Jun 24, 2026 |
@@ -114,6 +121,7 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Databricks** | [Customer Revenue System](https://trueinterview.io/questions/revenue-tracking-system-with-referrals) | Medium | Jun 05, 2026 |
 | **Databricks / Microsoft** | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Medium | Jun 2026 |
 | **Databricks** | [Tetris Block Drop](https://trueinterview.io/questions/tetris-block-drop) | Medium | Jun 2026 |
+| **Snowflake** | [AI-Conducted Screening Interview](https://trueinterview.io/questions/ai-conducted-screening) | — | Jun 01, 2026 |
 | **Databricks** | [Firewall CIDR Rules](https://trueinterview.io/questions/firewall-cidr-rules) | Hard | Jun 2026 |
 | **Databricks** | [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Medium | Jun 2026 |
 | **Capital One / Databricks / Roblox** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Medium | May 31, 2026 |
@@ -159,6 +167,7 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Apple / Amazon / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Medium | Mar 20, 2026 |
 | **Databricks** | [Encode And Decode](https://trueinterview.io/questions/integer-stream-encoder-decoder) | Hard | Mar 20, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
+| **Snowflake** | [Answer conflict, tight deadline, and mentorship prompts](https://trueinterview.io/questions/answer-conflict-tight-deadline-and-mentorship-prompts) | — | Mar 01, 2026 |
 | **Render** | [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | Hard | Feb 26, 2026 |
 | **Snowflake** | [String-Command Calculator](https://trueinterview.io/questions/calculator-string-commands) | Medium | Feb 26, 2026 |
 | **Snowflake / Applied Intuition / Lyft** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
@@ -195,15 +204,20 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
 | **Databricks** | [SQL Query Plan Optimizer](https://trueinterview.io/questions/sql-query-plan-optimizer) | Hard | Jan 10, 2026 |
 | **Snowflake / Airbnb / Google / Pinterest** | [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) | Hard | Jan 07, 2026 |
+| **MongoDB** | [How do you answer common HR screen questions?](https://trueinterview.io/questions/how-do-you-answer-common-hr-screen-questions) | — | Jan 05, 2026 |
+| **Databricks** | [Describe project impact and critical feedback](https://trueinterview.io/questions/describe-project-impact-and-critical-feedback) | — | Jan 05, 2026 |
 | **Snowflake / Amazon / ByteDance / Google / Meta / Snapchat** | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Hard | Jan 04, 2026 |
 | **Confluent** | [Search Words and Phrases in a Large Line-Oriented File](https://trueinterview.io/questions/search-words-and-phrases-in-a-large-line-oriented-file) | Medium | Jan 01, 2026 |
 | **Confluent** | [Implement tail -n for a Very Large File](https://trueinterview.io/questions/implement-tail-n-for-a-very-large-file) | Hard | Jan 01, 2026 |
+| **Confluent** | [Explain Linux Command Execution, Filesystems, and Isolation](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation) | — | Jan 01, 2026 |
 | **Confluent** | [Design an LRU Cache with a Constant-Time Average](https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average) | Medium | Jan 01, 2026 |
 | **Snowflake** | [01 Matrix](https://trueinterview.io/questions/01-matrix) | Medium | Dec 30, 2025 |
 | **Snowflake** | [ACL Service for Another Service](https://trueinterview.io/questions/acl-service-design) | Medium | Dec 27, 2025 |
 | **Snowflake / ByteDance / Databricks / Perplexity** | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Medium | Dec 27, 2025 |
 | **Snowflake / Google** | [Longest Univalue Path](https://trueinterview.io/questions/longest-univalue-path) | Medium | Dec 23, 2025 |
 | **Snowflake** | [Copy List with Random Pointer](https://trueinterview.io/questions/copy-list-with-random-pointer) | Medium | Dec 14, 2025 |
+| **Databricks** | [Test coin fairness from 560 tails in 1000 flips](https://trueinterview.io/questions/test-coin-fairness-from-560-tails-in-1000-flips) | — | Dec 12, 2025 |
+| **Databricks** | [Explain ROC-AUC vs PR-AUC tradeoffs](https://trueinterview.io/questions/explain-roc-auc-vs-pr-auc-tradeoffs) | — | Dec 12, 2025 |
 | **Snowflake** | [Serialize and Deserialize Dictionary Trie](https://trueinterview.io/questions/serialize-and-deserialize-dictionary-trie) | Medium | Dec 10, 2025 |
 | **Snowflake** | [Preorder Traversal Without Invalid Nodes](https://trueinterview.io/questions/preorder-traversal-without-invalid-nodes) | Easy | Dec 09, 2025 |
 | **Snowflake** | [Check if an Original String Exists Given Two Encoded Strings](https://trueinterview.io/questions/check-if-an-original-string-exists-given-two-encoded-strings) | Hard | Dec 09, 2025 |
@@ -222,11 +236,14 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Databricks** | [Design Tic-Tac-Toe and QPS data structures](https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures) | Medium | Nov 13, 2025 |
 | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Easy | Nov 08, 2025 |
 | **Databricks** | [Anagrammed indexOf](https://trueinterview.io/questions/anagrammed-indexof) | Easy | Nov 07, 2025 |
+| **Databricks** | [How do you handle conflicting interviewer hints?](https://trueinterview.io/questions/how-do-you-handle-conflicting-interviewer-hints) | — | Nov 06, 2025 |
 | **Databricks** | [Ad Marketplace System Design](https://trueinterview.io/questions/ad-marketplace-system-design) | Hard | Nov 05, 2025 |
 | **Databricks** | [Payment Gateway System](https://trueinterview.io/questions/payment-gateway-system) | Medium | Oct 30, 2025 |
 | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | Easy | Oct 29, 2025 |
 | **Databricks** | [Multi-Threaded Chat System](https://trueinterview.io/questions/multi-threaded-chat-system) | Medium | Oct 24, 2025 |
 | **Amazon / Confluent / Ebay / Google / Microsoft / OpenAI / Roblox / Salesforce / Snapchat / Yelp** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | Easy | Oct 15, 2025 |
+| **Databricks** | [Relate coefficients under linear feature transformation](https://trueinterview.io/questions/relate-coefficients-under-linear-feature-transformation-2) | — | Oct 14, 2025 |
+| **Databricks** | [Diagnose and fix multicollinearity in income regression](https://trueinterview.io/questions/diagnose-and-fix-multicollinearity-in-income-regression) | — | Oct 14, 2025 |
 | **Databricks** | [Run-Length Encoding (RLE)](https://trueinterview.io/questions/implement-rle-and-bit-packing-compression-run-length-encoding-rle) | Medium | Oct 10, 2025 |
 | **Databricks** | [Autonomous Ride-Hailing App System Design (Waymo-like)](https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like) | Medium | Oct 09, 2025 |
 | **Snowflake / Walmart Labs** | [Work Schedule](https://trueinterview.io/questions/work-schedule) | Medium | Jul 20, 2025 |
@@ -238,7 +255,14 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Snowflake** | [Height of an N-ary Tree After Node Deletions](https://trueinterview.io/questions/97267c5d-561e-5bea-987c-d82f890a0293) | Medium | — |
 | **Snowflake** | [Runtime-Configurable Multi-Tier Rate Limiter](https://trueinterview.io/questions/88d39b15-fccf-5f7f-bed3-9bdcba8b1dcf) | Medium | — |
 | **Snowflake** | [Minimum Node Deletions to Limit N-ary Tree Height](https://trueinterview.io/questions/1ebea79b-4f8f-5ee4-86f3-74a57cfb698e) | Hard | — |
+| **Snowflake** | [Present an end-to-end project and defend decisions](https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions) | — | — |
+| **Snowflake** | [Lead innovation and automate a critical process](https://trueinterview.io/questions/lead-innovation-and-automate-a-critical-process) | — | — |
 | **Snowflake** | [Design and validate a cost-sensitive classifier](https://trueinterview.io/questions/design-and-validate-a-cost-sensitive-classifier) | Hard | — |
+| **Snowflake** | [Design an A/B test for ML model launch](https://trueinterview.io/questions/design-an-a-b-test-for-ml-model-launch) | — | — |
+| **Snowflake** | [Describe navigating ambiguous, repetitive questioning](https://trueinterview.io/questions/describe-navigating-ambiguous-repetitive-questioning) | — | — |
+| **Snowflake** | [Derive uniform RNGs from limited or biased sources](https://trueinterview.io/questions/derive-uniform-rngs-from-limited-or-biased-sources) | — | — |
+| **Snowflake** | [Decide and justify product metrics amid trade-offs](https://trueinterview.io/questions/decide-and-justify-product-metrics-amid-trade-offs) | — | — |
+| **Snowflake** | [Contrast FCF vs NI; choose one statement](https://trueinterview.io/questions/contrast-fcf-vs-ni-choose-one-statement) | — | — |
 | **Snowflake** | [Solve and optimize 3Sum and variants at scale](https://trueinterview.io/questions/solve-and-optimize-3sum-and-variants-at-scale) | Hard | — |
 | **Snowflake** | [Query seven-day conversion with windows and dedupe](https://trueinterview.io/questions/query-seven-day-conversion-with-windows-and-dedupe) | Medium | — |
 | **Snowflake** | [Implement DFS with cycle detection and topo order](https://trueinterview.io/questions/implement-dfs-with-cycle-detection-and-topo-order) | Hard | — |
@@ -263,6 +287,7 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Databricks** | [KV Store with Sliding-Window Average Latency](https://trueinterview.io/questions/908ac171-29c9-53ff-b6ad-26faa94d0b1c) | Hard | — |
 | **Databricks** | [Space-Efficient Versioned Set Snapshot Design](https://trueinterview.io/questions/7d84af64-a9ca-43ad-bef8-8a3725cf9d70) | Medium | — |
 | **Databricks** | [Circuit Breaker Based Database Replica Routing](https://trueinterview.io/questions/4ce104e2-73c6-501b-8be8-92ced07f6431) | Medium | — |
+| **Databricks** | [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752) | — | — |
 | **Databricks** | [Count Encrypted Files in a Directory Tree](https://trueinterview.io/questions/09691fdc-0417-5cb5-ba45-91a19e04f104) | Medium | — |
 | **Snowflake** | [Maximum Order Volume](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) | Medium | — |
 | **Snowflake** | [Rate Limiter](https://trueinterview.io/questions/5ac1e372-948a-4af9-b467-5e495795ba16) | Easy | — |
@@ -302,29 +327,5 @@ Of the **170 questions in this cut that carry a topic label** (62% of it):
 | **Datadog** | [Find Repeated Words in Text Using Regular Expressions](https://trueinterview.io/questions/0f0b2ee7-c88c-46e8-b6af-1e88cf27aa6f) | Easy | — |
 | **Confluent** | [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a) | Medium | — |
 | **Confluent / Airbnb** | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Medium | — |
-| **Confluent** | [Minimum Value to Get Positive Step by Step Sum](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd) | Easy | — |
-| **Confluent** | [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Easy | — |
-| **Datadog** | [Query Log Matching](https://trueinterview.io/questions/83d7ff94-bab7-47e3-a4b4-e177692a608e) | Medium | — |
-| **Datadog** | [File System Directory Size Sum](https://trueinterview.io/questions/1a1f123e-d4ee-4722-a9c2-1aeefecbc649) | Easy | — |
-| **Datadog** | [File System Deletion](https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518) | Medium | — |
-| **Datadog** | [Design a Buffered File Writer](https://trueinterview.io/questions/ccd44a38-a924-48e6-b5c0-af34aa48b27e) | Medium | — |
-| **Datadog** | [Implement Binary Focal Loss](https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc) | Easy | — |
-| **Datadog** | [Implement Grouped Query Attention Forward Pass](https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7) | Medium | — |
-| **Datadog** | [Latency Bucket Counter](https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e) | Easy | — |
-| **Confluent** | [O(1) Key-Value Store with Average and Max Retrieval](https://trueinterview.io/questions/f6664ca5-9a30-4110-a9b2-5d15940d61f2) | Medium | — |
-| **Confluent** | [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30) | Easy | — |
-| **Confluent** | [Implement n-tail (return last n elements)](https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4) | Easy | — |
-| **Confluent** | [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b) | Hard | — |
-| **Confluent** | [Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights](https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb) | Medium | — |
-| **Confluent** | [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Easy | — |
-| **Confluent** | [Variadic Function Matching](https://trueinterview.io/questions/11a4e0a4-82a6-4aa2-9265-eb5e09144062) | Medium | — |
-| **Datadog** | [Log Ingestion and Query](https://trueinterview.io/questions/c10482fd-12d2-4f57-8a05-f821a2f2d1c0) | Medium | — |
-| **Datadog** | [Implement a Snowflake Query Client (Start Query & Get Query Status)](https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053) | Medium | — |
-| **Datadog** | [Buffer Write Implementation](https://trueinterview.io/questions/16e264d7-ba41-4958-96cb-06b6d50400ed) | Easy | — |
-| **Confluent** | [Tail N Lines](https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417) | Medium | — |
-| **Anthropic / MongoDB** | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Medium | — |
-| **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
-| **Google / Snowflake** | [Minimum Distance Between People and Cakes](https://trueinterview.io/questions/787ed7cb-16c1-4605-a606-93dbbc22cb6c) | Easy | — |
-| **ByteDance / Airbnb / Databricks / Discord / Ebay / LinkedIn / Microsoft AI / OpenAI / Reddit / Yelp** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](dev-infra-2.md)</sub>

@@ -8,8 +8,8 @@ How Axon interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [6](../axon.md) |
-| Free to read here | 2 |
+| Questions reported | [11](../axon.md) |
+| Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Mar 29, 2026 |
@@ -20,16 +20,22 @@ No written process guide yet. [The loop, as reported](../axon.md#the-loop-as-rep
 
 ## Free Axon questions
 
-2 questions reported at Axon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Axon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain What Motivates and Demotivates You at Work](https://trueinterview.io/questions/explain-what-motivates-and-demotivates-you-at-work) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-what-motivates-and-demotivates-you-at-work) |
+| [How did you handle an ethical issue?](https://trueinterview.io/questions/how-did-you-handle-an-ethical-issue) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/how-did-you-handle-an-ethical-issue) |
+| [Explain scope and impact under pressure](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure) |
 | [Find accessible devices via nested memberships](../../questions/algorithm/find-accessible-devices-via-nested-memberships/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/find-accessible-devices-via-nested-memberships) |
+| [Design camera-footage upload with custody chain](../../questions/system-design/design-camera-footage-upload-with-custody-chain/README.md) | System Design | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) |
+| [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) |
+| [Answer tough self-awareness and team questions](https://trueinterview.io/questions/answer-tough-self-awareness-and-team-questions) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-tough-self-awareness-and-team-questions) |
 | [Design a Test Orchestration System](../../questions/system-design/design-a-test-orchestration-system/README.md) | System Design | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/design-a-test-orchestration-system) |
 
 ## Everything else
 
-- [All 6 questions reported at Axon](../axon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 11 questions reported at Axon](../axon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Axon question on TrueInterview](https://trueinterview.io/problems/company/axon).
 
 ---

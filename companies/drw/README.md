@@ -8,11 +8,11 @@ How Drw interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [3](../drw.md) |
+| Questions reported | [10](../drw.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Oct 08, 2025 |
+| Most recent sighting | Sep 13, 2026 |
 
 ## How Drw interviews
 
@@ -20,16 +20,23 @@ No written process guide yet. [The loop, as reported](../drw.md#the-loop-as-repo
 
 ## Free Drw questions
 
-2 questions reported at Drw open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Drw open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) |
+| [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) |
+| [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) |
+| [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) |
+| [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) |
+| [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) |
+| [Compute expected arc length on a circle](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) |
 | [Knockout Tournament Match Counts](../../questions/algorithm/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts) |
 | [Solve Three Algorithmic Problems](../../questions/algorithm/solve-three-algorithmic-oa-problems/README.md) | Algorithm | Hard | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems) |
 
 ## Everything else
 
-- [All 3 questions reported at Drw](../drw.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 10 questions reported at Drw](../drw.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Drw question on TrueInterview](https://trueinterview.io/problems/company/drw).
 
 ---

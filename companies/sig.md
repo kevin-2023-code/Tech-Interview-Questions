@@ -2,7 +2,7 @@
 
 # Sig interview process, OA & interview questions
 
-**3 questions** reported at Sig. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sig), judged server-side.
+**9 questions** reported at Sig. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sig), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Sig interviews & the free questions](sig/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,39 +12,45 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **3** |
+| Questions tracked | **9** |
 | Most recent sighting | Sep 17, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 3) |
+| Reported in the last 90 days | 9 |
+| Most common format | [Blog](../formats/blog.md) (67% of 9) |
 | Difficulty (easy / medium / hard) | 0 / 0 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 3 questions reported at Sig. 3 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 9 questions reported at Sig. 9 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **3 of 3** questions at Sig that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **9 of 9** questions at Sig that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 9 | ██████████ | [Blog](../formats/blog.md) (67%) | 0 / 0 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**9 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | Algorithm | Hard | Online assessment | Sep 17, 2026 |
 | [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | Algorithm | Hard | Online assessment | Sep 17, 2026 |
+| [Calculate Expected Payoff from Two Dice](https://trueinterview.io/questions/calculate-expected-payoff-from-two-dice) | Blog | — | Online assessment | Aug 16, 2026 |
+| [Compute the Probability Two Bloom Intervals Overlap](https://trueinterview.io/questions/compute-the-probability-two-bloom-intervals-overlap) | Blog | — | Online assessment | Aug 16, 2026 |
+| [Count Cookie Flavor Combinations](https://trueinterview.io/questions/count-cookie-flavor-combinations) | Blog | — | Online assessment | Aug 16, 2026 |
 | [Count Grid Paths with No Three Equal Moves](https://trueinterview.io/questions/count-grid-paths-with-no-three-equal-moves) | Algorithm | Hard | Online assessment | Aug 16, 2026 |
+| [Find a Green Triangle's Weight in a Balanced Mobile](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile) | Blog | — | Online assessment | Aug 16, 2026 |
+| [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) | Blog | — | Online assessment | Aug 16, 2026 |
+| [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) | Blog | — | Online assessment | Aug 16, 2026 |
 
 ## What they ask about
 
-Of the **3 questions at Sig that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Sig that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -60,18 +66,23 @@ Every recorded sighting at Sig, by the month it was reported in — Aug 16, 2026
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 2 | ████████████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 2 | ███████ |
+| [Aug 2026](../by-month/2026-08.md) | 7 | ████████████████████████ |
 
 ## Start here
 
-The 3 questions to open first if you are preparing for Sig, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Sig, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) 🆓 | Algorithm | Hard | — | Sep 17, 2026 |
 | **2** | [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) 🆓 | Algorithm | Hard | — | Sep 17, 2026 |
 | **3** | [Count Grid Paths with No Three Equal Moves](https://trueinterview.io/questions/count-grid-paths-with-no-three-equal-moves) | Algorithm | Hard | — | Aug 16, 2026 |
+| **4** | [Calculate Expected Payoff from Two Dice](https://trueinterview.io/questions/calculate-expected-payoff-from-two-dice) 🆓 | Blog | — | — | Aug 16, 2026 |
+| **5** | [Compute the Probability Two Bloom Intervals Overlap](https://trueinterview.io/questions/compute-the-probability-two-bloom-intervals-overlap) 🆓 | Blog | — | — | Aug 16, 2026 |
+| **6** | [Count Cookie Flavor Combinations](https://trueinterview.io/questions/count-cookie-flavor-combinations) 🆓 | Blog | — | — | Aug 16, 2026 |
+| **7** | [Find a Green Triangle's Weight in a Balanced Mobile](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile) 🆓 | Blog | — | — | Aug 16, 2026 |
+| **8** | [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) 🆓 | Blog | — | — | Aug 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -87,4 +98,10 @@ The 3 questions to open first if you are preparing for Sig, ranked by **the most
 | :-- | :-- | :-: | :-- |
 | [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | Algorithm | Hard | 🆕 Sep 17, 2026 |
 | [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | Algorithm | Hard | 🆕 Sep 17, 2026 |
+| [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) | Blog | — | Aug 16, 2026 |
+| [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) | Blog | — | Aug 16, 2026 |
+| [Find a Green Triangle's Weight in a Balanced Mobile](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile) | Blog | — | Aug 16, 2026 |
 | [Count Grid Paths with No Three Equal Moves](https://trueinterview.io/questions/count-grid-paths-with-no-three-equal-moves) | Algorithm | Hard | Aug 16, 2026 |
+| [Count Cookie Flavor Combinations](https://trueinterview.io/questions/count-cookie-flavor-combinations) | Blog | — | Aug 16, 2026 |
+| [Compute the Probability Two Bloom Intervals Overlap](https://trueinterview.io/questions/compute-the-probability-two-bloom-intervals-overlap) | Blog | — | Aug 16, 2026 |
+| [Calculate Expected Payoff from Two Dice](https://trueinterview.io/questions/calculate-expected-payoff-from-two-dice) | Blog | — | Aug 16, 2026 |

@@ -2,7 +2,7 @@
 
 # NVIDIA interview process, OA & interview questions
 
-**38 questions** reported at NVIDIA · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
+**54 questions** reported at NVIDIA · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How NVIDIA interviews & the free questions](nvidia/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,41 +14,42 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **38** |
-| Most recent sighting | Aug 21, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 38) |
+| Questions tracked | **54** |
+| Most recent sighting | Sep 17, 2026 |
+| Reported in the last 90 days | 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (43% of 54) |
 | Difficulty (easy / medium / hard) | 7 / 23 / 8 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [22](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 38 questions reported at NVIDIA. 23 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 54 questions reported at NVIDIA. 33 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **38 of 38** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **54 of 54** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 24 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 16 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 16 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 11 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 3 / 16 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 21 | ██████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 11 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | — | Phone screen | Sep 17, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 21, 2026 |
 | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | System Design | Hard | Phone screen | Aug 19, 2026 |
 | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Object Oriented Programming | Hard | Phone screen | Aug 19, 2026 |
 
 ## What they ask about
 
-Of the **24 questions at NVIDIA that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **24 questions at NVIDIA that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -67,18 +68,20 @@ Of the **24 questions at NVIDIA that carry a topic label** (63% of them — the 
 
 ## When they asked it
 
-Every recorded sighting at NVIDIA, by the month it was reported in — Dec 08, 2025 to Aug 21, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at NVIDIA, by the month it was reported in — Dec 08, 2025 to Sep 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 3 | ██████████ |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ██████████ |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ███ |
+| [Aug 2026](../by-month/2026-08.md) | 3 | █████████ |
+| [Jul 2026](../by-month/2026-07.md) | 5 | ███████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
 | [May 2026](../by-month/2026-05.md) | 1 | ███ |
-| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████ |
-| [Mar 2026](../by-month/2026-03.md) | 3 | ██████████ |
-| [Feb 2026](../by-month/2026-02.md) | 7 | ████████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | ███████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | █████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | █████████ |
+| [Feb 2026](../by-month/2026-02.md) | 8 | ████████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 5 | ███████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 3 | █████████ |
 
 ## Start here
 
@@ -86,14 +89,14 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 2 | Aug 21, 2026 |
-| **2** | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | System Design | Hard | — | Aug 19, 2026 |
-| **3** | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Object Oriented Programming | Hard | — | Aug 19, 2026 |
-| **4** | [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | — | Jul 03, 2026 |
-| **5** | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Medium | — | Jul 03, 2026 |
-| **6** | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | System Design | Medium | — | Jul 03, 2026 |
-| **7** | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | — | Jun 30, 2026 |
-| **8** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 13 | May 2026 |
+| **1** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) 🆓 | Blog | — | — | Sep 17, 2026 |
+| **2** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 2 | Aug 21, 2026 |
+| **3** | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | System Design | Hard | — | Aug 19, 2026 |
+| **4** | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Object Oriented Programming | Hard | — | Aug 19, 2026 |
+| **5** | [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | — | Jul 03, 2026 |
+| **6** | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Medium | — | Jul 03, 2026 |
+| **7** | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | System Design | Medium | — | Jul 03, 2026 |
+| **8** | [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) 🆓 | Blog | — | — | Jul 03, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -117,12 +120,15 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | — | 🆕 Sep 17, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | Aug 21, 2026 |
 | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Object Oriented Programming | Hard | Aug 19, 2026 |
 | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | System Design | Hard | Aug 19, 2026 |
 | [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | Jul 03, 2026 |
 | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | System Design | Medium | Jul 03, 2026 |
 | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Medium | Jul 03, 2026 |
+| [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive) | Blog | — | Jul 03, 2026 |
+| [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) | Blog | — | Jul 03, 2026 |
 | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | Jun 30, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Algorithm | Easy | Apr 26, 2026 |
@@ -136,11 +142,24 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [FP32 Tensor to Int8 Quantization](https://trueinterview.io/questions/fp32-to-int8-quantization) | Algorithm | Medium | Feb 12, 2026 |
 | [Implement matrix transpose and KV store](https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store) | Object Oriented Programming | Medium | Feb 09, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
+| [Compare arrays, linked lists, hash tables, trees](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees) | Blog | — | Feb 06, 2026 |
 | [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding) | Algorithm | Medium | Feb 05, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
+| [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/questions/deep-learning-fundamentals) | Blog | — | Jan 29, 2026 |
+| [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals) | Blog | — | Jan 16, 2026 |
+| [Introduce yourself for a senior role](https://trueinterview.io/questions/introduce-yourself-for-a-senior-role) | Blog | — | Jan 06, 2026 |
+| [Explain virtual machines and concurrency basics](https://trueinterview.io/questions/explain-virtual-machines-and-concurrency-basics) | Blog | — | Jan 06, 2026 |
+| [Explain container image flow in CI/CD](https://trueinterview.io/questions/explain-container-image-flow-in-ci-cd) | Blog | — | Jan 06, 2026 |
+| [Optimize a small-string C++ class](https://trueinterview.io/questions/optimize-a-small-string-cplusplus-class) | Blog | — | Dec 18, 2025 |
 | [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop) | Algorithm | Hard | Dec 10, 2025 |
 | [Return Unique Three-Sum Value Triples](https://trueinterview.io/questions/return-unique-three-sum-value-triples) | Algorithm | Hard | Dec 08, 2025 |
+| [Sell GPUs to a retail CEO](https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo) | Blog | — | — |
+| [Resolve conflict and learn from failure](https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure) | Blog | — | — |
+| [Reflect on interview takeaways and adaptation](https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation) | Blog | — | — |
+| [Explain NVIDIA fit and role value](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value) | Blog | — | — |
+| [Demonstrate cultural fit and sales-oriented leadership](https://trueinterview.io/questions/demonstrate-cultural-fit-and-sales-oriented-leadership) | Blog | — | — |
 | [Design and explain robust web APIs for ML inference](https://trueinterview.io/questions/design-and-explain-robust-web-apis-for-ml-inference) | System Design | Medium | — |
+| [Analyze overfitting, DenseNet, preprocessing, and cross-validation](https://trueinterview.io/questions/analyze-overfitting-densenet-preprocessing-and-cross-validation) | Blog | — | — |
 | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Algorithm | Medium | — |
 | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | — |
 | [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | AI Coding | Hard | — |

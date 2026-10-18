@@ -8,8 +8,8 @@ How LinkedIn interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [118](../linkedin.md) |
-| Free to read here | 11 |
+| Questions reported | [137](../linkedin.md) |
+| Free to read here | 12 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -51,25 +51,45 @@ Here's what the interview process can look like:
 
 ## Free LinkedIn questions
 
-11 questions reported at LinkedIn open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+31 questions reported at LinkedIn open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) |
+| [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) |
+| [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) |
+| [Explain the Design of a Recent Feature](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature) |
+| [Project Deep-Dive (Four-Axis Rubric)](https://trueinterview.io/questions/behavioral-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/behavioral-project-deep-dive) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
+| [Explain Logistic Regression, Backprop, and Adam](https://trueinterview.io/questions/explain-logistic-regression-backprop-and-adam) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-logistic-regression-backprop-and-adam) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
+| [Behavioral / BQ Question Pack](https://trueinterview.io/questions/behavioral-bq-pack) | Blog | — | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/behavioral-bq-pack) |
+| [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
+| [Handle Issues and Onboard Teammates](https://trueinterview.io/questions/handle-issues-and-onboard-teammates) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/handle-issues-and-onboard-teammates) |
 | [Intersection of Two Linked Lists](../../questions/algorithm/intersection-of-two-linked-lists/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/intersection-of-two-linked-lists) |
+| [Sample uniformly from a circle’s area](https://trueinterview.io/questions/sample-uniformly-from-a-circle-s-area) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/sample-uniformly-from-a-circle-s-area) |
+| [Plan and lead a large recommendation project](https://trueinterview.io/questions/plan-and-lead-a-large-recommendation-project) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/plan-and-lead-a-large-recommendation-project) |
+| [Answer practical ML foundations questions](https://trueinterview.io/questions/answer-practical-ml-foundations-questions) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-practical-ml-foundations-questions) |
+| [Explain iOS ARC and avoid retain cycles](https://trueinterview.io/questions/explain-ios-arc-and-avoid-retain-cycles) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-ios-arc-and-avoid-retain-cycles) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Describe a project and its impact](https://trueinterview.io/questions/describe-a-project-and-its-impact) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-a-project-and-its-impact) |
+| [Analyze homepage drop and feed ranking](https://trueinterview.io/questions/analyze-homepage-drop-and-feed-ranking) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/analyze-homepage-drop-and-feed-ranking) |
+| [How do you win project buy-in?](https://trueinterview.io/questions/how-do-you-win-project-buy-in) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-win-project-buy-in) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Explain a past project and critique a prior team](https://trueinterview.io/questions/explain-a-past-project-and-critique-a-prior-team) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-a-past-project-and-critique-a-prior-team) |
+| [How do you lead and drive impact?](https://trueinterview.io/questions/how-do-you-lead-and-drive-impact) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-do-you-lead-and-drive-impact) |
+| [Derive expectation for two consecutive heads](https://trueinterview.io/questions/derive-expectation-for-two-consecutive-heads) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/derive-expectation-for-two-consecutive-heads) |
+| [Decide best email variant using stratified A/B analysis](https://trueinterview.io/questions/decide-best-email-variant-using-stratified-a-b-analysis) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/decide-best-email-variant-using-stratified-a-b-analysis) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 
 ## Everything else
 
-- [All 118 questions reported at LinkedIn](../linkedin.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 137 questions reported at LinkedIn](../linkedin.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every LinkedIn question on TrueInterview](https://trueinterview.io/problems/company/linkedin).
 
 ---

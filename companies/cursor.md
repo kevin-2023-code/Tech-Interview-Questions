@@ -2,7 +2,7 @@
 
 # Cursor interview process, OA & interview questions
 
-**5 questions** reported at Cursor. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cursor), judged server-side on the algorithm, low-level-design and SQL formats.
+**7 questions** reported at Cursor. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cursor), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Cursor interviews & the free questions](cursor/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,37 +14,38 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **5** |
+| Questions tracked | **7** |
 | Most recent sighting | Aug 21, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [System Design](../formats/system-design.md) (60% of 5) |
+| Reported in the last 90 days | 2 |
+| Most common format | [System Design](../formats/system-design.md) (43% of 7) |
 | Difficulty (easy / medium / hard) | 0 / 4 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 5 questions reported at Cursor. 5 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 7 questions reported at Cursor. 7 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **5 of 5** questions at Cursor that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **7 of 7** questions at Cursor that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 5 | ██████████ | [System Design](../formats/system-design.md) (60%) | 0 / 4 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 7 | ██████████ | [System Design](../formats/system-design.md) (43%) | 0 / 4 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Design a CI/CD Job Scheduler](https://trueinterview.io/questions/design-a-ci-cd-job-scheduler) | System Design | Hard | Phone screen | Aug 21, 2026 |
+| [Implement and Explain a Merkle Tree](https://trueinterview.io/questions/implement-and-explain-a-merkle-tree) | Blog | — | Phone screen | Aug 21, 2026 |
 
 ## What they ask about
 
-Of the **1 question at Cursor that carries a topic label** (20% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Cursor that carries a topic label** (14% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -58,21 +59,23 @@ Every recorded sighting at Cursor, by the month it was reported in — Feb 18, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 2 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | ████████████████ |
 
 ## Start here
 
-The 5 questions to open first if you are preparing for Cursor, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 7 questions to open first if you are preparing for Cursor, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a CI/CD Job Scheduler](https://trueinterview.io/questions/design-a-ci-cd-job-scheduler) | System Design | Hard | — | Aug 21, 2026 |
-| **2** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) 🆓 | System Design | Medium | 1 | Apr 07, 2026 |
-| **3** | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) 🆓 | Algorithm | Medium | — | Apr 07, 2026 |
-| **4** | [Design Scalable Notification Rate Limiter](https://trueinterview.io/questions/design-scalable-notification-rate-limiter) | System Design | Medium | — | Feb 18, 2026 |
-| **5** | [Implement Notification Rate Limiter](https://trueinterview.io/questions/implement-notification-rate-limiter) | Object Oriented Programming | Medium | — | Feb 18, 2026 |
+| **2** | [Implement and Explain a Merkle Tree](https://trueinterview.io/questions/implement-and-explain-a-merkle-tree) 🆓 | Blog | — | — | Aug 21, 2026 |
+| **3** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) 🆓 | System Design | Medium | 1 | Apr 07, 2026 |
+| **4** | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) 🆓 | Algorithm | Medium | — | Apr 07, 2026 |
+| **5** | [Connect a Project Deep Dive to Engineering Career Decisions](https://trueinterview.io/questions/connect-a-project-deep-dive-to-engineering-career-decisions) 🆓 | Blog | — | — | Apr 07, 2026 |
+| **6** | [Design Scalable Notification Rate Limiter](https://trueinterview.io/questions/design-scalable-notification-rate-limiter) | System Design | Medium | — | Feb 18, 2026 |
+| **7** | [Implement Notification Rate Limiter](https://trueinterview.io/questions/implement-notification-rate-limiter) | Object Oriented Programming | Medium | — | Feb 18, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -86,8 +89,10 @@ The 5 questions to open first if you are preparing for Cursor, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Implement and Explain a Merkle Tree](https://trueinterview.io/questions/implement-and-explain-a-merkle-tree) | Blog | — | Aug 21, 2026 |
 | [Design a CI/CD Job Scheduler](https://trueinterview.io/questions/design-a-ci-cd-job-scheduler) | System Design | Hard | Aug 21, 2026 |
 | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) | Algorithm | Medium | Apr 07, 2026 |
 | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | System Design | Medium | Apr 07, 2026 |
+| [Connect a Project Deep Dive to Engineering Career Decisions](https://trueinterview.io/questions/connect-a-project-deep-dive-to-engineering-career-decisions) | Blog | — | Apr 07, 2026 |
 | [Design Scalable Notification Rate Limiter](https://trueinterview.io/questions/design-scalable-notification-rate-limiter) | System Design | Medium | Feb 18, 2026 |
 | [Implement Notification Rate Limiter](https://trueinterview.io/questions/implement-notification-rate-limiter) | Object Oriented Programming | Medium | Feb 18, 2026 |

@@ -8,7 +8,7 @@ How SoFi interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [30](../sofi.md) |
+| Questions reported | [37](../sofi.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,19 +48,26 @@ Here's what the interview process can look like:
 
 ## Free SoFi questions
 
-5 questions reported at SoFi open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at SoFi open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Manager Behavioral and Project Deep Dive](https://trueinterview.io/questions/manager-behavioral-and-project-deep-dive) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/manager-behavioral-and-project-deep-dive) |
+| [Explain GC, singleton, and OOP principles](https://trueinterview.io/questions/explain-gc-singleton-and-oop-principles) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-gc-singleton-and-oop-principles) |
+| [Demonstrate project impact and teach something](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
+| [Explain benefits of a lockfile](https://trueinterview.io/questions/explain-benefits-of-a-lockfile) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-benefits-of-a-lockfile) |
+| [Describe Project and Collaboration Stories](https://trueinterview.io/questions/describe-project-and-collaboration-stories) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/describe-project-and-collaboration-stories) |
 | [Anagram Sentence Substitutions](../../questions/algorithm/anagram-sentence-substitutions/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/anagram-sentence-substitutions) |
 | [Key-Value Store with getLast](../../questions/object-oriented-programming/key-value-store-with-getlast/README.md) | Object Oriented Programming | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/key-value-store-with-getlast) |
 | [Tic Tac Toe](../../questions/ai-coding/tic-tac-toe/README.md) | AI Coding | Easy | Phone screen | Jun 2025 | [Solve](https://trueinterview.io/questions/tic-tac-toe) |
+| [Plan and validate ranking experiment](https://trueinterview.io/questions/plan-and-validate-ranking-experiment) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/plan-and-validate-ranking-experiment) |
+| [Align with PM on ranking goals](https://trueinterview.io/questions/align-with-pm-on-ranking-goals) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/align-with-pm-on-ranking-goals) |
 | [Swap Parity](../../questions/algorithm/swap-parity/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) |
 
 ## Everything else
 
-- [All 30 questions reported at SoFi](../sofi.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 37 questions reported at SoFi](../sofi.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every SoFi question on TrueInterview](https://trueinterview.io/problems/company/sofi).
 
 ---

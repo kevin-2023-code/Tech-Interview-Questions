@@ -8,7 +8,7 @@ How Arista interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [6](../arista.md) |
+| Questions reported | [7](../arista.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -45,16 +45,17 @@ Here's what the interview process can look like:
 
 ## Free Arista questions
 
-2 questions reported at Arista open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Arista open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain C printf pointers and memory layout](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout) |
 | [Implement a Generic Stack in C++](../../questions/object-oriented-programming/implement-a-generic-stack-in-c/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) |
 | [Palindrome String Check (Handle Empty and Null)](../../questions/algorithm/palindrome-string-check-handle-empty-and-null/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) |
 
 ## Everything else
 
-- [All 6 questions reported at Arista](../arista.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 7 questions reported at Arista](../arista.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Arista question on TrueInterview](https://trueinterview.io/problems/company/arista).
 
 ---

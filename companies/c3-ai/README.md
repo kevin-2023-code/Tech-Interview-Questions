@@ -8,7 +8,7 @@ How C3 AI interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [4](../c3-ai.md) |
+| Questions reported | [9](../c3-ai.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,21 @@ No written process guide yet. [The loop, as reported](../c3-ai.md#the-loop-as-re
 
 ## Free C3 AI questions
 
-2 questions reported at C3 AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at C3 AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Keep Gradient Descent from Stalling at Poor Solutions](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions) |
+| [Connect Bias-Variance Trade-offs to Bagging and Boosting](https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting) |
+| [Compare Transformers and RNNs and Derive Attention Complexity](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity) |
 | [Forecast Food Stocking Needs Under Waste and Stockout Costs](../../questions/system-design/forecast-food-stocking-needs-under-waste-and-stockout-costs/README.md) | System Design | Hard | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) |
+| [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) |
 | [Find the Intersection of Two Linked Chains](../../questions/algorithm/find-the-intersection-of-two-linked-chains/README.md) | Algorithm | Medium | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/find-the-intersection-of-two-linked-chains) |
+| [Describe challenge, influence, and mentorship outcomes](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) |
 
 ## Everything else
 
-- [All 4 questions reported at C3 AI](../c3-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 9 questions reported at C3 AI](../c3-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every C3 AI question on TrueInterview](https://trueinterview.io/problems/company/c3-ai).
 
 ---

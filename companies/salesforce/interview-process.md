@@ -140,7 +140,7 @@ Here are some questions reported by recent candidates:
 - Flatten a nested map of strings and maps into one level with dot-joined keys, handling empty and deep input.
 - Split daily workloads into exactly k contiguous weeks so the sum of weekly maxima is minimal.
 
-- [LFU Cache](https://trueinterview.io/questions/lfu-cache)
+- [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md)
 - [Flatten Nested JSON / HashMap to String](https://trueinterview.io/questions/flatten-nested-json)
 - [Print All Parent Keys in a Nested Map](https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8)
 - [Campaign Cost Weekly Partition](https://trueinterview.io/questions/campaign-cost-weekly-partition)

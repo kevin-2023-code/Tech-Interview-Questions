@@ -2,7 +2,7 @@
 
 # Topics
 
-What the bank is *about*, counted over the **2,489 questions that carry a topic label** — 59% of 4,233. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
+What the bank is *about*, counted over the **2,489 questions that carry a topic label** — 44% of 5,636. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
 
 [← Insights](README.md) · [← Question bank](../README.md)
 

@@ -8,7 +8,7 @@ How Amplitude interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [7](../amplitude.md) |
+| Questions reported | [8](../amplitude.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -45,16 +45,17 @@ Here's what the interview process can look like:
 
 ## Free Amplitude questions
 
-2 questions reported at Amplitude open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Amplitude open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Describe Product and Team Collaboration](https://trueinterview.io/questions/describe-product-and-team-collaboration) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/describe-product-and-team-collaboration) |
 | [Snake Game](../../questions/object-oriented-programming/snake-game/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/snake-game) |
 | [Dictionary Encoding (Lossless) for Comma-Separated Words](../../questions/algorithm/dictionary-encoding-lossless-for-comma-separated-words/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) |
 
 ## Everything else
 
-- [All 7 questions reported at Amplitude](../amplitude.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 8 questions reported at Amplitude](../amplitude.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Amplitude question on TrueInterview](https://trueinterview.io/problems/company/amplitude).
 
 ---

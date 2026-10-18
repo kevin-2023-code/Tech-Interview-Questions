@@ -8,7 +8,7 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [78](../airbnb.md) |
+| Questions reported | [89](../airbnb.md) |
 | Free to read here | 8 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -50,22 +50,33 @@ Here's what the interview process can look like:
 
 ## Free Airbnb questions
 
-8 questions reported at Airbnb open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+19 questions reported at Airbnb open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) |
+| [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/experience-project-deep-dive) |
+| [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/core-values-bq-round) |
+| [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/hiring-manager-screen) |
 | [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
+| [Discuss ML Project Tradeoffs](https://trueinterview.io/questions/discuss-ml-project-tradeoffs) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/discuss-ml-project-tradeoffs) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
+| [Design and Analyze Airbnb Locker Experiment](https://trueinterview.io/questions/design-and-analyze-airbnb-locker-experiment) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/design-and-analyze-airbnb-locker-experiment) |
+| [Describe a cross-functional project you’re proud of](https://trueinterview.io/questions/describe-a-cross-functional-project-you-re-proud-of) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-a-cross-functional-project-you-re-proud-of) |
+| [Answer cross-team delivery and values questions](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/in-memory-database-with-sql-operations) |
 | [Guess Number](../../questions/algorithm/guess-number/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/guess-number) |
 | [Minimum Vertices to Traverse Directed Graph](../../questions/algorithm/minimum-vertices-to-traverse-directed-graph/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-vertices-to-traverse-directed-graph) |
+| [Test conversion difference and adjust for clustering](https://trueinterview.io/questions/test-conversion-difference-and-adjust-for-clustering) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/test-conversion-difference-and-adjust-for-clustering) |
+| [Lead cross-functional decision without RCT evidence](https://trueinterview.io/questions/lead-cross-functional-decision-without-rct-evidence) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/lead-cross-functional-decision-without-rct-evidence) |
+| [Estimate impact of global launch without holdout](https://trueinterview.io/questions/estimate-impact-of-global-launch-without-holdout) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/estimate-impact-of-global-launch-without-holdout) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 
 ## Everything else
 
-- [All 78 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 89 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airbnb question on TrueInterview](https://trueinterview.io/problems/company/airbnb).
 
 ---

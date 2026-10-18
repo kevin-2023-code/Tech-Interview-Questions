@@ -8,7 +8,7 @@ How Pinduoduo interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [21](../pinduoduo.md) |
+| Questions reported | [27](../pinduoduo.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,19 +48,25 @@ Here's what the interview process can look like:
 
 ## Free Pinduoduo questions
 
-5 questions reported at Pinduoduo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+11 questions reported at Pinduoduo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) |
+| [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) |
+| [Project Deep Dive & Behavioral](https://trueinterview.io/questions/project-deep-dive-and-bq-2) | Blog | — | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-and-bq-2) |
+| [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) |
+| [Navigate a Senior Engineering HR Interview](https://trueinterview.io/questions/navigate-a-senior-engineering-hr-interview) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/navigate-a-senior-engineering-hr-interview) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-toughest-project-experience) |
 | [Sort Colors and Sizes](../../questions/algorithm/sort-colors-and-sizes/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 
 ## Everything else
 
-- [All 21 questions reported at Pinduoduo](../pinduoduo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 27 questions reported at Pinduoduo](../pinduoduo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Pinduoduo question on TrueInterview](https://trueinterview.io/problems/company/pinduoduo).
 
 ---

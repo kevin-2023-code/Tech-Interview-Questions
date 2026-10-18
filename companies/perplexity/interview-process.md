@@ -159,7 +159,7 @@ Here are some questions reported by recent candidates:
 - [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover)
 - [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2)
 - [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md)
-- [Design Mint.com](https://trueinterview.io/questions/mint-com)
+- [Design Mint.com](../../questions/system-design/mint-com/README.md)
 
 ## ML depth interview
 

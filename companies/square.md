@@ -2,7 +2,7 @@
 
 # Square interview process, OA & interview questions
 
-**14 questions** reported at Square. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/square), judged server-side on the algorithm, low-level-design and SQL formats.
+**16 questions** reported at Square. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/square), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Square interviews & the free questions](square/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **14** |
+| Questions tracked | **16** |
 | Most recent sighting | Jun 17, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 14) |
+| Most common format | [Algorithm](../formats/algorithm.md) (50% of 16) |
 | Difficulty (easy / medium / hard) | 3 / 7 / 4 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 14 questions reported at Square. 13 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 16 questions reported at Square. 15 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **14 of 14** questions at Square that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **16 of 16** questions at Square that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 6 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 2 / 3 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 1 / 5 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 6 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 2 / 3 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 1 / 5 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,7 @@ Which stage each question came from, for the **14 of 14** questions at Square th
 
 ## What they ask about
 
-Of the **8 questions at Square that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **8 questions at Square that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -63,7 +63,7 @@ Every recorded sighting at Square, by the month it was reported in — Oct 19, 2
 | :-- | --: | :-- |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
 | [May 2026](../by-month/2026-05.md) | 1 | ███ |
-| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████ |
+| [Apr 2026](../by-month/2026-04.md) | 5 | █████████████████ |
 | [Nov 2025](../by-month/2025-11.md) | 7 | ████████████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
 
@@ -76,11 +76,11 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 | **1** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
 | **2** | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | 2 | May 24, 2026 |
 | **3** | [Build a Trust-Aware BIN Database](https://trueinterview.io/questions/build-a-trust-aware-bin-database) | Algorithm | Hard | — | Apr 27, 2026 |
-| **4** | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) 🆓 | System Design | Medium | 1 | Apr 06, 2026 |
-| **5** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) 🆓 | System Design | Hard | 3 | Apr 2026 |
-| **6** | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | 1 | Nov 11, 2025 |
-| **7** | [Black Cell Covering Block List](https://trueinterview.io/questions/black-cell-covering-block-list) | Algorithm | Easy | — | Nov 11, 2025 |
-| **8** | [Find Valid Sock Pairs](https://trueinterview.io/questions/find-valid-sock-pairs) | Algorithm | Easy | — | Nov 11, 2025 |
+| **4** | [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) 🆓 | Blog | — | — | Apr 27, 2026 |
+| **5** | [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) 🆓 | Blog | — | — | Apr 27, 2026 |
+| **6** | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) 🆓 | System Design | Medium | 1 | Apr 06, 2026 |
+| **7** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) 🆓 | System Design | Hard | 3 | Apr 2026 |
+| **8** | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | 1 | Nov 11, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -96,6 +96,8 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 | :-- | :-- | :-: | :-- |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | May 24, 2026 |
+| [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) | Blog | — | Apr 27, 2026 |
+| [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) | Blog | — | Apr 27, 2026 |
 | [Build a Trust-Aware BIN Database](https://trueinterview.io/questions/build-a-trust-aware-bin-database) | Algorithm | Hard | Apr 27, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | System Design | Medium | Apr 06, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |

@@ -2,7 +2,7 @@
 
 # SoFi interview process, OA & interview questions
 
-**30 questions** reported at SoFi · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sofi), judged server-side on the algorithm, low-level-design and SQL formats.
+**37 questions** reported at SoFi · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sofi), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How SoFi interviews & the free questions](sofi/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **30** |
+| Questions tracked | **37** |
 | Most recent sighting | Jul 04, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (60% of 30) |
+| Most common format | [Algorithm](../formats/algorithm.md) (49% of 37) |
 | Difficulty (easy / medium / hard) | 10 / 17 / 3 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [12](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 30 questions reported at SoFi. 18 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 37 questions reported at SoFi. 23 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **30 of 30** questions at SoFi that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **37 of 37** questions at SoFi that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (73%) | 4 / 9 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 12 | ████████ | [AI Coding](../formats/ai-coding.md) (33%) | 4 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 20 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 4 / 9 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 14 | ███████ | [AI Coding](../formats/ai-coding.md) (29%) | 4 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **30 of 30** questions at SoFi that
 
 ## What they ask about
 
-Of the **19 questions at SoFi that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at SoFi that carry a topic label** (51% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -66,29 +66,30 @@ Every recorded sighting at SoFi, by the month it was reported in — Jun 01, 202
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ███ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ███████ |
-| [Jan 2026](../by-month/2026-01.md) | 7 | ████████████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ███████ |
-| [Oct 2025](../by-month/2025-10.md) | 2 | ███████ |
+| [Feb 2026](../by-month/2026-02.md) | 4 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 8 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 2 | ██████ |
+| [Oct 2025](../by-month/2025-10.md) | 3 | █████████ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | ███ |
 | [Jul 2025](../by-month/2025-07.md) | 1 | ███ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | ███ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for SoFi, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for SoFi, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph) | Algorithm | Easy | — | Jul 04, 2026 |
-| **2** | [Highway Sensor Journey Count](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb) | Algorithm | Medium | — | Mar 06, 2026 |
-| **3** | [React Loan Estimator](https://trueinterview.io/questions/react-loan-estimator) | AI Coding | Easy | — | Feb 14, 2026 |
-| **4** | [Design market price change notifications](https://trueinterview.io/questions/design-market-price-change-notifications) | System Design | Medium | — | Feb 04, 2026 |
-| **5** | [Basic Text Justification (without full padding to fixed width)](https://trueinterview.io/questions/0187a685-9680-4dbf-8f34-9e316f33b78b) | Algorithm | Easy | — | Jan 31, 2026 |
-| **6** | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) 🆓 | Algorithm | Medium | 8 | Jan 30, 2026 |
-| **7** | [Solve Time-Window and Binary Swap Problems](https://trueinterview.io/questions/solve-time-window-and-binary-swap-problems) | Algorithm | Hard | — | Jan 20, 2026 |
-| **8** | [Permutations with Self-Written Tests](https://trueinterview.io/questions/permutations-with-self-written-tests) | Algorithm | Easy | — | Jan 14, 2026 |
+| **2** | [Manager Behavioral and Project Deep Dive](https://trueinterview.io/questions/manager-behavioral-and-project-deep-dive) 🆓 | Blog | — | — | Jun 04, 2026 |
+| **3** | [Highway Sensor Journey Count](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb) | Algorithm | Medium | — | Mar 06, 2026 |
+| **4** | [React Loan Estimator](https://trueinterview.io/questions/react-loan-estimator) | AI Coding | Easy | — | Feb 14, 2026 |
+| **5** | [Design market price change notifications](https://trueinterview.io/questions/design-market-price-change-notifications) | System Design | Medium | — | Feb 04, 2026 |
+| **6** | [Demonstrate project impact and teach something](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something) 🆓 | Blog | — | — | Feb 04, 2026 |
+| **7** | [Explain GC, singleton, and OOP principles](https://trueinterview.io/questions/explain-gc-singleton-and-oop-principles) 🆓 | Blog | — | — | Feb 04, 2026 |
+| **8** | [Basic Text Justification (without full padding to fixed width)](https://trueinterview.io/questions/0187a685-9680-4dbf-8f34-9e316f33b78b) | Algorithm | Easy | — | Jan 31, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -111,9 +112,12 @@ The 8 questions to open first if you are preparing for SoFi, ranked by **the mos
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph) | Algorithm | Easy | Jul 04, 2026 |
+| [Manager Behavioral and Project Deep Dive](https://trueinterview.io/questions/manager-behavioral-and-project-deep-dive) | Blog | — | Jun 04, 2026 |
 | [Highway Sensor Journey Count](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb) | Algorithm | Medium | Mar 06, 2026 |
 | [React Loan Estimator](https://trueinterview.io/questions/react-loan-estimator) | AI Coding | Easy | Feb 14, 2026 |
+| [Explain GC, singleton, and OOP principles](https://trueinterview.io/questions/explain-gc-singleton-and-oop-principles) | Blog | — | Feb 04, 2026 |
 | [Design market price change notifications](https://trueinterview.io/questions/design-market-price-change-notifications) | System Design | Medium | Feb 04, 2026 |
+| [Demonstrate project impact and teach something](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something) | Blog | — | Feb 04, 2026 |
 | [Basic Text Justification (without full padding to fixed width)](https://trueinterview.io/questions/0187a685-9680-4dbf-8f34-9e316f33b78b) | Algorithm | Easy | Jan 31, 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
 | [Solve Time-Window and Binary Swap Problems](https://trueinterview.io/questions/solve-time-window-and-binary-swap-problems) | Algorithm | Hard | Jan 20, 2026 |
@@ -121,14 +125,18 @@ The 8 questions to open first if you are preparing for SoFi, ranked by **the mos
 | [Permutations with Self-Written Tests](https://trueinterview.io/questions/permutations-with-self-written-tests) | Algorithm | Easy | Jan 14, 2026 |
 | [Maximum Positive Prefixes](https://trueinterview.io/questions/maximum-positive-prefixes) | Algorithm | Medium | Jan 13, 2026 |
 | [Count Same-Bit Numbers](https://trueinterview.io/questions/count-same-bit-numbers) | Algorithm | Medium | Jan 13, 2026 |
+| [Explain benefits of a lockfile](https://trueinterview.io/questions/explain-benefits-of-a-lockfile) | Blog | — | Jan 03, 2026 |
 | [Kanban Board Task Actions](https://trueinterview.io/questions/kanban-board-task-actions) | AI Coding | Medium | Nov 14, 2025 |
 | [GIF Info Pagination by Tag](https://trueinterview.io/questions/gif-info-pagination-by-tag) | Algorithm | Easy | Nov 12, 2025 |
 | [Rooms with Two Incoming Edges to Treasure](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure) | Algorithm | Easy | Oct 31, 2025 |
 | [Star Rating Component](https://trueinterview.io/questions/star-rating-component) | Object Oriented Programming | Medium | Oct 06, 2025 |
+| [Describe Project and Collaboration Stories](https://trueinterview.io/questions/describe-project-and-collaboration-stories) | Blog | — | Oct 01, 2025 |
 | [Anagram Sentence Substitutions](https://trueinterview.io/questions/anagram-sentence-substitutions) | Algorithm | Medium | Sep 25, 2025 |
 | [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | Object Oriented Programming | Medium | Jul 14, 2025 |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | AI Coding | Easy | Jun 2025 |
+| [Plan and validate ranking experiment](https://trueinterview.io/questions/plan-and-validate-ranking-experiment) | Blog | — | — |
 | [Design a fintech homepage ranker](https://trueinterview.io/questions/design-a-fintech-homepage-ranker) | System Design | Hard | — |
+| [Align with PM on ranking goals](https://trueinterview.io/questions/align-with-pm-on-ranking-goals) | Blog | — | — |
 | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | Algorithm | Medium | — |
 | [Extend an Existing Codebase to Support Accessibility Requirements](https://trueinterview.io/questions/e09854da-00dd-4596-a22c-a1b2463a2a29) | AI Coding | Hard | — |
 | [Second Most Frequent Tag from Flattened Triples](https://trueinterview.io/questions/e89bef94-d185-481f-94fe-b1ad86364481) | Algorithm | Easy | — |

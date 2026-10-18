@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,373 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,680 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[OpenAI (158)](../companies/openai.md) · [Snowflake (133)](../companies/snowflake.md) · [Stripe (103)](../companies/stripe.md) · [Pinterest (101)](../companies/pinterest.md) · [Roblox (87)](../companies/roblox.md) · [Airbnb (78)](../companies/airbnb.md) · [Anthropic (78)](../companies/anthropic.md) · [Coinbase (72)](../companies/coinbase.md) · [Snapchat (70)](../companies/snapchat.md) · [Rippling (49)](../companies/rippling.md) · [Robinhood (44)](../companies/robinhood.md) · [Lyft (43)](../companies/lyft.md) · [xAI (39)](../companies/xai.md) · [Instacart (38)](../companies/instacart.md) · [Reddit (35)](../companies/reddit.md) · [Ramp (33)](../companies/ramp.md) · [Verkada (32)](../companies/verkada.md) · [SoFi (30)](../companies/sofi.md) · [Confluent (29)](../companies/confluent.md) · [Upstart (29)](../companies/upstart.md) · [Datadog (27)](../companies/datadog.md) · [Shopify (25)](../companies/shopify.md) · [Figma (23)](../companies/figma.md) · [Scale AI (22)](../companies/scale-ai.md) · [Tradedesk (21)](../companies/tradedesk.md) · [Rubrik (19)](../companies/rubrik.md) · [Yelp (19)](../companies/yelp.md) · [Affirm (17)](../companies/affirm.md) · [Dropbox (15)](../companies/dropbox.md) · [HubSpot (13)](../companies/hubspot.md) · [Okta (12)](../companies/okta.md) · [Palantir (11)](../companies/palantir.md) · [Airwallex (8)](../companies/airwallex.md) · [Discord (8)](../companies/discord.md) · [MongoDB (7)](../companies/mongodb.md) · [Arista (6)](../companies/arista.md) · [Axon (6)](../companies/axon.md) · [Gusto (5)](../companies/gusto.md) · [OKX (5)](../companies/okx.md) · [Brex (3)](../companies/brex.md) · [Stubhub (3)](../companies/stubhub.md)
+[OpenAI (175)](../companies/openai.md) · [Snowflake (145)](../companies/snowflake.md) · [Pinterest (121)](../companies/pinterest.md) · [Stripe (118)](../companies/stripe.md) · [Roblox (102)](../companies/roblox.md) · [Anthropic (99)](../companies/anthropic.md) · [Airbnb (89)](../companies/airbnb.md) · [Snapchat (89)](../companies/snapchat.md) · [Coinbase (86)](../companies/coinbase.md) · [Instacart (64)](../companies/instacart.md) · [Rippling (58)](../companies/rippling.md) · [Robinhood (53)](../companies/robinhood.md) · [Lyft (51)](../companies/lyft.md) · [Upstart (49)](../companies/upstart.md) · [Reddit (47)](../companies/reddit.md) · [xAI (43)](../companies/xai.md) · [Shopify (41)](../companies/shopify.md) · [SoFi (37)](../companies/sofi.md) · [Ramp (36)](../companies/ramp.md) · [Scale AI (34)](../companies/scale-ai.md) · [Verkada (32)](../companies/verkada.md) · [Confluent (30)](../companies/confluent.md) · [Figma (29)](../companies/figma.md) · [Datadog (28)](../companies/datadog.md) · [Tradedesk (22)](../companies/tradedesk.md) · [Yelp (22)](../companies/yelp.md) · [Dropbox (21)](../companies/dropbox.md) · [Rubrik (19)](../companies/rubrik.md) · [Affirm (18)](../companies/affirm.md) · [Airwallex (13)](../companies/airwallex.md) · [HubSpot (13)](../companies/hubspot.md) · [Okta (13)](../companies/okta.md) · [Palantir (12)](../companies/palantir.md) · [Axon (11)](../companies/axon.md) · [Discord (11)](../companies/discord.md) · [MongoDB (8)](../companies/mongodb.md) · [Arista (7)](../companies/arista.md) · [Gusto (6)](../companies/gusto.md) · [OKX (5)](../companies/okx.md) · [Brex (4)](../companies/brex.md) · [Stubhub (3)](../companies/stubhub.md)
 
 <sub>41 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 744 | 54% | ██████████████ | 93 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 251 | 18% | █████ | 29 |
-| [System Design](../formats/system-design.md) | 246 | 18% | █████ | 16 |
-| [AI Coding](../formats/ai-coding.md) | 68 | 5% | █ | 7 |
-| [SQL](../formats/sql.md) | 64 | 5% | █ | 1 |
+| [Algorithm](../formats/algorithm.md) | 744 | 44% | ██████████████ | 105 |
+| [Blog](../formats/blog.md) | 307 | 18% | ██████ | 307 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 251 | 15% | █████ | 31 |
+| [System Design](../formats/system-design.md) | 246 | 15% | █████ | 20 |
+| [AI Coding](../formats/ai-coding.md) | 68 | 4% | █ | 7 |
+| [SQL](../formats/sql.md) | 64 | 4% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **188 / 874 / 311**, over the rows the catalog has graded. 146 of the 1,373 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **188 / 874 / 311**, over the rows the catalog has graded. 471 of the 1,680 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **739 questions in this cut that carry a topic label** (54% of it):
+Of the **739 questions in this cut that carry a topic label** (44% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,7 +48,7 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 
 ## Asked here in the last 90 days
 
-**135 sightings** across this cut. Newest first.
+**169 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -58,13 +59,13 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Snowflake | Algorithm | Sep 29, 2026 |
 | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | OpenAI | Object Oriented Programming | Sep 28, 2026 |
 | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Instacart | Algorithm | Sep 18, 2026 |
+| [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Instacart | Blog | Sep 18, 2026 |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Rippling | Object Oriented Programming | Sep 18, 2026 |
 | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Ramp | Algorithm | Sep 18, 2026 |
 | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Robinhood | System Design | Sep 17, 2026 |
-| [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | Robinhood | System Design | Sep 17, 2026 |
-| [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | OpenAI | Algorithm | Sep 17, 2026 |
+| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Snowflake | Blog | Sep 17, 2026 |
 
-<sub>123 more in this window are in the table below.</sub>
+<sub>157 more in this window are in the table below.</sub>
 
 ---
 
@@ -72,7 +73,7 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 
 ## Every question reported across Large tech (1,000–9,999)
 
-<sub>Page 1 of 6 · [Page 2 →](large-tech-2.md)</sub>
+<sub>Page 1 of 7 · [Page 2 →](large-tech-2.md)</sub>
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
@@ -84,23 +85,34 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | 🆕 Sep 28, 2026 |
 | **Ramp** | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Hard | 🆕 Sep 18, 2026 |
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | 🆕 Sep 18, 2026 |
+| **Instacart** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | — | 🆕 Sep 18, 2026 |
 | **Instacart** | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Medium | 🆕 Sep 18, 2026 |
 | **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | Medium | 🆕 Sep 17, 2026 |
 | **OpenAI** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Medium | 🆕 Sep 17, 2026 |
+| **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | — | 🆕 Sep 17, 2026 |
 | **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Medium | 🆕 Sep 17, 2026 |
+| **Stripe** | [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | — | 🆕 Sep 15, 2026 |
 | **Tradedesk** | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Hard | 🆕 Sep 15, 2026 |
 | **Tradedesk** | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | Medium | 🆕 Sep 15, 2026 |
 | **Tradedesk** | [Implement a Publish-Subscribe Event Bus in JavaScript or TypeScript](https://trueinterview.io/questions/implement-a-publish-subscribe-event-bus-in-javascript-or-typescript) | Medium | 🆕 Sep 15, 2026 |
 | **Robinhood** | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates) | Medium | 🆕 Sep 15, 2026 |
+| **Tradedesk** | [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | — | 🆕 Sep 15, 2026 |
 | **xAI** | [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | Hard | 🆕 Sep 15, 2026 |
+| **Rippling** | [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | — | 🆕 Sep 13, 2026 |
+| **Rippling** | [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | — | 🆕 Sep 13, 2026 |
+| **Rippling** | [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | — | 🆕 Sep 13, 2026 |
+| **Rippling** | [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | — | 🆕 Sep 13, 2026 |
 | **Rippling** | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Hard | 🆕 Sep 13, 2026 |
+| **Anthropic** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | — | 🆕 Sep 12, 2026 |
+| **Anthropic** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | — | 🆕 Sep 12, 2026 |
 | **Upstart** | [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Easy | 🆕 Sep 12, 2026 |
 | **Instacart** | [Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts](https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts) | Medium | 🆕 Sep 11, 2026 |
 | **Instacart** | [Make a Variable Resolver Safe for Production Use](https://trueinterview.io/questions/make-a-variable-resolver-safe-for-production-use) | Medium | 🆕 Sep 11, 2026 |
 | **Instacart** | [Design a Grocery-Ordering Backend with Reliable Inventory Reservations](https://trueinterview.io/questions/design-a-grocery-ordering-backend-with-reliable-inventory-reservations) | Medium | 🆕 Sep 11, 2026 |
+| **Stripe** | [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | — | 🆕 Sep 11, 2026 |
 | **Rippling** | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Hard | 🆕 Sep 11, 2026 |
 | **Stripe** | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Medium | 🆕 Sep 11, 2026 |
 | **Stripe** | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | Easy | 🆕 Sep 11, 2026 |
@@ -108,17 +120,24 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **Stripe** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Medium | 🆕 Sep 11, 2026 |
 | **Stripe** | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | Medium | 🆕 Sep 10, 2026 |
 | **Airwallex** | [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Hard | 🆕 Sep 10, 2026 |
+| **Airwallex** | [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) | — | 🆕 Sep 10, 2026 |
 | **Rippling** | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | Medium | 🆕 Sep 10, 2026 |
 | **Airwallex** | [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid) | Hard | 🆕 Sep 10, 2026 |
 | **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | 🆕 Sep 10, 2026 |
 | **Snapchat** | [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Medium | 🆕 Sep 09, 2026 |
+| **Snapchat** | [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) | — | 🆕 Sep 09, 2026 |
+| **Snapchat** | [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) | — | 🆕 Sep 09, 2026 |
+| **Snapchat** | [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) | — | 🆕 Sep 09, 2026 |
 | **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🆕 Sep 09, 2026 |
 | **Anthropic** | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | Hard | 🆕 Sep 08, 2026 |
+| **Lyft** | [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | — | 🆕 Sep 08, 2026 |
 | **Lyft** | [Design a Globally Versioned Key-Value Store](https://trueinterview.io/questions/design-a-globally-versioned-key-value-store) | Medium | 🆕 Sep 08, 2026 |
 | **OpenAI** | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Hard | 🆕 Sep 08, 2026 |
 | **Instacart** | [Reserve Cart Inventory Without Overselling](https://trueinterview.io/questions/reserve-cart-inventory-without-overselling) | Hard | 🆕 Sep 07, 2026 |
 | **OpenAI** | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | Hard | 🆕 Sep 07, 2026 |
 | **Shopify** | [Bank Account Simulation Class With Self-Written Tests at 90% Coverage](https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage) | Medium | 🆕 Sep 07, 2026 |
+| **Instacart** | [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | — | 🆕 Sep 07, 2026 |
+| **Instacart** | [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | — | 🆕 Sep 06, 2026 |
 | **Instacart** | [Calculate a Basket Total from Delimited Product Records](https://trueinterview.io/questions/calculate-a-basket-total-from-delimited-product-records) | Easy | 🆕 Sep 06, 2026 |
 | **Snowflake** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Medium | 🆕 Sep 05, 2026 |
 | **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | 🆕 Sep 05, 2026 |
@@ -134,24 +153,32 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **Stripe** | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Medium | 🆕 Sep 04, 2026 |
 | **Airbnb** | [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | Medium | 🆕 Sep 04, 2026 |
 | **Airbnb** | [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | Hard | 🆕 Sep 04, 2026 |
+| **Airbnb** | [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | — | 🆕 Sep 04, 2026 |
 | **Snowflake** | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Hard | 🆕 Sep 03, 2026 |
 | **Airwallex** | [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Medium | Sep 02, 2026 |
+| **Pinterest** | [Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict](https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict) | — | Sep 02, 2026 |
 | **Pinterest** | [Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing](https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing) | Hard | Sep 02, 2026 |
 | **Pinterest** | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Hard | Sep 01, 2026 |
 | **Pinterest / Airwallex** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | Medium | Sep 01, 2026 |
 | **Tradedesk** | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | Hard | Aug 31, 2026 |
 | **Stripe** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | Easy | Aug 31, 2026 |
+| **Roblox** | [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers) | — | Aug 30, 2026 |
 | **Airbnb** | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Medium | Aug 30, 2026 |
 | **Airbnb** | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Hard | Aug 29, 2026 |
+| **Instacart** | [Respond to Negative Feedback About Your Work](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) | — | Aug 28, 2026 |
 | **Pinterest** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Hard | Aug 28, 2026 |
 | **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | Aug 28, 2026 |
+| **Anthropic** | [Identify the Most Important AI Safety Risk](https://trueinterview.io/questions/identify-the-most-important-ai-safety-risk) | — | Aug 28, 2026 |
+| **Anthropic** | [Explain How You Know a Professional Referrer](https://trueinterview.io/questions/explain-how-you-know-a-professional-referrer) | — | Aug 28, 2026 |
 | **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | Aug 28, 2026 |
 | **Snapchat** | [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Medium | Aug 28, 2026 |
 | **Snapchat** | [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Hard | Aug 28, 2026 |
 | **Palantir** | [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Hard | Aug 27, 2026 |
 | **Anthropic** | [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | Hard | Aug 27, 2026 |
+| **Yelp** | [Recommend a Decision After a Nonsignificant Experiment](https://trueinterview.io/questions/recommend-a-decision-after-a-nonsignificant-experiment) | — | Aug 27, 2026 |
 | **Palantir** | [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Hard | Aug 27, 2026 |
 | **OpenAI** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Hard | Aug 27, 2026 |
+| **Yelp** | [Estimate Experiment Duration with Power Analysis](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis) | — | Aug 27, 2026 |
 | **Anthropic** | [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract) | Medium | Aug 27, 2026 |
 | **Coinbase** | [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Medium | Aug 27, 2026 |
 | **Yelp** | [Return Integers in Descending Ranked Order](https://trueinterview.io/questions/return-integers-in-descending-ranked-order) | Easy | Aug 27, 2026 |
@@ -159,23 +186,29 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **Scale AI** | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Medium | Aug 26, 2026 |
 | **Pinterest** | [Minimum Transfers Between Pin Boards](https://trueinterview.io/questions/minimum-transfers-between-pin-boards) | Hard | Aug 26, 2026 |
 | **Pinterest** | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Hard | Aug 26, 2026 |
+| **Figma** | [Clarify a BERT Keyphrase Span-Extraction Task](https://trueinterview.io/questions/clarify-a-bert-keyphrase-span-extraction-task) | — | Aug 25, 2026 |
 | **Stripe** | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Hard | Aug 25, 2026 |
 | **Airbnb** | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Medium | Aug 25, 2026 |
 | **OpenAI** | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | Hard | Aug 24, 2026 |
 | **Anthropic** | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Medium | Aug 24, 2026 |
 | **Snowflake** | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | Medium | Aug 24, 2026 |
 | **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Hard | Aug 24, 2026 |
+| **Reddit** | [Explain and Reduce Position Bias in Ranking](https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking) | — | Aug 23, 2026 |
 | **OpenAI** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Easy | Aug 23, 2026 |
 | **Snapchat** | [Design a Pre-Login Risk and Challenge Service](https://trueinterview.io/questions/design-a-pre-login-risk-and-challenge-service) | Medium | Aug 22, 2026 |
 | **Tradedesk** | [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database) | Hard | Aug 22, 2026 |
+| **Anthropic** | [Explain Your Motivation and Practical Approach to AI Safety](https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety) | — | Aug 22, 2026 |
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Hard | Aug 22, 2026 |
 | **OpenAI** | [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | Hard | Aug 21, 2026 |
 | **Rippling** | [Design a Logger with Independent Handlers](https://trueinterview.io/questions/design-a-logger-with-independent-handlers) | Medium | Aug 21, 2026 |
 | **Okta** | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Medium | Aug 20, 2026 |
 | **Stripe** | [Design a Scalable Idempotent Ledger Service](https://trueinterview.io/questions/design-a-scalable-idempotent-ledger-service) | Hard | Aug 20, 2026 |
+| **Anthropic** | [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks) | — | Aug 19, 2026 |
 | **OpenAI** | [Design Real-Time Electricity Monitoring and Policy Control](https://trueinterview.io/questions/design-real-time-electricity-monitoring-and-policy-control) | Hard | Aug 18, 2026 |
 | **Rippling** | [Propagate Task Filtering Through Ancestors](https://trueinterview.io/questions/propagate-task-filtering-through-ancestors) | Hard | Aug 17, 2026 |
+| **Datadog** | [Prioritize Critical Findings in a High-Load Batch Processor Review](https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review) | — | Aug 17, 2026 |
 | **OpenAI** | [Design Command Dispatch and Telemetry Reconciliation for Unreliable Devices](https://trueinterview.io/questions/design-command-dispatch-and-telemetry-reconciliation-for-unreliable-devices) | Hard | Aug 17, 2026 |
+| **Snowflake** | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | — | Aug 17, 2026 |
 | **Roblox** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Easy | Aug 17, 2026 |
 | **OpenAI** | [Design a Time-Windowed GPU Credit Ledger](https://trueinterview.io/questions/design-a-time-windowed-gpu-credit-ledger) | Hard | Aug 16, 2026 |
 | **OpenAI** | [Design a Digital Game Distribution Platform](https://trueinterview.io/questions/design-a-digital-game-distribution-platform) | Hard | Aug 16, 2026 |
@@ -190,8 +223,10 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **Figma** | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | Easy | Aug 12, 2026 |
 | **Figma** | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Medium | Aug 12, 2026 |
 | **Figma** | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Medium | Aug 12, 2026 |
+| **Figma** | [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral) | — | Aug 12, 2026 |
 | **Airwallex** | [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system) | Hard | Aug 09, 2026 |
 | **OpenAI** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | Hard | Aug 08, 2026 |
+| **OpenAI** | [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/questions/engineering-management-fundamentals) | — | Aug 07, 2026 |
 | **Affirm** | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Medium | Aug 07, 2026 |
 | **Affirm** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Medium | Aug 06, 2026 |
 | **Figma** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | Medium | Aug 04, 2026 |
@@ -212,21 +247,28 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **Pinterest** | [Same Week Purchases](https://trueinterview.io/questions/same-week-purchases) | Medium | Jul 22, 2026 |
 | **Airbnb** | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | Easy | Jul 22, 2026 |
 | **OpenAI** | [Design a Highly Available Conversational AI Service](https://trueinterview.io/questions/design-a-highly-available-conversational-ai-service) | Hard | Jul 17, 2026 |
+| **Robinhood** | [Critique a Recent Engineering Project and Explain What You Would Redo](https://trueinterview.io/questions/critique-a-recent-engineering-project-and-explain-what-you-would-redo) | — | Jul 17, 2026 |
 | **OpenAI** | [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Hard | Jul 16, 2026 |
 | **OpenAI** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Medium | Jul 15, 2026 |
+| **Shopify** | [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview) | — | Jul 10, 2026 |
 | **Figma** | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Medium | Jul 09, 2026 |
 | **Citadel / Snapchat** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | Hard | Jul 08, 2026 |
 | **Figma** | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Medium | Jul 06, 2026 |
 | **SoFi** | [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph) | Easy | Jul 04, 2026 |
+| **Pinterest** | [ML Fundamentals Quick-Fire](https://trueinterview.io/questions/ml-fundamentals-quick-fire) | — | Jun 30, 2026 |
+| **Roblox** | [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/questions/behavioral-hm-traffic-and-scope) | — | Jun 30, 2026 |
 | **Lyft / ByteDance / Meta** | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Medium | Jun 29, 2026 |
 | **Roblox** | [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Hard | Jun 29, 2026 |
 | **Rippling / ByteDance / Expedia / Google** | [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | Medium | Jun 28, 2026 |
 | **Rippling** | [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator) | Hard | Jun 28, 2026 |
+| **Rippling** | [Project Deep Dive / HM BQ](https://trueinterview.io/questions/project-deep-dive-and-bq) | — | Jun 26, 2026 |
 | **Airbnb** | [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill) | Hard | Jun 26, 2026 |
+| **Snowflake** | [Proud Project / Conflict / Failure](https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure) | — | Jun 25, 2026 |
 | **Snowflake** | [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | Medium | Jun 25, 2026 |
 | **Okta** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Medium | Jun 24, 2026 |
 | **Okta** | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Medium | Jun 24, 2026 |
 | **Okta** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Medium | Jun 24, 2026 |
+| **Okta** | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) | — | Jun 24, 2026 |
 | **Meta / ByteDance / Instacart / Uber** | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Medium | Jun 24, 2026 |
 | **Snowflake** | [Forest Parent Array Delete Node](https://trueinterview.io/questions/forest-parent-array-delete-node) | Medium | Jun 24, 2026 |
 | **Snowflake** | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Medium | Jun 24, 2026 |
@@ -234,17 +276,23 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **Reddit** | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) | Medium | Jun 23, 2026 |
 | **Airbnb** | [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | Hard | Jun 22, 2026 |
 | **Instacart** | [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment) | Hard | Jun 22, 2026 |
+| **Airbnb** | [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive) | — | Jun 22, 2026 |
+| **Airbnb** | [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round) | — | Jun 22, 2026 |
 | **Snowflake** | [Design an AI-Powered Jira Ticket Automation System](https://trueinterview.io/questions/design-an-ai-powered-jira-ticket-automation-system) | Hard | Jun 22, 2026 |
 | **Uber / Lyft** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | Medium | Jun 21, 2026 |
 | **OpenAI** | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Medium | Jun 20, 2026 |
+| **OpenAI** | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai) | — | Jun 19, 2026 |
 | **Roblox** | [Design Game Dashboard Friend Activity and Counts](https://trueinterview.io/questions/friend-played-game-near-realtime) | Medium | Jun 19, 2026 |
 | **OpenAI** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Hard | Jun 19, 2026 |
+| **xAI** | [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | — | Jun 19, 2026 |
+| **OpenAI** | [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | — | Jun 19, 2026 |
 | **OpenAI** | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | Hard | Jun 19, 2026 |
 | **OpenAI / Anthropic** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Medium | Jun 19, 2026 |
 | **Snowflake** | [Project Duration & Budget per Employee](https://trueinterview.io/questions/sql-project-duration-budget-per-employee) | Easy | Jun 18, 2026 |
 | **Rippling** | [Expense System](https://trueinterview.io/questions/expense-rules-engine) | Medium | Jun 18, 2026 |
 | **Rippling** | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | Medium | Jun 18, 2026 |
 | **Airbnb** | [Design Customer Support Ticketing System](https://trueinterview.io/questions/ticket-routing-system-design) | Medium | Jun 17, 2026 |
+| **Airbnb** | [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen) | — | Jun 17, 2026 |
 | **Airbnb** | [Chain Booking — Max Cascading Reservations](https://trueinterview.io/questions/chain-booking-cascade) | Medium | Jun 17, 2026 |
 | **Airbnb / Amazon / Ebay / Expedia / Meta / Microsoft / Ramp / Rippling / Square / Verkada** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | Hard | Jun 17, 2026 |
 | **Snowflake** | [Reverse Alphanumeric Segments](https://trueinterview.io/questions/reverse-alphanumeric-segments) | Medium | Jun 17, 2026 |
@@ -264,7 +312,9 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **Anthropic** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | Hard | Jun 15, 2026 |
 | **Snowflake / ByteDance / Netflix** | [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Medium | Jun 15, 2026 |
 | **Perplexity / Harvey / Shopify** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Medium | Jun 15, 2026 |
+| **Pinterest** | [MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/questions/mle-intern-codesignal-oa) | — | Jun 14, 2026 |
 | **Scale AI** | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Hard | Jun 14, 2026 |
+| **Anthropic** | [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic) | — | Jun 12, 2026 |
 | **Reddit** | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Medium | Jun 12, 2026 |
 | **Reddit** | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Medium | Jun 12, 2026 |
 | **Reddit** | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Medium | Jun 12, 2026 |
@@ -277,54 +327,5 @@ Of the **739 questions in this cut that carry a topic label** (54% of it):
 | **Stripe** | [Credit Card Fraud Detection](https://trueinterview.io/questions/credit-card-fraud-detection) | Easy | Jun 10, 2026 |
 | **Pinterest** | [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Medium | Jun 10, 2026 |
 | **Google / Affirm / Uber** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Medium | Jun 10, 2026 |
-| **Anthropic** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Medium | Jun 10, 2026 |
-| **Stripe** | [Requests Library Debug (BugSquash)](https://trueinterview.io/questions/requests-library-debug) | Hard | Jun 10, 2026 |
-| **Stripe** | [AI-Assisted Coding Round (HackerRank + Claude)](https://trueinterview.io/questions/ai-assisted-coding-round) | Medium | Jun 10, 2026 |
-| **Stripe** | [Matching Contacts](https://trueinterview.io/questions/matching-contacts) | Medium | Jun 10, 2026 |
-| **Stripe** | [Bike Map](https://trueinterview.io/questions/bike-map) | Medium | Jun 10, 2026 |
-| **Snowflake** | [Closest Cake and Global Assignment](https://trueinterview.io/questions/closest-cake-and-global-assignment) | Medium | Jun 10, 2026 |
-| **Roblox** | [Most Frequent Function Call Stack](https://trueinterview.io/questions/most-frequent-function-call-stack) | Hard | Jun 10, 2026 |
-| **OpenAI** | [Debug a GPT-Style Transformer with KV-Cache Generation](https://trueinterview.io/questions/transformer-bug-hunt) | Hard | Jun 09, 2026 |
-| **Rippling** | [Logger System](https://trueinterview.io/questions/logger-system-ood) | Medium | Jun 09, 2026 |
-| **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
-| **OpenAI / Perplexity** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Hard | Jun 08, 2026 |
-| **Snowflake** | [Max Credits with K Classes (Interval-Style)](https://trueinterview.io/questions/course-credit-max-k-classes) | Medium | Jun 07, 2026 |
-| **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Medium | Jun 06, 2026 |
-| **Verkada** | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Medium | Jun 05, 2026 |
-| **Verkada** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Medium | Jun 05, 2026 |
-| **Verkada** | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Medium | Jun 05, 2026 |
-| **Pinterest** | [Put Boxes Into the Warehouse (LC 1564)](https://trueinterview.io/questions/put-boxes-into-warehouse) | Medium | Jun 05, 2026 |
-| **Anthropic** | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) | Medium | Jun 04, 2026 |
-| **Roblox** | [Notification System](https://trueinterview.io/questions/front-end-system-design-notification-system) | Medium | Jun 04, 2026 |
-| **Anthropic** | [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design) | Hard | Jun 04, 2026 |
-| **Anthropic** | [In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability) | Hard | Jun 04, 2026 |
-| **Airbnb** | [Build Smallest Number](https://trueinterview.io/questions/smallest-permutation-bound) | Medium | Jun 03, 2026 |
-| **Stripe** | [Mako Template Engine](https://trueinterview.io/questions/debug-mako-template-engine) | Medium | Jun 03, 2026 |
-| **Okta** | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Medium | Jun 02, 2026 |
-| **Airbnb** | [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood) | Medium | Jun 02, 2026 |
-| **Anthropic / Lyft** | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | Medium | Jun 02, 2026 |
-| **Anthropic** | [LRU Cache (Python)](https://trueinterview.io/questions/lru-cache-python) | Hard | Jun 2026 |
-| **Anthropic** | [Tokenize (Python)](https://trueinterview.io/questions/tokenize-python) | Medium | Jun 2026 |
-| **Anthropic** | [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design) | Medium | Jun 2026 |
-| **Anthropic** | [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events) | Medium | Jun 2026 |
-| **Ramp** | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) | Medium | Jun 01, 2026 |
-| **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
-| **Capital One / Databricks / Roblox** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Medium | May 31, 2026 |
-| **OpenAI** | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | Medium | May 31, 2026 |
-| **OpenAI** | [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Hard | May 31, 2026 |
-| **OpenAI** | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Hard | May 31, 2026 |
-| **Snowflake** | [Time Range Event Counter](https://trueinterview.io/questions/time-range-event-counter) | Medium | May 30, 2026 |
-| **Reddit** | [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction) | Medium | May 30, 2026 |
-| **Anthropic** | [Batch Image Processor](https://trueinterview.io/questions/batch-image-processor) | Medium | May 30, 2026 |
-| **Rippling** | [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker) | Medium | May 29, 2026 |
-| **Stripe** | [Design a Superhero Dispatch System](https://trueinterview.io/questions/design-a-superhero-dispatch-system) | Hard | May 28, 2026 |
-| **Anthropic / Google** | [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2) | Medium | May 28, 2026 |
-| **Anthropic** | [File Systems](https://trueinterview.io/questions/oa-file-systems) | Medium | May 28, 2026 |
-| **Anthropic / Google** | [String Tokenization](https://trueinterview.io/questions/coding-q6-tokenizer) | Medium | May 28, 2026 |
-| **Instacart** | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change) | Easy | May 27, 2026 |
-| **Pinterest** | [Implement round() From String + Round-to-Precision](https://trueinterview.io/questions/round-and-precision-string) | Medium | May 27, 2026 |
-| **Anthropic** | [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management) | Medium | May 27, 2026 |
-| **Anthropic** | [DNS Resolver (Fellows CodeSignal, Round 1)](https://trueinterview.io/questions/oa-fellows-dns-resolver) | Hard | May 27, 2026 |
-| **Pinterest / Oracle** | [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Medium | May 26, 2026 |
 
-<sub>Page 1 of 6 · [Page 2 →](large-tech-2.md)</sub>
+<sub>Page 1 of 7 · [Page 2 →](large-tech-2.md)</sub>

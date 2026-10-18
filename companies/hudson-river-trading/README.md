@@ -8,8 +8,8 @@ How Hudson River Trading interviews, and the questions candidates reported there
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [18](../hudson-river-trading.md) |
-| Free to read here | 3 |
+| Questions reported | [22](../hudson-river-trading.md) |
+| Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | May 01, 2026 |
@@ -43,17 +43,22 @@ Here's what the interview process can look like:
 
 ## Free Hudson River Trading questions
 
-3 questions reported at Hudson River Trading open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Hudson River Trading open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Python Language and Runtime Fundamentals](https://trueinterview.io/questions/python-language-and-runtime-fundamentals) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/python-language-and-runtime-fundamentals) |
+| [Linux Host and Filesystem Fundamentals](https://trueinterview.io/questions/linux-host-and-filesystem-fundamentals) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/linux-host-and-filesystem-fundamentals) |
+| [Why pursue full-stack engineering?](https://trueinterview.io/questions/why-pursue-full-stack-engineering) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/why-pursue-full-stack-engineering) |
+| [Explain Python and React performance fundamentals](https://trueinterview.io/questions/explain-python-and-react-performance-fundamentals) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-python-and-react-performance-fundamentals) |
+| [Exploratory Data Analysis & Modeling for Heart Disease Prediction](../../questions/ai-coding/exploratory-data-analysis-and-modeling-for-heart-disease-prediction/README.md) | AI Coding | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) |
 | [Max Harvested Crops](../../questions/algorithm/max-harvested-crops/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/0364d8f3-180c-434b-96f4-fbdf7412a3e3) |
 | [Implement a Coroutine Step by Step](../../questions/algorithm/implement-a-coroutine-step-by-step/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) |
 | [1D Players and Watcher With Direction Changes](../../questions/algorithm/1d-players-and-watcher-with-direction-changes/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) |
 
 ## Everything else
 
-- [All 18 questions reported at Hudson River Trading](../hudson-river-trading.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 22 questions reported at Hudson River Trading](../hudson-river-trading.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Hudson River Trading question on TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading).
 
 ---

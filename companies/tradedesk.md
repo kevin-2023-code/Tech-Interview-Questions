@@ -2,7 +2,7 @@
 
 # Tradedesk interview process, OA & interview questions
 
-**21 questions** reported at Tradedesk · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tradedesk), judged server-side on the algorithm, low-level-design and SQL formats.
+**22 questions** reported at Tradedesk · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tradedesk), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Tradedesk interviews & the free questions](tradedesk/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,34 +14,35 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **21** |
+| Questions tracked | **22** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (62% of 21) |
+| Reported in the last 90 days | 6 |
+| Most common format | [Algorithm](../formats/algorithm.md) (59% of 22) |
 | Difficulty (easy / medium / hard) | 4 / 11 / 6 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 21 questions reported at Tradedesk. 6 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 22 questions reported at Tradedesk. 7 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **21 of 21** questions at Tradedesk that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **22 of 22** questions at Tradedesk that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | ███████ | [Algorithm](../formats/algorithm.md) (67%) | 4 / 0 / 2 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 7 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 6 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (83%) | 0 / 4 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 7 | ████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (71%) | 0 / 4 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**6 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | Blog | — | Onsite / virtual onsite | Sep 15, 2026 |
 | [Implement a Publish-Subscribe Event Bus in JavaScript or TypeScript](https://trueinterview.io/questions/implement-a-publish-subscribe-event-bus-in-javascript-or-typescript) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 15, 2026 |
 | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | System Design | Medium | Onsite / virtual onsite | Sep 15, 2026 |
 | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Object Oriented Programming | Hard | Onsite / virtual onsite | Sep 15, 2026 |
@@ -50,7 +51,7 @@ Which stage each question came from, for the **21 of 21** questions at Tradedesk
 
 ## What they ask about
 
-Of the **11 questions at Tradedesk that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Tradedesk that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -73,9 +74,9 @@ Every recorded sighting at Tradedesk, by the month it was reported in — Apr 01
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | ████████████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 2 | ████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 1 | ██████ |
 
 ## Start here
 
@@ -86,11 +87,11 @@ The 8 questions to open first if you are preparing for Tradedesk, ranked by **th
 | **1** | [Implement a Publish-Subscribe Event Bus in JavaScript or TypeScript](https://trueinterview.io/questions/implement-a-publish-subscribe-event-bus-in-javascript-or-typescript) | Object Oriented Programming | Medium | — | Sep 15, 2026 |
 | **2** | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | System Design | Medium | — | Sep 15, 2026 |
 | **3** | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Object Oriented Programming | Hard | — | Sep 15, 2026 |
-| **4** | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | AI Coding | Hard | — | Aug 31, 2026 |
-| **5** | [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database) | Object Oriented Programming | Hard | — | Aug 22, 2026 |
-| **6** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
-| **7** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | 2 | — |
-| **8** | [Buddies Greater than Target](https://trueinterview.io/questions/055e2b8e-9813-42ea-be04-71e25dff05a4) | Algorithm | Easy | — | — |
+| **4** | [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) 🆓 | Blog | — | — | Sep 15, 2026 |
+| **5** | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | AI Coding | Hard | — | Aug 31, 2026 |
+| **6** | [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database) | Object Oriented Programming | Hard | — | Aug 22, 2026 |
+| **7** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
+| **8** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | 2 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -115,6 +116,7 @@ The 8 questions to open first if you are preparing for Tradedesk, ranked by **th
 | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Object Oriented Programming | Hard | 🆕 Sep 15, 2026 |
 | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | System Design | Medium | 🆕 Sep 15, 2026 |
 | [Implement a Publish-Subscribe Event Bus in JavaScript or TypeScript](https://trueinterview.io/questions/implement-a-publish-subscribe-event-bus-in-javascript-or-typescript) | Object Oriented Programming | Medium | 🆕 Sep 15, 2026 |
+| [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | Blog | — | 🆕 Sep 15, 2026 |
 | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | AI Coding | Hard | Aug 31, 2026 |
 | [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database) | Object Oriented Programming | Hard | Aug 22, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |

@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**63 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**68 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,11 +10,13 @@
 | :-- | :-- | :-: | :-- |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | Easy | Nov 08, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | Easy | Dec 06, 2025 |
+| [Bank System Class with Deposit, Withdraw, and Balance Check](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | **Coinbase** | Easy | — |
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | **Brex** | Easy | — |
 | [Trie-Based Autocomplete](https://trueinterview.io/questions/trie-autocomplete) | **Oracle** | Easy | Sep 15, 2025 |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | Medium | — |
 | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | **Verkada / Amazon / ByteDance / Goldman Sachs / Lyft / Rokt** | Medium | — |
 | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | **Onemain Financial / Anthropic / Google / LinkedIn / Microsoft** | Medium | — |
+| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | **Apple / Google / LinkedIn / Microsoft / Salesforce** | Medium | Mar 17, 2026 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | **Coinbase / Anthropic / HubSpot / Ramp** | Medium | Dec 15, 2025 |
 | [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | **Coinbase / Ebay / HubSpot** | Medium | — |
 | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | **Snowflake / Applied Intuition / Lyft** | Medium | Feb 26, 2026 |
@@ -39,8 +41,11 @@
 | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | **Rippling** | Medium | Jun 18, 2026 |
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | **Stubhub** | Medium | — |
 | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | **Tradedesk** | Medium | — |
+| [Design an In-Memory File System with Recursive Wildcards](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd) | **Uber** | Medium | — |
+| [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | **Figma** | Medium | Jul 06, 2026 |
 | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | **Airtable** | Medium | — |
 | [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | **Squarepoint** | Medium | — |
+| [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances) | **Akuna Capital** | Medium | Nov 02, 2025 |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | **Tesla** | Medium | Jul 04, 2025 |
 | [Extend Queue: Min-Size & Min-Sum Selector](https://trueinterview.io/questions/queue-extension-min-size-min-sum) | **Goldman Sachs** | Medium | Jun 09, 2025 |
 | [File Management System](https://trueinterview.io/questions/ood-file-management-system) | **Oracle** | Medium | Sep 16, 2025 |

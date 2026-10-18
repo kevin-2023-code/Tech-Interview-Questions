@@ -2,7 +2,7 @@
 
 # Lyft interview process, OA & interview questions
 
-**43 questions** reported at Lyft · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lyft), judged server-side on the algorithm, low-level-design and SQL formats.
+**51 questions** reported at Lyft · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lyft), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Lyft interviews & the free questions](lyft/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,41 +14,42 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **43** |
+| Questions tracked | **51** |
 | Most recent sighting | Sep 08, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (40% of 43) |
+| Reported in the last 90 days | 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (33% of 51) |
 | Difficulty (easy / medium / hard) | 1 / 34 / 8 |
-| Free to practise | [10](../free/README.md) |
+| Free to practise | [19](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 43 questions reported at Lyft. 27 of them carry a sighting date; the other 16 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 51 questions reported at Lyft. 33 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **43 of 43** questions at Lyft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **51 of 51** questions at Lyft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 20 | ██████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 18 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 32 | ██████████ | [System Design](../formats/system-design.md) (41%) | 1 / 25 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 24 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 18 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 36 | ██████████ | [System Design](../formats/system-design.md) (36%) | 1 / 25 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Design a Globally Versioned Key-Value Store](https://trueinterview.io/questions/design-a-globally-versioned-key-value-store) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 08, 2026 |
+| [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | Blog | — | Onsite / virtual onsite | Sep 08, 2026 |
 | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | Onsite / virtual onsite | Jul 29, 2026 |
 | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 29, 2026 |
 
 ## What they ask about
 
-Of the **15 questions at Lyft that carry a topic label** (35% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Lyft that carry a topic label** (29% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -71,16 +72,17 @@ Every recorded sighting at Lyft, by the month it was reported in — Oct 05, 202
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | █████ |
-| [Jul 2026](../by-month/2026-07.md) | 2 | ██████████ |
-| [Jun 2026](../by-month/2026-06.md) | 5 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 3 | ██████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 2 | ██████████ |
-| [Mar 2026](../by-month/2026-03.md) | 4 | ███████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 4 | ███████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | ██████████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ██████████ |
-| [Oct 2025](../by-month/2025-10.md) | 2 | ██████████ |
+| [Sep 2026](../by-month/2026-09.md) | 2 | ████████ |
+| [Jul 2026](../by-month/2026-07.md) | 2 | ████████ |
+| [Jun 2026](../by-month/2026-06.md) | 5 | ████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 4 | ████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 6 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 4 | ████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | ████ |
+| [Nov 2025](../by-month/2025-11.md) | 2 | ████████ |
+| [Oct 2025](../by-month/2025-10.md) | 2 | ████████ |
 
 ## Start here
 
@@ -89,13 +91,13 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a Globally Versioned Key-Value Store](https://trueinterview.io/questions/design-a-globally-versioned-key-value-store) | Object Oriented Programming | Medium | — | Sep 08, 2026 |
-| **2** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | — | Jul 29, 2026 |
-| **3** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | — | Jul 29, 2026 |
-| **4** | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | 2 | Jun 29, 2026 |
-| **5** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 1 | Jun 21, 2026 |
-| **6** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 5 | Jun 16, 2026 |
-| **7** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | 3 | Jun 16, 2026 |
-| **8** | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | System Design | Medium | 1 | Jun 02, 2026 |
+| **2** | [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) 🆓 | Blog | — | — | Sep 08, 2026 |
+| **3** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | — | Jul 29, 2026 |
+| **4** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | — | Jul 29, 2026 |
+| **5** | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | 2 | Jun 29, 2026 |
+| **6** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 1 | Jun 21, 2026 |
+| **7** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 5 | Jun 16, 2026 |
+| **8** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | 3 | Jun 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -117,6 +119,7 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | Blog | — | 🆕 Sep 08, 2026 |
 | [Design a Globally Versioned Key-Value Store](https://trueinterview.io/questions/design-a-globally-versioned-key-value-store) | Object Oriented Programming | Medium | 🆕 Sep 08, 2026 |
 | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | Jul 29, 2026 |
 | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | Jul 29, 2026 |
@@ -125,14 +128,18 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
 | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
 | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | System Design | Medium | Jun 02, 2026 |
+| [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability) | Blog | — | May 30, 2026 |
 | [Design Driver Location Heatmap](https://trueinterview.io/questions/onsite-sd-driver-location-heatmap) | System Design | Medium | May 15, 2026 |
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | May 12, 2026 |
 | [Rotten Oranges / Grid Infection BFS](https://trueinterview.io/questions/rotten-oranges-grid-bfs) | Algorithm | Medium | May 12, 2026 |
 | [Reconstruct a BST from Preorder Traversal](https://trueinterview.io/questions/reconstruct-a-bst-from-preorder-traversal) | Algorithm | Hard | Apr 14, 2026 |
+| [Project, Conflict, Failure, and DEI](https://trueinterview.io/questions/behavioral-project-conflict-and-dei) | Blog | — | Apr 10, 2026 |
 | [Solve substring and worker assignment](https://trueinterview.io/questions/solve-substring-and-worker-assignment) | Algorithm | Hard | Apr 02, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis) | Algorithm | Medium | Mar 21, 2026 |
+| [Explain Transformer and Fine-Tuning Basics](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics) | Blog | — | Mar 12, 2026 |
+| [Explain Python and Systems Fundamentals](https://trueinterview.io/questions/explain-python-and-systems-fundamentals) | Blog | — | Mar 12, 2026 |
 | [Design an HR Document AI Platform](https://trueinterview.io/questions/design-an-hr-document-ai-platform) | System Design | Hard | Mar 12, 2026 |
 | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Object Oriented Programming | Medium | Feb 26, 2026 |
 | [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means) | Algorithm | Medium | Feb 13, 2026 |
@@ -140,11 +147,14 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | Object Oriented Programming | Medium | Feb 04, 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
+| [How to Target Coupon Users](https://trueinterview.io/questions/how-to-target-coupon-users) | Blog | — | Dec 16, 2025 |
 | [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table) | Algorithm | Medium | Nov 17, 2025 |
 | [Frontend Autocomplete Component](https://trueinterview.io/questions/frontend-autocomplete-component) | Object Oriented Programming | Medium | Nov 17, 2025 |
 | [Minesweeper Game Logic](https://trueinterview.io/questions/minesweeper-game-logic) | Algorithm | Medium | Oct 16, 2025 |
 | [Implement Cache and Key-Value Store](https://trueinterview.io/questions/implement-cache-and-key-value-store) | Object Oriented Programming | Medium | Oct 05, 2025 |
 | [Design experiments for marketplace balance](https://trueinterview.io/questions/design-experiments-for-marketplace-balance) | System Design | Hard | — |
+| [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2) | Blog | — | — |
+| [Compute Poisson supply–demand match probability](https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability) | Blog | — | — |
 | [Query and transform marketplace data in SQL/Python](https://trueinterview.io/questions/query-and-transform-marketplace-data-in-sql-python) | SQL | Medium | — |
 | [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0) | Object Oriented Programming | Hard | — |
 | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Object Oriented Programming | Medium | — |

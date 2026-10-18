@@ -8,11 +8,11 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [78](../anthropic.md) |
-| Free to read here | 12 |
+| Questions reported | [99](../anthropic.md) |
+| Free to read here | 14 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
-| Most recent sighting | Sep 08, 2026 |
+| Most recent sighting | Sep 12, 2026 |
 
 ## How Anthropic interviews
 
@@ -50,26 +50,49 @@ Here's what the interview process can look like:
 
 ## Free Anthropic questions
 
-12 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+35 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) |
+| [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) |
+| [Identify the Most Important AI Safety Risk](https://trueinterview.io/questions/identify-the-most-important-ai-safety-risk) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/identify-the-most-important-ai-safety-risk) |
+| [Explain How You Know a Professional Referrer](https://trueinterview.io/questions/explain-how-you-know-a-professional-referrer) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/explain-how-you-know-a-professional-referrer) |
+| [Explain Your Motivation and Practical Approach to AI Safety](https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety) |
+| [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks) |
 | [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/infection-spread-simulation) |
+| [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/recruiter-screen-why-anthropic) |
 | [Find Duplicate Files](../../questions/object-oriented-programming/find-duplicate-files/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) |
 | [Stack Trace Reconstruction](../../questions/algorithm/coding-q3-stack-trace/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/coding-q3-stack-trace) |
+| [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/onsite-hm-behavioral) |
+| [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/culture-behavioral-interview-questions) |
 | [Web Crawler](../../questions/algorithm/web-crawler/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/web-crawler) |
+| [Onsite Design Doc Review](https://trueinterview.io/questions/onsite-design-doc-review) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/onsite-design-doc-review) |
 | [In-Memory Database](../../questions/object-oriented-programming/in-memory-database/README.md) | Object Oriented Programming | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/in-memory-database) |
+| [Answer Culture and Project Questions](https://trueinterview.io/questions/answer-culture-and-project-questions) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/answer-culture-and-project-questions) |
+| [Reason About Delaying an AI Breakthrough Under Uncertain Risk](https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk) |
+| [Explain How You Resolved a Professional Conflict](https://trueinterview.io/questions/explain-how-you-resolved-a-professional-conflict) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-how-you-resolved-a-professional-conflict) |
+| [Describe your most impactful project](https://trueinterview.io/questions/describe-your-most-impactful-project-2) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/describe-your-most-impactful-project-2) |
+| [How do you lead under risk and uncertainty?](https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty) |
+| [How should you handle misaligned interviews?](https://trueinterview.io/questions/how-should-you-handle-misaligned-interviews) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-should-you-handle-misaligned-interviews) |
+| [Explain CPU-Bound vs I/O-Bound Work](https://trueinterview.io/questions/explain-cpu-bound-vs-i-o-bound-work) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-cpu-bound-vs-i-o-bound-work) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
+| [Explain projects and handle AI-safety conflicts](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) |
+| [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/why-anthropic-and-its-values) |
+| [Describe failure impact and resolve cross-functional conflict](https://trueinterview.io/questions/describe-failure-impact-and-resolve-cross-functional-conflict) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/describe-failure-impact-and-resolve-cross-functional-conflict) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
 | [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [File Profiler](../../questions/algorithm/file-profiler/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) |
+| [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](../../questions/algorithm/high-concurrency-prompt-template-deduplication-array-hash-map/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf) |
+| [Efficiency of Distributed Systems](../../questions/system-design/efficiency-of-distributed-systems/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) |
 | [Web Crawler with Asyncio](../../questions/ai-coding/web-crawler-with-asyncio/README.md) | AI Coding | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) |
+| [Implement a UI From a Figma Mock in React + TypeScript](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) |
 | [Bank System](../../questions/object-oriented-programming/bank-system/README.md) | Object Oriented Programming | Hard | Online assessment | — | [Solve](https://trueinterview.io/questions/bank-system) |
 
 ## Everything else
 
-- [All 78 questions reported at Anthropic](../anthropic.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 99 questions reported at Anthropic](../anthropic.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Anthropic question on TrueInterview](https://trueinterview.io/problems/company/anthropic).
 
 ---

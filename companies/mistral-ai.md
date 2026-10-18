@@ -2,7 +2,7 @@
 
 # Mistral AI interview process, OA & interview questions
 
-**2 questions** reported at Mistral AI. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/mistral-ai), judged server-side on the algorithm, low-level-design and SQL formats.
+**9 questions** reported at Mistral AI. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/mistral-ai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Mistral AI interviews & the free questions](mistral-ai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,33 +14,43 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **2** |
-| Most recent sighting | Apr 16, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 2) |
+| Questions tracked | **9** |
+| Most recent sighting | Sep 01, 2026 |
+| Reported in the last 90 days | 7 |
+| Most common format | [Blog](../formats/blog.md) (78% of 9) |
 | Difficulty (easy / medium / hard) | 0 / 0 / 2 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 2 questions reported at Mistral AI. 2 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 9 questions reported at Mistral AI. 9 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **2 of 2** questions at Mistral AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **9 of 9** questions at Mistral AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 0 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 9 | ██████████ | [Blog](../formats/blog.md) (78%) | 0 / 0 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Mistral AI since Apr 16, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**7 sightings** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) | Blog | — | Phone screen | Sep 01, 2026 |
+| [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) | Blog | — | Phone screen | Sep 01, 2026 |
+| [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | Blog | — | Phone screen | Sep 01, 2026 |
+| [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | Blog | — | Phone screen | Sep 01, 2026 |
+| [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) | Blog | — | Phone screen | Sep 01, 2026 |
+| [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) | Blog | — | Phone screen | Sep 01, 2026 |
+| [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) | Blog | — | Phone screen | Sep 01, 2026 |
 
 ## What they ask about
 
-Of the **1 question at Mistral AI that carries a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Mistral AI that carries a topic label** (11% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -50,20 +60,27 @@ Of the **1 question at Mistral AI that carries a topic label** (50% of them — 
 
 ## When they asked it
 
-Every recorded sighting at Mistral AI, by the month it was reported in — Apr 16, 2026 to Apr 16, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Mistral AI, by the month it was reported in — Apr 16, 2026 to Sep 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Apr 2026](../by-month/2026-04.md) | 2 | ████████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 7 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 2 | ███████ |
 
 ## Start here
 
-The 2 questions to open first if you are preparing for Mistral AI, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Mistral AI, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) 🆓 | Algorithm | Hard | — | Apr 16, 2026 |
-| **2** | [Design a PDF-to-Markdown Inference API](https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api) 🆓 | System Design | Hard | — | Apr 16, 2026 |
+| **1** | [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) 🆓 | Blog | — | — | Sep 01, 2026 |
+| **2** | [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) 🆓 | Blog | — | — | Sep 01, 2026 |
+| **3** | [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) 🆓 | Blog | — | — | Sep 01, 2026 |
+| **4** | [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) 🆓 | Blog | — | — | Sep 01, 2026 |
+| **5** | [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) 🆓 | Blog | — | — | Sep 01, 2026 |
+| **6** | [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) 🆓 | Blog | — | — | Sep 01, 2026 |
+| **7** | [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) 🆓 | Blog | — | — | Sep 01, 2026 |
+| **8** | [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) 🆓 | Algorithm | Hard | — | Apr 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -77,5 +94,12 @@ The 2 questions to open first if you are preparing for Mistral AI, ranked by **t
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) | Blog | — | Sep 01, 2026 |
+| [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) | Blog | — | Sep 01, 2026 |
+| [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) | Blog | — | Sep 01, 2026 |
+| [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | Blog | — | Sep 01, 2026 |
+| [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | Blog | — | Sep 01, 2026 |
+| [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) | Blog | — | Sep 01, 2026 |
+| [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) | Blog | — | Sep 01, 2026 |
 | [Design a PDF-to-Markdown Inference API](https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api) | System Design | Hard | Apr 16, 2026 |
 | [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) | Algorithm | Hard | Apr 16, 2026 |

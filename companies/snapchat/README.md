@@ -8,7 +8,7 @@ How Snapchat interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [70](../snapchat.md) |
+| Questions reported | [89](../snapchat.md) |
 | Free to read here | 13 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -49,27 +49,46 @@ Here's what the interview process can look like:
 
 ## Free Snapchat questions
 
-13 questions reported at Snapchat open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+32 questions reported at Snapchat open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) |
+| [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) |
+| [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) |
+| [ML Fundamentals, Transformer & Regularization](https://trueinterview.io/questions/ml-fundamentals-transformer-and-regularization) | Blog | — | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/ml-fundamentals-transformer-and-regularization) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
+| [Explain Overfitting and Transformer Attention](https://trueinterview.io/questions/explain-overfitting-and-transformer-attention) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-overfitting-and-transformer-attention) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
+| [Explain CLIP, contrastive losses, and retrieval limits](https://trueinterview.io/questions/explain-clip-contrastive-losses-and-retrieval-limits) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-clip-contrastive-losses-and-retrieval-limits) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
+| [Explain LLM tuning and transformer basics](https://trueinterview.io/questions/explain-llm-tuning-and-transformer-basics) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-llm-tuning-and-transformer-basics) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [How do you deliver when time is tight?](https://trueinterview.io/questions/how-do-you-deliver-when-time-is-tight) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-deliver-when-time-is-tight) |
+| [Describe an innovation you drove end-to-end](https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-an-innovation-you-drove-end-to-end) |
+| [Compare WebSocket, SSE, and long polling](https://trueinterview.io/questions/compare-websocket-sse-and-long-polling) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/compare-websocket-sse-and-long-polling) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [How do you decide with limited information?](https://trueinterview.io/questions/how-do-you-decide-with-limited-information) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/how-do-you-decide-with-limited-information) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Influence a senior partner with data](https://trueinterview.io/questions/influence-a-senior-partner-with-data) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/influence-a-senior-partner-with-data) |
+| [Explain Random Forest randomness and implications](https://trueinterview.io/questions/explain-random-forest-randomness-and-implications) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-random-forest-randomness-and-implications) |
+| [Design and analyze a banner A/B test](https://trueinterview.io/questions/design-and-analyze-a-banner-a-b-test) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-and-analyze-a-banner-a-b-test) |
+| [Design an experiment for spam filtering impact](https://trueinterview.io/questions/design-an-experiment-for-spam-filtering-impact) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-an-experiment-for-spam-filtering-impact) |
+| [Derive logistic regression and thresholds](https://trueinterview.io/questions/derive-logistic-regression-and-thresholds) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/derive-logistic-regression-and-thresholds) |
+| [Decide whether to launch Group Story](https://trueinterview.io/questions/decide-whether-to-launch-group-story) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/decide-whether-to-launch-group-story) |
+| [Compute posterior spam risk from flags](https://trueinterview.io/questions/compute-posterior-spam-risk-from-flags) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-posterior-spam-risk-from-flags) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
+| [DispatchQueue Code Analysis in Swift](https://trueinterview.io/questions/4dde5e0c-9e01-477b-b775-5919892177b9) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/4dde5e0c-9e01-477b-b775-5919892177b9) |
 
 ## Everything else
 
-- [All 70 questions reported at Snapchat](../snapchat.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 89 questions reported at Snapchat](../snapchat.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snapchat question on TrueInterview](https://trueinterview.io/problems/company/snapchat).
 
 ---

@@ -8,11 +8,11 @@ How Onemain Financial interviews, and the questions candidates reported there. F
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [3](../onemain-financial.md) |
+| Questions reported | [12](../onemain-financial.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Dec 01, 2025 |
 
 ## How Onemain Financial interviews
 
@@ -20,16 +20,25 @@ No written process guide yet. [The loop, as reported](../onemain-financial.md#th
 
 ## Free Onemain Financial questions
 
-2 questions reported at Onemain Financial open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+11 questions reported at Onemain Financial open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Walk through a DS project end-to-end](https://trueinterview.io/questions/walk-through-a-ds-project-end-to-end) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/walk-through-a-ds-project-end-to-end) |
+| [Explain decision trees and tree ensembles](https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-decision-trees-and-tree-ensembles) |
+| [Detect and address multicollinearity](https://trueinterview.io/questions/detect-and-address-multicollinearity) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/detect-and-address-multicollinearity) |
+| [Evaluate shift from branch to digital channel](https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel) |
+| [Select and tune XGBoost hyperparameters](https://trueinterview.io/questions/select-and-tune-xgboost-hyperparameters) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/select-and-tune-xgboost-hyperparameters) |
+| [Present a project to non-technical leaders](https://trueinterview.io/questions/present-a-project-to-non-technical-leaders) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/present-a-project-to-non-technical-leaders) |
+| [Optimize SaaS pricing and profit](https://trueinterview.io/questions/optimize-saas-pricing-and-profit) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/optimize-saas-pricing-and-profit) |
+| [Handle missing data and outliers robustly](https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly) |
+| [Differentiate and control Type I/II errors](https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors) |
 | [Transform clickstream with pandas sessionization](../../questions/algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
 
 ## Everything else
 
-- [All 3 questions reported at Onemain Financial](../onemain-financial.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 12 questions reported at Onemain Financial](../onemain-financial.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Onemain Financial question on TrueInterview](https://trueinterview.io/problems/company/onemain-financial).
 
 ---

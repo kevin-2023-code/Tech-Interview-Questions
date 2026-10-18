@@ -8,11 +8,11 @@ How NVIDIA interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [38](../nvidia.md) |
+| Questions reported | [54](../nvidia.md) |
 | Free to read here | 6 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Aug 21, 2026 |
+| Most recent sighting | Sep 17, 2026 |
 
 ## How NVIDIA interviews
 
@@ -49,20 +49,36 @@ Here's what the interview process can look like:
 
 ## Free NVIDIA questions
 
-6 questions reported at NVIDIA open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at NVIDIA open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) |
+| [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive) |
+| [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) | Blog | — | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Compare arrays, linked lists, hash tables, trees](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
+| [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/questions/deep-learning-fundamentals) | Blog | — | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/deep-learning-fundamentals) |
+| [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals) | Blog | — | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals) |
+| [Introduce yourself for a senior role](https://trueinterview.io/questions/introduce-yourself-for-a-senior-role) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/introduce-yourself-for-a-senior-role) |
+| [Explain virtual machines and concurrency basics](https://trueinterview.io/questions/explain-virtual-machines-and-concurrency-basics) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-virtual-machines-and-concurrency-basics) |
+| [Explain container image flow in CI/CD](https://trueinterview.io/questions/explain-container-image-flow-in-ci-cd) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-container-image-flow-in-ci-cd) |
+| [Optimize a small-string C++ class](https://trueinterview.io/questions/optimize-a-small-string-cplusplus-class) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/optimize-a-small-string-cplusplus-class) |
+| [Sell GPUs to a retail CEO](https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo) |
+| [Resolve conflict and learn from failure](https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure) |
+| [Reflect on interview takeaways and adaptation](https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation) |
+| [Explain NVIDIA fit and role value](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value) |
+| [Demonstrate cultural fit and sales-oriented leadership](https://trueinterview.io/questions/demonstrate-cultural-fit-and-sales-oriented-leadership) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/demonstrate-cultural-fit-and-sales-oriented-leadership) |
+| [Analyze overfitting, DenseNet, preprocessing, and cross-validation](https://trueinterview.io/questions/analyze-overfitting-densenet-preprocessing-and-cross-validation) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/analyze-overfitting-densenet-preprocessing-and-cross-validation) |
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
 | [Remove Duplicates from Sorted Array](../../questions/algorithm/remove-duplicates-from-sorted-array/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) |
 
 ## Everything else
 
-- [All 38 questions reported at NVIDIA](../nvidia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 54 questions reported at NVIDIA](../nvidia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every NVIDIA question on TrueInterview](https://trueinterview.io/problems/company/nvidia).
 
 ---

@@ -2,7 +2,7 @@
 
 # Yelp interview process, OA & interview questions
 
-**19 questions** reported at Yelp. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/yelp), judged server-side on the algorithm, low-level-design and SQL formats.
+**22 questions** reported at Yelp. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/yelp), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Yelp interviews & the free questions](yelp/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,38 +14,40 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **19** |
+| Questions tracked | **22** |
 | Most recent sighting | Aug 27, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (53% of 19) |
+| Reported in the last 90 days | 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (45% of 22) |
 | Difficulty (easy / medium / hard) | 5 / 10 / 4 |
-| Free to practise | [11](../free/README.md) |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 19 questions reported at Yelp. 14 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 22 questions reported at Yelp. 16 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **19 of 19** questions at Yelp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **22 of 22** questions at Yelp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 12 | ███████ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 8 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 3 / 10 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 14 | ████████ | [Algorithm](../formats/algorithm.md) (64%) | 4 / 8 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 18 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 3 / 10 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Estimate Experiment Duration with Power Analysis](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis) | Blog | — | Phone screen | Aug 27, 2026 |
+| [Recommend a Decision After a Nonsignificant Experiment](https://trueinterview.io/questions/recommend-a-decision-after-a-nonsignificant-experiment) | Blog | — | Phone screen | Aug 27, 2026 |
 | [Return Integers in Descending Ranked Order](https://trueinterview.io/questions/return-integers-in-descending-ranked-order) | Algorithm | Easy | Phone screen | Aug 27, 2026 |
 
 ## What they ask about
 
-Of the **10 questions at Yelp that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Yelp that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -65,7 +67,7 @@ Every recorded sighting at Yelp, by the month it was reported in — Apr 20, 202
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ███ |
+| [Aug 2026](../by-month/2026-08.md) | 3 | ██████████ |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ███ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | ███████ |
 | [Jan 2026](../by-month/2026-01.md) | 1 | ███ |
@@ -80,13 +82,13 @@ The 8 questions to open first if you are preparing for Yelp, ranked by **the mos
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Return Integers in Descending Ranked Order](https://trueinterview.io/questions/return-integers-in-descending-ranked-order) | Algorithm | Easy | — | Aug 27, 2026 |
-| **2** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 12 | Apr 12, 2026 |
-| **3** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) 🆓 | System Design | Medium | 15 | Mar 30, 2026 |
-| **4** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 9 | Mar 23, 2026 |
-| **5** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
-| **6** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 9 | Dec 10, 2025 |
-| **7** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | 9 | Oct 15, 2025 |
-| **8** | [Count Alert Triggers](https://trueinterview.io/questions/count-alert-triggers) 🆓 | Algorithm | Medium | — | Apr 21, 2025 |
+| **2** | [Estimate Experiment Duration with Power Analysis](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis) 🆓 | Blog | — | — | Aug 27, 2026 |
+| **3** | [Recommend a Decision After a Nonsignificant Experiment](https://trueinterview.io/questions/recommend-a-decision-after-a-nonsignificant-experiment) 🆓 | Blog | — | — | Aug 27, 2026 |
+| **4** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 12 | Apr 12, 2026 |
+| **5** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) 🆓 | System Design | Medium | 15 | Mar 30, 2026 |
+| **6** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 9 | Mar 23, 2026 |
+| **7** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
+| **8** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 9 | Dec 10, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -100,6 +102,8 @@ The 8 questions to open first if you are preparing for Yelp, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Recommend a Decision After a Nonsignificant Experiment](https://trueinterview.io/questions/recommend-a-decision-after-a-nonsignificant-experiment) | Blog | — | Aug 27, 2026 |
+| [Estimate Experiment Duration with Power Analysis](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis) | Blog | — | Aug 27, 2026 |
 | [Return Integers in Descending Ranked Order](https://trueinterview.io/questions/return-integers-in-descending-ranked-order) | Algorithm | Easy | Aug 27, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
@@ -114,6 +118,7 @@ The 8 questions to open first if you are preparing for Yelp, ranked by **the mos
 | [Merge Common Substring](https://trueinterview.io/questions/merge-common-substring) | Algorithm | Medium | Apr 20, 2025 |
 | [Jaccard Business Similarity](https://trueinterview.io/questions/jaccard-business-similarity) | Algorithm | Easy | Apr 20, 2025 |
 | [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | Algorithm | Easy | Apr 20, 2025 |
+| [Handle PM Ambiguity and Drive Outcomes](https://trueinterview.io/questions/handle-pm-ambiguity-and-drive-outcomes) | Blog | — | — |
 | [Design a Cold-Start-Aware Recommender](https://trueinterview.io/questions/design-a-cold-start-aware-recommender) | System Design | Hard | — |
 | [Compute and Rank by Jaccard Similarity](https://trueinterview.io/questions/compute-and-rank-by-jaccard-similarity) | Algorithm | Hard | — |
 | [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | System Design | Medium | — |

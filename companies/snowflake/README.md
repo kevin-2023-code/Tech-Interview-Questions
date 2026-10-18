@@ -8,8 +8,8 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [133](../snowflake.md) |
-| Free to read here | 25 |
+| Questions reported | [145](../snowflake.md) |
+| Free to read here | 31 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -47,17 +47,23 @@ Here's what the interview process can look like:
 
 ## Free Snowflake questions
 
-25 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+43 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) |
+| [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/infra-recruiter-experience-screen) |
+| [Proud Project / Conflict / Failure](https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure) |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
 | [Closest Cake and Global Assignment](../../questions/algorithm/closest-cake-and-global-assignment/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/closest-cake-and-global-assignment) |
+| [AI-Conducted Screening Interview](https://trueinterview.io/questions/ai-conducted-screening) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/ai-conducted-screening) |
 | [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
 | [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
+| [Answer conflict, tight deadline, and mentorship prompts](https://trueinterview.io/questions/answer-conflict-tight-deadline-and-mentorship-prompts) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-conflict-tight-deadline-and-mentorship-prompts) |
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-key-value-store-with-transactions) |
+| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
@@ -66,20 +72,32 @@ Here's what the interview process can look like:
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Vowels Substring](../../questions/algorithm/vowels-substring/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/vowels-substring) |
 | [Unequal Elements](../../questions/algorithm/unequal-elements/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/unequal-elements) |
+| [Three-Color Map Coloring](../../questions/algorithm/three-color-map-coloring/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/three-color-map-coloring) |
+| [Present an end-to-end project and defend decisions](https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/present-an-end-to-end-project-and-defend-decisions) |
+| [Lead innovation and automate a critical process](https://trueinterview.io/questions/lead-innovation-and-automate-a-critical-process) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/lead-innovation-and-automate-a-critical-process) |
+| [Design an A/B test for ML model launch](https://trueinterview.io/questions/design-an-a-b-test-for-ml-model-launch) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-an-a-b-test-for-ml-model-launch) |
+| [Describe navigating ambiguous, repetitive questioning](https://trueinterview.io/questions/describe-navigating-ambiguous-repetitive-questioning) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-navigating-ambiguous-repetitive-questioning) |
+| [Derive uniform RNGs from limited or biased sources](https://trueinterview.io/questions/derive-uniform-rngs-from-limited-or-biased-sources) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/derive-uniform-rngs-from-limited-or-biased-sources) |
+| [Decide and justify product metrics amid trade-offs](https://trueinterview.io/questions/decide-and-justify-product-metrics-amid-trade-offs) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/decide-and-justify-product-metrics-amid-trade-offs) |
+| [Contrast FCF vs NI; choose one statement](https://trueinterview.io/questions/contrast-fcf-vs-ni-choose-one-statement) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/contrast-fcf-vs-ni-choose-one-statement) |
 | [Find Unique Number in Consecutive Pairs](../../questions/algorithm/find-unique-number-in-consecutive-pairs/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027) |
 | [Minimize Marbles in Grid](../../questions/algorithm/minimize-marbles-in-grid/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) |
 | [Implement Trie with Non-Standard Alphabet](../../questions/algorithm/implement-trie-with-non-standard-alphabet/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712) |
 | [Calculate Fibonacci Number](../../questions/algorithm/calculate-fibonacci-number/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216) |
 | [Determine if a Binary Tree is Perfect](../../questions/algorithm/determine-if-a-binary-tree-is-perfect/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671) |
+| [Determine Employees to Promote](../../questions/algorithm/determine-employees-to-promote/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086) |
+| [Role-Based Access Control with Inheritance and Deny Rules](../../questions/algorithm/role-based-access-control-with-inheritance-and-deny-rules/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/406c257a-cd8f-4c52-ba90-ea79a05da226) |
 | [Simple TypeScript Program](../../questions/algorithm/simple-typescript-program/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) |
 | [Check Validity of Input String](../../questions/algorithm/check-validity-of-input-string/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) |
 | [Deployments Node Calculation](../../questions/algorithm/deployments-node-calculation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1ca38e96-972d-43d4-94bf-0358e19f7bd9) |
+| [Maximum Order Volume](../../questions/algorithm/maximum-order-volume/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) |
+| [Vowel Substring](../../questions/algorithm/vowel-substring/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) |
 | [Minimum Value Weight](../../questions/algorithm/minimum-value-weight/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
 
-- [All 133 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 145 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snowflake question on TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 ---

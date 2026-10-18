@@ -8,11 +8,11 @@ How Voleon interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [11](../voleon.md) |
+| Questions reported | [18](../voleon.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Jun 27, 2026 |
+| Most recent sighting | Sep 14, 2026 |
 
 ## How Voleon interviews
 
@@ -45,16 +45,23 @@ Here's what the interview process can look like:
 
 ## Free Voleon questions
 
-2 questions reported at Voleon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Voleon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) |
+| [Row and Column Sums: Square Matrices and Nilpotence](https://trueinterview.io/questions/row-and-column-sums-square-matrices-and-nilpotence) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/row-and-column-sums-square-matrices-and-nilpotence) |
+| [Reason About Train and Test Loss Under Regularization and More Data](https://trueinterview.io/questions/reason-about-train-and-test-loss-under-regularization-and-more-data) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/reason-about-train-and-test-loss-under-regularization-and-more-data) |
+| [Bound R-Squared for Individual and Combined OLS Regressions](https://trueinterview.io/questions/bound-r-squared-for-individual-and-combined-ols-regressions) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/bound-r-squared-for-individual-and-combined-ols-regressions) |
+| [Solve Markov, OLS-rotation, and coin-toss probability](https://trueinterview.io/questions/solve-markov-ols-rotation-and-coin-toss-probability) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-markov-ols-rotation-and-coin-toss-probability) |
 | [Count Palindromic Substrings](../../questions/algorithm/palindromic-substrings/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/palindromic-substrings) |
+| [Design and diagnose a regression pipeline](https://trueinterview.io/questions/design-and-diagnose-a-regression-pipeline) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-and-diagnose-a-regression-pipeline) |
+| [Load and visualize large CSV robustly](https://trueinterview.io/questions/load-and-visualize-large-csv-robustly) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/load-and-visualize-large-csv-robustly) |
 | [Flipping Balls with Moving Marked Positions](../../questions/algorithm/flipping-balls-with-moving-marked-positions/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) |
 
 ## Everything else
 
-- [All 11 questions reported at Voleon](../voleon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 18 questions reported at Voleon](../voleon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Voleon question on TrueInterview](https://trueinterview.io/problems/company/voleon).
 
 ---

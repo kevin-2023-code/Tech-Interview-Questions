@@ -8,8 +8,8 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [53](../goldman-sachs.md) |
-| Free to read here | 24 |
+| Questions reported | [68](../goldman-sachs.md) |
+| Free to read here | 25 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 13, 2026 |
@@ -47,13 +47,25 @@ Here's what the interview process can look like:
 
 ## Free Goldman Sachs questions
 
-24 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+40 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/maximize-covariance-from-known-variances) |
+| [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) |
+| [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) |
+| [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) |
+| [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) |
+| [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) |
+| [Math and Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank) | Blog | — | Online assessment | May 2026 | [Solve](https://trueinterview.io/questions/quant-oa-math-probability-bank) |
+| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
 | [First Missing Positive](../../questions/algorithm/first-missing-positive/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/first-missing-positive) |
+| [Describe a proud project and handling credit conflict](https://trueinterview.io/questions/describe-a-proud-project-and-handling-credit-conflict) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/describe-a-proud-project-and-handling-credit-conflict) |
+| [How would you handle conflict and data pressure?](https://trueinterview.io/questions/how-would-you-handle-conflict-and-data-pressure) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/how-would-you-handle-conflict-and-data-pressure) |
+| [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/questions/hirevue-behavioral-six-questions) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/hirevue-behavioral-six-questions) |
+| [Evaluate TPR/FPR, sigmoid, and activations](https://trueinterview.io/questions/evaluate-tpr-fpr-sigmoid-and-activations) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/evaluate-tpr-fpr-sigmoid-and-activations) |
 | [Process Starvation Time](../../questions/algorithm/process-starvation-time/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/process-starvation-time) |
 | [Ethernet Cable Square Count](../../questions/algorithm/ethernet-cable-square-count/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/ethernet-cable-square-count) |
 | [Equalize Letter Frequencies With Add / Remove](../../questions/algorithm/equalize-letter-frequencies/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/equalize-letter-frequencies) |
@@ -61,8 +73,12 @@ Here's what the interview process can look like:
 | [Decode Ways / Alphanumeric Combination](../../questions/algorithm/decode-ways/README.md) | Algorithm | Medium | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/decode-ways) |
 | [Extend Queue: Min-Size & Min-Sum Selector](../../questions/object-oriented-programming/queue-extension-min-size-min-sum/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/queue-extension-min-size-min-sum) |
 | [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists-3) |
+| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/questions/horse-race-25) | Blog | — | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/horse-race-25) |
+| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/questions/explain-recursion-no-cs-audience) | Blog | — | Phone screen | Dec 2024 | [Solve](https://trueinterview.io/questions/explain-recursion-no-cs-audience) |
 | [Longest Substring of All Same Letter](../../questions/algorithm/longest-same-letter-substring/README.md) | Algorithm | Easy | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/longest-same-letter-substring) |
+| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/questions/hash-collision-fundamentals) | Blog | — | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/hash-collision-fundamentals) |
 | [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/spiral-matrix-output) |
+| [Maximum-Sum Path in a Matrix (No Revisits)](../../questions/algorithm/matrix-max-sum-path-no-repeat/README.md) | Algorithm | Hard | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat) |
 | [Second-Smallest Unique Element](../../questions/algorithm/second-smallest-unique-element/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Nov 2024 | [Solve](https://trueinterview.io/questions/second-smallest-unique-element) |
 | [Count Unique Pairs With Difference K](../../questions/algorithm/unique-pairs-difference-k/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/unique-pairs-difference-k) |
 | [Plus-Multiply Even / Odd Parity](../../questions/algorithm/plus-multiply-even-odd-parity/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/plus-multiply-even-odd-parity) |
@@ -78,7 +94,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 53 questions reported at Goldman Sachs](../goldman-sachs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 68 questions reported at Goldman Sachs](../goldman-sachs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Goldman Sachs question on TrueInterview](https://trueinterview.io/problems/company/goldman-sachs).
 
 ---

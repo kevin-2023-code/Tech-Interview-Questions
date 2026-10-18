@@ -8,7 +8,7 @@ How Sig interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [3](../sig.md) |
+| Questions reported | [9](../sig.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,22 @@ No written process guide yet. [The loop, as reported](../sig.md#the-loop-as-repo
 
 ## Free Sig questions
 
-2 questions reported at Sig open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Sig open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](../../questions/algorithm/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed/README.md) | Algorithm | Hard | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) |
 | [Count Equal-Difference Triples After Each Add or Remove-All Operation](../../questions/algorithm/count-equal-difference-triples-after-each-add-or-remove-all-operation/README.md) | Algorithm | Hard | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) |
+| [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) | Blog | — | Online assessment | Aug 2026 | [Solve](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) |
+| [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) | Blog | — | Online assessment | Aug 2026 | [Solve](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) |
+| [Find a Green Triangle's Weight in a Balanced Mobile](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile) | Blog | — | Online assessment | Aug 2026 | [Solve](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile) |
+| [Count Cookie Flavor Combinations](https://trueinterview.io/questions/count-cookie-flavor-combinations) | Blog | — | Online assessment | Aug 2026 | [Solve](https://trueinterview.io/questions/count-cookie-flavor-combinations) |
+| [Compute the Probability Two Bloom Intervals Overlap](https://trueinterview.io/questions/compute-the-probability-two-bloom-intervals-overlap) | Blog | — | Online assessment | Aug 2026 | [Solve](https://trueinterview.io/questions/compute-the-probability-two-bloom-intervals-overlap) |
+| [Calculate Expected Payoff from Two Dice](https://trueinterview.io/questions/calculate-expected-payoff-from-two-dice) | Blog | — | Online assessment | Aug 2026 | [Solve](https://trueinterview.io/questions/calculate-expected-payoff-from-two-dice) |
 
 ## Everything else
 
-- [All 3 questions reported at Sig](../sig.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 9 questions reported at Sig](../sig.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Sig question on TrueInterview](https://trueinterview.io/problems/company/sig).
 
 ---

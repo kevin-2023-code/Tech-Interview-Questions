@@ -2,7 +2,7 @@
 
 # Stripe interview process, OA & interview questions
 
-**103 questions** reported at Stripe · **1 writeup** · **23 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
+**118 questions** reported at Stripe · **1 writeup** · **23 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Stripe interviews & the free questions](stripe/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,51 +14,53 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **103** |
+| Questions tracked | **118** |
 | Most recent sighting | Oct 04, 2026 |
-| Reported in the last 90 days | 12 |
-| Most common format | [Algorithm](../formats/algorithm.md) (54% of 103) |
+| Reported in the last 90 days | 14 |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 118) |
 | Difficulty (easy / medium / hard) | 19 / 64 / 20 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [20](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 23 in this snapshot |
 
-<sub>Counted from the 103 questions reported at Stripe. 62 of them carry a sighting date; the other 41 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 118 questions reported at Stripe. 67 of them carry a sighting date; the other 51 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **103 of 103** questions at Stripe that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **118 of 118** questions at Stripe that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 26 | ██████ | [Algorithm](../formats/algorithm.md) (81%) | 8 / 15 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 40 | █████████ | [Algorithm](../formats/algorithm.md) (82%) | 6 / 24 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 45 | ██████████ | [AI Coding](../formats/ai-coding.md) (31%) | 7 / 30 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 27 | █████ | [Algorithm](../formats/algorithm.md) (78%) | 8 / 15 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 49 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 6 / 24 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 50 | ██████████ | [AI Coding](../formats/ai-coding.md) (28%) | 7 / 30 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**12 sightings** in this window. Newest first.
+**14 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | Medium | Online assessment | Oct 04, 2026 |
+| [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | Blog | — | Phone screen | Sep 15, 2026 |
 | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | System Design | Easy | Onsite / virtual onsite | Sep 11, 2026 |
 | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 11, 2026 |
 | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | Online assessment | Sep 11, 2026 |
 | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | Phone screen | Sep 11, 2026 |
+| [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | Blog | — | Onsite / virtual onsite | Sep 11, 2026 |
 | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | Online assessment | Sep 10, 2026 |
 | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | Online assessment | Sep 04, 2026 |
 | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | SQL | Easy | Phone screen | Aug 31, 2026 |
 | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Algorithm | Hard | Phone screen | Aug 25, 2026 |
 | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Algorithm | Hard | Online assessment | Aug 24, 2026 |
-| [Design a Scalable Idempotent Ledger Service](https://trueinterview.io/questions/design-a-scalable-idempotent-ledger-service) | System Design | Hard | Phone screen | Aug 20, 2026 |
-| [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | SQL | Easy | Onsite / virtual onsite | Jul 22, 2026 |
+
+<sub>2 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **55 questions at Stripe that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **55 questions at Stripe that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -81,19 +83,19 @@ Every recorded sighting at Stripe, by the month it was reported in — Oct 07, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Oct 2026](../by-month/2026-10.md) | 1 | ███ |
-| [Sep 2026](../by-month/2026-09.md) | 6 | ████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 4 | ███████████ |
-| [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
-| [Jun 2026](../by-month/2026-06.md) | 8 | █████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 9 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 7 | ███████████████████ |
+| [Oct 2026](../by-month/2026-10.md) | 1 | ██ |
+| [Sep 2026](../by-month/2026-09.md) | 8 | ███████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 4 | ██████████ |
+| [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
+| [Jun 2026](../by-month/2026-06.md) | 8 | ███████████████████ |
+| [May 2026](../by-month/2026-05.md) | 10 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 7 | █████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | █████ |
-| [Feb 2026](../by-month/2026-02.md) | 6 | ████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | █████ |
-| [Dec 2025](../by-month/2025-12.md) | 6 | ████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | █████ |
-| [Oct 2025](../by-month/2025-10.md) | 8 | █████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 6 | ██████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ███████ |
+| [Dec 2025](../by-month/2025-12.md) | 6 | ██████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 3 | ███████ |
+| [Oct 2025](../by-month/2025-10.md) | 8 | ███████████████████ |
 
 ## Start here
 
@@ -102,13 +104,13 @@ The 8 questions to open first if you are preparing for Stripe, ranked by **the m
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | Medium | — | Oct 04, 2026 |
-| **2** | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | System Design | Easy | — | Sep 11, 2026 |
-| **3** | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Object Oriented Programming | Medium | — | Sep 11, 2026 |
-| **4** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | — | Sep 11, 2026 |
-| **5** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | — | Sep 11, 2026 |
-| **6** | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | — | Sep 10, 2026 |
-| **7** | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | — | Sep 04, 2026 |
-| **8** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | SQL | Easy | — | Aug 31, 2026 |
+| **2** | [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) 🆓 | Blog | — | — | Sep 15, 2026 |
+| **3** | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | System Design | Easy | — | Sep 11, 2026 |
+| **4** | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Object Oriented Programming | Medium | — | Sep 11, 2026 |
+| **5** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | — | Sep 11, 2026 |
+| **6** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | — | Sep 11, 2026 |
+| **7** | [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) 🆓 | Blog | — | — | Sep 11, 2026 |
+| **8** | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | — | Sep 10, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -163,6 +165,8 @@ What candidates said happened in the room at Stripe — written up by the people
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | Medium | 🔥 Oct 04, 2026 |
+| [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | Blog | — | 🆕 Sep 15, 2026 |
+| [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | Blog | — | 🆕 Sep 11, 2026 |
 | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Object Oriented Programming | Medium | 🆕 Sep 11, 2026 |
 | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | System Design | Easy | 🆕 Sep 11, 2026 |
 | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | 🆕 Sep 11, 2026 |
@@ -190,6 +194,7 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Colander Validation Debug (BugSquash)](https://trueinterview.io/questions/colander-validation-debug) | AI Coding | Medium | May 12, 2026 |
 | [Account Balance Processor](https://trueinterview.io/questions/account-balance-manager) | Algorithm | Medium | May 12, 2026 |
 | [Payment Invoice Reconciliation](https://trueinterview.io/questions/payment-invoice-reconciliation) | Algorithm | Medium | May 12, 2026 |
+| [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral-2) | Blog | — | May 07, 2026 |
 | [Bit Font Renderer](https://trueinterview.io/questions/bit-font-renderer) | Algorithm | Medium | May 01, 2026 |
 | [Working Hours Time Slots](https://trueinterview.io/questions/working-hours-time-slots) | Algorithm | Medium | Apr 30, 2026 |
 | [AI Token Billing Calculation](https://trueinterview.io/questions/chat-billing-calculation) | Algorithm | Medium | Apr 17, 2026 |
@@ -208,12 +213,14 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Jupyter / WebSocket Load Balancer](https://trueinterview.io/questions/jupyter-load-balancer-oa) | Algorithm | Medium | Feb 02, 2026 |
 | [RBAC Role Resolver](https://trueinterview.io/questions/rbac-role-resolver) | Object Oriented Programming | Medium | Jan 27, 2026 |
 | [Merchant Fraud Score](https://trueinterview.io/questions/merchant-fraud-score-oa) | Algorithm | Medium | Jan 17, 2026 |
+| [Evaluate Stripe Capital Loan Performance](https://trueinterview.io/questions/evaluate-stripe-capital-loan-performance) | Blog | — | Jan 08, 2026 |
 | [Design Webhook Delivery System](https://trueinterview.io/questions/payment-webhook-system) | System Design | Medium | Dec 22, 2025 |
 | [Shipping Cost Calculator](https://trueinterview.io/questions/shipping-cost-calculator) | Algorithm | Medium | Dec 19, 2025 |
 | [Moshi JSON Library](https://trueinterview.io/questions/debug-moshi-json-library) | AI Coding | Medium | Dec 14, 2025 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Linked User Records by Similarity](https://trueinterview.io/questions/record-linkage-similarity) | Algorithm | Hard | Dec 04, 2025 |
+| [Evaluate Stripe Capital Lending Strategy](https://trueinterview.io/questions/evaluate-stripe-capital-lending-strategy) | Blog | — | Nov 29, 2025 |
 | [Currency Exchange Rate Converter](https://trueinterview.io/questions/currency-exchange-rate-converter) | Algorithm | Medium | Nov 21, 2025 |
 | [Metric Counter Library](https://trueinterview.io/questions/metric-counter-library) | System Design | Medium | Nov 11, 2025 |
 | [Feature Flag SDK](https://trueinterview.io/questions/feature-flag-sdk) | Object Oriented Programming | Medium | Oct 26, 2025 |
@@ -231,11 +238,21 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Register Data Centers and Route to the Nearest Healthy Region](https://trueinterview.io/questions/3e1717c0-3f46-530e-867f-13b6cea2b132) | Object Oriented Programming | Easy | — |
 | [Split Tender: Gift Cards, Expiration, Surcharges, and Refunds](https://trueinterview.io/questions/3a47c1a0-fd3b-53f5-893c-89c8e19184eb) | Algorithm | Hard | — |
 | [CSV Company Record Validation and Field Word Overlap](https://trueinterview.io/questions/1259af1d-bc05-5772-8818-4e27bb40a1c2) | Algorithm | Medium | — |
+| [Resolve conflicts and prioritize with stakeholders](https://trueinterview.io/questions/resolve-conflicts-and-prioritize-with-stakeholders) | Blog | — | — |
+| [Plan an experiment to validate targeting impact](https://trueinterview.io/questions/plan-an-experiment-to-validate-targeting-impact) | Blog | — | — |
+| [Evaluate a new product with experimentation](https://trueinterview.io/questions/evaluate-a-new-product-with-experimentation) | Blog | — | — |
+| [Diagnose and validate a ratio trend change](https://trueinterview.io/questions/diagnose-and-validate-a-ratio-trend-change) | Blog | — | — |
+| [Design and power an A/B test](https://trueinterview.io/questions/design-and-power-an-a-b-test) | Blog | — | — |
 | [Design a model for subscription adoption prediction](https://trueinterview.io/questions/design-a-model-for-subscription-adoption-prediction) | System Design | Medium | — |
+| [Describe a high-impact project via STAR](https://trueinterview.io/questions/describe-a-high-impact-project-via-star) | Blog | — | — |
+| [Compute power and interpret uplift metrics](https://trueinterview.io/questions/compute-power-and-interpret-uplift-metrics) | Blog | — | — |
+| [Choose threshold under costs and uncertainty](https://trueinterview.io/questions/choose-threshold-under-costs-and-uncertainty) | Blog | — | — |
 | [Write SQL to detect recurring non-subscription users](https://trueinterview.io/questions/write-sql-to-detect-recurring-non-subscription-users) | SQL | Hard | — |
 | [Write SQL for snapshot features and labels](https://trueinterview.io/questions/write-sql-for-snapshot-features-and-labels) | SQL | Hard | — |
 | [Design metrics and write SQL for a case](https://trueinterview.io/questions/design-metrics-and-write-sql-for-a-case) | SQL | Medium | — |
 | [Design an idempotent SQL ETL for late data](https://trueinterview.io/questions/design-an-idempotent-sql-etl-for-late-data) | SQL | Hard | — |
+| [Design a leak-free time-split model](https://trueinterview.io/questions/design-a-leak-free-time-split-model) | Blog | — | — |
+| [Navigate an ambiguous take-home assessment](https://trueinterview.io/questions/navigate-an-ambiguous-take-home-assessment) | Blog | — | — |
 | [Verify Business Records by Required Fields](https://trueinterview.io/questions/f8231511-f6ac-545f-b959-3920ee7eac6c) | Algorithm | Easy | — |
 | [Verify Business Name Overlap with Nickname](https://trueinterview.io/questions/ebf98d3b-d473-5ce3-858d-a80947f240ce) | Algorithm | Medium | — |
 | [Validate a Length-Limited Field and Forbidden Description Terms](https://trueinterview.io/questions/9baeb5c4-0679-5fda-aa74-bad3d7a9a5e4) | Algorithm | Easy | — |

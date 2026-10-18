@@ -8,7 +8,7 @@ How Jane Street interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [11](../jane-street.md) |
+| Questions reported | [15](../jane-street.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,20 @@ No written process guide yet. [The loop, as reported](../jane-street.md#the-loop
 
 ## Free Jane Street questions
 
-2 questions reported at Jane Street open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Jane Street open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Estimate the Number of Florists in Sydney and Make a Market](https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market) |
 | [Connect-N on an Infinite Board with Gravity](../../questions/algorithm/connect-n-on-an-infinite-board-with-gravity/README.md) | Algorithm | Hard | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/connect-n-on-an-infinite-board-with-gravity) |
+| [Solve probability and game-theory puzzles](https://trueinterview.io/questions/solve-probability-and-game-theory-puzzles) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/solve-probability-and-game-theory-puzzles) |
+| [Alternating Die-Roll Game: Optimal Accept/Reject Strategy](https://trueinterview.io/questions/alternating-die-roll-game-optimal-accept-reject-strategy) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/alternating-die-roll-game-optimal-accept-reject-strategy) |
 | [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](../../questions/algorithm/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner/README.md) | Algorithm | Hard | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner) |
+| [Sealed-Bid Auction for a Box of 200 Coin Flips (and an Informed Opponent)](https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent) |
 
 ## Everything else
 
-- [All 11 questions reported at Jane Street](../jane-street.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 15 questions reported at Jane Street](../jane-street.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Jane Street question on TrueInterview](https://trueinterview.io/problems/company/jane-street).
 
 ---

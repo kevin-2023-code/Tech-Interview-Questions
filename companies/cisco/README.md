@@ -8,11 +8,11 @@ How Cisco interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [26](../cisco.md) |
+| Questions reported | [27](../cisco.md) |
 | Free to read here | 17 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Jun 16, 2026 |
+| Most recent sighting | Sep 17, 2026 |
 
 ## How Cisco interviews
 
@@ -47,10 +47,11 @@ Here's what the interview process can look like:
 
 ## Free Cisco questions
 
-17 questions reported at Cisco open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+18 questions reported at Cisco open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) |
 | [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/house-robber-series) |
 | [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/look-and-say-sequence) |
 | [Linked List Binary to Decimal](../../questions/algorithm/linked-list-binary-to-decimal/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/linked-list-binary-to-decimal) |
@@ -71,7 +72,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 26 questions reported at Cisco](../cisco.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 27 questions reported at Cisco](../cisco.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cisco question on TrueInterview](https://trueinterview.io/problems/company/cisco).
 
 ---

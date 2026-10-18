@@ -2,7 +2,7 @@
 
 # GEICO interview process, OA & interview questions
 
-**6 questions** reported at GEICO · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/geico), judged server-side.
+**7 questions** reported at GEICO · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/geico), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How GEICO interviews & the free questions](geico/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **6** |
+| Questions tracked | **7** |
 | Most recent sighting | Apr 02, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 6) |
+| Most common format | [Algorithm](../formats/algorithm.md) (86% of 7) |
 | Difficulty (easy / medium / hard) | 3 / 3 / 0 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 6 questions reported at GEICO. 1 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 7 questions reported at GEICO. 2 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **6 of 6** questions at GEICO that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **7 of 7** questions at GEICO that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 3 | ████████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,7 @@ Which stage each question came from, for the **6 of 6** questions at GEICO that 
 
 ## What they ask about
 
-Of the **6 questions at GEICO that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **6 questions at GEICO that carry a topic label** (86% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -54,24 +54,26 @@ Of the **6 questions at GEICO that carry a topic label** (100% of them — the r
 
 ## When they asked it
 
-Every recorded sighting at GEICO, by the month it was reported in — Apr 02, 2026 to Apr 02, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at GEICO, by the month it was reported in — Mar 01, 2026 to Apr 02, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ████████████████████████ |
 
 ## Start here
 
-The 6 questions to open first if you are preparing for GEICO, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 7 questions to open first if you are preparing for GEICO, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 4 | Apr 02, 2026 |
-| **2** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
-| **3** | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Algorithm | Easy | — | — |
-| **4** | [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Algorithm | Easy | — | — |
-| **5** | [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Algorithm | Medium | — | — |
-| **6** | [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Algorithm | Medium | — | — |
+| **2** | [Answer impact, disagreement, and motivation questions](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions) 🆓 | Blog | — | — | Mar 01, 2026 |
+| **3** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
+| **4** | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Algorithm | Easy | — | — |
+| **5** | [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Algorithm | Easy | — | — |
+| **6** | [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Algorithm | Medium | — | — |
+| **7** | [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -94,6 +96,7 @@ The 6 questions to open first if you are preparing for GEICO, ranked by **the mo
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Apr 02, 2026 |
+| [Answer impact, disagreement, and motivation questions](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions) | Blog | — | Mar 01, 2026 |
 | [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Algorithm | Medium | — |
 | [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Algorithm | Easy | — |
 | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Algorithm | Easy | — |

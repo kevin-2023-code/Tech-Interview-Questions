@@ -8,7 +8,7 @@ How Glean interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [7](../glean.md) |
+| Questions reported | [10](../glean.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,19 @@ No written process guide yet. [The loop, as reported](../glean.md#the-loop-as-re
 
 ## Free Glean questions
 
-2 questions reported at Glean open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Glean open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Implement 2048 Game Logic](../../questions/object-oriented-programming/implement-2048-game-logic/README.md) | Object Oriented Programming | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/implement-2048-game-logic) |
+| [What are sum expectation and variance?](https://trueinterview.io/questions/what-are-sum-expectation-and-variance) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/what-are-sum-expectation-and-variance) |
+| [How to measure product success?](https://trueinterview.io/questions/how-to-measure-product-success) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/how-to-measure-product-success) |
+| [Reason about MAU error after user ID rehash](https://trueinterview.io/questions/reason-about-mau-error-after-user-id-rehash) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/reason-about-mau-error-after-user-id-rehash) |
 | [Compute DAU and rolling MAU with zero days](../../questions/sql/compute-dau-and-rolling-mau-with-zero-days/README.md) | SQL | Hard | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/compute-dau-and-rolling-mau-with-zero-days) |
 
 ## Everything else
 
-- [All 7 questions reported at Glean](../glean.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 10 questions reported at Glean](../glean.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Glean question on TrueInterview](https://trueinterview.io/problems/company/glean).
 
 ---

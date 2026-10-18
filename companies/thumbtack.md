@@ -2,7 +2,7 @@
 
 # Thumbtack interview process, OA & interview questions
 
-**5 questions** reported at Thumbtack. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/thumbtack), judged server-side on the algorithm, low-level-design and SQL formats.
+**16 questions** reported at Thumbtack. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/thumbtack), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Thumbtack interviews & the free questions](thumbtack/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,24 +12,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **5** |
+| Questions tracked | **16** |
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [SQL](../formats/sql.md) (40% of 5) |
+| Most common format | [Blog](../formats/blog.md) (69% of 16) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 2 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [13](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 5 questions reported at Thumbtack. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 16 questions reported at Thumbtack. 0 of them carry a sighting date; the other 16 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **5 of 5** questions at Thumbtack that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **16 of 16** questions at Thumbtack that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 1 | ██ | [SQL](../formats/sql.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ██████████ | [System Design](../formats/system-design.md) (50%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 2 | █ | [Blog](../formats/blog.md) (50%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 14 | ██████████ | [Blog](../formats/blog.md) (71%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -39,11 +39,11 @@ Which stage each question came from, for the **5 of 5** questions at Thumbtack t
 
 ## What they ask about
 
-**None of the 5 questions reported at Thumbtack carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+**None of the 16 questions reported at Thumbtack carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
 
 ## Start here
 
-The 5 questions to open first if you are preparing for Thumbtack. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 5 questions on file, easiest first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Thumbtack. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 8 questions on file, easiest first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
@@ -52,6 +52,9 @@ The 5 questions to open first if you are preparing for Thumbtack. **This is not 
 | **3** | [Write monthly new-vs-returning requests SQL](https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql) | SQL | Medium | — | — |
 | **4** | [Design streaming new-vs-returning monthly metrics](https://trueinterview.io/questions/design-streaming-new-vs-returning-monthly-metrics) | System Design | Hard | — | — |
 | **5** | [Implement TF–IDF with sparse matrices](https://trueinterview.io/questions/implement-tfidf-with-sparse-matrices) | Object Oriented Programming | Hard | — | — |
+| **6** | [Choose clustering vs regression; explain KNN](https://trueinterview.io/questions/choose-clustering-vs-regression-explain-knn) 🆓 | Blog | — | — | — |
+| **7** | [Compare list/dict; parse JSON/CSV at scale](https://trueinterview.io/questions/compare-list-dict-parse-json-csv-at-scale) 🆓 | Blog | — | — | — |
+| **8** | [Compute weighted response rates by job category](https://trueinterview.io/questions/compute-weighted-response-rates-by-job-category) 🆓 | Blog | — | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -65,8 +68,19 @@ The 5 questions to open first if you are preparing for Thumbtack. **This is not 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Test regional response-rate differences rigorously](https://trueinterview.io/questions/test-regional-response-rate-differences-rigorously) | Blog | — | — |
+| [Lead XFN decision under tight timeline](https://trueinterview.io/questions/lead-xfn-decision-under-tight-timeline) | Blog | — | — |
 | [Implement TF–IDF with sparse matrices](https://trueinterview.io/questions/implement-tfidf-with-sparse-matrices) | Object Oriented Programming | Hard | — |
+| [Explain power drivers and resolve unexpected A/B results](https://trueinterview.io/questions/explain-power-drivers-and-resolve-unexpected-a-b-results) | Blog | — | — |
+| [Detail NLP preprocessing and n‑gram choices](https://trueinterview.io/questions/detail-nlp-preprocessing-and-ngram-choices) | Blog | — | — |
 | [Design streaming new-vs-returning monthly metrics](https://trueinterview.io/questions/design-streaming-new-vs-returning-monthly-metrics) | System Design | Hard | — |
+| [Design cross-validation; explain bias–variance](https://trueinterview.io/questions/design-cross-validation-explain-biasvariance) | Blog | — | — |
+| [Demonstrate rapid analysis and stakeholder debrief](https://trueinterview.io/questions/demonstrate-rapid-analysis-and-stakeholder-debrief) | Blog | — | — |
+| [Define success metrics for Instant Book](https://trueinterview.io/questions/define-success-metrics-for-instant-book) | Blog | — | — |
+| [Compare list/dict; parse JSON/CSV at scale](https://trueinterview.io/questions/compare-list-dict-parse-json-csv-at-scale) | Blog | — | — |
+| [Choose clustering vs regression; explain KNN](https://trueinterview.io/questions/choose-clustering-vs-regression-explain-knn) | Blog | — | — |
 | [Write monthly new-vs-returning requests SQL](https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql) | SQL | Medium | — |
+| [Compute weighted response rates by job category](https://trueinterview.io/questions/compute-weighted-response-rates-by-job-category) | Blog | — | — |
 | [Compute weekly 3-week rolling sums in SQL](https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql) | SQL | Medium | — |
+| [Explain a project and justify choices](https://trueinterview.io/questions/explain-a-project-and-justify-choices) | Blog | — | — |
 | [Design a robust pro-ranking A/B test](https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test) | System Design | Medium | — |

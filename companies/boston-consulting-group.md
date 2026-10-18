@@ -2,7 +2,7 @@
 
 # Boston Consulting Group interview process, OA & interview questions
 
-**10 questions** reported at Boston Consulting Group. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/boston-consulting-group), judged server-side.
+**19 questions** reported at Boston Consulting Group. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/boston-consulting-group), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Boston Consulting Group interviews & the free questions](boston-consulting-group/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,25 +12,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **10** |
+| Questions tracked | **19** |
 | Most recent sighting | Aug 04, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (90% of 10) |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 19) |
 | Difficulty (easy / medium / hard) | 3 / 3 / 4 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [12](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 10 questions reported at Boston Consulting Group. 3 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 19 questions reported at Boston Consulting Group. 5 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **10 of 10** questions at Boston Consulting Group that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **19 of 19** questions at Boston Consulting Group that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ███████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 1 / 2 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 8 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 2 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 1 / 2 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -44,7 +44,7 @@ Which stage each question came from, for the **10 of 10** questions at Boston Co
 
 ## What they ask about
 
-Of the **7 questions at Boston Consulting Group that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **7 questions at Boston Consulting Group that carry a topic label** (37% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -59,13 +59,14 @@ Of the **7 questions at Boston Consulting Group that carry a topic label** (70% 
 
 ## When they asked it
 
-Every recorded sighting at Boston Consulting Group, by the month it was reported in — Jan 17, 2026 to Aug 04, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Boston Consulting Group, by the month it was reported in — Dec 15, 2025 to Aug 04, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ████████████████████████ |
 
 ## Start here
 
@@ -76,11 +77,11 @@ The 8 questions to open first if you are preparing for Boston Consulting Group, 
 | **1** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | 2 | Aug 04, 2026 |
 | **2** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 13 | Feb 07, 2026 |
 | **3** | [Implement palindrome check and valid parentheses](https://trueinterview.io/questions/implement-palindrome-check-and-valid-parentheses) | Algorithm | Medium | — | Jan 17, 2026 |
-| **4** | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) 🆓 | Algorithm | Easy | 2 | — |
-| **5** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) 🆓 | Algorithm | Easy | 1 | — |
-| **6** | [Achieve 0.95 precision via thresholding](https://trueinterview.io/questions/achieve-0-95-precision-via-thresholding) | Algorithm | Medium | — | — |
-| **7** | [Query top spenders and 7-day growth](https://trueinterview.io/questions/query-top-spenders-and-7-day-growth) | SQL | Medium | — | — |
-| **8** | [Design and sample for credit default prediction](https://trueinterview.io/questions/design-and-sample-for-credit-default-prediction) | Algorithm | Hard | — | — |
+| **4** | [Answer common behavioral questions using STAR](https://trueinterview.io/questions/answer-common-behavioral-questions-using-star) 🆓 | Blog | — | — | Dec 15, 2025 |
+| **5** | [Discuss languages, packages, and tools you know](https://trueinterview.io/questions/discuss-languages-packages-and-tools-you-know) 🆓 | Blog | — | — | Dec 15, 2025 |
+| **6** | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) 🆓 | Algorithm | Easy | 2 | — |
+| **7** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) 🆓 | Algorithm | Easy | 1 | — |
+| **8** | [Achieve 0.95 precision via thresholding](https://trueinterview.io/questions/achieve-0-95-precision-via-thresholding) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -97,8 +98,17 @@ The 8 questions to open first if you are preparing for Boston Consulting Group, 
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Aug 04, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Implement palindrome check and valid parentheses](https://trueinterview.io/questions/implement-palindrome-check-and-valid-parentheses) | Algorithm | Medium | Jan 17, 2026 |
+| [Discuss languages, packages, and tools you know](https://trueinterview.io/questions/discuss-languages-packages-and-tools-you-know) | Blog | — | Dec 15, 2025 |
+| [Answer common behavioral questions using STAR](https://trueinterview.io/questions/answer-common-behavioral-questions-using-star) | Blog | — | Dec 15, 2025 |
 | [Transform and aggregate messy event data](https://trueinterview.io/questions/transform-and-aggregate-messy-event-data) | Algorithm | Hard | — |
+| [Summarize impact and lessons from your resume](https://trueinterview.io/questions/summarize-impact-and-lessons-from-your-resume) | Blog | — | — |
+| [Reduce overfitting under constraints](https://trueinterview.io/questions/reduce-overfitting-under-constraints) | Blog | — | — |
+| [Explain AUC, activations, ensembles, and imbalance](https://trueinterview.io/questions/explain-auc-activations-ensembles-and-imbalance) | Blog | — | — |
 | [Design and sample for credit default prediction](https://trueinterview.io/questions/design-and-sample-for-credit-default-prediction) | Algorithm | Hard | — |
+| [Defend MSE over MAE for car prices](https://trueinterview.io/questions/defend-mse-over-mae-for-car-prices) | Blog | — | — |
+| [Compute posterior and predictive coin probabilities](https://trueinterview.io/questions/compute-posterior-and-predictive-coin-probabilities) | Blog | — | — |
+| [Compute averages and binomial/Poisson probabilities](https://trueinterview.io/questions/compute-averages-and-binomial-poisson-probabilities) | Blog | — | — |
+| [Build and evaluate imbalanced binary classifier](https://trueinterview.io/questions/build-and-evaluate-imbalanced-binary-classifier) | Blog | — | — |
 | [Achieve 0.95 precision via thresholding](https://trueinterview.io/questions/achieve-0-95-precision-via-thresholding) | Algorithm | Medium | — |
 | [Transform messy transactions with pandas](https://trueinterview.io/questions/transform-messy-transactions-with-pandas) | Algorithm | Hard | — |
 | [Query top spenders and 7-day growth](https://trueinterview.io/questions/query-top-spenders-and-7-day-growth) | SQL | Medium | — |

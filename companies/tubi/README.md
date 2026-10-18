@@ -8,7 +8,7 @@ How Tubi interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [6](../tubi.md) |
+| Questions reported | [12](../tubi.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,22 @@ No written process guide yet. [The loop, as reported](../tubi.md#the-loop-as-rep
 
 ## Free Tubi questions
 
-2 questions reported at Tubi open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Tubi open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Execute TTL Cache Operations with Fetch-on-Miss](../../questions/algorithm/execute-ttl-cache-operations-with-fetch-on-miss/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/execute-ttl-cache-operations-with-fetch-on-miss) |
+| [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) |
+| [Explain ML basics and recommender tuning](https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning) |
+| [Measure Super Bowl ad impact with causal design](https://trueinterview.io/questions/measure-super-bowl-ad-impact-with-causal-design) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/measure-super-bowl-ad-impact-with-causal-design) |
+| [Explain p‑values to a product manager](https://trueinterview.io/questions/explain-pvalues-to-a-product-manager) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-pvalues-to-a-product-manager) |
+| [Diagnose and fix selection bias in experiments](https://trueinterview.io/questions/diagnose-and-fix-selection-bias-in-experiments) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-and-fix-selection-bias-in-experiments) |
+| [Determine A/B test sample size drivers](https://trueinterview.io/questions/determine-a-b-test-sample-size-drivers) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/determine-a-b-test-sample-size-drivers) |
 | [Compute daily net users from event logs](../../questions/sql/compute-daily-net-users-from-event-logs/README.md) | SQL | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-daily-net-users-from-event-logs) |
 
 ## Everything else
 
-- [All 6 questions reported at Tubi](../tubi.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 12 questions reported at Tubi](../tubi.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Tubi question on TrueInterview](https://trueinterview.io/problems/company/tubi).
 
 ---

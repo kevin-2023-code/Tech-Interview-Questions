@@ -2,7 +2,7 @@
 
 # Squarepoint interview process, OA & interview questions
 
-**34 questions** reported at Squarepoint · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/squarepoint), judged server-side on the algorithm, low-level-design and SQL formats.
+**45 questions** reported at Squarepoint · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/squarepoint), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Squarepoint interviews & the free questions](squarepoint/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,44 +14,52 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **34** |
-| Most recent sighting | Aug 29, 2026 |
-| Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (82% of 34) |
+| Questions tracked | **45** |
+| Most recent sighting | Sep 09, 2026 |
+| Reported in the last 90 days | 14 |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 45) |
 | Difficulty (easy / medium / hard) | 8 / 21 / 5 |
-| Free to practise | [11](../free/README.md) |
+| Free to practise | [22](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 34 questions reported at Squarepoint. 14 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 45 questions reported at Squarepoint. 25 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **34 of 34** questions at Squarepoint that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **45 of 45** questions at Squarepoint that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | █████████ | [Algorithm](../formats/algorithm.md) (92%) | 7 / 4 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (93%) | 0 / 11 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 7 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (57%) | 1 / 6 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 13 | █████ | [Algorithm](../formats/algorithm.md) (92%) | 7 / 4 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 25 | ██████████ | [Algorithm](../formats/algorithm.md) (52%) | 0 / 11 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 7 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (57%) | 1 / 6 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**14 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | Blog | — | Phone screen | Sep 09, 2026 |
+| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | Blog | — | Phone screen | Sep 09, 2026 |
+| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | Blog | — | Phone screen | Sep 09, 2026 |
+| [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | Blog | — | Phone screen | Sep 09, 2026 |
+| [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | Blog | — | Phone screen | Sep 09, 2026 |
+| [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | Blog | — | Phone screen | Sep 09, 2026 |
+| [Choose Between an Array and a Linked List](https://trueinterview.io/questions/choose-between-an-array-and-a-linked-list) | Blog | — | Phone screen | Aug 29, 2026 |
 | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Algorithm | Medium | Phone screen | Aug 29, 2026 |
 | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Algorithm | Hard | Phone screen | Aug 29, 2026 |
 | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | Phone screen | Aug 29, 2026 |
+| [Value a Die Game with Optional Continuation](https://trueinterview.io/questions/value-a-die-game-with-optional-continuation) | Blog | — | Phone screen | Aug 29, 2026 |
 | [Concatenate Two C++ Index Sequences at Compile Time](https://trueinterview.io/questions/concatenate-two-cplusplus-index-sequences-at-compile-time) | Algorithm | Medium | Phone screen | Aug 16, 2026 |
-| [Design an Ordered Vector with Move Semantics and Analyze Its Memory Layout](https://trueinterview.io/questions/design-an-ordered-vector-with-move-semantics-and-analyze-its-memory-layout) | Object Oriented Programming | Hard | Phone screen | Aug 16, 2026 |
-| [Find a Target Sum Using Two Sorted Arrays](https://trueinterview.io/questions/find-a-target-sum-using-two-sorted-arrays) | Algorithm | Medium | Phone screen | Aug 16, 2026 |
+
+<sub>2 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **24 questions at Squarepoint that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **24 questions at Squarepoint that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -70,16 +78,18 @@ Of the **24 questions at Squarepoint that carry a topic label** (71% of them —
 
 ## When they asked it
 
-Every recorded sighting at Squarepoint, by the month it was reported in — Nov 07, 2025 to Aug 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Squarepoint, by the month it was reported in — Nov 07, 2025 to Sep 09, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 6 | ████████████████████████ |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ████ |
-| [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ████ |
+| [Sep 2026](../by-month/2026-09.md) | 6 | ██████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 8 | ████████████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
+| [May 2026](../by-month/2026-05.md) | 1 | ███ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | ██████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ███ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ███ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
 
 ## Start here
 
@@ -87,14 +97,14 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | 1 | Aug 29, 2026 |
-| **2** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Algorithm | Medium | — | Aug 29, 2026 |
-| **3** | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Algorithm | Hard | — | Aug 29, 2026 |
-| **4** | [Concatenate Two C++ Index Sequences at Compile Time](https://trueinterview.io/questions/concatenate-two-cplusplus-index-sequences-at-compile-time) | Algorithm | Medium | — | Aug 16, 2026 |
-| **5** | [Find a Target Sum Using Two Sorted Arrays](https://trueinterview.io/questions/find-a-target-sum-using-two-sorted-arrays) | Algorithm | Medium | — | Aug 16, 2026 |
-| **6** | [Design an Ordered Vector with Move Semantics and Analyze Its Memory Layout](https://trueinterview.io/questions/design-an-ordered-vector-with-move-semantics-and-analyze-its-memory-layout) | Object Oriented Programming | Hard | — | Aug 16, 2026 |
-| **7** | [Apply Insert, Update, and Remove Operations to a Keyed Store](https://trueinterview.io/questions/apply-insert-update-and-remove-operations-to-a-keyed-store) | Algorithm | Medium | — | Jun 20, 2026 |
-| **8** | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | SQL | Medium | — | May 23, 2026 |
+| **1** | [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) 🆓 | Blog | — | — | Sep 09, 2026 |
+| **2** | [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) 🆓 | Blog | — | — | Sep 09, 2026 |
+| **3** | [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) 🆓 | Blog | — | — | Sep 09, 2026 |
+| **4** | [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) 🆓 | Blog | — | — | Sep 09, 2026 |
+| **5** | [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) 🆓 | Blog | — | — | Sep 09, 2026 |
+| **6** | [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) 🆓 | Blog | — | — | Sep 09, 2026 |
+| **7** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | 1 | Aug 29, 2026 |
+| **8** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Algorithm | Medium | — | Aug 29, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -116,7 +126,15 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | Blog | — | 🆕 Sep 09, 2026 |
+| [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | Blog | — | 🆕 Sep 09, 2026 |
+| [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | Blog | — | 🆕 Sep 09, 2026 |
+| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | Blog | — | 🆕 Sep 09, 2026 |
+| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | Blog | — | 🆕 Sep 09, 2026 |
+| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | Blog | — | 🆕 Sep 09, 2026 |
+| [Value a Die Game with Optional Continuation](https://trueinterview.io/questions/value-a-die-game-with-optional-continuation) | Blog | — | Aug 29, 2026 |
 | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Algorithm | Medium | Aug 29, 2026 |
+| [Choose Between an Array and a Linked List](https://trueinterview.io/questions/choose-between-an-array-and-a-linked-list) | Blog | — | Aug 29, 2026 |
 | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | Aug 29, 2026 |
 | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Algorithm | Hard | Aug 29, 2026 |
 | [Design an Ordered Vector with Move Semantics and Analyze Its Memory Layout](https://trueinterview.io/questions/design-an-ordered-vector-with-move-semantics-and-analyze-its-memory-layout) | Object Oriented Programming | Hard | Aug 16, 2026 |
@@ -124,10 +142,13 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | [Find a Target Sum Using Two Sorted Arrays](https://trueinterview.io/questions/find-a-target-sum-using-two-sorted-arrays) | Algorithm | Medium | Aug 16, 2026 |
 | [Apply Insert, Update, and Remove Operations to a Keyed Store](https://trueinterview.io/questions/apply-insert-update-and-remove-operations-to-a-keyed-store) | Algorithm | Medium | Jun 20, 2026 |
 | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | SQL | Medium | May 23, 2026 |
+| [Find the Correlation Between Two Die-Face Counts](https://trueinterview.io/questions/find-the-correlation-between-two-die-face-counts) | Blog | — | Apr 22, 2026 |
+| [Evaluate Linear Regression Assumptions and Fit Three Points](https://trueinterview.io/questions/evaluate-linear-regression-assumptions-and-fit-three-points) | Blog | — | Apr 22, 2026 |
 | [Minimum Idleness After K Flips](https://trueinterview.io/questions/minimum-idleness-after-k-flips) | Algorithm | Hard | Apr 11, 2026 |
 | [Chunk a List of Lists](https://trueinterview.io/questions/chunk-a-list-of-lists) | Algorithm | Easy | Apr 11, 2026 |
 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Apr 02, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
+| [How Does Removing Zeros Affect Sharpe?](https://trueinterview.io/questions/how-does-removing-zeros-affect-sharpe) | Blog | — | Mar 27, 2026 |
 | [Solve two coding assessment tasks](https://trueinterview.io/questions/solve-two-coding-assessment-tasks) | Algorithm | Medium | Feb 23, 2026 |
 | [Maximize profit from one or many stock trades](https://trueinterview.io/questions/maximize-profit-from-one-or-many-stock-trades) | Algorithm | Medium | Nov 07, 2025 |
 | [Parse payroll file and answer queries](https://trueinterview.io/questions/parse-payroll-file-and-answer-queries) | Algorithm | Hard | — |

@@ -8,7 +8,7 @@ How Confluent interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [29](../confluent.md) |
+| Questions reported | [30](../confluent.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -46,16 +46,17 @@ Here's what the interview process can look like:
 
 ## Free Confluent questions
 
-2 questions reported at Confluent open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Confluent open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [Explain Linux Command Execution, Filesystems, and Isolation](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 
 ## Everything else
 
-- [All 29 questions reported at Confluent](../confluent.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 30 questions reported at Confluent](../confluent.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Confluent question on TrueInterview](https://trueinterview.io/problems/company/confluent).
 
 ---

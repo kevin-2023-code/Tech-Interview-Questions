@@ -8,7 +8,7 @@ How Citadel interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [73](../citadel.md) |
+| Questions reported | [91](../citadel.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,19 +48,37 @@ Here's what the interview process can look like:
 
 ## Free Citadel questions
 
-5 questions reported at Citadel open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+23 questions reported at Citadel open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/questions/gqs-swe-whiteboard-boundary-search-top-k) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/gqs-swe-whiteboard-boundary-search-top-k) |
+| [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/questions/citadel-bq-resume-loop) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/citadel-bq-resume-loop) |
+| [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals) |
+| [When Does `min x'Qx + c'x` Have a Finite Minimum?](https://trueinterview.io/questions/quadratic-form-finite-min) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/quadratic-form-finite-min) |
+| [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/questions/gqs-quant-phone-brainteasers) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/gqs-quant-phone-brainteasers) |
 | [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists) |
+| [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/questions/qd-eqr-onsite-coding-ladder) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/qd-eqr-onsite-coding-ladder) |
+| [Discuss a Project You Are Proud Of and How You Work](https://trueinterview.io/questions/discuss-a-project-you-are-proud-of-and-how-you-work) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/discuss-a-project-you-are-proud-of-and-how-you-work) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
+| [Solve probability and expectation problems](https://trueinterview.io/questions/solve-probability-and-expectation-problems-3) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/solve-probability-and-expectation-problems-3) |
+| [How do you handle conflict at work?](https://trueinterview.io/questions/how-do-you-handle-conflict-at-work) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-handle-conflict-at-work) |
+| [Estimate constant under absolute loss](https://trueinterview.io/questions/estimate-constant-under-absolute-loss) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/estimate-constant-under-absolute-loss) |
 | [Closest Pair of Points](../../questions/algorithm/closest-pair-of-points/README.md) | Algorithm | Hard | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/closest-pair-of-points) |
+| [Case study — LLM inference stability](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) |
+| [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive) |
+| [Probability and Combinatorics Quickfire Quiz](https://trueinterview.io/questions/trading-probability-quickfire) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/trading-probability-quickfire) |
 | [Count Palindromic Substrings](../../questions/algorithm/palindromic-substrings/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/palindromic-substrings) |
+| [Explain RF optimization and variable-importance pitfalls](https://trueinterview.io/questions/explain-rf-optimization-and-variable-importance-pitfalls) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-rf-optimization-and-variable-importance-pitfalls) |
+| [Discuss PhD coursework and research impact](https://trueinterview.io/questions/discuss-phd-coursework-and-research-impact) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/discuss-phd-coursework-and-research-impact) |
+| [Diagnose outliers and influence in linear regression](https://trueinterview.io/questions/diagnose-outliers-and-influence-in-linear-regression) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-outliers-and-influence-in-linear-regression) |
+| [Derive lower bound for equicorrelation rho](https://trueinterview.io/questions/derive-lower-bound-for-equicorrelation-rho) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/derive-lower-bound-for-equicorrelation-rho) |
+| [Derive distribution of an inverse transform](https://trueinterview.io/questions/derive-distribution-of-an-inverse-transform) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/derive-distribution-of-an-inverse-transform) |
 | [Palindrome Detection](../../questions/algorithm/palindrome-detection/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) |
 
 ## Everything else
 
-- [All 73 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 91 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Citadel question on TrueInterview](https://trueinterview.io/problems/company/citadel).
 
 ---

@@ -2,7 +2,7 @@
 
 # xAI interview process, OA & interview questions
 
-**39 questions** reported at xAI · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/xai), judged server-side on the algorithm, low-level-design and SQL formats.
+**43 questions** reported at xAI · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/xai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How xAI interviews & the free questions](xai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **39** |
+| Questions tracked | **43** |
 | Most recent sighting | Sep 15, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (36% of 39) |
+| Most common format | [Algorithm](../formats/algorithm.md) (33% of 43) |
 | Difficulty (easy / medium / hard) | 5 / 26 / 8 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 39 questions reported at xAI. 28 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 43 questions reported at xAI. 32 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **39 of 39** questions at xAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **43 of 43** questions at xAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 2 | █ | [AI Coding](../formats/ai-coding.md) (50%) | 0 / 0 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 18 | ███████ | [Algorithm](../formats/algorithm.md) (44%) | 1 / 15 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 3 | █ | [AI Coding](../formats/ai-coding.md) (33%) | 0 / 0 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 21 | ████████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 15 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 25 | ██████████ | [Algorithm](../formats/algorithm.md) (36%) | 4 / 17 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 3 | █ | [AI Coding](../formats/ai-coding.md) (33%) | 0 / 1 / 2 | A project with a deadline, reviewed after you send it. |
 
@@ -51,7 +51,7 @@ Which stage each question came from, for the **39 of 39** questions at xAI that 
 
 ## What they ask about
 
-Of the **13 questions at xAI that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at xAI that carry a topic label** (30% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -70,18 +70,19 @@ Of the **13 questions at xAI that carry a topic label** (33% of them — the res
 
 ## When they asked it
 
-Every recorded sighting at xAI, by the month it was reported in — Dec 14, 2025 to Sep 15, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at xAI, by the month it was reported in — Nov 21, 2025 to Sep 15, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 4 | ██████████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | █████████ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ██ |
-| [May 2026](../by-month/2026-05.md) | 2 | █████ |
-| [Apr 2026](../by-month/2026-04.md) | 6 | ██████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | █████ |
-| [Jan 2026](../by-month/2026-01.md) | 10 | ████████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | █████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ████ |
+| [May 2026](../by-month/2026-05.md) | 2 | ████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | █████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 3 | ███████ |
+| [Jan 2026](../by-month/2026-01.md) | 11 | ████████████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
 
 ## Start here
 
@@ -94,9 +95,9 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | **3** | [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Object Oriented Programming | Medium | — | Sep 15, 2026 |
 | **4** | [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | System Design | Hard | — | Sep 15, 2026 |
 | **5** | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Medium | — | Jul 22, 2026 |
-| **6** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | 1 | Jun 11, 2026 |
-| **7** | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | 3 | May 26, 2026 |
-| **8** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 13 | May 2026 |
+| **6** | [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) 🆓 | Blog | — | — | Jun 19, 2026 |
+| **7** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | 1 | Jun 11, 2026 |
+| **8** | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | 3 | May 26, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -126,6 +127,7 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Algorithm | Medium | 🆕 Sep 15, 2026 |
 | [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | System Design | Hard | 🆕 Sep 15, 2026 |
 | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Medium | Jul 22, 2026 |
+| [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | Blog | — | Jun 19, 2026 |
 | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | Jun 11, 2026 |
 | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | May 26, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
@@ -136,10 +138,12 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Object Oriented Programming | Hard | Apr 01, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
 | [Nested Structure Flatten and Unflatten](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) | Algorithm | Medium | Feb 26, 2026 |
+| [Answer technical-challenge and motivation questions](https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions) | Blog | — | Feb 07, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Agentic Workflow for 1-Hour Movie Generation](https://trueinterview.io/questions/agentic-one-hour-movie-generation) | System Design | Medium | Jan 29, 2026 |
 | [Rate Limiter — Inbound + Outbound](https://trueinterview.io/questions/rate-limiter-design) | System Design | Medium | Jan 28, 2026 |
 | [Twitter Insight Platform](https://trueinterview.io/questions/twitter-insight-platform-take-home) | AI Coding | Hard | Jan 28, 2026 |
+| [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal) | Blog | — | Jan 27, 2026 |
 | [Checkers Game](https://trueinterview.io/questions/checkers-backend-design) | Object Oriented Programming | Medium | Jan 26, 2026 |
 | [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time) | Algorithm | Medium | Jan 26, 2026 |
 | [Design a schema for server engagement](https://trueinterview.io/questions/design-a-schema-for-server-engagement) | SQL | Medium | Jan 17, 2026 |
@@ -149,6 +153,7 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | [K-th Element on a Streaming Time Window](https://trueinterview.io/questions/kth-element-streaming-window) | Algorithm | Hard | Jan 14, 2026 |
 | [Dynamic Batch Inference](https://trueinterview.io/questions/dynamic-batch-inference) | Object Oriented Programming | Medium | Dec 14, 2025 |
 | [Find Bad GPU Nodes](https://trueinterview.io/questions/group-test-gpu-nodes) | Algorithm | Hard | Dec 14, 2025 |
+| [How Would You Prevent Hallucinations in an LLM-Based System?](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system) | Blog | — | Nov 21, 2025 |
 | [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Algorithm | Medium | — |
 | [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Object Oriented Programming | Hard | — |
 | [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73) | Algorithm | Medium | — |

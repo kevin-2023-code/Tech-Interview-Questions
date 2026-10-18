@@ -8,11 +8,11 @@ How Waymo interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [64](../waymo.md) |
+| Questions reported | [74](../waymo.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Aug 27, 2026 |
+| Most recent sighting | Sep 06, 2026 |
 
 ## How Waymo interviews
 
@@ -49,19 +49,29 @@ Here's what the interview process can look like:
 
 ## Free Waymo questions
 
-5 questions reported at Waymo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+15 questions reported at Waymo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) |
+| [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/handle-competing-work-priorities) |
+| [Describe a Project You Are Proud Of](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) |
+| [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/questions/project-deep-dive-ml-fundamentals) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-ml-fundamentals) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Implement K-Means in NumPy or PyTorch](../../questions/algorithm/implement-k-means-in-numpy-or-pytorch/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) |
+| [Evaluate Smart Wait Launch Impact](https://trueinterview.io/questions/evaluate-smart-wait-launch-impact) | Blog | — | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/evaluate-smart-wait-launch-impact) |
+| [Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/questions/behavioral-policy-vs-efficiency-leadership) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/behavioral-policy-vs-efficiency-leadership) |
+| [Compare two rare-event detection models statistically](https://trueinterview.io/questions/compare-two-rare-event-detection-models-statistically) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/compare-two-rare-event-detection-models-statistically) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [Explain Model Compression Techniques](https://trueinterview.io/questions/explain-model-compression-techniques) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-model-compression-techniques) |
+| [Estimate total attendance from size-biased reservation sample](https://trueinterview.io/questions/estimate-total-attendance-from-size-biased-reservation-sample) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/estimate-total-attendance-from-size-biased-reservation-sample) |
 | [Sparse Matrix Left- and Right-Multiply Vector](../../questions/object-oriented-programming/sparse-matrix-vector-multiply/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/sparse-matrix-vector-multiply) |
 | [Parking Lot + Robotaxi Dispatch](../../questions/system-design/sd-parking-and-dispatch/README.md) | System Design | Hard | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/sd-parking-and-dispatch) |
+| [How compare Waymo turning trajectories statistically](https://trueinterview.io/questions/how-compare-waymo-turning-trajectories-statistically) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/how-compare-waymo-turning-trajectories-statistically) |
 
 ## Everything else
 
-- [All 64 questions reported at Waymo](../waymo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 74 questions reported at Waymo](../waymo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Waymo question on TrueInterview](https://trueinterview.io/problems/company/waymo).
 
 ---

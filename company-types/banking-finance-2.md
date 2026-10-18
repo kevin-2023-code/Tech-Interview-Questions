@@ -2,7 +2,7 @@
 
 # 🏦 Banks, insurers & asset managers — interview & OA questions
 
-**268 questions** reported across the **7 Banks, insurers & asset managers employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**404 questions** reported across the **7 Banks, insurers & asset managers employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,142 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Capital One** | [Diagnose and fix a flight-delay modeling setup](https://trueinterview.io/questions/diagnose-and-fix-a-flight-delay-modeling-setup) | — | — |
+| **Capital One** | [Design theme-park profit model and bid decision](https://trueinterview.io/questions/design-theme-park-profit-model-and-bid-decision) | — | — |
+| **Capital One** | [Design profit evaluation for loyalty program](https://trueinterview.io/questions/design-profit-evaluation-for-loyalty-program) | Hard | — |
+| **Capital One** | [Design metrics and an A/B test for an app](https://trueinterview.io/questions/design-metrics-and-an-a-b-test-for-an-app) | — | — |
+| **Capital One** | [Design late-tolerant streaming window aggregator](https://trueinterview.io/questions/design-late-tolerant-streaming-window-aggregator) | Hard | — |
+| **Capital One** | [Design fundraising experiment and guardrails](https://trueinterview.io/questions/design-fundraising-experiment-and-guardrails) | — | — |
+| **Capital One** | [Design and analyze an SBA mini case experiment](https://trueinterview.io/questions/design-and-analyze-an-sba-mini-case-experiment) | — | — |
+| **Capital One** | [Design and analyze ads A/B test this week](https://trueinterview.io/questions/design-and-analyze-ads-a-b-test-this-week) | — | — |
+| **Capital One** | [Design and analyze ad A/B test](https://trueinterview.io/questions/design-and-analyze-ad-a-b-test) | — | — |
+| **Capital One** | [Design a profit growth strategy](https://trueinterview.io/questions/design-a-profit-growth-strategy) | — | — |
+| **Capital One** | [Design a production face recognition system](https://trueinterview.io/questions/design-a-production-face-recognition-system) | Hard | — |
+| **Capital One** | [Design a better water bottle and test it](https://trueinterview.io/questions/design-a-better-water-bottle-and-test-it) | — | — |
+| **Capital One** | [Describe your best team and your role](https://trueinterview.io/questions/describe-your-best-team-and-your-role) | — | — |
+| **Capital One** | [Describe resolving ambiguity under pressure](https://trueinterview.io/questions/describe-resolving-ambiguity-under-pressure) | — | — |
+| **Capital One** | [Describe handling an urgent ad-hoc request](https://trueinterview.io/questions/describe-handling-an-urgent-ad-hoc-request) | — | — |
+| **Capital One** | [Describe best team and complex project](https://trueinterview.io/questions/describe-best-team-and-complex-project) | — | — |
+| **Capital One** | [Describe a project you’re most proud of](https://trueinterview.io/questions/describe-a-project-youre-most-proud-of) | — | — |
+| **Capital One** | [Demonstrate ownership and navigate challenges](https://trueinterview.io/questions/demonstrate-ownership-and-navigate-challenges) | — | — |
+| **Capital One** | [Demonstrate leadership, innovation, and learning via STAR](https://trueinterview.io/questions/demonstrate-leadership-innovation-and-learning-via-star) | — | — |
+| **Capital One** | [Demonstrate advanced techniques and ethical judgment](https://trueinterview.io/questions/demonstrate-advanced-techniques-and-ethical-judgment) | — | — |
+| **Capital One** | [Define and validate an airline profitability metric](https://trueinterview.io/questions/define-and-validate-an-airline-profitability-metric) | — | — |
+| **Capital One** | [Decide whether to sell both SKUs](https://trueinterview.io/questions/decide-whether-to-sell-both-skus) | — | — |
+| **Capital One** | [Decide content volume and price under uncertainty](https://trueinterview.io/questions/decide-content-volume-and-price-under-uncertainty) | Hard | — |
+| **Capital One** | [Decide and test Groupon program incrementality](https://trueinterview.io/questions/decide-and-test-groupon-program-incrementality) | — | — |
+| **Capital One** | [Critique a product interface and propose fixes](https://trueinterview.io/questions/critique-a-product-interface-and-propose-fixes) | — | — |
+| **Capital One** | [Cover HR screen: role, motivation, comp, immigration, location](https://trueinterview.io/questions/cover-hr-screen-role-motivation-comp-immigration-location) | — | — |
+| **Capital One** | [Compute unit economics and insurance break-even](https://trueinterview.io/questions/compute-unit-economics-and-insurance-break-even) | — | — |
+| **Capital One** | [Compute two conditional probability scenarios](https://trueinterview.io/questions/compute-two-conditional-probability-scenarios) | — | — |
+| **Capital One** | [Compute profit and surge break‑even price](https://trueinterview.io/questions/compute-profit-and-surge-breakeven-price) | — | — |
+| **Capital One** | [Compute partnership profit and break-even population](https://trueinterview.io/questions/compute-partnership-profit-and-break-even-population) | — | — |
+| **Capital One** | [Compute optimal stopping in a die-rolling game](https://trueinterview.io/questions/compute-optimal-stopping-in-a-die-rolling-game) | — | — |
+| **Capital One** | [Compute incremental profit, breakeven, and revenue sensitivity](https://trueinterview.io/questions/compute-incremental-profit-and-breakeven) | — | — |
+| **Capital One** | [Compute gala vs online break-even donors](https://trueinterview.io/questions/compute-gala-vs-online-break-even-donors) | — | — |
+| **Capital One** | [Compute expansion profits and expected value](https://trueinterview.io/questions/compute-expansion-profits-and-expected-value) | — | — |
+| **Capital One** | [Compute current annual profit](https://trueinterview.io/questions/compute-current-annual-profit) | — | — |
+| **Capital One** | [Compute and interpret 95% confidence intervals](https://trueinterview.io/questions/compute-and-interpret-95percent-confidence-intervals) | — | — |
+| **Capital One** | [Compare average profit across mix scenarios](https://trueinterview.io/questions/compare-average-profit-across-mix-scenarios) | — | — |
+| **Capital One** | [Choose cashback segment and model post-launch impact](https://trueinterview.io/questions/choose-cashback-segment-and-model-post-launch-impact) | Medium | — |
+| **Capital One** | [Choose and justify ML algorithms for tabular prediction](https://trueinterview.io/questions/choose-and-justify-ml-algorithms-for-tabular-prediction) | — | — |
+| **Capital One** | [Challenge and validate assumptions](https://trueinterview.io/questions/challenge-and-validate-assumptions) | — | — |
+| **Capital One** | [Calculate break-even new customers for a 30% Rent-a-Home discount](https://trueinterview.io/questions/calculate-break-even-new-customers-for-30percent-discount) | — | — |
+| **Capital One** | [Build and evaluate donation propensity model](https://trueinterview.io/questions/build-and-evaluate-donation-propensity-model) | — | — |
+| **Capital One** | [Build a causal ML pipeline end-to-end](https://trueinterview.io/questions/build-a-causal-ml-pipeline-end-to-end) | Hard | — |
+| **Capital One** | [Assess transition and profitability under fossil-fuel constraints](https://trueinterview.io/questions/assess-transition-and-profitability-under-fossil-fuel-constraints) | — | — |
+| **Capital One** | [Analyze your favorite app and improve it](https://trueinterview.io/questions/analyze-your-favorite-app-and-improve-it) | — | — |
+| **Capital One** | [Analyze failed gym-collab credit card launch](https://trueinterview.io/questions/analyze-failed-gym-collab-credit-card-launch) | — | — |
+| **Capital One** | [Analyze ad watch-time with Excel pivots](https://trueinterview.io/questions/analyze-ad-watch-time-with-excel-pivots) | — | — |
+| **Capital One** | [Address face recognition concerns with stakeholders](https://trueinterview.io/questions/address-face-recognition-concerns-with-stakeholders) | — | — |
+| **Capital One** | [Write SQL to quantify outage revenue loss](https://trueinterview.io/questions/write-sql-to-quantify-outage-revenue-loss) | Hard | — |
+| **Capital One** | [Write SQL to find top net-revenue products](https://trueinterview.io/questions/write-sql-to-find-top-net-revenue-products) | Medium | — |
+| **Capital One** | [Write SQL to compute campaign net revenue](https://trueinterview.io/questions/write-sql-to-compute-campaign-net-revenue) | Hard | — |
+| **Capital One** | [Write SQL for theme-park revenue and visits](https://trueinterview.io/questions/write-sql-for-theme-park-revenue-and-visits) | Medium | — |
+| **Capital One** | [Reconcile ledgers with SQL/Python and late events](https://trueinterview.io/questions/reconcile-ledgers-with-sql-python-and-late-events) | Hard | — |
+| **Capital One** | [Optimize invites under capacity constraints](https://trueinterview.io/questions/optimize-invites-under-capacity-constraints) | Medium | — |
+| **Capital One** | [Merge seven tables into one clean DataFrame](https://trueinterview.io/questions/merge-seven-tables-into-one-clean-dataframe) | Medium | — |
+| **Capital One** | [Merge ad CSVs and compute CTR](https://trueinterview.io/questions/merge-ad-csvs-and-compute-ctr) | Hard | — |
+| **Capital One** | [Impute, join, and upsert using SQL and Python](https://trueinterview.io/questions/impute-join-and-upsert-using-sql-and-python) | Medium | — |
+| **Capital One** | [Identify country with highest sunny-day probability](https://trueinterview.io/questions/identify-country-with-highest-sunny-day-probability) | Medium | — |
+| **Capital One** | [Fix dash dates and aggregate watch time](https://trueinterview.io/questions/fix-dash-dates-and-aggregate-watch-time) | Medium | — |
+| **Capital One** | [Find top category per region in Aug 2025](https://trueinterview.io/questions/find-top-category-per-region-in-aug-2025) | Medium | — |
+| **Capital One** | [Design a reproducible data pipeline for modeling](https://trueinterview.io/questions/design-a-reproducible-data-pipeline-for-modeling) | Medium | — |
+| **Capital One** | [Audit flight data quality from metadata](https://trueinterview.io/questions/audit-flight-data-quality-from-metadata) | Hard | — |
+| **Capital One** | [Maintain profit margin with new product line](https://trueinterview.io/questions/maintain-profit-margin-with-new-product-line) | — | — |
+| **Capital One** | [Handle extended team-matching uncertainty](https://trueinterview.io/questions/handle-extended-team-matching-uncertainty) | — | — |
+| **Capital One** | [Design A/B test for credit card offer](https://trueinterview.io/questions/design-a-b-test-for-credit-card-offer) | — | — |
+| **Capital One** | [Describe accomplishment, failure, and helping others](https://trueinterview.io/questions/describe-accomplishment-failure-and-helping-others) | — | — |
+| **Capital One** | [Demonstrate cross-functional leadership with data and reflection](https://trueinterview.io/questions/demonstrate-cross-functional-leadership-with-data-and-reflection) | — | — |
+| **Capital One** | [Deliver self-intro and justify move and company fit](https://trueinterview.io/questions/deliver-self-intro-and-justify-move-and-company-fit) | — | — |
+| **Capital One** | [Compute Groupon unit economics and break-even](https://trueinterview.io/questions/compute-groupon-unit-economics-and-break-even) | — | — |
+| **Capital One** | [Compute energy needed for 10% ROI](https://trueinterview.io/questions/compute-energy-needed-for-10percent-roi) | — | — |
+| **Capital One** | [Compare solar vs biomass paybacks and recommend](https://trueinterview.io/questions/compare-solar-vs-biomass-paybacks-and-recommend) | — | — |
+| **Capital One** | [Choose and compute correct t-test](https://trueinterview.io/questions/choose-and-compute-correct-t-test) | — | — |
+| **Capital One** | [Calculate profit and break-even across pricing models](https://trueinterview.io/questions/calculate-profit-and-break-even-across-pricing-models) | — | — |
+| **Capital One** | [Build and evaluate airline delay prediction model](https://trueinterview.io/questions/build-and-evaluate-airline-delay-prediction-model) | — | — |
+| **Capital One** | [Assess card rewards profitability and break-even spend](https://trueinterview.io/questions/assess-card-rewards-profitability-and-break-even-spend) | — | — |
+| **Capital One** | [Aggregate exam scores with NULL handling](https://trueinterview.io/questions/aggregate-exam-scores-with-null-handling) | Medium | — |
+| **Capital One** | [Decide on vegan-burger R&D investment](https://trueinterview.io/questions/decide-on-vegan-burger-randd-investment) | Medium | — |
+| **Capital One** | [Articulate your most significant achievement](https://trueinterview.io/questions/articulate-your-most-significant-achievement) | — | — |
+| **Goldman Sachs** | [Staircase Search in a Sorted 2D Matrix](https://trueinterview.io/questions/dbd4755b-bf74-5377-b3ca-42bb7bdc22e8) | Medium | — |
+| **Goldman Sachs** | [Maximum Rock Collection Path in a Grid](https://trueinterview.io/questions/d2cd1228-3f9d-563d-adb7-4d5f86c1af78) | Medium | — |
+| **Goldman Sachs** | [Cutting Metal Surplus](https://trueinterview.io/questions/4289b575-f765-46f3-b2e0-20b17e388ab0) | Hard | — |
+| **Goldman Sachs** | [Frequency of the Most Frequent Element](https://trueinterview.io/questions/341d7cdd-b278-57d7-9f6c-203d53b500ce) | Medium | — |
+| **Goldman Sachs** | [Dungeon Health](https://trueinterview.io/questions/2a9a0a9f-e0b8-5bea-89c7-dbc1cba4dfcc) | Hard | — |
+| **Goldman Sachs** | [Implement Heap Insert](https://trueinterview.io/questions/21b6a445-4f44-5df6-b4fe-1c7a01c4aac6) | Medium | — |
+| **Capital One** | [Check Whether a Board Fits Between Blockers](https://trueinterview.io/questions/e10f0996-651a-5155-859a-9eb69a7ce8fa) | Medium | — |
+| **Capital One** | [Check Alternating Peaks and Valleys in a Circular Array](https://trueinterview.io/questions/2a51b3dc-6f2d-5830-89b2-7515275b4bad) | Easy | — |
+| **Capital One** | [Count Pairs Matchable by One Digit Swap](https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc) | Medium | — |
+| **Capital One** | [Find the First Dictionary Word Matchable as a Reusable-Character Subsequence](https://trueinterview.io/questions/283a18eb-b75e-5b60-9dd6-f18b79b6033b) | Medium | — |
+| **Capital One** | [Find an Exact Submatrix Pattern](https://trueinterview.io/questions/021c67f3-e24d-578b-b212-4b0fac4c2b8d) | Medium | — |
+| **Bloomberg** | [Fair Electoral Vote Apportionment](https://trueinterview.io/questions/a83349b5-43bf-5345-a1f5-2c96ef191b94) | Medium | — |
+| **Bloomberg** | [Detect Fraudulent Transactions](https://trueinterview.io/questions/84306b63-f79d-5a02-9d25-921f49151cc0) | Medium | — |
+| **Bloomberg** | [Auto Corrector](https://trueinterview.io/questions/69c9a54f-f489-540b-8bcd-cc4db5de4d74) | Medium | — |
+| **Bloomberg** | [Stock Price Tracker (Online Stock Span)](https://trueinterview.io/questions/3a741f76-d92f-5234-8363-4fce4a55e475) | Medium | — |
+| **Bloomberg** | [Refactor an LRU Cache into a Pluggable Eviction-Policy Cache](https://trueinterview.io/questions/312640e3-e5d3-5e4b-b47f-0a997bf3471d) | Hard | — |
+| **Lead Bank** | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Medium | — |
+| **Lead Bank** | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Medium | — |
+| **Lead Bank** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) | Easy | — |
+| **Lead Bank** | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) | Hard | — |
+| **Lead Bank** | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) | Easy | — |
+| **GEICO** | [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Medium | — |
+| **GEICO** | [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Easy | — |
+| **GEICO** | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Easy | — |
+| **GEICO** | [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Medium | — |
+| **Visa** | [AI-augmented Course Schedule Variation](https://trueinterview.io/questions/f07d3e71-08f4-4626-a568-17e13bd74cbc) | Medium | — |
+| **Visa** | [Largest Square Area in Cityscape](https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6) | Medium | — |
+| **Visa / NVIDIA** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Medium | — |
+| **Visa** | [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637) | Medium | — |
+| **Visa** | [Minimize Maximum of Array](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47) | Hard | — |
+| **Visa** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Easy | — |
+| **Visa** | [Minimize Value by Parentheses in Concatenated Expression](https://trueinterview.io/questions/2c206b9d-3d55-4b5e-a350-1617c3666b7b) | Medium | — |
+| **Visa** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | Medium | — |
+| **Verkada / Amazon / ByteDance / Goldman Sachs / Lyft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |
+| **Visa / Oracle** | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) | Easy | — |
+| **Visa** | [Count Distinct Movement Subsequences on a Number Line](https://trueinterview.io/questions/f70afa37-90a2-5c42-a173-236efea88ec0) | Hard | — |
+| **Visa** | [Minimum Score of a Path Between Two Cities](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d) | Medium | — |
+| **Visa / LinkedIn** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Medium | — |
+| **Visa** | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Medium | — |
+| **Anthropic / Affirm / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
+| **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
+| **Microsoft / Ebay / Visa** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Easy | — |
+| **Microsoft / GEICO / WeRide** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
+| **Meta / Amazon / Apple / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
+| **Goldman Sachs / LinkedIn / Oracle** | [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Medium | — |
+| **Goldman Sachs / WeRide** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Easy | — |
+| **Capital One** | [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/questions/f63e89db-acce-46ac-9ee8-4b85820078e0) | — | — |
+| **Capital One / WeRide** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Medium | — |
+| **Capital One** | [Fraud Detection Algorithm for Credit Card Transactions](https://trueinterview.io/questions/86a950f4-60b5-454a-90e5-d8e02a13e342) | Easy | — |
+| **Capital One** | [Ordered Fragment Pairs String-Counting Problem](https://trueinterview.io/questions/8584e53e-8871-4009-a423-69c8fbed330c) | Medium | — |
+| **Capital One** | [Round-robin Server Simulation](https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f) | Medium | — |
+| **Capital One / Coinbase** | [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Medium | — |
+| **Capital One** | [Implement Test Harness](https://trueinterview.io/questions/1ed1ee1c-e0e3-404e-ae31-959a0593f0b6) | Easy | — |
+| **ByteDance / Bloomberg** | [Interval Problem Requiring Sorting by Start (or End)](https://trueinterview.io/questions/5164c36d-171e-41d6-8bf0-1f573c012781) | Medium | — |
+| **ByteDance / Google / Microsoft / Visa** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Medium | — |
+| **Bloomberg** | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Hard | — |
+| **Bloomberg** | [Sort Words by Custom Alphabet Order](https://trueinterview.io/questions/cc94ea6c-3a6b-4cd7-8694-6f1770e09b83) | Medium | — |
+| **Bloomberg / Waymo** | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Medium | — |
 | **Bloomberg** | [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Easy | — |
 | **Bloomberg** | [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Medium | — |
 | **Bloomberg** | [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Easy | — |

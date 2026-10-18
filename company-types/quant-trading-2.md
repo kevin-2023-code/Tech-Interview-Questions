@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**274 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**368 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,100 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Point72** | [Price a coin-doubling game rationally](https://trueinterview.io/questions/price-a-coin-doubling-game-rationally) | — | — |
+| **Citadel** | [Explain RF optimization and variable-importance pitfalls](https://trueinterview.io/questions/explain-rf-optimization-and-variable-importance-pitfalls) | — | — |
+| **Point72** | [Explain and tune decision trees robustly](https://trueinterview.io/questions/explain-and-tune-decision-trees-robustly) | — | — |
+| **Citadel** | [Estimate OLS via streaming sufficient statistics](https://trueinterview.io/questions/estimate-ols-via-streaming-sufficient-statistics) | Hard | — |
+| **Citadel** | [Discuss PhD coursework and research impact](https://trueinterview.io/questions/discuss-phd-coursework-and-research-impact) | — | — |
+| **Citadel** | [Diagnose outliers and influence in linear regression](https://trueinterview.io/questions/diagnose-outliers-and-influence-in-linear-regression) | — | — |
+| **Citadel** | [Design city home-price prediction system](https://trueinterview.io/questions/design-city-home-price-prediction-system) | Medium | — |
+| **Voleon** | [Design and diagnose a regression pipeline](https://trueinterview.io/questions/design-and-diagnose-a-regression-pipeline) | — | — |
+| **Citadel** | [Derive lower bound for equicorrelation rho](https://trueinterview.io/questions/derive-lower-bound-for-equicorrelation-rho) | — | — |
+| **Citadel** | [Derive distribution of an inverse transform](https://trueinterview.io/questions/derive-distribution-of-an-inverse-transform) | — | — |
+| **Voleon** | [Build a regularized regression pipeline](https://trueinterview.io/questions/build-a-regularized-regression-pipeline) | Medium | — |
+| **Point72** | [Write SQL for top student per department](https://trueinterview.io/questions/write-sql-for-top-student-per-department) | Medium | — |
+| **Point72** | [Write SQL for recent customer activity](https://trueinterview.io/questions/write-sql-for-recent-customer-activity) | Medium | — |
+| **Squarepoint** | [Parse payroll file and answer queries](https://trueinterview.io/questions/parse-payroll-file-and-answer-queries) | Hard | — |
+| **Point72** | [Maximize outfits with distinct colors](https://trueinterview.io/questions/maximize-outfits-with-distinct-colors) | Hard | — |
+| **Voleon** | [Load and visualize large CSV robustly](https://trueinterview.io/questions/load-and-visualize-large-csv-robustly) | — | — |
+| **Citadel** | [Implement max profit with K transactions (DP)](https://trueinterview.io/questions/implement-max-profit-with-k-transactions-dp) | Hard | — |
+| **Citadel** | [Implement left join on Python lists, no packages](https://trueinterview.io/questions/implement-left-join-on-python-lists-no-packages) | Medium | — |
+| **Citadel** | [Implement lazy unique-merge generator for sorted streams](https://trueinterview.io/questions/implement-lazy-unique-merge-generator-for-sorted-streams) | Hard | — |
+| **Point72** | [Convert integer dates to quarters](https://trueinterview.io/questions/convert-integer-dates-to-quarters) | Medium | — |
+| **Point72** | [Classify relationships for multiple circle pairs](https://trueinterview.io/questions/classify-relationships-for-multiple-circle-pairs) | Medium | — |
+| **Voleon** | [Analyze time-zoned events with pandas](https://trueinterview.io/questions/analyze-time-zoned-events-with-pandas) | Hard | — |
+| **Two Sigma** | [Analyze NYC taxi trips efficiently over last 7 days](https://trueinterview.io/questions/analyze-nyc-taxi-trips-efficiently-over-last-7-days) | Medium | — |
+| **Salesforce / Akuna Capital / Palantir** | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Medium | — |
+| **Citadel** | [Second Largest Distinct Value](https://trueinterview.io/questions/e94171d2-2436-5ce7-8c4f-ba711a9dc42b) | Easy | — |
+| **Citadel** | [Print a Message Repeatedly with Blank Lines](https://trueinterview.io/questions/e3077f6d-c663-5701-8372-4cd14485be37) | Easy | — |
+| **Citadel** | [Minimum Changes for Every Length-K Substring to Be a Palindrome](https://trueinterview.io/questions/e177ccb7-1580-508a-a95e-14b16aaea032) | Medium | — |
+| **Citadel** | [Implement a C++ Task Scheduler with Parameterized Tasks](https://trueinterview.io/questions/d893a368-33e5-51ad-a5d0-517ad8e801dd) | Medium | — |
+| **Citadel** | [Statistics from a 256-Bucket Frequency Array](https://trueinterview.io/questions/d00a6fa5-a7cf-5259-903f-603e51c7bfea) | Medium | — |
+| **Citadel** | [Word Frequency Counter](https://trueinterview.io/questions/aada71de-6b38-53c5-89d3-6988b6a5865a) | Easy | — |
+| **Citadel** | [Online Batched No-Intercept Regression](https://trueinterview.io/questions/73c7aafc-4208-59c9-9bc1-f3dddb06e125) | Medium | — |
+| **Citadel / Amazon** | [Search Suggestions System](https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13) | Medium | — |
+| **Citadel** | [Piecewise Linear Interpolation with Extrapolation](https://trueinterview.io/questions/4796cc39-cf33-52af-9075-2fa0d3a0bf34) | Medium | — |
+| **Citadel** | [Town Temperature Regression Analysis](https://trueinterview.io/questions/40633852-5eda-59ea-9c7a-4e233abff5ec) | Hard | — |
+| **Citadel** | [Square and Reverse a List](https://trueinterview.io/questions/053a4fe5-1f9c-51b1-a965-6f9698ca8bcd) | Easy | — |
+| **Citadel** | [Reconcile Unmatched Buy and Sell Trades](https://trueinterview.io/questions/0060bc58-0dc6-5b92-a4a9-07bef5b895c0) | Hard | — |
+| **Citadel / Ramp** | [Minimum Changes to Make Every Block a Palindrome](https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7) | Medium | — |
+| **Citadel** | [Minimum Changes for a Palindromic Periodic Password](https://trueinterview.io/questions/5f178ac0-8422-5332-b151-6b030e7edb50) | Medium | — |
+| **Voleon** | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead) | Hard | — |
+| **Voleon** | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a) | Hard | — |
+| **Voleon** | [Earliest Time with Maximum Running Processes](https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61) | Medium | — |
+| **Voleon** | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) | Hard | — |
+| **Squarepoint** | [OOP Concepts in Python: Classes, Inheritance, and Polymorphism](https://trueinterview.io/questions/b334f7cb-9c94-4ce6-b861-9164f44eb748) | Medium | — |
+| **Hudson River Trading** | [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609) | Medium | — |
+| **Chicago Trading** | [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4) | Medium | — |
+| **Chicago Trading** | [Smart Queue / Stock Quote Container](https://trueinterview.io/questions/dc9b15b6-587c-50f2-b57d-e78f195df65e) | Medium | — |
+| **Chicago Trading** | [Implement a Simplified C++ Vector](https://trueinterview.io/questions/949cdc20-2c65-5d5c-be42-64c71e7ef665) | Medium | — |
+| **Chicago Trading** | [Simple Moving Average over a Fixed-Size Sliding Window](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa) | Medium | — |
+| **Chicago Trading** | [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](https://trueinterview.io/questions/15eeeb4d-047a-5c82-b3f2-0fe0eb40fe1c) | Hard | — |
+| **Snowflake / Citadel / Two Sigma / Uber** | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Medium | — |
+| **Hudson River Trading / Google** | [Winner in a Dot Grid Game](https://trueinterview.io/questions/winner-in-a-dot-grid-game-2) | Medium | — |
+| **Hudson River Trading / Amazon** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Medium | — |
+| **Squarepoint** | [Filter Numbers Greater Than the Average](https://trueinterview.io/questions/cd12a6b3-ba3b-5639-be01-4b54adbee445) | Easy | — |
+| **Squarepoint / Google** | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Medium | — |
+| **Squarepoint** | [Max Element at Position k with Adjacent Differences 1 and Sum m](https://trueinterview.io/questions/9dff9807-6525-4d06-a397-7a9128038bf6) | Medium | — |
+| **Point72** | [Design a system to find median in a data stream under memory constraints](https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c) | Medium | — |
+| **Point72** | [Lexicographically Smallest String After Substring Operation](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205) | Medium | — |
+| **Hudson River Trading** | [Black and White Chess Problem](https://trueinterview.io/questions/e829f3ce-e920-412d-b31a-72a804d9272e) | Medium | — |
+| **Hudson River Trading** | [Fancy Number](https://trueinterview.io/questions/e4e49d37-3d74-4d00-b000-445874bf217a) | Medium | — |
+| **Hudson River Trading** | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Easy | — |
+| **Hudson River Trading** | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | Medium | — |
+| **Hudson River Trading** | [Max Harvested Crops](https://trueinterview.io/questions/0364d8f3-180c-434b-96f4-fbdf7412a3e3) | Medium | — |
+| **Squarepoint** | [Compute EMA Indicators and Detect Crossovers in Pandas](https://trueinterview.io/questions/eec3b2bb-0fda-44b2-bc31-5efa0e915e2d) | Easy | — |
+| **Squarepoint** | [Most Frequent Character with Lexicographical Tie-Breaking](https://trueinterview.io/questions/d51e32aa-3b44-5206-a122-5dc924dc34c9) | Easy | — |
+| **Squarepoint** | [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Medium | — |
+| **Squarepoint** | [Implement Square Root Without Using sqrt (Precision Required)](https://trueinterview.io/questions/9e64a322-382b-47f3-8bdf-41f3a925fe32) | Medium | — |
+| **Squarepoint** | [Line by Line Document Generator](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) | Medium | — |
+| **Squarepoint** | [Merge Two Sorted Vectors](https://trueinterview.io/questions/80025de7-bb7b-4d7a-bbef-34ca4648dad8) | Easy | — |
+| **Squarepoint** | [Grasshopper Problem](https://trueinterview.io/questions/6963da19-4f4b-4340-8237-43ced6656932) | Easy | — |
+| **Squarepoint** | [Minimum Number of Umbrellas](https://trueinterview.io/questions/3b3782d9-dd83-4be7-a787-f7c182f4ab30) | Medium | — |
+| **Squarepoint** | [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | Medium | — |
+| **Squarepoint** | [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | Medium | — |
+| **Squarepoint** | [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d) | Easy | — |
+| **Point72** | [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902) | Medium | — |
+| **Point72** | [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4) | Medium | — |
+| **Point72** | [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907) | Medium | — |
+| **Point72** | [SmartString Class Template](https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6) | Hard | — |
+| **Point72** | [Optimal Stopping with Up to Three Dice Rolls](https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be) | Medium | — |
+| **Point72** | [Find Minimum in Rotated Sorted Array](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c) | Medium | — |
+| **Point72** | [Find the Largest and Second Largest Elements](https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27) | Medium | — |
+| **Point72** | [Implement DictMixin and JSONMixin for object serialization](https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc) | Easy | — |
+| **Point72** | [Simulate a Deterministic Finite Automaton](https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe) | Easy | — |
+| **Hudson River Trading** | [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72) | Medium | — |
+| **Hudson River Trading** | [Implement buffer readers for char/int/string with pointer advancement](https://trueinterview.io/questions/dd77f43b-876b-4c4a-828b-2e48ea7294dc) | Medium | — |
+| **Hudson River Trading** | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) | Easy | — |
+| **Hudson River Trading** | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Easy | — |
+| **Hudson River Trading** | [Implement itoa()](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397) | Medium | — |
+| **Hudson River Trading** | [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f) | Medium | — |
+| **Squarepoint** | [Sentence Variations with Anagram](https://trueinterview.io/questions/715c9fe9-1402-470e-b461-3433e80ff0f9) | Medium | — |
+| **Squarepoint** | [Generate Unique Usernames](https://trueinterview.io/questions/1ac76be5-90d6-4f8f-b5af-24baa7b56ea9) | Medium | — |
+| **Point72** | [Portfolio Trading Optimizer (Multiple Transactions + Input Validation + Report)](https://trueinterview.io/questions/931ca2a6-3886-4c5c-84f7-d2208582067e) | Medium | — |
+| **Hudson River Trading** | [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | Hard | — |
+| **Citadel** | [External Merge Sort with a Heap](https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d) | Medium | — |
+| **Citadel / Verkada** | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Medium | — |
 | **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
 | **Optiver** | [Days Between Dates (Days Between 3.0 V2)](https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6) | Medium | — |
 | **Two Sigma / Waymo** | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Medium | — |

@@ -2,35 +2,36 @@
 
 # By month reported
 
-**2,535 questions** carry a recorded sighting date and are filed below by the month they were reported in.
+**3,393 questions** carry a recorded sighting date and are filed below by the month they were reported in.
 
-The other **1,698** carry no sighting date. They are in the bank and on every company and format page; they are absent here because a month page is a claim about when a question was asked, and an undated row cannot be put behind that claim. It is not the same fact as *old*.
+The other **2,243** carry no sighting date. They are in the bank and on every company and format page; they are absent here because a month page is a claim about when a question was asked, and an undated row cannot be put behind that claim. It is not the same fact as *old*.
 
 [← Question bank](../README.md)
 
 | Month | Questions |
 | :-- | --: |
 | [Oct 2026](2026-10.md) | 19 |
-| [Sep 2026](2026-09.md) | 184 |
-| [Aug 2026](2026-08.md) | 218 |
-| [Jul 2026](2026-07.md) | 98 |
-| [Jun 2026](2026-06.md) | 202 |
-| [May 2026](2026-05.md) | 227 |
-| [Apr 2026](2026-04.md) | 331 |
-| [Mar 2026](2026-03.md) | 203 |
-| [Feb 2026](2026-02.md) | 237 |
-| [Jan 2026](2026-01.md) | 258 |
-| [Dec 2025](2025-12.md) | 156 |
-| [Nov 2025](2025-11.md) | 158 |
-| [Oct 2025](2025-10.md) | 113 |
-| [Sep 2025](2025-09.md) | 39 |
-| [Aug 2025](2025-08.md) | 23 |
-| [Jul 2025](2025-07.md) | 27 |
-| [Jun 2025](2025-06.md) | 10 |
-| [May 2025](2025-05.md) | 4 |
+| [Sep 2026](2026-09.md) | 308 |
+| [Aug 2026](2026-08.md) | 295 |
+| [Jul 2026](2026-07.md) | 115 |
+| [Jun 2026](2026-06.md) | 243 |
+| [May 2026](2026-05.md) | 257 |
+| [Apr 2026](2026-04.md) | 401 |
+| [Mar 2026](2026-03.md) | 277 |
+| [Feb 2026](2026-02.md) | 330 |
+| [Jan 2026](2026-01.md) | 387 |
+| [Dec 2025](2025-12.md) | 221 |
+| [Nov 2025](2025-11.md) | 218 |
+| [Oct 2025](2025-10.md) | 183 |
+| [Sep 2025](2025-09.md) | 40 |
+| [Aug 2025](2025-08.md) | 24 |
+| [Jul 2025](2025-07.md) | 28 |
+| [Jun 2025](2025-06.md) | 11 |
+| [May 2025](2025-05.md) | 5 |
 | [Apr 2025](2025-04.md) | 10 |
+| [Feb 2025](2025-02.md) | 1 |
 | [Jan 2025](2025-01.md) | 2 |
-| [Dec 2024](2024-12.md) | 2 |
-| [Nov 2024](2024-11.md) | 4 |
+| [Dec 2024](2024-12.md) | 3 |
+| [Nov 2024](2024-11.md) | 5 |
 | [Oct 2024](2024-10.md) | 9 |
 | [May 2024](2024-05.md) | 1 |

@@ -2,7 +2,7 @@
 
 # Together AI interview process, OA & interview questions
 
-**2 questions** reported at Together AI. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/together-ai), judged server-side.
+**6 questions** reported at Together AI. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/together-ai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Together AI interviews & the free questions](together-ai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,37 +14,41 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **2** |
+| Questions tracked | **6** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 2) |
+| Reported in the last 90 days | 5 |
+| Most common format | [Blog](../formats/blog.md) (67% of 6) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 2 questions reported at Together AI. 2 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 6 questions reported at Together AI. 6 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **2 of 2** questions at Together AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **6 of 6** questions at Together AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 6 | ██████████ | [Blog](../formats/blog.md) (67%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | Blog | — | Phone screen | Sep 15, 2026 |
+| [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | Blog | — | Phone screen | Sep 15, 2026 |
+| [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) | Blog | — | Phone screen | Sep 15, 2026 |
+| [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | Blog | — | Phone screen | Sep 15, 2026 |
 | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Algorithm | Medium | Phone screen | Sep 15, 2026 |
 
 ## What they ask about
 
-Of the **2 questions at Together AI that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **2 questions at Together AI that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -60,17 +64,21 @@ Every recorded sighting at Together AI, by the month it was reported in — Feb 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 5 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | █████ |
 
 ## Start here
 
-The 2 questions to open first if you are preparing for Together AI, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 6 questions to open first if you are preparing for Together AI, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) 🆓 | Algorithm | Medium | — | Sep 15, 2026 |
-| **2** | [Detect cycles and break them in pod dependencies](https://trueinterview.io/questions/detect-cycles-and-break-them-in-pod-dependencies) 🆓 | Algorithm | Hard | — | Feb 12, 2026 |
+| **2** | [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) 🆓 | Blog | — | — | Sep 15, 2026 |
+| **3** | [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) 🆓 | Blog | — | — | Sep 15, 2026 |
+| **4** | [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) 🆓 | Blog | — | — | Sep 15, 2026 |
+| **5** | [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) 🆓 | Blog | — | — | Sep 15, 2026 |
+| **6** | [Detect cycles and break them in pod dependencies](https://trueinterview.io/questions/detect-cycles-and-break-them-in-pod-dependencies) 🆓 | Algorithm | Hard | — | Feb 12, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -85,4 +93,8 @@ The 2 questions to open first if you are preparing for Together AI, ranked by **
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Algorithm | Medium | 🆕 Sep 15, 2026 |
+| [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | Blog | — | 🆕 Sep 15, 2026 |
+| [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) | Blog | — | 🆕 Sep 15, 2026 |
+| [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | Blog | — | 🆕 Sep 15, 2026 |
+| [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | Blog | — | 🆕 Sep 15, 2026 |
 | [Detect cycles and break them in pod dependencies](https://trueinterview.io/questions/detect-cycles-and-break-them-in-pod-dependencies) | Algorithm | Hard | Feb 12, 2026 |

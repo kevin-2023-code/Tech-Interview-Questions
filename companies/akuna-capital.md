@@ -2,7 +2,7 @@
 
 # Akuna Capital interview process, OA & interview questions
 
-**31 questions** reported at Akuna Capital · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
+**35 questions** reported at Akuna Capital · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Akuna Capital interviews & the free questions](akuna-capital/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,40 +14,41 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **31** |
+| Questions tracked | **35** |
 | Most recent sighting | Aug 26, 2026 |
-| Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 31) |
+| Reported in the last 90 days | 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (63% of 35) |
 | Difficulty (easy / medium / hard) | 9 / 21 / 1 |
-| Free to practise | [7](../free/README.md) |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 31 questions reported at Akuna Capital. 24 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 35 questions reported at Akuna Capital. 28 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **31 of 31** questions at Akuna Capital that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **35 of 35** questions at Akuna Capital that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 20 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 7 / 12 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 8 | ████ | [Algorithm](../formats/algorithm.md) (75%) | 1 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 22 | ██████████ | [Algorithm](../formats/algorithm.md) (64%) | 7 / 12 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 9 | ████ | [Algorithm](../formats/algorithm.md) (67%) | 1 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ██ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Evaluate a Hexadecimal Bitwise AND](https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and) | Blog | — | Phone screen | Aug 26, 2026 |
 | [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | Phone screen | Aug 26, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
 
 ## What they ask about
 
-Of the **24 questions at Akuna Capital that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **24 questions at Akuna Capital that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -70,15 +71,15 @@ Every recorded sighting at Akuna Capital, by the month it was reported in — Au
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████ |
-| [Jul 2026](../by-month/2026-07.md) | 1 | ████ |
-| [May 2026](../by-month/2026-05.md) | 3 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 3 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ████ |
-| [Nov 2025](../by-month/2025-11.md) | 4 | ████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 6 | ████████████████████████ |
-| [Sep 2025](../by-month/2025-09.md) | 4 | ████████████████ |
-| [Aug 2025](../by-month/2025-08.md) | 1 | ████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ███████ |
+| [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
+| [May 2026](../by-month/2026-05.md) | 3 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ██████████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | ███ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | █████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 7 | ████████████████████████ |
+| [Sep 2025](../by-month/2025-09.md) | 5 | █████████████████ |
+| [Aug 2025](../by-month/2025-08.md) | 1 | ███ |
 
 ## Start here
 
@@ -87,13 +88,13 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | — | Aug 26, 2026 |
-| **2** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 2 | Jul 29, 2026 |
-| **3** | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Easy | — | May 25, 2026 |
-| **4** | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Algorithm | Medium | — | May 25, 2026 |
-| **5** | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | — | May 25, 2026 |
-| **6** | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Algorithm | Easy | — | Jan 23, 2026 |
-| **7** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Object Oriented Programming | Medium | — | Jan 23, 2026 |
-| **8** | [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter) | Algorithm | Medium | — | Jan 23, 2026 |
+| **2** | [Evaluate a Hexadecimal Bitwise AND](https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and) 🆓 | Blog | — | — | Aug 26, 2026 |
+| **3** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 2 | Jul 29, 2026 |
+| **4** | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Easy | — | May 25, 2026 |
+| **5** | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Algorithm | Medium | — | May 25, 2026 |
+| **6** | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | — | May 25, 2026 |
+| **7** | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Algorithm | Easy | — | Jan 23, 2026 |
+| **8** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Object Oriented Programming | Medium | — | Jan 23, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -118,6 +119,7 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | Aug 26, 2026 |
+| [Evaluate a Hexadecimal Bitwise AND](https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and) | Blog | — | Aug 26, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Easy | May 25, 2026 |
 | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | May 25, 2026 |
@@ -126,6 +128,7 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Object Oriented Programming | Medium | Jan 23, 2026 |
 | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Algorithm | Easy | Jan 23, 2026 |
 | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Algorithm | Medium | Dec 20, 2025 |
+| [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) | Blog | — | Nov 20, 2025 |
 | [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode) | Object Oriented Programming | Medium | Nov 11, 2025 |
 | [Fun With Anagrams (Deduplicate Anagrams)](https://trueinterview.io/questions/fun-with-anagrams-dedup) | Algorithm | Easy | Nov 04, 2025 |
 | [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler) | Object Oriented Programming | Medium | Nov 04, 2025 |
@@ -134,12 +137,14 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 | [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps) | Algorithm | Medium | Oct 29, 2025 |
 | [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips) | Algorithm | Medium | Oct 29, 2025 |
 | [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order) | Algorithm | Medium | Oct 21, 2025 |
+| [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning) | Blog | — | Oct 20, 2025 |
 | [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine) | Object Oriented Programming | Medium | Oct 13, 2025 |
 | [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging) | AI Coding | Medium | Oct 05, 2025 |
 | [Array Challenge: Left-Comparison Running Counter](https://trueinterview.io/questions/left-comparison-running-counter) | Algorithm | Medium | Sep 24, 2025 |
 | [Find Missing and Repeated Element](https://trueinterview.io/questions/find-missing-and-repeated-element) | Algorithm | Medium | Sep 23, 2025 |
 | [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) | Object Oriented Programming | Hard | Sep 22, 2025 |
 | [Round Price to Nearest Valid Tick](https://trueinterview.io/questions/round-price-to-nearest-tick) | Algorithm | Medium | Sep 22, 2025 |
+| [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games) | Blog | — | Sep 16, 2025 |
 | [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | Algorithm | Easy | Aug 26, 2025 |
 | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Algorithm | Medium | — |
 | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Algorithm | Medium | — |

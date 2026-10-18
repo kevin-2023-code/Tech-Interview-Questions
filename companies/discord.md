@@ -2,7 +2,7 @@
 
 # Discord interview process, OA & interview questions
 
-**8 questions** reported at Discord. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/discord), judged server-side on the algorithm, low-level-design and SQL formats.
+**11 questions** reported at Discord. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/discord), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Discord interviews & the free questions](discord/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **8** |
+| Questions tracked | **11** |
 | Most recent sighting | Apr 03, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [System Design](../formats/system-design.md) (62% of 8) |
+| Most common format | [System Design](../formats/system-design.md) (45% of 11) |
 | Difficulty (easy / medium / hard) | 0 / 4 / 4 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 8 questions reported at Discord. 7 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 11 questions reported at Discord. 10 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **8 of 8** questions at Discord that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **11 of 11** questions at Discord that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 2 | ███ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 6 | ██████████ | [System Design](../formats/system-design.md) (67%) | 0 / 3 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 4 | ██████ | [Blog](../formats/blog.md) (50%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 7 | ██████████ | [System Design](../formats/system-design.md) (57%) | 0 / 3 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,7 @@ Which stage each question came from, for the **8 of 8** questions at Discord tha
 
 ## What they ask about
 
-Of the **1 question at Discord that carries a topic label** (12% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Discord that carries a topic label** (9% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -57,24 +57,25 @@ Every recorded sighting at Discord, by the month it was reported in — Oct 25, 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | ████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ████████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ████████████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 3 | ████████████████████████ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Discord, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Discord, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) 🆓 | Object Oriented Programming | Medium | — | Apr 03, 2026 |
-| **2** | [Design a TCP Discord-like chat server](https://trueinterview.io/questions/design-a-tcp-discord-like-chat-server) | System Design | Medium | — | Jan 27, 2026 |
-| **3** | [Design Product Notification and Autocomplete Experiments](https://trueinterview.io/questions/design-product-notification-and-autocomplete-experiments) | System Design | Medium | — | Jan 16, 2026 |
-| **4** | [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream) | Algorithm | Hard | — | Dec 16, 2025 |
-| **5** | [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | System Design | Medium | — | Oct 25, 2025 |
-| **6** | [Design leader election using Redis leases](https://trueinterview.io/questions/design-leader-election-using-redis-leases) | System Design | Hard | — | Oct 25, 2025 |
-| **7** | [Implement an asyncio-based chat server](https://trueinterview.io/questions/implement-an-asyncio-based-chat-server) | Object Oriented Programming | Hard | — | Oct 25, 2025 |
-| **8** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) 🆓 | System Design | Hard | 9 | — |
+| **2** | [Walk through your background and proud project](https://trueinterview.io/questions/walk-through-your-background-and-proud-project) 🆓 | Blog | — | — | Feb 04, 2026 |
+| **3** | [Design a TCP Discord-like chat server](https://trueinterview.io/questions/design-a-tcp-discord-like-chat-server) | System Design | Medium | — | Jan 27, 2026 |
+| **4** | [Demonstrate effective AI-assisted coding workflow](https://trueinterview.io/questions/demonstrate-effective-ai-assisted-coding-workflow) 🆓 | Blog | — | — | Jan 27, 2026 |
+| **5** | [Design Product Notification and Autocomplete Experiments](https://trueinterview.io/questions/design-product-notification-and-autocomplete-experiments) | System Design | Medium | — | Jan 16, 2026 |
+| **6** | [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream) | Algorithm | Hard | — | Dec 16, 2025 |
+| **7** | [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) 🆓 | Blog | — | — | Dec 08, 2025 |
+| **8** | [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | System Design | Medium | — | Oct 25, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -89,9 +90,12 @@ The 8 questions to open first if you are preparing for Discord, ranked by **the 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) | Object Oriented Programming | Medium | Apr 03, 2026 |
+| [Walk through your background and proud project](https://trueinterview.io/questions/walk-through-your-background-and-proud-project) | Blog | — | Feb 04, 2026 |
 | [Design a TCP Discord-like chat server](https://trueinterview.io/questions/design-a-tcp-discord-like-chat-server) | System Design | Medium | Jan 27, 2026 |
+| [Demonstrate effective AI-assisted coding workflow](https://trueinterview.io/questions/demonstrate-effective-ai-assisted-coding-workflow) | Blog | — | Jan 27, 2026 |
 | [Design Product Notification and Autocomplete Experiments](https://trueinterview.io/questions/design-product-notification-and-autocomplete-experiments) | System Design | Medium | Jan 16, 2026 |
 | [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream) | Algorithm | Hard | Dec 16, 2025 |
+| [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) | Blog | — | Dec 08, 2025 |
 | [Implement an asyncio-based chat server](https://trueinterview.io/questions/implement-an-asyncio-based-chat-server) | Object Oriented Programming | Hard | Oct 25, 2025 |
 | [Design leader election using Redis leases](https://trueinterview.io/questions/design-leader-election-using-redis-leases) | System Design | Hard | Oct 25, 2025 |
 | [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | System Design | Medium | Oct 25, 2025 |

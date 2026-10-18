@@ -60,7 +60,7 @@ Here are some questions reported by recent candidates:
 
 - [Graph Coloring Problem](../../questions/algorithm/graph-coloring-problem/README.md)
 - [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455)
-- [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3)
+- [Graph Traversal Problem](../../questions/algorithm/graph-traversal-problem/README.md)
 - [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099)
 - [Minimize Cost to Make Blocks Unique](https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37)
 

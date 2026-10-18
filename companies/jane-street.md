@@ -2,7 +2,7 @@
 
 # Jane Street interview process, OA & interview questions
 
-**11 questions** reported at Jane Street. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jane-street), judged server-side on the algorithm, low-level-design and SQL formats.
+**15 questions** reported at Jane Street. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jane-street), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Jane Street interviews & the free questions](jane-street/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,40 +14,41 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **11** |
+| Questions tracked | **15** |
 | Most recent sighting | Aug 24, 2026 |
-| Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (45% of 11) |
+| Reported in the last 90 days | 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (33% of 15) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 8 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 11 questions reported at Jane Street. 11 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 15 questions reported at Jane Street. 15 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **11 of 11** questions at Jane Street that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **15 of 15** questions at Jane Street that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (43%) | 0 / 2 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ████ | [System Design](../formats/system-design.md) (67%) | 0 / 1 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 11 | ██████████ | [Blog](../formats/blog.md) (36%) | 0 / 2 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ███ | [System Design](../formats/system-design.md) (67%) | 0 / 1 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Design Exchange and Instrument Abstractions for Quote Arbitrage](https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage) | System Design | Medium | Phone screen | Aug 24, 2026 |
+| [Estimate the Number of Florists in Sydney and Make a Market](https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market) | Blog | — | Phone screen | Aug 24, 2026 |
 | [Process One Million Quote Updates per Second](https://trueinterview.io/questions/process-one-million-quote-updates-per-second) | System Design | Hard | Phone screen | Aug 24, 2026 |
 
 ## What they ask about
 
-Of the **4 questions at Jane Street that carry a topic label** (36% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **4 questions at Jane Street that carry a topic label** (27% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -60,16 +61,16 @@ Of the **4 questions at Jane Street that carry a topic label** (36% of them — 
 
 ## When they asked it
 
-Every recorded sighting at Jane Street, by the month it was reported in — Oct 14, 2025 to Aug 24, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Jane Street, by the month it was reported in — Oct 10, 2025 to Aug 24, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 2 | ████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
-| [Dec 2025](../by-month/2025-12.md) | 4 | ████████████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ██████ |
+| [Aug 2026](../by-month/2026-08.md) | 3 | ██████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | █████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | █████ |
+| [Dec 2025](../by-month/2025-12.md) | 5 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 3 | ██████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 2 | ██████████ |
 
 ## Start here
 
@@ -79,12 +80,12 @@ The 8 questions to open first if you are preparing for Jane Street, ranked by **
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Exchange and Instrument Abstractions for Quote Arbitrage](https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage) | System Design | Medium | — | Aug 24, 2026 |
 | **2** | [Process One Million Quote Updates per Second](https://trueinterview.io/questions/process-one-million-quote-updates-per-second) | System Design | Hard | — | Aug 24, 2026 |
-| **3** | [Transform sparse time-code stream to dense rows](https://trueinterview.io/questions/transform-sparse-time-code-stream-to-dense-rows) | Algorithm | Hard | — | Feb 12, 2026 |
-| **4** | [Design a Real-vs-Fake DNA Classifier](https://trueinterview.io/questions/design-a-real-vs-fake-dna-classifier) | System Design | Hard | — | Jan 27, 2026 |
-| **5** | [Connect-N on an Infinite Board with Gravity](https://trueinterview.io/questions/connect-n-on-an-infinite-board-with-gravity) 🆓 | Algorithm | Hard | — | Dec 26, 2025 |
-| **6** | [Sort trade executions into a canonical order](https://trueinterview.io/questions/sort-trade-executions-into-a-canonical-order) | Algorithm | Medium | — | Dec 15, 2025 |
-| **7** | [Design exchange–trading system message flow](https://trueinterview.io/questions/design-exchangetrading-system-message-flow) | System Design | Hard | — | Dec 15, 2025 |
-| **8** | [Validate order book data across multiple databases](https://trueinterview.io/questions/validate-order-book-data-across-multiple-databases) | System Design | Hard | — | Dec 15, 2025 |
+| **3** | [Estimate the Number of Florists in Sydney and Make a Market](https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market) 🆓 | Blog | — | — | Aug 24, 2026 |
+| **4** | [Transform sparse time-code stream to dense rows](https://trueinterview.io/questions/transform-sparse-time-code-stream-to-dense-rows) | Algorithm | Hard | — | Feb 12, 2026 |
+| **5** | [Design a Real-vs-Fake DNA Classifier](https://trueinterview.io/questions/design-a-real-vs-fake-dna-classifier) | System Design | Hard | — | Jan 27, 2026 |
+| **6** | [Connect-N on an Infinite Board with Gravity](https://trueinterview.io/questions/connect-n-on-an-infinite-board-with-gravity) 🆓 | Algorithm | Hard | — | Dec 26, 2025 |
+| **7** | [Sort trade executions into a canonical order](https://trueinterview.io/questions/sort-trade-executions-into-a-canonical-order) | Algorithm | Medium | — | Dec 15, 2025 |
+| **8** | [Design exchange–trading system message flow](https://trueinterview.io/questions/design-exchangetrading-system-message-flow) | System Design | Hard | — | Dec 15, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -99,6 +100,7 @@ The 8 questions to open first if you are preparing for Jane Street, ranked by **
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Process One Million Quote Updates per Second](https://trueinterview.io/questions/process-one-million-quote-updates-per-second) | System Design | Hard | Aug 24, 2026 |
+| [Estimate the Number of Florists in Sydney and Make a Market](https://trueinterview.io/questions/estimate-the-number-of-florists-in-sydney-and-make-a-market) | Blog | — | Aug 24, 2026 |
 | [Design Exchange and Instrument Abstractions for Quote Arbitrage](https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage) | System Design | Medium | Aug 24, 2026 |
 | [Transform sparse time-code stream to dense rows](https://trueinterview.io/questions/transform-sparse-time-code-stream-to-dense-rows) | Algorithm | Hard | Feb 12, 2026 |
 | [Design a Real-vs-Fake DNA Classifier](https://trueinterview.io/questions/design-a-real-vs-fake-dna-classifier) | System Design | Hard | Jan 27, 2026 |
@@ -106,6 +108,9 @@ The 8 questions to open first if you are preparing for Jane Street, ranked by **
 | [Validate order book data across multiple databases](https://trueinterview.io/questions/validate-order-book-data-across-multiple-databases) | System Design | Hard | Dec 15, 2025 |
 | [Design exchange–trading system message flow](https://trueinterview.io/questions/design-exchangetrading-system-message-flow) | System Design | Hard | Dec 15, 2025 |
 | [Sort trade executions into a canonical order](https://trueinterview.io/questions/sort-trade-executions-into-a-canonical-order) | Algorithm | Medium | Dec 15, 2025 |
+| [Solve probability and game-theory puzzles](https://trueinterview.io/questions/solve-probability-and-game-theory-puzzles) | Blog | — | Dec 01, 2025 |
+| [Alternating Die-Roll Game: Optimal Accept/Reject Strategy](https://trueinterview.io/questions/alternating-die-roll-game-optimal-accept-reject-strategy) | Blog | — | Nov 20, 2025 |
 | [Turning Interview Code into a Reusable Library or API](https://trueinterview.io/questions/turning-interview-code-into-a-reusable-library-or-api) | Object Oriented Programming | Medium | Nov 06, 2025 |
 | [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](https://trueinterview.io/questions/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner) | Algorithm | Hard | Nov 06, 2025 |
 | [Solve queue switch and coin change puzzles](https://trueinterview.io/questions/solve-queue-switch-and-coin-change-puzzles) | Algorithm | Hard | Oct 14, 2025 |
+| [Sealed-Bid Auction for a Box of 200 Coin Flips (and an Informed Opponent)](https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent) | Blog | — | Oct 10, 2025 |

@@ -119,9 +119,9 @@ Here are some questions reported by recent candidates:
 - [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40)
 - [Chain Merge](https://trueinterview.io/questions/f2173855-1f89-4b97-8dde-48f9a949a483)
 - [Key Sum Management](https://trueinterview.io/questions/bb400936-26d5-47af-adf3-bfc0445aa432)
-- [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca)
+- [Bitonic Partitioning](../../questions/algorithm/bitonic-partitioning/README.md)
 - [Get Minimum Operations](https://trueinterview.io/questions/cb43fa07-ddf7-494b-9e87-878972064c9d)
-- [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271)
+- [Word Compression](../../questions/algorithm/word-compression/README.md)
 
 ## System design and project deep dive
 

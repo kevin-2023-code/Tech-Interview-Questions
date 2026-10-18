@@ -8,11 +8,11 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [96](../oracle.md) |
-| Free to read here | 13 |
+| Questions reported | [108](../oracle.md) |
+| Free to read here | 14 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Sep 11, 2026 |
+| Most recent sighting | Sep 19, 2026 |
 
 ## How Oracle interviews
 
@@ -48,14 +48,26 @@ Here's what the interview process can look like:
 
 ## Free Oracle questions
 
-13 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+26 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/resume-project-deep-dive) |
+| [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) |
+| [Take Ownership Through Ambiguity](https://trueinterview.io/questions/take-ownership-through-ambiguity) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/take-ownership-through-ambiguity) |
+| [Resolve Conflict Within a Team](https://trueinterview.io/questions/resolve-conflict-within-a-team) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/resolve-conflict-within-a-team) |
+| [Prioritize Two Critical Tasks](https://trueinterview.io/questions/prioritize-two-critical-tasks) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/prioritize-two-critical-tasks) |
+| [Demonstrate Leadership and Ownership](https://trueinterview.io/questions/demonstrate-leadership-and-ownership) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/demonstrate-leadership-and-ownership) |
+| [Communicate a Difficult Decision to Stakeholders](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) |
+| [Data-Center Camera Access Incident Response](https://trueinterview.io/questions/data-center-camera-access-incident-response) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/data-center-camera-access-incident-response) |
+| [Evaluate Subjective, Nondeterministic Agent Outputs](https://trueinterview.io/questions/evaluate-subjective-agent-outputs) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/evaluate-subjective-agent-outputs) |
+| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/questions/behavioral-bq-bar-raiser) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/behavioral-bq-bar-raiser) |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/questions/verbal-java-cs-fundamentals) | Blog | — | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/verbal-java-cs-fundamentals) |
+| [How do you tackle unfamiliar problems?](https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems) |
 | [Dropped Requests (Rate Limiter)](../../questions/algorithm/dropped-requests-rate-limiter/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dropped-requests-rate-limiter) |
 | [File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-file-management-system) |
 | [Trie-Based Autocomplete](../../questions/object-oriented-programming/trie-autocomplete/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/trie-autocomplete) |
@@ -65,10 +77,11 @@ Here's what the interview process can look like:
 | [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |
 | [Maximum Completable Tasks with Prerequisites (Topological)](../../questions/algorithm/course-prerequisites-task-count/README.md) | Algorithm | Medium | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/course-prerequisites-task-count) |
 | [Body-Temperature Measurement Classes](../../questions/object-oriented-programming/ood-patient-temperature-classes/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/ood-patient-temperature-classes) |
+| [Event Ingestion + Top-K Aggregation](../../questions/system-design/system-design-event-ingestion-topk/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/system-design-event-ingestion-topk) |
 
 ## Everything else
 
-- [All 96 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 108 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Oracle question on TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 ---

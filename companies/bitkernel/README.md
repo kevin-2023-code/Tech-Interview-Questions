@@ -8,11 +8,11 @@ How Bitkernel interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [1](../bitkernel.md) |
+| Questions reported | [15](../bitkernel.md) |
 | Free to read here | 1 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Oct 03, 2025 |
+| Most recent sighting | Oct 24, 2025 |
 
 ## How Bitkernel interviews
 
@@ -20,15 +20,29 @@ No written process guide yet. [The loop, as reported](../bitkernel.md#the-loop-a
 
 ## Free Bitkernel questions
 
-1 question reported at Bitkernel open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+15 questions reported at Bitkernel open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Trace first pass of heap sort](https://trueinterview.io/questions/trace-first-pass-of-heap-sort) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/trace-first-pass-of-heap-sort) |
+| [Solve cups logic puzzle with one true statement](https://trueinterview.io/questions/solve-cups-logic-puzzle-with-one-true-statement) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-cups-logic-puzzle-with-one-true-statement) |
+| [Order SQL query logical processing steps](https://trueinterview.io/questions/order-sql-query-logical-processing-steps) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/order-sql-query-logical-processing-steps) |
+| [Identify incorrect statement about sockets](https://trueinterview.io/questions/identify-incorrect-statement-about-sockets) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/identify-incorrect-statement-about-sockets) |
+| [Identify incorrect statement about primary keys](https://trueinterview.io/questions/identify-incorrect-statement-about-primary-keys) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/identify-incorrect-statement-about-primary-keys) |
+| [Identify incorrect HTTP status code description](https://trueinterview.io/questions/identify-incorrect-http-status-code-description) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/identify-incorrect-http-status-code-description) |
+| [Evaluate C for-loop execution count](https://trueinterview.io/questions/evaluate-c-for-loop-execution-count) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/evaluate-c-for-loop-execution-count) |
+| [Detect impossible binary search comparison sequence](https://trueinterview.io/questions/detect-impossible-binary-search-comparison-sequence) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/detect-impossible-binary-search-comparison-sequence) |
+| [Count calls in recursive function evaluation](https://trueinterview.io/questions/count-calls-in-recursive-function-evaluation) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/count-calls-in-recursive-function-evaluation) |
+| [Convert binary tree traversals to forest count](https://trueinterview.io/questions/convert-binary-tree-traversals-to-forest-count) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/convert-binary-tree-traversals-to-forest-count) |
+| [Classify concurrency anomaly between two transactions](https://trueinterview.io/questions/classify-concurrency-anomaly-between-two-transactions) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/classify-concurrency-anomaly-between-two-transactions) |
+| [Choose best prompt for AI code debugging](https://trueinterview.io/questions/choose-best-prompt-for-ai-code-debugging) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/choose-best-prompt-for-ai-code-debugging) |
+| [Analyze TCP three-way handshake states](https://trueinterview.io/questions/analyze-tcp-three-way-handshake-states) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/analyze-tcp-three-way-handshake-states) |
+| [Count binary search steps for specific keys](https://trueinterview.io/questions/count-binary-search-steps-for-specific-keys) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/count-binary-search-steps-for-specific-keys) |
 | [Implement popup and redirect in JavaScript](../../questions/algorithm/implement-popup-and-redirect-in-javascript/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/implement-popup-and-redirect-in-javascript) |
 
 ## Everything else
 
-- [All 1 questions reported at Bitkernel](../bitkernel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 15 questions reported at Bitkernel](../bitkernel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Bitkernel question on TrueInterview](https://trueinterview.io/problems/company/bitkernel).
 
 ---

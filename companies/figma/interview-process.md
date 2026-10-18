@@ -110,7 +110,7 @@ Here are some questions reported by recent candidates:
 - Sort canvas documents left to right, then group them into rows by y position, then output parents before children with siblings in spatial order.
 - Resize a stack of rectangles by a shared delta, keep every height at least 1, redistribute any leftover shrinkage, and recompute the y positions.
 
-- [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo)
+- [Design Document Layer System](../../questions/object-oriented-programming/document-layer-apply-undo/README.md)
 - [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color)
 - [Display Sort](https://trueinterview.io/questions/bd0ea67e-c112-509d-9f77-688c4ae97445)
 - [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height)

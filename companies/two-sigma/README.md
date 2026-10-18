@@ -8,7 +8,7 @@ How Two Sigma interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [41](../two-sigma.md) |
+| Questions reported | [50](../two-sigma.md) |
 | Free to read here | 3 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -50,17 +50,26 @@ Here's what the interview process can look like:
 
 ## Free Two Sigma questions
 
-3 questions reported at Two Sigma open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at Two Sigma open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive) |
 | [Linear Interpolation](../../questions/algorithm/qr-oa-linear-interpolator/README.md) | Algorithm | Medium | Online assessment | May 2026 | [Solve](https://trueinterview.io/questions/qr-oa-linear-interpolator) |
 | [IPO Share Allocation](../../questions/algorithm/swe-oa-ipo-share-allocation/README.md) | Algorithm | Hard | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) |
+| [Explain why the t-statistic helps](https://trueinterview.io/questions/explain-why-the-t-statistic-helps) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-why-the-t-statistic-helps) |
+| [How detect duplicate card records?](https://trueinterview.io/questions/how-detect-duplicate-card-records) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/how-detect-duplicate-card-records) |
+| [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/qr-statistics-domain-oral) |
+| [QR Data Analysis Prediction Case](https://trueinterview.io/questions/qr-data-analysis-prediction-case) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/qr-data-analysis-prediction-case) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
+| [How to prepare for a hiring manager round](https://trueinterview.io/questions/how-to-prepare-for-a-hiring-manager-round) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/how-to-prepare-for-a-hiring-manager-round) |
+| [Answer four core statistics questions](https://trueinterview.io/questions/answer-four-core-statistics-questions) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-four-core-statistics-questions) |
+| [Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal) |
+| [How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?](https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks) |
 
 ## Everything else
 
-- [All 41 questions reported at Two Sigma](../two-sigma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 50 questions reported at Two Sigma](../two-sigma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Two Sigma question on TrueInterview](https://trueinterview.io/problems/company/two-sigma).
 
 ---

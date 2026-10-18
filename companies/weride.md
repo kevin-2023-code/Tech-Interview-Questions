@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 22) |
 | Difficulty (easy / medium / hard) | 6 / 13 / 3 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 22 questions reported at WeRide. 4 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

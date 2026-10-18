@@ -8,7 +8,7 @@ How Nuro interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [11](../nuro.md) |
+| Questions reported | [12](../nuro.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,17 @@ No written process guide yet. [The loop, as reported](../nuro.md#the-loop-as-rep
 
 ## Free Nuro questions
 
-2 questions reported at Nuro open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Nuro open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain Project Scope, Ownership, and Technical Challenges](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges) |
 | [Check Vertical Reflection Symmetry with Duplicate Points](../../questions/algorithm/check-vertical-reflection-symmetry-with-duplicate-points/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/check-vertical-reflection-symmetry-with-duplicate-points) |
 | [Find Maximum Path Sum in N-ary Tree](../../questions/algorithm/find-maximum-path-sum-in-n-ary-tree/README.md) | Algorithm | Hard | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/find-maximum-path-sum-in-n-ary-tree) |
 
 ## Everything else
 
-- [All 11 questions reported at Nuro](../nuro.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 12 questions reported at Nuro](../nuro.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Nuro question on TrueInterview](https://trueinterview.io/problems/company/nuro).
 
 ---

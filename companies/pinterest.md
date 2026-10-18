@@ -2,7 +2,7 @@
 
 # Pinterest interview process, OA & interview questions
 
-**101 questions** reported at Pinterest · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
+**121 questions** reported at Pinterest · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Pinterest interviews & the free questions](pinterest/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,34 +14,35 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **101** |
+| Questions tracked | **121** |
 | Most recent sighting | Sep 02, 2026 |
-| Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (56% of 101) |
+| Reported in the last 90 days | 12 |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 121) |
 | Difficulty (easy / medium / hard) | 11 / 69 / 21 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [28](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 101 questions reported at Pinterest. 61 of them carry a sighting date; the other 40 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 121 questions reported at Pinterest. 70 of them carry a sighting date; the other 51 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **101 of 101** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **121 of 121** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 6 | █ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 58 | ██████████ | [Algorithm](../formats/algorithm.md) (66%) | 1 / 48 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 48 | ████████ | [System Design](../formats/system-design.md) (40%) | 5 / 28 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 8 | █ | [Algorithm](../formats/algorithm.md) (75%) | 5 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 67 | ██████████ | [Algorithm](../formats/algorithm.md) (57%) | 1 / 48 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 58 | █████████ | [System Design](../formats/system-design.md) (33%) | 5 / 28 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**11 sightings** in this window. Newest first.
+**12 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict](https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict) | Blog | — | Onsite / virtual onsite | Sep 02, 2026 |
 | [Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing](https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing) | System Design | Hard | Onsite / virtual onsite | Sep 02, 2026 |
 | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | Onsite / virtual onsite | Sep 01, 2026 |
 | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Algorithm | Hard | Onsite / virtual onsite | Sep 01, 2026 |
@@ -56,7 +57,7 @@ Which stage each question came from, for the **101 of 101** questions at Pintere
 
 ## What they ask about
 
-Of the **59 questions at Pinterest that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **59 questions at Pinterest that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -79,16 +80,16 @@ Every recorded sighting at Pinterest, by the month it was reported in — May 30
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | ███████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ██████████ |
 | [Aug 2026](../by-month/2026-08.md) | 5 | ████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 3 | ███████ |
-| [Jun 2026](../by-month/2026-06.md) | 4 | ██████████ |
-| [May 2026](../by-month/2026-05.md) | 5 | ████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 6 | ██████████████ |
+| [May 2026](../by-month/2026-05.md) | 6 | ██████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 10 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 7 | █████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 3 | ███████ |
-| [Jan 2026](../by-month/2026-01.md) | 5 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 5 | ████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 4 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 7 | █████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 7 | █████████████████ |
 | [Nov 2025](../by-month/2025-11.md) | 5 | ████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
@@ -101,13 +102,13 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing](https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing) | System Design | Hard | — | Sep 02, 2026 |
-| **2** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | 1 | Sep 01, 2026 |
-| **3** | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Algorithm | Hard | — | Sep 01, 2026 |
-| **4** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | System Design | Hard | — | Aug 28, 2026 |
-| **5** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Object Oriented Programming | Hard | — | Aug 28, 2026 |
-| **6** | [Minimum Transfers Between Pin Boards](https://trueinterview.io/questions/minimum-transfers-between-pin-boards) | Algorithm | Hard | — | Aug 26, 2026 |
-| **7** | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Algorithm | Hard | — | Aug 26, 2026 |
-| **8** | [Experiment Bucket Allocation / Rebalancing](https://trueinterview.io/questions/experiment-bucket-allocation-rebalancing) | Object Oriented Programming | Medium | — | Aug 03, 2026 |
+| **2** | [Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict](https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict) 🆓 | Blog | — | — | Sep 02, 2026 |
+| **3** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | 1 | Sep 01, 2026 |
+| **4** | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Algorithm | Hard | — | Sep 01, 2026 |
+| **5** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | System Design | Hard | — | Aug 28, 2026 |
+| **6** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Object Oriented Programming | Hard | — | Aug 28, 2026 |
+| **7** | [Minimum Transfers Between Pin Boards](https://trueinterview.io/questions/minimum-transfers-between-pin-boards) | Algorithm | Hard | — | Aug 26, 2026 |
+| **8** | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Algorithm | Hard | — | Aug 26, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -131,6 +132,7 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict](https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict) | Blog | — | Sep 02, 2026 |
 | [Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing](https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing) | System Design | Hard | Sep 02, 2026 |
 | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Algorithm | Hard | Sep 01, 2026 |
 | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | Sep 01, 2026 |
@@ -142,10 +144,13 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Patient Support Analysis](https://trueinterview.io/questions/patient-support-analysis) | SQL | Easy | Jul 23, 2026 |
 | [User Concurrent Sessions](https://trueinterview.io/questions/user-concurrent-sessions) | SQL | Medium | Jul 22, 2026 |
 | [Same Week Purchases](https://trueinterview.io/questions/same-week-purchases) | SQL | Medium | Jul 22, 2026 |
+| [ML Fundamentals Quick-Fire](https://trueinterview.io/questions/ml-fundamentals-quick-fire) | Blog | — | Jun 30, 2026 |
 | [Stack Items into the Shortest Column (Min-Heap Load Balancing)](https://trueinterview.io/questions/shortest-column-stacking-heap) | Algorithm | Medium | Jun 16, 2026 |
+| [MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/questions/mle-intern-codesignal-oa) | Blog | — | Jun 14, 2026 |
 | [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Object Oriented Programming | Medium | Jun 10, 2026 |
 | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Algorithm | Hard | Jun 08, 2026 |
 | [Put Boxes Into the Warehouse (LC 1564)](https://trueinterview.io/questions/put-boxes-into-warehouse) | Algorithm | Medium | Jun 05, 2026 |
+| [Leadership, Initiative, Project End-to-End](https://trueinterview.io/questions/behavioral-leadership-initiative) | Blog | — | May 27, 2026 |
 | [Implement round() From String + Round-to-Precision](https://trueinterview.io/questions/round-and-precision-string) | Algorithm | Medium | May 27, 2026 |
 | [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Object Oriented Programming | Medium | May 26, 2026 |
 | [Fresh Content Reach](https://trueinterview.io/questions/fresh-content-reach) | SQL | Medium | May 23, 2026 |
@@ -171,12 +176,17 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Weighted Sampling from Score Distribution](https://trueinterview.io/questions/weighted-sampling-from-scores) | Algorithm | Medium | Feb 26, 2026 |
 | [Personalized Chatbot Recommending Pins](https://trueinterview.io/questions/system-design-personalized-chat-recommend) | System Design | Hard | Feb 11, 2026 |
 | [Implement bagging with decision trees](https://trueinterview.io/questions/implement-bagging-with-decision-trees) | Algorithm | Medium | Feb 09, 2026 |
+| [Answer core ML fundamentals questions](https://trueinterview.io/questions/answer-core-ml-fundamentals-questions) | Blog | — | Feb 09, 2026 |
+| [Evaluate Fresh Content and Video Experiments](https://trueinterview.io/questions/evaluate-fresh-content-and-video-experiments) | Blog | — | Jan 22, 2026 |
 | [Write Queries for Pinterest Engagement Tasks](https://trueinterview.io/questions/write-queries-for-pinterest-engagement-tasks) | SQL | Medium | Jan 22, 2026 |
 | [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system) | Object Oriented Programming | Medium | Jan 16, 2026 |
+| [Design and Evaluate a Home Carousel](https://trueinterview.io/questions/design-and-evaluate-a-home-carousel) | Blog | — | Jan 14, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
 | [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) | Algorithm | Hard | Jan 07, 2026 |
+| [Explain learning-rate fluctuation and vanishing gradients](https://trueinterview.io/questions/explain-learning-rate-fluctuation-and-vanishing-gradients) | Blog | — | Dec 15, 2025 |
 | [Solve a 9x9 Sudoku puzzle](https://trueinterview.io/questions/solve-a-9x9-sudoku-puzzle) | Algorithm | Hard | Dec 13, 2025 |
+| [Explain overfitting and how to prevent it](https://trueinterview.io/questions/explain-overfitting-and-how-to-prevent-it) | Blog | — | Dec 13, 2025 |
 | [Top-K Ads from Log + Sliding-Window Ingest](https://trueinterview.io/questions/top-k-ads-from-log-sliding-window) | Algorithm | Medium | Dec 10, 2025 |
 | [Leaderboard / Category Ranking](https://trueinterview.io/questions/system-design-leaderboard) | System Design | Medium | Dec 09, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
@@ -192,7 +202,18 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Nested Set Equality](https://trueinterview.io/questions/nested-set-equality) | Algorithm | Medium | May 30, 2025 |
 | [Find Restaurant Intervals](https://trueinterview.io/questions/find-restaurant-intervals) | Algorithm | Medium | May 30, 2025 |
 | [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Object Oriented Programming | Medium | May 30, 2025 |
+| [Recover causal effect without a control group](https://trueinterview.io/questions/recover-causal-effect-without-a-control-group) | Blog | — | — |
+| [Interpret A/B results for video-pin increase](https://trueinterview.io/questions/interpret-a-b-results-for-video-pin-increase) | Blog | — | — |
+| [Explain your ML project end-to-end](https://trueinterview.io/questions/explain-your-ml-project-end-to-end) | Blog | — | — |
+| [Explain BLS vs CLS; compute t-stats](https://trueinterview.io/questions/explain-bls-vs-cls-compute-t-stats) | Blog | — | — |
+| [Estimate billboard reach and impressions](https://trueinterview.io/questions/estimate-billboard-reach-and-impressions) | Blog | — | — |
+| [Diagnose CTR drop after recommendation launch](https://trueinterview.io/questions/diagnose-ctr-drop-after-recommendation-launch) | Blog | — | — |
+| [Design rigorous A/B test and causal analysis](https://trueinterview.io/questions/design-rigorous-a-b-test-and-causal-analysis) | Blog | — | — |
+| [Design metrics and experiment for Shopping launch](https://trueinterview.io/questions/design-metrics-and-experiment-for-shopping-launch) | Blog | — | — |
+| [Design and assess a video-pin increase experiment](https://trueinterview.io/questions/design-and-assess-video-pin-increase-experiment) | Blog | — | — |
+| [Demonstrate leadership with concrete STAR examples](https://trueinterview.io/questions/demonstrate-leadership-with-concrete-star-examples) | Blog | — | — |
 | [Decide if ad load is optimized](https://trueinterview.io/questions/decide-if-ad-load-is-optimized) | System Design | Hard | — |
+| [Analyze a geo rollout and interpret charts](https://trueinterview.io/questions/analyze-a-geo-rollout-and-interpret-charts) | Blog | — | — |
 | [Write windowed retention and ARPU SQL](https://trueinterview.io/questions/write-windowed-retention-and-arpu-sql) | SQL | Hard | — |
 | [Write SQL to rank categories by impressions](https://trueinterview.io/questions/write-sql-to-rank-categories-by-impressions) | SQL | Medium | — |
 | [Write SQL to compute max-overlap lists](https://trueinterview.io/questions/write-sql-to-compute-max-overlap-lists) | SQL | Hard | — |

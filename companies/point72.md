@@ -2,7 +2,7 @@
 
 # Point72 interview process, OA & interview questions
 
-**29 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
+**41 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Point72 interviews & the free questions](point72/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **29** |
+| Questions tracked | **41** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (72% of 29) |
+| Most common format | [Algorithm](../formats/algorithm.md) (51% of 41) |
 | Difficulty (easy / medium / hard) | 5 / 18 / 6 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 29 questions reported at Point72. 11 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 41 questions reported at Point72. 21 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **29 of 29** questions at Point72 that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **41 of 41** questions at Point72 that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (85%) | 5 / 4 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (77%) | 0 / 12 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 15 | ███████ | [Algorithm](../formats/algorithm.md) (73%) | 5 / 4 / 4 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 23 | ██████████ | [Algorithm](../formats/algorithm.md) (43%) | 0 / 12 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -52,7 +52,7 @@ Which stage each question came from, for the **29 of 29** questions at Point72 t
 
 ## What they ask about
 
-Of the **18 questions at Point72 that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Point72 that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -75,10 +75,13 @@ Every recorded sighting at Point72, by the month it was reported in — Oct 20, 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jul 2026](../by-month/2026-07.md) | 7 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ███ |
-| [Mar 2026](../by-month/2026-03.md) | 1 | ███ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████ |
+| [Mar 2026](../by-month/2026-03.md) | 2 | ███████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ███ |
 | [Jan 2026](../by-month/2026-01.md) | 1 | ███ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
+| [Dec 2025](../by-month/2025-12.md) | 4 | ██████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
+| [Oct 2025](../by-month/2025-10.md) | 2 | ███████ |
 
 ## Start here
 
@@ -122,10 +125,22 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | [Coins and Energy](https://trueinterview.io/questions/coins-and-energy) | Algorithm | Hard | Jul 29, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | Jul 29, 2026 |
+| [Explain Spark Execution and Optimization](https://trueinterview.io/questions/explain-spark-execution-and-optimization) | Blog | — | Apr 30, 2026 |
 | [Design Data Quality and Observability Pipeline](https://trueinterview.io/questions/design-data-quality-and-observability-pipeline) | System Design | Medium | Apr 30, 2026 |
+| [Describe Resolving Stakeholder Trade-Offs](https://trueinterview.io/questions/describe-resolving-stakeholder-trade-offs) | Blog | — | Apr 30, 2026 |
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |
+| [Explain Transformer Encoder and Decoder Behavior](https://trueinterview.io/questions/explain-transformer-encoder-and-decoder-behavior) | Blog | — | Mar 06, 2026 |
+| [Compute Gaussian Probability and Regression Coefficients](https://trueinterview.io/questions/compute-gaussian-probability-and-regression-coefficients) | Blog | — | Feb 25, 2026 |
 | [Design a News-Filtering Prompt](https://trueinterview.io/questions/design-a-news-filtering-prompt) | Algorithm | Medium | Jan 21, 2026 |
+| [Solve Three Probability Models](https://trueinterview.io/questions/solve-three-probability-models) | Blog | — | Dec 14, 2025 |
+| [Explain Ensemble Learning and Its Main Families](https://trueinterview.io/questions/explain-ensemble-learning-and-its-main-families) | Blog | — | Dec 14, 2025 |
+| [Explain Encapsulation, Inheritance, and Polymorphism in C++](https://trueinterview.io/questions/explain-encapsulation-inheritance-and-polymorphism-in-cplusplus) | Blog | — | Dec 14, 2025 |
+| [Choose and Explain a Classical Hypothesis Test](https://trueinterview.io/questions/choose-and-explain-a-classical-hypothesis-test) | Blog | — | Dec 14, 2025 |
+| [Derive the Optimal Bid in a Two-Bidder Second-Price Auction](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction) | Blog | — | Nov 25, 2025 |
+| [How would you explain PCA and SHAP?](https://trueinterview.io/questions/how-would-you-explain-pca-and-shap) | Blog | — | Oct 24, 2025 |
 | [K-th missing number](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) | Algorithm | Medium | Oct 20, 2025 |
+| [Price a coin-doubling game rationally](https://trueinterview.io/questions/price-a-coin-doubling-game-rationally) | Blog | — | — |
+| [Explain and tune decision trees robustly](https://trueinterview.io/questions/explain-and-tune-decision-trees-robustly) | Blog | — | — |
 | [Write SQL for top student per department](https://trueinterview.io/questions/write-sql-for-top-student-per-department) | SQL | Medium | — |
 | [Write SQL for recent customer activity](https://trueinterview.io/questions/write-sql-for-recent-customer-activity) | SQL | Medium | — |
 | [Maximize outfits with distinct colors](https://trueinterview.io/questions/maximize-outfits-with-distinct-colors) | Algorithm | Hard | — |

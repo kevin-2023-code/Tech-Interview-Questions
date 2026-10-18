@@ -8,7 +8,7 @@ How Bobyard interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [6](../bobyard.md) |
+| Questions reported | [7](../bobyard.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -45,16 +45,17 @@ Here's what the interview process can look like:
 
 ## Free Bobyard questions
 
-2 questions reported at Bobyard open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Bobyard open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [How do you debug slowness and bugs?](https://trueinterview.io/questions/how-do-you-debug-slowness-and-bugs) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/how-do-you-debug-slowness-and-bugs) |
 | [Filter nested comments and keep only matched nodes and their descendants](../../questions/algorithm/filter-nested-comments-and-keep-only-matched-nodes-and-their-descendants/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) |
 | [Add sorting to a comment list with persistence across refresh](../../questions/algorithm/add-sorting-to-a-comment-list-with-persistence-across-refresh/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) |
 
 ## Everything else
 
-- [All 6 questions reported at Bobyard](../bobyard.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 7 questions reported at Bobyard](../bobyard.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Bobyard question on TrueInterview](https://trueinterview.io/problems/company/bobyard).
 
 ---

@@ -2,7 +2,7 @@
 
 # Tubi interview process, OA & interview questions
 
-**6 questions** reported at Tubi. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tubi), judged server-side on the algorithm, low-level-design and SQL formats.
+**12 questions** reported at Tubi. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tubi), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Tubi interviews & the free questions](tubi/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,23 +12,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **6** |
+| Questions tracked | **12** |
 | Most recent sighting | Feb 16, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 6) |
+| Most common format | [Blog](../formats/blog.md) (50% of 12) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 6 questions reported at Tubi. 5 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 12 questions reported at Tubi. 7 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **6 of 6** questions at Tubi that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **12 of 12** questions at Tubi that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 12 | ██████████ | [Blog](../formats/blog.md) (50%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -38,7 +38,7 @@ Which stage each question came from, for the **6 of 6** questions at Tubi that n
 
 ## What they ask about
 
-Of the **3 questions at Tubi that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Tubi that carry a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -55,12 +55,12 @@ Every recorded sighting at Tubi, by the month it was reported in — Jan 28, 202
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Feb 2026](../by-month/2026-02.md) | 4 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
+| [Feb 2026](../by-month/2026-02.md) | 5 | ████████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ██████████ |
 
 ## Start here
 
-The 6 questions to open first if you are preparing for Tubi, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Tubi, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
@@ -68,8 +68,10 @@ The 6 questions to open first if you are preparing for Tubi, ranked by **the mos
 | **2** | [Make Cache Fetch Thread-Safe and Single-Flight](https://trueinterview.io/questions/make-cache-fetch-thread-safe-and-single-flight) | System Design | Hard | — | Feb 16, 2026 |
 | **3** | [Weighted Random Sampling by Index](https://trueinterview.io/questions/weighted-random-sampling-by-index) | Algorithm | Medium | — | Feb 10, 2026 |
 | **4** | [Thumbnail Selection for a Streaming Catalog](https://trueinterview.io/questions/ml-system-design-thumbnail-selection-for-a-streaming-catalog) | System Design | Hard | — | Feb 10, 2026 |
-| **5** | [Implement K-Means and compare with GMM](https://trueinterview.io/questions/implement-k-means-and-compare-with-gmm) | Algorithm | Medium | — | Jan 28, 2026 |
-| **6** | [Compute daily net users from event logs](https://trueinterview.io/questions/compute-daily-net-users-from-event-logs) 🆓 | SQL | Medium | — | — |
+| **5** | [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) 🆓 | Blog | — | — | Feb 10, 2026 |
+| **6** | [Implement K-Means and compare with GMM](https://trueinterview.io/questions/implement-k-means-and-compare-with-gmm) | Algorithm | Medium | — | Jan 28, 2026 |
+| **7** | [Explain ML basics and recommender tuning](https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning) 🆓 | Blog | — | — | Jan 28, 2026 |
+| **8** | [Compute daily net users from event logs](https://trueinterview.io/questions/compute-daily-net-users-from-event-logs) 🆓 | SQL | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -86,6 +88,12 @@ The 6 questions to open first if you are preparing for Tubi, ranked by **the mos
 | [Make Cache Fetch Thread-Safe and Single-Flight](https://trueinterview.io/questions/make-cache-fetch-thread-safe-and-single-flight) | System Design | Hard | Feb 16, 2026 |
 | [Execute TTL Cache Operations with Fetch-on-Miss](https://trueinterview.io/questions/execute-ttl-cache-operations-with-fetch-on-miss) | Algorithm | Hard | Feb 16, 2026 |
 | [Thumbnail Selection for a Streaming Catalog](https://trueinterview.io/questions/ml-system-design-thumbnail-selection-for-a-streaming-catalog) | System Design | Hard | Feb 10, 2026 |
+| [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) | Blog | — | Feb 10, 2026 |
 | [Weighted Random Sampling by Index](https://trueinterview.io/questions/weighted-random-sampling-by-index) | Algorithm | Medium | Feb 10, 2026 |
 | [Implement K-Means and compare with GMM](https://trueinterview.io/questions/implement-k-means-and-compare-with-gmm) | Algorithm | Medium | Jan 28, 2026 |
+| [Explain ML basics and recommender tuning](https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning) | Blog | — | Jan 28, 2026 |
+| [Measure Super Bowl ad impact with causal design](https://trueinterview.io/questions/measure-super-bowl-ad-impact-with-causal-design) | Blog | — | — |
+| [Explain p‑values to a product manager](https://trueinterview.io/questions/explain-pvalues-to-a-product-manager) | Blog | — | — |
+| [Diagnose and fix selection bias in experiments](https://trueinterview.io/questions/diagnose-and-fix-selection-bias-in-experiments) | Blog | — | — |
+| [Determine A/B test sample size drivers](https://trueinterview.io/questions/determine-a-b-test-sample-size-drivers) | Blog | — | — |
 | [Compute daily net users from event logs](https://trueinterview.io/questions/compute-daily-net-users-from-event-logs) | SQL | Medium | — |

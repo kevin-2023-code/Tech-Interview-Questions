@@ -2,7 +2,7 @@
 
 # Robinhood interview process, OA & interview questions
 
-**44 questions** reported at Robinhood · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/robinhood), judged server-side on the algorithm, low-level-design and SQL formats.
+**53 questions** reported at Robinhood · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/robinhood), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Robinhood interviews & the free questions](robinhood/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **44** |
+| Questions tracked | **53** |
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [System Design](../formats/system-design.md) (45% of 44) |
+| Most common format | [System Design](../formats/system-design.md) (38% of 53) |
 | Difficulty (easy / medium / hard) | 6 / 30 / 8 |
-| Free to practise | [10](../free/README.md) |
+| Free to practise | [19](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 44 questions reported at Robinhood. 36 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 53 questions reported at Robinhood. 43 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **44 of 44** questions at Robinhood that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **53 of 53** questions at Robinhood that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 19 | ██████ | [Algorithm](../formats/algorithm.md) (42%) | 1 / 16 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 32 | ██████████ | [System Design](../formats/system-design.md) (53%) | 4 / 22 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 22 | ██████ | [Algorithm](../formats/algorithm.md) (36%) | 1 / 16 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 38 | ██████████ | [System Design](../formats/system-design.md) (45%) | 4 / 22 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -49,7 +49,7 @@ Which stage each question came from, for the **44 of 44** questions at Robinhood
 
 ## What they ask about
 
-Of the **17 questions at Robinhood that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Robinhood that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -72,15 +72,16 @@ Every recorded sighting at Robinhood, by the month it was reported in — Apr 10
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 4 | ██████████████ |
-| [May 2026](../by-month/2026-05.md) | 5 | █████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 7 | ████████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 6 | █████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ███████ |
-| [Jan 2026](../by-month/2026-01.md) | 4 | ██████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ███████████ |
+| [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
+| [May 2026](../by-month/2026-05.md) | 6 | ████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 9 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 6 | ████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | █████ |
+| [Jan 2026](../by-month/2026-01.md) | 6 | ████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ███ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
-| [Oct 2025](../by-month/2025-10.md) | 3 | ██████████ |
+| [Oct 2025](../by-month/2025-10.md) | 4 | ███████████ |
 | [Aug 2025](../by-month/2025-08.md) | 1 | ███ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | ███ |
 | [Apr 2025](../by-month/2025-04.md) | 1 | ███ |
@@ -95,10 +96,10 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | **2** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | System Design | Medium | — | Sep 17, 2026 |
 | **3** | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates) | Object Oriented Programming | Medium | — | Sep 15, 2026 |
 | **4** | [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts) | Algorithm | Hard | — | Sep 04, 2026 |
-| **5** | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | 1 | May 09, 2026 |
-| **6** | [Frontend Calendar UI](https://trueinterview.io/questions/frontend-calendar-ui) | Algorithm | Medium | — | May 09, 2026 |
-| **7** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | 2 | May 08, 2026 |
-| **8** | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | System Design | Medium | 1 | May 07, 2026 |
+| **5** | [Critique a Recent Engineering Project and Explain What You Would Redo](https://trueinterview.io/questions/critique-a-recent-engineering-project-and-explain-what-you-would-redo) 🆓 | Blog | — | — | Jul 17, 2026 |
+| **6** | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | 1 | May 09, 2026 |
+| **7** | [Frontend Calendar UI](https://trueinterview.io/questions/frontend-calendar-ui) | Algorithm | Medium | — | May 09, 2026 |
+| **8** | [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-3) 🆓 | Blog | — | — | May 09, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -126,14 +127,18 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | System Design | Medium | 🆕 Sep 17, 2026 |
 | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates) | Object Oriented Programming | Medium | 🆕 Sep 15, 2026 |
 | [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts) | Algorithm | Hard | 🆕 Sep 04, 2026 |
+| [Critique a Recent Engineering Project and Explain What You Would Redo](https://trueinterview.io/questions/critique-a-recent-engineering-project-and-explain-what-you-would-redo) | Blog | — | Jul 17, 2026 |
+| [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-3) | Blog | — | May 09, 2026 |
 | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | May 09, 2026 |
 | [Frontend Calendar UI](https://trueinterview.io/questions/frontend-calendar-ui) | Algorithm | Medium | May 09, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | May 08, 2026 |
 | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | System Design | Medium | May 07, 2026 |
 | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | May 2026 |
 | [Employee Referral Program](https://trueinterview.io/questions/referral-program-leaderboard) | Algorithm | Medium | Apr 28, 2026 |
+| [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen) | Blog | — | Apr 27, 2026 |
 | [Design a Real-Time Stock Price System](https://trueinterview.io/questions/stock-trading-quote-system-design) | System Design | Medium | Apr 23, 2026 |
 | [Fractional Inventory](https://trueinterview.io/questions/fractional-share-inventory-trading) | Algorithm | Medium | Apr 23, 2026 |
+| [Defend the Complexity and Scalability of a Project](https://trueinterview.io/questions/defend-the-complexity-and-scalability-of-a-project) | Blog | — | Apr 21, 2026 |
 | [Produce a Deterministic Course Plan](https://trueinterview.io/questions/produce-a-deterministic-course-plan) | Algorithm | Medium | Apr 21, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |
@@ -146,6 +151,8 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Load Factor Calculation](https://trueinterview.io/questions/service-dependency-load-factor) | Algorithm | Medium | Mar 2026 |
 | [Aggregate user logs into 30-minute sessions](https://trueinterview.io/questions/aggregate-user-logs-into-30-minute-sessions) | Algorithm | Medium | Feb 28, 2026 |
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price) | System Design | Medium | Feb 26, 2026 |
+| [Handle security vs velocity conflicts across teams](https://trueinterview.io/questions/handle-security-vs-velocity-conflicts-across-teams) | Blog | — | Jan 22, 2026 |
+| [Present a Project With Correctness Guarantees](https://trueinterview.io/questions/present-a-project-with-correctness-guarantees) | Blog | — | Jan 14, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
 | [Security-Flavored Coding: Constrained Data Structure & Input Validation](https://trueinterview.io/questions/security-coding-constrained-ds-validation) | Algorithm | Medium | Jan 09, 2026 |
@@ -154,11 +161,13 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Friendship and Balance Tracker](https://trueinterview.io/questions/friendship-and-balance-tracker) | Algorithm | Medium | Nov 04, 2025 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |
 | [Design a secure trading app on AWS](https://trueinterview.io/questions/design-a-secure-trading-app-on-aws) | System Design | Hard | Oct 21, 2025 |
+| [Design an experiment to launch fractional shares](https://trueinterview.io/questions/design-an-experiment-to-launch-fractional-shares) | Blog | — | Oct 01, 2025 |
 | [Top 10 Words](https://trueinterview.io/questions/top-10-frequent-words) | Algorithm | Medium | Oct 2025 |
 | [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | Object Oriented Programming | Medium | Aug 2025 |
 | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | System Design | Medium | Jun 2025 |
 | [Find Middle Course](https://trueinterview.io/questions/find-middle-course) | Algorithm | Easy | Apr 10, 2025 |
 | [Prove causality for trading metric drop](https://trueinterview.io/questions/prove-causality-for-trading-metric-drop) | System Design | Hard | — |
+| [Diagnose sustained drop in executed trades](https://trueinterview.io/questions/diagnose-sustained-drop-in-executed-trades) | Blog | — | — |
 | [Write SQL and Python for transaction analytics](https://trueinterview.io/questions/write-sql-and-python-for-transaction-analytics) | SQL | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Medium | — |
 | [Distributed Job Scheduler II](https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86) | System Design | Medium | — |
@@ -166,3 +175,4 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Distribute Strings into K Lines with Greedy Placement](https://trueinterview.io/questions/84ccf656-2a40-4ff8-8080-a648e545eb50) | Algorithm | Easy | — |
 | [Implement Android findViewById](https://trueinterview.io/questions/20f0926e-8b1b-4160-b794-3e5c1f012212) | Object Oriented Programming | Easy | — |
 | [Count Trigger Events in Directed Acyclic Graph](https://trueinterview.io/questions/1c708aa4-2fbb-4cc4-ae73-3c423e4e9490) | Algorithm | Medium | — |
+| [Test Plan Design for a Ride-sharing Application](https://trueinterview.io/questions/03cca6eb-1380-4985-8ddd-f69c70b2206d) | Blog | — | — |

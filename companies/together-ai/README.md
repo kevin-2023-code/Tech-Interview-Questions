@@ -8,7 +8,7 @@ How Together AI interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [2](../together-ai.md) |
+| Questions reported | [6](../together-ai.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,20 @@ No written process guide yet. [The loop, as reported](../together-ai.md#the-loop
 
 ## Free Together AI questions
 
-2 questions reported at Together AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Together AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Split a Chunked Text Stream into Line-Balanced Parts](../../questions/algorithm/split-a-chunked-text-stream-into-line-balanced-parts/README.md) | Algorithm | Medium | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) |
+| [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) |
+| [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) |
+| [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) |
+| [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) |
 | [Detect cycles and break them in pod dependencies](../../questions/algorithm/detect-cycles-and-break-them-in-pod-dependencies/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/detect-cycles-and-break-them-in-pod-dependencies) |
 
 ## Everything else
 
-- [All 2 questions reported at Together AI](../together-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 6 questions reported at Together AI](../together-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Together AI question on TrueInterview](https://trueinterview.io/problems/company/together-ai).
 
 ---

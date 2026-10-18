@@ -8,8 +8,8 @@ How Whatnot interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [17](../whatnot.md) |
-| Free to read here | 2 |
+| Questions reported | [19](../whatnot.md) |
+| Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Jun 12, 2026 |
@@ -20,16 +20,19 @@ No written process guide yet. [The loop, as reported](../whatnot.md#the-loop-as-
 
 ## Free Whatnot questions
 
-2 questions reported at Whatnot open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Whatnot open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
+| [Define Marketplace Success Metrics and Investigate Their Movement](https://trueinterview.io/questions/define-marketplace-success-metrics-and-investigate-their-movement) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/define-marketplace-success-metrics-and-investigate-their-movement) |
+| [Improve and debug the shopping app](https://trueinterview.io/questions/improve-and-debug-the-shopping-app) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/improve-and-debug-the-shopping-app) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [Count Singler Role Co-occurrences](../../questions/algorithm/count-singler-role-co-occurrences-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) |
 
 ## Everything else
 
-- [All 17 questions reported at Whatnot](../whatnot.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 19 questions reported at Whatnot](../whatnot.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Whatnot question on TrueInterview](https://trueinterview.io/problems/company/whatnot).
 
 ---

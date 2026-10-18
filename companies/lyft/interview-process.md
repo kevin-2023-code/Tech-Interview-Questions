@@ -161,7 +161,7 @@ Here are some questions reported by recent candidates:
 
 - [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system)
 - [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4)
-- [Web Crawler with Communication Constraint](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a)
+- [Web Crawler with Communication Constraint](../../questions/system-design/web-crawler-with-communication-constraint/README.md)
 - [Design News Feed](../../questions/system-design/design-news-feed/README.md)
 - [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system)
 

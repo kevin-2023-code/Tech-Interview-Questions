@@ -8,11 +8,11 @@ How Figma interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [23](../figma.md) |
-| Free to read here | 4 |
+| Questions reported | [29](../figma.md) |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Aug 12, 2026 |
+| Most recent sighting | Aug 25, 2026 |
 
 ## How Figma interviews
 
@@ -48,18 +48,25 @@ Here's what the interview process can look like:
 
 ## Free Figma questions
 
-4 questions reported at Figma open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+11 questions reported at Figma open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Clarify a BERT Keyphrase Span-Extraction Task](https://trueinterview.io/questions/clarify-a-bert-keyphrase-span-extraction-task) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/clarify-a-bert-keyphrase-span-extraction-task) |
+| [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/hiring-manager-behavioral) |
+| [Design Document Layer System](../../questions/object-oriented-programming/document-layer-apply-undo/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/document-layer-apply-undo) |
+| [Describe your most and least engaging work](https://trueinterview.io/questions/describe-your-most-and-least-engaging-work) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/describe-your-most-and-least-engaging-work) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
+| [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/questions/deep-dive-url-request-lifecycle) | Blog | — | Onsite / virtual onsite | Feb 2025 | [Solve](https://trueinterview.io/questions/deep-dive-url-request-lifecycle) |
 | [BERT Span / Keyphrase Extraction](../../questions/ai-coding/bert-keyphrase-span-extraction/README.md) | AI Coding | Medium | Phone screen | Dec 2024 | [Solve](https://trueinterview.io/questions/bert-keyphrase-span-extraction) |
 | [Template & Instance System with Update Propagation](../../questions/system-design/template-instance-propagation-system/README.md) | System Design | Medium | Onsite / virtual onsite | May 2024 | [Solve](https://trueinterview.io/questions/template-instance-propagation-system) |
+| [Negotiate Figma compensation analytically](https://trueinterview.io/questions/negotiate-figma-compensation-analytically) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/negotiate-figma-compensation-analytically) |
+| [Deliver a crisp self-introduction](https://trueinterview.io/questions/deliver-a-crisp-self-introduction) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/deliver-a-crisp-self-introduction) |
 
 ## Everything else
 
-- [All 23 questions reported at Figma](../figma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 29 questions reported at Figma](../figma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Figma question on TrueInterview](https://trueinterview.io/problems/company/figma).
 
 ---

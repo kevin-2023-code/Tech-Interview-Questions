@@ -2,7 +2,7 @@
 
 # Gusto interview process, OA & interview questions
 
-**5 questions** reported at Gusto · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/gusto), judged server-side on the algorithm, low-level-design and SQL formats.
+**6 questions** reported at Gusto · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/gusto), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Gusto interviews & the free questions](gusto/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **5** |
+| Questions tracked | **6** |
 | Most recent sighting | Aug 01, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
+| Most common format | [Algorithm](../formats/algorithm.md) (50% of 6) |
 | Difficulty (easy / medium / hard) | 1 / 4 / 0 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 5 questions reported at Gusto. 2 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 6 questions reported at Gusto. 3 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **5 of 5** questions at Gusto that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **6 of 6** questions at Gusto that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 2 | █████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -45,7 +45,7 @@ Which stage each question came from, for the **5 of 5** questions at Gusto that 
 
 ## What they ask about
 
-Of the **3 questions at Gusto that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Gusto that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -58,24 +58,26 @@ Of the **3 questions at Gusto that carry a topic label** (60% of them — the re
 
 ## When they asked it
 
-Every recorded sighting at Gusto, by the month it was reported in — Mar 20, 2026 to Aug 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Gusto, by the month it was reported in — Nov 02, 2025 to Aug 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Aug 2026](../by-month/2026-08.md) | 1 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ████████████████████████ |
 
 ## Start here
 
-The 5 questions to open first if you are preparing for Gusto, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 6 questions to open first if you are preparing for Gusto, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Calculate Tax from Progressive Brackets](https://trueinterview.io/questions/calculate-tax-from-progressive-brackets) | Algorithm | Medium | — | Aug 01, 2026 |
 | **2** | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) 🆓 | Algorithm | Medium | 5 | Mar 20, 2026 |
-| **3** | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Object Oriented Programming | Easy | — | — |
-| **4** | [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) 🆓 | Algorithm | Medium | — | — |
-| **5** | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Object Oriented Programming | Medium | — | — |
+| **3** | [Compute p-values for 2 variants vs control](https://trueinterview.io/questions/compute-p-values-for-2-variants-vs-control) 🆓 | Blog | — | — | Nov 02, 2025 |
+| **4** | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Object Oriented Programming | Easy | — | — |
+| **5** | [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) 🆓 | Algorithm | Medium | — | — |
+| **6** | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -99,6 +101,7 @@ The 5 questions to open first if you are preparing for Gusto, ranked by **the mo
 | :-- | :-- | :-: | :-- |
 | [Calculate Tax from Progressive Brackets](https://trueinterview.io/questions/calculate-tax-from-progressive-brackets) | Algorithm | Medium | Aug 01, 2026 |
 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
+| [Compute p-values for 2 variants vs control](https://trueinterview.io/questions/compute-p-values-for-2-variants-vs-control) | Blog | — | Nov 02, 2025 |
 | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Object Oriented Programming | Easy | — |
 | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Object Oriented Programming | Medium | — |
 | [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) | Algorithm | Medium | — |

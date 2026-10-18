@@ -8,7 +8,7 @@ How Okta interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [12](../okta.md) |
+| Questions reported | [13](../okta.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,16 +47,17 @@ Here's what the interview process can look like:
 
 ## Free Okta questions
 
-2 questions reported at Okta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Okta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/hm-project-and-ai-philosophy) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Dependency Cycle Detection (Deadlock)](../../questions/algorithm/dependency-cycle-detection/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dependency-cycle-detection) |
 
 ## Everything else
 
-- [All 12 questions reported at Okta](../okta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 13 questions reported at Okta](../okta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Okta question on TrueInterview](https://trueinterview.io/problems/company/okta).
 
 ---

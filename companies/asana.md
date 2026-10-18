@@ -2,7 +2,7 @@
 
 # Asana interview process, OA & interview questions
 
-**8 questions** reported at Asana. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/asana), judged server-side on the algorithm, low-level-design and SQL formats.
+**11 questions** reported at Asana. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/asana), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Asana interviews & the free questions](asana/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,24 +12,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **8** |
+| Questions tracked | **11** |
 | Most recent sighting | Apr 13, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [System Design](../formats/system-design.md) (50% of 8) |
+| Most common format | [System Design](../formats/system-design.md) (36% of 11) |
 | Difficulty (easy / medium / hard) | 0 / 7 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 8 questions reported at Asana. 8 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 11 questions reported at Asana. 11 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **8 of 8** questions at Asana that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **11 of 11** questions at Asana that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 3 | ██████ | [System Design](../formats/system-design.md) (67%) | 0 / 2 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 5 | ██████████ | [Algorithm](../formats/algorithm.md) (40%) | 0 / 5 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 4 | ██████ | [System Design](../formats/system-design.md) (50%) | 0 / 2 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (29%) | 0 / 5 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -39,7 +39,7 @@ Which stage each question came from, for the **8 of 8** questions at Asana that 
 
 ## What they ask about
 
-Of the **2 questions at Asana that carry a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **2 questions at Asana that carry a topic label** (18% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -54,9 +54,9 @@ Every recorded sighting at Asana, by the month it was reported in — Jan 07, 20
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Apr 2026](../by-month/2026-04.md) | 5 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ██████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | █████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 3 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
 
 ## Start here
 
@@ -69,9 +69,9 @@ The 8 questions to open first if you are preparing for Asana, ranked by **the mo
 | **3** | [Design a 2048 Game](https://trueinterview.io/questions/design-a-2048-game) | Object Oriented Programming | Medium | — | Apr 02, 2026 |
 | **4** | [Design a Collaborative Todo List](https://trueinterview.io/questions/design-a-collaborative-todo-list) | System Design | Medium | — | Apr 02, 2026 |
 | **5** | [Implement an ASCII Art Printer](https://trueinterview.io/questions/implement-an-ascii-art-printer) | Algorithm | Medium | — | Apr 02, 2026 |
-| **6** | [Design a Twitter-like microblogging service](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) 🆓 | System Design | Medium | — | Feb 08, 2026 |
-| **7** | [Explain code complexity and design two games](https://trueinterview.io/questions/explain-code-complexity-and-design-two-games) | System Design | Medium | — | Feb 08, 2026 |
-| **8** | [Find frequent IPs from a huge file](https://trueinterview.io/questions/find-frequent-ips-from-a-huge-file) | System Design | Medium | — | Jan 07, 2026 |
+| **6** | [Answer Manager Behavioral Prompts](https://trueinterview.io/questions/answer-manager-behavioral-prompts) 🆓 | Blog | — | — | Apr 02, 2026 |
+| **7** | [Design a Twitter-like microblogging service](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) 🆓 | System Design | Medium | — | Feb 08, 2026 |
+| **8** | [Explain code complexity and design two games](https://trueinterview.io/questions/explain-code-complexity-and-design-two-games) | System Design | Medium | — | Feb 08, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -90,6 +90,9 @@ The 8 questions to open first if you are preparing for Asana, ranked by **the mo
 | [Design a Collaborative Todo List](https://trueinterview.io/questions/design-a-collaborative-todo-list) | System Design | Medium | Apr 02, 2026 |
 | [Implement an ASCII Art Printer](https://trueinterview.io/questions/implement-an-ascii-art-printer) | Algorithm | Medium | Apr 02, 2026 |
 | [Compute Products Excluding Each Index](https://trueinterview.io/questions/compute-products-excluding-each-index) | Algorithm | Medium | Apr 02, 2026 |
+| [Answer Manager Behavioral Prompts](https://trueinterview.io/questions/answer-manager-behavioral-prompts) | Blog | — | Apr 02, 2026 |
 | [Explain code complexity and design two games](https://trueinterview.io/questions/explain-code-complexity-and-design-two-games) | System Design | Medium | Feb 08, 2026 |
+| [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) | Blog | — | Feb 08, 2026 |
 | [Design a Twitter-like microblogging service](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) | System Design | Medium | Feb 08, 2026 |
+| [Implement core puzzle/array/grid routines](https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines) | Blog | — | Jan 07, 2026 |
 | [Find frequent IPs from a huge file](https://trueinterview.io/questions/find-frequent-ips-from-a-huge-file) | System Design | Medium | Jan 07, 2026 |

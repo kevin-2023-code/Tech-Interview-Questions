@@ -2,7 +2,7 @@
 
 # Scale AI interview process, OA & interview questions
 
-**22 questions** reported at Scale AI · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/scale-ai), judged server-side on the algorithm, low-level-design and SQL formats.
+**34 questions** reported at Scale AI · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/scale-ai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Scale AI interviews & the free questions](scale-ai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **22** |
+| Questions tracked | **34** |
 | Most recent sighting | Oct 01, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (59% of 22) |
+| Most common format | [Algorithm](../formats/algorithm.md) (38% of 34) |
 | Difficulty (easy / medium / hard) | 0 / 16 / 6 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 22 questions reported at Scale AI. 13 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 34 questions reported at Scale AI. 19 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **22 of 22** questions at Scale AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **34 of 34** questions at Scale AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 10 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (56%) | 0 / 8 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (48%) | 0 / 10 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 17 | ████████ | [Blog](../formats/blog.md) (47%) | 0 / 8 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -47,7 +47,7 @@ Which stage each question came from, for the **22 of 22** questions at Scale AI 
 
 ## What they ask about
 
-Of the **10 questions at Scale AI that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Scale AI that carry a topic label** (29% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -70,13 +70,13 @@ Every recorded sighting at Scale AI, by the month it was reported in — Feb 06,
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Oct 2026](../by-month/2026-10.md) | 1 | ████████ |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████████ |
-| [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████ |
-| [May 2026](../by-month/2026-05.md) | 3 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
-| [Mar 2026](../by-month/2026-03.md) | 2 | ████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 3 | ████████████████████████ |
+| [Oct 2026](../by-month/2026-10.md) | 1 | █████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | █████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ██████████ |
+| [May 2026](../by-month/2026-05.md) | 4 | ███████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 2 | ██████████ |
+| [Mar 2026](../by-month/2026-03.md) | 4 | ███████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 5 | ████████████████████████ |
 
 ## Start here
 
@@ -91,7 +91,7 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 | **5** | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | — | May 01, 2026 |
 | **6** | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | — | May 01, 2026 |
 | **7** | [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Algorithm | Medium | — | May 01, 2026 |
-| **8** | [Design a Streaming Job Scheduler](https://trueinterview.io/questions/design-a-streaming-job-scheduler) | Object Oriented Programming | Hard | — | Apr 09, 2026 |
+| **8** | [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement) 🆓 | Blog | — | — | May 01, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -119,19 +119,31 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Algorithm | Hard | Jun 14, 2026 |
 | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | May 01, 2026 |
 | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | May 01, 2026 |
+| [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement) | Blog | — | May 01, 2026 |
 | [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Algorithm | Medium | May 01, 2026 |
+| [Project Deep Dive and Paper Presentation](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation) | Blog | — | Apr 22, 2026 |
 | [Design a Streaming Job Scheduler](https://trueinterview.io/questions/design-a-streaming-job-scheduler) | Object Oriented Programming | Hard | Apr 09, 2026 |
 | [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks) | Algorithm | Medium | Mar 29, 2026 |
+| [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation) | Blog | — | Mar 25, 2026 |
 | [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention) | Algorithm | Medium | Mar 25, 2026 |
+| [Answer common project leadership questions](https://trueinterview.io/questions/answer-common-project-leadership-questions) | Blog | — | Mar 17, 2026 |
 | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | Feb 16, 2026 |
+| [Handle customer engagement and manager-rating questions](https://trueinterview.io/questions/handle-customer-engagement-and-manager-rating-questions) | Blog | — | Feb 12, 2026 |
+| [Describe a challenging project](https://trueinterview.io/questions/describe-a-challenging-project) | Blog | — | Feb 11, 2026 |
 | [Distinct Wall Crossing on Number Line](https://trueinterview.io/questions/distinct-wall-crossing-on-number-line) | Algorithm | Hard | Feb 06, 2026 |
 | [Poker Hand Game Checker](https://trueinterview.io/questions/poker-hand-game-checker) | Algorithm | Medium | Feb 06, 2026 |
+| [Quantify impact of your projects using STAR](https://trueinterview.io/questions/quantify-impact-of-your-projects-using-star) | Blog | — | — |
 | [Explain worker state machine load balancer design](https://trueinterview.io/questions/explain-worker-state-machine-load-balancer-design) | System Design | Hard | — |
 | [Design pipeline using classification and embedding services](https://trueinterview.io/questions/design-pipeline-using-classification-and-embedding-services) | System Design | Medium | — |
 | [Design a large-scale ticketing system](https://trueinterview.io/questions/design-a-large-scale-ticketing-system) | System Design | Hard | — |
+| [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work) | Blog | — | — |
+| [Describe how you learn quickly in new domains](https://trueinterview.io/questions/describe-how-you-learn-quickly-in-new-domains) | Blog | — | — |
 | [Find LCA in a N-ary tree via DFS](https://trueinterview.io/questions/find-lca-in-a-n-ary-tree-via-dfs) | Algorithm | Medium | — |
 | [Minimum Distance in N-ary Tree](https://trueinterview.io/questions/minimum-distance-in-n-ary-tree-2) | Algorithm | Medium | — |
+| [Implement Adversarial Attack using Paper Method](https://trueinterview.io/questions/510f7345-ead1-4ad1-9da1-46c51d1ce8a4) | Blog | — | — |
+| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/questions/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | Blog | — | — |
 | [Party Times / Peak Concurrent Parties (Time Range Overlap Counting)](https://trueinterview.io/questions/8998a0af-970e-4c4b-be16-21fe90c5d1a0) | Algorithm | Medium | — |
 | [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/69a906b1-a3e0-43a1-a3c1-267fc6556d5c) | Algorithm | Medium | — |
 | [Create RESTful API with CSV and JSON Conversion](https://trueinterview.io/questions/44f4defb-82d9-46e7-a008-0c8e2f044a17) | AI Coding | Medium | — |
+| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/questions/147c9781-846f-407b-a3e9-cb2f61ae898d) | Blog | — | — |
 | [Implement Top-p (Nucleus) Sampling in NumPy](https://trueinterview.io/questions/26db71f3-0ec8-4274-af98-d5bd29bdcf73) | Algorithm | Medium | — |

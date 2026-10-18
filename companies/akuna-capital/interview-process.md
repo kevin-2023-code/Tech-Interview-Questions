@@ -169,7 +169,7 @@ Here are some questions reported by recent candidates:
 - [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode)
 - [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system)
 - [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games)
-- [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances)
+- [Enemy Factory with Shared Instances](../../questions/object-oriented-programming/enemy-factory-shared-instances/README.md)
 
 ## How Akuna Capital makes hiring decisions
 

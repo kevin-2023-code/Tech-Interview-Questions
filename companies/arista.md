@@ -2,7 +2,7 @@
 
 # Arista interview process, OA & interview questions
 
-**6 questions** reported at Arista · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/arista), judged server-side on the algorithm, low-level-design and SQL formats.
+**7 questions** reported at Arista · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/arista), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Arista interviews & the free questions](arista/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **6** |
+| Questions tracked | **7** |
 | Most recent sighting | Feb 03, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (83% of 6) |
+| Most common format | [Algorithm](../formats/algorithm.md) (71% of 7) |
 | Difficulty (easy / medium / hard) | 2 / 4 / 0 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 6 questions reported at Arista. 1 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 7 questions reported at Arista. 2 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **6 of 6** questions at Arista that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **7 of 7** questions at Arista that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 2 | ███████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 2 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 1 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **6 of 6** questions at Arista that
 
 ## What they ask about
 
-Of the **5 questions at Arista that carry a topic label** (83% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **5 questions at Arista that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -57,24 +57,26 @@ Of the **5 questions at Arista that carry a topic label** (83% of them — the r
 
 ## When they asked it
 
-Every recorded sighting at Arista, by the month it was reported in — Feb 03, 2026 to Feb 03, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Arista, by the month it was reported in — Oct 04, 2025 to Feb 03, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ████████████████████████ |
 
 ## Start here
 
-The 6 questions to open first if you are preparing for Arista, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 7 questions to open first if you are preparing for Arista, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Solve palindrome and missing-number variants](https://trueinterview.io/questions/solve-palindrome-and-missing-number-variants) | Algorithm | Medium | — | Feb 03, 2026 |
-| **2** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) 🆓 | Algorithm | Easy | 1 | — |
-| **3** | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Algorithm | Easy | — | — |
-| **4** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) 🆓 | Object Oriented Programming | Medium | — | — |
-| **5** | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Algorithm | Medium | — | — |
-| **6** | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Algorithm | Medium | — | — |
+| **2** | [Explain C printf pointers and memory layout](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout) 🆓 | Blog | — | — | Oct 04, 2025 |
+| **3** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) 🆓 | Algorithm | Easy | 1 | — |
+| **4** | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Algorithm | Easy | — | — |
+| **5** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) 🆓 | Object Oriented Programming | Medium | — | — |
+| **6** | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Algorithm | Medium | — | — |
+| **7** | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -97,6 +99,7 @@ The 6 questions to open first if you are preparing for Arista, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Solve palindrome and missing-number variants](https://trueinterview.io/questions/solve-palindrome-and-missing-number-variants) | Algorithm | Medium | Feb 03, 2026 |
+| [Explain C printf pointers and memory layout](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout) | Blog | — | Oct 04, 2025 |
 | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | Object Oriented Programming | Medium | — |
 | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Algorithm | Medium | — |
 | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Algorithm | Easy | — |

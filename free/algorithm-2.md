@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**282 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**304 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,27 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Validate Playlist Sequence](https://trueinterview.io/questions/validate-playlist-sequence) | **Roblox** | Medium | Sep 02, 2025 |
+| [Vowels Substring](https://trueinterview.io/questions/vowels-substring) | **Snowflake** | Medium | Jul 20, 2025 |
+| [Web Crawler](https://trueinterview.io/questions/web-crawler) | **Anthropic** | Medium | May 03, 2026 |
+| [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | **Rubrik** | Medium | — |
+| [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | **Vanta** | Medium | Dec 04, 2024 |
+| [Word Search in Rows and Columns](https://trueinterview.io/questions/word-search-rows-columns) | **Cisco** | Medium | Jul 17, 2025 |
+| [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | Hard | Apr 01, 2026 |
+| [Word Search II](https://trueinterview.io/questions/word-search-ii) | **Uber / Amazon / Bloomberg / ByteDance / Reddit / Snowflake** | Hard | Feb 19, 2026 |
+| [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | **Citadel / Luma AI** | Hard | Jan 05, 2026 |
+| [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | **Uber / Google** | Hard | Mar 22, 2026 |
+| [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | **Two Sigma / Point72** | Hard | Mar 25, 2026 |
+| [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) | **ByteDance / Airwallex** | Hard | Jan 29, 2026 |
+| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | **Apple / Scale AI** | Hard | Jun 16, 2026 |
+| [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | **Hudson River Trading** | Hard | — |
+| [Alien Dictionary Evaluation](https://trueinterview.io/questions/bc80d805-47d7-4115-87c2-7e63eee789ec) | **Uber** | Hard | — |
+| [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | **Rubrik** | Hard | — |
+| [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](https://trueinterview.io/questions/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner) | **Jane Street** | Hard | Nov 06, 2025 |
+| [Code Review: Thread Safety of a Python Compute-and-Cache Function](https://trueinterview.io/questions/code-review-thread-safety-of-a-python-compute-and-cache-function) | **Mercor** | Hard | May 01, 2026 |
+| [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) | **Mistral AI** | Hard | Apr 16, 2026 |
+| [Connect-N on an Infinite Board with Gravity](https://trueinterview.io/questions/connect-n-on-an-infinite-board-with-gravity) | **Jane Street** | Hard | Dec 26, 2025 |
+| [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | **Render** | Hard | Feb 26, 2026 |
 | [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | **Sig** | Hard | 🆕 Sep 17, 2026 |
 | [Counting Subsequence with Same Character Frequency](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c) | **Expedia** | Hard | — |
 | [Currency Arbitrage Detection](https://trueinterview.io/questions/currency-arbitrage-detection) | **Optiver** | Hard | Aug 26, 2025 |
@@ -25,6 +46,7 @@
 | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) | **Voleon** | Hard | — |
 | [Funnel Algorithm Problem](https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2) | **Faire** | Hard | — |
 | [Hangman Optimal Strategy](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252) | **Dropbox** | Hard | — |
+| [Maximum-Sum Path in a Matrix (No Revisits)](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat) | **Goldman Sachs** | Hard | Nov 15, 2024 |
 | [Median and Percentile from a Data Stream](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993) | **StackAdapt** | Hard | — |
 | [Min Elements to Remove to Make Almost Sorted Array](https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c) | **Salesforce** | Hard | — |
 | [Minimize Marbles in Grid](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) | **Snowflake** | Hard | — |

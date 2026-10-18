@@ -2,7 +2,7 @@
 
 # Bitkernel interview process, OA & interview questions
 
-**1 question** reported at Bitkernel. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bitkernel), judged server-side.
+**15 questions** reported at Bitkernel. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bitkernel), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Bitkernel interviews & the free questions](bitkernel/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,49 +12,56 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **1** |
-| Most recent sighting | Oct 03, 2025 |
+| Questions tracked | **15** |
+| Most recent sighting | Oct 24, 2025 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 1) |
+| Most common format | [Blog](../formats/blog.md) (93% of 15) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 0 |
-| Free to practise | [1](../free/README.md) |
+| Free to practise | [15](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 1 question reported at Bitkernel. 1 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 15 questions reported at Bitkernel. 15 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **1 of 1** questions at Bitkernel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **15 of 15** questions at Bitkernel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 15 | ██████████ | [Blog](../formats/blog.md) (93%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Bitkernel since Oct 03, 2025.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Bitkernel since Oct 24, 2025.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-**None of the 1 question reported at Bitkernel carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+**None of the 15 questions reported at Bitkernel carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
 
 ## When they asked it
 
-Every recorded sighting at Bitkernel, by the month it was reported in — Oct 03, 2025 to Oct 03, 2025. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Bitkernel, by the month it was reported in — Oct 03, 2025 to Oct 24, 2025. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 15 | ████████████████████████ |
 
 ## Start here
 
-The 1 question to open first if you are preparing for Bitkernel, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Bitkernel, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Implement popup and redirect in JavaScript](https://trueinterview.io/questions/implement-popup-and-redirect-in-javascript) 🆓 | Algorithm | Medium | — | Oct 03, 2025 |
+| **1** | [Analyze TCP three-way handshake states](https://trueinterview.io/questions/analyze-tcp-three-way-handshake-states) 🆓 | Blog | — | — | Oct 24, 2025 |
+| **2** | [Choose best prompt for AI code debugging](https://trueinterview.io/questions/choose-best-prompt-for-ai-code-debugging) 🆓 | Blog | — | — | Oct 24, 2025 |
+| **3** | [Classify concurrency anomaly between two transactions](https://trueinterview.io/questions/classify-concurrency-anomaly-between-two-transactions) 🆓 | Blog | — | — | Oct 24, 2025 |
+| **4** | [Convert binary tree traversals to forest count](https://trueinterview.io/questions/convert-binary-tree-traversals-to-forest-count) 🆓 | Blog | — | — | Oct 24, 2025 |
+| **5** | [Count binary search steps for specific keys](https://trueinterview.io/questions/count-binary-search-steps-for-specific-keys) 🆓 | Blog | — | — | Oct 24, 2025 |
+| **6** | [Count calls in recursive function evaluation](https://trueinterview.io/questions/count-calls-in-recursive-function-evaluation) 🆓 | Blog | — | — | Oct 24, 2025 |
+| **7** | [Detect impossible binary search comparison sequence](https://trueinterview.io/questions/detect-impossible-binary-search-comparison-sequence) 🆓 | Blog | — | — | Oct 24, 2025 |
+| **8** | [Evaluate C for-loop execution count](https://trueinterview.io/questions/evaluate-c-for-loop-execution-count) 🆓 | Blog | — | — | Oct 24, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -68,4 +75,18 @@ The 1 question to open first if you are preparing for Bitkernel, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Trace first pass of heap sort](https://trueinterview.io/questions/trace-first-pass-of-heap-sort) | Blog | — | Oct 24, 2025 |
+| [Solve cups logic puzzle with one true statement](https://trueinterview.io/questions/solve-cups-logic-puzzle-with-one-true-statement) | Blog | — | Oct 24, 2025 |
+| [Order SQL query logical processing steps](https://trueinterview.io/questions/order-sql-query-logical-processing-steps) | Blog | — | Oct 24, 2025 |
+| [Identify incorrect statement about sockets](https://trueinterview.io/questions/identify-incorrect-statement-about-sockets) | Blog | — | Oct 24, 2025 |
+| [Identify incorrect statement about primary keys](https://trueinterview.io/questions/identify-incorrect-statement-about-primary-keys) | Blog | — | Oct 24, 2025 |
+| [Identify incorrect HTTP status code description](https://trueinterview.io/questions/identify-incorrect-http-status-code-description) | Blog | — | Oct 24, 2025 |
+| [Evaluate C for-loop execution count](https://trueinterview.io/questions/evaluate-c-for-loop-execution-count) | Blog | — | Oct 24, 2025 |
+| [Detect impossible binary search comparison sequence](https://trueinterview.io/questions/detect-impossible-binary-search-comparison-sequence) | Blog | — | Oct 24, 2025 |
+| [Count calls in recursive function evaluation](https://trueinterview.io/questions/count-calls-in-recursive-function-evaluation) | Blog | — | Oct 24, 2025 |
+| [Convert binary tree traversals to forest count](https://trueinterview.io/questions/convert-binary-tree-traversals-to-forest-count) | Blog | — | Oct 24, 2025 |
+| [Classify concurrency anomaly between two transactions](https://trueinterview.io/questions/classify-concurrency-anomaly-between-two-transactions) | Blog | — | Oct 24, 2025 |
+| [Choose best prompt for AI code debugging](https://trueinterview.io/questions/choose-best-prompt-for-ai-code-debugging) | Blog | — | Oct 24, 2025 |
+| [Analyze TCP three-way handshake states](https://trueinterview.io/questions/analyze-tcp-three-way-handshake-states) | Blog | — | Oct 24, 2025 |
+| [Count binary search steps for specific keys](https://trueinterview.io/questions/count-binary-search-steps-for-specific-keys) | Blog | — | Oct 24, 2025 |
 | [Implement popup and redirect in JavaScript](https://trueinterview.io/questions/implement-popup-and-redirect-in-javascript) | Algorithm | Medium | Oct 03, 2025 |

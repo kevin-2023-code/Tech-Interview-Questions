@@ -2,7 +2,7 @@
 
 # Imc interview process, OA & interview questions
 
-**4 questions** reported at Imc. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/imc), judged server-side on the algorithm, low-level-design and SQL formats.
+**10 questions** reported at Imc. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/imc), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Imc interviews & the free questions](imc/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,39 +14,40 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **4** |
+| Questions tracked | **10** |
 | Most recent sighting | Aug 24, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (75% of 4) |
+| Reported in the last 90 days | 2 |
+| Most common format | [Blog](../formats/blog.md) (60% of 10) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 4 questions reported at Imc. 4 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 10 questions reported at Imc. 10 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **4 of 4** questions at Imc that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **10 of 10** questions at Imc that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 1 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 2 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 6 | ██████████ | [Blog](../formats/blog.md) (83%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 2 | ███ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves) | Algorithm | Hard | Onsite / virtual onsite | Aug 24, 2026 |
+| [Demonstrate Self-Awareness and a Practical Mentoring Plan](https://trueinterview.io/questions/demonstrate-self-awareness-and-a-practical-mentoring-plan) | Blog | — | Onsite / virtual onsite | Aug 24, 2026 |
 
 ## What they ask about
 
-Of the **3 questions at Imc that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Imc that carry a topic label** (30% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -62,21 +63,26 @@ Every recorded sighting at Imc, by the month it was reported in — Oct 06, 2025
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ████████████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ████████████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ██████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | █████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | █████ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | █████ |
 
 ## Start here
 
-The 4 questions to open first if you are preparing for Imc, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Imc, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves) | Algorithm | Hard | — | Aug 24, 2026 |
-| **2** | [Find k-th recipient in command propagation order](https://trueinterview.io/questions/find-k-th-recipient-in-command-propagation-order) 🆓 | Algorithm | Medium | — | Dec 15, 2025 |
-| **3** | [Design an in-memory hotel booking system](https://trueinterview.io/questions/design-an-in-memory-hotel-booking-system) | Object Oriented Programming | Medium | — | Nov 03, 2025 |
-| **4** | [Choose container set to minimize waste](https://trueinterview.io/questions/choose-container-set-to-minimize-waste) 🆓 | Algorithm | Medium | — | Oct 06, 2025 |
+| **2** | [Demonstrate Self-Awareness and a Practical Mentoring Plan](https://trueinterview.io/questions/demonstrate-self-awareness-and-a-practical-mentoring-plan) 🆓 | Blog | — | — | Aug 24, 2026 |
+| **3** | [Compute the Probability for Two Uniform Variables](https://trueinterview.io/questions/compute-the-probability-for-two-uniform-variables) 🆓 | Blog | — | — | Mar 05, 2026 |
+| **4** | [Find k-th recipient in command propagation order](https://trueinterview.io/questions/find-k-th-recipient-in-command-propagation-order) 🆓 | Algorithm | Medium | — | Dec 15, 2025 |
+| **5** | [Analyze Optimal Funding Allocations Across Election Districts](https://trueinterview.io/questions/analyze-optimal-funding-allocations-across-election-districts) 🆓 | Blog | — | — | Nov 30, 2025 |
+| **6** | [Choose and Defend a Betting Strategy Under Uncertain Odds](https://trueinterview.io/questions/choose-and-defend-a-betting-strategy-under-uncertain-odds) 🆓 | Blog | — | — | Nov 30, 2025 |
+| **7** | [Design an in-memory hotel booking system](https://trueinterview.io/questions/design-an-in-memory-hotel-booking-system) | Object Oriented Programming | Medium | — | Nov 03, 2025 |
+| **8** | [Analyze time complexity and threading trade-offs](https://trueinterview.io/questions/analyze-time-complexity-and-threading-trade-offs) 🆓 | Blog | — | — | Nov 03, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -90,7 +96,13 @@ The 4 questions to open first if you are preparing for Imc, ranked by **the most
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Demonstrate Self-Awareness and a Practical Mentoring Plan](https://trueinterview.io/questions/demonstrate-self-awareness-and-a-practical-mentoring-plan) | Blog | — | Aug 24, 2026 |
 | [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves) | Algorithm | Hard | Aug 24, 2026 |
+| [Compute the Probability for Two Uniform Variables](https://trueinterview.io/questions/compute-the-probability-for-two-uniform-variables) | Blog | — | Mar 05, 2026 |
 | [Find k-th recipient in command propagation order](https://trueinterview.io/questions/find-k-th-recipient-in-command-propagation-order) | Algorithm | Medium | Dec 15, 2025 |
+| [Choose and Defend a Betting Strategy Under Uncertain Odds](https://trueinterview.io/questions/choose-and-defend-a-betting-strategy-under-uncertain-odds) | Blog | — | Nov 30, 2025 |
+| [Analyze Optimal Funding Allocations Across Election Districts](https://trueinterview.io/questions/analyze-optimal-funding-allocations-across-election-districts) | Blog | — | Nov 30, 2025 |
+| [Explain a project to non-technical stakeholders](https://trueinterview.io/questions/explain-a-project-to-non-technical-stakeholders) | Blog | — | Nov 03, 2025 |
 | [Design an in-memory hotel booking system](https://trueinterview.io/questions/design-an-in-memory-hotel-booking-system) | Object Oriented Programming | Medium | Nov 03, 2025 |
+| [Analyze time complexity and threading trade-offs](https://trueinterview.io/questions/analyze-time-complexity-and-threading-trade-offs) | Blog | — | Nov 03, 2025 |
 | [Choose container set to minimize waste](https://trueinterview.io/questions/choose-container-set-to-minimize-waste) | Algorithm | Medium | Oct 06, 2025 |

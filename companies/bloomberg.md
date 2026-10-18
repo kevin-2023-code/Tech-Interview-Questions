@@ -2,7 +2,7 @@
 
 # Bloomberg interview process, OA & interview questions
 
-**86 questions** reported at Bloomberg · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
+**91 questions** reported at Bloomberg · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Bloomberg interviews & the free questions](bloomberg/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **86** |
+| Questions tracked | **91** |
 | Most recent sighting | Oct 01, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 86) |
+| Most common format | [Algorithm](../formats/algorithm.md) (67% of 91) |
 | Difficulty (easy / medium / hard) | 15 / 53 / 18 |
-| Free to practise | [12](../free/README.md) |
+| Free to practise | [18](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 86 questions reported at Bloomberg. 61 of them carry a sighting date; the other 25 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 91 questions reported at Bloomberg. 66 of them carry a sighting date; the other 25 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **86 of 86** questions at Bloomberg that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **91 of 91** questions at Bloomberg that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 55 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 6 / 39 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 40 | ███████ | [Algorithm](../formats/algorithm.md) (58%) | 6 / 20 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 60 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 6 / 39 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 41 | ███████ | [Algorithm](../formats/algorithm.md) (56%) | 6 / 20 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -49,7 +49,7 @@ Which stage each question came from, for the **86 of 86** questions at Bloomberg
 
 ## What they ask about
 
-Of the **64 questions at Bloomberg that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **64 questions at Bloomberg that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -74,16 +74,16 @@ Every recorded sighting at Bloomberg, by the month it was reported in — Oct 06
 | :-- | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 1 | ██ |
 | [Aug 2026](../by-month/2026-08.md) | 1 | ██ |
-| [Jul 2026](../by-month/2026-07.md) | 5 | ████████████ |
-| [Jun 2026](../by-month/2026-06.md) | 7 | █████████████████ |
-| [May 2026](../by-month/2026-05.md) | 2 | █████ |
+| [Jul 2026](../by-month/2026-07.md) | 5 | ███████████ |
+| [Jun 2026](../by-month/2026-06.md) | 8 | █████████████████ |
+| [May 2026](../by-month/2026-05.md) | 2 | ████ |
 | [Apr 2026](../by-month/2026-04.md) | 3 | ███████ |
-| [Mar 2026](../by-month/2026-03.md) | 8 | ███████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 9 | ██████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 10 | ████████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ██ |
-| [Nov 2025](../by-month/2025-11.md) | 4 | ██████████ |
-| [Oct 2025](../by-month/2025-10.md) | 10 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 8 | █████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 10 | ██████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 11 | ████████████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ████ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | ███████████ |
+| [Oct 2025](../by-month/2025-10.md) | 10 | ██████████████████████ |
 
 ## Start here
 
@@ -132,6 +132,7 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | System Design | Hard | Jun 16, 2026 |
 | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Jun 16, 2026 |
 | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Object Oriented Programming | Medium | Jun 16, 2026 |
+| [Behavioral Question Pool](https://trueinterview.io/questions/behavioral-question-pool) | Blog | — | Jun 16, 2026 |
 | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
 | [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split) | Algorithm | Medium | Jun 04, 2026 |
 | [Active Users Sliding Window](https://trueinterview.io/questions/active-users-sliding-window) | Algorithm | Medium | May 03, 2026 |
@@ -153,6 +154,7 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule) | Algorithm | Hard | Feb 22, 2026 |
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |
 | [Decode String](https://trueinterview.io/questions/decode-string) | Algorithm | Medium | Feb 16, 2026 |
+| [Answer project and leadership behavioral questions](https://trueinterview.io/questions/answer-project-and-leadership-behavioral-questions) | Blog | — | Feb 12, 2026 |
 | [Implement sliding-window timestamped average](https://trueinterview.io/questions/implement-sliding-window-timestamped-average) | Object Oriented Programming | Medium | Feb 12, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
@@ -162,12 +164,15 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Algorithm | Hard | Jan 22, 2026 |
 | [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency) | Algorithm | Medium | Jan 21, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
+| [Introduce yourself and explain why Bloomberg](https://trueinterview.io/questions/introduce-yourself-and-explain-why-bloomberg) | Blog | — | Jan 06, 2026 |
 | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Jan 05, 2026 |
 | [Wordle Character Compare](https://trueinterview.io/questions/wordle-character-compare) | Algorithm | Medium | Jan 04, 2026 |
 | [Todo List OOP Design](https://trueinterview.io/questions/todo-list-oop) | Object Oriented Programming | Medium | Jan 04, 2026 |
 | [Word Search in 2D Grid](https://trueinterview.io/questions/word-search-grid) | Algorithm | Medium | Jan 01, 2026 |
 | [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Object Oriented Programming | Medium | Dec 22, 2025 |
+| [Answer core behavioral questions using STAR](https://trueinterview.io/questions/answer-core-behavioral-questions-using-star) | Blog | — | Dec 15, 2025 |
 | [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe) | Object Oriented Programming | Hard | Nov 27, 2025 |
+| [Describe leading an end-to-end client project](https://trueinterview.io/questions/describe-leading-an-end-to-end-client-project) | Blog | — | Nov 24, 2025 |
 | [Simplified Grep](https://trueinterview.io/questions/simplified-grep) | Object Oriented Programming | Medium | Nov 22, 2025 |
 | [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Algorithm | Medium | Nov 22, 2025 |
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |

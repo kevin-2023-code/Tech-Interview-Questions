@@ -8,7 +8,7 @@ How Rippling interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [49](../rippling.md) |
+| Questions reported | [58](../rippling.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,19 +47,28 @@ Here's what the interview process can look like:
 
 ## Free Rippling questions
 
-5 questions reported at Rippling open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Rippling open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) |
+| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) |
+| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) |
+| [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) |
+| [Project Deep Dive / HM BQ](https://trueinterview.io/questions/project-deep-dive-and-bq) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-and-bq) |
 | [Delivery Cost Calculate](../../questions/object-oriented-programming/delivery-billing-system/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/delivery-billing-system) |
 | [Logger System](../../questions/object-oriented-programming/logger-system-ood/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/logger-system-ood) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [DSA Multiple Choice and Costliest Chocolate](https://trueinterview.io/questions/intern-oa-fixed-set) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/intern-oa-fixed-set) |
+| [What was the hardest part of your project?](https://trueinterview.io/questions/what-was-the-hardest-part-of-your-project) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/what-was-the-hardest-part-of-your-project) |
+| [Find minimum of unknown convex function](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) |
+| [Time Complexity Analysis](https://trueinterview.io/questions/3ff04932-615f-483c-a528-757dfbfc638a) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/3ff04932-615f-483c-a528-757dfbfc638a) |
 
 ## Everything else
 
-- [All 49 questions reported at Rippling](../rippling.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 58 questions reported at Rippling](../rippling.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Rippling question on TrueInterview](https://trueinterview.io/problems/company/rippling).
 
 ---

@@ -8,8 +8,8 @@ How Perplexity interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [24](../perplexity.md) |
-| Free to read here | 4 |
+| Questions reported | [26](../perplexity.md) |
+| Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 01, 2026 |
@@ -50,18 +50,21 @@ Here's what the interview process can look like:
 
 ## Free Perplexity questions
 
-4 questions reported at Perplexity open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Perplexity open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
 | [ToDo List with Task Dependencies](../../questions/object-oriented-programming/todo-list-with-task-dependencies-ood/README.md) | Object Oriented Programming | Medium | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
+| [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/behavioral-and-project-deep-dive) |
 | [Credit Tracker with Expiring Credits](../../questions/object-oriented-programming/credit-tracker-with-expiring-credits/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) |
+| [Map-Reduce and Blockwise Attention](https://trueinterview.io/questions/map-reduce-and-blockwise-attention) | Blog | — | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/map-reduce-and-blockwise-attention) |
+| [Design Mint.com](../../questions/system-design/mint-com/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/mint-com) |
 
 ## Everything else
 
-- [All 24 questions reported at Perplexity](../perplexity.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 26 questions reported at Perplexity](../perplexity.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Perplexity question on TrueInterview](https://trueinterview.io/problems/company/perplexity).
 
 ---

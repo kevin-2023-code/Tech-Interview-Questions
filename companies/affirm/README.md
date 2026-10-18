@@ -8,7 +8,7 @@ How Affirm interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [17](../affirm.md) |
+| Questions reported | [18](../affirm.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,17 @@ No written process guide yet. [The loop, as reported](../affirm.md#the-loop-as-r
 
 ## Free Affirm questions
 
-2 questions reported at Affirm open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Affirm open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Evaluate String Expression](../../questions/algorithm/nested-function-expression-evaluator/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/nested-function-expression-evaluator) |
+| [Describe your highest-impact project](https://trueinterview.io/questions/describe-your-highest-impact-project) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/describe-your-highest-impact-project) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
 
 ## Everything else
 
-- [All 17 questions reported at Affirm](../affirm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 18 questions reported at Affirm](../affirm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Affirm question on TrueInterview](https://trueinterview.io/problems/company/affirm).
 
 ---

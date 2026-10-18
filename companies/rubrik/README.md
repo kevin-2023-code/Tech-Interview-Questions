@@ -9,7 +9,7 @@ How Rubrik interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [19](../rubrik.md) |
-| Free to read here | 4 |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | — |
@@ -45,10 +45,12 @@ Here's what the interview process can look like:
 
 ## Free Rubrik questions
 
-4 questions reported at Rubrik open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Rubrik open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Bitonic Partitioning](../../questions/algorithm/bitonic-partitioning/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) |
+| [Word Compression](../../questions/algorithm/word-compression/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) |
 | [Mike and Gems](../../questions/algorithm/mike-and-gems/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) |
 | [String Shift](../../questions/algorithm/string-shift/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/dae58234-6fb4-4c0f-9168-307c63e27905) |
 | [Simulate Stack](../../questions/algorithm/simulate-stack/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) |

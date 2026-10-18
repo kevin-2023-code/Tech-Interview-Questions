@@ -8,7 +8,7 @@ How Shopify interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [25](../shopify.md) |
+| Questions reported | [41](../shopify.md) |
 | Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -38,21 +38,37 @@ The stages below follow Shopify's public description of its process; the order a
 
 ## Free Shopify questions
 
-7 questions reported at Shopify open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+23 questions reported at Shopify open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview) | Blog | — | Phone screen, Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/life-story-values-interview) |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
+| [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/questions/ml-modeling-round) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/ml-modeling-round) |
+| [Use AI Responsibly During SQL Pair Programming](https://trueinterview.io/questions/use-ai-responsibly-during-sql-pair-programming) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/use-ai-responsibly-during-sql-pair-programming) |
+| [Diagnose Weekly Session Conversion Anomalies](https://trueinterview.io/questions/diagnose-weekly-session-conversion-anomalies) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/diagnose-weekly-session-conversion-anomalies) |
+| [Explain your career and flagship project](https://trueinterview.io/questions/explain-your-career-and-flagship-project) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-your-career-and-flagship-project) |
+| [Answer Product DS HR Screen](https://trueinterview.io/questions/answer-product-ds-hr-screen) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-product-ds-hr-screen) |
+| [How would you improve AI-generated code?](https://trueinterview.io/questions/how-would-you-improve-ai-generated-code) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-would-you-improve-ai-generated-code) |
+| [Present Piracy Trends to a PM](https://trueinterview.io/questions/present-piracy-trends-to-a-pm) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/present-piracy-trends-to-a-pm) |
+| [Measure App Store success and debug funnel anomaly](https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly) |
 | [Ruby only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-ruby-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) |
 | [C++ only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-c-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) |
 | [Dynamic programming, ~45 min, any language](../../questions/algorithm/swe-intern-coding-oa-dynamic-programming-45-min-any-language/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) |
 | [Paint House](../../questions/algorithm/swe-intern-coding-oa/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa) |
 | [Cows and Bulls (Guess the Number)](../../questions/algorithm/cows-and-bulls/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/cows-and-bulls) |
+| [Perform no-calculator math accurately and fast](https://trueinterview.io/questions/perform-no-calculator-math-accurately-and-fast) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/perform-no-calculator-math-accurately-and-fast) |
+| [Infer and justify non-trivial sequence patterns](https://trueinterview.io/questions/infer-and-justify-non-trivial-sequence-patterns) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/infer-and-justify-non-trivial-sequence-patterns) |
+| [Explain life story, project leadership, and negotiation](https://trueinterview.io/questions/explain-life-story-project-leadership-and-negotiation) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-life-story-project-leadership-and-negotiation) |
+| [Explain life-story choices and pre-read insights](https://trueinterview.io/questions/explain-life-story-choices-and-pre-read-insights) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-life-story-choices-and-pre-read-insights) |
+| [Design robust experiment for ambiguous core change](https://trueinterview.io/questions/design-robust-experiment-for-ambiguous-core-change) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-robust-experiment-for-ambiguous-core-change) |
+| [Describe toughest project and align stakeholders remotely](https://trueinterview.io/questions/describe-toughest-project-and-align-stakeholders-remotely) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/describe-toughest-project-and-align-stakeholders-remotely) |
+| [Assess and push back on ideology-heavy interviews](https://trueinterview.io/questions/assess-and-push-back-on-ideology-heavy-interviews) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/assess-and-push-back-on-ideology-heavy-interviews) |
 
 ## Everything else
 
-- [All 25 questions reported at Shopify](../shopify.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 41 questions reported at Shopify](../shopify.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Shopify question on TrueInterview](https://trueinterview.io/problems/company/shopify).
 
 ---

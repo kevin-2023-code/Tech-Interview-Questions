@@ -8,7 +8,7 @@ How Ramp interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [33](../ramp.md) |
+| Questions reported | [36](../ramp.md) |
 | Free to read here | 9 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,13 +48,16 @@ Here's what the interview process can look like:
 
 ## Free Ramp questions
 
-9 questions reported at Ramp open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at Ramp open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [User Flight Location Tracker](../../questions/algorithm/find-a-user-s-airport-from-flight-history/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
+| [From Take-Home Script to Production: Python Trade-offs and Hardening a Data Job](https://trueinterview.io/questions/from-take-home-script-to-production-python-trade-offs-and-hardening-a-data-job) | Blog | — | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/from-take-home-script-to-production-python-trade-offs-and-hardening-a-data-job) |
+| [What Project Are You Proudest Of?](https://trueinterview.io/questions/what-project-are-you-proudest-of) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/what-project-are-you-proudest-of) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
+| [Async Video Behavioral Screen](https://trueinterview.io/questions/video-interview-behavioral) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/video-interview-behavioral) |
 | [Rate Limiter by IP Address](../../questions/algorithm/rate-limiter-by-ip-address/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/rate-limiter-by-ip-address) |
 | [Cloud Storage System](../../questions/algorithm/cloud-storage-system/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/cloud-storage-system) |
 | [Tic Tac Toe](../../questions/ai-coding/tic-tac-toe/README.md) | AI Coding | Easy | Phone screen | Jun 2025 | [Solve](https://trueinterview.io/questions/tic-tac-toe) |
@@ -64,7 +67,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 33 questions reported at Ramp](../ramp.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 36 questions reported at Ramp](../ramp.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Ramp question on TrueInterview](https://trueinterview.io/problems/company/ramp).
 
 ---

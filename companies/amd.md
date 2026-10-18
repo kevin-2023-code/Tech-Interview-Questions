@@ -2,7 +2,7 @@
 
 # AMD interview process, OA & interview questions
 
-**3 questions** reported at AMD. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amd), judged server-side on the algorithm, low-level-design and SQL formats.
+**10 questions** reported at AMD. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amd), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How AMD interviews & the free questions](amd/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,39 +14,46 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **3** |
+| Questions tracked | **10** |
 | Most recent sighting | Sep 14, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [System Design](../formats/system-design.md) (67% of 3) |
+| Reported in the last 90 days | 10 |
+| Most common format | [Blog](../formats/blog.md) (70% of 10) |
 | Difficulty (easy / medium / hard) | 0 / 2 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 3 questions reported at AMD. 3 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 10 questions reported at AMD. 10 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **3 of 3** questions at AMD that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **10 of 10** questions at AMD that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Onsite / virtual onsite** | 3 | ██████████ | [System Design](../formats/system-design.md) (67%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 10 | ██████████ | [Blog](../formats/blog.md) (70%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**10 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | System Design | Medium | Onsite / virtual onsite | Sep 14, 2026 |
+| [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | Blog | — | Onsite / virtual onsite | Sep 14, 2026 |
+| [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | Blog | — | Onsite / virtual onsite | Sep 14, 2026 |
+| [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | Blog | — | Onsite / virtual onsite | Sep 14, 2026 |
+| [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | Blog | — | Onsite / virtual onsite | Sep 14, 2026 |
+| [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | Blog | — | Onsite / virtual onsite | Sep 14, 2026 |
 | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | Algorithm | Medium | Onsite / virtual onsite | Sep 14, 2026 |
+| [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | Blog | — | Onsite / virtual onsite | Sep 14, 2026 |
 | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | System Design | Hard | Onsite / virtual onsite | Sep 14, 2026 |
+| [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | Blog | — | Onsite / virtual onsite | Sep 14, 2026 |
 
 ## What they ask about
 
-Of the **1 question at AMD that carries a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at AMD that carries a topic label** (10% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -60,17 +67,22 @@ Every recorded sighting at AMD, by the month it was reported in — Sep 14, 2026
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | ████████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 10 | ████████████████████████ |
 
 ## Start here
 
-The 3 questions to open first if you are preparing for AMD, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for AMD, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) 🆓 | System Design | Medium | — | Sep 14, 2026 |
 | **2** | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) 🆓 | Algorithm | Medium | — | Sep 14, 2026 |
 | **3** | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | System Design | Hard | — | Sep 14, 2026 |
+| **4** | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) 🆓 | Blog | — | — | Sep 14, 2026 |
+| **5** | [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) 🆓 | Blog | — | — | Sep 14, 2026 |
+| **6** | [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) 🆓 | Blog | — | — | Sep 14, 2026 |
+| **7** | [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) 🆓 | Blog | — | — | Sep 14, 2026 |
+| **8** | [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) 🆓 | Blog | — | — | Sep 14, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -84,6 +96,13 @@ The 3 questions to open first if you are preparing for AMD, ranked by **the most
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | Blog | — | 🆕 Sep 14, 2026 |
 | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | System Design | Hard | 🆕 Sep 14, 2026 |
+| [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | Blog | — | 🆕 Sep 14, 2026 |
 | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | Algorithm | Medium | 🆕 Sep 14, 2026 |
+| [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | Blog | — | 🆕 Sep 14, 2026 |
+| [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | Blog | — | 🆕 Sep 14, 2026 |
+| [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | Blog | — | 🆕 Sep 14, 2026 |
+| [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | Blog | — | 🆕 Sep 14, 2026 |
+| [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | Blog | — | 🆕 Sep 14, 2026 |
 | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | System Design | Medium | 🆕 Sep 14, 2026 |

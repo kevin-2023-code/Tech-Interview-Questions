@@ -2,7 +2,7 @@
 
 # Coinbase interview process, OA & interview questions
 
-**72 questions** reported at Coinbase · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
+**86 questions** reported at Coinbase · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Coinbase interviews & the free questions](coinbase/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **72** |
+| Questions tracked | **86** |
 | Most recent sighting | Aug 27, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (43% of 72) |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (36% of 86) |
 | Difficulty (easy / medium / hard) | 12 / 45 / 15 |
-| Free to practise | [9](../free/README.md) |
+| Free to practise | [24](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 72 questions reported at Coinbase. 37 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 86 questions reported at Coinbase. 41 of them carry a sighting date; the other 45 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **72 of 72** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **86 of 86** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 19 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (53%) | 6 / 10 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 13 | ███ | [Algorithm](../formats/algorithm.md) (62%) | 0 / 7 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 42 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (48%) | 7 / 29 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 19 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (53%) | 6 / 10 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 21 | ████ | [Algorithm](../formats/algorithm.md) (38%) | 0 / 7 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 48 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (42%) | 7 / 29 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,7 +46,7 @@ Which stage each question came from, for the **72 of 72** questions at Coinbase 
 
 ## What they ask about
 
-Of the **22 questions at Coinbase that carry a topic label** (31% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at Coinbase that carry a topic label** (26% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -69,16 +69,16 @@ Every recorded sighting at Coinbase, by the month it was reported in — Jul 22,
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ███ |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
-| [May 2026](../by-month/2026-05.md) | 9 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 6 | ████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 3 | ████████ |
-| [Feb 2026](../by-month/2026-02.md) | 8 | █████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | █████ |
-| [Dec 2025](../by-month/2025-12.md) | 5 | █████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
-| [Jul 2025](../by-month/2025-07.md) | 1 | ███ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ██ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | ██ |
+| [May 2026](../by-month/2026-05.md) | 10 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | ██████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | ███████ |
+| [Feb 2026](../by-month/2026-02.md) | 10 | ████████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ███████ |
+| [Dec 2025](../by-month/2025-12.md) | 5 | ████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
+| [Jul 2025](../by-month/2025-07.md) | 1 | ██ |
 
 ## Start here
 
@@ -92,8 +92,8 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | **4** | [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | Algorithm | Easy | — | May 19, 2026 |
 | **5** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | 2 | May 08, 2026 |
 | **6** | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Object Oriented Programming | Medium | — | May 08, 2026 |
-| **7** | [Crypto Order Management (Kafka Consumer)](https://trueinterview.io/questions/crypto-order-management-kafka) | Algorithm | Medium | — | May 06, 2026 |
-| **8** | [NFT Feature Generation](https://trueinterview.io/questions/nft-feature-generation) | Algorithm | Medium | — | May 06, 2026 |
+| **7** | [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive) 🆓 | Blog | — | — | May 08, 2026 |
+| **8** | [Crypto Order Management (Kafka Consumer)](https://trueinterview.io/questions/crypto-order-management-kafka) | Algorithm | Medium | — | May 06, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -122,6 +122,7 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Object Oriented Programming | Hard | Jun 15, 2026 |
 | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | May 21, 2026 |
 | [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | Algorithm | Easy | May 19, 2026 |
+| [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive) | Blog | — | May 08, 2026 |
 | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Object Oriented Programming | Medium | May 08, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | May 08, 2026 |
 | [Worker Salary](https://trueinterview.io/questions/worker-salary-oa) | Object Oriented Programming | Medium | May 06, 2026 |
@@ -141,6 +142,8 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price) | System Design | Medium | Feb 26, 2026 |
 | [Frontend Domain — Card / Validation Component to Mockup](https://trueinterview.io/questions/fe-domain-card-component) | AI Coding | Medium | Feb 23, 2026 |
 | [Design Credit Card Application System](https://trueinterview.io/questions/design-a-credit-approval-risk-engine) | System Design | Medium | Feb 15, 2026 |
+| [Design Identity-Trust A/B Test](https://trueinterview.io/questions/design-identity-trust-a-b-test) | Blog | — | Feb 13, 2026 |
+| [Calculate a Confidence Interval](https://trueinterview.io/questions/calculate-a-confidence-interval) | Blog | — | Feb 13, 2026 |
 | [Maximize block fee with transaction selection](https://trueinterview.io/questions/maximize-block-fee-with-transaction-selection) | Algorithm | Medium | Feb 13, 2026 |
 | [Implement Plus One](https://trueinterview.io/questions/implement-plus-one) | Algorithm | Easy | Feb 13, 2026 |
 | [Interleave Iterator](https://trueinterview.io/questions/interleave-iterator) | Object Oriented Programming | Medium | Feb 13, 2026 |
@@ -148,6 +151,7 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | Object Oriented Programming | Medium | Feb 04, 2026 |
 | [Thread Logs Processing](https://trueinterview.io/questions/thread-logs-processing) | Algorithm | Easy | Jan 29, 2026 |
 | [Implement cursor-based query pagination](https://trueinterview.io/questions/implement-cursor-based-query-pagination) | Object Oriented Programming | Medium | Jan 22, 2026 |
+| [Present a Previous Project Deep Dive](https://trueinterview.io/questions/present-a-previous-project-deep-dive) | Blog | — | Jan 05, 2026 |
 | [Jupyter Pair Programming on Messy Classification Data](https://trueinterview.io/questions/mle-jupyter-classification) | AI Coding | Medium | Dec 19, 2025 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
 | [Write SQL to rank top products per category](https://trueinterview.io/questions/write-sql-to-rank-top-products-per-category) | SQL | Medium | Dec 04, 2025 |
@@ -155,8 +159,18 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | System Design | Medium | Dec 01, 2025 |
 | [Design an in-memory database with TTL and backups](https://trueinterview.io/questions/design-an-in-memory-database-with-ttl-and-backups) | Object Oriented Programming | Hard | Nov 08, 2025 |
 | [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Object Oriented Programming | Medium | Jul 22, 2025 |
+| [Solve the 12-coin balance puzzle](https://trueinterview.io/questions/solve-the-12-coin-balance-puzzle) | Blog | — | — |
+| [Show culture add at Coinbase](https://trueinterview.io/questions/show-culture-add-at-coinbase) | Blog | — | — |
+| [Explain handling pressure to bend rules](https://trueinterview.io/questions/explain-handling-pressure-to-bend-rules) | Blog | — | — |
+| [Estimate Super Bowl QR ad sign-ups](https://trueinterview.io/questions/estimate-super-bowl-qr-ad-sign-ups) | Blog | — | — |
+| [Diagnose uplift drop in email A/B tests](https://trueinterview.io/questions/diagnose-uplift-drop-in-email-a-b-tests) | Blog | — | — |
+| [Diagnose a 20% retail revenue drop](https://trueinterview.io/questions/diagnose-a-20percent-retail-revenue-drop) | Blog | — | — |
+| [Detect and quantify wash trading](https://trueinterview.io/questions/detect-and-quantify-wash-trading) | Blog | — | — |
 | [Design KYC experiment amid crypto volatility](https://trueinterview.io/questions/design-kyc-experiment-amid-crypto-volatility) | System Design | Hard | — |
 | [Design a blob storage system for lunar environment](https://trueinterview.io/questions/design-a-blob-storage-system-for-lunar-environment) | System Design | Hard | — |
+| [Describe cross-team collaboration on past projects](https://trueinterview.io/questions/describe-cross-team-collaboration-on-past-projects) | Blog | — | — |
+| [Compute wallet-link probabilities, expectation, and conditionals](https://trueinterview.io/questions/compute-wallet-link-probabilities-and-conditionals) | Blog | — | — |
+| [Build and evaluate a conversion prediction model](https://trueinterview.io/questions/build-and-evaluate-a-conversion-prediction-model) | Blog | — | — |
 | [Write SQL: sum values ≤ each row’s value](https://trueinterview.io/questions/write-sql-sum-values-each-rows-value) | SQL | Medium | — |
 | [Write SQL and Python for funnels/retention](https://trueinterview.io/questions/write-sql-and-python-for-funnels-retention) | SQL | Hard | — |
 | [Shortest paths in a restaurant grid](https://trueinterview.io/questions/solve-restaurant-path-and-order-event-tasks-shortest-paths-in-a-restaurant-grid) | Algorithm | Hard | — |

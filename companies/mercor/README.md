@@ -8,7 +8,7 @@ How Mercor interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../mercor.md) |
+| Questions reported | [14](../mercor.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,25 @@ No written process guide yet. [The loop, as reported](../mercor.md#the-loop-as-r
 
 ## Free Mercor questions
 
-2 questions reported at Mercor open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+11 questions reported at Mercor open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) |
+| [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) |
 | [Design a Project-to-Contractor Matching System](../../questions/system-design/design-a-project-to-contractor-matching-system/README.md) | System Design | Hard | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) |
+| [Project Deep Dive With Product-Level Probing, AI Tool Use, and Startup Motivation](https://trueinterview.io/questions/project-deep-dive-with-product-level-probing-ai-tool-use-and-startup-motivation) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-with-product-level-probing-ai-tool-use-and-startup-motivation) |
 | [Code Review: Thread Safety of a Python Compute-and-Cache Function](../../questions/algorithm/code-review-thread-safety-of-a-python-compute-and-cache-function/README.md) | Algorithm | Hard | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/code-review-thread-safety-of-a-python-compute-and-cache-function) |
+| [Explain what happens when opening a website](https://trueinterview.io/questions/explain-what-happens-when-opening-a-website) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-what-happens-when-opening-a-website) |
+| [Explain VPCs and private/public network connectivity](https://trueinterview.io/questions/explain-vpcs-and-private-public-network-connectivity) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-vpcs-and-private-public-network-connectivity) |
+| [Explain Kubernetes autoscaling and traffic routing](https://trueinterview.io/questions/explain-kubernetes-autoscaling-and-traffic-routing) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-kubernetes-autoscaling-and-traffic-routing) |
+| [Define a one-way function and its uses](https://trueinterview.io/questions/define-a-one-way-function-and-its-uses) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/define-a-one-way-function-and-its-uses) |
+| [Compare streaming frameworks and delivery semantics](https://trueinterview.io/questions/compare-streaming-frameworks-and-delivery-semantics) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/compare-streaming-frameworks-and-delivery-semantics) |
+| [Compare processes and threads in Linux and Python](https://trueinterview.io/questions/compare-processes-and-threads-in-linux-and-python) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/compare-processes-and-threads-in-linux-and-python) |
 
 ## Everything else
 
-- [All 5 questions reported at Mercor](../mercor.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 14 questions reported at Mercor](../mercor.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Mercor question on TrueInterview](https://trueinterview.io/problems/company/mercor).
 
 ---

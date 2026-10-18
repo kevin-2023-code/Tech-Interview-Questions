@@ -2,7 +2,7 @@
 
 # 🔬 Semiconductors & chips — interview & OA questions
 
-**41 questions** reported across the **2 Semiconductors & chips employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**64 questions** reported across the **2 Semiconductors & chips employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[NVIDIA (38)](../companies/nvidia.md) · [AMD (3)](../companies/amd.md)
+[NVIDIA (54)](../companies/nvidia.md) · [AMD (10)](../companies/amd.md)
 
 <sub>2 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 24 | 59% | ██████████████ | 7 |
-| [System Design](../formats/system-design.md) | 9 | 22% | █████ | 1 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 12% | ███ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 2 | 5% | █ | 0 |
+| [Algorithm](../formats/algorithm.md) | 24 | 38% | ██████████████ | 7 |
+| [Blog](../formats/blog.md) | 23 | 36% | █████████████ | 23 |
+| [System Design](../formats/system-design.md) | 9 | 14% | █████ | 1 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 8% | ███ | 0 |
+| [AI Coding](../formats/ai-coding.md) | 2 | 3% | █ | 0 |
 | [SQL](../formats/sql.md) | 1 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **7 / 25 / 9**, over the rows the catalog has graded. 8 of the 41 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **7 / 25 / 9**, over the rows the catalog has graded. 31 of the 64 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **25 questions in this cut that carry a topic label** (61% of it):
+Of the **25 questions in this cut that carry a topic label** (39% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,16 +48,24 @@ Of the **25 questions in this cut that carry a topic label** (61% of it):
 
 ## Asked here in the last 90 days
 
-**6 sightings** across this cut. Newest first.
+**14 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | NVIDIA | Blog | Sep 17, 2026 |
 | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | AMD | System Design | Sep 14, 2026 |
+| [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | AMD | Blog | Sep 14, 2026 |
+| [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | AMD | Blog | Sep 14, 2026 |
+| [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | AMD | Blog | Sep 14, 2026 |
+| [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | AMD | Blog | Sep 14, 2026 |
+| [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | AMD | Blog | Sep 14, 2026 |
 | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | AMD | Algorithm | Sep 14, 2026 |
+| [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | AMD | Blog | Sep 14, 2026 |
 | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | AMD | System Design | Sep 14, 2026 |
+| [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | AMD | Blog | Sep 14, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | NVIDIA … | Algorithm | Aug 21, 2026 |
-| [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | NVIDIA | System Design | Aug 19, 2026 |
-| [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | NVIDIA | Object Oriented Programming | Aug 19, 2026 |
+
+<sub>2 more in this window are in the table below.</sub>
 
 ---
 
@@ -66,8 +75,16 @@ Of the **25 questions in this cut that carry a topic label** (61% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **NVIDIA** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | — | 🆕 Sep 17, 2026 |
+| **AMD** | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | — | 🆕 Sep 14, 2026 |
 | **AMD** | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | Hard | 🆕 Sep 14, 2026 |
+| **AMD** | [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | — | 🆕 Sep 14, 2026 |
 | **AMD** | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | Medium | 🆕 Sep 14, 2026 |
+| **AMD** | [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | — | 🆕 Sep 14, 2026 |
+| **AMD** | [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | — | 🆕 Sep 14, 2026 |
+| **AMD** | [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | — | 🆕 Sep 14, 2026 |
+| **AMD** | [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | — | 🆕 Sep 14, 2026 |
+| **AMD** | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | — | 🆕 Sep 14, 2026 |
 | **AMD** | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | Medium | 🆕 Sep 14, 2026 |
 | **ByteDance / Ebay / NVIDIA** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Medium | Aug 21, 2026 |
 | **NVIDIA** | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Hard | Aug 19, 2026 |
@@ -75,6 +92,8 @@ Of the **25 questions in this cut that carry a topic label** (61% of it):
 | **NVIDIA** | [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | Medium | Jul 03, 2026 |
 | **NVIDIA** | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | Medium | Jul 03, 2026 |
 | **NVIDIA** | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | Medium | Jul 03, 2026 |
+| **NVIDIA** | [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive) | — | Jul 03, 2026 |
+| **NVIDIA** | [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) | — | Jul 03, 2026 |
 | **NVIDIA** | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | Hard | Jun 30, 2026 |
 | **Roblox / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Okta / Oracle / Ramp / Reddit / Rippling / Snapchat / Waymo / xAI** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
 | **NVIDIA** | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Easy | Apr 26, 2026 |
@@ -88,11 +107,24 @@ Of the **25 questions in this cut that carry a topic label** (61% of it):
 | **NVIDIA** | [FP32 Tensor to Int8 Quantization](https://trueinterview.io/questions/fp32-to-int8-quantization) | Medium | Feb 12, 2026 |
 | **NVIDIA** | [Implement matrix transpose and KV store](https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store) | Medium | Feb 09, 2026 |
 | **Apple / Amazon / Bloomberg / Boston Consulting Group / ByteDance / Intuit / LinkedIn / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **NVIDIA** | [Compare arrays, linked lists, hash tables, trees](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees) | — | Feb 06, 2026 |
 | **NVIDIA** | [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding) | Medium | Feb 05, 2026 |
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
+| **NVIDIA** | [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/questions/deep-learning-fundamentals) | — | Jan 29, 2026 |
+| **NVIDIA** | [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals) | — | Jan 16, 2026 |
+| **NVIDIA** | [Introduce yourself for a senior role](https://trueinterview.io/questions/introduce-yourself-for-a-senior-role) | — | Jan 06, 2026 |
+| **NVIDIA** | [Explain virtual machines and concurrency basics](https://trueinterview.io/questions/explain-virtual-machines-and-concurrency-basics) | — | Jan 06, 2026 |
+| **NVIDIA** | [Explain container image flow in CI/CD](https://trueinterview.io/questions/explain-container-image-flow-in-ci-cd) | — | Jan 06, 2026 |
+| **NVIDIA** | [Optimize a small-string C++ class](https://trueinterview.io/questions/optimize-a-small-string-cplusplus-class) | — | Dec 18, 2025 |
 | **NVIDIA** | [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop) | Hard | Dec 10, 2025 |
 | **Google / NVIDIA** | [Return Unique Three-Sum Value Triples](https://trueinterview.io/questions/return-unique-three-sum-value-triples) | Hard | Dec 08, 2025 |
+| **NVIDIA** | [Sell GPUs to a retail CEO](https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo) | — | — |
+| **NVIDIA** | [Resolve conflict and learn from failure](https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure) | — | — |
+| **NVIDIA** | [Reflect on interview takeaways and adaptation](https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation) | — | — |
+| **NVIDIA** | [Explain NVIDIA fit and role value](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value) | — | — |
+| **NVIDIA** | [Demonstrate cultural fit and sales-oriented leadership](https://trueinterview.io/questions/demonstrate-cultural-fit-and-sales-oriented-leadership) | — | — |
 | **NVIDIA** | [Design and explain robust web APIs for ML inference](https://trueinterview.io/questions/design-and-explain-robust-web-apis-for-ml-inference) | Medium | — |
+| **NVIDIA** | [Analyze overfitting, DenseNet, preprocessing, and cross-validation](https://trueinterview.io/questions/analyze-overfitting-densenet-preprocessing-and-cross-validation) | — | — |
 | **Visa / NVIDIA** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Medium | — |
 | **Tradedesk / Google / NVIDIA** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Medium | — |
 | **NVIDIA** | [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | Hard | — |

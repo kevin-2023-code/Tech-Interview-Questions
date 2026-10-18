@@ -8,7 +8,7 @@ How AMD interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [3](../amd.md) |
+| Questions reported | [10](../amd.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,23 @@ No written process guide yet. [The loop, as reported](../amd.md#the-loop-as-repo
 
 ## Free AMD questions
 
-2 questions reported at AMD open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at AMD open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) |
+| [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) |
 | [Find the Largest K Elements with Partitioning](../../questions/algorithm/find-the-largest-k-elements-with-partitioning/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) |
+| [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-the-react-agent-loop) |
+| [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) |
+| [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) |
+| [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) |
+| [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) |
 | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](../../questions/system-design/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code/README.md) | System Design | Medium | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) |
 
 ## Everything else
 
-- [All 3 questions reported at AMD](../amd.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 10 questions reported at AMD](../amd.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every AMD question on TrueInterview](https://trueinterview.io/problems/company/amd).
 
 ---

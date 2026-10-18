@@ -2,7 +2,7 @@
 
 # Expedia interview process, OA & interview questions
 
-**34 questions** reported at Expedia · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/expedia), judged server-side on the algorithm, low-level-design and SQL formats.
+**41 questions** reported at Expedia · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/expedia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Expedia interviews & the free questions](expedia/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **34** |
+| Questions tracked | **41** |
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (76% of 34) |
+| Most common format | [Algorithm](../formats/algorithm.md) (63% of 41) |
 | Difficulty (easy / medium / hard) | 2 / 23 / 9 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [12](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 34 questions reported at Expedia. 13 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 41 questions reported at Expedia. 16 of them carry a sighting date; the other 25 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **34 of 34** questions at Expedia that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **41 of 41** questions at Expedia that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 7 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 0 / 13 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 11 | ██████ | [System Design](../formats/system-design.md) (55%) | 1 / 8 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 7 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 0 / 13 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 16 | ████████ | [System Design](../formats/system-design.md) (38%) | 1 / 8 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **34 of 34** questions at Expedia t
 
 ## What they ask about
 
-Of the **26 questions at Expedia that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **26 questions at Expedia that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -61,7 +61,7 @@ Of the **26 questions at Expedia that carry a topic label** (76% of them — the
 
 ## When they asked it
 
-Every recorded sighting at Expedia, by the month it was reported in — Nov 05, 2025 to Jun 28, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Expedia, by the month it was reported in — Oct 29, 2025 to Jun 28, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -69,9 +69,10 @@ Every recorded sighting at Expedia, by the month it was reported in — Nov 05, 
 | [May 2026](../by-month/2026-05.md) | 3 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 3 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 2 | ████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ████████ |
 
 ## Start here
 
@@ -117,10 +118,17 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Medium | Apr 09, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
+| [How do you learn new knowledge quickly?](https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly) | Blog | — | Jan 06, 2026 |
+| [Describe when you distrusted a colleague](https://trueinterview.io/questions/describe-when-you-distrusted-a-colleague) | Blog | — | Jan 06, 2026 |
 | [Solve three interview coding problems](https://trueinterview.io/questions/solve-three-interview-coding-problems) | Algorithm | Hard | Jan 06, 2026 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Nov 18, 2025 |
 | [Design a listing connectivity ingestion service](https://trueinterview.io/questions/design-a-listing-connectivity-ingestion-service) | System Design | Medium | Nov 05, 2025 |
+| [How do you use AI for coding?](https://trueinterview.io/questions/how-do-you-use-ai-for-coding) | Blog | — | Oct 29, 2025 |
+| [Validate and monitor ranking model end-to-end](https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end) | Blog | — | — |
+| [Lead alignment under ambiguity and pressure](https://trueinterview.io/questions/lead-alignment-under-ambiguity-and-pressure) | Blog | — | — |
+| [Choose KPIs and prove impact with experiments](https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments) | Blog | — | — |
+| [Audit and onboard unfamiliar datasets safely](https://trueinterview.io/questions/audit-and-onboard-unfamiliar-datasets-safely) | Blog | — | — |
 | [Longest Common Subsequence-Substring](https://trueinterview.io/questions/longest-common-subsequence-substring-2) | Algorithm | Medium | — |
 | [Calculate Triangle Area from Three Coordinate Points](https://trueinterview.io/questions/f13e1f46-76a9-4caa-b697-ffdd9abcd68e) | Algorithm | Easy | — |
 | [Minimum Machines for Task Scheduling](https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36) | Algorithm | Medium | — |

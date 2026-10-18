@@ -2,7 +2,7 @@
 
 # 🖥️ Hardware, devices & networking — interview & OA questions
 
-**186 questions** reported across the **4 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**224 questions** reported across the **4 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Apple (150)](../companies/apple.md) · [Cisco (26)](../companies/cisco.md) · [Arista (6)](../companies/arista.md) · [Axon (6)](../companies/axon.md)
+[Apple (181)](../companies/apple.md) · [Cisco (27)](../companies/cisco.md) · [Axon (11)](../companies/axon.md) · [Arista (7)](../companies/arista.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 131 | 70% | ██████████████ | 36 |
-| [System Design](../formats/system-design.md) | 28 | 15% | ███ | 3 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 21 | 11% | ██ | 2 |
+| [Algorithm](../formats/algorithm.md) | 131 | 58% | ██████████████ | 36 |
+| [Blog](../formats/blog.md) | 38 | 17% | ████ | 38 |
+| [System Design](../formats/system-design.md) | 28 | 12% | ███ | 4 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 21 | 9% | ██ | 3 |
 | [SQL](../formats/sql.md) | 4 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **48 / 106 / 32**, over the rows the catalog has graded. 42 of the 186 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **48 / 106 / 32**, over the rows the catalog has graded. 82 of the 224 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **134 questions in this cut that carry a topic label** (72% of it):
+Of the **134 questions in this cut that carry a topic label** (60% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,12 +48,14 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 
 ## Asked here in the last 90 days
 
-**14 sightings** across this cut. Newest first.
+**16 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Plant Infection Spread: Days Until Stable](https://trueinterview.io/questions/plant-infection-spread-days-to-stabilize) | Apple | Algorithm | Oct 02, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Apple … | AI Coding | Oct 01, 2026 |
+| [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Cisco | Blog | Sep 17, 2026 |
+| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | Apple | Blog | Sep 09, 2026 |
 | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Apple | Algorithm | Aug 26, 2026 |
 | [Choose File Storage Tiers Using Access Predictions](https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions) | Apple | Algorithm | Aug 24, 2026 |
 | [Forecast Storage Demand Across 100 Data Centers](https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers) | Apple | System Design | Aug 24, 2026 |
@@ -61,10 +64,8 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Apple | SQL | Aug 13, 2026 |
 | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Apple | System Design | Aug 08, 2026 |
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Apple | Algorithm | Aug 05, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Apple … | Algorithm | Jul 29, 2026 |
-| [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | Apple | Algorithm | Jul 28, 2026 |
 
-<sub>2 more in this window are in the table below.</sub>
+<sub>4 more in this window are in the table below.</sub>
 
 ---
 
@@ -76,6 +77,8 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | :-- | :-- | :-: | :-- |
 | **Apple** | [Plant Infection Spread: Days Until Stable](https://trueinterview.io/questions/plant-infection-spread-days-to-stabilize) | Medium | 🆕 Oct 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
+| **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | — | 🆕 Sep 17, 2026 |
+| **Apple** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | — | 🆕 Sep 09, 2026 |
 | **Apple** | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Medium | Aug 26, 2026 |
 | **Apple** | [Forecast Storage Demand Across 100 Data Centers](https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers) | Hard | Aug 24, 2026 |
 | **Apple** | [Choose File Storage Tiers Using Access Predictions](https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions) | Hard | Aug 24, 2026 |
@@ -88,12 +91,16 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | **Apple** | [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | Medium | Jul 28, 2026 |
 | **Apple** | [Alias Group Mapping](https://trueinterview.io/questions/alias-group-mapping) | Medium | Jul 27, 2026 |
 | **Apple** | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | Easy | Jul 26, 2026 |
+| **Apple** | [ML Systems Codebase Deep Dive](https://trueinterview.io/questions/ml-systems-codebase-deep-dive) | — | Jul 01, 2026 |
 | **Apple / Amazon / Bloomberg / Meta / Uber** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Medium | Jun 28, 2026 |
 | **Apple** | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Medium | Jun 28, 2026 |
+| **Apple** | [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit) | — | Jun 28, 2026 |
 | **Apple** | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | Hard | Jun 28, 2026 |
 | **Apple** | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Hard | Jun 24, 2026 |
 | **Bloomberg / ByteDance / Cisco / Ebay** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Medium | Jun 16, 2026 |
 | **Apple / Scale AI** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Hard | Jun 16, 2026 |
+| **Apple** | [OS Fundamentals & Concurrency Drill](https://trueinterview.io/questions/os-fundamentals-and-concurrency) | — | Jun 15, 2026 |
+| **Apple** | [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/questions/ml-fundamentals-and-model-debugging) | — | Jun 10, 2026 |
 | **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Easy | Jun 08, 2026 |
 | **Apple / ByteDance** | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Medium | May 27, 2026 |
@@ -116,18 +123,27 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | **Apple / Amazon / DoorDash / Optiver** | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Medium | Apr 14, 2026 |
 | **Apple** | [Design App Store Search](https://trueinterview.io/questions/design-app-store-search) | Medium | Apr 08, 2026 |
 | **Apple** | [Container With Most Water II](https://trueinterview.io/questions/container-with-most-water) | Medium | Apr 08, 2026 |
+| **Apple** | [Discuss Challenges and Career Goals](https://trueinterview.io/questions/discuss-challenges-and-career-goals) | — | Apr 02, 2026 |
 | **Apple / Amazon / GEICO / Microsoft / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
 | **Apple / ByteDance / Citadel / Meta / Snowflake** | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Medium | Apr 01, 2026 |
 | **Apple / Amazon** | [Longest Mountain in Array](https://trueinterview.io/questions/longest-mountain-in-array) | Easy | Apr 01, 2026 |
 | **Axon** | [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files) | Hard | Mar 29, 2026 |
+| **Axon** | [Explain What Motivates and Demotivates You at Work](https://trueinterview.io/questions/explain-what-motivates-and-demotivates-you-at-work) | — | Mar 29, 2026 |
 | **Apple** | [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation) | Hard | Mar 28, 2026 |
+| **Apple** | [Validate and Assess Performance Benchmarks](https://trueinterview.io/questions/validate-and-assess-performance-benchmarks) | — | Mar 27, 2026 |
+| **Apple** | [Reduce False Failures and Classify QA Outcomes](https://trueinterview.io/questions/reduce-false-failures-and-classify-qa-outcomes) | — | Mar 27, 2026 |
 | **Apple / Microsoft / Waymo** | [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | Medium | Mar 25, 2026 |
 | **Apple / Amazon / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Medium | Mar 20, 2026 |
 | **Apple** | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer) | Medium | Mar 17, 2026 |
 | **Apple / Google / LinkedIn / Microsoft / Salesforce** | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Medium | Mar 17, 2026 |
+| **Axon** | [How did you handle an ethical issue?](https://trueinterview.io/questions/how-did-you-handle-an-ethical-issue) | — | Mar 16, 2026 |
 | **Apple** | [Design a Score for Imperfect Palindromes](https://trueinterview.io/questions/design-a-score-for-imperfect-palindromes) | Medium | Mar 16, 2026 |
+| **Apple** | [Improve QA Benchmarks, Regression Tests, and HPC Resource Use](https://trueinterview.io/questions/improve-qa-benchmarks-regression-tests-and-hpc-resource-use) | — | Mar 16, 2026 |
+| **Apple** | [How do you align ambiguous cross-functional projects?](https://trueinterview.io/questions/how-do-you-align-ambiguous-cross-functional-projects) | — | Mar 13, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
+| **Apple** | [How to root-cause Wi‑Fi chip stops after 30 minutes](https://trueinterview.io/questions/how-to-root-cause-wi-fi-chip-stops-after-30-minutes) | — | Mar 06, 2026 |
+| **Apple** | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/questions/systemverilog-dv-constraint-and-architecture-loop) | — | Mar 06, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
 | **Uber / Apple / Bloomberg / ByteDance / Meta / Microsoft** | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Hard | Mar 04, 2026 |
 | **Apple** | [Bold Words in String](https://trueinterview.io/questions/bold-words-in-string) | Medium | Mar 03, 2026 |
@@ -136,7 +152,9 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | **Apple** | [Optimize image filters on device](https://trueinterview.io/questions/optimize-image-filters-on-device) | Hard | Mar 01, 2026 |
 | **Apple** | [Implement permutations and image retrieval — Q 2](https://trueinterview.io/questions/implement-permutations-and-image-retrieval-q2) | Medium | Mar 01, 2026 |
 | **Apple** | [Implement permutations and image retrieval — Q 1](https://trueinterview.io/questions/implement-permutations-and-image-retrieval-q1) | Medium | Mar 01, 2026 |
+| **Axon** | [Explain scope and impact under pressure](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure) | — | Mar 01, 2026 |
 | **Axon** | [Design fulfillment truck routing and inventory system](https://trueinterview.io/questions/design-fulfillment-truck-routing-and-inventory-system) | Hard | Mar 01, 2026 |
+| **Apple** | [Analyze vision model failures](https://trueinterview.io/questions/analyze-vision-model-failures) | — | Mar 01, 2026 |
 | **Axon** | [Find accessible devices via nested memberships](https://trueinterview.io/questions/find-accessible-devices-via-nested-memberships) | Medium | Mar 01, 2026 |
 | **Reddit / Apple / Bloomberg** | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Medium | Mar 2026 |
 | **Apple** | [Write a Debounce Function](https://trueinterview.io/questions/write-a-debounce-function) | Medium | Feb 27, 2026 |
@@ -144,12 +162,18 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | **Apple** | [Debug a Buggy UNet in PyTorch](https://trueinterview.io/questions/debug-a-buggy-unet-in-pytorch) | Hard | Feb 25, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
 | **Apple / Bloomberg / Google** | [Decode String](https://trueinterview.io/questions/decode-string) | Medium | Feb 16, 2026 |
+| **Apple** | [Compare audio preprocessing and training](https://trueinterview.io/questions/compare-audio-preprocessing-and-training) | — | Feb 15, 2026 |
 | **Apple** | [Design CI/CD for AI Services](https://trueinterview.io/questions/design-ci-cd-for-ai-services) | Hard | Feb 13, 2026 |
+| **Apple** | [Describe proudest project and toughest challenge](https://trueinterview.io/questions/describe-proudest-project-and-toughest-challenge) | — | Feb 12, 2026 |
 | **Apple / Google** | [Compute conflicts and minimum meeting rooms](https://trueinterview.io/questions/compute-conflicts-and-minimum-meeting-rooms) | Medium | Feb 12, 2026 |
 | **Axon** | [Design camera-footage upload with custody chain](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) | Hard | Feb 11, 2026 |
 | **Apple** | [One Edit Distance](https://trueinterview.io/questions/one-edit-distance) | Easy | Feb 11, 2026 |
+| **Axon** | [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) | — | Feb 09, 2026 |
+| **Apple** | [Describe your most memorable bug and fix](https://trueinterview.io/questions/describe-your-most-memorable-bug-and-fix) | — | Feb 09, 2026 |
+| **Apple** | [Answer OoO, caches, and memory-system questions](https://trueinterview.io/questions/answer-ooo-caches-and-memory-system-questions) | — | Feb 09, 2026 |
 | **Apple** | [Solve mixed coding tasks from interviews](https://trueinterview.io/questions/solve-mixed-coding-tasks-from-interviews) | Hard | Feb 09, 2026 |
 | **Apple** | [Dedupe Unsorted Array (Three Variants)](https://trueinterview.io/questions/dedupe-unsorted-array-three-variants) | Medium | Feb 09, 2026 |
+| **Axon** | [Answer tough self-awareness and team questions](https://trueinterview.io/questions/answer-tough-self-awareness-and-team-questions) | — | Feb 08, 2026 |
 | **Apple / Amazon / Bloomberg / Boston Consulting Group / ByteDance / Intuit / LinkedIn / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Axon** | [Design device logging system with offline upload](https://trueinterview.io/questions/design-device-logging-system-with-offline-upload) | Medium | Feb 06, 2026 |
 | **Apple** | [Find Median (Oracle Variant)](https://trueinterview.io/questions/find-median-oracle-variant) | Medium | Feb 06, 2026 |
@@ -165,7 +189,9 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | **Apple** | [Solve 15 common interview problems](https://trueinterview.io/questions/solve-15-common-interview-problems) | Easy | Jan 27, 2026 |
 | **LinkedIn / Amazon / Apple / Microsoft / Oracle / Snapchat** | [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Hard | Jan 22, 2026 |
 | **Apple / Google** | [Find K Pairs with Smallest Sums](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) | Medium | Jan 22, 2026 |
+| **Apple** | [Explain your LLM project and contributions](https://trueinterview.io/questions/explain-your-llm-project-and-contributions) | — | Jan 17, 2026 |
 | **Netflix / Apple** | [Reconstruct Itinerary](https://trueinterview.io/questions/reconstruct-itinerary) | Hard | Jan 09, 2026 |
+| **Apple** | [How would you critique this regression?](https://trueinterview.io/questions/how-would-you-critique-this-regression) | — | Jan 08, 2026 |
 | **Apple** | [Airplane Seat Reservation API](https://trueinterview.io/questions/airplane-seat-reservation-api) | Medium | Jan 06, 2026 |
 | **Apple** | [Design Siri-vs-GPT query routing](https://trueinterview.io/questions/design-siri-vs-gpt-query-routing) | Medium | Jan 04, 2026 |
 | **Apple** | [Design a streaming embedding-based classifier](https://trueinterview.io/questions/design-a-streaming-embedding-based-classifier) | Hard | Jan 02, 2026 |
@@ -175,6 +201,7 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | **Apple** | [Out of Boundary Paths](https://trueinterview.io/questions/out-of-boundary-paths) | Medium | Dec 21, 2025 |
 | **Apple** | [Numbers with No Neighbors](https://trueinterview.io/questions/numbers-with-no-neighbors) | Easy | Dec 21, 2025 |
 | **Apple** | [Apple News Search Without ML](https://trueinterview.io/questions/apple-news-search-without-ml) | Medium | Dec 18, 2025 |
+| **Apple** | [Explain classification lifecycle and CTR modeling](https://trueinterview.io/questions/explain-classification-lifecycle-and-ctr-modeling) | — | Dec 17, 2025 |
 | **Apple** | [Solve stock and banana problems](https://trueinterview.io/questions/solve-stock-and-banana-problems) | Medium | Dec 17, 2025 |
 | **Apple** | [Design a multimodal RAG assistant](https://trueinterview.io/questions/design-a-multimodal-rag-assistant) | Medium | Dec 15, 2025 |
 | **Apple** | [Implement TF-IDF scoring for documents](https://trueinterview.io/questions/implement-tf-idf-scoring-for-documents) | Medium | Dec 15, 2025 |
@@ -184,15 +211,19 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | **Apple** | [Implement an Image Filter](https://trueinterview.io/questions/implement-an-image-filter) | Medium | Dec 02, 2025 |
 | **Apple** | [Design a Concurrent Image Upload System](https://trueinterview.io/questions/design-a-concurrent-image-upload-system) | Medium | Nov 30, 2025 |
 | **Apple** | [Concurrent users from online intervals](https://trueinterview.io/questions/solve-interval-grid-fill-and-heap-tasks-concurrent-users-from-online-intervals) | Medium | Nov 27, 2025 |
+| **Apple** | [How would you handle an unresponsive teammate?](https://trueinterview.io/questions/how-would-you-handle-an-unresponsive-teammate) | — | Nov 27, 2025 |
 | **Apple** | [Distributed Rate Limiter with Lua Details](https://trueinterview.io/questions/distributed-rate-limiter-with-lua) | Medium | Nov 21, 2025 |
 | **Apple** | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | Easy | Nov 20, 2025 |
 | **Axon** | [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) | Medium | Nov 18, 2025 |
 | **Databricks / Amazon / Cisco / Expedia / Meta** | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Medium | Nov 18, 2025 |
 | **Apple** | [Solve three easy algorithm problems](https://trueinterview.io/questions/solve-three-easy-algorithm-problems) | Medium | Nov 11, 2025 |
+| **Apple** | [Explain Vision Encoders and LLM Bottlenecks](https://trueinterview.io/questions/explain-vision-encoders-and-llm-bottlenecks) | — | Nov 11, 2025 |
 | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | Easy | Oct 29, 2025 |
 | **Apple** | [Scale Digit-Square Convergence Requests](https://trueinterview.io/questions/scale-digit-square-convergence-requests) | Medium | Oct 28, 2025 |
+| **Apple** | [Explain HashMap Resizing Without Long Pauses](https://trueinterview.io/questions/explain-hashmap-resizing-without-long-pauses) | — | Oct 28, 2025 |
 | **Apple** | [Design Disk-Based Inventory Serving](https://trueinterview.io/questions/design-disk-based-inventory-serving) | Hard | Oct 28, 2025 |
 | **Apple** | [Solve Digit-Square and Grid BFS Problems](https://trueinterview.io/questions/solve-digit-square-and-grid-bfs-problems) | Hard | Oct 28, 2025 |
+| **Arista** | [Explain C printf pointers and memory layout](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout) | — | Oct 04, 2025 |
 | **Intuit / Cisco** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Easy | Sep 29, 2025 |
 | **Cisco** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | Easy | Sep 06, 2025 |
 | **Cisco** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Medium | Sep 06, 2025 |
@@ -212,10 +243,18 @@ Of the **134 questions in this cut that carry a topic label** (72% of it):
 | **Apple** | [Query Store Opening Hours with Weekly and Overnight Schedules](https://trueinterview.io/questions/744328fa-1f8e-5a2b-a56f-bfa3d4bede9a) | Medium | — |
 | **Apple** | [Multi-System Unit Conversion](https://trueinterview.io/questions/50188fca-862f-5a0d-9b09-402e6a620571) | Medium | — |
 | **Apple** | [Implement a Blocking Producer-Consumer Queue](https://trueinterview.io/questions/0adf134e-1cdf-57c2-98d7-78cd94cfd6a4) | Medium | — |
+| **Apple** | [Improve chip performance without process advances](https://trueinterview.io/questions/improve-chip-performance-without-process-advances) | — | — |
+| **Apple** | [Handle conflict, priorities, and harsh clients](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients) | — | — |
+| **Apple** | [Explain use cases for clock synchronizers](https://trueinterview.io/questions/explain-use-cases-for-clock-synchronizers) | — | — |
+| **Apple** | [Evaluate a model and choose metrics](https://trueinterview.io/questions/evaluate-a-model-and-choose-metrics) | — | — |
+| **Apple** | [Describe common RTL lint warnings and errors](https://trueinterview.io/questions/describe-common-rtl-lint-warnings-and-errors) | — | — |
+| **Apple** | [Compare Normal vs Poisson; test dispersion and approximate tails](https://trueinterview.io/questions/compare-normal-vs-poisson-test-dispersion-and-approximate-tails) | — | — |
+| **Apple** | [Clarify status, education, and multi-role strategy](https://trueinterview.io/questions/clarify-status-education-and-multi-role-strategy) | — | — |
 | **Apple** | [Find longest uniform substring after k replacements](https://trueinterview.io/questions/find-longest-uniform-substring-after-k-replacements) | Medium | — |
 | **Apple** | [Detect sessions and gaps using SQL LEAD](https://trueinterview.io/questions/detect-sessions-and-gaps-using-sql-lead) | Medium | — |
 | **Apple** | [Compute optimal matrix-chain multiplication order](https://trueinterview.io/questions/compute-optimal-matrix-chain-multiplication-order) | Hard | — |
 | **Oracle / Apple** | [Generate all permutations of a list](https://trueinterview.io/questions/55b47ffb-5c4d-4c32-b3fc-350263687e62) | Easy | — |
+| **Apple** | [Crafting a Compelling Job Transition and Motivation Response](https://trueinterview.io/questions/ebf5d768-7f3c-40dc-927c-477fe70eae77) | — | — |
 | **Apple** | [Merge Two Strings by Maximum Edge Overlap](https://trueinterview.io/questions/e375a17a-d43d-501b-b79c-2fa09b7bcabc) | Easy | — |
 | **Apple** | [Constrain an Increasing Array With Minimum Adjacent Difference](https://trueinterview.io/questions/d5642f20-01c2-549f-833c-8e654d14cbd6) | Easy | — |
 | **Apple** | [Constrain Every Five Consecutive Array Elements to Be Unique](https://trueinterview.io/questions/c9bd91f8-10cc-5032-9141-ac058ba5d7ca) | Medium | — |

@@ -8,8 +8,8 @@ How DoorDash interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [108](../doordash.md) |
-| Free to read here | 5 |
+| Questions reported | [149](../doordash.md) |
+| Free to read here | 6 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 16, 2026 |
@@ -49,19 +49,61 @@ Here's what the interview process can look like:
 
 ## Free DoorDash questions
 
-5 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+47 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) |
+| [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) |
+| [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) |
+| [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) |
+| [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) |
+| [Resolve a Workplace Conflict](https://trueinterview.io/questions/resolve-a-workplace-conflict) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/resolve-a-workplace-conflict) |
+| [Explain Why You Are Changing Roles](https://trueinterview.io/questions/explain-why-you-are-changing-roles) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-why-you-are-changing-roles) |
+| [Explain an AI-Assisted Project](https://trueinterview.io/questions/explain-an-ai-assisted-project) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-an-ai-assisted-project) |
+| [Hiring Manager Behavioral Round](https://trueinterview.io/questions/hm-behavioral-round) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/hm-behavioral-round) |
+| [ML Knowledge / Discussion Round](https://trueinterview.io/questions/mle-ml-discussion-round) | Blog | — | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/mle-ml-discussion-round) |
+| [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/culture-behavioral-interview-questions) |
+| [Diagnose Cold-Food Deliveries and Make a Launch Decision](https://trueinterview.io/questions/diagnose-cold-food-deliveries-and-make-a-launch-decision) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/diagnose-cold-food-deliveries-and-make-a-launch-decision) |
 | [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/koko-eating-bananas) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
+| [On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/onsite-case-investigation) |
+| [How would you mentor junior teammates?](https://trueinterview.io/questions/how-would-you-mentor-junior-teammates) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/how-would-you-mentor-junior-teammates) |
+| [Describe a Project End-to-End](https://trueinterview.io/questions/describe-a-project-end-to-end) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-a-project-end-to-end) |
+| [Evaluate a new ranking model](https://trueinterview.io/questions/evaluate-a-new-ranking-model) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/evaluate-a-new-ranking-model) |
+| [Assess Adding Bicycle Dashers](https://trueinterview.io/questions/assess-adding-bicycle-dashers) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/assess-adding-bicycle-dashers) |
+| [Investigate High Memory Usage](https://trueinterview.io/questions/investigate-high-memory-usage) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/investigate-high-memory-usage) |
+| [How do you discuss mistakes and trade-offs?](https://trueinterview.io/questions/how-do-you-discuss-mistakes-and-trade-offs) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-discuss-mistakes-and-trade-offs) |
+| [Diagnose completed orders drop in Los Angeles](https://trueinterview.io/questions/diagnose-completed-orders-drop-in-los-angeles) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/diagnose-completed-orders-drop-in-los-angeles) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
+| [Describe a conflict and how you resolved it](https://trueinterview.io/questions/describe-a-conflict-and-how-you-resolved-it) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-a-conflict-and-how-you-resolved-it) |
+| [Describe handling conflict and a proud project](https://trueinterview.io/questions/describe-handling-conflict-and-a-proud-project) | Blog | — | Online assessment | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-handling-conflict-and-a-proud-project) |
+| [Answer feedback, conflict, and failure questions](https://trueinterview.io/questions/answer-feedback-conflict-and-failure-questions) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-feedback-conflict-and-failure-questions) |
+| [How would you prevent wrong items in deliveries?](https://trueinterview.io/questions/how-would-you-prevent-wrong-items-in-deliveries) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-prevent-wrong-items-in-deliveries) |
+| [Walk Through an ETL Project](https://trueinterview.io/questions/walk-through-an-etl-project) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/walk-through-an-etl-project) |
+| [Allocate Support Cost and Diagnose Decline](https://trueinterview.io/questions/allocate-support-cost-and-diagnose-decline) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/allocate-support-cost-and-diagnose-decline) |
+| [Find Closest Dashmart](../../questions/algorithm/find-closest-dashmart/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/find-closest-dashmart) |
+| [Prioritize projects and manage tight deadlines](https://trueinterview.io/questions/prioritize-projects-and-manage-tight-deadlines) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/prioritize-projects-and-manage-tight-deadlines) |
+| [Handle conflict and time-pressured decision](https://trueinterview.io/questions/handle-conflict-and-time-pressured-decision) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/handle-conflict-and-time-pressured-decision) |
+| [Explain why DoorDash and job change](https://trueinterview.io/questions/explain-why-doordash-and-job-change) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-why-doordash-and-job-change) |
+| [Explain motivation and align expectations for L4 role](https://trueinterview.io/questions/explain-motivation-and-align-expectations-for-l4-role) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-motivation-and-align-expectations-for-l4-role) |
+| [Explain interest and influence stakeholders](https://trueinterview.io/questions/explain-interest-and-influence-stakeholders) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-interest-and-influence-stakeholders) |
+| [Experiment on increasing order notifications](https://trueinterview.io/questions/experiment-on-increasing-order-notifications) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/experiment-on-increasing-order-notifications) |
+| [Diagnose and experiment to reduce late deliveries](https://trueinterview.io/questions/diagnose-and-experiment-to-reduce-late-deliveries) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-and-experiment-to-reduce-late-deliveries) |
+| [Design and analyze a switchback experiment](https://trueinterview.io/questions/design-and-analyze-a-switchback-experiment) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-and-analyze-a-switchback-experiment) |
+| [Design analytics for a new-market launch](https://trueinterview.io/questions/design-analytics-for-a-new-market-launch) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-analytics-for-a-new-market-launch) |
+| [Design an experiment for thermal bags](https://trueinterview.io/questions/design-an-experiment-for-thermal-bags) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-an-experiment-for-thermal-bags) |
+| [Design an experiment for order batching](https://trueinterview.io/questions/design-an-experiment-for-order-batching) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-an-experiment-for-order-batching) |
+| [Define and compute retention and churn precisely](https://trueinterview.io/questions/define-and-compute-retention-and-churn-precisely) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/define-and-compute-retention-and-churn-precisely) |
+| [Decompose and optimize delivery operational costs](https://trueinterview.io/questions/decompose-and-optimize-delivery-operational-costs) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/decompose-and-optimize-delivery-operational-costs) |
+| [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) |
+| [Calculate power and test duration](https://trueinterview.io/questions/calculate-power-and-test-duration) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/calculate-power-and-test-duration) |
 
 ## Everything else
 
-- [All 108 questions reported at DoorDash](../doordash.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 149 questions reported at DoorDash](../doordash.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every DoorDash question on TrueInterview](https://trueinterview.io/problems/company/doordash).
 
 ---

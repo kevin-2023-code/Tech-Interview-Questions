@@ -8,7 +8,7 @@ How Asana interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [8](../asana.md) |
+| Questions reported | [11](../asana.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -20,16 +20,19 @@ No written process guide yet. [The loop, as reported](../asana.md#the-loop-as-re
 
 ## Free Asana questions
 
-2 questions reported at Asana open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Asana open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design and Solve a Rotatable Jigsaw Puzzle](../../questions/object-oriented-programming/design-and-solve-a-rotatable-jigsaw-puzzle/README.md) | Object Oriented Programming | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-and-solve-a-rotatable-jigsaw-puzzle) |
+| [Answer Manager Behavioral Prompts](https://trueinterview.io/questions/answer-manager-behavioral-prompts) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/answer-manager-behavioral-prompts) |
+| [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) |
 | [Design a Twitter-like microblogging service](../../questions/system-design/design-a-twitter-like-microblogging-service/README.md) | System Design | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) |
+| [Implement core puzzle/array/grid routines](https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines) |
 
 ## Everything else
 
-- [All 8 questions reported at Asana](../asana.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 11 questions reported at Asana](../asana.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Asana question on TrueInterview](https://trueinterview.io/problems/company/asana).
 
 ---

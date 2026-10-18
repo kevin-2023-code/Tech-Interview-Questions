@@ -2,7 +2,7 @@
 
 # Amplitude interview process, OA & interview questions
 
-**7 questions** reported at Amplitude · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amplitude), judged server-side on the algorithm, low-level-design and SQL formats.
+**8 questions** reported at Amplitude · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amplitude), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amplitude interviews & the free questions](amplitude/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **7** |
+| Questions tracked | **8** |
 | Most recent sighting | Mar 03, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 7) |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 8) |
 | Difficulty (easy / medium / hard) | 1 / 5 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 7 questions reported at Amplitude. 3 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 8 questions reported at Amplitude. 4 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **7 of 7** questions at Amplitude that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **8 of 8** questions at Amplitude that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ████████ | [Algorithm](../formats/algorithm.md) (33%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (25%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,7 @@ Which stage each question came from, for the **7 of 7** questions at Amplitude t
 
 ## What they ask about
 
-Of the **5 questions at Amplitude that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **5 questions at Amplitude that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -60,22 +60,23 @@ Every recorded sighting at Amplitude, by the month it was reported in — Oct 02
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Mar 2026](../by-month/2026-03.md) | 2 | ████████████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ████████ |
 
 ## Start here
 
-The 7 questions to open first if you are preparing for Amplitude, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Amplitude, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a Shared Todo App](https://trueinterview.io/questions/design-a-shared-todo-app) | System Design | Easy | — | Mar 03, 2026 |
 | **2** | [Implement Employee Validation and Snake](https://trueinterview.io/questions/implement-employee-validation-and-snake) | Algorithm | Hard | — | Mar 03, 2026 |
-| **3** | [Snake Game](https://trueinterview.io/questions/snake-game) 🆓 | Object Oriented Programming | Medium | 1 | Oct 02, 2025 |
-| **4** | [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) 🆓 | Algorithm | Medium | — | — |
-| **5** | [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Algorithm | Medium | — | — |
-| **6** | [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Algorithm | Medium | — | — |
-| **7** | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Algorithm | Medium | — | — |
+| **3** | [Describe Product and Team Collaboration](https://trueinterview.io/questions/describe-product-and-team-collaboration) 🆓 | Blog | — | — | Mar 03, 2026 |
+| **4** | [Snake Game](https://trueinterview.io/questions/snake-game) 🆓 | Object Oriented Programming | Medium | 1 | Oct 02, 2025 |
+| **5** | [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) 🆓 | Algorithm | Medium | — | — |
+| **6** | [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Algorithm | Medium | — | — |
+| **7** | [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Algorithm | Medium | — | — |
+| **8** | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -98,6 +99,7 @@ The 7 questions to open first if you are preparing for Amplitude, ranked by **th
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design a Shared Todo App](https://trueinterview.io/questions/design-a-shared-todo-app) | System Design | Easy | Mar 03, 2026 |
+| [Describe Product and Team Collaboration](https://trueinterview.io/questions/describe-product-and-team-collaboration) | Blog | — | Mar 03, 2026 |
 | [Implement Employee Validation and Snake](https://trueinterview.io/questions/implement-employee-validation-and-snake) | Algorithm | Hard | Mar 03, 2026 |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | Object Oriented Programming | Medium | Oct 02, 2025 |
 | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Algorithm | Medium | — |
