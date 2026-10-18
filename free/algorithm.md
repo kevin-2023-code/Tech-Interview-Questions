@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**304 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**302 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -111,7 +111,6 @@
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | **Goldman Sachs / Citadel / Voleon** | Medium | Oct 26, 2024 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | **Google / Affirm / Uber** | Medium | Jun 10, 2026 |
 | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | **Netflix / Goldman Sachs / Google** | Medium | Mar 11, 2026 |
-| [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | **Apple / Microsoft / Waymo** | Medium | Mar 25, 2026 |
 | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | **Salesforce / Akuna Capital / Palantir** | Medium | — |
 | [Minimum Knight Moves](https://trueinterview.io/questions/minimum-knight-moves) | **Uber / Meta / Salesforce** | Medium | Mar 28, 2026 |
 | [Minimum Operations to Reduce an Integer to 0](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) | **Uber / Google / Salesforce** | Medium | Apr 01, 2026 |
@@ -260,5 +259,6 @@
 | [Unequal Elements](https://trueinterview.io/questions/unequal-elements) | **Snowflake** | Medium | Jul 20, 2025 |
 | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) | **Ramp** | Medium | Jun 01, 2026 |
 | [Valid Triangle + Point Inclusion](https://trueinterview.io/questions/valid-triangle-point-inclusion) | **Goldman Sachs** | Medium | Oct 26, 2024 |
+| [Validate Playlist Sequence](https://trueinterview.io/questions/validate-playlist-sequence) | **Roblox** | Medium | Sep 02, 2025 |
 
 <sub>Page 1 of 2 · [Page 2 →](algorithm-2.md)</sub>

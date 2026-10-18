@@ -18,12 +18,12 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 202 | 55% | ██████████████ | 40 |
+| [Algorithm](../formats/algorithm.md) | 201 | 55% | ██████████████ | 40 |
 | [Blog](../formats/blog.md) | 94 | 26% | ███████ | 94 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 44 | 12% | ███ | 6 |
 | [System Design](../formats/system-design.md) | 16 | 4% | █ | 0 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 5 | 1% | █ | 1 |
+| [AI Coding](../formats/ai-coding.md) | 6 | 2% | █ | 1 |
 
 <sub>Difficulty across the cut (easy / medium / hard): **35 / 177 / 62**, over the rows the catalog has graded. 141 of the 368 open without a paid plan.</sub>
 

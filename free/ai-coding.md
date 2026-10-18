@@ -2,7 +2,7 @@
 
 # Free AI Coding questions
 
-**10 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**12 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 | :-- | :-- | :-: | :-- |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | **Ramp / Databricks / SoFi** | Easy | Jun 2025 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | Medium | 🆕 Oct 01, 2026 |
+| [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | **Apple / Microsoft / Waymo** | Medium | Mar 25, 2026 |
 | [BERT Span / Keyphrase Extraction](https://trueinterview.io/questions/bert-keyphrase-span-extraction) | **Figma** | Medium | Dec 24, 2024 |
 | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | **Tesla** | Medium | Aug 23, 2025 |
 | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | **Hudson River Trading** | Medium | — |
@@ -17,4 +18,5 @@
 | [Mako Template Engine](https://trueinterview.io/questions/debug-mako-template-engine) | **Stripe** | Medium | Jun 03, 2026 |
 | [Maze Solver](https://trueinterview.io/questions/ai-coding-maze-solver) | **Meta** | Medium | May 30, 2026 |
 | [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | **Anthropic** | Medium | — |
+| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | **Apple / Scale AI** | Hard | Jun 16, 2026 |
 | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | **xAI** | Hard | Apr 04, 2026 |

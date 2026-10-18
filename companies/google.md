@@ -31,7 +31,7 @@ Which stage each question came from, for the **380 of 380** questions at Google 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 30 | █ | [Algorithm](../formats/algorithm.md) (83%) | 15 / 10 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 212 | ██████████ | [Algorithm](../formats/algorithm.md) (63%) | 9 / 112 / 39 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 212 | ██████████ | [Algorithm](../formats/algorithm.md) (62%) | 9 / 112 / 39 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 167 | ████████ | [Algorithm](../formats/algorithm.md) (47%) | 11 / 82 / 42 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>

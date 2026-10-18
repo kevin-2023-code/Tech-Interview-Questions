@@ -18,31 +18,31 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 744 | 44% | ██████████████ | 105 |
+| [Algorithm](../formats/algorithm.md) | 736 | 44% | ██████████████ | 104 |
 | [Blog](../formats/blog.md) | 307 | 18% | ██████ | 307 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 251 | 15% | █████ | 31 |
 | [System Design](../formats/system-design.md) | 246 | 15% | █████ | 20 |
-| [AI Coding](../formats/ai-coding.md) | 68 | 4% | █ | 7 |
+| [AI Coding](../formats/ai-coding.md) | 76 | 5% | █ | 8 |
 | [SQL](../formats/sql.md) | 64 | 4% | █ | 1 |
 
 <sub>Difficulty across the cut (easy / medium / hard): **188 / 874 / 311**, over the rows the catalog has graded. 471 of the 1,680 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **739 questions in this cut that carry a topic label** (44% of it):
+Of the **735 questions in this cut that carry a topic label** (44% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 157 | 21% | ████████████ |
 | `strings` | 121 | 16% | █████████ |
-| `graphs` | 114 | 15% | █████████ |
+| `graphs` | 114 | 16% | █████████ |
 | `arrays` | 86 | 12% | ███████ |
 | `greedy` | 61 | 8% | █████ |
 | `dynamic-programming` | 52 | 7% | ████ |
 | `sorting` | 52 | 7% | ████ |
-| `math` | 51 | 7% | ████ |
 | `trees` | 51 | 7% | ████ |
 | `backtracking` | 49 | 7% | ████ |
+| `math` | 48 | 7% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

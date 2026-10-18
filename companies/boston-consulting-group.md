@@ -15,7 +15,7 @@
 | Questions tracked | **19** |
 | Most recent sighting | Aug 04, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 19) |
+| Most common format | [Blog](../formats/blog.md) (47% of 19) |
 | Difficulty (easy / medium / hard) | 3 / 3 / 4 |
 | Free to practise | [12](../free/README.md) |
 | Guides & writeups | 0 |
@@ -29,7 +29,7 @@ Which stage each question came from, for the **19 of 19** questions at Boston Co
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 8 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 2 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 1 / 2 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 11 | ██████████ | [Blog](../formats/blog.md) (45%) | 1 / 2 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -110,7 +110,7 @@ The 8 questions to open first if you are preparing for Boston Consulting Group, 
 | [Compute averages and binomial/Poisson probabilities](https://trueinterview.io/questions/compute-averages-and-binomial-poisson-probabilities) | Blog | — | — |
 | [Build and evaluate imbalanced binary classifier](https://trueinterview.io/questions/build-and-evaluate-imbalanced-binary-classifier) | Blog | — | — |
 | [Achieve 0.95 precision via thresholding](https://trueinterview.io/questions/achieve-0-95-precision-via-thresholding) | Algorithm | Medium | — |
-| [Transform messy transactions with pandas](https://trueinterview.io/questions/transform-messy-transactions-with-pandas) | Algorithm | Hard | — |
+| [Transform messy transactions with pandas](https://trueinterview.io/questions/transform-messy-transactions-with-pandas) | AI Coding | Hard | — |
 | [Query top spenders and 7-day growth](https://trueinterview.io/questions/query-top-spenders-and-7-day-growth) | SQL | Medium | — |
 | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | Algorithm | Easy | — |
 | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |

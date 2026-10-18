@@ -115,8 +115,8 @@ Here are some questions reported by recent candidates:
 - Given two sentences, return whether they differ by exactly one inserted, deleted or replaced word, in linear time.
 - Implement an image filter, then explain how you would make it run efficiently on device.
 
-- [Implement K-Means in NumPy or PyTorch](../../questions/algorithm/implement-k-means-in-numpy-or-pytorch/README.md)
-- [Transformer Attention Mask and Heads Coding](../../questions/algorithm/transformer-attention-mask-and-heads-coding/README.md)
+- [Implement K-Means in NumPy or PyTorch](../../questions/ai-coding/implement-k-means-in-numpy-or-pytorch/README.md)
+- [Transformer Attention Mask and Heads Coding](../../questions/ai-coding/transformer-attention-mask-and-heads-coding/README.md)
 - [One Edit Distance](https://trueinterview.io/questions/one-edit-distance)
 - [Implement an Image Filter](https://trueinterview.io/questions/implement-an-image-filter)
 

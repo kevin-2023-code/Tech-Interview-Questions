@@ -17,7 +17,7 @@
 | Questions tracked | **239** |
 | Most recent sighting | Oct 03, 2026 |
 | Reported in the last 90 days | 39 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 239) |
+| Most common format | [Algorithm](../formats/algorithm.md) (56% of 239) |
 | Difficulty (easy / medium / hard) | 30 / 130 / 47 |
 | Free to practise | [55](../free/README.md) |
 | Guides & writeups | 5 |
@@ -31,8 +31,8 @@ Which stage each question came from, for the **239 of 239** questions at Microso
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 30 | ██ | [Algorithm](../formats/algorithm.md) (83%) | 11 / 11 / 6 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 108 | █████████ | [Algorithm](../formats/algorithm.md) (63%) | 13 / 63 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 120 | ██████████ | [Algorithm](../formats/algorithm.md) (49%) | 9 / 68 / 26 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 108 | █████████ | [Algorithm](../formats/algorithm.md) (61%) | 13 / 63 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 120 | ██████████ | [Algorithm](../formats/algorithm.md) (48%) | 9 / 68 / 26 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -59,11 +59,11 @@ Which stage each question came from, for the **239 of 239** questions at Microso
 
 ## What they ask about
 
-Of the **136 questions at Microsoft that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **135 questions at Microsoft that carry a topic label** (56% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 25 | 18% | ████████████ | Oct 01, 2026 |
+| `strings` | 25 | 19% | ████████████ | Oct 01, 2026 |
 | `graphs` | 23 | 17% | ███████████ | Sep 29, 2026 |
 | `hashing` | 23 | 17% | ███████████ | Oct 01, 2026 |
 | `arrays` | 22 | 16% | ███████████ | Oct 03, 2026 |
@@ -187,7 +187,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Org Chart Report Count (Tree Aggregation)](https://trueinterview.io/questions/org-chart-report-count) | Object Oriented Programming | Medium | May 21, 2026 |
 | [Contiguous Memory Allocator](https://trueinterview.io/questions/memory-allocator-2) | Object Oriented Programming | Medium | May 21, 2026 |
 | [Chatbot Personalization / Memory System Design](https://trueinterview.io/questions/chatbot-personalization-memory-design) | System Design | Hard | May 21, 2026 |
-| [Hand-Write K-Means Clustering (NumPy)](https://trueinterview.io/questions/ml-coding-handwrite-kmeans) | Algorithm | Medium | May 13, 2026 |
+| [Hand-Write K-Means Clustering (NumPy)](https://trueinterview.io/questions/ml-coding-handwrite-kmeans) | AI Coding | Medium | May 13, 2026 |
 | [Design Product-Description Content Moderation at Marketplace Scale](https://trueinterview.io/questions/design-product-description-content-moderation-at-marketplace-scale) | System Design | Hard | May 04, 2026 |
 | [Valid Palindrome II](https://trueinterview.io/questions/valid-palindrome-ii) | Algorithm | Medium | May 02, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
@@ -213,7 +213,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Apr 02, 2026 |
 | [Final Prices With a Special Discount in a Shop](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) | Algorithm | Easy | Apr 01, 2026 |
 | [Count Positive Pairs Satisfying 1/x + 1/y = 1/N](https://trueinterview.io/questions/equations-reciprocal-pair-count) | Algorithm | Medium | Mar 26, 2026 |
-| [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | Algorithm | Medium | Mar 25, 2026 |
+| [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | AI Coding | Medium | Mar 25, 2026 |
 | [KV Store with Snapshot Versions](https://trueinterview.io/questions/kv-store-with-snapshot) | Object Oriented Programming | Hard | Mar 23, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
 | [Transformer Roofline + FP32→FP16 Drill](https://trueinterview.io/questions/transformer-roofline-fp-precision) | Blog | — | Mar 22, 2026 |

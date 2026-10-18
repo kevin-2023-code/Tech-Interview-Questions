@@ -172,7 +172,7 @@ Here are some questions reported by recent candidates:
 - Design a RAG system and write code that evaluates LLM outputs.
 
 - [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention)
-- [Transformer Attention Mask and Heads Coding](../../questions/algorithm/transformer-attention-mask-and-heads-coding/README.md)
+- [Transformer Attention Mask and Heads Coding](../../questions/ai-coding/transformer-attention-mask-and-heads-coding/README.md)
 - [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation)
 - [Project Deep Dive and Paper Presentation](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation)
 

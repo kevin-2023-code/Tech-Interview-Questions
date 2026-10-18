@@ -91,7 +91,7 @@
 | [Akuna Capital](../companies/akuna-capital.md) | 35 | 3 | 14 | 3 | Aug 26, 2026 | Algorithm | `arrays` |
 | [Optiver](../companies/optiver.md) | 35 | 3 | 17 | 0 | Jun 15, 2026 | Algorithm | `dynamic-programming` |
 | [Walmart Labs](../companies/walmart-labs.md) | 35 | 1 | 9 | 1 | Aug 15, 2026 | Algorithm | `arrays` |
-| [Scale AI](../companies/scale-ai.md) | 34 | 1 | 14 | 2 | Oct 01, 2026 | Algorithm | `trees` |
+| [Scale AI](../companies/scale-ai.md) | 34 | 1 | 14 | 2 | Oct 01, 2026 | Blog | `trees` |
 | [Verkada](../companies/verkada.md) | 32 | 1 | 4 | 2 | Sep 04, 2026 | Algorithm | `hashing` |
 | [Confluent](../companies/confluent.md) | 30 | 1 | 3 | 0 | Apr 29, 2026 | Algorithm | `arrays` |
 | [Applied Intuition](../companies/applied-intuition.md) | 29 | 1 | 8 | 1 | Aug 30, 2026 | Algorithm | `graphs` |
@@ -108,7 +108,7 @@
 | [Yelp](../companies/yelp.md) | 22 | 0 | 14 | 3 | Aug 27, 2026 | Algorithm | `heap` |
 | [Dropbox](../companies/dropbox.md) | 21 | 1 | 8 | 0 | Jan 25, 2026 | Algorithm | `arrays` |
 | [Cvs Health](../companies/cvs-health.md) | 20 | 0 | 12 | 0 | Oct 17, 2025 | Blog | — |
-| [Boston Consulting Group](../companies/boston-consulting-group.md) | 19 | 0 | 12 | 1 | Aug 04, 2026 | Algorithm | `stack` |
+| [Boston Consulting Group](../companies/boston-consulting-group.md) | 19 | 0 | 12 | 1 | Aug 04, 2026 | Blog | `stack` |
 | [Rubrik](../companies/rubrik.md) | 19 | 1 | 6 | — | — | Algorithm | `graphs` |
 | [Whatnot](../companies/whatnot.md) | 19 | 0 | 5 | 0 | Jun 12, 2026 | System Design | `hashing` |
 | [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 4 | Aug 12, 2026 | Algorithm | `hashing` |
@@ -147,7 +147,7 @@
 | [Cursor](../companies/cursor.md) | 7 | 0 | 4 | 2 | Aug 21, 2026 | System Design | `trees` |
 | [GEICO](../companies/geico.md) | 7 | 1 | 3 | 0 | Apr 02, 2026 | Algorithm | `arrays` |
 | [Lead Bank](../companies/lead-bank.md) | 7 | 1 | 3 | 0 | Apr 01, 2026 | Algorithm | `hashing` |
-| [Wayfair](../companies/wayfair.md) | 7 | 0 | 3 | 5 | Sep 10, 2026 | Algorithm | `math` |
+| [Wayfair](../companies/wayfair.md) | 7 | 0 | 3 | 5 | Sep 10, 2026 | SQL | `sorting` |
 | [Circle](../companies/circle.md) | 6 | 1 | 2 | 0 | Jan 19, 2026 | Object Oriented Programming | `arrays` |
 | [Gusto](../companies/gusto.md) | 6 | 1 | 3 | 1 | Aug 01, 2026 | Algorithm | `binary-search` |
 | [Luma AI](../companies/luma-ai.md) | 6 | 1 | 2 | 0 | Jan 05, 2026 | Algorithm | `math` |

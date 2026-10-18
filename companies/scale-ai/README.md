@@ -52,7 +52,7 @@ Here's what the interview process can look like:
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Transformer Attention Mask and Heads Coding](../../questions/algorithm/transformer-attention-mask-and-heads-coding/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) |
+| [Transformer Attention Mask and Heads Coding](../../questions/ai-coding/transformer-attention-mask-and-heads-coding/README.md) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) |
 | [Task Processor: Dependencies and Deadlines](../../questions/algorithm/task-processor-dependencies-and-deadlines/README.md) | Algorithm | Hard | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) |
 | [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement) | Blog | — | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement) |
 | [Project Deep Dive and Paper Presentation](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation) | Blog | — | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation) |

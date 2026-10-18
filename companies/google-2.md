@@ -31,7 +31,7 @@
 | [Compute monthly CRR with merges and gaps](https://trueinterview.io/questions/compute-monthly-crr-with-merges-and-gaps) | SQL | Hard | — |
 | [Compute city skyline outline](https://trueinterview.io/questions/compute-city-skyline-outline) | Algorithm | Hard | — |
 | [Analyze video flags and reviews with SQL](https://trueinterview.io/questions/analyze-video-flags-and-reviews-with-sql) | SQL | Medium | — |
-| [Add a conditional column in Python](https://trueinterview.io/questions/add-a-conditional-column-in-python) | Algorithm | Medium | — |
+| [Add a conditional column in Python](https://trueinterview.io/questions/add-a-conditional-column-in-python) | AI Coding | Medium | — |
 | [Build and evaluate bad-link classifier](https://trueinterview.io/questions/build-and-evaluate-bad-link-classifier) | Blog | — | — |
 | [Maximum Assignment Between Problems and Programmers](https://trueinterview.io/questions/da013e43-63d8-5840-93c8-df123b1c76f9) | Algorithm | Hard | — |
 | [Reconstruct the BFS Path Before Reaching a Target](https://trueinterview.io/questions/ceeafc15-ce16-50a3-8890-26d9bd82c3ca) | Algorithm | Medium | — |

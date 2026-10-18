@@ -2,10 +2,10 @@
 
 # Free reading, by topic
 
-**216 writeups**, grouped by what each one is about. They are free to read on the site. A guide carrying several topics is listed under each.
+**226 writeups**, grouped by what each one is about. They are free to read on the site. A guide carrying several topics is listed under each.
 
 [← By company](README.md) · [← Question bank](../README.md)
 
-> **216 of them carry no topic label** and are therefore absent from this page. They are not missing: every one is on [its company's section](README.md), which is the other way into the same set.
+> **226 of them carry no topic label** and are therefore absent from this page. They are not missing: every one is on [its company's section](README.md), which is the other way into the same set.
 
 _No guide carries a topic label yet._

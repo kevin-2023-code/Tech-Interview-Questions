@@ -17,7 +17,7 @@
 | Questions tracked | **181** |
 | Most recent sighting | Oct 02, 2026 |
 | Reported in the last 90 days | 15 |
-| Most common format | [Algorithm](../formats/algorithm.md) (56% of 181) |
+| Most common format | [Algorithm](../formats/algorithm.md) (55% of 181) |
 | Difficulty (easy / medium / hard) | 34 / 90 / 26 |
 | Free to practise | [54](../free/README.md) |
 | Guides & writeups | 4 |
@@ -31,8 +31,8 @@ Which stage each question came from, for the **181 of 181** questions at Apple t
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 14 | █ | [Algorithm](../formats/algorithm.md) (86%) | 12 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 135 | ██████████ | [Algorithm](../formats/algorithm.md) (59%) | 20 / 71 / 21 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 57 | ████ | [Algorithm](../formats/algorithm.md) (32%) | 4 / 29 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 135 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 20 / 71 / 21 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 57 | ████ | [Algorithm](../formats/algorithm.md) (28%) | 4 / 29 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -59,18 +59,18 @@ Which stage each question came from, for the **181 of 181** questions at Apple t
 
 ## What they ask about
 
-Of the **107 questions at Apple that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **106 questions at Apple that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 25 | 23% | ████████████ | Aug 26, 2026 |
+| `hashing` | 25 | 24% | ████████████ | Aug 26, 2026 |
 | `arrays` | 19 | 18% | █████████ | Aug 05, 2026 |
 | `graphs` | 19 | 18% | █████████ | Oct 02, 2026 |
 | `matrix` | 13 | 12% | ██████ | Oct 02, 2026 |
 | `strings` | 11 | 10% | █████ | May 05, 2026 |
 | `two-pointers` | 9 | 8% | ████ | Apr 28, 2026 |
-| `linked-list` | 8 | 7% | ████ | Aug 16, 2026 |
-| `sorting` | 8 | 7% | ████ | Aug 05, 2026 |
+| `linked-list` | 8 | 8% | ████ | Aug 16, 2026 |
+| `sorting` | 8 | 8% | ████ | Aug 05, 2026 |
 | `dynamic-programming` | 7 | 7% | ███ | Apr 01, 2026 |
 | `heap` | 7 | 7% | ███ | Aug 05, 2026 |
 
@@ -155,7 +155,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit) | Blog | — | Jun 28, 2026 |
 | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | System Design | Hard | Jun 28, 2026 |
 | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Algorithm | Hard | Jun 24, 2026 |
-| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Algorithm | Hard | Jun 16, 2026 |
+| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | AI Coding | Hard | Jun 16, 2026 |
 | [OS Fundamentals & Concurrency Drill](https://trueinterview.io/questions/os-fundamentals-and-concurrency) | Blog | — | Jun 15, 2026 |
 | [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/questions/ml-fundamentals-and-model-debugging) | Blog | — | Jun 10, 2026 |
 | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Jun 08, 2026 |
@@ -188,7 +188,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation) | System Design | Hard | Mar 28, 2026 |
 | [Validate and Assess Performance Benchmarks](https://trueinterview.io/questions/validate-and-assess-performance-benchmarks) | Blog | — | Mar 27, 2026 |
 | [Reduce False Failures and Classify QA Outcomes](https://trueinterview.io/questions/reduce-false-failures-and-classify-qa-outcomes) | Blog | — | Mar 27, 2026 |
-| [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | Algorithm | Medium | Mar 25, 2026 |
+| [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | AI Coding | Medium | Mar 25, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer) | Algorithm | Medium | Mar 17, 2026 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Medium | Mar 17, 2026 |

@@ -17,7 +17,7 @@
 | Questions tracked | **121** |
 | Most recent sighting | Sep 02, 2026 |
 | Reported in the last 90 days | 12 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 121) |
+| Most common format | [Algorithm](../formats/algorithm.md) (46% of 121) |
 | Difficulty (easy / medium / hard) | 11 / 69 / 21 |
 | Free to practise | [28](../free/README.md) |
 | Guides & writeups | 3 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **121 of 121** questions at Pintere
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 8 | █ | [Algorithm](../formats/algorithm.md) (75%) | 5 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 67 | ██████████ | [Algorithm](../formats/algorithm.md) (57%) | 1 / 48 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 67 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 1 / 48 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 58 | █████████ | [System Design](../formats/system-design.md) (33%) | 5 / 28 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -57,18 +57,18 @@ Which stage each question came from, for the **121 of 121** questions at Pintere
 
 ## What they ask about
 
-Of the **59 questions at Pinterest that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **58 questions at Pinterest that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `hashing` | 10 | 17% | ████████████ | Aug 26, 2026 |
-| `backtracking` | 9 | 15% | ███████████ | Apr 18, 2026 |
-| `graphs` | 9 | 15% | ███████████ | Aug 26, 2026 |
+| `backtracking` | 9 | 16% | ███████████ | Apr 18, 2026 |
+| `graphs` | 9 | 16% | ███████████ | Aug 26, 2026 |
 | `greedy` | 7 | 12% | ████████ | Jun 16, 2026 |
-| `math` | 7 | 12% | ████████ | May 27, 2026 |
 | `arrays` | 6 | 10% | ███████ | Aug 26, 2026 |
+| `math` | 6 | 10% | ███████ | May 27, 2026 |
 | `strings` | 6 | 10% | ███████ | May 27, 2026 |
-| `binary-search` | 5 | 8% | ██████ | Mar 28, 2026 |
+| `binary-search` | 5 | 9% | ██████ | Mar 28, 2026 |
 | `dynamic-programming` | 4 | 7% | █████ | Jan 07, 2026 |
 | `trees` | 4 | 7% | █████ | Sep 01, 2026 |
 
@@ -245,7 +245,7 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Bubble Explosion on a Grid (One Round + Gravity)](https://trueinterview.io/questions/c071219b-045a-4aaf-a968-4a395c259ca8) | Algorithm | Medium | — |
 | [Check If All Numbers in a Window Are Monotonic](https://trueinterview.io/questions/b713b44f-bc25-4935-8f17-c24342c90f89) | Algorithm | Easy | — |
 | [Implement custom round function](https://trueinterview.io/questions/b1edadf2-a0a2-430e-9c61-abc05944b832) | Algorithm | Medium | — |
-| [Naive Bayes Implementation](https://trueinterview.io/questions/4b6cf68f-e144-4f3e-8514-fd425859b792) | Algorithm | Medium | — |
+| [Naive Bayes Implementation](https://trueinterview.io/questions/4b6cf68f-e144-4f3e-8514-fd425859b792) | AI Coding | Medium | — |
 | [Escape Room (Shortest Escape Path in a Room Grid)](https://trueinterview.io/questions/4837fbb0-c247-450e-9607-1c9a42be781c) | Algorithm | Hard | — |
 | [Escape Room Lock Chain](https://trueinterview.io/questions/4152a497-1ffa-4994-87ba-e36af7a8e914) | Algorithm | Medium | — |
 | [Scooter Hopping on a Number Line (Greedy Simulation)](https://trueinterview.io/questions/4061bf21-5f91-4205-b332-593d043db6af) | Algorithm | Medium | — |

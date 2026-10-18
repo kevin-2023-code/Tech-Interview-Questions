@@ -18,25 +18,25 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 131 | 58% | ██████████████ | 36 |
+| [Algorithm](../formats/algorithm.md) | 129 | 58% | ██████████████ | 34 |
 | [Blog](../formats/blog.md) | 38 | 17% | ████ | 38 |
 | [System Design](../formats/system-design.md) | 28 | 12% | ███ | 4 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 21 | 9% | ██ | 3 |
+| [AI Coding](../formats/ai-coding.md) | 4 | 2% | █ | 3 |
 | [SQL](../formats/sql.md) | 4 | 2% | █ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
 <sub>Difficulty across the cut (easy / medium / hard): **48 / 106 / 32**, over the rows the catalog has graded. 82 of the 224 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **134 questions in this cut that carry a topic label** (60% of it):
+Of the **133 questions in this cut that carry a topic label** (59% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 26 | 19% | ████████████ |
+| `hashing` | 26 | 20% | ████████████ |
 | `arrays` | 23 | 17% | ███████████ |
 | `graphs` | 21 | 16% | ██████████ |
-| `matrix` | 18 | 13% | ████████ |
+| `matrix` | 18 | 14% | ████████ |
 | `strings` | 16 | 12% | ███████ |
 | `two-pointers` | 12 | 9% | ██████ |
 | `dynamic-programming` | 11 | 8% | █████ |

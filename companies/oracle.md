@@ -17,7 +17,7 @@
 | Questions tracked | **108** |
 | Most recent sighting | Sep 19, 2026 |
 | Reported in the last 90 days | 22 |
-| Most common format | [Algorithm](../formats/algorithm.md) (58% of 108) |
+| Most common format | [Algorithm](../formats/algorithm.md) (57% of 108) |
 | Difficulty (easy / medium / hard) | 18 / 65 / 13 |
 | Free to practise | [26](../free/README.md) |
 | Guides & writeups | 1 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **108 of 108** questions at Oracle 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 9 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 8 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 53 | ██████████ | [Algorithm](../formats/algorithm.md) (74%) | 4 / 37 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 53 | ██████████ | [Algorithm](../formats/algorithm.md) (72%) | 4 / 37 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 52 | ██████████ | [Algorithm](../formats/algorithm.md) (31%) | 6 / 28 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,7 +59,7 @@ Which stage each question came from, for the **108 of 108** questions at Oracle 
 
 ## What they ask about
 
-Of the **68 questions at Oracle that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **67 questions at Oracle that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -68,8 +68,8 @@ Of the **68 questions at Oracle that carry a topic label** (63% of them — the 
 | `graphs` | 8 | 12% | ████████ | Sep 11, 2026 |
 | `arrays` | 7 | 10% | ███████ | Apr 14, 2026 |
 | `greedy` | 7 | 10% | ███████ | Apr 14, 2026 |
-| `math` | 7 | 10% | ███████ | Aug 10, 2026 |
 | `linked-list` | 6 | 9% | ██████ | Apr 14, 2026 |
+| `math` | 6 | 9% | ██████ | Aug 10, 2026 |
 | `sliding-window` | 6 | 9% | ██████ | May 01, 2026 |
 | `stack` | 6 | 9% | ██████ | Feb 07, 2026 |
 | `backtracking` | 5 | 7% | █████ | Nov 17, 2025 |
@@ -182,7 +182,7 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Object Oriented Programming | Hard | Jan 22, 2026 |
 | [Sparse Matrix Multiplication](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication) | Algorithm | Medium | Jan 22, 2026 |
 | [Multi-Head Attention (from scratch)](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-multi-head-attention-from-scratch) | Algorithm | Hard | Jan 22, 2026 |
-| [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul) | Algorithm | Hard | Jan 22, 2026 |
+| [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul) | AI Coding | Hard | Jan 22, 2026 |
 | [Sqrt(x)](https://trueinterview.io/questions/sqrt-x) | Algorithm | Easy | Jan 22, 2026 |
 | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Algorithm | Medium | Jan 19, 2026 |
 | [Count Interior Islands After Flooding](https://trueinterview.io/questions/count-interior-islands-after-flooding) | Algorithm | Medium | Jan 09, 2026 |

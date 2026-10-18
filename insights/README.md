@@ -16,10 +16,10 @@
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 223 | 33% | ████████████████ |
+| [Algorithm](../formats/algorithm.md) | 222 | 33% | ████████████████ |
 | [SQL](../formats/sql.md) | 38 | 6% | ███ |
 | [System Design](../formats/system-design.md) | 138 | 20% | ██████████ |
-| [AI Coding](../formats/ai-coding.md) | 2 | 0% | █ |
+| [AI Coding](../formats/ai-coding.md) | 3 | 0% | █ |
 | [Blog](../formats/blog.md) | 203 | 30% | ███████████████ |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 70 | 10% | █████ |
 
@@ -51,10 +51,10 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,516 | 45% | 223 | 447 | 1,542 | 527 | 2,516 | 304 |
+| [Algorithm](../formats/algorithm.md) | 2,499 | 44% | 222 | 445 | 1,531 | 523 | 2,499 | 302 |
 | [SQL](../formats/sql.md) | 297 | 5% | 38 | 65 | 179 | 53 | 297 | 6 |
 | [System Design](../formats/system-design.md) | 703 | 12% | 138 | 29 | 365 | 309 | 703 | 39 |
-| [AI Coding](../formats/ai-coding.md) | 109 | 2% | 2 | 7 | 69 | 33 | 109 | 10 |
+| [AI Coding](../formats/ai-coding.md) | 126 | 2% | 3 | 9 | 80 | 37 | 126 | 12 |
 | [Blog](../formats/blog.md) | 1,403 | 25% | 203 | 0 | 0 | 0 | 0 | 1,403 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 608 | 11% | 70 | 51 | 477 | 80 | 608 | 68 |
 
@@ -87,20 +87,20 @@ Of the **5,636 questions that name a round** (100% of the bank):
 
 ## Topics
 
-Of the **2,489 questions that carry a topic label** (44% of the bank — the rest are unlabelled, which is not the same as having no topic):
+Of the **2,480 questions that carry a topic label** (44% of the bank — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
 | `hashing` | 429 | 17% | 50 | ████████████████ |
-| `arrays` | 370 | 15% | 42 | ██████████████ |
+| `arrays` | 369 | 15% | 42 | ██████████████ |
 | `graphs` | 368 | 15% | 41 | ██████████████ |
 | `strings` | 348 | 14% | 34 | █████████████ |
-| `greedy` | 211 | 8% | 18 | ████████ |
-| `math` | 200 | 8% | 25 | ███████ |
+| `greedy` | 211 | 9% | 18 | ████████ |
+| `math` | 193 | 8% | 24 | ███████ |
 | `dynamic-programming` | 192 | 8% | 15 | ███████ |
 | `sorting` | 187 | 8% | 23 | ███████ |
 | `trees` | 179 | 7% | 23 | ███████ |
-| `matrix` | 153 | 6% | 22 | ██████ |
+| `matrix` | 151 | 6% | 22 | ██████ |
 | `backtracking` | 140 | 6% | 19 | █████ |
 | `binary-search` | 130 | 5% | 8 | █████ |
 

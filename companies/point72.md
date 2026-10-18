@@ -17,7 +17,7 @@
 | Questions tracked | **41** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (51% of 41) |
+| Most common format | [Algorithm](../formats/algorithm.md) (49% of 41) |
 | Difficulty (easy / medium / hard) | 5 / 18 / 6 |
 | Free to practise | [14](../free/README.md) |
 | Guides & writeups | 1 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **41 of 41** questions at Point72 t
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 15 | ███████ | [Algorithm](../formats/algorithm.md) (73%) | 5 / 4 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 23 | ██████████ | [Algorithm](../formats/algorithm.md) (43%) | 0 / 12 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 23 | ██████████ | [Blog](../formats/blog.md) (43%) | 0 / 12 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 4 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -150,7 +150,7 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | [Lexicographically Smallest String After Substring Operation](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205) | Algorithm | Medium | — |
 | [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902) | Object Oriented Programming | Medium | — |
 | [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4) | SQL | Medium | — |
-| [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907) | Algorithm | Medium | — |
+| [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907) | AI Coding | Medium | — |
 | [SmartString Class Template](https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6) | Object Oriented Programming | Hard | — |
 | [Optimal Stopping with Up to Three Dice Rolls](https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be) | Algorithm | Medium | — |
 | [Find Minimum in Rotated Sorted Array](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c) | Algorithm | Medium | — |

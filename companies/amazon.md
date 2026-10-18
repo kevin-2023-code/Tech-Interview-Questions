@@ -31,7 +31,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 53 | ██ | [Algorithm](../formats/algorithm.md) (83%) | 23 / 18 / 8 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 240 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 23 / 117 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 240 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 23 / 117 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 210 | █████████ | [Algorithm](../formats/algorithm.md) (32%) | 19 / 113 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,7 +59,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 
 ## What they ask about
 
-Of the **221 questions at Amazon that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **220 questions at Amazon that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -72,7 +72,7 @@ Of the **221 questions at Amazon that carry a topic label** (47% of them — the
 | `trees` | 18 | 8% | █████ | Oct 01, 2026 |
 | `heap` | 17 | 8% | █████ | Sep 14, 2026 |
 | `dynamic-programming` | 16 | 7% | █████ | Sep 29, 2026 |
-| `math` | 14 | 6% | ████ | Sep 26, 2026 |
+| `two-pointers` | 14 | 6% | ████ | Jun 22, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -358,7 +358,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system) | System Design | Easy | Feb 13, 2026 |
 | [Smallest Time-Diff Pair Per User (Orders × Ads)](https://trueinterview.io/questions/smallest-time-diff-orders-ads) | Algorithm | Medium | Feb 12, 2026 |
 | [Describe handling deadlines, pride, and conflict](https://trueinterview.io/questions/describe-handling-deadlines-pride-and-conflict) | Blog | — | Feb 11, 2026 |
-| [Handwritten InfoNCE in PyTorch](https://trueinterview.io/questions/infonce-handwritten-pytorch) | Algorithm | Medium | Feb 10, 2026 |
+| [Handwritten InfoNCE in PyTorch](https://trueinterview.io/questions/infonce-handwritten-pytorch) | AI Coding | Medium | Feb 10, 2026 |
 | [Abusive Books in Reading Event Stream](https://trueinterview.io/questions/audible-abusive-books-stream) | Algorithm | Medium | Feb 10, 2026 |
 | [Describe how you reduced measurable cost](https://trueinterview.io/questions/describe-how-you-reduced-measurable-cost) | Blog | — | Feb 09, 2026 |
 | [Answer common internship behavioral questions](https://trueinterview.io/questions/answer-common-internship-behavioral-questions) | Blog | — | Feb 08, 2026 |

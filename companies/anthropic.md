@@ -17,7 +17,7 @@
 | Questions tracked | **99** |
 | Most recent sighting | Sep 12, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (27% of 99) |
+| Most common format | [Algorithm](../formats/algorithm.md) (25% of 99) |
 | Difficulty (easy / medium / hard) | 8 / 49 / 21 |
 | Free to practise | [35](../free/README.md) |
 | Guides & writeups | 6 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **99 of 99** questions at Anthropic
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 17 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (59%) | 6 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 44 | ████████ | [Algorithm](../formats/algorithm.md) (41%) | 0 / 24 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 44 | ████████ | [Algorithm](../formats/algorithm.md) (39%) | 0 / 24 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 54 | ██████████ | [Blog](../formats/blog.md) (22%) | 3 / 27 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 2 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 1 | A project with a deadline, reviewed after you send it. |
 
@@ -57,20 +57,20 @@ Which stage each question came from, for the **99 of 99** questions at Anthropic
 
 ## What they ask about
 
-Of the **33 questions at Anthropic that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **32 questions at Anthropic that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 14 | 42% | ████████████ | Aug 24, 2026 |
-| `strings` | 7 | 21% | ██████ | Jun 04, 2026 |
-| `graphs` | 5 | 15% | ████ | Jun 19, 2026 |
+| `hashing` | 14 | 44% | ████████████ | Aug 24, 2026 |
+| `strings` | 7 | 22% | ██████ | Jun 04, 2026 |
+| `graphs` | 5 | 16% | ████ | Jun 19, 2026 |
 | `sorting` | 3 | 9% | ███ | May 03, 2026 |
 | `stack` | 3 | 9% | ███ | Jun 04, 2026 |
 | `tries` | 3 | 9% | ███ | May 28, 2026 |
 | `arrays` | 2 | 6% | ██ | Jun 15, 2026 |
 | `greedy` | 2 | 6% | ██ | May 28, 2026 |
-| `matrix` | 2 | 6% | ██ | Feb 18, 2026 |
 | `backtracking` | 1 | 3% | █ | Jun 10, 2026 |
+| `heap` | 1 | 3% | █ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -189,7 +189,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Implement a crash-resilient LRU cache](https://trueinterview.io/questions/implement-a-crash-resilient-lru-cache) | Object Oriented Programming | Medium | Mar 13, 2026 |
 | [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure) | System Design | Hard | Mar 07, 2026 |
 | [RL Fundamentals — GRPO Debug](https://trueinterview.io/questions/rl-fundamentals-grpo-debug) | AI Coding | Hard | Mar 02, 2026 |
-| [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | Algorithm | Medium | Feb 18, 2026 |
+| [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | AI Coding | Medium | Feb 18, 2026 |
 | [How do you lead under risk and uncertainty?](https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty) | Blog | — | Feb 11, 2026 |
 | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Jan 22, 2026 |
 | [How should you handle misaligned interviews?](https://trueinterview.io/questions/how-should-you-handle-misaligned-interviews) | Blog | — | Jan 19, 2026 |
@@ -213,7 +213,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Object Oriented Programming | Medium | — |
 | [Web Crawler Implementation](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e) | Object Oriented Programming | Medium | — |
-| [Process Cat Images](https://trueinterview.io/questions/a91f29c5-e919-47ed-b1fd-aa5470b62735) | Algorithm | Easy | — |
+| [Process Cat Images](https://trueinterview.io/questions/a91f29c5-e919-47ed-b1fd-aa5470b62735) | AI Coding | Easy | — |
 | [Image Transformation using Python Libraries](https://trueinterview.io/questions/d5535584-0980-47fb-862d-6f9f7569791d) | AI Coding | Medium | — |
 | [In-Memory Database with Backup and Restore](https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f) | Object Oriented Programming | Medium | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |

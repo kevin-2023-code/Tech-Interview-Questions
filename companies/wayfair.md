@@ -15,7 +15,7 @@
 | Questions tracked | **7** |
 | Most recent sighting | Sep 10, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (29% of 7) |
+| Most common format | [SQL](../formats/sql.md) (29% of 7) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 3 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
@@ -30,7 +30,7 @@ Which stage each question came from, for the **7 of 7** questions at Wayfair tha
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ███████ | [SQL](../formats/sql.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 2 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 0 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (33%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | ██████████ | [AI Coding](../formats/ai-coding.md) (33%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -43,17 +43,16 @@ Which stage each question came from, for the **7 of 7** questions at Wayfair tha
 | [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | Blog | — | Onsite / virtual onsite | Sep 10, 2026 |
 | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | System Design | Hard | Onsite / virtual onsite | Sep 10, 2026 |
 | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | System Design | Hard | Phone screen | Sep 10, 2026 |
-| [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Algorithm | Medium | Onsite / virtual onsite | Sep 10, 2026 |
+| [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | AI Coding | Medium | Onsite / virtual onsite | Sep 10, 2026 |
 | [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value) | Algorithm | Hard | Phone screen | Sep 09, 2026 |
 
 ## What they ask about
 
-Of the **2 questions at Wayfair that carry a topic label** (29% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Wayfair that carries a topic label** (14% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `math` | 1 | 50% | ████████████ | Sep 10, 2026 |
-| `sorting` | 1 | 50% | ████████████ | Sep 09, 2026 |
+| `sorting` | 1 | 100% | ████████████ | Sep 09, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -72,7 +71,7 @@ The 7 questions to open first if you are preparing for Wayfair, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Algorithm | Medium | — | Sep 10, 2026 |
+| **1** | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | AI Coding | Medium | — | Sep 10, 2026 |
 | **2** | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) 🆓 | System Design | Hard | — | Sep 10, 2026 |
 | **3** | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) 🆓 | System Design | Hard | — | Sep 10, 2026 |
 | **4** | [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) 🆓 | Blog | — | — | Sep 10, 2026 |
@@ -92,7 +91,7 @@ The 7 questions to open first if you are preparing for Wayfair, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Algorithm | Medium | 🆕 Sep 10, 2026 |
+| [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | AI Coding | Medium | 🆕 Sep 10, 2026 |
 | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | System Design | Hard | 🆕 Sep 10, 2026 |
 | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | System Design | Hard | 🆕 Sep 10, 2026 |
 | [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | Blog | — | 🆕 Sep 10, 2026 |

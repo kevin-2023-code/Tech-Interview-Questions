@@ -2,19 +2,14 @@
 
 # Algorithm interview & OA questions
 
-**2,516 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
-<sub>[← Page 2](algorithm-2.md) · Page 3 of 11 · [Page 4 →](algorithm-4.md)</sub>
+<sub>[← Page 2](algorithm-2.md) · Page 3 of 10 · [Page 4 →](algorithm-4.md)</sub>
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Waymo** | [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens) | Hard | Apr 27, 2026 |
-| **Google** | [Fence Painting Minimum Operations (Gemini Team)](https://trueinterview.io/questions/fence-painting-min-ops) | Hard | Apr 27, 2026 |
-| **Amazon** | [Add, Remove, and Find Values in a Bounded Integer Universe](https://trueinterview.io/questions/add-remove-and-find-values-in-a-bounded-integer-universe) | Easy | Apr 26, 2026 |
-| **NVIDIA** | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Easy | Apr 26, 2026 |
-| **Rippling** | [Clarify and Solve Currency Conversion Queries with a Maximum-Amount Follow-up](https://trueinterview.io/questions/clarify-and-solve-currency-conversion-queries-with-a-maximum-amount-follow-up) | Hard | Apr 25, 2026 |
 | **Google** | [Solve Quickselect, Tree Distance, and Prefix Substrings](https://trueinterview.io/questions/solve-quickselect-tree-distance-and-prefix-substrings) | Hard | Apr 25, 2026 |
 | **Meta** | [Solve Maze and Suffix Problems](https://trueinterview.io/questions/solve-maze-and-suffix-problems) | Hard | Apr 25, 2026 |
 | **Microsoft** | [Tiny Next-Token Prediction Model (PyTorch Fill-In)](https://trueinterview.io/questions/c0d89abb-ff3b-48a7-b818-75334a7ae968) | Medium | Apr 25, 2026 |
@@ -196,7 +191,6 @@
 | **Two Sigma / Point72** | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Hard | Mar 25, 2026 |
 | **Scale AI** | [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention) | Medium | Mar 25, 2026 |
 | **LinkedIn** | [Weighted Sampling from Unnormalized Probabilities](https://trueinterview.io/questions/coding-weighted-sampling-die) | Medium | Mar 25, 2026 |
-| **Apple / Microsoft / Waymo** | [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | Medium | Mar 25, 2026 |
 | **Pinduoduo** | [Next Greater Element I](https://trueinterview.io/questions/next-greater-element-i) | Easy | Mar 24, 2026 |
 | **Uber** | [Toy Order Completion Analysis](https://trueinterview.io/questions/toy-order-completion-analysis) | Easy | Mar 24, 2026 |
 | **Waymo** | [Sort a Quadratic-Transformed Sorted Array](https://trueinterview.io/questions/sort-transformed-quadratic-array) | Medium | Mar 23, 2026 |
@@ -260,5 +254,11 @@
 | **OpenAI** | [Shard Rebalancing](https://trueinterview.io/questions/shard-rebalancing) | Hard | Mar 09, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
 | **Palantir** | [Find Shortest Paths in Road Network](https://trueinterview.io/questions/find-shortest-paths-in-road-network) | Medium | Mar 08, 2026 |
+| **Uber** | [Zero Array Transformation](https://trueinterview.io/questions/zero-array-transformation) | Hard | Mar 08, 2026 |
+| **Ebay** | [Find top co-viewed products](https://trueinterview.io/questions/find-top-co-viewed-products) | Medium | Mar 07, 2026 |
+| **Waymo** | [Implement Safe Average Function](https://trueinterview.io/questions/implement-safe-average-function) | Easy | Mar 07, 2026 |
+| **SoFi** | [Highway Sensor Journey Count](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb) | Medium | Mar 06, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
+| **ByteDance** | [Case-insensitive adjacent differences](https://trueinterview.io/questions/implement-several-oa-simulation-problems-case-insensitive-adjacent-differences) | Easy | Mar 05, 2026 |
 
-<sub>[← Page 2](algorithm-2.md) · Page 3 of 11 · [Page 4 →](algorithm-4.md)</sub>
+<sub>[← Page 2](algorithm-2.md) · Page 3 of 10 · [Page 4 →](algorithm-4.md)</sub>

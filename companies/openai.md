@@ -17,7 +17,7 @@
 | Questions tracked | **175** |
 | Most recent sighting | Sep 28, 2026 |
 | Reported in the last 90 days | 19 |
-| Most common format | [Algorithm](../formats/algorithm.md) (36% of 175) |
+| Most common format | [Algorithm](../formats/algorithm.md) (34% of 175) |
 | Difficulty (easy / medium / hard) | 13 / 75 / 70 |
 | Free to practise | [30](../free/README.md) |
 | Guides & writeups | 7 |
@@ -32,7 +32,7 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 8 | █ | [Algorithm](../formats/algorithm.md) (75%) | 6 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 92 | ██████████ | [Algorithm](../formats/algorithm.md) (51%) | 3 / 49 / 32 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 92 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 3 / 49 / 32 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 92 | ██████████ | [System Design](../formats/system-design.md) (36%) | 4 / 35 / 44 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -60,16 +60,16 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 
 ## What they ask about
 
-Of the **60 questions at OpenAI that carry a topic label** (34% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **58 questions at OpenAI that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 11 | 18% | ████████████ | Aug 15, 2026 |
-| `math` | 10 | 17% | ███████████ | Sep 08, 2026 |
-| `hashing` | 8 | 13% | █████████ | Aug 22, 2026 |
-| `matrix` | 7 | 12% | ████████ | Aug 27, 2026 |
+| `graphs` | 11 | 19% | ████████████ | Aug 15, 2026 |
+| `math` | 9 | 16% | ██████████ | Sep 08, 2026 |
+| `hashing` | 8 | 14% | █████████ | Aug 22, 2026 |
 | `arrays` | 6 | 10% | ███████ | Feb 04, 2026 |
 | `strings` | 6 | 10% | ███████ | May 15, 2026 |
+| `matrix` | 5 | 9% | █████ | Aug 27, 2026 |
 | `sorting` | 4 | 7% | ████ | Mar 09, 2026 |
 | `topological-sort` | 4 | 7% | ████ | Sep 17, 2026 |
 | `backtracking` | 3 | 5% | ███ | Jun 19, 2026 |
@@ -191,7 +191,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Jun 08, 2026 |
 | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Object Oriented Programming | Medium | Jun 2026 |
 | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | Blog | — | May 31, 2026 |
-| [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | Algorithm | Medium | May 31, 2026 |
+| [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | AI Coding | Medium | May 31, 2026 |
 | [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Algorithm | Hard | May 31, 2026 |
 | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Algorithm | Hard | May 31, 2026 |
 | [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus) | System Design | Hard | May 26, 2026 |
@@ -199,7 +199,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system) | Object Oriented Programming | Medium | May 26, 2026 |
 | [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | AI Coding | Medium | May 26, 2026 |
 | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
-| [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass) | Algorithm | Medium | May 20, 2026 |
+| [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass) | AI Coding | Medium | May 20, 2026 |
 | [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support) | Algorithm | Medium | May 15, 2026 |
 | [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen) | Blog | — | Apr 27, 2026 |
 | [Design a Slack-Like Messaging System](https://trueinterview.io/questions/design-a-slack-like-messaging-system-3) | System Design | Hard | Apr 26, 2026 |
@@ -223,7 +223,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Shard Rebalancing](https://trueinterview.io/questions/shard-rebalancing) | Algorithm | Hard | Mar 09, 2026 |
 | [Design IP Range Iterator](https://trueinterview.io/questions/design-ip-range-iterator) | Algorithm | Easy | Mar 03, 2026 |
 | [Model particle hits on a screen](https://trueinterview.io/questions/model-particle-hits-on-a-screen) | Blog | — | Feb 22, 2026 |
-| [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | Algorithm | Medium | Feb 18, 2026 |
+| [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | AI Coding | Medium | Feb 18, 2026 |
 | [Analyze matrix multiplication complexity](https://trueinterview.io/questions/analyze-matrix-multiplication-complexity) | Blog | — | Feb 11, 2026 |
 | [Derive Backpropagation for Matrix-Product Layers](https://trueinterview.io/questions/derive-backpropagation-for-matrix-product-layers) | Blog | — | Feb 05, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
@@ -299,7 +299,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Algorithm | Medium | — |
 | [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Object Oriented Programming | Hard | — |
 | [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | AI Coding | Hard | — |
-| [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | Algorithm | Hard | — |
+| [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | AI Coding | Hard | — |
 | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | System Design | Easy | — |
 | [Debug A/B Test Python Code (Metric Computation and Statistical Testing)](https://trueinterview.io/questions/fbde06cd-0253-4b64-a01a-9ea551c06435) | AI Coding | Medium | — |
 | [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7) | Algorithm | Hard | — |

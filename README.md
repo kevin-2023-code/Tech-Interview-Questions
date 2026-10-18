@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,636 questions** · **216 writeups** · **131 companies** · **1,830 free to practise** · **674 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,636 questions** · **226 writeups** · **131 companies** · **1,830 free to practise** · **674 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,7 +42,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 674 sightings at 89 companies — Algorithm 223 · SQL 38 · System Design 138 · AI Coding 2 · Blog 203 · Object Oriented Programming 70.
+**Last 90 days:** 674 sightings at 89 companies — Algorithm 222 · SQL 38 · System Design 138 · AI Coding 3 · Blog 203 · Object Oriented Programming 70.
 
 **Reported most:** [Amazon (97)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (39)](companies/google.md) · [Microsoft (39)](companies/microsoft.md) · [LinkedIn (24)](companies/linkedin.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [Meta (20)](companies/meta.md)
 
@@ -57,7 +57,7 @@ share naming the population it is a share of.
 <!-- gen:free:start -->
 **1,830 of the 5,636 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (304)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (39)](free/system-design.md) · [AI Coding (10)](free/ai-coding.md) · [Blog (1,403)](free/blog.md) · [Object Oriented Programming (68)](free/object-oriented-programming.md)
+[Algorithm (302)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (39)](free/system-design.md) · [AI Coding (12)](free/ai-coding.md) · [Blog (1,403)](free/blog.md) · [Object Oriented Programming (68)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -65,7 +65,7 @@ share naming the population it is a share of.
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
-**Interview process:** [Writeups on how 91 companies interview (216 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
+**Interview process:** [Writeups on how 91 companies interview (226 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
 <!-- gen:guides:end -->
 
 How a round runs, a problem worked end to end, notes on a process — each one filed
@@ -138,7 +138,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (2,516)](formats/algorithm.md) · [SQL (297)](formats/sql.md) · [System Design (703)](formats/system-design.md) · [AI Coding (109)](formats/ai-coding.md) · [Blog (1,403)](formats/blog.md) · [Object Oriented Programming (608)](formats/object-oriented-programming.md)
+[Algorithm (2,499)](formats/algorithm.md) · [SQL (297)](formats/sql.md) · [System Design (703)](formats/system-design.md) · [AI Coding (126)](formats/ai-coding.md) · [Blog (1,403)](formats/blog.md) · [Object Oriented Programming (608)](formats/object-oriented-programming.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported

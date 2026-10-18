@@ -17,7 +17,7 @@
 | Questions tracked | **104** |
 | Most recent sighting | Aug 21, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (37% of 104) |
+| Most common format | [Algorithm](../formats/algorithm.md) (36% of 104) |
 | Difficulty (easy / medium / hard) | 21 / 54 / 13 |
 | Free to practise | [28](../free/README.md) |
 | Guides & writeups | 4 |
@@ -30,7 +30,7 @@ Which stage each question came from, for the **104 of 104** questions at Netflix
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 12 | ██ | [Algorithm](../formats/algorithm.md) (75%) | 11 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 12 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 11 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 47 | ███████ | [Algorithm](../formats/algorithm.md) (51%) | 9 / 28 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 70 | ██████████ | [System Design](../formats/system-design.md) (29%) | 9 / 38 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -46,15 +46,15 @@ Which stage each question came from, for the **104 of 104** questions at Netflix
 
 ## What they ask about
 
-Of the **43 questions at Netflix that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **42 questions at Netflix that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 16 | 37% | ████████████ | May 26, 2026 |
-| `arrays` | 7 | 16% | █████ | May 26, 2026 |
+| `hashing` | 16 | 38% | ████████████ | May 26, 2026 |
+| `arrays` | 6 | 14% | ████ | May 26, 2026 |
 | `strings` | 6 | 14% | ████ | Apr 24, 2026 |
-| `topological-sort` | 4 | 9% | ███ | Jun 04, 2026 |
-| `trees` | 4 | 9% | ███ | Apr 03, 2026 |
+| `topological-sort` | 4 | 10% | ███ | Jun 04, 2026 |
+| `trees` | 4 | 10% | ███ | Apr 03, 2026 |
 | `binary-search` | 3 | 7% | ██ | May 21, 2026 |
 | `graphs` | 3 | 7% | ██ | Mar 20, 2026 |
 | `heap` | 3 | 7% | ██ | Mar 29, 2026 |
@@ -207,7 +207,7 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 | [Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles)](https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f) | Algorithm | Medium | — |
 | [DFS: Print Each Node's Level and Whether It Is Balanced](https://trueinterview.io/questions/d91d2480-fd9d-4e2b-a5a6-afb3d5b4de42) | Algorithm | Medium | — |
 | [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Object Oriented Programming | Medium | — |
-| [Calculate Kullback-Leibler Divergence Between Two Distributions](https://trueinterview.io/questions/d511049a-0e9c-4ef8-8716-7ed85fb33120) | Algorithm | Easy | — |
+| [Calculate Kullback-Leibler Divergence Between Two Distributions](https://trueinterview.io/questions/d511049a-0e9c-4ef8-8716-7ed85fb33120) | AI Coding | Easy | — |
 | [Inverted Index with Phrase Search](https://trueinterview.io/questions/b72512c1-88e3-415d-ae28-a7cd4a1110a6) | Algorithm | Medium | — |
 | [Sort Dictionary Keys](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee) | Algorithm | Easy | — |
 | [Double-Checked Locking / Locking Correctness in Multithreaded Code](https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248) | Object Oriented Programming | Medium | — |

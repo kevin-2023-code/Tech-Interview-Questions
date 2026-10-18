@@ -2,29 +2,29 @@
 
 # Topics
 
-What the bank is *about*, counted over the **2,489 questions that carry a topic label** — 44% of 5,636. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
+What the bank is *about*, counted over the **2,480 questions that carry a topic label** — 44% of 5,636. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
 
 [← Insights](README.md) · [← Question bank](../README.md)
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
 | `hashing` | 429 | 17% | 50 | 102 | 267 | 60 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Meta](../companies/meta.md) |
-| `arrays` | 370 | 15% | 42 | 105 | 218 | 47 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
+| `arrays` | 369 | 15% | 42 | 104 | 218 | 47 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `graphs` | 368 | 15% | 41 | 25 | 235 | 108 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
 | `strings` | 348 | 14% | 34 | 92 | 210 | 46 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
-| `greedy` | 211 | 8% | 18 | 19 | 145 | 47 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
-| `math` | 200 | 8% | 25 | 37 | 103 | 60 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
+| `greedy` | 211 | 9% | 18 | 19 | 145 | 47 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `math` | 193 | 8% | 24 | 37 | 99 | 57 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
 | `dynamic-programming` | 192 | 8% | 15 | 10 | 114 | 68 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `sorting` | 187 | 8% | 23 | 36 | 107 | 44 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `trees` | 179 | 7% | 23 | 22 | 117 | 40 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
-| `matrix` | 153 | 6% | 22 | 11 | 111 | 31 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Google](../companies/google.md) |
+| `matrix` | 151 | 6% | 22 | 11 | 110 | 30 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Google](../companies/google.md) |
 | `backtracking` | 140 | 6% | 19 | 11 | 89 | 40 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Meta](../companies/meta.md) |
 | `binary-search` | 130 | 5% | 8 | 11 | 83 | 36 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Uber](../companies/uber.md) |
 | `heap` | 124 | 5% | 17 | 8 | 78 | 38 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
 | `two-pointers` | 124 | 5% | 8 | 33 | 82 | 9 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `sliding-window` | 108 | 4% | 7 | 20 | 73 | 15 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `stack` | 100 | 4% | 7 | 12 | 68 | 20 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
-| `intervals` | 87 | 3% | 6 | 2 | 67 | 18 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `intervals` | 87 | 4% | 6 | 2 | 67 | 18 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `linked-list` | 57 | 2% | 6 | 7 | 40 | 10 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Microsoft](../companies/microsoft.md) |
 | `topological-sort` | 55 | 2% | 9 | 0 | 41 | 14 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
 | `bit-manipulation` | 46 | 2% | 4 | 9 | 20 | 17 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Salesforce](../companies/salesforce.md) |
@@ -42,7 +42,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [Maximum Number of Occurrences of a Substring (LC 1297)](https://trueinterview.io/questions/maximum-number-of-occurrences-of-a-substring) · Algorithm · Medium
 - [Minimum Set of Values to Remove Half the Array](https://trueinterview.io/questions/min-set-size-remove-half) · Algorithm · Medium
 
-**`arrays`** — 370 questions
+**`arrays`** — 369 questions
 
 - [Connected Crop Arrangement on a Grid](https://trueinterview.io/questions/connected-crop-arrangement-grid) · Algorithm · Hard
 - [Longest Non-Decreasing Subarray with One Replacement](https://trueinterview.io/questions/longest-non-decreasing-subarray-one-replacement) · Algorithm · Medium
@@ -66,7 +66,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) · Algorithm · Hard
 - [Minimum Set of Values to Remove Half the Array](https://trueinterview.io/questions/min-set-size-remove-half) · Algorithm · Medium
 
-**`math`** — 200 questions
+**`math`** — 193 questions
 
 - [Count Non-Decreasing Arrays with Target Digit Sums](https://trueinterview.io/questions/non-decreasing-digit-sum-array-count) · Algorithm · Hard
 - [Maximum-Area Rectangle from Planar Points](https://trueinterview.io/questions/max-area-rectangle-from-points) · Algorithm · Hard
@@ -90,7 +90,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) · Algorithm · Easy
 - [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) · Algorithm · Medium
 
-**`matrix`** — 153 questions
+**`matrix`** — 151 questions
 
 - [Connected Crop Arrangement on a Grid](https://trueinterview.io/questions/connected-crop-arrangement-grid) · Algorithm · Hard
 - [Number of Islands with Max-Area and Streaming-Rows Follow-Ups](https://trueinterview.io/questions/number-of-islands-max-area-streaming) · Algorithm · Medium

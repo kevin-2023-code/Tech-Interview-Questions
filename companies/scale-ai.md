@@ -17,7 +17,7 @@
 | Questions tracked | **34** |
 | Most recent sighting | Oct 01, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (38% of 34) |
+| Most common format | [Blog](../formats/blog.md) (35% of 34) |
 | Difficulty (easy / medium / hard) | 0 / 16 / 6 |
 | Free to practise | [14](../free/README.md) |
 | Guides & writeups | 1 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **34 of 34** questions at Scale AI 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (48%) | 0 / 10 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (38%) | 0 / 10 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 17 | ████████ | [Blog](../formats/blog.md) (47%) | 0 / 8 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -47,20 +47,20 @@ Which stage each question came from, for the **34 of 34** questions at Scale AI 
 
 ## What they ask about
 
-Of the **10 questions at Scale AI that carry a topic label** (29% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Scale AI that carry a topic label** (26% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `trees` | 3 | 30% | ████████████ | Oct 01, 2026 |
-| `arrays` | 1 | 10% | ████ | Feb 06, 2026 |
-| `graphs` | 1 | 10% | ████ | Oct 01, 2026 |
-| `greedy` | 1 | 10% | ████ | Apr 09, 2026 |
-| `hashing` | 1 | 10% | ████ | Oct 01, 2026 |
-| `heap` | 1 | 10% | ████ | Jun 14, 2026 |
-| `intervals` | 1 | 10% | ████ | Mar 29, 2026 |
-| `math` | 1 | 10% | ████ | Jun 16, 2026 |
-| `matrix` | 1 | 10% | ████ | May 01, 2026 |
-| `sorting` | 1 | 10% | ████ | Mar 29, 2026 |
+| `trees` | 3 | 33% | ████████████ | Oct 01, 2026 |
+| `arrays` | 1 | 11% | ████ | Feb 06, 2026 |
+| `graphs` | 1 | 11% | ████ | Oct 01, 2026 |
+| `greedy` | 1 | 11% | ████ | Apr 09, 2026 |
+| `hashing` | 1 | 11% | ████ | Oct 01, 2026 |
+| `heap` | 1 | 11% | ████ | Jun 14, 2026 |
+| `intervals` | 1 | 11% | ████ | Mar 29, 2026 |
+| `matrix` | 1 | 11% | ████ | May 01, 2026 |
+| `sorting` | 1 | 11% | ████ | Mar 29, 2026 |
+| `topological-sort` | 1 | 11% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -86,7 +86,7 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | 1 | Oct 01, 2026 |
 | **2** | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Object Oriented Programming | Medium | — | Aug 26, 2026 |
-| **3** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) 🆓 | Algorithm | Hard | 1 | Jun 16, 2026 |
+| **3** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) 🆓 | AI Coding | Hard | 1 | Jun 16, 2026 |
 | **4** | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) 🆓 | Algorithm | Hard | — | Jun 14, 2026 |
 | **5** | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | — | May 01, 2026 |
 | **6** | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | — | May 01, 2026 |
@@ -115,7 +115,7 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 | :-- | :-- | :-: | :-- |
 | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | 🆕 Oct 01, 2026 |
 | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Object Oriented Programming | Medium | Aug 26, 2026 |
-| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Algorithm | Hard | Jun 16, 2026 |
+| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | AI Coding | Hard | Jun 16, 2026 |
 | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Algorithm | Hard | Jun 14, 2026 |
 | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | May 01, 2026 |
 | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | May 01, 2026 |
@@ -146,4 +146,4 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 | [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/69a906b1-a3e0-43a1-a3c1-267fc6556d5c) | Algorithm | Medium | — |
 | [Create RESTful API with CSV and JSON Conversion](https://trueinterview.io/questions/44f4defb-82d9-46e7-a008-0c8e2f044a17) | AI Coding | Medium | — |
 | [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/questions/147c9781-846f-407b-a3e9-cb2f61ae898d) | Blog | — | — |
-| [Implement Top-p (Nucleus) Sampling in NumPy](https://trueinterview.io/questions/26db71f3-0ec8-4274-af98-d5bd29bdcf73) | Algorithm | Medium | — |
+| [Implement Top-p (Nucleus) Sampling in NumPy](https://trueinterview.io/questions/26db71f3-0ec8-4274-af98-d5bd29bdcf73) | AI Coding | Medium | — |

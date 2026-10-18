@@ -6,7 +6,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 
 [← Question bank](../README.md) · [Companies](../companies/README.md) · [Free questions, with statistics](../free/README.md)
 
-## Algorithm (304)
+## Algorithm (302)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -162,7 +162,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [House Robber Series](algorithm/house-robber-series/README.md) | Medium | Databricks · Amazon · Cisco · Expedia · Meta |
 | [Implement `uniq` — Unique Lines in a File](algorithm/unique-lines-command/README.md) | Medium | Vanta |
 | [Implement a Card-Details Form with Dependent Validation](algorithm/implement-a-card-details-form-with-dependent-validation/README.md) | Medium | Cohere |
-| [Implement K-Means in NumPy or PyTorch](algorithm/implement-k-means-in-numpy-or-pytorch/README.md) | Medium | Apple · Microsoft · Waymo |
 | [Implement popup and redirect in JavaScript](algorithm/implement-popup-and-redirect-in-javascript/README.md) | Medium | Bitkernel |
 | [Implement Power Function](algorithm/implement-power-function/README.md) | Medium | ByteDance · LinkedIn · NVIDIA · WeRide |
 | [Implement Trie with Non-Standard Alphabet](algorithm/implement-trie-with-non-standard-alphabet/README.md) | Medium | Snowflake |
@@ -310,7 +309,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Task Processor: Dependencies and Deadlines](algorithm/task-processor-dependencies-and-deadlines/README.md) | Hard | Scale AI |
 | [Test Run Status Monitor (Failing → Passing Windows)](algorithm/test-status-monitor/README.md) | Hard | Vanta |
 | [Transform clickstream with pandas sessionization](algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Hard | Onemain Financial |
-| [Transformer Attention Mask and Heads Coding](algorithm/transformer-attention-mask-and-heads-coding/README.md) | Hard | Apple · Scale AI |
 | [Trapping Rain Water](algorithm/trapping-rain-water/README.md) | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs |
 | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](algorithm/windowed-map-time-windowed-key-value-store-with-o-1-operations-and-windo/README.md) | Hard | StackAdapt |
 | [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · Reddit |
@@ -432,7 +430,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Redesign a Spam Classifier for Production](system-design/redesign-a-spam-classifier-for-production/README.md) | Hard | Indeed |
 | [Set Bids for Search Advertising from Business Value](system-design/set-bids-for-search-advertising-from-business-value/README.md) | Hard | Wayfair |
 
-## AI Coding (10)
+## AI Coding (12)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -441,11 +439,13 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Debug Dijkstra Shortest Path for Navigation](ai-coding/dijkstra-code-review-navigation/README.md) | Medium | Tesla |
 | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](ai-coding/exploratory-data-analysis-and-modeling-for-heart-disease-prediction/README.md) | Medium | Hudson River Trading |
 | [Implement APIs in a Flask Application](ai-coding/implement-apis-in-a-flask-application/README.md) | Medium | Verkada |
+| [Implement K-Means in NumPy or PyTorch](ai-coding/implement-k-means-in-numpy-or-pytorch/README.md) | Medium | Apple · Microsoft · Waymo |
 | [LRU Cache](ai-coding/lru-cache/README.md) | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn |
 | [Mako Template Engine](ai-coding/debug-mako-template-engine/README.md) | Medium | Stripe |
 | [Maze Solver](ai-coding/ai-coding-maze-solver/README.md) | Medium | Meta |
 | [Web Crawler with Asyncio](ai-coding/web-crawler-with-asyncio/README.md) | Medium | Anthropic |
 | [Data Parallel & FSDP Matrix Multiplication](ai-coding/data-parallel-fsdp-matrix-multiplication/README.md) | Hard | xAI |
+| [Transformer Attention Mask and Heads Coding](ai-coding/transformer-attention-mask-and-heads-coding/README.md) | Hard | Apple · Scale AI |
 
 ## SQL (6)
 

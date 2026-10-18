@@ -678,7 +678,7 @@
       "name": "Scale AI",
       "questions": 34,
       "slug": "scale-ai",
-      "topFormat": "Algorithm",
+      "topFormat": "Blog",
       "topTopic": "trees"
     },
     {
@@ -899,7 +899,7 @@
       "name": "Boston Consulting Group",
       "questions": 19,
       "slug": "boston-consulting-group",
-      "topFormat": "Algorithm",
+      "topFormat": "Blog",
       "topTopic": "stack"
     },
     {
@@ -1406,8 +1406,8 @@
       "name": "Wayfair",
       "questions": 7,
       "slug": "wayfair",
-      "topFormat": "Algorithm",
-      "topTopic": "math"
+      "topFormat": "SQL",
+      "topTopic": "sorting"
     },
     {
       "dated": 1,
@@ -1717,15 +1717,15 @@
   "earliestSighting": "2024-05-28",
   "formats": [
     {
-      "easy": 447,
+      "easy": 445,
       "format": "algorithm",
-      "free": 304,
-      "graded": 2516,
-      "hard": 527,
-      "inWindow": 223,
+      "free": 302,
+      "graded": 2499,
+      "hard": 523,
+      "inWindow": 222,
       "label": "Algorithm",
-      "medium": 1542,
-      "questions": 2516
+      "medium": 1531,
+      "questions": 2499
     },
     {
       "easy": 65,
@@ -1750,15 +1750,15 @@
       "questions": 703
     },
     {
-      "easy": 7,
+      "easy": 9,
       "format": "ai-coding",
-      "free": 10,
-      "graded": 109,
-      "hard": 33,
-      "inWindow": 2,
+      "free": 12,
+      "graded": 126,
+      "hard": 37,
+      "inWindow": 3,
       "label": "AI Coding",
-      "medium": 69,
-      "questions": 109
+      "medium": 80,
+      "questions": 126
     },
     {
       "easy": 0,
@@ -1807,7 +1807,8 @@
         "Siemens"
       ],
       "formats": {
-        "algorithm": 82,
+        "ai-coding": 1,
+        "algorithm": 81,
         "blog": 124,
         "object-oriented-programming": 30,
         "sql": 6,
@@ -1851,8 +1852,8 @@
       "companies": 57,
       "firstReportedCompanies": [],
       "formats": {
-        "ai-coding": 12,
-        "algorithm": 115,
+        "ai-coding": 13,
+        "algorithm": 114,
         "blog": 41,
         "object-oriented-programming": 39,
         "sql": 1,
@@ -1868,8 +1869,8 @@
         "Brex"
       ],
       "formats": {
-        "ai-coding": 10,
-        "algorithm": 116,
+        "ai-coding": 13,
+        "algorithm": 113,
         "blog": 30,
         "object-oriented-programming": 41,
         "sql": 22,
@@ -1904,8 +1905,8 @@
         "GEICO"
       ],
       "formats": {
-        "ai-coding": 5,
-        "algorithm": 122,
+        "ai-coding": 6,
+        "algorithm": 121,
         "blog": 74,
         "object-oriented-programming": 21,
         "sql": 11,
@@ -1927,8 +1928,8 @@
         "Wayfair"
       ],
       "formats": {
-        "ai-coding": 6,
-        "algorithm": 129,
+        "ai-coding": 8,
+        "algorithm": 127,
         "blog": 93,
         "object-oriented-programming": 40,
         "sql": 6,
@@ -1953,8 +1954,8 @@
         "Whatnot"
       ],
       "formats": {
-        "ai-coding": 2,
-        "algorithm": 144,
+        "ai-coding": 3,
+        "algorithm": 143,
         "blog": 129,
         "object-oriented-programming": 44,
         "sql": 8,
@@ -2564,12 +2565,12 @@
       "topic": "hashing"
     },
     {
-      "easy": 105,
-      "graded": 370,
+      "easy": 104,
+      "graded": 369,
       "hard": 47,
       "inWindow": 42,
       "medium": 218,
-      "questions": 370,
+      "questions": 369,
       "topCompanies": [
         {
           "name": "Google",
@@ -2709,15 +2710,15 @@
     },
     {
       "easy": 37,
-      "graded": 200,
-      "hard": 60,
-      "inWindow": 25,
-      "medium": 103,
-      "questions": 200,
+      "graded": 193,
+      "hard": 57,
+      "inWindow": 24,
+      "medium": 99,
+      "questions": 193,
       "topCompanies": [
         {
           "name": "Amazon",
-          "questions": 14,
+          "questions": 13,
           "slug": "amazon"
         },
         {
@@ -2732,13 +2733,13 @@
         },
         {
           "name": "OpenAI",
-          "questions": 10,
+          "questions": 9,
           "slug": "openai"
         },
         {
-          "name": "Microsoft",
+          "name": "Two Sigma",
           "questions": 9,
-          "slug": "microsoft"
+          "slug": "two-sigma"
         }
       ],
       "topic": "math"
@@ -2853,11 +2854,11 @@
     },
     {
       "easy": 11,
-      "graded": 153,
-      "hard": 31,
+      "graded": 151,
+      "hard": 30,
       "inWindow": 22,
-      "medium": 111,
-      "questions": 153,
+      "medium": 110,
+      "questions": 151,
       "topCompanies": [
         {
           "name": "Uber",
@@ -3290,10 +3291,10 @@
     "free": 1830,
     "futureDated": 0,
     "gradedDifficulty": 4233,
-    "guides": 216,
+    "guides": 226,
     "inLastYear": 3150,
     "inWindow": 674,
-    "labelledTopic": 2489,
+    "labelledTopic": 2480,
     "namingARound": 5636,
     "questions": 5636,
     "undated": 2243
