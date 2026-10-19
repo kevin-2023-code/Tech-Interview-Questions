@@ -15,8 +15,8 @@
 |  |  |
 | :-- | :-- |
 | Questions tracked | **99** |
-| Most recent sighting | Sep 12, 2026 |
-| Reported in the last 90 days | 11 |
+| Most recent sighting | Sep 17, 2026 |
+| Reported in the last 90 days | 12 |
 | Most common format | [Algorithm](../formats/algorithm.md) (25% of 99) |
 | Difficulty (easy / medium / hard) | 8 / 49 / 21 |
 | Free to practise | [35](../free/README.md) |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **99 of 99** questions at Anthropic
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 17 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (59%) | 6 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 44 | ████████ | [Algorithm](../formats/algorithm.md) (39%) | 0 / 24 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 45 | ████████ | [Algorithm](../formats/algorithm.md) (40%) | 0 / 24 / 12 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 54 | ██████████ | [Blog](../formats/blog.md) (22%) | 3 / 27 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 2 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 1 | A project with a deadline, reviewed after you send it. |
 
@@ -39,10 +39,11 @@ Which stage each question came from, for the **99 of 99** questions at Anthropic
 
 ## Asked here in the last 90 days
 
-**11 sightings** in this window. Newest first.
+**12 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Sep 17, 2026 |
 | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | Blog | — | Onsite / virtual onsite | Sep 12, 2026 |
 | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | Blog | — | Onsite / virtual onsite | Sep 12, 2026 |
 | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | System Design | Hard | Phone screen | Sep 08, 2026 |
@@ -57,16 +58,16 @@ Which stage each question came from, for the **99 of 99** questions at Anthropic
 
 ## What they ask about
 
-Of the **32 questions at Anthropic that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **31 questions at Anthropic that carry a topic label** (31% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 14 | 44% | ████████████ | Aug 24, 2026 |
-| `strings` | 7 | 22% | ██████ | Jun 04, 2026 |
-| `graphs` | 5 | 16% | ████ | Jun 19, 2026 |
-| `sorting` | 3 | 9% | ███ | May 03, 2026 |
-| `stack` | 3 | 9% | ███ | Jun 04, 2026 |
-| `tries` | 3 | 9% | ███ | May 28, 2026 |
+| `hashing` | 13 | 42% | ████████████ | Aug 24, 2026 |
+| `strings` | 7 | 23% | ██████ | Jun 04, 2026 |
+| `graphs` | 5 | 16% | █████ | Sep 17, 2026 |
+| `sorting` | 3 | 10% | ███ | May 03, 2026 |
+| `stack` | 3 | 10% | ███ | Jun 04, 2026 |
+| `tries` | 3 | 10% | ███ | May 28, 2026 |
 | `arrays` | 2 | 6% | ██ | Jun 15, 2026 |
 | `greedy` | 2 | 6% | ██ | May 28, 2026 |
 | `backtracking` | 1 | 3% | █ | Jun 10, 2026 |
@@ -76,36 +77,36 @@ Of the **32 questions at Anthropic that carry a topic label** (32% of them — t
 
 ## When they asked it
 
-Every recorded sighting at Anthropic, by the month it was reported in — Oct 09, 2025 to Sep 12, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Anthropic, by the month it was reported in — Oct 09, 2025 to Sep 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | ████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ██████ |
 | [Aug 2026](../by-month/2026-08.md) | 8 | ████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 16 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 15 | ██████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 8 | ████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 7 | ██████████ |
 | [Feb 2026](../by-month/2026-02.md) | 2 | ███ |
-| [Jan 2026](../by-month/2026-01.md) | 3 | ████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ███ |
 | [Dec 2025](../by-month/2025-12.md) | 3 | ████ |
 | [Nov 2025](../by-month/2025-11.md) | 2 | ███ |
 | [Oct 2025](../by-month/2025-10.md) | 3 | ████ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Anthropic, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Anthropic, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) 🆓 | Blog | — | — | Sep 12, 2026 |
-| **2** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) 🆓 | Blog | — | — | Sep 12, 2026 |
-| **3** | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | System Design | Hard | — | Sep 08, 2026 |
-| **4** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | System Design | Medium | — | Aug 28, 2026 |
-| **5** | [Explain How You Know a Professional Referrer](https://trueinterview.io/questions/explain-how-you-know-a-professional-referrer) 🆓 | Blog | — | — | Aug 28, 2026 |
-| **6** | [Identify the Most Important AI Safety Risk](https://trueinterview.io/questions/identify-the-most-important-ai-safety-risk) 🆓 | Blog | — | — | Aug 28, 2026 |
-| **7** | [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract) | System Design | Medium | — | Aug 27, 2026 |
-| **8** | [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | System Design | Hard | — | Aug 27, 2026 |
+| **1** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | 1 | Sep 17, 2026 |
+| **2** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) 🆓 | Blog | — | — | Sep 12, 2026 |
+| **3** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) 🆓 | Blog | — | — | Sep 12, 2026 |
+| **4** | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | System Design | Hard | — | Sep 08, 2026 |
+| **5** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | System Design | Medium | — | Aug 28, 2026 |
+| **6** | [Explain How You Know a Professional Referrer](https://trueinterview.io/questions/explain-how-you-know-a-professional-referrer) 🆓 | Blog | — | — | Aug 28, 2026 |
+| **7** | [Identify the Most Important AI Safety Risk](https://trueinterview.io/questions/identify-the-most-important-ai-safety-risk) 🆓 | Blog | — | — | Aug 28, 2026 |
+| **8** | [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract) | System Design | Medium | — | Aug 27, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -132,6 +133,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | 🆕 Sep 17, 2026 |
 | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | Blog | — | 🆕 Sep 12, 2026 |
 | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | Blog | — | 🆕 Sep 12, 2026 |
 | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | System Design | Hard | 🆕 Sep 08, 2026 |
@@ -191,7 +193,6 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [RL Fundamentals — GRPO Debug](https://trueinterview.io/questions/rl-fundamentals-grpo-debug) | AI Coding | Hard | Mar 02, 2026 |
 | [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | AI Coding | Medium | Feb 18, 2026 |
 | [How do you lead under risk and uncertainty?](https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty) | Blog | — | Feb 11, 2026 |
-| [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Jan 22, 2026 |
 | [How should you handle misaligned interviews?](https://trueinterview.io/questions/how-should-you-handle-misaligned-interviews) | Blog | — | Jan 19, 2026 |
 | [Explain CPU-Bound vs I/O-Bound Work](https://trueinterview.io/questions/explain-cpu-bound-vs-i-o-bound-work) | Blog | — | Jan 06, 2026 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |

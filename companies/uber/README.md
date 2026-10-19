@@ -12,7 +12,7 @@ How Uber interviews, and the questions candidates reported there. Free questions
 | Free to read here | 38 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Sep 09, 2026 |
+| Most recent sighting | Sep 29, 2026 |
 
 ## How Uber interviews
 

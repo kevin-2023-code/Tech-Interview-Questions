@@ -347,21 +347,21 @@ Extensions the interviewer raised after the main task:
 <details>
 <summary>Hint 1</summary>
 
-Model the grid as a 2D array and simulate the infection spread in discrete time steps, where each step updates cells based on the number of infected neighbors.
+Think of each round as a snapshot update where every cell's next state depends only on the previous snapshot, not on cells already changed this round.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a queue (BFS) to process newly infected cells efficiently, and track the state of each cell (healthy or infected) to avoid redundant checks.
+Count infected orthogonal neighbors for every healthy cell, and compare against a copy of the grid (or collect the cells to flip) so changes do not cascade within one round.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch out for the boundary conditions: cells on the edges have fewer neighbors, and the infection threshold N may vary, also consider that the simulation may need to run until no more changes occur.
+Watch edge and corner cells with fewer than four neighbors, and decide when the process stops, since the spread ends once a round changes nothing.
 
 </details>
 

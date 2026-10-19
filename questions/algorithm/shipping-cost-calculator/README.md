@@ -12,302 +12,253 @@
 
 ## Problem
 
-## Shipping Cost Computation
-
-Coding roles: Software Engineer, Machine Learning Engineer
-
 ### Problem Overview
 
-Create a shipping-fee calculator for an e-commerce service. It must determine an order's overall shipping charge using pricing schemes that can vary by destination country and product.
+You are writing the shipping-fee engine for an online store. Given an order, the engine must produce the total shipping charge, where prices depend on the destination country and on the product.
 
-The task advances through three stages, with each stage adding more behavior:
+The task is split into three stages, each adding complexity:
 
-1. **Basic Fixed Pricing**: Determine shipping fees from one fixed per-product rate.
-2. **Tiered Incremental Pricing**: Apply quantity brackets whose per-item price becomes lower at larger volumes.
-3. **Mixed Pricing Models**: Calculate charges when fixed tiers and incremental tiers appear in the same pricing setup.
+1. **Flat per-unit rates:** every product has a single price per unit.
+2. **Quantity tiers:** the per-unit price changes as the quantity grows.
+3. **Mixed tier types:** some tiers charge per unit, others charge a one-time flat fee.
 
 #### Input Format
 
-Two primary structures are provided:
+Two inputs are provided.
 
-**Order Object**: Holds a country identifier along with the ordered items.
+**Order object:** holds a country code and the list of purchased items.
 
-```
+```java
 {
-    "country": "GB",
+    "country": "US",
     "items": [
-        {"product": "keyboard", "quantity": 12},
-        {"product": "monitor", "quantity": 3}
+        {"product": "mouse", "quantity": 20},
+        {"product": "laptop", "quantity": 5}
     ]
 }
 ```
 
-**Shipping Cost Configuration**: A nested dictionary that describes product-specific pricing by country.
-
-The configuration format changes as you move through the three stages.
+**Shipping cost configuration:** a nested dictionary of pricing rules, keyed by country and then by product. Its layout changes slightly from one stage to the next.
 
 ### Part 1: Fixed Rate Shipping
 
-#### Problem Statement
+Implement `compute_shipping_cost(order, shipping_cost)` so that it returns the total shipping cost when every product has one fixed price per unit.
 
-Write `compute_shipping_cost(order, shipping_cost)` to return the complete shipping charge when every product has one constant per-unit fee.
+Requirements:
 
-#### Example
+* An order may contain several different products.
+* Prices differ by country.
+* Return the total as an integer.
 
-**Input:**
+Example:
 
-```
-order_gb = {
-    "country": "GB",
+```text
+Input:
+order_us = {
+    "country": "US",
     "items": [
-        {"product": "keyboard", "quantity": 12},
-        {"product": "monitor", "quantity": 3}
+        {"product": "mouse", "quantity": 20},
+        {"product": "laptop", "quantity": 5}
     ]
 }
 
-order_de = {
-    "country": "DE",
+order_ca = {
+    "country": "CA",
     "items": [
-        {"product": "keyboard", "quantity": 12},
-        {"product": "monitor", "quantity": 3}
+        {"product": "mouse", "quantity": 20},
+        {"product": "laptop", "quantity": 5}
     ]
 }
 
 shipping_cost = {
-    "GB": [
-        {"product": "keyboard", "cost": 420},
-        {"product": "monitor", "cost": 850}
+    "US": [
+        {"product": "mouse", "cost": 550},
+        {"product": "laptop", "cost": 1000}
     ],
-    "DE": [
-        {"product": "keyboard", "cost": 510},
-        {"product": "monitor", "cost": 920}
+    "CA": [
+        {"product": "mouse", "cost": 750},
+        {"product": "laptop", "cost": 1100}
     ]
 }
+
+Output:
+compute_shipping_cost(order_us, shipping_cost) == 16000
+# (20 × 550) + (5 × 1000) = 11000 + 5000 = 16000
+
+compute_shipping_cost(order_ca, shipping_cost) == 20500
+# (20 × 750) + (5 × 1100) = 15000 + 5500 = 20500
 ```
-
-**Output:**
-
-```
-compute_shipping_cost(order_gb, shipping_cost) == 7590
-# Calculation: (12 × 420) + (3 × 850) = 5040 + 2550 = 7590
-
-compute_shipping_cost(order_de, shipping_cost) == 8880
-# Calculation: (12 × 510) + (3 × 920) = 6120 + 2760 = 8880
-```
-
-#### Requirements
-
-* An order may contain more than one product.
-* Prices must be allowed to differ between countries.
-* Produce the total shipping fee as an integer.
 
 ### Part 2: Tiered Incremental Pricing
 
-#### Problem Statement
+Extend the function so that the price per unit depends on how many units are bought. Every tier states a minimum quantity, a maximum quantity and the per-unit price that applies inside that range. This behaves like a volume discount: units that fall into higher quantity brackets can be cheaper.
 
-Enhance the implementation to support quantity-based price tiers, where the per-unit amount is determined by the item's quantity bracket. Every tier provides a lower bound, upper bound, and unit charge for that interval.
+Requirements:
 
-This resembles volume discounting: units that land in larger quantity bands can have a cheaper individual rate.
+* Handle the tiers one after another, from the smallest quantity to the largest.
+* A `maxQuantity` of `None` means the tier has no upper bound.
+* Each range is half-open, $$[\text{minQuantity}, \text{maxQuantity})$$: the lower bound is included and the upper bound is excluded.
+* Price every tier separately and add the results together.
 
-#### Example
+Example:
 
-**Input:**
-
-```
-# The orders are unchanged from Part 1
+```text
+Input:
+# Orders are the same as in Part 1
 
 shipping_cost = {
-    "GB": [
+    "US": [
         {
-            "product": "keyboard",
+            "product": "mouse",
             "costs": [
-                {"minQuantity": 0, "maxQuantity": None, "cost": 420}
+                {"minQuantity": 0, "maxQuantity": None, "cost": 550}
             ]
         },
         {
-            "product": "monitor",
+            "product": "laptop",
             "costs": [
-                {"minQuantity": 0, "maxQuantity": 1, "cost": 850},
-                {"minQuantity": 1, "maxQuantity": None, "cost": 760}
+                {"minQuantity": 0, "maxQuantity": 2, "cost": 1000},
+                {"minQuantity": 3, "maxQuantity": None, "cost": 900}
             ]
         }
     ],
-    "DE": [
+    "CA": [
         {
-            "product": "keyboard",
+            "product": "mouse",
             "costs": [
-                {"minQuantity": 0, "maxQuantity": None, "cost": 510}
+                {"minQuantity": 0, "maxQuantity": None, "cost": 750}
             ]
         },
         {
-            "product": "monitor",
+            "product": "laptop",
             "costs": [
-                {"minQuantity": 0, "maxQuantity": 1, "cost": 920},
-                {"minQuantity": 1, "maxQuantity": None, "cost": 830}
+                {"minQuantity": 0, "maxQuantity": 2, "cost": 1100},
+                {"minQuantity": 3, "maxQuantity": None, "cost": 1000}
             ]
         }
     ]
 }
+
+Output:
+compute_shipping_cost(order_us, shipping_cost) == 15700
+# mouse: 20 × 550 = 11000 (all units at one rate)
+# laptop: (2 × 1000) + (3 × 900) = 2000 + 2700 = 4700
+# Total: 11000 + 4700 = 15700
+
+compute_shipping_cost(order_ca, shipping_cost) == 20200
+# mouse: 20 × 750 = 15000
+# laptop: (2 × 1100) + (3 × 1000) = 2200 + 3000 = 5200
+# Total: 15000 + 5200 = 20200
 ```
 
-**Output:**
+Questions worth raising with the interviewer at this stage:
 
-```
-compute_shipping_cost(order_gb, shipping_cost) == 7410
-# Calculation:
-# keyboard: 12 × 420 = 5040 (every unit has the same rate)
-# monitor: (1 × 850) + (2 × 760) = 850 + 1520 = 2370
-# Total: 5040 + 2370 = 7410
+* Are the cost tiers always sorted by `minQuantity`?
+* Are the ranges half-open, $$[\text{min}, \text{max})$$, or fully inclusive, $$[\text{min}, \text{max}]$$? This matters for the tier boundaries.
+* Can tiers overlap or leave gaps?
+* How should edge cases such as a zero quantity or a missing product be treated?
 
-compute_shipping_cost(order_de, shipping_cost) == 8700
-# Calculation:
-# keyboard: 12 × 510 = 6120
-# monitor: (1 × 920) + (2 × 830) = 920 + 1660 = 2580
-# Total: 6120 + 2580 = 8700
-```
+### Part 3: Mixed Pricing Models
 
-#### Requirements
+Extend the solution so each tier carries a `type` field with one of two values:
 
-* Traverse quantity bands in ascending order, from the lowest tier onward.
-* A `maxQuantity` value of `None` means that the tier has no upper limit.
-* Quantity intervals are half-open: [minQuantity, maxQuantity), including the minimum but excluding the maximum.
-* Compute each tier's charge independently, then add those charges together.
+* **`incremental`:** charge per unit, as in Part 2 (quantity times cost).
+* **`fixed`:** charge one flat fee for the tier, regardless of how many units land in it.
 
-#### Clarification Questions to Ask
+A single product can have several tiers that alternate between the two types.
 
-* Is the list of cost tiers guaranteed to be ordered by `minQuantity`?
-* Should ranges be half-open, [min, max), or should both endpoints be included? This affects calculations at tier boundaries.
-* Can tiers intersect, or can there be uncovered intervals between them?
-* What is the expected behavior for conditions such as a quantity of zero or an unavailable product?
+Requirements:
 
-### Part 3: Mixed Pricing Models (Fixed + Incremental)
+* Support both `"fixed"` and `"incremental"` types.
+* Fixed: add the tier's `cost` directly once the quantity reaches that tier.
+* Incremental: multiply the units in the tier by the `cost`, as in Part 2.
+* Handle products whose tiers alternate between types (for example fixed, incremental, fixed, incremental).
 
-#### Problem Statement
+Example:
 
-Further extend the implementation so that tiers can use either of two pricing methods within one tier list:
-
-* **`incremental`**: Apply a per-item charge, as in Part 2 (`quantity × cost`).
-* **`fixed`**: Apply one flat charge, independent of the number of units covered by that tier.
-
-One product's tiers may alternate between fixed and incremental pricing.
-
-#### Example
-
-**Input:**
-
-```
-# The orders are unchanged
+```text
+Input:
+# Orders are the same as before
 
 shipping_cost = {
-    "GB": [
+    "US": [
         {
-            "product": "keyboard",
+            "product": "mouse",
             "costs": [
                 {
                     "type": "incremental",
                     "minQuantity": 0,
                     "maxQuantity": None,
-                    "cost": 420
+                    "cost": 550
                 }
             ]
         },
         {
-            "product": "monitor",
+            "product": "laptop",
             "costs": [
                 {
                     "type": "fixed",
                     "minQuantity": 0,
-                    "maxQuantity": 1,
-                    "cost": 850
+                    "maxQuantity": 2,
+                    "cost": 1000
                 },
                 {
                     "type": "incremental",
-                    "minQuantity": 1,
+                    "minQuantity": 3,
                     "maxQuantity": None,
-                    "cost": 760
+                    "cost": 900
                 }
             ]
         }
     ],
-    "DE": [
+    "CA": [
         {
-            "product": "keyboard",
+            "product": "mouse",
             "costs": [
                 {
                     "type": "incremental",
                     "minQuantity": 0,
                     "maxQuantity": None,
-                    "cost": 510
+                    "cost": 750
                 }
             ]
         },
         {
-            "product": "monitor",
+            "product": "laptop",
             "costs": [
                 {
                     "type": "fixed",
                     "minQuantity": 0,
-                    "maxQuantity": 1,
-                    "cost": 920
+                    "maxQuantity": 2,
+                    "cost": 1100
                 },
                 {
                     "type": "incremental",
-                    "minQuantity": 1,
+                    "minQuantity": 3,
                     "maxQuantity": None,
-                    "cost": 830
+                    "cost": 1000
                 }
             ]
         }
     ]
 }
+
+Output:
+compute_shipping_cost(order_us, shipping_cost) == 14700
+# mouse: 20 × 550 = 11000 (incremental)
+# laptop: 1000 (fixed, covers the first 2) + (3 × 900) = 1000 + 2700 = 3700
+# Total: 11000 + 3700 = 14700
+
+compute_shipping_cost(order_ca, shipping_cost) == 19100
+# mouse: 20 × 750 = 15000 (incremental)
+# laptop: 1100 (fixed, covers the first 2) + (3 × 1000) = 1100 + 3000 = 4100
+# Total: 15000 + 4100 = 19100
 ```
 
-**Output:**
+### Follow-ups
 
-```
-compute_shipping_cost(order_gb, shipping_cost) == 7410
-# Calculation:
-# keyboard: 12 × 420 = 5040 (incremental)
-# monitor: 850 (fixed for the first 1) + (2 × 760) = 850 + 1520 = 2370
-# Total: 5040 + 2370 = 7410
-
-compute_shipping_cost(order_de, shipping_cost) == 8700
-# Calculation:
-# keyboard: 12 × 510 = 6120 (incremental)
-# monitor: 920 (fixed for the first 1) + (2 × 830) = 920 + 1660 = 2580
-# Total: 6120 + 2580 = 8700
-```
-
-#### Requirements
-
-* Recognize both the "fixed" and "incremental" price types.
-* For fixed tiers, add `cost` once whenever quantity reaches that tier.
-* For incremental tiers, multiply the applicable unit count by `cost`, as in Part 2.
-* Support alternating sequences such as fixed → incremental → fixed → incremental.
-
-#### Edge Cases to Consider:
-
-* An order whose items list is empty.
-* A product that does not appear in the shipping cost table.
-* An invalid country identifier.
-* Quantities equal to zero or below zero.
-* Missing or null input values.
-
-### Follow-Up Discussion Topics
-
-#### Code Quality and Production Readiness
-
-**Question:** If this implementation were going into production, what changes would you make to improve its clarity and long-term maintainability?
-
-**Considerations:**
-
-* **Separation of Concerns:** Move tier evaluation into dedicated helper functions.
-* **Type Safety:** Introduce type annotations and structured representations such as dataclasses or TypedDict.
-* **Error Handling:** Check inputs and deal gracefully with absent data.
-* **Testing:** Create broad unit-test coverage for edge conditions.
-* **Configuration Validation:** Verify shipping-cost configurations before they are used at runtime.
-* **Logging:** Record pricing-calculation details to help diagnose issues.
-* **Documentation:** Provide docstrings that describe the pricing behavior.
+* **Production readiness:** If this code were going to production, how would you improve its readability and maintainability? Be ready to discuss separation of concerns, type safety, error handling and input validation, testing, configuration validation, logging and documentation.
+* **Unsorted tiers:** What if the cost tiers are not guaranteed to be sorted by `minQuantity`?
 
 ## Hints
 

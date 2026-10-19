@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **26** |
 | Most recent sighting | Sep 01, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (38% of 26) |
 | Difficulty (easy / medium / hard) | 1 / 19 / 4 |
 | Free to practise | [7](../free/README.md) |
@@ -38,28 +38,29 @@ Which stage each question came from, for the **26 of 26** questions at Perplexit
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | Onsite / virtual onsite | Sep 01, 2026 |
+| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 31, 2026 |
 
 ## What they ask about
 
-Of the **12 questions at Perplexity that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Perplexity that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `heap` | 4 | 33% | ████████████ | Jun 08, 2026 |
-| `strings` | 3 | 25% | █████████ | Jan 06, 2026 |
-| `tries` | 3 | 25% | █████████ | Jun 15, 2026 |
-| `hashing` | 2 | 17% | ██████ | Jun 08, 2026 |
-| `linked-list` | 2 | 17% | ██████ | Jan 06, 2026 |
-| `trees` | 2 | 17% | ██████ | Jun 15, 2026 |
-| `binary-search` | 1 | 8% | ███ | Feb 23, 2026 |
-| `dynamic-programming` | 1 | 8% | ███ | — |
-| `graphs` | 1 | 8% | ███ | Oct 03, 2025 |
-| `intervals` | 1 | 8% | ███ | Aug 09, 2025 |
+| `heap` | 4 | 36% | ████████████ | Jun 08, 2026 |
+| `strings` | 3 | 27% | █████████ | Jan 06, 2026 |
+| `hashing` | 2 | 18% | ██████ | Jun 08, 2026 |
+| `linked-list` | 2 | 18% | ██████ | Jan 06, 2026 |
+| `trees` | 2 | 18% | ██████ | Jun 15, 2026 |
+| `tries` | 2 | 18% | ██████ | Jun 15, 2026 |
+| `binary-search` | 1 | 9% | ███ | Feb 23, 2026 |
+| `dynamic-programming` | 1 | 9% | ███ | — |
+| `graphs` | 1 | 9% | ███ | Oct 03, 2025 |
+| `intervals` | 1 | 9% | ███ | Aug 09, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -70,13 +71,13 @@ Every recorded sighting at Perplexity, by the month it was reported in — Jul 0
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 1 | ██████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ██████ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████████████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ██████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ██████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
 | [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██████ |
 | [Oct 2025](../by-month/2025-10.md) | 4 | ████████████████████████ |
 | [Aug 2025](../by-month/2025-08.md) | 1 | ██████ |
@@ -89,13 +90,13 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | — | Sep 01, 2026 |
-| **2** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
-| **3** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | 1 | Jun 08, 2026 |
-| **4** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) 🆓 | Object Oriented Programming | Medium | — | May 26, 2026 |
-| **5** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | 6 | Apr 16, 2026 |
-| **6** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | — | Apr 12, 2026 |
-| **7** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) 🆓 | System Design | Easy | 7 | Mar 24, 2026 |
-| **8** | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | 1 | Feb 23, 2026 |
+| **2** | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | 3 | Aug 31, 2026 |
+| **3** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
+| **4** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | 1 | Jun 08, 2026 |
+| **5** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) 🆓 | Object Oriented Programming | Medium | — | May 26, 2026 |
+| **6** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | 6 | Apr 16, 2026 |
+| **7** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | — | Apr 12, 2026 |
+| **8** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) 🆓 | System Design | Easy | 7 | Mar 24, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -120,6 +121,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | Sep 01, 2026 |
+| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Aug 31, 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Jun 08, 2026 |
 | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Object Oriented Programming | Medium | May 26, 2026 |
@@ -128,7 +130,6 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | Feb 23, 2026 |
 | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | Algorithm | Medium | Jan 06, 2026 |
-| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement) | AI Coding | Medium | Nov 22, 2025 |
 | [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words) | Algorithm | Medium | Oct 12, 2025 |
 | [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server) | Object Oriented Programming | Medium | Oct 09, 2025 |

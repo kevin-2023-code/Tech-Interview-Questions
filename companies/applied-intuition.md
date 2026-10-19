@@ -46,17 +46,17 @@ Which stage each question came from, for the **29 of 29** questions at Applied I
 
 ## What they ask about
 
-Of the **20 questions at Applied Intuition that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at Applied Intuition that carry a topic label** (66% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 20% | ████████████ | Dec 01, 2025 |
-| `hashing` | 4 | 20% | ████████████ | Apr 28, 2026 |
-| `math` | 4 | 20% | ████████████ | Feb 12, 2026 |
-| `binary-search` | 2 | 10% | ██████ | — |
-| `sorting` | 2 | 10% | ██████ | — |
-| `stack` | 2 | 10% | ██████ | Feb 12, 2026 |
-| `strings` | 2 | 10% | ██████ | Feb 12, 2026 |
+| `graphs` | 4 | 21% | ████████████ | Dec 01, 2025 |
+| `math` | 4 | 21% | ████████████ | Feb 12, 2026 |
+| `hashing` | 3 | 16% | █████████ | — |
+| `binary-search` | 2 | 11% | ██████ | — |
+| `sorting` | 2 | 11% | ██████ | — |
+| `stack` | 2 | 11% | ██████ | Feb 12, 2026 |
+| `strings` | 2 | 11% | ██████ | Feb 12, 2026 |
 | `arrays` | 1 | 5% | ███ | Apr 14, 2026 |
 | `greedy` | 1 | 5% | ███ | — |
 | `heap` | 1 | 5% | ███ | — |

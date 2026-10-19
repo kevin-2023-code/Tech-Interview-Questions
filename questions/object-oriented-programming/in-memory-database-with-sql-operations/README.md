@@ -12,25 +12,25 @@
 
 ## Problem
 
-## Problem Overview
+### Problem Overview
 
-Create an in-memory database that offers a small set of SQL-inspired capabilities. Build it in stages: first support tables and inserts, then add projected queries, filtering through WHERE-style conditions, and ordering through ORDER BY.
+Build a small in-memory database that mimics a few SQL-style operations. The work is split into several stages, each adding a feature on top of the previous one: creating tables, inserting rows, selecting columns (projection), filtering rows (a WHERE-like condition), and ordering results (an ORDER BY-like option). Assume a table holds at most 10,000 records, and each record has at most 20 columns.
 
-**Important Notes:**
+**Ground rules for the exercise:**
 
-* The exercise is divided into several parts, so ask the interviewer how many parts are expected and plan your time accordingly.
-* Choose a straightforward input/API representation of your own; parsing SQL text is unnecessary and tends to introduce avoidable complexity.
-* Basic maps or dictionaries are enough for the data model; sophisticated algorithms are not required.
-* Create your own tests and verify that the implementation compiles and executes correctly.
-* Keep the implementation clear and maintainable.
+* The question has several parts. Ask the interviewer how many there are so you can budget your time.
+* You choose the input format yourself. Pass arguments straight into your methods instead of parsing SQL text, which is slow and easy to get wrong.
+* Plain dictionaries and maps are enough; no sophisticated algorithms are needed.
+* Write your own tests, and make sure the code compiles and runs.
+* Favor clean, readable code.
+
+An overall functional checklist: basic querying; querying with conditions joined by `AND`; querying with conditions over several columns joined by `AND`; querying with conditions plus ordering by one column; querying with conditions plus ordering by several columns. Provide a simple way to run queries and print results, along with tests for: a basic query, a single-condition query, a multi-condition query, a query with ordering, and a comprehensive query that combines everything.
 
 ### Part 1: Basic Table Operations and Queries
 
-Build a `Database` class with the operations below.
+Implement a `Database` class with these methods:
 
-#### Required Methods
-
-```python
+```
 class Database:
     def __init__(self):
         """Initialize the database"""
@@ -52,9 +52,9 @@ class Database:
         pass
 ```
 
-#### Example Usage
+Example usage:
 
-```python
+```
 db = Database()
 db.create_table("users", ["id", "name", "birthday"])
 
@@ -79,24 +79,20 @@ result = db.query("users", ["name"])
 # ]
 ```
 
-The first query retains only each user's `id` and `name`, while the second projects the table down to `name` alone.
-
-#### Test Cases to Consider
+Test scenarios to consider:
 
 * Creating more than one table
-* Adding several rows
+* Inserting several rows
 * Selecting one column
 * Selecting several columns
 * Selecting every column
-* Edge cases such as an empty table and columns that do not exist
+* Edge cases: an empty table, and columns that do not exist
 
 ### Part 2: WHERE Clause - Single Condition
 
-Enhance `query` so callers may optionally supply one predicate to decide which rows are included.
+Extend `query` so that rows can be filtered. Begin with a single condition.
 
-#### Updated Method Signature
-
-```python
+```
 def query(self,
           table_name: str,
           columns: List[str],
@@ -112,9 +108,9 @@ def query(self,
     pass
 ```
 
-#### Example Usage
+Example usage:
 
-```python
+```
 db = Database()
 db.create_table("users", ["id", "name", "birthday"])
 
@@ -145,24 +141,22 @@ result = db.query(
 # ]
 ```
 
-The first result includes the two birthdays later than `1990-01-01`; the second includes the rows whose numeric IDs exceed `1`.
+Test scenarios to consider:
 
-#### Test Cases to Consider
-
-* Omitting WHERE and preserving Part 1 behavior
-* Comparing numeric values
-* Comparing strings
-* Comparing dates or timestamps
-* A predicate that matches no rows
-* A predicate that matches every row
+* No filter at all (the Part 1 behavior must keep working)
+* Numeric comparisons
+* String comparisons
+* Date or timestamp comparisons
+* A filter that matches nothing
+* A filter that matches every row
 
 ### Part 3: WHERE Clause - Multiple Conditions (AND)
 
-Expand filtering so several conditions can be evaluated together with AND semantics.
+Extend the filtering so that several conditions can be required at once, joined with AND.
 
-#### Example Usage - Option 1: Lambda with Multiple Conditions
+Option 1: express all conditions inside the callable.
 
-```python
+```
 # Query users with id > 1 AND name starting with 'C'
 result = db.query(
     "users",
@@ -172,13 +166,9 @@ result = db.query(
 # Expected: [{"id": "3", "name": "Charlie"}]
 ```
 
-Only Charlie satisfies both the ID condition and the name-prefix condition.
+Option 2: an alternative API in which `where` is a list of condition tuples.
 
-#### Example Usage - Option 2: List of Conditions (Alternative API)
-
-You may instead define the interface to receive a collection of condition tuples:
-
-```python
+```
 def query(self,
           table_name: str,
           columns: List[str],
@@ -200,26 +190,27 @@ result = db.query(
 # Expected: [{"id": "3", "name": "Charlie"}]
 ```
 
-This tuple-list representation is an optional Part 3 API rather than a required replacement. The reference implementation described later accepts both a callable filter such as `where=lambda row:...` and a tuple-list filter such as `where=[("col", "op", value),...]`.
+The tuple-list form is merely another way to design this part; an implementation may accept either the callable form (`where=lambda row:...`) or the tuple-list form (`where=[("col", "op", value),...]`).
 
-#### Test Cases to Consider
+Test scenarios to consider:
 
-* Several conditions that are all true
-* Several conditions that produce no match
-* A mixture of numeric and string predicates
-* An empty condition list, which should return every row
+* Several conditions that all hold
+* Several conditions where no row qualifies
+* Mixing numeric and string conditions
+* An empty condition list (every row should be returned)
 
 ### Part 4: ORDER BY - Single Column
 
-Add optional sorting to `query`.
+Add result ordering to `query`.
 
-#### Updated Method Signature
+The signature should be designed with Part 5 in mind. Two options:
 
-The interface should leave room for the multi-column ordering introduced in Part 5. You may begin with `order_by: Optional[str]` and revise it later, which is simpler but breaks backward compatibility, or adopt `order_by: Optional[Union[str, Tuple[List[str], bool]]]` immediately, which is more extensible but more involved.
+* Begin with `order_by: Optional[str]` and refactor in Part 5 (simpler, but not backward compatible).
+* Begin with `order_by: Optional[Union[str, Tuple[List[str], bool]]]` (more involved, but extensible).
 
-For the basic form, the signature can be:
+The simplest form is:
 
-```python
+```
 def query(self,
           table_name: str,
           columns: List[str],
@@ -234,11 +225,11 @@ def query(self,
     pass
 ```
 
-The reference implementation uses the extensible Part 5 representation from the beginning, so it does not need to change the interface later.
+A reference design may instead adopt the Part 5 format right away so nothing needs refactoring later.
 
-#### Example Usage
+Example usage:
 
-```python
+```
 db = Database()
 db.create_table("users", ["id", "name", "age"])
 
@@ -270,23 +261,19 @@ result = db.query(
 # ]
 ```
 
-The first ordered result is alphabetical by name. In the final query, Bob is removed by the predicate, and the remaining names are returned alphabetically.
+Test scenarios to consider:
 
-#### Test Cases to Consider
-
-* Ordering string-valued columns
-* Ordering numeric-valued columns, including consideration of string-to-number conversion
-* Applying both WHERE and ORDER BY
-* Ordering without a WHERE condition
-* Preserving order when sort keys are equal
+* Ordering by a string column
+* Ordering by a numeric column (think about converting strings to numbers)
+* Ordering together with a filter
+* Ordering without a filter
+* Behavior when values are equal (stability)
 
 ### Part 5: ORDER BY - Multiple Columns with ASC/DESC
 
-Extend ordering to accept multiple sort keys and one common direction for all of them.
+Extend ordering to cover several columns and a chosen direction.
 
-#### Updated Method Signature
-
-```python
+```
 def query(self,
           table_name: str,
           columns: List[str],
@@ -304,9 +291,9 @@ def query(self,
     pass
 ```
 
-#### Example Usage
+Example usage:
 
-```python
+```
 db = Database()
 db.create_table("users", ["id", "name", "birthday"])
 
@@ -336,127 +323,49 @@ result = db.query(
 # Expected: [{"id": "3"}, {"id": "2"}]
 ```
 
-The first query places the two Charles rows before Ada and uses birthday to break their tie, all in descending order. The second query keeps only Charles and orders those two rows by descending birthday.
+Optional, more advanced design: let each sort column carry its own direction, for example `order_by: Optional[List[Tuple[str, str]]] = None` with a value such as `[("name", "ASC"), ("birthday", "DESC")]`. This allows mixed directions but is harder to implement; the single shared direction shown above is sufficient for this interview.
 
-#### Alternative Design: Per-Column Sort Direction
+Test scenarios to consider:
 
-A more advanced API could assign a direction independently to each key:
-
-```python
-order_by: Optional[List[Tuple[str, str]]] = None
-# Example: [("name", "ASC"), ("birthday", "DESC")]
-```
-
-That design supports mixed directions, but it makes the implementation more complicated. The simpler all-columns-share-one-direction model above is sufficient for this interview exercise.
-
-#### Test Cases to Consider
-
-* Multiple ascending keys
-* Multiple descending keys
-* Mixed directions, if you choose to support them
-* Cases requiring a tie-breaker
-* A single key together with a direction
+* Several columns, ascending
+* Several columns, descending
+* Mixed ascending and descending (if you support it)
+* Tie-breaking between equal values
+* A single column with a direction
 
 ### Part 6 (Advanced): Indexing Discussion
 
-This part is generally a design discussion rather than an implementation task.
-
-The interviewer may ask: “How would you improve query performance by adding indexes?”
-
-#### Key Points to Discuss
-
-1. **Inverted Index for WHERE Clauses**
-
-   * Use a structure such as `{column_name: {value: [row_indices]}}`.
-   * For example, `{"name": {"Alice": [0], "Bob": [1, 3]}}` maps each value to the rows containing it.
-   * Equality lookups can improve from O(n) scanning to O(1) plus O(k), where k is the number of returned rows.
-2. **B-Tree Index for Range Queries**
-
-   * B-trees are useful for `>`, `<`, `>=`, and `<=` predicates.
-   * They retain sorted order so range scans can be performed efficiently.
-   * The trade-off is slower insertion in exchange for faster queries.
-3. **Composite Index**
-
-   * An index over multiple columns can help with WHERE clauses containing multiple conditions.
-   * One example is an index on `(age, name)` for queries that filter on both fields.
-4. **Index Maintenance**
-
-   * INSERT operations must update the relevant indexes.
-   * Indexes trade faster reads for slower writes.
-   * Consider when indexes should be constructed, such as after bulk inserts instead of during every insert.
-5. **Query Optimization Strategy**
-
-   * Use the WHERE index first to reduce the candidate rows.
-   * Perform column projection after filtering.
-   * Sort only after the filtered result has been produced.
-
-#### Example Index Implementation (Conceptual)
-
-```python
-class Database:
-    def __init__(self):
-        self.tables = {}
-        self.schemas = {}
-        self.indexes = {} # {table_name: {column_name: {value: [row_indices]}}}
-
-    def create_index(self, table_name: str, column_name: str):
-        """Build inverted index on column"""
-        if table_name not in self.indexes:
-            self.indexes[table_name] = {}
-
-        index = {}
-        for i, row in enumerate(self.tables[table_name]):
-            value = row[column_name]
-            if value not in index:
-                index[value] = []
-            index[value].append(i)
-
-        self.indexes[table_name][column_name] = index
-```
+This part normally needs no code, only discussion. The interviewer may ask how query performance could be improved with indexing. Be prepared to talk about indexing approaches for equality filters, range filters and multi-column filters, how indexes are kept up to date when rows are inserted, when to build them (for example after a bulk load versus on each insert), and the trade-off between read speed and write speed. Also be ready to explain in what order the filter, the projection and the sort should be applied in an optimized query.
 
 ### Implementation Tips
 
-#### API Design Consideration
-
-As each capability is added, retain compatibility with the earlier calls whenever possible:
-
-```python
-# Part 1: query(table, columns)
-# Part 2: query(table, columns, where=None)
-# Part 3: Same signature, enhanced where logic
-# Part 4: query(table, columns, where=None, order_by=None)
-# Part 5: Same signature, enhanced order_by logic
-```
-
-#### Suggested Data Structure
-
-```python
-class Database:
-    def __init__(self):
-        self.tables = {} # {table_name: [row_dicts]}
-        self.schemas = {} # {table_name: [column_names]}
-```
+* Keep each part backward compatible: later parts extend the earlier signature without breaking earlier calls. The progression is `query(table, columns)`, then `query(table, columns, where=None)`, then the same signature with richer `where` logic, then `query(table, columns, where=None, order_by=None)`, then the same signature with richer `order_by` logic.
+* A reasonable storage layout is one dictionary of row lists keyed by table name and one dictionary of column-name lists keyed by table name.
+* Copy the dictionary when inserting a row, so that later changes to the caller's dictionary cannot alter stored data.
+* `where` and `order_by` are optional, so the code must handle `None` without crashing.
+* When nothing matches, return an empty list, not `None`.
+* Selecting a table that does not exist should be treated as an error.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Design your own simple API representation for tables, rows, and conditions rather than parsing SQL text.
+Think about the main components first: a table with a schema, rows stored as records, and a small set of operations that can be composed.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Represent each table as a map of column names to values per row, and implement WHERE and ORDER BY as composable filters and comparators over row collections.
+Separate storage from query handling so that projection, a filter condition and ordering are independent steps applied to the rows in sequence, and keep each stage extensible for the next part of the exercise.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Keep the design extensible so adding projections, filters, and ordering doesn't require rewriting the core storage layer.
+Discuss trade-offs such as validating column names and duplicate tables, how to compare mixed value types when ordering, and when an index would help given the 10,000-row limit.
 
 </details>
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **88** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 8 |
+| Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (39% of 88) |
 | Difficulty (easy / medium / hard) | 10 / 49 / 20 |
 | Free to practise | [23](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **88 of 88** questions at Databrick
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**9 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,19 +47,20 @@ Which stage each question came from, for the **88 of 88** questions at Databrick
 | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | System Design | Easy | Onsite / virtual onsite | Sep 06, 2026 |
 | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Algorithm | Hard | Onsite / virtual onsite | Sep 06, 2026 |
 | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Algorithm | Medium | Onsite / virtual onsite | Sep 06, 2026 |
+| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 31, 2026 |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | Blog | — | Onsite / virtual onsite | Aug 13, 2026 |
 | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jul 30, 2026 |
 | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen) | Blog | — | Phone screen | Jul 21, 2026 |
 
 ## What they ask about
 
-Of the **36 questions at Databricks that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **35 questions at Databricks that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 7 | 19% | ████████████ | Jun 01, 2026 |
-| `strings` | 7 | 19% | ████████████ | Sep 10, 2026 |
-| `trees` | 7 | 19% | ████████████ | Sep 06, 2026 |
+| `hashing` | 7 | 20% | ████████████ | Jun 01, 2026 |
+| `strings` | 7 | 20% | ████████████ | Sep 10, 2026 |
+| `trees` | 7 | 20% | ████████████ | Sep 06, 2026 |
 | `arrays` | 5 | 14% | █████████ | Sep 10, 2026 |
 | `dynamic-programming` | 5 | 14% | █████████ | Jun 06, 2026 |
 | `graphs` | 5 | 14% | █████████ | Jun 29, 2026 |
@@ -77,7 +78,7 @@ Every recorded sighting at Databricks, by the month it was reported in — Jun 0
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 5 | ███████████ |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ██ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ████ |
 | [Jul 2026](../by-month/2026-07.md) | 2 | ████ |
 | [Jun 2026](../by-month/2026-06.md) | 9 | ████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 7 | ███████████████ |
@@ -85,7 +86,7 @@ Every recorded sighting at Databricks, by the month it was reported in — Jun 0
 | [Mar 2026](../by-month/2026-03.md) | 2 | ████ |
 | [Feb 2026](../by-month/2026-02.md) | 2 | ████ |
 | [Jan 2026](../by-month/2026-01.md) | 3 | ███████ |
-| [Dec 2025](../by-month/2025-12.md) | 4 | █████████ |
+| [Dec 2025](../by-month/2025-12.md) | 3 | ███████ |
 | [Nov 2025](../by-month/2025-11.md) | 11 | ████████████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 7 | ███████████████ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
@@ -101,9 +102,9 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | **3** | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | System Design | Easy | — | Sep 06, 2026 |
 | **4** | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Algorithm | Medium | — | Sep 06, 2026 |
 | **5** | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Algorithm | Hard | — | Sep 06, 2026 |
-| **6** | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) 🆓 | Blog | — | — | Aug 13, 2026 |
-| **7** | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | — | Jul 30, 2026 |
-| **8** | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen) 🆓 | Blog | — | — | Jul 21, 2026 |
+| **6** | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | 3 | Aug 31, 2026 |
+| **7** | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) 🆓 | Blog | — | — | Aug 13, 2026 |
+| **8** | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | — | Jul 30, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -132,6 +133,7 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Algorithm | Medium | 🆕 Sep 06, 2026 |
 | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Algorithm | Hard | 🆕 Sep 06, 2026 |
 | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | System Design | Easy | 🆕 Sep 06, 2026 |
+| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Aug 31, 2026 |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | Blog | — | Aug 13, 2026 |
 | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | Jul 30, 2026 |
 | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen) | Blog | — | Jul 21, 2026 |
@@ -169,7 +171,6 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Design a single-node persistent in-memory cache](https://trueinterview.io/questions/design-a-single-node-persistent-in-memory-cache) | Object Oriented Programming | Hard | Jan 22, 2026 |
 | [SQL Query Plan Optimizer](https://trueinterview.io/questions/sql-query-plan-optimizer) | Algorithm | Hard | Jan 10, 2026 |
 | [Describe project impact and critical feedback](https://trueinterview.io/questions/describe-project-impact-and-critical-feedback) | Blog | — | Jan 05, 2026 |
-| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Test coin fairness from 560 tails in 1000 flips](https://trueinterview.io/questions/test-coin-fairness-from-560-tails-in-1000-flips) | Blog | — | Dec 12, 2025 |
 | [Explain ROC-AUC vs PR-AUC tradeoffs](https://trueinterview.io/questions/explain-roc-auc-vs-pr-auc-tradeoffs) | Blog | — | Dec 12, 2025 |
 | [Count weekly customers with ≥$1000 YTD spend](https://trueinterview.io/questions/count-weekly-customers-with-1000-ytd-spend) | SQL | Hard | Dec 03, 2025 |

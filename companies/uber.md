@@ -15,10 +15,10 @@
 |  |  |
 | :-- | :-- |
 | Questions tracked | **264** |
-| Most recent sighting | Sep 09, 2026 |
-| Reported in the last 90 days | 10 |
+| Most recent sighting | Sep 29, 2026 |
+| Reported in the last 90 days | 12 |
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 264) |
-| Difficulty (easy / medium / hard) | 29 / 152 / 44 |
+| Difficulty (easy / medium / hard) | 28 / 153 / 44 |
 | Free to practise | [77](../free/README.md) |
 | Guides & writeups | 3 |
 | Interview reports on the board | 8 in this snapshot |
@@ -31,21 +31,23 @@ Which stage each question came from, for the **264 of 264** questions at Uber th
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 34 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 11 / 18 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 149 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 11 / 87 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 33 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 11 / 17 / 4 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 149 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 10 / 88 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 105 | ███████ | [Algorithm](../formats/algorithm.md) (39%) | 8 / 65 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**10 sightings** in this window. Newest first.
+**12 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 29, 2026 |
 | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Algorithm | Hard | Onsite / virtual onsite | Sep 09, 2026 |
 | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | System Design | Medium | Onsite / virtual onsite | Sep 09, 2026 |
 | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Algorithm | Medium | Phone screen | Sep 09, 2026 |
+| [Find Robots Position](https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance) | Algorithm | Medium | Phone screen | Aug 29, 2026 |
 | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | Phone screen | Aug 29, 2026 |
 | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | System Design | Medium | Onsite / virtual onsite | Aug 22, 2026 |
 | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
@@ -61,7 +63,7 @@ Of the **158 questions at Uber that carry a topic label** (60% of them — the r
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 39 | 25% | ████████████ | Sep 09, 2026 |
-| `arrays` | 29 | 18% | █████████ | Aug 16, 2026 |
+| `arrays` | 30 | 19% | █████████ | Sep 29, 2026 |
 | `hashing` | 17 | 11% | █████ | Jun 28, 2026 |
 | `matrix` | 16 | 10% | █████ | Sep 09, 2026 |
 | `strings` | 16 | 10% | █████ | Jun 24, 2026 |
@@ -75,18 +77,18 @@ Of the **158 questions at Uber that carry a topic label** (60% of them — the r
 
 ## When they asked it
 
-Every recorded sighting at Uber, by the month it was reported in — Jul 10, 2025 to Sep 09, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Uber, by the month it was reported in — Jul 10, 2025 to Sep 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | ██ |
-| [Aug 2026](../by-month/2026-08.md) | 6 | █████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ███ |
+| [Aug 2026](../by-month/2026-08.md) | 7 | ██████ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | █ |
-| [Jun 2026](../by-month/2026-06.md) | 23 | ██████████████████ |
-| [May 2026](../by-month/2026-05.md) | 21 | █████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 23 | ███████████████████ |
+| [May 2026](../by-month/2026-05.md) | 20 | █████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 17 | ██████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 30 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 20 | ████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 29 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 20 | █████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 21 | █████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 7 | ██████ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | ██ |
@@ -100,14 +102,14 @@ The 8 questions to open first if you are preparing for Uber, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | System Design | Medium | — | Sep 09, 2026 |
-| **2** | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Algorithm | Medium | — | Sep 09, 2026 |
-| **3** | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Algorithm | Hard | — | Sep 09, 2026 |
-| **4** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | 1 | Aug 29, 2026 |
-| **5** | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | System Design | Medium | — | Aug 22, 2026 |
-| **6** | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | Medium | — | Aug 16, 2026 |
-| **7** | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | — | Aug 16, 2026 |
-| **8** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | — | Aug 11, 2026 |
+| **1** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | 1 | Sep 29, 2026 |
+| **2** | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | System Design | Medium | — | Sep 09, 2026 |
+| **3** | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Algorithm | Medium | — | Sep 09, 2026 |
+| **4** | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Algorithm | Hard | — | Sep 09, 2026 |
+| **5** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | 1 | Aug 29, 2026 |
+| **6** | [Find Robots Position](https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance) | Algorithm | Medium | — | Aug 29, 2026 |
+| **7** | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | System Design | Medium | — | Aug 22, 2026 |
+| **8** | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | Medium | — | Aug 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -150,10 +152,12 @@ What candidates said happened in the room at Uber — written up by the people w
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | 🆕 Sep 29, 2026 |
 | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Algorithm | Medium | 🆕 Sep 09, 2026 |
 | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | System Design | Medium | 🆕 Sep 09, 2026 |
 | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Algorithm | Hard | 🆕 Sep 09, 2026 |
 | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Algorithm | Medium | Aug 29, 2026 |
+| [Find Robots Position](https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance) | Algorithm | Medium | Aug 29, 2026 |
 | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | System Design | Medium | Aug 22, 2026 |
 | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | Aug 16, 2026 |
 | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | Medium | Aug 16, 2026 |
@@ -184,11 +188,11 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Leftmost Column with At Least a One](https://trueinterview.io/questions/b9b9aff1-0435-543b-80eb-51ae69a79788) | Algorithm | Medium | Jun 04, 2026 |
 | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Object Oriented Programming | Medium | Jun 2026 |
 | [Minimum Root Edges Reversal](https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a) | Algorithm | Medium | May 31, 2026 |
-| [Find Robots Position](https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance) | Algorithm | Medium | May 29, 2026 |
 | [Last-Click Attribution Tracker](https://trueinterview.io/questions/last-click-attribution) | Object Oriented Programming | Medium | May 29, 2026 |
 | [Maximum Number of Points from Grid Queries](https://trueinterview.io/questions/maximum-number-of-points-from-grid-queries) | Algorithm | Hard | May 29, 2026 |
 | [Fill Dashes with Nearest Letter](https://trueinterview.io/questions/matrix-fill-nearest-letter) | Algorithm | Medium | May 29, 2026 |
 | [Tennis Rounds — Print Round Winners](https://trueinterview.io/questions/phone-screen-tennis-rounds) | Algorithm | Easy | May 23, 2026 |
+| [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 22, 2026 |
 | [Longest Subarray with Bounded Diff](https://trueinterview.io/questions/phone-screen-longest-stable-subarray) | Algorithm | Medium | May 15, 2026 |
 | [Design Driver Location Heatmap](https://trueinterview.io/questions/onsite-sd-driver-location-heatmap) | System Design | Medium | May 15, 2026 |
 | [Seat Assignment / Exam Room](https://trueinterview.io/questions/exam-room-seat-assignment) | Algorithm | Hard | May 15, 2026 |
@@ -202,7 +206,6 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Maximize Portfolio Floor Value](https://trueinterview.io/questions/maximize-portfolio-floor-value) | Algorithm | Medium | May 01, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
 | [Generate 2D Minesweeper Grid](https://trueinterview.io/questions/generate-2d-minesweeper-grid) | Algorithm | Easy | May 2026 |
-| [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 2026 |
 | [Strictly Convex Function Minimum](https://trueinterview.io/questions/strictly-convex-function-minimum) | Algorithm | Medium | May 2026 |
 | [Daily Puzzle / Submission Scoring](https://trueinterview.io/questions/onsite-sd-puzzle-scoring) | System Design | Easy | Apr 30, 2026 |
 | [Minimum Triggers to Absorb All Balls](https://trueinterview.io/questions/minimum-triggers-to-absorb-all-balls) | Algorithm | Medium | Apr 28, 2026 |
@@ -232,7 +235,6 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Customer Revenue and Referral Tracking](https://trueinterview.io/questions/customer-revenue-and-referral-tracking) | Object Oriented Programming | Medium | Mar 22, 2026 |
 | [Checking Existence of Edge Length Limited Paths](https://trueinterview.io/questions/checking-existence-of-edge-length-limited-paths) | Algorithm | Hard | Mar 22, 2026 |
 | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Algorithm | Hard | Mar 22, 2026 |
-| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Easy | Mar 21, 2026 |
 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [Design a Stock Price Alert Notification System](https://trueinterview.io/questions/design-a-stock-price-alert-notification-system) | System Design | Hard | Mar 16, 2026 |

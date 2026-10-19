@@ -2,25 +2,25 @@
 
 # By month reported
 
-**3,393 questions** carry a recorded sighting date and are filed below by the month they were reported in.
+**3,395 questions** carry a recorded sighting date and are filed below by the month they were reported in.
 
-The other **2,243** carry no sighting date. They are in the bank and on every company and format page; they are absent here because a month page is a claim about when a question was asked, and an undated row cannot be put behind that claim. It is not the same fact as *old*.
+The other **2,241** carry no sighting date. They are in the bank and on every company and format page; they are absent here because a month page is a claim about when a question was asked, and an undated row cannot be put behind that claim. It is not the same fact as *old*.
 
 [← Question bank](../README.md)
 
 | Month | Questions |
 | :-- | --: |
-| [Oct 2026](2026-10.md) | 19 |
-| [Sep 2026](2026-09.md) | 309 |
-| [Aug 2026](2026-08.md) | 296 |
-| [Jul 2026](2026-07.md) | 115 |
-| [Jun 2026](2026-06.md) | 242 |
-| [May 2026](2026-05.md) | 257 |
-| [Apr 2026](2026-04.md) | 401 |
-| [Mar 2026](2026-03.md) | 276 |
-| [Feb 2026](2026-02.md) | 330 |
-| [Jan 2026](2026-01.md) | 387 |
-| [Dec 2025](2025-12.md) | 221 |
+| [Oct 2026](2026-10.md) | 21 |
+| [Sep 2026](2026-09.md) | 319 |
+| [Aug 2026](2026-08.md) | 300 |
+| [Jul 2026](2026-07.md) | 117 |
+| [Jun 2026](2026-06.md) | 240 |
+| [May 2026](2026-05.md) | 250 |
+| [Apr 2026](2026-04.md) | 400 |
+| [Mar 2026](2026-03.md) | 274 |
+| [Feb 2026](2026-02.md) | 329 |
+| [Jan 2026](2026-01.md) | 385 |
+| [Dec 2025](2025-12.md) | 220 |
 | [Nov 2025](2025-11.md) | 218 |
 | [Oct 2025](2025-10.md) | 183 |
 | [Sep 2025](2025-09.md) | 40 |

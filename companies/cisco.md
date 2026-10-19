@@ -30,9 +30,9 @@ Which stage each question came from, for the **27 of 27** questions at Cisco tha
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 13 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 18 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 13 / 4 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 8 | ████ | [Algorithm](../formats/algorithm.md) (88%) | 0 / 5 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 2 | █ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -50,9 +50,9 @@ Of the **23 questions at Cisco that carry a topic label** (85% of them — the r
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `matrix` | 5 | 22% | ████████████ | May 01, 2026 |
+| `arrays` | 5 | 22% | ████████████ | May 22, 2026 |
+| `matrix` | 5 | 22% | ████████████ | May 22, 2026 |
 | `strings` | 5 | 22% | ████████████ | Jun 16, 2026 |
-| `arrays` | 4 | 17% | ██████████ | Sep 04, 2025 |
 | `dynamic-programming` | 4 | 17% | ██████████ | Nov 18, 2025 |
 | `linked-list` | 2 | 9% | █████ | Sep 06, 2025 |
 | `math` | 2 | 9% | █████ | Jul 17, 2025 |
@@ -85,7 +85,7 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) 🆓 | Blog | — | — | Sep 17, 2026 |
 | **2** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 3 | Jun 16, 2026 |
-| **3** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | 3 | May 2026 |
+| **3** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | 3 | May 22, 2026 |
 | **4** | [House Robber Series](https://trueinterview.io/questions/house-robber-series) 🆓 | Algorithm | Medium | 4 | Nov 18, 2025 |
 | **5** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) 🆓 | Algorithm | Easy | 1 | Sep 29, 2025 |
 | **6** | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
@@ -114,7 +114,7 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | :-- | :-- | :-: | :-- |
 | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | — | 🆕 Sep 17, 2026 |
 | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Jun 16, 2026 |
-| [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 2026 |
+| [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 22, 2026 |
 | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Nov 18, 2025 |
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Sep 29, 2025 |
 | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | Algorithm | Easy | Sep 06, 2025 |

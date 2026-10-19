@@ -30,9 +30,9 @@ Which stage each question came from, for the **181 of 181** questions at Apple t
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 14 | █ | [Algorithm](../formats/algorithm.md) (86%) | 12 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 13 | █ | [Algorithm](../formats/algorithm.md) (85%) | 12 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 135 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 20 / 71 / 21 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 57 | ████ | [Algorithm](../formats/algorithm.md) (28%) | 4 / 29 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 56 | ████ | [Algorithm](../formats/algorithm.md) (27%) | 4 / 28 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -64,7 +64,7 @@ Of the **106 questions at Apple that carry a topic label** (59% of them — the 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `hashing` | 25 | 24% | ████████████ | Aug 26, 2026 |
-| `arrays` | 19 | 18% | █████████ | Aug 05, 2026 |
+| `arrays` | 20 | 19% | ██████████ | Aug 05, 2026 |
 | `graphs` | 19 | 18% | █████████ | Oct 02, 2026 |
 | `matrix` | 13 | 12% | ██████ | Oct 02, 2026 |
 | `strings` | 11 | 10% | █████ | May 05, 2026 |
@@ -163,13 +163,13 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Algorithm | Medium | May 27, 2026 |
 | [Happy Number II](https://trueinterview.io/questions/happy-number-2) | Algorithm | Medium | May 27, 2026 |
 | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Object Oriented Programming | Easy | May 27, 2026 |
+| [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 22, 2026 |
 | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Object Oriented Programming | Easy | May 20, 2026 |
 | [Kubernetes Service Filter & Dependency Chain](https://trueinterview.io/questions/kubernetes-service-filter-and-dependency-chain) | Object Oriented Programming | Medium | May 14, 2026 |
 | [Bag-of-Words Similarity Search from Scratch](https://trueinterview.io/questions/bag-of-words-similarity-search-from-scratch) | Algorithm | Medium | May 05, 2026 |
 | [Design APIs for a Voting System](https://trueinterview.io/questions/design-apis-for-a-voting-system) | System Design | Hard | May 03, 2026 |
 | [Substring Pattern Matches](https://trueinterview.io/questions/substring-pattern-matches) | Algorithm | Easy | May 03, 2026 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | System Design | Hard | May 03, 2026 |
-| [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 2026 |
 | [Valid Palindrome](https://trueinterview.io/questions/valid-palindrome) | Algorithm | Easy | Apr 28, 2026 |
 | [Search a 2D Matrix](https://trueinterview.io/questions/search-a-2d-matrix) | Algorithm | Easy | Apr 25, 2026 |
 | [Maximum Number of Eaten Apples](https://trueinterview.io/questions/maximum-number-of-eaten-apples) | Algorithm | Medium | Apr 24, 2026 |

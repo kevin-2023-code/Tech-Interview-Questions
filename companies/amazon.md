@@ -30,9 +30,9 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 53 | ██ | [Algorithm](../formats/algorithm.md) (83%) | 23 / 18 / 8 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 52 | ██ | [Algorithm](../formats/algorithm.md) (83%) | 23 / 17 / 8 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 240 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 23 / 117 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 210 | █████████ | [Algorithm](../formats/algorithm.md) (32%) | 19 / 113 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 209 | █████████ | [Algorithm](../formats/algorithm.md) (32%) | 19 / 112 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -65,10 +65,10 @@ Of the **220 questions at Amazon that carry a topic label** (47% of them — the
 | :-- | --: | --: | :-- | :-- |
 | `hashing` | 42 | 19% | ████████████ | Oct 01, 2026 |
 | `graphs` | 37 | 17% | ███████████ | Oct 03, 2026 |
-| `arrays` | 30 | 14% | █████████ | Oct 03, 2026 |
+| `arrays` | 31 | 14% | █████████ | Oct 03, 2026 |
 | `strings` | 25 | 11% | ███████ | Sep 29, 2026 |
 | `sorting` | 21 | 10% | ██████ | Oct 03, 2026 |
-| `greedy` | 20 | 9% | ██████ | Sep 29, 2026 |
+| `greedy` | 19 | 9% | █████ | Sep 29, 2026 |
 | `trees` | 18 | 8% | █████ | Oct 01, 2026 |
 | `heap` | 17 | 8% | █████ | Sep 14, 2026 |
 | `dynamic-programming` | 16 | 7% | █████ | Sep 29, 2026 |
@@ -281,6 +281,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Pub-Sub Messaging System](https://trueinterview.io/questions/pub-sub-system-ood) | Object Oriented Programming | Medium | May 22, 2026 |
 | [Count Connected Components (Union-Find)](https://trueinterview.io/questions/count-connected-components-union-find) | Algorithm | Medium | May 22, 2026 |
 | [Find Anagrams in a Character Stream](https://trueinterview.io/questions/anagrams-in-string-stream) | Algorithm | Medium | May 22, 2026 |
+| [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 22, 2026 |
 | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Object Oriented Programming | Easy | May 20, 2026 |
 | [Robot Human-Avoidance — Open-Ended Design](https://trueinterview.io/questions/robot-human-avoidance-open-design) | System Design | Medium | May 16, 2026 |
 | [Circular Array — Multi-Query Distance Accumulation](https://trueinterview.io/questions/circular-array-prefix-sum-multi-query) | Algorithm | Medium | May 15, 2026 |
@@ -289,7 +290,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Longest Consecutive Sequence — Adjacent Gap ≤ K](https://trueinterview.io/questions/longest-consecutive-subsequence-bounded-gap) | Algorithm | Medium | May 13, 2026 |
 | [Rearrange a String So Adjacent Characters Differ](https://trueinterview.io/questions/rearrange-a-string-so-adjacent-characters-differ) | Algorithm | Hard | May 01, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
-| [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [Transformer / Attention Deep-Dive](https://trueinterview.io/questions/transformer-attention-deep-dive) | Blog | — | Apr 29, 2026 |
 | [Science Application (Ambiguous Problem)](https://trueinterview.io/questions/science-application-ambiguous-problem) | Blog | — | Apr 29, 2026 |

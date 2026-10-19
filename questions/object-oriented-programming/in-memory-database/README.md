@@ -5,39 +5,33 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Coinbase · Anthropic · Applied Intuition | Online assessment | hashing | Apr 2026 |
+| Object Oriented Programming | Medium | Coinbase · Anthropic · Applied Intuition | Online assessment | — | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/in-memory-database)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
-## In-Memory Database
-
 ### Problem Overview
 
-Create an **in-memory database of key–field–value records**. Each top-level key owns a group of field/value pairs, much like a map whose values are maps. The assignment is cumulative: each stage adds capabilities while retaining everything introduced earlier.
+Build an **in-memory key-field-value store**. Each top-level key owns a group of field-value pairs, so the structure behaves like a map nested inside a map. The task is split into four levels, and each level adds capabilities on top of the ones before it. Earlier behavior must keep working as you move forward.
 
-Every operation accepts a positive-integer `timestamp`. Calls are guaranteed to arrive with strictly increasing timestamps, so no two operations use the same time. Later levels must remain compatible with the earlier API.
-
-Implement the database through the following four levels.
+Every method receives a `timestamp` argument, a positive integer. Across the sequence of calls the timestamps strictly increase, so two operations never carry the same value, and the simulated clock never goes backward.
 
 ### Level 1: Basic CRUD
 
-#### Problem Statement
+Write an `InMemoryDB` class that can store a value under a key and field, read it back, remove a field, and perform a conditional (compare-and-set) update.
 
-Write an `InMemoryDB` class that can assign and read field values, remove fields, and perform conditional compare-and-set updates.
-
-```python
+```
 class InMemoryDB:
     def __init__(self):
-        """Create an empty in-memory database."""
+        """Create an empty database."""
         pass
 
     def set(self, timestamp: int, key: str, field: str, value: str) -> None:
         """
-        Save value under the specified key and field.
-        An existing value for that key-field pair must be replaced.
+        Save `value` for the given key and field. A field that is
+        already present under that key is replaced.
 
         Args:
             timestamp: The current time.
@@ -49,7 +43,7 @@ class InMemoryDB:
 
     def get(self, timestamp: int, key: str, field: str) -> str:
         """
-        Look up a value by key and field.
+        Look up the value for the given key and field.
 
         Args:
             timestamp: The current time.
@@ -57,7 +51,8 @@ class InMemoryDB:
             field: The field name within the key.
 
         Returns:
-            The saved value, or "" when either the key or field is absent.
+            The stored value, or "" (empty string) when either the
+            key or the field is absent.
         """
         pass
 
@@ -71,143 +66,137 @@ class InMemoryDB:
             field: The field name to remove.
 
         Returns:
-            True when the field was present and removed; otherwise False.
+            True when the field was present and has been removed,
+            False when the key or the field is absent.
         """
         pass
 
     def compare_and_set(self, timestamp: int, key: str, field: str,
                         expected_value: str, new_value: str) -> bool:
         """
-        Replace a field only when its current value equals expected_value.
+        Replace a field's value, but only when its current value equals
+        the expected one.
 
         Args:
             timestamp: The current time.
             key: The top-level key.
-            field: The field name to change.
-            expected_value: The value required before the update.
-            new_value: The value to save when the requirement is satisfied.
+            field: The field name to modify.
+            expected_value: The value the field must hold right now.
+            new_value: The value to write when the check passes.
 
         Returns:
-            True when the field existed, matched expected_value, and changed;
-            otherwise False.
+            True when the field was present, held expected_value, and
+            was updated; False when the key or field is absent or the
+            current value differs from expected_value.
         """
         pass
 ```
 
 #### Example Usage
 
-```python
+```
 db = InMemoryDB()
 
-db.set(1, "account7", "city", "Paris")
-db.set(2, "account7", "level", "5")
+db.set(1, "user1", "name", "Alice")
+db.set(2, "user1", "age", "30")
 
-db.get(3, "account7", "city") # "Paris" (the field is present)
-db.get(4, "account7", "phone") # "" (the field is absent)
-db.get(5, "account8", "city") # "" (the key is absent)
+db.get(3, "user1", "name") # "Alice"
+db.get(4, "user1", "email") # "" (field doesn't exist)
+db.get(5, "user2", "name") # "" (key doesn't exist)
 
-db.delete(6, "account7", "level") # True (the field is removed)
-db.delete(7, "account7", "level") # False (it was already removed)
+db.delete(6, "user1", "age") # True
+db.delete(7, "user1", "age") # False (already deleted)
 
-db.compare_and_set(8, "account7", "city", "Paris", "Rome") # True (the expected value matches)
-db.get(9, "account7", "city") # "Rome" (the update succeeded)
-db.compare_and_set(10, "account7", "city", "Paris", "Berlin") # False (the current value is "Rome")
-db.compare_and_set(11, "account7", "code", "A1", "B2") # False (the field is absent)
+db.compare_and_set(8, "user1", "name", "Alice", "Bob") # True
+db.get(9, "user1", "name") # "Bob"
+db.compare_and_set(10, "user1", "name", "Alice", "Eve") # False (current value is "Bob")
+db.compare_and_set(11, "user1", "zip", "000", "111") # False (field doesn't exist)
 ```
 
 ### Level 2: Scanning Support
 
-#### Problem Statement
+Add the ability to list every field stored under a key, optionally keeping only those whose names start with a given prefix. The output is ordered lexicographically by field name.
 
-Add operations for listing every field belonging to a key and for listing only fields beginning with a specified prefix. In both cases, format entries as `field(value)` and order them lexicographically by field name.
-
-```python
+```
 def scan(self, timestamp: int, key: str) -> list:
     """
-    List all field-value entries associated with key.
+    List all field-value pairs held by a key.
 
     Args:
         timestamp: The current time.
-        key: The top-level key to inspect.
+        key: The top-level key to scan.
 
     Returns:
-        Strings formatted as "field(value)", ordered lexicographically by
-        field name. Return an empty list when key is not present.
+        Strings of the form "field(value)", ordered lexicographically
+        by field name. An absent key yields an empty list.
     """
     pass
 
 def scan_with_prefix(self, timestamp: int, key: str, prefix: str) -> list:
     """
-    List entries whose field names begin with prefix.
+    List the field-value pairs whose field name begins with `prefix`.
 
     Args:
         timestamp: The current time.
-        key: The top-level key to inspect.
-        prefix: The field-name prefix to match.
+        key: The top-level key to scan.
+        prefix: The prefix that field names must start with.
 
     Returns:
-        Matching entries in "field(value)" format, sorted lexicographically
-        by field name. Return [] when key is missing or no field matches.
+        Strings of the form "field(value)" for the matching fields,
+        ordered lexicographically by field name. An empty list is
+        returned when the key is absent or nothing matches.
     """
     pass
 ```
 
 #### Example Usage
 
-```python
+```
 db = InMemoryDB()
 
-db.set(1, "account7", "city", "Paris")
-db.set(2, "account7", "level", "5")
-db.set(3, "account7", "label", "vip")
+db.set(1, "user1", "name", "Alice")
+db.set(2, "user1", "age", "30")
+db.set(3, "user1", "nickname", "Ali")
 
-db.scan(4, "account7")
-# ["city(Paris)", "label(vip)", "level(5)"]
-# The entries are ordered by their field names.
+db.scan(4, "user1")
+# ["age(30)", "name(Alice)", "nickname(Ali)"]
 
-db.scan_with_prefix(5, "account7", "la")
-# ["label(vip)"]
-# Only the field beginning with "la" is included.
+db.scan_with_prefix(5, "user1", "na")
+# ["name(Alice)"]
 
-db.scan_with_prefix(6, "account7", "l")
-# ["label(vip)", "level(5)"]
-# Both matching fields are returned in lexical order.
+db.scan_with_prefix(6, "user1", "n")
+# ["name(Alice)", "nickname(Ali)"]
 
-db.scan_with_prefix(7, "account7", "z")
+db.scan_with_prefix(7, "user1", "x")
 # []
-# No field starts with "z".
 
-db.scan(8, "account99")
+db.scan(8, "user999")
 # []
-# The requested key does not exist.
 ```
 
 ### Level 3: Timestamp & TTL Support
 
-#### Problem Statement
+Give every record an optional time-to-live. A record written with a TTL stops existing at the moment `timestamp + ttl` is reached: once the current time is greater than or equal to that expiration time, the record counts as expired and no query may return it. The clock is simulated purely through the `timestamp` argument of each call.
 
-Enhance records with an optional time-to-live. A value written with a TTL expires at `timestamp + ttl`; at that exact time, and at every later time, it must be treated as expired and omitted from query results.
-
-The simulated clock is the `timestamp` supplied to each operation, and that clock never decreases.
-
-```python
+```
 def set_with_ttl(self, timestamp: int, key: str, field: str,
                  value: str, ttl: int) -> None:
     """
-    Save value with an expiration time of timestamp + ttl.
+    Save a value that lapses at timestamp + ttl.
 
     Args:
         timestamp: The current time.
         key: The top-level key.
         field: The field name within the key.
         value: The value to store.
-        ttl: The lifetime in time units. The record is expired whenever
+        ttl: Lifetime in time units. The record is expired once
              current_time >= timestamp + ttl.
 
     Notes:
-        - This operation replaces both the value and TTL for the key-field pair.
-        - The existing set() operation remains valid and creates a record
-          without an expiration time.
+        - Calling set_with_ttl replaces any value and any TTL
+          previously held by the same key-field pair.
+        - The plain set() method must keep working and must store
+          records that never expire.
     """
     pass
 
@@ -215,51 +204,144 @@ def compare_and_set_with_ttl(self, timestamp: int, key: str, field: str,
                               expected_value: str, new_value: str,
                               ttl: int) -> bool:
     """
-    Conditionally replace a value while assigning a fresh TTL.
+    Perform a conditional update and give the field a fresh TTL.
 
     Args:
         timestamp: The current time.
         key: The top-level key.
-        field: The field name to change.
-        expected_value: The value required before the update.
-        new_value: The replacement value.
-        ttl: The lifetime assigned to the updated record.
+        field: The field name to modify.
+        expected_value: The value the field must hold right now.
+        new_value: The value to write when the check passes.
+        ttl: The new lifetime for the updated record.
 
     Returns:
-        True only when a non-expired field existed with expected_value and was
-        updated; otherwise return False.
+        True when the field was present, not yet expired, held
+        expected_value, and was updated; False in every other case.
     """
     pass
 ```
 
-The existing `get`, `delete`, `scan`, and `scan_with_prefix` operations must also apply expiration rules. An expired record behaves as though it does not exist.
+All earlier methods (`get`, `delete`, `scan`, `scan_with_prefix`) must now honor TTL as well: an expired record is treated as though it were not there.
 
 #### Example Usage
 
-```python
+```
 db = InMemoryDB()
 
-db.set(1, "account7", "name", "Mia") # No TTL, so it does not expire
-db.set_with_ttl(2, "account7", "session", "k9", 6) # Expires at time 8
+db.set(1, "user1", "name", "Alice") # No TTL — never expires
+db.set_with_ttl(2, "user1", "session", "abc", 10) # Expires at time 12
 
-db.get(3, "account7", "session") # "k9" (3 is before 8)
-db.get(7, "account7", "session") # "k9" (7 is before 8)
-db.get(8, "account7", "session") # "" (8 reaches the expiration time)
-db.get(9, "account7", "name") # "Mia" (the record has no TTL)
+db.get(3, "user1", "session") # "abc"
+db.get(11, "user1", "session") # "abc" (11 < 12, not expired)
+db.get(12, "user1", "session") # "" (12 >= 12, expired)
+db.get(13, "user1", "name") # "Alice" (no TTL, still valid)
 
-db.set_with_ttl(10, "account8", "token", "q2", 4) # Expires at time 14
-db.scan(11, "account8") # ["token(q2)"] (the record is still valid)
-db.scan(14, "account8") # [] (the record has expired)
+db.set_with_ttl(14, "user2", "token", "xyz", 5) # Expires at time 19
+db.scan(15, "user2") # ["token(xyz)"]
+db.scan(19, "user2") # [] (expired)
 
-db.set_with_ttl(15, "account9", "code", "246", 8) # Expires at time 23
-db.compare_and_set_with_ttl(16, "account9", "code", "246", "357", 3) # True (new expiry is 19)
-db.get(18, "account9", "code") # "357" (18 is before 19)
-db.get(19, "account9", "code") # "" (19 reaches the new expiration time)
+db.set_with_ttl(20, "user3", "code", "123", 10) # Expires at time 30
+db.compare_and_set_with_ttl(21, "user3", "code", "123", "456", 5) # True, new expiry at 26
+db.get(25, "user3", "code") # "456"
+db.get(26, "user3", "code") # "" (expired)
 ```
 
----
+### Level 4: Backup and Restore
 
-The assignment continues with Level 4, which builds on the preceding functionality.
+Let the database capture a complete snapshot at a chosen moment and later return to one of those snapshots.
+
+```
+def backup(self, timestamp: int) -> None:
+    """
+    Capture a full snapshot of the current database contents.
+
+    Args:
+        timestamp: The current time; it also serves as the
+                   identifier of this backup.
+
+    Notes:
+        - The snapshot holds every key, field, value, and the TTL
+          information attached to them as of this moment.
+        - Records whose TTL has already run out at the backup
+          timestamp must NOT be part of the snapshot.
+        - Several backups may coexist; each one is identified by
+          its timestamp.
+    """
+    pass
+
+def restore(self, timestamp: int, backup_timestamp: int) -> None:
+    """
+    Return the database to the contents of an earlier backup.
+
+    Args:
+        timestamp: The current time.
+        backup_timestamp: Identifies the backup to bring back. When no
+            backup carries exactly this timestamp, use the most recent
+            backup taken strictly before it. When there is no such
+            backup either, do nothing.
+
+    Notes:
+        - After the restore, the database matches the backup exactly,
+          TTL information included.
+        - A record that still had time left at backup time keeps its
+          original expiration timestamp; its TTL is not restarted.
+        - Anything written after the backup is thrown away.
+    """
+    pass
+```
+
+#### Example Usage
+
+```
+db = InMemoryDB()
+
+db.set(1, "app", "version", "1.0")
+db.set_with_ttl(2, "app", "cache", "data1", 20) # Expires at time 22
+
+db.backup(3)
+
+db.set(4, "app", "version", "2.0")
+db.set(5, "app", "env", "prod")
+db.delete(6, "app", "cache")
+
+db.get(7, "app", "version") # "2.0"
+db.get(8, "app", "cache") # "" (deleted)
+
+db.restore(9, 3)
+
+db.get(10, "app", "version") # "1.0" (restored)
+db.get(11, "app", "env") # "" (didn't exist at backup time)
+db.get(12, "app", "cache") # "data1" (restored, TTL still active)
+db.get(22, "app", "cache") # "" (expired — original expiry at 22)
+
+# Restore to the latest backup at or before a given timestamp
+db.set(23, "app", "version", "3.0")
+db.backup(24)
+
+db.set(25, "app", "version", "4.0")
+db.restore(26, 30) # No backup at 30, restores backup at 24
+db.get(27, "app", "version") # "3.0"
+
+db.restore(28, 2) # No backup at or before 2, do nothing
+db.get(29, "app", "version") # "3.0" (unchanged)
+```
+
+### Follow-ups
+
+Be prepared to discuss the following topics, which interviewers raise after the coding levels:
+
+1. **Data structures for scans and prefix queries.** Compare a plain hash map, a sorted map or balanced tree, and a trie in terms of point-lookup cost, scan cost, prefix-scan cost and memory. Explain which one you would pick here and why, given how often scans happen relative to point reads and writes.
+2. **Expiration strategies.** Compare checking TTL only when a record is accessed, removing expired entries with a background job, and a hybrid of the two (access-time checks plus periodic sampling of entries that are never read again). Discuss the trade-offs in memory use and complexity.
+3. **Storing backups.** Compare full snapshots, incremental (delta-based) backups, and copy-on-write sharing between snapshots, considering space, backup cost and restore cost.
+4. **Concurrency.** Discuss how `compare_and_set` supports optimistic concurrency, what locking or versioning backup and restore would need to avoid inconsistent snapshots, and how expiration could be organized in a concurrent system.
+5. **Extra variant: per-key operation counts.** Suppose every operation targeting a top-level key adds 1 to a counter for that key (the counter belongs to the key, not to individual fields). Add a query that returns the top N keys by operation count, in descending order of count. No tie-breaking rule and no exact list of counted operations is specified for this variant.
+
+### Interview Notes
+
+* The round is staged: each level builds on the last, and the earlier behavior must stay intact.
+* Several candidates lose a lot of time in Level 3 and Level 4 because the data structure they picked at Level 1 does not stretch to later levels. Plan a structure that can serve all four levels before you start coding.
+* The hidden tests are not exhaustive, so passing the visible Level 2 tests does not prove the specification was read correctly. Add your own edge cases, such as an empty prefix, a missing key, and a TTL landing exactly on the expiration boundary.
+* The rule that a restored record keeps its original expiration time is the corner case that most often separates full credit from partial credit.
 
 ## Hints
 

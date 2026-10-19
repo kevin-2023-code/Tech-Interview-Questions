@@ -12,7 +12,7 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 | Free to read here | 13 |
 | Interview-process guides | 7 |
 | Other guides | 0 |
-| Most recent sighting | Sep 28, 2026 |
+| Most recent sighting | Oct 04, 2026 |
 
 ## How OpenAI interviews
 

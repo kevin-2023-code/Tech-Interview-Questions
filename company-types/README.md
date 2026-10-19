@@ -9,7 +9,7 @@ The same bank cut by **what kind of company asks**, because that is how preparat
 | Company type | Companies | Questions | What it selects |
 | :-- | --: | --: | :-- |
 | [🏛️ Big Tech](big-tech.md) | 24 | 2,860 | A technology-sector employer with 10,000+ people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
-| [🏗️ Large tech (1,000–9,999)](large-tech.md) | 41 | 1,680 | A technology-sector employer with between 1,000 and 9,999 people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
+| [🏗️ Large tech (1,000–9,999)](large-tech.md) | 41 | 1,679 | A technology-sector employer with between 1,000 and 9,999 people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
 | [🏤 Mid-sized tech (200–999)](mid-size-tech.md) | 11 | 128 | A technology-sector employer with between 200 and 999 people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
 | [🌱 Startups (under 200)](startups.md) | 3 | 15 | A technology-sector employer with fewer than 200 people. A derived cut, not a hand-picked list — an employer the company registry does not cover is in no size cut at all. |
 | [🧠 AI labs & AI infrastructure](ai.md) | 15 | 457 | Every employer the company registry files under AI labs & AI infrastructure, at any size. The sector is a fact about the company recorded once, never inferred from a question. |

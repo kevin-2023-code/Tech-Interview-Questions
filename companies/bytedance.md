@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **345** |
 | Most recent sighting | Oct 05, 2026 |
-| Reported in the last 90 days | 44 |
+| Reported in the last 90 days | 45 |
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 345) |
 | Difficulty (easy / medium / hard) | 32 / 174 / 58 |
 | Free to practise | [110](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **345 of 345** questions at ByteDan
 
 ## Asked here in the last 90 days
 
-**44 sightings** in this window. Newest first.
+**45 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,11 +55,11 @@ Which stage each question came from, for the **345 of 345** questions at ByteDan
 | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | Blog | — | Phone screen | Sep 05, 2026 |
 | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | Blog | — | Phone screen | Sep 05, 2026 |
 
-<sub>32 more in this window are in the table below.</sub>
+<sub>33 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **180 questions at ByteDance that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **179 questions at ByteDance that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -84,7 +84,7 @@ Every recorded sighting at ByteDance, by the month it was reported in — May 30
 | :-- | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 2 | ██ |
 | [Sep 2026](../by-month/2026-09.md) | 16 | ██████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 23 | ████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 24 | █████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 3 | ███ |
 | [Jun 2026](../by-month/2026-06.md) | 25 | █████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 9 | ████████ |
@@ -92,7 +92,7 @@ Every recorded sighting at ByteDance, by the month it was reported in — May 30
 | [Mar 2026](../by-month/2026-03.md) | 20 | █████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 25 | █████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 28 | ████████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 11 | █████████ |
+| [Dec 2025](../by-month/2025-12.md) | 10 | █████████ |
 | [Nov 2025](../by-month/2025-11.md) | 12 | ██████████ |
 | [Oct 2025](../by-month/2025-10.md) | 3 | ███ |
 | [Jul 2025](../by-month/2025-07.md) | 2 | ██ |
@@ -158,6 +158,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | 🆕 Sep 04, 2026 |
 | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Object Oriented Programming | Medium | Sep 02, 2026 |
 | [Data Engineering Experience Screen](https://trueinterview.io/questions/data-engineering-experience-screen) | Blog | — | Aug 31, 2026 |
+| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Aug 31, 2026 |
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | System Design | Hard | Aug 30, 2026 |
 | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | System Design | Medium | Aug 28, 2026 |
 | [Design a Data Service for Downstream Consumers](https://trueinterview.io/questions/design-a-data-service-for-downstream-consumers) | System Design | Medium | Aug 28, 2026 |
@@ -313,7 +314,6 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Algorithm | Hard | Jan 04, 2026 |
 | [Describe a challenging project and your role](https://trueinterview.io/questions/describe-a-challenging-project-and-your-role) | Blog | — | Jan 02, 2026 |
 | [Handle Communication Difficulty and Ambiguity on a Project](https://trueinterview.io/questions/handle-communication-difficulty-and-ambiguity-on-a-project) | Blog | — | Jan 01, 2026 |
-| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching) | Algorithm | Medium | Dec 16, 2025 |
 | [Explain your VLM project end-to-end](https://trueinterview.io/questions/explain-your-vlm-project-end-to-end) | Blog | — | Dec 15, 2025 |
 | [Explain Transformer, GPT vs BERT, and PR metrics](https://trueinterview.io/questions/explain-transformer-gpt-vs-bert-and-pr-metrics) | Blog | — | Dec 15, 2025 |

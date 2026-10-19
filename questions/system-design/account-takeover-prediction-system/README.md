@@ -111,21 +111,21 @@ Step‑up exploration on borderline scores, shadow scoring on blocked actions, a
 <details>
 <summary>Hint 1</summary>
 
-Think about the key signals: user behavior anomalies (login frequency, location, device), and combine them with a risk scoring model.
+Frame the system around scoring risk at the moment of a sensitive action, balancing missed attacks against friction for legitimate users.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Design a real‑time feature pipeline that extracts features from event streams, and a model serving layer that can return predictions with low latency.
+Key components are a real-time feature pipeline (device, location, behavioral history), a low-latency risk model combined with rules, and a step-up authentication or block decision service.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Consider offline training for the model and online monitoring for drift, the trade‑off is between model complexity and inference speed.
+Discuss trade-offs such as latency budget, false positive cost, feedback labels from confirmed fraud, model drift, and adversaries adapting to the rules.
 
 </details>
 

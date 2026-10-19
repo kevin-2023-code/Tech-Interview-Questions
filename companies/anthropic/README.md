@@ -12,7 +12,7 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 | Free to read here | 14 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
-| Most recent sighting | Sep 12, 2026 |
+| Most recent sighting | Sep 17, 2026 |
 
 ## How Anthropic interviews
 

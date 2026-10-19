@@ -29,15 +29,15 @@
 
 ## What they ask about
 
-Of the **100 questions in this cut that carry a topic label** (53% of it):
+Of the **99 questions in this cut that carry a topic label** (53% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `graphs` | 20 | 20% | ████████████ |
 | `arrays` | 11 | 11% | ███████ |
-| `hashing` | 10 | 10% | ██████ |
 | `math` | 10 | 10% | ██████ |
 | `strings` | 10 | 10% | ██████ |
+| `hashing` | 9 | 9% | █████ |
 | `binary-search` | 7 | 7% | ████ |
 | `dynamic-programming` | 7 | 7% | ████ |
 | `matrix` | 7 | 7% | ████ |
