@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**226 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
+**245 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,18 +10,18 @@
 
 | Writeup | Company | Topics |
 | :-- | :-- | :-- |
-| [Chat vs Live Comments Interviews: What Changes at Senior Level](https://trueinterview.io/study/chat-vs-live-comments-system-design-interviews) | **General** | — |
-| [How to Prepare for a Debugging Round at Big Tech (2026)](https://trueinterview.io/study/debugging-interview-round-prep-big-tech-2026) | **General** | — |
-| [Is 'Why Do You Want to Work Here' Just a Warm-Up in 2026?](https://trueinterview.io/study/why-do-you-want-to-work-here-big-tech-ai-labs) | **General** | — |
-| [Is Ticketmaster the Booking Question Big Tech Asks in 2026?](https://trueinterview.io/study/ticketmaster-booking-system-design-interview-myths-2026) | **General** | — |
-| [Location System Design at Uber, DoorDash, Meta and Amazon](https://trueinterview.io/study/location-system-design-uber-doordash-meta-amazon) | **General** | — |
-| [Metrics and Logging System Design: The Decisions to Prepare](https://trueinterview.io/study/metrics-logging-system-design-interview-decisions) | **General** | — |
-| [The Most-Reported Graph Questions at Big Tech in 2026](https://trueinterview.io/study/most-reported-graph-questions-big-tech-2026) | **General** | — |
-| [When Is a Heap the Right Answer in a Coding Interview?](https://trueinterview.io/study/when-to-use-a-heap-coding-interview) | **General** | — |
-| [Which Dynamic Programming Questions Were Reported in 2026?](https://trueinterview.io/study/dynamic-programming-questions-new-in-2026) | **General** | — |
-| [Which Two-Pointer Problems Does Big Tech Actually Ask?](https://trueinterview.io/study/two-pointer-problems-big-tech-asks-2026) | **General** | — |
-| [8 Most-Reported Behavioral Question Sets at Big Tech (2026)](https://trueinterview.io/study/most-reported-behavioral-questions-big-tech-2026) | **General** | — |
-| [8 Most-Reported LLM Interview Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-llm-interview-questions-big-tech-2026) | **General** | — |
+| [8 Most-Reported Interval Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-interval-meeting-room-questions-2026) | **General** | — |
+| [Are Hash Map Interview Questions Fading in 2026?](https://trueinterview.io/study/hash-map-interview-questions-fading-2026) | **General** | — |
+| [Are Linked Lists Still Asked in Big Tech Interviews?](https://trueinterview.io/study/linked-list-questions-still-asked-big-tech) | **General** | — |
+| [Banking System Coding Questions by Company and Level (2026)](https://trueinterview.io/study/banking-system-coding-questions-by-company-and-level-2026) | **General** | — |
+| [Binary Tree Interviews: DFS or BFS, Recursion or a Stack?](https://trueinterview.io/study/binary-tree-dfs-or-bfs-recursion-or-stack) | **General** | — |
+| [Crawler, Typeahead or Ranking: Which Search Design Will You Get?](https://trueinterview.io/study/search-typeahead-web-crawler-design-interview-decisions) | **General** | — |
+| [Greedy vs Dynamic Programming in Interviews: How to Choose](https://trueinterview.io/study/greedy-vs-dynamic-programming-interview) | **General** | — |
+| [How Is the Array Interview Question Mix Shifting in 2026?](https://trueinterview.io/study/array-interview-questions-rising-2026) | **General** | — |
+| [How to Prepare for SQL Window Function Interviews (2026)](https://trueinterview.io/study/how-to-prepare-for-sql-window-function-interviews) | **General** | — |
+| [Is a Small, Safe Failure Story Best for Big Tech in 2026?](https://trueinterview.io/study/small-safe-failure-story-big-tech-2026) | **General** | — |
+| [Is Classic DP Still Asked in Big Tech Interviews in 2026?](https://trueinterview.io/study/classic-dp-big-tech-interviews-2026) | **General** | — |
+| [Longest Substring, Subarray or Subsequence: Window or DP?](https://trueinterview.io/study/longest-substring-subarray-subsequence-window-or-dp) | **General** | — |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -29,40 +29,52 @@
 
 ### General
 
-<sub>54 guides · no questions reported at this employer yet</sub>
+<sub>73 guides · no questions reported at this employer yet</sub>
 
 | Writeup | Topics |
 | :-- | :-- |
 | [8 Big Tech Questions Only Senior Candidates Report (2026)](https://trueinterview.io/study/big-tech-questions-only-senior-candidates-report-2026) | — |
 | [8 Interview Questions Filed at the Most Big Tech Companies (2026)](https://trueinterview.io/study/interview-questions-filed-at-most-big-tech-companies-2026) | — |
 | [8 Most-Reported Behavioral Question Sets at Big Tech (2026)](https://trueinterview.io/study/most-reported-behavioral-questions-big-tech-2026) | — |
+| [8 Most-Reported Interval Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-interval-meeting-room-questions-2026) | — |
 | [8 Most-Reported LLM Interview Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-llm-interview-questions-big-tech-2026) | — |
 | [AI-Assisted Coding Interviews at Big Tech: What to Drill](https://trueinterview.io/study/ai-assisted-coding-interview-big-tech-prep-2026) | — |
 | [AI-Assisted vs Traditional Coding Interviews: What Changes](https://trueinterview.io/study/ai-assisted-vs-traditional-coding-interviews) | — |
+| [Are Hash Map Interview Questions Fading in 2026?](https://trueinterview.io/study/hash-map-interview-questions-fading-2026) | — |
+| [Are Linked Lists Still Asked in Big Tech Interviews?](https://trueinterview.io/study/linked-list-questions-still-asked-big-tech) | — |
+| [Banking System Coding Questions by Company and Level (2026)](https://trueinterview.io/study/banking-system-coding-questions-by-company-and-level-2026) | — |
 | [Big Tech Behavioral Questions by Company and Round](https://trueinterview.io/study/big-tech-behavioral-interview-questions-by-company-round-2026) | — |
 | [Big Tech Coding Topics by Company: Where Each One Differs](https://trueinterview.io/study/big-tech-coding-topics-by-company-2026) | — |
 | [Big Tech Onsite Interview Rounds for Senior Engineers (2026)](https://trueinterview.io/study/big-tech-onsite-interview-rounds-senior-engineers-2026) | — |
 | [Big Tech System Design Questions by Company and Round (2026)](https://trueinterview.io/study/big-tech-system-design-questions-by-company-and-round-2026) | — |
+| [Binary Tree Interviews: DFS or BFS, Recursion or a Stack?](https://trueinterview.io/study/binary-tree-dfs-or-bfs-recursion-or-stack) | — |
 | [Caching Interview Questions: LRU, Expiry and Durable Caches](https://trueinterview.io/study/caching-interview-questions-lru-expiry-durable-caches) | — |
 | [Chat vs Live Comments Interviews: What Changes at Senior Level](https://trueinterview.io/study/chat-vs-live-comments-system-design-interviews) | — |
 | [Concurrency Interview Questions: Web Crawler, LRU Cache, Counter](https://trueinterview.io/study/concurrency-interview-questions-web-crawler-lru-cache-counter) | — |
+| [Crawler, Typeahead or Ranking: Which Search Design Will You Get?](https://trueinterview.io/study/search-typeahead-web-crawler-design-interview-decisions) | — |
 | [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | — |
 | [Do Big Tech Phone Screens Include System Design Now?](https://trueinterview.io/study/do-big-tech-phone-screens-include-system-design-now) | — |
 | [Experiment Design and A/B Test Questions: 46 Reported (2026)](https://trueinterview.io/study/experiment-design-ab-test-interview-questions-big-tech-2026) | — |
 | [Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?](https://trueinterview.io/study/exponent-review-2026) | — |
 | [Frontend Interview Questions for Senior Engineers: 31 Reported](https://trueinterview.io/study/frontend-interview-questions-senior-engineers-2026) | — |
+| [Greedy vs Dynamic Programming in Interviews: How to Choose](https://trueinterview.io/study/greedy-vs-dynamic-programming-interview) | — |
 | [Hack2hire Review 2026: Company-Tagged SDE Questions — Worth It?](https://trueinterview.io/study/hack2hire-review-2026) | — |
 | [Hello Interview Review 2026: Best for System Design — Worth It?](https://trueinterview.io/study/hellointerview-review-2026) | — |
+| [How Is the Array Interview Question Mix Shifting in 2026?](https://trueinterview.io/study/array-interview-questions-rising-2026) | — |
 | [How to Prepare for a Debugging Round at Big Tech (2026)](https://trueinterview.io/study/debugging-interview-round-prep-big-tech-2026) | — |
+| [How to Prepare for SQL Window Function Interviews (2026)](https://trueinterview.io/study/how-to-prepare-for-sql-window-function-interviews) | — |
 | [How to Prepare from Candidate-Reported Interview Questions](https://trueinterview.io/study/prepare-from-candidate-reported-interview-questions-2026) | — |
 | [interviewing.io Review 2026: Anonymous Mock Interviews — Worth It?](https://trueinterview.io/study/interviewing-io-review-2026) | — |
 | [Is 'Why Do You Want to Work Here' Just a Warm-Up in 2026?](https://trueinterview.io/study/why-do-you-want-to-work-here-big-tech-ai-labs) | — |
+| [Is a Small, Safe Failure Story Best for Big Tech in 2026?](https://trueinterview.io/study/small-safe-failure-story-big-tech-2026) | — |
+| [Is Classic DP Still Asked in Big Tech Interviews in 2026?](https://trueinterview.io/study/classic-dp-big-tech-interviews-2026) | — |
 | [Is LeetCode Still Enough for Big Tech Interviews in 2026?](https://trueinterview.io/study/is-leetcode-enough-big-tech-interviews-2026) | — |
 | [Is Ticketmaster the Booking Question Big Tech Asks in 2026?](https://trueinterview.io/study/ticketmaster-booking-system-design-interview-myths-2026) | — |
 | [LeetCode Premium Review 2026: Is $159 a Year Worth It?](https://trueinterview.io/study/leetcode-review-2026) | — |
 | [LLM Inference Interview Questions: KV Cache, Batching and GPUs](https://trueinterview.io/study/llm-inference-interview-questions-kv-cache-batching-gpus) | — |
 | [LLM System Design Interviews: 36 Reported Prompts (2026)](https://trueinterview.io/study/llm-generative-ai-system-design-interview-questions) | — |
 | [Location System Design at Uber, DoorDash, Meta and Amazon](https://trueinterview.io/study/location-system-design-uber-doordash-meta-amazon) | — |
+| [Longest Substring, Subarray or Subsequence: Window or DP?](https://trueinterview.io/study/longest-substring-subarray-subsequence-window-or-dp) | — |
 | [Meta vs Google vs Amazon Interviews: How Formats Differ (2026)](https://trueinterview.io/study/meta-vs-google-vs-amazon-interview-formats-2026) | — |
 | [Metrics and Logging System Design: The Decisions to Prepare](https://trueinterview.io/study/metrics-logging-system-design-interview-decisions) | — |
 | [ML Coding Questions for Senior Engineers: 81 Reported (2026)](https://trueinterview.io/study/ml-coding-interview-questions-senior-engineers-2026) | — |
@@ -74,16 +86,23 @@
 | [PracHub Review 2026: A Low-Cost Question Bank — Worth It?](https://trueinterview.io/study/prachub-review-2026) | — |
 | [Project Deep Dive Questions for Senior Engineers: 88 Reported](https://trueinterview.io/study/project-deep-dive-interview-questions-senior-engineers-2026) | — |
 | [Recommendation System Design Interview: 57 Reported Prompts](https://trueinterview.io/study/recommendation-system-design-interview-reported-prompts) | — |
+| [Scheduler Interview Questions by Round: 65 Reported (2026)](https://trueinterview.io/study/scheduler-interview-questions-by-round-2026) | — |
 | [Senior Data Science Product Case Questions: 50 Reported (2026)](https://trueinterview.io/study/data-science-product-case-questions-senior-big-tech-2026) | — |
+| [Shortest-Path Interview Questions by Company (2026)](https://trueinterview.io/study/shortest-path-interview-questions-by-company-2026) | — |
 | [SQL Interview Questions for Senior Engineers: 219 Reported (2026)](https://trueinterview.io/study/sql-interview-questions-senior-engineers-big-tech-2026) | — |
+| [Stack Questions at Big Tech: Why Calculators Lead in 2026](https://trueinterview.io/study/stack-interview-questions-big-tech-2026) | — |
 | [Staff Engineer Interviews: What Changes From the Senior Loop](https://trueinterview.io/study/staff-engineer-interview-loop-vs-senior) | — |
 | [Statistics and Probability Questions: 227 Reported (2026)](https://trueinterview.io/study/statistics-probability-interview-questions-big-tech-2026) | — |
+| [String Interview Prep Plan: What Big Tech Candidates Report](https://trueinterview.io/study/string-interview-prep-plan-big-tech) | — |
 | [SWE vs ML Engineer Interviews: What Changes at Senior Level](https://trueinterview.io/study/software-engineer-to-ml-engineer-interview-what-changes) | — |
 | [System Design Interview in Four Weeks: A Company-Based Plan](https://trueinterview.io/study/system-design-interview-four-week-plan-by-company) | — |
 | [The Most-Reported Graph Questions at Big Tech in 2026](https://trueinterview.io/study/most-reported-graph-questions-big-tech-2026) | — |
+| [Top-K, K-th Element and Median Interview Prep Plan](https://trueinterview.io/study/top-k-kth-element-median-interview-prep-plan) | — |
+| [Video and Media Design Questions at Big Tech: Two Tracks](https://trueinterview.io/study/video-media-upload-system-design-interview-questions) | — |
 | [What is on a big tech OA in 2026, and what to drill first](https://trueinterview.io/study/big-tech-online-assessment-whats-on-it-2026) | — |
 | [When Is a Heap the Right Answer in a Coding Interview?](https://trueinterview.io/study/when-to-use-a-heap-coding-interview) | — |
 | [Which Dynamic Programming Questions Were Reported in 2026?](https://trueinterview.io/study/dynamic-programming-questions-new-in-2026) | — |
+| [Which Grid BFS Questions Are Candidates Reporting in 2026?](https://trueinterview.io/study/grid-bfs-flood-fill-interview-questions-2026) | — |
 | [Which System Design Problems Gained Share in 2026?](https://trueinterview.io/study/which-system-design-problems-gained-share-2026) | — |
 | [Which Two-Pointer Problems Does Big Tech Actually Ask?](https://trueinterview.io/study/two-pointer-problems-big-tech-asks-2026) | — |
 | [Will I Be Down-Leveled in a Big Tech Interview?](https://trueinterview.io/study/will-i-be-down-leveled-big-tech-interview) | — |
