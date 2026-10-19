@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **467** |
 | Most recent sighting | Oct 03, 2026 |
-| Reported in the last 90 days | 96 |
+| Reported in the last 90 days | 97 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 467) |
 | Difficulty (easy / medium / hard) | 60 / 226 / 64 |
 | Free to practise | [147](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**96 sightings** in this window. Newest first.
+**97 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Medium | Onsite / virtual onsite | Sep 26, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Hard | Onsite / virtual onsite | Sep 26, 2026 |
 
-<sub>84 more in this window are in the table below.</sub>
+<sub>85 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -83,14 +83,14 @@ Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 5 | ███ |
-| [Sep 2026](../by-month/2026-09.md) | 44 | ████████████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 38 | █████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 45 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 38 | ████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 22 | ████████████ |
-| [Jun 2026](../by-month/2026-06.md) | 25 | ██████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 24 | █████████████ |
 | [May 2026](../by-month/2026-05.md) | 19 | ██████████ |
 | [Apr 2026](../by-month/2026-04.md) | 31 | █████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 25 | ██████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 23 | █████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 25 | █████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 23 | ████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 16 | █████████ |
 | [Dec 2025](../by-month/2025-12.md) | 9 | █████ |
 | [Nov 2025](../by-month/2025-11.md) | 11 | ██████ |
@@ -151,6 +151,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Hard | 🆕 Sep 26, 2026 |
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Medium | 🆕 Sep 26, 2026 |
 | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | Blog | — | 🆕 Sep 23, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
 | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/questions/explain-a-project-that-could-not-meet-a-tight-deadline) | Blog | — | 🆕 Sep 20, 2026 |
 | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | System Design | Medium | 🆕 Sep 20, 2026 |
 | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | System Design | Medium | 🆕 Sep 20, 2026 |
@@ -264,7 +265,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Number of Islands and Grid BFS Variants](https://trueinterview.io/questions/number-of-islands-family) | Algorithm | Hard | Jun 16, 2026 |
 | [Sliding Window Maximum](https://trueinterview.io/questions/sliding-window-maximum) | Algorithm | Medium | Jun 16, 2026 |
 | [Event Filter & Queue Routing Service](https://trueinterview.io/questions/event-filter-routing-service) | Object Oriented Programming | Medium | Jun 11, 2026 |
-| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Algorithm | Hard | Jun 09, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Easy | Jun 08, 2026 |
 | [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Algorithm | Medium | Jun 06, 2026 |

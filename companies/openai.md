@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **175** |
 | Most recent sighting | Sep 28, 2026 |
-| Reported in the last 90 days | 19 |
+| Reported in the last 90 days | 20 |
 | Most common format | [Algorithm](../formats/algorithm.md) (34% of 175) |
 | Difficulty (easy / medium / hard) | 13 / 75 / 70 |
 | Free to practise | [30](../free/README.md) |
@@ -39,11 +39,12 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 
 ## Asked here in the last 90 days
 
-**19 sightings** in this window. Newest first.
+**20 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Object Oriented Programming | Medium | Phone screen | Sep 28, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 23, 2026 |
 | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | Phone screen | Sep 17, 2026 |
 | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | Phone screen | Sep 08, 2026 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | Phone screen | Sep 07, 2026 |
@@ -54,9 +55,8 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 | [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | System Design | Hard | Phone screen | Aug 21, 2026 |
 | [Design Real-Time Electricity Monitoring and Policy Control](https://trueinterview.io/questions/design-real-time-electricity-monitoring-and-policy-control) | System Design | Hard | Phone screen | Aug 18, 2026 |
 | [Design Command Dispatch and Telemetry Reconciliation for Unreliable Devices](https://trueinterview.io/questions/design-command-dispatch-and-telemetry-reconciliation-for-unreliable-devices) | System Design | Hard | Phone screen | Aug 17, 2026 |
-| [Design a Dependency-Aware Concurrent Tool Scheduler](https://trueinterview.io/questions/design-a-dependency-aware-concurrent-tool-scheduler) | Object Oriented Programming | Medium | Phone screen | Aug 16, 2026 |
 
-<sub>7 more in this window are in the table below.</sub>
+<sub>8 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -83,10 +83,10 @@ Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 4 | ██████ |
+| [Sep 2026](../by-month/2026-09.md) | 5 | ████████ |
 | [Aug 2026](../by-month/2026-08.md) | 14 | ██████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 4 | ██████ |
-| [Jun 2026](../by-month/2026-06.md) | 13 | █████████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 12 | ███████████████████ |
 | [May 2026](../by-month/2026-05.md) | 11 | ██████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 15 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 6 | ██████████ |
@@ -99,18 +99,18 @@ Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2
 
 ## Start here
 
-The 8 questions to open first if you are preparing for OpenAI, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for OpenAI, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Object Oriented Programming | Medium | — | Sep 28, 2026 |
-| **2** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | — | Sep 17, 2026 |
-| **3** | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | — | Sep 08, 2026 |
-| **4** | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | — | Sep 07, 2026 |
-| **5** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | — | Aug 27, 2026 |
-| **6** | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | — | Aug 24, 2026 |
-| **7** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | — | Aug 23, 2026 |
-| **8** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Object Oriented Programming | Hard | — | Aug 22, 2026 |
+| **2** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Sep 23, 2026 |
+| **3** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | — | Sep 17, 2026 |
+| **4** | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | — | Sep 08, 2026 |
+| **5** | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | — | Sep 07, 2026 |
+| **6** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | — | Aug 27, 2026 |
+| **7** | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | — | Aug 24, 2026 |
+| **8** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | — | Aug 23, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -156,6 +156,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Object Oriented Programming | Medium | 🆕 Sep 28, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
 | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | 🆕 Sep 17, 2026 |
 | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | 🆕 Sep 08, 2026 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | 🆕 Sep 07, 2026 |
@@ -185,7 +186,6 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |
 | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Object Oriented Programming | Medium | Jun 12, 2026 |
 | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | Jun 11, 2026 |
-| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Object Oriented Programming | Medium | Jun 11, 2026 |
 | [Debug a GPT-Style Transformer with KV-Cache Generation](https://trueinterview.io/questions/transformer-bug-hunt) | AI Coding | Hard | Jun 09, 2026 |
 | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Jun 08, 2026 |

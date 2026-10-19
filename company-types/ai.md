@@ -48,12 +48,13 @@ Of the **150 questions in this cut that carry a topic label** (33% of it):
 
 ## Asked here in the last 90 days
 
-**73 sightings** across this cut. Newest first.
+**74 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Scale AI … | Algorithm | Oct 01, 2026 |
 | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | OpenAI | Object Oriented Programming | Sep 28, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | OpenAI, Microsoft AI … | System Design | Sep 23, 2026 |
 | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | OpenAI | Algorithm | Sep 17, 2026 |
 | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Harvey | System Design | Sep 15, 2026 |
 | [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | xAI | System Design | Sep 15, 2026 |
@@ -63,9 +64,8 @@ Of the **150 questions in this cut that carry a topic label** (33% of it):
 | [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) | Together AI | Blog | Sep 15, 2026 |
 | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Cohere | Algorithm | Sep 15, 2026 |
 | [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | xAI | Algorithm | Sep 15, 2026 |
-| [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | Together AI | Blog | Sep 15, 2026 |
 
-<sub>61 more in this window are in the table below.</sub>
+<sub>62 more in this window are in the table below.</sub>
 
 ---
 
@@ -79,6 +79,7 @@ Of the **150 questions in this cut that carry a topic label** (33% of it):
 | :-- | :-- | :-: | :-- |
 | **Amazon / Scale AI** | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Medium | 🆕 Oct 01, 2026 |
 | **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | 🆕 Sep 28, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | 🆕 Sep 23, 2026 |
 | **OpenAI** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Medium | 🆕 Sep 17, 2026 |
 | **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Medium | 🆕 Sep 15, 2026 |
@@ -176,7 +177,6 @@ Of the **150 questions in this cut that carry a topic label** (33% of it):
 | **Harvey** | [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | Medium | Jun 11, 2026 |
 | **DoorDash / xAI** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Medium | Jun 11, 2026 |
 | **OpenAI / Ebay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
-| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Jun 11, 2026 |
 | **OpenAI / ByteDance** | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Medium | Jun 11, 2026 |
 | **Anthropic** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Medium | Jun 10, 2026 |
 | **OpenAI** | [Debug a GPT-Style Transformer with KV-Cache Generation](https://trueinterview.io/questions/transformer-bug-hunt) | Hard | Jun 09, 2026 |

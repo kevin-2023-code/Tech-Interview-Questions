@@ -15,8 +15,8 @@
 |  |  |
 | :-- | :-- |
 | Questions tracked | **13** |
-| Most recent sighting | Jul 29, 2026 |
-| Reported in the last 90 days | 2 |
+| Most recent sighting | Sep 23, 2026 |
+| Reported in the last 90 days | 3 |
 | Most common format | [System Design](../formats/system-design.md) (46% of 13) |
 | Difficulty (easy / medium / hard) | 2 / 7 / 4 |
 | Free to practise | [3](../free/README.md) |
@@ -38,10 +38,11 @@ Which stage each question came from, for the **13 of 13** questions at Microsoft
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 23, 2026 |
 | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | Phone screen | Jul 29, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 
@@ -62,12 +63,12 @@ Of the **5 questions at Microsoft AI that carry a topic label** (38% of them —
 
 ## When they asked it
 
-Every recorded sighting at Microsoft AI, by the month it was reported in — Oct 29, 2025 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Microsoft AI, by the month it was reported in — Oct 29, 2025 to Sep 23, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 2 | ████████████████████████ |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ████████████ |
@@ -79,9 +80,9 @@ The 8 questions to open first if you are preparing for Microsoft AI, ranked by *
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 9 | Jul 29, 2026 |
-| **2** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | 1 | Jul 29, 2026 |
-| **3** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Jun 11, 2026 |
+| **1** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Sep 23, 2026 |
+| **2** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 9 | Jul 29, 2026 |
+| **3** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | 1 | Jul 29, 2026 |
 | **4** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | 6 | Apr 16, 2026 |
 | **5** | [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection) | Algorithm | Hard | 1 | Mar 03, 2026 |
 | **6** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 9 | Dec 10, 2025 |
@@ -100,9 +101,9 @@ The 8 questions to open first if you are preparing for Microsoft AI, ranked by *
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | Jul 29, 2026 |
-| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Apr 16, 2026 |
 | [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection) | Algorithm | Hard | Mar 03, 2026 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |

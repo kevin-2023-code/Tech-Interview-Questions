@@ -5,49 +5,50 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| System Design | Medium | OpenAI · Airbnb · Amazon · Meta · Microsoft AI | Phone screen, Onsite / virtual onsite | — | Jun 2026 |
+| System Design | Medium | OpenAI · Airbnb · Amazon · Meta · Microsoft AI | Phone screen, Onsite / virtual onsite | — | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/design-chess-com-online-chess-game)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
 
 ## Problem
 
-Design a Chess.com-Style Online Chess Platform  
-System Design · Real-time Matchmaking · Authoritative Game State
+## 1. Background: an Online Chess Game in the Style of chess.com
 
-A platform like chess.com pairs two players quickly, places them in a shared game room, keeps both clients in sync on the same board, and enforces a strict clock. From the user’s perspective, the product feels like a lightweight realtime application, but the backend must remain the single source of truth for three essential facts: the final match result, the legal sequence of plies, and which player’s clock is active.
+Online chess platforms like [chess.com](https://www.chess.com/) match two players within moments, put them into a common game room, show both of them the same board as it changes in real time, and run the game under a strict time control until it ends. From the player's side it looks like a small realtime app, but underneath the system must hold three facts that can never be wrong: the result of the match, the legal sequence of moves, and who owns the clock at each moment.
 
-The players should experience a single shared board, but only the server may decide who was paired, which legal move happened next, and whose time was actually consumed. If those guarantees diverge, the product stops being chess and becomes two disconnected animations.
+<img src="https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/sources/563fc1767edd6f752cc3.gif" alt="" height="500" width="500" />
 
-> During clarification, define the time control early. Whether a mode uses increment or not changes both queue segmentation and how the server accounts for clock time after each accepted move.
+## 2. Requirements
 
-## Functional Requirements
+Both players expect to feel like they are sitting at one shared board, but only the server is allowed to decide who was paired with whom, which legal move came next, and whose clock was actually running. If any of those three facts diverges between the players, the experience is no longer chess — it is just two unrelated animations.
 
-- A player selects a supported time control and may enter or leave the matchmaking queue for that mode.
-- The system pairs compatible queued players, creates a game, assigns colors, and connects both participants to the same live game session.
-- Players can submit candidate moves; before accepting a ply, the server validates turn order and move legality.
-- The server maintains authoritative remaining time for each side, applies increment when configured, and ends the game on timeout when a player’s clock reaches zero.
-- Players can reconnect to an active game, recover the canonical board and clock state, and complete the match with a durable result that can feed downstream rating updates.
+### Functional requirements
 
-## Non-Functional Requirements
+- A player can pick one of the supported time controls and join or leave the matchmaking queue for that mode.
+- The system can match two compatible players, create a game, give each a color, and put both into the same live game session.
+- Players send moves; before accepting the next ply, the server checks that it is that player's turn and that the move is legal.
+- Every game keeps the authoritative remaining time for each player, adds the increment when the time control has one, and ends the game by timeout when a player's time hits zero.
+- A player can reconnect to a game in progress, get back the canonical board and clock state, and the game finishes with a durable result that downstream rating updates can consume.
 
-- The server is authoritative for match outcome, ply sequence, legal board state, and clock accounting.
-- A single ply can never be committed with two conflicting next moves.
-- Target `99.95%` availability for matchmaking, move submission, and canonical game-state reads within a healthy region.
-- Target `p95 < 250 ms` for normal matchmaking in a healthy pool.
-- Target `p95 < 150 ms` for move acknowledgement within a region.
-- Target `p95 < 1 s` for opponent-visible updates after a committed move.
-- Sizing assumes roughly `3M` daily active players and `150k` peak concurrent live games.
-- Peak load planning uses `5k/s` queue entries and `20k/s` move submissions.
-- After a move or terminal result is acknowledged, the ply order, remaining clocks at that boundary, and the final outcome must survive crash or failover.
-- The client-side countdown display is cosmetic only.
-- Retries or reconnects must not increase server-owned remaining time.
-- Timeout decisions are based on server time.
-- Only the two matched participants may submit moves or join private game channels; authentication and rate limiting are assumed at a high level.
+### Non-functional requirements
 
-## Back-of-the-Envelope Estimates
+- The server is the source of truth for the match result, the order of moves, the legal board state, and clock accounting.
+- A game must never commit two different moves as the next move for the same ply.
+- Matchmaking, move submission, and canonical game-state reads should reach `99.95%` availability within a healthy region.
+- Normal matchmaking in a healthy pool should complete at `p95 < 250 ms`.
+- Move acknowledgement within a region should be `p95 < 150 ms`.
+- The opponent should see a committed move at `p95 < 1 s`.
+- Assume roughly `3M` daily active players and `150k` live games running at once at peak.
+- Size for `5k/s` queue entries and `20k/s` move submissions at peak during busy periods.
+- After a move or a final result has been acknowledged, the move order, the remaining clocks at that point, and the final result must survive a crash or a failover.
+- The countdown shown on the client is purely cosmetic.
+- Retries or reconnects must never cause the server-owned remaining time to go up.
+- Timeouts are decided using server time.
+- Only the two players in a game may submit moves or join its private game channels; authentication and rate limiting can be assumed at a high level.
 
-| Metric | Planning value | Informs |
+### Back-of-the-envelope estimation
+
+| Quantity | Assumed value | Used for |
 |---|---|---|
 | Daily active players | `~3M` | overall fleet sizing |
 | Concurrent live games | `~150k` peak | game-room sharding and websocket fanout |
@@ -56,46 +57,43 @@ The players should experience a single shared board, but only the server may dec
 | Average game length | `60–100` plies | move log growth and snapshot frequency |
 | Popular time controls | `3+2`, `5+0`, `10+0` | queue partitioning and clock model |
 
-Treat these numbers as coarse capacity anchors. They motivate keeping short-lived matchmaking tickets separate from durable game state, and they show that one writer per game can remain the right shape at peak move volume.
+Treat these figures as order-of-magnitude reference points rather than precise targets.
 
-## Out of Scope
-
-_High-Level Architecture — Matchmaking Pipeline and Authoritative Game Server_
-
-![High-level architecture of matchmaking pipeline and authoritative game server](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/diagrams/31f7f6aa665bca6e90e51a6191eb6207.svg)
-
+**Out of scope (below the line)**
 - Spectator mode, streaming, and public game feeds.
-- Engine analysis, puzzles, move suggestions, and opening explorer features.
+- Engine analysis, puzzles, move suggestions, and the opening explorer.
 - Tournaments, team matches, clubs, and multi-board formats.
-- Full anti-cheat or fair-play investigation pipelines beyond a short follow-up mention.
-- Social chat, friends, notifications, and monetization features.
+- Complete anti-cheat or fair-play investigation pipelines, apart from a brief follow-up mention.
+- Social chat, friends, notifications, and monetization.
 
-## Follow-ups
+## Interview Notes
 
-Extensions the interviewer raised after the main task:
+- Settle the time control early in the interview, in particular whether moves carry an increment or not.
 
-- Allow a player to abort a game, but only at the start of the game.
+### What interviewers focus on
+
+- How the board is represented, how each piece's movement rules are applied, how check and checkmate are detected, and how game state is persisted.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Separate the realtime experience from the authoritative source of truth: clients can feel instant, but the backend must own the final result, legal plies, and active clock.
+Treat the server as the single source of truth for pairing, legal move order, and whose clock is running, with clients only sending intents.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Reach for a matchmaking service, a game-room/session service holding authoritative state, and a pub/sub or websocket fanout layer to keep both clients in sync.
+Combine a matchmaking queue with a per-game authoritative state machine and persistent connections such as WebSockets, plus server-side move validation and clock accounting.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch the trickiest edge case: clock enforcement and move validation must be server-authoritative so a disconnected or cheating client cannot desync the board or the timer.
+Pay attention to reconnects, duplicate or out-of-order moves, and clock drift or lag compensation, since these are where state silently diverges.
 
 </details>
 

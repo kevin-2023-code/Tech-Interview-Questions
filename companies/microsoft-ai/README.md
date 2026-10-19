@@ -12,7 +12,7 @@ How Microsoft AI interviews, and the questions candidates reported there. Free q
 | Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Jul 29, 2026 |
+| Most recent sighting | Sep 23, 2026 |
 
 ## How Microsoft AI interviews
 
@@ -24,7 +24,7 @@ No written process guide yet. [The loop, as reported](../microsoft-ai.md#the-loo
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
+| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 

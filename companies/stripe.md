@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **118** |
 | Most recent sighting | Oct 04, 2026 |
-| Reported in the last 90 days | 14 |
+| Reported in the last 90 days | 15 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 118) |
 | Difficulty (easy / medium / hard) | 19 / 64 / 20 |
 | Free to practise | [20](../free/README.md) |
@@ -32,14 +32,14 @@ Which stage each question came from, for the **118 of 118** questions at Stripe 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 27 | █████ | [Algorithm](../formats/algorithm.md) (78%) | 8 / 15 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 49 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 6 / 24 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 50 | ██████████ | [Algorithm](../formats/algorithm.md) (66%) | 6 / 25 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 50 | ██████████ | [AI Coding](../formats/ai-coding.md) (28%) | 7 / 30 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**14 sightings** in this window. Newest first.
+**15 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -53,10 +53,10 @@ Which stage each question came from, for the **118 of 118** questions at Stripe 
 | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | Online assessment | Sep 10, 2026 |
 | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | Online assessment | Sep 04, 2026 |
 | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | SQL | Easy | Phone screen | Aug 31, 2026 |
+| [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | System Design | Medium | Phone screen, Onsite / virtual onsite | Aug 29, 2026 |
 | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Algorithm | Hard | Phone screen | Aug 25, 2026 |
-| [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Algorithm | Hard | Online assessment | Aug 24, 2026 |
 
-<sub>2 more in this window are in the table below.</sub>
+<sub>3 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -85,12 +85,12 @@ Every recorded sighting at Stripe, by the month it was reported in — Oct 07, 2
 | :-- | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 1 | ██ |
 | [Sep 2026](../by-month/2026-09.md) | 8 | ███████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 4 | ██████████ |
+| [Aug 2026](../by-month/2026-08.md) | 5 | ████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
 | [Jun 2026](../by-month/2026-06.md) | 8 | ███████████████████ |
 | [May 2026](../by-month/2026-05.md) | 10 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 7 | █████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 2 | █████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ██ |
 | [Feb 2026](../by-month/2026-02.md) | 6 | ██████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 3 | ███████ |
 | [Dec 2025](../by-month/2025-12.md) | 6 | ██████████████ |
@@ -174,6 +174,7 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | 🆕 Sep 10, 2026 |
 | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | 🆕 Sep 04, 2026 |
 | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | SQL | Easy | Aug 31, 2026 |
+| [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | System Design | Medium | Aug 29, 2026 |
 | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Algorithm | Hard | Aug 25, 2026 |
 | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Algorithm | Hard | Aug 24, 2026 |
 | [Design a Scalable Idempotent Ledger Service](https://trueinterview.io/questions/design-a-scalable-idempotent-ledger-service) | System Design | Hard | Aug 20, 2026 |
@@ -203,7 +204,6 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve) | Algorithm | Medium | Apr 14, 2026 |
 | [Implement Dataset Join Operation](https://trueinterview.io/questions/dataset-join) | Algorithm | Medium | Apr 09, 2026 |
 | [String Path Compression](https://trueinterview.io/questions/string-path-compression) | Algorithm | Medium | Apr 03, 2026 |
-| [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | System Design | Medium | Mar 31, 2026 |
 | [Account Scheduler with LRU](https://trueinterview.io/questions/account-scheduler-lru) | Object Oriented Programming | Medium | Mar 27, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [Shipping Route Cost Paths](https://trueinterview.io/questions/shipping-route-cost-paths) | Algorithm | Medium | Feb 09, 2026 |

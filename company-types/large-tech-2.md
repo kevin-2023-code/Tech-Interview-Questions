@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Google / Affirm / Uber** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Medium | Jun 10, 2026 |
 | **Anthropic** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Medium | Jun 10, 2026 |
 | **Stripe** | [Requests Library Debug (BugSquash)](https://trueinterview.io/questions/requests-library-debug) | Hard | Jun 10, 2026 |
 | **Stripe** | [AI-Assisted Coding Round (HackerRank + Claude)](https://trueinterview.io/questions/ai-assisted-coding-round) | Medium | Jun 10, 2026 |
@@ -259,6 +260,5 @@
 | **Rippling** | [Design an Extensible Rule Engine](https://trueinterview.io/questions/design-an-extensible-rule-engine) | Medium | Apr 02, 2026 |
 | **Coinbase** | [Debug and Extend Cursor Queries](https://trueinterview.io/questions/debug-and-extend-cursor-queries) | Medium | Apr 02, 2026 |
 | **Lyft** | [Solve substring and worker assignment](https://trueinterview.io/questions/solve-substring-and-worker-assignment) | Hard | Apr 02, 2026 |
-| **OpenAI** | [Simulate Plant Infection With Controlled Burning](https://trueinterview.io/questions/simulate-plant-infection-with-controlled-burning) | Hard | Apr 02, 2026 |
 
 <sub>[← Page 1](large-tech.md) · Page 2 of 7 · [Page 3 →](large-tech-3.md)</sub>

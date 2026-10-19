@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **485** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 19 |
+| Reported in the last 90 days | 20 |
 | Most common format | [Algorithm](../formats/algorithm.md) (36% of 485) |
 | Difficulty (easy / medium / hard) | 47 / 202 / 88 |
 | Free to practise | [176](../free/README.md) |
@@ -39,11 +39,12 @@ Which stage each question came from, for the **485 of 485** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**19 sightings** in this window. Newest first.
+**20 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | Oct 01, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 23, 2026 |
 | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | Blog | — | Phone screen | Sep 17, 2026 |
 | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | Blog | — | Phone screen | Sep 17, 2026 |
 | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 04, 2026 |
@@ -54,9 +55,8 @@ Which stage each question came from, for the **485 of 485** questions at Meta th
 | [Measure Game Monetization and Validate a Reporting Repair](https://trueinterview.io/questions/measure-game-monetization-and-validate-a-reporting-repair) | System Design | Hard | Phone screen | Sep 03, 2026 |
 | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | System Design | Easy | Phone screen | Aug 29, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Aug 27, 2026 |
-| [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Algorithm | Hard | Onsite / virtual onsite | Aug 25, 2026 |
 
-<sub>7 more in this window are in the table below.</sub>
+<sub>8 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -84,10 +84,10 @@ Every recorded sighting at Meta, by the month it was reported in — Jun 10, 202
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 1 | █ |
-| [Sep 2026](../by-month/2026-09.md) | 8 | ████ |
+| [Sep 2026](../by-month/2026-09.md) | 9 | ████ |
 | [Aug 2026](../by-month/2026-08.md) | 7 | ████ |
 | [Jul 2026](../by-month/2026-07.md) | 6 | ███ |
-| [Jun 2026](../by-month/2026-06.md) | 15 | ████████ |
+| [Jun 2026](../by-month/2026-06.md) | 14 | ███████ |
 | [May 2026](../by-month/2026-05.md) | 16 | ████████ |
 | [Apr 2026](../by-month/2026-04.md) | 48 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 20 | ██████████ |
@@ -106,13 +106,13 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Oct 01, 2026 |
-| **2** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) 🆓 | Blog | — | — | Sep 17, 2026 |
-| **3** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) 🆓 | Blog | — | — | Sep 17, 2026 |
-| **4** | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | — | Sep 04, 2026 |
-| **5** | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | System Design | Medium | — | Sep 04, 2026 |
-| **6** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | — | Sep 04, 2026 |
-| **7** | [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | SQL | Easy | — | Sep 03, 2026 |
-| **8** | [Measure Game Monetization and Validate a Reporting Repair](https://trueinterview.io/questions/measure-game-monetization-and-validate-a-reporting-repair) | System Design | Hard | — | Sep 03, 2026 |
+| **2** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Sep 23, 2026 |
+| **3** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) 🆓 | Blog | — | — | Sep 17, 2026 |
+| **4** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) 🆓 | Blog | — | — | Sep 17, 2026 |
+| **5** | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | — | Sep 04, 2026 |
+| **6** | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | System Design | Medium | — | Sep 04, 2026 |
+| **7** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | — | Sep 04, 2026 |
+| **8** | [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | SQL | Easy | — | Sep 03, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -142,6 +142,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
 | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | Blog | — | 🆕 Sep 17, 2026 |
 | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | Blog | — | 🆕 Sep 17, 2026 |
 | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | 🆕 Sep 04, 2026 |
@@ -173,7 +174,6 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Find Shortest Unique Prefix](https://trueinterview.io/questions/shortest-unique-prefix) | Algorithm | Medium | Jun 18, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Word Break](https://trueinterview.io/questions/word-break) | Algorithm | Medium | Jun 16, 2026 |
-| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Shared Substring in String List](https://trueinterview.io/questions/ai-coding-substring-from-list) | AI Coding | Medium | Jun 09, 2026 |
 | [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation) | System Design | Hard | Jun 09, 2026 |
 | [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral) | Blog | — | Jun 09, 2026 |

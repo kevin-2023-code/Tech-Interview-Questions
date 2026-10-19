@@ -12,6 +12,7 @@
 | :-- | :-- | :-: | :-- |
 | **ByteDance** | [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system) | Medium | 🔥 Oct 05, 2026 |
 | **Microsoft** | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | Medium | 🆕 Sep 29, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | 🆕 Sep 23, 2026 |
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | Medium | 🆕 Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🆕 Sep 20, 2026 |
 | **Amazon** | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | Hard | 🆕 Sep 18, 2026 |
@@ -91,6 +92,7 @@
 | **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | Aug 29, 2026 |
 | **Citadel** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | Hard | Aug 29, 2026 |
 | **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | Aug 29, 2026 |
+| **Stripe** | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | Medium | Aug 29, 2026 |
 | **ByteDance** | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | Medium | Aug 28, 2026 |
 | **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | Aug 28, 2026 |
 | **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | Aug 28, 2026 |
@@ -187,7 +189,6 @@
 | **DoorDash** | [Design Food Review System](https://trueinterview.io/questions/system-design-food-review-system) | Medium | Jun 11, 2026 |
 | **ByteDance** | [Recent Like Count and Top Posts in a Sliding Window](https://trueinterview.io/questions/recent-like-count-and-top-posts) | Medium | Jun 11, 2026 |
 | **OpenAI / Ebay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
-| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Jun 11, 2026 |
 | **Vanta** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | Easy | Jun 10, 2026 |
 | **Meta** | [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation) | Hard | Jun 09, 2026 |
 | **Roblox** | [Notification System](https://trueinterview.io/questions/front-end-system-design-notification-system) | Medium | Jun 04, 2026 |
@@ -259,6 +260,5 @@
 | **JPMorgan** | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | Medium | Apr 22, 2026 |
 | **Mercor** | [Design Candidate Search And LLM Evaluation Tasks](https://trueinterview.io/questions/design-candidate-search-and-llm-evaluation-tasks) | Medium | Apr 21, 2026 |
 | **Airbnb** | [Design an A/B Testing Platform](https://trueinterview.io/questions/design-an-a-b-testing-platform-3) | Hard | Apr 21, 2026 |
-| **Snapchat** | [Snap Ads Ranking](https://trueinterview.io/questions/snap-ads-ranking) | Hard | Apr 21, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](system-design-2.md)</sub>

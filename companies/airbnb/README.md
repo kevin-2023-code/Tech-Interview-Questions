@@ -12,7 +12,7 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 | Free to read here | 8 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Sep 04, 2026 |
+| Most recent sighting | Sep 23, 2026 |
 
 ## How Airbnb interviews
 
@@ -54,11 +54,11 @@ Here's what the interview process can look like:
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
 | [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) |
 | [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/experience-project-deep-dive) |
 | [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/core-values-bq-round) |
 | [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/hiring-manager-screen) |
-| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
 | [Discuss ML Project Tradeoffs](https://trueinterview.io/questions/discuss-ml-project-tradeoffs) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/discuss-ml-project-tradeoffs) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |

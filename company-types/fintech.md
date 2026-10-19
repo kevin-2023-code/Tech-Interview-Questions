@@ -48,7 +48,7 @@ Of the **205 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**32 sightings** across this cut. Newest first.
+**33 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **205 questions in this cut that carry a topic label** (44% of it):
 | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Stripe | Algorithm | Sep 11, 2026 |
 | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Stripe | Algorithm | Sep 11, 2026 |
 
-<sub>20 more in this window are in the table below.</sub>
+<sub>21 more in this window are in the table below.</sub>
 
 ---
 
@@ -99,6 +99,7 @@ Of the **205 questions in this cut that carry a topic label** (44% of it):
 | **Airwallex** | [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Medium | Sep 02, 2026 |
 | **Pinterest / Airwallex** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | Medium | Sep 01, 2026 |
 | **Stripe** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | Easy | Aug 31, 2026 |
+| **Stripe** | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | Medium | Aug 29, 2026 |
 | **Coinbase** | [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Medium | Aug 27, 2026 |
 | **Stripe** | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Hard | Aug 25, 2026 |
 | **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Hard | Aug 24, 2026 |
@@ -192,7 +193,6 @@ Of the **205 questions in this cut that carry a topic label** (44% of it):
 | **Robinhood / Coinbase / Databricks / Square** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | Hard | Apr 2026 |
 | **Robinhood** | [Text Layout Into Rows](https://trueinterview.io/questions/text-layout-into-rows) | Easy | Apr 2026 |
 | **Ramp** | [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources) | Medium | Apr 2026 |
-| **Stripe** | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | Medium | Mar 31, 2026 |
 | **Robinhood / Airbnb / Atlassian / ByteDance / Databricks / DoorDash / Figma / Google / LinkedIn / Lyft / Meta / OpenAI / Pinterest / Reddit / Snapchat / Yelp** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | Medium | Mar 30, 2026 |
 | **Robinhood** | [Friends Money Transfer Request Processor](https://trueinterview.io/questions/friends-money-transfer-request-processor) | Medium | Mar 30, 2026 |
 | **Stripe** | [Account Scheduler with LRU](https://trueinterview.io/questions/account-scheduler-lru) | Medium | Mar 27, 2026 |

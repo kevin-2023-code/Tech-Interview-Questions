@@ -48,7 +48,7 @@ Of the **697 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**147 sightings** across this cut. Newest first.
+**148 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -63,9 +63,9 @@ Of the **697 questions in this cut that carry a topic label** (45% of it):
 | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | ByteDance | Algorithm | Sep 28, 2026 |
 | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Google | Object Oriented Programming | Sep 28, 2026 |
 | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | ByteDance | Algorithm | Sep 25, 2026 |
-| [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Google | Object Oriented Programming | Sep 18, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Meta … | System Design | Sep 23, 2026 |
 
-<sub>135 more in this window are in the table below.</sub>
+<sub>136 more in this window are in the table below.</sub>
 
 ---
 
@@ -88,6 +88,7 @@ Of the **697 questions in this cut that carry a topic label** (45% of it):
 | **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Medium | 🆕 Sep 28, 2026 |
 | **ByteDance** | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Medium | 🆕 Sep 28, 2026 |
 | **ByteDance** | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Medium | 🆕 Sep 25, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | 🆕 Sep 23, 2026 |
 | **Google** | [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Medium | 🆕 Sep 18, 2026 |
 | **Meta** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | — | 🆕 Sep 17, 2026 |
 | **Meta** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | — | 🆕 Sep 17, 2026 |
@@ -275,7 +276,6 @@ Of the **697 questions in this cut that carry a topic label** (45% of it):
 | **Reddit** | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Medium | Jun 12, 2026 |
 | **Reddit** | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Medium | Jun 12, 2026 |
 | **ByteDance** | [Recent Like Count and Top Posts in a Sliding Window](https://trueinterview.io/questions/recent-like-count-and-top-posts) | Medium | Jun 11, 2026 |
-| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Jun 11, 2026 |
 | **OpenAI / ByteDance** | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Medium | Jun 11, 2026 |
 | **Google** | [Employee Hierarchy Add / Delete](https://trueinterview.io/questions/employee-hierarchy-add-delete) | Medium | Jun 10, 2026 |
 | **Pinterest** | [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Medium | Jun 10, 2026 |

@@ -12,70 +12,63 @@
 
 ## Problem
 
-## Problem: Social Likes
+Consider a small, simplified social network with the following properties:
 
-Consider a simplified social-network model with these properties:
+- A friendship goes both ways: if `userA` is friends with `userB`, then `userB` is also friends with `userA`.
+- Any user can like any number of items.
+- Two users are considered similar in proportion to their shared tastes: their similarity score is the count of distinct items that both of them have liked.
 
-- Friend relationships work in both directions.
-- A user can like more than one item.
-- Two users' similarity score is the count of items liked by both users.
+Implement `solve(friendships, likes, queries)`, which must answer two kinds of queries.
 
-Your task is to support the following two query forms.
+- `friendships` holds `F` pairs `(userA, userB)`, each stating that the two users are friends.
+- `likes` holds `L` pairs `(user, item)`, each stating that `user` liked `item`.
+- `queries` holds `Q` queries, each of the form `BEST user k` or `RECOMMEND user k`.
 
 ### Query 1: BEST user k
 
-For `user`, output at most `k` of their strongest friends.
+Produce the `k` best friends of `user`.
 
-Only direct friends of `user` may be selected. Order those friends according to these rules:
+Only users who are **direct friends** of `user` are eligible. Rank them as follows:
 
-1. A larger number of shared liked items comes first.
-2. When two friends have the same score, the user id that is lexicographically earlier comes first.
+1. A friend with more items in common with `user` comes first;
+2. Among friends with the same number of shared items, the one whose user id is lexicographically smaller comes first.
 
-When `user` has fewer than `k` direct friends, return every direct friend.
+When `user` has fewer than `k` friends, the answer contains every one of them.
 
 ### Query 2: RECOMMEND user k
 
-Find up to `k` potential new friends for `user`.
+Suggest at most `k` people who could become new friends of `user`.
 
-Apply the following traversal procedure:
+Recommendations are produced like this:
 
-1. Visit `user`'s best friends in the order produced by `BEST user`.
-2. For each such best friend `bf`, visit the users returned by `BEST bf`, preserving that order.
-3. Consider `cand` as a recommendation only when all of the following hold:
-   - `cand` is different from `user`;
-   - `cand` is not a direct friend of `user`;
-   - `cand` has not already been recommended.
-4. If `cand` is already directly connected to `user`, ignore it and keep looking at later candidates.
-5. Finish as soon as `k` recommendations have been collected or there are no candidates left to inspect.
+1. Walk through the best friends of `user`, in the same order that `BEST user` would produce;
+2. For each such best friend `bf`, walk through the best friends of `bf`, in the order that `BEST bf` would produce;
+3. A candidate `cand` is added to the recommendations only when all of these hold:
+   - `cand` is not `user` themself (`cand != user`);
+   - `cand` is not yet a direct friend of `user`;
+   - `cand` does not already appear among the recommendations;
+4. When a candidate turns out to be a friend of `user` already, ignore it and keep looking at the remaining candidates;
+5. The process ends as soon as `k` recommendations have been collected, or once there are no candidates left to examine.
 
-### Input Format
+### Details
 
-```text
-F L Q
-Next F lines: userA userB, meaning userA and userB are friends
-Next L lines: user item, meaning user liked item
-Next Q lines: either BEST user k or RECOMMEND user k
-```
+- Every user id and item id is a string that contains no spaces.
+- The same friendship or the same like may be listed more than once; count each repeated entry only once.
+- A user named in a query might have no friends at all, or might not have liked anything.
 
-Additional input details:
+### Return Value
 
-- User ids and item ids contain no spaces.
-- Repeated friendship or like records are possible, and each duplicate should count only once.
-- A user mentioned by a query may have neither friends nor liked items.
+Return one string per query, in query order:
 
-### Output Format
-
-Write one line for every query:
-
-- For a non-empty result, list the user ids with `,` between adjacent ids.
-- For an empty result, write `EMPTY`.
+- When the result list is not empty, the string is the user ids joined together with commas `,`;
+- When the result list is empty, the string is `EMPTY`.
 
 ### Constraints
 
-- `0 <= F <= 2 * 10^5`
-- `0 <= L <= 2 * 10^5`
-- `1 <= Q <= 2 * 10^5`
-- The complete set of friendship and like records fits in memory.
+- $$0 \le F \le 2 \times 10^5$$
+- $$0 \le L \le 2 \times 10^5$$
+- $$1 \le Q \le 2 \times 10^5$$
+- All friendships and likes together fit in memory.
 
 ### Example
 
@@ -107,26 +100,52 @@ bob,carol
 dave,erin
 ```
 
+(Here the first line gives `F`, `L` and `Q`, followed by the `F` friendship pairs, the `L` like pairs and the `Q` queries; each output line is the string returned for the corresponding query.)
+
+### Example
+Input: 4 9 2
+alice bob
+alice carol
+bob dave
+bob erin
+alice x
+alice y
+bob x
+bob z
+carol y
+carol z
+dave x
+dave z
+erin z
+BEST alice 2
+RECOMMEND alice 2
+Output: bob,carol
+dave,erin
+
+### How this round is run
+
+Candidates describe this as a practical implementation round: rather than one batch program answering queries, you build a small data module with functions for recording friendships and likes and for ranking best friends, and then extend it with the recommendation logic in a second part. The underlying ranking and recommendation rules are the ones stated above.
+
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think about how to compute similarity scores efficiently without comparing every pair of users, consider using inverted indices from items to users.
+Both query types reduce to one reusable ranking of a user's direct friends, so define that ranking once and build RECOMMEND on top of it.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For the 'BEST' query, you need to find the top-k friends by similarity, a min-heap of size k can help maintain the top results while iterating over candidates.
+Store friendships as undirected adjacency sets and likes as per-user sets, so duplicate entries vanish and shared items come from a set intersection.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The tricky part is handling users with many likes, precompute and cache similarity scores for frequently queried users to avoid recomputation.
+Sort by a tuple of negative shared-item count and user id, and watch the RECOMMEND edge cases: skip the user, existing friends and already-chosen candidates, and stop at k.
 
 </details>
 

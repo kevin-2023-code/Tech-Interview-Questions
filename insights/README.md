@@ -10,7 +10,7 @@
 
 ## The last 90 days
 
-**672 sightings** recorded between Jul 21, 2026 → Oct 19, 2026 — 20% of the 3,393 questions in the bank that carry a sighting date at all.
+**674 sightings** recorded between Jul 21, 2026 → Oct 19, 2026 — 20% of the 3,393 questions in the bank that carry a sighting date at all.
 
 ### By format
 
@@ -18,7 +18,7 @@
 | :-- | --: | --: | :-- |
 | [Algorithm](../formats/algorithm.md) | 221 | 33% | ████████████████ |
 | [SQL](../formats/sql.md) | 38 | 6% | ███ |
-| [System Design](../formats/system-design.md) | 138 | 21% | ██████████ |
+| [System Design](../formats/system-design.md) | 140 | 21% | ██████████ |
 | [AI Coding](../formats/ai-coding.md) | 3 | 0% | █ |
 | [Blog](../formats/blog.md) | 203 | 30% | ███████████████ |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 69 | 10% | █████ |
@@ -27,23 +27,23 @@
 
 | Company | Sightings |  |
 | :-- | --: | :-- |
-| [Amazon](../companies/amazon.md) | 96 | ████████████████ |
+| [Amazon](../companies/amazon.md) | 97 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 44 | ███████ |
 | [Google](../companies/google.md) | 39 | ██████ |
 | [Microsoft](../companies/microsoft.md) | 39 | ██████ |
 | [LinkedIn](../companies/linkedin.md) | 24 | ████ |
 | [Oracle](../companies/oracle.md) | 22 | ████ |
-| [DoorDash](../companies/doordash.md) | 21 | ████ |
-| [Meta](../companies/meta.md) | 19 | ███ |
-| [OpenAI](../companies/openai.md) | 19 | ███ |
+| [DoorDash](../companies/doordash.md) | 21 | ███ |
+| [Meta](../companies/meta.md) | 20 | ███ |
+| [OpenAI](../companies/openai.md) | 20 | ███ |
 | [Apple](../companies/apple.md) | 15 | ██ |
+| [Stripe](../companies/stripe.md) | 15 | ██ |
 | [Squarepoint](../companies/squarepoint.md) | 14 | ██ |
-| [Stripe](../companies/stripe.md) | 14 | ██ |
-| [Airbnb](../companies/airbnb.md) | 12 | ██ |
+| [Airbnb](../companies/airbnb.md) | 13 | ██ |
 | [Pinterest](../companies/pinterest.md) | 12 | ██ |
 | [Salesforce](../companies/salesforce.md) | 12 | ██ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 672 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 674 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -53,7 +53,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
 | [Algorithm](../formats/algorithm.md) | 2,499 | 44% | 221 | 445 | 1,531 | 523 | 2,499 | 302 |
 | [SQL](../formats/sql.md) | 297 | 5% | 38 | 65 | 179 | 53 | 297 | 6 |
-| [System Design](../formats/system-design.md) | 703 | 12% | 138 | 29 | 365 | 309 | 703 | 39 |
+| [System Design](../formats/system-design.md) | 703 | 12% | 140 | 29 | 365 | 309 | 703 | 39 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 2% | 3 | 9 | 80 | 37 | 126 | 12 |
 | [Blog](../formats/blog.md) | 1,403 | 25% | 203 | 0 | 0 | 0 | 0 | 1,403 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 608 | 11% | 69 | 51 | 477 | 80 | 608 | 68 |
@@ -79,7 +79,7 @@ Of the **5,636 questions that name a round** (100% of the bank):
 | Round | Questions |  |
 | :-- | --: | :-- |
 | Online assessment | 769 | ████ |
-| Phone screen | 2,967 | ████████████████ |
+| Phone screen | 2,968 | ████████████████ |
 | Onsite / virtual onsite | 2,245 | ████████████ |
 | Take-home | 12 | █ |
 
@@ -158,13 +158,13 @@ The closest thing this data has to an instruction. A question reported at one em
 | Month | Sightings | Companies |  |
 | :-- | --: | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 19 | 14 | █ |
-| [Sep 2026](../by-month/2026-09.md) | 308 | 62 | ████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 295 | 62 | ████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 309 | 63 | ████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 296 | 62 | ████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 115 | 39 | █████ |
-| [Jun 2026](../by-month/2026-06.md) | 243 | 57 | ██████████ |
+| [Jun 2026](../by-month/2026-06.md) | 242 | 56 | ██████████ |
 | [May 2026](../by-month/2026-05.md) | 257 | 58 | ██████████ |
 | [Apr 2026](../by-month/2026-04.md) | 401 | 79 | ████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 277 | 68 | ███████████ |
+| [Mar 2026](../by-month/2026-03.md) | 276 | 68 | ███████████ |
 | [Feb 2026](../by-month/2026-02.md) | 330 | 74 | █████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 387 | 75 | ███████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 221 | 62 | █████████ |

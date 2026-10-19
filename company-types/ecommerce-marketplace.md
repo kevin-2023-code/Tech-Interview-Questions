@@ -48,7 +48,7 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**164 sightings** across this cut. Newest first.
+**165 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Amazon | Algorithm | Sep 26, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Amazon | Algorithm | Sep 26, 2026 |
 
-<sub>152 more in this window are in the table below.</sub>
+<sub>153 more in this window are in the table below.</sub>
 
 ---
 
@@ -90,6 +90,7 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | **Amazon** | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Hard | 🆕 Sep 26, 2026 |
 | **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Medium | 🆕 Sep 26, 2026 |
 | **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | — | 🆕 Sep 23, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | 🆕 Sep 23, 2026 |
 | **Amazon** | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/questions/explain-a-project-that-could-not-meet-a-tight-deadline) | — | 🆕 Sep 20, 2026 |
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | Medium | 🆕 Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🆕 Sep 20, 2026 |
@@ -315,7 +316,6 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | **Amazon** | [Event Filter & Queue Routing Service](https://trueinterview.io/questions/event-filter-routing-service) | Medium | Jun 11, 2026 |
 | **DoorDash** | [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Medium | Jun 11, 2026 |
 | **OpenAI / Ebay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
-| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Jun 11, 2026 |
 | **DoorDash** | [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart) | Medium | Jun 10, 2026 |
 | **Google / Affirm / Uber** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Medium | Jun 10, 2026 |
 | **Amazon** | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Hard | Jun 09, 2026 |

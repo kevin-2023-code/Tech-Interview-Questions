@@ -12,57 +12,50 @@
 
 ## Problem
 
-YouTube Design
+Design a video-sharing platform in the style of YouTube: creators upload pre-recorded videos, and viewers stream them on demand from many kinds of devices over widely varying network conditions. Seen as a system-design problem, it joins two quite different challenges — reliably ingesting very large uploads from users, and then serving that same content back as segmented streams with low latency under extremely skewed read traffic.
 
-**Difficulty: Hard** · **Topics:** Distributed Systems, Media Streaming, Video Transcoding, CDN Architecture, Cloud Storage · **Company Tags:** (as originally associated) · **Hints:** (as originally associated)
+## Requirements
 
----
-YouTube is a video-sharing service where creators upload recorded files, and viewers consume them on demand from many different devices and network connections. From a systems-design viewpoint, the product weaves together two distinct challenges: reliably ingesting very large user uploads without burdening the application tier, and then delivering that same content back to a massive audience as low-latency, segmented streams under extreme read skew.
+### Functional
 
----
-**Functional requirements**
+- Users can begin a large video upload and pick it back up after an interruption, and the video bytes must never pass through the application servers.
+- Once the raw object is committed, the system records it durably and, asynchronously, packages it into several streamable renditions along with manifest files.
+- Users can watch a video that is ready using adaptive bitrate playback, in which the client pulls manifests and short segments over HTTP.
+- Clients can look up upload status, playback status and basic video metadata by `upload_id` or `video_id`.
+- The server exposes an explicit lifecycle: a video becomes watchable only once packaging has completed and its metadata has been marked ready.
 
-- Users must be able to initiate and resume large video uploads without routing raw video bytes through application servers.
-- The system must durably record the committed source object and, behind the scenes, package it into multiple streamable renditions plus corresponding manifest files.
-- Users must be able to watch a ready video through adaptive-bitrate playback that fetches manifests and short media segments over HTTP.
-- Clients must be able to retrieve upload/playback status and core video metadata using either an `upload_id` or a `video_id`.
-- The server must enforce an explicit lifecycle: a video only becomes watchable after packaging finishes and metadata declares it "ready."
+### Non-functional
 
----
-**Non-functional requirements**
+- Playback and metadata reads must be highly available, while the point at which a video is published as ready stays explicit and durable.
+- Aim for roughly `300 ms` to create an upload session, and `200 ms` at p95 to bootstrap playback or look up a manifest.
+- Handle about `1M` uploads per day and `100M` video watches per day, with individual videos as large as tens of GB, and with heavy read concentration on a small share of hot titles.
+- After commit, no acknowledged raw upload and no published packaged asset may be lost.
+- Uploaders must be authenticated; signed access must be used for uploads and playback where appropriate; object storage stays private behind controlled origin access.
+- Bulk bytes stay off the application servers, reads are offloaded to a CDN, and hot packaged assets are kept separate from colder retention of raw uploads.
 
-- Emphasize high availability for playback and metadata reads while keeping the "publish" boundary for a finished video explicit and durable.
-- Aim for roughly `300 ms` to create an upload session and `200 ms` p95 for playback bootstrap (manifest lookup or the first critical request).
-- Support about `1M` uploads per day, `100M` video watches per day, videos reaching tens of GB, and severe hot-video read skew concentrated on a small share of titles.
-- No acknowledged raw upload or published packaged asset should be lost after commit.
-- Authenticate uploaders, use signed upload/playback access where needed, and keep object storage private behind controlled origin access.
-- Keep bulk bytes off application servers, lean on CDN offloading for reads, and separate hot packaged assets from colder raw-upload retention.
+### Back-of-the-envelope estimation
 
----
-**Back-of-the-envelope estimation**
-
-| Quantity | Assumed value | Purpose |
+| Quantity | Assumed value | Used for |
 |---|---|---|
-| Uploads per day | ~ `1M` | upload-session churn, multipart cleanup, packaging queue load |
-| Watches per day | ~ `100M` | CDN and origin read skew, metadata lookup rate |
-| Mean packaged size per minute of video (all renditions) | ~ `10–50 MB` | storage and egress order-of-magnitude |
-| Typical segment duration | `2–10 s` | segment count per watch, cache-key churn |
-| Playback bootstrap budget | ~ `200 ms` p95 | metadata store sizing, caching of small responses |
-| Hot video multiplier | $$10\times$$ to $$1000\times$$ of median traffic | CDN fill, origin shielding, regional promotion |
+| Uploads per day | about `1M` | upload session churn, multipart cleanup, packaging queue load |
+| Watches per day | about `100M` | CDN and origin read skew, metadata lookup rate |
+| Mean packaged size per minute of video (all renditions) | about `10-50 MB` | storage and egress order of magnitude |
+| Typical segment duration | `2-10 s` | segment count per watch, cache key churn |
+| Playback bootstrap budget | about `200 ms` p95 | metadata store sizing, caching of small responses |
+| Hot video multiplier | `10x` to `1000x` median traffic | CDN fill, origin shielding, regional promotion |
 
-These numbers clarify why the watch path cannot be "read one enormous file from a database," why metadata lookups must stay cheap and keyed, and why segments and manifests serve as the unit of caching and retry. The `200 ms` bootstrap budget drives the metadata path toward one small keyed read, while the hot-video multiplier makes first-segment cache fill and origin shielding a first-class design decision rather than an afterthought.
+Use these figures to explain how they constrain the shape of the watch path, the metadata lookups, and the unit of caching and retry.
 
-_High‑level YouTube system design showing upload ingestion and adaptive‑bitrate playback delivery._
+### Out of scope
 
-![High-level YouTube upload and playback flow](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/diagrams/d4956b248762ee9728b3a980b9992778.svg)
-
----
-**Out of scope (below the line)**
-
-- Search, recommendations, channels, comments, likes, and subscriptions.
+- Recommendations, channels, comments, likes and subscriptions.
 - Live streaming and live chat.
-- Detailed content moderation and abuse-review workflows beyond basic auth boundaries.
-- Exact view counts, monetization, and full analytics pipelines.
+- Detailed content-moderation and abuse-review workflows beyond basic authentication boundaries.
+- Exact view counts, monetization and complete analytics pipelines.
+
+### What interviewers focus on
+
+- Search functionality, taken as an area for a deep dive.
 
 ## Hints
 

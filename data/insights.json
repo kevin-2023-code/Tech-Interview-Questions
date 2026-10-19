@@ -10,7 +10,7 @@
       "free": 176,
       "guides": 6,
       "inLastYear": 222,
-      "inWindow": 19,
+      "inWindow": 20,
       "lastSighting": "2026-10-01",
       "name": "Meta",
       "questions": 485,
@@ -23,7 +23,7 @@
       "free": 147,
       "guides": 5,
       "inLastYear": 273,
-      "inWindow": 96,
+      "inWindow": 97,
       "lastSighting": "2026-10-03",
       "name": "Amazon",
       "questions": 467,
@@ -114,7 +114,7 @@
       "free": 30,
       "guides": 7,
       "inLastYear": 104,
-      "inWindow": 19,
+      "inWindow": 20,
       "lastSighting": "2026-09-28",
       "name": "OpenAI",
       "questions": 175,
@@ -179,7 +179,7 @@
       "free": 20,
       "guides": 1,
       "inLastYear": 64,
-      "inWindow": 14,
+      "inWindow": 15,
       "lastSighting": "2026-10-04",
       "name": "Stripe",
       "questions": 118,
@@ -283,8 +283,8 @@
       "free": 19,
       "guides": 3,
       "inLastYear": 61,
-      "inWindow": 12,
-      "lastSighting": "2026-09-04",
+      "inWindow": 13,
+      "lastSighting": "2026-09-23",
       "name": "Airbnb",
       "questions": 89,
       "slug": "airbnb",
@@ -1076,8 +1076,8 @@
       "free": 3,
       "guides": 0,
       "inLastYear": 7,
-      "inWindow": 2,
-      "lastSighting": "2026-07-29",
+      "inWindow": 3,
+      "lastSighting": "2026-09-23",
       "name": "Microsoft AI",
       "questions": 13,
       "slug": "microsoft-ai",
@@ -1744,7 +1744,7 @@
       "free": 39,
       "graded": 703,
       "hard": 309,
-      "inWindow": 138,
+      "inWindow": 140,
       "label": "System Design",
       "medium": 365,
       "questions": 703
@@ -1799,7 +1799,7 @@
       "questions": 19
     },
     {
-      "companies": 62,
+      "companies": 63,
       "firstReportedCompanies": [
         "AMD",
         "Houzz",
@@ -1812,10 +1812,10 @@
         "blog": 124,
         "object-oriented-programming": 30,
         "sql": 6,
-        "system-design": 66
+        "system-design": 67
       },
       "month": "2026-09",
-      "questions": 308
+      "questions": 309
     },
     {
       "companies": 62,
@@ -1829,10 +1829,10 @@
         "blog": 77,
         "object-oriented-programming": 34,
         "sql": 8,
-        "system-design": 70
+        "system-design": 71
       },
       "month": "2026-08",
-      "questions": 295
+      "questions": 296
     },
     {
       "companies": 39,
@@ -1849,7 +1849,7 @@
       "questions": 115
     },
     {
-      "companies": 57,
+      "companies": 56,
       "firstReportedCompanies": [],
       "formats": {
         "ai-coding": 13,
@@ -1857,10 +1857,10 @@
         "blog": 41,
         "object-oriented-programming": 39,
         "sql": 1,
-        "system-design": 35
+        "system-design": 34
       },
       "month": "2026-06",
-      "questions": 243
+      "questions": 242
     },
     {
       "companies": 58,
@@ -1910,10 +1910,10 @@
         "blog": 74,
         "object-oriented-programming": 21,
         "sql": 11,
-        "system-design": 44
+        "system-design": 43
       },
       "month": "2026-03",
-      "questions": 277
+      "questions": 276
     },
     {
       "companies": 74,
@@ -2515,7 +2515,7 @@
       "round": "oa"
     },
     {
-      "questions": 2967,
+      "questions": 2968,
       "round": "phone-screen"
     },
     {
@@ -3293,7 +3293,7 @@
     "gradedDifficulty": 4233,
     "guides": 245,
     "inLastYear": 3144,
-    "inWindow": 672,
+    "inWindow": 674,
     "labelledTopic": 2480,
     "namingARound": 5636,
     "questions": 5636,

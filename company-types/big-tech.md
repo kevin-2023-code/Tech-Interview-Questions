@@ -48,7 +48,7 @@ Of the **1,323 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**353 sightings** across this cut. Newest first.
+**354 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,323 questions in this cut that carry a topic label** (46% of it):
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 | [Maximum Subarray Sum After K Concatenations](https://trueinterview.io/questions/k-concatenation-maximum-subarray-sum) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>341 more in this window are in the table below.</sub>
+<sub>342 more in this window are in the table below.</sub>
 
 ---
 
@@ -110,6 +110,7 @@ Of the **1,323 questions in this cut that carry a topic label** (46% of it):
 | **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Medium | 🆕 Sep 26, 2026 |
 | **ByteDance** | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Medium | 🆕 Sep 25, 2026 |
 | **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | — | 🆕 Sep 23, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | 🆕 Sep 23, 2026 |
 | **Amazon** | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/questions/explain-a-project-that-could-not-meet-a-tight-deadline) | — | 🆕 Sep 20, 2026 |
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | Medium | 🆕 Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🆕 Sep 20, 2026 |
@@ -326,6 +327,5 @@ Of the **1,323 questions in this cut that carry a topic label** (46% of it):
 | **Amazon** | [Make Progress When Requirements Are Ambiguous](https://trueinterview.io/questions/make-progress-when-requirements-are-ambiguous) | — | Aug 19, 2026 |
 | **Ebay** | [Investing in Deliberate Professional Growth](https://trueinterview.io/questions/investing-in-deliberate-professional-growth) | — | Aug 19, 2026 |
 | **NVIDIA** | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Hard | Aug 19, 2026 |
-| **NVIDIA** | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | Hard | Aug 19, 2026 |
 
 <sub>Page 1 of 12 · [Page 2 →](big-tech-2.md)</sub>

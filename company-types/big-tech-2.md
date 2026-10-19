@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **NVIDIA** | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | Hard | Aug 19, 2026 |
 | **Ebay** | [Design a Shopping Search Bar with Autocomplete](https://trueinterview.io/questions/design-a-shopping-search-bar-with-autocomplete) | Hard | Aug 19, 2026 |
 | **Amazon** | [Design a Reliable AI Chatbot Architecture](https://trueinterview.io/questions/design-a-reliable-ai-chatbot-architecture) | Hard | Aug 19, 2026 |
 | **Amazon** | [Validate Properly Nested Brackets](https://trueinterview.io/questions/validate-properly-nested-brackets) | Medium | Aug 19, 2026 |
@@ -232,7 +233,6 @@
 | **Amazon** | [Event Filter & Queue Routing Service](https://trueinterview.io/questions/event-filter-routing-service) | Medium | Jun 11, 2026 |
 | **DoorDash** | [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Medium | Jun 11, 2026 |
 | **OpenAI / Ebay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
-| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Jun 11, 2026 |
 | **OpenAI / ByteDance** | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Medium | Jun 11, 2026 |
 | **Google** | [Employee Hierarchy Add / Delete](https://trueinterview.io/questions/employee-hierarchy-add-delete) | Medium | Jun 10, 2026 |
 | **DoorDash** | [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart) | Medium | Jun 10, 2026 |

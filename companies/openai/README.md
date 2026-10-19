@@ -54,11 +54,11 @@ Here's what the interview process can look like:
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
 | [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/questions/engineering-management-fundamentals) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/engineering-management-fundamentals) |
 | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/hm-bq-why-openai) |
 | [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/technical-deep-dive) |
 | [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/infection-spread-simulation) |
-| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
 | [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/memory-allocator) |
 | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) |
 | [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/recruiter-hr-screen) |

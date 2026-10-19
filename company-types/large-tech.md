@@ -48,7 +48,7 @@ Of the **735 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**169 sightings** across this cut. Newest first.
+**171 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -58,14 +58,14 @@ Of the **735 questions in this cut that carry a topic label** (44% of it):
 | [Tiered Rate Limiting Service](https://trueinterview.io/questions/tiered-rate-limiting-service) | Snowflake | Object Oriented Programming | Oct 01, 2026 |
 | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Snowflake | Algorithm | Sep 29, 2026 |
 | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | OpenAI | Object Oriented Programming | Sep 28, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | OpenAI, Airbnb … | System Design | Sep 23, 2026 |
 | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Instacart | Algorithm | Sep 18, 2026 |
 | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Instacart | Blog | Sep 18, 2026 |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Rippling | Object Oriented Programming | Sep 18, 2026 |
 | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Ramp | Algorithm | Sep 18, 2026 |
 | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Robinhood | System Design | Sep 17, 2026 |
-| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Snowflake | Blog | Sep 17, 2026 |
 
-<sub>157 more in this window are in the table below.</sub>
+<sub>159 more in this window are in the table below.</sub>
 
 ---
 
@@ -83,6 +83,7 @@ Of the **735 questions in this cut that carry a topic label** (44% of it):
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
 | **Snowflake** | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Medium | 🆕 Sep 29, 2026 |
 | **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | 🆕 Sep 28, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | 🆕 Sep 23, 2026 |
 | **Ramp** | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Hard | 🆕 Sep 18, 2026 |
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | 🆕 Sep 18, 2026 |
 | **Instacart** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | — | 🆕 Sep 18, 2026 |
@@ -165,6 +166,7 @@ Of the **735 questions in this cut that carry a topic label** (44% of it):
 | **Roblox** | [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers) | — | Aug 30, 2026 |
 | **Airbnb** | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Medium | Aug 30, 2026 |
 | **Airbnb** | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Hard | Aug 29, 2026 |
+| **Stripe** | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | Medium | Aug 29, 2026 |
 | **Instacart** | [Respond to Negative Feedback About Your Work](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) | — | Aug 28, 2026 |
 | **Pinterest** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Hard | Aug 28, 2026 |
 | **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | Aug 28, 2026 |
@@ -322,10 +324,8 @@ Of the **735 questions in this cut that carry a topic label** (44% of it):
 | **DoorDash / xAI** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Medium | Jun 11, 2026 |
 | **OpenAI / Ebay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
 | **Stripe** | [Factory Network Cost Minimization](https://trueinterview.io/questions/factory-network-cost-minimization) | Easy | Jun 11, 2026 |
-| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Jun 11, 2026 |
 | **OpenAI / ByteDance** | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Medium | Jun 11, 2026 |
 | **Stripe** | [Credit Card Fraud Detection](https://trueinterview.io/questions/credit-card-fraud-detection) | Easy | Jun 10, 2026 |
 | **Pinterest** | [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Medium | Jun 10, 2026 |
-| **Google / Affirm / Uber** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Medium | Jun 10, 2026 |
 
 <sub>Page 1 of 7 · [Page 2 →](large-tech-2.md)</sub>

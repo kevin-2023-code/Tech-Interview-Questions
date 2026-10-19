@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **OpenAI** | [Simulate Plant Infection With Controlled Burning](https://trueinterview.io/questions/simulate-plant-infection-with-controlled-burning) | Hard | Apr 02, 2026 |
 | **Coinbase** | [Implement Game Physics and Block Mining](https://trueinterview.io/questions/implement-game-physics-and-block-mining) | Medium | Apr 02, 2026 |
 | **OpenAI** | [Compute Matrix Prefix Products And Gradients](https://trueinterview.io/questions/compute-matrix-prefix-products-and-gradients) | Hard | Apr 02, 2026 |
 | **xAI** | [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Medium | Apr 02, 2026 |
@@ -25,7 +26,6 @@
 | **Apple / ByteDance / Citadel / Meta / Snowflake** | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Medium | Apr 01, 2026 |
 | **xAI / Atlassian / Expedia / LinkedIn / Snowflake** | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Medium | Apr 01, 2026 |
 | **OpenAI** | [Debug a Transformer and Convert It to a Classifier](https://trueinterview.io/questions/transformer-debug) | Hard | Apr 2026 |
-| **Stripe** | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | Medium | Mar 31, 2026 |
 | **Anthropic** | [Reason About Delaying an AI Breakthrough Under Uncertain Risk](https://trueinterview.io/questions/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk) | — | Mar 30, 2026 |
 | **Anthropic** | [Estimate FFN Compute, Memory, and Sharding Communication](https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication) | Medium | Mar 30, 2026 |
 | **Anthropic** | [Explain How You Resolved a Professional Conflict](https://trueinterview.io/questions/explain-how-you-resolved-a-professional-conflict) | — | Mar 30, 2026 |

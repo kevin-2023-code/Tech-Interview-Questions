@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **672 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **674 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,9 +42,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 672 sightings at 89 companies — Algorithm 221 · SQL 38 · System Design 138 · AI Coding 3 · Blog 203 · Object Oriented Programming 69.
+**Last 90 days:** 674 sightings at 89 companies — Algorithm 221 · SQL 38 · System Design 140 · AI Coding 3 · Blog 203 · Object Oriented Programming 69.
 
-**Reported most:** [Amazon (96)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (39)](companies/google.md) · [Microsoft (39)](companies/microsoft.md) · [LinkedIn (24)](companies/linkedin.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [Meta (19)](companies/meta.md)
+**Reported most:** [Amazon (97)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (39)](companies/google.md) · [Microsoft (39)](companies/microsoft.md) · [LinkedIn (24)](companies/linkedin.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [Meta (20)](companies/meta.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (16) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) (14)
 
@@ -144,7 +144,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 📅 Browse by month reported
 
 <!-- gen:months:start -->
-[Oct 2026 (19)](by-month/2026-10.md) · [Sep 2026 (308)](by-month/2026-09.md) · [Aug 2026 (295)](by-month/2026-08.md) · [Jul 2026 (115)](by-month/2026-07.md) · [Jun 2026 (243)](by-month/2026-06.md) · [May 2026 (257)](by-month/2026-05.md) · [Apr 2026 (401)](by-month/2026-04.md) · [Mar 2026 (277)](by-month/2026-03.md) · [Feb 2026 (330)](by-month/2026-02.md) · [Jan 2026 (387)](by-month/2026-01.md) · [Dec 2025 (221)](by-month/2025-12.md) · [Nov 2025 (218)](by-month/2025-11.md) · [**every month →**](by-month/README.md)
+[Oct 2026 (19)](by-month/2026-10.md) · [Sep 2026 (309)](by-month/2026-09.md) · [Aug 2026 (296)](by-month/2026-08.md) · [Jul 2026 (115)](by-month/2026-07.md) · [Jun 2026 (242)](by-month/2026-06.md) · [May 2026 (257)](by-month/2026-05.md) · [Apr 2026 (401)](by-month/2026-04.md) · [Mar 2026 (276)](by-month/2026-03.md) · [Feb 2026 (330)](by-month/2026-02.md) · [Jan 2026 (387)](by-month/2026-01.md) · [Dec 2025 (221)](by-month/2025-12.md) · [Nov 2025 (218)](by-month/2025-11.md) · [**every month →**](by-month/README.md)
 <!-- gen:months:end -->
 
 ---
@@ -194,6 +194,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | 🆕 Sep 26, 2026 |
 | **ByteDance** | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Algorithm | 🆕 Sep 25, 2026 |
 | **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | Blog | 🆕 Sep 23, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | 🆕 Sep 23, 2026 |
 | **Amazon** | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/questions/explain-a-project-that-could-not-meet-a-tight-deadline) | Blog | 🆕 Sep 20, 2026 |
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | System Design | 🆕 Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | System Design | 🆕 Sep 20, 2026 |
@@ -256,7 +257,6 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **AMD** | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | Blog | 🆕 Sep 14, 2026 |
 | **AMD** | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | System Design | 🆕 Sep 14, 2026 |
 | **Amazon** | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | Blog | 🆕 Sep 14, 2026 |
-| **Amazon** | [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/questions/solve-a-problem-outside-your-assigned-responsibilities) | Blog | 🆕 Sep 14, 2026 |
 <!-- gen:latest:end -->
 
 <sub>The newest slice, not the bank — use the navigation above for the rest. Every question

@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Snapchat** | [Snap Ads Ranking](https://trueinterview.io/questions/snap-ads-ranking) | Hard | Apr 21, 2026 |
 | **Snapchat** | [Short Video Recommendation & Ranking](https://trueinterview.io/questions/short-video-recommendation-and-ranking) | Hard | Apr 21, 2026 |
 | **Meta** | [LeetCode / Online Judge + Contest Leaderboard](https://trueinterview.io/questions/system-design-leetcode-online-judge) | Medium | Apr 21, 2026 |
 | **Atlassian** | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | Hard | Apr 21, 2026 |
@@ -73,7 +74,6 @@
 | **Shopify** | [Design Personalized Product Feeds](https://trueinterview.io/questions/design-personalized-product-feeds) | Medium | Apr 01, 2026 |
 | **Robinhood / Coinbase / Databricks / Square** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | Hard | Apr 2026 |
 | **Databricks / Anthropic / Netflix / OpenAI** | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | Hard | Apr 2026 |
-| **Stripe** | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | Medium | Mar 31, 2026 |
 | **Anthropic** | [Estimate FFN Compute, Memory, and Sharding Communication](https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication) | Medium | Mar 30, 2026 |
 | **Robinhood / Airbnb / Atlassian / ByteDance / Databricks / DoorDash / Figma / Google / LinkedIn / Lyft / Meta / OpenAI / Pinterest / Reddit / Snapchat / Yelp** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | Medium | Mar 30, 2026 |
 | **Axon** | [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files) | Hard | Mar 29, 2026 |

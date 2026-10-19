@@ -17,7 +17,7 @@
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | Medium | Jan 14, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | **OpenAI / Amazon / Datadog / Google / HubSpot / Netflix / Snapchat / Verkada** | Medium | Feb 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | **Roblox / Datadog / DoorDash / Ebay / Google / Lyft / Meta** | Medium | Jan 22, 2026 |
-| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | Medium | Jun 11, 2026 |
+| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | Medium | 🆕 Sep 23, 2026 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | **Reddit / Atlassian / Meta** | Medium | Apr 02, 2026 |
 | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | **Cursor / Snowflake** | Medium | Apr 07, 2026 |
 | [Design Mint.com](https://trueinterview.io/questions/mint-com) | **Perplexity / Datadog** | Medium | — |

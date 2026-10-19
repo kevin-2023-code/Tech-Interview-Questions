@@ -12,60 +12,47 @@
 
 ## Problem
 
-## 1. ⏰ What is a distributed job scheduler?
+Design a distributed job scheduler that schedules and executes jobs of a given type. Each job carries an SLA; the system must reliably run every scheduled run, cope with the many ways components can fail, and keep users informed about what happened.
 
-A distributed job scheduler receives instructions such as `"run this task every day at 02:00 UTC"` and ensures that the task is triggered at the intended time. On a single host, this is relatively simple. With multiple scheduler and worker machines sharing responsibility, the system must survive failures without losing a scheduled run or committing the same run twice.
+## Requirements
 
-## 2. Requirements
+- Schedule and execute jobs of a given type. Every job has an **SLA**: when a run goes past its deadline, the system must raise and record an error, and the user must be able to look at the logs.
+- Each job can declare a per-job **timeout handler** describing what to do when a run exceeds its timeout (for example: kill it, mark it failed, retry it, or trigger another job), along with its **resource requirements**.
+- Support **recurring jobs**, for instance a job that fires every minute.
+- Guarantee **at-most-once** execution for each scheduled run.
+- Send notifications to subscribers; a recurring job that **fails** must still produce a notification.
+- Let users query the logs (stdout/stderr) of past runs.
+- Handle a wide variety of failure scenarios gracefully; most of the follow-up time is spent here.
+- A frequent added constraint: the scheduler handles only a single job *type*, so the model should not be generalized beyond that.
 
-Design a scheduler that supports immediate, one-time, and recurring jobs. Throughout the design, consider the following central problem: if multiple machines determine that one job is ready, how can the system create exactly one durable record for that scheduled occurrence and recover it safely when a failure happens?
+## Deep-dive directions the interviewer pushes on
 
-### Functional requirements
-
-- Users must be able to create immediate, one-time, or recurring UTC jobs, including parameters, timeouts, and retry policies.
-- For every occurrence that becomes due, the platform must create one durable slot and recreate missed slots after downtime.
-- Each slot must retain its claims, attempts, timeouts, and final outcome.
-- The system must identify failed workers, reclaim their work, and enforce cancellation or retry policy for jobs that run for a long time.
-- Users and operators must be able to examine job definitions, execution history, lag, and final outcomes.
-
-### Non-functional requirements
-
-- During nominal operation, a due occurrence should begin within approximately `2 seconds` of its scheduled fire time.
-- Following an outage or restart, missed occurrences must be backfilled from durable state instead of being discarded.
-- Every `(job_id, scheduled_fire_time)` must correspond to one durable slot and no more than one committed success.
-- Exactly-once effects in external systems still depend on idempotent handlers or transactional integration beyond this core.
-- The design should support roughly `10k` execution starts per second on a sustained basis, with `5-10x` burst skew at minute or hour boundaries.
-- Scheduler nodes and worker nodes must scale independently, using coordinated shard ownership and concurrency limits driven by lag.
-- Losing schedulers, workers, queues, or individual hosts must neither discard accepted schedule intent nor allow work to remain permanently stuck without escalation.
-- Queue lag, missed-fire backlog, retry counts, lease timeouts, and dead-letter volume must be observable so that correctness and capacity can be investigated.
-
-### Back-of-the-envelope estimation
-
-| Metric | Assumed value | Used for |
-| --- | --- | --- |
-| Peak execution starts | ~10k/s sustained | Worker pool, queue throughput, execution-state write rate |
-| Cron burst skew | 5–10× at minute or hour boundaries | Shard sizing, smoothing, catch-up surge |
-| Scheduler shard count | on the order of 100–1000 logical segments | Coordinated polling and horizontal scale |
-| Normal dispatch lag target | ~2s | Sweep cadence, near-time queue horizon, autoscaling triggers |
-| Worker timeout range | seconds to tens of minutes | Lease renewal, heartbeat interval, long-running policy |
-| Execution history retention | 30–90 days hot in primary store | Indexing, partitioning, archive boundary |
-
-Treat these figures as planning assumptions. They provide concrete inputs for reasoning about partitioning, queue depth, and recovery behavior in the sections that follow.
-
-> [!IMPORTANT]
-> The central tension is that many scheduler nodes can independently discover that a job is due, while only one durable record for that scheduled occurrence should reach a final result. Keep separate the description of what should execute, the identity of the machine currently scheduling it, and the worker authorized to complete it.
-
-**Out of scope (below the line)**
-- User-facing pause, resume, or arbitrary reschedule operations after a job has been created. Internal cancellation caused by timeouts remains in scope.
-- Complete *directed acyclic graph (DAG)* workflow orchestration, including dependencies, human approval, or conditional branching.
-- Uploading arbitrary user code and designing its sandbox. Tasks are pre-registered handlers from a catalog.
-- Global active-active multi-region scheduling without a single-region authority boundary.
+- If a worker, or any other component in the pipeline, dies in the middle of execution, how is at-most-once still respected while retries continue?
+- When a recurring job fails, how does the failure path reliably fire its notification even if parts of the system are unavailable?
+- What retry and backoff strategy is used, and how do retries coexist with the at-most-once guarantee?
 
 ## Follow-ups
 
-Extensions the interviewer raised after the main task:
+1. A worker is cut off by a network partition but is still alive; it keeps running after its lease expires, and meanwhile a retry has already been enqueued. How is external state protected?
+2. How is the top-of-the-hour thundering herd handled, both on the metadata database and on the worker fleet?
+3. How are per-job resource requirements supported without building a full bin-packing scheduler?
+4. What happens if a worker dies right before, or right after, it begins executing a run?
+5. What happens if the queue loses messages, or a database commit times out?
+6. How does cancellation interact with a job that is already running?
+7. How is a burst of due jobs kept from overwhelming a dependency belonging to a single tenant?
+8. What happens if a worker fails after the job's side effect has succeeded but before it records completion?
+9. How would the design support jobs scheduled years into the future?
+10. What happens when one tenant schedules a million jobs for the same second?
+11. How is a worker code change deployed while old jobs are still sitting in the queue?
 
-- Design the retry strategy and backoff, and explain how retries interact with the at-most-once guarantee.
+## Interview Notes
+
+- The round is open-book and the prompt is stable, so the first half of the design does little to differentiate candidates. Cover reliability and fault tolerance early and in depth; candidates who treat it lightly get led into follow-up traps and run out of time.
+- The failure-handling scenarios (worker crash, a lost notification when a recurring job fails, retry/backoff) are the graded follow-ups.
+
+### What interviewers focus on
+
+- Modeling dependencies between jobs as a graph, including detecting cycles and propagating failures along it.
 
 ## Hints
 

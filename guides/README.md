@@ -39,7 +39,7 @@
 | [8 Most-Reported Interval Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-interval-meeting-room-questions-2026) | — |
 | [8 Most-Reported LLM Interview Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-llm-interview-questions-big-tech-2026) | — |
 | [AI-Assisted Coding Interviews at Big Tech: What to Drill](https://trueinterview.io/study/ai-assisted-coding-interview-big-tech-prep-2026) | — |
-| [AI-Assisted vs Traditional Coding Interviews: What Changes](https://trueinterview.io/study/ai-assisted-vs-traditional-coding-interviews) | — |
+| [AI-Assisted vs LeetCode Interviews: What Changes at Senior Level](https://trueinterview.io/study/ai-assisted-vs-traditional-coding-interviews) | — |
 | [Are Hash Map Interview Questions Fading in 2026?](https://trueinterview.io/study/hash-map-interview-questions-fading-2026) | — |
 | [Are Linked Lists Still Asked in Big Tech Interviews?](https://trueinterview.io/study/linked-list-questions-still-asked-big-tech) | — |
 | [Banking System Coding Questions by Company and Level (2026)](https://trueinterview.io/study/banking-system-coding-questions-by-company-and-level-2026) | — |

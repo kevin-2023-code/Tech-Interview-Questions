@@ -12,65 +12,36 @@
 
 ## Problem
 
-## 1. What does a notification system do?
+Design the notification system for Reddit. Whenever a triggering event occurs, such as a reply, a mention, a moderator action, or a post becoming hot in a subreddit the user subscribes to, the system must generate a notification and deliver it to that user.
 
-A notification system alerts users when an event elsewhere in the product may deserve their attention. For example, a social application might notify a user that "someone you follow published a new post." Although the user sees only a compact push banner, the underlying system must handle fanout, manage traffic bursts, and recognize that asynchronous push providers are external side effects rather than the authoritative record.
+## Requirements
 
-<img src="https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/sources/5d7ea23430384348adc0.png" alt="" width="450" preview/>
+- **Functional**:
+  - Generate a notification whenever a triggering event takes place (reply, mention, mod action, hot post in a subscribed subreddit).
+  - Deliver notifications over the in-app, push (APNs / FCM) and email channels, according to each user's preferences.
+  - Support bundling: several replies in the same thread should collapse into a single digest notification.
+  - Support throttling and quiet hours. Quiet hours are a user preference, and they must be honored before anything is sent as a push notification.
+- **Scale anchor**: hundreds of millions of users, with peak traffic in which events produce tens of millions of notifications per minute. Use this to inform the design, but the discussion centers on the decisions below rather than on capacity math alone.
 
-## 2. Requirements
+## Decisions the interviewer will push on
 
-_High-level architecture and data flow of the notification system_
+1. Event ingestion: should producers make a synchronous call, or publish to an asynchronous event bus?
+2. Preference resolution: look preferences up inline, or maintain a precomputed per-user filter table?
+3. Channel selection across in-app, push and email, and how the dispatchers are laid out.
+4. Bundling: sliding-window aggregation versus a scheduled digest.
+5. Throttling and rate limiting, both per user and per channel (APNs and FCM enforce hard quotas).
+6. Deduplication, when one event would otherwise trigger multiple notifications.
 
-![Notification system high-level architecture flowchart](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/diagrams/6c5e0959fa4fb430661cf396d4bd41ae.svg)
+## Interview Notes
 
-Publishing a post should remain inexpensive, while the notification system asynchronously converts that action into large-scale, attention-conscious push delivery without overwhelming recipients or relying on providers as the system of record.
+- Expect to sketch the overall topology quickly; the interviewer will not wait long on a slow diagram.
+- The interviewer almost always raises the scenario of a high-fanout event (for example, a celebrity post that notifies millions of followers) and how preference resolution holds up under it.
+- Be ready with failure and quota handling that is specific to each channel (APNs queue depth, FCM error codes, email bounce handling); generic answers such as "retry with backoff" do not land well.
+- Bundling design is a likely deep-dive.
 
-### Functional requirements
+### What interviewers focus on
 
-- After an author creates a post, durable work for follower notifications must be recorded without performing complete fanout or contacting providers within the publishing request.
-- Pushes must be sent to followers' devices through third-party services such as APNS, FCM, or Web Push.
-- Before delivery is attempted, the system must honor notification settings and relationship mutes, and it must use only valid device tokens.
-- Provider failures must follow a bounded retry policy; attempts that fail permanently must be routed to cleanup or dead-letter handling rather than retried forever.
-- If a recipient accumulates many reminders over a brief interval, the system must combine them into fewer pushes while retaining a canonical way to recover unread items.
-
-### Non-functional requirements
-
-- Aim for `99.99%` durability when creating notification intent and `99.9%` successful handoff to providers inside a healthy region.
-- Keep the synchronous enqueue operation on the publishing path near `p95 < 100 ms`, with ordinary pushes arriving within several seconds outside burst conditions.
-- Support approximately `10M` post events each day, `100B+` follow relationships, peak publishing volume of roughly `5k/s`, and celebrity accounts with `50M+` followers.
-- Notification intents, aggregation data, retry timing, and provider-attempt outcomes must survive worker and node failures.
-- Delivery semantics should be at-least-once, with best-effort deduplication for end users; provider acceptance means the handoff succeeded, not that a person viewed the push.
-- Failures must be isolated so that a hot author, a noisy tenant, or a malfunctioning provider route does not deprive unrelated recipients of service.
-- Producers must be authorized, device tokens must remain scoped to users, and the design must resist replay, duplicate fanout, and retry storms.
-- Brief aggregation windows should reduce provider traffic and prevent the same user from receiving floods of low-value pushes.
-
-### Back-of-the-envelope estimation
-
-| Quantity | Assumed value | Used for |
-| --- | --- | --- |
-| Daily post volume | `10M` | Establishing baseline upstream event load |
-| Peak publishing throughput | `5k/s` | Sizing burst ingestion and fanout-job creation |
-| Follow relationships | `100B+` | Shaping follower queries and projections |
-| Followers of a celebrity account | `50M+` | Choosing the threshold strategy for hot-author fanout |
-| Typical active devices per user | `2-3` | Estimating provider-send multiplication |
-| Typical notifications per user each day | `10-30` | Informing batching and preference assumptions |
-| Burst volume for one recipient | `10+` in `60s` | Selecting a coalescing window |
-| Provider handoff time | `100 ms` to `2 s` | Sizing worker parallelism and retries |
-
-At these scales, the architecture should acknowledge publishing quickly, perform fanout asynchronously, aggregate by recipient, and allow provider-facing workers to scale separately.
-
-A practical interview target is a straightforward user-visible limit: during bursts, keep this event category to about `1-2` pushes per recipient per minute, even when the underlying unread count grows more quickly.
-
-> [!NOTE]
-> Use these estimates to establish orders of magnitude during the interview; they are not a final capacity-planning approval.
-
-**Out of scope (below the line)**
-- Implementing the follow graph, post persistence, or home-feed ranking
-- Supporting email, SMS, or marketing-campaign delivery
-- Designing sophisticated in-app inbox ranking, notification-grouping interfaces, or recommendation behavior
-- Guaranteeing open or view measurement beyond provider acceptance and delivery signals reported by the application
-- Coordinating every type of notification across all company products
+- Supporting several delivery channels beyond push, such as email and SMS, with fallback from one channel to another.
 
 ## Hints
 

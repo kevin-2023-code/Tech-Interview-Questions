@@ -12,113 +12,77 @@
 
 ## Problem
 
-## Dropbox-Style Cloud Drive Design
+## Problem Statement
 
-Medium · System Design · Cloud Storage · File Synchronization
+Design **Dropbox**, a service that hosts files and keeps them synchronized. A user installs a client on a laptop and places a file inside a special synced folder; within seconds, that file appears on every other device linked to the same account. The service also has to support sharing files with others, keeping a history of versions, and reconciling edits made concurrently while devices were offline.
 
-Design a single-region backend for a personal cloud drive where users store files and folders that stay synchronized across their laptops and mobile devices. The system must handle a namespace of files and metadata that needs low latency and strong consistency, while the actual file bytes are large, deduplicated, and stored on a separate, throughput-optimized path. A revision commit ties these two paths together by making metadata changes visible and publishing them through an ordered sync stream.
+Center the design on how files are synchronized, how deduplication works at the block level, and how shared folders stay consistent across devices.
 
-### Requirements
-
-Before diving into the design, you clarify the following points with the interviewer.
-
-**You:**
-"Should this system handle scenarios where multiple people edit the same file simultaneously in real-time? Or are we limited to a single user per file, where conflicts only happen when that one user's devices go offline and later sync?"
-
-**Interviewer:**
-"We're limited to a single user per file. No real-time co-editing. Conflicts arise exclusively when the same user's disconnected devices produce changes to the same file path."
-
-> **Takeaway:**
-Excluding real-time co-editing means operational transforms and CRDTs are unnecessary. Conflict resolution simplifies to detecting a write based on a stale revision and creating a visible sibling copy rather than merging byte streams.
-
-**You:**
-"If two of the same user's devices edit a file while offline and reconnect, should one version win silently, or must both versions be kept so the user can choose?"
-
-**Interviewer:**
-"Both versions must be kept. We cannot silently discard one. The losing commit must produce a visible conflict copy for the user to inspect."
-
-> **Takeaway:**
-Concurrent offline edits cannot be resolved by picking a winner. The system must preserve both user intents and surface the conflict.
-
-**You:**
-"When a device comes back online, how does it learn about missed changes? Does the server push events, or does the device poll using a cursor?"
-
-**Interviewer:**
-"Push notifications can act as hints to prompt a sync, but they are not the source of truth. A device must always be able to recover the full ordered history via a cursor-based poll. Push events may be dropped or arrive out of order."
-
-> **Takeaway:**
-Push provides latency improvement, but correctness relies on a replayable pull path that remains functional regardless of notification delivery.
-
-**You:**
-"If a large upload is interrupted halfway, must the user restart from the beginning, or should the system support resuming from the point of interruption?"
-
-**Interviewer:**
-"Resumable uploads are a firm requirement. Users on unreliable mobile networks should not have to restart large uploads from scratch."
-
-> **Takeaway:**
-Large file uploads cannot be all-or-nothing operations. The system needs a resumable write protocol and a way to garbage-collect abandoned partial uploads.
-
-**You:**
-"Regarding the folder tree and version history, must all devices see the same state instantly, or is a slight delay between devices acceptable?"
-
-**Interviewer:**
-"The folder structure, visible file revisions, and conflict outcomes must be strongly consistent within the primary region. Raw file bytes can be eventually consistent, provided the uploading device still sees its own upload immediately after commit."
-
-> **Takeaway:**
-User-visible metadata truth requires immediate consistency, while byte propagation can tolerate some lag.
-
-**You:**
-"Is server-side deduplication a hard launch requirement or an optimization for later?"
-
-**Interviewer:**
-"It's a hard requirement. At our target scale—roughly two hundred petabytes of logical data reduced to sixty petabytes physical—storing every upload as a separate copy is cost-prohibitive. Deduplication is integral to the cost model."
-
-> **Takeaway:**
-Deduplication is fundamental to the cost structure. When content is shared, deletion must respect shared ownership rather than assuming each upload owns its own bytes.
+## Requirements
 
 ### Functional Requirements
 
-- Users can create, rename, move, list, and delete files and folders within a single personal root namespace.
-- Users can upload large files through resumable multipart sessions that tolerate network interruptions.
-- Users can download file content using HTTP range requests for partial fetches and resume.
-- Authenticated devices can request ordered changes from a sync cursor and apply them idempotently after being offline.
-- Concurrent writes to the same file path are resolved by materializing a deterministic conflict copy, preserving both user intents.
+1. **Upload and download** files as large as several GB from desktop, mobile and web clients.
+2. **Synchronize changes across all of a user's devices** within seconds of the change.
+3. **Share files and folders** with other users, granting either read or read-write permission.
+4. **Keep version history** for a configurable retention window so that users can roll back to earlier revisions.
+5. **Handle concurrent offline edits**: when two edits collide, both versions must survive as "conflicted copy" files.
 
 ### Non-Functional Requirements
 
-_Architecture overview of the cloud drive system_
+- **Durability:** 99.999999999% ("11 nines"). Losing a customer's files would do damage to the company's reputation that cannot be undone.
+- **Sync latency:** for files under a few MB, p95 below 5 seconds between "saved on device A" and "visible on device B".
+- **Scale:** hundreds of millions of users, hundreds of PB of stored data, and millions of metadata operations per second.
+- **Availability:** 99.99% for the metadata and notification paths; 99.9% for the bulk data-transfer path.
+- **Bandwidth efficiency:** a small change to a large file must not cause the whole file to be uploaded again.
 
-![Architecture overview of cloud drive system with client, API, metadata, blob store, sync, dedup, GC](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/diagrams/587bd80804d5764e9386ca4eea3e1475.svg)
+### Capacity Assumptions
 
-- Namespace structure, visible file revisions, conflict outcomes, and sync ordering are strongly consistent in the primary region.
-- Blob replication may be eventually consistent across replicas, provided the uploading client gets read-your-writes after commit.
-- Target p99 latency under 200 ms for list folder, path resolution, and commit revision operations.
-- Target p99 latency under 300 ms for upload-session control calls; bulk transfer is throughput-bound.
-- Plan for approximately 10 million daily active users, 20k peak metadata writes per second, and 100k peak metadata reads per second.
-- Plan for approximately 200 PB logical storage and 60 PB physical storage after deduplication.
-- Acknowledged metadata writes are durable on commit; committed chunks target object-store durability of eleven nines.
-- All APIs require authentication, per-user namespace isolation, scoped blob access, and rate limits on sync and upload endpoints.
-- Server-side deduplication and safe garbage collection are first-class requirements.
+Use these order-of-magnitude figures as anchors (they are not forecasts):
 
-### Back-of-the-Envelope Estimation
+| Metric | Assumption |
+| --- | --- |
+| Total users | 500M, 100M DAU |
+| New/modified files per DAU per day | 50 |
+| Daily change events | 5B, ~60K/sec average, ~500K/sec peak |
+| Average file size | 500 KB median, 10 MB mean (a heavy tail from photos and videos) |
+| Daily new bytes, before dedup | ~2.5 PB/day at the median; ~50 PB/day as a loose ceiling if every event were an average-size file |
+| After block dedup + compression | a 2x to 4x reduction depending on workload mix (media dedupes less, documents more) |
 
-| Quantity | Value | Rationale |
-|----------|-------|-----------|
-| Daily active users | 10M | Drives sync poll rates and listing load |
-| Peak metadata writes | ~20k/s | Determines OLTP capacity and sync fanout |
-| Peak metadata reads | ~100k/s | Covers browsing, path resolution, and sync catch-up |
-| Average file size | ~4 MB | Informs default chunk size and manifest complexity |
-| P99 file size | ~500 MB | Necessitates multipart upload and range-heavy downloads |
-| Logical stored bytes | ~200 PB | User-visible footprint |
-| Physical stored bytes | ~60 PB | Illustrates why deduplication makes refcounting and GC significant |
+## What to Cover
 
-**Out of Scope**
-- Real-time co-editing semantics for a single file (operational transforms, CRDTs).
-- Full-text search, preview generation, and media processing.
-- Team-sharing graphs, compliance workflows, or enterprise policy management.
-- Writable multi-region metadata with merge semantics.
-- LAN sync or device-to-device transfer.
-- End-to-end encryption where the service cannot inspect content hashes for deduplication.
+Walk through the design in phases:
+
+1. **Requirements**, including a back-of-the-envelope capacity estimate.
+2. **Data model**: the core entities and where each kind of data is stored, including the choice of block size.
+3. **API design**: upload, download, sync (delta listing and push notification), and sharing.
+4. **High-level design**: the architecture, the write flow from the desktop sync engine, the read and push flow, conflict resolution, and how sharing works.
+5. **Scaling and trade-offs**: how each layer scales, how sync latency is reduced, how unreferenced blocks are garbage-collected, the trade-offs you are making, and availability / fault tolerance.
+
+## Follow-ups
+
+Be ready for deep-dive questions such as:
+
+- How can a 1 GB file be synced after a 10 KB edit without uploading 1 GB again?
+- What is the end-to-end latency budget between a save on one device and a peer device seeing the change? Break it down step by step.
+- How exactly are conflicts resolved when two devices edit the same file?
+- Why use content-addressed blocks rather than storing each file as a single object?
+- Why push notifications over WebSockets instead of having clients poll?
+- Why shard metadata by namespace rather than by file?
+- How are blocks garbage-collected safely when they are deduplicated, and what are the failure modes?
+- What happens when the block store, the notification gateway, or the metadata plane is degraded?
+
+## Interview Notes
+
+- In a phone screen, keep the list of functional requirements to four or five bullets.
+- Apple's object-storage team cares most about the bulk data path (upload, download and sync), so start there; sharing and version history are part of the service as well.
+- Block-level deduplication and incremental sync are the two properties that shape the whole design, and an Apple interviewer is likely to probe them quickly.
+- Conflict resolution is a favorite probing area; vague answers are penalized.
+- Interviewers check that the candidate does not promise real-time collaborative editing: this is a file sync service, not a collaborative document editor.
+
+### What interviewers focus on
+
+- Sharing files and folders is treated as part of the service being designed.
 
 ## Hints
 
