@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,636 questions** · **226 writeups** · **131 companies** · **1,830 free to practise** · **674 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,636 questions** · **226 writeups** · **131 companies** · **1,830 free to practise** · **672 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,9 +42,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 674 sightings at 89 companies — Algorithm 222 · SQL 38 · System Design 138 · AI Coding 3 · Blog 203 · Object Oriented Programming 70.
+**Last 90 days:** 672 sightings at 89 companies — Algorithm 221 · SQL 38 · System Design 138 · AI Coding 3 · Blog 203 · Object Oriented Programming 69.
 
-**Reported most:** [Amazon (97)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (39)](companies/google.md) · [Microsoft (39)](companies/microsoft.md) · [LinkedIn (24)](companies/linkedin.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [Meta (20)](companies/meta.md)
+**Reported most:** [Amazon (96)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (39)](companies/google.md) · [Microsoft (39)](companies/microsoft.md) · [LinkedIn (24)](companies/linkedin.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [Meta (19)](companies/meta.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (16) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) (14)
 
@@ -158,10 +158,10 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | Company | Question | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | **ByteDance** | [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system) | System Design | 🔥 Oct 05, 2026 |
-| **Stripe** | [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | 🔥 Oct 04, 2026 |
-| **Google** | [Course Scheduling and Dependency Variants](https://trueinterview.io/questions/course-schedule-dependency-variants) | Algorithm | 🔥 Oct 04, 2026 |
-| **Google** | [Connected Crop Arrangement on a Grid](https://trueinterview.io/questions/connected-crop-arrangement-grid) | Algorithm | 🔥 Oct 04, 2026 |
-| **Google** | [Longest Non-Decreasing Subarray with One Replacement](https://trueinterview.io/questions/longest-non-decreasing-subarray-one-replacement) | Algorithm | 🔥 Oct 04, 2026 |
+| **Stripe** | [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | 🆕 Oct 04, 2026 |
+| **Google** | [Course Scheduling and Dependency Variants](https://trueinterview.io/questions/course-schedule-dependency-variants) | Algorithm | 🆕 Oct 04, 2026 |
+| **Google** | [Connected Crop Arrangement on a Grid](https://trueinterview.io/questions/connected-crop-arrangement-grid) | Algorithm | 🆕 Oct 04, 2026 |
+| **Google** | [Longest Non-Decreasing Subarray with One Replacement](https://trueinterview.io/questions/longest-non-decreasing-subarray-one-replacement) | Algorithm | 🆕 Oct 04, 2026 |
 | **Amazon** | [Number of Islands with Max-Area and Streaming-Rows Follow-Ups](https://trueinterview.io/questions/number-of-islands-max-area-streaming) | Algorithm | 🆕 Oct 03, 2026 |
 | **Microsoft** | [Count Non-Decreasing Arrays with Target Digit Sums](https://trueinterview.io/questions/non-decreasing-digit-sum-array-count) | Algorithm | 🆕 Oct 03, 2026 |
 | **Amazon** | [Service Instance Rating Threshold](https://trueinterview.io/questions/max-k-instances-rated-at-least-k) | Algorithm | 🆕 Oct 03, 2026 |

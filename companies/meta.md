@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **485** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 20 |
+| Reported in the last 90 days | 19 |
 | Most common format | [Algorithm](../formats/algorithm.md) (36% of 485) |
 | Difficulty (easy / medium / hard) | 47 / 202 / 88 |
 | Free to practise | [176](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **485 of 485** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**20 sightings** in this window. Newest first.
+**19 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **485 of 485** questions at Meta th
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Aug 27, 2026 |
 | [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Algorithm | Hard | Onsite / virtual onsite | Aug 25, 2026 |
 
-<sub>8 more in this window are in the table below.</sub>
+<sub>7 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -147,9 +147,9 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | 🆕 Sep 04, 2026 |
 | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | System Design | Medium | 🆕 Sep 04, 2026 |
 | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | 🆕 Sep 04, 2026 |
-| [Measure Game Monetization and Validate a Reporting Repair](https://trueinterview.io/questions/measure-game-monetization-and-validate-a-reporting-repair) | System Design | Hard | 🆕 Sep 03, 2026 |
-| [Explain Project Impact, Mentorship, and Fair Credit Allocation](https://trueinterview.io/questions/explain-project-impact-mentorship-and-fair-credit-allocation) | Blog | — | 🆕 Sep 03, 2026 |
-| [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | SQL | Easy | 🆕 Sep 03, 2026 |
+| [Measure Game Monetization and Validate a Reporting Repair](https://trueinterview.io/questions/measure-game-monetization-and-validate-a-reporting-repair) | System Design | Hard | Sep 03, 2026 |
+| [Explain Project Impact, Mentorship, and Fair Credit Allocation](https://trueinterview.io/questions/explain-project-impact-mentorship-and-fair-credit-allocation) | Blog | — | Sep 03, 2026 |
+| [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | SQL | Easy | Sep 03, 2026 |
 | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | System Design | Easy | Aug 29, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Aug 27, 2026 |
 | [Explain Your Highest-Impact Project](https://trueinterview.io/questions/explain-your-highest-impact-project) | Blog | — | Aug 25, 2026 |

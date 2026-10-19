@@ -94,7 +94,7 @@
 | [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | **Microsoft** | — | 🆕 Sep 10, 2026 |
 | [Explain power drivers and resolve unexpected A/B results](https://trueinterview.io/questions/explain-power-drivers-and-resolve-unexpected-a-b-results) | **Thumbtack** | — | — |
 | [Explain project choices, metrics, and AI usage](https://trueinterview.io/questions/explain-project-choices-metrics-and-ai-usage) | **ByteDance** | — | Mar 01, 2026 |
-| [Explain Project Impact, Mentorship, and Fair Credit Allocation](https://trueinterview.io/questions/explain-project-impact-mentorship-and-fair-credit-allocation) | **Meta** | — | 🆕 Sep 03, 2026 |
+| [Explain Project Impact, Mentorship, and Fair Credit Allocation](https://trueinterview.io/questions/explain-project-impact-mentorship-and-fair-credit-allocation) | **Meta** | — | Sep 03, 2026 |
 | [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | **Lyft** | — | 🆕 Sep 08, 2026 |
 | [Explain Project Scope, Ownership, and Technical Challenges](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges) | **Nuro** | — | Aug 31, 2026 |
 | [Explain projects and handle AI-safety conflicts](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) | **Anthropic** | — | Nov 19, 2025 |
@@ -165,7 +165,7 @@
 | [Find the Correlation Between Two Die-Face Counts](https://trueinterview.io/questions/find-the-correlation-between-two-die-face-counts) | **Squarepoint** | — | Apr 22, 2026 |
 | [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
 | [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) | **Sig** | — | Aug 16, 2026 |
-| [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | **Mercor** | — | 🆕 Sep 03, 2026 |
+| [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | **Mercor** | — | Sep 03, 2026 |
 | [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
 | [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) | **Sig** | — | Aug 16, 2026 |
 | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | **Cisco** | — | 🆕 Sep 17, 2026 |

@@ -164,7 +164,7 @@ What candidates said happened in the room at Stripe — written up by the people
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | Medium | 🔥 Oct 04, 2026 |
+| [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | Medium | 🆕 Oct 04, 2026 |
 | [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | Blog | — | 🆕 Sep 15, 2026 |
 | [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | Blog | — | 🆕 Sep 11, 2026 |
 | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Object Oriented Programming | Medium | 🆕 Sep 11, 2026 |

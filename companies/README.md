@@ -58,8 +58,8 @@ The sector and size of an employer are facts about the company rather than about
 
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
-| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 485 | 6 | 20 | Oct 01, 2026 | 176 |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 467 | 5 | 97 | Oct 03, 2026 | 147 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 485 | 6 | 19 | Oct 01, 2026 | 176 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 467 | 5 | 96 | Oct 03, 2026 | 147 |
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 380 | 3 | 39 | Oct 04, 2026 | 114 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 345 | 5 | 44 | Oct 05, 2026 | 110 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 264 | 3 | 10 | Sep 09, 2026 | 77 |

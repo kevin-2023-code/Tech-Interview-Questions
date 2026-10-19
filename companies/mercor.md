@@ -96,9 +96,9 @@ The 8 questions to open first if you are preparing for Mercor, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety](https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety) | Algorithm | Hard | 🆕 Sep 03, 2026 |
-| [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | Blog | — | 🆕 Sep 03, 2026 |
-| [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) | Blog | — | 🆕 Sep 03, 2026 |
+| [Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety](https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety) | Algorithm | Hard | Sep 03, 2026 |
+| [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | Blog | — | Sep 03, 2026 |
+| [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) | Blog | — | Sep 03, 2026 |
 | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Algorithm | Hard | Aug 30, 2026 |
 | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | System Design | Hard | Aug 30, 2026 |
 | [Project Deep Dive With Product-Level Probing, AI Tool Use, and Startup Motivation](https://trueinterview.io/questions/project-deep-dive-with-product-level-probing-ai-tool-use-and-startup-motivation) | Blog | — | May 01, 2026 |

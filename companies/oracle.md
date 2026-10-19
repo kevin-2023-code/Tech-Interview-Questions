@@ -142,7 +142,7 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | SQL | Medium | 🆕 Sep 09, 2026 |
 | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | System Design | Hard | 🆕 Sep 05, 2026 |
 | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | System Design | Hard | 🆕 Sep 05, 2026 |
-| [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | 🆕 Sep 03, 2026 |
+| [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | Sep 03, 2026 |
 | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | Aug 28, 2026 |
 | [Take Ownership Through Ambiguity](https://trueinterview.io/questions/take-ownership-through-ambiguity) | Blog | — | Aug 21, 2026 |
 | [Resolve Conflict Within a Team](https://trueinterview.io/questions/resolve-conflict-within-a-team) | Blog | — | Aug 21, 2026 |

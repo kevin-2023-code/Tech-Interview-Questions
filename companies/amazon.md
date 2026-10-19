@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **467** |
 | Most recent sighting | Oct 03, 2026 |
-| Reported in the last 90 days | 97 |
+| Reported in the last 90 days | 96 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 467) |
 | Difficulty (easy / medium / hard) | 60 / 226 / 64 |
 | Free to practise | [147](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**97 sightings** in this window. Newest first.
+**96 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Medium | Onsite / virtual onsite | Sep 26, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Hard | Onsite / virtual onsite | Sep 26, 2026 |
 
-<sub>85 more in this window are in the table below.</sub>
+<sub>84 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -178,7 +178,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Accept Notification Bursts With Low Latency](https://trueinterview.io/questions/accept-notification-bursts-with-low-latency) | System Design | Hard | 🆕 Sep 07, 2026 |
 | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | Blog | — | 🆕 Sep 05, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | 🆕 Sep 05, 2026 |
-| [Design a Distributed Job Scheduler with Run Logs and Exactly-Once Execution](https://trueinterview.io/questions/design-a-distributed-job-scheduler-with-run-logs-and-exactly-once-execution) | System Design | Hard | 🆕 Sep 03, 2026 |
+| [Design a Distributed Job Scheduler with Run Logs and Exactly-Once Execution](https://trueinterview.io/questions/design-a-distributed-job-scheduler-with-run-logs-and-exactly-once-execution) | System Design | Hard | Sep 03, 2026 |
 | [Generalize Dictionary Merging](https://trueinterview.io/questions/generalize-dictionary-merging) | Algorithm | Medium | Sep 02, 2026 |
 | [Evaluating Generative AI Use and Accuracy](https://trueinterview.io/questions/evaluating-generative-ai-use-and-accuracy) | Blog | — | Sep 02, 2026 |
 | [Design an Object-Oriented Shopping Cart](https://trueinterview.io/questions/design-an-object-oriented-shopping-cart) | Object Oriented Programming | Medium | Sep 02, 2026 |

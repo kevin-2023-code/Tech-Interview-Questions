@@ -155,7 +155,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | — | 🆕 Sep 17, 2026 |
 | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Algorithm | Medium | 🆕 Sep 05, 2026 |
 | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Algorithm | Hard | 🆕 Sep 05, 2026 |
-| [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Algorithm | Hard | 🆕 Sep 03, 2026 |
+| [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Algorithm | Hard | Sep 03, 2026 |
 | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | System Design | Medium | Aug 24, 2026 |
 | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | Blog | — | Aug 17, 2026 |
 | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | Medium | Aug 15, 2026 |

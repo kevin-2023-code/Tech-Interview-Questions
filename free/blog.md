@@ -230,7 +230,7 @@
 | [Compare Language-Model Post-Training Methods](https://trueinterview.io/questions/compare-language-model-post-training-methods) | **Google** | — | Aug 14, 2026 |
 | [Compare list/dict; parse JSON/CSV at scale](https://trueinterview.io/questions/compare-list-dict-parse-json-csv-at-scale) | **Thumbtack** | — | — |
 | [Compare Losses and Explain LoRA](https://trueinterview.io/questions/compare-losses-and-explain-lora) | **Netflix** | — | Apr 22, 2026 |
-| [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) | **Mercor** | — | 🆕 Sep 03, 2026 |
+| [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) | **Mercor** | — | Sep 03, 2026 |
 | [Compare Normal vs Poisson; test dispersion and approximate tails](https://trueinterview.io/questions/compare-normal-vs-poisson-test-dispersion-and-approximate-tails) | **Apple** | — | — |
 | [Compare processes and threads in Linux and Python](https://trueinterview.io/questions/compare-processes-and-threads-in-linux-and-python) | **Mercor** | — | Jan 17, 2026 |
 | [Compare Random Forests vs Gradient Boosting rigorously](https://trueinterview.io/questions/compare-random-forests-vs-gradient-boosting-rigorously) | **Amazon** | — | — |

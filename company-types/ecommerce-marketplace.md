@@ -48,7 +48,7 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**165 sightings** across this cut. Newest first.
+**164 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Amazon | Algorithm | Sep 26, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Amazon | Algorithm | Sep 26, 2026 |
 
-<sub>153 more in this window are in the table below.</sub>
+<sub>152 more in this window are in the table below.</sub>
 
 ---
 
@@ -150,7 +150,7 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | **Airbnb** | [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | Medium | 🆕 Sep 04, 2026 |
 | **Airbnb** | [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | Hard | 🆕 Sep 04, 2026 |
 | **Airbnb** | [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | — | 🆕 Sep 04, 2026 |
-| **Amazon** | [Design a Distributed Job Scheduler with Run Logs and Exactly-Once Execution](https://trueinterview.io/questions/design-a-distributed-job-scheduler-with-run-logs-and-exactly-once-execution) | Hard | 🆕 Sep 03, 2026 |
+| **Amazon** | [Design a Distributed Job Scheduler with Run Logs and Exactly-Once Execution](https://trueinterview.io/questions/design-a-distributed-job-scheduler-with-run-logs-and-exactly-once-execution) | Hard | Sep 03, 2026 |
 | **Amazon** | [Generalize Dictionary Merging](https://trueinterview.io/questions/generalize-dictionary-merging) | Medium | Sep 02, 2026 |
 | **Amazon** | [Evaluating Generative AI Use and Accuracy](https://trueinterview.io/questions/evaluating-generative-ai-use-and-accuracy) | — | Sep 02, 2026 |
 | **Pinduoduo** | [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) | — | Sep 02, 2026 |

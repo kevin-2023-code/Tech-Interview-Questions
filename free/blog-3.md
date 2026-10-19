@@ -229,7 +229,7 @@
 | [Explain a past project and critique a prior team](https://trueinterview.io/questions/explain-a-past-project-and-critique-a-prior-team) | **LinkedIn** | — | Oct 20, 2025 |
 | [Explain a Project and Its Hardest Engineering Challenge](https://trueinterview.io/questions/explain-a-project-and-its-hardest-engineering-challenge) | **Millennium** | — | Apr 26, 2026 |
 | [Explain a project and justify choices](https://trueinterview.io/questions/explain-a-project-and-justify-choices) | **Thumbtack** | — | — |
-| [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) | **Atlassian** | — | 🆕 Sep 03, 2026 |
+| [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) | **Atlassian** | — | Sep 03, 2026 |
 | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/questions/explain-a-project-that-could-not-meet-a-tight-deadline) | **Amazon** | — | 🆕 Sep 20, 2026 |
 | [Explain a project to non-technical stakeholders](https://trueinterview.io/questions/explain-a-project-to-non-technical-stakeholders) | **Imc** | — | Nov 03, 2025 |
 | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | **LinkedIn** | — | 🆕 Sep 17, 2026 |
