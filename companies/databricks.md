@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **88** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 9 |
+| Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (39% of 88) |
 | Difficulty (easy / medium / hard) | 10 / 49 / 20 |
 | Free to practise | [23](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **88 of 88** questions at Databrick
 
 ## Asked here in the last 90 days
 
-**9 sightings** in this window. Newest first.
+**8 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -50,7 +50,6 @@ Which stage each question came from, for the **88 of 88** questions at Databrick
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 31, 2026 |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | Blog | — | Onsite / virtual onsite | Aug 13, 2026 |
 | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jul 30, 2026 |
-| [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen) | Blog | — | Phone screen | Jul 21, 2026 |
 
 ## What they ask about
 

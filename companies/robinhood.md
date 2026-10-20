@@ -126,7 +126,7 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | System Design | Medium | 🆕 Sep 17, 2026 |
 | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | System Design | Medium | 🆕 Sep 17, 2026 |
 | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates) | Object Oriented Programming | Medium | 🆕 Sep 15, 2026 |
-| [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts) | Algorithm | Hard | 🆕 Sep 04, 2026 |
+| [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts) | Algorithm | Hard | Sep 04, 2026 |
 | [Critique a Recent Engineering Project and Explain What You Would Redo](https://trueinterview.io/questions/critique-a-recent-engineering-project-and-explain-what-you-would-redo) | Blog | — | Jul 17, 2026 |
 | [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-3) | Blog | — | May 09, 2026 |
 | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | May 09, 2026 |

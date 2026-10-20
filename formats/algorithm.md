@@ -94,12 +94,12 @@
 | **Snowflake** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Medium | 🆕 Sep 05, 2026 |
 | **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | 🆕 Sep 05, 2026 |
 | **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🆕 Sep 05, 2026 |
-| **Robinhood** | [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts) | Hard | 🆕 Sep 04, 2026 |
-| **Verkada** | [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Medium | 🆕 Sep 04, 2026 |
-| **Siemens** | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | Medium | 🆕 Sep 04, 2026 |
-| **LinkedIn** | [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Medium | 🆕 Sep 04, 2026 |
-| **Stripe** | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Medium | 🆕 Sep 04, 2026 |
-| **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Medium | 🆕 Sep 04, 2026 |
+| **Robinhood** | [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts) | Hard | Sep 04, 2026 |
+| **Verkada** | [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Medium | Sep 04, 2026 |
+| **Siemens** | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | Medium | Sep 04, 2026 |
+| **LinkedIn** | [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Medium | Sep 04, 2026 |
+| **Stripe** | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Medium | Sep 04, 2026 |
+| **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Medium | Sep 04, 2026 |
 | **Mercor** | [Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety](https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety) | Hard | Sep 03, 2026 |
 | **Google** | [Evolve Duplicate Detection for Sliding Windows and Read-Heavy Queries](https://trueinterview.io/questions/evolve-duplicate-detection-for-sliding-windows-and-read-heavy-queries) | Hard | Sep 03, 2026 |
 | **Snowflake** | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Hard | Sep 03, 2026 |

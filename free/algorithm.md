@@ -133,7 +133,7 @@
 | [An Evening of Movies](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) | **Akuna Capital** | Medium | — |
 | [Anagram Sentence Substitutions](https://trueinterview.io/questions/anagram-sentence-substitutions) | **SoFi** | Medium | Sep 25, 2025 |
 | [Array Challenge: Left-Comparison Running Counter](https://trueinterview.io/questions/left-comparison-running-counter) | **Akuna Capital** | Medium | Sep 24, 2025 |
-| [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | **Siemens** | Medium | 🆕 Sep 04, 2026 |
+| [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | **Siemens** | Medium | Sep 04, 2026 |
 | [Binary Search Tree Pruning](https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605) | **PayPal** | Medium | — |
 | [Binary Search — Rightmost Index of Duplicate](https://trueinterview.io/questions/binary-search-rightmost-duplicate) | **Oracle** | Medium | Jul 07, 2025 |
 | [Build Naive Bayes spam classifier with F1](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) | **Disney** | Medium | Nov 01, 2025 |

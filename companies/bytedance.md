@@ -139,7 +139,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system) | System Design | Medium | 🔥 Oct 05, 2026 |
+| [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system) | System Design | Medium | 🆕 Oct 05, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Algorithm | Medium | 🆕 Sep 28, 2026 |
 | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Algorithm | Medium | 🆕 Sep 25, 2026 |
@@ -155,7 +155,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | Blog | — | 🆕 Sep 05, 2026 |
 | [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | Blog | — | 🆕 Sep 05, 2026 |
 | [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | Blog | — | 🆕 Sep 05, 2026 |
-| [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | 🆕 Sep 04, 2026 |
+| [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | Sep 04, 2026 |
 | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Object Oriented Programming | Medium | Sep 02, 2026 |
 | [Data Engineering Experience Screen](https://trueinterview.io/questions/data-engineering-experience-screen) | Blog | — | Aug 31, 2026 |
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Aug 31, 2026 |

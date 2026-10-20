@@ -81,7 +81,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 91 | 1 | 10 | Sep 18, 2026 | 23 |
 | [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 89 | 3 | 13 | Sep 23, 2026 | 19 |
 | [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 89 | 3 | 8 | Sep 09, 2026 | 32 |
-| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 88 | 3 | 9 | Sep 15, 2026 | 23 |
+| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 88 | 3 | 8 | Sep 15, 2026 | 23 |
 | [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 86 | 4 | 1 | Aug 27, 2026 | 24 |
 | [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 74 | 1 | 4 | Sep 06, 2026 | 15 |
 | [Goldman Sachs](goldman-sachs.md) | Banks, insurers & asset managers · 10,000+ people | 68 | 1 | 9 | Sep 13, 2026 | 40 |

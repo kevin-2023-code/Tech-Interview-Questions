@@ -134,14 +134,14 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
-| [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | System Design | Medium | 🆕 Sep 04, 2026 |
-| [Find Users with Seven Consecutive Impression Days](https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days) | SQL | Medium | 🆕 Sep 04, 2026 |
-| [Find Hosts Meeting Listing, Rating, and Review-Coverage Rules](https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules) | SQL | Medium | 🆕 Sep 04, 2026 |
-| [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | SQL | Medium | 🆕 Sep 04, 2026 |
-| [Calculate the Median House Price in Each City](https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city) | SQL | Medium | 🆕 Sep 04, 2026 |
-| [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | System Design | Medium | 🆕 Sep 04, 2026 |
-| [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | System Design | Hard | 🆕 Sep 04, 2026 |
-| [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | Blog | — | 🆕 Sep 04, 2026 |
+| [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | System Design | Medium | Sep 04, 2026 |
+| [Find Users with Seven Consecutive Impression Days](https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days) | SQL | Medium | Sep 04, 2026 |
+| [Find Hosts Meeting Listing, Rating, and Review-Coverage Rules](https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules) | SQL | Medium | Sep 04, 2026 |
+| [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | SQL | Medium | Sep 04, 2026 |
+| [Calculate the Median House Price in Each City](https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city) | SQL | Medium | Sep 04, 2026 |
+| [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | System Design | Medium | Sep 04, 2026 |
+| [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | System Design | Hard | Sep 04, 2026 |
+| [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | Blog | — | Sep 04, 2026 |
 | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Object Oriented Programming | Medium | Aug 30, 2026 |
 | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Object Oriented Programming | Hard | Aug 29, 2026 |
 | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Object Oriented Programming | Medium | Aug 25, 2026 |

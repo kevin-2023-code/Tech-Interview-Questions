@@ -74,7 +74,7 @@
 | [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) | **Mistral AI** | — | Sep 01, 2026 |
 | [Explain ML basics and recommender tuning](https://trueinterview.io/questions/explain-ml-basics-and-recommender-tuning) | **Tubi** | — | Jan 28, 2026 |
 | [Explain ML evaluation, sequence models, and optimizers](https://trueinterview.io/questions/explain-ml-evaluation-sequence-models-and-optimizers) | **Amazon** | — | Dec 15, 2025 |
-| [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | **Airbnb** | — | 🆕 Sep 04, 2026 |
+| [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | **Airbnb** | — | Sep 04, 2026 |
 | [Explain Model Compression Techniques](https://trueinterview.io/questions/explain-model-compression-techniques) | **Waymo** | — | Nov 27, 2025 |
 | [Explain motivation and align expectations for L4 role](https://trueinterview.io/questions/explain-motivation-and-align-expectations-for-l4-role) | **DoorDash** | — | — |
 | [Explain motivation and mission alignment](https://trueinterview.io/questions/explain-motivation-and-mission-alignment) | **OpenAI** | — | Oct 20, 2025 |

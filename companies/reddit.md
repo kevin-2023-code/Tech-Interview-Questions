@@ -120,7 +120,7 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design Add, Overwrite, Undo, and Redo for Billing State](https://trueinterview.io/questions/design-add-overwrite-undo-and-redo-for-billing-state) | Object Oriented Programming | Medium | 🆕 Sep 04, 2026 |
+| [Design Add, Overwrite, Undo, and Redo for Billing State](https://trueinterview.io/questions/design-add-overwrite-undo-and-redo-for-billing-state) | Object Oriented Programming | Medium | Sep 04, 2026 |
 | [Explain and Reduce Position Bias in Ranking](https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking) | Blog | — | Aug 23, 2026 |
 | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) | Algorithm | Medium | Jun 23, 2026 |
 | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Object Oriented Programming | Medium | Jun 12, 2026 |

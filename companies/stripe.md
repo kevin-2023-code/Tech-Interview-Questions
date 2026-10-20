@@ -174,7 +174,7 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | 🆕 Sep 11, 2026 |
 | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | 🆕 Sep 10, 2026 |
 | [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve) | Algorithm | Medium | 🆕 Sep 07, 2026 |
-| [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | 🆕 Sep 04, 2026 |
+| [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | Sep 04, 2026 |
 | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | SQL | Easy | Aug 31, 2026 |
 | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | System Design | Medium | Aug 29, 2026 |
 | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Algorithm | Hard | Aug 25, 2026 |

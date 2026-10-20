@@ -77,8 +77,8 @@ Of the **99 questions in this cut that carry a topic label** (53% of it):
 | :-- | :-- | :-: | :-- |
 | **Tesla** | [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Medium | 🆕 Sep 13, 2026 |
 | **Waymo** | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | — | 🆕 Sep 06, 2026 |
-| **Tesla** | [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | Hard | 🆕 Sep 04, 2026 |
-| **Tesla** | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Medium | 🆕 Sep 04, 2026 |
+| **Tesla** | [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | Hard | Sep 04, 2026 |
+| **Tesla** | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Medium | Sep 04, 2026 |
 | **Tesla** | [Use Metrics and Logs to Establish a Production Root Cause](https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause) | — | Sep 01, 2026 |
 | **Tesla** | [Investigate Recurring Bugs and Prevent the Same Failure from Returning](https://trueinterview.io/questions/investigate-recurring-bugs-and-prevent-the-same-failure-from-returning) | — | Sep 01, 2026 |
 | **Tesla** | [Discuss Distributed-System Experience with Go, Java, Spark, and Elasticsearch](https://trueinterview.io/questions/discuss-distributed-system-experience-with-go-java-spark-and-elasticsearch) | — | Sep 01, 2026 |

@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **690 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **689 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,7 +42,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 690 sightings at 89 companies — Algorithm 233 · SQL 38 · System Design 142 · AI Coding 3 · Blog 203 · Object Oriented Programming 71.
+**Last 90 days:** 689 sightings at 89 companies — Algorithm 233 · SQL 38 · System Design 142 · AI Coding 3 · Blog 202 · Object Oriented Programming 71.
 
 **Reported most:** [Amazon (97)](companies/amazon.md) · [ByteDance (45)](companies/bytedance.md) · [Google (45)](companies/google.md) · [Microsoft (39)](companies/microsoft.md) · [LinkedIn (24)](companies/linkedin.md) · [OpenAI (23)](companies/openai.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md)
 
@@ -157,7 +157,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 <!-- gen:latest:start -->
 | Company | Question | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| **ByteDance** | [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system) | System Design | 🔥 Oct 05, 2026 |
+| **ByteDance** | [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system) | System Design | 🆕 Oct 05, 2026 |
 | **Stripe** | [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | 🆕 Oct 04, 2026 |
 | **Google** | [Course Scheduling and Dependency Variants](https://trueinterview.io/questions/course-schedule-dependency-variants) | Algorithm | 🆕 Oct 04, 2026 |
 | **Google** | [Connected Crop Arrangement on a Grid](https://trueinterview.io/questions/connected-crop-arrangement-grid) | Algorithm | 🆕 Oct 04, 2026 |

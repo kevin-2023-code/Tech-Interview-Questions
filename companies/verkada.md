@@ -110,8 +110,8 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | System Design | Medium | 🆕 Sep 04, 2026 |
-| [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Algorithm | Medium | 🆕 Sep 04, 2026 |
+| [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | System Design | Medium | Sep 04, 2026 |
+| [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Algorithm | Medium | Sep 04, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Object Oriented Programming | Medium | Jun 05, 2026 |
 | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Object Oriented Programming | Medium | Jun 05, 2026 |

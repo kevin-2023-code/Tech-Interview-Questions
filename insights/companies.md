@@ -32,9 +32,9 @@
 | [Citadel](../companies/citadel.md) | 10 | 91 | Sep 18, 2026 | ██ |
 | [Instacart](../companies/instacart.md) | 10 | 64 | Sep 18, 2026 | ██ |
 | [Rippling](../companies/rippling.md) | 10 | 58 | Sep 18, 2026 | ██ |
-| [Databricks](../companies/databricks.md) | 9 | 88 | Sep 15, 2026 | █ |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 9 | 68 | Sep 13, 2026 | █ |
 | [Sig](../companies/sig.md) | 9 | 9 | Sep 17, 2026 | █ |
+| [Tesla](../companies/tesla.md) | 9 | 52 | Sep 13, 2026 | █ |
 
 ## Every company
 
@@ -63,7 +63,7 @@
 | [Citadel](../companies/citadel.md) | 91 | 1 | 23 | 10 | Sep 18, 2026 | Algorithm | `hashing` |
 | [Airbnb](../companies/airbnb.md) | 89 | 3 | 19 | 13 | Sep 23, 2026 | Algorithm | `dynamic-programming` |
 | [Snapchat](../companies/snapchat.md) | 89 | 3 | 32 | 8 | Sep 09, 2026 | Algorithm | `graphs` |
-| [Databricks](../companies/databricks.md) | 88 | 3 | 23 | 9 | Sep 15, 2026 | Algorithm | `hashing` |
+| [Databricks](../companies/databricks.md) | 88 | 3 | 23 | 8 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Coinbase](../companies/coinbase.md) | 86 | 4 | 24 | 1 | Aug 27, 2026 | Object Oriented Programming | `graphs` |
 | [Waymo](../companies/waymo.md) | 74 | 1 | 15 | 4 | Sep 06, 2026 | Algorithm | `graphs` |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 68 | 1 | 40 | 9 | Sep 13, 2026 | Algorithm | `arrays` |

@@ -132,7 +132,7 @@
 | [Discuss mutexes, memory alignment, polymorphism, idempotency](https://trueinterview.io/questions/discuss-mutexes-memory-alignment-polymorphism-idempotency) | **Microsoft** | — | Oct 28, 2025 |
 | [Discuss Ownership, Learning, Trust, Scope, and Delivery](https://trueinterview.io/questions/discuss-ownership-learning-trust-scope-and-delivery) | **Amazon** | — | Jan 01, 2026 |
 | [Discuss PhD coursework and research impact](https://trueinterview.io/questions/discuss-phd-coursework-and-research-impact) | **Citadel** | — | — |
-| [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) | **Siemens** | — | 🆕 Sep 04, 2026 |
+| [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) | **Siemens** | — | Sep 04, 2026 |
 | [Discuss Projects, Failures, and Growth](https://trueinterview.io/questions/discuss-projects-failures-and-growth) | **Meta** | — | Jan 30, 2026 |
 | [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) | **Asana** | — | Feb 08, 2026 |
 | [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) | **Microsoft** | — | Nov 19, 2025 |

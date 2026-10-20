@@ -190,7 +190,7 @@
 | [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) | **Snapchat** | — | 🆕 Sep 09, 2026 |
 | [Choose linear regression or decision tree appropriately](https://trueinterview.io/questions/choose-linear-regression-or-decision-tree-appropriately) | **ByteDance** | — | — |
 | [Choose Long-Term Correctness over a Short-Term Win](https://trueinterview.io/questions/choose-long-term-correctness-over-a-short-term-win) | **Salesforce** | — | Apr 11, 2026 |
-| [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) | **Siemens** | — | 🆕 Sep 04, 2026 |
+| [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) | **Siemens** | — | Sep 04, 2026 |
 | [Choose metrics for fake-user classifier](https://trueinterview.io/questions/choose-metrics-for-fake-user-classifier) | **Meta** | — | — |
 | [Choose regularization norms and model formulations](https://trueinterview.io/questions/choose-regularization-norms-and-model-formulations) | **Amazon** | — | — |
 | [Choose robust metrics for skewed comments](https://trueinterview.io/questions/choose-robust-metrics-for-skewed-comments) | **Meta** | — | — |
@@ -225,7 +225,7 @@
 | [Compare CNN, RNN, and LSTM rigorously](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) | **Microsoft** | — | — |
 | [Compare decision trees and random forests](https://trueinterview.io/questions/compare-decision-trees-and-random-forests) | **Amazon** | — | — |
 | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | **Waymo** | — | 🆕 Sep 06, 2026 |
-| [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | **Siemens** | — | 🆕 Sep 04, 2026 |
+| [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | **Siemens** | — | Sep 04, 2026 |
 | [Compare Instagram vs. Facebook using causal experiments](https://trueinterview.io/questions/compare-instagram-vs-facebook-using-causal-experiments) | **Meta** | — | — |
 | [Compare Language-Model Post-Training Methods](https://trueinterview.io/questions/compare-language-model-post-training-methods) | **Google** | — | Aug 14, 2026 |
 | [Compare list/dict; parse JSON/CSV at scale](https://trueinterview.io/questions/compare-list-dict-parse-json-csv-at-scale) | **Thumbtack** | — | — |

@@ -77,7 +77,7 @@ Of the **696 questions in this cut that carry a topic label** (45% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **ByteDance** | [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system) | Medium | 🔥 Oct 05, 2026 |
+| **ByteDance** | [Ticket Booking System Under Flash-Sale Traffic](https://trueinterview.io/questions/ticket-booking-flash-sale-system) | Medium | 🆕 Oct 05, 2026 |
 | **Google** | [Course Scheduling and Dependency Variants](https://trueinterview.io/questions/course-schedule-dependency-variants) | Hard | 🆕 Oct 04, 2026 |
 | **Google** | [Connected Crop Arrangement on a Grid](https://trueinterview.io/questions/connected-crop-arrangement-grid) | Hard | 🆕 Oct 04, 2026 |
 | **Google** | [Longest Non-Decreasing Subarray with One Replacement](https://trueinterview.io/questions/longest-non-decreasing-subarray-one-replacement) | Medium | 🆕 Oct 04, 2026 |
@@ -124,12 +124,12 @@ Of the **696 questions in this cut that carry a topic label** (45% of it):
 | **ByteDance** | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | — | 🆕 Sep 05, 2026 |
 | **ByteDance** | [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | — | 🆕 Sep 05, 2026 |
 | **ByteDance** | [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | — | 🆕 Sep 05, 2026 |
-| **Meta** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | Hard | 🆕 Sep 04, 2026 |
-| **Meta** | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | Medium | 🆕 Sep 04, 2026 |
-| **Meta** | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Medium | 🆕 Sep 04, 2026 |
-| **Reddit** | [Design Add, Overwrite, Undo, and Redo for Billing State](https://trueinterview.io/questions/design-add-overwrite-undo-and-redo-for-billing-state) | Medium | 🆕 Sep 04, 2026 |
-| **LinkedIn** | [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Medium | 🆕 Sep 04, 2026 |
-| **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Medium | 🆕 Sep 04, 2026 |
+| **Meta** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | Hard | Sep 04, 2026 |
+| **Meta** | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | Medium | Sep 04, 2026 |
+| **Meta** | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Medium | Sep 04, 2026 |
+| **Reddit** | [Design Add, Overwrite, Undo, and Redo for Billing State](https://trueinterview.io/questions/design-add-overwrite-undo-and-redo-for-billing-state) | Medium | Sep 04, 2026 |
+| **LinkedIn** | [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Medium | Sep 04, 2026 |
+| **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Medium | Sep 04, 2026 |
 | **Meta** | [Measure Game Monetization and Validate a Reporting Repair](https://trueinterview.io/questions/measure-game-monetization-and-validate-a-reporting-repair) | Hard | Sep 03, 2026 |
 | **Meta** | [Explain Project Impact, Mentorship, and Fair Credit Allocation](https://trueinterview.io/questions/explain-project-impact-mentorship-and-fair-credit-allocation) | — | Sep 03, 2026 |
 | **Google** | [Evolve Duplicate Detection for Sliding Windows and Read-Heavy Queries](https://trueinterview.io/questions/evolve-duplicate-detection-for-sliding-windows-and-read-heavy-queries) | Hard | Sep 03, 2026 |

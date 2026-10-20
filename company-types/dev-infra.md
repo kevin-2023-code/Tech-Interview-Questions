@@ -48,7 +48,7 @@ Of the **169 questions in this cut that carry a topic label** (56% of it):
 
 ## Asked here in the last 90 days
 
-**26 sightings** across this cut. Newest first.
+**25 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **169 questions in this cut that carry a topic label** (56% of it):
 | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Databricks | Algorithm | Sep 06, 2026 |
 | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Snowflake | Algorithm | Sep 05, 2026 |
 
-<sub>14 more in this window are in the table below.</sub>
+<sub>13 more in this window are in the table below.</sub>
 
 ---
 
