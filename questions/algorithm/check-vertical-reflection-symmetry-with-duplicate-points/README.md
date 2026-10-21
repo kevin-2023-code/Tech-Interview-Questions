@@ -12,74 +12,94 @@
 
 ## Problem
 
-Given a multiset `points` of two-dimensional points, where each entry is an `[x, y]` pair with integer coordinates, implement `has_vertical_symmetry(points: list[list[int]]) -> bool` to decide whether the multiset can be mirrored across some vertical line.
+You receive `points`, a multiset of two-dimensional integer points in which every element has the form `[x, y]`. Implement `has_vertical_symmetry(points: list[list[int]]) -> bool`, which decides whether some vertical line acts as a mirror for the whole multiset. Because this is a multiset, duplicates matter: each individual occurrence of a point needs its own matching occurrence of the mirrored point.
 
-Such a line has the form $$x = c$$, where $$c$$ may be an integer or a half-integer. Reflecting a point $$(x, y)$$ across the line produces $$(2c - x, y)$$. A point with $$x = c$$ maps to itself.
+A vertical mirror line is written `x = c`, and `c` is allowed to be either an integer or a half-integer. Mirroring the point `(x, y)` across that line gives `(2*c - x, y)`. The answer is `true` exactly when at least one such line exists for which every coordinate pair appears in the input the same number of times as its mirror image does. A point lying on the line is its own mirror image. The order of the input does not matter, and an empty multiset is treated as symmetric, so it yields `true`.
 
-Duplicates must be preserved: for every point `[x, y]`, its multiplicity must equal the multiplicity of its reflected point `[2c - x, y]`. The order of the input points does not matter. An empty input is symmetric by definition.
+Every input coordinate fits in a 32-bit signed integer. The doubled axis `2*c`, which equals the sum of two x-coordinates, also fits: its absolute value is at most 2000000000, below $$2^{31} - 1 = 2147483647$$. A mirrored coordinate `2*c - x`, however, can reach 3000000000 in absolute value and therefore leaves the 32-bit range, so intermediate values of that kind should be held in 64-bit integers (Java `long`, C++ `long long`).
 
 Example 1:
 
 ```text
-Input: points = [[2,5],[6,5],[4,1]]
+Input: points = [[1,2],[3,2],[2,4]]
 
 Output: true
 ```
 
-Explanation: With the line $$x = 4$$, `(2,5)` and `(6,5)` reflect into each other, while `(4,1)` lies on the line.
+Explanation: the mirror line is `x = 2`.
 
 ```trueviz
-{"v":1,"kind":"example","title":"Vertical reflection symmetry","input":{"points":"[[2, 5], [6, 5], [4, 1]]"},"steps":[{"say":"The input multiset has three points: (2,5), (6,5), and (4,1).","panels":[{"type":"grid","id":"points","label":"Points (x: 2..6, y: 5..1)","values":[["(2,5)","","","","(6,5)"],["","","","",""],["","","","",""],["","","","",""],["","","(4,1)","",""]]},{"type":"map","id":"multiset","label":"Multiset counts","entries":[{"key":"[2,5]","value":"1"},{"key":"[6,5]","value":"1"},{"key":"[4,1]","value":"1"}],"layout":"table"}]},{"say":"Consider the vertical line x = 4. It is a candidate mirror line.","panels":[{"type":"grid","id":"points","label":"Points (x: 2..6, y: 5..1)","values":[["(2,5)","","","","(6,5)"],["","","","",""],["","","","",""],["","","","",""],["","","(4,1)","",""]],"marks":{"read":[[0,2],[1,2],[2,2],[3,2],[4,2]]}},{"type":"map","id":"multiset","label":"Multiset counts","entries":[{"key":"[2,5]","value":"1"},{"key":"[6,5]","value":"1"},{"key":"[4,1]","value":"1"}],"layout":"table"}]},{"say":"Reflecting (2,5) across x = 4 gives (2*4 - 2, 5) = (6,5).","panels":[{"type":"grid","id":"points","label":"Points (x: 2..6, y: 5..1)","values":[["(2,5)","","","","(6,5)"],["","","","",""],["","","","",""],["","","","",""],["","","(4,1)","",""]],"marks":{"read":[[0,0]],"found":[[0,4]]}},{"type":"map","id":"multiset","label":"Multiset counts","entries":[{"key":"[2,5]","value":"1"},{"key":"[6,5]","value":"1"},{"key":"[4,1]","value":"1"}],"layout":"table"}]},{"say":"Reflecting (6,5) across x = 4 gives (2*4 - 6, 5) = (2,5).","panels":[{"type":"grid","id":"points","label":"Points (x: 2..6, y: 5..1)","values":[["(2,5)","","","","(6,5)"],["","","","",""],["","","","",""],["","","","",""],["","","(4,1)","",""]],"marks":{"read":[[0,4]],"found":[[0,0]]}},{"type":"map","id":"multiset","label":"Multiset counts","entries":[{"key":"[2,5]","value":"1"},{"key":"[6,5]","value":"1"},{"key":"[4,1]","value":"1"}],"layout":"table"}]},{"say":"The point (4,1) lies on the line x = 4, so it reflects to itself.","panels":[{"type":"grid","id":"points","label":"Points (x: 2..6, y: 5..1)","values":[["(2,5)","","","","(6,5)"],["","","","",""],["","","","",""],["","","","",""],["","","(4,1)","",""]],"marks":{"found":[[4,2]]}},{"type":"map","id":"multiset","label":"Multiset counts","entries":[{"key":"[2,5]","value":"1"},{"key":"[6,5]","value":"1"},{"key":"[4,1]","value":"1"}],"layout":"table"}]},{"say":"Every point's reflection is present with the same multiplicity, so the multiset is symmetric.","panels":[{"type":"grid","id":"points","label":"Points (x: 2..6, y: 5..1)","values":[["(2,5)","","","","(6,5)"],["","","","",""],["","","","",""],["","","","",""],["","","(4,1)","",""]],"marks":{"found":[[0,0],[0,4],[4,2]]}},{"type":"map","id":"multiset","label":"Multiset counts","entries":[{"key":"[2,5]","value":"1"},{"key":"[6,5]","value":"1"},{"key":"[4,1]","value":"1"}],"layout":"table"}]}],"expected":"true"}
+{"v":1,"kind":"example","title":"Vertical reflection symmetry","input":{"points":"[[1,2],[3,2],[2,4]]"},"steps":[{"say":"The input is three points. Here they are on a board with x across (0 to 4) and y up (row 4 on top, row 0 at the bottom).","panels":[{"type":"grid","id":"board","label":"Points (x across, y up)","values":[[".",".","P",".","."],[".",".",".",".","."],[".","P",".","P","."],[".",".",".",".","."],[".",".",".",".","."]]}]},{"say":"Points (1,2) and (3,2) share y = 2 and sit on opposite sides of column x = 2, each the same distance away.","panels":[{"type":"grid","id":"board","label":"Points (x across, y up)","values":[[".",".","P",".","."],[".",".",".",".","."],[".","P",".","P","."],[".",".",".",".","."],[".",".",".",".","."]],"marks":{"read":[[2,1],[2,3]]}}]},{"say":"Point (2,4) lies exactly on the line x = 2, so it is its own mirror image.","panels":[{"type":"grid","id":"board","label":"Points (x across, y up)","values":[[".",".","P",".","."],[".",".",".",".","."],[".","P",".","P","."],[".",".",".",".","."],[".",".",".",".","."]],"marks":{"read":[[0,2]]}}]},{"say":"Every point has a matching mirror point across the line x = 2, so the points are symmetric and the answer is true.","panels":[{"type":"grid","id":"board","label":"Points (x across, y up)","values":[[".",".","P",".","."],[".",".",".",".","."],[".","P",".","P","."],[".",".",".",".","."],[".",".",".",".","."]],"marks":{"found":[[2,1],[2,3],[0,2]]}}]}],"expected":"true"}
 ```
 
 
 Example 2:
 
 ```text
-Input: points = [[-2,4],[3,4]]
+Input: points = [[0,1],[1,1]]
 
 Output: true
 ```
 
-Explanation: The line $$x = 0.5$$ maps `(-2,4)` to `(3,4)` and `(3,4)` back to `(-2,4)`.
+Explanation: the mirror line is `x = 0.5`.
 
 Example 3:
 
 ```text
-Input: points = [[-5,1],[-5,1],[7,1]]
+Input: points = [[0,0],[0,0],[2,0]]
 
 Output: false
 ```
 
-Explanation: The line $$x = 1$$ maps `(-5,1)` to `(7,1)`, but `(-5,1)` occurs twice while `(7,1)` occurs only once.
+Explanation: the point on the left appears two times, yet its mirror image appears only once.
+
+Example 4:
+
+```text
+Input: points = []
+
+Output: true
+```
+
+Explanation: by definition, the empty multiset counts as symmetric.
+
+Example 5:
+
+```text
+Input: points = [[5, -7]]
+
+Output: true
+```
+
+Explanation: the lone point sits on the line `x = 5` and is its own mirror image.
 
 Constraints:
 
-* $$0 \le len(points) \le 150000$$
-* Every point contains exactly two integer coordinates.
-* $$-500000000 \le x, y \le 500000000$$ for each coordinate.
-* Repeated points are allowed, and their counts affect the result.
+* $$0 \le \text{len(points)} \le 200000$$
+* Each point consists of exactly two integer coordinates.
+* Every coordinate lies in $$[-1000000000, 1000000000]$$.
+* Points may repeat, and their counts are significant.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-The mirror line's x-coordinate is determined by the minimum and maximum x values, so compute c from those extremes.
+If a vertical mirror exists, it must map the leftmost point's x to the rightmost point's x, which pins down the line's position immediately.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a hash map from point to multiplicity, then verify each point's reflection has the same count.
+Compute c2 = minXAcrossAllPoints + maxX (that is 2*c), then compare occurrence counts of each (x, y) against its mirror (c2 - x, y) using a hash map of counts.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The line can be at a half-integer, so work with doubled coordinates to keep everything integral.
+Watch for duplicates and for points lying exactly on the mirror line, whose mirror is themselves and so only needs its own count to be matched, aim for O(n) time.
 
 </details>
 

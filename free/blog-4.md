@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,403 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -120,7 +120,7 @@
 | [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | **Rippling** | — | 🆕 Sep 13, 2026 |
 | [Explain the TCP Three-Way Handshake and Its Guarantees](https://trueinterview.io/questions/explain-the-tcp-three-way-handshake-and-its-guarantees) | **ByteDance** | — | Aug 23, 2026 |
 | [Explain Tight-Deadline Delivery and a Missed Deadline](https://trueinterview.io/questions/explain-tight-deadline-delivery-and-a-missed-deadline) | **Amazon** | — | Aug 30, 2026 |
-| [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | **ByteDance** | — | 🆕 Sep 05, 2026 |
+| [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | **ByteDance** | — | Sep 05, 2026 |
 | [Explain Transformer and Fine-Tuning Basics](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics) | **Lyft** | — | Mar 12, 2026 |
 | [Explain Transformer Encoder and Decoder Behavior](https://trueinterview.io/questions/explain-transformer-encoder-and-decoder-behavior) | **Point72** | — | Mar 06, 2026 |
 | [Explain Transformer, GPT vs BERT, and PR metrics](https://trueinterview.io/questions/explain-transformer-gpt-vs-bert-and-pr-metrics) | **ByteDance** | — | Dec 15, 2025 |
@@ -176,7 +176,7 @@
 | [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive) | **Two Sigma** | — | May 12, 2026 |
 | [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/questions/bq-genai-usage) | **Amazon** | — | Jul 04, 2026 |
 | [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/questions/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | **Scale AI** | — | — |
-| [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | **ByteDance** | — | 🆕 Sep 05, 2026 |
+| [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | **ByteDance** | — | Sep 05, 2026 |
 | [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/questions/google-hiring-assessment-gha) | **Google** | — | May 29, 2026 |
 | [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals) | **NVIDIA** | — | Jan 16, 2026 |
 | [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/questions/gqs-quant-phone-brainteasers) | **Citadel** | — | Apr 28, 2026 |

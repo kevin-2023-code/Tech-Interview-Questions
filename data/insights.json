@@ -10,7 +10,7 @@
       "free": 176,
       "guides": 6,
       "inLastYear": 222,
-      "inWindow": 20,
+      "inWindow": 18,
       "lastSighting": "2026-10-01",
       "name": "Meta",
       "questions": 485,
@@ -23,7 +23,7 @@
       "free": 147,
       "guides": 5,
       "inLastYear": 273,
-      "inWindow": 97,
+      "inWindow": 89,
       "lastSighting": "2026-10-03",
       "name": "Amazon",
       "questions": 467,
@@ -36,7 +36,7 @@
       "free": 114,
       "guides": 3,
       "inLastYear": 195,
-      "inWindow": 45,
+      "inWindow": 43,
       "lastSighting": "2026-10-04",
       "name": "Google",
       "questions": 380,
@@ -49,7 +49,7 @@
       "free": 110,
       "guides": 5,
       "inLastYear": 197,
-      "inWindow": 45,
+      "inWindow": 44,
       "lastSighting": "2026-10-05",
       "name": "ByteDance",
       "questions": 345,
@@ -75,7 +75,7 @@
       "free": 55,
       "guides": 5,
       "inLastYear": 155,
-      "inWindow": 39,
+      "inWindow": 38,
       "lastSighting": "2026-10-03",
       "name": "Microsoft",
       "questions": 239,
@@ -113,7 +113,7 @@
       "dated": 110,
       "free": 30,
       "guides": 7,
-      "inLastYear": 103,
+      "inLastYear": 102,
       "inWindow": 23,
       "lastSighting": "2026-10-04",
       "name": "OpenAI",
@@ -140,7 +140,7 @@
       "free": 43,
       "guides": 1,
       "inLastYear": 89,
-      "inWindow": 16,
+      "inWindow": 15,
       "lastSighting": "2026-10-01",
       "name": "Snowflake",
       "questions": 145,
@@ -152,8 +152,8 @@
       "dated": 85,
       "free": 31,
       "guides": 4,
-      "inLastYear": 83,
-      "inWindow": 24,
+      "inLastYear": 80,
+      "inWindow": 23,
       "lastSighting": "2026-10-01",
       "name": "LinkedIn",
       "questions": 137,
@@ -166,7 +166,7 @@
       "free": 28,
       "guides": 3,
       "inLastYear": 65,
-      "inWindow": 12,
+      "inWindow": 10,
       "lastSighting": "2026-09-02",
       "name": "Pinterest",
       "questions": 121,
@@ -178,8 +178,8 @@
       "dated": 67,
       "free": 20,
       "guides": 1,
-      "inLastYear": 63,
-      "inWindow": 17,
+      "inLastYear": 62,
+      "inWindow": 16,
       "lastSighting": "2026-10-04",
       "name": "Stripe",
       "questions": 118,
@@ -257,7 +257,7 @@
       "free": 18,
       "guides": 1,
       "inLastYear": 57,
-      "inWindow": 4,
+      "inWindow": 2,
       "lastSighting": "2026-10-01",
       "name": "Bloomberg",
       "questions": 91,
@@ -283,7 +283,7 @@
       "free": 19,
       "guides": 3,
       "inLastYear": 61,
-      "inWindow": 13,
+      "inWindow": 12,
       "lastSighting": "2026-09-23",
       "name": "Airbnb",
       "questions": 89,
@@ -296,7 +296,7 @@
       "free": 32,
       "guides": 3,
       "inLastYear": 62,
-      "inWindow": 8,
+      "inWindow": 7,
       "lastSighting": "2026-09-09",
       "name": "Snapchat",
       "questions": 89,
@@ -517,7 +517,7 @@
       "free": 9,
       "guides": 4,
       "inLastYear": 32,
-      "inWindow": 5,
+      "inWindow": 4,
       "lastSighting": "2026-09-15",
       "name": "xAI",
       "questions": 43,
@@ -542,7 +542,7 @@
       "dated": 21,
       "free": 14,
       "guides": 1,
-      "inLastYear": 21,
+      "inLastYear": 20,
       "inWindow": 7,
       "lastSighting": "2026-07-29",
       "name": "Point72",
@@ -633,7 +633,7 @@
       "dated": 28,
       "free": 14,
       "guides": 3,
-      "inLastYear": 20,
+      "inLastYear": 19,
       "inWindow": 3,
       "lastSighting": "2026-08-26",
       "name": "Akuna Capital",
@@ -1711,7 +1711,7 @@
   ],
   "difficulty": {
     "easy": 599,
-    "hard": 1002,
+    "hard": 1003,
     "medium": 2632
   },
   "earliestSighting": "2024-05-28",
@@ -1719,13 +1719,13 @@
     {
       "easy": 445,
       "format": "algorithm",
-      "free": 302,
-      "graded": 2499,
-      "hard": 523,
-      "inWindow": 233,
+      "free": 303,
+      "graded": 2500,
+      "hard": 524,
+      "inWindow": 231,
       "label": "Algorithm",
       "medium": 1531,
-      "questions": 2499
+      "questions": 2500
     },
     {
       "easy": 65,
@@ -1733,7 +1733,7 @@
       "free": 6,
       "graded": 297,
       "hard": 53,
-      "inWindow": 38,
+      "inWindow": 17,
       "label": "SQL",
       "medium": 179,
       "questions": 297
@@ -1763,13 +1763,13 @@
     {
       "easy": 0,
       "format": "blog",
-      "free": 1403,
+      "free": 1402,
       "graded": 0,
       "hard": 0,
       "inWindow": 202,
       "label": "Blog",
       "medium": 0,
-      "questions": 1403
+      "questions": 1402
     },
     {
       "easy": 51,
@@ -1777,13 +1777,13 @@
       "free": 68,
       "graded": 608,
       "hard": 80,
-      "inWindow": 71,
+      "inWindow": 70,
       "label": "Object Oriented Programming",
       "medium": 477,
       "questions": 608
     }
   ],
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "latestSighting": "2026-10-05",
   "months": [
     {
@@ -1870,8 +1870,8 @@
       ],
       "formats": {
         "ai-coding": 13,
-        "algorithm": 108,
-        "blog": 30,
+        "algorithm": 109,
+        "blog": 29,
         "object-oriented-programming": 40,
         "sql": 22,
         "system-design": 37
@@ -2511,11 +2511,11 @@
   ],
   "rounds": [
     {
-      "questions": 768,
+      "questions": 769,
       "round": "oa"
     },
     {
-      "questions": 2973,
+      "questions": 2972,
       "round": "phone-screen"
     },
     {
@@ -2604,7 +2604,7 @@
       "easy": 25,
       "graded": 368,
       "hard": 108,
-      "inWindow": 45,
+      "inWindow": 44,
       "medium": 235,
       "questions": 368,
       "topCompanies": [
@@ -2640,7 +2640,7 @@
       "easy": 92,
       "graded": 349,
       "hard": 46,
-      "inWindow": 35,
+      "inWindow": 34,
       "medium": 211,
       "questions": 349,
       "topCompanies": [
@@ -2674,11 +2674,11 @@
     },
     {
       "easy": 19,
-      "graded": 210,
+      "graded": 211,
       "hard": 46,
       "inWindow": 19,
-      "medium": 145,
-      "questions": 210,
+      "medium": 146,
+      "questions": 211,
       "topCompanies": [
         {
           "name": "Google",
@@ -2687,7 +2687,7 @@
         },
         {
           "name": "Amazon",
-          "questions": 19,
+          "questions": 20,
           "slug": "amazon"
         },
         {
@@ -2710,11 +2710,11 @@
     },
     {
       "easy": 38,
-      "graded": 194,
-      "hard": 57,
+      "graded": 195,
+      "hard": 58,
       "inWindow": 23,
       "medium": 99,
-      "questions": 194,
+      "questions": 195,
       "topCompanies": [
         {
           "name": "Amazon",
@@ -2733,7 +2733,7 @@
         },
         {
           "name": "OpenAI",
-          "questions": 9,
+          "questions": 10,
           "slug": "openai"
         },
         {
@@ -2892,7 +2892,7 @@
       "easy": 11,
       "graded": 139,
       "hard": 40,
-      "inWindow": 21,
+      "inWindow": 20,
       "medium": 88,
       "questions": 139,
       "topCompanies": [
@@ -3290,11 +3290,11 @@
     "dated": 3395,
     "free": 1830,
     "futureDated": 0,
-    "gradedDifficulty": 4233,
+    "gradedDifficulty": 4234,
     "guides": 245,
-    "inLastYear": 3141,
-    "inWindow": 689,
-    "labelledTopic": 2477,
+    "inLastYear": 3134,
+    "inWindow": 665,
+    "labelledTopic": 2478,
     "namingARound": 5636,
     "questions": 5636,
     "undated": 2241

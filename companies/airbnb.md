@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **89** |
 | Most recent sighting | Sep 23, 2026 |
-| Reported in the last 90 days | 13 |
+| Reported in the last 90 days | 12 |
 | Most common format | [Algorithm](../formats/algorithm.md) (38% of 89) |
 | Difficulty (easy / medium / hard) | 6 / 54 / 18 |
 | Free to practise | [19](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **89 of 89** questions at Airbnb th
 
 ## Asked here in the last 90 days
 
-**13 sightings** in this window. Newest first.
+**12 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -54,8 +54,6 @@ Which stage each question came from, for the **89 of 89** questions at Airbnb th
 | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Object Oriented Programming | Medium | Online assessment | Aug 30, 2026 |
 | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Object Oriented Programming | Hard | Online assessment | Aug 29, 2026 |
 | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Object Oriented Programming | Medium | Online assessment | Aug 25, 2026 |
-
-<sub>1 more in this window are in the table below.</sub>
 
 ## What they ask about
 

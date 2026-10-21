@@ -521,6 +521,7 @@
  "question:left-comparison-running-counter": "questions/algorithm/left-comparison-running-counter",
  "question:lfu-cache": "questions/object-oriented-programming/lfu-cache",
  "question:linked-list-binary-to-decimal": "questions/algorithm/linked-list-binary-to-decimal",
+ "question:llm-inference-timeout-and-restart-strategy": "questions/algorithm/llm-inference-timeout-and-restart-strategy",
  "question:log-parser-multiline": "questions/algorithm/log-parser-multiline",
  "question:logger-system-ood": "questions/object-oriented-programming/logger-system-ood",
  "question:longest-same-letter-substring": "questions/algorithm/longest-same-letter-substring",

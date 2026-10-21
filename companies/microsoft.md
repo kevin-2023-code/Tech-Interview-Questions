@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **239** |
 | Most recent sighting | Oct 03, 2026 |
-| Reported in the last 90 days | 39 |
+| Reported in the last 90 days | 38 |
 | Most common format | [Algorithm](../formats/algorithm.md) (56% of 239) |
 | Difficulty (easy / medium / hard) | 30 / 130 / 47 |
 | Free to practise | [55](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **239 of 239** questions at Microso
 
 ## Asked here in the last 90 days
 
-**39 sightings** in this window. Newest first.
+**38 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **239 of 239** questions at Microso
 | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | System Design | Hard | Onsite / virtual onsite | Sep 17, 2026 |
 | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | Blog | — | Onsite / virtual onsite | Sep 10, 2026 |
 
-<sub>27 more in this window are in the table below.</sub>
+<sub>26 more in this window are in the table below.</sub>
 
 ## What they ask about
 

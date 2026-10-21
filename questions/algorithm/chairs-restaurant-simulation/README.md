@@ -12,35 +12,31 @@
 
 ## Problem
 
-## Requirements
+A company is setting up a brand-new workroom that starts out with no chairs at all. Your goal is to figure out the smallest number of chairs that must be bought so that every worker who needs a seat always gets one.
 
-```
-calculate_chairs(events)
-```
+Implement `calculate_chairs(events)`. The parameter `events` is an array of `n` strings, and each string is an independent simulation made up only of the characters `C`, `R`, `U` and `L`, processed from left to right:
 
-`events` is an array of input strings. For each input string, walk through its characters and return an array containing the final total number of chairs for each string.
+* `C` - A newly arriving employee enters the workroom. They sit in a free chair if one exists; if none is free, a new chair has to be bought.
+* `R` - An employee heads off to a meeting room, which frees the chair they were using.
+* `U` - An employee comes back from a meeting room. They sit in a free chair if one exists; if none is free, a new chair has to be bought.
+* `L` - An employee departs from the workroom, which frees the chair they were using.
 
-- `C` (customer arrives): if a chair is available, reuse it; otherwise buy a new chair.
-- `R` (customer leaves): if any chairs exist, return one to the available pool.
-- `U` behaves like `C` — seat a customer.
-- `L` behaves like `R` — release a chair back to the available pool.
+Return an integer array of length `n` in which the `i`-th entry is the minimum number of chairs required to handle the `i`-th simulation. Each simulation starts again from an empty workroom with zero chairs.
 
-### Example (as reported)
+Example 1:
 
 ```text
-Input:
-1
-CRUL
+Input: simulation = ["CRUL"]
 
-Output:
-1
+Output: [1]
 ```
 
-## Notes
+Explanation: The arriving employee causes one chair to be bought; that chair is freed by `R`, reused by `U`, and freed again by `L`, so one chair is enough.
 
-- Because `C` and `U` have matching behavior, as do `R` and `L`, the initial version may have represented `C/R` and `U/L` as separate categories, such as distinct seating areas.
-- A typical implementation combines `C` with `U`; if separate totals are expected for each category, clarify that requirement before coding.
-- Special cases include an empty string, which produces 0, and an `R` or `L` event when no chair can be released, which should simply do nothing rather than fail.
+Constraints:
+
+* $$1 \le n \le 100$$
+* $$1 \le \text{length of each simulation}[i] \le 10000$$
 
 ## Hints
 

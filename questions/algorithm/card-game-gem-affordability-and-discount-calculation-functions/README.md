@@ -12,79 +12,120 @@
 
 ## Problem
 
-Steve is building a board game played with cards, in which participants trade gems of different colors.
+Your task is to build a small system that lets a player buy cards by spending colored gems.
 
-Write an entry point named `solve` that accepts three arguments in this order — `price`, `gems`, and `card_count` — and covers three distinct pieces of logic, reporting the outcome of each one.
+There are exactly five gem colors: `BLUE`, `WHITE`, `GREEN`, `RED`, and `YELLOW`.
 
-1. **Affordability check.** Using the card's `price` and the player's `gems`, decide whether the card can be paid for. Produce `True` when it can, and `False` when it cannot.
+A **Card** carries two pieces of data:
+- `color`: the color the card itself belongs to.
+- `cost[color]`: the number of gems of each color needed to acquire it. Any color not listed counts as 0.
 
-2. **Purchase.** Given the same `price` and `gems`, if the card is affordable, take the appropriate number of gems out of the player's stock and report the player's updated gem counts.
+A **Player** carries:
+- `gems[color]`: how many gems of each color the player currently holds. Any color not listed counts as 0.
+- `hand`: the list of cards the player already owns.
 
-3. **Discounts.** Given `card_count` — a list of integers where element $$i$$ is how many cards of color $$i$$ the player holds — return a list of integers giving the discount for each color.
+### Requirement 1: canPurchase
 
-You should also be ready to explain why you picked the data structures you used.
+Write `canPurchase(player, card)`. It returns `true` when the player holds enough gems to cover what the card costs, and `false` when they do not.
 
-**Input size and limits**
+### Requirement 2: purchase
 
-* At most 5 colors.
-* A card can call for as many as 10 gems.
+Write `purchase(player, card)`.
+- When the player is able to afford the card, it must:
+  1. Subtract the gems that the card requires from `player.gems`.
+  2. Append the card to `player.hand`.
+  3. Return `true`.
+- When the player cannot afford it, leave the player's state completely untouched and return `false`.
 
-Sample Input:
+### Requirement 3: Discounts
 
-```plaintext
-price = [1, 1, 1, 0, 2]
-gems = [2, 1, 0, 3, 0]
-card count = [3, 0, 1, 1, 2]
-```
+Extend the system so that cards already in the player's hand make new cards cheaper.
+- For each color, the discount equals the count of cards of that color currently in `hand`.
+- When a new card is bought, the discount is applied color by color to its cost:
+  - $$pay[color] = \max(cost[color] - discount[color],\ 0)$$
+- A purchase is possible only if, for every color, the player has at least $$pay[color]$$ gems.
 
-Sample Output:
+For instance, suppose the hand contains 2 WHITE cards and 1 RED card. Then `discount[WHITE]=2` and `discount[RED]=1`. Buying a card whose cost is `WHITE=4, RED=1` requires paying `WHITE=max(4-2,0)=2` and `RED=max(1-1,0)=0`, i.e. 2 WHITE gems in total.
 
-```plaintext
-can_afford: True
-updated gems: [1, 0, 0, 3, 0]
-discounts: [1, 0, 0, 0, 1]
-```
+### I/O Contract
 
-## Examples
+Provide two functions (or equivalent methods):
+- `canPurchase(player, card) -> bool`
+- `purchase(player, card) -> bool`
 
-**Example**
+Both `player.gems` and `player.hand` must be kept in a correct state across calls.
+
+Example 1:
 
 ```text
 Input:
-5
-1 1 1 0 2
-2 1 0 3 0
-3 0 1 1 2
-Output:
-can_afford: True
-updated gems: [1, 0, 0, 3, 0]
-discounts: [1, 0, 0, 0, 1]
+(conceptual)
+Player gems: {RED:5}
+Hand: []
+Card: color=RED cost={RED:2}
+Call: purchase
+
+Output: true (after: RED=3, hand size +1)
 ```
 
-```trueviz
-{"v":1,"kind":"example","title":"Card Game Gems","input":{"price":"[1, 1, 1, 0, 2]","gems":"[2, 1, 0, 3, 0]","card_count":"[3, 0, 1, 1, 2]"},"steps":[{"say":"The card's price per color, the player's gems per color, and how many cards of each color the player holds.","panels":[{"type":"array","id":"price","label":"price","values":["1","1","1","0","2"]},{"type":"array","id":"gems","label":"gems","values":["2","1","0","3","0"]},{"type":"array","id":"card_count","label":"card_count","values":["3","0","1","1","2"]}]},{"say":"Total gems = 2+1+0+3+0 = 6. Total price = 1+1+1+0+2 = 5. Since 6 >= 5, the card is affordable.","panels":[{"type":"array","id":"gems","label":"gems","values":["2","1","0","3","0"],"marks":{"found":[0,1,2,3,4]}},{"type":"array","id":"price","label":"price","values":["1","1","1","0","2"],"marks":{"found":[0,1,2,3,4]}}]},{"say":"Pay color by color: take the price out of the gems for each color, never going below 0.","panels":[{"type":"array","id":"gems","label":"gems","values":["2","1","0","3","0"],"marks":{"read":[0,1,2,3,4]}},{"type":"array","id":"price","label":"price","values":["1","1","1","0","2"],"marks":{"read":[0,1,2,3,4]}}]},{"say":"Color 0: 2-1=1. Color 1: 1-1=0. Color 2: 0-1 stays 0. Color 3: 3-0=3. Color 4: 0-2 stays 0.","panels":[{"type":"array","id":"updated","label":"updated gems","values":["1","0","0","3","0"],"marks":{"found":[0,1,2,3,4]}}]},{"say":"Discounts: each color's card count is halved, rounding down.","panels":[{"type":"array","id":"card_count","label":"card_count","values":["3","0","1","1","2"],"marks":{"read":[0,1,2,3,4]}},{"type":"array","id":"discounts","label":"discounts","values":["1","0","0","0","1"],"marks":{"found":[0,1,2,3,4]}}]},{"say":"Answer: can_afford True, updated gems [1, 0, 0, 3, 0], discounts [1, 0, 0, 0, 1].","panels":[{"type":"array","id":"updated","label":"updated gems","values":["1","0","0","3","0"],"marks":{"found":[0,1,2,3,4]}},{"type":"array","id":"discounts","label":"discounts","values":["1","0","0","0","1"],"marks":{"found":[0,1,2,3,4]}}]}],"expected":"can_afford: True\nupdated gems: [1, 0, 0, 3, 0]\ndiscounts: [1, 0, 0, 0, 1]"}
-```
+Explanation: The player holds 5 RED gems, which covers the cost of 2, so the purchase succeeds, leaving 3 RED gems and one more card in hand.
+
+### Test Cases
+
+1. **Basic affordable**
+   - Player gems: `RED=5`, hand empty
+   - Card cost: `RED=2`
+   - `purchase=true`; afterwards `RED=3`, hand grows by 1
+
+2. **Basic not affordable**
+   - Player gems: `GREEN=1`
+   - Card cost: `GREEN=2`
+   - `canPurchase=false`, `purchase=false`; state is unchanged
+
+3. **Affordable due to discount**
+   - Player gems: `WHITE=2`
+   - Hand: two WHITE cards (`discount[WHITE]=2`)
+   - Card cost: `WHITE=4`
+   - Pay `WHITE=2`; `purchase=true`; afterwards `WHITE=0`
+
+4. **Discount can reduce cost to zero**
+   - Player gems: `RED=0`
+   - Hand: three RED cards (`discount[RED]=3`)
+   - Card cost: `RED=2`
+   - Pay `RED=0`; `purchase=true`; afterwards `RED=0`
+
+5. **Multi-color discounts**
+   - Player gems: `WHITE=2, RED=0`
+   - Hand: two WHITE cards and one RED card
+   - Card cost: `WHITE=4, RED=1`
+   - Pay `WHITE=2, RED=0`; `purchase=true`
+
+Constraints:
+
+* The number of colors is fixed at 5.
+* `gems[color]` and `cost[color]` are non-negative integers and may be as large as $$10^9$$ (range $$0 \sim 10^9$$).
+* `hand` may be large, yet every purchase check must run in $$O(\#colors)$$ time.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-The problem asks for three separate functions: affordability, purchase, and discount calculation, handle each independently.
+Think of each owned card as a permanent discount on one gem color, so the effective cost of a new card is its listed cost minus the count of owned cards matching that color, never below zero.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For affordability, compare the total gem count to the price, for purchase, subtract the price from gems if affordable, for discount, apply the discount rule to the price.
+Count owned cards per color with a hash map or fixed five-slot array, then compare the discounted cost against the player's gems color by color.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Be careful with edge cases: insufficient gems, zero price, or discount making price negative (clamp to zero if needed).
+Watch the edge cases where a discount exceeds the cost (clamp at 0) and where a color is missing from either the cost or the gems (treat as 0).
 
 </details>
 

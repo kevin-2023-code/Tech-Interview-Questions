@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **145** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 16 |
+| Reported in the last 90 days | 15 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 145) |
 | Difficulty (easy / medium / hard) | 21 / 93 / 19 |
 | Free to practise | [43](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **145 of 145** questions at Snowfla
 
 ## Asked here in the last 90 days
 
-**16 sightings** in this window. Newest first.
+**15 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **145 of 145** questions at Snowfla
 | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | Blog | — | Phone screen | Aug 17, 2026 |
 | [Time Range Event Counter](https://trueinterview.io/questions/time-range-event-counter) | Algorithm | Medium | Phone screen | Aug 16, 2026 |
 
-<sub>4 more in this window are in the table below.</sub>
+<sub>3 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -157,8 +157,8 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | — | 🆕 Sep 17, 2026 |
 | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Algorithm | Medium | 🆕 Sep 17, 2026 |
 | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | 🆕 Sep 17, 2026 |
-| [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Algorithm | Medium | 🆕 Sep 05, 2026 |
-| [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Algorithm | Hard | 🆕 Sep 05, 2026 |
+| [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Algorithm | Medium | Sep 05, 2026 |
+| [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Algorithm | Hard | Sep 05, 2026 |
 | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Algorithm | Hard | Sep 03, 2026 |
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Aug 31, 2026 |
 | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | System Design | Medium | Aug 24, 2026 |

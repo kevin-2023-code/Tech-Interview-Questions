@@ -174,7 +174,7 @@ Here are some questions reported by recent candidates:
 - How would you manage GPU workloads on Kubernetes, and what changes when nodes fail?
 - An inference request has hung on a worker; when do you time it out, restart it or resume it from saved state?
 
-- [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy)
+- [LLM Inference Timeout and Restart Strategy](../../questions/algorithm/llm-inference-timeout-and-restart-strategy/README.md)
 - [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf)
 
 ## Technical deep dive

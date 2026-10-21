@@ -12,57 +12,35 @@
 
 ## Problem
 
-Design the notification system for Reddit. Whenever a triggering event occurs, such as a reply, a mention, a moderator action, or a post becoming hot in a subreddit the user subscribes to, the system must generate a notification and deliver it to that user.
+Design the notification system for Reddit. When something relevant happens, such as someone replying to a user's post, replying to one of their comments, mentioning their username, or a moderator taking an action that concerns them, the user should be notified promptly. Each notification must show up in an in-app inbox and, where it makes sense, also be delivered as a push notification to the devices the user has registered.
 
-## Requirements
-
-- **Functional**:
-  - Generate a notification whenever a triggering event takes place (reply, mention, mod action, hot post in a subscribed subreddit).
-  - Deliver notifications over the in-app, push (APNs / FCM) and email channels, according to each user's preferences.
-  - Support bundling: several replies in the same thread should collapse into a single digest notification.
-  - Support throttling and quiet hours. Quiet hours are a user preference, and they must be honored before anything is sent as a push notification.
-- **Scale anchor**: hundreds of millions of users, with peak traffic in which events produce tens of millions of notifications per minute. Use this to inform the design, but the discussion centers on the decisions below rather than on capacity math alone.
-
-## Decisions the interviewer will push on
-
-1. Event ingestion: should producers make a synchronous call, or publish to an asynchronous event bus?
-2. Preference resolution: look preferences up inline, or maintain a precomputed per-user filter table?
-3. Channel selection across in-app, push and email, and how the dispatchers are laid out.
-4. Bundling: sliding-window aggregation versus a scheduled digest.
-5. Throttling and rate limiting, both per user and per channel (APNs and FCM enforce hard quotas).
-6. Deduplication, when one event would otherwise trigger multiple notifications.
+The system has to honour each user's notification preferences, must not spam users with duplicate notifications, and must remain reliable when hot threads and very large communities generate sudden bursts of activity.
 
 ## Interview Notes
 
-- Expect to sketch the overall topology quickly; the interviewer will not wait long on a slow diagram.
-- The interviewer almost always raises the scenario of a high-fanout event (for example, a celebrity post that notifies millions of followers) and how preference resolution holds up under it.
-- Be ready with failure and quota handling that is specific to each channel (APNs queue depth, FCM error codes, email bounce handling); generic answers such as "retry with backoff" do not land well.
-- Bundling design is a likely deep-dive.
-
-### What interviewers focus on
-
-- Supporting several delivery channels beyond push, such as email and SMS, with fallback from one channel to another.
+- The discussion is expected to fit a 45 to 60 minute system design interview.
+- Keep the scope narrow: this is about routing and delivering notifications. Reddit's full home feed, its chat system and its recommendation engine are out of scope.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think about the different delivery channels (in-app inbox vs push) and how to decide which channel to use for each notification type.
+Think of the flow as events produced by actions, turned into notifications by a fan-out stage, then delivered through channels with different reliability needs.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Consider a fan-out pattern where a single event (e.g., a reply) generates notifications for multiple users, and a queue to decouple event production from delivery.
+Use a message queue between event producers and notification workers, a per-user inbox store, a preferences service, and a dedupe key so the same event never notifies twice.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch out for the need to deduplicate notifications and handle user preferences (e.g., opt-out of push for certain events).
+Cover hot threads and large communities with batching or aggregation (for example '10 replies'), push delivery via APNs or FCM with retries, rate limiting per user, and read or unread state consistency.
 
 </details>
 

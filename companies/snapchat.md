@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **89** |
 | Most recent sighting | Sep 09, 2026 |
-| Reported in the last 90 days | 8 |
+| Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (37% of 89) |
 | Difficulty (easy / medium / hard) | 10 / 46 / 14 |
 | Free to practise | [32](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **89 of 89** questions at Snapchat 
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -49,7 +49,6 @@ Which stage each question came from, for the **89 of 89** questions at Snapchat 
 | [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Object Oriented Programming | Medium | Phone screen | Aug 28, 2026 |
 | [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Algorithm | Hard | Phone screen | Aug 28, 2026 |
 | [Design a Pre-Login Risk and Challenge Service](https://trueinterview.io/questions/design-a-pre-login-risk-and-challenge-service) | System Design | Medium | Onsite / virtual onsite | Aug 22, 2026 |
-| [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | SQL | Easy | Phone screen | Jul 22, 2026 |
 
 ## What they ask about
 

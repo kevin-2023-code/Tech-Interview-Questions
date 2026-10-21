@@ -18,18 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 736 | 44% | ██████████████ | 104 |
-| [Blog](../formats/blog.md) | 307 | 18% | ██████ | 307 |
+| [Algorithm](../formats/algorithm.md) | 737 | 44% | ██████████████ | 105 |
+| [Blog](../formats/blog.md) | 306 | 18% | ██████ | 306 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 251 | 15% | █████ | 31 |
 | [System Design](../formats/system-design.md) | 245 | 15% | █████ | 20 |
 | [AI Coding](../formats/ai-coding.md) | 76 | 5% | █ | 8 |
 | [SQL](../formats/sql.md) | 64 | 4% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **189 / 872 / 311**, over the rows the catalog has graded. 471 of the 1,679 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **189 / 872 / 312**, over the rows the catalog has graded. 471 of the 1,679 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **732 questions in this cut that carry a topic label** (44% of it):
+Of the **733 questions in this cut that carry a topic label** (44% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -41,14 +41,14 @@ Of the **732 questions in this cut that carry a topic label** (44% of it):
 | `dynamic-programming` | 52 | 7% | ████ |
 | `sorting` | 51 | 7% | ████ |
 | `trees` | 51 | 7% | ████ |
-| `math` | 49 | 7% | ████ |
+| `math` | 50 | 7% | ████ |
 | `backtracking` | 48 | 7% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**180 sightings** across this cut. Newest first.
+**173 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **732 questions in this cut that carry a topic label** (44% of it):
 | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Instacart | Blog | Sep 18, 2026 |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Rippling | Object Oriented Programming | Sep 18, 2026 |
 
-<sub>168 more in this window are in the table below.</sub>
+<sub>161 more in this window are in the table below.</sub>
 
 ---
 
@@ -146,8 +146,8 @@ Of the **732 questions in this cut that carry a topic label** (44% of it):
 | **Stripe** | [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve) | Medium | 🆕 Sep 07, 2026 |
 | **Instacart** | [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | — | 🆕 Sep 06, 2026 |
 | **Instacart** | [Calculate a Basket Total from Delimited Product Records](https://trueinterview.io/questions/calculate-a-basket-total-from-delimited-product-records) | Easy | 🆕 Sep 06, 2026 |
-| **Snowflake** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Medium | 🆕 Sep 05, 2026 |
-| **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | 🆕 Sep 05, 2026 |
+| **Snowflake** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Medium | Sep 05, 2026 |
+| **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | Sep 05, 2026 |
 | **Airbnb** | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | Medium | Sep 04, 2026 |
 | **Reddit** | [Design Add, Overwrite, Undo, and Redo for Billing State](https://trueinterview.io/questions/design-add-overwrite-undo-and-redo-for-billing-state) | Medium | Sep 04, 2026 |
 | **Verkada** | [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | Medium | Sep 04, 2026 |

@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,403 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **OpenAI** | [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) | — | — |
 | **ByteDance** | [Explain your most impactful project trade-offs](https://trueinterview.io/questions/explain-your-most-impactful-project-trade-offs) | — | — |
 | **Pinterest** | [Explain your ML project end-to-end](https://trueinterview.io/questions/explain-your-ml-project-end-to-end) | — | — |
 | **Meta** | [Explain your main growth area](https://trueinterview.io/questions/explain-your-main-growth-area) | — | — |
@@ -260,5 +259,6 @@
 | **Coinbase** | [Compute wallet-link probabilities, expectation, and conditionals](https://trueinterview.io/questions/compute-wallet-link-probabilities-and-conditionals) | — | — |
 | **Capital One** | [Compute unit economics and insurance break-even](https://trueinterview.io/questions/compute-unit-economics-and-insurance-break-even) | — | — |
 | **Capital One** | [Compute two conditional probability scenarios](https://trueinterview.io/questions/compute-two-conditional-probability-scenarios) | — | — |
+| **DoorDash** | [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | — | — |
 
 <sub>[← Page 4](blog-4.md) · Page 5 of 6 · [Page 6 →](blog-6.md)</sub>

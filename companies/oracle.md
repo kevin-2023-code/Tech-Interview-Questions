@@ -140,8 +140,8 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | Blog | — | 🆕 Sep 11, 2026 |
 | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | 🆕 Sep 11, 2026 |
 | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | SQL | Medium | 🆕 Sep 09, 2026 |
-| [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | System Design | Hard | 🆕 Sep 05, 2026 |
-| [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | System Design | Hard | 🆕 Sep 05, 2026 |
+| [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | System Design | Hard | Sep 05, 2026 |
+| [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | System Design | Hard | Sep 05, 2026 |
 | [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | Sep 03, 2026 |
 | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | Aug 28, 2026 |
 | [Take Ownership Through Ambiguity](https://trueinterview.io/questions/take-ownership-through-ambiguity) | Blog | — | Aug 21, 2026 |

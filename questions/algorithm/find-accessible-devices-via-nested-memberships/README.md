@@ -12,92 +12,83 @@
 
 ## Problem
 
-Imagine an access-control system where groups can contain both users and other groups. You are given three mappings:
+An access-control model is built from groups that can be nested. A group may list users as direct members, and it may also list other groups as subgroups. Each user can have several devices assigned to them. Granting access to a group extends that access to every user who belongs to the group directly or to any subgroup reachable from it, at any depth, and through those users to all of their devices.
 
-- `groupChildren`: a map from a group ID to the list of direct subgroup IDs inside it.
-- `groupUsers`: a map from a group ID to the list of user IDs directly assigned to it.
-- `userDevices`: a map from a user ID to the list of device IDs assigned to that user.
+Implement `accessible_devices(groupChildren, groupUsers, userDevices, startGroups)`, where:
 
-Access starts from every ID listed in `startGroups`. For each accessible group, its direct users gain access, and the same process is repeated for all subgroups reachable through `groupChildren`. Cycles may exist in the group graph, so each group should be processed at most once. Every reachable user contributes every device ID from `userDevices`. Return the unique device IDs that become accessible, sorted lexicographically. A missing key in any mapping should be treated as an empty list.
+- `groupChildren` maps each `groupId` to a list of its subgroup ids.
+- `groupUsers` maps each `groupId` to a list of the user ids it directly contains.
+- `userDevices` maps each `userId` to a list of the device ids assigned to that user.
+- `startGroups` is a list of the group ids that have been granted access.
+
+Return a list of the distinct device ids reachable from `startGroups` after recursively expanding subgroup membership, sorted in ascending order. The subgroup relationships may form cycles (for example, `A` contains `B` while `B` contains `A`), so the expansion must terminate rather than loop forever. Any group or user absent from one of the mappings is treated as having no subgroups, no users, or no devices, as appropriate.
 
 Example 1:
 
 ```text
-Input:
-groupChildren = {"R1": ["R2", "R3"], "R2": [], "R3": []}
-groupUsers = {"R1": ["U10"], "R2": ["U11"], "R3": ["U12"]}
-userDevices = {"U10": ["devA"], "U11": ["devB", "devC"], "U12": ["devD"]}
-startGroups = ["R1"]
+Input: groupChildren = {'Eng': ['Web', 'Ops'], 'Web': ['Ops']}, groupUsers = {'Web': ['alice'], 'Ops': ['bob']}, userDevices = {'alice': ['L7', 'P2'], 'bob': ['P2', 'T9']}, startGroups = ['Eng']
 
-Output:
-["devA", "devB", "devC", "devD"]
+Output: ['L7', 'P2', 'T9']
 ```
 
-Explanation: Access expands from `R1` into `R2` and `R3`; the devices from `U10`, `U11`, and `U12` are collected and returned once each.
+Explanation: From `Eng` the groups `Web` and `Ops` are reachable, bringing in users `alice` and `bob`; their devices combine to `L7`, `P2`, `T9`, with the shared `P2` listed once.
 
 ```trueviz
-{"v":1,"kind":"example","title":"Accessible devices via nested groups","input":{"group_children":"{\"R1\": [\"R2\", \"R3\"], \"R2\": [], \"R3\": []}","group_users":"{\"R1\": [\"U10\"], \"R2\": [\"U11\"], \"R3\": [\"U12\"]}","user_devices":"{\"U10\": [\"devA\"], \"U11\": [\"devB\", \"devC\"], \"U12\": [\"devD\"]}","start_groups":"[\"R1\"]"},"steps":[{"say":"Access starts at group R1. R1 contains subgroups R2 and R3.","panels":[{"type":"tree","id":"groups","label":"groupChildren","nodes":[{"id":"R1","label":"R1"},{"id":"R2","label":"R2"},{"id":"R3","label":"R3"}],"edges":[{"from":"R1","to":"R2"},{"from":"R1","to":"R3"}],"root":"R1","marks":{"found":["R1"]}},{"type":"array","id":"starts","label":"startGroups","values":["R1"],"marks":{"found":[0]}}]},{"say":"Each group lists its direct users: R1 has U10, R2 has U11, R3 has U12.","panels":[{"type":"tree","id":"groups","label":"groupChildren","nodes":[{"id":"R1","label":"R1"},{"id":"R2","label":"R2"},{"id":"R3","label":"R3"}],"edges":[{"from":"R1","to":"R2"},{"from":"R1","to":"R3"}],"root":"R1","marks":{"found":["R1"]}},{"type":"map","id":"gu","label":"groupUsers","entries":[{"key":"R1","value":"[\"U10\"]"},{"key":"R2","value":"[\"U11\"]"},{"key":"R3","value":"[\"U12\"]"}],"layout":"table"}]},{"say":"Each user lists their devices: U10 has devA, U11 has devB and devC, U12 has devD.","panels":[{"type":"map","id":"ud","label":"userDevices","entries":[{"key":"U10","value":"[\"devA\"]"},{"key":"U11","value":"[\"devB\", \"devC\"]"},{"key":"U12","value":"[\"devD\"]"}],"layout":"table"}]},{"say":"R1 is reachable, so its user U10 contributes device devA.","panels":[{"type":"tree","id":"groups","label":"groupChildren","nodes":[{"id":"R1","label":"R1"},{"id":"R2","label":"R2"},{"id":"R3","label":"R3"}],"edges":[{"from":"R1","to":"R2"},{"from":"R1","to":"R3"}],"root":"R1","marks":{"found":["R1"]}},{"type":"map","id":"gu","label":"groupUsers","entries":[{"key":"R1","value":"[\"U10\"]"},{"key":"R2","value":"[\"U11\"]"},{"key":"R3","value":"[\"U12\"]"}],"layout":"table"},{"type":"array","id":"devs","label":"collected devices","values":["devA"],"marks":{"found":[0]}}]},{"say":"R2 is reachable through R1, so U11 contributes devB and devC.","panels":[{"type":"tree","id":"groups","label":"groupChildren","nodes":[{"id":"R1","label":"R1"},{"id":"R2","label":"R2"},{"id":"R3","label":"R3"}],"edges":[{"from":"R1","to":"R2"},{"from":"R1","to":"R3"}],"root":"R1","marks":{"found":["R1","R2"]}},{"type":"map","id":"gu","label":"groupUsers","entries":[{"key":"R1","value":"[\"U10\"]"},{"key":"R2","value":"[\"U11\"]"},{"key":"R3","value":"[\"U12\"]"}],"layout":"table"},{"type":"array","id":"devs","label":"collected devices","values":["devA","devB","devC"],"marks":{"found":[0,1,2]}}]},{"say":"R3 is reachable through R1, so U12 contributes devD.","panels":[{"type":"tree","id":"groups","label":"groupChildren","nodes":[{"id":"R1","label":"R1"},{"id":"R2","label":"R2"},{"id":"R3","label":"R3"}],"edges":[{"from":"R1","to":"R2"},{"from":"R1","to":"R3"}],"root":"R1","marks":{"found":["R1","R2","R3"]}},{"type":"map","id":"gu","label":"groupUsers","entries":[{"key":"R1","value":"[\"U10\"]"},{"key":"R2","value":"[\"U11\"]"},{"key":"R3","value":"[\"U12\"]"}],"layout":"table"},{"type":"array","id":"devs","label":"collected devices","values":["devA","devB","devC","devD"],"marks":{"found":[0,1,2,3]}}]},{"say":"All reachable devices, deduplicated and sorted: devA, devB, devC, devD.","panels":[{"type":"array","id":"devs","label":"result","values":["devA","devB","devC","devD"],"marks":{"found":[0,1,2,3]}}]}],"expected":"[\"devA\", \"devB\", \"devC\", \"devD\"]"}
+{"v":1,"kind":"example","title":"Accessible devices via nested groups","input":{"groupChildren":"{'Eng': ['Web', 'Ops'], 'Web': ['Ops']}","groupUsers":"{'Web': ['alice'], 'Ops': ['bob']}","userDevices":"{'alice': ['L7', 'P2'], 'bob': ['P2', 'T9']}","startGroups":"['Eng']"},"steps":[{"say":"Groups contain subgroups and users, and users own devices. Access is granted to the group Eng.","panels":[{"type":"graph","id":"g","label":"groups, users and devices","nodes":[{"id":"Eng","label":"Eng"},{"id":"Web","label":"Web"},{"id":"Ops","label":"Ops"},{"id":"alice","label":"alice"},{"id":"bob","label":"bob"},{"id":"L7","label":"L7"},{"id":"P2","label":"P2"},{"id":"T9","label":"T9"}],"edges":[{"from":"Eng","to":"Web"},{"from":"Eng","to":"Ops"},{"from":"Web","to":"Ops"},{"from":"Web","to":"alice"},{"from":"Ops","to":"bob"},{"from":"alice","to":"L7"},{"from":"alice","to":"P2"},{"from":"bob","to":"P2"},{"from":"bob","to":"T9"}],"directed":true,"marks":{"read":["Eng"]}}]},{"say":"Eng contains Web and Ops, and Web also contains Ops, so Eng reaches both Web and Ops.","panels":[{"type":"graph","id":"g","label":"groups, users and devices","nodes":[{"id":"Eng","label":"Eng"},{"id":"Web","label":"Web"},{"id":"Ops","label":"Ops"},{"id":"alice","label":"alice"},{"id":"bob","label":"bob"},{"id":"L7","label":"L7"},{"id":"P2","label":"P2"},{"id":"T9","label":"T9"}],"edges":[{"from":"Eng","to":"Web"},{"from":"Eng","to":"Ops"},{"from":"Web","to":"Ops"},{"from":"Web","to":"alice"},{"from":"Ops","to":"bob"},{"from":"alice","to":"L7"},{"from":"alice","to":"P2"},{"from":"bob","to":"P2"},{"from":"bob","to":"T9"}],"directed":true,"marks":{"read":["Eng"],"found":["Web","Ops"],"dim":["alice","bob","L7","P2","T9"]}}]},{"say":"Web holds the user alice and Ops holds the user bob, so both users are covered.","panels":[{"type":"graph","id":"g","label":"groups, users and devices","nodes":[{"id":"Eng","label":"Eng"},{"id":"Web","label":"Web"},{"id":"Ops","label":"Ops"},{"id":"alice","label":"alice"},{"id":"bob","label":"bob"},{"id":"L7","label":"L7"},{"id":"P2","label":"P2"},{"id":"T9","label":"T9"}],"edges":[{"from":"Eng","to":"Web"},{"from":"Eng","to":"Ops"},{"from":"Web","to":"Ops"},{"from":"Web","to":"alice"},{"from":"Ops","to":"bob"},{"from":"alice","to":"L7"},{"from":"alice","to":"P2"},{"from":"bob","to":"P2"},{"from":"bob","to":"T9"}],"directed":true,"marks":{"found":["Eng","Web","Ops","alice","bob"],"dim":["L7","P2","T9"]}}]},{"say":"alice owns L7 and P2; bob owns P2 and T9. P2 is shared, so it counts once.","panels":[{"type":"graph","id":"g","label":"groups, users and devices","nodes":[{"id":"Eng","label":"Eng"},{"id":"Web","label":"Web"},{"id":"Ops","label":"Ops"},{"id":"alice","label":"alice"},{"id":"bob","label":"bob"},{"id":"L7","label":"L7"},{"id":"P2","label":"P2"},{"id":"T9","label":"T9"}],"edges":[{"from":"Eng","to":"Web"},{"from":"Eng","to":"Ops"},{"from":"Web","to":"Ops"},{"from":"Web","to":"alice"},{"from":"Ops","to":"bob"},{"from":"alice","to":"L7"},{"from":"alice","to":"P2"},{"from":"bob","to":"P2"},{"from":"bob","to":"T9"}],"directed":true,"marks":{"found":["Eng","Web","Ops","alice","bob","L7","P2","T9"]}}]},{"say":"The distinct reachable devices, sorted, are L7, P2, T9.","panels":[{"type":"array","id":"out","label":"accessible devices","values":["L7","P2","T9"],"marks":{"found":[0,1,2]}}]}],"expected":"[\"L7\", \"P2\", \"T9\"]"}
 ```
 
 
 Example 2:
 
 ```text
-Input:
-groupChildren = {"P": ["Q"], "Q": ["R"], "R": ["P"]}
-groupUsers = {"P": ["alice"], "Q": ["bob", "alice"], "R": ["carol"]}
-userDevices = {"alice": ["tab", "phone"], "bob": ["phone", "watch"], "carol": []}
-startGroups = ["P"]
+Input: groupChildren = {'X': ['Y'], 'Y': ['X'], 'Z': ['X']}, groupUsers = {'Y': ['u2'], 'Z': ['u9']}, userDevices = {'u2': ['dB', 'dA'], 'u9': ['dZ']}, startGroups = ['X']
 
-Output:
-["phone", "tab", "watch"]
+Output: ['dA', 'dB']
 ```
 
-Explanation: The cycle `P -> Q -> R -> P` is handled without infinite traversal, and duplicate user or device IDs are removed before sorting.
+Explanation: `X` and `Y` point at each other, so each is expanded only once; `Z` is never reached from `X`, so `u9` and `dZ` are excluded, and `X` has no entry in `groupUsers`, so it contributes no users.
 
 Example 3:
 
 ```text
-Input:
-groupChildren = {"Z1": []}
-groupUsers = {"Z1": ["u1"]}
-userDevices = {}
-startGroups = ["Z1"]
+Input: groupChildren = {'G': []}, groupUsers = {'G': ['u']}, userDevices = {'u': ['d']}, startGroups = []
 
-Output:
-[]
+Output: []
 ```
 
-Explanation: The only reachable user has no entry in `userDevices`, so no devices are accessible.
+Explanation: No group is granted access, so no device is reachable.
 
 Constraints:
 
-* $$0 \le m \le 250000$$, where `m` is the total number of subgroup references, group-user memberships, and user-device assignments combined.
-* The group graph may contain cycles, and a mapping list may contain duplicate IDs.
-* All IDs are strings.
-* Missing keys are equivalent to empty lists.
-* The traversal should run in near-linear time with respect to the number of reachable relationships.
+* `0 <= total number of subgroup links + group-user memberships + user-device assignments <= 200000`
+* The group graph may contain cycles and repeated references.
+* Every id is a string.
+* The traversal should run in time close to linear in the size of the reachable portion of the input.
+
+## Interview Notes
+
+The question tests graph traversal combined with set-based aggregation: expanding nested group memberships safely in the presence of cycles, and mapping the resulting users to their devices.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Treat groups as nodes in a directed graph and traverse from the start groups, collecting users and their devices along the way.
+Groups form a graph through subgroup links, so the set of reachable groups from the starting groups decides which users and devices are accessible.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use DFS or BFS with a visited set for groups to handle cycles, then union the devices of all reachable users.
+Traverse with BFS or DFS from every start group using a visited set, collecting users from groupUsers and then their devices from userDevices.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for cycles in groupChildren and for users or devices that appear in multiple groups, deduplicate the final device list.
+Guard against cycles or shared subgroups with the visited set and deduplicate devices, and handle missing keys in the maps.
 
 </details>
 

@@ -12,72 +12,47 @@
 
 ## Problem
 
-## 1D Players and a Watcher With Direction Switches
+Picture a straight road whose coordinates run from `0` up to `L`. On it stand `N` players; the `i`-th player begins at coordinate `pos[i]`.
 
-On a line segment from `0` to `L`, `N` players start at initial positions `pos[i]`. Each player tries to move to the right at a constant speed of 1 unit per second. A watcher also moves along the segment at the same speed, starting at `w0` with an initial facing direction (`"left"` or `"right"`). The watcher toggles its direction at every time point in the unordered list `switchTimes`. Additionally, the watcher stays within the segment: if it reaches `0` or `L`, it reverses direction.
+A single watcher also patrols the road. It begins at coordinate `w0`, and it always starts out facing left (so `initialDir` always denotes left). Each second the watcher advances one unit in whichever direction it currently faces. Its field of view depends on that direction: while facing left it sees every player located at a coordinate `<=` its own current coordinate, and while facing right it sees every player located at a coordinate `>=` its own current coordinate.
 
-At any moment, a player is **watched** if the player lies in the direction the watcher is currently facing, relative to the watcher’s position:
-- If the watcher faces **right**, it watches all players with position ≥ its current position.
-- If the watcher faces **left**, it watches all players with position ≤ its current position.
+Players travel only rightward, at most one unit per second. At the start of each second, any player inside the watcher's field of view is frozen and stays put for that whole second; every player outside the field of view steps one unit to the right. Once a player arrives at `L`, it has finished and stops moving for good.
 
-A watched player is frozen and cannot move. The simulation runs from time `0` to `T`. A player **reaches the goal** when its position becomes ≥ `L` by time `T`. Return the number of players who achieve this.
+The simulation lasts `T` seconds. The array `switchTimes` lists the seconds at whose beginning the watcher reverses direction. At each second, any scheduled reversal happens first, and then the watcher and all players allowed to move take their steps at the same time. Implement `count_reached(L, N, pos, w0, initialDir, switchTimes, T)` so that it returns how many players have reached `L` by the end of the `T` seconds.
 
-### Input
+Parameters:
 
-- `L`: integer, length of the segment (0 ≤ L)
-- `N`: integer, number of players (0 ≤ N)
-- `pos`: list of N integers, initial positions (0 ≤ pos[i] ≤ L)
-- `w0`: integer, watcher’s initial position (0 ≤ w0 ≤ L)
-- `initialDir`: string, either `"left"` or `"right"`
-- `switchTimes`: list of K non‑negative integers, times at which the watcher toggles direction (unordered)
-- `T`: integer, end time of the simulation
+* `L`: the destination coordinate (the right end of the road).
+* `N`: the number of players.
+* `pos`: the `N` starting coordinates of the players.
+* `w0`: the watcher's starting coordinate.
+* `initialDir`: the watcher's starting direction, which is always left.
+* `switchTimes`: the `m` reversal timestamps, strictly increasing, each lying in `[0, T - 1]`.
+* `T`: the total number of seconds to simulate.
 
-### Output
+Example 1:
 
-- An integer: the count of players whose position is ≥ L at time T.
+```text
+Input: L = 5, N = 2, pos = [1,4], w0 = 3, initialDir = left, switchTimes = [1], T = 2
 
-### Constraints
-
-- 0 ≤ L, N, K, T ≤ 10⁵ (or similar reasonable bounds)
-- Players may share the same starting position.
-- `switchTimes` may contain duplicates, zeros, and values larger than T; such entries have no extra effect.
-- The watcher’s speed is exactly 1 unit per second, identical to the players’ speed.
-- All movement is continuous; direction changes at switch times and at boundaries are instantaneous.
-
-### Examples
-
-#### Example 1
-
-```
-L = 10, N = 2, pos = [2, 4], w0 = 0, initialDir = "right", switchTimes = [], T = 5
-Output: 0
-```
-
-**Explanation:** The watcher starts at 0 facing right, watching all positions ≥ 0. Both players are initially watched and cannot move. As the watcher moves right, it passes the first player at time 2 (position 2) and the second at time 4 (position 4). After being passed, each player becomes unwatched (the watcher is now to their right, still facing right) and begins moving. Player 1 moves for 3 seconds reaching 5; player 2 moves for 1 second reaching 5. Neither reaches L = 10.
-
-#### Example 2
-
-```
-L = 10, N = 1, pos = [0], w0 = 10, initialDir = "left", switchTimes = [], T = 10
-Output: 0
-```
-
-**Explanation:** The watcher starts at 10 facing left, watching all positions ≤ 10. The single player at 0 is always watched (0 ≤ watcher’s position at all times), so it never moves. It stays at 0 and never reaches the goal.
-
-#### Example 3
-
-```
-L = 5, N = 2, pos = [0, 4], w0 = 2, initialDir = "right", switchTimes = [1, 3], T = 5
 Output: 1
 ```
 
-**Explanation:**
-- **Time 0–1:** watcher moves right from 2 to 3, facing right. Player at 0 is unwatched and walks to 1; player at 4 is watched and stays at 4.
-- **At t = 1:** switch to left. Watcher is at 3, now facing left and watching ≤ 3. Player at 1 is watched (freezes), player at 4 becomes unwatched and starts moving.
-- **Time 1–3:** watcher moves left from 3 to 1. Player at 4 runs to 6 (crossing L = 5 at t = 2) – goal reached. Player at 1 remains frozen.
-- **At t = 3:** switch to right. Watcher is at 1, facing right, watching ≥ 1. Player at 1 is exactly at the boundary and watched, so still frozen.
-- **Time 3–5:** watcher moves right from 1 to 3. When the watcher moves past 1, the player at 1 becomes unwatched and moves for the remaining time, ending at 3. It does not reach L.
-Only player 2 reaches the goal.
+Explanation: In second 0 the watcher faces left at coordinate 3, so the player at 1 is frozen while the player at 4 steps to 5 and finishes; the watcher moves to 2. In second 1 the watcher turns right and sees coordinates `>= 2`, so the player at 1 moves to 2 but cannot finish in time, leaving exactly one finisher.
+
+```trueviz
+{"v":1,"kind":"example","title":"Players and watcher on a road","input":{"L":"5","N":"2","pos":"[1, 4]","w0":"3","initialDir":"left","switchTimes":"[1]","T":"2"},"steps":[{"say":"The road runs from coordinate 0 to 5. Players (P) start at 1 and 4, and the watcher (W) starts at 3 facing left. Index = coordinate.","panels":[{"type":"array","id":"road","label":"road (coordinates 0 to 5)","values":[".","P",".","W","P","."],"marks":{"read":[1,4,3]}}]},{"say":"Second 0: the watcher faces left and sees every player at coordinate 3 or lower, so the player at 1 is frozen.","panels":[{"type":"array","id":"road","label":"road (coordinates 0 to 5)","values":[".","P",".","W","P","."],"marks":{"read":[1],"dim":[4]}}]},{"say":"The player at 4 is outside the view, so it steps to 5 and finishes. The watcher moves to 2.","panels":[{"type":"array","id":"road","label":"road after second 0","values":[".","P","W",".",".","P"],"marks":{"found":[5]}}]},{"say":"Second 1: the watcher turns right and sees coordinates 2 or higher, so the player at 1 is outside the view and steps to 2.","panels":[{"type":"array","id":"road","label":"road after second 1","values":[".",".","P","W",".","P"],"marks":{"read":[2],"found":[5]}}]},{"say":"After 2 seconds only the player now at 5 has reached the end, so the answer is 1.","panels":[{"type":"array","id":"road","label":"road after second 1","values":[".",".","P","W",".","P"],"marks":{"found":[5]}}]}],"expected":"1"}
+```
+
+
+Constraints:
+
+* $$1 \le N \le 2000$$
+* $$1 \le T \le 2000$$
+* $$1 \le L \le 10^9$$
+* $$0 \le pos[i], w0 \le L$$
+* $$0 \le m \le T$$, where `m` is the length of `switchTimes`
+* The watcher always starts facing left.
 
 ## Hints
 

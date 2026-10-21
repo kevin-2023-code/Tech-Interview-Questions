@@ -48,7 +48,7 @@ Of the **177 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**20 sightings** across this cut. Newest first.
+**18 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **177 questions in this cut that carry a topic label** (44% of it):
 | [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) | Goldman Sachs | Blog | Sep 02, 2026 |
 | [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Capital One | Blog | Aug 28, 2026 |
 
-<sub>8 more in this window are in the table below.</sub>
+<sub>6 more in this window are in the table below.</sub>
 
 ---
 

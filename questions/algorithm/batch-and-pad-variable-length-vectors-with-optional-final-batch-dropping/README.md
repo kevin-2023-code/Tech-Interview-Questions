@@ -12,84 +12,102 @@
 
 ## Problem
 
-Write a deterministic routine `run_data_pipeline(vectors: list[list[int]], batch_size: int, pad_value: int, drop_last: bool) -> list[list[list[int]]]` that processes an ordered list of integer vectors. The routine partitions the input into consecutive chunks, right-pads each retained chunk, and can drop a trailing chunk that is not full. Only `run_data_pipeline` is required as the entry point; internal helper organization is up to you.
+Build a deterministic batching pipeline for integer vectors of varying lengths. The pipeline splits the vectors into batches, right-pads every batch it keeps, and can optionally throw away a trailing batch that is not full.
 
-Detailed behavior:
+The exercise is organized around three responsibilities: `create_data_iterator` walks the vectors in their given order and groups them, `pad_vector_collate` right-pads a single batch up to the length of its longest vector, and `run_data_pipeline` gathers and returns the finished batches. Only `run_data_pipeline` is judged; how you structure any helpers internally is your choice.
 
-- Process `vectors` in the given order. Do not shuffle or mutate the original vectors.
-- Divide the list into consecutive chunks whose size is `batch_size`, starting from index 0. Leftover vectors at the end form the final chunk.
-- When the last chunk is short, check `drop_last`. If `drop_last` is true, remove that chunk completely; otherwise, retain it.
-- For every kept chunk, compute its local maximum original vector length `L`. Then right-append copies of `pad_value` to each shorter vector until that vector reaches length `L`.
-- Padding is local to a chunk. Do not use the longest vector in the entire dataset when deciding `L`.
-- Empty vectors are allowed. When a kept chunk contains only empty vectors, `L` is `0`, so every vector remains empty and the chunk size is unchanged.
+Function signature:
 
-Return the kept and padded chunks as a list of chunks, preserving their original relative order. Return an empty list if no chunks are kept.
+`run_data_pipeline(vectors: list[list[int]], batch_size: int, pad_value: int, drop_last: bool) -> list[list[list[int]]]`
+
+Rules:
+
+- Process `vectors` in the order given; do not shuffle them and do not modify the input.
+- Split the vectors into consecutive groups of `batch_size`: the first `batch_size` vectors form the first group, the next `batch_size` form the second, and so on.
+- When the last group holds fewer than `batch_size` vectors and `drop_last` is true, that whole group is discarded; in every other case it is kept.
+- For every group that is kept, let `L` be the largest original length among that group's vectors. Extend each vector in the group by appending `pad_value` at the end (never at the front) until its length equals `L`.
+- `L` is computed per group, from that group's vectors only, not from the longest vector across all of `vectors`.
+- A vector may be empty. If a kept group consists solely of empty vectors, then `L = 0` and the group still contains the same number of empty vectors after padding.
+
+The padding direction, the use of a supplied pad value, the ordering, and the handling of the incomplete trailing batch are fixed conventions of this exercise.
+
+Return the padded batches as a list, in the same order as the input. If no batch is kept, return `[]`.
 
 Example 1:
 
 ```text
-Input: vectors = [[5,2,9],[8],[1,3,4,5]], batch_size = 2, pad_value = -1, drop_last = false
+Input: vectors = [[5],[2,8,1],[9,9],[4]], batch_size = 3, pad_value = -2, drop_last = false
 
-Output: [[[5,2,9],[8,-1,-1]], [[1,3,4,5]]]
+Output: [[[5,-2,-2],[2,8,1],[9,9,-2]],[[4]]]
 ```
 
-Explanation: The first chunk has local maximum length 3, so `[8]` becomes `[8,-1,-1]`. The final single-vector chunk is incomplete but retained because `drop_last` is false.
+Explanation: The first group `[[5],[2,8,1],[9,9]]` has `L = 3`, so `[5]` and `[9,9]` are padded with `-2`; the short trailing group `[[4]]` has `L = 1` and is kept because `drop_last` is false.
 
 ```trueviz
-{"v":1,"kind":"example","title":"Batch and Pad Vectors","input":{"vectors":"[[5, 2, 9], [8], [1, 3, 4, 5]]","batch_size":"2","pad_value":"-1","drop_last":"false"},"steps":[{"say":"Input: three vectors in order. batch_size=2, pad_value=-1, drop_last=false.","panels":[{"type":"array","id":"v0","label":"vector 0","values":["5","2","9"]},{"type":"array","id":"v1","label":"vector 1","values":["8"]},{"type":"array","id":"v2","label":"vector 2","values":["1","3","4","5"]}]},{"say":"Split into consecutive chunks of size 2: chunk 1 = vectors 0 and 1; chunk 2 = vector 2 (incomplete).","panels":[{"type":"array","id":"v0","label":"vector 0","values":["5","2","9"],"marks":{"read":[0,1,2]}},{"type":"array","id":"v1","label":"vector 1","values":["8"],"marks":{"read":[0]}},{"type":"array","id":"v2","label":"vector 2","values":["1","3","4","5"],"marks":{"read":[0,1,2,3]}}]},{"say":"Chunk 1's local maximum original length is 3 (vector 0 has length 3, vector 1 has length 1).","panels":[{"type":"array","id":"v0","label":"vector 0","values":["5","2","9"],"marks":{"read":[0,1,2]}},{"type":"array","id":"v1","label":"vector 1","values":["8"],"marks":{"read":[0]}},{"type":"map","id":"lens","label":"original lengths","entries":[{"key":"vector 0","value":"3"},{"key":"vector 1","value":"1"},{"key":"vector 2","value":"4"}],"layout":"table"}]},{"say":"Pad vector 1 with -1 until it reaches length 3: [8] becomes [8,-1,-1].","panels":[{"type":"array","id":"v0","label":"vector 0","values":["5","2","9"]},{"type":"array","id":"v1","label":"vector 1","values":["8","-1","-1"],"marks":{"found":[1,2]}}]},{"say":"Chunk 2 is incomplete (1 vector < batch_size 2), but drop_last is false, so it is kept. Its local max length is 4, so vector 2 needs no padding.","panels":[{"type":"array","id":"v2","label":"vector 2","values":["1","3","4","5"],"marks":{"found":[0,1,2,3]}}]},{"say":"Final result: two chunks — [[5,2,9],[8,-1,-1]] and [[1,3,4,5]].","panels":[{"type":"array","id":"v0","label":"chunk 1, vector 0","values":["5","2","9"],"marks":{"found":[0,1,2]}},{"type":"array","id":"v1","label":"chunk 1, vector 1","values":["8","-1","-1"],"marks":{"found":[0,1,2]}},{"type":"array","id":"v2","label":"chunk 2, vector 0","values":["1","3","4","5"],"marks":{"found":[0,1,2,3]}}]}],"expected":"[[[5, 2, 9], [8, -1, -1]], [[1, 3, 4, 5]]]"}
+{"v":1,"kind":"example","title":"Batch and pad vectors","input":{"vectors":"[[5],[2,8,1],[9,9],[4]]","batch_size":"3","pad_value":"-2","drop_last":"false"},"steps":[{"say":"Four vectors arrive in order, with lengths 1, 3, 2 and 1. The batch size is 3 and the pad value is -2.","panels":[{"type":"array","id":"v0","label":"vector 0","values":["5"]},{"type":"array","id":"v1","label":"vector 1","values":["2","8","1"]},{"type":"array","id":"v2","label":"vector 2","values":["9","9"]},{"type":"array","id":"v3","label":"vector 3","values":["4"]}]},{"say":"Consecutive groups of 3: the first group holds vectors 0 to 2, and the last group holds only vector 3, so it is short. drop_last is false, so the short group is kept.","panels":[{"type":"array","id":"v0","label":"batch 1, vector 0","values":["5"]},{"type":"array","id":"v1","label":"batch 1, vector 1","values":["2","8","1"]},{"type":"array","id":"v2","label":"batch 1, vector 2","values":["9","9"]},{"type":"array","id":"v3","label":"batch 2, vector 0","values":["4"]}]},{"say":"Batch 1: its longest vector, [2, 8, 1], has length 3, so L = 3. Every vector in this batch must end up with 3 entries.","panels":[{"type":"array","id":"v0","label":"batch 1, vector 0","values":["5"],"marks":{"dim":[0]}},{"type":"array","id":"v1","label":"batch 1, vector 1","values":["2","8","1"],"marks":{"read":[0,1,2]}},{"type":"array","id":"v2","label":"batch 1, vector 2","values":["9","9"],"marks":{"dim":[0,1]}},{"type":"array","id":"v3","label":"batch 2, vector 0","values":["4"],"marks":{"dim":[0]}}]},{"say":"Batch 1 after padding: -2 is appended at the end of [5] and of [9, 9]. [2, 8, 1] already has length 3.","panels":[{"type":"array","id":"v0","label":"batch 1, vector 0","values":["5","-2","-2"],"marks":{"found":[1,2]}},{"type":"array","id":"v1","label":"batch 1, vector 1","values":["2","8","1"]},{"type":"array","id":"v2","label":"batch 1, vector 2","values":["9","9","-2"],"marks":{"found":[2]}},{"type":"array","id":"v3","label":"batch 2, vector 0","values":["4"],"marks":{"dim":[0]}}]},{"say":"Batch 2 contains only [4], so its L is 1, computed from this batch alone. Nothing needs padding.","panels":[{"type":"array","id":"v0","label":"batch 1, vector 0","values":["5","-2","-2"],"marks":{"dim":[0,1,2]}},{"type":"array","id":"v1","label":"batch 1, vector 1","values":["2","8","1"],"marks":{"dim":[0,1,2]}},{"type":"array","id":"v2","label":"batch 1, vector 2","values":["9","9","-2"],"marks":{"dim":[0,1,2]}},{"type":"array","id":"v3","label":"batch 2, vector 0","values":["4"],"marks":{"read":[0]}}]},{"say":"The answer is two batches: [[5,-2,-2],[2,8,1],[9,9,-2]] and [[4]].","panels":[{"type":"array","id":"v0","label":"batch 1, vector 0","values":["5","-2","-2"],"marks":{"found":[0,1,2]}},{"type":"array","id":"v1","label":"batch 1, vector 1","values":["2","8","1"],"marks":{"found":[0,1,2]}},{"type":"array","id":"v2","label":"batch 1, vector 2","values":["9","9","-2"],"marks":{"found":[0,1,2]}},{"type":"array","id":"v3","label":"batch 2, vector 0","values":["4"],"marks":{"found":[0]}}]}],"expected":"[[[5, -2, -2], [2, 8, 1], [9, 9, -2]], [[4]]]"}
 ```
 
 
 Example 2:
 
 ```text
-Input: vectors = [[], [7], [9,8,6], [2], [1,2]], batch_size = 2, pad_value = 4, drop_last = true
+Input: vectors = [[5],[2,8,1],[9,9],[4]], batch_size = 3, pad_value = -2, drop_last = true
 
-Output: [[[4],[7]], [[9,8,6],[2,4,4]]]
+Output: [[[5,-2,-2],[2,8,1],[9,9,-2]]]
 ```
 
-Explanation: In the first chunk the longest vector has length 1, so the empty vector becomes `[4]`. In the second chunk the longest vector has length 3, so `[2]` becomes `[2,4,4]`. The final chunk contains only one vector and is dropped.
+Explanation: The trailing group `[[4]]` has fewer than `batch_size` vectors, so it is dropped.
 
 Example 3:
 
 ```text
-Input: vectors = [[], [], []], batch_size = 3, pad_value = -2, drop_last = false
+Input: vectors = [[],[],[]], batch_size = 3, pad_value = 7, drop_last = true
 
-Output: [[[], [], []]]
+Output: [[[],[],[]]]
 ```
 
-Explanation: The only chunk is full and all vectors are empty, so no padding is inserted.
+Explanation: The only group is full and its longest vector has length 0, so nothing is appended.
+
+Example 4:
+
+```text
+Input: vectors = [[6]], batch_size = 2, pad_value = 0, drop_last = true
+
+Output: []
+```
+
+Explanation: The only group is incomplete and `drop_last` is true, so no batch remains.
 
 Constraints:
 
-* $$0 \le \text{len(vectors)} \le 12000$$
-* $$1 \le \text{batch_size} \le 2000$$
-* $$0 \le \text{len(vector)} \le 1200$$ for every vector in `vectors`
-* Every element stored in `vectors` and `pad_value` is an integer in $$[-2000000, 2000000]$$
-* The total number of supplied elements and the total number of elements after padding each stay at or below $$1500000$$
-* `drop_last` is a boolean, and all input arguments are valid
-* All values fit within a 32-bit signed integer range
+* `0 <= len(vectors) <= 10000`
+* `1 <= batch_size <= 1000`
+* `0 <= len(vector) <= 1000` for every vector
+* Every vector element and `pad_value` is an integer in `[-1000000, 1000000]`.
+* The total count of input elements, and separately the total count of elements after padding, are each at most `1000000`.
+* `drop_last` is a boolean, and all arguments are valid.
+* No value passed in or returned exceeds $$2^{31} - 1$$, so a 32-bit integer type is enough in every language (no `long` / `long long` needed).
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of this as slicing the list into fixed-size consecutive windows and handling the incomplete last window according to a flag.
+Separate the pipeline into three simple stages: grouping in order, padding each group, and collecting the results.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Compute the number of full batches first, then decide whether to keep or drop the remainder.
+Slice the input into consecutive chunks of the batch size and pad each chunk to the length of its own longest vector, not a global maximum.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Be careful not to mutate the input vectors and to pad each retained batch to exactly `batch_size` with `pad_value`.
+Handle the last chunk carefully: it may be shorter than the batch size, and the drop option decides whether it is kept, so also consider empty input.
 
 </details>
 

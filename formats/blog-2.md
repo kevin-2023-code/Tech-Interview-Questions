@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,403 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -19,7 +19,6 @@
 | **ByteDance** | [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/questions/rag-agent-kafka-oral-drill) | — | Jun 03, 2026 |
 | **Anthropic** | [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral) | — | Jun 03, 2026 |
 | **Snowflake** | [AI-Conducted Screening Interview](https://trueinterview.io/questions/ai-conducted-screening) | — | Jun 01, 2026 |
-| **OpenAI** | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | — | May 31, 2026 |
 | **Lyft** | [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability) | — | May 30, 2026 |
 | **Goldman Sachs** | [Math and Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank) | — | May 30, 2026 |
 | **Google** | [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/questions/google-hiring-assessment-gha) | — | May 29, 2026 |
@@ -260,5 +259,6 @@
 | **Microsoft** | [Explain metrics, regularization, and ablation studies](https://trueinterview.io/questions/explain-metrics-regularization-and-ablation-studies) | — | Feb 09, 2026 |
 | **Microsoft** | [Explain deadlock cases and how to prevent them](https://trueinterview.io/questions/explain-deadlock-cases-and-how-to-prevent-them) | — | Feb 09, 2026 |
 | **Apple** | [Describe your most memorable bug and fix](https://trueinterview.io/questions/describe-your-most-memorable-bug-and-fix) | — | Feb 09, 2026 |
+| **Amazon** | [Describe how you reduced measurable cost](https://trueinterview.io/questions/describe-how-you-reduced-measurable-cost) | — | Feb 09, 2026 |
 
 <sub>[← Page 1](blog.md) · Page 2 of 6 · [Page 3 →](blog-3.md)</sub>

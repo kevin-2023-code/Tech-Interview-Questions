@@ -12,22 +12,29 @@
 
 ## Problem
 
-## Requirements
+You receive a stream of records and must produce a sequence with all repeats removed across the entire stream. Whenever a value shows up more than once, only the earliest appearance survives; later copies are discarded. The records that remain must appear in the same relative order they had in the input.
 
-Build a command-line utility that accepts a file path, reads the file, and writes to standard output every distinct line exactly once. This is a global deduplication — not just collapsing consecutive duplicates — so a line that appears multiple times anywhere in the file must be emitted only the first time it is encountered. The output must preserve the original first-appearance order of the unique lines.
+Implement `dedup_lines(lines)`. The argument `lines` is a list of `n` records, where each record is a non-empty string that contains no newline characters. Return a list holding every distinct record exactly once, ordered by the position of its first appearance in `lines`.
 
-The implementation must be self-contained and runnable end-to-end in your local development environment. A typical in-memory approach uses a hash set to remember which lines have already been seen, combined with a structure (such as a list or queue) to retain the order of first occurrences. The core challenge is not a complex algorithm but rather breaking the problem into clear steps and discussing each one with the interviewer.
+Example 1:
 
-**Follow-up 1 — file too large for memory:** the input file no longer fits in RAM. Describe an external-memory strategy: stream the file, hash each line, and partition the data by spilling to disk (for example, bucket lines by hash into multiple temporary files). Then deduplicate each bucket independently.
+```text
+Input: lines = ["apple", "banana", "apple", "orange", "banana", "pear", "orange"]
 
-**Follow-up 2 — preserve global order:** explain how the external-memory design can still emit unique lines in the original first-seen order despite the partitioning step. Continue reasoning about how your chosen language handles file-system access and the loading of large inputs into memory.
+Output: ["apple", "banana", "orange", "pear"]
+```
 
-## Notes
+Explanation: The second `apple`, the second `banana` and the second `orange` are repeats of earlier records and are dropped; the surviving records keep their original order.
 
-- There is **no provided online coding environment**. You write, build, and run locally; the interview emphasises real file-system I/O, so ensure you can execute code on your machine before the session.
-- At the end you will package and upload your code (a Google Form has been used for submission). Reserve time for this step.
-- Pace yourself for the two follow-ups — several candidates have run out of time on the second one. When preparing, focus on your language's file-system and large-input/memory-loading APIs; that is the direction the follow-ups push.
-- Talk through each step with the interviewer and converge on one solution together — the round rewards clear incremental problem-solving over a clever one-liner.
+Constraints:
+
+* $$1 \le n \le 2 \times 10^5$$, where `n` is the number of records in `lines`
+* Every record has a length of at most $$10^3$$ characters.
+* Summed over all records, the total character count does not exceed $$10^7$$.
+
+## Follow-ups
+
+* Suppose the collection of distinct records is too large to hold in memory. How would you split the data into partitions and still carry out deduplication across the whole stream, while keeping the output in the original first-occurrence order?
 
 ## Hints
 

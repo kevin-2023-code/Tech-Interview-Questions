@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**302 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**303 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 

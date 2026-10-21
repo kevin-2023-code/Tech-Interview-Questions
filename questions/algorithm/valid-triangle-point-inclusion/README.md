@@ -12,84 +12,44 @@
 
 ## Problem
 
-You are given the coordinates of three points intended as triangle vertices — `A(x1,y1)`, `B(x2,y2)`, `C(x3,y3)` — along with two points to test, `P(xp,yp)` and `Q(xq,yq)`.
+You are given three points with integer coordinates, a = (`x1`, `y1`), b = (`x2`, `y2`) and c = (`x3`, `y3`). Writing $$|ab|$$ for the distance between points a and b, these three points describe a non-degenerate triangle only when every one of the following strict inequalities holds:
 
-## Requirements
+* $$|ab| + |bc| > |ac|$$
+* $$|bc| + |ac| > |ab|$$
+* $$|ab| + |ac| > |bc|$$
 
-1. Begin by deciding whether the three vertices actually form a triangle. The side lengths must obey the triangle inequality, with the comparison strict rather than an equality — for instance, $$AB + BC > AC$$ must hold — and the vertices must not be collinear.
-2. If the triangle is not valid, return `0`.
-3. If the triangle is valid, return:
-   * `1` when only `P` is inside,
-   * `2` when only `Q` is inside,
-   * `3` when both points are inside,
-   * `4` when neither point is inside.
+A point is considered to belong to the triangle when it sits strictly inside it or lies on one of its edges (vertices included). You are also given two further points, p = (`xp`, `yp`) and q = (`xq`, `yq`). Implement `pointsBelong(x1, y1, x2, y2, x3, y3, xp, yp, xq, yq)` so that it returns the number of the scenario that applies:
 
-Implement the method with this signature:
+* `0`: points a, b and c fail to form a valid non-degenerate triangle.
+* `1`: p belongs to the triangle, while q does not.
+* `2`: q belongs to the triangle, while p does not.
+* `3`: p and q both belong to the triangle.
+* `4`: neither p nor q belongs to the triangle.
 
-```java
-public static int pointsBelong(int x1, int y1, int x2, int y2, int x3, int y3,
-                               int xp, int yp, int xq, int yq)
-```
+**Function Description**
 
-## Interview Notes
+`pointsBelong` receives the following parameters:
 
-* The statement does not define whether a point lying exactly on an edge counts as inside or outside. Ask the interviewer for the intended boundary behavior before writing code.
-* The online assessment associated with this problem usually does not dig deeply into degenerate configurations, such as collinear vertices or a query point sitting exactly on a vertex. A live interviewer, however, may ask about them.
+* `int x1, y1, x2, y2, x3, y3`: the integer coordinates of the three points that might define a valid triangle
+* `int xp, yp, xq, yq`: the integer coordinates of the two query points p and q
 
-## Examples
+**Returns**
 
-### Example (as reported)
+`int`: the scenario number described above
 
-```text
-Input:
-0
-0
-2
-0
-4
-0
-2
-0
-4
-0
-
-Output:
-0
-```
-
-**Example 1**
+Example 1:
 
 ```text
-Input:
-0
-0
-4
-0
-0
-3
-1
-1
-5
-5
-Output: 1
+Input: x1 = 0, y1 = 0, x2 = 2, y2 = 0, x3 = 4, y3 = 0, xp = 2, yp = 0, xq = 4, yq = 0
+
+Output: 0
 ```
 
-**Example 2**
+Explanation: All three points lie on the line $$y = 0$$, so $$|ab| + |bc| = |ac|$$ and the triangle is degenerate; the answer is scenario `0` regardless of where p and q are.
 
-```text
-Input:
-1
-1
-5
-1
-1
-5
-10
-10
-2
-2
-Output: 2
-```
+Constraints:
+
+* $$0 \le x1, y1, x2, y2, x3, y3, xp, yp, xq, yq \le 2000$$
 
 ## Hints
 

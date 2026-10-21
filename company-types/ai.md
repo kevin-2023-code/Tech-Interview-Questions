@@ -18,25 +18,25 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 148 | 32% | ██████████████ | 25 |
+| [Algorithm](../formats/algorithm.md) | 149 | 33% | ██████████████ | 26 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 89 | 19% | ████████ | 14 |
 | [System Design](../formats/system-design.md) | 89 | 19% | ████████ | 14 |
-| [Blog](../formats/blog.md) | 86 | 19% | ████████ | 86 |
+| [Blog](../formats/blog.md) | 85 | 19% | ████████ | 85 |
 | [AI Coding](../formats/ai-coding.md) | 38 | 8% | ████ | 3 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **30 / 215 / 126**, over the rows the catalog has graded. 142 of the 457 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **30 / 215 / 127**, over the rows the catalog has graded. 142 of the 457 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **147 questions in this cut that carry a topic label** (32% of it):
+Of the **148 questions in this cut that carry a topic label** (32% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 31 | 21% | ████████████ |
 | `strings` | 25 | 17% | ██████████ |
 | `graphs` | 21 | 14% | ████████ |
-| `math` | 15 | 10% | ██████ |
+| `math` | 16 | 11% | ██████ |
 | `arrays` | 13 | 9% | █████ |
 | `sorting` | 13 | 9% | █████ |
 | `greedy` | 11 | 7% | ████ |
@@ -48,7 +48,7 @@ Of the **147 questions in this cut that carry a topic label** (32% of it):
 
 ## Asked here in the last 90 days
 
-**79 sightings** across this cut. Newest first.
+**78 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **147 questions in this cut that carry a topic label** (32% of it):
 | [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | Together AI | Blog | Sep 15, 2026 |
 | [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) | Together AI | Blog | Sep 15, 2026 |
 
-<sub>67 more in this window are in the table below.</sub>
+<sub>66 more in this window are in the table below.</sub>
 
 ---
 
@@ -197,7 +197,7 @@ Of the **147 questions in this cut that carry a topic label** (32% of it):
 | **Anthropic** | [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design) | Medium | Jun 2026 |
 | **Anthropic** | [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events) | Medium | Jun 2026 |
 | **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
-| **OpenAI** | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | — | May 31, 2026 |
+| **OpenAI** | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | Hard | May 31, 2026 |
 | **OpenAI** | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | Medium | May 31, 2026 |
 | **OpenAI** | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Hard | May 31, 2026 |
 | **Anthropic** | [Batch Image Processor](https://trueinterview.io/questions/batch-image-processor) | Medium | May 30, 2026 |

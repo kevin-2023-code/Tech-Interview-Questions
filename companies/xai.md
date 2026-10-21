@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **43** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 5 |
+| Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (33% of 43) |
 | Difficulty (easy / medium / hard) | 5 / 26 / 8 |
 | Free to practise | [9](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **43 of 43** questions at xAI that 
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,7 +47,6 @@ Which stage each question came from, for the **43 of 43** questions at xAI that 
 | [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Algorithm | Medium | Onsite / virtual onsite | Sep 15, 2026 |
 | [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Algorithm | Medium | Onsite / virtual onsite | Sep 15, 2026 |
 | [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 15, 2026 |
-| [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Medium | Phone screen | Jul 22, 2026 |
 
 ## What they ask about
 

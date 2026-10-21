@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,403 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **DoorDash** | [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | — | — |
 | **Disney** | [Compute sample size and plan experiment](https://trueinterview.io/questions/compute-sample-size-and-plan-experiment) | — | — |
 | **Microsoft** | [Compute sample size and analyze A/B results](https://trueinterview.io/questions/compute-sample-size-and-analyze-a-b-results) | — | — |
 | **Capital One** | [Compute profit and surge break‑even price](https://trueinterview.io/questions/compute-profit-and-surge-breakeven-price) | — | — |

@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Point72** | [K-th missing number](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) | Medium | Oct 20, 2025 |
 | **Stripe** | [Business Account Data Verification](https://trueinterview.io/questions/business-account-data-verification) | Medium | Oct 20, 2025 |
 | **Google / Stripe** | [Match payments to invoices by memo or amount](https://trueinterview.io/questions/match-payments-to-invoices-by-memo-or-amount-2) | Medium | Oct 19, 2025 |
 | **ByteDance** | [Find first and last index of target](https://trueinterview.io/questions/find-first-and-last-index-of-target) | Medium | Oct 19, 2025 |
@@ -259,6 +260,5 @@
 | **Scale AI** | [Find LCA in a N-ary tree via DFS](https://trueinterview.io/questions/find-lca-in-a-n-ary-tree-via-dfs) | Medium | — |
 | **Snapchat** | [Count ways to decode digit string](https://trueinterview.io/questions/count-ways-to-decode-digit-string) | Medium | — |
 | **Rippling** | [Convert amounts between multiple currencies](https://trueinterview.io/questions/convert-amounts-between-multiple-currencies) | Hard | — |
-| **Google** | [Compute precision–recall curve on imbalanced data](https://trueinterview.io/questions/compute-precisionrecall-curve-on-imbalanced-data) | Medium | — |
 
 <sub>[← Page 5](algorithm-5.md) · Page 6 of 10 · [Page 7 →](algorithm-7.md)</sub>

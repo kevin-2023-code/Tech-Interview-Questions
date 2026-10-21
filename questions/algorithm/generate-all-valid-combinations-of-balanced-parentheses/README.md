@@ -12,23 +12,17 @@
 
 ## Problem
 
-Given a number of parenthesis pairs `n`, produce every distinct string made up of exactly `n` `(` characters and `n` `)` characters that is well-formed.
+You are given an integer `n`, the number of parenthesis pairs available. Implement `generateParenthesis(n)` so that it produces every distinct balanced parentheses string that uses exactly `n` opening characters `(` and exactly `n` closing characters `)`.
 
-A string counts as well-formed when each `(` can be paired with a later `)`, with pairs properly nested. Equivalently, as you read the string from left to right, the running count of `)` characters must never rise above the running count of `(`, and at the very end the two counts must be equal.
+A string counts as balanced when each `(` is closed by a later `)` and the pairs nest correctly. Put another way: reading the string from left to right, the running count of `)` is never larger than the running count of `(`, and both counts are equal once the whole string has been read.
 
-Implement the function `generateParenthesis(n)`, which returns the list of all such well-formed strings. The order in which you return them is not significant.
+Return all such strings as a list with no duplicates. Any order is logically acceptable, but the checker compares your result against the lexicographically sorted list (where `(` sorts before `)`), so return the strings in sorted order. When `n` is `0`, the only valid string is the empty string, so the result is a list holding exactly one element, `""`.
 
-Example 1:
-
-```text
-Input: n = 2
-
-Output: ["(())","()()"]
+```python
+def generateParenthesis(n):
 ```
 
-Explanation: with two pairs there are exactly two well-formed strings, and both appear above.
-
-Example 2:
+Example 1:
 
 ```text
 Input: n = 4
@@ -36,36 +30,45 @@ Input: n = 4
 Output: ["(((())))","((()()))","((())())","((()))()","(()(()))","(()()())","(()())()","(())(())","(())()()","()((()))","()(()())","()(())()","()()(())","()()()()"]
 ```
 
+Explanation: With four pairs there are 14 balanced strings, listed here in lexicographic order.
+
+Example 2:
+
+```text
+Input: n = 2
+
+Output: ["(())","()()"]
+```
+
+Explanation: Two pairs can either be nested or placed side by side, giving exactly two strings.
+
 Constraints:
 
 * $$0 \le n \le 8$$
-* Each returned string contains exactly `n` opening and `n` closing parentheses.
-* All returned strings are distinct and well-formed.
-
-## Interview Notes
-
-This exercise evaluates a candidate's grasp of constraint-based enumeration and combinatorial generation, together with incremental string construction — skills commonly assessed in software engineering and data engineering interviews. Be prepared to discuss how the number of valid outputs grows with `n`.
+* Each returned string contains exactly `n` characters `(` and exactly `n` characters `)`.
+* Every returned string is balanced, and no string appears more than once.
+* For `n = 0`, the result is `[""]` (a list containing one empty string), not an empty list.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of building the string character by character, ensuring that at any point the number of closing parentheses does not exceed the number of opening ones.
+Build the string one character at a time and only add a character if the prefix can still be completed into a balanced string.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use backtracking (recursion) to explore all valid sequences, keeping track of how many opening and closing parentheses have been used so far.
+Use backtracking that tracks how many opens and closes have been used, allowing an open while opens < n and a close while closes < opens.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The number of valid combinations is the nth Catalan number, so the time complexity is exponential in n, watch out for the base case when both counts reach n.
+The output size is the n-th Catalan number, so the work is proportional to the number of results times n, and you never need to filter invalid strings afterwards.
 
 </details>
 

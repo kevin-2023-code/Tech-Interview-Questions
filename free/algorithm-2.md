@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**302 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**303 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -44,6 +44,7 @@
 | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) | **Voleon** | Hard | — |
 | [Funnel Algorithm Problem](https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2) | **Faire** | Hard | — |
 | [Hangman Optimal Strategy](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252) | **Dropbox** | Hard | — |
+| [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | **OpenAI** | Hard | May 31, 2026 |
 | [Maximum-Sum Path in a Matrix (No Revisits)](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat) | **Goldman Sachs** | Hard | Nov 15, 2024 |
 | [Median and Percentile from a Data Stream](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993) | **StackAdapt** | Hard | — |
 | [Min Elements to Remove to Make Almost Sorted Array](https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c) | **Salesforce** | Hard | — |

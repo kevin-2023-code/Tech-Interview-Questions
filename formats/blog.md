@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,403 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -91,18 +91,18 @@
 | **Instacart** | [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | — | 🆕 Sep 06, 2026 |
 | **Waymo** | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | — | 🆕 Sep 06, 2026 |
 | **ByteDance** | [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | — | 🆕 Sep 06, 2026 |
-| **ByteDance** | [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | — | 🆕 Sep 05, 2026 |
-| **Amazon** | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | — | 🆕 Sep 05, 2026 |
-| **ByteDance** | [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | — | 🆕 Sep 05, 2026 |
-| **ByteDance** | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | — | 🆕 Sep 05, 2026 |
-| **ByteDance** | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | — | 🆕 Sep 05, 2026 |
-| **ByteDance** | [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | — | 🆕 Sep 05, 2026 |
-| **ByteDance** | [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | — | 🆕 Sep 05, 2026 |
+| **ByteDance** | [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | — | Sep 05, 2026 |
+| **Amazon** | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | — | Sep 05, 2026 |
+| **DoorDash** | [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | — | Sep 05, 2026 |
+| **DoorDash** | [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | — | Sep 05, 2026 |
+| **ByteDance** | [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | — | Sep 05, 2026 |
+| **DoorDash** | [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | — | Sep 05, 2026 |
+| **ByteDance** | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | — | Sep 05, 2026 |
+| **ByteDance** | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | — | Sep 05, 2026 |
+| **DoorDash** | [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | — | Sep 05, 2026 |
+| **DoorDash** | [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | — | Sep 05, 2026 |
+| **ByteDance** | [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | — | Sep 05, 2026 |
+| **ByteDance** | [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | — | Sep 05, 2026 |
 | **Siemens** | [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) | — | Sep 04, 2026 |
 | **Airbnb** | [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | — | Sep 04, 2026 |
 | **Siemens** | [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | — | Sep 04, 2026 |

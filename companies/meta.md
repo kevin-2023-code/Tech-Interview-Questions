@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **485** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 20 |
+| Reported in the last 90 days | 18 |
 | Most common format | [Algorithm](../formats/algorithm.md) (36% of 485) |
 | Difficulty (easy / medium / hard) | 47 / 202 / 88 |
 | Free to practise | [176](../free/README.md) |
@@ -30,8 +30,8 @@ Which stage each question came from, for the **485 of 485** questions at Meta th
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 34 | █ | [Algorithm](../formats/algorithm.md) (62%) | 21 / 8 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 247 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 20 / 132 / 33 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 35 | █ | [Algorithm](../formats/algorithm.md) (63%) | 22 / 8 / 4 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 246 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 19 / 132 / 33 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 231 | █████████ | [Blog](../formats/blog.md) (38%) | 10 / 80 / 54 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
@@ -39,7 +39,7 @@ Which stage each question came from, for the **485 of 485** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**20 sightings** in this window. Newest first.
+**18 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **485 of 485** questions at Meta th
 | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | System Design | Easy | Phone screen | Aug 29, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Aug 27, 2026 |
 
-<sub>8 more in this window are in the table below.</sub>
+<sub>6 more in this window are in the table below.</sub>
 
 ## What they ask about
 

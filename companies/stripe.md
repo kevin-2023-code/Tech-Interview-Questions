@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **118** |
 | Most recent sighting | Oct 04, 2026 |
-| Reported in the last 90 days | 17 |
+| Reported in the last 90 days | 16 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 118) |
 | Difficulty (easy / medium / hard) | 19 / 64 / 20 |
 | Free to practise | [20](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **118 of 118** questions at Stripe 
 
 ## Asked here in the last 90 days
 
-**17 sightings** in this window. Newest first.
+**16 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **118 of 118** questions at Stripe 
 | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | Online assessment | Sep 04, 2026 |
 | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | SQL | Easy | Phone screen | Aug 31, 2026 |
 
-<sub>5 more in this window are in the table below.</sub>
+<sub>4 more in this window are in the table below.</sub>
 
 ## What they ask about
 

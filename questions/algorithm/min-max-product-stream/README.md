@@ -12,30 +12,38 @@
 
 ## Problem
 
-## Requirements
+You maintain a set of integers called `elements`, which is empty at the start, and you must process a sequence of queries against it:
 
-You are given two aligned arrays, each containing `n` entries: `operations`, whose entries are either `"push"` or `"pop"`, and `values`, which supplies the number for the corresponding action. Following every action, find the smallest and largest values currently present in the multiset, multiply them, and add that product to the output.
+* A `push x` query adds the value `x` to `elements`.
+* A `pop x` query takes the value `x` out of `elements`.
 
-```
-min_max_product(operations, values)
-```
+Keep the integers in `elements` organized so that, once each query has been applied, you can cheaply obtain the product of the smallest and the largest value currently in the set.
 
-### Example (as reported)
+Implement `min_max_product(operations, values)`:
+
+* `operations`: an array of `n` strings, each one a query type.
+* `values`: an array of `n` integers, where `values[i]` is the `x` that belongs to `operations[i]`.
+
+Return an array of `n` long integers. Entry `i` is the product of the maximum and the minimum of `elements` right after the `i`-th query has been carried out.
+
+Example 1:
 
 ```text
 Input:
-4
-push push push pop
-1 2 3 1
+operations = ["push", "push", "push", "pop"]
+values = [1, 2, 3, 1]
 
-Output:
-1 2 3 6
+Output: [1, 2, 3, 6]
 ```
 
-## Notes
+Explanation: The set evolves as `{1}`, `{1,2}`, `{1,2,3}`, `{2,3}`, so the min-times-max products are `1*1`, `1*2`, `1*3`, `2*3`.
 
-- The specification does not define what should happen when `pop` names a value absent from the multiset. Confirm the desired interview behavior before implementation, such as ignoring that request or raising an error.
-- If an action leaves the multiset empty, its minimum-times-maximum result has no defined value. Ask whether the expected output should use `0` or `null`.
+Constraints:
+
+* $$1 \le n \le 10^5$$
+* $$1 \le$$ `values[i]` $$\le 10^9$$
+* Every `operations[i]` is guaranteed to be either `push` or `pop`.
+* Any value that is popped is guaranteed to be present in the set at that moment.
 
 ## Hints
 

@@ -12,69 +12,53 @@
 
 ## Problem
 
-## Requirements
+A histogram is described by the integer array `heights`: bar number `i` stands `heights[i]` units tall, and every bar is exactly one unit wide. The array holds `n` bars.
 
-You are given `vector<int> heights`, where each element gives the height of a unit-width bar in a histogram. Return the maximum area of any rectangle that can be contained entirely within the histogram.
+Implement `largestRectangleArea(heights)` so that it returns the greatest area of any axis-aligned rectangle that fits completely inside the histogram.
 
-```python
-def largestRectangleArea(heights: List[int]) -> int:...
-```
-
-As you work, explain the time complexity of your approach and why the selected data structure is appropriate.
-
-## Examples
-
-### Example (as reported)
+Example 1:
 
 ```text
-Input:
-6
-2 1 5 6 2 3
+Input: heights = [2, 1, 5, 6, 2, 3]
 
-Output:
-10
+Output: 10
 ```
+
+Explanation: The bars of height 5 and 6 sit next to each other, so a rectangle of height 5 spanning both has area $$5 \times 2 = 10$$, and no larger rectangle fits.
+
+Example 2:
 
 ```text
-Input: heights = [2, 1, 2]
-Output:
-3
-The rectangle of height 1 spans all three bars, giving area 1 × 3 = 3.
+Input: heights = [2, 1, 5, 6, 2, 3]
+
+Output: 10
 ```
 
-```trueviz
-{"v":1,"kind":"example","title":"Largest Rectangle in Histogram","input":{"heights":"[2, 1, 2]"},"steps":[{"say":"The histogram has bar heights [2, 1, 2].","panels":[{"type":"array","id":"heights","label":"heights","values":["2","1","2"]}]},{"say":"The rectangle of height 1 spans all three bars (indices 0 to 2), giving area 1 × 3 = 3.","panels":[{"type":"array","id":"heights","label":"heights","values":["2","1","2"],"marks":{"found":[0,1,2]},"ranges":[{"from":0,"to":2,"label":"height=1"}]}]},{"say":"Thus, the maximum area is 3.","panels":[{"type":"array","id":"heights","label":"heights","values":["2","1","2"],"marks":{"found":[0,1,2]},"ranges":[{"from":0,"to":2,"label":"height=1"}]}]}],"expected":"3"}
-```
+Constraints:
 
-
-**Input:** `heights = [2, 1, 5, 6, 2, 3]`  
-**Output:** `10`  
-The bars of heights `5` and `6` support a rectangle of height `5` and width `2`, so the largest area is `10`.
-
-## Follow-up
-
-Be prepared to discuss the **Maximal Rectangle** problem on a binary matrix, which extends this histogram operation one row at a time.
+* $$1 \le n \le 2 \times 10^5$$
+* $$0 \le \text{heights}[i] \le 10^9$$
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of the histogram as a series of bars, and the largest rectangle will be bounded by the shortest bar in a contiguous segment, the key is to find for each bar the left and right boundaries where bars are at least as tall.
+For each bar, ask how far left and right you can extend while staying at least as tall as that bar.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a stack to maintain indices of bars in increasing height order, when a shorter bar is encountered, you can compute the area for the popped bar using the current index as the right boundary.
+Use a monotonic increasing stack of indices, and when a shorter bar arrives pop taller bars and compute the area using each popped bar as the limiting height.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The time complexity is O(n) because each bar is pushed and popped once, and the stack is the appropriate data structure for this monotonic stack problem.
+Add a sentinel zero-height bar at the end to flush the stack, and aim for O(n) time since each index is pushed and popped once.
 
 </details>
 

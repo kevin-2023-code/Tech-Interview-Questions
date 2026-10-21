@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Amazon** | [Detect Overlapping Time Intervals](https://trueinterview.io/questions/05a8d371-14af-5f91-a280-c8e76c9e68ea) | Easy | — |
 | **ByteDance** | [Non-Overlapping Intervals (LeetCode 435)](https://trueinterview.io/questions/non-overlapping-intervals) | Medium | — |
 | **—** | [Sum of Two Integers](https://trueinterview.io/questions/sum-of-two-integers) | Medium | — |
 | **—** | [Subtree of Another Tree](https://trueinterview.io/questions/subtree-of-another-tree) | Easy | — |
@@ -259,6 +260,5 @@
 | **Upstart** | [Possible ABO Parent Genotypes](https://trueinterview.io/questions/7d7d9d81-b0b6-5ffc-92e9-d0384993433f) | Medium | — |
 | **Upstart** | [Decipher using two hashmaps](https://trueinterview.io/questions/6a88ab18-e062-493a-80b1-528e00f50d3e) | Easy | — |
 | **Upstart** | [Format Bytes into Human-Readable String (B/KB/MB)](https://trueinterview.io/questions/51be1242-45a4-47fc-9f37-e1bcd9800d17) | Easy | — |
-| **Tradedesk** | [Earn the Most](https://trueinterview.io/questions/de01d1f2-f8dc-44ab-a3ac-256f97bf946b) | Hard | — |
 
 <sub>[← Page 7](algorithm-7.md) · Page 8 of 10 · [Page 9 →](algorithm-9.md)</sub>

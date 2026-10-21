@@ -12,68 +12,50 @@
 
 ## Problem
 
-Design a distributed job scheduler that schedules and executes jobs of a given type. Each job carries an SLA; the system must reliably run every scheduled run, cope with the many ways components can fail, and keep users informed about what happened.
+Design a system that schedules and executes jobs of a particular type. Every job carries an **SLA**: when a run goes past its deadline, the system must raise or record an error, and the user must be able to look at the logs for that run.
 
 ## Requirements
 
-- Schedule and execute jobs of a given type. Every job has an **SLA**: when a run goes past its deadline, the system must raise and record an error, and the user must be able to look at the logs.
-- Each job can declare a per-job **timeout handler** describing what to do when a run exceeds its timeout (for example: kill it, mark it failed, retry it, or trigger another job), along with its **resource requirements**.
-- Support **recurring jobs**, for instance a job that fires every minute.
-- Guarantee **at-most-once** execution for each scheduled run.
-- Send notifications to subscribers; a recurring job that **fails** must still produce a notification.
-- Let users query the logs (stdout/stderr) of past runs.
-- Handle a wide variety of failure scenarios gracefully; most of the follow-up time is spent here.
-- A frequent added constraint: the scheduler handles only a single job *type*, so the model should not be generalized beyond that.
+- Accept jobs of the given type, schedule them, and run them; each job has an SLA deadline, and a run that misses it must surface an error that the user can investigate through the logs.
+- Support **recurring jobs**, for example a job that fires once every minute.
+- Ensure each scheduled run executes **at most once**.
+- Deal gracefully with a wide variety of failure scenarios — expect the bulk of the follow-up discussion to land here.
 
-## Deep-dive directions the interviewer pushes on
-
-- If a worker, or any other component in the pipeline, dies in the middle of execution, how is at-most-once still respected while retries continue?
-- When a recurring job fails, how does the failure path reliably fire its notification even if parts of the system are unavailable?
-- What retry and backoff strategy is used, and how do retries coexist with the at-most-once guarantee?
+A constraint interviewers often add: the scheduler only needs to handle a single job *type*, so keep the model from becoming more general than required.
 
 ## Follow-ups
 
-1. A worker is cut off by a network partition but is still alive; it keeps running after its lease expires, and meanwhile a retry has already been enqueued. How is external state protected?
-2. How is the top-of-the-hour thundering herd handled, both on the metadata database and on the worker fleet?
-3. How are per-job resource requirements supported without building a full bin-packing scheduler?
-4. What happens if a worker dies right before, or right after, it begins executing a run?
-5. What happens if the queue loses messages, or a database commit times out?
-6. How does cancellation interact with a job that is already running?
-7. How is a burst of due jobs kept from overwhelming a dependency belonging to a single tenant?
-8. What happens if a worker fails after the job's side effect has succeeded but before it records completion?
-9. How would the design support jobs scheduled years into the future?
-10. What happens when one tenant schedules a million jobs for the same second?
-11. How is a worker code change deployed while old jobs are still sitting in the queue?
+Interviewers typically dig into these areas:
+
+- If a worker, or any other component in the execution pipeline, crashes partway through a run, how does the system still respect the at-most-once guarantee while continuing to retry?
+- When a recurring job **fails**, a notification must still go out. Design the failure path so that this notification is reliably triggered even if parts of the system are unavailable.
+- What retry and backoff strategy would you use, and how do retries coexist with the at-most-once guarantee?
 
 ## Interview Notes
 
-- The round is open-book and the prompt is stable, so the first half of the design does little to differentiate candidates. Cover reliability and fault tolerance early and in depth; candidates who treat it lightly get led into follow-up traps and run out of time.
-- The failure-handling scenarios (worker crash, a lost notification when a recurring job fails, retry/backoff) are the graded follow-ups.
-
-### What interviewers focus on
-
-- Modeling dependencies between jobs as a graph, including detecting cycles and propagating failures along it.
+- The round is open-book and the prompt rarely changes, so the early part of the design does little to set candidates apart. Address reliability and fault tolerance proactively and in depth early on; candidates who treat it lightly tend to be led into follow-up traps and run short on time.
+- The failure-handling scenarios — a worker crash, a lost notification after a recurring job fails, and retry/backoff — are the follow-ups that get graded.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-The central problem is coordinating multiple scheduler machines so a run is triggered exactly once despite failures.
+Split the system into the parts that decide when a job should run, the parts that execute it, and the parts that record outcomes and logs.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a durable store for job definitions and a leader election or distributed lock to assign each due run to one scheduler, with workers pulling from a queue.
+Use a persistent job store plus a time-ordered structure (such as a delay queue or a sharded timing wheel) to trigger runs, with workers that claim runs using leases or locks to guarantee at-most-once execution.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Consider idempotency keys and at-least-once delivery to avoid duplicate or lost runs, and decide how to handle missed schedules after downtime.
+Cover recurring job expansion, SLA deadline monitoring and alerting, worker crashes and lease expiry, clock skew, retries versus at-most-once semantics, and per-run log storage.
 
 </details>
 

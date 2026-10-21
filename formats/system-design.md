@@ -56,9 +56,9 @@
 | **OpenAI** | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | Hard | 🆕 Sep 07, 2026 |
 | **Amazon** | [Accept Notification Bursts With Low Latency](https://trueinterview.io/questions/accept-notification-bursts-with-low-latency) | Hard | 🆕 Sep 07, 2026 |
 | **Databricks** | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | Easy | 🆕 Sep 06, 2026 |
-| **Oracle** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | Hard | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | Medium | 🆕 Sep 05, 2026 |
-| **Oracle** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | Hard | 🆕 Sep 05, 2026 |
+| **Oracle** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | Hard | Sep 05, 2026 |
+| **DoorDash** | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | Medium | Sep 05, 2026 |
+| **Oracle** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | Hard | Sep 05, 2026 |
 | **Tesla** | [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | Hard | Sep 04, 2026 |
 | **Airbnb** | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | Medium | Sep 04, 2026 |
 | **Meta** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | Hard | Sep 04, 2026 |

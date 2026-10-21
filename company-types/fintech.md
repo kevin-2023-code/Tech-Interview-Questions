@@ -48,7 +48,7 @@ Of the **204 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**35 sightings** across this cut. Newest first.
+**34 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **204 questions in this cut that carry a topic label** (44% of it):
 | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Stripe | Object Oriented Programming | Sep 11, 2026 |
 | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Stripe | Algorithm | Sep 11, 2026 |
 
-<sub>23 more in this window are in the table below.</sub>
+<sub>22 more in this window are in the table below.</sub>
 
 ---
 

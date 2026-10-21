@@ -48,7 +48,7 @@ Of the **379 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**107 sightings** across this cut. Newest first.
+**106 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **379 questions in this cut that carry a topic label** (53% of it):
 | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Oracle | Blog | Sep 19, 2026 |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Rippling | Object Oriented Programming | Sep 18, 2026 |
 
-<sub>95 more in this window are in the table below.</sub>
+<sub>94 more in this window are in the table below.</sub>
 
 ---
 
@@ -115,8 +115,8 @@ Of the **379 questions in this cut that carry a topic label** (53% of it):
 | **Microsoft** | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | — | 🆕 Sep 10, 2026 |
 | **Oracle** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | Medium | 🆕 Sep 09, 2026 |
 | **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🆕 Sep 09, 2026 |
-| **Oracle** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | Hard | 🆕 Sep 05, 2026 |
-| **Oracle** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | Hard | 🆕 Sep 05, 2026 |
+| **Oracle** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | Hard | Sep 05, 2026 |
+| **Oracle** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | Hard | Sep 05, 2026 |
 | **Atlassian** | [Design Monitoring and Reliability for 99.99% Availability](https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability) | Hard | Sep 04, 2026 |
 | **Oracle** | [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | Hard | Sep 03, 2026 |
 | **Atlassian** | [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) | — | Sep 03, 2026 |

@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,403 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 

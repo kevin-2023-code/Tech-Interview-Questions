@@ -2,7 +2,7 @@
 
 # Topics
 
-What the bank is *about*, counted over the **2,477 questions that carry a topic label** — 44% of 5,636. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
+What the bank is *about*, counted over the **2,478 questions that carry a topic label** — 44% of 5,636. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
 
 [← Insights](README.md) · [← Question bank](../README.md)
 
@@ -10,15 +10,15 @@ What the bank is *about*, counted over the **2,477 questions that carry a topic 
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
 | `hashing` | 428 | 17% | 51 | 103 | 265 | 60 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Meta](../companies/meta.md) |
 | `arrays` | 368 | 15% | 45 | 103 | 218 | 47 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
-| `graphs` | 368 | 15% | 45 | 25 | 235 | 108 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
-| `strings` | 349 | 14% | 35 | 92 | 211 | 46 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
-| `greedy` | 210 | 8% | 19 | 19 | 145 | 46 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
-| `math` | 194 | 8% | 23 | 38 | 99 | 57 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
+| `graphs` | 368 | 15% | 44 | 25 | 235 | 108 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
+| `strings` | 349 | 14% | 34 | 92 | 211 | 46 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
+| `greedy` | 211 | 9% | 19 | 19 | 146 | 46 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `math` | 195 | 8% | 23 | 38 | 99 | 58 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
 | `dynamic-programming` | 192 | 8% | 15 | 10 | 114 | 68 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `sorting` | 186 | 8% | 23 | 36 | 106 | 44 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `trees` | 179 | 7% | 24 | 22 | 117 | 40 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `matrix` | 151 | 6% | 24 | 11 | 110 | 30 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Google](../companies/google.md) |
-| `backtracking` | 139 | 6% | 21 | 11 | 88 | 40 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Meta](../companies/meta.md) |
+| `backtracking` | 139 | 6% | 20 | 11 | 88 | 40 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Meta](../companies/meta.md) |
 | `binary-search` | 130 | 5% | 9 | 11 | 83 | 36 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Uber](../companies/uber.md) |
 | `heap` | 123 | 5% | 19 | 8 | 78 | 37 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
 | `two-pointers` | 123 | 5% | 9 | 32 | 82 | 9 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
@@ -60,13 +60,13 @@ The most recently reported question carrying each label — newest sighting firs
 - [Reconstruct a Sentence from a Dictionary (Word Break Variant)](https://trueinterview.io/questions/word-break-sentence-reconstruction) · Algorithm · Medium
 - [Request Routing System](https://trueinterview.io/questions/request-routing-system) · Algorithm · Medium
 
-**`greedy`** — 210 questions
+**`greedy`** — 211 questions
 
 - [Connected Crop Arrangement on a Grid](https://trueinterview.io/questions/connected-crop-arrangement-grid) · Algorithm · Hard
 - [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) · Algorithm · Hard
 - [Minimum Set of Values to Remove Half the Array](https://trueinterview.io/questions/min-set-size-remove-half) · Algorithm · Medium
 
-**`math`** — 194 questions
+**`math`** — 195 questions
 
 - [Count Non-Decreasing Arrays with Target Digit Sums](https://trueinterview.io/questions/non-decreasing-digit-sum-array-count) · Algorithm · Hard
 - [Maximum-Area Rectangle from Planar Points](https://trueinterview.io/questions/max-area-rectangle-from-points) · Algorithm · Hard

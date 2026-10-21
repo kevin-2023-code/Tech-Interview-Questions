@@ -48,7 +48,7 @@ Of the **169 questions in this cut that carry a topic label** (56% of it):
 
 ## Asked here in the last 90 days
 
-**25 sightings** across this cut. Newest first.
+**24 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **169 questions in this cut that carry a topic label** (56% of it):
 | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Databricks | Algorithm | Sep 06, 2026 |
 | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Snowflake | Algorithm | Sep 05, 2026 |
 
-<sub>13 more in this window are in the table below.</sub>
+<sub>12 more in this window are in the table below.</sub>
 
 ---
 
@@ -88,8 +88,8 @@ Of the **169 questions in this cut that carry a topic label** (56% of it):
 | **Databricks** | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Medium | 🆕 Sep 06, 2026 |
 | **Databricks** | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Hard | 🆕 Sep 06, 2026 |
 | **Databricks** | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | Easy | 🆕 Sep 06, 2026 |
-| **Snowflake** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Medium | 🆕 Sep 05, 2026 |
-| **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | 🆕 Sep 05, 2026 |
+| **Snowflake** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Medium | Sep 05, 2026 |
+| **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | Sep 05, 2026 |
 | **Snowflake** | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Hard | Sep 03, 2026 |
 | **Snowflake / ByteDance / Databricks / Perplexity** | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Medium | Aug 31, 2026 |
 | **Snowflake** | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | Medium | Aug 24, 2026 |

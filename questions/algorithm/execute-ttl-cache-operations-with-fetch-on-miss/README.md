@@ -12,9 +12,14 @@
 
 ## Problem
 
-Implement a function `execute_ttl_cache(operations: list[list[object]]) -> list[list[object]]` that simulates a TTL cache. The cache supports `put`, `get`, `delete`, `size`, and a deterministic `fetch` operation. `fetch` does not accept a callable loader; instead, the loader outcome is provided directly in the operation, making every input JSON-serializable and reproducible.
+Build a side-effect-free simulator of a cache whose entries carry a time-to-live (TTL). Implement `execute_ttl_cache(operations)`, which takes a list of operations (each itself a list) and returns a list containing one result per operation, in the same order. The supported commands are put, get, delete, size, and a deterministic stand-in for a fetch that calls a loader when the cache misses.
 
-Each operation in `operations` uses one of these formats:
+```python
+def execute_ttl_cache(operations: list[list[object]]) -> list[list[object]]:
+    ...
+```
+
+Each operation takes one of these shapes:
 
 - `["put", time_ms, key, value, ttl_ms]`
 - `["get", time_ms, key]`
@@ -22,135 +27,85 @@ Each operation in `operations` uses one of these formats:
 - `["size", time_ms]`
 - `["fetch", time_ms, key, ttl_ms, loader_status, loader_payload]`
 
-Keys are strings and cached values are integers. `time_ms` values are nonnegative integers and appear in nondecreasing order. A record written at time `T` with a positive `ttl_ms` is valid only for times strictly less than `T + ttl_ms`; at or after `T + ttl_ms` it is expired. A `ttl_ms` of `0` means the record never expires. Expired records are not removed automatically; they are retained until an explicit `delete` or replacement, and `size` counts them.
+Every key is a string and every cached value is an integer. Timestamps are non-negative integers that never go down from one operation to the next. When `ttl_ms` is positive, the entry stops being valid at time `put_time + ttl_ms`; at that exact moment it already counts as expired. A `ttl_ms` of zero means the entry never expires.
 
-Return one result per operation, in the same order:
+Each operation must produce exactly the following result:
 
-- `put` returns `["ok"]`. A `put` always installs a fresh record for `key`, discarding any prior stored record, valid or expired.
-- `get` returns `["ok", value]` when the key is stored and valid, otherwise `["ok", null]`.
-- `delete` returns `["ok", true]` when a stored record exists, even if expired, and removes it; otherwise it returns `["ok", false]`.
-- `size` returns `["ok", count]`, where `count` includes stored expired records.
-- `fetch` first checks for a stored, valid entry. If one exists, `fetch` immediately returns `["ok", value]` and ignores the loader fields. If the key is missing or its stored record is expired, the loader fields are consulted. `loader_status` is either `"ok"` or `"error"`. On `"ok"`, the cache stores `loader_payload` under `key` with the supplied `ttl_ms`, treating this fetch time as the new write time, and returns `["ok", loader_payload]`. On `"error"`, the cache is left unchanged and `fetch` returns `["error", loader_payload]`, where `loader_payload` is the reason string.
+- put: `["ok"]`
+- get: `["ok", value]` when the key holds a valid entry, and `["ok", null]` otherwise.
+- delete: `["ok", boolean]`, where the boolean is `true` whenever the key was stored, including when its entry had already expired.
+- size: `["ok", count]`, where the count includes stored entries that have expired.
+- fetch: if the key currently holds a valid entry, return that cached value and ignore the loader fields entirely. If the entry is missing or expired, look at `loader_status`, which is either `"ok"` or `"error"`. With `"ok"`, overwrite the entry using `loader_payload` as the value and the given `ttl_ms`, then return `["ok", value]`. With `"error"`, leave the cache untouched and return `["error", reason]`.
 
-Malformed input must raise `ValueError`. This includes unknown operation names, an operation shape that does not match its declared fields, values of incorrect types, a decreasing timestamp, `ttl_ms` less than zero, `loader_status` outside `"ok"` or `"error"`, and loader payload types that do not match the status.
+An expired entry is not removed automatically; it stays stored until it is deleted or overwritten, which is what makes the size behaviour above visible. Rather than accepting a callable, fetch receives the outcome a loader call would have produced, so the whole input stays JSON-serialisable and deterministic.
+
+Error rules:
+
+- `ttl_ms` is never negative.
+- When `loader_status` is `"ok"`, `loader_payload` is an integer; when it is `"error"`, `loader_payload` is a string giving the reason.
+- A malformed operation, a timestamp smaller than the previous one, a value of the wrong type, or an unrecognised operation name must raise `ValueError`.
+- Results are checked for exact equality.
 
 Example 1:
 
 ```text
-Input:
-[
-  ["put", 10, "alpha", 7, 30],
-  ["get", 20, "alpha"],
-  ["get", 40, "alpha"],
-  ["size", 40],
-  ["delete", 50, "alpha"],
-  ["size", 50]
-]
+Input: operations = [["put", 10, "k", 7, 3], ["get", 12, "k"], ["fetch", 13, "k", 0, "ok", 9], ["get", 1000, "k"], ["fetch", 1001, "k", 5, "error", "boom"], ["size", 1001]]
 
-Output:
-[
-  ["ok"],
-  ["ok", 7],
-  ["ok", null],
-  ["ok", 1],
-  ["ok", true],
-  ["ok", 0]
-]
+Output: [["ok"], ["ok", 7], ["ok", 9], ["ok", 9], ["ok", 9], ["ok", 1]]
 ```
 
-Explanation: `alpha` is valid at time 20, expires exactly at time 40, remains stored and counted at time 40, then is deleted at time 50.
+Explanation: The entry for `"k"` expires at time 13, so the fetch at 13 misses and stores 9 with no expiry; the later fetch at 1001 finds that valid value and ignores its error loader fields.
 
 ```trueviz
-{"v":1,"kind":"example","title":"TTL cache: put / get / size / delete","input":{"operations":"[[\"put\", 10, \"alpha\", 7, 30], [\"get\", 20, \"alpha\"], [\"get\", 40, \"alpha\"], [\"size\", 40], [\"delete\", 50, \"alpha\"], [\"size\", 50]]"},"steps":[{"say":"Six operations arrive in nondecreasing time order; the cache starts empty.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t=10","get t=20","get t=40","size t=40","del t=50","size t=50"],"marks":{"read":[0]}},{"type":"map","id":"cache","label":"cache","entries":[],"layout":"table"}]},{"say":"put at t=10 stores alpha=7 with ttl 30, so the record is valid for times t < 40.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t=10","get t=20","get t=40","size t=40","del t=50","size t=50"],"marks":{"read":[0]}},{"type":"map","id":"cache","label":"cache","entries":[{"key":"alpha","value":"7, exp 40"}],"layout":"table"}]},{"say":"get at t=20: 20 < 40, so alpha is still valid and returns 7.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t=10","get t=20","get t=40","size t=40","del t=50","size t=50"],"marks":{"read":[1]}},{"type":"map","id":"cache","label":"cache","entries":[{"key":"alpha","value":"7, exp 40"}],"layout":"table"}]},{"say":"get at t=40: 40 is not < 40, so alpha is expired — it returns null but stays stored.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t=10","get t=20","get t=40","size t=40","del t=50","size t=50"],"marks":{"read":[2]}},{"type":"map","id":"cache","label":"cache","entries":[{"key":"alpha","value":"7, exp 40"}],"layout":"table"}]},{"say":"size at t=40 counts the stored expired record: 1.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t=10","get t=20","get t=40","size t=40","del t=50","size t=50"],"marks":{"read":[3]}},{"type":"map","id":"cache","label":"cache","entries":[{"key":"alpha","value":"7, exp 40"}],"layout":"table"}]},{"say":"delete at t=50 finds the stored record even though it is expired, and removes it: true.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t=10","get t=20","get t=40","size t=40","del t=50","size t=50"],"marks":{"read":[4]}},{"type":"map","id":"cache","label":"cache","entries":[],"layout":"table"}]},{"say":"size at t=50: the cache is empty, so the count is 0.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t=10","get t=20","get t=40","size t=40","del t=50","size t=50"],"marks":{"read":[5]}},{"type":"map","id":"cache","label":"cache","entries":[],"layout":"table"}]},{"say":"Results in operation order: [ok], [ok,7], [ok,null], [ok,1], [ok,true], [ok,0].","panels":[{"type":"array","id":"ops","label":"operations","values":["put t=10","get t=20","get t=40","size t=40","del t=50","size t=50"]},{"type":"map","id":"cache","label":"cache","entries":[],"layout":"table"}]}],"expected":"[[\"ok\"], [\"ok\", 7], [\"ok\", null], [\"ok\", 1], [\"ok\", true], [\"ok\", 0]]"}
+{"v":1,"kind":"example","title":"TTL cache with fetch","input":{"operations":"[['put', 10, 'k', 7, 3], ['get', 12, 'k'], ['fetch', 13, 'k', 0, 'ok', 9], ['get', 1000, 'k'], ['fetch', 1001, 'k', 5, 'error', 'boom'], ['size', 1001]]"},"steps":[{"say":"Six operations on one key k, each with its own timestamp in milliseconds.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t10 ttl3","get t12","fetch t13","get t1000","fetch t1001","size t1001"]}]},{"say":"put at time 10 with ttl 3: k holds 7 and is valid until time 13. A get at time 12 still sees 7.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t10 ttl3","get t12","fetch t13","get t1000","fetch t1001","size t1001"],"marks":{"read":[0,1],"dim":[2,3,4,5]}},{"type":"array","id":"res","label":"results","values":["['ok']","['ok', 7]"],"marks":{"found":[0,1]}}]},{"say":"At time 13 the entry has just expired, so the fetch is a miss and stores 9 with ttl 0, which never expires.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t10 ttl3","get t12","fetch t13","get t1000","fetch t1001","size t1001"],"marks":{"read":[2],"dim":[0,1,3,4,5]}},{"type":"array","id":"res","label":"results","values":["['ok']","['ok', 7]","['ok', 9]"],"marks":{"found":[2]}}]},{"say":"The get at 1000 and the fetch at 1001 both find the valid value 9; the fetch ignores its error loader.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t10 ttl3","get t12","fetch t13","get t1000","fetch t1001","size t1001"],"marks":{"read":[3,4],"dim":[0,1,2,5]}},{"type":"array","id":"res","label":"results","values":["['ok']","['ok', 7]","['ok', 9]","['ok', 9]","['ok', 9]"],"marks":{"found":[3,4]}}]},{"say":"Only one entry is stored, so size is 1.","panels":[{"type":"array","id":"ops","label":"operations","values":["put t10 ttl3","get t12","fetch t13","get t1000","fetch t1001","size t1001"],"marks":{"read":[5],"dim":[0,1,2,3,4]}},{"type":"array","id":"res","label":"results","values":["['ok']","['ok', 7]","['ok', 9]","['ok', 9]","['ok', 9]","['ok', 1]"],"marks":{"found":[5]}}]}],"expected":"[[\"ok\"], [\"ok\", 7], [\"ok\", 9], [\"ok\", 9], [\"ok\", 9], [\"ok\", 1]]"}
 ```
 
 
 Example 2:
 
 ```text
-Input:
-[
-  ["put", 0, "beta", 3, 10],
-  ["fetch", 5, "beta", 99, "ok", 42],
-  ["get", 5, "beta"],
-  ["fetch", 10, "beta", 20, "error", "timeout"],
-  ["size", 10],
-  ["fetch", 10, "beta", 20, "ok", 55],
-  ["get", 25, "beta"],
-  ["fetch", 30, "gamma", 40, "error", "db_down"],
-  ["size", 30]
-]
+Input: operations = [["put", 0, "a", 4, 2], ["put", 1, "b", 6, 0], ["get", 3, "a"], ["size", 3], ["fetch", 3, "a", 4, "error", "timeout"], ["delete", 4, "a"], ["delete", 4, "a"], ["size", 4]]
 
-Output:
-[
-  ["ok"],
-  ["ok", 3],
-  ["ok", 3],
-  ["error", "timeout"],
-  ["ok", 1],
-  ["ok", 55],
-  ["ok", 55],
-  ["error", "db_down"],
-  ["ok", 1]
-]
+Output: [["ok"], ["ok"], ["ok", null], ["ok", 2], ["error", "timeout"], ["ok", true], ["ok", false], ["ok", 1]]
 ```
 
-Explanation: At time 5 `beta` is still valid, so the first fetch ignores its loader fields and returns `3`. At time 10 the record is expired; a loader error leaves the expired record stored, then a subsequent loader success replaces it. Missing `gamma` is not stored after its loader error.
+Explanation: `"a"` expired at time 2 but is still stored, so size reports 2, the failed fetch leaves it in place, and the first delete returns `true` while the second returns `false`.
 
 Example 3:
 
 ```text
-Input:
-[
-  ["put", 1, "omega", 10, 0],
-  ["get", 999, "omega"],
-  ["put", 1000, "omega", 11, 5],
-  ["size", 1000],
-  ["delete", 1000, "omega"],
-  ["delete", 1001, "omega"]
-]
+Input: operations = []
 
-Output:
-[
-  ["ok"],
-  ["ok", 10],
-  ["ok"],
-  ["ok", 1],
-  ["ok", true],
-  ["ok", false]
-]
+Output: []
 ```
-
-Explanation: A zero TTL keeps the original record valid indefinitely. The later `put` replaces it with a record expiring at time 1005, then the first delete removes that record and the second delete finds nothing.
 
 Constraints:
 
-- $$0 \le \text{len}(\text{operations}) \le 100000$$
-- Timestamps are nonnegative integers and nondecreasing across the input.
-- `ttl_ms` is a nonnegative integer.
-- `loader_payload` is an integer for `loader_status == "ok"` and a string for `loader_status == "error"`.
-- Return values are compared exactly.
+* $$0 \le \text{len(operations)} \le 200000$$
+* Timestamps are non-negative and nondecreasing.
+* A positive TTL expires exactly at the put time plus the TTL; a TTL of zero never expires.
+* `ttl_ms` is non-negative.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Simulate the cache with a dictionary mapping keys to (value, expiry_time) and process operations in order, using the provided time_ms.
+Think of the cache as a state machine driven by the timestamps on operations, where an entry is simply invisible once the current time reaches its expiry.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For fetch, if the key is missing or expired, use the loader_stat to determine the outcome (e.g., success or failure) and update the cache accordingly.
+Store each key with its value and absolute expiry time in a hash map, and evaluate expiry lazily (or purge expired entries) at the start of every operation before acting.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Be careful with TTL: an entry expires when the current time is greater than or equal to the expiry time, also handle delete and size operations correctly.
+Be careful about the exact expiry boundary, whether size counts expired entries, how a fetch on miss stores the loaded value with a new TTL, and that results must be produced in operation order.
 
 </details>
 

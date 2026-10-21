@@ -12,38 +12,58 @@
 
 ## Problem
 
-Implement the function `evaluate(expression)` that computes the integer result of a string expression. The expression uses two named operations: `"add"` adds together all of its arguments, while `"sub"` subtracts the second argument from the first. The operations may be nested arbitrarily.
+Implement `evaluate(expression)`. The string `expression` encodes an arithmetic formula built entirely out of nested function calls, using two functions:
 
-The expression may contain negative integers and spaces; the input is always syntactically valid.
+- `add(x, y)` stands for `x + y`
+- `sub(x, y)` stands for `x - y`
+
+Each argument `x` or `y` is either an integer literal or itself another function-call expression of the same form, nested to any depth.
+
+Evaluate the whole expression and return the resulting integer.
 
 Example 1:
 
 ```text
-Input: "add(add(1,3), sub(1,3))"
+Input: add(1, sub(1, 0))
+
 Output: 2
 ```
 
-Explanation: It computes (1 + 3) + (1 - 3) = 2.
+Explanation: The inner call `sub(1, 0)` evaluates to `1`, and then `add(1, 1)` gives `2`.
+
+Tests:
+
+```java
+1) Input: add(1,sub(1,0))
+Output: 2
+
+2) Input: sub(10,3)
+Output: 7
+
+3) Input: add(sub(5,2),sub(1,4))
+Output: 0
+
+4) Input: add(0,add(0,0))
+Output: 0
+
+5) Input: sub(add(7,8),sub(3,1))
+Output: 13
+```
 
 Example 2:
 
 ```text
-Input: "sub(1,3)"
-Output: -2
-```
-
-Example 3:
-
-```text
-Input: "add(-1, 3)"
+Input: add(1,sub(1,0))
 Output: 2
 ```
 
 Constraints:
 
-* The expression string consists only of `"add"`, `"sub"` functions, integer numbers, parentheses `"()"`, commas `","`, and spaces.
-* The expression is always valid.
-* All numbers in the expression are integers within the range [-10<sup>5</sup>, 10<sup>5</sup>].
+* $$1 \le len(expression) \le 2 \times 10^5$$
+* Every number is a base-10 integer that fits in the 32-bit signed range.
+* Unless stated otherwise, the string is made up only of lowercase letters, digits, `(`, `)` and `,`.
+* The expression is always well formed: parentheses are balanced and every call has the correct commas and exactly two arguments.
+* Target a running time that is linear, or close to linear, in the length of the string.
 
 ## Hints
 

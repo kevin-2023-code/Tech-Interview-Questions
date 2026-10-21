@@ -12,39 +12,51 @@
 
 ## Problem
 
-You are handed the path to a CSV file, `csv_path`. Its rows record employee meetings, and each row carries four columns: `employee_id`, `meeting_id`, `join_time`, and `leave_time`.
+Implement `longest_daily_meeting_duration(csv_path)`. The argument `csv_path` points to a CSV file (equivalently, a DataFrame) of meeting attendance records, where every row carries these fields:
 
-Implement the function `longest_daily_meeting_duration(csv_path)` so that, for each employee and each calendar day, it yields that employee's longest work duration on that day. The wording of this requirement is intentionally loose: it does not settle whether the meetings themselves belong inside the working window or must be carved out of it. Before you write any code, make sure the definition of "work duration" is pinned down.
+- `employee_id`
+- `meeting_id`
+- `join_time`
+- `leave_time`
 
-Whatever definition you settle on, your implementation has to read and parse the CSV, interpret the two timestamp columns in an agreed way, group the records by employee and by day, and then reduce each such group to that employee's maximum daily duration. The resulting table is the value the function returns.
+The `join_time` and `leave_time` fields are timestamps marking the moment the employee entered and exited the meeting.
 
-## Examples
+For every employee on every day, determine the **longest continuous working duration**, where "working time" means any time on that day that no meeting occupies. Put differently: cut every meeting interval out of that day's timeline, and report the length of the biggest stretch that remains free of meetings.
 
-**Example**
+Points to keep in mind:
+
+- One employee can attend several meetings on the same day.
+- Meeting intervals that overlap or share an endpoint must be combined into one block before the free gaps are measured.
+
+The result contains one row per `(employee_id, date)` pair with these fields:
+
+- `employee_id`
+- `date`
+- `longest_work_duration` (expressed in a stated unit, for example seconds or minutes)
+
+Example 1:
 
 ```text
 Input:
 employee_id,meeting_id,join_time,leave_time
-E001,M1,2024-01-15T09:00:00,2024-01-15T10:30:00
-E001,M2,2024-01-15T14:00:00,2024-01-15T14:45:00
-E002,M3,2024-01-15T10:00:00,2024-01-15T11:00:00
+1,101,2024-01-01 09:00:00,2024-01-01 10:00:00
+1,102,2024-01-01 12:00:00,2024-01-01 13:00:00
+1,103,2024-01-01 15:00:00,2024-01-01 15:30:00
+
 Output:
-E001	2024-01-15	1:30:00
-E002	2024-01-15	1:00:00
+employee_id,date,longest_work_duration_minutes
+1,2024-01-01,510
 ```
 
-## Follow-ups
+Explanation: Employee 1 has three separate meetings on 2024-01-01, and the longest meeting-free stretch reported for that day is 510 minutes.
 
-Be prepared to raise and resolve these points with the interviewer:
+```trueviz
+{"v":1,"kind":"example","title":"Longest meeting-free stretch","input":{"employee_id":"1","date":"2024-01-01"},"steps":[{"say":"Employee 1 has three meetings on 2024-01-01.","panels":[{"type":"array","id":"meet","label":"Meetings (101, 102, 103)","values":["09:00-10:00","12:00-13:00","15:00-15:30"]}]},{"say":"Between the meetings (10:00-12:00 and 13:00-15:00) and after the last one (15:30 to midnight) the employee is free. Lengths are in minutes.","panels":[{"type":"array","id":"meet","label":"Meetings","values":["09:00-10:00","12:00-13:00","15:00-15:30"],"marks":{"dim":[0,1,2]}},{"type":"array","id":"free","label":"Meeting-free stretches (minutes)","values":["gap 120","gap 120","gap 510"]}]},{"say":"The last stretch, 15:30 to midnight, is the longest: 510 minutes.","panels":[{"type":"array","id":"meet","label":"Meetings","values":["09:00-10:00","12:00-13:00","15:00-15:30"],"marks":{"dim":[0,1,2]}},{"type":"array","id":"free","label":"Meeting-free stretches (minutes)","values":["gap 120","gap 120","gap 510"],"marks":{"found":[2],"dim":[0,1]}}]},{"say":"Answer for employee 1 on 2024-01-01: 510 minutes.","panels":[{"type":"array","id":"ans","label":"Output row","values":["1","2024-01-01","510"],"marks":{"found":[0,1,2]}}]}],"expected":"[[1, \"2024-01-01\", 510]]"}
+```
 
-* Which metric is actually wanted — the total length of the meetings, or the time spent working outside of meetings?
-* How should time zones be treated?
-* What happens when two meeting intervals overlap?
-* Is the "longest duration" a single continuous stretch, or an aggregate summed over the whole day?
+Constraints:
 
-## Interview Notes
-
-Timestamp handling is the crux of this exercise and the point at which the round is usually won or lost. Note that the grading harness calls `longest_daily_meeting_duration(csv_path)` and consumes the returned value directly; there is no standard-input parsing or console output for you to write.
+* The input may contain up to $$10^5$$ rows, so the solution must be efficient.
 
 ## Hints
 

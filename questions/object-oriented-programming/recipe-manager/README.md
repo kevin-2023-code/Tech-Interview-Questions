@@ -12,221 +12,299 @@
 
 ## Problem
 
-## Recipe Manager
+You will build an **in-memory system for managing recipes**, growing it over four cumulative levels. Each level keeps everything from the levels before it and layers new behavior on top: basic create/read/update/delete, then searching and ordering, then a user layer, and finally per-recipe version history with rollback.
 
-CodingOA Software Engineer
+Every recipe is identified by a unique string `recipe_id`, has a string `name`, and holds `ingredients` as a list of strings.
 
-### Problem Overview
+### Level 1: Basic CRUD Operations
 
-Create an **in-memory recipe manager** with CRUD support, searching, authentication, and version handling. The task is divided into four cumulative levels, with each later level extending the earlier work.
+Write a `RecipeManager` class that can create, fetch, modify and remove recipes.
 
-A recipe consists of a unique string `recipe_id`, a string `name`, and a list of string `ingredients`. Implement the functionality progressively through the four levels.
-
-### Level 1: Core CRUD Features
-
-#### Problem Statement
-
-Build a `RecipeManager` class that can add, fetch, modify, and remove recipes.
-
-```
+```python
 class RecipeManager:
     def __init__(self):
-        """Initialize the recipe management system."""
+        """Set up an empty recipe store."""
         pass
 
     def add_recipe(self, recipe_id: str, name: str, ingredients: list[str]) -> bool:
         """
-        Create a new recipe with the given identifier, name, and list of ingredients.
+        Register a new recipe under recipe_id with the supplied name and ingredients.
 
-        Args:
-            recipe_id: Unique identifier for the recipe.
-            name: The name of the recipe.
-            ingredients: List of ingredient strings.
-
-        Returns:
-            True if the recipe was successfully created,
-            False if a recipe with that id already exists or
-            a recipe with that name already exists (case-insensitive comparison).
+        Returns True on success. Returns False when recipe_id is already taken,
+        or when some recipe already uses this name (names are compared ignoring case).
         """
         pass
 
     def get_recipe(self, recipe_id: str) -> dict | None:
         """
-        Retrieve the recipe with the given identifier.
+        Look up a recipe by its identifier.
 
-        Args:
-            recipe_id: The ID of the recipe to retrieve.
-
-        Returns:
-            The recipe data as a dictionary containing id, name, and ingredients,
-            or None if the recipe doesn't exist.
+        Returns a dictionary with the keys id, name and ingredients,
+        or None when no such recipe is stored.
         """
         pass
 
     def update_recipe(self, recipe_id: str, name: str, ingredients: list[str]) -> bool:
         """
-        Update an existing recipe with new name and ingredients.
+        Replace the name and ingredients of an existing recipe.
 
-        Args:
-            recipe_id: The ID of the recipe to update.
-            name: The new name for the recipe.
-            ingredients: The new list of ingredients.
-
-        Returns:
-            True if the recipe was successfully updated,
-            False if the recipe doesn't exist or the new name
-            conflicts with another recipe's name (case-insensitive).
+        Returns True on success. Returns False when recipe_id is unknown,
+        or when the new name (ignoring case) is held by a different recipe.
         """
         pass
 
     def delete_recipe(self, recipe_id: str) -> bool:
         """
-        Delete the recipe with the given identifier.
+        Remove the recipe stored under recipe_id.
 
-        Args:
-            recipe_id: The ID of the recipe to delete.
-
-        Returns:
-            True if the recipe was successfully deleted,
-            False if the recipe doesn't exist.
+        Returns True if it was removed, False if it was not present.
         """
         pass
 ```
 
-**Important:** Recipe titles must be distinct without regard to letter case. For instance, once `"Lemon Chicken"` has been stored, adding either `"lemon chicken"` or `"LEMON CHICKEN"` must be rejected. When updating a recipe, it may retain its own title, including a casing-only change, but it may not take a title assigned to another recipe.
+**Name uniqueness ignores case.** If "Pasta Carbonara" is stored, then adding "pasta carbonara" or "PASTA CARBONARA" must fail. During an update, a recipe is allowed to keep its own current name (including a re-cased version of it), but it may not take a name that currently belongs to another recipe.
 
-#### Example Usage
+Example 1:
 
-```
+```text
+Input:
 manager = RecipeManager()
 
-manager.add_recipe("10", "Lemon Chicken", ["chicken", "lemon", "garlic"]) # True
-manager.add_recipe("11", "Bean Soup", ["beans", "broth", "carrot"]) # True
-manager.add_recipe("12", "LEMON CHICKEN", ["chicken"]) # False (duplicate name)
+manager.add_recipe("1", "Spaghetti Bolognese", ["pasta", "ground beef", "tomato sauce"])
+manager.add_recipe("2", "Caesar Salad", ["lettuce", "croutons", "parmesan"])
+manager.add_recipe("3", "spaghetti bolognese", ["pasta"])
 
-manager.get_recipe("10") # {"id": "10", "name": "Lemon Chicken", "ingredients": [...]}
-manager.get_recipe("404") # None
+manager.get_recipe("1")
+manager.get_recipe("99")
 
-manager.update_recipe("10", "Garlic Lemon Chicken", ["chicken", "lemon", "garlic"]) # True
-manager.update_recipe("10", "bean soup", ["chicken"]) # False (name conflict)
-manager.update_recipe("404", "Missing Recipe", []) # False (doesn't exist)
+manager.update_recipe("1", "Classic Bolognese", ["pasta", "beef", "tomatoes"])
+manager.update_recipe("1", "caesar salad", ["pasta"])
+manager.update_recipe("99", "Nothing", [])
 
-manager.delete_recipe("11") # True
-manager.delete_recipe("404") # False
+manager.delete_recipe("2")
+manager.delete_recipe("99")
+
+Output:
+True
+True
+False   (duplicate name)
+
+{"id": "1", "name": "Spaghetti Bolognese", "ingredients": [...]}
+None
+
+True
+False   (name conflict)
+False   (doesn't exist)
+
+True
+False
 ```
 
----
+Explanation: Recipe `"3"` is rejected because its name matches `"Spaghetti Bolognese"` once case is ignored, and renaming recipe `"1"` to `"caesar salad"` collides with recipe `"2"`.
 
-### Level 2: Searching and Ordering
+### Level 2: Search and Sorting
 
-#### Problem Statement
+Add lookup by name fragment, plus a way to list everything, with a fixed ordering for the results.
 
-Add recipe lookup capabilities and require the returned recipes to follow a defined sort order.
-
-```
+```python
 def search_recipes(self, query: str) -> list[dict]:
     """
-    Search for recipes where the name contains the query string (case-insensitive).
+    Find every recipe whose name contains query as a substring (ignoring case).
 
-    Args:
-        query: The search string to match against recipe names.
-
-    Returns:
-        A list of matching recipes sorted by:
-        1. Number of ingredients in ascending order (fewer first)
-        2. Recipe ID in ascending order (numerically for numeric strings)
-        Returns an empty list if no recipes match.
+    The matches are ordered:
+      1. by ingredient count, smallest first;
+      2. then by recipe ID, ascending (compared as numbers when the IDs are numeric strings).
+    An empty list is returned when nothing matches.
     """
     pass
 
 def get_all_recipes(self) -> list[dict]:
     """
-    Return all recipes in the system.
-
-    Returns:
-        All recipes sorted using the same sorting rules as search_recipes.
+    Return every stored recipe, ordered by the same rules as search_recipes.
     """
     pass
 ```
 
-#### Example Usage
+Example 2:
 
-```
+```text
+Input:
 manager = RecipeManager()
 
-manager.add_recipe("7", "Tomato Rice", ["rice", "tomato", "onion"])
-manager.add_recipe("8", "Greek Salad", ["cucumber", "olive", "feta"])
-manager.add_recipe("9", "Quick Toast", ["bread", "butter"])
+manager.add_recipe("1", "Spaghetti Bolognese", ["pasta", "ground beef", "tomato sauce"])
+manager.add_recipe("2", "Caesar Salad", ["lettuce", "croutons", "parmesan"])
+manager.add_recipe("3", "Simple Pasta", ["pasta", "olive oil"])
 
-manager.search_recipes("rice")
-# [
-# {"id": "7", "name": "Tomato Rice", "ingredients": ["rice", "tomato", "onion"]}
-# ]
-# "Tomato Rice" matches because its name includes "rice".
-# "Quick Toast" does not contain "rice" in its name.
-
+manager.search_recipes("pasta")
 manager.search_recipes("salad")
-# [{"id": "8", "name": "Greek Salad", "ingredients": ["cucumber", "olive", "feta"]}]
-
 manager.get_all_recipes()
-# Returns all 3 recipes ordered first by ascending ingredient count and then by ID.
+
+Output:
+[{"id": "3", "name": "Simple Pasta", "ingredients": ["pasta", "olive oil"]}]
+
+[{"id": "2", "name": "Caesar Salad", "ingredients": ["lettuce", "croutons", "parmesan"]}]
+
+all 3 recipes, ordered by ingredient count ascending, then by ID
 ```
 
-### Level 3: User Support
+Explanation: Only "Simple Pasta" has `pasta` in its name; "Spaghetti Bolognese" lists pasta as an ingredient, but the search looks at names only.
 
-#### Problem Statement
+### Level 3: User System
 
-Enhance the manager with users. Some actions must verify the user before they are allowed to proceed.
+Introduce users. Some operations are now allowed only for a valid user.
 
-```
+```python
 def add_user(self, user_id: str, username: str) -> bool:
     """
-    Create a new user with the given identifier and username.
+    Register a user with the given identifier and username.
 
-    Args:
-        user_id: Unique identifier for the user.
-        username: The username for the user.
-
-    Returns:
-        True if the user was successfully created,
-        False if a user with that id already exists.
+    Returns True on success, or False when user_id is already registered.
     """
     pass
 
 def edit_recipe(self, user_id: str, recipe_id: str, name: str, ingredients: list[str]) -> bool:
     """
-    Update an existing recipe, but only if the user_id is valid.
+    Modify an existing recipe on behalf of a user.
 
-    Args:
-        user_id: The user performing the edit.
-        recipe_id: The recipe to update.
-        name: The new name for the recipe.
-        ingredients: The new list of ingredients.
-
-    Returns:
-        True if the recipe was successfully updated,
-        False if:
-          - The user_id doesn't exist (user validation fails).
-          - The recipe_id doesn't exist.
-          - The new name conflicts with an existing recipe name (case-insensitive).
+    Returns True on success. Returns False when any of these hold:
+      - user_id is not a registered user;
+      - recipe_id is unknown;
+      - the new name (ignoring case) already belongs to another recipe.
     """
     pass
 ```
 
-**Note:** The Level 1 `update_recipe` method may remain available; `edit_recipe` applies the same update behavior while additionally requiring a valid user.
+The Level 1 `update_recipe` can remain in place; `edit_recipe` performs the same kind of update but first checks that the acting user exists.
 
-#### Example Usage
+Example 3:
 
-```
+```text
+Input:
 manager = RecipeManager()
 
-manager.add_recipe("21", "Mushroom Risotto", ["rice", "mushrooms", "stock"])
-manager.add_user("chef7", "cook_maria")
+manager.add_recipe("1", "Spaghetti Bolognese", ["pasta", "ground beef", "tomato sauce"])
+manager.add_user("u1", "chef_john")
 
-manager.edit_recipe("chef7", "21", "Creamy Mushroom Risotto", ["rice", "mushrooms", "stock", "cream"]) # True
-manager.edit_recipe("unknown", "21", "Another Title", ["rice"]) # False (user doesn't exist)
-manager.edit_recipe("chef7", "404", "Another Title", ["rice"]) # False (recipe doesn't exist)
+manager.edit_recipe("u1", "1", "Classic Bolognese", ["pasta", "beef", "tomatoes", "herbs"])
+manager.edit_recipe("u99", "1", "New Name", ["pasta"])
+manager.edit_recipe("u1", "99", "New Name", ["pasta"])
+
+Output:
+True
+False   (user doesn't exist)
+False   (recipe doesn't exist)
 ```
+
+### Level 4: Version Control
+
+Now each recipe keeps a history of versions. Changes no longer replace stored data; `edit_recipe` must **append a new version to the recipe's history** rather than overwrite what is there.
+
+```python
+def edit_recipe(self, user_id: str, recipe_id: str, name: str, ingredients: list[str]) -> bool:
+    """
+    Modify a recipe by adding a fresh version to the end of its history.
+
+    Versions are numbered in sequence (1, 2, 3, ...). The newest one is the
+    current state of the recipe. Every validation rule from Level 3 still applies.
+
+    Returns True on success, or False when user/recipe validation fails or the name conflicts.
+    """
+    pass
+
+def get_recipe_history(self, recipe_id: str) -> list[dict] | None:
+    """
+    Return all versions of the given recipe, oldest first and newest last,
+    or None when the recipe does not exist.
+    """
+    pass
+
+def rollback_recipe(self, user_id: str, recipe_id: str, version: int) -> bool:
+    """
+    Append a new version whose contents duplicate an earlier version.
+
+    Nothing is removed from the history; the chosen old version's data simply
+    becomes the newest entry. version is 1-indexed.
+
+    Returns True on success. Returns False when any of these hold:
+      - user_id is not a registered user;
+      - recipe_id is unknown;
+      - the requested version does not exist;
+      - restoring that version would create a name conflict with another recipe.
+    """
+    pass
+```
+
+Rollback illustration:
+
+* A recipe holds v1("Pasta", [...]), v2("Spaghetti", [...]), v3("Linguine", [...]).
+* Calling `rollback_recipe(user, recipe_id, 1)` produces v4, a duplicate of v1.
+* The history becomes v1, v2, v3, v4("Pasta", [...]).
+
+Edge cases to handle:
+
+* **Case-insensitive names**: "PASTA", "Pasta" and "pasta" all count as one name, but whatever casing was supplied is the casing that gets stored.
+* **Name conflicts on rollback**: Rolling back to one of a recipe's own earlier versions never conflicts with the recipe itself. If, however, the old version's name equals the current name of some other recipe, the rollback must fail.
+* **Version numbers**: Numbering begins at 1. Every edit, rollbacks included, raises the version number by one. A version number is never reused and never reset.
+
+Example 4:
+
+```text
+Input:
+manager = RecipeManager()
+
+manager.add_recipe("1", "Spaghetti Bolognese", ["pasta", "ground beef", "tomato sauce"])
+manager.add_user("u1", "chef_john")
+
+# Edit creates version 2
+manager.edit_recipe("u1", "1", "Classic Bolognese", ["pasta", "beef", "tomatoes", "herbs"])
+
+# Edit creates version 3
+manager.edit_recipe("u1", "1", "Modern Bolognese", ["pasta", "wagyu beef", "san marzano"])
+
+manager.get_recipe_history("1")
+
+# Rollback to version 1 creates version 4
+manager.rollback_recipe("u1", "1", 1)
+
+manager.get_recipe_history("1")
+
+Output:
+True
+True
+
+[
+  {"version": 1, "name": "Spaghetti Bolognese", "ingredients": [...]},
+  {"version": 2, "name": "Classic Bolognese", "ingredients": [...]},
+  {"version": 3, "name": "Modern Bolognese", "ingredients": [...]}
+]
+
+True
+
+[
+  {"version": 1, ...},
+  {"version": 2, ...},
+  {"version": 3, ...},
+  {"version": 4, "name": "Spaghetti Bolognese", "ingredients": ["pasta", "ground beef", "tomato sauce"]}
+]
+```
+
+Explanation: The rollback leaves versions 1 to 3 untouched and appends version 4 carrying version 1's name and ingredients.
+
+### Follow-ups
+
+Interviewers have raised these discussion questions about the finished design:
+
+1. Why maintain an index from name to recipe ID rather than scanning every recipe when checking for a duplicate name?
+2. What are the options for storing version history, and what are their trade-offs?
+3. For rollback semantics, should the new version copy the old data or point at the old version? What are the consequences of each?
+4. The design is single-threaded. What race conditions appear under concurrent access (for example, in `edit_recipe`'s check-then-update), and how could they be prevented?
+
+### Interview Notes
+
+* This is a multi-level coding OA for a Software Engineer role; each level must keep working as later levels are added.
+* Candidates report it as noticeably easier than the in-memory database variant of this format. Level 4 is simpler here because there is no TTL and the rollback target is identified by a version number rather than a timestamp.
+* Keep the user layer in Level 3 simple: this rotation has no per-user quotas or similar extras.
+* A reported variant of this rotation keys recipes by name instead of by ID: Level 1 offers `addRecipe(name, ...attributes)`, `updateRecipe(name, ...attributes)`, `getRecipe(name)` and `deleteRecipe(name)`; Level 2 offers `search(query)` (case-insensitive substring match on the name) and `listRecipes(orderBy)`, ordering all recipes either by `size` (a recipe size attribute) or by `name` (lexicographic); Level 3 offers `addUser(userId)`; Level 4 gives every mutating operation a new `versionId` for the affected recipe, tracked in a per-recipe version map, and `rollback(name, versionId)` returns the recipe to that historical version.
 
 ## Hints
 

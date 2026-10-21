@@ -12,76 +12,82 @@
 
 ## Problem
 
-You are given a sequence of operations applied to an initially empty multiset of integers. Each operation is either `+x`, which inserts one additional copy of `x`, or `-x`, which removes every copy of `x` currently in the multiset. If `x` is absent, a removal operation makes no change, but a count must still be produced.
+You maintain a multiset of integers that is modified by a sequence of operations. After applying each operation, report how many triples of elements in the multiset form an arithmetic progression whose common difference is `diff`.
 
-After each operation, compute how many triples of element occurrences `(a, b, c)` from the current multiset satisfy $$a - b = \mathrm{diff}$$ and $$b - c = \mathrm{diff}$$. Equivalently, the multiset values involved are consecutive terms of an arithmetic progression with common difference `diff`.
+Implement `count_triples_after_each(operations: list[str], diff: int) -> list[int]`. Every entry of `operations` is a string of one of two kinds. The string `"+x"` inserts a single additional copy of the integer `x`. The string `"-x"` deletes all copies of `x` currently held. After each operation, count the triples `(a, b, c)` drawn from the elements present at that moment for which `a - b == diff` and `b - c == diff`.
 
-If the current multiset contains $$p$$ copies of $$a$$, $$q$$ copies of $$a - \mathrm{diff}$$, and $$r$$ copies of $$a - 2 \cdot \mathrm{diff}$$, then these copies form $$p \cdot q \cdot r$$ distinct triples whose largest value is $$a$$. The returned list should have one count for each operation, in the order the operations were processed.
+Rules:
+- Initially the multiset contains nothing.
+- `"+x"` always adds one more copy of `x`, whether or not `x` is already present.
+- `"-x"` wipes out every copy of `x`. When `x` is not in the multiset, nothing changes, yet a count must still be produced for that operation.
+- Triples are counted copy by copy: a triple picks one copy of some value `a`, one copy of `b = a - diff`, and one copy of `c = a - 2 * diff`. If those three values appear `p`, `q` and `r` times respectively, they account for `p * q * r` triples.
+- The output contains exactly one count per operation, in the same order as `operations`: its `i`-th entry is the number of triples in the multiset right after the `i`-th operation has been applied.
 
-Implement `count_triples_after_each(operations: list[str], diff: int) -> list[int]`.
+Individual counts may be larger than $$2^{31} - 1$$, so compute them with 64-bit integers (`long` in Java, `long long` in C++). No count ever exceeds $$2^{53}$$.
 
 Example 1:
 
 ```text
-Input: operations = ["+2","+5","+8","+5","+2","-5"], diff = 3
+Input: operations = ["+2","+7","+12","+12","+2","-5","+17","-2"], diff = 5
 
-Output: [0,0,1,2,4,0]
+Output: [0,0,1,2,4,4,6,2]
 ```
 
-Explanation: The values 2, 5, and 8 first form a progression after `"+8"`. The later `"+5"` and `"+2"` increase the count to 2 and then 4. Removing all copies of 5 with `"-5"` leaves no progression.
+Explanation: After `"+12"` the values 12, 7, 2 give one triple, and the second `"+12"` raises it to 2; the second `"+2"` makes it $$2 \cdot 1 \cdot 2 = 4$$; `"-5"` deletes nothing so 4 is reported again; `"+17"` adds the progression 17, 12, 7 worth $$1 \cdot 2 \cdot 1 = 2$$ for a total of 6; finally `"-2"` removes both copies of 2, leaving only the 2 triples of 17, 12, 7.
 
 ```trueviz
-{"v":1,"kind":"example","title":"Equal-Difference Triples","input":{"operations":"[\"+2\", \"+5\", \"+8\", \"+5\", \"+2\", \"-5\"]","diff":"3"},"steps":[{"say":"Start with an empty multiset. diff = 3, so we look for values a, a-3, a-6.","panels":[{"type":"map","id":"multiset","label":"Multiset (value: count)","entries":[],"layout":"table"},{"type":"array","id":"output","label":"Counts after each op","values":[]}]},{"say":"+2 -> multiset {2:1}. No triple yet.","panels":[{"type":"map","id":"multiset","label":"Multiset (value: count)","entries":[{"key":"2","value":"1"}],"layout":"table"},{"type":"array","id":"output","label":"Counts after each op","values":["0"],"marks":{"found":[0]}}]},{"say":"+5 -> {2:1, 5:1}. Still no triple.","panels":[{"type":"map","id":"multiset","label":"Multiset (value: count)","entries":[{"key":"2","value":"1"},{"key":"5","value":"1"}],"layout":"table"},{"type":"array","id":"output","label":"Counts after each op","values":["0","0"],"marks":{"found":[1]}}]},{"say":"+8 -> {2:1, 5:1, 8:1}. Now 2, 5, 8 form a progression (2+3=5, 5+3=8). One copy each -> 1*1*1 = 1 triple.","panels":[{"type":"map","id":"multiset","label":"Multiset (value: count)","entries":[{"key":"2","value":"1"},{"key":"5","value":"1"},{"key":"8","value":"1"}],"layout":"table"},{"type":"array","id":"output","label":"Counts after each op","values":["0","0","1"],"marks":{"found":[2]}}]},{"say":"+5 -> {2:1, 5:2, 8:1}. Now 1*2*1 = 2 triples.","panels":[{"type":"map","id":"multiset","label":"Multiset (value: count)","entries":[{"key":"2","value":"1"},{"key":"5","value":"2"},{"key":"8","value":"1"}],"layout":"table"},{"type":"array","id":"output","label":"Counts after each op","values":["0","0","1","2"],"marks":{"found":[3]}}]},{"say":"+2 -> {2:2, 5:2, 8:1}. Now 1*2*2 = 4 triples.","panels":[{"type":"map","id":"multiset","label":"Multiset (value: count)","entries":[{"key":"2","value":"2"},{"key":"5","value":"2"},{"key":"8","value":"1"}],"layout":"table"},{"type":"array","id":"output","label":"Counts after each op","values":["0","0","1","2","4"],"marks":{"found":[4]}}]},{"say":"-5 -> remove all copies of 5. Multiset becomes {2:2, 8:1}. No 5, so no progression. Count drops to 0.","panels":[{"type":"map","id":"multiset","label":"Multiset (value: count)","entries":[{"key":"2","value":"2"},{"key":"8","value":"1"}],"layout":"table"},{"type":"array","id":"output","label":"Counts after each op","values":["0","0","1","2","4","0"],"marks":{"found":[5]}}]},{"say":"Final output: [0,0,1,2,4,0].","panels":[{"type":"map","id":"multiset","label":"Multiset (value: count)","entries":[{"key":"2","value":"2"},{"key":"8","value":"1"}],"layout":"table"},{"type":"array","id":"output","label":"Counts after each op","values":["0","0","1","2","4","0"],"marks":{"found":[0,1,2,3,4,5]}}]}],"expected":"[0, 0, 1, 2, 4, 0]"}
+{"v":1,"kind":"example","title":"Equal-difference triples","input":{"operations":"[\"+2\", \"+7\", \"+12\", \"+12\", \"+2\", \"-5\", \"+17\", \"-2\"]","diff":"5"},"steps":[{"say":"Eight operations are applied to an empty multiset, and diff = 5. A triple is three copies with values v, v-5 and v-10, such as 12, 7, 2.","panels":[{"type":"array","id":"ops","label":"operations","values":["+2","+7","+12","+12","+2","-5","+17","-2"]}]},{"say":"After +2 and +7 the multiset holds 2 and 7. No value 12 exists yet, so there are 0 triples (counts 0, 0).","panels":[{"type":"array","id":"ops","label":"operations","values":["+2","+7","+12","+12","+2","-5","+17","-2"],"marks":{"read":[0,1],"dim":[2,3,4,5,6,7]}},{"type":"map","id":"ms","label":"multiset (value: copies)","entries":[{"key":"2","value":"1"},{"key":"7","value":"1"}],"layout":"table"},{"type":"array","id":"out","label":"counts so far","values":["0","0"]}]},{"say":"+12 completes the progression 12, 7, 2 with one copy each, so there is 1 triple.","panels":[{"type":"array","id":"ops","label":"operations","values":["+2","+7","+12","+12","+2","-5","+17","-2"],"marks":{"read":[2],"dim":[0,1,3,4,5,6,7]}},{"type":"map","id":"ms","label":"multiset (value: copies)","entries":[{"key":"2","value":"1"},{"key":"7","value":"1"},{"key":"12","value":"1"}],"layout":"table"},{"type":"array","id":"out","label":"counts so far","values":["0","0","1"],"marks":{"found":[2]}}]},{"say":"A second +12 gives two copies of 12, so 2 * 1 * 1 = 2 triples.","panels":[{"type":"array","id":"ops","label":"operations","values":["+2","+7","+12","+12","+2","-5","+17","-2"],"marks":{"read":[3],"dim":[0,1,2,4,5,6,7]}},{"type":"map","id":"ms","label":"multiset (value: copies)","entries":[{"key":"2","value":"1"},{"key":"7","value":"1"},{"key":"12","value":"2"}],"layout":"table"},{"type":"array","id":"out","label":"counts so far","values":["0","0","1","2"],"marks":{"found":[3]}}]},{"say":"A second +2 gives two copies of 2 and two of 12, so 2 * 1 * 2 = 4 triples.","panels":[{"type":"array","id":"ops","label":"operations","values":["+2","+7","+12","+12","+2","-5","+17","-2"],"marks":{"read":[4],"dim":[0,1,2,3,5,6,7]}},{"type":"map","id":"ms","label":"multiset (value: copies)","entries":[{"key":"2","value":"2"},{"key":"7","value":"1"},{"key":"12","value":"2"}],"layout":"table"},{"type":"array","id":"out","label":"counts so far","values":["0","0","1","2","4"],"marks":{"found":[4]}}]},{"say":"-5 deletes nothing because 5 is not present, so the count stays 4.","panels":[{"type":"array","id":"ops","label":"operations","values":["+2","+7","+12","+12","+2","-5","+17","-2"],"marks":{"read":[5],"dim":[0,1,2,3,4,6,7]}},{"type":"map","id":"ms","label":"multiset (value: copies)","entries":[{"key":"2","value":"2"},{"key":"7","value":"1"},{"key":"12","value":"2"}],"layout":"table"},{"type":"array","id":"out","label":"counts so far","values":["0","0","1","2","4","4"],"marks":{"found":[5]}}]},{"say":"+17 adds the progression 17, 12, 7 worth 1 * 2 * 1 = 2, so the total becomes 4 + 2 = 6.","panels":[{"type":"array","id":"ops","label":"operations","values":["+2","+7","+12","+12","+2","-5","+17","-2"],"marks":{"read":[6],"dim":[0,1,2,3,4,5,7]}},{"type":"map","id":"ms","label":"multiset (value: copies)","entries":[{"key":"2","value":"2"},{"key":"7","value":"1"},{"key":"12","value":"2"},{"key":"17","value":"1"}],"layout":"table"},{"type":"array","id":"out","label":"counts so far","values":["0","0","1","2","4","4","6"],"marks":{"found":[6]}}]},{"say":"-2 removes both copies of 2, so only the 2 triples of 17, 12, 7 remain. The answer is [0, 0, 1, 2, 4, 4, 6, 2].","panels":[{"type":"array","id":"ops","label":"operations","values":["+2","+7","+12","+12","+2","-5","+17","-2"],"marks":{"read":[7],"dim":[0,1,2,3,4,5,6]}},{"type":"map","id":"ms","label":"multiset (value: copies)","entries":[{"key":"7","value":"1"},{"key":"12","value":"2"},{"key":"17","value":"1"}],"layout":"table"},{"type":"array","id":"out","label":"counts","values":["0","0","1","2","4","4","6","2"],"marks":{"found":[0,1,2,3,4,5,6,7]}}]}],"expected":"[0, 0, 1, 2, 4, 4, 6, 2]"}
 ```
 
 
 Example 2:
 
 ```text
-Input: operations = ["+3","+7","+11","+3","+7","-20","+11"], diff = 4
+Input: operations = ["+0","+0","+0","+1","+2","-1"], diff = 1
 
-Output: [0,0,1,2,4,4,8]
+Output: [0,0,0,0,3,0]
 ```
 
-Explanation: The progression is 3, 7, 11. Adding more copies of 3 and 7 raises the count to 2 and 4. `"-20"` has no effect because 20 is absent, so the count remains 4. The final `"+11"` makes the occurrence counts of 3, 7, and 11 equal to 2, 2, and 2, producing 8 triples.
+Explanation: Once `"+2"` arrives, the values 2, 1, 0 appear 1, 1 and 3 times, giving $$1 \cdot 1 \cdot 3 = 3$$ triples; deleting every 1 breaks the only progression.
 
 Example 3:
 
 ```text
-Input: operations = ["+0","+5","+10","-0"], diff = 5
+Input: operations = ["-9"], diff = 4
 
-Output: [0,0,1,0]
+Output: [0]
 ```
 
-Explanation: After `"+10"`, the three values 0, 5, and 10 form one progression. Removing all copies of 0 with `"-0"` eliminates it.
+Explanation: Removing a value from the empty multiset changes nothing, but a count of 0 is still reported.
 
 Constraints:
 
-* Let $$n = \mathrm{len}(\mathrm{operations})$$. Then $$1 \le n \le 150000$$.
-* Each operation is `+` or `-` followed immediately by the digits of an integer `x`, with $$0 \le x \le 1000000000$$ and no leading zeros except for $$x = 0$$ itself.
-* $$1 \le \mathrm{diff} \le 1000000000$$.
-* A single count may exceed $$2^{31} - 1$$; use a 64-bit signed integer type, such as `long` in Java or `long long` in C++. Every returned count is at most $$2^{53}$$.
+* $$1 \le len(operations) \le 100000$$
+* Each operation is `+` or `-` immediately followed by the decimal digits of `x`, where $$0 \le x \le 1000000000$$, with no leading zeros except when `x = 0`.
+* $$1 \le diff \le 1000000000$$ (insisting on a positive `diff` is simply a convention of this exercise).
+* A count can go beyond $$2^{31} - 1$$ (for instance, when three consecutive progression values each appear tens of thousands of times), so 64-bit arithmetic is required; every count stays within $$2^{53}$$.
+* Exactly one count is returned for each operation, in operation order.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of each triple as three values in arithmetic progression, so for a middle value b you need a = b+diff and c = b-diff present in the multiset.
+Count triples by their middle element: each middle value b pairs with copies of b - diff before it and b + diff after it.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Maintain a frequency map of values and, for each operation, only recompute contributions around the affected value x and its neighbors x±diff.
+Keep a frequency map and a running total, and when a value x is added or removed, update only the triples where x plays the first, middle, or last role using the counts of x - diff, x + diff, and so on.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The count for a middle value b is freq[b+diff] * freq[b] * freq[b-diff], watch that removing all copies of x must zero its frequency and update all b in {x, x±diff}.
+Removing all copies of x requires subtracting its full contribution at once, and when diff is 0 the roles overlap so the count must use combinations of equal values carefully.
 
 </details>
 

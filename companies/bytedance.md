@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **345** |
 | Most recent sighting | Oct 05, 2026 |
-| Reported in the last 90 days | 45 |
+| Reported in the last 90 days | 44 |
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 345) |
 | Difficulty (easy / medium / hard) | 32 / 174 / 58 |
 | Free to practise | [110](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **345 of 345** questions at ByteDan
 
 ## Asked here in the last 90 days
 
-**45 sightings** in this window. Newest first.
+**44 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **345 of 345** questions at ByteDan
 | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | Blog | — | Phone screen | Sep 05, 2026 |
 | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | Blog | — | Phone screen | Sep 05, 2026 |
 
-<sub>33 more in this window are in the table below.</sub>
+<sub>32 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -149,12 +149,12 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | Blog | — | 🆕 Sep 09, 2026 |
 | [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | Blog | — | 🆕 Sep 06, 2026 |
 | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | Medium | 🆕 Sep 06, 2026 |
-| [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | Blog | — | 🆕 Sep 05, 2026 |
-| [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | Blog | — | 🆕 Sep 05, 2026 |
-| [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | Blog | — | 🆕 Sep 05, 2026 |
-| [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | Blog | — | 🆕 Sep 05, 2026 |
-| [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | Blog | — | 🆕 Sep 05, 2026 |
-| [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | Blog | — | 🆕 Sep 05, 2026 |
+| [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | Blog | — | Sep 05, 2026 |
+| [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | Blog | — | Sep 05, 2026 |
+| [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | Blog | — | Sep 05, 2026 |
+| [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | Blog | — | Sep 05, 2026 |
+| [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | Blog | — | Sep 05, 2026 |
+| [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | Blog | — | Sep 05, 2026 |
 | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | Sep 04, 2026 |
 | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Object Oriented Programming | Medium | Sep 02, 2026 |
 | [Data Engineering Experience Screen](https://trueinterview.io/questions/data-engineering-experience-screen) | Blog | — | Aug 31, 2026 |

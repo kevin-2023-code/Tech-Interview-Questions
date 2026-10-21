@@ -12,44 +12,42 @@
 
 ## Problem
 
-## 1. Background: Instagram
+## 1. What is Instagram?
 
-Instagram is a social network built around sharing photos: people upload pictures, follow other accounts, and scroll through a home feed of recent photos from the accounts they follow. On screen it is just a grid of pictures. Underneath, the system has to process images and deliver them while also assembling feeds from a single follow graph and an authoritative store of posts.
+Instagram is a social network built around photos. People post images, follow other accounts, and scroll a home feed showing the latest pictures from the accounts they follow. From the reader's side it feels like nothing more than a grid of photos; underneath, the platform has to process and deliver every image while assembling each feed from the shared follow graph and the authoritative store of posts.
 
 ## 2. Requirements
 
-At its core this is a feed problem, but with a significant complication: each photo post kicks off an asynchronous media-processing lifecycle, and a feed cannot display the image until that lifecycle has finished. The design has to keep home-feed reads inexpensive, hold off on showing images until they are renderable, and avoid pushing a celebrity's post into millions of follower feeds synchronously.
+At heart this is a feed design question, but with a notable wrinkle: each photo post kicks off an asynchronous media-processing lifecycle, and an image cannot appear in anyone's feed until that lifecycle has finished. Your design needs to keep home-feed reads inexpensive, hold back images until they are renderable, and never push a celebrity's new post into millions of follower feeds synchronously.
 
 ### Functional requirements
 
-- Users can follow and unfollow accounts, and those relationship changes determine which authors show up in the reader's home feed.
-- An author can upload a photo along with a caption; the system durably accepts the post once its metadata is persisted and the media-processing pipeline has been started.
-- Creating a post must be idempotent when the client retries the request.
-- A reader can load the newest page of their home feed and page backward through older items using an opaque cursor.
-- The home feed displays recent photo posts from followed accounts with eventual consistency, and it must include a scalable path for celebrity authors whose follower counts make full synchronous fanout too costly.
-- Content that has been deleted, or that comes from accounts the reader has blocked or muted, must disappear from feeds, even though the ordering of the feed is only eventually consistent.
-- Uploaded images are converted into several resolutions (thumbnail, standard, full) and delivered through a CDN for low latency.
-- Clients can view recently loaded feed items and their images while offline.
+- Users can follow and unfollow other accounts; these relationship changes determine which authors show up in a reader's home feed.
+- An author can upload a photo together with a caption. The post counts as durably accepted once its metadata has been persisted and the media-processing pipeline has been started.
+- A reader can load the most recent page of their home feed and page back through older items using an opaque cursor.
+- The home feed presents recent photo posts from followed accounts with eventual consistency, and it must include a scalable path for celebrity authors, whose follower counts make complete synchronous fanout too costly.
+- Each uploaded image is turned into several resolutions (thumbnail, standard, full) and delivered through a CDN so it loads with low latency.
+- Likes and comments on posts are part of the core workflow and must be handled by the design.
 
 **Out of scope (below the line)**
 - Video, Stories, Reels, and live streaming
-- Recommendation engine and explore/discover algorithms
+- Full ML ranking, the recommendation engine, and explore/discover algorithms
 - Saves, reposts, and direct messages
 - Discovery by hashtag or location (touched on under Other Considerations)
 - Ad auctions and insertion of sponsored posts
-- Approval workflows for private accounts and detailed privacy matrices
+- Approval flows for private accounts and detailed privacy matrices
 - Real-time chat and delivery of push notifications
 - Conflict resolution for multi-region active-active deployments
 
 ### Non-functional requirements
 
-- Photo upload and home-feed reads should reach `99.9%` availability in a healthy region.
-- Upload acknowledgement (ACK), sent after metadata is durably persisted but before processing is complete, should be `p95 < 300 ms`.
-- The first page of the home feed, served from a warm regional stack, should be `p95 < 300 ms`.
-- Assume `50M` daily active users (DAU), `300k/s` peak home-feed reads, `5k/s` peak photo uploads, `15B+` follow edges, and celebrity accounts with `10M+` followers.
-- Home-feed reads may trail the newest post by a few seconds, but the author's own profile and the authoritative post record must be readable right after the upload ACK.
-- Accepted post metadata, follow changes, and the original uploaded media must survive the failure of a process or a node. Materialized feed rows and processed image variants can be rebuilt.
-- The hot posting path must not do synchronous `O(follower_count)` work for large authors.
+- Aim for `99.9%` availability for photo uploads and home-feed reads within a healthy region.
+- Aim for `p95 < 300 ms` on the upload acknowledgement (ACK), which is sent once metadata is durably persisted and before processing has fully completed.
+- Aim for `p95 < 300 ms` when serving the first home-feed page from a warm regional stack.
+- Plan for `50M` daily active users (DAU), `300k/s` peak home-feed reads, `5k/s` peak photo uploads, `15B+` follow edges, and celebrity accounts that have `10M+` followers.
+- The home feed may trail the newest post by a few seconds, yet the author's own profile and the authoritative post record must be readable right after the upload ACK.
+- Accepted post metadata, follow changes, and the original uploaded media must survive the failure of a process or node. Materialized feed rows and processed image variants can be rebuilt.
+- For large authors, the hot posting path must not perform synchronous `O(follower_count)` work.
 
 ### Back-of-the-envelope estimation
 
@@ -64,37 +62,32 @@ At its core this is a feed problem, but with a significant complication: each ph
 | Processed renditions per photo | 3 (thumb, standard, full) | media pipeline throughput and CDN origin storage |
 | Typical post metadata | 1-2 KB | SQL write size and projection payload design |
 
-With `5k` uploads per second, the media pipeline produces about `15k` renditions per second, and because each original is `2-5 MB`, raw upload ingress into object storage alone comes to `10-25 GB/s`.
-
-## Follow-ups
-
-- **Frontend / full-stack image-feed variant:** the backend APIs are handed to you, and the discussion centers on the client — infinite scroll driven by a cursor, de-duplicating feed items, client-side caching, placeholders, progressive image loading, retries, error images, and how the whole thing is tested.
+With `5k` uploads arriving each second, the media pipeline has to produce about `15k` renditions per second, and since each original weighs `2-5 MB`, raw upload ingress into object storage comes to roughly `10-25 GB/s`. These figures frame the problem, but the core of the round is the end-to-end workflow rather than the capacity math.
 
 ### What interviewers focus on
 
-- Likes and comments are treated as part of the core workflow rather than an optional extra.
-- The home feed is expected to be personalized instead of strictly chronological.
+- How likes and comments are handled as part of the core workflow, rather than being set aside as out of scope.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of this as a fan-out-on-write vs. fan-out-on-read tradeoff for the feed, where the key is to balance write amplification for high-profile users with read latency for regular users.
+It is primarily a feed design, so decide how a post reaches followers' feeds and treat media upload and processing as a separate asynchronous pipeline.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a hybrid approach: pre-compute feeds for active users using a message queue and a feed generation service, while for high-profile users, use a pull-based model with a cache of recent posts.
+Store images in object storage behind a CDN, process them asynchronously into several sizes, and build feeds with a hybrid of fan-out on write for normal users and fan-out on read for celebrities.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Target feed load time under 500ms for typical users and handle the edge case of a viral post from a high-profile user that could overwhelm the fan-out system.
+Keep the post store as the source of truth and feeds as a rebuildable cache, and think about what users see when an image is still processing and how to handle hot accounts.
 
 </details>
 

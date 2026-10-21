@@ -12,85 +12,89 @@
 
 ## Problem
 
-Two participants, identified by the strings `"B"` and `"R"`, take turns placing pieces on the upper half-plane of an integer grid. Columns may be any integer, and rows are numbered `0, 1, 2, ...` upward from the bottom.
+Two players, **B** and **R**, alternate placing pieces on a board that spans the upper half of an infinite integer grid. Columns may carry any integer index (..., -2, -1, 0, 1, 2, ...), and rows are numbered 0, 1, 2, ... going upward, with row 0 at the very bottom.
 
-A turn is represented by a pair `[player, column]` and affects only that column:
+Every move is a pair `(player, column)` and changes the board like this:
 
-- If the chosen column is empty, the new piece is placed at row `0`.
-- If the chosen column already has pieces, every piece in that column moves up by one row, and the new piece is placed at row `0`.
+- When the selected column holds no pieces yet, the new piece occupies row 0 of that column.
+- When the selected column already holds pieces, **all of them shift up by exactly one row**, and the new piece then takes row 0.
 
-Pieces never move sideways, and only the played column changes during a move.
+No piece ever moves left or right, and playing in one column leaves every other column untouched.
 
-After each move, a player wins if the board contains `k` consecutive occupied cells in one horizontal row or one vertical column, all belonging to that player. Diagonal runs do not count. Since one move can shift an entire column upward, a single move may create winning lines for both players at the same time.
+Implement `find_winner(k, moves)`. Apply the moves in the given order, one by one. Right after a move, a player is a **winner** if somewhere on the board there are `k` adjacent occupied cells, all belonging to that player, lying along one row or along one column. Diagonal alignments are ignored. Since one move lifts a whole column, it can re-align many pieces at once, and so a single move may give **both** players a winning line at the same moment.
 
-Process the moves in the given order and stop at the first move at which at least one player wins. Return `[m, winners]`, where `m` is the 1-based index of that move and `winners` is the alphabetically sorted list of all players with winning lines at that moment: `["B"]`, `["R"]`, or `["B", "R"]`.
+Report the outcome as follows:
 
-If no player wins after all moves have been processed, return `[-1, []]`.
+- As soon as any player has a winning line after some move, stop at that **earliest** move and return `[m, winners]`: `m` is the move's 1-based position in `moves`, and `winners` lists every player owning a winning line at that instant, sorted alphabetically (`["B"]`, `["R"]`, or `["B", "R"]`).
+- If every move has been applied and neither player ever has a winning line, return `[-1, []]`.
+
+The arguments are: `k`, the integer length of run needed to win; and `moves`, the moves in play order, each a pair `[player, column]` where `player` is the string `"B"` or `"R"` and `column` is an integer.
+
+This question assesses simulation and algorithmic problem solving: keeping state for a board with no fixed width, efficiently spotting runs of `k` in rows and columns, and correctly handling whole-column shifts that can produce two winners on one move.
 
 Example 1:
 
 ```text
-Input: k = 3, moves = [["B", 4], ["R", 4], ["B", 4], ["B", 5], ["B", 6]]
+Input: k = 2, moves = [["R", 0], ["B", 1], ["B", 0]]
 
-Output: [5, ["B"]]
+Output: [3, ["B"]]
 ```
 
-Explanation: On move 5, row `0` contains `"B"` in columns `4`, `5`, and `6`, forming a run of `3`.
+Explanation: The third move inserts B at the bottom of column 0 and lifts the R piece to row 1, so row 0 now holds B in columns 0 and 1, a run of 2 for B, while R has only a single piece.
 
 ```trueviz
-{"v":1,"kind":"example","title":"First k-in-a-row winner","input":{"k":"3","moves":"[[\"B\", 4], [\"R\", 4], [\"B\", 4], [\"B\", 5], [\"B\", 6]]"},"steps":[{"say":"Input: k = 3, and 5 moves. Each move is [player, column].","panels":[{"type":"array","id":"moves","label":"moves","values":["B,4","R,4","B,4","B,5","B,6"]}]},{"say":"Move 1: B plays column 4. The column is empty, so B is placed at row 0.","panels":[{"type":"array","id":"moves","label":"moves","values":["B,4","R,4","B,4","B,5","B,6"],"marks":{"read":[0]}},{"type":"grid","id":"board","label":"board (columns 4,5,6)","values":[[".",".","."],[".",".","."],["B",".","."]]}]},{"say":"Move 2: R plays column 4. B shifts up to row 1, R lands at row 0.","panels":[{"type":"array","id":"moves","label":"moves","values":["B,4","R,4","B,4","B,5","B,6"],"marks":{"read":[1]}},{"type":"grid","id":"board","label":"board (columns 4,5,6)","values":[[".",".","."],["B",".","."],["R",".","."]]}]},{"say":"Move 3: B plays column 4 again. R shifts to row 1, B shifts to row 2, new B at row 0.","panels":[{"type":"array","id":"moves","label":"moves","values":["B,4","R,4","B,4","B,5","B,6"],"marks":{"read":[2]}},{"type":"grid","id":"board","label":"board (columns 4,5,6)","values":[["B",".","."],["R",".","."],["B",".","."]]}]},{"say":"Move 4: B plays column 5. Column 5 was empty, so B lands at row 0.","panels":[{"type":"array","id":"moves","label":"moves","values":["B,4","R,4","B,4","B,5","B,6"],"marks":{"read":[3]}},{"type":"grid","id":"board","label":"board (columns 4,5,6)","values":[["B",".","."],["R",".","."],["B","B","."]]}]},{"say":"Move 5: B plays column 6. Now row 0 has B in columns 4, 5, and 6 - three in a row! The first winning move is move 5, and the only winner is B.","panels":[{"type":"array","id":"moves","label":"moves","values":["B,4","R,4","B,4","B,5","B,6"],"marks":{"read":[4]}},{"type":"grid","id":"board","label":"board (columns 4,5,6)","values":[["B",".","."],["R",".","."],["B","B","B"]],"marks":{"found":[[2,0],[2,1],[2,2]]}}]}],"expected":"[5, [\"B\"]]"}
+{"v":1,"kind":"example","title":"Connect game with bottom insertion","input":{"k":"2","moves":"[[\"R\",0],[\"B\",1],[\"B\",0]]"},"steps":[{"say":"Three moves are played; a player wins by owning k = 2 adjacent cells in one row or column.","panels":[{"type":"array","id":"moves","label":"moves (player, column)","values":["R,0","B,1","B,0"]}]},{"say":"After move 1, R sits at the bottom of column 0.","panels":[{"type":"grid","id":"board","label":"board after move 1 (top row first)","values":[["R",""]]},{"type":"array","id":"moves","label":"moves (player, column)","values":["R,0","B,1","B,0"],"marks":{"read":[0]}}]},{"say":"After move 2, B sits at the bottom of column 1; no two pieces of one player touch.","panels":[{"type":"grid","id":"board","label":"board after move 2 (top row first)","values":[["R","B"]]},{"type":"array","id":"moves","label":"moves (player, column)","values":["R,0","B,1","B,0"],"marks":{"read":[1]}}]},{"say":"Move 3 puts B in column 0: the R piece is lifted to row 1 and B takes row 0.","panels":[{"type":"grid","id":"board","label":"board after move 3 (top row first)","values":[["R",""],["B","B"]],"marks":{"read":[[0,0],[1,0]]}},{"type":"array","id":"moves","label":"moves (player, column)","values":["R,0","B,1","B,0"],"marks":{"read":[2]}}]},{"say":"Row 0 now holds B in columns 0 and 1: a run of 2 for B, while R has only one piece. B wins on move 3.","panels":[{"type":"grid","id":"board","label":"board after move 3 (top row first)","values":[["R",""],["B","B"]],"marks":{"found":[[1,0],[1,1]]}},{"type":"array","id":"moves","label":"moves (player, column)","values":["R,0","B,1","B,0"],"marks":{"found":[2]}}]}],"expected":"[3, [\"B\"]]"}
 ```
 
 
 Example 2:
 
 ```text
-Input: k = 4, moves = [["R", 7], ["B", 7], ["R", 8], ["B", 8], ["R", 9], ["B", 9], ["R", 10], ["B", 10]]
+Input: k = 3, moves = [["B", 2], ["B", 2], ["R", 9], ["B", 2]]
 
-Output: [8, ["B", "R"]]
+Output: [4, ["B"]]
 ```
 
-Explanation: After move 8, row `0` contains `"B"` in columns `7` through `10`, while row `1` contains `"R"` in those same columns, so both players complete a run of `4`.
+Explanation: After move 2 column 2 contains only two B pieces, which is short of 3; move 4 adds a third B to that column, giving B a vertical run of 3.
 
 Example 3:
 
 ```text
-Input: k = 3, moves = [["R", -3], ["B", -3], ["R", -3], ["B", -3], ["R", -3]]
+Input: k = 1, moves = [["R", -4]]
 
-Output: [-1, []]
+Output: [1, ["R"]]
 ```
 
-Explanation: All pieces are placed in column `-3`; from bottom to top the column contains `["R", "B", "R", "B", "R"]`, so no run of length `3` exists.
+Explanation: With `k = 1`, the single R piece is already a run of length 1, so R wins on the first move.
 
 Constraints:
 
-* $$1 \le k \le 60$$
-* $$1 \le \text{moves.length} \le 4000$$
-* $$-2{,}000{,}000 \le \text{column} \le 2{,}000{,}000$$
-* `player` is always `"B"` or `"R"`
-* The board is unbounded horizontally and vertically upward; do not assume a fixed number of columns or rows.
-* Only horizontal and vertical runs count.
+* $$1 \le k \le 50$$
+* $$1 \le \text{len(moves)} \le 5000$$
+* $$-10^6 \le column \le 10^6$$ (the board has no fixed width, so none may be assumed)
+* `player` is always `"B"` or `"R"`.
+* Only runs inside a single row (horizontal) or a single column (vertical) count; diagonal runs do not.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Because a move only shifts one column, you can track each column's stack and check winning lines locally around the placed piece.
+Notice that inserting at the bottom shifts a whole column up, so think about storing each column's pieces in a way that makes the shift implicit rather than moving every piece.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Maintain a dictionary or array mapping column index to the list of pieces from bottom to top.
+Keep per-column sequences (or a column-to-stack map) and re-derive positions from their order, then after each move only check lines passing through the pieces that changed.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Check all four directions (horizontal, vertical, and both diagonals) around the new piece to detect the first k-in-a-row.
+Remember a shift changes the row of every piece in that column, so a k-in-a-row can appear for either player on the same move, decide how to resolve that and watch for sparse, negative column indices.
 
 </details>
 

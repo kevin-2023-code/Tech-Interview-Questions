@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **91** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 91) |
 | Difficulty (easy / medium / hard) | 15 / 53 / 18 |
 | Free to practise | [18](../free/README.md) |
@@ -38,14 +38,12 @@ Which stage each question came from, for the **91 of 91** questions at Bloomberg
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | Oct 01, 2026 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 04, 2026 |
-| [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Phone screen | Jul 22, 2026 |
-| [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | Phone screen | Jul 22, 2026 |
 
 ## What they ask about
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **467** |
 | Most recent sighting | Oct 03, 2026 |
-| Reported in the last 90 days | 97 |
+| Reported in the last 90 days | 89 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 467) |
 | Difficulty (easy / medium / hard) | 60 / 226 / 64 |
 | Free to practise | [147](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**97 sightings** in this window. Newest first.
+**89 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Medium | Onsite / virtual onsite | Sep 26, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Hard | Onsite / virtual onsite | Sep 26, 2026 |
 
-<sub>85 more in this window are in the table below.</sub>
+<sub>77 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -68,7 +68,7 @@ Of the **220 questions at Amazon that carry a topic label** (47% of them — the
 | `arrays` | 31 | 14% | █████████ | Oct 03, 2026 |
 | `strings` | 25 | 11% | ███████ | Sep 29, 2026 |
 | `sorting` | 21 | 10% | ██████ | Oct 03, 2026 |
-| `greedy` | 19 | 9% | █████ | Sep 29, 2026 |
+| `greedy` | 20 | 9% | ██████ | Sep 29, 2026 |
 | `trees` | 18 | 8% | █████ | Oct 01, 2026 |
 | `heap` | 17 | 8% | █████ | Sep 14, 2026 |
 | `dynamic-programming` | 16 | 7% | █████ | Sep 29, 2026 |
@@ -177,8 +177,8 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Explain an AI-Agent Project and Its Adoption](https://trueinterview.io/questions/explain-an-ai-agent-project-and-its-adoption) | Blog | — | 🆕 Sep 07, 2026 |
 | [Apply New Learning and Satisfy a Customer](https://trueinterview.io/questions/apply-new-learning-and-satisfy-a-customer) | Blog | — | 🆕 Sep 07, 2026 |
 | [Accept Notification Bursts With Low Latency](https://trueinterview.io/questions/accept-notification-bursts-with-low-latency) | System Design | Hard | 🆕 Sep 07, 2026 |
-| [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | Blog | — | 🆕 Sep 05, 2026 |
-| [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | 🆕 Sep 05, 2026 |
+| [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | Blog | — | Sep 05, 2026 |
+| [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | Sep 05, 2026 |
 | [Design a Distributed Job Scheduler with Run Logs and Exactly-Once Execution](https://trueinterview.io/questions/design-a-distributed-job-scheduler-with-run-logs-and-exactly-once-execution) | System Design | Hard | Sep 03, 2026 |
 | [Generalize Dictionary Merging](https://trueinterview.io/questions/generalize-dictionary-merging) | Algorithm | Medium | Sep 02, 2026 |
 | [Evaluating Generative AI Use and Accuracy](https://trueinterview.io/questions/evaluating-generative-ai-use-and-accuracy) | Blog | — | Sep 02, 2026 |

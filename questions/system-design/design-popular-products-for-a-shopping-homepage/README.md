@@ -12,91 +12,80 @@
 
 ## Problem
 
-## 1. Background: a top-K popular items feature for restaurants
+Design a system that surfaces the top-K most popular menu items for each restaurant on a restaurant marketplace.
 
-Restaurant marketplaces commonly surface each restaurant's best-selling dishes, which helps customers choose more quickly and shows merchants which items are performing. On screen it is just a compact "Popular items" shelf, yet three questions drive the whole design: what should count as "popular", how fresh the ranking has to be, and how to serve it inexpensively across thousands of restaurant pages.
+Marketplaces frequently call out every restaurant's best-selling dishes, which helps customers choose more quickly and shows merchants which dishes are performing. On the consumer restaurant page this appears as a compact "Popular items" shelf. Although the feature looks small, three questions drive the whole design: what should count as "popular", how fresh the rankings need to be, and how the shelf can be served inexpensively across thousands of restaurant pages. Ranking a set of counts is the easy part; the hard part is deciding which counts can be trusted and what guarantees the API can honestly make.
 
-Ordering a set of counts is the trivial part. The real design challenge is deciding which counts can be trusted and what guarantees the API is able to make.
+## Requirements
 
-## 2. Requirements
-
-The marketplace shows a small "Popular items" shelf on the consumer-facing restaurant page. The core tension is choosing a signal that genuinely reflects popularity and deciding how up to date the rankings must be.
+The central tension is choosing a signal that truthfully represents popularity, and deciding how up to date the rankings must be.
 
 ### Functional requirements
 
 - Ingest finalized order-item facts, so that popularity is based on completed purchases of each restaurant's menu items.
-- For every restaurant, compute the top `K` menu items over a small, fixed set of windows, for example `1 day`, `7 days`, and `30 days`.
-- The main read path powers the shelf on the consumer restaurant page, one restaurant and one supported window per request.
-- A read response returns item identifiers, their rank order, and popularity counts measured in purchased units.
+- For every restaurant, compute the top `K` menu items over a small, fixed set of windows, for example `1 day`, `7 days` and `30 days`.
+- The main read path powers the consumer restaurant-page shelf, serving one restaurant and one supported window per request.
+- A read response contains item identifiers, the rank order, and popularity counts measured in units purchased.
 - A read response also carries metadata describing how fresh the snapshot is or which batch version produced it.
-- Operators can launch scoped reruns or backfills to correct for late cancellations, refunds, delayed order finalization, or changes to the scoring logic.
-- When the latest snapshot is delayed, clients receive the most recent successful snapshot or a controlled "not ready" response.
-- Product clients can find out which window values the API supports, rather than baking server enums into every app release.
+- Operators must be able to launch scoped reruns or backfills to correct for late cancellations, refunds, delayed finalization, or changes to the scoring logic.
+- When the latest snapshot is late, clients receive either the most recent successful snapshot or a controlled "not ready" response.
+- Product clients must be able to find out which window values the API supports, rather than hard-coding server enums into every app release.
 - Menu names, images, prices and availability are supplied by an existing menu platform.
 
 ### Non-functional requirements
 
-- Favor trustworthy batch rankings that are honest about freshness over pretending the shelf is live.
-- Aim for batch freshness of roughly `30` to `60` minutes during normal operation.
-- Aim for *95th-percentile (p95)* read latency around `50 ms` on cache hits and `150 ms` when falling through to PostgreSQL.
+- Favor trustworthy batch rankings with honest freshness over pretending that the shelf is live.
+- Aim for batch freshness of roughly `30` to `60` minutes under normal operation.
+- Aim for a *95th-percentile (p95)* read latency of about `50 ms` when the cache is hit and about `150 ms` when the request falls through to the database.
 - Handle about `200k` active restaurants, `20M` orders per day and around `80M` order-line facts per day, with traffic skewed toward a small subset of restaurants.
-- Keep batch inputs, manifests and published snapshot versions replayable, so reruns can safely supersede rankings that were already published.
-- Expose reads as bounded, rate-limited product endpoints, not as open-ended analytics query surfaces.
-- Favor incremental rollups and precomputed snapshots rather than scanning raw order history on every read.
+- Retain replayable batch inputs, manifests and published snapshot versions, so that reruns can safely supersede previously published rankings.
+- Expose read APIs as bounded, rate-limited product endpoints, not as open-ended analytics query interfaces.
+- Favor incremental rollups and precomputed snapshots over scanning the raw order history on each read.
 
 ### Back-of-the-envelope estimation
 
-| Assumption | Order of magnitude | Used for |
+| Assumption | Order of magnitude | Relevant to |
 | --- | --- | --- |
-| Active restaurants | about `200k` | Partitioning and snapshot cardinality |
+| Active restaurants | about `200k` | Partitioning and the number of snapshots |
 | Orders per day | about `20M` | Ingest volume into immutable facts |
 | Order-line facts per day | about `80M` | Batch scan size and daily rollup work |
-| Restaurant-page reads | bursty, repeat-heavy | Redis cache value and hit ratio |
-| Batch cadence | about `30` to `60` minute freshness | Spark job frequency and publish rate |
-| Top `K` per shelf | on the order of `10` to `50` items | Snapshot row width and response size |
+| Restaurant-page reads | bursty, heavily repeated | Value of a cache and its hit ratio |
+| Batch cadence | freshness of about `30` to `60` minutes | How often batch jobs run and publish |
+| Top `K` per shelf | roughly `10` to `50` items | Width of snapshot rows and response size |
 
-These figures are anchors for the design discussion rather than the heart of the problem.
+### Out of scope
 
-**Below the line (out of scope)**
-
-- Personalized recommendations or per-user ranking that goes beyond organic popularity.
-- Search relevance, sponsored placement, or merchandising rules that would override organic popularity as the baseline.
-- Arbitrary custom historical windows, or ad hoc analytics APIs over arbitrary date ranges.
+- Personalized recommendations or per-user ranking beyond organic popularity.
+- Search relevance, sponsored placements, or merchandising rules that override organic popularity as the baseline.
+- Arbitrary custom historical windows or ad hoc analytics APIs over arbitrary date ranges.
+- Sub-second, real-time ranking updates triggered by every order event.
 - A complete restaurant menu management system, or the checkout and payment stack.
-- A single global trending leaderboard that merges all restaurants together.
+- A single global trending leaderboard that merges every restaurant together.
 
-> [!NOTE]
-> Restaurant pages demand fast, frequently repeated reads, while the rankings are produced by slower batch processing over finalized orders. The design must surface that gap through freshness metadata and provide a clear path for corrections.
+## Interview Notes
 
-## Follow-ups
-
-- API design: how would pagination work when `K > 100`?
-- How should the system handle an item that is removed from the menu or goes out of stock partway through a ranking window?
-
-### What interviewers focus on
-
-- A lambda architecture that combines a real-time processing path with a batch processing path.
+- Restaurant pages require fast, frequently repeated reads, while the rankings themselves are produced by slower batch processing over finalized orders. The design is expected to make this gap explicit through freshness metadata and a clear path for corrections.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Start by defining what popular means and how fresh the answer needs to be, since those two choices shape the whole design.
+Start by defining what popular means (orders, recency window, weighting) and how stale a ranking may be, since those answers decide the architecture.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Compare computing the ranking at read time with precomputing per-restaurant top-K lists in a batch job and publishing stable snapshots that the read path serves from a cache.
+Aggregate order events in a stream processor into per-restaurant item counts over a sliding or bucketed time window, and precompute top-K lists into a cache or key-value store for reads.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Think about cost at thousands of restaurants, time-window decay, ties and low-volume restaurants, and how a new snapshot replaces the old one safely.
+Keep reads cheap by serving precomputed shelves with a CDN or cache, and handle new restaurants with little data, hot restaurants, and counting accuracy under duplicate or late events.
 
 </details>
 

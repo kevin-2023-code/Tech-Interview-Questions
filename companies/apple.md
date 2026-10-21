@@ -30,8 +30,8 @@ Which stage each question came from, for the **181 of 181** questions at Apple t
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | █ | [Algorithm](../formats/algorithm.md) (85%) | 12 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 135 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 20 / 71 / 21 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 14 | █ | [Algorithm](../formats/algorithm.md) (86%) | 13 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 134 | ██████████ | [Algorithm](../formats/algorithm.md) (57%) | 19 / 71 / 21 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 56 | ████ | [Algorithm](../formats/algorithm.md) (27%) | 4 / 28 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>

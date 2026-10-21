@@ -8,11 +8,11 @@
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 302 | 81 | 174 | 47 |
+| [Algorithm](algorithm.md) | 303 | 81 | 174 | 48 |
 | [SQL](sql.md) | 6 | 0 | 4 | 2 |
 | [System Design](system-design.md) | 39 | 5 | 19 | 15 |
 | [AI Coding](ai-coding.md) | 12 | 1 | 9 | 2 |
-| [Blog](blog.md) | 1,403 | 0 | 0 | 0 |
+| [Blog](blog.md) | 1,402 | 0 | 0 | 0 |
 | [Object Oriented Programming](object-oriented-programming.md) | 68 | 5 | 58 | 5 |
 
 ## Start here

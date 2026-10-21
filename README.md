@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **689 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **665 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,9 +42,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 689 sightings at 89 companies — Algorithm 233 · SQL 38 · System Design 142 · AI Coding 3 · Blog 202 · Object Oriented Programming 71.
+**Last 90 days:** 665 sightings at 89 companies — Algorithm 231 · SQL 17 · System Design 142 · AI Coding 3 · Blog 202 · Object Oriented Programming 70.
 
-**Reported most:** [Amazon (97)](companies/amazon.md) · [ByteDance (45)](companies/bytedance.md) · [Google (45)](companies/google.md) · [Microsoft (39)](companies/microsoft.md) · [LinkedIn (24)](companies/linkedin.md) · [OpenAI (23)](companies/openai.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md)
+**Reported most:** [Amazon (89)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (43)](companies/google.md) · [Microsoft (38)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [OpenAI (23)](companies/openai.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (16) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) (14)
 
@@ -57,7 +57,7 @@ share naming the population it is a share of.
 <!-- gen:free:start -->
 **1,830 of the 5,636 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (302)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (39)](free/system-design.md) · [AI Coding (12)](free/ai-coding.md) · [Blog (1,403)](free/blog.md) · [Object Oriented Programming (68)](free/object-oriented-programming.md)
+[Algorithm (303)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (39)](free/system-design.md) · [AI Coding (12)](free/ai-coding.md) · [Blog (1,402)](free/blog.md) · [Object Oriented Programming (68)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -138,7 +138,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (2,499)](formats/algorithm.md) · [SQL (297)](formats/sql.md) · [System Design (703)](formats/system-design.md) · [AI Coding (126)](formats/ai-coding.md) · [Blog (1,403)](formats/blog.md) · [Object Oriented Programming (608)](formats/object-oriented-programming.md)
+[Algorithm (2,500)](formats/algorithm.md) · [SQL (297)](formats/sql.md) · [System Design (703)](formats/system-design.md) · [AI Coding (126)](formats/ai-coding.md) · [Blog (1,402)](formats/blog.md) · [Object Oriented Programming (608)](formats/object-oriented-programming.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported

@@ -12,131 +12,131 @@
 
 ## Problem
 
-## Most Common Function Invocation Stack
+## Overview
 
-### Problem Overview
+A program has produced a sequence of trace logs. Each log line says that execution either entered a function or returned from one. Process the lines in order from first to last while keeping track of the call stack that is currently active. Each time a function is entered, the complete stack path at that moment is counted one time.
 
-You receive execution-trace records from a program. Each record marks either a function invocation or a function return. Process the records in order while keeping track of the currently active calls. Whenever execution enters a function, increment the count for the complete stack at that moment.
-
-For instance, after an enter event, the active calls could be:
+For instance, suppose that right after an entry the active stack is:
 
 ```
-bootstrap -> dispatchInput -> processTap
+main -> handleEvents -> handleClickEvent
 ```
 
-The path counted for that event would be:
+The path that gets counted for that entry is then written as:
 
 ```
-bootstrap->dispatchInput->processTap
-```
-
-This task may also be described as identifying the most frequent function call, call route, call chain, or stack trace. It is commonly presented in three stages:
-
-1. Find the call path seen most often.
-2. Resolve ties using stack depth and then encounter order.
-3. Support interleaved events belonging to different threads.
-
-A tie-break detail should be confirmed during an interview: some versions favor shallower paths, whereas the usual extension favors deeper ones. Here, rank candidates by count first, then by greater depth, and finally by which path attained that count earlier.
-
-### Trace Format
-
-A single-thread trace uses records such as:
-
-```
-"-> bootstrap" # invoke bootstrap
-"<- bootstrap" # return from bootstrap
-```
-
-The whitespace after an arrow is optional, so inputs such as `"->bootstrap"` and `"<-bootstrap"` must also be accepted.
-
-In the multithreaded form, every record begins with its thread identifier:
-
-```
-"3 -> bootstrap"
-"3 <- bootstrap"
-"8 -> background_job"
-```
-
-Unless stated otherwise, traces are valid: a return always corresponds to the function atop that thread's stack, names contain only letters, digits, or underscores, and nesting depth is limited.
-
-### Part 1: Most Frequent Path
-
-#### Problem Statement
-
-Given single-thread trace records, produce the call path with the largest number of entry occurrences. Count a path only when a function is entered.
-
-Return an empty string when the input contains no records. For Part 1, if several paths have equal counts, choose the one that first reached that count during the left-to-right scan.
-
-```
-from typing import List
-
-def most_frequent_call_path_deepest_tie(traces: List[str]) -> str:
-    pass
-```
-
-#### Example (as reported)
-
-```text
-Input:
-8
--> main
--> handleEvents
--> handleClickEvent
-<- handleClickEvent
--> handleClickEvent
-<- handleClickEvent
-<- handleEvents
-<- main
-
-Output:
 main->handleEvents->handleClickEvent
 ```
 
-#### Example
+Interview reports refer to this problem under several names — "Function Call", "Most Frequent Call Path", "Most Frequent Call Chain", and "Most Frequent Stack Trace". It is typically asked in three stages:
+
+1. Return the call path that appears most often.
+2. Break ties by stack depth first, and then by first occurrence.
+3. Introduce thread IDs and return an answer for each thread separately.
+
+A point worth confirming with the interviewer: some reports describe a tie-breaker that favors the shallower path, but the more common follow-up asks for the deeper path when counts are equal. This statement uses the order frequency, then deeper stack, then whichever path reached the count first.
+
+## Trace Format
+
+Logs from a single thread look like this:
 
 ```
+"-> main" # enter main
+"<- main" # return from main
+```
+
+In some examples there is no space after the arrow, as in `"->main"` or `"<-main"`. Your parser should handle both forms.
+
+Logs from multiple threads begin each event with a thread ID:
+
+```
+"0 -> main"
+"0 <- main"
+"12 -> worker"
+```
+
+Unless the interviewer says otherwise, you may treat the logs as well-formed: each return corresponds to the function on top of that thread's stack, function names consist of letters, digits, or underscores, and the call depth is bounded.
+
+## Part 1: Most Frequent Path
+
+Given a list of trace logs from a single thread, return the call path that occurs the greatest number of times. Paths are counted only on enter events.
+
+When the input list is empty, return the empty string. In this part, if several paths share the same frequency, return the one that was first to reach that frequency during the left-to-right scan.
+
+```
+from typing import List
+
+def most_frequent_call_path(traces: List[str]) -> str:
+    pass
+```
+
+Example 1:
+
+```text
+Input:
 traces = [
-    "-> bootstrap",
-    "-> routeRequest",
-    "-> loadProfile",
-    "<- loadProfile",
-    "-> loadProfile",
-    "<- loadProfile",
-    "<- routeRequest",
-    "<- bootstrap",
+    "-> main",
+    "-> handleEvents",
+    "-> handleClickEvent",
+    "<- handleClickEvent",
+    "-> handleClickEvent",
+    "<- handleClickEvent",
+    "<- handleEvents",
+    "<- main",
 ]
 
-most_frequent_call_path_deepest_tie(traces)
-# "bootstrap->routeRequest->loadProfile"
+Output: most_frequent_call_path(traces) == "main->handleEvents->handleClickEvent"
 ```
+
+Explanation: The paths counted at each entry are:
+
+| Entry event | Counted path | Count |
 
 ```trueviz
-{"v":1,"kind":"example","title":"Most Frequent Call Path Example","input":{"traces":"[\"-> bootstrap\", \"-> routeRequest\", \"-> loadProfile\", \"<- loadProfile\", \"-> loadProfile\", \"<- loadProfile\", \"<- routeRequest\", \"<- bootstrap\"]"},"steps":[{"say":"The single-thread trace has four enter (+) and four return (-) records.","panels":[{"type":"grid","id":"trace","label":"Trace records","values":[["evt","funct…"],["+","boots…"],["+","route…"],["+","loadP…"],["-","loadP…"],["+","loadP…"],["-","loadP…"],["-","route…"],["-","boots…"]]}]},{"say":"Processing '+ bootstrap': stack becomes [bootstrap]. Path 'b' (bootstrap) gets its first count.","panels":[{"type":"grid","id":"trace","label":"Trace records","values":[["evt","funct…"],["+","boots…"],["+","route…"],["+","loadP…"],["-","loadP…"],["+","loadP…"],["-","loadP…"],["-","route…"],["-","boots…"]],"marks":{"read":[[1,0],[1,1]]}},{"type":"array","id":"stack","label":"Active stack","values":["bootstrap"],"marks":{"read":[0]}},{"type":"grid","id":"counts","label":"Paths counted","values":[["Path","Count"],["b","1"]]}]},{"say":"Processing '+ routeRequest': stack grows to [bootstrap, routeRequest]. Path 'b->r' is counted once.","panels":[{"type":"grid","id":"trace","label":"Trace records","values":[["evt","funct…"],["+","boots…"],["+","route…"],["+","loadP…"],["-","loadP…"],["+","loadP…"],["-","loadP…"],["-","route…"],["-","boots…"]],"marks":{"read":[[2,0],[2,1]]}},{"type":"array","id":"stack","label":"Active stack","values":["bootstrap","routeRequest"],"marks":{"read":[1]}},{"type":"grid","id":"counts","label":"Paths counted","values":[["Path","Count"],["b","1"],["b->r","1"]]}]},{"say":"Processing first '+ loadProfile': stack becomes three frames. Path 'b->r->l' gets count 1.","panels":[{"type":"grid","id":"trace","label":"Trace records","values":[["evt","funct…"],["+","boots…"],["+","route…"],["+","loadP…"],["-","loadP…"],["+","loadP…"],["-","loadP…"],["-","route…"],["-","boots…"]],"marks":{"read":[[3,0],[3,1]]}},{"type":"array","id":"stack","label":"Active stack","values":["bootstrap","routeRequest","loadProfile"],"marks":{"read":[2]}},{"type":"grid","id":"counts","label":"Paths counted","values":[["Path","Count"],["b","1"],["b->r","1"],["b->r-…","1"]]}]},{"say":"After loadProfile returns, it is entered again (+ loadProfile at row 5). Same path 'b->r->l' is counted a second time.","panels":[{"type":"grid","id":"trace","label":"Trace records","values":[["evt","funct…"],["+","boots…"],["+","route…"],["+","loadP…"],["-","loadP…"],["+","loadP…"],["-","loadP…"],["-","route…"],["-","boots…"]],"marks":{"read":[[5,0],[5,1]]}},{"type":"array","id":"stack","label":"Active stack","values":["bootstrap","routeRequest","loadProfile"],"marks":{"read":[2]}},{"type":"grid","id":"counts","label":"Paths counted","values":[["Path","Count"],["b","1"],["b->r","1"],["b->r-…","2"]]}]},{"say":"No other path has count >1. The most frequent path is the three-frame path, observed twice: bootstrap->routeRequest->loadProfile.","panels":[{"type":"grid","id":"trace","label":"Trace records","values":[["evt","funct…"],["+","boots…"],["+","route…"],["+","loadP…"],["-","loadP…"],["+","loadP…"],["-","loadP…"],["-","route…"],["-","boots…"]]},{"type":"array","id":"answer","label":"Most frequent path","values":["bootstrap","routeRequest","loadProfile"],"marks":{"found":[0,1,2]}},{"type":"grid","id":"counts","label":"Paths counted","values":[["Path","Count"],["b","1"],["b->r","1"],["b->r-…","2"]],"marks":{"found":[[3,0],[3,1]]}}]}],"expected":"bootstrap->routeRequest->loadProfile"}
+{"v":1,"kind":"example","title":"Most frequent call path","input":{"traces":"['-> main', '-> handleEvents', '-> handleClickEvent', '<- handleClickEvent', '-> handleClickEvent', '<- handleClickEvent', '<- handleEvents', '<- main']"},"steps":[{"say":"A single thread logged eight events. Lines starting with -> are function entries, lines starting with <- are returns. Only entries get counted.","panels":[{"type":"array","id":"logs","label":"Trace logs (M=main, E=handleEvents, C=ha","values":["-> M","-> E","-> C","<- C","-> C","<- C","<- E","<- M"]}]},{"say":"The entries are the four lines that start with ->. The returns are not counted, so they are set aside.","panels":[{"type":"array","id":"logs","label":"Trace logs (M=main, E=handleEvents, C=ha","values":["-> M","-> E","-> C","<- C","-> C","<- C","<- E","<- M"],"marks":{"read":[0,1,2,4],"dim":[3,5,6,7]}}]},{"say":"Entering main counts the path M. Entering handleEvents counts M>E, because main is still active underneath it.","panels":[{"type":"array","id":"logs","label":"Trace logs (M=main, E=handleEvents, C=ha","values":["-> M","-> E","-> C","<- C","-> C","<- C","<- E","<- M"],"marks":{"read":[0,1],"dim":[2,3,4,5,6,7]}},{"type":"map","id":"counts","label":"Counted paths","entries":[{"key":"M","value":"1"},{"key":"M>E","value":"1"}],"layout":"table"}]},{"say":"The first entry into handleClickEvent counts the full stack path M>E>C once.","panels":[{"type":"array","id":"logs","label":"Trace logs (M=main, E=handleEvents, C=ha","values":["-> M","-> E","-> C","<- C","-> C","<- C","<- E","<- M"],"marks":{"read":[2],"dim":[0,1,3,4,5,6,7]}},{"type":"map","id":"counts","label":"Counted paths","entries":[{"key":"M","value":"1"},{"key":"M>E","value":"1"},{"key":"M>E>C","value":"1"}],"layout":"table"}]},{"say":"handleClickEvent returned and was entered again while main and handleEvents were still active, so the same full path M>E>C is counted a second time.","panels":[{"type":"array","id":"logs","label":"Trace logs (M=main, E=handleEvents, C=ha","values":["-> M","-> E","-> C","<- C","-> C","<- C","<- E","<- M"],"marks":{"read":[2,4],"dim":[0,1,3,5,6,7]}},{"type":"map","id":"counts","label":"Counted paths","entries":[{"key":"M","value":"1"},{"key":"M>E","value":"1"},{"key":"M>E>C","value":"2"}],"layout":"table"}]},{"say":"M>E>C has the highest count, 2, so the answer is main->handleEvents->handleClickEvent.","panels":[{"type":"map","id":"counts","label":"Counted paths","entries":[{"key":"M","value":"1"},{"key":"M>E","value":"1"},{"key":"M>E>C","value":"2"}],"layout":"table"}]}],"expected":"main->handleEvents->handleClickEvent"}
 ```
 
-
-
-The entry records contribute these paths:
-
-| Enter record | Path added | Total so far |
 | --- | --- | --- |
-| `-> bootstrap` | `bootstrap` | 1 |
-| `-> routeRequest` | `bootstrap->routeRequest` | 1 |
-| first `-> loadProfile` | `bootstrap->routeRequest->loadProfile` | 1 |
-| second `-> loadProfile` | `bootstrap->routeRequest->loadProfile` | 2 |
+| `-> main` | `main` | 1 |
+| `-> handleEvents` | `main->handleEvents` | 1 |
+| first `-> handleClickEvent` | `main->handleEvents->handleClickEvent` | 1 |
+| second `-> handleClickEvent` | `main->handleEvents->handleClickEvent` | 2 |
 
-The deepest route is observed twice, making it the result.
+The deepest path is counted twice, which makes it the answer.
 
+Example 2:
 
-### Part 2: Tie-Break by Deeper Stack
+```text
+Input: traces = []
 
-#### Problem Statement
+Output: most_frequent_call_path(traces) == ""
+```
 
-Apply the following comparison order:
+Example 3:
 
-1. Select the path with the largest frequency.
-2. When frequencies are equal, select the path with more stack frames.
-3. When both frequency and depth match, retain the path that first attained that frequency during the scan.
+```text
+Input:
+traces = [
+    "-> A",
+    "-> B",
+    "<- B",
+    "-> C",
+    "<- C",
+    "<- A",
+]
+
+Output: most_frequent_call_path(traces) == "A"
+```
+
+Explanation: Every path has the same count, so Part 1 keeps the path that came first.
+
+## Part 2: Break Ties by Deeper Stack
+
+This is the function that is graded. Apply the following ordering to pick the answer:
+
+1. Choose the path with the largest frequency.
+2. When frequencies are equal, choose the deeper path.
+3. When both frequency and depth are equal, choose the path that reached that frequency first during the left-to-right scan.
 
 ```
 from typing import List
@@ -145,115 +145,164 @@ def most_frequent_call_path_deepest_tie(traces: List[str]) -> str:
     pass
 ```
 
-#### Example
+Example 1:
 
-```
+```text
+Input:
 traces = [
-    "-> bootstrap",
-    "-> routeRequest",
-    "-> parseQuery",
-    "<- parseQuery",
-    "-> renderPage",
-    "<- renderPage",
-    "-> renderPage",
-    "<- renderPage",
-    "-> parseQuery",
-    "<- parseQuery",
-    "<- routeRequest",
-    "<- bootstrap",
+    "-> main",
+    "-> handleEvents",
+    "-> handleKeyEvent",
+    "<- handleKeyEvent",
+    "-> handleClickEvent",
+    "<- handleClickEvent",
+    "-> handleClickEvent",
+    "<- handleClickEvent",
+    "-> handleKeyEvent",
+    "<- handleKeyEvent",
+    "<- handleEvents",
+    "<- main",
 ]
 
-most_frequent_call_path_deepest_tie(traces)
-# "bootstrap->routeRequest->renderPage"
+Output: most_frequent_call_path_deepest_tie(traces) == "main->handleEvents->handleClickEvent"
 ```
 
-The renderPage path and parseQuery path each occur twice at the same depth; renderPage reaches frequency two first.
+Explanation: Each of the two leaf paths, `main->handleEvents->handleClickEvent` and `main->handleEvents->handleKeyEvent`, is counted twice. Their frequency and depth are identical, so the answer is the one that hit a count of `2` first.
 
+Example 2:
 
+```text
+Input:
+traces = [
+    "-> A",
+    "-> B",
+    "<- B",
+    "<- A",
+]
 
-Each leaf path appears two times:
+Output: most_frequent_call_path_deepest_tie(traces) == "A->B"
+```
 
-* `bootstrap->routeRequest->renderPage`
-* `bootstrap->routeRequest->parseQuery`
+Explanation: At equal frequency, the deeper path wins over the shallower one.
 
-Their frequencies and depths match, so the result is the path that reached frequency `2` earlier.
+## Part 3: Multiple Threads
 
-
-### Part 3: Multiple Threads
-
-#### Problem Statement
-
-Each trace record now supplies a thread ID. Events from separate threads may be mixed together. Keep a distinct stack and distinct path-frequency map for every thread, and return the Part 2 result independently for each one.
+Every trace line now begins with a thread ID, and lines belonging to different threads may be interleaved. Each thread has its own independent stack and its own path counts. Return, for every thread, the answer defined by the Part 2 rules.
 
 ```
 from typing import Dict, List
 
-def most_frequent_call_path_deepest_tie(traces: List[str]) -> Dict[str, str]:
+def most_frequent_call_path_by_thread(traces: List[str]) -> Dict[str, str]:
     pass
 ```
 
-#### Example
+Example 1:
 
-```
+```text
+Input:
 traces = [
-    "4 -> server",
-    "9 -> cleanup",
-    "4 -> authorize",
-    "4 <- authorize",
-    "9 -> purge_cache",
-    "9 <- purge_cache",
-    "9 <- cleanup",
-    "4 <- server",
+    "0 -> main",
+    "1 -> func_2",
+    "0 -> func_1",
+    "0 <- func_1",
+    "1 -> func_3",
+    "1 <- func_3",
+    "1 <- func_2",
+    "0 <- main",
 ]
 
-most_frequent_call_path_deepest_tie(traces)
-# {
-# "4": "server->authorize",
-# "9": "cleanup->purge_cache",
-# }
+Output:
+most_frequent_call_path_by_thread(traces) == {
+    "0": "main->func_1",
+    "1": "func_2->func_3",
+}
 ```
 
-For thread `4`, both `server` and `server->authorize` occur once; the Part 2 rule chooses the deeper one. Thread `9` is evaluated the same way.
+Explanation: In thread `0` the paths `main` and `main->func_1` each appear once, so the Part 2 rule selects the deeper one. Thread `1` is resolved in the same way.
 
+## Follow-ups
 
-### Reported Follow-up Variants
+The interview reports in the source data mention the variants below. The signatures shown are preparation scaffolding rather than an official API quoted from the interview.
 
-Related versions ask for the winning frequency, the maximum-depth stack, or the most common function name for each thread. The API sketches below are preparation-oriented examples rather than official interfaces.
+### Also return the frequency
 
-### Test Cases
+Return the winning path together with how many times it occurred.
 
 ```
-assert most_frequent_call_path_deepest_tie([
-    "-> bootstrap",
-    "-> routeRequest",
-    "-> loadProfile",
-    "<- loadProfile",
-    "-> loadProfile",
-    "<- loadProfile",
-    "<- routeRequest",
-    "<- bootstrap",
-]) == "bootstrap->routeRequest->loadProfile"
+from typing import List, Tuple
 
-assert most_frequent_call_path_deepest_tie([]) == ""
-
-# In Part 1, equal frequencies keep the route that reached that count first.
-assert most_frequent_call_path_deepest_tie([
-    "-> Root",
-    "-> Left",
-    "<- Left",
-    "-> Right",
-    "<- Right",
-    "<- Root",
-]) == "Root"
-
-# In Part 2, a deeper route wins when its count equals a shallower route's count.
-assert most_frequent_call_path_deepest_tie([
-    "-> Root",
-    "-> Child",
-    "<- Child",
-    "<- Root",
-]) == "Root->Child"
+def most_frequent_call_path_with_count(traces: List[str]) -> Tuple[str, int]:
+    pass
 ```
+
+```text
+Input:
+traces = [
+    "-> main",
+    "-> child",
+    "<- child",
+    "-> child",
+    "<- child",
+    "<- main",
+]
+
+Output: most_frequent_call_path_with_count(traces) == ("main->child", 2)
+```
+
+### Return the longest call stack
+
+Some interviewers ask for the longest stack that appears anywhere in the trace, rather than the most frequent one.
+
+```
+from typing import List
+
+def longest_call_stack(traces: List[str]) -> str:
+    pass
+```
+
+```text
+Input:
+traces = [
+    "-> A",
+    "-> B",
+    "-> C",
+    "<- C",
+    "<- B",
+    "<- A",
+]
+
+Output: longest_call_stack(traces) == "A->B->C"
+```
+
+### Most frequent function per thread
+
+Another reported multi-threaded follow-up asks, for each thread, for the function name that is entered most often, instead of the full path.
+
+```
+from typing import Dict, List
+
+def most_frequent_function_by_thread(traces: List[str]) -> Dict[str, str]:
+    pass
+```
+
+```text
+Input:
+traces = [
+    "0 -> A",
+    "0 -> B",
+    "0 <- B",
+    "0 -> B",
+    "0 <- B",
+    "0 <- A",
+]
+
+Output: most_frequent_function_by_thread(traces) == {"0": "B"}
+```
+
+## Interview Notes
+
+* Clarify the tie-breaking direction with the interviewer; some reports use a shallower-path tie-breaker, though the deeper-path version is the more common follow-up.
+* Expect to be asked about time and space complexity for each part.
 
 ## Hints
 

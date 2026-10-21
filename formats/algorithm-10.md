@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Google** | [Windowed Average excluding Largest K](https://trueinterview.io/questions/7a3b6266-bc7c-4893-80a9-02a992ba2cc3) | Medium | — |
 | **Google / Snowflake** | [Minimum Distance Between People and Cakes](https://trueinterview.io/questions/787ed7cb-16c1-4605-a606-93dbbc22cb6c) | Easy | — |
 | **Google** | [Validate Tree Given Parent Array](https://trueinterview.io/questions/783f51be-4588-4e1e-ad45-e296bf8082d7) | Medium | — |
 | **Google** | [Activate Features with Dependency Prerequisites (Simulation)](https://trueinterview.io/questions/660e4415-cd22-4d8d-9d65-6287f4804ea8) | Medium | — |

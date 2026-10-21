@@ -9,7 +9,7 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [175](../openai.md) |
-| Free to read here | 13 |
+| Free to read here | 14 |
 | Interview-process guides | 7 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -60,7 +60,7 @@ Here's what the interview process can look like:
 | [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/technical-deep-dive) |
 | [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/infection-spread-simulation) |
 | [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/memory-allocator) |
-| [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) |
+| [LLM Inference Timeout and Restart Strategy](../../questions/algorithm/llm-inference-timeout-and-restart-strategy/README.md) | Algorithm | Hard | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) |
 | [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/recruiter-hr-screen) |
 | [Defend a Research Direction and Experiment Design](https://trueinterview.io/questions/defend-a-research-direction-and-experiment-design) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/defend-a-research-direction-and-experiment-design) |
 | [Explain Your Engineering Ownership](https://trueinterview.io/questions/explain-your-engineering-ownership) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-your-engineering-ownership) |

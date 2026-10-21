@@ -12,11 +12,13 @@
 
 ## Problem
 
-Design an in-memory banking service that is built up in four stages: core account operations, a spending leaderboard, future-dated payments, and account merging with historical balance lookups. Every call includes a `timestamp`, given as a positive integer number of milliseconds. Across successive calls the timestamps do not decrease, and two or more calls may carry the same value. Future-dated payments can also fire when their due time arrives.
+Build an in-memory **banking system** that can open accounts, move money between them, report spending statistics, run payments on a schedule, and combine accounts. The task is split into four levels, and each level extends the code you wrote for the one before it.
 
-### Level 1: Core Banking Operations
+Every method takes a `timestamp` argument: a positive integer measured in milliseconds. Across successive calls the timestamps never go down, although several calls may carry the same timestamp. Once scheduled payments are introduced (Level 3), additional work also happens automatically when those payments come due.
 
-Implement a `BankSystem` class that supports opening accounts, adding funds, and moving money between accounts.
+### Level 1: Basic Banking Operations
+
+Write a `BankSystem` class that lets callers open accounts, add money to them, and move money from one account to another.
 
 ```python
 class BankSystem:
@@ -26,54 +28,55 @@ class BankSystem:
 
     def create_account(self, timestamp: int, account_id: str) -> bool:
         """
-        Open a new account with zero balance.
+        Open a new account whose starting balance is 0.
 
         Args:
             timestamp: Current time in milliseconds.
-            account_id: Unique account identifier.
+            account_id: Identifier for the new account.
 
         Returns:
-            True if the account was opened;
-            False if an account with that ID is already present.
+            True when the account is opened;
+            False when an account with this ID is already present.
         """
         pass
 
     def deposit(self, timestamp: int, account_id: str, amount: int) -> bool:
         """
-        Add funds to an existing account.
+        Add money to an account that already exists.
 
         Args:
             timestamp: Current time in milliseconds.
-            account_id: Account receiving the deposit.
-            amount: Positive amount to add.
+            account_id: Account receiving the money.
+            amount: Positive integer amount to add.
 
         Returns:
-            True if the deposit succeeded;
-            False if the account is missing.
+            True when the money is added;
+            False when no such account exists.
         """
         pass
 
     def transfer(self, timestamp: int, source_id: str, target_id: str, amount: int) -> bool:
         """
-        Move funds between two accounts.
+        Move money out of one account and into another.
 
         Args:
             timestamp: Current time in milliseconds.
-            source_id: Account sending the money.
-            target_id: Account receiving the money.
-            amount: Positive amount to move.
+            source_id: Account the money leaves.
+            target_id: Account the money goes to.
+            amount: Positive integer amount to move.
 
         Returns:
-            True if the transfer succeeded;
-            False if either account is missing, the two IDs are equal,
-            or the source balance is below amount.
+            True when the money is moved;
+            False when either account is missing, when source_id and
+            target_id are the same account, or when the source balance
+            is smaller than amount.
         """
         pass
 ```
 
-Example Usage:
+Example 1:
 
-```python
+```java
 bank = BankSystem()
 
 bank.create_account(1, "acc1") # True
@@ -88,36 +91,38 @@ bank.transfer(7, "acc1", "acc2", 800) # False (insufficient funds)
 bank.transfer(8, "acc1", "acc1", 100) # False (same account)
 ```
 
-### Level 2: Spending Leaderboard
+Explanation: `"acc1"` cannot be opened a second time, `"acc3"` was never opened, the second transfer asks for more than the 700 left in `"acc1"`, and an account cannot send money to itself.
 
-Extend the system so it records outgoing transfer totals and can return the leading spenders.
+### Level 2: Top Spenders
+
+Extend the class so it keeps a running total of the money each account has sent out, and add a query that ranks accounts by that total.
 
 ```python
 def top_spenders(self, timestamp: int, n: int) -> list:
     """
-    Return the top N accounts ranked by total outgoing transfer amount.
+    Report the n accounts that have sent out the most money.
 
     Args:
         timestamp: Current time in milliseconds.
-        n: The number of top spenders to return.
+        n: How many accounts to report.
 
     Returns:
-        A list of strings in the format "account_id(total_outgoing)",
-        sorted by total outgoing amount in descending order. If two
-        accounts have the same total outgoing amount, sort them
-        alphabetically by account_id. If there are fewer than n
-        accounts with outgoing transfers, return all of them.
+        A list of strings shaped like "account_id(total_outgoing)",
+        ordered from the largest outgoing total to the smallest.
+        Accounts with equal totals are ordered by account_id in
+        alphabetical order. When fewer than n accounts have any
+        outgoing money, return every such account.
 
     Notes:
-        - Only successful transfers count toward outgoing totals.
-        - Deposits do not count as outgoing.
+        - Only transfers that succeeded add to an account's outgoing total.
+        - Deposits are never counted as outgoing money.
     """
     pass
 ```
 
-Example Usage:
+Example 2:
 
-```python
+```java
 bank = BankSystem()
 
 bank.create_account(1, "acc1")
@@ -134,178 +139,178 @@ bank.transfer(9, "acc1", "acc3", 200)
 
 bank.top_spenders(10, 2)
 # ["acc1(700)", "acc2(300)"]
-# acc1 transferred out 500 + 200 = 700
-# acc2 transferred out 300
+# acc1 sent 500 + 200 = 700
+# acc2 sent 300
 
 bank.top_spenders(11, 5)
 # ["acc1(700)", "acc2(300)"]
-# acc3 has no outgoing transfers, so only 2 results
+# acc3 never sent money, so just 2 entries come back
 ```
+
+Explanation: `"acc1"` sent a total of 700, `"acc2"` sent 300, and `"acc3"` sent nothing, so it never appears in the ranking.
 
 ### Level 3: Scheduled Payments
 
-The system should support scheduling future payments and cancelling them. A scheduled payment is an outgoing payment that is deducted from an account at `timestamp + delay`.
+Add support for booking a payment to happen later and for calling off a booked payment. A scheduled payment is money that leaves the account automatically at time `timestamp + delay`.
 
 ```python
 def schedule_payment(self, timestamp: int, account_id: str, amount: int, delay: int) -> str:
     """
-    Schedule a payment to be executed at timestamp + delay.
+    Book a payment that will run at timestamp + delay.
 
     Args:
         timestamp: Current time in milliseconds.
-        account_id: The source account for the payment.
-        amount: The amount to deduct from the account.
-        delay: The delay in milliseconds before the payment is executed.
+        account_id: Account the payment is drawn from.
+        amount: Amount to take out of the account.
+        delay: Milliseconds to wait before the payment runs.
 
     Returns:
-        A unique payment ID in the format "payment[N]" where N is the
-        ordinal number of the scheduled payment across all accounts
-        (e.g., "payment1", "payment2", etc.).
-        Returns "" (empty string) if the account does not exist.
+        An ID shaped like "payment[N]", where N counts scheduled
+        payments across the whole system starting from 1
+        ("payment1", "payment2", and so on).
+        Returns "" (empty string) when the account does not exist.
 
     Notes:
-        - The payment is skipped if the account has insufficient funds
-          when the payment is due.
-        - Successful payments should count as outgoing transactions
-          and be reflected in top_spenders.
-        - Scheduled payments should be processed BEFORE any other
-          operations at the given timestamp.
-        - If multiple scheduled payments are due at the same time,
-          they should be processed in order of creation (e.g.,
-          "payment1" before "payment2").
+        - When the payment comes due and the account balance is
+          smaller than amount, the payment is skipped.
+        - A payment that goes through counts as outgoing money and
+          shows up in top_spenders.
+        - At any timestamp, payments that are due run BEFORE every
+          other operation at that timestamp.
+        - When several payments come due at the same moment, they
+          run in the order they were booked ("payment1" before
+          "payment2").
     """
     pass
 
 def cancel_payment(self, timestamp: int, account_id: str, payment_id: str) -> bool:
     """
-    Cancel a scheduled payment.
+    Call off a payment that was booked earlier.
 
     Args:
         timestamp: Current time in milliseconds.
-        account_id: The account that scheduled the payment.
-        payment_id: The ID of the payment to cancel.
+        account_id: Account that booked the payment.
+        payment_id: ID of the payment to call off.
 
     Returns:
-        True if the payment was successfully cancelled,
-        False if the payment_id does not exist, was already
-        cancelled, was already executed, or if account_id
-        does not match the source account of the scheduled payment.
+        True when the payment is cancelled;
+        False when payment_id is unknown, has already been cancelled,
+        has already run, or was not booked from account_id.
 
     Notes:
-        - Scheduled payments due at the current timestamp must be
-          processed BEFORE any cancel_payment operations at the
-          same timestamp.
+        - Payments that come due at the current timestamp run BEFORE
+          any cancel_payment call at that same timestamp.
     """
     pass
 ```
 
-Processing Order:
+#### Order of Work at Each Timestamp
 
-At any given timestamp, operations are processed in this order:
+Whenever a call arrives, the system does two things, in this order:
 
-1. Execute all due scheduled payments (in order of creation)
-2. Process the current operation (deposit, transfer, cancel_payment, etc.)
+1. **Run every scheduled payment that is now due**, oldest booking first.
+2. **Carry out the requested call** (`deposit`, `transfer`, `cancel_payment`, and so on).
 
-This means a `cancel_payment` call cannot cancel a payment that is due at the same timestamp — the payment will have already been executed.
+As a consequence, a `cancel_payment` call cannot stop a payment that is due at that very timestamp, because that payment has already run.
 
-Example Usage:
+Example 3:
 
-```python
+```java
 bank = BankSystem()
 
 bank.create_account(1, "acc1")
 bank.create_account(2, "acc2")
 bank.deposit(3, "acc1", 1000)
 
-# Schedule a payment from acc1 for 500, due at timestamp 103 (3 + 100)
+# Book a 500 payment from acc1, due at timestamp 103 (3 + 100)
 pid1 = bank.schedule_payment(3, "acc1", 500, 100)
 # Returns "payment1"
 
-# Schedule another payment from acc1 for 300, due at timestamp 153 (3 + 150)
+# Book a 300 payment from acc1, due at timestamp 153 (3 + 150)
 pid2 = bank.schedule_payment(3, "acc1", 300, 150)
 # Returns "payment2"
 
-# Cancel the second payment
+# Call off the second payment
 bank.cancel_payment(50, "acc1", pid2)
 # Returns True
 
-# At timestamp 103, payment1 executes automatically before any operation
+# At timestamp 103, payment1 runs on its own before the deposit
 # acc1 balance: 1000 - 500 = 500
 bank.deposit(103, "acc1", 200)
 # acc1 balance: 500 + 200 = 700
 
-# payment2 was cancelled, so nothing happens at timestamp 153
+# payment2 was cancelled, so nothing is taken out at timestamp 153
 bank.deposit(153, "acc1", 100)
 # acc1 balance: 700 + 100 = 800
 
 bank.top_spenders(200, 5)
-# ["acc1(500)"] — the scheduled payment counted as outgoing
+# ["acc1(500)"] — the scheduled payment is counted as outgoing
 ```
+
+Explanation: only `"payment1"` actually runs, so `"acc1"` ends at 800 and its outgoing total is 500.
 
 ### Level 4: Account Merging and Historical Balance
 
-Add the ability to merge two accounts and query the balance of an account at a specific point in time. The system must keep enough history that past balances can be reconstructed.
+Add a way to fold one account into another, and a way to ask what an account's balance was at some earlier moment.
 
 ```python
 def merge_accounts(self, timestamp: int, account_id1: str, account_id2: str) -> bool:
     """
-    Merge account_id2 into account_id1.
+    Fold account_id2 into account_id1.
 
     Args:
         timestamp: Current time in milliseconds.
-        account_id1: The target account (survives the merge).
-        account_id2: The source account (removed after merge).
+        account_id1: Account that remains after the merge.
+        account_id2: Account that disappears after the merge.
 
     Returns:
-        True if the merge was successful, False if either account
-        does not exist or they are the same account.
+        True when the merge happens; False when either account is
+        missing or both IDs name the same account.
 
     Notes:
-        - account_id2's balance is added to account_id1.
-        - account_id2 is removed from the system after merging.
-        - Any scheduled payments from account_id2 should be
-          transferred to account_id1.
-        - account_id2's outgoing totals should be merged into
-          account_id1's outgoing totals for top_spenders.
-        - All subsequent operations on account_id2 fail.
+        - The balance of account_id2 is added to account_id1.
+        - account_id2 no longer exists once the merge is done.
+        - Any scheduled payments booked from account_id2 now belong
+          to account_id1.
+        - The outgoing total of account_id2 is added to that of
+          account_id1 for top_spenders.
     """
     pass
 
 def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int:
     """
-    Get the balance of an account at a specific historical timestamp.
+    Look up what an account's balance was at moment time_at.
 
     Args:
         timestamp: Current time in milliseconds.
-        account_id: The account to query.
-        time_at: The historical timestamp to query the balance at.
+        account_id: Account to look up.
+        time_at: The past moment whose balance is wanted.
 
     Returns:
-        The balance of the account at time_at, or -1 if the account
+        The account's balance at time_at, or -1 when the account
         did not exist at time_at.
 
     Notes:
-        - If the account was merged into another account before
-          time_at, return -1 (the old account no longer existed).
-        - If querying a timestamp before the account was created,
-          return -1.
-        - If the account existed at time_at but has since been
-          merged away, still return its balance at that time.
-          Historical queries should work even for accounts that
-          no longer exist.
+        - If the account had already been merged into another one
+          by time_at, return -1 (it no longer existed then).
+        - If time_at is earlier than the account's creation, return -1.
+        - If the account did exist at time_at but has been merged
+          away since, still return what its balance was at that
+          moment. Looking up the past must keep working for accounts
+          that are gone now.
     """
     pass
 ```
 
-Corner Cases:
+#### Corner Cases
 
-1. Merged account queries: After merging `acc2` into `acc1`, querying `get_balance(ts, "acc2", time_before_merge)` should still return `acc2`'s balance at that time — even though `acc2` no longer exists.
-2. Post-merge queries: Querying `get_balance(ts, "acc2", time_after_merge)` should return `-1` since `acc2` didn't exist after the merge.
-3. Scheduled payment transfer: Scheduled payments from the merged account should be reassigned to the surviving account.
+1. **Looking up a merged-away account before the merge**: once `acc2` has been merged into `acc1`, the call `get_balance(ts, "acc2", time_before_merge)` must still give back `acc2`'s balance at that moment, even though `acc2` is gone.
+2. **Looking up a merged-away account after the merge**: `get_balance(ts, "acc2", time_after_merge)` must give back `-1`, because `acc2` did not exist after the merge.
+3. **Scheduled payments of the removed account**: payments booked from the account that disappears must be handed over to the account that remains.
 
-Example Usage:
+Example 4:
 
-```python
+```java
 bank = BankSystem()
 
 bank.create_account(1, "acc1")
@@ -320,53 +325,57 @@ bank.transfer(5, "acc1", "acc2", 200)
 bank.merge_accounts(6, "acc1", "acc2")
 # acc1: 800 + 700 = 1500, acc2: removed
 
-# Historical query for acc2 before merge — should still work
+# Looking up acc2 before the merge still works
 bank.get_balance(7, "acc2", 5)
 # 700 (acc2's balance at timestamp 5)
 
-# Historical query for acc2 after merge — account didn't exist
+# Looking up acc2 at the merge time or later: it no longer existed
 bank.get_balance(8, "acc2", 6)
 # -1
 
-# Current balance of acc1
+# acc1's balance right now
 bank.get_balance(9, "acc1", 9)
 # 1500
 ```
 
-### Follow-Up Discussion Prompts
-
-1. Why might a min-heap be a good structure for scheduled payments?
-2. What approaches exist for answering historical balance queries?
-3. Which edge cases matter when merging accounts?
-4. What changes if the bank must handle concurrent operations?
+Explanation: `"acc2"` held 700 at timestamp 5, stopped existing at timestamp 6 when it was merged, and its 700 now sits inside `"acc1"`.
 
 Constraints:
 
-* The service may handle up to $$2 \cdot 10^5$$ operations.
-* Each `timestamp` is a positive integer, and timestamps are non-decreasing across calls.
-* Deposit, transfer, scheduled-payment, and delay amounts are positive integers not exceeding $$10^9$$.
-* Account IDs and payment IDs are non-empty strings.
+* Every `timestamp` is a positive integer in milliseconds, and timestamps across calls are non-decreasing (equal values are allowed).
+* `amount` values passed to `deposit` and `transfer` are positive integers.
+* Payment IDs are numbered globally across all accounts, starting at `"payment1"`.
+* At every timestamp, due scheduled payments run first, in booking order, before the requested operation.
+
+### Follow-ups
+
+Interviewers have brought up these discussion questions:
+
+1. Why is a min-heap a good fit for holding scheduled payments, and what alternative structures could be used instead?
+2. What different approaches exist for answering historical balance queries, and what are their trade-offs?
+3. What edge cases come up when merging accounts?
+4. What concurrency concerns would a real-world version of this system have to handle?
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Design the system incrementally: start with basic account operations, then layer on leaderboard, future payments, and merging.
+Think of the system as a few core entities, accounts and scheduled payments, with each level layering new behavior onto the same account state rather than replacing it.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use hash maps for account balances and a priority queue or sorted structure for future-dated payments and leaderboard rankings.
+Keep accounts in a hash map by id and store per-account transaction history so spending statistics, ranking and merging can be derived from it.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-For merging, you'll need to combine histories and handle balance lookups at specific timestamps—consider storing transaction logs per account.
+Because timestamps are non-decreasing and scheduled payments fire automatically, process all due payments before handling each incoming call, and decide how history and balances carry over when accounts are merged.
 
 </details>
 

@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,403 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Optiver** | [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes) | — | Nov 19, 2025 |
 | **Google** | [How would you lead a team through delivery issues?](https://trueinterview.io/questions/how-would-you-lead-a-team-through-delivery-issues) | — | Nov 17, 2025 |
 | **Optiver** | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games) | — | Nov 17, 2025 |
 | **Optiver** | [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/questions/coding-knowledge-test) | — | Nov 17, 2025 |
@@ -260,5 +259,6 @@
 | **Rippling** | [Find minimum of unknown convex function](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) | — | — |
 | **Capital One** | [Find minimal a for PSD of 3x3 matrix](https://trueinterview.io/questions/find-minimal-a-for-psd-of-3x3-matrix) | — | — |
 | **Cvs Health** | [Explain your top strengths concretely](https://trueinterview.io/questions/explain-your-top-strengths-concretely) | — | — |
+| **OpenAI** | [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) | — | — |
 
 <sub>[← Page 3](blog-3.md) · Page 4 of 6 · [Page 5 →](blog-5.md)</sub>

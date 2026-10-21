@@ -37,8 +37,8 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | `graphs` | 90 | 16% | ███████████ |
 | `hashing` | 86 | 16% | ███████████ |
 | `strings` | 74 | 14% | █████████ |
+| `greedy` | 48 | 9% | ██████ |
 | `dynamic-programming` | 47 | 9% | ██████ |
-| `greedy` | 47 | 9% | ██████ |
 | `sorting` | 46 | 8% | ██████ |
 | `matrix` | 41 | 7% | █████ |
 | `trees` | 39 | 7% | █████ |
@@ -48,7 +48,7 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**167 sightings** across this cut. Newest first.
+**158 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | [Othello Move — Flip Captured Pieces](https://trueinterview.io/questions/othello-move-flip-simulation) | Amazon | Algorithm | Sep 28, 2026 |
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Amazon | Algorithm | Sep 26, 2026 |
 
-<sub>155 more in this window are in the table below.</sub>
+<sub>146 more in this window are in the table below.</sub>
 
 ---
 
@@ -136,14 +136,14 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | **Instacart** | [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | — | 🆕 Sep 07, 2026 |
 | **Instacart** | [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | — | 🆕 Sep 06, 2026 |
 | **Instacart** | [Calculate a Basket Total from Delimited Product Records](https://trueinterview.io/questions/calculate-a-basket-total-from-delimited-product-records) | Easy | 🆕 Sep 06, 2026 |
-| **Amazon** | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | Medium | 🆕 Sep 05, 2026 |
-| **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🆕 Sep 05, 2026 |
+| **Amazon** | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | — | Sep 05, 2026 |
+| **DoorDash** | [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | — | Sep 05, 2026 |
+| **DoorDash** | [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | — | Sep 05, 2026 |
+| **DoorDash** | [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | — | Sep 05, 2026 |
+| **DoorDash** | [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | — | Sep 05, 2026 |
+| **DoorDash** | [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | — | Sep 05, 2026 |
+| **DoorDash** | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | Medium | Sep 05, 2026 |
+| **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | Sep 05, 2026 |
 | **Airbnb** | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | Medium | Sep 04, 2026 |
 | **Airbnb** | [Find Users with Seven Consecutive Impression Days](https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days) | Medium | Sep 04, 2026 |
 | **Airbnb** | [Find Hosts Meeting Listing, Rating, and Review-Coverage Rules](https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules) | Medium | Sep 04, 2026 |

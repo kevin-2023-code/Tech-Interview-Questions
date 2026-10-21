@@ -12,77 +12,82 @@
 
 ## Problem
 
-Given an `n x n` integer matrix `matrix` and an integer `turns`, perform `turns` clockwise $$90^\circ$$ rotations of the matrix, with one exception: every cell on either the main diagonal or the anti-diagonal must remain in its original position.
+Implement `rotate_except_diagonals(matrix, turns)`, where `matrix` is an `n x n` grid of integers and `turns` is a positive integer. The task is to rotate the grid 90 degrees clockwise `turns` times in a row, except that any value sitting on one of the two diagonals is pinned and never moves.
 
-A cell at zero-based row `r` and column `c` is fixed exactly when `r == c` or `r + c == n - 1`. When `n` is odd, the center cell lies on both diagonals and is still fixed only once. During one rotation, each non-fixed value at `(r, c)` is placed at `(c, n - 1 - r)`, the same destination it would have in a full clockwise $$90^\circ$$ turn. Fixed cells do not move.
+Use zero-based indices: row `r`, column `c`. Cell `(r, c)` is pinned if it lies on the main diagonal (`r == c`) or on the anti-diagonal (`r + c == n - 1`). For odd `n` the middle cell belongs to both diagonals; for even `n` the diagonals have no cell in common. Every other cell is free.
 
-Equivalently, the two diagonals divide the remaining cells into four triangular regions: top, right, bottom, and left. One rotation moves the top region to the right, the right to the bottom, the bottom to the left, and the left to the top. Return the grid after exactly `turns` rotations.
+During a single clockwise turn, the value in each free cell `(r, c)` travels to `(c, n - 1 - r)`, i.e. the same spot an ordinary 90-degree clockwise rotation of the full grid would send it to, while each pinned cell retains its value. Viewed another way, the diagonals carve the free cells into four triangles (top, right, bottom, left); one turn shifts the top triangle into the right one, right into bottom, bottom into left, and left into top. After performing exactly `turns` such turns, return the grid as an `n x n` list of lists.
 
-Implement `rotate_except_diagonals(matrix: list[list[int]], turns: int) -> list[list[int]]`.
+The result is the exact final grid, listed row by row from top to bottom with columns from left to right, so each input has a single correct output. Values are only relocated and never combined, so every output value is one of the input values and fits in a signed 32-bit integer (none can exceed $$2^{31} - 1$$).
 
 Example 1:
 
 ```text
-Input: matrix = [[5,1,6],[2,9,3],[7,4,8]], turns = 1
+Input: matrix = [[3,6,1],[0,8,5],[2,7,4]], turns = 1
 
-Output: [[5,2,6],[4,9,1],[7,3,8]]
+Output: [[3,0,1],[7,8,6],[2,5,4]]
 ```
 
-Explanation: The diagonal values `5, 6, 9, 8, 7` stay fixed. The off-diagonal values rotate: `1` moves to `(1,2)`, `3` moves to `(2,1)`, `4` moves to `(1,0)`, and `2` moves to `(0,1)`.
+Explanation: Only `6`, `0`, `5` and `7` are free; `6` moves from `(0,1)` to `(1,2)`, `5` from `(1,2)` to `(2,1)`, `7` from `(2,1)` to `(1,0)`, and `0` from `(1,0)` to `(0,1)`, while `3`, `1`, `8`, `2`, `4` stay put.
 
 ```trueviz
-{"v":1,"kind":"example","title":"Rotate except diagonals","input":{"matrix":"[[5, 1, 6], [2, 9, 3], [7, 4, 8]]","turns":"1"},"steps":[{"say":"Input 3x3 matrix; turns = 1 clockwise rotation, but diagonal cells must stay put.","panels":[{"type":"grid","id":"matrix","label":"matrix","values":[["5","1","6"],["2","9","3"],["7","4","8"]]}]},{"say":"Fixed cells are the main diagonal (r==c) and anti-diagonal (r+c==2): 5, 9, 8, 6, 7.","panels":[{"type":"grid","id":"matrix","label":"matrix","values":[["5","1","6"],["2","9","3"],["7","4","8"]],"marks":{"found":[[0,0],[1,1],[2,2],[0,2],[2,0]]}}]},{"say":"Only the four off-diagonal cells move: 1, 3, 4, 2.","panels":[{"type":"grid","id":"matrix","label":"matrix","values":[["5","1","6"],["2","9","3"],["7","4","8"]],"marks":{"read":[[0,1],[1,2],[2,1],[1,0]]}}]},{"say":"1 at (0,1) moves to (1,2).","panels":[{"type":"grid","id":"matrix","label":"matrix","values":[["5","1","6"],["2","9","3"],["7","4","8"]],"marks":{"read":[[0,1]],"found":[[1,2]]}}]},{"say":"3 at (1,2) moves to (2,1).","panels":[{"type":"grid","id":"matrix","label":"matrix","values":[["5","1","6"],["2","9","3"],["7","4","8"]],"marks":{"read":[[1,2]],"found":[[2,1]]}}]},{"say":"4 at (2,1) moves to (1,0).","panels":[{"type":"grid","id":"matrix","label":"matrix","values":[["5","1","6"],["2","9","3"],["7","4","8"]],"marks":{"read":[[2,1]],"found":[[1,0]]}}]},{"say":"2 at (1,0) moves to (0,1).","panels":[{"type":"grid","id":"matrix","label":"matrix","values":[["5","1","6"],["2","9","3"],["7","4","8"]],"marks":{"read":[[1,0]],"found":[[0,1]]}}]},{"say":"Result: diagonals unchanged, off-diagonal values rotated one step clockwise.","panels":[{"type":"grid","id":"result","label":"result","values":[["5","2","6"],["4","9","1"],["7","3","8"]]}]}],"expected":"[[5, 2, 6], [4, 9, 1], [7, 3, 8]]"}
+{"v":1,"kind":"example","title":"Rotate with pinned diagonals","input":{"matrix":"[[3,6,1],[0,8,5],[2,7,4]]","turns":"1"},"steps":[{"say":"The input is a 3x3 grid and we make one clockwise turn.","panels":[{"type":"grid","id":"g","label":"Input grid","values":[["3","6","1"],["0","8","5"],["2","7","4"]]}]},{"say":"Cells on the main diagonal or anti-diagonal (3, 1, 8, 2, 4) are pinned and never move.","panels":[{"type":"grid","id":"g","label":"Input grid","values":[["3","6","1"],["0","8","5"],["2","7","4"]],"marks":{"dim":[[0,0],[0,2],[1,1],[2,0],[2,2]]}}]},{"say":"Only the four free cells 6, 5, 7 and 0 take part in the turn.","panels":[{"type":"grid","id":"g","label":"Input grid","values":[["3","6","1"],["0","8","5"],["2","7","4"]],"marks":{"read":[[0,1],[1,2],[2,1],[1,0]],"dim":[[0,0],[0,2],[1,1],[2,0],[2,2]]}}]},{"say":"The top value 6 moves to the right side, and the right value 5 moves to the bottom.","panels":[{"type":"grid","id":"g","label":"Input grid","values":[["3","6","1"],["0","8","5"],["2","7","4"]],"marks":{"read":[[0,1],[1,2]],"dim":[[0,0],[0,2],[1,1],[2,0],[2,2],[2,1],[1,0]]}}]},{"say":"The bottom value 7 moves to the left side, and the left value 0 moves to the top.","panels":[{"type":"grid","id":"g","label":"Input grid","values":[["3","6","1"],["0","8","5"],["2","7","4"]],"marks":{"read":[[2,1],[1,0]],"dim":[[0,0],[0,2],[1,1],[2,0],[2,2],[0,1],[1,2]]}}]},{"say":"The result keeps the pinned values in place and has the four free values shifted one side clockwise.","panels":[{"type":"grid","id":"g","label":"Output grid","values":[["3","0","1"],["7","8","6"],["2","5","4"]],"marks":{"found":[[0,1],[1,0],[1,2],[2,1]]}}]}],"expected":"[[3, 0, 1], [7, 8, 6], [2, 5, 4]]"}
 ```
 
 
 Example 2:
 
 ```text
-Input: matrix = [[10,20,30,40],[50,60,70,80],[90,100,110,120],[130,140,150,160]], turns = 1
+Input: matrix = [[10,11,12,13],[14,15,16,17],[18,19,20,21],[22,23,24,25]], turns = 3
 
-Output: [[10,50,90,40],[140,60,70,20],[150,100,110,30],[130,120,80,160]]
+Output: [[10,17,21,13],[12,15,16,24],[11,19,20,23],[22,14,18,25]]
 ```
 
-Explanation: For an even-sized grid, the two diagonals are disjoint, so eight diagonal values remain fixed while the other eight positions rotate.
+Explanation: With even `n = 4`, the eight diagonal values `10, 15, 20, 25, 13, 16, 19, 22` stay fixed; after three clockwise turns each free value ends up one counter-clockwise quarter-turn away, e.g. `11` goes from `(0,1)` to `(2,0)` and `17` goes from `(1,3)` to `(0,1)`.
 
 Example 3:
 
 ```text
-Input: matrix = [[3,8],[2,7]], turns = 3
+Input: matrix = [[-5]], turns = 4
 
-Output: [[3,8],[2,7]]
+Output: [[-5]]
 ```
 
-Explanation: With `n = 2`, every position lies on a diagonal, so the matrix is unchanged for any number of turns.
+Explanation: For `n = 1` the single cell lies on both diagonals, so nothing ever moves.
 
 Constraints:
 
-* $$1 \le n \le 120$$
+* `matrix` is `n x n` with $$1 \le n \le 100$$.
 * $$1 \le \text{turns} \le 4$$
-* $$-2 \times 10^9 \le \text{matrix}[r][c] \le 2 \times 10^9$$
-* The grid is square with exactly `n` rows and `n` columns.
-* Values are only relocated, never combined, so every output value is one of the original input values and fits in a signed 32-bit integer.
+* Every element is an integer in `[-1000000000, 1000000000]`.
+* Cell `(r, c)` uses zero-based indices and is pinned when `r == c` or `r + c == n - 1`.
+* Values are only moved, never combined, so every result value fits in a signed 32-bit integer.
+
+## Interview Notes
+
+* The question checks precise index mapping, correct handling of both odd and even matrix sizes, and bug-free simulation under timed assessment conditions.
+* Degenerate sizes matter: for `n = 1` the only cell is pinned, and for `n = 2` all four cells sit on a diagonal, so the matrix is returned unchanged for any `turns`.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of the rotation as a permutation of cell positions, but only the non-diagonal cells actually move.
+Only the non-diagonal cells ever move, and they move in cycles of four under a 90 degree rotation.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Reduce turns modulo 4, then for each non-fixed cell compute its destination and place values accordingly, or rotate the four off-diagonal cells of each layer in a cycle.
+Since four turns return everything to the start, reduce turns modulo 4 and then move each group of four related free cells by that many positions.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch the odd-n center cell (on both diagonals) and make sure fixed cells are never overwritten during the cycle.
+Identify each cycle by the four coordinates reached by repeated clockwise mapping, skip any cell on either diagonal, and take care with the center cell of odd-sized grids.
 
 </details>
 

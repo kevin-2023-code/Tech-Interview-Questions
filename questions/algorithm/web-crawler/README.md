@@ -71,21 +71,21 @@ The concurrent crawler must:
 <details>
 <summary>Hint 1</summary>
 
-This is a graph traversal where nodes are URLs and edges come from the parser, restricted to the start hostname.
+Treat pages as nodes in a graph and links as edges, restricting the traversal to URLs whose hostname equals the starting hostname.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use BFS with a visited set to avoid revisiting pages, and filter each discovered URL by hostname before enqueuing.
+Use BFS or DFS with a visited set, extract the hostname from each URL by parsing, and only enqueue unvisited same-host links.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for URLs with the same host but different schemes or ports, and make sure the visited set is checked before calling the parser.
+Be careful with hostname parsing (the part after the scheme and before the next slash, ignoring any port or path), and each page should be fetched at most once to avoid cycles.
 
 </details>
 

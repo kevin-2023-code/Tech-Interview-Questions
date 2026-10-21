@@ -12,117 +12,115 @@
 
 ## Problem
 
-## Deferred Evaluation with a Function Pipeline
+Build a `LazyArray` class that lets callers stack functional transformations such as `map` on top of an array of integers, while postponing the actual work until a terminal operation such as `indexOf` is invoked. This is the deferred-evaluation pattern found in functional programming libraries and data processing frameworks.
 
-The central idea is to separate the definition of a transformation from its application. `map` should not inspect or reshape the array; instead, it records a function in an internal queue. The real work happens only when `indexOf` is called. At that point, each original value is passed through every queued function in order, and the scan stops as soon as the target value appears.
+During the interview, the interviewer focused on three things: **immutability**, being able to **prove that evaluation is truly lazy**, and a solid grasp of **functional programming ideas**.
 
-Each `map` call creates a fresh `LazyArray` instance. The new object shares the same read-only original array but owns a copied pipeline with the new function appended. This keeps earlier instances unaffected while allowing later queries to see the full chain. Sharing the original array is safe because no method ever mutates it.
+### Required Operations
 
-For Example 2, consider `arr = [10, 20, 30, 40, 50]` with `map(n -> n * 2)` followed by `map(n -> n * 3)`. When `indexOf(240)` runs, index 0 becomes $$10 \to 20 \to 60$$, index 1 becomes $$20 \to 40 \to 120$$, index 2 becomes $$30 \to 60 \to 180$$, and index 3 becomes $$40 \to 80 \to 240$$, so the answer is `3`.
+Your `LazyArray` class must expose these methods:
 
-```java
-import java.util.ArrayList;
-import java.util.List;
-import java.util.function.Function;
+* `LazyArray(array)`: the constructor; it receives an array/list of integers that serves as the underlying data.
+* `map(function)`: registers a transformation and **hands back a brand-new LazyArray** (the original is never mutated).
+  + The supplied function must NOT run at this point.
+  + Every invocation produces a fresh LazyArray that carries all transformations accumulated so far.
+* `indexOf(target)`: locates the first position whose transformed value is equal to `target`.
+  + **Only now are the accumulated functions actually executed.**
+  + The registered map functions are applied to each element in the order they were added.
+  + The method returns the index of the earliest match, or -1 when no element matches.
 
-class LazyArray {
-    private final int[] original;
-    private final List<Function<Integer, Integer>> pipeline;
+**Critical Constraint**: every `map()` call has to return a **new LazyArray object**. Several chains that branch off the same base array must stay **completely independent** of one another.
 
-    public LazyArray(int[] arr) {
-        this.original = arr.clone(); // protect against external array changes
-        this.pipeline = new ArrayList<>();
-    }
+### Examples
 
-    private LazyArray(int[] original, List<Function<Integer, Integer>> pipeline) {
-        this.original = original;
-        this.pipeline = pipeline;
-    }
+```
+# Example 1: Single transformation
+arr = LazyArray([10, 20, 30, 40, 50])
+result = arr.map(lambda x: x * 2).indexOf(40)
+# result = 1
+# Explanation: base[1] = 20, 20 * 2 = 40
 
-    public LazyArray map(Function<Integer, Integer> fn) {
-        List<Function<Integer, Integer>> extended = new ArrayList<>(pipeline);
-        extended.add(fn);
-        return new LazyArray(original, extended);
-    }
+# Example 2: Chained transformations
+arr = LazyArray([10, 20, 30, 40, 50])
+result = arr.map(lambda x: x * 2).map(lambda x: x * 3).indexOf(240)
+# result = 3
+# Explanation: base[3] = 40, 40 * 2 = 80, 80 * 3 = 240
 
-    public int indexOf(int target) {
-        for (int i = 0; i < original.length; i++) {
-            int transformed = original[i];
+# Example 3: Independent chains (critical for immutability)
+arr = LazyArray([10, 20, 30, 40, 50])
+chain1 = arr.map(lambda x: x * 2)
+chain2 = arr.map(lambda x: x + 5)
 
-            // Apply every queued function in insertion order.
-            for (Function<Integer, Integer> fn : pipeline) {
-                transformed = fn.apply(transformed);
-            }
+chain1.indexOf(40) # Returns 1 (20 * 2 = 40)
+chain2.indexOf(15) # Returns 0 (10 + 5 = 15)
+# chain1 and chain2 are independent!
 
-            if (transformed == target) {
-                return i;
-            }
-        }
+# Example 4: No match
+arr = LazyArray([10, 20, 30])
+result = arr.map(lambda x: x * 2).indexOf(100)
+# result = -1
 
-        return -1;
-    }
-}
+# Example 5: Multiple maps from same intermediate chain
+arr = LazyArray([1, 2, 3, 4, 5])
+doubled = arr.map(lambda x: x * 2)
+chain1 = doubled.map(lambda x: x + 10)
+chain2 = doubled.map(lambda x: x + 20)
+
+chain1.indexOf(14) # Returns 1 (base[1]=2, 2 * 2 + 10 = 14)
+chain2.indexOf(24) # Returns 1 (base[1]=2, 2 * 2 + 20 = 24)
+# Each chain is independent
 ```
 
-```python
-from typing import Callable, List, Tuple
+### Constraints
 
-class LazyArray:
-    def __init__(self, arr: List[int]) -> None:
-        self._original = arr[:]  # clone the input array
-        self._pipeline: Tuple[Callable[[int], int], ...] = ()
+* Array length: $$1 \le arr.length \le 10^4$$
+* Element values: $$-10^9 \le arr[i] \le 10^9$$
+* Number of map operations: $$1 \le \text{map calls} \le 100$$
+* The functions are pure (side effects are not expected, but your tests should check for them)
+* **Laziness is critical**: no function may be invoked before `indexOf()` is called
+* **Immutability is critical**: each `map()` yields a new object and leaves existing ones untouched
 
-    @classmethod
-    def _from_parts(
-        cls,
-        original: List[int],
-        pipeline: Tuple[Callable[[int], int], ...]
-    ) -> "LazyArray":
-        # Bypass __init__ so the original array is shared, not cloned again.
-        instance = cls.__new__(cls)
-        instance._original = original
-        instance._pipeline = pipeline
-        return instance
+### Edge Cases to Consider
 
-    def map(self, fn: Callable[[int], int]) -> "LazyArray":
-        return LazyArray._from_parts(self._original, self._pipeline + (fn,))
+1. **Empty array**: `LazyArray([]).map(lambda x: x * 2).indexOf(5)` → `-1`
+2. **No operations**: `LazyArray([1, 2, 3]).indexOf(2)` → `1` (must still work with zero maps)
+3. **Target absent**: `LazyArray([1, 2, 3]).map(lambda x: x * 2).indexOf(100)` → `-1`
+4. **Several matches**: the **first** matching index is returned
+5. **Identity function**: `LazyArray([5, 10, 15]).map(lambda x: x).indexOf(10)` → `1`
+6. **Repeated identical maps**: `arr.map(f).map(f)` must apply `f` two times
+7. **A function raises an exception**: the error should surface during `indexOf()`
+8. **Very long chains**: 100+ map operations (check performance)
+9. **Negative numbers**: `LazyArray([-5, -10]).map(lambda x: abs(x)).indexOf(10)` → `1`
+10. **Zero target**: `LazyArray([1, 0, 2]).indexOf(0)` → `1`
 
-    def indexOf(self, target: int) -> int:
-        for i, value in enumerate(self._original):
-            for fn in self._pipeline:
-                value = fn(value)
+### Follow-ups
 
-            if value == target:
-                return i
-
-        return -1
-```
-
-### Time & Space Complexity
-
-* Time complexity: O(N × K) — every original element is run through each queued function at most once before the first match is found.
-* Space complexity: O(N + K) — the cloned original array uses O(N) space, and the stored pipeline uses O(K) space.
+1. **Proving laziness with call counting**: How would you design tests that confirm the functions are NOT invoked inside `map()` and are invoked only once `indexOf()` runs?
+2. **Caching for repeated lookups**: Suppose `indexOf()` is called many times on one LazyArray, each time with a different target. How would you avoid redoing the transformations? Discuss the trade-offs and when the optimization is worthwhile.
+3. **Short-circuiting**: Can `indexOf()` be made to stop doing work as soon as a match is found? How would you test that it does?
+4. **More operations**: How would you extend the design to support additional operations such as `filter()`, `reduce()` or `toArray()`? Which operations are intermediate and which are terminal, and what should `indexOf()` return once filters are part of the chain?
+5. **Thread safety**: How would you make LazyArray safe when several threads call `indexOf()` concurrently? Does your answer change if the caching from Follow-up 2 is added?
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of the LazyArray as a wrapper that stores the original array and a list of transformations to apply, rather than applying them immediately.
+Laziness means a transformation call only records what to do, no function should run until a terminal operation like indexOf asks for a value.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a chain of function objects or a list of operations that are executed only when a terminal method like toArray or indexOf is called.
+Make the class immutable by having each map return a new LazyArray that holds the source and a list or chain of composed functions, leaving the original unchanged.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Consider how to handle multiple terminal calls and whether to cache the result or recompute each time.
+Evaluate element by element in indexOf so it can stop at the first match, which also lets you demonstrate laziness by counting how many times each function runs.
 
 </details>
 

@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Robinhood** | [Employee Referral Program](https://trueinterview.io/questions/referral-program-leaderboard) | Medium | Apr 28, 2026 |
 | **Meta** | [Find Three Cards Summing to 15](https://trueinterview.io/questions/solve-two-backtracking-array-problems-find-three-cards-summing-to-15) | Medium | Apr 27, 2026 |
 | **Square** | [Build a Trust-Aware BIN Database](https://trueinterview.io/questions/build-a-trust-aware-bin-database) | Hard | Apr 27, 2026 |
 | **Waymo** | [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens) | Hard | Apr 27, 2026 |
@@ -259,6 +260,5 @@
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
 | **Palantir** | [Find Shortest Paths in Road Network](https://trueinterview.io/questions/find-shortest-paths-in-road-network) | Medium | Mar 08, 2026 |
 | **Uber** | [Zero Array Transformation](https://trueinterview.io/questions/zero-array-transformation) | Hard | Mar 08, 2026 |
-| **Ebay** | [Find top co-viewed products](https://trueinterview.io/questions/find-top-co-viewed-products) | Medium | Mar 07, 2026 |
 
 <sub>[← Page 2](algorithm-2.md) · Page 3 of 10 · [Page 4 →](algorithm-4.md)</sub>

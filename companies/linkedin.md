@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **137** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 24 |
+| Reported in the last 90 days | 23 |
 | Most common format | [Algorithm](../formats/algorithm.md) (42% of 137) |
 | Difficulty (easy / medium / hard) | 12 / 82 / 24 |
 | Free to practise | [31](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **137 of 137** questions at LinkedI
 
 ## Asked here in the last 90 days
 
-**24 sightings** in this window. Newest first.
+**23 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **137 of 137** questions at LinkedI
 | [Explain the Design of a Recent Feature](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature) | Blog | — | Onsite / virtual onsite | Aug 31, 2026 |
 | [Scale a NoSQL Key–Value Store to One Million QPS](https://trueinterview.io/questions/scale-a-nosql-key-value-store-to-one-million-qps) | System Design | Hard | Onsite / virtual onsite | Aug 31, 2026 |
 
-<sub>12 more in this window are in the table below.</sub>
+<sub>11 more in this window are in the table below.</sub>
 
 ## What they ask about
 

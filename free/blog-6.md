@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,403 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Quantify improvement and compute required sample size](https://trueinterview.io/questions/quantify-improvement-and-compute-required-sample-size) | **Amazon** | — | — |
 | [Quantify launch decision with tests and guardrails](https://trueinterview.io/questions/quantify-launch-decision-with-tests-and-guardrails) | **Meta** | — | — |
 | [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/questions/rag-agent-kafka-oral-drill) | **ByteDance** | — | Jun 03, 2026 |
 | [Rank factors for TikTok market entry](https://trueinterview.io/questions/rank-factors-for-tiktok-market-entry) | **ByteDance** | — | — |
@@ -43,14 +42,14 @@
 | [Resolve Conflict Within a Team](https://trueinterview.io/questions/resolve-conflict-within-a-team) | **Oracle** | — | Aug 21, 2026 |
 | [Resolve conflicts and prioritize with stakeholders](https://trueinterview.io/questions/resolve-conflicts-and-prioritize-with-stakeholders) | **Stripe** | — | — |
 | [Resolve cross-team conflict and align incentives](https://trueinterview.io/questions/resolve-cross-team-conflict-and-align-incentives) | **Meta** | — | — |
-| [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | **DoorDash** | — | 🆕 Sep 05, 2026 |
+| [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | **DoorDash** | — | Sep 05, 2026 |
 | [Resolve exclusion, learn fast, and manage conflict](https://trueinterview.io/questions/resolve-exclusion-learn-fast-and-manage-conflict) | **Meta** | — | — |
 | [Resolve Product Disagreement and Balance Technical Debt](https://trueinterview.io/questions/resolve-product-disagreement-and-balance-technical-debt) | **Google** | — | Aug 29, 2026 |
 | [Resolve Team Disagreement During a Cross-Functional Performance Fix](https://trueinterview.io/questions/resolve-team-disagreement-during-a-cross-functional-performance-fix) | **Google** | — | Jan 06, 2026 |
 | [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | **Microsoft** | — | 🆕 Sep 10, 2026 |
 | [Respond Constructively to Negative Feedback](https://trueinterview.io/questions/respond-constructively-to-negative-feedback) | **Amazon** | — | Mar 12, 2026 |
 | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | **Anthropic** | — | 🆕 Sep 12, 2026 |
-| [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | **Amazon** | — | 🆕 Sep 05, 2026 |
+| [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | **Amazon** | — | Sep 05, 2026 |
 | [Respond to long-term concerns after A/B success](https://trueinterview.io/questions/respond-to-long-term-concerns-after-a-b-success) | **Google** | — | Jan 06, 2026 |
 | [Respond to Negative Feedback About Your Work](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) | **Instacart** | — | Aug 28, 2026 |
 | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | **Oracle** | — | 🆕 Sep 19, 2026 |
@@ -97,7 +96,7 @@
 | [Solve the 12-coin balance puzzle](https://trueinterview.io/questions/solve-the-12-coin-balance-puzzle) | **Coinbase** | — | — |
 | [Solve Three Probability Models](https://trueinterview.io/questions/solve-three-probability-models) | **Point72** | — | Dec 14, 2025 |
 | [Spring Boot Verbal Quiz](https://trueinterview.io/questions/spring-boot-verbal-quiz) | **Walmart Labs** | — | Dec 31, 2025 |
-| [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | **ByteDance** | — | 🆕 Sep 05, 2026 |
+| [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | **ByteDance** | — | Sep 05, 2026 |
 | [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/questions/sre-linux-networking-troubleshoot) | **ByteDance** | — | May 25, 2026 |
 | [Step Outside Your Professional Comfort Zone](https://trueinterview.io/questions/step-outside-your-professional-comfort-zone) | **Amazon** | — | Mar 12, 2026 |
 | [Summarize impact and lessons from your resume](https://trueinterview.io/questions/summarize-impact-and-lessons-from-your-resume) | **Boston Consulting Group** | — | — |
@@ -121,7 +120,7 @@
 | [Test whether two user populations differ](https://trueinterview.io/questions/test-whether-two-user-populations-differ) | **Amazon** | — | Dec 15, 2025 |
 | [Time Complexity Analysis](https://trueinterview.io/questions/3ff04932-615f-483c-a528-757dfbfc638a) | **Rippling** | — | — |
 | [Trace first pass of heap sort](https://trueinterview.io/questions/trace-first-pass-of-heap-sort) | **Bitkernel** | — | Oct 24, 2025 |
-| [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | **ByteDance** | — | 🆕 Sep 05, 2026 |
+| [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | **ByteDance** | — | Sep 05, 2026 |
 | [Trade Short-Term Benefit for Long-Term Success](https://trueinterview.io/questions/trade-short-term-benefit-for-long-term-success) | **Amazon** | — | Mar 12, 2026 |
 | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) | **Akuna Capital** | — | Nov 20, 2025 |
 | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game) | **Optiver** | — | Mar 21, 2026 |

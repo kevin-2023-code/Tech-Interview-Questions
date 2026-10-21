@@ -12,356 +12,225 @@
 
 ## Problem
 
-## Infection Spread Simulation
+This is a progressive, multi-part interview problem with **5 levels**, each one extending the previous level with extra rules or a new objective. All five levels share a single **60-minute** time budget.
 
-> **Note:** This is a five-stage progressive interview exercise. Each stage increases the complexity and extends the preceding rules. You have **60 minutes** for all five stages.
+You receive a grid of $$n \times m$$ cells modeling a population. Every cell holds one person, who starts out either **healthy** (`0`) or **infected** (`1`). Two cells are neighbors only when they touch horizontally or vertically (up, down, left, right); diagonal cells are not neighbors. The disease follows one rule throughout: **a healthy person catches the infection when `N` or more of their neighbors are infected.** Unless the interviewer specifies otherwise, take $$1 \le N \le 4$$; if `N` were larger than 4, no healthy cell could ever be infected, since a cell has at most four neighbors.
 
-### Problem Overview
+The threshold `N` belongs to the core problem from the very first level. The neighbor count that matters is the one at the start of the current time step: a healthy cell flips only if at least `N` of its four neighbors were already infected when that step began. The behavior resembles LeetCode 289 (Game of Life), except that the focus is on how an infection spreads rather than on birth/death rules. Later levels keep this spreading rule but alter the possible state transitions or the quantity being optimized.
 
-You receive an $$n \times m$$ grid describing a population. A cell contains `0` when its person is healthy and `1` when that person is infected.
+## Level 1: Threshold-Based Infection Spread
 
-The infection follows this rule:
+Given `grid` and the threshold `N`, simulate the spread and return how many time steps pass until every cell is infected. Return `-1` if the grid will never become fully infected.
 
-* A healthy cell changes to infected when at least `N` of its neighbors are infected.
-
-Only the four orthogonally adjacent cells—above, below, left, and right—are neighbors; diagonal cells are excluded.
-
-Unless the interviewer specifies another range, assume `1 <= N <= 4`. With four-directional adjacency, a value of `N > 4` means that no healthy cell can become infected.
-
-For the initial stage, determine the number of time steps required for every cell to become infected. Return `-1` when complete infection cannot occur. The later stages retain the threshold rule while modifying the state transitions or the objective.
-
-This is related in spirit to cellular grid simulations such as Game of Life, but the states here model infection dynamics rather than birth and death.
-
-In this version, `N` is part of the problem from the beginning. A healthy cell is eligible to become infected only when the beginning-of-step snapshot contains at least `N` infected orthogonal neighbors.
-
-### Level 1: Threshold-Based Infection Spread
-
-#### Problem Statement
-
-Given an $$n \times m$$ grid and a threshold `N`, simulate the spread and return the number of steps needed to infect the entire grid.
-
-Every cell is evaluated against the state from the start of the step. Consequently, all changes for one step occur simultaneously.
-
-#### Function Signature
+All infections within a step happen **simultaneously**: every cell's fate for the step is decided from the grid as it stood at the end of the previous step, never from cells that are being flipped in the step currently being computed.
 
 ```
 def time_to_full_infection(grid: list[list[int]], N: int) -> int:
     """
-    Args:
-        grid: An n×m grid where 0 = healthy and 1 = infected
-        N: Minimum number of infected neighbors required for a healthy cell to become infected
-
-    Returns:
-        The number of time steps until all cells are infected,
-        or -1 if not all cells will be infected.
+    grid: n x m grid, 0 = healthy, 1 = infected
+    N: minimum number of infected neighbors needed for a healthy cell to become infected
+    returns: number of time steps until all cells are infected, or -1 if that never happens
     """
-    pass
 ```
 
-#### Examples
+Example 1:
 
-**Example 1:**
-
-```
-Input:
-grid = [
-    [0, 0, 0],
-    [0, 1, 0],
-    [0, 0, 0]
-]
-N = 1
+```text
+Input: grid = [[0,0,0],[0,1,0],[0,0,0]], N = 1
 
 Output: 2
-
 ```
 
-Explanation:
-- Initial state: Only center cell is infected
-- After step 1: Center's 4 neighbors become infected
-  [0, 1, 0]
-  [1, 1, 1]
-  [0, 1, 0]
-- After step 2: Remaining corners become infected
-  [1, 1, 1]
-  [1, 1, 1]
-  [1, 1, 1]
-
+Explanation: At first only the middle cell is infected. After step 1 its four neighbors are infected, giving `[[0,1,0],[1,1,1],[0,1,0]]`; after step 2 the four corners follow, and the whole grid is `[[1,1,1],[1,1,1],[1,1,1]]`.
 
 ```trueviz
-{"v":1,"kind":"example","title":"Threshold Infection Spread","input":{"grid":"[[0, 0, 0], [0, 1, 0], [0, 0, 0]]","N":"1"},"steps":[{"say":"Start: a 3×3 grid with a single infected cell (1) at the center. All other cells are healthy (0).","panels":[{"type":"array","id":"grid","label":"Initial population","values":["[0, 0, 0]","[0, 1, 0]","[0, 0, 0]"],"marks":{"found":[]}}]},{"say":"With threshold N=1, any healthy cell that has at least 1 infected neighbor can catch the infection.","panels":[{"type":"array","id":"grid","label":"The center cell is the only source","values":["[0, 0, 0]","[0, 1, 0]","[0, 0, 0]"],"marks":{"found":[]}}]},{"say":"After step 1: All 4 orthogonal neighbors of the center now have at least 1 infected neighbor, so they all become infected simultaneously.","panels":[{"type":"array","id":"grid","label":"After step 1","values":["[0, 1, 0]","[1, 1, 1]","[0, 1, 0]"],"marks":{"found":[]}}]},{"say":"The 4 corners are still healthy (0). They each now have exactly 1 infected neighbor from the step-1 snapshot.","panels":[{"type":"array","id":"grid","label":"Still healthy corners","values":["[0, 1, 0]","[1, 1, 1]","[0, 1, 0]"],"marks":{"read":[]}}]},{"say":"With N=1, each corner cell's single infected neighbor is enough to trigger infection in the next step.","panels":[{"type":"array","id":"grid","label":"Corners become infected","values":["[0, 1, 0]","[1, 1, 1]","[0, 1, 0]"],"marks":{"read":[],"found":[]}}]},{"say":"After step 2: All corner cells become infected. The entire grid is now infected.","panels":[{"type":"array","id":"grid","label":"After step 2 - complete infection","values":["[1, 1, 1]","[1, 1, 1]","[1, 1, 1]"],"marks":{"found":[]}}]},{"say":"It took 2 time steps to infect every cell. The output is 2.","panels":[{"type":"array","id":"grid","label":"Final state","values":["[1, 1, 1]","[1, 1, 1]","[1, 1, 1]"]}]}],"expected":"2"}
+{"v":1,"kind":"example","title":"Infection spread with N = 1","input":{"grid":"[[0,0,0],[0,1,0],[0,0,0]]","N":"1"},"steps":[{"say":"Start: only the middle cell is infected (1). A healthy cell (0) gets infected when at least N = 1 of its 4 neighbors is infected.","panels":[{"type":"grid","id":"g","label":"Start (step 0)","values":[["0","0","0"],["0","1","0"],["0","0","0"]],"marks":{"found":[[1,1]]}}]},{"say":"The four cells touching the middle cell each have one infected neighbor, so they are the ones to catch it.","panels":[{"type":"grid","id":"g","label":"Start (step 0)","values":[["0","0","0"],["0","1","0"],["0","0","0"]],"marks":{"read":[[0,1],[1,0],[1,2],[2,1]],"found":[[1,1]]}}]},{"say":"After step 1 the middle and its four neighbors are infected.","panels":[{"type":"grid","id":"g","label":"After step 1","values":[["0","1","0"],["1","1","1"],["0","1","0"]],"marks":{"found":[[0,1],[1,0],[1,1],[1,2],[2,1]]}}]},{"say":"The corners only touch diagonally to the middle, but each corner now has an infected neighbor on its side.","panels":[{"type":"grid","id":"g","label":"After step 1","values":[["0","1","0"],["1","1","1"],["0","1","0"]],"marks":{"read":[[0,0],[0,2],[2,0],[2,2]],"found":[[0,1],[1,0],[1,1],[1,2],[2,1]]}}]},{"say":"After step 2 the four corners are infected too, so every cell is infected.","panels":[{"type":"grid","id":"g","label":"After step 2","values":[["1","1","1"],["1","1","1"],["1","1","1"]],"marks":{"found":[[0,0],[0,1],[0,2],[1,0],[1,1],[1,2],[2,0],[2,1],[2,2]]}}]},{"say":"It took 2 steps for the whole grid to become infected, so the output is 2.","panels":[{"type":"grid","id":"g","label":"All infected after 2 steps","values":[["1","1","1"],["1","1","1"],["1","1","1"]],"marks":{"found":[[0,0],[0,1],[0,2],[1,0],[1,1],[1,2],[2,0],[2,1],[2,2]]}}]}],"expected":"2"}
 ```
 
 
+Example 2:
 
-The center first infects its orthogonal neighbors, and those newly infected cells reach the corners on the following step.
-
-**Example 2:**
-
-```
-Input:
-grid = [
-    [1, 1],
-    [1, 0]
-]
-N = 2
+```text
+Input: grid = [[1,1],[1,0]], N = 2
 
 Output: 1
-
 ```
 
-Explanation:
-- Initial: Only the bottom-right cell is healthy
-- After step 1: It has 2 infected neighbors, so it becomes infected
-  [1, 1]
-  [1, 1]
+Explanation: The lone healthy cell in the bottom-right corner has 2 infected neighbors, so it is infected in step 1, producing `[[1,1],[1,1]]`.
 
+Example 3:
 
-The only healthy cell has two infected orthogonal neighbors at the initial snapshot, so it changes on step one.
-
-**Example 3:**
-
-```
-Input:
-grid = [
-    [1, 0, 0],
-    [0, 0, 0],
-    [0, 0, 1]
-]
-N = 1
+```text
+Input: grid = [[1,0,0],[0,0,0],[0,0,1]], N = 1
 
 Output: 2
-
 ```
 
-Explanation:
-- With N = 1, the infection spreads in waves from both corners
-- After step 2, all cells are infected
+Explanation: With `N = 1` the infection moves outward in waves from both infected corners, and every cell is infected once step 2 completes.
 
+Example 4:
 
-The two initial infection sources expand simultaneously, covering the grid after two waves.
-
-**Example 4:**
-
-```
-Input:
-grid = [
-    [0, 0, 0],
-    [0, 0, 0],
-    [0, 0, 0]
-]
-N = 1
+```text
+Input: grid = [[0,0,0],[0,0,0],[0,0,0]], N = 1
 
 Output: -1
-
 ```
 
-Explanation:
-- No initially infected cells, so infection cannot spread.
+Explanation: Nobody is infected at the start, so the infection has no source and can never spread.
 
+Example 5:
 
-Without an initial infected cell, no healthy cell can satisfy the threshold.
-
-**Example 5:**
-
-```
-Input:
-grid = [
-    [1, 1, 1],
-    [1, 1, 1],
-    [1, 1, 1]
-]
-N = 2
+```text
+Input: grid = [[1,1,1],[1,1,1],[1,1,1]], N = 2
 
 Output: 0
-
 ```
 
-Explanation:
-- All cells are already infected.
+Explanation: Every cell is infected already, so no steps are required.
 
+Constraints:
 
-No simulation step is needed when the grid begins fully infected.
+* The grid has $$n \times m$$ cells; in Level 1 every value is `0` (healthy) or `1` (infected).
+* Neighbors are the 4 orthogonally adjacent cells only; diagonals do not count.
+* $$1 \le N \le 4$$ unless the interviewer says otherwise.
+* Updates within a time step are simultaneous and are based on the state at the beginning of that step.
 
-### Level 2: Immune Cells
+## Level 2: Immune Cells
 
-#### Problem Statement
+Extend Level 1, keeping the same threshold rule with `N`. Some cells are now **immune** (for example, vaccinated or naturally resistant) and are encoded as `2` in the grid. An immune cell:
 
-Extend Level 1 by allowing certain cells to be immune, represented by `2`. Such cells are permanently resistant: they cannot become infected and they do not transmit infection.
+* can never be infected and stays immune forever;
+* never spreads the infection, so it acts as an obstacle in the grid;
+* does not count as an infected neighbor when evaluating a healthy cell.
 
-How does this change your solution?
+How does this change your approach? Points to account for:
 
-#### Key Considerations
+1. Only cells holding `1` count as infected neighbors; immune cells never change state.
+2. Some healthy cells may stay healthy indefinitely because they never accumulate `N` infected neighbors.
+3. Edge cases: if every non-immune cell is already infected, return `0`; if healthy cells are completely walled off by immune cells, return `-1`.
 
-1. Immune cells neither contribute to the infected-neighbor count nor change state.
-2. Some healthy cells may never meet the threshold because of the blockers.
-3. Important cases include:
-   * Every non-immune cell is already infected, which returns `0`.
-   * A healthy cell enclosed by immune cells may remain healthy forever, which returns `-1`.
+The Level 2 function is `time_to_full_infection_with_immunity(grid, N)`, with grid values `0` = healthy, `1` = infected, `2` = immune (cannot be infected, does not spread). It returns the number of steps until all non-immune cells are infected, or `-1`.
 
-#### Function Signature
+## Level 3: Recovery Into Immunity
 
-```
-def time_to_full_infection_with_immunity(grid: List[List[int]], N: int) -> int:
-    """
-    Grid values:
-    - 0: Healthy
-    - 1: Infected
-    - 2: Immune (cannot be infected, does not spread)
-    """
-```
+Now an infected cell becomes **immune** after it has been infected for **D days**. Once immune:
 
-#### Examples
+* it no longer spreads the infection;
+* it can never be infected again.
 
-**Example 1:**
+Cells that begin as immune (`2`, from Level 2) stay immune permanently and still block the spread. Assume $$D \ge 1$$.
 
-```
-Input:
-grid = [
-    [1, 0],
-    [0, 0]
-]
-N = 1
+The threshold rule still holds: a healthy cell is infected only if, in the snapshot taken at the start of the day, at least `N` of its neighbors are actively infected.
 
-Output: 2
-```
+Eventually the grid settles into a **stable state** in which no active infections remain — every cell is either healthy or immune. **How many days does it take to reach that stable state?**
 
-The infection reaches one adjacent healthy cell on step one and the final cell on step two.
+Things to keep in mind:
 
-**Example 2:**
+1. Each cell is healthy, infected (with an infection age), or immune.
+2. Transitions over time: healthy → infected when at least `N` neighbors are infected; infected with age $$\ge D$$ → immune.
+3. The process ends when there are no active infections left.
+4. The infection still advances in threshold-based waves, but those waves can die out as cells turn immune.
+5. The daily update is simultaneous: a cell that reaches age `D` still spreads the infection on that day, and the switch to immune takes effect at the end of the day.
 
-```
-Input:
-grid = [
-    [2, 2, 2],
-    [2, 0, 2],
-    [2, 2, 1]
-]
-N = 1
+The Level 3 function is `time_to_stable_state(grid, N, D)`. Grid values: `0` = healthy, `1` = infected at the start (day 0), `2` = immune from the start. It returns the number of days until the stable state (no active infections).
 
-Output: -1
-```
+## Level 4: Death Parameter
 
-The healthy center has no infected orthogonal neighbor because all of its adjacent cells are immune.
+Extend Level 3 with a **death** rule controlled by an extra parameter `K`, the death threshold. When an infected cell has been infected for `D` days and is about to transition:
 
-### Level 3: Infection Recovery to Immunity
+* if it has **at least `K` infected neighbors** at that moment, it **dies**;
+* otherwise it becomes **immune**.
 
-#### Problem Statement
+Dead cells:
 
-After remaining infected for **D days**, a cell becomes immune. An immune cell cannot transmit infection and cannot be infected again. Cells that were initially immune (`2`) remain permanently immune and continue to act as blockers.
+* never spread the infection — they are removed from the simulation for good;
+* can never be infected again — they behave as empty, dead space in the grid;
+* are a separate state from immune cells.
 
-Assume `D >= 1`.
+Cells that start as immune (`2`) remain immune permanently and keep blocking the spread. Dead cells also act as **barriers** to the spread, just like immune cells.
 
-The prior threshold rule remains in force: a healthy cell changes state only when the start-of-day snapshot contains at least `N` active infected neighbors.
+The spread threshold `N` is applied before the day's death or immunity transitions are committed. Only cells that are currently actively infected count toward either threshold, `N` or `K`. Daily updates are **simultaneous**: both spread decisions and transition decisions use the active-infection state from the start of the day, and the transitions are applied at the end of the day. Assume $$1 \le K \le 4$$ unless the interviewer says otherwise.
 
-Eventually, the grid reaches a stable condition in which every cell is either healthy or immune and no active infection remains.
+Order of operations for each day:
 
-**Question:** How many days pass before this stable condition is reached?
+* Snapshot every actively infected cell at the start of the day.
+* Find the snapshot cells that transition today (infected for at least `D` days).
+* For each transitioning cell, count its infected neighbors in that same snapshot.
+* Scan the healthy cells and infect each one with at least `N` infected neighbors in the snapshot.
+* Apply the death/immunity transitions at the end of the day.
 
-#### Key Considerations
+Because every decision is made from the snapshot, a transition that happens on a given day cannot influence any other transition decided on that same day (no same-day cascades). The fate of a transitioning cell depends on its neighborhood at the moment it transitions.
 
-1. Track healthy cells, infected cells together with their infection ages, and immune cells.
-2. The possible transitions are:
-   * Healthy → Infected when at least `N` neighbors are infected.
-   * Infected (age ≥ `D`) → Immune.
-3. Stop once there are no active infected cells, regardless of whether some cells remain healthy.
-4. Threshold waves can stop when infected cells recover into immunity.
-5. Daily changes are simultaneous. A cell reaching age `D` still counts as infected during that day, and it becomes immune at the day's end.
+**Return a tuple `(days_to_stable_state, number_of_dead_cells)`**: the number of days until the grid is stable (no active infections) and the total number of cells that died.
 
-#### Function Signature
+The Level 4 function is `time_to_stable_with_death(grid, N, D, K)`, with grid values `0` = healthy, `1` = infected on day 0, `2` = immune from the start.
 
-```
-def time_to_stable_state(grid: List[List[int]], N: int, D: int) -> int:
-    """
-    Grid values:
-    - 0: Healthy
-    - 1: Initially infected (day 0)
-    - 2: Initially immune (cannot be infected, does not spread)
+## Level 5: Optimal Row/Column Burn (Firebreak)
 
-    N: Minimum number of infected neighbors required for a healthy cell to become infected
-    D: Days until infected becomes immune
+Extend Level 4. Before the infection starts spreading, a farmer may **burn one entire row or one entire column** of plants. Burning destroys every plant in that row or column, and burned cells behave like dead cells: they cannot be infected and do not spread the infection.
 
-    Returns: Days until stable state (no active infections)
-    """
-```
+The farmer wants to pick the **single row or column whose burning minimizes the number of cells that die from the infection**. Burned cells themselves are not counted as deaths. The simulation after the burn uses the same `N`, `D` and `K`.
 
-#### Examples
+**Return the optimal row or column to burn together with the resulting death count.** When several burns tie for the minimum death count, any one of them is accepted.
 
-**Example 1:**
+The Level 5 function is `optimal_burn(grid, N, D, K)`, returning `(burn_type, burn_index, min_deaths)`, where `burn_type` is `'row'` or `'col'`, `burn_index` is the 0-indexed row or column to burn, and `min_deaths` is the smallest number of infection deaths achievable after the burn. Grid values: `0` = healthy, `1` = infected, `2` = immune blocker.
 
-```
-Input:
-grid = [
-    [1, 0]
-]
-N = 1
-D = 1
+Things to consider: a burn can act as a barrier that splits the grid and may isolate infection sources; burning destroys healthy plants but can save more by stopping the spread; when all infected cells lie in one region a well-placed burn can isolate the infection completely; and burning a row versus a column can produce very different outcomes depending on the grid's shape.
 
-Output: 2
-```
+## Test Cases
 
-The initial cell infects its neighbor on day one and becomes immune at that day's end; the newly infected neighbor becomes immune at the end of day two.
+Level 1 (`time_to_full_infection`):
 
-**Example 2:**
+* `[[0,0,0],[0,1,0],[0,0,0]]`, `N = 1` → `2` (infection starting in the center)
+* `[[1,1],[1,0]]`, `N = 2` → `1` (a threshold of 2 still infects when enough neighbors are infected)
+* `[[1,0,0],[0,0,0],[0,0,1]]`, `N = 2` → `-1` (a threshold of 2 can stall even though infected cells exist)
+* `[[0,0],[0,0]]`, `N = 1` → `-1` (no infection source)
+* `[[1,1],[1,1]]`, `N = 2` → `0` (already fully infected)
+* `[[1]]`, `N = 1` → `0`; `[[0]]`, `N = 1` → `-1` (single cell)
+* `[[1,0,0,0,0]]`, `N = 1` → `4` (linear spread)
+* a 5×5 grid of zeros with a single `1` at row 2, column 2, `N = 1` → `4`
 
-```
-Input:
-grid = [
-    [1, 0]
-]
-N = 2
-D = 1
+Level 2 (`time_to_full_infection_with_immunity`):
 
-Output: 1
-```
+* `[[1,2,0],[0,2,0],[0,2,0]]`, `N = 1` → `-1` (a full vertical wall of immune cells makes the right column unreachable)
+* `[[1,0,0],[2,2,0],[0,0,0]]`, `N = 1` → `6` (the infection goes right along the top row, down the right side, then left along the bottom row)
 
-The healthy cell never reaches the threshold, while the initial infection recovers after one day.
+Level 3 (`time_to_stable_state`):
 
-### Level 4: Death Parameter
+* `[[1,0,0],[2,2,0],[0,0,0]]`, `N = 1`, `D = 2` → `8` (the immune wall from Level 2 is respected)
 
-#### Problem Statement
+Level 4 (`time_to_stable_with_death`):
 
-Continue from Level 3 and add death. When an infected cell has been infected for `D` days, it dies instead of becoming immune if it has at least `K` infected neighbors at the moment of transition.
+* `[[0,1,0],[0,0,0],[0,0,0]]`, `N = 1`, `D = 2`, `K = 4` → death count `0` (cells rarely have 4 infected neighbors)
+* `[[1,1],[1,1]]`, `N = 1`, `D = 1`, `K = 2` → death count greater than `0` (cells have several infected neighbors)
+* `[[1,0]]`, `N = 1`, `D = 1`, `K = 4` → `(2, 0)` (a cell that is transitioning still spreads the infection on its transition day)
 
-A dead cell is permanently removed: it cannot spread infection and cannot be infected again. Dead cells are different from immune cells.
+## Interview Notes
 
-Cells initially marked immune (`2`) remain immune forever and continue blocking transmission.
-
-The threshold `N` still governs infection before the day's state changes are applied. Only active infected cells count when evaluating either the infection threshold `N` or the death threshold `K`.
-
-You are given `K` as the death threshold. At the transition point:
-
-* An infected cell with **≥ K infected neighbors** dies.
-* Otherwise, it becomes immune.
-* All spread and transition decisions use the same start-of-day snapshot.
-
-The supplied statement ends while continuing the Level 4 daily-update specification.
-
-### Follow-ups
-
-Extensions the interviewer raised after the main task:
-
-- Extend the simulation so that each day you may choose any row or column and burn everything on it; minimize the total number of deaths.
+* Five levels of increasing difficulty, 60 minutes in total for all of them.
+* Each level reuses the earlier rules: the threshold `N`, simultaneous updates from a start-of-step snapshot, immune cells as permanent blockers, and so on.
+* Be ready to explain how each new rule (immunity, recovery after `D` days, death threshold `K`, the one-time burn) changes your approach, and to discuss time and space complexity.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of each round as a snapshot update where every cell's next state depends only on the previous snapshot, not on cells already changed this round.
+Model the infection as a round-by-round process where each round is decided from the state at the start of the round, not from changes made during it.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Count infected orthogonal neighbors for every healthy cell, and compare against a copy of the grid (or collect the cells to flip) so changes do not cascade within one round.
+Count infected neighbors for each healthy cell and flip those that reach N, using BFS-style frontiers or a queue of candidate cells so you only touch cells near newly infected ones.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch edge and corner cells with fewer than four neighbors, and decide when the process stops, since the spread ends once a round changes nothing.
+Update simultaneously (use a copy or collect flips first), stop when a round changes nothing, and be ready for each level to add rules on top of this base simulation.
 
 </details>
 

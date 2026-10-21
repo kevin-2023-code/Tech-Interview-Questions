@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Tradedesk** | [Earn the Most](https://trueinterview.io/questions/de01d1f2-f8dc-44ab-a3ac-256f97bf946b) | Hard | — |
 | **Tradedesk / Google / NVIDIA** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Medium | — |
 | **Tradedesk** | [Fastest Benchmark Completion in Activity](https://trueinterview.io/questions/3c61ef86-b26e-4cc4-88cf-3258acb9f8c8) | Medium | — |
 | **Tradedesk** | [Calculate Bowling Game Score](https://trueinterview.io/questions/130f3e31-30ed-5be4-8247-1683346d0c62) | Medium | — |
@@ -259,6 +260,5 @@
 | **Google** | [Consolidate On-call Rotations into Maximal Constant Segments](https://trueinterview.io/questions/9c213936-135f-4a6a-8b44-aa71ed0ac82a) | Hard | — |
 | **Google** | [Unique Paths in a 2D Matrix with Moves](https://trueinterview.io/questions/9bc06af6-5391-48cc-9eb3-8364423d3a52) | Medium | — |
 | **Google / Uber** | [Text Justification](https://trueinterview.io/questions/9213c4e8-b5fd-4c9b-924d-7108600f1f73) | Hard | — |
-| **Google** | [Windowed Average excluding Largest K](https://trueinterview.io/questions/7a3b6266-bc7c-4893-80a9-02a992ba2cc3) | Medium | — |
 
 <sub>[← Page 8](algorithm-8.md) · Page 9 of 10 · [Page 10 →](algorithm-10.md)</sub>

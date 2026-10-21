@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -91,9 +91,9 @@
 | **Instacart** | [Calculate a Basket Total from Delimited Product Records](https://trueinterview.io/questions/calculate-a-basket-total-from-delimited-product-records) | Easy | 🆕 Sep 06, 2026 |
 | **Databricks** | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Medium | 🆕 Sep 06, 2026 |
 | **Databricks** | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Hard | 🆕 Sep 06, 2026 |
-| **Snowflake** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Medium | 🆕 Sep 05, 2026 |
-| **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | 🆕 Sep 05, 2026 |
-| **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🆕 Sep 05, 2026 |
+| **Snowflake** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Medium | Sep 05, 2026 |
+| **Snowflake** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Hard | Sep 05, 2026 |
+| **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | Sep 05, 2026 |
 | **Robinhood** | [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts) | Hard | Sep 04, 2026 |
 | **Verkada** | [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Medium | Sep 04, 2026 |
 | **Siemens** | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | Medium | Sep 04, 2026 |

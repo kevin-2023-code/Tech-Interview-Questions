@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Google** | [Compute precision–recall curve on imbalanced data](https://trueinterview.io/questions/compute-precisionrecall-curve-on-imbalanced-data) | Medium | — |
 | **Apple** | [Compute optimal matrix-chain multiplication order](https://trueinterview.io/questions/compute-optimal-matrix-chain-multiplication-order) | Hard | — |
 | **Uber** | [Compute maximum concurrent trips from intervals](https://trueinterview.io/questions/compute-maximum-concurrent-trips-from-intervals) | Medium | — |
 | **Dropbox** | [Compute max island with constrained flips](https://trueinterview.io/questions/compute-max-island-with-constrained-flips) | Hard | — |
@@ -259,6 +260,5 @@
 | **Amazon** | [Find the Top 10 Most Frequent IP Addresses](https://trueinterview.io/questions/043bcc4b-65d7-5602-86a0-e43f48487ab4) | Medium | — |
 | **ByteDance / Meta** | [Reconstruct Binary Tree from Preorder and Postorder](https://trueinterview.io/questions/reconstruct-binary-tree-from-preorder-and-postorder) | Medium | — |
 | **ByteDance** | [Intersection of Two Interval Lists](https://trueinterview.io/questions/intersection-of-two-interval-lists) | Medium | — |
-| **Amazon** | [Detect Overlapping Time Intervals](https://trueinterview.io/questions/05a8d371-14af-5f91-a280-c8e76c9e68ea) | Easy | — |
 
 <sub>[← Page 6](algorithm-6.md) · Page 7 of 10 · [Page 8 →](algorithm-8.md)</sub>

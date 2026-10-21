@@ -12,104 +12,100 @@
 
 ## Problem
 
-**Part 1: Static obstacles**
+Consider a 2D grid of integer coordinates that extends without bound in every direction. In one move you can step from `(x, y)` to one of its 4 orthogonal neighbours — North, South, East, or West — one cell at a time.
 
-Consider an infinite grid whose cells are all integer coordinate pairs. From a cell `(x, y)`, one move changes either the x-coordinate or the y-coordinate by exactly 1. You are given `start = (sx, sy)`, `goal = (gx, gy)`, and a finite set `blocked` of permanently impassable cells. Return one shortest path from `start` to `goal` as a list of coordinates, including both endpoints. If no such route exists, return `"unreachable"`.
+Implement `shortest_path(start, goal, blocked, parades)`. Here `start = (sx, sy)` is where you begin, `goal = (gx, gy)` is where you must end, and `blocked` is a finite collection of coordinates that are permanently impassable static barriers. `parades` is a list of moving obstacles (described in Part 2); when it is empty the task reduces to Part 1.
 
-Because the grid is unbounded, the search must not expand forever when the destination is closed off by barriers. If several shortest routes exist, any one is accepted.
+## Part 1 (static obstacles)
+
+Return **a single shortest valid path** from `start` to `goal`, written as a list of coordinates that includes both endpoints. If `goal` cannot be reached, return the string `"unreachable"`. When several shortest paths exist, any one of them is accepted.
+
+Keep in mind that the grid has no edges. A plain BFS that keeps expanding outward indefinitely is not acceptable: your algorithm must **finish** even when there is no way to reach `goal` (for instance, when barriers completely surround it).
+
+## Part 2 (moving parades)
+
+On top of the static barriers, there are moving obstacles called **parades**. Each parade is given as `(px, py, dir)`:
+
+- `(px, py)` is its position at time `t = 0`;
+- `dir` is one of `'N'`, `'S'`, `'E'`, `'W'`;
+- it advances **one cell in direction `dir` every 2 seconds**. Formally, at integer time `t` it occupies the cell reached after $$\lfloor t / 2 \rfloor$$ steps from its starting cell, so it sits on its initial cell at `t = 0` and `t = 1`, moves one cell at `t = 2` and remains there for `t = 2` and `t = 3`, and so on.
+
+The movement rules are:
+
+- You act once per second, at integer times: either step to a neighbouring cell or **stay where you are** for 1 second.
+- You may never occupy a static barrier cell.
+- You may never occupy a cell on which any parade stands at that moment. A move that would put you on a parade's cell at time `t+1` is not allowed.
+
+Return a **minimum-time** valid path beginning at `start` at `t = 0` and ending at `goal`, as a list of coordinates whose index equals the time; a coordinate repeated on consecutive indices represents waiting. If no valid path exists, return `"unreachable"`. As in Part 1, the grid is unbounded, and your approach must still terminate when the destination is unreachable. If several minimum-time paths exist, any one is accepted.
+
+This is a pathfinding question on an unbounded grid: it checks how you model unlimited coordinates and run a shortest-path search on them.
 
 Example 1:
 
 ```text
-Input: start = (1, 2), goal = (4, 5), blocked = []
+Input: start = (3, 3), goal = (3, 5), blocked = [(3, 4), (2, 4)], parades = []
 
-Output: [(1, 2), (2, 2), (3, 2), (4, 2), (4, 3), (4, 4), (4, 5)]
+Output: [(3, 3), (4, 3), (4, 4), (4, 5), (3, 5)]
 ```
 
-Explanation: With no blocked cells, this is a Manhattan shortest route of 6 steps.
+Explanation: The cells directly above `start` and to its upper-left are barriers, so the only shortest route detours one column to the east, taking 4 moves.
+
+```trueviz
+{"v":1,"kind":"example","title":"Shortest path around barriers","input":{"start":"(3, 3)","goal":"(3, 5)","blocked":"[(3, 4), (2, 4)]","parades":"[]"},"steps":[{"say":"Start S is at (3, 3) and the goal G is at (3, 5). Cells marked # are barriers you can never enter.","panels":[{"type":"grid","id":"grid","label":"Grid (columns x = 1..5, rows y = 6 down ","values":[[".",".",".",".","."],[".",".","G",".","."],[".","#","#",".","."],[".",".","S",".","."],[".",".",".",".","."]]}]},{"say":"The barriers at (3, 4) and (2, 4) sit directly above the start and to its upper-left, so going straight north is blocked.","panels":[{"type":"grid","id":"grid","label":"Grid (columns x = 1..5, rows y = 6 down ","values":[[".",".",".",".","."],[".",".","G",".","."],[".","#","#",".","."],[".",".","S",".","."],[".",".",".",".","."]],"marks":{"read":[[2,2],[2,1]]}}]},{"say":"The only shortest route detours one column east: (3, 3), (4, 3), (4, 4), (4, 5), (3, 5).","panels":[{"type":"grid","id":"grid","label":"Grid (columns x = 1..5, rows y = 6 down ","values":[[".",".",".",".","."],[".",".","G",".","."],[".","#","#",".","."],[".",".","S",".","."],[".",".",".",".","."]],"marks":{"found":[[3,2],[3,3],[2,3],[1,3],[1,2]]}}]},{"say":"That route takes 4 moves, which is the shortest possible, and the path includes both endpoints.","panels":[{"type":"grid","id":"grid","label":"Grid (columns x = 1..5, rows y = 6 down ","values":[[".",".",".",".","."],[".",".","G",".","."],[".","#","#",".","."],[".",".","S",".","."],[".",".",".",".","."]],"marks":{"found":[[3,2],[3,3],[2,3],[1,3],[1,2]]}},{"type":"array","id":"path","label":"Path (index = move number)","values":["(3, 3)","(4, 3)","(4, 4)","(4, 5)","(3, 5)"],"marks":{"found":[0,1,2,3,4]}}]}],"expected":"[[3, 3], [4, 3], [4, 4], [4, 5], [3, 5]]"}
+```
+
 
 Example 2:
 
 ```text
-Input: start = (0, 0), goal = (3, 0), blocked = [(1, 0), (2, 0)]
-
-Output: [(0, 0), (0, 1), (1, 1), (2, 1), (3, 1), (3, 0)]
-```
-
-Explanation: The two adjacent barriers block the direct row, so the shortest valid path detours above them in 5 moves.
-
-Example 3:
-
-```text
-Input: start = (0, 0), goal = (2, 2), blocked = [(1, 2), (3, 2), (2, 1), (2, 3)]
+Input: start = (5, 5), goal = (0, 0), blocked = [(1, 0), (-1, 0), (0, 1), (0, -1)], parades = []
 
 Output: "unreachable"
 ```
 
-Explanation: All four orthogonal neighbors of the goal are blocked, so it cannot be entered.
+Explanation: All four neighbours of `goal` are barriers, so it can never be entered, and the search must still stop.
+
+Example 3:
+
+```text
+Input: start = (0, 0), goal = (0, 2), blocked = [], parades = [(0, 1, 'E')]
+
+Output: [(0, 0), (0, 0), (0, 1), (0, 2)]
+```
+
+Explanation: The parade stays on `(0, 1)` at `t = 0` and `t = 1` and has moved to `(1, 1)` by `t = 2`, so waiting one second and then going north twice reaches `goal` at `t = 3`, which is the earliest possible.
 
 Constraints:
 
-* Coordinates are integers.
-* $$0 \le \text{len}(blocked) \le 3000$$
-* Let $$R$$ be the smallest axis-aligned rectangle containing `start`, `goal`, and every blocked cell. After expanding $$R$$ by one cell in each of the four cardinal directions, its area is at most $$250{,}000$$.
-
-**Part 2: Moving parades**
-
-Now assume there are also moving obstacles called parades. A parade is represented by `(px, py, dir)`, where `dir` is one of `'N'`, `'S'`, `'E'`, or `'W'`. At time $$t=0$$ it is at `(px, py)`. For every integer time $$t$$, it occupies the cell reached after making $$\lfloor t/2 \rfloor$$ one-cell moves in its chosen direction from that start. Thus it stays at its start for $$t=0$$ and $$t=1$$, moves once at $$t=2$$ and stays there for $$t=2$$ and $$t=3$$, moves again at $$t=4$$, and so on.
-
-You still make one orthogonal move per second, and you may also wait for one second. At any integer time, you cannot share a cell with a static barrier or with any parade's current cell. A transition into a cell at time $$t+1$$ is invalid if that same cell is occupied at time $$t+1$$.
-
-Return a minimum-time legal path from `start` at time $$0$$ to `goal`, as a list of coordinates whose indices are the times. A repeated coordinate denotes waiting. If no legal path exists, return `"unreachable"`. The search must terminate even when the goal is unreachable. If there are multiple minimum-time paths, any one is accepted.
-
-Example 1:
-
-```text
-Input: start = (2, 0), goal = (5, 1), blocked = [(4, 0)], parades = []
-
-Output: [(2, 0), (2, 1), (3, 1), (4, 1), (5, 1)]
-```
-
-Explanation: With no moving obstacles, this reduces to the static case and requires 4 moves.
-
-Example 2:
-
-```text
-Input: start = (5, 5), goal = (8, 5), blocked = [], parades = [(6, 5, 'N')]
-
-Output: [(5, 5), (5, 5), (6, 5), (7, 5), (8, 5)]
-```
-
-Explanation: The parade occupies `(6, 5)` at times `0` and `1`, so the agent waits once; by time `2`, the parade has advanced one cell north.
-
-Constraints:
-
-* Coordinates are integers.
-* $$0 \le \text{len}(blocked) \le 250$$
-* $$0 \le \text{len}(parades) \le 30$$
-* Let $$B$$ be the smallest axis-aligned rectangle containing `start`, `goal`, and all blocked cells, expanded by $$\text{len}(parades) + 1$$ cells in each of the four directions. The area of $$B$$ is at most $$25{,}000$$.
-* If $$H$$ is the latest integer time at which any parade occupies a cell inside $$B$$, then $$H \le 600$$.
+* All coordinates are integers.
+* Part 1: $$0 \le \text{len(blocked)} \le 2000$$
+* Part 1: let `R` be the axis-aligned rectangle enclosing `start`, `goal`, and every blocked cell; after expanding `R` by 1 cell on every side, its area is at most $$200000$$.
+* Part 2: $$0 \le \text{len(blocked)} \le 200$$
+* Part 2: $$0 \le \text{len(parades)} \le 25$$
+* Part 2: let `B` be the rectangle enclosing `start`, `goal`, and every blocked cell, expanded by `len(parades) + 1` cells in each direction; the area of `B` is at most $$20000$$.
+* Part 2: if `H` is the latest time at which any parade occupies a cell of `B`, then $$H \le 500$$.
+* Whenever more than one optimal path exists, any one of them is accepted.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Since the grid is infinite, you need a search that can terminate when the goal is enclosed by blocked cells.
+Because the grid is unbounded but the obstacles are finite, this is a shortest path search where you must also keep the explored region from growing forever.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use BFS with a visited set, but bound the search area by the bounding box of start, goal, and blocked cells expanded by one.
+Use BFS over cells (and over time as an extra dimension if parades move), with a visited set, and bound the search to a window around start, goal, and obstacles.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-If the goal is unreachable, detect it by exhausting the bounded region, also handle ties in shortest paths consistently.
+Choose the bounding box with some margin so that detours around blocked cells are still allowed, and handle the case where the goal is enclosed and unreachable.
 
 </details>
 

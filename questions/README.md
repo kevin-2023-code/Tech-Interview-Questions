@@ -6,7 +6,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 
 [← Question bank](../README.md) · [Companies](../companies/README.md) · [Free questions, with statistics](../free/README.md)
 
-## Algorithm (302)
+## Algorithm (303)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -292,6 +292,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Hangman Optimal Strategy](algorithm/hangman-optimal-strategy/README.md) | Hard | Dropbox |
 | [IPO Share Allocation](algorithm/swe-oa-ipo-share-allocation/README.md) | Hard | Two Sigma · Point72 |
 | [Largest Rectangle in Histogram](algorithm/largest-rectangle-histogram/README.md) | Hard | ByteDance · Airwallex |
+| [LLM Inference Timeout and Restart Strategy](algorithm/llm-inference-timeout-and-restart-strategy/README.md) | Hard | OpenAI |
 | [Maximum-Sum Path in a Matrix (No Revisits)](algorithm/matrix-max-sum-path-no-repeat/README.md) | Hard | Goldman Sachs |
 | [Median and Percentile from a Data Stream](algorithm/median-and-percentile-from-a-data-stream/README.md) | Hard | StackAdapt |
 | [Min Elements to Remove to Make Almost Sorted Array](algorithm/min-elements-to-remove-to-make-almost-sorted-array/README.md) | Hard | Salesforce |

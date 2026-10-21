@@ -149,7 +149,7 @@ Here are some questions reported by recent candidates:
 - Find the expected number of biased-coin flips until two consecutive heads.
 
 - [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f)
-- [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy)
+- [LLM Inference Timeout and Restart Strategy](../../questions/algorithm/llm-inference-timeout-and-restart-strategy/README.md)
 - [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a)
 
 ## ML research design interview

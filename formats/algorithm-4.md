@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,499 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Ebay** | [Find top co-viewed products](https://trueinterview.io/questions/find-top-co-viewed-products) | Medium | Mar 07, 2026 |
 | **Waymo** | [Implement Safe Average Function](https://trueinterview.io/questions/implement-safe-average-function) | Easy | Mar 07, 2026 |
 | **SoFi** | [Highway Sensor Journey Count](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb) | Medium | Mar 06, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
@@ -259,6 +260,5 @@
 | **Tesla** | [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner) | Hard | Jan 15, 2026 |
 | **JPMorgan** | [Domino Tiling Recurrences](https://trueinterview.io/questions/domino-tiling-recurrences) | Medium | Jan 15, 2026 |
 | **xAI** | [Multithreaded Array Sort](https://trueinterview.io/questions/parallel-integer-sort) | Medium | Jan 15, 2026 |
-| **xAI** | [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations) | Medium | Jan 15, 2026 |
 
 <sub>[← Page 3](algorithm-3.md) · Page 4 of 10 · [Page 5 →](algorithm-5.md)</sub>

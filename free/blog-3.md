@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,403 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -234,13 +234,13 @@
 | [Explain a project to non-technical stakeholders](https://trueinterview.io/questions/explain-a-project-to-non-technical-stakeholders) | **Imc** | — | Nov 03, 2025 |
 | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | **LinkedIn** | — | 🆕 Sep 17, 2026 |
 | [Explain a project with measurable impact](https://trueinterview.io/questions/explain-a-project-with-measurable-impact) | **Dropbox** | — | — |
-| [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | **DoorDash** | — | 🆕 Sep 05, 2026 |
+| [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | **DoorDash** | — | Sep 05, 2026 |
 | [Explain a promotion and key project impact](https://trueinterview.io/questions/explain-a-promotion-and-key-project-impact) | **ByteDance** | — | Feb 28, 2026 |
 | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | **Snowflake** | — | 🆕 Sep 17, 2026 |
 | [Explain ACID and isolation levels](https://trueinterview.io/questions/explain-acid-and-isolation-levels) | **Meta** | — | — |
 | [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | **Mistral AI** | — | Sep 01, 2026 |
 | [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks) | **Anthropic** | — | Aug 19, 2026 |
-| [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | **DoorDash** | — | 🆕 Sep 05, 2026 |
+| [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | **DoorDash** | — | Sep 05, 2026 |
 | [Explain an AI System You Designed and the Problem It Solved](https://trueinterview.io/questions/explain-an-ai-system-you-designed-and-the-problem-it-solved) | **Meta** | — | Aug 24, 2026 |
 | [Explain an AI-Agent Project and Its Adoption](https://trueinterview.io/questions/explain-an-ai-agent-project-and-its-adoption) | **Amazon** | — | 🆕 Sep 07, 2026 |
 | [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) | **Square** | — | Apr 27, 2026 |

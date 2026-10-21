@@ -56,7 +56,7 @@
 | **Ramp** | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) | Medium | Jun 01, 2026 |
 | **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
 | **Capital One / Databricks / Roblox** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Medium | May 31, 2026 |
-| **OpenAI** | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | — | May 31, 2026 |
+| **OpenAI** | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | Hard | May 31, 2026 |
 | **OpenAI** | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | Medium | May 31, 2026 |
 | **OpenAI** | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Hard | May 31, 2026 |
 | **Lyft** | [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability) | — | May 30, 2026 |

@@ -137,12 +137,12 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | Algorithm | Hard | 🆕 Sep 10, 2026 |
 | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | System Design | Medium | 🆕 Sep 10, 2026 |
 | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | System Design | Medium | 🆕 Sep 10, 2026 |
-| [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | Blog | — | 🆕 Sep 05, 2026 |
-| [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | Blog | — | 🆕 Sep 05, 2026 |
-| [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | Blog | — | 🆕 Sep 05, 2026 |
-| [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | Blog | — | 🆕 Sep 05, 2026 |
-| [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | Blog | — | 🆕 Sep 05, 2026 |
-| [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | System Design | Medium | 🆕 Sep 05, 2026 |
+| [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | Blog | — | Sep 05, 2026 |
+| [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | Blog | — | Sep 05, 2026 |
+| [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | Blog | — | Sep 05, 2026 |
+| [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | Blog | — | Sep 05, 2026 |
+| [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | Blog | — | Sep 05, 2026 |
+| [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | System Design | Medium | Sep 05, 2026 |
 | [Resolve a Workplace Conflict](https://trueinterview.io/questions/resolve-a-workplace-conflict) | Blog | — | Sep 01, 2026 |
 | [Explain Why You Are Changing Roles](https://trueinterview.io/questions/explain-why-you-are-changing-roles) | Blog | — | Sep 01, 2026 |
 | [Explain an AI-Assisted Project](https://trueinterview.io/questions/explain-an-ai-assisted-project) | Blog | — | Sep 01, 2026 |

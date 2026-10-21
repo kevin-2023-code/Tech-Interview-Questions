@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,403 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -48,7 +48,7 @@
 | [How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?](https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks) | **Two Sigma** | — | Oct 28, 2025 |
 | [How would you use generative AI at work?](https://trueinterview.io/questions/how-would-you-use-generative-ai-at-work) | **IBM** | — | Oct 15, 2025 |
 | [How would you use propensity score matching here](https://trueinterview.io/questions/how-would-you-use-propensity-score-matching-here) | **Google** | — | Nov 24, 2025 |
-| [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | **ByteDance** | — | 🆕 Sep 05, 2026 |
+| [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | **ByteDance** | — | Sep 05, 2026 |
 | [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) | **Airwallex** | — | 🆕 Sep 10, 2026 |
 | [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen) | **Optiver** | — | Dec 13, 2025 |
 | [Identify incorrect HTTP status code description](https://trueinterview.io/questions/identify-incorrect-http-status-code-description) | **Bitkernel** | — | Oct 24, 2025 |
@@ -84,8 +84,8 @@
 | [Introduce yourself and explain why Bloomberg](https://trueinterview.io/questions/introduce-yourself-and-explain-why-bloomberg) | **Bloomberg** | — | Jan 06, 2026 |
 | [Introduce yourself for a senior role](https://trueinterview.io/questions/introduce-yourself-for-a-senior-role) | **NVIDIA** | — | Jan 06, 2026 |
 | [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | **Together AI** | — | 🆕 Sep 15, 2026 |
-| [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | **DoorDash** | — | 🆕 Sep 05, 2026 |
-| [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | **ByteDance** | — | 🆕 Sep 05, 2026 |
+| [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | **DoorDash** | — | Sep 05, 2026 |
+| [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | **ByteDance** | — | Sep 05, 2026 |
 | [Investigate Harassment Surge and Mitigation](https://trueinterview.io/questions/investigate-harassment-surge-and-mitigation) | **Airwallex** | — | Nov 14, 2025 |
 | [Investigate High Memory Usage](https://trueinterview.io/questions/investigate-high-memory-usage) | **DoorDash** | — | Jan 31, 2026 |
 | [Investigate marketplace metrics and experiment rollout](https://trueinterview.io/questions/investigate-marketplace-metrics-and-experiment-rollout) | **Instacart** | — | Dec 18, 2025 |
@@ -119,7 +119,6 @@
 | [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test) | **Optiver** | — | Feb 16, 2026 |
 | [Linux Host and Filesystem Fundamentals](https://trueinterview.io/questions/linux-host-and-filesystem-fundamentals) | **Hudson River Trading** | — | Apr 30, 2026 |
 | [List hyperparameter tuning methods](https://trueinterview.io/questions/list-hyperparameter-tuning-methods) | **Amazon** | — | — |
-| [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | **OpenAI** | — | May 31, 2026 |
 | [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation) | **Scale AI** | — | Mar 25, 2026 |
 | [Load and visualize large CSV robustly](https://trueinterview.io/questions/load-and-visualize-large-csv-robustly) | **Voleon** | — | — |
 | [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants) | **Amazon** | — | Mar 29, 2026 |
@@ -196,7 +195,7 @@
 | [OS Fundamentals & Concurrency Drill](https://trueinterview.io/questions/os-fundamentals-and-concurrency) | **Apple** | — | Jun 15, 2026 |
 | [Overcome an Obstacle That Threatens Delivery](https://trueinterview.io/questions/overcome-an-obstacle-that-threatens-delivery) | **Amazon** | — | Mar 12, 2026 |
 | [Own a Mistake with Real Consequences](https://trueinterview.io/questions/own-a-mistake-with-real-consequences) | **Amazon** | — | Aug 22, 2026 |
-| [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | **DoorDash** | — | 🆕 Sep 05, 2026 |
+| [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | **DoorDash** | — | Sep 05, 2026 |
 | [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/questions/paper-read-round-far) | **Amazon** | — | Mar 21, 2026 |
 | [PE Troubleshooting — Web Server / Disk Full](https://trueinterview.io/questions/pe-troubleshooting) | **Meta** | — | Apr 01, 2026 |
 | [Perform no-calculator math accurately and fast](https://trueinterview.io/questions/perform-no-calculator-math-accurately-and-fast) | **Shopify** | — | — |
@@ -260,5 +259,6 @@
 | [Quantify build-vs-buy training decision](https://trueinterview.io/questions/quantify-build-vs-buy-training-decision) | **Amazon** | — | — |
 | [Quantify database bug cost/benefit](https://trueinterview.io/questions/quantify-database-bug-cost-benefit) | **Capital One** | — | — |
 | [Quantify impact of your projects using STAR](https://trueinterview.io/questions/quantify-impact-of-your-projects-using-star) | **Scale AI** | — | — |
+| [Quantify improvement and compute required sample size](https://trueinterview.io/questions/quantify-improvement-and-compute-required-sample-size) | **Amazon** | — | — |
 
 <sub>[← Page 4](blog-4.md) · Page 5 of 6 · [Page 6 →](blog-6.md)</sub>

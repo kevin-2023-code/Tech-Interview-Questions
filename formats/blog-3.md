@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,403 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Amazon** | [Describe how you reduced measurable cost](https://trueinterview.io/questions/describe-how-you-reduced-measurable-cost) | — | Feb 09, 2026 |
 | **Apple** | [Answer OoO, caches, and memory-system questions](https://trueinterview.io/questions/answer-ooo-caches-and-memory-system-questions) | — | Feb 09, 2026 |
 | **Pinterest** | [Answer core ML fundamentals questions](https://trueinterview.io/questions/answer-core-ml-fundamentals-questions) | — | Feb 09, 2026 |
 | **Asana** | [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) | — | Feb 08, 2026 |
@@ -260,5 +259,6 @@
 | **Akuna Capital** | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) | — | Nov 20, 2025 |
 | **Anthropic** | [Explain projects and handle AI-safety conflicts](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) | — | Nov 19, 2025 |
 | **Microsoft** | [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) | — | Nov 19, 2025 |
+| **Optiver** | [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes) | — | Nov 19, 2025 |
 
 <sub>[← Page 2](blog-2.md) · Page 3 of 6 · [Page 4 →](blog-4.md)</sub>

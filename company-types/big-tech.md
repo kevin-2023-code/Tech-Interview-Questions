@@ -37,7 +37,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | `graphs` | 206 | 16% | ████████████ |
 | `hashing` | 205 | 16% | ████████████ |
 | `strings` | 178 | 13% | ██████████ |
-| `greedy` | 112 | 8% | ██████ |
+| `greedy` | 113 | 9% | ██████ |
 | `dynamic-programming` | 102 | 8% | ██████ |
 | `trees` | 97 | 7% | ██████ |
 | `sorting` | 93 | 7% | █████ |
@@ -48,7 +48,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**362 sightings** across this cut. Newest first.
+**347 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction (ML Design on CodeSignal)](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>350 more in this window are in the table below.</sub>
+<sub>335 more in this window are in the table below.</sub>
 
 ---
 
@@ -197,22 +197,22 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | **LinkedIn** | [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | Hard | 🆕 Sep 06, 2026 |
 | **ByteDance** | [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | — | 🆕 Sep 06, 2026 |
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Medium | 🆕 Sep 06, 2026 |
-| **ByteDance** | [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | — | 🆕 Sep 05, 2026 |
-| **Amazon** | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | — | 🆕 Sep 05, 2026 |
-| **ByteDance** | [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | — | 🆕 Sep 05, 2026 |
-| **ByteDance** | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | — | 🆕 Sep 05, 2026 |
-| **Oracle** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | Hard | 🆕 Sep 05, 2026 |
-| **ByteDance** | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | — | 🆕 Sep 05, 2026 |
-| **DoorDash** | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | Medium | 🆕 Sep 05, 2026 |
-| **Oracle** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | Hard | 🆕 Sep 05, 2026 |
-| **ByteDance** | [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | — | 🆕 Sep 05, 2026 |
-| **ByteDance** | [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | — | 🆕 Sep 05, 2026 |
-| **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🆕 Sep 05, 2026 |
+| **ByteDance** | [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | — | Sep 05, 2026 |
+| **Amazon** | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | — | Sep 05, 2026 |
+| **DoorDash** | [Resolve Disagreement, Use Feedback, and Grow Engineering Judgment](https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment) | — | Sep 05, 2026 |
+| **DoorDash** | [Own Production Incidents and Validate Large Pipeline Migrations](https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations) | — | Sep 05, 2026 |
+| **ByteDance** | [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | — | Sep 05, 2026 |
+| **DoorDash** | [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | — | Sep 05, 2026 |
+| **ByteDance** | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | — | Sep 05, 2026 |
+| **Oracle** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | Hard | Sep 05, 2026 |
+| **ByteDance** | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | — | Sep 05, 2026 |
+| **DoorDash** | [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | — | Sep 05, 2026 |
+| **DoorDash** | [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | — | Sep 05, 2026 |
+| **DoorDash** | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | Medium | Sep 05, 2026 |
+| **Oracle** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | Hard | Sep 05, 2026 |
+| **ByteDance** | [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/questions/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | — | Sep 05, 2026 |
+| **ByteDance** | [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | — | Sep 05, 2026 |
+| **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | Sep 05, 2026 |
 | **Meta** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | Hard | Sep 04, 2026 |
 | **Atlassian** | [Design Monitoring and Reliability for 99.99% Availability](https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability) | Hard | Sep 04, 2026 |
 | **Meta** | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | Medium | Sep 04, 2026 |
