@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **665 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **663 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,9 +42,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 665 sightings at 89 companies — Algorithm 231 · SQL 17 · System Design 142 · AI Coding 3 · Blog 202 · Object Oriented Programming 70.
+**Last 90 days:** 663 sightings at 89 companies — Algorithm 230 · SQL 16 · System Design 142 · AI Coding 3 · Blog 202 · Object Oriented Programming 70.
 
-**Reported most:** [Amazon (89)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (43)](companies/google.md) · [Microsoft (38)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [OpenAI (23)](companies/openai.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md)
+**Reported most:** [Amazon (89)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (42)](companies/google.md) · [Microsoft (38)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [OpenAI (23)](companies/openai.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (16) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) (14)
 

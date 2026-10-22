@@ -123,7 +123,7 @@
 | [Differentiate LDA and QDA; compute boundary](https://trueinterview.io/questions/differentiate-lda-and-qda-compute-boundary) | **ByteDance** | — | — |
 | [Discuss a Project You Are Proud Of and How You Work](https://trueinterview.io/questions/discuss-a-project-you-are-proud-of-and-how-you-work) | **Citadel** | — | Mar 29, 2026 |
 | [Discuss AI Use, Deadlines, Ambiguity, and Feedback](https://trueinterview.io/questions/discuss-ai-use-deadlines-ambiguity-and-feedback) | **Amazon** | — | Mar 19, 2026 |
-| [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | **Instacart** | — | 🆕 Sep 06, 2026 |
+| [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | **Instacart** | — | Sep 06, 2026 |
 | [Discuss Challenges and Career Goals](https://trueinterview.io/questions/discuss-challenges-and-career-goals) | **Apple** | — | Apr 02, 2026 |
 | [Discuss Compensation Expectations](https://trueinterview.io/questions/discuss-compensation-expectations) | **Upstart** | — | Jan 15, 2026 |
 | [Discuss Distributed-System Experience with Go, Java, Spark, and Elasticsearch](https://trueinterview.io/questions/discuss-distributed-system-experience-with-go-java-spark-and-elasticsearch) | **Tesla** | — | Sep 01, 2026 |

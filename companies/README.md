@@ -60,7 +60,7 @@ The sector and size of an employer are facts about the company rather than about
 | :-- | :-- | --: | --: | --: | :-- | --: |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 485 | 6 | 18 | Oct 01, 2026 | 176 |
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 467 | 5 | 89 | Oct 03, 2026 | 147 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 380 | 3 | 43 | Oct 04, 2026 | 114 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 380 | 3 | 42 | Oct 04, 2026 | 114 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 345 | 5 | 44 | Oct 05, 2026 | 110 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 264 | 3 | 12 | Sep 29, 2026 | 77 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 239 | 5 | 38 | Oct 03, 2026 | 55 |
@@ -70,7 +70,7 @@ The sector and size of an employer are facts about the company rather than about
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 149 | 3 | 21 | Sep 16, 2026 | 47 |
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 145 | 1 | 15 | Oct 01, 2026 | 43 |
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 137 | 4 | 23 | Oct 01, 2026 | 31 |
-| [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 121 | 3 | 10 | Sep 02, 2026 | 28 |
+| [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 121 | 3 | 9 | Sep 02, 2026 | 28 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 118 | 1 | 16 | Oct 04, 2026 | 20 |
 | [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 108 | 1 | 22 | Sep 19, 2026 | 26 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 104 | 4 | 1 | Aug 21, 2026 | 28 |

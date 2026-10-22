@@ -147,8 +147,8 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [Convert Identifier Naming in Docstrings](https://trueinterview.io/questions/37898248-3c48-565c-8143-a54070171bf8) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | Blog | — | 🆕 Sep 09, 2026 |
-| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | Blog | — | 🆕 Sep 06, 2026 |
-| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | Medium | 🆕 Sep 06, 2026 |
+| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | Blog | — | Sep 06, 2026 |
+| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | Medium | Sep 06, 2026 |
 | [Trace Source Code to an Executable](https://trueinterview.io/questions/trace-source-code-to-an-executable) | Blog | — | Sep 05, 2026 |
 | [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | Blog | — | Sep 05, 2026 |
 | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | Blog | — | Sep 05, 2026 |

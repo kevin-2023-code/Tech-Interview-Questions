@@ -169,7 +169,7 @@
 | [Calculate power and test duration](https://trueinterview.io/questions/calculate-power-and-test-duration) | **DoorDash** | — | — |
 | [Calculate profit and break-even across pricing models](https://trueinterview.io/questions/calculate-profit-and-break-even-across-pricing-models) | **Capital One** | — | — |
 | [Can bootstrap help reduce variance](https://trueinterview.io/questions/can-bootstrap-help-reduce-variance) | **Google** | — | Nov 24, 2025 |
-| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | **ByteDance** | — | 🆕 Sep 06, 2026 |
+| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | **ByteDance** | — | Sep 06, 2026 |
 | [Case study — LLM inference stability](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | **Citadel** | — | Dec 16, 2025 |
 | [Challenge and validate assumptions](https://trueinterview.io/questions/challenge-and-validate-assumptions) | **Capital One** | — | — |
 | [Characterize and compare transfer-count distributions over time](https://trueinterview.io/questions/characterize-and-compare-transfer-count-distributions-over-time) | **Meta** | — | — |
@@ -224,7 +224,7 @@
 | [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
 | [Compare CNN, RNN, and LSTM rigorously](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) | **Microsoft** | — | — |
 | [Compare decision trees and random forests](https://trueinterview.io/questions/compare-decision-trees-and-random-forests) | **Amazon** | — | — |
-| [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | **Waymo** | — | 🆕 Sep 06, 2026 |
+| [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | **Waymo** | — | Sep 06, 2026 |
 | [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | **Siemens** | — | Sep 04, 2026 |
 | [Compare Instagram vs. Facebook using causal experiments](https://trueinterview.io/questions/compare-instagram-vs-facebook-using-causal-experiments) | **Meta** | — | — |
 | [Compare Language-Model Post-Training Methods](https://trueinterview.io/questions/compare-language-model-post-training-methods) | **Google** | — | Aug 14, 2026 |
