@@ -23,6 +23,49 @@ Design a system that schedules and executes jobs of a particular type. Every job
 
 A constraint interviewers often add: the scheduler only needs to handle a single job *type*, so keep the model from becoming more general than required.
 
+### Central Problem
+
+Many scheduler machines can independently notice that the same job is due, yet each scheduled occurrence must end with exactly one durable record and no more than one committed success. How can the system create that single record for an occurrence, and recover it safely when something fails? Keep apart three things: what should run, which machine is currently scheduling it, and which worker is allowed to complete it.
+
+### Functional Requirements
+
+- Users can create immediate, one-time, or recurring jobs (times in UTC), specifying parameters, timeouts, and a retry policy.
+- Every occurrence that becomes due gets one durable slot, and slots missed during downtime are recreated afterwards (backfill).
+- Each slot keeps its claims, attempts, timeouts, and final outcome.
+- The system detects failed workers, reclaims their work, and applies cancellation or retry policy to jobs that run too long.
+- Users and operators can inspect job definitions, execution history, lag, and final outcomes.
+
+### Non-Functional Requirements
+
+- Normally, a due occurrence starts within about `2 seconds` of its scheduled fire time.
+- After an outage or restart, missed occurrences are backfilled from durable state rather than dropped.
+- Each `(job_id, scheduled_fire_time)` maps to one durable slot and at most one committed success.
+- Exactly-once effects in external systems still require idempotent handlers or transactional integration; that lies beyond this core design.
+- Sustain roughly `10k` execution starts per second, with `5-10x` burst skew at minute or hour boundaries.
+- Scheduler nodes and worker nodes scale independently, using coordinated shard ownership and lag-driven concurrency limits.
+- Losing schedulers, workers, queues, or single hosts must not discard accepted schedule intent, and must not leave work permanently stuck without escalation.
+- Queue lag, missed-fire backlog, retry counts, lease timeouts, and dead-letter volume are observable, so correctness and capacity can be investigated.
+
+### Back-of-the-envelope Estimation
+
+| Metric | Assumed value | Used for |
+| --- | --- | --- |
+| Peak execution starts | ~10k/s sustained | Worker pool, queue throughput, execution-state write rate |
+| Cron burst skew | 5-10x at minute or hour boundaries | Shard sizing, smoothing, catch-up surge |
+| Scheduler shard count | on the order of 100-1000 logical segments | Coordinated polling and horizontal scale |
+| Normal dispatch lag target | ~2s | Sweep cadence, near-time queue horizon, autoscaling triggers |
+| Worker timeout range | seconds to tens of minutes | Lease renewal, heartbeat interval, long-running policy |
+| Execution history retention | 30-90 days hot in primary store | Indexing, partitioning, archive boundary |
+
+These are planning assumptions for reasoning about partitioning, queue depth, and recovery.
+
+### Out of Scope
+
+- User-facing pause, resume, or arbitrary reschedule after a job is created (internal cancellation caused by timeouts is still in scope).
+- Full DAG workflow orchestration, including dependencies, human approval, or conditional branching.
+- Uploading arbitrary user code and sandboxing it; tasks are pre-registered handlers from a catalog.
+- Global active-active multi-region scheduling without a single-region authority boundary.
+
 ## Follow-ups
 
 Interviewers typically dig into these areas:

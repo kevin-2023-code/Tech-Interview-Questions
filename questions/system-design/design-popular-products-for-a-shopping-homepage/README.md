@@ -16,6 +16,8 @@ Design a system that surfaces the top-K most popular menu items for each restaur
 
 Marketplaces frequently call out every restaurant's best-selling dishes, which helps customers choose more quickly and shows merchants which dishes are performing. On the consumer restaurant page this appears as a compact "Popular items" shelf. Although the feature looks small, three questions drive the whole design: what should count as "popular", how fresh the rankings need to be, and how the shelf can be served inexpensively across thousands of restaurant pages. Ranking a set of counts is the easy part; the hard part is deciding which counts can be trusted and what guarantees the API can honestly make.
 
+The solution evolves from a simple real-time query into a batch system that publishes stable, reusable snapshots.
+
 ## Requirements
 
 The central tension is choosing a signal that truthfully represents popularity, and deciding how up to date the rankings must be.
@@ -53,6 +55,8 @@ The central tension is choosing a signal that truthfully represents popularity, 
 | Batch cadence | freshness of about `30` to `60` minutes | How often batch jobs run and publish |
 | Top `K` per shelf | roughly `10` to `50` items | Width of snapshot rows and response size |
 
+These estimates justify serving reads from a pre-published snapshot keyed by `(restaurant, window)`, rather than running a `GROUP BY` over raw orders on every page view.
+
 ### Out of scope
 
 - Personalized recommendations or per-user ranking beyond organic popularity.
@@ -65,6 +69,15 @@ The central tension is choosing a signal that truthfully represents popularity, 
 ## Interview Notes
 
 - Restaurant pages require fast, frequently repeated reads, while the rankings themselves are produced by slower batch processing over finalized orders. The design is expected to make this gap explicit through freshness metadata and a clear path for corrections.
+
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Extend the design to a near-realtime variant that maintains top-K rankings from streaming item-view and item-order events.
+- How would you support pagination when `K` is greater than 100?
+- How would you handle an item being deleted or removed from the menu mid-window?
+- How would you handle a hot key, such as a viral item, that can swamp a single shard?
 
 ## Hints
 

@@ -16,6 +16,8 @@ A histogram is described by the integer array `heights`: bar number `i` stands `
 
 Implement `largestRectangleArea(heights)` so that it returns the greatest area of any axis-aligned rectangle that fits completely inside the histogram.
 
+Be ready to explain the time complexity of your approach and why the data structure you chose suits the problem.
+
 Example 1:
 
 ```text
@@ -29,15 +31,23 @@ Explanation: The bars of height 5 and 6 sit next to each other, so a rectangle o
 Example 2:
 
 ```text
-Input: heights = [2, 1, 5, 6, 2, 3]
+Input: heights = [2, 1, 2]
 
-Output: 10
+Output: 3
+```
+
+Explanation: A rectangle of height 1 spans all three bars, giving area $$1 \times 3 = 3$$.
+
+```trueviz
+{"v":1,"kind":"example","title":"Largest Rectangle in Histogram","input":{"heights":"[2, 1, 2]"},"steps":[{"say":"The histogram has bar heights [2, 1, 2].","panels":[{"type":"array","id":"heights","label":"heights","values":["2","1","2"]}]},{"say":"The rectangle of height 1 spans all three bars (indices 0 to 2), giving area 1 × 3 = 3.","panels":[{"type":"array","id":"heights","label":"heights","values":["2","1","2"],"marks":{"found":[0,1,2]},"ranges":[{"from":0,"to":2,"label":"height=1"}]}]},{"say":"Thus, the maximum area is 3.","panels":[{"type":"array","id":"heights","label":"heights","values":["2","1","2"],"marks":{"found":[0,1,2]},"ranges":[{"from":0,"to":2,"label":"height=1"}]}]}],"expected":"3"}
 ```
 
 Constraints:
 
 * $$1 \le n \le 2 \times 10^5$$
 * $$0 \le \text{heights}[i] \le 10^9$$
+
+Follow-up: be prepared to discuss the **Maximal Rectangle** problem on a binary matrix, which extends this histogram problem one row at a time.
 
 ## Hints
 

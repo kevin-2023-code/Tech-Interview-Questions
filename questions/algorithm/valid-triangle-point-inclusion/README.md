@@ -47,6 +47,26 @@ Output: 0
 
 Explanation: All three points lie on the line $$y = 0$$, so $$|ab| + |bc| = |ac|$$ and the triangle is degenerate; the answer is scenario `0` regardless of where p and q are.
 
+Example 2:
+
+```text
+Input: x1 = 0, y1 = 0, x2 = 4, y2 = 0, x3 = 0, y3 = 3, xp = 1, yp = 1, xq = 5, yq = 5
+
+Output: 1
+```
+
+Explanation: The triangle is valid. Point p = (1, 1) lies inside it, while q = (5, 5) lies far outside, so only p belongs to the triangle.
+
+Example 3:
+
+```text
+Input: x1 = 1, y1 = 1, x2 = 5, y2 = 1, x3 = 1, y3 = 5, xp = 10, yp = 10, xq = 2, yq = 2
+
+Output: 2
+```
+
+Explanation: The triangle is valid. Point q = (2, 2) lies inside it, while p = (10, 10) lies outside, so only q belongs to the triangle.
+
 Constraints:
 
 * $$0 \le x1, y1, x2, y2, x3, y3, xp, yp, xq, yq \le 2000$$

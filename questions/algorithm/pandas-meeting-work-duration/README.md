@@ -27,12 +27,14 @@ Points to keep in mind:
 
 - One employee can attend several meetings on the same day.
 - Meeting intervals that overlap or share an endpoint must be combined into one block before the free gaps are measured.
+- A meeting belongs to the calendar day of its `join_time`. A meeting that runs past midnight is cut off at the end of that day, so a meeting reaching midnight leaves no free time after it.
+- A free stretch is measured starting from the end of a meeting, until the start of the next meeting or the end of the day (midnight), whichever comes first. Time before the first meeting of the day is not counted as a stretch.
 
 The result contains one row per `(employee_id, date)` pair with these fields:
 
 - `employee_id`
 - `date`
-- `longest_work_duration` (expressed in a stated unit, for example seconds or minutes)
+- `longest_work_duration` (in minutes; the output header is written `longest_work_duration_minutes`)
 
 Example 1:
 

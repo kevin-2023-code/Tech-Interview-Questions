@@ -12,11 +12,13 @@
 
 ## Problem
 
-An e-commerce platform needs a component that works out how much it costs to ship an order. Prices depend on the destination country and on which products are in the order, and the pricing rules become richer over three stages:
+An e-commerce platform needs a component that works out how much it costs to ship an order. Prices depend on the destination country and on which products are in the order, and the pricing rules become richer over three stages, each of which adds behavior to the previous one:
 
 1. **Basic fixed pricing**: every product has a single per-unit rate.
 2. **Tiered incremental pricing**: the per-unit rate depends on which quantity bracket a unit falls into, so larger volumes get cheaper units.
 3. **Mixed pricing models**: a product's tiers may combine flat-fee tiers with per-unit tiers.
+
+This question is asked for Software Engineer and Machine Learning Engineer coding roles.
 
 Implement `compute_shipping_cost(order, shipping_cost)` for each stage.
 
@@ -114,7 +116,7 @@ shipping_cost = {
             "product": "laptop",
             "costs": [
                 {"minQuantity": 0, "maxQuantity": 2, "cost": 1000},
-                {"minQuantity": 3, "maxQuantity": None, "cost": 900}
+                {"minQuantity": 2, "maxQuantity": None, "cost": 900}
             ]
         }
     ],
@@ -129,7 +131,7 @@ shipping_cost = {
             "product": "laptop",
             "costs": [
                 {"minQuantity": 0, "maxQuantity": 2, "cost": 1100},
-                {"minQuantity": 3, "maxQuantity": None, "cost": 1000}
+                {"minQuantity": 2, "maxQuantity": None, "cost": 1000}
             ]
         }
     ]
@@ -206,7 +208,7 @@ shipping_cost = {
                 },
                 {
                     "type": "incremental",
-                    "minQuantity": 3,
+                    "minQuantity": 2,
                     "maxQuantity": None,
                     "cost": 900
                 }
@@ -236,7 +238,7 @@ shipping_cost = {
                 },
                 {
                     "type": "incremental",
-                    "minQuantity": 3,
+                    "minQuantity": 2,
                     "maxQuantity": None,
                     "cost": 1000
                 }
@@ -269,9 +271,24 @@ compute_shipping_cost(order_ca, shipping_cost) == 19100
 * For an incremental tier, multiply the units in that tier by `cost`, as in Part 2.
 * Tier types may alternate, for example fixed, then incremental, then fixed, then incremental.
 
+#### Edge Cases to Consider
+
+* An order whose items list is empty.
+* A product that does not appear in the shipping cost table.
+* An invalid country code.
+* Quantities equal to zero or below zero.
+* Missing or null input values.
+
 ### Follow-ups
 
-* **Production readiness:** if this code were going to production, how would you make it easier to read and maintain?
+* **Production readiness:** if this code were going to production, how would you make it easier to read and maintain? Points worth covering:
+  * **Separation of concerns:** move tier evaluation into dedicated helper functions.
+  * **Type safety:** add type annotations and structured representations such as dataclasses or `TypedDict`.
+  * **Error handling:** validate inputs and handle absent data gracefully.
+  * **Testing:** build broad unit-test coverage for edge conditions.
+  * **Configuration validation:** verify shipping-cost configurations before they are used at runtime.
+  * **Logging:** record pricing-calculation details to help diagnose issues.
+  * **Documentation:** write docstrings that describe the pricing behavior.
 * **Unsorted tiers:** how would your solution change if the cost tiers were not ordered by `minQuantity`?
 
 ## Hints

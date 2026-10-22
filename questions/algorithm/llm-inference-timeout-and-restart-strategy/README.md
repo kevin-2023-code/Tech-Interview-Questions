@@ -27,11 +27,32 @@ The interviewer walks through a chain of questions about probabilities and resta
 
 Modeling assumptions: every restarted attempt draws a fresh copy of `T` that is independent of all earlier attempts, the cost of restarting is negligible, and the request counts as successful the moment any attempt completes before its own timeout expires.
 
+## Key Clarification
+
+With only `E[T] = 1` you generally cannot compute exact probabilities; what you can derive are **bounds**.
+
+For instance, `P(T > 5) = 1/5` is not necessarily exact. Markov's inequality only says:
+
+```text
+P(T > 5) <= E[T] / 5 = 1/5
+```
+
+This bound can be approached arbitrarily closely. For any small `epsilon > 0`, let `P(T = 5 + epsilon) = 1 / (5 + epsilon)` and `P(T = 0) = 1 - 1 / (5 + epsilon)`. Then `E[T] = 1` while `P(T > 5) = 1 / (5 + epsilon)`, which tends to `1/5` as `epsilon` tends to `0`.
+
+## The Coding Task
+
 The coding portion of this question is judged through `best_equal_split(budget)`, which carries the equal-split timeout analysis of question 4 over to a general total time budget `budget` (in minutes) in place of the fixed `10` minutes.
+
+* The input is a single positive integer `budget`.
+* Consider using `m` attempts, where `m` is an integer with `1 <= m <= budget`, each given an equal timeout of `budget / m` minutes. The quantity being optimized is the Markov worst-case failure bound `(m / budget)^m`, so the guaranteed success probability for that `m` is `1 - (m / budget)^m`.
+* Choose the `m` that gives the best (largest) guarantee. If several values of `m` give the same guarantee, report the smallest of them.
+* Output the chosen `m` and the corresponding guaranteed success probability, separated by a single space, with the probability printed to exactly `9` digits after the decimal point.
+
+In the example below, `budget = 10` gives `m = 4` (four attempts of `2.5` minutes each) and a guarantee of `1 - (4/10)^4 = 0.9744`.
 
 ## Interview Notes
 
-This is a question about reasoning with probability and stochastic processes rather than about writing an implementation. A strong answer for a Research Scientist role keeps three things clearly apart:
+This question was reported from an onsite interview for a Research Scientist role (May 2026). It is a question about reasoning with probability and stochastic processes rather than about writing an implementation. A strong answer for a Research Scientist role keeps three things clearly apart:
 
 * Exact probabilities, which are available only when the latency distribution is known.
 * Worst-case bounds, which are what you can state when only the mean is known.

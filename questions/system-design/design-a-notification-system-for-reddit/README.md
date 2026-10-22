@@ -16,6 +16,47 @@ Design the notification system for Reddit. When something relevant happens, such
 
 The system has to honour each user's notification preferences, must not spam users with duplicate notifications, and must remain reliable when hot threads and very large communities generate sudden bursts of activity.
 
+## Requirements
+
+### Functional requirements
+
+1. Notify a user when a relevant event happens: a reply to their post, a reply to their comment, a mention of their username, or a moderator or admin action that concerns them.
+2. Show each notification in an in-app inbox, and also send a mobile or web push for the notification types the user has enabled.
+3. Let users configure preferences, such as per-event-type settings, muted communities, quiet hours and push on/off.
+4. Deduplicate and aggregate noisy activity so that users do not get a separate push for every low-value event.
+5. Let users mark notifications as read, dismiss them, and deep-link into the relevant post, comment or moderation screen.
+
+### Non-functional requirements
+
+| Requirement | Target |
+| --- | --- |
+| Push latency | P95 under 5 seconds for eligible notifications |
+| Inbox read latency | P95 under 200 ms for recent notifications |
+| Availability | 99.95% |
+| Durability | No committed source event is lost; notification generation must survive failures |
+| Correctness | Preferences, mutes, blocks and dedupe rules are respected; a wrong notification is worse than a delayed one |
+| Scalability | Tens of millions of daily active users, bursty hot-thread traffic, delivery to multiple devices per user |
+| Cost control | Avoid unnecessary provider sends and over-notifying |
+
+### Back-of-the-envelope estimation
+
+These are working assumptions for orders of magnitude, not given facts.
+
+| Quantity | Assumed value |
+| --- | --- |
+| Daily active users | 80M |
+| Notification-worthy source events per day | 40M |
+| Logical notifications per source event after filtering | about 1.1 (about 44M per day, about 510/s average, 5,000+/s at a 10x burst) |
+| Registered active devices per notified user | about 1.6 (about 70M provider sends per day, about 810/s average, 8,000+/s at a 10x burst) |
+| Notification metadata per row | about 350 bytes (about 15 GB per day, about 460 GB for 30 days of hot retention before replication and indexes) |
+
+Raw throughput is manageable; the hard parts are correctness, aggregation, multi-channel state and surviving bursts from hot posts or moderation waves.
+
+### Scope
+
+- In scope: post replies, comment replies, mentions and moderator/admin actions, delivered to both the inbox and push.
+- Out of scope for the first pass: notifying on every upvote, email digests, recommendation notifications, live chat pings and vote-count nudges, unless the interviewer asks for them.
+
 ## Interview Notes
 
 - The discussion is expected to fit a 45 to 60 minute system design interview.
