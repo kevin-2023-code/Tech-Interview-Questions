@@ -121,7 +121,7 @@
 | [Apply Double ML with text-address features](https://trueinterview.io/questions/apply-double-ml-with-text-address-features) | **Amazon** | — | — |
 | [Apply instrumental variables under interference](https://trueinterview.io/questions/apply-instrumental-variables-under-interference) | **Uber** | — | — |
 | [Apply Leakage-Safe Imputation and Ordinal Encoding](https://trueinterview.io/questions/apply-leakage-safe-imputation-and-ordinal-encoding) | **Capital One** | — | Aug 20, 2026 |
-| [Apply New Learning and Satisfy a Customer](https://trueinterview.io/questions/apply-new-learning-and-satisfy-a-customer) | **Amazon** | — | 🆕 Sep 07, 2026 |
+| [Apply New Learning and Satisfy a Customer](https://trueinterview.io/questions/apply-new-learning-and-satisfy-a-customer) | **Amazon** | — | Sep 07, 2026 |
 | [Apply PSM rigorously for observational A/B analysis](https://trueinterview.io/questions/apply-psm-rigorously-for-observational-a-b-analysis) | **ByteDance** | — | — |
 | [Apply sequential testing without p-hacking](https://trueinterview.io/questions/apply-sequential-testing-without-p-hacking) | **Meta** | — | — |
 | [AR Panel Talk Project Deep-Dive](https://trueinterview.io/questions/ar-panel-talk-deep-dive) | **Capital One** | — | Jan 13, 2026 |

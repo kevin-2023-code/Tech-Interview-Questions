@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**5,636 tracked questions** across **131 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 05, 2026. Windows below are measured against **Oct 22, 2026**, and everything on this page is recomputed hourly.
+**5,636 tracked questions** across **131 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 05, 2026. Windows below are measured against **Oct 23, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,7 +10,7 @@
 
 ## The last 90 days
 
-**663 sightings** recorded between Jul 24, 2026 → Oct 22, 2026 — 20% of the 3,395 questions in the bank that carry a sighting date at all.
+**662 sightings** recorded between Jul 25, 2026 → Oct 23, 2026 — 19% of the 3,395 questions in the bank that carry a sighting date at all.
 
 ### By format
 
@@ -20,7 +20,7 @@
 | [SQL](../formats/sql.md) | 16 | 2% | █ |
 | [System Design](../formats/system-design.md) | 142 | 21% | ██████████ |
 | [AI Coding](../formats/ai-coding.md) | 3 | 0% | █ |
-| [Blog](../formats/blog.md) | 202 | 30% | ██████████████ |
+| [Blog](../formats/blog.md) | 201 | 30% | ██████████████ |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 70 | 11% | █████ |
 
 ### Where
@@ -29,7 +29,7 @@
 | :-- | --: | :-- |
 | [Amazon](../companies/amazon.md) | 89 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 44 | ████████ |
-| [Google](../companies/google.md) | 42 | ████████ |
+| [Google](../companies/google.md) | 41 | ███████ |
 | [Microsoft](../companies/microsoft.md) | 38 | ███████ |
 | [LinkedIn](../companies/linkedin.md) | 23 | ████ |
 | [OpenAI](../companies/openai.md) | 23 | ████ |
@@ -43,7 +43,7 @@
 | [Airbnb](../companies/airbnb.md) | 12 | ██ |
 | [Anthropic](../companies/anthropic.md) | 12 | ██ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 663 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 662 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -55,7 +55,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 | [SQL](../formats/sql.md) | 297 | 5% | 16 | 65 | 179 | 53 | 297 | 6 |
 | [System Design](../formats/system-design.md) | 703 | 12% | 142 | 29 | 365 | 309 | 703 | 39 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 2% | 3 | 9 | 80 | 37 | 126 | 12 |
-| [Blog](../formats/blog.md) | 1,402 | 25% | 202 | 0 | 0 | 0 | 0 | 1,402 |
+| [Blog](../formats/blog.md) | 1,402 | 25% | 201 | 0 | 0 | 0 | 0 | 1,402 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 608 | 11% | 70 | 51 | 477 | 80 | 608 | 68 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>

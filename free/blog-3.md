@@ -242,7 +242,7 @@
 | [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks) | **Anthropic** | — | Aug 19, 2026 |
 | [Explain AI Tool Use, Model Selection, and Engineering Validation](https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation) | **DoorDash** | — | Sep 05, 2026 |
 | [Explain an AI System You Designed and the Problem It Solved](https://trueinterview.io/questions/explain-an-ai-system-you-designed-and-the-problem-it-solved) | **Meta** | — | Aug 24, 2026 |
-| [Explain an AI-Agent Project and Its Adoption](https://trueinterview.io/questions/explain-an-ai-agent-project-and-its-adoption) | **Amazon** | — | 🆕 Sep 07, 2026 |
+| [Explain an AI-Agent Project and Its Adoption](https://trueinterview.io/questions/explain-an-ai-agent-project-and-its-adoption) | **Amazon** | — | Sep 07, 2026 |
 | [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) | **Square** | — | Apr 27, 2026 |
 | [Explain an AI-Assisted Project](https://trueinterview.io/questions/explain-an-ai-assisted-project) | **DoorDash** | — | Sep 01, 2026 |
 | [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) | **C3 AI** | — | Aug 15, 2026 |

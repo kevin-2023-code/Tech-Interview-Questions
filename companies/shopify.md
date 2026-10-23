@@ -119,7 +119,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
-| [Bank Account Simulation Class With Self-Written Tests at 90% Coverage](https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage) | Object Oriented Programming | Medium | 🆕 Sep 07, 2026 |
+| [Bank Account Simulation Class With Self-Written Tests at 90% Coverage](https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage) | Object Oriented Programming | Medium | Sep 07, 2026 |
 | [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview) | Blog | — | Jul 10, 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | May 12, 2026 |

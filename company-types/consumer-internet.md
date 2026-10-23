@@ -48,7 +48,7 @@ Of the **696 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**144 sightings** across this cut. Newest first.
+**143 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **696 questions in this cut that carry a topic label** (45% of it):
 | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Google | Algorithm | Sep 29, 2026 |
 | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Google | Algorithm | Sep 29, 2026 |
 
-<sub>132 more in this window are in the table below.</sub>
+<sub>131 more in this window are in the table below.</sub>
 
 ---
 

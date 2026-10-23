@@ -95,7 +95,7 @@ Of the **204 questions in this cut that carry a topic label** (44% of it):
 | **Airwallex** | [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Hard | 🆕 Sep 10, 2026 |
 | **Airwallex** | [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) | — | 🆕 Sep 10, 2026 |
 | **Airwallex** | [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid) | Hard | 🆕 Sep 10, 2026 |
-| **Stripe** | [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve) | Medium | 🆕 Sep 07, 2026 |
+| **Stripe** | [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve) | Medium | Sep 07, 2026 |
 | **Robinhood** | [Define and Calculate Employee Referral Counts](https://trueinterview.io/questions/define-and-calculate-employee-referral-counts) | Hard | Sep 04, 2026 |
 | **Stripe** | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Medium | Sep 04, 2026 |
 | **Airwallex** | [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Medium | Sep 02, 2026 |

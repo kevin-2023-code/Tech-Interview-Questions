@@ -214,7 +214,7 @@
 | [Handle two teams duplicating work](https://trueinterview.io/questions/handle-two-teams-duplicating-work) | **Google** | — | Mar 06, 2026 |
 | [Handle unreliable email during time-critical coordination](https://trueinterview.io/questions/handle-unreliable-email-during-time-critical-coordination) | **Microsoft** | — | — |
 | [Handle value conflicts and disagreeing with leadership](https://trueinterview.io/questions/handle-value-conflicts-and-disagreeing-with-leadership) | **Palantir** | — | Jan 06, 2026 |
-| [Handle Workplace Conflict and Criticism](https://trueinterview.io/questions/handle-workplace-conflict-and-criticism) | **Amazon** | — | 🆕 Sep 07, 2026 |
+| [Handle Workplace Conflict and Criticism](https://trueinterview.io/questions/handle-workplace-conflict-and-criticism) | **Amazon** | — | Sep 07, 2026 |
 | [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive) | **NVIDIA** | — | Jul 03, 2026 |
 | [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral) | **Harvey** | — | Jul 02, 2026 |
 | [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/questions/hash-collision-fundamentals) | **Goldman Sachs** | — | Nov 21, 2024 |

@@ -12,7 +12,7 @@
 | :-- | --: | --: | :-- | :-- |
 | [Amazon](../companies/amazon.md) | 89 | 467 | Oct 03, 2026 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 44 | 345 | Oct 05, 2026 | ████████ |
-| [Google](../companies/google.md) | 42 | 380 | Oct 04, 2026 | ████████ |
+| [Google](../companies/google.md) | 41 | 380 | Oct 04, 2026 | ███████ |
 | [Microsoft](../companies/microsoft.md) | 38 | 239 | Oct 03, 2026 | ███████ |
 | [LinkedIn](../companies/linkedin.md) | 23 | 137 | Oct 01, 2026 | ████ |
 | [OpenAI](../companies/openai.md) | 23 | 175 | Oct 04, 2026 | ████ |
@@ -42,7 +42,7 @@
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
 | [Meta](../companies/meta.md) | 485 | 6 | 176 | 18 | Oct 01, 2026 | Algorithm | `graphs` |
 | [Amazon](../companies/amazon.md) | 467 | 5 | 147 | 89 | Oct 03, 2026 | Algorithm | `hashing` |
-| [Google](../companies/google.md) | 380 | 3 | 114 | 42 | Oct 04, 2026 | Algorithm | `graphs` |
+| [Google](../companies/google.md) | 380 | 3 | 114 | 41 | Oct 04, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 345 | 5 | 110 | 44 | Oct 05, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 264 | 3 | 77 | 12 | Sep 29, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 239 | 5 | 55 | 38 | Oct 03, 2026 | Algorithm | `strings` |

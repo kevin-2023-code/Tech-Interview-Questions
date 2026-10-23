@@ -82,12 +82,12 @@
 | **Lyft** | [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | — | 🆕 Sep 08, 2026 |
 | **Disney** | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | — | 🆕 Sep 08, 2026 |
 | **Disney** | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | — | 🆕 Sep 08, 2026 |
-| **Amazon** | [Take Responsibility for Missed Deadlines and Mistakes](https://trueinterview.io/questions/take-responsibility-for-missed-deadlines-and-mistakes) | — | 🆕 Sep 07, 2026 |
-| **Amazon** | [Show Initiative, Improve Processes, and Demonstrate Impact](https://trueinterview.io/questions/show-initiative-improve-processes-and-demonstrate-impact) | — | 🆕 Sep 07, 2026 |
-| **Amazon** | [Handle Workplace Conflict and Criticism](https://trueinterview.io/questions/handle-workplace-conflict-and-criticism) | — | 🆕 Sep 07, 2026 |
-| **Amazon** | [Explain an AI-Agent Project and Its Adoption](https://trueinterview.io/questions/explain-an-ai-agent-project-and-its-adoption) | — | 🆕 Sep 07, 2026 |
-| **Amazon** | [Apply New Learning and Satisfy a Customer](https://trueinterview.io/questions/apply-new-learning-and-satisfy-a-customer) | — | 🆕 Sep 07, 2026 |
-| **Instacart** | [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | — | 🆕 Sep 07, 2026 |
+| **Amazon** | [Take Responsibility for Missed Deadlines and Mistakes](https://trueinterview.io/questions/take-responsibility-for-missed-deadlines-and-mistakes) | — | Sep 07, 2026 |
+| **Amazon** | [Show Initiative, Improve Processes, and Demonstrate Impact](https://trueinterview.io/questions/show-initiative-improve-processes-and-demonstrate-impact) | — | Sep 07, 2026 |
+| **Amazon** | [Handle Workplace Conflict and Criticism](https://trueinterview.io/questions/handle-workplace-conflict-and-criticism) | — | Sep 07, 2026 |
+| **Amazon** | [Explain an AI-Agent Project and Its Adoption](https://trueinterview.io/questions/explain-an-ai-agent-project-and-its-adoption) | — | Sep 07, 2026 |
+| **Amazon** | [Apply New Learning and Satisfy a Customer](https://trueinterview.io/questions/apply-new-learning-and-satisfy-a-customer) | — | Sep 07, 2026 |
+| **Instacart** | [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | — | Sep 07, 2026 |
 | **Instacart** | [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | — | Sep 06, 2026 |
 | **Waymo** | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | — | Sep 06, 2026 |
 | **ByteDance** | [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | — | Sep 06, 2026 |

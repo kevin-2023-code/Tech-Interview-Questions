@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **380** |
 | Most recent sighting | Oct 04, 2026 |
-| Reported in the last 90 days | 42 |
+| Reported in the last 90 days | 41 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 380) |
 | Difficulty (easy / medium / hard) | 33 / 187 / 74 |
 | Free to practise | [114](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **380 of 380** questions at Google 
 
 ## Asked here in the last 90 days
 
-**42 sightings** in this window. Newest first.
+**41 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **380 of 380** questions at Google 
 | [Shortest Path Nodes and Escaping a Pursuer](https://trueinterview.io/questions/shortest-path-nodes-and-pursuer-escape) | Algorithm | Medium | Onsite / virtual onsite | Sep 29, 2026 |
 | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 28, 2026 |
 
-<sub>30 more in this window are in the table below.</sub>
+<sub>29 more in this window are in the table below.</sub>
 
 ## What they ask about
 

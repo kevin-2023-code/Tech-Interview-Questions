@@ -127,7 +127,7 @@
 | [Demonstrate leadership in cross-functional disagreement](https://trueinterview.io/questions/demonstrate-leadership-in-cross-functional-disagreement) | **ByteDance** | — | — |
 | [Demonstrate leadership in data ambiguity](https://trueinterview.io/questions/demonstrate-leadership-in-data-ambiguity) | **Google** | — | — |
 | [Demonstrate leadership in data-driven scenarios](https://trueinterview.io/questions/demonstrate-leadership-in-data-driven-scenarios) | **Amazon** | — | — |
-| [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | **Instacart** | — | 🆕 Sep 07, 2026 |
+| [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | **Instacart** | — | Sep 07, 2026 |
 | [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity) | **Meta** | — | — |
 | [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2) | **Lyft** | — | — |
 | [Demonstrate leadership under disagreement](https://trueinterview.io/questions/demonstrate-leadership-under-disagreement) | **Amazon** | — | — |

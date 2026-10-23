@@ -36,7 +36,7 @@
       "free": 114,
       "guides": 3,
       "inLastYear": 195,
-      "inWindow": 42,
+      "inWindow": 41,
       "lastSighting": "2026-10-04",
       "name": "Google",
       "questions": 380,
@@ -178,7 +178,7 @@
       "dated": 67,
       "free": 20,
       "guides": 1,
-      "inLastYear": 62,
+      "inLastYear": 61,
       "inWindow": 16,
       "lastSighting": "2026-10-04",
       "name": "Stripe",
@@ -191,7 +191,7 @@
       "dated": 74,
       "free": 26,
       "guides": 1,
-      "inLastYear": 65,
+      "inLastYear": 64,
       "inWindow": 22,
       "lastSighting": "2026-09-19",
       "name": "Oracle",
@@ -1766,7 +1766,7 @@
       "free": 1402,
       "graded": 0,
       "hard": 0,
-      "inWindow": 202,
+      "inWindow": 201,
       "label": "Blog",
       "medium": 0,
       "questions": 1402
@@ -1783,7 +1783,7 @@
       "questions": 608
     }
   ],
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "latestSighting": "2026-10-05",
   "months": [
     {
@@ -3292,8 +3292,8 @@
     "futureDated": 0,
     "gradedDifficulty": 4234,
     "guides": 245,
-    "inLastYear": 3129,
-    "inWindow": 663,
+    "inLastYear": 3127,
+    "inWindow": 662,
     "labelledTopic": 2478,
     "namingARound": 5636,
     "questions": 5636,

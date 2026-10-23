@@ -131,8 +131,8 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | [Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts](https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts) | System Design | Medium | 🆕 Sep 11, 2026 |
 | [Make a Variable Resolver Safe for Production Use](https://trueinterview.io/questions/make-a-variable-resolver-safe-for-production-use) | System Design | Medium | 🆕 Sep 11, 2026 |
 | [Design a Grocery-Ordering Backend with Reliable Inventory Reservations](https://trueinterview.io/questions/design-a-grocery-ordering-backend-with-reliable-inventory-reservations) | System Design | Medium | 🆕 Sep 11, 2026 |
-| [Reserve Cart Inventory Without Overselling](https://trueinterview.io/questions/reserve-cart-inventory-without-overselling) | System Design | Hard | 🆕 Sep 07, 2026 |
-| [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | Blog | — | 🆕 Sep 07, 2026 |
+| [Reserve Cart Inventory Without Overselling](https://trueinterview.io/questions/reserve-cart-inventory-without-overselling) | System Design | Hard | Sep 07, 2026 |
+| [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | Blog | — | Sep 07, 2026 |
 | [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | Blog | — | Sep 06, 2026 |
 | [Calculate a Basket Total from Delimited Product Records](https://trueinterview.io/questions/calculate-a-basket-total-from-delimited-product-records) | Algorithm | Easy | Sep 06, 2026 |
 | [Respond to Negative Feedback About Your Work](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) | Blog | — | Aug 28, 2026 |

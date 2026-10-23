@@ -78,7 +78,7 @@
 | [Share different perspective from leadership feedback](https://trueinterview.io/questions/share-different-perspective-from-leadership-feedback) | **Meta** | — | — |
 | [Should you roll out if NSM decreases?](https://trueinterview.io/questions/should-you-roll-out-if-nsm-decreases) | **Instacart** | — | — |
 | [Show culture add at Coinbase](https://trueinterview.io/questions/show-culture-add-at-coinbase) | **Coinbase** | — | — |
-| [Show Initiative, Improve Processes, and Demonstrate Impact](https://trueinterview.io/questions/show-initiative-improve-processes-and-demonstrate-impact) | **Amazon** | — | 🆕 Sep 07, 2026 |
+| [Show Initiative, Improve Processes, and Demonstrate Impact](https://trueinterview.io/questions/show-initiative-improve-processes-and-demonstrate-impact) | **Amazon** | — | Sep 07, 2026 |
 | [Show Ownership and Help a Struggling Peer](https://trueinterview.io/questions/show-ownership-and-help-a-struggling-peer) | **Amazon** | — | Aug 30, 2026 |
 | [Show ownership in ambiguous creator-growth work](https://trueinterview.io/questions/show-ownership-in-ambiguous-creator-growth-work) | **ByteDance** | — | — |
 | [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | **Stripe** | — | 🆕 Sep 11, 2026 |
@@ -107,7 +107,7 @@
 | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | **Amazon** | — | 🆕 Sep 14, 2026 |
 | [Take Ownership Beyond Your Assigned Responsibilities](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities) | **Salesforce** | — | Apr 11, 2026 |
 | [Take Ownership Through Ambiguity](https://trueinterview.io/questions/take-ownership-through-ambiguity) | **Oracle** | — | Aug 21, 2026 |
-| [Take Responsibility for Missed Deadlines and Mistakes](https://trueinterview.io/questions/take-responsibility-for-missed-deadlines-and-mistakes) | **Amazon** | — | 🆕 Sep 07, 2026 |
+| [Take Responsibility for Missed Deadlines and Mistakes](https://trueinterview.io/questions/take-responsibility-for-missed-deadlines-and-mistakes) | **Amazon** | — | Sep 07, 2026 |
 | [Taking Ownership of a Technically Risky Project](https://trueinterview.io/questions/taking-ownership-of-a-technically-risky-project) | **Amazon** | — | Aug 30, 2026 |
 | [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | **OpenAI** | — | Jun 19, 2026 |
 | [Test a coefficient and explain t-distribution](https://trueinterview.io/questions/test-a-coefficient-and-explain-t-distribution) | **Google** | — | — |
