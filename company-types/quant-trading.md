@@ -92,7 +92,7 @@ Of the **194 questions in this cut that carry a topic label** (53% of it):
 | **Squarepoint** | [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | — | 🆕 Sep 09, 2026 |
 | **Squarepoint** | [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | — | 🆕 Sep 09, 2026 |
 | **Squarepoint** | [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | — | 🆕 Sep 09, 2026 |
-| **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | 🆕 Sep 08, 2026 |
+| **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | Sep 08, 2026 |
 | **Citadel** | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | Medium | Sep 03, 2026 |
 | **Squarepoint** | [Value a Die Game with Optional Continuation](https://trueinterview.io/questions/value-a-die-game-with-optional-continuation) | — | Aug 29, 2026 |
 | **Squarepoint** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Medium | Aug 29, 2026 |

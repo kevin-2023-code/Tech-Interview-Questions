@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **100** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 12 |
+| Reported in the last 90 days | 10 |
 | Most common format | [Algorithm](../formats/algorithm.md) (69% of 100) |
 | Difficulty (easy / medium / hard) | 16 / 53 / 20 |
 | Free to practise | [16](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **100 of 100** questions at Salesfo
 
 ## Asked here in the last 90 days
 
-**12 sightings** in this window. Newest first.
+**10 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -53,8 +53,6 @@ Which stage each question came from, for the **100 of 100** questions at Salesfo
 | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Easy | Phone screen | Jul 26, 2026 |
-| [Delete One Character Type, Minimize Unique-Character Segments](https://trueinterview.io/questions/delete-character-minimize-unique-segments) | Algorithm | Medium | Online assessment | Jul 25, 2026 |
-| [Optimal Account Balancing (LeetCode 465)](https://trueinterview.io/questions/optimal-account-balancing) | Algorithm | Hard | Phone screen | Jul 25, 2026 |
 
 ## What they ask about
 

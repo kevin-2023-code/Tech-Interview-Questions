@@ -154,7 +154,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | 🆕 Sep 09, 2026 |
-| [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Algorithm | Medium | 🆕 Sep 08, 2026 |
+| [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Algorithm | Medium | Sep 08, 2026 |
 | [Evolve Duplicate Detection for Sliding Windows and Read-Heavy Queries](https://trueinterview.io/questions/evolve-duplicate-detection-for-sliding-windows-and-read-heavy-queries) | Algorithm | Hard | Sep 03, 2026 |
 | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | Sep 02, 2026 |
 | [Design a Bookshelf with Book CRUD and a Stable Bookmark](https://trueinterview.io/questions/design-a-bookshelf-with-book-crud-and-a-stable-bookmark) | Object Oriented Programming | Medium | Aug 30, 2026 |

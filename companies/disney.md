@@ -93,8 +93,8 @@ The 8 questions to open first if you are preparing for Disney, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | Blog | — | 🆕 Sep 08, 2026 |
-| [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | Blog | — | 🆕 Sep 08, 2026 |
+| [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | Blog | — | Sep 08, 2026 |
+| [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | Blog | — | Sep 08, 2026 |
 | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | Aug 30, 2026 |
 | [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses) | Algorithm | Medium | Mar 27, 2026 |
 | [How would you run a mentoring-focused code review?](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) | Blog | — | Nov 24, 2025 |

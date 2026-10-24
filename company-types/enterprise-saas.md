@@ -48,7 +48,7 @@ Of the **379 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**106 sightings** across this cut. Newest first.
+**104 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **379 questions in this cut that carry a topic label** (53% of it):
 | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Oracle | Blog | Sep 19, 2026 |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Rippling | Object Oriented Programming | Sep 18, 2026 |
 
-<sub>94 more in this window are in the table below.</sub>
+<sub>92 more in this window are in the table below.</sub>
 
 ---
 

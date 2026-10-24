@@ -95,7 +95,7 @@
 | [Explain power drivers and resolve unexpected A/B results](https://trueinterview.io/questions/explain-power-drivers-and-resolve-unexpected-a-b-results) | **Thumbtack** | — | — |
 | [Explain project choices, metrics, and AI usage](https://trueinterview.io/questions/explain-project-choices-metrics-and-ai-usage) | **ByteDance** | — | Mar 01, 2026 |
 | [Explain Project Impact, Mentorship, and Fair Credit Allocation](https://trueinterview.io/questions/explain-project-impact-mentorship-and-fair-credit-allocation) | **Meta** | — | Sep 03, 2026 |
-| [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | **Lyft** | — | 🆕 Sep 08, 2026 |
+| [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | **Lyft** | — | Sep 08, 2026 |
 | [Explain Project Scope, Ownership, and Technical Challenges](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges) | **Nuro** | — | Aug 31, 2026 |
 | [Explain projects and handle AI-safety conflicts](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) | **Anthropic** | — | Nov 19, 2025 |
 | [Explain Python and React performance fundamentals](https://trueinterview.io/questions/explain-python-and-react-performance-fundamentals) | **Hudson River Trading** | — | Apr 06, 2026 |

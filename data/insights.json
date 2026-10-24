@@ -231,7 +231,7 @@
       "free": 16,
       "guides": 1,
       "inLastYear": 53,
-      "inWindow": 12,
+      "inWindow": 10,
       "lastSighting": "2026-09-15",
       "name": "Salesforce",
       "questions": 100,
@@ -1722,7 +1722,7 @@
       "free": 303,
       "graded": 2500,
       "hard": 524,
-      "inWindow": 230,
+      "inWindow": 228,
       "label": "Algorithm",
       "medium": 1531,
       "questions": 2500
@@ -1783,7 +1783,7 @@
       "questions": 608
     }
   ],
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "latestSighting": "2026-10-05",
   "months": [
     {
@@ -2640,7 +2640,7 @@
       "easy": 92,
       "graded": 349,
       "hard": 46,
-      "inWindow": 34,
+      "inWindow": 33,
       "medium": 211,
       "questions": 349,
       "topCompanies": [
@@ -2748,7 +2748,7 @@
       "easy": 10,
       "graded": 192,
       "hard": 68,
-      "inWindow": 15,
+      "inWindow": 14,
       "medium": 114,
       "questions": 192,
       "topCompanies": [
@@ -3293,7 +3293,7 @@
     "gradedDifficulty": 4234,
     "guides": 245,
     "inLastYear": 3127,
-    "inWindow": 662,
+    "inWindow": 660,
     "labelledTopic": 2478,
     "namingARound": 5636,
     "questions": 5636,

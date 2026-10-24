@@ -48,7 +48,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**345 sightings** across this cut. Newest first.
+**343 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction (ML Design on CodeSignal)](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>333 more in this window are in the table below.</sub>
+<sub>331 more in this window are in the table below.</sub>
 
 ---
 
@@ -187,7 +187,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | **ByteDance** | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | — | 🆕 Sep 09, 2026 |
 | **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🆕 Sep 09, 2026 |
 | **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🆕 Sep 09, 2026 |
-| **Google** | [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Medium | 🆕 Sep 08, 2026 |
+| **Google** | [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Medium | Sep 08, 2026 |
 | **Amazon** | [Take Responsibility for Missed Deadlines and Mistakes](https://trueinterview.io/questions/take-responsibility-for-missed-deadlines-and-mistakes) | — | Sep 07, 2026 |
 | **Amazon** | [Show Initiative, Improve Processes, and Demonstrate Impact](https://trueinterview.io/questions/show-initiative-improve-processes-and-demonstrate-impact) | — | Sep 07, 2026 |
 | **Amazon** | [Handle Workplace Conflict and Criticism](https://trueinterview.io/questions/handle-workplace-conflict-and-criticism) | — | Sep 07, 2026 |

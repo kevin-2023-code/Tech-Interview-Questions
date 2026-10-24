@@ -75,7 +75,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 108 | 1 | 22 | Sep 19, 2026 | 26 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 104 | 4 | 1 | Aug 21, 2026 | 28 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 102 | 4 | 5 | Sep 10, 2026 | 29 |
-| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 100 | 1 | 12 | Sep 15, 2026 | 16 |
+| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 100 | 1 | 10 | Sep 15, 2026 | 16 |
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 99 | 6 | 12 | Sep 17, 2026 | 35 |
 | [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 91 | 1 | 2 | Oct 01, 2026 | 18 |
 | [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 91 | 1 | 10 | Sep 18, 2026 | 23 |

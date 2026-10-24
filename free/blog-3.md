@@ -137,9 +137,9 @@
 | [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) | **Asana** | — | Feb 08, 2026 |
 | [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) | **Microsoft** | — | Nov 19, 2025 |
 | [Discuss Research Experience and Challenges](https://trueinterview.io/questions/discuss-research-experience-and-challenges) | **Meta** | — | Feb 28, 2026 |
-| [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | **Disney** | — | 🆕 Sep 08, 2026 |
+| [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | **Disney** | — | Sep 08, 2026 |
 | [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) | **Pinduoduo** | — | Sep 02, 2026 |
-| [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | **Disney** | — | 🆕 Sep 08, 2026 |
+| [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | **Disney** | — | Sep 08, 2026 |
 | [DispatchQueue Code Analysis in Swift](https://trueinterview.io/questions/4dde5e0c-9e01-477b-b775-5919892177b9) | **Snapchat** | — | — |
 | [Dissect a failure and corrective actions](https://trueinterview.io/questions/dissect-a-failure-and-corrective-actions) | **Capital One** | — | — |
 | [Draft a non-pushy follow-up email](https://trueinterview.io/questions/draft-a-non-pushy-follow-up-email) | **Capital One** | — | — |

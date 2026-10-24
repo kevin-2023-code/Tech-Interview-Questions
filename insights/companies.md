@@ -25,12 +25,12 @@
 | [Squarepoint](../companies/squarepoint.md) | 14 | 45 | Sep 09, 2026 | ███ |
 | [Airbnb](../companies/airbnb.md) | 12 | 89 | Sep 23, 2026 | ██ |
 | [Anthropic](../companies/anthropic.md) | 12 | 99 | Sep 17, 2026 | ██ |
-| [Salesforce](../companies/salesforce.md) | 12 | 100 | Sep 15, 2026 | ██ |
 | [Uber](../companies/uber.md) | 12 | 264 | Sep 29, 2026 | ██ |
 | [AMD](../companies/amd.md) | 10 | 10 | Sep 14, 2026 | ██ |
 | [Citadel](../companies/citadel.md) | 10 | 91 | Sep 18, 2026 | ██ |
 | [Instacart](../companies/instacart.md) | 10 | 64 | Sep 18, 2026 | ██ |
 | [Rippling](../companies/rippling.md) | 10 | 58 | Sep 18, 2026 | ██ |
+| [Salesforce](../companies/salesforce.md) | 10 | 100 | Sep 15, 2026 | ██ |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 9 | 68 | Sep 13, 2026 | ██ |
 | [Pinterest](../companies/pinterest.md) | 9 | 121 | Sep 02, 2026 | ██ |
 | [Sig](../companies/sig.md) | 9 | 9 | Sep 17, 2026 | ██ |
@@ -57,7 +57,7 @@
 | [Oracle](../companies/oracle.md) | 108 | 1 | 26 | 22 | Sep 19, 2026 | Algorithm | `hashing` |
 | [Netflix](../companies/netflix.md) | 104 | 4 | 28 | 1 | Aug 21, 2026 | Algorithm | `hashing` |
 | [Roblox](../companies/roblox.md) | 102 | 4 | 29 | 5 | Sep 10, 2026 | Algorithm | `arrays` |
-| [Salesforce](../companies/salesforce.md) | 100 | 1 | 16 | 12 | Sep 15, 2026 | Algorithm | `arrays` |
+| [Salesforce](../companies/salesforce.md) | 100 | 1 | 16 | 10 | Sep 15, 2026 | Algorithm | `arrays` |
 | [Anthropic](../companies/anthropic.md) | 99 | 6 | 35 | 12 | Sep 17, 2026 | Algorithm | `hashing` |
 | [Bloomberg](../companies/bloomberg.md) | 91 | 1 | 18 | 2 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Citadel](../companies/citadel.md) | 91 | 1 | 23 | 10 | Sep 18, 2026 | Algorithm | `hashing` |

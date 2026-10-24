@@ -136,7 +136,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | 🆕 Sep 17, 2026 |
 | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | Blog | — | 🆕 Sep 12, 2026 |
 | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | Blog | — | 🆕 Sep 12, 2026 |
-| [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | System Design | Hard | 🆕 Sep 08, 2026 |
+| [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | System Design | Hard | Sep 08, 2026 |
 | [Identify the Most Important AI Safety Risk](https://trueinterview.io/questions/identify-the-most-important-ai-safety-risk) | Blog | — | Aug 28, 2026 |
 | [Explain How You Know a Professional Referrer](https://trueinterview.io/questions/explain-how-you-know-a-professional-referrer) | Blog | — | Aug 28, 2026 |
 | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | System Design | Medium | Aug 28, 2026 |
