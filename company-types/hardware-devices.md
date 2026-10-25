@@ -48,7 +48,7 @@ Of the **133 questions in this cut that carry a topic label** (59% of it):
 
 ## Asked here in the last 90 days
 
-**16 sightings** across this cut. Newest first.
+**15 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **133 questions in this cut that carry a topic label** (59% of it):
 | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Apple | System Design | Aug 08, 2026 |
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Apple | Algorithm | Aug 05, 2026 |
 
-<sub>4 more in this window are in the table below.</sub>
+<sub>3 more in this window are in the table below.</sub>
 
 ---
 
@@ -78,7 +78,7 @@ Of the **133 questions in this cut that carry a topic label** (59% of it):
 | **Apple** | [Plant Infection Spread: Days Until Stable](https://trueinterview.io/questions/plant-infection-spread-days-to-stabilize) | Medium | 🆕 Oct 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
 | **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | — | 🆕 Sep 17, 2026 |
-| **Apple** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | — | 🆕 Sep 09, 2026 |
+| **Apple** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | — | Sep 09, 2026 |
 | **Apple** | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Medium | Aug 26, 2026 |
 | **Apple** | [Forecast Storage Demand Across 100 Data Centers](https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers) | Hard | Aug 24, 2026 |
 | **Apple** | [Choose File Storage Tiers Using Access Predictions](https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions) | Hard | Aug 24, 2026 |

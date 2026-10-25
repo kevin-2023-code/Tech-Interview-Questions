@@ -68,17 +68,17 @@
 | **Microsoft** | [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | — | 🆕 Sep 10, 2026 |
 | **Wayfair** | [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | — | 🆕 Sep 10, 2026 |
 | **Microsoft** | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | — | 🆕 Sep 10, 2026 |
-| **Squarepoint** | [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | — | 🆕 Sep 09, 2026 |
-| **Squarepoint** | [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | — | 🆕 Sep 09, 2026 |
-| **Squarepoint** | [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | — | 🆕 Sep 09, 2026 |
-| **Squarepoint** | [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | — | 🆕 Sep 09, 2026 |
-| **Squarepoint** | [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | — | 🆕 Sep 09, 2026 |
-| **Squarepoint** | [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | — | 🆕 Sep 09, 2026 |
-| **Snapchat** | [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) | — | 🆕 Sep 09, 2026 |
-| **Snapchat** | [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) | — | 🆕 Sep 09, 2026 |
-| **Snapchat** | [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) | — | 🆕 Sep 09, 2026 |
-| **Apple** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | — | 🆕 Sep 09, 2026 |
-| **ByteDance** | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | — | 🆕 Sep 09, 2026 |
+| **Squarepoint** | [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | — | Sep 09, 2026 |
+| **Squarepoint** | [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | — | Sep 09, 2026 |
+| **Squarepoint** | [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | — | Sep 09, 2026 |
+| **Squarepoint** | [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | — | Sep 09, 2026 |
+| **Squarepoint** | [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | — | Sep 09, 2026 |
+| **Squarepoint** | [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | — | Sep 09, 2026 |
+| **Snapchat** | [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) | — | Sep 09, 2026 |
+| **Snapchat** | [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) | — | Sep 09, 2026 |
+| **Snapchat** | [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) | — | Sep 09, 2026 |
+| **Apple** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | — | Sep 09, 2026 |
+| **ByteDance** | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | — | Sep 09, 2026 |
 | **Lyft** | [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | — | Sep 08, 2026 |
 | **Disney** | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | — | Sep 08, 2026 |
 | **Disney** | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | — | Sep 08, 2026 |

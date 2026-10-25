@@ -153,7 +153,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Algorithm | Medium | 🆕 Sep 16, 2026 |
 | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Algorithm | Medium | 🆕 Sep 10, 2026 |
-| [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | 🆕 Sep 09, 2026 |
+| [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | Sep 09, 2026 |
 | [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Algorithm | Medium | Sep 08, 2026 |
 | [Evolve Duplicate Detection for Sliding Windows and Read-Heavy Queries](https://trueinterview.io/questions/evolve-duplicate-detection-for-sliding-windows-and-read-heavy-queries) | Algorithm | Hard | Sep 03, 2026 |
 | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | Sep 02, 2026 |

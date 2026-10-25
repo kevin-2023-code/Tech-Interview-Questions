@@ -166,7 +166,7 @@
 | [Estimate impact of global launch without holdout](https://trueinterview.io/questions/estimate-impact-of-global-launch-without-holdout) | **Airbnb** | — | — |
 | [Estimate impact without experiments and pick variant](https://trueinterview.io/questions/estimate-impact-without-experiments-and-pick-variant) | **Upstart** | — | — |
 | [Estimate live sports impact on subscriptions](https://trueinterview.io/questions/estimate-live-sports-impact-on-subscriptions) | **Amazon** | — | — |
-| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
+| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | **Squarepoint** | — | Sep 09, 2026 |
 | [Estimate population singletons from a 10% log](https://trueinterview.io/questions/estimate-population-singletons-from-a-10percent-log) | **Google** | — | — |
 | [Estimate price–ETA trade-offs causally](https://trueinterview.io/questions/estimate-priceeta-trade-offs-causally) | **Uber** | — | — |
 | [Estimate revenue of organic shopping tab](https://trueinterview.io/questions/estimate-revenue-of-organic-shopping-tab) | **Meta** | — | — |

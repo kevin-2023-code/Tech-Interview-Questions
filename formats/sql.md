@@ -10,7 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Oracle** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | Medium | 🆕 Sep 09, 2026 |
+| **Oracle** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | Medium | Sep 09, 2026 |
 | **Airbnb** | [Find Users with Seven Consecutive Impression Days](https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days) | Medium | Sep 04, 2026 |
 | **Airbnb** | [Find Hosts Meeting Listing, Rating, and Review-Coverage Rules](https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules) | Medium | Sep 04, 2026 |
 | **Airbnb** | [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | Medium | Sep 04, 2026 |

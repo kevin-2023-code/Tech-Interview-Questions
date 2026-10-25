@@ -63,7 +63,7 @@
 | [Explain learning-rate fluctuation and vanishing gradients](https://trueinterview.io/questions/explain-learning-rate-fluctuation-and-vanishing-gradients) | **Pinterest** | — | Dec 15, 2025 |
 | [Explain life story, project leadership, and negotiation](https://trueinterview.io/questions/explain-life-story-project-leadership-and-negotiation) | **Shopify** | — | — |
 | [Explain life-story choices and pre-read insights](https://trueinterview.io/questions/explain-life-story-choices-and-pre-read-insights) | **Shopify** | — | — |
-| [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
+| [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | **Squarepoint** | — | Sep 09, 2026 |
 | [Explain Linux Command Execution, Filesystems, and Isolation](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation) | **Confluent** | — | Jan 01, 2026 |
 | [Explain LLM lifecycle and trade-offs](https://trueinterview.io/questions/explain-llm-lifecycle-and-trade-offs) | **Google** | — | Jan 19, 2026 |
 | [Explain LLM tuning and transformer basics](https://trueinterview.io/questions/explain-llm-tuning-and-transformer-basics) | **Snapchat** | — | Jan 30, 2026 |
@@ -82,7 +82,7 @@
 | [Explain motivation for QA and career goals](https://trueinterview.io/questions/explain-motivation-for-qa-and-career-goals) | **ByteDance** | — | Feb 12, 2026 |
 | [Explain motivations, background, and success metrics](https://trueinterview.io/questions/explain-motivations-background-and-success-metrics) | **ByteDance** | — | — |
 | [Explain MSE vs MAE, AUC, and imbalance handling](https://trueinterview.io/questions/explain-mse-vs-mae-auc-and-imbalance-handling) | **Capital One** | — | — |
-| [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) | **Snapchat** | — | 🆕 Sep 09, 2026 |
+| [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) | **Snapchat** | — | Sep 09, 2026 |
 | [Explain NVIDIA fit and role value](https://trueinterview.io/questions/explain-nvidia-fit-and-role-value) | **NVIDIA** | — | — |
 | [Explain OOP design and API rollout](https://trueinterview.io/questions/explain-oop-design-and-api-rollout) | **Microsoft** | — | Apr 07, 2026 |
 | [Explain overfitting and how to prevent it](https://trueinterview.io/questions/explain-overfitting-and-how-to-prevent-it) | **Pinterest** | — | Dec 13, 2025 |
@@ -163,10 +163,10 @@
 | [Find minimal a for PSD of 3x3 matrix](https://trueinterview.io/questions/find-minimal-a-for-psd-of-3x3-matrix) | **Capital One** | — | — |
 | [Find minimum of unknown convex function](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) | **Rippling** | — | — |
 | [Find the Correlation Between Two Die-Face Counts](https://trueinterview.io/questions/find-the-correlation-between-two-die-face-counts) | **Squarepoint** | — | Apr 22, 2026 |
-| [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
+| [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | **Squarepoint** | — | Sep 09, 2026 |
 | [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) | **Sig** | — | Aug 16, 2026 |
 | [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | **Mercor** | — | Sep 03, 2026 |
-| [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
+| [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | **Squarepoint** | — | Sep 09, 2026 |
 | [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) | **Sig** | — | Aug 16, 2026 |
 | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | **Cisco** | — | 🆕 Sep 17, 2026 |
 | [Formulate hypotheses and compute AB test significance](https://trueinterview.io/questions/formulate-hypotheses-and-compute-ab-test-significance) | **Uber** | — | — |

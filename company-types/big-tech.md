@@ -48,7 +48,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**343 sightings** across this cut. Newest first.
+**341 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction (ML Design on CodeSignal)](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>331 more in this window are in the table below.</sub>
+<sub>329 more in this window are in the table below.</sub>
 
 ---
 
@@ -178,15 +178,15 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | **ByteDance** | [Convert Identifier Naming in Docstrings](https://trueinterview.io/questions/37898248-3c48-565c-8143-a54070171bf8) | Medium | 🆕 Sep 10, 2026 |
 | **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🆕 Sep 10, 2026 |
 | **Google** | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Medium | 🆕 Sep 10, 2026 |
-| **LinkedIn** | [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives) | Hard | 🆕 Sep 09, 2026 |
-| **Oracle** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | Medium | 🆕 Sep 09, 2026 |
-| **Uber** | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Medium | 🆕 Sep 09, 2026 |
-| **Uber** | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | Medium | 🆕 Sep 09, 2026 |
-| **Uber** | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Hard | 🆕 Sep 09, 2026 |
-| **Apple** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | — | 🆕 Sep 09, 2026 |
-| **ByteDance** | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | — | 🆕 Sep 09, 2026 |
-| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🆕 Sep 09, 2026 |
-| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🆕 Sep 09, 2026 |
+| **LinkedIn** | [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives) | Hard | Sep 09, 2026 |
+| **Oracle** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | Medium | Sep 09, 2026 |
+| **Uber** | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Medium | Sep 09, 2026 |
+| **Uber** | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | Medium | Sep 09, 2026 |
+| **Uber** | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Hard | Sep 09, 2026 |
+| **Apple** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | — | Sep 09, 2026 |
+| **ByteDance** | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | — | Sep 09, 2026 |
+| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | Sep 09, 2026 |
+| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | Sep 09, 2026 |
 | **Google** | [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Medium | Sep 08, 2026 |
 | **Amazon** | [Take Responsibility for Missed Deadlines and Mistakes](https://trueinterview.io/questions/take-responsibility-for-missed-deadlines-and-mistakes) | — | Sep 07, 2026 |
 | **Amazon** | [Show Initiative, Improve Processes, and Demonstrate Impact](https://trueinterview.io/questions/show-initiative-improve-processes-and-demonstrate-impact) | — | Sep 07, 2026 |

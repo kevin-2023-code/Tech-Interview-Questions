@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **181** |
 | Most recent sighting | Oct 02, 2026 |
-| Reported in the last 90 days | 15 |
+| Reported in the last 90 days | 14 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 181) |
 | Difficulty (easy / medium / hard) | 34 / 90 / 26 |
 | Free to practise | [54](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **181 of 181** questions at Apple t
 
 ## Asked here in the last 90 days
 
-**15 sightings** in this window. Newest first.
+**14 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **181 of 181** questions at Apple t
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Algorithm | Hard | Onsite / virtual onsite | Aug 05, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 
-<sub>3 more in this window are in the table below.</sub>
+<sub>2 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -136,7 +136,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | :-- | :-- | :-: | :-- |
 | [Plant Infection Spread: Days Until Stable](https://trueinterview.io/questions/plant-infection-spread-days-to-stabilize) | Algorithm | Medium | 🆕 Oct 02, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
-| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | Blog | — | 🆕 Sep 09, 2026 |
+| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | Blog | — | Sep 09, 2026 |
 | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Algorithm | Medium | Aug 26, 2026 |
 | [Forecast Storage Demand Across 100 Data Centers](https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers) | System Design | Hard | Aug 24, 2026 |
 | [Choose File Storage Tiers Using Access Predictions](https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions) | Algorithm | Hard | Aug 24, 2026 |

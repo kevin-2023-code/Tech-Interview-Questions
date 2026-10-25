@@ -13,13 +13,13 @@
 | [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions) | **Anthropic / DoorDash** | — | May 29, 2026 |
 | [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen) | **Robinhood / OpenAI** | — | Apr 27, 2026 |
 | [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/questions/horse-race-25) | **Goldman Sachs** | — | Jun 09, 2025 |
-| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | **Apple** | — | 🆕 Sep 09, 2026 |
+| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | **Apple** | — | Sep 09, 2026 |
 | [Act when A/B result is not significant](https://trueinterview.io/questions/act-when-a-b-result-is-not-significant) | **ByteDance** | — | — |
 | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | **Microsoft** | — | 🆕 Sep 10, 2026 |
 | [Address face recognition concerns with stakeholders](https://trueinterview.io/questions/address-face-recognition-concerns-with-stakeholders) | **Capital One** | — | — |
 | [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning) | **Akuna Capital** | — | Oct 20, 2025 |
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/questions/ai-ml-fundamentals-oral) | **Salesforce** | — | Mar 10, 2026 |
-| [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | **ByteDance** | — | 🆕 Sep 09, 2026 |
+| [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | **ByteDance** | — | Sep 09, 2026 |
 | [AI Application Conversation](https://trueinterview.io/questions/ai-application-conversation) | **Intuit** | — | Apr 03, 2026 |
 | [AI-Conducted Screening Interview](https://trueinterview.io/questions/ai-conducted-screening) | **Snowflake** | — | Jun 01, 2026 |
 | [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral) | **Meta** | — | Jun 09, 2026 |
@@ -187,7 +187,7 @@
 | [Choose Classification Metrics Under Asymmetric Costs](https://trueinterview.io/questions/choose-classification-metrics-under-asymmetric-costs) | **Microsoft** | — | Feb 25, 2026 |
 | [Choose clustering vs regression; explain KNN](https://trueinterview.io/questions/choose-clustering-vs-regression-explain-knn) | **Thumbtack** | — | — |
 | [Choose KPIs and prove impact with experiments](https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments) | **Expedia** | — | — |
-| [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) | **Snapchat** | — | 🆕 Sep 09, 2026 |
+| [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) | **Snapchat** | — | Sep 09, 2026 |
 | [Choose linear regression or decision tree appropriately](https://trueinterview.io/questions/choose-linear-regression-or-decision-tree-appropriately) | **ByteDance** | — | — |
 | [Choose Long-Term Correctness over a Short-Term Win](https://trueinterview.io/questions/choose-long-term-correctness-over-a-short-term-win) | **Salesforce** | — | Apr 11, 2026 |
 | [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) | **Siemens** | — | Sep 04, 2026 |
@@ -219,9 +219,9 @@
 | [Compare audio preprocessing and training](https://trueinterview.io/questions/compare-audio-preprocessing-and-training) | **Apple** | — | Feb 15, 2026 |
 | [Compare average profit across mix scenarios](https://trueinterview.io/questions/compare-average-profit-across-mix-scenarios) | **Capital One** | — | — |
 | [Compare bagging vs boosting on imbalanced data](https://trueinterview.io/questions/compare-bagging-vs-boosting-on-imbalanced-data) | **ByteDance** | — | — |
-| [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) | **Snapchat** | — | 🆕 Sep 09, 2026 |
+| [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) | **Snapchat** | — | Sep 09, 2026 |
 | [Compare Bayesian and frequentist decisions](https://trueinterview.io/questions/compare-bayesian-and-frequentist-decisions) | **Meta** | — | — |
-| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
+| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | **Squarepoint** | — | Sep 09, 2026 |
 | [Compare CNN, RNN, and LSTM rigorously](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) | **Microsoft** | — | — |
 | [Compare decision trees and random forests](https://trueinterview.io/questions/compare-decision-trees-and-random-forests) | **Amazon** | — | — |
 | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | **Waymo** | — | Sep 06, 2026 |
@@ -247,7 +247,7 @@
 | [Compare two rare-event detection models statistically](https://trueinterview.io/questions/compare-two-rare-event-detection-models-statistically) | **Waymo** | — | Jan 17, 2026 |
 | [Compare two stores’ profits rigorously](https://trueinterview.io/questions/compare-two-stores-profits-rigorously) | **Google** | — | — |
 | [Compare WebSocket, SSE, and long polling](https://trueinterview.io/questions/compare-websocket-sse-and-long-polling) | **Snapchat** | — | Jan 04, 2026 |
-| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | **Squarepoint** | — | 🆕 Sep 09, 2026 |
+| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | **Squarepoint** | — | Sep 09, 2026 |
 | [Competency and Resume Interview](https://trueinterview.io/questions/competency-and-resume-interview) | **IBM** | — | Feb 05, 2026 |
 | [Compute A/B sample size under clustering](https://trueinterview.io/questions/compute-a-b-sample-size-under-clustering) | **Uber** | — | — |
 | [Compute A/B significance, CI, and power](https://trueinterview.io/questions/compute-a-b-significance-ci-and-power) | **Cvs Health** | — | — |

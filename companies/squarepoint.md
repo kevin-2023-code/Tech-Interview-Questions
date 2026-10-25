@@ -126,12 +126,12 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | Blog | — | 🆕 Sep 09, 2026 |
-| [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | Blog | — | 🆕 Sep 09, 2026 |
-| [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | Blog | — | 🆕 Sep 09, 2026 |
-| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | Blog | — | 🆕 Sep 09, 2026 |
-| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | Blog | — | 🆕 Sep 09, 2026 |
-| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | Blog | — | 🆕 Sep 09, 2026 |
+| [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | Blog | — | Sep 09, 2026 |
+| [Find the Expected Distance of a Uniform Point from a Disk's Center](https://trueinterview.io/questions/find-the-expected-distance-of-a-uniform-point-from-a-disks-center) | Blog | — | Sep 09, 2026 |
+| [Explain Linear Regression Assumptions, Evaluation, and Feature Addition](https://trueinterview.io/questions/explain-linear-regression-assumptions-evaluation-and-feature-addition) | Blog | — | Sep 09, 2026 |
+| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | Blog | — | Sep 09, 2026 |
+| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | Blog | — | Sep 09, 2026 |
+| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | Blog | — | Sep 09, 2026 |
 | [Value a Die Game with Optional Continuation](https://trueinterview.io/questions/value-a-die-game-with-optional-continuation) | Blog | — | Aug 29, 2026 |
 | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Algorithm | Medium | Aug 29, 2026 |
 | [Choose Between an Array and a Linked List](https://trueinterview.io/questions/choose-between-an-array-and-a-linked-list) | Blog | — | Aug 29, 2026 |

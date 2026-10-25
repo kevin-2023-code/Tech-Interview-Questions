@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **100** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 10 |
+| Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (69% of 100) |
 | Difficulty (easy / medium / hard) | 16 / 53 / 20 |
 | Free to practise | [16](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **100 of 100** questions at Salesfo
 
 ## Asked here in the last 90 days
 
-**10 sightings** in this window. Newest first.
+**9 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -52,7 +52,6 @@ Which stage each question came from, for the **100 of 100** questions at Salesfo
 | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Algorithm | Hard | Onsite / virtual onsite | Aug 16, 2026 |
 | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
-| [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Easy | Phone screen | Jul 26, 2026 |
 
 ## What they ask about
 
