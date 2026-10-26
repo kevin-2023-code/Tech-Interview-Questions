@@ -62,7 +62,7 @@ The 8 questions to open first if you are preparing for Cvs Health, ranked by **t
 | **5** | [Create Views, Insert, and Update Correctly](https://trueinterview.io/questions/create-views-insert-and-update-correctly) | SQL | Medium | — | — |
 | **6** | [Design a flu-shot A/B/n campaign experiment](https://trueinterview.io/questions/design-a-flu-shot-a-b-n-campaign-experiment) | System Design | Medium | — | — |
 | **7** | [Design classification under missingness and imbalance](https://trueinterview.io/questions/design-classification-under-missingness-and-imbalance) | System Design | Medium | — | — |
-| **8** | [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label) | Algorithm | Medium | — | — |
+| **8** | [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label) | AI Coding | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -90,7 +90,7 @@ The 8 questions to open first if you are preparing for Cvs Health, ranked by **t
 | [Calculate CI and Test Correlation Under Normality](https://trueinterview.io/questions/calculate-ci-and-test-correlation-under-normality) | Blog | — | — |
 | [Build an uplift model for targeting](https://trueinterview.io/questions/build-an-uplift-model-for-targeting) | Blog | — | — |
 | [Write SQL for dedup and purchase shares](https://trueinterview.io/questions/write-sql-for-dedup-and-purchase-shares) | SQL | Medium | — |
-| [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label) | Algorithm | Medium | — |
+| [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label) | AI Coding | Medium | — |
 | [Create Views, Insert, and Update Correctly](https://trueinterview.io/questions/create-views-insert-and-update-correctly) | SQL | Medium | — |
 | [Create and query an e-commerce schema](https://trueinterview.io/questions/create-and-query-an-e-commerce-schema) | SQL | Medium | — |
 | [Compute age-band spend and YoY in Georgia](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) | SQL | Medium | — |

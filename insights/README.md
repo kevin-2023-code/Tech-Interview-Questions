@@ -16,10 +16,10 @@
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 226 | 34% | ████████████████ |
+| [Algorithm](../formats/algorithm.md) | 225 | 34% | ████████████████ |
 | [SQL](../formats/sql.md) | 14 | 2% | █ |
 | [System Design](../formats/system-design.md) | 142 | 22% | ██████████ |
-| [AI Coding](../formats/ai-coding.md) | 3 | 0% | █ |
+| [AI Coding](../formats/ai-coding.md) | 4 | 1% | █ |
 | [Blog](../formats/blog.md) | 201 | 31% | ██████████████ |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 70 | 11% | █████ |
 
@@ -51,10 +51,10 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,500 | 44% | 226 | 445 | 1,531 | 524 | 2,500 | 303 |
+| [Algorithm](../formats/algorithm.md) | 2,492 | 44% | 225 | 444 | 1,525 | 523 | 2,492 | 303 |
 | [SQL](../formats/sql.md) | 297 | 5% | 14 | 65 | 179 | 53 | 297 | 6 |
 | [System Design](../formats/system-design.md) | 703 | 12% | 142 | 29 | 365 | 309 | 703 | 39 |
-| [AI Coding](../formats/ai-coding.md) | 126 | 2% | 3 | 9 | 80 | 37 | 126 | 12 |
+| [AI Coding](../formats/ai-coding.md) | 134 | 2% | 4 | 10 | 86 | 38 | 134 | 12 |
 | [Blog](../formats/blog.md) | 1,402 | 25% | 201 | 0 | 0 | 0 | 0 | 1,402 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 608 | 11% | 70 | 51 | 477 | 80 | 608 | 68 |
 
@@ -87,7 +87,7 @@ Of the **5,636 questions that name a round** (100% of the bank):
 
 ## Topics
 
-Of the **2,478 questions that carry a topic label** (44% of the bank — the rest are unlabelled, which is not the same as having no topic):
+Of the **2,474 questions that carry a topic label** (44% of the bank — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
@@ -96,8 +96,8 @@ Of the **2,478 questions that carry a topic label** (44% of the bank — the res
 | `graphs` | 368 | 15% | 43 | ██████████████ |
 | `strings` | 349 | 14% | 33 | █████████████ |
 | `greedy` | 211 | 9% | 19 | ████████ |
-| `math` | 195 | 8% | 23 | ███████ |
 | `dynamic-programming` | 192 | 8% | 14 | ███████ |
+| `math` | 191 | 8% | 22 | ███████ |
 | `sorting` | 186 | 8% | 21 | ███████ |
 | `trees` | 179 | 7% | 24 | ███████ |
 | `matrix` | 151 | 6% | 24 | ██████ |

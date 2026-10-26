@@ -17,7 +17,7 @@
 | Questions tracked | **121** |
 | Most recent sighting | Sep 02, 2026 |
 | Reported in the last 90 days | 9 |
-| Most common format | [Algorithm](../formats/algorithm.md) (46% of 121) |
+| Most common format | [Algorithm](../formats/algorithm.md) (45% of 121) |
 | Difficulty (easy / medium / hard) | 11 / 69 / 21 |
 | Free to practise | [28](../free/README.md) |
 | Guides & writeups | 3 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **121 of 121** questions at Pintere
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 8 | █ | [Algorithm](../formats/algorithm.md) (75%) | 5 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 67 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 1 / 48 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 67 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 1 / 48 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 58 | █████████ | [System Design](../formats/system-design.md) (33%) | 5 / 28 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -219,7 +219,7 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Implement and extend My Calendar III](https://trueinterview.io/questions/implement-and-extend-my-calendar-iii) | Object Oriented Programming | Medium | — |
 | [Compute CTR by format for new US users](https://trueinterview.io/questions/compute-ctr-by-format-for-new-us-users) | SQL | Medium | — |
 | [Compute average unique pins per user](https://trueinterview.io/questions/compute-average-unique-pins-per-user) | Algorithm | Medium | — |
-| [Find top category by video time spent](https://trueinterview.io/questions/find-top-category-by-video-time-spent) | Algorithm | Medium | — |
+| [Find top category by video time spent](https://trueinterview.io/questions/find-top-category-by-video-time-spent) | AI Coding | Medium | — |
 | [Implement Bootstrap Confidence Interval and Jackknife Standard Error for a Two-Group Metric](https://trueinterview.io/questions/f8f2b747-5843-5b82-a2ff-52f8aad3a4bd) | Algorithm | Medium | — |
 | [Minimum Pins to Exactly Fill a Screen](https://trueinterview.io/questions/e817dce0-d504-5169-b4ba-d28533e7f068) | Algorithm | Medium | — |
 | [Combination Sum IV with Negative Numbers](https://trueinterview.io/questions/d7e6cbbf-5d76-59af-835f-6160ad3843a0) | Algorithm | Medium | — |

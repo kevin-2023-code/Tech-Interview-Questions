@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,636 questions** · **245 writeups** · **131 companies** · **1,830 free to practise** · **656 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,636 questions** · **255 writeups** · **131 companies** · **1,830 free to practise** · **656 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,7 +42,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 656 sightings at 89 companies — Algorithm 226 · SQL 14 · System Design 142 · AI Coding 3 · Blog 201 · Object Oriented Programming 70.
+**Last 90 days:** 656 sightings at 89 companies — Algorithm 225 · SQL 14 · System Design 142 · AI Coding 4 · Blog 201 · Object Oriented Programming 70.
 
 **Reported most:** [Amazon (89)](companies/amazon.md) · [ByteDance (44)](companies/bytedance.md) · [Google (41)](companies/google.md) · [Microsoft (38)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [OpenAI (23)](companies/openai.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md)
 
@@ -65,7 +65,7 @@ share naming the population it is a share of.
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
-**Interview process:** [Writeups on how 91 companies interview (245 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
+**Interview process:** [Writeups on how 91 companies interview (255 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
 <!-- gen:guides:end -->
 
 How a round runs, a problem worked end to end, notes on a process — each one filed
@@ -138,7 +138,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (2,500)](formats/algorithm.md) · [SQL (297)](formats/sql.md) · [System Design (703)](formats/system-design.md) · [AI Coding (126)](formats/ai-coding.md) · [Blog (1,402)](formats/blog.md) · [Object Oriented Programming (608)](formats/object-oriented-programming.md)
+[Algorithm (2,492)](formats/algorithm.md) · [SQL (297)](formats/sql.md) · [System Design (703)](formats/system-design.md) · [AI Coding (134)](formats/ai-coding.md) · [Blog (1,402)](formats/blog.md) · [Object Oriented Programming (608)](formats/object-oriented-programming.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported

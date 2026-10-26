@@ -2,7 +2,7 @@
 
 # Topics
 
-What the bank is *about*, counted over the **2,478 questions that carry a topic label** — 44% of 5,636. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
+What the bank is *about*, counted over the **2,474 questions that carry a topic label** — 44% of 5,636. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
 
 [← Insights](README.md) · [← Question bank](../README.md)
 
@@ -13,8 +13,8 @@ What the bank is *about*, counted over the **2,478 questions that carry a topic 
 | `graphs` | 368 | 15% | 43 | 25 | 235 | 108 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
 | `strings` | 349 | 14% | 33 | 92 | 211 | 46 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `greedy` | 211 | 9% | 19 | 19 | 146 | 46 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
-| `math` | 195 | 8% | 23 | 38 | 99 | 58 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
 | `dynamic-programming` | 192 | 8% | 14 | 10 | 114 | 68 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `math` | 191 | 8% | 22 | 38 | 96 | 57 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
 | `sorting` | 186 | 8% | 21 | 36 | 106 | 44 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `trees` | 179 | 7% | 24 | 22 | 117 | 40 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `matrix` | 151 | 6% | 24 | 11 | 110 | 30 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Google](../companies/google.md) |
@@ -66,17 +66,17 @@ The most recently reported question carrying each label — newest sighting firs
 - [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) · Algorithm · Hard
 - [Minimum Set of Values to Remove Half the Array](https://trueinterview.io/questions/min-set-size-remove-half) · Algorithm · Medium
 
-**`math`** — 195 questions
-
-- [Count Non-Decreasing Arrays with Target Digit Sums](https://trueinterview.io/questions/non-decreasing-digit-sum-array-count) · Algorithm · Hard
-- [Maximum-Area Rectangle from Planar Points](https://trueinterview.io/questions/max-area-rectangle-from-points) · Algorithm · Hard
-- [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) · Algorithm · Hard
-
 **`dynamic-programming`** — 192 questions
 
 - [Longest Non-Decreasing Subarray with One Replacement](https://trueinterview.io/questions/longest-non-decreasing-subarray-one-replacement) · Algorithm · Medium
 - [Count Non-Decreasing Arrays with Target Digit Sums](https://trueinterview.io/questions/non-decreasing-digit-sum-array-count) · Algorithm · Hard
 - [Maximum Subarray Sum After K Concatenations](https://trueinterview.io/questions/k-concatenation-maximum-subarray-sum) · Algorithm · Medium
+
+**`math`** — 191 questions
+
+- [Count Non-Decreasing Arrays with Target Digit Sums](https://trueinterview.io/questions/non-decreasing-digit-sum-array-count) · Algorithm · Hard
+- [Maximum-Area Rectangle from Planar Points](https://trueinterview.io/questions/max-area-rectangle-from-points) · Algorithm · Hard
+- [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) · Algorithm · Hard
 
 **`sorting`** — 186 questions
 

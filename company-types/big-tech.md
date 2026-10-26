@@ -18,18 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 1,312 | 46% | ██████████████ | 110 |
+| [Algorithm](../formats/algorithm.md) | 1,308 | 46% | ██████████████ | 110 |
 | [Blog](../formats/blog.md) | 705 | 25% | ████████ | 705 |
 | [System Design](../formats/system-design.md) | 373 | 13% | ████ | 17 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 252 | 9% | ███ | 21 |
 | [SQL](../formats/sql.md) | 179 | 6% | ██ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 39 | 1% | █ | 4 |
+| [AI Coding](../formats/ai-coding.md) | 43 | 2% | █ | 4 |
 
 <sub>Difficulty across the cut (easy / medium / hard): **315 / 1350 / 490**, over the rows the catalog has graded. 857 of the 2,860 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **1,322 questions in this cut that carry a topic label** (46% of it):
+Of the **1,319 questions in this cut that carry a topic label** (46% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -42,7 +42,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | `trees` | 97 | 7% | ██████ |
 | `sorting` | 93 | 7% | █████ |
 | `matrix` | 88 | 7% | █████ |
-| `math` | 87 | 7% | █████ |
+| `two-pointers` | 87 | 7% | █████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

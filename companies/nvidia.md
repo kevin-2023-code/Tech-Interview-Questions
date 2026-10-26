@@ -17,7 +17,7 @@
 | Questions tracked | **54** |
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (43% of 54) |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 54) |
 | Difficulty (easy / medium / hard) | 7 / 23 / 8 |
 | Free to practise | [22](../free/README.md) |
 | Guides & writeups | 3 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **54 of 54** questions at NVIDIA th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 3 / 16 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 3 / 16 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 21 | ██████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 11 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -49,20 +49,20 @@ Which stage each question came from, for the **54 of 54** questions at NVIDIA th
 
 ## What they ask about
 
-Of the **24 questions at NVIDIA that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **23 questions at NVIDIA that carry a topic label** (43% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `two-pointers` | 5 | 21% | ████████████ | Dec 08, 2025 |
+| `two-pointers` | 5 | 22% | ████████████ | Dec 08, 2025 |
 | `hashing` | 4 | 17% | ██████████ | Apr 15, 2026 |
-| `arrays` | 3 | 12% | ███████ | Aug 21, 2026 |
-| `sliding-window` | 3 | 12% | ███████ | May 01, 2026 |
-| `sorting` | 3 | 12% | ███████ | Feb 04, 2026 |
-| `strings` | 3 | 12% | ███████ | Apr 26, 2026 |
-| `binary-search` | 2 | 8% | █████ | Aug 21, 2026 |
-| `heap` | 2 | 8% | █████ | Feb 05, 2026 |
-| `math` | 2 | 8% | █████ | Feb 12, 2026 |
+| `arrays` | 3 | 13% | ███████ | Aug 21, 2026 |
+| `sliding-window` | 3 | 13% | ███████ | May 01, 2026 |
+| `sorting` | 3 | 13% | ███████ | Feb 04, 2026 |
+| `strings` | 3 | 13% | ███████ | Apr 26, 2026 |
+| `binary-search` | 2 | 9% | █████ | Aug 21, 2026 |
+| `heap` | 2 | 9% | █████ | Feb 05, 2026 |
 | `dynamic-programming` | 1 | 4% | ██ | — |
+| `graphs` | 1 | 4% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -139,7 +139,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [Return all file paths via DFS](https://trueinterview.io/questions/return-all-file-paths-via-dfs) | Algorithm | Medium | Mar 04, 2026 |
 | [C++ Project Debugging with AI Tools](https://trueinterview.io/questions/cpp-debugging-with-ai-tools) | AI Coding | Hard | Feb 12, 2026 |
 | [Computation / Dependency Graph Validation and Pruning](https://trueinterview.io/questions/graph-validation-and-pruning) | Object Oriented Programming | Medium | Feb 12, 2026 |
-| [FP32 Tensor to Int8 Quantization](https://trueinterview.io/questions/fp32-to-int8-quantization) | Algorithm | Medium | Feb 12, 2026 |
+| [FP32 Tensor to Int8 Quantization](https://trueinterview.io/questions/fp32-to-int8-quantization) | AI Coding | Medium | Feb 12, 2026 |
 | [Implement matrix transpose and KV store](https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store) | Object Oriented Programming | Medium | Feb 09, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Compare arrays, linked lists, hash tables, trees](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees) | Blog | — | Feb 06, 2026 |

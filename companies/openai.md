@@ -32,7 +32,7 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 8 | █ | [Algorithm](../formats/algorithm.md) (75%) | 6 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 94 | ██████████ | [Algorithm](../formats/algorithm.md) (48%) | 3 / 50 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 94 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 3 / 50 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 92 | ██████████ | [System Design](../formats/system-design.md) (36%) | 4 / 35 / 44 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -60,20 +60,20 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 
 ## What they ask about
 
-Of the **58 questions at OpenAI that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **57 questions at OpenAI that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 11 | 19% | ████████████ | Aug 15, 2026 |
-| `math` | 10 | 17% | ███████████ | Sep 08, 2026 |
+| `math` | 9 | 16% | ██████████ | Sep 08, 2026 |
 | `hashing` | 8 | 14% | █████████ | Aug 22, 2026 |
-| `arrays` | 6 | 10% | ███████ | Feb 04, 2026 |
-| `strings` | 6 | 10% | ███████ | May 15, 2026 |
+| `arrays` | 6 | 11% | ███████ | Feb 04, 2026 |
+| `strings` | 6 | 11% | ███████ | May 15, 2026 |
 | `matrix` | 5 | 9% | █████ | Aug 27, 2026 |
 | `sorting` | 4 | 7% | ████ | Jun 26, 2026 |
 | `topological-sort` | 4 | 7% | ████ | Sep 17, 2026 |
 | `greedy` | 3 | 5% | ███ | Jul 10, 2026 |
-| `backtracking` | 2 | 3% | ██ | Sep 10, 2026 |
+| `backtracking` | 2 | 4% | ██ | Sep 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -197,7 +197,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Object Oriented Programming | Medium | Jun 2026 |
 | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | Algorithm | Hard | May 31, 2026 |
 | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | AI Coding | Medium | May 31, 2026 |
-| [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Algorithm | Hard | May 31, 2026 |
+| [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | AI Coding | Hard | May 31, 2026 |
 | [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus) | System Design | Hard | May 26, 2026 |
 | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | May 26, 2026 |
 | [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | AI Coding | Medium | May 26, 2026 |

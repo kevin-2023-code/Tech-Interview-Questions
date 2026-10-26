@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,500 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,492 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,11 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Point72** | [K-th missing number](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) | Medium | Oct 20, 2025 |
-| **Stripe** | [Business Account Data Verification](https://trueinterview.io/questions/business-account-data-verification) | Medium | Oct 20, 2025 |
-| **Google / Stripe** | [Match payments to invoices by memo or amount](https://trueinterview.io/questions/match-payments-to-invoices-by-memo-or-amount-2) | Medium | Oct 19, 2025 |
-| **ByteDance** | [Find first and last index of target](https://trueinterview.io/questions/find-first-and-last-index-of-target) | Medium | Oct 19, 2025 |
-| **Roblox** | [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks) | Hard | Oct 18, 2025 |
 | **DoorDash** | [Find closest value to a target in a BST](https://trueinterview.io/questions/find-closest-value-to-a-target-in-a-bst) | Medium | Oct 17, 2025 |
 | **Rippling** | [Aggregate expenses by person, trip, and category](https://trueinterview.io/questions/aggregate-expenses-by-person-trip-and-category) | Medium | Oct 17, 2025 |
 | **Bloomberg** | [Palindrome Stream Tracker](https://trueinterview.io/questions/palindrome-stream-tracker) | Hard | Oct 17, 2025 |
@@ -223,7 +218,6 @@
 | **OpenAI** | [Debug and fix a PyTorch Transformer training loop](https://trueinterview.io/questions/debug-and-fix-a-pytorch-transformer-training-loop) | Hard | — |
 | **Boston Consulting Group** | [Achieve 0.95 precision via thresholding](https://trueinterview.io/questions/achieve-0-95-precision-via-thresholding) | Medium | — |
 | **Meta** | [Validate complete binary tree](https://trueinterview.io/questions/validate-complete-binary-tree) | Medium | — |
-| **Cvs Health** | [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label) | Medium | — |
 | **Onemain Financial** | [Transform clickstream with pandas sessionization](https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization) | Hard | — |
 | **Applied Intuition** | [Track simulations and report timeouts](https://trueinterview.io/questions/track-simulations-and-report-timeouts) | Hard | — |
 | **Amazon** | [Solve two-sum variants at scale](https://trueinterview.io/questions/solve-two-sum-variants-at-scale) | Medium | — |
@@ -237,7 +231,6 @@
 | **Capital One** | [Merge seven tables into one clean DataFrame](https://trueinterview.io/questions/merge-seven-tables-into-one-clean-dataframe) | Medium | — |
 | **ByteDance** | [Maximize products bought under budget](https://trueinterview.io/questions/maximize-products-bought-under-budget) | Hard | — |
 | **Point72** | [Maximize outfits with distinct colors](https://trueinterview.io/questions/maximize-outfits-with-distinct-colors) | Hard | — |
-| **Atlassian** | [Label game performance by margin](https://trueinterview.io/questions/label-game-performance-by-margin) | Easy | — |
 | **Uber** | [Implement weighted sampling without replacement](https://trueinterview.io/questions/implement-weighted-sampling-without-replacement) | Hard | — |
 | **Roblox** | [Implement streaming CTR with deduplication](https://trueinterview.io/questions/implement-streaming-ctr-with-deduplication) | Hard | — |
 | **Pinterest** | [Implement scalable prime generator](https://trueinterview.io/questions/implement-scalable-prime-generator) | Medium | — |
@@ -260,5 +253,12 @@
 | **Scale AI** | [Find LCA in a N-ary tree via DFS](https://trueinterview.io/questions/find-lca-in-a-n-ary-tree-via-dfs) | Medium | — |
 | **Snapchat** | [Count ways to decode digit string](https://trueinterview.io/questions/count-ways-to-decode-digit-string) | Medium | — |
 | **Rippling** | [Convert amounts between multiple currencies](https://trueinterview.io/questions/convert-amounts-between-multiple-currencies) | Hard | — |
+| **Google** | [Compute precision–recall curve on imbalanced data](https://trueinterview.io/questions/compute-precisionrecall-curve-on-imbalanced-data) | Medium | — |
+| **Apple** | [Compute optimal matrix-chain multiplication order](https://trueinterview.io/questions/compute-optimal-matrix-chain-multiplication-order) | Hard | — |
+| **Uber** | [Compute maximum concurrent trips from intervals](https://trueinterview.io/questions/compute-maximum-concurrent-trips-from-intervals) | Medium | — |
+| **Dropbox** | [Compute max island with constrained flips](https://trueinterview.io/questions/compute-max-island-with-constrained-flips) | Hard | — |
+| **Google** | [Compute city skyline outline](https://trueinterview.io/questions/compute-city-skyline-outline) | Hard | — |
+| **Airbnb** | [Compute browsing metrics in Python from logs](https://trueinterview.io/questions/compute-browsing-metrics-in-python-from-logs) | Hard | — |
+| **Pinterest** | [Compute average unique pins per user](https://trueinterview.io/questions/compute-average-unique-pins-per-user) | Medium | — |
 
 <sub>[← Page 5](algorithm-5.md) · Page 6 of 10 · [Page 7 →](algorithm-7.md)</sub>

@@ -17,7 +17,7 @@
 | Questions tracked | **467** |
 | Most recent sighting | Oct 03, 2026 |
 | Reported in the last 90 days | 89 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 467) |
+| Most common format | [Algorithm](../formats/algorithm.md) (46% of 467) |
 | Difficulty (easy / medium / hard) | 60 / 226 / 64 |
 | Free to practise | [147](../free/README.md) |
 | Guides & writeups | 5 |
@@ -32,7 +32,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 52 | ██ | [Algorithm](../formats/algorithm.md) (83%) | 23 / 17 / 8 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 240 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 23 / 117 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 209 | █████████ | [Algorithm](../formats/algorithm.md) (32%) | 19 / 112 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 209 | █████████ | [Algorithm](../formats/algorithm.md) (31%) | 19 / 112 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -59,7 +59,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 
 ## What they ask about
 
-Of the **220 questions at Amazon that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **218 questions at Amazon that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -185,7 +185,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design an Object-Oriented Shopping Cart](https://trueinterview.io/questions/design-an-object-oriented-shopping-cart) | Object Oriented Programming | Medium | Sep 02, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | Sep 02, 2026 |
 | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | Medium | Sep 01, 2026 |
-| [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | Medium | Sep 01, 2026 |
+| [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | AI Coding | Medium | Sep 01, 2026 |
 | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | Hard | Sep 01, 2026 |
 | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | Hard | Sep 01, 2026 |
 | [Taking Ownership of a Technically Risky Project](https://trueinterview.io/questions/taking-ownership-of-a-technically-risky-project) | Blog | — | Aug 30, 2026 |
@@ -235,7 +235,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Maximize Prime Item Inventory](https://trueinterview.io/questions/maximize-prime-item-inventory) | SQL | Medium | Jul 22, 2026 |
 | [Highest-Grossing Items](https://trueinterview.io/questions/highest-grossing-items) | SQL | Easy | Jul 22, 2026 |
 | [Best-Selling Product](https://trueinterview.io/questions/best-selling-product) | SQL | Easy | Jul 22, 2026 |
-| [Handwrite Sigmoid, Softmax, and Attention](https://trueinterview.io/questions/handwrite-sigmoid-softmax-attention) | Algorithm | Medium | Jul 20, 2026 |
+| [Handwrite Sigmoid, Softmax, and Attention](https://trueinterview.io/questions/handwrite-sigmoid-softmax-attention) | AI Coding | Medium | Jul 20, 2026 |
 | [Edit Distance (LC 72) with a Follow-Up Variant](https://trueinterview.io/questions/edit-distance-one-reverse) | Algorithm | Hard | Jul 14, 2026 |
 | [Best Time to Buy & Sell Stock — Merged Variants](https://trueinterview.io/questions/buy-sell-stock-merged-variants) | Algorithm | Hard | Jul 10, 2026 |
 | [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/questions/asm-phone-screen-deep-dive-bq) | Blog | — | Jul 07, 2026 |

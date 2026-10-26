@@ -17,7 +17,7 @@
 | Questions tracked | **64** |
 | Most recent sighting | Sep 04, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (42% of 64) |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 64) |
 | Difficulty (easy / medium / hard) | 17 / 38 / 6 |
 | Free to practise | [18](../free/README.md) |
 | Guides & writeups | 3 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **64 of 64** questions at Atlassian
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 28 | ███████ | [Algorithm](../formats/algorithm.md) (57%) | 5 / 20 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 28 | ███████ | [Algorithm](../formats/algorithm.md) (54%) | 5 / 20 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 39 | ██████████ | [System Design](../formats/system-design.md) (44%) | 8 / 24 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -166,7 +166,7 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Campground Carpool](https://trueinterview.io/questions/karat-carpool-linear-routes) | Algorithm | Medium | Jul 03, 2025 |
 | [Demonstrate motivation, feedback, and prioritization](https://trueinterview.io/questions/demonstrate-motivation-feedback-and-prioritization) | Blog | — | — |
 | [Rank each team’s top 3 scores in 2024](https://trueinterview.io/questions/rank-each-teams-top-3-scores-in-2024) | SQL | Medium | — |
-| [Label game performance by margin](https://trueinterview.io/questions/label-game-performance-by-margin) | Algorithm | Easy | — |
+| [Label game performance by margin](https://trueinterview.io/questions/label-game-performance-by-margin) | AI Coding | Easy | — |
 | [Find 2023 NCAA championship winner](https://trueinterview.io/questions/find-2023-ncaa-championship-winner) | SQL | Medium | — |
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Algorithm | Medium | — |
 | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | — |

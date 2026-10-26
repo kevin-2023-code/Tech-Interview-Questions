@@ -31,7 +31,7 @@ Which stage each question came from, for the **34 of 34** questions at Scale AI 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (38%) | 0 / 10 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (33%) | 0 / 10 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 17 | ████████ | [Blog](../formats/blog.md) (47%) | 0 / 8 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -125,7 +125,7 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 | [Design a Streaming Job Scheduler](https://trueinterview.io/questions/design-a-streaming-job-scheduler) | Object Oriented Programming | Hard | Apr 09, 2026 |
 | [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks) | Algorithm | Medium | Mar 29, 2026 |
 | [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation) | Blog | — | Mar 25, 2026 |
-| [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention) | Algorithm | Medium | Mar 25, 2026 |
+| [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention) | AI Coding | Medium | Mar 25, 2026 |
 | [Answer common project leadership questions](https://trueinterview.io/questions/answer-common-project-leadership-questions) | Blog | — | Mar 17, 2026 |
 | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | Feb 16, 2026 |
 | [Handle customer engagement and manager-rating questions](https://trueinterview.io/questions/handle-customer-engagement-and-manager-rating-questions) | Blog | — | Feb 12, 2026 |
