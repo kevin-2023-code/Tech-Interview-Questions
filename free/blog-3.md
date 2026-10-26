@@ -202,7 +202,7 @@
 | [Evaluate Miami Ultrafast impact on orders](https://trueinterview.io/questions/evaluate-miami-ultrafast-impact-on-orders) | **Instacart** | — | — |
 | [Evaluate new-product notification feature](https://trueinterview.io/questions/evaluate-new-product-notification-feature) | **Meta** | — | Jan 05, 2026 |
 | [Evaluate NLP Classification Models](https://trueinterview.io/questions/evaluate-nlp-classification-models) | **Amazon** | — | Apr 03, 2026 |
-| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | **Wayfair** | — | 🆕 Sep 10, 2026 |
+| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | **Wayfair** | — | Sep 10, 2026 |
 | [Evaluate ROI and payback for renewables](https://trueinterview.io/questions/evaluate-roi-and-payback-for-renewables) | **Capital One** | — | — |
 | [Evaluate shift from branch to digital channel](https://trueinterview.io/questions/evaluate-shift-from-branch-to-digital-channel) | **Onemain Financial** | — | Oct 07, 2025 |
 | [Evaluate smart cart idea and design experiment](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment) | **PayPal** | — | Oct 10, 2025 |

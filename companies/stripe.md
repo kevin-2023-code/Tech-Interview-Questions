@@ -172,7 +172,7 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | System Design | Easy | 🆕 Sep 11, 2026 |
 | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | 🆕 Sep 11, 2026 |
 | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | 🆕 Sep 11, 2026 |
-| [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | 🆕 Sep 10, 2026 |
+| [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | Sep 10, 2026 |
 | [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve) | Algorithm | Medium | Sep 07, 2026 |
 | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | Sep 04, 2026 |
 | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | SQL | Easy | Aug 31, 2026 |

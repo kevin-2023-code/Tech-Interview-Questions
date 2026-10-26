@@ -49,7 +49,7 @@
 | [How would you use generative AI at work?](https://trueinterview.io/questions/how-would-you-use-generative-ai-at-work) | **IBM** | — | Oct 15, 2025 |
 | [How would you use propensity score matching here](https://trueinterview.io/questions/how-would-you-use-propensity-score-matching-here) | **Google** | — | Nov 24, 2025 |
 | [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/questions/how-you-build-service-stability-and-troubleshoot-production-incidents) | **ByteDance** | — | Sep 05, 2026 |
-| [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) | **Airwallex** | — | 🆕 Sep 10, 2026 |
+| [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) | **Airwallex** | — | Sep 10, 2026 |
 | [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen) | **Optiver** | — | Dec 13, 2025 |
 | [Identify incorrect HTTP status code description](https://trueinterview.io/questions/identify-incorrect-http-status-code-description) | **Bitkernel** | — | Oct 24, 2025 |
 | [Identify incorrect statement about primary keys](https://trueinterview.io/questions/identify-incorrect-statement-about-primary-keys) | **Bitkernel** | — | Oct 24, 2025 |

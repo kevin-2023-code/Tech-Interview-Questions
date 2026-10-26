@@ -15,7 +15,7 @@
 | [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/questions/horse-race-25) | **Goldman Sachs** | — | Jun 09, 2025 |
 | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | **Apple** | — | Sep 09, 2026 |
 | [Act when A/B result is not significant](https://trueinterview.io/questions/act-when-a-b-result-is-not-significant) | **ByteDance** | — | — |
-| [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | **Microsoft** | — | 🆕 Sep 10, 2026 |
+| [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | **Microsoft** | — | Sep 10, 2026 |
 | [Address face recognition concerns with stakeholders](https://trueinterview.io/questions/address-face-recognition-concerns-with-stakeholders) | **Capital One** | — | — |
 | [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning) | **Akuna Capital** | — | Oct 20, 2025 |
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/questions/ai-ml-fundamentals-oral) | **Salesforce** | — | Mar 10, 2026 |

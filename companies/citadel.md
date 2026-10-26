@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **91** |
 | Most recent sighting | Sep 18, 2026 |
-| Reported in the last 90 days | 10 |
+| Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 91) |
 | Difficulty (easy / medium / hard) | 9 / 47 / 17 |
 | Free to practise | [23](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **91 of 91** questions at Citadel t
 
 ## Asked here in the last 90 days
 
-**10 sightings** in this window. Newest first.
+**9 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -51,7 +51,6 @@ Which stage each question came from, for the **91 of 91** questions at Citadel t
 | [Candy (LC 135)](https://trueinterview.io/questions/candy-lc-135) | Algorithm | Medium | Phone screen | Aug 08, 2026 |
 | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Hard | Phone screen | Aug 05, 2026 |
 | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | Phone screen | Aug 05, 2026 |
-| [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Hard | Phone screen | Jul 27, 2026 |
 
 ## What they ask about
 

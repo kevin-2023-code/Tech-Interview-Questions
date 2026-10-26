@@ -48,7 +48,7 @@ Of the **194 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**46 sightings** across this cut. Newest first.
+**45 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **194 questions in this cut that carry a topic label** (53% of it):
 | [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | Squarepoint | Blog | Sep 09, 2026 |
 | [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | Squarepoint | Blog | Sep 09, 2026 |
 
-<sub>34 more in this window are in the table below.</sub>
+<sub>33 more in this window are in the table below.</sub>
 
 ---
 

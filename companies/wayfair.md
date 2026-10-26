@@ -91,10 +91,10 @@ The 7 questions to open first if you are preparing for Wayfair, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | AI Coding | Medium | 🆕 Sep 10, 2026 |
-| [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | System Design | Hard | 🆕 Sep 10, 2026 |
-| [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | System Design | Hard | 🆕 Sep 10, 2026 |
-| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | Blog | — | 🆕 Sep 10, 2026 |
+| [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | AI Coding | Medium | Sep 10, 2026 |
+| [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | System Design | Hard | Sep 10, 2026 |
+| [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | System Design | Hard | Sep 10, 2026 |
+| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | Blog | — | Sep 10, 2026 |
 | [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value) | Algorithm | Hard | Sep 09, 2026 |
 | [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks) | SQL | Medium | Feb 16, 2026 |
 | [How to improve complaint resolution](https://trueinterview.io/questions/how-to-improve-complaint-resolution) | SQL | Medium | Feb 16, 2026 |

@@ -160,7 +160,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Object Oriented Programming | Medium | 🆕 Sep 28, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
 | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | 🆕 Sep 17, 2026 |
-| [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | 🆕 Sep 10, 2026 |
+| [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | Sep 10, 2026 |
 | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | Sep 08, 2026 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | Sep 07, 2026 |
 | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | Aug 27, 2026 |

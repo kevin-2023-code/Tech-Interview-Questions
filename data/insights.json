@@ -101,7 +101,7 @@
       "free": 54,
       "guides": 4,
       "inLastYear": 133,
-      "inWindow": 14,
+      "inWindow": 13,
       "lastSighting": "2026-10-02",
       "name": "Apple",
       "questions": 181,
@@ -270,7 +270,7 @@
       "free": 23,
       "guides": 1,
       "inLastYear": 57,
-      "inWindow": 10,
+      "inWindow": 9,
       "lastSighting": "2026-09-18",
       "name": "Citadel",
       "questions": 91,
@@ -464,7 +464,7 @@
       "dated": 22,
       "free": 22,
       "guides": 1,
-      "inLastYear": 22,
+      "inLastYear": 21,
       "inWindow": 1,
       "lastSighting": "2026-09-12",
       "name": "Upstart",
@@ -1205,7 +1205,7 @@
       "dated": 10,
       "free": 5,
       "guides": 0,
-      "inLastYear": 10,
+      "inLastYear": 7,
       "inWindow": 0,
       "lastSighting": "2026-04-03",
       "name": "Discord",
@@ -1722,7 +1722,7 @@
       "free": 303,
       "graded": 2500,
       "hard": 524,
-      "inWindow": 228,
+      "inWindow": 226,
       "label": "Algorithm",
       "medium": 1531,
       "questions": 2500
@@ -1783,7 +1783,7 @@
       "questions": 608
     }
   ],
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "latestSighting": "2026-10-05",
   "months": [
     {
@@ -2532,7 +2532,7 @@
       "easy": 103,
       "graded": 428,
       "hard": 60,
-      "inWindow": 51,
+      "inWindow": 50,
       "medium": 265,
       "questions": 428,
       "topCompanies": [
@@ -2604,7 +2604,7 @@
       "easy": 25,
       "graded": 368,
       "hard": 108,
-      "inWindow": 44,
+      "inWindow": 43,
       "medium": 235,
       "questions": 368,
       "topCompanies": [
@@ -2784,7 +2784,7 @@
       "easy": 36,
       "graded": 186,
       "hard": 44,
-      "inWindow": 22,
+      "inWindow": 21,
       "medium": 106,
       "questions": 186,
       "topCompanies": [
@@ -3036,7 +3036,7 @@
       "easy": 20,
       "graded": 109,
       "hard": 15,
-      "inWindow": 7,
+      "inWindow": 6,
       "medium": 74,
       "questions": 109,
       "topCompanies": [
@@ -3292,8 +3292,8 @@
     "futureDated": 0,
     "gradedDifficulty": 4234,
     "guides": 245,
-    "inLastYear": 3108,
-    "inWindow": 658,
+    "inLastYear": 3104,
+    "inWindow": 656,
     "labelledTopic": 2478,
     "namingARound": 5636,
     "questions": 5636,

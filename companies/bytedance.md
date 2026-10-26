@@ -144,8 +144,8 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Algorithm | Medium | 🆕 Sep 28, 2026 |
 | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Algorithm | Medium | 🆕 Sep 25, 2026 |
 | [Design a Monitoring Dashboard with Explicit Latency Goals](https://trueinterview.io/questions/design-a-monitoring-dashboard-with-explicit-latency-goals) | System Design | Medium | 🆕 Sep 15, 2026 |
-| [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | 🆕 Sep 10, 2026 |
-| [Convert Identifier Naming in Docstrings](https://trueinterview.io/questions/37898248-3c48-565c-8143-a54070171bf8) | Algorithm | Medium | 🆕 Sep 10, 2026 |
+| [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | Sep 10, 2026 |
+| [Convert Identifier Naming in Docstrings](https://trueinterview.io/questions/37898248-3c48-565c-8143-a54070171bf8) | Algorithm | Medium | Sep 10, 2026 |
 | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | Blog | — | Sep 09, 2026 |
 | [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster) | Blog | — | Sep 06, 2026 |
 | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | Medium | Sep 06, 2026 |

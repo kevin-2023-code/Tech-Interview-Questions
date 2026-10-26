@@ -103,16 +103,16 @@ Of the **379 questions in this cut that carry a topic label** (53% of it):
 | **Oracle** | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | — | 🆕 Sep 11, 2026 |
 | **Rippling** | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Hard | 🆕 Sep 11, 2026 |
 | **Oracle** | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Medium | 🆕 Sep 11, 2026 |
-| **Rippling** | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | Medium | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | — | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | Medium | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | — | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Medium | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Easy | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | — | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Design a Voice and Chat AI Receptionist Platform](https://trueinterview.io/questions/design-a-voice-and-chat-ai-receptionist-platform) | Hard | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Design a Global One-to-One Voice Calling System](https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system) | Medium | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | — | 🆕 Sep 10, 2026 |
+| **Rippling** | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | Medium | Sep 10, 2026 |
+| **Microsoft** | [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | — | Sep 10, 2026 |
+| **Microsoft** | [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | Medium | Sep 10, 2026 |
+| **Microsoft** | [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | — | Sep 10, 2026 |
+| **Microsoft** | [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Medium | Sep 10, 2026 |
+| **Microsoft** | [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Easy | Sep 10, 2026 |
+| **Microsoft** | [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | — | Sep 10, 2026 |
+| **Microsoft** | [Design a Voice and Chat AI Receptionist Platform](https://trueinterview.io/questions/design-a-voice-and-chat-ai-receptionist-platform) | Hard | Sep 10, 2026 |
+| **Microsoft** | [Design a Global One-to-One Voice Calling System](https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system) | Medium | Sep 10, 2026 |
+| **Microsoft** | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | — | Sep 10, 2026 |
 | **Oracle** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | Medium | Sep 09, 2026 |
 | **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | Sep 09, 2026 |
 | **Oracle** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | Hard | Sep 05, 2026 |

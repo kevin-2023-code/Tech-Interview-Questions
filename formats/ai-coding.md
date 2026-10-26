@@ -9,7 +9,7 @@
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
-| **Wayfair** | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Medium | 🆕 Sep 10, 2026 |
+| **Wayfair** | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Medium | Sep 10, 2026 |
 | **Tradedesk** | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | Hard | Aug 31, 2026 |
 | **Walmart Labs** | [AI-Assisted Full-Stack Project Debugging](https://trueinterview.io/questions/ai-assisted-fullstack-oa) | Medium | Jul 07, 2026 |
 | **DoorDash** | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | Hard | Jul 02, 2026 |

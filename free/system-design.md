@@ -44,6 +44,6 @@
 | [Forecast Food Stocking Needs Under Waste and Stockout Costs](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) | **C3 AI** | Hard | Aug 21, 2026 |
 | [Million-User Flash Sale System](https://trueinterview.io/questions/million-user-flash-sale-system) | **JPMorgan** | Hard | Jun 21, 2025 |
 | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | **Waymo** | Hard | Sep 29, 2025 |
-| [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |
+| [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | **Wayfair** | Hard | Sep 10, 2026 |
 | [Redesign a Spam Classifier for Production](https://trueinterview.io/questions/redesign-a-spam-classifier-for-production) | **Indeed** | Hard | Aug 20, 2026 |
-| [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |
+| [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | **Wayfair** | Hard | Sep 10, 2026 |

@@ -91,7 +91,7 @@
 | [Explain owning and debugging infra modules](https://trueinterview.io/questions/explain-owning-and-debugging-infra-modules) | **Microsoft** | — | Jan 22, 2026 |
 | [Explain p-value and choose correct test](https://trueinterview.io/questions/explain-p-value-and-choose-correct-test) | **Cvs Health** | — | — |
 | [Explain p-values and interpret regressions](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions) | **PayPal** | — | Oct 10, 2025 |
-| [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | **Microsoft** | — | 🆕 Sep 10, 2026 |
+| [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | **Microsoft** | — | Sep 10, 2026 |
 | [Explain power drivers and resolve unexpected A/B results](https://trueinterview.io/questions/explain-power-drivers-and-resolve-unexpected-a-b-results) | **Thumbtack** | — | — |
 | [Explain project choices, metrics, and AI usage](https://trueinterview.io/questions/explain-project-choices-metrics-and-ai-usage) | **ByteDance** | — | Mar 01, 2026 |
 | [Explain Project Impact, Mentorship, and Fair Credit Allocation](https://trueinterview.io/questions/explain-project-impact-mentorship-and-fair-credit-allocation) | **Meta** | — | Sep 03, 2026 |

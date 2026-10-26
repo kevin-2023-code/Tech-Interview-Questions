@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **181** |
 | Most recent sighting | Oct 02, 2026 |
-| Reported in the last 90 days | 14 |
+| Reported in the last 90 days | 13 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 181) |
 | Difficulty (easy / medium / hard) | 34 / 90 / 26 |
 | Free to practise | [54](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **181 of 181** questions at Apple t
 
 ## Asked here in the last 90 days
 
-**14 sightings** in this window. Newest first.
+**13 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **181 of 181** questions at Apple t
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Algorithm | Hard | Onsite / virtual onsite | Aug 05, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 
-<sub>2 more in this window are in the table below.</sub>
+<sub>1 more in this window are in the table below.</sub>
 
 ## What they ask about
 

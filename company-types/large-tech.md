@@ -123,13 +123,13 @@ Of the **733 questions in this cut that carry a topic label** (44% of it):
 | **Stripe** | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | Easy | 🆕 Sep 11, 2026 |
 | **Stripe** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Medium | 🆕 Sep 11, 2026 |
 | **Stripe** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Medium | 🆕 Sep 11, 2026 |
-| **Stripe** | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | Medium | 🆕 Sep 10, 2026 |
-| **Airwallex** | [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Hard | 🆕 Sep 10, 2026 |
-| **Airwallex** | [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) | — | 🆕 Sep 10, 2026 |
-| **Rippling** | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | Medium | 🆕 Sep 10, 2026 |
-| **Airwallex** | [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid) | Hard | 🆕 Sep 10, 2026 |
-| **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | 🆕 Sep 10, 2026 |
-| **OpenAI** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Hard | 🆕 Sep 10, 2026 |
+| **Stripe** | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | Medium | Sep 10, 2026 |
+| **Airwallex** | [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Hard | Sep 10, 2026 |
+| **Airwallex** | [How You Use AI Tools at Work and When You Would Delegate a Task to an Agent](https://trueinterview.io/questions/how-you-use-ai-tools-at-work-and-when-you-would-delegate-a-task-to-an-agent) | — | Sep 10, 2026 |
+| **Rippling** | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | Medium | Sep 10, 2026 |
+| **Airwallex** | [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid) | Hard | Sep 10, 2026 |
+| **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | Sep 10, 2026 |
+| **OpenAI** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Hard | Sep 10, 2026 |
 | **Snapchat** | [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Medium | Sep 09, 2026 |
 | **Snapchat** | [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) | — | Sep 09, 2026 |
 | **Snapchat** | [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) | — | Sep 09, 2026 |

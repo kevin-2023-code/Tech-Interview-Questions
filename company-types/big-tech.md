@@ -48,7 +48,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**341 sightings** across this cut. Newest first.
+**340 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction (ML Design on CodeSignal)](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>329 more in this window are in the table below.</sub>
+<sub>328 more in this window are in the table below.</sub>
 
 ---
 
@@ -162,22 +162,22 @@ Of the **1,322 questions in this cut that carry a topic label** (46% of it):
 | **Oracle** | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | — | 🆕 Sep 11, 2026 |
 | **Oracle** | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Medium | 🆕 Sep 11, 2026 |
 | **Amazon** | [Recent Ad-Click Counter](https://trueinterview.io/questions/ea41a698-48dd-51f0-92ce-3f9a925b628a) | Easy | 🆕 Sep 11, 2026 |
-| **DoorDash** | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | Hard | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | — | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | Medium | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | — | 🆕 Sep 10, 2026 |
-| **DoorDash** | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | Medium | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Medium | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Easy | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | — | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Design a Voice and Chat AI Receptionist Platform](https://trueinterview.io/questions/design-a-voice-and-chat-ai-receptionist-platform) | Hard | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Design a Global One-to-One Voice Calling System](https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system) | Medium | 🆕 Sep 10, 2026 |
-| **DoorDash** | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | Medium | 🆕 Sep 10, 2026 |
-| **Microsoft** | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | — | 🆕 Sep 10, 2026 |
-| **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | 🆕 Sep 10, 2026 |
-| **ByteDance** | [Convert Identifier Naming in Docstrings](https://trueinterview.io/questions/37898248-3c48-565c-8143-a54070171bf8) | Medium | 🆕 Sep 10, 2026 |
-| **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🆕 Sep 10, 2026 |
-| **Google** | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Medium | 🆕 Sep 10, 2026 |
+| **DoorDash** | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | Hard | Sep 10, 2026 |
+| **Microsoft** | [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | — | Sep 10, 2026 |
+| **Microsoft** | [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | Medium | Sep 10, 2026 |
+| **Microsoft** | [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | — | Sep 10, 2026 |
+| **DoorDash** | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | Medium | Sep 10, 2026 |
+| **Microsoft** | [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Medium | Sep 10, 2026 |
+| **Microsoft** | [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Easy | Sep 10, 2026 |
+| **Microsoft** | [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | — | Sep 10, 2026 |
+| **Microsoft** | [Design a Voice and Chat AI Receptionist Platform](https://trueinterview.io/questions/design-a-voice-and-chat-ai-receptionist-platform) | Hard | Sep 10, 2026 |
+| **Microsoft** | [Design a Global One-to-One Voice Calling System](https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system) | Medium | Sep 10, 2026 |
+| **DoorDash** | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | Medium | Sep 10, 2026 |
+| **Microsoft** | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | — | Sep 10, 2026 |
+| **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | Sep 10, 2026 |
+| **ByteDance** | [Convert Identifier Naming in Docstrings](https://trueinterview.io/questions/37898248-3c48-565c-8143-a54070171bf8) | Medium | Sep 10, 2026 |
+| **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | Sep 10, 2026 |
+| **Google** | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Medium | Sep 10, 2026 |
 | **LinkedIn** | [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives) | Hard | Sep 09, 2026 |
 | **Oracle** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | Medium | Sep 09, 2026 |
 | **Uber** | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Medium | Sep 09, 2026 |

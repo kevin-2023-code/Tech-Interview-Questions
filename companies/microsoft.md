@@ -147,15 +147,15 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | System Design | Medium | 🆕 Sep 29, 2026 |
 | [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Algorithm | Medium | 🆕 Sep 29, 2026 |
 | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | System Design | Hard | 🆕 Sep 17, 2026 |
-| [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | Blog | — | 🆕 Sep 10, 2026 |
-| [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | System Design | Medium | 🆕 Sep 10, 2026 |
-| [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | Blog | — | 🆕 Sep 10, 2026 |
-| [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Algorithm | Medium | 🆕 Sep 10, 2026 |
-| [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Algorithm | Easy | 🆕 Sep 10, 2026 |
-| [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | Blog | — | 🆕 Sep 10, 2026 |
-| [Design a Voice and Chat AI Receptionist Platform](https://trueinterview.io/questions/design-a-voice-and-chat-ai-receptionist-platform) | System Design | Hard | 🆕 Sep 10, 2026 |
-| [Design a Global One-to-One Voice Calling System](https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system) | System Design | Medium | 🆕 Sep 10, 2026 |
-| [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | Blog | — | 🆕 Sep 10, 2026 |
+| [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | Blog | — | Sep 10, 2026 |
+| [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | System Design | Medium | Sep 10, 2026 |
+| [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | Blog | — | Sep 10, 2026 |
+| [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Algorithm | Medium | Sep 10, 2026 |
+| [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Algorithm | Easy | Sep 10, 2026 |
+| [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | Blog | — | Sep 10, 2026 |
+| [Design a Voice and Chat AI Receptionist Platform](https://trueinterview.io/questions/design-a-voice-and-chat-ai-receptionist-platform) | System Design | Hard | Sep 10, 2026 |
+| [Design a Global One-to-One Voice Calling System](https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system) | System Design | Medium | Sep 10, 2026 |
+| [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | Blog | — | Sep 10, 2026 |
 | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Algorithm | Medium | Sep 09, 2026 |
 | [Detect Repeated Patterns in a String Sequence](https://trueinterview.io/questions/detect-repeated-patterns-in-a-string-sequence) | Algorithm | Medium | Sep 02, 2026 |
 | [Recover Sorted Digits from Scrambled English Number Words](https://trueinterview.io/questions/recover-sorted-digits-from-scrambled-english-number-words) | Algorithm | Medium | Aug 30, 2026 |

@@ -65,7 +65,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 264 | 3 | 12 | Sep 29, 2026 | 77 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 239 | 5 | 38 | Oct 03, 2026 | 55 |
 | [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 193 | 5 | 7 | Sep 16, 2026 | 111 |
-| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 181 | 4 | 14 | Oct 02, 2026 | 54 |
+| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 181 | 4 | 13 | Oct 02, 2026 | 54 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 175 | 7 | 23 | Oct 04, 2026 | 30 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 149 | 3 | 21 | Sep 16, 2026 | 47 |
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 145 | 1 | 15 | Oct 01, 2026 | 43 |
@@ -78,7 +78,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 100 | 1 | 9 | Sep 15, 2026 | 16 |
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 99 | 6 | 12 | Sep 17, 2026 | 35 |
 | [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 91 | 1 | 2 | Oct 01, 2026 | 18 |
-| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 91 | 1 | 10 | Sep 18, 2026 | 23 |
+| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 91 | 1 | 9 | Sep 18, 2026 | 23 |
 | [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 89 | 3 | 12 | Sep 23, 2026 | 19 |
 | [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 89 | 3 | 7 | Sep 09, 2026 | 32 |
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 88 | 3 | 8 | Sep 15, 2026 | 23 |

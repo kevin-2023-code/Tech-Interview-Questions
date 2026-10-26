@@ -46,7 +46,7 @@
 | [Resolve exclusion, learn fast, and manage conflict](https://trueinterview.io/questions/resolve-exclusion-learn-fast-and-manage-conflict) | **Meta** | — | — |
 | [Resolve Product Disagreement and Balance Technical Debt](https://trueinterview.io/questions/resolve-product-disagreement-and-balance-technical-debt) | **Google** | — | Aug 29, 2026 |
 | [Resolve Team Disagreement During a Cross-Functional Performance Fix](https://trueinterview.io/questions/resolve-team-disagreement-during-a-cross-functional-performance-fix) | **Google** | — | Jan 06, 2026 |
-| [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | **Microsoft** | — | 🆕 Sep 10, 2026 |
+| [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | **Microsoft** | — | Sep 10, 2026 |
 | [Respond Constructively to Negative Feedback](https://trueinterview.io/questions/respond-constructively-to-negative-feedback) | **Amazon** | — | Mar 12, 2026 |
 | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | **Anthropic** | — | 🆕 Sep 12, 2026 |
 | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | **Amazon** | — | Sep 05, 2026 |
@@ -132,7 +132,7 @@
 | [Tune fraud threshold under review capacity and costs](https://trueinterview.io/questions/tune-fraud-threshold-under-review-capacity-and-costs) | **Meta** | — | — |
 | [Turn Critical Feedback into a Measurable Improvement](https://trueinterview.io/questions/turn-critical-feedback-into-a-measurable-improvement) | **Amazon** | — | Aug 19, 2026 |
 | [Use AI Responsibly During SQL Pair Programming](https://trueinterview.io/questions/use-ai-responsibly-during-sql-pair-programming) | **Shopify** | — | May 05, 2026 |
-| [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | **Microsoft** | — | 🆕 Sep 10, 2026 |
+| [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | **Microsoft** | — | Sep 10, 2026 |
 | [Use data to resolve an ambiguous problem](https://trueinterview.io/questions/use-data-to-resolve-an-ambiguous-problem) | **Capital One** | — | — |
 | [Use DiD for staggered treatment adoption](https://trueinterview.io/questions/use-did-for-staggered-treatment-adoption) | **ByteDance** | — | — |
 | [Use Generative AI to Improve Work Efficiently](https://trueinterview.io/questions/use-generative-ai-to-improve-work-efficiently) | **Amazon** | — | Aug 22, 2026 |

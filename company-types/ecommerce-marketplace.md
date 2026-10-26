@@ -117,9 +117,9 @@ Of the **547 questions in this cut that carry a topic label** (45% of it):
 | **Amazon** | [Evaluate a Two Percent CTR Lift in Music Recommendations](https://trueinterview.io/questions/evaluate-a-two-percent-ctr-lift-in-music-recommendations) | — | 🆕 Sep 11, 2026 |
 | **Instacart** | [Design a Grocery-Ordering Backend with Reliable Inventory Reservations](https://trueinterview.io/questions/design-a-grocery-ordering-backend-with-reliable-inventory-reservations) | Medium | 🆕 Sep 11, 2026 |
 | **Amazon** | [Recent Ad-Click Counter](https://trueinterview.io/questions/ea41a698-48dd-51f0-92ce-3f9a925b628a) | Easy | 🆕 Sep 11, 2026 |
-| **DoorDash** | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | Hard | 🆕 Sep 10, 2026 |
-| **DoorDash** | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | Medium | 🆕 Sep 10, 2026 |
-| **DoorDash** | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | Medium | 🆕 Sep 10, 2026 |
+| **DoorDash** | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | Hard | Sep 10, 2026 |
+| **DoorDash** | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | Medium | Sep 10, 2026 |
+| **DoorDash** | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | Medium | Sep 10, 2026 |
 | **Uber** | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Medium | Sep 09, 2026 |
 | **Uber** | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | Medium | Sep 09, 2026 |
 | **Uber** | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Hard | Sep 09, 2026 |
