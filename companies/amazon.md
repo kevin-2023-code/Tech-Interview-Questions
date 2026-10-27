@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**467 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**470 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **467** |
+| Questions tracked | **470** |
 | Most recent sighting | Oct 03, 2026 |
 | Reported in the last 90 days | 89 |
-| Most common format | [Algorithm](../formats/algorithm.md) (46% of 467) |
-| Difficulty (easy / medium / hard) | 60 / 226 / 64 |
-| Free to practise | [147](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 470) |
+| Difficulty (easy / medium / hard) | 59 / 226 / 68 |
+| Free to practise | [170](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 467 questions reported at Amazon. 278 of them carry a sighting date; the other 189 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 470 questions reported at Amazon. 277 of them carry a sighting date; the other 193 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **467 of 467** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **470 of 470** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 52 | ██ | [Algorithm](../formats/algorithm.md) (83%) | 23 / 17 / 8 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 240 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 23 / 117 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 209 | █████████ | [Algorithm](../formats/algorithm.md) (31%) | 19 / 112 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 53 | ██ | [Algorithm](../formats/algorithm.md) (83%) | 22 / 18 / 9 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 242 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 23 / 119 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 209 | █████████ | [Algorithm](../formats/algorithm.md) (32%) | 19 / 109 / 32 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -44,7 +44,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 | :-- | :-- | :-: | :-- | :-- |
 | [Service Instance Rating Threshold](https://trueinterview.io/questions/max-k-instances-rated-at-least-k) | Algorithm | Easy | Online assessment | Oct 03, 2026 |
 | [Number of Islands with Max-Area and Streaming-Rows Follow-Ups](https://trueinterview.io/questions/number-of-islands-max-area-streaming) | Algorithm | Medium | Onsite / virtual onsite | Oct 03, 2026 |
-| [Checkout Price Engine (OOD)](https://trueinterview.io/questions/checkout-price-engine-ood) | Object Oriented Programming | Medium | Onsite / virtual onsite | Oct 02, 2026 |
+| [Checkout Price Engine](https://trueinterview.io/questions/checkout-price-engine-ood) | Object Oriented Programming | Medium | Onsite / virtual onsite | Oct 02, 2026 |
 | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Oct 01, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | Oct 01, 2026 |
 | [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Sep 29, 2026 |
@@ -59,7 +59,7 @@ Which stage each question came from, for the **467 of 467** questions at Amazon 
 
 ## What they ask about
 
-Of the **218 questions at Amazon that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **221 questions at Amazon that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -69,10 +69,10 @@ Of the **218 questions at Amazon that carry a topic label** (47% of them — the
 | `strings` | 25 | 11% | ███████ | Sep 29, 2026 |
 | `sorting` | 21 | 10% | ██████ | Oct 03, 2026 |
 | `greedy` | 20 | 9% | ██████ | Sep 29, 2026 |
+| `heap` | 18 | 8% | █████ | Sep 14, 2026 |
 | `trees` | 18 | 8% | █████ | Oct 01, 2026 |
-| `heap` | 17 | 8% | █████ | Sep 14, 2026 |
-| `dynamic-programming` | 16 | 7% | █████ | Sep 29, 2026 |
-| `two-pointers` | 14 | 6% | ████ | Jun 22, 2026 |
+| `dynamic-programming` | 17 | 8% | █████ | Sep 29, 2026 |
+| `backtracking` | 14 | 6% | ████ | Aug 24, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -88,7 +88,7 @@ Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2
 | [Jul 2026](../by-month/2026-07.md) | 22 | ████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 24 | █████████████ |
 | [May 2026](../by-month/2026-05.md) | 19 | ██████████ |
-| [Apr 2026](../by-month/2026-04.md) | 31 | █████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 30 | ████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 25 | █████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 23 | ████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 16 | █████████ |
@@ -105,7 +105,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Service Instance Rating Threshold](https://trueinterview.io/questions/max-k-instances-rated-at-least-k) | Algorithm | Easy | — | Oct 03, 2026 |
 | **2** | [Number of Islands with Max-Area and Streaming-Rows Follow-Ups](https://trueinterview.io/questions/number-of-islands-max-area-streaming) | Algorithm | Medium | — | Oct 03, 2026 |
-| **3** | [Checkout Price Engine (OOD)](https://trueinterview.io/questions/checkout-price-engine-ood) | Object Oriented Programming | Medium | — | Oct 02, 2026 |
+| **3** | [Checkout Price Engine](https://trueinterview.io/questions/checkout-price-engine-ood) | Object Oriented Programming | Medium | — | Oct 02, 2026 |
 | **4** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Oct 01, 2026 |
 | **5** | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | 1 | Oct 01, 2026 |
 | **6** | [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Algorithm | Easy | — | Sep 29, 2026 |
@@ -140,7 +140,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | :-- | :-- | :-: | :-- |
 | [Number of Islands with Max-Area and Streaming-Rows Follow-Ups](https://trueinterview.io/questions/number-of-islands-max-area-streaming) | Algorithm | Medium | 🆕 Oct 03, 2026 |
 | [Service Instance Rating Threshold](https://trueinterview.io/questions/max-k-instances-rated-at-least-k) | Algorithm | Easy | 🆕 Oct 03, 2026 |
-| [Checkout Price Engine (OOD)](https://trueinterview.io/questions/checkout-price-engine-ood) | Object Oriented Programming | Medium | 🆕 Oct 02, 2026 |
+| [Checkout Price Engine](https://trueinterview.io/questions/checkout-price-engine-ood) | Object Oriented Programming | Medium | 🆕 Oct 02, 2026 |
 | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | 🆕 Oct 01, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Algorithm | Medium | 🆕 Sep 29, 2026 |
@@ -302,7 +302,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Add, Remove, and Find Values in a Bounded Integer Universe](https://trueinterview.io/questions/add-remove-and-find-values-in-a-bounded-integer-universe) | Algorithm | Easy | Apr 26, 2026 |
 | [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight) | Algorithm | Medium | Apr 24, 2026 |
 | [Describe Deadline, Mistake, Problem-Solving, and AI Experiences](https://trueinterview.io/questions/describe-deadline-mistake-problem-solving-and-ai-experiences) | Blog | — | Apr 20, 2026 |
-| [Implement Cache and Rotate Matrix](https://trueinterview.io/questions/implement-cache-and-rotate-matrix) | Object Oriented Programming | Medium | Apr 20, 2026 |
 | [Merge Two Sorted Lists](https://trueinterview.io/questions/merge-two-sorted-lists) | Algorithm | Easy | Apr 20, 2026 |
 | [Array Generation Service](https://trueinterview.io/questions/lex-largest-string-via-state-flips) | Algorithm | Medium | Apr 19, 2026 |
 | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Apr 16, 2026 |
@@ -324,7 +323,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Longest Mountain in Array](https://trueinterview.io/questions/longest-mountain-in-array) | Algorithm | Easy | Apr 01, 2026 |
 | [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo) | Blog | — | Mar 29, 2026 |
 | [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants) | Blog | — | Mar 29, 2026 |
-| [Log Aggregation and Group-By](https://trueinterview.io/questions/log-aggregation-and-grouping) | Algorithm | Medium | Mar 25, 2026 |
+| [Log Aggregation and Group-By](https://trueinterview.io/questions/log-aggregation-and-grouping) | Algorithm | Hard | Mar 25, 2026 |
 | [Clone Linked List with Random + Next Pointer](https://trueinterview.io/questions/clone-linked-list-random-and-next-pointer) | Algorithm | Medium | Mar 25, 2026 |
 | [Frequency-Priority Error Code Sort](https://trueinterview.io/questions/frequency-priority-error-code-sort) | Algorithm | Easy | Mar 23, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
@@ -388,5 +387,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design an Offline Multi-Device E-Book Reader](https://trueinterview.io/questions/design-an-offline-multi-device-e-book-reader) | System Design | Medium | Jan 01, 2026 |
 | [How would you test a price increase?](https://trueinterview.io/questions/how-would-you-test-a-price-increase) | Blog | — | Dec 20, 2025 |
 | [Test whether two user populations differ](https://trueinterview.io/questions/test-whether-two-user-populations-differ) | Blog | — | Dec 15, 2025 |
+| [Explain ML evaluation, sequence models, and optimizers](https://trueinterview.io/questions/explain-ml-evaluation-sequence-models-and-optimizers) | Blog | — | Dec 15, 2025 |
 
 <sub>Page 1 of 2 · [Page 2 →](amazon-2.md)</sub>

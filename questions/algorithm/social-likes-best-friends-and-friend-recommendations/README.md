@@ -103,7 +103,9 @@ dave,erin
 (Here the first line gives `F`, `L` and `Q`, followed by the `F` friendship pairs, the `L` like pairs and the `Q` queries; each output line is the string returned for the corresponding query.)
 
 ### Example
-Input: 4 9 2
+```text
+Input:
+4 9 2
 alice bob
 alice carol
 bob dave
@@ -119,8 +121,10 @@ dave z
 erin z
 BEST alice 2
 RECOMMEND alice 2
-Output: bob,carol
+Output:
+bob,carol
 dave,erin
+```
 
 ### How this round is run
 

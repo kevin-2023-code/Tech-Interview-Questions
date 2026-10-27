@@ -12,33 +12,27 @@
 
 ## Problem
 
-## Requirements
+Implement `longest_subarray_at_most_k(arr, k)`. Here `arr` is an array of `n` integers and `k` is an integer. Return, as an integer, the length of the longest subarray of `arr` whose elements add up to a total that is at most `k`.
 
-- You receive an integer array `arr` together with an integer `k`.
-- Determine the maximum length of any contiguous portion of the array whose total is at most `k`.
-- The usual version restricts array entries to non-negative numbers; that restriction is required for the standard sliding-window method.
+A subarray is any run of consecutive elements taken from `arr`; its length can be anything up to the full length of the array. To illustrate, the array `[1, 2, 3]` has exactly these subarrays: `[1]`, `[2]`, `[3]`, `[1, 2]`, `[2, 3]` and `[1, 2, 3]`. If `k = 3`, the only ones whose sum does not exceed `k` are `[1]`, `[2]` and `[1, 2]`, and the longest among them is `[1, 2]`, so the answer in that case would be 2.
 
-```
-longest_subarray_at_most_k(arr, k)
-```
-
-### Example (as reported)
+Example 1:
 
 ```text
 Input:
-4 4 3 1 2 3
+a = [1, 2, 3]
+k = 4
 
-Output:
-2
+Output: 2
 ```
 
-## Notes
+Explanation: `[1, 2]` sums to 3, which is at most 4, while `[2, 3]` (sum 5) and `[1, 2, 3]` (sum 6) both exceed 4, so no subarray longer than 2 qualifies.
 
-- Consider the case where `k < arr[0]` while every value is positive: the answer may be 0 when no individual value qualifies, or 1 when the smallest value qualifies, based on the precise problem statement. Confirm that detail before implementing.
+Constraints:
 
-## Preparation
-
-- Similar problems include LC 209, "Minimum Size Subarray Sum" (sum ≥ target), and LC 862, "Shortest Subarray with Sum at Least K" (the negative-number version).
+* $$1 \le n \le 10^5$$, where `n` is the length of `arr`
+* $$1 \le$$ `arr[i]` $$\le 10^3$$
+* $$1 \le k \le 10^9$$
 
 ## Hints
 

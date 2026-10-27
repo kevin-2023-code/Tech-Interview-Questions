@@ -9,7 +9,7 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [99](../anthropic.md) |
-| Free to read here | 14 |
+| Free to read here | 15 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
 | Most recent sighting | Sep 17, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Anthropic questions
 
-35 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+36 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -85,6 +85,7 @@ Here's what the interview process can look like:
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [File Profiler](../../questions/algorithm/file-profiler/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) |
 | [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](../../questions/algorithm/high-concurrency-prompt-template-deduplication-array-hash-map/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf) |
+| [Find All Possible Recipes from Given Supplies](../../questions/algorithm/find-all-possible-recipes-from-given-supplies/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c) |
 | [Efficiency of Distributed Systems](../../questions/system-design/efficiency-of-distributed-systems/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) |
 | [Web Crawler with Asyncio](../../questions/ai-coding/web-crawler-with-asyncio/README.md) | AI Coding | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) |
 | [Implement a UI From a Figma Mock in React + TypeScript](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) |

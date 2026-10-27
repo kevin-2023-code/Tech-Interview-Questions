@@ -2,7 +2,7 @@
 
 # Verkada interview process, OA & interview questions
 
-**32 questions** reported at Verkada · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/verkada), judged server-side on the algorithm, low-level-design and SQL formats.
+**33 questions** reported at Verkada · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/verkada), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Verkada interviews & the free questions](verkada/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **32** |
+| Questions tracked | **33** |
 | Most recent sighting | Sep 04, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 32) |
-| Difficulty (easy / medium / hard) | 2 / 27 / 3 |
-| Free to practise | [4](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (48% of 33) |
+| Difficulty (easy / medium / hard) | 3 / 27 / 3 |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 32 questions reported at Verkada. 14 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 33 questions reported at Verkada. 14 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **32 of 32** questions at Verkada that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **33 of 33** questions at Verkada that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (68%) | 1 / 17 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 20 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 2 / 17 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 15 | ████████ | [System Design](../formats/system-design.md) (47%) | 1 / 12 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -47,15 +47,15 @@ Which stage each question came from, for the **32 of 32** questions at Verkada t
 
 ## What they ask about
 
-Of the **16 questions at Verkada that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Verkada that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 31% | ████████████ | Sep 04, 2026 |
-| `arrays` | 3 | 19% | ███████ | Jun 05, 2026 |
-| `graphs` | 2 | 12% | █████ | — |
-| `linked-list` | 2 | 12% | █████ | Jan 23, 2026 |
-| `strings` | 2 | 12% | █████ | — |
+| `hashing` | 6 | 35% | ████████████ | Sep 04, 2026 |
+| `arrays` | 3 | 18% | ██████ | Jun 05, 2026 |
+| `graphs` | 2 | 12% | ████ | — |
+| `linked-list` | 2 | 12% | ████ | Jan 23, 2026 |
+| `strings` | 2 | 12% | ████ | — |
 | `binary-search` | 1 | 6% | ██ | — |
 | `dynamic-programming` | 1 | 6% | ██ | Feb 17, 2026 |
 | `heap` | 1 | 6% | ██ | — |
@@ -142,3 +142,4 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 | [Add Two Large Integers Stored in Linked Lists (4 digits per node)](https://trueinterview.io/questions/68fd7f68-6e89-4955-b27b-d02bcde92cae) | Algorithm | Medium | — |
 | [Find Overlapping Time Intervals Across Multiple Cameras](https://trueinterview.io/questions/3dc3ae54-1022-4a39-8aa6-c14d6f4cc6ba) | Algorithm | Medium | — |
 | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Algorithm | Medium | — |
+| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | — |

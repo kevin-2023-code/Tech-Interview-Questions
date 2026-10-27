@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**368 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**375 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,12 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Optiver** | [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game) | — | Aug 06, 2025 |
+| **Optiver** | [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | Medium | Aug 05, 2025 |
+| **Goldman Sachs / Citadel / Voleon** | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Medium | Oct 26, 2024 |
+| **Citadel** | [Merge Timestamped Price-Delta Feeds](https://trueinterview.io/questions/bec8e37e-9fd0-53be-9ee9-9e904bbf0847) | Medium | — |
+| **Citadel** | [Permutation-Invariant Classification of Variable-Length Feature Sets](https://trueinterview.io/questions/4835bfa3-8b24-5b16-9372-993fa9b59e80) | Hard | — |
+| **Citadel** | [Terminal-Based Two-Player Battleship](https://trueinterview.io/questions/05f24831-d93c-522f-85ee-0811e321b613) | Medium | — |
 | **Point72** | [Price a coin-doubling game rationally](https://trueinterview.io/questions/price-a-coin-doubling-game-rationally) | — | — |
 | **Citadel** | [Explain RF optimization and variable-importance pitfalls](https://trueinterview.io/questions/explain-rf-optimization-and-variable-importance-pitfalls) | — | — |
 | **Point72** | [Explain and tune decision trees robustly](https://trueinterview.io/questions/explain-and-tune-decision-trees-robustly) | — | — |
@@ -116,6 +122,7 @@
 | **Optiver** | [Optimize Cargo Transport Algorithm](https://trueinterview.io/questions/6031e550-cf37-42a2-813d-85aa4b2095dc) | Hard | — |
 | **Meta / Amazon / Apple / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
 | **Citadel / Amazon / Boston Consulting Group** | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Easy | — |
+| **Citadel / IBM / Oracle** | [Token Expiry and Reset Management Problem](https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579) | Medium | — |
 | **Citadel** | [Medium Level Algorithm Question](https://trueinterview.io/questions/2b3416a8-5a91-4284-b9fa-e0cb6ee1768c) | Medium | — |
 | **Akuna Capital** | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Medium | — |
 | **Akuna Capital** | [An Evening of Movies](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) | Medium | — |

@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,416 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,10 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Explain bias-variance and evaluate a classifier](https://trueinterview.io/questions/explain-bias-variance-and-evaluate-a-classifier) | **Microsoft** | — | Dec 27, 2025 |
+| [Explain BLS vs CLS; compute t-stats](https://trueinterview.io/questions/explain-bls-vs-cls-compute-t-stats) | **Pinterest** | — | — |
+| [Explain C printf pointers and memory layout](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout) | **Arista** | — | Oct 04, 2025 |
+| [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) | **Discord** | — | Dec 08, 2025 |
 | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | **AMD** | — | 🆕 Sep 14, 2026 |
 | [Explain career moves and defend moat](https://trueinterview.io/questions/explain-career-moves-and-defend-moat) | **Upstart** | — | — |
 | [Explain Changing Priorities and Your Role on a Team](https://trueinterview.io/questions/explain-changing-priorities-and-your-role-on-a-team) | **Google** | — | Dec 08, 2025 |
@@ -176,6 +180,7 @@
 | [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive) | **Two Sigma** | — | May 12, 2026 |
 | [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/questions/bq-genai-usage) | **Amazon** | — | Jul 04, 2026 |
 | [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/questions/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | **Scale AI** | — | — |
+| [Getting Productive Fast in a Large Unfamiliar Codebase](https://trueinterview.io/questions/ramping-on-unfamiliar-codebase) | **Disney** | — | — |
 | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | **ByteDance** | — | Sep 05, 2026 |
 | [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/questions/google-hiring-assessment-gha) | **Google** | — | May 29, 2026 |
 | [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals) | **NVIDIA** | — | Jan 16, 2026 |
@@ -228,6 +233,7 @@
 | [Hiring Manager Behavioral Round](https://trueinterview.io/questions/hm-behavioral-round) | **DoorDash** | — | Sep 01, 2026 |
 | [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral) | **Anthropic** | — | Jun 03, 2026 |
 | [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen) | **Airbnb** | — | Jun 17, 2026 |
+| [Hiring Manager Screen: Project Deep Dive, Tech Debt & Money Movement](https://trueinterview.io/questions/hiring-manager-money-movement-screen) | **Square** | — | Jul 16, 2026 |
 | [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive) | **Coinbase** | — | May 08, 2026 |
 | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) | **Okta** | — | Jun 24, 2026 |
 | [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round) | **Reddit** | — | Jan 29, 2026 |
@@ -254,11 +260,5 @@
 | [How do you handle credit, leadership, and feedback?](https://trueinterview.io/questions/how-do-you-handle-credit-leadership-and-feedback) | **Google** | — | Oct 14, 2025 |
 | [How do you lead and drive impact?](https://trueinterview.io/questions/how-do-you-lead-and-drive-impact) | **LinkedIn** | — | Oct 12, 2025 |
 | [How do you lead under risk and uncertainty?](https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty) | **Anthropic** | — | Feb 11, 2026 |
-| [How do you learn new knowledge quickly?](https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly) | **Expedia** | — | Jan 06, 2026 |
-| [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) | **Disney** | — | Nov 24, 2025 |
-| [How do you manage performance and disagreements?](https://trueinterview.io/questions/how-do-you-manage-performance-and-disagreements) | **Uber** | — | Mar 01, 2026 |
-| [How do you resolve partner conflict?](https://trueinterview.io/questions/how-do-you-resolve-partner-conflict) | **Airwallex** | — | Oct 24, 2025 |
-| [How do you tackle unfamiliar problems?](https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems) | **Oracle** | — | Jan 04, 2026 |
-| [How do you use AI for coding?](https://trueinterview.io/questions/how-do-you-use-ai-for-coding) | **Expedia** | — | Oct 29, 2025 |
 
 <sub>[← Page 3](blog-3.md) · Page 4 of 6 · [Page 5 →](blog-5.md)</sub>

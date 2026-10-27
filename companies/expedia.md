@@ -18,8 +18,8 @@
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (63% of 41) |
-| Difficulty (easy / medium / hard) | 2 / 23 / 9 |
-| Free to practise | [12](../free/README.md) |
+| Difficulty (easy / medium / hard) | 2 / 22 / 10 |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 41 questions reported at Expedia. 16 of them carry a sighting date; the other 25 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -32,7 +32,7 @@ Which stage each question came from, for the **41 of 41** questions at Expedia t
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 7 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 0 / 13 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 16 | ████████ | [System Design](../formats/system-design.md) (38%) | 1 / 8 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 16 | ████████ | [System Design](../formats/system-design.md) (38%) | 1 / 7 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -86,7 +86,7 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | **4** | [Count Dropped Requests](https://trueinterview.io/questions/count-dropped-requests) | Algorithm | Medium | — | May 30, 2026 |
 | **5** | [Range Negate Data Updates](https://trueinterview.io/questions/range-negate-data-updates) | Algorithm | Medium | — | May 30, 2026 |
 | **6** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 12 | Apr 12, 2026 |
-| **7** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Medium | 4 | Apr 09, 2026 |
+| **7** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | 4 | Apr 09, 2026 |
 | **8** | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) 🆓 | Algorithm | Medium | 4 | Apr 01, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -115,7 +115,7 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | [Count Dropped Requests](https://trueinterview.io/questions/count-dropped-requests) | Algorithm | Medium | May 30, 2026 |
 | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | May 30, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
-| [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Medium | Apr 09, 2026 |
+| [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Apr 09, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [How do you learn new knowledge quickly?](https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly) | Blog | — | Jan 06, 2026 |

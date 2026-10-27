@@ -2,7 +2,7 @@
 
 # Instacart interview process, OA & interview questions
 
-**64 questions** reported at Instacart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/instacart), judged server-side on the algorithm, low-level-design and SQL formats.
+**65 questions** reported at Instacart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/instacart), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Instacart interviews & the free questions](instacart/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **64** |
+| Questions tracked | **65** |
 | Most recent sighting | Sep 18, 2026 |
 | Reported in the last 90 days | 10 |
-| Most common format | [Blog](../formats/blog.md) (41% of 64) |
-| Difficulty (easy / medium / hard) | 4 / 28 / 6 |
+| Most common format | [Blog](../formats/blog.md) (40% of 65) |
+| Difficulty (easy / medium / hard) | 4 / 27 / 8 |
 | Free to practise | [30](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 64 questions reported at Instacart. 28 of them carry a sighting date; the other 36 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 65 questions reported at Instacart. 28 of them carry a sighting date; the other 37 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **64 of 64** questions at Instacart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **65 of 65** questions at Instacart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 8 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 2 / 4 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 27 | ████████ | [Blog](../formats/blog.md) (59%) | 1 / 8 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 32 | ██████████ | [System Design](../formats/system-design.md) (31%) | 1 / 18 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 33 | ██████████ | [System Design](../formats/system-design.md) (30%) | 1 / 17 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -143,7 +143,7 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | [Bus Simulation Codebase](https://trueinterview.io/questions/karat-ai-bus-simulation-codebase) | AI Coding | Medium | Apr 23, 2026 |
 | [In-Memory Key-Value Store](https://trueinterview.io/questions/oa-in-memory-key-value-store) | Object Oriented Programming | Medium | Apr 23, 2026 |
 | [Implement an In-Memory File Storage System](https://trueinterview.io/questions/implement-an-in-memory-file-storage-system) | Object Oriented Programming | Medium | Apr 17, 2026 |
-| [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Medium | Apr 09, 2026 |
+| [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Apr 09, 2026 |
 | [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup) | Algorithm | Medium | Apr 04, 2026 |
 | [Expression Evaluation with Variables](https://trueinterview.io/questions/onsite-expression-evaluation-with-variables) | Algorithm | Hard | Apr 04, 2026 |
 | [Design Instacart Inventory System](https://trueinterview.io/questions/system-design-inventory-management) | System Design | Medium | Mar 02, 2026 |
@@ -154,6 +154,7 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Present an A/B test project review](https://trueinterview.io/questions/present-an-a-b-test-project-review) | Blog | — | Oct 10, 2025 |
 | [Pivot Table Profit Analyzer](https://trueinterview.io/questions/pivot-table-profit-analyzer) | Algorithm | Medium | Jul 30, 2025 |
+| [Task Management System with Expiring Assignments and Overdue Tracking](https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5) | Object Oriented Programming | Hard | — |
 | [Summarize your background concisely](https://trueinterview.io/questions/summarize-your-background-concisely) | Blog | — | — |
 | [Solve a challenge using data](https://trueinterview.io/questions/solve-a-challenge-using-data) | Blog | — | — |
 | [Should you roll out if NSM decreases?](https://trueinterview.io/questions/should-you-roll-out-if-nsm-decreases) | Blog | — | — |

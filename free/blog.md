@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,416 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -21,6 +21,8 @@
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/questions/ai-ml-fundamentals-oral) | **Salesforce** | — | Mar 10, 2026 |
 | [AI Agent Intern Technical Questions](https://trueinterview.io/questions/ai-agent-intern-oral-fundamentals) | **ByteDance** | — | Sep 09, 2026 |
 | [AI Application Conversation](https://trueinterview.io/questions/ai-application-conversation) | **Intuit** | — | Apr 03, 2026 |
+| [AI Native Workflow Screen](https://trueinterview.io/questions/ai-native-workflow-screen) | **Square** | — | Jul 16, 2026 |
+| [AI Product Intern: Product Sense for Parks & Disney+](https://trueinterview.io/questions/ai-product-intern-product-sense) | **Disney** | — | Jul 14, 2026 |
 | [AI-Conducted Screening Interview](https://trueinterview.io/questions/ai-conducted-screening) | **Snowflake** | — | Jun 01, 2026 |
 | [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral) | **Meta** | — | Jun 09, 2026 |
 | [Align with PM on ranking goals](https://trueinterview.io/questions/align-with-pm-on-ranking-goals) | **SoFi** | — | — |
@@ -53,6 +55,7 @@
 | [Analyze results and large p-values correctly](https://trueinterview.io/questions/analyze-results-and-large-p-values-correctly) | **Uber** | — | — |
 | [Analyze TCP three-way handshake states](https://trueinterview.io/questions/analyze-tcp-three-way-handshake-states) | **Bitkernel** | — | Oct 24, 2025 |
 | [Analyze the Accident-Rate Spike](https://trueinterview.io/questions/analyze-the-accident-rate-spike) | **Uber** | — | Feb 12, 2026 |
+| [Analyze the Time Complexity of Nested Loops](https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413) | **C3.ai** | — | — |
 | [Analyze time complexity and threading trade-offs](https://trueinterview.io/questions/analyze-time-complexity-and-threading-trade-offs) | **Imc** | — | Nov 03, 2025 |
 | [Analyze vision model failures](https://trueinterview.io/questions/analyze-vision-model-failures) | **Apple** | — | Mar 01, 2026 |
 | [Analyze your favorite app and improve it](https://trueinterview.io/questions/analyze-your-favorite-app-and-improve-it) | **Capital One** | — | — |
@@ -241,7 +244,7 @@
 | [Compare Tableau live vs extract and filters](https://trueinterview.io/questions/compare-tableau-live-vs-extract-and-filters) | **Amazon** | — | — |
 | [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | **Mistral AI** | — | Sep 01, 2026 |
 | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | **Anthropic** | — | 🆕 Sep 12, 2026 |
-| [Compare Transformers and RNNs and Derive Attention Complexity](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity) | **C3 AI** | — | Aug 21, 2026 |
+| [Compare Transformers and RNNs and Derive Attention Complexity](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity) | **C3.ai** | — | Aug 21, 2026 |
 | [Compare two ad insertion strategies](https://trueinterview.io/questions/compare-two-ad-insertion-strategies) | **Meta** | — | — |
 | [Compare Two Coin Proportions](https://trueinterview.io/questions/compare-two-coin-proportions) | **Uber** | — | Mar 28, 2026 |
 | [Compare two rare-event detection models statistically](https://trueinterview.io/questions/compare-two-rare-event-detection-models-statistically) | **Waymo** | — | Jan 17, 2026 |
@@ -257,8 +260,5 @@
 | [Compute CIs, power, and multiple testing](https://trueinterview.io/questions/compute-cis-power-and-multiple-testing) | **Amazon** | — | — |
 | [Compute cluster-aware significance and sequential corrections](https://trueinterview.io/questions/compute-cluster-aware-significance-and-sequential-corrections) | **ByteDance** | — | — |
 | [Compute conditional occupancy across two rooms](https://trueinterview.io/questions/compute-conditional-occupancy-across-two-rooms) | **Meta** | — | — |
-| [Compute current annual profit](https://trueinterview.io/questions/compute-current-annual-profit) | **Capital One** | — | — |
-| [Compute decay, OLS, and classic probability results](https://trueinterview.io/questions/compute-decay-ols-and-classic-probability-results) | **Upstart** | — | Dec 09, 2025 |
-| [Compute duration and stopping rules correctly](https://trueinterview.io/questions/compute-duration-and-stopping-rules-correctly) | **Instacart** | — | — |
 
 <sub>Page 1 of 6 · [Page 2 →](blog-2.md)</sub>

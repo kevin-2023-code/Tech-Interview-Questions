@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,416 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,14 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Quant Probability and Statistics Orals](https://trueinterview.io/questions/quant-probability-and-statistics-orals) | **JPMorgan** | — | Jan 15, 2026 |
+| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) | **Goldman Sachs** | — | May 13, 2026 |
+| [Quantify and optimize team-match funnel](https://trueinterview.io/questions/quantify-and-optimize-team-match-funnel) | **Capital One** | — | — |
+| [Quantify base-rate dilution in CTR](https://trueinterview.io/questions/quantify-base-rate-dilution-in-ctr) | **Meta** | — | — |
+| [Quantify build-vs-buy training decision](https://trueinterview.io/questions/quantify-build-vs-buy-training-decision) | **Amazon** | — | — |
+| [Quantify database bug cost/benefit](https://trueinterview.io/questions/quantify-database-bug-cost-benefit) | **Capital One** | — | — |
+| [Quantify impact of your projects using STAR](https://trueinterview.io/questions/quantify-impact-of-your-projects-using-star) | **Scale AI** | — | — |
+| [Quantify improvement and compute required sample size](https://trueinterview.io/questions/quantify-improvement-and-compute-required-sample-size) | **Amazon** | — | — |
 | [Quantify launch decision with tests and guardrails](https://trueinterview.io/questions/quantify-launch-decision-with-tests-and-guardrails) | **Meta** | — | — |
 | [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/questions/rag-agent-kafka-oral-drill) | **ByteDance** | — | Jun 03, 2026 |
 | [Rank factors for TikTok market entry](https://trueinterview.io/questions/rank-factors-for-tiktok-market-entry) | **ByteDance** | — | — |
@@ -54,6 +62,7 @@
 | [Respond to Negative Feedback About Your Work](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) | **Instacart** | — | Aug 28, 2026 |
 | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | **Oracle** | — | 🆕 Sep 19, 2026 |
 | [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) | **Pinduoduo** | — | Jul 17, 2026 |
+| [Reverse Behavioral: Traits You Would Hire For as a Manager](https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit) | **Disney** | — | — |
 | [Review checkout code for defects and privacy](https://trueinterview.io/questions/review-checkout-code-for-defects-and-privacy) | **Dropbox** | — | — |
 | [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo) | **Amazon** | — | Mar 29, 2026 |
 | [Root-cause an incident and drive consensus](https://trueinterview.io/questions/root-cause-an-incident-and-drive-consensus) | **Amazon** | — | — |
@@ -64,6 +73,7 @@
 | [Sample uniformly from a circle’s area](https://trueinterview.io/questions/sample-uniformly-from-a-circle-s-area) | **LinkedIn** | — | Feb 18, 2026 |
 | [Science Application (Ambiguous Problem)](https://trueinterview.io/questions/science-application-ambiguous-problem) | **Amazon** | — | Apr 29, 2026 |
 | [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design) | **Uber** | — | Jan 13, 2026 |
+| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | **Citadel** | — | 🆕 Sep 17, 2026 |
 | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | **Amazon** | — | 🆕 Sep 23, 2026 |
 | [Sealed-Bid Auction for a Box of 200 Coin Flips (and an Informed Opponent)](https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent) | **Jane Street** | — | Oct 10, 2025 |
 | [Segment 500k users into three groups](https://trueinterview.io/questions/segment-500k-users-into-three-groups) | **Capital One** | — | — |
@@ -74,6 +84,7 @@
 | [Select the better $5 promo-targeting model](https://trueinterview.io/questions/select-the-better-5-promo-targeting-model) | **Uber** | — | — |
 | [Sell GPUs to a retail CEO](https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo) | **NVIDIA** | — | — |
 | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen) | **Databricks** | — | Jul 21, 2026 |
+| [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | **Pinterest** | — | 🆕 Sep 23, 2026 |
 | [Set the Group Call participant cap](https://trueinterview.io/questions/set-the-group-call-participant-cap) | **Meta** | — | — |
 | [Share different perspective from leadership feedback](https://trueinterview.io/questions/share-different-perspective-from-leadership-feedback) | **Meta** | — | — |
 | [Should you roll out if NSM decreases?](https://trueinterview.io/questions/should-you-roll-out-if-nsm-decreases) | **Instacart** | — | — |
@@ -103,6 +114,9 @@
 | [Summarize your background concisely](https://trueinterview.io/questions/summarize-your-background-concisely) | **Instacart** | — | — |
 | [Super Day Behavioral Round](https://trueinterview.io/questions/superday-behavioral-round) | **JPMorgan** | — | Jun 23, 2026 |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | **Databricks** | — | Aug 13, 2026 |
+| [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | **Disney** | — | 🆕 Sep 14, 2026 |
+| [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) | **Waymo** | — | Aug 11, 2026 |
+| [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | **LinkedIn** | — | 🆕 Sep 28, 2026 |
 | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/questions/systemverilog-dv-constraint-and-architecture-loop) | **Apple** | — | Mar 06, 2026 |
 | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | **Amazon** | — | 🆕 Sep 14, 2026 |
 | [Take Ownership Beyond Your Assigned Responsibilities](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities) | **Salesforce** | — | Apr 11, 2026 |

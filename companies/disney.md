@@ -2,7 +2,7 @@
 
 # Disney interview process, OA & interview questions
 
-**12 questions** reported at Disney. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/disney), judged server-side on the algorithm, low-level-design and SQL formats.
+**47 questions** reported at Disney. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/disney), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Disney interviews & the free questions](disney/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,59 +12,77 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **12** |
-| Most recent sighting | Sep 08, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Blog](../formats/blog.md) (58% of 12) |
-| Difficulty (easy / medium / hard) | 0 / 3 / 2 |
-| Free to practise | [9](../free/README.md) |
+| Questions tracked | **47** |
+| Most recent sighting | Oct 08, 2026 |
+| Reported in the last 90 days | 8 |
+| Most common format | [System Design](../formats/system-design.md) (32% of 47) |
+| Difficulty (easy / medium / hard) | 4 / 26 / 4 |
+| Free to practise | [15](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 12 questions reported at Disney. 9 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 47 questions reported at Disney. 19 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **12 of 12** questions at Disney that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **47 of 47** questions at Disney that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 8 | ██████████ | [Blog](../formats/blog.md) (62%) | 0 / 1 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ████ | [Blog](../formats/blog.md) (67%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 23 | █████████ | [Blog](../formats/blog.md) (39%) | 3 / 8 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 26 | ██████████ | [System Design](../formats/system-design.md) (50%) | 1 / 18 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**8 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) | Blog | — | Phone screen, Onsite / virtual onsite | Oct 08, 2026 |
+| [Data Engineer Tech Questions: LLM Prompting, Data Quality & Security](https://trueinterview.io/questions/data-engineer-llm-prompting-and-data-quality) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Oct 08, 2026 |
+| [Data Pipeline Design (Data Engineer)](https://trueinterview.io/questions/data-pipeline-design-data-engineer) | System Design | Hard | Phone screen, Onsite / virtual onsite | Oct 08, 2026 |
+| [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | Blog | — | Phone screen, Onsite / virtual onsite | Sep 14, 2026 |
 | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | Blog | — | Phone screen | Sep 08, 2026 |
 | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | Blog | — | Phone screen | Sep 08, 2026 |
 | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | Phone screen | Aug 30, 2026 |
+| [Design a Flash Sale / Ticket Booking System with a Virtual Queue](https://trueinterview.io/questions/design-flash-sale-virtual-queue) | System Design | Medium | Onsite / virtual onsite | Aug 20, 2026 |
 
 ## What they ask about
 
-Of the **3 questions at Disney that carry a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Disney that carry a topic label** (21% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `math` | 2 | 67% | ████████████ | Nov 01, 2025 |
-| `backtracking` | 1 | 33% | ██████ | Mar 27, 2026 |
+| `math` | 4 | 40% | ████████████ | Nov 01, 2025 |
+| `arrays` | 3 | 30% | █████████ | — |
+| `sorting` | 3 | 30% | █████████ | — |
+| `graphs` | 2 | 20% | ██████ | — |
+| `stack` | 2 | 20% | ██████ | — |
+| `two-pointers` | 2 | 20% | ██████ | — |
+| `backtracking` | 1 | 10% | ███ | Mar 27, 2026 |
+| `bit-manipulation` | 1 | 10% | ███ | Oct 28, 2025 |
+| `greedy` | 1 | 10% | ███ | — |
+| `hashing` | 1 | 10% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Disney, by the month it was reported in — Nov 01, 2025 to Sep 08, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Disney, by the month it was reported in — Oct 28, 2025 to Oct 08, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 2 | ██████████ |
-| [Aug 2026](../by-month/2026-08.md) | 1 | █████ |
+| [Oct 2026](../by-month/2026-10.md) | 3 | ██████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 3 | ██████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ██████████ |
+| [Jul 2026](../by-month/2026-07.md) | 1 | █████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | █████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ██████████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | █████ |
 | [Nov 2025](../by-month/2025-11.md) | 5 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | █████ |
 
 ## Start here
 
@@ -72,14 +90,14 @@ The 8 questions to open first if you are preparing for Disney, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) 🆓 | Blog | — | — | Sep 08, 2026 |
-| **2** | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) 🆓 | Blog | — | — | Sep 08, 2026 |
-| **3** | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | — | Aug 30, 2026 |
-| **4** | [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses) 🆓 | Algorithm | Medium | — | Mar 27, 2026 |
-| **5** | [Design a frontend shopping cart and feature flags](https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags) | System Design | Medium | — | Nov 24, 2025 |
-| **6** | [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) 🆓 | Blog | — | — | Nov 24, 2025 |
-| **7** | [How would you run a mentoring-focused code review?](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) 🆓 | Blog | — | — | Nov 24, 2025 |
-| **8** | [Build Naive Bayes spam classifier with F1](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) 🆓 | Algorithm | Medium | — | Nov 01, 2025 |
+| **1** | [Data Engineer Tech Questions: LLM Prompting, Data Quality & Security](https://trueinterview.io/questions/data-engineer-llm-prompting-and-data-quality) | Object Oriented Programming | Medium | — | Oct 08, 2026 |
+| **2** | [Data Pipeline Design (Data Engineer)](https://trueinterview.io/questions/data-pipeline-design-data-engineer) | System Design | Hard | — | Oct 08, 2026 |
+| **3** | [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) 🆓 | Blog | — | — | Oct 08, 2026 |
+| **4** | [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) 🆓 | Blog | — | — | Sep 14, 2026 |
+| **5** | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) 🆓 | Blog | — | — | Sep 08, 2026 |
+| **6** | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) 🆓 | Blog | — | — | Sep 08, 2026 |
+| **7** | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | — | Aug 30, 2026 |
+| **8** | [Design a Flash Sale / Ticket Booking System with a Virtual Queue](https://trueinterview.io/questions/design-flash-sale-virtual-queue) | System Design | Medium | — | Aug 20, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -93,15 +111,50 @@ The 8 questions to open first if you are preparing for Disney, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Data Pipeline Design (Data Engineer)](https://trueinterview.io/questions/data-pipeline-design-data-engineer) | System Design | Hard | 🆕 Oct 08, 2026 |
+| [Data Engineer Tech Questions: LLM Prompting, Data Quality & Security](https://trueinterview.io/questions/data-engineer-llm-prompting-and-data-quality) | Object Oriented Programming | Medium | 🆕 Oct 08, 2026 |
+| [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) | Blog | — | 🆕 Oct 08, 2026 |
+| [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | Blog | — | 🆕 Sep 14, 2026 |
 | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | Blog | — | Sep 08, 2026 |
 | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | Blog | — | Sep 08, 2026 |
 | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | Aug 30, 2026 |
+| [Design a Flash Sale / Ticket Booking System with a Virtual Queue](https://trueinterview.io/questions/design-flash-sale-virtual-queue) | System Design | Medium | Aug 20, 2026 |
+| [AI Product Intern: Product Sense for Parks & Disney+](https://trueinterview.io/questions/ai-product-intern-product-sense) | Blog | — | Jul 14, 2026 |
 | [Generate All Valid Combinations of Balanced Parentheses](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses) | Algorithm | Medium | Mar 27, 2026 |
+| [Single-Rule Ad Filter](https://trueinterview.io/questions/single-rule-ad-filter) | Object Oriented Programming | Medium | Jan 12, 2026 |
+| [Design a Twitter-Like Platform (Data Model + Curated Feed)](https://trueinterview.io/questions/design-twitter-like-platform) | System Design | Medium | Jan 12, 2026 |
+| [Python Basics, Moving Points, Naive Bayes Spam Classifier](https://trueinterview.io/questions/mle-oa-python-moving-points-naive-bayes) | Algorithm | Hard | Dec 18, 2025 |
 | [How would you run a mentoring-focused code review?](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) | Blog | — | Nov 24, 2025 |
 | [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) | Blog | — | Nov 24, 2025 |
 | [Design a frontend shopping cart and feature flags](https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags) | System Design | Medium | Nov 24, 2025 |
 | [Determine if chasing points will meet](https://trueinterview.io/questions/determine-if-chasing-points-will-meet) | Algorithm | Hard | Nov 01, 2025 |
 | [Build Naive Bayes spam classifier with F1](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) | Algorithm | Medium | Nov 01, 2025 |
+| [Convert an Integer to Binary](https://trueinterview.io/questions/integer-to-binary-hackerrank) | Algorithm | Easy | Oct 28, 2025 |
+| [In-Memory Workspace of Nested Files and Folders](https://trueinterview.io/questions/workspace-resource-tree) | Object Oriented Programming | Medium | — |
+| [Pair and Triplet Target Sums (LC 1, 167, 15)](https://trueinterview.io/questions/two-sum-variants-and-three-sum) | Algorithm | Medium | — |
+| [Production Text Classifier for Posts and Emails](https://trueinterview.io/questions/text-classification-system-design) | System Design | Medium | — |
+| [Spring MVC Endpoint for the Most Enrolled Course](https://trueinterview.io/questions/spring-mvc-course-most-students) | Object Oriented Programming | Medium | — |
+| [Session Manager with Sliding Token Expiry](https://trueinterview.io/questions/session-token-sliding-expiry) | Object Oriented Programming | Medium | — |
+| [Minutes Until Every Orange Rots in a Grid](https://trueinterview.io/questions/rotting-oranges-lc-994) | Algorithm | Medium | — |
+| [Reverse a String In Place (LC 344)](https://trueinterview.io/questions/reverse-string-in-place) | Algorithm | Easy | — |
+| [Reverse Behavioral: Traits You Would Hire For as a Manager](https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit) | Blog | — | — |
+| [Getting Productive Fast in a Large Unfamiliar Codebase](https://trueinterview.io/questions/ramping-on-unfamiliar-codebase) | Blog | — | — |
+| [End-to-End Personalized Recommendation Platform Design](https://trueinterview.io/questions/personalized-recommendation-system) | System Design | Medium | — |
+| [Low-Latency Recommendation Serving With ANN Retrieval and Ranking](https://trueinterview.io/questions/online-recommendation-serving) | System Design | Medium | — |
+| [Safe Model Rollout and Feature-Cost Reduction for ML Serving](https://trueinterview.io/questions/mlops-model-validation-ab-testing) | System Design | Medium | — |
+| [Dependency-Aware Health Monitoring for a Microservice Fleet](https://trueinterview.io/questions/microservices-health-check-aggregator) | System Design | Medium | — |
+| [How Java Reclaims Memory: Generations, Collectors and Roots](https://trueinterview.io/questions/java-garbage-collection) | Blog | — | — |
+| [Check Reachability Between Two Graph Nodes](https://trueinterview.io/questions/graph-path-exists-bfs) | Algorithm | Easy | — |
+| [Design a Multi-Game Ranking Service at Scale](https://trueinterview.io/questions/global-game-leaderboard) | System Design | Medium | — |
+| [Shopping Cart](https://trueinterview.io/questions/frontend-shopping-cart-design) | System Design | Medium | — |
+| [Movie List with Sort and Search](https://trueinterview.io/questions/frontend-movie-list-sort-search) | Object Oriented Programming | Easy | — |
+| [Feature Flags](https://trueinterview.io/questions/frontend-feature-flags-design) | System Design | Medium | — |
+| [Layered S3 Pipeline Feeding a Feature Store](https://trueinterview.io/questions/feature-store-ingestion-layers) | System Design | Medium | — |
+| [Designing Product Browsing and Faceted Search for an Online Store](https://trueinterview.io/questions/ecommerce-browse-and-search-design) | System Design | Medium | — |
+| [Rank Vectors by Cosine Similarity to a Query](https://trueinterview.io/questions/cosine-similarity-vector-ranking) | Algorithm | Medium | — |
+| [Design a Two-Runway Airport Traffic Scheduler](https://trueinterview.io/questions/airport-two-runway-operations-design) | System Design | Medium | — |
+| [Airport Runway Scheduling: Assign Each Flight a Runway](https://trueinterview.io/questions/airport-runway-assignment) | Algorithm | Medium | — |
+| [Implement a Set from Scratch (Java)](https://trueinterview.io/questions/implement-set-without-hashing) | Object Oriented Programming | Medium | — |
 | [Diagnose and decide on watch-time drop](https://trueinterview.io/questions/diagnose-and-decide-on-watch-time-drop) | Blog | — | — |
 | [Demonstrate influential product leadership under ambiguity](https://trueinterview.io/questions/demonstrate-influential-product-leadership-under-ambiguity) | Blog | — | — |
 | [Compute sample size and plan experiment](https://trueinterview.io/questions/compute-sample-size-and-plan-experiment) | Blog | — | — |

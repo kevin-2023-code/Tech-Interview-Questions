@@ -8,8 +8,8 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [175](../openai.md) |
-| Free to read here | 14 |
+| Questions reported | [176](../openai.md) |
+| Free to read here | 15 |
 | Interview-process guides | 7 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -50,11 +50,12 @@ Here's what the interview process can look like:
 
 ## Free OpenAI questions
 
-30 questions reported at OpenAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+31 questions reported at OpenAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
+| [Restore IP Addresses](../../questions/algorithm/restore-ip-addresses/README.md) | Algorithm | Medium | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/restore-ip-addresses) |
 | [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/questions/engineering-management-fundamentals) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/engineering-management-fundamentals) |
 | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/hm-bq-why-openai) |
 | [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/technical-deep-dive) |
@@ -87,7 +88,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 175 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 176 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every OpenAI question on TrueInterview](https://trueinterview.io/problems/company/openai).
 
 ---

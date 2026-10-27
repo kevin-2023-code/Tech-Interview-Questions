@@ -2,14 +2,19 @@
 
 # System Design interview & OA questions
 
-**703 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**758 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
-<sub>[← Page 2](system-design-2.md) · Page 3 of 3</sub>
+<sub>[← Page 2](system-design-2.md) · Page 3 of 4 · [Page 4 →](system-design-4.md)</sub>
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **OpenAI** | [Design a recommendation system end-to-end](https://trueinterview.io/questions/design-a-recommendation-system-end-to-end) | Hard | Dec 15, 2025 |
+| **Apple** | [Design a multimodal RAG assistant](https://trueinterview.io/questions/design-a-multimodal-rag-assistant) | Hard | Dec 15, 2025 |
+| **OpenAI** | [Design a harmful video content moderation system](https://trueinterview.io/questions/design-a-harmful-video-content-moderation-system) | Hard | Dec 15, 2025 |
+| **Microsoft** | [Design a cloud console main page](https://trueinterview.io/questions/design-a-cloud-console-main-page) | Medium | Dec 15, 2025 |
+| **OpenAI** | [Design a chatbot fallback for unknown questions](https://trueinterview.io/questions/design-a-chatbot-fallback-for-unknown-questions) | Hard | Dec 15, 2025 |
 | **Moveworks** | [Design a car rental booking system](https://trueinterview.io/questions/design-a-car-rental-booking-system) | Hard | Dec 15, 2025 |
 | **Optiver** | [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design) | Hard | Dec 13, 2025 |
 | **Uber** | [Measure feature impact with switchback, PSM, and CACE](https://trueinterview.io/questions/measure-feature-impact-with-switchback-psm-and-cace) | Hard | Dec 11, 2025 |
@@ -41,7 +46,7 @@
 | **Google** | [Design a global restaurant menu update system](https://trueinterview.io/questions/design-a-global-restaurant-menu-update-system) | Hard | Nov 12, 2025 |
 | **Stripe** | [Metric Counter Library](https://trueinterview.io/questions/metric-counter-library) | Medium | Nov 11, 2025 |
 | **Reddit** | [Design comment-likelihood prediction platform](https://trueinterview.io/questions/design-comment-likelihood-prediction-platform) | Medium | Nov 10, 2025 |
-| **C3 AI** | [Design a restaurant reservation system](https://trueinterview.io/questions/design-a-restaurant-reservation-system) | Medium | Nov 07, 2025 |
+| **C3.ai** | [Design a restaurant reservation system](https://trueinterview.io/questions/design-a-restaurant-reservation-system) | Medium | Nov 07, 2025 |
 | **Expedia** | [Design a listing connectivity ingestion service](https://trueinterview.io/questions/design-a-listing-connectivity-ingestion-service) | Medium | Nov 05, 2025 |
 | **Databricks** | [Ad Marketplace System Design](https://trueinterview.io/questions/ad-marketplace-system-design) | Hard | Nov 05, 2025 |
 | **Amazon** | [How would you evaluate adding video ads?](https://trueinterview.io/questions/how-would-you-evaluate-adding-video-ads) | Medium | Nov 04, 2025 |
@@ -74,6 +79,56 @@
 | **Robinhood** | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | Medium | Jun 2025 |
 | **Oracle** | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | Medium | Jan 15, 2025 |
 | **Figma** | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | Medium | May 28, 2024 |
+| **Square** | [Design a Hotel Room Reservation Service](https://trueinterview.io/questions/hotel-room-reservation-design) | Medium | — |
+| **Karat** | [Spotting Flaws in a Midnight Vending Machine Reporting Plan](https://trueinterview.io/questions/vending-machine-status-reporting-design) | Medium | — |
+| **Karat** | [Capacity and Cost Estimate for a URL Analysis ML Service](https://trueinterview.io/questions/url-ml-system-resource-estimate) | Medium | — |
+| **Karat** | [Keeping a Sports Data Site Up When Its Upstream Feed Flakes](https://trueinterview.io/questions/unstable-third-party-sports-api) | Medium | — |
+| **Karat** | [Designing an Experiment for a Video Like-Button Launch](https://trueinterview.io/questions/thumbs-up-feature-ab-test) | Medium | — |
+| **Karat** | [Diagnosing Thread Starvation in a Multithreaded Service](https://trueinterview.io/questions/thread-starvation-debugging) | Medium | — |
+| **Karat** | [Choosing Consistency Models for Banking, Catalog and Analytics](https://trueinterview.io/questions/strong-vs-eventual-consistency-scenarios) | Easy | — |
+| **Karat** | [Diagnosing a Web API with Rising Tail Latency](https://trueinterview.io/questions/slow-web-service-debugging) | Easy | — |
+| **Karat** | [Speeding Up a Top-100 Player Scoreboard](https://trueinterview.io/questions/slow-scoreboard-top-100) | Easy | — |
+| **Karat** | [Sizing a Year of Search Engine Query Log Storage](https://trueinterview.io/questions/search-query-log-storage-estimate) | Easy | — |
+| **Karat** | [Fixing Round Robin Routing for a Real-Time Editor](https://trueinterview.io/questions/round-robin-lb-collaborative-docs) | Medium | — |
+| **Karat** | [Scaling a Suddenly Popular Recipe Site](https://trueinterview.io/questions/recipe-site-database-slowdown) | Easy | — |
+| **Karat** | [Sizing Storage Spend for a Self-Hosted Photo Service](https://trueinterview.io/questions/photo-storage-capacity-estimate) | Easy | — |
+| **Karat** | [Why Sharding Users by First Letter Fails](https://trueinterview.io/questions/photo-sharding-by-alphabet) | Easy | — |
+| **Karat** | [Spotting Flaws in a Password Acceptance Policy](https://trueinterview.io/questions/password-policy-rule-review) | Easy | — |
+| **Karat** | [Design an Embedded Refrigerator Controller With No Network](https://trueinterview.io/questions/offline-refrigerator-controller-design) | Easy | — |
+| **Karat** | [Single Server or a Fleet for a Playlist Streaming App](https://trueinterview.io/questions/music-streaming-single-vs-multi-server) | Easy | — |
+| **Karat** | [Geo-Localized Multilingual News Push Platform](https://trueinterview.io/questions/multi-country-localized-news-push) | Medium | — |
+| **Karat** | [Proving a Low-Traffic Service Can Scale to 1000 RPS](https://trueinterview.io/questions/load-test-1-to-1000-rps) | Medium | — |
+| **Karat** | [Streaming a Larger-Than-RAM XML File on One Machine](https://trueinterview.io/questions/large-xml-file-local-processing) | Easy | — |
+| **Karat** | [Taking a One-Country Product Global](https://trueinterview.io/questions/international-expansion-architecture) | Medium | — |
+| **Karat** | [Go Game Analysis in a Mobile App: On-Device or Server Farm](https://trueinterview.io/questions/go-game-analysis-on-device-vs-server) | Easy | — |
+| **Karat** | [Bundled vs Server-Fetched Hints in a Mobile Puzzle Game](https://trueinterview.io/questions/game-hints-preload-vs-server) | Easy | — |
+| **Karat** | [Moving Freezer Analytics From Cloud to an Offline Microcontroller](https://trueinterview.io/questions/freezer-cloud-to-microcontroller) | Medium | — |
+| **Karat** | [Fixing Slow File Deduplication in a Shared Upload Service](https://trueinterview.io/questions/file-dedup-bytewise-comparison) | Medium | — |
+| **Karat** | [Finding Missing Notifications After Document Signing](https://trueinterview.io/questions/failed-signing-notification-detection) | Medium | — |
+| **Karat** | [Forecasting Next Year's Costs for a Short-Video Expiry Platform](https://trueinterview.io/questions/expiring-video-service-cost-forecast) | Easy | — |
+| **Karat** | [High-Demand Concert Ticketing Backend Design](https://trueinterview.io/questions/event-ticketing-high-demand-onsale) | Medium | — |
+| **Karat** | [Hot Songs on a Count-Balanced Music Server Fleet](https://trueinterview.io/questions/equal-song-count-server-balance) | Easy | — |
+| **Karat** | [Keeping a Crash-Prone Video Subtitle Service Alive](https://trueinterview.io/questions/crashing-subtitle-service-workarounds) | Easy | — |
+| **Karat** | [Balancing Music Files Across Servers with Consistent Hashing](https://trueinterview.io/questions/consistent-hashing-music-file-balance) | Medium | — |
+| **Karat** | [Designing a Clinic Queue Notification System with Timeouts](https://trueinterview.io/questions/clinic-queue-notification-system) | Medium | — |
+| **Karat** | [Friend Count at Scale for a Bidirectional Relationship Table](https://trueinterview.io/questions/bidirectional-friend-count-sql) | Easy | — |
+| **Karat** | [Risks in a Tap-to-Pay Arcade Card System](https://trueinterview.io/questions/arcade-card-payment-system-concerns) | Medium | — |
+| **Karat** | [Cutting Server Costs for a Kids' Animation Generator](https://trueinterview.io/questions/animation-app-server-cost-reduction) | Easy | — |
+| **Disney** | [Production Text Classifier for Posts and Emails](https://trueinterview.io/questions/text-classification-system-design) | Medium | — |
+| **Disney** | [End-to-End Personalized Recommendation Platform Design](https://trueinterview.io/questions/personalized-recommendation-system) | Medium | — |
+| **Disney** | [Low-Latency Recommendation Serving With ANN Retrieval and Ranking](https://trueinterview.io/questions/online-recommendation-serving) | Medium | — |
+| **Disney** | [Safe Model Rollout and Feature-Cost Reduction for ML Serving](https://trueinterview.io/questions/mlops-model-validation-ab-testing) | Medium | — |
+| **Disney** | [Dependency-Aware Health Monitoring for a Microservice Fleet](https://trueinterview.io/questions/microservices-health-check-aggregator) | Medium | — |
+| **Disney** | [Design a Multi-Game Ranking Service at Scale](https://trueinterview.io/questions/global-game-leaderboard) | Medium | — |
+| **Disney** | [Shopping Cart](https://trueinterview.io/questions/frontend-shopping-cart-design) | Medium | — |
+| **Disney** | [Feature Flags](https://trueinterview.io/questions/frontend-feature-flags-design) | Medium | — |
+| **Disney** | [Layered S3 Pipeline Feeding a Feature Store](https://trueinterview.io/questions/feature-store-ingestion-layers) | Medium | — |
+| **Disney** | [Designing Product Browsing and Faceted Search for an Online Store](https://trueinterview.io/questions/ecommerce-browse-and-search-design) | Medium | — |
+| **Disney** | [Design a Two-Runway Airport Traffic Scheduler](https://trueinterview.io/questions/airport-two-runway-operations-design) | Medium | — |
+| **C3.ai** | [Design a Multi-Branch Library Database for Books and E-books](https://trueinterview.io/questions/library-management-db-design) | Medium | — |
+| **C3.ai** | [Design a Multi-Car Elevator Dispatch and Control System](https://trueinterview.io/questions/elevator-system-design) | Medium | — |
+| **C3.ai** | [Predictive Early Warning System for Service Outages](https://trueinterview.io/questions/downtime-early-warning-system) | Medium | — |
+| **C3.ai** | [Design an ATM Authentication and PIN Security Flow](https://trueinterview.io/questions/atm-design-pin-handling) | Medium | — |
 | **Shopify** | [Justify and harden your analytics and BI stack](https://trueinterview.io/questions/justify-and-harden-your-analytics-and-bi-stack) | Hard | — |
 | **Amazon** | [Design end-to-end regression for energy demand](https://trueinterview.io/questions/design-end-to-end-regression-for-energy-demand) | Medium | — |
 | **ByteDance** | [Test 15s to 60s video length change](https://trueinterview.io/questions/test-15s-to-60s-video-length-change) | Hard | — |
@@ -149,7 +204,7 @@
 | **Capital One** | [Decide content volume and price under uncertainty](https://trueinterview.io/questions/decide-content-volume-and-price-under-uncertainty) | Hard | — |
 | **Google** | [Decide between two vendors under constraints](https://trueinterview.io/questions/decide-between-two-vendors-under-constraints) | Hard | — |
 | **Meta** | [Choose group-call size cap via experiment](https://trueinterview.io/questions/choose-group-call-size-cap-via-experiment) | Medium | — |
-| **Meta** | [Choose group-call participant cap via distribution](https://trueinterview.io/questions/choose-group-call-participant-cap-via-distribution) | Easy | — |
+| **Meta** | [Choose group-call participant cap via distribution](https://trueinterview.io/questions/choose-group-call-participant-cap-via-distribution) | Medium | — |
 | **Capital One** | [Choose cashback segment and model post-launch impact](https://trueinterview.io/questions/choose-cashback-segment-and-model-post-launch-impact) | Medium | — |
 | **Meta** | [Choose alternatives when randomization fails](https://trueinterview.io/questions/choose-alternatives-when-randomization-fails) | Hard | — |
 | **Google** | [Choose a precise A/B test primary metric](https://trueinterview.io/questions/choose-a-precise-a-b-test-primary-metric) | Medium | — |
@@ -189,7 +244,7 @@
 | **Visa** | [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637) | Medium | — |
 | **Visa** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | Medium | — |
 | **Lyft** | [Web Crawler with Communication Constraint](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) | Medium | — |
-| **Lyft / Anthropic / Google / Meta / Snapchat / Uber** | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | Medium | — |
+| **Lyft / Uber** | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | Medium | — |
 | **Dropbox** | [Event Logger with batching, fsync, and group commit follow-ups](https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9) | Medium | — |
 | **Verkada** | [Real-time status counting system design](https://trueinterview.io/questions/86e2e2dd-5c95-496d-ba7e-2e052ef2f37f) | Medium | — |
 | **Applied Intuition** | [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182) | Medium | — |
@@ -205,13 +260,5 @@
 | **Amazon** | [Game Shop Design](https://trueinterview.io/questions/0f33f62b-5a8a-40d0-a6bb-c637b20b3cdf) | Medium | — |
 | **Robinhood** | [Distributed Job Scheduler II](https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86) | Medium | — |
 | **xAI / Amazon / OpenAI** | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | Easy | — |
-| **Perplexity / Datadog** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | Medium | — |
-| **Perplexity** | [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | Medium | — |
-| **Netflix / Apple / Rippling** | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | Medium | — |
-| **Netflix / Apple / Snowflake** | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | Medium | — |
-| **OpenAI** | [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Hard | — |
-| **Anthropic** | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | Hard | — |
-| **xAI** | [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | Medium | — |
-| **xAI** | [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas) | Easy | — |
 
-<sub>[← Page 2](system-design-2.md) · Page 3 of 3</sub>
+<sub>[← Page 2](system-design-2.md) · Page 3 of 4 · [Page 4 →](system-design-4.md)</sub>

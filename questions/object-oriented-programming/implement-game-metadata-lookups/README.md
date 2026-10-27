@@ -12,295 +12,59 @@
 
 ## Problem
 
-## Approach 1: Linear Scan for Every Query
+You receive a collection of video-game metadata records. Design an in-memory model able to hold, for every game, its name, release date, platforms, genre, publisher, an optional country, and any associated Discord servers, and then write query functions on top of that model.
 
-The most direct implementation keeps the records in a plain list and answers each lookup by walking through that list. No preprocessing is required, but every name lookups, genre lookups, and platform-count query scans the entire catalog.
+The interview frames the task as four functions:
 
-For name and genre matching, normalize both the input and the stored value before comparing. For platform queries, convert each game's platform list into a set so repeated platforms are counted only once. To find the games on the largest number of unique platforms, first compute the maximum count, then use a second pass to collect every game with that count in input order.
+* `get_genre(input_game)` — for a game name, give back that game's genre, or `None` when no such game exists.
+* `get_games(input_genre)` — for a genre, give back the list of names of every game in that genre.
+* `get_most_available_games(games)` — give back the names of all games that run on the greatest number of distinct platforms.
+* `get_available_games(number_of_platform)` — give back the names of all games that run on exactly `number_of_platform` distinct platforms.
 
-Consider this small catalog:
+Rules that apply throughout: matching on a game name or a genre ignores letter case; a game's platform count only counts distinct platform strings; when several games share the highest platform count, all of them are returned; and every returned name keeps the exact spelling and casing it had in the input.
+
+For the executable version, the input is a pair `(games, queries)`. `games` is a list of dictionaries; each one always has `name`, `release_date`, `platform` (a list of strings that may repeat), `genre`, and `publisher`, and may additionally carry optional keys such as `country` and `discord_servers`. `queries` is a list of tuples, each naming one of the operations above with its argument: `('get_genre', name)`, `('get_games', genre)`, `('get_most_available_games',)`, or `('get_available_games', k)`. Return a list holding the answer to each query, in the same order as the queries. Whenever an answer is a list of game names, those names must appear in the order the games were given in the input.
+
+Example 1:
 
 ```text
-games = [
-  {"name": "Neon Drift", "platform": ["pc", "pc", "switch"], "genre": "Racing"},
-  {"name": "Iron Vale",   "platform": ["xbox", "switch"],     "genre": "RPG"},
-  {"name": "Mystic Path", "platform": ["switch"],             "genre": "Adventure"}
-]
+Input: ([{'name': 'Star Forge', 'release_date': '2024-05-01', 'platform': ['pc', 'switch', 'xbox'], 'genre': 'Strategy', 'publisher': 'Nova Works'}, {'name': 'Tide Runner', 'release_date': '2023-09-12', 'platform': ['switch'], 'genre': 'Platformer', 'publisher': 'Bluefin'}, {'name': 'Iron Lords', 'release_date': '2025-04-20', 'platform': ['pc', 'xbox'], 'genre': 'strategy', 'publisher': 'Nova Works', 'country': 'CA'}, {'name': 'Moon Garden', 'release_date': '2022-12-03', 'platform': ['playstation', 'pc', 'switch'], 'genre': 'Simulation', 'publisher': 'Petal Games'}], [('get_genre', 'STAR FORGE'), ('get_games', 'Strategy'), ('get_most_available_games',), ('get_available_games', 2), ('get_available_games', 4), ('get_games', 'horror')])
+
+Output: ['Strategy', ['Star Forge', 'Iron Lords'], ['Star Forge', 'Moon Garden'], ['Iron Lords'], [], []]
 ```
 
-For `get_genre("IRON VALE")`, the scan checks `Neon Drift`, then `Iron Vale`, and returns `"RPG"`. The unique platform counts are 2, 2, and 1, so the maximum is 2 and `get_most_available_games()` returns `["Neon Drift", "Iron Vale"]`.
+Explanation: `'Strategy'` matches both `Strategy` and `strategy` regardless of case; Star Forge and Moon Garden tie for the top count of 3 distinct platforms; only Iron Lords has exactly 2; no game has 4, and no game is in the `horror` genre.
 
-```java
-import java.util.*;
+Example 2:
 
-public class GameCatalogLinear {
-    private final List<Map<String, Object>> games;
+```text
+Input: ([{'name': 'Night Shift', 'release_date': '2024-08-08', 'platform': ['xbox', 'xbox', 'xbox'], 'genre': 'Horror', 'publisher': 'Dusk Co'}, {'name': 'Pixel Farm', 'release_date': '2024-10-10', 'platform': ['mobile', 'pc'], 'genre': 'Casual', 'publisher': 'Sprout', 'discord_servers': ['farmers-club', 'pixel-dev']}], [('get_available_games', 1), ('get_most_available_games',), ('get_genre', 'pixel FARM'), ('get_genre', 'Day Shift')])
 
-    public GameCatalogLinear(List<Map<String, Object>> games) {
-        this.games = games;
-    }
-
-    private int uniquePlatformCount(Map<String, Object> game) {
-        Object platformValue = game.get("platform");
-        if (!(platformValue instanceof List<?>)) {
-            return 0;
-        }
-        return new HashSet<Object>((List<?>) platformValue).size();
-    }
-
-    public String getGenre(String inputGame) {
-        String target = inputGame.toLowerCase(Locale.ROOT);
-
-        for (Map<String, Object> game : games) {
-            String name = (String) game.get("name");
-            if (name.toLowerCase(Locale.ROOT).equals(target)) {
-                return (String) game.get("genre");
-            }
-        }
-
-        return null;
-    }
-
-    public List<String> getGames(String inputGenre) {
-        String target = inputGenre.toLowerCase(Locale.ROOT);
-        List<String> result = new ArrayList<>();
-
-        for (Map<String, Object> game : games) {
-            String genre = (String) game.get("genre");
-            if (genre.toLowerCase(Locale.ROOT).equals(target)) {
-                result.add((String) game.get("name"));
-            }
-        }
-
-        return result;
-    }
-
-    public List<String> getMostAvailableGames() {
-        int maxCount = 0;
-
-        for (Map<String, Object> game : games) {
-            maxCount = Math.max(maxCount, uniquePlatformCount(game));
-        }
-
-        List<String> result = new ArrayList<>();
-        for (Map<String, Object> game : games) {
-            if (uniquePlatformCount(game) == maxCount) {
-                result.add((String) game.get("name"));
-            }
-        }
-
-        return result;
-    }
-
-    public List<String> getAvailableGames(int requestedCount) {
-        List<String> result = new ArrayList<>();
-
-        for (Map<String, Object> game : games) {
-            if (uniquePlatformCount(game) == requestedCount) {
-                result.add((String) game.get("name"));
-            }
-        }
-
-        return result;
-    }
-}
+Output: [['Night Shift'], ['Pixel Farm'], 'Casual', None]
 ```
 
-```python
-def get_genre(input_game):
-    target = input_game.casefold()
+Explanation: Night Shift lists `xbox` three times but that counts as 1 distinct platform, so Pixel Farm (2 platforms) is the most available; the unknown name `Day Shift` yields `None`.
 
-    for game in games:
-        if game["name"].casefold() == target:
-            return game["genre"]
+Example 3:
 
-    return None
+```text
+Input: ([], [('get_games', 'RPG'), ('get_genre', 'anything')])
 
-
-def get_games(input_genre):
-    target = input_genre.casefold()
-    result = []
-
-    for game in games:
-        if game["genre"].casefold() == target:
-            result.append(game["name"])
-
-    return result
-
-
-def get_most_available_games(games):
-    max_count = 0
-
-    for game in games:
-        max_count = max(max_count, len(set(game["platform"])))
-
-    return [
-        game["name"]
-        for game in games
-        if len(set(game["platform"])) == max_count
-    ]
-
-
-def get_available_games(number_of_platform):
-    return [
-        game["name"]
-        for game in games
-        if len(set(game["platform"])) == number_of_platform
-    ]
+Output: [[], None]
 ```
 
-### Time & Space Complexity
+Constraints:
 
-* Time complexity: $$O(n)$$ for name and genre queries, and $$O(n + p)$$ for platform-count queries — each query scans every game, and platform-count queries also inspect every platform entry, where `p` is the total number of platform strings across all games.
-* Space complexity: $$O(1)$$ auxiliary space beyond the output — no extra data structure is kept between queries.
+* $$0 \le \text{len(games)} \le 50000$$
+* $$0 \le \text{len(queries)} \le 50000$$
+* Game names are unique when compared without regard to case.
+* Every game record includes at least `name`, `release_date`, `platform`, `genre`, and `publisher`.
+* `platform` is a list of strings and can contain repeated entries.
+* Any list of game names in an answer follows the order in which those games appear in the input.
 
----
+## Interview Notes
 
-## Approach 2: Precomputed Case-Insensitive Indexes
-
-The linear approach repeats two expensive operations: scanning all records and reconstructing platform sets. Since the catalog can have up to 100,000 records and 100,000 queries, we can instead build dictionaries once and make each query a direct lookup.
-
-Build three structures during one pass over the game list:
-
-1. A name index mapping a casefolded game name to its full record.
-2. A genre index mapping a casefolded genre to a list of original game names, appended in input order.
-3. A platform-count index mapping a unique platform count to a list of original game names, also appended in input order.
-
-Also track the largest platform count seen so far. Because all lists are appended during the input-order pass, returned lists naturally preserve the required ordering. Original casing is preserved because we never store the modified name as the result value.
-
-Using the earlier sample:
-
-- `name_index` contains keys like `"neon drift"`, `"iron vale"`, and `"mystic path"`.
-- `genre_index` maps `"racing"` to `["Neon Drift"]`, `"rpg"` to `["Iron Vale"]`, and `"adventure"` to `["Mystic Path"]`.
-- The unique platform count for `Neon Drift` is 2 because the duplicate `"pc"` entry is removed by the set. `Iron Vale` also has 2 platforms, and `Mystic Path` has 1.
-- Therefore `count_index` contains `{2: ["Neon Drift", "Iron Vale"], 1: ["Mystic Path"]}`, and `max_count` is 2.
-
-After preprocessing, `get_games("RACING")` is a single dictionary lookup, and `get_most_available_games()` simply returns the list stored under `max_count`.
-
-```java
-import java.util.*;
-
-public class GameCatalog {
-    private final Map<String, Map<String, Object>> nameIndex = new HashMap<>();
-    private final Map<String, List<String>> genreIndex = new HashMap<>();
-    private final Map<Integer, List<String>> countIndex = new HashMap<>();
-    private final int maxCount;
-
-    public GameCatalog(List<Map<String, Object>> games) {
-        int runningMax = 0;
-
-        for (Map<String, Object> game : games) {
-            String originalName = (String) game.get("name");
-            String genre = (String) game.get("genre");
-            List<?> platforms = (List<?>) game.get("platform");
-
-            String nameKey = originalName.toLowerCase(Locale.ROOT);
-            nameIndex.put(nameKey, game);
-
-            String genreKey = genre.toLowerCase(Locale.ROOT);
-            genreIndex
-                .computeIfAbsent(genreKey, ignored -> new ArrayList<>())
-                .add(originalName);
-
-            int uniqueCount = new HashSet<Object>(platforms).size();
-            countIndex
-                .computeIfAbsent(uniqueCount, ignored -> new ArrayList<>())
-                .add(originalName);
-
-            runningMax = Math.max(runningMax, uniqueCount);
-        }
-
-        this.maxCount = runningMax;
-    }
-
-    public String getGenre(String inputGame) {
-        Map<String, Object> game = nameIndex.get(inputGame.toLowerCase(Locale.ROOT));
-        return game == null ? null : (String) game.get("genre");
-    }
-
-    public List<String> getGames(String inputGenre) {
-        return genreIndex.getOrDefault(
-            inputGenre.toLowerCase(Locale.ROOT),
-            Collections.emptyList()
-        );
-    }
-
-    public List<String> getMostAvailableGames() {
-        return countIndex.getOrDefault(maxCount, Collections.emptyList());
-    }
-
-    public List<String> getAvailableGames(int requestedCount) {
-        return countIndex.getOrDefault(requestedCount, Collections.emptyList());
-    }
-}
-```
-
-```python
-_index_cache = {}
-
-
-def _build_indexes(games):
-    name_index = {}
-    genre_index = {}
-    count_index = {}
-    max_count = 0
-
-    for game in games:
-        original_name = game["name"]
-        genre = game["genre"]
-
-        name_index[original_name.casefold()] = game
-
-        genre_key = genre.casefold()
-        genre_index.setdefault(genre_key, []).append(original_name)
-
-        # Duplicates in the platform list must not affect the count.
-        unique_platforms = len(set(game["platform"]))
-        count_index.setdefault(unique_platforms, []).append(original_name)
-
-        if unique_platforms > max_count:
-            max_count = unique_platforms
-
-    return name_index, genre_index, count_index, max_count
-
-
-def _get_indexes(games):
-    # Cache by object identity so repeat queries do not rebuild the indexes.
-    key = id(games)
-    if key not in _index_cache:
-        _index_cache[key] = _build_indexes(games)
-    return _index_cache[key]
-
-
-def get_genre(input_game):
-    name_index, _, _, _ = _get_indexes(games)
-    game = name_index.get(input_game.casefold())
-
-    if game is None:
-        return None
-
-    return game["genre"]
-
-
-def get_games(input_genre):
-    _, genre_index, _, _ = _get_indexes(games)
-    return genre_index.get(input_genre.casefold(), [])
-
-
-def get_most_available_games(games):
-    _, _, count_index, max_count = _get_indexes(games)
-    return count_index.get(max_count, [])
-
-
-def get_available_games(number_of_platform):
-    _, _, count_index, _ = _get_indexes(games)
-    return count_index.get(number_of_platform, [])
-```
-
-### Time & Space Complexity
-
-* Time complexity: $$O(n + p)$$ preprocessing, then $$O(1)$$ average time per query — each game and platform entry is processed once while building the indexes, and lookups are dictionary accesses. Returning a list of `k` games takes $$O(k)$$ output time.
-* Space complexity: $$O(n)$$ — every game record is stored in the name index, and each original game name appears in exactly one genre bucket and one platform-count bucket.
+The question assesses modeling data in memory, searching and aggregating over structured records, case-insensitive string handling, and counting distinct platform entries per game.
 
 ## Hints
 

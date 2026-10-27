@@ -9,7 +9,7 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 |  |  |
 | :-- | :-- |
 | Questions reported | [100](../salesforce.md) |
-| Free to read here | 5 |
+| Free to read here | 9 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -48,22 +48,26 @@ Here's what the interview process can look like:
 
 ## Free Salesforce questions
 
-16 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Hiring Manager + Behavioral Rounds](https://trueinterview.io/questions/hm-and-bq-rounds) | Blog | — | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/hm-and-bq-rounds) |
+| [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](../../questions/algorithm/valid-word-abbreviation/README.md) | Algorithm | Medium | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/valid-word-abbreviation) |
 | [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/questions/project-deep-dive-ai-engineer) | Blog | — | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-ai-engineer) |
+| [Maximal Square (LeetCode 221)](../../questions/algorithm/maximal-square/README.md) | Algorithm | Hard | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/maximal-square) |
 | [Take Ownership Beyond Your Assigned Responsibilities](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities) |
 | [Help a Colleague Resolve a Difficult Problem](https://trueinterview.io/questions/help-a-colleague-resolve-a-difficult-problem) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/help-a-colleague-resolve-a-difficult-problem) |
 | [Describe the Team Environment in Which You Do Your Best Work](https://trueinterview.io/questions/describe-the-team-environment-in-which-you-do-your-best-work) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/describe-the-team-environment-in-which-you-do-your-best-work) |
 | [Collaborate with Someone Whose Working Style Differs](https://trueinterview.io/questions/collaborate-with-someone-whose-working-style-differs) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/collaborate-with-someone-whose-working-style-differs) |
 | [Choose Long-Term Correctness over a Short-Term Win](https://trueinterview.io/questions/choose-long-term-correctness-over-a-short-term-win) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/choose-long-term-correctness-over-a-short-term-win) |
+| [String Compression](../../questions/algorithm/string-compression-oa/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/string-compression-oa) |
 | [Minimum Operations to Reduce an Integer to 0](../../questions/algorithm/minimum-operations-to-reduce-an-integer-to-0/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) |
 | [Minimum Knight Moves](../../questions/algorithm/minimum-knight-moves/README.md) | Algorithm | Medium | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/minimum-knight-moves) |
 | [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/questions/ai-ml-fundamentals-oral) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/ai-ml-fundamentals-oral) |
 | [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/questions/cloud-domain-knowledge-round) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/cloud-domain-knowledge-round) |
+| [Find All Anagrams in a String](../../questions/algorithm/find-all-anagrams-in-a-string/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/find-all-anagrams-in-a-string) |
 | [Describe a memorable bug and persuasion story](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story) |
 | [Answer ownership, conflict, and failure recovery questions](https://trueinterview.io/questions/answer-ownership-conflict-and-failure-recovery-questions) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-ownership-conflict-and-failure-recovery-questions) |
 | [Min Elements to Remove to Make Almost Sorted Array](../../questions/algorithm/min-elements-to-remove-to-make-almost-sorted-array/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c) |

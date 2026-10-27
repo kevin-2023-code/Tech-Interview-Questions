@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | C3 AI | Onsite / virtual onsite | linked-list, two-pointers | Aug 2026 |
+| Algorithm | Medium | C3.ai | Onsite / virtual onsite | linked-list, two-pointers | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/find-the-intersection-of-two-linked-chains)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -94,7 +94,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[C3 AI](../../../companies/c3-ai/README.md)
+[C3.ai](../../../companies/c3-ai/README.md)
 
 ---
 

@@ -17,9 +17,9 @@
 | Questions tracked | **99** |
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 12 |
-| Most common format | [Algorithm](../formats/algorithm.md) (25% of 99) |
-| Difficulty (easy / medium / hard) | 8 / 49 / 21 |
-| Free to practise | [35](../free/README.md) |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (26% of 99) |
+| Difficulty (easy / medium / hard) | 8 / 48 / 22 |
+| Free to practise | [36](../free/README.md) |
 | Guides & writeups | 6 |
 
 <sub>Counted from the 99 questions reported at Anthropic. 70 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -30,9 +30,9 @@ Which stage each question came from, for the **99 of 99** questions at Anthropic
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 17 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (59%) | 6 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 16 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (62%) | 5 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 45 | ████████ | [Algorithm](../formats/algorithm.md) (40%) | 0 / 24 / 12 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 54 | ██████████ | [Blog](../formats/blog.md) (22%) | 3 / 27 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 55 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (24%) | 4 / 26 / 13 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 2 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -203,6 +203,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values) | Blog | — | Oct 19, 2025 |
 | [Find duplicate files and apply image operations](https://trueinterview.io/questions/find-duplicate-files-and-apply-image-operations) | Algorithm | Hard | Oct 15, 2025 |
 | [Describe failure impact and resolve cross-functional conflict](https://trueinterview.io/questions/describe-failure-impact-and-resolve-cross-functional-conflict) | Blog | — | Oct 09, 2025 |
+| [Function Cache Keys and Crash-Recoverable LRU Cache](https://trueinterview.io/questions/1634ce25-e301-53d6-ae4c-af51fb820611) | Object Oriented Programming | Hard | — |
 | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | Object Oriented Programming | Medium | — |
 | [Stack Trace Suffix Matching](https://trueinterview.io/questions/3f55c628-6ee0-5304-8799-4ae500643827) | Algorithm | Medium | — |
 | [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0) | Object Oriented Programming | Hard | — |
@@ -210,7 +211,6 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Optimized Infection Simulation on a 2D Grid](https://trueinterview.io/questions/01599122-965f-57e6-99b0-d43238e938fc) | Algorithm | Hard | — |
 | [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f) | Algorithm | Easy | — |
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
-| [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Object Oriented Programming | Medium | — |
 | [Web Crawler Implementation](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e) | Object Oriented Programming | Medium | — |

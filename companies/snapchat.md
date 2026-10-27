@@ -2,7 +2,7 @@
 
 # Snapchat interview process, OA & interview questions
 
-**89 questions** reported at Snapchat · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snapchat), judged server-side on the algorithm, low-level-design and SQL formats.
+**87 questions** reported at Snapchat · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snapchat), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Snapchat interviews & the free questions](snapchat/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **89** |
+| Questions tracked | **87** |
 | Most recent sighting | Sep 09, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (37% of 89) |
-| Difficulty (easy / medium / hard) | 10 / 46 / 14 |
-| Free to practise | [32](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (39% of 87) |
+| Difficulty (easy / medium / hard) | 9 / 44 / 15 |
+| Free to practise | [34](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 89 questions reported at Snapchat. 63 of them carry a sighting date; the other 26 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 87 questions reported at Snapchat. 61 of them carry a sighting date; the other 26 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **89 of 89** questions at Snapchat that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **87 of 87** questions at Snapchat that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (50%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 49 | ██████████ | [Algorithm](../formats/algorithm.md) (49%) | 3 / 29 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 51 | ██████████ | [System Design](../formats/system-design.md) (35%) | 5 / 26 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 50 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 3 / 29 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 48 | ██████████ | [System Design](../formats/system-design.md) (33%) | 4 / 24 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -52,18 +52,18 @@ Which stage each question came from, for the **89 of 89** questions at Snapchat 
 
 ## What they ask about
 
-Of the **35 questions at Snapchat that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **36 questions at Snapchat that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 9 | 26% | ████████████ | May 13, 2026 |
-| `heap` | 7 | 20% | █████████ | Aug 28, 2026 |
+| `graphs` | 9 | 25% | ████████████ | May 13, 2026 |
+| `heap` | 7 | 19% | █████████ | Aug 28, 2026 |
 | `hashing` | 5 | 14% | ███████ | Mar 06, 2026 |
 | `binary-search` | 4 | 11% | █████ | Mar 28, 2026 |
 | `strings` | 4 | 11% | █████ | Mar 12, 2026 |
-| `arrays` | 3 | 9% | ████ | Mar 28, 2026 |
-| `sliding-window` | 3 | 9% | ████ | May 01, 2026 |
-| `sorting` | 3 | 9% | ████ | Mar 28, 2026 |
+| `arrays` | 3 | 8% | ████ | Mar 28, 2026 |
+| `sliding-window` | 3 | 8% | ████ | May 01, 2026 |
+| `sorting` | 3 | 8% | ████ | Mar 28, 2026 |
 | `backtracking` | 2 | 6% | ███ | — |
 | `dynamic-programming` | 2 | 6% | ███ | — |
 
@@ -81,12 +81,12 @@ Every recorded sighting at Snapchat, by the month it was reported in — Oct 15,
 | [Jun 2026](../by-month/2026-06.md) | 1 | █ |
 | [May 2026](../by-month/2026-05.md) | 3 | ████ |
 | [Apr 2026](../by-month/2026-04.md) | 6 | ████████ |
-| [Mar 2026](../by-month/2026-03.md) | 10 | ██████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 9 | █████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 8 | ███████████ |
 | [Jan 2026](../by-month/2026-01.md) | 17 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 4 | ██████ |
 | [Nov 2025](../by-month/2025-11.md) | 2 | ███ |
-| [Oct 2025](../by-month/2025-10.md) | 3 | ████ |
+| [Oct 2025](../by-month/2025-10.md) | 2 | ███ |
 
 ## Start here
 
@@ -146,7 +146,6 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Apr 09, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Event Count Query over Timestamp Range](https://trueinterview.io/questions/event-count-query-over-timestamp-range) | Algorithm | Medium | Mar 28, 2026 |
-| [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Valid Set Cards](https://trueinterview.io/questions/valid-set-cards) | Algorithm | Medium | Mar 23, 2026 |
 | [Stream Window Max Unique Users](https://trueinterview.io/questions/stream-window-max-unique-users) | Algorithm | Medium | Mar 23, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
@@ -164,7 +163,7 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Explain LLM tuning and transformer basics](https://trueinterview.io/questions/explain-llm-tuning-and-transformer-basics) | Blog | — | Jan 30, 2026 |
 | [Design a ranking system pipeline](https://trueinterview.io/questions/design-a-ranking-system-pipeline) | System Design | Hard | Jan 30, 2026 |
-| [Implement calculator and graph connectivity](https://trueinterview.io/questions/implement-calculator-and-graph-connectivity) | Algorithm | Medium | Jan 30, 2026 |
+| [Implement calculator and graph connectivity](https://trueinterview.io/questions/implement-calculator-and-graph-connectivity) | Algorithm | Hard | Jan 30, 2026 |
 | [Service Dependency Shortest Latency Path](https://trueinterview.io/questions/service-dependency-shortest-latency-path) | Algorithm | Medium | Jan 30, 2026 |
 | [Search Suggestion Service](https://trueinterview.io/questions/search-suggestion-service) | Object Oriented Programming | Medium | Jan 30, 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
@@ -185,7 +184,6 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [How do you decide with limited information?](https://trueinterview.io/questions/how-do-you-decide-with-limited-information) | Blog | — | Nov 26, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Nov 08, 2025 |
-| [Implement LRU cache and prime products array](https://trueinterview.io/questions/implement-lru-cache-and-prime-products-array) | Object Oriented Programming | Medium | Oct 28, 2025 |
 | [Design ride-hailing and price alert systems](https://trueinterview.io/questions/design-ride-hailing-and-price-alert-systems) | System Design | Hard | Oct 28, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Influence a senior partner with data](https://trueinterview.io/questions/influence-a-senior-partner-with-data) | Blog | — | — |
@@ -197,7 +195,7 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | [Compute posterior spam risk from flags](https://trueinterview.io/questions/compute-posterior-spam-risk-from-flags) | Blog | — | — |
 | [Count ways to decode digit string](https://trueinterview.io/questions/count-ways-to-decode-digit-string) | Algorithm | Medium | — |
 | [Compute same-day acceptance metrics last week](https://trueinterview.io/questions/compute-same-day-acceptance-metrics-last-week) | SQL | Medium | — |
-| [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
+| [Basic Calculator III](https://trueinterview.io/questions/basic-calculator-4) | Algorithm | Medium | — |
 | [LeetCode 626](https://trueinterview.io/questions/ced96981-8e5c-4ba2-b1d9-eef1e3f20c7f) | SQL | Easy | — |
 | [Top K Frequent Elements in Integer Array Efficiently](https://trueinterview.io/questions/cd77d63e-ea70-4485-a616-90bf6c1fc5c0) | Algorithm | Medium | — |
 | [K Closest Points to Origin (N log K)](https://trueinterview.io/questions/99a55d10-3af0-49e2-91c4-d24bbfec7bb5) | Algorithm | Medium | — |

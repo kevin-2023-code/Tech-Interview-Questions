@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (54% of 35) |
 | Difficulty (easy / medium / hard) | 6 / 21 / 2 |
-| Free to practise | [9](../free/README.md) |
+| Free to practise | [10](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 35 questions reported at Walmart Labs. 27 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -86,7 +86,7 @@ The 8 questions to open first if you are preparing for Walmart Labs, ranked by *
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Count Months Whose First Day Is Sunday](https://trueinterview.io/questions/count-months-whose-first-day-is-sunday) | Algorithm | Medium | — | Aug 15, 2026 |
-| **2** | [Merge Strings Alternately](https://trueinterview.io/questions/merge-strings-alternately) | Algorithm | Easy | — | Jul 07, 2026 |
+| **2** | [Merge Strings Alternately](https://trueinterview.io/questions/merge-strings-alternately) 🆓 | Algorithm | Easy | — | Jul 07, 2026 |
 | **3** | [AI-Assisted Full-Stack Project Debugging](https://trueinterview.io/questions/ai-assisted-fullstack-oa) | AI Coding | Medium | — | Jul 07, 2026 |
 | **4** | [Minimum Talent-Complete Team from Every Start](https://trueinterview.io/questions/minimum-talent-complete-team-from-each-start) | Algorithm | Medium | — | Jul 07, 2026 |
 | **5** | [Permutation Maximizing Σ B&#91;i&#93; where B&#91;i&#93; &gt; A&#91;i&#93;](https://trueinterview.io/questions/permutation-max-greater-sum) | Algorithm | Easy | — | May 07, 2026 |

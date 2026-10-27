@@ -8,8 +8,8 @@ How Databricks interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [88](../databricks.md) |
-| Free to read here | 14 |
+| Questions reported | [89](../databricks.md) |
+| Free to read here | 17 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -51,18 +51,20 @@ Here's what the interview process can look like:
 
 ## Free Databricks questions
 
-23 questions reported at Databricks open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+26 questions reported at Databricks open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/swe-behavioral-round) |
 | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/senior-fde-recruiter-screen) |
+| [Maximal Square (LeetCode 221)](../../questions/algorithm/maximal-square/README.md) | Algorithm | Hard | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/maximal-square) |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
 | [Design Lazy Array](../../questions/object-oriented-programming/implement-lazyarray-with-deferred-function-execution/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution) |
 | [Stock Trading Agent System Design](../../questions/system-design/stock-trading-agent-system-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/stock-trading-agent-system-design) |
 | [Design Stock Trading Platform](../../questions/system-design/design-a-stock-order-trade-management-system/README.md) | System Design | Hard | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) |
 | [Find Path in Fibonacci Tree](../../questions/algorithm/find-path-between-nodes-in-k-th-order-fibonacci-tree/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/find-path-between-nodes-in-k-th-order-fibonacci-tree) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
+| [Serialize and Deserialize Binary Tree](../../questions/algorithm/serialize-and-deserialize-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) |
 | [Describe project impact and critical feedback](https://trueinterview.io/questions/describe-project-impact-and-critical-feedback) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-project-impact-and-critical-feedback) |
 | [Test coin fairness from 560 tails in 1000 flips](https://trueinterview.io/questions/test-coin-fairness-from-560-tails-in-1000-flips) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/test-coin-fairness-from-560-tails-in-1000-flips) |
 | [Explain ROC-AUC vs PR-AUC tradeoffs](https://trueinterview.io/questions/explain-roc-auc-vs-pr-auc-tradeoffs) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-roc-auc-vs-pr-auc-tradeoffs) |
@@ -77,11 +79,12 @@ Here's what the interview process can look like:
 | [Design A VM Bandwidth Rate Limiter](../../questions/system-design/design-a-vm-bandwidth-rate-limiter-2/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
+| [Max Area of Island](../../questions/algorithm/max-area-of-island/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) |
 | [IP CIDR Range Query](../../questions/algorithm/ip-cidr-range-query/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a) |
 
 ## Everything else
 
-- [All 88 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 89 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Databricks question on TrueInterview](https://trueinterview.io/problems/company/databricks).
 
 ---

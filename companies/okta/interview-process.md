@@ -66,7 +66,7 @@ Here are some questions reported by recent candidates:
 - Build a token-protected MCP server whose middleware validates RS256, audience, issuer, timestamps and authorized party, with a scope-gated `whoami` tool.
 
 - [Build an Auth0-based MCP Server (Hands-on)](https://trueinterview.io/questions/oa-mcp-auth0-server)
-- [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed)
+- [Unique Paths](../../questions/algorithm/unique-paths/README.md)
 
 ## Technical phone screens
 
@@ -96,7 +96,7 @@ Here are some questions reported by recent candidates:
 - [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3)
 - [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md)
 - [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation)
-- [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses)
+- [Reverse Substrings Between Each Pair of Parentheses](../../questions/algorithm/reverse-substrings-in-parentheses/README.md)
 - [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence)
 - [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round)
 

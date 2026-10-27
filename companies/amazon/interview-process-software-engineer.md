@@ -118,7 +118,7 @@ Here are some questions reported by recent candidates:
 - [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver)
 - [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption)
 - [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement)
-- [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack)
+- [Maximum Frequency Stack](../../questions/algorithm/maximum-frequency-stack/README.md)
 
 ## Low-level design interview
 

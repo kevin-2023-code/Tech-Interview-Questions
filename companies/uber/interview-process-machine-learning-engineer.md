@@ -62,7 +62,7 @@ Here are some questions reported by recent candidates:
 - [Strictly Convex Function Minimum](https://trueinterview.io/questions/strictly-convex-function-minimum)
 - [K Shuttle Pickup Locations](https://trueinterview.io/questions/k-shuttle-pickup-locations)
 - [Task Dependency Completion Time](https://trueinterview.io/questions/98b9acbe-4393-4f2d-b6f2-023dda164e9a)
-- [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c)
+- [Squares of a Sorted Array](../../questions/algorithm/squares-of-a-sorted-array/README.md)
 
 ## Project deep dive
 

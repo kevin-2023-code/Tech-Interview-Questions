@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (41% of 37) |
 | Difficulty (easy / medium / hard) | 4 / 13 / 7 |
-| Free to practise | [21](../free/README.md) |
+| Free to practise | [22](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 37 questions reported at PayPal. 18 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -87,7 +87,7 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 | **2** | [Design a Payment Fraud Detection Service](https://trueinterview.io/questions/design-a-payment-fraud-detection-service) | System Design | Hard | 1 | Apr 14, 2026 |
 | **3** | [Design a Cross-Border Money Transfer Service](https://trueinterview.io/questions/design-a-cross-border-money-transfer-service) | System Design | Hard | — | Apr 14, 2026 |
 | **4** | [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Algorithm | Hard | — | Apr 14, 2026 |
-| **5** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | 7 | Feb 26, 2026 |
+| **5** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) 🆓 | Algorithm | Easy | 7 | Feb 26, 2026 |
 | **6** | [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints) | System Design | Medium | — | Jan 02, 2026 |
 | **7** | [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) 🆓 | Blog | — | — | Jan 02, 2026 |
 | **8** | [Interpret p-values and common pitfalls](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) 🆓 | Blog | — | — | Jan 02, 2026 |

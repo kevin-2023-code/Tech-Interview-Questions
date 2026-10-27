@@ -83,7 +83,7 @@ Here are some questions reported by recent candidates:
 - Find and fix subtle off-by-one and branching errors in a supplied function.
 
 - [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)
-- [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c)
+- [Find All Possible Recipes from Given Supplies](../../questions/algorithm/find-all-possible-recipes-from-given-supplies/README.md)
 - [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management)
 
 ## Technical phone screen

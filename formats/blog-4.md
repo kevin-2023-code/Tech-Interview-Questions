@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,416 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,16 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **xAI** | [How Would You Prevent Hallucinations in an LLM-Based System?](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system) | — | Nov 21, 2025 |
+| **Shopify** | [Measure App Store success and debug funnel anomaly](https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly) | — | Nov 21, 2025 |
+| **Citadel** | [Probability and Combinatorics Quickfire Quiz](https://trueinterview.io/questions/trading-probability-quickfire) | — | Nov 21, 2025 |
+| **Amazon** | [Explain surprisal and its units](https://trueinterview.io/questions/explain-surprisal-and-its-units) | — | Nov 20, 2025 |
+| **PayPal** | [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) | — | Nov 20, 2025 |
+| **Jane Street** | [Alternating Die-Roll Game: Optimal Accept/Reject Strategy](https://trueinterview.io/questions/alternating-die-roll-game-optimal-accept-reject-strategy) | — | Nov 20, 2025 |
+| **Akuna Capital** | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) | — | Nov 20, 2025 |
+| **Anthropic** | [Explain projects and handle AI-safety conflicts](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) | — | Nov 19, 2025 |
+| **Microsoft** | [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) | — | Nov 19, 2025 |
+| **Optiver** | [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes) | — | Nov 19, 2025 |
 | **Google** | [How would you lead a team through delivery issues?](https://trueinterview.io/questions/how-would-you-lead-a-team-through-delivery-issues) | — | Nov 17, 2025 |
 | **Optiver** | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games) | — | Nov 17, 2025 |
 | **Optiver** | [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/questions/coding-knowledge-test) | — | Nov 17, 2025 |
@@ -117,6 +127,10 @@
 | **Figma** | [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/questions/deep-dive-url-request-lifecycle) | — | Feb 01, 2025 |
 | **Goldman Sachs** | [Explain Recursion to a Non-CS Audience](https://trueinterview.io/questions/explain-recursion-no-cs-audience) | — | Dec 05, 2024 |
 | **Goldman Sachs** | [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/questions/hash-collision-fundamentals) | — | Nov 21, 2024 |
+| **C3.ai** | [Analyze the Time Complexity of Nested Loops](https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413) | — | — |
+| **Disney** | [Reverse Behavioral: Traits You Would Hire For as a Manager](https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit) | — | — |
+| **Disney** | [Getting Productive Fast in a Large Unfamiliar Codebase](https://trueinterview.io/questions/ramping-on-unfamiliar-codebase) | — | — |
+| **Disney** | [How Java Reclaims Memory: Generations, Collectors and Roots](https://trueinterview.io/questions/java-garbage-collection) | — | — |
 | **Meta** | [Validate needs and benchmark competitor adoption](https://trueinterview.io/questions/validate-needs-and-benchmark-competitor-adoption) | — | — |
 | **Amazon** | [Validate DID and IV assumptions rigorously](https://trueinterview.io/questions/validate-did-and-iv-assumptions-rigorously) | — | — |
 | **Expedia** | [Validate and monitor ranking model end-to-end](https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end) | — | — |
@@ -246,19 +260,5 @@
 | **Yelp** | [Handle PM Ambiguity and Drive Outcomes](https://trueinterview.io/questions/handle-pm-ambiguity-and-drive-outcomes) | — | — |
 | **Onemain Financial** | [Handle missing data and outliers robustly](https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly) | — | — |
 | **Meta** | [Handle feedback, change pivots, and conflict](https://trueinterview.io/questions/handle-feedback-change-pivots-and-conflict) | — | — |
-| **Meta** | [Handle diverse styles and give constructive feedback](https://trueinterview.io/questions/handle-diverse-styles-and-give-constructive-feedback) | — | — |
-| **ByteDance** | [Handle disengaged interviewer or biased manager](https://trueinterview.io/questions/handle-disengaged-interviewer-or-biased-manager) | — | — |
-| **Apple** | [Handle conflict, priorities, and harsh clients](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients) | — | — |
-| **DoorDash** | [Handle conflict and time-pressured decision](https://trueinterview.io/questions/handle-conflict-and-time-pressured-decision) | — | — |
-| **Cvs Health** | [Handle challenges in MMM/MMX](https://trueinterview.io/questions/handle-challenges-in-mmm-mmx) | — | — |
-| **Capital One** | [Handle an irate passenger after flight delay](https://trueinterview.io/questions/handle-an-irate-passenger-after-flight-delay) | — | — |
-| **Capital One** | [Graph WTP vs content and explain cap](https://trueinterview.io/questions/graph-wtp-vs-content-and-explain-cap) | — | — |
-| **Uber** | [Formulate OR model to reduce driver backtracking](https://trueinterview.io/questions/formulate-or-model-to-reduce-driver-backtracking) | — | — |
-| **Upstart** | [Formulate hypotheses and metrics for video-pin ramp](https://trueinterview.io/questions/formulate-hypotheses-and-metrics-for-video-pin-ramp) | — | — |
-| **Uber** | [Formulate hypotheses and compute AB test significance](https://trueinterview.io/questions/formulate-hypotheses-and-compute-ab-test-significance) | — | — |
-| **Rippling** | [Find minimum of unknown convex function](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) | — | — |
-| **Capital One** | [Find minimal a for PSD of 3x3 matrix](https://trueinterview.io/questions/find-minimal-a-for-psd-of-3x3-matrix) | — | — |
-| **Cvs Health** | [Explain your top strengths concretely](https://trueinterview.io/questions/explain-your-top-strengths-concretely) | — | — |
-| **OpenAI** | [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) | — | — |
 
 <sub>[← Page 3](blog-3.md) · Page 4 of 6 · [Page 5 →](blog-5.md)</sub>

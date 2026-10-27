@@ -2,7 +2,7 @@
 
 # 🧾 IT services & consulting — interview & OA questions
 
-**40 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**45 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[IBM (40)](../companies/ibm.md)
+[IBM (45)](../companies/ibm.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,38 +18,40 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 30 | 75% | ██████████████ | 9 |
-| [Blog](../formats/blog.md) | 6 | 15% | ███ | 6 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 8% | █ | 1 |
-| [SQL](../formats/sql.md) | 1 | 2% | █ | 0 |
+| [Algorithm](../formats/algorithm.md) | 33 | 73% | ██████████████ | 10 |
+| [Blog](../formats/blog.md) | 6 | 13% | ███ | 6 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 4 | 9% | ██ | 1 |
+| [SQL](../formats/sql.md) | 2 | 4% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **7 / 23 / 4**, over the rows the catalog has graded. 16 of the 40 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **8 / 27 / 4**, over the rows the catalog has graded. 17 of the 45 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **28 questions in this cut that carry a topic label** (70% of it):
+Of the **31 questions in this cut that carry a topic label** (69% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `greedy` | 8 | 29% | ████████████ |
-| `arrays` | 6 | 21% | █████████ |
-| `hashing` | 5 | 18% | ████████ |
-| `strings` | 5 | 18% | ████████ |
-| `intervals` | 3 | 11% | ████ |
-| `math` | 3 | 11% | ████ |
-| `sliding-window` | 3 | 11% | ████ |
-| `sorting` | 3 | 11% | ████ |
-| `dynamic-programming` | 2 | 7% | ███ |
-| `graphs` | 2 | 7% | ███ |
+| `greedy` | 8 | 26% | ████████████ |
+| `arrays` | 7 | 23% | ██████████ |
+| `hashing` | 6 | 19% | █████████ |
+| `strings` | 5 | 16% | ████████ |
+| `sliding-window` | 4 | 13% | ██████ |
+| `sorting` | 4 | 13% | ██████ |
+| `intervals` | 3 | 10% | ████ |
+| `math` | 3 | 10% | ████ |
+| `dynamic-programming` | 2 | 6% | ███ |
+| `graphs` | 2 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**2 sightings** across this cut. Newest first.
+**4 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Customers with High Average Resource Usage](https://trueinterview.io/questions/sql-high-average-resource-usage) | IBM | SQL | Oct 05, 2026 |
+| [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | IBM | Object Oriented Programming | Sep 29, 2026 |
 | [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue) | IBM | Algorithm | Sep 14, 2026 |
 | [Minimum Replacements for Adjacent Duplicate Characters](https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates) | IBM | Algorithm | Aug 27, 2026 |
 
@@ -61,6 +63,8 @@ Of the **28 questions in this cut that carry a topic label** (70% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **IBM** | [Customers with High Average Resource Usage](https://trueinterview.io/questions/sql-high-average-resource-usage) | Easy | 🆕 Oct 05, 2026 |
+| **IBM** | [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | Medium | 🆕 Sep 29, 2026 |
 | **IBM** | [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue) | Medium | 🆕 Sep 14, 2026 |
 | **IBM** | [Minimum Replacements for Adjacent Duplicate Characters](https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates) | Medium | Aug 27, 2026 |
 | **Expedia / IBM** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Medium | May 30, 2026 |
@@ -90,6 +94,8 @@ Of the **28 questions in this cut that carry a topic label** (70% of it):
 | **IBM** | [1-D Valid Convolution with Multithreading Follow-up](https://trueinterview.io/questions/one-dimensional-valid-convolution) | Medium | Aug 13, 2025 |
 | **IBM** | [Minimum Removal Rounds by Smallest Response Time](https://trueinterview.io/questions/minimum-removal-rounds-by-smallest-response-time) | Medium | Jul 09, 2025 |
 | **IBM** | [Max Distinct Counts After Splitting Array](https://trueinterview.io/questions/distinct-count-split) | Medium | Jul 09, 2025 |
+| **IBM** | [Count Employees With Continuous Access](https://trueinterview.io/questions/a95da446-43df-5e75-9892-6162471581b3) | Medium | — |
+| **IBM** | [Count Triplets Within a Value Range](https://trueinterview.io/questions/29504453-af39-558a-8c35-78d43f525cda) | Medium | — |
 | **IBM / Oracle** | [Design Authentication Manager](https://trueinterview.io/questions/fffd1adb-8564-54b2-a493-eb65a9b78c1a) | Medium | — |
 | **IBM** | [Count Pythagorean Distance Triples in a Tree](https://trueinterview.io/questions/eb19b966-ee63-5b20-ba1d-112ee4780198) | Medium | — |
 | **IBM** | [Sum of XOR Values Over All Array Pairs](https://trueinterview.io/questions/05a3f338-fc03-5eac-9ba5-80a8b11965b1) | Medium | — |
@@ -99,5 +105,6 @@ Of the **28 questions in this cut that carry a topic label** (70% of it):
 | **IBM** | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Easy | — |
 | **IBM** | [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Medium | — |
 | **IBM** | [Minimum Hits Needed](https://trueinterview.io/questions/96a1a76b-aad1-425d-88a1-e28fff36624b) | Medium | — |
+| **Citadel / IBM / Oracle** | [Token Expiry and Reset Management Problem](https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579) | Medium | — |
 | **Meta / IBM / Oracle** | [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Easy | — |
-| **Ramp / Amazon / Bloomberg / ByteDance / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |
+| **Ramp / Amazon / Bloomberg / ByteDance / Ebay / Google / IBM / LinkedIn / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |

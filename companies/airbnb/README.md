@@ -8,11 +8,11 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [89](../airbnb.md) |
-| Free to read here | 8 |
+| Questions reported | [112](../airbnb.md) |
+| Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Sep 23, 2026 |
+| Most recent sighting | Oct 14, 2026 |
 
 ## How Airbnb interviews
 
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Airbnb questions
 
-19 questions reported at Airbnb open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at Airbnb open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -64,6 +64,7 @@ Here's what the interview process can look like:
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design and Analyze Airbnb Locker Experiment](https://trueinterview.io/questions/design-and-analyze-airbnb-locker-experiment) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/design-and-analyze-airbnb-locker-experiment) |
 | [Describe a cross-functional project you’re proud of](https://trueinterview.io/questions/describe-a-cross-functional-project-you-re-proud-of) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-a-cross-functional-project-you-re-proud-of) |
+| [Maximum Profit in Job Scheduling](../../questions/algorithm/maximum-profit-in-job-scheduling/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) |
 | [Answer cross-team delivery and values questions](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/in-memory-database-with-sql-operations) |
@@ -76,7 +77,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 89 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 112 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airbnb question on TrueInterview](https://trueinterview.io/problems/company/airbnb).
 
 ---

@@ -9,7 +9,7 @@ How Whatnot interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [19](../whatnot.md) |
-| Free to read here | 3 |
+| Free to read here | 4 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Jun 12, 2026 |
@@ -20,7 +20,7 @@ No written process guide yet. [The loop, as reported](../whatnot.md#the-loop-as-
 
 ## Free Whatnot questions
 
-5 questions reported at Whatnot open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Whatnot open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -29,6 +29,7 @@ No written process guide yet. [The loop, as reported](../whatnot.md#the-loop-as-
 | [Improve and debug the shopping app](https://trueinterview.io/questions/improve-and-debug-the-shopping-app) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/improve-and-debug-the-shopping-app) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Count Singler Role Co-occurrences](../../questions/algorithm/count-singler-role-co-occurrences-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) |
+| [Remove All Adjacent Duplicates in String II](../../questions/algorithm/remove-all-adjacent-duplicates-in-string-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) |
 
 ## Everything else
 

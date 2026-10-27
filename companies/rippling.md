@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 10 |
 | Most common format | [Algorithm](../formats/algorithm.md) (34% of 58) |
 | Difficulty (easy / medium / hard) | 1 / 29 / 19 |
-| Free to practise | [14](../free/README.md) |
+| Free to practise | [15](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 58 questions reported at Rippling. 41 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

@@ -8,11 +8,11 @@ How Disney interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [12](../disney.md) |
+| Questions reported | [47](../disney.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Sep 08, 2026 |
+| Most recent sighting | Oct 08, 2026 |
 
 ## How Disney interviews
 
@@ -20,23 +20,29 @@ No written process guide yet. [The loop, as reported](../disney.md#the-loop-as-r
 
 ## Free Disney questions
 
-9 questions reported at Disney open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+15 questions reported at Disney open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) | Blog | — | Phone screen, Onsite / virtual onsite | Oct 2026 | [Solve](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) |
+| [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | Blog | — | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) |
 | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) |
 | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) |
+| [AI Product Intern: Product Sense for Parks & Disney+](https://trueinterview.io/questions/ai-product-intern-product-sense) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/ai-product-intern-product-sense) |
 | [Generate All Valid Combinations of Balanced Parentheses](../../questions/algorithm/generate-all-valid-combinations-of-balanced-parentheses/README.md) | Algorithm | Medium | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/generate-all-valid-combinations-of-balanced-parentheses) |
 | [How would you run a mentoring-focused code review?](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) |
 | [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) |
 | [Build Naive Bayes spam classifier with F1](../../questions/algorithm/build-naive-bayes-spam-classifier-with-f1/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) |
+| [Reverse Behavioral: Traits You Would Hire For as a Manager](https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit) |
+| [Getting Productive Fast in a Large Unfamiliar Codebase](https://trueinterview.io/questions/ramping-on-unfamiliar-codebase) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/ramping-on-unfamiliar-codebase) |
+| [How Java Reclaims Memory: Generations, Collectors and Roots](https://trueinterview.io/questions/java-garbage-collection) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/java-garbage-collection) |
 | [Diagnose and decide on watch-time drop](https://trueinterview.io/questions/diagnose-and-decide-on-watch-time-drop) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-and-decide-on-watch-time-drop) |
 | [Demonstrate influential product leadership under ambiguity](https://trueinterview.io/questions/demonstrate-influential-product-leadership-under-ambiguity) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/demonstrate-influential-product-leadership-under-ambiguity) |
 | [Compute sample size and plan experiment](https://trueinterview.io/questions/compute-sample-size-and-plan-experiment) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-sample-size-and-plan-experiment) |
 
 ## Everything else
 
-- [All 12 questions reported at Disney](../disney.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 47 questions reported at Disney](../disney.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Disney question on TrueInterview](https://trueinterview.io/problems/company/disney).
 
 ---

@@ -18,8 +18,8 @@
 | Most recent sighting | Oct 01, 2026 |
 | Reported in the last 90 days | 2 |
 | Most common format | [Blog](../formats/blog.md) (39% of 41) |
-| Difficulty (easy / medium / hard) | 5 / 17 / 3 |
-| Free to practise | [23](../free/README.md) |
+| Difficulty (easy / medium / hard) | 5 / 16 / 4 |
+| Free to practise | [24](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 41 questions reported at Shopify. 28 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -32,7 +32,7 @@ Which stage each question came from, for the **41 of 41** questions at Shopify t
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 25 | ██████████ | [Blog](../formats/blog.md) (56%) | 1 / 8 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 13 | █████ | [System Design](../formats/system-design.md) (38%) | 1 / 8 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 13 | █████ | [System Design](../formats/system-design.md) (38%) | 1 / 7 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -94,7 +94,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | **3** | [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview) 🆓 | Blog | — | — | Jul 10, 2026 |
 | **4** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
 | **5** | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | — | May 12, 2026 |
-| **6** | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Medium | — | May 10, 2026 |
+| **6** | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Hard | — | May 10, 2026 |
 | **7** | [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/questions/ml-modeling-round) 🆓 | Blog | — | — | May 10, 2026 |
 | **8** | [Choose Between Batch and Streaming for a Data Pipeline](https://trueinterview.io/questions/choose-between-batch-and-streaming-for-a-data-pipeline) | System Design | Hard | — | May 05, 2026 |
 
@@ -123,7 +123,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview) | Blog | — | Jul 10, 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | May 12, 2026 |
-| [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Medium | May 10, 2026 |
+| [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Hard | May 10, 2026 |
 | [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/questions/ml-modeling-round) | Blog | — | May 10, 2026 |
 | [Use AI Responsibly During SQL Pair Programming](https://trueinterview.io/questions/use-ai-responsibly-during-sql-pair-programming) | Blog | — | May 05, 2026 |
 | [Choose Between Batch and Streaming for a Data Pipeline](https://trueinterview.io/questions/choose-between-batch-and-streaming-for-a-data-pipeline) | System Design | Hard | May 05, 2026 |

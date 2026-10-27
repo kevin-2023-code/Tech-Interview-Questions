@@ -202,7 +202,7 @@ Here are some questions reported by recent candidates:
 - [Handwritten InfoNCE in PyTorch](https://trueinterview.io/questions/infonce-handwritten-pytorch)
 - [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle)
 - [Handwrite Sigmoid, Softmax, and Attention](https://trueinterview.io/questions/handwrite-sigmoid-softmax-attention)
-- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
+- [Random Pick with Weight](../../questions/algorithm/random-pick-with-weight/README.md)
 - [Org-Chart Salary Aggregation](https://trueinterview.io/questions/org-chart-salary-aggregation)
 
 ## Bar Raiser interview

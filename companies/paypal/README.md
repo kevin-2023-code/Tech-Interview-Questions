@@ -9,7 +9,7 @@ How PayPal interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [37](../paypal.md) |
-| Free to read here | 8 |
+| Free to read here | 9 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -48,11 +48,12 @@ Here's what the interview process can look like:
 
 ## Free PayPal questions
 
-21 questions reported at PayPal open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at PayPal open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
 | [Interpret p-values and common pitfalls](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) |
 | [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) |
 | [Design metrics and experiment for donation feature](https://trueinterview.io/questions/design-metrics-and-experiment-for-donation-feature) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/design-metrics-and-experiment-for-donation-feature) |

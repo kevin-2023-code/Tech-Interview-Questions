@@ -9,7 +9,7 @@ How Datadog interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [28](../datadog.md) |
-| Free to read here | 5 |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 17, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Datadog questions
 
-6 questions reported at Datadog open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Datadog open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -56,6 +56,7 @@ Here's what the interview process can look like:
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Remove Read-Only Files](../../questions/algorithm/remove-read-only-files/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/e13f7d75-2d46-4e01-9948-20fdcf5feaf7) |
+| [Minimum Path Sum](../../questions/algorithm/minimum-path-sum/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/2f51777e-365c-5674-ab6a-8941f98594b7) |
 | [Design Mint.com](../../questions/system-design/mint-com/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/mint-com) |
 
 ## Everything else

@@ -107,7 +107,7 @@ Here are some questions reported by recent candidates:
 - [Min Remove to Make Valid Parentheses](../../questions/algorithm/min-remove-to-make-valid-parens/README.md)
 - [Lowest Common Ancestor (BT / BST / N-ary)](https://trueinterview.io/questions/lowest-common-ancestor)
 - [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360)
-- [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary)
+- [Alien Dictionary](../../questions/algorithm/alien-dictionary/README.md)
 
 ## Coding interviews
 
@@ -132,7 +132,7 @@ Here are some questions reported by recent candidates:
 - Count the distinct values in a huge sorted array that holds only a handful of values, in better than linear time.
 - Given courses with prerequisites and hours, return the minimum hours to finish a target list, including disconnected graphs.
 
-- [Valid Palindrome II](https://trueinterview.io/questions/valid-palindrome-ii)
+- [Valid Palindrome II](../../questions/algorithm/valid-palindrome-ii/README.md)
 - [Count Distinct Values in a Sorted Array When K Is Small](https://trueinterview.io/questions/count-distinct-values-in-a-sorted-array-when-k-is-small)
 - [Analyze Minimum Completion Time for Target Courses in a Prerequisite DAG](https://trueinterview.io/questions/analyze-minimum-completion-time-for-target-courses-in-a-prerequisite-dag)
 

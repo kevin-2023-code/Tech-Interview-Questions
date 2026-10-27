@@ -139,7 +139,7 @@ Here are some questions reported by recent candidates:
 - [Service Shutdown / Topological Sort](https://trueinterview.io/questions/service-shutdown-topological-sort)
 - [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver)
 - [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up)
-- [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack)
+- [Maximum Frequency Stack](../../questions/algorithm/maximum-frequency-stack/README.md)
 
 ## Design and domain interviews
 

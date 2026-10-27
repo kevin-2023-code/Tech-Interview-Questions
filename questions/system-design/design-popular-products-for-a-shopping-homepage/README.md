@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| System Design | Easy | Uber · Atlassian · Bloomberg · Figma · Google · Lyft · +2 | Onsite / virtual onsite | — | Mar 2026 |
+| System Design | Easy | Uber · Figma | Onsite / virtual onsite | — | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
@@ -108,7 +108,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Uber](../../../companies/uber/README.md) · [Atlassian](../../../companies/atlassian/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [Figma](../../../companies/figma/README.md) · [Google](../../../companies/google/README.md) · [Lyft](../../../companies/lyft/README.md) · [Perplexity](../../../companies/perplexity/README.md) · [Snapchat](../../../companies/snapchat/README.md)
+[Uber](../../../companies/uber/README.md) · [Figma](../../../companies/figma/README.md)
 
 ---
 

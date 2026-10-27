@@ -2,13 +2,13 @@
 
 # Whatnot interview process, OA & interview questions
 
-**19 questions** reported at Whatnot. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/whatnot), judged server-side on the algorithm, low-level-design and SQL formats.
+**19 questions** reported at Whatnot · **9 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/whatnot), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Whatnot interviews & the free questions](whatnot/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 200–999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-whatnot)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-whatnot)
 
 ## At a glance
 
@@ -19,8 +19,9 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [System Design](../formats/system-design.md) (42% of 19) |
 | Difficulty (easy / medium / hard) | 2 / 13 / 2 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 0 |
+| Interview reports on the board | 9 in this snapshot |
 
 <sub>Counted from the 19 questions reported at Whatnot. 14 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -83,6 +84,24 @@ The 8 questions to open first if you are preparing for Whatnot, ranked by **the 
 | **8** | [Define Marketplace Success Metrics and Investigate Their Movement](https://trueinterview.io/questions/define-marketplace-success-metrics-and-investigate-their-movement) 🆓 | Blog | — | — | Mar 30, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Interview reports
+
+What candidates said happened in the room at Whatnot — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Data & AI | [Whatnot Data Scientist Interview Experience (New York, NY, 2025)](https://trueinterview.io/interviews/23b12bcf-df9b-4e28-aab6-48f3b67dc0df) | Oct 27, 2026 |
+| Software | [Whatnot Software Engineer Interview Experience (Dublin)](https://trueinterview.io/interviews/9c0ead27-b30e-465f-9c6e-66cd4c84a08c) | Oct 27, 2026 |
+| Software | [Whatnot Software Engineer Interview Experience (Dublin)](https://trueinterview.io/interviews/a9333926-41c9-4864-bc70-3d4a62a3a0ac) | Oct 27, 2026 |
+| Software | [Whatnot Software Engineer Interview Experience (Dublin)](https://trueinterview.io/interviews/ee4d7c43-357d-4fcf-97f6-c3d24f255fef) | Oct 27, 2026 |
+| Software | [Whatnot Software Engineer Interview Experience (Singapore, 2026)](https://trueinterview.io/interviews/8e777af5-0e68-4fc3-847e-3866603c8f78) | Oct 27, 2026 |
+| Software | [Whatnot Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/40d73b60-9022-4af8-a3cb-5c55bc021b34) | Oct 27, 2026 |
+| Software | [Whatnot Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/8f9d4c65-97e6-400f-95af-075eb5ac9a67) | Oct 27, 2026 |
+| Software | [Whatnot Software Engineer Interview Experience (United States, 2025)](https://trueinterview.io/interviews/5c524215-585a-4778-a3f3-eddc616d42f4) | Oct 27, 2026 |
+| Software | [Whatnot Software Engineer Interview Experience (United States, 2025)](https://trueinterview.io/interviews/84644860-7bc1-4a58-a434-cc3605931679) | Oct 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 6,866 in total). [Every report at Whatnot and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

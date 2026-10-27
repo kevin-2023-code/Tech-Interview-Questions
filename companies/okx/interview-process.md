@@ -94,7 +94,7 @@ Here are some questions reported by recent candidates:
 - Sort an array of 0s, 1s and 2s in place in a single pass.
 - Return every valid IPv4 address that can be formed by inserting dots into a digit string.
 
-- [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd)
+- [Sort Colors](../../questions/algorithm/sort-colors/README.md)
 - [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md)
 - [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5)
 - [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939)

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (64% of 28) |
 | Difficulty (easy / medium / hard) | 8 / 17 / 2 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 28 questions reported at Datadog. 9 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

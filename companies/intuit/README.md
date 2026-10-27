@@ -9,7 +9,7 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [38](../intuit.md) |
-| Free to read here | 4 |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 28, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Intuit questions
 
-14 questions reported at Intuit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+15 questions reported at Intuit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -65,6 +65,7 @@ Here's what the interview process can look like:
 | [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) |
 | [Diagnose rising delivery cost precisely](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) |
 | [Choose the right test for proportions](https://trueinterview.io/questions/choose-the-right-test-for-proportions) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/choose-the-right-test-for-proportions) |
+| [Find the Safest Path in a Grid](../../questions/algorithm/find-the-safest-path-in-a-grid/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/4a705b25-2a46-4581-866f-381bfd794dab) |
 
 ## Everything else
 

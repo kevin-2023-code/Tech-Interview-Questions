@@ -2,7 +2,7 @@
 
 # Atlassian interview process, OA & interview questions
 
-**64 questions** reported at Atlassian · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
+**63 questions** reported at Atlassian · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Atlassian interviews & the free questions](atlassian/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **64** |
+| Questions tracked | **63** |
 | Most recent sighting | Sep 04, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (41% of 64) |
-| Difficulty (easy / medium / hard) | 17 / 38 / 6 |
-| Free to practise | [18](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 63) |
+| Difficulty (easy / medium / hard) | 15 / 38 / 7 |
+| Free to practise | [19](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 64 questions reported at Atlassian. 41 of them carry a sighting date; the other 23 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 63 questions reported at Atlassian. 40 of them carry a sighting date; the other 23 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **64 of 64** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **63 of 63** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 28 | ███████ | [Algorithm](../formats/algorithm.md) (54%) | 5 / 20 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 39 | ██████████ | [System Design](../formats/system-design.md) (44%) | 8 / 24 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 38 | ██████████ | [System Design](../formats/system-design.md) (42%) | 6 / 24 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -77,7 +77,7 @@ Every recorded sighting at Atlassian, by the month it was reported in — Jul 03
 | [Aug 2026](../by-month/2026-08.md) | 1 | ████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ████ |
 | [Apr 2026](../by-month/2026-04.md) | 5 | ████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 3 | ████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 2 | ████████ |
 | [Feb 2026](../by-month/2026-02.md) | 6 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 4 | ████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 2 | ████████ |
@@ -135,12 +135,11 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | System Design | Medium | Apr 02, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
-| [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
 | [RAG Search Augmentation and Internal Chatbot](https://trueinterview.io/questions/rag-search-augmentation-internal-chatbot) | System Design | Hard | Feb 26, 2026 |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | Feb 26, 2026 |
 | [Expanding Tennis Club Court Assignment](https://trueinterview.io/questions/expanding-tennis-club-court-assignment) | Algorithm | Medium | Feb 23, 2026 |
-| [Design Tagging System](https://trueinterview.io/questions/tagging-system-rest-api) | System Design | Easy | Feb 22, 2026 |
+| [Design Tagging System](https://trueinterview.io/questions/tagging-system-rest-api) | System Design | Medium | Feb 22, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | Object Oriented Programming | Medium | Feb 15, 2026 |
 | [Sequential, Deduped, and Parallel URL Fetcher](https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher) | Algorithm | Medium | Jan 30, 2026 |
@@ -150,7 +149,7 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Snowy Mountain Path with Melting](https://trueinterview.io/questions/snowy-mountain-path-with-melting) | Algorithm | Hard | Dec 16, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [File System Collection](https://trueinterview.io/questions/file-system-collection) | Object Oriented Programming | Medium | Nov 28, 2025 |
-| [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Medium | Nov 28, 2025 |
+| [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Hard | Nov 28, 2025 |
 | [Design a Jira+Confluence RAG assistant](https://trueinterview.io/questions/design-a-jiraplusconfluence-rag-assistant) | System Design | Medium | Nov 21, 2025 |
 | [Full-Stack Craft: Login and Upload Flow](https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow) | System Design | Easy | Nov 19, 2025 |
 | [Robot Parts Assembly](https://trueinterview.io/questions/robot-parts-assembly) | Algorithm | Easy | Nov 06, 2025 |

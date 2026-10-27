@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Uber · Amazon · Bloomberg · ByteDance · Reddit · Snowflake | Phone screen | backtracking, graphs, tries | Feb 2026 |
+| Algorithm | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai · Reddit · +1 | Phone screen | backtracking, graphs, tries | Feb 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/word-search-ii)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -122,7 +122,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Uber](../../../companies/uber/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Reddit](../../../companies/reddit/README.md) · [Snowflake](../../../companies/snowflake/README.md)
+[Uber](../../../companies/uber/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [C3.ai](../../../companies/c3-ai/README.md) · [Reddit](../../../companies/reddit/README.md) · [Snowflake](../../../companies/snowflake/README.md)
 
 ---
 

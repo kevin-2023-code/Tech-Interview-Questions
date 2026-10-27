@@ -9,7 +9,7 @@ How NVIDIA interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [54](../nvidia.md) |
-| Free to read here | 6 |
+| Free to read here | 7 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 17, 2026 |
@@ -49,11 +49,12 @@ Here's what the interview process can look like:
 
 ## Free NVIDIA questions
 
-22 questions reported at NVIDIA open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+23 questions reported at NVIDIA open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) |
+| [Search in Rotated Sorted Array](../../questions/algorithm/search-in-rotated-sorted-array/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/search-in-rotated-sorted-array) |
 | [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive) |
 | [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) | Blog | — | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |

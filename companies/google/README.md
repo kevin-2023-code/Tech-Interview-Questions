@@ -8,8 +8,8 @@ How Google interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [380](../google.md) |
-| Free to read here | 28 |
+| Questions reported | [383](../google.md) |
+| Free to read here | 40 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -49,10 +49,11 @@ Here's what the interview process can look like:
 
 ## Free Google questions
 
-114 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+126 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Squares of a Sorted Array](../../questions/algorithm/squares-of-a-sorted-array/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) |
 | [Resolve Product Disagreement and Balance Technical Debt](https://trueinterview.io/questions/resolve-product-disagreement-and-balance-technical-debt) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/resolve-product-disagreement-and-balance-technical-debt) |
 | [Interpret Language-Model Perplexity](https://trueinterview.io/questions/interpret-language-model-perplexity) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/interpret-language-model-perplexity) |
 | [Explain VAEs, ELBO, KL, and Reparameterization](https://trueinterview.io/questions/explain-vaes-elbo-kl-and-reparameterization) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/explain-vaes-elbo-kl-and-reparameterization) |
@@ -64,24 +65,28 @@ Here's what the interview process can look like:
 | [CPU Architecture and Simulator Design Deep Dive](https://trueinterview.io/questions/cpu-architecture-simulator-deep-dive) | Blog | — | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/cpu-architecture-simulator-deep-dive) |
 | [Behavioral Round (Googliness Themes)](https://trueinterview.io/questions/bq-round-google-style) | Blog | — | Phone screen, Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/bq-round-google-style) |
 | [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/questions/ml-fundamentals-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/ml-fundamentals-deep-dive) |
+| [Median of Two Sorted Arrays](../../questions/algorithm/median-of-two-sorted-arrays/README.md) | Algorithm | Hard | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/median-of-two-sorted-arrays) |
 | [Evaluate String Expression](../../questions/algorithm/nested-function-expression-evaluator/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/nested-function-expression-evaluator) |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) |
 | [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/questions/google-hiring-assessment-gha) | Blog | — | Online assessment | May 2026 | [Solve](https://trueinterview.io/questions/google-hiring-assessment-gha) |
 | [Measure Bird Species Segregation](https://trueinterview.io/questions/measure-bird-species-segregation) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/measure-bird-species-segregation) |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
+| [Valid Palindrome](../../questions/algorithm/valid-palindrome/README.md) | Algorithm | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/valid-palindrome) |
 | [Explain Motivation for an Experimental Technology Team](https://trueinterview.io/questions/explain-motivation-for-an-experimental-technology-team) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-motivation-for-an-experimental-technology-team) |
 | [Choose Your Workplace Style](https://trueinterview.io/questions/choose-your-workplace-style) | Blog | — | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/choose-your-workplace-style) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [Minimum Operations to Reduce an Integer to 0](../../questions/algorithm/minimum-operations-to-reduce-an-integer-to-0/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
-| [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [Count Paths That Can Form a Palindrome in a Tree](../../questions/algorithm/count-paths-that-can-form-a-palindrome-in-a-tree/README.md) | Algorithm | Hard | Online assessment, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [First Missing Positive](../../questions/algorithm/first-missing-positive/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/first-missing-positive) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Handle two teams duplicating work](https://trueinterview.io/questions/handle-two-teams-duplicating-work) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/handle-two-teams-duplicating-work) |
+| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
 | [Handle Teammate Who Feels Pressured](https://trueinterview.io/questions/handle-teammate-who-feels-pressured) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/handle-teammate-who-feels-pressured) |
+| [Decode String](../../questions/algorithm/decode-string/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/decode-string) |
 | [How do you handle conflict and ambiguity?](https://trueinterview.io/questions/how-do-you-handle-conflict-and-ambiguity) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/how-do-you-handle-conflict-and-ambiguity) |
 | [Answer common collaboration behavioral questions](https://trueinterview.io/questions/answer-common-collaboration-behavioral-questions) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-common-collaboration-behavioral-questions) |
 | [Describe a challenging recent project](https://trueinterview.io/questions/describe-a-challenging-recent-project) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-a-challenging-recent-project) |
@@ -89,6 +94,7 @@ Here's what the interview process can look like:
 | [Answer Google Behavioral Questions](https://trueinterview.io/questions/answer-google-behavioral-questions) | Blog | — | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-google-behavioral-questions) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Explain what happens when you run ls](https://trueinterview.io/questions/explain-what-happens-when-you-run-ls) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-what-happens-when-you-run-ls) |
+| [Binary Tree Right Side View](../../questions/algorithm/binary-tree-right-side-view/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/binary-tree-right-side-view) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Handle conflict, priorities, and ownership scenarios](https://trueinterview.io/questions/handle-conflict-priorities-and-ownership-scenarios) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/handle-conflict-priorities-and-ownership-scenarios) |
@@ -104,11 +110,13 @@ Here's what the interview process can look like:
 | [Describe conflict resolution and stakeholder management](https://trueinterview.io/questions/describe-conflict-resolution-and-stakeholder-management) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-conflict-resolution-and-stakeholder-management) |
 | [Handle teamwork, prioritization, and feedback scenarios](https://trueinterview.io/questions/handle-teamwork-prioritization-and-feedback-scenarios) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/handle-teamwork-prioritization-and-feedback-scenarios) |
 | [Answer collaboration, ambiguity, growth, and failure questions](https://trueinterview.io/questions/answer-collaboration-ambiguity-growth-and-failure-questions) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-collaboration-ambiguity-growth-and-failure-questions) |
+| [Maximum Profit in Job Scheduling](../../questions/algorithm/maximum-profit-in-job-scheduling/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) |
 | [Respond to long-term concerns after A/B success](https://trueinterview.io/questions/respond-to-long-term-concerns-after-a-b-success) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/respond-to-long-term-concerns-after-a-b-success) |
 | [Resolve Team Disagreement During a Cross-Functional Performance Fix](https://trueinterview.io/questions/resolve-team-disagreement-during-a-cross-functional-performance-fix) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/resolve-team-disagreement-during-a-cross-functional-performance-fix) |
 | [How would you answer these behavioral prompts?](https://trueinterview.io/questions/how-would-you-answer-these-behavioral-prompts) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-would-you-answer-these-behavioral-prompts) |
 | [Answer project deep-dive and Why Google questions](https://trueinterview.io/questions/answer-project-deep-dive-and-why-google-questions) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-project-deep-dive-and-why-google-questions) |
 | [Navigate conflict, difficult people, and culture issues](https://trueinterview.io/questions/navigate-conflict-difficult-people-and-culture-issues) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/navigate-conflict-difficult-people-and-culture-issues) |
+| [Find Median from Data Stream](../../questions/algorithm/find-median-from-data-stream/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/find-median-from-data-stream) |
 | [Describe conflict, ambiguity, and process improvement](https://trueinterview.io/questions/describe-conflict-ambiguity-and-process-improvement) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-conflict-ambiguity-and-process-improvement) |
 | [Answer leadership and ambiguity scenarios](https://trueinterview.io/questions/answer-leadership-and-ambiguity-scenarios) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-leadership-and-ambiguity-scenarios) |
 | [Answer common behavioral questions with follow-ups](https://trueinterview.io/questions/answer-common-behavioral-questions-with-follow-ups) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-common-behavioral-questions-with-follow-ups) |
@@ -161,16 +169,20 @@ Here's what the interview process can look like:
 | [Analyze data duplication effects in linear regression](https://trueinterview.io/questions/analyze-data-duplication-effects-in-linear-regression) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/analyze-data-duplication-effects-in-linear-regression) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
 | [Build and evaluate bad-link classifier](https://trueinterview.io/questions/build-and-evaluate-bad-link-classifier) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/build-and-evaluate-bad-link-classifier) |
+| [Permutations II](../../questions/algorithm/permutations-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b6747ed0-abbd-562b-9c62-8203b7c69d06) |
 | [Design A VM Bandwidth Rate Limiter](../../questions/system-design/design-a-vm-bandwidth-rate-limiter-2/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) |
 | [Minimum Machines for Task Scheduling](../../questions/algorithm/minimum-machines-for-task-scheduling/README.md) | Algorithm | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36) |
+| [Meeting Rooms II](../../questions/algorithm/meeting-rooms-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/ddc8534d-46e9-4b02-abec-60d33c956280) |
+| [Text Justification](../../questions/algorithm/text-justification/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/9213c4e8-b5fd-4c9b-924d-7108600f1f73) |
 | [Jump Game](../../questions/algorithm/jump-game/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
+| [Russian Doll Envelopes](../../questions/algorithm/russian-doll-envelopes/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/russian-doll-envelopes) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 | [Contains Duplicate II](../../questions/algorithm/contains-duplicate-ii/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/contains-duplicate-ii) |
 
 ## Everything else
 
-- [All 380 questions reported at Google](../google.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 383 questions reported at Google](../google.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Google question on TrueInterview](https://trueinterview.io/problems/company/google).
 
 ---

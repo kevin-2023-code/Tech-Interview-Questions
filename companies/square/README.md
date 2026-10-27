@@ -8,11 +8,11 @@ How Square interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [16](../square.md) |
+| Questions reported | [56](../square.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Jun 17, 2026 |
+| Most recent sighting | Jul 21, 2026 |
 
 ## How Square interviews
 
@@ -20,10 +20,12 @@ No written process guide yet. [The loop, as reported](../square.md#the-loop-as-r
 
 ## Free Square questions
 
-4 questions reported at Square open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Square open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Hiring Manager Screen: Project Deep Dive, Tech Debt & Money Movement](https://trueinterview.io/questions/hiring-manager-money-movement-screen) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/hiring-manager-money-movement-screen) |
+| [AI Native Workflow Screen](https://trueinterview.io/questions/ai-native-workflow-screen) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/ai-native-workflow-screen) |
 | [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) |
 | [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) |
 | [Stock Trading Agent System Design](../../questions/system-design/stock-trading-agent-system-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/stock-trading-agent-system-design) |
@@ -31,7 +33,7 @@ No written process guide yet. [The loop, as reported](../square.md#the-loop-as-r
 
 ## Everything else
 
-- [All 16 questions reported at Square](../square.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 56 questions reported at Square](../square.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Square question on TrueInterview](https://trueinterview.io/problems/company/square).
 
 ---

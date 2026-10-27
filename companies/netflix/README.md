@@ -8,11 +8,11 @@ How Netflix interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [104](../netflix.md) |
-| Free to read here | 12 |
+| Questions reported | [107](../netflix.md) |
+| Free to read here | 15 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
-| Most recent sighting | Aug 21, 2026 |
+| Most recent sighting | Sep 23, 2026 |
 
 ## How Netflix interviews
 
@@ -49,16 +49,18 @@ Here's what the interview process can look like:
 
 ## Free Netflix questions
 
-28 questions reported at Netflix open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+32 questions reported at Netflix open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
 | [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds) |
 | [Contains Duplicate III](../../questions/algorithm/contains-duplicate-iii/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/contains-duplicate-iii) |
 | [Answer Netflix Culture Screen Questions](https://trueinterview.io/questions/answer-netflix-culture-screen-questions) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/answer-netflix-culture-screen-questions) |
 | [Design the Data Model for an Ads Demand Platform](../../questions/system-design/design-the-data-model-for-an-ads-demand-platform/README.md) | System Design | Medium | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) |
 | [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/questions/ml-research-orals) | Blog | — | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/ml-research-orals) |
+| [Meeting Rooms](../../questions/algorithm/meeting-rooms-2/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/meeting-rooms-2) |
 | [Tagged Command Undo](../../questions/object-oriented-programming/tagged-command-undo/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/tagged-command-undo) |
 | [Compare Losses and Explain LoRA](https://trueinterview.io/questions/compare-losses-and-explain-lora) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/compare-losses-and-explain-lora) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
@@ -72,6 +74,7 @@ Here's what the interview process can look like:
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Demonstrate domain expertise and ramp-up ability](https://trueinterview.io/questions/demonstrate-domain-expertise-and-ramp-up-ability) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/demonstrate-domain-expertise-and-ramp-up-ability) |
+| [Reconstruct Itinerary](../../questions/algorithm/reconstruct-itinerary/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/reconstruct-itinerary) |
 | [How would you support ML stakeholders?](https://trueinterview.io/questions/how-would-you-support-ml-stakeholders) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/how-would-you-support-ml-stakeholders) |
 | [Plan and analyze a ranking A/B test](https://trueinterview.io/questions/plan-and-analyze-a-ranking-a-b-test) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/plan-and-analyze-a-ranking-a-b-test) |
 | [Navigate conflicting signals and ambiguous expectations](https://trueinterview.io/questions/navigate-conflicting-signals-and-ambiguous-expectations) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/navigate-conflicting-signals-and-ambiguous-expectations) |
@@ -79,12 +82,13 @@ Here's what the interview process can look like:
 | [Design and power a frequency-cap experiment](https://trueinterview.io/questions/design-and-power-a-frequency-cap-experiment) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-and-power-a-frequency-cap-experiment) |
 | [Demonstrate JD skills with quantified outcomes](https://trueinterview.io/questions/demonstrate-jd-skills-with-quantified-outcomes) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/demonstrate-jd-skills-with-quantified-outcomes) |
 | [Demonstrate handling dismissive stakeholders with candor](https://trueinterview.io/questions/demonstrate-handling-dismissive-stakeholders-with-candor) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/demonstrate-handling-dismissive-stakeholders-with-candor) |
+| [Contains Duplicate](../../questions/algorithm/contains-duplicate/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec) |
 | [Sort Dictionary Keys](../../questions/algorithm/sort-dictionary-keys/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee) |
 | [Contains Duplicate II](../../questions/algorithm/contains-duplicate-ii/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/contains-duplicate-ii) |
 
 ## Everything else
 
-- [All 104 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 107 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Netflix question on TrueInterview](https://trueinterview.io/problems/company/netflix).
 
 ---

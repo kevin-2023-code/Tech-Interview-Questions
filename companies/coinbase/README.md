@@ -8,7 +8,7 @@ How Coinbase interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [86](../coinbase.md) |
+| Questions reported | [87](../coinbase.md) |
 | Free to read here | 10 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -81,7 +81,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 86 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 87 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Coinbase question on TrueInterview](https://trueinterview.io/problems/company/coinbase).
 
 ---

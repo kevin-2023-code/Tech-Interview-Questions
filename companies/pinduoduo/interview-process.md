@@ -113,11 +113,11 @@ Here are some questions reported by recent candidates:
 - [Perfect Squares Decomposition](https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84)
 - [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences)
 - [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md)
-- [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47)
+- [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md)
 - [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation)
 - [Playing Cards: Straight Flush / Missing Card](https://trueinterview.io/questions/playing-card-straight-flush)
 - [Minesweeper Variant](https://trueinterview.io/questions/e5567ea6-f961-428d-95f0-dea8ac70ddc6)
-- [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree)
+- [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md)
 - [LRU Cache](../../questions/ai-coding/lru-cache/README.md)
 
 ## Design-in-code round
@@ -143,7 +143,7 @@ Here are some questions reported by recent candidates:
 - Binary-search a sorted array with duplicates and return the first occurrence of the target.
 
 - [Design a Simplified Twitter Feed](https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44)
-- [Transaction Settlement](https://trueinterview.io/questions/2d3f6203-6989-434b-88a1-3299068e034e)
+- [Transaction Settlement](../../questions/algorithm/transaction-settlement/README.md)
 - [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md)
 - [Sort Colors and Sizes](../../questions/algorithm/sort-colors-and-sizes/README.md)
 

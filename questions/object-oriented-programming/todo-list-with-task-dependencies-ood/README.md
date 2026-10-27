@@ -12,77 +12,29 @@
 
 ## Problem
 
-## Hash Map — Constant-Time Task Management
+You are handed skeletons for three classes: `TaskStatus`, `Task` and `ToDoList`. Fill them in to build a to-do list manager. The exercise has several parts, and each later part adds tests on top of the earlier ones, so the behavior from earlier parts has to keep working as you add features.
 
-The natural fit for a system that needs to find, create, and modify items by a unique key is a hash-based dictionary. By storing each task as a value keyed by its `taskId`, every operation becomes a single dictionary access, delivering average O(1) time per call. A standard dictionary in Python, `HashMap` in Java, `unordered_map` in C++, or a `Map` in TypeScript all serve this purpose equally well. The dictionary naturally enforces the uniqueness constraint: adding a task with an ID that already exists simply replaces the previous entry.
+**Part 1: basic operations.** Make `ToDoList` support `add`, `get` and `update_status` (called `updateStatus` in the camelCase languages):
 
-When a task is added, we map the `taskId` to a container that holds all three attributes. We can represent this container as a simple list, a dedicated object, or a tuple. The choice affects readability and type safety but not the underlying mechanics. The `get` operation then fetches this container and creates a fresh copy of its contents. Returning a copy rather than the stored object is a defensive measure; it shields the internal data from accidental changes by external code. If the ID is not found in the dictionary, we return an empty list rather than a null or undefined value, which keeps the caller's logic straightforward.
+- `add(taskId, description, status)` stores a task under `taskId` with the given description and status.
+- `get(taskId)` returns the task as a list `[taskId, description, status]`, or an empty list when no task has that id.
+- `update_status(taskId, newStatus)` sets the status of the task with that id to `newStatus`. If no such task exists, nothing changes.
 
-Updating a status follows the same pattern: we look up the task by its ID. If it exists, we overwrite its status field directly. If the ID is absent, the operation is silently ignored. In this introductory version there are no state-transition rules—any status can change to any other status—so `updateStatus` is a pure assignment with no validation needed.
+**Part 2: dependencies.** Tasks can now depend on other tasks. Every task has to keep track of two things: the tasks it depends on, and the tasks that depend on it. Status must follow these rules:
 
-Let’s walk through the example operations. Beginning with an empty system, we add `"task1"` as `"Implement login"` with status `"READY"`, and then `"task2"` as `"Write tests"` with status `"IN_PROGRESS"`. Calling `get("task1")` sees the ID in the dictionary and returns a new list `["task1", "Implement login", "READY"]`. After `updateStatus("task1", "IN_PROGRESS")`, the stored status for `"task1"` changes, so a subsequent `get("task1")` now yields `["task1", "Implement login", "IN_PROGRESS"]`. Finally, `get("task3")` finds no entry and returns an empty list.
+- If any of a task's dependencies has not yet succeeded, the task must be put into `BLOCKED`, or stay there.
+- When a dependency succeeds, each task it was blocking may move to `READY`, but only once all of that task's dependencies have succeeded.
+- When a task fails, the failure cascades: every task that depends on it, directly or indirectly, must also fail.
 
-```java
-import java.util.*;
+Constraints:
 
-class ToDoList {
-    private final Map<String, List<String>> tasks;
+* Statuses are values of `TaskStatus`: `READY`, `BLOCKED`, `SUCCEEDED` and `FAILED`.
+* Each later part brings additional tests, and behavior from earlier parts must not regress.
 
-    public ToDoList() {
-        this.tasks = new HashMap<>();
-    }
+## Interview Notes
 
-    public void add(String taskId, String description, String status) {
-        // Store all three fields as a mutable list value
-        tasks.put(taskId, new ArrayList<>(Arrays.asList(taskId, description, status)));
-    }
-
-    public List<String> get(String taskId) {
-        List<String> entry = tasks.get(taskId);
-        if (entry == null) {
-            return new ArrayList<>();
-        }
-        // Defensive copy so the caller cannot mutate the stored state
-        return new ArrayList<>(entry);
-    }
-
-    public void updateStatus(String taskId, String newStatus) {
-        List<String> entry = tasks.get(taskId);
-        if (entry != null) {
-            entry.set(2, newStatus);
-        }
-    }
-}
-```
-
-```python
-from typing import List
-
-class ToDoList:
-    def __init__(self):
-        self._tasks = {}
-
-    def add(self, taskId: str, description: str, status: str) -> None:
-        # Store the task attributes as a list inside the dict
-        self._tasks[taskId] = [taskId, description, status]
-
-    def get(self, taskId: str) -> List[str]:
-        entry = self._tasks.get(taskId)
-        if entry is None:
-            return []
-        # Return a copy to protect internal data
-        return entry.copy()
-
-    def updateStatus(self, taskId: str, newStatus: str) -> None:
-        entry = self._tasks.get(taskId)
-        if entry is not None:
-            entry[2] = newStatus
-```
-
-### Time & Space Complexity
-
-* Time complexity: O(1) for `add`, `get`, and `updateStatus` — each performs at most one hash-based lookup and a constant number of list operations.
-* Space complexity: O(N) where N is the number of tasks stored — the dictionary holds one fixed-size entry per task.
+* Every part has its own test file, and at least one test confirms that earlier behavior still holds after the later changes.
+* Dependency graphs in the tests can be large. A failure cascade that passes the small tests can still time out on a big graph if it keeps revisiting the same tasks.
 
 ## Hints
 

@@ -2,7 +2,7 @@
 
 # Citadel interview process, OA & interview questions
 
-**91 questions** reported at Citadel · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
+**98 questions** reported at Citadel · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Citadel interviews & the free questions](citadel/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,36 +14,39 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **91** |
-| Most recent sighting | Sep 18, 2026 |
-| Reported in the last 90 days | 9 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 91) |
-| Difficulty (easy / medium / hard) | 9 / 47 / 17 |
-| Free to practise | [23](../free/README.md) |
+| Questions tracked | **98** |
+| Most recent sighting | Oct 01, 2026 |
+| Reported in the last 90 days | 12 |
+| Most common format | [Algorithm](../formats/algorithm.md) (58% of 98) |
+| Difficulty (easy / medium / hard) | 9 / 51 / 19 |
+| Free to practise | [25](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 91 questions reported at Citadel. 59 of them carry a sighting date; the other 32 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 98 questions reported at Citadel. 62 of them carry a sighting date; the other 36 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **91 of 91** questions at Citadel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **98 of 98** questions at Citadel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | ██ | [Algorithm](../formats/algorithm.md) (92%) | 5 / 7 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 64 | ██████████ | [Algorithm](../formats/algorithm.md) (56%) | 4 / 32 / 15 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 19 | ███ | [Algorithm](../formats/algorithm.md) (37%) | 0 / 12 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 15 | ██ | [Algorithm](../formats/algorithm.md) (87%) | 5 / 8 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 67 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 4 / 34 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 21 | ███ | [Algorithm](../formats/algorithm.md) (38%) | 0 / 13 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**9 sightings** in this window. Newest first.
+**12 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Memory Blocks — Reachable MEX After One Increment](https://trueinterview.io/questions/oa-memory-block-mex-one-increment) | Algorithm | Medium | Online assessment | Oct 01, 2026 |
+| [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | Hard | Onsite / virtual onsite | Sep 27, 2026 |
 | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Object Oriented Programming | Hard | Phone screen | Sep 18, 2026 |
 | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Algorithm | Medium | Phone screen | Sep 18, 2026 |
+| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Blog | — | Online assessment | Sep 17, 2026 |
 | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | Medium | Phone screen | Sep 08, 2026 |
 | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | System Design | Medium | Phone screen | Sep 03, 2026 |
 | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | System Design | Hard | Phone screen | Aug 29, 2026 |
@@ -54,17 +57,17 @@ Which stage each question came from, for the **91 of 91** questions at Citadel t
 
 ## What they ask about
 
-Of the **55 questions at Citadel that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **59 questions at Citadel that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 9 | 16% | ████████████ | Aug 05, 2026 |
-| `arrays` | 7 | 13% | █████████ | Aug 08, 2026 |
-| `math` | 7 | 13% | █████████ | Jan 28, 2026 |
-| `heap` | 6 | 11% | ████████ | Sep 18, 2026 |
-| `strings` | 6 | 11% | ████████ | May 07, 2026 |
-| `greedy` | 5 | 9% | ███████ | Aug 08, 2026 |
-| `sorting` | 5 | 9% | ███████ | Jan 30, 2026 |
+| `hashing` | 10 | 17% | ████████████ | Oct 01, 2026 |
+| `arrays` | 9 | 15% | ███████████ | Oct 01, 2026 |
+| `math` | 8 | 14% | ██████████ | Jan 28, 2026 |
+| `heap` | 7 | 12% | ████████ | Sep 18, 2026 |
+| `sorting` | 6 | 10% | ███████ | Jan 30, 2026 |
+| `strings` | 6 | 10% | ███████ | May 07, 2026 |
+| `greedy` | 5 | 8% | ██████ | Aug 08, 2026 |
 | `binary-search` | 4 | 7% | █████ | Feb 18, 2026 |
 | `dynamic-programming` | 4 | 7% | █████ | May 04, 2026 |
 | `graphs` | 4 | 7% | █████ | Aug 15, 2026 |
@@ -73,11 +76,12 @@ Of the **55 questions at Citadel that carry a topic label** (60% of them — the
 
 ## When they asked it
 
-Every recorded sighting at Citadel, by the month it was reported in — Oct 26, 2024 to Sep 18, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Citadel, by the month it was reported in — Oct 26, 2024 to Oct 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 4 | ██████ |
+| [Oct 2026](../by-month/2026-10.md) | 1 | █ |
+| [Sep 2026](../by-month/2026-09.md) | 6 | ████████ |
 | [Aug 2026](../by-month/2026-08.md) | 5 | ███████ |
 | [Jul 2026](../by-month/2026-07.md) | 2 | ███ |
 | [Jun 2026](../by-month/2026-06.md) | 3 | ████ |
@@ -97,14 +101,14 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Algorithm | Medium | — | Sep 18, 2026 |
-| **2** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Object Oriented Programming | Hard | — | Sep 18, 2026 |
-| **3** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | Medium | — | Sep 08, 2026 |
-| **4** | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | System Design | Medium | — | Sep 03, 2026 |
-| **5** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | System Design | Hard | — | Aug 29, 2026 |
-| **6** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Algorithm | Medium | — | Aug 15, 2026 |
-| **7** | [Candy (LC 135)](https://trueinterview.io/questions/candy-lc-135) | Algorithm | Medium | — | Aug 08, 2026 |
-| **8** | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | — | Aug 05, 2026 |
+| **1** | [Memory Blocks — Reachable MEX After One Increment](https://trueinterview.io/questions/oa-memory-block-mex-one-increment) | Algorithm | Medium | — | Oct 01, 2026 |
+| **2** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | Hard | — | Sep 27, 2026 |
+| **3** | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Algorithm | Medium | — | Sep 18, 2026 |
+| **4** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Object Oriented Programming | Hard | — | Sep 18, 2026 |
+| **5** | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) 🆓 | Blog | — | — | Sep 17, 2026 |
+| **6** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | Medium | — | Sep 08, 2026 |
+| **7** | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | System Design | Medium | — | Sep 03, 2026 |
+| **8** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | System Design | Hard | — | Aug 29, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -126,8 +130,11 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Memory Blocks — Reachable MEX After One Increment](https://trueinterview.io/questions/oa-memory-block-mex-one-increment) | Algorithm | Medium | 🆕 Oct 01, 2026 |
+| [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | Hard | 🆕 Sep 27, 2026 |
 | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Algorithm | Medium | 🆕 Sep 18, 2026 |
 | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Object Oriented Programming | Hard | 🆕 Sep 18, 2026 |
+| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Blog | — | 🆕 Sep 17, 2026 |
 | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | Medium | Sep 08, 2026 |
 | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | System Design | Medium | Sep 03, 2026 |
 | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | System Design | Hard | Aug 29, 2026 |
@@ -185,6 +192,9 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [Probability and Combinatorics Quickfire Quiz](https://trueinterview.io/questions/trading-probability-quickfire) | Blog | — | Nov 21, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |
+| [Merge Timestamped Price-Delta Feeds](https://trueinterview.io/questions/bec8e37e-9fd0-53be-9ee9-9e904bbf0847) | Algorithm | Medium | — |
+| [Permutation-Invariant Classification of Variable-Length Feature Sets](https://trueinterview.io/questions/4835bfa3-8b24-5b16-9372-993fa9b59e80) | Algorithm | Hard | — |
+| [Terminal-Based Two-Player Battleship](https://trueinterview.io/questions/05f24831-d93c-522f-85ee-0811e321b613) | Object Oriented Programming | Medium | — |
 | [Explain RF optimization and variable-importance pitfalls](https://trueinterview.io/questions/explain-rf-optimization-and-variable-importance-pitfalls) | Blog | — | — |
 | [Estimate OLS via streaming sufficient statistics](https://trueinterview.io/questions/estimate-ols-via-streaming-sufficient-statistics) | Algorithm | Hard | — |
 | [Discuss PhD coursework and research impact](https://trueinterview.io/questions/discuss-phd-coursework-and-research-impact) | Blog | — | — |
@@ -213,6 +223,7 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [External Merge Sort with a Heap](https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d) | Algorithm | Medium | — |
 | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Algorithm | Medium | — |
 | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |
+| [Token Expiry and Reset Management Problem](https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579) | Algorithm | Medium | — |
 | [Medium Level Algorithm Question](https://trueinterview.io/questions/2b3416a8-5a91-4284-b9fa-e0cb6ee1768c) | Algorithm | Medium | — |
 | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | — |
 | [Minimum Changes to Make a K-Periodic Palindromic Password](https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03) | Algorithm | Medium | — |

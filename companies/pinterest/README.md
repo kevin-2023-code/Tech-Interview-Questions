@@ -8,11 +8,11 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [121](../pinterest.md) |
-| Free to read here | 8 |
+| Questions reported | [128](../pinterest.md) |
+| Free to read here | 11 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Sep 02, 2026 |
+| Most recent sighting | Sep 23, 2026 |
 
 ## How Pinterest interviews
 
@@ -50,10 +50,11 @@ Here's what the interview process can look like:
 
 ## Free Pinterest questions
 
-28 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+32 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) |
 | [Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict](https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict) |
 | [ML Fundamentals Quick-Fire](https://trueinterview.io/questions/ml-fundamentals-quick-fire) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/ml-fundamentals-quick-fire) |
 | [MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/questions/mle-intern-codesignal-oa) | Blog | — | Online assessment | Jun 2026 | [Solve](https://trueinterview.io/questions/mle-intern-codesignal-oa) |
@@ -64,6 +65,7 @@ Here's what the interview process can look like:
 | [Evaluate Fresh Content and Video Experiments](https://trueinterview.io/questions/evaluate-fresh-content-and-video-experiments) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/evaluate-fresh-content-and-video-experiments) |
 | [Design and Evaluate a Home Carousel](https://trueinterview.io/questions/design-and-evaluate-a-home-carousel) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/design-and-evaluate-a-home-carousel) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [Maximum Profit in Job Scheduling](../../questions/algorithm/maximum-profit-in-job-scheduling/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) |
 | [Explain learning-rate fluctuation and vanishing gradients](https://trueinterview.io/questions/explain-learning-rate-fluctuation-and-vanishing-gradients) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-learning-rate-fluctuation-and-vanishing-gradients) |
 | [Explain overfitting and how to prevent it](https://trueinterview.io/questions/explain-overfitting-and-how-to-prevent-it) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-overfitting-and-how-to-prevent-it) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
@@ -82,10 +84,12 @@ Here's what the interview process can look like:
 | [Design and assess a video-pin increase experiment](https://trueinterview.io/questions/design-and-assess-video-pin-increase-experiment) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-and-assess-video-pin-increase-experiment) |
 | [Demonstrate leadership with concrete STAR examples](https://trueinterview.io/questions/demonstrate-leadership-with-concrete-star-examples) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/demonstrate-leadership-with-concrete-star-examples) |
 | [Analyze a geo rollout and interpret charts](https://trueinterview.io/questions/analyze-a-geo-rollout-and-interpret-charts) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/analyze-a-geo-rollout-and-interpret-charts) |
+| [Coin Change (LC 322)](../../questions/algorithm/coin-change/README.md) | Algorithm | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/coin-change) |
+| [Split Array Largest Sum](../../questions/algorithm/split-array-largest-sum/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f) |
 
 ## Everything else
 
-- [All 121 questions reported at Pinterest](../pinterest.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 128 questions reported at Pinterest](../pinterest.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Pinterest question on TrueInterview](https://trueinterview.io/problems/company/pinterest).
 
 ---

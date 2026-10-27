@@ -2,79 +2,83 @@
 
 # Waymo interview process, OA & interview questions
 
-**74 questions** reported at Waymo · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
+**87 questions** reported at Waymo · **1 writeup** · **19 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Waymo interviews & the free questions](waymo/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🚗 [Autonomy, automotive & mobility](../company-types/autonomy-mobility.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-waymo)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-waymo)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **74** |
-| Most recent sighting | Sep 06, 2026 |
-| Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (51% of 74) |
-| Difficulty (easy / medium / hard) | 6 / 41 / 17 |
-| Free to practise | [15](../free/README.md) |
+| Questions tracked | **87** |
+| Most recent sighting | Sep 29, 2026 |
+| Reported in the last 90 days | 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (55% of 87) |
+| Difficulty (easy / medium / hard) | 10 / 48 / 18 |
+| Free to practise | [16](../free/README.md) |
 | Guides & writeups | 1 |
+| Interview reports on the board | 19 in this snapshot |
 
-<sub>Counted from the 74 questions reported at Waymo. 67 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 87 questions reported at Waymo. 71 of them carry a sighting date; the other 16 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **74 of 74** questions at Waymo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **87 of 87** questions at Waymo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 8 | ██ | [SQL](../formats/sql.md) (75%) | 4 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (74%) | 0 / 27 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 32 | ████████ | [Algorithm](../formats/algorithm.md) (34%) | 2 / 16 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 12 | ███ | [SQL](../formats/sql.md) (50%) | 8 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 44 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 0 / 32 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (34%) | 2 / 18 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 29, 2026 |
 | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | Blog | — | Phone screen | Sep 06, 2026 |
 | [Describe a Project You Are Proud Of](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) | Blog | — | Onsite / virtual onsite | Aug 27, 2026 |
 | [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities) | Blog | — | Onsite / virtual onsite | Aug 27, 2026 |
 | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Algorithm | Hard | Onsite / virtual onsite | Aug 27, 2026 |
+| [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) | Blog | — | Phone screen | Aug 11, 2026 |
+| [Number of Visible People in a Queue (LC 1944)](https://trueinterview.io/questions/number-of-visible-people-in-a-queue-lc-1944) | Algorithm | Hard | Onsite / virtual onsite | Jul 31, 2026 |
 
 ## What they ask about
 
-Of the **38 questions at Waymo that carry a topic label** (51% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **48 questions at Waymo that carry a topic label** (55% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 10 | 26% | ████████████ | Aug 27, 2026 |
-| `matrix` | 5 | 13% | ██████ | Aug 27, 2026 |
-| `arrays` | 4 | 11% | █████ | May 13, 2026 |
-| `backtracking` | 4 | 11% | █████ | Jul 09, 2026 |
-| `greedy` | 4 | 11% | █████ | Nov 14, 2025 |
-| `strings` | 4 | 11% | █████ | May 13, 2026 |
-| `binary-search` | 3 | 8% | ████ | May 05, 2026 |
-| `dynamic-programming` | 3 | 8% | ████ | Jul 06, 2026 |
-| `intervals` | 3 | 8% | ████ | May 05, 2026 |
-| `two-pointers` | 3 | 8% | ████ | Jun 27, 2026 |
+| `graphs` | 11 | 23% | ████████████ | Aug 27, 2026 |
+| `strings` | 7 | 15% | ████████ | May 13, 2026 |
+| `arrays` | 6 | 12% | ███████ | Jul 31, 2026 |
+| `matrix` | 6 | 12% | ███████ | Aug 27, 2026 |
+| `hashing` | 5 | 10% | █████ | May 06, 2026 |
+| `backtracking` | 4 | 8% | ████ | Jul 09, 2026 |
+| `greedy` | 4 | 8% | ████ | Nov 14, 2025 |
+| `trees` | 4 | 8% | ████ | Apr 27, 2026 |
+| `binary-search` | 3 | 6% | ███ | May 05, 2026 |
+| `dynamic-programming` | 3 | 6% | ███ | Jul 06, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Waymo, by the month it was reported in — Sep 29, 2025 to Sep 06, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Waymo, by the month it was reported in — Sep 29, 2025 to Sep 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ██ |
-| [Aug 2026](../by-month/2026-08.md) | 3 | ████ |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ████ |
+| [Sep 2026](../by-month/2026-09.md) | 2 | ███ |
+| [Aug 2026](../by-month/2026-08.md) | 4 | ██████ |
+| [Jul 2026](../by-month/2026-07.md) | 5 | ████████ |
 | [Jun 2026](../by-month/2026-06.md) | 5 | ████████ |
 | [May 2026](../by-month/2026-05.md) | 16 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 15 | ██████████████████████ |
@@ -91,14 +95,14 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) 🆓 | Blog | — | — | Sep 06, 2026 |
-| **2** | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Algorithm | Hard | — | Aug 27, 2026 |
-| **3** | [Describe a Project You Are Proud Of](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) 🆓 | Blog | — | — | Aug 27, 2026 |
-| **4** | [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities) 🆓 | Blog | — | — | Aug 27, 2026 |
-| **5** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | — | Jul 09, 2026 |
-| **6** | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | — | Jul 06, 2026 |
-| **7** | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Algorithm | Medium | — | Jul 02, 2026 |
-| **8** | [Design a Fleet That Collects Mapping Data](https://trueinterview.io/questions/design-a-fleet-that-collects-mapping-data) | System Design | Medium | — | Jun 27, 2026 |
+| **1** | [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Object Oriented Programming | Medium | — | Sep 29, 2026 |
+| **2** | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) 🆓 | Blog | — | — | Sep 06, 2026 |
+| **3** | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Algorithm | Hard | — | Aug 27, 2026 |
+| **4** | [Describe a Project You Are Proud Of](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) 🆓 | Blog | — | — | Aug 27, 2026 |
+| **5** | [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities) 🆓 | Blog | — | — | Aug 27, 2026 |
+| **6** | [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) 🆓 | Blog | — | — | Aug 11, 2026 |
+| **7** | [Number of Visible People in a Queue (LC 1944)](https://trueinterview.io/questions/number-of-visible-people-in-a-queue-lc-1944) | Algorithm | Hard | — | Jul 31, 2026 |
+| **8** | [Design a Global Cache for Small Images](https://trueinterview.io/questions/global-small-image-cache) | System Design | Medium | — | Jul 14, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -110,6 +114,34 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | :-- | :-- |
 | [Waymo Interview Process & Questions](https://trueinterview.io/study/waymo-interview-process) | — |
 
+## Interview reports
+
+What candidates said happened in the room at Waymo — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Waymo Counting Squares from Line Segments Coding Interview Experience](https://trueinterview.io/interviews/566a5e47-ada1-4754-b5bd-a7e039b220cd) | Oct 27, 2026 |
+| Data & AI | [Waymo Data Role Interview Experience](https://trueinterview.io/interviews/74733c21-26c5-4539-a111-4f495973fae5) | Oct 27, 2026 |
+| Software | [Waymo Interview Experience](https://trueinterview.io/interviews/284a55d8-c803-475f-a203-08ab309f6ce4) | Oct 27, 2026 |
+| Software | [Waymo Map Data Vehicle Fleet Design and Grid Coding Interview Experience](https://trueinterview.io/interviews/5e19efc4-9ff1-4113-8053-5f1246c1ad46) | Oct 27, 2026 |
+| Software | [Waymo Org Chart FTE Score Coding Interview Experience](https://trueinterview.io/interviews/59c5dabd-ae15-493b-bf86-bcd64a6183e1) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer / MLE / Data Roles Interview Experience Compilation (2026)](https://trueinterview.io/interviews/6e10c381-3689-4172-8fd5-e9cb86469a96) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience](https://trueinterview.io/interviews/0cdf97d1-00d3-4e29-9ff3-b14562938646) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience](https://trueinterview.io/interviews/8156b61b-19f2-4cb9-80c6-b6539719341f) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience](https://trueinterview.io/interviews/9599ea13-67de-4390-9dc1-e0b738ac6c2a) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience (California, MD)](https://trueinterview.io/interviews/c0b9bbca-f902-475b-b184-6fbdcd979558) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience (California, MD, 2026)](https://trueinterview.io/interviews/100ee165-baf2-4d04-924d-7c5ceb12d809) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience (Mountain View, CA)](https://trueinterview.io/interviews/4d3f5a7a-6d56-495e-b268-23e075bff7a3) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience (Mountain View, CA, 2026)](https://trueinterview.io/interviews/f1ab92ad-4958-416a-9292-d24e0a707567) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/152d342a-a13f-4f3a-8b63-8aaf70f02d04) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/4b81d725-f2f1-4e49-be46-158f2d1e736c) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/5dfa5f98-9271-4f4b-ab46-9ac24e6905a9) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience (Warsaw, Masovia, 2026)](https://trueinterview.io/interviews/d581fbf6-b321-4fd9-a832-77452bd286bb) | Oct 27, 2026 |
+| Software | [Waymo Software Engineer Interview Experience: Board Generation, Hex Dump and Ride-Sharing Design](https://trueinterview.io/interviews/fbbcc45d-bd3a-49fa-88b9-c92a9ad4f167) | Oct 27, 2026 |
+| Software | [Waymo Vehicle Maintenance Readiness Check Coding Interview Experience](https://trueinterview.io/interviews/7fbc047c-8ac2-45ce-8c87-e81bb87fa68d) | Oct 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 6,866 in total). [Every report at Waymo and everywhere else →](https://trueinterview.io/interviews)</sub>
+
 ---
 
 **Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [Waymo on TrueInterview](https://trueinterview.io/problems/company/waymo).
@@ -120,10 +152,14 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Object Oriented Programming | Medium | 🆕 Sep 29, 2026 |
 | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | Blog | — | Sep 06, 2026 |
 | [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities) | Blog | — | Aug 27, 2026 |
 | [Describe a Project You Are Proud Of](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) | Blog | — | Aug 27, 2026 |
 | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Algorithm | Hard | Aug 27, 2026 |
+| [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) | Blog | — | Aug 11, 2026 |
+| [Number of Visible People in a Queue (LC 1944)](https://trueinterview.io/questions/number-of-visible-people-in-a-queue-lc-1944) | Algorithm | Hard | Jul 31, 2026 |
+| [Design a Global Cache for Small Images](https://trueinterview.io/questions/global-small-image-cache) | System Design | Medium | Jul 14, 2026 |
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | Jul 09, 2026 |
 | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | Jul 06, 2026 |
 | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Algorithm | Medium | Jul 02, 2026 |
@@ -187,8 +223,17 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | [Estimate total attendance from size-biased reservation sample](https://trueinterview.io/questions/estimate-total-attendance-from-size-biased-reservation-sample) | Blog | — | Nov 11, 2025 |
 | [Sparse Matrix Left- and Right-Multiply Vector](https://trueinterview.io/questions/sparse-matrix-vector-multiply) | Object Oriented Programming | Medium | Sep 29, 2025 |
 | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | System Design | Hard | Sep 29, 2025 |
+| [Count Islands and Compute Coastline Length](https://trueinterview.io/questions/d3f92d42-3cee-5d76-bec0-10b3df78167e) | Algorithm | Medium | — |
+| [Format Bytes as a Hexdump with ASCII Preview](https://trueinterview.io/questions/a4271820-2948-5b33-9f94-e2515685b70c) | Algorithm | Easy | — |
+| [Employee Hierarchy FTE Score and Capacity-Constrained Insertion](https://trueinterview.io/questions/93c70728-cc29-5cd9-a25c-e30e55f46d3e) | Algorithm | Medium | — |
+| [Count Frequencies in a Bounded Integer Array](https://trueinterview.io/questions/80b6974a-397a-5a98-82d0-d78895577267) | Algorithm | Easy | — |
+| [Random Access in Run-Length Encoded Data](https://trueinterview.io/questions/6f2137c5-0639-5fd4-a800-365447eee0a6) | Algorithm | Easy | — |
+| [Match Dictionary Words After Collapsing Consecutive Duplicates](https://trueinterview.io/questions/4b019575-ee7a-52d8-ac1f-f8de2d5033d8) | Algorithm | Easy | — |
+| [Vehicle Maintenance Event Validation](https://trueinterview.io/questions/40bddb3c-0280-572b-a65b-ba31f5b9fba5) | Algorithm | Medium | — |
+| [A/B Test P-Value for Time to Pickup](https://trueinterview.io/questions/0c1140f9-faff-56f1-81da-8127291869c1) | Algorithm | Medium | — |
 | [How compare Waymo turning trajectories statistically](https://trueinterview.io/questions/how-compare-waymo-turning-trajectories-statistically) | Blog | — | — |
 | [Minimum Number of Refueling Stops](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) | Algorithm | Medium | — |
+| [Filter an N-ary Tree and Render It with Indentation](https://trueinterview.io/questions/4a42af98-55d6-5d1e-aa8b-01049a27f459) | Algorithm | Medium | — |
 | [Minimum travel path for a pen-plotter to draw given strokes](https://trueinterview.io/questions/3381639d-07f5-4b35-b058-b7310ebb194d) | Algorithm | Hard | — |
 | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Algorithm | Medium | — |
 | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Algorithm | Medium | — |

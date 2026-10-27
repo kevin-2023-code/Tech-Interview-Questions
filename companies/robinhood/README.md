@@ -8,8 +8,8 @@ How Robinhood interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [53](../robinhood.md) |
-| Free to read here | 10 |
+| Questions reported | [54](../robinhood.md) |
+| Free to read here | 11 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 17, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Robinhood questions
 
-19 questions reported at Robinhood open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at Robinhood open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -66,6 +66,7 @@ Here's what the interview process can look like:
 | [Handle security vs velocity conflicts across teams](https://trueinterview.io/questions/handle-security-vs-velocity-conflicts-across-teams) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/handle-security-vs-velocity-conflicts-across-teams) |
 | [Present a Project With Correctness Guarantees](https://trueinterview.io/questions/present-a-project-with-correctness-guarantees) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/present-a-project-with-correctness-guarantees) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [My Calendar I](../../questions/algorithm/my-calendar-i/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/my-calendar-i) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
 | [Design an experiment to launch fractional shares](https://trueinterview.io/questions/design-an-experiment-to-launch-fractional-shares) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-experiment-to-launch-fractional-shares) |
 | [Mobile Table View Timer App](../../questions/object-oriented-programming/mobile-table-view-timer-app/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/mobile-table-view-timer-app) |
@@ -76,7 +77,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 53 questions reported at Robinhood](../robinhood.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 54 questions reported at Robinhood](../robinhood.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Robinhood question on TrueInterview](https://trueinterview.io/problems/company/robinhood).
 
 ---

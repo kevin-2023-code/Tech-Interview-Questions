@@ -9,7 +9,7 @@ How Pinduoduo interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [27](../pinduoduo.md) |
-| Free to read here | 5 |
+| Free to read here | 11 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Pinduoduo questions
 
-11 questions reported at Pinduoduo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+17 questions reported at Pinduoduo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -57,11 +57,17 @@ Here's what the interview process can look like:
 | [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) |
 | [Project Deep Dive & Behavioral](https://trueinterview.io/questions/project-deep-dive-and-bq-2) | Blog | — | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-and-bq-2) |
 | [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) |
+| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/validate-binary-search-tree) |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) |
 | [Navigate a Senior Engineering HR Interview](https://trueinterview.io/questions/navigate-a-senior-engineering-hr-interview) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/navigate-a-senior-engineering-hr-interview) |
+| [Next Greater Element I](../../questions/algorithm/next-greater-element-i/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/next-greater-element-i) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-toughest-project-experience) |
+| [Transaction Settlement](../../questions/algorithm/transaction-settlement/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/2d3f6203-6989-434b-88a1-3299068e034e) |
 | [Sort Colors and Sizes](../../questions/algorithm/sort-colors-and-sizes/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc) |
+| [Longest Repeating Character Replacement](../../questions/algorithm/longest-repeating-character-replacement/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) |
+| [Spiral Matrix](../../questions/algorithm/spiral-matrix/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 
 ## Everything else

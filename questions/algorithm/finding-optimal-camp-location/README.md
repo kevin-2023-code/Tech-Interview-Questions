@@ -48,10 +48,10 @@ Input:
 #####
 
 Output:
-2 2
+3 2
 ```
 
-**Explanation:** The cell at (2,2) is the only road cell that is reachable from all three `P` points. Its total Manhattan distance to the `P`s is minimized.
+**Explanation:** The `P`s are at (1,2), (3,1) and (3,3). The road cell (3,2) between the two lower `P`s has total distance `2 + 1 + 1 = 4`, which beats every other reachable cell (for example (2,2) totals `1 + 2 + 2 = 5`).
 
 #### Example 2
 
@@ -63,10 +63,10 @@ P #
    P
 
 Output:
-1 1
+1 3
 ```
 
-**Explanation:** The cell (1,1) is a road cell reachable from all three `P`s. The sum of distances from (1,1) to the `P`s at (0,2), (1,0), and (2,3) is `|1-0|+|1-2| + |1-1|+|1-0| + |1-2|+|1-3| = 1+1 + 0+1 + 1+2 = 6`, which is the smallest possible total.
+**Explanation:** The `P`s are at (0,3), (1,0) and (2,3). The road cell (1,3) has total distance `|1-0|+|3-3| + |1-1|+|3-0| + |1-2|+|3-3| = 1 + 3 + 1 = 5`, the smallest possible total; for comparison, (1,1) totals `3 + 1 + 3 = 7`.
 
 ### Constraints
 

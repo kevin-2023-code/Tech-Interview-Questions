@@ -84,7 +84,7 @@ Here are some questions reported by recent candidates:
 - Count subarrays that sum to k when the array contains negatives and zeros, then count those that sum to at most k.
 - Shuffle a deck so every permutation is equally likely, then draw a card uniformly at random in O(1) time.
 
-- [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k)
+- [Subarray Sum Equals K](../../questions/algorithm/subarray-sum-equals-k/README.md)
 - [Binary Search Tree Iterator](../../questions/object-oriented-programming/binary-search-tree-iterator/README.md)
 - [Find Failed Login IPs](../../questions/algorithm/find-failed-login-ips/README.md)
 - [Design a Deck of Cards](https://trueinterview.io/questions/design-a-deck-of-cards)

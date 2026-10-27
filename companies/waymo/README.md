@@ -8,11 +8,11 @@ How Waymo interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [74](../waymo.md) |
+| Questions reported | [87](../waymo.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Sep 06, 2026 |
+| Most recent sighting | Sep 29, 2026 |
 
 ## How Waymo interviews
 
@@ -49,13 +49,14 @@ Here's what the interview process can look like:
 
 ## Free Waymo questions
 
-15 questions reported at Waymo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+16 questions reported at Waymo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) |
 | [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/handle-competing-work-priorities) |
 | [Describe a Project You Are Proud Of](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) |
+| [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) |
 | [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/questions/project-deep-dive-ml-fundamentals) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-ml-fundamentals) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Implement K-Means in NumPy or PyTorch](../../questions/ai-coding/implement-k-means-in-numpy-or-pytorch/README.md) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) |
@@ -71,7 +72,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 74 questions reported at Waymo](../waymo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 87 questions reported at Waymo](../waymo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Waymo question on TrueInterview](https://trueinterview.io/problems/company/waymo).
 
 ---

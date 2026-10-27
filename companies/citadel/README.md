@@ -8,11 +8,11 @@ How Citadel interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [91](../citadel.md) |
-| Free to read here | 5 |
+| Questions reported | [98](../citadel.md) |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Sep 18, 2026 |
+| Most recent sighting | Oct 01, 2026 |
 
 ## How Citadel interviews
 
@@ -48,10 +48,11 @@ Here's what the interview process can look like:
 
 ## Free Citadel questions
 
-23 questions reported at Citadel open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+25 questions reported at Citadel open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) |
 | [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/questions/gqs-swe-whiteboard-boundary-search-top-k) | Blog | — | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/gqs-swe-whiteboard-boundary-search-top-k) |
 | [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/questions/citadel-bq-resume-loop) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/citadel-bq-resume-loop) |
 | [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals) |
@@ -74,11 +75,12 @@ Here's what the interview process can look like:
 | [Diagnose outliers and influence in linear regression](https://trueinterview.io/questions/diagnose-outliers-and-influence-in-linear-regression) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-outliers-and-influence-in-linear-regression) |
 | [Derive lower bound for equicorrelation rho](https://trueinterview.io/questions/derive-lower-bound-for-equicorrelation-rho) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/derive-lower-bound-for-equicorrelation-rho) |
 | [Derive distribution of an inverse transform](https://trueinterview.io/questions/derive-distribution-of-an-inverse-transform) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/derive-distribution-of-an-inverse-transform) |
+| [Search Suggestions System](../../questions/algorithm/search-suggestions-system/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13) |
 | [Palindrome Detection](../../questions/algorithm/palindrome-detection/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) |
 
 ## Everything else
 
-- [All 91 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 98 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Citadel question on TrueInterview](https://trueinterview.io/problems/company/citadel).
 
 ---

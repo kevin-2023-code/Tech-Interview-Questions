@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (93% of 27) |
 | Difficulty (easy / medium / hard) | 13 / 10 / 3 |
-| Free to practise | [18](../free/README.md) |
+| Free to practise | [19](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 27 questions reported at Cisco. 17 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -84,7 +84,7 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) 🆓 | Blog | — | — | Sep 17, 2026 |
-| **2** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 3 | Jun 16, 2026 |
+| **2** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) 🆓 | Algorithm | Medium | 3 | Jun 16, 2026 |
 | **3** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | 3 | May 22, 2026 |
 | **4** | [House Robber Series](https://trueinterview.io/questions/house-robber-series) 🆓 | Algorithm | Medium | 4 | Nov 18, 2025 |
 | **5** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) 🆓 | Algorithm | Easy | 1 | Sep 29, 2025 |

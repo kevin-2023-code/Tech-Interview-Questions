@@ -9,7 +9,7 @@ How Visa interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [15](../visa.md) |
-| Free to read here | 2 |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | — |
@@ -47,10 +47,14 @@ Here's what the interview process can look like:
 
 ## Free Visa questions
 
-2 questions reported at Visa open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Visa open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Minimize Maximum of Array](../../questions/algorithm/minimize-maximum-of-array/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47) |
+| [Best Time to Buy and Sell Stock](../../questions/algorithm/best-time-to-buy-and-sell-stock/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) |
+| [Minimum Score of a Path Between Two Cities](../../questions/algorithm/minimum-score-of-a-path-between-two-cities/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d) |
+| [Find K Closest Elements](../../questions/algorithm/find-k-closest-elements/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) |
 | [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) |
 | [Jump Game](../../questions/algorithm/jump-game/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) |
 

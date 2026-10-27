@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,860 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,892 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,19 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Uber** | [Select the better $5 promo-targeting model](https://trueinterview.io/questions/select-the-better-5-promo-targeting-model) | — | — |
+| **Meta** | [Select interest thresholds under skewness and cost](https://trueinterview.io/questions/select-interest-thresholds-under-skewness-and-cost) | — | — |
+| **Meta** | [Select and prioritize metrics with guardrails](https://trueinterview.io/questions/select-and-prioritize-metrics-with-guardrails) | — | — |
+| **Meta** | [Run a clean A/B test for recommendations](https://trueinterview.io/questions/run-a-clean-a-b-test-for-recommendations) | — | — |
+| **Amazon** | [Root-cause an incident and drive consensus](https://trueinterview.io/questions/root-cause-an-incident-and-drive-consensus) | — | — |
+| **Meta** | [Resolve cross-team conflict and align incentives](https://trueinterview.io/questions/resolve-cross-team-conflict-and-align-incentives) | — | — |
+| **Google** | [Resolve conflict on trust versus growth priorities](https://trueinterview.io/questions/resolve-conflict-on-trust-versus-growth-priorities) | — | — |
+| **NVIDIA** | [Resolve conflict and learn from failure](https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure) | — | — |
+| **NVIDIA** | [Reflect on interview takeaways and adaptation](https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation) | — | — |
+| **Meta** | [Reflect on feedback and metric trade-offs](https://trueinterview.io/questions/reflect-on-feedback-and-metric-trade-offs) | — | — |
+| **Google** | [Reflect on a failed decision and redo it](https://trueinterview.io/questions/reflect-on-a-failed-decision-and-redo-it) | — | — |
+| **ByteDance** | [Reflect on a challenging project you led](https://trueinterview.io/questions/reflect-on-a-challenging-project-you-led) | — | — |
+| **Meta** | [Reduce variance with covariate adjustment](https://trueinterview.io/questions/reduce-variance-with-covariate-adjustment) | — | — |
 | **Meta** | [Redesign an executive dashboard for C-suite](https://trueinterview.io/questions/redesign-an-executive-dashboard-for-c-suite) | — | — |
 | **ByteDance** | [Rank factors for TikTok market entry](https://trueinterview.io/questions/rank-factors-for-tiktok-market-entry) | — | — |
 | **Meta** | [Quantify launch decision with tests and guardrails](https://trueinterview.io/questions/quantify-launch-decision-with-tests-and-guardrails) | — | — |
@@ -247,18 +260,5 @@
 | **Amazon** | [Compare Tableau live vs extract and filters](https://trueinterview.io/questions/compare-tableau-live-vs-extract-and-filters) | — | — |
 | **Amazon** | [Compare Random Forests vs Gradient Boosting rigorously](https://trueinterview.io/questions/compare-random-forests-vs-gradient-boosting-rigorously) | — | — |
 | **Apple** | [Compare Normal vs Poisson; test dispersion and approximate tails](https://trueinterview.io/questions/compare-normal-vs-poisson-test-dispersion-and-approximate-tails) | — | — |
-| **Amazon** | [Compare decision trees and random forests](https://trueinterview.io/questions/compare-decision-trees-and-random-forests) | — | — |
-| **Microsoft** | [Compare CNN, RNN, and LSTM rigorously](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) | — | — |
-| **Meta** | [Compare Bayesian and frequentist decisions](https://trueinterview.io/questions/compare-bayesian-and-frequentist-decisions) | — | — |
-| **ByteDance** | [Compare bagging vs boosting on imbalanced data](https://trueinterview.io/questions/compare-bagging-vs-boosting-on-imbalanced-data) | — | — |
-| **ByteDance** | [Communicate technical impact under skeptical stakeholders](https://trueinterview.io/questions/communicate-technical-impact-under-skeptical-stakeholders) | — | — |
-| **Apple** | [Clarify status, education, and multi-role strategy](https://trueinterview.io/questions/clarify-status-education-and-multi-role-strategy) | — | — |
-| **Meta** | [Clarify scope and align to mission](https://trueinterview.io/questions/clarify-scope-and-align-to-mission) | — | — |
-| **Google** | [Clarify ambiguous requirements under pressure](https://trueinterview.io/questions/clarify-ambiguous-requirements-under-pressure) | — | — |
-| **Meta** | [Choose threshold under asymmetric costs](https://trueinterview.io/questions/choose-threshold-under-asymmetric-costs) | — | — |
-| **Intuit** | [Choose the right test for proportions](https://trueinterview.io/questions/choose-the-right-test-for-proportions) | — | — |
-| **Meta** | [Choose tests and solve distribution parameters](https://trueinterview.io/questions/choose-tests-and-solve-distribution-parameters) | — | — |
-| **Meta** | [Choose robust metrics for skewed comments](https://trueinterview.io/questions/choose-robust-metrics-for-skewed-comments) | — | — |
-| **Amazon** | [Choose regularization norms and model formulations](https://trueinterview.io/questions/choose-regularization-norms-and-model-formulations) | — | — |
 
 <sub>[← Page 7](big-tech-7.md) · Page 8 of 12 · [Page 9 →](big-tech-9.md)</sub>

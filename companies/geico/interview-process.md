@@ -97,7 +97,7 @@ Here are some questions reported by recent candidates:
 - [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a)
 - [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md)
 - [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md)
-- [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2)
+- [Best Time to Buy and Sell Stock with Cooldown](../../questions/algorithm/best-time-to-buy-and-sell-stock-with-cooldown/README.md)
 - [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957)
 
 ## System design interview

@@ -2,7 +2,7 @@
 
 # 🎮 Gaming & interactive — interview & OA questions
 
-**102 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**106 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Roblox (102)](../companies/roblox.md)
+[Roblox (106)](../companies/roblox.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,31 +18,31 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 49 | 48% | ██████████████ | 10 |
+| [Algorithm](../formats/algorithm.md) | 52 | 49% | ██████████████ | 11 |
 | [System Design](../formats/system-design.md) | 26 | 25% | ███████ | 3 |
-| [Blog](../formats/blog.md) | 15 | 15% | ████ | 15 |
+| [Blog](../formats/blog.md) | 15 | 14% | ████ | 15 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 6 | 6% | ██ | 1 |
 | [SQL](../formats/sql.md) | 6 | 6% | ██ | 0 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 5% | █ | 1 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **16 / 52 / 19**, over the rows the catalog has graded. 29 of the 102 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **16 / 53 / 22**, over the rows the catalog has graded. 30 of the 106 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **49 questions in this cut that carry a topic label** (48% of it):
+Of the **52 questions in this cut that carry a topic label** (49% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 13 | 27% | ████████████ |
-| `hashing` | 12 | 24% | ███████████ |
-| `sliding-window` | 6 | 12% | ██████ |
-| `sorting` | 6 | 12% | ██████ |
-| `strings` | 6 | 12% | ██████ |
-| `heap` | 5 | 10% | █████ |
-| `matrix` | 5 | 10% | █████ |
-| `greedy` | 4 | 8% | ████ |
-| `math` | 4 | 8% | ████ |
-| `stack` | 4 | 8% | ████ |
+| `arrays` | 14 | 27% | ████████████ |
+| `hashing` | 13 | 25% | ███████████ |
+| `sorting` | 7 | 13% | ██████ |
+| `matrix` | 6 | 12% | █████ |
+| `sliding-window` | 6 | 12% | █████ |
+| `strings` | 6 | 12% | █████ |
+| `heap` | 5 | 10% | ████ |
+| `greedy` | 4 | 8% | ███ |
+| `math` | 4 | 8% | ███ |
+| `stack` | 4 | 8% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -86,10 +86,10 @@ Of the **49 questions in this cut that carry a topic label** (48% of it):
 | **Roblox** | [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Medium | May 09, 2026 |
 | **Roblox / Robinhood** | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | Medium | May 07, 2026 |
 | **Roblox / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Okta / Oracle / Ramp / Reddit / Rippling / Snapchat / Waymo / xAI** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
-| **Roblox** | [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | Medium | Apr 18, 2026 |
+| **Roblox** | [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | Hard | Apr 18, 2026 |
 | **Roblox** | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system) | Medium | Apr 13, 2026 |
-| **Roblox** | [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | Medium | Apr 12, 2026 |
-| **Roblox** | [Design A Shared Todo List](https://trueinterview.io/questions/design-collaborative-to-do-list-system) | Easy | Apr 10, 2026 |
+| **Roblox** | [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | Hard | Apr 12, 2026 |
+| **Roblox** | [Design A Shared Todo List](https://trueinterview.io/questions/design-collaborative-to-do-list-system) | Medium | Apr 10, 2026 |
 | **Roblox** | [Design Online Game Matching Service](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system) | Medium | Apr 08, 2026 |
 | **Roblox** | [Design Roblox Wallet](https://trueinterview.io/questions/design-roblox-wallet) | Medium | Apr 07, 2026 |
 | **Roblox** | [Most Frequently Called Function From Logs](https://trueinterview.io/questions/most-frequently-called-function-from-logs) | Easy | Apr 2026 |
@@ -131,6 +131,10 @@ Of the **49 questions in this cut that carry a topic label** (48% of it):
 | **Roblox** | [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain) | Medium | Sep 02, 2025 |
 | **Roblox** | [Find Minimum Score Threshold](https://trueinterview.io/questions/find-minimum-score-threshold) | Medium | Sep 02, 2025 |
 | **Roblox** | [Auto Email Generation](https://trueinterview.io/questions/auto-email-generation) | Easy | Sep 02, 2025 |
+| **Roblox** | [Obstacle Checks for Centered Blocks on an Infinite Number Line](https://trueinterview.io/questions/8e1ed387-132e-5d2c-8831-7db6218b75c5) | Medium | — |
+| **Roblox** | [Match-3 Grid: Find Matches, Clear, and Drop](https://trueinterview.io/questions/5e43d3d7-6004-55f7-b2e1-75c47b336ae2) | Medium | — |
+| **Roblox** | [Build an Auto-Rotating Traffic Light in Vanilla JavaScript](https://trueinterview.io/questions/3179045e-815a-52de-bb9d-530f993b62a7) | Easy | — |
+| **Roblox** | [Time-Aware Search Autocomplete](https://trueinterview.io/questions/02e501ce-d611-5553-a651-36ddce5c14b2) | Hard | — |
 | **Roblox** | [Optimize bread-factory pipeline for max profit](https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit) | Hard | — |
 | **Roblox** | [Implement robust one/two-sided p-value function](https://trueinterview.io/questions/implement-robust-one-two-sided-p-value-function) | Hard | — |
 | **Roblox** | [Explain an ML project end-to-end with tradeoffs](https://trueinterview.io/questions/explain-an-ml-project-end-to-end-with-tradeoffs) | — | — |
@@ -167,4 +171,4 @@ Of the **49 questions in this cut that carry a topic label** (48% of it):
 | **Roblox** | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Easy | — |
 | **Roblox / Uber** | [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) | Hard | — |
 | **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Reddit / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |
-| **Ramp / Amazon / Bloomberg / ByteDance / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |
+| **Ramp / Amazon / Bloomberg / ByteDance / Ebay / Google / IBM / LinkedIn / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |

@@ -12,144 +12,78 @@
 
 ## Problem
 
-## Approach 1: Normalize Every Direction into a Left Collapse
+Build the deterministic movement step of the sliding-tile game **2048**. You receive a square `n x n` integer grid `board`, where `0` stands for an empty cell and any nonzero entry is a tile, together with a string `direction` equal to `"up"`, `"down"`, `"left"`, or `"right"`. Produce the grid that results from performing exactly **one move** in that direction and return it. (Treating the move as a function that hands back the resulting grid keeps it free of randomness and easy to unit-test; an equivalent contract is an in-place `move(direction)` method that mutates the grid — if you choose that, say so.)
 
-Every move in 2048 operates on a single one-dimensional lane. For horizontal pushes, each row is a lane. For vertical pushes, each column is a lane. Once you realize that a lane behaves identically regardless of direction — as long as the wall it is sliding toward is treated as index `0` — you can implement the movement once and reuse it everywhere.
+A single move obeys these rules:
 
-The core helper first compacts a lane by removing zeros while preserving the relative order of nonzero tiles. It then scans the compacted prefix from the front. When two adjacent values match, it writes their doubled value once and skips the next tile. That skip is what enforces "each tile merges at most once." For example, `[2, 2, 2, 2]` becomes `[4, 4, 0, 0]`, never `[8, 0, 0, 0]`.
+- Every tile travels as far as it can toward the side named by `direction`, so that no empty cell is left between a tile and the wall or between a tile and the tile in front of it.
+- When two neighbouring tiles along the direction of travel hold the **same** value, they combine into a single tile whose value is twice as large.
+- Within one move, any given tile can take part in **no more than one** combination. For instance, four equal tiles in a line become two doubled tiles, never one quadrupled tile.
+- Combining proceeds starting from the wall you are pushing toward, so three equal tiles pushed left yield a doubled tile against the wall followed by one original tile.
+- Once sliding and combining are finished, every cell not occupied by a tile holds `0`.
 
-Consider moving left on the lane `[2, 4, 0, 4]`. Compaction removes the zero to produce `[2, 4, 4]`. The merge scan sees the two adjacent `4`s, writes `8`, and leaves the `2` in front, producing `[2, 8]`. After padding with zeros, the final lane is `[2, 8, 0, 0]`.
+You are not asked to build any UI or track a score. If you want to add random spawning of new tiles, keep it entirely outside the deterministic move logic.
 
-Mapping directions onto this helper is a small adapter. For `left`, rows are read and written directly. For `right`, rows are read from right to left, collapsed, and written back from the right. For `up`, columns are read top to bottom, collapsed, and written back top to bottom. For `down`, columns are read bottom to top, collapsed, and written back from the bottom. The implementation below uses two booleans: `vertical` for column processing and `reverse` for directions whose leading edge is the far end of the lane.
+Example 1:
 
-This implementation returns a fresh board as a pure function. If an in-place contract is required, copy the returned matrix back into the original board. A caller can detect whether the board changed by comparing the input and output matrices.
+```text
+Input: board = [[0,2,2,4],[8,8,8,0],[4,0,4,4],[0,0,0,2]], direction = "left"
 
-```java
-class Solution {
-    public int[][] move(int[][] board, String direction) {
-        if (!direction.equals("left") && !direction.equals("right")
-                && !direction.equals("up") && !direction.equals("down")) {
-            throw new IllegalArgumentException("Unknown direction: " + direction);
-        }
-
-        int n = board.length;
-        int[][] result = new int[n][n];
-        boolean vertical = direction.equals("up") || direction.equals("down");
-        boolean reverse = direction.equals("right") || direction.equals("down");
-
-        for (int index = 0; index < n; index++) {
-            int[] lane = readLane(board, vertical, reverse, index);
-            int[] collapsed = collapse(lane);
-            writeLane(result, collapsed, vertical, reverse, index);
-        }
-
-        return result;
-    }
-
-    private int[] readLane(int[][] board, boolean vertical, boolean reverse, int index) {
-        int n = board.length;
-        int[] lane = new int[n];
-
-        for (int pos = 0; pos < n; pos++) {
-            int row = vertical ? (reverse ? n - 1 - pos : pos) : index;
-            int col = vertical ? index : (reverse ? n - 1 - pos : pos);
-            lane[pos] = board[row][col];
-        }
-
-        return lane;
-    }
-
-    private void writeLane(int[][] board, int[] lane, boolean vertical, boolean reverse, int index) {
-        int n = board.length;
-
-        for (int pos = 0; pos < n; pos++) {
-            int row = vertical ? (reverse ? n - 1 - pos : pos) : index;
-            int col = vertical ? index : (reverse ? n - 1 - pos : pos);
-            board[row][col] = lane[pos];
-        }
-    }
-
-    private int[] collapse(int[] lane) {
-        int n = lane.length;
-        int[] packed = new int[n];
-        int write = 0;
-
-        for (int value : lane) {
-            if (value != 0) {
-                packed[write++] = value;
-            }
-        }
-
-        int[] moved = new int[n];
-        int out = 0;
-
-        for (int i = 0; i < write; i++) {
-            if (i + 1 < write && packed[i] == packed[i + 1]) {
-                moved[out++] = packed[i] * 2;
-                i++; // both tiles in the pair are consumed
-            } else {
-                moved[out++] = packed[i];
-            }
-        }
-
-        return moved;
-    }
-}
+Output: [[4,4,0,0],[16,8,0,0],[8,4,0,0],[2,0,0,0]]
 ```
 
-```python
-from typing import List
+Explanation: Row by row toward the left wall: `2,2,4` gives `4,4`; `8,8,8` gives `16,8` (only the two closest to the wall combine); `4,4,4` gives `8,4`; the lone `2` simply slides over.
 
-class Solution:
-    def move(self, board: List[List[int]], direction: str) -> List[List[int]]:
-        if direction not in ("up", "down", "left", "right"):
-            raise ValueError("Unknown direction: " + direction)
+Example 2:
 
-        n = len(board)
-        result = [[0] * n for _ in range(n)]
-        vertical = direction in ("up", "down")
-        reverse = direction in ("right", "down")
+```text
+Input: board = [[2,2,0],[2,0,2],[2,2,2]], direction = "down"
 
-        def read_lane(index: int) -> List[int]:
-            lane = [0] * n
-            for pos in range(n):
-                row = (n - 1 - pos if reverse else pos) if vertical else index
-                col = index if vertical else (n - 1 - pos if reverse else pos)
-                lane[pos] = board[row][col]
-            return lane
-
-        def write_lane(index: int, lane: List[int]) -> None:
-            for pos in range(n):
-                row = (n - 1 - pos if reverse else pos) if vertical else index
-                col = index if vertical else (n - 1 - pos if reverse else pos)
-                result[row][col] = lane[pos]
-
-        def collapse(lane: List[int]) -> List[int]:
-            packed = [value for value in lane if value != 0]
-            moved: List[int] = []
-            i = 0
-
-            while i < len(packed):
-                if i + 1 < len(packed) and packed[i] == packed[i + 1]:
-                    moved.append(packed[i] * 2)
-                    i += 2  # both tiles in the pair are consumed
-                else:
-                    moved.append(packed[i])
-                    i += 1
-
-            moved.extend([0] * (n - len(moved)))
-            return moved
-
-        for index in range(n):
-            write_lane(index, collapse(read_lane(index)))
-
-        return result
+Output: [[0,0,0],[2,0,0],[4,4,4]]
 ```
 
-### Time & Space Complexity
+Explanation: Column 0 holds `2,2,2`; the two nearest the bottom wall combine into `4` and the remaining `2` sits above it. Columns 1 and 2 each contain two `2`s separated by gaps, which slide down and combine into a `4` at the bottom.
 
-* Time complexity: $$O(n^2)$$ — each of the $$n$$ lanes is read, compacted, merged, and written in linear time.
-* Space complexity: $$O(n)$$ auxiliary — at any point the algorithm only keeps one lane plus its compacted/collapsed arrays; the returned board itself uses $$O(n^2)$$ space.
+Example 3:
+
+```text
+Input: board = [[8]], direction = "right"
+
+Output: [[8]]
+```
+
+Constraints:
+
+* The grid is square with side length `n`, and the solution must handle every `n >= 1`, not only `n = 4`.
+* Each nonzero cell is a positive power of two; `0` marks an empty cell. Only value equality matters for combining, so any positive integers would behave the same way.
+* `direction` is exactly one of `"up"`, `"down"`, `"left"`, `"right"`.
+* Every tile combines at most once per move.
+* Aim for $$O(n^2)$$ time and $$O(n)$$ or $$O(1)$$ auxiliary space per move.
+
+## Interview Notes
+
+Clarifying questions worth raising with the interviewer:
+
+* Should the move modify the grid in place, or return a fresh grid and leave the input untouched?
+* Does the interviewer want the move to report whether anything actually changed (useful for deciding when to spawn a new tile)?
+* Are values guaranteed to be powers of two, or could the grid contain arbitrary integers (which only affects the equality test for combining)?
+* Is `n` always `4`, or must the code generalize to any size?
+* When pushing left, does combining start at the wall side? (Standard 2048 combines from the side being pushed toward.)
+
+What the interviewer looks for:
+
+* Correct combining semantics, with each tile combining at most once per move.
+* A clearly stated contract for in-place versus returned state, ideally with a signal telling whether the move changed the grid.
+* Deterministic movement kept separate from random tile spawning so it can be unit-tested.
+* The stated time and space targets.
+* Handling of edge cases: an empty grid, a full grid where nothing can combine, a single row or column, `n = 1`, and a line consisting only of zeros.
+
+## Follow-ups
+
+* Write `isGameOver()`, which returns `true` when no legal move is left. The game is over when there are **no empty cells** and **no two horizontally or vertically adjacent tiles share a value**. What is its time complexity, and can it be determined without simulating all four moves?
+* Add a `canMove(direction)` check or a `hasMoved` signal so the caller knows when a new tile should appear. How could this be computed cheaply inside the move itself?
+* How would you thoroughly unit-test the movement logic for `n = 4`? Which property-based invariants should hold (for example, the sum of tile values is conserved, and the count of nonzero tiles never grows)?
+* Generalize: what if three equal tiles could combine as a chain, or the grid were not square? Which parts of your design stay the same and which have to change?
 
 ## Hints
 

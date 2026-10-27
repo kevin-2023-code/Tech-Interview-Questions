@@ -9,7 +9,7 @@ How GEICO interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [7](../geico.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Apr 02, 2026 |
@@ -47,12 +47,13 @@ Here's what the interview process can look like:
 
 ## Free GEICO questions
 
-3 questions reported at GEICO open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at GEICO open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Answer impact, disagreement, and motivation questions](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions) |
+| [Best Time to Buy and Sell Stock with Cooldown](../../questions/algorithm/best-time-to-buy-and-sell-stock-with-cooldown/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) |
 | [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) |
 
 ## Everything else

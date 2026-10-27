@@ -2,7 +2,7 @@
 
 # Roblox interview process, OA & interview questions
 
-**102 questions** reported at Roblox · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
+**106 questions** reported at Roblox · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Roblox interviews & the free questions](roblox/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **102** |
+| Questions tracked | **106** |
 | Most recent sighting | Sep 10, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (48% of 102) |
-| Difficulty (easy / medium / hard) | 16 / 52 / 19 |
-| Free to practise | [29](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (49% of 106) |
+| Difficulty (easy / medium / hard) | 16 / 53 / 22 |
+| Free to practise | [30](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 102 questions reported at Roblox. 65 of them carry a sighting date; the other 37 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 106 questions reported at Roblox. 65 of them carry a sighting date; the other 41 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **102 of 102** questions at Roblox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **106 of 106** questions at Roblox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 13 | ██ | [Algorithm](../formats/algorithm.md) (62%) | 2 / 6 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 60 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 12 / 30 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 42 | ███████ | [System Design](../formats/system-design.md) (50%) | 4 / 25 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 63 | ██████████ | [Algorithm](../formats/algorithm.md) (60%) | 11 / 32 / 13 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 43 | ███████ | [System Design](../formats/system-design.md) (49%) | 4 / 25 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -50,20 +50,20 @@ Which stage each question came from, for the **102 of 102** questions at Roblox 
 
 ## What they ask about
 
-Of the **49 questions at Roblox that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **52 questions at Roblox that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 13 | 27% | ████████████ | Sep 10, 2026 |
-| `hashing` | 12 | 24% | ███████████ | Aug 12, 2026 |
-| `sliding-window` | 6 | 12% | ██████ | May 19, 2026 |
-| `sorting` | 6 | 12% | ██████ | May 24, 2026 |
-| `strings` | 6 | 12% | ██████ | Sep 10, 2026 |
-| `heap` | 5 | 10% | █████ | Jun 29, 2026 |
-| `matrix` | 5 | 10% | █████ | May 31, 2026 |
-| `greedy` | 4 | 8% | ████ | Jun 29, 2026 |
-| `math` | 4 | 8% | ████ | Sep 10, 2026 |
-| `stack` | 4 | 8% | ████ | Jun 10, 2026 |
+| `arrays` | 14 | 27% | ████████████ | Sep 10, 2026 |
+| `hashing` | 13 | 25% | ███████████ | Aug 12, 2026 |
+| `sorting` | 7 | 13% | ██████ | May 24, 2026 |
+| `matrix` | 6 | 12% | █████ | May 31, 2026 |
+| `sliding-window` | 6 | 12% | █████ | May 19, 2026 |
+| `strings` | 6 | 12% | █████ | Sep 10, 2026 |
+| `heap` | 5 | 10% | ████ | Jun 29, 2026 |
+| `greedy` | 4 | 8% | ███ | Jun 29, 2026 |
+| `math` | 4 | 8% | ███ | Sep 10, 2026 |
+| `stack` | 4 | 8% | ███ | Jun 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -144,10 +144,10 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Algorithm | Medium | May 09, 2026 |
 | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | System Design | Medium | May 07, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
-| [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | System Design | Medium | Apr 18, 2026 |
+| [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | System Design | Hard | Apr 18, 2026 |
 | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system) | System Design | Medium | Apr 13, 2026 |
-| [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | System Design | Medium | Apr 12, 2026 |
-| [Design A Shared Todo List](https://trueinterview.io/questions/design-collaborative-to-do-list-system) | System Design | Easy | Apr 10, 2026 |
+| [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | System Design | Hard | Apr 12, 2026 |
+| [Design A Shared Todo List](https://trueinterview.io/questions/design-collaborative-to-do-list-system) | System Design | Medium | Apr 10, 2026 |
 | [Design Online Game Matching Service](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system) | System Design | Medium | Apr 08, 2026 |
 | [Design Roblox Wallet](https://trueinterview.io/questions/design-roblox-wallet) | System Design | Medium | Apr 07, 2026 |
 | [Most Frequently Called Function From Logs](https://trueinterview.io/questions/most-frequently-called-function-from-logs) | Algorithm | Easy | Apr 2026 |
@@ -189,6 +189,10 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain) | Algorithm | Medium | Sep 02, 2025 |
 | [Find Minimum Score Threshold](https://trueinterview.io/questions/find-minimum-score-threshold) | Algorithm | Medium | Sep 02, 2025 |
 | [Auto Email Generation](https://trueinterview.io/questions/auto-email-generation) | Algorithm | Easy | Sep 02, 2025 |
+| [Obstacle Checks for Centered Blocks on an Infinite Number Line](https://trueinterview.io/questions/8e1ed387-132e-5d2c-8831-7db6218b75c5) | Algorithm | Medium | — |
+| [Match-3 Grid: Find Matches, Clear, and Drop](https://trueinterview.io/questions/5e43d3d7-6004-55f7-b2e1-75c47b336ae2) | Algorithm | Medium | — |
+| [Build an Auto-Rotating Traffic Light in Vanilla JavaScript](https://trueinterview.io/questions/3179045e-815a-52de-bb9d-530f993b62a7) | Object Oriented Programming | Easy | — |
+| [Time-Aware Search Autocomplete](https://trueinterview.io/questions/02e501ce-d611-5553-a651-36ddce5c14b2) | Algorithm | Hard | — |
 | [Optimize bread-factory pipeline for max profit](https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit) | Algorithm | Hard | — |
 | [Implement robust one/two-sided p-value function](https://trueinterview.io/questions/implement-robust-one-two-sided-p-value-function) | Algorithm | Hard | — |
 | [Explain an ML project end-to-end with tradeoffs](https://trueinterview.io/questions/explain-an-ml-project-end-to-end-with-tradeoffs) | Blog | — | — |

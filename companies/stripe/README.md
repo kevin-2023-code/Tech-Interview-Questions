@@ -8,8 +8,8 @@ How Stripe interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [118](../stripe.md) |
-| Free to read here | 5 |
+| Questions reported | [119](../stripe.md) |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Stripe questions
 
-20 questions reported at Stripe open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at Stripe open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -74,10 +74,11 @@ Here's what the interview process can look like:
 | [Choose threshold under costs and uncertainty](https://trueinterview.io/questions/choose-threshold-under-costs-and-uncertainty) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/choose-threshold-under-costs-and-uncertainty) |
 | [Design a leak-free time-split model](https://trueinterview.io/questions/design-a-leak-free-time-split-model) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/design-a-leak-free-time-split-model) |
 | [Navigate an ambiguous take-home assessment](https://trueinterview.io/questions/navigate-an-ambiguous-take-home-assessment) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/navigate-an-ambiguous-take-home-assessment) |
+| [Evaluate Reverse Polish Notation](../../questions/algorithm/evaluate-reverse-polish-notation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) |
 
 ## Everything else
 
-- [All 118 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 119 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Stripe question on TrueInterview](https://trueinterview.io/problems/company/stripe).
 
 ---

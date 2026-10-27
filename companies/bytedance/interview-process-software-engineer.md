@@ -105,7 +105,7 @@ Here are some questions reported by recent candidates:
 - Count downward paths summing to a target in an N-ary tree; brute-force DFS was not accepted.
 
 - [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii)
-- [Reverse Nodes in K-Group (incomplete tail variant)](https://trueinterview.io/questions/reverse-nodes-in-k-group)
+- [Reverse Nodes in K-Group (incomplete tail variant)](../../questions/algorithm/reverse-nodes-in-k-group/README.md)
 - [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits)
 - [Elements Appearing More Than n/3 in a Sorted Array](https://trueinterview.io/questions/sorted-array-elements-more-than-one-third)
 
@@ -213,7 +213,7 @@ Here are some questions reported by recent candidates:
 
 - [Hiring Manager / Final Behavioral Round](https://trueinterview.io/questions/hm-behavioral-final-round)
 - [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
-- [Non-Overlapping Intervals (LeetCode 435)](https://trueinterview.io/questions/non-overlapping-intervals)
+- [Non-Overlapping Intervals (LeetCode 435)](../../questions/algorithm/non-overlapping-intervals/README.md)
 
 ## How ByteDance levels and evaluates Software Engineer candidates
 

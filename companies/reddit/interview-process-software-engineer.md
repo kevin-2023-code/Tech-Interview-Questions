@@ -118,8 +118,8 @@ Here are some questions reported by recent candidates:
 
 - [Moderator List Hierarchy](../../questions/algorithm/moderator-list-hierarchy/README.md)
 - [Report Chain](../../questions/object-oriented-programming/report-chain/README.md)
-- [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705)
-- [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a)
+- [Shortest Palindrome](../../questions/algorithm/shortest-palindrome/README.md)
+- [Odd Even Linked List](../../questions/algorithm/odd-even-linked-list/README.md)
 
 ## System design interview
 

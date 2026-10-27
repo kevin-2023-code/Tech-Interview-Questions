@@ -2,44 +2,43 @@
 
 # OpenAI interview process, OA & interview questions
 
-**175 questions** reported at OpenAI · **7 writeups** · **8 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**176 questions** reported at OpenAI · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OpenAI interviews & the free questions](openai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-openai)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-openai)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **175** |
+| Questions tracked | **176** |
 | Most recent sighting | Oct 04, 2026 |
-| Reported in the last 90 days | 23 |
-| Most common format | [Algorithm](../formats/algorithm.md) (34% of 175) |
-| Difficulty (easy / medium / hard) | 13 / 75 / 71 |
-| Free to practise | [30](../free/README.md) |
+| Reported in the last 90 days | 24 |
+| Most common format | [Algorithm](../formats/algorithm.md) (35% of 176) |
+| Difficulty (easy / medium / hard) | 14 / 75 / 71 |
+| Free to practise | [31](../free/README.md) |
 | Guides & writeups | 7 |
-| Interview reports on the board | 8 in this snapshot |
 
-<sub>Counted from the 175 questions reported at OpenAI. 110 of them carry a sighting date; the other 65 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 176 questions reported at OpenAI. 110 of them carry a sighting date; the other 66 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **175 of 175** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **176 of 176** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 8 | █ | [Algorithm](../formats/algorithm.md) (75%) | 6 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 94 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 3 / 50 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 92 | ██████████ | [System Design](../formats/system-design.md) (36%) | 4 / 35 / 44 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 9 | █ | [Algorithm](../formats/algorithm.md) (78%) | 7 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 93 | ██████████ | [Algorithm](../formats/algorithm.md) (48%) | 3 / 50 / 33 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 93 | ██████████ | [System Design](../formats/system-design.md) (35%) | 4 / 35 / 45 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**23 sightings** in this window. Newest first.
+**24 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -50,30 +49,30 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Sep 10, 2026 |
 | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | Phone screen | Sep 08, 2026 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | Phone screen | Sep 07, 2026 |
+| [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | Phone screen | Sep 04, 2026 |
+| [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | Aug 28, 2026 |
 | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | Phone screen | Aug 27, 2026 |
 | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | Onsite / virtual onsite | Aug 24, 2026 |
 | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | Phone screen | Aug 23, 2026 |
-| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | Aug 22, 2026 |
-| [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | System Design | Hard | Phone screen | Aug 21, 2026 |
 
-<sub>11 more in this window are in the table below.</sub>
+<sub>12 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **57 questions at OpenAI that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **59 questions at OpenAI that carry a topic label** (34% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 11 | 19% | ████████████ | Aug 15, 2026 |
-| `math` | 9 | 16% | ██████████ | Sep 08, 2026 |
-| `hashing` | 8 | 14% | █████████ | Aug 22, 2026 |
-| `arrays` | 6 | 11% | ███████ | Feb 04, 2026 |
-| `strings` | 6 | 11% | ███████ | May 15, 2026 |
-| `matrix` | 5 | 9% | █████ | Aug 27, 2026 |
+| `graphs` | 12 | 20% | ████████████ | Sep 04, 2026 |
+| `math` | 9 | 15% | █████████ | Sep 08, 2026 |
+| `hashing` | 8 | 14% | ████████ | Aug 22, 2026 |
+| `arrays` | 7 | 12% | ███████ | Feb 04, 2026 |
+| `strings` | 7 | 12% | ███████ | Sep 04, 2026 |
+| `matrix` | 6 | 10% | ██████ | Aug 27, 2026 |
 | `sorting` | 4 | 7% | ████ | Jun 26, 2026 |
 | `topological-sort` | 4 | 7% | ████ | Sep 17, 2026 |
+| `backtracking` | 3 | 5% | ███ | Sep 10, 2026 |
 | `greedy` | 3 | 5% | ███ | Jul 10, 2026 |
-| `backtracking` | 2 | 4% | ██ | Sep 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -84,11 +83,11 @@ Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 1 | ██ |
-| [Sep 2026](../by-month/2026-09.md) | 6 | ██████████ |
+| [Sep 2026](../by-month/2026-09.md) | 7 | ███████████ |
 | [Aug 2026](../by-month/2026-08.md) | 15 | ████████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 6 | ██████████ |
 | [Jun 2026](../by-month/2026-06.md) | 11 | ██████████████████ |
-| [May 2026](../by-month/2026-05.md) | 9 | ██████████████ |
+| [May 2026](../by-month/2026-05.md) | 8 | █████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 15 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 5 | ████████ |
 | [Feb 2026](../by-month/2026-02.md) | 10 | ████████████████ |
@@ -111,7 +110,7 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | **5** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | — | Sep 10, 2026 |
 | **6** | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | — | Sep 08, 2026 |
 | **7** | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | — | Sep 07, 2026 |
-| **8** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | — | Aug 27, 2026 |
+| **8** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) 🆓 | Algorithm | Medium | 2 | Sep 04, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -128,23 +127,6 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [OpenAI Machine Learning Engineer Interview Process](https://trueinterview.io/study/openai-machine-learning-engineer-interview-process) | — |
 | [OpenAI Research Scientist Interview Process](https://trueinterview.io/study/openai-research-scientist-interview-process) | — |
 | [OpenAI Software Engineer Interview Process](https://trueinterview.io/study/openai-software-engineer-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at OpenAI — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [OpenAI Count Paths Coding Interview Experience](https://trueinterview.io/interviews/e19a3821-34d1-45ae-b9d8-e28986865664) | Oct 18, 2026 |
-| Software | [OpenAI Fault-Tolerant Queue and Typing Race Game Phone Screen Interview Experience](https://trueinterview.io/interviews/2b0b28b7-5326-4749-82af-216e74fe83da) | Oct 18, 2026 |
-| Software | [OpenAI Lowest Cost Shirts Coding Interview](https://trueinterview.io/interviews/d2a14eaa-c4e8-4397-a458-1759ba59d823) | Oct 18, 2026 |
-| Software | [OpenAI Memory Allocator (malloc/free) Phone Interview Experience](https://trueinterview.io/interviews/11d50dad-2ad3-4e78-bff8-e71f684d6c0f) | Oct 18, 2026 |
-| Software | [OpenAI Microorganism Simulation Coding Interview Experience](https://trueinterview.io/interviews/a6346c05-0684-465d-ad2e-e7b9066b9c57) | Oct 18, 2026 |
-| Software | [OpenAI Simple Network Endpoint and Loop Detection Coding Interview Experience](https://trueinterview.io/interviews/73a33263-39b3-480b-8db4-c7b34b7d5b20) | Oct 18, 2026 |
-| Software | [OpenAI Software Engineer Interview Experience: Design ChatGPT, Vector Store, Job Scheduler Debugging](https://trueinterview.io/interviews/f13201af-27b5-45ac-8e62-36c1cfb80a39) | Oct 18, 2026 |
-| Software | [OpenAI Task Scheduling Queue Coding and Online IDE System Design Interview Experience](https://trueinterview.io/interviews/c46d7a2e-ed2c-40a4-a19b-9051eedf2c00) | Oct 18, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 3,208 in total). [Every report at OpenAI and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -163,6 +145,8 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | Sep 10, 2026 |
 | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | Sep 08, 2026 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | Sep 07, 2026 |
+| [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | Sep 04, 2026 |
+| [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | AI Coding | Hard | Aug 28, 2026 |
 | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | Aug 27, 2026 |
 | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | Aug 24, 2026 |
 | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | Aug 23, 2026 |
@@ -173,7 +157,6 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Design Command Dispatch and Telemetry Reconciliation for Unreliable Devices](https://trueinterview.io/questions/design-command-dispatch-and-telemetry-reconciliation-for-unreliable-devices) | System Design | Hard | Aug 17, 2026 |
 | [Design a Time-Windowed GPU Credit Ledger](https://trueinterview.io/questions/design-a-time-windowed-gpu-credit-ledger) | System Design | Hard | Aug 16, 2026 |
 | [Design a Digital Game Distribution Platform](https://trueinterview.io/questions/design-a-digital-game-distribution-platform) | System Design | Hard | Aug 16, 2026 |
-| [Design a Dependency-Aware Concurrent Tool Scheduler](https://trueinterview.io/questions/design-a-dependency-aware-concurrent-tool-scheduler) | Object Oriented Programming | Medium | Aug 16, 2026 |
 | [Simulate Infection Spread with Immunity and Recovery](https://trueinterview.io/questions/simulate-infection-spread-with-immunity-and-recovery) | Algorithm | Hard | Aug 15, 2026 |
 | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | Hard | Aug 13, 2026 |
 | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Hard | Aug 08, 2026 |
@@ -197,7 +180,6 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Object Oriented Programming | Medium | Jun 2026 |
 | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy) | Algorithm | Hard | May 31, 2026 |
 | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | AI Coding | Medium | May 31, 2026 |
-| [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | AI Coding | Hard | May 31, 2026 |
 | [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus) | System Design | Hard | May 26, 2026 |
 | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | May 26, 2026 |
 | [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | AI Coding | Medium | May 26, 2026 |
@@ -290,6 +272,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Snapshot Set](https://trueinterview.io/questions/8ed246bb-89da-5107-83a0-194469269a2a) | Algorithm | Hard | — |
 | [Dependency-Aware Multi-Agent Request Scheduler](https://trueinterview.io/questions/472b106a-5204-5e12-acf4-8a1fca2a099f) | Algorithm | Hard | — |
 | [GPU Credit System with Validity Windows](https://trueinterview.io/questions/1811d9e3-291b-5957-a868-af0368f92233) | Algorithm | Hard | — |
+| [ML Coding with NP and NN Layers](https://trueinterview.io/questions/59c77c9a-49d0-4955-be64-91473bb8ab7f) | Algorithm | Easy | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Infectious Disease Simulation (Multi-part)](https://trueinterview.io/questions/06f15ce5-2ae4-473c-baa8-1edfdb0936f8) | Algorithm | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |

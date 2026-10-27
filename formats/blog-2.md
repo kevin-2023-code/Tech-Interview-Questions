@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,416 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,16 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **ByteDance** | [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/questions/ml-knowledge-oral-cluster) | — | Jun 19, 2026 |
+| **xAI** | [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | — | Jun 19, 2026 |
+| **OpenAI** | [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | — | Jun 19, 2026 |
+| **Airbnb** | [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen) | — | Jun 17, 2026 |
+| **Tesla** | [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral) | — | Jun 16, 2026 |
+| **Bloomberg** | [Behavioral Question Pool](https://trueinterview.io/questions/behavioral-question-pool) | — | Jun 16, 2026 |
+| **Apple** | [OS Fundamentals & Concurrency Drill](https://trueinterview.io/questions/os-fundamentals-and-concurrency) | — | Jun 15, 2026 |
+| **Pinterest** | [MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/questions/mle-intern-codesignal-oa) | — | Jun 14, 2026 |
+| **Microsoft** | [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2) | — | Jun 13, 2026 |
+| **Anthropic** | [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic) | — | Jun 12, 2026 |
 | **Apple** | [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/questions/ml-fundamentals-and-model-debugging) | — | Jun 10, 2026 |
 | **Meta** | [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral) | — | Jun 09, 2026 |
 | **Netflix** | [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds) | — | Jun 09, 2026 |
@@ -250,15 +260,5 @@
 | **Anthropic** | [How do you lead under risk and uncertainty?](https://trueinterview.io/questions/how-do-you-lead-under-risk-and-uncertainty) | — | Feb 11, 2026 |
 | **Meta** | [Handle conflict and missed delivery deadlines](https://trueinterview.io/questions/handle-conflict-and-missed-delivery-deadlines) | — | Feb 11, 2026 |
 | **LinkedIn** | [Explain iOS ARC and avoid retain cycles](https://trueinterview.io/questions/explain-ios-arc-and-avoid-retain-cycles) | — | Feb 11, 2026 |
-| **Amazon** | [Describe handling deadlines, pride, and conflict](https://trueinterview.io/questions/describe-handling-deadlines-pride-and-conflict) | — | Feb 11, 2026 |
-| **Scale AI** | [Describe a challenging project](https://trueinterview.io/questions/describe-a-challenging-project) | — | Feb 11, 2026 |
-| **Google** | [Answer leadership and quality tradeoff questions](https://trueinterview.io/questions/answer-leadership-and-quality-tradeoff-questions) | — | Feb 11, 2026 |
-| **OpenAI** | [Analyze matrix multiplication complexity](https://trueinterview.io/questions/analyze-matrix-multiplication-complexity) | — | Feb 11, 2026 |
-| **Tubi** | [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) | — | Feb 10, 2026 |
-| **Axon** | [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) | — | Feb 09, 2026 |
-| **Microsoft** | [Explain metrics, regularization, and ablation studies](https://trueinterview.io/questions/explain-metrics-regularization-and-ablation-studies) | — | Feb 09, 2026 |
-| **Microsoft** | [Explain deadlock cases and how to prevent them](https://trueinterview.io/questions/explain-deadlock-cases-and-how-to-prevent-them) | — | Feb 09, 2026 |
-| **Apple** | [Describe your most memorable bug and fix](https://trueinterview.io/questions/describe-your-most-memorable-bug-and-fix) | — | Feb 09, 2026 |
-| **Amazon** | [Describe how you reduced measurable cost](https://trueinterview.io/questions/describe-how-you-reduced-measurable-cost) | — | Feb 09, 2026 |
 
 <sub>[← Page 1](blog.md) · Page 2 of 6 · [Page 3 →](blog-3.md)</sub>

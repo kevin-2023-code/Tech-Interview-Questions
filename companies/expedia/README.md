@@ -9,7 +9,7 @@ How Expedia interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [41](../expedia.md) |
-| Free to read here | 5 |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 28, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Expedia questions
 
-12 questions reported at Expedia open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Expedia open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -63,7 +63,9 @@ Here's what the interview process can look like:
 | [Choose KPIs and prove impact with experiments](https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/choose-kpis-and-prove-impact-with-experiments) |
 | [Audit and onboard unfamiliar datasets safely](https://trueinterview.io/questions/audit-and-onboard-unfamiliar-datasets-safely) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/audit-and-onboard-unfamiliar-datasets-safely) |
 | [Minimum Machines for Task Scheduling](../../questions/algorithm/minimum-machines-for-task-scheduling/README.md) | Algorithm | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36) |
+| [Number of Provinces](../../questions/algorithm/number-of-provinces/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2) |
 | [Counting Subsequence with Same Character Frequency](../../questions/algorithm/counting-subsequence-with-same-character-frequency/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c) |
+| [Count Number of Nice Subarrays](../../questions/algorithm/count-number-of-nice-subarrays/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19) |
 
 ## Everything else
 

@@ -12,318 +12,63 @@
 
 ## Problem
 
-## Approach 1: Hash Map + Doubly Linked List
+Design and implement a cache with a fixed `capacity` that uses a Least Recently Used (LRU) eviction policy. Both `get(key)` and `put(key, value)` must run in $$O(1)$$ average time. Be explicit about which data structures you choose, how an existing key is updated, and exactly which entry is removed once the cache would grow beyond its capacity.
 
-An LRU cache needs two capabilities that are normally hard to combine: constant-time lookup by key and constant-time maintenance of recency order. A hash map gives $$O(1)$$ lookup but does not preserve insertion or access order. A doubly linked list gives fast removals and insertions but requires a scan to find a node. The standard solution combines them: the map stores each key as a direct pointer to its node in the linked list, so lookup, move-to-front, insertion, and eviction all become $$O(1)$$ pointer operations.
+The cache behaves as follows:
 
-The list is maintained from most recently used to least recently used. We use two sentinel nodes, `head` and `tail`, to avoid special cases at the ends. The most recently used node sits right after `head`, and the least recently used node sits right before `tail`. On a successful `get`, the node is unlinked and reattached at the head. On `put`, an existing node is updated and moved to the head; a brand-new node is inserted at the head. If inserting the new node pushes the size above `capacity`, the node just before `tail` is evicted and removed from the map.
+* `get(key)` returns the stored value when `key` is present and `-1` otherwise. A hit makes `key` the most recently used entry.
+* `put(key, value)` stores `value` under `key`, either inserting a new entry or overwriting an existing one; in both cases `key` becomes the most recently used entry. When adding a brand-new key would push the number of entries past `capacity`, the least recently used key is removed first. Overwriting a key that is already present never causes a removal.
 
-Walk through `capacity = 2` with these operations:
+So the cache can be run and checked automatically, write a driver `solution(capacity, operations)`:
+
+* `capacity` (int) is the maximum number of entries, at least `1`.
+* `operations` (list) holds operations applied in sequence, each either `['get', key]` or `['put', key, value]`.
+
+Return a list containing only the results of the `get` operations, in order, with `-1` for every miss. `put` operations add nothing to the output.
+
+Example 1:
 
 ```text
-put(5, 50), put(6, 60), get(5), put(7, 70), get(6), get(5), put(8, 80), get(7)
+Input: (3, [['put', 5, 50], ['put', 6, 60], ['put', 7, 70], ['get', 5], ['put', 8, 80], ['get', 6], ['put', 7, 71], ['put', 9, 90], ['get', 5], ['get', 7], ['get', 8]])
+
+Output: [50, -1, -1, 71, 80]
 ```
 
-After the first two puts, order is `[6, 5]` from MRU to LRU. `get(5)` moves key 5 to the front, giving `[5, 6]`. The new insertion `put(7, 70)` evicts LRU key 6, giving `[7, 5]`. Then `get(6)` misses, `get(5)` moves key 5 to the front, and `put(8, 80)` evicts LRU key 7. The final get for 7 misses. The get results are `[50, -1, 50, -1]`.
+Explanation: Reading `5` leaves `6` as least recently used, so inserting `8` evicts `6`; overwriting `7` refreshes it, leaving `5` as least recently used, so inserting `9` evicts `5`.
 
-```java
-import java.util.*;
+Example 2:
 
-public class LRUCache {
-    private static class Node {
-        int key;
-        int value;
-        Node prev;
-        Node next;
+```text
+Input: (2, [['put', 1, 10], ['put', 2, 20], ['put', 1, 15], ['put', 3, 30], ['get', 1], ['get', 2], ['get', 3]])
 
-        Node(int key, int value) {
-            this.key = key;
-            this.value = value;
-        }
-    }
-
-    private final int capacity;
-    private final Map<Integer, Node> index = new HashMap<>();
-    private final Node head = new Node(0, 0); // MRU side
-    private final Node tail = new Node(0, 0); // LRU side
-
-    public LRUCache(int capacity) {
-        this.capacity = capacity;
-        head.next = tail;
-        tail.prev = head;
-    }
-
-    public int get(int key) {
-        Node node = index.get(key);
-        if (node == null) {
-            return -1;
-        }
-        moveToFront(node);
-        return node.value;
-    }
-
-    public void put(int key, int value) {
-        Node node = index.get(key);
-
-        if (node != null) {
-            node.value = value;
-            moveToFront(node);
-            return;
-        }
-
-        node = new Node(key, value);
-        index.put(key, node);
-        addToFront(node);
-
-        if (index.size() > capacity) {
-            Node lru = tail.prev;
-            remove(lru);
-            index.remove(lru.key);
-        }
-    }
-
-    private void addToFront(Node node) {
-        node.prev = head;
-        node.next = head.next;
-        head.next.prev = node;
-        head.next = node;
-    }
-
-    private void remove(Node node) {
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
-    }
-
-    private void moveToFront(Node node) {
-        remove(node);
-        addToFront(node);
-    }
-
-    public static List<Integer> solution(
-        int capacity,
-        List<List<Object>> operations
-    ) {
-        LRUCache cache = new LRUCache(capacity);
-        List<Integer> result = new ArrayList<>();
-
-        for (List<Object> op : operations) {
-            String action = (String) op.get(0);
-            int key = (Integer) op.get(1);
-
-            if ("get".equals(action)) {
-                result.add(cache.get(key));
-            } else {
-                int value = (Integer) op.get(2);
-                cache.put(key, value);
-            }
-        }
-
-        return result;
-    }
-}
+Output: [15, -1, 30]
 ```
 
-```python
-class Node:
-    def __init__(self, key, value):
-        self.key = key
-        self.value = value
-        self.prev = None
-        self.next = None
+Explanation: Overwriting key `1` causes no eviction but makes `1` most recently used, so inserting `3` evicts key `2`.
 
+Example 3:
 
-class LRUCache:
-    def __init__(self, capacity: int):
-        self.capacity = capacity
-        self.index = {}
-        self.head = Node(0, 0)  # MRU side
-        self.tail = Node(0, 0)  # LRU side
-        self.head.next = self.tail
-        self.tail.prev = self.head
+```text
+Input: (1, [['get', 4], ['put', 4, 8], ['get', 4], ['get', 4], ['put', 5, 9], ['get', 4]])
 
-    def get(self, key: int) -> int:
-        node = self.index.get(key)
-        if node is None:
-            return -1
-
-        self._move_to_front(node)
-        return node.value
-
-    def put(self, key: int, value: int) -> None:
-        node = self.index.get(key)
-
-        if node is not None:
-            node.value = value
-            self._move_to_front(node)
-            return
-
-        node = Node(key, value)
-        self.index[key] = node
-        self._add_to_front(node)
-
-        if len(self.index) > self.capacity:
-            lru = self.tail.prev
-            self._remove(lru)
-            del self.index[lru.key]
-
-    def _add_to_front(self, node: Node) -> None:
-        node.prev = self.head
-        node.next = self.head.next
-        self.head.next.prev = node
-        self.head.next = node
-
-    def _remove(self, node: Node) -> None:
-        node.prev.next = node.next
-        node.next.prev = node.prev
-
-    def _move_to_front(self, node: Node) -> None:
-        self._remove(node)
-        self._add_to_front(node)
-
-
-def solution(capacity, operations):
-    cache = LRUCache(capacity)
-    results = []
-
-    for op in operations:
-        if op[0] == "get":
-            results.append(cache.get(op[1]))
-        else:
-            cache.put(op[1], op[2])
-
-    return results
+Output: [-1, 8, 8, -1]
 ```
 
-### Time & Space Complexity
+Explanation: With room for a single entry, inserting `5` pushes out `4`.
 
-* Time complexity: $$O(1)$$ average per `get` or `put` — hash map lookup, list unlink, list insert, and tail removal each take constant time.
-* Space complexity: $$O(\text{capacity})$$ — the map and linked list each hold at most `capacity` entries.
+Constraints:
 
----
+* $$capacity \ge 1$$
+* Keys and values are integers.
+* Every operation is either `['get', key]` or `['put', key, value]`.
+* `get` and `put` must each take $$O(1)$$ average time.
 
-## Approach 2: Built-in Ordered Structure
+## Follow-ups
 
-The pointer-based version is useful when an interviewer wants to see the internals, but some languages already provide exactly the required data structure. Python's `OrderedDict` maintains insertion order and supports moving a key to the end in $$O(1)$$. Java's `LinkedHashMap` can be created with access-order mode, which automatically moves a key on every `get` or `put`. Eviction can be automated in Java by overriding `removeEldestEntry`.
-
-The key invariant is the same as before: a successful `get` or any `put` marks the key as most recently used. A new insertion that grows the structure beyond `capacity` removes the least recently used key. Updating an existing key does not grow the structure, so it never triggers eviction.
-
-```java
-import java.util.*;
-
-public class LRUCacheOrdered {
-    private final LinkedHashMap<Integer, Integer> entries;
-
-    public LRUCacheOrdered(int capacity) {
-        this.entries = new LinkedHashMap<>(capacity, 0.75f, true) {
-            @Override
-            protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
-                return size() > capacity;
-            }
-        };
-    }
-
-    public int get(int key) {
-        // In access-order mode, a hit automatically moves the entry to the MRU end.
-        return entries.getOrDefault(key, -1);
-    }
-
-    public void put(int key, int value) {
-        entries.put(key, value);
-    }
-
-    public static List<Integer> solution(
-        int capacity,
-        List<List<Object>> operations
-    ) {
-        LRUCacheOrdered cache = new LRUCacheOrdered(capacity);
-        List<Integer> result = new ArrayList<>();
-
-        for (List<Object> op : operations) {
-            String action = (String) op.get(0);
-            int key = (Integer) op.get(1);
-
-            if ("get".equals(action)) {
-                result.add(cache.get(key));
-            } else {
-                int value = (Integer) op.get(2);
-                cache.put(key, value);
-            }
-        }
-
-        return result;
-    }
-}
-```
-
-```python
-from collections import OrderedDict
-
-
-class LRUCacheOrdered:
-    def __init__(self, capacity: int):
-        self.capacity = capacity
-        self.cache = OrderedDict()
-
-    def get(self, key: int) -> int:
-        if key not in self.cache:
-            return -1
-
-        self.cache.move_to_end(key)
-        return self.cache[key]
-
-    def put(self, key: int, value: int) -> None:
-        if key in self.cache:
-            self.cache.move_to_end(key)
-
-        self.cache[key] = value
-
-        if len(self.cache) > self.capacity:
-            self.cache.popitem(last=False)
-
-
-def solution(capacity, operations):
-    cache = LRUCacheOrdered(capacity)
-    results = []
-
-    for op in operations:
-        if op[0] == "get":
-            results.append(cache.get(op[1]))
-        else:
-            cache.put(op[1], op[2])
-
-    return results
-```
-
-### Time & Space Complexity
-
-* Time complexity: $$O(1)$$ average per operation — the underlying ordered map performs lookup, move-to-end, insertion, and eviction in amortized constant time.
-* Space complexity: $$O(\text{capacity})$$ — the ordered map stores at most `capacity` key-value pairs.
-
----
-
-## Additional Design Considerations
-
-### Thread Safety
-
-The custom cache is not inherently thread-safe. A `get` is not read-only because it modifies the recency order. Therefore even a read/write lock does not help much: every `get` must still acquire the write lock to reorder the linked list safely.
-
-For a basic thread-safe implementation, wrap every public operation in a global lock. In Java, mark `get` and `put` as `synchronized`, or guard them with a `ReentrantLock`. In Python, use a `threading.RLock`. Synchronizing only the map is not sufficient because each operation mutates multiple structures. A high-concurrency implementation typically uses sharding, lock striping, or a mature concurrent cache library.
-
-### Optional Per-Key TTL
-
-TTL support can be added without changing the $$O(1)$$ hot path by storing an `expires_at` timestamp in each node. On `get`, first check whether the current time has passed `expires_at`; if so, remove the node and return `-1`. On `put`, an update resets the timestamp, while a new insertion records the new expiration.
-
-To reclaim expired entries that are not currently being accessed, run a background cleaner thread that walks from the LRU end and unlinks expired nodes. This keeps `get` and `put` latency constant. When a new key would exceed capacity, the cache may first remove any expired entries from the LRU end, then evict the LRU key if still necessary.
-
-A synchronous min-heap ordered by expiration would give exact eager reclamation but requires $$O(\log n)$$ cleanup work, changing the core complexity. Lazy expiration plus a background reaper is the better way to preserve the LRU latency guarantee.
-
-### Edge Cases
-
-- `capacity = 1`: every new key immediately evicts the only existing key.
-- Repeated `get` calls for the same key move it to the MRU end each time.
-- Updating an existing key changes its value and recency but never evicts anything.
-- A `get` miss returns `-1` and leaves the recency order unchanged.
-- Large values are stored by reference; cache metadata per key remains constant, so memory impact is dominated by the value payloads rather than the LRU structure.
+* Discuss thread-safety concerns if the cache is shared between threads.
+* Explain how to support an optional per-key time-to-live (TTL) without breaking the big-O guarantees.
+* Give the time and space complexity of your design.
+* Identify edge cases, for example a capacity of `1`, repeated `get` calls on the same key, and very large values.
 
 ## Hints
 

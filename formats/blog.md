@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,416 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,11 +10,16 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Disney** | [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) | — | 🆕 Oct 08, 2026 |
+| **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | — | 🆕 Sep 28, 2026 |
+| **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | — | 🆕 Sep 23, 2026 |
+| **Netflix** | [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | — | 🆕 Sep 23, 2026 |
 | **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | — | 🆕 Sep 23, 2026 |
 | **Amazon** | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/questions/explain-a-project-that-could-not-meet-a-tight-deadline) | — | 🆕 Sep 20, 2026 |
 | **Amazon** | [Describe a Deep Debugging Investigation](https://trueinterview.io/questions/describe-a-deep-debugging-investigation) | — | 🆕 Sep 20, 2026 |
 | **Oracle** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | — | 🆕 Sep 19, 2026 |
 | **Instacart** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | — | 🆕 Sep 18, 2026 |
+| **Citadel** | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | — | 🆕 Sep 17, 2026 |
 | **Meta** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | — | 🆕 Sep 17, 2026 |
 | **NVIDIA** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | — | 🆕 Sep 17, 2026 |
 | **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | — | 🆕 Sep 17, 2026 |
@@ -32,6 +37,7 @@
 | **Together AI** | [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | — | 🆕 Sep 15, 2026 |
 | **Together AI** | [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | — | 🆕 Sep 15, 2026 |
 | **Salesforce** | [Hiring Manager + Behavioral Rounds](https://trueinterview.io/questions/hm-and-bq-rounds) | — | 🆕 Sep 15, 2026 |
+| **Disney** | [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | — | 🆕 Sep 14, 2026 |
 | **AMD** | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | — | 🆕 Sep 14, 2026 |
 | **Amazon** | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | — | 🆕 Sep 14, 2026 |
 | **Amazon** | [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/questions/solve-a-problem-outside-your-assigned-responsibilities) | — | 🆕 Sep 14, 2026 |
@@ -176,11 +182,11 @@
 | **Oracle** | [Take Ownership Through Ambiguity](https://trueinterview.io/questions/take-ownership-through-ambiguity) | — | Aug 21, 2026 |
 | **Oracle** | [Resolve Conflict Within a Team](https://trueinterview.io/questions/resolve-conflict-within-a-team) | — | Aug 21, 2026 |
 | **Oracle** | [Prioritize Two Critical Tasks](https://trueinterview.io/questions/prioritize-two-critical-tasks) | — | Aug 21, 2026 |
-| **C3 AI** | [Keep Gradient Descent from Stalling at Poor Solutions](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions) | — | Aug 21, 2026 |
+| **C3.ai** | [Keep Gradient Descent from Stalling at Poor Solutions](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions) | — | Aug 21, 2026 |
 | **Cursor** | [Implement and Explain a Merkle Tree](https://trueinterview.io/questions/implement-and-explain-a-merkle-tree) | — | Aug 21, 2026 |
 | **Oracle** | [Demonstrate Leadership and Ownership](https://trueinterview.io/questions/demonstrate-leadership-and-ownership) | — | Aug 21, 2026 |
-| **C3 AI** | [Connect Bias-Variance Trade-offs to Bagging and Boosting](https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting) | — | Aug 21, 2026 |
-| **C3 AI** | [Compare Transformers and RNNs and Derive Attention Complexity](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity) | — | Aug 21, 2026 |
+| **C3.ai** | [Connect Bias-Variance Trade-offs to Bagging and Boosting](https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting) | — | Aug 21, 2026 |
+| **C3.ai** | [Compare Transformers and RNNs and Derive Attention Complexity](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity) | — | Aug 21, 2026 |
 | **Oracle** | [Communicate a Difficult Decision to Stakeholders](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) | — | Aug 21, 2026 |
 | **Amazon** | [Root-Cause Analysis Under Uncertainty](https://trueinterview.io/questions/root-cause-analysis-under-uncertainty) | — | Aug 20, 2026 |
 | **Capital One** | [Resolve a Mismatch Between Regression and Classification Metrics](https://trueinterview.io/questions/resolve-a-mismatch-between-regression-and-classification-metrics) | — | Aug 20, 2026 |
@@ -198,7 +204,7 @@
 | **Sig** | [Compute the Probability Two Bloom Intervals Overlap](https://trueinterview.io/questions/compute-the-probability-two-bloom-intervals-overlap) | — | Aug 16, 2026 |
 | **Sig** | [Calculate Expected Payoff from Two Dice](https://trueinterview.io/questions/calculate-expected-payoff-from-two-dice) | — | Aug 16, 2026 |
 | **Amazon** | [Mean and Variance Through Maximum Likelihood](https://trueinterview.io/questions/mean-and-variance-through-maximum-likelihood) | — | Aug 15, 2026 |
-| **C3 AI** | [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) | — | Aug 15, 2026 |
+| **C3.ai** | [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) | — | Aug 15, 2026 |
 | **Google** | [Interpret Language-Model Perplexity](https://trueinterview.io/questions/interpret-language-model-perplexity) | — | Aug 14, 2026 |
 | **Google** | [Explain VAEs, ELBO, KL, and Reparameterization](https://trueinterview.io/questions/explain-vaes-elbo-kl-and-reparameterization) | — | Aug 14, 2026 |
 | **Google** | [Explain KL Divergence in Language Models](https://trueinterview.io/questions/explain-kl-divergence-in-language-models) | — | Aug 14, 2026 |
@@ -207,6 +213,7 @@
 | **Databricks** | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | — | Aug 13, 2026 |
 | **Google** | [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/questions/deepmind-rs-paper-presentation-defense) | — | Aug 13, 2026 |
 | **Figma** | [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral) | — | Aug 12, 2026 |
+| **Waymo** | [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) | — | Aug 11, 2026 |
 | **Oracle** | [Data-Center Camera Access Incident Response](https://trueinterview.io/questions/data-center-camera-access-incident-response) | — | Aug 11, 2026 |
 | **OpenAI** | [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/questions/engineering-management-fundamentals) | — | Aug 07, 2026 |
 | **Google** | [Explain Your Most Meaningful Project Contribution](https://trueinterview.io/questions/explain-your-most-meaningful-project-contribution) | — | Aug 06, 2026 |
@@ -217,6 +224,9 @@
 | **Robinhood** | [Critique a Recent Engineering Project and Explain What You Would Redo](https://trueinterview.io/questions/critique-a-recent-engineering-project-and-explain-what-you-would-redo) | — | Jul 17, 2026 |
 | **Salesforce** | [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/questions/project-deep-dive-ai-engineer) | — | Jul 17, 2026 |
 | **Pinduoduo** | [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) | — | Jul 17, 2026 |
+| **Square** | [Hiring Manager Screen: Project Deep Dive, Tech Debt & Money Movement](https://trueinterview.io/questions/hiring-manager-money-movement-screen) | — | Jul 16, 2026 |
+| **Square** | [AI Native Workflow Screen](https://trueinterview.io/questions/ai-native-workflow-screen) | — | Jul 16, 2026 |
+| **Disney** | [AI Product Intern: Product Sense for Parks & Disney+](https://trueinterview.io/questions/ai-product-intern-product-sense) | — | Jul 14, 2026 |
 | **Vanta** | [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq) | — | Jul 10, 2026 |
 | **Shopify** | [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview) | — | Jul 10, 2026 |
 | **Amazon** | [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/questions/asm-phone-screen-deep-dive-bq) | — | Jul 07, 2026 |
@@ -250,15 +260,5 @@
 | **Airbnb** | [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive) | — | Jun 22, 2026 |
 | **Airbnb** | [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round) | — | Jun 22, 2026 |
 | **OpenAI** | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai) | — | Jun 19, 2026 |
-| **ByteDance** | [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/questions/ml-knowledge-oral-cluster) | — | Jun 19, 2026 |
-| **xAI** | [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | — | Jun 19, 2026 |
-| **OpenAI** | [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | — | Jun 19, 2026 |
-| **Airbnb** | [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen) | — | Jun 17, 2026 |
-| **Tesla** | [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral) | — | Jun 16, 2026 |
-| **Bloomberg** | [Behavioral Question Pool](https://trueinterview.io/questions/behavioral-question-pool) | — | Jun 16, 2026 |
-| **Apple** | [OS Fundamentals & Concurrency Drill](https://trueinterview.io/questions/os-fundamentals-and-concurrency) | — | Jun 15, 2026 |
-| **Pinterest** | [MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/questions/mle-intern-codesignal-oa) | — | Jun 14, 2026 |
-| **Microsoft** | [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2) | — | Jun 13, 2026 |
-| **Anthropic** | [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic) | — | Jun 12, 2026 |
 
 <sub>Page 1 of 6 · [Page 2 →](blog-2.md)</sub>

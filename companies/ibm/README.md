@@ -8,11 +8,11 @@ How IBM interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [40](../ibm.md) |
-| Free to read here | 10 |
+| Questions reported | [45](../ibm.md) |
+| Free to read here | 11 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Sep 14, 2026 |
+| Most recent sighting | Oct 05, 2026 |
 
 ## How IBM interviews
 
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free IBM questions
 
-16 questions reported at IBM open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+17 questions reported at IBM open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -66,11 +66,12 @@ Here's what the interview process can look like:
 | [Minimum Removal Rounds by Smallest Response Time](../../questions/algorithm/minimum-removal-rounds-by-smallest-response-time/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/minimum-removal-rounds-by-smallest-response-time) |
 | [Max Distinct Counts After Splitting Array](../../questions/algorithm/distinct-count-split/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/distinct-count-split) |
 | [Minimum Hits Needed](../../questions/algorithm/minimum-hits-needed/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/96a1a76b-aad1-425d-88a1-e28fff36624b) |
+| [Minimum Add to Make Parentheses Valid](../../questions/algorithm/minimum-add-to-make-parentheses-valid/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
 
-- [All 40 questions reported at IBM](../ibm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 45 questions reported at IBM](../ibm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every IBM question on TrueInterview](https://trueinterview.io/problems/company/ibm).
 
 ---

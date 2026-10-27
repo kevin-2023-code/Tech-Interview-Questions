@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (69% of 13) |
 | Difficulty (easy / medium / hard) | 3 / 8 / 1 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 13 questions reported at Okta. 12 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -81,7 +81,7 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 | **1** | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Algorithm | Medium | — | Aug 20, 2026 |
 | **2** | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
 | **3** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
-| **4** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | — | Jun 24, 2026 |
+| **4** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) 🆓 | Algorithm | Medium | — | Jun 24, 2026 |
 | **5** | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) 🆓 | Blog | — | — | Jun 24, 2026 |
 | **6** | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | — | Jun 02, 2026 |
 | **7** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 13 | May 2026 |

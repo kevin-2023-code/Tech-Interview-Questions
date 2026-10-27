@@ -18,8 +18,8 @@
 | Most recent sighting | Sep 13, 2026 |
 | Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (40% of 52) |
-| Difficulty (easy / medium / hard) | 3 / 31 / 11 |
-| Free to practise | [16](../free/README.md) |
+| Difficulty (easy / medium / hard) | 3 / 30 / 12 |
+| Free to practise | [17](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 52 questions reported at Tesla. 43 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -32,7 +32,7 @@ Which stage each question came from, for the **52 of 52** questions at Tesla tha
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | █ | [SQL](../formats/sql.md) (60%) | 1 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 34 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 1 / 20 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 14 | ████ | [System Design](../formats/system-design.md) (36%) | 1 / 8 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 14 | ████ | [System Design](../formats/system-design.md) (36%) | 1 / 7 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -161,7 +161,7 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Describe conflict and proudest work](https://trueinterview.io/questions/describe-conflict-and-proudest-work) | Blog | — | Jan 25, 2026 |
 | [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner) | Algorithm | Hard | Jan 15, 2026 |
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |
-| [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Medium | Nov 28, 2025 |
+| [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Hard | Nov 28, 2025 |
 | [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward) | Algorithm | Hard | Nov 22, 2025 |
 | [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid) | Algorithm | Medium | Oct 31, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |

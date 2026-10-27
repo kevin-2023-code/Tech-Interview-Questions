@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**368 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**375 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Citadel (91)](../companies/citadel.md) · [Two Sigma (50)](../companies/two-sigma.md) · [Squarepoint (45)](../companies/squarepoint.md) · [Point72 (41)](../companies/point72.md) · [Akuna Capital (35)](../companies/akuna-capital.md) · [Optiver (35)](../companies/optiver.md) · [Hudson River Trading (22)](../companies/hudson-river-trading.md) · [Voleon (18)](../companies/voleon.md) · [Jane Street (15)](../companies/jane-street.md) · [Drw (10)](../companies/drw.md) · [Imc (10)](../companies/imc.md) · [Chicago Trading (5)](../companies/chicago-trading.md)
+[Citadel (98)](../companies/citadel.md) · [Two Sigma (50)](../companies/two-sigma.md) · [Squarepoint (45)](../companies/squarepoint.md) · [Point72 (41)](../companies/point72.md) · [Akuna Capital (35)](../companies/akuna-capital.md) · [Optiver (35)](../companies/optiver.md) · [Hudson River Trading (22)](../companies/hudson-river-trading.md) · [Voleon (18)](../companies/voleon.md) · [Jane Street (15)](../companies/jane-street.md) · [Drw (10)](../companies/drw.md) · [Imc (10)](../companies/imc.md) · [Chicago Trading (5)](../companies/chicago-trading.md)
 
 <sub>12 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,42 +18,45 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 201 | 55% | ██████████████ | 40 |
-| [Blog](../formats/blog.md) | 94 | 26% | ███████ | 94 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 44 | 12% | ███ | 6 |
+| [Algorithm](../formats/algorithm.md) | 206 | 55% | ██████████████ | 42 |
+| [Blog](../formats/blog.md) | 95 | 25% | ██████ | 95 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 45 | 12% | ███ | 6 |
 | [System Design](../formats/system-design.md) | 16 | 4% | █ | 0 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 6 | 2% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **35 / 177 / 62**, over the rows the catalog has graded. 141 of the 368 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **35 / 181 / 64**, over the rows the catalog has graded. 144 of the 375 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **194 questions in this cut that carry a topic label** (53% of it):
+Of the **198 questions in this cut that carry a topic label** (53% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 37 | 19% | ████████████ |
-| `hashing` | 29 | 15% | █████████ |
-| `math` | 28 | 14% | █████████ |
-| `greedy` | 24 | 12% | ████████ |
-| `sorting` | 24 | 12% | ████████ |
+| `arrays` | 39 | 20% | ████████████ |
+| `hashing` | 30 | 15% | █████████ |
+| `math` | 29 | 15% | █████████ |
+| `sorting` | 25 | 13% | ████████ |
+| `greedy` | 24 | 12% | ███████ |
 | `dynamic-programming` | 19 | 10% | ██████ |
 | `strings` | 19 | 10% | ██████ |
 | `graphs` | 18 | 9% | ██████ |
-| `binary-search` | 14 | 7% | █████ |
-| `heap` | 11 | 6% | ████ |
+| `binary-search` | 14 | 7% | ████ |
+| `heap` | 12 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**45 sightings** across this cut. Newest first.
+**48 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Memory Blocks — Reachable MEX After One Increment](https://trueinterview.io/questions/oa-memory-block-mex-one-increment) | Citadel | Algorithm | Oct 01, 2026 |
+| [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Citadel | Algorithm | Sep 27, 2026 |
 | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Citadel | Object Oriented Programming | Sep 18, 2026 |
 | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Citadel | Algorithm | Sep 18, 2026 |
+| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Citadel | Blog | Sep 17, 2026 |
 | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Voleon | Blog | Sep 14, 2026 |
 | [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | Drw | Blog | Sep 13, 2026 |
 | [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | Drw | Blog | Sep 13, 2026 |
@@ -61,11 +64,8 @@ Of the **194 questions in this cut that carry a topic label** (53% of it):
 | [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | Drw | Blog | Sep 13, 2026 |
 | [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | Drw | Blog | Sep 13, 2026 |
 | [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | Drw | Blog | Sep 13, 2026 |
-| [Compare Bonds, Common Equity, and Dividend Payments](https://trueinterview.io/questions/compare-bonds-common-equity-and-dividend-payments) | Squarepoint | Blog | Sep 09, 2026 |
-| [Compare Winning Chances in a Card Game That Replays Ties](https://trueinterview.io/questions/compare-winning-chances-in-a-card-game-that-replays-ties) | Squarepoint | Blog | Sep 09, 2026 |
-| [Estimate Market Beta from Aligned Asset and Benchmark Returns](https://trueinterview.io/questions/estimate-market-beta-from-aligned-asset-and-benchmark-returns) | Squarepoint | Blog | Sep 09, 2026 |
 
-<sub>33 more in this window are in the table below.</sub>
+<sub>36 more in this window are in the table below.</sub>
 
 ---
 
@@ -77,8 +77,11 @@ Of the **194 questions in this cut that carry a topic label** (53% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Citadel** | [Memory Blocks — Reachable MEX After One Increment](https://trueinterview.io/questions/oa-memory-block-mex-one-increment) | Medium | 🆕 Oct 01, 2026 |
+| **Citadel** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Hard | 🆕 Sep 27, 2026 |
 | **Citadel** | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Medium | 🆕 Sep 18, 2026 |
 | **Citadel** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Hard | 🆕 Sep 18, 2026 |
+| **Citadel** | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | — | 🆕 Sep 17, 2026 |
 | **Voleon** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | — | 🆕 Sep 14, 2026 |
 | **Drw** | [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | — | 🆕 Sep 13, 2026 |
 | **Drw** | [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | — | 🆕 Sep 13, 2026 |
@@ -111,7 +114,7 @@ Of the **194 questions in this cut that carry a topic label** (53% of it):
 | **Squarepoint** | [Concatenate Two C++ Index Sequences at Compile Time](https://trueinterview.io/questions/concatenate-two-cplusplus-index-sequences-at-compile-time) | Medium | Aug 16, 2026 |
 | **Squarepoint** | [Find a Target Sum Using Two Sorted Arrays](https://trueinterview.io/questions/find-a-target-sum-using-two-sorted-arrays) | Medium | Aug 16, 2026 |
 | **Citadel** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Medium | Aug 15, 2026 |
-| **Citadel** | [Candy (LC 135)](https://trueinterview.io/questions/candy-lc-135) | Medium | Aug 08, 2026 |
+| **Citadel / ByteDance** | [Candy (LC 135)](https://trueinterview.io/questions/candy-lc-135) | Medium | Aug 08, 2026 |
 | **Citadel** | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | Hard | Aug 05, 2026 |
 | **Citadel** | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Easy | Aug 05, 2026 |
 | **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Medium | Jul 29, 2026 |
@@ -324,8 +327,5 @@ Of the **194 questions in this cut that carry a topic label** (53% of it):
 | **Optiver** | [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation) | Medium | Sep 09, 2025 |
 | **Optiver** | [Currency Arbitrage Detection](https://trueinterview.io/questions/currency-arbitrage-detection) | Hard | Aug 26, 2025 |
 | **Akuna Capital / Google** | [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | Easy | Aug 26, 2025 |
-| **Optiver** | [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game) | — | Aug 06, 2025 |
-| **Optiver** | [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | Medium | Aug 05, 2025 |
-| **Goldman Sachs / Citadel / Voleon** | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Medium | Oct 26, 2024 |
 
 <sub>Page 1 of 2 · [Page 2 →](quant-trading-2.md)</sub>

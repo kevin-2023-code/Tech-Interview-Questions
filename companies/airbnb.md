@@ -2,7 +2,7 @@
 
 # Airbnb interview process, OA & interview questions
 
-**89 questions** reported at Airbnb · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
+**112 questions** reported at Airbnb · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Airbnb interviews & the free questions](airbnb/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,35 +14,39 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **89** |
-| Most recent sighting | Sep 23, 2026 |
-| Reported in the last 90 days | 12 |
-| Most common format | [Algorithm](../formats/algorithm.md) (38% of 89) |
-| Difficulty (easy / medium / hard) | 6 / 54 / 18 |
-| Free to practise | [19](../free/README.md) |
+| Questions tracked | **112** |
+| Most recent sighting | Oct 14, 2026 |
+| Reported in the last 90 days | 19 |
+| Most common format | [Algorithm](../formats/algorithm.md) (37% of 112) |
+| Difficulty (easy / medium / hard) | 11 / 66 / 24 |
+| Free to practise | [20](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 89 questions reported at Airbnb. 67 of them carry a sighting date; the other 22 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 112 questions reported at Airbnb. 77 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **89 of 89** questions at Airbnb that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **112 of 112** questions at Airbnb that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | █ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 1 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 43 | ████████ | [Algorithm](../formats/algorithm.md) (53%) | 2 / 28 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 52 | ██████████ | [System Design](../formats/system-design.md) (38%) | 3 / 31 / 13 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 15 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (73%) | 4 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 48 | ████████ | [Algorithm](../formats/algorithm.md) (56%) | 2 / 32 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 59 | ██████████ | [System Design](../formats/system-design.md) (34%) | 5 / 33 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**12 sightings** in this window. Newest first.
+**19 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Object Oriented Programming | Medium | Online assessment | Oct 14, 2026 |
+| [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Object Oriented Programming | Medium | Online assessment | Oct 09, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 23, 2026 |
+| [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Algorithm | Medium | Onsite / virtual onsite | Sep 19, 2026 |
+| [In-Memory File System](https://trueinterview.io/questions/oa-in-memory-file-system) | Object Oriented Programming | Medium | Online assessment | Sep 08, 2026 |
 | [Calculate the Median House Price in Each City](https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city) | SQL | Medium | Onsite / virtual onsite | Sep 04, 2026 |
 | [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | SQL | Medium | Onsite / virtual onsite | Sep 04, 2026 |
 | [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | Blog | — | Onsite / virtual onsite | Sep 04, 2026 |
@@ -50,46 +54,45 @@ Which stage each question came from, for the **89 of 89** questions at Airbnb th
 | [Find Users with Seven Consecutive Impression Days](https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days) | SQL | Medium | Onsite / virtual onsite | Sep 04, 2026 |
 | [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | System Design | Hard | Onsite / virtual onsite | Sep 04, 2026 |
 | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | System Design | Medium | Onsite / virtual onsite | Sep 04, 2026 |
-| [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | System Design | Medium | Onsite / virtual onsite | Sep 04, 2026 |
-| [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Object Oriented Programming | Medium | Online assessment | Aug 30, 2026 |
-| [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Object Oriented Programming | Hard | Online assessment | Aug 29, 2026 |
-| [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Object Oriented Programming | Medium | Online assessment | Aug 25, 2026 |
+
+<sub>7 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **34 questions at Airbnb that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **41 questions at Airbnb that carry a topic label** (37% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 8 | 24% | ████████████ | Jun 26, 2026 |
-| `graphs` | 8 | 24% | ████████████ | Jun 17, 2026 |
-| `hashing` | 8 | 24% | ████████████ | Jun 26, 2026 |
-| `strings` | 7 | 21% | ██████████ | Jun 03, 2026 |
-| `greedy` | 5 | 15% | ████████ | Jun 03, 2026 |
-| `intervals` | 3 | 9% | ████ | Jan 07, 2026 |
-| `arrays` | 2 | 6% | ███ | Feb 28, 2026 |
-| `backtracking` | 2 | 6% | ███ | Jun 03, 2026 |
-| `binary-search` | 2 | 6% | ███ | Jan 07, 2026 |
-| `bit-manipulation` | 2 | 6% | ███ | Feb 28, 2026 |
+| `hashing` | 10 | 24% | ████████████ | Sep 19, 2026 |
+| `strings` | 10 | 24% | ████████████ | Sep 19, 2026 |
+| `dynamic-programming` | 8 | 20% | ██████████ | Jun 26, 2026 |
+| `graphs` | 8 | 20% | ██████████ | Jun 17, 2026 |
+| `greedy` | 6 | 15% | ███████ | Jun 03, 2026 |
+| `intervals` | 5 | 12% | ██████ | Jan 07, 2026 |
+| `arrays` | 3 | 7% | ████ | Feb 28, 2026 |
+| `sorting` | 3 | 7% | ████ | Feb 28, 2026 |
+| `two-pointers` | 3 | 7% | ████ | May 19, 2026 |
+| `backtracking` | 2 | 5% | ██ | Jun 03, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Airbnb, by the month it was reported in — Sep 17, 2025 to Sep 23, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Airbnb, by the month it was reported in — Sep 17, 2025 to Oct 14, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 9 | ██████████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 3 | ███████ |
-| [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
-| [Jun 2026](../by-month/2026-06.md) | 10 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 9 | ██████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 8 | ███████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 4 | ██████████ |
-| [Feb 2026](../by-month/2026-02.md) | 6 | ██████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 6 | ██████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | █████ |
+| [Oct 2026](../by-month/2026-10.md) | 2 | ████ |
+| [Sep 2026](../by-month/2026-09.md) | 11 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 5 | ███████████ |
+| [Jul 2026](../by-month/2026-07.md) | 4 | █████████ |
+| [Jun 2026](../by-month/2026-06.md) | 10 | ██████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 10 | ██████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 8 | █████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 4 | █████████ |
+| [Feb 2026](../by-month/2026-02.md) | 6 | █████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 6 | █████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ████ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | ███████ |
 | [Oct 2025](../by-month/2025-10.md) | 3 | ███████ |
 | [Sep 2025](../by-month/2025-09.md) | 3 | ███████ |
@@ -100,14 +103,14 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Sep 23, 2026 |
-| **2** | [Calculate the Median House Price in Each City](https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city) | SQL | Medium | — | Sep 04, 2026 |
-| **3** | [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | SQL | Medium | — | Sep 04, 2026 |
-| **4** | [Find Hosts Meeting Listing, Rating, and Review-Coverage Rules](https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules) | SQL | Medium | — | Sep 04, 2026 |
-| **5** | [Find Users with Seven Consecutive Impression Days](https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days) | SQL | Medium | — | Sep 04, 2026 |
-| **6** | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | System Design | Medium | — | Sep 04, 2026 |
-| **7** | [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | System Design | Medium | — | Sep 04, 2026 |
-| **8** | [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | System Design | Hard | — | Sep 04, 2026 |
+| **1** | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Object Oriented Programming | Medium | — | Oct 14, 2026 |
+| **2** | [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Object Oriented Programming | Medium | — | Oct 09, 2026 |
+| **3** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Sep 23, 2026 |
+| **4** | [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Algorithm | Medium | — | Sep 19, 2026 |
+| **5** | [In-Memory File System](https://trueinterview.io/questions/oa-in-memory-file-system) | Object Oriented Programming | Medium | — | Sep 08, 2026 |
+| **6** | [Calculate the Median House Price in Each City](https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city) | SQL | Medium | — | Sep 04, 2026 |
+| **7** | [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | SQL | Medium | — | Sep 04, 2026 |
+| **8** | [Find Hosts Meeting Listing, Rating, and Review-Coverage Rules](https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules) | SQL | Medium | — | Sep 04, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -131,18 +134,27 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Object Oriented Programming | Medium | 🔥 Oct 14, 2026 |
+| [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Object Oriented Programming | Medium | 🆕 Oct 09, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
+| [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Algorithm | Medium | 🆕 Sep 19, 2026 |
+| [In-Memory File System](https://trueinterview.io/questions/oa-in-memory-file-system) | Object Oriented Programming | Medium | Sep 08, 2026 |
 | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | System Design | Medium | Sep 04, 2026 |
 | [Find Users with Seven Consecutive Impression Days](https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days) | SQL | Medium | Sep 04, 2026 |
 | [Find Hosts Meeting Listing, Rating, and Review-Coverage Rules](https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules) | SQL | Medium | Sep 04, 2026 |
 | [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | SQL | Medium | Sep 04, 2026 |
 | [Calculate the Median House Price in Each City](https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city) | SQL | Medium | Sep 04, 2026 |
-| [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | System Design | Medium | Sep 04, 2026 |
+| [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | System Design | Hard | Sep 04, 2026 |
 | [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | System Design | Hard | Sep 04, 2026 |
 | [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/questions/explain-ml-project-milestones-scope-and-conflict) | Blog | — | Sep 04, 2026 |
 | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Object Oriented Programming | Medium | Aug 30, 2026 |
 | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Object Oriented Programming | Hard | Aug 29, 2026 |
+| [In-Memory Object Manager](https://trueinterview.io/questions/oa-object-manager-prefix-ttl) | Object Oriented Programming | Medium | Aug 28, 2026 |
 | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Object Oriented Programming | Medium | Aug 25, 2026 |
+| [Working Hours Register](https://trueinterview.io/questions/oa-working-hours-register) | Object Oriented Programming | Hard | Aug 17, 2026 |
+| [Recipe Management System](https://trueinterview.io/questions/oa-recipe-management-system) | Object Oriented Programming | Medium | Jul 29, 2026 |
+| [Parcel Tracking System](https://trueinterview.io/questions/oa-parcel-tracking-system) | Object Oriented Programming | Medium | Jul 27, 2026 |
+| [Nested-List Iterator](https://trueinterview.io/questions/nested-list-iterator-with-remove) | Object Oriented Programming | Medium | Jul 26, 2026 |
 | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | SQL | Easy | Jul 22, 2026 |
 | [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill) | Algorithm | Hard | Jun 26, 2026 |
 | [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | AI Coding | Hard | Jun 22, 2026 |
@@ -154,6 +166,7 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Build Smallest Number](https://trueinterview.io/questions/smallest-permutation-bound) | Algorithm | Medium | Jun 03, 2026 |
 | [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood) | Object Oriented Programming | Medium | Jun 02, 2026 |
+| [Banking System (Progressive OOD)](https://trueinterview.io/questions/codesignal-oa-banking-system) | Object Oriented Programming | Hard | May 26, 2026 |
 | [Property Booking System](https://trueinterview.io/questions/property-combination-min-capacity) | Algorithm | Medium | May 25, 2026 |
 | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | May 24, 2026 |
 | [Average Vacant Days](https://trueinterview.io/questions/average-vacant-days) | SQL | Easy | May 23, 2026 |
@@ -198,6 +211,17 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Guess Number](https://trueinterview.io/questions/guess-number) | Algorithm | Medium | Sep 24, 2025 |
 | [Payment Refund Allocation](https://trueinterview.io/questions/payment-refund-allocation) | Algorithm | Medium | Sep 17, 2025 |
 | [Minimum Vertices to Traverse Directed Graph](https://trueinterview.io/questions/minimum-vertices-to-traverse-directed-graph) | Algorithm | Medium | Sep 17, 2025 |
+| [Add Bold Tag in String](https://trueinterview.io/questions/e789ba6a-1b50-51dd-ba78-d8f46de2895f) | Algorithm | Medium | — |
+| [Banking System with Scheduled Transfers, Account Merging, and Historical Balances](https://trueinterview.io/questions/dad943ab-9cb2-5f6d-b78f-86ca2ee971b1) | Object Oriented Programming | Hard | — |
+| [Maximum Concurrent Bookings](https://trueinterview.io/questions/b208c108-7a27-5f46-82c2-ffe1a121c692) | Algorithm | Medium | — |
+| [FIFO Order Allocator](https://trueinterview.io/questions/a806c5ff-dc75-5b79-b259-9d5ba25d4b21) | Algorithm | Easy | — |
+| [Banking System - Basic Account Operations](https://trueinterview.io/questions/76426ad8-4d47-53ba-b232-1d99030c03c9) | Object Oriented Programming | Easy | — |
+| [Cloud Storage System: User File Backup and Restore](https://trueinterview.io/questions/690b16ad-17a7-59cd-bb53-da0fa03cbc8d) | Object Oriented Programming | Medium | — |
+| [Task Management System with Expiring Assignments and Overdue Tracking](https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5) | Object Oriented Programming | Hard | — |
+| [Workspace Credit Ledger with Scheduled Transfers](https://trueinterview.io/questions/4c1be592-b2c7-59dc-a159-34b0311bed57) | Object Oriented Programming | Medium | — |
+| [In-Memory Banking Operations and Top Spenders](https://trueinterview.io/questions/32eeca63-68b5-5a27-860d-9f9f64a2ed19) | Object Oriented Programming | Easy | — |
+| [Calculate Page Dwell Time from Event Logs](https://trueinterview.io/questions/12a384fe-ebda-5785-9cdb-d8adeff5e3ce) | SQL | Easy | — |
+| [Median Home Price by City](https://trueinterview.io/questions/0c07a7e2-8538-52ad-a790-8c1ca6621996) | Algorithm | Easy | — |
 | [Test conversion difference and adjust for clustering](https://trueinterview.io/questions/test-conversion-difference-and-adjust-for-clustering) | Blog | — | — |
 | [Lead cross-functional decision without RCT evidence](https://trueinterview.io/questions/lead-cross-functional-decision-without-rct-evidence) | Blog | — | — |
 | [Estimate impact of global launch without holdout](https://trueinterview.io/questions/estimate-impact-of-global-launch-without-holdout) | Blog | — | — |
@@ -206,14 +230,16 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Design a network-aware Wi‑Fi badge experiment](https://trueinterview.io/questions/design-a-network-aware-wifi-badge-experiment) | System Design | Medium | — |
 | [Compute C/T metrics from bookings and visits](https://trueinterview.io/questions/compute-c-t-metrics-from-bookings-and-visits) | SQL | Medium | — |
 | [Compute browsing metrics in Python from logs](https://trueinterview.io/questions/compute-browsing-metrics-in-python-from-logs) | Algorithm | Hard | — |
-| [Build panel in SQL; run causal regression](https://trueinterview.io/questions/build-panel-in-sql-run-causal-regression) | SQL | Medium | — |
+| [Build panel in SQL; run causal regression](https://trueinterview.io/questions/build-panel-in-sql-run-causal-regression) | SQL | Hard | — |
 | [Design Airbnb Relisting Detection](https://trueinterview.io/questions/design-airbnb-relisting-detection) | System Design | Medium | — |
 | [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Medium | — |
 | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | — |
 | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888) | Algorithm | Medium | — |
 | [URL Parser with Percent Unquote](https://trueinterview.io/questions/b8f2f270-a472-5c0c-927b-883b8fa80722) | Algorithm | Medium | — |
+| [Tag Matching and Annotation with Pattern Priority](https://trueinterview.io/questions/66c19222-268a-55ae-80db-62d14d9ad56c) | Algorithm | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
+| [Consecutive Sum (Financial Engineer Intern)](https://trueinterview.io/questions/7947d7b9-43db-4be6-afc3-72097636a793) | Algorithm | Medium | — |
 | [Find Split Stays for Airbnb Listings](https://trueinterview.io/questions/e03cb6a7-a689-4b72-ba5e-bc25eceb157b) | Algorithm | Medium | — |
 | [Water Pouring Problem](https://trueinterview.io/questions/b70c9cb6-02b6-445e-bc21-2135d02ea01b) | Algorithm | Medium | — |
 | [Replace Text for Review](https://trueinterview.io/questions/80731212-708a-43a5-a87a-ad06f2e56b6b) | Algorithm | Easy | — |

@@ -138,7 +138,7 @@ Here are some questions reported by recent candidates:
 - [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a)
 - [Enumerate All Simple Paths and Directed Cycles](https://trueinterview.io/questions/da77d8f0-0d6f-5c7b-b2d3-7817a85ee644)
 - [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md)
-- [Sliding Window Maximum](https://trueinterview.io/questions/sliding-window-maximum)
+- [Sliding Window Maximum](../../questions/algorithm/sliding-window-maximum/README.md)
 
 ## Operations and troubleshooting round
 

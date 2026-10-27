@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,416 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,16 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [How do you learn new knowledge quickly?](https://trueinterview.io/questions/how-do-you-learn-new-knowledge-quickly) | **Expedia** | — | Jan 06, 2026 |
+| [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) | **Disney** | — | Nov 24, 2025 |
+| [How do you manage performance and disagreements?](https://trueinterview.io/questions/how-do-you-manage-performance-and-disagreements) | **Uber** | — | Mar 01, 2026 |
+| [How do you resolve partner conflict?](https://trueinterview.io/questions/how-do-you-resolve-partner-conflict) | **Airwallex** | — | Oct 24, 2025 |
+| [How do you tackle unfamiliar problems?](https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems) | **Oracle** | — | Jan 04, 2026 |
+| [How do you use AI for coding?](https://trueinterview.io/questions/how-do-you-use-ai-for-coding) | **Expedia** | — | Oct 29, 2025 |
 | [How do you win project buy-in?](https://trueinterview.io/questions/how-do-you-win-project-buy-in) | **LinkedIn** | — | Jan 01, 2026 |
 | [How Does Removing Zeros Affect Sharpe?](https://trueinterview.io/questions/how-does-removing-zeros-affect-sharpe) | **Squarepoint** | — | Mar 27, 2026 |
 | [How investigate a brand-ad spend drop?](https://trueinterview.io/questions/how-investigate-a-brand-ad-spend-drop) | **Meta** | — | Jan 03, 2026 |
+| [How Java Reclaims Memory: Generations, Collectors and Roots](https://trueinterview.io/questions/java-garbage-collection) | **Disney** | — | — |
 | [How should you evaluate unconnected content?](https://trueinterview.io/questions/how-should-you-evaluate-unconnected-content) | **Meta** | — | Apr 05, 2026 |
 | [How should you handle misaligned interviews?](https://trueinterview.io/questions/how-should-you-handle-misaligned-interviews) | **Anthropic** | — | Jan 19, 2026 |
 | [How to answer common recruiter screen questions](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions) | **OpenAI** | — | Feb 02, 2026 |
@@ -100,7 +107,7 @@
 | [Justify Instacart fit and leaving your role](https://trueinterview.io/questions/justify-instacart-fit-and-leaving-your-role) | **Instacart** | — | — |
 | [Justify synthetic control and handle inference](https://trueinterview.io/questions/justify-synthetic-control-and-handle-inference) | **Reddit** | — | — |
 | [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) | **Mistral AI** | — | Sep 01, 2026 |
-| [Keep Gradient Descent from Stalling at Poor Solutions](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions) | **C3 AI** | — | Aug 21, 2026 |
+| [Keep Gradient Descent from Stalling at Poor Solutions](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions) | **C3.ai** | — | Aug 21, 2026 |
 | [Lead a deep dive on your most complex project](https://trueinterview.io/questions/lead-a-deep-dive-on-your-most-complex-project) | **Google** | — | Jan 12, 2026 |
 | [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) | **Square** | — | Apr 27, 2026 |
 | [Lead a product deep dive with quantified impact](https://trueinterview.io/questions/lead-a-product-deep-dive-with-quantified-impact) | **Meta** | — | — |
@@ -155,6 +162,7 @@
 | [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/questions/ml-modeling-round) | **Shopify** | — | May 10, 2026 |
 | [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/questions/ml-research-orals) | **Netflix** | — | May 09, 2026 |
 | [ML Systems Codebase Deep Dive](https://trueinterview.io/questions/ml-systems-codebase-deep-dive) | **Apple** | — | Jul 01, 2026 |
+| [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | **Netflix** | — | 🆕 Sep 23, 2026 |
 | [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/questions/mle-ml-knowledge-orals) | **Capital One** | — | Feb 04, 2026 |
 | [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive) | **Roblox** | — | May 19, 2026 |
 | [Model comment count distribution and validate assumptions](https://trueinterview.io/questions/model-comment-count-distribution-and-validate-assumptions) | **Meta** | — | — |
@@ -252,13 +260,5 @@
 | [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral) | **Two Sigma** | — | Feb 18, 2026 |
 | [QR Take-Home Data Project & Presentation](https://trueinterview.io/questions/qr-take-home-data-project) | **Optiver** | — | Jan 12, 2026 |
 | [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/questions/qr-technical-brainteasers) | **Optiver** | — | Nov 14, 2025 |
-| [Quant Probability and Statistics Orals](https://trueinterview.io/questions/quant-probability-and-statistics-orals) | **JPMorgan** | — | Jan 15, 2026 |
-| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) | **Goldman Sachs** | — | May 13, 2026 |
-| [Quantify and optimize team-match funnel](https://trueinterview.io/questions/quantify-and-optimize-team-match-funnel) | **Capital One** | — | — |
-| [Quantify base-rate dilution in CTR](https://trueinterview.io/questions/quantify-base-rate-dilution-in-ctr) | **Meta** | — | — |
-| [Quantify build-vs-buy training decision](https://trueinterview.io/questions/quantify-build-vs-buy-training-decision) | **Amazon** | — | — |
-| [Quantify database bug cost/benefit](https://trueinterview.io/questions/quantify-database-bug-cost-benefit) | **Capital One** | — | — |
-| [Quantify impact of your projects using STAR](https://trueinterview.io/questions/quantify-impact-of-your-projects-using-star) | **Scale AI** | — | — |
-| [Quantify improvement and compute required sample size](https://trueinterview.io/questions/quantify-improvement-and-compute-required-sample-size) | **Amazon** | — | — |
 
 <sub>[← Page 4](blog-4.md) · Page 5 of 6 · [Page 6 →](blog-6.md)</sub>

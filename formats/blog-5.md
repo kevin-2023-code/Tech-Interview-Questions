@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,416 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,20 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Meta** | [Handle diverse styles and give constructive feedback](https://trueinterview.io/questions/handle-diverse-styles-and-give-constructive-feedback) | — | — |
+| **ByteDance** | [Handle disengaged interviewer or biased manager](https://trueinterview.io/questions/handle-disengaged-interviewer-or-biased-manager) | — | — |
+| **Apple** | [Handle conflict, priorities, and harsh clients](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients) | — | — |
+| **DoorDash** | [Handle conflict and time-pressured decision](https://trueinterview.io/questions/handle-conflict-and-time-pressured-decision) | — | — |
+| **Cvs Health** | [Handle challenges in MMM/MMX](https://trueinterview.io/questions/handle-challenges-in-mmm-mmx) | — | — |
+| **Capital One** | [Handle an irate passenger after flight delay](https://trueinterview.io/questions/handle-an-irate-passenger-after-flight-delay) | — | — |
+| **Capital One** | [Graph WTP vs content and explain cap](https://trueinterview.io/questions/graph-wtp-vs-content-and-explain-cap) | — | — |
+| **Uber** | [Formulate OR model to reduce driver backtracking](https://trueinterview.io/questions/formulate-or-model-to-reduce-driver-backtracking) | — | — |
+| **Upstart** | [Formulate hypotheses and metrics for video-pin ramp](https://trueinterview.io/questions/formulate-hypotheses-and-metrics-for-video-pin-ramp) | — | — |
+| **Uber** | [Formulate hypotheses and compute AB test significance](https://trueinterview.io/questions/formulate-hypotheses-and-compute-ab-test-significance) | — | — |
+| **Rippling** | [Find minimum of unknown convex function](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) | — | — |
+| **Capital One** | [Find minimal a for PSD of 3x3 matrix](https://trueinterview.io/questions/find-minimal-a-for-psd-of-3x3-matrix) | — | — |
+| **Cvs Health** | [Explain your top strengths concretely](https://trueinterview.io/questions/explain-your-top-strengths-concretely) | — | — |
+| **OpenAI** | [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) | — | — |
 | **ByteDance** | [Explain your most impactful project trade-offs](https://trueinterview.io/questions/explain-your-most-impactful-project-trade-offs) | — | — |
 | **Pinterest** | [Explain your ML project end-to-end](https://trueinterview.io/questions/explain-your-ml-project-end-to-end) | — | — |
 | **Meta** | [Explain your main growth area](https://trueinterview.io/questions/explain-your-main-growth-area) | — | — |
@@ -185,7 +199,7 @@
 | **Meta** | [Describe conflict where you yielded to others](https://trueinterview.io/questions/describe-conflict-where-you-yielded-to-others) | — | — |
 | **Google** | [Describe conflict and failure using STAR framework](https://trueinterview.io/questions/describe-conflict-and-failure-using-star-framework) | — | — |
 | **Apple** | [Describe common RTL lint warnings and errors](https://trueinterview.io/questions/describe-common-rtl-lint-warnings-and-errors) | — | — |
-| **C3 AI** | [Describe challenge, influence, and mentorship outcomes](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) | — | — |
+| **C3.ai** | [Describe challenge, influence, and mentorship outcomes](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) | — | — |
 | **Capital One** | [Describe best team and complex project](https://trueinterview.io/questions/describe-best-team-and-complex-project) | — | — |
 | **Meta** | [Describe an ambiguous project you handled](https://trueinterview.io/questions/describe-an-ambiguous-project-you-handled) | — | — |
 | **Capital One** | [Describe a project you’re most proud of](https://trueinterview.io/questions/describe-a-project-youre-most-proud-of) | — | — |
@@ -246,19 +260,5 @@
 | **Capital One** | [Decide whether to sell both SKUs](https://trueinterview.io/questions/decide-whether-to-sell-both-skus) | — | — |
 | **Snapchat** | [Decide whether to launch Group Story](https://trueinterview.io/questions/decide-whether-to-launch-group-story) | — | — |
 | **Meta** | [Decide when CTR falls but revenue rises](https://trueinterview.io/questions/decide-when-ctr-falls-but-revenue-rises) | — | — |
-| **ByteDance** | [Decide if subgroup increases imply overall increase](https://trueinterview.io/questions/decide-if-subgroup-increases-imply-overall-increase) | — | — |
-| **LinkedIn** | [Decide best email variant using stratified A/B analysis](https://trueinterview.io/questions/decide-best-email-variant-using-stratified-a-b-analysis) | — | — |
-| **Capital One** | [Decide and test Groupon program incrementality](https://trueinterview.io/questions/decide-and-test-groupon-program-incrementality) | — | — |
-| **Snowflake** | [Decide and justify product metrics amid trade-offs](https://trueinterview.io/questions/decide-and-justify-product-metrics-amid-trade-offs) | — | — |
-| **Capital One** | [Critique a product interface and propose fixes](https://trueinterview.io/questions/critique-a-product-interface-and-propose-fixes) | — | — |
-| **Capital One** | [Cover HR screen: role, motivation, comp, immigration, location](https://trueinterview.io/questions/cover-hr-screen-role-motivation-comp-immigration-location) | — | — |
-| **Upstart** | [Correct length-biased sampling from family-size survey](https://trueinterview.io/questions/correct-length-biased-sampling-from-family-size-survey) | — | — |
-| **ByteDance** | [Control confounding in observational ad lift](https://trueinterview.io/questions/control-confounding-in-observational-ad-lift) | — | — |
-| **Snowflake** | [Contrast FCF vs NI; choose one statement](https://trueinterview.io/questions/contrast-fcf-vs-ni-choose-one-statement) | — | — |
-| **Amazon** | [Contrast CNNs and fully connected networks](https://trueinterview.io/questions/contrast-cnns-and-fully-connected-networks) | — | — |
-| **Coinbase** | [Compute wallet-link probabilities, expectation, and conditionals](https://trueinterview.io/questions/compute-wallet-link-probabilities-and-conditionals) | — | — |
-| **Capital One** | [Compute unit economics and insurance break-even](https://trueinterview.io/questions/compute-unit-economics-and-insurance-break-even) | — | — |
-| **Capital One** | [Compute two conditional probability scenarios](https://trueinterview.io/questions/compute-two-conditional-probability-scenarios) | — | — |
-| **DoorDash** | [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | — | — |
 
 <sub>[← Page 4](blog-4.md) · Page 5 of 6 · [Page 6 →](blog-6.md)</sub>

@@ -12,74 +12,65 @@
 
 ## Problem
 
-## Requirements
+A pilot has been tasked with dropping food packets over a stretch of terrain. The drop points are locations with integer coordinates on a two-dimensional plane, and the pilot is allowed exactly one pass over the terrain. That single flight path must be either perfectly horizontal or perfectly vertical; diagonal routes and routes that combine horizontal and vertical segments are not permitted. The goal is to choose the path that passes over as many drop points as possible.
 
-- The function receives `xCoords` and `yCoords`, both lists of integers with equal length. Each index `i` pairs `xCoords[i]` and `yCoords[i]` as one two-dimensional drop point.
-- The flight path must be either horizontal or vertical. Diagonal paths and paths that combine horizontal and vertical movement are invalid.
-- A path must pass through more than one drop point; one point alone does not constitute a valid path.
-- The constraint is `1 < N, M <= 700`, where `N = len(xCoords)` and `M = len(yCoords)`.
-- Return the greatest number of drop points covered by a single valid path.
+Implement `max_points_on_line(xCoords, yCoords)`. The two arrays have the same length, and the `i`-th drop point is located at (`xCoords[i]`, `yCoords[i]`). Return an integer: the number of drop points lying on the best such path, i.e. the largest number of drop points that one horizontal or vertical pass can cover.
 
-## Examples
+A path only counts as valid when it connects more than one drop point. A lone coordinate does not form a path, so the pilot cannot fly over just a single point. In particular, if every x-coordinate is distinct and every y-coordinate is distinct, no valid path exists and the answer is 0.
 
-### Example (as reported)
+Example 1:
 
 ```text
 Input:
-5
-2 3 2 4 2
-5
-2 2 6 5 8
+xCoordinates = [2, 3, 2, 4, 2]
+yCoordinates = [2, 2, 6, 5, 8]
 
-Output:
-3
+Output: 3
 ```
 
-### Example 1
-
-```python
-max_points_on_line([2, 3, 2, 4, 2], [2, 2, 6, 5, 8]) -> 3
-```
+Explanation: The points are (2,2), (3,2), (2,6), (4,5) and (2,8); flying vertically along the line where the x-coordinate equals 2 passes over (2,2), (2,6) and (2,8), which is 3 points, and no other horizontal or vertical line covers more.
 
 ```trueviz
 {"v":1,"kind":"example","title":"Example 1: max_points_on_line([2,3,2,4,2], [2,2,6,5,8])","input":{"xCoords":"[2,3,2,4,2]","yCoords":"[2,2,6,5,8]"},"steps":[{"say":"Here are the five drop points plotted on a grid.","panels":[{"type":"grid","id":"grid","label":"Drop points","values":[[" ","•"," "," "," "],[" "," "," "," "," "],[" ","•"," "," "," "],[" "," "," ","•"," "],[" "," "," "," "," "],[" "," "," "," "," "],[" ","•","•"," "," "],[" "," "," "," "," "],[" "," "," "," "," "]],"marks":{"read":[[6,1],[6,2],[2,1],[3,3],[0,1]]}}]},{"say":"Look at the vertical line x=2. It passes through three points: (2,2), (2,6), (2,8).","panels":[{"type":"grid","id":"grid","label":"Drop points","values":[[" ","•"," "," "," "],[" "," "," "," "," "],[" ","•"," "," "," "],[" "," "," ","•"," "],[" "," "," "," "," "],[" "," "," "," "," "],[" ","•","•"," "," "],[" "," "," "," "," "],[" "," "," "," "," "]],"marks":{"found":[[6,1],[2,1],[0,1]]}}]},{"say":"No other line covers more points. The horizontal line y=2 hits only (2,2) and (3,2). So the answer is 3.","panels":[{"type":"string","id":"result","label":"Maximum points on a line","values":["3"],"marks":{"found":[0]}}]}],"expected":"3"}
 ```
 
+Example 2:
 
-The vertical line at `x = 2` passes through three drop points, which is more than any other valid horizontal or vertical path.
+```text
+Input:
+xCoordinates = [1, 2, 3]
+yCoordinates = [4, 4, 5]
 
-### Example 2
-
-```python
-max_points_on_line([1, 2, 3], [4, 4, 5]) -> 2
+Output: 2
 ```
 
-The two points whose y-coordinate is `4` lie on the same horizontal path, so two drop points can be covered.
+Explanation: The first two points, (1,4) and (2,4), share the y-coordinate 4, so one horizontal pass covers two drop points. No line covers all three.
 
-## Notes
+Constraints:
 
-- Cases in which every x-coordinate and every y-coordinate is unique must be handled carefully, because a single point does not form a valid path.
+* $$1 < N, M \le 700$$, where `N` is the length of `xCoords` and `M` is the length of `yCoords`
+* `N` is always equal to `M`
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Focus on the fact that the path must be strictly horizontal or vertical, so you only need to consider points sharing the same x-coordinate or the same y-coordinate.
+Only horizontal and vertical lines count, so every line is described by a single fixed x or a single fixed y.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For each unique x or y, group the points and then find the longest consecutive sequence when sorted by the other coordinate.
+Count how many points share each x value and each y value with hash maps, then take the biggest count.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The constraint N, M <= 700 suggests an O(N^2) or O(N log N) solution is acceptable, watch for duplicate points that could break consecutive counting.
+Remember a valid path must pass through more than one point, so if the maximum count is 1 the answer is not 1, and watch empty input.
 
 </details>
 

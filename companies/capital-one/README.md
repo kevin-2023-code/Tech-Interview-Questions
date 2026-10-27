@@ -8,11 +8,11 @@ How Capital One interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [193](../capital-one.md) |
-| Free to read here | 2 |
+| Questions reported | [213](../capital-one.md) |
+| Free to read here | 3 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
-| Most recent sighting | Sep 16, 2026 |
+| Most recent sighting | Oct 02, 2026 |
 
 ## How Capital One interviews
 
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Capital One questions
 
-111 questions reported at Capital One open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+112 questions reported at Capital One open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -162,13 +162,14 @@ Here's what the interview process can look like:
 | [Build and evaluate airline delay prediction model](https://trueinterview.io/questions/build-and-evaluate-airline-delay-prediction-model) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/build-and-evaluate-airline-delay-prediction-model) |
 | [Assess card rewards profitability and break-even spend](https://trueinterview.io/questions/assess-card-rewards-profitability-and-break-even-spend) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/assess-card-rewards-profitability-and-break-even-spend) |
 | [Articulate your most significant achievement](https://trueinterview.io/questions/articulate-your-most-significant-achievement) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/articulate-your-most-significant-achievement) |
+| [Sort Colors](../../questions/algorithm/sort-colors/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) |
 | [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/questions/f63e89db-acce-46ac-9ee8-4b85820078e0) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f63e89db-acce-46ac-9ee8-4b85820078e0) |
 | [Banking System with Transaction Activity](../../questions/object-oriented-programming/banking-system-with-transaction-activity/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 
 ## Everything else
 
-- [All 193 questions reported at Capital One](../capital-one.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 213 questions reported at Capital One](../capital-one.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Capital One question on TrueInterview](https://trueinterview.io/problems/company/capital-one).
 
 ---

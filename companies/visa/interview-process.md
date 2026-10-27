@@ -60,9 +60,9 @@ Here are some questions reported by recent candidates:
 
 - [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1)
 - [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b)
-- [Minimum Score of a Path Between Two Cities](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d)
+- [Minimum Score of a Path Between Two Cities](../../questions/algorithm/minimum-score-of-a-path-between-two-cities/README.md)
 - [Count Distinct Movement Subsequences on a Number Line](https://trueinterview.io/questions/f70afa37-90a2-5c42-a173-236efea88ec0)
-- [Minimize Maximum of Array](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47)
+- [Minimize Maximum of Array](../../questions/algorithm/minimize-maximum-of-array/README.md)
 - [Minimize Value by Parentheses in Concatenated Expression](https://trueinterview.io/questions/2c206b9d-3d55-4b5e-a350-1617c3666b7b)
 
 ## Technical phone screens
@@ -87,7 +87,7 @@ Here are some questions reported by recent candidates:
 - Return the k elements closest to a target in a sorted array, using binary search to place the window.
 
 - [Jump Game](../../questions/algorithm/jump-game/README.md)
-- [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2)
+- [Find K Closest Elements](../../questions/algorithm/find-k-closest-elements/README.md)
 - [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md)
 - [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb)
 
@@ -113,7 +113,7 @@ Here are some questions reported by recent candidates:
 - Maximize profit from one buy and one sell, then from at most two non-overlapping transactions.
 - Given ML tasks with prerequisite pairs, decide whether all can finish, and discuss scaling to thousands of tasks.
 
-- [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761)
+- [Best Time to Buy and Sell Stock](../../questions/algorithm/best-time-to-buy-and-sell-stock/README.md)
 - [AI-augmented Course Schedule Variation](https://trueinterview.io/questions/f07d3e71-08f4-4626-a568-17e13bd74cbc)
 - [Largest Square Area in Cityscape](https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6)
 

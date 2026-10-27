@@ -2,7 +2,7 @@
 
 # Coinbase interview process, OA & interview questions
 
-**86 questions** reported at Coinbase · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
+**87 questions** reported at Coinbase · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Coinbase interviews & the free questions](coinbase/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **86** |
+| Questions tracked | **87** |
 | Most recent sighting | Aug 27, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (36% of 86) |
-| Difficulty (easy / medium / hard) | 12 / 45 / 15 |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (37% of 87) |
+| Difficulty (easy / medium / hard) | 12 / 45 / 16 |
 | Free to practise | [24](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 86 questions reported at Coinbase. 41 of them carry a sighting date; the other 45 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 87 questions reported at Coinbase. 41 of them carry a sighting date; the other 46 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **86 of 86** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **87 of 87** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 19 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (53%) | 6 / 10 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 21 | ████ | [Algorithm](../formats/algorithm.md) (38%) | 0 / 7 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 48 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (42%) | 7 / 29 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 49 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (43%) | 7 / 29 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -90,7 +90,7 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | **2** | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Object Oriented Programming | Hard | — | Jun 15, 2026 |
 | **3** | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | 3 | May 21, 2026 |
 | **4** | [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | Algorithm | Easy | — | May 19, 2026 |
-| **5** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | 2 | May 08, 2026 |
+| **5** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | 1 | May 08, 2026 |
 | **6** | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Object Oriented Programming | Medium | — | May 08, 2026 |
 | **7** | [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive) 🆓 | Blog | — | — | May 08, 2026 |
 | **8** | [Crypto Order Management (Kafka Consumer)](https://trueinterview.io/questions/crypto-order-management-kafka) | Algorithm | Medium | — | May 06, 2026 |
@@ -159,6 +159,7 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | System Design | Medium | Dec 01, 2025 |
 | [Design an in-memory database with TTL and backups](https://trueinterview.io/questions/design-an-in-memory-database-with-ttl-and-backups) | Object Oriented Programming | Hard | Nov 08, 2025 |
 | [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Object Oriented Programming | Medium | Jul 22, 2025 |
+| [Task Management System with Expiring Assignments and Overdue Tracking](https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5) | Object Oriented Programming | Hard | — |
 | [Solve the 12-coin balance puzzle](https://trueinterview.io/questions/solve-the-12-coin-balance-puzzle) | Blog | — | — |
 | [Show culture add at Coinbase](https://trueinterview.io/questions/show-culture-add-at-coinbase) | Blog | — | — |
 | [Explain handling pressure to bend rules](https://trueinterview.io/questions/explain-handling-pressure-to-bend-rules) | Blog | — | — |

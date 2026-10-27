@@ -19,7 +19,7 @@
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
 | Most common format | [Algorithm](../formats/algorithm.md) (87% of 15) |
 | Difficulty (easy / medium / hard) | 3 / 10 / 2 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 15 questions reported at Visa. 0 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -67,8 +67,8 @@ The 8 questions to open first if you are preparing for Visa, ranked by **the one
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) 🆓 | Algorithm | Medium | 3 | — |
 | **2** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) 🆓 | Algorithm | Easy | 2 | — |
-| **3** | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) | Algorithm | Easy | 1 | — |
-| **4** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Algorithm | Medium | 1 | — |
+| **3** | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) 🆓 | Algorithm | Easy | 1 | — |
+| **4** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) 🆓 | Algorithm | Medium | 1 | — |
 | **5** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Algorithm | Medium | 1 | — |
 | **6** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Algorithm | Easy | — | — |
 | **7** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | System Design | Medium | — | — |

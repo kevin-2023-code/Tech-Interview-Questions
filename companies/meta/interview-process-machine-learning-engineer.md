@@ -76,7 +76,7 @@ Here are some questions reported by recent candidates:
 - Design an ML system that recommends nearby places to mobile users, covering retrieval, ranking, freshness and evaluation.
 - Walk through a past project, then design a way to stop a code-generation model from reproducing private-repository code it was trained on.
 
-- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
+- [Random Pick with Weight](../../questions/algorithm/random-pick-with-weight/README.md)
 - [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2)
 - [Nearby Place Recommendation](https://trueinterview.io/questions/mlsd-nearby-place-recommendation)
 

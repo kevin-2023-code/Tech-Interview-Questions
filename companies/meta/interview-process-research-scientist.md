@@ -83,7 +83,7 @@ Here are some questions reported by recent candidates:
 - Build a class that returns a random index with probability equal to its weight divided by the total weight.
 - Find an element smaller than both neighbors in O(log n) by deciding which half must contain one.
 
-- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
+- [Random Pick with Weight](../../questions/algorithm/random-pick-with-weight/README.md)
 - [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2)
 
 ## Coding interviews
@@ -112,8 +112,8 @@ Here are some questions reported by recent candidates:
 - Given m sorted arrays, output the smallest k numbers overall in sorted order.
 
 - [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place)
-- [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view)
-- [Making a Large Island](https://trueinterview.io/questions/making-a-large-island)
+- [Binary Tree Right Side View](../../questions/algorithm/binary-tree-right-side-view/README.md)
+- [Making a Large Island](../../questions/algorithm/making-a-large-island/README.md)
 - [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md)
 
 ## AI-enabled coding interview

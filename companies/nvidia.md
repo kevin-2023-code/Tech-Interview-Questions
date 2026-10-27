@@ -18,8 +18,8 @@
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (41% of 54) |
-| Difficulty (easy / medium / hard) | 7 / 23 / 8 |
-| Free to practise | [22](../free/README.md) |
+| Difficulty (easy / medium / hard) | 7 / 22 / 9 |
+| Free to practise | [23](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 54 questions reported at NVIDIA. 33 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -31,8 +31,8 @@ Which stage each question came from, for the **54 of 54** questions at NVIDIA th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 3 / 16 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 21 | ██████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 11 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 3 / 15 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 21 | ██████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 10 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -90,7 +90,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) 🆓 | Blog | — | — | Sep 17, 2026 |
-| **2** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 2 | Aug 21, 2026 |
+| **2** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) 🆓 | Algorithm | Medium | 2 | Aug 21, 2026 |
 | **3** | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | System Design | Hard | — | Aug 19, 2026 |
 | **4** | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Object Oriented Programming | Hard | — | Aug 19, 2026 |
 | **5** | [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | — | Jul 03, 2026 |
@@ -134,7 +134,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Algorithm | Easy | Apr 26, 2026 |
 | [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Object Oriented Programming | Medium | Apr 15, 2026 |
 | [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout) | Algorithm | Medium | Apr 15, 2026 |
-| [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system) | System Design | Medium | Mar 25, 2026 |
+| [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system) | System Design | Hard | Mar 25, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Return all file paths via DFS](https://trueinterview.io/questions/return-all-file-paths-via-dfs) | Algorithm | Medium | Mar 04, 2026 |
 | [C++ Project Debugging with AI Tools](https://trueinterview.io/questions/cpp-debugging-with-ai-tools) | AI Coding | Hard | Feb 12, 2026 |
@@ -143,7 +143,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [Implement matrix transpose and KV store](https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store) | Object Oriented Programming | Medium | Feb 09, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Compare arrays, linked lists, hash tables, trees](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees) | Blog | — | Feb 06, 2026 |
-| [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding) | Algorithm | Medium | Feb 05, 2026 |
+| [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding) | Algorithm | Hard | Feb 05, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/questions/deep-learning-fundamentals) | Blog | — | Jan 29, 2026 |
 | [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals) | Blog | — | Jan 16, 2026 |
@@ -162,7 +162,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [Analyze overfitting, DenseNet, preprocessing, and cross-validation](https://trueinterview.io/questions/analyze-overfitting-densenet-preprocessing-and-cross-validation) | Blog | — | — |
 | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Algorithm | Medium | — |
 | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | — |
-| [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | AI Coding | Hard | — |
+| [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | AI Coding | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Algorithm | Medium | — |
 | [Minimum Sum After K Operations](https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2) | Algorithm | Medium | — |

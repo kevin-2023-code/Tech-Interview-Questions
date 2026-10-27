@@ -9,7 +9,7 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 |  |  |
 | :-- | :-- |
 | Questions reported | [68](../goldman-sachs.md) |
-| Free to read here | 25 |
+| Free to read here | 28 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 13, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Goldman Sachs questions
 
-40 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+43 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -57,8 +57,10 @@ Here's what the interview process can look like:
 | [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) |
 | [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) |
 | [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) | Blog | — | Online assessment | Sep 2026 | [Solve](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) |
+| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/validate-binary-search-tree) |
 | [Math and Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank) | Blog | — | Online assessment | May 2026 | [Solve](https://trueinterview.io/questions/quant-oa-math-probability-bank) |
 | [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) |
+| [String Compression](../../questions/algorithm/string-compression-oa/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/string-compression-oa) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
 | [First Missing Positive](../../questions/algorithm/first-missing-positive/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/first-missing-positive) |
@@ -84,11 +86,12 @@ Here's what the interview process can look like:
 | [Plus-Multiply Even / Odd Parity](../../questions/algorithm/plus-multiply-even-odd-parity/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/plus-multiply-even-odd-parity) |
 | [Valid Triangle + Point Inclusion](../../questions/algorithm/valid-triangle-point-inclusion/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/valid-triangle-point-inclusion) |
 | [Count Palindromic Substrings](../../questions/algorithm/palindromic-substrings/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/palindromic-substrings) |
-| [Min × Max Product After Push / Pop](../../questions/algorithm/min-max-product-stream/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/min-max-product-stream) |
+| [Min × Max Product After Push / Pop](../../questions/algorithm/min-max-product-stream/README.md) | Algorithm | Hard | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/min-max-product-stream) |
 | [Compliance Alert / Trailing-Average Sliding Window](../../questions/algorithm/compliance-alert-sliding-window/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/compliance-alert-sliding-window) |
 | [Chairs / Restaurant Order Simulation](../../questions/algorithm/chairs-restaurant-simulation/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/chairs-restaurant-simulation) |
 | [Anagram Queries on Word List](../../questions/algorithm/anagram-queries/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/anagram-queries) |
 | [Longest Subarray With Sum ≤ K](../../questions/algorithm/longest-subarray-sum-at-most-k/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/longest-subarray-sum-at-most-k) |
+| [Frequency of the Most Frequent Element](../../questions/algorithm/frequency-of-the-most-frequent-element/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/341d7cdd-b278-57d7-9f6c-203d53b500ce) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 

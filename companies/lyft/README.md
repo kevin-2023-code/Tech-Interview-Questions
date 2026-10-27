@@ -8,8 +8,8 @@ How Lyft interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [50](../lyft.md) |
-| Free to read here | 11 |
+| Questions reported | [49](../lyft.md) |
+| Free to read here | 12 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 08, 2026 |
@@ -48,15 +48,16 @@ Here's what the interview process can look like:
 
 ## Free Lyft questions
 
-19 questions reported at Lyft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at Lyft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) |
+| [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/minimum-window-substring) |
+| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/validate-binary-search-tree) |
 | [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability) | Blog | — | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/ds-commuter-coupon-probability) |
 | [Project, Conflict, Failure, and DEI](https://trueinterview.io/questions/behavioral-project-conflict-and-dei) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/behavioral-project-conflict-and-dei) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
-| [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [Explain Transformer and Fine-Tuning Basics](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-transformer-and-fine-tuning-basics) |
 | [Explain Python and Systems Fundamentals](https://trueinterview.io/questions/explain-python-and-systems-fundamentals) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-python-and-systems-fundamentals) |
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-key-value-store-with-transactions) |
@@ -74,7 +75,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 50 questions reported at Lyft](../lyft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 49 questions reported at Lyft](../lyft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Lyft question on TrueInterview](https://trueinterview.io/problems/company/lyft).
 
 ---

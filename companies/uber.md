@@ -2,38 +2,37 @@
 
 # Uber interview process, OA & interview questions
 
-**264 questions** reported at Uber · **3 writeups** · **8 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
+**266 questions** reported at Uber · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Uber interviews & the free questions](uber/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-uber)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-uber)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **264** |
+| Questions tracked | **266** |
 | Most recent sighting | Sep 29, 2026 |
 | Reported in the last 90 days | 12 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 264) |
-| Difficulty (easy / medium / hard) | 28 / 153 / 44 |
-| Free to practise | [77](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (61% of 266) |
+| Difficulty (easy / medium / hard) | 28 / 154 / 45 |
+| Free to practise | [103](../free/README.md) |
 | Guides & writeups | 3 |
-| Interview reports on the board | 8 in this snapshot |
 
-<sub>Counted from the 264 questions reported at Uber. 159 of them carry a sighting date; the other 105 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 266 questions reported at Uber. 160 of them carry a sighting date; the other 106 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **264 of 264** questions at Uber that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **266 of 266** questions at Uber that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 33 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 11 / 17 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 149 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 10 / 88 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 105 | ███████ | [Algorithm](../formats/algorithm.md) (39%) | 8 / 65 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 150 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 10 / 89 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 106 | ███████ | [Algorithm](../formats/algorithm.md) (40%) | 8 / 65 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -58,20 +57,20 @@ Which stage each question came from, for the **264 of 264** questions at Uber th
 
 ## What they ask about
 
-Of the **158 questions at Uber that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **160 questions at Uber that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 39 | 25% | ████████████ | Sep 09, 2026 |
+| `graphs` | 40 | 25% | ████████████ | Sep 09, 2026 |
 | `arrays` | 30 | 19% | █████████ | Sep 29, 2026 |
 | `hashing` | 17 | 11% | █████ | Jun 28, 2026 |
-| `matrix` | 16 | 10% | █████ | Sep 09, 2026 |
+| `matrix` | 17 | 11% | █████ | Sep 09, 2026 |
 | `strings` | 16 | 10% | █████ | Jun 24, 2026 |
-| `trees` | 15 | 9% | █████ | Jun 28, 2026 |
+| `trees` | 15 | 9% | ████ | Jun 28, 2026 |
+| `dynamic-programming` | 13 | 8% | ████ | Jul 17, 2026 |
 | `greedy` | 13 | 8% | ████ | May 15, 2026 |
 | `sorting` | 13 | 8% | ████ | Sep 09, 2026 |
 | `binary-search` | 12 | 8% | ████ | Jun 16, 2026 |
-| `dynamic-programming` | 12 | 8% | ████ | Jun 16, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -83,7 +82,7 @@ Every recorded sighting at Uber, by the month it was reported in — Jul 10, 202
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 4 | ███ |
 | [Aug 2026](../by-month/2026-08.md) | 7 | ██████ |
-| [Jul 2026](../by-month/2026-07.md) | 1 | █ |
+| [Jul 2026](../by-month/2026-07.md) | 2 | ██ |
 | [Jun 2026](../by-month/2026-06.md) | 23 | ███████████████████ |
 | [May 2026](../by-month/2026-05.md) | 20 | █████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 17 | ██████████████ |
@@ -102,7 +101,7 @@ The 8 questions to open first if you are preparing for Uber, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | 1 | Sep 29, 2026 |
+| **1** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) 🆓 | Algorithm | Medium | 1 | Sep 29, 2026 |
 | **2** | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | System Design | Medium | — | Sep 09, 2026 |
 | **3** | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Algorithm | Medium | — | Sep 09, 2026 |
 | **4** | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Algorithm | Hard | — | Sep 09, 2026 |
@@ -122,23 +121,6 @@ The 8 questions to open first if you are preparing for Uber, ranked by **the mos
 | [Uber Interview Process & Questions](https://trueinterview.io/study/uber-interview-process) | — |
 | [Uber Machine Learning Engineer Interview Process](https://trueinterview.io/study/uber-machine-learning-engineer-interview-process) | — |
 | [Uber Software Engineer Interview Process](https://trueinterview.io/study/uber-software-engineer-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Uber — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Uber Find Robot by Distance to Blockers Coding Interview](https://trueinterview.io/interviews/995a4c44-2530-456c-a84d-b7487a91833a) | Oct 18, 2026 |
-| Software | [Uber First Unique Visit Tracker Data Structure Coding Interview](https://trueinterview.io/interviews/c0707176-d4a0-4673-9fa6-b9c479271105) | Oct 18, 2026 |
-| Software | [Uber Graph Database Access Control System Design and N-ary Tree Serialization Interview Experience](https://trueinterview.io/interviews/6defb2b9-dcfd-4e67-b6a8-845a65da5617) | Oct 18, 2026 |
-| Software | [Uber Grid Robot with Charging Cells Coding Interview Experience](https://trueinterview.io/interviews/b83c8fe9-5578-4e73-bc3d-a21f75da0be3) | Oct 18, 2026 |
-| Software | [Uber Grid Robot with Charging Cells Coding Interview Experience](https://trueinterview.io/interviews/bbcbd83c-86a7-4221-9ae2-cc81c4a664ec) | Oct 18, 2026 |
-| Software | [Uber Infra Backend SDE L5a Interview Experience](https://trueinterview.io/interviews/83c33274-13dc-4a85-bd9e-54f4afb89aad) | Oct 18, 2026 |
-| Software | [Uber Next Palindrome (LeetCode 564 Variant) Coding Interview Experience](https://trueinterview.io/interviews/7b7279a7-3c15-4030-ad90-1cd3bb6a58fd) | Oct 18, 2026 |
-| Software | [Uber Number of Islands, Restaurant Listing Design and Parking Lot OOD Interview Experience](https://trueinterview.io/interviews/4bb9ef97-0a70-4546-aaa6-e02ed365dd12) | Oct 18, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 3,208 in total). [Every report at Uber and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -164,6 +146,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | Aug 11, 2026 |
 | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Aug 10, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
+| [Maximal Square (LeetCode 221)](https://trueinterview.io/questions/maximal-square) | Algorithm | Hard | Jul 17, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
 | [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/questions/bar-raiser-architecture-and-values) | Blog | — | Jun 26, 2026 |
 | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Jun 24, 2026 |
@@ -311,6 +294,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Solve three algorithmic optimization and search problems](https://trueinterview.io/questions/solve-three-algorithmic-optimization-and-search-problems) | Algorithm | Hard | Oct 07, 2025 |
 | [Verifying an Alien Dictionary](https://trueinterview.io/questions/verifying-an-alien-dictionary) | Algorithm | Easy | Sep 2025 |
 | [Round-Trip Mission Schedule](https://trueinterview.io/questions/oa-codesignal-multi-mission-routing) | Algorithm | Medium | Jul 10, 2025 |
+| [Detect a Cycle in a Directed Graph](https://trueinterview.io/questions/dd2c77a9-9d96-5ffd-a303-755aee03b614) | Algorithm | Medium | — |
 | [Repeated Queries for a Strictly Increasing Path from the Top-Left Cell](https://trueinterview.io/questions/b539f9f9-8170-5422-95cc-05035572f020) | Algorithm | Hard | — |
 | [K Smallest Squared Values in a Sorted Array](https://trueinterview.io/questions/4b41e162-c1e7-59a7-b837-0054a23558ef) | Algorithm | Medium | — |
 | [Serialize and Deserialize an N-ary Tree](https://trueinterview.io/questions/47b75620-2eae-503c-9ef8-f67cf680e642) | Algorithm | Medium | — |
@@ -400,7 +384,5 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Implement a Quadtree for Geospatial Point Storage and Range Query](https://trueinterview.io/questions/9fce13a5-2923-5538-97c0-e69f174b435f) | Object Oriented Programming | Medium | — |
 | [Task Dependency Completion Time](https://trueinterview.io/questions/98b9acbe-4393-4f2d-b6f2-023dda164e9a) | Algorithm | Medium | — |
 | [The Earliest Moment When Everyone Become Friends](https://trueinterview.io/questions/967301de-f814-5c2b-8023-d834f84d5b1c) | Algorithm | Medium | — |
-| [React Parking Lot System](https://trueinterview.io/questions/893e8e44-58d9-4d46-80c6-fecceb6d3b43) | AI Coding | Medium | — |
-| [Minimum Moves to Unlock a Lock Combination](https://trueinterview.io/questions/869023dd-5cb3-4937-a392-f217dcb8dffe) | Algorithm | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](uber-2.md)</sub>

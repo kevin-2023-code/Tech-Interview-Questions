@@ -87,7 +87,7 @@ Here are some questions reported by recent candidates:
 
 - [Maximum Length Balanced Subarray (Equal Sum Halves)](https://trueinterview.io/questions/f588f532-09ac-4651-97ca-e680fb0b1c3b)
 - [Find the K Smallest Elements from Multiple Sorted Arrays](https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4)
-- [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array)
+- [Search in Rotated Sorted Array](../../questions/algorithm/search-in-rotated-sorted-array/README.md)
 - [Chinese Chess Horse Reachability with Blocked Legs](https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b)
 - [Assign Random Ads](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1)
 - [Validate US Phone Numbers with Regular Expression](https://trueinterview.io/questions/1714f199-0812-421e-8e1a-edb4b9379eb8)

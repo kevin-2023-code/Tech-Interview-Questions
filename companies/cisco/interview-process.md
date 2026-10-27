@@ -118,7 +118,7 @@ Here are some questions reported by recent candidates:
 - [Nested Pattern String Expansion](../../questions/algorithm/nested-pattern-string-expansion/README.md)
 - [Compress Consecutive Ranges](../../questions/algorithm/compress-consecutive-ranges/README.md)
 - [Add Two Reversed Digit Lists](../../questions/algorithm/add-two-reversed-digit-lists/README.md)
-- [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring)
+- [Longest Palindromic Substring](../../questions/algorithm/longest-palindromic-substring/README.md)
 
 ## Fundamentals and design interview
 

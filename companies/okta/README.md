@@ -9,7 +9,7 @@ How Okta interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [13](../okta.md) |
-| Free to read here | 2 |
+| Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 20, 2026 |
@@ -47,13 +47,15 @@ Here's what the interview process can look like:
 
 ## Free Okta questions
 
-3 questions reported at Okta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Okta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Reverse Substrings Between Each Pair of Parentheses](../../questions/algorithm/reverse-substrings-in-parentheses/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/reverse-substrings-in-parentheses) |
 | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/hm-project-and-ai-philosophy) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Dependency Cycle Detection (Deadlock)](../../questions/algorithm/dependency-cycle-detection/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dependency-cycle-detection) |
+| [Unique Paths](../../questions/algorithm/unique-paths/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed) |
 
 ## Everything else
 

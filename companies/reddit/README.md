@@ -9,7 +9,7 @@ How Reddit interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [47](../reddit.md) |
-| Free to read here | 9 |
+| Free to read here | 11 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Reddit questions
 
-21 questions reported at Reddit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+23 questions reported at Reddit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -62,6 +62,8 @@ Here's what the interview process can look like:
 | [Design Online Game Leaderboard](../../questions/system-design/design-a-gaming-leaderboard-service/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/product-sense-improve-onboarding) |
+| [Shortest Palindrome](../../questions/algorithm/shortest-palindrome/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) |
+| [Odd Even Linked List](../../questions/algorithm/odd-even-linked-list/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) |
 | [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Report Chain](../../questions/object-oriented-programming/report-chain/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/report-chain) |
 | [Model y from x and interpret distributions](https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions) |

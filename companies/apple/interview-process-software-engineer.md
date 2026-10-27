@@ -84,7 +84,7 @@ Here are some questions reported by recent candidates:
 - Return a random country with probability proportional to its population.
 - Explain why a plain flag cannot coordinate threads on different cores.
 
-- [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k)
+- [Subarray Sum Equals K](../../questions/algorithm/subarray-sum-equals-k/README.md)
 - [Binary Search Tree Iterator](../../questions/object-oriented-programming/binary-search-tree-iterator/README.md)
 - [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer)
 - [Find Failed Login IPs](../../questions/algorithm/find-failed-login-ips/README.md)

@@ -2,7 +2,7 @@
 
 # Square interview process, OA & interview questions
 
-**16 questions** reported at Square. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/square), judged server-side on the algorithm, low-level-design and SQL formats.
+**56 questions** reported at Square. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/square), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Square interviews & the free questions](square/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,57 +14,61 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **16** |
-| Most recent sighting | Jun 17, 2026 |
+| Questions tracked | **56** |
+| Most recent sighting | Jul 21, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 16) |
-| Difficulty (easy / medium / hard) | 3 / 7 / 4 |
-| Free to practise | [4](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (57% of 56) |
+| Difficulty (easy / medium / hard) | 9 / 38 / 5 |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 16 questions reported at Square. 15 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 56 questions reported at Square. 19 of them carry a sighting date; the other 37 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **16 of 16** questions at Square that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **56 of 56** questions at Square that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 6 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 2 / 3 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 1 / 5 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 33 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 7 / 23 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 31 | █████████ | [Algorithm](../formats/algorithm.md) (55%) | 3 / 22 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Square since Jun 17, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Square since Jul 21, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **8 questions at Square that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **35 questions at Square that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 50% | ████████████ | Apr 27, 2026 |
-| `matrix` | 2 | 25% | ██████ | Nov 11, 2025 |
-| `sorting` | 2 | 25% | ██████ | Nov 11, 2025 |
-| `strings` | 2 | 25% | ██████ | Apr 27, 2026 |
-| `arrays` | 1 | 12% | ███ | Nov 11, 2025 |
-| `graphs` | 1 | 12% | ███ | Nov 11, 2025 |
-| `trees` | 1 | 12% | ███ | — |
+| `hashing` | 18 | 51% | ████████████ | Jul 21, 2026 |
+| `arrays` | 10 | 29% | ███████ | Nov 11, 2025 |
+| `sorting` | 9 | 26% | ██████ | Nov 11, 2025 |
+| `strings` | 9 | 26% | ██████ | Jul 21, 2026 |
+| `graphs` | 7 | 20% | █████ | Nov 11, 2025 |
+| `math` | 6 | 17% | ████ | — |
+| `matrix` | 6 | 17% | ████ | Nov 11, 2025 |
+| `dynamic-programming` | 3 | 9% | ██ | — |
+| `greedy` | 3 | 9% | ██ | — |
+| `backtracking` | 2 | 6% | █ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Square, by the month it was reported in — Oct 19, 2025 to Jun 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Square, by the month it was reported in — Oct 19, 2025 to Jul 21, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Jul 2026](../by-month/2026-07.md) | 3 | █████████ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
 | [May 2026](../by-month/2026-05.md) | 1 | ███ |
-| [Apr 2026](../by-month/2026-04.md) | 5 | █████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 7 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 5 | ███████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 8 | ████████████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
 
 ## Start here
@@ -73,14 +77,14 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **2** | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | 2 | May 24, 2026 |
-| **3** | [Build a Trust-Aware BIN Database](https://trueinterview.io/questions/build-a-trust-aware-bin-database) | Algorithm | Hard | — | Apr 27, 2026 |
-| **4** | [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) 🆓 | Blog | — | — | Apr 27, 2026 |
-| **5** | [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) 🆓 | Blog | — | — | Apr 27, 2026 |
-| **6** | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) 🆓 | System Design | Medium | 1 | Apr 06, 2026 |
-| **7** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) 🆓 | System Design | Hard | 3 | Apr 2026 |
-| **8** | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | 1 | Nov 11, 2025 |
+| **1** | [Markov Chain Next-Word Prediction & Sentence Generation](https://trueinterview.io/questions/markov-chain-next-word-prediction) | Algorithm | Medium | — | Jul 21, 2026 |
+| **2** | [AI Native Workflow Screen](https://trueinterview.io/questions/ai-native-workflow-screen) 🆓 | Blog | — | — | Jul 16, 2026 |
+| **3** | [Hiring Manager Screen: Project Deep Dive, Tech Debt & Money Movement](https://trueinterview.io/questions/hiring-manager-money-movement-screen) 🆓 | Blog | — | — | Jul 16, 2026 |
+| **4** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
+| **5** | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | 2 | May 24, 2026 |
+| **6** | [Build a Trust-Aware BIN Database](https://trueinterview.io/questions/build-a-trust-aware-bin-database) | Algorithm | Hard | — | Apr 27, 2026 |
+| **7** | [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) 🆓 | Blog | — | — | Apr 27, 2026 |
+| **8** | [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) 🆓 | Blog | — | — | Apr 27, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -94,6 +98,9 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Markov Chain Next-Word Prediction & Sentence Generation](https://trueinterview.io/questions/markov-chain-next-word-prediction) | Algorithm | Medium | Jul 21, 2026 |
+| [Hiring Manager Screen: Project Deep Dive, Tech Debt & Money Movement](https://trueinterview.io/questions/hiring-manager-money-movement-screen) | Blog | — | Jul 16, 2026 |
+| [AI Native Workflow Screen](https://trueinterview.io/questions/ai-native-workflow-screen) | Blog | — | Jul 16, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | May 24, 2026 |
 | [Lead a High-Leverage Project in a Regulated Legacy System](https://trueinterview.io/questions/lead-a-high-leverage-project-in-a-regulated-legacy-system) | Blog | — | Apr 27, 2026 |
@@ -101,6 +108,7 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 | [Build a Trust-Aware BIN Database](https://trueinterview.io/questions/build-a-trust-aware-bin-database) | Algorithm | Hard | Apr 27, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | System Design | Medium | Apr 06, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |
+| [Connect Four with Configurable Win Length](https://trueinterview.io/questions/connect-four-configurable-win) | Object Oriented Programming | Easy | Nov 11, 2025 |
 | [Racing Points and Winner](https://trueinterview.io/questions/racing-points-and-winner) | Algorithm | Medium | Nov 11, 2025 |
 | [Product Price Query System](https://trueinterview.io/questions/product-price-query-system) | Object Oriented Programming | Easy | Nov 11, 2025 |
 | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | Nov 11, 2025 |
@@ -109,4 +117,40 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 | [Design an Interactive Paginator](https://trueinterview.io/questions/design-an-interactive-paginator) | Algorithm | Medium | Nov 11, 2025 |
 | [Black Cell Covering Block List](https://trueinterview.io/questions/black-cell-covering-block-list) | Algorithm | Easy | Nov 11, 2025 |
 | [Implement transaction network queries](https://trueinterview.io/questions/implement-transaction-network-queries) | Object Oriented Programming | Hard | Oct 19, 2025 |
+| [Count 2×2 Blocks by Number of Black Cells](https://trueinterview.io/questions/c57f6683-c2e9-530c-95cb-318c91844476) | Algorithm | Medium | — |
+| [Assign Adjacent Seats in a Venue Grid](https://trueinterview.io/questions/venue-seat-assignment-grid) | Algorithm | Medium | — |
+| [Simulate a Simplified Two-Player Card Game](https://trueinterview.io/questions/two-player-uno-simulation) | Object Oriented Programming | Medium | — |
+| [Pick Two Books That Use a Voucher Exactly With Least Weight](https://trueinterview.io/questions/two-books-exact-voucher-spend) | Algorithm | Medium | — |
+| [Sparse Merchant-by-Category Sales Matrix Class](https://trueinterview.io/questions/sparse-sales-matrix-ops) | Object Oriented Programming | Medium | — |
+| [Merge Staff Shifts Into Who-Is-On-Duty Time Slots](https://trueinterview.io/questions/shift-overlap-time-segments) | Algorithm | Medium | — |
+| [Decode Numbers From a Faulty Seven-Segment Display](https://trueinterview.io/questions/seven-segment-broken-display-read) | Algorithm | Medium | — |
+| [Server Log Parsing, Per-Service Counts and Error Spike Detection](https://trueinterview.io/questions/server-log-level-aggregation) | Algorithm | Medium | — |
+| [Randomized Two-Match Schedule Builder for a League](https://trueinterview.io/questions/round-robin-team-schedule) | Object Oriented Programming | Medium | — |
+| [Randomized Partner Matching Across Repeated Rounds](https://trueinterview.io/questions/rotating-people-pairing) | Algorithm | Medium | — |
+| [Boatman, Fox, Chicken and Grain River Crossing Planner](https://trueinterview.io/questions/river-crossing-puzzle) | Algorithm | Medium | — |
+| [Variable-Length Bit Code Decoder](https://trueinterview.io/questions/prefix-code-bitstring-decoder) | Algorithm | Medium | — |
+| [Round-Robin Match Simulation With Power and ID Tiebreaks](https://trueinterview.io/questions/power-based-tournament-bracket) | Algorithm | Easy | — |
+| [Planet Distance, Blast Simulation and Cheapest Way to Clear Them All](https://trueinterview.io/questions/planet-weapon-targeting) | Algorithm | Medium | — |
+| [Word Rewriter That Keeps Punctuation in Place](https://trueinterview.io/questions/pig-latin-word-transform) | Algorithm | Easy | — |
+| [MotoGP Season Points and Championship Clinch Check](https://trueinterview.io/questions/motogp-season-points-ranking) | Algorithm | Medium | — |
+| [Mutual Like Counts and Best-Friend Recommendation](https://trueinterview.io/questions/likes-count-friend-recommendation) | Algorithm | Medium | — |
+| [Frequency-Based Binary Encoding Pipeline](https://trueinterview.io/questions/letter-frequency-huffman-tree) | Algorithm | Medium | — |
+| [Design a Hotel Room Reservation Service](https://trueinterview.io/questions/hotel-room-reservation-design) | System Design | Medium | — |
+| [Grid Board With a Turning, Moving Player](https://trueinterview.io/questions/grid-board-player-movement) | Object Oriented Programming | Easy | — |
+| [Five-Card Hand Scoring: Suit, Pairs and Fifteens](https://trueinterview.io/questions/five-card-hand-scoring) | Object Oriented Programming | Medium | — |
+| [Ancestor and Descendant Queries on Parent Records](https://trueinterview.io/questions/family-relationship-checker) | Object Oriented Programming | Easy | — |
+| [Crop Purchasing and Reinvestment Under a Budget](https://trueinterview.io/questions/crop-budget-profit-maximization) | Algorithm | Hard | — |
+| [Coin Flip Duel: Simulate HH Against HT](https://trueinterview.io/questions/coin-flip-race-simulation) | Algorithm | Medium | — |
+| [Route Class with Comparable Climbing Grades](https://trueinterview.io/questions/climbing-route-ratings) | Object Oriented Programming | Medium | — |
+| [Shortest Walking Distance on a Circular Park Graph](https://trueinterview.io/questions/circular-park-walking-time) | Object Oriented Programming | Medium | — |
+| [Cat Weight and Height Query Filters](https://trueinterview.io/questions/cat-measurements-sql) | Object Oriented Programming | Medium | — |
+| [Build a Maze from a Bit String and Find Its Exits](https://trueinterview.io/questions/binary-string-maze-grid) | Algorithm | Medium | — |
+| [Decode Pulse Runs Into an English Sentence](https://trueinterview.io/questions/binary-signal-morse-decoding) | Algorithm | Medium | — |
+| [Single-Player Battleship Game Implementation](https://trueinterview.io/questions/battleship-game-implementation) | Object Oriented Programming | Medium | — |
+| [Counting Plants That Propagate Weekly After Maturity](https://trueinterview.io/questions/basil-propagation-growth-count) | Algorithm | Medium | — |
+| [Two-Player Ball Throwing Game Simulation](https://trueinterview.io/questions/ball-throwing-turn-probability) | Algorithm | Easy | — |
+| [Expression Calculator with Parentheses, abs and sqrt](https://trueinterview.io/questions/arithmetic-calculator-abs-sqrt) | Algorithm | Medium | — |
+| [Ranking Players by Animal Counts With Tie Averaging](https://trueinterview.io/questions/animal-collection-owing-game) | Algorithm | Medium | — |
+| [Round Trips and Happiest Route Over Flight Pairs](https://trueinterview.io/questions/airport-route-destination-query) | Object Oriented Programming | Medium | — |
+| [Single-Runway Flight Scheduler With Rescheduling](https://trueinterview.io/questions/airline-departure-scheduling) | Object Oriented Programming | Medium | — |
 | [Build Binary Tree From Character Counts](https://trueinterview.io/questions/build-binary-tree-from-character-counts-2) | Algorithm | Medium | — |

@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,416 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,10 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Describe your strongest project](https://trueinterview.io/questions/describe-your-strongest-project) | **Uber** | — | Feb 20, 2026 |
+| [Design a better water bottle and test it](https://trueinterview.io/questions/design-a-better-water-bottle-and-test-it) | **Capital One** | — | — |
+| [Design a C++ Shared-Ownership Pointer Library](https://trueinterview.io/questions/design-a-cplusplus-shared-ownership-pointer-library) | **ByteDance** | — | Feb 25, 2026 |
+| [Design a causal evaluation without A/B testing](https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing) | **Reddit** | — | — |
 | [Design a leak-free time-split model](https://trueinterview.io/questions/design-a-leak-free-time-split-model) | **Stripe** | — | — |
 | [Design a profit growth strategy](https://trueinterview.io/questions/design-a-profit-growth-strategy) | **Capital One** | — | — |
 | [Design A/B test for credit card offer](https://trueinterview.io/questions/design-a-b-test-for-credit-card-offer) | **Capital One** | — | — |
@@ -245,7 +249,7 @@
 | [Explain an AI-Agent Project and Its Adoption](https://trueinterview.io/questions/explain-an-ai-agent-project-and-its-adoption) | **Amazon** | — | Sep 07, 2026 |
 | [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) | **Square** | — | Apr 27, 2026 |
 | [Explain an AI-Assisted Project](https://trueinterview.io/questions/explain-an-ai-assisted-project) | **DoorDash** | — | Sep 01, 2026 |
-| [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) | **C3 AI** | — | Aug 15, 2026 |
+| [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) | **C3.ai** | — | Aug 15, 2026 |
 | [Explain an ML project end-to-end with tradeoffs](https://trueinterview.io/questions/explain-an-ml-project-end-to-end-with-tradeoffs) | **Roblox** | — | — |
 | [Explain and Reduce Position Bias in Ranking](https://trueinterview.io/questions/explain-and-reduce-position-bias-in-ranking) | **Reddit** | — | Aug 23, 2026 |
 | [Explain and resolve Simpson’s paradox](https://trueinterview.io/questions/explain-and-resolve-simpsons-paradox) | **Google** | — | — |
@@ -256,9 +260,5 @@
 | [Explain AUC, activations, ensembles, and imbalance](https://trueinterview.io/questions/explain-auc-activations-ensembles-and-imbalance) | **Boston Consulting Group** | — | — |
 | [Explain background, team structure, and role fit](https://trueinterview.io/questions/explain-background-team-structure-and-role-fit) | **Meta** | — | — |
 | [Explain benefits of a lockfile](https://trueinterview.io/questions/explain-benefits-of-a-lockfile) | **SoFi** | — | Jan 03, 2026 |
-| [Explain bias-variance and evaluate a classifier](https://trueinterview.io/questions/explain-bias-variance-and-evaluate-a-classifier) | **Microsoft** | — | Dec 27, 2025 |
-| [Explain BLS vs CLS; compute t-stats](https://trueinterview.io/questions/explain-bls-vs-cls-compute-t-stats) | **Pinterest** | — | — |
-| [Explain C printf pointers and memory layout](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout) | **Arista** | — | Oct 04, 2025 |
-| [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) | **Discord** | — | Dec 08, 2025 |
 
 <sub>[← Page 2](blog-2.md) · Page 3 of 6 · [Page 4 →](blog-4.md)</sub>

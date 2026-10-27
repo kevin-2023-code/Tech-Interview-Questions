@@ -2,7 +2,7 @@
 
 # Robinhood interview process, OA & interview questions
 
-**53 questions** reported at Robinhood · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/robinhood), judged server-side on the algorithm, low-level-design and SQL formats.
+**54 questions** reported at Robinhood · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/robinhood), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Robinhood interviews & the free questions](robinhood/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **53** |
+| Questions tracked | **54** |
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [System Design](../formats/system-design.md) (38% of 53) |
-| Difficulty (easy / medium / hard) | 6 / 30 / 8 |
-| Free to practise | [19](../free/README.md) |
+| Most common format | [System Design](../formats/system-design.md) (37% of 54) |
+| Difficulty (easy / medium / hard) | 6 / 31 / 8 |
+| Free to practise | [20](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 53 questions reported at Robinhood. 43 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 54 questions reported at Robinhood. 43 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **53 of 53** questions at Robinhood that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **54 of 54** questions at Robinhood that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 22 | ██████ | [Algorithm](../formats/algorithm.md) (36%) | 1 / 16 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 23 | ██████ | [Algorithm](../formats/algorithm.md) (39%) | 1 / 17 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 38 | ██████████ | [System Design](../formats/system-design.md) (45%) | 4 / 22 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -49,17 +49,17 @@ Which stage each question came from, for the **53 of 53** questions at Robinhood
 
 ## What they ask about
 
-Of the **17 questions at Robinhood that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Robinhood that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 5 | 29% | ████████████ | Sep 04, 2026 |
-| `hashing` | 4 | 24% | ██████████ | Apr 28, 2026 |
-| `topological-sort` | 4 | 24% | ██████████ | May 01, 2026 |
-| `greedy` | 2 | 12% | █████ | Apr 01, 2026 |
-| `heap` | 2 | 12% | █████ | Apr 28, 2026 |
-| `intervals` | 2 | 12% | █████ | May 09, 2026 |
-| `trees` | 2 | 12% | █████ | Apr 28, 2026 |
+| `graphs` | 6 | 33% | ████████████ | Sep 04, 2026 |
+| `hashing` | 4 | 22% | ████████ | Apr 28, 2026 |
+| `topological-sort` | 4 | 22% | ████████ | May 01, 2026 |
+| `greedy` | 2 | 11% | ████ | Apr 01, 2026 |
+| `heap` | 2 | 11% | ████ | Apr 28, 2026 |
+| `intervals` | 2 | 11% | ████ | May 09, 2026 |
+| `trees` | 2 | 11% | ████ | Apr 28, 2026 |
 | `dynamic-programming` | 1 | 6% | ██ | Apr 10, 2025 |
 | `sorting` | 1 | 6% | ██ | Feb 28, 2026 |
 | `stack` | 1 | 6% | ██ | Mar 01, 2026 |
@@ -172,6 +172,7 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Medium | — |
 | [Distributed Job Scheduler II](https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86) | System Design | Medium | — |
 | [Design a Calendar Booking System](https://trueinterview.io/questions/f1096c0c-18ab-463d-a820-79fd45858a0a) | Object Oriented Programming | Medium | — |
+| [Clone a Graph](https://trueinterview.io/questions/9b3c28be-4683-47bc-97a0-ed6cf56e5398) | Algorithm | Medium | — |
 | [Distribute Strings into K Lines with Greedy Placement](https://trueinterview.io/questions/84ccf656-2a40-4ff8-8080-a648e545eb50) | Algorithm | Easy | — |
 | [Implement Android findViewById](https://trueinterview.io/questions/20f0926e-8b1b-4160-b794-3e5c1f012212) | Object Oriented Programming | Easy | — |
 | [Count Trigger Events in Directed Acyclic Graph](https://trueinterview.io/questions/1c708aa4-2fbb-4cc4-ae73-3c423e4e9490) | Algorithm | Medium | — |

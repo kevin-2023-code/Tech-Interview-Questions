@@ -2,11 +2,11 @@
 
 # Ziphq interview process, OA & interview questions
 
-**6 questions** reported at Ziphq. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ziphq), judged server-side on the algorithm, low-level-design and SQL formats.
+**6 questions** reported at Ziphq · **9 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ziphq), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Ziphq interviews & the free questions](ziphq/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-ziphq)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-ziphq)
 
 ## At a glance
 
@@ -19,6 +19,7 @@
 | Difficulty (easy / medium / hard) | 0 / 1 / 5 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
+| Interview reports on the board | 9 in this snapshot |
 
 <sub>Counted from the 6 questions reported at Ziphq. 6 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -83,6 +84,24 @@ The 6 questions to open first if you are preparing for Ziphq, ranked by **the mo
 | **6** | [Find flush and straight groups in cards](https://trueinterview.io/questions/find-flush-and-straight-groups-in-cards) | Algorithm | Hard | — | Nov 28, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Interview reports
+
+What candidates said happened in the room at Ziphq — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Zip Software Developer Interview Experience (Canada)](https://trueinterview.io/interviews/a5d4c18b-44b0-4f94-9dd6-25ed52ed6ce3) | Oct 27, 2026 |
+| Software | [Zip Software Engineer Interview Experience (Canada)](https://trueinterview.io/interviews/12f276c0-a287-4ae1-91aa-360a7cbaabeb) | Oct 27, 2026 |
+| Software | [Zip Software Engineer Interview Experience (Canada)](https://trueinterview.io/interviews/4b2ce194-d823-4be1-9b71-3e0866a4da73) | Oct 27, 2026 |
+| Software | [Zip Software Engineer Interview Experience (San Francisco, 2026)](https://trueinterview.io/interviews/4b6e056b-5ff8-45df-b01c-03db41fe85eb) | Oct 27, 2026 |
+| Software | [Zip Software Engineer Interview Experience (San Francisco, CA)](https://trueinterview.io/interviews/aae324eb-4fdc-44a7-abe9-8e41447d50bc) | Oct 27, 2026 |
+| Software | [Zip Software Engineer Interview Experience (San Francisco, CA)](https://trueinterview.io/interviews/f9714091-c32b-4224-9a8e-1968212d0095) | Oct 27, 2026 |
+| Software | [Zip Software Engineer Interview Experience (San Francisco, CA, 2026)](https://trueinterview.io/interviews/4db236c2-795e-4615-9e5f-a64ed3d98dec) | Oct 27, 2026 |
+| Software | [Zip Software Engineer Interview Experience (Toronto, ON, 2026)](https://trueinterview.io/interviews/9fa927d9-407a-4b50-a686-5d3da44d6511) | Oct 27, 2026 |
+| Software | [Zip Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/a859045b-7090-4381-ab5d-f46d2068167b) | Oct 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 6,866 in total). [Every report at Ziphq and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

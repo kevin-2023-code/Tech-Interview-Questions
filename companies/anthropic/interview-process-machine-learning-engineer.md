@@ -84,7 +84,7 @@ Here are some questions reported by recent candidates:
 - Finish a multi-part LLM-related implementation whose third part contains a bug.
 
 - [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md)
-- [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c)
+- [Find All Possible Recipes from Given Supplies](../../questions/algorithm/find-all-possible-recipes-from-given-supplies/README.md)
 - [Task Management System](https://trueinterview.io/questions/task-management-system-online-assessment)
 
 ## Coding and design interviews

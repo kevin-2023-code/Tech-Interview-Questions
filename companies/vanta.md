@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 12, 2026 |
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 15) |
-| Difficulty (easy / medium / hard) | 3 / 10 / 1 |
+| Difficulty (easy / medium / hard) | 2 / 11 / 1 |
 | Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **15 of 15** questions at Vanta tha
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 6 | █████████ | [System Design](../formats/system-design.md) (50%) | 1 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 6 | █████████ | [System Design](../formats/system-design.md) (50%) | 0 / 5 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -86,7 +86,7 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 | **3** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) 🆓 | Algorithm | Medium | — | Jul 16, 2026 |
 | **4** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | — | Jul 10, 2026 |
 | **5** | [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq) 🆓 | Blog | — | — | Jul 10, 2026 |
-| **6** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Easy | — | Jun 10, 2026 |
+| **6** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | — | Jun 10, 2026 |
 | **7** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | — | Mar 17, 2026 |
 | **8** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) 🆓 | Algorithm | Hard | — | Jul 31, 2025 |
 
@@ -115,7 +115,7 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Algorithm | Medium | Jul 16, 2026 |
 | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | Jul 10, 2026 |
 | [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq) | Blog | — | Jul 10, 2026 |
-| [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Easy | Jun 10, 2026 |
+| [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | Jun 10, 2026 |
 | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | Mar 17, 2026 |
 | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Algorithm | Hard | Jul 31, 2025 |
 | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Object Oriented Programming | Medium | Jul 24, 2025 |

@@ -105,8 +105,8 @@ Here are some questions reported by recent candidates:
 
 - [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree)
 - [Kth Largest Element / Quick Select](https://trueinterview.io/questions/kth-largest-quick-select)
-- [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k)
-- [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses)
+- [Subarray Sum Equals K](../../questions/algorithm/subarray-sum-equals-k/README.md)
+- [Restore IP Addresses](../../questions/algorithm/restore-ip-addresses/README.md)
 
 ## Frontend fundamentals round
 

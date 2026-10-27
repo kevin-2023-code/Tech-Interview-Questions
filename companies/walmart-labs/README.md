@@ -9,7 +9,7 @@ How Walmart Labs interviews, and the questions candidates reported there. Free q
 |  |  |
 | :-- | :-- |
 | Questions reported | [35](../walmart-labs.md) |
-| Free to read here | 3 |
+| Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 15, 2026 |
@@ -47,10 +47,11 @@ Here's what the interview process can look like:
 
 ## Free Walmart Labs questions
 
-9 questions reported at Walmart Labs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+10 questions reported at Walmart Labs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Merge Strings Alternately](../../questions/algorithm/merge-strings-alternately/README.md) | Algorithm | Easy | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/merge-strings-alternately) |
 | [Walmart Behavioral / HM Loop](https://trueinterview.io/questions/walmart-bq-loop) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/walmart-bq-loop) |
 | [Evaluate Last-Mile Product Metric Changes](https://trueinterview.io/questions/evaluate-last-mile-product-metric-changes) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/evaluate-last-mile-product-metric-changes) |
 | [Answer leadership scenarios about influence and integrity](https://trueinterview.io/questions/answer-leadership-scenarios-about-influence-and-integrity) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-leadership-scenarios-about-influence-and-integrity) |

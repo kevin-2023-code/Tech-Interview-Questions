@@ -2,7 +2,7 @@
 
 # Oracle interview process, OA & interview questions
 
-**108 questions** reported at Oracle · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
+**115 questions** reported at Oracle · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Oracle interviews & the free questions](oracle/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,34 +14,37 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **108** |
-| Most recent sighting | Sep 19, 2026 |
-| Reported in the last 90 days | 22 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 108) |
-| Difficulty (easy / medium / hard) | 18 / 65 / 13 |
-| Free to practise | [26](../free/README.md) |
+| Questions tracked | **115** |
+| Most recent sighting | Sep 28, 2026 |
+| Reported in the last 90 days | 25 |
+| Most common format | [Algorithm](../formats/algorithm.md) (58% of 115) |
+| Difficulty (easy / medium / hard) | 19 / 70 / 14 |
+| Free to practise | [32](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 108 questions reported at Oracle. 74 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 115 questions reported at Oracle. 77 of them carry a sighting date; the other 38 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **108 of 108** questions at Oracle that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **115 of 115** questions at Oracle that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 9 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 8 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 53 | ██████████ | [Algorithm](../formats/algorithm.md) (72%) | 4 / 37 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 52 | ██████████ | [Algorithm](../formats/algorithm.md) (31%) | 6 / 28 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 10 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 58 | ██████████ | [Algorithm](../formats/algorithm.md) (72%) | 4 / 42 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 54 | █████████ | [Algorithm](../formats/algorithm.md) (31%) | 6 / 29 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**22 sightings** in this window. Newest first.
+**25 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | System Design | Medium | Phone screen | Sep 28, 2026 |
+| [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 25, 2026 |
+| [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 25, 2026 |
 | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Sep 19, 2026 |
 | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | Onsite / virtual onsite | Sep 11, 2026 |
 | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | Blog | — | Onsite / virtual onsite | Sep 11, 2026 |
@@ -51,38 +54,35 @@ Which stage each question came from, for the **108 of 108** questions at Oracle 
 | [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | Onsite / virtual onsite | Sep 03, 2026 |
 | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | Onsite / virtual onsite | Aug 28, 2026 |
 | [Communicate a Difficult Decision to Stakeholders](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) | Blog | — | Onsite / virtual onsite | Aug 21, 2026 |
-| [Demonstrate Leadership and Ownership](https://trueinterview.io/questions/demonstrate-leadership-and-ownership) | Blog | — | Onsite / virtual onsite | Aug 21, 2026 |
-| [Prioritize Two Critical Tasks](https://trueinterview.io/questions/prioritize-two-critical-tasks) | Blog | — | Onsite / virtual onsite | Aug 21, 2026 |
-| [Rank Departments by Student Count](https://trueinterview.io/questions/rank-departments-by-student-count) | SQL | Easy | Onsite / virtual onsite | Aug 21, 2026 |
 
-<sub>10 more in this window are in the table below.</sub>
+<sub>13 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **67 questions at Oracle that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **72 questions at Oracle that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 12 | 18% | ████████████ | Apr 14, 2026 |
-| `strings` | 10 | 15% | ██████████ | Aug 10, 2026 |
-| `graphs` | 8 | 12% | ████████ | Sep 11, 2026 |
-| `arrays` | 7 | 10% | ███████ | Apr 14, 2026 |
+| `hashing` | 12 | 17% | ████████████ | Apr 14, 2026 |
+| `strings` | 11 | 15% | ███████████ | Sep 25, 2026 |
+| `graphs` | 9 | 12% | █████████ | Sep 11, 2026 |
+| `arrays` | 8 | 11% | ████████ | Apr 14, 2026 |
 | `greedy` | 7 | 10% | ███████ | Apr 14, 2026 |
-| `linked-list` | 6 | 9% | ██████ | Apr 14, 2026 |
-| `math` | 6 | 9% | ██████ | Aug 10, 2026 |
-| `sliding-window` | 6 | 9% | ██████ | May 01, 2026 |
-| `stack` | 6 | 9% | ██████ | Feb 07, 2026 |
+| `stack` | 7 | 10% | ███████ | Feb 07, 2026 |
+| `linked-list` | 6 | 8% | ██████ | Apr 14, 2026 |
+| `math` | 6 | 8% | ██████ | Aug 10, 2026 |
+| `sliding-window` | 6 | 8% | ██████ | May 01, 2026 |
 | `backtracking` | 5 | 7% | █████ | Nov 17, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Oracle, by the month it was reported in — Jan 15, 2025 to Sep 19, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Oracle, by the month it was reported in — Jan 15, 2025 to Sep 28, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 7 | ███████████ |
+| [Sep 2026](../by-month/2026-09.md) | 10 | ████████████████ |
 | [Aug 2026](../by-month/2026-08.md) | 15 | ████████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ██ |
@@ -107,14 +107,14 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) 🆓 | Blog | — | — | Sep 19, 2026 |
-| **2** | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | — | Sep 11, 2026 |
-| **3** | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) 🆓 | Blog | — | — | Sep 11, 2026 |
-| **4** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | SQL | Medium | — | Sep 09, 2026 |
-| **5** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | System Design | Hard | — | Sep 05, 2026 |
-| **6** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | System Design | Hard | — | Sep 05, 2026 |
-| **7** | [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | — | Sep 03, 2026 |
-| **8** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | — | Aug 28, 2026 |
+| **1** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | System Design | Medium | — | Sep 28, 2026 |
+| **2** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | Medium | — | Sep 25, 2026 |
+| **3** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Medium | — | Sep 25, 2026 |
+| **4** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) 🆓 | Blog | — | — | Sep 19, 2026 |
+| **5** | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | — | Sep 11, 2026 |
+| **6** | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) 🆓 | Blog | — | — | Sep 11, 2026 |
+| **7** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | SQL | Medium | — | Sep 09, 2026 |
+| **8** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | System Design | Hard | — | Sep 05, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -136,6 +136,9 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | System Design | Medium | 🆕 Sep 28, 2026 |
+| [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Medium | 🆕 Sep 25, 2026 |
+| [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | Medium | 🆕 Sep 25, 2026 |
 | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Blog | — | 🆕 Sep 19, 2026 |
 | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | Blog | — | Sep 11, 2026 |
 | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | Sep 11, 2026 |
@@ -150,7 +153,7 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Demonstrate Leadership and Ownership](https://trueinterview.io/questions/demonstrate-leadership-and-ownership) | Blog | — | Aug 21, 2026 |
 | [Communicate a Difficult Decision to Stakeholders](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) | Blog | — | Aug 21, 2026 |
 | [Rank Departments by Student Count](https://trueinterview.io/questions/rank-departments-by-student-count) | SQL | Easy | Aug 21, 2026 |
-| [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | System Design | Medium | Aug 19, 2026 |
+| [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | System Design | Hard | Aug 19, 2026 |
 | [Design an Internal Metrics Ingestion Service](https://trueinterview.io/questions/design-an-internal-metrics-ingestion-service) | System Design | Medium | Aug 14, 2026 |
 | [Design a Synchronously Replicated Hash Map](https://trueinterview.io/questions/design-a-synchronously-replicated-hash-map) | System Design | Medium | Aug 14, 2026 |
 | [Design a Software Load Balancer](https://trueinterview.io/questions/design-a-software-load-balancer) | System Design | Medium | Aug 14, 2026 |
@@ -210,6 +213,8 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Maximum Completable Tasks with Prerequisites (Topological)](https://trueinterview.io/questions/course-prerequisites-task-count) | Algorithm | Medium | Apr 02, 2025 |
 | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Object Oriented Programming | Medium | Jan 15, 2025 |
 | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | System Design | Medium | Jan 15, 2025 |
+| [Detect a Cycle in a Directed Graph](https://trueinterview.io/questions/dd2c77a9-9d96-5ffd-a303-755aee03b614) | Algorithm | Medium | — |
+| [Sum of Root To Leaf Binary Numbers](https://trueinterview.io/questions/dc973cce-cdef-5be4-b8d4-83e37296c291) | Algorithm | Easy | — |
 | [Top K Frequent Elements with Descending Value Tie-Break](https://trueinterview.io/questions/fafdcfea-e85a-522c-a5d1-256c48782c32) | Algorithm | Medium | — |
 | [Enumerate All Valid Grid Paths](https://trueinterview.io/questions/f945df71-38ee-5506-a41b-2b5b1c7306d2) | Algorithm | Medium | — |
 | [Remove Duplicates from Sorted Array with At Most K Occurrences](https://trueinterview.io/questions/f7139943-c5e6-5db3-bf8d-4694427d4b5f) | Algorithm | Medium | — |
@@ -241,6 +246,8 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [List All LRU Cache Possibilities](https://trueinterview.io/questions/8783a1ff-f1f9-404a-b4d1-d006ae36d2a1) | Object Oriented Programming | Medium | — |
 | [Maximum Product Subarray in O(n) Time](https://trueinterview.io/questions/7b99193e-c69f-4941-a0be-8ccf49a291c8) | Algorithm | Medium | — |
 | [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Object Oriented Programming | Medium | — |
+| [Token Expiry and Reset Management Problem](https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579) | Algorithm | Medium | — |
+| [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) | Algorithm | Medium | — |
 | [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Algorithm | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Object Oriented Programming | Medium | — |

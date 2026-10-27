@@ -2,7 +2,7 @@
 
 # Free Blog questions
 
-**1,402 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**1,416 Blog questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,9 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Compute current annual profit](https://trueinterview.io/questions/compute-current-annual-profit) | **Capital One** | — | — |
+| [Compute decay, OLS, and classic probability results](https://trueinterview.io/questions/compute-decay-ols-and-classic-probability-results) | **Upstart** | — | Dec 09, 2025 |
+| [Compute duration and stopping rules correctly](https://trueinterview.io/questions/compute-duration-and-stopping-rules-correctly) | **Instacart** | — | — |
 | [Compute energy needed for 10% ROI](https://trueinterview.io/questions/compute-energy-needed-for-10percent-roi) | **Capital One** | — | — |
 | [Compute expansion profits and expected value](https://trueinterview.io/questions/compute-expansion-profits-and-expected-value) | **Capital One** | — | — |
 | [Compute expected arc length on a circle](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) | **Drw** | — | Nov 22, 2025 |
@@ -47,7 +50,7 @@
 | [Compute wallet-link probabilities, expectation, and conditionals](https://trueinterview.io/questions/compute-wallet-link-probabilities-and-conditionals) | **Coinbase** | — | — |
 | [Compute weighted response rates by job category](https://trueinterview.io/questions/compute-weighted-response-rates-by-job-category) | **Thumbtack** | — | — |
 | [Connect a Project Deep Dive to Engineering Career Decisions](https://trueinterview.io/questions/connect-a-project-deep-dive-to-engineering-career-decisions) | **Cursor** | — | Apr 07, 2026 |
-| [Connect Bias-Variance Trade-offs to Bagging and Boosting](https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting) | **C3 AI** | — | Aug 21, 2026 |
+| [Connect Bias-Variance Trade-offs to Bagging and Boosting](https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting) | **C3.ai** | — | Aug 21, 2026 |
 | [Contrast CNNs and fully connected networks](https://trueinterview.io/questions/contrast-cnns-and-fully-connected-networks) | **Amazon** | — | — |
 | [Contrast FCF vs NI; choose one statement](https://trueinterview.io/questions/contrast-fcf-vs-ni-choose-one-statement) | **Snowflake** | — | — |
 | [Control confounding in observational ad lift](https://trueinterview.io/questions/control-confounding-in-observational-ad-lift) | **ByteDance** | — | — |
@@ -68,6 +71,7 @@
 | [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) | **NVIDIA** | — | Jul 03, 2026 |
 | [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral) | **Tesla** | — | Jun 16, 2026 |
 | [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/questions/f63e89db-acce-46ac-9ee8-4b85820078e0) | **Capital One** | — | — |
+| [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) | **Disney** | — | 🆕 Oct 08, 2026 |
 | [Data Engineering Experience Screen](https://trueinterview.io/questions/data-engineering-experience-screen) | **ByteDance** | — | Aug 31, 2026 |
 | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | **Meta** | — | 🆕 Sep 17, 2026 |
 | [Data-Center Camera Access Incident Response](https://trueinterview.io/questions/data-center-camera-access-incident-response) | **Oracle** | — | Aug 11, 2026 |
@@ -191,7 +195,7 @@
 | [Describe best team and complex project](https://trueinterview.io/questions/describe-best-team-and-complex-project) | **Capital One** | — | — |
 | [Describe building statistical vs ML models](https://trueinterview.io/questions/describe-building-statistical-vs-ml-models) | **IBM** | — | Nov 09, 2025 |
 | [Describe career plan and teamwork approach](https://trueinterview.io/questions/describe-career-plan-and-teamwork-approach) | **ByteDance** | — | Dec 08, 2025 |
-| [Describe challenge, influence, and mentorship outcomes](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) | **C3 AI** | — | — |
+| [Describe challenge, influence, and mentorship outcomes](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) | **C3.ai** | — | — |
 | [Describe common RTL lint warnings and errors](https://trueinterview.io/questions/describe-common-rtl-lint-warnings-and-errors) | **Apple** | — | — |
 | [Describe conflict and failure using STAR framework](https://trueinterview.io/questions/describe-conflict-and-failure-using-star-framework) | **Google** | — | — |
 | [Describe Conflict and Impact](https://trueinterview.io/questions/describe-conflict-and-impact) | **Uber** | — | Feb 27, 2026 |
@@ -256,9 +260,5 @@
 | [Describe your most memorable bug and fix](https://trueinterview.io/questions/describe-your-most-memorable-bug-and-fix) | **Apple** | — | Feb 09, 2026 |
 | [Describe Your Most Technically Difficult Project](https://trueinterview.io/questions/describe-your-most-technically-difficult-project) | **Ebay** | — | Aug 26, 2026 |
 | [Describe Your Python Experience](https://trueinterview.io/questions/describe-your-python-experience) | **Upstart** | — | Jan 15, 2026 |
-| [Describe your strongest project](https://trueinterview.io/questions/describe-your-strongest-project) | **Uber** | — | Feb 20, 2026 |
-| [Design a better water bottle and test it](https://trueinterview.io/questions/design-a-better-water-bottle-and-test-it) | **Capital One** | — | — |
-| [Design a C++ Shared-Ownership Pointer Library](https://trueinterview.io/questions/design-a-cplusplus-shared-ownership-pointer-library) | **ByteDance** | — | Feb 25, 2026 |
-| [Design a causal evaluation without A/B testing](https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing) | **Reddit** | — | — |
 
 <sub>[← Page 1](blog.md) · Page 2 of 6 · [Page 3 →](blog-3.md)</sub>

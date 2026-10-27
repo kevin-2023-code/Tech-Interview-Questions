@@ -2,13 +2,13 @@
 
 # WeRide interview process, OA & interview questions
 
-**22 questions** reported at WeRide · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/weride), judged server-side.
+**22 questions** reported at WeRide · **1 writeup** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/weride), judged server-side.
 
 [📖 How WeRide interviews & the free questions](weride/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🚗 [Autonomy, automotive & mobility](../company-types/autonomy-mobility.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-weride)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-weride)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 6 / 13 / 3 |
 | Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
+| Interview reports on the board | 5 in this snapshot |
 
 <sub>Counted from the 22 questions reported at WeRide. 4 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -98,6 +99,20 @@ The 8 questions to open first if you are preparing for WeRide, ranked by **the m
 | Writeup | Topics |
 | :-- | :-- |
 | [WeRide Interview Process & Questions](https://trueinterview.io/study/weride-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at WeRide — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [WeRide Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/2f7f49ef-ba8c-423d-8177-c099d1503cd3) | Oct 27, 2026 |
+| Software | [WeRide Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/6e16de51-4f2d-4908-82e0-d65aca5d81d1) | Oct 27, 2026 |
+| Software | [WeRide Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/720e73fb-5acc-4daf-a51e-cf803654ddeb) | Oct 27, 2026 |
+| Software | [WeRide Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/7d4d9b7f-8503-4f19-a24a-91fab53e67ea) | Oct 27, 2026 |
+| Software | [WeRide Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/fdc0831c-16b3-4e8b-b454-89cf54363006) | Oct 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 6,866 in total). [Every report at WeRide and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

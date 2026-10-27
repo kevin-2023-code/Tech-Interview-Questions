@@ -111,7 +111,7 @@ Here are some questions reported by recent candidates:
 - [Frontend Calendar UI](https://trueinterview.io/questions/frontend-calendar-ui)
 - [Implement Calendar Layout and String Packing](https://trueinterview.io/questions/implement-calendar-layout-and-string-packing)
 - [Distribute Strings into K Lines with Greedy Placement](https://trueinterview.io/questions/84ccf656-2a40-4ff8-8080-a648e545eb50)
-- [My Calendar I](https://trueinterview.io/questions/my-calendar-i)
+- [My Calendar I](../../questions/algorithm/my-calendar-i/README.md)
 
 ## Mobile platform interview
 

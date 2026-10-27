@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,416 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,20 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **ByteDance** | [Decide if subgroup increases imply overall increase](https://trueinterview.io/questions/decide-if-subgroup-increases-imply-overall-increase) | — | — |
+| **LinkedIn** | [Decide best email variant using stratified A/B analysis](https://trueinterview.io/questions/decide-best-email-variant-using-stratified-a-b-analysis) | — | — |
+| **Capital One** | [Decide and test Groupon program incrementality](https://trueinterview.io/questions/decide-and-test-groupon-program-incrementality) | — | — |
+| **Snowflake** | [Decide and justify product metrics amid trade-offs](https://trueinterview.io/questions/decide-and-justify-product-metrics-amid-trade-offs) | — | — |
+| **Capital One** | [Critique a product interface and propose fixes](https://trueinterview.io/questions/critique-a-product-interface-and-propose-fixes) | — | — |
+| **Capital One** | [Cover HR screen: role, motivation, comp, immigration, location](https://trueinterview.io/questions/cover-hr-screen-role-motivation-comp-immigration-location) | — | — |
+| **Upstart** | [Correct length-biased sampling from family-size survey](https://trueinterview.io/questions/correct-length-biased-sampling-from-family-size-survey) | — | — |
+| **ByteDance** | [Control confounding in observational ad lift](https://trueinterview.io/questions/control-confounding-in-observational-ad-lift) | — | — |
+| **Snowflake** | [Contrast FCF vs NI; choose one statement](https://trueinterview.io/questions/contrast-fcf-vs-ni-choose-one-statement) | — | — |
+| **Amazon** | [Contrast CNNs and fully connected networks](https://trueinterview.io/questions/contrast-cnns-and-fully-connected-networks) | — | — |
+| **Coinbase** | [Compute wallet-link probabilities, expectation, and conditionals](https://trueinterview.io/questions/compute-wallet-link-probabilities-and-conditionals) | — | — |
+| **Capital One** | [Compute unit economics and insurance break-even](https://trueinterview.io/questions/compute-unit-economics-and-insurance-break-even) | — | — |
+| **Capital One** | [Compute two conditional probability scenarios](https://trueinterview.io/questions/compute-two-conditional-probability-scenarios) | — | — |
+| **DoorDash** | [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | — | — |
 | **Disney** | [Compute sample size and plan experiment](https://trueinterview.io/questions/compute-sample-size-and-plan-experiment) | — | — |
 | **Microsoft** | [Compute sample size and analyze A/B results](https://trueinterview.io/questions/compute-sample-size-and-analyze-a-b-results) | — | — |
 | **Capital One** | [Compute profit and surge break‑even price](https://trueinterview.io/questions/compute-profit-and-surge-breakeven-price) | — | — |

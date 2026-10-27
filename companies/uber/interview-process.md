@@ -132,7 +132,7 @@ Here are some questions reported by recent candidates:
 - Download URLs concurrently so that duplicate requests share a single in-flight download.
 
 - [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points)
-- [Meeting Rooms III](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01)
+- [Meeting Rooms III](../../questions/algorithm/meeting-rooms-iii/README.md)
 - [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d)
 - [Concurrent File Downloader with Request Coalescing](https://trueinterview.io/questions/e17f7845-6d5f-5238-af43-5d5a1680d562)
 

@@ -114,7 +114,7 @@ Here are some questions reported by recent candidates:
 - Given a company hierarchy as a tree, compute the average salary of each manager's direct reports.
 - Write InfoNCE in PyTorch for paired image and text embeddings, stable and symmetric in both directions.
 
-- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
+- [Random Pick with Weight](../../questions/algorithm/random-pick-with-weight/README.md)
 - [Org-Chart Salary Aggregation](https://trueinterview.io/questions/org-chart-salary-aggregation)
 - [Handwritten InfoNCE in PyTorch](https://trueinterview.io/questions/infonce-handwritten-pytorch)
 - [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle)

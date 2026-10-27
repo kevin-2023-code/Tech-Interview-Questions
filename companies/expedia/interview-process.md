@@ -73,7 +73,7 @@ Here are some questions reported by recent candidates:
 - Count the non-empty subsequences of a string in which every distinct character appears equally often, modulo 1e9+7.
 
 - [Counting Subsequence with Same Character Frequency](../../questions/algorithm/counting-subsequence-with-same-character-frequency/README.md)
-- [Number of Provinces](https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2)
+- [Number of Provinces](../../questions/algorithm/number-of-provinces/README.md)
 - [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution)
 
 ## Technical phone screen
@@ -132,7 +132,7 @@ Here are some questions reported by recent candidates:
 - [House Robber Series](../../questions/algorithm/house-robber-series/README.md)
 - [Scattered Palindrome Substring Count (Swappable to Palindrome)](https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d)
 - [Restore String with Target Digit Sum](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f)
-- [Count Number of Nice Subarrays](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19)
+- [Count Number of Nice Subarrays](../../questions/algorithm/count-number-of-nice-subarrays/README.md)
 - [Implement a Basic Tokenizer and Train a Simple LLM-like Model in a Notebook Case Study](https://trueinterview.io/questions/3fce3482-1d0c-4a6c-b134-e4ac6a07601b)
 
 ## Design interviews

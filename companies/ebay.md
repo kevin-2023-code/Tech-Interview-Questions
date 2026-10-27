@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 48) |
 | Difficulty (easy / medium / hard) | 9 / 26 / 10 |
-| Free to practise | [10](../free/README.md) |
+| Free to practise | [12](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 48 questions reported at Ebay. 30 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -88,11 +88,11 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Describe Your Most Technically Difficult Project](https://trueinterview.io/questions/describe-your-most-technically-difficult-project) 🆓 | Blog | — | — | Aug 26, 2026 |
-| **2** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 2 | Aug 21, 2026 |
+| **2** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) 🆓 | Algorithm | Medium | 2 | Aug 21, 2026 |
 | **3** | [Design a Shopping Search Bar with Autocomplete](https://trueinterview.io/questions/design-a-shopping-search-bar-with-autocomplete) | System Design | Hard | — | Aug 19, 2026 |
 | **4** | [Investing in Deliberate Professional Growth](https://trueinterview.io/questions/investing-in-deliberate-professional-growth) 🆓 | Blog | — | — | Aug 19, 2026 |
 | **5** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **6** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 3 | Jun 16, 2026 |
+| **6** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) 🆓 | Algorithm | Medium | 3 | Jun 16, 2026 |
 | **7** | [Group Chat Mention Counter](https://trueinterview.io/questions/group-chat-mention-counter) | Algorithm | Easy | — | Jun 12, 2026 |
 | **8** | [Match Cyclic Shift to Descending Sequence](https://trueinterview.io/questions/match-cyclic-shift-to-descending-sequence) | Algorithm | Easy | — | Jun 12, 2026 |
 

@@ -8,11 +8,11 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [108](../oracle.md) |
-| Free to read here | 14 |
+| Questions reported | [115](../oracle.md) |
+| Free to read here | 20 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Sep 19, 2026 |
+| Most recent sighting | Sep 28, 2026 |
 
 ## How Oracle interviews
 
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Oracle questions
 
-26 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+32 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -67,6 +67,7 @@ Here's what the interview process can look like:
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/questions/verbal-java-cs-fundamentals) | Blog | — | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/verbal-java-cs-fundamentals) |
+| [Container With Most Water](../../questions/algorithm/container-with-most-water-2/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/container-with-most-water-2) |
 | [How do you tackle unfamiliar problems?](https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems) |
 | [Dropped Requests (Rate Limiter)](../../questions/algorithm/dropped-requests-rate-limiter/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dropped-requests-rate-limiter) |
 | [File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-file-management-system) |
@@ -78,10 +79,15 @@ Here's what the interview process can look like:
 | [Maximum Completable Tasks with Prerequisites (Topological)](../../questions/algorithm/course-prerequisites-task-count/README.md) | Algorithm | Medium | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/course-prerequisites-task-count) |
 | [Body-Temperature Measurement Classes](../../questions/object-oriented-programming/ood-patient-temperature-classes/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/ood-patient-temperature-classes) |
 | [Event Ingestion + Top-K Aggregation](../../questions/system-design/system-design-event-ingestion-topk/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/system-design-event-ingestion-topk) |
+| [Valid Parenthesis String](../../questions/algorithm/valid-parenthesis-string/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463) |
+| [Best Time to Buy and Sell Stock](../../questions/algorithm/best-time-to-buy-and-sell-stock/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) |
+| [Missing Number](../../questions/algorithm/missing-number/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80) |
+| [Remove All Adjacent Duplicates in String II](../../questions/algorithm/remove-all-adjacent-duplicates-in-string-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) |
+| [Minimum Add to Make Parentheses Valid](../../questions/algorithm/minimum-add-to-make-parentheses-valid/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) |
 
 ## Everything else
 
-- [All 108 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 115 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Oracle question on TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 ---

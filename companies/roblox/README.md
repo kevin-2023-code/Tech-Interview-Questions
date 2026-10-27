@@ -8,8 +8,8 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [102](../roblox.md) |
-| Free to read here | 14 |
+| Questions reported | [106](../roblox.md) |
+| Free to read here | 15 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Sep 10, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Roblox questions
 
-29 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+30 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -59,6 +59,7 @@ Here's what the interview process can look like:
 | [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/most-frequent-function-call-stack) |
 | [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/mle-project-deep-dive) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
+| [Single-Threaded CPU](../../questions/algorithm/single-threaded-cpu/README.md) | Algorithm | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/single-threaded-cpu) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
@@ -86,7 +87,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 102 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 106 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Roblox question on TrueInterview](https://trueinterview.io/problems/company/roblox).
 
 ---

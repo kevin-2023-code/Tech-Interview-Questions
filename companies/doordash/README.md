@@ -8,8 +8,8 @@ How DoorDash interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [149](../doordash.md) |
-| Free to read here | 6 |
+| Questions reported | [151](../doordash.md) |
+| Free to read here | 8 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 16, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free DoorDash questions
 
-47 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+49 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -73,6 +73,7 @@ Here's what the interview process can look like:
 | [How would you mentor junior teammates?](https://trueinterview.io/questions/how-would-you-mentor-junior-teammates) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/how-would-you-mentor-junior-teammates) |
 | [Describe a Project End-to-End](https://trueinterview.io/questions/describe-a-project-end-to-end) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-a-project-end-to-end) |
 | [Evaluate a new ranking model](https://trueinterview.io/questions/evaluate-a-new-ranking-model) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/evaluate-a-new-ranking-model) |
+| [Serialize and Deserialize Binary Tree](../../questions/algorithm/serialize-and-deserialize-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) |
 | [Assess Adding Bicycle Dashers](https://trueinterview.io/questions/assess-adding-bicycle-dashers) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/assess-adding-bicycle-dashers) |
 | [Investigate High Memory Usage](https://trueinterview.io/questions/investigate-high-memory-usage) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/investigate-high-memory-usage) |
 | [How do you discuss mistakes and trade-offs?](https://trueinterview.io/questions/how-do-you-discuss-mistakes-and-trade-offs) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-discuss-mistakes-and-trade-offs) |
@@ -100,10 +101,11 @@ Here's what the interview process can look like:
 | [Decompose and optimize delivery operational costs](https://trueinterview.io/questions/decompose-and-optimize-delivery-operational-costs) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/decompose-and-optimize-delivery-operational-costs) |
 | [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) |
 | [Calculate power and test duration](https://trueinterview.io/questions/calculate-power-and-test-duration) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/calculate-power-and-test-duration) |
+| [Find Peak Element](../../questions/algorithm/find-peak-element/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) |
 
 ## Everything else
 
-- [All 149 questions reported at DoorDash](../doordash.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 151 questions reported at DoorDash](../doordash.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every DoorDash question on TrueInterview](https://trueinterview.io/problems/company/doordash).
 
 ---

@@ -99,8 +99,8 @@ Here are some questions reported by recent candidates:
 - Derive an alien alphabet from sorted words, returning empty on a cycle or a word listed before its own prefix.
 
 - [Kth Largest Element / Quick Select](https://trueinterview.io/questions/kth-largest-quick-select)
-- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
-- [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary)
+- [Random Pick with Weight](../../questions/algorithm/random-pick-with-weight/README.md)
+- [Alien Dictionary](../../questions/algorithm/alien-dictionary/README.md)
 - [Lowest Common Ancestor (BT / BST / N-ary)](https://trueinterview.io/questions/lowest-common-ancestor)
 
 ## Coding interviews
@@ -124,7 +124,7 @@ Here are some questions reported by recent candidates:
 - Find the minimum hours to finish a target list of courses with prerequisites in a possibly disconnected graph.
 
 - [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal)
-- [Valid Palindrome II](https://trueinterview.io/questions/valid-palindrome-ii)
+- [Valid Palindrome II](../../questions/algorithm/valid-palindrome-ii/README.md)
 - [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2)
 
 ## AI-enabled coding interview

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (49% of 41) |
 | Difficulty (easy / medium / hard) | 5 / 18 / 6 |
-| Free to practise | [14](../free/README.md) |
+| Free to practise | [15](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 41 questions reported at Point72. 21 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -31,8 +31,8 @@ Which stage each question came from, for the **41 of 41** questions at Point72 t
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 15 | ███████ | [Algorithm](../formats/algorithm.md) (73%) | 5 / 4 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 23 | ██████████ | [Blog](../formats/blog.md) (43%) | 0 / 12 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 22 | ██████████ | [Blog](../formats/blog.md) (45%) | 0 / 11 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 5 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (60%) | 0 / 4 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 

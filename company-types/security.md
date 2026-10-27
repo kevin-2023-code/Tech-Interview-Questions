@@ -2,7 +2,7 @@
 
 # 🔒 Cybersecurity — interview & OA questions
 
-**79 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**80 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Verkada (32)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (15)](../companies/vanta.md) · [Okta (13)](../companies/okta.md)
+[Verkada (33)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (15)](../companies/vanta.md) · [Okta (13)](../companies/okta.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,24 +18,24 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 53 | 67% | ██████████████ | 13 |
+| [Algorithm](../formats/algorithm.md) | 54 | 68% | ██████████████ | 17 |
 | [System Design](../formats/system-design.md) | 11 | 14% | ███ | 2 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 13% | ███ | 2 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 12% | ███ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 4% | █ | 1 |
-| [Blog](../formats/blog.md) | 2 | 3% | █ | 2 |
+| [Blog](../formats/blog.md) | 2 | 2% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **10 / 51 / 16**, over the rows the catalog has graded. 20 of the 79 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **10 / 51 / 17**, over the rows the catalog has graded. 24 of the 80 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **52 questions in this cut that carry a topic label** (66% of it):
+Of the **53 questions in this cut that carry a topic label** (66% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 12 | 23% | ████████████ |
-| `graphs` | 10 | 19% | ██████████ |
-| `arrays` | 7 | 13% | ███████ |
-| `strings` | 7 | 13% | ███████ |
+| `hashing` | 13 | 25% | ████████████ |
+| `graphs` | 10 | 19% | █████████ |
+| `arrays` | 7 | 13% | ██████ |
+| `strings` | 7 | 13% | ██████ |
 | `dynamic-programming` | 4 | 8% | ████ |
 | `math` | 4 | 8% | ████ |
 | `backtracking` | 3 | 6% | ███ |
@@ -77,7 +77,7 @@ Of the **52 questions in this cut that carry a topic label** (66% of it):
 | **Okta** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Medium | Jun 24, 2026 |
 | **Okta** | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) | — | Jun 24, 2026 |
 | **Airbnb / Amazon / Ebay / Expedia / Meta / Microsoft / Ramp / Rippling / Square / Verkada** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | Hard | Jun 17, 2026 |
-| **Vanta** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | Easy | Jun 10, 2026 |
+| **Vanta** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | Medium | Jun 10, 2026 |
 | **Verkada** | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Medium | Jun 05, 2026 |
 | **Verkada** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Medium | Jun 05, 2026 |
 | **Verkada** | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Medium | Jun 05, 2026 |
@@ -119,7 +119,7 @@ Of the **52 questions in this cut that carry a topic label** (66% of it):
 | **Rubrik** | [Maximize Happiness](https://trueinterview.io/questions/9a5a6369-36c2-41ca-923b-276bf08c2011) | Hard | — |
 | **Rubrik** | [Friendship String](https://trueinterview.io/questions/99375dc6-cb8e-404c-abc8-3d56c84f329c) | Hard | — |
 | **Rubrik** | [Redistribute Megaseeds](https://trueinterview.io/questions/8b3d0ac6-7941-413d-bdc1-1e60684f1afb) | Hard | — |
-| **Rubrik** | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Medium | — |
+| **Rubrik** | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Hard | — |
 | **Rubrik** | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | Hard | — |
 | **Rubrik** | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | Medium | — |
 | **Rubrik** | [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) | Medium | — |
@@ -143,3 +143,4 @@ Of the **52 questions in this cut that carry a topic label** (66% of it):
 | **Rubrik** | [Maximum Group Size by Overlapping Work Intervals (Connectivity via Overlap Paths)](https://trueinterview.io/questions/3fbf828e-0468-4c8c-b447-a341b471394a) | Medium | — |
 | **Citadel / Verkada** | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Medium | — |
 | **ByteDance / Rubrik** | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | Easy | — |
+| **Apple / Meta / Verkada** | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Easy | — |

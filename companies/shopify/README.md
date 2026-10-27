@@ -9,7 +9,7 @@ How Shopify interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [41](../shopify.md) |
-| Free to read here | 7 |
+| Free to read here | 8 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -38,7 +38,7 @@ The stages below follow Shopify's public description of its process; the order a
 
 ## Free Shopify questions
 
-23 questions reported at Shopify open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+24 questions reported at Shopify open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -52,6 +52,7 @@ The stages below follow Shopify's public description of its process; the order a
 | [Answer Product DS HR Screen](https://trueinterview.io/questions/answer-product-ds-hr-screen) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-product-ds-hr-screen) |
 | [How would you improve AI-generated code?](https://trueinterview.io/questions/how-would-you-improve-ai-generated-code) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-would-you-improve-ai-generated-code) |
 | [Present Piracy Trends to a PM](https://trueinterview.io/questions/present-piracy-trends-to-a-pm) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/present-piracy-trends-to-a-pm) |
+| [Word Search](../../questions/algorithm/word-search/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/word-search) |
 | [Measure App Store success and debug funnel anomaly](https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly) |
 | [Ruby only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-ruby-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) |
 | [C++ only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-c-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) |

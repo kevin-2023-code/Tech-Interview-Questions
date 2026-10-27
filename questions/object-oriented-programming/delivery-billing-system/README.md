@@ -12,93 +12,54 @@
 
 ## Problem
 
-## Single-Pass Accumulation with Hash Maps
+You are building the cost-tracking backend for a delivery platform. The system serves tens of thousands of drivers, and every one of them submits hundreds of deliveries in a typical week.
 
-The core idea is to avoid recomputing the entire sum from scratch every time `getTotalCost()` is called. By maintaining a running total that we update on every delivery, the query becomes a simple read of a primitive variable. We also need to store each driver’s hourly rate and their personal cumulative cost so that new deliveries can be priced correctly and individual records remain accurate.
+Each driver is registered with an hourly rate in US dollars. The amount owed for a single delivery is that driver's rate multiplied by the delivery's length in hours:
 
-The system uses two dictionaries (hash maps). The first, `rateMap`, maps a driver's ID to their hourly pay rate. The second, `driverTotal`, maps a driver's ID to the total earnings they have accumulated so far. A separate double variable, `grandTotal`, holds the sum of all drivers' earnings across all deliveries. When `addDriver` is called, we insert the driver into both maps, initializing their accumulated cost to zero. When `recordDelivery` is called, we compute the elapsed time in seconds, convert it to hours by dividing by 3600, and multiply by the driver’s rate to get the delivery cost. We then add this cost to the driver's personal total in `driverTotal` and to the global `grandTotal`. The `getTotalCost` method simply returns `grandTotal`.
+$$\text{cost} = \text{driverHourlyRate} \times \frac{\text{endTime} - \text{startTime}}{3600}$$
 
-Walk through the provided example:
+All timestamps are Unix epoch seconds stored as 64-bit integers, and every delivery satisfies $$0 < \text{endTime} - \text{startTime} \le 3$$ hours.
 
-- `addDriver(1, 20.0)` → `rateMap` gets `{1: 20.0}`, `driverTotal` gets `{1: 0.0}`, `grandTotal = 0.0`.
-- `getTotalCost()` → returns `0.0`.
-- `recordDelivery(1, 1000000000, 1000003600)` → duration is 3600 seconds = 1.0 hour. Cost = 1.0 * 20.0 = 20.0. `driverTotal[1]` becomes 20.0, `grandTotal` becomes 20.0.
-- `getTotalCost()` → returns 20.0.
-- `addDriver(2, 30.0)` → `rateMap` now `{1: 20.0, 2: 30.0}`, `driverTotal` now `{1: 20.0, 2: 0.0}`.
-- `recordDelivery(2, 1000003600, 1000005400)` → duration is 1800 seconds = 0.5 hours. Cost = 0.5 * 30.0 = 15.0. `driverTotal[2]` becomes 15.0, `grandTotal` becomes 35.0.
-- `getTotalCost()` → returns 35.0.
-- `recordDelivery(1, 1000005400, 1000009000)` → duration 3600 seconds = 1.0 hour. Cost = 20.0. `driverTotal[1]` becomes 40.0, `grandTotal` becomes 55.0.
-- `getTotalCost()` → returns 55.0.
-- `addDriver(3, 25.0)` → maps updated accordingly.
-- `recordDelivery(3, 1000009000, 1000012600)` → duration 3600 seconds = 1.0 hour. Cost = 25.0. `driverTotal[3]` becomes 25.0, `grandTotal` becomes 80.0.
-- `getTotalCost()` → returns 80.0.
+**Part 1.** Implement the following operations:
 
-```java
-import java.util.HashMap;
-import java.util.Map;
+- `addDriver(driverId: int, usdHourlyRate: double) -> void` registers a driver together with their hourly rate.
+- `recordDelivery(driverId: int, startTime: long, endTime: long) -> void` logs one completed delivery for that driver.
+- `getTotalCost() -> double` reports the combined cost of every delivery recorded so far. This call should ideally run in $$O(1)$$ amortized time.
 
-class DeliveryCost {
-    private Map<Integer, Double> hourlyRates;
-    private Map<Integer, Double> accumulatedCosts;
-    private double runningTotal;
+**Part 2.** Add payment tracking:
 
-    public DeliveryCost() {
-        hourlyRates = new HashMap<>();
-        accumulatedCosts = new HashMap<>();
-        runningTotal = 0.0;
-    }
+- `pay_up_to(endTime: long) -> void` settles every delivery whose own `endTime` is less than or equal to the given `endTime`. Each delivery must be counted as paid exactly once, no matter how many times this method is called.
+- `getUnpaidAmount() -> double` returns the total recorded cost minus the total amount already paid.
 
-    public void addDriver(int driverId, double usdHourlyRate) {
-        hourlyRates.put(driverId, usdHourlyRate);
-        accumulatedCosts.put(driverId, 0.0);
-    }
+**Part 3.** Implement `maxSimultaneousDriverInPast24Hours(now?: long) -> int`, which looks at the 24 hours leading up to `now` and returns the largest number of distinct drivers who were on a delivery at the same instant. The count is of drivers, not of deliveries: one driver with several overlapping deliveries still counts once. Treat each delivery as active over the half-open interval `[startTime, endTime)`, so a delivery that ends at the exact moment another begins does not overlap it.
 
-    public void recordDelivery(int driverId, int startTime, int endTime) {
-        double rate = hourlyRates.get(driverId);
-        // Convert seconds to fractional hours
-        double hoursWorked = (endTime - startTime) / 3600.0;
-        double deliveryPay = hoursWorked * rate;
+Example 1:
 
-        double previousTotal = accumulatedCosts.get(driverId);
-        accumulatedCosts.put(driverId, previousTotal + deliveryPay);
-        runningTotal += deliveryPay;
-    }
+```text
+Input: a driver with a rate of $10/hour records one delivery lasting 1 hour 30 minutes
 
-    public double getTotalCost() {
-        return runningTotal;
-    }
-}
+Output: $15.00
 ```
 
-```python
-class DeliveryCost:
-    def __init__(self):
-        self.hourly_rates = {}
-        self.driver_earnings = {}
-        self.running_total = 0.0
+Explanation: 1.5 hours at $10 per hour comes to $15.00.
 
-    def addDriver(self, driverId: int, usdHourlyRate: float) -> None:
-        self.hourly_rates[driverId] = usdHourlyRate
-        self.driver_earnings[driverId] = 0.0
+Constraints:
 
-    def recordDelivery(self, driverId: int, startTime: int, endTime: int) -> None:
-        rate = self.hourly_rates[driverId]
-        # Convert seconds to fractional hours
-        hours_worked = (endTime - startTime) / 3600.0
-        delivery_pay = hours_worked * rate
+* Tens of thousands of drivers, each submitting hundreds of deliveries per week.
+* Timestamps are Unix epoch seconds held in 64-bit integers.
+* For every delivery, $$0 < \text{endTime} - \text{startTime} \le 3$$ hours.
+* `getTotalCost` should ideally be $$O(1)$$ amortized.
 
-        previous_total = self.driver_earnings[driverId]
-        self.driver_earnings[driverId] = previous_total + delivery_pay
-        self.running_total += delivery_pay
+## Follow-ups
 
-    def getTotalCost(self) -> float:
-        return self.running_total
-```
+* Variant of Part 3: instead of only the maximum count, return the time interval (or intervals) during which that maximum number of drivers is active.
+* How will you represent money (integer cents, a decimal type, or `double`)? Be prepared to justify the choice and discuss its trade-offs, including how fractional cents are handled.
 
-### Time & Space Complexity
+## Interview Notes
 
-* Time complexity: O(1) — every method (`addDriver`, `recordDelivery`, `getTotalCost`) performs a constant number of hash map operations and arithmetic calculations.
-* Space complexity: O(D) — where D is the number of drivers, since we store each driver's hourly rate and cumulative cost in separate maps.
+* In some AI-coding sessions the interviewer explicitly asks for the time and space complexity of every method you write.
+* Money handling is a common time sink: one candidate burned time converting to cents and dealing with fractional cents.
+* The round does not necessarily require all three parts to be fully coded: a candidate who passed the phone screen implemented only Parts 1 and 2 and talked through Part 3, so clean code for the first two parts plus a convincing plan for Part 3 can still be enough.
 
 ## Hints
 

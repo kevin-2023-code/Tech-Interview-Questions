@@ -99,7 +99,7 @@ Here are some questions reported by recent candidates:
 - From lines of start time and duration, compute the minimum workers so no job waits, and print which worker took each job.
 - Parse command strings where lines have no arguments, key-value pairs or one bare value, with tests you write yourself.
 
-- [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring)
+- [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md)
 - [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper)
 - [Query Pagination](../../questions/object-oriented-programming/query-pagination/README.md)
 - [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers)

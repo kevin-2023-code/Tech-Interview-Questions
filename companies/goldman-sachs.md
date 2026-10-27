@@ -18,8 +18,8 @@
 | Most recent sighting | Sep 13, 2026 |
 | Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 68) |
-| Difficulty (easy / medium / hard) | 16 / 33 / 4 |
-| Free to practise | [40](../free/README.md) |
+| Difficulty (easy / medium / hard) | 14 / 34 / 5 |
+| Free to practise | [43](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 68 questions reported at Goldman Sachs. 55 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -30,9 +30,9 @@ Which stage each question came from, for the **68 of 68** questions at Goldman S
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 28 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 7 / 13 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 28 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 7 / 12 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 30 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 5 / 16 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 15 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (40%) | 5 / 8 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 15 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (40%) | 3 / 10 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -43,14 +43,14 @@ Which stage each question came from, for the **68 of 68** questions at Goldman S
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 13, 2026 |
-| [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Easy | Onsite / virtual onsite | Sep 13, 2026 |
+| [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Medium | Onsite / virtual onsite | Sep 13, 2026 |
 | [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) | Blog | — | Online assessment | Sep 02, 2026 |
 | [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) | Blog | — | Online assessment | Sep 02, 2026 |
 | [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) | Blog | — | Online assessment | Sep 02, 2026 |
 | [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) | Blog | — | Online assessment | Sep 02, 2026 |
 | [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) | Blog | — | Online assessment | Sep 02, 2026 |
 | [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) | Blog | — | Online assessment | Sep 02, 2026 |
-| [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Easy | Onsite / virtual onsite | Aug 15, 2026 |
+| [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Medium | Onsite / virtual onsite | Aug 15, 2026 |
 
 ## What they ask about
 
@@ -101,8 +101,8 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Easy | — | Sep 13, 2026 |
-| **2** | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Object Oriented Programming | Medium | — | Sep 13, 2026 |
+| **1** | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Object Oriented Programming | Medium | — | Sep 13, 2026 |
+| **2** | [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Medium | — | Sep 13, 2026 |
 | **3** | [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) 🆓 | Blog | — | — | Sep 02, 2026 |
 | **4** | [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) 🆓 | Blog | — | — | Sep 02, 2026 |
 | **5** | [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) 🆓 | Blog | — | — | Sep 02, 2026 |
@@ -130,7 +130,7 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Easy | 🆕 Sep 13, 2026 |
+| [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Medium | 🆕 Sep 13, 2026 |
 | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Object Oriented Programming | Medium | 🆕 Sep 13, 2026 |
 | [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) | Blog | — | Sep 02, 2026 |
 | [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) | Blog | — | Sep 02, 2026 |
@@ -138,7 +138,7 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) | Blog | — | Sep 02, 2026 |
 | [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) | Blog | — | Sep 02, 2026 |
 | [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) | Blog | — | Sep 02, 2026 |
-| [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Easy | Aug 15, 2026 |
+| [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Medium | Aug 15, 2026 |
 | [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Algorithm | Medium | Jul 06, 2026 |
 | [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Object Oriented Programming | Medium | Jun 21, 2026 |
 | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Easy | Jun 18, 2026 |
@@ -180,7 +180,7 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | [Plus-Multiply Even / Odd Parity](https://trueinterview.io/questions/plus-multiply-even-odd-parity) | Algorithm | Medium | Oct 26, 2024 |
 | [Valid Triangle + Point Inclusion](https://trueinterview.io/questions/valid-triangle-point-inclusion) | Algorithm | Medium | Oct 26, 2024 |
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |
-| [Min × Max Product After Push / Pop](https://trueinterview.io/questions/min-max-product-stream) | Algorithm | Medium | Oct 26, 2024 |
+| [Min × Max Product After Push / Pop](https://trueinterview.io/questions/min-max-product-stream) | Algorithm | Hard | Oct 26, 2024 |
 | [Compliance Alert / Trailing-Average Sliding Window](https://trueinterview.io/questions/compliance-alert-sliding-window) | Algorithm | Easy | Oct 26, 2024 |
 | [Chairs / Restaurant Order Simulation](https://trueinterview.io/questions/chairs-restaurant-simulation) | Algorithm | Easy | Oct 26, 2024 |
 | [Anagram Queries on Word List](https://trueinterview.io/questions/anagram-queries) | Algorithm | Easy | Oct 26, 2024 |

@@ -9,7 +9,7 @@ How Rippling interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [58](../rippling.md) |
-| Free to read here | 5 |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 18, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Rippling questions
 
-14 questions reported at Rippling open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+15 questions reported at Rippling open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -57,6 +57,7 @@ Here's what the interview process can look like:
 | [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | Blog | — | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) |
 | [Project Deep Dive / HM BQ](https://trueinterview.io/questions/project-deep-dive-and-bq) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-and-bq) |
 | [Delivery Cost Calculate](../../questions/object-oriented-programming/delivery-billing-system/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/delivery-billing-system) |
+| [Median of Two Sorted Arrays](../../questions/algorithm/median-of-two-sorted-arrays/README.md) | Algorithm | Hard | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/median-of-two-sorted-arrays) |
 | [Logger System](../../questions/object-oriented-programming/logger-system-ood/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/logger-system-ood) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |

@@ -87,7 +87,7 @@ Here are some questions reported by recent candidates:
 - Pick an item in proportion to its weight, then support millions of calls at constant expected time per pick.
 
 - [Friend Request](https://trueinterview.io/questions/6a131d8f-2002-477c-be7f-ee4b4a01b54b)
-- [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight)
+- [Random Pick with Weight](../../questions/algorithm/random-pick-with-weight/README.md)
 - [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2)
 - [Find top-K frequent elements in a stream](https://trueinterview.io/questions/find-top-k-frequent-elements-in-a-stream)
 

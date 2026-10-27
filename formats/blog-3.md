@@ -2,7 +2,7 @@
 
 # Blog interview & OA questions
 
-**1,402 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
+**1,416 questions** in the Blog format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=blog).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,16 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Amazon** | [Describe handling deadlines, pride, and conflict](https://trueinterview.io/questions/describe-handling-deadlines-pride-and-conflict) | — | Feb 11, 2026 |
+| **Scale AI** | [Describe a challenging project](https://trueinterview.io/questions/describe-a-challenging-project) | — | Feb 11, 2026 |
+| **Google** | [Answer leadership and quality tradeoff questions](https://trueinterview.io/questions/answer-leadership-and-quality-tradeoff-questions) | — | Feb 11, 2026 |
+| **OpenAI** | [Analyze matrix multiplication complexity](https://trueinterview.io/questions/analyze-matrix-multiplication-complexity) | — | Feb 11, 2026 |
+| **Tubi** | [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) | — | Feb 10, 2026 |
+| **Axon** | [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) | — | Feb 09, 2026 |
+| **Microsoft** | [Explain metrics, regularization, and ablation studies](https://trueinterview.io/questions/explain-metrics-regularization-and-ablation-studies) | — | Feb 09, 2026 |
+| **Microsoft** | [Explain deadlock cases and how to prevent them](https://trueinterview.io/questions/explain-deadlock-cases-and-how-to-prevent-them) | — | Feb 09, 2026 |
+| **Apple** | [Describe your most memorable bug and fix](https://trueinterview.io/questions/describe-your-most-memorable-bug-and-fix) | — | Feb 09, 2026 |
+| **Amazon** | [Describe how you reduced measurable cost](https://trueinterview.io/questions/describe-how-you-reduced-measurable-cost) | — | Feb 09, 2026 |
 | **Apple** | [Answer OoO, caches, and memory-system questions](https://trueinterview.io/questions/answer-ooo-caches-and-memory-system-questions) | — | Feb 09, 2026 |
 | **Pinterest** | [Answer core ML fundamentals questions](https://trueinterview.io/questions/answer-core-ml-fundamentals-questions) | — | Feb 09, 2026 |
 | **Asana** | [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) | — | Feb 08, 2026 |
@@ -250,15 +260,5 @@
 | **Microsoft** | [Describe resolving a conflict with a teammate](https://trueinterview.io/questions/describe-resolving-a-conflict-with-a-teammate) | — | Nov 24, 2025 |
 | **Drw** | [Compute expected arc length on a circle](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) | — | Nov 22, 2025 |
 | **Amazon** | [Answer Leadership and GenAI Behavioral Questions](https://trueinterview.io/questions/answer-leadership-and-genai-behavioral-questions) | — | Nov 22, 2025 |
-| **xAI** | [How Would You Prevent Hallucinations in an LLM-Based System?](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system) | — | Nov 21, 2025 |
-| **Shopify** | [Measure App Store success and debug funnel anomaly](https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly) | — | Nov 21, 2025 |
-| **Citadel** | [Probability and Combinatorics Quickfire Quiz](https://trueinterview.io/questions/trading-probability-quickfire) | — | Nov 21, 2025 |
-| **Amazon** | [Explain surprisal and its units](https://trueinterview.io/questions/explain-surprisal-and-its-units) | — | Nov 20, 2025 |
-| **PayPal** | [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) | — | Nov 20, 2025 |
-| **Jane Street** | [Alternating Die-Roll Game: Optimal Accept/Reject Strategy](https://trueinterview.io/questions/alternating-die-roll-game-optimal-accept-reject-strategy) | — | Nov 20, 2025 |
-| **Akuna Capital** | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) | — | Nov 20, 2025 |
-| **Anthropic** | [Explain projects and handle AI-safety conflicts](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) | — | Nov 19, 2025 |
-| **Microsoft** | [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) | — | Nov 19, 2025 |
-| **Optiver** | [Compute probabilities and expectations in random processes](https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes) | — | Nov 19, 2025 |
 
 <sub>[← Page 2](blog-2.md) · Page 3 of 6 · [Page 4 →](blog-4.md)</sub>

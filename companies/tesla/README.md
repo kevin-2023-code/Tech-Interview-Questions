@@ -9,7 +9,7 @@ How Tesla interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [52](../tesla.md) |
-| Free to read here | 9 |
+| Free to read here | 10 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 13, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Tesla questions
 
-16 questions reported at Tesla open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+17 questions reported at Tesla open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -69,6 +69,7 @@ Here's what the interview process can look like:
 | [Dojo Pythonic Coding Pair: Permutation Check and Pow](../../questions/algorithm/dojo-permutation-and-pow/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/dojo-permutation-and-pow) |
 | [Basic Calculator with Operators, Variables, and Functions](../../questions/object-oriented-programming/basic-calculator-extended-language/README.md) | Object Oriented Programming | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/basic-calculator-extended-language) |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](../../questions/object-oriented-programming/event-bus-emit-subscribe/README.md) | Object Oriented Programming | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/event-bus-emit-subscribe) |
+| [Decode Ways](../../questions/algorithm/decode-ways-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/37632eca-7568-544f-bd3c-98fcd234717d) |
 
 ## Everything else
 

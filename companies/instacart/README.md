@@ -8,7 +8,7 @@ How Instacart interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [64](../instacart.md) |
+| Questions reported | [65](../instacart.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -85,7 +85,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 64 questions reported at Instacart](../instacart.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 65 questions reported at Instacart](../instacart.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Instacart question on TrueInterview](https://trueinterview.io/problems/company/instacart).
 
 ---
