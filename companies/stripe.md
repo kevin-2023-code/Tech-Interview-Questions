@@ -167,11 +167,11 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Payment State Machine (OA)](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | Medium | 🆕 Oct 04, 2026 |
 | [Request Routing System](https://trueinterview.io/questions/request-routing-system) | Algorithm | Medium | 🆕 Sep 30, 2026 |
 | [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | Blog | — | 🆕 Sep 15, 2026 |
-| [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | Blog | — | 🆕 Sep 11, 2026 |
-| [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Object Oriented Programming | Medium | 🆕 Sep 11, 2026 |
-| [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | System Design | Easy | 🆕 Sep 11, 2026 |
-| [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | 🆕 Sep 11, 2026 |
-| [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | 🆕 Sep 11, 2026 |
+| [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | Blog | — | Sep 11, 2026 |
+| [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Object Oriented Programming | Medium | Sep 11, 2026 |
+| [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | System Design | Easy | Sep 11, 2026 |
+| [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | Sep 11, 2026 |
+| [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | Sep 11, 2026 |
 | [Specify Proximity-Based Request Routing](https://trueinterview.io/questions/specify-proximity-based-request-routing) | System Design | Medium | Sep 10, 2026 |
 | [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve) | Algorithm | Medium | Sep 07, 2026 |
 | [Subtract Blocked Periods from Allowed Deployment Windows](https://trueinterview.io/questions/subtract-blocked-periods-from-allowed-deployment-windows) | Algorithm | Medium | Sep 04, 2026 |

@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**5,636 tracked questions** across **131 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 05, 2026. Windows below are measured against **Oct 26, 2026**, and everything on this page is recomputed hourly.
+**5,636 tracked questions** across **131 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 05, 2026. Windows below are measured against **Oct 27, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,13 +10,13 @@
 
 ## The last 90 days
 
-**656 sightings** recorded between Jul 28, 2026 → Oct 26, 2026 — 19% of the 3,395 questions in the bank that carry a sighting date at all.
+**655 sightings** recorded between Jul 29, 2026 → Oct 27, 2026 — 19% of the 3,395 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 225 | 34% | ████████████████ |
+| [Algorithm](../formats/algorithm.md) | 224 | 34% | ████████████████ |
 | [SQL](../formats/sql.md) | 14 | 2% | █ |
 | [System Design](../formats/system-design.md) | 142 | 22% | ██████████ |
 | [AI Coding](../formats/ai-coding.md) | 4 | 1% | █ |
@@ -39,11 +39,11 @@
 | [Stripe](../companies/stripe.md) | 16 | ███ |
 | [Snowflake](../companies/snowflake.md) | 15 | ███ |
 | [Squarepoint](../companies/squarepoint.md) | 14 | ███ |
-| [Apple](../companies/apple.md) | 13 | ██ |
 | [Airbnb](../companies/airbnb.md) | 12 | ██ |
 | [Anthropic](../companies/anthropic.md) | 12 | ██ |
+| [Apple](../companies/apple.md) | 12 | ██ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 656 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 655 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -51,7 +51,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,492 | 44% | 225 | 444 | 1,525 | 523 | 2,492 | 303 |
+| [Algorithm](../formats/algorithm.md) | 2,492 | 44% | 224 | 444 | 1,525 | 523 | 2,492 | 303 |
 | [SQL](../formats/sql.md) | 297 | 5% | 14 | 65 | 179 | 53 | 297 | 6 |
 | [System Design](../formats/system-design.md) | 703 | 12% | 142 | 29 | 365 | 309 | 703 | 39 |
 | [AI Coding](../formats/ai-coding.md) | 134 | 2% | 4 | 10 | 86 | 38 | 134 | 12 |

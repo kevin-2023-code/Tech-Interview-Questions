@@ -81,7 +81,7 @@
 | [Show Initiative, Improve Processes, and Demonstrate Impact](https://trueinterview.io/questions/show-initiative-improve-processes-and-demonstrate-impact) | **Amazon** | — | Sep 07, 2026 |
 | [Show Ownership and Help a Struggling Peer](https://trueinterview.io/questions/show-ownership-and-help-a-struggling-peer) | **Amazon** | — | Aug 30, 2026 |
 | [Show ownership in ambiguous creator-growth work](https://trueinterview.io/questions/show-ownership-in-ambiguous-creator-growth-work) | **ByteDance** | — | — |
-| [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | **Stripe** | — | 🆕 Sep 11, 2026 |
+| [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | **Stripe** | — | Sep 11, 2026 |
 | [Size opportunity and prioritize experiments](https://trueinterview.io/questions/size-opportunity-and-prioritize-experiments) | **Meta** | — | — |
 | [Sketch function from derivatives and limits](https://trueinterview.io/questions/sketch-function-from-derivatives-and-limits) | **Capital One** | — | — |
 | [Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal) | **Two Sigma** | — | Nov 28, 2025 |
@@ -127,7 +127,7 @@
 | [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta) | **Meta** | — | May 19, 2026 |
 | [Transformer / Attention Deep-Dive](https://trueinterview.io/questions/transformer-attention-deep-dive) | **Amazon** | — | Apr 29, 2026 |
 | [Transformer Roofline + FP32→FP16 Drill](https://trueinterview.io/questions/transformer-roofline-fp-precision) | **Microsoft** | — | Mar 22, 2026 |
-| [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | **Oracle** | — | 🆕 Sep 11, 2026 |
+| [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | **Oracle** | — | Sep 11, 2026 |
 | [Troubleshoot a production server outage](https://trueinterview.io/questions/troubleshoot-a-production-server-outage) | **Meta** | — | Apr 12, 2026 |
 | [Tune fraud threshold under review capacity and costs](https://trueinterview.io/questions/tune-fraud-threshold-under-review-capacity-and-costs) | **Meta** | — | — |
 | [Turn Critical Feedback into a Measurable Improvement](https://trueinterview.io/questions/turn-critical-feedback-into-a-measurable-improvement) | **Amazon** | — | Aug 19, 2026 |

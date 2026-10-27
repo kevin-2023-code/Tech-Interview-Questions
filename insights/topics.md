@@ -24,7 +24,7 @@ What the bank is *about*, counted over the **2,474 questions that carry a topic 
 | `two-pointers` | 123 | 5% | 9 | 32 | 82 | 9 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `sliding-window` | 109 | 4% | 6 | 20 | 74 | 15 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `stack` | 100 | 4% | 7 | 12 | 68 | 20 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
-| `intervals` | 86 | 3% | 8 | 2 | 66 | 18 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `intervals` | 86 | 3% | 7 | 2 | 66 | 18 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `linked-list` | 57 | 2% | 6 | 7 | 40 | 10 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Microsoft](../companies/microsoft.md) |
 | `topological-sort` | 55 | 2% | 9 | 0 | 41 | 14 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
 | `bit-manipulation` | 46 | 2% | 4 | 9 | 20 | 17 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Salesforce](../companies/salesforce.md) |

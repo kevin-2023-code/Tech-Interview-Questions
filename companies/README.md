@@ -65,7 +65,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 264 | 3 | 12 | Sep 29, 2026 | 77 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 239 | 5 | 38 | Oct 03, 2026 | 55 |
 | [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 193 | 5 | 7 | Sep 16, 2026 | 111 |
-| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 181 | 4 | 13 | Oct 02, 2026 | 54 |
+| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 181 | 4 | 12 | Oct 02, 2026 | 54 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 175 | 7 | 23 | Oct 04, 2026 | 30 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 149 | 3 | 21 | Sep 16, 2026 | 47 |
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 145 | 1 | 15 | Oct 01, 2026 | 43 |

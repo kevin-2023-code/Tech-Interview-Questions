@@ -22,9 +22,9 @@
 | [Stripe](../companies/stripe.md) | 16 | 118 | Oct 04, 2026 | ███ |
 | [Snowflake](../companies/snowflake.md) | 15 | 145 | Oct 01, 2026 | ███ |
 | [Squarepoint](../companies/squarepoint.md) | 14 | 45 | Sep 09, 2026 | ███ |
-| [Apple](../companies/apple.md) | 13 | 181 | Oct 02, 2026 | ██ |
 | [Airbnb](../companies/airbnb.md) | 12 | 89 | Sep 23, 2026 | ██ |
 | [Anthropic](../companies/anthropic.md) | 12 | 99 | Sep 17, 2026 | ██ |
+| [Apple](../companies/apple.md) | 12 | 181 | Oct 02, 2026 | ██ |
 | [Uber](../companies/uber.md) | 12 | 264 | Sep 29, 2026 | ██ |
 | [AMD](../companies/amd.md) | 10 | 10 | Sep 14, 2026 | ██ |
 | [Instacart](../companies/instacart.md) | 10 | 64 | Sep 18, 2026 | ██ |
@@ -47,7 +47,7 @@
 | [Uber](../companies/uber.md) | 264 | 3 | 77 | 12 | Sep 29, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 239 | 5 | 55 | 38 | Oct 03, 2026 | Algorithm | `strings` |
 | [Capital One](../companies/capital-one.md) | 193 | 5 | 111 | 7 | Sep 16, 2026 | Blog | `arrays` |
-| [Apple](../companies/apple.md) | 181 | 4 | 54 | 13 | Oct 02, 2026 | Algorithm | `hashing` |
+| [Apple](../companies/apple.md) | 181 | 4 | 54 | 12 | Oct 02, 2026 | Algorithm | `hashing` |
 | [OpenAI](../companies/openai.md) | 175 | 7 | 30 | 23 | Oct 04, 2026 | Algorithm | `graphs` |
 | [DoorDash](../companies/doordash.md) | 149 | 3 | 47 | 21 | Sep 16, 2026 | Algorithm | `arrays` |
 | [Snowflake](../companies/snowflake.md) | 145 | 1 | 43 | 15 | Oct 01, 2026 | Algorithm | `graphs` |

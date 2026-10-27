@@ -168,9 +168,9 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Learn What You Need to Solve an Unfamiliar Problem](https://trueinterview.io/questions/learn-what-you-need-to-solve-an-unfamiliar-problem) | Blog | — | 🆕 Sep 14, 2026 |
 | [Explain What You Want in Your Next Role](https://trueinterview.io/questions/explain-what-you-want-in-your-next-role) | Blog | — | 🆕 Sep 14, 2026 |
 | [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach) | Blog | — | 🆕 Sep 14, 2026 |
-| [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations) | System Design | Medium | 🆕 Sep 11, 2026 |
-| [Evaluate a Two Percent CTR Lift in Music Recommendations](https://trueinterview.io/questions/evaluate-a-two-percent-ctr-lift-in-music-recommendations) | Blog | — | 🆕 Sep 11, 2026 |
-| [Recent Ad-Click Counter](https://trueinterview.io/questions/ea41a698-48dd-51f0-92ce-3f9a925b628a) | Object Oriented Programming | Easy | 🆕 Sep 11, 2026 |
+| [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations) | System Design | Medium | Sep 11, 2026 |
+| [Evaluate a Two Percent CTR Lift in Music Recommendations](https://trueinterview.io/questions/evaluate-a-two-percent-ctr-lift-in-music-recommendations) | Blog | — | Sep 11, 2026 |
+| [Recent Ad-Click Counter](https://trueinterview.io/questions/ea41a698-48dd-51f0-92ce-3f9a925b628a) | Object Oriented Programming | Easy | Sep 11, 2026 |
 | [Take Responsibility for Missed Deadlines and Mistakes](https://trueinterview.io/questions/take-responsibility-for-missed-deadlines-and-mistakes) | Blog | — | Sep 07, 2026 |
 | [Show Initiative, Improve Processes, and Demonstrate Impact](https://trueinterview.io/questions/show-initiative-improve-processes-and-demonstrate-impact) | Blog | — | Sep 07, 2026 |
 | [Handle Workplace Conflict and Criticism](https://trueinterview.io/questions/handle-workplace-conflict-and-criticism) | Blog | — | Sep 07, 2026 |

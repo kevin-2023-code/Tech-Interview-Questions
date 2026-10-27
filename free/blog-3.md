@@ -180,7 +180,7 @@
 | [Evaluate a model and choose metrics](https://trueinterview.io/questions/evaluate-a-model-and-choose-metrics) | **Apple** | — | — |
 | [Evaluate a new product with experimentation](https://trueinterview.io/questions/evaluate-a-new-product-with-experimentation) | **Stripe** | — | — |
 | [Evaluate a new ranking model](https://trueinterview.io/questions/evaluate-a-new-ranking-model) | **DoorDash** | — | Feb 06, 2026 |
-| [Evaluate a Two Percent CTR Lift in Music Recommendations](https://trueinterview.io/questions/evaluate-a-two-percent-ctr-lift-in-music-recommendations) | **Amazon** | — | 🆕 Sep 11, 2026 |
+| [Evaluate a Two Percent CTR Lift in Music Recommendations](https://trueinterview.io/questions/evaluate-a-two-percent-ctr-lift-in-music-recommendations) | **Amazon** | — | Sep 11, 2026 |
 | [Evaluate AI-assisted ad creation](https://trueinterview.io/questions/evaluate-ai-assisted-ad-creation) | **Meta** | — | Feb 23, 2026 |
 | [Evaluate and monitor a credit risk model](https://trueinterview.io/questions/evaluate-and-monitor-a-credit-risk-model) | **Capital One** | — | — |
 | [Evaluate brand ads effectiveness on social media causally](https://trueinterview.io/questions/evaluate-brand-ads-effectiveness-on-social-media-causally) | **Meta** | — | — |

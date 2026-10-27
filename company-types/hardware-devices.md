@@ -48,7 +48,7 @@ Of the **133 questions in this cut that carry a topic label** (59% of it):
 
 ## Asked here in the last 90 days
 
-**14 sightings** across this cut. Newest first.
+**13 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **133 questions in this cut that carry a topic label** (59% of it):
 | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Apple | System Design | Aug 08, 2026 |
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Apple | Algorithm | Aug 05, 2026 |
 
-<sub>2 more in this window are in the table below.</sub>
+<sub>1 more in this window are in the table below.</sub>
 
 ---
 

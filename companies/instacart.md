@@ -128,9 +128,9 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | :-- | :-- | :-: | :-- |
 | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Blog | — | 🆕 Sep 18, 2026 |
 | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Algorithm | Medium | 🆕 Sep 18, 2026 |
-| [Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts](https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts) | System Design | Medium | 🆕 Sep 11, 2026 |
-| [Make a Variable Resolver Safe for Production Use](https://trueinterview.io/questions/make-a-variable-resolver-safe-for-production-use) | System Design | Medium | 🆕 Sep 11, 2026 |
-| [Design a Grocery-Ordering Backend with Reliable Inventory Reservations](https://trueinterview.io/questions/design-a-grocery-ordering-backend-with-reliable-inventory-reservations) | System Design | Medium | 🆕 Sep 11, 2026 |
+| [Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts](https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts) | System Design | Medium | Sep 11, 2026 |
+| [Make a Variable Resolver Safe for Production Use](https://trueinterview.io/questions/make-a-variable-resolver-safe-for-production-use) | System Design | Medium | Sep 11, 2026 |
+| [Design a Grocery-Ordering Backend with Reliable Inventory Reservations](https://trueinterview.io/questions/design-a-grocery-ordering-backend-with-reliable-inventory-reservations) | System Design | Medium | Sep 11, 2026 |
 | [Reserve Cart Inventory Without Overselling](https://trueinterview.io/questions/reserve-cart-inventory-without-overselling) | System Design | Hard | Sep 07, 2026 |
 | [Demonstrate Leadership Through One Challenging Project](https://trueinterview.io/questions/demonstrate-leadership-through-one-challenging-project) | Blog | — | Sep 07, 2026 |
 | [Discuss an Interesting Project and a Deployment Mistake](https://trueinterview.io/questions/discuss-an-interesting-project-and-a-deployment-mistake) | Blog | — | Sep 06, 2026 |
