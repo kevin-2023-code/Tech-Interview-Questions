@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **112** |
 | Most recent sighting | Oct 14, 2026 |
-| Reported in the last 90 days | 19 |
+| Reported in the last 90 days | 18 |
 | Most common format | [Algorithm](../formats/algorithm.md) (37% of 112) |
 | Difficulty (easy / medium / hard) | 11 / 66 / 24 |
 | Free to practise | [20](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **112 of 112** questions at Airbnb 
 
 ## Asked here in the last 90 days
 
-**19 sightings** in this window. Newest first.
+**18 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **112 of 112** questions at Airbnb 
 | [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | System Design | Hard | Onsite / virtual onsite | Sep 04, 2026 |
 | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | System Design | Medium | Onsite / virtual onsite | Sep 04, 2026 |
 
-<sub>7 more in this window are in the table below.</sub>
+<sub>6 more in this window are in the table below.</sub>
 
 ## What they ask about
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **13** |
 | Most recent sighting | Sep 23, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 1 |
 | Most common format | [System Design](../formats/system-design.md) (46% of 13) |
 | Difficulty (easy / medium / hard) | 2 / 7 / 4 |
 | Free to practise | [3](../free/README.md) |
@@ -38,13 +38,11 @@ Which stage each question came from, for the **13 of 13** questions at Microsoft
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Phone screen, Onsite / virtual onsite | Sep 23, 2026 |
-| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | Phone screen | Jul 29, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 
 ## What they ask about
 

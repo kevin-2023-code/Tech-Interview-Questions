@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **145** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 24 |
+| Reported in the last 90 days | 23 |
 | Most common format | [Algorithm](../formats/algorithm.md) (43% of 145) |
 | Difficulty (easy / medium / hard) | 14 / 87 / 24 |
 | Free to practise | [40](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **145 of 145** questions at LinkedI
 
 ## Asked here in the last 90 days
 
-**24 sightings** in this window. Newest first.
+**23 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **145 of 145** questions at LinkedI
 | [Reduce Stale Listings in a Job Marketplace](https://trueinterview.io/questions/reduce-stale-listings-in-a-job-marketplace) | System Design | Hard | Phone screen | Sep 01, 2026 |
 | [Explain the Design of a Recent Feature](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature) | Blog | — | Onsite / virtual onsite | Aug 31, 2026 |
 
-<sub>12 more in this window are in the table below.</sub>
+<sub>11 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -140,7 +140,7 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | Blog | — | 🆕 Sep 17, 2026 |
 | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | Blog | — | 🆕 Sep 17, 2026 |
 | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | System Design | Hard | 🆕 Sep 17, 2026 |
-| [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | Blog | — | 🆕 Sep 12, 2026 |
+| [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | Blog | — | Sep 12, 2026 |
 | [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives) | System Design | Hard | Sep 09, 2026 |
 | [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | Object Oriented Programming | Hard | Sep 06, 2026 |
 | [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Algorithm | Medium | Sep 04, 2026 |

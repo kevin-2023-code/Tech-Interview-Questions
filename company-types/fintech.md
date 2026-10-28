@@ -85,7 +85,7 @@ Of the **234 questions in this cut that carry a topic label** (46% of it):
 | **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Medium | 🆕 Sep 17, 2026 |
 | **Stripe** | [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | — | 🆕 Sep 15, 2026 |
 | **Robinhood** | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates) | Medium | 🆕 Sep 15, 2026 |
-| **Upstart** | [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Easy | 🆕 Sep 12, 2026 |
+| **Upstart** | [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Easy | Sep 12, 2026 |
 | **Stripe** | [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | — | Sep 11, 2026 |
 | **Stripe** | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Medium | Sep 11, 2026 |
 | **Stripe** | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | Easy | Sep 11, 2026 |

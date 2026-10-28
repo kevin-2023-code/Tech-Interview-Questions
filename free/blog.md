@@ -243,7 +243,7 @@
 | [Compare streaming frameworks and delivery semantics](https://trueinterview.io/questions/compare-streaming-frameworks-and-delivery-semantics) | **Mercor** | — | Jan 17, 2026 |
 | [Compare Tableau live vs extract and filters](https://trueinterview.io/questions/compare-tableau-live-vs-extract-and-filters) | **Amazon** | — | — |
 | [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | **Mistral AI** | — | Sep 01, 2026 |
-| [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | **Anthropic** | — | 🆕 Sep 12, 2026 |
+| [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | **Anthropic** | — | Sep 12, 2026 |
 | [Compare Transformers and RNNs and Derive Attention Complexity](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity) | **C3.ai** | — | Aug 21, 2026 |
 | [Compare two ad insertion strategies](https://trueinterview.io/questions/compare-two-ad-insertion-strategies) | **Meta** | — | — |
 | [Compare Two Coin Proportions](https://trueinterview.io/questions/compare-two-coin-proportions) | **Uber** | — | Mar 28, 2026 |

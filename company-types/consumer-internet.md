@@ -48,7 +48,7 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**146 sightings** across this cut. Newest first.
+**143 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Google | Algorithm | Sep 29, 2026 |
 | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Google | Algorithm | Sep 29, 2026 |
 
-<sub>134 more in this window are in the table below.</sub>
+<sub>131 more in this window are in the table below.</sub>
 
 ---
 
@@ -105,7 +105,7 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 | **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | 🆕 Sep 17, 2026 |
 | **Google** | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Medium | 🆕 Sep 16, 2026 |
 | **ByteDance** | [Design a Monitoring Dashboard with Explicit Latency Goals](https://trueinterview.io/questions/design-a-monitoring-dashboard-with-explicit-latency-goals) | Medium | 🆕 Sep 15, 2026 |
-| **LinkedIn** | [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | — | 🆕 Sep 12, 2026 |
+| **LinkedIn** | [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | — | Sep 12, 2026 |
 | **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | Sep 10, 2026 |
 | **ByteDance** | [Convert Identifier Naming in Docstrings](https://trueinterview.io/questions/37898248-3c48-565c-8143-a54070171bf8) | Medium | Sep 10, 2026 |
 | **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | Sep 10, 2026 |

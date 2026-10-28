@@ -62,9 +62,9 @@
 | **Rippling** | [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | — | 🆕 Sep 13, 2026 |
 | **Drw** | [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | — | 🆕 Sep 13, 2026 |
 | **Drw** | [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | — | 🆕 Sep 13, 2026 |
-| **Anthropic** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | — | 🆕 Sep 12, 2026 |
-| **LinkedIn** | [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | — | 🆕 Sep 12, 2026 |
-| **Anthropic** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | — | 🆕 Sep 12, 2026 |
+| **Anthropic** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | — | Sep 12, 2026 |
+| **LinkedIn** | [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | — | Sep 12, 2026 |
+| **Anthropic** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | — | Sep 12, 2026 |
 | **Amazon** | [Evaluate a Two Percent CTR Lift in Music Recommendations](https://trueinterview.io/questions/evaluate-a-two-percent-ctr-lift-in-music-recommendations) | — | Sep 11, 2026 |
 | **Oracle** | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | — | Sep 11, 2026 |
 | **Stripe** | [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | — | Sep 11, 2026 |

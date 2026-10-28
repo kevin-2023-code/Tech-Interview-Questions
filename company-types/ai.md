@@ -48,7 +48,7 @@ Of the **182 questions in this cut that carry a topic label** (36% of it):
 
 ## Asked here in the last 90 days
 
-**80 sightings** across this cut. Newest first.
+**78 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **182 questions in this cut that carry a topic label** (36% of it):
 | [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | Together AI | Blog | Sep 15, 2026 |
 | [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | Together AI | Blog | Sep 15, 2026 |
 
-<sub>68 more in this window are in the table below.</sub>
+<sub>66 more in this window are in the table below.</sub>
 
 ---
 
@@ -96,8 +96,8 @@ Of the **182 questions in this cut that carry a topic label** (36% of it):
 | **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | Hard | 🆕 Sep 15, 2026 |
 | **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Medium | 🆕 Sep 15, 2026 |
-| **Anthropic** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | — | 🆕 Sep 12, 2026 |
-| **Anthropic** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | — | 🆕 Sep 12, 2026 |
+| **Anthropic** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | — | Sep 12, 2026 |
+| **Anthropic** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | — | Sep 12, 2026 |
 | **OpenAI** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Hard | Sep 10, 2026 |
 | **Anthropic** | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | Hard | Sep 08, 2026 |
 | **OpenAI** | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Hard | Sep 08, 2026 |

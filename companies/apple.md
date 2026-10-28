@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **182** |
 | Most recent sighting | Oct 02, 2026 |
-| Reported in the last 90 days | 12 |
+| Reported in the last 90 days | 11 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 182) |
 | Difficulty (easy / medium / hard) | 34 / 90 / 27 |
 | Free to practise | [72](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **182 of 182** questions at Apple t
 
 ## Asked here in the last 90 days
 
-**12 sightings** in this window. Newest first.
+**11 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -53,7 +53,6 @@ Which stage each question came from, for the **182 of 182** questions at Apple t
 | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | SQL | Easy | Online assessment | Aug 13, 2026 |
 | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | System Design | Hard | Phone screen | Aug 08, 2026 |
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Algorithm | Hard | Onsite / virtual onsite | Aug 05, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 
 ## What they ask about
 

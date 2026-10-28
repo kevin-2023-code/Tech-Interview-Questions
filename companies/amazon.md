@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **470** |
 | Most recent sighting | Oct 03, 2026 |
-| Reported in the last 90 days | 89 |
+| Reported in the last 90 days | 88 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 470) |
 | Difficulty (easy / medium / hard) | 59 / 226 / 68 |
 | Free to practise | [170](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **470 of 470** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**89 sightings** in this window. Newest first.
+**88 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **470 of 470** questions at Amazon 
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Medium | Onsite / virtual onsite | Sep 26, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Hard | Onsite / virtual onsite | Sep 26, 2026 |
 
-<sub>77 more in this window are in the table below.</sub>
+<sub>76 more in this window are in the table below.</sub>
 
 ## What they ask about
 

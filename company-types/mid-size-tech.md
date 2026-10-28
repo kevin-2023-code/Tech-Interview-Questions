@@ -78,7 +78,7 @@ Of the **52 questions in this cut that carry a topic label** (41% of it):
 | **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Medium | 🆕 Sep 15, 2026 |
 | **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🆕 Sep 15, 2026 |
 | **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Medium | 🆕 Sep 15, 2026 |
-| **Vanta** | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Medium | 🆕 Sep 12, 2026 |
+| **Vanta** | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Medium | Sep 12, 2026 |
 | **Perplexity** | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | Medium | Sep 01, 2026 |
 | **Mistral AI** | [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) | — | Sep 01, 2026 |
 | **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Hard | Sep 01, 2026 |

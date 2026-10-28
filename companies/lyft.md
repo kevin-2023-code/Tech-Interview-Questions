@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **49** |
 | Most recent sighting | Sep 08, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (35% of 49) |
 | Difficulty (easy / medium / hard) | 0 / 33 / 8 |
 | Free to practise | [20](../free/README.md) |
@@ -38,14 +38,12 @@ Which stage each question came from, for the **49 of 49** questions at Lyft that
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Design a Globally Versioned Key-Value Store](https://trueinterview.io/questions/design-a-globally-versioned-key-value-store) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 08, 2026 |
 | [Explain Project Ownership and Collaboration with Colleagues](https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues) | Blog | — | Onsite / virtual onsite | Sep 08, 2026 |
-| [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | Onsite / virtual onsite | Jul 29, 2026 |
-| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 29, 2026 |
 
 ## What they ask about
 

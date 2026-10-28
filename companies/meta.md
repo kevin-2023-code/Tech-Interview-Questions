@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **489** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 18 |
+| Reported in the last 90 days | 17 |
 | Most common format | [Algorithm](../formats/algorithm.md) (37% of 489) |
 | Difficulty (easy / medium / hard) | 45 / 205 / 91 |
 | Free to practise | [198](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **489 of 489** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**18 sightings** in this window. Newest first.
+**17 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **489 of 489** questions at Meta th
 | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | System Design | Easy | Phone screen | Aug 29, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Aug 27, 2026 |
 
-<sub>6 more in this window are in the table below.</sub>
+<sub>5 more in this window are in the table below.</sub>
 
 ## What they ask about
 

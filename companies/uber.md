@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **266** |
 | Most recent sighting | Sep 29, 2026 |
-| Reported in the last 90 days | 12 |
+| Reported in the last 90 days | 11 |
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 266) |
 | Difficulty (easy / medium / hard) | 28 / 154 / 45 |
 | Free to practise | [103](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **266 of 266** questions at Uber th
 
 ## Asked here in the last 90 days
 
-**12 sightings** in this window. Newest first.
+**11 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -53,7 +53,6 @@ Which stage each question came from, for the **266 of 266** questions at Uber th
 | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | Phone screen | Aug 11, 2026 |
 | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Onsite / virtual onsite | Aug 10, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 
 ## What they ask about
 

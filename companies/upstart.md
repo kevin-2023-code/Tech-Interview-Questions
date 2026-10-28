@@ -111,7 +111,7 @@ The 8 questions to open first if you are preparing for Upstart, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Algorithm | Easy | 🆕 Sep 12, 2026 |
+| [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Algorithm | Easy | Sep 12, 2026 |
 | [Move across a server grid efficiently](https://trueinterview.io/questions/implement-three-assessment-functions-move-across-a-server-grid-efficiently) | Algorithm | Medium | Apr 20, 2026 |
 | [Find the highest eligible score](https://trueinterview.io/questions/implement-three-assessment-functions-find-the-highest-eligible-score) | Algorithm | Easy | Apr 20, 2026 |
 | [Compute coordinate bounds](https://trueinterview.io/questions/implement-three-assessment-functions-compute-coordinate-bounds) | Algorithm | Easy | Apr 20, 2026 |

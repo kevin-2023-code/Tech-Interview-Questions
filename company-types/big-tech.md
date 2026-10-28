@@ -48,7 +48,7 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**344 sightings** across this cut. Newest first.
+**340 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>332 more in this window are in the table below.</sub>
+<sub>328 more in this window are in the table below.</sub>
 
 ---
 
@@ -161,7 +161,7 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | **AMD** | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | — | 🆕 Sep 14, 2026 |
 | **AMD** | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | Medium | 🆕 Sep 14, 2026 |
 | **Amazon** | [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach) | — | 🆕 Sep 14, 2026 |
-| **LinkedIn** | [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | — | 🆕 Sep 12, 2026 |
+| **LinkedIn** | [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | — | Sep 12, 2026 |
 | **Amazon** | [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations) | Medium | Sep 11, 2026 |
 | **Apple** | [Forecast Storage Demand Across 100 Data Centers](https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers) | Hard | Sep 11, 2026 |
 | **Amazon** | [Evaluate a Two Percent CTR Lift in Music Recommendations](https://trueinterview.io/questions/evaluate-a-two-percent-ctr-lift-in-music-recommendations) | — | Sep 11, 2026 |

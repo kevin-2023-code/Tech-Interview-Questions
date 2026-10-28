@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **35** |
 | Most recent sighting | Aug 26, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (63% of 35) |
 | Difficulty (easy / medium / hard) | 9 / 21 / 1 |
 | Free to practise | [14](../free/README.md) |
@@ -38,13 +38,12 @@ Which stage each question came from, for the **35 of 35** questions at Akuna Cap
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Evaluate a Hexadecimal Bitwise AND](https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and) | Blog | — | Phone screen | Aug 26, 2026 |
 | [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | Phone screen | Aug 26, 2026 |
-| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
 
 ## What they ask about
 

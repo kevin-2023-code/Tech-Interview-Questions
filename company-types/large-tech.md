@@ -48,7 +48,7 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**181 sightings** across this cut. Newest first.
+**178 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | OpenAI, Airbnb … | System Design | Sep 23, 2026 |
 | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Pinterest | Blog | Sep 23, 2026 |
 
-<sub>169 more in this window are in the table below.</sub>
+<sub>166 more in this window are in the table below.</sub>
 
 ---
 
@@ -115,9 +115,9 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 | **Rippling** | [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | — | 🆕 Sep 13, 2026 |
 | **Rippling** | [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | — | 🆕 Sep 13, 2026 |
 | **Rippling** | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Hard | 🆕 Sep 13, 2026 |
-| **Anthropic** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | — | 🆕 Sep 12, 2026 |
-| **Anthropic** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | — | 🆕 Sep 12, 2026 |
-| **Upstart** | [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Easy | 🆕 Sep 12, 2026 |
+| **Anthropic** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | — | Sep 12, 2026 |
+| **Anthropic** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | — | Sep 12, 2026 |
+| **Upstart** | [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Easy | Sep 12, 2026 |
 | **Instacart** | [Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts](https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts) | Medium | Sep 11, 2026 |
 | **Instacart** | [Make a Variable Resolver Safe for Production Use](https://trueinterview.io/questions/make-a-variable-resolver-safe-for-production-use) | Medium | Sep 11, 2026 |
 | **Instacart** | [Design a Grocery-Ordering Backend with Reliable Inventory Reservations](https://trueinterview.io/questions/design-a-grocery-ordering-backend-with-reliable-inventory-reservations) | Medium | Sep 11, 2026 |

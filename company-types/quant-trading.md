@@ -48,7 +48,7 @@ Of the **198 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**48 sightings** across this cut. Newest first.
+**40 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **198 questions in this cut that carry a topic label** (53% of it):
 | [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | Drw | Blog | Sep 13, 2026 |
 | [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | Drw | Blog | Sep 13, 2026 |
 
-<sub>36 more in this window are in the table below.</sub>
+<sub>28 more in this window are in the table below.</sub>
 
 ---
 

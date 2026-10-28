@@ -48,7 +48,7 @@ Of the **558 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**165 sightings** across this cut. Newest first.
+**161 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **558 questions in this cut that carry a topic label** (45% of it):
 | [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Amazon | Algorithm | Sep 29, 2026 |
 | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Amazon | Algorithm | Sep 28, 2026 |
 
-<sub>153 more in this window are in the table below.</sub>
+<sub>149 more in this window are in the table below.</sub>
 
 ---
 

@@ -64,7 +64,7 @@ Of the **53 questions in this cut that carry a topic label** (66% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Vanta** | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Medium | 🆕 Sep 12, 2026 |
+| **Vanta** | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Medium | Sep 12, 2026 |
 | **Verkada** | [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | Medium | Sep 04, 2026 |
 | **Verkada** | [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Medium | Sep 04, 2026 |
 | **Okta** | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Medium | Aug 20, 2026 |

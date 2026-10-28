@@ -56,7 +56,7 @@
 | [Resolve Team Disagreement During a Cross-Functional Performance Fix](https://trueinterview.io/questions/resolve-team-disagreement-during-a-cross-functional-performance-fix) | **Google** | — | Jan 06, 2026 |
 | [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | **Microsoft** | — | Sep 10, 2026 |
 | [Respond Constructively to Negative Feedback](https://trueinterview.io/questions/respond-constructively-to-negative-feedback) | **Amazon** | — | Mar 12, 2026 |
-| [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | **Anthropic** | — | 🆕 Sep 12, 2026 |
+| [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | **Anthropic** | — | Sep 12, 2026 |
 | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | **Amazon** | — | Sep 05, 2026 |
 | [Respond to long-term concerns after A/B success](https://trueinterview.io/questions/respond-to-long-term-concerns-after-a-b-success) | **Google** | — | Jan 06, 2026 |
 | [Respond to Negative Feedback About Your Work](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) | **Instacart** | — | Aug 28, 2026 |

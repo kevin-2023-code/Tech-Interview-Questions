@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **41** |
 | Most recent sighting | Jul 29, 2026 |
-| Reported in the last 90 days | 7 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (49% of 41) |
 | Difficulty (easy / medium / hard) | 5 / 18 / 6 |
 | Free to practise | [15](../free/README.md) |
@@ -38,17 +38,7 @@ Which stage each question came from, for the **41 of 41** questions at Point72 t
 
 ## Asked here in the last 90 days
 
-**7 sightings** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
-| [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
-| [Coins and Energy](https://trueinterview.io/questions/coins-and-energy) | Algorithm | Hard | Online assessment | Jul 29, 2026 |
-| [Count Maximum Borrowing Days](https://trueinterview.io/questions/count-maximum-borrowing-days) | Algorithm | Hard | Online assessment | Jul 29, 2026 |
-| [League Earnings](https://trueinterview.io/questions/league-earnings) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
-| [Optimal Stock Price Subsequence](https://trueinterview.io/questions/optimal-stock-price-subsequence) | Algorithm | Hard | Online assessment | Jul 29, 2026 |
-| [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Medium | Online assessment, Onsite / virtual onsite | Jul 29, 2026 |
+**Nothing has been reported at Point72 since Jul 29, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

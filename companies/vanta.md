@@ -110,7 +110,7 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | System Design | Medium | 🆕 Sep 12, 2026 |
+| [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | System Design | Medium | Sep 12, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Medium | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Algorithm | Medium | Jul 16, 2026 |
 | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | Jul 10, 2026 |

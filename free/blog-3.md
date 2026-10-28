@@ -227,7 +227,7 @@
 | [Experiment on increasing order notifications](https://trueinterview.io/questions/experiment-on-increasing-order-notifications) | **DoorDash** | — | — |
 | [Experimentally evaluate jogging-route recommendations](https://trueinterview.io/questions/experimentally-evaluate-jogging-route-recommendations) | **Google** | — | — |
 | [Explain a Difficult Project and Its Scaling Decisions](https://trueinterview.io/questions/explain-a-difficult-project-and-its-scaling-decisions) | **ByteDance** | — | Apr 12, 2026 |
-| [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | **LinkedIn** | — | 🆕 Sep 12, 2026 |
+| [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | **LinkedIn** | — | Sep 12, 2026 |
 | [Explain a favorite model end-to-end](https://trueinterview.io/questions/explain-a-favorite-model-end-to-end) | **Google** | — | — |
 | [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) | **Intuit** | — | — |
 | [Explain a past project and critique a prior team](https://trueinterview.io/questions/explain-a-past-project-and-critique-a-prior-team) | **LinkedIn** | — | Oct 20, 2025 |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **50** |
 | Most recent sighting | Jul 29, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 50) |
 | Difficulty (easy / medium / hard) | 2 / 29 / 10 |
 | Free to practise | [12](../free/README.md) |
@@ -38,11 +38,7 @@ Which stage each question came from, for the **50 of 50** questions at Two Sigma
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
+**Nothing has been reported at Two Sigma since Jul 29, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
