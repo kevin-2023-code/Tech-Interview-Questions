@@ -80,7 +80,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 99 | 6 | 12 | Sep 17, 2026 | 36 |
 | [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 98 | 1 | 12 | Oct 01, 2026 | 25 |
 | [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 95 | 1 | 2 | Oct 01, 2026 | 27 |
-| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 89 | 3 | 8 | Sep 15, 2026 | 26 |
+| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 89 | 3 | 7 | Sep 15, 2026 | 26 |
 | [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 87 | 4 | 1 | Aug 27, 2026 | 24 |
 | [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 87 | 3 | 7 | Sep 09, 2026 | 34 |
 | [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 87 | 1 | 7 | Sep 29, 2026 | 16 |
@@ -121,7 +121,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Datadog](datadog.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 28 | 1 | 1 | Aug 17, 2026 | 7 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 28 | 1 | 0 | Jun 23, 2026 | 12 |
 | [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 27 | 1 | 1 | Sep 17, 2026 | 19 |
-| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 27 | 1 | 7 | Oct 01, 2026 | 17 |
+| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 27 | 1 | 6 | Oct 01, 2026 | 17 |
 | [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 25 | 3 | 2 | Sep 01, 2026 | 6 |
 | [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 23 | 1 | 5 | Sep 15, 2026 | 6 |
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 22 | 1 | 0 | May 01, 2026 | 8 |

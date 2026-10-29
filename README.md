@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,924 questions** · **255 writeups** · **132 companies** · **1,976 free to practise** · **670 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,924 questions** · **255 writeups** · **132 companies** · **1,976 free to practise** · **668 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,7 +42,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 670 sightings at 87 companies — Algorithm 221 · SQL 15 · System Design 145 · AI Coding 5 · Blog 208 · Object Oriented Programming 76.
+**Last 90 days:** 668 sightings at 87 companies — Algorithm 220 · SQL 15 · System Design 144 · AI Coding 5 · Blog 208 · Object Oriented Programming 76.
 
 **Reported most:** [Amazon (88)](companies/amazon.md) · [ByteDance (43)](companies/bytedance.md) · [Google (40)](companies/google.md) · [Microsoft (36)](companies/microsoft.md) · [Oracle (25)](companies/oracle.md) · [OpenAI (24)](companies/openai.md) · [LinkedIn (23)](companies/linkedin.md) · [DoorDash (21)](companies/doordash.md)
 
@@ -157,7 +157,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 <!-- gen:latest:start -->
 | Company | Question | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| **Airbnb** | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Object Oriented Programming | 🔥 Oct 14, 2026 |
+| **Airbnb** | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Object Oriented Programming | 🆕 Oct 14, 2026 |
 | **Airbnb** | [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Object Oriented Programming | 🆕 Oct 09, 2026 |
 | **Disney** | [Data Pipeline Design (Data Engineer)](https://trueinterview.io/questions/data-pipeline-design-data-engineer) | System Design | 🆕 Oct 08, 2026 |
 | **Disney** | [Data Engineer Tech Questions: LLM Prompting, Data Quality & Security](https://trueinterview.io/questions/data-engineer-llm-prompting-and-data-quality) | Object Oriented Programming | 🆕 Oct 08, 2026 |

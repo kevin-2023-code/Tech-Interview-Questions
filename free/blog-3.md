@@ -218,11 +218,11 @@
 | [Evaluate Two Partnerships with Unit Economics and Break-Even Analysis](https://trueinterview.io/questions/evaluate-two-partnerships-with-unit-economics-and-break-even-analysis) | **Capital One** | — | May 04, 2026 |
 | [Evaluating Generative AI Use and Accuracy](https://trueinterview.io/questions/evaluating-generative-ai-use-and-accuracy) | **Amazon** | — | Sep 02, 2026 |
 | [Evaluating the Impact of Duplicate and Stolen Posts on a Content Platform](https://trueinterview.io/questions/evaluating-the-impact-of-duplicate-and-stolen-posts-on-a-content-platform) | **Meta** | — | Feb 01, 2026 |
-| [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | **Drw** | — | 🆕 Sep 13, 2026 |
+| [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | **Drw** | — | Sep 13, 2026 |
 | [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) | **Goldman Sachs** | — | Sep 02, 2026 |
-| [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | **Drw** | — | 🆕 Sep 13, 2026 |
-| [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | **Drw** | — | 🆕 Sep 13, 2026 |
-| [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | **Drw** | — | 🆕 Sep 13, 2026 |
+| [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | **Drw** | — | Sep 13, 2026 |
+| [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | **Drw** | — | Sep 13, 2026 |
+| [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | **Drw** | — | Sep 13, 2026 |
 | [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive) | **Airbnb** | — | Jun 22, 2026 |
 | [Experiment on increasing order notifications](https://trueinterview.io/questions/experiment-on-increasing-order-notifications) | **DoorDash** | — | — |
 | [Experimentally evaluate jogging-route recommendations](https://trueinterview.io/questions/experimentally-evaluate-jogging-route-recommendations) | **Google** | — | — |

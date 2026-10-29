@@ -134,7 +134,7 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Object Oriented Programming | Medium | 🔥 Oct 14, 2026 |
+| [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Object Oriented Programming | Medium | 🆕 Oct 14, 2026 |
 | [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Object Oriented Programming | Medium | 🆕 Oct 09, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
 | [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Algorithm | Medium | 🆕 Sep 19, 2026 |

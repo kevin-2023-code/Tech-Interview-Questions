@@ -46,7 +46,7 @@
 | [Explain hash map internals and edge cases](https://trueinterview.io/questions/explain-hash-map-internals-and-edge-cases) | **Microsoft** | — | Dec 17, 2025 |
 | [Explain HashMap Resizing Without Long Pauses](https://trueinterview.io/questions/explain-hashmap-resizing-without-long-pauses) | **Apple** | — | Oct 28, 2025 |
 | [Explain helping-others trade-offs with evidence](https://trueinterview.io/questions/explain-helping-others-trade-offs-with-evidence) | **Capital One** | — | — |
-| [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | **Rippling** | — | 🆕 Sep 13, 2026 |
+| [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | **Rippling** | — | Sep 13, 2026 |
 | [Explain How AI Supports Your Engineering Work](https://trueinterview.io/questions/explain-how-ai-supports-your-engineering-work) | **Capital One** | — | Aug 23, 2026 |
 | [Explain how helping others helped you](https://trueinterview.io/questions/explain-how-helping-others-helped-you) | **Capital One** | — | — |
 | [Explain How You Know a Professional Referrer](https://trueinterview.io/questions/explain-how-you-know-a-professional-referrer) | **Anthropic** | — | Aug 28, 2026 |
@@ -121,7 +121,7 @@
 | [Explain the Design of a Recent Feature](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature) | **LinkedIn** | — | Aug 31, 2026 |
 | [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) | **Mistral AI** | — | Sep 01, 2026 |
 | [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | **AMD** | — | 🆕 Sep 14, 2026 |
-| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | **Rippling** | — | 🆕 Sep 13, 2026 |
+| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | **Rippling** | — | Sep 13, 2026 |
 | [Explain the TCP Three-Way Handshake and Its Guarantees](https://trueinterview.io/questions/explain-the-tcp-three-way-handshake-and-its-guarantees) | **ByteDance** | — | Aug 23, 2026 |
 | [Explain Tight-Deadline Delivery and a Missed Deadline](https://trueinterview.io/questions/explain-tight-deadline-delivery-and-a-missed-deadline) | **Amazon** | — | Aug 30, 2026 |
 | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | **ByteDance** | — | Sep 05, 2026 |
@@ -149,7 +149,7 @@
 | [Explain XGBoost's Overfitting Resistance](https://trueinterview.io/questions/explain-xgboosts-overfitting-resistance) | **ByteDance** | — | Mar 27, 2026 |
 | [Explain your career and flagship project](https://trueinterview.io/questions/explain-your-career-and-flagship-project) | **Shopify** | — | Mar 01, 2026 |
 | [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) | **Axon** | — | Feb 09, 2026 |
-| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | **Rippling** | — | 🆕 Sep 13, 2026 |
+| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | **Rippling** | — | Sep 13, 2026 |
 | [Explain Your Engineering Ownership](https://trueinterview.io/questions/explain-your-engineering-ownership) | **OpenAI** | — | Apr 04, 2026 |
 | [Explain Your Highest-Impact Project](https://trueinterview.io/questions/explain-your-highest-impact-project) | **Meta** | — | Aug 25, 2026 |
 | [Explain your LLM project and contributions](https://trueinterview.io/questions/explain-your-llm-project-and-contributions) | **Apple** | — | Jan 17, 2026 |
@@ -159,7 +159,7 @@
 | [Explain Your Most Meaningful Project Contribution](https://trueinterview.io/questions/explain-your-most-meaningful-project-contribution) | **Google** | — | Aug 06, 2026 |
 | [Explain Your Motivation and Practical Approach to AI Safety](https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety) | **Anthropic** | — | Aug 22, 2026 |
 | [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) | **OpenAI** | — | — |
-| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | **Rippling** | — | 🆕 Sep 13, 2026 |
+| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | **Rippling** | — | Sep 13, 2026 |
 | [Explain your top strengths concretely](https://trueinterview.io/questions/explain-your-top-strengths-concretely) | **Cvs Health** | — | — |
 | [Explain your VLM project end-to-end](https://trueinterview.io/questions/explain-your-vlm-project-end-to-end) | **ByteDance** | — | Dec 15, 2025 |
 | [Extract insights from a multi-entry funnel scorecard](https://trueinterview.io/questions/extract-insights-from-a-multi-entry-funnel-scorecard) | **Intuit** | — | Oct 21, 2025 |

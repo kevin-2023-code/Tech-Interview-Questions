@@ -77,7 +77,7 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Airbnb** | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Medium | 🔥 Oct 14, 2026 |
+| **Airbnb** | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Medium | 🆕 Oct 14, 2026 |
 | **Airbnb** | [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Medium | 🆕 Oct 09, 2026 |
 | **Stripe** | [Payment State Machine](https://trueinterview.io/questions/payment-state-machine-oa) | Medium | 🆕 Oct 04, 2026 |
 | **OpenAI** | [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | Medium | 🆕 Oct 04, 2026 |
@@ -110,11 +110,11 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 | **xAI** | [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | Hard | 🆕 Sep 15, 2026 |
-| **Rippling** | [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | — | 🆕 Sep 13, 2026 |
-| **Rippling** | [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | — | 🆕 Sep 13, 2026 |
-| **Rippling** | [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | — | 🆕 Sep 13, 2026 |
-| **Rippling** | [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | — | 🆕 Sep 13, 2026 |
-| **Rippling** | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Hard | 🆕 Sep 13, 2026 |
+| **Rippling** | [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | — | Sep 13, 2026 |
+| **Rippling** | [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | — | Sep 13, 2026 |
+| **Rippling** | [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | — | Sep 13, 2026 |
+| **Rippling** | [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | — | Sep 13, 2026 |
+| **Rippling** | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Hard | Sep 13, 2026 |
 | **Anthropic** | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | — | Sep 12, 2026 |
 | **Anthropic** | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | — | Sep 12, 2026 |
 | **Upstart** | [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Easy | Sep 12, 2026 |

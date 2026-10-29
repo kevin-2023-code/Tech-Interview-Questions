@@ -130,7 +130,7 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Object Oriented Programming | Medium | 🆕 Sep 13, 2026 |
+| [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Object Oriented Programming | Medium | Sep 13, 2026 |
 | [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | System Design | Hard | Sep 04, 2026 |
 | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Object Oriented Programming | Medium | Sep 04, 2026 |
 | [Use Metrics and Logs to Establish a Production Root Cause](https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause) | Blog | — | Sep 01, 2026 |

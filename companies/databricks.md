@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **89** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 8 |
+| Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (40% of 89) |
 | Difficulty (easy / medium / hard) | 10 / 49 / 21 |
 | Free to practise | [26](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **89 of 89** questions at Databrick
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -49,7 +49,6 @@ Which stage each question came from, for the **89 of 89** questions at Databrick
 | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Algorithm | Medium | Onsite / virtual onsite | Sep 06, 2026 |
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 31, 2026 |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | Blog | — | Onsite / virtual onsite | Aug 13, 2026 |
-| [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jul 30, 2026 |
 
 ## What they ask about
 

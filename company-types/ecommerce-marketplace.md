@@ -48,7 +48,7 @@ Of the **558 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**161 sightings** across this cut. Newest first.
+**160 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **558 questions in this cut that carry a topic label** (45% of it):
 | [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Amazon | Algorithm | Sep 29, 2026 |
 | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Amazon | Algorithm | Sep 28, 2026 |
 
-<sub>149 more in this window are in the table below.</sub>
+<sub>148 more in this window are in the table below.</sub>
 
 ---
 
@@ -77,7 +77,7 @@ Of the **558 questions in this cut that carry a topic label** (45% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Airbnb** | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Medium | 🔥 Oct 14, 2026 |
+| **Airbnb** | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Medium | 🆕 Oct 14, 2026 |
 | **Airbnb** | [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Medium | 🆕 Oct 09, 2026 |
 | **Amazon** | [Number of Islands with Max-Area and Streaming-Rows Follow-Ups](https://trueinterview.io/questions/number-of-islands-max-area-streaming) | Medium | 🆕 Oct 03, 2026 |
 | **Amazon** | [Service Instance Rating Threshold](https://trueinterview.io/questions/max-k-instances-rated-at-least-k) | Easy | 🆕 Oct 03, 2026 |

@@ -213,7 +213,7 @@
 | [Plan and lead a large recommendation project](https://trueinterview.io/questions/plan-and-lead-a-large-recommendation-project) | **LinkedIn** | — | Feb 18, 2026 |
 | [Plan and validate ranking experiment](https://trueinterview.io/questions/plan-and-validate-ranking-experiment) | **SoFi** | — | — |
 | [Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/questions/behavioral-policy-vs-efficiency-leadership) | **Waymo** | — | Feb 14, 2026 |
-| [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | **Drw** | — | 🆕 Sep 13, 2026 |
+| [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | **Drw** | — | Sep 13, 2026 |
 | [Power Day Behavioral](https://trueinterview.io/questions/power-day-behavioral) | **Capital One** | — | May 13, 2026 |
 | [Present a Previous Project Deep Dive](https://trueinterview.io/questions/present-a-previous-project-deep-dive) | **Coinbase** | — | Jan 05, 2026 |
 | [Present a project to non-technical leaders](https://trueinterview.io/questions/present-a-project-to-non-technical-leaders) | **Onemain Financial** | — | — |
@@ -234,7 +234,7 @@
 | [Prioritize six improvements for a favorite app](https://trueinterview.io/questions/prioritize-six-improvements-for-a-favorite-app) | **Capital One** | — | — |
 | [Prioritize Two Critical Tasks](https://trueinterview.io/questions/prioritize-two-critical-tasks) | **Oracle** | — | Aug 21, 2026 |
 | [Probability and Combinatorics Quickfire Quiz](https://trueinterview.io/questions/trading-probability-quickfire) | **Citadel** | — | Nov 21, 2025 |
-| [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | **Drw** | — | 🆕 Sep 13, 2026 |
+| [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | **Drw** | — | Sep 13, 2026 |
 | [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal) | **xAI** | — | Jan 27, 2026 |
 | [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding) | **Reddit** | — | Mar 23, 2026 |
 | [Professional Introduction for a Recruiter Screen](https://trueinterview.io/questions/professional-introduction-for-a-recruiter-screen) | **Upstart** | — | Jan 15, 2026 |

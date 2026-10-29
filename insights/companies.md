@@ -62,7 +62,7 @@
 | [Anthropic](../companies/anthropic.md) | 99 | 6 | 36 | 12 | Sep 17, 2026 | Object Oriented Programming | `hashing` |
 | [Citadel](../companies/citadel.md) | 98 | 1 | 25 | 12 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Bloomberg](../companies/bloomberg.md) | 95 | 1 | 27 | 2 | Oct 01, 2026 | Algorithm | `hashing` |
-| [Databricks](../companies/databricks.md) | 89 | 3 | 26 | 8 | Sep 15, 2026 | Algorithm | `hashing` |
+| [Databricks](../companies/databricks.md) | 89 | 3 | 26 | 7 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Coinbase](../companies/coinbase.md) | 87 | 4 | 24 | 1 | Aug 27, 2026 | Object Oriented Programming | `graphs` |
 | [Snapchat](../companies/snapchat.md) | 87 | 3 | 34 | 7 | Sep 09, 2026 | Algorithm | `graphs` |
 | [Waymo](../companies/waymo.md) | 87 | 1 | 16 | 7 | Sep 29, 2026 | Algorithm | `graphs` |
@@ -103,7 +103,7 @@
 | [Datadog](../companies/datadog.md) | 28 | 1 | 7 | 1 | Aug 17, 2026 | Algorithm | `hashing` |
 | [JPMorgan](../companies/jpmorgan.md) | 28 | 1 | 12 | 0 | Jun 23, 2026 | Algorithm | `arrays` |
 | [Cisco](../companies/cisco.md) | 27 | 1 | 19 | 1 | Sep 17, 2026 | Algorithm | `arrays` |
-| [Pinduoduo](../companies/pinduoduo.md) | 27 | 1 | 17 | 7 | Oct 01, 2026 | Algorithm | `matrix` |
+| [Pinduoduo](../companies/pinduoduo.md) | 27 | 1 | 17 | 6 | Oct 01, 2026 | Algorithm | `matrix` |
 | [Perplexity](../companies/perplexity.md) | 25 | 3 | 6 | 2 | Sep 01, 2026 | Algorithm | `heap` |
 | [Harvey](../companies/harvey.md) | 23 | 1 | 6 | 5 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Hudson River Trading](../companies/hudson-river-trading.md) | 22 | 1 | 8 | 0 | May 01, 2026 | Algorithm | `arrays` |

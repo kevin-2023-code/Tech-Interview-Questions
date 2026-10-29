@@ -126,11 +126,11 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Object Oriented Programming | Hard | 🆕 Sep 18, 2026 |
-| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | Blog | — | 🆕 Sep 13, 2026 |
-| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | Blog | — | 🆕 Sep 13, 2026 |
-| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | Blog | — | 🆕 Sep 13, 2026 |
-| [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | Blog | — | 🆕 Sep 13, 2026 |
-| [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Algorithm | Hard | 🆕 Sep 13, 2026 |
+| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/questions/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | Blog | — | Sep 13, 2026 |
+| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/questions/explain-your-current-and-previous-engineering-roles) | Blog | — | Sep 13, 2026 |
+| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | Blog | — | Sep 13, 2026 |
+| [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/questions/explain-how-ai-supports-your-design-and-coding-work) | Blog | — | Sep 13, 2026 |
+| [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Algorithm | Hard | Sep 13, 2026 |
 | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Object Oriented Programming | Hard | Sep 11, 2026 |
 | [Design News Pull Scheduling, Article Storage, and Topic Reads](https://trueinterview.io/questions/design-news-pull-scheduling-article-storage-and-topic-reads) | System Design | Medium | Sep 10, 2026 |
 | [Design a Logger with Independent Handlers](https://trueinterview.io/questions/design-a-logger-with-independent-handlers) | Object Oriented Programming | Medium | Aug 21, 2026 |

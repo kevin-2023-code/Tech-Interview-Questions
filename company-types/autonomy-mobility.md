@@ -76,7 +76,7 @@ Of the **109 questions in this cut that carry a topic label** (54% of it):
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Waymo** | [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Medium | 🆕 Sep 29, 2026 |
-| **Tesla** | [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Medium | 🆕 Sep 13, 2026 |
+| **Tesla** | [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Medium | Sep 13, 2026 |
 | **Waymo** | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | — | Sep 06, 2026 |
 | **Tesla** | [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | Hard | Sep 04, 2026 |
 | **Tesla** | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Medium | Sep 04, 2026 |
