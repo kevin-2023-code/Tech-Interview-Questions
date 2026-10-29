@@ -2,13 +2,13 @@
 
 # Waymo interview process, OA & interview questions
 
-**87 questions** reported at Waymo · **1 writeup** · **19 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
+**87 questions** reported at Waymo · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Waymo interviews & the free questions](waymo/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🚗 [Autonomy, automotive & mobility](../company-types/autonomy-mobility.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-waymo)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-waymo)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 10 / 48 / 18 |
 | Free to practise | [16](../free/README.md) |
 | Guides & writeups | 1 |
-| Interview reports on the board | 19 in this snapshot |
 
 <sub>Counted from the 87 questions reported at Waymo. 71 of them carry a sighting date; the other 16 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -113,34 +112,6 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | Writeup | Topics |
 | :-- | :-- |
 | [Waymo Interview Process & Questions](https://trueinterview.io/study/waymo-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Waymo — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Waymo Counting Squares from Line Segments Coding Interview Experience](https://trueinterview.io/interviews/566a5e47-ada1-4754-b5bd-a7e039b220cd) | Oct 27, 2026 |
-| Data & AI | [Waymo Data Role Interview Experience](https://trueinterview.io/interviews/74733c21-26c5-4539-a111-4f495973fae5) | Oct 27, 2026 |
-| Software | [Waymo Interview Experience](https://trueinterview.io/interviews/284a55d8-c803-475f-a203-08ab309f6ce4) | Oct 27, 2026 |
-| Software | [Waymo Map Data Vehicle Fleet Design and Grid Coding Interview Experience](https://trueinterview.io/interviews/5e19efc4-9ff1-4113-8053-5f1246c1ad46) | Oct 27, 2026 |
-| Software | [Waymo Org Chart FTE Score Coding Interview Experience](https://trueinterview.io/interviews/59c5dabd-ae15-493b-bf86-bcd64a6183e1) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer / MLE / Data Roles Interview Experience Compilation (2026)](https://trueinterview.io/interviews/6e10c381-3689-4172-8fd5-e9cb86469a96) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience](https://trueinterview.io/interviews/0cdf97d1-00d3-4e29-9ff3-b14562938646) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience](https://trueinterview.io/interviews/8156b61b-19f2-4cb9-80c6-b6539719341f) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience](https://trueinterview.io/interviews/9599ea13-67de-4390-9dc1-e0b738ac6c2a) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience (California, MD)](https://trueinterview.io/interviews/c0b9bbca-f902-475b-b184-6fbdcd979558) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience (California, MD, 2026)](https://trueinterview.io/interviews/100ee165-baf2-4d04-924d-7c5ceb12d809) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience (Mountain View, CA)](https://trueinterview.io/interviews/4d3f5a7a-6d56-495e-b268-23e075bff7a3) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience (Mountain View, CA, 2026)](https://trueinterview.io/interviews/f1ab92ad-4958-416a-9292-d24e0a707567) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/152d342a-a13f-4f3a-8b63-8aaf70f02d04) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/4b81d725-f2f1-4e49-be46-158f2d1e736c) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience (United States)](https://trueinterview.io/interviews/5dfa5f98-9271-4f4b-ab46-9ac24e6905a9) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience (Warsaw, Masovia, 2026)](https://trueinterview.io/interviews/d581fbf6-b321-4fd9-a832-77452bd286bb) | Oct 27, 2026 |
-| Software | [Waymo Software Engineer Interview Experience: Board Generation, Hex Dump and Ride-Sharing Design](https://trueinterview.io/interviews/fbbcc45d-bd3a-49fa-88b9-c92a9ad4f167) | Oct 27, 2026 |
-| Software | [Waymo Vehicle Maintenance Readiness Check Coding Interview Experience](https://trueinterview.io/interviews/7fbc047c-8ac2-45ce-8c87-e81bb87fa68d) | Oct 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 6,866 in total). [Every report at Waymo and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

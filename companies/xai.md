@@ -2,13 +2,13 @@
 
 # xAI interview process, OA & interview questions
 
-**43 questions** reported at xAI · **4 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/xai), judged server-side on the algorithm, low-level-design and SQL formats.
+**43 questions** reported at xAI · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/xai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How xAI interviews & the free questions](xai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-xai)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-xai)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 5 / 26 / 8 |
 | Free to practise | [9](../free/README.md) |
 | Guides & writeups | 4 |
-| Interview reports on the board | 5 in this snapshot |
 
 <sub>Counted from the 43 questions reported at xAI. 32 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -111,20 +110,6 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | [SpaceXAI (formerly xAI) Interview Process & Questions](https://trueinterview.io/study/xai-interview-process) | — |
 | [SpaceXAI (formerly xAI) Machine Learning Engineer Interview Process](https://trueinterview.io/study/xai-machine-learning-engineer-interview-process) | — |
 | [SpaceXAI (formerly xAI) Software Engineer Interview Process](https://trueinterview.io/study/xai-software-engineer-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at xAI — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Data & AI | [xAI Data Scientist Interview Experience (Nigeria)](https://trueinterview.io/interviews/492b3675-67d3-443b-a13e-6f8a45e59c25) | Oct 27, 2026 |
-| Data & AI | [xAI Machine Learning Engineer Interview Experience (United States)](https://trueinterview.io/interviews/778b2cec-5408-44f6-bc7b-e9dbd5b93804) | Oct 27, 2026 |
-| Software | [xAI Software Engineer Interview Experience (Canada)](https://trueinterview.io/interviews/f05d566d-d17f-4d6a-8bf9-b7711831b3d0) | Oct 27, 2026 |
-| Software | [xAI Software Engineer Interview Experience (Kenya, 2025)](https://trueinterview.io/interviews/b8e8deb8-db13-44e3-9af7-9923cf2545b9) | Oct 27, 2026 |
-| Software | [xAI Software Engineer Interview Experience (São Paulo, Brazil)](https://trueinterview.io/interviews/8f14f47e-5311-482b-ba86-84cb619c896a) | Oct 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 6,866 in total). [Every report at xAI and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

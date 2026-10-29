@@ -2,13 +2,13 @@
 
 # Apple interview process, OA & interview questions
 
-**182 questions** reported at Apple · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
+**182 questions** reported at Apple · **4 writeups** · **18 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Apple interviews & the free questions](apple/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🖥️ [Hardware, devices & networking](../company-types/hardware-devices.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-apple)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-apple)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 34 / 90 / 27 |
 | Free to practise | [72](../free/README.md) |
 | Guides & writeups | 4 |
+| Interview reports on the board | 18 in this snapshot |
 
 <sub>Counted from the 182 questions reported at Apple. 134 of them carry a sighting date; the other 48 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -120,6 +121,33 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Apple Interview Process & Questions](https://trueinterview.io/study/apple-interview-process) | — |
 | [Apple Machine Learning Engineer Interview Process](https://trueinterview.io/study/apple-machine-learning-engineer-interview-process) | — |
 | [Apple Software Engineer Interview Process](https://trueinterview.io/study/apple-software-engineer-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Apple — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Apple Coding Interview Experience: Product of Array Except Self (2026)](https://trueinterview.io/interviews/8934a7e5-adc6-4000-b506-07bdf80c8d6b) | Oct 29, 2026 |
+| Software | [Apple Frontend Engineer Interview Experience (2026)](https://trueinterview.io/interviews/a5bbdaea-9ea1-441a-a344-6507eba7b0e0) | Oct 29, 2026 |
+| Software | [Apple Interview Experience (2026)](https://trueinterview.io/interviews/c5286607-d6f6-4317-be7c-2ed352166345) | Oct 29, 2026 |
+| Software | [Apple Interview Experience: Phone Directory Problem (2026)](https://trueinterview.io/interviews/9562562c-d6bd-479c-9c64-4ff3ade81578) | Oct 29, 2026 |
+| Software | [Apple IS&T Team Interview Experience (2026)](https://trueinterview.io/interviews/8e5edd05-ae5c-4445-aacb-484ce49ecde5) | Oct 29, 2026 |
+| Software | [Apple Java Spring Boot Engineer Interview Experience (2026)](https://trueinterview.io/interviews/3e27d94f-8a70-4cd1-80fd-3a0e391a6ae6) | Oct 29, 2026 |
+| Software | [Apple Kernel Engineer (Core OS) Interview Experience (2026)](https://trueinterview.io/interviews/0a43dd06-9101-441f-b360-7468fdd29383) | Oct 29, 2026 |
+| Software | [Apple Round 1 Coding Question: Subset Sum (2026) Interview Experience](https://trueinterview.io/interviews/c2a2fa22-b91a-4e24-9c4c-df2f2159590f) | Oct 29, 2026 |
+| Software | [Apple SDE 3 (Java Spring Boot) Interview Experience (2026)](https://trueinterview.io/interviews/213918db-d28a-47ec-9492-cbab0a966806) | Oct 29, 2026 |
+| Software | [Apple SDET Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/80b8d084-a342-4a63-8a60-283410a65d0d) | Oct 29, 2026 |
+| Software | [Apple Software Engineer (Ads Delivery) Interview Experience (Hyderabad, 2025)](https://trueinterview.io/interviews/b9e95672-d5be-4726-b2d7-045c889a2f57) | Oct 29, 2026 |
+| Software | [Apple Software Engineer (Java backend) Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/818afe69-6ff7-40c9-aed5-40f46fc8eb3d) | Oct 29, 2026 |
+| Software | [Apple Software Engineer (Java) Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/07e5b328-e42e-45f7-802d-ad7cd5b9f317) | Oct 29, 2026 |
+| Software | [Apple Software Engineer (Java, Spring Boot, Microservices) Interview Experience (2026)](https://trueinterview.io/interviews/f69362dd-d853-47f1-9403-4312b1e0692d) | Oct 29, 2026 |
+| Software | [Apple Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/bc2a9e54-1052-4051-8748-0f8bd7d0e6ea) | Oct 29, 2026 |
+| Software | [Apple Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/d65cfe0c-492a-4f5e-9fcc-abee4a94f196) | Oct 29, 2026 |
+| Software | [Apple SSE Interview Experience (2026)](https://trueinterview.io/interviews/90ea14ac-96f2-4a96-b74a-6ed55031fb0c) | Oct 29, 2026 |
+| Software | [Apple Weighted Random Country Generator Coding Interview Experience (2026)](https://trueinterview.io/interviews/9d9b73b5-942b-44e2-ad85-8d80ce457a3a) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,046 in total). [Every report at Apple and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

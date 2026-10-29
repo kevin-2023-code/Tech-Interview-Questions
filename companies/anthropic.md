@@ -2,13 +2,13 @@
 
 # Anthropic interview process, OA & interview questions
 
-**99 questions** reported at Anthropic · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
+**99 questions** reported at Anthropic · **6 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Anthropic interviews & the free questions](anthropic/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-anthropic)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-anthropic)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 8 / 48 / 22 |
 | Free to practise | [36](../free/README.md) |
 | Guides & writeups | 6 |
+| Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 99 questions reported at Anthropic. 70 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -122,6 +123,16 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Anthropic Machine Learning Engineer Interview Process](https://trueinterview.io/study/anthropic-machine-learning-engineer-interview-process) | — |
 | [Anthropic Research Scientist Interview Process](https://trueinterview.io/study/anthropic-research-scientist-interview-process) | — |
 | [Anthropic Software Engineer Interview Process](https://trueinterview.io/study/anthropic-software-engineer-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Anthropic — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Anthropic Software Engineer Phone Screen Interview Experience (2026)](https://trueinterview.io/interviews/1126f3e4-f9f0-4831-a2e9-c7cd61292840) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,046 in total). [Every report at Anthropic and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

@@ -2,13 +2,13 @@
 
 # Yelp interview process, OA & interview questions
 
-**22 questions** reported at Yelp · **3 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/yelp), judged server-side on the algorithm, low-level-design and SQL formats.
+**22 questions** reported at Yelp. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/yelp), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Yelp interviews & the free questions](yelp/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📱 [Consumer internet & media](../company-types/consumer-internet.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-yelp)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-yelp)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 5 / 10 / 4 |
 | Free to practise | [14](../free/README.md) |
 | Guides & writeups | 0 |
-| Interview reports on the board | 3 in this snapshot |
 
 <sub>Counted from the 22 questions reported at Yelp. 16 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -92,18 +91,6 @@ The 8 questions to open first if you are preparing for Yelp, ranked by **the mos
 | **8** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 9 | Dec 10, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Interview reports
-
-What candidates said happened in the room at Yelp — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Data & AI | [Yelp Machine Learning Engineer Interview Experience (Canada)](https://trueinterview.io/interviews/14f9f039-e47a-451d-910b-c0c60d360012) | Oct 27, 2026 |
-| Data & AI | [Yelp Machine Learning Engineer Interview Experience (Canada)](https://trueinterview.io/interviews/fed87867-0faf-4283-9781-b45ae413870c) | Oct 27, 2026 |
-| Software | [Yelp Software Engineer Interview Experience (Toronto, ON)](https://trueinterview.io/interviews/e3b223b1-3a98-459f-9358-5ee6329d37a3) | Oct 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 6,866 in total). [Every report at Yelp and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

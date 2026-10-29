@@ -2,13 +2,13 @@
 
 # Amazon interview process, OA & interview questions
 
-**470 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**470 questions** reported at Amazon · **5 writeups** · **28 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-amazon)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-amazon)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 59 / 226 / 68 |
 | Free to practise | [170](../free/README.md) |
 | Guides & writeups | 5 |
+| Interview reports on the board | 28 in this snapshot |
 
 <sub>Counted from the 470 questions reported at Amazon. 277 of them carry a sighting date; the other 193 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -125,6 +126,43 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Amazon Machine Learning Engineer Interview Process](https://trueinterview.io/study/amazon-machine-learning-engineer-interview-process) | — |
 | [Amazon Research Scientist Interview Process](https://trueinterview.io/study/amazon-research-scientist-interview-process) | — |
 | [Amazon Software Engineer Interview Process](https://trueinterview.io/study/amazon-software-engineer-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Amazon — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Data & AI | [Amazon Applied Scientist Interview Experience (2026)](https://trueinterview.io/interviews/811660f1-ccab-4eab-ad14-008d51f5d380) | Oct 29, 2026 |
+| Software | [Amazon Internship Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/c158d6d7-d7c3-4096-a5ba-7e0731b1a13e) | Oct 29, 2026 |
+| Software | [Amazon L5 Interview Experience (2026)](https://trueinterview.io/interviews/b0a5f05e-036d-40b8-82f8-59facb0ae752) | Oct 29, 2026 |
+| Software | [Amazon Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/3c5ad986-56f2-4f45-aabf-46bb62126bcc) | Oct 29, 2026 |
+| Software | [Amazon SDE 1 / Intern Interview Experience (2026)](https://trueinterview.io/interviews/c11b10d9-3ecb-4fed-bf22-ea0f6044f322) | Oct 29, 2026 |
+| Software | [Amazon SDE 1 Intern Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/0d126746-1e05-4700-b95a-83897118c8e3) | Oct 29, 2026 |
+| Software | [Amazon SDE 1 Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/90aaa478-88ba-476a-99a6-05b451d16f7e) | Oct 29, 2026 |
+| Software | [Amazon SDE 2 Interview Experience (2026)](https://trueinterview.io/interviews/8fc6d5ac-f7e4-493a-9040-258b9a38d1db) | Oct 29, 2026 |
+| Software | [Amazon SDE 2 Interview Experience (Alexa Devices team, Bangalore, 2026)](https://trueinterview.io/interviews/a42c8c45-c70c-4a30-a504-745cfe94337f) | Oct 29, 2026 |
+| Software | [Amazon SDE 2 Interview Experience (Hyderabad, India, 2026)](https://trueinterview.io/interviews/a2efef6c-42f5-497e-970d-3281acb1a00b) | Oct 29, 2026 |
+| Software | [Amazon SDE 2 Interview Experience (India, 2026)](https://trueinterview.io/interviews/42874d75-3428-40bc-9ea0-a8df05b781a6) | Oct 29, 2026 |
+| Software | [Amazon SDE 2 Phone Screen Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/d2a6347b-8b3e-4cd9-ad42-e52ad944caf6) | Oct 29, 2026 |
+| Software | [Amazon SDE I Intern Interview Experience (2026)](https://trueinterview.io/interviews/16262e01-d381-4cdf-a3a0-54d0296ba785) | Oct 29, 2026 |
+| Software | [Amazon SDE I Intern Interview Experience (2026)](https://trueinterview.io/interviews/f3aa4c4c-2987-4305-ada8-3fc332abadb6) | Oct 29, 2026 |
+| Software | [Amazon SDE II Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/2155829a-4f2b-4076-83f0-d0497d07c773) | Oct 29, 2026 |
+| Software | [Amazon SDE Intern Interview Experience (2026)](https://trueinterview.io/interviews/197e5b22-c62f-4cde-bc78-0b13eb5f36a7) | Oct 29, 2026 |
+| Software | [Amazon SDE Intern Interview Experience (2026)](https://trueinterview.io/interviews/23b9e754-10d2-4375-a1f6-f4b500b43346) | Oct 29, 2026 |
+| Software | [Amazon SDE Intern Interview Experience (2026)](https://trueinterview.io/interviews/567b748d-b3f1-49f0-9ef3-22f5cb888a75) | Oct 29, 2026 |
+| Software | [Amazon SDE Intern Interview Experience (2026)](https://trueinterview.io/interviews/b0ea0a9d-1ee8-4766-a20c-e4201556903a) | Oct 29, 2026 |
+| Software | [Amazon SDE Intern Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/4ec3aedb-f9ca-4b74-93e9-6e7ab2c9d01c) | Oct 29, 2026 |
+| Software | [Amazon SDE Intern Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/818790bc-c1d1-428e-99e8-a33d46ed7f57) | Oct 29, 2026 |
+| Software | [Amazon SDE-1 Interview Experience (2026)](https://trueinterview.io/interviews/6c4f1bb8-d154-4ba4-9366-f2edf282f1e0) | Oct 29, 2026 |
+| Software | [Amazon SDE-1 Interview Experience (Bangalore, India, 2026)](https://trueinterview.io/interviews/e5135544-4cf3-401c-872c-c5fc3ef57991) | Oct 29, 2026 |
+| Software | [Amazon SDE-1 Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/807c22f3-943e-48e0-ad0b-38f03bb92a26) | Oct 29, 2026 |
+| Software | [Amazon SDE-2 (L5) Phone Interview Experience (2026)](https://trueinterview.io/interviews/d7d15f53-e1e4-4051-b0cc-a2192b9eca6d) | Oct 29, 2026 |
+| Software | [Amazon SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/ac11414b-4fc4-4030-b62e-b8b3d4f8b4de) | Oct 29, 2026 |
+| Software | [Amazon SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/ea202040-7fea-4c62-bfb0-d551a3d1a9b8) | Oct 29, 2026 |
+| Software | [Amazon SDE-II Interview Experience (2026)](https://trueinterview.io/interviews/92c9e231-910a-4b03-ac55-5f7dd83895fb) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,046 in total). [Every report at Amazon and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
