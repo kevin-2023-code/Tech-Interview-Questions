@@ -96,16 +96,16 @@ happened.
 <!-- gen:experiences:start -->
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |
-| **Rubrik** | Software | [Rubrik SDE 2 (Grade G6) Interview Experience (2026)](https://trueinterview.io/interviews/7375e2fb-d1e1-4fe8-ac22-bf8e298c46ba) | Oct 29, 2026 |
-| **Rubrik** | Software | [Rubrik SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/37e4a234-f5ca-40e3-bc51-40923b0f63b6) | Oct 29, 2026 |
-| **Rubrik** | Software | [Rubrik SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/4b5b1613-3e3b-4edf-8fc9-51669deb8f5e) | Oct 29, 2026 |
-| **Rubrik** | Software | [Rubrik Software Engineer (G6) Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/c81315b3-c8ac-40b7-9c50-2ee19576ca36) | Oct 29, 2026 |
-| **Salesforce** | Software | [Salesforce AMTS Interview Experience (2026)](https://trueinterview.io/interviews/ecd29e26-ed06-4bcd-a2e9-b421f532797b) | Oct 29, 2026 |
-| **Salesforce** | Software | [Salesforce AMTS Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/e1de6718-9297-458d-a8b3-3cb152659f0b) | Oct 29, 2026 |
-| **Salesforce** | Software | [Salesforce Associate Member of Technical Staff Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/1addaeb0-3771-4d71-9505-23f35ca8f8fd) | Oct 29, 2026 |
-| **Salesforce** | Software | [Salesforce Lead Software Engineer (LMTS), Backend Distributed Systems Interview Experience (India, 2025)](https://trueinterview.io/interviews/cfd43123-1276-4aac-be1b-2c43c662d61c) | Oct 29, 2026 |
+| **Uber** | Software | [Uber BPS Round Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/8a659f52-bebc-4c8e-93c6-0d85c8d8c347) | Oct 29, 2026 |
+| **Uber** | Software | [Uber Freight SWE III Interview Experience (2026)](https://trueinterview.io/interviews/7a82b1b2-00bd-40f6-a5ed-34d30e7cee5b) | Oct 29, 2026 |
+| **Uber** | Software | [Uber Freight SWE III Interview Experience (2026)](https://trueinterview.io/interviews/7af01873-615e-4be4-8dc1-42e2ef225332) | Oct 29, 2026 |
+| **Uber** | Software | [Uber Freight SWE-3 Interview Experience (2026)](https://trueinterview.io/interviews/3d02fb89-83e1-4f70-b13e-a84c73006aa5) | Oct 29, 2026 |
+| **Uber** | Software | [Uber Interview Experience (2026)](https://trueinterview.io/interviews/6fd6ffc9-b717-41f6-b65e-c0663ee41c4c) | Oct 29, 2026 |
+| **Uber** | Software | [Uber L4 Interview Experience (2026)](https://trueinterview.io/interviews/cd349dcb-388f-4157-acb2-62fa6ed1780c) | Oct 29, 2026 |
+| **Uber** | Software | [Uber L4 Software Engineer Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/89efb680-17eb-47db-8e33-1951a948f975) | Oct 29, 2026 |
+| **Uber** | Software | [Uber Mobile Developer Online Assessment Experience (2025) Interview Experience](https://trueinterview.io/interviews/7fbbd66e-50d7-4e20-ae6a-3a37d7d508d4) | Oct 29, 2026 |
 
-[**7,461 reports on the board →**](experiences/README.md)
+[**7,435 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏷️ Browse by company type

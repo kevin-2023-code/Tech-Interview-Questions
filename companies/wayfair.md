@@ -2,11 +2,11 @@
 
 # Wayfair interview process, OA & interview questions
 
-**7 questions** reported at Wayfair. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/wayfair), judged server-side on the algorithm, low-level-design and SQL formats.
+**7 questions** reported at Wayfair · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/wayfair), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Wayfair interviews & the free questions](wayfair/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-wayfair)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-wayfair)
 
 ## At a glance
 
@@ -19,6 +19,7 @@
 | Difficulty (easy / medium / hard) | 0 / 3 / 3 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
+| Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 7 questions reported at Wayfair. 7 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -80,6 +81,16 @@ The 7 questions to open first if you are preparing for Wayfair, ranked by **the 
 | **7** | [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks) | SQL | Medium | — | Feb 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Interview reports
+
+What candidates said happened in the room at Wayfair — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Wayfair SDE 2 Interview Experience (2025)](https://trueinterview.io/interviews/f1122643-0fb9-4273-8833-1cce6a4a98e3) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,435 in total). [Every report at Wayfair and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

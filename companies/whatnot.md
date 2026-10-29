@@ -2,13 +2,13 @@
 
 # Whatnot interview process, OA & interview questions
 
-**19 questions** reported at Whatnot. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/whatnot), judged server-side on the algorithm, low-level-design and SQL formats.
+**19 questions** reported at Whatnot · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/whatnot), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Whatnot interviews & the free questions](whatnot/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 200–999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-whatnot)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-whatnot)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 2 / 13 / 2 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 0 |
+| Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 19 questions reported at Whatnot. 14 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -83,6 +84,16 @@ The 8 questions to open first if you are preparing for Whatnot, ranked by **the 
 | **8** | [Define Marketplace Success Metrics and Investigate Their Movement](https://trueinterview.io/questions/define-marketplace-success-metrics-and-investigate-their-movement) 🆓 | Blog | — | — | Mar 30, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Interview reports
+
+What candidates said happened in the room at Whatnot — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Whatnot Senior Full-Stack Engineer Interview Experience (Seattle, 2026)](https://trueinterview.io/interviews/ed01c60b-8bde-4041-be6a-100caaaf1bef) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,435 in total). [Every report at Whatnot and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

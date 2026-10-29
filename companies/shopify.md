@@ -2,13 +2,13 @@
 
 # Shopify interview process, OA & interview questions
 
-**41 questions** reported at Shopify · **1 writeup** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
+**41 questions** reported at Shopify · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Shopify interviews & the free questions](shopify/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-shopify)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-shopify)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 5 / 16 / 4 |
 | Free to practise | [24](../free/README.md) |
 | Guides & writeups | 1 |
-| Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 41 questions reported at Shopify. 28 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -108,16 +107,6 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | Writeup | Topics |
 | :-- | :-- |
 | [Shopify Interview Process & Questions](https://trueinterview.io/study/shopify-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Shopify — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Shopify Staff Engineer Interview Experience (2026)](https://trueinterview.io/interviews/2b20e92f-b570-4e4d-b1ff-9a3eb522d48d) | Oct 29, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,461 in total). [Every report at Shopify and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

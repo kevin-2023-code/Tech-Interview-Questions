@@ -2,13 +2,13 @@
 
 # Snowflake interview process, OA & interview questions
 
-**147 questions** reported at Snowflake · **1 writeup** · **3 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
+**147 questions** reported at Snowflake · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Snowflake interviews & the free questions](snowflake/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > ☁️ [Developer tools, cloud & data infrastructure](../company-types/dev-infra.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-snowflake)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-snowflake)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 20 / 95 / 20 |
 | Free to practise | [54](../free/README.md) |
 | Guides & writeups | 1 |
-| Interview reports on the board | 3 in this snapshot |
 
 <sub>Counted from the 147 questions reported at Snowflake. 94 of them carry a sighting date; the other 53 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -121,18 +120,6 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | Writeup | Topics |
 | :-- | :-- |
 | [Snowflake Interview Process & Questions](https://trueinterview.io/study/snowflake-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Snowflake — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Snowflake Intern Interview Experience (2025)](https://trueinterview.io/interviews/badbc2cf-21a4-4300-a1e2-3ff4d8f59cb7) | Oct 29, 2026 |
-| Software | [Snowflake Interview Experience: Tree Question (2025)](https://trueinterview.io/interviews/e5c2b7ff-3766-48f2-8e44-cedafc4fcfca) | Oct 29, 2026 |
-| Software | [Snowflake SWE (AI/ML) Intern Interview Experience (2026)](https://trueinterview.io/interviews/d5858ff2-b886-4926-b363-e9d08a670ab0) | Oct 29, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,461 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

@@ -2,13 +2,13 @@
 
 # Uber interview process, OA & interview questions
 
-**266 questions** reported at Uber · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
+**266 questions** reported at Uber · **3 writeups** · **26 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Uber interviews & the free questions](uber/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-uber)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-uber)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 28 / 154 / 45 |
 | Free to practise | [103](../free/README.md) |
 | Guides & writeups | 3 |
+| Interview reports on the board | 26 in this snapshot |
 
 <sub>Counted from the 266 questions reported at Uber. 160 of them carry a sighting date; the other 106 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -120,6 +121,41 @@ The 8 questions to open first if you are preparing for Uber, ranked by **the mos
 | [Uber Interview Process & Questions](https://trueinterview.io/study/uber-interview-process) | — |
 | [Uber Machine Learning Engineer Interview Process](https://trueinterview.io/study/uber-machine-learning-engineer-interview-process) | — |
 | [Uber Software Engineer Interview Process](https://trueinterview.io/study/uber-software-engineer-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Uber — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Uber BPS Round Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/8a659f52-bebc-4c8e-93c6-0d85c8d8c347) | Oct 29, 2026 |
+| Software | [Uber Freight SWE III Interview Experience (2026)](https://trueinterview.io/interviews/7a82b1b2-00bd-40f6-a5ed-34d30e7cee5b) | Oct 29, 2026 |
+| Software | [Uber Freight SWE III Interview Experience (2026)](https://trueinterview.io/interviews/7af01873-615e-4be4-8dc1-42e2ef225332) | Oct 29, 2026 |
+| Software | [Uber Freight SWE-3 Interview Experience (2026)](https://trueinterview.io/interviews/3d02fb89-83e1-4f70-b13e-a84c73006aa5) | Oct 29, 2026 |
+| Software | [Uber Interview Experience (2026)](https://trueinterview.io/interviews/6fd6ffc9-b717-41f6-b65e-c0663ee41c4c) | Oct 29, 2026 |
+| Software | [Uber L4 Interview Experience (2026)](https://trueinterview.io/interviews/cd349dcb-388f-4157-acb2-62fa6ed1780c) | Oct 29, 2026 |
+| Software | [Uber L4 Software Engineer Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/89efb680-17eb-47db-8e33-1951a948f975) | Oct 29, 2026 |
+| Software | [Uber Mobile Developer Online Assessment Experience (2025) Interview Experience](https://trueinterview.io/interviews/7fbbd66e-50d7-4e20-ae6a-3a37d7d508d4) | Oct 29, 2026 |
+| Software | [Uber New Grad Software Engineer Interview Experience (USA, 2026)](https://trueinterview.io/interviews/187d3bae-6726-4755-8a20-147e5c2d4ab7) | Oct 29, 2026 |
+| Software | [Uber SDE 2 Full Stack Interview Experience (2026)](https://trueinterview.io/interviews/0a87c13b-37e1-4354-9aa0-90e7635e2fc5) | Oct 29, 2026 |
+| Software | [Uber SDE 2 Interview Experience (2026)](https://trueinterview.io/interviews/ec58fe3f-a5a6-44e6-9b82-e6c0951153c4) | Oct 29, 2026 |
+| Software | [Uber SDE 3 Interview Experience (2025)](https://trueinterview.io/interviews/166d97f4-fc12-48e1-a0e1-ceb465160b3b) | Oct 29, 2026 |
+| Software | [Uber SDE II Backend Engineer Interview Experience (India, 2026)](https://trueinterview.io/interviews/de9fb568-1835-4cdd-bf46-ad5b60a943be) | Oct 29, 2026 |
+| Software | [Uber SDE II Interview Experience (2026)](https://trueinterview.io/interviews/b4e028c4-6f5f-434d-9668-9410387d551b) | Oct 29, 2026 |
+| Software | [Uber SDE-1 Interview Experience (2026)](https://trueinterview.io/interviews/6b5dea1c-8740-43c6-b114-0f883b755bcb) | Oct 29, 2026 |
+| Software | [Uber SDE-2 Android (L4) Interview Experience (2025)](https://trueinterview.io/interviews/f30a137a-c221-4074-b14f-78ab0a32bfe9) | Oct 29, 2026 |
+| Software | [Uber SDE-2 Interview Experience (2025)](https://trueinterview.io/interviews/17694026-48f2-40a6-8022-25e00fc8e91c) | Oct 29, 2026 |
+| Software | [Uber SDE1 Interview Experience (2025)](https://trueinterview.io/interviews/17066871-1cea-4140-8373-82f5734d716d) | Oct 29, 2026 |
+| Software | [Uber SDE2 Interview Experience (2026)](https://trueinterview.io/interviews/7219bfac-72e9-4a55-9a26-5e52dd4314d7) | Oct 29, 2026 |
+| Software | [Uber SE-2 Interview Experience (2026)](https://trueinterview.io/interviews/cfbe9eec-0070-4705-a5a1-9bb94b2593e7) | Oct 29, 2026 |
+| Software | [Uber Senior Software Engineer (L5A) Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/034c4e7b-be81-45f1-be4c-6744948cded1) | Oct 29, 2026 |
+| Software | [Uber Senior Software Engineer (L5A) Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/0f148731-7ee1-4b53-ad53-02e5e20ca10b) | Oct 29, 2026 |
+| Software | [Uber Senior Software Engineer Interview Experience (2025)](https://trueinterview.io/interviews/a00cf494-5321-4e75-a3c2-a4b0e1d64345) | Oct 29, 2026 |
+| Software | [Uber Software Engineer II Interview Experience (2026)](https://trueinterview.io/interviews/a201af11-af86-4b67-93a1-d6529fa69d2c) | Oct 29, 2026 |
+| Software | [Uber Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/4f978232-e0db-4451-ba5a-a57b839d7744) | Oct 29, 2026 |
+| Software | [Uber SWE I Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/1188ee04-293a-4ef1-b7c7-a34652996014) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,435 in total). [Every report at Uber and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

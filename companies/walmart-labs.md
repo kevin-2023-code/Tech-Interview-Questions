@@ -2,13 +2,13 @@
 
 # Walmart Labs interview process, OA & interview questions
 
-**35 questions** reported at Walmart Labs · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs), judged server-side on the algorithm, low-level-design and SQL formats.
+**35 questions** reported at Walmart Labs · **1 writeup** · **12 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Walmart Labs interviews & the free questions](walmart-labs/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-walmart-labs)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-walmart-labs)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 6 / 21 / 2 |
 | Free to practise | [10](../free/README.md) |
 | Guides & writeups | 1 |
+| Interview reports on the board | 12 in this snapshot |
 
 <sub>Counted from the 35 questions reported at Walmart Labs. 27 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -103,6 +104,27 @@ The 8 questions to open first if you are preparing for Walmart Labs, ranked by *
 | Writeup | Topics |
 | :-- | :-- |
 | [Walmart Global Tech Interview Process & Questions](https://trueinterview.io/study/walmartlabs-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Walmart Labs — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Walmart Global Tech Walmart SWE-3 (.NET Developer) Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/9198009d-6394-4b07-86dc-e92d3eedce09) | Oct 29, 2026 |
+| Software | [Walmart Labs (Sam's Club) SDE III Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/3e413154-b630-433f-bdbf-e024143e5ece) | Oct 29, 2026 |
+| Software | [Walmart Labs Coding Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/e406ab6c-2c5c-4ff3-962f-6fd7d4c25427) | Oct 29, 2026 |
+| Software | [Walmart Labs Coding Interview Experience (2026)](https://trueinterview.io/interviews/ae600b71-c43f-4a66-bb02-c41185a437c1) | Oct 29, 2026 |
+| Software | [Walmart Labs Frontend Engineer Interview Experience (2026)](https://trueinterview.io/interviews/38ad7891-df6b-4abc-acf8-97fa0ec7aab6) | Oct 29, 2026 |
+| Software | [Walmart Labs SDE-3 Interview Experience (2026)](https://trueinterview.io/interviews/21ef387f-6623-426a-8aec-ec7d876a29a7) | Oct 29, 2026 |
+| Software | [Walmart Labs SDE-III Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/1006fdbe-b557-49da-9eb9-47181f1cff34) | Oct 29, 2026 |
+| Software | [Walmart Labs Senior Software Engineer (SSE) Interview Experience (2025)](https://trueinterview.io/interviews/0f1ec8a0-81a5-4a8a-8d16-a5ee37a64506) | Oct 29, 2026 |
+| Software | [Walmart Labs Senior Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/c06d222e-a63d-433c-83c8-a562870ecc9f) | Oct 29, 2026 |
+| Software | [Walmart Labs Senior Software Engineer Interview Experience (Bangalore, 2025)](https://trueinterview.io/interviews/e267bf54-ea2b-4ccf-acfd-e95ea106cf9b) | Oct 29, 2026 |
+| Software | [Walmart Labs Senior Software Engineer Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/2d2260c7-219e-4d22-8a89-a62bfa1da51a) | Oct 29, 2026 |
+| Software | [Walmart Labs SWE 3 Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/0e6aa84f-f5bf-4635-a234-98dddb5f0a48) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,435 in total). [Every report at Walmart Labs and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

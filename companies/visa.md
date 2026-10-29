@@ -2,13 +2,13 @@
 
 # Visa interview process, OA & interview questions
 
-**15 questions** reported at Visa · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/visa), judged server-side on the algorithm, low-level-design and SQL formats.
+**15 questions** reported at Visa · **1 writeup** · **9 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/visa), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Visa interviews & the free questions](visa/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏦 [Banks, insurers & asset managers](../company-types/banking-finance.md) · 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-visa)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-visa)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 3 / 10 / 2 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
+| Interview reports on the board | 9 in this snapshot |
 
 <sub>Counted from the 15 questions reported at Visa. 0 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -83,6 +84,24 @@ The 8 questions to open first if you are preparing for Visa, ranked by **the one
 | Writeup | Topics |
 | :-- | :-- |
 | [Visa Interview Process & Questions](https://trueinterview.io/study/visa-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Visa — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Visa Fresher Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/4af8255f-0cd4-4d0f-979a-b8c7e156ecdd) | Oct 29, 2026 |
+| Software | [Visa Senior Software Engineer Interview Experience (2025)](https://trueinterview.io/interviews/62295b08-2f91-4192-a3f2-bc7799f2d24f) | Oct 29, 2026 |
+| Software | [Visa Senior Software Engineer Online Assessment Experience (2025) Interview Experience](https://trueinterview.io/interviews/c08f47a0-4755-453f-8fd1-f0181cf4f155) | Oct 29, 2026 |
+| Software | [Visa Software Engineer Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/883bf539-7a42-4c89-a4df-ccffff8331c7) | Oct 29, 2026 |
+| Software | [Visa SSE Online Assessment Experience (2025) Interview Experience](https://trueinterview.io/interviews/a5f22a8a-d628-4dc4-8da5-9e9b702e085d) | Oct 29, 2026 |
+| Software | [Visa Staff Software Engineer (Backend) Interview Experience (2026)](https://trueinterview.io/interviews/e728d855-679d-47ff-a6c5-155cc2021750) | Oct 29, 2026 |
+| Software | [Visa Staff Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/71b19e59-fca4-41a1-93d4-b52ef12bdd9e) | Oct 29, 2026 |
+| Software | [Visa Staff Software Engineer Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/cdd8d788-29d1-458a-9ebb-03880425f3d4) | Oct 29, 2026 |
+| Software | [Visa Staff Software Engineer Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/d5b05193-3420-4e2e-94f7-8b995a0a91af) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,435 in total). [Every report at Visa and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

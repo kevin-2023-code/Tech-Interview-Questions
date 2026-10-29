@@ -2,13 +2,13 @@
 
 # Salesforce interview process, OA & interview questions
 
-**100 questions** reported at Salesforce · **1 writeup** · **40 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
+**100 questions** reported at Salesforce · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Salesforce interviews & the free questions](salesforce/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-salesforce)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-salesforce)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 16 / 51 / 22 |
 | Free to practise | [20](../free/README.md) |
 | Guides & writeups | 1 |
-| Interview reports on the board | 40 in this snapshot |
 
 <sub>Counted from the 100 questions reported at Salesforce. 55 of them carry a sighting date; the other 45 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -115,55 +114,6 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 | Writeup | Topics |
 | :-- | :-- |
 | [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Salesforce — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Salesforce AMTS Interview Experience (2026)](https://trueinterview.io/interviews/ecd29e26-ed06-4bcd-a2e9-b421f532797b) | Oct 29, 2026 |
-| Software | [Salesforce AMTS Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/e1de6718-9297-458d-a8b3-3cb152659f0b) | Oct 29, 2026 |
-| Software | [Salesforce Associate Member of Technical Staff Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/1addaeb0-3771-4d71-9505-23f35ca8f8fd) | Oct 29, 2026 |
-| Software | [Salesforce Lead Software Engineer (LMTS), Backend Distributed Systems Interview Experience (India, 2025)](https://trueinterview.io/interviews/cfd43123-1276-4aac-be1b-2c43c662d61c) | Oct 29, 2026 |
-| Software | [Salesforce LMTS Interview Experience (2025)](https://trueinterview.io/interviews/2eef13db-9c8d-446b-b071-a675b2283ad1) | Oct 29, 2026 |
-| Software | [Salesforce LMTS Interview Experience (2025)](https://trueinterview.io/interviews/97c98081-e34d-4e8e-a89c-bce3035d7cb1) | Oct 29, 2026 |
-| Software | [Salesforce Meeting Room Reservation Platform Interview Experience (2025)](https://trueinterview.io/interviews/c3f6c39d-07dc-4027-ba55-c1dbe6f09e62) | Oct 29, 2026 |
-| Software | [Salesforce Member of Technical Staff (MTS) Interview Experience (India, 2026)](https://trueinterview.io/interviews/d785f980-eeef-4b22-81e5-73afb3f6f89b) | Oct 29, 2026 |
-| Software | [Salesforce MTS (SDE-2) Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/63b2512d-5794-4795-928f-6f487160e99e) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (2025)](https://trueinterview.io/interviews/b6a0052a-a0e7-4517-9cf3-7ea06e2ce575) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/0a63cdbb-8063-4ac7-ab45-ebe96d654f8d) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/26a92fcc-c808-4578-a0d0-bc6af3a2a1ee) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/85a76a5b-eb35-43db-aa7a-2cc2c756bad9) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/94ee2515-38ce-40d0-bfcd-821343d7b8c0) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/cdee7ff5-6ed1-41b1-b8cb-4828a07d4f99) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/fc15b24c-afc8-44dc-b1df-ff8743d2feed) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/7486af35-d81c-4db8-bc22-ba60ec7273b6) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/b926db93-4dec-40be-8805-bd29b6f1e725) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (Bangalore, India, 2025)](https://trueinterview.io/interviews/85904f87-9f4b-4c7f-b1aa-7bacdc37b480) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/a5b34fce-0003-439c-9f32-03c23b0dfd8a) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/a70fc6a4-7ff0-4603-ad38-7081d3b70a0f) | Oct 29, 2026 |
-| Software | [Salesforce MTS Interview Experience (India, 2026)](https://trueinterview.io/interviews/ae13909b-baee-4d9e-a741-2573e78fdd9f) | Oct 29, 2026 |
-| Software | [Salesforce Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/b3d8ace6-9947-4f0f-9169-eca5d8b8f31b) | Oct 29, 2026 |
-| Software | [Salesforce Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/d5f551e6-6e47-46ab-b44b-dd778ead3287) | Oct 29, 2026 |
-| Software | [Salesforce Onsite Interview Experience (2026)](https://trueinterview.io/interviews/831d4504-4a2d-43de-a2bd-8a7cce029d82) | Oct 29, 2026 |
-| Software | [Salesforce Senior Member of Technical Staff (Frontend) Interview Experience (2025)](https://trueinterview.io/interviews/b757f700-51be-4e4f-bdf3-f1517cc1381b) | Oct 29, 2026 |
-| Software | [Salesforce Senior Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/818605c4-8edd-47ae-aa8e-2238ca872f48) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Backend Interview Experience (2025)](https://trueinterview.io/interviews/f2a5c47a-6d77-4488-a93f-fc08bca1e261) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Backend Interview Experience (2026)](https://trueinterview.io/interviews/901c950a-5c2b-4ad2-ab9d-21183d429b1a) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Interview Experience (2025)](https://trueinterview.io/interviews/3b42a6e6-478a-4806-931b-dc85def9a2f2) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Interview Experience (2025)](https://trueinterview.io/interviews/5c52b8a6-7126-47b8-9268-e7992a2f0151) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Interview Experience (2025)](https://trueinterview.io/interviews/5dca70c8-8085-4fa0-bccc-d95b43e39736) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Interview Experience (2025)](https://trueinterview.io/interviews/f6807baf-82a8-4689-a152-0364daa6e5b7) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Interview Experience (2026)](https://trueinterview.io/interviews/1b09ac73-c7d6-4c36-b091-1ba597be87a5) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Interview Experience (Hyderabad, 2025)](https://trueinterview.io/interviews/69766e6f-a06b-44ba-b890-f239d3d27741) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/d0f25969-a5e1-43ab-ba52-03f1ba0d5819) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Online Assessment Experience (2025) Interview Experience](https://trueinterview.io/interviews/578744fd-2c50-471c-83dd-9e8b45a99c2b) | Oct 29, 2026 |
-| Software | [Salesforce SMTS Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/8e5d920e-3a58-40e2-bd80-58c6e623e9ea) | Oct 29, 2026 |
-| Software | [Salesforce SMTS/LMTS Interview Experience (2026)](https://trueinterview.io/interviews/131a825f-b8b5-4a22-ad62-bfaf10b7025c) | Oct 29, 2026 |
-| Software | [Salesforce Software Engineer Online Assessment Interview Experience (India, 2025)](https://trueinterview.io/interviews/d7adb398-f34f-4b04-9424-46332425747a) | Oct 29, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,461 in total). [Every report at Salesforce and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

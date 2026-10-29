@@ -2,11 +2,11 @@
 
 # Siemens interview process, OA & interview questions
 
-**4 questions** reported at Siemens · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/siemens), judged server-side on the algorithm, low-level-design and SQL formats.
+**4 questions** reported at Siemens. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/siemens), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Siemens interviews & the free questions](siemens/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-siemens)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-siemens)
 
 ## At a glance
 
@@ -19,7 +19,6 @@
 | Difficulty (easy / medium / hard) | 0 / 1 / 0 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 0 |
-| Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 4 questions reported at Siemens. 4 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -74,16 +73,6 @@ The 4 questions to open first if you are preparing for Siemens, ranked by **the 
 | **4** | [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) 🆓 | Blog | — | — | Sep 04, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Interview reports
-
-What candidates said happened in the room at Siemens — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Siemens Healthineers Technical Intern Interview Experience (2026)](https://trueinterview.io/interviews/4ba3315a-38d8-41c1-86a5-a839fb38d58d) | Oct 29, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,461 in total). [Every report at Siemens and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
