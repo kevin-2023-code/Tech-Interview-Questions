@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (58% of 55) |
 | Difficulty (easy / medium / hard) | 3 / 41 / 5 |
-| Free to practise | [11](../free/README.md) |
+| Free to practise | [12](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 55 questions reported at C3.ai. 11 of them carry a sighting date; the other 44 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,924 questions** · **255 writeups** · **132 companies** · **1,976 free to practise** · **668 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,924 questions** · **255 writeups** · **132 companies** · **1,978 free to practise** · **668 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -55,9 +55,9 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**1,976 of the 5,924 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**1,978 of the 5,924 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (434)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (40)](free/system-design.md) · [AI Coding (12)](free/ai-coding.md) · [Blog (1,416)](free/blog.md) · [Object Oriented Programming (68)](free/object-oriented-programming.md)
+[Algorithm (434)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (40)](free/system-design.md) · [AI Coding (12)](free/ai-coding.md) · [Blog (1,416)](free/blog.md) · [Object Oriented Programming (70)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -96,16 +96,16 @@ happened.
 <!-- gen:experiences:start -->
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |
-| **Amazon** | Data & AI | [Amazon Applied Scientist Interview Experience (2026)](https://trueinterview.io/interviews/811660f1-ccab-4eab-ad14-008d51f5d380) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon Internship Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/c158d6d7-d7c3-4096-a5ba-7e0731b1a13e) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon L5 Interview Experience (2026)](https://trueinterview.io/interviews/b0a5f05e-036d-40b8-82f8-59facb0ae752) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/3c5ad986-56f2-4f45-aabf-46bb62126bcc) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 1 / Intern Interview Experience (2026)](https://trueinterview.io/interviews/c11b10d9-3ecb-4fed-bf22-ea0f6044f322) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 1 Intern Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/0d126746-1e05-4700-b95a-83897118c8e3) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 1 Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/90aaa478-88ba-476a-99a6-05b451d16f7e) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 2 Interview Experience (2026)](https://trueinterview.io/interviews/8fc6d5ac-f7e4-493a-9040-258b9a38d1db) | Oct 29, 2026 |
+| **Rubrik** | Software | [Rubrik SDE 2 (Grade G6) Interview Experience (2026)](https://trueinterview.io/interviews/7375e2fb-d1e1-4fe8-ac22-bf8e298c46ba) | Oct 29, 2026 |
+| **Rubrik** | Software | [Rubrik SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/37e4a234-f5ca-40e3-bc51-40923b0f63b6) | Oct 29, 2026 |
+| **Rubrik** | Software | [Rubrik SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/4b5b1613-3e3b-4edf-8fc9-51669deb8f5e) | Oct 29, 2026 |
+| **Rubrik** | Software | [Rubrik Software Engineer (G6) Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/c81315b3-c8ac-40b7-9c50-2ee19576ca36) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce AMTS Interview Experience (2026)](https://trueinterview.io/interviews/ecd29e26-ed06-4bcd-a2e9-b421f532797b) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce AMTS Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/e1de6718-9297-458d-a8b3-3cb152659f0b) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Associate Member of Technical Staff Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/1addaeb0-3771-4d71-9505-23f35ca8f8fd) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Lead Software Engineer (LMTS), Backend Distributed Systems Interview Experience (India, 2025)](https://trueinterview.io/interviews/cfd43123-1276-4aac-be1b-2c43c662d61c) | Oct 29, 2026 |
 
-[**7,046 reports on the board →**](experiences/README.md)
+[**7,461 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏷️ Browse by company type

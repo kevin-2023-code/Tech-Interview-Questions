@@ -1,7 +1,7 @@
 {
   "accessTiers": {
-    "free": 1976,
-    "insider": 3878,
+    "free": 1978,
+    "insider": 3876,
     "pro": 70
   },
   "companies": [
@@ -371,7 +371,7 @@
     },
     {
       "dated": 40,
-      "free": 19,
+      "free": 20,
       "guides": 3,
       "inLastYear": 31,
       "inWindow": 5,
@@ -423,7 +423,7 @@
     },
     {
       "dated": 11,
-      "free": 11,
+      "free": 12,
       "guides": 0,
       "inLastYear": 11,
       "inWindow": 8,
@@ -1787,7 +1787,7 @@
     {
       "easy": 60,
       "format": "object-oriented-programming",
-      "free": 68,
+      "free": 70,
       "graded": 662,
       "hard": 86,
       "inWindow": 76,
@@ -3305,7 +3305,7 @@
   "totals": {
     "companies": 132,
     "dated": 3431,
-    "free": 1976,
+    "free": 1978,
     "futureDated": 0,
     "gradedDifficulty": 4508,
     "guides": 255,

@@ -2,13 +2,13 @@
 
 # AMD interview process, OA & interview questions
 
-**10 questions** reported at AMD · **3 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amd), judged server-side on the algorithm, low-level-design and SQL formats.
+**10 questions** reported at AMD. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amd), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How AMD interviews & the free questions](amd/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🔬 [Semiconductors & chips](../company-types/semiconductors.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-amd)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-amd)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 0 / 2 / 1 |
 | Free to practise | [9](../free/README.md) |
 | Guides & writeups | 0 |
-| Interview reports on the board | 3 in this snapshot |
 
 <sub>Counted from the 10 questions reported at AMD. 10 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -86,18 +85,6 @@ The 8 questions to open first if you are preparing for AMD, ranked by **the most
 | **8** | [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) 🆓 | Blog | — | — | Sep 14, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Interview reports
-
-What candidates said happened in the room at AMD — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [AMD EDA Tools Development Interview Experience (2026)](https://trueinterview.io/interviews/3082566f-ba5b-46e2-8b4b-7b56f39a5015) | Oct 29, 2026 |
-| Software | [AMD Senior Software Engineer Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/df5cb6cf-312f-427b-932e-82e900f7f556) | Oct 29, 2026 |
-| Software | [AMD Senior Software System Designer Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/55c6b792-adc2-48d8-9695-07160e95f0e5) | Oct 29, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,046 in total). [Every report at AMD and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

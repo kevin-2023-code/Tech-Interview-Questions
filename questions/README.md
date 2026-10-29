@@ -445,7 +445,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](algorithm/windowed-map-time-windowed-key-value-store-with-o-1-operations-and-windo/README.md) | Hard | StackAdapt |
 | [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai |
 
-## Object Oriented Programming (68)
+## Object Oriented Programming (70)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -454,6 +454,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Rate Limiter](object-oriented-programming/rate-limiter/README.md) | Easy | Stripe · Amazon · Atlassian · Google · Microsoft |
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](object-oriented-programming/react-ui-multi-select-color-dropdown-and-selected-properties-table/README.md) | Easy | Brex |
 | [Trie-Based Autocomplete](object-oriented-programming/trie-autocomplete/README.md) | Easy | Oracle |
+| [Agent Vote API Design](object-oriented-programming/agent-vote-api-design/README.md) | Medium | Atlassian |
 | [API Call and Data Processing](object-oriented-programming/api-call-and-data-processing/README.md) | Medium | PayPal |
 | [Banking System with Payments and Account Merging](object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Medium | Ramp · Anthropic · Capital One · Coinbase · HubSpot |
 | [Banking System with Transaction Activity](object-oriented-programming/banking-system-with-transaction-activity/README.md) | Medium | Capital One |
@@ -495,6 +496,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Key-Value Store with getLast](object-oriented-programming/key-value-store-with-getlast/README.md) | Medium | SoFi |
 | [Kubernetes Controller for Pod Balance](object-oriented-programming/kubernetes-controller-pod-balance/README.md) | Medium | IBM |
 | [LFU Cache](object-oriented-programming/lfu-cache/README.md) | Medium | Apple · Google · LinkedIn · Microsoft · Salesforce |
+| [Library Book Management System Design and API Architecture](object-oriented-programming/library-book-management-system-design-and-api-architecture/README.md) | Medium | C3.ai |
 | [Logger System](object-oriented-programming/logger-system-ood/README.md) | Medium | Rippling |
 | [LRU Cache III](object-oriented-programming/lru-cache-iii/README.md) | Medium | Verkada · Amazon · ByteDance · Goldman Sachs · Lyft |
 | [Mobile Table View Timer App](object-oriented-programming/mobile-table-view-timer-app/README.md) | Medium | Robinhood |

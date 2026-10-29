@@ -56,7 +56,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 | [System Design](../formats/system-design.md) | 758 | 13% | 144 | 41 | 391 | 326 | 758 | 40 |
 | [AI Coding](../formats/ai-coding.md) | 134 | 2% | 5 | 10 | 87 | 37 | 134 | 12 |
 | [Blog](../formats/blog.md) | 1,416 | 24% | 208 | 0 | 0 | 0 | 0 | 1,416 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 662 | 11% | 76 | 60 | 516 | 86 | 662 | 68 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 662 | 11% | 76 | 60 | 516 | 86 | 662 | 70 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
 
@@ -147,11 +147,11 @@ The closest thing this data has to an instruction. A question reported at one em
 
 | Plan needed | Questions | Share of bank |
 | :-- | --: | --: |
-| Free | 1,976 | 33% |
+| Free | 1,978 | 33% |
 | Pro | 70 | 1% |
-| Insider | 3,878 | 65% |
+| Insider | 3,876 | 65% |
 
-<sub>Straight from the catalog's own `accessTier`, never asserted here. The **1,976 free ones are listed in full** — [start there](../free/README.md).</sub>
+<sub>Straight from the catalog's own `accessTier`, never asserted here. The **1,978 free ones are listed in full** — [start there](../free/README.md).</sub>
 
 ## Month by month
 

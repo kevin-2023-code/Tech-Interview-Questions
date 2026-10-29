@@ -9,7 +9,7 @@ How Atlassian interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [63](../atlassian.md) |
-| Free to read here | 16 |
+| Free to read here | 17 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Atlassian questions
 
-19 questions reported at Atlassian open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at Atlassian open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -71,6 +71,7 @@ Here's what the interview process can look like:
 | [Design A Color Picker Service](../../questions/system-design/design-a-color-picker-service/README.md) | System Design | Easy | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-color-picker-service) |
 | [Calculate and Sort Customer Ratings](../../questions/algorithm/calculate-and-sort-customer-ratings/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904) |
 | [Spiral Matrix](../../questions/algorithm/spiral-matrix/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286) |
+| [Agent Vote API Design](../../questions/object-oriented-programming/agent-vote-api-design/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/acb7f800-86e4-4960-8ef2-15336c0c5562) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
 
 ## Everything else

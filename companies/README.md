@@ -86,11 +86,11 @@ The sector and size of an employer are facts about the company rather than about
 | [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 87 | 1 | 7 | Sep 29, 2026 | 16 |
 | [Goldman Sachs](goldman-sachs.md) | Banks, insurers & asset managers · 10,000+ people | 68 | 1 | 9 | Sep 13, 2026 | 43 |
 | [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 65 | 1 | 10 | Sep 18, 2026 | 30 |
-| [Atlassian](atlassian.md) | Enterprise & business software · 10,000+ people | 63 | 3 | 5 | Sep 04, 2026 | 19 |
+| [Atlassian](atlassian.md) | Enterprise & business software · 10,000+ people | 63 | 3 | 5 | Sep 04, 2026 | 20 |
 | [Karat](karat.md) | — | 61 | — | 0 | Apr 15, 2026 | 2 |
 | [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 58 | 1 | 10 | Sep 18, 2026 | 15 |
 | [Square](square.md) | Fintech, payments & crypto | 56 | — | 0 | Jul 21, 2026 | 6 |
-| [C3.ai](c3-ai.md) | AI labs & AI infrastructure | 55 | — | 8 | Oct 04, 2026 | 11 |
+| [C3.ai](c3-ai.md) | AI labs & AI infrastructure | 55 | — | 8 | Oct 04, 2026 | 12 |
 | [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 54 | 3 | 4 | Sep 17, 2026 | 23 |
 | [Robinhood](robinhood.md) | Fintech, payments & crypto · 1,000–9,999 people | 54 | 3 | 4 | Sep 17, 2026 | 20 |
 | [Tesla](tesla.md) | Autonomy, automotive & mobility · 10,000+ people | 52 | 3 | 9 | Sep 13, 2026 | 17 |

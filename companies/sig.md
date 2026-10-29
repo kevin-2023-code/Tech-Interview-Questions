@@ -2,11 +2,11 @@
 
 # Sig interview process, OA & interview questions
 
-**9 questions** reported at Sig. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sig), judged server-side on the algorithm, low-level-design and SQL formats.
+**9 questions** reported at Sig · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sig), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Sig interviews & the free questions](sig/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-sig)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-sig)
 
 ## At a glance
 
@@ -19,6 +19,7 @@
 | Difficulty (easy / medium / hard) | 0 / 0 / 3 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 0 |
+| Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 9 questions reported at Sig. 9 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -85,6 +86,16 @@ The 8 questions to open first if you are preparing for Sig, ranked by **the most
 | **8** | [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) 🆓 | Blog | — | — | Aug 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
+
+## Interview reports
+
+What candidates said happened in the room at Sig — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [SIG Interview Experience (2026)](https://trueinterview.io/interviews/319859d5-acb6-4b70-8f77-f543d04c65a9) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,461 in total). [Every report at Sig and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

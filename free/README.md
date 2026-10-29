@@ -2,7 +2,7 @@
 
 # Free questions
 
-**1,976 of the 5,924 tracked questions open without a paid plan** (33%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
+**1,978 of the 5,924 tracked questions open without a paid plan** (33%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [Free reading](../guides/README.md)
 
@@ -13,7 +13,7 @@
 | [System Design](system-design.md) | 40 | 6 | 19 | 15 |
 | [AI Coding](ai-coding.md) | 12 | 1 | 9 | 2 |
 | [Blog](blog.md) | 1,416 | 0 | 0 | 0 |
-| [Object Oriented Programming](object-oriented-programming.md) | 68 | 5 | 58 | 5 |
+| [Object Oriented Programming](object-oriented-programming.md) | 70 | 5 | 60 | 5 |
 
 ## Start here
 

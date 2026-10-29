@@ -9,7 +9,7 @@ How C3.ai interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [55](../c3-ai.md) |
-| Free to read here | 5 |
+| Free to read here | 6 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -20,7 +20,7 @@ No written process guide yet. [The loop, as reported](../c3-ai.md#the-loop-as-re
 
 ## Free C3.ai questions
 
-11 questions reported at C3.ai open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at C3.ai open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -32,6 +32,7 @@ No written process guide yet. [The loop, as reported](../c3-ai.md#the-loop-as-re
 | [Find the Intersection of Two Linked Chains](../../questions/algorithm/find-the-intersection-of-two-linked-chains/README.md) | Algorithm | Medium | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/find-the-intersection-of-two-linked-chains) |
 | [Odd Even Linked List](../../questions/algorithm/odd-even-linked-list/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) |
 | [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
+| [Library Book Management System Design and API Architecture](../../questions/object-oriented-programming/library-book-management-system-design-and-api-architecture/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c51674da-fe87-4c8a-ae4c-953716a356b6) |
 | [Analyze the Time Complexity of Nested Loops](https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413) |
 | [Shortest Substring Covering All Characters of a Pattern](../../questions/algorithm/minimum-window-substring-4/README.md) | Algorithm | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/minimum-window-substring-4) |
 | [Describe challenge, influence, and mentorship outcomes](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) |

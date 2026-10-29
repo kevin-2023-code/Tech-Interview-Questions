@@ -6,59 +6,59 @@ What candidates say happened in the room — written up by the people who sat th
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md)
 
-> **These are the 50 newest of 7,046 reports on the board.** The catalog API hands over one capped page and takes no offset, so this page cannot carry the rest; they are all at [the board](https://trueinterview.io/interviews).
+> **These are the 50 newest of 7,461 reports on the board.** The catalog API hands over one capped page and takes no offset, so this page cannot carry the rest; they are all at [the board](https://trueinterview.io/interviews).
 
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |
-| **Amazon** | Data & AI | [Amazon Applied Scientist Interview Experience (2026)](https://trueinterview.io/interviews/811660f1-ccab-4eab-ad14-008d51f5d380) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon Internship Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/c158d6d7-d7c3-4096-a5ba-7e0731b1a13e) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon L5 Interview Experience (2026)](https://trueinterview.io/interviews/b0a5f05e-036d-40b8-82f8-59facb0ae752) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/3c5ad986-56f2-4f45-aabf-46bb62126bcc) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 1 / Intern Interview Experience (2026)](https://trueinterview.io/interviews/c11b10d9-3ecb-4fed-bf22-ea0f6044f322) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 1 Intern Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/0d126746-1e05-4700-b95a-83897118c8e3) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 1 Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/90aaa478-88ba-476a-99a6-05b451d16f7e) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 2 Interview Experience (2026)](https://trueinterview.io/interviews/8fc6d5ac-f7e4-493a-9040-258b9a38d1db) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 2 Interview Experience (Alexa Devices team, Bangalore, 2026)](https://trueinterview.io/interviews/a42c8c45-c70c-4a30-a504-745cfe94337f) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 2 Interview Experience (Hyderabad, India, 2026)](https://trueinterview.io/interviews/a2efef6c-42f5-497e-970d-3281acb1a00b) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 2 Interview Experience (India, 2026)](https://trueinterview.io/interviews/42874d75-3428-40bc-9ea0-a8df05b781a6) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE 2 Phone Screen Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/d2a6347b-8b3e-4cd9-ad42-e52ad944caf6) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE I Intern Interview Experience (2026)](https://trueinterview.io/interviews/16262e01-d381-4cdf-a3a0-54d0296ba785) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE I Intern Interview Experience (2026)](https://trueinterview.io/interviews/f3aa4c4c-2987-4305-ada8-3fc332abadb6) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE II Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/2155829a-4f2b-4076-83f0-d0497d07c773) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE Intern Interview Experience (2026)](https://trueinterview.io/interviews/197e5b22-c62f-4cde-bc78-0b13eb5f36a7) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE Intern Interview Experience (2026)](https://trueinterview.io/interviews/23b9e754-10d2-4375-a1f6-f4b500b43346) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE Intern Interview Experience (2026)](https://trueinterview.io/interviews/567b748d-b3f1-49f0-9ef3-22f5cb888a75) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE Intern Interview Experience (2026)](https://trueinterview.io/interviews/b0ea0a9d-1ee8-4766-a20c-e4201556903a) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE Intern Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/4ec3aedb-f9ca-4b74-93e9-6e7ab2c9d01c) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE Intern Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/818790bc-c1d1-428e-99e8-a33d46ed7f57) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE-1 Interview Experience (2026)](https://trueinterview.io/interviews/6c4f1bb8-d154-4ba4-9366-f2edf282f1e0) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE-1 Interview Experience (Bangalore, India, 2026)](https://trueinterview.io/interviews/e5135544-4cf3-401c-872c-c5fc3ef57991) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE-1 Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/807c22f3-943e-48e0-ad0b-38f03bb92a26) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE-2 (L5) Phone Interview Experience (2026)](https://trueinterview.io/interviews/d7d15f53-e1e4-4051-b0cc-a2192b9eca6d) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/ac11414b-4fc4-4030-b62e-b8b3d4f8b4de) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/ea202040-7fea-4c62-bfb0-d551a3d1a9b8) | Oct 29, 2026 |
-| **Amazon** | Software | [Amazon SDE-II Interview Experience (2026)](https://trueinterview.io/interviews/92c9e231-910a-4b03-ac55-5f7dd83895fb) | Oct 29, 2026 |
-| **AMD** | Software | [AMD EDA Tools Development Interview Experience (2026)](https://trueinterview.io/interviews/3082566f-ba5b-46e2-8b4b-7b56f39a5015) | Oct 29, 2026 |
-| **AMD** | Software | [AMD Senior Software Engineer Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/df5cb6cf-312f-427b-932e-82e900f7f556) | Oct 29, 2026 |
-| **AMD** | Software | [AMD Senior Software System Designer Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/55c6b792-adc2-48d8-9695-07160e95f0e5) | Oct 29, 2026 |
-| **Anthropic** | Software | [Anthropic Software Engineer Phone Screen Interview Experience (2026)](https://trueinterview.io/interviews/1126f3e4-f9f0-4831-a2e9-c7cd61292840) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Coding Interview Experience: Product of Array Except Self (2026)](https://trueinterview.io/interviews/8934a7e5-adc6-4000-b506-07bdf80c8d6b) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Frontend Engineer Interview Experience (2026)](https://trueinterview.io/interviews/a5bbdaea-9ea1-441a-a344-6507eba7b0e0) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Interview Experience (2026)](https://trueinterview.io/interviews/c5286607-d6f6-4317-be7c-2ed352166345) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Interview Experience: Phone Directory Problem (2026)](https://trueinterview.io/interviews/9562562c-d6bd-479c-9c64-4ff3ade81578) | Oct 29, 2026 |
-| **Apple** | Software | [Apple IS&T Team Interview Experience (2026)](https://trueinterview.io/interviews/8e5edd05-ae5c-4445-aacb-484ce49ecde5) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Java Spring Boot Engineer Interview Experience (2026)](https://trueinterview.io/interviews/3e27d94f-8a70-4cd1-80fd-3a0e391a6ae6) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Kernel Engineer (Core OS) Interview Experience (2026)](https://trueinterview.io/interviews/0a43dd06-9101-441f-b360-7468fdd29383) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Round 1 Coding Question: Subset Sum (2026) Interview Experience](https://trueinterview.io/interviews/c2a2fa22-b91a-4e24-9c4c-df2f2159590f) | Oct 29, 2026 |
-| **Apple** | Software | [Apple SDE 3 (Java Spring Boot) Interview Experience (2026)](https://trueinterview.io/interviews/213918db-d28a-47ec-9492-cbab0a966806) | Oct 29, 2026 |
-| **Apple** | Software | [Apple SDET Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/80b8d084-a342-4a63-8a60-283410a65d0d) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Software Engineer (Ads Delivery) Interview Experience (Hyderabad, 2025)](https://trueinterview.io/interviews/b9e95672-d5be-4726-b2d7-045c889a2f57) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Software Engineer (Java backend) Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/818afe69-6ff7-40c9-aed5-40f46fc8eb3d) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Software Engineer (Java) Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/07e5b328-e42e-45f7-802d-ad7cd5b9f317) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Software Engineer (Java, Spring Boot, Microservices) Interview Experience (2026)](https://trueinterview.io/interviews/f69362dd-d853-47f1-9403-4312b1e0692d) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/bc2a9e54-1052-4051-8748-0f8bd7d0e6ea) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/d65cfe0c-492a-4f5e-9fcc-abee4a94f196) | Oct 29, 2026 |
-| **Apple** | Software | [Apple SSE Interview Experience (2026)](https://trueinterview.io/interviews/90ea14ac-96f2-4a96-b74a-6ed55031fb0c) | Oct 29, 2026 |
-| **Apple** | Software | [Apple Weighted Random Country Generator Coding Interview Experience (2026)](https://trueinterview.io/interviews/9d9b73b5-942b-44e2-ad85-8d80ce457a3a) | Oct 29, 2026 |
+| **Rubrik** | Software | [Rubrik SDE 2 (Grade G6) Interview Experience (2026)](https://trueinterview.io/interviews/7375e2fb-d1e1-4fe8-ac22-bf8e298c46ba) | Oct 29, 2026 |
+| **Rubrik** | Software | [Rubrik SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/37e4a234-f5ca-40e3-bc51-40923b0f63b6) | Oct 29, 2026 |
+| **Rubrik** | Software | [Rubrik SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/4b5b1613-3e3b-4edf-8fc9-51669deb8f5e) | Oct 29, 2026 |
+| **Rubrik** | Software | [Rubrik Software Engineer (G6) Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/c81315b3-c8ac-40b7-9c50-2ee19576ca36) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce AMTS Interview Experience (2026)](https://trueinterview.io/interviews/ecd29e26-ed06-4bcd-a2e9-b421f532797b) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce AMTS Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/e1de6718-9297-458d-a8b3-3cb152659f0b) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Associate Member of Technical Staff Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/1addaeb0-3771-4d71-9505-23f35ca8f8fd) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Lead Software Engineer (LMTS), Backend Distributed Systems Interview Experience (India, 2025)](https://trueinterview.io/interviews/cfd43123-1276-4aac-be1b-2c43c662d61c) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce LMTS Interview Experience (2025)](https://trueinterview.io/interviews/2eef13db-9c8d-446b-b071-a675b2283ad1) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce LMTS Interview Experience (2025)](https://trueinterview.io/interviews/97c98081-e34d-4e8e-a89c-bce3035d7cb1) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Meeting Room Reservation Platform Interview Experience (2025)](https://trueinterview.io/interviews/c3f6c39d-07dc-4027-ba55-c1dbe6f09e62) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Member of Technical Staff (MTS) Interview Experience (India, 2026)](https://trueinterview.io/interviews/d785f980-eeef-4b22-81e5-73afb3f6f89b) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS (SDE-2) Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/63b2512d-5794-4795-928f-6f487160e99e) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (2025)](https://trueinterview.io/interviews/b6a0052a-a0e7-4517-9cf3-7ea06e2ce575) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/0a63cdbb-8063-4ac7-ab45-ebe96d654f8d) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/26a92fcc-c808-4578-a0d0-bc6af3a2a1ee) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/85a76a5b-eb35-43db-aa7a-2cc2c756bad9) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/94ee2515-38ce-40d0-bfcd-821343d7b8c0) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/cdee7ff5-6ed1-41b1-b8cb-4828a07d4f99) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (2026)](https://trueinterview.io/interviews/fc15b24c-afc8-44dc-b1df-ff8743d2feed) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/7486af35-d81c-4db8-bc22-ba60ec7273b6) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/b926db93-4dec-40be-8805-bd29b6f1e725) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (Bangalore, India, 2025)](https://trueinterview.io/interviews/85904f87-9f4b-4c7f-b1aa-7bacdc37b480) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/a5b34fce-0003-439c-9f32-03c23b0dfd8a) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (Bengaluru, 2026)](https://trueinterview.io/interviews/a70fc6a4-7ff0-4603-ad38-7081d3b70a0f) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce MTS Interview Experience (India, 2026)](https://trueinterview.io/interviews/ae13909b-baee-4d9e-a741-2573e78fdd9f) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/b3d8ace6-9947-4f0f-9169-eca5d8b8f31b) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Online Assessment Interview Experience (2026)](https://trueinterview.io/interviews/d5f551e6-6e47-46ab-b44b-dd778ead3287) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Onsite Interview Experience (2026)](https://trueinterview.io/interviews/831d4504-4a2d-43de-a2bd-8a7cce029d82) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Senior Member of Technical Staff (Frontend) Interview Experience (2025)](https://trueinterview.io/interviews/b757f700-51be-4e4f-bdf3-f1517cc1381b) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Senior Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/818605c4-8edd-47ae-aa8e-2238ca872f48) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Backend Interview Experience (2025)](https://trueinterview.io/interviews/f2a5c47a-6d77-4488-a93f-fc08bca1e261) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Backend Interview Experience (2026)](https://trueinterview.io/interviews/901c950a-5c2b-4ad2-ab9d-21183d429b1a) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Interview Experience (2025)](https://trueinterview.io/interviews/3b42a6e6-478a-4806-931b-dc85def9a2f2) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Interview Experience (2025)](https://trueinterview.io/interviews/5c52b8a6-7126-47b8-9268-e7992a2f0151) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Interview Experience (2025)](https://trueinterview.io/interviews/5dca70c8-8085-4fa0-bccc-d95b43e39736) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Interview Experience (2025)](https://trueinterview.io/interviews/f6807baf-82a8-4689-a152-0364daa6e5b7) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Interview Experience (2026)](https://trueinterview.io/interviews/1b09ac73-c7d6-4c36-b091-1ba597be87a5) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Interview Experience (Hyderabad, 2025)](https://trueinterview.io/interviews/69766e6f-a06b-44ba-b890-f239d3d27741) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Interview Experience (Hyderabad, 2026)](https://trueinterview.io/interviews/d0f25969-a5e1-43ab-ba52-03f1ba0d5819) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Online Assessment Experience (2025) Interview Experience](https://trueinterview.io/interviews/578744fd-2c50-471c-83dd-9e8b45a99c2b) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS Online Assessment Experience (2026) Interview Experience](https://trueinterview.io/interviews/8e5d920e-3a58-40e2-bd80-58c6e623e9ea) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce SMTS/LMTS Interview Experience (2026)](https://trueinterview.io/interviews/131a825f-b8b5-4a22-ad62-bfaf10b7025c) | Oct 29, 2026 |
+| **Salesforce** | Software | [Salesforce Software Engineer Online Assessment Interview Experience (India, 2025)](https://trueinterview.io/interviews/d7adb398-f34f-4b04-9424-46332425747a) | Oct 29, 2026 |
+| **Shopify** | Software | [Shopify Staff Engineer Interview Experience (2026)](https://trueinterview.io/interviews/2b20e92f-b570-4e4d-b1ff-9a3eb522d48d) | Oct 29, 2026 |
+| **Siemens** | Software | [Siemens Healthineers Technical Intern Interview Experience (2026)](https://trueinterview.io/interviews/4ba3315a-38d8-41c1-86a5-a839fb38d58d) | Oct 29, 2026 |
+| **Sig** | Software | [SIG Interview Experience (2026)](https://trueinterview.io/interviews/319859d5-acb6-4b70-8f77-f543d04c65a9) | Oct 29, 2026 |
+| **Snowflake** | Software | [Snowflake Intern Interview Experience (2025)](https://trueinterview.io/interviews/badbc2cf-21a4-4300-a1e2-3ff4d8f59cb7) | Oct 29, 2026 |
+| **Snowflake** | Software | [Snowflake Interview Experience: Tree Question (2025)](https://trueinterview.io/interviews/e5c2b7ff-3766-48f2-8e44-cedafc4fcfca) | Oct 29, 2026 |
+| **Snowflake** | Software | [Snowflake SWE (AI/ML) Intern Interview Experience (2026)](https://trueinterview.io/interviews/d5858ff2-b886-4926-b363-e9d08a670ab0) | Oct 29, 2026 |
 
 [**Every report on the board →**](https://trueinterview.io/interviews)

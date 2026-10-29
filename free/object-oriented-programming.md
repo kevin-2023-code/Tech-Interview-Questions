@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**68 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**70 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -32,6 +32,7 @@
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | **Coinbase / Lyft** | Medium | Feb 04, 2026 |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | **Atlassian / Amplitude** | Medium | Oct 02, 2025 |
 | [Task Management System III](https://trueinterview.io/questions/task-management-system) | **Coinbase / Instacart** | Medium | — |
+| [Agent Vote API Design](https://trueinterview.io/questions/acb7f800-86e4-4960-8ef2-15336c0c5562) | **Atlassian** | Medium | — |
 | [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | **PayPal** | Medium | — |
 | [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | **Capital One** | Medium | — |
 | [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | **Tesla** | Medium | Jul 24, 2025 |
@@ -60,6 +61,7 @@
 | [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) | **Discord** | Medium | Apr 03, 2026 |
 | [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | **SoFi** | Medium | Jul 14, 2025 |
 | [Kubernetes Controller for Pod Balance](https://trueinterview.io/questions/kubernetes-controller-pod-balance) | **IBM** | Medium | Aug 25, 2025 |
+| [Library Book Management System Design and API Architecture](https://trueinterview.io/questions/c51674da-fe87-4c8a-ae4c-953716a356b6) | **C3.ai** | Medium | — |
 | [Logger System](https://trueinterview.io/questions/logger-system-ood) | **Rippling** | Medium | Jun 09, 2026 |
 | [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | **Robinhood** | Medium | Aug 2025 |
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | **Atlassian** | Medium | Feb 15, 2026 |

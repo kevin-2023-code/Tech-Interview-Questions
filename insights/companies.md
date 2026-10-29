@@ -68,11 +68,11 @@
 | [Waymo](../companies/waymo.md) | 87 | 1 | 16 | 7 | Sep 29, 2026 | Algorithm | `graphs` |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 68 | 1 | 43 | 9 | Sep 13, 2026 | Algorithm | `arrays` |
 | [Instacart](../companies/instacart.md) | 65 | 1 | 30 | 10 | Sep 18, 2026 | Blog | `strings` |
-| [Atlassian](../companies/atlassian.md) | 63 | 3 | 19 | 5 | Sep 04, 2026 | Algorithm | `hashing` |
+| [Atlassian](../companies/atlassian.md) | 63 | 3 | 20 | 5 | Sep 04, 2026 | Algorithm | `hashing` |
 | [Karat](../companies/karat.md) | 61 | 0 | 2 | 0 | Apr 15, 2026 | System Design | `hashing` |
 | [Rippling](../companies/rippling.md) | 58 | 1 | 15 | 10 | Sep 18, 2026 | Algorithm | `graphs` |
 | [Square](../companies/square.md) | 56 | 0 | 6 | 0 | Jul 21, 2026 | Algorithm | `hashing` |
-| [C3.ai](../companies/c3-ai.md) | 55 | 0 | 11 | 8 | Oct 04, 2026 | Algorithm | `arrays` |
+| [C3.ai](../companies/c3-ai.md) | 55 | 0 | 12 | 8 | Oct 04, 2026 | Algorithm | `arrays` |
 | [NVIDIA](../companies/nvidia.md) | 54 | 3 | 23 | 4 | Sep 17, 2026 | Algorithm | `two-pointers` |
 | [Robinhood](../companies/robinhood.md) | 54 | 3 | 20 | 4 | Sep 17, 2026 | System Design | `graphs` |
 | [Tesla](../companies/tesla.md) | 52 | 3 | 17 | 9 | Sep 13, 2026 | Algorithm | `arrays` |

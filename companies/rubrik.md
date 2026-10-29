@@ -2,13 +2,13 @@
 
 # Rubrik interview process, OA & interview questions
 
-**19 questions** reported at Rubrik · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
+**19 questions** reported at Rubrik · **1 writeup** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
 
 [📖 How Rubrik interviews & the free questions](rubrik/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🔒 [Cybersecurity](../company-types/security.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-rubrik)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-rubrik)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 2 / 5 / 12 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
+| Interview reports on the board | 4 in this snapshot |
 
 <sub>Counted from the 19 questions reported at Rubrik. 0 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -82,6 +83,19 @@ The 8 questions to open first if you are preparing for Rubrik, ranked by **the o
 | Writeup | Topics |
 | :-- | :-- |
 | [Rubrik Interview Process & Questions](https://trueinterview.io/study/rubrik-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Rubrik — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Rubrik SDE 2 (Grade G6) Interview Experience (2026)](https://trueinterview.io/interviews/7375e2fb-d1e1-4fe8-ac22-bf8e298c46ba) | Oct 29, 2026 |
+| Software | [Rubrik SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/37e4a234-f5ca-40e3-bc51-40923b0f63b6) | Oct 29, 2026 |
+| Software | [Rubrik SDE-2 Interview Experience (2026)](https://trueinterview.io/interviews/4b5b1613-3e3b-4edf-8fc9-51669deb8f5e) | Oct 29, 2026 |
+| Software | [Rubrik Software Engineer (G6) Interview Experience (Bangalore, 2026)](https://trueinterview.io/interviews/c81315b3-c8ac-40b7-9c50-2ee19576ca36) | Oct 29, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 7,461 in total). [Every report at Rubrik and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
