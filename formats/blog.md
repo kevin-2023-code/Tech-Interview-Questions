@@ -37,21 +37,21 @@
 | **Together AI** | [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | — | 🆕 Sep 15, 2026 |
 | **Together AI** | [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | — | 🆕 Sep 15, 2026 |
 | **Salesforce** | [Hiring Manager + Behavioral Rounds](https://trueinterview.io/questions/hm-and-bq-rounds) | — | 🆕 Sep 15, 2026 |
-| **Disney** | [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | — | 🆕 Sep 14, 2026 |
-| **AMD** | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | — | 🆕 Sep 14, 2026 |
-| **Amazon** | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | — | 🆕 Sep 14, 2026 |
-| **Amazon** | [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/questions/solve-a-problem-outside-your-assigned-responsibilities) | — | 🆕 Sep 14, 2026 |
-| **AMD** | [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | — | 🆕 Sep 14, 2026 |
-| **Amazon** | [Make an Important Decision Before Every Option Can Be Explored](https://trueinterview.io/questions/make-an-important-decision-before-every-option-can-be-explored) | — | 🆕 Sep 14, 2026 |
-| **Amazon** | [Learn What You Need to Solve an Unfamiliar Problem](https://trueinterview.io/questions/learn-what-you-need-to-solve-an-unfamiliar-problem) | — | 🆕 Sep 14, 2026 |
-| **Amazon** | [Explain What You Want in Your Next Role](https://trueinterview.io/questions/explain-what-you-want-in-your-next-role) | — | 🆕 Sep 14, 2026 |
-| **AMD** | [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | — | 🆕 Sep 14, 2026 |
-| **AMD** | [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | — | 🆕 Sep 14, 2026 |
-| **AMD** | [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | — | 🆕 Sep 14, 2026 |
-| **AMD** | [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | — | 🆕 Sep 14, 2026 |
-| **AMD** | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | — | 🆕 Sep 14, 2026 |
-| **Voleon** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | — | 🆕 Sep 14, 2026 |
-| **Amazon** | [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach) | — | 🆕 Sep 14, 2026 |
+| **Disney** | [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | — | Sep 14, 2026 |
+| **AMD** | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | — | Sep 14, 2026 |
+| **Amazon** | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | — | Sep 14, 2026 |
+| **Amazon** | [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/questions/solve-a-problem-outside-your-assigned-responsibilities) | — | Sep 14, 2026 |
+| **AMD** | [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | — | Sep 14, 2026 |
+| **Amazon** | [Make an Important Decision Before Every Option Can Be Explored](https://trueinterview.io/questions/make-an-important-decision-before-every-option-can-be-explored) | — | Sep 14, 2026 |
+| **Amazon** | [Learn What You Need to Solve an Unfamiliar Problem](https://trueinterview.io/questions/learn-what-you-need-to-solve-an-unfamiliar-problem) | — | Sep 14, 2026 |
+| **Amazon** | [Explain What You Want in Your Next Role](https://trueinterview.io/questions/explain-what-you-want-in-your-next-role) | — | Sep 14, 2026 |
+| **AMD** | [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | — | Sep 14, 2026 |
+| **AMD** | [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | — | Sep 14, 2026 |
+| **AMD** | [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | — | Sep 14, 2026 |
+| **AMD** | [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | — | Sep 14, 2026 |
+| **AMD** | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | — | Sep 14, 2026 |
+| **Voleon** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | — | Sep 14, 2026 |
+| **Amazon** | [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach) | — | Sep 14, 2026 |
 | **Drw** | [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | — | Sep 13, 2026 |
 | **Drw** | [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | — | Sep 13, 2026 |
 | **Drw** | [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | — | Sep 13, 2026 |

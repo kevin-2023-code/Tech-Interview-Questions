@@ -14,7 +14,7 @@
 | [Explain BLS vs CLS; compute t-stats](https://trueinterview.io/questions/explain-bls-vs-cls-compute-t-stats) | **Pinterest** | — | — |
 | [Explain C printf pointers and memory layout](https://trueinterview.io/questions/explain-c-printf-pointers-and-memory-layout) | **Arista** | — | Oct 04, 2025 |
 | [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) | **Discord** | — | Dec 08, 2025 |
-| [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | **AMD** | — | 🆕 Sep 14, 2026 |
+| [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | **AMD** | — | Sep 14, 2026 |
 | [Explain career moves and defend moat](https://trueinterview.io/questions/explain-career-moves-and-defend-moat) | **Upstart** | — | — |
 | [Explain Changing Priorities and Your Role on a Team](https://trueinterview.io/questions/explain-changing-priorities-and-your-role-on-a-team) | **Google** | — | Dec 08, 2025 |
 | [Explain classification lifecycle and CTR modeling](https://trueinterview.io/questions/explain-classification-lifecycle-and-ctr-modeling) | **Apple** | — | Dec 17, 2025 |
@@ -38,7 +38,7 @@
 | [Explain Ensemble Learning and Its Main Families](https://trueinterview.io/questions/explain-ensemble-learning-and-its-main-families) | **Point72** | — | Dec 14, 2025 |
 | [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) | **PayPal** | — | Jan 02, 2026 |
 | [Explain GC, singleton, and OOP principles](https://trueinterview.io/questions/explain-gc-singleton-and-oop-principles) | **SoFi** | — | Feb 04, 2026 |
-| [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | **AMD** | — | 🆕 Sep 14, 2026 |
+| [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | **AMD** | — | Sep 14, 2026 |
 | [Explain grocery-specific product strategy and scrappy XP](https://trueinterview.io/questions/explain-grocery-specific-product-strategy-and-scrappy-xp) | **Uber** | — | — |
 | [Explain handling a tight project deadline](https://trueinterview.io/questions/explain-handling-a-tight-project-deadline) | **Google** | — | — |
 | [Explain handling pressure to bend rules](https://trueinterview.io/questions/explain-handling-pressure-to-bend-rules) | **Coinbase** | — | — |
@@ -50,7 +50,7 @@
 | [Explain How AI Supports Your Engineering Work](https://trueinterview.io/questions/explain-how-ai-supports-your-engineering-work) | **Capital One** | — | Aug 23, 2026 |
 | [Explain how helping others helped you](https://trueinterview.io/questions/explain-how-helping-others-helped-you) | **Capital One** | — | — |
 | [Explain How You Know a Professional Referrer](https://trueinterview.io/questions/explain-how-you-know-a-professional-referrer) | **Anthropic** | — | Aug 28, 2026 |
-| [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | **AMD** | — | 🆕 Sep 14, 2026 |
+| [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | **AMD** | — | Sep 14, 2026 |
 | [Explain How You Resolved a Professional Conflict](https://trueinterview.io/questions/explain-how-you-resolved-a-professional-conflict) | **Anthropic** | — | Mar 30, 2026 |
 | [Explain How Your Analytics Work Shapes Product Strategy](https://trueinterview.io/questions/explain-how-your-analytics-work-shapes-product-strategy) | **Meta** | — | Apr 20, 2026 |
 | [Explain interest and influence stakeholders](https://trueinterview.io/questions/explain-interest-and-influence-stakeholders) | **DoorDash** | — | — |
@@ -112,7 +112,7 @@
 | [Explain ROC-AUC vs PR-AUC tradeoffs](https://trueinterview.io/questions/explain-roc-auc-vs-pr-auc-tradeoffs) | **Databricks** | — | Dec 12, 2025 |
 | [Explain scope and impact under pressure](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure) | **Axon** | — | Mar 01, 2026 |
 | [Explain SHAP vs VIF under collinearity](https://trueinterview.io/questions/explain-shap-vs-vif-under-collinearity) | **ByteDance** | — | — |
-| [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | **AMD** | — | 🆕 Sep 14, 2026 |
+| [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | **AMD** | — | Sep 14, 2026 |
 | [Explain Spark Execution and Optimization](https://trueinterview.io/questions/explain-spark-execution-and-optimization) | **Point72** | — | Apr 30, 2026 |
 | [Explain surprisal and its units](https://trueinterview.io/questions/explain-surprisal-and-its-units) | **Amazon** | — | Nov 20, 2025 |
 | [Explain tackling ambiguity and defending a decision](https://trueinterview.io/questions/explain-tackling-ambiguity-and-defending-a-decision) | **Upstart** | — | — |
@@ -120,7 +120,7 @@
 | [Explain the bias–variance trade-off](https://trueinterview.io/questions/explain-the-biasvariance-trade-off) | **Amazon** | — | — |
 | [Explain the Design of a Recent Feature](https://trueinterview.io/questions/explain-the-design-of-a-recent-feature) | **LinkedIn** | — | Aug 31, 2026 |
 | [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) | **Mistral AI** | — | Sep 01, 2026 |
-| [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | **AMD** | — | 🆕 Sep 14, 2026 |
+| [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | **AMD** | — | Sep 14, 2026 |
 | [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/questions/explain-the-scope-and-impact-of-your-most-important-project) | **Rippling** | — | Sep 13, 2026 |
 | [Explain the TCP Three-Way Handshake and Its Guarantees](https://trueinterview.io/questions/explain-the-tcp-three-way-handshake-and-its-guarantees) | **ByteDance** | — | Aug 23, 2026 |
 | [Explain Tight-Deadline Delivery and a Missed Deadline](https://trueinterview.io/questions/explain-tight-deadline-delivery-and-a-missed-deadline) | **Amazon** | — | Aug 30, 2026 |
@@ -140,7 +140,7 @@
 | [Explain what happens when opening a website](https://trueinterview.io/questions/explain-what-happens-when-opening-a-website) | **Mercor** | — | Jan 17, 2026 |
 | [Explain what happens when you run ls](https://trueinterview.io/questions/explain-what-happens-when-you-run-ls) | **Google** | — | Feb 01, 2026 |
 | [Explain What Motivates and Demotivates You at Work](https://trueinterview.io/questions/explain-what-motivates-and-demotivates-you-at-work) | **Axon** | — | Mar 29, 2026 |
-| [Explain What You Want in Your Next Role](https://trueinterview.io/questions/explain-what-you-want-in-your-next-role) | **Amazon** | — | 🆕 Sep 14, 2026 |
+| [Explain What You Want in Your Next Role](https://trueinterview.io/questions/explain-what-you-want-in-your-next-role) | **Amazon** | — | Sep 14, 2026 |
 | [Explain why DoorDash and job change](https://trueinterview.io/questions/explain-why-doordash-and-job-change) | **DoorDash** | — | — |
 | [Explain why join C1 and your impact](https://trueinterview.io/questions/explain-why-join-c1-and-your-impact) | **Capital One** | — | — |
 | [Explain why LASSO selects features](https://trueinterview.io/questions/explain-why-lasso-selects-features) | **Amazon** | — | — |

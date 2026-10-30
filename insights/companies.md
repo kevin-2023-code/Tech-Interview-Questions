@@ -15,8 +15,8 @@
 | [Google](../companies/google.md) | 40 | 383 | Oct 04, 2026 | ███████ |
 | [Microsoft](../companies/microsoft.md) | 36 | 242 | Oct 03, 2026 | ███████ |
 | [Oracle](../companies/oracle.md) | 25 | 115 | Sep 28, 2026 | █████ |
-| [OpenAI](../companies/openai.md) | 24 | 176 | Oct 04, 2026 | ████ |
 | [LinkedIn](../companies/linkedin.md) | 23 | 145 | Oct 01, 2026 | ████ |
+| [OpenAI](../companies/openai.md) | 23 | 176 | Oct 04, 2026 | ████ |
 | [DoorDash](../companies/doordash.md) | 21 | 151 | Sep 16, 2026 | ████ |
 | [Airbnb](../companies/airbnb.md) | 18 | 112 | Oct 14, 2026 | ███ |
 | [Meta](../companies/meta.md) | 17 | 489 | Oct 01, 2026 | ███ |
@@ -48,7 +48,7 @@
 | [Microsoft](../companies/microsoft.md) | 242 | 5 | 73 | 36 | Oct 03, 2026 | Algorithm | `strings` |
 | [Capital One](../companies/capital-one.md) | 213 | 5 | 112 | 9 | Oct 02, 2026 | Blog | `arrays` |
 | [Apple](../companies/apple.md) | 182 | 4 | 72 | 11 | Oct 02, 2026 | Algorithm | `hashing` |
-| [OpenAI](../companies/openai.md) | 176 | 7 | 31 | 24 | Oct 04, 2026 | Algorithm | `graphs` |
+| [OpenAI](../companies/openai.md) | 176 | 7 | 31 | 23 | Oct 04, 2026 | Algorithm | `graphs` |
 | [DoorDash](../companies/doordash.md) | 151 | 3 | 49 | 21 | Sep 16, 2026 | Algorithm | `arrays` |
 | [Snowflake](../companies/snowflake.md) | 147 | 1 | 54 | 15 | Oct 01, 2026 | Algorithm | `graphs` |
 | [LinkedIn](../companies/linkedin.md) | 145 | 4 | 40 | 23 | Oct 01, 2026 | Algorithm | `hashing` |
@@ -65,7 +65,7 @@
 | [Databricks](../companies/databricks.md) | 89 | 3 | 26 | 7 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Coinbase](../companies/coinbase.md) | 87 | 4 | 24 | 1 | Aug 27, 2026 | Object Oriented Programming | `graphs` |
 | [Snapchat](../companies/snapchat.md) | 87 | 3 | 34 | 7 | Sep 09, 2026 | Algorithm | `graphs` |
-| [Waymo](../companies/waymo.md) | 87 | 1 | 16 | 7 | Sep 29, 2026 | Algorithm | `graphs` |
+| [Waymo](../companies/waymo.md) | 87 | 1 | 16 | 6 | Sep 29, 2026 | Algorithm | `graphs` |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 68 | 1 | 43 | 9 | Sep 13, 2026 | Algorithm | `arrays` |
 | [Instacart](../companies/instacart.md) | 65 | 1 | 30 | 10 | Sep 18, 2026 | Blog | `strings` |
 | [Atlassian](../companies/atlassian.md) | 63 | 3 | 20 | 5 | Sep 04, 2026 | Algorithm | `hashing` |

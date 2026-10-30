@@ -97,7 +97,7 @@
 | [Sketch function from derivatives and limits](https://trueinterview.io/questions/sketch-function-from-derivatives-and-limits) | **Capital One** | — | — |
 | [Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal) | **Two Sigma** | — | Nov 28, 2025 |
 | [Solve a challenge using data](https://trueinterview.io/questions/solve-a-challenge-using-data) | **Instacart** | — | — |
-| [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/questions/solve-a-problem-outside-your-assigned-responsibilities) | **Amazon** | — | 🆕 Sep 14, 2026 |
+| [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/questions/solve-a-problem-outside-your-assigned-responsibilities) | **Amazon** | — | Sep 14, 2026 |
 | [Solve core probability/statistics mini-problems](https://trueinterview.io/questions/solve-core-probability-statistics-mini-problems) | **Upstart** | — | Nov 29, 2025 |
 | [Solve cups logic puzzle with one true statement](https://trueinterview.io/questions/solve-cups-logic-puzzle-with-one-true-statement) | **Bitkernel** | — | Oct 24, 2025 |
 | [Solve drunk-passenger probability and simulate outcome](https://trueinterview.io/questions/solve-drunk-passenger-probability-and-simulate-outcome) | **Upstart** | — | — |
@@ -114,11 +114,11 @@
 | [Summarize your background concisely](https://trueinterview.io/questions/summarize-your-background-concisely) | **Instacart** | — | — |
 | [Super Day Behavioral Round](https://trueinterview.io/questions/superday-behavioral-round) | **JPMorgan** | — | Jun 23, 2026 |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | **Databricks** | — | Aug 13, 2026 |
-| [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | **Disney** | — | 🆕 Sep 14, 2026 |
+| [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | **Disney** | — | Sep 14, 2026 |
 | [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) | **Waymo** | — | Aug 11, 2026 |
 | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | **LinkedIn** | — | 🆕 Sep 28, 2026 |
 | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/questions/systemverilog-dv-constraint-and-architecture-loop) | **Apple** | — | Mar 06, 2026 |
-| [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | **Amazon** | — | 🆕 Sep 14, 2026 |
+| [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | **Amazon** | — | Sep 14, 2026 |
 | [Take Ownership Beyond Your Assigned Responsibilities](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities) | **Salesforce** | — | Apr 11, 2026 |
 | [Take Ownership Through Ambiguity](https://trueinterview.io/questions/take-ownership-through-ambiguity) | **Oracle** | — | Aug 21, 2026 |
 | [Take Responsibility for Missed Deadlines and Mistakes](https://trueinterview.io/questions/take-responsibility-for-missed-deadlines-and-mistakes) | **Amazon** | — | Sep 07, 2026 |
@@ -151,7 +151,7 @@
 | [Use DiD for staggered treatment adoption](https://trueinterview.io/questions/use-did-for-staggered-treatment-adoption) | **ByteDance** | — | — |
 | [Use Generative AI to Improve Work Efficiently](https://trueinterview.io/questions/use-generative-ai-to-improve-work-efficiently) | **Amazon** | — | Aug 22, 2026 |
 | [Use Metrics and Logs to Establish a Production Root Cause](https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause) | **Tesla** | — | Sep 01, 2026 |
-| [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | **AMD** | — | 🆕 Sep 14, 2026 |
+| [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | **AMD** | — | Sep 14, 2026 |
 | [Validate and Assess Performance Benchmarks](https://trueinterview.io/questions/validate-and-assess-performance-benchmarks) | **Apple** | — | Mar 27, 2026 |
 | [Validate and monitor ranking model end-to-end](https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end) | **Expedia** | — | — |
 | [Validate DID and IV assumptions rigorously](https://trueinterview.io/questions/validate-did-and-iv-assumptions-rigorously) | **Amazon** | — | — |

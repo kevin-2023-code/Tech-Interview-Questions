@@ -66,7 +66,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 242 | 5 | 36 | Oct 03, 2026 | 73 |
 | [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 213 | 5 | 9 | Oct 02, 2026 | 112 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 182 | 4 | 11 | Oct 02, 2026 | 72 |
-| [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 176 | 7 | 24 | Oct 04, 2026 | 31 |
+| [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 176 | 7 | 23 | Oct 04, 2026 | 31 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 151 | 3 | 21 | Sep 16, 2026 | 49 |
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 147 | 1 | 15 | Oct 01, 2026 | 54 |
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 145 | 4 | 23 | Oct 01, 2026 | 40 |
@@ -83,7 +83,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 89 | 3 | 7 | Sep 15, 2026 | 26 |
 | [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 87 | 4 | 1 | Aug 27, 2026 | 24 |
 | [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 87 | 3 | 7 | Sep 09, 2026 | 34 |
-| [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 87 | 1 | 7 | Sep 29, 2026 | 16 |
+| [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 87 | 1 | 6 | Sep 29, 2026 | 16 |
 | [Goldman Sachs](goldman-sachs.md) | Banks, insurers & asset managers · 10,000+ people | 68 | 1 | 9 | Sep 13, 2026 | 43 |
 | [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 65 | 1 | 10 | Sep 18, 2026 | 30 |
 | [Atlassian](atlassian.md) | Enterprise & business software · 10,000+ people | 63 | 3 | 5 | Sep 04, 2026 | 20 |

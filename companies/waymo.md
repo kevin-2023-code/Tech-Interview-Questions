@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **87** |
 | Most recent sighting | Sep 29, 2026 |
-| Reported in the last 90 days | 7 |
+| Reported in the last 90 days | 6 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 87) |
 | Difficulty (easy / medium / hard) | 10 / 48 / 18 |
 | Free to practise | [16](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **87 of 87** questions at Waymo tha
 
 ## Asked here in the last 90 days
 
-**7 sightings** in this window. Newest first.
+**6 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -48,7 +48,6 @@ Which stage each question came from, for the **87 of 87** questions at Waymo tha
 | [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities) | Blog | — | Onsite / virtual onsite | Aug 27, 2026 |
 | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Algorithm | Hard | Onsite / virtual onsite | Aug 27, 2026 |
 | [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) | Blog | — | Phone screen | Aug 11, 2026 |
-| [Number of Visible People in a Queue (LC 1944)](https://trueinterview.io/questions/number-of-visible-people-in-a-queue-lc-1944) | Algorithm | Hard | Onsite / virtual onsite | Jul 31, 2026 |
 
 ## What they ask about
 

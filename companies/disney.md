@@ -114,7 +114,7 @@ The 8 questions to open first if you are preparing for Disney, ranked by **the m
 | [Data Pipeline Design (Data Engineer)](https://trueinterview.io/questions/data-pipeline-design-data-engineer) | System Design | Hard | 🆕 Oct 08, 2026 |
 | [Data Engineer Tech Questions: LLM Prompting, Data Quality & Security](https://trueinterview.io/questions/data-engineer-llm-prompting-and-data-quality) | Object Oriented Programming | Medium | 🆕 Oct 08, 2026 |
 | [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) | Blog | — | 🆕 Oct 08, 2026 |
-| [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | Blog | — | 🆕 Sep 14, 2026 |
+| [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | Blog | — | Sep 14, 2026 |
 | [Discuss Your Proudest Project and Interest in a Role](https://trueinterview.io/questions/discuss-your-proudest-project-and-interest-in-a-role) | Blog | — | Sep 08, 2026 |
 | [Discuss Terraform, Infrastructure as Code, and AWS Experience](https://trueinterview.io/questions/discuss-terraform-infrastructure-as-code-and-aws-experience) | Blog | — | Sep 08, 2026 |
 | [Thread-Safe Buffered Batch Writer for Streaming Records into a Database](https://trueinterview.io/questions/thread-safe-buffered-batch-writer-for-streaming-records-into-a-database) | Object Oriented Programming | Hard | Aug 30, 2026 |

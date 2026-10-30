@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**5,924 tracked questions** across **132 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 14, 2026. Windows below are measured against **Oct 29, 2026**, and everything on this page is recomputed hourly.
+**5,924 tracked questions** across **132 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 14, 2026. Windows below are measured against **Oct 30, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,15 +10,15 @@
 
 ## The last 90 days
 
-**668 sightings** recorded between Jul 31, 2026 → Oct 29, 2026 — 19% of the 3,431 questions in the bank that carry a sighting date at all.
+**666 sightings** recorded between Aug 01, 2026 → Oct 30, 2026 — 19% of the 3,431 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 220 | 33% | ████████████████ |
+| [Algorithm](../formats/algorithm.md) | 218 | 33% | ████████████████ |
 | [SQL](../formats/sql.md) | 15 | 2% | █ |
-| [System Design](../formats/system-design.md) | 144 | 22% | ██████████ |
+| [System Design](../formats/system-design.md) | 144 | 22% | ███████████ |
 | [AI Coding](../formats/ai-coding.md) | 5 | 1% | █ |
 | [Blog](../formats/blog.md) | 208 | 31% | ███████████████ |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 76 | 11% | ██████ |
@@ -32,8 +32,8 @@
 | [Google](../companies/google.md) | 40 | ███████ |
 | [Microsoft](../companies/microsoft.md) | 36 | ███████ |
 | [Oracle](../companies/oracle.md) | 25 | █████ |
-| [OpenAI](../companies/openai.md) | 24 | ████ |
 | [LinkedIn](../companies/linkedin.md) | 23 | ████ |
+| [OpenAI](../companies/openai.md) | 23 | ████ |
 | [DoorDash](../companies/doordash.md) | 21 | ████ |
 | [Airbnb](../companies/airbnb.md) | 18 | ███ |
 | [Meta](../companies/meta.md) | 17 | ███ |
@@ -43,7 +43,7 @@
 | [Anthropic](../companies/anthropic.md) | 12 | ██ |
 | [Citadel](../companies/citadel.md) | 12 | ██ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 668 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 666 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -51,7 +51,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,653 | 45% | 220 | 477 | 1,626 | 550 | 2,653 | 434 |
+| [Algorithm](../formats/algorithm.md) | 2,653 | 45% | 218 | 477 | 1,626 | 550 | 2,653 | 434 |
 | [SQL](../formats/sql.md) | 301 | 5% | 15 | 60 | 186 | 55 | 301 | 6 |
 | [System Design](../formats/system-design.md) | 758 | 13% | 144 | 41 | 391 | 326 | 758 | 40 |
 | [AI Coding](../formats/ai-coding.md) | 134 | 2% | 5 | 10 | 87 | 37 | 134 | 12 |
@@ -92,11 +92,11 @@ Of the **2,636 questions that carry a topic label** (44% of the bank — the res
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
 | `hashing` | 489 | 19% | 51 | ████████████████ |
-| `arrays` | 423 | 16% | 45 | ██████████████ |
+| `arrays` | 423 | 16% | 44 | ██████████████ |
 | `graphs` | 403 | 15% | 44 | █████████████ |
 | `strings` | 379 | 14% | 35 | ████████████ |
 | `greedy` | 220 | 8% | 16 | ███████ |
-| `math` | 211 | 8% | 21 | ███████ |
+| `math` | 211 | 8% | 20 | ███████ |
 | `sorting` | 206 | 8% | 18 | ███████ |
 | `dynamic-programming` | 204 | 8% | 12 | ███████ |
 | `trees` | 193 | 7% | 25 | ██████ |

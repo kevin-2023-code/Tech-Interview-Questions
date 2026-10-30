@@ -136,7 +136,7 @@
 | [Assess transition and profitability under fossil-fuel constraints](https://trueinterview.io/questions/assess-transition-and-profitability-under-fossil-fuel-constraints) | **Capital One** | — | — |
 | [Async Video Behavioral Screen](https://trueinterview.io/questions/video-interview-behavioral) | **Ramp** | — | Nov 10, 2025 |
 | [Atlassian Values and Management Rounds](https://trueinterview.io/questions/atlassian-values-and-management-rounds) | **Atlassian** | — | Apr 21, 2026 |
-| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | **Voleon** | — | 🆕 Sep 14, 2026 |
+| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | **Voleon** | — | Sep 14, 2026 |
 | [Audit and onboard unfamiliar datasets safely](https://trueinterview.io/questions/audit-and-onboard-unfamiliar-datasets-safely) | **Expedia** | — | — |
 | [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/questions/bar-raiser-architecture-and-values) | **Uber** | — | Jun 26, 2026 |
 | [Battery Cell Quality Statistical Case](https://trueinterview.io/questions/battery-cell-quality-statistical-case) | **Tesla** | — | Mar 16, 2026 |

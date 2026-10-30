@@ -77,7 +77,7 @@
 | [Infer and justify non-trivial sequence patterns](https://trueinterview.io/questions/infer-and-justify-non-trivial-sequence-patterns) | **Shopify** | — | — |
 | [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) | **Goldman Sachs** | — | Sep 02, 2026 |
 | [Infer causal impact without an A/B test](https://trueinterview.io/questions/infer-causal-impact-without-an-a-b-test) | **Google** | — | — |
-| [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach) | **Amazon** | — | 🆕 Sep 14, 2026 |
+| [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/questions/influence-a-colleague-who-prefers-a-different-approach) | **Amazon** | — | Sep 14, 2026 |
 | [Influence a senior partner with data](https://trueinterview.io/questions/influence-a-senior-partner-with-data) | **Snapchat** | — | — |
 | [Influence policy with BI deliverables](https://trueinterview.io/questions/influence-policy-with-bi-deliverables) | **PayPal** | — | — |
 | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | **Snowflake** | — | Aug 17, 2026 |
@@ -121,7 +121,7 @@
 | [Leadership, Initiative, Project End-to-End](https://trueinterview.io/questions/behavioral-leadership-initiative) | **Pinterest** | — | May 27, 2026 |
 | [Learn and Apply a Front-End Technology Across Devices](https://trueinterview.io/questions/learn-and-apply-a-front-end-technology-across-devices) | **Amazon** | — | Aug 22, 2026 |
 | [Learn complex topic fast under deadline](https://trueinterview.io/questions/learn-complex-topic-fast-under-deadline) | **Meta** | — | — |
-| [Learn What You Need to Solve an Unfamiliar Problem](https://trueinterview.io/questions/learn-what-you-need-to-solve-an-unfamiliar-problem) | **Amazon** | — | 🆕 Sep 14, 2026 |
+| [Learn What You Need to Solve an Unfamiliar Problem](https://trueinterview.io/questions/learn-what-you-need-to-solve-an-unfamiliar-problem) | **Amazon** | — | Sep 14, 2026 |
 | [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview) | **Shopify** | — | Jul 10, 2026 |
 | [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test) | **Optiver** | — | Feb 16, 2026 |
 | [Linux Host and Filesystem Fundamentals](https://trueinterview.io/questions/linux-host-and-filesystem-fundamentals) | **Hudson River Trading** | — | Apr 30, 2026 |
@@ -131,7 +131,7 @@
 | [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants) | **Amazon** | — | Mar 29, 2026 |
 | [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) | **Tubi** | — | Feb 10, 2026 |
 | [Maintain profit margin with new product line](https://trueinterview.io/questions/maintain-profit-margin-with-new-product-line) | **Capital One** | — | — |
-| [Make an Important Decision Before Every Option Can Be Explored](https://trueinterview.io/questions/make-an-important-decision-before-every-option-can-be-explored) | **Amazon** | — | 🆕 Sep 14, 2026 |
+| [Make an Important Decision Before Every Option Can Be Explored](https://trueinterview.io/questions/make-an-important-decision-before-every-option-can-be-explored) | **Amazon** | — | Sep 14, 2026 |
 | [Make Progress When Requirements Are Ambiguous](https://trueinterview.io/questions/make-progress-when-requirements-are-ambiguous) | **Amazon** | — | Aug 19, 2026 |
 | [Manage promotions and project portfolio tradeoffs](https://trueinterview.io/questions/manage-promotions-and-project-portfolio-tradeoffs) | **Meta** | — | — |
 | [Manager Behavioral and Project Deep Dive](https://trueinterview.io/questions/manager-behavioral-and-project-deep-dive) | **SoFi** | — | Jun 04, 2026 |
@@ -196,7 +196,7 @@
 | [Optimize amusement park pricing, capacity, and testing](https://trueinterview.io/questions/optimize-amusement-park-pricing-capacity-and-testing) | **Capital One** | — | — |
 | [Optimize profitability for coding contract decisions](https://trueinterview.io/questions/optimize-profitability-for-coding-contract-decisions) | **Capital One** | — | — |
 | [Optimize SaaS pricing and profit](https://trueinterview.io/questions/optimize-saas-pricing-and-profit) | **Onemain Financial** | — | — |
-| [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | **AMD** | — | 🆕 Sep 14, 2026 |
+| [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | **AMD** | — | Sep 14, 2026 |
 | [Optimize threshold using confusion matrix and costs](https://trueinterview.io/questions/optimize-threshold-using-confusion-matrix-and-costs) | **ByteDance** | — | — |
 | [Optimize thresholds under fraud costs](https://trueinterview.io/questions/optimize-thresholds-under-fraud-costs) | **PayPal** | — | — |
 | [Order SQL query logical processing steps](https://trueinterview.io/questions/order-sql-query-logical-processing-steps) | **Bitkernel** | — | Oct 24, 2025 |

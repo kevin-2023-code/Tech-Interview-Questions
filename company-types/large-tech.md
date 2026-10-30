@@ -48,7 +48,7 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**178 sightings** across this cut. Newest first.
+**177 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | OpenAI, Airbnb … | System Design | Sep 23, 2026 |
 | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Pinterest | Blog | Sep 23, 2026 |
 
-<sub>166 more in this window are in the table below.</sub>
+<sub>165 more in this window are in the table below.</sub>
 
 ---
 

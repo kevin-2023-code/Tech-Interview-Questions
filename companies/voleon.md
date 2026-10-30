@@ -108,7 +108,7 @@ The 8 questions to open first if you are preparing for Voleon, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Blog | — | 🆕 Sep 14, 2026 |
+| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Blog | — | Sep 14, 2026 |
 | [Row and Column Sums: Square Matrices and Nilpotence](https://trueinterview.io/questions/row-and-column-sums-square-matrices-and-nilpotence) | Blog | — | Jun 27, 2026 |
 | [Return Words in Repeated Anagram Groups](https://trueinterview.io/questions/return-words-in-repeated-anagram-groups) | Algorithm | Medium | Jun 27, 2026 |
 | [Reason About Train and Test Loss Under Regularization and More Data](https://trueinterview.io/questions/reason-about-train-and-test-loss-under-regularization-and-more-data) | Blog | — | Jun 27, 2026 |

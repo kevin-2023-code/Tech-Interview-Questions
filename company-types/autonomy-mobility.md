@@ -48,7 +48,7 @@ Of the **109 questions in this cut that carry a topic label** (54% of it):
 
 ## Asked here in the last 90 days
 
-**24 sightings** across this cut. Newest first.
+**23 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **109 questions in this cut that carry a topic label** (54% of it):
 | [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | Nuro | System Design | Aug 31, 2026 |
 | [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | Nuro | System Design | Aug 31, 2026 |
 
-<sub>12 more in this window are in the table below.</sub>
+<sub>11 more in this window are in the table below.</sub>
 
 ---
 
