@@ -16,7 +16,7 @@
 
 [**💼 New-grad jobs**](https://github.com/kevin-2023-code/New-Grad-Opportunities) &nbsp;·&nbsp;
 [**🎓 Internships**](https://github.com/kevin-2023-code/Internship-Opportunities) &nbsp;·&nbsp;
-[**🎯 OA list for Senior, Staff & Research Scientist loops**](https://github.com/kevin-2023-code/Tech-OA-Questions) &nbsp;·&nbsp;
+[**📝 OA questions by role & level**](https://github.com/kevin-2023-code/Tech-OA-Questions) &nbsp;·&nbsp;
 [Report a question](../../issues/new?template=question-report.yml) &nbsp;·&nbsp;
 [Fix a row](../../issues/new?template=correction.yml) &nbsp;·&nbsp;
 [Contributing](CONTRIBUTING.md)
