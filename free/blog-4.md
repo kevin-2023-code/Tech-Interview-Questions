@@ -226,7 +226,7 @@
 | [Help a Colleague Resolve a Difficult Problem](https://trueinterview.io/questions/help-a-colleague-resolve-a-difficult-problem) | **Salesforce** | — | Apr 11, 2026 |
 | [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals) | **Citadel** | — | May 07, 2026 |
 | [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/questions/hirevue-behavioral-six-questions) | **Goldman Sachs** | — | Nov 06, 2025 |
-| [Hiring Manager + Behavioral Rounds](https://trueinterview.io/questions/hm-and-bq-rounds) | **Salesforce** | — | 🆕 Sep 15, 2026 |
+| [Hiring Manager + Behavioral Rounds](https://trueinterview.io/questions/hm-and-bq-rounds) | **Salesforce** | — | Sep 15, 2026 |
 | [Hiring Manager / Final Behavioral Round](https://trueinterview.io/questions/hm-behavioral-final-round) | **ByteDance** | — | May 20, 2026 |
 | [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral) | **Figma** | — | Aug 12, 2026 |
 | [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral-2) | **Stripe** | — | May 07, 2026 |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **6** |
 | Most recent sighting | Aug 01, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (50% of 6) |
 | Difficulty (easy / medium / hard) | 1 / 4 / 0 |
 | Free to practise | [3](../free/README.md) |
@@ -37,11 +37,7 @@ Which stage each question came from, for the **6 of 6** questions at Gusto that 
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Calculate Tax from Progressive Brackets](https://trueinterview.io/questions/calculate-tax-from-progressive-brackets) | Algorithm | Medium | Onsite / virtual onsite | Aug 01, 2026 |
+**Nothing has been reported at Gusto since Aug 01, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

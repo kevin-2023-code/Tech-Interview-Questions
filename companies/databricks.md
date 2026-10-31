@@ -126,7 +126,7 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | System Design | Medium | 🆕 Sep 15, 2026 |
+| [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | System Design | Medium | Sep 15, 2026 |
 | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | Sep 10, 2026 |
 | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Algorithm | Medium | Sep 06, 2026 |
 | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Algorithm | Hard | Sep 06, 2026 |

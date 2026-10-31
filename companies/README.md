@@ -68,7 +68,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 182 | 4 | 11 | Oct 02, 2026 | 72 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 176 | 7 | 23 | Oct 04, 2026 | 31 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 151 | 3 | 21 | Sep 16, 2026 | 49 |
-| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 147 | 1 | 15 | Oct 01, 2026 | 54 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 147 | 1 | 14 | Oct 01, 2026 | 54 |
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 145 | 4 | 23 | Oct 01, 2026 | 40 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 128 | 3 | 10 | Sep 23, 2026 | 32 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 119 | 1 | 16 | Oct 04, 2026 | 21 |
@@ -133,7 +133,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Boston Consulting Group](boston-consulting-group.md) | — | 19 | — | 1 | Aug 04, 2026 | 12 |
 | [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 19 | 1 | — | — | 6 |
 | [Whatnot](whatnot.md) | E-commerce & marketplaces · 200–999 people | 19 | — | 0 | Jun 12, 2026 | 6 |
-| [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 18 | — | 4 | Aug 12, 2026 | 3 |
+| [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 18 | — | 3 | Aug 12, 2026 | 3 |
 | [Voleon](voleon.md) | Quant trading & hedge funds | 18 | 1 | 1 | Sep 14, 2026 | 9 |
 | [Thumbtack](thumbtack.md) | — | 16 | — | — | — | 13 |
 | [Bitkernel](bitkernel.md) | — | 15 | — | 0 | Oct 24, 2025 | 15 |
@@ -168,7 +168,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Lead Bank](lead-bank.md) | Banks, insurers & asset managers | 7 | 1 | 0 | Apr 01, 2026 | 3 |
 | [Wayfair](wayfair.md) | — | 7 | — | 5 | Sep 10, 2026 | 3 |
 | [Circle](circle.md) | Fintech, payments & crypto | 6 | 1 | 0 | Jan 19, 2026 | 2 |
-| [Gusto](gusto.md) | Enterprise & business software · 1,000–9,999 people | 6 | 1 | 1 | Aug 01, 2026 | 3 |
+| [Gusto](gusto.md) | Enterprise & business software · 1,000–9,999 people | 6 | 1 | 0 | Aug 01, 2026 | 3 |
 | [Luma AI](luma-ai.md) | AI labs & AI infrastructure · Under 200 people | 6 | 1 | 0 | Jan 05, 2026 | 2 |
 | [Moveworks](moveworks.md) | AI labs & AI infrastructure · 200–999 people | 6 | — | 0 | Dec 15, 2025 | 2 |
 | [OKX](okx.md) | Fintech, payments & crypto · 1,000–9,999 people | 6 | 1 | 1 | Sep 04, 2026 | 4 |

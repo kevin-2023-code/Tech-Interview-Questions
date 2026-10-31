@@ -133,7 +133,7 @@ The 8 questions to open first if you are preparing for Stripe, ranked by **the m
 | :-- | :-- | :-: | :-- |
 | [Payment State Machine](https://trueinterview.io/questions/payment-state-machine-oa) | Object Oriented Programming | Medium | 🆕 Oct 04, 2026 |
 | [Request Routing System](https://trueinterview.io/questions/request-routing-system) | Algorithm | Medium | 🆕 Sep 30, 2026 |
-| [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | Blog | — | 🆕 Sep 15, 2026 |
+| [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | Blog | — | Sep 15, 2026 |
 | [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/questions/show-senior-engineering-leadership-through-a-past-project) | Blog | — | Sep 11, 2026 |
 | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Object Oriented Programming | Medium | Sep 11, 2026 |
 | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | System Design | Easy | Sep 11, 2026 |

@@ -8,12 +8,12 @@ What the bank is *about*, counted over the **2,636 questions that carry a topic 
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
-| `hashing` | 489 | 19% | 51 | 115 | 308 | 66 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Apple](../companies/apple.md) |
+| `hashing` | 489 | 19% | 50 | 115 | 308 | 66 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Apple](../companies/apple.md) |
 | `arrays` | 423 | 16% | 44 | 114 | 258 | 51 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `graphs` | 403 | 15% | 44 | 29 | 263 | 111 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
 | `strings` | 379 | 14% | 35 | 104 | 223 | 52 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `greedy` | 220 | 8% | 16 | 20 | 151 | 49 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
-| `math` | 211 | 8% | 20 | 43 | 110 | 58 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
+| `math` | 211 | 8% | 19 | 43 | 110 | 58 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
 | `sorting` | 206 | 8% | 18 | 39 | 122 | 45 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `dynamic-programming` | 204 | 8% | 12 | 11 | 117 | 76 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `trees` | 193 | 7% | 25 | 24 | 128 | 41 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |

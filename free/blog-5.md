@@ -90,7 +90,7 @@
 | [Intervene When Your Team Is Heading in the Wrong Direction](https://trueinterview.io/questions/intervene-when-your-team-is-heading-in-the-wrong-direction) | **Amazon** | — | Aug 22, 2026 |
 | [Introduce yourself and explain why Bloomberg](https://trueinterview.io/questions/introduce-yourself-and-explain-why-bloomberg) | **Bloomberg** | — | Jan 06, 2026 |
 | [Introduce yourself for a senior role](https://trueinterview.io/questions/introduce-yourself-for-a-senior-role) | **NVIDIA** | — | Jan 06, 2026 |
-| [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | **Together AI** | — | 🆕 Sep 15, 2026 |
+| [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | **Together AI** | — | Sep 15, 2026 |
 | [Investigate a Surge of Incorrect-Delivery Complaints at Scale](https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale) | **DoorDash** | — | Sep 05, 2026 |
 | [Investigate an iOS Memory Failure](https://trueinterview.io/questions/investigate-an-ios-memory-failure) | **ByteDance** | — | Sep 05, 2026 |
 | [Investigate Harassment Surge and Mitigation](https://trueinterview.io/questions/investigate-harassment-surge-and-mitigation) | **Airwallex** | — | Nov 14, 2025 |

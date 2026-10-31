@@ -27,7 +27,7 @@
 | [Recommend a Decision After a Nonsignificant Experiment](https://trueinterview.io/questions/recommend-a-decision-after-a-nonsignificant-experiment) | **Yelp** | — | Aug 27, 2026 |
 | [Recommend and validate a budget allocation strategy](https://trueinterview.io/questions/recommend-and-validate-a-budget-allocation-strategy) | **Instacart** | — | — |
 | [Recover causal effect without a control group](https://trueinterview.io/questions/recover-causal-effect-without-a-control-group) | **Pinterest** | — | — |
-| [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | **Stripe** | — | 🆕 Sep 15, 2026 |
+| [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | **Stripe** | — | Sep 15, 2026 |
 | [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic) | **Anthropic** | — | Jun 12, 2026 |
 | [Redesign an executive dashboard for C-suite](https://trueinterview.io/questions/redesign-an-executive-dashboard-for-c-suite) | **Meta** | — | — |
 | [Reduce airport ride cancellations under causal constraints](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints) | **PayPal** | — | Nov 03, 2025 |

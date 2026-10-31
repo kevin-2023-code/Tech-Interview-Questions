@@ -121,10 +121,10 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Object Oriented Programming | Medium | 🆕 Sep 15, 2026 |
-| [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Algorithm | Medium | 🆕 Sep 15, 2026 |
-| [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Algorithm | Medium | 🆕 Sep 15, 2026 |
-| [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | System Design | Hard | 🆕 Sep 15, 2026 |
+| [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Object Oriented Programming | Medium | Sep 15, 2026 |
+| [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Algorithm | Medium | Sep 15, 2026 |
+| [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Algorithm | Medium | Sep 15, 2026 |
+| [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | System Design | Hard | Sep 15, 2026 |
 | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Medium | Jul 22, 2026 |
 | [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | Blog | — | Jun 19, 2026 |
 | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | Jun 11, 2026 |

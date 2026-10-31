@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **147** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 15 |
+| Reported in the last 90 days | 14 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 147) |
 | Difficulty (easy / medium / hard) | 20 / 95 / 20 |
 | Free to practise | [54](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **147 of 147** questions at Snowfla
 
 ## Asked here in the last 90 days
 
-**15 sightings** in this window. Newest first.
+**14 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **147 of 147** questions at Snowfla
 | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | Blog | — | Phone screen | Aug 17, 2026 |
 | [Time Range Event Counter](https://trueinterview.io/questions/time-range-event-counter) | Algorithm | Medium | Phone screen | Aug 16, 2026 |
 
-<sub>3 more in this window are in the table below.</sub>
+<sub>2 more in this window are in the table below.</sub>
 
 ## What they ask about
 

@@ -107,7 +107,7 @@
 | [Diagnose and validate a ratio trend change](https://trueinterview.io/questions/diagnose-and-validate-a-ratio-trend-change) | **Stripe** | — | — |
 | [Diagnose Cold-Food Deliveries and Make a Launch Decision](https://trueinterview.io/questions/diagnose-cold-food-deliveries-and-make-a-launch-decision) | **DoorDash** | — | May 07, 2026 |
 | [Diagnose completed orders drop in Los Angeles](https://trueinterview.io/questions/diagnose-completed-orders-drop-in-los-angeles) | **DoorDash** | — | Jan 25, 2026 |
-| [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | **Together AI** | — | 🆕 Sep 15, 2026 |
+| [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | **Together AI** | — | Sep 15, 2026 |
 | [Diagnose CTR drop after recommendation launch](https://trueinterview.io/questions/diagnose-ctr-drop-after-recommendation-launch) | **Pinterest** | — | — |
 | [Diagnose drop in shopper order acceptance](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance) | **PayPal** | — | Oct 10, 2025 |
 | [Diagnose Low CTR in an Advertising Campaign Funnel](https://trueinterview.io/questions/diagnose-low-ctr-in-an-advertising-campaign-funnel) | **ByteDance** | — | Apr 04, 2026 |
@@ -116,8 +116,8 @@
 | [Diagnose Return Eligibility Scoring Bugs](https://trueinterview.io/questions/diagnose-return-eligibility-scoring-bugs) | **Amazon** | — | Jan 12, 2026 |
 | [Diagnose rising account switching and falling actives](https://trueinterview.io/questions/diagnose-rising-account-switching-and-falling-actives) | **Meta** | — | — |
 | [Diagnose rising delivery cost precisely](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) | **Intuit** | — | — |
-| [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | **Together AI** | — | 🆕 Sep 15, 2026 |
-| [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) | **Together AI** | — | 🆕 Sep 15, 2026 |
+| [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | **Together AI** | — | Sep 15, 2026 |
+| [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) | **Together AI** | — | Sep 15, 2026 |
 | [Diagnose Sunday Miami same‑day outages](https://trueinterview.io/questions/diagnose-sunday-miami-sameday-outages) | **Instacart** | — | — |
 | [Diagnose sustained drop in executed trades](https://trueinterview.io/questions/diagnose-sustained-drop-in-executed-trades) | **Robinhood** | — | — |
 | [Diagnose uplift drop in email A/B tests](https://trueinterview.io/questions/diagnose-uplift-drop-in-email-a-b-tests) | **Coinbase** | — | — |

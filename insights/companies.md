@@ -21,7 +21,7 @@
 | [Airbnb](../companies/airbnb.md) | 18 | 112 | Oct 14, 2026 | ███ |
 | [Meta](../companies/meta.md) | 17 | 489 | Oct 01, 2026 | ███ |
 | [Stripe](../companies/stripe.md) | 16 | 119 | Oct 04, 2026 | ███ |
-| [Snowflake](../companies/snowflake.md) | 15 | 147 | Oct 01, 2026 | ███ |
+| [Snowflake](../companies/snowflake.md) | 14 | 147 | Oct 01, 2026 | ███ |
 | [Squarepoint](../companies/squarepoint.md) | 14 | 45 | Sep 09, 2026 | ███ |
 | [Anthropic](../companies/anthropic.md) | 12 | 99 | Sep 17, 2026 | ██ |
 | [Citadel](../companies/citadel.md) | 12 | 98 | Oct 01, 2026 | ██ |
@@ -50,7 +50,7 @@
 | [Apple](../companies/apple.md) | 182 | 4 | 72 | 11 | Oct 02, 2026 | Algorithm | `hashing` |
 | [OpenAI](../companies/openai.md) | 176 | 7 | 31 | 23 | Oct 04, 2026 | Algorithm | `graphs` |
 | [DoorDash](../companies/doordash.md) | 151 | 3 | 49 | 21 | Sep 16, 2026 | Algorithm | `arrays` |
-| [Snowflake](../companies/snowflake.md) | 147 | 1 | 54 | 15 | Oct 01, 2026 | Algorithm | `graphs` |
+| [Snowflake](../companies/snowflake.md) | 147 | 1 | 54 | 14 | Oct 01, 2026 | Algorithm | `graphs` |
 | [LinkedIn](../companies/linkedin.md) | 145 | 4 | 40 | 23 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Pinterest](../companies/pinterest.md) | 128 | 3 | 32 | 10 | Sep 23, 2026 | Algorithm | `hashing` |
 | [Stripe](../companies/stripe.md) | 119 | 1 | 21 | 16 | Oct 04, 2026 | Algorithm | `strings` |
@@ -115,7 +115,7 @@
 | [Boston Consulting Group](../companies/boston-consulting-group.md) | 19 | 0 | 12 | 1 | Aug 04, 2026 | Blog | `stack` |
 | [Rubrik](../companies/rubrik.md) | 19 | 1 | 6 | — | — | Algorithm | `graphs` |
 | [Whatnot](../companies/whatnot.md) | 19 | 0 | 6 | 0 | Jun 12, 2026 | System Design | `hashing` |
-| [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 4 | Aug 12, 2026 | Algorithm | `hashing` |
+| [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 3 | Aug 12, 2026 | Algorithm | `hashing` |
 | [Voleon](../companies/voleon.md) | 18 | 1 | 9 | 1 | Sep 14, 2026 | Algorithm | `hashing` |
 | [Thumbtack](../companies/thumbtack.md) | 16 | 0 | 13 | — | — | Blog | — |
 | [Bitkernel](../companies/bitkernel.md) | 15 | 0 | 15 | 0 | Oct 24, 2025 | Blog | — |
@@ -150,7 +150,7 @@
 | [Lead Bank](../companies/lead-bank.md) | 7 | 1 | 3 | 0 | Apr 01, 2026 | Algorithm | `hashing` |
 | [Wayfair](../companies/wayfair.md) | 7 | 0 | 3 | 5 | Sep 10, 2026 | SQL | `sorting` |
 | [Circle](../companies/circle.md) | 6 | 1 | 2 | 0 | Jan 19, 2026 | Object Oriented Programming | `arrays` |
-| [Gusto](../companies/gusto.md) | 6 | 1 | 3 | 1 | Aug 01, 2026 | Algorithm | `binary-search` |
+| [Gusto](../companies/gusto.md) | 6 | 1 | 3 | 0 | Aug 01, 2026 | Algorithm | `binary-search` |
 | [Luma AI](../companies/luma-ai.md) | 6 | 1 | 2 | 0 | Jan 05, 2026 | Algorithm | `math` |
 | [Moveworks](../companies/moveworks.md) | 6 | 0 | 2 | 0 | Dec 15, 2025 | Algorithm | `strings` |
 | [OKX](../companies/okx.md) | 6 | 1 | 4 | 1 | Sep 04, 2026 | Algorithm | `backtracking` |

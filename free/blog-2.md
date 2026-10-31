@@ -75,7 +75,7 @@
 | [Data Engineering Experience Screen](https://trueinterview.io/questions/data-engineering-experience-screen) | **ByteDance** | — | Aug 31, 2026 |
 | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | **Meta** | — | 🆕 Sep 17, 2026 |
 | [Data-Center Camera Access Incident Response](https://trueinterview.io/questions/data-center-camera-access-incident-response) | **Oracle** | — | Aug 11, 2026 |
-| [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | **Tradedesk** | — | 🆕 Sep 15, 2026 |
+| [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | **Tradedesk** | — | Sep 15, 2026 |
 | [Debug missing output in Python async HTTP flow](https://trueinterview.io/questions/debug-missing-output-in-python-async-http-flow) | **Millennium** | — | Oct 24, 2025 |
 | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | **Instacart** | — | 🆕 Sep 18, 2026 |
 | [Decide and experiment on Group Call feature](https://trueinterview.io/questions/decide-and-experiment-on-group-call-feature) | **Meta** | — | — |
