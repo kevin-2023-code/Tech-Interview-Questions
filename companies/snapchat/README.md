@@ -9,7 +9,7 @@ How Snapchat interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [87](../snapchat.md) |
-| Free to read here | 15 |
+| Free to read here | 16 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 09, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Snapchat questions
 
-34 questions reported at Snapchat open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+35 questions reported at Snapchat open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -77,6 +77,7 @@ Here's what the interview process can look like:
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [How do you decide with limited information?](https://trueinterview.io/questions/how-do-you-decide-with-limited-information) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/how-do-you-decide-with-limited-information) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Design ride-hailing and price alert systems](../../questions/system-design/design-ride-hailing-and-price-alert-systems/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-ride-hailing-and-price-alert-systems) |
 | [Influence a senior partner with data](https://trueinterview.io/questions/influence-a-senior-partner-with-data) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/influence-a-senior-partner-with-data) |
 | [Explain Random Forest randomness and implications](https://trueinterview.io/questions/explain-random-forest-randomness-and-implications) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-random-forest-randomness-and-implications) |
 | [Design and analyze a banner A/B test](https://trueinterview.io/questions/design-and-analyze-a-banner-a-b-test) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-and-analyze-a-banner-a-b-test) |

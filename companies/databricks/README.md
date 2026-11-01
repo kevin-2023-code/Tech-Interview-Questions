@@ -9,7 +9,7 @@ How Databricks interviews, and the questions candidates reported there. Free que
 |  |  |
 | :-- | :-- |
 | Questions reported | [89](../databricks.md) |
-| Free to read here | 17 |
+| Free to read here | 19 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -51,7 +51,7 @@ Here's what the interview process can look like:
 
 ## Free Databricks questions
 
-26 questions reported at Databricks open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+28 questions reported at Databricks open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -72,8 +72,10 @@ Here's what the interview process can look like:
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [How do you handle conflicting interviewer hints?](https://trueinterview.io/questions/how-do-you-handle-conflicting-interviewer-hints) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/how-do-you-handle-conflicting-interviewer-hints) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
+| [Multi-Threaded Chat System](../../questions/object-oriented-programming/multi-threaded-chat-system/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/multi-threaded-chat-system) |
 | [Relate coefficients under linear feature transformation](https://trueinterview.io/questions/relate-coefficients-under-linear-feature-transformation-2) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/relate-coefficients-under-linear-feature-transformation-2) |
 | [Diagnose and fix multicollinearity in income regression](https://trueinterview.io/questions/diagnose-and-fix-multicollinearity-in-income-regression) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/diagnose-and-fix-multicollinearity-in-income-regression) |
+| [Autonomous Ride-Hailing App System Design (Waymo-like)](../../questions/system-design/autonomous-ride-hailing-app-system-design-waymo-like/README.md) | System Design | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like) |
 | [Tic Tac Toe](../../questions/ai-coding/tic-tac-toe/README.md) | AI Coding | Easy | Phone screen | Jun 2025 | [Solve](https://trueinterview.io/questions/tic-tac-toe) |
 | [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752) |
 | [Design A VM Bandwidth Rate Limiter](../../questions/system-design/design-a-vm-bandwidth-rate-limiter-2/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) |

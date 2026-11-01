@@ -85,7 +85,7 @@ Here are some questions reported by recent candidates:
 - [Word Ladder Variants with Trie Optimization](https://trueinterview.io/questions/word-ladder-variants)
 - [Dojo Pythonic Coding Pair: Permutation Check and Pow](../../questions/algorithm/dojo-permutation-and-pow/README.md)
 - [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md)
-- [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid)
+- [First Solar Panel Placement in a Binary Grid](../../questions/algorithm/solar-panel-placement-grid/README.md)
 
 ## Low-level design and concurrency
 

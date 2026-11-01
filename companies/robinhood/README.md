@@ -9,7 +9,7 @@ How Robinhood interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [54](../robinhood.md) |
-| Free to read here | 11 |
+| Free to read here | 12 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 17, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Robinhood questions
 
-20 questions reported at Robinhood open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at Robinhood open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -69,6 +69,7 @@ Here's what the interview process can look like:
 | [My Calendar I](../../questions/algorithm/my-calendar-i/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/my-calendar-i) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
 | [Design an experiment to launch fractional shares](https://trueinterview.io/questions/design-an-experiment-to-launch-fractional-shares) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-experiment-to-launch-fractional-shares) |
+| [Top 10 Words](../../questions/algorithm/top-10-frequent-words/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/top-10-frequent-words) |
 | [Mobile Table View Timer App](../../questions/object-oriented-programming/mobile-table-view-timer-app/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/mobile-table-view-timer-app) |
 | [Financial News Recommendation Feed](../../questions/system-design/financial-news-recommendation-feed/README.md) | System Design | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/financial-news-recommendation-feed) |
 | [Find Middle Course](../../questions/algorithm/find-middle-course/README.md) | Algorithm | Easy | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/find-middle-course) |

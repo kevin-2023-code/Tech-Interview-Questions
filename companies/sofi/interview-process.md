@@ -143,7 +143,7 @@ Here are some questions reported by recent candidates:
 - [Rock-Paper-Scissors Lineup](https://trueinterview.io/questions/rock-paper-scissors-lineup)
 - [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6)
 - [GIF Info Pagination by Tag](https://trueinterview.io/questions/gif-info-pagination-by-tag)
-- [Star Rating Component](https://trueinterview.io/questions/star-rating-component)
+- [Star Rating Component](../../questions/object-oriented-programming/star-rating-component/README.md)
 - [Explain GC, singleton, and OOP principles](https://trueinterview.io/questions/explain-gc-singleton-and-oop-principles)
 
 ## System design interview

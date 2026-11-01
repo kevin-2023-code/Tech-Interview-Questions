@@ -9,7 +9,7 @@ How Drw interviews, and the questions candidates reported there. Free questions 
 |  |  |
 | :-- | :-- |
 | Questions reported | [10](../drw.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Sep 13, 2026 |
@@ -20,7 +20,7 @@ No written process guide yet. [The loop, as reported](../drw.md#the-loop-as-repo
 
 ## Free Drw questions
 
-9 questions reported at Drw open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+10 questions reported at Drw open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -31,6 +31,7 @@ No written process guide yet. [The loop, as reported](../drw.md#the-loop-as-repo
 | [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/expected-tosses-until-hht-given-hht-appears-before-hth) |
 | [Expected Dart Score for a Bivariate Normal Throw with Ring Scoring](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring) |
 | [Compute expected arc length on a circle](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/compute-expected-arc-length-on-a-circle) |
+| [Robot Path Planning](../../questions/algorithm/solve-three-algorithmic-oa-problems-robot-path-planning/README.md) | Algorithm | Hard | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-robot-path-planning) |
 | [Knockout Tournament Match Counts](../../questions/algorithm/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts) |
 | [Solve Three Algorithmic Problems](../../questions/algorithm/solve-three-algorithmic-oa-problems/README.md) | Algorithm | Hard | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems) |
 

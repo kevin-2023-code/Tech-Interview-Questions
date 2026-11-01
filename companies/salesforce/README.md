@@ -9,7 +9,7 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 |  |  |
 | :-- | :-- |
 | Questions reported | [100](../salesforce.md) |
-| Free to read here | 9 |
+| Free to read here | 10 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Salesforce questions
 
-20 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -70,6 +70,7 @@ Here's what the interview process can look like:
 | [Find All Anagrams in a String](../../questions/algorithm/find-all-anagrams-in-a-string/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/find-all-anagrams-in-a-string) |
 | [Describe a memorable bug and persuasion story](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story) |
 | [Answer ownership, conflict, and failure recovery questions](https://trueinterview.io/questions/answer-ownership-conflict-and-failure-recovery-questions) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-ownership-conflict-and-failure-recovery-questions) |
+| [Design a 911 emergency calling service](../../questions/system-design/design-a-911-emergency-calling-service/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-a-911-emergency-calling-service) |
 | [Min Elements to Remove to Make Almost Sorted Array](../../questions/algorithm/min-elements-to-remove-to-make-almost-sorted-array/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c) |
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
 

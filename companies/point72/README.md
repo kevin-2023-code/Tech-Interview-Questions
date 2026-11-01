@@ -9,7 +9,7 @@ How Point72 interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [41](../point72.md) |
-| Free to read here | 3 |
+| Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jul 29, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Point72 questions
 
-15 questions reported at Point72 open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+16 questions reported at Point72 open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -62,6 +62,7 @@ Here's what the interview process can look like:
 | [Choose and Explain a Classical Hypothesis Test](https://trueinterview.io/questions/choose-and-explain-a-classical-hypothesis-test) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/choose-and-explain-a-classical-hypothesis-test) |
 | [Derive the Optimal Bid in a Two-Bidder Second-Price Auction](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction) |
 | [How would you explain PCA and SHAP?](https://trueinterview.io/questions/how-would-you-explain-pca-and-shap) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-explain-pca-and-shap) |
+| [K-th missing number](../../questions/algorithm/find-kth-missing-integer-and-redundant-operations-k-th-missing-number/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) |
 | [Price a coin-doubling game rationally](https://trueinterview.io/questions/price-a-coin-doubling-game-rationally) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/price-a-coin-doubling-game-rationally) |
 | [Explain and tune decision trees robustly](https://trueinterview.io/questions/explain-and-tune-decision-trees-robustly) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/explain-and-tune-decision-trees-robustly) |
 | [Find Minimum in Rotated Sorted Array](../../questions/algorithm/find-minimum-in-rotated-sorted-array/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c) |

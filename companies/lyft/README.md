@@ -9,7 +9,7 @@ How Lyft interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [49](../lyft.md) |
-| Free to read here | 12 |
+| Free to read here | 14 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 08, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Lyft questions
 
-20 questions reported at Lyft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at Lyft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -66,6 +66,8 @@ Here's what the interview process can look like:
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [How to Target Coupon Users](https://trueinterview.io/questions/how-to-target-coupon-users) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/how-to-target-coupon-users) |
+| [Minesweeper Game Logic](../../questions/algorithm/minesweeper-game-logic/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/minesweeper-game-logic) |
+| [Implement Cache and Key-Value Store](../../questions/object-oriented-programming/implement-cache-and-key-value-store/README.md) | Object Oriented Programming | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/implement-cache-and-key-value-store) |
 | [Demonstrate leadership under ambiguity](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/demonstrate-leadership-under-ambiguity-2) |
 | [Compute Poisson supply–demand match probability](https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/compute-poisson-supplydemand-match-probability) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |

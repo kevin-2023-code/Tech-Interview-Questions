@@ -140,7 +140,7 @@ Here are some questions reported by recent candidates:
 - Explain why concurrent i++ loses updates, then write a thread-safe version.
 - Reverse strings in a file with parallel workers and keep it consistent if a process dies mid-I/O.
 
-- [Implement matrix multiplication and fast exponentiation](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation)
+- [Implement matrix multiplication and fast exponentiation](../../questions/algorithm/implement-matrix-multiplication-and-fast-exponentiation/README.md)
 - [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010)
 - [Implement Power Function](../../questions/algorithm/implement-power-function/README.md)
 

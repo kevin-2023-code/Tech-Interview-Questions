@@ -2,7 +2,7 @@
 
 # Free System Design questions
 
-**40 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**49 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -23,6 +23,8 @@
 | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | **Cursor / Snowflake** | Medium | Apr 07, 2026 |
 | [Design Mint.com](https://trueinterview.io/questions/mint-com) | **Perplexity / Datadog** | Medium | — |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | **Databricks / Square** | Medium | Apr 06, 2026 |
+| [Autonomous Ride-Hailing App System Design (Waymo-like)](https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like) | **Databricks** | Medium | Oct 09, 2025 |
+| [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | **Discord** | Medium | Oct 25, 2025 |
 | [Design a robust pro-ranking A/B test](https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test) | **Thumbtack** | Medium | — |
 | [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) | **Axon** | Medium | Nov 18, 2025 |
 | [Design a Twitter-like microblogging service](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) | **Asana** | Medium | Feb 08, 2026 |
@@ -31,6 +33,8 @@
 | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | **AMD** | Medium | Sep 14, 2026 |
 | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | **Oracle** | Medium | Jan 15, 2025 |
 | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | **Robinhood** | Medium | Jun 2025 |
+| [How would you evaluate upranking Shop ads?](https://trueinterview.io/questions/how-would-you-evaluate-upranking-shop-ads-2) | **Meta** | Medium | Oct 16, 2025 |
+| [Scale Digit-Square Convergence Requests](https://trueinterview.io/questions/scale-digit-square-convergence-requests) | **Apple** | Medium | Oct 28, 2025 |
 | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | **Figma** | Medium | May 28, 2024 |
 | [Web Crawler with Communication Constraint](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) | **Lyft** | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | **ByteDance / Airbnb / Databricks / Discord / Ebay / LinkedIn / Microsoft AI / OpenAI / Reddit / Yelp** | Hard | — |
@@ -38,11 +42,16 @@
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | **Databricks / Apple / Google / Oracle / Tesla** | Hard | May 03, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | **Robinhood / Coinbase / Databricks / Square** | Hard | Apr 2026 |
 | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | **Databricks / Amazon / Google** | Hard | — |
+| [Design a 911 emergency calling service](https://trueinterview.io/questions/design-a-911-emergency-calling-service) | **Salesforce** | Hard | Oct 18, 2025 |
 | [Design a PDF-to-Markdown Inference API](https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api) | **Mistral AI** | Hard | Apr 16, 2026 |
 | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | **Mercor** | Hard | Aug 30, 2026 |
 | [Design camera-footage upload with custody chain](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) | **Axon** | Hard | Feb 11, 2026 |
+| [Design leader election using Redis leases](https://trueinterview.io/questions/design-leader-election-using-redis-leases) | **Discord** | Hard | Oct 25, 2025 |
+| [Design ride-hailing and price alert systems](https://trueinterview.io/questions/design-ride-hailing-and-price-alert-systems) | **Snapchat** | Hard | Oct 28, 2025 |
+| [Design ticketing and coding practice platforms](https://trueinterview.io/questions/design-ticketing-and-coding-practice-platforms) | **Meta** | Hard | Oct 18, 2025 |
 | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | **Anthropic** | Hard | — |
 | [Forecast Food Stocking Needs Under Waste and Stockout Costs](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) | **C3.ai** | Hard | Aug 21, 2026 |
+| [How would you design Shop-ad ranking?](https://trueinterview.io/questions/how-would-you-design-shop-ad-ranking) | **Meta** | Hard | Oct 16, 2025 |
 | [Million-User Flash Sale System](https://trueinterview.io/questions/million-user-flash-sale-system) | **JPMorgan** | Hard | Jun 21, 2025 |
 | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | **Waymo** | Hard | Sep 29, 2025 |
 | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | **Wayfair** | Hard | Sep 10, 2026 |

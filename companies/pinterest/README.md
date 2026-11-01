@@ -9,7 +9,7 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [128](../pinterest.md) |
-| Free to read here | 11 |
+| Free to read here | 13 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 23, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Pinterest questions
 
-32 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+34 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -70,6 +70,7 @@ Here's what the interview process can look like:
 | [Explain overfitting and how to prevent it](https://trueinterview.io/questions/explain-overfitting-and-how-to-prevent-it) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-overfitting-and-how-to-prevent-it) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Compute percent of first-cancel users who never return](../../questions/sql/compute-percent-of-first-cancel-users-who-never-return/README.md) | SQL | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/compute-percent-of-first-cancel-users-who-never-return) |
 | [Spam Caller Counter](../../questions/algorithm/spam-caller-counter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/spam-caller-counter) |
 | [Shortest Path in Unweighted Graph](../../questions/algorithm/shortest-path-in-unweighted-graph/README.md) | Algorithm | Easy | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) |
 | [Nested Set Equality](../../questions/algorithm/nested-set-equality/README.md) | Algorithm | Medium | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/nested-set-equality) |
@@ -85,6 +86,7 @@ Here's what the interview process can look like:
 | [Demonstrate leadership with concrete STAR examples](https://trueinterview.io/questions/demonstrate-leadership-with-concrete-star-examples) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/demonstrate-leadership-with-concrete-star-examples) |
 | [Analyze a geo rollout and interpret charts](https://trueinterview.io/questions/analyze-a-geo-rollout-and-interpret-charts) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/analyze-a-geo-rollout-and-interpret-charts) |
 | [Coin Change (LC 322)](../../questions/algorithm/coin-change/README.md) | Algorithm | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/coin-change) |
+| [Design Delayed Tasks Scheduler](../../questions/object-oriented-programming/design-delayed-tasks-scheduler/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-delayed-tasks-scheduler) |
 | [Split Array Largest Sum](../../questions/algorithm/split-array-largest-sum/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f) |
 
 ## Everything else

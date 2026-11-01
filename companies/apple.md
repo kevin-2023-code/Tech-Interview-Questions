@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 11 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 182) |
 | Difficulty (easy / medium / hard) | 34 / 90 / 27 |
-| Free to practise | [72](../free/README.md) |
+| Free to practise | [74](../free/README.md) |
 | Guides & writeups | 4 |
 
 <sub>Counted from the 182 questions reported at Apple. 134 of them carry a sighting date; the other 48 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

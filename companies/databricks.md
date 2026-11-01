@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (40% of 89) |
 | Difficulty (easy / medium / hard) | 10 / 49 / 21 |
-| Free to practise | [26](../free/README.md) |
+| Free to practise | [28](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 89 questions reported at Databricks. 65 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

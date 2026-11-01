@@ -9,7 +9,7 @@ How WeRide interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [22](../weride.md) |
-| Free to read here | 7 |
+| Free to read here | 8 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jul 29, 2026 |
@@ -46,12 +46,13 @@ Here's what the interview process can look like:
 
 ## Free WeRide questions
 
-7 questions reported at WeRide open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at WeRide open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Implement matrix multiplication and fast exponentiation](../../questions/algorithm/implement-matrix-multiplication-and-fast-exponentiation/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation) |
 | [Graph Coloring Problem](../../questions/algorithm/graph-coloring-problem/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66) |
 | [Minimum Total Cost for Image Filters](../../questions/algorithm/minimum-total-cost-for-image-filters/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/77f1b3c9-7371-4741-89d1-60814bdbdbe1) |
 | [Graph Traversal Problem](../../questions/algorithm/graph-traversal-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) |

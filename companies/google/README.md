@@ -9,7 +9,7 @@ How Google interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [383](../google.md) |
-| Free to read here | 40 |
+| Free to read here | 41 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Google questions
 
-126 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+127 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -134,6 +134,7 @@ Here's what the interview process can look like:
 | [Answer common behavioral questions for new grad](https://trueinterview.io/questions/answer-common-behavioral-questions-for-new-grad) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/answer-common-behavioral-questions-for-new-grad) |
 | [Design tests to measure latency impact](https://trueinterview.io/questions/design-tests-to-measure-latency-impact) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-tests-to-measure-latency-impact) |
 | [Explain mixed models and fixed vs random effects](https://trueinterview.io/questions/explain-mixed-models-and-fixed-vs-random-effects) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-mixed-models-and-fixed-vs-random-effects) |
+| [Solve three coding interview problems](../../questions/algorithm/solve-three-coding-interview-problems/README.md) | Algorithm | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-three-coding-interview-problems) |
 | [Segregate Binary String (Move Ones to End)](../../questions/algorithm/segregate-binary-string-move-ones/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/segregate-binary-string-move-ones) |
 | [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |
 | [Test a coefficient and explain t-distribution](https://trueinterview.io/questions/test-a-coefficient-and-explain-t-distribution) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/test-a-coefficient-and-explain-t-distribution) |

@@ -1,13 +1,13 @@
 {
   "accessTiers": {
-    "free": 1978,
-    "insider": 3876,
+    "free": 2056,
+    "insider": 3798,
     "pro": 70
   },
   "companies": [
     {
       "dated": 231,
-      "free": 198,
+      "free": 202,
       "guides": 6,
       "inLastYear": 219,
       "inWindow": 17,
@@ -20,7 +20,7 @@
     },
     {
       "dated": 277,
-      "free": 170,
+      "free": 172,
       "guides": 5,
       "inLastYear": 267,
       "inWindow": 88,
@@ -33,7 +33,7 @@
     },
     {
       "dated": 205,
-      "free": 126,
+      "free": 127,
       "guides": 3,
       "inLastYear": 194,
       "inWindow": 40,
@@ -46,7 +46,7 @@
     },
     {
       "dated": 206,
-      "free": 141,
+      "free": 144,
       "guides": 5,
       "inLastYear": 198,
       "inWindow": 43,
@@ -59,7 +59,7 @@
     },
     {
       "dated": 160,
-      "free": 103,
+      "free": 105,
       "guides": 3,
       "inLastYear": 153,
       "inWindow": 11,
@@ -72,7 +72,7 @@
     },
     {
       "dated": 158,
-      "free": 73,
+      "free": 76,
       "guides": 5,
       "inLastYear": 151,
       "inWindow": 36,
@@ -98,7 +98,7 @@
     },
     {
       "dated": 134,
-      "free": 72,
+      "free": 74,
       "guides": 4,
       "inLastYear": 129,
       "inWindow": 11,
@@ -111,7 +111,7 @@
     },
     {
       "dated": 110,
-      "free": 31,
+      "free": 33,
       "guides": 7,
       "inLastYear": 100,
       "inWindow": 23,
@@ -124,7 +124,7 @@
     },
     {
       "dated": 99,
-      "free": 49,
+      "free": 50,
       "guides": 3,
       "inLastYear": 92,
       "inWindow": 21,
@@ -163,7 +163,7 @@
     },
     {
       "dated": 71,
-      "free": 32,
+      "free": 34,
       "guides": 3,
       "inLastYear": 65,
       "inWindow": 10,
@@ -176,7 +176,7 @@
     },
     {
       "dated": 67,
-      "free": 21,
+      "free": 23,
       "guides": 1,
       "inLastYear": 59,
       "inWindow": 16,
@@ -189,7 +189,7 @@
     },
     {
       "dated": 77,
-      "free": 32,
+      "free": 33,
       "guides": 1,
       "inLastYear": 67,
       "inWindow": 25,
@@ -202,7 +202,7 @@
     },
     {
       "dated": 77,
-      "free": 20,
+      "free": 21,
       "guides": 3,
       "inLastYear": 71,
       "inWindow": 18,
@@ -228,7 +228,7 @@
     },
     {
       "dated": 65,
-      "free": 30,
+      "free": 32,
       "guides": 4,
       "inLastYear": 56,
       "inWindow": 5,
@@ -241,7 +241,7 @@
     },
     {
       "dated": 55,
-      "free": 20,
+      "free": 21,
       "guides": 1,
       "inLastYear": 53,
       "inWindow": 9,
@@ -254,7 +254,7 @@
     },
     {
       "dated": 70,
-      "free": 36,
+      "free": 37,
       "guides": 6,
       "inLastYear": 67,
       "inWindow": 12,
@@ -280,7 +280,7 @@
     },
     {
       "dated": 64,
-      "free": 27,
+      "free": 34,
       "guides": 1,
       "inLastYear": 55,
       "inWindow": 2,
@@ -293,7 +293,7 @@
     },
     {
       "dated": 65,
-      "free": 26,
+      "free": 28,
       "guides": 3,
       "inLastYear": 57,
       "inWindow": 7,
@@ -319,7 +319,7 @@
     },
     {
       "dated": 61,
-      "free": 34,
+      "free": 35,
       "guides": 3,
       "inLastYear": 59,
       "inWindow": 7,
@@ -345,7 +345,7 @@
     },
     {
       "dated": 55,
-      "free": 43,
+      "free": 44,
       "guides": 1,
       "inLastYear": 30,
       "inWindow": 9,
@@ -371,7 +371,7 @@
     },
     {
       "dated": 40,
-      "free": 20,
+      "free": 24,
       "guides": 3,
       "inLastYear": 31,
       "inWindow": 5,
@@ -410,7 +410,7 @@
     },
     {
       "dated": 19,
-      "free": 6,
+      "free": 7,
       "guides": 0,
       "inLastYear": 18,
       "inWindow": 0,
@@ -449,7 +449,7 @@
     },
     {
       "dated": 43,
-      "free": 20,
+      "free": 21,
       "guides": 3,
       "inLastYear": 36,
       "inWindow": 4,
@@ -462,7 +462,7 @@
     },
     {
       "dated": 43,
-      "free": 17,
+      "free": 18,
       "guides": 3,
       "inLastYear": 33,
       "inWindow": 9,
@@ -475,7 +475,7 @@
     },
     {
       "dated": 40,
-      "free": 12,
+      "free": 15,
       "guides": 3,
       "inLastYear": 36,
       "inWindow": 0,
@@ -488,7 +488,7 @@
     },
     {
       "dated": 31,
-      "free": 20,
+      "free": 22,
       "guides": 1,
       "inLastYear": 29,
       "inWindow": 2,
@@ -527,7 +527,7 @@
     },
     {
       "dated": 19,
-      "free": 15,
+      "free": 16,
       "guides": 0,
       "inLastYear": 18,
       "inWindow": 8,
@@ -553,7 +553,7 @@
     },
     {
       "dated": 31,
-      "free": 17,
+      "free": 20,
       "guides": 1,
       "inLastYear": 19,
       "inWindow": 4,
@@ -605,7 +605,7 @@
     },
     {
       "dated": 21,
-      "free": 15,
+      "free": 16,
       "guides": 1,
       "inLastYear": 19,
       "inWindow": 0,
@@ -631,7 +631,7 @@
     },
     {
       "dated": 24,
-      "free": 15,
+      "free": 17,
       "guides": 1,
       "inLastYear": 18,
       "inWindow": 0,
@@ -644,7 +644,7 @@
     },
     {
       "dated": 18,
-      "free": 22,
+      "free": 23,
       "guides": 1,
       "inLastYear": 14,
       "inWindow": 1,
@@ -657,7 +657,7 @@
     },
     {
       "dated": 23,
-      "free": 12,
+      "free": 14,
       "guides": 1,
       "inLastYear": 17,
       "inWindow": 0,
@@ -683,7 +683,7 @@
     },
     {
       "dated": 28,
-      "free": 14,
+      "free": 21,
       "guides": 3,
       "inLastYear": 15,
       "inWindow": 2,
@@ -696,7 +696,7 @@
     },
     {
       "dated": 31,
-      "free": 17,
+      "free": 18,
       "guides": 3,
       "inLastYear": 26,
       "inWindow": 0,
@@ -748,7 +748,7 @@
     },
     {
       "dated": 10,
-      "free": 3,
+      "free": 4,
       "guides": 1,
       "inLastYear": 9,
       "inWindow": 0,
@@ -839,7 +839,7 @@
     },
     {
       "dated": 16,
-      "free": 6,
+      "free": 8,
       "guides": 3,
       "inLastYear": 10,
       "inWindow": 2,
@@ -891,7 +891,7 @@
     },
     {
       "dated": 4,
-      "free": 7,
+      "free": 8,
       "guides": 1,
       "inLastYear": 3,
       "inWindow": 0,
@@ -1229,7 +1229,7 @@
     },
     {
       "dated": 10,
-      "free": 5,
+      "free": 8,
       "guides": 0,
       "inLastYear": 7,
       "inWindow": 0,
@@ -1255,7 +1255,7 @@
     },
     {
       "dated": 10,
-      "free": 9,
+      "free": 10,
       "guides": 0,
       "inLastYear": 7,
       "inWindow": 6,
@@ -1732,7 +1732,7 @@
     {
       "easy": 477,
       "format": "algorithm",
-      "free": 434,
+      "free": 483,
       "graded": 2653,
       "hard": 550,
       "inWindow": 216,
@@ -1743,7 +1743,7 @@
     {
       "easy": 60,
       "format": "sql",
-      "free": 6,
+      "free": 11,
       "graded": 301,
       "hard": 55,
       "inWindow": 15,
@@ -1754,7 +1754,7 @@
     {
       "easy": 41,
       "format": "system-design",
-      "free": 40,
+      "free": 49,
       "graded": 758,
       "hard": 326,
       "inWindow": 144,
@@ -1765,7 +1765,7 @@
     {
       "easy": 10,
       "format": "ai-coding",
-      "free": 12,
+      "free": 13,
       "graded": 134,
       "hard": 37,
       "inWindow": 5,
@@ -1787,7 +1787,7 @@
     {
       "easy": 60,
       "format": "object-oriented-programming",
-      "free": 70,
+      "free": 84,
       "graded": 662,
       "hard": 86,
       "inWindow": 75,
@@ -3305,7 +3305,7 @@
   "totals": {
     "companies": 132,
     "dated": 3431,
-    "free": 1978,
+    "free": 2056,
     "futureDated": 0,
     "gradedDifficulty": 4508,
     "guides": 255,

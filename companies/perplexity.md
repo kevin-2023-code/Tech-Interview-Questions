@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (40% of 25) |
 | Difficulty (easy / medium / hard) | 0 / 19 / 4 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 25 questions reported at Perplexity. 16 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

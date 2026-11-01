@@ -9,7 +9,7 @@ How IBM interviews, and the questions candidates reported there. Free questions 
 |  |  |
 | :-- | :-- |
 | Questions reported | [45](../ibm.md) |
-| Free to read here | 11 |
+| Free to read here | 14 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 05, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free IBM questions
 
-17 questions reported at IBM open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at IBM open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -57,6 +57,9 @@ Here's what the interview process can look like:
 | [How do you detect and fix multicollinearity?](https://trueinterview.io/questions/how-do-you-detect-and-fix-multicollinearity) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/how-do-you-detect-and-fix-multicollinearity) |
 | [Describe building statistical vs ML models](https://trueinterview.io/questions/describe-building-statistical-vs-ml-models) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/describe-building-statistical-vs-ml-models) |
 | [How would you use generative AI at work?](https://trueinterview.io/questions/how-would-you-use-generative-ai-at-work) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-use-generative-ai-at-work) |
+| [Frontend CSS Flexbox Layout Task](../../questions/object-oriented-programming/frontend-css-flexbox-layout/README.md) | Object Oriented Programming | Easy | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/frontend-css-flexbox-layout) |
+| [Write SQL to compute max and min marks](../../questions/sql/write-sql-to-compute-max-and-min-marks/README.md) | SQL | Easy | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/write-sql-to-compute-max-and-min-marks) |
+| [Find minimum operations to make array sorted](../../questions/algorithm/find-minimum-operations-to-make-array-sorted/README.md) | Algorithm | Hard | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/find-minimum-operations-to-make-array-sorted) |
 | [Rate Limiter by IP Address](../../questions/algorithm/rate-limiter-by-ip-address/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/rate-limiter-by-ip-address) |
 | [Minimum Link Reallocation to Connect Repositories](../../questions/algorithm/minimum-link-reallocation/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-link-reallocation) |
 | [Sliding-Window Rate Limiter / Abuse IP Detection](../../questions/algorithm/sliding-window-rate-limiter-and-abuse-ips/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) |

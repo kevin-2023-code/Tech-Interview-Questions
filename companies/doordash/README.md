@@ -9,7 +9,7 @@ How DoorDash interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [151](../doordash.md) |
-| Free to read here | 8 |
+| Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 16, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free DoorDash questions
 
-49 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+50 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -83,6 +83,7 @@ Here's what the interview process can look like:
 | [Describe handling conflict and a proud project](https://trueinterview.io/questions/describe-handling-conflict-and-a-proud-project) | Blog | — | Online assessment | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-handling-conflict-and-a-proud-project) |
 | [Answer feedback, conflict, and failure questions](https://trueinterview.io/questions/answer-feedback-conflict-and-failure-questions) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-feedback-conflict-and-failure-questions) |
 | [How would you prevent wrong items in deliveries?](https://trueinterview.io/questions/how-would-you-prevent-wrong-items-in-deliveries) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-prevent-wrong-items-in-deliveries) |
+| [Find closest value to a target in a BST](../../questions/algorithm/find-closest-value-to-a-target-in-a-bst/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/find-closest-value-to-a-target-in-a-bst) |
 | [Walk Through an ETL Project](https://trueinterview.io/questions/walk-through-an-etl-project) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/walk-through-an-etl-project) |
 | [Allocate Support Cost and Diagnose Decline](https://trueinterview.io/questions/allocate-support-cost-and-diagnose-decline) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/allocate-support-cost-and-diagnose-decline) |
 | [Find Closest Dashmart](../../questions/algorithm/find-closest-dashmart/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/find-closest-dashmart) |

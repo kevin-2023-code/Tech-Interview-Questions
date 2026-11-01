@@ -17,7 +17,7 @@
 | Reported in the last 90 days | 8 |
 | Most common format | [System Design](../formats/system-design.md) (32% of 47) |
 | Difficulty (easy / medium / hard) | 4 / 26 / 4 |
-| Free to practise | [15](../free/README.md) |
+| Free to practise | [16](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 47 questions reported at Disney. 19 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

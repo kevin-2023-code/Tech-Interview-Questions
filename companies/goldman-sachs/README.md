@@ -9,7 +9,7 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 |  |  |
 | :-- | :-- |
 | Questions reported | [68](../goldman-sachs.md) |
-| Free to read here | 28 |
+| Free to read here | 29 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 13, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Goldman Sachs questions
 
-43 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+44 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -68,6 +68,7 @@ Here's what the interview process can look like:
 | [How would you handle conflict and data pressure?](https://trueinterview.io/questions/how-would-you-handle-conflict-and-data-pressure) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/how-would-you-handle-conflict-and-data-pressure) |
 | [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/questions/hirevue-behavioral-six-questions) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/hirevue-behavioral-six-questions) |
 | [Evaluate TPR/FPR, sigmoid, and activations](https://trueinterview.io/questions/evaluate-tpr-fpr-sigmoid-and-activations) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/evaluate-tpr-fpr-sigmoid-and-activations) |
+| [Complete decision tree and gradient descent functions](../../questions/algorithm/complete-decision-tree-and-gradient-descent-functions/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/complete-decision-tree-and-gradient-descent-functions) |
 | [Process Starvation Time](../../questions/algorithm/process-starvation-time/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/process-starvation-time) |
 | [Ethernet Cable Square Count](../../questions/algorithm/ethernet-cable-square-count/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/ethernet-cable-square-count) |
 | [Equalize Letter Frequencies With Add / Remove](../../questions/algorithm/equalize-letter-frequencies/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/equalize-letter-frequencies) |

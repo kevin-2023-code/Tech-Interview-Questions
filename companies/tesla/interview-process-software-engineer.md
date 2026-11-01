@@ -82,7 +82,7 @@ Here are some questions reported by recent candidates:
 - Find a secret six-letter word through a guess API returning exact positional matches, minimizing the worst-case remaining candidates.
 
 - [Dojo Pythonic Coding Pair: Permutation Check and Pow](../../questions/algorithm/dojo-permutation-and-pow/README.md)
-- [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid)
+- [First Solar Panel Placement in a Binary Grid](../../questions/algorithm/solar-panel-placement-grid/README.md)
 - [Word Ladder Variants with Trie Optimization](https://trueinterview.io/questions/word-ladder-variants)
 - [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc)
 - [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md)

@@ -18,14 +18,14 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 1,335 | 46% | ██████████████ | 211 |
+| [Algorithm](../formats/algorithm.md) | 1,335 | 46% | ██████████████ | 229 |
 | [Blog](../formats/blog.md) | 707 | 24% | ███████ | 707 |
-| [System Design](../formats/system-design.md) | 374 | 13% | ████ | 17 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 254 | 9% | ███ | 22 |
-| [SQL](../formats/sql.md) | 179 | 6% | ██ | 0 |
+| [System Design](../formats/system-design.md) | 374 | 13% | ████ | 22 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 254 | 9% | ███ | 24 |
+| [SQL](../formats/sql.md) | 179 | 6% | ██ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 43 | 1% | █ | 4 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **315 / 1359 / 511**, over the rows the catalog has graded. 961 of the 2,892 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **315 / 1359 / 511**, over the rows the catalog has graded. 988 of the 2,892 open without a paid plan.</sub>
 
 ## What they ask about
 

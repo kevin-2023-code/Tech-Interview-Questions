@@ -9,7 +9,7 @@ How Discord interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [11](../discord.md) |
-| Free to read here | 2 |
+| Free to read here | 5 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Apr 03, 2026 |
@@ -20,7 +20,7 @@ No written process guide yet. [The loop, as reported](../discord.md#the-loop-as-
 
 ## Free Discord questions
 
-5 questions reported at Discord open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Discord open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -28,6 +28,9 @@ No written process guide yet. [The loop, as reported](../discord.md#the-loop-as-
 | [Walk through your background and proud project](https://trueinterview.io/questions/walk-through-your-background-and-proud-project) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/walk-through-your-background-and-proud-project) |
 | [Demonstrate effective AI-assisted coding workflow](https://trueinterview.io/questions/demonstrate-effective-ai-assisted-coding-workflow) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/demonstrate-effective-ai-assisted-coding-workflow) |
 | [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) |
+| [Implement an asyncio-based chat server](../../questions/object-oriented-programming/implement-an-asyncio-based-chat-server/README.md) | Object Oriented Programming | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/implement-an-asyncio-based-chat-server) |
+| [Design leader election using Redis leases](../../questions/system-design/design-leader-election-using-redis-leases/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-leader-election-using-redis-leases) |
+| [Debug and mitigate a CPU spike incident](../../questions/system-design/debug-and-mitigate-a-cpu-spike-incident/README.md) | System Design | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 
 ## Everything else

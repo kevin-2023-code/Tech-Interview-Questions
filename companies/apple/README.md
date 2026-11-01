@@ -9,7 +9,7 @@ How Apple interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [182](../apple.md) |
-| Free to read here | 41 |
+| Free to read here | 43 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Oct 02, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Apple questions
 
-72 questions reported at Apple open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+74 questions reported at Apple open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -112,7 +112,9 @@ Here's what the interview process can look like:
 | [Find Failed Login IPs](../../questions/algorithm/find-failed-login-ips/README.md) | Algorithm | Easy | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/find-failed-login-ips) |
 | [Explain Vision Encoders and LLM Bottlenecks](https://trueinterview.io/questions/explain-vision-encoders-and-llm-bottlenecks) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-vision-encoders-and-llm-bottlenecks) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
+| [Scale Digit-Square Convergence Requests](../../questions/system-design/scale-digit-square-convergence-requests/README.md) | System Design | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/scale-digit-square-convergence-requests) |
 | [Explain HashMap Resizing Without Long Pauses](https://trueinterview.io/questions/explain-hashmap-resizing-without-long-pauses) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-hashmap-resizing-without-long-pauses) |
+| [Solve Digit-Square and Grid BFS Problems](../../questions/algorithm/solve-digit-square-and-grid-bfs-problems/README.md) | Algorithm | Hard | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-digit-square-and-grid-bfs-problems) |
 | [Improve chip performance without process advances](https://trueinterview.io/questions/improve-chip-performance-without-process-advances) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/improve-chip-performance-without-process-advances) |
 | [Handle conflict, priorities, and harsh clients](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/handle-conflict-priorities-and-harsh-clients) |
 | [Explain use cases for clock synchronizers](https://trueinterview.io/questions/explain-use-cases-for-clock-synchronizers) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-use-cases-for-clock-synchronizers) |

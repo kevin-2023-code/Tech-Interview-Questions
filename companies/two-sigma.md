@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 50) |
 | Difficulty (easy / medium / hard) | 2 / 29 / 10 |
-| Free to practise | [12](../free/README.md) |
+| Free to practise | [15](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 50 questions reported at Two Sigma. 40 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

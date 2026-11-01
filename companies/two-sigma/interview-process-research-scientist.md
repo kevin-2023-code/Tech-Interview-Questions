@@ -166,7 +166,7 @@ Here are some questions reported by recent candidates:
 - Find the smallest palindrome strictly greater than a given integer, including inputs such as 999.
 - Assign 2n workers to two distinct tasks so the total time to complete both is minimized.
 
-- [Palindrome Warmup + Two-Task Worker Scheduling](https://trueinterview.io/questions/palindrome-and-task-scheduling-round)
+- [Palindrome Warmup + Two-Task Worker Scheduling](../../questions/algorithm/palindrome-and-task-scheduling-round/README.md)
 - [Smallest Palindrome Strictly Greater Than K](https://trueinterview.io/questions/smallest-palindrome-strictly-greater-than-k)
 - [Assign 2n Workers to Two Tasks to Minimize Total Time](https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time)
 - [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder)

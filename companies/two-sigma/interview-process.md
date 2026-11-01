@@ -191,7 +191,7 @@ Here are some questions reported by recent candidates:
 - [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder)
 - [Smallest Palindrome Strictly Greater Than K](https://trueinterview.io/questions/smallest-palindrome-strictly-greater-than-k)
 - [Assign 2n Workers to Two Tasks to Minimize Total Time](https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time)
-- [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph)
+- [Maximum Product Path in a Complete Directed Graph](../../questions/algorithm/maximum-product-path-in-complete-directed-graph/README.md)
 
 ## Hiring manager interview
 

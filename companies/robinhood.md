@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 4 |
 | Most common format | [System Design](../formats/system-design.md) (37% of 54) |
 | Difficulty (easy / medium / hard) | 6 / 31 / 8 |
-| Free to practise | [20](../free/README.md) |
+| Free to practise | [21](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 54 questions reported at Robinhood. 43 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

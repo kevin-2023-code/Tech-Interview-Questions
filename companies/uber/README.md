@@ -9,7 +9,7 @@ How Uber interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [266](../uber.md) |
-| Free to read here | 64 |
+| Free to read here | 66 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 29, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Uber questions
 
-103 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+105 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -110,7 +110,9 @@ Here's what the interview process can look like:
 | [Isomorphic Strings](../../questions/algorithm/isomorphic-strings/README.md) | Algorithm | Easy | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/isomorphic-strings) |
 | [Answer leadership questions on tradeoffs and collaboration](https://trueinterview.io/questions/answer-leadership-questions-on-tradeoffs-and-collaboration) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-leadership-questions-on-tradeoffs-and-collaboration) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
+| [Compute outer boundary of an N-ary tree](../../questions/algorithm/compute-outer-boundary-of-an-n-ary-tree/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/compute-outer-boundary-of-an-n-ary-tree) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
+| [Solve three algorithmic optimization and search problems](../../questions/algorithm/solve-three-algorithmic-optimization-and-search-problems/README.md) | Algorithm | Hard | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-three-algorithmic-optimization-and-search-problems) |
 | [Verifying an Alien Dictionary](../../questions/algorithm/verifying-an-alien-dictionary/README.md) | Algorithm | Easy | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/verifying-an-alien-dictionary) |
 | [Round-Trip Mission Schedule](../../questions/algorithm/oa-codesignal-multi-mission-routing/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/oa-codesignal-multi-mission-routing) |
 | [Select the better $5 promo-targeting model](https://trueinterview.io/questions/select-the-better-5-promo-targeting-model) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/select-the-better-5-promo-targeting-model) |

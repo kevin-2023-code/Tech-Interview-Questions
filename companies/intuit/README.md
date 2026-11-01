@@ -9,7 +9,7 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [38](../intuit.md) |
-| Free to read here | 5 |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 28, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Intuit questions
 
-15 questions reported at Intuit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+17 questions reported at Intuit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -61,6 +61,8 @@ Here's what the interview process can look like:
 | [Handle missing and unavailable predictive features](https://trueinterview.io/questions/handle-missing-and-unavailable-predictive-features) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/handle-missing-and-unavailable-predictive-features) |
 | [Extract insights from a multi-entry funnel scorecard](https://trueinterview.io/questions/extract-insights-from-a-multi-entry-funnel-scorecard) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/extract-insights-from-a-multi-entry-funnel-scorecard) |
 | [Design an experiment to evaluate an onboarding progress bar](https://trueinterview.io/questions/design-an-experiment-to-evaluate-an-onboarding-progress-bar) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-experiment-to-evaluate-an-onboarding-progress-bar) |
+| [Weather Data Energy-Usage Ranking](../../questions/algorithm/weather-data-energy-usage-ranking/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/weather-data-energy-usage-ranking) |
+| [Customer Scheduler: VIP Priority and 2:1 Fairness](../../questions/object-oriented-programming/customer-scheduler-vip-fairness/README.md) | Object Oriented Programming | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/customer-scheduler-vip-fairness) |
 | [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/look-and-say-sequence) |
 | [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) |
 | [Diagnose rising delivery cost precisely](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) |

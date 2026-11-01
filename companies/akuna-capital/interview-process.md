@@ -61,7 +61,7 @@ Here are some questions reported by recent candidates:
 
 - [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
 - [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order)
-- [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips)
+- [Max Subsequence Sum Without Skipping Two in a Row](../../questions/algorithm/max-sum-no-two-consecutive-skips/README.md)
 - [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler)
 - [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
 
@@ -120,7 +120,7 @@ Here are some questions reported by recent candidates:
 - [Round Price to Nearest Valid Tick](../../questions/algorithm/round-price-to-nearest-tick/README.md)
 - [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter)
 - [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
-- [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging)
+- [C++ Object Pool Debugging](../../questions/ai-coding/c-plus-plus-object-pool-debugging/README.md)
 - [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md)
 
 ## Behavioral interview

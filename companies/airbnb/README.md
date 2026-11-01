@@ -9,7 +9,7 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [112](../airbnb.md) |
-| Free to read here | 9 |
+| Free to read here | 10 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Oct 14, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Airbnb questions
 
-20 questions reported at Airbnb open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at Airbnb open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -68,6 +68,7 @@ Here's what the interview process can look like:
 | [Answer cross-team delivery and values questions](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/in-memory-database-with-sql-operations) |
+| [Flatten 2D Array With Remove](../../questions/object-oriented-programming/flatten-2d-array-with-remove/README.md) | Object Oriented Programming | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/flatten-2d-array-with-remove) |
 | [Guess Number](../../questions/algorithm/guess-number/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/guess-number) |
 | [Minimum Vertices to Traverse Directed Graph](../../questions/algorithm/minimum-vertices-to-traverse-directed-graph/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-vertices-to-traverse-directed-graph) |
 | [Test conversion difference and adjust for clustering](https://trueinterview.io/questions/test-conversion-difference-and-adjust-for-clustering) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/test-conversion-difference-and-adjust-for-clustering) |

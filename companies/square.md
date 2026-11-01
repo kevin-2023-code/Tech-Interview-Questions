@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 56) |
 | Difficulty (easy / medium / hard) | 9 / 38 / 5 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [7](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 56 questions reported at Square. 19 of them carry a sighting date; the other 37 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

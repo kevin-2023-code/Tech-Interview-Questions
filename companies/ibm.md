@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (73% of 45) |
 | Difficulty (easy / medium / hard) | 8 / 27 / 4 |
-| Free to practise | [17](../free/README.md) |
+| Free to practise | [20](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 45 questions reported at IBM. 31 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

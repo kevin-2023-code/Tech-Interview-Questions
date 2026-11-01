@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (41% of 37) |
 | Difficulty (easy / medium / hard) | 4 / 13 / 7 |
-| Free to practise | [22](../free/README.md) |
+| Free to practise | [23](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 37 questions reported at PayPal. 18 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

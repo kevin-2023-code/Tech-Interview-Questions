@@ -2,18 +2,18 @@
 
 # Free questions
 
-**1,978 of the 5,924 tracked questions open without a paid plan** (33%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
+**2,056 of the 5,924 tracked questions open without a paid plan** (35%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [Free reading](../guides/README.md)
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 434 | 112 | 251 | 71 |
-| [SQL](sql.md) | 6 | 0 | 4 | 2 |
-| [System Design](system-design.md) | 40 | 6 | 19 | 15 |
-| [AI Coding](ai-coding.md) | 12 | 1 | 9 | 2 |
+| [Algorithm](algorithm.md) | 483 | 120 | 279 | 84 |
+| [SQL](sql.md) | 11 | 1 | 8 | 2 |
+| [System Design](system-design.md) | 49 | 6 | 23 | 20 |
+| [AI Coding](ai-coding.md) | 13 | 1 | 10 | 2 |
 | [Blog](blog.md) | 1,416 | 0 | 0 | 0 |
-| [Object Oriented Programming](object-oriented-programming.md) | 70 | 5 | 60 | 5 |
+| [Object Oriented Programming](object-oriented-programming.md) | 84 | 6 | 70 | 8 |
 
 ## Start here
 

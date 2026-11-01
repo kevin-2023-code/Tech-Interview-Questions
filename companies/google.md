@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 40 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 383) |
 | Difficulty (easy / medium / hard) | 32 / 188 / 77 |
-| Free to practise | [126](../free/README.md) |
+| Free to practise | [127](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 383 questions reported at Google. 205 of them carry a sighting date; the other 178 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

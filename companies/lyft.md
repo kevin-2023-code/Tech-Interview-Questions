@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (35% of 49) |
 | Difficulty (easy / medium / hard) | 0 / 33 / 8 |
-| Free to practise | [20](../free/README.md) |
+| Free to practise | [22](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 49 questions reported at Lyft. 31 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

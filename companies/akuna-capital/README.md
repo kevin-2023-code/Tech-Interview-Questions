@@ -9,7 +9,7 @@ How Akuna Capital interviews, and the questions candidates reported there. Free 
 |  |  |
 | :-- | :-- |
 | Questions reported | [35](../akuna-capital.md) |
-| Free to read here | 10 |
+| Free to read here | 17 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Aug 26, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Akuna Capital questions
 
-14 questions reported at Akuna Capital open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at Akuna Capital open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -56,7 +56,11 @@ Here's what the interview process can look like:
 | [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) |
 | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences) |
 | [Enemy Factory with Shared Instances](../../questions/object-oriented-programming/enemy-factory-shared-instances/README.md) | Object Oriented Programming | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/enemy-factory-shared-instances) |
+| [Minimum Days to Release Updates](../../questions/algorithm/minimum-days-to-release-updates/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/minimum-days-to-release-updates) |
+| [Maximum Distinct Elements After K Swaps](../../questions/algorithm/maximum-distinct-after-k-swaps/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/maximum-distinct-after-k-swaps) |
+| [Max Subsequence Sum Without Skipping Two in a Row](../../questions/algorithm/max-sum-no-two-consecutive-skips/README.md) | Algorithm | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips) |
 | [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning) | Blog | — | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning) |
+| [C++ Object Pool Debugging](../../questions/ai-coding/c-plus-plus-object-pool-debugging/README.md) | AI Coding | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging) |
 | [Array Challenge: Left-Comparison Running Counter](../../questions/algorithm/left-comparison-running-counter/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/left-comparison-running-counter) |
 | [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/find-missing-and-repeated-element) |
 | [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md) | Object Oriented Programming | Hard | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) |
@@ -64,7 +68,10 @@ Here's what the interview process can look like:
 | [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games) | Blog | — | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/junior-trader-final-games) |
 | [Segregate Binary String (Move Ones to End)](../../questions/algorithm/segregate-binary-string-move-ones/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/segregate-binary-string-move-ones) |
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
+| [Delivery Management System (QR Intern)](../../questions/algorithm/delivery-management-system-qr-intern/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) |
 | [An Evening of Movies](../../questions/algorithm/an-evening-of-movies/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) |
+| [Calculate Positive Profit Combinations](../../questions/algorithm/calculate-positive-profit-combinations/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95) |
+| [Earliest Completion Date](../../questions/algorithm/earliest-completion-date/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8aac20d0-1504-4d77-a135-6d802ad17cc3) |
 | [K Smallest Substring](../../questions/algorithm/k-smallest-substring/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c) |
 
 ## Everything else

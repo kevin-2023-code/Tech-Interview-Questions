@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 16 |
 | Most common format | [Algorithm](../formats/algorithm.md) (48% of 119) |
 | Difficulty (easy / medium / hard) | 19 / 65 / 20 |
-| Free to practise | [21](../free/README.md) |
+| Free to practise | [23](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 119 questions reported at Stripe. 67 of them carry a sighting date; the other 52 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

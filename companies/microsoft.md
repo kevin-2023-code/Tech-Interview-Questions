@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 36 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 242) |
 | Difficulty (easy / medium / hard) | 31 / 131 / 48 |
-| Free to practise | [73](../free/README.md) |
+| Free to practise | [76](../free/README.md) |
 | Guides & writeups | 5 |
 
 <sub>Counted from the 242 questions reported at Microsoft. 158 of them carry a sighting date; the other 84 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

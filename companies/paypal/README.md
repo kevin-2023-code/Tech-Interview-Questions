@@ -9,7 +9,7 @@ How PayPal interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [37](../paypal.md) |
-| Free to read here | 9 |
+| Free to read here | 10 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free PayPal questions
 
-22 questions reported at PayPal open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+23 questions reported at PayPal open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -61,6 +61,7 @@ Here's what the interview process can look like:
 | [Decide if a dice-betting game is favorable](https://trueinterview.io/questions/decide-if-a-dice-betting-game-is-favorable) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/decide-if-a-dice-betting-game-is-favorable) |
 | [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) |
 | [Reduce airport ride cancellations under causal constraints](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints) |
+| [Compute Variance from a Python List](../../questions/algorithm/compute-variance-from-a-python-list/README.md) | Algorithm | Easy | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/compute-variance-from-a-python-list) |
 | [Explain p-values and interpret regressions](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions) |
 | [Evaluate smart cart idea and design experiment](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment) |
 | [Diagnose drop in shopper order acceptance](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance) |

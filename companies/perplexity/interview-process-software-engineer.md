@@ -116,7 +116,7 @@ Here are some questions reported by recent candidates:
 - [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md)
 - [Credit Tracker with Expiring Credits](../../questions/object-oriented-programming/credit-tracker-with-expiring-credits/README.md)
 - [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words)
-- [Rental Car Surge Area Navigation](https://trueinterview.io/questions/premium-zone-escape-path)
+- [Rental Car Surge Area Navigation](../../questions/algorithm/premium-zone-escape-path/README.md)
 
 ## Onsite coding and debugging rounds
 

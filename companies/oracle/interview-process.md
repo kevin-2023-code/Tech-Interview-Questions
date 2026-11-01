@@ -105,7 +105,7 @@ Here are some questions reported by recent candidates:
 
 - [Log Parser with Multi-Line Follow-up](../../questions/algorithm/log-parser-multiline/README.md)
 - [Merge K Sorted (Key, Value) Lists with Later Override](https://trueinterview.io/questions/merge-k-sorted-key-value-lists)
-- [Poker Straight Sequence Check](https://trueinterview.io/questions/valid-poker-straight)
+- [Poker Straight Sequence Check](../../questions/algorithm/valid-poker-straight/README.md)
 - [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul)
 
 ## Coding interviews

@@ -54,7 +54,7 @@ Here are some questions reported by recent candidates:
 - A medium-plus problem combining data-structure choice, string processing and boundary conditions, graded on code quality as well as correctness.
 
 - [Distribute Strings into K Lines with Greedy Placement](https://trueinterview.io/questions/84ccf656-2a40-4ff8-8080-a648e545eb50)
-- [Top 10 Words](https://trueinterview.io/questions/top-10-frequent-words)
+- [Top 10 Words](../../questions/algorithm/top-10-frequent-words/README.md)
 
 ## Recruiter screen
 

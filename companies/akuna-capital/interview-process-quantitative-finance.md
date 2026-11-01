@@ -56,11 +56,11 @@ Here are some questions reported by recent candidates:
 - Find the shortest substring containing all required characters, returning the lexicographically smallest on ties.
 - Turn A into B using only subtract-one and multiply-by-two in the fewest steps.
 
-- [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95)
-- [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f)
+- [Calculate Positive Profit Combinations](../../questions/algorithm/calculate-positive-profit-combinations/README.md)
+- [Delivery Management System (QR Intern)](../../questions/algorithm/delivery-management-system-qr-intern/README.md)
 - [K Smallest Substring](../../questions/algorithm/k-smallest-substring/README.md)
 - [Minimal Operations](../../questions/algorithm/minimal-operations/README.md)
-- [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps)
+- [Maximum Distinct Elements After K Swaps](../../questions/algorithm/maximum-distinct-after-k-swaps/README.md)
 
 ## Math and trading assessments
 
@@ -117,7 +117,7 @@ Here are some questions reported by recent candidates:
 - [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter)
 - [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
 - [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
-- [Minimum Days to Release Updates](https://trueinterview.io/questions/minimum-days-to-release-updates)
+- [Minimum Days to Release Updates](../../questions/algorithm/minimum-days-to-release-updates/README.md)
 
 ## Trading and math interview
 

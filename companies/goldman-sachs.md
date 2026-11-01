@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 68) |
 | Difficulty (easy / medium / hard) | 14 / 34 / 5 |
-| Free to practise | [43](../free/README.md) |
+| Free to practise | [44](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 68 questions reported at Goldman Sachs. 55 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

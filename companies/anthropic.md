@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 12 |
 | Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (26% of 99) |
 | Difficulty (easy / medium / hard) | 8 / 48 / 22 |
-| Free to practise | [36](../free/README.md) |
+| Free to practise | [37](../free/README.md) |
 | Guides & writeups | 6 |
 
 <sub>Counted from the 99 questions reported at Anthropic. 70 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

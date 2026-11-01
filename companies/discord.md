@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [System Design](../formats/system-design.md) (45% of 11) |
 | Difficulty (easy / medium / hard) | 0 / 4 / 4 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 11 questions reported at Discord. 10 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -75,7 +75,7 @@ The 8 questions to open first if you are preparing for Discord, ranked by **the 
 | **5** | [Design Product Notification and Autocomplete Experiments](https://trueinterview.io/questions/design-product-notification-and-autocomplete-experiments) | System Design | Medium | — | Jan 16, 2026 |
 | **6** | [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream) | Algorithm | Hard | — | Dec 16, 2025 |
 | **7** | [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) 🆓 | Blog | — | — | Dec 08, 2025 |
-| **8** | [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | System Design | Medium | — | Oct 25, 2025 |
+| **8** | [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) 🆓 | System Design | Medium | — | Oct 25, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

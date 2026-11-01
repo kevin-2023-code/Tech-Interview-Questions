@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 23 |
 | Most common format | [Algorithm](../formats/algorithm.md) (35% of 176) |
 | Difficulty (easy / medium / hard) | 14 / 75 / 71 |
-| Free to practise | [31](../free/README.md) |
+| Free to practise | [33](../free/README.md) |
 | Guides & writeups | 7 |
 
 <sub>Counted from the 176 questions reported at OpenAI. 110 of them carry a sighting date; the other 66 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

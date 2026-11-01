@@ -9,7 +9,7 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [176](../openai.md) |
-| Free to read here | 15 |
+| Free to read here | 17 |
 | Interview-process guides | 7 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free OpenAI questions
 
-31 questions reported at OpenAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+33 questions reported at OpenAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -79,6 +79,8 @@ Here's what the interview process can look like:
 | [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/in-memory-database-with-sql-operations) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
 | [Explain motivation and mission alignment](https://trueinterview.io/questions/explain-motivation-and-mission-alignment) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-motivation-and-mission-alignment) |
+| [Design a Resumable Iterator with Checkpoint and Restore](../../questions/object-oriented-programming/design-a-resumable-iterator-with-checkpoint-and-restore/README.md) | Object Oriented Programming | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/design-a-resumable-iterator-with-checkpoint-and-restore) |
+| [Compute signup rate and retention from raw logs](../../questions/sql/compute-signup-rate-and-retention-from-raw-logs/README.md) | SQL | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/compute-signup-rate-and-retention-from-raw-logs) |
 | [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 | [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) |

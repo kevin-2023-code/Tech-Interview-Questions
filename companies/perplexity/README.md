@@ -9,7 +9,7 @@ How Perplexity interviews, and the questions candidates reported there. Free que
 |  |  |
 | :-- | :-- |
 | Questions reported | [25](../perplexity.md) |
-| Free to read here | 4 |
+| Free to read here | 6 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 01, 2026 |
@@ -50,12 +50,14 @@ Here's what the interview process can look like:
 
 ## Free Perplexity questions
 
-6 questions reported at Perplexity open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Perplexity open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
 | [ToDo List with Task Dependencies](../../questions/object-oriented-programming/todo-list-with-task-dependencies-ood/README.md) | Object Oriented Programming | Medium | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) |
+| [Embedding Model Server](../../questions/object-oriented-programming/embedding-model-server/README.md) | Object Oriented Programming | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/embedding-model-server) |
+| [Rental Car Surge Area Navigation](../../questions/algorithm/premium-zone-escape-path/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/premium-zone-escape-path) |
 | [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/behavioral-and-project-deep-dive) |
 | [Credit Tracker with Expiring Credits](../../questions/object-oriented-programming/credit-tracker-with-expiring-credits/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) |
 | [Map-Reduce and Blockwise Attention](https://trueinterview.io/questions/map-reduce-and-blockwise-attention) | Blog | — | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/map-reduce-and-blockwise-attention) |

@@ -51,12 +51,12 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,653 | 45% | 216 | 477 | 1,626 | 550 | 2,653 | 434 |
-| [SQL](../formats/sql.md) | 301 | 5% | 15 | 60 | 186 | 55 | 301 | 6 |
-| [System Design](../formats/system-design.md) | 758 | 13% | 144 | 41 | 391 | 326 | 758 | 40 |
-| [AI Coding](../formats/ai-coding.md) | 134 | 2% | 5 | 10 | 87 | 37 | 134 | 12 |
+| [Algorithm](../formats/algorithm.md) | 2,653 | 45% | 216 | 477 | 1,626 | 550 | 2,653 | 483 |
+| [SQL](../formats/sql.md) | 301 | 5% | 15 | 60 | 186 | 55 | 301 | 11 |
+| [System Design](../formats/system-design.md) | 758 | 13% | 144 | 41 | 391 | 326 | 758 | 49 |
+| [AI Coding](../formats/ai-coding.md) | 134 | 2% | 5 | 10 | 87 | 37 | 134 | 13 |
 | [Blog](../formats/blog.md) | 1,416 | 24% | 208 | 0 | 0 | 0 | 0 | 1,416 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 662 | 11% | 75 | 60 | 516 | 86 | 662 | 70 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 662 | 11% | 75 | 60 | 516 | 86 | 662 | 84 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
 
@@ -147,11 +147,11 @@ The closest thing this data has to an instruction. A question reported at one em
 
 | Plan needed | Questions | Share of bank |
 | :-- | --: | --: |
-| Free | 1,978 | 33% |
+| Free | 2,056 | 35% |
 | Pro | 70 | 1% |
-| Insider | 3,876 | 65% |
+| Insider | 3,798 | 64% |
 
-<sub>Straight from the catalog's own `accessTier`, never asserted here. The **1,978 free ones are listed in full** — [start there](../free/README.md).</sub>
+<sub>Straight from the catalog's own `accessTier`, never asserted here. The **2,056 free ones are listed in full** — [start there](../free/README.md).</sub>
 
 ## Month by month
 

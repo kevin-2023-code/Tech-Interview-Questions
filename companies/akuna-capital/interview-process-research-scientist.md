@@ -57,8 +57,8 @@ Here are some questions reported by recent candidates:
 - Given two arrays and at most k cross-array swaps, maximize the number of distinct values left in the first array.
 
 - [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order)
-- [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95)
-- [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps)
+- [Calculate Positive Profit Combinations](../../questions/algorithm/calculate-positive-profit-combinations/README.md)
+- [Maximum Distinct Elements After K Swaps](../../questions/algorithm/maximum-distinct-after-k-swaps/README.md)
 - [Array Challenge: Left-Comparison Running Counter](../../questions/algorithm/left-comparison-running-counter/README.md)
 
 ## Video mathematics assessment
@@ -142,7 +142,7 @@ Here are some questions reported by recent candidates:
 - [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
 - [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md)
 - [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components)
-- [Minimum Days to Release Updates](https://trueinterview.io/questions/minimum-days-to-release-updates)
+- [Minimum Days to Release Updates](../../questions/algorithm/minimum-days-to-release-updates/README.md)
 - [Min Mod and Max](https://trueinterview.io/questions/300141c0-9e82-4bc4-8055-d73e3ca2fae2)
 
 ## Behavioral interview

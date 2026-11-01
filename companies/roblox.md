@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (49% of 106) |
 | Difficulty (easy / medium / hard) | 16 / 53 / 22 |
-| Free to practise | [30](../free/README.md) |
+| Free to practise | [32](../free/README.md) |
 | Guides & writeups | 4 |
 
 <sub>Counted from the 106 questions reported at Roblox. 65 of them carry a sighting date; the other 41 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

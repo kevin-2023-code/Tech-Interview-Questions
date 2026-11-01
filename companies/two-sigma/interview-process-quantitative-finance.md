@@ -113,7 +113,7 @@ Here are some questions reported by recent candidates:
 - [Evaluate piecewise linear function at x](https://trueinterview.io/questions/evaluate-piecewise-linear-function-at-x)
 - [Maximum Independent Set on a Tree](https://trueinterview.io/questions/maximum-independent-set-on-tree)
 - [Count Distinct Island Shapes in a Binary Grid](https://trueinterview.io/questions/count-distinct-island-shapes-in-a-binary-grid)
-- [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph)
+- [Maximum Product Path in a Complete Directed Graph](../../questions/algorithm/maximum-product-path-in-complete-directed-graph/README.md)
 - [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46)
 - [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
 

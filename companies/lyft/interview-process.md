@@ -192,7 +192,7 @@ Here are some questions reported by recent candidates:
 
 - [Frontend Autocomplete Component](https://trueinterview.io/questions/frontend-autocomplete-component)
 - [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table)
-- [Minesweeper Game Logic](https://trueinterview.io/questions/minesweeper-game-logic)
+- [Minesweeper Game Logic](../../questions/algorithm/minesweeper-game-logic/README.md)
 - [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis)
 - [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means)
 - [Implement Stratified K-Fold Cross Validation](https://trueinterview.io/questions/603347d9-9ef4-4b27-be30-a00814f1b728)

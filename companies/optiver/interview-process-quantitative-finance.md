@@ -94,7 +94,7 @@ Here are some questions reported by recent candidates:
 - [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching)
 - [Currency Arbitrage Detection](../../questions/algorithm/currency-arbitrage-detection/README.md)
 - [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost)
-- [Design Squirrel Nut Tracker](https://trueinterview.io/questions/squirrel-nut-storage)
+- [Design Squirrel Nut Tracker](../../questions/object-oriented-programming/squirrel-nut-storage/README.md)
 
 ## Recruiter or HR screen
 

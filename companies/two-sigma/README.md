@@ -9,7 +9,7 @@ How Two Sigma interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [50](../two-sigma.md) |
-| Free to read here | 3 |
+| Free to read here | 6 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Jul 29, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Two Sigma questions
 
-12 questions reported at Two Sigma open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+15 questions reported at Two Sigma open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -66,6 +66,9 @@ Here's what the interview process can look like:
 | [Answer four core statistics questions](https://trueinterview.io/questions/answer-four-core-statistics-questions) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-four-core-statistics-questions) |
 | [Slopes of y-on-x vs x-on-y Regression: Relationship and When They Are Equal](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/slopes-of-y-on-x-vs-x-on-y-regression-relationship-and-when-they-are-equal) |
 | [How Would You Test Whether Momentum Is a Real Alpha Signal in Stocks?](https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-test-whether-momentum-is-a-real-alpha-signal-in-stocks) |
+| [Palindrome Warmup + Two-Task Worker Scheduling](../../questions/algorithm/palindrome-and-task-scheduling-round/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/palindrome-and-task-scheduling-round) |
+| [Maximum Product Path in a Complete Directed Graph](../../questions/algorithm/maximum-product-path-in-complete-directed-graph/README.md) | Algorithm | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph) |
+| [Redundant Connection: Underground Pipes](../../questions/algorithm/redundant-connection-underground-pipes/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8) |
 
 ## Everything else
 

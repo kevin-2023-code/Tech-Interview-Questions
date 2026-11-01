@@ -9,7 +9,7 @@ How Bloomberg interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [95](../bloomberg.md) |
-| Free to read here | 22 |
+| Free to read here | 29 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Bloomberg questions
 
-27 questions reported at Bloomberg open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+34 questions reported at Bloomberg open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -74,6 +74,13 @@ Here's what the interview process can look like:
 | [Word Search](../../questions/algorithm/word-search/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/word-search) |
 | [Answer core behavioral questions using STAR](https://trueinterview.io/questions/answer-core-behavioral-questions-using-star) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-core-behavioral-questions-using-star) |
 | [Describe leading an end-to-end client project](https://trueinterview.io/questions/describe-leading-an-end-to-end-client-project) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/describe-leading-an-end-to-end-client-project) |
+| [Answer multi-round grid and data-structure questions](../../questions/algorithm/answer-multi-round-grid-and-data-structure-questions/README.md) | Algorithm | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/answer-multi-round-grid-and-data-structure-questions) |
+| [Palindrome Stream Tracker](../../questions/algorithm/palindrome-stream-tracker/README.md) | Algorithm | Hard | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/palindrome-stream-tracker) |
+| [Solve two array and string problems](../../questions/algorithm/solve-two-array-and-string-problems/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-two-array-and-string-problems) |
+| [Stock Trade Ranking System](../../questions/object-oriented-programming/stock-trade-ranking-system/README.md) | Object Oriented Programming | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/stock-trade-ranking-system) |
+| [Partition Array by Equivalence Function](../../questions/algorithm/partition-array-by-equivalence-function/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/partition-array-by-equivalence-function) |
+| [Level With Maximum Nodes in an N-ary Tree](../../questions/algorithm/level-with-maximum-nodes-in-an-n-ary-tree/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/level-with-maximum-nodes-in-an-n-ary-tree) |
+| [Design File Search Tool](../../questions/algorithm/design-file-search-tool/README.md) | Algorithm | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-file-search-tool) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 | [Validate Stack Sequences](../../questions/algorithm/validate-stack-sequences/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/29838791-2db8-4fd2-85df-b2c198bf9376) |
 | [Evaluate Reverse Polish Notation](../../questions/algorithm/evaluate-reverse-polish-notation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) |

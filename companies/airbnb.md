@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 18 |
 | Most common format | [Algorithm](../formats/algorithm.md) (37% of 112) |
 | Difficulty (easy / medium / hard) | 11 / 66 / 24 |
-| Free to practise | [20](../free/README.md) |
+| Free to practise | [21](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 112 questions reported at Airbnb. 77 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

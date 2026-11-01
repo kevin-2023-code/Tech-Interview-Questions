@@ -9,7 +9,7 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [350](../bytedance.md) |
-| Free to read here | 60 |
+| Free to read here | 63 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Oct 05, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free ByteDance questions
 
-141 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+144 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -137,6 +137,9 @@ Here's what the interview process can look like:
 | [Explain Type I/II errors vs precision/recall](https://trueinterview.io/questions/explain-type-i-ii-errors-vs-precision-recall-2) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-type-i-ii-errors-vs-precision-recall-2) |
 | [Build and iteratively improve sentiment classifier](https://trueinterview.io/questions/build-and-iteratively-improve-sentiment-classifier) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/build-and-iteratively-improve-sentiment-classifier) |
 | [How do you choose a classification threshold?](https://trueinterview.io/questions/how-do-you-choose-a-classification-threshold) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/how-do-you-choose-a-classification-threshold) |
+| [Find first and last index of target](../../questions/algorithm/find-first-and-last-index-of-target/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/find-first-and-last-index-of-target) |
+| [(Hard)](../../questions/sql/write-sql-for-tiktok-live-creator-metrics-hard/README.md) | SQL | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/write-sql-for-tiktok-live-creator-metrics-hard) |
+| [Write SQL for TikTok Live creator metrics](../../questions/sql/write-sql-for-tiktok-live-creator-metrics/README.md) | SQL | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/write-sql-for-tiktok-live-creator-metrics) |
 | [Delete k Elements to Balance](../../questions/algorithm/delete-k-elements-to-balance/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/delete-k-elements-to-balance) |
 | [Add Signed Arrays](../../questions/algorithm/add-signed-arrays/README.md) | Algorithm | Easy | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/add-signed-arrays) |
 | [Shortest Path in Unweighted Graph](../../questions/algorithm/shortest-path-in-unweighted-graph/README.md) | Algorithm | Easy | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) |

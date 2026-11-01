@@ -9,7 +9,7 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [242](../microsoft.md) |
-| Free to read here | 41 |
+| Free to read here | 44 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Oct 03, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Microsoft questions
 
-73 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+76 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -104,7 +104,10 @@ Here's what the interview process can look like:
 | [Explain KNN and PCA and key tradeoffs](https://trueinterview.io/questions/explain-knn-and-pca-and-key-tradeoffs) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-knn-and-pca-and-key-tradeoffs) |
 | [Describe resolving a conflict with a teammate](https://trueinterview.io/questions/describe-resolving-a-conflict-with-a-teammate) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/describe-resolving-a-conflict-with-a-teammate) |
 | [Discuss proudest project and conflict handling](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/discuss-proudest-project-and-conflict-handling) |
+| [Schedule tasks with cooldown](../../questions/algorithm/solve-three-scheduling-and-array-problems-schedule-tasks-with-cooldown/README.md) | Algorithm | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/solve-three-scheduling-and-array-problems-schedule-tasks-with-cooldown) |
 | [Discuss mutexes, memory alignment, polymorphism, idempotency](https://trueinterview.io/questions/discuss-mutexes-memory-alignment-polymorphism-idempotency) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/discuss-mutexes-memory-alignment-polymorphism-idempotency) |
+| [Reverse linked list in fixed-size groups](../../questions/algorithm/reverse-linked-list-in-fixed-size-groups/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/reverse-linked-list-in-fixed-size-groups) |
+| [Merge multiple sorted arrays using min-heap](../../questions/algorithm/merge-multiple-sorted-arrays-using-min-heap/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/merge-multiple-sorted-arrays-using-min-heap) |
 | [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/spiral-matrix-output) |
 | [Test classifier difference with McNemar's test](https://trueinterview.io/questions/test-classifier-difference-with-mcnemars-test) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/test-classifier-difference-with-mcnemars-test) |
 | [Handle unreliable email during time-critical coordination](https://trueinterview.io/questions/handle-unreliable-email-during-time-critical-coordination) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/handle-unreliable-email-during-time-critical-coordination) |

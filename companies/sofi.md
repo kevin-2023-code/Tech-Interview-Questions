@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (49% of 37) |
 | Difficulty (easy / medium / hard) | 10 / 17 / 3 |
-| Free to practise | [12](../free/README.md) |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 37 questions reported at SoFi. 23 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

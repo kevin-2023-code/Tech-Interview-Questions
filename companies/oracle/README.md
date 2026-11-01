@@ -9,7 +9,7 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [115](../oracle.md) |
-| Free to read here | 20 |
+| Free to read here | 21 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 28, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Oracle questions
 
-32 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+33 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -70,6 +70,7 @@ Here's what the interview process can look like:
 | [Container With Most Water](../../questions/algorithm/container-with-most-water-2/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/container-with-most-water-2) |
 | [How do you tackle unfamiliar problems?](https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems) |
 | [Dropped Requests (Rate Limiter)](../../questions/algorithm/dropped-requests-rate-limiter/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dropped-requests-rate-limiter) |
+| [Poker Straight Sequence Check](../../questions/algorithm/valid-poker-straight/README.md) | Algorithm | Easy | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/valid-poker-straight) |
 | [File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-file-management-system) |
 | [Trie-Based Autocomplete](../../questions/object-oriented-programming/trie-autocomplete/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/trie-autocomplete) |
 | [Treatment Frequency Scheduler](../../questions/object-oriented-programming/ood-treatment-scheduler/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-treatment-scheduler) |

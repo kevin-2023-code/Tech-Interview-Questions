@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 6 |
 | Most common format | [Blog](../formats/blog.md) (70% of 10) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 2 |
-| Free to practise | [9](../free/README.md) |
+| Free to practise | [10](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 10 questions reported at Drw. 10 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

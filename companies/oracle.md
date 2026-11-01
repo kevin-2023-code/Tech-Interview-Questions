@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 25 |
 | Most common format | [Algorithm](../formats/algorithm.md) (58% of 115) |
 | Difficulty (easy / medium / hard) | 19 / 70 / 14 |
-| Free to practise | [32](../free/README.md) |
+| Free to practise | [33](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 115 questions reported at Oracle. 77 of them carry a sighting date; the other 38 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

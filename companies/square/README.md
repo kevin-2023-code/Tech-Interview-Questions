@@ -9,7 +9,7 @@ How Square interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [56](../square.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Jul 21, 2026 |
@@ -20,7 +20,7 @@ No written process guide yet. [The loop, as reported](../square.md#the-loop-as-r
 
 ## Free Square questions
 
-6 questions reported at Square open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Square open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -30,6 +30,7 @@ No written process guide yet. [The loop, as reported](../square.md#the-loop-as-r
 | [Explain an AI-Assisted Engineering Workflow You Can Defend](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-an-ai-assisted-engineering-workflow-you-can-defend) |
 | [Stock Trading Agent System Design](../../questions/system-design/stock-trading-agent-system-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/stock-trading-agent-system-design) |
 | [Design Stock Trading Platform](../../questions/system-design/design-a-stock-order-trade-management-system/README.md) | System Design | Hard | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) |
+| [Implement transaction network queries](../../questions/object-oriented-programming/implement-transaction-network-queries/README.md) | Object Oriented Programming | Hard | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/implement-transaction-network-queries) |
 
 ## Everything else
 

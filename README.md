@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,924 questions** · **255 writeups** · **132 companies** · **1,978 free to practise** · **663 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,924 questions** · **255 writeups** · **132 companies** · **2,056 free to practise** · **663 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -55,9 +55,9 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**1,978 of the 5,924 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**2,056 of the 5,924 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (434)](free/algorithm.md) · [SQL (6)](free/sql.md) · [System Design (40)](free/system-design.md) · [AI Coding (12)](free/ai-coding.md) · [Blog (1,416)](free/blog.md) · [Object Oriented Programming (70)](free/object-oriented-programming.md)
+[Algorithm (483)](free/algorithm.md) · [SQL (11)](free/sql.md) · [System Design (49)](free/system-design.md) · [AI Coding (13)](free/ai-coding.md) · [Blog (1,416)](free/blog.md) · [Object Oriented Programming (84)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->

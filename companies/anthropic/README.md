@@ -9,7 +9,7 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [99](../anthropic.md) |
-| Free to read here | 15 |
+| Free to read here | 16 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
 | Most recent sighting | Sep 17, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Anthropic questions
 
-36 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+37 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -79,6 +79,7 @@ Here's what the interview process can look like:
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
 | [Explain projects and handle AI-safety conflicts](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) |
 | [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/why-anthropic-and-its-values) |
+| [Find duplicate files and apply image operations](../../questions/algorithm/find-duplicate-files-and-apply-image-operations/README.md) | Algorithm | Hard | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/find-duplicate-files-and-apply-image-operations) |
 | [Describe failure impact and resolve cross-functional conflict](https://trueinterview.io/questions/describe-failure-impact-and-resolve-cross-functional-conflict) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/describe-failure-impact-and-resolve-cross-functional-conflict) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
 | [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) |

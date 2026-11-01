@@ -9,7 +9,7 @@ How Tesla interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [52](../tesla.md) |
-| Free to read here | 10 |
+| Free to read here | 11 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 13, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Tesla questions
 
-17 questions reported at Tesla open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+18 questions reported at Tesla open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -62,6 +62,7 @@ Here's what the interview process can look like:
 | [Shortest Bridge](../../questions/algorithm/shortest-bridge-2/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/shortest-bridge-2) |
 | [Explain reliability and runtime fundamentals](https://trueinterview.io/questions/explain-reliability-and-runtime-fundamentals) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-reliability-and-runtime-fundamentals) |
 | [Describe conflict and proudest work](https://trueinterview.io/questions/describe-conflict-and-proudest-work) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-conflict-and-proudest-work) |
+| [First Solar Panel Placement in a Binary Grid](../../questions/algorithm/solar-panel-placement-grid/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/solar-panel-placement-grid) |
 | [Robot Room Navigation Take-Home](../../questions/algorithm/robot-room-navigation-takehome/README.md) | Algorithm | Hard | Take-home | Sep 2025 | [Solve](https://trueinterview.io/questions/robot-room-navigation-takehome) |
 | [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md) | AI Coding | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/dijkstra-code-review-navigation) |
 | [Priority Expiry LRU Cache](../../questions/object-oriented-programming/priority-expire-cache-eviction/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/priority-expire-cache-eviction) |

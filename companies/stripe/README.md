@@ -9,7 +9,7 @@ How Stripe interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [119](../stripe.md) |
-| Free to read here | 6 |
+| Free to read here | 8 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Stripe questions
 
-21 questions reported at Stripe open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+23 questions reported at Stripe open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -64,6 +64,8 @@ Here's what the interview process can look like:
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Evaluate Stripe Capital Lending Strategy](https://trueinterview.io/questions/evaluate-stripe-capital-lending-strategy) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/evaluate-stripe-capital-lending-strategy) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
+| [Http Request Language Preference](../../questions/algorithm/http-request-language-preference/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/http-request-language-preference) |
+| [Worker-Task Matching with Specialties](../../questions/algorithm/worker-task-assignment/README.md) | Algorithm | Hard | Online assessment, Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/worker-task-assignment) |
 | [Resolve conflicts and prioritize with stakeholders](https://trueinterview.io/questions/resolve-conflicts-and-prioritize-with-stakeholders) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/resolve-conflicts-and-prioritize-with-stakeholders) |
 | [Plan an experiment to validate targeting impact](https://trueinterview.io/questions/plan-an-experiment-to-validate-targeting-impact) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/plan-an-experiment-to-validate-targeting-impact) |
 | [Evaluate a new product with experimentation](https://trueinterview.io/questions/evaluate-a-new-product-with-experimentation) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/evaluate-a-new-product-with-experimentation) |

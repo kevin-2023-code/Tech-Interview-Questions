@@ -143,7 +143,7 @@ Here are some questions reported by recent candidates:
 
 - [Design a swipeable video feed backend](https://trueinterview.io/questions/design-a-swipeable-video-feed-backend)
 - [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design)
-- [Design ride-hailing and price alert systems](https://trueinterview.io/questions/design-ride-hailing-and-price-alert-systems)
+- [Design ride-hailing and price alert systems](../../questions/system-design/design-ride-hailing-and-price-alert-systems/README.md)
 - [Design TinyURL](https://trueinterview.io/questions/design-tinyurl)
 
 ## Mobile domain interviews

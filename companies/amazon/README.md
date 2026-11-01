@@ -9,7 +9,7 @@ How Amazon interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [470](../amazon.md) |
-| Free to read here | 53 |
+| Free to read here | 55 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Oct 03, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Amazon questions
 
-170 questions reported at Amazon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+172 questions reported at Amazon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -162,6 +162,7 @@ Here's what the interview process can look like:
 | [Compute an A/B test p-value by hand](https://trueinterview.io/questions/compute-an-a-b-test-p-value-by-hand) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/compute-an-a-b-test-p-value-by-hand) |
 | [Describe failure, conflict, metrics, and AI lessons](https://trueinterview.io/questions/describe-failure-conflict-metrics-and-ai-lessons) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/describe-failure-conflict-metrics-and-ai-lessons) |
 | [Explain core components of reinforcement learning](https://trueinterview.io/questions/explain-core-components-of-reinforcement-learning) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-core-components-of-reinforcement-learning) |
+| [Check if adding edge creates cycle in digraph](../../questions/algorithm/check-if-adding-edge-creates-cycle-in-digraph/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/check-if-adding-edge-creates-cycle-in-digraph) |
 | [Answer common leadership prompts](https://trueinterview.io/questions/answer-common-leadership-prompts) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/answer-common-leadership-prompts) |
 | [Describe a complex problem you solved](https://trueinterview.io/questions/describe-a-complex-problem-you-solved) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/describe-a-complex-problem-you-solved) |
 | [Walk through an A/B test end-to-end](https://trueinterview.io/questions/walk-through-an-a-b-test-end-to-end) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/walk-through-an-a-b-test-end-to-end) |
@@ -219,6 +220,7 @@ Here's what the interview process can look like:
 | [Longest Substring Without Repeating Characters](../../questions/algorithm/longest-substring-without-repeating-characters-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 | [Palindrome Detection](../../questions/algorithm/palindrome-detection/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) |
+| [Concurrent Job Scheduler](../../questions/object-oriented-programming/concurrent-job-scheduler/README.md) | Object Oriented Programming | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/6010f396-e828-4075-a3c9-73203ba748bf) |
 | [Plus One](../../questions/algorithm/plus-one/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/65c03f5a-0fe9-4f02-8d66-d34a3b8193fd) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |

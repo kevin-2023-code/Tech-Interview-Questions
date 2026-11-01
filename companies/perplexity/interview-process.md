@@ -181,7 +181,7 @@ Here are some questions reported by recent candidates:
 - Batch streamed embedding requests under request and token caps without starving small requests.
 
 - [Map-Reduce and Blockwise Attention](https://trueinterview.io/questions/map-reduce-and-blockwise-attention)
-- [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server)
+- [Embedding Model Server](../../questions/object-oriented-programming/embedding-model-server/README.md)
 - [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement)
 
 ## Behavioral and leadership conversation

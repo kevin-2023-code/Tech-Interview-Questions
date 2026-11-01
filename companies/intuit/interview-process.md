@@ -107,7 +107,7 @@ Here are some questions reported by recent candidates:
 - Find the degrees of separation between two businesses in a network, and explain when DFS beats BFS.
 - Fix a buggy Plus One by reading it alone, then run it on edge cases such as all nines.
 
-- [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness)
+- [Customer Scheduler: VIP Priority and 2:1 Fairness](../../questions/object-oriented-programming/customer-scheduler-vip-fairness/README.md)
 - [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation)
 - [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up)
 - [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md)

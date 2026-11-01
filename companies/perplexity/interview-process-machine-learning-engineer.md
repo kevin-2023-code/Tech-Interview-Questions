@@ -134,7 +134,7 @@ Here are some questions reported by recent candidates:
 - Handle a single request larger than the token limit, prevent starvation and shed load when the queue grows.
 - Design a personalized discovery feed with freshness and ranking signals.
 
-- [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server)
+- [Embedding Model Server](../../questions/object-oriented-programming/embedding-model-server/README.md)
 - [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service)
 - [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover)
 - [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2)

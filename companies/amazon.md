@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 88 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 470) |
 | Difficulty (easy / medium / hard) | 59 / 226 / 68 |
-| Free to practise | [170](../free/README.md) |
+| Free to practise | [172](../free/README.md) |
 | Guides & writeups | 5 |
 
 <sub>Counted from the 470 questions reported at Amazon. 277 of them carry a sighting date; the other 193 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

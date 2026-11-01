@@ -2,15 +2,20 @@
 
 # Free SQL questions
 
-**6 SQL questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**11 SQL questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Write SQL to compute max and min marks](https://trueinterview.io/questions/write-sql-to-compute-max-and-min-marks) | **IBM** | Easy | Oct 03, 2025 |
+| [(Hard)](https://trueinterview.io/questions/write-sql-for-tiktok-live-creator-metrics-hard) | **ByteDance** | Medium | Oct 09, 2025 |
 | [Calculate annual percentages and YoY by cohorts](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) | **Cvs Health** | Medium | — |
 | [Compute age-band spend and YoY in Georgia](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) | **Cvs Health** | Medium | — |
 | [Compute daily net users from event logs](https://trueinterview.io/questions/compute-daily-net-users-from-event-logs) | **Tubi** | Medium | — |
+| [Compute percent of first-cancel users who never return](https://trueinterview.io/questions/compute-percent-of-first-cancel-users-who-never-return) | **Pinterest** | Medium | Oct 26, 2025 |
+| [Compute signup rate and retention from raw logs](https://trueinterview.io/questions/compute-signup-rate-and-retention-from-raw-logs) | **OpenAI** | Medium | Oct 04, 2025 |
 | [Compute weekly 3-week rolling sums in SQL](https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql) | **Thumbtack** | Medium | — |
+| [Write SQL for TikTok Live creator metrics](https://trueinterview.io/questions/write-sql-for-tiktok-live-creator-metrics) | **ByteDance** | Medium | Oct 09, 2025 |
 | [Compute DAU and rolling MAU with zero days](https://trueinterview.io/questions/compute-dau-and-rolling-mau-with-zero-days) | **Glean** | Hard | Nov 10, 2025 |
 | [Compute Moderation View Metrics](https://trueinterview.io/questions/compute-moderation-view-metrics) | **Airwallex** | Hard | Nov 14, 2025 |

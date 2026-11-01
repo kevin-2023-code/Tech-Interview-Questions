@@ -9,7 +9,7 @@ How Optiver interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [35](../optiver.md) |
-| Free to read here | 5 |
+| Free to read here | 6 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Jun 15, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Optiver questions
 
-17 questions reported at Optiver open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+18 questions reported at Optiver open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -66,6 +66,7 @@ Here's what the interview process can look like:
 | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/zap-n-reaction-games) |
 | [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/questions/coding-knowledge-test) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/coding-knowledge-test) |
 | [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/questions/qr-technical-brainteasers) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/qr-technical-brainteasers) |
+| [Design Squirrel Nut Tracker](../../questions/object-oriented-programming/squirrel-nut-storage/README.md) | Object Oriented Programming | Medium | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/squirrel-nut-storage) |
 | [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md) | Object Oriented Programming | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/balloon-festival-simulation) |
 | [Currency Arbitrage Detection](../../questions/algorithm/currency-arbitrage-detection/README.md) | Algorithm | Hard | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/currency-arbitrage-detection) |
 | [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game) | Blog | — | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/market-making-interval-game) |

@@ -2,7 +2,7 @@
 
 # Free AI Coding questions
 
-**12 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**13 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -12,6 +12,7 @@
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | Medium | 🆕 Oct 01, 2026 |
 | [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | **Apple / Microsoft / Waymo** | Medium | Mar 25, 2026 |
 | [BERT Span / Keyphrase Extraction](https://trueinterview.io/questions/bert-keyphrase-span-extraction) | **Figma** | Medium | Dec 24, 2024 |
+| [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging) | **Akuna Capital** | Medium | Oct 05, 2025 |
 | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | **Tesla** | Medium | Aug 23, 2025 |
 | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | **Hudson River Trading** | Medium | — |
 | [Implement APIs in a Flask Application](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) | **Verkada** | Medium | — |

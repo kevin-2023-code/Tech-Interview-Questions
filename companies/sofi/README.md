@@ -9,7 +9,7 @@ How SoFi interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [37](../sofi.md) |
-| Free to read here | 5 |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jul 04, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free SoFi questions
 
-12 questions reported at SoFi open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at SoFi open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -57,6 +57,8 @@ Here's what the interview process can look like:
 | [Demonstrate project impact and teach something](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Explain benefits of a lockfile](https://trueinterview.io/questions/explain-benefits-of-a-lockfile) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-benefits-of-a-lockfile) |
+| [Rooms with Two Incoming Edges to Treasure](../../questions/algorithm/rooms-with-two-incoming-edges-to-treasure/README.md) | Algorithm | Easy | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure) |
+| [Star Rating Component](../../questions/object-oriented-programming/star-rating-component/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/star-rating-component) |
 | [Describe Project and Collaboration Stories](https://trueinterview.io/questions/describe-project-and-collaboration-stories) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/describe-project-and-collaboration-stories) |
 | [Anagram Sentence Substitutions](../../questions/algorithm/anagram-sentence-substitutions/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/anagram-sentence-substitutions) |
 | [Key-Value Store with getLast](../../questions/object-oriented-programming/key-value-store-with-getlast/README.md) | Object Oriented Programming | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/key-value-store-with-getlast) |

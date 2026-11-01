@@ -9,7 +9,7 @@ How Meta interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [489](../meta.md) |
-| Free to read here | 50 |
+| Free to read here | 54 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Meta questions
 
-198 questions reported at Meta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+202 questions reported at Meta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -138,9 +138,13 @@ Here's what the interview process can look like:
 | [Design measurement to detect fake accounts](https://trueinterview.io/questions/design-measurement-to-detect-fake-accounts) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/design-measurement-to-detect-fake-accounts) |
 | [Which clustering algorithm would you use and why](https://trueinterview.io/questions/which-clustering-algorithm-would-you-use-and-why) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/which-clustering-algorithm-would-you-use-and-why) |
 | [Compute probabilities for chatbot response quality](https://trueinterview.io/questions/compute-probabilities-for-chatbot-response-quality) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/compute-probabilities-for-chatbot-response-quality) |
+| [Design ticketing and coding practice platforms](../../questions/system-design/design-ticketing-and-coding-practice-platforms/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-ticketing-and-coding-practice-platforms) |
+| [How would you evaluate upranking Shop ads?](../../questions/system-design/how-would-you-evaluate-upranking-shop-ads-2/README.md) | System Design | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-evaluate-upranking-shop-ads-2) |
+| [How would you design Shop-ad ranking?](../../questions/system-design/how-would-you-design-shop-ad-ranking/README.md) | System Design | Hard | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-would-you-design-shop-ad-ranking) |
 | [Design an A/B test for a new shop-ads algorithm](https://trueinterview.io/questions/design-an-a-b-test-for-a-new-shop-ads-algorithm) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-a-b-test-for-a-new-shop-ads-algorithm) |
 | [Evaluate emoji reactions launch](https://trueinterview.io/questions/evaluate-emoji-reactions-launch) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/evaluate-emoji-reactions-launch) |
 | [Answer common behavioral prompts](https://trueinterview.io/questions/answer-common-behavioral-prompts-2) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/answer-common-behavioral-prompts-2) |
+| [Compute interval mode, BST range sum, exclusive time](../../questions/algorithm/compute-interval-mode-bst-range-sum-exclusive-time/README.md) | Algorithm | Hard | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/compute-interval-mode-bst-range-sum-exclusive-time) |
 | [Answer conflict, ambiguity, feedback, difficult coworker prompts](https://trueinterview.io/questions/answer-conflict-ambiguity-feedback-difficult-coworker-prompts) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/answer-conflict-ambiguity-feedback-difficult-coworker-prompts) |
 | [Verifying an Alien Dictionary](../../questions/algorithm/verifying-an-alien-dictionary/README.md) | Algorithm | Easy | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/verifying-an-alien-dictionary) |
 | [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |

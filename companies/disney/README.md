@@ -9,7 +9,7 @@ How Disney interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [47](../disney.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Oct 08, 2026 |
@@ -20,7 +20,7 @@ No written process guide yet. [The loop, as reported](../disney.md#the-loop-as-r
 
 ## Free Disney questions
 
-15 questions reported at Disney open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+16 questions reported at Disney open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -33,6 +33,7 @@ No written process guide yet. [The loop, as reported](../disney.md#the-loop-as-r
 | [How would you run a mentoring-focused code review?](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/how-would-you-run-a-mentoring-focused-code-review) |
 | [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) |
 | [Build Naive Bayes spam classifier with F1](../../questions/algorithm/build-naive-bayes-spam-classifier-with-f1/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) |
+| [Convert an Integer to Binary](../../questions/algorithm/integer-to-binary-hackerrank/README.md) | Algorithm | Easy | Online assessment, Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/integer-to-binary-hackerrank) |
 | [Reverse Behavioral: Traits You Would Hire For as a Manager](https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit) |
 | [Getting Productive Fast in a Large Unfamiliar Codebase](https://trueinterview.io/questions/ramping-on-unfamiliar-codebase) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/ramping-on-unfamiliar-codebase) |
 | [How Java Reclaims Memory: Generations, Collectors and Roots](https://trueinterview.io/questions/java-garbage-collection) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/java-garbage-collection) |

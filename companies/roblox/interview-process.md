@@ -112,7 +112,7 @@ Here are some questions reported by recent candidates:
 - From function start and end logs, find the most frequent call path, then report it separately for each thread.
 
 - [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md)
-- [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893)
+- [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](../../questions/algorithm/rate-limit-by-multiple-request-fields-per-field-multi-dimensional/README.md)
 - [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering)
 - [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md)
 - [Highest Earning Experience Tracker](https://trueinterview.io/questions/highest-earning-experience-tracker)

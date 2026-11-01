@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (39% of 87) |
 | Difficulty (easy / medium / hard) | 9 / 44 / 15 |
-| Free to practise | [34](../free/README.md) |
+| Free to practise | [35](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 87 questions reported at Snapchat. 61 of them carry a sighting date; the other 26 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

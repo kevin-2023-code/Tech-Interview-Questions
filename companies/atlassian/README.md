@@ -9,7 +9,7 @@ How Atlassian interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [63](../atlassian.md) |
-| Free to read here | 17 |
+| Free to read here | 21 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Atlassian questions
 
-20 questions reported at Atlassian open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+24 questions reported at Atlassian open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -62,7 +62,11 @@ Here's what the interview process can look like:
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
 | [Org Tree Lowest Common Department](../../questions/object-oriented-programming/org-tree-lowest-common-department/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [Subscription Billing Statement](../../questions/algorithm/subscription-billing-statement/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/subscription-billing-statement) |
 | [Snake Game](../../questions/object-oriented-programming/snake-game/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/snake-game) |
+| [Hopscotch](../../questions/algorithm/hopscotch/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/hopscotch) |
+| [Find Anagram in String](../../questions/algorithm/find-anagram-in-string/README.md) | Algorithm | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/find-anagram-in-string) |
+| [F1 Last Lap Improvement](../../questions/algorithm/f1-last-lap-improvement/README.md) | Algorithm | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/f1-last-lap-improvement) |
 | [Commodity Price Checkpoints](../../questions/object-oriented-programming/commodity-price-checkpoints/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/commodity-price-checkpoints) |
 | [Minimize Shopping Department Visits](../../questions/algorithm/shopping-category-trip-difference/README.md) | Algorithm | Easy | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/shopping-category-trip-difference) |
 | [Campground Carpool](../../questions/algorithm/karat-carpool-linear-routes/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/karat-carpool-linear-routes) |

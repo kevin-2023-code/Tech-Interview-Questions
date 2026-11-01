@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 17 |
 | Most common format | [Algorithm](../formats/algorithm.md) (37% of 489) |
 | Difficulty (easy / medium / hard) | 45 / 205 / 91 |
-| Free to practise | [198](../free/README.md) |
+| Free to practise | [202](../free/README.md) |
 | Guides & writeups | 6 |
 
 <sub>Counted from the 489 questions reported at Meta. 231 of them carry a sighting date; the other 258 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
