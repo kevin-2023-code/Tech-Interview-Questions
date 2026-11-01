@@ -256,7 +256,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | System Design | 🆕 Sep 17, 2026 |
 | **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Algorithm | 🆕 Sep 17, 2026 |
 | **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | 🆕 Sep 17, 2026 |
-| **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | Blog | 🆕 Sep 16, 2026 |
+| **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | Blog | Sep 16, 2026 |
 <!-- gen:latest:end -->
 
 <sub>The newest slice, not the bank — use the navigation above for the rest. Every question

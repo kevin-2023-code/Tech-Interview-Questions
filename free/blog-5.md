@@ -175,7 +175,7 @@
 | [Model y from x and interpret distributions](https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions) | **Reddit** | — | Feb 12, 2026 |
 | [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | **xAI** | — | Jun 19, 2026 |
 | [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/questions/motivation-ambiguity-collaboration-screen) | **ByteDance** | — | Aug 25, 2026 |
-| [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | **Amazon** | — | 🆕 Sep 16, 2026 |
+| [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | **Amazon** | — | Sep 16, 2026 |
 | [Narrow a confidence interval for a mean](https://trueinterview.io/questions/narrow-a-confidence-interval-for-a-mean) | **Google** | — | — |
 | [Navigate a Senior Engineering HR Interview](https://trueinterview.io/questions/navigate-a-senior-engineering-hr-interview) | **Pinduoduo** | — | Apr 12, 2026 |
 | [Navigate an ambiguous take-home assessment](https://trueinterview.io/questions/navigate-an-ambiguous-take-home-assessment) | **Stripe** | — | — |

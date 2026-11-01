@@ -27,9 +27,9 @@
 | **LinkedIn** | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | — | 🆕 Sep 17, 2026 |
 | **LinkedIn** | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | — | 🆕 Sep 17, 2026 |
 | **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | — | 🆕 Sep 17, 2026 |
-| **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | — | 🆕 Sep 16, 2026 |
-| **Amazon** | [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | — | 🆕 Sep 16, 2026 |
-| **Indeed** | [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) | — | 🆕 Sep 16, 2026 |
+| **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | — | Sep 16, 2026 |
+| **Amazon** | [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | — | Sep 16, 2026 |
+| **Indeed** | [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) | — | Sep 16, 2026 |
 | **Stripe** | [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | — | Sep 15, 2026 |
 | **Tradedesk** | [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | — | Sep 15, 2026 |
 | **Together AI** | [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | — | Sep 15, 2026 |

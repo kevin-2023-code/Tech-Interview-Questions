@@ -158,8 +158,8 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Describe a Deep Debugging Investigation](https://trueinterview.io/questions/describe-a-deep-debugging-investigation) | Blog | — | 🆕 Sep 20, 2026 |
 | [Extensible File Search](https://trueinterview.io/questions/file-search-by-size-and-suffix) | Object Oriented Programming | Medium | 🆕 Sep 18, 2026 |
 | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | System Design | Hard | 🆕 Sep 18, 2026 |
-| [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | Blog | — | 🆕 Sep 16, 2026 |
-| [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | Blog | — | 🆕 Sep 16, 2026 |
+| [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | Blog | — | Sep 16, 2026 |
+| [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | Blog | — | Sep 16, 2026 |
 | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | Blog | — | Sep 14, 2026 |
 | [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/questions/solve-a-problem-outside-your-assigned-responsibilities) | Blog | — | Sep 14, 2026 |
 | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Algorithm | Medium | Sep 14, 2026 |

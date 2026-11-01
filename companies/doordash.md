@@ -133,7 +133,7 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | System Design | Medium | 🆕 Sep 16, 2026 |
+| [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | System Design | Medium | Sep 16, 2026 |
 | [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | Algorithm | Hard | Sep 10, 2026 |
 | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | System Design | Medium | Sep 10, 2026 |
 | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | System Design | Medium | Sep 10, 2026 |

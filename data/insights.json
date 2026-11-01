@@ -22,7 +22,7 @@
       "dated": 277,
       "free": 170,
       "guides": 5,
-      "inLastYear": 269,
+      "inLastYear": 267,
       "inWindow": 88,
       "lastSighting": "2026-10-03",
       "name": "Amazon",
@@ -113,7 +113,7 @@
       "dated": 110,
       "free": 31,
       "guides": 7,
-      "inLastYear": 101,
+      "inLastYear": 100,
       "inWindow": 23,
       "lastSighting": "2026-10-04",
       "name": "OpenAI",
@@ -464,7 +464,7 @@
       "dated": 43,
       "free": 17,
       "guides": 3,
-      "inLastYear": 34,
+      "inLastYear": 33,
       "inWindow": 9,
       "lastSighting": "2026-09-13",
       "name": "Tesla",
@@ -659,7 +659,7 @@
       "dated": 23,
       "free": 12,
       "guides": 1,
-      "inLastYear": 18,
+      "inLastYear": 17,
       "inWindow": 0,
       "lastSighting": "2026-07-04",
       "name": "SoFi",
@@ -1796,7 +1796,7 @@
       "questions": 662
     }
   ],
-  "generated": "2026-10-31",
+  "generated": "2026-11-01",
   "latestSighting": "2026-10-14",
   "months": [
     {
@@ -3309,7 +3309,7 @@
     "futureDated": 0,
     "gradedDifficulty": 4508,
     "guides": 255,
-    "inLastYear": 3115,
+    "inLastYear": 3110,
     "inWindow": 663,
     "labelledTopic": 2636,
     "namingARound": 5924,

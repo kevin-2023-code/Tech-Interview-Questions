@@ -137,10 +137,10 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | **LinkedIn** | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | — | 🆕 Sep 17, 2026 |
 | **LinkedIn** | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | — | 🆕 Sep 17, 2026 |
 | **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | 🆕 Sep 17, 2026 |
-| **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | — | 🆕 Sep 16, 2026 |
-| **Amazon** | [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | — | 🆕 Sep 16, 2026 |
-| **Google** | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Medium | 🆕 Sep 16, 2026 |
-| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | 🆕 Sep 16, 2026 |
+| **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | — | Sep 16, 2026 |
+| **Amazon** | [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | — | Sep 16, 2026 |
+| **Google** | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Medium | Sep 16, 2026 |
+| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | Sep 16, 2026 |
 | **ByteDance** | [Design a Monitoring Dashboard with Explicit Latency Goals](https://trueinterview.io/questions/design-a-monitoring-dashboard-with-explicit-latency-goals) | Medium | Sep 15, 2026 |
 | **Salesforce** | [Hiring Manager + Behavioral Rounds](https://trueinterview.io/questions/hm-and-bq-rounds) | — | Sep 15, 2026 |
 | **AMD** | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | — | Sep 14, 2026 |

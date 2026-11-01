@@ -103,9 +103,9 @@ Of the **558 questions in this cut that carry a topic label** (45% of it):
 | **Amazon** | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | Hard | 🆕 Sep 18, 2026 |
 | **Instacart** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | — | 🆕 Sep 18, 2026 |
 | **Instacart** | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Medium | 🆕 Sep 18, 2026 |
-| **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | — | 🆕 Sep 16, 2026 |
-| **Amazon** | [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | — | 🆕 Sep 16, 2026 |
-| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | 🆕 Sep 16, 2026 |
+| **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | — | Sep 16, 2026 |
+| **Amazon** | [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | — | Sep 16, 2026 |
+| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | Sep 16, 2026 |
 | **Amazon** | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | — | Sep 14, 2026 |
 | **Amazon** | [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/questions/solve-a-problem-outside-your-assigned-responsibilities) | — | Sep 14, 2026 |
 | **Amazon** | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Medium | Sep 14, 2026 |

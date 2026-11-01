@@ -75,5 +75,5 @@ The 2 questions to open first if you are preparing for Indeed, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) | Blog | — | 🆕 Sep 16, 2026 |
+| [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) | Blog | — | Sep 16, 2026 |
 | [Redesign a Spam Classifier for Production](https://trueinterview.io/questions/redesign-a-spam-classifier-for-production) | System Design | Hard | Aug 20, 2026 |

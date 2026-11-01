@@ -150,7 +150,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | 🆕 Sep 29, 2026 |
 | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Object Oriented Programming | Medium | 🆕 Sep 28, 2026 |
 | [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Object Oriented Programming | Medium | 🆕 Sep 18, 2026 |
-| [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Algorithm | Medium | 🆕 Sep 16, 2026 |
+| [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Algorithm | Medium | Sep 16, 2026 |
 | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | Sep 10, 2026 |
 | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Algorithm | Medium | Sep 10, 2026 |
 | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | Sep 09, 2026 |

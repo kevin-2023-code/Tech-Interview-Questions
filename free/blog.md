@@ -119,7 +119,7 @@
 | [Answer tough self-awareness and team questions](https://trueinterview.io/questions/answer-tough-self-awareness-and-team-questions) | **Axon** | — | Feb 08, 2026 |
 | [Answer why SWE and why Optiver](https://trueinterview.io/questions/answer-why-swe-and-why-optiver) | **Optiver** | — | Dec 05, 2025 |
 | [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/questions/asm-phone-screen-deep-dive-bq) | **Amazon** | — | Jul 07, 2026 |
-| [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | **Amazon** | — | 🆕 Sep 16, 2026 |
+| [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | **Amazon** | — | Sep 16, 2026 |
 | [Apply Bayes' rule to compute posterior](https://trueinterview.io/questions/apply-bayes-rule-to-compute-posterior) | **Roblox** | — | Nov 24, 2025 |
 | [Apply Double ML with text-address features](https://trueinterview.io/questions/apply-double-ml-with-text-address-features) | **Amazon** | — | — |
 | [Apply instrumental variables under interference](https://trueinterview.io/questions/apply-instrumental-variables-under-interference) | **Uber** | — | — |
@@ -217,7 +217,7 @@
 | [Communicate technical impact under skeptical stakeholders](https://trueinterview.io/questions/communicate-technical-impact-under-skeptical-stakeholders) | **ByteDance** | — | — |
 | [Communicate trade-offs and influence launch](https://trueinterview.io/questions/communicate-trade-offs-and-influence-launch) | **Meta** | — | — |
 | [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability) | **Lyft** | — | May 30, 2026 |
-| [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) | **Indeed** | — | 🆕 Sep 16, 2026 |
+| [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) | **Indeed** | — | Sep 16, 2026 |
 | [Compare arrays, linked lists, hash tables, trees](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees) | **NVIDIA** | — | Feb 06, 2026 |
 | [Compare audio preprocessing and training](https://trueinterview.io/questions/compare-audio-preprocessing-and-training) | **Apple** | — | Feb 15, 2026 |
 | [Compare average profit across mix scenarios](https://trueinterview.io/questions/compare-average-profit-across-mix-scenarios) | **Capital One** | — | — |

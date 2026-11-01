@@ -60,8 +60,8 @@
 | **Ziphq** | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Hard | 🆕 Sep 17, 2026 |
 | **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Medium | 🆕 Sep 17, 2026 |
 | **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | 🆕 Sep 17, 2026 |
-| **Google** | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Medium | 🆕 Sep 16, 2026 |
-| **Capital One** | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Medium | 🆕 Sep 16, 2026 |
+| **Google** | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Medium | Sep 16, 2026 |
+| **Capital One** | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Medium | Sep 16, 2026 |
 | **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Medium | Sep 15, 2026 |
 | **xAI** | [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Medium | Sep 15, 2026 |
 | **xAI** | [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Medium | Sep 15, 2026 |

@@ -132,7 +132,7 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | :-- | :-- | :-: | :-- |
 | [Number-Line Block Placement](https://trueinterview.io/questions/number-line-block-placement) | Algorithm | Hard | 🆕 Oct 02, 2026 |
 | [Matrix Pattern Matching](https://trueinterview.io/questions/matrix-pattern-matching) | Algorithm | Medium | 🆕 Oct 02, 2026 |
-| [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Algorithm | Medium | 🆕 Sep 16, 2026 |
+| [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Algorithm | Medium | Sep 16, 2026 |
 | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Algorithm | Medium | Sep 07, 2026 |
 | [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Blog | — | Aug 28, 2026 |
 | [Explain How AI Supports Your Engineering Work](https://trueinterview.io/questions/explain-how-ai-supports-your-engineering-work) | Blog | — | Aug 23, 2026 |
