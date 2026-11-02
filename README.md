@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,924 questions** · **255 writeups** · **132 companies** · **2,056 free to practise** · **663 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,924 questions** · **255 writeups** · **132 companies** · **2,056 free to practise** · **662 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,7 +42,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 663 sightings at 86 companies — Algorithm 216 · SQL 15 · System Design 144 · AI Coding 5 · Blog 208 · Object Oriented Programming 75.
+**Last 90 days:** 662 sightings at 86 companies — Algorithm 216 · SQL 15 · System Design 144 · AI Coding 5 · Blog 208 · Object Oriented Programming 74.
 
 **Reported most:** [Amazon (88)](companies/amazon.md) · [ByteDance (43)](companies/bytedance.md) · [Google (40)](companies/google.md) · [Microsoft (36)](companies/microsoft.md) · [Oracle (25)](companies/oracle.md) · [LinkedIn (23)](companies/linkedin.md) · [OpenAI (23)](companies/openai.md) · [DoorDash (21)](companies/doordash.md)
 
@@ -237,25 +237,25 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Instacart** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Blog | 🆕 Sep 18, 2026 |
 | **Houzz** | [Convert a Column Number to an Excel-Style Label](https://trueinterview.io/questions/convert-a-column-number-to-an-excel-style-label) | Algorithm | 🆕 Sep 18, 2026 |
 | **Instacart** | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Algorithm | 🆕 Sep 18, 2026 |
-| **Citadel** | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Blog | 🆕 Sep 17, 2026 |
-| **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | System Design | 🆕 Sep 17, 2026 |
-| **Meta** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | Blog | 🆕 Sep 17, 2026 |
-| **NVIDIA** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | 🆕 Sep 17, 2026 |
-| **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | 🆕 Sep 17, 2026 |
-| **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | System Design | 🆕 Sep 17, 2026 |
-| **Meta** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | Blog | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | Blog | 🆕 Sep 17, 2026 |
-| **Sig** | [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | Algorithm | 🆕 Sep 17, 2026 |
-| **OpenAI** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | 🆕 Sep 17, 2026 |
-| **Sig** | [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | Algorithm | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | Blog | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | System Design | 🆕 Sep 17, 2026 |
-| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Object Oriented Programming | 🆕 Sep 17, 2026 |
-| **Ziphq** | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Algorithm | 🆕 Sep 17, 2026 |
-| **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | 🆕 Sep 17, 2026 |
-| **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | System Design | 🆕 Sep 17, 2026 |
-| **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Algorithm | 🆕 Sep 17, 2026 |
-| **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | 🆕 Sep 17, 2026 |
+| **Citadel** | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Blog | Sep 17, 2026 |
+| **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | System Design | Sep 17, 2026 |
+| **Meta** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | Blog | Sep 17, 2026 |
+| **NVIDIA** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | Sep 17, 2026 |
+| **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | Sep 17, 2026 |
+| **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | System Design | Sep 17, 2026 |
+| **Meta** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | Blog | Sep 17, 2026 |
+| **LinkedIn** | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | Blog | Sep 17, 2026 |
+| **Sig** | [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | Algorithm | Sep 17, 2026 |
+| **OpenAI** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Sep 17, 2026 |
+| **Sig** | [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | Algorithm | Sep 17, 2026 |
+| **LinkedIn** | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | Blog | Sep 17, 2026 |
+| **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | System Design | Sep 17, 2026 |
+| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Object Oriented Programming | Sep 17, 2026 |
+| **Ziphq** | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Algorithm | Sep 17, 2026 |
+| **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | Sep 17, 2026 |
+| **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | System Design | Sep 17, 2026 |
+| **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Algorithm | Sep 17, 2026 |
+| **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Sep 17, 2026 |
 | **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | Blog | Sep 16, 2026 |
 <!-- gen:latest:end -->
 

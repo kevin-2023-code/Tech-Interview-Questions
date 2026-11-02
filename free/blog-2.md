@@ -73,7 +73,7 @@
 | [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/questions/f63e89db-acce-46ac-9ee8-4b85820078e0) | **Capital One** | — | — |
 | [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) | **Disney** | — | 🆕 Oct 08, 2026 |
 | [Data Engineering Experience Screen](https://trueinterview.io/questions/data-engineering-experience-screen) | **ByteDance** | — | Aug 31, 2026 |
-| [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | **Meta** | — | 🆕 Sep 17, 2026 |
+| [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | **Meta** | — | Sep 17, 2026 |
 | [Data-Center Camera Access Incident Response](https://trueinterview.io/questions/data-center-camera-access-incident-response) | **Oracle** | — | Aug 11, 2026 |
 | [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | **Tradedesk** | — | Sep 15, 2026 |
 | [Debug missing output in Python async HTTP flow](https://trueinterview.io/questions/debug-missing-output-in-python-async-http-flow) | **Millennium** | — | Oct 24, 2025 |
@@ -105,7 +105,7 @@
 | [Define engagement metrics and analyze comment distribution](https://trueinterview.io/questions/define-engagement-metrics-and-analyze-comment-distribution) | **Meta** | — | Dec 06, 2025 |
 | [Define market-only rider experience metrics](https://trueinterview.io/questions/define-market-only-rider-experience-metrics) | **Uber** | — | — |
 | [Define Marketplace Success Metrics and Investigate Their Movement](https://trueinterview.io/questions/define-marketplace-success-metrics-and-investigate-their-movement) | **Whatnot** | — | Mar 30, 2026 |
-| [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | **LinkedIn** | — | 🆕 Sep 17, 2026 |
+| [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | **LinkedIn** | — | Sep 17, 2026 |
 | [Define QKV for recommender cross-attention](https://trueinterview.io/questions/define-qkv-for-recommender-cross-attention) | **ByteDance** | — | — |
 | [Define success metrics and guardrails for B2B chat](https://trueinterview.io/questions/define-success-metrics-and-guardrails-for-b2b-chat) | **Meta** | — | — |
 | [Define success metrics for Instant Book](https://trueinterview.io/questions/define-success-metrics-for-instant-book) | **Thumbtack** | — | — |

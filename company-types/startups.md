@@ -58,7 +58,7 @@ Of the **10 questions in this cut that carry a topic label** (67% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | 🆕 Sep 17, 2026 |
+| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | Sep 17, 2026 |
 | **ByteDance / Bobyard** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Medium | Aug 13, 2026 |
 | **Bobyard** | [Implement comment sorting and nesting](https://trueinterview.io/questions/implement-comment-sorting-and-nesting) | Medium | Apr 09, 2026 |
 | **Bobyard** | [How do you debug slowness and bugs?](https://trueinterview.io/questions/how-do-you-debug-slowness-and-bugs) | — | Apr 09, 2026 |

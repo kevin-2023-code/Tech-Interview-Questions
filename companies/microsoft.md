@@ -146,7 +146,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | System Design | Medium | 🆕 Sep 29, 2026 |
 | [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Algorithm | Medium | 🆕 Sep 29, 2026 |
-| [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | System Design | Hard | 🆕 Sep 17, 2026 |
+| [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | System Design | Hard | Sep 17, 2026 |
 | [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | Blog | — | Sep 10, 2026 |
 | [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | System Design | Medium | Sep 10, 2026 |
 | [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | Blog | — | Sep 10, 2026 |

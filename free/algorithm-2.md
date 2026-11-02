@@ -185,7 +185,7 @@
 | [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) | **Mistral AI** | Hard | Apr 16, 2026 |
 | [Connect-N on an Infinite Board with Gravity](https://trueinterview.io/questions/connect-n-on-an-infinite-board-with-gravity) | **Jane Street** | Hard | Dec 26, 2025 |
 | [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | **Render** | Hard | Feb 26, 2026 |
-| [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | **Sig** | Hard | 🆕 Sep 17, 2026 |
+| [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | **Sig** | Hard | Sep 17, 2026 |
 | [Counting Subsequence with Same Character Frequency](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c) | **Expedia** | Hard | — |
 | [Currency Arbitrage Detection](https://trueinterview.io/questions/currency-arbitrage-detection) | **Optiver** | Hard | Aug 26, 2025 |
 | [Detect cycles and break them in pod dependencies](https://trueinterview.io/questions/detect-cycles-and-break-them-in-pod-dependencies) | **Together AI** | Hard | Feb 12, 2026 |
@@ -197,7 +197,7 @@
 | [Find Maximum Path Sum in N-ary Tree](https://trueinterview.io/questions/find-maximum-path-sum-in-n-ary-tree) | **Nuro** | Hard | Jan 30, 2026 |
 | [Find minimum operations to make array sorted](https://trueinterview.io/questions/find-minimum-operations-to-make-array-sorted) | **IBM** | Hard | Oct 03, 2025 |
 | [Find shortest path on infinite grid](https://trueinterview.io/questions/find-shortest-path-on-infinite-grid) | **Ziphq** | Hard | Mar 11, 2026 |
-| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | **Ziphq** | Hard | 🆕 Sep 17, 2026 |
+| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | **Ziphq** | Hard | Sep 17, 2026 |
 | [Find the Safest Path in a Grid](https://trueinterview.io/questions/4a705b25-2a46-4581-866f-381bfd794dab) | **Intuit** | Hard | — |
 | [Finding Optimal Camp Location](https://trueinterview.io/questions/9cea9ab2-6484-4533-b59d-0020053aee3d) | **Applied Intuition** | Hard | — |
 | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) | **Voleon** | Hard | — |
@@ -225,7 +225,7 @@
 | [Regular Expression Matching](https://trueinterview.io/questions/51bf6d96-d5c2-52fa-94f7-cb0720d02904) | **Amazon** | Hard | — |
 | [Robot Path Planning](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-robot-path-planning) | **Drw** | Hard | Oct 08, 2025 |
 | [Robot Room Navigation Take-Home](https://trueinterview.io/questions/robot-room-navigation-takehome) | **Tesla** | Hard | Sep 24, 2025 |
-| [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | **Sig** | Hard | 🆕 Sep 17, 2026 |
+| [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | **Sig** | Hard | Sep 17, 2026 |
 | [Schedule tasks with cooldown](https://trueinterview.io/questions/solve-three-scheduling-and-array-problems-schedule-tasks-with-cooldown) | **Microsoft** | Hard | Oct 28, 2025 |
 | [Shortest Substring Covering All Characters of a Pattern](https://trueinterview.io/questions/minimum-window-substring-4) | **C3.ai** | Hard | — |
 | [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](https://trueinterview.io/questions/15eeeb4d-047a-5c82-b3f2-0fe0eb40fe1c) | **Chicago Trading** | Hard | — |

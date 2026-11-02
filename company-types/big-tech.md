@@ -129,14 +129,14 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | **Amazon** | [Extensible File Search](https://trueinterview.io/questions/file-search-by-size-and-suffix) | Medium | 🆕 Sep 18, 2026 |
 | **Google** | [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Medium | 🆕 Sep 18, 2026 |
 | **Amazon** | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | Hard | 🆕 Sep 18, 2026 |
-| **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | Hard | 🆕 Sep 17, 2026 |
-| **Meta** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | — | 🆕 Sep 17, 2026 |
-| **NVIDIA** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | — | 🆕 Sep 17, 2026 |
-| **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | — | 🆕 Sep 17, 2026 |
-| **Meta** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | — | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | — | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | — | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | 🆕 Sep 17, 2026 |
+| **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | Hard | Sep 17, 2026 |
+| **Meta** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | — | Sep 17, 2026 |
+| **NVIDIA** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | — | Sep 17, 2026 |
+| **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | — | Sep 17, 2026 |
+| **Meta** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | — | Sep 17, 2026 |
+| **LinkedIn** | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | — | Sep 17, 2026 |
+| **LinkedIn** | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | — | Sep 17, 2026 |
+| **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | Sep 17, 2026 |
 | **Amazon** | [Music Recommendation and CTR Modeling](https://trueinterview.io/questions/music-recommendation-ctr-modeling-orals) | — | Sep 16, 2026 |
 | **Amazon** | [Applied Scientist / MLE Project Deep Dive](https://trueinterview.io/questions/applied-scientist-project-deep-dive) | — | Sep 16, 2026 |
 | **Google** | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Medium | Sep 16, 2026 |

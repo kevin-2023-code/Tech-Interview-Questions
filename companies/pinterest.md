@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **128** |
 | Most recent sighting | Sep 23, 2026 |
-| Reported in the last 90 days | 10 |
+| Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (45% of 128) |
 | Difficulty (easy / medium / hard) | 11 / 73 / 23 |
 | Free to practise | [34](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **128 of 128** questions at Pintere
 
 ## Asked here in the last 90 days
 
-**10 sightings** in this window. Newest first.
+**9 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -51,7 +51,6 @@ Which stage each question came from, for the **128 of 128** questions at Pintere
 | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Object Oriented Programming | Hard | Onsite / virtual onsite | Aug 28, 2026 |
 | [Minimum Transfers Between Pin Boards](https://trueinterview.io/questions/minimum-transfers-between-pin-boards) | Algorithm | Hard | Onsite / virtual onsite | Aug 26, 2026 |
 | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Algorithm | Hard | Phone screen | Aug 26, 2026 |
-| [Experiment Bucket Allocation / Rebalancing](https://trueinterview.io/questions/experiment-bucket-allocation-rebalancing) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 03, 2026 |
 
 ## What they ask about
 

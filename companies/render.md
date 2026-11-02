@@ -82,5 +82,5 @@ The 2 questions to open first if you are preparing for Render, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Object Oriented Programming | Medium | 🆕 Sep 17, 2026 |
+| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Object Oriented Programming | Medium | Sep 17, 2026 |
 | [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | Algorithm | Hard | Feb 26, 2026 |

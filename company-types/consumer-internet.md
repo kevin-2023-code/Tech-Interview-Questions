@@ -48,7 +48,7 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**143 sightings** across this cut. Newest first.
+**142 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Google | Algorithm | Sep 29, 2026 |
 | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Google | Algorithm | Sep 29, 2026 |
 
-<sub>131 more in this window are in the table below.</sub>
+<sub>130 more in this window are in the table below.</sub>
 
 ---
 
@@ -98,11 +98,11 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 | **Netflix** | [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | — | 🆕 Sep 23, 2026 |
 | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | 🆕 Sep 23, 2026 |
 | **Google** | [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Medium | 🆕 Sep 18, 2026 |
-| **Meta** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | — | 🆕 Sep 17, 2026 |
-| **Meta** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | — | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | — | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | — | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | 🆕 Sep 17, 2026 |
+| **Meta** | [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | — | Sep 17, 2026 |
+| **Meta** | [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | — | Sep 17, 2026 |
+| **LinkedIn** | [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | — | Sep 17, 2026 |
+| **LinkedIn** | [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | — | Sep 17, 2026 |
+| **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | Sep 17, 2026 |
 | **Google** | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Medium | Sep 16, 2026 |
 | **ByteDance** | [Design a Monitoring Dashboard with Explicit Latency Goals](https://trueinterview.io/questions/design-a-monitoring-dashboard-with-explicit-latency-goals) | Medium | Sep 15, 2026 |
 | **LinkedIn** | [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | — | Sep 12, 2026 |

@@ -40,7 +40,7 @@
 | [Reflect on interview takeaways and adaptation](https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation) | **NVIDIA** | — | — |
 | [Relate coefficients under linear feature transformation](https://trueinterview.io/questions/relate-coefficients-under-linear-feature-transformation-2) | **Databricks** | — | Oct 14, 2025 |
 | [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/questions/deepmind-rs-paper-presentation-defense) | **Google** | — | Aug 13, 2026 |
-| [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | **NVIDIA** | — | 🆕 Sep 17, 2026 |
+| [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | **NVIDIA** | — | Sep 17, 2026 |
 | [Resolve a Mismatch Between Regression and Classification Metrics](https://trueinterview.io/questions/resolve-a-mismatch-between-regression-and-classification-metrics) | **Capital One** | — | Aug 20, 2026 |
 | [Resolve a Workplace Conflict](https://trueinterview.io/questions/resolve-a-workplace-conflict) | **DoorDash** | — | Sep 01, 2026 |
 | [Resolve conflict across teams](https://trueinterview.io/questions/resolve-conflict-across-teams) | **Harvey** | — | Feb 18, 2026 |
@@ -73,7 +73,7 @@
 | [Sample uniformly from a circle’s area](https://trueinterview.io/questions/sample-uniformly-from-a-circle-s-area) | **LinkedIn** | — | Feb 18, 2026 |
 | [Science Application (Ambiguous Problem)](https://trueinterview.io/questions/science-application-ambiguous-problem) | **Amazon** | — | Apr 29, 2026 |
 | [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design) | **Uber** | — | Jan 13, 2026 |
-| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | **Citadel** | — | 🆕 Sep 17, 2026 |
+| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | **Citadel** | — | Sep 17, 2026 |
 | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | **Amazon** | — | 🆕 Sep 23, 2026 |
 | [Sealed-Bid Auction for a Box of 200 Coin Flips (and an Informed Opponent)](https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent) | **Jane Street** | — | Oct 10, 2025 |
 | [Segment 500k users into three groups](https://trueinterview.io/questions/segment-500k-users-into-three-groups) | **Capital One** | — | — |

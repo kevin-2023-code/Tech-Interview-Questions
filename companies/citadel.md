@@ -134,7 +134,7 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | Hard | 🆕 Sep 27, 2026 |
 | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Algorithm | Medium | 🆕 Sep 18, 2026 |
 | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Object Oriented Programming | Hard | 🆕 Sep 18, 2026 |
-| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Blog | — | 🆕 Sep 17, 2026 |
+| [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Blog | — | Sep 17, 2026 |
 | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | Medium | Sep 08, 2026 |
 | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | System Design | Medium | Sep 03, 2026 |
 | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | System Design | Hard | Aug 29, 2026 |

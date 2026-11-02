@@ -172,7 +172,7 @@
 | [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | **Mercor** | — | Sep 03, 2026 |
 | [Find the Probability That Two Uniform Variables Have Product Above One-Half](https://trueinterview.io/questions/find-the-probability-that-two-uniform-variables-have-product-above-one-half) | **Squarepoint** | — | Sep 09, 2026 |
 | [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) | **Sig** | — | Aug 16, 2026 |
-| [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | **Cisco** | — | 🆕 Sep 17, 2026 |
+| [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | **Cisco** | — | Sep 17, 2026 |
 | [Formulate hypotheses and compute AB test significance](https://trueinterview.io/questions/formulate-hypotheses-and-compute-ab-test-significance) | **Uber** | — | — |
 | [Formulate hypotheses and metrics for video-pin ramp](https://trueinterview.io/questions/formulate-hypotheses-and-metrics-for-video-pin-ramp) | **Upstart** | — | — |
 | [Formulate OR model to reduce driver backtracking](https://trueinterview.io/questions/formulate-or-model-to-reduce-driver-backtracking) | **Uber** | — | — |

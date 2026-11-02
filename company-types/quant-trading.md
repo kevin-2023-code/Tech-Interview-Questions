@@ -81,7 +81,7 @@ Of the **198 questions in this cut that carry a topic label** (53% of it):
 | **Citadel** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Hard | 🆕 Sep 27, 2026 |
 | **Citadel** | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Medium | 🆕 Sep 18, 2026 |
 | **Citadel** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Hard | 🆕 Sep 18, 2026 |
-| **Citadel** | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | — | 🆕 Sep 17, 2026 |
+| **Citadel** | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | — | Sep 17, 2026 |
 | **Voleon** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | — | Sep 14, 2026 |
 | **Drw** | [Expected Winnings in a Random-Walk Money Collection Game on 45 Stones](https://trueinterview.io/questions/expected-winnings-in-a-random-walk-money-collection-game-on-45-stones) | — | Sep 13, 2026 |
 | **Drw** | [Expected Rounds Until a Shopping-Cart Line Empties Under Random Transfers](https://trueinterview.io/questions/expected-rounds-until-a-shopping-cart-line-empties-under-random-transfers) | — | Sep 13, 2026 |

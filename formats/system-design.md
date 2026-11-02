@@ -20,10 +20,10 @@
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | Medium | 🆕 Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🆕 Sep 20, 2026 |
 | **Amazon** | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | Hard | 🆕 Sep 18, 2026 |
-| **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | Hard | 🆕 Sep 17, 2026 |
-| **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | Medium | 🆕 Sep 17, 2026 |
-| **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | 🆕 Sep 17, 2026 |
-| **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Medium | 🆕 Sep 17, 2026 |
+| **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | Hard | Sep 17, 2026 |
+| **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | Medium | Sep 17, 2026 |
+| **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | Sep 17, 2026 |
+| **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Medium | Sep 17, 2026 |
 | **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | Sep 16, 2026 |
 | **Tradedesk** | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | Medium | Sep 15, 2026 |
 | **ByteDance** | [Design a Monitoring Dashboard with Explicit Latency Goals](https://trueinterview.io/questions/design-a-monitoring-dashboard-with-explicit-latency-goals) | Medium | Sep 15, 2026 |

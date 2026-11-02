@@ -112,7 +112,7 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | — | 🆕 Sep 17, 2026 |
+| [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | — | Sep 17, 2026 |
 | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Jun 16, 2026 |
 | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | May 22, 2026 |
 | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Nov 18, 2025 |

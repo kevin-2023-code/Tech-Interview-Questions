@@ -81,8 +81,8 @@ Of the **234 questions in this cut that carry a topic label** (46% of it):
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
 | **Stripe** | [Request Routing System](https://trueinterview.io/questions/request-routing-system) | Medium | 🆕 Sep 30, 2026 |
 | **Ramp** | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Hard | 🆕 Sep 18, 2026 |
-| **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | Medium | 🆕 Sep 17, 2026 |
-| **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Medium | 🆕 Sep 17, 2026 |
+| **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | Medium | Sep 17, 2026 |
+| **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Medium | Sep 17, 2026 |
 | **Stripe** | [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | — | Sep 15, 2026 |
 | **Robinhood** | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates) | Medium | Sep 15, 2026 |
 | **Upstart** | [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Easy | Sep 12, 2026 |

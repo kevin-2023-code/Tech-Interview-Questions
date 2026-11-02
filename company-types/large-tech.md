@@ -48,7 +48,7 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**174 sightings** across this cut. Newest first.
+**173 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | OpenAI, Airbnb … | System Design | Sep 23, 2026 |
 | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Pinterest | Blog | Sep 23, 2026 |
 
-<sub>162 more in this window are in the table below.</sub>
+<sub>161 more in this window are in the table below.</sub>
 
 ---
 
@@ -94,12 +94,12 @@ Of the **754 questions in this cut that carry a topic label** (44% of it):
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | 🆕 Sep 18, 2026 |
 | **Instacart** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | — | 🆕 Sep 18, 2026 |
 | **Instacart** | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Medium | 🆕 Sep 18, 2026 |
-| **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | Medium | 🆕 Sep 17, 2026 |
-| **OpenAI** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Medium | 🆕 Sep 17, 2026 |
-| **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | — | 🆕 Sep 17, 2026 |
-| **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Medium | 🆕 Sep 17, 2026 |
-| **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Medium | 🆕 Sep 17, 2026 |
-| **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | 🆕 Sep 17, 2026 |
+| **Robinhood** | [Find the Top Ten Words When a Book Exceeds Memory](https://trueinterview.io/questions/find-the-top-ten-words-when-a-book-exceeds-memory) | Medium | Sep 17, 2026 |
+| **OpenAI** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Medium | Sep 17, 2026 |
+| **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | — | Sep 17, 2026 |
+| **Robinhood** | [Design a Task Scheduler](https://trueinterview.io/questions/design-a-task-scheduler) | Medium | Sep 17, 2026 |
+| **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Medium | Sep 17, 2026 |
+| **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | Sep 17, 2026 |
 | **Stripe** | [Recruiter Behavioral Screen](https://trueinterview.io/questions/recruiter-behavioral-screen) | — | Sep 15, 2026 |
 | **Tradedesk** | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Hard | Sep 15, 2026 |
 | **Tradedesk** | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | Medium | Sep 15, 2026 |

@@ -29,10 +29,10 @@
 | [Uber](../companies/uber.md) | 11 | 266 | Sep 29, 2026 | ██ |
 | [AMD](../companies/amd.md) | 10 | 10 | Sep 14, 2026 | ██ |
 | [Instacart](../companies/instacart.md) | 10 | 65 | Sep 18, 2026 | ██ |
-| [Pinterest](../companies/pinterest.md) | 10 | 128 | Sep 23, 2026 | ██ |
 | [Rippling](../companies/rippling.md) | 10 | 58 | Sep 18, 2026 | ██ |
 | [Capital One](../companies/capital-one.md) | 9 | 213 | Oct 02, 2026 | ██ |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 9 | 68 | Sep 13, 2026 | ██ |
+| [Pinterest](../companies/pinterest.md) | 9 | 128 | Sep 23, 2026 | ██ |
 | [Salesforce](../companies/salesforce.md) | 9 | 100 | Sep 15, 2026 | ██ |
 | [Sig](../companies/sig.md) | 9 | 9 | Sep 17, 2026 | ██ |
 
@@ -52,7 +52,7 @@
 | [DoorDash](../companies/doordash.md) | 151 | 3 | 50 | 21 | Sep 16, 2026 | Algorithm | `arrays` |
 | [Snowflake](../companies/snowflake.md) | 147 | 1 | 54 | 14 | Oct 01, 2026 | Algorithm | `graphs` |
 | [LinkedIn](../companies/linkedin.md) | 145 | 4 | 40 | 23 | Oct 01, 2026 | Algorithm | `hashing` |
-| [Pinterest](../companies/pinterest.md) | 128 | 3 | 34 | 10 | Sep 23, 2026 | Algorithm | `hashing` |
+| [Pinterest](../companies/pinterest.md) | 128 | 3 | 34 | 9 | Sep 23, 2026 | Algorithm | `hashing` |
 | [Stripe](../companies/stripe.md) | 119 | 1 | 23 | 16 | Oct 04, 2026 | Algorithm | `strings` |
 | [Oracle](../companies/oracle.md) | 115 | 1 | 33 | 25 | Sep 28, 2026 | Algorithm | `hashing` |
 | [Airbnb](../companies/airbnb.md) | 112 | 3 | 21 | 18 | Oct 14, 2026 | Algorithm | `hashing` |

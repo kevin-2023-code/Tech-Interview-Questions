@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**5,924 tracked questions** across **132 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 14, 2026. Windows below are measured against **Nov 01, 2026**, and everything on this page is recomputed hourly.
+**5,924 tracked questions** across **132 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 14, 2026. Windows below are measured against **Nov 02, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,7 +10,7 @@
 
 ## The last 90 days
 
-**663 sightings** recorded between Aug 03, 2026 → Nov 01, 2026 — 19% of the 3,431 questions in the bank that carry a sighting date at all.
+**662 sightings** recorded between Aug 04, 2026 → Nov 02, 2026 — 19% of the 3,431 questions in the bank that carry a sighting date at all.
 
 ### By format
 
@@ -21,7 +21,7 @@
 | [System Design](../formats/system-design.md) | 144 | 22% | ███████████ |
 | [AI Coding](../formats/ai-coding.md) | 5 | 1% | █ |
 | [Blog](../formats/blog.md) | 208 | 31% | ███████████████ |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 75 | 11% | ██████ |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 74 | 11% | █████ |
 
 ### Where
 
@@ -43,7 +43,7 @@
 | [Anthropic](../companies/anthropic.md) | 12 | ██ |
 | [Citadel](../companies/citadel.md) | 12 | ██ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 663 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 662 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -56,7 +56,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 | [System Design](../formats/system-design.md) | 758 | 13% | 144 | 41 | 391 | 326 | 758 | 49 |
 | [AI Coding](../formats/ai-coding.md) | 134 | 2% | 5 | 10 | 87 | 37 | 134 | 13 |
 | [Blog](../formats/blog.md) | 1,416 | 24% | 208 | 0 | 0 | 0 | 0 | 1,416 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 662 | 11% | 75 | 60 | 516 | 86 | 662 | 84 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 662 | 11% | 74 | 60 | 516 | 86 | 662 | 84 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
 

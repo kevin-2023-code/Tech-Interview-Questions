@@ -75,7 +75,7 @@ Of the **24 questions in this cut that carry a topic label** (38% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **NVIDIA** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | — | 🆕 Sep 17, 2026 |
+| **NVIDIA** | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | — | Sep 17, 2026 |
 | **AMD** | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | — | Sep 14, 2026 |
 | **AMD** | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | Hard | Sep 14, 2026 |
 | **AMD** | [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | — | Sep 14, 2026 |

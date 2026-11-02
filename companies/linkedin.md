@@ -137,9 +137,9 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | :-- | :-- | :-: | :-- |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | Blog | — | 🆕 Sep 28, 2026 |
-| [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | Blog | — | 🆕 Sep 17, 2026 |
-| [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | Blog | — | 🆕 Sep 17, 2026 |
-| [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | System Design | Hard | 🆕 Sep 17, 2026 |
+| [Define Project Success, Handle Direction Changes, and Apply Feedback](https://trueinterview.io/questions/define-project-success-handle-direction-changes-and-apply-feedback) | Blog | — | Sep 17, 2026 |
+| [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | Blog | — | Sep 17, 2026 |
+| [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | System Design | Hard | Sep 17, 2026 |
 | [Explain a Difficult Technical Decision and Its Implementation](https://trueinterview.io/questions/explain-a-difficult-technical-decision-and-its-implementation) | Blog | — | Sep 12, 2026 |
 | [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives) | System Design | Hard | Sep 09, 2026 |
 | [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | Object Oriented Programming | Hard | Sep 06, 2026 |

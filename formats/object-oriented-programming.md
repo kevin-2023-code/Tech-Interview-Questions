@@ -25,7 +25,7 @@
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | 🆕 Sep 18, 2026 |
 | **Google** | [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Medium | 🆕 Sep 18, 2026 |
 | **Citadel** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Hard | 🆕 Sep 18, 2026 |
-| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | 🆕 Sep 17, 2026 |
+| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | Sep 17, 2026 |
 | **Tradedesk** | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Hard | Sep 15, 2026 |
 | **Tradedesk** | [Implement a Publish-Subscribe Event Bus in JavaScript or TypeScript](https://trueinterview.io/questions/implement-a-publish-subscribe-event-bus-in-javascript-or-typescript) | Medium | Sep 15, 2026 |
 | **Robinhood** | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates) | Medium | Sep 15, 2026 |

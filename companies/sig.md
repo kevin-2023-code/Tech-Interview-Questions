@@ -96,8 +96,8 @@ The 8 questions to open first if you are preparing for Sig, ranked by **the most
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | Algorithm | Hard | 🆕 Sep 17, 2026 |
-| [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | Algorithm | Hard | 🆕 Sep 17, 2026 |
+| [Rotate a Square Matrix Clockwise While Both Diagonals Stay Fixed](https://trueinterview.io/questions/rotate-a-square-matrix-clockwise-while-both-diagonals-stay-fixed) | Algorithm | Hard | Sep 17, 2026 |
+| [Count Equal-Difference Triples After Each Add or Remove-All Operation](https://trueinterview.io/questions/count-equal-difference-triples-after-each-add-or-remove-all-operation) | Algorithm | Hard | Sep 17, 2026 |
 | [Find the Probability Two Muffins Are Sufficient](https://trueinterview.io/questions/find-the-probability-two-muffins-are-sufficient) | Blog | — | Aug 16, 2026 |
 | [Find the Expected Number of Consecutive Chosen Pairs](https://trueinterview.io/questions/find-the-expected-number-of-consecutive-chosen-pairs) | Blog | — | Aug 16, 2026 |
 | [Find a Green Triangle's Weight in a Balanced Mobile](https://trueinterview.io/questions/find-a-green-triangles-weight-in-a-balanced-mobile) | Blog | — | Aug 16, 2026 |

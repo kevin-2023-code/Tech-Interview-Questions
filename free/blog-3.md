@@ -91,7 +91,7 @@
 | [Diagnose a failing campaign](https://trueinterview.io/questions/diagnose-a-failing-campaign) | **Cvs Health** | — | — |
 | [Diagnose a metric drop in search time](https://trueinterview.io/questions/diagnose-a-metric-drop-in-search-time) | **Google** | — | — |
 | [Diagnose a non-significant experiment outcome](https://trueinterview.io/questions/diagnose-a-non-significant-experiment-outcome) | **Meta** | — | — |
-| [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | **Meta** | — | 🆕 Sep 17, 2026 |
+| [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | **Meta** | — | Sep 17, 2026 |
 | [Diagnose a sudden KPI drop and validate causes](https://trueinterview.io/questions/diagnose-a-sudden-kpi-drop-and-validate-causes) | **Meta** | — | — |
 | [Diagnose a sudden metric spike or drop](https://trueinterview.io/questions/diagnose-a-sudden-metric-spike-or-drop) | **ByteDance** | — | — |
 | [Diagnose and decide on watch-time drop](https://trueinterview.io/questions/diagnose-and-decide-on-watch-time-drop) | **Disney** | — | — |
@@ -236,11 +236,11 @@
 | [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive) | **Atlassian** | — | Sep 03, 2026 |
 | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/questions/explain-a-project-that-could-not-meet-a-tight-deadline) | **Amazon** | — | 🆕 Sep 20, 2026 |
 | [Explain a project to non-technical stakeholders](https://trueinterview.io/questions/explain-a-project-to-non-technical-stakeholders) | **Imc** | — | Nov 03, 2025 |
-| [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | **LinkedIn** | — | 🆕 Sep 17, 2026 |
+| [Explain a Project with a Diagram and Deep Dive into Your Design](https://trueinterview.io/questions/explain-a-project-with-a-diagram-and-deep-dive-into-your-design) | **LinkedIn** | — | Sep 17, 2026 |
 | [Explain a project with measurable impact](https://trueinterview.io/questions/explain-a-project-with-measurable-impact) | **Dropbox** | — | — |
 | [Explain a Project's Most Complex Technical Component in Depth](https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth) | **DoorDash** | — | Sep 05, 2026 |
 | [Explain a promotion and key project impact](https://trueinterview.io/questions/explain-a-promotion-and-key-project-impact) | **ByteDance** | — | Feb 28, 2026 |
-| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | **Snowflake** | — | 🆕 Sep 17, 2026 |
+| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | **Snowflake** | — | Sep 17, 2026 |
 | [Explain ACID and isolation levels](https://trueinterview.io/questions/explain-acid-and-isolation-levels) | **Meta** | — | — |
 | [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | **Mistral AI** | — | Sep 01, 2026 |
 | [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks) | **Anthropic** | — | Aug 19, 2026 |

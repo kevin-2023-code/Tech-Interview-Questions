@@ -75,7 +75,7 @@ Of the **134 questions in this cut that carry a topic label** (60% of it):
 | :-- | :-- | :-: | :-- |
 | **Apple** | [Plant Infection Spread: Days Until Stable](https://trueinterview.io/questions/plant-infection-spread-days-to-stabilize) | Medium | 🆕 Oct 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
-| **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | — | 🆕 Sep 17, 2026 |
+| **Cisco** | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | — | Sep 17, 2026 |
 | **Apple** | [Forecast Storage Demand Across 100 Data Centers](https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers) | Hard | Sep 11, 2026 |
 | **Apple** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | — | Sep 09, 2026 |
 | **Apple** | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Medium | Aug 26, 2026 |

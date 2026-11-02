@@ -92,7 +92,7 @@ Of the **385 questions in this cut that carry a topic label** (53% of it):
 | **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Medium | 🆕 Sep 25, 2026 |
 | **Oracle** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | — | 🆕 Sep 19, 2026 |
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | 🆕 Sep 18, 2026 |
-| **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | Hard | 🆕 Sep 17, 2026 |
+| **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | Hard | Sep 17, 2026 |
 | **Tradedesk** | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Hard | Sep 15, 2026 |
 | **Tradedesk** | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | Medium | Sep 15, 2026 |
 | **Tradedesk** | [Implement a Publish-Subscribe Event Bus in JavaScript or TypeScript](https://trueinterview.io/questions/implement-a-publish-subscribe-event-bus-in-javascript-or-typescript) | Medium | Sep 15, 2026 |

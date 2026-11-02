@@ -75,7 +75,7 @@
 | [Multi-Threaded Chat System](https://trueinterview.io/questions/multi-threaded-chat-system) | **Databricks** | Medium | Oct 24, 2025 |
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | **Atlassian** | Medium | Feb 15, 2026 |
 | [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | **Tesla** | Medium | Aug 19, 2025 |
-| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | **Render** | Medium | 🆕 Sep 17, 2026 |
+| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | **Render** | Medium | Sep 17, 2026 |
 | [Report Chain](https://trueinterview.io/questions/report-chain) | **Reddit** | Medium | Feb 17, 2026 |
 | [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | **Optiver** | Medium | Aug 05, 2025 |
 | [Sparse Matrix Left- and Right-Multiply Vector](https://trueinterview.io/questions/sparse-matrix-vector-multiply) | **Waymo** | Medium | Sep 29, 2025 |

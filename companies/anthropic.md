@@ -133,7 +133,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | 🆕 Sep 17, 2026 |
+| [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Sep 17, 2026 |
 | [Respond to a Hypothetical Loss of Employer Equity Value](https://trueinterview.io/questions/respond-to-a-hypothetical-loss-of-employer-equity-value) | Blog | — | Sep 12, 2026 |
 | [Compare Threads and Processes for Image Processing](https://trueinterview.io/questions/compare-threads-and-processes-for-image-processing) | Blog | — | Sep 12, 2026 |
 | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | System Design | Hard | Sep 08, 2026 |

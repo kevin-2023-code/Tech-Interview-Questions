@@ -143,8 +143,8 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | :-- | :-- | :-: | :-- |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | 🆕 Sep 23, 2026 |
-| [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | Blog | — | 🆕 Sep 17, 2026 |
-| [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | Blog | — | 🆕 Sep 17, 2026 |
+| [Data Engineering Leadership — Impact and Mentorship](https://trueinterview.io/questions/de-leadership-impact-and-mentorship) | Blog | — | Sep 17, 2026 |
+| [Diagnose a Single-Server Crash with Concrete Linux Evidence](https://trueinterview.io/questions/diagnose-a-single-server-crash-with-concrete-linux-evidence) | Blog | — | Sep 17, 2026 |
 | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | System Design | Hard | Sep 04, 2026 |
 | [Design Friend Recommendations for a Large Friendship Graph](https://trueinterview.io/questions/design-friend-recommendations-for-a-large-friendship-graph) | System Design | Medium | Sep 04, 2026 |
 | [Design and Evaluate a Solver for a 36-Card Sum-Fifteen Game](https://trueinterview.io/questions/design-and-evaluate-a-solver-for-a-36-card-sum-fifteen-game) | Object Oriented Programming | Medium | Sep 04, 2026 |

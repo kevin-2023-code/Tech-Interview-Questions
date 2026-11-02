@@ -120,7 +120,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | — | 🆕 Sep 17, 2026 |
+| [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | — | Sep 17, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | Aug 21, 2026 |
 | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Object Oriented Programming | Hard | Aug 19, 2026 |
 | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | System Design | Hard | Aug 19, 2026 |

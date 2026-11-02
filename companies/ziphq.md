@@ -94,7 +94,7 @@ The 6 questions to open first if you are preparing for Ziphq, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Algorithm | Hard | 🆕 Sep 17, 2026 |
+| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Algorithm | Hard | Sep 17, 2026 |
 | [Track Repeated Approval Alerts and Safely Update Alert Levels](https://trueinterview.io/questions/track-repeated-approval-alerts-and-safely-update-alert-levels) | Object Oriented Programming | Hard | Sep 05, 2026 |
 | [Find shortest path on infinite grid](https://trueinterview.io/questions/find-shortest-path-on-infinite-grid) | Algorithm | Hard | Mar 11, 2026 |
 | [Implement a Vending Machine](https://trueinterview.io/questions/implement-a-vending-machine) | Object Oriented Programming | Medium | Jan 28, 2026 |

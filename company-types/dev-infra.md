@@ -79,10 +79,10 @@ Of the **172 questions in this cut that carry a topic label** (57% of it):
 | :-- | :-- | :-: | :-- |
 | **Snowflake** | [Tiered Rate Limiting Service](https://trueinterview.io/questions/tiered-rate-limiting-service) | Medium | 🆕 Oct 01, 2026 |
 | **Snowflake** | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Medium | 🆕 Sep 29, 2026 |
-| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | 🆕 Sep 17, 2026 |
-| **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | — | 🆕 Sep 17, 2026 |
-| **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Medium | 🆕 Sep 17, 2026 |
-| **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | 🆕 Sep 17, 2026 |
+| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | Sep 17, 2026 |
+| **Snowflake** | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | — | Sep 17, 2026 |
+| **Snowflake** | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Medium | Sep 17, 2026 |
+| **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | Sep 17, 2026 |
 | **Databricks** | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | Medium | Sep 15, 2026 |
 | **ByteDance / Databricks / Roblox** | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Medium | Sep 10, 2026 |
 | **Databricks** | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Medium | Sep 06, 2026 |

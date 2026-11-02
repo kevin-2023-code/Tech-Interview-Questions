@@ -133,9 +133,9 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | :-- | :-- | :-: | :-- |
 | [Tiered Rate Limiting Service](https://trueinterview.io/questions/tiered-rate-limiting-service) | Object Oriented Programming | Medium | 🆕 Oct 01, 2026 |
 | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Algorithm | Medium | 🆕 Sep 29, 2026 |
-| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | — | 🆕 Sep 17, 2026 |
-| [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Algorithm | Medium | 🆕 Sep 17, 2026 |
-| [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | 🆕 Sep 17, 2026 |
+| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | — | Sep 17, 2026 |
+| [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Algorithm | Medium | Sep 17, 2026 |
+| [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Sep 17, 2026 |
 | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Algorithm | Medium | Sep 05, 2026 |
 | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Algorithm | Hard | Sep 05, 2026 |
 | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Algorithm | Hard | Sep 03, 2026 |
