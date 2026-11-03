@@ -14,7 +14,7 @@
 | :-- | :-- |
 | Questions tracked | **19** |
 | Most recent sighting | Aug 04, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Blog](../formats/blog.md) (47% of 19) |
 | Difficulty (easy / medium / hard) | 3 / 3 / 4 |
 | Free to practise | [12](../free/README.md) |
@@ -36,11 +36,7 @@ Which stage each question came from, for the **19 of 19** questions at Boston Co
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 04, 2026 |
+**Nothing has been reported at Boston Consulting Group since Aug 04, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

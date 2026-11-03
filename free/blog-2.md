@@ -77,7 +77,7 @@
 | [Data-Center Camera Access Incident Response](https://trueinterview.io/questions/data-center-camera-access-incident-response) | **Oracle** | — | Aug 11, 2026 |
 | [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | **Tradedesk** | — | Sep 15, 2026 |
 | [Debug missing output in Python async HTTP flow](https://trueinterview.io/questions/debug-missing-output-in-python-async-http-flow) | **Millennium** | — | Oct 24, 2025 |
-| [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | **Instacart** | — | 🆕 Sep 18, 2026 |
+| [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | **Instacart** | — | Sep 18, 2026 |
 | [Decide and experiment on Group Call feature](https://trueinterview.io/questions/decide-and-experiment-on-group-call-feature) | **Meta** | — | — |
 | [Decide and justify product metrics amid trade-offs](https://trueinterview.io/questions/decide-and-justify-product-metrics-amid-trade-offs) | **Snowflake** | — | — |
 | [Decide and test Groupon program incrementality](https://trueinterview.io/questions/decide-and-test-groupon-program-incrementality) | **Capital One** | — | — |

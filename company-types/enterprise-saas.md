@@ -48,7 +48,7 @@ Of the **385 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**103 sightings** across this cut. Newest first.
+**101 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **385 questions in this cut that carry a topic label** (53% of it):
 | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Oracle | System Design | Sep 28, 2026 |
 | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Oracle | Object Oriented Programming | Sep 25, 2026 |
 
-<sub>91 more in this window are in the table below.</sub>
+<sub>89 more in this window are in the table below.</sub>
 
 ---
 
@@ -91,7 +91,7 @@ Of the **385 questions in this cut that carry a topic label** (53% of it):
 | **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Medium | 🆕 Sep 25, 2026 |
 | **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Medium | 🆕 Sep 25, 2026 |
 | **Oracle** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | — | 🆕 Sep 19, 2026 |
-| **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | 🆕 Sep 18, 2026 |
+| **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | Sep 18, 2026 |
 | **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | Hard | Sep 17, 2026 |
 | **Tradedesk** | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Hard | Sep 15, 2026 |
 | **Tradedesk** | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | Medium | Sep 15, 2026 |

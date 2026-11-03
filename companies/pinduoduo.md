@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **27** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 6 |
+| Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (74% of 27) |
 | Difficulty (easy / medium / hard) | 5 / 11 / 5 |
 | Free to practise | [17](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **27 of 27** questions at Pinduoduo
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,7 +47,6 @@ Which stage each question came from, for the **27 of 27** questions at Pinduoduo
 | [Count Longest Substrings After Character Replacements](https://trueinterview.io/questions/count-longest-substrings-after-character-replacements) | Algorithm | Medium | Phone screen | Aug 22, 2026 |
 | [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) | Blog | — | Phone screen | Aug 22, 2026 |
 | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
-| [Project Deep Dive & Behavioral](https://trueinterview.io/questions/project-deep-dive-and-bq-2) | Blog | — | Phone screen, Onsite / virtual onsite | Aug 04, 2026 |
 
 ## What they ask about
 

@@ -79,7 +79,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 100 | 1 | 9 | Sep 15, 2026 | 21 |
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 99 | 6 | 12 | Sep 17, 2026 | 37 |
 | [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 98 | 1 | 12 | Oct 01, 2026 | 25 |
-| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 95 | 1 | 2 | Oct 01, 2026 | 34 |
+| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 95 | 1 | 1 | Oct 01, 2026 | 34 |
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 89 | 3 | 7 | Sep 15, 2026 | 28 |
 | [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 87 | 4 | 1 | Aug 27, 2026 | 24 |
 | [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 87 | 3 | 7 | Sep 09, 2026 | 35 |
@@ -117,11 +117,11 @@ The sector and size of an employer are facts about the company rather than about
 | [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 33 | 1 | 2 | Sep 04, 2026 | 6 |
 | [Confluent](confluent.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 30 | 1 | 0 | Apr 29, 2026 | 4 |
 | [Applied Intuition](applied-intuition.md) | Autonomy, automotive & mobility | 29 | 1 | 1 | Aug 30, 2026 | 8 |
-| [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 29 | 1 | 8 | Aug 25, 2026 | 11 |
+| [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 29 | 1 | 6 | Aug 25, 2026 | 11 |
 | [Datadog](datadog.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 28 | 1 | 1 | Aug 17, 2026 | 7 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 28 | 1 | 0 | Jun 23, 2026 | 12 |
 | [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 27 | 1 | 1 | Sep 17, 2026 | 19 |
-| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 27 | 1 | 6 | Oct 01, 2026 | 17 |
+| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 27 | 1 | 5 | Oct 01, 2026 | 17 |
 | [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 25 | 3 | 2 | Sep 01, 2026 | 8 |
 | [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 23 | 1 | 5 | Sep 15, 2026 | 6 |
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 22 | 1 | 0 | May 01, 2026 | 8 |
@@ -130,7 +130,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Yelp](yelp.md) | Consumer internet & media · 1,000–9,999 people | 22 | — | 3 | Aug 27, 2026 | 14 |
 | [Dropbox](dropbox.md) | Enterprise & business software · 1,000–9,999 people | 21 | 1 | 0 | Jan 25, 2026 | 8 |
 | [Cvs Health](cvs-health.md) | — | 20 | — | 0 | Oct 17, 2025 | 12 |
-| [Boston Consulting Group](boston-consulting-group.md) | — | 19 | — | 1 | Aug 04, 2026 | 12 |
+| [Boston Consulting Group](boston-consulting-group.md) | — | 19 | — | 0 | Aug 04, 2026 | 12 |
 | [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 19 | 1 | — | — | 6 |
 | [Whatnot](whatnot.md) | E-commerce & marketplaces · 200–999 people | 19 | — | 0 | Jun 12, 2026 | 6 |
 | [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 18 | — | 3 | Aug 12, 2026 | 3 |

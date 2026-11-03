@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**5,924 tracked questions** across **132 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 14, 2026. Windows below are measured against **Nov 02, 2026**, and everything on this page is recomputed hourly.
+**5,924 tracked questions** across **132 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 14, 2026. Windows below are measured against **Nov 03, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,18 +10,18 @@
 
 ## The last 90 days
 
-**662 sightings** recorded between Aug 04, 2026 → Nov 02, 2026 — 19% of the 3,431 questions in the bank that carry a sighting date at all.
+**659 sightings** recorded between Aug 05, 2026 → Nov 03, 2026 — 19% of the 3,431 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 216 | 33% | ████████████████ |
+| [Algorithm](../formats/algorithm.md) | 215 | 33% | ████████████████ |
 | [SQL](../formats/sql.md) | 15 | 2% | █ |
-| [System Design](../formats/system-design.md) | 144 | 22% | ███████████ |
+| [System Design](../formats/system-design.md) | 143 | 22% | ███████████ |
 | [AI Coding](../formats/ai-coding.md) | 5 | 1% | █ |
-| [Blog](../formats/blog.md) | 208 | 31% | ███████████████ |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 74 | 11% | █████ |
+| [Blog](../formats/blog.md) | 207 | 31% | ███████████████ |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 74 | 11% | ██████ |
 
 ### Where
 
@@ -43,7 +43,7 @@
 | [Anthropic](../companies/anthropic.md) | 12 | ██ |
 | [Citadel](../companies/citadel.md) | 12 | ██ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 662 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 659 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -51,11 +51,11 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,653 | 45% | 216 | 477 | 1,626 | 550 | 2,653 | 483 |
+| [Algorithm](../formats/algorithm.md) | 2,653 | 45% | 215 | 477 | 1,626 | 550 | 2,653 | 483 |
 | [SQL](../formats/sql.md) | 301 | 5% | 15 | 60 | 186 | 55 | 301 | 11 |
-| [System Design](../formats/system-design.md) | 758 | 13% | 144 | 41 | 391 | 326 | 758 | 49 |
+| [System Design](../formats/system-design.md) | 758 | 13% | 143 | 41 | 391 | 326 | 758 | 49 |
 | [AI Coding](../formats/ai-coding.md) | 134 | 2% | 5 | 10 | 87 | 37 | 134 | 13 |
-| [Blog](../formats/blog.md) | 1,416 | 24% | 208 | 0 | 0 | 0 | 0 | 1,416 |
+| [Blog](../formats/blog.md) | 1,416 | 24% | 207 | 0 | 0 | 0 | 0 | 1,416 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 662 | 11% | 74 | 60 | 516 | 86 | 662 | 84 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
@@ -94,14 +94,14 @@ Of the **2,636 questions that carry a topic label** (44% of the bank — the res
 | `hashing` | 489 | 19% | 50 | ████████████████ |
 | `arrays` | 423 | 16% | 44 | ██████████████ |
 | `graphs` | 403 | 15% | 44 | █████████████ |
-| `strings` | 379 | 14% | 35 | ████████████ |
+| `strings` | 379 | 14% | 34 | ████████████ |
 | `greedy` | 220 | 8% | 16 | ███████ |
 | `math` | 211 | 8% | 19 | ███████ |
 | `sorting` | 206 | 8% | 18 | ███████ |
 | `dynamic-programming` | 204 | 8% | 12 | ███████ |
 | `trees` | 193 | 7% | 25 | ██████ |
 | `matrix` | 167 | 6% | 24 | █████ |
-| `backtracking` | 149 | 6% | 19 | █████ |
+| `backtracking` | 149 | 6% | 18 | █████ |
 | `binary-search` | 135 | 5% | 9 | ████ |
 
 [**Every topic, with difficulty mix and who asks it →**](topics.md)
