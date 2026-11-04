@@ -9,7 +9,7 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [115](../oracle.md) |
-| Free to read here | 21 |
+| Free to read here | 22 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 28, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Oracle questions
 
-33 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+34 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -60,6 +60,7 @@ Here's what the interview process can look like:
 | [Demonstrate Leadership and Ownership](https://trueinterview.io/questions/demonstrate-leadership-and-ownership) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/demonstrate-leadership-and-ownership) |
 | [Communicate a Difficult Decision to Stakeholders](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) |
 | [Data-Center Camera Access Incident Response](https://trueinterview.io/questions/data-center-camera-access-incident-response) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/data-center-camera-access-incident-response) |
+| [Insert Interval (LC 57)](../../questions/algorithm/insert-interval/README.md) | Algorithm | Medium | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/insert-interval) |
 | [Evaluate Subjective, Nondeterministic Agent Outputs](https://trueinterview.io/questions/evaluate-subjective-agent-outputs) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/evaluate-subjective-agent-outputs) |
 | [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/questions/behavioral-bq-bar-raiser) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/behavioral-bq-bar-raiser) |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |

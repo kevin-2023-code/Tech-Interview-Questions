@@ -18,11 +18,11 @@
 | Most recent sighting | Oct 01, 2026 |
 | Reported in the last 90 days | 17 |
 | Most common format | [Algorithm](../formats/algorithm.md) (37% of 489) |
-| Difficulty (easy / medium / hard) | 45 / 205 / 91 |
-| Free to practise | [202](../free/README.md) |
+| Difficulty (easy / medium / hard) | 46 / 204 / 91 |
+| Free to practise | [203](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 489 questions reported at Meta. 231 of them carry a sighting date; the other 258 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 489 questions reported at Meta. 233 of them carry a sighting date; the other 256 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
@@ -31,8 +31,8 @@ Which stage each question came from, for the **489 of 489** questions at Meta th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 34 | █ | [Algorithm](../formats/algorithm.md) (62%) | 21 / 8 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 251 | ██████████ | [Algorithm](../formats/algorithm.md) (52%) | 18 / 137 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 231 | █████████ | [Blog](../formats/blog.md) (38%) | 10 / 78 / 56 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 250 | ██████████ | [Algorithm](../formats/algorithm.md) (52%) | 19 / 135 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 232 | █████████ | [Blog](../formats/blog.md) (38%) | 10 / 79 / 56 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -87,14 +87,14 @@ Every recorded sighting at Meta, by the month it was reported in — Jun 10, 202
 | [Sep 2026](../by-month/2026-09.md) | 9 | ████ |
 | [Aug 2026](../by-month/2026-08.md) | 7 | ████ |
 | [Jul 2026](../by-month/2026-07.md) | 6 | ███ |
-| [Jun 2026](../by-month/2026-06.md) | 14 | ███████ |
+| [Jun 2026](../by-month/2026-06.md) | 15 | ████████ |
 | [May 2026](../by-month/2026-05.md) | 16 | ████████ |
 | [Apr 2026](../by-month/2026-04.md) | 48 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 20 | ██████████ |
 | [Feb 2026](../by-month/2026-02.md) | 34 | █████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 31 | ████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 22 | ███████████ |
-| [Nov 2025](../by-month/2025-11.md) | 11 | ██████ |
+| [Nov 2025](../by-month/2025-11.md) | 12 | ██████ |
 | [Oct 2025](../by-month/2025-10.md) | 10 | █████ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | █ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | █ |
@@ -177,6 +177,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Shared Substring in String List](https://trueinterview.io/questions/ai-coding-substring-from-list) | AI Coding | Medium | Jun 09, 2026 |
 | [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation) | System Design | Hard | Jun 09, 2026 |
 | [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral) | Blog | — | Jun 09, 2026 |
+| [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Easy | Jun 08, 2026 |
 | [Card Game (Three Cards Summing to 15)](https://trueinterview.io/questions/ai-coding-card-game-sum-fifteen) | AI Coding | Medium | Jun 03, 2026 |
 | [Maze Solver](https://trueinterview.io/questions/ai-coding-maze-solver) | AI Coding | Medium | May 30, 2026 |
 | [Ads Ranking](https://trueinterview.io/questions/mlsd-ads-ranking) | System Design | Hard | May 30, 2026 |
@@ -352,6 +353,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [How would you validate a driving simulator’s realism?](https://trueinterview.io/questions/how-would-you-validate-a-driving-simulator-s-realism) | System Design | Hard | Nov 24, 2025 |
 | [How would you predict a car’s turning intention?](https://trueinterview.io/questions/how-would-you-predict-a-car-s-turning-intention) | System Design | Hard | Nov 24, 2025 |
 | [How do you expand nested placeholders in strings?](https://trueinterview.io/questions/how-do-you-expand-nested-placeholders-in-strings) | Algorithm | Hard | Nov 24, 2025 |
+| [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Algorithm | Medium | Nov 22, 2025 |
 | [Python Coding Questions](https://trueinterview.io/questions/solve-sql-and-python-coding-tasks-python-coding-questions) | Algorithm | Medium | Nov 20, 2025 |
 | [SQL Questions](https://trueinterview.io/questions/solve-sql-and-python-coding-tasks-sql-questions) | SQL | Medium | Nov 20, 2025 |
 | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Nov 18, 2025 |
@@ -389,7 +391,5 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Reduce variance with covariate adjustment](https://trueinterview.io/questions/reduce-variance-with-covariate-adjustment) | Blog | — | — |
 | [Redesign an executive dashboard for C-suite](https://trueinterview.io/questions/redesign-an-executive-dashboard-for-c-suite) | Blog | — | — |
 | [Quantify launch decision with tests and guardrails](https://trueinterview.io/questions/quantify-launch-decision-with-tests-and-guardrails) | Blog | — | — |
-| [Quantify base-rate dilution in CTR](https://trueinterview.io/questions/quantify-base-rate-dilution-in-ctr) | Blog | — | — |
-| [Prove source growth is cannibalization, not incremental](https://trueinterview.io/questions/prove-source-growth-is-cannibalization-not-incremental) | System Design | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](meta-2.md)</sub>

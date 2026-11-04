@@ -95,8 +95,8 @@ Here are some questions reported by recent candidates:
 - Return every valid IPv4 address that can be formed by inserting dots into a digit string.
 
 - [Sort Colors](../../questions/algorithm/sort-colors/README.md)
-- [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md)
-- [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5)
+- [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06)
+- [Implement a Doubly Linked List](../../questions/object-oriented-programming/implement-a-doubly-linked-list/README.md)
 - [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939)
 
 ## System design interview

@@ -2,24 +2,24 @@
 
 # Trends by month
 
-Counted over the **3,431 questions that carry a sighting date**. The other 2,493 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
+Counted over the **3,412 questions that carry a sighting date**. The other 2,477 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
 
 [← Insights](README.md) · [← Every month](../by-month/README.md)
 
 | Month | Sightings | Companies | AI Coding | Algorithm | Blog | Object Oriented Programming | SQL | System Design |  |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 31 | 21 | 1 | 18 | 1 | 6 | 1 | 4 | █ |
-| [Sep 2026](../by-month/2026-09.md) | 333 | 65 | 2 | 93 | 129 | 34 | 6 | 69 | █████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 302 | 62 | 2 | 107 | 78 | 36 | 8 | 71 | ████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 331 | 65 | 2 | 91 | 129 | 34 | 6 | 69 | █████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 298 | 62 | 2 | 103 | 78 | 36 | 8 | 71 | ████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 126 | 41 | 3 | 52 | 20 | 12 | 25 | 14 | █████ |
-| [Jun 2026](../by-month/2026-06.md) | 240 | 56 | 13 | 113 | 41 | 38 | 1 | 34 | ██████████ |
+| [Jun 2026](../by-month/2026-06.md) | 237 | 56 | 13 | 111 | 41 | 37 | 1 | 34 | ██████████ |
 | [May 2026](../by-month/2026-05.md) | 249 | 58 | 13 | 108 | 29 | 40 | 22 | 37 | ██████████ |
-| [Apr 2026](../by-month/2026-04.md) | 399 | 80 | 7 | 178 | 70 | 47 | 7 | 90 | ████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 274 | 68 | 7 | 118 | 74 | 21 | 11 | 43 | ███████████ |
-| [Feb 2026](../by-month/2026-02.md) | 329 | 75 | 9 | 126 | 93 | 40 | 6 | 55 | █████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 389 | 77 | 3 | 143 | 129 | 45 | 8 | 61 | ████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 396 | 80 | 7 | 175 | 70 | 47 | 7 | 90 | ████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 272 | 70 | 7 | 116 | 74 | 21 | 11 | 43 | ███████████ |
+| [Feb 2026](../by-month/2026-02.md) | 328 | 75 | 9 | 125 | 93 | 40 | 6 | 55 | █████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 386 | 77 | 3 | 141 | 129 | 44 | 8 | 61 | ████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 221 | 62 | 4 | 93 | 65 | 14 | 8 | 37 | █████████ |
-| [Nov 2025](../by-month/2025-11.md) | 217 | 67 | 3 | 89 | 60 | 29 | 9 | 27 | █████████ |
+| [Nov 2025](../by-month/2025-11.md) | 216 | 66 | 3 | 88 | 60 | 29 | 9 | 27 | █████████ |
 | [Oct 2025](../by-month/2025-10.md) | 182 | 62 | 4 | 61 | 70 | 18 | 7 | 22 | ███████ |
 | [Sep 2025](../by-month/2025-09.md) | 40 | 17 | 0 | 31 | 1 | 7 | 0 | 1 | ██ |
 | [Aug 2025](../by-month/2025-08.md) | 24 | 14 | 1 | 16 | 1 | 6 | 0 | 0 | █ |
@@ -43,7 +43,7 @@ The month a company's earliest recorded sighting falls in. A company appearing h
 | [Aug 2026](../by-month/2026-08.md) | Indeed, Sig |
 | [May 2026](../by-month/2026-05.md) | Block, Brex |
 | [Apr 2026](../by-month/2026-04.md) | Cohere, Faire, Mistral AI, Tradedesk |
-| [Mar 2026](../by-month/2026-03.md) | Bobyard, GEICO |
+| [Mar 2026](../by-month/2026-03.md) | Bobyard, GEICO, Visa |
 | [Feb 2026](../by-month/2026-02.md) | Cursor, Harvey, Lead Bank, Render, Scale AI, Stubhub, Together AI, Wayfair |
 | [Jan 2026](../by-month/2026-01.md) | Asana, Circle, Datadog, Karat, Luma AI, Mercor, MongoDB, Palantir, Pinduoduo, Tubi, Verkada, Whatnot |
 | [Dec 2025](../by-month/2025-12.md) | Applied Intuition, Boston Consulting Group, HubSpot, Moveworks, Netflix, NVIDIA, Rokt |

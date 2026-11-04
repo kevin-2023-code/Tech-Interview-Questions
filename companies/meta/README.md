@@ -9,7 +9,7 @@ How Meta interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [489](../meta.md) |
-| Free to read here | 54 |
+| Free to read here | 55 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Meta questions
 
-202 questions reported at Meta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+203 questions reported at Meta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -66,6 +66,7 @@ Here's what the interview process can look like:
 | [Minimum Window Substring](../../questions/algorithm/minimum-window-substring/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/minimum-window-substring) |
 | [Word Break](../../questions/algorithm/word-break/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/word-break) |
 | [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/ai-oriented-behavioral) |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) |
 | [Maze Solver](../../questions/ai-coding/ai-coding-maze-solver/README.md) | AI Coding | Medium | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/ai-coding-maze-solver) |
 | [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/traditional-behavioral-meta) |
 | [Remove Nth Node From End of List](../../questions/algorithm/lc-remove-nth-from-end/README.md) | Algorithm | Easy | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/lc-remove-nth-from-end) |

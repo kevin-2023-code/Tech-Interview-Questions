@@ -2,7 +2,7 @@
 
 # Databricks interview process, OA & interview questions
 
-**89 questions** reported at Databricks · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
+**88 questions** reported at Databricks · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Databricks interviews & the free questions](databricks/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **89** |
+| Questions tracked | **88** |
 | Most recent sighting | Sep 15, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (40% of 89) |
-| Difficulty (easy / medium / hard) | 10 / 49 / 21 |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 88) |
+| Difficulty (easy / medium / hard) | 10 / 48 / 21 |
 | Free to practise | [28](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 89 questions reported at Databricks. 65 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 88 questions reported at Databricks. 64 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **89 of 89** questions at Databricks that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **88 of 88** questions at Databricks that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | █ | [Algorithm](../formats/algorithm.md) (60%) | 2 / 3 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 40 | ███████ | [Algorithm](../formats/algorithm.md) (52%) | 3 / 23 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 39 | ███████ | [Algorithm](../formats/algorithm.md) (54%) | 3 / 22 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 57 | ██████████ | [System Design](../formats/system-design.md) (40%) | 7 / 32 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -78,7 +78,7 @@ Every recorded sighting at Databricks, by the month it was reported in — Jun 0
 | [Sep 2026](../by-month/2026-09.md) | 5 | ███████████ |
 | [Aug 2026](../by-month/2026-08.md) | 2 | ████ |
 | [Jul 2026](../by-month/2026-07.md) | 3 | ███████ |
-| [Jun 2026](../by-month/2026-06.md) | 9 | ████████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 8 | █████████████████ |
 | [May 2026](../by-month/2026-05.md) | 6 | █████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 11 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | ████ |
@@ -144,7 +144,6 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Object Oriented Programming | Medium | Jun 2026 |
 | [Tetris Block Drop](https://trueinterview.io/questions/tetris-block-drop) | Algorithm | Medium | Jun 2026 |
 | [Firewall CIDR Rules](https://trueinterview.io/questions/firewall-cidr-rules) | Algorithm | Hard | Jun 2026 |
-| [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Object Oriented Programming | Medium | Jun 2026 |
 | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Algorithm | Medium | May 31, 2026 |
 | [String Pattern Partition by Source Indices](https://trueinterview.io/questions/string-pattern-partition) | Algorithm | Medium | May 22, 2026 |
 | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |

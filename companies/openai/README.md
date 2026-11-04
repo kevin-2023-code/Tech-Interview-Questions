@@ -8,8 +8,8 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [176](../openai.md) |
-| Free to read here | 17 |
+| Questions reported | [175](../openai.md) |
+| Free to read here | 16 |
 | Interview-process guides | 7 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free OpenAI questions
 
-33 questions reported at OpenAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+32 questions reported at OpenAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -83,14 +83,13 @@ Here's what the interview process can look like:
 | [Compute signup rate and retention from raw logs](../../questions/sql/compute-signup-rate-and-retention-from-raw-logs/README.md) | SQL | Medium | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/compute-signup-rate-and-retention-from-raw-logs) |
 | [Explain your perspective on AI safety](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/explain-your-perspective-on-ai-safety) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
-| [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) |
 | [Cell Simulation / Conway's Game of Life](../../questions/algorithm/cell-simulation-conway-s-game-of-life/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) |
 | [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) |
 | [Toy Language](../../questions/algorithm/toy-language/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) |
 
 ## Everything else
 
-- [All 176 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 175 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every OpenAI question on TrueInterview](https://trueinterview.io/problems/company/openai).
 
 ---

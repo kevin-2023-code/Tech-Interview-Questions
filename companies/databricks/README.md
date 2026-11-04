@@ -8,7 +8,7 @@ How Databricks interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [89](../databricks.md) |
+| Questions reported | [88](../databricks.md) |
 | Free to read here | 19 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -86,7 +86,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 89 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 88 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Databricks question on TrueInterview](https://trueinterview.io/problems/company/databricks).
 
 ---

@@ -8,7 +8,7 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [147](../snowflake.md) |
+| Questions reported | [145](../snowflake.md) |
 | Free to read here | 42 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -108,7 +108,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 147 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 145 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snowflake question on TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 ---

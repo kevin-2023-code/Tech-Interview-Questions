@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Apple · Google · LinkedIn · Microsoft · Salesforce | Phone screen | — | Mar 2026 |
+| Object Oriented Programming | Medium | Apple · Google · LinkedIn · Microsoft · Salesforce · Verkada | Phone screen | — | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/lfu-cache)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -94,7 +94,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Google](../../../companies/google/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Salesforce](../../../companies/salesforce/README.md)
+[Apple](../../../companies/apple/README.md) · [Google](../../../companies/google/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Salesforce](../../../companies/salesforce/README.md) · [Verkada](../../../companies/verkada/README.md)
 
 ---
 

@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,591 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,581 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,11 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Google** | [Diagnose a metric drop in search time](https://trueinterview.io/questions/diagnose-a-metric-drop-in-search-time) | — | — |
-| **Google** | [Diagnose 10–11% usage drop across geos](https://trueinterview.io/questions/diagnose-1011percent-usage-drop-across-geos) | — | — |
-| **Meta** | [Detect leakage and evaluate a prediction model](https://trueinterview.io/questions/detect-leakage-and-evaluate-a-prediction-model) | — | — |
-| **Meta** | [Detect and address Simpson’s paradox](https://trueinterview.io/questions/detect-and-address-simpsons-paradox) | — | — |
-| **ByteDance** | [Design robust metrics for a feature launch](https://trueinterview.io/questions/design-robust-metrics-for-a-feature-launch) | — | — |
 | **Meta** | [Design robust group size limiting for calls](https://trueinterview.io/questions/design-robust-group-size-limiting-for-calls) | Hard | — |
 | **ByteDance** | [Design robust A/B test with interference and seasonality](https://trueinterview.io/questions/design-robust-a-b-test-with-interference-and-seasonality) | — | — |
 | **Pinterest** | [Design rigorous A/B test and causal analysis](https://trueinterview.io/questions/design-rigorous-a-b-test-and-causal-analysis) | — | — |
@@ -260,5 +255,10 @@
 | **Google** | [Permutations II](https://trueinterview.io/questions/b6747ed0-abbd-562b-9c62-8203b7c69d06) | Medium | — |
 | **Google** | [Count Paths Matching Every Prefix in a Labeled Tree](https://trueinterview.io/questions/666e48b6-38b1-5803-9fbc-c5e3e5601f7b) | Hard | — |
 | **Google** | [Split a Log Line by Spaces Outside Quoted Fields](https://trueinterview.io/questions/63ad51fb-e5a7-516d-a385-28c429f52b59) | Medium | — |
+| **Google** | [Maximum Area Rectangle From Given Points](https://trueinterview.io/questions/587db02b-9437-5e6d-8a2a-cb2d0fbe4eeb) | Medium | — |
+| **Google** | [Deliver to All Grid Locations and Return Home](https://trueinterview.io/questions/4f2dcbed-a308-5c7e-abc6-151ec6fe8790) | Hard | — |
+| **Google** | [Maximize the Sum of Two Endpoint Values](https://trueinterview.io/questions/4c35c0d9-ec3d-5be8-a9ac-8c286f55cb59) | Medium | — |
+| **Google** | [Lowest Common Manager for Multiple Employees](https://trueinterview.io/questions/43f7731f-5c9c-5742-98e1-c22daf53b98b) | Medium | — |
+| **Google** | [Generate All Strings of Ones and Twos That Sum to N](https://trueinterview.io/questions/38374bee-9d47-5a1e-8387-e29ebb2e414a) | Medium | — |
 
 <sub>[← Page 4](consumer-internet-4.md) · Page 5 of 7 · [Page 6 →](consumer-internet-6.md)</sub>

@@ -6,7 +6,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 
 [← Question bank](../README.md) · [Companies](../companies/README.md) · [Free questions, with statistics](../free/README.md)
 
-## Algorithm (483)
+## Algorithm (482)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -242,7 +242,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Implement Trie with Non-Standard Alphabet](algorithm/implement-trie-with-non-standard-alphabet/README.md) | Medium | Snowflake |
 | [Incremental Task Scheduler](algorithm/incremental-task-scheduler/README.md) | Medium | LinkedIn |
 | [Infection Spread Simulation](algorithm/infection-spread-simulation/README.md) | Medium | OpenAI · Anthropic |
-| [Insert Interval (LC 57)](algorithm/insert-interval/README.md) | Medium | Apple |
+| [Insert Interval (LC 57)](algorithm/insert-interval/README.md) | Medium | Apple · Oracle · Uber |
 | [Intersection of Two Linked Lists](algorithm/intersection-of-two-linked-lists/README.md) | Medium | Apple · LinkedIn |
 | [Interval List Intersections](algorithm/interval-list-intersections/README.md) | Medium | Uber |
 | [Jump Game](algorithm/jump-game/README.md) | Medium | ByteDance · Google · Microsoft · Visa |
@@ -340,7 +340,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Remove Read-Only Files](algorithm/remove-read-only-files/README.md) | Medium | Datadog |
 | [Rental Car Surge Area Navigation](algorithm/premium-zone-escape-path/README.md) | Medium | Perplexity |
 | [Restore IP Addresses](algorithm/restore-ip-addresses/README.md) | Medium | ByteDance · OKX · OpenAI |
-| [Restore Valid IPv4 Addresses](algorithm/restore-valid-ipv4-addresses/README.md) | Medium | OpenAI · ByteDance · OKX |
 | [Reverse linked list in fixed-size groups](algorithm/reverse-linked-list-in-fixed-size-groups/README.md) | Medium | Microsoft |
 | [Reverse Nodes in K-Group (incomplete tail variant)](algorithm/reverse-nodes-in-k-group/README.md) | Medium | ByteDance |
 | [Reverse Substrings Between Each Pair of Parentheses](algorithm/reverse-substrings-in-parentheses/README.md) | Medium | Okta |
@@ -494,7 +493,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai |
 | [Worker-Task Matching with Specialties](algorithm/worker-task-assignment/README.md) | Hard | Stripe |
 
-## Object Oriented Programming (84)
+## Object Oriented Programming (85)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -541,6 +540,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Implement 2048 Game Logic](object-oriented-programming/implement-2048-game-logic/README.md) | Medium | Glean |
 | [Implement a Custom Vector Using Metaprogramming](object-oriented-programming/implement-a-custom-vector-using-metaprogramming/README.md) | Medium | Squarepoint |
 | [Implement a DB Connection Pool](object-oriented-programming/implement-a-db-connection-pool/README.md) | Medium | Harvey · Airtable |
+| [Implement a Doubly Linked List](object-oriented-programming/implement-a-doubly-linked-list/README.md) | Medium | ByteDance · OKX |
 | [Implement a Generic Stack in C++](object-oriented-programming/implement-a-generic-stack-in-c/README.md) | Medium | Arista |
 | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](object-oriented-programming/implement-a-mini-spreadsheet-with-get-set-row-printing-and-add-formulas/README.md) | Medium | Sigmacomputing |
 | [Implement a Text Editor](object-oriented-programming/implement-a-text-editor/README.md) | Medium | Rokt |

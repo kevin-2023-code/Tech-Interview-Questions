@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**470 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**466 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,31 +14,31 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **470** |
+| Questions tracked | **466** |
 | Most recent sighting | Oct 03, 2026 |
-| Reported in the last 90 days | 88 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 470) |
-| Difficulty (easy / medium / hard) | 59 / 226 / 68 |
+| Reported in the last 90 days | 87 |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 466) |
+| Difficulty (easy / medium / hard) | 58 / 223 / 68 |
 | Free to practise | [172](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 470 questions reported at Amazon. 277 of them carry a sighting date; the other 193 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 466 questions reported at Amazon. 275 of them carry a sighting date; the other 191 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **470 of 470** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **466 of 466** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 53 | ██ | [Algorithm](../formats/algorithm.md) (83%) | 22 / 18 / 9 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 242 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 23 / 119 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 209 | █████████ | [Algorithm](../formats/algorithm.md) (32%) | 19 / 109 / 32 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 239 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 22 / 117 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 207 | █████████ | [Algorithm](../formats/algorithm.md) (31%) | 19 / 107 / 32 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**88 sightings** in this window. Newest first.
+**87 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,23 +55,23 @@ Which stage each question came from, for the **470 of 470** questions at Amazon 
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Medium | Onsite / virtual onsite | Sep 26, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Hard | Onsite / virtual onsite | Sep 26, 2026 |
 
-<sub>76 more in this window are in the table below.</sub>
+<sub>75 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **221 questions at Amazon that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **217 questions at Amazon that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 42 | 19% | ████████████ | Oct 01, 2026 |
-| `graphs` | 37 | 17% | ███████████ | Oct 03, 2026 |
+| `hashing` | 40 | 18% | ████████████ | Oct 01, 2026 |
+| `graphs` | 36 | 17% | ███████████ | Oct 03, 2026 |
 | `arrays` | 31 | 14% | █████████ | Oct 03, 2026 |
-| `strings` | 25 | 11% | ███████ | Sep 29, 2026 |
-| `sorting` | 21 | 10% | ██████ | Oct 03, 2026 |
+| `strings` | 24 | 11% | ███████ | Sep 29, 2026 |
 | `greedy` | 20 | 9% | ██████ | Sep 29, 2026 |
-| `heap` | 18 | 8% | █████ | Sep 14, 2026 |
+| `sorting` | 20 | 9% | ██████ | Oct 03, 2026 |
 | `trees` | 18 | 8% | █████ | Oct 01, 2026 |
 | `dynamic-programming` | 17 | 8% | █████ | Sep 29, 2026 |
+| `heap` | 16 | 7% | █████ | Sep 14, 2026 |
 | `backtracking` | 14 | 6% | ████ | Aug 24, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -84,9 +84,9 @@ Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2
 | :-- | --: | :-- |
 | [Oct 2026](../by-month/2026-10.md) | 5 | ███ |
 | [Sep 2026](../by-month/2026-09.md) | 45 | ████████████████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 38 | ████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 37 | ████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 22 | ████████████ |
-| [Jun 2026](../by-month/2026-06.md) | 24 | █████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 23 | ████████████ |
 | [May 2026](../by-month/2026-05.md) | 19 | ██████████ |
 | [Apr 2026](../by-month/2026-04.md) | 30 | ████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 25 | █████████████ |
@@ -222,7 +222,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Algorithm | Medium | Aug 14, 2026 |
 | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Algorithm | Medium | Aug 14, 2026 |
 | [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Algorithm | Medium | Aug 14, 2026 |
-| [Group Anagrams (LC 49)](https://trueinterview.io/questions/group-anagrams-lc-49) | Algorithm | Medium | Aug 14, 2026 |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | SQL | Easy | Aug 13, 2026 |
 | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | SQL | Easy | Aug 13, 2026 |
 | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | System Design | Medium | Aug 08, 2026 |
@@ -268,7 +267,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Algorithm | Hard | Jun 09, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Easy | Jun 08, 2026 |
 | [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Algorithm | Medium | Jun 06, 2026 |
-| [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Algorithm | Medium | Jun 06, 2026 |
 | [Parking Lot System II](https://trueinterview.io/questions/design-parking-lot-ood) | Object Oriented Programming | Medium | Jun 06, 2026 |
 | [Work Simulation & Work Style Assessment](https://trueinterview.io/questions/work-style-simulation-assessment) | Blog | — | Jun 05, 2026 |
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
@@ -388,5 +386,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [How would you test a price increase?](https://trueinterview.io/questions/how-would-you-test-a-price-increase) | Blog | — | Dec 20, 2025 |
 | [Test whether two user populations differ](https://trueinterview.io/questions/test-whether-two-user-populations-differ) | Blog | — | Dec 15, 2025 |
 | [Explain ML evaluation, sequence models, and optimizers](https://trueinterview.io/questions/explain-ml-evaluation-sequence-models-and-optimizers) | Blog | — | Dec 15, 2025 |
+| [Explain core ML concepts and diagnostics](https://trueinterview.io/questions/explain-core-ml-concepts-and-diagnostics) | Blog | — | Dec 15, 2025 |
+| [Implement K-means and solve interval/frequency tasks](https://trueinterview.io/questions/implement-k-means-and-solve-interval-frequency-tasks) | Algorithm | Medium | Dec 15, 2025 |
 
 <sub>Page 1 of 2 · [Page 2 →](amazon-2.md)</sub>

@@ -2,7 +2,7 @@
 
 # 🔒 Cybersecurity — interview & OA questions
 
-**80 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**79 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Verkada (33)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (15)](../companies/vanta.md) · [Okta (13)](../companies/okta.md)
+[Verkada (32)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (15)](../companies/vanta.md) · [Okta (13)](../companies/okta.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,24 +18,24 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 54 | 68% | ██████████████ | 17 |
+| [Algorithm](../formats/algorithm.md) | 53 | 67% | ██████████████ | 17 |
 | [System Design](../formats/system-design.md) | 11 | 14% | ███ | 2 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 12% | ███ | 2 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 13% | ███ | 3 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 4% | █ | 1 |
-| [Blog](../formats/blog.md) | 2 | 2% | █ | 2 |
+| [Blog](../formats/blog.md) | 2 | 3% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **10 / 51 / 17**, over the rows the catalog has graded. 24 of the 80 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **10 / 50 / 17**, over the rows the catalog has graded. 25 of the 79 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **53 questions in this cut that carry a topic label** (66% of it):
+Of the **52 questions in this cut that carry a topic label** (66% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 13 | 25% | ████████████ |
-| `graphs` | 10 | 19% | █████████ |
-| `arrays` | 7 | 13% | ██████ |
-| `strings` | 7 | 13% | ██████ |
+| `hashing` | 12 | 23% | ████████████ |
+| `graphs` | 10 | 19% | ██████████ |
+| `arrays` | 7 | 13% | ███████ |
+| `strings` | 7 | 13% | ███████ |
 | `dynamic-programming` | 4 | 8% | ████ |
 | `math` | 4 | 8% | ████ |
 | `backtracking` | 3 | 6% | ███ |
@@ -47,13 +47,12 @@ Of the **53 questions in this cut that carry a topic label** (66% of it):
 
 ## Asked here in the last 90 days
 
-**4 sightings** across this cut. Newest first.
+**3 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Vanta | System Design | Sep 12, 2026 |
 | [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | Verkada | System Design | Sep 04, 2026 |
-| [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Verkada | Algorithm | Sep 04, 2026 |
 | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Okta | Algorithm | Aug 20, 2026 |
 
 ---
@@ -66,7 +65,6 @@ Of the **53 questions in this cut that carry a topic label** (66% of it):
 | :-- | :-- | :-: | :-- |
 | **Vanta** | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Medium | Sep 12, 2026 |
 | **Verkada** | [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | Medium | Sep 04, 2026 |
-| **Verkada** | [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Medium | Sep 04, 2026 |
 | **Okta** | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Medium | Aug 20, 2026 |
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |
 | **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Medium | Jul 16, 2026 |
@@ -86,6 +84,7 @@ Of the **53 questions in this cut that carry a topic label** (66% of it):
 | **Okta** | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Easy | Apr 20, 2026 |
 | **Okta** | [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Easy | Apr 20, 2026 |
 | **Vanta** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Medium | Mar 17, 2026 |
+| **Apple / Google / LinkedIn / Microsoft / Salesforce / Verkada** | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Medium | Mar 17, 2026 |
 | **Atlassian / Expedia / Ramp / Roblox / Snapchat / Snowflake / Stripe / Verkada** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | Medium | Feb 22, 2026 |
 | **Datadog / ByteDance / Verkada** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Medium | Feb 17, 2026 |
 | **Scale AI / Verkada** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Medium | Feb 16, 2026 |
@@ -103,7 +102,6 @@ Of the **53 questions in this cut that carry a topic label** (66% of it):
 | **Verkada** | [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Medium | — |
 | **Verkada / Amazon** | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | Medium | — |
 | **Google / Microsoft / Verkada** | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Medium | — |
-| **Verkada / Salesforce** | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Medium | — |
 | **Verkada / Amazon / ByteDance / Goldman Sachs / Lyft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |
 | **Vanta** | [Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree)](https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda) | Medium | — |
 | **Vanta** | [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Easy | — |

@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**84 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**85 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -15,9 +15,9 @@
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | **Brex** | Easy | — |
 | [Trie-Based Autocomplete](https://trueinterview.io/questions/trie-autocomplete) | **Oracle** | Easy | Sep 15, 2025 |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | Medium | — |
+| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | **Apple / Google / LinkedIn / Microsoft / Salesforce / Verkada** | Medium | Mar 17, 2026 |
 | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | **Verkada / Amazon / ByteDance / Goldman Sachs / Lyft / Rokt** | Medium | — |
 | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | **Onemain Financial / Anthropic / Google / LinkedIn / Microsoft** | Medium | — |
-| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | **Apple / Google / LinkedIn / Microsoft / Salesforce** | Medium | Mar 17, 2026 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | **Coinbase / Anthropic / HubSpot / Ramp** | Medium | Dec 15, 2025 |
 | [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | **Coinbase / Ebay / HubSpot** | Medium | — |
 | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | **Snowflake / Applied Intuition / Lyft** | Medium | Feb 26, 2026 |
@@ -30,6 +30,7 @@
 | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | **Confluent / Pinterest** | Medium | — |
 | [Design Lazy Array](https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution) | **Databricks / Amazon** | Medium | Apr 13, 2026 |
 | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | **Harvey / Airtable** | Medium | Apr 30, 2026 |
+| [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | **ByteDance / OKX** | Medium | — |
 | [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | **OpenAI / Airbnb** | Medium | Nov 07, 2025 |
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | **Coinbase / Lyft** | Medium | Feb 04, 2026 |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | **Atlassian / Amplitude** | Medium | Oct 02, 2025 |

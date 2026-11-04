@@ -8,8 +8,8 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [100](../salesforce.md) |
-| Free to read here | 10 |
+| Questions reported | [99](../salesforce.md) |
+| Free to read here | 11 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Salesforce questions
 
-21 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -66,6 +66,7 @@ Here's what the interview process can look like:
 | [Minimum Knight Moves](../../questions/algorithm/minimum-knight-moves/README.md) | Algorithm | Medium | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/minimum-knight-moves) |
 | [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/questions/ai-ml-fundamentals-oral) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/ai-ml-fundamentals-oral) |
+| [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/questions/cloud-domain-knowledge-round) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/cloud-domain-knowledge-round) |
 | [Find All Anagrams in a String](../../questions/algorithm/find-all-anagrams-in-a-string/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/find-all-anagrams-in-a-string) |
 | [Describe a memorable bug and persuasion story](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story) |
@@ -76,7 +77,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 100 questions reported at Salesforce](../salesforce.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 99 questions reported at Salesforce](../salesforce.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Salesforce question on TrueInterview](https://trueinterview.io/problems/company/salesforce).
 
 ---

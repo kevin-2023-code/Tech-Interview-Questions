@@ -9,10 +9,10 @@ How Visa interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [15](../visa.md) |
-| Free to read here | 6 |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Mar 20, 2026 |
 
 ## How Visa interviews
 
@@ -47,10 +47,11 @@ Here's what the interview process can look like:
 
 ## Free Visa questions
 
-6 questions reported at Visa open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Visa open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Minimize Maximum of Array](../../questions/algorithm/minimize-maximum-of-array/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47) |
 | [Best Time to Buy and Sell Stock](../../questions/algorithm/best-time-to-buy-and-sell-stock/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) |
 | [Minimum Score of a Path Between Two Cities](../../questions/algorithm/minimum-score-of-a-path-between-two-cities/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d) |

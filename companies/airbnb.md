@@ -22,7 +22,7 @@
 | Free to practise | [21](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 112 questions reported at Airbnb. 77 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 112 questions reported at Airbnb. 76 of them carry a sighting date; the other 36 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
@@ -31,8 +31,8 @@ Which stage each question came from, for the **112 of 112** questions at Airbnb 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 15 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (73%) | 4 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 48 | ████████ | [Algorithm](../formats/algorithm.md) (56%) | 2 / 32 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 59 | ██████████ | [System Design](../formats/system-design.md) (34%) | 5 / 33 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 49 | ████████ | [Algorithm](../formats/algorithm.md) (57%) | 2 / 33 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 58 | ██████████ | [System Design](../formats/system-design.md) (34%) | 5 / 32 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -91,7 +91,7 @@ Every recorded sighting at Airbnb, by the month it was reported in — Sep 17, 2
 | [Apr 2026](../by-month/2026-04.md) | 8 | █████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 4 | █████████ |
 | [Feb 2026](../by-month/2026-02.md) | 6 | █████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 6 | █████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 5 | ███████████ |
 | [Dec 2025](../by-month/2025-12.md) | 2 | ████ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | ███████ |
 | [Oct 2025](../by-month/2025-10.md) | 3 | ███████ |
@@ -196,7 +196,6 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Describe a cross-functional project you’re proud of](https://trueinterview.io/questions/describe-a-cross-functional-project-you-re-proud-of) | Blog | — | Feb 12, 2026 |
 | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | System Design | Medium | Jan 22, 2026 |
 | [Find best downhill ski run from a start](https://trueinterview.io/questions/find-best-downhill-ski-run-from-a-start) | Algorithm | Medium | Jan 19, 2026 |
-| [Compute maze score using shortest path](https://trueinterview.io/questions/compute-maze-score-using-shortest-path) | Algorithm | Medium | Jan 19, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
 | [Host Listings Page — Aggregation Optimization](https://trueinterview.io/questions/host-listings-page-optimization) | System Design | Medium | Jan 10, 2026 |
 | [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) | Algorithm | Hard | Jan 07, 2026 |
@@ -237,6 +236,7 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888) | Algorithm | Medium | — |
 | [URL Parser with Percent Unquote](https://trueinterview.io/questions/b8f2f270-a472-5c0c-927b-883b8fa80722) | Algorithm | Medium | — |
 | [Tag Matching and Annotation with Pattern Priority](https://trueinterview.io/questions/66c19222-268a-55ae-80db-62d14d9ad56c) | Algorithm | Medium | — |
+| [Mouse and Cheese](https://trueinterview.io/questions/a960bd9c-a967-4226-8ce4-63f20024cb31) | Algorithm | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Consecutive Sum (Financial Engineer Intern)](https://trueinterview.io/questions/7947d7b9-43db-4be6-afc3-72097636a793) | Algorithm | Medium | — |

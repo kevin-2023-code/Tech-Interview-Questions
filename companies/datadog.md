@@ -83,7 +83,7 @@ The 8 questions to open first if you are preparing for Datadog, ranked by **the 
 | **1** | [Prioritize Critical Findings in a High-Load Batch Processor Review](https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review) 🆓 | Blog | — | — | Aug 17, 2026 |
 | **2** | [Maximum Vacation With Minimum Flights](https://trueinterview.io/questions/maximum-vacation-with-minimum-flights) | Algorithm | Medium | — | Apr 10, 2026 |
 | **3** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 9 | Mar 23, 2026 |
-| **4** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 9 | Mar 06, 2026 |
+| **4** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 10 | Mar 06, 2026 |
 | **5** | [Implement Prefix Match Filter](https://trueinterview.io/questions/implement-prefix-match-filter) | Algorithm | Medium | — | Feb 25, 2026 |
 | **6** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | 2 | Feb 17, 2026 |
 | **7** | [Linear Interpolation of Missing Points](https://trueinterview.io/questions/linear-interpolation-of-missing-points) | Algorithm | Medium | — | Feb 17, 2026 |

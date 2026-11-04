@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,892 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,871 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (489)](../companies/meta.md) · [Amazon (470)](../companies/amazon.md) · [Google (383)](../companies/google.md) · [ByteDance (350)](../companies/bytedance.md) · [Uber (266)](../companies/uber.md) · [Microsoft (242)](../companies/microsoft.md) · [Apple (182)](../companies/apple.md) · [DoorDash (151)](../companies/doordash.md) · [LinkedIn (145)](../companies/linkedin.md) · [Oracle (115)](../companies/oracle.md) · [Netflix (107)](../companies/netflix.md) · [Salesforce (100)](../companies/salesforce.md) · [Atlassian (63)](../companies/atlassian.md) · [NVIDIA (54)](../companies/nvidia.md) · [Ebay (48)](../companies/ebay.md) · [Expedia (41)](../companies/expedia.md) · [Intuit (38)](../companies/intuit.md) · [PayPal (37)](../companies/paypal.md) · [Walmart Labs (35)](../companies/walmart-labs.md) · [Cisco (27)](../companies/cisco.md) · [Pinduoduo (27)](../companies/pinduoduo.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [AMD (10)](../companies/amd.md) · [Block (5)](../companies/block.md)
+[Meta (489)](../companies/meta.md) · [Amazon (466)](../companies/amazon.md) · [Google (382)](../companies/google.md) · [ByteDance (344)](../companies/bytedance.md) · [Uber (263)](../companies/uber.md) · [Microsoft (240)](../companies/microsoft.md) · [Apple (182)](../companies/apple.md) · [DoorDash (151)](../companies/doordash.md) · [LinkedIn (145)](../companies/linkedin.md) · [Oracle (115)](../companies/oracle.md) · [Netflix (107)](../companies/netflix.md) · [Salesforce (99)](../companies/salesforce.md) · [Atlassian (63)](../companies/atlassian.md) · [NVIDIA (54)](../companies/nvidia.md) · [Ebay (48)](../companies/ebay.md) · [Expedia (41)](../companies/expedia.md) · [Intuit (38)](../companies/intuit.md) · [PayPal (37)](../companies/paypal.md) · [Walmart Labs (35)](../companies/walmart-labs.md) · [Cisco (27)](../companies/cisco.md) · [Pinduoduo (27)](../companies/pinduoduo.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [AMD (10)](../companies/amd.md) · [Block (5)](../companies/block.md)
 
 <sub>24 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,37 +18,37 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 1,335 | 46% | ██████████████ | 229 |
-| [Blog](../formats/blog.md) | 707 | 24% | ███████ | 707 |
+| [Algorithm](../formats/algorithm.md) | 1,316 | 46% | ██████████████ | 228 |
+| [Blog](../formats/blog.md) | 707 | 25% | ████████ | 707 |
 | [System Design](../formats/system-design.md) | 374 | 13% | ████ | 22 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 254 | 9% | ███ | 24 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 252 | 9% | ███ | 25 |
 | [SQL](../formats/sql.md) | 179 | 6% | ██ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 43 | 1% | █ | 4 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **315 / 1359 / 511**, over the rows the catalog has graded. 988 of the 2,892 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **312 / 1341 / 511**, over the rows the catalog has graded. 988 of the 2,871 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **1,344 questions in this cut that carry a topic label** (46% of it):
+Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 215 | 16% | ████████████ |
-| `graphs` | 210 | 16% | ████████████ |
-| `hashing` | 207 | 15% | ████████████ |
-| `strings` | 179 | 13% | ██████████ |
-| `greedy` | 114 | 8% | ██████ |
+| `arrays` | 212 | 16% | ████████████ |
+| `graphs` | 209 | 16% | ████████████ |
+| `hashing` | 204 | 15% | ████████████ |
+| `strings` | 176 | 13% | ██████████ |
+| `greedy` | 113 | 9% | ██████ |
 | `dynamic-programming` | 104 | 8% | ██████ |
-| `trees` | 100 | 7% | ██████ |
+| `trees` | 100 | 8% | ██████ |
 | `sorting` | 93 | 7% | █████ |
-| `matrix` | 88 | 7% | █████ |
-| `two-pointers` | 87 | 6% | █████ |
+| `matrix` | 87 | 7% | █████ |
+| `two-pointers` | 86 | 6% | █████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**337 sightings** across this cut. Newest first.
+**332 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>325 more in this window are in the table below.</sub>
+<sub>320 more in this window are in the table below.</sub>
 
 ---
 
@@ -173,7 +173,6 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | **Microsoft** | [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | Medium | Sep 10, 2026 |
 | **Microsoft** | [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/questions/resolve-technical-disagreement-and-work-across-different-styles) | — | Sep 10, 2026 |
 | **DoorDash** | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | Medium | Sep 10, 2026 |
-| **Microsoft** | [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Medium | Sep 10, 2026 |
 | **Microsoft** | [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Easy | Sep 10, 2026 |
 | **Microsoft** | [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/questions/explain-platform-evolution-ownership-and-career-motivation) | — | Sep 10, 2026 |
 | **Microsoft** | [Design a Voice and Chat AI Receptionist Platform](https://trueinterview.io/questions/design-a-voice-and-chat-ai-receptionist-platform) | Hard | Sep 10, 2026 |
@@ -276,7 +275,6 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Hard | Aug 30, 2026 |
 | **Google** | [Resolve Product Disagreement and Balance Technical Debt](https://trueinterview.io/questions/resolve-product-disagreement-and-balance-technical-debt) | — | Aug 29, 2026 |
 | **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | Aug 29, 2026 |
-| **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | Aug 29, 2026 |
 | **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | Aug 29, 2026 |
 | **Uber** | [Find Robots Position](https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance) | Medium | Aug 29, 2026 |
 | **ByteDance** | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | Medium | Aug 28, 2026 |
@@ -319,7 +317,6 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | **Uber** | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | Medium | Aug 22, 2026 |
 | **Amazon** | [Design a Debounced Product Search Box](https://trueinterview.io/questions/design-a-debounced-product-search-box) | Medium | Aug 22, 2026 |
 | **Amazon** | [Format a Forest of Nested Comments](https://trueinterview.io/questions/format-a-forest-of-nested-comments) | Hard | Aug 22, 2026 |
-| **Pinduoduo** | [Count Longest Substrings After Character Replacements](https://trueinterview.io/questions/count-longest-substrings-after-character-replacements) | Medium | Aug 22, 2026 |
 | **Amazon** | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Medium | Aug 22, 2026 |
 | **Amazon** | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Medium | Aug 22, 2026 |
 | **Oracle** | [Take Ownership Through Ambiguity](https://trueinterview.io/questions/take-ownership-through-ambiguity) | — | Aug 21, 2026 |
@@ -327,5 +324,8 @@ Of the **1,344 questions in this cut that carry a topic label** (46% of it):
 | **Oracle** | [Prioritize Two Critical Tasks](https://trueinterview.io/questions/prioritize-two-critical-tasks) | — | Aug 21, 2026 |
 | **Oracle** | [Demonstrate Leadership and Ownership](https://trueinterview.io/questions/demonstrate-leadership-and-ownership) | — | Aug 21, 2026 |
 | **Oracle** | [Communicate a Difficult Decision to Stakeholders](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) | — | Aug 21, 2026 |
+| **Oracle** | [Rank Departments by Student Count](https://trueinterview.io/questions/rank-departments-by-student-count) | Easy | Aug 21, 2026 |
+| **Amazon** | [Package Tracking & Status Aggregator Engine](https://trueinterview.io/questions/package-tracking-status-aggregator) | Easy | Aug 21, 2026 |
+| **Amazon** | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Hard | Aug 21, 2026 |
 
 <sub>Page 1 of 12 · [Page 2 →](big-tech-2.md)</sub>

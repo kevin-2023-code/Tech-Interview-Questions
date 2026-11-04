@@ -9,7 +9,7 @@ How Snapchat interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [87](../snapchat.md) |
-| Free to read here | 16 |
+| Free to read here | 17 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 09, 2026 |
@@ -49,13 +49,14 @@ Here's what the interview process can look like:
 
 ## Free Snapchat questions
 
-35 questions reported at Snapchat open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+36 questions reported at Snapchat open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-neural-network-regularization-and-dropout) |
 | [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/compare-batch-normalization-and-layer-normalization) |
 | [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/choose-labels-and-losses-for-multiple-engagement-outcomes) |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) |
 | [ML Fundamentals, Transformer & Regularization](https://trueinterview.io/questions/ml-fundamentals-transformer-and-regularization) | Blog | — | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/ml-fundamentals-transformer-and-regularization) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Explain Overfitting and Transformer Attention](https://trueinterview.io/questions/explain-overfitting-and-transformer-attention) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-overfitting-and-transformer-attention) |

@@ -2,7 +2,7 @@
 
 # 🎮 Gaming & interactive — interview & OA questions
 
-**106 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**105 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Roblox (106)](../companies/roblox.md)
+[Roblox (105)](../companies/roblox.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,37 +18,37 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 52 | 49% | ██████████████ | 13 |
+| [Algorithm](../formats/algorithm.md) | 51 | 49% | ██████████████ | 13 |
 | [System Design](../formats/system-design.md) | 26 | 25% | ███████ | 3 |
 | [Blog](../formats/blog.md) | 15 | 14% | ████ | 15 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 6 | 6% | ██ | 1 |
 | [SQL](../formats/sql.md) | 6 | 6% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **16 / 53 / 22**, over the rows the catalog has graded. 32 of the 106 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **16 / 52 / 22**, over the rows the catalog has graded. 32 of the 105 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **52 questions in this cut that carry a topic label** (49% of it):
+Of the **51 questions in this cut that carry a topic label** (49% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 14 | 27% | ████████████ |
-| `hashing` | 13 | 25% | ███████████ |
-| `sorting` | 7 | 13% | ██████ |
-| `matrix` | 6 | 12% | █████ |
-| `sliding-window` | 6 | 12% | █████ |
-| `strings` | 6 | 12% | █████ |
-| `heap` | 5 | 10% | ████ |
-| `greedy` | 4 | 8% | ███ |
-| `math` | 4 | 8% | ███ |
-| `stack` | 4 | 8% | ███ |
+| `arrays` | 13 | 25% | ████████████ |
+| `hashing` | 12 | 24% | ███████████ |
+| `sorting` | 7 | 14% | ██████ |
+| `matrix` | 6 | 12% | ██████ |
+| `sliding-window` | 6 | 12% | ██████ |
+| `heap` | 5 | 10% | █████ |
+| `strings` | 5 | 10% | █████ |
+| `greedy` | 4 | 8% | ████ |
+| `math` | 4 | 8% | ████ |
+| `stack` | 4 | 8% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**5 sightings** across this cut. Newest first.
+**4 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -56,7 +56,6 @@ Of the **52 questions in this cut that carry a topic label** (49% of it):
 | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Roblox | Algorithm | Sep 09, 2026 |
 | [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers) | Roblox | Blog | Aug 30, 2026 |
 | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Roblox | Algorithm | Aug 17, 2026 |
-| [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Roblox … | Algorithm | Aug 12, 2026 |
 
 ---
 
@@ -70,7 +69,6 @@ Of the **52 questions in this cut that carry a topic label** (49% of it):
 | **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | Sep 09, 2026 |
 | **Roblox** | [Handle Release Risks and Cross-Team Blockers](https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers) | — | Aug 30, 2026 |
 | **Roblox** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Easy | Aug 17, 2026 |
-| **Roblox / ByteDance** | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Medium | Aug 12, 2026 |
 | **Roblox** | [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/questions/behavioral-hm-traffic-and-scope) | — | Jun 30, 2026 |
 | **Roblox** | [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Hard | Jun 29, 2026 |
 | **Roblox** | [Design Game Dashboard Friend Activity and Counts](https://trueinterview.io/questions/friend-played-game-near-realtime) | Medium | Jun 19, 2026 |

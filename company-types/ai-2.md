@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**504 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**503 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -85,7 +85,7 @@
 | **C3.ai** | [Streaming Frequent-Event Tracker With a Fixed K](https://trueinterview.io/questions/top-k-heavy-hitters-stream) | Medium | — |
 | **C3.ai** | [Counting Countdown Timers After N Days](https://trueinterview.io/questions/timer-reset-population-growth) | Medium | — |
 | **C3.ai / Meta** | [Versioned Key-Value Store With Point-in-Time Reads](https://trueinterview.io/questions/time-based-key-value-store-3) | Medium | — |
-| **C3.ai** | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum) | Medium | — |
+| **C3.ai / Microsoft / NVIDIA / Visa** | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum) | Medium | — |
 | **C3.ai** | [Greedy Line Wrapping with Even Word Spacing](https://trueinterview.io/questions/text-justification) | Hard | — |
 | **C3.ai** | [Design a Sparse Vector Class With a Fast Dot Product](https://trueinterview.io/questions/sparse-vector-dot-product) | Medium | — |
 | **C3.ai** | [Pairing Tracks With Minute-Aligned Total Length](https://trueinterview.io/questions/song-pairs-divisible-by-60) | Medium | — |
@@ -228,7 +228,6 @@
 | **OpenAI** | [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | Medium | — |
 | **OpenAI** | [GPU Credit Calculator](https://trueinterview.io/questions/d01fe6d8-e86a-4cf8-b36d-900107f35f74) | Easy | — |
 | **OpenAI** | [General Coding Interview](https://trueinterview.io/questions/ced5e63d-df6c-4a76-8166-add49305f598) | Easy | — |
-| **OpenAI / ByteDance / OKX** | [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) | Medium | — |
 | **OpenAI** | [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Medium | — |
 | **OpenAI** | [Implement and Debug a Minimal Neural Network Training Loop (PyTorch)](https://trueinterview.io/questions/a7d621c9-52af-490b-b0e0-df43a030996d) | Medium | — |
 | **OpenAI** | [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a) | Medium | — |
@@ -260,5 +259,6 @@
 | **xAI** | [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | Medium | — |
 | **OpenAI** | [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Medium | — |
 | **OpenAI** | [Design an in-memory rate limiter (token bucket / sliding window)](https://trueinterview.io/questions/91b46503-5a56-4b8a-a1f3-b4f15da02b11) | Medium | — |
+| **OpenAI** | [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Easy | — |
 
 <sub>[← Page 1](ai.md) · Page 2 of 3 · [Page 3 →](ai-3.md)</sub>

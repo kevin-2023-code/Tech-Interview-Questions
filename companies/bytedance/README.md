@@ -8,7 +8,7 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [350](../bytedance.md) |
+| Questions reported | [344](../bytedance.md) |
 | Free to read here | 63 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
@@ -184,6 +184,7 @@ Here's what the interview process can look like:
 | [Longest Substring Without Repeating Characters](../../questions/algorithm/longest-substring-without-repeating-characters-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) |
 | [Count Number of Nice Subarrays](../../questions/algorithm/count-number-of-nice-subarrays/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19) |
 | [Maximum Candies Allocated to K Children](../../questions/algorithm/maximum-candies-allocated-to-k-children/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/399fbb4a-5f57-5d2c-bf6b-ead8141c2dd9) |
+| [Implement a Doubly Linked List](../../questions/object-oriented-programming/implement-a-doubly-linked-list/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) |
 | [Remove All Adjacent Duplicates in String II](../../questions/algorithm/remove-all-adjacent-duplicates-in-string-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) |
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
@@ -195,12 +196,11 @@ Here's what the interview process can look like:
 | [Plus One](../../questions/algorithm/plus-one/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/65c03f5a-0fe9-4f02-8d66-d34a3b8193fd) |
 | [Max Area of Island](../../questions/algorithm/max-area-of-island/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-| [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
 
 ## Everything else
 
-- [All 350 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 344 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every ByteDance question on TrueInterview](https://trueinterview.io/problems/company/bytedance).
 
 ---

@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,653 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,621 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,23 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Microsoft** | [Reverse linked list in fixed-size groups](https://trueinterview.io/questions/reverse-linked-list-in-fixed-size-groups) | Medium | Oct 28, 2025 |
-| **Microsoft** | [Merge multiple sorted arrays using min-heap](https://trueinterview.io/questions/merge-multiple-sorted-arrays-using-min-heap) | Medium | Oct 28, 2025 |
-| **Uber** | [Compute outer boundary of an N-ary tree](https://trueinterview.io/questions/compute-outer-boundary-of-an-n-ary-tree) | Medium | Oct 28, 2025 |
-| **Amazon** | [Check if adding edge creates cycle in digraph](https://trueinterview.io/questions/check-if-adding-edge-creates-cycle-in-digraph) | Medium | Oct 26, 2025 |
-| **Oracle** | [Poker Straight Sequence Check](https://trueinterview.io/questions/valid-poker-straight) | Easy | Oct 22, 2025 |
-| **Stripe** | [Http Request Language Preference](https://trueinterview.io/questions/http-request-language-preference) | Medium | Oct 22, 2025 |
-| **Akuna Capital** | [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order) | Medium | Oct 21, 2025 |
-| **LinkedIn** | [Group words that map to same phone digits](https://trueinterview.io/questions/group-words-that-map-to-same-phone-digits) | Medium | Oct 20, 2025 |
-| **Point72** | [K-th missing number](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) | Medium | Oct 20, 2025 |
-| **Stripe** | [Business Account Data Verification](https://trueinterview.io/questions/business-account-data-verification) | Medium | Oct 20, 2025 |
-| **Google / Stripe** | [Match payments to invoices by memo or amount](https://trueinterview.io/questions/match-payments-to-invoices-by-memo-or-amount-2) | Medium | Oct 19, 2025 |
-| **ByteDance** | [Find first and last index of target](https://trueinterview.io/questions/find-first-and-last-index-of-target) | Medium | Oct 19, 2025 |
-| **Roblox** | [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks) | Hard | Oct 18, 2025 |
-| **DoorDash** | [Find closest value to a target in a BST](https://trueinterview.io/questions/find-closest-value-to-a-target-in-a-bst) | Medium | Oct 17, 2025 |
-| **Rippling** | [Aggregate expenses by person, trip, and category](https://trueinterview.io/questions/aggregate-expenses-by-person-trip-and-category) | Medium | Oct 17, 2025 |
-| **Bloomberg** | [Palindrome Stream Tracker](https://trueinterview.io/questions/palindrome-stream-tracker) | Hard | Oct 17, 2025 |
-| **Bloomberg** | [Solve two array and string problems](https://trueinterview.io/questions/solve-two-array-and-string-problems) | Medium | Oct 16, 2025 |
 | **Bloomberg / Citadel / Hudson River Trading / Meta / Tesla** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Easy | Oct 16, 2025 |
 | **Bloomberg** | [Partition Array by Equivalence Function](https://trueinterview.io/questions/partition-array-by-equivalence-function) | Medium | Oct 16, 2025 |
 | **Bloomberg** | [Level With Maximum Nodes in an N-ary Tree](https://trueinterview.io/questions/level-with-maximum-nodes-in-an-n-ary-tree) | Medium | Oct 16, 2025 |
@@ -260,5 +243,22 @@
 | **C3.ai** | [Nearest Gate Distances in a Grid of Rooms](https://trueinterview.io/questions/walls-and-gates) | Medium | — |
 | **C3.ai** | [Check Whether a Binary Tree Obeys Search-Tree Ordering](https://trueinterview.io/questions/validate-bst) | Medium | — |
 | **C3.ai** | [Counting Countdown Timers After N Days](https://trueinterview.io/questions/timer-reset-population-growth) | Medium | — |
+| **C3.ai / Microsoft / NVIDIA / Visa** | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum) | Medium | — |
+| **C3.ai** | [Greedy Line Wrapping with Even Word Spacing](https://trueinterview.io/questions/text-justification) | Hard | — |
+| **C3.ai** | [Pairing Tracks With Minute-Aligned Total Length](https://trueinterview.io/questions/song-pairs-divisible-by-60) | Medium | — |
+| **C3.ai** | [Versioned Array With Cheap Snapshots and Historical Reads](https://trueinterview.io/questions/snapshot-array) | Medium | — |
+| **C3.ai** | [Cutting a Metal Sheet into Squares for Maximum Revenue](https://trueinterview.io/questions/sheet-metal-cutting-max-value) | Medium | — |
+| **C3.ai** | [Shortest Substring Covering All Characters of a Pattern](https://trueinterview.io/questions/minimum-window-substring-4) | Hard | — |
+| **C3.ai** | [Combine Many Pre-Sorted Lists Into One](https://trueinterview.io/questions/merge-k-sorted-arrays) | Medium | — |
+| **C3.ai** | [Maximum Score Taking Cards From Either End](https://trueinterview.io/questions/max-points-from-cards) | Medium | — |
+| **C3.ai** | [Longest Equal-Step Subsequence in an Integer Array](https://trueinterview.io/questions/longest-arithmetic-subsequence) | Hard | — |
+| **C3.ai** | [Nearest K Points to the Origin](https://trueinterview.io/questions/k-closest-points-to-origin) | Medium | — |
+| **C3.ai** | [Count Days a Temperature Stays the Maximum](https://trueinterview.io/questions/highest-temperature-span) | Medium | — |
+| **C3.ai** | [Bucket Words That Share the Same Letters](https://trueinterview.io/questions/group-anagrams-2) | Easy | — |
+| **C3.ai** | [Reachability on a Height Grid With a Climb Limit](https://trueinterview.io/questions/grid-jump-reachability) | Medium | — |
+| **C3.ai** | [Enumerate All Balanced Bracket Strings for N Pairs](https://trueinterview.io/questions/generate-parentheses) | Medium | — |
+| **C3.ai** | [Two-Basket Fruit Picking Along a Tree Row](https://trueinterview.io/questions/fruit-into-baskets) | Medium | — |
+| **C3.ai** | [Spot the Repeated Value in a Constrained Array](https://trueinterview.io/questions/find-duplicate-number) | Medium | — |
+| **C3.ai** | [Compute Ratios From Variable Equations](https://trueinterview.io/questions/evaluate-division-2) | Medium | — |
 
 <sub>[← Page 5](algorithm-5.md) · Page 6 of 11 · [Page 7 →](algorithm-7.md)</sub>

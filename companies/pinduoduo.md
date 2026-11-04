@@ -31,8 +31,8 @@ Which stage each question came from, for the **27 of 27** questions at Pinduoduo
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 22 | ██████████ | [Algorithm](../formats/algorithm.md) (68%) | 3 / 9 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 5 | ██ | [Algorithm](../formats/algorithm.md) (80%) | 1 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 3 / 8 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 6 | ███ | [Algorithm](../formats/algorithm.md) (83%) | 1 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -44,9 +44,9 @@ Which stage each question came from, for the **27 of 27** questions at Pinduoduo
 | :-- | :-- | :-: | :-- | :-- |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | Oct 01, 2026 |
 | [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) | Blog | — | Phone screen | Sep 02, 2026 |
-| [Count Longest Substrings After Character Replacements](https://trueinterview.io/questions/count-longest-substrings-after-character-replacements) | Algorithm | Medium | Phone screen | Aug 22, 2026 |
 | [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) | Blog | — | Phone screen | Aug 22, 2026 |
 | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
+| [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Onsite / virtual onsite | Aug 10, 2026 |
 
 ## What they ask about
 
@@ -58,7 +58,7 @@ Of the **20 questions at Pinduoduo that carry a topic label** (74% of them — t
 | `arrays` | 4 | 20% | ██████████ | Aug 16, 2026 |
 | `dynamic-programming` | 3 | 15% | ███████ | Jul 17, 2026 |
 | `hashing` | 3 | 15% | ███████ | Jun 08, 2026 |
-| `sliding-window` | 3 | 15% | ███████ | Aug 22, 2026 |
+| `sliding-window` | 3 | 15% | ███████ | Mar 06, 2026 |
 | `heap` | 2 | 10% | █████ | Jun 08, 2026 |
 | `sorting` | 2 | 10% | █████ | Mar 27, 2026 |
 | `stack` | 2 | 10% | █████ | Mar 24, 2026 |
@@ -91,9 +91,9 @@ The 8 questions to open first if you are preparing for Pinduoduo, ranked by **th
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Oct 01, 2026 |
 | **2** | [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) 🆓 | Blog | — | — | Sep 02, 2026 |
-| **3** | [Count Longest Substrings After Character Replacements](https://trueinterview.io/questions/count-longest-substrings-after-character-replacements) | Algorithm | Medium | — | Aug 22, 2026 |
-| **4** | [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) 🆓 | Blog | — | — | Aug 22, 2026 |
-| **5** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | 1 | Aug 16, 2026 |
+| **3** | [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) 🆓 | Blog | — | — | Aug 22, 2026 |
+| **4** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | 1 | Aug 16, 2026 |
+| **5** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | 1 | Aug 10, 2026 |
 | **6** | [Project Deep Dive & Behavioral](https://trueinterview.io/questions/project-deep-dive-and-bq-2) 🆓 | Blog | — | — | Aug 04, 2026 |
 | **7** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Medium | — | Jul 30, 2026 |
 | **8** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Hard | — | Jul 17, 2026 |
@@ -121,8 +121,8 @@ The 8 questions to open first if you are preparing for Pinduoduo, ranked by **th
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
 | [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) | Blog | — | Sep 02, 2026 |
 | [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) | Blog | — | Aug 22, 2026 |
-| [Count Longest Substrings After Character Replacements](https://trueinterview.io/questions/count-longest-substrings-after-character-replacements) | Algorithm | Medium | Aug 22, 2026 |
 | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | Aug 16, 2026 |
+| [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Aug 10, 2026 |
 | [Project Deep Dive & Behavioral](https://trueinterview.io/questions/project-deep-dive-and-bq-2) | Blog | — | Aug 04, 2026 |
 | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Medium | Jul 30, 2026 |
 | [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) | Blog | — | Jul 17, 2026 |
@@ -135,9 +135,9 @@ The 8 questions to open first if you are preparing for Pinduoduo, ranked by **th
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience) | Blog | — | Jan 01, 2026 |
+| [Find longest uniform substring after k replacements](https://trueinterview.io/questions/find-longest-uniform-substring-after-k-replacements) | Algorithm | Medium | — |
 | [Transaction Settlement](https://trueinterview.io/questions/2d3f6203-6989-434b-88a1-3299068e034e) | Algorithm | Hard | — |
 | [Design a Simplified Twitter Feed](https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44) | Algorithm | Hard | — |
-| [Minesweeper Variant](https://trueinterview.io/questions/e5567ea6-f961-428d-95f0-dea8ac70ddc6) | Algorithm | Medium | — |
 | [Perfect Squares Decomposition](https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84) | Algorithm | Hard | — |
 | [Logistics Variant](https://trueinterview.io/questions/86561494-7d80-47e0-a298-bb7b9e51ad7b) | Algorithm | Hard | — |
 | [Sort Colors and Sizes](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc) | Algorithm | Easy | — |

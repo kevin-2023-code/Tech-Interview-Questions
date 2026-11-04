@@ -8,8 +8,8 @@ How Uber interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [266](../uber.md) |
-| Free to read here | 66 |
+| Questions reported | [263](../uber.md) |
+| Free to read here | 67 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 29, 2026 |
@@ -50,11 +50,12 @@ Here's what the interview process can look like:
 
 ## Free Uber questions
 
-105 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+106 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Squares of a Sorted Array](../../questions/algorithm/squares-of-a-sorted-array/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) |
+| [Insert Interval (LC 57)](../../questions/algorithm/insert-interval/README.md) | Algorithm | Medium | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/insert-interval) |
 | [Maximal Square (LeetCode 221)](../../questions/algorithm/maximal-square/README.md) | Algorithm | Hard | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/maximal-square) |
 | [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/questions/bar-raiser-architecture-and-values) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/bar-raiser-architecture-and-values) |
 | [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/questions/onsite-bq-hm-deep-dive) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/onsite-bq-hm-deep-dive) |
@@ -162,7 +163,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 266 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 263 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Uber question on TrueInterview](https://trueinterview.io/problems/company/uber).
 
 ---

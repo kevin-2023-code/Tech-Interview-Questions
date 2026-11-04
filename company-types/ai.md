@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**504 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**503 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[OpenAI (176)](../companies/openai.md) · [Anthropic (99)](../companies/anthropic.md) · [C3.ai (55)](../companies/c3-ai.md) · [xAI (43)](../companies/xai.md) · [Scale AI (35)](../companies/scale-ai.md) · [Perplexity (25)](../companies/perplexity.md) · [Harvey (23)](../companies/harvey.md) · [Mercor (14)](../companies/mercor.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Mistral AI (9)](../companies/mistral-ai.md) · [Cursor (7)](../companies/cursor.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (6)](../companies/moveworks.md) · [Together AI (6)](../companies/together-ai.md) · [Cohere (3)](../companies/cohere.md)
+[OpenAI (175)](../companies/openai.md) · [Anthropic (99)](../companies/anthropic.md) · [C3.ai (55)](../companies/c3-ai.md) · [xAI (43)](../companies/xai.md) · [Scale AI (35)](../companies/scale-ai.md) · [Perplexity (25)](../companies/perplexity.md) · [Harvey (23)](../companies/harvey.md) · [Mercor (14)](../companies/mercor.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Mistral AI (9)](../companies/mistral-ai.md) · [Cursor (7)](../companies/cursor.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (6)](../companies/moveworks.md) · [Together AI (6)](../companies/together-ai.md) · [Cohere (3)](../companies/cohere.md)
 
 <sub>15 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,25 +18,25 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 181 | 36% | ██████████████ | 33 |
+| [Algorithm](../formats/algorithm.md) | 180 | 36% | ██████████████ | 32 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 99 | 20% | ████████ | 17 |
 | [System Design](../formats/system-design.md) | 91 | 18% | ███████ | 13 |
 | [Blog](../formats/blog.md) | 86 | 17% | ███████ | 86 |
 | [AI Coding](../formats/ai-coding.md) | 40 | 8% | ███ | 3 |
 | [SQL](../formats/sql.md) | 7 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **34 / 252 / 132**, over the rows the catalog has graded. 153 of the 504 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **34 / 251 / 132**, over the rows the catalog has graded. 152 of the 503 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **182 questions in this cut that carry a topic label** (36% of it):
+Of the **181 questions in this cut that carry a topic label** (36% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 42 | 23% | ████████████ |
 | `graphs` | 32 | 18% | █████████ |
 | `arrays` | 31 | 17% | █████████ |
-| `strings` | 30 | 16% | █████████ |
+| `strings` | 30 | 17% | █████████ |
 | `math` | 21 | 12% | ██████ |
 | `sorting` | 17 | 9% | █████ |
 | `matrix` | 15 | 8% | ████ |

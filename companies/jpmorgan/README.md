@@ -9,7 +9,7 @@ How JPMorgan interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [28](../jpmorgan.md) |
-| Free to read here | 6 |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 23, 2026 |
@@ -48,12 +48,13 @@ Here's what the interview process can look like:
 
 ## Free JPMorgan questions
 
-12 questions reported at JPMorgan open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+13 questions reported at JPMorgan open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Super Day Behavioral Round](https://trueinterview.io/questions/superday-behavioral-round) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/superday-behavioral-round) |
 | [Explain Core ML Concepts](https://trueinterview.io/questions/explain-core-ml-concepts-5) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/explain-core-ml-concepts-5) |
+| [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Explain Daily Signal Construction and a Prediction Workflow](https://trueinterview.io/questions/explain-daily-signal-construction-and-a-prediction-workflow) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/explain-daily-signal-construction-and-a-prediction-workflow) |
 | [Describe a proud project and conflict](https://trueinterview.io/questions/describe-a-proud-project-and-conflict) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/describe-a-proud-project-and-conflict) |
 | [Quant Probability and Statistics Orals](https://trueinterview.io/questions/quant-probability-and-statistics-orals) | Blog | — | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/quant-probability-and-statistics-orals) |

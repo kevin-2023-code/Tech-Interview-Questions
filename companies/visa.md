@@ -8,22 +8,22 @@
 
 > 🏦 [Banks, insurers & asset managers](../company-types/banking-finance.md) · 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-visa)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-visa)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
 | Questions tracked | **15** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
+| Most recent sighting | Mar 20, 2026 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (87% of 15) |
 | Difficulty (easy / medium / hard) | 3 / 10 / 2 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 9 in this snapshot |
 
-<sub>Counted from the 15 questions reported at Visa. 0 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 15 questions reported at Visa. 1 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
@@ -32,14 +32,14 @@ Which stage each question came from, for the **15 of 15** questions at Visa that
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 8 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | ██ | [System Design](../formats/system-design.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 7 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ███ | [System Design](../formats/system-design.md) (67%) | 0 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at Visa.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Visa since Mar 20, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
@@ -47,33 +47,41 @@ Of the **13 questions at Visa that carry a topic label** (87% of them — the re
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `binary-search` | 2 | 15% | ████████████ | — |
-| `dynamic-programming` | 2 | 15% | ████████████ | — |
-| `graphs` | 2 | 15% | ████████████ | — |
-| `two-pointers` | 2 | 15% | ████████████ | — |
-| `bit-manipulation` | 1 | 8% | ██████ | — |
-| `greedy` | 1 | 8% | ██████ | — |
-| `hashing` | 1 | 8% | ██████ | — |
-| `sliding-window` | 1 | 8% | ██████ | — |
-| `stack` | 1 | 8% | ██████ | — |
-| `topological-sort` | 1 | 8% | ██████ | — |
+| `graphs` | 3 | 23% | ████████████ | Mar 20, 2026 |
+| `binary-search` | 2 | 15% | ████████ | — |
+| `dynamic-programming` | 2 | 15% | ████████ | — |
+| `two-pointers` | 2 | 15% | ████████ | — |
+| `arrays` | 1 | 8% | ████ | — |
+| `bit-manipulation` | 1 | 8% | ████ | — |
+| `greedy` | 1 | 8% | ████ | — |
+| `hashing` | 1 | 8% | ████ | — |
+| `sliding-window` | 1 | 8% | ████ | — |
+| `sorting` | 1 | 8% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
+## When they asked it
+
+Every recorded sighting at Visa, by the month it was reported in — Mar 20, 2026 to Mar 20, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ████████████████████████ |
+
 ## Start here
 
-The 8 questions to open first if you are preparing for Visa, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Visa, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) 🆓 | Algorithm | Medium | 3 | — |
-| **2** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) 🆓 | Algorithm | Easy | 2 | — |
-| **3** | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) 🆓 | Algorithm | Easy | 1 | — |
-| **4** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) 🆓 | Algorithm | Medium | 1 | — |
-| **5** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Algorithm | Medium | 1 | — |
-| **6** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Algorithm | Easy | — | — |
-| **7** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | System Design | Medium | — | — |
-| **8** | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Algorithm | Medium | — | — |
+| **1** | [Course Schedule](https://trueinterview.io/questions/course-schedule) 🆓 | Algorithm | Medium | 10 | Mar 20, 2026 |
+| **2** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) 🆓 | Algorithm | Medium | 3 | — |
+| **3** | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum) | Algorithm | Medium | 3 | — |
+| **4** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) 🆓 | Algorithm | Easy | 2 | — |
+| **5** | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) 🆓 | Algorithm | Easy | 1 | — |
+| **6** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) 🆓 | Algorithm | Medium | 1 | — |
+| **7** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Algorithm | Easy | — | — |
+| **8** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | System Design | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -113,9 +121,9 @@ What candidates said happened in the room at Visa — written up by the people w
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [AI-augmented Course Schedule Variation](https://trueinterview.io/questions/f07d3e71-08f4-4626-a568-17e13bd74cbc) | Algorithm | Medium | — |
+| [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
+| [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum) | Algorithm | Medium | — |
 | [Largest Square Area in Cityscape](https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6) | Algorithm | Medium | — |
-| [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Algorithm | Medium | — |
 | [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637) | System Design | Medium | — |
 | [Minimize Maximum of Array](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47) | Algorithm | Hard | — |
 | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Algorithm | Easy | — |

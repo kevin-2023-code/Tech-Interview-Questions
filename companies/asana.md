@@ -17,7 +17,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [System Design](../formats/system-design.md) (36% of 11) |
 | Difficulty (easy / medium / hard) | 0 / 7 / 1 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 11 questions reported at Asana. 11 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -28,8 +28,8 @@ Which stage each question came from, for the **11 of 11** questions at Asana tha
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 4 | ██████ | [System Design](../formats/system-design.md) (50%) | 0 / 2 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (29%) | 0 / 5 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 5 | ████████ | [System Design](../formats/system-design.md) (40%) | 0 / 3 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 6 | ██████████ | [Blog](../formats/blog.md) (33%) | 0 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -60,12 +60,12 @@ Every recorded sighting at Asana, by the month it was reported in — Jan 07, 20
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Asana, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Asana, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design and Solve a Rotatable Jigsaw Puzzle](https://trueinterview.io/questions/design-and-solve-a-rotatable-jigsaw-puzzle) 🆓 | Object Oriented Programming | Hard | — | Apr 13, 2026 |
-| **2** | [Compute Products Excluding Each Index](https://trueinterview.io/questions/compute-products-excluding-each-index) | Algorithm | Medium | — | Apr 02, 2026 |
+| **2** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 5 | Apr 02, 2026 |
 | **3** | [Design a 2048 Game](https://trueinterview.io/questions/design-a-2048-game) | Object Oriented Programming | Medium | — | Apr 02, 2026 |
 | **4** | [Design a Collaborative Todo List](https://trueinterview.io/questions/design-a-collaborative-todo-list) | System Design | Medium | — | Apr 02, 2026 |
 | **5** | [Implement an ASCII Art Printer](https://trueinterview.io/questions/implement-an-ascii-art-printer) | Algorithm | Medium | — | Apr 02, 2026 |
@@ -89,8 +89,8 @@ The 8 questions to open first if you are preparing for Asana, ranked by **the mo
 | [Design a 2048 Game](https://trueinterview.io/questions/design-a-2048-game) | Object Oriented Programming | Medium | Apr 02, 2026 |
 | [Design a Collaborative Todo List](https://trueinterview.io/questions/design-a-collaborative-todo-list) | System Design | Medium | Apr 02, 2026 |
 | [Implement an ASCII Art Printer](https://trueinterview.io/questions/implement-an-ascii-art-printer) | Algorithm | Medium | Apr 02, 2026 |
-| [Compute Products Excluding Each Index](https://trueinterview.io/questions/compute-products-excluding-each-index) | Algorithm | Medium | Apr 02, 2026 |
 | [Answer Manager Behavioral Prompts](https://trueinterview.io/questions/answer-manager-behavioral-prompts) | Blog | — | Apr 02, 2026 |
+| [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Apr 02, 2026 |
 | [Explain code complexity and design two games](https://trueinterview.io/questions/explain-code-complexity-and-design-two-games) | System Design | Medium | Feb 08, 2026 |
 | [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) | Blog | — | Feb 08, 2026 |
 | [Design a Twitter-like microblogging service](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) | System Design | Medium | Feb 08, 2026 |

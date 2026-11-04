@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,591 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,581 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (489)](../companies/meta.md) · [Google (383)](../companies/google.md) · [ByteDance (350)](../companies/bytedance.md) · [LinkedIn (145)](../companies/linkedin.md) · [Pinterest (128)](../companies/pinterest.md) · [Netflix (107)](../companies/netflix.md) · [Snapchat (87)](../companies/snapchat.md) · [Reddit (47)](../companies/reddit.md) · [Yelp (22)](../companies/yelp.md) · [Discord (11)](../companies/discord.md)
+[Meta (489)](../companies/meta.md) · [Google (382)](../companies/google.md) · [ByteDance (344)](../companies/bytedance.md) · [LinkedIn (145)](../companies/linkedin.md) · [Pinterest (128)](../companies/pinterest.md) · [Netflix (107)](../companies/netflix.md) · [Snapchat (87)](../companies/snapchat.md) · [Reddit (47)](../companies/reddit.md) · [Yelp (22)](../companies/yelp.md) · [Discord (11)](../companies/discord.md)
 
 <sub>10 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,37 +18,37 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 700 | 44% | ██████████████ | 121 |
+| [Algorithm](../formats/algorithm.md) | 691 | 44% | ██████████████ | 120 |
 | [Blog](../formats/blog.md) | 410 | 26% | ████████ | 410 |
-| [System Design](../formats/system-design.md) | 214 | 13% | ████ | 17 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 128 | 8% | ███ | 12 |
+| [System Design](../formats/system-design.md) | 214 | 14% | ████ | 17 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 127 | 8% | ███ | 13 |
 | [SQL](../formats/sql.md) | 122 | 8% | ██ | 3 |
 | [AI Coding](../formats/ai-coding.md) | 17 | 1% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **139 / 756 / 286**, over the rows the catalog has graded. 565 of the 1,591 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **138 / 747 / 286**, over the rows the catalog has graded. 565 of the 1,581 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **719 questions in this cut that carry a topic label** (45% of it):
+Of the **710 questions in this cut that carry a topic label** (45% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 124 | 17% | ████████████ |
-| `hashing` | 113 | 16% | ███████████ |
-| `arrays` | 98 | 14% | █████████ |
-| `strings` | 92 | 13% | █████████ |
+| `graphs` | 123 | 17% | ████████████ |
+| `hashing` | 111 | 16% | ███████████ |
+| `arrays` | 95 | 13% | █████████ |
+| `strings` | 90 | 13% | █████████ |
 | `trees` | 65 | 9% | ██████ |
-| `backtracking` | 56 | 8% | █████ |
-| `greedy` | 52 | 7% | █████ |
+| `backtracking` | 55 | 8% | █████ |
+| `greedy` | 51 | 7% | █████ |
 | `binary-search` | 50 | 7% | █████ |
 | `dynamic-programming` | 47 | 7% | █████ |
-| `heap` | 46 | 6% | ████ |
+| `heap` | 45 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**142 sightings** across this cut. Newest first.
+**141 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Google | Algorithm | Sep 29, 2026 |
 | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Google | Algorithm | Sep 29, 2026 |
 
-<sub>130 more in this window are in the table below.</sub>
+<sub>129 more in this window are in the table below.</sub>
 
 ---
 
@@ -214,7 +214,6 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 | **Google** | [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Hard | Aug 13, 2026 |
 | **ByteDance / Bobyard** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Medium | Aug 13, 2026 |
 | **Google** | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | Easy | Aug 13, 2026 |
-| **Roblox / ByteDance** | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Medium | Aug 12, 2026 |
 | **Google** | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Hard | Aug 11, 2026 |
 | **Citadel / ByteDance** | [Candy (LC 135)](https://trueinterview.io/questions/candy-lc-135) | Medium | Aug 08, 2026 |
 | **Google** | [Explain Your Most Meaningful Project Contribution](https://trueinterview.io/questions/explain-your-most-meaningful-project-contribution) | — | Aug 06, 2026 |
@@ -295,9 +294,8 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 | **Netflix** | [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds) | — | Jun 09, 2026 |
 | **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
 | **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
-| **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Easy | Jun 08, 2026 |
+| **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber / Meta / Snapchat** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Easy | Jun 08, 2026 |
 | **ByteDance / Amazon / Ebay** | [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Medium | Jun 06, 2026 |
-| **ByteDance / Amazon** | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Medium | Jun 06, 2026 |
 | **Pinterest** | [Put Boxes Into the Warehouse (LC 1564)](https://trueinterview.io/questions/put-boxes-into-warehouse) | Medium | Jun 05, 2026 |
 | **Netflix / Amazon / ByteDance / Ebay** | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Medium | Jun 04, 2026 |
 | **Meta** | [Card Game (Three Cards Summing to 15)](https://trueinterview.io/questions/ai-coding-card-game-sum-fifteen) | Medium | Jun 03, 2026 |
@@ -327,5 +325,7 @@ Of the **719 questions in this cut that carry a topic label** (45% of it):
 | **Pinterest** | [Fresh Content Reach](https://trueinterview.io/questions/fresh-content-reach) | Medium | May 23, 2026 |
 | **Pinterest** | [CTR By Pin-Format and Date](https://trueinterview.io/questions/ctr-by-pin-format-and-date) | Medium | May 23, 2026 |
 | **Meta** | [Recent Unrelated Posts](https://trueinterview.io/questions/recent-unrelated-posts) | Easy | May 23, 2026 |
+| **Meta** | [Average Reactions per Post](https://trueinterview.io/questions/average-reactions-per-post) | Medium | May 23, 2026 |
+| **Meta** | [Advertising Time-of-Day Analysis](https://trueinterview.io/questions/advertising-time-of-day-analysis) | Medium | May 23, 2026 |
 
 <sub>Page 1 of 7 · [Page 2 →](consumer-internet-2.md)</sub>

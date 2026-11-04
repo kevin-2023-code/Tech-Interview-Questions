@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**375 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**374 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Citadel (98)](../companies/citadel.md) · [Two Sigma (50)](../companies/two-sigma.md) · [Squarepoint (45)](../companies/squarepoint.md) · [Point72 (41)](../companies/point72.md) · [Akuna Capital (35)](../companies/akuna-capital.md) · [Optiver (35)](../companies/optiver.md) · [Hudson River Trading (22)](../companies/hudson-river-trading.md) · [Voleon (18)](../companies/voleon.md) · [Jane Street (15)](../companies/jane-street.md) · [Drw (10)](../companies/drw.md) · [Imc (10)](../companies/imc.md) · [Chicago Trading (5)](../companies/chicago-trading.md)
+[Citadel (97)](../companies/citadel.md) · [Two Sigma (50)](../companies/two-sigma.md) · [Squarepoint (45)](../companies/squarepoint.md) · [Point72 (41)](../companies/point72.md) · [Akuna Capital (35)](../companies/akuna-capital.md) · [Optiver (35)](../companies/optiver.md) · [Hudson River Trading (22)](../companies/hudson-river-trading.md) · [Voleon (18)](../companies/voleon.md) · [Jane Street (15)](../companies/jane-street.md) · [Drw (10)](../companies/drw.md) · [Imc (10)](../companies/imc.md) · [Chicago Trading (5)](../companies/chicago-trading.md)
 
 <sub>12 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,18 +18,18 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 206 | 55% | ██████████████ | 53 |
+| [Algorithm](../formats/algorithm.md) | 205 | 55% | ██████████████ | 53 |
 | [Blog](../formats/blog.md) | 95 | 25% | ██████ | 95 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 45 | 12% | ███ | 7 |
 | [System Design](../formats/system-design.md) | 16 | 4% | █ | 0 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 6 | 2% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **35 / 181 / 64**, over the rows the catalog has graded. 157 of the 375 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **35 / 180 / 64**, over the rows the catalog has graded. 157 of the 374 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **198 questions in this cut that carry a topic label** (53% of it):
+Of the **197 questions in this cut that carry a topic label** (53% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -37,7 +37,7 @@ Of the **198 questions in this cut that carry a topic label** (53% of it):
 | `hashing` | 30 | 15% | █████████ |
 | `math` | 29 | 15% | █████████ |
 | `sorting` | 25 | 13% | ████████ |
-| `greedy` | 24 | 12% | ███████ |
+| `greedy` | 23 | 12% | ███████ |
 | `dynamic-programming` | 19 | 10% | ██████ |
 | `strings` | 19 | 10% | ██████ |
 | `graphs` | 18 | 9% | ██████ |
@@ -48,7 +48,7 @@ Of the **198 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**38 sightings** across this cut. Newest first.
+**37 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **198 questions in this cut that carry a topic label** (53% of it):
 | [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/questions/posterior-probability-of-a-two-headed-coin-after-three-heads) | Drw | Blog | Sep 13, 2026 |
 | [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/questions/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | Drw | Blog | Sep 13, 2026 |
 
-<sub>26 more in this window are in the table below.</sub>
+<sub>25 more in this window are in the table below.</sub>
 
 ---
 
@@ -101,7 +101,6 @@ Of the **198 questions in this cut that carry a topic label** (53% of it):
 | **Squarepoint** | [Count Files Safely from Bash](https://trueinterview.io/questions/count-files-safely-from-bash) | Medium | Aug 29, 2026 |
 | **Squarepoint** | [Choose Between an Array and a Linked List](https://trueinterview.io/questions/choose-between-an-array-and-a-linked-list) | — | Aug 29, 2026 |
 | **Citadel** | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | Hard | Aug 29, 2026 |
-| **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | Aug 29, 2026 |
 | **Squarepoint** | [Find Values Whose Removal Minimizes Pairing Cost](https://trueinterview.io/questions/find-values-whose-removal-minimizes-pairing-cost) | Hard | Aug 29, 2026 |
 | **Akuna Capital** | [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Easy | Aug 26, 2026 |
 | **Akuna Capital** | [Evaluate a Hexadecimal Bitwise AND](https://trueinterview.io/questions/evaluate-a-hexadecimal-bitwise-and) | — | Aug 26, 2026 |
@@ -174,7 +173,8 @@ Of the **198 questions in this cut that carry a topic label** (53% of it):
 | **Hudson River Trading** | [Explain Python and React performance fundamentals](https://trueinterview.io/questions/explain-python-and-react-performance-fundamentals) | — | Apr 06, 2026 |
 | **Citadel** | [Design Inventory Availability and Order Placement](https://trueinterview.io/questions/design-inventory-availability-and-order-placement) | Medium | Apr 06, 2026 |
 | **Meta / ByteDance / Citadel** | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Medium | Apr 02, 2026 |
-| **Apple / Amazon / GEICO / Microsoft / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
+| **Apple / Amazon / GEICO / Microsoft / Squarepoint / Asana** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
+| **Uber / Google / Squarepoint** | [Shortest Subarray with At Least K Distinct](https://trueinterview.io/questions/oa-shortest-subarray-k-distinct) | Medium | Apr 01, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
 | **Apple / ByteDance / Citadel / Meta / Snowflake** | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Medium | Apr 01, 2026 |
 | **Citadel** | [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/questions/qd-eqr-onsite-coding-ladder) | — | Mar 30, 2026 |

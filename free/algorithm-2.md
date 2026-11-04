@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**483 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**482 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -49,7 +49,6 @@
 | [Implement popup and redirect in JavaScript](https://trueinterview.io/questions/implement-popup-and-redirect-in-javascript) | **Bitkernel** | Medium | Oct 03, 2025 |
 | [Implement Trie with Non-Standard Alphabet](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712) | **Snowflake** | Medium | — |
 | [Incremental Task Scheduler](https://trueinterview.io/questions/incremental-task-scheduler) | **LinkedIn** | Medium | Aug 31, 2025 |
-| [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | **Apple** | Medium | Jul 28, 2026 |
 | [Interval List Intersections](https://trueinterview.io/questions/interval-list-intersections) | **Uber** | Medium | Jan 09, 2026 |
 | [K Smallest Substring](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c) | **Akuna Capital** | Medium | — |
 | [K-th missing number](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) | **Point72** | Medium | Oct 20, 2025 |

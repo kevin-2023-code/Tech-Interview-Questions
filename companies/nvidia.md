@@ -31,8 +31,8 @@ Which stage each question came from, for the **54 of 54** questions at NVIDIA th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 3 / 15 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 21 | ██████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 10 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 37 | ██████████ | [Algorithm](../formats/algorithm.md) (43%) | 3 / 14 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 22 | ██████ | [Algorithm](../formats/algorithm.md) (41%) | 1 / 11 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -54,10 +54,10 @@ Of the **23 questions at NVIDIA that carry a topic label** (43% of them — the 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `two-pointers` | 5 | 22% | ████████████ | Dec 08, 2025 |
+| `arrays` | 4 | 17% | ██████████ | Aug 21, 2026 |
 | `hashing` | 4 | 17% | ██████████ | Apr 15, 2026 |
-| `arrays` | 3 | 13% | ███████ | Aug 21, 2026 |
+| `sorting` | 4 | 17% | ██████████ | Feb 04, 2026 |
 | `sliding-window` | 3 | 13% | ███████ | May 01, 2026 |
-| `sorting` | 3 | 13% | ███████ | Feb 04, 2026 |
 | `strings` | 3 | 13% | ███████ | Apr 26, 2026 |
 | `binary-search` | 2 | 9% | █████ | Aug 21, 2026 |
 | `heap` | 2 | 9% | █████ | Feb 05, 2026 |
@@ -153,6 +153,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [Optimize a small-string C++ class](https://trueinterview.io/questions/optimize-a-small-string-cplusplus-class) | Blog | — | Dec 18, 2025 |
 | [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop) | Algorithm | Hard | Dec 10, 2025 |
 | [Return Unique Three-Sum Value Triples](https://trueinterview.io/questions/return-unique-three-sum-value-triples) | Algorithm | Hard | Dec 08, 2025 |
+| [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum) | Algorithm | Medium | — |
 | [Sell GPUs to a retail CEO](https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo) | Blog | — | — |
 | [Resolve conflict and learn from failure](https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure) | Blog | — | — |
 | [Reflect on interview takeaways and adaptation](https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation) | Blog | — | — |
@@ -160,7 +161,6 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [Demonstrate cultural fit and sales-oriented leadership](https://trueinterview.io/questions/demonstrate-cultural-fit-and-sales-oriented-leadership) | Blog | — | — |
 | [Design and explain robust web APIs for ML inference](https://trueinterview.io/questions/design-and-explain-robust-web-apis-for-ml-inference) | System Design | Medium | — |
 | [Analyze overfitting, DenseNet, preprocessing, and cross-validation](https://trueinterview.io/questions/analyze-overfitting-densenet-preprocessing-and-cross-validation) | Blog | — | — |
-| [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Algorithm | Medium | — |
 | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | — |
 | [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | AI Coding | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |

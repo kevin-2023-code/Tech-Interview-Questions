@@ -2,7 +2,7 @@
 
 # Snowflake interview process, OA & interview questions
 
-**147 questions** reported at Snowflake · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
+**145 questions** reported at Snowflake · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Snowflake interviews & the free questions](snowflake/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **147** |
+| Questions tracked | **145** |
 | Most recent sighting | Oct 01, 2026 |
 | Reported in the last 90 days | 14 |
-| Most common format | [Algorithm](../formats/algorithm.md) (68% of 147) |
-| Difficulty (easy / medium / hard) | 20 / 95 / 20 |
+| Most common format | [Algorithm](../formats/algorithm.md) (68% of 145) |
+| Difficulty (easy / medium / hard) | 20 / 94 / 19 |
 | Free to practise | [54](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 147 questions reported at Snowflake. 94 of them carry a sighting date; the other 53 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 145 questions reported at Snowflake. 93 of them carry a sighting date; the other 52 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **147 of 147** questions at Snowflake that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **145 of 145** questions at Snowflake that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 15 | █ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 6 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 104 | ██████████ | [Algorithm](../formats/algorithm.md) (76%) | 8 / 72 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 102 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 8 / 71 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 61 | ██████ | [Algorithm](../formats/algorithm.md) (48%) | 6 / 42 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,14 +59,14 @@ Which stage each question came from, for the **147 of 147** questions at Snowfla
 
 ## What they ask about
 
-Of the **99 questions at Snowflake that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **97 questions at Snowflake that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 22 | 22% | ████████████ | Sep 17, 2026 |
-| `trees` | 15 | 15% | ████████ | Jun 24, 2026 |
+| `graphs` | 22 | 23% | ████████████ | Sep 17, 2026 |
+| `trees` | 14 | 14% | ████████ | Jun 24, 2026 |
 | `backtracking` | 12 | 12% | ███████ | Sep 17, 2026 |
-| `dynamic-programming` | 12 | 12% | ███████ | Jun 07, 2026 |
+| `dynamic-programming` | 11 | 11% | ██████ | Jun 07, 2026 |
 | `strings` | 10 | 10% | █████ | Sep 29, 2026 |
 | `arrays` | 9 | 9% | █████ | Sep 17, 2026 |
 | `hashing` | 9 | 9% | █████ | Aug 16, 2026 |
@@ -88,7 +88,7 @@ Every recorded sighting at Snowflake, by the month it was reported in — Jul 20
 | [Jul 2026](../by-month/2026-07.md) | 1 | █ |
 | [Jun 2026](../by-month/2026-06.md) | 17 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 6 | ████████ |
-| [Apr 2026](../by-month/2026-04.md) | 10 | ██████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 9 | █████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 4 | ██████ |
 | [Feb 2026](../by-month/2026-02.md) | 14 | ████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 10 | ██████████████ |
@@ -176,7 +176,6 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | System Design | Hard | Apr 20, 2026 |
 | [Document Predicate Search Engine](https://trueinterview.io/questions/document-predicate-search-engine) | Algorithm | Medium | Apr 20, 2026 |
 | [Merge Two Sorted Lists](https://trueinterview.io/questions/merge-two-sorted-lists) | Algorithm | Easy | Apr 20, 2026 |
-| [Limit Tree Height by Deletions](https://trueinterview.io/questions/limit-tree-height-by-deletions) | Algorithm | Hard | Apr 15, 2026 |
 | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | System Design | Medium | Apr 07, 2026 |
 | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Apr 01, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
@@ -248,7 +247,6 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | [Find Unique Number in Consecutive Pairs](https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027) | Algorithm | Medium | — |
 | [Minimize Marbles in Grid](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) | Algorithm | Hard | — |
 | [Implement Trie with Non-Standard Alphabet](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712) | Algorithm | Medium | — |
-| [Connect Four Game Evaluation](https://trueinterview.io/questions/996df6f4-26e7-4a59-953f-eeec0b118171) | Algorithm | Medium | — |
 | [Calculate Fibonacci Number](https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216) | Algorithm | Easy | — |
 | [Determine if a Binary Tree is Perfect](https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671) | Algorithm | Medium | — |
 | [Target Course Completion Plan](https://trueinterview.io/questions/62ce3ab3-e18e-5908-9a1b-df60f07d256d) | Algorithm | Medium | — |

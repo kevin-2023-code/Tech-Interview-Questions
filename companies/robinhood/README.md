@@ -8,7 +8,7 @@ How Robinhood interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [54](../robinhood.md) |
+| Questions reported | [53](../robinhood.md) |
 | Free to read here | 12 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -78,7 +78,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 54 questions reported at Robinhood](../robinhood.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 53 questions reported at Robinhood](../robinhood.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Robinhood question on TrueInterview](https://trueinterview.io/problems/company/robinhood).
 
 ---

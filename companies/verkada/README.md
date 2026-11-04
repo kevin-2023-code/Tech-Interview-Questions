@@ -8,8 +8,8 @@ How Verkada interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [33](../verkada.md) |
-| Free to read here | 6 |
+| Questions reported | [32](../verkada.md) |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
@@ -47,10 +47,11 @@ Here's what the interview process can look like:
 
 ## Free Verkada questions
 
-6 questions reported at Verkada open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Verkada open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
@@ -60,7 +61,7 @@ Here's what the interview process can look like:
 
 ## Everything else
 
-- [All 33 questions reported at Verkada](../verkada.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 32 questions reported at Verkada](../verkada.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Verkada question on TrueInterview](https://trueinterview.io/problems/company/verkada).
 
 ---

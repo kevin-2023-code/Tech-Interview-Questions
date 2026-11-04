@@ -2,7 +2,7 @@
 
 # Salesforce interview process, OA & interview questions
 
-**100 questions** reported at Salesforce · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
+**99 questions** reported at Salesforce · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Salesforce interviews & the free questions](salesforce/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **100** |
+| Questions tracked | **99** |
 | Most recent sighting | Sep 15, 2026 |
 | Reported in the last 90 days | 9 |
-| Most common format | [Algorithm](../formats/algorithm.md) (69% of 100) |
-| Difficulty (easy / medium / hard) | 16 / 51 / 22 |
-| Free to practise | [21](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (70% of 99) |
+| Difficulty (easy / medium / hard) | 17 / 49 / 22 |
+| Free to practise | [22](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 100 questions reported at Salesforce. 55 of them carry a sighting date; the other 45 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 99 questions reported at Salesforce. 56 of them carry a sighting date; the other 43 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **100 of 100** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **99 of 99** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 25 | █████ | [Algorithm](../formats/algorithm.md) (92%) | 14 / 10 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 47 | ██████████ | [Algorithm](../formats/algorithm.md) (79%) | 2 / 32 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 35 | ███████ | [Algorithm](../formats/algorithm.md) (34%) | 0 / 15 / 13 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 47 | ██████████ | [Algorithm](../formats/algorithm.md) (79%) | 3 / 31 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 34 | ███████ | [Algorithm](../formats/algorithm.md) (35%) | 0 / 14 / 13 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -55,17 +55,17 @@ Which stage each question came from, for the **100 of 100** questions at Salesfo
 
 ## What they ask about
 
-Of the **69 questions at Salesforce that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **69 questions at Salesforce that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `arrays` | 13 | 19% | ████████████ | Jun 22, 2026 |
+| `strings` | 12 | 17% | ███████████ | Aug 24, 2026 |
 | `greedy` | 11 | 16% | ██████████ | Apr 05, 2026 |
-| `strings` | 11 | 16% | ██████████ | Aug 24, 2026 |
 | `dynamic-programming` | 10 | 14% | █████████ | Jul 25, 2026 |
 | `two-pointers` | 8 | 12% | ███████ | Aug 16, 2026 |
 | `graphs` | 7 | 10% | ██████ | Aug 24, 2026 |
-| `hashing` | 5 | 7% | █████ | Mar 19, 2026 |
+| `hashing` | 6 | 9% | ██████ | Mar 19, 2026 |
 | `math` | 5 | 7% | █████ | — |
 | `trees` | 5 | 7% | █████ | Aug 16, 2026 |
 | `backtracking` | 4 | 6% | ████ | Aug 16, 2026 |
@@ -83,7 +83,7 @@ Every recorded sighting at Salesforce, by the month it was reported in — Oct 1
 | [Jul 2026](../by-month/2026-07.md) | 6 | █████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ██ |
 | [Apr 2026](../by-month/2026-04.md) | 9 | ████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 10 | ██████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 11 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 3 | ███████ |
 | [Jan 2026](../by-month/2026-01.md) | 11 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 3 | ███████ |
@@ -158,6 +158,7 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 | [Design an Analytics Metrics Dashboard for ChatGPT / LLM Service](https://trueinterview.io/questions/analytics-dashboard-llm-product) | System Design | Hard | Mar 10, 2026 |
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/questions/ai-ml-fundamentals-oral) | Blog | — | Mar 10, 2026 |
 | [Onsite Mini Project — Concurrent Web Crawler](https://trueinterview.io/questions/web-crawler-mini-project) | AI Coding | Medium | Mar 10, 2026 |
+| [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Code Review of a Python Repository](https://trueinterview.io/questions/code-review-oa) | AI Coding | Medium | Mar 05, 2026 |
 | [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/questions/cloud-domain-knowledge-round) | Blog | — | Mar 04, 2026 |
 | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Algorithm | Medium | Feb 21, 2026 |
@@ -188,7 +189,6 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 | [Closest Subsequence Sum](https://trueinterview.io/questions/e9880a2b-029f-49f6-a615-5b2d2cdffd0b) | Algorithm | Hard | — |
 | [Get Minimum Development Time](https://trueinterview.io/questions/e64f4fa1-217d-4ff6-85b7-5c85831e650a) | Algorithm | Medium | — |
 | [Construct Winning Sequence](https://trueinterview.io/questions/e5dec594-f0c4-4845-ac11-ebd1eb19f8bb) | Algorithm | Medium | — |
-| [Sliding Window Character Count](https://trueinterview.io/questions/dcaaca5a-56c3-438b-b2c3-0cfb7567fcc0) | Algorithm | Medium | — |
 | [Count Minimum Operations to Reduce Dimensions](https://trueinterview.io/questions/cc2c75bb-7c0e-4c06-b29b-79893b26fd7a) | Algorithm | Medium | — |
 | [Binary String 01 to 10 swap](https://trueinterview.io/questions/b997e44e-31ce-42c6-aee6-e8489a0fa721) | Algorithm | Medium | — |
 | [Find Minimum Idleness](https://trueinterview.io/questions/b08f5fe9-fac6-4eb6-bed8-55c09b0b46fe) | Algorithm | Medium | — |
@@ -222,6 +222,5 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Algorithm | Medium | — |
 | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Algorithm | Hard | — |
 | [Design Elevator Control System](https://trueinterview.io/questions/design-elevator-control-system) | Object Oriented Programming | Medium | — |
-| [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Object Oriented Programming | Medium | — |
 | [Minimum Operations to Transform an Integer Using ±2^i Steps](https://trueinterview.io/questions/2ea154e2-6476-46e8-a8bf-cc076ba222ec) | Algorithm | Medium | — |
 | [Finding the Longest Increasing Subsequence](https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e) | Algorithm | Hard | — |

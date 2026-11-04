@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple | Phone screen | intervals | Jul 2026 |
+| Algorithm | Medium | Apple · Oracle · Uber | Phone screen | intervals | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/insert-interval)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -79,7 +79,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md)
+[Apple](../../../companies/apple/README.md) · [Oracle](../../../companies/oracle/README.md) · [Uber](../../../companies/uber/README.md)
 
 ---
 

@@ -46,16 +46,16 @@ Of the **22 questions at WeRide that carry a topic label** (100% of them — the
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `math` | 5 | 23% | ████████████ | Oct 02, 2025 |
-| `graphs` | 3 | 14% | ███████ | — |
-| `dynamic-programming` | 2 | 9% | █████ | — |
-| `hashing` | 2 | 9% | █████ | Mar 17, 2026 |
-| `stack` | 2 | 9% | █████ | Feb 07, 2026 |
-| `strings` | 2 | 9% | █████ | Feb 07, 2026 |
-| `arrays` | 1 | 5% | ██ | Mar 17, 2026 |
-| `backtracking` | 1 | 5% | ██ | — |
-| `binary-search` | 1 | 5% | ██ | — |
-| `greedy` | 1 | 5% | ██ | — |
+| `math` | 4 | 18% | ████████████ | Oct 02, 2025 |
+| `graphs` | 3 | 14% | █████████ | — |
+| `strings` | 3 | 14% | █████████ | Feb 07, 2026 |
+| `dynamic-programming` | 2 | 9% | ██████ | — |
+| `hashing` | 2 | 9% | ██████ | Mar 17, 2026 |
+| `arrays` | 1 | 5% | ███ | Mar 17, 2026 |
+| `backtracking` | 1 | 5% | ███ | — |
+| `binary-search` | 1 | 5% | ███ | — |
+| `greedy` | 1 | 5% | ███ | — |
+| `heap` | 1 | 5% | ███ | Jul 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -82,8 +82,8 @@ The 8 questions to open first if you are preparing for WeRide, ranked by **the m
 | **4** | [Implement matrix multiplication and fast exponentiation](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation) 🆓 | Algorithm | Medium | — | Oct 02, 2025 |
 | **5** | [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) 🆓 | Algorithm | Medium | 3 | — |
 | **6** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
-| **7** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
-| **8** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | 1 | — |
+| **7** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | 2 | — |
+| **8** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -109,9 +109,9 @@ The 8 questions to open first if you are preparing for WeRide, ranked by **the m
 | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Mar 17, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Implement matrix multiplication and fast exponentiation](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation) | Algorithm | Medium | Oct 02, 2025 |
+| [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | — |
 | [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Algorithm | Medium | — |
 | [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Algorithm | Hard | — |
-| [Implement a Calculator with Brackets](https://trueinterview.io/questions/9fc868b8-b683-4792-9f30-37e943638d43) | Algorithm | Medium | — |
 | [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455) | Algorithm | Medium | — |
 | [Long Break](https://trueinterview.io/questions/908737d5-1e10-4ed9-b0f6-e6c280b24347) | Algorithm | Hard | — |
 | [Minimize Cost to Make Blocks Unique](https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37) | Algorithm | Hard | — |

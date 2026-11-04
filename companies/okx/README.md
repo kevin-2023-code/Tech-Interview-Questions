@@ -8,7 +8,7 @@ How OKX interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [6](../okx.md) |
+| Questions reported | [5](../okx.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -52,12 +52,12 @@ Here's what the interview process can look like:
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Restore IP Addresses](../../questions/algorithm/restore-ip-addresses/README.md) | Algorithm | Medium | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/restore-ip-addresses) |
 | [Sort Colors](../../questions/algorithm/sort-colors/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) |
+| [Implement a Doubly Linked List](../../questions/object-oriented-programming/implement-a-doubly-linked-list/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
-| [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) |
 
 ## Everything else
 
-- [All 6 questions reported at OKX](../okx.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 5 questions reported at OKX](../okx.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every OKX question on TrueInterview](https://trueinterview.io/problems/company/okx).
 
 ---

@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**1,238 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,231 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Instacart** | [Design Instacart Inventory System](https://trueinterview.io/questions/system-design-inventory-management) | Medium | Mar 02, 2026 |
-| **Apple / Uber** | [Design Hit Counter](https://trueinterview.io/questions/design-hit-counter) | Medium | Mar 02, 2026 |
-| **Uber** | [How do you manage performance and disagreements?](https://trueinterview.io/questions/how-do-you-manage-performance-and-disagreements) | — | Mar 01, 2026 |
 | **Shopify** | [Explain your career and flagship project](https://trueinterview.io/questions/explain-your-career-and-flagship-project) | — | Mar 01, 2026 |
 | **Uber** | [Design cart management lifecycle service](https://trueinterview.io/questions/design-cart-management-lifecycle-service) | Medium | Mar 01, 2026 |
 | **Uber** | [Design a feed ranking system](https://trueinterview.io/questions/design-a-feed-ranking-system) | Hard | Mar 01, 2026 |
@@ -111,7 +108,6 @@
 | **Roblox / Datadog / DoorDash / Ebay / Google / Lyft / Meta** | [Design Instagram](https://trueinterview.io/questions/design-instagram) | Medium | Jan 22, 2026 |
 | **OpenAI / Airbnb / LinkedIn** | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | Medium | Jan 22, 2026 |
 | **Airbnb** | [Find best downhill ski run from a start](https://trueinterview.io/questions/find-best-downhill-ski-run-from-a-start) | Medium | Jan 19, 2026 |
-| **Airbnb** | [Compute maze score using shortest path](https://trueinterview.io/questions/compute-maze-score-using-shortest-path) | Medium | Jan 19, 2026 |
 | **DoorDash** | [Describe a conflict and how you resolved it](https://trueinterview.io/questions/describe-a-conflict-and-how-you-resolved-it) | — | Jan 18, 2026 |
 | **Whatnot** | [Improve and debug the shopping app](https://trueinterview.io/questions/improve-and-debug-the-shopping-app) | — | Jan 17, 2026 |
 | **Whatnot** | [Design trending livestream discovery](https://trueinterview.io/questions/design-trending-livestream-discovery) | Medium | Jan 17, 2026 |
@@ -260,5 +256,9 @@
 | **Airbnb** | [Banking System - Basic Account Operations](https://trueinterview.io/questions/76426ad8-4d47-53ba-b232-1d99030c03c9) | Easy | — |
 | **Airbnb** | [Cloud Storage System: User File Backup and Restore](https://trueinterview.io/questions/690b16ad-17a7-59cd-bb53-da0fa03cbc8d) | Medium | — |
 | **Airbnb / Coinbase / Instacart** | [Task Management System with Expiring Assignments and Overdue Tracking](https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5) | Hard | — |
+| **Airbnb** | [Workspace Credit Ledger with Scheduled Transfers](https://trueinterview.io/questions/4c1be592-b2c7-59dc-a159-34b0311bed57) | Medium | — |
+| **Airbnb** | [In-Memory Banking Operations and Top Spenders](https://trueinterview.io/questions/32eeca63-68b5-5a27-860d-9f9f64a2ed19) | Easy | — |
+| **Airbnb** | [Calculate Page Dwell Time from Event Logs](https://trueinterview.io/questions/12a384fe-ebda-5785-9cdb-d8adeff5e3ce) | Easy | — |
+| **Airbnb** | [Median Home Price by City](https://trueinterview.io/questions/0c07a7e2-8538-52ad-a790-8c1ca6621996) | Easy | — |
 
 <sub>[← Page 2](ecommerce-marketplace-2.md) · Page 3 of 5 · [Page 4 →](ecommerce-marketplace-4.md)</sub>

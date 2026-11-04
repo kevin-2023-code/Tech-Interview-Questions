@@ -2,7 +2,7 @@
 
 # Google interview process, OA & interview questions
 
-**383 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**382 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **383** |
+| Questions tracked | **382** |
 | Most recent sighting | Oct 04, 2026 |
 | Reported in the last 90 days | 40 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 383) |
-| Difficulty (easy / medium / hard) | 32 / 188 / 77 |
+| Most common format | [Algorithm](../formats/algorithm.md) (57% of 382) |
+| Difficulty (easy / medium / hard) | 33 / 186 / 77 |
 | Free to practise | [127](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 383 questions reported at Google. 205 of them carry a sighting date; the other 178 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 382 questions reported at Google. 204 of them carry a sighting date; the other 178 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **383 of 383** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **382 of 382** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 30 | █ | [Algorithm](../formats/algorithm.md) (83%) | 15 / 10 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 217 | ██████████ | [Algorithm](../formats/algorithm.md) (63%) | 8 / 116 / 41 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 31 | █ | [Algorithm](../formats/algorithm.md) (84%) | 16 / 10 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 215 | ██████████ | [Algorithm](../formats/algorithm.md) (62%) | 8 / 114 / 41 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 167 | ████████ | [Algorithm](../formats/algorithm.md) (49%) | 10 / 81 / 44 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,14 +59,14 @@ Which stage each question came from, for the **383 of 383** questions at Google 
 
 ## What they ask about
 
-Of the **224 questions at Google that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **223 questions at Google that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 48 | 21% | ████████████ | Oct 04, 2026 |
-| `arrays` | 35 | 16% | █████████ | Oct 04, 2026 |
+| `graphs` | 48 | 22% | ████████████ | Oct 04, 2026 |
+| `arrays` | 34 | 15% | ████████ | Oct 04, 2026 |
 | `hashing` | 27 | 12% | ███████ | Sep 29, 2026 |
-| `strings` | 25 | 11% | ██████ | Sep 28, 2026 |
+| `strings` | 26 | 12% | ██████ | Sep 28, 2026 |
 | `greedy` | 23 | 10% | ██████ | Oct 04, 2026 |
 | `dynamic-programming` | 20 | 9% | █████ | Oct 04, 2026 |
 | `trees` | 20 | 9% | █████ | Sep 16, 2026 |
@@ -89,7 +89,7 @@ Every recorded sighting at Google, by the month it was reported in — Jun 10, 2
 | [Jun 2026](../by-month/2026-06.md) | 15 | █████████████ |
 | [May 2026](../by-month/2026-05.md) | 14 | ████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 14 | ████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 14 | ████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 13 | ███████████ |
 | [Feb 2026](../by-month/2026-02.md) | 27 | ███████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 28 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 18 | ███████████████ |
@@ -233,7 +233,6 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Minimum Operations to Reduce an Integer to 0](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Combine Overlapping Ranges](https://trueinterview.io/questions/check-digits-and-combine-ranges-combine-overlapping-ranges) | Algorithm | Medium | Mar 29, 2026 |
-| [Check Whether an Integer Reads the Same Backward](https://trueinterview.io/questions/check-digits-and-combine-ranges-check-whether-an-integer-reads-the-same-backward) | Algorithm | Medium | Mar 29, 2026 |
 | [Trie Autocomplete / Prefix Search](https://trueinterview.io/questions/trie-autocomplete-prefix-search) | Algorithm | Medium | Mar 29, 2026 |
 | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Algorithm | Hard | Mar 22, 2026 |
 | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder) | Algorithm | Medium | Mar 21, 2026 |
@@ -387,5 +386,6 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Derive MLEs and conditional Normal distributions](https://trueinterview.io/questions/derive-mles-and-conditional-normal-distributions) | Blog | — | — |
 | [Demonstrate stakeholder communication and influence](https://trueinterview.io/questions/demonstrate-stakeholder-communication-and-influence) | Blog | — | — |
 | [Demonstrate leadership in data ambiguity](https://trueinterview.io/questions/demonstrate-leadership-in-data-ambiguity) | Blog | — | — |
+| [Define and sample a truncated normal](https://trueinterview.io/questions/define-and-sample-a-truncated-normal) | Blog | — | — |
 
 <sub>Page 1 of 2 · [Page 2 →](google-2.md)</sub>

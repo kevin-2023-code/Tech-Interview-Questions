@@ -553,6 +553,7 @@
  "question:e29b9e99-7444-4764-b397-88d7aab21f3a": "questions/system-design/web-crawler-with-communication-constraint",
  "question:e2d79c2d-ac40-4ca5-9aa3-5cf438f26893": "questions/algorithm/rate-limit-by-multiple-request-fields-per-field-multi-dimensional",
  "question:earliest-coordinate-reach-with-optional-moves": "questions/algorithm/earliest-coordinate-reach-with-optional-moves",
+ "question:ec553f21-8a20-4d30-b769-7e2dc8e7aad5": "questions/object-oriented-programming/implement-a-doubly-linked-list",
  "question:embedding-model-server": "questions/object-oriented-programming/embedding-model-server",
  "question:encode-and-decode-strings": "questions/algorithm/encode-and-decode-strings",
  "question:encyclopedia-removal-grid": "questions/algorithm/encyclopedia-removal-grid",

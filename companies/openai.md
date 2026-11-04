@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**176 questions** reported at OpenAI · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**175 questions** reported at OpenAI · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OpenAI interviews & the free questions](openai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **176** |
+| Questions tracked | **175** |
 | Most recent sighting | Oct 04, 2026 |
 | Reported in the last 90 days | 23 |
-| Most common format | [Algorithm](../formats/algorithm.md) (35% of 176) |
-| Difficulty (easy / medium / hard) | 14 / 75 / 71 |
-| Free to practise | [33](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (34% of 175) |
+| Difficulty (easy / medium / hard) | 14 / 74 / 71 |
+| Free to practise | [32](../free/README.md) |
 | Guides & writeups | 7 |
 
-<sub>Counted from the 176 questions reported at OpenAI. 110 of them carry a sighting date; the other 66 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 175 questions reported at OpenAI. 110 of them carry a sighting date; the other 65 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **176 of 176** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **175 of 175** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 9 | █ | [Algorithm](../formats/algorithm.md) (78%) | 7 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 93 | ██████████ | [Algorithm](../formats/algorithm.md) (48%) | 3 / 50 / 33 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 92 | ██████████ | [Algorithm](../formats/algorithm.md) (48%) | 3 / 49 / 33 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 93 | ██████████ | [System Design](../formats/system-design.md) (35%) | 4 / 35 / 45 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,20 +59,20 @@ Which stage each question came from, for the **176 of 176** questions at OpenAI 
 
 ## What they ask about
 
-Of the **59 questions at OpenAI that carry a topic label** (34% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **58 questions at OpenAI that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 12 | 20% | ████████████ | Sep 04, 2026 |
-| `math` | 9 | 15% | █████████ | Sep 08, 2026 |
+| `graphs` | 12 | 21% | ████████████ | Sep 04, 2026 |
+| `math` | 9 | 16% | █████████ | Sep 08, 2026 |
 | `hashing` | 8 | 14% | ████████ | Aug 22, 2026 |
 | `arrays` | 7 | 12% | ███████ | Feb 04, 2026 |
 | `strings` | 7 | 12% | ███████ | Sep 04, 2026 |
 | `matrix` | 6 | 10% | ██████ | Aug 27, 2026 |
 | `sorting` | 4 | 7% | ████ | Jun 26, 2026 |
 | `topological-sort` | 4 | 7% | ████ | Sep 17, 2026 |
-| `backtracking` | 3 | 5% | ███ | Sep 10, 2026 |
 | `greedy` | 3 | 5% | ███ | Jul 10, 2026 |
+| `backtracking` | 2 | 3% | ██ | Sep 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -294,7 +294,6 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | AI Coding | Medium | — |
 | [GPU Credit Calculator](https://trueinterview.io/questions/d01fe6d8-e86a-4cf8-b36d-900107f35f74) | Algorithm | Easy | — |
 | [General Coding Interview](https://trueinterview.io/questions/ced5e63d-df6c-4a76-8166-add49305f598) | Algorithm | Easy | — |
-| [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) | Algorithm | Medium | — |
 | [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Object Oriented Programming | Medium | — |
 | [Implement and Debug a Minimal Neural Network Training Loop (PyTorch)](https://trueinterview.io/questions/a7d621c9-52af-490b-b0e0-df43a030996d) | AI Coding | Medium | — |
 | [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a) | AI Coding | Medium | — |
