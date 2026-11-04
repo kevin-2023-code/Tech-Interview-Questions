@@ -60,7 +60,7 @@
 | [Respond to an Aggressive Stakeholder Proposal](https://trueinterview.io/questions/respond-to-an-aggressive-stakeholder-proposal) | **Amazon** | — | Sep 05, 2026 |
 | [Respond to long-term concerns after A/B success](https://trueinterview.io/questions/respond-to-long-term-concerns-after-a-b-success) | **Google** | — | Jan 06, 2026 |
 | [Respond to Negative Feedback About Your Work](https://trueinterview.io/questions/respond-to-negative-feedback-about-your-work) | **Instacart** | — | Aug 28, 2026 |
-| [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | **Oracle** | — | 🆕 Sep 19, 2026 |
+| [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | **Oracle** | — | Sep 19, 2026 |
 | [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) | **Pinduoduo** | — | Jul 17, 2026 |
 | [Reverse Behavioral: Traits You Would Hire For as a Manager](https://trueinterview.io/questions/reverse-behavioral-hiring-for-team-fit) | **Disney** | — | — |
 | [Review checkout code for defects and privacy](https://trueinterview.io/questions/review-checkout-code-for-defects-and-privacy) | **Dropbox** | — | — |

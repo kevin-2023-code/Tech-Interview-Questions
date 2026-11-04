@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,924 questions** · **270 writeups** · **132 companies** · **2,056 free to practise** · **659 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,924 questions** · **270 writeups** · **132 companies** · **2,056 free to practise** · **656 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,7 +42,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 659 sightings at 85 companies — Algorithm 215 · SQL 15 · System Design 143 · AI Coding 5 · Blog 207 · Object Oriented Programming 74.
+**Last 90 days:** 656 sightings at 85 companies — Algorithm 213 · SQL 15 · System Design 142 · AI Coding 5 · Blog 207 · Object Oriented Programming 74.
 
 **Reported most:** [Amazon (88)](companies/amazon.md) · [ByteDance (43)](companies/bytedance.md) · [Google (40)](companies/google.md) · [Microsoft (36)](companies/microsoft.md) · [Oracle (25)](companies/oracle.md) · [LinkedIn (23)](companies/linkedin.md) · [OpenAI (23)](companies/openai.md) · [DoorDash (21)](companies/doordash.md)
 
@@ -225,8 +225,8 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | System Design | 🆕 Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | System Design | 🆕 Sep 20, 2026 |
 | **Amazon** | [Describe a Deep Debugging Investigation](https://trueinterview.io/questions/describe-a-deep-debugging-investigation) | Blog | 🆕 Sep 20, 2026 |
-| **Airbnb** | [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Algorithm | 🆕 Sep 19, 2026 |
-| **Oracle** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Blog | 🆕 Sep 19, 2026 |
+| **Airbnb** | [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Algorithm | Sep 19, 2026 |
+| **Oracle** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Blog | Sep 19, 2026 |
 | **Amazon** | [Extensible File Search](https://trueinterview.io/questions/file-search-by-size-and-suffix) | Object Oriented Programming | Sep 18, 2026 |
 | **Ramp** | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Algorithm | Sep 18, 2026 |
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Object Oriented Programming | Sep 18, 2026 |

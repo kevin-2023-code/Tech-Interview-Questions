@@ -65,7 +65,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 266 | 3 | 11 | Sep 29, 2026 | 105 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 242 | 5 | 36 | Oct 03, 2026 | 76 |
 | [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 213 | 5 | 9 | Oct 02, 2026 | 112 |
-| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 182 | 4 | 11 | Oct 02, 2026 | 74 |
+| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 182 | 4 | 10 | Oct 02, 2026 | 74 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 176 | 7 | 23 | Oct 04, 2026 | 33 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 151 | 3 | 21 | Sep 16, 2026 | 50 |
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 147 | 1 | 14 | Oct 01, 2026 | 54 |
@@ -78,7 +78,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 106 | 4 | 5 | Sep 10, 2026 | 32 |
 | [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 100 | 1 | 9 | Sep 15, 2026 | 21 |
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 99 | 6 | 12 | Sep 17, 2026 | 37 |
-| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 98 | 1 | 12 | Oct 01, 2026 | 25 |
+| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 98 | 1 | 10 | Oct 01, 2026 | 25 |
 | [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 95 | 1 | 1 | Oct 01, 2026 | 34 |
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 89 | 3 | 7 | Sep 15, 2026 | 28 |
 | [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 87 | 4 | 1 | Aug 27, 2026 | 24 |

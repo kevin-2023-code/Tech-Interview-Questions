@@ -90,7 +90,7 @@ Of the **385 questions in this cut that carry a topic label** (53% of it):
 | **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Medium | 🆕 Sep 28, 2026 |
 | **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Medium | 🆕 Sep 25, 2026 |
 | **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Medium | 🆕 Sep 25, 2026 |
-| **Oracle** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | — | 🆕 Sep 19, 2026 |
+| **Oracle** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | — | Sep 19, 2026 |
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | Sep 18, 2026 |
 | **Microsoft** | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | Hard | Sep 17, 2026 |
 | **Tradedesk** | [Selection-State Class for an Infinite-Scroll Checkbox List with Select All](https://trueinterview.io/questions/selection-state-class-for-an-infinite-scroll-checkbox-list-with-select-all) | Hard | Sep 15, 2026 |

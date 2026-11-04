@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **98** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 12 |
+| Reported in the last 90 days | 10 |
 | Most common format | [Algorithm](../formats/algorithm.md) (58% of 98) |
 | Difficulty (easy / medium / hard) | 9 / 51 / 19 |
 | Free to practise | [25](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **98 of 98** questions at Citadel t
 
 ## Asked here in the last 90 days
 
-**12 sightings** in this window. Newest first.
+**10 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -52,8 +52,6 @@ Which stage each question came from, for the **98 of 98** questions at Citadel t
 | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | System Design | Hard | Phone screen | Aug 29, 2026 |
 | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Algorithm | Medium | Phone screen | Aug 15, 2026 |
 | [Candy (LC 135)](https://trueinterview.io/questions/candy-lc-135) | Algorithm | Medium | Phone screen | Aug 08, 2026 |
-| [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Hard | Phone screen | Aug 05, 2026 |
-| [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | Phone screen | Aug 05, 2026 |
 
 ## What they ask about
 

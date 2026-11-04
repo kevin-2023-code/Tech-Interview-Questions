@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**5,924 tracked questions** across **132 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 14, 2026. Windows below are measured against **Nov 03, 2026**, and everything on this page is recomputed hourly.
+**5,924 tracked questions** across **132 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Oct 14, 2026. Windows below are measured against **Nov 04, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,17 +10,17 @@
 
 ## The last 90 days
 
-**659 sightings** recorded between Aug 05, 2026 → Nov 03, 2026 — 19% of the 3,431 questions in the bank that carry a sighting date at all.
+**656 sightings** recorded between Aug 06, 2026 → Nov 04, 2026 — 19% of the 3,431 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 215 | 33% | ████████████████ |
+| [Algorithm](../formats/algorithm.md) | 213 | 32% | ████████████████ |
 | [SQL](../formats/sql.md) | 15 | 2% | █ |
-| [System Design](../formats/system-design.md) | 143 | 22% | ███████████ |
+| [System Design](../formats/system-design.md) | 142 | 22% | ███████████ |
 | [AI Coding](../formats/ai-coding.md) | 5 | 1% | █ |
-| [Blog](../formats/blog.md) | 207 | 31% | ███████████████ |
+| [Blog](../formats/blog.md) | 207 | 32% | ████████████████ |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 74 | 11% | ██████ |
 
 ### Where
@@ -41,9 +41,9 @@
 | [Snowflake](../companies/snowflake.md) | 14 | ███ |
 | [Squarepoint](../companies/squarepoint.md) | 14 | ███ |
 | [Anthropic](../companies/anthropic.md) | 12 | ██ |
-| [Citadel](../companies/citadel.md) | 12 | ██ |
+| [Uber](../companies/uber.md) | 11 | ██ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 659 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 656 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -51,9 +51,9 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 2,653 | 45% | 215 | 477 | 1,626 | 550 | 2,653 | 483 |
+| [Algorithm](../formats/algorithm.md) | 2,653 | 45% | 213 | 477 | 1,626 | 550 | 2,653 | 483 |
 | [SQL](../formats/sql.md) | 301 | 5% | 15 | 60 | 186 | 55 | 301 | 11 |
-| [System Design](../formats/system-design.md) | 758 | 13% | 143 | 41 | 391 | 326 | 758 | 49 |
+| [System Design](../formats/system-design.md) | 758 | 13% | 142 | 41 | 391 | 326 | 758 | 49 |
 | [AI Coding](../formats/ai-coding.md) | 134 | 2% | 5 | 10 | 87 | 37 | 134 | 13 |
 | [Blog](../formats/blog.md) | 1,416 | 24% | 207 | 0 | 0 | 0 | 0 | 1,416 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 662 | 11% | 74 | 60 | 516 | 86 | 662 | 84 |
@@ -91,13 +91,13 @@ Of the **2,636 questions that carry a topic label** (44% of the bank — the res
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
-| `hashing` | 489 | 19% | 50 | ████████████████ |
-| `arrays` | 423 | 16% | 44 | ██████████████ |
+| `hashing` | 489 | 19% | 49 | ████████████████ |
+| `arrays` | 423 | 16% | 42 | ██████████████ |
 | `graphs` | 403 | 15% | 44 | █████████████ |
 | `strings` | 379 | 14% | 34 | ████████████ |
 | `greedy` | 220 | 8% | 16 | ███████ |
 | `math` | 211 | 8% | 19 | ███████ |
-| `sorting` | 206 | 8% | 18 | ███████ |
+| `sorting` | 206 | 8% | 17 | ███████ |
 | `dynamic-programming` | 204 | 8% | 12 | ███████ |
 | `trees` | 193 | 7% | 25 | ██████ |
 | `matrix` | 167 | 6% | 24 | █████ |

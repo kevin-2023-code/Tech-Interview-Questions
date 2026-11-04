@@ -139,7 +139,7 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | System Design | Medium | 🆕 Sep 28, 2026 |
 | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Medium | 🆕 Sep 25, 2026 |
 | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | Medium | 🆕 Sep 25, 2026 |
-| [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Blog | — | 🆕 Sep 19, 2026 |
+| [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Blog | — | Sep 19, 2026 |
 | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | Blog | — | Sep 11, 2026 |
 | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | Sep 11, 2026 |
 | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | SQL | Medium | Sep 09, 2026 |

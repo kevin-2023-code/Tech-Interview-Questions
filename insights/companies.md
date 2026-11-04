@@ -24,10 +24,10 @@
 | [Snowflake](../companies/snowflake.md) | 14 | 147 | Oct 01, 2026 | ███ |
 | [Squarepoint](../companies/squarepoint.md) | 14 | 45 | Sep 09, 2026 | ███ |
 | [Anthropic](../companies/anthropic.md) | 12 | 99 | Sep 17, 2026 | ██ |
-| [Citadel](../companies/citadel.md) | 12 | 98 | Oct 01, 2026 | ██ |
-| [Apple](../companies/apple.md) | 11 | 182 | Oct 02, 2026 | ██ |
 | [Uber](../companies/uber.md) | 11 | 266 | Sep 29, 2026 | ██ |
 | [AMD](../companies/amd.md) | 10 | 10 | Sep 14, 2026 | ██ |
+| [Apple](../companies/apple.md) | 10 | 182 | Oct 02, 2026 | ██ |
+| [Citadel](../companies/citadel.md) | 10 | 98 | Oct 01, 2026 | ██ |
 | [Instacart](../companies/instacart.md) | 10 | 65 | Sep 18, 2026 | ██ |
 | [Rippling](../companies/rippling.md) | 10 | 58 | Sep 18, 2026 | ██ |
 | [Capital One](../companies/capital-one.md) | 9 | 213 | Oct 02, 2026 | ██ |
@@ -47,7 +47,7 @@
 | [Uber](../companies/uber.md) | 266 | 3 | 105 | 11 | Sep 29, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 242 | 5 | 76 | 36 | Oct 03, 2026 | Algorithm | `strings` |
 | [Capital One](../companies/capital-one.md) | 213 | 5 | 112 | 9 | Oct 02, 2026 | Blog | `arrays` |
-| [Apple](../companies/apple.md) | 182 | 4 | 74 | 11 | Oct 02, 2026 | Algorithm | `hashing` |
+| [Apple](../companies/apple.md) | 182 | 4 | 74 | 10 | Oct 02, 2026 | Algorithm | `hashing` |
 | [OpenAI](../companies/openai.md) | 176 | 7 | 33 | 23 | Oct 04, 2026 | Algorithm | `graphs` |
 | [DoorDash](../companies/doordash.md) | 151 | 3 | 50 | 21 | Sep 16, 2026 | Algorithm | `arrays` |
 | [Snowflake](../companies/snowflake.md) | 147 | 1 | 54 | 14 | Oct 01, 2026 | Algorithm | `graphs` |
@@ -60,7 +60,7 @@
 | [Roblox](../companies/roblox.md) | 106 | 4 | 32 | 5 | Sep 10, 2026 | Algorithm | `arrays` |
 | [Salesforce](../companies/salesforce.md) | 100 | 1 | 21 | 9 | Sep 15, 2026 | Algorithm | `arrays` |
 | [Anthropic](../companies/anthropic.md) | 99 | 6 | 37 | 12 | Sep 17, 2026 | Object Oriented Programming | `hashing` |
-| [Citadel](../companies/citadel.md) | 98 | 1 | 25 | 12 | Oct 01, 2026 | Algorithm | `hashing` |
+| [Citadel](../companies/citadel.md) | 98 | 1 | 25 | 10 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Bloomberg](../companies/bloomberg.md) | 95 | 1 | 34 | 1 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Databricks](../companies/databricks.md) | 89 | 3 | 28 | 7 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Coinbase](../companies/coinbase.md) | 87 | 4 | 24 | 1 | Aug 27, 2026 | Object Oriented Programming | `graphs` |
