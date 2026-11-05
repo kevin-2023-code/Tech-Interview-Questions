@@ -171,7 +171,7 @@
 | [Describe a conflict and how you resolved it](https://trueinterview.io/questions/describe-a-conflict-and-how-you-resolved-it) | **DoorDash** | — | Jan 18, 2026 |
 | [Describe a conflict with a colleague](https://trueinterview.io/questions/describe-a-conflict-with-a-colleague) | **Google** | — | — |
 | [Describe a cross-functional project you’re proud of](https://trueinterview.io/questions/describe-a-cross-functional-project-you-re-proud-of) | **Airbnb** | — | Feb 12, 2026 |
-| [Describe a Deep Debugging Investigation](https://trueinterview.io/questions/describe-a-deep-debugging-investigation) | **Amazon** | — | 🆕 Sep 20, 2026 |
+| [Describe a Deep Debugging Investigation](https://trueinterview.io/questions/describe-a-deep-debugging-investigation) | **Amazon** | — | Sep 20, 2026 |
 | [Describe a failed project and lessons learned](https://trueinterview.io/questions/describe-a-failed-project-and-lessons-learned) | **Meta** | — | — |
 | [Describe a failure and a success](https://trueinterview.io/questions/describe-a-failure-and-a-success) | **Reddit** | — | Feb 12, 2026 |
 | [Describe a failure and what you learned](https://trueinterview.io/questions/describe-a-failure-and-what-you-learned) | **Amazon** | — | Jan 22, 2026 |

@@ -60,8 +60,8 @@ The sector and size of an employer are facts about the company rather than about
 | :-- | :-- | --: | --: | --: | :-- | --: |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 489 | 6 | 17 | Oct 01, 2026 | 203 |
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 466 | 5 | 87 | Oct 03, 2026 | 172 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 382 | 3 | 40 | Oct 04, 2026 | 127 |
-| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 344 | 5 | 42 | Oct 05, 2026 | 144 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 382 | 3 | 39 | Oct 04, 2026 | 127 |
+| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 344 | 5 | 41 | Oct 05, 2026 | 144 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 263 | 3 | 10 | Sep 29, 2026 | 106 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 240 | 5 | 35 | Oct 03, 2026 | 76 |
 | [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 213 | 5 | 9 | Oct 02, 2026 | 112 |
@@ -133,7 +133,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Boston Consulting Group](boston-consulting-group.md) | — | 19 | — | 0 | Aug 04, 2026 | 12 |
 | [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 19 | 1 | — | — | 6 |
 | [Whatnot](whatnot.md) | E-commerce & marketplaces · 200–999 people | 19 | — | 0 | Jun 12, 2026 | 6 |
-| [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 18 | — | 3 | Aug 12, 2026 | 3 |
+| [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 18 | — | 2 | Aug 12, 2026 | 3 |
 | [Voleon](voleon.md) | Quant trading & hedge funds | 18 | 1 | 1 | Sep 14, 2026 | 9 |
 | [Thumbtack](thumbtack.md) | — | 16 | — | — | — | 13 |
 | [Bitkernel](bitkernel.md) | — | 15 | — | 0 | Oct 24, 2025 | 15 |

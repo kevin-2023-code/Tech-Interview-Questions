@@ -11,8 +11,8 @@
 | Company | Last 90d | Questions | Last sighting |  |
 | :-- | --: | --: | :-- | :-- |
 | [Amazon](../companies/amazon.md) | 87 | 466 | Oct 03, 2026 | ████████████████ |
-| [ByteDance](../companies/bytedance.md) | 42 | 344 | Oct 05, 2026 | ████████ |
-| [Google](../companies/google.md) | 40 | 382 | Oct 04, 2026 | ███████ |
+| [ByteDance](../companies/bytedance.md) | 41 | 344 | Oct 05, 2026 | ████████ |
+| [Google](../companies/google.md) | 39 | 382 | Oct 04, 2026 | ███████ |
 | [Microsoft](../companies/microsoft.md) | 35 | 240 | Oct 03, 2026 | ██████ |
 | [Oracle](../companies/oracle.md) | 25 | 115 | Sep 28, 2026 | █████ |
 | [LinkedIn](../companies/linkedin.md) | 23 | 145 | Oct 01, 2026 | ████ |
@@ -42,8 +42,8 @@
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
 | [Meta](../companies/meta.md) | 489 | 6 | 203 | 17 | Oct 01, 2026 | Algorithm | `graphs` |
 | [Amazon](../companies/amazon.md) | 466 | 5 | 172 | 87 | Oct 03, 2026 | Algorithm | `hashing` |
-| [Google](../companies/google.md) | 382 | 3 | 127 | 40 | Oct 04, 2026 | Algorithm | `graphs` |
-| [ByteDance](../companies/bytedance.md) | 344 | 5 | 144 | 42 | Oct 05, 2026 | Algorithm | `graphs` |
+| [Google](../companies/google.md) | 382 | 3 | 127 | 39 | Oct 04, 2026 | Algorithm | `graphs` |
+| [ByteDance](../companies/bytedance.md) | 344 | 5 | 144 | 41 | Oct 05, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 263 | 3 | 106 | 10 | Sep 29, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 240 | 5 | 76 | 35 | Oct 03, 2026 | Algorithm | `strings` |
 | [Capital One](../companies/capital-one.md) | 213 | 5 | 112 | 9 | Oct 02, 2026 | Blog | `arrays` |
@@ -115,7 +115,7 @@
 | [Boston Consulting Group](../companies/boston-consulting-group.md) | 19 | 0 | 12 | 0 | Aug 04, 2026 | Blog | `stack` |
 | [Rubrik](../companies/rubrik.md) | 19 | 1 | 6 | — | — | Algorithm | `graphs` |
 | [Whatnot](../companies/whatnot.md) | 19 | 0 | 6 | 0 | Jun 12, 2026 | System Design | `hashing` |
-| [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 3 | Aug 12, 2026 | Algorithm | `hashing` |
+| [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 2 | Aug 12, 2026 | Algorithm | `hashing` |
 | [Voleon](../companies/voleon.md) | 18 | 1 | 9 | 1 | Sep 14, 2026 | Algorithm | `hashing` |
 | [Thumbtack](../companies/thumbtack.md) | 16 | 0 | 13 | — | — | Blog | — |
 | [Bitkernel](../companies/bitkernel.md) | 15 | 0 | 15 | 0 | Oct 24, 2025 | Blog | — |
