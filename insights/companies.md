@@ -16,7 +16,7 @@
 | [Microsoft](../companies/microsoft.md) | 35 | 240 | Oct 03, 2026 | ██████ |
 | [Oracle](../companies/oracle.md) | 25 | 115 | Sep 28, 2026 | █████ |
 | [LinkedIn](../companies/linkedin.md) | 23 | 145 | Oct 01, 2026 | ████ |
-| [OpenAI](../companies/openai.md) | 23 | 175 | Oct 04, 2026 | ████ |
+| [OpenAI](../companies/openai.md) | 22 | 175 | Oct 04, 2026 | ████ |
 | [DoorDash](../companies/doordash.md) | 21 | 151 | Sep 16, 2026 | ████ |
 | [Airbnb](../companies/airbnb.md) | 18 | 112 | Oct 14, 2026 | ███ |
 | [Meta](../companies/meta.md) | 17 | 489 | Oct 01, 2026 | ███ |
@@ -48,7 +48,7 @@
 | [Microsoft](../companies/microsoft.md) | 240 | 5 | 76 | 35 | Oct 03, 2026 | Algorithm | `strings` |
 | [Capital One](../companies/capital-one.md) | 213 | 5 | 112 | 9 | Oct 02, 2026 | Blog | `arrays` |
 | [Apple](../companies/apple.md) | 182 | 4 | 74 | 10 | Oct 02, 2026 | Algorithm | `hashing` |
-| [OpenAI](../companies/openai.md) | 175 | 7 | 32 | 23 | Oct 04, 2026 | Algorithm | `graphs` |
+| [OpenAI](../companies/openai.md) | 175 | 7 | 32 | 22 | Oct 04, 2026 | Algorithm | `graphs` |
 | [DoorDash](../companies/doordash.md) | 151 | 3 | 50 | 21 | Sep 16, 2026 | Algorithm | `arrays` |
 | [LinkedIn](../companies/linkedin.md) | 145 | 4 | 40 | 23 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Snowflake](../companies/snowflake.md) | 145 | 1 | 54 | 14 | Oct 01, 2026 | Algorithm | `graphs` |
@@ -115,7 +115,7 @@
 | [Boston Consulting Group](../companies/boston-consulting-group.md) | 19 | 0 | 12 | 0 | Aug 04, 2026 | Blog | `stack` |
 | [Rubrik](../companies/rubrik.md) | 19 | 1 | 6 | — | — | Algorithm | `graphs` |
 | [Whatnot](../companies/whatnot.md) | 19 | 0 | 6 | 0 | Jun 12, 2026 | System Design | `hashing` |
-| [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 2 | Aug 12, 2026 | Algorithm | `hashing` |
+| [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 1 | Aug 12, 2026 | Algorithm | `hashing` |
 | [Voleon](../companies/voleon.md) | 18 | 1 | 9 | 1 | Sep 14, 2026 | Algorithm | `hashing` |
 | [Thumbtack](../companies/thumbtack.md) | 16 | 0 | 13 | — | — | Blog | — |
 | [Bitkernel](../companies/bitkernel.md) | 15 | 0 | 15 | 0 | Oct 24, 2025 | Blog | — |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **18** |
 | Most recent sighting | Aug 12, 2026 |
-| Reported in the last 90 days | 2 |
+| Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (56% of 18) |
 | Difficulty (easy / medium / hard) | 3 / 11 / 3 |
 | Free to practise | [3](../free/README.md) |
@@ -38,12 +38,11 @@ Which stage each question came from, for the **18 of 18** questions at Affirm th
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
-| [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Algorithm | Medium | Phone screen | Aug 07, 2026 |
 
 ## What they ask about
 

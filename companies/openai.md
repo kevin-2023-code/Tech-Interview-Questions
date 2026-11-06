@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **175** |
 | Most recent sighting | Oct 04, 2026 |
-| Reported in the last 90 days | 23 |
+| Reported in the last 90 days | 22 |
 | Most common format | [Algorithm](../formats/algorithm.md) (34% of 175) |
 | Difficulty (easy / medium / hard) | 14 / 74 / 71 |
 | Free to practise | [32](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 
 ## Asked here in the last 90 days
 
-**23 sightings** in this window. Newest first.
+**22 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **175 of 175** questions at OpenAI 
 | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | Onsite / virtual onsite | Aug 24, 2026 |
 | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | Phone screen | Aug 23, 2026 |
 
-<sub>11 more in this window are in the table below.</sub>
+<sub>10 more in this window are in the table below.</sub>
 
 ## What they ask about
 
