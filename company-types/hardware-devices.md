@@ -48,7 +48,7 @@ Of the **134 questions in this cut that carry a topic label** (60% of it):
 
 ## Asked here in the last 90 days
 
-**11 sightings** across this cut. Newest first.
+**10 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -62,7 +62,6 @@ Of the **134 questions in this cut that carry a topic label** (60% of it):
 | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Apple | Algorithm | Aug 16, 2026 |
 | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | Apple | System Design | Aug 16, 2026 |
 | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Apple | SQL | Aug 13, 2026 |
-| [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Apple | System Design | Aug 08, 2026 |
 
 ---
 

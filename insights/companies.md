@@ -10,14 +10,14 @@
 
 | Company | Last 90d | Questions | Last sighting |  |
 | :-- | --: | --: | :-- | :-- |
-| [Amazon](../companies/amazon.md) | 87 | 466 | Oct 03, 2026 | ████████████████ |
-| [ByteDance](../companies/bytedance.md) | 41 | 344 | Oct 05, 2026 | ████████ |
+| [Amazon](../companies/amazon.md) | 86 | 466 | Oct 03, 2026 | ████████████████ |
+| [ByteDance](../companies/bytedance.md) | 40 | 344 | Oct 05, 2026 | ███████ |
 | [Google](../companies/google.md) | 39 | 382 | Oct 04, 2026 | ███████ |
-| [Microsoft](../companies/microsoft.md) | 35 | 240 | Oct 03, 2026 | ██████ |
+| [Microsoft](../companies/microsoft.md) | 35 | 240 | Oct 03, 2026 | ███████ |
 | [Oracle](../companies/oracle.md) | 25 | 115 | Sep 28, 2026 | █████ |
 | [LinkedIn](../companies/linkedin.md) | 23 | 145 | Oct 01, 2026 | ████ |
-| [OpenAI](../companies/openai.md) | 22 | 175 | Oct 04, 2026 | ████ |
 | [DoorDash](../companies/doordash.md) | 21 | 151 | Sep 16, 2026 | ████ |
+| [OpenAI](../companies/openai.md) | 21 | 175 | Oct 04, 2026 | ████ |
 | [Airbnb](../companies/airbnb.md) | 18 | 112 | Oct 14, 2026 | ███ |
 | [Meta](../companies/meta.md) | 17 | 489 | Oct 01, 2026 | ███ |
 | [Stripe](../companies/stripe.md) | 16 | 119 | Oct 04, 2026 | ███ |
@@ -25,12 +25,12 @@
 | [Squarepoint](../companies/squarepoint.md) | 13 | 45 | Sep 09, 2026 | ██ |
 | [Anthropic](../companies/anthropic.md) | 12 | 99 | Sep 17, 2026 | ██ |
 | [AMD](../companies/amd.md) | 10 | 10 | Sep 14, 2026 | ██ |
-| [Apple](../companies/apple.md) | 10 | 182 | Oct 02, 2026 | ██ |
-| [Citadel](../companies/citadel.md) | 10 | 97 | Oct 01, 2026 | ██ |
 | [Instacart](../companies/instacart.md) | 10 | 65 | Sep 18, 2026 | ██ |
 | [Rippling](../companies/rippling.md) | 10 | 58 | Sep 18, 2026 | ██ |
 | [Uber](../companies/uber.md) | 10 | 263 | Sep 29, 2026 | ██ |
+| [Apple](../companies/apple.md) | 9 | 182 | Oct 02, 2026 | ██ |
 | [Capital One](../companies/capital-one.md) | 9 | 213 | Oct 02, 2026 | ██ |
+| [Citadel](../companies/citadel.md) | 9 | 97 | Oct 01, 2026 | ██ |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 9 | 68 | Sep 13, 2026 | ██ |
 | [Pinterest](../companies/pinterest.md) | 9 | 128 | Sep 23, 2026 | ██ |
 | [Salesforce](../companies/salesforce.md) | 9 | 99 | Sep 15, 2026 | ██ |
@@ -41,14 +41,14 @@
 | Company | Questions | Guides | Free | Last 90d | Last sighting | Most asked format | Most asked topic |
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
 | [Meta](../companies/meta.md) | 489 | 6 | 203 | 17 | Oct 01, 2026 | Algorithm | `graphs` |
-| [Amazon](../companies/amazon.md) | 466 | 5 | 172 | 87 | Oct 03, 2026 | Algorithm | `hashing` |
+| [Amazon](../companies/amazon.md) | 466 | 5 | 172 | 86 | Oct 03, 2026 | Algorithm | `hashing` |
 | [Google](../companies/google.md) | 382 | 3 | 127 | 39 | Oct 04, 2026 | Algorithm | `graphs` |
-| [ByteDance](../companies/bytedance.md) | 344 | 5 | 144 | 41 | Oct 05, 2026 | Algorithm | `graphs` |
+| [ByteDance](../companies/bytedance.md) | 344 | 5 | 144 | 40 | Oct 05, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 263 | 3 | 106 | 10 | Sep 29, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 240 | 5 | 76 | 35 | Oct 03, 2026 | Algorithm | `strings` |
 | [Capital One](../companies/capital-one.md) | 213 | 5 | 112 | 9 | Oct 02, 2026 | Blog | `arrays` |
-| [Apple](../companies/apple.md) | 182 | 4 | 74 | 10 | Oct 02, 2026 | Algorithm | `hashing` |
-| [OpenAI](../companies/openai.md) | 175 | 7 | 32 | 22 | Oct 04, 2026 | Algorithm | `graphs` |
+| [Apple](../companies/apple.md) | 182 | 4 | 74 | 9 | Oct 02, 2026 | Algorithm | `hashing` |
+| [OpenAI](../companies/openai.md) | 175 | 7 | 32 | 21 | Oct 04, 2026 | Algorithm | `graphs` |
 | [DoorDash](../companies/doordash.md) | 151 | 3 | 50 | 21 | Sep 16, 2026 | Algorithm | `arrays` |
 | [LinkedIn](../companies/linkedin.md) | 145 | 4 | 40 | 23 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Snowflake](../companies/snowflake.md) | 145 | 1 | 54 | 14 | Oct 01, 2026 | Algorithm | `graphs` |
@@ -60,7 +60,7 @@
 | [Roblox](../companies/roblox.md) | 105 | 4 | 32 | 4 | Sep 10, 2026 | Algorithm | `arrays` |
 | [Anthropic](../companies/anthropic.md) | 99 | 6 | 37 | 12 | Sep 17, 2026 | Object Oriented Programming | `hashing` |
 | [Salesforce](../companies/salesforce.md) | 99 | 1 | 22 | 9 | Sep 15, 2026 | Algorithm | `arrays` |
-| [Citadel](../companies/citadel.md) | 97 | 1 | 25 | 10 | Oct 01, 2026 | Algorithm | `hashing` |
+| [Citadel](../companies/citadel.md) | 97 | 1 | 25 | 9 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Bloomberg](../companies/bloomberg.md) | 95 | 1 | 34 | 1 | Oct 01, 2026 | Algorithm | `hashing` |
 | [Databricks](../companies/databricks.md) | 88 | 3 | 28 | 7 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Coinbase](../companies/coinbase.md) | 87 | 4 | 24 | 1 | Aug 27, 2026 | Object Oriented Programming | `graphs` |
