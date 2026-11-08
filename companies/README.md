@@ -123,7 +123,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 27 | 1 | 1 | Sep 17, 2026 | 19 |
 | [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 27 | 1 | 5 | Oct 01, 2026 | 17 |
 | [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 25 | 3 | 2 | Sep 01, 2026 | 8 |
-| [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 23 | 1 | 5 | Sep 15, 2026 | 6 |
+| [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 23 | 1 | 4 | Sep 15, 2026 | 6 |
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 22 | 1 | 0 | May 01, 2026 | 8 |
 | [Tradedesk](tradedesk.md) | Enterprise & business software · 1,000–9,999 people | 22 | 1 | 6 | Sep 15, 2026 | 3 |
 | [WeRide](weride.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 22 | 1 | 0 | Jul 29, 2026 | 8 |
@@ -141,7 +141,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Vanta](vanta.md) | Cybersecurity · 200–999 people | 15 | 1 | 1 | Sep 12, 2026 | 7 |
 | [Visa](visa.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 1 | 0 | Mar 20, 2026 | 7 |
 | [Mercor](mercor.md) | AI labs & AI infrastructure | 14 | — | 5 | Sep 03, 2026 | 11 |
-| [Airwallex](airwallex.md) | Fintech, payments & crypto · 1,000–9,999 people | 13 | — | 6 | Sep 10, 2026 | 7 |
+| [Airwallex](airwallex.md) | Fintech, payments & crypto · 1,000–9,999 people | 13 | — | 5 | Sep 10, 2026 | 7 |
 | [HubSpot](hubspot.md) | Enterprise & business software · 1,000–9,999 people | 13 | — | 0 | May 21, 2026 | 4 |
 | [Microsoft AI](microsoft-ai.md) | AI labs & AI infrastructure · 10,000+ people | 13 | — | 1 | Sep 23, 2026 | 3 |
 | [Okta](okta.md) | Cybersecurity · 1,000–9,999 people | 13 | 1 | 1 | Aug 20, 2026 | 5 |

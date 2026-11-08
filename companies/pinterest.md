@@ -129,7 +129,7 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Blog | — | 🆕 Sep 23, 2026 |
+| [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Blog | — | Sep 23, 2026 |
 | [Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict](https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict) | Blog | — | Sep 02, 2026 |
 | [Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing](https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing) | System Design | Hard | Sep 02, 2026 |
 | [Reason About Nested JSON Schema Validation](https://trueinterview.io/questions/reason-about-nested-json-schema-validation) | Algorithm | Hard | Sep 01, 2026 |

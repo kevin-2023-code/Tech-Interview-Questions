@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,889 questions** · **270 writeups** · **132 companies** · **2,056 free to practise** · **641 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,889 questions** · **270 writeups** · **132 companies** · **2,056 free to practise** · **639 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,7 +42,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 641 sightings at 85 companies — Algorithm 205 · SQL 15 · System Design 139 · AI Coding 5 · Blog 205 · Object Oriented Programming 72.
+**Last 90 days:** 639 sightings at 85 companies — Algorithm 204 · SQL 15 · System Design 138 · AI Coding 5 · Blog 205 · Object Oriented Programming 72.
 
 **Reported most:** [Amazon (86)](companies/amazon.md) · [ByteDance (40)](companies/bytedance.md) · [Google (39)](companies/google.md) · [Microsoft (35)](companies/microsoft.md) · [Oracle (25)](companies/oracle.md) · [LinkedIn (23)](companies/linkedin.md) · [DoorDash (21)](companies/doordash.md) · [OpenAI (21)](companies/openai.md)
 
@@ -217,10 +217,10 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | 🆕 Sep 25, 2026 |
 | **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | 🆕 Sep 25, 2026 |
 | **ByteDance** | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Algorithm | 🆕 Sep 25, 2026 |
-| **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Blog | 🆕 Sep 23, 2026 |
-| **Netflix** | [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | Blog | 🆕 Sep 23, 2026 |
-| **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | Blog | 🆕 Sep 23, 2026 |
-| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | 🆕 Sep 23, 2026 |
+| **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Blog | Sep 23, 2026 |
+| **Netflix** | [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | Blog | Sep 23, 2026 |
+| **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | Blog | Sep 23, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Sep 23, 2026 |
 | **Amazon** | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/questions/explain-a-project-that-could-not-meet-a-tight-deadline) | Blog | Sep 20, 2026 |
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | System Design | Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | System Design | Sep 20, 2026 |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **13** |
 | Most recent sighting | Sep 10, 2026 |
-| Reported in the last 90 days | 6 |
+| Reported in the last 90 days | 5 |
 | Most common format | [Blog](../formats/blog.md) (38% of 13) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 5 |
 | Free to practise | [7](../free/README.md) |
@@ -37,7 +37,7 @@ Which stage each question came from, for the **13 of 13** questions at Airwallex
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -46,7 +46,6 @@ Which stage each question came from, for the **13 of 13** questions at Airwallex
 | [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Algorithm | Hard | Phone screen | Sep 10, 2026 |
 | [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Algorithm | Medium | Phone screen | Sep 02, 2026 |
 | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | Onsite / virtual onsite | Sep 01, 2026 |
-| [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system) | System Design | Hard | Phone screen | Aug 09, 2026 |
 
 ## What they ask about
 

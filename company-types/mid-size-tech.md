@@ -48,7 +48,7 @@ Of the **52 questions in this cut that carry a topic label** (41% of it):
 
 ## Asked here in the last 90 days
 
-**17 sightings** across this cut. Newest first.
+**16 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **52 questions in this cut that carry a topic label** (41% of it):
 | [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | Mistral AI | Blog | Sep 01, 2026 |
 | [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) | Mistral AI | Blog | Sep 01, 2026 |
 
-<sub>5 more in this window are in the table below.</sub>
+<sub>4 more in this window are in the table below.</sub>
 
 ---
 

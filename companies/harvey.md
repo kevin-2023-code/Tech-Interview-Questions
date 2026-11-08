@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **23** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 5 |
+| Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (30% of 23) |
 | Difficulty (easy / medium / hard) | 1 / 16 / 3 |
 | Free to practise | [6](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **23 of 23** questions at Harvey th
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -46,7 +46,6 @@ Which stage each question came from, for the **23 of 23** questions at Harvey th
 | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Algorithm | Medium | Onsite / virtual onsite | Sep 01, 2026 |
 | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | System Design | Medium | Onsite / virtual onsite | Sep 01, 2026 |
 | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Algorithm | Hard | Onsite / virtual onsite | Sep 01, 2026 |
-| [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 09, 2026 |
 
 ## What they ask about
 

@@ -162,7 +162,7 @@
 | [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/questions/ml-modeling-round) | **Shopify** | — | May 10, 2026 |
 | [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/questions/ml-research-orals) | **Netflix** | — | May 09, 2026 |
 | [ML Systems Codebase Deep Dive](https://trueinterview.io/questions/ml-systems-codebase-deep-dive) | **Apple** | — | Jul 01, 2026 |
-| [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | **Netflix** | — | 🆕 Sep 23, 2026 |
+| [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | **Netflix** | — | Sep 23, 2026 |
 | [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/questions/mle-ml-knowledge-orals) | **Capital One** | — | Feb 04, 2026 |
 | [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive) | **Roblox** | — | May 19, 2026 |
 | [Model comment count distribution and validate assumptions](https://trueinterview.io/questions/model-comment-count-distribution-and-validate-assumptions) | **Meta** | — | — |

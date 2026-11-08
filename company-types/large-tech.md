@@ -48,7 +48,7 @@ Of the **748 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**165 sightings** across this cut. Newest first.
+**164 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **748 questions in this cut that carry a topic label** (44% of it):
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | OpenAI, Airbnb … | System Design | Sep 23, 2026 |
 | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Pinterest | Blog | Sep 23, 2026 |
 
-<sub>153 more in this window are in the table below.</sub>
+<sub>152 more in this window are in the table below.</sub>
 
 ---
 
@@ -87,8 +87,8 @@ Of the **748 questions in this cut that carry a topic label** (44% of it):
 | **Stripe** | [Request Routing System](https://trueinterview.io/questions/request-routing-system) | Medium | 🆕 Sep 30, 2026 |
 | **Snowflake** | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Medium | 🆕 Sep 29, 2026 |
 | **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | 🆕 Sep 28, 2026 |
-| **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | — | 🆕 Sep 23, 2026 |
-| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | 🆕 Sep 23, 2026 |
+| **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | — | Sep 23, 2026 |
+| **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Sep 23, 2026 |
 | **Airbnb** | [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Medium | Sep 19, 2026 |
 | **Ramp** | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Hard | Sep 18, 2026 |
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | Sep 18, 2026 |

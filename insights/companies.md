@@ -105,7 +105,7 @@
 | [Cisco](../companies/cisco.md) | 27 | 1 | 19 | 1 | Sep 17, 2026 | Algorithm | `arrays` |
 | [Pinduoduo](../companies/pinduoduo.md) | 27 | 1 | 17 | 5 | Oct 01, 2026 | Algorithm | `matrix` |
 | [Perplexity](../companies/perplexity.md) | 25 | 3 | 8 | 2 | Sep 01, 2026 | Algorithm | `heap` |
-| [Harvey](../companies/harvey.md) | 23 | 1 | 6 | 5 | Sep 15, 2026 | Algorithm | `hashing` |
+| [Harvey](../companies/harvey.md) | 23 | 1 | 6 | 4 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Hudson River Trading](../companies/hudson-river-trading.md) | 22 | 1 | 8 | 0 | May 01, 2026 | Algorithm | `arrays` |
 | [Tradedesk](../companies/tradedesk.md) | 22 | 1 | 3 | 6 | Sep 15, 2026 | Algorithm | `arrays` |
 | [WeRide](../companies/weride.md) | 22 | 1 | 8 | 0 | Jul 29, 2026 | Algorithm | `math` |
@@ -123,7 +123,7 @@
 | [Vanta](../companies/vanta.md) | 15 | 1 | 7 | 1 | Sep 12, 2026 | Algorithm | `graphs` |
 | [Visa](../companies/visa.md) | 15 | 1 | 7 | 0 | Mar 20, 2026 | Algorithm | `graphs` |
 | [Mercor](../companies/mercor.md) | 14 | 0 | 11 | 5 | Sep 03, 2026 | Blog | `graphs` |
-| [Airwallex](../companies/airwallex.md) | 13 | 0 | 7 | 6 | Sep 10, 2026 | Blog | `arrays` |
+| [Airwallex](../companies/airwallex.md) | 13 | 0 | 7 | 5 | Sep 10, 2026 | Blog | `arrays` |
 | [HubSpot](../companies/hubspot.md) | 13 | 0 | 4 | 0 | May 21, 2026 | Algorithm | `hashing` |
 | [Microsoft AI](../companies/microsoft-ai.md) | 13 | 0 | 3 | 1 | Sep 23, 2026 | System Design | `heap` |
 | [Okta](../companies/okta.md) | 13 | 1 | 5 | 1 | Aug 20, 2026 | Algorithm | `arrays` |

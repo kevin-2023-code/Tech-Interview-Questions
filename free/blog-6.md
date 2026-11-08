@@ -74,7 +74,7 @@
 | [Science Application (Ambiguous Problem)](https://trueinterview.io/questions/science-application-ambiguous-problem) | **Amazon** | — | Apr 29, 2026 |
 | [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design) | **Uber** | — | Jan 13, 2026 |
 | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | **Citadel** | — | Sep 17, 2026 |
-| [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | **Amazon** | — | 🆕 Sep 23, 2026 |
+| [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | **Amazon** | — | Sep 23, 2026 |
 | [Sealed-Bid Auction for a Box of 200 Coin Flips (and an Informed Opponent)](https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent) | **Jane Street** | — | Oct 10, 2025 |
 | [Segment 500k users into three groups](https://trueinterview.io/questions/segment-500k-users-into-three-groups) | **Capital One** | — | — |
 | [Select and prioritize metrics with guardrails](https://trueinterview.io/questions/select-and-prioritize-metrics-with-guardrails) | **Meta** | — | — |
@@ -84,7 +84,7 @@
 | [Select the better $5 promo-targeting model](https://trueinterview.io/questions/select-the-better-5-promo-targeting-model) | **Uber** | — | — |
 | [Sell GPUs to a retail CEO](https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo) | **NVIDIA** | — | — |
 | [Senior FDE Recruiter Screen](https://trueinterview.io/questions/senior-fde-recruiter-screen) | **Databricks** | — | Jul 21, 2026 |
-| [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | **Pinterest** | — | 🆕 Sep 23, 2026 |
+| [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | **Pinterest** | — | Sep 23, 2026 |
 | [Set the Group Call participant cap](https://trueinterview.io/questions/set-the-group-call-participant-cap) | **Meta** | — | — |
 | [Share different perspective from leadership feedback](https://trueinterview.io/questions/share-different-perspective-from-leadership-feedback) | **Meta** | — | — |
 | [Should you roll out if NSM decreases?](https://trueinterview.io/questions/should-you-roll-out-if-nsm-decreases) | **Instacart** | — | — |
