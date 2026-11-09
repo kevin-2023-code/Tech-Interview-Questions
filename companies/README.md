@@ -62,7 +62,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 466 | 5 | 86 | Oct 03, 2026 | 172 |
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 382 | 3 | 39 | Oct 04, 2026 | 127 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 344 | 5 | 40 | Oct 05, 2026 | 144 |
-| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 263 | 3 | 10 | Sep 29, 2026 | 106 |
+| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 263 | 3 | 9 | Sep 29, 2026 | 106 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 240 | 5 | 35 | Oct 03, 2026 | 76 |
 | [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 213 | 5 | 9 | Oct 02, 2026 | 112 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 182 | 4 | 9 | Oct 02, 2026 | 74 |
@@ -72,7 +72,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 145 | 1 | 14 | Oct 01, 2026 | 54 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 128 | 3 | 9 | Sep 23, 2026 | 34 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 119 | 1 | 16 | Oct 04, 2026 | 23 |
-| [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 115 | 1 | 25 | Sep 28, 2026 | 34 |
+| [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 115 | 1 | 23 | Sep 28, 2026 | 34 |
 | [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 112 | 3 | 18 | Oct 14, 2026 | 21 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 107 | 4 | 1 | Sep 23, 2026 | 32 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 105 | 4 | 4 | Sep 10, 2026 | 32 |
@@ -121,7 +121,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Datadog](datadog.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 28 | 1 | 1 | Aug 17, 2026 | 7 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 28 | 1 | 0 | Jun 23, 2026 | 13 |
 | [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 27 | 1 | 1 | Sep 17, 2026 | 19 |
-| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 27 | 1 | 5 | Oct 01, 2026 | 17 |
+| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 27 | 1 | 4 | Oct 01, 2026 | 17 |
 | [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 25 | 3 | 2 | Sep 01, 2026 | 8 |
 | [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 23 | 1 | 4 | Sep 15, 2026 | 6 |
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 22 | 1 | 0 | May 01, 2026 | 8 |

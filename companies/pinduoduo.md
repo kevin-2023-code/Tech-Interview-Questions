@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **27** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 5 |
+| Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (74% of 27) |
 | Difficulty (easy / medium / hard) | 5 / 11 / 5 |
 | Free to practise | [17](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **27 of 27** questions at Pinduoduo
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -46,7 +46,6 @@ Which stage each question came from, for the **27 of 27** questions at Pinduoduo
 | [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) | Blog | — | Phone screen | Sep 02, 2026 |
 | [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) | Blog | — | Phone screen | Aug 22, 2026 |
 | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
-| [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Onsite / virtual onsite | Aug 10, 2026 |
 
 ## What they ask about
 

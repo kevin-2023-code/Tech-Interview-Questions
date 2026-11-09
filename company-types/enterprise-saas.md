@@ -48,7 +48,7 @@ Of the **382 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**100 sightings** across this cut. Newest first.
+**98 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **382 questions in this cut that carry a topic label** (53% of it):
 | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Oracle | System Design | Sep 28, 2026 |
 | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Oracle | Object Oriented Programming | Sep 25, 2026 |
 
-<sub>88 more in this window are in the table below.</sub>
+<sub>86 more in this window are in the table below.</sub>
 
 ---
 

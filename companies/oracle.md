@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **115** |
 | Most recent sighting | Sep 28, 2026 |
-| Reported in the last 90 days | 25 |
+| Reported in the last 90 days | 23 |
 | Most common format | [Algorithm](../formats/algorithm.md) (58% of 115) |
 | Difficulty (easy / medium / hard) | 19 / 70 / 14 |
 | Free to practise | [34](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **115 of 115** questions at Oracle 
 
 ## Asked here in the last 90 days
 
-**25 sightings** in this window. Newest first.
+**23 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **115 of 115** questions at Oracle 
 | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | Onsite / virtual onsite | Aug 28, 2026 |
 | [Communicate a Difficult Decision to Stakeholders](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) | Blog | — | Onsite / virtual onsite | Aug 21, 2026 |
 
-<sub>13 more in this window are in the table below.</sub>
+<sub>11 more in this window are in the table below.</sub>
 
 ## What they ask about
 

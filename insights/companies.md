@@ -14,8 +14,8 @@
 | [ByteDance](../companies/bytedance.md) | 40 | 344 | Oct 05, 2026 | ███████ |
 | [Google](../companies/google.md) | 39 | 382 | Oct 04, 2026 | ███████ |
 | [Microsoft](../companies/microsoft.md) | 35 | 240 | Oct 03, 2026 | ███████ |
-| [Oracle](../companies/oracle.md) | 25 | 115 | Sep 28, 2026 | █████ |
 | [LinkedIn](../companies/linkedin.md) | 23 | 145 | Oct 01, 2026 | ████ |
+| [Oracle](../companies/oracle.md) | 23 | 115 | Sep 28, 2026 | ████ |
 | [DoorDash](../companies/doordash.md) | 21 | 151 | Sep 16, 2026 | ████ |
 | [OpenAI](../companies/openai.md) | 21 | 175 | Oct 04, 2026 | ████ |
 | [Airbnb](../companies/airbnb.md) | 18 | 112 | Oct 14, 2026 | ███ |
@@ -27,7 +27,6 @@
 | [AMD](../companies/amd.md) | 10 | 10 | Sep 14, 2026 | ██ |
 | [Instacart](../companies/instacart.md) | 10 | 65 | Sep 18, 2026 | ██ |
 | [Rippling](../companies/rippling.md) | 10 | 58 | Sep 18, 2026 | ██ |
-| [Uber](../companies/uber.md) | 10 | 263 | Sep 29, 2026 | ██ |
 | [Apple](../companies/apple.md) | 9 | 182 | Oct 02, 2026 | ██ |
 | [Capital One](../companies/capital-one.md) | 9 | 213 | Oct 02, 2026 | ██ |
 | [Citadel](../companies/citadel.md) | 9 | 97 | Oct 01, 2026 | ██ |
@@ -35,6 +34,7 @@
 | [Pinterest](../companies/pinterest.md) | 9 | 128 | Sep 23, 2026 | ██ |
 | [Salesforce](../companies/salesforce.md) | 9 | 99 | Sep 15, 2026 | ██ |
 | [Sig](../companies/sig.md) | 9 | 9 | Sep 17, 2026 | ██ |
+| [Tesla](../companies/tesla.md) | 9 | 52 | Sep 13, 2026 | ██ |
 
 ## Every company
 
@@ -44,7 +44,7 @@
 | [Amazon](../companies/amazon.md) | 466 | 5 | 172 | 86 | Oct 03, 2026 | Algorithm | `hashing` |
 | [Google](../companies/google.md) | 382 | 3 | 127 | 39 | Oct 04, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 344 | 5 | 144 | 40 | Oct 05, 2026 | Algorithm | `graphs` |
-| [Uber](../companies/uber.md) | 263 | 3 | 106 | 10 | Sep 29, 2026 | Algorithm | `graphs` |
+| [Uber](../companies/uber.md) | 263 | 3 | 106 | 9 | Sep 29, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 240 | 5 | 76 | 35 | Oct 03, 2026 | Algorithm | `strings` |
 | [Capital One](../companies/capital-one.md) | 213 | 5 | 112 | 9 | Oct 02, 2026 | Blog | `arrays` |
 | [Apple](../companies/apple.md) | 182 | 4 | 74 | 9 | Oct 02, 2026 | Algorithm | `hashing` |
@@ -54,7 +54,7 @@
 | [Snowflake](../companies/snowflake.md) | 145 | 1 | 54 | 14 | Oct 01, 2026 | Algorithm | `graphs` |
 | [Pinterest](../companies/pinterest.md) | 128 | 3 | 34 | 9 | Sep 23, 2026 | Algorithm | `hashing` |
 | [Stripe](../companies/stripe.md) | 119 | 1 | 23 | 16 | Oct 04, 2026 | Algorithm | `strings` |
-| [Oracle](../companies/oracle.md) | 115 | 1 | 34 | 25 | Sep 28, 2026 | Algorithm | `hashing` |
+| [Oracle](../companies/oracle.md) | 115 | 1 | 34 | 23 | Sep 28, 2026 | Algorithm | `hashing` |
 | [Airbnb](../companies/airbnb.md) | 112 | 3 | 21 | 18 | Oct 14, 2026 | Algorithm | `hashing` |
 | [Netflix](../companies/netflix.md) | 107 | 4 | 32 | 1 | Sep 23, 2026 | Algorithm | `hashing` |
 | [Roblox](../companies/roblox.md) | 105 | 4 | 32 | 4 | Sep 10, 2026 | Algorithm | `arrays` |
@@ -103,7 +103,7 @@
 | [Datadog](../companies/datadog.md) | 28 | 1 | 7 | 1 | Aug 17, 2026 | Algorithm | `hashing` |
 | [JPMorgan](../companies/jpmorgan.md) | 28 | 1 | 13 | 0 | Jun 23, 2026 | Algorithm | `arrays` |
 | [Cisco](../companies/cisco.md) | 27 | 1 | 19 | 1 | Sep 17, 2026 | Algorithm | `arrays` |
-| [Pinduoduo](../companies/pinduoduo.md) | 27 | 1 | 17 | 5 | Oct 01, 2026 | Algorithm | `matrix` |
+| [Pinduoduo](../companies/pinduoduo.md) | 27 | 1 | 17 | 4 | Oct 01, 2026 | Algorithm | `matrix` |
 | [Perplexity](../companies/perplexity.md) | 25 | 3 | 8 | 2 | Sep 01, 2026 | Algorithm | `heap` |
 | [Harvey](../companies/harvey.md) | 23 | 1 | 6 | 4 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Hudson River Trading](../companies/hudson-river-trading.md) | 22 | 1 | 8 | 0 | May 01, 2026 | Algorithm | `arrays` |
