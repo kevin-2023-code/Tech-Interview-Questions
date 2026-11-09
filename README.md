@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,889 questions** · **274 writeups** · **132 companies** · **2,056 free to practise** · **636 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,889 questions** · **279 writeups** · **132 companies** · **2,056 free to practise** · **636 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -65,7 +65,7 @@ share naming the population it is a share of.
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
-**Interview process:** [Writeups on how 91 companies interview (274 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
+**Interview process:** [Writeups on how 91 companies interview (279 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
 <!-- gen:guides:end -->
 
 How a round runs, a problem worked end to end, notes on a process — each one filed

@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**274 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
+**279 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,18 +10,18 @@
 
 | Writeup | Company | Topics |
 | :-- | :-- | :-- |
+| [10 Most-Reported String Parsing Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-string-parsing-interview-questions) | **General** | — |
+| [8 Most-Reported Sliding Window Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-sliding-window-questions-big-tech) | **General** | — |
+| [Binary Search Interview Prep: Template First, Then the Disguises](https://trueinterview.io/study/binary-search-interview-prep-plan) | **General** | — |
 | [Event-Log SQL Interview Questions: Streaks, Sessions, DAU](https://trueinterview.io/study/event-log-sql-interview-questions-streaks-sessions-dau) | **General** | — |
+| [Have Greedy Interview Questions Shifted to Scheduling in 2026?](https://trueinterview.io/study/greedy-interview-questions-scheduling-2026) | **General** | — |
 | [How LLM Interview Questions Differ by Company (2026)](https://trueinterview.io/study/llm-interview-questions-by-company) | **General** | — |
 | [Is a Significant A/B Result Enough to Ship in 2026?](https://trueinterview.io/study/significant-ab-result-ship-decision-2026) | **General** | — |
 | [News Feed System Design Prep: Fan-Out First, Then Your Variant](https://trueinterview.io/study/news-feed-system-design-interview-prep-plan) | **General** | — |
+| [Sweep Line vs Min-Heap: Which to Code for Meeting Rooms](https://trueinterview.io/study/sweep-line-vs-min-heap-meeting-rooms) | **General** | — |
 | [Choosing Your Failure Stories for Big Tech Loops: A Prep Plan](https://trueinterview.io/study/failure-story-selection-prep-plan-big-tech) | **General** | — |
 | [Class Design vs Data Structure LLD: What Changes at Senior Level](https://trueinterview.io/study/lld-class-design-vs-data-structure-senior) | **General** | — |
 | [Conflict and Feedback Questions: How Each Company Asks](https://trueinterview.io/study/conflict-feedback-behavioral-questions-by-company) | **General** | — |
-| [GenAI System Design Interview Prep: Start With GPU Serving](https://trueinterview.io/study/genai-system-design-interview-prep-plan) | **General** | — |
-| [Graph Coding Interview Prep: A Staged Plan for Big Tech](https://trueinterview.io/study/graph-coding-interview-prep-plan-big-tech) | **General** | — |
-| [How Big Tech Disguises Topological Sort, Company by Company](https://trueinterview.io/study/how-big-tech-disguises-topological-sort-by-company) | **General** | — |
-| [Is the AI Coding Interview a Prompting Test in 2026?](https://trueinterview.io/study/ai-coding-interview-prompting-myths-2026) | **General** | — |
-| [Is the Big Tech OA Just a LeetCode Test in 2026?](https://trueinterview.io/study/is-big-tech-oa-just-leetcode-2026) | **General** | — |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -29,10 +29,11 @@
 
 ### General
 
-<sub>102 guides · no questions reported at this employer yet</sub>
+<sub>107 guides · no questions reported at this employer yet</sub>
 
 | Writeup | Topics |
 | :-- | :-- |
+| [10 Most-Reported String Parsing Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-string-parsing-interview-questions) | — |
 | [7 Most-Reported Topological Sort Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-topological-sort-questions-big-tech) | — |
 | [8 Big Tech Questions Only Senior Candidates Report (2026)](https://trueinterview.io/study/big-tech-questions-only-senior-candidates-report-2026) | — |
 | [8 Interview Questions Filed at the Most Big Tech Companies (2026)](https://trueinterview.io/study/interview-questions-filed-at-most-big-tech-companies-2026) | — |
@@ -40,6 +41,7 @@
 | [8 Most-Reported Interval Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-interval-meeting-room-questions-2026) | — |
 | [8 Most-Reported LLM Interview Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-llm-interview-questions-big-tech-2026) | — |
 | [8 Most-Reported Project Deep Dive Prompts at Big Tech (2026)](https://trueinterview.io/study/most-reported-project-deep-dive-prompts-big-tech) | — |
+| [8 Most-Reported Sliding Window Questions at Big Tech (2026)](https://trueinterview.io/study/most-reported-sliding-window-questions-big-tech) | — |
 | [AI-Assisted Coding Interviews at Big Tech: What to Drill](https://trueinterview.io/study/ai-assisted-coding-interview-big-tech-prep-2026) | — |
 | [AI-Assisted vs LeetCode Interviews: What Changes at Senior Level](https://trueinterview.io/study/ai-assisted-vs-traditional-coding-interviews) | — |
 | [Are Encoding and Serialization Questions Still Asked in 2026?](https://trueinterview.io/study/encoding-serialization-interview-questions-2026) | — |
@@ -50,6 +52,7 @@
 | [Big Tech Coding Topics by Company: Where Each One Differs](https://trueinterview.io/study/big-tech-coding-topics-by-company-2026) | — |
 | [Big Tech Onsite Interview Rounds for Senior Engineers (2026)](https://trueinterview.io/study/big-tech-onsite-interview-rounds-senior-engineers-2026) | — |
 | [Big Tech System Design Questions by Company and Round (2026)](https://trueinterview.io/study/big-tech-system-design-questions-by-company-and-round-2026) | — |
+| [Binary Search Interview Prep: Template First, Then the Disguises](https://trueinterview.io/study/binary-search-interview-prep-plan) | — |
 | [Binary Tree Interviews: DFS or BFS, Recursion or a Stack?](https://trueinterview.io/study/binary-tree-dfs-or-bfs-recursion-or-stack) | — |
 | [Bit Manipulation Interview Prep Plan: 29 Reported Questions](https://trueinterview.io/study/bit-manipulation-interview-prep-plan) | — |
 | [Caching Interview Questions: LRU, Expiry and Durable Caches](https://trueinterview.io/study/caching-interview-questions-lru-expiry-durable-caches) | — |
@@ -70,6 +73,7 @@
 | [Graph Coding Interview Prep: A Staged Plan for Big Tech](https://trueinterview.io/study/graph-coding-interview-prep-plan-big-tech) | — |
 | [Greedy vs Dynamic Programming in Interviews: How to Choose](https://trueinterview.io/study/greedy-vs-dynamic-programming-interview) | — |
 | [Hack2hire Review 2026: Company-Tagged SDE Questions — Worth It?](https://trueinterview.io/study/hack2hire-review-2026) | — |
+| [Have Greedy Interview Questions Shifted to Scheduling in 2026?](https://trueinterview.io/study/greedy-interview-questions-scheduling-2026) | — |
 | [Hello Interview Review 2026: Best for System Design — Worth It?](https://trueinterview.io/study/hellointerview-review-2026) | — |
 | [Hiring Manager vs Behavioral Round at Senior and Staff Level](https://trueinterview.io/study/hiring-manager-vs-behavioral-round-senior-staff) | — |
 | [How Big Tech Disguises Topological Sort, Company by Company](https://trueinterview.io/study/how-big-tech-disguises-topological-sort-by-company) | — |
@@ -120,6 +124,7 @@
 | [Statistics and Probability Questions: 227 Reported (2026)](https://trueinterview.io/study/statistics-probability-interview-questions-big-tech-2026) | — |
 | [String Interview Prep Plan: What Big Tech Candidates Report](https://trueinterview.io/study/string-interview-prep-plan-big-tech) | — |
 | [SWE vs ML Engineer Interviews: What Changes at Senior Level](https://trueinterview.io/study/software-engineer-to-ml-engineer-interview-what-changes) | — |
+| [Sweep Line vs Min-Heap: Which to Code for Meeting Rooms](https://trueinterview.io/study/sweep-line-vs-min-heap-meeting-rooms) | — |
 | [System Design Interview in Four Weeks: A Company-Based Plan](https://trueinterview.io/study/system-design-interview-four-week-plan-by-company) | — |
 | [The Most-Reported Graph Questions at Big Tech in 2026](https://trueinterview.io/study/most-reported-graph-questions-big-tech-2026) | — |
 | [Top-K, K-th Element and Median Interview Prep Plan](https://trueinterview.io/study/top-k-kth-element-median-interview-prep-plan) | — |
