@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**270 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
+**271 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Writeup | Company | Topics |
 | :-- | :-- | :-- |
+| [Is a Significant A/B Result Enough to Ship in 2026?](https://trueinterview.io/study/significant-ab-result-ship-decision-2026) | **General** | — |
 | [Choosing Your Failure Stories for Big Tech Loops: A Prep Plan](https://trueinterview.io/study/failure-story-selection-prep-plan-big-tech) | **General** | — |
 | [Class Design vs Data Structure LLD: What Changes at Senior Level](https://trueinterview.io/study/lld-class-design-vs-data-structure-senior) | **General** | — |
 | [Conflict and Feedback Questions: How Each Company Asks](https://trueinterview.io/study/conflict-feedback-behavioral-questions-by-company) | **General** | — |
@@ -21,7 +22,6 @@
 | [Is the Big Tech SQL Round Just a Syntax Quiz in 2026?](https://trueinterview.io/study/big-tech-sql-round-myths-2026) | **General** | — |
 | [LRU Cache Round: Which Follow-Ups Does Big Tech Add?](https://trueinterview.io/study/lru-cache-interview-follow-ups) | **General** | — |
 | [Memoization vs Tabulation in DP Interviews at Senior Level](https://trueinterview.io/study/memoization-vs-tabulation-dp-interviews-senior) | **General** | — |
-| [Most-Reported ML System Design Questions, Mapped to the Funnel](https://trueinterview.io/study/most-reported-ml-system-design-questions-funnel) | **General** | — |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -29,7 +29,7 @@
 
 ### General
 
-<sub>98 guides · no questions reported at this employer yet</sub>
+<sub>99 guides · no questions reported at this employer yet</sub>
 
 | Writeup | Topics |
 | :-- | :-- |
@@ -79,6 +79,7 @@
 | [How to Prepare from Candidate-Reported Interview Questions](https://trueinterview.io/study/prepare-from-candidate-reported-interview-questions-2026) | — |
 | [interviewing.io Review 2026: Anonymous Mock Interviews — Worth It?](https://trueinterview.io/study/interviewing-io-review-2026) | — |
 | [Is 'Why Do You Want to Work Here' Just a Warm-Up in 2026?](https://trueinterview.io/study/why-do-you-want-to-work-here-big-tech-ai-labs) | — |
+| [Is a Significant A/B Result Enough to Ship in 2026?](https://trueinterview.io/study/significant-ab-result-ship-decision-2026) | — |
 | [Is a Small, Safe Failure Story Best for Big Tech in 2026?](https://trueinterview.io/study/small-safe-failure-story-big-tech-2026) | — |
 | [Is Classic DP Still Asked in Big Tech Interviews in 2026?](https://trueinterview.io/study/classic-dp-big-tech-interviews-2026) | — |
 | [Is LeetCode Still Enough for Big Tech Interviews in 2026?](https://trueinterview.io/study/is-leetcode-enough-big-tech-interviews-2026) | — |
