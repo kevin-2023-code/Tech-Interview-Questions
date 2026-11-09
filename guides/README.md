@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**271 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
+**274 writeups** across **91 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,7 +10,10 @@
 
 | Writeup | Company | Topics |
 | :-- | :-- | :-- |
+| [Event-Log SQL Interview Questions: Streaks, Sessions, DAU](https://trueinterview.io/study/event-log-sql-interview-questions-streaks-sessions-dau) | **General** | — |
+| [How LLM Interview Questions Differ by Company (2026)](https://trueinterview.io/study/llm-interview-questions-by-company) | **General** | — |
 | [Is a Significant A/B Result Enough to Ship in 2026?](https://trueinterview.io/study/significant-ab-result-ship-decision-2026) | **General** | — |
+| [News Feed System Design Prep: Fan-Out First, Then Your Variant](https://trueinterview.io/study/news-feed-system-design-interview-prep-plan) | **General** | — |
 | [Choosing Your Failure Stories for Big Tech Loops: A Prep Plan](https://trueinterview.io/study/failure-story-selection-prep-plan-big-tech) | **General** | — |
 | [Class Design vs Data Structure LLD: What Changes at Senior Level](https://trueinterview.io/study/lld-class-design-vs-data-structure-senior) | **General** | — |
 | [Conflict and Feedback Questions: How Each Company Asks](https://trueinterview.io/study/conflict-feedback-behavioral-questions-by-company) | **General** | — |
@@ -19,9 +22,6 @@
 | [How Big Tech Disguises Topological Sort, Company by Company](https://trueinterview.io/study/how-big-tech-disguises-topological-sort-by-company) | **General** | — |
 | [Is the AI Coding Interview a Prompting Test in 2026?](https://trueinterview.io/study/ai-coding-interview-prompting-myths-2026) | **General** | — |
 | [Is the Big Tech OA Just a LeetCode Test in 2026?](https://trueinterview.io/study/is-big-tech-oa-just-leetcode-2026) | **General** | — |
-| [Is the Big Tech SQL Round Just a Syntax Quiz in 2026?](https://trueinterview.io/study/big-tech-sql-round-myths-2026) | **General** | — |
-| [LRU Cache Round: Which Follow-Ups Does Big Tech Add?](https://trueinterview.io/study/lru-cache-interview-follow-ups) | **General** | — |
-| [Memoization vs Tabulation in DP Interviews at Senior Level](https://trueinterview.io/study/memoization-vs-tabulation-dp-interviews-senior) | **General** | — |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -29,7 +29,7 @@
 
 ### General
 
-<sub>99 guides · no questions reported at this employer yet</sub>
+<sub>102 guides · no questions reported at this employer yet</sub>
 
 | Writeup | Topics |
 | :-- | :-- |
@@ -61,6 +61,7 @@
 | [Crawler, Typeahead or Ranking: Which Search Design Will You Get?](https://trueinterview.io/study/search-typeahead-web-crawler-design-interview-decisions) | — |
 | [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | — |
 | [Do Big Tech Phone Screens Include System Design Now?](https://trueinterview.io/study/do-big-tech-phone-screens-include-system-design-now) | — |
+| [Event-Log SQL Interview Questions: Streaks, Sessions, DAU](https://trueinterview.io/study/event-log-sql-interview-questions-streaks-sessions-dau) | — |
 | [Experiment Design and A/B Test Questions: 46 Reported (2026)](https://trueinterview.io/study/experiment-design-ab-test-interview-questions-big-tech-2026) | — |
 | [Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?](https://trueinterview.io/study/exponent-review-2026) | — |
 | [Frontend Interview Questions for Senior Engineers: 31 Reported](https://trueinterview.io/study/frontend-interview-questions-senior-engineers-2026) | — |
@@ -73,6 +74,7 @@
 | [Hiring Manager vs Behavioral Round at Senior and Staff Level](https://trueinterview.io/study/hiring-manager-vs-behavioral-round-senior-staff) | — |
 | [How Big Tech Disguises Topological Sort, Company by Company](https://trueinterview.io/study/how-big-tech-disguises-topological-sort-by-company) | — |
 | [How Is the Array Interview Question Mix Shifting in 2026?](https://trueinterview.io/study/array-interview-questions-rising-2026) | — |
+| [How LLM Interview Questions Differ by Company (2026)](https://trueinterview.io/study/llm-interview-questions-by-company) | — |
 | [How to Prep for Multi-Level OOP Simulation OAs in 2026](https://trueinterview.io/study/progressive-oop-simulation-oa-prep-plan) | — |
 | [How to Prepare for a Debugging Round at Big Tech (2026)](https://trueinterview.io/study/debugging-interview-round-prep-big-tech-2026) | — |
 | [How to Prepare for SQL Window Function Interviews (2026)](https://trueinterview.io/study/how-to-prepare-for-sql-window-function-interviews) | — |
@@ -102,6 +104,7 @@
 | [ML Theory Questions for Senior Engineers: 100 Reported (2026)](https://trueinterview.io/study/ml-theory-interview-questions-senior-engineers-big-tech-2026) | — |
 | [Most-Reported ML System Design Questions, Mapped to the Funnel](https://trueinterview.io/study/most-reported-ml-system-design-questions-funnel) | — |
 | [NeetCode Pro Review 2026: Worth It Beyond the Free Roadmap?](https://trueinterview.io/study/neetcode-review-2026) | — |
+| [News Feed System Design Prep: Fan-Out First, Then Your Variant](https://trueinterview.io/study/news-feed-system-design-interview-prep-plan) | — |
 | [Payment and Ledger Interview Questions: Coding, OOD and Design](https://trueinterview.io/study/payment-ledger-interview-questions-coding-ood-design) | — |
 | [PracHub Review 2026: A Low-Cost Question Bank — Worth It?](https://trueinterview.io/study/prachub-review-2026) | — |
 | [Project Deep Dive Questions for Senior Engineers: 88 Reported](https://trueinterview.io/study/project-deep-dive-interview-questions-senior-engineers-2026) | — |
