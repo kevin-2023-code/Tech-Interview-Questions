@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **263** |
 | Most recent sighting | Sep 29, 2026 |
-| Reported in the last 90 days | 9 |
+| Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 263) |
 | Difficulty (easy / medium / hard) | 26 / 153 / 45 |
 | Free to practise | [106](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **263 of 263** questions at Uber th
 
 ## Asked here in the last 90 days
 
-**9 sightings** in this window. Newest first.
+**8 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -51,7 +51,6 @@ Which stage each question came from, for the **263 of 263** questions at Uber th
 | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | System Design | Medium | Onsite / virtual onsite | Aug 22, 2026 |
 | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
-| [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | Phone screen | Aug 11, 2026 |
 
 ## What they ask about
 

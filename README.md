@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,889 questions** · **279 writeups** · **132 companies** · **2,056 free to practise** · **636 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,889 questions** · **279 writeups** · **132 companies** · **2,056 free to practise** · **631 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,9 +42,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 636 sightings at 85 companies — Algorithm 201 · SQL 15 · System Design 138 · AI Coding 5 · Blog 205 · Object Oriented Programming 72.
+**Last 90 days:** 631 sightings at 85 companies — Algorithm 199 · SQL 15 · System Design 138 · AI Coding 5 · Blog 203 · Object Oriented Programming 71.
 
-**Reported most:** [Amazon (86)](companies/amazon.md) · [ByteDance (40)](companies/bytedance.md) · [Google (39)](companies/google.md) · [Microsoft (35)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [Oracle (23)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [OpenAI (21)](companies/openai.md)
+**Reported most:** [Amazon (86)](companies/amazon.md) · [ByteDance (40)](companies/bytedance.md) · [Google (38)](companies/google.md) · [Microsoft (34)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [OpenAI (21)](companies/openai.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (16) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) (14)
 
@@ -214,9 +214,9 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Citadel** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | 🆕 Sep 27, 2026 |
 | **Amazon** | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | 🆕 Sep 26, 2026 |
 | **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | 🆕 Sep 26, 2026 |
-| **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | 🆕 Sep 25, 2026 |
-| **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | 🆕 Sep 25, 2026 |
-| **ByteDance** | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Algorithm | 🆕 Sep 25, 2026 |
+| **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Sep 25, 2026 |
+| **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | Sep 25, 2026 |
+| **ByteDance** | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Algorithm | Sep 25, 2026 |
 | **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | Blog | Sep 23, 2026 |
 | **Netflix** | [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | Blog | Sep 23, 2026 |
 | **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | Blog | Sep 23, 2026 |

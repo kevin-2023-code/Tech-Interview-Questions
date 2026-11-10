@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **115** |
 | Most recent sighting | Sep 28, 2026 |
-| Reported in the last 90 days | 23 |
+| Reported in the last 90 days | 22 |
 | Most common format | [Algorithm](../formats/algorithm.md) (58% of 115) |
 | Difficulty (easy / medium / hard) | 19 / 70 / 14 |
 | Free to practise | [34](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **115 of 115** questions at Oracle 
 
 ## Asked here in the last 90 days
 
-**23 sightings** in this window. Newest first.
+**22 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **115 of 115** questions at Oracle 
 | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | Onsite / virtual onsite | Aug 28, 2026 |
 | [Communicate a Difficult Decision to Stakeholders](https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders) | Blog | — | Onsite / virtual onsite | Aug 21, 2026 |
 
-<sub>11 more in this window are in the table below.</sub>
+<sub>10 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -137,8 +137,8 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | System Design | Medium | 🆕 Sep 28, 2026 |
-| [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Medium | 🆕 Sep 25, 2026 |
-| [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | Medium | 🆕 Sep 25, 2026 |
+| [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Medium | Sep 25, 2026 |
+| [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | Medium | Sep 25, 2026 |
 | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | Blog | — | Sep 19, 2026 |
 | [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application) | Blog | — | Sep 11, 2026 |
 | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | Sep 11, 2026 |
