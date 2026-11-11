@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **29** |
 | Most recent sighting | Aug 25, 2026 |
-| Reported in the last 90 days | 6 |
+| Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (31% of 29) |
 | Difficulty (easy / medium / hard) | 3 / 16 / 4 |
 | Free to practise | [11](../free/README.md) |
@@ -38,16 +38,11 @@ Which stage each question came from, for the **29 of 29** questions at Figma tha
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Clarify a BERT Keyphrase Span-Extraction Task](https://trueinterview.io/questions/clarify-a-bert-keyphrase-span-extraction-task) | Blog | — | Phone screen | Aug 25, 2026 |
-| [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
-| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
-| [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral) | Blog | — | Onsite / virtual onsite | Aug 12, 2026 |
-| [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | Easy | Onsite / virtual onsite | Aug 12, 2026 |
-| [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
 
 ## What they ask about
 

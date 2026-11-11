@@ -117,7 +117,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 32 | 1 | 1 | Sep 04, 2026 | 7 |
 | [Confluent](confluent.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 30 | 1 | 0 | Apr 29, 2026 | 4 |
 | [Applied Intuition](applied-intuition.md) | Autonomy, automotive & mobility | 29 | 1 | 1 | Aug 30, 2026 | 8 |
-| [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 29 | 1 | 6 | Aug 25, 2026 | 11 |
+| [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 29 | 1 | 1 | Aug 25, 2026 | 11 |
 | [Datadog](datadog.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 28 | 1 | 1 | Aug 17, 2026 | 7 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 28 | 1 | 0 | Jun 23, 2026 | 13 |
 | [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 27 | 1 | 1 | Sep 17, 2026 | 19 |
@@ -133,7 +133,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Boston Consulting Group](boston-consulting-group.md) | — | 19 | — | 0 | Aug 04, 2026 | 12 |
 | [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 19 | 1 | — | — | 6 |
 | [Whatnot](whatnot.md) | E-commerce & marketplaces · 200–999 people | 19 | — | 0 | Jun 12, 2026 | 6 |
-| [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 18 | — | 1 | Aug 12, 2026 | 3 |
+| [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 18 | — | 0 | Aug 12, 2026 | 3 |
 | [Voleon](voleon.md) | Quant trading & hedge funds | 18 | 1 | 1 | Sep 14, 2026 | 9 |
 | [Thumbtack](thumbtack.md) | — | 16 | — | — | — | 13 |
 | [Bitkernel](bitkernel.md) | — | 15 | — | 0 | Oct 24, 2025 | 15 |

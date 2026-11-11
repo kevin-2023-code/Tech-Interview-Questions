@@ -8,13 +8,13 @@ What the bank is *about*, counted over the **2,604 questions that carry a topic 
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
-| `hashing` | 484 | 19% | 42 | 115 | 303 | 66 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Apple](../companies/apple.md) |
-| `arrays` | 416 | 16% | 39 | 112 | 253 | 51 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
+| `hashing` | 484 | 19% | 41 | 115 | 303 | 66 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Apple](../companies/apple.md) |
+| `arrays` | 416 | 16% | 38 | 112 | 253 | 51 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `graphs` | 401 | 15% | 42 | 29 | 261 | 111 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
 | `strings` | 376 | 14% | 30 | 104 | 220 | 52 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Meta](../companies/meta.md) |
 | `greedy` | 218 | 8% | 14 | 20 | 149 | 49 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `math` | 208 | 8% | 18 | 42 | 108 | 58 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Google](../companies/google.md) |
-| `sorting` | 204 | 8% | 15 | 39 | 120 | 45 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Meta](../companies/meta.md) |
+| `sorting` | 204 | 8% | 14 | 39 | 120 | 45 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Meta](../companies/meta.md) |
 | `dynamic-programming` | 203 | 8% | 12 | 11 | 117 | 75 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `trees` | 192 | 7% | 25 | 24 | 128 | 40 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `matrix` | 164 | 6% | 23 | 13 | 120 | 31 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Capital One](../companies/capital-one.md) |

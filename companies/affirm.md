@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **18** |
 | Most recent sighting | Aug 12, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (56% of 18) |
 | Difficulty (easy / medium / hard) | 3 / 11 / 3 |
 | Free to practise | [3](../free/README.md) |
@@ -38,11 +38,7 @@ Which stage each question came from, for the **18 of 18** questions at Affirm th
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
+**Nothing has been reported at Affirm since Aug 12, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

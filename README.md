@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,889 questions** · **279 writeups** · **132 companies** · **2,056 free to practise** · **631 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,889 questions** · **279 writeups** · **132 companies** · **2,056 free to practise** · **625 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,7 +42,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 631 sightings at 85 companies — Algorithm 199 · SQL 15 · System Design 138 · AI Coding 5 · Blog 203 · Object Oriented Programming 71.
+**Last 90 days:** 625 sightings at 84 companies — Algorithm 197 · SQL 15 · System Design 136 · AI Coding 5 · Blog 202 · Object Oriented Programming 70.
 
 **Reported most:** [Amazon (86)](companies/amazon.md) · [ByteDance (40)](companies/bytedance.md) · [Google (38)](companies/google.md) · [Microsoft (34)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [OpenAI (21)](companies/openai.md)
 
@@ -212,8 +212,8 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **ByteDance** | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Algorithm | 🆕 Sep 28, 2026 |
 | **Amazon** | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Algorithm | 🆕 Sep 28, 2026 |
 | **Citadel** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | 🆕 Sep 27, 2026 |
-| **Amazon** | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | 🆕 Sep 26, 2026 |
-| **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | 🆕 Sep 26, 2026 |
+| **Amazon** | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Sep 26, 2026 |
+| **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Sep 26, 2026 |
 | **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Sep 25, 2026 |
 | **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Object Oriented Programming | Sep 25, 2026 |
 | **ByteDance** | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Algorithm | Sep 25, 2026 |

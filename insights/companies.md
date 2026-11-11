@@ -99,7 +99,7 @@
 | [Verkada](../companies/verkada.md) | 32 | 1 | 7 | 1 | Sep 04, 2026 | Algorithm | `hashing` |
 | [Confluent](../companies/confluent.md) | 30 | 1 | 4 | 0 | Apr 29, 2026 | Algorithm | `arrays` |
 | [Applied Intuition](../companies/applied-intuition.md) | 29 | 1 | 8 | 1 | Aug 30, 2026 | Algorithm | `graphs` |
-| [Figma](../companies/figma.md) | 29 | 1 | 11 | 6 | Aug 25, 2026 | Algorithm | `strings` |
+| [Figma](../companies/figma.md) | 29 | 1 | 11 | 1 | Aug 25, 2026 | Algorithm | `strings` |
 | [Datadog](../companies/datadog.md) | 28 | 1 | 7 | 1 | Aug 17, 2026 | Algorithm | `hashing` |
 | [JPMorgan](../companies/jpmorgan.md) | 28 | 1 | 13 | 0 | Jun 23, 2026 | Algorithm | `arrays` |
 | [Cisco](../companies/cisco.md) | 27 | 1 | 19 | 1 | Sep 17, 2026 | Algorithm | `arrays` |
@@ -115,7 +115,7 @@
 | [Boston Consulting Group](../companies/boston-consulting-group.md) | 19 | 0 | 12 | 0 | Aug 04, 2026 | Blog | `stack` |
 | [Rubrik](../companies/rubrik.md) | 19 | 1 | 6 | — | — | Algorithm | `graphs` |
 | [Whatnot](../companies/whatnot.md) | 19 | 0 | 6 | 0 | Jun 12, 2026 | System Design | `hashing` |
-| [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 1 | Aug 12, 2026 | Algorithm | `hashing` |
+| [Affirm](../companies/affirm.md) | 18 | 0 | 3 | 0 | Aug 12, 2026 | Algorithm | `hashing` |
 | [Voleon](../companies/voleon.md) | 18 | 1 | 9 | 1 | Sep 14, 2026 | Algorithm | `hashing` |
 | [Thumbtack](../companies/thumbtack.md) | 16 | 0 | 13 | — | — | Blog | — |
 | [Bitkernel](../companies/bitkernel.md) | 15 | 0 | 15 | 0 | Oct 24, 2025 | Blog | — |
