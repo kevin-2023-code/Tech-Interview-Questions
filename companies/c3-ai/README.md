@@ -9,7 +9,7 @@ How C3.ai interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [55](../c3-ai.md) |
-| Free to read here | 6 |
+| Free to read here | 16 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -20,7 +20,7 @@ No written process guide yet. [The loop, as reported](../c3-ai.md#the-loop-as-re
 
 ## Free C3.ai questions
 
-12 questions reported at C3.ai open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at C3.ai open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -34,7 +34,17 @@ No written process guide yet. [The loop, as reported](../c3-ai.md#the-loop-as-re
 | [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Library Book Management System Design and API Architecture](../../questions/object-oriented-programming/library-book-management-system-design-and-api-architecture/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c51674da-fe87-4c8a-ae4c-953716a356b6) |
 | [Analyze the Time Complexity of Nested Loops](https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413) |
+| [Greedy Line Wrapping with Even Word Spacing](../../questions/algorithm/text-justification-2/README.md) | Algorithm | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/text-justification) |
+| [Versioned Array With Cheap Snapshots and Historical Reads](../../questions/algorithm/snapshot-array/README.md) | Algorithm | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/snapshot-array) |
 | [Shortest Substring Covering All Characters of a Pattern](../../questions/algorithm/minimum-window-substring-4/README.md) | Algorithm | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/minimum-window-substring-4) |
+| [Longest Equal-Step Subsequence in an Integer Array](../../questions/algorithm/longest-arithmetic-subsequence/README.md) | Algorithm | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/longest-arithmetic-subsequence) |
+| [Nearest K Points to the Origin](../../questions/algorithm/k-closest-points-to-origin/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/k-closest-points-to-origin) |
+| [Bucket Words That Share the Same Letters](../../questions/algorithm/group-anagrams-2/README.md) | Algorithm | Easy | Phone screen | — | [Solve](https://trueinterview.io/questions/group-anagrams-2) |
+| [Enumerate All Balanced Bracket Strings for N Pairs](../../questions/algorithm/generate-parentheses/README.md) | Algorithm | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/generate-parentheses) |
+| [Two-Basket Fruit Picking Along a Tree Row](../../questions/algorithm/fruit-into-baskets/README.md) | Algorithm | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/fruit-into-baskets) |
+| [Compute Ratios From Variable Equations](../../questions/algorithm/evaluate-division-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/evaluate-division-2) |
+| [Nodes Visible When Viewing a Binary Tree From One Side](../../questions/algorithm/binary-tree-right-side-view-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/binary-tree-right-side-view-2) |
+| [Count Binary Subarrays Hitting a Target Sum](../../questions/algorithm/binary-subarrays-with-sum/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/binary-subarrays-with-sum) |
 | [Describe challenge, influence, and mentorship outcomes](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/describe-challenge-influence-and-mentorship-outcomes) |
 
 ## Everything else

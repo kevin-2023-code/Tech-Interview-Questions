@@ -145,7 +145,7 @@ Here are some questions reported by recent candidates:
 - [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain)
 - [Most Frequent Function Call Stack](../../questions/algorithm/most-frequent-function-call-stack/README.md)
 - [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12)
-- [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8)
+- [Number of Ways to Wear Different Hats to Each Other](../../questions/algorithm/number-of-ways-to-wear-different-hats-to-each-other/README.md)
 
 ## System design interview
 

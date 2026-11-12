@@ -9,7 +9,7 @@ How Capital One interviews, and the questions candidates reported there. Free qu
 |  |  |
 | :-- | :-- |
 | Questions reported | [213](../capital-one.md) |
-| Free to read here | 3 |
+| Free to read here | 4 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Oct 02, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Capital One questions
 
-112 questions reported at Capital One open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+113 questions reported at Capital One open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -75,6 +75,7 @@ Here's what the interview process can look like:
 | [How would you choose between shows?](https://trueinterview.io/questions/how-would-you-choose-between-shows) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-would-you-choose-between-shows) |
 | [Describe leadership challenges and managing a difficult report](https://trueinterview.io/questions/describe-leadership-challenges-and-managing-a-difficult-report) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/describe-leadership-challenges-and-managing-a-difficult-report) |
 | [Answer leadership scenarios with STAR](https://trueinterview.io/questions/answer-leadership-scenarios-with-star) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-leadership-scenarios-with-star) |
+| [Number of Subarrays That Match a Pattern I](../../questions/algorithm/number-of-subarrays-that-match-a-pattern-i/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a) |
 | [Use data to resolve an ambiguous problem](https://trueinterview.io/questions/use-data-to-resolve-an-ambiguous-problem) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/use-data-to-resolve-an-ambiguous-problem) |
 | [Sketch function from derivatives and limits](https://trueinterview.io/questions/sketch-function-from-derivatives-and-limits) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/sketch-function-from-derivatives-and-limits) |
 | [Segment 500k users into three groups](https://trueinterview.io/questions/segment-500k-users-into-three-groups) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/segment-500k-users-into-three-groups) |

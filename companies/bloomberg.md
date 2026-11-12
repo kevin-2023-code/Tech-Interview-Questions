@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 95) |
 | Difficulty (easy / medium / hard) | 16 / 56 / 18 |
-| Free to practise | [34](../free/README.md) |
+| Free to practise | [37](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 95 questions reported at Bloomberg. 64 of them carry a sighting date; the other 31 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

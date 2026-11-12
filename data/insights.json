@@ -1,13 +1,13 @@
 {
   "accessTiers": {
-    "free": 2056,
-    "insider": 3763,
-    "pro": 70
+    "free": 2114,
+    "insider": 3706,
+    "pro": 69
   },
   "companies": [
     {
       "dated": 233,
-      "free": 203,
+      "free": 208,
       "guides": 6,
       "inLastYear": 217,
       "inWindow": 17,
@@ -20,7 +20,7 @@
     },
     {
       "dated": 275,
-      "free": 172,
+      "free": 174,
       "guides": 5,
       "inLastYear": 261,
       "inWindow": 84,
@@ -33,7 +33,7 @@
     },
     {
       "dated": 204,
-      "free": 127,
+      "free": 129,
       "guides": 3,
       "inLastYear": 192,
       "inWindow": 35,
@@ -46,7 +46,7 @@
     },
     {
       "dated": 203,
-      "free": 144,
+      "free": 148,
       "guides": 5,
       "inLastYear": 194,
       "inWindow": 38,
@@ -59,7 +59,7 @@
     },
     {
       "dated": 160,
-      "free": 106,
+      "free": 113,
       "guides": 3,
       "inLastYear": 152,
       "inWindow": 8,
@@ -72,7 +72,7 @@
     },
     {
       "dated": 157,
-      "free": 76,
+      "free": 80,
       "guides": 5,
       "inLastYear": 149,
       "inWindow": 34,
@@ -85,7 +85,7 @@
     },
     {
       "dated": 68,
-      "free": 112,
+      "free": 113,
       "guides": 5,
       "inLastYear": 67,
       "inWindow": 9,
@@ -98,7 +98,7 @@
     },
     {
       "dated": 134,
-      "free": 74,
+      "free": 79,
       "guides": 4,
       "inLastYear": 127,
       "inWindow": 8,
@@ -124,7 +124,7 @@
     },
     {
       "dated": 99,
-      "free": 50,
+      "free": 51,
       "guides": 3,
       "inLastYear": 92,
       "inWindow": 21,
@@ -137,7 +137,7 @@
     },
     {
       "dated": 86,
-      "free": 40,
+      "free": 41,
       "guides": 4,
       "inLastYear": 80,
       "inWindow": 23,
@@ -150,7 +150,7 @@
     },
     {
       "dated": 93,
-      "free": 54,
+      "free": 60,
       "guides": 1,
       "inLastYear": 88,
       "inWindow": 13,
@@ -163,7 +163,7 @@
     },
     {
       "dated": 71,
-      "free": 34,
+      "free": 35,
       "guides": 3,
       "inLastYear": 63,
       "inWindow": 9,
@@ -189,7 +189,7 @@
     },
     {
       "dated": 77,
-      "free": 34,
+      "free": 36,
       "guides": 1,
       "inLastYear": 67,
       "inWindow": 21,
@@ -228,7 +228,7 @@
     },
     {
       "dated": 64,
-      "free": 32,
+      "free": 36,
       "guides": 4,
       "inLastYear": 55,
       "inWindow": 4,
@@ -254,7 +254,7 @@
     },
     {
       "dated": 56,
-      "free": 22,
+      "free": 25,
       "guides": 1,
       "inLastYear": 54,
       "inWindow": 9,
@@ -280,7 +280,7 @@
     },
     {
       "dated": 64,
-      "free": 34,
+      "free": 37,
       "guides": 1,
       "inLastYear": 55,
       "inWindow": 1,
@@ -332,7 +332,7 @@
     },
     {
       "dated": 71,
-      "free": 16,
+      "free": 17,
       "guides": 1,
       "inLastYear": 68,
       "inWindow": 5,
@@ -397,7 +397,7 @@
     },
     {
       "dated": 41,
-      "free": 15,
+      "free": 16,
       "guides": 1,
       "inLastYear": 36,
       "inWindow": 10,
@@ -423,7 +423,7 @@
     },
     {
       "dated": 11,
-      "free": 12,
+      "free": 22,
       "guides": 0,
       "inLastYear": 10,
       "inWindow": 8,
@@ -514,7 +514,7 @@
     },
     {
       "dated": 30,
-      "free": 12,
+      "free": 13,
       "guides": 1,
       "inLastYear": 28,
       "inWindow": 4,
@@ -579,7 +579,7 @@
     },
     {
       "dated": 32,
-      "free": 9,
+      "free": 10,
       "guides": 4,
       "inLastYear": 32,
       "inWindow": 4,
@@ -592,7 +592,7 @@
     },
     {
       "dated": 16,
-      "free": 14,
+      "free": 15,
       "guides": 1,
       "inLastYear": 14,
       "inWindow": 0,
@@ -605,7 +605,7 @@
     },
     {
       "dated": 21,
-      "free": 16,
+      "free": 17,
       "guides": 1,
       "inLastYear": 19,
       "inWindow": 0,
@@ -748,7 +748,7 @@
     },
     {
       "dated": 10,
-      "free": 4,
+      "free": 6,
       "guides": 1,
       "inLastYear": 8,
       "inWindow": 0,
@@ -891,7 +891,7 @@
     },
     {
       "dated": 4,
-      "free": 8,
+      "free": 9,
       "guides": 1,
       "inLastYear": 3,
       "inWindow": 0,
@@ -1732,7 +1732,7 @@
     {
       "easy": 473,
       "format": "algorithm",
-      "free": 482,
+      "free": 540,
       "graded": 2621,
       "hard": 549,
       "inWindow": 195,
@@ -3306,7 +3306,7 @@
   "totals": {
     "companies": 132,
     "dated": 3412,
-    "free": 2056,
+    "free": 2114,
     "futureDated": 0,
     "gradedDifficulty": 4473,
     "guides": 279,

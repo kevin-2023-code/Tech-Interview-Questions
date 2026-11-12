@@ -9,7 +9,7 @@ How Confluent interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [30](../confluent.md) |
-| Free to read here | 3 |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Apr 29, 2026 |
@@ -46,7 +46,7 @@ Here's what the interview process can look like:
 
 ## Free Confluent questions
 
-4 questions reported at Confluent open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Confluent open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -54,6 +54,8 @@ Here's what the interview process can look like:
 | [Explain Linux Command Execution, Filesystems, and Isolation](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Design Delayed Tasks Scheduler](../../questions/object-oriented-programming/design-delayed-tasks-scheduler/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-delayed-tasks-scheduler) |
+| [Wildcard Matching](../../questions/algorithm/wildcard-matching/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/wildcard-matching) |
+| [Minimum Value to Get Positive Step by Step Sum](../../questions/algorithm/minimum-value-to-get-positive-step-by-step-sum/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd) |
 
 ## Everything else
 

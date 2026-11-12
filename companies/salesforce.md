@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 99) |
 | Difficulty (easy / medium / hard) | 17 / 49 / 22 |
-| Free to practise | [22](../free/README.md) |
+| Free to practise | [25](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 99 questions reported at Salesforce. 56 of them carry a sighting date; the other 43 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

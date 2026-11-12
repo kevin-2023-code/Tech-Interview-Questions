@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 34 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 240) |
 | Difficulty (easy / medium / hard) | 30 / 130 / 48 |
-| Free to practise | [76](../free/README.md) |
+| Free to practise | [80](../free/README.md) |
 | Guides & writeups | 5 |
 
 <sub>Counted from the 240 questions reported at Microsoft. 157 of them carry a sighting date; the other 83 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -107,7 +107,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | **2** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Oct 01, 2026 |
 | **3** | [Employee Attrition Prediction](https://trueinterview.io/questions/employee-attrition-prediction) | Algorithm | Medium | — | Oct 01, 2026 |
 | **4** | [Maximum Subarray Sum After K Concatenations](https://trueinterview.io/questions/k-concatenation-maximum-subarray-sum) | Algorithm | Medium | — | Oct 01, 2026 |
-| **5** | [Maximum Number of Occurrences of a Substring (LC 1297)](https://trueinterview.io/questions/maximum-number-of-occurrences-of-a-substring) | Algorithm | Medium | — | Oct 01, 2026 |
+| **5** | [Maximum Number of Occurrences of a Substring (LC 1297)](https://trueinterview.io/questions/maximum-number-of-occurrences-of-a-substring) 🆓 | Algorithm | Medium | — | Oct 01, 2026 |
 | **6** | [Minimum Set of Values to Remove Half the Array](https://trueinterview.io/questions/min-set-size-remove-half) | Algorithm | Medium | — | Oct 01, 2026 |
 | **7** | [Reconstruct a Sentence from a Dictionary (Word Break Variant)](https://trueinterview.io/questions/word-break-sentence-reconstruction) | Algorithm | Medium | — | Oct 01, 2026 |
 | **8** | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) 🆓 | Algorithm | Hard | — | Oct 01, 2026 |

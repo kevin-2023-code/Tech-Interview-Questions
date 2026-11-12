@@ -139,7 +139,7 @@ Here are some questions reported by recent candidates:
 
 - [Course Schedule Cycle Detection](https://trueinterview.io/questions/course-schedule-cycle-detection)
 - [Solve Dependency, Prefix, and Cache Problems](https://trueinterview.io/questions/solve-dependency-prefix-and-cache-problems)
-- [Valid Number](https://trueinterview.io/questions/lc-valid-number)
+- [Valid Number](../../questions/algorithm/lc-valid-number/README.md)
 - [Find Pattern Matching Words](https://trueinterview.io/questions/d680cb59-9cef-5307-9b68-cd74bc912b09)
 
 ## System design interview

@@ -84,7 +84,7 @@ Here are some questions reported by recent candidates:
 - [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split)
 - [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency)
 - [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2)
-- [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list)
+- [Flatten a Multilevel Doubly Linked List](../../questions/algorithm/flatten-multilevel-doubly-linked-list/README.md)
 - [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d)
 
 ## Coding interviews

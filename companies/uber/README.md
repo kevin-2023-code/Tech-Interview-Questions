@@ -9,7 +9,7 @@ How Uber interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [263](../uber.md) |
-| Free to read here | 67 |
+| Free to read here | 74 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 29, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Uber questions
 
-106 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+113 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -71,12 +71,14 @@ Here's what the interview process can look like:
 | [Generate 2D Minesweeper Grid](../../questions/algorithm/generate-2d-minesweeper-grid/README.md) | Algorithm | Easy | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/generate-2d-minesweeper-grid) |
 | [Rotting Oranges](../../questions/algorithm/rotting-oranges/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/rotting-oranges) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
+| [Exclusive Time of Functions](../../questions/algorithm/exclusive-time-of-functions/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/exclusive-time-of-functions) |
 | [Minimum Operations to Reduce an Integer to 0](../../questions/algorithm/minimum-operations-to-reduce-an-integer-to-0/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) |
 | [Final Prices With a Special Discount in a Shop](../../questions/algorithm/final-prices-with-a-special-discount-in-a-shop/README.md) | Algorithm | Easy | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) |
 | [Compare Two Coin Proportions](https://trueinterview.io/questions/compare-two-coin-proportions) | Blog | — | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/compare-two-coin-proportions) |
 | [Minimum Knight Moves](../../questions/algorithm/minimum-knight-moves/README.md) | Algorithm | Medium | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/minimum-knight-moves) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [Describe ownership and failure](https://trueinterview.io/questions/describe-ownership-and-failure) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/describe-ownership-and-failure) |
+| [Checking Existence of Edge Length Limited Paths](../../questions/algorithm/checking-existence-of-edge-length-limited-paths/README.md) | Algorithm | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/checking-existence-of-edge-length-limited-paths) |
 | [Count Paths That Can Form a Palindrome in a Tree](../../questions/algorithm/count-paths-that-can-form-a-palindrome-in-a-tree/README.md) | Algorithm | Hard | Online assessment, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
@@ -94,7 +96,9 @@ Here's what the interview process can look like:
 | [Design Rideshare Marketplace Causal Analyses](https://trueinterview.io/questions/design-rideshare-marketplace-causal-analyses) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-rideshare-marketplace-causal-analyses) |
 | [Evaluate Division](../../questions/algorithm/evaluate-division/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/evaluate-division) |
 | [Evaluate ETA Impact on Conversion](https://trueinterview.io/questions/evaluate-eta-impact-on-conversion) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/evaluate-eta-impact-on-conversion) |
+| [Find the Closest Palindrome](../../questions/algorithm/find-the-closest-palindrome/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/find-the-closest-palindrome) |
 | [Analyze the Accident-Rate Spike](https://trueinterview.io/questions/analyze-the-accident-rate-spike) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/analyze-the-accident-rate-spike) |
+| [N-ary Tree Level Order Traversal](../../questions/algorithm/n-ary-tree-level-order-traversal/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/n-ary-tree-level-order-traversal) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md) | Algorithm | Easy | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/oa-permutation-prefix-balanced) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
@@ -108,6 +112,7 @@ Here's what the interview process can look like:
 | [Design an Uber feature and analyze safety](https://trueinterview.io/questions/design-an-uber-feature-and-analyze-safety) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-an-uber-feature-and-analyze-safety) |
 | [Making a Large Island](../../questions/algorithm/making-a-large-island/README.md) | Algorithm | Medium | Online assessment | Jan 2026 | [Solve](https://trueinterview.io/questions/making-a-large-island) |
 | [Word Search](../../questions/algorithm/word-search/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/word-search) |
+| [Number of Ways to Earn Points](../../questions/algorithm/number-of-ways-to-earn-points/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/number-of-ways-to-earn-points) |
 | [Isomorphic Strings](../../questions/algorithm/isomorphic-strings/README.md) | Algorithm | Easy | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/isomorphic-strings) |
 | [Answer leadership questions on tradeoffs and collaboration](https://trueinterview.io/questions/answer-leadership-questions-on-tradeoffs-and-collaboration) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-leadership-questions-on-tradeoffs-and-collaboration) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
@@ -153,12 +158,14 @@ Here's what the interview process can look like:
 | [Meeting Rooms Allocation with Delay](../../questions/algorithm/meeting-rooms-allocation-with-delay/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) |
 | [Rotate Matrix with Gravity Effect](../../questions/algorithm/rotate-matrix-with-gravity-effect/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) |
 | [Flip and Compare in Arrays](../../questions/algorithm/flip-and-compare-in-arrays/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f) |
+| [Minimum Number of Refueling Stops](../../questions/algorithm/minimum-number-of-refueling-stops/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) |
 | [Majority Element](../../questions/algorithm/majority-element/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8ef6f482-db59-407f-adc7-1118a22fdae0) |
 | [Text Justification](../../questions/algorithm/text-justification/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/9213c4e8-b5fd-4c9b-924d-7108600f1f73) |
 | [Token Bucket Rate Limiter II](../../questions/algorithm/token-bucket-rate-limiter-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Robot Bounded In Circle](../../questions/algorithm/robot-bounded-in-circle/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/30e9378c-0012-5e2d-a657-04786183807a) |
 | [Max Area of Island](../../questions/algorithm/max-area-of-island/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) |
+| [Number of Ways to Wear Different Hats to Each Other](../../questions/algorithm/number-of-ways-to-wear-different-hats-to-each-other/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else

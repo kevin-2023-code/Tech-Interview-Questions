@@ -9,7 +9,7 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [145](../snowflake.md) |
-| Free to read here | 42 |
+| Free to read here | 48 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Snowflake questions
 
-54 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+60 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -55,6 +55,7 @@ Here's what the interview process can look like:
 | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) |
 | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | Blog | — | Phone screen | Aug 2026 | [Solve](https://trueinterview.io/questions/infra-recruiter-experience-screen) |
 | [Proud Project / Conflict / Failure](https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure) | Blog | — | Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure) |
+| [Calculate Amount Paid in Taxes](../../questions/algorithm/calculate-amount-paid-in-taxes/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/calculate-amount-paid-in-taxes) |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
 | [Closest Cake and Global Assignment](../../questions/algorithm/closest-cake-and-global-assignment/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/closest-cake-and-global-assignment) |
 | [Happy Number](../../questions/algorithm/happy-number/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) |
@@ -72,11 +73,15 @@ Here's what the interview process can look like:
 | [N-Queens](../../questions/algorithm/n-queens/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/n-queens) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
+| [Maximum Number of Events That Can Be Attended](../../questions/algorithm/maximum-number-of-events-that-can-be-attended/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/maximum-number-of-events-that-can-be-attended) |
 | [Cheapest Flights Within K Stops](../../questions/algorithm/cheapest-flights-within-k-stops-3/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Maximum Profit in Job Scheduling](../../questions/algorithm/maximum-profit-in-job-scheduling/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) |
 | [Find Median from Data Stream](../../questions/algorithm/find-median-from-data-stream/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/find-median-from-data-stream) |
+| [01 Matrix](../../questions/algorithm/01-matrix/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/01-matrix) |
+| [Longest Univalue Path](../../questions/algorithm/longest-univalue-path/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/longest-univalue-path) |
 | [Copy List with Random Pointer](../../questions/algorithm/copy-list-with-random-pointer/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/copy-list-with-random-pointer) |
+| [Check if an Original String Exists Given Two Encoded Strings](../../questions/algorithm/check-if-an-original-string-exists-given-two-encoded-strings/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/check-if-an-original-string-exists-given-two-encoded-strings) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Step-By-Step Directions From a Binary Tree Node to Another](../../questions/algorithm/binary-tree-step-by-step-directions/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/binary-tree-step-by-step-directions) |
 | [Dropped Requests (Rate Limiter)](../../questions/algorithm/dropped-requests-rate-limiter/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dropped-requests-rate-limiter) |
@@ -104,6 +109,7 @@ Here's what the interview process can look like:
 | [Maximum Order Volume](../../questions/algorithm/maximum-order-volume/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) |
 | [Vowel Substring](../../questions/algorithm/vowel-substring/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) |
 | [Minimum Value Weight](../../questions/algorithm/minimum-value-weight/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) |
+| [Maximum Number of Events That Can Be Attended II](../../questions/algorithm/maximum-number-of-events-that-can-be-attended-ii/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else

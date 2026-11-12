@@ -9,7 +9,7 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 |  |  |
 | :-- | :-- |
 | Questions reported | [99](../salesforce.md) |
-| Free to read here | 11 |
+| Free to read here | 14 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -48,13 +48,14 @@ Here's what the interview process can look like:
 
 ## Free Salesforce questions
 
-22 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+25 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Hiring Manager + Behavioral Rounds](https://trueinterview.io/questions/hm-and-bq-rounds) | Blog | — | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/hm-and-bq-rounds) |
 | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](../../questions/algorithm/valid-word-abbreviation/README.md) | Algorithm | Medium | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/valid-word-abbreviation) |
 | [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/questions/project-deep-dive-ai-engineer) | Blog | — | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/project-deep-dive-ai-engineer) |
+| [Maximal Rectangle (LeetCode 85)](../../questions/algorithm/maximal-rectangle/README.md) | Algorithm | Hard | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/maximal-rectangle) |
 | [Maximal Square (LeetCode 221)](../../questions/algorithm/maximal-square/README.md) | Algorithm | Hard | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/maximal-square) |
 | [Take Ownership Beyond Your Assigned Responsibilities](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities) |
 | [Help a Colleague Resolve a Difficult Problem](https://trueinterview.io/questions/help-a-colleague-resolve-a-difficult-problem) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/help-a-colleague-resolve-a-difficult-problem) |
@@ -72,6 +73,8 @@ Here's what the interview process can look like:
 | [Describe a memorable bug and persuasion story](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-a-memorable-bug-and-persuasion-story) |
 | [Answer ownership, conflict, and failure recovery questions](https://trueinterview.io/questions/answer-ownership-conflict-and-failure-recovery-questions) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-ownership-conflict-and-failure-recovery-questions) |
 | [Design a 911 emergency calling service](../../questions/system-design/design-a-911-emergency-calling-service/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-a-911-emergency-calling-service) |
+| [Closest Subsequence Sum](../../questions/algorithm/closest-subsequence-sum/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/e9880a2b-029f-49f6-a615-5b2d2cdffd0b) |
+| [Count Numbers with Unique Digits](../../questions/algorithm/count-numbers-with-unique-digits/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/24b829ff-76e9-4eeb-a1b5-bbfea0437c4e) |
 | [Min Elements to Remove to Make Almost Sorted Array](../../questions/algorithm/min-elements-to-remove-to-make-almost-sorted-array/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c) |
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
 

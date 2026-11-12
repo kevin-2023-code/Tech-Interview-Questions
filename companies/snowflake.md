@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 13 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 145) |
 | Difficulty (easy / medium / hard) | 20 / 94 / 19 |
-| Free to practise | [54](../free/README.md) |
+| Free to practise | [60](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 145 questions reported at Snowflake. 93 of them carry a sighting date; the other 52 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 9 |
 | Most common format | [Blog](../formats/blog.md) (51% of 213) |
 | Difficulty (easy / medium / hard) | 18 / 63 / 23 |
-| Free to practise | [112](../free/README.md) |
+| Free to practise | [113](../free/README.md) |
 | Guides & writeups | 5 |
 
 <sub>Counted from the 213 questions reported at Capital One. 68 of them carry a sighting date; the other 145 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

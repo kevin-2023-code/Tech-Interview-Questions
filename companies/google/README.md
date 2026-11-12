@@ -9,7 +9,7 @@ How Google interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [382](../google.md) |
-| Free to read here | 41 |
+| Free to read here | 43 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Oct 04, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Google questions
 
-127 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+129 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -101,6 +101,7 @@ Here's what the interview process can look like:
 | [Choose best/worst actions in workplace ethics scenarios](https://trueinterview.io/questions/choose-best-worst-actions-in-workplace-ethics-scenarios) | Blog | — | Online assessment | Jan 2026 | [Solve](https://trueinterview.io/questions/choose-best-worst-actions-in-workplace-ethics-scenarios) |
 | [Answer core teamwork and conflict stories](https://trueinterview.io/questions/answer-core-teamwork-and-conflict-stories) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-core-teamwork-and-conflict-stories) |
 | [Answer conflict, failure, and proud project questions](https://trueinterview.io/questions/answer-conflict-failure-and-proud-project-questions) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-conflict-failure-and-proud-project-questions) |
+| [Find K Pairs with Smallest Sums](../../questions/algorithm/find-k-pairs-with-smallest-sums/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Describe Helping an Underperforming Peer](https://trueinterview.io/questions/describe-helping-an-underperforming-peer) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-helping-an-underperforming-peer) |
 | [Explain LLM lifecycle and trade-offs](https://trueinterview.io/questions/explain-llm-lifecycle-and-trade-offs) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-llm-lifecycle-and-trade-offs) |
@@ -119,6 +120,7 @@ Here's what the interview process can look like:
 | [Find Median from Data Stream](../../questions/algorithm/find-median-from-data-stream/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/find-median-from-data-stream) |
 | [Describe conflict, ambiguity, and process improvement](https://trueinterview.io/questions/describe-conflict-ambiguity-and-process-improvement) | Blog | — | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/describe-conflict-ambiguity-and-process-improvement) |
 | [Answer leadership and ambiguity scenarios](https://trueinterview.io/questions/answer-leadership-and-ambiguity-scenarios) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/answer-leadership-and-ambiguity-scenarios) |
+| [Longest Univalue Path](../../questions/algorithm/longest-univalue-path/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/longest-univalue-path) |
 | [Answer common behavioral questions with follow-ups](https://trueinterview.io/questions/answer-common-behavioral-questions-with-follow-ups) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/answer-common-behavioral-questions-with-follow-ups) |
 | [Explain Changing Priorities and Your Role on a Team](https://trueinterview.io/questions/explain-changing-priorities-and-your-role-on-a-team) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/explain-changing-priorities-and-your-role-on-a-team) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |

@@ -9,7 +9,7 @@ How Meta interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [489](../meta.md) |
-| Free to read here | 55 |
+| Free to read here | 60 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Meta questions
 
-203 questions reported at Meta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+208 questions reported at Meta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -69,6 +69,7 @@ Here's what the interview process can look like:
 | [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) |
 | [Maze Solver](../../questions/ai-coding/ai-coding-maze-solver/README.md) | AI Coding | Medium | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/ai-coding-maze-solver) |
 | [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/traditional-behavioral-meta) |
+| [Valid Number](../../questions/algorithm/lc-valid-number/README.md) | Algorithm | Medium | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/lc-valid-number) |
 | [Remove Nth Node From End of List](../../questions/algorithm/lc-remove-nth-from-end/README.md) | Algorithm | Easy | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/lc-remove-nth-from-end) |
 | [Valid Palindrome II](../../questions/algorithm/valid-palindrome-ii/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/valid-palindrome-ii) |
 | [Meeting Rooms](../../questions/algorithm/meeting-rooms-2/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/meeting-rooms-2) |
@@ -82,6 +83,7 @@ Here's what the interview process can look like:
 | [Troubleshoot a production server outage](https://trueinterview.io/questions/troubleshoot-a-production-server-outage) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/troubleshoot-a-production-server-outage) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [How should you evaluate unconnected content?](https://trueinterview.io/questions/how-should-you-evaluate-unconnected-content) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/how-should-you-evaluate-unconnected-content) |
+| [Exclusive Time of Functions](../../questions/algorithm/exclusive-time-of-functions/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/exclusive-time-of-functions) |
 | [Measure Forty-Five Minutes with Two Unevenly Burning Ropes](https://trueinterview.io/questions/measure-forty-five-minutes-with-two-unevenly-burning-ropes) | Blog | — | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/measure-forty-five-minutes-with-two-unevenly-burning-ropes) |
 | [Design Online Game Leaderboard](../../questions/system-design/design-a-gaming-leaderboard-service/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) |
 | [PE Troubleshooting — Web Server / Disk Full](https://trueinterview.io/questions/pe-troubleshooting) | Blog | — | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/pe-troubleshooting) |
@@ -135,6 +137,7 @@ Here's what the interview process can look like:
 | [Design and evaluate a new group call feature](https://trueinterview.io/questions/design-and-evaluate-a-new-group-call-feature) | Blog | — | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/design-and-evaluate-a-new-group-call-feature) |
 | [Define engagement metrics and analyze comment distribution](https://trueinterview.io/questions/define-engagement-metrics-and-analyze-comment-distribution) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/define-engagement-metrics-and-analyze-comment-distribution) |
 | [Evaluate impact of short videos in feed](https://trueinterview.io/questions/evaluate-impact-of-short-videos-in-feed) | Blog | — | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/evaluate-impact-of-short-videos-in-feed) |
+| [Friends Of Appropriate Ages](../../questions/algorithm/friends-of-appropriate-ages/README.md) | Algorithm | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/friends-of-appropriate-ages) |
 | [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/house-robber-series) |
 | [Design measurement to detect fake accounts](https://trueinterview.io/questions/design-measurement-to-detect-fake-accounts) | Blog | — | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/design-measurement-to-detect-fake-accounts) |
 | [Which clustering algorithm would you use and why](https://trueinterview.io/questions/which-clustering-algorithm-would-you-use-and-why) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/which-clustering-algorithm-would-you-use-and-why) |
@@ -247,7 +250,9 @@ Here's what the interview process can look like:
 | [Find Peak Element](../../questions/algorithm/find-peak-element/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 | [Longest Increasing Path in a Matrix](../../questions/algorithm/longest-increasing-path-in-a-matrix/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74) |
+| [All Nodes Distance K in Binary Tree](../../questions/algorithm/all-nodes-distance-k-in-binary-tree/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) |
 | [Majority Element](../../questions/algorithm/majority-element/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8ef6f482-db59-407f-adc7-1118a22fdae0) |
+| [Rotate Array](../../questions/algorithm/rotate-array/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/89d877dc-407d-4508-bc3b-1e1b3b0bc1f3) |
 | [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/questions/03c246e8-c1a4-47b1-b1bd-5c212e569288) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/03c246e8-c1a4-47b1-b1bd-5c212e569288) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 | [Minimum Add to Make Parentheses Valid](../../questions/algorithm/minimum-add-to-make-parentheses-valid/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) |

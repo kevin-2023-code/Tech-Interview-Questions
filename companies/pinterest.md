@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (45% of 128) |
 | Difficulty (easy / medium / hard) | 11 / 73 / 23 |
-| Free to practise | [34](../free/README.md) |
+| Free to practise | [35](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 128 questions reported at Pinterest. 71 of them carry a sighting date; the other 57 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

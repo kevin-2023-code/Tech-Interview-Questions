@@ -159,7 +159,7 @@ Here are some questions reported by recent candidates:
 - [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac)
 - [K-th Element on a Streaming Time Window](https://trueinterview.io/questions/kth-element-streaming-window)
 - [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time)
-- [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations)
+- [Maximum Number of Distinct Elements After Operations](../../questions/algorithm/maximum-number-of-distinct-elements-after-operations/README.md)
 - [Nested Structure Flatten and Unflatten](../../questions/algorithm/nested-structure-flatten-and-unflatten/README.md)
 - [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2)
 - [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design)

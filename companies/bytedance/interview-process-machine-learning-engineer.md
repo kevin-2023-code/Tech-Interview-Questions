@@ -124,7 +124,7 @@ Here are some questions reported by recent candidates:
 
 - [Reverse the Order of k-Groups in a Linked List](https://trueinterview.io/questions/696ce95e-fd57-5869-a38c-d7a4db538696)
 - [MinStack, MaxStack and Streaming Median](https://trueinterview.io/questions/streaming-median-min-max-stack)
-- [Count of Interesting Subarrays](https://trueinterview.io/questions/183844b9-53d4-5fd4-b729-237e53de7f2a)
+- [Count of Interesting Subarrays](../../questions/algorithm/count-of-interesting-subarrays/README.md)
 - [Pythagorean Triple in an Integer Array](https://trueinterview.io/questions/pythagorean-triple-integer-array)
 
 ## ML system design interview

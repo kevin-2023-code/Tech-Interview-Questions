@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (33% of 43) |
 | Difficulty (easy / medium / hard) | 5 / 26 / 8 |
-| Free to practise | [9](../free/README.md) |
+| Free to practise | [10](../free/README.md) |
 | Guides & writeups | 4 |
 
 <sub>Counted from the 43 questions reported at xAI. 32 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

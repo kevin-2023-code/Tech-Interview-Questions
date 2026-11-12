@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (49% of 41) |
 | Difficulty (easy / medium / hard) | 5 / 18 / 6 |
-| Free to practise | [16](../free/README.md) |
+| Free to practise | [17](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 41 questions reported at Point72. 21 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

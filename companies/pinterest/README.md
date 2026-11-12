@@ -9,7 +9,7 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [128](../pinterest.md) |
-| Free to read here | 13 |
+| Free to read here | 14 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 23, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Pinterest questions
 
-34 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+35 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -88,6 +88,7 @@ Here's what the interview process can look like:
 | [Coin Change (LC 322)](../../questions/algorithm/coin-change/README.md) | Algorithm | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/coin-change) |
 | [Design Delayed Tasks Scheduler](../../questions/object-oriented-programming/design-delayed-tasks-scheduler/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-delayed-tasks-scheduler) |
 | [Split Array Largest Sum](../../questions/algorithm/split-array-largest-sum/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f) |
+| [Delete Node in a Linked List](../../questions/algorithm/delete-node-in-a-linked-list/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) |
 
 ## Everything else
 

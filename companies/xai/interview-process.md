@@ -120,7 +120,7 @@ Here are some questions reported by recent candidates:
 
 - [Multithreaded Array Sort](https://trueinterview.io/questions/parallel-integer-sort)
 - [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73)
-- [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations)
+- [Maximum Number of Distinct Elements After Operations](../../questions/algorithm/maximum-number-of-distinct-elements-after-operations/README.md)
 - [Nested Structure Flatten and Unflatten](../../questions/algorithm/nested-structure-flatten-and-unflatten/README.md)
 - [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2)
 

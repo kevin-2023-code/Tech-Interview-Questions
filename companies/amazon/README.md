@@ -9,7 +9,7 @@ How Amazon interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [466](../amazon.md) |
-| Free to read here | 55 |
+| Free to read here | 57 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Oct 03, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Amazon questions
 
-172 questions reported at Amazon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+174 questions reported at Amazon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -114,6 +114,7 @@ Here's what the interview process can look like:
 | [Answer Amazon Leadership Principle Scenarios](https://trueinterview.io/questions/answer-amazon-leadership-principle-scenarios) | Blog | — | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/answer-amazon-leadership-principle-scenarios) |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
+| [Longest Mountain in Array](../../questions/algorithm/longest-mountain-in-array/README.md) | Algorithm | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/longest-mountain-in-array) |
 | [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo) |
 | [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants) | Blog | — | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/lora-and-peft-variants) |
 | [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/questions/paper-read-round-far) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/paper-read-round-far) |
@@ -213,6 +214,7 @@ Here's what the interview process can look like:
 | [Meeting Rooms III](../../questions/algorithm/meeting-rooms-iii/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01) |
 | [Regular Expression Matching](../../questions/algorithm/regular-expression-matching/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/51bf6d96-d5c2-52fa-94f7-cb0720d02904) |
 | [Single Element in a Sorted Array](../../questions/algorithm/single-element-in-a-sorted-array/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/45ee0fea-8dd3-5500-991a-6cb4565ae171) |
+| [Kth Smallest Element in a BST (LC 230)](../../questions/algorithm/kth-smallest-element-in-a-bst-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/kth-smallest-element-in-a-bst-2) |
 | [House Robber II](../../questions/algorithm/house-robber-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/house-robber-ii) |
 | [Implement Softmax](../../questions/algorithm/implement-softmax/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) |
 | [Design A VM Bandwidth Rate Limiter](../../questions/system-design/design-a-vm-bandwidth-rate-limiter-2/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) |

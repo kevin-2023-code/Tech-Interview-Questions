@@ -9,7 +9,7 @@ How Ebay interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [48](../ebay.md) |
-| Free to read here | 9 |
+| Free to read here | 10 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 26, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Ebay questions
 
-12 questions reported at Ebay open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+13 questions reported at Ebay open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -56,6 +56,7 @@ Here's what the interview process can look like:
 | [Search in Rotated Sorted Array](../../questions/algorithm/search-in-rotated-sorted-array/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/search-in-rotated-sorted-array) |
 | [Investing in Deliberate Professional Growth](https://trueinterview.io/questions/investing-in-deliberate-professional-growth) | Blog | — | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/investing-in-deliberate-professional-growth) |
 | [Longest Palindromic Substring](../../questions/algorithm/longest-palindromic-substring/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/longest-palindromic-substring) |
+| [Valid Number](../../questions/algorithm/lc-valid-number/README.md) | Algorithm | Medium | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/lc-valid-number) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
 | [Answer senior behavioral questions](https://trueinterview.io/questions/answer-senior-behavioral-questions) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/answer-senior-behavioral-questions) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |

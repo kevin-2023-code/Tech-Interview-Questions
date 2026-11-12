@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 182) |
 | Difficulty (easy / medium / hard) | 34 / 90 / 27 |
-| Free to practise | [74](../free/README.md) |
+| Free to practise | [79](../free/README.md) |
 | Guides & writeups | 4 |
 
 <sub>Counted from the 182 questions reported at Apple. 134 of them carry a sighting date; the other 48 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -102,7 +102,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | **4** | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) 🆓 | Blog | — | — | Sep 09, 2026 |
 | **5** | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Algorithm | Medium | — | Aug 26, 2026 |
 | **6** | [Choose File Storage Tiers Using Access Predictions](https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions) | Algorithm | Hard | — | Aug 24, 2026 |
-| **7** | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Algorithm | Medium | — | Aug 16, 2026 |
+| **7** | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) 🆓 | Algorithm | Medium | — | Aug 16, 2026 |
 | **8** | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | System Design | Medium | — | Aug 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>

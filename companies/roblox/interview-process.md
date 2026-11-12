@@ -144,7 +144,7 @@ Here are some questions reported by recent candidates:
 - [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12)
 - [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain)
 - [Candy Crush Grid Matching and Gravity](https://trueinterview.io/questions/candy-crush-grid-matching-and-gravity)
-- [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8)
+- [Number of Ways to Wear Different Hats to Each Other](../../questions/algorithm/number-of-ways-to-wear-different-hats-to-each-other/README.md)
 - [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui)
 
 ## System design interview

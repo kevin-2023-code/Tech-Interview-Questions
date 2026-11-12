@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 87) |
 | Difficulty (easy / medium / hard) | 10 / 48 / 18 |
-| Free to practise | [16](../free/README.md) |
+| Free to practise | [17](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 87 questions reported at Waymo. 71 of them carry a sighting date; the other 16 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

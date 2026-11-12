@@ -9,7 +9,7 @@ How xAI interviews, and the questions candidates reported there. Free questions 
 |  |  |
 | :-- | :-- |
 | Questions reported | [43](../xai.md) |
-| Free to read here | 5 |
+| Free to read here | 6 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free xAI questions
 
-9 questions reported at xAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+10 questions reported at xAI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -61,6 +61,7 @@ Here's what the interview process can look like:
 | [Nested Structure Flatten and Unflatten](../../questions/algorithm/nested-structure-flatten-and-unflatten/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) |
 | [Answer technical-challenge and motivation questions](https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions) | Blog | — | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions) |
 | [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/process-vs-thread-verbal) |
+| [Maximum Number of Distinct Elements After Operations](../../questions/algorithm/maximum-number-of-distinct-elements-after-operations/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations) |
 | [How Would You Prevent Hallucinations in an LLM-Based System?](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system) | Blog | — | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system) |
 
 ## Everything else

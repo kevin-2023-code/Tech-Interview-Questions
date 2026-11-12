@@ -9,7 +9,7 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [344](../bytedance.md) |
-| Free to read here | 63 |
+| Free to read here | 67 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Oct 05, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free ByteDance questions
 
-144 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+148 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -144,6 +144,7 @@ Here's what the interview process can look like:
 | [Add Signed Arrays](../../questions/algorithm/add-signed-arrays/README.md) | Algorithm | Easy | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/add-signed-arrays) |
 | [Shortest Path in Unweighted Graph](../../questions/algorithm/shortest-path-in-unweighted-graph/README.md) | Algorithm | Easy | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) |
 | [Nested Set Equality](../../questions/algorithm/nested-set-equality/README.md) | Algorithm | Medium | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/nested-set-equality) |
+| [Count of Smaller Numbers After Self](../../questions/algorithm/count-of-smaller-numbers-after-self/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/58826ffb-024c-5d30-8762-6025e225fb4a) |
 | [Use DiD for staggered treatment adoption](https://trueinterview.io/questions/use-did-for-staggered-treatment-adoption) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/use-did-for-staggered-treatment-adoption) |
 | [Show ownership in ambiguous creator-growth work](https://trueinterview.io/questions/show-ownership-in-ambiguous-creator-growth-work) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/show-ownership-in-ambiguous-creator-growth-work) |
 | [Reflect on a challenging project you led](https://trueinterview.io/questions/reflect-on-a-challenging-project-you-led) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/reflect-on-a-challenging-project-you-led) |
@@ -182,11 +183,14 @@ Here's what the interview process can look like:
 | [Non-Overlapping Intervals (LeetCode 435)](../../questions/algorithm/non-overlapping-intervals/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/non-overlapping-intervals) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Longest Substring Without Repeating Characters](../../questions/algorithm/longest-substring-without-repeating-characters-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) |
+| [Minimum Jumps to Reach Home](../../questions/algorithm/minimum-jumps-to-reach-home/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/cf9a9de0-1885-53cf-a041-0c7ad83b8b83) |
 | [Count Number of Nice Subarrays](../../questions/algorithm/count-number-of-nice-subarrays/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19) |
 | [Maximum Candies Allocated to K Children](../../questions/algorithm/maximum-candies-allocated-to-k-children/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/399fbb4a-5f57-5d2c-bf6b-ead8141c2dd9) |
+| [Count of Interesting Subarrays](../../questions/algorithm/count-of-interesting-subarrays/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/183844b9-53d4-5fd4-b729-237e53de7f2a) |
 | [Implement a Doubly Linked List](../../questions/object-oriented-programming/implement-a-doubly-linked-list/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) |
 | [Remove All Adjacent Duplicates in String II](../../questions/algorithm/remove-all-adjacent-duplicates-in-string-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) |
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
+| [Array Partition](../../questions/algorithm/array-partition/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/68134649-a71c-42b7-8c16-1c8baedd96e6) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 | [Remove Duplicates from Sorted Linked List](../../questions/algorithm/remove-duplicates-from-sorted-linked-list/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) |
 | [Longest Repeating Character Replacement](../../questions/algorithm/longest-repeating-character-replacement/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) |

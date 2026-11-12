@@ -115,7 +115,7 @@ Here are some questions reported by recent candidates:
 
 - [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal)
 - [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt)
-- [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations)
+- [Maximum Number of Distinct Elements After Operations](../../questions/algorithm/maximum-number-of-distinct-elements-after-operations/README.md)
 - [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2)
 - [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73)
 

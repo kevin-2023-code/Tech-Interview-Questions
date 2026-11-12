@@ -85,7 +85,7 @@ Here are some questions reported by recent candidates:
 - Given a tree with some nodes deleted, find the tallest remaining subtree, then the minimum deletions so the height does not exceed K.
 - On a DAG where each node allows or disallows letters and flags propagate along edges, report allowed minus disallowed letters per node.
 
-- [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178)
+- [Maximum Number of Events That Can Be Attended II](../../questions/algorithm/maximum-number-of-events-that-can-be-attended-ii/README.md)
 - [Compute height of tree with deleted nodes; minimize deletions](https://trueinterview.io/questions/compute-height-of-tree-with-deleted-nodes-minimize-deletions)
 - [Closest Cake and Global Assignment](../../questions/algorithm/closest-cake-and-global-assignment/README.md)
 - [DAG Allow / Disallow Propagation](https://trueinterview.io/questions/dag-allow-disallow-letters)

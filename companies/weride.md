@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 22) |
 | Difficulty (easy / medium / hard) | 6 / 13 / 3 |
-| Free to practise | [8](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 22 questions reported at WeRide. 4 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -83,7 +83,7 @@ The 8 questions to open first if you are preparing for WeRide, ranked by **the m
 | **5** | [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) 🆓 | Algorithm | Medium | 3 | — |
 | **6** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
 | **7** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | 2 | — |
-| **8** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
+| **8** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) 🆓 | Algorithm | Easy | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

@@ -9,7 +9,7 @@ How Apple interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [182](../apple.md) |
-| Free to read here | 43 |
+| Free to read here | 48 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Oct 02, 2026 |
@@ -50,12 +50,13 @@ Here's what the interview process can look like:
 
 ## Free Apple questions
 
-74 questions reported at Apple open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+79 questions reported at Apple open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) |
+| [Copy List with Random Pointer (LC 138)](../../questions/algorithm/copy-list-with-random-pointer-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/copy-list-with-random-pointer-2) |
 | [Insert Interval (LC 57)](../../questions/algorithm/insert-interval/README.md) | Algorithm | Medium | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/insert-interval) |
 | [ML Systems Codebase Deep Dive](https://trueinterview.io/questions/ml-systems-codebase-deep-dive) | Blog | — | Phone screen | Jul 2026 | [Solve](https://trueinterview.io/questions/ml-systems-codebase-deep-dive) |
 | [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit) |
@@ -67,6 +68,7 @@ Here's what the interview process can look like:
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
 | [Valid Palindrome](../../questions/algorithm/valid-palindrome/README.md) | Algorithm | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/valid-palindrome) |
 | [Search a 2D Matrix](../../questions/algorithm/search-a-2d-matrix/README.md) | Algorithm | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/search-a-2d-matrix) |
+| [Maximum Number of Eaten Apples](../../questions/algorithm/maximum-number-of-eaten-apples/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/maximum-number-of-eaten-apples) |
 | [Merge Two Sorted Lists](../../questions/algorithm/merge-two-sorted-lists/README.md) | Algorithm | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/merge-two-sorted-lists) |
 | [Flood Fill](../../questions/algorithm/flood-fill/README.md) | Algorithm | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/flood-fill) |
 | [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/koko-eating-bananas) |
@@ -75,6 +77,7 @@ Here's what the interview process can look like:
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists) |
+| [Longest Mountain in Array](../../questions/algorithm/longest-mountain-in-array/README.md) | Algorithm | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/longest-mountain-in-array) |
 | [Validate and Assess Performance Benchmarks](https://trueinterview.io/questions/validate-and-assess-performance-benchmarks) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/validate-and-assess-performance-benchmarks) |
 | [Reduce False Failures and Classify QA Outcomes](https://trueinterview.io/questions/reduce-false-failures-and-classify-qa-outcomes) | Blog | — | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/reduce-false-failures-and-classify-qa-outcomes) |
 | [Implement K-Means in NumPy or PyTorch](../../questions/ai-coding/implement-k-means-in-numpy-or-pytorch/README.md) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) |
@@ -102,6 +105,7 @@ Here's what the interview process can look like:
 | [Subarray Sum Equals K](../../questions/algorithm/subarray-sum-equals-k/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/subarray-sum-equals-k) |
 | [Binary Search Tree Iterator](../../questions/object-oriented-programming/binary-search-tree-iterator/README.md) | Object Oriented Programming | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/binary-search-tree-iterator) |
 | [Cheapest Flights Within K Stops](../../questions/algorithm/cheapest-flights-within-k-stops-3/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3) |
+| [Find K Pairs with Smallest Sums](../../questions/algorithm/find-k-pairs-with-smallest-sums/README.md) | Algorithm | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) |
 | [Explain your LLM project and contributions](https://trueinterview.io/questions/explain-your-llm-project-and-contributions) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/explain-your-llm-project-and-contributions) |
 | [Reconstruct Itinerary](../../questions/algorithm/reconstruct-itinerary/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/reconstruct-itinerary) |
 | [How would you critique this regression?](https://trueinterview.io/questions/how-would-you-critique-this-regression) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-would-you-critique-this-regression) |
@@ -125,6 +129,7 @@ Here's what the interview process can look like:
 | [Crafting a Compelling Job Transition and Motivation Response](https://trueinterview.io/questions/ebf5d768-7f3c-40dc-927c-477fe70eae77) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/ebf5d768-7f3c-40dc-927c-477fe70eae77) |
 | [Graph Valid Tree](../../questions/algorithm/graph-valid-tree/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/graph-valid-tree) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
+| [All Nodes Distance K in Binary Tree](../../questions/algorithm/all-nodes-distance-k-in-binary-tree/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) |
 | [Valid Sudoku](../../questions/algorithm/valid-sudoku/README.md) | Algorithm | Easy | Phone screen | — | [Solve](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |

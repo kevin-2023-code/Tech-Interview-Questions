@@ -80,7 +80,7 @@ Here are some questions reported by recent candidates:
 
 - [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md)
 - [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network)
-- [Maximum XOR Product](https://trueinterview.io/questions/2e9b6434-fdc8-52e3-8863-e469e8a0f2a7)
+- [Maximum XOR Product](../../questions/algorithm/maximum-xor-product/README.md)
 - [Tiny Next-Token Prediction Model (PyTorch Fill-In)](https://trueinterview.io/questions/c0d89abb-ff3b-48a7-b818-75334a7ae968)
 
 ## Technical phone screens

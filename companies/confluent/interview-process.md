@@ -52,7 +52,7 @@ Here are some questions reported by recent candidates:
 - Aggregate time-series messages in timestamp order and answer range queries with prefix sums.
 
 - [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30)
-- [Minimum Value to Get Positive Step by Step Sum](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd)
+- [Minimum Value to Get Positive Step by Step Sum](../../questions/algorithm/minimum-value-to-get-positive-step-by-step-sum/README.md)
 - [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e)
 
 ## Technical phone screens

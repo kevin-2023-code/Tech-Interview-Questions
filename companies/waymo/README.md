@@ -9,7 +9,7 @@ How Waymo interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [87](../waymo.md) |
-| Free to read here | 5 |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 29, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free Waymo questions
 
-16 questions reported at Waymo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+17 questions reported at Waymo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -69,6 +69,7 @@ Here's what the interview process can look like:
 | [Sparse Matrix Left- and Right-Multiply Vector](../../questions/object-oriented-programming/sparse-matrix-vector-multiply/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/sparse-matrix-vector-multiply) |
 | [Parking Lot + Robotaxi Dispatch](../../questions/system-design/sd-parking-and-dispatch/README.md) | System Design | Hard | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/sd-parking-and-dispatch) |
 | [How compare Waymo turning trajectories statistically](https://trueinterview.io/questions/how-compare-waymo-turning-trajectories-statistically) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/how-compare-waymo-turning-trajectories-statistically) |
+| [Minimum Number of Refueling Stops](../../questions/algorithm/minimum-number-of-refueling-stops/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) |
 
 ## Everything else
 

@@ -9,7 +9,7 @@ How LinkedIn interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [145](../linkedin.md) |
-| Free to read here | 20 |
+| Free to read here | 21 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -51,7 +51,7 @@ Here's what the interview process can look like:
 
 ## Free LinkedIn questions
 
-40 questions reported at LinkedIn open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+41 questions reported at LinkedIn open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -84,6 +84,7 @@ Here's what the interview process can look like:
 | [Explain a past project and critique a prior team](https://trueinterview.io/questions/explain-a-past-project-and-critique-a-prior-team) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/explain-a-past-project-and-critique-a-prior-team) |
 | [How do you lead and drive impact?](https://trueinterview.io/questions/how-do-you-lead-and-drive-impact) | Blog | — | Phone screen | Oct 2025 | [Solve](https://trueinterview.io/questions/how-do-you-lead-and-drive-impact) |
 | [Incremental Task Scheduler](../../questions/algorithm/incremental-task-scheduler/README.md) | Algorithm | Medium | Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/incremental-task-scheduler) |
+| [Merge Two Binary Trees](../../questions/algorithm/merge-two-binary-trees/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/ae49b4f1-cc71-525c-8a18-f23565f7f7c4) |
 | [Derive expectation for two consecutive heads](https://trueinterview.io/questions/derive-expectation-for-two-consecutive-heads) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/derive-expectation-for-two-consecutive-heads) |
 | [Decide best email variant using stratified A/B analysis](https://trueinterview.io/questions/decide-best-email-variant-using-stratified-a-b-analysis) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/decide-best-email-variant-using-stratified-a-b-analysis) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |

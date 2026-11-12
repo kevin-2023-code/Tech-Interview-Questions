@@ -9,7 +9,7 @@ How DoorDash interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [151](../doordash.md) |
-| Free to read here | 9 |
+| Free to read here | 10 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 16, 2026 |
@@ -49,7 +49,7 @@ Here's what the interview process can look like:
 
 ## Free DoorDash questions
 
-50 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+51 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -103,6 +103,7 @@ Here's what the interview process can look like:
 | [Compute sample sizes and error control](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-sample-sizes-and-error-control) |
 | [Calculate power and test duration](https://trueinterview.io/questions/calculate-power-and-test-duration) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/calculate-power-and-test-duration) |
 | [Find Peak Element](../../questions/algorithm/find-peak-element/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) |
+| [Count and Say](../../questions/algorithm/count-and-say/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/fd94fd33-664d-46f3-b15b-9121ced75b5e) |
 
 ## Everything else
 

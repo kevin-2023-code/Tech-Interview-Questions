@@ -58,7 +58,7 @@ Here are some questions reported by recent candidates:
 - Find the cheapest trip between two cities when each road burns fuel and each city sells fuel at its own price.
 
 - [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md)
-- [Maximum XOR Product](https://trueinterview.io/questions/2e9b6434-fdc8-52e3-8863-e469e8a0f2a7)
+- [Maximum XOR Product](../../questions/algorithm/maximum-xor-product/README.md)
 - [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network)
 
 ## Technical phone screens

@@ -58,7 +58,7 @@ Here are some questions reported by recent candidates:
 - For each k, decide whether some contiguous subarray of a permutation is exactly a permutation of 1 to k.
 
 - [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network)
-- [Maximum XOR Product](https://trueinterview.io/questions/2e9b6434-fdc8-52e3-8863-e469e8a0f2a7)
+- [Maximum XOR Product](../../questions/algorithm/maximum-xor-product/README.md)
 - [Maximum Strength of Each Neuron in a Tree Network](https://trueinterview.io/questions/9d18d811-132f-5f8b-abca-0a58be27d911)
 - [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md)
 

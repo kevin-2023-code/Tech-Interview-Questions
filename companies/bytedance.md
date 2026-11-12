@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 38 |
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 344) |
 | Difficulty (easy / medium / hard) | 32 / 170 / 61 |
-| Free to practise | [144](../free/README.md) |
+| Free to practise | [148](../free/README.md) |
 | Guides & writeups | 5 |
 
 <sub>Counted from the 344 questions reported at ByteDance. 203 of them carry a sighting date; the other 141 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

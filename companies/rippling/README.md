@@ -9,7 +9,7 @@ How Rippling interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [58](../rippling.md) |
-| Free to read here | 6 |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 18, 2026 |
@@ -47,7 +47,7 @@ Here's what the interview process can look like:
 
 ## Free Rippling questions
 
-15 questions reported at Rippling open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+16 questions reported at Rippling open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -66,6 +66,7 @@ Here's what the interview process can look like:
 | [What was the hardest part of your project?](https://trueinterview.io/questions/what-was-the-hardest-part-of-your-project) | Blog | — | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/what-was-the-hardest-part-of-your-project) |
 | [Find minimum of unknown convex function](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/find-minimum-of-unknown-convex-function) |
 | [Time Complexity Analysis](https://trueinterview.io/questions/3ff04932-615f-483c-a528-757dfbfc638a) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/3ff04932-615f-483c-a528-757dfbfc638a) |
+| [Maximize Amount After Two Days of Conversions](../../questions/algorithm/maximize-amount-after-two-days-of-conversions/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/maximize-amount-after-two-days-of-conversions) |
 
 ## Everything else
 

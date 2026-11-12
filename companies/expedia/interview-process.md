@@ -101,7 +101,7 @@ Here are some questions reported by recent candidates:
 - After removing some horizontal and vertical bars from a grid, find the area of the largest rectangular hole.
 - Parse a JSON payload with a standard library, extract the required fields, then extend it to an open-ended requirement.
 
-- [Beautiful Towers II](https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9)
+- [Beautiful Towers II](../../questions/algorithm/beautiful-towers-ii/README.md)
 - [Maximize Hole in Prison Gate](https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817)
 - [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0)
 - [Merge One Linked List Into Another Between Two Indices](https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69)

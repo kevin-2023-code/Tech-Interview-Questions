@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (63% of 41) |
 | Difficulty (easy / medium / hard) | 2 / 22 / 10 |
-| Free to practise | [14](../free/README.md) |
+| Free to practise | [15](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 41 questions reported at Expedia. 16 of them carry a sighting date; the other 25 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

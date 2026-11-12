@@ -9,7 +9,7 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [240](../microsoft.md) |
-| Free to read here | 44 |
+| Free to read here | 48 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Oct 03, 2026 |
@@ -48,10 +48,11 @@ Here's what the interview process can look like:
 
 ## Free Microsoft questions
 
-76 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+80 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Maximum Number of Occurrences of a Substring (LC 1297)](../../questions/algorithm/maximum-number-of-occurrences-of-a-substring/README.md) | Algorithm | Medium | Online assessment | Oct 2026 | [Solve](https://trueinterview.io/questions/maximum-number-of-occurrences-of-a-substring) |
 | [House Robber IV (LC 2560)](../../questions/algorithm/house-robber-iv/README.md) | Algorithm | Hard | Online assessment | Oct 2026 | [Solve](https://trueinterview.io/questions/house-robber-iv) |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Oct 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | Blog | — | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) |
@@ -83,6 +84,7 @@ Here's what the interview process can look like:
 | [Choose Classification Metrics Under Asymmetric Costs](https://trueinterview.io/questions/choose-classification-metrics-under-asymmetric-costs) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/choose-classification-metrics-under-asymmetric-costs) |
 | [Describe motivation, ownership, and conflict](https://trueinterview.io/questions/describe-motivation-ownership-and-conflict) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-motivation-ownership-and-conflict) |
 | [Find All Anagrams in a String](../../questions/algorithm/find-all-anagrams-in-a-string/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/find-all-anagrams-in-a-string) |
+| [Find the Closest Palindrome](../../questions/algorithm/find-the-closest-palindrome/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/find-the-closest-palindrome) |
 | [Describe handling ambiguity and resolving design conflicts](https://trueinterview.io/questions/describe-handling-ambiguity-and-resolving-design-conflicts) | Blog | — | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/describe-handling-ambiguity-and-resolving-design-conflicts) |
 | [Explain metrics, regularization, and ablation studies](https://trueinterview.io/questions/explain-metrics-regularization-and-ablation-studies) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-metrics-regularization-and-ablation-studies) |
 | [Explain deadlock cases and how to prevent them](https://trueinterview.io/questions/explain-deadlock-cases-and-how-to-prevent-them) | Blog | — | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/explain-deadlock-cases-and-how-to-prevent-them) |
@@ -109,6 +111,7 @@ Here's what the interview process can look like:
 | [Reverse linked list in fixed-size groups](../../questions/algorithm/reverse-linked-list-in-fixed-size-groups/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/reverse-linked-list-in-fixed-size-groups) |
 | [Merge multiple sorted arrays using min-heap](../../questions/algorithm/merge-multiple-sorted-arrays-using-min-heap/README.md) | Algorithm | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/merge-multiple-sorted-arrays-using-min-heap) |
 | [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/spiral-matrix-output) |
+| [Replace Non-Coprime Numbers in Array](../../questions/algorithm/replace-non-coprime-numbers-in-array/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/bcfc7bd3-2f91-5dcd-9c70-650c836cd8d7) |
 | [Test classifier difference with McNemar's test](https://trueinterview.io/questions/test-classifier-difference-with-mcnemars-test) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/test-classifier-difference-with-mcnemars-test) |
 | [Handle unreliable email during time-critical coordination](https://trueinterview.io/questions/handle-unreliable-email-during-time-critical-coordination) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/handle-unreliable-email-during-time-critical-coordination) |
 | [Handle repeated last-minute interview reschedules](https://trueinterview.io/questions/handle-repeated-last-minute-interview-reschedules) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/handle-repeated-last-minute-interview-reschedules) |
@@ -117,6 +120,7 @@ Here's what the interview process can look like:
 | [Compute P(Bag B &#124; red) via Bayes](https://trueinterview.io/questions/compute-p-bag-b-red-via-bayes) | Blog | — | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-p-bag-b-red-via-bayes) |
 | [Compare CNN, RNN, and LSTM rigorously](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) | Blog | — | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/compare-cnn-rnn-and-lstm-rigorously) |
 | [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
+| [Maximum XOR Product](../../questions/algorithm/maximum-xor-product/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/2e9b6434-fdc8-52e3-8863-e469e8a0f2a7) |
 | [Invert Binary Tree](../../questions/algorithm/invert-binary-tree/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/190e82fa-f7f8-43a7-88a5-c06003cd621c) |
 | [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) |
 | [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) |

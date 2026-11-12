@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 23 |
 | Most common format | [Algorithm](../formats/algorithm.md) (43% of 145) |
 | Difficulty (easy / medium / hard) | 14 / 87 / 24 |
-| Free to practise | [40](../free/README.md) |
+| Free to practise | [41](../free/README.md) |
 | Guides & writeups | 4 |
 
 <sub>Counted from the 145 questions reported at LinkedIn. 86 of them carry a sighting date; the other 59 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

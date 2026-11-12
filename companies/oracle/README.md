@@ -9,7 +9,7 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [115](../oracle.md) |
-| Free to read here | 22 |
+| Free to read here | 24 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 28, 2026 |
@@ -48,7 +48,7 @@ Here's what the interview process can look like:
 
 ## Free Oracle questions
 
-34 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+36 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -65,6 +65,7 @@ Here's what the interview process can look like:
 | [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/questions/behavioral-bq-bar-raiser) | Blog | — | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/behavioral-bq-bar-raiser) |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
+| [Number of Islands (LC 200)](../../questions/algorithm/number-of-islands-4/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/number-of-islands-4) |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/questions/verbal-java-cs-fundamentals) | Blog | — | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/verbal-java-cs-fundamentals) |
@@ -81,6 +82,7 @@ Here's what the interview process can look like:
 | [Maximum Completable Tasks with Prerequisites (Topological)](../../questions/algorithm/course-prerequisites-task-count/README.md) | Algorithm | Medium | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/course-prerequisites-task-count) |
 | [Body-Temperature Measurement Classes](../../questions/object-oriented-programming/ood-patient-temperature-classes/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/ood-patient-temperature-classes) |
 | [Event Ingestion + Top-K Aggregation](../../questions/system-design/system-design-event-ingestion-topk/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/system-design-event-ingestion-topk) |
+| [Sum of Root To Leaf Binary Numbers](../../questions/algorithm/sum-of-root-to-leaf-binary-numbers/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/dc973cce-cdef-5be4-b8d4-83e37296c291) |
 | [Valid Parenthesis String](../../questions/algorithm/valid-parenthesis-string/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463) |
 | [Best Time to Buy and Sell Stock](../../questions/algorithm/best-time-to-buy-and-sell-stock/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) |
 | [Missing Number](../../questions/algorithm/missing-number/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80) |

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 21 |
 | Most common format | [Algorithm](../formats/algorithm.md) (28% of 151) |
 | Difficulty (easy / medium / hard) | 17 / 71 / 22 |
-| Free to practise | [50](../free/README.md) |
+| Free to practise | [51](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 151 questions reported at DoorDash. 99 of them carry a sighting date; the other 52 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

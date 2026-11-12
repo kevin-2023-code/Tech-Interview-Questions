@@ -9,7 +9,7 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [105](../roblox.md) |
-| Free to read here | 17 |
+| Free to read here | 21 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Sep 10, 2026 |
@@ -50,7 +50,7 @@ Here's what the interview process can look like:
 
 ## Free Roblox questions
 
-32 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+36 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -60,11 +60,14 @@ Here's what the interview process can look like:
 | [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive) | Blog | — | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/mle-project-deep-dive) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Single-Threaded CPU](../../questions/algorithm/single-threaded-cpu/README.md) | Algorithm | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/single-threaded-cpu) |
+| [Find the Closest Palindrome](../../questions/algorithm/find-the-closest-palindrome/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/find-the-closest-palindrome) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [How to estimate a feature’s causal impact on time spent](https://trueinterview.io/questions/how-to-estimate-a-feature-s-causal-impact-on-time-spent) | Blog | — | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/how-to-estimate-a-feature-s-causal-impact-on-time-spent) |
+| [Maximize Distance to Closest Person](../../questions/algorithm/maximize-distance-to-closest-person/README.md) | Algorithm | Medium | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/maximize-distance-to-closest-person) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [Maximum Number of Balls in a Box](../../questions/algorithm/maximum-number-of-balls-in-a-box/README.md) | Algorithm | Easy | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/maximum-number-of-balls-in-a-box) |
 | [Apply Bayes' rule to compute posterior](https://trueinterview.io/questions/apply-bayes-rule-to-compute-posterior) | Blog | — | Online assessment | Nov 2025 | [Solve](https://trueinterview.io/questions/apply-bayes-rule-to-compute-posterior) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
 | [Implement four DS coding tasks](../../questions/algorithm/implement-four-ds-coding-tasks/README.md) | Algorithm | Hard | Online assessment | Oct 2025 | [Solve](https://trueinterview.io/questions/implement-four-ds-coding-tasks) |
@@ -85,6 +88,7 @@ Here's what the interview process can look like:
 | [Choose Best/Worst Actions Under Time Pressure](https://trueinterview.io/questions/choose-best-worst-actions-under-oa-pressure) | Blog | — | Online assessment | — | [Solve](https://trueinterview.io/questions/choose-best-worst-actions-under-oa-pressure) |
 | [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](../../questions/algorithm/rate-limit-by-multiple-request-fields-per-field-multi-dimensional/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
+| [Number of Ways to Wear Different Hats to Each Other](../../questions/algorithm/number-of-ways-to-wear-different-hats-to-each-other/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
