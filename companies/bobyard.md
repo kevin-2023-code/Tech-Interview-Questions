@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **7** |
 | Most recent sighting | Aug 13, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (43% of 7) |
 | Difficulty (easy / medium / hard) | 1 / 5 / 0 |
 | Free to practise | [3](../free/README.md) |
@@ -37,11 +37,7 @@ Which stage each question came from, for the **7 of 7** questions at Bobyard tha
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | Medium | Phone screen | Aug 13, 2026 |
+**Nothing has been reported at Bobyard since Aug 13, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

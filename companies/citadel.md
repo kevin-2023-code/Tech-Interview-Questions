@@ -128,7 +128,7 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Memory Blocks — Reachable MEX After One Increment](https://trueinterview.io/questions/oa-memory-block-mex-one-increment) | Algorithm | Medium | 🆕 Oct 01, 2026 |
-| [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | Hard | 🆕 Sep 27, 2026 |
+| [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | Hard | Sep 27, 2026 |
 | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Algorithm | Medium | Sep 18, 2026 |
 | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Object Oriented Programming | Hard | Sep 18, 2026 |
 | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | Blog | — | Sep 17, 2026 |

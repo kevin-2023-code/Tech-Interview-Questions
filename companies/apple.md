@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **182** |
 | Most recent sighting | Oct 02, 2026 |
-| Reported in the last 90 days | 9 |
+| Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 182) |
 | Difficulty (easy / medium / hard) | 34 / 90 / 27 |
 | Free to practise | [74](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **182 of 182** questions at Apple t
 
 ## Asked here in the last 90 days
 
-**9 sightings** in this window. Newest first.
+**8 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -50,7 +50,6 @@ Which stage each question came from, for the **182 of 182** questions at Apple t
 | [Choose File Storage Tiers Using Access Predictions](https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions) | Algorithm | Hard | Phone screen | Aug 24, 2026 |
 | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
-| [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | SQL | Easy | Online assessment | Aug 13, 2026 |
 
 ## What they ask about
 

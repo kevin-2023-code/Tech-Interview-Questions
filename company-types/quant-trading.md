@@ -78,7 +78,7 @@ Of the **197 questions in this cut that carry a topic label** (53% of it):
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Citadel** | [Memory Blocks — Reachable MEX After One Increment](https://trueinterview.io/questions/oa-memory-block-mex-one-increment) | Medium | 🆕 Oct 01, 2026 |
-| **Citadel** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Hard | 🆕 Sep 27, 2026 |
+| **Citadel** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Hard | Sep 27, 2026 |
 | **Citadel** | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Medium | Sep 18, 2026 |
 | **Citadel** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Hard | Sep 18, 2026 |
 | **Citadel** | [SDE OA Fundamentals Quiz](https://trueinterview.io/questions/sde-oa-fundamentals-quiz) | — | Sep 17, 2026 |

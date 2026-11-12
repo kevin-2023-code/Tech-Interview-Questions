@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,889 questions** · **279 writeups** · **132 companies** · **2,056 free to practise** · **625 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,889 questions** · **279 writeups** · **132 companies** · **2,056 free to practise** · **613 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,9 +42,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 625 sightings at 84 companies — Algorithm 197 · SQL 15 · System Design 136 · AI Coding 5 · Blog 202 · Object Oriented Programming 70.
+**Last 90 days:** 613 sightings at 83 companies — Algorithm 195 · SQL 9 · System Design 135 · AI Coding 5 · Blog 200 · Object Oriented Programming 69.
 
-**Reported most:** [Amazon (86)](companies/amazon.md) · [ByteDance (40)](companies/bytedance.md) · [Google (38)](companies/google.md) · [Microsoft (34)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [Oracle (22)](companies/oracle.md) · [DoorDash (21)](companies/doordash.md) · [OpenAI (21)](companies/openai.md)
+**Reported most:** [Amazon (84)](companies/amazon.md) · [ByteDance (38)](companies/bytedance.md) · [Google (35)](companies/google.md) · [Microsoft (34)](companies/microsoft.md) · [LinkedIn (23)](companies/linkedin.md) · [DoorDash (21)](companies/doordash.md) · [Oracle (21)](companies/oracle.md) · [OpenAI (20)](companies/openai.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (16) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) (14)
 
@@ -211,7 +211,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Object Oriented Programming | 🆕 Sep 28, 2026 |
 | **ByteDance** | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Algorithm | 🆕 Sep 28, 2026 |
 | **Amazon** | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Algorithm | 🆕 Sep 28, 2026 |
-| **Citadel** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | 🆕 Sep 27, 2026 |
+| **Citadel** | [Research Engineer Sequence Classification](https://trueinterview.io/questions/research-engineer-sequence-classification) | Algorithm | Sep 27, 2026 |
 | **Amazon** | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Sep 26, 2026 |
 | **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Sep 26, 2026 |
 | **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Algorithm | Sep 25, 2026 |

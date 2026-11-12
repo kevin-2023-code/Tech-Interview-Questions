@@ -48,7 +48,7 @@ Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**320 sightings** across this cut. Newest first.
+**311 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>308 more in this window are in the table below.</sub>
+<sub>299 more in this window are in the table below.</sub>
 
 ---
 

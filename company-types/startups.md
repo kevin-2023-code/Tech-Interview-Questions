@@ -43,12 +43,11 @@ Of the **10 questions in this cut that carry a topic label** (67% of it):
 
 ## Asked here in the last 90 days
 
-**2 sightings** across this cut. Newest first.
+**1 sighting** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Render | Object Oriented Programming | Sep 17, 2026 |
-| [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Bobyard … | Algorithm | Aug 13, 2026 |
 
 ---
 
