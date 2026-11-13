@@ -48,7 +48,7 @@ Of the **551 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**151 sightings** across this cut. Newest first.
+**148 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **551 questions in this cut that carry a topic label** (45% of it):
 | [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Amazon | Algorithm | Sep 29, 2026 |
 | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Amazon | Algorithm | Sep 28, 2026 |
 
-<sub>139 more in this window are in the table below.</sub>
+<sub>136 more in this window are in the table below.</sub>
 
 ---
 
@@ -88,8 +88,8 @@ Of the **551 questions in this cut that carry a topic label** (45% of it):
 | **Amazon** | [Maximize Bitwise AND Under a Budget](https://trueinterview.io/questions/max-bitwise-and-k-elements-budget) | Hard | 🆕 Sep 29, 2026 |
 | **Amazon** | [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Easy | 🆕 Sep 29, 2026 |
 | **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Medium | 🆕 Sep 29, 2026 |
-| **Amazon** | [Othello Move — Flip Captured Pieces](https://trueinterview.io/questions/othello-move-flip-simulation) | Medium | 🆕 Sep 28, 2026 |
-| **Amazon** | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Medium | 🆕 Sep 28, 2026 |
+| **Amazon** | [Othello Move — Flip Captured Pieces](https://trueinterview.io/questions/othello-move-flip-simulation) | Medium | Sep 28, 2026 |
+| **Amazon** | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Medium | Sep 28, 2026 |
 | **Amazon** | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Hard | Sep 26, 2026 |
 | **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Medium | Sep 26, 2026 |
 | **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | — | Sep 23, 2026 |

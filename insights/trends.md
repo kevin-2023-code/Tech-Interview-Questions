@@ -2,13 +2,13 @@
 
 # Trends by month
 
-Counted over the **3,412 questions that carry a sighting date**. The other 2,477 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
+Counted over the **3,413 questions that carry a sighting date**. The other 2,477 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
 
 [← Insights](README.md) · [← Every month](../by-month/README.md)
 
 | Month | Sightings | Companies | AI Coding | Algorithm | Blog | Object Oriented Programming | SQL | System Design |  |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | :-- |
-| [Oct 2026](../by-month/2026-10.md) | 31 | 21 | 1 | 18 | 1 | 6 | 1 | 4 | █ |
+| [Oct 2026](../by-month/2026-10.md) | 32 | 22 | 1 | 18 | 1 | 7 | 1 | 4 | █ |
 | [Sep 2026](../by-month/2026-09.md) | 331 | 65 | 2 | 91 | 129 | 34 | 6 | 69 | █████████████ |
 | [Aug 2026](../by-month/2026-08.md) | 298 | 62 | 2 | 103 | 78 | 36 | 8 | 71 | ████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 126 | 41 | 3 | 52 | 20 | 12 | 25 | 14 | █████ |
@@ -39,6 +39,7 @@ The month a company's earliest recorded sighting falls in. A company appearing h
 
 | Month | Companies first reported |
 | :-- | :-- |
+| [Oct 2026](../by-month/2026-10.md) | Datologyai |
 | [Sep 2026](../by-month/2026-09.md) | AMD, Houzz, Nclusion, OKX, Siemens |
 | [Aug 2026](../by-month/2026-08.md) | Indeed, Sig |
 | [May 2026](../by-month/2026-05.md) | Block, Brex |

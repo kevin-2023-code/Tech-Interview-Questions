@@ -48,7 +48,7 @@ Of the **710 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**132 sightings** across this cut. Newest first.
+**127 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **710 questions in this cut that carry a topic label** (45% of it):
 | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Google | Algorithm | Sep 29, 2026 |
 | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Google | Algorithm | Sep 29, 2026 |
 
-<sub>120 more in this window are in the table below.</sub>
+<sub>115 more in this window are in the table below.</sub>
 
 ---
 
@@ -90,9 +90,9 @@ Of the **710 questions in this cut that carry a topic label** (45% of it):
 | **Google** | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Medium | 🆕 Sep 29, 2026 |
 | **Google** | [Friend Graph with Timeline (Friend / Unfriend Events)](https://trueinterview.io/questions/friend-graph-with-timeline) | Hard | 🆕 Sep 29, 2026 |
 | **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Medium | 🆕 Sep 29, 2026 |
-| **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | — | 🆕 Sep 28, 2026 |
-| **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Medium | 🆕 Sep 28, 2026 |
-| **ByteDance** | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Medium | 🆕 Sep 28, 2026 |
+| **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | — | Sep 28, 2026 |
+| **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Medium | Sep 28, 2026 |
+| **ByteDance** | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Medium | Sep 28, 2026 |
 | **ByteDance** | [Tic-Tac-Toe Game-State Check](https://trueinterview.io/questions/tic-tac-toe-game-state-check) | Medium | Sep 25, 2026 |
 | **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | — | Sep 23, 2026 |
 | **Netflix** | [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | — | Sep 23, 2026 |

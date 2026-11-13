@@ -116,7 +116,7 @@
 | [SWE / MLE Behavioral Round](https://trueinterview.io/questions/swe-behavioral-round) | **Databricks** | — | Aug 13, 2026 |
 | [SWE Recruiter & Hiring Manager Behavioral (Projects, Motivation, Collaboration)](https://trueinterview.io/questions/swe-hm-and-recruiter-screen-behavioral) | **Disney** | — | Sep 14, 2026 |
 | [SWE Resume Deep Dive: Technologies and Outcome Metrics](https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics) | **Waymo** | — | Aug 11, 2026 |
-| [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | **LinkedIn** | — | 🆕 Sep 28, 2026 |
+| [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | **LinkedIn** | — | Sep 28, 2026 |
 | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/questions/systemverilog-dv-constraint-and-architecture-loop) | **Apple** | — | Mar 06, 2026 |
 | [Take Initiative on a Customer Pain Point](https://trueinterview.io/questions/take-initiative-on-a-customer-pain-point) | **Amazon** | — | Sep 14, 2026 |
 | [Take Ownership Beyond Your Assigned Responsibilities](https://trueinterview.io/questions/take-ownership-beyond-your-assigned-responsibilities) | **Salesforce** | — | Apr 11, 2026 |

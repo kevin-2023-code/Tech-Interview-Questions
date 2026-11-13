@@ -509,6 +509,7 @@
  "question:cpp-virtual-destructor-pointer-review": "questions/object-oriented-programming/cpp-virtual-destructor-pointer-review",
  "question:credit-tracker-with-expiring-credits": "questions/object-oriented-programming/credit-tracker-with-expiring-credits",
  "question:currency-arbitrage-detection": "questions/algorithm/currency-arbitrage-detection",
+ "question:cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement": "questions/object-oriented-programming/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement",
  "question:customer-scheduler-vip-fairness": "questions/object-oriented-programming/customer-scheduler-vip-fairness",
  "question:d091f935-1e00-4404-9eb1-7b80c3db58f4": "questions/algorithm/analyze-vehicle-json-log",
  "question:d11caa89-857e-4682-9d73-d5df09ca2782": "questions/algorithm/sliding-window-problem",

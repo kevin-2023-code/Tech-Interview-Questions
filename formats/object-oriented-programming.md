@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**659 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**660 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Datologyai** | [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](https://trueinterview.io/questions/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement) | Medium | 🆕 Oct 14, 2026 |
 | **Airbnb** | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Medium | 🆕 Oct 14, 2026 |
 | **Airbnb** | [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Medium | 🆕 Oct 09, 2026 |
 | **Disney** | [Data Engineer Tech Questions: LLM Prompting, Data Quality & Security](https://trueinterview.io/questions/data-engineer-llm-prompting-and-data-quality) | Medium | 🆕 Oct 08, 2026 |
@@ -18,8 +19,8 @@
 | **Snowflake** | [Tiered Rate Limiting Service](https://trueinterview.io/questions/tiered-rate-limiting-service) | Medium | 🆕 Oct 01, 2026 |
 | **Waymo** | [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Medium | 🆕 Sep 29, 2026 |
 | **IBM** | [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | Medium | 🆕 Sep 29, 2026 |
-| **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | 🆕 Sep 28, 2026 |
-| **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Medium | 🆕 Sep 28, 2026 |
+| **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | Sep 28, 2026 |
+| **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Medium | Sep 28, 2026 |
 | **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Medium | Sep 25, 2026 |
 | **Amazon** | [Extensible File Search](https://trueinterview.io/questions/file-search-by-size-and-suffix) | Medium | Sep 18, 2026 |
 | **Rippling** | [Design Raw and Computed Spreadsheet Views](https://trueinterview.io/questions/design-raw-and-computed-spreadsheet-views) | Hard | Sep 18, 2026 |
@@ -259,6 +260,5 @@
 | **Atlassian** | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | Medium | Feb 15, 2026 |
 | **Coinbase** | [Interleave Iterator](https://trueinterview.io/questions/interleave-iterator) | Medium | Feb 13, 2026 |
 | **Airtable** | [Optimize a dispatcher’s scheduling data structures](https://trueinterview.io/questions/optimize-a-dispatcher-s-scheduling-data-structures) | Hard | Feb 12, 2026 |
-| **Bloomberg** | [Implement sliding-window timestamped average](https://trueinterview.io/questions/implement-sliding-window-timestamped-average) | Medium | Feb 12, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](object-oriented-programming-2.md)</sub>

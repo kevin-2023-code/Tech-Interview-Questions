@@ -2,13 +2,13 @@
 
 # Companies
 
-**132 companies**, busiest first. Counts are questions *reported at* that company, so a question reported at more than one employer is counted under each — the column therefore sums to more than the size of the bank.
+**133 companies**, busiest first. Counts are questions *reported at* that company, so a question reported at more than one employer is counted under each — the column therefore sums to more than the size of the bank.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [How each company interviews](../guides/README.md)
 
 ## Browse by company type
 
-The sector and size of an employer are facts about the company rather than about a question, so they come from a hand-written registry, which covers **114 of 132** of the companies here. An employer it does not cover is under *Not classified* below and in the table like everybody else — guessing a sector from a company's name is how a reader preparing for one kind of loop ends up with the wrong shortlist.
+The sector and size of an employer are facts about the company rather than about a question, so they come from a hand-written registry, which covers **114 of 133** of the companies here. An employer it does not cover is under *Not classified* below and in the table like everybody else — guessing a sector from a company's name is how a reader preparing for one kind of loop ends up with the wrong shortlist.
 
 🏛️ **[Big Tech](../company-types/big-tech.md)** (24) — [Meta (489)](meta/README.md) · [Amazon (466)](amazon/README.md) · [Google (382)](google/README.md) · [ByteDance (344)](bytedance/README.md) · [Uber (263)](uber/README.md) · [Microsoft (240)](microsoft/README.md) · [Apple (182)](apple/README.md) · [DoorDash (151)](doordash/README.md) · [LinkedIn (145)](linkedin/README.md) · [Oracle (115)](oracle/README.md) · [Netflix (107)](netflix/README.md) · [Salesforce (99)](salesforce/README.md) · [Atlassian (63)](atlassian/README.md) · [NVIDIA (54)](nvidia/README.md) · [Ebay (48)](ebay/README.md) · [Expedia (41)](expedia/README.md) · [Intuit (38)](intuit/README.md) · [PayPal (37)](paypal/README.md) · [Walmart Labs (35)](walmart-labs/README.md) · [Cisco (27)](cisco/README.md) · [Pinduoduo (27)](pinduoduo/README.md) · [Microsoft AI (13)](microsoft-ai/README.md) · [AMD (10)](amd/README.md) · [Block (5)](block/README.md)
 
@@ -50,7 +50,7 @@ The sector and size of an employer are facts about the company rather than about
 
 🧾 **[IT services & consulting](../company-types/it-consulting.md)** (1) — [IBM (45)](ibm/README.md)
 
-❔ **Not classified** (18) — [Karat (61)](karat/README.md) · [Disney (47)](disney/README.md) · [Cvs Health (20)](cvs-health/README.md) · [Boston Consulting Group (19)](boston-consulting-group/README.md) · [Thumbtack (16)](thumbtack/README.md) · [Bitkernel (15)](bitkernel/README.md) · [Onemain Financial (12)](onemain-financial/README.md) · [Tubi (12)](tubi/README.md) · [Asana (11)](asana/README.md) · [Glean (10)](glean/README.md) · [Sig (9)](sig/README.md) · [Wayfair (7)](wayfair/README.md) · [Ziphq (6)](ziphq/README.md) · [Millennium (5)](millennium/README.md) · [Siemens (4)](siemens/README.md) · [Indeed (2)](indeed/README.md) · [Houzz (1)](houzz/README.md) · [Nclusion (1)](nclusion/README.md)
+❔ **Not classified** (19) — [Karat (61)](karat/README.md) · [Disney (47)](disney/README.md) · [Cvs Health (20)](cvs-health/README.md) · [Boston Consulting Group (19)](boston-consulting-group/README.md) · [Thumbtack (16)](thumbtack/README.md) · [Bitkernel (15)](bitkernel/README.md) · [Onemain Financial (12)](onemain-financial/README.md) · [Tubi (12)](tubi/README.md) · [Asana (11)](asana/README.md) · [Glean (10)](glean/README.md) · [Sig (9)](sig/README.md) · [Wayfair (7)](wayfair/README.md) · [Ziphq (6)](ziphq/README.md) · [Millennium (5)](millennium/README.md) · [Siemens (4)](siemens/README.md) · [Indeed (2)](indeed/README.md) · [Datologyai (1)](datologyai/README.md) · [Houzz (1)](houzz/README.md) · [Nclusion (1)](nclusion/README.md)
 
 <sub>The registry has no entry for these. [Adding one](../CONTRIBUTING.md#adding-a-company-to-the-registry) is a two-line change.</sub>
 
@@ -59,8 +59,8 @@ The sector and size of an employer are facts about the company rather than about
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 489 | 6 | 17 | Oct 01, 2026 | 208 |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 466 | 5 | 84 | Oct 03, 2026 | 174 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 382 | 3 | 35 | Oct 04, 2026 | 129 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 466 | 5 | 81 | Oct 03, 2026 | 174 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 382 | 3 | 30 | Oct 04, 2026 | 129 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 344 | 5 | 38 | Oct 05, 2026 | 148 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 263 | 3 | 8 | Sep 29, 2026 | 113 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 240 | 5 | 34 | Oct 03, 2026 | 80 |
@@ -72,7 +72,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 145 | 1 | 13 | Oct 01, 2026 | 60 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 128 | 3 | 9 | Sep 23, 2026 | 35 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 119 | 1 | 16 | Oct 04, 2026 | 23 |
-| [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 115 | 1 | 21 | Sep 28, 2026 | 36 |
+| [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 115 | 1 | 18 | Sep 28, 2026 | 36 |
 | [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 112 | 3 | 18 | Oct 14, 2026 | 21 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 107 | 4 | 1 | Sep 23, 2026 | 32 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 105 | 4 | 4 | Sep 10, 2026 | 36 |
@@ -188,6 +188,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Stubhub](stubhub.md) | E-commerce & marketplaces · 1,000–9,999 people | 3 | 1 | 0 | Feb 16, 2026 | 2 |
 | [Indeed](indeed.md) | — | 2 | — | 2 | Sep 16, 2026 | 2 |
 | [Render](render.md) | Developer tools, cloud & data infrastructure · Under 200 people | 2 | — | 1 | Sep 17, 2026 | 2 |
+| [Datologyai](datologyai.md) | — | 1 | — | 1 | Oct 14, 2026 | 1 |
 | [Houzz](houzz.md) | — | 1 | — | 1 | Sep 18, 2026 | 1 |
 | [Nclusion](nclusion.md) | — | 1 | — | 1 | Sep 15, 2026 | 1 |
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **382** |
 | Most recent sighting | Oct 04, 2026 |
-| Reported in the last 90 days | 35 |
+| Reported in the last 90 days | 30 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 382) |
 | Difficulty (easy / medium / hard) | 33 / 186 / 77 |
 | Free to practise | [129](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **382 of 382** questions at Google 
 
 ## Asked here in the last 90 days
 
-**35 sightings** in this window. Newest first.
+**30 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **382 of 382** questions at Google 
 | [Shortest Path Nodes and Escaping a Pursuer](https://trueinterview.io/questions/shortest-path-nodes-and-pursuer-escape) | Algorithm | Medium | Onsite / virtual onsite | Sep 29, 2026 |
 | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 28, 2026 |
 
-<sub>23 more in this window are in the table below.</sub>
+<sub>18 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -148,7 +148,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Algorithm | Medium | 🆕 Sep 29, 2026 |
 | [Friend Graph with Timeline (Friend / Unfriend Events)](https://trueinterview.io/questions/friend-graph-with-timeline) | Algorithm | Hard | 🆕 Sep 29, 2026 |
 | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | 🆕 Sep 29, 2026 |
-| [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Object Oriented Programming | Medium | 🆕 Sep 28, 2026 |
+| [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Object Oriented Programming | Medium | Sep 28, 2026 |
 | [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Object Oriented Programming | Medium | Sep 18, 2026 |
 | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Algorithm | Medium | Sep 16, 2026 |
 | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | Sep 10, 2026 |

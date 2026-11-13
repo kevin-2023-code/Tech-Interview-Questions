@@ -1,6 +1,6 @@
 {
   "accessTiers": {
-    "free": 2114,
+    "free": 2115,
     "insider": 3706,
     "pro": 69
   },
@@ -23,7 +23,7 @@
       "free": 174,
       "guides": 5,
       "inLastYear": 261,
-      "inWindow": 84,
+      "inWindow": 81,
       "lastSighting": "2026-10-03",
       "name": "Amazon",
       "questions": 466,
@@ -35,8 +35,8 @@
       "dated": 204,
       "free": 129,
       "guides": 3,
-      "inLastYear": 192,
-      "inWindow": 35,
+      "inLastYear": 191,
+      "inWindow": 30,
       "lastSighting": "2026-10-04",
       "name": "Google",
       "questions": 382,
@@ -48,7 +48,7 @@
       "dated": 203,
       "free": 148,
       "guides": 5,
-      "inLastYear": 194,
+      "inLastYear": 188,
       "inWindow": 38,
       "lastSighting": "2026-10-05",
       "name": "ByteDance",
@@ -139,7 +139,7 @@
       "dated": 86,
       "free": 41,
       "guides": 4,
-      "inLastYear": 80,
+      "inLastYear": 79,
       "inWindow": 23,
       "lastSighting": "2026-10-01",
       "name": "LinkedIn",
@@ -192,7 +192,7 @@
       "free": 36,
       "guides": 1,
       "inLastYear": 67,
-      "inWindow": 21,
+      "inWindow": 18,
       "lastSighting": "2026-09-28",
       "name": "Oracle",
       "questions": 115,
@@ -659,7 +659,7 @@
       "dated": 23,
       "free": 14,
       "guides": 1,
-      "inLastYear": 17,
+      "inLastYear": 16,
       "inWindow": 0,
       "lastSighting": "2026-07-04",
       "name": "SoFi",
@@ -1701,6 +1701,19 @@
       "guides": 0,
       "inLastYear": 1,
       "inWindow": 1,
+      "lastSighting": "2026-10-14",
+      "name": "Datologyai",
+      "questions": 1,
+      "slug": "datologyai",
+      "topFormat": "Object Oriented Programming",
+      "topTopic": null
+    },
+    {
+      "dated": 1,
+      "free": 1,
+      "guides": 0,
+      "inLastYear": 1,
+      "inWindow": 1,
       "lastSighting": "2026-09-18",
       "name": "Houzz",
       "questions": 1,
@@ -1725,7 +1738,7 @@
   "difficulty": {
     "easy": 644,
     "hard": 1053,
-    "medium": 2776
+    "medium": 2777
   },
   "earliestSighting": "2024-05-28",
   "formats": [
@@ -1735,7 +1748,7 @@
       "free": 540,
       "graded": 2621,
       "hard": 549,
-      "inWindow": 195,
+      "inWindow": 192,
       "label": "Algorithm",
       "medium": 1599,
       "questions": 2621
@@ -1757,7 +1770,7 @@
       "free": 49,
       "graded": 758,
       "hard": 326,
-      "inWindow": 135,
+      "inWindow": 132,
       "label": "System Design",
       "medium": 391,
       "questions": 758
@@ -1779,7 +1792,7 @@
       "free": 1416,
       "graded": 0,
       "hard": 0,
-      "inWindow": 200,
+      "inWindow": 195,
       "label": "Blog",
       "medium": 0,
       "questions": 1416
@@ -1787,31 +1800,33 @@
     {
       "easy": 60,
       "format": "object-oriented-programming",
-      "free": 85,
-      "graded": 659,
+      "free": 86,
+      "graded": 660,
       "hard": 86,
-      "inWindow": 69,
+      "inWindow": 70,
       "label": "Object Oriented Programming",
-      "medium": 513,
-      "questions": 659
+      "medium": 514,
+      "questions": 660
     }
   ],
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "latestSighting": "2026-10-14",
   "months": [
     {
-      "companies": 21,
-      "firstReportedCompanies": [],
+      "companies": 22,
+      "firstReportedCompanies": [
+        "Datologyai"
+      ],
       "formats": {
         "ai-coding": 1,
         "algorithm": 18,
         "blog": 1,
-        "object-oriented-programming": 6,
+        "object-oriented-programming": 7,
         "sql": 1,
         "system-design": 4
       },
       "month": "2026-10",
-      "questions": 31
+      "questions": 32
     },
     {
       "companies": 65,
@@ -2533,7 +2548,7 @@
       "round": "oa"
     },
     {
-      "questions": 3114,
+      "questions": 3115,
       "round": "phone-screen"
     },
     {
@@ -2550,7 +2565,7 @@
       "easy": 115,
       "graded": 484,
       "hard": 66,
-      "inWindow": 40,
+      "inWindow": 39,
       "medium": 303,
       "questions": 484,
       "topCompanies": [
@@ -2622,7 +2637,7 @@
       "easy": 29,
       "graded": 401,
       "hard": 111,
-      "inWindow": 42,
+      "inWindow": 41,
       "medium": 261,
       "questions": 401,
       "topCompanies": [
@@ -2730,7 +2745,7 @@
       "easy": 42,
       "graded": 208,
       "hard": 58,
-      "inWindow": 17,
+      "inWindow": 16,
       "medium": 108,
       "questions": 208,
       "topCompanies": [
@@ -3198,7 +3213,7 @@
       "easy": 0,
       "graded": 55,
       "hard": 15,
-      "inWindow": 9,
+      "inWindow": 8,
       "medium": 40,
       "questions": 55,
       "topCompanies": [
@@ -3304,17 +3319,17 @@
     }
   ],
   "totals": {
-    "companies": 132,
-    "dated": 3412,
-    "free": 2114,
+    "companies": 133,
+    "dated": 3413,
+    "free": 2115,
     "futureDated": 0,
-    "gradedDifficulty": 4473,
+    "gradedDifficulty": 4474,
     "guides": 279,
-    "inLastYear": 3026,
-    "inWindow": 613,
+    "inLastYear": 3018,
+    "inWindow": 603,
     "labelledTopic": 2604,
-    "namingARound": 5889,
-    "questions": 5889,
+    "namingARound": 5890,
+    "questions": 5890,
     "undated": 2477
   },
   "windowDays": 90

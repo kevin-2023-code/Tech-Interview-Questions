@@ -11,7 +11,7 @@
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Disney** | [Data Engineer Hiring Manager & Panel Behavioral](https://trueinterview.io/questions/data-engineer-hm-and-panel-behavioral) | — | 🆕 Oct 08, 2026 |
-| **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | — | 🆕 Sep 28, 2026 |
+| **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | — | Sep 28, 2026 |
 | **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | — | Sep 23, 2026 |
 | **Netflix** | [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | — | Sep 23, 2026 |
 | **Amazon** | [SDE Project and Resume Deep Dive](https://trueinterview.io/questions/sde-project-resume-deep-dive) | — | Sep 23, 2026 |

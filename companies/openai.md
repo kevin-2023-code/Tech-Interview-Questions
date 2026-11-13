@@ -139,7 +139,7 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | System Design | Medium | 🆕 Oct 04, 2026 |
-| [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Object Oriented Programming | Medium | 🆕 Sep 28, 2026 |
+| [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Object Oriented Programming | Medium | Sep 28, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Sep 23, 2026 |
 | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | Sep 17, 2026 |
 | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | Sep 10, 2026 |

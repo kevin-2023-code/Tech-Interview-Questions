@@ -86,7 +86,7 @@ Of the **748 questions in this cut that carry a topic label** (44% of it):
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
 | **Stripe** | [Request Routing System](https://trueinterview.io/questions/request-routing-system) | Medium | 🆕 Sep 30, 2026 |
 | **Snowflake** | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Medium | 🆕 Sep 29, 2026 |
-| **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | 🆕 Sep 28, 2026 |
+| **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | Sep 28, 2026 |
 | **Pinterest** | [Senior Staff Hiring-Manager Conversation](https://trueinterview.io/questions/senior-staff-hiring-manager-conversation) | — | Sep 23, 2026 |
 | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Sep 23, 2026 |
 | **Airbnb** | [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Medium | Sep 19, 2026 |

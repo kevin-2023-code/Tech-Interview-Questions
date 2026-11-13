@@ -48,7 +48,7 @@ Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**311 sightings** across this cut. Newest first.
+**300 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>299 more in this window are in the table below.</sub>
+<sub>288 more in this window are in the table below.</sub>
 
 ---
 
@@ -107,12 +107,12 @@ Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 | **Google** | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Medium | 🆕 Sep 29, 2026 |
 | **Google** | [Friend Graph with Timeline (Friend / Unfriend Events)](https://trueinterview.io/questions/friend-graph-with-timeline) | Hard | 🆕 Sep 29, 2026 |
 | **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Medium | 🆕 Sep 29, 2026 |
-| **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Medium | 🆕 Sep 28, 2026 |
-| **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | — | 🆕 Sep 28, 2026 |
-| **Amazon** | [Othello Move — Flip Captured Pieces](https://trueinterview.io/questions/othello-move-flip-simulation) | Medium | 🆕 Sep 28, 2026 |
-| **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Medium | 🆕 Sep 28, 2026 |
-| **ByteDance** | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Medium | 🆕 Sep 28, 2026 |
-| **Amazon** | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Medium | 🆕 Sep 28, 2026 |
+| **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Medium | Sep 28, 2026 |
+| **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | — | Sep 28, 2026 |
+| **Amazon** | [Othello Move — Flip Captured Pieces](https://trueinterview.io/questions/othello-move-flip-simulation) | Medium | Sep 28, 2026 |
+| **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Medium | Sep 28, 2026 |
+| **ByteDance** | [Spiral Matrix (LC 54) with Follow-Up Constraints](https://trueinterview.io/questions/spiral-matrix-constant-space) | Medium | Sep 28, 2026 |
+| **Amazon** | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Medium | Sep 28, 2026 |
 | **Amazon** | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Hard | Sep 26, 2026 |
 | **Amazon** | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Medium | Sep 26, 2026 |
 | **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Medium | Sep 25, 2026 |

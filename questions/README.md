@@ -551,7 +551,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai |
 | [Worker-Task Matching with Specialties](algorithm/worker-task-assignment/README.md) | Hard | Stripe |
 
-## Object Oriented Programming (85)
+## Object Oriented Programming (86)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -573,6 +573,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Concurrent Web Crawler](object-oriented-programming/concurrent-web-crawler/README.md) | Medium | Anthropic · MongoDB |
 | [Contiguous Memory Allocator II](object-oriented-programming/memory-allocator/README.md) | Medium | OpenAI · ByteDance |
 | [Credit Tracker with Expiring Credits](object-oriented-programming/credit-tracker-with-expiring-credits/README.md) | Medium | Perplexity |
+| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](object-oriented-programming/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement/README.md) | Medium | Datologyai |
 | [Customer Scheduler: VIP Priority and 2:1 Fairness](object-oriented-programming/customer-scheduler-vip-fairness/README.md) | Medium | Intuit |
 | [Delivery Cost Calculate](object-oriented-programming/delivery-billing-system/README.md) | Medium | Rippling |
 | [Design a Recommender System Based on Price and Distance](object-oriented-programming/design-a-recommender-system-based-on-price-and-distance/README.md) | Medium | Stubhub |

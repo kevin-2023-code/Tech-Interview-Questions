@@ -80,7 +80,7 @@ Of the **181 questions in this cut that carry a topic label** (36% of it):
 | **C3.ai** | [Star Sum: Best k-Star Sum in a Graph](https://trueinterview.io/questions/oa-star-sum-best-k-star) | Medium | 🆕 Oct 04, 2026 |
 | **OpenAI** | [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | Medium | 🆕 Oct 04, 2026 |
 | **Amazon / Scale AI** | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Medium | 🆕 Oct 01, 2026 |
-| **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | 🆕 Sep 28, 2026 |
+| **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | Sep 28, 2026 |
 | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Sep 23, 2026 |
 | **OpenAI** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Medium | Sep 17, 2026 |
 | **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | Sep 17, 2026 |

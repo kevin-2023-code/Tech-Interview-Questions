@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**85 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**86 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -42,6 +42,7 @@
 | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | **Oracle** | Medium | Jan 15, 2025 |
 | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | **Atlassian** | Medium | Sep 12, 2025 |
 | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | **Perplexity** | Medium | Aug 09, 2025 |
+| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](https://trueinterview.io/questions/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement) | **Datologyai** | Medium | 🆕 Oct 14, 2026 |
 | [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness) | **Intuit** | Medium | Oct 02, 2025 |
 | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | **Rippling** | Medium | Jun 18, 2026 |
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | **Stubhub** | Medium | — |

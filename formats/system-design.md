@@ -15,7 +15,7 @@
 | **OpenAI** | [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | Medium | 🆕 Oct 04, 2026 |
 | **Google** | [ML System Design (Recsys / Chatbot / Image Classifier)](https://trueinterview.io/questions/ml-system-design-recsys-chatbot-classifier) | Hard | 🆕 Oct 02, 2026 |
 | **Microsoft** | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | Medium | 🆕 Sep 29, 2026 |
-| **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Medium | 🆕 Sep 28, 2026 |
+| **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Medium | Sep 28, 2026 |
 | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Sep 23, 2026 |
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | Medium | Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | Sep 20, 2026 |

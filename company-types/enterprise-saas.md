@@ -48,7 +48,7 @@ Of the **382 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**89 sightings** across this cut. Newest first.
+**86 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **382 questions in this cut that carry a topic label** (53% of it):
 | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Oracle | System Design | Sep 28, 2026 |
 | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Oracle | Object Oriented Programming | Sep 25, 2026 |
 
-<sub>77 more in this window are in the table below.</sub>
+<sub>74 more in this window are in the table below.</sub>
 
 ---
 
@@ -87,7 +87,7 @@ Of the **382 questions in this cut that carry a topic label** (53% of it):
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
 | **Microsoft** | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | Medium | 🆕 Sep 29, 2026 |
 | **Microsoft** | [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Medium | 🆕 Sep 29, 2026 |
-| **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Medium | 🆕 Sep 28, 2026 |
+| **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Medium | Sep 28, 2026 |
 | **Oracle** | [Valid Parentheses with a Follow-Up](https://trueinterview.io/questions/valid-parentheses-with-follow-up) | Medium | Sep 25, 2026 |
 | **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Medium | Sep 25, 2026 |
 | **Oracle** | [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/questions/resume-project-deep-dive) | — | Sep 19, 2026 |

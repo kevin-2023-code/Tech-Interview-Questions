@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**659 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**660 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Bloomberg** | [Implement sliding-window timestamped average](https://trueinterview.io/questions/implement-sliding-window-timestamped-average) | Medium | Feb 12, 2026 |
 | **Microsoft** | [Implement interval room counter and token manager](https://trueinterview.io/questions/implement-interval-room-counter-and-token-manager) | Medium | Feb 12, 2026 |
 | **Lead Bank** | [Implement a versioned hash map with snapshot](https://trueinterview.io/questions/implement-a-versioned-hash-map-with-snapshot) | Medium | Feb 12, 2026 |
 | **ByteDance** | [Implement stack variants and path-sum check](https://trueinterview.io/questions/implement-stack-variants-and-path-sum-check) | Medium | Feb 12, 2026 |
@@ -259,6 +260,5 @@
 | **Circle** | [Design a Recipe Storage System with Case-Insensitive Name Uniqueness and String IDs](https://trueinterview.io/questions/a50dfa50-dd7a-4d96-92e5-4a2f7fef2dbd) | Medium | — |
 | **Arista** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | Medium | — |
 | **Sigmacomputing** | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | Medium | — |
-| **Lyft / Applied Intuition** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Medium | — |
 
 <sub>[← Page 1](object-oriented-programming.md) · Page 2 of 3 · [Page 3 →](object-oriented-programming-3.md)</sub>
