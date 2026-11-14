@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **145** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 13 |
+| Reported in the last 90 days | 12 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 145) |
 | Difficulty (easy / medium / hard) | 20 / 94 / 19 |
 | Free to practise | [60](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **145 of 145** questions at Snowfla
 
 ## Asked here in the last 90 days
 
-**13 sightings** in this window. Newest first.
+**12 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -54,8 +54,6 @@ Which stage each question came from, for the **145 of 145** questions at Snowfla
 | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | System Design | Medium | Phone screen | Aug 24, 2026 |
 | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/questions/infra-recruiter-experience-screen) | Blog | — | Phone screen | Aug 17, 2026 |
 | [Time Range Event Counter](https://trueinterview.io/questions/time-range-event-counter) | Algorithm | Medium | Phone screen | Aug 16, 2026 |
-
-<sub>1 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -132,7 +130,7 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Tiered Rate Limiting Service](https://trueinterview.io/questions/tiered-rate-limiting-service) | Object Oriented Programming | Medium | 🆕 Oct 01, 2026 |
-| [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Algorithm | Medium | 🆕 Sep 29, 2026 |
+| [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Algorithm | Medium | Sep 29, 2026 |
 | [Explain a Technical Project from Milestone to Production](https://trueinterview.io/questions/explain-a-technical-project-from-milestone-to-production) | Blog | — | Sep 17, 2026 |
 | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Algorithm | Medium | Sep 17, 2026 |
 | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Sep 17, 2026 |

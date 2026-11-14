@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **240** |
 | Most recent sighting | Oct 03, 2026 |
-| Reported in the last 90 days | 34 |
+| Reported in the last 90 days | 32 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 240) |
 | Difficulty (easy / medium / hard) | 30 / 130 / 48 |
 | Free to practise | [80](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **240 of 240** questions at Microso
 
 ## Asked here in the last 90 days
 
-**34 sightings** in this window. Newest first.
+**32 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **240 of 240** questions at Microso
 | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | System Design | Hard | Onsite / virtual onsite | Sep 17, 2026 |
 | [Adapt When Project Requirements Change Midway](https://trueinterview.io/questions/adapt-when-project-requirements-change-midway) | Blog | — | Onsite / virtual onsite | Sep 10, 2026 |
 
-<sub>22 more in this window are in the table below.</sub>
+<sub>20 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -144,8 +144,8 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Maximum Number of Occurrences of a Substring (LC 1297)](https://trueinterview.io/questions/maximum-number-of-occurrences-of-a-substring) | Algorithm | Medium | 🆕 Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Algorithm | Hard | 🆕 Oct 01, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
-| [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | System Design | Medium | 🆕 Sep 29, 2026 |
-| [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Algorithm | Medium | 🆕 Sep 29, 2026 |
+| [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | System Design | Medium | Sep 29, 2026 |
+| [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Algorithm | Medium | Sep 29, 2026 |
 | [Distributed Embedding and LM Head Design](https://trueinterview.io/questions/embedding-lm-head-distributed-sharding) | System Design | Hard | Sep 17, 2026 |
 | [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/questions/use-ai-to-reduce-repetitive-pipeline-development-work) | Blog | — | Sep 10, 2026 |
 | [Respond to a Reliability Regression Shortly After Deployment](https://trueinterview.io/questions/respond-to-a-reliability-regression-shortly-after-deployment) | System Design | Medium | Sep 10, 2026 |

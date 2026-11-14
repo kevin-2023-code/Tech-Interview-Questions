@@ -48,7 +48,7 @@ Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 
 ## Asked here in the last 90 days
 
-**300 sightings** across this cut. Newest first.
+**295 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 | [Employee Attrition Prediction](https://trueinterview.io/questions/employee-attrition-prediction) | Microsoft | Algorithm | Oct 01, 2026 |
 | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Microsoft | Algorithm | Oct 01, 2026 |
 
-<sub>288 more in this window are in the table below.</sub>
+<sub>283 more in this window are in the table below.</sub>
 
 ---
 
@@ -95,18 +95,18 @@ Of the **1,325 questions in this cut that carry a topic label** (46% of it):
 | **Microsoft** | [Maximum Number of Occurrences of a Substring (LC 1297)](https://trueinterview.io/questions/maximum-number-of-occurrences-of-a-substring) | Medium | 🆕 Oct 01, 2026 |
 | **Microsoft** | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Hard | 🆕 Oct 01, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | 🆕 Oct 01, 2026 |
-| **Microsoft** | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | Medium | 🆕 Sep 29, 2026 |
-| **Google** | [Shortest Path Nodes and Escaping a Pursuer](https://trueinterview.io/questions/shortest-path-nodes-and-pursuer-escape) | Medium | 🆕 Sep 29, 2026 |
-| **Google** | [Grid Path Count with Diagonal Moves and Checkpoints](https://trueinterview.io/questions/grid-path-count-three-moves-checkpoints) | Medium | 🆕 Sep 29, 2026 |
-| **Microsoft** | [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Medium | 🆕 Sep 29, 2026 |
-| **Google** | [Maximum-Area Rectangle from Planar Points](https://trueinterview.io/questions/max-area-rectangle-from-points) | Hard | 🆕 Sep 29, 2026 |
-| **Amazon** | [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Medium | 🆕 Sep 29, 2026 |
-| **Amazon** | [Maximize Bitwise AND Under a Budget](https://trueinterview.io/questions/max-bitwise-and-k-elements-budget) | Hard | 🆕 Sep 29, 2026 |
-| **Amazon** | [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Easy | 🆕 Sep 29, 2026 |
-| **Google** | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Medium | 🆕 Sep 29, 2026 |
-| **Google** | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Medium | 🆕 Sep 29, 2026 |
-| **Google** | [Friend Graph with Timeline (Friend / Unfriend Events)](https://trueinterview.io/questions/friend-graph-with-timeline) | Hard | 🆕 Sep 29, 2026 |
-| **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Medium | 🆕 Sep 29, 2026 |
+| **Microsoft** | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | Medium | Sep 29, 2026 |
+| **Google** | [Shortest Path Nodes and Escaping a Pursuer](https://trueinterview.io/questions/shortest-path-nodes-and-pursuer-escape) | Medium | Sep 29, 2026 |
+| **Google** | [Grid Path Count with Diagonal Moves and Checkpoints](https://trueinterview.io/questions/grid-path-count-three-moves-checkpoints) | Medium | Sep 29, 2026 |
+| **Microsoft** | [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Medium | Sep 29, 2026 |
+| **Google** | [Maximum-Area Rectangle from Planar Points](https://trueinterview.io/questions/max-area-rectangle-from-points) | Hard | Sep 29, 2026 |
+| **Amazon** | [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Medium | Sep 29, 2026 |
+| **Amazon** | [Maximize Bitwise AND Under a Budget](https://trueinterview.io/questions/max-bitwise-and-k-elements-budget) | Hard | Sep 29, 2026 |
+| **Amazon** | [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Easy | Sep 29, 2026 |
+| **Google** | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Medium | Sep 29, 2026 |
+| **Google** | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Medium | Sep 29, 2026 |
+| **Google** | [Friend Graph with Timeline (Friend / Unfriend Events)](https://trueinterview.io/questions/friend-graph-with-timeline) | Hard | Sep 29, 2026 |
+| **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Medium | Sep 29, 2026 |
 | **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | Medium | Sep 28, 2026 |
 | **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | — | Sep 28, 2026 |
 | **Amazon** | [Othello Move — Flip Captured Pieces](https://trueinterview.io/questions/othello-move-flip-simulation) | Medium | Sep 28, 2026 |

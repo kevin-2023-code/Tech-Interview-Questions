@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **97** |
 | Most recent sighting | Oct 01, 2026 |
-| Reported in the last 90 days | 9 |
+| Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (58% of 97) |
 | Difficulty (easy / medium / hard) | 9 / 50 / 19 |
 | Free to practise | [25](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **97 of 97** questions at Citadel t
 
 ## Asked here in the last 90 days
 
-**9 sightings** in this window. Newest first.
+**8 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -50,7 +50,6 @@ Which stage each question came from, for the **97 of 97** questions at Citadel t
 | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | Medium | Phone screen | Sep 08, 2026 |
 | [Reduce Hashing and Safely Delete Shared File Content](https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content) | System Design | Medium | Phone screen | Sep 03, 2026 |
 | [Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling](https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling) | System Design | Hard | Phone screen | Aug 29, 2026 |
-| [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Algorithm | Medium | Phone screen | Aug 15, 2026 |
 
 ## What they ask about
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **35** |
 | Most recent sighting | Aug 15, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (54% of 35) |
 | Difficulty (easy / medium / hard) | 6 / 21 / 2 |
 | Free to practise | [10](../free/README.md) |
@@ -39,11 +39,7 @@ Which stage each question came from, for the **35 of 35** questions at Walmart L
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Count Months Whose First Day Is Sunday](https://trueinterview.io/questions/count-months-whose-first-day-is-sunday) | Algorithm | Medium | Phone screen | Aug 15, 2026 |
+**Nothing has been reported at Walmart Labs since Aug 15, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

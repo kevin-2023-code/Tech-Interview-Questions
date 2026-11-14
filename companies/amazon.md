@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **466** |
 | Most recent sighting | Oct 03, 2026 |
-| Reported in the last 90 days | 81 |
+| Reported in the last 90 days | 80 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 466) |
 | Difficulty (easy / medium / hard) | 58 / 223 / 68 |
 | Free to practise | [174](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **466 of 466** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**81 sightings** in this window. Newest first.
+**80 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **466 of 466** questions at Amazon 
 | [GRPO Notebook Exercise](https://trueinterview.io/questions/grpo-notebook-exercise) | Algorithm | Medium | Onsite / virtual onsite | Sep 26, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Hard | Onsite / virtual onsite | Sep 26, 2026 |
 
-<sub>69 more in this window are in the table below.</sub>
+<sub>68 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -143,9 +143,9 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Checkout Price Engine](https://trueinterview.io/questions/checkout-price-engine-ood) | Object Oriented Programming | Medium | 🆕 Oct 02, 2026 |
 | [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | 🆕 Oct 01, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | 🆕 Oct 01, 2026 |
-| [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Algorithm | Medium | 🆕 Sep 29, 2026 |
-| [Maximize Bitwise AND Under a Budget](https://trueinterview.io/questions/max-bitwise-and-k-elements-budget) | Algorithm | Hard | 🆕 Sep 29, 2026 |
-| [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Algorithm | Easy | 🆕 Sep 29, 2026 |
+| [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Algorithm | Medium | Sep 29, 2026 |
+| [Maximize Bitwise AND Under a Budget](https://trueinterview.io/questions/max-bitwise-and-k-elements-budget) | Algorithm | Hard | Sep 29, 2026 |
+| [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Algorithm | Easy | Sep 29, 2026 |
 | [Othello Move — Flip Captured Pieces](https://trueinterview.io/questions/othello-move-flip-simulation) | Algorithm | Medium | Sep 28, 2026 |
 | [Evaluate Division (LC 399) with a High-Volume Query Follow-Up](https://trueinterview.io/questions/evaluate-division-lc-399) | Algorithm | Medium | Sep 28, 2026 |
 | [Multi-Head Attention Coding](https://trueinterview.io/questions/multi-head-attention-coding) | Algorithm | Hard | Sep 26, 2026 |

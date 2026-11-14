@@ -48,7 +48,7 @@ Of the **181 questions in this cut that carry a topic label** (36% of it):
 
 ## Asked here in the last 90 days
 
-**73 sightings** across this cut. Newest first.
+**70 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **181 questions in this cut that carry a topic label** (36% of it):
 | [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | Together AI | Blog | Sep 15, 2026 |
 | [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | Together AI | Blog | Sep 15, 2026 |
 
-<sub>61 more in this window are in the table below.</sub>
+<sub>58 more in this window are in the table below.</sub>
 
 ---
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **68** |
 | Most recent sighting | Sep 13, 2026 |
-| Reported in the last 90 days | 9 |
+| Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 68) |
 | Difficulty (easy / medium / hard) | 14 / 34 / 5 |
 | Free to practise | [44](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **68 of 68** questions at Goldman S
 
 ## Asked here in the last 90 days
 
-**9 sightings** in this window. Newest first.
+**8 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -50,7 +50,6 @@ Which stage each question came from, for the **68 of 68** questions at Goldman S
 | [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) | Blog | — | Online assessment | Sep 02, 2026 |
 | [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) | Blog | — | Online assessment | Sep 02, 2026 |
 | [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) | Blog | — | Online assessment | Sep 02, 2026 |
-| [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Medium | Onsite / virtual onsite | Aug 15, 2026 |
 
 ## What they ask about
 

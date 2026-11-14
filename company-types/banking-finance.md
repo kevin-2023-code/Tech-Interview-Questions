@@ -48,7 +48,7 @@ Of the **199 questions in this cut that carry a topic label** (47% of it):
 
 ## Asked here in the last 90 days
 
-**19 sightings** across this cut. Newest first.
+**18 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -65,7 +65,7 @@ Of the **199 questions in this cut that carry a topic label** (47% of it):
 | [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) | Goldman Sachs | Blog | Sep 02, 2026 |
 | [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) | Goldman Sachs | Blog | Sep 02, 2026 |
 
-<sub>7 more in this window are in the table below.</sub>
+<sub>6 more in this window are in the table below.</sub>
 
 ---
 

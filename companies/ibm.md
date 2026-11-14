@@ -122,7 +122,7 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Customers with High Average Resource Usage](https://trueinterview.io/questions/sql-high-average-resource-usage) | SQL | Easy | 🆕 Oct 05, 2026 |
-| [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | Object Oriented Programming | Medium | 🆕 Sep 29, 2026 |
+| [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | Object Oriented Programming | Medium | Sep 29, 2026 |
 | [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue) | Algorithm | Medium | Sep 14, 2026 |
 | [Minimum Replacements for Adjacent Duplicate Characters](https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates) | Algorithm | Medium | Aug 27, 2026 |
 | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | May 30, 2026 |

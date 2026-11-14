@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**5,890 questions** · **279 writeups** · **133 companies** · **2,115 free to practise** · **603 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**5,890 questions** · **279 writeups** · **133 companies** · **2,115 free to practise** · **592 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -42,9 +42,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 603 sightings at 84 companies — Algorithm 192 · SQL 9 · System Design 132 · AI Coding 5 · Blog 195 · Object Oriented Programming 70.
+**Last 90 days:** 592 sightings at 83 companies — Algorithm 185 · SQL 9 · System Design 130 · AI Coding 5 · Blog 193 · Object Oriented Programming 70.
 
-**Reported most:** [Amazon (81)](companies/amazon.md) · [ByteDance (38)](companies/bytedance.md) · [Microsoft (34)](companies/microsoft.md) · [Google (30)](companies/google.md) · [LinkedIn (23)](companies/linkedin.md) · [DoorDash (21)](companies/doordash.md) · [OpenAI (20)](companies/openai.md) · [Airbnb (18)](companies/airbnb.md)
+**Reported most:** [Amazon (80)](companies/amazon.md) · [ByteDance (37)](companies/bytedance.md) · [Microsoft (32)](companies/microsoft.md) · [Google (30)](companies/google.md) · [LinkedIn (23)](companies/linkedin.md) · [DoorDash (21)](companies/doordash.md) · [OpenAI (19)](companies/openai.md) · [Airbnb (18)](companies/airbnb.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (16) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) (14)
 
@@ -190,21 +190,21 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Microsoft** | [House Robber IV (LC 2560)](https://trueinterview.io/questions/house-robber-iv) | Algorithm | 🆕 Oct 01, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | 🆕 Oct 01, 2026 |
 | **Stripe** | [Request Routing System](https://trueinterview.io/questions/request-routing-system) | Algorithm | 🆕 Sep 30, 2026 |
-| **Waymo** | [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Object Oriented Programming | 🆕 Sep 29, 2026 |
-| **IBM** | [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | Object Oriented Programming | 🆕 Sep 29, 2026 |
-| **Snowflake** | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Algorithm | 🆕 Sep 29, 2026 |
-| **Microsoft** | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | System Design | 🆕 Sep 29, 2026 |
-| **Google** | [Shortest Path Nodes and Escaping a Pursuer](https://trueinterview.io/questions/shortest-path-nodes-and-pursuer-escape) | Algorithm | 🆕 Sep 29, 2026 |
-| **Google** | [Grid Path Count with Diagonal Moves and Checkpoints](https://trueinterview.io/questions/grid-path-count-three-moves-checkpoints) | Algorithm | 🆕 Sep 29, 2026 |
-| **Microsoft** | [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Algorithm | 🆕 Sep 29, 2026 |
-| **Google** | [Maximum-Area Rectangle from Planar Points](https://trueinterview.io/questions/max-area-rectangle-from-points) | Algorithm | 🆕 Sep 29, 2026 |
-| **Amazon** | [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Algorithm | 🆕 Sep 29, 2026 |
-| **Amazon** | [Maximize Bitwise AND Under a Budget](https://trueinterview.io/questions/max-bitwise-and-k-elements-budget) | Algorithm | 🆕 Sep 29, 2026 |
-| **Amazon** | [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Algorithm | 🆕 Sep 29, 2026 |
-| **Google** | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Algorithm | 🆕 Sep 29, 2026 |
-| **Google** | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Algorithm | 🆕 Sep 29, 2026 |
-| **Google** | [Friend Graph with Timeline (Friend / Unfriend Events)](https://trueinterview.io/questions/friend-graph-with-timeline) | Algorithm | 🆕 Sep 29, 2026 |
-| **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | 🆕 Sep 29, 2026 |
+| **Waymo** | [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Object Oriented Programming | Sep 29, 2026 |
+| **IBM** | [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | Object Oriented Programming | Sep 29, 2026 |
+| **Snowflake** | [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | Algorithm | Sep 29, 2026 |
+| **Microsoft** | [Lab Machine Compute-Load Monitoring System Design](https://trueinterview.io/questions/lab-machine-monitoring-system-design) | System Design | Sep 29, 2026 |
+| **Google** | [Shortest Path Nodes and Escaping a Pursuer](https://trueinterview.io/questions/shortest-path-nodes-and-pursuer-escape) | Algorithm | Sep 29, 2026 |
+| **Google** | [Grid Path Count with Diagonal Moves and Checkpoints](https://trueinterview.io/questions/grid-path-count-three-moves-checkpoints) | Algorithm | Sep 29, 2026 |
+| **Microsoft** | [Region Sizes in a Binary Image](https://trueinterview.io/questions/binary-image-region-sizes) | Algorithm | Sep 29, 2026 |
+| **Google** | [Maximum-Area Rectangle from Planar Points](https://trueinterview.io/questions/max-area-rectangle-from-points) | Algorithm | Sep 29, 2026 |
+| **Amazon** | [Ones and Zeroes (LC 474)](https://trueinterview.io/questions/ones-and-zeroes-lc-474) | Algorithm | Sep 29, 2026 |
+| **Amazon** | [Maximize Bitwise AND Under a Budget](https://trueinterview.io/questions/max-bitwise-and-k-elements-budget) | Algorithm | Sep 29, 2026 |
+| **Amazon** | [Lowest Common Ancestor of a Binary Search Tree (LC 235)](https://trueinterview.io/questions/lowest-common-ancestor-bst-lc-235) | Algorithm | Sep 29, 2026 |
+| **Google** | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Algorithm | Sep 29, 2026 |
+| **Google** | [Meeting Rooms / Interval Scheduling Variants](https://trueinterview.io/questions/meeting-rooms-variants) | Algorithm | Sep 29, 2026 |
+| **Google** | [Friend Graph with Timeline (Friend / Unfriend Events)](https://trueinterview.io/questions/friend-graph-with-timeline) | Algorithm | Sep 29, 2026 |
+| **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Sep 29, 2026 |
 | **Oracle** | [Large-File Video Upload](https://trueinterview.io/questions/system-design-large-file-video-upload) | System Design | Sep 28, 2026 |
 | **LinkedIn** | [Systems and Java Fundamentals](https://trueinterview.io/questions/other-systems-java-fundamentals) | Blog | Sep 28, 2026 |
 | **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Object Oriented Programming | Sep 28, 2026 |

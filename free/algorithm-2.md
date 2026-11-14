@@ -25,7 +25,7 @@
 | [Dynamic programming, ~45 min, any language](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) | **Shopify** | Medium | Aug 29, 2025 |
 | [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | **IBM** | Medium | Sep 09, 2025 |
 | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) | **Palantir** | Medium | — |
-| [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | **Snowflake** | Medium | 🆕 Sep 29, 2026 |
+| [Encode and Decode Strings (LC 271)](https://trueinterview.io/questions/encode-and-decode-strings) | **Snowflake** | Medium | Sep 29, 2026 |
 | [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid) | **Goldman Sachs** | Medium | Sep 08, 2025 |
 | [Enumerate All Balanced Bracket Strings for N Pairs](https://trueinterview.io/questions/generate-parentheses) | **C3.ai** | Medium | — |
 | [Equalize Letter Frequencies With Add / Remove](https://trueinterview.io/questions/equalize-letter-frequencies) | **Goldman Sachs** | Medium | Sep 10, 2025 |

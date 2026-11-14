@@ -121,7 +121,7 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Object Oriented Programming | Medium | 🆕 Sep 29, 2026 |
+| [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Object Oriented Programming | Medium | Sep 29, 2026 |
 | [Compare Driving Algorithms Using Hard-Braking Rates](https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates) | Blog | — | Sep 06, 2026 |
 | [Handle Competing Work Priorities](https://trueinterview.io/questions/handle-competing-work-priorities) | Blog | — | Aug 27, 2026 |
 | [Describe a Project You Are Proud Of](https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2) | Blog | — | Aug 27, 2026 |

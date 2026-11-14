@@ -17,8 +17,8 @@
 | **Stripe** | [Payment State Machine](https://trueinterview.io/questions/payment-state-machine-oa) | Medium | 🆕 Oct 04, 2026 |
 | **Amazon** | [Checkout Price Engine](https://trueinterview.io/questions/checkout-price-engine-ood) | Medium | 🆕 Oct 02, 2026 |
 | **Snowflake** | [Tiered Rate Limiting Service](https://trueinterview.io/questions/tiered-rate-limiting-service) | Medium | 🆕 Oct 01, 2026 |
-| **Waymo** | [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Medium | 🆕 Sep 29, 2026 |
-| **IBM** | [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | Medium | 🆕 Sep 29, 2026 |
+| **Waymo** | [Merge Object Histories Across Two Tracking Systems](https://trueinterview.io/questions/cross-system-object-tracker-history) | Medium | Sep 29, 2026 |
+| **IBM** | [Function Signature Matching Library (Variadic Overloads)](https://trueinterview.io/questions/function-signature-matching-library) | Medium | Sep 29, 2026 |
 | **OpenAI** | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Medium | Sep 28, 2026 |
 | **Google** | [URL Request Handler Router](https://trueinterview.io/questions/url-request-handler-router) | Medium | Sep 28, 2026 |
 | **Oracle** | [Logger Handler Pipeline](https://trueinterview.io/questions/logger-handler-pipeline) | Medium | Sep 25, 2026 |

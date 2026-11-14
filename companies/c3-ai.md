@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **55** |
 | Most recent sighting | Oct 04, 2026 |
-| Reported in the last 90 days | 8 |
+| Reported in the last 90 days | 6 |
 | Most common format | [Algorithm](../formats/algorithm.md) (58% of 55) |
 | Difficulty (easy / medium / hard) | 3 / 41 / 5 |
 | Free to practise | [22](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **55 of 55** questions at C3.ai tha
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**6 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -48,8 +48,6 @@ Which stage each question came from, for the **55 of 55** questions at C3.ai tha
 | [Evaluate a Retrieval-Augmented Generation System](https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system) | System Design | Medium | Phone screen | Aug 21, 2026 |
 | [Forecast Food Stocking Needs Under Waste and Stockout Costs](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) | System Design | Hard | Phone screen | Aug 21, 2026 |
 | [Keep Gradient Descent from Stalling at Poor Solutions](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions) | Blog | — | Phone screen | Aug 21, 2026 |
-| [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) | Blog | — | Onsite / virtual onsite | Aug 15, 2026 |
-| [Find the Intersection of Two Linked Chains](https://trueinterview.io/questions/find-the-intersection-of-two-linked-chains) | Algorithm | Medium | Onsite / virtual onsite | Aug 15, 2026 |
 
 ## What they ask about
 

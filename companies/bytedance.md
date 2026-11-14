@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **344** |
 | Most recent sighting | Oct 05, 2026 |
-| Reported in the last 90 days | 38 |
+| Reported in the last 90 days | 37 |
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 344) |
 | Difficulty (easy / medium / hard) | 32 / 170 / 61 |
 | Free to practise | [148](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **344 of 344** questions at ByteDan
 
 ## Asked here in the last 90 days
 
-**38 sightings** in this window. Newest first.
+**37 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **344 of 344** questions at ByteDan
 | [Explain TLS Handshakes and HTTPS Traffic Inspection](https://trueinterview.io/questions/explain-tls-handshakes-and-https-traffic-inspection) | Blog | — | Phone screen | Sep 05, 2026 |
 | [Give a Technical Research-Project Deep Dive](https://trueinterview.io/questions/give-a-technical-research-project-deep-dive) | Blog | — | Phone screen | Sep 05, 2026 |
 
-<sub>26 more in this window are in the table below.</sub>
+<sub>25 more in this window are in the table below.</sub>
 
 ## What they ask about
 
