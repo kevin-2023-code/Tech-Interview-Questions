@@ -1,0 +1,101 @@
+name: Report a question
+description: Share an OA or interview question you were asked.
+title: "[Question]: Company — question title"
+labels: ["sighting"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks — sightings are what keep this current.
+
+        **Source-safe details only.** No screenshots, no account-only assessment pages, no
+        private recruiter messages, and no copied problem statements. A short summary in
+        your own words is enough for a maintainer to verify it and build a practice-safe
+        version. See [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: Google
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role, location and season
+      description: Whatever you know.
+      placeholder: 2027 New Grad SWE, US
+    validations:
+      required: false
+  - type: dropdown
+    id: round
+    attributes:
+      label: Which round
+      options:
+        - Online assessment (OA)
+        - Phone screen
+        - Onsite / virtual onsite
+        - Final round
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - Algorithm
+        - SQL
+        - System design
+        - Low-level design / OOD
+        - AI coding
+        - Behavioural
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Question title
+      description: The title shown in the assessment, or a short descriptive one.
+      placeholder: Count Score Categories
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary, in your own words
+      description: What was the task? Two or three sentences. Do not paste the original prompt.
+      placeholder: Given a list of scores and category thresholds, count how many scores land in each category.
+    validations:
+      required: true
+  - type: input
+    id: date-seen
+    attributes:
+      label: Date seen
+      description: A day if you remember it, otherwise the month. This drives the 🔥/🆕 markers.
+      placeholder: 2026-09-10
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where it came from
+      placeholder: My own OA / a public post / a friend's report
+    validations:
+      required: true
+  - type: input
+    id: existing-link
+    attributes:
+      label: Existing TrueInterview link
+      description: If this question is already on the site, paste its URL.
+      placeholder: https://trueinterview.io/questions/some-slug
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before you submit
+      options:
+        - label: This is a summary in my own words — not a screenshot, not a copied problem statement, and not covered by an NDA I signed.
+          required: true

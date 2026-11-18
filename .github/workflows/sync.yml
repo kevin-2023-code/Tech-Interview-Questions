@@ -1,0 +1,69 @@
+name: Sync question bank
+
+# Hourly, because the product here is freshness: the 🔥/🆕 markers expire on a
+# clock, so a run that finds no new questions still has work to do. Offset off
+# the hour so this is not competing with everything else scheduled at :00.
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never two syncs at once — both would render from a different read of a live
+# catalog and the second would commit over the first. Queue, do not cancel: a
+# cancelled run leaves the repository a sync behind for an hour.
+concurrency:
+  group: sync-question-bank
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verify the renderers before pointing them at live data
+        run: python3 -m unittest discover scripts -v
+
+      - name: Sync from the live catalog
+        # The summary line is kept for the commit body: the bot commits hourly,
+        # and a log of identical one-line messages tells a reader nothing about
+        # which hour the bank actually moved in.
+        run: python3 scripts/sync.py | tee "$RUNNER_TEMP/sync.log"
+
+      - name: Confirm the result is self-consistent
+        # Re-rendering what was just written must produce no further change. A
+        # second pass that still finds work means the render is not a pure
+        # function of the snapshot, which would make the hourly job commit noise
+        # for ever. --catalog-file so this costs no second read of the API.
+        run: |
+          python3 scripts/sync.py --snapshot-out /tmp/snapshot.json --quiet
+          python3 scripts/sync.py --catalog-file /tmp/snapshot.json --check
+
+      - name: Commit
+        run: |
+          if git diff --quiet; then
+            echo "Question bank is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # `git add -A` over the whole tree, deliberately, rather than a list of
+          # the generated directories. That list already existed in exactly one
+          # other place — GENERATED_DIRS in scripts/sync.py — and writing it
+          # twice is what let `guides/` be generated, be linked from the README,
+          # and never be committed: the README pointed at a page that did not
+          # exist. The sync only ever writes README.md and the generated
+          # directories, so there is nothing else here for -A to pick up.
+          git add -A
+          git commit \
+            -m "Sync question bank from trueinterview.io" \
+            -m "$(tail -n 2 "$RUNNER_TEMP/sync.log")"
+          git push

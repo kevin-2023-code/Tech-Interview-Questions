@@ -1,0 +1,175 @@
+#!/usr/bin/env python3
+"""Display names and URL slugs for companies, formats and difficulties.
+
+The company half is a transcription of the site's own ``formatCompany`` /
+``companySlug`` (``web/lib/labels.ts`` in the app repository), and it is a
+transcription rather than an import because this repository has no TypeScript
+toolchain and must be able to render offline from a fixture.
+
+A transcription drifts, so it is a FALLBACK and not the source: ``company_label``
+prefers the name the API itself returned for a slug (see
+``catalog.fetch_company_labels``) and only reaches the rules below for a company
+the API's single, capped page did not cover. The rules exist so the long tail
+reads as "Capital One" rather than "Capitalone", not so this file can be the
+authority on what a company is called.
+
+``company_key`` is deliberately the same derivation the site uses for
+``/problems/company/<slug>``, which means the file this repository generates for
+a company and the page it links to are addressed by the same string. Two
+spellings of one employer collapse onto one page here exactly as they do there.
+"""
+
+from __future__ import annotations
+
+import re
+
+# Tokens that stay uppercase when title-casing a slug we have no label for.
+# Kept equal to the `ACRONYMS` set in the job lists' `lib/companies.mjs`: the
+# two tables only agree about an employer's name while they agree about this.
+# Casing never moves a slug, so an entry here is safe in a way a word break is
+# not — see the note on COMPANY_LABELS below.
+ACRONYMS = frozenset(
+    {
+        "ai", "ml", "ui", "ux", "ios", "qa", "sre", "api", "sde", "swe",
+        "llm", "nlp", "hr", "it", "pm", "tpm", "em", "hp", "ibm", "kla",
+        "amd", "nxp", "gm", "ge", "bmw", "sap", "usa", "uk",
+    }
+)
+
+# Slugs whose real casing or word breaks title-casing cannot recover.
+COMPANY_LABELS: dict[str, str] = {
+    "openai": "OpenAI",
+    "xai": "xAI",
+    "x-ai": "xAI",
+    "deepmind": "DeepMind",
+    "ibm": "IBM",
+    "aws": "AWS",
+    "sap": "SAP",
+    "nvidia": "NVIDIA",
+    "tiktok": "TikTok",
+    "bytedance": "ByteDance",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "gitlab": "GitLab",
+    "paypal": "PayPal",
+    "youtube": "YouTube",
+    "doordash": "DoorDash",
+    "capitalone": "Capital One",
+    "goldmansachs": "Goldman Sachs",
+    "jpmorgan": "JPMorgan",
+    "twosigma": "Two Sigma",
+    "akunacapital": "Akuna Capital",
+    "walmartlabs": "Walmart Labs",
+    "sofi": "SoFi",
+    "scale.ai": "Scale AI",
+    "scaleai": "Scale AI",
+    # Casing only, below this line. An entry that inserts a SPACE changes the
+    # slug (`capitalone` → `Capital One` → `capital-one`), and the slug is the
+    # address of the company's page on the site — so a word break invented here
+    # rather than transcribed from the site publishes a link to a page that does
+    # not exist. Casing cannot do that: the slug lowercases either way. The
+    # sibling job lists carry the same entries in `lib/companies.mjs`; an
+    # employer that reads "Mongodb" on one list and "MongoDB" on the other is
+    # the drift this closes.
+    "mongodb": "MongoDB",
+    "ebay": "eBay",
+    "hubspot": "HubSpot",
+    "geico": "GEICO",
+    "okx": "OKX",
+    "weride": "WeRide",
+    "stackadapt": "StackAdapt",
+    "crowdstrike": "CrowdStrike",
+    "servicenow": "ServiceNow",
+    "hashicorp": "HashiCorp",
+    "digitalocean": "DigitalOcean",
+    "coreweave": "CoreWeave",
+    "pagerduty": "PagerDuty",
+    "applovin": "AppLovin",
+    "circleci": "CircleCI",
+    "clickup": "ClickUp",
+    "sonarsource": "SonarSource",
+    "squarespace": "Squarespace",
+    "elevenlabs": "ElevenLabs",
+    "spacex": "SpaceX",
+    "abbvie": "AbbVie",
+    "epam": "EPAM",
+    "pwc": "PwC",
+    "kpmg": "KPMG",
+    "wsp": "WSP",
+    "hpe": "HPE",
+    "kla": "KLA",
+    "amd": "AMD",
+    # Not casing: the sibling lists derive `field-ai` for this one, and a
+    # registry entry is only ever found under one key.
+    "fieldai": "Field AI",
+    "chicagotrading": "Chicago Trading",
+}
+
+# Practice formats, in the order every navigation block prints them. The order is
+# the catalog's own shelf order rather than a count ranking, so the nav does not
+# reshuffle itself between syncs as counts move past each other.
+FORMAT_ORDER: tuple[str, ...] = ("algorithm", "sql", "system-design", "low-level-design", "ai-coding")
+
+FORMAT_LABELS: dict[str, str] = {
+    "algorithm": "Algorithm",
+    "sql": "SQL",
+    "system-design": "System Design",
+    "low-level-design": "Low-Level Design",
+    "ai-coding": "AI Coding",
+}
+
+#: The formats a submission is JUDGED on, as opposed to opened in. Algorithm and
+#: low-level design run on the external judge and SQL on an in-process Postgres;
+#: system design opens a whiteboard and AI coding opens a sandbox where a run's
+#: exit code is a diagnostic, never a verdict. The distinction is the site's own
+#: and is the reason no page here may promise "a server-judged verdict" over a
+#: bank in which 377 of 2,315 questions have no verdict to give.
+JUDGED_FORMATS: frozenset[str] = frozenset({"algorithm", "low-level-design", "sql"})
+
+DIFFICULTY_ORDER: tuple[str, ...] = ("easy", "medium", "hard")
+DIFFICULTY_LABELS: dict[str, str] = {"easy": "Easy", "medium": "Medium", "hard": "Hard"}
+
+
+def titleize(value: str) -> str:
+    parts = [part for part in re.split(r"[-_\s]+", value) if part]
+    return " ".join(part.upper() if part in ACRONYMS else part[:1].upper() + part[1:] for part in parts)
+
+
+def company_label(company: str, api_labels: dict[str, str] | None = None) -> str:
+    """The display name for a stored company value.
+
+    Free text the catalog stores as authored (anything with a space or a capital)
+    is left exactly as written — the same rule the site applies, and the reason
+    "Susquehanna International Group" does not come back mangled.
+    """
+    raw = company.strip()
+    if not raw:
+        return ""
+    if api_labels:
+        exact = api_labels.get(raw) or api_labels.get(raw.lower())
+        if exact:
+            return exact
+    key = raw.lower()
+    if key in COMPANY_LABELS:
+        return COMPANY_LABELS[key]
+    if any(character.isupper() for character in raw) or " " in raw:
+        return raw
+    return titleize(key)
+
+
+def company_key(company: str, api_labels: dict[str, str] | None = None) -> str:
+    """The slug a company's page is filed under — the site's own derivation."""
+    label = company_label(company, api_labels)
+    slug = label.lower().replace("&", " and ")
+    slug = re.sub(r"[^a-z0-9]+", "-", slug)
+    return slug.strip("-")
+
+
+def format_label(question_type: str) -> str:
+    return FORMAT_LABELS.get(question_type, titleize(question_type))
+
+
+def difficulty_label(difficulty: str | None) -> str | None:
+    if not difficulty:
+        return None
+    return DIFFICULTY_LABELS.get(difficulty, titleize(difficulty))
