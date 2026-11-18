@@ -281,7 +281,8 @@ repository from a fixture and compare bytes, with no network and no clock.
 **Metadata — nothing more.** The API this reads publishes titles, companies, formats,
 difficulties, sighting months and URLs, and deliberately no problem statements, guides,
 solutions or test cases. Between Sep and Nov 2026 the free tier's statements and guides
-were also mirrored here; that was withdrawn, and `catalog.py` no longer reads a body.
+were mirrored here in full; since then only the questions listed in
+`scripts/common_questions.txt` are, and no guide is.
 
 ### Properties worth keeping when you change something
 

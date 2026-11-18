@@ -7,11 +7,12 @@ it reads exactly one thing: the public, documented, read-only API at
 metadata and never bodies — a title, a company, a format, a difficulty, a
 sighting month, a URL.
 
-Nothing else is read. Between Sep and Nov 2026 the free tier's statements,
-hints and Study articles were mirrored here from a separate export; that was
-withdrawn, and :func:`fetch_catalog` now always reports ``content`` as ``None``.
-The ``Content`` types and their renderers remain only so a saved snapshot still
-loads.
+The one exception: the statements and hints of the questions listed in
+``scripts/common_questions.txt`` — well-known classics and questions already
+public elsewhere — read from ``/api/cron/content-export`` behind the
+``CONTENT_EXPORT_SECRET`` Actions secret. Everything else in that export is
+discarded on arrival (:func:`common_only`), guides included. With the secret
+unset the export is not read and every page is index-only.
 
 Two properties the rest of the pipeline relies on:
 
@@ -29,6 +30,8 @@ Two properties the rest of the pipeline relies on:
 from __future__ import annotations
 
 import json
+import os
+from pathlib import Path
 import time
 import urllib.error
 import urllib.request
@@ -467,6 +470,55 @@ def fetch_experiences(base_url: str, *, timeout: int = 30) -> tuple[list[dict[st
     return [item for item in rows if isinstance(item, dict)], total
 
 
+def fetch_content(base_url: str, secret: str, *, timeout: int = 60) -> dict[str, Any]:
+    """The free tier's bodies from the site's export.
+
+    Not the public API, and not its ``{ok, data}`` envelope: a plain JSON
+    object ``{generatedAt, questions, articles}``. Every failure raises — the
+    renderer prunes question pages that stop appearing, so an unreadable export
+    must stop the sync rather than read as "nothing is free any more".
+    """
+    url = f"{base_url.rstrip('/')}/api/cron/content-export"
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json", "Authorization": f"Bearer {secret}"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            payload = json.load(response)
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as error:
+        raise CatalogError(f"could not read {url}: {error}") from error
+    if not isinstance(payload, dict) or not isinstance(payload.get("questions"), list) or not isinstance(
+        payload.get("articles"), list
+    ):
+        raise CatalogError(f"{url} did not answer with a content export")
+    return payload
+
+
+COMMON_QUESTIONS_FILE = Path(__file__).resolve().parent / "common_questions.txt"
+
+
+def common_question_slugs(path: Path = COMMON_QUESTIONS_FILE) -> frozenset[str]:
+    """The allowlist of questions whose statement may be published here."""
+    lines = path.read_text(encoding="utf-8").splitlines() if path.exists() else []
+    return frozenset(line.strip() for line in lines if line.strip() and not line.startswith("#"))
+
+
+def common_only(payload: dict[str, Any], allowed: frozenset[str]) -> dict[str, Any]:
+    """The export, cut down to what this repository publishes.
+
+    Only an allowlisted question keeps its body, and no article does: guides
+    are read on the site. Applied to the export before anything else sees it,
+    so a body that is not published is never rendered, counted or written to a
+    snapshot either.
+    """
+    return {
+        **payload,
+        "questions": [q for q in payload["questions"] if isinstance(q, dict) and q.get("slug") in allowed],
+        "articles": [],
+    }
+
+
 def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dict[str, Any]:
     """The whole snapshot this repository is rendered from."""
     base = base_url.rstrip("/")
@@ -480,10 +532,11 @@ def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dic
         "experiences": experiences,
         "experiencesTotal": experiences_total,
         "companyLabels": fetch_company_labels(base, timeout=timeout),
-        # Always None since Nov 2026: this repository publishes the index only —
-        # titles, companies, rounds and dates. Statements, hints and guide text
-        # stay on the site, behind an account, and are never fetched here.
-        "content": None,
+        # Absent (None) is "not configured", which renders the index-only pages.
+        # Configured, only the allowlisted questions' bodies are kept.
+        "content": common_only(fetch_content(base, secret), common_question_slugs())
+        if (secret := os.environ.get("CONTENT_EXPORT_SECRET"))
+        else None,
     }
 
 

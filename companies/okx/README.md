@@ -2,7 +2,7 @@
 
 # OKX interview process & questions
 
-How OKX interviews, and the questions candidates reported there. Every question and guide links to its page on TrueInterview.
+How OKX interviews, and the questions candidates reported there. Well-known questions are published here with their statement; everything else links to TrueInterview.
 
 [← All companies](../README.md) · [Every OKX question, with statistics](../okx.md) · [Practise on TrueInterview](https://trueinterview.io/problems/company/okx)
 
@@ -10,6 +10,7 @@ How OKX interviews, and the questions candidates reported there. Every question 
 | :-- | :-- |
 | Questions reported | [5](../okx.md) |
 | Free with an account | 4 |
+| Statement published here | 0 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
@@ -36,4 +37,4 @@ How OKX interviews, and the questions candidates reported there. Every question 
 
 ---
 
-<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>
+<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, with the well-known questions in full, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>

@@ -234,6 +234,27 @@ class TestRewrite(unittest.TestCase):
         self.assertIn('href="../../questions/algorithm/a/README.md"', text)
 
 
+class TestCommonOnly(unittest.TestCase):
+    def test_only_allowlisted_questions_keep_a_body_and_no_article_does(self):
+        from catalog import common_only
+
+        payload = {
+            "generatedAt": "x",
+            "questions": [{"slug": "lru-cache", "contentMd": "a"}, {"slug": "our-own", "contentMd": "b"}],
+            "articles": [{"slug": "meta-interview-process", "contentMd": "c"}],
+        }
+        cut = common_only(payload, frozenset({"lru-cache"}))
+        self.assertEqual([q["slug"] for q in cut["questions"]], ["lru-cache"])
+        self.assertEqual(cut["articles"], [])
+
+    def test_a_missing_allowlist_publishes_nothing(self):
+        from pathlib import Path
+
+        from catalog import common_question_slugs
+
+        self.assertEqual(common_question_slugs(Path("does-not-exist.txt")), frozenset())
+
+
 class TestSyncGuard(unittest.TestCase):
     def run_sync(self, *published: str) -> int:
         argv = ["sync.py", "--catalog-file", str(FIXTURE), "--today", TODAY.isoformat(), "--check"]
@@ -246,10 +267,9 @@ class TestSyncGuard(unittest.TestCase):
         self.stderr = err.getvalue()
         return code
 
-    def test_a_question_page_left_on_disk_is_reported_as_orphaned(self):
-        # Bodies are no longer published: a question page is stale, never protected.
-        self.assertEqual(self.run_sync("questions/algorithm/x/README.md"), 1)
-        self.assertIn("orphaned: questions/algorithm/x/README.md", self.stderr)
+    def test_an_unconfigured_run_never_deletes_published_question_pages(self):
+        self.assertEqual(self.run_sync("questions/algorithm/x/README.md"), 2)
+        self.assertIn("CONTENT_EXPORT_SECRET", self.stderr)
 
     def test_an_unconfigured_run_over_no_pages_is_fine(self):
         # The index is always rendered, so it must not count as a published page.

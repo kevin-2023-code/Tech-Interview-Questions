@@ -162,6 +162,30 @@ def main() -> int:
     existing = generated_paths()
     stale = sorted(existing - rendered)
 
+    # The content layer's own guard. With no export configured the question
+    # pages are simply not rendered — which, over a repository that HAS them,
+    # would delete every one. That is a removed secret or a misconfigured run,
+    # never a decision, so it stops here and says what to do.
+    def question_pages(paths: set[str]) -> set[str]:
+        # `questions/<format>/<name>/README.md`, never the index, which every run renders.
+        return {p for p in paths if p.startswith("questions/") and p.count("/") == 3}
+
+    published = question_pages(existing)
+    kept = question_pages(rendered)
+    if published and not result.stats["content_configured"]:
+        print(
+            f"sync failed: {len(published)} question pages are published but CONTENT_EXPORT_SECRET is not set, "
+            "so this run would delete them. Set the secret, or delete questions/ by hand if that is the intent.",
+            file=sys.stderr,
+        )
+        return 2
+    if published and len(published - kept) > MAX_CONTENT_SHRINK * len(published):
+        print(
+            f"sync failed: this run would remove {len(published - kept)} of {len(published)} question pages "
+            f"(more than {MAX_CONTENT_SHRINK:.0%}). Check the free-content export before letting it through.",
+            file=sys.stderr,
+        )
+        return 2
     changed = sorted(
         path
         for path, content in result.files.items()

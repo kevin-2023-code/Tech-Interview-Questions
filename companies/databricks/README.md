@@ -2,7 +2,7 @@
 
 # Databricks interview process & questions
 
-How Databricks interviews, and the questions candidates reported there. Every question and guide links to its page on TrueInterview.
+How Databricks interviews, and the questions candidates reported there. Well-known questions are published here with their statement; everything else links to TrueInterview.
 
 [← All companies](../README.md) · [Every Databricks question, with statistics](../databricks.md) · [Practise on TrueInterview](https://trueinterview.io/problems/company/databricks)
 
@@ -10,6 +10,7 @@ How Databricks interviews, and the questions candidates reported there. Every qu
 | :-- | :-- |
 | Questions reported | [88](../databricks.md) |
 | Free with an account | 30 |
+| Statement published here | 0 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -64,4 +65,4 @@ How Databricks interviews, and the questions candidates reported there. Every qu
 
 ---
 
-<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>
+<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, with the well-known questions in full, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>

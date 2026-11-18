@@ -1,7 +1,7 @@
 # Content license
 
-The **text** in this repository — the generated tables, counts and company
-pages — is © TrueInterview and licensed under the
+The **text** in this repository — the generated tables, company pages and the
+question statements under `questions/` — is © TrueInterview and licensed under the
 [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 The full legal text is at <https://creativecommons.org/licenses/by/4.0/legalcode>.
 

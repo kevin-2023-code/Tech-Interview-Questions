@@ -2,7 +2,7 @@
 
 # Free interview questions
 
-The free questions in the TrueInterview bank. Each one opens on the site with a free account: the statement, the hints, an editor that runs your attempt against the hidden tests, and the reference solution.
+The well-known questions in the TrueInterview bank — classics, and questions already public elsewhere — published here with the statement and the hints. The reference solution, and an editor that runs your attempt against the hidden tests, are one click away on each page.
 
 [← Question bank](../README.md) · [Companies](../companies/README.md) · [Free questions, with statistics](../free/README.md)
 
@@ -10,4 +10,4 @@ The free questions in the TrueInterview bank. Each one opens on the site with a 
 
 ---
 
-<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>
+<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, with the well-known questions in full, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>

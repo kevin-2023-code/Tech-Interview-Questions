@@ -2,7 +2,7 @@
 
 # Mistral AI interview process & questions
 
-How Mistral AI interviews, and the questions candidates reported there. Every question and guide links to its page on TrueInterview.
+How Mistral AI interviews, and the questions candidates reported there. Well-known questions are published here with their statement; everything else links to TrueInterview.
 
 [← All companies](../README.md) · [Every Mistral AI question, with statistics](../mistral-ai.md) · [Practise on TrueInterview](https://trueinterview.io/problems/company/mistral-ai)
 
@@ -10,6 +10,7 @@ How Mistral AI interviews, and the questions candidates reported there. Every qu
 | :-- | :-- |
 | Questions reported | [9](../mistral-ai.md) |
 | Free with an account | 9 |
+| Statement published here | 0 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Sep 01, 2026 |
@@ -41,4 +42,4 @@ No written process guide yet. [The loop, as reported](../mistral-ai.md#the-loop-
 
 ---
 
-<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>
+<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, with the well-known questions in full, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>

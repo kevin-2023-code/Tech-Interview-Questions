@@ -28,8 +28,9 @@
 ---
 
 **Every company has a home page** — what was reported there, by round and by month, and
-links to its interview-process guides — under [`companies/`](companies/README.md). This
-repository is the index: every row opens the real problem on
+links to its interview-process guides — under [`companies/`](companies/README.md). The
+well-known questions — classics, and ones already public elsewhere — are published in full
+under [`questions/`](questions/README.md). Every other row opens the real problem on
 [TrueInterview](https://trueinterview.io), a runnable workspace, not a screenshot, with a
 server-judged verdict on the algorithm, object-oriented-programming and SQL formats.
 Synced from the live catalog every hour, and free to share under
@@ -282,8 +283,9 @@ is on a company page, a format page, and (if it carries a sighting date) a month
 Everything under `companies/`, `questions/`, `formats/`, `by-month/`, `guides/`, `insights/`,
 `free/`, `experiences/` and `data/` is generated hourly by [`scripts/sync.py`](scripts/sync.py)
 from TrueInterview's public, documented, read-only catalog API — which publishes metadata
-only: titles, companies, formats, rounds and dates. Problem statements, hints, guides,
-solutions and test cases are not here; they live on the site.
+only: titles, companies, formats, rounds and dates — plus the statements and hints of the
+questions listed in [`scripts/common_questions.txt`](scripts/common_questions.txt).
+Everything else — other statements, guides, solutions and test cases — lives on the site.
 
 ```bash
 python3 scripts/sync.py          # refresh from the live catalog
@@ -303,7 +305,7 @@ never a screenshot or a copied problem statement.**
 
 ## 📄 Licence
 
-**The text** — the tables, counts and company pages — is
+**The text** — the tables, company pages and published question statements — is
 licensed [CC BY 4.0](LICENSE-CONTENT.md): repost, translate or adapt it anywhere,
 commercially or not, crediting TrueInterview with a link back. **The scripts** are MIT
 ([LICENSE](LICENSE)). Problem statements, solutions and test cases are not published

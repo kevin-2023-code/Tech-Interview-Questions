@@ -2,7 +2,7 @@
 
 # Snowflake interview process & questions
 
-How Snowflake interviews, and the questions candidates reported there. Every question and guide links to its page on TrueInterview.
+How Snowflake interviews, and the questions candidates reported there. Well-known questions are published here with their statement; everything else links to TrueInterview.
 
 [← All companies](../README.md) · [Every Snowflake question, with statistics](../snowflake.md) · [Practise on TrueInterview](https://trueinterview.io/problems/company/snowflake)
 
@@ -10,6 +10,7 @@ How Snowflake interviews, and the questions candidates reported there. Every que
 | :-- | :-- |
 | Questions reported | [145](../snowflake.md) |
 | Free with an account | 60 |
+| Statement published here | 0 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Oct 01, 2026 |
@@ -92,4 +93,4 @@ How Snowflake interviews, and the questions candidates reported there. Every que
 
 ---
 
-<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>
+<sub>From [TrueInterview](https://trueinterview.io) — an index of its question bank and company interview guides, with the well-known questions in full, synced every hour. Text licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share or adapt it anywhere, crediting TrueInterview with a link back ([how](../../LICENSE-CONTENT.md)). [Report a problem with this page](https://github.com/kevin-2023-code/Tech-Interview-Questions/issues/new?template=correction.yml).</sub>

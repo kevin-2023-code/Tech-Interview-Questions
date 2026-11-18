@@ -261,7 +261,7 @@ def footer(path: str) -> str:
     return (
         "---\n\n"
         f"<sub>From [TrueInterview]({SITE}) — an index of its question bank and company interview "
-        f"guides, synced every hour. Text licensed [CC BY 4.0]({LICENSE_URL}): share or adapt it anywhere, "
+        f"guides, with the well-known questions in full, synced every hour. Text licensed [CC BY 4.0]({LICENSE_URL}): share or adapt it anywhere, "
         f"crediting TrueInterview with a link back ([how]({_root(path)}LICENSE-CONTENT.md)). "
         f"[Report a problem with this page]({issues}).</sub>\n"
     )
@@ -431,7 +431,8 @@ def company_home(
         [":--", ":--"],
         [
             ["Questions reported", f"[{len(questions):,}](../{key}.md)"],
-            ["Free with an account", f"{len(readable):,}" if content else f"{len(free):,}"],
+            ["Free with an account", f"{len(free):,}"],
+            ["Statement published here", f"{len(readable):,}"],
             ["Interview-process guides", f"{int(process is not None) + len(roles)}"],
             ["Other guides", f"{len(others):,}"],
             ["Most recent sighting", date_label(max(dated)) if dated else "—"],
@@ -442,8 +443,8 @@ def company_home(
         "",
         f"# {name} interview process & questions",
         "",
-        f"How {escape_cell(name)} interviews, and the questions candidates reported there. Every question and "
-        "guide links to its page on TrueInterview.",
+        f"How {escape_cell(name)} interviews, and the questions candidates reported there. Well-known questions "
+        "are published here with their statement; everything else links to TrueInterview.",
         "",
         f"[← All companies](../README.md) · [Every {escape_cell(name)} question, with statistics](../{key}.md) · "
         f"[Practise on TrueInterview]({SITE}/problems/company/{key})",
@@ -543,9 +544,9 @@ def questions_index(publishable: Sequence[Question], registry: dict[str, str], a
         "",
         "# Free interview questions",
         "",
-        "The free questions in the TrueInterview bank. Each one opens on the site with a free account: "
-        "the statement, the hints, an editor that runs your attempt against the hidden tests, and the "
-        "reference solution.",
+        "The well-known questions in the TrueInterview bank — classics, and questions already public "
+        "elsewhere — published here with the statement and the hints. The reference solution, and an "
+        "editor that runs your attempt against the hidden tests, are one click away on each page.",
         "",
         "[← Question bank](../README.md) · [Companies](../companies/README.md) · "
         "[Free questions, with statistics](../free/README.md)",
