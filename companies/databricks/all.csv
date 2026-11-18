@@ -1,0 +1,89 @@
+Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Design a Typeahead Search System,System Design,Medium,Onsite / virtual onsite,1,2026-09-15,https://trueinterview.io/questions/design-a-typeahead-search-system
+Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,3,2026-09-10,https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e
+Tic-Tac-Toe Against a Deterministic Automatic Opponent,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-06,https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent
+Referral Credit Tracker with Indirect Referrals,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-06,https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals
+"Design Chat APIs, Storage, and Message Flows",System Design,Easy,Onsite / virtual onsite,1,2026-09-06,https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows
+Design In-Memory File System,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,4,2026-08-31,https://trueinterview.io/questions/design-in-memory-file-system
+SWE / MLE Behavioral Round,Blog,,Onsite / virtual onsite,1,2026-08-13,https://trueinterview.io/questions/swe-behavioral-round
+Collaborative Playlist Design,System Design,Medium,Phone screen; Onsite / virtual onsite,1,2026-07-30,https://trueinterview.io/questions/collaborative-playlist-design
+Senior FDE Recruiter Screen,Blog,,Phone screen,1,2026-07-21,https://trueinterview.io/questions/senior-fde-recruiter-screen
+Maximal Square (LeetCode 221),Algorithm,Hard,Onsite / virtual onsite,3,2026-07-17,https://trueinterview.io/questions/maximal-square
+Find Optimal Commute,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-06-29,https://trueinterview.io/questions/find-optimal-commute
+Tic-Tac-Toe II,Object Oriented Programming,Medium,Onsite / virtual onsite,2,2026-06-26,https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition
+Design Book Price Aggregator,System Design,Medium,Phone screen; Onsite / virtual onsite,1,2026-06-18,https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform
+File Encryption Tree Optimization,Algorithm,Hard,Phone screen,1,2026-06-06,https://trueinterview.io/questions/file-encryption-tree-optimization
+Customer Revenue System,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-06-05,https://trueinterview.io/questions/revenue-tracking-system-with-referrals
+Snapshot Set Iterator,Object Oriented Programming,Medium,Phone screen,2,2026-06,https://trueinterview.io/questions/snapshotset-with-iterator
+Tetris Block Drop,Algorithm,Medium,Onsite / virtual onsite,1,2026-06,https://trueinterview.io/questions/tetris-block-drop
+Firewall CIDR Rules,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-06,https://trueinterview.io/questions/firewall-cidr-rules
+Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,3,2026-05-31,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
+String Pattern Partition by Source Indices,Algorithm,Medium,Onsite / virtual onsite,1,2026-05-22,https://trueinterview.io/questions/string-pattern-partition
+In-Memory KV Cache with WAL Log,System Design,Hard,Onsite / virtual onsite,2,2026-05-22,https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log
+Distributed File System,System Design,Medium,Phone screen; Onsite / virtual onsite,1,2026-05-15,https://trueinterview.io/questions/distributed-file-system
+Uniform Random Edges to Connect Node Groups,Algorithm,Hard,Phone screen,1,2026-05-05,https://trueinterview.io/questions/uniform-random-edges-to-connect-node-groups
+Design Dropbox,System Design,Hard,Phone screen; Onsite / virtual onsite,5,2026-05-03,https://trueinterview.io/questions/design-dropbox
+Gradient Descent for Simple Linear Regression,AI Coding,Medium,Onsite / virtual onsite,1,2026-04-17,https://trueinterview.io/questions/274c024f-d789-4f9c-99cd-ad66381cfc31
+Design A Harmful Content Detection System,System Design,Medium,Onsite / virtual onsite,3,2026-04-13,https://trueinterview.io/questions/harmful-content-detection-system
+Design Lazy Array,Object Oriented Programming,Medium,Onsite / virtual onsite,2,2026-04-13,https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution
+Implement Resilient Autocomplete Data Fetching,Algorithm,Hard,Onsite / virtual onsite,1,2026-04-07,https://trueinterview.io/questions/implement-resilient-autocomplete-data-fetching
+Design Messaging With Message Deletion,System Design,Medium,Onsite / virtual onsite,1,2026-04-07,https://trueinterview.io/questions/design-messaging-with-message-deletion
+Check Whether Two Strings Are Anagrams,Algorithm,Easy,Onsite / virtual onsite,2,2026-04-07,https://trueinterview.io/questions/check-whether-two-strings-are-anagrams
+Stock Trading Agent System Design,System Design,Medium,Phone screen; Onsite / virtual onsite,2,2026-04-06,https://trueinterview.io/questions/stock-trading-agent-system-design
+Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,4,2026-04,https://trueinterview.io/questions/design-a-stock-order-trade-management-system
+Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,4,2026-04,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
+Remove Covered Point,Algorithm,Medium,Onsite / virtual onsite,1,2026-04,https://trueinterview.io/questions/delete-element-from-interval-array-by-index
+Find Path in Fibonacci Tree,Algorithm,Easy,Phone screen; Onsite / virtual onsite,1,2026-04-01,https://trueinterview.io/questions/find-path-between-nodes-in-k-th-order-fibonacci-tree
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,16,2026-03-30,https://trueinterview.io/questions/job-scheduler-design
+Encode And Decode,Algorithm,Hard,Onsite / virtual onsite,1,2026-03-20,https://trueinterview.io/questions/integer-stream-encoder-decoder
+Optimize least-k revenue queries for read/write load,System Design,Hard,Phone screen,1,2026-02-12,https://trueinterview.io/questions/optimize-least-k-revenue-queries-for-read-write-load
+Serialize and Deserialize Binary Tree,Algorithm,Medium,Phone screen,6,2026-02-04,https://trueinterview.io/questions/serialize-and-deserialize-binary-tree
+Design a single-node persistent in-memory cache,Object Oriented Programming,Hard,Phone screen,1,2026-01-22,https://trueinterview.io/questions/design-a-single-node-persistent-in-memory-cache
+SQL Query Plan Optimizer,Algorithm,Hard,Onsite / virtual onsite,1,2026-01-10,https://trueinterview.io/questions/sql-query-plan-optimizer
+Describe project impact and critical feedback,Blog,,Onsite / virtual onsite,1,2026-01-05,https://trueinterview.io/questions/describe-project-impact-and-critical-feedback
+Test coin fairness from 560 tails in 1000 flips,Blog,,Phone screen,1,2025-12-12,https://trueinterview.io/questions/test-coin-fairness-from-560-tails-in-1000-flips
+Explain ROC-AUC vs PR-AUC tradeoffs,Blog,,Phone screen,1,2025-12-12,https://trueinterview.io/questions/explain-roc-auc-vs-pr-auc-tradeoffs
+Count weekly customers with ≥$1000 YTD spend,SQL,Hard,Phone screen,1,2025-12-03,https://trueinterview.io/questions/count-weekly-customers-with-1000-ytd-spend
+Maximal Square and Rectangle in Binary Matrix,Algorithm,Medium,Phone screen; Onsite / virtual onsite,3,2025-11-26,https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix
+Network Throttling System Design,System Design,Medium,Onsite / virtual onsite,1,2025-11-20,https://trueinterview.io/questions/network-throttling-system-design
+House Robber Series,Algorithm,Medium,Phone screen; Onsite / virtual onsite,5,2025-11-18,https://trueinterview.io/questions/house-robber-series
+Implement Circuit Breaker Pattern,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2025-11-17,https://trueinterview.io/questions/implement-circuit-breaker-pattern
+Compute last-5-minute QPS in memory,Algorithm,Medium,Phone screen,1,2025-11-14,https://trueinterview.io/questions/compute-last-5-minute-qps-in-memory
+Query QPS from KV Store Request Logs,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2025-11-13,https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures-query-qps-from-kv-store-request-logs
+Design Tic-Tac-Toe and QPS data structures,Algorithm,Medium,Onsite / virtual onsite,1,2025-11-13,https://trueinterview.io/questions/design-tic-tac-toe-and-qps-data-structures
+Durable Key-Value Store Serialization,Object Oriented Programming,Easy,Onsite / virtual onsite,10,2025-11-08,https://trueinterview.io/questions/durable-key-value-store-serialization
+Anagrammed indexOf,Algorithm,Easy,Phone screen; Onsite / virtual onsite,1,2025-11-07,https://trueinterview.io/questions/anagrammed-indexof
+How do you handle conflicting interviewer hints?,Blog,,Phone screen,1,2025-11-06,https://trueinterview.io/questions/how-do-you-handle-conflicting-interviewer-hints
+Ad Marketplace System Design,System Design,Hard,Onsite / virtual onsite,1,2025-11-05,https://trueinterview.io/questions/ad-marketplace-system-design
+Payment Gateway System,System Design,Medium,Onsite / virtual onsite,1,2025-10-30,https://trueinterview.io/questions/payment-gateway-system
+Design AI Chatbot App,System Design,Easy,Onsite / virtual onsite,5,2025-10-29,https://trueinterview.io/questions/design-an-ai-chatbot-system
+Multi-Threaded Chat System,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2025-10-24,https://trueinterview.io/questions/multi-threaded-chat-system
+Relate coefficients under linear feature transformation,Blog,,Phone screen,1,2025-10-14,https://trueinterview.io/questions/relate-coefficients-under-linear-feature-transformation-2
+Diagnose and fix multicollinearity in income regression,Blog,,Phone screen,1,2025-10-14,https://trueinterview.io/questions/diagnose-and-fix-multicollinearity-in-income-regression
+Run-Length Encoding (RLE),Algorithm,Medium,Onsite / virtual onsite,1,2025-10-10,https://trueinterview.io/questions/implement-rle-and-bit-packing-compression-run-length-encoding-rle
+Autonomous Ride-Hailing App System Design (Waymo-like),System Design,Medium,Onsite / virtual onsite,1,2025-10-09,https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like
+Tic Tac Toe,AI Coding,Easy,Phone screen,3,2025-06,https://trueinterview.io/questions/tic-tac-toe
+Check if CIDR is fully canceled by rules,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/check-if-cidr-is-fully-canceled-by-rules
+String Anagram Windows,Algorithm,Medium,Phone screen,5,,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
+KV Store with Sliding-Window Average Latency,Object Oriented Programming,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/908ac171-29c9-53ff-b6ad-26faa94d0b1c
+Space-Efficient Versioned Set Snapshot Design,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/7d84af64-a9ca-43ad-bef8-8a3725cf9d70
+Circuit Breaker Based Database Replica Routing,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/4ce104e2-73c6-501b-8be8-92ced07f6431
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
+Count Encrypted Files in a Directory Tree,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/09691fdc-0417-5cb5-ba45-91a19e04f104
+Design A VM Bandwidth Rate Limiter,System Design,Hard,Onsite / virtual onsite,3,,https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2
+Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,8,,https://trueinterview.io/questions/design-distributed-web-crawler-4
+Design A Kafka-like Distributed Message Queue,System Design,Hard,Onsite / virtual onsite,4,,https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue
+Design S3-like Object Storage System,System Design,Medium,Onsite / virtual onsite,5,,https://trueinterview.io/questions/design-s3-like-object-storage-system-2
+Implement SnapshotSet,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,10,,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Group Anagrams,Algorithm,Medium,Phone screen,7,,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Max Area of Island,Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f
+SQL for Data Analysis,SQL,Easy,Online assessment,1,,https://trueinterview.io/questions/fbafc874-d6f5-487f-988f-47f0b70c83c1
+Revenue Calculation,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/defc1881-3c2c-49ae-934b-39263ce423cf
+Top-5 Most Similar Rows Using MSE Across Multiple Features,SQL,Medium,Online assessment,1,,https://trueinterview.io/questions/a30e9f92-4754-47a1-a8c0-4a8bcf748e50
+Reconstruct a Binary Tree from Inorder Traversal (Follow-up),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/763b1a0b-3c17-478c-9efb-43a4e22d4e3d
+Grid pathfinding with time & cost optimality (BFS / shortest path variant),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/5ef47226-c611-4570-99aa-51ed22a3d12b
+Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/44ee2fb4-e34e-431f-ad8d-61388d5ef87d
+Lazy Array (Delayed Evaluation Array),Object Oriented Programming,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/240da66e-fee4-4897-a81e-75c7dad94bff
+Design Hit Counter with Variable Time Windows,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-hit-counter-with-variable-time-windows
+IP CIDR Range Query,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a

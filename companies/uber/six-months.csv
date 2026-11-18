@@ -1,0 +1,43 @@
+Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Squares of a Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,2,2026-09-29,https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c
+Sort a Matrix into Snake Order Using Adjacent Swaps,Algorithm,Medium,Phone screen,1,2026-09-09,https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps
+Design Distributed Storage for Large Structured Data,System Design,Medium,Onsite / virtual onsite,1,2026-09-09,https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data
+Answer Repeated Shortest Increasing-Path Queries,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-09,https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries
+Find Robots Position,Algorithm,Medium,Phone screen,1,2026-08-29,https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance
+Design a Highly Available URL Shortener,System Design,Medium,Onsite / virtual onsite,1,2026-08-22,https://trueinterview.io/questions/design-a-highly-available-url-shortener
+Nearby Driver Proximity Service,System Design,Medium,Onsite / virtual onsite,1,2026-08-16,https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service
+K Closest Points,Algorithm,Medium,Onsite / virtual onsite,1,2026-08-16,https://trueinterview.io/questions/onsite-k-closest-points
+Filesystem Navigation,Object Oriented Programming,Medium,Phone screen,1,2026-08-11,https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation
+Minesweeper (LC 529),Algorithm,Medium,Onsite / virtual onsite,2,2026-08-10,https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529
+Top K Largest Elements,Algorithm,Medium,Phone screen,10,2026-07-29,https://trueinterview.io/questions/top-k-largest-elements
+Insert Interval (LC 57),Algorithm,Medium,Phone screen,3,2026-07-28,https://trueinterview.io/questions/insert-interval
+Maximal Square (LeetCode 221),Algorithm,Hard,Onsite / virtual onsite,3,2026-07-17,https://trueinterview.io/questions/maximal-square
+Binary Tree Vertical Order Traversal,Algorithm,Medium,Phone screen; Onsite / virtual onsite,5,2026-06-28,https://trueinterview.io/questions/binary-tree-vertical-order-traversal
+"Bar Raiser: Architecture, Influence, and Values",Blog,,Onsite / virtual onsite,1,2026-06-26,https://trueinterview.io/questions/bar-raiser-architecture-and-values
+Basic Calculator I / II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,4,2026-06-24,https://trueinterview.io/questions/basic-calculator-i-ii
+Onsite BQ + Hiring Manager + Project Deep-Dive,Blog,,Onsite / virtual onsite,1,2026-06-23,https://trueinterview.io/questions/onsite-bq-hm-deep-dive
+Compare Two Structs / Classes for Equality,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-06-23,https://trueinterview.io/questions/compare-two-structs-or-classes
+Design Facebook Messenger,System Design,Medium,Onsite / virtual onsite,1,2026-06-21,https://trueinterview.io/questions/design-messenger
+App User Behavior Data Platform,System Design,Medium,Onsite / virtual onsite,1,2026-06-17,https://trueinterview.io/questions/onsite-sd-app-user-behavior-data-platform
+Word Break,Algorithm,Medium,Onsite / virtual onsite,3,2026-06-16,https://trueinterview.io/questions/word-break
+Sliding Window Maximum,Algorithm,Medium,Onsite / virtual onsite,3,2026-06-16,https://trueinterview.io/questions/sliding-window-maximum
+Rate Limiter (Coding + Trade-offs),Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-06-16,https://trueinterview.io/questions/phone-screen-rate-limiter
+Design Uber,System Design,Medium,Onsite / virtual onsite,4,2026-06-16,https://trueinterview.io/questions/onsite-sd-rider-driver-matching
+Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,5,2026-06-16,https://trueinterview.io/questions/median-of-two-sorted-arrays
+First Customer Who Visited Only Once,Object Oriented Programming,Medium,Phone screen,1,2026-06-15,https://trueinterview.io/questions/phone-screen-first-unique-visitor
+Evaluate String Expression,Algorithm,Medium,Onsite / virtual onsite,3,2026-06-10,https://trueinterview.io/questions/nested-function-expression-evaluator
+Bus Routes (LC 815),Algorithm,Hard,Phone screen; Onsite / virtual onsite,2,2026-06-08,https://trueinterview.io/questions/phone-screen-bus-routes
+Number of Islands II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,3,2026-06-08,https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d
+Top K Frequent Elements,Algorithm,Easy,Phone screen,10,2026-06-08,https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47
+Random Bingo Card Generator,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-06-06,https://trueinterview.io/questions/bingo-card-generator
+Parking Lot System II,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,2,2026-06-06,https://trueinterview.io/questions/design-parking-lot-ood
+Construct Quad Tree,Algorithm,Medium,Online assessment; Onsite / virtual onsite,1,2026-06-06,https://trueinterview.io/questions/construct-quad-tree
+Maximize Pipeline Throughput,Algorithm,Medium,Online assessment,2,2026-06-04,https://trueinterview.io/questions/oa-pipeline-throughput
+Leftmost Column with At Least a One,Algorithm,Medium,Phone screen,1,2026-06-04,https://trueinterview.io/questions/b9b9aff1-0435-543b-80eb-51ae69a79788
+Snapshot Social Graph,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,2,2026-06,https://trueinterview.io/questions/social-network-with-snapshots
+Minimum Root Edges Reversal,Algorithm,Medium,Online assessment,1,2026-05-31,https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a
+Last-Click Attribution Tracker,Object Oriented Programming,Medium,Phone screen,1,2026-05-29,https://trueinterview.io/questions/last-click-attribution
+Maximum Number of Points from Grid Queries,Algorithm,Hard,Phone screen,1,2026-05-29,https://trueinterview.io/questions/maximum-number-of-points-from-grid-queries
+Fill Dashes with Nearest Letter,Algorithm,Medium,Phone screen,1,2026-05-29,https://trueinterview.io/questions/matrix-fill-nearest-letter
+Tennis Rounds — Print Round Winners,Algorithm,Easy,Phone screen,1,2026-05-23,https://trueinterview.io/questions/phone-screen-tennis-rounds
+Rotate a Matrix by 90 Degrees In Place,Algorithm,Medium,Phone screen,4,2026-05-22,https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56

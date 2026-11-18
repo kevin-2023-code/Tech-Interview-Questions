@@ -1,20 +1,14 @@
 #!/usr/bin/env python3
-"""The free tier, rendered as pages you can read here.
+"""The well-known questions, rendered as pages you can read here.
 
-Everything else in this repository is an index: titles, counts and dates, each
-row a link into trueinterview.io. This module renders the part that is CONTENT,
-from the free tier's bodies (``catalog.Content``):
+Everything else in this repository is an index: titles, metadata and dates,
+each row a link. This module renders the one part that is CONTENT, from the
+bodies of the allowlisted questions (``catalog.Content``):
 
-  * ``companies/<key>/README.md`` — a company's home: how it interviews, its
-    free questions, its guides. Rendered for every company, with or without
-    bodies; without them every link simply points at the site.
-  * ``companies/<key>/interview-process.md`` (+ ``interview-process-<role>.md``)
-    — the site's interview-process guides, in full.
-  * ``companies/<key>/guides/<name>.md`` — every other Study guide filed there.
-  * ``questions/<format>/<name>/README.md`` — one page per free question: the
-    statement and the hints. Never the solution: that stays on the site, next to
-    the editor that runs an attempt against the hidden tests, and it is the
-    reason to click through.
+  * ``questions/<format>/<name>/README.md``: one page per published question,
+    the statement and the hints. Never the solution: that stays on the site,
+    next to the editor that runs an attempt against the hidden tests.
+  * ``questions/README.md``: the index of those pages.
 
 Three rules, each with a reason:
 
@@ -23,13 +17,13 @@ Three rules, each with a reason:
     and recorded in ``data/paths.json``. A later title change leaves the file
     where it is, because a moved file is a broken link on every page that
     shared it. See :func:`assign_paths`.
-  * **A body is stored once.** A free question is reported at up to a dozen
+  * **A body is stored once.** A question is reported at up to a dozen
     employers; its page lives under its format and every company links to it,
     rather than a dozen copies drifting apart.
   * **Links in a body land somewhere real.** The site writes site-relative
-    links (``/questions/x``, ``/study/y``). Each one becomes the page here when
-    this repository publishes that target, and the absolute site URL when it
-    does not. See :func:`rewrite_links`.
+    links (``/questions/x``). Each one becomes the page here when this
+    repository publishes that target, and the absolute site URL when it does
+    not. See :func:`rewrite_links`.
 
 Pure, like ``build.py``: records in, a path → text map out.
 """
@@ -38,14 +32,11 @@ from __future__ import annotations
 
 import posixpath
 import re
-from dataclasses import dataclass
-from datetime import date
 from typing import Sequence
 
-from catalog import Content, Guide, Question
-from insights import ROUND_LABELS
-from labels import company_key, company_label, difficulty_label, format_label
-from render import GENERATED_NOTICE, date_label, escape_cell, plural, sort_questions, table
+from catalog import Content, Question
+from labels import ROUND_LABELS, company_key, company_label, difficulty_label, format_label
+from render import GENERATED_NOTICE, date_label, escape_cell, table
 
 SITE = "https://trueinterview.io"
 
@@ -57,19 +48,9 @@ REPO = "https://github.com/kevin-2023-code/Tech-Interview-Questions"
 #: programming routes into the algorithm workspace, so it is judged too.
 JUDGED = frozenset({"algorithm", "object-oriented-programming", "sql"})
 
-#: A guide shorter than this is a prompt filed as an article, not a writeup, and
-#: gets no page of its own: a page of two sentences is what makes a repository
-#: look scraped. It is still listed, linking to the site.
-MIN_GUIDE_CHARS = 600
-
-#: How much of the interview-process guide the company home quotes before
-#: "Read the full process". The first section is the loop itself.
-PROCESS_EXCERPT_CHARS = 3500
-
 MAX_NAME_CHARS = 72
 
 _UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
-PROCESS_SUFFIX = "interview-process"
 
 
 def slugify(text: str) -> str:
@@ -83,17 +64,6 @@ def _readable(slug: str, title: str) -> str:
 
 
 # ── paths ────────────────────────────────────────────────────────────────────
-
-
-@dataclass(frozen=True)
-class GuidePlan:
-    """Where one guide lives here, if anywhere, and what kind it is."""
-
-    guide: Guide
-    company: str | None  # the company home it is filed under
-    kind: str  # "process" | "role" | "guide"
-    role: str | None
-    path: str | None  # None: listed, but no page of its own
 
 
 def assign_paths(
@@ -129,71 +99,6 @@ def assign_paths(
 
 def question_path(registry: dict[str, str], question: Question) -> str:
     return f"{registry[f'question:{question.slug}']}/README.md"
-
-
-def _process_role(guide: Guide) -> tuple[str, str | None] | None:
-    """``("process", None)``, ``("role", "software-engineer")`` or ``None``.
-
-    The site names a company's process guide ``<company>-interview-process`` and
-    a role's ``<company>-<role>-interview-process``, where ``<company>`` is the
-    STORED company value (``akunacapital``, ``scale.ai``), not this repository's
-    page key — so the prefix is derived from the raw values the guide carries.
-    """
-    if not guide.slug.endswith(PROCESS_SUFFIX):
-        return None
-    stem = guide.slug[: -len(PROCESS_SUFFIX)].rstrip("-")
-    for raw in guide.companies:
-        # `Akuna Capital` is stored as `akunacapital`: try the slug both with and
-        # without its word breaks, so a display name matches as well as a raw value.
-        for prefix in dict.fromkeys((slugify(raw), slugify(raw).replace("-", ""))):
-            if stem == prefix:
-                return "process", None
-            if stem.startswith(prefix + "-"):
-                return "role", stem[len(prefix) + 1 :]
-    return None
-
-
-def plan_guides(
-    guides: Sequence[Guide],
-    homes: frozenset[str],
-    content: Content | None,
-    registry: dict[str, str],
-    api_labels: dict[str, str],
-) -> tuple[list[GuidePlan], dict[str, str]]:
-    """Decide where every guide goes. Returns the plans and the updated registry."""
-    bodies = content.articles if content else {}
-    plans: list[GuidePlan] = []
-    wanted: list[tuple[str, str, str]] = []
-    taken_process: set[tuple[str, str | None]] = set()
-    pending: list[tuple[Guide, str | None, str, str | None]] = []
-    for guide in sorted(guides, key=lambda g: g.slug):
-        home = next(
-            (key for key in (company_key(c, api_labels) for c in guide.companies) if key in homes),
-            None,
-        )
-        kind, role = "guide", None
-        detected = _process_role(guide) if home else None
-        if detected and (home, detected[1]) not in taken_process:
-            kind, role = detected
-            taken_process.add((home, role))
-        pending.append((guide, home, kind, role))
-        body = bodies.get(guide.slug)
-        # A guide filed under no company home gets no page: nothing here would
-        # link to it, and the guides index already points at the site.
-        if kind == "guide" and home and body is not None and len(body) >= MIN_GUIDE_CHARS:
-            wanted.append((f"guide:{guide.slug}", f"companies/{home}/guides", _readable(guide.slug, guide.title)))
-    registry = assign_paths(registry, wanted)
-    for guide, home, kind, role in pending:
-        path = None
-        if guide.slug in bodies:
-            if kind == "process":
-                path = f"companies/{home}/interview-process.md"
-            elif kind == "role":
-                path = f"companies/{home}/interview-process-{role}.md"
-            elif home and f"guide:{guide.slug}" in registry and len(bodies[guide.slug]) >= MIN_GUIDE_CHARS:
-                path = f"{registry[f'guide:{guide.slug}']}.md"
-        plans.append(GuidePlan(guide=guide, company=home, kind=kind, role=role, path=path))
-    return plans, registry
 
 
 # ── bodies ───────────────────────────────────────────────────────────────────
@@ -237,15 +142,6 @@ def demote_headings(markdown: str) -> str:
     return "\n".join(out)
 
 
-def process_excerpt(markdown: str) -> tuple[str, bool]:
-    """The opening of a process guide — up to its second section — and whether it was cut."""
-    headings = [m.start() for m in re.finditer(r"^## ", markdown, re.M)]
-    end = headings[1] if len(headings) > 1 else len(markdown)
-    if end > PROCESS_EXCERPT_CHARS:
-        cut = markdown.rfind("\n\n", 0, PROCESS_EXCERPT_CHARS)
-        end = cut if cut > 0 else PROCESS_EXCERPT_CHARS
-    return markdown[:end].rstrip(), end < len(markdown.rstrip())
-
 
 # ── pieces ───────────────────────────────────────────────────────────────────
 
@@ -260,8 +156,8 @@ def footer(path: str) -> str:
     issues = f"{REPO}/issues/new?template=correction.yml"
     return (
         "---\n\n"
-        f"<sub>From [TrueInterview]({SITE}) — an index of its question bank and company interview "
-        f"guides, with the well-known questions in full, synced every hour. Text licensed [CC BY 4.0]({LICENSE_URL}): share or adapt it anywhere, "
+        f"<sub>From [TrueInterview]({SITE}): interview questions by company, with the well-known ones "
+        f"in full. Text licensed [CC BY 4.0]({LICENSE_URL}): share or adapt it anywhere, "
         f"crediting TrueInterview with a link back ([how]({_root(path)}LICENSE-CONTENT.md)). "
         f"[Report a problem with this page]({issues}).</sub>\n"
     )
@@ -369,192 +265,25 @@ def question_page(
     return "\n".join(lines)
 
 
-def guide_page(plan: GuidePlan, body_md: str, name: str, key: str | None, local: dict[str, str],
-               siblings: Sequence[GuidePlan] = ()) -> str:
-    path = plan.path
-    assert path is not None
-    guide = plan.guide
-    root = _root(path)
-    if key:
-        home = posixpath.relpath(f"companies/{key}/README.md", posixpath.dirname(path))
-        stats = posixpath.relpath(f"companies/{key}.md", posixpath.dirname(path))
-        back = (
-            f"[← {escape_cell(name)}]({home}) · [Every {escape_cell(name)} question]({stats}) · "
-            f"[Read it on TrueInterview]({guide.url})"
-        )
-    else:
-        back = f"[← All guides]({root}guides/README.md) · [Read it on TrueInterview]({guide.url})"
-    lines = [GENERATED_NOTICE, "", f"# {guide.title}", "", back, ""]
-    if guide.tags:
-        lines += [" ".join(f"`{escape_cell(tag)}`" for tag in guide.tags), ""]
-    roles = [s for s in siblings if s.kind == "role" and s.path]
-    if plan.kind == "process" and roles:
-        lines += [
-            "**By role:** "
-            + " · ".join(
-                f"[{escape_cell(_role_label(s.role))}]({posixpath.relpath(s.path, posixpath.dirname(path))})"
-                for s in roles
-            ),
-            "",
-        ]
-    lines += ["---", "", rewrite_links(body_md, path, local), "", footer(path)]
-    return "\n".join(lines)
-
-
-def _role_label(role: str | None) -> str:
-    words = (role or "").split("-")
-    small = {"ai": "AI", "ml": "ML", "sre": "SRE"}
-    return " ".join(small.get(w, w.capitalize()) for w in words if w)
-
-
-def company_home(
-    *,
-    key: str,
-    name: str,
-    questions: Sequence[Question],
-    plans: Sequence[GuidePlan],
-    content: Content | None,
-    local: dict[str, str],
-    registry: dict[str, str],
-    today: date,
-) -> str:
-    path = f"companies/{key}/README.md"
-    free = [q for q in sort_questions(questions, today) if q.access_tier == "free"]
-    readable = [q for q in free if content and q.slug in content.questions]
-    process = next((p for p in plans if p.kind == "process"), None)
-    roles = [p for p in plans if p.kind == "role"]
-    others = [p for p in plans if p.kind == "guide"]
-    dated = [q.reported_date for q in questions if q.reported_date and q.reported_date <= today]
-
-    glance = table(
-        ["", ""],
-        [":--", ":--"],
-        [
-            ["Questions reported", f"[{len(questions):,}](../{key}.md)"],
-            ["Free with an account", f"{len(free):,}"],
-            ["Statement published here", f"{len(readable):,}"],
-            ["Interview-process guides", f"{int(process is not None) + len(roles)}"],
-            ["Other guides", f"{len(others):,}"],
-            ["Most recent sighting", date_label(max(dated)) if dated else "—"],
-        ],
-    )
-    lines = [
-        GENERATED_NOTICE,
-        "",
-        f"# {name} interview process & questions",
-        "",
-        f"How {escape_cell(name)} interviews, and the questions candidates reported there. Well-known questions "
-        "are published here with their statement; everything else links to TrueInterview.",
-        "",
-        f"[← All companies](../README.md) · [Every {escape_cell(name)} question, with statistics](../{key}.md) · "
-        f"[Practise on TrueInterview]({SITE}/problems/company/{key})",
-        "",
-        glance,
-        "",
-        f"## How {name} interviews",
-        "",
-    ]
-    process_body = content.articles.get(process.guide.slug) if (content and process) else None
-    if process and process.path and process_body:
-        excerpt, cut = process_excerpt(process_body)
-        lines += [
-            rewrite_links(demote_headings(excerpt), path, local),
-            "",
-            f"**[Read the full {escape_cell(name)} interview process →](interview-process.md)**"
-            if cut
-            else f"<sub>From [{escape_cell(process.guide.title)}](interview-process.md).</sub>",
-            "",
-        ]
-    elif process:
-        lines += [f"[{escape_cell(process.guide.title)}]({process.guide.url}) — the full guide, on TrueInterview.", ""]
-    else:
-        lines += [
-            f"No written process guide yet. [The loop, as reported](../{key}.md#the-loop-as-reported) counts which "
-            "round each reported question came from.",
-            "",
-        ]
-    if roles:
-        lines += [
-            "**By role:** "
-            + " · ".join(
-                f"[{escape_cell(_role_label(p.role))}]({posixpath.relpath(p.path, f'companies/{key}') if p.path else p.guide.url})"
-                for p in roles
-            ),
-            "",
-        ]
-
-    lines += [f"## Free {name} questions", ""]
-    if free:
-        rows = []
-        for q in free:
-            target = (
-                posixpath.relpath(question_path(registry, q), f"companies/{key}")
-                if content and q.slug in content.questions and f"question:{q.slug}" in registry
-                else q.url
-            )
-            rows.append(
-                [
-                    f"[{escape_cell(q.title)}]({target})",
-                    format_label(q.type),
-                    difficulty_label(q.difficulty) or "—",
-                    _rounds(q),
-                    _reported(q),
-                    f"[Solve]({q.url})",
-                ]
-            )
-        lines += [
-            f"{plural(len(free), 'question')} reported at {escape_cell(name)} open without a paid plan"
-            + (" — the statement and hints are on each linked page here." if readable else ".")
-            + " Newest sighting first.",
-            "",
-            table(["Question", "Format", "Difficulty", "Round", "Reported", ""],
-                  [":--", ":--", ":-:", ":--", ":--", ":--"], rows),
-            "",
-        ]
-    else:
-        lines += ["None of the questions reported here is on the free tier yet.", ""]
-
-    if others:
-        lines += [f"## Guides", ""]
-        guide_rows = []
-        for p in sorted(others, key=lambda p: p.guide.title.casefold()):
-            target = posixpath.relpath(p.path, f"companies/{key}") if p.path else p.guide.url
-            guide_rows.append(
-                [f"[{escape_cell(p.guide.title)}]({target})", escape_cell(", ".join(p.guide.tags)) or "—"]
-            )
-        lines += [table(["Guide", "Tags"], [":--", ":--"], guide_rows), ""]
-
-    lines += [
-        "## Everything else",
-        "",
-        f"- [All {len(questions):,} questions reported at {escape_cell(name)}](../{key}.md) — the loop by round, "
-        "topics, what was asked in the last 90 days, and where to start.",
-        f"- [Practise every {escape_cell(name)} question on TrueInterview]({SITE}/problems/company/{key}).",
-        "",
-        footer(path),
-    ]
-    return "\n".join(lines)
-
-
 def questions_index(publishable: Sequence[Question], registry: dict[str, str], api_labels: dict[str, str]) -> str:
-    """``questions/README.md``: every free question published here, by format, easiest first."""
+    """``questions/README.md``: every question published here, by format, easiest first."""
     path = "questions/README.md"
     lines = [
         GENERATED_NOTICE,
         "",
-        "# Free interview questions",
+        "# Interview questions with full statements",
         "",
-        "The well-known questions in the TrueInterview bank — classics, and questions already public "
-        "elsewhere — published here with the statement and the hints. The reference solution, and an "
+        "The well-known questions in the TrueInterview bank (classics, and questions already public "
+        "elsewhere), published here with the statement and the hints. The reference solution, and an "
         "editor that runs your attempt against the hidden tests, are one click away on each page.",
         "",
-        "[← Question bank](../README.md) · [Companies](../companies/README.md) · "
-        "[Free questions, with statistics](../free/README.md)",
+        "[All companies](../README.md#companies)",
         "",
     ]
     if not publishable:
         lines += [
-            "[Every free question, by format and easiest first →](../free/README.md)",
+            "No statement is published in this snapshot. Every question is listed under its company in "
+            "[`companies/`](../README.md#companies).",
             "",
             footer(path),
         ]
@@ -591,15 +320,19 @@ def questions_index(publishable: Sequence[Question], registry: dict[str, str], a
 def render_content(
     *,
     questions: Sequence[Question],
-    guides: Sequence[Guide],
-    by_company: dict[str, tuple[str, list[Question]]],
+    homes: frozenset[str],
     content: Content | None,
     registry: dict[str, str],
     api_labels: dict[str, str],
-    today: date,
-) -> tuple[dict[str, str], dict[str, str], dict[str, int]]:
-    """Every content page. Returns ``(files, registry, stats)``."""
-    homes = frozenset(by_company)
+) -> tuple[dict[str, str], dict[str, str], dict[str, str], dict[str, int]]:
+    """Every content page.
+
+    Returns ``(files, registry, pages, stats)``. ``pages`` maps the slug of each
+    published question to its page, which is how a company row knows to link
+    here instead of at the site. With no export (``content is None``) nothing
+    but the index is rendered, and the registry is handed back untouched: every
+    path it has ever held stays reserved.
+    """
     bodies = content.questions if content else {}
 
     publishable = sorted(
@@ -610,52 +343,19 @@ def render_content(
         registry,
         [(f"question:{q.slug}", f"questions/{q.type}", _readable(q.slug, q.title)) for q in publishable],
     )
-    plans, registry = plan_guides(guides, homes, content, registry, api_labels)
-
-    local: dict[str, str] = {}
-    for q in publishable:
-        local[f"/questions/{q.slug}"] = question_path(registry, q)
-    for plan in plans:
-        if plan.path:
-            # Both spellings: the site serves an article at /study/<slug>, and its
-            # own guides link to one another as /questions/<slug>, which redirects.
-            local[f"/study/{plan.guide.slug}"] = plan.path
-            local[f"/questions/{plan.guide.slug}"] = plan.path
+    pages = {q.slug: question_path(registry, q) for q in publishable}
+    local = {f"/questions/{slug}": path for slug, path in pages.items()}
 
     files: dict[str, str] = {}
     for q in publishable:
         body = bodies[q.slug]
-        path = question_path(registry, q)
+        path = pages[q.slug]
         files[path] = question_page(q, body.content_md, body.hints, path, local, homes, api_labels)
-
-    plans_by_company: dict[str | None, list[GuidePlan]] = {}
-    for plan in plans:
-        plans_by_company.setdefault(plan.company, []).append(plan)
-    for plan in plans:
-        if plan.path and content:
-            key = plan.company
-            name = by_company[key][0] if key else ""
-            files[plan.path] = guide_page(
-                plan, content.articles[plan.guide.slug], name, key, local, plans_by_company.get(key, [])
-            )
-
-    for key, (name, rows) in by_company.items():
-        files[f"companies/{key}/README.md"] = company_home(
-            key=key,
-            name=name,
-            questions=rows,
-            plans=plans_by_company.get(key, []),
-            content=content,
-            local=local,
-            registry=registry,
-            today=today,
-        )
 
     files["questions/README.md"] = questions_index(publishable, registry, api_labels)
 
     stats = {
         "question_pages": len(publishable),
-        "guide_pages": sum(1 for p in plans if p.path),
         "dropped": content.dropped if content else 0,
     }
-    return files, registry, stats
+    return files, registry, pages, stats

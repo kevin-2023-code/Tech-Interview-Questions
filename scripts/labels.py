@@ -173,3 +173,16 @@ def difficulty_label(difficulty: str | None) -> str | None:
     if not difficulty:
         return None
     return DIFFICULTY_LABELS.get(difficulty, titleize(difficulty))
+
+
+#: Interview rounds, as the catalog stores them, with the words a reader uses.
+ROUND_LABELS: dict[str, str] = {
+    "oa": "Online assessment",
+    "phone-screen": "Phone screen",
+    "onsite": "Onsite / virtual onsite",
+    "take-home": "Take-home",
+}
+
+
+def round_label(value: str) -> str:
+    return ROUND_LABELS.get(value, titleize(value))

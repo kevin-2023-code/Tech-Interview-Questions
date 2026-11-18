@@ -1,0 +1,114 @@
+Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Large-File Video Upload,System Design,Medium,Phone screen,1,2026-09-28,https://trueinterview.io/questions/system-design-large-file-video-upload
+Valid Parentheses with a Follow-Up,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-09-25,https://trueinterview.io/questions/valid-parentheses-with-follow-up
+Logger Handler Pipeline,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-09-25,https://trueinterview.io/questions/logger-handler-pipeline
+Resume / Project Deep Dive (HM or Tech Screen Opener),Blog,,Phone screen; Onsite / virtual onsite,1,2026-09-19,https://trueinterview.io/questions/resume-project-deep-dive
+Troubleshoot a Frontend Failure in a Client-Server Application,Blog,,Onsite / virtual onsite,1,2026-09-11,https://trueinterview.io/questions/troubleshoot-a-frontend-failure-in-a-client-server-application
+Count Islands and Return the Largest Island Size,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-11,https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size
+Classify Tree Nodes in SQL,SQL,Medium,Phone screen,1,2026-09-09,https://trueinterview.io/questions/classify-tree-nodes-in-sql
+Find Global and Rolling Top-K URLs Under a Memory Limit,System Design,Hard,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit
+Design a Five-Minute Top-K Error Log Service,System Design,Hard,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service
+GPU Health and Repair,System Design,Hard,Onsite / virtual onsite,1,2026-09-03,https://trueinterview.io/questions/system-design-gpu-health-repair
+Accounts Merge (LC 721),Algorithm,Hard,Onsite / virtual onsite,1,2026-08-28,https://trueinterview.io/questions/accounts-merge-lc721
+Take Ownership Through Ambiguity,Blog,,Onsite / virtual onsite,1,2026-08-21,https://trueinterview.io/questions/take-ownership-through-ambiguity
+Resolve Conflict Within a Team,Blog,,Onsite / virtual onsite,1,2026-08-21,https://trueinterview.io/questions/resolve-conflict-within-a-team
+Prioritize Two Critical Tasks,Blog,,Onsite / virtual onsite,1,2026-08-21,https://trueinterview.io/questions/prioritize-two-critical-tasks
+Demonstrate Leadership and Ownership,Blog,,Onsite / virtual onsite,1,2026-08-21,https://trueinterview.io/questions/demonstrate-leadership-and-ownership
+Communicate a Difficult Decision to Stakeholders,Blog,,Onsite / virtual onsite,1,2026-08-21,https://trueinterview.io/questions/communicate-a-difficult-decision-to-stakeholders
+Rank Departments by Student Count,SQL,Easy,Onsite / virtual onsite,1,2026-08-21,https://trueinterview.io/questions/rank-departments-by-student-count
+Healthcare Data Ingestion Pipeline,System Design,Hard,Onsite / virtual onsite,1,2026-08-19,https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline
+Design an Internal Metrics Ingestion Service,System Design,Medium,Onsite / virtual onsite,1,2026-08-14,https://trueinterview.io/questions/design-an-internal-metrics-ingestion-service
+Design a Synchronously Replicated Hash Map,System Design,Medium,Onsite / virtual onsite,1,2026-08-14,https://trueinterview.io/questions/design-a-synchronously-replicated-hash-map
+Design a Software Load Balancer,System Design,Medium,Onsite / virtual onsite,1,2026-08-14,https://trueinterview.io/questions/design-a-software-load-balancer
+Who Made Quota?,SQL,Easy,Onsite / virtual onsite,1,2026-08-13,https://trueinterview.io/questions/who-made-quota
+Data-Center Camera Access Incident Response,Blog,,Onsite / virtual onsite,1,2026-08-11,https://trueinterview.io/questions/data-center-camera-access-incident-response
+Two-Value Exchange Warm-Up,Algorithm,Easy,Onsite / virtual onsite,1,2026-08-10,https://trueinterview.io/questions/swap-two-values-without-temp
+Run-Length String Compression,Algorithm,Easy,Onsite / virtual onsite,1,2026-08-10,https://trueinterview.io/questions/run-length-string-compression
+Insert Interval (LC 57),Algorithm,Medium,Phone screen,3,2026-07-28,https://trueinterview.io/questions/insert-interval
+"Evaluate Subjective, Nondeterministic Agent Outputs",Blog,,Phone screen,1,2026-07-18,https://trueinterview.io/questions/evaluate-subjective-agent-outputs
+Behavioral & Bar Raiser BQ Set,Blog,,Phone screen; Onsite / virtual onsite,1,2026-06-08,https://trueinterview.io/questions/behavioral-bq-bar-raiser
+Sparse Matrix Operation,Object Oriented Programming,Medium,Phone screen,2,2026-05-26,https://trueinterview.io/questions/sparse-matrix-class
+Design Dropbox,System Design,Hard,Phone screen; Onsite / virtual onsite,5,2026-05-03,https://trueinterview.io/questions/design-dropbox
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,14,2026-05,https://trueinterview.io/questions/sliding-window-rate-limiter
+Minimum Swaps to Group Evens First,Algorithm,Medium,Onsite / virtual onsite,2,2026-04-14,https://trueinterview.io/questions/sort-array-by-parity-min-swaps
+Number of Islands (LC 200),Algorithm,Medium,Phone screen,1,2026-04-14,https://trueinterview.io/questions/number-of-islands-4
+Monotone Increasing Digits II,Algorithm,Medium,Onsite / virtual onsite,1,2026-04-14,https://trueinterview.io/questions/monotone-increasing-digits
+Same N-ary Tree Comparison,Algorithm,Easy,Onsite / virtual onsite,1,2026-04-14,https://trueinterview.io/questions/same-nary-tree-comparison
+LRU Cache with Expiration,Object Oriented Programming,Medium,Onsite / virtual onsite,2,2026-04-14,https://trueinterview.io/questions/lru-cache-with-expiration
+Time Based Key-Value Store,Algorithm,Medium,Onsite / virtual onsite,6,2026-03-20,https://trueinterview.io/questions/time-based-key-value-store-2
+Compute letter frequencies from encoded string,Algorithm,Medium,Phone screen,1,2026-03-01,https://trueinterview.io/questions/compute-letter-frequencies-from-encoded-string
+VM Health Monitoring at 1M Scale,System Design,Hard,Onsite / virtual onsite,1,2026-02-13,https://trueinterview.io/questions/system-design-vm-health-monitoring
+Video Upload + Search with LLM,System Design,Hard,Phone screen,1,2026-02-13,https://trueinterview.io/questions/system-design-video-upload-search
+Valid Parentheses,Algorithm,Easy,Phone screen,14,2026-02-07,https://trueinterview.io/questions/valid-parentheses
+Verbal Java / CS-Fundamentals Quiz,Blog,,Phone screen; Onsite / virtual onsite,1,2026-02-04,https://trueinterview.io/questions/verbal-java-cs-fundamentals
+Simplified Redis-Like KV / List Store,Object Oriented Programming,Medium,Phone screen,1,2026-02-04,https://trueinterview.io/questions/simplified-redis-kv-store
+Hospital Appointment Booking API,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-02-04,https://trueinterview.io/questions/hospital-appointment-booking-api
+Apply List of Operations (Command Pattern),Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-02-03,https://trueinterview.io/questions/apply-operations-command-pattern
+Design a ride-sharing system (Uber),System Design,Hard,Onsite / virtual onsite,2,2026-01-26,https://trueinterview.io/questions/design-a-ride-sharing-system-uber
+LRU Cache + Thread-Safe Follow-up,Object Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,6,2026-01-22,https://trueinterview.io/questions/coding-lru-cache-multithread
+Sparse Matrix Multiplication,Algorithm,Medium,Phone screen,2,2026-01-22,https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication
+Multi-Head Attention (from scratch),Algorithm,Hard,Phone screen,1,2026-01-22,https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-multi-head-attention-from-scratch
+Handwritten MHA and Sparse Matmul,AI Coding,Hard,Phone screen,1,2026-01-22,https://trueinterview.io/questions/ml-coding-mha-sparse-matmul
+Sqrt(x),Algorithm,Easy,Phone screen,3,2026-01-22,https://trueinterview.io/questions/sqrt-x
+Most Frequent Substring,Algorithm,Medium,Phone screen,2,2026-01-19,https://trueinterview.io/questions/most-frequent-substring
+Count Interior Islands After Flooding,Algorithm,Medium,Phone screen,1,2026-01-09,https://trueinterview.io/questions/count-interior-islands-after-flooding
+Container With Most Water,Algorithm,Medium,Phone screen,1,2026-01-06,https://trueinterview.io/questions/container-with-most-water-2
+How do you tackle unfamiliar problems?,Blog,,Phone screen,1,2026-01-04,https://trueinterview.io/questions/how-do-you-tackle-unfamiliar-problems
+First-Login Only-Once User Tracker (O(1) Worst-Case),Object Oriented Programming,Medium,Phone screen,1,2025-12-01,https://trueinterview.io/questions/first-unique-login-tracker
+Dropped Requests (Rate Limiter),Algorithm,Medium,Phone screen,2,2025-11-29,https://trueinterview.io/questions/dropped-requests-rate-limiter
+Reduce The Maximum To Even K Times,Algorithm,Medium,Onsite / virtual onsite,1,2025-11-24,https://trueinterview.io/questions/reduce-the-maximum-to-even-k-times
+Product Price Tracker,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2025-11-24,https://trueinterview.io/questions/product-price-tracker
+Palindrome Check with Ignore Set,Algorithm,Easy,Online assessment,1,2025-11-24,https://trueinterview.io/questions/palindrome-check-with-ignore-set
+Find the K-th Highest Debit,Algorithm,Medium,Onsite / virtual onsite,1,2025-11-24,https://trueinterview.io/questions/find-the-k-th-highest-debit
+Eliminate Adjacent Duplicate Characters,Algorithm,Medium,Online assessment,1,2025-11-24,https://trueinterview.io/questions/eliminate-adjacent-duplicate-characters
+Circular Prime Number Check,Algorithm,Medium,Onsite / virtual onsite,1,2025-11-24,https://trueinterview.io/questions/circular-prime-number-check
+Anagram Word Replacement in Phrases,Algorithm,Medium,Phone screen,1,2025-11-21,https://trueinterview.io/questions/anagram-phrase-replacement
+"Merge K Sorted (Key, Value) Lists with Later Override",Algorithm,Medium,Phone screen,1,2025-11-20,https://trueinterview.io/questions/merge-k-sorted-key-value-lists
+Course Scheduler — Print Path (Simplified),Algorithm,Easy,Phone screen,1,2025-11-19,https://trueinterview.io/questions/course-scheduler-simplified
+Decode String (k[encoded]),Algorithm,Medium,Phone screen,3,2025-11-17,https://trueinterview.io/questions/decode-string-lc394
+Poker Straight Sequence Check,Algorithm,Easy,Phone screen,1,2025-10-22,https://trueinterview.io/questions/valid-poker-straight
+File Management System,Object Oriented Programming,Medium,Phone screen,1,2025-09-16,https://trueinterview.io/questions/ood-file-management-system
+Trie-Based Autocomplete,Object Oriented Programming,Easy,Onsite / virtual onsite,1,2025-09-15,https://trueinterview.io/questions/trie-autocomplete
+Treatment Frequency Scheduler,Object Oriented Programming,Medium,Phone screen,1,2025-09-15,https://trueinterview.io/questions/ood-treatment-scheduler
+Log Parser with Multi-Line Follow-up,Algorithm,Medium,Phone screen,1,2025-08-06,https://trueinterview.io/questions/log-parser-multiline
+Binary Search — Rightmost Index of Duplicate,Algorithm,Medium,Phone screen,1,2025-07-07,https://trueinterview.io/questions/binary-search-rightmost-duplicate
+Simplify Expression,Algorithm,Medium,Onsite / virtual onsite,3,2025-06-10,https://trueinterview.io/questions/simplify-parentheses-expression
+Maximum Completable Tasks with Prerequisites (Topological),Algorithm,Medium,Phone screen,1,2025-04-02,https://trueinterview.io/questions/course-prerequisites-task-count
+Body-Temperature Measurement Classes,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2025-01-15,https://trueinterview.io/questions/ood-patient-temperature-classes
+Event Ingestion + Top-K Aggregation,System Design,Medium,Onsite / virtual onsite,1,2025-01-15,https://trueinterview.io/questions/system-design-event-ingestion-topk
+Detect a Cycle in a Directed Graph,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/dd2c77a9-9d96-5ffd-a303-755aee03b614
+Sum of Root To Leaf Binary Numbers,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/dc973cce-cdef-5be4-b8d4-83e37296c291
+Find Course Order,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/d595d212-9c6c-597e-aabe-752c6e2dc8a2
+Top K Frequent Elements with Descending Value Tie-Break,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/fafdcfea-e85a-522c-a5d1-256c48782c32
+Enumerate All Valid Grid Paths,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/f945df71-38ee-5506-a41b-2b5b1c7306d2
+Remove Duplicates from Sorted Array with At Most K Occurrences,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/f7139943-c5e6-5db3-bf8d-4694427d4b5f
+Maximum Subarray Sum with Length at Most K,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/c950578d-97d8-5e4e-a160-d010bbf52edb
+Remove Even-Positioned Nodes from a Singly Linked List,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/c88afd74-8f74-56e2-87d5-312fdedc5a14
+Partition Unique Cards into Consecutive Groups,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/aba5156b-30b3-5dd5-9d57-7e426f0d66ca
+Partition a String into Exactly Three Palindromic Substrings,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/99e7fc90-247c-5818-b72b-a1d00c992fe8
+Lexicographically Maximum Substring,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/97363544-69e6-5318-bbe1-a937ccd198fe
+Add One to a Number Represented by Digits Without ArrayList,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/928c453b-ec05-5a5d-ab6c-58c7147da117
+Maximum Height of Each Island,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/712ca994-03d3-589e-9d9b-9ea213f907da
+Deploy Packages in Dependency Order,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/610c4faf-c13d-5349-80df-fc912257f0c4
+Bottom View of a Binary Tree,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/584d665b-bb3f-5462-8bf1-69df5c516571
+Maximum of Minimums of Every Window,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/4ffe3fac-ea66-5d5f-8331-b09736fb1392
+Maximum Movie Rating with No Two Consecutive Skips,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/425e7c94-efc5-5797-afd4-194d39da160c
+Replace a Range of Nodes in a Linked List,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/3ff8e86f-0abd-5967-bf35-5f1aac1c42e6
+Valid Parenthesis String,Algorithm,Hard,Phone screen,2,,https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463
+Dropped Requests Rate Limiter II,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/3cf3a0aa-2d80-5652-bb0d-975c8f3fd6ec
+Spiral Matrix (LC 54),Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/spiral-matrix-lc54
+Generate all permutations of a list,Algorithm,Easy,Online assessment,2,,https://trueinterview.io/questions/55b47ffb-5c4d-4c32-b3fc-350263687e62
+Swap Two Variables Without Using Temporary Variable,Algorithm,Easy,Online assessment,2,,https://trueinterview.io/questions/68870b4c-8508-4508-88c9-186133ebadf8
+Binary Tree Paths With Target Sum,Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/7c3b95ff-ace7-5377-a58a-332635b2b2e7
+Best Time to Buy and Sell Stock,Algorithm,Easy,Online assessment,2,,https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761
+Missing Number,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object Oriented Programming,Medium,Onsite / virtual onsite,10,,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Maximum on Both Sides,Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998
+Find Users with Valid Login Sessions,Algorithm,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/a780c95b-69ec-4029-b04a-55101695e5d1
+List All LRU Cache Possibilities,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/8783a1ff-f1f9-404a-b4d1-d006ae36d2a1
+Maximum Product Subarray in O(n) Time,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/7b99193e-c69f-4941-a0be-8ccf49a291c8
+Implement Queue using Two Stacks,Object Oriented Programming,Medium,Onsite / virtual onsite,3,,https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313
+Token Expiry and Reset Management Problem,Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579
+Remove All Adjacent Duplicates in String II,Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc
+Minimum Add to Make Parentheses Valid,Algorithm,Easy,Online assessment,3,,https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de
+Design and Implement an In-Memory Cache with Eviction and Memory Bound,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374

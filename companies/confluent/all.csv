@@ -1,0 +1,31 @@
+Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Design an RSS News Feed Service,System Design,Medium,Onsite / virtual onsite,1,2026-04-29,https://trueinterview.io/questions/design-an-rss-news-feed-service
+Design a News Feed and Mail Service,System Design,Hard,Onsite / virtual onsite,1,2026-02-22,https://trueinterview.io/questions/design-a-news-feed-and-mail-service
+Function signature matching,Algorithm,Medium,Onsite / virtual onsite,1,2026-02-22,https://trueinterview.io/questions/solve-signature-file-and-queue-problems-function-signature-matching
+Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,16,2026-01-14,https://trueinterview.io/questions/design-news-feed
+Search Words and Phrases in a Large Line-Oriented File,System Design,Medium,Onsite / virtual onsite,1,2026-01-01,https://trueinterview.io/questions/search-words-and-phrases-in-a-large-line-oriented-file
+Implement tail -n for a Very Large File,Algorithm,Hard,Onsite / virtual onsite,1,2026-01-01,https://trueinterview.io/questions/implement-tail-n-for-a-very-large-file
+"Explain Linux Command Execution, Filesystems, and Isolation",Blog,,Onsite / virtual onsite,1,2026-01-01,https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation
+Design an LRU Cache with a Constant-Time Average,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-01-01,https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average
+Durable Key-Value Store Serialization,Object Oriented Programming,Easy,Onsite / virtual onsite,10,2025-11-08,https://trueinterview.io/questions/durable-key-value-store-serialization
+Design TinyURL,System Design,Easy,Phone screen,10,2025-10-15,https://trueinterview.io/questions/design-tinyurl
+Design Infinite Queue with GetRandom O(1),Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-infinite-queue-with-getrandom-o-1
+Design Delayed Tasks Scheduler,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/design-delayed-tasks-scheduler
+Design Spotify,System Design,Medium,Onsite / virtual onsite,7,,https://trueinterview.io/questions/design-spotify-2
+Design A Kafka-like Distributed Message Queue,System Design,Hard,Onsite / virtual onsite,4,,https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue
+Windowed Key-Value Store,Object Oriented Programming,Hard,Phone screen,1,,https://trueinterview.io/questions/windowed-key-value-store
+Wildcard Matching,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,,https://trueinterview.io/questions/wildcard-matching
+Monsters Battle,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/monsters-battle
+Rank Songs by Popularity,Algorithm,Medium,Online assessment,2,,https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49
+Design Scalable TinyURL Service with One-to-One URL Mapping,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a
+Minimum Menu Order Cost I,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20
+Minimum Value to Get Positive Step by Step Sum,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd
+Message Logger,Object Oriented Programming,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e
+O(1) Key-Value Store with Average and Max Retrieval,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/f6664ca5-9a30-4110-a9b2-5d15940d61f2
+Retrieve Token List,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30
+Implement n-tail (return last n elements),Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4
+Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison,Object Oriented Programming,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b
+Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb
+Silent Sensor Detector (SensorHealth),Object Oriented Programming,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52
+Variadic Function Matching,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/11a4e0a4-82a6-4aa2-9265-eb5e09144062
+Tail N Lines,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417

@@ -1,0 +1,10 @@
+Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Keep GPUs Fed with an Efficient Data-Preparation Pipeline,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline
+Explain the Forward and Reverse Processes of Diffusion Models,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models
+Explain Mixture of Experts and Expert Parallelism,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism
+"Explain Adam, AdamW, and Decoupled Weight Decay",Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay
+Compare Tensor Parallelism and Pipeline Parallelism,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism
+Compare RMSNorm and LayerNorm in Transformer Blocks,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks
+Compare Reward-Model RLHF and Direct Preference Optimization,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization
+Design a PDF-to-Markdown Inference API,System Design,Hard,Phone screen,1,2026-04-16,https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api
+Compute Remaining GPUs With Switching Limits,Algorithm,Hard,Phone screen,1,2026-04-16,https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits

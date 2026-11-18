@@ -1,46 +1,17 @@
 #!/usr/bin/env python3
-"""Render the catalog into the markdown pages this repository publishes.
+"""Shared rendering helpers: cells, ordering, tables and the whole-bank exports.
 
-── Why this file is shaped the way it is ────────────────────────────────────
-
-A question bank on GitHub is read through GitHub's markdown renderer, and that
-renderer has a hard limit nobody sees coming: **it stops rendering a file at
-512,000 bytes** and prints a truncation notice instead of the rest. A repository
-whose whole catalog is one table in one README therefore has a ceiling built
-into it, and it gets slower the whole way up to that ceiling — one table of a
-few thousand rows is a multi-megabyte DOM on the landing page every visitor
-pays for before they have found anything.
-
-So the shape here is the opposite one: **the README is an index, and the rows
-live in shards.**
-
-  * ``README.md`` is capped at :data:`README_MAX_BYTES` and carries navigation
-    plus the newest :data:`README_LATEST_ROWS` sightings. It is the page every
-    visitor loads, so it is the page that must stay small.
-  * Rows live in ``companies/``, ``formats/`` and ``by-month/`` — three ways
-    into the same set, each a small file. Every generated page is capped at
-    :data:`PAGE_MAX_BYTES` and paginates into ``-2.md``, ``-3.md`` when it
-    would not fit, so no file can grow into the truncation limit no matter how
-    large the bank gets.
-  * ``data/`` carries the whole set once, machine-readable, as JSONL and CSV —
-    one row per line, sorted by slug, so a changed question is a one-line diff
-    rather than a rewritten file. That is also what keeps the repository small
-    to clone: a table sorted by DATE reorders every line whenever anything is
-    added, and an hourly job that rewrites a large file hourly is a repository
-    that grows without anyone adding anything.
-
-── Rules every renderer here holds ──────────────────────────────────────────
+Rules every renderer here holds:
 
   * **An unknown date is never printed as a date.** A question with no recorded
-    sighting shows ``—``, is sorted last, is never marked fresh, and does not
-    appear in ``by-month/`` at all. Falling back to the row's creation date
-    would publish the day we imported a question as the day someone was asked
-    it, which is a claim we cannot support.
+    sighting shows ``—`` (or an empty CSV cell), is sorted last, and appears in
+    no recency file. Falling back to the row's creation date would publish the
+    day we imported a question as the day someone was asked it.
   * **A cell is a mark, never prose.** Titles are escaped, never truncated into
     a different title.
   * **Rendering is pure and clock-injected.** ``today`` is an argument, there is
-    no randomness, and the same snapshot renders byte-identically every time —
-    which is what makes ``--check`` meaningful and what stops the hourly job
+    no randomness, and the same snapshot renders byte-identically every time,
+    which is what makes ``--check`` meaningful and what stops the scheduled job
     committing noise.
 """
 
@@ -51,45 +22,18 @@ import io
 import json
 from dataclasses import dataclass
 from datetime import date
-from typing import Callable, Iterable, Sequence
+from typing import Iterable, Sequence
 
-from catalog import Guide, Question
-from labels import (
-    DIFFICULTY_ORDER,
-    FORMAT_ORDER,
-    company_key,
-    company_label,
-    difficulty_label,
-    format_label,
-)
+from catalog import Question
+from labels import company_label
 
 # GitHub renders at most 512,000 bytes of a markdown file. Both caps below sit
-# well under it so that a bank several times today's size still renders whole —
-# the point is not to approach the limit safely, it is never to be near it.
+# well under it. The README is a short landing page; a company page is one
+# table, capped in rows (see ``company.TABLE_MAX_ROWS``) so it cannot reach the
+# byte cap however large the bank gets.
 GITHUB_RENDER_LIMIT = 512_000
-README_MAX_BYTES = 96_000
+README_MAX_BYTES = 32_000
 PAGE_MAX_BYTES = 192_000
-
-# How many of the newest sightings the landing page shows. Every one of them is
-# a row someone might click; past this a visitor is scrolling, not reading, and
-# the navigation below the table is the faster way to what they came for.
-README_LATEST_ROWS = 100
-
-# Companies named directly in the README's navigation. The rest are one click
-# away in `companies/README.md`, which has no row budget to defend.
-README_TOP_COMPANIES = 24
-
-# Rows per generated page before it paginates. Chosen so a page stays a fast
-# load on a phone rather than so it stays under the byte cap — the cap is the
-# backstop, this is the intent.
-ROWS_PER_PAGE = 250
-
-# A sighting this recent is marked. Both windows are the reference points a
-# candidate actually uses: "this cycle" and "this season".
-FIRE_DAYS = 14
-NEW_DAYS = 45
-
-MONTH_NAMES = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
 GENERATED_NOTICE = "<!-- Generated by scripts/sync.py. Do not edit by hand: the next sync overwrites it. -->"
 
@@ -102,14 +46,11 @@ class RenderResult:
     stats: dict[str, object]
 
 
-# ── cells ────────────────────────────────────────────────────────────────────
-
-
 def escape_cell(value: str) -> str:
     """Make arbitrary catalog text safe inside a markdown table cell.
 
     A pipe would end the cell and a bracket would start a link, so both are
-    replaced with their entities — the text renders identically and the table
+    replaced with their entities: the text renders identically and the table
     survives a title nobody sanitised on the way in. Backslashes go first, or
     escaping them afterwards would double-escape what the earlier rules wrote.
     """
@@ -123,51 +64,17 @@ def escape_cell(value: str) -> str:
     )
 
 
-def freshness_marker(reported: date | None, today: date) -> str:
-    """``🔥``/``🆕``/nothing, from the SIGHTING date only.
-
-    A question with no recorded sighting gets no marker. It is not stale — it is
-    unmeasured, and the two look identical on a page only if you let them.
-    """
-    if reported is None:
-        return ""
-    age = (today - reported).days
-    if age < 0:
-        return ""
-    if age <= FIRE_DAYS:
-        return "🔥 "
-    if age <= NEW_DAYS:
-        return "🆕 "
-    return ""
-
-
-def reported_cell(question: Question, today: date) -> str:
-    """The Reported column: a marked date, a month, or an honest dash."""
-    if question.reported_date is None:
-        return "—"
-    marker = freshness_marker(question.reported_date, today)
-    stamp = question.reported_date
-    if question.reported_is_month_only:
-        return f"{marker}{MONTH_NAMES[stamp.month - 1]} {stamp.year}"
-    return f"{marker}{MONTH_NAMES[stamp.month - 1]} {stamp.day:02d}, {stamp.year}"
-
-
 def _sort_key(question: Question, today: date) -> tuple:
     """Newest real sighting first, then future-dated, then undated.
 
-    Three buckets rather than two, and the middle one is the interesting one. A
-    sighting dated after today is a data-entry error upstream, and sorting purely
-    on the date would hand that error the top row of the landing page — the most
-    valuable slot in the repository, awarded to whichever row is most wrong. So a
-    future date loses its claim to *recent* while keeping everything else: it
-    still appears on its company page, its format page, and the month it claims,
-    where a page titled "Reported in Feb 2126" is a visible bug report rather
-    than a quiet correction. Dropping the row instead would hide the error from
-    the only people who can fix it.
+    A sighting dated after today is a data-entry error upstream, and sorting
+    purely on the date would hand that error the top row of every page. So a
+    future date loses its claim to *recent* while the row itself stays listed,
+    where the people who can fix it will see it.
 
-    Ties break down to the slug so the order is TOTAL. That matters more than it
-    looks: two questions that compared equal would be free to swap places between
-    syncs, and every swap is a committed diff on a file nobody changed.
+    Ties break down to the slug so the order is TOTAL: two questions that
+    compared equal would be free to swap places between syncs, and every swap
+    is a committed diff on a file nobody changed.
     """
     reported = question.reported_date
     if reported is None:
@@ -189,97 +96,8 @@ def sort_questions(questions: Iterable[Question], today: date) -> list[Question]
     return sorted(questions, key=lambda question: _sort_key(question, today))
 
 
-# ── tables ───────────────────────────────────────────────────────────────────
-
-Column = tuple[str, str, Callable[[Question], str]]  # header, alignment, cell
-
-
-def _company_cell(question: Question, api_labels: dict[str, str]) -> str:
-    if not question.companies:
-        return "—"
-    return " / ".join(escape_cell(company_label(c, api_labels)) for c in question.companies)
-
-
-def columns_for(view: str, api_labels: dict[str, str], today: date) -> list[Column]:
-    """The columns a view prints.
-
-    Each view drops the column it is already filtered by — a company page has no
-    Company column — which is most of why these files are small.
-    """
-    company: Column = ("Company", ":--", lambda q: f"**{_company_cell(q, api_labels)}**")
-    question: Column = (
-        "Question",
-        ":--",
-        lambda q: f"[{escape_cell(q.title)}]({q.url})",
-    )
-    fmt: Column = ("Format", ":--", lambda q: escape_cell(format_label(q.type)))
-    difficulty: Column = (
-        "Difficulty",
-        ":-:",
-        lambda q: difficulty_label(q.difficulty) or "—",
-    )
-    reported: Column = ("Reported", ":--", lambda q: reported_cell(q, today))
-
-    if view == "company":
-        return [question, fmt, difficulty, reported]
-    if view == "format":
-        return [company, question, difficulty, reported]
-    if view == "month":
-        return [company, question, fmt, difficulty]
-    if view == "free":
-        # The free pages are read as a study list rather than a news feed, so
-        # difficulty earns its column here: it is what decides which row you
-        # open first, and the list is already ordered by it.
-        return [question, company, difficulty, reported]
-    # The README, which is the one table read on a phone more often than not.
-    # Four columns fit ~400px; the fifth (difficulty) wrapped every title onto
-    # three lines to carry one word that is on the company page anyway.
-    return [company, question, fmt, reported]
-
-
-def render_table(questions: Sequence[Question], cols: Sequence[Column]) -> str:
-    header = "| " + " | ".join(name for name, _, _ in cols) + " |"
-    divider = "| " + " | ".join(align for _, align, _ in cols) + " |"
-    rows = ["| " + " | ".join(cell(q) for _, _, cell in cols) + " |" for q in questions]
-    return "\n".join([header, divider, *rows])
-
-
-# ── statistics cells ─────────────────────────────────────────────────────────
-
-
-def percent(count: int, of: int, *, places: int = 0) -> str:
-    """``count`` as a share of ``of`` — or ``—`` when there is no denominator.
-
-    A share of nothing is unmeasured, and printing it as ``0%`` states that a
-    thing was measured and found absent. Every other renderer here holds the
-    same line for dates; a statistic is not the place to give it up.
-    """
-    if of <= 0:
-        return "—"
-    value = 100.0 * count / of
-    return f"{value:.{places}f}%"
-
-
-def bar(value: int, largest: int, *, width: int = 16) -> str:
-    """A block bar for a table cell, scaled against the biggest row.
-
-    Text rather than an image: it survives GitHub's markdown, costs no request,
-    and reads the same in both themes. A non-zero value always gets at least one
-    block, because a row that exists and renders as nothing is worse than no bar.
-    """
-    if largest <= 0 or value <= 0:
-        return ""
-    filled = max(1, round(width * value / largest))
-    return "█" * filled
-
-
 def table(headers: Sequence[str], aligns: Sequence[str], rows: Iterable[Sequence[str]]) -> str:
-    """A markdown table from already-rendered cells.
-
-    The question tables go through `render_table`, which knows what a Question
-    is. The statistics pages count things that are not questions — topics,
-    months, rounds — so they need the plain shape as well.
-    """
+    """A markdown table from already-rendered cells."""
     lines = [
         "| " + " | ".join(headers) + " |",
         "| " + " | ".join(aligns) + " |",
@@ -289,22 +107,15 @@ def table(headers: Sequence[str], aligns: Sequence[str], rows: Iterable[Sequence
 
 
 def plural(count: int, singular: str, many: str | None = None) -> str:
-    """``1 question`` / ``12 questions``, with the count already formatted.
-
-    Worth a helper rather than an f-string at each site: this repository renders
-    a page per company, per format and per month, and the small ones are exactly
-    the pages where a count of one turns up. "**1 questions** with a sighting
-    recorded in May 2024" was live on four month pages.
-    """
+    """``1 question`` / ``12 questions``, with the count already formatted."""
     return f"{count:,} {singular if count == 1 else (many or singular + 's')}"
 
 
-def question_link(question: Question) -> str:
-    return f"[{escape_cell(question.title)}]({question.url})"
+MONTH_NAMES = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
 
 def date_label(stamp: date | None, *, month_only: bool = False) -> str:
-    """A date as this repository prints one, or ``—`` for an unknown."""
+    """A date as a question page prints one, or ``—`` for an unknown."""
     if stamp is None:
         return "—"
     if month_only:
@@ -312,186 +123,19 @@ def date_label(stamp: date | None, *, month_only: bool = False) -> str:
     return f"{MONTH_NAMES[stamp.month - 1]} {stamp.day:02d}, {stamp.year}"
 
 
-# ── pages ────────────────────────────────────────────────────────────────────
+def reported_label(question: Question) -> str:
+    """The sighting as the catalog recorded it: ``YYYY-MM-DD``, ``YYYY-MM`` or ``""``.
 
-
-def _page_path(base: str, page: int) -> str:
-    return f"{base}.md" if page == 1 else f"{base}-{page}.md"
-
-
-def _pager(base_name: str, page: int, pages: int) -> str:
-    """Prev/next links between the pages of one shard."""
-    if pages <= 1:
+    ISO so the column sorts as text in a spreadsheet, and month-only where the
+    catalog only knows the month: printing a day nobody reported would be an
+    invented fact.
+    """
+    stamp = question.reported_date
+    if stamp is None:
         return ""
-    links = []
-    if page > 1:
-        links.append(f"[← Page {page - 1}]({_page_path(base_name, page - 1).rsplit('/', 1)[-1]})")
-    links.append(f"Page {page} of {pages}")
-    if page < pages:
-        links.append(f"[Page {page + 1} →]({_page_path(base_name, page + 1).rsplit('/', 1)[-1]})")
-    return "<sub>" + " · ".join(links) + "</sub>"
-
-
-def render_shard(
-    *,
-    base: str,
-    title: str,
-    lede: str,
-    back: str,
-    questions: Sequence[Question],
-    cols: Sequence[Column],
-    today: date,
-    preamble: str = "",
-    preserve_order: bool = False,
-) -> dict[str, str]:
-    """One shard, paginated at :data:`ROWS_PER_PAGE`.
-
-    Returns every page it produced. A shard that fits is exactly one file, and
-    the ``-2.md`` suffix never appears for it — so a company whose count crosses
-    the threshold gains a file rather than renaming the one it had.
-
-    Sightings-newest-first by default, which is what every catalog shard wants.
-    `preserve_order` is for a shard whose lede promises a DIFFERENT order — the
-    free pages say "easiest first" — because a renderer that re-sorts what it
-    was handed makes a page contradict its own first sentence, and does it
-    where no caller can see.
-    """
-    ordered = list(questions) if preserve_order else sort_questions(questions, today)
-    chunks = [ordered[i : i + ROWS_PER_PAGE] for i in range(0, len(ordered), ROWS_PER_PAGE)] or [[]]
-    pages: dict[str, str] = {}
-    for index, chunk in enumerate(chunks, start=1):
-        pager = _pager(base, index, len(chunks))
-        body = [
-            GENERATED_NOTICE,
-            "",
-            f"# {title}",
-            "",
-            lede,
-            "",
-            back,
-            "",
-        ]
-        # The preamble rides on page 1 only. It is reference material about the
-        # shard as a whole, and repeating it above page 4 of a table would push
-        # the rows a reader paged forward to see off the top of the screen.
-        if index == 1 and preamble:
-            body += [preamble, ""]
-        if pager:
-            body += [pager, ""]
-        body += [render_table(chunk, cols), ""]
-        if pager:
-            body += [pager, ""]
-        pages[_page_path(base, index)] = "\n".join(body)
-    return pages
-
-
-# ── guides ───────────────────────────────────────────────────────────────────
-
-
-def guide_rows(
-    guides: Sequence[Guide],
-    api_labels: dict[str, str],
-    *,
-    with_company: bool,
-    preserve_order: bool = False,
-) -> str:
-    """A guide table. `with_company` is off on a company page, which is the company.
-
-    `preserve_order` is for a caller that has already ordered its rows and means
-    it — the *recently published* block, whose whole claim is that it is in date
-    order. Sorting inside a renderer silently overrides a caller's ordering, and
-    the caller cannot see that it happened.
-    """
-    # "Interview round" was a claim about the row's CONTENT that nothing here
-    # checks — the same endpoint carries worked problems and product reviews.
-    # The Topics column is the evidence; this column is just the title.
-    header = ["Writeup"] + ([] if not with_company else ["Company"]) + ["Topics"]
-    align = [":--"] + ([] if not with_company else [":--"]) + [":--"]
-    lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(align) + " |"]
-    for guide in (guides if preserve_order else sort_guides(guides, api_labels)):
-        cells = [f"[{escape_cell(guide.title)}]({guide.url})"]
-        if with_company:
-            names = " / ".join(escape_cell(company_label(c, api_labels)) for c in guide.companies)
-            cells.append(f"**{names or '—'}**")
-        # Tags are the only description a guide carries in the API — the prose is
-        # on the page — so they are what tells a reader whether this is the
-        # culture round or the system-design one before they click.
-        cells.append(", ".join(escape_cell(t) for t in guide.tags[:5]) or "—")
-        lines.append("| " + " | ".join(cells) + " |")
-    return "\n".join(lines)
-
-
-def sort_guides(guides: Iterable[Guide], api_labels: dict[str, str]) -> list[Guide]:
-    """Company, then title. Alphabetical, not by date.
-
-    Guides are reference material, not sightings: nobody opens this list asking
-    what changed this week, they open it asking what Google's loop looks like.
-    Sorting by date would shuffle a reference index on every import.
-    """
-    return sorted(
-        guides,
-        key=lambda g: (
-            company_label(g.companies[0], api_labels).casefold() if g.companies else "zzz",
-            g.title.casefold(),
-            g.slug,
-        ),
-    )
-
-
-# ── navigation blocks (injected into README between markers) ─────────────────
-
-
-def format_nav(by_format: dict[str, list[Question]]) -> str:
-    parts = []
-    for fmt in FORMAT_ORDER:
-        rows = by_format.get(fmt)
-        if not rows:
-            continue
-        parts.append(f"[{format_label(fmt)} ({len(rows):,})](formats/{fmt}.md)")
-    for fmt in sorted(set(by_format) - set(FORMAT_ORDER)):
-        parts.append(f"[{format_label(fmt)} ({len(by_format[fmt]):,})](formats/{fmt}.md)")
-    return " · ".join(parts)
-
-
-def company_nav(companies: Sequence[tuple[str, str, int]]) -> str:
-    """The busiest companies inline, the rest behind a fold.
-
-    A fold rather than a truncation: every company stays one tap away and named
-    on the landing page (which is what the search engines read), but a phone
-    opening this does not scroll through ninety-nine links to reach the table
-    below them. GitHub renders `<details>` in markdown, so this costs nothing.
-    """
-
-    def link(entry: tuple[str, str, int]) -> str:
-        key, name, count = entry
-        return f"[{escape_cell(name)} ({count})](companies/{key}/README.md)"
-
-    shown = companies[:README_TOP_COMPANIES]
-    line = " · ".join(link(entry) for entry in shown)
-    rest = companies[README_TOP_COMPANIES:]
-    if not rest:
-        return line
-    return (
-        line
-        + "\n\n<details>\n"
-        + f"<summary><b>+ {len(rest)} more companies</b></summary>\n\n"
-        + " · ".join(link(entry) for entry in rest)
-        + "\n\n</details>\n\n"
-        + f"[**Every company, with counts →**](companies/README.md)"
-    )
-
-
-def month_nav(months: Sequence[tuple[str, int]]) -> str:
-    parts = [f"[{_month_label(key)} ({count})](by-month/{key}.md)" for key, count in months[:12]]
-    line = " · ".join(parts)
-    if len(months) > 12:
-        line += f" · [**every month →**](by-month/README.md)"
-    return line
-
-
-def _month_label(key: str) -> str:
-    year, month = key.split("-")
-    return f"{MONTH_NAMES[int(month) - 1]} {year}"
+    if question.reported_is_month_only:
+        return f"{stamp.year:04d}-{stamp.month:02d}"
+    return stamp.isoformat()
 
 
 def inject(document: str, marker: str, content: str) -> str:
@@ -512,7 +156,7 @@ def inject(document: str, marker: str, content: str) -> str:
     return f"{head}{start}\n{content}\n{end}{tail}"
 
 
-# ── data exports ─────────────────────────────────────────────────────────────
+# ── whole-bank exports (data/) ───────────────────────────────────────────────
 
 CSV_COLUMNS = (
     "slug", "title", "format", "difficulty", "companies", "topics", "tags",
@@ -542,9 +186,8 @@ def render_jsonl(questions: Sequence[Question], api_labels: dict[str, str]) -> s
     """One compact JSON object per line, sorted by slug.
 
     Line-per-record and slug-sorted for the same reason: a question that changes
-    is one changed line, so git stores a delta instead of a new copy of the whole
-    catalog every hour. A single pretty-printed array would be correct and would
-    grow this repository by megabytes a week.
+    is one changed line, so git stores a delta instead of a new copy of the
+    whole bank on every sync.
     """
     rows = sorted(questions, key=lambda q: q.slug)
     return "".join(
@@ -562,37 +205,4 @@ def render_csv(questions: Sequence[Question], api_labels: dict[str, str]) -> str
         for key in ("companies", "topics", "tags", "rounds"):
             row[key] = "; ".join(row[key])  # type: ignore[arg-type]
         writer.writerow(row)
-    return buffer.getvalue()
-
-
-def render_guides_csv(guides: Sequence[Guide], api_labels: dict[str, str]) -> str:
-    """The reading list as a spreadsheet, slug-sorted like the question exports.
-
-    The guides were the one thing this repository published and did not export,
-    which made "take the data" a half-truth: a reader who wanted the writeups
-    had to scrape the markdown the sync had just generated from JSON.
-    """
-    buffer = io.StringIO()
-    writer = csv.writer(buffer, lineterminator="\n")
-    writer.writerow(["slug", "title", "companies", "topics", "url", "added_at"])
-    for guide in sorted(guides, key=lambda g: g.slug):
-        writer.writerow(
-            [
-                guide.slug,
-                guide.title,
-                "; ".join(company_label(c, api_labels) for c in guide.companies),
-                "; ".join(guide.tags),
-                guide.url,
-                guide.added_at or "",
-            ]
-        )
-    return buffer.getvalue()
-
-
-def render_companies_csv(companies: Sequence[tuple[str, str, int]]) -> str:
-    buffer = io.StringIO()
-    writer = csv.writer(buffer, lineterminator="\n")
-    writer.writerow(["slug", "company", "questions", "page", "site_url"])
-    for key, name, count in sorted(companies, key=lambda c: c[0]):
-        writer.writerow([key, name, count, f"companies/{key}.md", f"https://trueinterview.io/problems/company/{key}"])
     return buffer.getvalue()

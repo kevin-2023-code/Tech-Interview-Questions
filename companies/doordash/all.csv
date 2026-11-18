@@ -1,0 +1,152 @@
+Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Handle Upstream Failures in a Payment-Calculation Service,System Design,Medium,Phone screen,1,2026-09-16,https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service
+Build an Order-Exception Microservice with Explicit Refund Policies,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-10,https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies
+Make Rider Addition and Dispatch Safe Under Concurrency,System Design,Medium,Onsite / virtual onsite,1,2026-09-10,https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency
+Design a Donation Service with Reliable Payment and Payout Tracking,System Design,Medium,Onsite / virtual onsite,1,2026-09-10,https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking
+"Resolve Disagreement, Use Feedback, and Grow Engineering Judgment",Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment
+Own Production Incidents and Validate Large Pipeline Migrations,Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations
+Investigate a Surge of Incorrect-Delivery Complaints at Scale,Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale
+"Explain AI Tool Use, Model Selection, and Engineering Validation",Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation
+Explain a Project's Most Complex Technical Component in Depth,Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth
+"Design Food-Item Reviews, Ratings, and Mutable Vote Counts",System Design,Medium,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts
+Resolve a Workplace Conflict,Blog,,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/resolve-a-workplace-conflict
+Explain Why You Are Changing Roles,Blog,,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/explain-why-you-are-changing-roles
+Explain an AI-Assisted Project,Blog,,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/explain-an-ai-assisted-project
+Design a Multi-Service Workflow Engine,System Design,Hard,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/design-a-multi-service-workflow-engine
+Debug the Last-Element Random Allocation Case,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/debug-the-last-element-random-allocation-case
+Design a Food-Item Review System,System Design,Easy,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/design-a-food-item-review-system
+Hiring Manager Behavioral Round,Blog,,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/hm-behavioral-round
+Real-Time Restaurant Leaderboard,System Design,Medium,Onsite / virtual onsite,1,2026-08-16,https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard
+Minimum Parenthesis Deletions,Algorithm,Easy,Onsite / virtual onsite,1,2026-08-16,https://trueinterview.io/questions/coding-minimum-parenthesis-deletions
+First Unique Restaurant in a Stream,Algorithm,Medium,Onsite / virtual onsite,1,2026-08-16,https://trueinterview.io/questions/coding-first-unique-restaurant-stream
+Minimum Dasher Processing Speed,Algorithm,Medium,Onsite / virtual onsite,1,2026-08-16,https://trueinterview.io/questions/coding-minimum-dasher-processing-speed
+AI Code Craft Challenge: Delayed-Delivery Workflow Engine,AI Coding,Hard,Onsite / virtual onsite,1,2026-07-02,https://trueinterview.io/questions/ai-code-craft-workflow-engine
+ML Knowledge / Discussion Round,Blog,,Onsite / virtual onsite,1,2026-07-02,https://trueinterview.io/questions/mle-ml-discussion-round
+Design Uber,System Design,Medium,Onsite / virtual onsite,4,2026-06-16,https://trueinterview.io/questions/onsite-sd-rider-driver-matching
+Dasher Payment Model,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,2,2026-06-11,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
+Design Food Review System,System Design,Medium,Onsite / virtual onsite,1,2026-06-11,https://trueinterview.io/questions/system-design-food-review-system
+Pick Dasher / Round Robin Load Balancer,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-06-11,https://trueinterview.io/questions/debugging-pick-dasher-round-robin
+Code Craft: Validate Cart,Object Oriented Programming,Medium,Phone screen,1,2026-06-10,https://trueinterview.io/questions/code-craft-validate-cart
+Culture & Behavioral Interview Questions,Blog,,Onsite / virtual onsite,2,2026-05-29,https://trueinterview.io/questions/culture-behavioral-interview-questions
+Percent of Late Orders,SQL,Easy,Phone screen,1,2026-05-23,https://trueinterview.io/questions/percent-of-late-orders
+Orders with Offer Increase,SQL,Easy,Phone screen,1,2026-05-23,https://trueinterview.io/questions/orders-with-offer-increase
+Order-Level Request Statistics,SQL,Easy,Phone screen,1,2026-05-23,https://trueinterview.io/questions/order-level-request-statistics
+Monthly Top Eligible Customer,SQL,Medium,Phone screen,1,2026-05-23,https://trueinterview.io/questions/monthly-top-eligible-customer
+Monthly Sales Growth,SQL,Easy,Phone screen,1,2026-05-23,https://trueinterview.io/questions/monthly-sales-growth
+Bottom Quartile Reach,SQL,Easy,Phone screen,1,2026-05-23,https://trueinterview.io/questions/bottom-quartile-reach
+Implement Trie (Prefix Tree),Object Oriented Programming,Easy,Phone screen,4,2026-05-20,https://trueinterview.io/questions/implement-trie-prefix-tree-2
+Monthly Percentage of High-Frequency Customers,SQL,Medium,Phone screen,1,2026-05-19,https://trueinterview.io/questions/monthly-percentage-of-high-frequency-customers
+Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,4,2026-05-12,https://trueinterview.io/questions/charity-donation-system
+Code Craft: Chef Skill → Dish Profit Assignment,Algorithm,Medium,Phone screen,1,2026-05-11,https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment
+Measure Daily Late-Order Rates by Delivery Zone,SQL,Medium,Phone screen,1,2026-05-07,https://trueinterview.io/questions/measure-daily-late-order-rates-by-delivery-zone
+Diagnose Cold-Food Deliveries and Make a Launch Decision,Blog,,Phone screen,1,2026-05-07,https://trueinterview.io/questions/diagnose-cold-food-deliveries-and-make-a-launch-decision
+Code Craft: Bootstrap Aggregated API,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-05-01,https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api
+Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS),Algorithm,Medium,Phone screen,1,2026-04-29,https://trueinterview.io/questions/code-craft-multi-source-bfs-grid
+Calculate Order Request Metrics — Q 3,SQL,Medium,Onsite / virtual onsite,1,2026-04-25,https://trueinterview.io/questions/calculate-order-request-metrics-q3
+Calculate Order Request Metrics — Q 1,SQL,Easy,Onsite / virtual onsite,1,2026-04-25,https://trueinterview.io/questions/calculate-order-request-metrics-q1
+Koko Eating Bananas,Algorithm,Medium,Phone screen,4,2026-04-14,https://trueinterview.io/questions/koko-eating-bananas
+Design A Harmful Content Detection System,System Design,Medium,Onsite / virtual onsite,3,2026-04-13,https://trueinterview.io/questions/harmful-content-detection-system
+Design Notification System,System Design,Easy,Onsite / virtual onsite,13,2026-04-12,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,5,2026-04-09,https://trueinterview.io/questions/ml-system-design-notifications-ctr
+Code Craft: Basic Calculator (No Parentheses),Algorithm,Medium,Phone screen,1,2026-04-06,https://trueinterview.io/questions/code-craft-basic-calculator-no-parens
+Debug a Random Dasher Registry,Algorithm,Hard,Onsite / virtual onsite,1,2026-04-03,https://trueinterview.io/questions/debug-a-random-dasher-registry
+Customer Review Page (EM),System Design,Medium,Phone screen; Onsite / virtual onsite,1,2026-04-02,https://trueinterview.io/questions/system-design-customer-review-page-em
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,16,2026-03-30,https://trueinterview.io/questions/job-scheduler-design
+Code Craft: Restaurant Delivery Heatmap,Algorithm,Medium,Onsite / virtual onsite,1,2026-03-23,https://trueinterview.io/questions/code-craft-restaurant-heatmap
+DE / AE Screen: SQL + Python (Sliding Window + Joins),SQL,Medium,Phone screen,1,2026-03-20,https://trueinterview.io/questions/de-ae-sql-python-screen
+Build UI from Mockup with API,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-03-20,https://trueinterview.io/questions/frontend-vo-build-ui
+Course Schedule,Algorithm,Medium,Phone screen,11,2026-03-20,https://trueinterview.io/questions/course-schedule
+DE / AE Onsite: Data Modeling (Fitness App),SQL,Medium,Onsite / virtual onsite,1,2026-03-16,https://trueinterview.io/questions/de-ae-data-modeling
+On-Call Case Investigation,Blog,,Onsite / virtual onsite,1,2026-03-15,https://trueinterview.io/questions/onsite-case-investigation
+Code Craft: Similar Restaurant Names (K-Swap Anagram),Algorithm,Easy,Phone screen,1,2026-03-13,https://trueinterview.io/questions/code-craft-similar-restaurant-names
+How would you mentor junior teammates?,Blog,,Onsite / virtual onsite,1,2026-02-28,https://trueinterview.io/questions/how-would-you-mentor-junior-teammates
+Describe a Project End-to-End,Blog,,Phone screen,1,2026-02-28,https://trueinterview.io/questions/describe-a-project-end-to-end
+Closest Binary Search Tree Value,Algorithm,Medium,Phone screen,3,2026-02-13,https://trueinterview.io/questions/closest-binary-search-tree-value
+Design experiments for marketplace product changes,System Design,Medium,Onsite / virtual onsite,1,2026-02-09,https://trueinterview.io/questions/design-experiments-for-marketplace-product-changes
+Code Craft: Batch with Capacity & Time Window,Algorithm,Medium,Phone screen,1,2026-02-07,https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle
+Evaluate a new ranking model,Blog,,Onsite / virtual onsite,1,2026-02-06,https://trueinterview.io/questions/evaluate-a-new-ranking-model
+Design Real-Time Driver Pay Aggregation,System Design,Hard,Phone screen,1,2026-02-06,https://trueinterview.io/questions/design-real-time-driver-pay-aggregation
+Serialize and Deserialize Binary Tree,Algorithm,Medium,Phone screen,6,2026-02-04,https://trueinterview.io/questions/serialize-and-deserialize-binary-tree
+Find Each Cell's Nearest Source,Algorithm,Medium,Onsite / virtual onsite,1,2026-02-03,https://trueinterview.io/questions/find-each-cells-nearest-source
+Assess Adding Bicycle Dashers,Blog,,Phone screen,1,2026-02-02,https://trueinterview.io/questions/assess-adding-bicycle-dashers
+Investigate High Memory Usage,Blog,,Onsite / virtual onsite,1,2026-01-31,https://trueinterview.io/questions/investigate-high-memory-usage
+Menu Tree Diff — Count Changed Nodes,Algorithm,Hard,Phone screen,1,2026-01-30,https://trueinterview.io/questions/code-craft-menu-tree-diff
+How do you discuss mistakes and trade-offs?,Blog,,Onsite / virtual onsite,1,2026-01-28,https://trueinterview.io/questions/how-do-you-discuss-mistakes-and-trade-offs
+Handle payment-service outages,System Design,Hard,Onsite / virtual onsite,1,2026-01-28,https://trueinterview.io/questions/handle-payment-service-outages
+Design an alert notification system,System Design,Hard,Onsite / virtual onsite,1,2026-01-28,https://trueinterview.io/questions/design-an-alert-notification-system
+Binary Tree Maximum Path Sum (with path reconstruction),Algorithm,Hard,Phone screen; Onsite / virtual onsite,3,2026-01-26,https://trueinterview.io/questions/binary-tree-max-path-sum
+Diagnose completed orders drop in Los Angeles,Blog,,Onsite / virtual onsite,1,2026-01-25,https://trueinterview.io/questions/diagnose-completed-orders-drop-in-los-angeles
+Design Instagram,System Design,Medium,Onsite / virtual onsite,7,2026-01-22,https://trueinterview.io/questions/design-instagram
+Describe a conflict and how you resolved it,Blog,,Phone screen,1,2026-01-18,https://trueinterview.io/questions/describe-a-conflict-and-how-you-resolved-it
+Design an API for pay computation with retries,System Design,Medium,Online assessment,1,2026-01-14,https://trueinterview.io/questions/design-an-api-for-pay-computation-with-retries
+Design a multi-channel notification system,System Design,Medium,Online assessment,1,2026-01-14,https://trueinterview.io/questions/design-a-multi-channel-notification-system-2
+Describe handling conflict and a proud project,Blog,,Online assessment,1,2026-01-14,https://trueinterview.io/questions/describe-handling-conflict-and-a-proud-project
+Select the best dasher for an order,Algorithm,Easy,Online assessment,1,2026-01-14,https://trueinterview.io/questions/select-the-best-dasher-for-an-order
+Protect SLA and Choose Storage,System Design,Medium,Phone screen,1,2026-01-09,https://trueinterview.io/questions/protect-sla-and-choose-storage
+Calculate Courier Earnings,Algorithm,Hard,Phone screen,1,2026-01-09,https://trueinterview.io/questions/calculate-courier-earnings
+"Answer feedback, conflict, and failure questions",Blog,,Onsite / virtual onsite,1,2026-01-02,https://trueinterview.io/questions/answer-feedback-conflict-and-failure-questions
+Design a donations service with 3-day rolling totals,System Design,Medium,Onsite / virtual onsite,1,2025-12-16,https://trueinterview.io/questions/design-a-donations-service-with-3-day-rolling-totals
+Compute courier pay and implement load balancing,Object Oriented Programming,Hard,Onsite / virtual onsite,1,2025-12-16,https://trueinterview.io/questions/compute-courier-pay-and-implement-load-balancing
+Code Craft: Common Restaurant Pickup Order (LCS Variant),Algorithm,Medium,Phone screen,1,2025-12-11,https://trueinterview.io/questions/code-craft-common-restaurant-list
+Find All 5-Minute Intervals,Algorithm,Medium,Phone screen,1,2025-12-08,https://trueinterview.io/questions/code-craft-day-time-interval-codes
+Code Craft: Cart with Promotions,Object Oriented Programming,Medium,Phone screen,1,2025-12-07,https://trueinterview.io/questions/code-craft-cart-promotions-ood
+Design experiment for bike delivery feature,System Design,Medium,Phone screen,1,2025-11-15,https://trueinterview.io/questions/design-experiment-for-bike-delivery-feature
+How would you prevent wrong items in deliveries?,Blog,,Onsite / virtual onsite,1,2025-10-17,https://trueinterview.io/questions/how-would-you-prevent-wrong-items-in-deliveries
+Design a scalable recommendation serving system,System Design,Medium,Onsite / virtual onsite,1,2025-10-17,https://trueinterview.io/questions/design-a-scalable-recommendation-serving-system
+Find closest value to a target in a BST,Algorithm,Medium,Onsite / virtual onsite,1,2025-10-17,https://trueinterview.io/questions/find-closest-value-to-a-target-in-a-bst
+Walk Through an ETL Project,Blog,,Phone screen,1,2025-10-12,https://trueinterview.io/questions/walk-through-an-etl-project
+Compute Fitness App DAU,SQL,Medium,Phone screen,1,2025-10-12,https://trueinterview.io/questions/compute-fitness-app-dau
+Allocate Support Cost and Diagnose Decline,Blog,,Phone screen,1,2025-10-12,https://trueinterview.io/questions/allocate-support-cost-and-diagnose-decline
+Find Closest Dashmart,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2025-08-23,https://trueinterview.io/questions/find-closest-dashmart
+Dasher Pay with Peak Time,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/279dfa0f-1962-577d-b67a-132ea36cd03d
+Implement Round-Robin and Consistent-Hashing Load Balancers,Object Oriented Programming,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/254f4bc1-6970-5ca1-ad6a-dcfe8391174c
+Prioritize projects and manage tight deadlines,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/prioritize-projects-and-manage-tight-deadlines
+Handle conflict and time-pressured decision,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/handle-conflict-and-time-pressured-decision
+Explain why DoorDash and job change,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/explain-why-doordash-and-job-change
+Explain motivation and align expectations for L4 role,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/explain-motivation-and-align-expectations-for-l4-role
+Explain interest and influence stakeholders,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/explain-interest-and-influence-stakeholders
+Experiment on increasing order notifications,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/experiment-on-increasing-order-notifications
+Diagnose and experiment to reduce late deliveries,Blog,,Phone screen,1,,https://trueinterview.io/questions/diagnose-and-experiment-to-reduce-late-deliveries
+Design and analyze a switchback experiment,Blog,,Phone screen,1,,https://trueinterview.io/questions/design-and-analyze-a-switchback-experiment
+Design analytics for a new-market launch,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-analytics-for-a-new-market-launch
+Design an experiment for thermal bags,Blog,,Phone screen,1,,https://trueinterview.io/questions/design-an-experiment-for-thermal-bags
+Design an experiment for order batching,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-an-experiment-for-order-batching
+Define and compute retention and churn precisely,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/define-and-compute-retention-and-churn-precisely
+Decompose and optimize delivery operational costs,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/decompose-and-optimize-delivery-operational-costs
+Compute sample sizes and error control,Blog,,Phone screen,1,,https://trueinterview.io/questions/compute-sample-sizes-and-error-control
+Calculate power and test duration,Blog,,Phone screen,1,,https://trueinterview.io/questions/calculate-power-and-test-duration
+Build ETA prediction and simulate impact,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/build-eta-prediction-and-simulate-impact
+Build a late-delivery risk model,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/build-a-late-delivery-risk-model
+Write SQL to backtest refund policy,SQL,Hard,Phone screen,1,,https://trueinterview.io/questions/write-sql-to-backtest-refund-policy
+Write SQL for percent and window changes,SQL,Hard,Phone screen,1,,https://trueinterview.io/questions/write-sql-for-percent-and-window-changes
+Write SQL for deliveries analytics,SQL,Medium,Phone screen,1,,https://trueinterview.io/questions/write-sql-for-deliveries-analytics
+Write SQL for cuisine median delivery times,SQL,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/write-sql-for-cuisine-median-delivery-times
+Write SQL for cold-complaint diagnostics with LAG/QUALIFY,SQL,Hard,Phone screen,1,,https://trueinterview.io/questions/write-sql-for-cold-complaint-diagnostics-with-lag-qualify
+Write complex SQL on DoorDash data,SQL,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/write-complex-sql-on-doordash-data
+Implement minimum window substring with counts,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/implement-minimum-window-substring-with-counts
+Compute rolling cold-delivery rates with windows,SQL,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/compute-rolling-cold-delivery-rates-with-windows
+Filter Open Restaurants Within a City Range,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/0370baec-233b-5318-a1c6-59fe6fff1704
+Design Path Key Value Store,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/design-path-key-value-store
+Design A Nearby Restaurant Recommendation System,System Design,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system
+Find Eligible Order Sequence,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/find-eligible-order-sequence
+Construct Restaurant Daily Menu,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/construct-restaurant-daily-menu
+Calculate Dasher Salary,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/calculate-dasher-salary
+Dasher Pay,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/054aef30-72eb-5371-97a8-c65988e21e4f
+Refund Decision Tree Evaluation,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/541ffb96-2770-590b-b5b6-0df02380d374
+Adjust Prices,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/3e5b7ff1-ae9e-4b12-bb30-53665b60e66f
+Minimum Replacements to Make Two Strings Anagrams,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/ab4d715c-a45e-4d9d-bff9-8fe14a380cbf
+Debugging a Load Balancer Implementation and Add Round-Robin Routing,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076
+Find Peak Element,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61
+Design A Personalized Search Ranking System,System Design,Medium,Onsite / virtual onsite,6,,https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d
+Count and Say,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/fd94fd33-664d-46f3-b15b-9121ced75b5e
+Calculate Total Payment for Dasher,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/e6ef089b-490d-47b3-8a92-8cf96b06acec
+Dasher Picker,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/ce094618-c109-4226-9302-f624c2243e88
+Max Sum Sliding Window and Return Start Days (1-based),Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/cb56b885-74d2-47ca-aefe-725df4a97b39
+Dasher Pay Classic Problem,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/cb1af2e3-d261-4cd6-9b7c-fb10f0ee8187
+Design a Ring Buffer for Consistent Hashing,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/b2660ec8-502d-45f2-ad27-401c94329833
+Minimum Number of Couriers Needed (Meeting Rooms II Variant),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/9b6179b4-2319-4efe-9129-adc78a2d421d
+Restaurant query (classic),SQL,Easy,Online assessment,1,,https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196
+Basic SQL Queries for Orders,SQL,Easy,Online assessment,1,,https://trueinterview.io/questions/56a590ce-9602-42e8-b375-9c55e3b0e55d
+Calculate Dasher Pay,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/14422fe4-b9b1-4311-9900-313a365e8e70
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,9,,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+"Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes",Algorithm,Hard,Phone screen,3,,https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f

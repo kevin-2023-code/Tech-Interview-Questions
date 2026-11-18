@@ -1,0 +1,46 @@
+Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Design a Cloud IDE,System Design,Medium,Phone screen; Onsite / virtual onsite,1,2026-10-04,https://trueinterview.io/questions/design-a-cloud-ide
+Poker Simulation,Object Oriented Programming,Medium,Phone screen,1,2026-09-28,https://trueinterview.io/questions/poker-simulation
+Design Online Chess Game,System Design,Medium,Phone screen; Onsite / virtual onsite,5,2026-09-23,https://trueinterview.io/questions/design-chess-com-online-chess-game
+Order Tasks with Dependencies Using a Deterministic Topological Sort,Algorithm,Medium,Phone screen,1,2026-09-17,https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort
+Design Cluster Message Aggregation,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-09-10,https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008
+Debug a Transformer Implementation and Implement a KV Cache for Decoding,Algorithm,Hard,Phone screen,1,2026-09-08,https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding
+Design an IoT Logging Platform with Late-Arriving Metrics,System Design,Hard,Phone screen,1,2026-09-07,https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics
+Restore IP Addresses,Algorithm,Medium,Phone screen,3,2026-09-04,https://trueinterview.io/questions/restore-ip-addresses
+Prefix Matrix Products and Backpropagation,AI Coding,Hard,Phone screen; Onsite / virtual onsite,1,2026-08-28,https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation
+"Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid",Object Oriented Programming,Hard,Phone screen,1,2026-08-27,https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid
+Monitor Devices Over an Unreliable Network,System Design,Hard,Onsite / virtual onsite,1,2026-08-24,https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network
+Image Sharing with Content Deduplication,Object Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,1,2026-08-22,https://trueinterview.io/questions/image-sharing-content-deduplication
+Design a User-Respecting Smart-Grid Controller,System Design,Hard,Phone screen,1,2026-08-21,https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller
+Design Real-Time Electricity Monitoring and Policy Control,System Design,Hard,Phone screen,1,2026-08-18,https://trueinterview.io/questions/design-real-time-electricity-monitoring-and-policy-control
+Monster Team Battle,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-08-18,https://trueinterview.io/questions/monster-battle-system
+Design Command Dispatch and Telemetry Reconciliation for Unreliable Devices,System Design,Hard,Phone screen,1,2026-08-17,https://trueinterview.io/questions/design-command-dispatch-and-telemetry-reconciliation-for-unreliable-devices
+Design a Time-Windowed GPU Credit Ledger,System Design,Hard,Phone screen,1,2026-08-16,https://trueinterview.io/questions/design-a-time-windowed-gpu-credit-ledger
+Design a Digital Game Distribution Platform,System Design,Hard,Phone screen,1,2026-08-16,https://trueinterview.io/questions/design-a-digital-game-distribution-platform
+Simulate Infection Spread with Immunity and Recovery,Algorithm,Hard,Phone screen,1,2026-08-15,https://trueinterview.io/questions/simulate-infection-spread-with-immunity-and-recovery
+Fault-Tolerant Work Queue,Object Oriented Programming,Hard,Onsite / virtual onsite,1,2026-08-13,https://trueinterview.io/questions/fault-tolerant-work-queue
+Real-Time AI Product Feature,System Design,Hard,Onsite / virtual onsite,1,2026-08-08,https://trueinterview.io/questions/real-time-ai-product-feature
+Engineering Management Fundamentals & Team Operations,Blog,,Phone screen,1,2026-08-07,https://trueinterview.io/questions/engineering-management-fundamentals
+Sharded Matmul and Backprop Debugging,Algorithm,Hard,Onsite / virtual onsite,1,2026-07-31,https://trueinterview.io/questions/sharded-matmul-backprop-debugging
+Design a Highly Available Conversational AI Service,System Design,Hard,Onsite / virtual onsite,1,2026-07-17,https://trueinterview.io/questions/design-a-highly-available-conversational-ai-service
+Maximum Grid Jumping Path,Algorithm,Hard,Onsite / virtual onsite,1,2026-07-16,https://trueinterview.io/questions/maximum-grid-jumping-path
+Chat Message Events Aggregation,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-07-15,https://trueinterview.io/questions/chat-message-events-aggregation
+Toy Language Type System,Object Oriented Programming,Medium,Phone screen,1,2026-07-13,https://trueinterview.io/questions/toy-language-type-system
+Data Labeling Task Scheduler,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-07-10,https://trueinterview.io/questions/data-labeling-task-scheduler
+Shard Rebalancing,Algorithm,Hard,Phone screen,1,2026-06-26,https://trueinterview.io/questions/shard-rebalancing
+Resumable Iterator with Multi-Dimensional Support,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-06-20,https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support
+HM BQ — Why OpenAI / AI Safety / AGI,Blog,,Onsite / virtual onsite,1,2026-06-19,https://trueinterview.io/questions/hm-bq-why-openai
+Technical Deep Dive (slide-based),Blog,,Onsite / virtual onsite,1,2026-06-19,https://trueinterview.io/questions/technical-deep-dive
+Payment / Coffee-Shop Ordering (read the prompt!),System Design,Hard,Phone screen; Onsite / virtual onsite,1,2026-06-19,https://trueinterview.io/questions/payment-coffee-shop
+Infection Spread Simulation,Algorithm,Medium,Phone screen,2,2026-06-19,https://trueinterview.io/questions/infection-spread-simulation
+Design CICD System,System Design,Medium,Phone screen; Onsite / virtual onsite,2,2026-06-11,https://trueinterview.io/questions/multi-tenant-ci-cd-workflow
+Contiguous Memory Allocator II,Object Oriented Programming,Medium,Phone screen,2,2026-06-11,https://trueinterview.io/questions/memory-allocator
+Debug a GPT-Style Transformer with KV-Cache Generation,AI Coding,Hard,Phone screen; Onsite / virtual onsite,1,2026-06-09,https://trueinterview.io/questions/transformer-bug-hunt
+GPU Credits II,Algorithm,Hard,Phone screen,2,2026-06-08,https://trueinterview.io/questions/gpu-credit-tracker
+Snapshot Social Graph,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,2,2026-06,https://trueinterview.io/questions/social-network-with-snapshots
+LLM Inference Timeout and Restart Strategy,Algorithm,Hard,Phone screen,1,2026-05-31,https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy
+Online Softmax Entropy,AI Coding,Medium,Phone screen,1,2026-05-31,https://trueinterview.io/questions/online-softmax-entropy
+Mining Novel Data from Large Unlabeled Corpus,System Design,Hard,Onsite / virtual onsite,1,2026-05-26,https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus
+Design ChatGPT,System Design,Medium,Phone screen; Onsite / virtual onsite,4,2026-05-26,https://trueinterview.io/questions/design-chatgpt
+Classifier with Noisy Annotators,AI Coding,Medium,Phone screen,1,2026-05-26,https://trueinterview.io/questions/classifier-noisy-annotators
+In-Memory KV Cache with WAL Log,System Design,Hard,Onsite / virtual onsite,2,2026-05-22,https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log

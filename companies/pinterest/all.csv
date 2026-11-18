@@ -1,0 +1,129 @@
+Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Senior Staff Hiring-Manager Conversation,Blog,,Onsite / virtual onsite,1,2026-09-23,https://trueinterview.io/questions/senior-staff-hiring-manager-conversation
+"Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict",Blog,,Onsite / virtual onsite,1,2026-09-02,https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict
+Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing,System Design,Hard,Onsite / virtual onsite,1,2026-09-02,https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing
+Reason About Nested JSON Schema Validation,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/reason-about-nested-json-schema-validation
+Design a Large-File Upload and Analysis Flow,System Design,Medium,Onsite / virtual onsite,2,2026-09-01,https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow
+Model Elevator Dispatch for Sequential and Overlapping Calls,Object Oriented Programming,Hard,Onsite / virtual onsite,1,2026-08-28,https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls
+"Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date",System Design,Hard,Onsite / virtual onsite,1,2026-08-28,https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date
+Minimum Transfers Between Pin Boards,Algorithm,Hard,Onsite / virtual onsite,1,2026-08-26,https://trueinterview.io/questions/minimum-transfers-between-pin-boards
+Tree-Encoded Subtree Deletion and Stable Compaction,Algorithm,Hard,Phone screen,1,2026-08-26,https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction
+Experiment Bucket Allocation / Rebalancing,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-08-03,https://trueinterview.io/questions/experiment-bucket-allocation-rebalancing
+Patient Support Analysis,SQL,Easy,Phone screen,1,2026-07-23,https://trueinterview.io/questions/patient-support-analysis
+User Concurrent Sessions,SQL,Medium,Phone screen,1,2026-07-22,https://trueinterview.io/questions/user-concurrent-sessions
+Same Week Purchases,SQL,Medium,Phone screen,1,2026-07-22,https://trueinterview.io/questions/same-week-purchases
+ML Fundamentals Quick-Fire,Blog,,Phone screen; Onsite / virtual onsite,1,2026-06-30,https://trueinterview.io/questions/ml-fundamentals-quick-fire
+Stack Items into the Shortest Column (Min-Heap Load Balancing),Algorithm,Medium,Phone screen,1,2026-06-16,https://trueinterview.io/questions/shortest-column-stacking-heap
+MCQ + NN Forward + Coding + ML Implementations),Blog,,Online assessment,1,2026-06-14,https://trueinterview.io/questions/mle-intern-codesignal-oa
+Splitwise / Settle Group Balances,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-06-10,https://trueinterview.io/questions/splitwise-settle-balances
+Bus Routes (LC 815),Algorithm,Hard,Phone screen; Onsite / virtual onsite,2,2026-06-08,https://trueinterview.io/questions/phone-screen-bus-routes
+Put Boxes Into the Warehouse (LC 1564),Algorithm,Medium,Phone screen,1,2026-06-05,https://trueinterview.io/questions/put-boxes-into-warehouse
+"Leadership, Initiative, Project End-to-End",Blog,,Onsite / virtual onsite,1,2026-05-27,https://trueinterview.io/questions/behavioral-leadership-initiative
+Implement round() From String + Round-to-Precision,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-05-27,https://trueinterview.io/questions/round-and-precision-string
+Sparse Matrix Operation,Object Oriented Programming,Medium,Phone screen,2,2026-05-26,https://trueinterview.io/questions/sparse-matrix-class
+Fresh Content Reach,SQL,Medium,Phone screen,1,2026-05-23,https://trueinterview.io/questions/fresh-content-reach
+CTR By Pin-Format and Date,SQL,Medium,Phone screen,1,2026-05-23,https://trueinterview.io/questions/ctr-by-pin-format-and-date
+Implement and Evaluate Pin Similarity in Python,Algorithm,Medium,Phone screen,1,2026-05-17,https://trueinterview.io/questions/implement-and-evaluate-pin-similarity-in-python
+Search / Ranking / Experimentation,System Design,Medium,Onsite / virtual onsite,2,2026-04-29,https://trueinterview.io/questions/as-ml-system-design-search-ranking
+Grant / Revoke / Check Access on Hierarchy,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-04-21,https://trueinterview.io/questions/grant-revoke-access-tree
+Escape Room,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-04-19,https://trueinterview.io/questions/escape-room-player-tracking
+Expression Add Operators — Left-to-Right Variant (LC 282),Algorithm,Medium,Phone screen,1,2026-04-18,https://trueinterview.io/questions/expression-add-operators-simplified
+Convert BST to Sorted Doubly Linked List (LC 426),Algorithm,Medium,Onsite / virtual onsite,2,2026-04-18,https://trueinterview.io/questions/bst-to-doubly-linked-list
+Design Typehead Suggestion,System Design,Medium,Onsite / virtual onsite,7,2026-04-16,https://trueinterview.io/questions/sd-typeahead-autocomplete
+Design A Harmful Content Detection System,System Design,Medium,Onsite / virtual onsite,3,2026-04-13,https://trueinterview.io/questions/harmful-content-detection-system
+Design Notification System,System Design,Easy,Onsite / virtual onsite,13,2026-04-12,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Design Inventory Management System,System Design,Medium,Onsite / virtual onsite,1,2026-04-09,https://trueinterview.io/questions/system-design-catalog-update-bulk-single
+Design An Online Ads Ranking System,System Design,Hard,Onsite / virtual onsite,5,2026-04-09,https://trueinterview.io/questions/ml-system-design-notifications-ctr
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,16,2026-03-30,https://trueinterview.io/questions/job-scheduler-design
+Trie Autocomplete / Prefix Search,Algorithm,Medium,Phone screen; Onsite / virtual onsite,2,2026-03-29,https://trueinterview.io/questions/trie-autocomplete-prefix-search
+Reconstruct Itinerary II,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-03-29,https://trueinterview.io/questions/reconstruct-itinerary-3
+Generate Attribute Combinations,Algorithm,Medium,Phone screen,1,2026-03-28,https://trueinterview.io/questions/generate-attribute-combinations
+Lighthouse Light Propagation,Algorithm,Medium,Onsite / virtual onsite,1,2026-03-28,https://trueinterview.io/questions/lighthouse-2d-matrix
+Binary Search Log Entries by Date String,Algorithm,Medium,Onsite / virtual onsite,1,2026-03-28,https://trueinterview.io/questions/binary-search-log-by-date
+Pin Board Connectivity,Algorithm,Medium,Phone screen,1,2026-03-15,https://trueinterview.io/questions/graph-distance-mle-screen
+Weighted Sampling from Score Distribution,Algorithm,Medium,Phone screen,1,2026-02-26,https://trueinterview.io/questions/weighted-sampling-from-scores
+Personalized Chatbot Recommending Pins,System Design,Hard,Onsite / virtual onsite,1,2026-02-11,https://trueinterview.io/questions/system-design-personalized-chat-recommend
+Implement bagging with decision trees,Algorithm,Medium,Online assessment,1,2026-02-09,https://trueinterview.io/questions/implement-bagging-with-decision-trees
+Answer core ML fundamentals questions,Blog,,Online assessment,1,2026-02-09,https://trueinterview.io/questions/answer-core-ml-fundamentals-questions
+Evaluate Fresh Content and Video Experiments,Blog,,Phone screen,1,2026-01-22,https://trueinterview.io/questions/evaluate-fresh-content-and-video-experiments
+Write Queries for Pinterest Engagement Tasks,SQL,Medium,Phone screen,1,2026-01-22,https://trueinterview.io/questions/write-queries-for-pinterest-engagement-tasks
+Design Search Autocomplete System,Object Oriented Programming,Medium,Phone screen,3,2026-01-16,https://trueinterview.io/questions/design-search-autocomplete-system
+Design and Evaluate a Home Carousel,Blog,,Phone screen,1,2026-01-14,https://trueinterview.io/questions/design-and-evaluate-a-home-carousel
+Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,16,2026-01-14,https://trueinterview.io/questions/design-news-feed
+Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,6,2026-01-12,https://trueinterview.io/questions/system-design-ads-event-aggregation
+Maximum Profit in Job Scheduling,Algorithm,Hard,Phone screen; Onsite / virtual onsite,4,2026-01-07,https://trueinterview.io/questions/maximum-profit-in-job-scheduling
+Explain learning-rate fluctuation and vanishing gradients,Blog,,Phone screen,1,2025-12-15,https://trueinterview.io/questions/explain-learning-rate-fluctuation-and-vanishing-gradients
+Solve a 9x9 Sudoku puzzle,Algorithm,Hard,Phone screen,1,2025-12-13,https://trueinterview.io/questions/solve-a-9x9-sudoku-puzzle
+Explain overfitting and how to prevent it,Blog,,Phone screen,1,2025-12-13,https://trueinterview.io/questions/explain-overfitting-and-how-to-prevent-it
+Top-K Ads from Log + Sliding-Window Ingest,Algorithm,Medium,Onsite / virtual onsite,1,2025-12-10,https://trueinterview.io/questions/top-k-ads-from-log-sliding-window
+Leaderboard / Category Ranking,System Design,Medium,Onsite / virtual onsite,1,2025-12-09,https://trueinterview.io/questions/system-design-leaderboard
+Rate Limiter,Object Oriented Programming,Easy,Onsite / virtual onsite,10,2025-12-06,https://trueinterview.io/questions/rate-limiter
+Write SQL for top categories and highly active users,SQL,Medium,Phone screen,1,2025-12-05,https://trueinterview.io/questions/write-sql-for-top-categories-and-highly-active-users
+Newline-Split Stream Reader,Algorithm,Medium,Onsite / virtual onsite,1,2025-11-28,https://trueinterview.io/questions/newline-stream-line-reader
+Call Elevator,Algorithm,Medium,Phone screen,1,2025-11-18,https://trueinterview.io/questions/call-elevator
+Reverse Count and Say,Algorithm,Medium,Phone screen,1,2025-11-18,https://trueinterview.io/questions/string-from-rle-digits
+Durable Key-Value Store Serialization,Object Oriented Programming,Easy,Onsite / virtual onsite,10,2025-11-08,https://trueinterview.io/questions/durable-key-value-store-serialization
+Subarray Score ≤ K (Sliding-Window),Algorithm,Medium,Phone screen,1,2025-11-07,https://trueinterview.io/questions/subarray-score-at-most-k
+Compute percent of first-cancel users who never return,SQL,Medium,Phone screen,1,2025-10-26,https://trueinterview.io/questions/compute-percent-of-first-cancel-users-who-never-return
+Spam Caller Counter,Algorithm,Medium,Onsite / virtual onsite,1,2025-06-18,https://trueinterview.io/questions/spam-caller-counter
+Shortest Path in Unweighted Graph,Algorithm,Easy,Onsite / virtual onsite,2,2025-05-30,https://trueinterview.io/questions/shortest-path-in-unweighted-graph
+Nested Set Equality,Algorithm,Medium,Onsite / virtual onsite,2,2025-05-30,https://trueinterview.io/questions/nested-set-equality
+Find Restaurant Intervals,Algorithm,Medium,Phone screen,1,2025-05-30,https://trueinterview.io/questions/find-restaurant-intervals
+Violation Log Analyzer,Object Oriented Programming,Medium,Phone screen,1,2025-05-30,https://trueinterview.io/questions/violation-log-analyzer
+Highly Active User Percentage by Country,SQL,Medium,Online assessment,1,,https://trueinterview.io/questions/f31f02a5-b053-59b1-a6ed-4246c575cd9c
+Implement a Read-Through Cache for Product GET API,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/cd8e794f-fcdf-59c3-a081-0f5fa8b88ce4
+Splitwise: Settle Balances and Minimize Transactions,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/93510704-e939-5d09-9ac2-c4ad956631ba
+Top Two Categories by Engagement Rate per Country,SQL,Medium,Online assessment,1,,https://trueinterview.io/questions/3b783d83-6ac7-5599-9792-a02269856670
+Top-Scoring Viewed Pin in a Sliding Time Window,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/2dc9ad48-e6b4-5d98-acb7-0b4509e50479
+Count Valid IPv4 Addresses in Fetched Text,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/100ce093-854b-5ebe-86bb-0e448b469a7d
+Recover causal effect without a control group,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/recover-causal-effect-without-a-control-group
+Interpret A/B results for video-pin increase,Blog,,Phone screen,1,,https://trueinterview.io/questions/interpret-a-b-results-for-video-pin-increase
+Explain your ML project end-to-end,Blog,,Phone screen,1,,https://trueinterview.io/questions/explain-your-ml-project-end-to-end
+Explain BLS vs CLS; compute t-stats,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/explain-bls-vs-cls-compute-t-stats
+Estimate billboard reach and impressions,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/estimate-billboard-reach-and-impressions
+Diagnose CTR drop after recommendation launch,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/diagnose-ctr-drop-after-recommendation-launch
+Design rigorous A/B test and causal analysis,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-rigorous-a-b-test-and-causal-analysis
+Design metrics and experiment for Shopping launch,Blog,,Phone screen,1,,https://trueinterview.io/questions/design-metrics-and-experiment-for-shopping-launch
+Design and assess a video-pin increase experiment,Blog,,Phone screen,1,,https://trueinterview.io/questions/design-and-assess-video-pin-increase-experiment
+Demonstrate leadership with concrete STAR examples,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/demonstrate-leadership-with-concrete-star-examples
+Decide if ad load is optimized,System Design,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/decide-if-ad-load-is-optimized
+Analyze a geo rollout and interpret charts,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/analyze-a-geo-rollout-and-interpret-charts
+Write windowed retention and ARPU SQL,SQL,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/write-windowed-retention-and-arpu-sql
+Write SQL to rank categories by impressions,SQL,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/write-sql-to-rank-categories-by-impressions
+Write SQL to compute max-overlap lists,SQL,Hard,Onsite / virtual onsite,1,,https://trueinterview.io/questions/write-sql-to-compute-max-overlap-lists
+Write SQL and pandas for shopping events,SQL,Hard,Phone screen,1,,https://trueinterview.io/questions/write-sql-and-pandas-for-shopping-events
+Implement scalable prime generator,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/implement-scalable-prime-generator
+Implement and extend My Calendar III,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/implement-and-extend-my-calendar-iii
+Compute CTR by format for new US users,SQL,Medium,Phone screen,1,,https://trueinterview.io/questions/compute-ctr-by-format-for-new-us-users
+Compute average unique pins per user,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/compute-average-unique-pins-per-user
+Find top category by video time spent,AI Coding,Medium,Phone screen,1,,https://trueinterview.io/questions/find-top-category-by-video-time-spent
+Implement Bootstrap Confidence Interval and Jackknife Standard Error for a Two-Group Metric,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/f8f2b747-5843-5b82-a2ff-52f8aad3a4bd
+Minimum Pins to Exactly Fill a Screen,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/e817dce0-d504-5169-b4ba-d28533e7f068
+Combination Sum IV with Negative Numbers,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/d7e6cbbf-5d76-59af-835f-6160ad3843a0
+Return All Target Expressions With Addition and Multiplication Precedence,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/bf50f7be-58b2-52b0-bd29-97cc8b5eb546
+Minimum Subsequences to Form a Target String,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/9423861c-f075-545f-82c3-3725c330617d
+Count Unique Active Pins Over Time,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/5be6bdc4-e6f9-5de3-ac51-09f1c5936324
+Reach a Target by Inserting Addition or Multiplication Left to Right,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/58c488bd-d704-52e2-beb8-105e3f2ae61d
+Delete a Subtree by Marking Nodes as Removed,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/240aacef-d2d1-533b-b082-004b1d4015a8
+Longest Run of Identical Characters,Algorithm,Easy,Online assessment,3,,https://trueinterview.io/questions/ee3f373d-6a1f-5751-b6f7-d7f4577b6670
+Coin Change (LC 322),Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/coin-change
+Design Delayed Tasks Scheduler,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/design-delayed-tasks-scheduler
+Design A Video Recommendation System,System Design,Hard,Onsite / virtual onsite,4,,https://trueinterview.io/questions/design-a-video-recommendation-system-2
+Design Soft 404 Detection,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-soft-404-detection
+Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,8,,https://trueinterview.io/questions/design-distributed-web-crawler-4
+Design A Feed Recommendation System,System Design,Hard,Onsite / virtual onsite,4,,https://trueinterview.io/questions/design-a-feed-recommendation-system-2
+Split Array Largest Sum,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f
+Account Balancing,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/31a24eea-aee5-45ea-b3eb-9d8f920f226a
+Search Engine Input Suggestions,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/d56954e6-11b8-45ac-a5b1-2d26c7bd2506
+Robot Straight-Line Reachable Cells on a 2D Grid with Blockers (8 Directions),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/d25ec720-b448-41d4-90e1-6810c900cb99
+Bubble Explosion on a Grid (One Round + Gravity),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/c071219b-045a-4aaf-a968-4a395c259ca8
+Check If All Numbers in a Window Are Monotonic,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/b713b44f-bc25-4935-8f17-c24342c90f89
+Implement custom round function,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/b1edadf2-a0a2-430e-9c61-abc05944b832
+Naive Bayes Implementation,AI Coding,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/4b6cf68f-e144-4f3e-8514-fd425859b792
+Escape Room (Shortest Escape Path in a Room Grid),Algorithm,Hard,Phone screen,2,,https://trueinterview.io/questions/4837fbb0-c247-450e-9607-1c9a42be781c
+Escape Room Lock Chain,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/4152a497-1ffa-4994-87ba-e36af7a8e914
+Scooter Hopping on a Number Line (Greedy Simulation),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/4061bf21-5f91-4205-b332-593d043db6af
+Count Objects in Pin,Algorithm,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/2ef8e521-5ac6-4711-9d84-6b98703ad305
+Delete Node in a Linked List,Algorithm,Easy,Online assessment,2,,https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576
+Set Equality Verification,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/0def6fa8-60e7-41ea-bf60-ab321aa731ea
+Expression Add Operators to Reach Target,Algorithm,Hard,Phone screen,2,,https://trueinterview.io/questions/ce65b729-d003-4aba-82e4-ee55204dce4c

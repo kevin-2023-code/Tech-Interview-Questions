@@ -121,52 +121,6 @@ def parse_catalog_date(value: str | None) -> tuple[date | None, bool]:
 
 
 @dataclass(frozen=True)
-class Guide:
-    """One published article from the site's Study section.
-
-    A different KIND of thing from a question: a question is one task you
-    solve, and this is something to read around it. The catalog stores them as
-    an ordinary row of a reading type, which is why they arrive from their own
-    endpoint rather than in the question list.
-
-    What a guide is ABOUT is not knowable from this row, and a renderer must
-    not assume. Most are the "how does this company actually interview"
-    writeups — a recruiter screen, a culture round, a deep dive — but the same
-    endpoint also carries problems worked end to end and reviews of other
-    products, and a company page that announced the first kind over a row of
-    the third was wrong in print. `tags` is the only evidence here of what one
-    covers; where there is none, say nothing.
-    """
-
-    slug: str
-    title: str
-    companies: tuple[str, ...]
-    tags: tuple[str, ...]
-    url: str
-    added_at: str | None
-
-
-@dataclass(frozen=True)
-class Experience:
-    """One candidate-written interview report from the 面经 board.
-
-    The newest thing this repository can point at: a question enters the bank
-    when someone curates it, but a report lands the week the loop happened. It
-    is metadata like everything else here — company, role, title, date, URL —
-    and the write-up itself stays on the site, which is both the rule this
-    repository holds and the reason the board can meter its bodies at all.
-    """
-
-    id: str
-    company: str
-    role: str | None
-    title: str
-    url: str
-    posted_at: str | None
-    posted_date: date | None
-
-
-@dataclass(frozen=True)
 class QuestionBody:
     """A free question's statement and hints, as the site's export hands them over."""
 
@@ -178,16 +132,15 @@ class QuestionBody:
 
 @dataclass(frozen=True)
 class Content:
-    """The free tier's bodies, keyed by catalog slug.
+    """The published statements, keyed by catalog slug.
 
-    ``dropped`` counts bodies the export sent that the metadata did not vouch
-    for — a slug the question list does not carry, or one it does not mark
-    free. They are never rendered; the count is printed so a disagreement
+    ``dropped`` counts bodies the export sent that are never rendered: a slug
+    the question list does not carry or does not mark free, and every article
+    (guides are read on the site). The count is printed so a disagreement
     between the two endpoints is seen rather than silently resolved.
     """
 
     questions: dict[str, QuestionBody]
-    articles: dict[str, str]
     dropped: int = 0
 
 
@@ -249,55 +202,6 @@ def question_from_payload(item: dict[str, Any]) -> Question:
         url=url,
         added_at=added_at,
         added_date=added_date,
-    )
-
-
-def guide_from_payload(item: dict[str, Any]) -> Guide:
-    """Build a :class:`Guide`, refusing a row with no address."""
-    slug, title, url = item.get("slug"), item.get("title"), item.get("url")
-    if not isinstance(slug, str) or not slug.strip():
-        raise CatalogError(f"guide row has no slug: {item!r:.200}")
-    if not isinstance(title, str) or not title.strip():
-        raise CatalogError(f"guide row {slug} has no title")
-    if not isinstance(url, str) or not url.startswith("https://"):
-        raise CatalogError(f"guide row {slug} has no absolute url")
-
-    primary = item.get("company")
-    companies = _str_list(item.get("companies"))
-    if isinstance(primary, str) and primary.strip() and primary.strip() not in companies:
-        companies = (primary.strip(),) + companies
-
-    added_at = item.get("addedAt") if isinstance(item.get("addedAt"), str) else None
-    return Guide(
-        slug=slug.strip(),
-        title=" ".join(title.split()),
-        companies=companies,
-        tags=_str_list(item.get("tags")),
-        url=url,
-        added_at=added_at,
-    )
-
-
-def experience_from_payload(item: dict[str, Any]) -> Experience:
-    """Build an :class:`Experience`, refusing a row with no address."""
-    identifier, title, url = item.get("id"), item.get("title"), item.get("url")
-    if not isinstance(identifier, str) or not identifier.strip():
-        raise CatalogError(f"experience row has no id: {item!r:.200}")
-    if not isinstance(title, str) or not title.strip():
-        raise CatalogError(f"experience row {identifier} has no title")
-    if not isinstance(url, str) or not url.startswith("https://"):
-        raise CatalogError(f"experience row {identifier} has no absolute url")
-    posted_at = item.get("postedAt") if isinstance(item.get("postedAt"), str) else None
-    posted_date, _ = parse_catalog_date(posted_at)
-    role = item.get("role")
-    return Experience(
-        id=identifier.strip(),
-        company=str(item.get("company") or "").strip(),
-        role=" ".join(role.split()) if isinstance(role, str) and role.strip() else None,
-        title=" ".join(title.split()),
-        url=url,
-        posted_at=posted_at,
-        posted_date=posted_date,
     )
 
 
@@ -389,89 +293,8 @@ def fetch_company_labels(base_url: str, *, timeout: int = 30) -> dict[str, str]:
     return labels
 
 
-def fetch_guides(base_url: str, *, timeout: int = 30) -> tuple[list[dict[str, Any]], bool]:
-    """Every published Study guide, as raw API objects.
-
-    Pages like `fetch_questions`, with one extra job: it tolerates BOTH shapes
-    `/api/v1/articles` can answer with, because this repository and that
-    endpoint's paging shipped separately and either can be deployed first.
-
-      * The paged shape — `{articles, page: {…, hasMore}}` — is followed to the
-        end, and the row count is checked against `page.total` exactly as the
-        question read is.
-      * The older shape — `{articles, total}` — has no offset to page with, and
-        its `total` is the length of the slice it just returned rather than the
-        size of the Study section, so it cannot even report its own truncation.
-        A full page under that shape therefore means "there are probably more
-        and I cannot reach them".
-
-    Returns `(rows, complete)`. An incomplete read is NOT an error: making it one
-    stopped the whole sync — all two thousand questions included — because one
-    endpoint could not page yet, which is a far worse outcome than a short list
-    of guides. What the incompleteness must never be is SILENT, since a company
-    page missing its guides looks exactly like a company that has none. So
-    `complete` travels, and the renderer prints the shortfall on the guides page
-    itself rather than the job dying to protect a reader who would then have no
-    page to read at all.
-    """
-    rows: list[dict[str, Any]] = []
-    page = 1
-    total: int | None = None
-    while page <= MAX_PAGES:
-        data = _get_json(f"{base_url}/api/v1/articles?page={page}&limit={PAGE_LIMIT}", timeout)
-        articles = data.get("articles")
-        if not isinstance(articles, list):
-            raise CatalogError("articles response has no articles array")
-        rows.extend(item for item in articles if isinstance(item, dict))
-
-        page_info = data.get("page")
-        if not isinstance(page_info, dict):
-            # The old shape. A full page means there are almost certainly more
-            # and no offset exists to reach them; a short page is the whole set.
-            return rows, len(articles) < PAGE_LIMIT
-        if total is None and isinstance(page_info.get("total"), int):
-            total = page_info["total"]
-        if not page_info.get("hasMore"):
-            break
-        if not articles:
-            raise CatalogError(f"articles page {page} was empty but claimed more")
-        page += 1
-        time.sleep(REQUEST_PAUSE_SECONDS)
-    else:
-        raise CatalogError(f"articles did not terminate within {MAX_PAGES} pages")
-
-    if total is not None and len(rows) != total:
-        raise CatalogError(f"read {len(rows)} guides but the catalog reports {total}")
-    return rows, True
-
-
-def fetch_experiences(base_url: str, *, timeout: int = 30) -> tuple[list[dict[str, Any]], int | None]:
-    """The newest interview reports, and how many the board holds in total.
-
-    `/api/v1/interview-experiences` takes a `limit` and nothing else — no page,
-    no offset — so this read is a SLICE by construction and can never be the
-    whole board. That is a documented limitation rather than a failure, and it
-    is handled the way the guides read handles its own: the shortfall travels
-    as data (`total`) and the page says which slice it is showing. A section
-    headed "every interview report" that silently held fifty of two thousand
-    would be the same lie the guides index was built to stop telling.
-
-    A read that FAILS still raises, like every other read in this module. The
-    difference is not arbitrary: a limitation is a fact about the endpoint that
-    a caveat can state, while a failure is the absence of any fact at all, and
-    publishing an empty section over a good one is how an hourly job quietly
-    deletes a page nobody was watching.
-    """
-    data = _get_json(f"{base_url}/api/v1/interview-experiences?limit={PAGE_LIMIT}", timeout)
-    rows = data.get("experiences")
-    if not isinstance(rows, list):
-        raise CatalogError("interview-experiences response has no experiences array")
-    total = data.get("total") if isinstance(data.get("total"), int) else None
-    return [item for item in rows if isinstance(item, dict)], total
-
-
 def fetch_content(base_url: str, secret: str, *, timeout: int = 60) -> dict[str, Any]:
-    """The free tier's bodies from the site's export.
+    """The question bodies from the site's export.
 
     Not the public API, and not its ``{ok, data}`` envelope: a plain JSON
     object ``{generatedAt, questions, articles}``. Every failure raises — the
@@ -522,15 +345,9 @@ def common_only(payload: dict[str, Any], allowed: frozenset[str]) -> dict[str, A
 def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dict[str, Any]:
     """The whole snapshot this repository is rendered from."""
     base = base_url.rstrip("/")
-    guides, guides_complete = fetch_guides(base, timeout=timeout)
-    experiences, experiences_total = fetch_experiences(base, timeout=timeout)
     return {
         "source": base,
         "questions": fetch_questions(base, timeout=timeout),
-        "guides": guides,
-        "guidesComplete": guides_complete,
-        "experiences": experiences,
-        "experiencesTotal": experiences_total,
         "companyLabels": fetch_company_labels(base, timeout=timeout),
         # Absent (None) is "not configured", which renders the index-only pages.
         # Configured, only the allowlisted questions' bodies are kept.
@@ -542,24 +359,13 @@ def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dic
 
 @dataclass(frozen=True)
 class Catalog:
-    """One validated snapshot: what was read, and what could not be."""
+    """One validated snapshot."""
 
     questions: list[Question]
-    guides: list[Guide]
-    #: False when the API could not hand over the whole Study section. Carried
-    #: rather than logged, because the renderer prints it on the page.
-    guides_complete: bool
-    #: The newest interview reports the board would hand over — a slice, never
-    #: the board, since that endpoint takes no offset.
-    experiences: list[Experience]
-    #: How many reports the board holds, or ``None`` when it did not say. The
-    #: page prints "the 50 newest of 2,426" from this pair and says plainly
-    #: that it is a slice; `None` means the size is unknown, not zero.
-    experiences_total: int | None
     labels: dict[str, str]
-    #: The free tier's bodies, or ``None`` when the export was not read. ``None``
-    #: renders the metadata-only pages; an empty :class:`Content` is a real
-    #: answer ("nothing is free") and is treated as one.
+    #: The published statements, or ``None`` when the export was not read.
+    #: ``None`` renders the metadata-only pages; an empty :class:`Content` is a
+    #: real answer ("nothing is published") and is treated as one.
     content: Content | None = None
 
 
@@ -579,60 +385,21 @@ def load_catalog(payload: Any) -> Catalog:
         if question.slug in seen:
             raise CatalogError(f"catalog snapshot has duplicate slug {question.slug!r}")
         seen.add(question.slug)
-
-    # Guides are OPTIONAL in a snapshot, unlike questions. A deployment with an
-    # empty Study section is a normal state; a deployment with no questions is
-    # a failed read. The two must not be refused the same way.
-    raw_guides = payload.get("guides")
-    guides = (
-        [guide_from_payload(item) for item in raw_guides if isinstance(item, dict)]
-        if isinstance(raw_guides, list)
-        else []
-    )
-    seen_guides: set[str] = set()
-    for guide in guides:
-        if guide.slug in seen_guides:
-            raise CatalogError(f"catalog snapshot has duplicate guide slug {guide.slug!r}")
-        seen_guides.add(guide.slug)
-
-    # Interview reports are OPTIONAL in a snapshot for the same reason guides
-    # are: a deployment whose board is empty is a normal state, and a fixture
-    # written before this section existed must still render.
-    raw_experiences = payload.get("experiences")
-    experiences = (
-        [experience_from_payload(item) for item in raw_experiences if isinstance(item, dict)]
-        if isinstance(raw_experiences, list)
-        else []
-    )
-    seen_experiences: set[str] = set()
-    for experience in experiences:
-        if experience.id in seen_experiences:
-            raise CatalogError(f"catalog snapshot has duplicate experience id {experience.id!r}")
-        seen_experiences.add(experience.id)
-    experiences_total = payload.get("experiencesTotal")
-
-    # Absent means complete: a hand-written fixture should not have to opt in to
-    # the normal case, and only a live read that fell short sets it False.
-    guides_complete = payload.get("guidesComplete")
-    content = content_from_payload(payload.get("content"), questions, guides)
     return Catalog(
-        content=content,
+        content=content_from_payload(payload.get("content"), questions),
         questions=questions,
-        guides=guides,
-        guides_complete=guides_complete is not False,
-        experiences=experiences,
-        experiences_total=experiences_total if isinstance(experiences_total, int) else None,
         labels={str(k): str(v) for k, v in labels.items() if isinstance(v, str)},
     )
 
 
-def content_from_payload(raw: Any, questions: list[Question], guides: list[Guide]) -> Content | None:
+def content_from_payload(raw: Any, questions: list[Question]) -> Content | None:
     """Validate the export against the metadata it will be rendered beside.
 
-    The second fence. The site already exports only free rows; a body is kept
-    here only if the public question list ALSO says that slug is free, or the
-    public article list carries it. Anything else is dropped and counted — a
-    disagreement between two endpoints is resolved toward publishing less.
+    The second fence. The site already exports only free rows and
+    :func:`common_only` keeps only the allowlisted ones; a body is kept here
+    only if the public question list ALSO says that slug is free. Anything else
+    is dropped and counted, and so is every article: no guide text is ever
+    published here. A disagreement is resolved toward publishing less.
     """
     if raw is None:
         return None
@@ -642,10 +409,8 @@ def content_from_payload(raw: Any, questions: list[Question], guides: list[Guide
     if not isinstance(raw_questions, list) or not isinstance(raw_articles, list):
         raise CatalogError("content export has no questions/articles arrays")
     free = {q.slug: q for q in questions if q.access_tier == "free"}
-    guide_slugs = {g.slug for g in guides}
     bodies: dict[str, QuestionBody] = {}
-    articles: dict[str, str] = {}
-    dropped = 0
+    dropped = len(raw_articles)
     for item in raw_questions:
         if not isinstance(item, dict):
             raise CatalogError("content export has a malformed question")
@@ -657,27 +422,14 @@ def content_from_payload(raw: Any, questions: list[Question], guides: list[Guide
             dropped += 1
             continue
         bodies[slug] = QuestionBody(slug=slug, type=meta.type, content_md=text.strip(), hints=_str_list(item.get("hints")))
-    for item in raw_articles:
-        if not isinstance(item, dict):
-            raise CatalogError("content export has a malformed article")
-        slug, text = item.get("slug"), item.get("contentMd")
-        if not isinstance(slug, str) or not isinstance(text, str) or not text.strip():
-            raise CatalogError(f"content export article {slug!r} has no body")
-        if slug not in guide_slugs:
-            dropped += 1
-            continue
-        articles[slug] = text.strip()
-    return Content(questions=bodies, articles=articles, dropped=dropped)
+    return Content(questions=bodies, dropped=dropped)
 
 
 def snapshot(catalog: "Catalog", source: str) -> dict[str, Any]:
     """Round-trip a set of records back into the snapshot shape (for --snapshot-out)."""
-    questions, guides, labels = catalog.questions, catalog.guides, catalog.labels
     return {
         "source": source,
-        "companyLabels": labels,
-        "guidesComplete": catalog.guides_complete,
-        "experiencesTotal": catalog.experiences_total,
+        "companyLabels": catalog.labels,
         "content": None
         if catalog.content is None
         else {
@@ -685,32 +437,8 @@ def snapshot(catalog: "Catalog", source: str) -> dict[str, Any]:
                 {"slug": b.slug, "type": b.type, "contentMd": b.content_md, "hints": list(b.hints)}
                 for b in sorted(catalog.content.questions.values(), key=lambda b: b.slug)
             ],
-            "articles": [
-                {"slug": slug, "contentMd": text} for slug, text in sorted(catalog.content.articles.items())
-            ],
+            "articles": [],
         },
-        "experiences": [
-            {
-                "id": e.id,
-                "company": e.company,
-                "role": e.role,
-                "title": e.title,
-                "url": e.url,
-                "postedAt": e.posted_at,
-            }
-            for e in catalog.experiences
-        ],
-        "guides": [
-            {
-                "slug": g.slug,
-                "title": g.title,
-                "companies": list(g.companies),
-                "tags": list(g.tags),
-                "url": g.url,
-                "addedAt": g.added_at,
-            }
-            for g in guides
-        ],
         "questions": [
             {
                 "slug": q.slug,
@@ -729,6 +457,6 @@ def snapshot(catalog: "Catalog", source: str) -> dict[str, Any]:
                 "url": q.url,
                 "addedAt": q.added_at,
             }
-            for q in questions
+            for q in catalog.questions
         ],
     }

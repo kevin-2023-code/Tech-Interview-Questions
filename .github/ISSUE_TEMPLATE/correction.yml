@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Corrections are applied on [TrueInterview](https://trueinterview.io) and reach this
-        repository on the next hourly sync — so there is nothing to edit here directly.
+        repository on the next sync — so there is nothing to edit here directly.
   - type: input
     id: row
     attributes:

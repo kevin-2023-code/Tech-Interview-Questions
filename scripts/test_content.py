@@ -12,26 +12,26 @@ from __future__ import annotations
 
 import io
 import json
-import os
+import posixpath
 import re
 import sys
 import unittest
 from contextlib import redirect_stderr, redirect_stdout
 from datetime import date
-from pathlib import Path, PurePosixPath
+from pathlib import Path
 from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import sync  # noqa: E402
 from build import build  # noqa: E402
-from catalog import CatalogError, Guide, load_catalog  # noqa: E402
-from content import MIN_GUIDE_CHARS, _process_role, assign_paths, rewrite_links, slugify  # noqa: E402
+from catalog import CatalogError, load_catalog  # noqa: E402
+from content import assign_paths, rewrite_links, slugify  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FIXTURE = ROOT / "scripts" / "fixtures" / "catalog-sample.json"
 TODAY = date(2026, 9, 11)
-LONG = "A paragraph long enough to be a guide rather than a prompt. " * 20
+LONG = "A GUIDE BODY that must never be published here. " * 20
 
 
 def payload() -> dict:
@@ -45,11 +45,10 @@ def free_and_paid(data: dict):
 
 
 def with_content(data: dict | None = None, **overrides) -> tuple[dict, dict]:
-    """The fixture plus an export: two free questions, one paid body, two guides."""
+    """The fixture plus an export: two free questions, one paid body, one article."""
     data = data or payload()
     free, paid = free_and_paid(data)
     guide = next(g for g in data["guides"] if g["companies"])
-    short = next(g for g in data["guides"] if g["slug"] != guide["slug"] and g["companies"])
     content = {
         "questions": [
             {
@@ -64,13 +63,13 @@ def with_content(data: dict | None = None, **overrides) -> tuple[dict, dict]:
             {"slug": paid[0]["slug"], "type": paid[0]["type"], "contentMd": "PAID BODY", "hints": []},
         ],
         "articles": [
+            # Guides are read on the site. The repository must not publish one if it is sent.
             {"slug": guide["slug"], "contentMd": LONG + f"\n\n[Practise](/questions/{free[0]['slug']})"},
-            {"slug": short["slug"], "contentMd": "Too short to be a page."},
         ],
     }
     content.update(overrides)
     data["content"] = content
-    return data, {"free": free, "paid": paid, "guide": guide, "short": short}
+    return data, {"free": free, "paid": paid, "guide": guide}
 
 
 def render(data: dict, paths: dict | None = None):
@@ -87,7 +86,8 @@ class TestFences(unittest.TestCase):
         data, rows = with_content()
         catalog = load_catalog(data)
         self.assertNotIn(rows["paid"][0]["slug"], catalog.content.questions)
-        self.assertEqual(catalog.content.dropped, 1)
+        # The paid body and the article.
+        self.assertEqual(catalog.content.dropped, 2)
         result = render(data)
         self.assertFalse(any("PAID BODY" in text for text in result.files.values()))
         self.assertEqual(len(question_pages(result)), 2)
@@ -95,7 +95,7 @@ class TestFences(unittest.TestCase):
     def test_a_body_filed_under_a_different_format_is_dropped(self):
         data, rows = with_content()
         data["content"]["questions"][1]["type"] = "not-its-format"
-        self.assertEqual(load_catalog(data).content.dropped, 2)
+        self.assertEqual(load_catalog(data).content.dropped, 3)
 
     def test_a_malformed_export_stops_the_sync(self):
         data, _ = with_content()
@@ -112,9 +112,11 @@ class TestFences(unittest.TestCase):
         result = render(data)
         self.assertEqual(question_pages(result), {})
         self.assertFalse(result.stats["content_configured"])
-        # Every company still gets a home, linking at the site.
-        self.assertTrue(any(p.endswith("/README.md") and p.startswith("companies/") and p.count("/") == 2
-                            for p in result.files))
+        # Every company still gets its folder, each row linking at the site.
+        homes = [p for p in result.files if p.endswith("/README.md") and p.startswith("companies/")]
+        self.assertTrue(homes)
+        for home in homes:
+            self.assertNotIn("](../../questions/", result.files[home])
 
 
 class TestQuestionPage(unittest.TestCase):
@@ -138,7 +140,7 @@ class TestQuestionPage(unittest.TestCase):
         registry = json.loads(self.result.files["data/paths.json"])
         here = registry[f"question:{self.rows['free'][0]['slug']}"]
         other = registry[f"question:{self.rows['free'][1]['slug']}"]
-        self.assertIn(f"]({os.path.relpath(other + '/README.md', here)})", text)
+        self.assertIn(f"]({posixpath.relpath(other + '/README.md', here)})", text)
         self.assertIn(f"](https://trueinterview.io/questions/{self.rows['paid'][0]['slug']})", text)
         self.assertNotRegex(text, r"\]\(/")
 
@@ -148,22 +150,36 @@ class TestQuestionPage(unittest.TestCase):
         for path, contents in self.result.files.items():
             if not path.endswith(".md"):
                 continue
-            here = PurePosixPath(path).parent
+            here = posixpath.dirname(path)
             for href in re.findall(r"\]\(([^)\s]+)\)", contents):
                 if href.startswith(("http://", "https://", "#", "../../issues", "../../../issues")):
                     continue
-                target = os.path.normpath(str(here / href.split("#")[0]))
+                target = posixpath.normpath(posixpath.join(here, href.split("#")[0]))
                 if target not in generated and not (ROOT / target).exists():
                     broken.append(f"{path} → {href}")
         self.assertEqual(broken, [])
 
-    def test_a_guide_gets_a_page_and_a_fragment_does_not(self):
-        pages = [p for p in self.result.files if "/guides/" in p and p.startswith("companies/")]
-        self.assertEqual(len(pages), 1)
-        text = self.result.files[pages[0]]
-        self.assertIn(LONG.strip()[:40], text)
-        self.assertLess(len("Too short to be a page."), MIN_GUIDE_CHARS)
-        self.assertFalse(any("Too short to be a page." in t for t in self.result.files.values()))
+    def test_no_guide_or_article_body_is_ever_published(self):
+        self.assertFalse(any("A GUIDE BODY" in text for text in self.result.files.values()))
+        self.assertFalse(any("/guides/" in path or "interview-process" in path for path in self.result.files))
+        # A link at the guide from a statement lands on the site, not on a page here.
+        text = self.page(self.rows["free"][0])
+        self.assertIn(f"](https://trueinterview.io/study/{self.rows['guide']['slug']})", text)
+
+    def test_the_company_rows_link_at_the_published_pages(self):
+        registry = json.loads(self.result.files["data/paths.json"])
+        row = self.rows["free"][0]
+        target = registry[f"question:{row['slug']}"] + "/README.md"
+        homes = [
+            text
+            for path, text in self.result.files.items()
+            if path.startswith("companies/") and path.endswith("/README.md") and f"](../../{target})" in text
+        ]
+        self.assertTrue(homes)
+        # The CSV keeps the site URL: a relative path means nothing outside GitHub.
+        self.assertTrue(
+            any(row["url"] in text for path, text in self.result.files.items() if path.endswith("/all.csv"))
+        )
 
 
 class TestPaths(unittest.TestCase):
@@ -193,6 +209,16 @@ class TestPaths(unittest.TestCase):
         self.assertEqual(registry["question:a"], "questions/algorithm/two-sum-2")
         self.assertEqual(registry["question:b"], "questions/algorithm/two-sum-3")
 
+    def test_a_registry_entry_this_run_did_not_render_is_kept(self):
+        # Path stability across a run with no export, and for entries from an
+        # older layout: nothing the registry has ever held is dropped or reused.
+        old = {"question:gone": "questions/algorithm/gone", "guide:legacy": "companies/meta/guides/legacy"}
+        result = build(load_catalog(payload()), (ROOT / "README.md").read_text(encoding="utf-8"), TODAY, old)
+        self.assertEqual(json.loads(result.files["data/paths.json"]), old)
+        data, _ = with_content()
+        kept = json.loads(render(data, old).files["data/paths.json"])
+        self.assertEqual({k: kept[k] for k in old}, old)
+
     def test_a_question_that_changes_format_moves(self):
         registry = assign_paths({"question:a": "questions/algorithm/x"}, [("question:a", "questions/system-design", "x")])
         self.assertEqual(registry["question:a"], "questions/system-design/x")
@@ -200,24 +226,6 @@ class TestPaths(unittest.TestCase):
     def test_slugify(self):
         self.assertEqual(slugify("Design A Top-K System (v2) & More"), "design-a-top-k-system-v2-and-more")
         self.assertEqual(slugify("???"), "untitled")
-
-
-class TestProcessGuides(unittest.TestCase):
-    def guide(self, slug, companies):
-        return Guide(slug=slug, title=slug, companies=companies, tags=(), url="https://x", added_at=None)
-
-    def test_the_stored_company_value_names_the_guide(self):
-        self.assertEqual(_process_role(self.guide("akunacapital-interview-process", ("akunacapital",))), ("process", None))
-        self.assertEqual(_process_role(self.guide("akunacapital-interview-process", ("Akuna Capital",))), ("process", None))
-        self.assertEqual(_process_role(self.guide("scale-ai-interview-process", ("scale.ai",))), ("process", None))
-        self.assertEqual(
-            _process_role(self.guide("openai-software-engineer-interview-process", ("openai",))),
-            ("role", "software-engineer"),
-        )
-
-    def test_another_companys_guide_is_an_ordinary_guide(self):
-        self.assertIsNone(_process_role(self.guide("meta-interview-process", ("openai",))))
-        self.assertIsNone(_process_role(self.guide("hm-bq-why-openai", ("openai",))))
 
 
 class TestRewrite(unittest.TestCase):

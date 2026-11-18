@@ -1,8 +1,8 @@
 name: Sync question bank
 
-# Hourly, because the product here is freshness: the 🔥/🆕 markers expire on a
-# clock, so a run that finds no new questions still has work to do. Offset off
-# the hour so this is not competing with everything else scheduled at :00.
+# Hourly. The recency files are measured back from the snapshot date, so a run
+# that finds no new questions still has work to do once a day. Offset off the
+# hour so this is not competing with everything else scheduled at :00.
 on:
   schedule:
     - cron: "23 * * * *"
@@ -67,10 +67,9 @@ jobs:
           # `git add -A` over the whole tree, deliberately, rather than a list of
           # the generated directories. That list already existed in exactly one
           # other place — GENERATED_DIRS in scripts/sync.py — and writing it
-          # twice is what let `guides/` be generated, be linked from the README,
-          # and never be committed: the README pointed at a page that did not
-          # exist. The sync only ever writes README.md and the generated
-          # directories, so there is nothing else here for -A to pick up.
+          # twice is how a generated directory ends up linked from the README
+          # and never committed. The sync only ever writes README.md and the
+          # generated directories, so there is nothing else here for -A to pick up.
           git add -A
           git commit \
             -m "Sync question bank from trueinterview.io" \

@@ -7,21 +7,19 @@
     python3 scripts/sync.py --snapshot-out f.json # save what it fetched, for offline replay
     python3 scripts/sync.py --today 2026-09-11    # pin the clock (tests, reproducing a diff)
 
-Three properties make this safe to run unattended on an hourly schedule:
+Three properties make this safe to run unattended on a schedule:
 
   * **It writes nothing on a failed read.** Everything is rendered and every
     budget is checked in memory first; the filesystem is touched only once the
     whole repository is known to be renderable. A half-written sync is worse
     than no sync, because the next run would treat the damage as the base.
-  * **It only writes files whose bytes actually changed.** The hourly schedule
-    means most runs have nothing to do, and a run with nothing to do must leave
-    no trace — otherwise the repository grows every hour whether or not anybody
-    added a question.
+  * **It only writes files whose bytes actually changed.** Most runs have
+    nothing to do, and a run with nothing to do must leave no trace, otherwise
+    the repository grows on every run whether or not anybody added a question.
   * **It prunes generated files the catalog no longer produces.** A company that
-    loses its last question, or a shard that shrinks from three pages to two,
-    leaves a file behind that nothing links to and nothing updates. Pruning is
-    scoped to the generated directories by construction (see ``GENERATED_DIRS``)
-    so a bad run can never reach the prose.
+    loses its last question leaves a folder behind that nothing links to and
+    nothing updates. Pruning is scoped to the generated directories by
+    construction (see ``GENERATED_DIRS``) so a bad run can never reach the prose.
 """
 
 from __future__ import annotations
@@ -46,13 +44,6 @@ README_TEMPLATE = ROOT / "README.md"
 # a render did not produce is deleted; anything outside them is never touched.
 GENERATED_DIRS = (
     "companies",
-    "company-types",
-    "formats",
-    "by-month",
-    "guides",
-    "insights",
-    "free",
-    "experiences",
     "data",
     "questions",
 )
@@ -77,7 +68,7 @@ def parse_args() -> argparse.Namespace:
         type=date.fromisoformat,
         default=None,
         metavar="YYYY-MM-DD",
-        help="Pin the date freshness markers are measured against (default: today).",
+        help="Pin the snapshot date the recency files are measured back from (default: today).",
     )
     parser.add_argument("--quiet", action="store_true", help="Only print the summary line.")
     return parser.parse_args()
@@ -86,17 +77,18 @@ def parse_args() -> argparse.Namespace:
 #: The only shape a generated path may have. Anchored at both ends, opening on
 #: a lowercase directory character (so nothing starts with a dot or a slash),
 #: and ending in one of the four extensions this repository publishes. Uppercase
-#: is allowed after the first character because every directory has a README.md.
+#: is allowed after the first character because every folder has a README.md.
 WRITABLE_PATH = re.compile(r"^[a-z0-9][A-Za-z0-9._/-]*\.(?:md|csv|jsonl|json)$")
 
 
 def refuse_unwritable(paths: Iterable[str]) -> list[str]:
     """Every rendered path this script may NOT write, with the reason.
 
-    A question's ``type`` is free text as far as the catalog API is concerned,
-    and it becomes a path — ``formats/{type}.md``, ``free/{type}.md``. Nothing
-    downstream checked it, so one row could name a file anywhere the process can
-    reach, and ``mkdir(parents=True)`` would make the directories on the way.
+    A question's ``type`` and a company's name are free text as far as the
+    catalog API is concerned, and both become paths (``questions/{type}/...``,
+    ``companies/{key}/...``). Unchecked, one row could name a file anywhere the
+    process can reach, and ``mkdir(parents=True)`` would make the directories on
+    the way.
     The repository's own rule is that pruning is "scoped to the generated
     directories by construction"; writing has to be too, and by the same
     construction rather than by trusting the renderer's f-strings.
@@ -194,15 +186,14 @@ def main() -> int:
 
     stats = result.stats
     largest_bytes, largest_path = stats["largest_page"]  # type: ignore[misc]
+    windows = stats["windows"]  # type: ignore[assignment]
     summary = (
-        f"{stats['questions']:,} questions · "
-        f"{stats['guides']:,}{'' if stats['guides_complete'] else '+'} guides "
-        f"({stats['guide_companies']} companies) · {stats['companies']} companies · "
-        f"{stats['months']} months · {stats['undated']:,} undated · "
-        f"{stats['free']:,} free · {stats['window']:,} in the last {stats['window_days']}d · "
-        f"{stats['experiences']:,} reports · "
+        f"{stats['questions']:,} questions · {stats['companies']} companies · "
+        f"{stats['undated']:,} undated · "
+        + " · ".join(f"{count:,} in {stem}" for stem, count in windows.items())  # type: ignore[union-attr]
+        + " · "
         + (
-            f"{stats['content_question_pages']:,} question pages · {stats['content_guide_pages']:,} guide pages · "
+            f"{stats['content_question_pages']:,} question pages · "
             if stats["content_configured"]
             else "content export not configured · "
         )
@@ -210,18 +201,10 @@ def main() -> int:
         f"largest page {largest_bytes:,} B ({largest_path})"
     )
 
-    if not stats["guides_complete"]:
-        print(
-            f"warning: only {stats['guides']} guides were reachable — /api/v1/articles on this "
-            "deployment returns one page and takes no offset. The guides index says so on the "
-            "page; deploy the paged listArticles to get the rest.",
-            file=sys.stderr,
-        )
-
     if stats["content_dropped"]:
         print(
-            f"warning: {stats['content_dropped']} body/bodies from the free-content export were not rendered — "
-            "the public metadata does not list them as free (question) or published (article).",
+            f"warning: {stats['content_dropped']} body/bodies from the content export were not rendered: "
+            "an article, or a question the public metadata does not list as free.",
             file=sys.stderr,
         )
 
@@ -230,7 +213,7 @@ def main() -> int:
         shown = ", ".join(future_dated[:10]) + ("…" if len(future_dated) > 10 else "")
         print(
             f"warning: {len(future_dated)} question(s) carry a sighting date after {today.isoformat()} "
-            f"and are rendered unmarked: {shown}",
+            f"and are kept out of every recency file: {shown}",
             file=sys.stderr,
         )
 
@@ -248,9 +231,13 @@ def main() -> int:
     for path in changed:
         target = ROOT / path
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(result.files[path], encoding="utf-8")
+        target.write_text(result.files[path], encoding="utf-8", newline="\n")
     for path in stale:
         (ROOT / path).unlink()
+    # A company that lost its last question leaves an empty folder behind.
+    for directory in sorted({(ROOT / path).parent for path in stale}, reverse=True):
+        if directory != ROOT and directory.is_dir() and not any(directory.iterdir()):
+            directory.rmdir()
 
     if args.snapshot_out:
         args.snapshot_out.parent.mkdir(parents=True, exist_ok=True)
@@ -263,6 +250,7 @@ def main() -> int:
             )
             + "\n",
             encoding="utf-8",
+            newline="\n",
         )
 
     if not args.quiet:
