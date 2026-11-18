@@ -13,14 +13,14 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Build Binary Tree from Edges / S-Expression](https://trueinterview.io/questions/binary-tree-from-edges) | Algorithm | Hard | Online assessment, Take-home | 1 | 2026-06-15 |
 | [Thread-Safe Buy/Sell Without Overselling](https://trueinterview.io/questions/multithreaded-buy-sell-lock) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-05-30 |
 | [Count Ordered Sequences That Sum to a Target](https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target) | Algorithm | Medium | Phone screen | 1 | 2026-04-28 |
-| [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Phone screen | 4 | 2026-04-14 |
+| [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md) | Algorithm | Medium | Phone screen | 4 | 2026-04-14 |
 | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-03-21 |
 | [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/questions/number-logic-sequence) | Blog | — | Online assessment | 1 | 2026-02-16 |
 | [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test) | Blog | — | Online assessment | 1 | 2026-02-16 |
 | [Beat the Odds — Probability Test](https://trueinterview.io/questions/beat-the-odds-probability) | Blog | — | Online assessment | 1 | 2026-02-16 |
 | [Target Stock Portfolio Operations](https://trueinterview.io/questions/target-stock-portfolio-operations) | Algorithm | Medium | Online assessment | 1 | 2026-02-06 |
 | [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost) | Algorithm | Hard | Online assessment | 1 | 2026-02-06 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
 | [Implement a Level-Aware Expiring Inventory Store](https://trueinterview.io/questions/implement-a-level-aware-expiring-inventory-store) | Object Oriented Programming | Medium | Online assessment | 1 | 2026-02-03 |
 | [Schedule Orders onto Planes](https://trueinterview.io/questions/opticargo-flight-scheduling) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-01-22 |
 | [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-01-16 |

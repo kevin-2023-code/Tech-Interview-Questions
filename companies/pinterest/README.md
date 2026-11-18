@@ -45,8 +45,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Onsite / virtual onsite | 13 | 2026-04-12 |
 | [Design Inventory Management System](https://trueinterview.io/questions/system-design-catalog-update-bulk-single) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-09 |
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Onsite / virtual onsite | 5 | 2026-04-09 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
-| [Trie Autocomplete / Prefix Search](https://trueinterview.io/questions/trie-autocomplete-prefix-search) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-03-29 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Trie Autocomplete / Prefix Search](../../questions/algorithm/trie-autocomplete-prefix-search/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-03-29 |
 | [Reconstruct Itinerary II](https://trueinterview.io/questions/reconstruct-itinerary-3) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-03-29 |
 | [Generate Attribute Combinations](https://trueinterview.io/questions/generate-attribute-combinations) | Algorithm | Medium | Phone screen | 1 | 2026-03-28 |
 | [Lighthouse Light Propagation](https://trueinterview.io/questions/lighthouse-2d-matrix) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-03-28 |
@@ -62,7 +62,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Design and Evaluate a Home Carousel](https://trueinterview.io/questions/design-and-evaluate-a-home-carousel) | Blog | — | Phone screen | 1 | 2026-01-14 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-01-14 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Onsite / virtual onsite | 6 | 2026-01-12 |
-| [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 4 | 2026-01-07 |
+| [Maximum Profit in Job Scheduling](../../questions/algorithm/maximum-profit-in-job-scheduling/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 4 | 2026-01-07 |
 | [Explain learning-rate fluctuation and vanishing gradients](https://trueinterview.io/questions/explain-learning-rate-fluctuation-and-vanishing-gradients) | Blog | — | Phone screen | 1 | 2025-12-15 |
 | [Solve a 9x9 Sudoku puzzle](https://trueinterview.io/questions/solve-a-9x9-sudoku-puzzle) | Algorithm | Hard | Phone screen | 1 | 2025-12-13 |
 | [Explain overfitting and how to prevent it](https://trueinterview.io/questions/explain-overfitting-and-how-to-prevent-it) | Blog | — | Phone screen | 1 | 2025-12-13 |
@@ -73,11 +73,11 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Newline-Split Stream Reader](https://trueinterview.io/questions/newline-stream-line-reader) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-11-28 |
 | [Call Elevator](https://trueinterview.io/questions/call-elevator) | Algorithm | Medium | Phone screen | 1 | 2025-11-18 |
 | [Reverse Count and Say](https://trueinterview.io/questions/string-from-rle-digits) | Algorithm | Medium | Phone screen | 1 | 2025-11-18 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
 | [Subarray Score ≤ K (Sliding-Window)](https://trueinterview.io/questions/subarray-score-at-most-k) | Algorithm | Medium | Phone screen | 1 | 2025-11-07 |
-| [Compute percent of first-cancel users who never return](https://trueinterview.io/questions/compute-percent-of-first-cancel-users-who-never-return) | SQL | Medium | Phone screen | 1 | 2025-10-26 |
+| [Compute percent of first-cancel users who never return](../../questions/sql/compute-percent-of-first-cancel-users-who-never-return/README.md) | SQL | Medium | Phone screen | 1 | 2025-10-26 |
 | [Spam Caller Counter](https://trueinterview.io/questions/spam-caller-counter) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-06-18 |
-| [Shortest Path in Unweighted Graph](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) | Algorithm | Easy | Onsite / virtual onsite | 2 | 2025-05-30 |
+| [Shortest Path in Unweighted Graph](../../questions/algorithm/shortest-path-in-unweighted-graph/README.md) | Algorithm | Easy | Onsite / virtual onsite | 2 | 2025-05-30 |
 | [Nested Set Equality](https://trueinterview.io/questions/nested-set-equality) | Algorithm | Medium | Onsite / virtual onsite | 2 | 2025-05-30 |
 | [Find Restaurant Intervals](https://trueinterview.io/questions/find-restaurant-intervals) | Algorithm | Medium | Phone screen | 1 | 2025-05-30 |
 | [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-05-30 |
@@ -117,7 +117,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Reach a Target by Inserting Addition or Multiplication Left to Right](https://trueinterview.io/questions/58c488bd-d704-52e2-beb8-105e3f2ae61d) | Algorithm | Medium | Phone screen | 1 | — |
 | [Delete a Subtree by Marking Nodes as Removed](https://trueinterview.io/questions/240aacef-d2d1-533b-b082-004b1d4015a8) | Algorithm | Medium | Phone screen | 1 | — |
 | [Longest Run of Identical Characters](https://trueinterview.io/questions/ee3f373d-6a1f-5751-b6f7-d7f4577b6670) | Algorithm | Easy | Online assessment | 3 | — |
-| [Coin Change (LC 322)](https://trueinterview.io/questions/coin-change) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
+| [Coin Change (LC 322)](../../questions/algorithm/coin-change/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
 | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
 | [Design A Video Recommendation System](https://trueinterview.io/questions/design-a-video-recommendation-system-2) | System Design | Hard | Onsite / virtual onsite | 4 | — |
 | [Design Soft 404 Detection](https://trueinterview.io/questions/design-soft-404-detection) | System Design | Medium | Onsite / virtual onsite | 1 | — |

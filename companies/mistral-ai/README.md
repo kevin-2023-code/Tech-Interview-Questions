@@ -17,8 +17,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7
 | [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | Blog | — | Phone screen | 1 | 2026-09-01 |
 | [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) | Blog | — | Phone screen | 1 | 2026-09-01 |
 | [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) | Blog | — | Phone screen | 1 | 2026-09-01 |
-| [Design a PDF-to-Markdown Inference API](https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api) | System Design | Hard | Phone screen | 1 | 2026-04-16 |
-| [Compute Remaining GPUs With Switching Limits](https://trueinterview.io/questions/compute-remaining-gpus-with-switching-limits) | Algorithm | Hard | Phone screen | 1 | 2026-04-16 |
+| [Design a PDF-to-Markdown Inference API](../../questions/system-design/design-a-pdf-to-markdown-inference-api/README.md) | System Design | Hard | Phone screen | 1 | 2026-04-16 |
+| [Compute Remaining GPUs With Switching Limits](../../questions/algorithm/compute-remaining-gpus-with-switching-limits/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-04-16 |
 
 ---
 

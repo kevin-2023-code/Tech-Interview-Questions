@@ -18,7 +18,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Design market price change notifications](https://trueinterview.io/questions/design-market-price-change-notifications) | System Design | Medium | Phone screen | 1 | 2026-02-04 |
 | [Demonstrate project impact and teach something](https://trueinterview.io/questions/demonstrate-project-impact-and-teach-something) | Blog | — | Phone screen | 1 | 2026-02-04 |
 | [Basic Text Justification (without full padding to fixed width)](https://trueinterview.io/questions/0187a685-9680-4dbf-8f34-9e316f33b78b) | Algorithm | Easy | Phone screen | 1 | 2026-01-31 |
-| [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 9 | 2026-01-30 |
+| [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 9 | 2026-01-30 |
 | [Solve Time-Window and Binary Swap Problems](https://trueinterview.io/questions/solve-time-window-and-binary-swap-problems) | Algorithm | Hard | Phone screen | 1 | 2026-01-20 |
 | [Rock-Paper-Scissors Lineup](https://trueinterview.io/questions/rock-paper-scissors-lineup) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-01-14 |
 | [Permutations with Self-Written Tests](https://trueinterview.io/questions/permutations-with-self-written-tests) | Algorithm | Easy | Phone screen | 1 | 2026-01-14 |
@@ -30,7 +30,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Rooms with Two Incoming Edges to Treasure](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure) | Algorithm | Easy | Phone screen | 1 | 2025-10-31 |
 | [Star Rating Component](https://trueinterview.io/questions/star-rating-component) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-10-06 |
 | [Describe Project and Collaboration Stories](https://trueinterview.io/questions/describe-project-and-collaboration-stories) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-01 |
-| [Anagram Sentence Substitutions](https://trueinterview.io/questions/anagram-sentence-substitutions) | Algorithm | Medium | Phone screen | 1 | 2025-09-25 |
+| [Anagram Sentence Substitutions](../../questions/algorithm/anagram-sentence-substitutions/README.md) | Algorithm | Medium | Phone screen | 1 | 2025-09-25 |
 | [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-07-14 |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | AI Coding | Easy | Phone screen | 3 | 2025-06 |
 | [Plan and validate ranking experiment](https://trueinterview.io/questions/plan-and-validate-ranking-experiment) | Blog | — | Phone screen | 1 | — |

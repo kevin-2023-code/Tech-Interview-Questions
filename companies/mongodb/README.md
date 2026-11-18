@@ -17,7 +17,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Algorithm | Easy | Online assessment | 1 | — |
 | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | Phone screen | 1 | — |
 | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | Algorithm | Hard | Phone screen | 1 | — |
-| [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Object Oriented Programming | Medium | Phone screen | 2 | — |
+| [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md) | Object Oriented Programming | Medium | Phone screen | 2 | — |
 
 ---
 

@@ -11,7 +11,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Design a Peer-to-Peer Money Transfer System](https://trueinterview.io/questions/design-a-peer-to-peer-money-transfer-system) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-05-08 |
-| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
+| [React UI: Multi-select Color Dropdown and Selected Properties Table](../../questions/object-oriented-programming/react-ui-multi-select-color-dropdown-and-selected-properties-table/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
 | [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/questions/72fc1b26-d7bc-4260-a442-36f08b50385c) | Blog | — | Onsite / virtual onsite | 1 | — |
 | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | Algorithm | Easy | Online assessment | 1 | — |
 

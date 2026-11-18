@@ -39,18 +39,18 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Convert integer dates to quarters](https://trueinterview.io/questions/convert-integer-dates-to-quarters) | SQL | Medium | Phone screen | 1 | — |
 | [Classify relationships for multiple circle pairs](https://trueinterview.io/questions/classify-relationships-for-multiple-circle-pairs) | Algorithm | Medium | Phone screen | 1 | — |
 | [Design a system to find median in a data stream under memory constraints](https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Lexicographically Smallest String After Substring Operation](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205) | Algorithm | Medium | Phone screen | 1 | — |
+| [Lexicographically Smallest String After Substring Operation](../../questions/algorithm/lexicographically-smallest-string-after-substring-operation/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4) | SQL | Medium | Online assessment | 1 | — |
 | [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
 | [SmartString Class Template](https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
 | [Optimal Stopping with Up to Three Dice Rolls](https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be) | Algorithm | Medium | Phone screen | 1 | — |
-| [Find Minimum in Rotated Sorted Array](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c) | Algorithm | Medium | Phone screen | 1 | — |
+| [Find Minimum in Rotated Sorted Array](../../questions/algorithm/find-minimum-in-rotated-sorted-array/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Find the Largest and Second Largest Elements](https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27) | Algorithm | Medium | Phone screen | 1 | — |
 | [Implement DictMixin and JSONMixin for object serialization](https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc) | Algorithm | Easy | Online assessment | 1 | — |
 | [Simulate a Deterministic Finite Automaton](https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe) | Algorithm | Easy | Online assessment | 1 | — |
 | [Portfolio Trading Optimizer (Multiple Transactions + Input Validation + Report)](https://trueinterview.io/questions/931ca2a6-3886-4c5c-84f7-d2208582067e) | Algorithm | Medium | Phone screen | 1 | — |
-| [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | Phone screen | 8 | — |
+| [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | 8 | — |
 
 ---
 

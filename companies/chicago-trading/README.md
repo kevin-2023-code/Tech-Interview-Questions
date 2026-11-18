@@ -13,7 +13,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Smart Queue / Stock Quote Container](https://trueinterview.io/questions/dc9b15b6-587c-50f2-b57d-e78f195df65e) | Algorithm | Medium | Phone screen | 1 | — |
 | [Implement a Simplified C++ Vector](https://trueinterview.io/questions/949cdc20-2c65-5d5c-be42-64c71e7ef665) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Simple Moving Average over a Fixed-Size Sliding Window](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa) | Algorithm | Medium | Phone screen | 1 | — |
+| [Simple Moving Average over a Fixed-Size Sliding Window](../../questions/algorithm/simple-moving-average-over-a-fixed-size-sliding-window/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](https://trueinterview.io/questions/15eeeb4d-047a-5c82-b3f2-0fe0eb40fe1c) | Algorithm | Hard | Phone screen | 1 | — |
 
 ---

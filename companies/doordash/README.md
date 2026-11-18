@@ -55,18 +55,18 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS)](https://trueinterview.io/questions/code-craft-multi-source-bfs-grid) | Algorithm | Medium | Phone screen | 1 | 2026-04-29 |
 | [Calculate Order Request Metrics — Q 3](https://trueinterview.io/questions/calculate-order-request-metrics-q3) | SQL | Medium | Onsite / virtual onsite | 1 | 2026-04-25 |
 | [Calculate Order Request Metrics — Q 1](https://trueinterview.io/questions/calculate-order-request-metrics-q1) | SQL | Easy | Onsite / virtual onsite | 1 | 2026-04-25 |
-| [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Phone screen | 4 | 2026-04-14 |
+| [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md) | Algorithm | Medium | Phone screen | 4 | 2026-04-14 |
 | [Design A Harmful Content Detection System](https://trueinterview.io/questions/harmful-content-detection-system) | System Design | Medium | Onsite / virtual onsite | 3 | 2026-04-13 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Onsite / virtual onsite | 13 | 2026-04-12 |
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Onsite / virtual onsite | 5 | 2026-04-09 |
 | [Code Craft: Basic Calculator (No Parentheses)](https://trueinterview.io/questions/code-craft-basic-calculator-no-parens) | Algorithm | Medium | Phone screen | 1 | 2026-04-06 |
 | [Debug a Random Dasher Registry](https://trueinterview.io/questions/debug-a-random-dasher-registry) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-03 |
 | [Customer Review Page (EM)](https://trueinterview.io/questions/system-design-customer-review-page-em) | System Design | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-04-02 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
 | [Code Craft: Restaurant Delivery Heatmap](https://trueinterview.io/questions/code-craft-restaurant-heatmap) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-03-23 |
 | [DE / AE Screen: SQL + Python (Sliding Window + Joins)](https://trueinterview.io/questions/de-ae-sql-python-screen) | SQL | Medium | Phone screen | 1 | 2026-03-20 |
 | [Build UI from Mockup with API](https://trueinterview.io/questions/frontend-vo-build-ui) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-03-20 |
-| [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
+| [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
 | [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling) | SQL | Medium | Onsite / virtual onsite | 1 | 2026-03-16 |
 | [On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-15 |
 | [Code Craft: Similar Restaurant Names (K-Swap Anagram)](https://trueinterview.io/questions/code-craft-similar-restaurant-names) | Algorithm | Easy | Phone screen | 1 | 2026-03-13 |
@@ -77,7 +77,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Code Craft: Batch with Capacity & Time Window](https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle) | Algorithm | Medium | Phone screen | 1 | 2026-02-07 |
 | [Evaluate a new ranking model](https://trueinterview.io/questions/evaluate-a-new-ranking-model) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-06 |
 | [Design Real-Time Driver Pay Aggregation](https://trueinterview.io/questions/design-real-time-driver-pay-aggregation) | System Design | Hard | Phone screen | 1 | 2026-02-06 |
-| [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Algorithm | Medium | Phone screen | 6 | 2026-02-04 |
+| [Serialize and Deserialize Binary Tree](../../questions/algorithm/serialize-and-deserialize-binary-tree/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-02-04 |
 | [Find Each Cell's Nearest Source](https://trueinterview.io/questions/find-each-cells-nearest-source) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-02-03 |
 | [Assess Adding Bicycle Dashers](https://trueinterview.io/questions/assess-adding-bicycle-dashers) | Blog | — | Phone screen | 1 | 2026-02-02 |
 | [Investigate High Memory Usage](https://trueinterview.io/questions/investigate-high-memory-usage) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-31 |
@@ -104,7 +104,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Design experiment for bike delivery feature](https://trueinterview.io/questions/design-experiment-for-bike-delivery-feature) | System Design | Medium | Phone screen | 1 | 2025-11-15 |
 | [How would you prevent wrong items in deliveries?](https://trueinterview.io/questions/how-would-you-prevent-wrong-items-in-deliveries) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-17 |
 | [Design a scalable recommendation serving system](https://trueinterview.io/questions/design-a-scalable-recommendation-serving-system) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-10-17 |
-| [Find closest value to a target in a BST](https://trueinterview.io/questions/find-closest-value-to-a-target-in-a-bst) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-10-17 |
+| [Find closest value to a target in a BST](../../questions/algorithm/find-closest-value-to-a-target-in-a-bst/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-10-17 |
 | [Walk Through an ETL Project](https://trueinterview.io/questions/walk-through-an-etl-project) | Blog | — | Phone screen | 1 | 2025-10-12 |
 | [Compute Fitness App DAU](https://trueinterview.io/questions/compute-fitness-app-dau) | SQL | Medium | Phone screen | 1 | 2025-10-12 |
 | [Allocate Support Cost and Diagnose Decline](https://trueinterview.io/questions/allocate-support-cost-and-diagnose-decline) | Blog | — | Phone screen | 1 | 2025-10-12 |
@@ -147,7 +147,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Adjust Prices](https://trueinterview.io/questions/3e5b7ff1-ae9e-4b12-bb30-53665b60e66f) | Algorithm | Hard | Phone screen | 1 | — |
 | [Minimum Replacements to Make Two Strings Anagrams](https://trueinterview.io/questions/ab4d715c-a45e-4d9d-bff9-8fe14a380cbf) | Algorithm | Medium | Phone screen | 2 | — |
 | [Debugging a Load Balancer Implementation and Add Round-Robin Routing](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Find Peak Element](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) | Algorithm | Medium | Phone screen | 2 | — |
+| [Find Peak Element](../../questions/algorithm/find-peak-element/README.md) | Algorithm | Medium | Phone screen | 2 | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Medium | Onsite / virtual onsite | 6 | — |
 | [Count and Say](https://trueinterview.io/questions/fd94fd33-664d-46f3-b15b-9121ced75b5e) | Algorithm | Easy | Online assessment | 1 | — |
 | [Calculate Total Payment for Dasher](https://trueinterview.io/questions/e6ef089b-490d-47b3-8a92-8cf96b06acec) | Algorithm | Medium | Phone screen | 1 | — |

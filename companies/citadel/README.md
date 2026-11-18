@@ -36,12 +36,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8
 | [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/questions/gqs-quant-phone-brainteasers) | Blog | — | Phone screen | 1 | 2026-04-28 |
 | [Design Inventory Availability and Order Placement](https://trueinterview.io/questions/design-inventory-availability-and-order-placement) | System Design | Medium | Phone screen | 1 | 2026-04-06 |
 | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-04-02 |
-| [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Phone screen | 5 | 2026-04-01 |
+| [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | 5 | 2026-04-01 |
 | [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/questions/qd-eqr-onsite-coding-ladder) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-30 |
 | [Discuss a Project You Are Proud Of and How You Work](https://trueinterview.io/questions/discuss-a-project-you-are-proud-of-and-how-you-work) | Blog | — | Phone screen | 1 | 2026-03-29 |
 | [Game of Life — In-Place and Infinite Board](https://trueinterview.io/questions/game-of-life-in-place-infinite) | Algorithm | Hard | Phone screen | 1 | 2026-03-21 |
 | [Minimum Character Changes to Make Every k-Length Block a Palindrome](https://trueinterview.io/questions/minimum-character-changes-to-make-every-k-length-block-a-palindrome) | Algorithm | Medium | Online assessment | 2 | 2026-03-11 |
-| [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Phone screen | 9 | 2026-03-09 |
+| [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | 9 | 2026-03-09 |
 | [Single-Producer Multi-Consumer Ring Buffer](https://trueinterview.io/questions/single-producer-multi-consumer-ring-buffer) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-03-08 |
 | [Time-Keyed Key-Value Store (set / get-before-timestamp)](https://trueinterview.io/questions/time-keyed-kv-store) | Algorithm | Medium | Phone screen | 1 | 2026-02-18 |
 | [Refactor Obfuscated C++ Code (Hidden Best-Time-To-Buy-Sell)](https://trueinterview.io/questions/obfuscated-code-refactor) | Algorithm | Medium | Online assessment | 1 | 2026-02-06 |
@@ -92,7 +92,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8
 | [Statistics from a 256-Bucket Frequency Array](https://trueinterview.io/questions/d00a6fa5-a7cf-5259-903f-603e51c7bfea) | Algorithm | Medium | Phone screen | 1 | — |
 | [Word Frequency Counter](https://trueinterview.io/questions/aada71de-6b38-53c5-89d3-6988b6a5865a) | Algorithm | Easy | Online assessment | 1 | — |
 | [Online Batched No-Intercept Regression](https://trueinterview.io/questions/73c7aafc-4208-59c9-9bc1-f3dddb06e125) | Algorithm | Medium | Phone screen | 1 | — |
-| [Search Suggestions System](https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13) | Algorithm | Medium | Phone screen | 2 | — |
+| [Search Suggestions System](../../questions/algorithm/search-suggestions-system/README.md) | Algorithm | Medium | Phone screen | 2 | — |
 | [Piecewise Linear Interpolation with Extrapolation](https://trueinterview.io/questions/4796cc39-cf33-52af-9075-2fa0d3a0bf34) | Algorithm | Medium | Phone screen | 1 | — |
 | [Town Temperature Regression Analysis](https://trueinterview.io/questions/40633852-5eda-59ea-9c7a-4e233abff5ec) | Algorithm | Hard | Phone screen | 1 | — |
 | [Square and Reverse a List](https://trueinterview.io/questions/053a4fe5-1f9c-51b1-a965-6f9698ca8bcd) | Algorithm | Easy | Online assessment | 1 | — |

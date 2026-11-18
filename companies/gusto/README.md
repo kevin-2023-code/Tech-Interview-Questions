@@ -11,7 +11,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Calculate Tax from Progressive Brackets](https://trueinterview.io/questions/calculate-tax-from-progressive-brackets) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-08-01 |
-| [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Onsite / virtual onsite | 6 | 2026-03-20 |
+| [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | 6 | 2026-03-20 |
 | [Compute p-values for 2 variants vs control](https://trueinterview.io/questions/compute-p-values-for-2-variants-vs-control) | Blog | — | Phone screen | 1 | 2025-11-02 |
 | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
 | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |

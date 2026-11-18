@@ -53,7 +53,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4
 | [Minimum Hits Needed](https://trueinterview.io/questions/96a1a76b-aad1-425d-88a1-e28fff36624b) | Algorithm | Medium | Phone screen | 1 | — |
 | [Token Expiry and Reset Management Problem](https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579) | Algorithm | Medium | Phone screen | 3 | — |
 | [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Algorithm | Easy | Online assessment | 3 | — |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | Phone screen | 14 | — |
+| [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | 14 | — |
 
 ---
 

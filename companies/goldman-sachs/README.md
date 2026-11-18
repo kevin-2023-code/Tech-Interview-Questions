@@ -23,13 +23,13 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8
 | [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-06-21 |
 | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Easy | Phone screen | 1 | 2026-06-18 |
 | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Object Oriented Programming | Easy | Phone screen | 1 | 2026-06-18 |
-| [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Phone screen | 6 | 2026-06-16 |
+| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-06-16 |
 | [Math and Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank) | Blog | — | Online assessment | 1 | 2026-05-30 |
 | [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) | Blog | — | Onsite / virtual onsite | 1 | 2026-05-13 |
 | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | Phone screen | 3 | 2026-05 |
 | [String Compression](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | Online assessment | 2 | 2026-04-03 |
-| [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
-| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Onsite / virtual onsite | 7 | 2026-03-17 |
+| [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
+| [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | 7 | 2026-03-17 |
 | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-03-11 |
 | [Transaction Authorizer / Fraud Checks](https://trueinterview.io/questions/transaction-authorizer-fraud-checks) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-02-12 |
 | [Movement Command Controller](https://trueinterview.io/questions/movement-command-controller) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2026-02-05 |
@@ -48,12 +48,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8
 | [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid) | Algorithm | Medium | Online assessment | 1 | 2025-09-08 |
 | [Decode Ways / Alphanumeric Combination](https://trueinterview.io/questions/decode-ways) | Algorithm | Medium | Online assessment, Phone screen | 1 | 2025-07-11 |
 | [Extend Queue: Min-Size & Min-Sum Selector](https://trueinterview.io/questions/queue-extension-min-size-min-sum) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-06-09 |
-| [Merge K Sorted Lists (incl. K = 3)](https://trueinterview.io/questions/merge-k-sorted-lists-3) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-06-09 |
+| [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-06-09 |
 | [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/questions/horse-race-25) | Blog | — | Onsite / virtual onsite | 1 | 2025-06-09 |
 | [Explain Recursion to a Non-CS Audience](https://trueinterview.io/questions/explain-recursion-no-cs-audience) | Blog | — | Phone screen | 1 | 2024-12-05 |
 | [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring) | Algorithm | Easy | Phone screen | 1 | 2024-11-21 |
 | [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/questions/hash-collision-fundamentals) | Blog | — | Phone screen | 1 | 2024-11-21 |
-| [Spiral Matrix Traversal](https://trueinterview.io/questions/spiral-matrix-output) | Algorithm | Medium | Phone screen | 2 | 2024-11-15 |
+| [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | 2 | 2024-11-15 |
 | [Maximum-Sum Path in a Matrix (No Revisits)](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat) | Algorithm | Hard | Phone screen | 1 | 2024-11-15 |
 | [Second-Smallest Unique Element](https://trueinterview.io/questions/second-smallest-unique-element) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2024-11-14 |
 | [Count Unique Pairs With Difference K](https://trueinterview.io/questions/unique-pairs-difference-k) | Algorithm | Easy | Online assessment | 1 | 2024-10-26 |
@@ -68,10 +68,10 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8
 | [Staircase Search in a Sorted 2D Matrix](https://trueinterview.io/questions/dbd4755b-bf74-5377-b3ca-42bb7bdc22e8) | Algorithm | Medium | Phone screen | 1 | — |
 | [Maximum Rock Collection Path in a Grid](https://trueinterview.io/questions/d2cd1228-3f9d-563d-adb7-4d5f86c1af78) | Algorithm | Medium | Phone screen | 1 | — |
 | [Cutting Metal Surplus](https://trueinterview.io/questions/4289b575-f765-46f3-b2e0-20b17e388ab0) | Algorithm | Hard | Phone screen | 1 | — |
-| [Frequency of the Most Frequent Element](https://trueinterview.io/questions/341d7cdd-b278-57d7-9f6c-203d53b500ce) | Algorithm | Medium | Phone screen | 1 | — |
+| [Frequency of the Most Frequent Element](../../questions/algorithm/frequency-of-the-most-frequent-element/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Dungeon Health](https://trueinterview.io/questions/2a9a0a9f-e0b8-5bea-89c7-dbc1cba4dfcc) | Algorithm | Hard | Phone screen | 1 | — |
 | [Implement Heap Insert](https://trueinterview.io/questions/21b6a445-4f44-5df6-b4fe-1c7a01c4aac6) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | Phone screen | 8 | — |
+| [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | 8 | — |
 | [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Object Oriented Programming | Medium | Onsite / virtual onsite | 3 | — |
 | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | Online assessment | 2 | — |
 | [Implement Linear Regression with Backpropagation](https://trueinterview.io/questions/e0cc580d-54fa-411a-a923-65403162050a) | Algorithm | Medium | Phone screen | 2 | — |

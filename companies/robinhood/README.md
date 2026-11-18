@@ -30,12 +30,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Onsite / virtual onsite | 13 | 2026-04-12 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Onsite / virtual onsite | 4 | 2026-04 |
 | [Text Layout Into Rows](https://trueinterview.io/questions/text-layout-into-rows) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2026-04 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
 | [Friends Money Transfer Request Processor](https://trueinterview.io/questions/friends-money-transfer-request-processor) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-03-30 |
 | [Design a Photo Management Service](https://trueinterview.io/questions/design-a-photo-management-service) | System Design | Easy | Onsite / virtual onsite | 1 | 2026-03-16 |
 | [Implement Calendar Layout and String Packing](https://trueinterview.io/questions/implement-calendar-layout-and-string-packing) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-03-16 |
 | [Analytics Engineer: SQL + Python Sessionization](https://trueinterview.io/questions/analytics-engineer-sql-python) | SQL | Medium | Phone screen | 1 | 2026-03-06 |
-| [Load Factor Calculation](https://trueinterview.io/questions/service-dependency-load-factor) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-03 |
+| [Load Factor Calculation](../../questions/algorithm/service-dependency-load-factor/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-03 |
 | [Aggregate user logs into 30-minute sessions](https://trueinterview.io/questions/aggregate-user-logs-into-30-minute-sessions) | Algorithm | Medium | Phone screen | 1 | 2026-02-28 |
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price) | System Design | Medium | Onsite / virtual onsite | 3 | 2026-02-26 |
 | [Handle security vs velocity conflicts across teams](https://trueinterview.io/questions/handle-security-vs-velocity-conflicts-across-teams) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-22 |
@@ -48,7 +48,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Onsite / virtual onsite | 5 | 2025-10-26 |
 | [Design a secure trading app on AWS](https://trueinterview.io/questions/design-a-secure-trading-app-on-aws) | System Design | Hard | Phone screen | 1 | 2025-10-21 |
 | [Design an experiment to launch fractional shares](https://trueinterview.io/questions/design-an-experiment-to-launch-fractional-shares) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-01 |
-| [Top 10 Words](https://trueinterview.io/questions/top-10-frequent-words) | Algorithm | Medium | Phone screen | 1 | 2025-10 |
+| [Top 10 Words](../../questions/algorithm/top-10-frequent-words/README.md) | Algorithm | Medium | Phone screen | 1 | 2025-10 |
 | [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-08 |
 | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-06 |
 | [Find Middle Course](https://trueinterview.io/questions/find-middle-course) | Algorithm | Easy | Phone screen | 1 | 2025-04-10 |

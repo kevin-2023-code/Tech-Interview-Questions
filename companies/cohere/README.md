@@ -10,8 +10,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Algorithm | Medium | Phone screen | 1 | 2026-09-15 |
-| [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-15 |
+| [Implement a Card-Details Form with Dependent Validation](../../questions/algorithm/implement-a-card-details-form-with-dependent-validation/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-09-15 |
+| [Design Real-Time Comments with Optimistic Updates](../../questions/system-design/design-real-time-comments-with-optimistic-updates/README.md) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-15 |
 | [Design an Enterprise Research Assistant with Verifiable Citations](https://trueinterview.io/questions/design-an-enterprise-research-assistant-with-verifiable-citations) | System Design | Hard | Phone screen | 1 | 2026-04-09 |
 
 ---

@@ -16,7 +16,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | Online assessment | 4 | 2026-05-21 |
 | [Correct Bedroom Counts from Descriptions](https://trueinterview.io/questions/correct-bedroom-counts-from-descriptions) | Algorithm | Easy | Online assessment | 1 | 2026-05-21 |
 | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | Phone screen | 1 | 2026-05-06 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [Find an Exit in a URL Maze](https://trueinterview.io/questions/find-an-exit-in-a-url-maze) | Algorithm | Medium | Phone screen | 1 | 2026-04-21 |
 | [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-04 |
 | [Minimum Character Changes to Make Every k-Length Block a Palindrome](https://trueinterview.io/questions/minimum-character-changes-to-make-every-k-length-block-a-palindrome) | Algorithm | Medium | Online assessment | 2 | 2026-03-11 |
@@ -44,7 +44,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | Onsite / virtual onsite | 6 | — |
 | [Minimum Changes to Make a K-Periodic Palindromic Password](https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03) | Algorithm | Medium | Phone screen | 2 | — |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | Phone screen | 14 | — |
+| [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | 14 | — |
 | [Maximum Earnings After Converting Days Off to Workdays](https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb) | Algorithm | Medium | Phone screen | 2 | — |
 
 ---

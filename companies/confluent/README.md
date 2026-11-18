@@ -18,14 +18,14 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Implement tail -n for a Very Large File](https://trueinterview.io/questions/implement-tail-n-for-a-very-large-file) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-01-01 |
 | [Explain Linux Command Execution, Filesystems, and Isolation](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-01 |
 | [Design an LRU Cache with a Constant-Time Average](https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-01-01 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Phone screen | 10 | 2025-10-15 |
 | [Design Infinite Queue with GetRandom O(1)](https://trueinterview.io/questions/design-infinite-queue-with-getrandom-o-1) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
 | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | Onsite / virtual onsite | 7 | — |
 | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | Onsite / virtual onsite | 4 | — |
 | [Windowed Key-Value Store](https://trueinterview.io/questions/windowed-key-value-store) | Object Oriented Programming | Hard | Phone screen | 1 | — |
-| [Wildcard Matching](https://trueinterview.io/questions/wildcard-matching) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | — |
+| [Wildcard Matching](../../questions/algorithm/wildcard-matching/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | — |
 | [Monsters Battle](https://trueinterview.io/questions/monsters-battle) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
 | [Rank Songs by Popularity](https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49) | Algorithm | Medium | Online assessment | 2 | — |
 | [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |

@@ -29,7 +29,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Worker Registration Payroll Calculation](https://trueinterview.io/questions/c7dcf405-b5b0-405d-9164-b770da49caa0) | Algorithm | Medium | Phone screen | 1 | — |
 | [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Algorithm | Easy | Online assessment | 1 | — |
 | [File Crawler](https://trueinterview.io/questions/868c0ea1-62d7-4555-aeb2-7d9033aebbe5) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Hangman Optimal Strategy](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252) | Algorithm | Hard | Phone screen | 1 | — |
+| [Hangman Optimal Strategy](../../questions/algorithm/hangman-optimal-strategy/README.md) | Algorithm | Hard | Phone screen | 1 | — |
 | [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) | Algorithm | Medium | Phone screen | 3 | — |
 
 ---

@@ -12,7 +12,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Progressive Banking System](https://trueinterview.io/questions/oa-banking-system-2) | Object Oriented Programming | Medium | Online assessment | 1 | 2026-10-14 |
 | [Parcel Attribute Store](https://trueinterview.io/questions/oa-parcel-attribute-store) | Object Oriented Programming | Medium | Online assessment | 1 | 2026-10-09 |
-| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Phone screen, Onsite / virtual onsite | 5 | 2026-09-23 |
+| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 5 | 2026-09-23 |
 | [Document Redaction](https://trueinterview.io/questions/mle-document-redaction) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-09-19 |
 | [In-Memory File System](https://trueinterview.io/questions/oa-in-memory-file-system) | Object Oriented Programming | Medium | Online assessment | 1 | 2026-09-08 |
 | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-04 |
@@ -57,7 +57,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Solve a Two-by-Three Sliding Puzzle](https://trueinterview.io/questions/solve-a-two-by-three-sliding-puzzle) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-21 |
 | [Flatten a Nested Integer List](https://trueinterview.io/questions/flatten-a-nested-integer-list) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-04-21 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Onsite / virtual onsite | 13 | 2026-04-12 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
 | [Home Page — Search + Availability + Ranking](https://trueinterview.io/questions/home-page-search-availability-design) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-03-29 |
 | [Maximum Ski Score](https://trueinterview.io/questions/ski-path-max-score-dag) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-03-20 |
 | [Infection Spread Time on a Grid](https://trueinterview.io/questions/infection-spread-time-on-a-grid) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-03-04 |
@@ -71,11 +71,11 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Find best downhill ski run from a start](https://trueinterview.io/questions/find-best-downhill-ski-run-from-a-start) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-01-19 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Onsite / virtual onsite | 6 | 2026-01-12 |
 | [Host Listings Page — Aggregation Optimization](https://trueinterview.io/questions/host-listings-page-optimization) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-01-10 |
-| [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 4 | 2026-01-07 |
+| [Maximum Profit in Job Scheduling](../../questions/algorithm/maximum-profit-in-job-scheduling/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 4 | 2026-01-07 |
 | [Design Retriable Function](https://trueinterview.io/questions/implement-retryer) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-12-23 |
 | [Answer cross-team delivery and values questions](https://trueinterview.io/questions/answer-cross-team-delivery-and-values-questions) | Blog | — | Phone screen | 1 | 2025-12-20 |
 | [Query System — Time + Geo Filtered User Activity](https://trueinterview.io/questions/query-system-time-geo-search) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-11-30 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
 | [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | 2025-11-07 |
 | [Collatz Sequence Steps](https://trueinterview.io/questions/collatz-sequence-steps) | Algorithm | Easy | Phone screen | 2 | 2025-10-16 |
 | [Flatten 2D Array With Remove](https://trueinterview.io/questions/flatten-2d-array-with-remove) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-10-09 |

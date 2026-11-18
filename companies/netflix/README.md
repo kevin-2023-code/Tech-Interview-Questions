@@ -11,17 +11,17 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [MLE Intern OA: ML Fundamentals](https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals) | Blog | — | Online assessment | 1 | 2026-09-23 |
-| [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-06-15 |
+| [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-06-15 |
 | [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-06-09 |
-| [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 4 | 2026-06-04 |
-| [Contains Duplicate III](https://trueinterview.io/questions/contains-duplicate-iii) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-05-26 |
+| [Topological Sort / Course Schedule for Ads](../../questions/algorithm/topological-sort-course-schedule-ads/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 4 | 2026-06-04 |
+| [Contains Duplicate III](../../questions/algorithm/contains-duplicate-iii/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-05-26 |
 | [Answer Netflix Culture Screen Questions](https://trueinterview.io/questions/answer-netflix-culture-screen-questions) | Blog | — | Phone screen | 1 | 2026-05-24 |
 | [Versioned File System](https://trueinterview.io/questions/versioned-file-system) | Object Oriented Programming | Medium | Online assessment, Phone screen | 1 | 2026-05-21 |
 | [Design an Ads Frequency Cap System](https://trueinterview.io/questions/design-an-ads-frequency-cap-system) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-05-21 |
 | [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-05-21 |
 | [Weighted Cache](https://trueinterview.io/questions/weighted-cache) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-05-12 |
 | [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/questions/ml-research-orals) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-05-09 |
-| [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 5 | 2026-05 |
+| [Meeting Rooms](../../questions/algorithm/meeting-rooms-2/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 5 | 2026-05 |
 | [Design a File Backup System](https://trueinterview.io/questions/design-a-file-backup-system) | System Design | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-05-01 |
 | [Tagged Command Undo](https://trueinterview.io/questions/tagged-command-undo) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-04-30 |
 | [Latency Tracker Percentile](https://trueinterview.io/questions/latency-tracker-percentile) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-04-24 |
@@ -39,7 +39,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Multi-thread Atomic Counter](https://trueinterview.io/questions/multi-thread-atomic-counter) | Object Oriented Programming | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-03-31 |
 | [Homepage Billboard Rotation](https://trueinterview.io/questions/homepage-billboard-rotation) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-03-29 |
 | [Data Engineering Movie Success Pipeline](https://trueinterview.io/questions/data-engineering-movie-success-pipeline) | SQL | Medium | Phone screen | 1 | 2026-03-25 |
-| [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
+| [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
 | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-03-11 |
 | [Design demand-side ads relational tables](https://trueinterview.io/questions/design-demand-side-ads-relational-tables) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-03-09 |
 | [How do you give and receive feedback?](https://trueinterview.io/questions/how-do-you-give-and-receive-feedback) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-09 |
@@ -48,12 +48,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Compute ITT, TOT, and LATE with noncompliance](https://trueinterview.io/questions/compute-itt-tot-and-late-with-noncompliance) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-05 |
 | [Answer core probability and statistics questions](https://trueinterview.io/questions/answer-core-probability-and-statistics-questions) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-05 |
 | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-03-03 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
 | [Netflix Sentiment Tracking](https://trueinterview.io/questions/netflix-sentiment-tracking) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-02-02 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Phone screen | 10 | 2026-02-01 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Phone screen, Onsite / virtual onsite | 8 | 2026-02 |
 | [Video Recommendation](https://trueinterview.io/questions/video-recommendation) | System Design | Hard | Onsite / virtual onsite | 2 | 2026-02 |
-| [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 9 | 2026-01-30 |
+| [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 9 | 2026-01-30 |
 | [Design a Global Config Deployment System](https://trueinterview.io/questions/design-a-global-config-deployment-system) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-01-29 |
 | [Movie History Friends](https://trueinterview.io/questions/a5e89ec7-7af5-47b7-a8e5-e7d453d2e070) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-01-28 |
 | [Music Playlist](https://trueinterview.io/questions/music-playlist) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-01-26 |
@@ -65,7 +65,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Sort by User Preference](https://trueinterview.io/questions/sort-by-user-preference) | Object Oriented Programming | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-01-17 |
 | [Error Rate Monitor](https://trueinterview.io/questions/error-rate-monitor) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-01-14 |
 | [Design a WAL Log Enrichment Pipeline](https://trueinterview.io/questions/design-a-wal-log-enrichment-pipeline) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-01-09 |
-| [Reconstruct Itinerary](https://trueinterview.io/questions/reconstruct-itinerary) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 2 | 2026-01-09 |
+| [Reconstruct Itinerary](../../questions/algorithm/reconstruct-itinerary/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 2 | 2026-01-09 |
 | [Build a Recommendation System and Conversational Interface from Scratch](https://trueinterview.io/questions/build-a-recommendation-system-and-conversational-interface-from-scratch) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-01-07 |
 | [How would you support ML stakeholders?](https://trueinterview.io/questions/how-would-you-support-ml-stakeholders) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-06 |
 | [User Engagement Patterns](https://trueinterview.io/questions/user-engagement-patterns) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-01-02 |

@@ -10,7 +10,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 3 | 2026-08-04 |
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | Phone screen | 1 | 2026-07-22 |
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Phone screen | 1 | 2026-07-22 |
@@ -18,43 +18,43 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-07-07 |
 | [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-07-07 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 5 | 2026-06-28 |
-| [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Phone screen | 6 | 2026-06-16 |
+| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-06-16 |
 | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-06-16 |
-| [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Phone screen | 4 | 2026-06-16 |
+| [Longest Palindromic Substring](../../questions/algorithm/longest-palindromic-substring/README.md) | Algorithm | Medium | Phone screen | 4 | 2026-06-16 |
 | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-06-16 |
 | [Behavioral Question Pool](https://trueinterview.io/questions/behavioral-question-pool) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-06-16 |
-| [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Onsite / virtual onsite | 5 | 2026-06-16 |
+| [Median of Two Sorted Arrays](../../questions/algorithm/median-of-two-sorted-arrays/README.md) | Algorithm | Hard | Onsite / virtual onsite | 5 | 2026-06-16 |
 | [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-06-04 |
 | [Active Users Sliding Window](https://trueinterview.io/questions/active-users-sliding-window) | Algorithm | Medium | Phone screen | 1 | 2026-05-03 |
-| [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 5 | 2026-05 |
-| [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 8 | 2026-04-09 |
+| [Meeting Rooms](../../questions/algorithm/meeting-rooms-2/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 5 | 2026-05 |
+| [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 8 | 2026-04-09 |
 | [Check Whether Two Strings Are Anagrams](https://trueinterview.io/questions/check-whether-two-strings-are-anagrams) | Algorithm | Easy | Onsite / virtual onsite | 2 | 2026-04-07 |
-| [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
+| [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Onsite / virtual onsite | 10 | 2026-03-23 |
-| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Onsite / virtual onsite | 7 | 2026-03-17 |
-| [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Phone screen | 9 | 2026-03-09 |
-| [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
-| [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 6 | 2026-03-04 |
+| [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | 7 | 2026-03-17 |
+| [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | 9 | 2026-03-09 |
+| [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
+| [Alien Dictionary](../../questions/algorithm/alien-dictionary/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 6 | 2026-03-04 |
 | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-03-03 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Algorithm | Medium | Phone screen | 4 | 2026-03 |
 | [Subway / Network Connectivity](https://trueinterview.io/questions/subway-network-connectivity) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-02-25 |
 | [Find Tree Root from Edge List](https://trueinterview.io/questions/find-tree-root-from-edges) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-02-25 |
 | [Streaming Social-Media Mentions & Aggregation](https://trueinterview.io/questions/streaming-social-media-mentions-aggregation) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-02-22 |
 | [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-02-22 |
-| [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Phone screen | 7 | 2026-02-19 |
+| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | 7 | 2026-02-19 |
 | [Decode String](https://trueinterview.io/questions/decode-string) | Algorithm | Medium | Phone screen | 3 | 2026-02-16 |
 | [Answer project and leadership behavioral questions](https://trueinterview.io/questions/answer-project-and-leadership-behavioral-questions) | Blog | — | Phone screen | 1 | 2026-02-12 |
 | [Implement sliding-window timestamped average](https://trueinterview.io/questions/implement-sliding-window-timestamped-average) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-02-12 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Phone screen | 10 | 2026-02-01 |
 | [Gas Tank Grid Reachability](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Onsite / virtual onsite | 2 | 2026-01-31 |
 | [Top-K Frequent Tickers (Stock Leaderboard)](https://trueinterview.io/questions/top-k-frequent-stock-tickers) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-01-26 |
 | [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-01-22 |
-| [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-01-22 |
+| [Flatten a Multilevel Doubly Linked List](../../questions/algorithm/flatten-multilevel-doubly-linked-list/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-01-22 |
 | [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-01-21 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-01-14 |
 | [Introduce yourself and explain why Bloomberg](https://trueinterview.io/questions/introduce-yourself-and-explain-why-bloomberg) | Blog | — | Phone screen | 1 | 2026-01-06 |
-| [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Phone screen | 4 | 2026-01-05 |
+| [Word Search](../../questions/algorithm/word-search/README.md) | Algorithm | Medium | Phone screen | 4 | 2026-01-05 |
 | [Wordle Character Compare](https://trueinterview.io/questions/wordle-character-compare) | Algorithm | Medium | Phone screen | 1 | 2026-01-04 |
 | [Todo List OOP Design](https://trueinterview.io/questions/todo-list-oop) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-01-04 |
 | [Word Search in 2D Grid](https://trueinterview.io/questions/word-search-grid) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-01-01 |
@@ -63,11 +63,11 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | 2025-11-27 |
 | [Describe leading an end-to-end client project](https://trueinterview.io/questions/describe-leading-an-end-to-end-client-project) | Blog | — | Phone screen | 1 | 2025-11-24 |
 | [Simplified Grep](https://trueinterview.io/questions/simplified-grep) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-11-22 |
-| [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Algorithm | Medium | Onsite / virtual onsite | 2 | 2025-11-22 |
+| [Friends Of Appropriate Ages](../../questions/algorithm/friends-of-appropriate-ages/README.md) | Algorithm | Medium | Onsite / virtual onsite | 2 | 2025-11-22 |
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Phone screen | 3 | 2025-11-17 |
-| [Answer multi-round grid and data-structure questions](https://trueinterview.io/questions/answer-multi-round-grid-and-data-structure-questions) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2025-10-30 |
+| [Answer multi-round grid and data-structure questions](../../questions/algorithm/answer-multi-round-grid-and-data-structure-questions/README.md) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2025-10-30 |
 | [Palindrome Stream Tracker](https://trueinterview.io/questions/palindrome-stream-tracker) | Algorithm | Hard | Phone screen | 1 | 2025-10-17 |
-| [Solve two array and string problems](https://trueinterview.io/questions/solve-two-array-and-string-problems) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-10-16 |
+| [Solve two array and string problems](../../questions/algorithm/solve-two-array-and-string-problems/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-10-16 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Phone screen | 5 | 2025-10-16 |
 | [Stock Trade Ranking System](https://trueinterview.io/questions/stock-trade-ranking-system) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-10-16 |
 | [Partition Array by Equivalence Function](https://trueinterview.io/questions/partition-array-by-equivalence-function) | Algorithm | Medium | Phone screen | 1 | 2025-10-16 |
@@ -75,7 +75,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Design File Search Tool](https://trueinterview.io/questions/design-file-search-tool) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2025-10-16 |
 | [Collatz Sequence Steps](https://trueinterview.io/questions/collatz-sequence-steps) | Algorithm | Easy | Phone screen | 2 | 2025-10-16 |
 | [Design a Mutable Sparse Matrix and Implement Matrix Multiplication](https://trueinterview.io/questions/ee0ef43a-fe22-54a8-8a93-33dca55f9533) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Find All Duplicates in an Array](https://trueinterview.io/questions/b30bc310-9b19-5b87-93f3-f22efc18884a) | Algorithm | Medium | Phone screen | 1 | — |
+| [Find All Duplicates in an Array](../../questions/algorithm/find-all-duplicates-in-an-array/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Design a Sparse Array and Compute Sparse Vector Dot Products](https://trueinterview.io/questions/95fd1aff-d21b-5fe7-8197-a277df386da6) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
 | [Lowest Common Ancestor in an N-ary Tree](https://trueinterview.io/questions/2805d985-5044-5751-9d1e-93c24171a61f) | Algorithm | Medium | Phone screen | 1 | — |
 | [Minimum Steps to Make Two Strings Anagram](https://trueinterview.io/questions/minimum-steps-to-make-two-strings-anagram) | Algorithm | Easy | Phone screen | 1 | — |
@@ -86,7 +86,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Refactor an LRU Cache into a Pluggable Eviction-Policy Cache](https://trueinterview.io/questions/312640e3-e5d3-5e4b-b47f-0a997bf3471d) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | Onsite / virtual onsite | 10 | — |
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | Phone screen | 4 | — |
-| [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | Phone screen | 8 | — |
+| [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | 8 | — |
 | [Interval Problem Requiring Sorting by Start (or End)](https://trueinterview.io/questions/5164c36d-171e-41d6-8bf0-1f573c012781) | Algorithm | Medium | Phone screen | 2 | — |
 | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Algorithm | Hard | Phone screen | 1 | — |
 | [Sort Words by Custom Alphabet Order](https://trueinterview.io/questions/cc94ea6c-3a6b-4cd7-8694-6f1770e09b83) | Algorithm | Medium | Phone screen | 1 | — |
@@ -103,8 +103,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Bucket Values Into Boundary Ranges](https://trueinterview.io/questions/1d02d34f-d87d-4e50-a0ca-2428899bdd99) | Algorithm | Easy | Online assessment | 1 | — |
 | [Design an Ordered Stream](https://trueinterview.io/questions/03ad9796-e965-4a19-8245-bf84d20faefc) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Object Oriented Programming | Medium | Onsite / virtual onsite | 9 | — |
-| [Evaluate Reverse Polish Notation](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) | Algorithm | Medium | Phone screen | 2 | — |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | Phone screen | 14 | — |
+| [Evaluate Reverse Polish Notation](../../questions/algorithm/evaluate-reverse-polish-notation/README.md) | Algorithm | Medium | Phone screen | 2 | — |
+| [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | 14 | — |
 
 ---
 

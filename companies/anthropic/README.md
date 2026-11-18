@@ -22,19 +22,19 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-08-24 |
 | [Explain Your Motivation and Practical Approach to AI Safety](https://trueinterview.io/questions/explain-your-motivation-and-practical-approach-to-ai-safety) | Blog | — | Phone screen | 1 | 2026-08-22 |
 | [Explain AI Safety and Weigh Advanced AI Benefits and Risks](https://trueinterview.io/questions/explain-ai-safety-and-weigh-advanced-ai-benefits-and-risks) | Blog | — | Phone screen | 1 | 2026-08-19 |
-| [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Phone screen | 2 | 2026-06-19 |
+| [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md) | Algorithm | Medium | Phone screen | 2 | 2026-06-19 |
 | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-06-15 |
 | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | Online assessment | 1 | 2026-06-15 |
 | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-06-15 |
 | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Hard | Phone screen | 1 | 2026-06-15 |
 | [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic) | Blog | — | Phone screen | 1 | 2026-06-12 |
-| [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-06-10 |
+| [Find Duplicate Files](../../questions/object-oriented-programming/find-duplicate-files/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-06-10 |
 | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-06-04 |
 | [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design) | System Design | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-06-04 |
 | [In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-06-04 |
 | [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral) | Blog | — | Onsite / virtual onsite | 1 | 2026-06-03 |
 | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | System Design | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-06-02 |
-| [LRU Cache (Python)](https://trueinterview.io/questions/lru-cache-python) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-06 |
+| [LRU Cache (Python)](../../questions/algorithm/lru-cache-python/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-06 |
 | [Tokenize (Python)](https://trueinterview.io/questions/tokenize-python) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-06 |
 | [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-06 |
 | [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events) | Algorithm | Medium | Phone screen | 1 | 2026-06 |
@@ -78,10 +78,10 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Explain projects and handle AI-safety conflicts](https://trueinterview.io/questions/explain-projects-and-handle-ai-safety-conflicts) | Blog | — | Onsite / virtual onsite | 1 | 2025-11-19 |
 | [Implement staircase printing and distributed mode/median](https://trueinterview.io/questions/implement-staircase-printing-and-distributed-mode-median) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-11-19 |
 | [Why Anthropic and its values?](https://trueinterview.io/questions/why-anthropic-and-its-values) | Blog | — | Phone screen | 1 | 2025-10-19 |
-| [Find duplicate files and apply image operations](https://trueinterview.io/questions/find-duplicate-files-and-apply-image-operations) | Algorithm | Hard | Phone screen | 1 | 2025-10-15 |
+| [Find duplicate files and apply image operations](../../questions/algorithm/find-duplicate-files-and-apply-image-operations/README.md) | Algorithm | Hard | Phone screen | 1 | 2025-10-15 |
 | [Describe failure impact and resolve cross-functional conflict](https://trueinterview.io/questions/describe-failure-impact-and-resolve-cross-functional-conflict) | Blog | — | Phone screen | 1 | 2025-10-09 |
 | [Function Cache Keys and Crash-Recoverable LRU Cache](https://trueinterview.io/questions/1634ce25-e301-53d6-ae4c-af51fb820611) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
-| [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | Object Oriented Programming | Medium | Phone screen | 5 | — |
+| [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | 5 | — |
 | [Stack Trace Suffix Matching](https://trueinterview.io/questions/3f55c628-6ee0-5304-8799-4ae500643827) | Algorithm | Medium | Phone screen | 1 | — |
 | [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0) | Object Oriented Programming | Hard | Onsite / virtual onsite | 2 | — |
 | [Minimum Workers with Deterministic Job Assignment](https://trueinterview.io/questions/168b4161-b86a-5ebc-a16f-6118c8c00adb) | Algorithm | Medium | Phone screen | 1 | — |
@@ -89,7 +89,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f) | Algorithm | Easy | Online assessment | 2 | — |
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | Online assessment, Onsite / virtual onsite | 5 | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | Onsite / virtual onsite | 10 | — |
-| [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Object Oriented Programming | Medium | Phone screen | 2 | — |
+| [Concurrent Web Crawler](../../questions/object-oriented-programming/concurrent-web-crawler/README.md) | Object Oriented Programming | Medium | Phone screen | 2 | — |
 | [Web Crawler Implementation](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Process Cat Images](https://trueinterview.io/questions/a91f29c5-e919-47ed-b1fd-aa5470b62735) | AI Coding | Easy | Onsite / virtual onsite | 1 | — |
 | [Image Transformation using Python Libraries](https://trueinterview.io/questions/d5535584-0980-47fb-862d-6f9f7569791d) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |

@@ -11,7 +11,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Make Cache Fetch Thread-Safe and Single-Flight](https://trueinterview.io/questions/make-cache-fetch-thread-safe-and-single-flight) | System Design | Hard | Phone screen | 1 | 2026-02-16 |
-| [Execute TTL Cache Operations with Fetch-on-Miss](https://trueinterview.io/questions/execute-ttl-cache-operations-with-fetch-on-miss) | Algorithm | Hard | Phone screen | 1 | 2026-02-16 |
+| [Execute TTL Cache Operations with Fetch-on-Miss](../../questions/algorithm/execute-ttl-cache-operations-with-fetch-on-miss/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-02-16 |
 | [Thumbnail Selection for a Streaming Catalog](https://trueinterview.io/questions/ml-system-design-thumbnail-selection-for-a-streaming-catalog) | System Design | Hard | Phone screen | 1 | 2026-02-10 |
 | [Machine Learning Fundamentals: Tree Models, Training, Evaluation, and Embeddings](https://trueinterview.io/questions/machine-learning-fundamentals-tree-models-training-evaluation-and-embeddings) | Blog | — | Phone screen | 1 | 2026-02-10 |
 | [Weighted Random Sampling by Index](https://trueinterview.io/questions/weighted-random-sampling-by-index) | Algorithm | Medium | Phone screen | 1 | 2026-02-10 |
@@ -21,7 +21,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Explain p‑values to a product manager](https://trueinterview.io/questions/explain-pvalues-to-a-product-manager) | Blog | — | Phone screen | 1 | — |
 | [Diagnose and fix selection bias in experiments](https://trueinterview.io/questions/diagnose-and-fix-selection-bias-in-experiments) | Blog | — | Phone screen | 1 | — |
 | [Determine A/B test sample size drivers](https://trueinterview.io/questions/determine-a-b-test-sample-size-drivers) | Blog | — | Phone screen | 1 | — |
-| [Compute daily net users from event logs](https://trueinterview.io/questions/compute-daily-net-users-from-event-logs) | SQL | Medium | Phone screen | 1 | — |
+| [Compute daily net users from event logs](../../questions/sql/compute-daily-net-users-from-event-logs/README.md) | SQL | Medium | Phone screen | 1 | — |
 
 ---
 

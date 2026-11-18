@@ -6,7 +6,284 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 
 [All companies](../README.md#companies)
 
-No statement is published in this snapshot. Every question is listed under its company in [`companies/`](../README.md#companies).
+## Algorithm (196)
+
+| Question | Difficulty | Asked at |
+| :-- | :-: | :-- |
+| [Best Time to Buy and Sell Stock II](algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Easy | Apple · Amazon · Bloomberg · ByteDance · Citadel |
+| [Binary Tree Right Side View](algorithm/binary-tree-right-side-view/README.md) | Easy | ByteDance · Amazon · Google · Meta · Microsoft |
+| [Calculate Amount Paid in Taxes](algorithm/calculate-amount-paid-in-taxes/README.md) | Easy | Snowflake |
+| [Compute Variance from a Python List](algorithm/compute-variance-from-a-python-list/README.md) | Easy | PayPal |
+| [Happy Number](algorithm/happy-number/README.md) | Easy | Snowflake · Apple |
+| [In-Flight Movie Pair (Two Sum Variant)](algorithm/in-flight-movie-pair-two-sum/README.md) | Easy | Amazon · Bloomberg · ByteDance · Ebay · Goldman Sachs |
+| [Longest Substring Without Repeating Characters II](algorithm/longest-substring-without-repeating-characters/README.md) | Easy | Apple · Amazon · Bloomberg · ByteDance · Datadog |
+| [Lowest Common Ancestor of a Binary Tree](algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Easy | Uber · Amazon · Atlassian · ByteDance · Google |
+| [Meeting Rooms](algorithm/meeting-rooms-2/README.md) | Easy | Uber · Amazon · Bloomberg · Meta · Netflix |
+| [Merge Two Sorted Lists](algorithm/merge-two-sorted-lists/README.md) | Easy | Apple · Amazon · Snowflake |
+| [Next Greater Element I](algorithm/next-greater-element-i/README.md) | Easy | Pinduoduo |
+| [Remove Nth Node From End of List](algorithm/lc-remove-nth-from-end/README.md) | Easy | Meta |
+| [Search a 2D Matrix](algorithm/search-a-2d-matrix/README.md) | Easy | Apple |
+| [Shortest Path in Unweighted Graph](algorithm/shortest-path-in-unweighted-graph/README.md) | Easy | Pinterest · ByteDance |
+| [Sum Root-to-Leaf Numbers](algorithm/sum-root-to-leaf-numbers/README.md) | Easy | Meta |
+| [Top K Frequent Elements](algorithm/top-k-frequent-elements/README.md) | Easy | Apple · Amazon · ByteDance · Google · LinkedIn |
+| [Valid Palindrome](algorithm/valid-palindrome/README.md) | Easy | Apple · Amazon · Google · Meta |
+| [Valid Parentheses](algorithm/valid-parentheses/README.md) | Easy | Apple · Amazon · Bloomberg · Boston Consulting Group · ByteDance |
+| [Valid Sudoku](algorithm/valid-sudoku/README.md) | Easy | Apple · Meta · Verkada |
+| [Verifying an Alien Dictionary](algorithm/verifying-an-alien-dictionary/README.md) | Easy | Uber · Meta |
+| [Anagram Sentence Substitutions](algorithm/anagram-sentence-substitutions/README.md) | Medium | SoFi |
+| [Assign Random Ads](algorithm/assign-random-ads/README.md) | Medium | Ebay |
+| [Basic Calculator](algorithm/basic-calculator-2/README.md) | Medium | Netflix · ByteDance · Google · Instacart · Meta |
+| [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](algorithm/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping/README.md) | Medium | Siemens |
+| [Best Time to Buy and Sell Stock IV](algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Medium | Meta · Amazon · Apple · Bloomberg · Goldman Sachs |
+| [Best Time to Buy and Sell Stock with Cooldown](algorithm/best-time-to-buy-and-sell-stock-with-cooldown/README.md) | Medium | GEICO |
+| [Binary Search — Rightmost Index of Duplicate](algorithm/binary-search-rightmost-duplicate/README.md) | Medium | Oracle |
+| [Build Naive Bayes spam classifier with F1](algorithm/build-naive-bayes-spam-classifier-with-f1/README.md) | Medium | Disney |
+| [Camera Motion Detection](algorithm/camera-motion-detection/README.md) | Medium | Verkada |
+| [Cheapest Flights Within K Stops](algorithm/cheapest-flights-within-k-stops-3/README.md) | Medium | Uber · Apple · Snowflake |
+| [Check if adding edge creates cycle in digraph](algorithm/check-if-adding-edge-creates-cycle-in-digraph/README.md) | Medium | Amazon |
+| [Check Vertical Reflection Symmetry with Duplicate Points](algorithm/check-vertical-reflection-symmetry-with-duplicate-points/README.md) | Medium | Nuro |
+| [Citation Highlighting](algorithm/citation-highlighting/README.md) | Medium | Harvey |
+| [Coin Change (LC 322)](algorithm/coin-change/README.md) | Medium | Pinterest |
+| [Combination Sum](algorithm/combination-sum/README.md) | Medium | — |
+| [Combination Sum IV](algorithm/combination-sum-iv/README.md) | Medium | — |
+| [Compute outer boundary of an N-ary tree](algorithm/compute-outer-boundary-of-an-n-ary-tree/README.md) | Medium | Uber |
+| [Container With Most Water](algorithm/container-with-most-water-2/README.md) | Medium | Oracle |
+| [Container With Most Water II](algorithm/container-with-most-water/README.md) | Medium | Apple |
+| [Contains Duplicate III](algorithm/contains-duplicate-iii/README.md) | Medium | Netflix |
+| [Continuous Subarray Sum](algorithm/continuous-subarray-sum/README.md) | Medium | Meta |
+| [Copy List with Random Pointer](algorithm/copy-list-with-random-pointer/README.md) | Medium | Snowflake |
+| [Copy List with Random Pointer (LC 138)](algorithm/copy-list-with-random-pointer-2/README.md) | Medium | Apple |
+| [Count Islands and Water Boundary](algorithm/count-islands-and-water-boundary/README.md) | Medium | Snapchat · Google · Tesla · Waymo |
+| [Count of Interesting Subarrays](algorithm/count-of-interesting-subarrays/README.md) | Medium | ByteDance |
+| [Course Schedule](algorithm/course-schedule/README.md) | Medium | Apple · Amazon · DoorDash · Google · Meta |
+| [Decode Ways](algorithm/decode-ways-2/README.md) | Medium | Tesla |
+| [Delete k Elements to Balance](algorithm/delete-k-elements-to-balance/README.md) | Medium | ByteDance |
+| [Dictionary Encoding (Lossless) for Comma-Separated Words](algorithm/dictionary-encoding-lossless-for-comma-separated-words/README.md) | Medium | Amplitude |
+| [Dictionary Word Transformation Path](algorithm/dictionary-word-transformation-path/README.md) | Medium | Reddit |
+| [Dojo Pythonic Coding Pair: Permutation Check and Pow](algorithm/dojo-permutation-and-pow/README.md) | Medium | Tesla |
+| [Dropped Requests (Rate Limiter)](algorithm/dropped-requests-rate-limiter/README.md) | Medium | Snowflake · Oracle |
+| [Encode and Decode Strings (LC 271)](algorithm/encode-and-decode-strings/README.md) | Medium | Snowflake |
+| [Enumerate All Balanced Bracket Strings for N Pairs](algorithm/generate-parentheses/README.md) | Medium | C3.ai |
+| [Evaluate Reverse Polish Notation](algorithm/evaluate-reverse-polish-notation/README.md) | Medium | Stripe · Bloomberg |
+| [Evaluate String Expression](algorithm/nested-function-expression-evaluator/README.md) | Medium | Google · Affirm · Uber |
+| [Exclusive Time of Functions](algorithm/exclusive-time-of-functions/README.md) | Medium | Uber · Meta |
+| [Find accessible devices via nested memberships](algorithm/find-accessible-devices-via-nested-memberships/README.md) | Medium | Axon |
+| [Find All Duplicates in an Array](algorithm/find-all-duplicates-in-an-array/README.md) | Medium | Bloomberg |
+| [Find Anagram in String](algorithm/find-anagram-in-string/README.md) | Medium | Atlassian |
+| [Find closest value to a target in a BST](algorithm/find-closest-value-to-a-target-in-a-bst/README.md) | Medium | DoorDash |
+| [Find first and last index of target](algorithm/find-first-and-last-index-of-target/README.md) | Medium | ByteDance |
+| [Find K Closest Elements](algorithm/find-k-closest-elements/README.md) | Medium | Visa · LinkedIn |
+| [Find Minimum in Rotated Sorted Array](algorithm/find-minimum-in-rotated-sorted-array/README.md) | Medium | Point72 |
+| [Find Peak Element](algorithm/find-peak-element/README.md) | Medium | Meta · DoorDash |
+| [Find the Intersection of Two Linked Chains](algorithm/find-the-intersection-of-two-linked-chains/README.md) | Medium | C3.ai |
+| [Find the Largest K Elements with Partitioning](algorithm/find-the-largest-k-elements-with-partitioning/README.md) | Medium | AMD |
+| [Frequency of the Most Frequent Element](algorithm/frequency-of-the-most-frequent-element/README.md) | Medium | Goldman Sachs |
+| [Friends Of Appropriate Ages](algorithm/friends-of-appropriate-ages/README.md) | Medium | Bloomberg · Meta |
+| [Graph Valid Tree](algorithm/graph-valid-tree/README.md) | Medium | Apple |
+| [Group Anagrams](algorithm/group-anagrams/README.md) | Medium | Uber · Amazon · Apple · Databricks · Meta |
+| [Hash a Repository with a Merkle Tree and Find Changed Files](algorithm/hash-a-repository-with-a-merkle-tree-and-find-changed-files/README.md) | Medium | Cursor |
+| [House Robber II](algorithm/house-robber-ii/README.md) | Medium | Amazon |
+| [House Robber Series](algorithm/house-robber-series/README.md) | Medium | Databricks · Amazon · Cisco · Expedia · Meta |
+| [Implement `uniq` — Unique Lines in a File](algorithm/unique-lines-command/README.md) | Medium | Vanta |
+| [Implement a Card-Details Form with Dependent Validation](algorithm/implement-a-card-details-form-with-dependent-validation/README.md) | Medium | Cohere |
+| [Implement matrix multiplication and fast exponentiation](algorithm/implement-matrix-multiplication-and-fast-exponentiation/README.md) | Medium | WeRide |
+| [Implement Trie with Non-Standard Alphabet](algorithm/implement-trie-with-non-standard-alphabet/README.md) | Medium | Snowflake |
+| [Incremental Task Scheduler](algorithm/incremental-task-scheduler/README.md) | Medium | LinkedIn |
+| [Infection Spread Simulation](algorithm/infection-spread-simulation/README.md) | Medium | OpenAI · Anthropic |
+| [Insert Interval (LC 57)](algorithm/insert-interval/README.md) | Medium | Apple · Oracle · Uber |
+| [Jump Game](algorithm/jump-game/README.md) | Medium | ByteDance · Google · Microsoft · Visa |
+| [Koko Eating Bananas](algorithm/koko-eating-bananas/README.md) | Medium | Apple · Amazon · DoorDash · Optiver |
+| [Kth Smallest Element in a BST (LC 230)](algorithm/kth-smallest-element-in-a-bst-2/README.md) | Medium | Amazon |
+| [Lexicographically Smallest String After Substring Operation](algorithm/lexicographically-smallest-string-after-substring-operation/README.md) | Medium | Point72 |
+| [Load Factor Calculation](algorithm/service-dependency-load-factor/README.md) | Medium | Robinhood |
+| [Longest Palindromic Substring](algorithm/longest-palindromic-substring/README.md) | Medium | Bloomberg · ByteDance · Cisco · Ebay |
+| [Longest Repeating Character Replacement](algorithm/longest-repeating-character-replacement/README.md) | Medium | ByteDance · Microsoft · Pinduoduo |
+| [Longest Subarray with Bounded Diff](algorithm/phone-screen-longest-stable-subarray/README.md) | Medium | Uber |
+| [Longest Substring Without Repeating Characters](algorithm/longest-substring-without-repeating-characters-2/README.md) | Medium | Verkada · Amazon · ByteDance |
+| [Maximum Completable Tasks with Prerequisites (Topological)](algorithm/course-prerequisites-task-count/README.md) | Medium | Oracle |
+| [Maximum Number of Events That Can Be Attended](algorithm/maximum-number-of-events-that-can-be-attended/README.md) | Medium | Snowflake |
+| [Meeting Rooms / Interval Scheduling Variants](algorithm/meeting-rooms-variants/README.md) | Medium | Google |
+| [Meeting Rooms II](algorithm/meeting-rooms-ii/README.md) | Medium | Google · LinkedIn |
+| [Merge Intervals](algorithm/merge-intervals/README.md) | Medium | Apple · Amazon · ByteDance · Google · Lyft |
+| [Merge K Sorted Lists](algorithm/merge-k-sorted-lists/README.md) | Medium | Apple · ByteDance · Citadel · Meta · Snowflake |
+| [Merge K Sorted Lists (incl. K = 3)](algorithm/merge-k-sorted-lists-3/README.md) | Medium | Goldman Sachs |
+| [Merge multiple sorted arrays using min-heap](algorithm/merge-multiple-sorted-arrays-using-min-heap/README.md) | Medium | Microsoft |
+| [Merge N-ary Trees by Node Key](algorithm/coding-merge-nary-trees-by-key/README.md) | Medium | LinkedIn · Microsoft |
+| [Merge Two Binary Trees](algorithm/merge-two-binary-trees/README.md) | Medium | LinkedIn |
+| [Min Remove to Make Valid Parentheses](algorithm/min-remove-to-make-valid-parens/README.md) | Medium | Meta |
+| [Minimum Meeting Rooms](algorithm/minimum-meeting-rooms/README.md) | Medium | Ramp · Amazon · Bloomberg · ByteDance · Ebay |
+| [Minimum Window Substring](algorithm/minimum-window-substring/README.md) | Medium | Lyft · ByteDance · Meta |
+| [Modified Basic Calculator](algorithm/modified-basic-calculator/README.md) | Medium | Rokt · Instacart · WeRide |
+| [N-ary Tree Level Order Traversal](algorithm/n-ary-tree-level-order-traversal/README.md) | Medium | Uber |
+| [N-Queens](algorithm/n-queens/README.md) | Medium | Snowflake · ByteDance |
+| [Non-Overlapping Intervals (LeetCode 435)](algorithm/non-overlapping-intervals/README.md) | Medium | ByteDance |
+| [Number of Islands (LC 200)](algorithm/number-of-islands-4/README.md) | Medium | Oracle |
+| [Number of Islands (Plain and Streaming)](algorithm/phone-screen-number-of-islands/README.md) | Medium | Uber · Amazon · Bloomberg · ByteDance · Google |
+| [Number of Provinces](algorithm/number-of-provinces/README.md) | Medium | Expedia |
+| [Number of Subarrays That Match a Pattern I](algorithm/number-of-subarrays-that-match-a-pattern-i/README.md) | Medium | Capital One |
+| [Pacific Atlantic Water Flow](algorithm/pacific-atlantic-water-flow/README.md) | Medium | — |
+| [Palindrome Linked List (LC 234) + Engineering Follow-Up](algorithm/palindrome-linked-list/README.md) | Medium | Microsoft |
+| [Permutations II](algorithm/permutations-ii/README.md) | Medium | Google |
+| [Prefix Search I](algorithm/prefix-search-i/README.md) | Medium | Yelp |
+| [Product of Array Except Self](algorithm/product-of-array-except-self/README.md) | Medium | Apple · Amazon · GEICO · Microsoft · Squarepoint |
+| [Random Pick with Weight](algorithm/random-pick-with-weight/README.md) | Medium | Meta · Amazon |
+| [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](algorithm/rate-limit-by-multiple-request-fields-per-field-multi-dimensional/README.md) | Medium | Roblox |
+| [Redundant Connection: Underground Pipes](algorithm/redundant-connection-underground-pipes/README.md) | Medium | Two Sigma |
+| [Restore IP Addresses](algorithm/restore-ip-addresses/README.md) | Medium | ByteDance · OKX · OpenAI |
+| [Reverse linked list in fixed-size groups](algorithm/reverse-linked-list-in-fixed-size-groups/README.md) | Medium | Microsoft |
+| [Robot Bounded In Circle](algorithm/robot-bounded-in-circle/README.md) | Medium | Uber · Meta |
+| [Rotate Matrix with Gravity Effect](algorithm/rotate-matrix-with-gravity-effect/README.md) | Medium | Uber |
+| [Rotting Oranges](algorithm/rotting-oranges/README.md) | Medium | Uber · Amazon |
+| [Search in Rotated Sorted Array](algorithm/search-in-rotated-sorted-array/README.md) | Medium | ByteDance · Ebay · NVIDIA |
+| [Search Suggestions System](algorithm/search-suggestions-system/README.md) | Medium | Citadel · Amazon |
+| [Serialize and Deserialize Binary Tree](algorithm/serialize-and-deserialize-binary-tree/README.md) | Medium | Apple · Amazon · ByteDance · Databricks · DoorDash |
+| [Service Shutdown / Topological Sort](algorithm/service-shutdown-topological-sort/README.md) | Medium | Amazon |
+| [Shipping Cost Calculator](algorithm/shipping-cost-calculator/README.md) | Medium | Stripe |
+| [Simple Moving Average over a Fixed-Size Sliding Window](algorithm/simple-moving-average-over-a-fixed-size-sliding-window/README.md) | Medium | Chicago Trading |
+| [Sliding Window Maximum](algorithm/sliding-window-maximum/README.md) | Medium | Uber · Amazon · ByteDance |
+| [Sliding-Window Rate Limiter II](algorithm/sliding-window-rate-limiter/README.md) | Medium | Roblox · Amazon · Atlassian · LinkedIn · Microsoft |
+| [Solve two array and string problems](algorithm/solve-two-array-and-string-problems/README.md) | Medium | Bloomberg |
+| [Sort Colors](algorithm/sort-colors/README.md) | Medium | OKX · Capital One |
+| [Spiral Matrix](algorithm/spiral-matrix/README.md) | Medium | Atlassian · Pinduoduo |
+| [Spiral Matrix Traversal](algorithm/spiral-matrix-output/README.md) | Medium | Goldman Sachs · Microsoft |
+| [Split a Chunked Text Stream into Line-Balanced Parts](algorithm/split-a-chunked-text-stream-into-line-balanced-parts/README.md) | Medium | Together AI |
+| [Subarray Sum Equals K](algorithm/subarray-sum-equals-k/README.md) | Medium | Apple · ByteDance · Meta |
+| [Sum of Two Integers](algorithm/sum-of-two-integers/README.md) | Medium | — |
+| [Time Based Key-Value Store](algorithm/time-based-key-value-store-2/README.md) | Medium | Uber · Amazon · ByteDance · Gusto · Microsoft |
+| [Top 10 Words](algorithm/top-10-frequent-words/README.md) | Medium | Robinhood |
+| [Top K Frequent Elements](algorithm/top-k-frequent-elements-3/README.md) | Medium | Uber · Amazon · ByteDance · Meta · Microsoft |
+| [Topological Sort / Course Schedule for Ads](algorithm/topological-sort-course-schedule-ads/README.md) | Medium | Netflix · Amazon · ByteDance · Ebay |
+| [Trie Autocomplete / Prefix Search](algorithm/trie-autocomplete-prefix-search/README.md) | Medium | Pinterest · Google |
+| [Valid Palindrome II](algorithm/valid-palindrome-ii/README.md) | Medium | Meta · Microsoft |
+| [Validate Binary Search Tree](algorithm/validate-binary-search-tree/README.md) | Medium | Bloomberg · Amazon · ByteDance · Goldman Sachs · Lyft |
+| [Wildcard Matching](algorithm/wildcard-matching/README.md) | Medium | Confluent |
+| [Windowed Average excluding Largest K](algorithm/windowed-average-excluding-largest-k/README.md) | Medium | Google |
+| [Word Break](algorithm/word-break/README.md) | Medium | Uber · ByteDance · Meta |
+| [Word Search](algorithm/word-search/README.md) | Medium | Uber · Amazon · Bloomberg · Shopify |
+| [1D Players and Watcher With Direction Changes](algorithm/1d-players-and-watcher-with-direction-changes/README.md) | Hard | Hudson River Trading |
+| [Alien Dictionary](algorithm/alien-dictionary/README.md) | Hard | Uber · Apple · Bloomberg · ByteDance · Meta |
+| [Alien Dictionary Evaluation](algorithm/alien-dictionary-evaluation/README.md) | Hard | Uber |
+| [All Nodes Distance K in Binary Tree](algorithm/all-nodes-distance-k-in-binary-tree/README.md) | Hard | Meta · Apple |
+| [Answer multi-round grid and data-structure questions](algorithm/answer-multi-round-grid-and-data-structure-questions/README.md) | Hard | Bloomberg |
+| [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](algorithm/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner/README.md) | Hard | Jane Street |
+| [Code Review: Thread Safety of a Python Compute-and-Cache Function](algorithm/code-review-thread-safety-of-a-python-compute-and-cache-function/README.md) | Hard | Mercor |
+| [Compute interval mode, BST range sum, exclusive time](algorithm/compute-interval-mode-bst-range-sum-exclusive-time/README.md) | Hard | Meta |
+| [Compute Remaining GPUs With Switching Limits](algorithm/compute-remaining-gpus-with-switching-limits/README.md) | Hard | Mistral AI |
+| [Connect-N on an Infinite Board with Gravity](algorithm/connect-n-on-an-infinite-board-with-gravity/README.md) | Hard | Jane Street |
+| [Count Blocked Rate-Limited Requests](algorithm/count-blocked-rate-limited-requests/README.md) | Hard | Render |
+| [Data Labeling Task Scheduler](algorithm/data-labeling-task-scheduler/README.md) | Hard | OpenAI |
+| [Design Cluster Message Aggregation](algorithm/design-cluster-message-aggregation/README.md) | Hard | OpenAI |
+| [Detect cycles and break them in pod dependencies](algorithm/detect-cycles-and-break-them-in-pod-dependencies/README.md) | Hard | Together AI |
+| [Execute TTL Cache Operations with Fetch-on-Miss](algorithm/execute-ttl-cache-operations-with-fetch-on-miss/README.md) | Hard | Tubi |
+| [Find All Shortest Paths in Word Ladder](algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Hard | Lyft |
+| [Find duplicate files and apply image operations](algorithm/find-duplicate-files-and-apply-image-operations/README.md) | Hard | Anthropic |
+| [Find Maximum Path Sum in N-ary Tree](algorithm/find-maximum-path-sum-in-n-ary-tree/README.md) | Hard | Nuro |
+| [Find Median from Data Stream](algorithm/find-median-from-data-stream/README.md) | Hard | Snowflake · Amazon · ByteDance · Google · Meta |
+| [Find shortest path on infinite grid](algorithm/find-shortest-path-on-infinite-grid/README.md) | Hard | Ziphq |
+| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Hard | Ziphq |
+| [Firewall CIDR Rules](algorithm/firewall-cidr-rules/README.md) | Hard | Databricks |
+| [Flatten a Multilevel Doubly Linked List](algorithm/flatten-multilevel-doubly-linked-list/README.md) | Hard | Bloomberg |
+| [Hangman Optimal Strategy](algorithm/hangman-optimal-strategy/README.md) | Hard | Dropbox |
+| [Largest Rectangle in Histogram](algorithm/largest-rectangle-histogram/README.md) | Hard | ByteDance · Airwallex |
+| [Longest Increasing Path in a Matrix](algorithm/longest-increasing-path-in-a-matrix/README.md) | Hard | Meta · Snapchat |
+| [Longest Palindromic Subsequence](algorithm/longest-palindromic-subsequence/README.md) | Hard | Microsoft |
+| [LRU Cache (Python)](algorithm/lru-cache-python/README.md) | Hard | Anthropic |
+| [Maximal Rectangle (LeetCode 85)](algorithm/maximal-rectangle/README.md) | Hard | Salesforce |
+| [Maximum Frequency Stack](algorithm/maximum-frequency-stack/README.md) | Hard | Amazon |
+| [Maximum Number of Events That Can Be Attended II](algorithm/maximum-number-of-events-that-can-be-attended-ii/README.md) | Hard | Snowflake |
+| [Maximum Profit in Job Scheduling](algorithm/maximum-profit-in-job-scheduling/README.md) | Hard | Snowflake · Airbnb · Google · Pinterest |
+| [Maximum Unique Character Subset](algorithm/ai-coding-max-unique-character-subset/README.md) | Hard | Meta · ByteDance |
+| [Median and Percentile from a Data Stream](algorithm/median-and-percentile-from-a-data-stream/README.md) | Hard | StackAdapt |
+| [Median of Two Sorted Arrays](algorithm/median-of-two-sorted-arrays/README.md) | Hard | Rippling · Bloomberg · ByteDance · Google · Uber |
+| [Meeting Rooms III](algorithm/meeting-rooms-iii/README.md) | Hard | ByteDance · Amazon · Uber |
+| [Reconstruct Itinerary](algorithm/reconstruct-itinerary/README.md) | Hard | Netflix · Apple |
+| [Schedule tasks with cooldown](algorithm/solve-three-scheduling-and-array-problems-schedule-tasks-with-cooldown/README.md) | Hard | Microsoft |
+| [Solve Digit-Square and Grid BFS Problems](algorithm/solve-digit-square-and-grid-bfs-problems/README.md) | Hard | Apple |
+| [Solve three algorithmic optimization and search problems](algorithm/solve-three-algorithmic-optimization-and-search-problems/README.md) | Hard | Uber |
+| [Solve three coding interview problems](algorithm/solve-three-coding-interview-problems/README.md) | Hard | Google |
+| [Three-Color Map Coloring](algorithm/three-color-map-coloring/README.md) | Hard | Snowflake |
+| [Transform clickstream with pandas sessionization](algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Hard | Onemain Financial |
+| [Trapping Rain Water](algorithm/trapping-rain-water/README.md) | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs |
+| [Valid Parenthesis String](algorithm/valid-parenthesis-string/README.md) | Hard | Oracle · ByteDance |
+| [Word Search II](algorithm/word-search-ii/README.md) | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai |
+
+## System Design (24)
+
+| Question | Difficulty | Asked at |
+| :-- | :-: | :-- |
+| [Design Consistent List and Category APIs](system-design/design-consistent-list-and-category-apis/README.md) | Easy | Nclusion |
+| [Debug and mitigate a CPU spike incident](system-design/debug-and-mitigate-a-cpu-spike-incident/README.md) | Medium | Discord |
+| [Design a Durable Cron Job Scheduler](system-design/design-a-durable-cron-job-scheduler/README.md) | Medium | Cursor · Snowflake |
+| [Design a robust pro-ranking A/B test](system-design/design-a-robust-pro-ranking-a-b-test/README.md) | Medium | Thumbtack |
+| [Design a Test Orchestration System](system-design/design-a-test-orchestration-system/README.md) | Medium | Axon |
+| [Design a Twitter-like microblogging service](system-design/design-a-twitter-like-microblogging-service/README.md) | Medium | Asana |
+| [Design Job Scheduler](system-design/job-scheduler-design/README.md) | Medium | Robinhood · Airbnb · Atlassian · ByteDance · Databricks |
+| [Design Online Chess Game](system-design/design-chess-com-online-chess-game/README.md) | Medium | OpenAI · Airbnb · Amazon · Meta · Microsoft AI |
+| [Design Real-Time Comments with Optimistic Updates](system-design/design-real-time-comments-with-optimistic-updates/README.md) | Medium | Cohere |
+| [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](system-design/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code/README.md) | Medium | AMD |
+| [How would you evaluate upranking Shop ads?](system-design/how-would-you-evaluate-upranking-shop-ads-2/README.md) | Medium | Meta |
+| [Scale Digit-Square Convergence Requests](system-design/scale-digit-square-convergence-requests/README.md) | Medium | Apple |
+| [Design a 911 emergency calling service](system-design/design-a-911-emergency-calling-service/README.md) | Hard | Salesforce |
+| [Design a PDF-to-Markdown Inference API](system-design/design-a-pdf-to-markdown-inference-api/README.md) | Hard | Mistral AI |
+| [Design a Project-to-Contractor Matching System](system-design/design-a-project-to-contractor-matching-system/README.md) | Hard | Mercor |
+| [Design camera-footage upload with custody chain](system-design/design-camera-footage-upload-with-custody-chain/README.md) | Hard | Axon |
+| [Design leader election using Redis leases](system-design/design-leader-election-using-redis-leases/README.md) | Hard | Discord |
+| [Design ride-hailing and price alert systems](system-design/design-ride-hailing-and-price-alert-systems/README.md) | Hard | Snapchat |
+| [Design ticketing and coding practice platforms](system-design/design-ticketing-and-coding-practice-platforms/README.md) | Hard | Meta |
+| [Forecast Food Stocking Needs Under Waste and Stockout Costs](system-design/forecast-food-stocking-needs-under-waste-and-stockout-costs/README.md) | Hard | C3.ai |
+| [How would you design Shop-ad ranking?](system-design/how-would-you-design-shop-ad-ranking/README.md) | Hard | Meta |
+| [Rank Homepage Modules for an E-Commerce Product](system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | Hard | Wayfair |
+| [Redesign a Spam Classifier for Production](system-design/redesign-a-spam-classifier-for-production/README.md) | Hard | Indeed |
+| [Set Bids for Search Advertising from Business Value](system-design/set-bids-for-search-advertising-from-business-value/README.md) | Hard | Wayfair |
+
+## Object Oriented Programming (22)
+
+| Question | Difficulty | Asked at |
+| :-- | :-: | :-- |
+| [Durable Key-Value Store Serialization](object-oriented-programming/durable-key-value-store-serialization/README.md) | Easy | OpenAI · Airbnb · Amazon · Confluent · Databricks |
+| [React UI: Multi-select Color Dropdown and Selected Properties Table](object-oriented-programming/react-ui-multi-select-color-dropdown-and-selected-properties-table/README.md) | Easy | Brex |
+| [Trie-Based Autocomplete](object-oriented-programming/trie-autocomplete/README.md) | Easy | Oracle |
+| [Banking System with Transaction Activity](object-oriented-programming/banking-system-with-transaction-activity/README.md) | Medium | Capital One |
+| [Basic Calculator with Operators, Variables, and Functions](object-oriented-programming/basic-calculator-extended-language/README.md) | Medium | Tesla |
+| [Concurrent Web Crawler](object-oriented-programming/concurrent-web-crawler/README.md) | Medium | Anthropic · MongoDB |
+| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](object-oriented-programming/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement/README.md) | Medium | Datologyai |
+| [Design Key-Value Store with Transactions](object-oriented-programming/design-key-value-store-with-transactions/README.md) | Medium | Snowflake · Applied Intuition · Lyft |
+| [Find Duplicate Files](object-oriented-programming/find-duplicate-files/README.md) | Medium | Anthropic |
+| [Implement 2048 Game Logic](object-oriented-programming/implement-2048-game-logic/README.md) | Medium | Glean |
+| [Implement an LRU cache with O(1) ops](object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Medium | Onemain Financial · Anthropic · Google · LinkedIn · Microsoft |
+| [Implement Cache and Key-Value Store](object-oriented-programming/implement-cache-and-key-value-store/README.md) | Medium | Lyft |
+| [Implement Game Metadata Lookups](object-oriented-programming/implement-game-metadata-lookups/README.md) | Medium | Discord |
+| [LRU Cache (with TTL and LFU Follow-ups)](object-oriented-programming/lru-cache-with-ttl/README.md) | Medium | ByteDance |
+| [Parallel Courses III](object-oriented-programming/parallel-courses-iii/README.md) | Medium | Snowflake · ByteDance · Netflix |
+| [Priority Expiry LRU Cache](object-oriented-programming/priority-expire-cache-eviction/README.md) | Medium | Tesla |
+| [Rate Limit an API During a Traffic Attack](object-oriented-programming/rate-limit-an-api-during-a-traffic-attack/README.md) | Medium | Render |
+| [Toy Language Type System](object-oriented-programming/toy-language-type-system/README.md) | Medium | OpenAI |
+| [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](object-oriented-programming/composable-event-recommendation-campaign-engine-flexible-filters-ranking/README.md) | Hard | Stubhub |
+| [Design and Solve a Rotatable Jigsaw Puzzle](object-oriented-programming/design-and-solve-a-rotatable-jigsaw-puzzle/README.md) | Hard | Asana |
+| [Implement an asyncio-based chat server](object-oriented-programming/implement-an-asyncio-based-chat-server/README.md) | Hard | Discord |
+| [Implement transaction network queries](object-oriented-programming/implement-transaction-network-queries/README.md) | Hard | Square |
+
+## SQL (10)
+
+| Question | Difficulty | Asked at |
+| :-- | :-: | :-- |
+| [(Hard)](sql/write-sql-for-tiktok-live-creator-metrics-hard/README.md) | Medium | ByteDance |
+| [Calculate annual percentages and YoY by cohorts](sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | Medium | Cvs Health |
+| [Compute age-band spend and YoY in Georgia](sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | Medium | Cvs Health |
+| [Compute daily net users from event logs](sql/compute-daily-net-users-from-event-logs/README.md) | Medium | Tubi |
+| [Compute percent of first-cancel users who never return](sql/compute-percent-of-first-cancel-users-who-never-return/README.md) | Medium | Pinterest |
+| [Compute signup rate and retention from raw logs](sql/compute-signup-rate-and-retention-from-raw-logs/README.md) | Medium | OpenAI |
+| [Compute weekly 3-week rolling sums in SQL](sql/compute-weekly-3-week-rolling-sums-in-sql/README.md) | Medium | Thumbtack |
+| [Write SQL for TikTok Live creator metrics](sql/write-sql-for-tiktok-live-creator-metrics/README.md) | Medium | ByteDance |
+| [Compute DAU and rolling MAU with zero days](sql/compute-dau-and-rolling-mau-with-zero-days/README.md) | Hard | Glean |
+| [Compute Moderation View Metrics](sql/compute-moderation-view-metrics/README.md) | Hard | Airwallex |
+
+## AI Coding (2)
+
+| Question | Difficulty | Asked at |
+| :-- | :-: | :-- |
+| [Exploratory Data Analysis & Modeling for Heart Disease Prediction](ai-coding/exploratory-data-analysis-and-modeling-for-heart-disease-prediction/README.md) | Medium | Hudson River Trading |
+| [LRU Cache](ai-coding/lru-cache/README.md) | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn |
 
 ---
 

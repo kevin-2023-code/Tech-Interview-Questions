@@ -14,7 +14,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Onsite / virtual onsite | 10 | 2026-06-17 |
 | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-06-05 |
 | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-06-05 |
-| [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Algorithm | Medium | Phone screen | 1 | 2026-06-05 |
+| [Camera Motion Detection](../../questions/algorithm/camera-motion-detection/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-06-05 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Medium | Phone screen | 6 | 2026-03-17 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Onsite / virtual onsite | 8 | 2026-02-22 |
 | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | Onsite / virtual onsite | 3 | 2026-02-17 |
@@ -27,7 +27,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | System Design | Medium | Onsite / virtual onsite | 2 | — |
 | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Algorithm | Medium | Online assessment | 3 | — |
-| [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) | Algorithm | Medium | Phone screen | 3 | — |
+| [Longest Substring Without Repeating Characters](../../questions/algorithm/longest-substring-without-repeating-characters-2/README.md) | Algorithm | Medium | Phone screen | 3 | — |
 | [React UI Implementation from Figma (Flexbox/Grid heavy)](https://trueinterview.io/questions/fdefc42f-efc5-4cce-b95d-a9881714b78c) | AI Coding | Easy | Onsite / virtual onsite | 1 | — |
 | [Find IPv4 Addresses in Nested Files](https://trueinterview.io/questions/d5905d81-f1d5-4f11-97ad-b8162610cc37) | Algorithm | Medium | Phone screen | 2 | — |
 | [Matrix Transpose with Workers](https://trueinterview.io/questions/d2c51fe8-e8cb-4b41-9fb4-1dc03c1b4c3b) | Algorithm | Easy | Phone screen | 1 | — |
@@ -40,7 +40,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Add Two Large Integers Stored in Linked Lists (4 digits per node)](https://trueinterview.io/questions/68fd7f68-6e89-4955-b27b-d02bcde92cae) | Algorithm | Medium | Phone screen | 1 | — |
 | [Find Overlapping Time Intervals Across Multiple Cameras](https://trueinterview.io/questions/3dc3ae54-1022-4a39-8aa6-c14d6f4cc6ba) | Algorithm | Medium | Phone screen | 1 | — |
 | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Algorithm | Medium | Phone screen | 2 | — |
-| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | Phone screen | 3 | — |
+| [Valid Sudoku](../../questions/algorithm/valid-sudoku/README.md) | Algorithm | Easy | Phone screen | 3 | — |
 
 ---
 

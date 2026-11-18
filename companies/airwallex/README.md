@@ -16,10 +16,10 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Algorithm | Medium | Phone screen | 1 | 2026-09-02 |
 | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | Onsite / virtual onsite | 2 | 2026-09-01 |
 | [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system) | System Design | Hard | Phone screen | 1 | 2026-08-09 |
-| [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 2 | 2026-01-29 |
+| [Largest Rectangle in Histogram](../../questions/algorithm/largest-rectangle-histogram/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 2 | 2026-01-29 |
 | [Investigate Harassment Surge and Mitigation](https://trueinterview.io/questions/investigate-harassment-surge-and-mitigation) | Blog | — | Onsite / virtual onsite | 1 | 2025-11-14 |
 | [Monthly violation-type distribution.](https://trueinterview.io/questions/compute-moderation-view-metrics-monthly-violation-type-distribution) | SQL | Medium | Onsite / virtual onsite | 1 | 2025-11-14 |
-| [Compute Moderation View Metrics](https://trueinterview.io/questions/compute-moderation-view-metrics) | SQL | Hard | Onsite / virtual onsite | 1 | 2025-11-14 |
+| [Compute Moderation View Metrics](../../questions/sql/compute-moderation-view-metrics/README.md) | SQL | Hard | Onsite / virtual onsite | 1 | 2025-11-14 |
 | [How do you resolve partner conflict?](https://trueinterview.io/questions/how-do-you-resolve-partner-conflict) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-24 |
 | [How would you test swapping two CTA buttons?](https://trueinterview.io/questions/how-would-you-test-swapping-two-cta-buttons) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-14 |
 | [Diagnose a dip in approval/conversion rate](https://trueinterview.io/questions/diagnose-a-dip-in-approval-conversion-rate) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-14 |

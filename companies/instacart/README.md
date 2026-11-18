@@ -31,7 +31,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-04-04 |
 | [Expression Evaluation with Variables](https://trueinterview.io/questions/onsite-expression-evaluation-with-variables) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-04-04 |
 | [Design Instacart Inventory System](https://trueinterview.io/questions/system-design-inventory-management) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-03-02 |
-| [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 9 | 2026-01-30 |
+| [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 9 | 2026-01-30 |
 | [Worker Attendance & Payroll](https://trueinterview.io/questions/oa-worker-attendance-payroll) | Object Oriented Programming | Medium | Online assessment | 1 | 2026-01-26 |
 | [Investigate marketplace metrics and experiment rollout](https://trueinterview.io/questions/investigate-marketplace-metrics-and-experiment-rollout) | Blog | — | Phone screen | 1 | 2025-12-18 |
 | [Analyze an A/B test and present recommendation](https://trueinterview.io/questions/analyze-an-a-b-test-and-present-recommendation) | Blog | — | Onsite / virtual onsite | 1 | 2025-12-10 |
@@ -61,7 +61,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Analyze A/B test with revenue–cost tradeoffs](https://trueinterview.io/questions/analyze-a-b-test-with-revenuecost-tradeoffs) | Blog | — | Onsite / virtual onsite | 1 | — |
 | [Write SQL to rank advertisers and profitability](https://trueinterview.io/questions/write-sql-to-rank-advertisers-and-profitability) | SQL | Medium | Phone screen | 1 | — |
 | [Aggregate weekly revenue and attribute 4% drop](https://trueinterview.io/questions/aggregate-weekly-revenue-and-attribute-4percent-drop) | SQL | Medium | Phone screen | 1 | — |
-| [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | Phone screen | 3 | — |
+| [Modified Basic Calculator](../../questions/algorithm/modified-basic-calculator/README.md) | Algorithm | Medium | Phone screen | 3 | — |
 | [Design A Video Recommendation System](https://trueinterview.io/questions/design-a-video-recommendation-system-2) | System Design | Hard | Onsite / virtual onsite | 4 | — |
 | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | Onsite / virtual onsite | 7 | — |
 | [Debug the Library Dashboard Metrics (FastAPI)](https://trueinterview.io/questions/188b0a14-9295-5582-85d5-f77c1ac6826e) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |

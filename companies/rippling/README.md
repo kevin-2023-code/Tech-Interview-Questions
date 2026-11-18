@@ -25,19 +25,19 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8
 | [Expense System](https://trueinterview.io/questions/expense-rules-engine) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-06-18 |
 | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-06-18 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Onsite / virtual onsite | 10 | 2026-06-17 |
-| [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Onsite / virtual onsite | 5 | 2026-06-16 |
+| [Median of Two Sorted Arrays](../../questions/algorithm/median-of-two-sorted-arrays/README.md) | Algorithm | Hard | Onsite / virtual onsite | 5 | 2026-06-16 |
 | [Logger System](https://trueinterview.io/questions/logger-system-ood) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-06-09 |
 | [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-05-29 |
 | [Design Article System](https://trueinterview.io/questions/web-api-for-article-voting-system) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-05-25 |
 | [Build Reliable Employee-Operations and Expense Intelligence Systems](https://trueinterview.io/questions/build-reliable-employee-operations-and-expense-intelligence-systems) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-05-01 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [Clarify and Solve Currency Conversion Queries with a Maximum-Amount Follow-up](https://trueinterview.io/questions/clarify-and-solve-currency-conversion-queries-with-a-maximum-amount-follow-up) | Algorithm | Hard | Phone screen | 1 | 2026-04-25 |
 | [Implement logger and card ranking](https://trueinterview.io/questions/implement-logger-and-card-ranking) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-04-19 |
 | [Design an Extensible Rule Engine](https://trueinterview.io/questions/design-an-extensible-rule-engine) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-04-02 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Onsite / virtual onsite | 10 | 2026-03-23 |
 | [Compare Complete or Partial Hands](https://trueinterview.io/questions/compare-complete-or-partial-hands) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-03-14 |
 | [Implement a balance tracker and interval merger](https://trueinterview.io/questions/implement-a-balance-tracker-and-interval-merger) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-03-10 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
 | [Find the Best and Worst Completion of a Partial Numeric Hand](https://trueinterview.io/questions/find-the-best-and-worst-completion-of-a-partial-numeric-hand) | Algorithm | Hard | Phone screen | 1 | 2026-01-25 |
 | [Compare Two Five-Card Numeric Hands](https://trueinterview.io/questions/compare-two-five-card-numeric-hands) | Algorithm | Hard | Phone screen | 1 | 2026-01-25 |
 | [Design a News Aggregation Feed](https://trueinterview.io/questions/design-a-news-aggregation-feed) | System Design | Hard | Phone screen | 2 | 2026-01-17 |

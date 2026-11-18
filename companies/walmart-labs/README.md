@@ -28,7 +28,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Plants Pesticide — Days Until Stable](https://trueinterview.io/questions/plants-pesticide-days) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-02-24 |
 | [Design Multi-Carrier Package Delivery Routing System](https://trueinterview.io/questions/design-multi-carrier-delivery-system) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-02-24 |
 | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 4 | 2026-02-08 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
 | [Spring Boot Verbal Quiz](https://trueinterview.io/questions/spring-boot-verbal-quiz) | Blog | — | Phone screen | 1 | 2025-12-31 |
 | [Validate N×N Grid as Latin Square](https://trueinterview.io/questions/validate-square-grid) | Algorithm | Medium | Phone screen | 1 | 2025-12-31 |
 | [Validate Nonogram Solution](https://trueinterview.io/questions/validate-nonogram) | Algorithm | Medium | Phone screen | 1 | 2025-12-31 |
@@ -44,7 +44,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Design System for Downstream Data Retrieval](https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)](https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217) | SQL | Medium | Online assessment | 1 | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | Phone screen | 7 | — |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | Phone screen | 14 | — |
+| [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | 14 | — |
 
 ---
 

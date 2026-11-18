@@ -23,7 +23,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Black and White Chess Problem](https://trueinterview.io/questions/e829f3ce-e920-412d-b31a-72a804d9272e) | Algorithm | Medium | Phone screen | 1 | — |
 | [Fancy Number](https://trueinterview.io/questions/e4e49d37-3d74-4d00-b000-445874bf217a) | Algorithm | Medium | Online assessment | 1 | — |
 | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Algorithm | Easy | Online assessment | 1 | — |
-| [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
+| [Exploratory Data Analysis & Modeling for Heart Disease Prediction](../../questions/ai-coding/exploratory-data-analysis-and-modeling-for-heart-disease-prediction/README.md) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
 | [Max Harvested Crops](https://trueinterview.io/questions/0364d8f3-180c-434b-96f4-fbdf7412a3e3) | Algorithm | Medium | Phone screen | 1 | — |
 | [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72) | Algorithm | Medium | Phone screen | 1 | — |
 | [Implement buffer readers for char/int/string with pointer advancement](https://trueinterview.io/questions/dd77f43b-876b-4c4a-828b-2e48ea7294dc) | Algorithm | Medium | Phone screen | 1 | — |
@@ -31,7 +31,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Algorithm | Easy | Online assessment | 1 | — |
 | [Implement itoa()](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397) | Algorithm | Medium | Phone screen | 1 | — |
 | [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | Algorithm | Hard | Phone screen | 1 | — |
+| [1D Players and Watcher With Direction Changes](../../questions/algorithm/1d-players-and-watcher-with-direction-changes/README.md) | Algorithm | Hard | Phone screen | 1 | — |
 
 ---
 

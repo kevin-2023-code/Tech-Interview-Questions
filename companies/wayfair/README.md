@@ -11,8 +11,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | AI Coding | Medium | Onsite / virtual onsite | 1 | 2026-09-10 |
-| [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | System Design | Hard | Phone screen | 1 | 2026-09-10 |
-| [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-09-10 |
+| [Set Bids for Search Advertising from Business Value](../../questions/system-design/set-bids-for-search-advertising-from-business-value/README.md) | System Design | Hard | Phone screen | 1 | 2026-09-10 |
+| [Rank Homepage Modules for an E-Commerce Product](../../questions/system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-09-10 |
 | [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/questions/evaluate-post-purchase-recommendation-emails) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-10 |
 | [Maximize the Product of Pair Distance and Minimum Value](https://trueinterview.io/questions/maximize-the-product-of-pair-distance-and-minimum-value) | Algorithm | Hard | Phone screen | 1 | 2026-09-09 |
 | [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks) | SQL | Medium | Online assessment | 1 | 2026-02-16 |

@@ -14,7 +14,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 | [Estimate Experiment Duration with Power Analysis](https://trueinterview.io/questions/estimate-experiment-duration-with-power-analysis) | Blog | — | Phone screen | 1 | 2026-08-27 |
 | [Return Integers in Descending Ranked Order](https://trueinterview.io/questions/return-integers-in-descending-ranked-order) | Algorithm | Easy | Phone screen | 1 | 2026-08-27 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Onsite / virtual onsite | 13 | 2026-04-12 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Onsite / virtual onsite | 10 | 2026-03-23 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-01-14 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Onsite / virtual onsite | 10 | 2025-12-10 |
@@ -22,7 +22,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 | [Count Alert Triggers](https://trueinterview.io/questions/count-alert-triggers) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-04-21 |
 | [Top Love Message Receivers](https://trueinterview.io/questions/top-love-message-receivers) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-04-20 |
 | [Random User Pairing](https://trueinterview.io/questions/random-user-pairing) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-04-20 |
-| [Prefix Search I](https://trueinterview.io/questions/prefix-search-i) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-04-20 |
+| [Prefix Search I](../../questions/algorithm/prefix-search-i/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-04-20 |
 | [Merge Common Substring](https://trueinterview.io/questions/merge-common-substring) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-04-20 |
 | [Jaccard Business Similarity](https://trueinterview.io/questions/jaccard-business-similarity) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2025-04-20 |
 | [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2025-04-20 |

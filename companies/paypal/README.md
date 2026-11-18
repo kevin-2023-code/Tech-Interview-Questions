@@ -10,11 +10,11 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
 | [Design a Payment Fraud Detection Service](https://trueinterview.io/questions/design-a-payment-fraud-detection-service) | System Design | Hard | Onsite / virtual onsite | 2 | 2026-04-14 |
 | [Design a Cross-Border Money Transfer Service](https://trueinterview.io/questions/design-a-cross-border-money-transfer-service) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-04-14 |
 | [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-14 |
-| [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | Phone screen | 8 | 2026-02-26 |
+| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | 8 | 2026-02-26 |
 | [Interpret p-values and common pitfalls](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) | Blog | — | Phone screen | 1 | 2026-01-02 |
 | [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) | Blog | — | Phone screen | 1 | 2026-01-02 |
 | [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints) | System Design | Medium | Phone screen | 1 | 2026-01-02 |
@@ -24,7 +24,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Decide if a dice-betting game is favorable](https://trueinterview.io/questions/decide-if-a-dice-betting-game-is-favorable) | Blog | — | Onsite / virtual onsite | 1 | 2025-12-07 |
 | [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) | Blog | — | Onsite / virtual onsite | 1 | 2025-11-20 |
 | [Reduce airport ride cancellations under causal constraints](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints) | Blog | — | Onsite / virtual onsite | 1 | 2025-11-03 |
-| [Compute Variance from a Python List](https://trueinterview.io/questions/compute-variance-from-a-python-list) | Algorithm | Easy | Phone screen | 1 | 2025-10-29 |
+| [Compute Variance from a Python List](../../questions/algorithm/compute-variance-from-a-python-list/README.md) | Algorithm | Easy | Phone screen | 1 | 2025-10-29 |
 | [Explain p-values and interpret regressions](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-10 |
 | [Evaluate smart cart idea and design experiment](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-10 |
 | [Diagnose drop in shopper order acceptance](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-10 |

@@ -23,7 +23,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Describe when you distrusted a colleague](https://trueinterview.io/questions/describe-when-you-distrusted-a-colleague) | Blog | — | Phone screen | 1 | 2026-01-06 |
 | [Solve three interview coding problems](https://trueinterview.io/questions/solve-three-interview-coding-problems) | Algorithm | Hard | Phone screen | 1 | 2026-01-06 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Onsite / virtual onsite | 10 | 2025-12-10 |
-| [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 5 | 2025-11-18 |
+| [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 5 | 2025-11-18 |
 | [Design a listing connectivity ingestion service](https://trueinterview.io/questions/design-a-listing-connectivity-ingestion-service) | System Design | Medium | Phone screen | 1 | 2025-11-05 |
 | [How do you use AI for coding?](https://trueinterview.io/questions/how-do-you-use-ai-for-coding) | Blog | — | Phone screen | 1 | 2025-10-29 |
 | [Validate and monitor ranking model end-to-end](https://trueinterview.io/questions/validate-and-monitor-ranking-model-end-to-end) | Blog | — | Onsite / virtual onsite | 1 | — |
@@ -38,7 +38,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Rank Songs by Popularity](https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49) | Algorithm | Medium | Online assessment | 2 | — |
 | [Count Groups with Maximum Language Relationships](https://trueinterview.io/questions/60045377-fc3f-4505-9688-a3134b5faa33) | Algorithm | Hard | Phone screen | 1 | — |
 | [Minimum Additional Capabilities to Equalize Team Work Hours](https://trueinterview.io/questions/5c1401d7-3928-496a-b8ac-cd5bba5b5587) | Algorithm | Medium | Phone screen | 1 | — |
-| [Number of Provinces](https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2) | Algorithm | Medium | Phone screen | 1 | — |
+| [Number of Provinces](../../questions/algorithm/number-of-provinces/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Maximize Hole in Prison Gate](https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817) | Algorithm | Medium | Phone screen | 1 | — |
 | [Merge One Linked List Into Another Between Two Indices](https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69) | Algorithm | Medium | Phone screen | 1 | — |
 | [Scattered Palindrome Substring Count (Swappable to Palindrome)](https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d) | Algorithm | Hard | Phone screen | 1 | — |

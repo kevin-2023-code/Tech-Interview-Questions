@@ -10,7 +10,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
 | [Discuss Your Background, Job-Change Motivation, and Offer Acceptance Factors](https://trueinterview.io/questions/discuss-your-background-job-change-motivation-and-offer-acceptance-factors) | Blog | — | Phone screen | 1 | 2026-09-02 |
 | [Present Evidence for Professional Strengths and Weaknesses](https://trueinterview.io/questions/present-evidence-for-professional-strengths-and-weaknesses) | Blog | — | Phone screen | 1 | 2026-08-22 |
 | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | Onsite / virtual onsite | 2 | 2026-08-16 |
@@ -19,13 +19,13 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Medium | Phone screen | 1 | 2026-07-30 |
 | [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals) | Blog | — | Phone screen | 1 | 2026-07-17 |
 | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-07-17 |
-| [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Phone screen | 6 | 2026-06-16 |
-| [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Easy | Phone screen | 10 | 2026-06-08 |
+| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-06-16 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | 10 | 2026-06-08 |
 | [Navigate a Senior Engineering HR Interview](https://trueinterview.io/questions/navigate-a-senior-engineering-hr-interview) | Blog | — | Phone screen | 1 | 2026-04-12 |
 | [Playing Cards: Straight Flush / Missing Card](https://trueinterview.io/questions/playing-card-straight-flush) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-03-27 |
-| [Next Greater Element I](https://trueinterview.io/questions/next-greater-element-i) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2026-03-24 |
-| [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
+| [Next Greater Element I](../../questions/algorithm/next-greater-element-i/README.md) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2026-03-24 |
+| [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
 | [Describe toughest project experience](https://trueinterview.io/questions/describe-toughest-project-experience) | Blog | — | Phone screen | 1 | 2026-01-01 |
 | [Find longest uniform substring after k replacements](https://trueinterview.io/questions/find-longest-uniform-substring-after-k-replacements) | Algorithm | Medium | Phone screen | 2 | — |
 | [Transaction Settlement](https://trueinterview.io/questions/2d3f6203-6989-434b-88a1-3299068e034e) | Algorithm | Hard | Phone screen | 1 | — |
@@ -34,8 +34,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 | [Logistics Variant](https://trueinterview.io/questions/86561494-7d80-47e0-a298-bb7b9e51ad7b) | Algorithm | Hard | Phone screen | 1 | — |
 | [Sort Colors and Sizes](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc) | Algorithm | Easy | Online assessment | 1 | — |
 | [Spiral Matrix Fill](https://trueinterview.io/questions/3b33f241-83ae-4754-af33-8eac2267c5b2) | Algorithm | Medium | Phone screen | 2 | — |
-| [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Algorithm | Medium | Phone screen | 3 | — |
-| [Spiral Matrix](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286) | Algorithm | Medium | Phone screen | 2 | — |
+| [Longest Repeating Character Replacement](../../questions/algorithm/longest-repeating-character-replacement/README.md) | Algorithm | Medium | Phone screen | 3 | — |
+| [Spiral Matrix](../../questions/algorithm/spiral-matrix/README.md) | Algorithm | Medium | Phone screen | 2 | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | Phone screen | 7 | — |
 
 ---

@@ -10,8 +10,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-09-17 |
-| [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | Algorithm | Hard | Phone screen | 1 | 2026-02-26 |
+| [Rate Limit an API During a Traffic Attack](../../questions/object-oriented-programming/rate-limit-an-api-during-a-traffic-attack/README.md) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-09-17 |
+| [Count Blocked Rate-Limited Requests](../../questions/algorithm/count-blocked-rate-limited-requests/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-02-26 |
 
 ---
 

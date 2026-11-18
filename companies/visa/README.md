@@ -10,7 +10,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
+| [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
 | [Zero-Sum Triplets Without Duplicates](https://trueinterview.io/questions/three-sum) | Algorithm | Medium | Onsite / virtual onsite | 4 | — |
 | [Largest Square Area in Cityscape](https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6) | Algorithm | Medium | Phone screen | 1 | — |
 | [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637) | System Design | Medium | Onsite / virtual onsite | 1 | — |
@@ -21,10 +21,10 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) | Algorithm | Easy | Online assessment | 2 | — |
 | [Count Distinct Movement Subsequences on a Number Line](https://trueinterview.io/questions/f70afa37-90a2-5c42-a173-236efea88ec0) | Algorithm | Hard | Phone screen | 1 | — |
 | [Minimum Score of a Path Between Two Cities](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d) | Algorithm | Medium | Phone screen | 1 | — |
-| [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Algorithm | Medium | Phone screen | 2 | — |
+| [Find K Closest Elements](../../questions/algorithm/find-k-closest-elements/README.md) | Algorithm | Medium | Phone screen | 2 | — |
 | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Algorithm | Medium | Phone screen | 1 | — |
 | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Algorithm | Easy | Online assessment | 3 | — |
-| [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Algorithm | Medium | Phone screen | 4 | — |
+| [Jump Game](../../questions/algorithm/jump-game/README.md) | Algorithm | Medium | Phone screen | 4 | — |
 
 ---
 

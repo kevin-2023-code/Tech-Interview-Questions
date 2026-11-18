@@ -17,7 +17,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Algorithm | Medium | Phone screen | 1 | — |
 | [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Algorithm | Medium | Phone screen | 1 | — |
 | [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Algorithm | Medium | Phone screen | 1 | — |
-| [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) | Algorithm | Medium | Phone screen | 1 | — |
+| [Dictionary Encoding (Lossless) for Comma-Separated Words](../../questions/algorithm/dictionary-encoding-lossless-for-comma-separated-words/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 
 ---
 

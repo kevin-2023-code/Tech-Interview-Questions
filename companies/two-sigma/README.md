@@ -32,7 +32,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-18 |
 | [QR Data Analysis Prediction Case](https://trueinterview.io/questions/qr-data-analysis-prediction-case) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-18 |
 | [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder) | Algorithm | Medium | Onsite / virtual onsite | 2 | 2026-02-18 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
 | [How to prepare for a hiring manager round](https://trueinterview.io/questions/how-to-prepare-for-a-hiring-manager-round) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-22 |
 | [Answer four core statistics questions](https://trueinterview.io/questions/answer-four-core-statistics-questions) | Blog | — | Phone screen | 1 | 2025-12-15 |
 | [Huffman-Style Binary Encode / Decode](https://trueinterview.io/questions/huffman-style-binary-encode-decode) | Algorithm | Hard | Phone screen | 1 | 2025-12-15 |
@@ -56,7 +56,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Algorithm | Medium | Phone screen | 2 | — |
 | [Sewer Connectivity / Reachability in a Grid (DFS)](https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364) | Algorithm | Medium | Phone screen | 1 | — |
 | [Directed Acyclic Graph (DAG) Algorithm Problem](https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf) | Algorithm | Medium | Phone screen | 1 | — |
-| [Redundant Connection: Underground Pipes](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8) | Algorithm | Medium | Phone screen | 1 | — |
+| [Redundant Connection: Underground Pipes](../../questions/algorithm/redundant-connection-underground-pipes/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Stock Max Profit (Single or Multiple Transactions)](https://trueinterview.io/questions/7b157f40-79a0-48dd-a935-b4e27d6a6d0a) | Algorithm | Easy | Online assessment | 2 | — |
 | [Data Analysis on New York Housing Prices](https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7) | Algorithm | Medium | Phone screen | 1 | — |
 | [Calculate y/x using Patch](https://trueinterview.io/questions/08463bd2-ae87-4cda-9a87-de246d9df796) | Algorithm | Easy | Online assessment | 1 | — |

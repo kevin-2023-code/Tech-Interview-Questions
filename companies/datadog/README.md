@@ -13,7 +13,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Prioritize Critical Findings in a High-Load Batch Processor Review](https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review) | Blog | — | Onsite / virtual onsite | 1 | 2026-08-17 |
 | [Maximum Vacation With Minimum Flights](https://trueinterview.io/questions/maximum-vacation-with-minimum-flights) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-04-10 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Onsite / virtual onsite | 10 | 2026-03-23 |
-| [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
+| [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
 | [Implement Prefix Match Filter](https://trueinterview.io/questions/implement-prefix-match-filter) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-02-25 |
 | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | Onsite / virtual onsite | 3 | 2026-02-17 |
 | [Linear Interpolation of Missing Points](https://trueinterview.io/questions/linear-interpolation-of-missing-points) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-02-17 |

@@ -14,7 +14,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4
 | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-09-01 |
 | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-01 |
 | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-09-01 |
-| [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-08-09 |
+| [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-08-09 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-07-07 |
 | [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral) | Blog | — | Onsite / virtual onsite | 1 | 2026-07-02 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-07 |

@@ -28,7 +28,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Find Nearest Exit in Maze](https://trueinterview.io/questions/find-nearest-exit-in-maze) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-11-11 |
 | [Design an Interactive Paginator](https://trueinterview.io/questions/design-an-interactive-paginator) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-11-11 |
 | [Black Cell Covering Block List](https://trueinterview.io/questions/black-cell-covering-block-list) | Algorithm | Easy | Phone screen | 1 | 2025-11-11 |
-| [Implement transaction network queries](https://trueinterview.io/questions/implement-transaction-network-queries) | Object Oriented Programming | Hard | Phone screen | 1 | 2025-10-19 |
+| [Implement transaction network queries](../../questions/object-oriented-programming/implement-transaction-network-queries/README.md) | Object Oriented Programming | Hard | Phone screen | 1 | 2025-10-19 |
 | [Count 2×2 Blocks by Number of Black Cells](https://trueinterview.io/questions/c57f6683-c2e9-530c-95cb-318c91844476) | Algorithm | Medium | Phone screen | 1 | — |
 | [Assign Adjacent Seats in a Venue Grid](https://trueinterview.io/questions/venue-seat-assignment-grid) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
 | [Simulate a Simplified Two-Player Card Game](https://trueinterview.io/questions/two-player-uno-simulation) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | — |

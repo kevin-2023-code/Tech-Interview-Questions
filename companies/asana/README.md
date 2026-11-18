@@ -10,15 +10,15 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Design and Solve a Rotatable Jigsaw Puzzle](https://trueinterview.io/questions/design-and-solve-a-rotatable-jigsaw-puzzle) | Object Oriented Programming | Hard | Phone screen | 1 | 2026-04-13 |
+| [Design and Solve a Rotatable Jigsaw Puzzle](../../questions/object-oriented-programming/design-and-solve-a-rotatable-jigsaw-puzzle/README.md) | Object Oriented Programming | Hard | Phone screen | 1 | 2026-04-13 |
 | [Design a 2048 Game](https://trueinterview.io/questions/design-a-2048-game) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-04-02 |
 | [Design a Collaborative Todo List](https://trueinterview.io/questions/design-a-collaborative-todo-list) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-02 |
 | [Implement an ASCII Art Printer](https://trueinterview.io/questions/implement-an-ascii-art-printer) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-04-02 |
 | [Answer Manager Behavioral Prompts](https://trueinterview.io/questions/answer-manager-behavioral-prompts) | Blog | — | Onsite / virtual onsite | 1 | 2026-04-02 |
-| [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
+| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
 | [Explain code complexity and design two games](https://trueinterview.io/questions/explain-code-complexity-and-design-two-games) | System Design | Medium | Phone screen | 1 | 2026-02-08 |
 | [Discuss projects, mentorship, and conflict resolution](https://trueinterview.io/questions/discuss-projects-mentorship-and-conflict-resolution) | Blog | — | Phone screen | 1 | 2026-02-08 |
-| [Design a Twitter-like microblogging service](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) | System Design | Medium | Phone screen | 1 | 2026-02-08 |
+| [Design a Twitter-like microblogging service](../../questions/system-design/design-a-twitter-like-microblogging-service/README.md) | System Design | Medium | Phone screen | 1 | 2026-02-08 |
 | [Implement core puzzle/array/grid routines](https://trueinterview.io/questions/implement-core-puzzle-array-grid-routines) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-07 |
 | [Find frequent IPs from a huge file](https://trueinterview.io/questions/find-frequent-ips-from-a-huge-file) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-01-07 |
 

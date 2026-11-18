@@ -23,7 +23,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Optimal Account Balancing (LeetCode 465)](https://trueinterview.io/questions/optimal-account-balancing) | Algorithm | Hard | Phone screen | 1 | 2026-07-25 |
 | [Delete One Character Type, Minimize Unique-Character Segments](https://trueinterview.io/questions/delete-character-minimize-unique-segments) | Algorithm | Medium | Online assessment | 1 | 2026-07-25 |
 | [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/questions/project-deep-dive-ai-engineer) | Blog | — | Onsite / virtual onsite | 1 | 2026-07-17 |
-| [Maximal Rectangle (LeetCode 85)](https://trueinterview.io/questions/maximal-rectangle) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-07-17 |
+| [Maximal Rectangle (LeetCode 85)](../../questions/algorithm/maximal-rectangle/README.md) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-07-17 |
 | [Maximal Square (LeetCode 221)](https://trueinterview.io/questions/maximal-square) | Algorithm | Hard | Onsite / virtual onsite | 3 | 2026-07-17 |
 | [Campaign Cost Weekly Partition](https://trueinterview.io/questions/campaign-cost-weekly-partition) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-06-22 |
 | [Validate a Generalized Word Abbreviation](https://trueinterview.io/questions/validate-a-generalized-word-abbreviation) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-04-11 |
@@ -43,7 +43,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Design an Analytics Metrics Dashboard for ChatGPT / LLM Service](https://trueinterview.io/questions/analytics-dashboard-llm-product) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-03-10 |
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/questions/ai-ml-fundamentals-oral) | Blog | — | Phone screen | 1 | 2026-03-10 |
 | [Onsite Mini Project — Concurrent Web Crawler](https://trueinterview.io/questions/web-crawler-mini-project) | AI Coding | Medium | Onsite / virtual onsite | 1 | 2026-03-10 |
-| [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
+| [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
 | [Code Review of a Python Repository](https://trueinterview.io/questions/code-review-oa) | AI Coding | Medium | Online assessment, Take-home | 1 | 2026-03-05 |
 | [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/questions/cloud-domain-knowledge-round) | Blog | — | Phone screen | 1 | 2026-03-04 |
 | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 4 | 2026-02-21 |
@@ -64,7 +64,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Array Left / Right Duplicate Check (Binary Strings)](https://trueinterview.io/questions/array-left-right-duplicate-check) | Algorithm | Easy | Online assessment | 1 | 2025-12-25 |
 | [Solve array duplicate flags and binary swaps](https://trueinterview.io/questions/solve-array-duplicate-flags-and-binary-swaps) | Algorithm | Medium | Online assessment | 1 | 2025-12-17 |
 | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 3 | 2025-11-26 |
-| [Design a 911 emergency calling service](https://trueinterview.io/questions/design-a-911-emergency-calling-service) | System Design | Hard | Onsite / virtual onsite | 1 | 2025-10-18 |
+| [Design a 911 emergency calling service](../../questions/system-design/design-a-911-emergency-calling-service/README.md) | System Design | Hard | Onsite / virtual onsite | 1 | 2025-10-18 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Phone screen | 10 | 2025-10-15 |
 | [Implement Merge Sort and Explain Its Recursion Tree](https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4) | Algorithm | Medium | Phone screen | 1 | — |
 | [Convert a Sorted Doubly Linked List to an In-Place Balanced BST](https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7) | Algorithm | Medium | Phone screen | 1 | — |

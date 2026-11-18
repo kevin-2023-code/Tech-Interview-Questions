@@ -23,9 +23,9 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Choose clustering vs regression; explain KNN](https://trueinterview.io/questions/choose-clustering-vs-regression-explain-knn) | Blog | — | Onsite / virtual onsite | 1 | — |
 | [Write monthly new-vs-returning requests SQL](https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql) | SQL | Medium | Onsite / virtual onsite | 1 | — |
 | [Compute weighted response rates by job category](https://trueinterview.io/questions/compute-weighted-response-rates-by-job-category) | Blog | — | Onsite / virtual onsite | 1 | — |
-| [Compute weekly 3-week rolling sums in SQL](https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql) | SQL | Medium | Phone screen | 1 | — |
+| [Compute weekly 3-week rolling sums in SQL](../../questions/sql/compute-weekly-3-week-rolling-sums-in-sql/README.md) | SQL | Medium | Phone screen | 1 | — |
 | [Explain a project and justify choices](https://trueinterview.io/questions/explain-a-project-and-justify-choices) | Blog | — | Onsite / virtual onsite | 1 | — |
-| [Design a robust pro-ranking A/B test](https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test) | System Design | Medium | Onsite / virtual onsite | 1 | — |
+| [Design a robust pro-ranking A/B test](../../questions/system-design/design-a-robust-pro-ranking-a-b-test/README.md) | System Design | Medium | Onsite / virtual onsite | 1 | — |
 
 ---
 

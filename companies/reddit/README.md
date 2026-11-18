@@ -19,21 +19,21 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Word Search in a Straight Line](https://trueinterview.io/questions/phone-screen-word-search-straight-line) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-05-12 |
 | [Design Tennis Scoring with Pluggable Rules](https://trueinterview.io/questions/design-tennis-scoring-with-pluggable-rules) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-05-06 |
 | [Debug and Improve a Load Balancer](https://trueinterview.io/questions/debug-and-improve-a-load-balancer) | System Design | Medium | Phone screen | 1 | 2026-05-06 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [ML Fundamentals](https://trueinterview.io/questions/ml-fundamentals) | Blog | — | Onsite / virtual onsite | 1 | 2026-05 |
 | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-05 |
 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | Onsite / virtual onsite | 3 | 2026-04-17 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Onsite / virtual onsite | 13 | 2026-04-12 |
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Onsite / virtual onsite | 5 | 2026-04-09 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | System Design | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-04-02 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
 | [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-23 |
 | [Design Reddit Comments Ranking System](https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-03-23 |
 | [Feature Store](https://trueinterview.io/questions/feature-store) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-03-23 |
 | [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Algorithm | Medium | Phone screen | 1 | 2026-03 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Algorithm | Medium | Phone screen | 4 | 2026-03 |
 | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Algorithm | Easy | Online assessment | 1 | 2026-03 |
-| [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Phone screen | 7 | 2026-02-19 |
+| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | 7 | 2026-02-19 |
 | [Report Chain](https://trueinterview.io/questions/report-chain) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-02-17 |
 | [Model y from x and interpret distributions](https://trueinterview.io/questions/model-y-from-x-and-interpret-distributions) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-12 |
 | [Describe a failure and a success](https://trueinterview.io/questions/describe-a-failure-and-a-success) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-12 |
@@ -44,7 +44,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Prioritize competing engineering requests](https://trueinterview.io/questions/prioritize-competing-engineering-requests) | Blog | — | Onsite / virtual onsite | 1 | 2025-12-11 |
 | [Collaborate with PM and Eng as DS](https://trueinterview.io/questions/collaborate-with-pm-and-eng-as-ds) | Blog | — | Onsite / virtual onsite | 1 | 2025-12-11 |
 | [Design comment-likelihood prediction platform](https://trueinterview.io/questions/design-comment-likelihood-prediction-platform) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-11-10 |
-| [Dictionary Word Transformation Path](https://trueinterview.io/questions/dictionary-word-transformation-path) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-07-21 |
+| [Dictionary Word Transformation Path](../../questions/algorithm/dictionary-word-transformation-path/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-07-21 |
 | [Cross-Functional & PM Behavioral](https://trueinterview.io/questions/cross-functional-pm-bq) | Blog | — | Onsite / virtual onsite | 1 | 2025-05-19 |
 | [Justify synthetic control and handle inference](https://trueinterview.io/questions/justify-synthetic-control-and-handle-inference) | Blog | — | Phone screen | 1 | — |
 | [Design a causal evaluation without A/B testing](https://trueinterview.io/questions/design-a-causal-evaluation-without-a-b-testing) | Blog | — | Phone screen | 1 | — |

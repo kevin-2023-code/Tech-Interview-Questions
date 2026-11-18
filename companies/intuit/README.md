@@ -19,7 +19,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Engineer and Impute ZIP Features](https://trueinterview.io/questions/engineer-and-impute-zip-features) | Blog | — | Phone screen | 1 | 2026-02-23 |
 | [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention) | SQL | Hard | Phone screen | 1 | 2026-02-23 |
 | [Calculate Precision, Recall, and F1](https://trueinterview.io/questions/calculate-precision-recall-and-f1) | Algorithm | Medium | Phone screen | 1 | 2026-02-10 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
 | [Bash Largest File from Listing Output](https://trueinterview.io/questions/bash-largest-file-from-ls-output) | Algorithm | Medium | Online assessment | 1 | 2026-01-30 |
 | [Transactions Status Report SQL](https://trueinterview.io/questions/transactions-status-report-sql) | SQL | Medium | Online assessment | 1 | 2025-12-25 |
 | [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) | Algorithm | Medium | Online assessment | 1 | 2025-12-25 |

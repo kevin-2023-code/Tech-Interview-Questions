@@ -16,7 +16,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | Phone screen | 1 | 2026-06-24 |
 | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy) | Blog | — | Onsite / virtual onsite | 1 | 2026-06-24 |
 | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-06-02 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2026-04-20 |
 | [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-04-20 |
 | [Build an Auth0-based MCP Server (Hands-on)](https://trueinterview.io/questions/oa-mcp-auth0-server) | AI Coding | Hard | Online assessment | 1 | 2025-11-22 |

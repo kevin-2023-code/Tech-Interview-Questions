@@ -12,12 +12,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | System Design | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-10-04 |
 | [Poker Simulation](https://trueinterview.io/questions/poker-simulation) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-09-28 |
-| [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Phone screen, Onsite / virtual onsite | 5 | 2026-09-23 |
+| [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 5 | 2026-09-23 |
 | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | Phone screen | 1 | 2026-09-17 |
-| [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-09-10 |
+| [Design Cluster Message Aggregation](../../questions/algorithm/design-cluster-message-aggregation/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-09-10 |
 | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | Phone screen | 1 | 2026-09-08 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | Phone screen | 1 | 2026-09-07 |
-| [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | Phone screen | 3 | 2026-09-04 |
+| [Restore IP Addresses](../../questions/algorithm/restore-ip-addresses/README.md) | Algorithm | Medium | Phone screen | 3 | 2026-09-04 |
 | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-08-28 |
 | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | Phone screen | 1 | 2026-08-27 |
 | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-08-24 |
@@ -36,14 +36,14 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Design a Highly Available Conversational AI Service](https://trueinterview.io/questions/design-a-highly-available-conversational-ai-service) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-07-17 |
 | [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-07-16 |
 | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-07-15 |
-| [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-07-13 |
-| [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-07-10 |
+| [Toy Language Type System](../../questions/object-oriented-programming/toy-language-type-system/README.md) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-07-13 |
+| [Data Labeling Task Scheduler](../../questions/algorithm/data-labeling-task-scheduler/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-07-10 |
 | [Shard Rebalancing](https://trueinterview.io/questions/shard-rebalancing) | Algorithm | Hard | Phone screen | 1 | 2026-06-26 |
 | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-06-20 |
 | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai) | Blog | — | Onsite / virtual onsite | 1 | 2026-06-19 |
 | [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive) | Blog | — | Onsite / virtual onsite | 1 | 2026-06-19 |
 | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | System Design | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-06-19 |
-| [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Phone screen | 2 | 2026-06-19 |
+| [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md) | Algorithm | Medium | Phone screen | 2 | 2026-06-19 |
 | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-06-11 |
 | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Object Oriented Programming | Medium | Phone screen | 2 | 2026-06-11 |
 | [Debug a GPT-Style Transformer with KV-Cache Generation](https://trueinterview.io/questions/transformer-bug-hunt) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-06-09 |
@@ -72,7 +72,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Compute Matrix Prefix Products And Gradients](https://trueinterview.io/questions/compute-matrix-prefix-products-and-gradients) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-02 |
 | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Onsite / virtual onsite | 4 | 2026-04 |
 | [Debug a Transformer and Convert It to a Classifier](https://trueinterview.io/questions/transformer-debug) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-04 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
 | [ModalLock and FairModalLock](https://trueinterview.io/questions/modallock-and-fairmodallock) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | 2026-03-30 |
 | [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-03-22 |
 | [Code Reading — 400-line PyTorch Refactor](https://trueinterview.io/questions/code-reading-pytorch-refactor) | AI Coding | Hard | Onsite / virtual onsite | 1 | 2026-03-09 |
@@ -81,7 +81,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | AI Coding | Medium | Phone screen | 2 | 2026-02-18 |
 | [Analyze matrix multiplication complexity](https://trueinterview.io/questions/analyze-matrix-multiplication-complexity) | Blog | — | Phone screen | 1 | 2026-02-11 |
 | [Derive Backpropagation for Matrix-Product Layers](https://trueinterview.io/questions/derive-backpropagation-for-matrix-product-layers) | Blog | — | Phone screen | 1 | 2026-02-05 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
 | [Write SQL for repeat churn](https://trueinterview.io/questions/write-sql-for-repeat-churn) | SQL | Hard | Phone screen | 1 | 2026-02-03 |
 | [Design a free-month experiment](https://trueinterview.io/questions/design-a-free-month-experiment) | System Design | Medium | Phone screen | 1 | 2026-02-03 |
 | [How to answer common recruiter screen questions](https://trueinterview.io/questions/how-to-answer-common-recruiter-screen-questions) | Blog | — | Phone screen | 1 | 2026-02-02 |
@@ -106,7 +106,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Implement a persistent sharded key-value store](https://trueinterview.io/questions/implement-a-persistent-sharded-key-value-store) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-11-24 |
 | [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check) | Algorithm | Medium | Phone screen | 1 | 2025-11-17 |
 | [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-11-13 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
 | [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | 2025-11-07 |
 | [Implement delimiter-free string codec](https://trueinterview.io/questions/implement-delimiter-free-string-codec) | Algorithm | Medium | Phone screen | 1 | 2025-10-31 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Onsite / virtual onsite | 5 | 2025-10-29 |
@@ -115,7 +115,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture) | System Design | Medium | Phone screen | 1 | 2025-10-18 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Phone screen | 10 | 2025-10-15 |
 | [Design A Nearby POI Service](https://trueinterview.io/questions/points-of-interest-yelp) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-10-07 |
-| [Compute signup rate and retention from raw logs](https://trueinterview.io/questions/compute-signup-rate-and-retention-from-raw-logs) | SQL | Medium | Phone screen | 1 | 2025-10-04 |
+| [Compute signup rate and retention from raw logs](../../questions/sql/compute-signup-rate-and-retention-from-raw-logs/README.md) | SQL | Medium | Phone screen | 1 | 2025-10-04 |
 | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | 2025-06 |
 | [1-Nearest Neighbor Classification with Manhattan Distance](https://trueinterview.io/questions/fe05dfd3-4412-503b-9861-dde9ef9e289a) | Algorithm | Easy | Online assessment | 1 | — |
 | [Count Paths Visiting Exactly One Shop of Each Type](https://trueinterview.io/questions/f27c58d6-4e09-5c7e-b35a-4e84bd26cc9f) | Algorithm | Medium | Phone screen | 1 | — |

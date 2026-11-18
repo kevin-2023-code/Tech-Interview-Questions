@@ -10,9 +10,9 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Algorithm | Hard | Phone screen | 1 | 2026-09-17 |
+| [Find the Guaranteed Capture Time in a Turn-Based Graph Game](../../questions/algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-09-17 |
 | [Track Repeated Approval Alerts and Safely Update Alert Levels](https://trueinterview.io/questions/track-repeated-approval-alerts-and-safely-update-alert-levels) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | 2026-09-05 |
-| [Find shortest path on infinite grid](https://trueinterview.io/questions/find-shortest-path-on-infinite-grid) | Algorithm | Hard | Phone screen | 1 | 2026-03-11 |
+| [Find shortest path on infinite grid](../../questions/algorithm/find-shortest-path-on-infinite-grid/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-03-11 |
 | [Implement a Vending Machine](https://trueinterview.io/questions/implement-a-vending-machine) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-01-28 |
 | [Maximize non-adjacent sum on an N-ary tree](https://trueinterview.io/questions/maximize-non-adjacent-sum-on-an-n-ary-tree) | Algorithm | Hard | Phone screen | 1 | 2025-12-26 |
 | [Find flush and straight groups in cards](https://trueinterview.io/questions/find-flush-and-straight-groups-in-cards) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2025-11-28 |

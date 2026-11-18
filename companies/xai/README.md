@@ -18,7 +18,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4
 | [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | Blog | — | Phone screen | 1 | 2026-06-19 |
 | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-06-11 |
 | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | Phone screen, Onsite / virtual onsite | 4 | 2026-05-26 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Onsite / virtual onsite | 13 | 2026-04-12 |
 | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-04-04 |
 | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | AI Coding | Hard | Phone screen | 1 | 2026-04-04 |

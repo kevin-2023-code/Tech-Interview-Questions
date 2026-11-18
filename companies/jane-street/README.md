@@ -15,14 +15,14 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 | [Design Exchange and Instrument Abstractions for Quote Arbitrage](https://trueinterview.io/questions/design-exchange-and-instrument-abstractions-for-quote-arbitrage) | System Design | Medium | Phone screen | 1 | 2026-08-24 |
 | [Transform sparse time-code stream to dense rows](https://trueinterview.io/questions/transform-sparse-time-code-stream-to-dense-rows) | Algorithm | Hard | Phone screen | 1 | 2026-02-12 |
 | [Design a Real-vs-Fake DNA Classifier](https://trueinterview.io/questions/design-a-real-vs-fake-dna-classifier) | System Design | Hard | Phone screen | 1 | 2026-01-27 |
-| [Connect-N on an Infinite Board with Gravity](https://trueinterview.io/questions/connect-n-on-an-infinite-board-with-gravity) | Algorithm | Hard | Phone screen | 1 | 2025-12-26 |
+| [Connect-N on an Infinite Board with Gravity](../../questions/algorithm/connect-n-on-an-infinite-board-with-gravity/README.md) | Algorithm | Hard | Phone screen | 1 | 2025-12-26 |
 | [Validate order book data across multiple databases](https://trueinterview.io/questions/validate-order-book-data-across-multiple-databases) | System Design | Hard | Onsite / virtual onsite | 1 | 2025-12-15 |
 | [Design exchange–trading system message flow](https://trueinterview.io/questions/design-exchangetrading-system-message-flow) | System Design | Hard | Onsite / virtual onsite | 1 | 2025-12-15 |
 | [Sort trade executions into a canonical order](https://trueinterview.io/questions/sort-trade-executions-into-a-canonical-order) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-12-15 |
 | [Solve probability and game-theory puzzles](https://trueinterview.io/questions/solve-probability-and-game-theory-puzzles) | Blog | — | Phone screen | 1 | 2025-12-01 |
 | [Alternating Die-Roll Game: Optimal Accept/Reject Strategy](https://trueinterview.io/questions/alternating-die-roll-game-optimal-accept-reject-strategy) | Blog | — | Phone screen | 1 | 2025-11-20 |
 | [Turning Interview Code into a Reusable Library or API](https://trueinterview.io/questions/turning-interview-code-into-a-reusable-library-or-api) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-11-06 |
-| [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](https://trueinterview.io/questions/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner) | Algorithm | Hard | Phone screen | 1 | 2025-11-06 |
+| [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](../../questions/algorithm/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner/README.md) | Algorithm | Hard | Phone screen | 1 | 2025-11-06 |
 | [Solve queue switch and coin change puzzles](https://trueinterview.io/questions/solve-queue-switch-and-coin-change-puzzles) | Algorithm | Hard | Online assessment | 1 | 2025-10-14 |
 | [Sealed-Bid Auction for a Box of 200 Coin Flips (and an Informed Opponent)](https://trueinterview.io/questions/sealed-bid-auction-for-a-box-of-200-coin-flips-and-an-informed-opponent) | Blog | — | Phone screen | 1 | 2025-10-10 |
 

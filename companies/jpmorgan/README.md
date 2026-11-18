@@ -20,7 +20,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-22 |
 | [Process Scheduler II](https://trueinterview.io/questions/minimum-cpu-cores) | Algorithm | Medium | Online assessment | 1 | 2026-03-31 |
 | [Minimize Operations to Balance Shipments](https://trueinterview.io/questions/minimize-operations-to-balance-shipments) | Algorithm | Medium | Online assessment | 1 | 2026-03-21 |
-| [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
+| [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
 | [Explain Daily Signal Construction and a Prediction Workflow](https://trueinterview.io/questions/explain-daily-signal-construction-and-a-prediction-workflow) | Blog | — | Phone screen | 1 | 2026-03-18 |
 | [Minimum Anagram Edits](https://trueinterview.io/questions/minimum-anagram-edits) | Algorithm | Hard | Online assessment, Phone screen | 1 | 2026-03-18 |
 | [Table of Contents from Markdown Headings II](https://trueinterview.io/questions/markdown-table-of-contents) | Algorithm | Easy | Online assessment | 1 | 2026-03-14 |

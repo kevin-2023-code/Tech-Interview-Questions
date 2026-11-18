@@ -11,7 +11,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 3 | 2026-08-04 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
 | [Implement palindrome check and valid parentheses](https://trueinterview.io/questions/implement-palindrome-check-and-valid-parentheses) | Algorithm | Medium | Phone screen | 1 | 2026-01-17 |
 | [Discuss languages, packages, and tools you know](https://trueinterview.io/questions/discuss-languages-packages-and-tools-you-know) | Blog | — | Phone screen | 1 | 2025-12-15 |
 | [Answer common behavioral questions using STAR](https://trueinterview.io/questions/answer-common-behavioral-questions-using-star) | Blog | — | Phone screen | 1 | 2025-12-15 |

@@ -12,7 +12,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Design Internal Chat and Re-engagement Emails](https://trueinterview.io/questions/design-internal-chat-and-re-engagement-emails) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-02-16 |
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
+| [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](../../questions/object-oriented-programming/composable-event-recommendation-campaign-engine-flexible-filters-ranking/README.md) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
 
 ---
 

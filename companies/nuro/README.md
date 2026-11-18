@@ -18,9 +18,9 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7
 | [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-08-31 |
 | [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-08-31 |
 | [Coordinate Video Reading and Rendering at 25 Frames per Second](https://trueinterview.io/questions/coordinate-video-reading-and-rendering-at-25-frames-per-second) | Object Oriented Programming | Hard | Phone screen | 1 | 2026-02-15 |
-| [Check Vertical Reflection Symmetry with Duplicate Points](https://trueinterview.io/questions/check-vertical-reflection-symmetry-with-duplicate-points) | Algorithm | Medium | Phone screen | 1 | 2026-02-15 |
+| [Check Vertical Reflection Symmetry with Duplicate Points](../../questions/algorithm/check-vertical-reflection-symmetry-with-duplicate-points/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-02-15 |
 | [Design an Inference Pipeline](https://trueinterview.io/questions/design-an-inference-pipeline) | System Design | Medium | Phone screen | 1 | 2026-01-30 |
-| [Find Maximum Path Sum in N-ary Tree](https://trueinterview.io/questions/find-maximum-path-sum-in-n-ary-tree) | Algorithm | Hard | Phone screen | 1 | 2026-01-30 |
+| [Find Maximum Path Sum in N-ary Tree](../../questions/algorithm/find-maximum-path-sum-in-n-ary-tree/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-01-30 |
 | [Find gaps between intervals](https://trueinterview.io/questions/find-gaps-between-intervals) | Algorithm | Medium | Phone screen | 1 | 2025-11-09 |
 
 ---

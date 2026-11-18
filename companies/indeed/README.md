@@ -11,7 +11,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/questions/compare-arrays-and-linked-lists-for-indexed-operations) | Blog | — | Phone screen | 1 | 2026-09-16 |
-| [Redesign a Spam Classifier for Production](https://trueinterview.io/questions/redesign-a-spam-classifier-for-production) | System Design | Hard | Phone screen | 1 | 2026-08-20 |
+| [Redesign a Spam Classifier for Production](../../questions/system-design/redesign-a-spam-classifier-for-production/README.md) | System Design | Hard | Phone screen | 1 | 2026-08-20 |
 
 ---
 

@@ -15,11 +15,11 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | [Keep Gradient Descent from Stalling at Poor Solutions](https://trueinterview.io/questions/keep-gradient-descent-from-stalling-at-poor-solutions) | Blog | — | Phone screen | 1 | 2026-08-21 |
 | [Connect Bias-Variance Trade-offs to Bagging and Boosting](https://trueinterview.io/questions/connect-bias-variance-trade-offs-to-bagging-and-boosting) | Blog | — | Phone screen | 1 | 2026-08-21 |
 | [Compare Transformers and RNNs and Derive Attention Complexity](https://trueinterview.io/questions/compare-transformers-and-rnns-and-derive-attention-complexity) | Blog | — | Phone screen | 1 | 2026-08-21 |
-| [Forecast Food Stocking Needs Under Waste and Stockout Costs](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) | System Design | Hard | Phone screen | 1 | 2026-08-21 |
+| [Forecast Food Stocking Needs Under Waste and Stockout Costs](../../questions/system-design/forecast-food-stocking-needs-under-waste-and-stockout-costs/README.md) | System Design | Hard | Phone screen | 1 | 2026-08-21 |
 | [Explain an End-to-End ML Project to Mixed Audiences](https://trueinterview.io/questions/explain-an-end-to-end-ml-project-to-mixed-audiences) | Blog | — | Onsite / virtual onsite | 1 | 2026-08-15 |
-| [Find the Intersection of Two Linked Chains](https://trueinterview.io/questions/find-the-intersection-of-two-linked-chains) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-08-15 |
+| [Find the Intersection of Two Linked Chains](../../questions/algorithm/find-the-intersection-of-two-linked-chains/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-08-15 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Algorithm | Medium | Phone screen | 4 | 2026-03 |
-| [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Phone screen | 7 | 2026-02-19 |
+| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | 7 | 2026-02-19 |
 | [Design a restaurant reservation system](https://trueinterview.io/questions/design-a-restaurant-reservation-system) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-11-07 |
 | [Library Book Management System Design and API Architecture](https://trueinterview.io/questions/c51674da-fe87-4c8a-ae4c-953716a356b6) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Analyze the Time Complexity of Nested Loops](https://trueinterview.io/questions/bdd3636b-e407-5c8e-9af4-42aa5ef91413) | Blog | — | Onsite / virtual onsite | 1 | — |
@@ -46,7 +46,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | [Count Days a Temperature Stays the Maximum](https://trueinterview.io/questions/highest-temperature-span) | Algorithm | Medium | Phone screen | 1 | — |
 | [Bucket Words That Share the Same Letters](https://trueinterview.io/questions/group-anagrams-2) | Algorithm | Easy | Phone screen | 1 | — |
 | [Reachability on a Height Grid With a Climb Limit](https://trueinterview.io/questions/grid-jump-reachability) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
-| [Enumerate All Balanced Bracket Strings for N Pairs](https://trueinterview.io/questions/generate-parentheses) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
+| [Enumerate All Balanced Bracket Strings for N Pairs](../../questions/algorithm/generate-parentheses/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
 | [Two-Basket Fruit Picking Along a Tree Row](https://trueinterview.io/questions/fruit-into-baskets) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
 | [Iterator Over Arbitrarily Nested Integer Lists](https://trueinterview.io/questions/flatten-nested-list-iterator) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Spot the Repeated Value in a Constrained Array](https://trueinterview.io/questions/find-duplicate-number) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |

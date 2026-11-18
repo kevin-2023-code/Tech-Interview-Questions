@@ -61,7 +61,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Merchant Fraud Score](https://trueinterview.io/questions/merchant-fraud-score-oa) | Algorithm | Medium | Online assessment | 1 | 2026-01-17 |
 | [Evaluate Stripe Capital Loan Performance](https://trueinterview.io/questions/evaluate-stripe-capital-loan-performance) | Blog | — | Phone screen | 1 | 2026-01-08 |
 | [Design Webhook Delivery System](https://trueinterview.io/questions/payment-webhook-system) | System Design | Medium | Onsite / virtual onsite | 2 | 2025-12-22 |
-| [Shipping Cost Calculator](https://trueinterview.io/questions/shipping-cost-calculator) | Algorithm | Medium | Phone screen | 1 | 2025-12-19 |
+| [Shipping Cost Calculator](../../questions/algorithm/shipping-cost-calculator/README.md) | Algorithm | Medium | Phone screen | 1 | 2025-12-19 |
 | [Moshi JSON Library](https://trueinterview.io/questions/debug-moshi-json-library) | AI Coding | Medium | Onsite / virtual onsite | 1 | 2025-12-14 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Onsite / virtual onsite | 10 | 2025-12-10 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-12-06 |
@@ -122,7 +122,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Create a UI Component for Passport Validation](https://trueinterview.io/questions/6906bc8c-d026-4897-935f-ad4842034fa0) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
 | [Email (Multi-part)](https://trueinterview.io/questions/48dbfe85-e973-4205-950a-2a075b7d0307) | Algorithm | Medium | Phone screen | 1 | — |
 | [CSV Parsing Drops Quotes](https://trueinterview.io/questions/3edbdc05-8e28-41b5-b174-305e4e4e96bc) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
-| [Evaluate Reverse Polish Notation](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) | Algorithm | Medium | Phone screen | 2 | — |
+| [Evaluate Reverse Polish Notation](../../questions/algorithm/evaluate-reverse-polish-notation/README.md) | Algorithm | Medium | Phone screen | 2 | — |
 | [Exception handling in debugging](https://trueinterview.io/questions/2db842ae-625f-4098-8075-aab97db253a8) | AI Coding | Easy | Onsite / virtual onsite | 1 | — |
 | [Email Time Update Problem](https://trueinterview.io/questions/2ada198e-0cfe-4fea-9e44-c5737c04b3f8) | Algorithm | Easy | Online assessment | 1 | — |
 | [Fee Calculation for Transactions](https://trueinterview.io/questions/012ccdf5-7691-4ff9-9a61-9b5cf3c60ead) | Algorithm | Easy | Online assessment | 1 | — |

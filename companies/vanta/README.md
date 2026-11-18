@@ -12,7 +12,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-12 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Medium | Phone screen | 1 | 2026-07-16 |
-| [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-07-16 |
+| [Implement `uniq` — Unique Lines in a File](../../questions/algorithm/unique-lines-command/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-07-16 |
 | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-07-10 |
 | [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq) | Blog | — | Onsite / virtual onsite | 1 | 2026-07-10 |
 | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-06-10 |

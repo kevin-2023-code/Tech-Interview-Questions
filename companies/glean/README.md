@@ -14,12 +14,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Implement Rate-Limited Wikipedia Crawler](https://trueinterview.io/questions/implement-rate-limited-wikipedia-crawler) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-23 |
 | [Search Words in a Character Grid](https://trueinterview.io/questions/search-words-in-a-character-grid) | Algorithm | Hard | Phone screen | 2 | 2026-04-15 |
 | [Find the Kth Largest in Two Sorted Arrays](https://trueinterview.io/questions/find-the-kth-largest-in-two-sorted-arrays) | Algorithm | Hard | Phone screen | 1 | 2026-04-01 |
-| [Implement 2048 Game Logic](https://trueinterview.io/questions/implement-2048-game-logic) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-03-01 |
+| [Implement 2048 Game Logic](../../questions/object-oriented-programming/implement-2048-game-logic/README.md) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-03-01 |
 | [What are sum expectation and variance?](https://trueinterview.io/questions/what-are-sum-expectation-and-variance) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-11 |
 | [How to measure product success?](https://trueinterview.io/questions/how-to-measure-product-success) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-11 |
 | [Simulate document assignment to indexers](https://trueinterview.io/questions/simulate-document-assignment-to-indexers) | Algorithm | Hard | Phone screen | 1 | 2025-11-19 |
 | [Reason about MAU error after user ID rehash](https://trueinterview.io/questions/reason-about-mau-error-after-user-id-rehash) | Blog | — | Phone screen | 1 | 2025-11-10 |
-| [Compute DAU and rolling MAU with zero days](https://trueinterview.io/questions/compute-dau-and-rolling-mau-with-zero-days) | SQL | Hard | Phone screen | 1 | 2025-11-10 |
+| [Compute DAU and rolling MAU with zero days](../../questions/sql/compute-dau-and-rolling-mau-with-zero-days/README.md) | SQL | Hard | Phone screen | 1 | 2025-11-10 |
 
 ---
 

@@ -11,18 +11,18 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Plant Infection Spread: Days Until Stable](https://trueinterview.io/questions/plant-infection-spread-days-to-stabilize) | Algorithm | Medium | Phone screen | 1 | 2026-10-02 |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
 | [Forecast Storage Demand Across 100 Data Centers](https://trueinterview.io/questions/forecast-storage-demand-across-100-data-centers) | System Design | Hard | Phone screen | 1 | 2026-09-11 |
 | [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/questions/accessories-qa-benchmark-and-regression-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-09-09 |
 | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Algorithm | Medium | Phone screen | 1 | 2026-08-26 |
 | [Choose File Storage Tiers Using Access Predictions](https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions) | Algorithm | Hard | Phone screen | 1 | 2026-08-24 |
 | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-08-16 |
-| [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-08-16 |
+| [Copy List with Random Pointer (LC 138)](../../questions/algorithm/copy-list-with-random-pointer-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-08-16 |
 | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | SQL | Easy | Online assessment | 1 | 2026-08-13 |
 | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | System Design | Hard | Phone screen | 1 | 2026-08-08 |
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-08-05 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | 10 | 2026-07-29 |
-| [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | Algorithm | Medium | Phone screen | 3 | 2026-07-28 |
+| [Insert Interval (LC 57)](../../questions/algorithm/insert-interval/README.md) | Algorithm | Medium | Phone screen | 3 | 2026-07-28 |
 | [Alias Group Mapping](https://trueinterview.io/questions/alias-group-mapping) | Algorithm | Medium | Phone screen | 1 | 2026-07-27 |
 | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Medium | Onsite / virtual onsite | 1 | 2026-07-26 |
 | [ML Systems Codebase Deep Dive](https://trueinterview.io/questions/ml-systems-codebase-deep-dive) | Blog | — | Phone screen | 1 | 2026-07-01 |
@@ -35,8 +35,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | [OS Fundamentals & Concurrency Drill](https://trueinterview.io/questions/os-fundamentals-and-concurrency) | Blog | — | Phone screen | 1 | 2026-06-15 |
 | [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/questions/ml-fundamentals-and-model-debugging) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-06-10 |
 | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-06-08 |
-| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 2 | 2026-06-08 |
-| [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Easy | Phone screen | 10 | 2026-06-08 |
+| [Happy Number](../../questions/algorithm/happy-number/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 2 | 2026-06-08 |
+| [Top K Frequent Elements](../../questions/algorithm/top-k-frequent-elements/README.md) | Algorithm | Easy | Phone screen | 10 | 2026-06-08 |
 | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Algorithm | Medium | Onsite / virtual onsite | 2 | 2026-05-27 |
 | [Happy Number II](https://trueinterview.io/questions/happy-number-2) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-05-27 |
 | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Object Oriented Programming | Easy | Phone screen, Onsite / virtual onsite | 3 | 2026-05-27 |
@@ -47,36 +47,36 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | [Design APIs for a Voting System](https://trueinterview.io/questions/design-apis-for-a-voting-system) | System Design | Hard | Phone screen | 1 | 2026-05-03 |
 | [Substring Pattern Matches](https://trueinterview.io/questions/substring-pattern-matches) | Algorithm | Easy | Phone screen | 1 | 2026-05-03 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | System Design | Hard | Phone screen, Onsite / virtual onsite | 5 | 2026-05-03 |
-| [Valid Palindrome](https://trueinterview.io/questions/valid-palindrome) | Algorithm | Easy | Phone screen | 4 | 2026-04-28 |
-| [Search a 2D Matrix](https://trueinterview.io/questions/search-a-2d-matrix) | Algorithm | Easy | Phone screen | 1 | 2026-04-25 |
+| [Valid Palindrome](../../questions/algorithm/valid-palindrome/README.md) | Algorithm | Easy | Phone screen | 4 | 2026-04-28 |
+| [Search a 2D Matrix](../../questions/algorithm/search-a-2d-matrix/README.md) | Algorithm | Easy | Phone screen | 1 | 2026-04-25 |
 | [Maximum Number of Eaten Apples](https://trueinterview.io/questions/maximum-number-of-eaten-apples) | Algorithm | Medium | Phone screen | 1 | 2026-04-24 |
-| [Merge Two Sorted Lists](https://trueinterview.io/questions/merge-two-sorted-lists) | Algorithm | Easy | Phone screen | 3 | 2026-04-20 |
+| [Merge Two Sorted Lists](../../questions/algorithm/merge-two-sorted-lists/README.md) | Algorithm | Easy | Phone screen | 3 | 2026-04-20 |
 | [Flood Fill](https://trueinterview.io/questions/flood-fill) | Algorithm | Easy | Phone screen | 1 | 2026-04-20 |
 | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | System Design | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-04-18 |
 | [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list) | Algorithm | Medium | Onsite / virtual onsite | 2 | 2026-04-18 |
-| [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Phone screen | 4 | 2026-04-14 |
+| [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md) | Algorithm | Medium | Phone screen | 4 | 2026-04-14 |
 | [Design App Store Search](https://trueinterview.io/questions/design-app-store-search) | System Design | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-04-08 |
-| [Container With Most Water II](https://trueinterview.io/questions/container-with-most-water) | Algorithm | Medium | Phone screen | 1 | 2026-04-08 |
+| [Container With Most Water II](../../questions/algorithm/container-with-most-water/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-04-08 |
 | [Discuss Challenges and Career Goals](https://trueinterview.io/questions/discuss-challenges-and-career-goals) | Blog | — | Phone screen | 1 | 2026-04-02 |
-| [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
-| [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
-| [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Phone screen | 5 | 2026-04-01 |
+| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
+| [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
+| [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | 5 | 2026-04-01 |
 | [Longest Mountain in Array](https://trueinterview.io/questions/longest-mountain-in-array) | Algorithm | Easy | Phone screen | 2 | 2026-04-01 |
 | [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation) | System Design | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-03-28 |
 | [Validate and Assess Performance Benchmarks](https://trueinterview.io/questions/validate-and-assess-performance-benchmarks) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-27 |
 | [Reduce False Failures and Classify QA Outcomes](https://trueinterview.io/questions/reduce-false-failures-and-classify-qa-outcomes) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-27 |
 | [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-03-25 |
-| [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
+| [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | 11 | 2026-03-20 |
 | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer) | Algorithm | Medium | Phone screen | 1 | 2026-03-17 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Medium | Phone screen | 6 | 2026-03-17 |
 | [Design a Score for Imperfect Palindromes](https://trueinterview.io/questions/design-a-score-for-imperfect-palindromes) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-03-16 |
 | [Improve QA Benchmarks, Regression Tests, and HPC Resource Use](https://trueinterview.io/questions/improve-qa-benchmarks-regression-tests-and-hpc-resource-use) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-16 |
 | [How do you align ambiguous cross-functional projects?](https://trueinterview.io/questions/how-do-you-align-ambiguous-cross-functional-projects) | Blog | — | Phone screen | 1 | 2026-03-13 |
-| [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Phone screen | 9 | 2026-03-09 |
+| [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | 9 | 2026-03-09 |
 | [How to root-cause Wi‑Fi chip stops after 30 minutes](https://trueinterview.io/questions/how-to-root-cause-wi-fi-chip-stops-after-30-minutes) | Blog | — | Phone screen | 1 | 2026-03-06 |
 | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/questions/systemverilog-dv-constraint-and-architecture-loop) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-03-06 |
-| [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
-| [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 6 | 2026-03-04 |
+| [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
+| [Alien Dictionary](../../questions/algorithm/alien-dictionary/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 6 | 2026-03-04 |
 | [Bold Words in String](https://trueinterview.io/questions/bold-words-in-string) | Algorithm | Medium | Phone screen | 1 | 2026-03-03 |
 | [Design Hit Counter](https://trueinterview.io/questions/design-hit-counter) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-03-02 |
 | [Intersection of Two Linked Lists](https://trueinterview.io/questions/intersection-of-two-linked-lists) | Algorithm | Medium | Phone screen | 2 | 2026-03-02 |
@@ -99,21 +99,21 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | [Answer OoO, caches, and memory-system questions](https://trueinterview.io/questions/answer-ooo-caches-and-memory-system-questions) | Blog | — | Phone screen | 1 | 2026-02-09 |
 | [Solve mixed coding tasks from interviews](https://trueinterview.io/questions/solve-mixed-coding-tasks-from-interviews) | Algorithm | Hard | Phone screen | 1 | 2026-02-09 |
 | [Dedupe Unsorted Array (Three Variants)](https://trueinterview.io/questions/dedupe-unsorted-array-three-variants) | Algorithm | Medium | Phone screen | 1 | 2026-02-09 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
 | [Find Median (Oracle Variant)](https://trueinterview.io/questions/find-median-oracle-variant) | Algorithm | Medium | Phone screen | 1 | 2026-02-06 |
-| [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Algorithm | Medium | Phone screen | 6 | 2026-02-04 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
+| [Serialize and Deserialize Binary Tree](../../questions/algorithm/serialize-and-deserialize-binary-tree/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-02-04 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
 | [Zero Out Duplicates and Sort](https://trueinterview.io/questions/zero-out-duplicates-and-sort) | Algorithm | Medium | Phone screen | 1 | 2026-02-03 |
 | [Design a Chat Application](https://trueinterview.io/questions/design-a-chat-application) | System Design | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-02-03 |
 | [Solve 15 common Apple coding questions](https://trueinterview.io/questions/solve-15-common-apple-coding-questions) | Algorithm | Medium | Phone screen | 1 | 2026-01-30 |
-| [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k) | Algorithm | Medium | Phone screen | 3 | 2026-01-29 |
+| [Subarray Sum Equals K](../../questions/algorithm/subarray-sum-equals-k/README.md) | Algorithm | Medium | Phone screen | 3 | 2026-01-29 |
 | [Binary Search Tree Iterator](https://trueinterview.io/questions/binary-search-tree-iterator) | Object Oriented Programming | Medium | Phone screen | 2 | 2026-01-29 |
-| [Cheapest Flights Within K Stops](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3) | Algorithm | Medium | Phone screen | 3 | 2026-01-28 |
+| [Cheapest Flights Within K Stops](../../questions/algorithm/cheapest-flights-within-k-stops-3/README.md) | Algorithm | Medium | Phone screen | 3 | 2026-01-28 |
 | [Solve 15 common interview problems](https://trueinterview.io/questions/solve-15-common-interview-problems) | Algorithm | Easy | Phone screen | 1 | 2026-01-27 |
 | [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | 6 | 2026-01-22 |
 | [Find K Pairs with Smallest Sums](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) | Algorithm | Medium | Phone screen | 2 | 2026-01-22 |
 | [Explain your LLM project and contributions](https://trueinterview.io/questions/explain-your-llm-project-and-contributions) | Blog | — | Phone screen | 1 | 2026-01-17 |
-| [Reconstruct Itinerary](https://trueinterview.io/questions/reconstruct-itinerary) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 2 | 2026-01-09 |
+| [Reconstruct Itinerary](../../questions/algorithm/reconstruct-itinerary/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 2 | 2026-01-09 |
 | [How would you critique this regression?](https://trueinterview.io/questions/how-would-you-critique-this-regression) | Blog | — | Phone screen | 1 | 2026-01-08 |
 | [Airplane Seat Reservation API](https://trueinterview.io/questions/airplane-seat-reservation-api) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-01-06 |
 | [Design Siri-vs-GPT query routing](https://trueinterview.io/questions/design-siri-vs-gpt-query-routing) | System Design | Medium | Phone screen | 1 | 2026-01-04 |
@@ -140,10 +140,10 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | [Solve three easy algorithm problems](https://trueinterview.io/questions/solve-three-easy-algorithm-problems) | Algorithm | Medium | Phone screen | 1 | 2025-11-11 |
 | [Explain Vision Encoders and LLM Bottlenecks](https://trueinterview.io/questions/explain-vision-encoders-and-llm-bottlenecks) | Blog | — | Phone screen | 1 | 2025-11-11 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Onsite / virtual onsite | 5 | 2025-10-29 |
-| [Scale Digit-Square Convergence Requests](https://trueinterview.io/questions/scale-digit-square-convergence-requests) | System Design | Medium | Phone screen | 1 | 2025-10-28 |
+| [Scale Digit-Square Convergence Requests](../../questions/system-design/scale-digit-square-convergence-requests/README.md) | System Design | Medium | Phone screen | 1 | 2025-10-28 |
 | [Explain HashMap Resizing Without Long Pauses](https://trueinterview.io/questions/explain-hashmap-resizing-without-long-pauses) | Blog | — | Phone screen | 1 | 2025-10-28 |
 | [Design Disk-Based Inventory Serving](https://trueinterview.io/questions/design-disk-based-inventory-serving) | System Design | Hard | Phone screen | 1 | 2025-10-28 |
-| [Solve Digit-Square and Grid BFS Problems](https://trueinterview.io/questions/solve-digit-square-and-grid-bfs-problems) | Algorithm | Hard | Phone screen | 1 | 2025-10-28 |
+| [Solve Digit-Square and Grid BFS Problems](../../questions/algorithm/solve-digit-square-and-grid-bfs-problems/README.md) | Algorithm | Hard | Phone screen | 1 | 2025-10-28 |
 | [First Successful Concurrent API Call Within a Timeout](https://trueinterview.io/questions/fd7cfcd2-c7d5-52b1-92e0-9dd645327c9d) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Topological Sorting of a Directed Graph](https://trueinterview.io/questions/d8faf0ff-85e4-5ec7-b184-bb0ee7a6966e) | Algorithm | Medium | Phone screen | 1 | — |
 | [Implement a Reusable Cyclic Barrier](https://trueinterview.io/questions/ce53d155-34b8-5206-bb75-58db08deb040) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
@@ -175,17 +175,17 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | [Classify the Difference Between Two Calendar Dates](https://trueinterview.io/questions/1fd937c6-7de8-57d7-9b2d-c96a07d39ab2) | Algorithm | Easy | Online assessment | 1 | — |
 | [Design Task Manager](https://trueinterview.io/questions/011f47a1-c863-5396-80c8-026f0ef2702e) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Unit Conversion II](https://trueinterview.io/questions/00f63c5f-2290-52e8-bdeb-3514a6c97993) | Algorithm | Medium | Phone screen | 1 | — |
-| [Graph Valid Tree](https://trueinterview.io/questions/graph-valid-tree) | Algorithm | Medium | Phone screen | 1 | — |
+| [Graph Valid Tree](../../questions/algorithm/graph-valid-tree/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-2) | SQL | Easy | Phone screen, Onsite / virtual onsite | 1 | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | Onsite / virtual onsite | 17 | — |
-| [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | Phone screen | 8 | — |
-| [All Nodes Distance K in Binary Tree](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) | Algorithm | Hard | Phone screen | 2 | — |
+| [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | 8 | — |
+| [All Nodes Distance K in Binary Tree](../../questions/algorithm/all-nodes-distance-k-in-binary-tree/README.md) | Algorithm | Hard | Phone screen | 2 | — |
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Object Oriented Programming | Medium | Onsite / virtual onsite | 9 | — |
-| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | Phone screen | 3 | — |
+| [Valid Sudoku](../../questions/algorithm/valid-sudoku/README.md) | Algorithm | Easy | Phone screen | 3 | — |
 | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa) | Algorithm | Hard | Phone screen | 1 | — |
 | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Medium | Onsite / virtual onsite | 3 | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | Onsite / virtual onsite | 3 | — |
-| [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | Phone screen | 7 | — |
+| [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | 7 | — |
 | [Apply a 2D Box Blur Filter](https://trueinterview.io/questions/f377cc09-d8a0-47f3-9797-5ff6d3a0d580) | Algorithm | Medium | Phone screen | 1 | — |
 | [Python Debugging — Fix a Loop Condition Bug](https://trueinterview.io/questions/e9adef64-7ceb-4294-bae4-8d77a203ee81) | Algorithm | Easy | Online assessment | 1 | — |
 | [Reverse String Using Stream](https://trueinterview.io/questions/cd0c8b7a-32b1-466f-8b99-1eea4d72719b) | Algorithm | Easy | Online assessment | 1 | — |

@@ -28,7 +28,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | Onsite / virtual onsite | 2 | 2026-05-09 |
 | [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Algorithm | Medium | Phone screen | 1 | 2026-05-09 |
 | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | System Design | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-05-07 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | System Design | Hard | Phone screen | 1 | 2026-04-18 |
 | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system) | System Design | Medium | Online assessment, Phone screen, Onsite / virtual onsite | 1 | 2026-04-13 |
 | [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-04-12 |
@@ -47,7 +47,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 | [Find the Closest Palindrome](https://trueinterview.io/questions/find-the-closest-palindrome) | Algorithm | Hard | Phone screen | 3 | 2026-02-14 |
 | [Closest Binary Search Tree Value](https://trueinterview.io/questions/closest-binary-search-tree-value) | Algorithm | Medium | Phone screen | 3 | 2026-02-13 |
 | [Design Frontend Feed Status App](https://trueinterview.io/questions/design-frontend-feed-status-app) | System Design | Easy | Onsite / virtual onsite | 1 | 2026-02-11 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
 | [Find the Most Frequent Log Call](https://trueinterview.io/questions/find-the-most-frequent-log-call) | Algorithm | Easy | Phone screen | 1 | 2026-02-01 |
 | [Reach Endpoint With Obstacles](https://trueinterview.io/questions/reach-endpoint-with-obstacles) | Algorithm | Easy | Phone screen | 1 | 2026-02 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Onsite / virtual onsite | 7 | 2026-01-22 |
@@ -107,13 +107,13 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3
 | [Optimize the Space of Code in Coding Screen](https://trueinterview.io/questions/92dadf5d-6db1-424c-b110-2cd7b367704d) | Algorithm | Easy | Online assessment | 1 | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | Onsite / virtual onsite | 17 | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | Onsite / virtual onsite | 9 | — |
-| [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893) | Algorithm | Medium | Phone screen | 1 | — |
+| [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](../../questions/algorithm/rate-limit-by-multiple-request-fields-per-field-multi-dimensional/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Build an Image Feed (Infinite Scroll + Offline Support + Testing)](https://trueinterview.io/questions/e2867a7a-4237-432e-be98-b694a3f3ca9e) | AI Coding | Hard | Onsite / virtual onsite | 1 | — |
-| [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | Phone screen | 7 | — |
+| [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | 7 | — |
 | [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Algorithm | Easy | Phone screen | 1 | — |
 | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Algorithm | Easy | Online assessment | 1 | — |
 | [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) | Algorithm | Hard | Phone screen | 2 | — |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | Phone screen | 14 | — |
+| [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | 14 | — |
 
 ---
 

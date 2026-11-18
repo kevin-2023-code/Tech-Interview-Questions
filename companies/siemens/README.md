@@ -11,7 +11,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Discuss Post-Training Ownership, Failure, and Disagreement](https://trueinterview.io/questions/discuss-post-training-ownership-failure-and-disagreement) | Blog | — | Phone screen | 1 | 2026-09-04 |
-| [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | Algorithm | Medium | Phone screen | 1 | 2026-09-04 |
+| [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](../../questions/algorithm/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-09-04 |
 | [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/questions/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | Blog | — | Phone screen | 1 | 2026-09-04 |
 | [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/questions/choose-lora-for-fine-tuning-and-explain-its-limitations) | Blog | — | Phone screen | 1 | 2026-09-04 |
 

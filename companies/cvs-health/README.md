@@ -27,8 +27,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label) | AI Coding | Medium | Phone screen | 1 | — |
 | [Create Views, Insert, and Update Correctly](https://trueinterview.io/questions/create-views-insert-and-update-correctly) | SQL | Medium | Online assessment | 1 | — |
 | [Create and query an e-commerce schema](https://trueinterview.io/questions/create-and-query-an-e-commerce-schema) | SQL | Medium | Online assessment | 1 | — |
-| [Compute age-band spend and YoY in Georgia](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) | SQL | Medium | Phone screen | 1 | — |
-| [Calculate annual percentages and YoY by cohorts](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) | SQL | Medium | Phone screen | 1 | — |
+| [Compute age-band spend and YoY in Georgia](../../questions/sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | SQL | Medium | Phone screen | 1 | — |
+| [Calculate annual percentages and YoY by cohorts](../../questions/sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | SQL | Medium | Phone screen | 1 | — |
 | [Compute A/B significance, CI, and power](https://trueinterview.io/questions/compute-a-b-significance-ci-and-power) | Blog | — | Online assessment | 1 | — |
 
 ---

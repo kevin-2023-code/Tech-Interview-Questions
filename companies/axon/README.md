@@ -15,12 +15,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [How did you handle an ethical issue?](https://trueinterview.io/questions/how-did-you-handle-an-ethical-issue) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-16 |
 | [Explain scope and impact under pressure](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure) | Blog | — | Phone screen | 1 | 2026-03-01 |
 | [Design fulfillment truck routing and inventory system](https://trueinterview.io/questions/design-fulfillment-truck-routing-and-inventory-system) | System Design | Hard | Phone screen | 1 | 2026-03-01 |
-| [Find accessible devices via nested memberships](https://trueinterview.io/questions/find-accessible-devices-via-nested-memberships) | Algorithm | Medium | Phone screen | 1 | 2026-03-01 |
-| [Design camera-footage upload with custody chain](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) | System Design | Hard | Phone screen | 1 | 2026-02-11 |
+| [Find accessible devices via nested memberships](../../questions/algorithm/find-accessible-devices-via-nested-memberships/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-03-01 |
+| [Design camera-footage upload with custody chain](../../questions/system-design/design-camera-footage-upload-with-custody-chain/README.md) | System Design | Hard | Phone screen | 1 | 2026-02-11 |
 | [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) | Blog | — | Phone screen | 1 | 2026-02-09 |
 | [Answer tough self-awareness and team questions](https://trueinterview.io/questions/answer-tough-self-awareness-and-team-questions) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-08 |
 | [Design device logging system with offline upload](https://trueinterview.io/questions/design-device-logging-system-with-offline-upload) | System Design | Medium | Phone screen | 1 | 2026-02-06 |
-| [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) | System Design | Medium | Phone screen | 1 | 2025-11-18 |
+| [Design a Test Orchestration System](../../questions/system-design/design-a-test-orchestration-system/README.md) | System Design | Medium | Phone screen | 1 | 2025-11-18 |
 
 ---
 

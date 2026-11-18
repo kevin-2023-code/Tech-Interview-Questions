@@ -10,7 +10,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | System Design | Easy | Onsite / virtual onsite | 1 | 2026-09-15 |
+| [Design Consistent List and Category APIs](../../questions/system-design/design-consistent-list-and-category-apis/README.md) | System Design | Easy | Onsite / virtual onsite | 1 | 2026-09-15 |
 
 ---
 

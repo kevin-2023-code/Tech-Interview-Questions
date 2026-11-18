@@ -13,13 +13,13 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/questions/use-the-roofline-model-to-analyze-prefill-and-decoding) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-14 |
 | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-09-14 |
 | [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/questions/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-14 |
-| [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-09-14 |
+| [Find the Largest K Elements with Partitioning](../../questions/algorithm/find-the-largest-k-elements-with-partitioning/README.md) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-09-14 |
 | [Explain the ReAct Agent Loop](https://trueinterview.io/questions/explain-the-react-agent-loop) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-14 |
 | [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/questions/explain-skills-and-progressive-disclosure-in-an-agent) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-14 |
 | [Explain How You Learn New Technical Topics](https://trueinterview.io/questions/explain-how-you-learn-new-technical-topics) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-14 |
 | [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/questions/explain-gpu-register-spills-and-their-performance-cost) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-14 |
 | [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/questions/explain-cache-conflicts-and-related-memory-access-problems) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-14 |
-| [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-14 |
+| [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](../../questions/system-design/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code/README.md) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-14 |
 
 ---
 

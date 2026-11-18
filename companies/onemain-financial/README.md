@@ -20,8 +20,8 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Handle missing data and outliers robustly](https://trueinterview.io/questions/handle-missing-data-and-outliers-robustly) | Blog | — | Phone screen | 1 | — |
 | [Differentiate and control Type I/II errors](https://trueinterview.io/questions/differentiate-and-control-type-i-ii-errors) | Blog | — | Phone screen | 1 | — |
 | [Write SQL for cohort retention and ARPU](https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu) | SQL | Hard | Phone screen | 1 | — |
-| [Transform clickstream with pandas sessionization](https://trueinterview.io/questions/transform-clickstream-with-pandas-sessionization) | Algorithm | Hard | Phone screen | 1 | — |
-| [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | Object Oriented Programming | Medium | Phone screen | 5 | — |
+| [Transform clickstream with pandas sessionization](../../questions/algorithm/transform-clickstream-with-pandas-sessionization/README.md) | Algorithm | Hard | Phone screen | 1 | — |
+| [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | 5 | — |
 
 ---
 

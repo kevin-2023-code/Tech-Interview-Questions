@@ -11,10 +11,10 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | 10 | 2026-07-29 |
-| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Onsite / virtual onsite | 7 | 2026-03-17 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
-| [Implement matrix multiplication and fast exponentiation](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation) | Algorithm | Medium | Phone screen | 1 | 2025-10-02 |
-| [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | Phone screen | 3 | — |
+| [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | 7 | 2026-03-17 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
+| [Implement matrix multiplication and fast exponentiation](../../questions/algorithm/implement-matrix-multiplication-and-fast-exponentiation/README.md) | Algorithm | Medium | Phone screen | 1 | 2025-10-02 |
+| [Modified Basic Calculator](../../questions/algorithm/modified-basic-calculator/README.md) | Algorithm | Medium | Phone screen | 3 | — |
 | [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Algorithm | Medium | Phone screen | 1 | — |
 | [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Algorithm | Hard | Phone screen | 1 | — |
 | [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455) | Algorithm | Medium | Phone screen | 1 | — |

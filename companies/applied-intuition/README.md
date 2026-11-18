@@ -15,7 +15,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Build a File-Driven Data Visualization and Replay UI](https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-06-17 |
 | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Object Oriented Programming | Medium | Online assessment | 3 | 2026-04-28 |
 | [Implement a Fixed-Capacity Deque](https://trueinterview.io/questions/implement-a-fixed-capacity-deque) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-04-14 |
-| [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-02-26 |
+| [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-02-26 |
 | [Design a mini compiler/interpreter](https://trueinterview.io/questions/design-a-mini-compiler-interpreter) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-02-12 |
 | [Design a KV store with transactions](https://trueinterview.io/questions/design-a-kv-store-with-transactions) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-02-12 |
 | [Find intersection of two line segments](https://trueinterview.io/questions/find-intersection-of-two-line-segments) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-02-12 |

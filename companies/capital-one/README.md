@@ -82,7 +82,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Distinct Border Sum of Maximum-Sum Frames](https://trueinterview.io/questions/f11dcc38-131a-5006-8491-5901149f2b1c) | Algorithm | Medium | Phone screen | 1 | — |
 | [Sort Adjacent Pairs](https://trueinterview.io/questions/e1df60be-6bb1-509d-9712-ff7307b30a41) | Algorithm | Easy | Online assessment | 1 | — |
 | [Driver Dataset Exploratory Analysis](https://trueinterview.io/questions/dca94c12-e6ad-549e-a6a9-18a195ab3cb6) | Algorithm | Easy | Online assessment | 1 | — |
-| [Number of Subarrays That Match a Pattern I](https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a) | Algorithm | Medium | Phone screen | 1 | — |
+| [Number of Subarrays That Match a Pattern I](../../questions/algorithm/number-of-subarrays-that-match-a-pattern-i/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Build Driver-Level Feature Dataset](https://trueinterview.io/questions/b5547eb7-b2ec-535d-8ffd-9ab383cfd6cd) | Algorithm | Medium | Phone screen | 1 | — |
 | [Build Blocks and Check Interval Availability](https://trueinterview.io/questions/b529e40c-262f-538d-bc01-16fd7b1936b5) | Algorithm | Medium | Phone screen | 1 | — |
 | [Count Subarrays with k Disjoint Equal Pairs](https://trueinterview.io/questions/b20602c4-59a0-5cbf-a27b-9cb267be58b2) | Algorithm | Medium | Phone screen | 1 | — |
@@ -212,7 +212,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Find the First Dictionary Word Matchable as a Reusable-Character Subsequence](https://trueinterview.io/questions/283a18eb-b75e-5b60-9dd6-f18b79b6033b) | Algorithm | Medium | Phone screen | 1 | — |
 | [Find an Exact Submatrix Pattern](https://trueinterview.io/questions/021c67f3-e24d-578b-b212-4b0fac4c2b8d) | Algorithm | Medium | Phone screen | 1 | — |
 | [Sort Cyclic Shift Absolute-Difference Costs](https://trueinterview.io/questions/4eae3ac8-e1a0-53a3-9a12-577db977b6df) | Algorithm | Easy | Online assessment | 2 | — |
-| [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Algorithm | Medium | Phone screen | 2 | — |
+| [Sort Colors](../../questions/algorithm/sort-colors/README.md) | Algorithm | Medium | Phone screen | 2 | — |
 | [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/questions/f63e89db-acce-46ac-9ee8-4b85820078e0) | Blog | — | Onsite / virtual onsite | 1 | — |
 | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | Phone screen | 2 | — |
 | [Fraud Detection Algorithm for Credit Card Transactions](https://trueinterview.io/questions/86a950f4-60b5-454a-90e5-d8e02a13e342) | Algorithm | Easy | Online assessment | 1 | — |
@@ -221,7 +221,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Round-robin Server Simulation](https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f) | Algorithm | Medium | Phone screen | 1 | — |
 | [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
 | [Implement Test Harness](https://trueinterview.io/questions/1ed1ee1c-e0e3-404e-ae31-959a0593f0b6) | Algorithm | Easy | Online assessment | 1 | — |
-| [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
+| [Banking System with Transaction Activity](../../questions/object-oriented-programming/banking-system-with-transaction-activity/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | Onsite / virtual onsite | 6 | — |
 
 ---

@@ -27,7 +27,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8
 | [How do you manage collaboration and stakeholders?](https://trueinterview.io/questions/how-do-you-manage-collaboration-and-stakeholders) | Blog | — | Onsite / virtual onsite | 1 | 2025-11-24 |
 | [Design a frontend shopping cart and feature flags](https://trueinterview.io/questions/design-a-frontend-shopping-cart-and-feature-flags) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-11-24 |
 | [Determine if chasing points will meet](https://trueinterview.io/questions/determine-if-chasing-points-will-meet) | Algorithm | Hard | Phone screen | 1 | 2025-11-01 |
-| [Build Naive Bayes spam classifier with F1](https://trueinterview.io/questions/build-naive-bayes-spam-classifier-with-f1) | Algorithm | Medium | Phone screen | 1 | 2025-11-01 |
+| [Build Naive Bayes spam classifier with F1](../../questions/algorithm/build-naive-bayes-spam-classifier-with-f1/README.md) | Algorithm | Medium | Phone screen | 1 | 2025-11-01 |
 | [Convert an Integer to Binary](https://trueinterview.io/questions/integer-to-binary-hackerrank) | Algorithm | Easy | Online assessment, Phone screen | 1 | 2025-10-28 |
 | [In-Memory Workspace of Nested Files and Folders](https://trueinterview.io/questions/workspace-resource-tree) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Pair and Triplet Target Sums (LC 1, 167, 15)](https://trueinterview.io/questions/two-sum-variants-and-three-sum) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |

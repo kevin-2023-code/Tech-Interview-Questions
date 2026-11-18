@@ -10,11 +10,11 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | Phone screen | 3 | 2026-09-04 |
+| [Restore IP Addresses](../../questions/algorithm/restore-ip-addresses/README.md) | Algorithm | Medium | Phone screen | 3 | 2026-09-04 |
 | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Algorithm | Easy | Online assessment | 1 | — |
-| [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Algorithm | Medium | Phone screen | 2 | — |
+| [Sort Colors](../../questions/algorithm/sort-colors/README.md) | Algorithm | Medium | Phone screen | 2 | — |
 | [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
-| [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | Phone screen | 7 | — |
+| [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | 7 | — |
 
 ---
 

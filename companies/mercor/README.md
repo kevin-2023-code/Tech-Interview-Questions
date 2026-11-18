@@ -14,9 +14,9 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Find the Probability That One Shop Supplies the Top Two Coffees](https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees) | Blog | — | Phone screen | 1 | 2026-09-03 |
 | [Compare Merge Sort with Factorial and Randomized Inefficient Sorts](https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts) | Blog | — | Phone screen | 1 | 2026-09-03 |
 | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Algorithm | Hard | Phone screen | 1 | 2026-08-30 |
-| [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | System Design | Hard | Phone screen | 1 | 2026-08-30 |
+| [Design a Project-to-Contractor Matching System](../../questions/system-design/design-a-project-to-contractor-matching-system/README.md) | System Design | Hard | Phone screen | 1 | 2026-08-30 |
 | [Project Deep Dive With Product-Level Probing, AI Tool Use, and Startup Motivation](https://trueinterview.io/questions/project-deep-dive-with-product-level-probing-ai-tool-use-and-startup-motivation) | Blog | — | Phone screen | 1 | 2026-05-01 |
-| [Code Review: Thread Safety of a Python Compute-and-Cache Function](https://trueinterview.io/questions/code-review-thread-safety-of-a-python-compute-and-cache-function) | Algorithm | Hard | Phone screen | 1 | 2026-05-01 |
+| [Code Review: Thread Safety of a Python Compute-and-Cache Function](../../questions/algorithm/code-review-thread-safety-of-a-python-compute-and-cache-function/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-05-01 |
 | [Design Candidate Search And LLM Evaluation Tasks](https://trueinterview.io/questions/design-candidate-search-and-llm-evaluation-tasks) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-21 |
 | [Explain what happens when opening a website](https://trueinterview.io/questions/explain-what-happens-when-opening-a-website) | Blog | — | Phone screen | 1 | 2026-01-17 |
 | [Explain VPCs and private/public network connectivity](https://trueinterview.io/questions/explain-vpcs-and-private-public-network-connectivity) | Blog | — | Phone screen | 1 | 2026-01-17 |

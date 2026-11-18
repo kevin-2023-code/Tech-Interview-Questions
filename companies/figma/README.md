@@ -25,7 +25,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [ML Model Design — Prompt-to-Design Generation](https://trueinterview.io/questions/prompt-to-design-generation) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-13 |
 | [Asset / Template Recommendation & Feed](https://trueinterview.io/questions/ml-recsys-assets-feed) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-13 |
 | [Describe your most and least engaging work](https://trueinterview.io/questions/describe-your-most-and-least-engaging-work) | Blog | — | Phone screen | 1 | 2026-04-09 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Onsite / virtual onsite | 2 | 2026-03-24 |
 | [Data Engineer Screen — SQL Collaborator Model + IPv4 Validation](https://trueinterview.io/questions/data-engineer-sql-collaborator-ip-validation) | Algorithm | Medium | Phone screen | 1 | 2026-03-03 |
 | [Write SQL for first share and closest collaborator](https://trueinterview.io/questions/write-sql-for-first-share-and-closest-collaborator) | SQL | Hard | Phone screen | 1 | 2026-01-20 |

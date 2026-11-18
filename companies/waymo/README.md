@@ -41,7 +41,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Randomly Populate Grid with Connected Equal-Size Token Regions](https://trueinterview.io/questions/random-grid-token-fill) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-05-06 |
 | [Count Squares Formed by Segments](https://trueinterview.io/questions/count-squares-formed-by-segments) | Algorithm | Hard | Phone screen | 1 | 2026-05-05 |
 | [Shortest Path from Source to Target Nodes (Dijkstra)](https://trueinterview.io/questions/dijkstra-shortest-path-to-targets) | Algorithm | Medium | Phone screen | 1 | 2026-05-01 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-27 |
 | [Roadway Segment Speed Query](https://trueinterview.io/questions/roadway-segment-speed-query) | Algorithm | Medium | Phone screen | 1 | 2026-04-24 |
 | [Garage Occupancy per Timestamp](https://trueinterview.io/questions/garage-occupancy-per-timestamp) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-04-24 |
@@ -73,7 +73,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Run-Length Encoded String: Find by Index and Range Max](https://trueinterview.io/questions/run-length-encoding-find-by-index) | Algorithm | Medium | Phone screen | 1 | 2026-01-23 |
 | [Sort Target String by Custom Order](https://trueinterview.io/questions/custom-sort-string-by-order) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-01-23 |
 | [Compare two rare-event detection models statistically](https://trueinterview.io/questions/compare-two-rare-event-detection-models-statistically) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-17 |
-| [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Phone screen | 4 | 2025-12-31 |
+| [Count Islands and Water Boundary](../../questions/algorithm/count-islands-and-water-boundary/README.md) | Algorithm | Medium | Phone screen | 4 | 2025-12-31 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-12-06 |
 | [Optimize Tensor Runtime Kernels](https://trueinterview.io/questions/optimize-tensor-runtime-kernels) | System Design | Hard | Phone screen | 1 | 2025-11-27 |
 | [Explain Model Compression Techniques](https://trueinterview.io/questions/explain-model-compression-techniques) | Blog | — | Phone screen | 1 | 2025-11-27 |

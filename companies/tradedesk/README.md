@@ -16,7 +16,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6
 | [Debug a Frontend Component That Shows Wrong API Results](https://trueinterview.io/questions/debug-a-frontend-component-that-shows-wrong-api-results) | Blog | — | Onsite / virtual onsite | 1 | 2026-09-15 |
 | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | AI Coding | Hard | Online assessment | 1 | 2026-08-31 |
 | [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database) | Object Oriented Programming | Hard | Online assessment | 1 | 2026-08-22 |
-| [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
+| [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
 | [Interpolate Y-Value for Given X-Value](https://trueinterview.io/questions/f7ad40a0-87f6-4b4b-9903-e2558f1f276c) | Algorithm | Easy | Online assessment | 1 | — |
 | [Simulation Problem Related to Basic Data Structures and Syntax](https://trueinterview.io/questions/a8b0b549-4edb-4f2c-b1ec-6b9bb7313400) | Algorithm | Medium | Phone screen | 1 | — |
 | [Narrative Words](https://trueinterview.io/questions/9ad96e3a-7f96-4ddb-bcbb-724f098ce6e9) | Algorithm | Easy | Online assessment | 1 | — |

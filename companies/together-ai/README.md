@@ -10,12 +10,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Algorithm | Medium | Phone screen | 1 | 2026-09-15 |
+| [Split a Chunked Text Stream into Line-Balanced Parts](../../questions/algorithm/split-a-chunked-text-stream-into-line-balanced-parts/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-09-15 |
 | [Investigate a Server Saturated by Logging](https://trueinterview.io/questions/investigate-a-server-saturated-by-logging) | Blog | — | Phone screen | 1 | 2026-09-15 |
 | [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/questions/diagnose-storage-i-o-performance-and-identify-the-workload) | Blog | — | Phone screen | 1 | 2026-09-15 |
 | [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/questions/diagnose-slow-network-throughput-including-containers) | Blog | — | Phone screen | 1 | 2026-09-15 |
 | [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/questions/diagnose-cpu-performance-problems-on-a-linux-server) | Blog | — | Phone screen | 1 | 2026-09-15 |
-| [Detect cycles and break them in pod dependencies](https://trueinterview.io/questions/detect-cycles-and-break-them-in-pod-dependencies) | Algorithm | Hard | Phone screen | 1 | 2026-02-12 |
+| [Detect cycles and break them in pod dependencies](../../questions/algorithm/detect-cycles-and-break-them-in-pod-dependencies/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-02-12 |
 
 ---
 

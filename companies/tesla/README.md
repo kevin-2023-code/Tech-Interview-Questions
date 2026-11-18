@@ -40,7 +40,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Design a transaction reconciliation system](https://trueinterview.io/questions/design-booking-and-settlement-systems-design-a-transaction-reconciliation-system) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-01-25 |
 | [Describe conflict and proudest work](https://trueinterview.io/questions/describe-conflict-and-proudest-work) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-25 |
 | [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner) | Algorithm | Hard | Phone screen | 1 | 2026-01-15 |
-| [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Phone screen | 4 | 2025-12-31 |
+| [Count Islands and Water Boundary](../../questions/algorithm/count-islands-and-water-boundary/README.md) | Algorithm | Medium | Phone screen | 4 | 2025-12-31 |
 | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Hard | Onsite / virtual onsite | 3 | 2025-11-28 |
 | [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward) | Algorithm | Hard | Phone screen | 1 | 2025-11-22 |
 | [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid) | Algorithm | Medium | Phone screen | 1 | 2025-10-31 |
@@ -48,15 +48,15 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (9
 | [Robot Room Navigation Take-Home](https://trueinterview.io/questions/robot-room-navigation-takehome) | Algorithm | Hard | Take-home | 1 | 2025-09-24 |
 | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | AI Coding | Medium | Phone screen | 1 | 2025-08-23 |
 | [Word Ladder Variants with Trie Optimization](https://trueinterview.io/questions/word-ladder-variants) | Algorithm | Hard | Phone screen | 1 | 2025-08-21 |
-| [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-08-19 |
+| [Priority Expiry LRU Cache](../../questions/object-oriented-programming/priority-expire-cache-eviction/README.md) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-08-19 |
 | [Route Nearest Checkpoint](https://trueinterview.io/questions/trajectory-waypoint-distance-queries) | Algorithm | Medium | Phone screen | 1 | 2025-08-11 |
-| [Dojo Pythonic Coding Pair: Permutation Check and Pow](https://trueinterview.io/questions/dojo-permutation-and-pow) | Algorithm | Medium | Phone screen | 1 | 2025-07-25 |
-| [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-07-24 |
+| [Dojo Pythonic Coding Pair: Permutation Check and Pow](../../questions/algorithm/dojo-permutation-and-pow/README.md) | Algorithm | Medium | Phone screen | 1 | 2025-07-25 |
+| [Basic Calculator with Operators, Variables, and Functions](../../questions/object-oriented-programming/basic-calculator-extended-language/README.md) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-07-24 |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-07-04 |
 | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Algorithm | Medium | Onsite / virtual onsite | 3 | — |
 | [C++ Debugging: Doubly Linked List](https://trueinterview.io/questions/7f05aa82-8ea2-4d37-a3bb-3fd8ff97c6c8) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
 | [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
-| [Decode Ways](https://trueinterview.io/questions/37632eca-7568-544f-bd3c-98fcd234717d) | Algorithm | Medium | Phone screen | 1 | — |
+| [Decode Ways](../../questions/algorithm/decode-ways-2/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
 | [Cumulative Monthly Sales by Store with Month Reset](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b) | SQL | Medium | Online assessment | 1 | — |
 | [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | SQL | Easy | Online assessment | 1 | — |

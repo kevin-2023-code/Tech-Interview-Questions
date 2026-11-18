@@ -15,16 +15,16 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Design a Social-Media Comments and Notifications System](https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system) | System Design | Easy | Onsite / virtual onsite | 1 | 2026-09-03 |
 | [Design a Music Player with Queue, Loop, and Shuffle](https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-09-03 |
 | [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Algorithm | Hard | Phone screen | 1 | 2026-08-26 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-04-21 |
 | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-04-21 |
 | [Atlassian Values and Management Rounds](https://trueinterview.io/questions/atlassian-values-and-management-rounds) | Blog | — | Onsite / virtual onsite | 1 | 2026-04-21 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | System Design | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-04-02 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Onsite / virtual onsite | 5 | 2026-04-01 |
-| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Onsite / virtual onsite | 10 | 2026-03-23 |
 | [RAG Search Augmentation and Internal Chatbot](https://trueinterview.io/questions/rag-search-augmentation-internal-chatbot) | System Design | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-02-26 |
-| [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | Phone screen | 8 | 2026-02-26 |
+| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | 8 | 2026-02-26 |
 | [Expanding Tennis Club Court Assignment](https://trueinterview.io/questions/expanding-tennis-club-court-assignment) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-02-23 |
 | [Design Tagging System](https://trueinterview.io/questions/tagging-system-rest-api) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-02-22 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Onsite / virtual onsite | 8 | 2026-02-22 |
@@ -44,7 +44,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Subscription Billing Statement](https://trueinterview.io/questions/subscription-billing-statement) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-10-02 |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | 2025-10-02 |
 | [Hopscotch](https://trueinterview.io/questions/hopscotch) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-10-02 |
-| [Find Anagram in String](https://trueinterview.io/questions/find-anagram-in-string) | Algorithm | Medium | Phone screen | 1 | 2025-10-02 |
+| [Find Anagram in String](../../questions/algorithm/find-anagram-in-string/README.md) | Algorithm | Medium | Phone screen | 1 | 2025-10-02 |
 | [F1 Last Lap Improvement](https://trueinterview.io/questions/f1-last-lap-improvement) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2025-10-02 |
 | [Customer Service Rating](https://trueinterview.io/questions/customer-service-rating) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-10-02 |
 | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-09-12 |
@@ -67,7 +67,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5
 | [Fetch a list of URLs sequentially and return responses](https://trueinterview.io/questions/f070ed97-d100-4e7f-a139-8d6432f64b83) | Algorithm | Medium | Phone screen | 1 | — |
 | [LeetCode Problem 636](https://trueinterview.io/questions/e232949d-8555-44bc-9410-40b2b8c91190) | Algorithm | Medium | Phone screen | 1 | — |
 | [Is one string a subsequence of another?](https://trueinterview.io/questions/bc22cdd6-a42e-4871-9342-b3016bba9933) | Algorithm | Easy | Online assessment | 1 | — |
-| [Spiral Matrix](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286) | Algorithm | Medium | Phone screen | 2 | — |
+| [Spiral Matrix](../../questions/algorithm/spiral-matrix/README.md) | Algorithm | Medium | Phone screen | 2 | — |
 | [Agent Vote API Design](https://trueinterview.io/questions/acb7f800-86e4-4960-8ef2-15336c0c5562) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [OOD Release Notification Service](https://trueinterview.io/questions/739ed936-8be9-4ea6-a5a3-58c71cfa16f1) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
 | [O(1) Data Structure Using Double Linked List](https://trueinterview.io/questions/03803768-eb29-4336-bf49-784383ae7338) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |

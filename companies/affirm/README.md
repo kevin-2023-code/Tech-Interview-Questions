@@ -14,7 +14,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Algorithm | Medium | Phone screen | 1 | 2026-08-07 |
 | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-08-06 |
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-08-01 |
-| [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Onsite / virtual onsite | 3 | 2026-06-10 |
+| [Evaluate String Expression](../../questions/algorithm/nested-function-expression-evaluator/README.md) | Algorithm | Medium | Onsite / virtual onsite | 3 | 2026-06-10 |
 | [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing) | System Design | Medium | Phone screen | 1 | 2026-04-19 |
 | [Detect Fraud by Propagating Suspicious PII](https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii) | Algorithm | Medium | Phone screen | 1 | 2026-04-19 |
 | [Describe your highest-impact project](https://trueinterview.io/questions/describe-your-highest-impact-project) | Blog | — | Phone screen | 1 | 2026-03-07 |

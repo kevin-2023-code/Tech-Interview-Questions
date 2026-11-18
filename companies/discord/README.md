@@ -10,16 +10,16 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-04-03 |
+| [Implement Game Metadata Lookups](../../questions/object-oriented-programming/implement-game-metadata-lookups/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-04-03 |
 | [Walk through your background and proud project](https://trueinterview.io/questions/walk-through-your-background-and-proud-project) | Blog | — | Phone screen | 1 | 2026-02-04 |
 | [Design a TCP Discord-like chat server](https://trueinterview.io/questions/design-a-tcp-discord-like-chat-server) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-01-27 |
 | [Demonstrate effective AI-assisted coding workflow](https://trueinterview.io/questions/demonstrate-effective-ai-assisted-coding-workflow) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-27 |
 | [Design Product Notification and Autocomplete Experiments](https://trueinterview.io/questions/design-product-notification-and-autocomplete-experiments) | System Design | Medium | Phone screen | 1 | 2026-01-16 |
 | [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream) | Algorithm | Hard | Phone screen | 1 | 2025-12-16 |
 | [Explain C++ alignment and ABI stability](https://trueinterview.io/questions/explain-cplusplus-alignment-and-abi-stability) | Blog | — | Phone screen | 1 | 2025-12-08 |
-| [Implement an asyncio-based chat server](https://trueinterview.io/questions/implement-an-asyncio-based-chat-server) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | 2025-10-25 |
-| [Design leader election using Redis leases](https://trueinterview.io/questions/design-leader-election-using-redis-leases) | System Design | Hard | Onsite / virtual onsite | 1 | 2025-10-25 |
-| [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-10-25 |
+| [Implement an asyncio-based chat server](../../questions/object-oriented-programming/implement-an-asyncio-based-chat-server/README.md) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | 2025-10-25 |
+| [Design leader election using Redis leases](../../questions/system-design/design-leader-election-using-redis-leases/README.md) | System Design | Hard | Onsite / virtual onsite | 1 | 2025-10-25 |
+| [Debug and mitigate a CPU spike incident](../../questions/system-design/debug-and-mitigate-a-cpu-spike-incident/README.md) | System Design | Medium | Onsite / virtual onsite | 1 | 2025-10-25 |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | Onsite / virtual onsite | 10 | — |
 
 ---

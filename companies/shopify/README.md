@@ -10,7 +10,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
 | [Bank Account Simulation Class With Self-Written Tests at 90% Coverage](https://trueinterview.io/questions/bank-account-simulation-class-with-self-written-tests-at-90percent-coverage) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-09-07 |
 | [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-07-10 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Phone screen | 3 | 2026-06-15 |
@@ -31,7 +31,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2
 | [Answer Product DS HR Screen](https://trueinterview.io/questions/answer-product-ds-hr-screen) | Blog | — | Phone screen | 1 | 2026-02-01 |
 | [How would you improve AI-generated code?](https://trueinterview.io/questions/how-would-you-improve-ai-generated-code) | Blog | — | Phone screen | 1 | 2026-01-27 |
 | [Present Piracy Trends to a PM](https://trueinterview.io/questions/present-piracy-trends-to-a-pm) | Blog | — | Phone screen | 1 | 2026-01-12 |
-| [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Phone screen | 4 | 2026-01-05 |
+| [Word Search](../../questions/algorithm/word-search/README.md) | Algorithm | Medium | Phone screen | 4 | 2026-01-05 |
 | [Measure App Store success and debug funnel anomaly](https://trueinterview.io/questions/measure-app-store-success-and-debug-funnel-anomaly) | Blog | — | Phone screen | 1 | 2025-11-21 |
 | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | Online assessment | 1 | 2025-08-29 |
 | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Algorithm | Easy | Online assessment | 1 | 2025-08-29 |

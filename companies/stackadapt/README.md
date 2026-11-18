@@ -14,7 +14,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 | [Restaurant Recipe and Inventory Management](https://trueinterview.io/questions/ccad3380-939d-5dd7-80f7-ec94b71f9272) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
 | [Priority-Based Rate-Limited Web Crawler Design](https://trueinterview.io/questions/b03b2470-1381-490c-9ac6-cd85d1245d22) | Algorithm | Medium | Phone screen | 1 | — |
 | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](https://trueinterview.io/questions/6dfaaed2-150f-436b-9d6d-d5977f06ec21) | Algorithm | Hard | Phone screen | 1 | — |
-| [Median and Percentile from a Data Stream](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993) | Algorithm | Hard | Phone screen | 1 | — |
+| [Median and Percentile from a Data Stream](../../questions/algorithm/median-and-percentile-from-a-data-stream/README.md) | Algorithm | Hard | Phone screen | 1 | — |
 
 ---
 

@@ -10,7 +10,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](https://trueinterview.io/questions/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-10-14 |
+| [Cursor-Based Text Editor: Typing, Backspace, and Four-Way Cursor Movement](../../questions/object-oriented-programming/cursor-based-text-editor-typing-backspace-and-four-way-cursor-movement/README.md) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-10-14 |
 
 ---
 

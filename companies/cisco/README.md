@@ -11,9 +11,9 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Formalize a Minimum-Trip Transport Puzzle with Horses and Ladders](https://trueinterview.io/questions/formalize-a-minimum-trip-transport-puzzle-with-horses-and-ladders) | Blog | — | Phone screen | 1 | 2026-09-17 |
-| [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Phone screen | 4 | 2026-06-16 |
+| [Longest Palindromic Substring](../../questions/algorithm/longest-palindromic-substring/README.md) | Algorithm | Medium | Phone screen | 4 | 2026-06-16 |
 | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Algorithm | Medium | Phone screen | 4 | 2026-05-22 |
-| [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 5 | 2025-11-18 |
+| [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 5 | 2025-11-18 |
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Online assessment | 2 | 2025-09-29 |
 | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | Algorithm | Easy | Online assessment | 1 | 2025-09-06 |
 | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Algorithm | Medium | Online assessment | 1 | 2025-09-06 |

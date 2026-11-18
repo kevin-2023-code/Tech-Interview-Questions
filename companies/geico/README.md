@@ -10,12 +10,12 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0
 
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
-| [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
+| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
 | [Answer impact, disagreement, and motivation questions](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions) | Blog | — | Phone screen | 1 | 2026-03-01 |
 | [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Algorithm | Medium | Phone screen | 1 | — |
 | [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Algorithm | Easy | Online assessment | 1 | — |
 | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Algorithm | Easy | Online assessment | 1 | — |
-| [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Algorithm | Medium | Phone screen | 1 | — |
+| [Best Time to Buy and Sell Stock with Cooldown](../../questions/algorithm/best-time-to-buy-and-sell-stock-with-cooldown/README.md) | Algorithm | Medium | Phone screen | 1 | — |
 | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Algorithm | Easy | Online assessment | 3 | — |
 
 ---

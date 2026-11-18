@@ -29,9 +29,9 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1
 | [Evaluate Linear Regression Assumptions and Fit Three Points](https://trueinterview.io/questions/evaluate-linear-regression-assumptions-and-fit-three-points) | Blog | — | Phone screen | 1 | 2026-04-22 |
 | [Minimum Idleness After K Flips](https://trueinterview.io/questions/minimum-idleness-after-k-flips) | Algorithm | Hard | Online assessment | 1 | 2026-04-11 |
 | [Chunk a List of Lists](https://trueinterview.io/questions/chunk-a-list-of-lists) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2026-04-11 |
-| [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
+| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
 | [Shortest Subarray with At Least K Distinct](https://trueinterview.io/questions/oa-shortest-subarray-k-distinct) | Algorithm | Medium | Online assessment | 3 | 2026-04-01 |
-| [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
+| [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
 | [How Does Removing Zeros Affect Sharpe?](https://trueinterview.io/questions/how-does-removing-zeros-affect-sharpe) | Blog | — | Phone screen | 1 | 2026-03-27 |
 | [Solve two coding assessment tasks](https://trueinterview.io/questions/solve-two-coding-assessment-tasks) | Algorithm | Medium | Online assessment | 1 | 2026-02-23 |
 | [Maximize profit from one or many stock trades](https://trueinterview.io/questions/maximize-profit-from-one-or-many-stock-trades) | Algorithm | Medium | Phone screen | 1 | 2025-11-07 |

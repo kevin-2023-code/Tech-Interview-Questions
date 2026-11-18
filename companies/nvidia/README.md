@@ -11,7 +11,7 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2
 | Question | Format | Difficulty | Round | Companies | Last reported |
 | :-- | :-- | :-: | :-- | --: | :-- |
 | [Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways](https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways) | Blog | — | Phone screen | 1 | 2026-09-17 |
-| [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-08-21 |
+| [Search in Rotated Sorted Array](../../questions/algorithm/search-in-rotated-sorted-array/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-08-21 |
 | [Implement and Explain a C++ Smart Pointer](https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer) | Object Oriented Programming | Hard | Phone screen | 1 | 2026-08-19 |
 | [Design an Autonomous-Vehicle Perception Pipeline](https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline) | System Design | Hard | Phone screen | 1 | 2026-08-19 |
 | [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-07-03 |
@@ -20,21 +20,21 @@ CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2
 | [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-07-03 |
 | [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits) | Blog | — | Onsite / virtual onsite | 1 | 2026-07-03 |
 | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | Phone screen | 1 | 2026-06-30 |
-| [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
 | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2026-04-26 |
 | [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-04-15 |
 | [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-04-15 |
 | [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-03-25 |
-| [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
+| [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | 11 | 2026-03-06 |
 | [Return all file paths via DFS](https://trueinterview.io/questions/return-all-file-paths-via-dfs) | Algorithm | Medium | Phone screen | 1 | 2026-03-04 |
 | [C++ Project Debugging with AI Tools](https://trueinterview.io/questions/cpp-debugging-with-ai-tools) | AI Coding | Hard | Onsite / virtual onsite | 1 | 2026-02-12 |
 | [Computation / Dependency Graph Validation and Pruning](https://trueinterview.io/questions/graph-validation-and-pruning) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-02-12 |
 | [FP32 Tensor to Int8 Quantization](https://trueinterview.io/questions/fp32-to-int8-quantization) | AI Coding | Medium | Phone screen | 1 | 2026-02-12 |
 | [Implement matrix transpose and KV store](https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-02-09 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
 | [Compare arrays, linked lists, hash tables, trees](https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees) | Blog | — | Phone screen | 1 | 2026-02-06 |
 | [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-02-05 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
+| [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | 16 | 2026-02-04 |
 | [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/questions/deep-learning-fundamentals) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-01-29 |
 | [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-01-16 |
 | [Introduce yourself for a senior role](https://trueinterview.io/questions/introduce-yourself-for-a-senior-role) | Blog | — | Phone screen | 1 | 2026-01-06 |
