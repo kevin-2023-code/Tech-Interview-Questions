@@ -4,7 +4,7 @@
 
 88 questions reported at Databricks, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (21) · [all](all.csv) (88)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (19) · [all](all.csv) (88)
 
 [All companies](../../README.md#companies)
 

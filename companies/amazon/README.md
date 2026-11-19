@@ -4,7 +4,7 @@
 
 463 questions reported at Amazon, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (72) · [last 6 months](six-months.csv) (142) · [all](all.csv) (463)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (71) · [last 6 months](six-months.csv) (137) · [all](all.csv) (463)
 
 [All companies](../../README.md#companies)
 

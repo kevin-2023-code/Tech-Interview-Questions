@@ -4,7 +4,7 @@
 
 13 questions reported at Okta, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (6) · [all](all.csv) (13)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (6) · [all](all.csv) (13)
 
 [All companies](../../README.md#companies)
 

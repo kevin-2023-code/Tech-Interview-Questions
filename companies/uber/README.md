@@ -4,7 +4,7 @@
 
 262 questions reported at Uber, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (42) · [all](all.csv) (262)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (6) · [last 6 months](six-months.csv) (41) · [all](all.csv) (262)
 
 [All companies](../../README.md#companies)
 

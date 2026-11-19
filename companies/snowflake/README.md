@@ -4,7 +4,7 @@
 
 145 questions reported at Snowflake, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (35) · [all](all.csv) (145)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (10) · [last 6 months](six-months.csv) (34) · [all](all.csv) (145)
 
 [All companies](../../README.md#companies)
 

@@ -3,7 +3,7 @@
 Interview and online-assessment questions that candidates reported, one folder per company, each with the date it was last reported.
 
 <!-- gen:snapshot:start -->
-Snapshot as of 2026-11-18: 5,873 questions, 133 companies.
+Snapshot as of 2026-11-19: 5,873 questions, 133 companies.
 <!-- gen:snapshot:end -->
 
 Maintained by [TrueInterview](https://trueinterview.io), where every question can be practised.

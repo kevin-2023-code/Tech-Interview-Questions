@@ -4,7 +4,7 @@
 
 172 questions reported at OpenAI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (13) · [last 6 months](six-months.csv) (45) · [all](all.csv) (172)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (13) · [last 6 months](six-months.csv) (44) · [all](all.csv) (172)
 
 [All companies](../../README.md#companies)
 

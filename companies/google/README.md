@@ -4,7 +4,7 @@
 
 382 questions reported at Google, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (26) · [last 6 months](six-months.csv) (72) · [all](all.csv) (382)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (25) · [last 6 months](six-months.csv) (72) · [all](all.csv) (382)
 
 [All companies](../../README.md#companies)
 

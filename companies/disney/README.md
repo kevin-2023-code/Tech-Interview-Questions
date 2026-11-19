@@ -4,7 +4,7 @@
 
 47 questions reported at Disney, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (9) · [all](all.csv) (47)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (9) · [all](all.csv) (47)
 
 [All companies](../../README.md#companies)
 

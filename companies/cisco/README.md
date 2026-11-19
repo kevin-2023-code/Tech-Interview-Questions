@@ -4,7 +4,7 @@
 
 27 questions reported at Cisco, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (3) · [all](all.csv) (27)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (2) · [all](all.csv) (27)
 
 [All companies](../../README.md#companies)
 

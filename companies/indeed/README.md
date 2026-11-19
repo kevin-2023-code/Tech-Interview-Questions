@@ -4,7 +4,7 @@
 
 2 questions reported at Indeed, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (2) · [all](all.csv) (2)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (2) · [all](all.csv) (2)
 
 [All companies](../../README.md#companies)
 

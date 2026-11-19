@@ -4,7 +4,7 @@
 
 343 questions reported at ByteDance, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (33) · [last 6 months](six-months.csv) (74) · [all](all.csv) (343)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (32) · [last 6 months](six-months.csv) (74) · [all](all.csv) (343)
 
 [All companies](../../README.md#companies)
 

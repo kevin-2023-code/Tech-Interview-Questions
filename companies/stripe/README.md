@@ -4,7 +4,7 @@
 
 119 questions reported at Stripe, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (16) · [last 6 months](six-months.csv) (29) · [all](all.csv) (119)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (15) · [last 6 months](six-months.csv) (28) · [all](all.csv) (119)
 
 [All companies](../../README.md#companies)
 

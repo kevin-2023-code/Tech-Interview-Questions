@@ -4,7 +4,7 @@
 
 86 questions reported at Waymo, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (22) · [all](all.csv) (86)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (5) · [last 6 months](six-months.csv) (20) · [all](all.csv) (86)
 
 [All companies](../../README.md#companies)
 

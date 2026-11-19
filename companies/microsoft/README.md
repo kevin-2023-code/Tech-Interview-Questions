@@ -4,7 +4,7 @@
 
 239 questions reported at Microsoft, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (29) · [last 6 months](six-months.csv) (47) · [all](all.csv) (239)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (28) · [last 6 months](six-months.csv) (47) · [all](all.csv) (239)
 
 [All companies](../../README.md#companies)
 
