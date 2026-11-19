@@ -30,8 +30,8 @@ from datetime import date
 from typing import Sequence
 
 from catalog import Question
-from labels import company_key, difficulty_label, format_label, round_label
-from render import GENERATED_NOTICE, escape_cell, plural, reported_label, sort_questions, table
+from labels import company_key, difficulty_label, format_label, level_label, round_label
+from render import GENERATED_NOTICE, escape_cell, plural, reported_label, site_link, sort_questions, table
 
 #: File stem → how many days back from the snapshot date it reaches.
 WINDOWS: tuple[tuple[str, int], ...] = (
@@ -43,10 +43,12 @@ WINDOWS: tuple[tuple[str, int], ...] = (
 WINDOW_LABELS = {"thirty-days": "last 30 days", "three-months": "last 3 months", "six-months": "last 6 months"}
 
 #: The columns of every per-company CSV. ``Companies Reporting`` is the number
-#: of distinct companies the question was reported at. The catalog publishes no
-#: per-question report count, so this is the only frequency signal it supports
-#: and the column is named for exactly what it counts.
-CSV_HEADER = ("Title", "Format", "Difficulty", "Round", "Companies Reporting", "Last Reported", "Link")
+#: of distinct companies the question was reported at. ``Reports`` is the
+#: site's own counter: interview write-ups from the past 12 months that name the
+#: question, at any company. It is empty, never 0, when the catalog sent none.
+CSV_HEADER = (
+    "Title", "Format", "Difficulty", "Round", "Level", "Companies Reporting", "Reports", "Last Reported", "Link",
+)
 
 #: Rows shown in a company's README table. Past this the page says so and
 #: points at ``all.csv``, which has no cap. It keeps the page far under the
@@ -74,6 +76,15 @@ def _rounds(question: Question, separator: str) -> str:
     return separator.join(round_label(r) for r in question.rounds)
 
 
+def _levels(question: Question, separator: str) -> str:
+    return separator.join(level_label(level) for level in question.seniority)
+
+
+def reports_cell(question: Question, unknown: str = "") -> str:
+    """The write-up count, or ``unknown`` when the catalog did not send one."""
+    return unknown if question.report_count is None else f"{question.report_count:,}"
+
+
 def render_company_csv(questions: Sequence[Question], api_labels: dict[str, str]) -> str:
     """One CSV, in the order given. Always has its header row, even when empty."""
     buffer = io.StringIO()
@@ -86,7 +97,9 @@ def render_company_csv(questions: Sequence[Question], api_labels: dict[str, str]
                 format_label(q.type),
                 difficulty_label(q.difficulty) or "",
                 _rounds(q, "; "),
+                _levels(q, "; "),
                 companies_reporting(q, api_labels),
+                reports_cell(q),
                 reported_label(q),
                 q.url,
             ]
@@ -103,25 +116,36 @@ def render_company_readme(
     pages: dict[str, str],
     api_labels: dict[str, str],
     footer: str,
+    show_reports: bool = False,
 ) -> str:
     """``companies/<key>/README.md``. ``questions`` is already newest first.
 
     ``pages`` maps a question slug to its page in this repository, for the
-    questions that have one.
+    questions that have one. ``show_reports`` adds the Reports column; it is
+    off when the snapshot carries no counts, so the table never shows a column
+    of dashes for a number nobody sent.
     """
     here = f"companies/{key}"
     shown = questions[:TABLE_MAX_ROWS]
     rows = [
         [
-            f"[{escape_cell(q.title)}]({posixpath.relpath(pages[q.slug], here) if q.slug in pages else q.url})",
+            f"[{escape_cell(q.title)}]"
+            f"({posixpath.relpath(pages[q.slug], here) if q.slug in pages else site_link(q.url)})",
             escape_cell(format_label(q.type)),
             difficulty_label(q.difficulty) or "—",
             escape_cell(_rounds(q, ", ")) or "—",
+            escape_cell(_levels(q, ", ")) or "—",
             str(companies_reporting(q, api_labels)),
+            *([reports_cell(q, "—")] if show_reports else []),
             reported_label(q) or "—",
         ]
         for q in shown
     ]
+    headers = ["Question", "Format", "Difficulty", "Round", "Level", "Companies", "Last reported"]
+    aligns = [":--", ":--", ":-:", ":--", ":--", "--:", ":--"]
+    if show_reports:
+        headers.insert(6, "Reports")
+        aligns.insert(6, "--:")
     files = " · ".join(
         [f"[{WINDOW_LABELS[stem]}]({stem}.csv) ({window_counts[stem]:,})" for stem, _ in WINDOWS]
         + [f"[all](all.csv) ({len(questions):,})"]
@@ -135,7 +159,16 @@ def render_company_readme(
         "",
         f"CSV: {files}",
         "",
-        "[All companies](../../README.md#companies)",
+        *(
+            [
+                "Reports is the number of interview write-ups from the past 12 months that name the question, "
+                "at any company; — where that is not known.",
+                "",
+            ]
+            if show_reports
+            else []
+        ),
+        "[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)",
         "",
     ]
     if len(questions) > len(shown):
@@ -145,11 +178,7 @@ def render_company_readme(
             "",
         ]
     lines += [
-        table(
-            ["Question", "Format", "Difficulty", "Round", "Companies", "Last reported"],
-            [":--", ":--", ":-:", ":--", "--:", ":--"],
-            rows,
-        ),
+        table(headers, aligns, rows),
         "",
         footer,
     ]
@@ -165,6 +194,7 @@ def company_files(
     api_labels: dict[str, str],
     today: date,
     footer: str,
+    show_reports: bool = False,
 ) -> dict[str, str]:
     """The five files of one company folder."""
     ordered = sort_questions(questions, today)
@@ -184,5 +214,6 @@ def company_files(
         pages=pages,
         api_labels=api_labels,
         footer=footer,
+        show_reports=show_reports,
     )
     return files

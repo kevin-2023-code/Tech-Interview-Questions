@@ -22,7 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from build import build, check_budgets, company_index, group_by_company, snapshot_line  # noqa: E402
+from build import build, check_budgets, group_by_company  # noqa: E402
 from catalog import CatalogError, load_catalog, parse_catalog_date, question_from_payload  # noqa: E402
 from company import (  # noqa: E402
     CSV_HEADER,
@@ -34,7 +34,8 @@ from company import (  # noqa: E402
     render_company_csv,
 )
 from labels import ACRONYMS, COMPANY_LABELS, company_key, company_label  # noqa: E402
-from render import PAGE_MAX_BYTES, README_MAX_BYTES, escape_cell, inject, sort_questions  # noqa: E402
+from render import PAGE_MAX_BYTES, README_MAX_BYTES, escape_cell, inject, site_link, sort_questions  # noqa: E402
+from season import stats_line  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FIXTURE = ROOT / "scripts" / "fixtures" / "catalog-sample.json"
@@ -155,9 +156,9 @@ class TestSorting(unittest.TestCase):
 class TestLayout(unittest.TestCase):
     """One axis, the company; one predictable set of files per folder."""
 
-    def test_only_the_three_generated_directories_and_the_readme_are_written(self):
+    def test_only_the_generated_directories_and_the_readme_are_written(self):
         tops = {path.split("/")[0] for path in render().files}
-        self.assertEqual(tops, {"README.md", "companies", "data", "questions"})
+        self.assertEqual(tops, {"README.md", "companies", "data", "formats", "latest", "questions"})
 
     def test_every_company_folder_has_exactly_the_same_five_files(self):
         result = render()
@@ -182,7 +183,7 @@ class TestCompanyCsv(unittest.TestCase):
     def test_the_header_is_the_documented_one_on_every_file(self):
         header = ",".join(CSV_HEADER)
         self.assertEqual(
-            header, "Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link"
+            header, "Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link"
         )
         for path, content in render().files.items():
             if path.startswith("companies/") and path.endswith(".csv"):
@@ -317,7 +318,7 @@ class TestCompanyReadme(unittest.TestCase):
         )
         page = files["companies/acme/README.md"]
         self.assertIn("](../../questions/algorithm/two-sum/README.md)", page)
-        self.assertIn("](https://trueinterview.io/questions/other)", page)
+        self.assertIn(f"]({site_link('https://trueinterview.io/questions/other')})", page)
 
     def test_no_freshness_marker_or_schedule_claim_is_printed_anywhere(self):
         for path, content in render().files.items():
@@ -331,34 +332,28 @@ class TestReadme(unittest.TestCase):
     def setUp(self):
         self.readme = render().files["README.md"]
 
-    def test_it_is_short(self):
-        self.assertLessEqual(len(self.readme.splitlines()), 60)
-
-    def test_the_snapshot_line_is_dated_and_counted(self):
+    def test_the_stats_line_is_dated_and_counted(self):
         catalog = load_fixture()
         companies = len(group_by_company(catalog.questions, catalog.labels))
-        self.assertEqual(
-            snapshot_line(catalog.questions, companies, TODAY),
-            f"Snapshot as of 2026-09-11: {len(catalog.questions):,} questions, {companies} companies.",
-        )
-        self.assertIn(snapshot_line(catalog.questions, companies, TODAY), self.readme)
+        line = stats_line(catalog.questions, companies, TODAY)
+        self.assertTrue(line.startswith(f"**{len(catalog.questions):,} questions · {companies} companies · +"), line)
+        self.assertTrue(line.endswith("data as of 2026-09-11**"), line)
+        self.assertIn(line, self.readme)
 
-    def test_the_company_index_is_a_to_z_and_links_every_folder(self):
+    def test_the_company_table_links_every_folder_with_its_count(self):
         catalog = load_fixture()
         groups = group_by_company(catalog.questions, catalog.labels)
         block = self.readme.split("<!-- gen:companies:start -->")[1].split("<!-- gen:companies:end -->")[0]
-        linked = re.findall(r"\[([^\]]+)\]\(companies/([a-z0-9-]+)/\)", block)
-        self.assertEqual({key for _name, key in linked}, set(groups))
-        names = [name.casefold() for name, _key in linked]
-        self.assertEqual(names, sorted(names))
-        self.assertEqual(company_index([("b", "beta"), ("a", "Alpha")]), "[Alpha](companies/a/) · [beta](companies/b/)")
+        rows = re.findall(r"^\| \[[^\]]+\]\(companies/([a-z0-9-]+)/\) \| ([\d,]+) \|", block, re.M)
+        self.assertEqual({key for key, _count in rows}, set(groups))
+        for key, count in rows:
+            self.assertEqual(int(count.replace(",", "")), len(groups[key][1]), key)
+        counts = [int(count.replace(",", "")) for _key, count in rows]
+        self.assertEqual(counts, sorted(counts, reverse=True))
 
-    def test_the_site_is_linked_once(self):
-        self.assertEqual(self.readme.count("https://trueinterview.io"), 1)
-
-    def test_it_has_no_table_badge_or_banner(self):
+    def test_it_has_no_badge_or_banner(self):
         for line in self.readme.splitlines():
-            self.assertFalse(line.startswith(("|", "> ", "<div", "<details", "![")), line)
+            self.assertFalse(line.startswith(("> ", "<div", "![")), line)
         self.assertNotIn("shields.io", self.readme)
 
     def test_every_documented_column_is_a_real_csv_column(self):
@@ -623,7 +618,7 @@ class TestPathSafety(unittest.TestCase):
             refuse_unwritable(["README.md", "companies/a/README.md", "companies/a/all.csv", "data/x.csv"]), []
         )
         for bad in ("companies/../../../etc/passwd.md", "/etc/x.md", "scripts/evil.md", ".git/config.md",
-                    "companies/x.py", "companies/..%2f.md", "formats/x.md", "DESIGN.md"):
+                    "companies/x.py", "companies/..%2f.md", "topics/x.md", "DESIGN.md"):
             self.assertEqual(len(refuse_unwritable([bad])), 1, bad)
 
     def test_every_path_the_real_build_produces_is_writable(self):

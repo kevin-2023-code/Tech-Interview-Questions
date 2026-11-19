@@ -5,7 +5,10 @@ name: Sync question bank
 # hour so this is not competing with everything else scheduled at :00.
 on:
   schedule:
-    - cron: "23 * * * *"
+    # Every hour but 03:23 UTC, which is the second entry: the same sync plus
+    # the daily link check, told apart by `github.event.schedule` below.
+    - cron: "23 0-2,4-23 * * *"
+    - cron: "23 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -55,6 +58,15 @@ jobs:
         run: |
           python3 scripts/sync.py --snapshot-out /tmp/snapshot.json --quiet
           python3 scripts/sync.py --catalog-file /tmp/snapshot.json --check
+
+      - name: Check that the links on the landing page resolve
+        # Once a day, and on a manual run: one HEAD per distinct site link in
+        # README.md (about sixty). The renderers are tested offline and prove a
+        # row links at the URL the catalog gave; only this proves the page is
+        # there. A dead link fails the run before anything is committed. A
+        # refusal (401/403/429) is printed as unverified and fails nothing.
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '23 3 * * *'
+        run: python3 scripts/check_links.py
 
       - name: Commit
         run: |

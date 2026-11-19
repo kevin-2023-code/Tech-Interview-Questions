@@ -7,7 +7,9 @@ the whole repository from a fixture and compare bytes.
 
 The layout has one axis, the company:
 
-    README.md                      short landing page, two generated blocks
+    README.md                      landing page: stats line and the season index
+    latest/README.md, page-N.md    everything reported in the past year, newest first
+    formats/<format>.md            the same table for one format
     companies/<key>/README.md      the company's questions as one table
     companies/<key>/*.csv          the same rows by recency (see company.py)
     questions/...                  statements of the allowlisted questions (content.py)
@@ -30,11 +32,24 @@ from render import (
     PAGE_MAX_BYTES,
     README_MAX_BYTES,
     RenderResult,
-    escape_cell,
     inject,
     render_csv,
     render_jsonl,
     sort_questions,
+)
+from season import (
+    ai_coding_block,
+    companies_block,
+    format_files,
+    formats_block,
+    has_report_counts,
+    latest_files,
+    new_block,
+    new_this_week,
+    recent_block,
+    recently_reported,
+    stats_line,
+    title_line,
 )
 
 
@@ -67,17 +82,6 @@ def _name_for(key: str, companies: Sequence[str], api_labels: dict[str, str]) ->
     return key
 
 
-def snapshot_line(questions: Sequence[Question], companies: int, today: date) -> str:
-    """The dated line the README carries instead of any claim about freshness."""
-    return f"Snapshot as of {today.isoformat()}: {len(questions):,} questions, {companies:,} companies."
-
-
-def company_index(companies: Sequence[tuple[str, str]]) -> str:
-    """Every company, A to Z, each linking to its folder. One compact paragraph."""
-    ordered = sorted(companies, key=lambda row: (row[1].casefold(), row[0]))
-    return " · ".join(f"[{escape_cell(name)}](companies/{key}/)" for key, name in ordered)
-
-
 def build(
     catalog: Catalog,
     readme_template: str,
@@ -106,6 +110,11 @@ def build(
     files.update(content_files)
     files["data/paths.json"] = json.dumps(registry, indent=1, sort_keys=True, ensure_ascii=False) + "\n"
 
+    # One switch for every table: the Reports column is printed only when this
+    # snapshot carries counts, so an API that does not send them yet renders a
+    # narrower table rather than a column of dashes.
+    show_reports = has_report_counts(ordered)
+
     # ── company folders ──────────────────────────────────────────────────────
     for key, (name, rows) in by_company.items():
         files.update(
@@ -116,6 +125,7 @@ def build(
                 pages=pages,
                 api_labels=api_labels,
                 today=today,
+                show_reports=show_reports,
                 footer=footer(f"companies/{key}/README.md"),
             )
         )
@@ -124,13 +134,27 @@ def build(
     files["data/questions.jsonl"] = render_jsonl(ordered, api_labels)
     files["data/questions.csv"] = render_csv(ordered, api_labels)
 
+    # ── the season index ─────────────────────────────────────────────────────
+    table_args = {
+        "api_labels": api_labels,
+        "homes": frozenset(by_company),
+        "show_reports": show_reports,
+    }
+    files.update(latest_files(ordered, today, **table_args))
+    files.update(format_files(ordered, today, **table_args))
+
     # ── README ───────────────────────────────────────────────────────────────
-    readme = inject(readme_template, "gen:snapshot", snapshot_line(ordered, len(by_company), today))
-    readme = inject(
-        readme,
-        "gen:companies",
-        company_index([(key, name) for key, (name, _rows) in by_company.items()]),
-    )
+    readme = readme_template
+    for marker, block in (
+        ("gen:title", title_line(today)),
+        ("gen:snapshot", stats_line(ordered, len(by_company), today)),
+        ("gen:new", new_block(ordered, today, root="", **table_args)),
+        ("gen:recent", recent_block(ordered, today, root="", **table_args)),
+        ("gen:ai-coding", ai_coding_block(ordered, today, root="", **table_args)),
+        ("gen:formats", formats_block(ordered)),
+        ("gen:companies", companies_block(by_company, today)),
+    ):
+        readme = inject(readme, marker, block)
     files["README.md"] = readme
 
     # A sighting dated after today is a data-entry error on the site, not a
@@ -146,6 +170,9 @@ def build(
         "questions": len(ordered),
         "companies": len(by_company),
         "undated": sum(1 for q in ordered if q.reported_date is None),
+        "new_this_week": len(new_this_week(ordered, today)),
+        "reported_past_year": len(recently_reported(ordered, today)),
+        "report_counts": has_report_counts(ordered),
         "windows": {stem: sum(1 for q in ordered if in_window(q, today, days)) for stem, days in WINDOWS},
         "files": len(files),
         "readme_bytes": len(files["README.md"].encode("utf-8")),
@@ -170,8 +197,8 @@ def check_budgets(result: RenderResult) -> list[str]:
     if readme_bytes > README_MAX_BYTES:
         problems.append(
             f"README.md is {readme_bytes:,} bytes, over the {README_MAX_BYTES:,}-byte landing-page budget "
-            f"(GitHub stops rendering at {GITHUB_RENDER_LIMIT:,}). The company index is the only part that "
-            f"grows; shorten it or raise README_MAX_BYTES deliberately."
+            f"(GitHub stops rendering at {GITHUB_RENDER_LIMIT:,}). Lower the row caps in season.py, or raise "
+            f"README_MAX_BYTES deliberately."
         )
     for path, content in sorted(result.files.items()):
         if not path.endswith(".md") or path == "README.md":
@@ -180,6 +207,6 @@ def check_budgets(result: RenderResult) -> list[str]:
         if size > PAGE_MAX_BYTES:
             problems.append(
                 f"{path} is {size:,} bytes, over the {PAGE_MAX_BYTES:,}-byte page budget. "
-                f"Lower company.TABLE_MAX_ROWS."
+                f"Lower company.TABLE_MAX_ROWS, season.LATEST_PAGE_ROWS or season.FORMAT_PAGE_ROWS."
             )
     return problems
