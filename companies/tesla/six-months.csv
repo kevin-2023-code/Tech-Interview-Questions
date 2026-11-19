@@ -1,14 +1,21 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Implement Reduce and Derive Map and Filter from It,Object Oriented Programming,Medium,Phone screen,1,2026-09-13,https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it
-Design a Content Delivery Network,System Design,Hard,Phone screen,1,2026-09-04,https://trueinterview.io/questions/design-a-content-delivery-network
-Handle API Errors with Python Requests,Object Oriented Programming,Medium,Phone screen,1,2026-09-04,https://trueinterview.io/questions/handle-api-errors-with-python-requests
-Use Metrics and Logs to Establish a Production Root Cause,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause
-Investigate Recurring Bugs and Prevent the Same Failure from Returning,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/investigate-recurring-bugs-and-prevent-the-same-failure-from-returning
-"Discuss Distributed-System Experience with Go, Java, Spark, and Elasticsearch",Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/discuss-distributed-system-experience-with-go-java-spark-and-elasticsearch
-"Balance Backend Availability, Maintainability, and Scalability",System Design,Medium,Phone screen,1,2026-09-01,https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability
-Design an Order Fulfillment System,System Design,Hard,Onsite / virtual onsite,1,2026-08-24,https://trueinterview.io/questions/design-an-order-fulfillment-system
-Design a Video Sharing Platform,System Design,Hard,Onsite / virtual onsite,1,2026-08-24,https://trueinterview.io/questions/design-a-video-sharing-platform
-CV / Sensing ML Fundamentals Oral,Blog,,Phone screen,1,2026-06-16,https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral
-Bulls and Cows with Per-Position Match Signal,Algorithm,Medium,Phone screen,1,2026-06-03,https://trueinterview.io/questions/bulls-and-cows-position-signal
-Find Size of Largest Subset,Algorithm,Medium,Online assessment,1,2026-06-01,https://trueinterview.io/questions/find-size-of-largest-subset
-Task Scheduler with Timed Execution and Dynamic Insertion,Algorithm,Hard,Phone screen,1,2026-05-27,https://trueinterview.io/questions/task-scheduler-timed-execution
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Implement Reduce and Derive Map and Filter from It,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09-13,https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it
+Design a Content Delivery Network,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-09-04,https://trueinterview.io/questions/design-a-content-delivery-network
+Handle API Errors with Python Requests,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09-04,https://trueinterview.io/questions/handle-api-errors-with-python-requests
+Use Metrics and Logs to Establish a Production Root Cause,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause
+Investigate Recurring Bugs and Prevent the Same Failure from Returning,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/investigate-recurring-bugs-and-prevent-the-same-failure-from-returning
+"Discuss Distributed-System Experience with Go, Java, Spark, and Elasticsearch",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/discuss-distributed-system-experience-with-go-java-spark-and-elasticsearch
+"Balance Backend Availability, Maintainability, and Scalability",System Design,Medium,Phone screen,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability
+Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
+Design an Order Fulfillment System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-24,https://trueinterview.io/questions/design-an-order-fulfillment-system
+Design a Video Sharing Platform,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-24,https://trueinterview.io/questions/design-a-video-sharing-platform
+Min Root-to-Leaf Path Sum of N-ary Tree,Algorithm,Easy,Phone screen,Intern; Senior,5,,2026-08,https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree
+URL Router Design,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-08,https://trueinterview.io/questions/url-router-design
+Shortest Bridge,Algorithm,Medium,Phone screen,Senior,3,,2026-08,https://trueinterview.io/questions/shortest-bridge-2
+CV / Sensing ML Fundamentals Oral,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-06-16,https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral
+Bulls and Cows with Per-Position Match Signal,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06-03,https://trueinterview.io/questions/bulls-and-cows-position-signal
+Describe conflict and proudest work,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-06,https://trueinterview.io/questions/describe-conflict-and-proudest-work
+Find Size of Largest Subset,Algorithm,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-06-01,https://trueinterview.io/questions/find-size-of-largest-subset
+Flatten Nested List Iterator,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533
+Guess the Word (Master API),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,,2026-06,https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc
+Task Scheduler with Timed Execution and Dynamic Insertion,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-05-27,https://trueinterview.io/questions/task-scheduler-timed-execution

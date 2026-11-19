@@ -6,22 +6,22 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (7) · [all](all.csv) (12)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-08-31 |
-| [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-08-31 |
-| [Explain Project Scope, Ownership, and Technical Challenges](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges) | Blog | — | Onsite / virtual onsite | 1 | 2026-08-31 |
-| [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-08-31 |
-| [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-08-31 |
-| [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-08-31 |
-| [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-08-31 |
-| [Coordinate Video Reading and Rendering at 25 Frames per Second](https://trueinterview.io/questions/coordinate-video-reading-and-rendering-at-25-frames-per-second) | Object Oriented Programming | Hard | Phone screen | 1 | 2026-02-15 |
-| [Check Vertical Reflection Symmetry with Duplicate Points](../../questions/algorithm/check-vertical-reflection-symmetry-with-duplicate-points/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-02-15 |
-| [Design an Inference Pipeline](https://trueinterview.io/questions/design-an-inference-pipeline) | System Design | Medium | Phone screen | 1 | 2026-01-30 |
-| [Find Maximum Path Sum in N-ary Tree](../../questions/algorithm/find-maximum-path-sum-in-n-ary-tree/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-01-30 |
-| [Find gaps between intervals](https://trueinterview.io/questions/find-gaps-between-intervals) | Algorithm | Medium | Phone screen | 1 | 2025-11-09 |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-08-31 |
+| [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-08-31 |
+| [Explain Project Scope, Ownership, and Technical Challenges](https://trueinterview.io/questions/explain-project-scope-ownership-and-technical-challenges?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-08-31 |
+| [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-08-31 |
+| [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-08-31 |
+| [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-08-31 |
+| [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-08-31 |
+| [Coordinate Video Reading and Rendering at 25 Frames per Second](https://trueinterview.io/questions/coordinate-video-reading-and-rendering-at-25-frames-per-second?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-02-15 |
+| [Check Vertical Reflection Symmetry with Duplicate Points](../../questions/algorithm/check-vertical-reflection-symmetry-with-duplicate-points/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-02-15 |
+| [Design an Inference Pipeline](https://trueinterview.io/questions/design-an-inference-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 2026-01-30 |
+| [Find Maximum Path Sum in N-ary Tree](../../questions/algorithm/find-maximum-path-sum-in-n-ary-tree/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-01-30 |
+| [Find gaps between intervals](https://trueinterview.io/questions/find-gaps-between-intervals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2025-11-09 |
 
 ---
 

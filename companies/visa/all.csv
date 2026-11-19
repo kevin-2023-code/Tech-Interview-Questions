@@ -1,16 +1,16 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Course Schedule,Algorithm,Medium,Phone screen,11,2026-03-20,https://trueinterview.io/questions/course-schedule
-Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,4,,https://trueinterview.io/questions/three-sum
-Largest Square Area in Cityscape,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6
-Designing Real-Time Instant Messaging Application with Media Support,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637
-Minimize Maximum of Array,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47
-Connected Groups,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b
-Minimize Value by Parentheses in Concatenated Expression,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/2c206b9d-3d55-4b5e-a350-1617c3666b7b
-Concurrent User Management System Architecture Design,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a
-Best Time to Buy and Sell Stock,Algorithm,Easy,Online assessment,2,,https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761
-Count Distinct Movement Subsequences on a Number Line,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/f70afa37-90a2-5c42-a173-236efea88ec0
-Minimum Score of a Path Between Two Cities,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d
-Find K Closest Elements,Algorithm,Medium,Phone screen,2,,https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2
-Perfect Substring,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1
-Hash Map Counting / Lookup Problem,Algorithm,Easy,Online assessment,3,,https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6
-Jump Game,Algorithm,Medium,Phone screen,4,,https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
+Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/three-sum
+Jump Game,Algorithm,Medium,Phone screen,Senior,4,,2026-09,https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06
+Best Time to Buy and Sell Stock,Algorithm,Easy,Online assessment,Senior,2,,2026-08,https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761
+Minimize Maximum of Array,Algorithm,Hard,Phone screen,Staff+,1,,2026-07,https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47
+Connected Groups,Algorithm,Easy,Online assessment,Staff+,1,,2026-07,https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b
+Count Distinct Movement Subsequences on a Number Line,Algorithm,Hard,Phone screen,Staff+,1,,2026-07,https://trueinterview.io/questions/f70afa37-90a2-5c42-a173-236efea88ec0
+Minimum Score of a Path Between Two Cities,Algorithm,Medium,Phone screen,New grad,1,,2026-07,https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d
+Perfect Substring,Algorithm,Medium,Phone screen,Staff+,1,,2026-07,https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1
+Hash Map Counting / Lookup Problem,Algorithm,Easy,Online assessment,Junior / Mid,3,,2026-06,https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6
+Find K Closest Elements,Algorithm,Medium,Phone screen,Senior,2,,2026-04,https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2
+Largest Square Area in Cityscape,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6
+Designing Real-Time Instant Messaging Application with Media Support,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637
+Minimize Value by Parentheses in Concatenated Expression,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,,,https://trueinterview.io/questions/2c206b9d-3d55-4b5e-a350-1617c3666b7b
+Concurrent User Management System Architecture Design,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a

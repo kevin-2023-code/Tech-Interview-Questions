@@ -4,48 +4,48 @@
 
 36 questions reported at PayPal, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (36)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (3) · [all](all.csv) (36)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | 10 | 2026-10-01 |
-| [Design a Payment Fraud Detection Service](https://trueinterview.io/questions/design-a-payment-fraud-detection-service) | System Design | Hard | Onsite / virtual onsite | 2 | 2026-04-14 |
-| [Design a Cross-Border Money Transfer Service](https://trueinterview.io/questions/design-a-cross-border-money-transfer-service) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-04-14 |
-| [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-04-14 |
-| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | 8 | 2026-02-26 |
-| [Interpret p-values and common pitfalls](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls) | Blog | — | Phone screen | 1 | 2026-01-02 |
-| [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model) | Blog | — | Phone screen | 1 | 2026-01-02 |
-| [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints) | System Design | Medium | Phone screen | 1 | 2026-01-02 |
-| [Design metrics and experiment for donation feature](https://trueinterview.io/questions/design-metrics-and-experiment-for-donation-feature) | Blog | — | Onsite / virtual onsite | 1 | 2025-12-16 |
-| [Answer career, manager, and team fit questions](https://trueinterview.io/questions/answer-career-manager-and-team-fit-questions) | Blog | — | Onsite / virtual onsite | 1 | 2025-12-16 |
-| [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates) | SQL | Medium | Onsite / virtual onsite | 1 | 2025-12-07 |
-| [Decide if a dice-betting game is favorable](https://trueinterview.io/questions/decide-if-a-dice-betting-game-is-favorable) | Blog | — | Onsite / virtual onsite | 1 | 2025-12-07 |
-| [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2) | Blog | — | Onsite / virtual onsite | 1 | 2025-11-20 |
-| [Reduce airport ride cancellations under causal constraints](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints) | Blog | — | Onsite / virtual onsite | 1 | 2025-11-03 |
-| [Compute Variance from a Python List](../../questions/algorithm/compute-variance-from-a-python-list/README.md) | Algorithm | Easy | Phone screen | 1 | 2025-10-29 |
-| [Explain p-values and interpret regressions](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-10 |
-| [Evaluate smart cart idea and design experiment](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-10 |
-| [Diagnose drop in shopper order acceptance](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-10 |
-| [Optimize thresholds under fraud costs](https://trueinterview.io/questions/optimize-thresholds-under-fraud-costs) | Blog | — | Phone screen | 1 | — |
-| [Influence policy with BI deliverables](https://trueinterview.io/questions/influence-policy-with-bi-deliverables) | Blog | — | Phone screen | 1 | — |
-| [Design an A/B for ATO rule](https://trueinterview.io/questions/design-an-a-b-for-ato-rule) | Blog | — | Phone screen | 1 | — |
-| [Similar Password (Singapore)](https://trueinterview.io/questions/f3594e7e-7600-472c-b414-1cd919d3e0a0) | Algorithm | Medium | Phone screen | 1 | — |
-| [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525) | Algorithm | Hard | Phone screen | 1 | — |
-| [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Minimum Time to Schedule Processes on Degrading Processors](https://trueinterview.io/questions/599e3936-06f4-4c46-b61d-f155e3b6895f) | Algorithm | Medium | Phone screen | 1 | — |
-| [Word Search in 2D Grid with Diagonal Moves](https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530) | Algorithm | Medium | Phone screen | 1 | — |
-| [Count User Logins (Singapore)](https://trueinterview.io/questions/1ab60462-b812-470d-9ebc-0efde6eed6cf) | Algorithm | Medium | Phone screen | 1 | — |
-| [Find Reachable Good Endings in Choose Your Own Adventure Book](https://trueinterview.io/questions/15808a55-af32-4748-a811-48bd2ef1f829) | Algorithm | Medium | Phone screen | 1 | — |
-| [Items Purchase (For Java Backend Engineer)](https://trueinterview.io/questions/3c62d850-e8cd-4ef4-98c8-5402ad26e12e) | Algorithm | Medium | Phone screen | 1 | — |
-| [Binary Search Tree Pruning](https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605) | Algorithm | Medium | Phone screen | 1 | — |
-| [Minimum Steps to Move Balls to Respective Holes](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb) | Algorithm | Hard | Phone screen | 1 | — |
-| [Number of Unique Binary Trees](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0) | Algorithm | Medium | Phone screen | 1 | — |
-| [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f) | Algorithm | Easy | Online assessment | 1 | — |
-| [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | Online assessment | 7 | — |
-| [Bank System](https://trueinterview.io/questions/bank-system) | Object Oriented Programming | Hard | Online assessment | 3 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Intern, Junior / Mid, Senior | 10 | 2026-10-01 |
+| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | Intern, Junior / Mid, Senior | 8 | 2026-09 |
+| [Bank System](https://trueinterview.io/questions/bank-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Online assessment | Junior / Mid | 3 | 2026-09 |
+| [Answer career, manager, and team fit questions](https://trueinterview.io/questions/answer-career-manager-and-team-fit-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid | 1 | 2026-05 |
+| [Design a Payment Fraud Detection Service](https://trueinterview.io/questions/design-a-payment-fraud-detection-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 2 | 2026-04-14 |
+| [Design a Cross-Border Money Transfer Service](https://trueinterview.io/questions/design-a-cross-border-money-transfer-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-04-14 |
+| [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-14 |
+| [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-03 |
+| [Interpret p-values and common pitfalls](https://trueinterview.io/questions/interpret-p-values-and-common-pitfalls?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-01-02 |
+| [Explain fraud types and evaluate a fraud model](https://trueinterview.io/questions/explain-fraud-types-and-evaluate-a-fraud-model?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-01-02 |
+| [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 2026-01-02 |
+| [Design metrics and experiment for donation feature](https://trueinterview.io/questions/design-metrics-and-experiment-for-donation-feature?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-12-16 |
+| [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-12-07 |
+| [Decide if a dice-betting game is favorable](https://trueinterview.io/questions/decide-if-a-dice-betting-game-is-favorable?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-12-07 |
+| [Explain confounding with an Uber example](https://trueinterview.io/questions/explain-confounding-with-an-uber-example-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-11-20 |
+| [Reduce airport ride cancellations under causal constraints](https://trueinterview.io/questions/reduce-airport-cancellations-under-causal-constraints?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-11-03 |
+| [Compute Variance from a Python List](../../questions/algorithm/compute-variance-from-a-python-list/README.md) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 1 | 2025-10-29 |
+| [Explain p-values and interpret regressions](https://trueinterview.io/questions/explain-p-values-and-interpret-regressions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-10-10 |
+| [Evaluate smart cart idea and design experiment](https://trueinterview.io/questions/evaluate-smart-cart-idea-and-design-experiment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-10-10 |
+| [Diagnose drop in shopper order acceptance](https://trueinterview.io/questions/diagnose-drop-in-shopper-order-acceptance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-10-10 |
+| [Binary Search Tree Pruning](https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2025-04 |
+| [Number of Unique Binary Trees](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2025-04 |
+| [Minimum Steps to Move Balls to Respective Holes](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid | 1 | 2025-03 |
+| [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2025-03 |
+| [Optimize thresholds under fraud costs](https://trueinterview.io/questions/optimize-thresholds-under-fraud-costs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Influence policy with BI deliverables](https://trueinterview.io/questions/influence-policy-with-bi-deliverables?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Design an A/B for ATO rule](https://trueinterview.io/questions/design-an-a-b-for-ato-rule?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Similar Password (Singapore)](https://trueinterview.io/questions/f3594e7e-7600-472c-b414-1cd919d3e0a0?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | — |
+| [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Minimum Time to Schedule Processes on Degrading Processors](https://trueinterview.io/questions/599e3936-06f4-4c46-b61d-f155e3b6895f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Word Search in 2D Grid with Diagonal Moves](https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Count User Logins (Singapore)](https://trueinterview.io/questions/1ab60462-b812-470d-9ebc-0efde6eed6cf?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid | 1 | — |
+| [Find Reachable Good Endings in Choose Your Own Adventure Book](https://trueinterview.io/questions/15808a55-af32-4748-a811-48bd2ef1f829?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Items Purchase (For Java Backend Engineer)](https://trueinterview.io/questions/3c62d850-e8cd-4ef4-98c8-5402ad26e12e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad, Junior / Mid | 7 | — |
 
 ---
 

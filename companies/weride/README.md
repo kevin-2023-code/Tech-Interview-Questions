@@ -4,34 +4,34 @@
 
 22 questions reported at WeRide, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (22)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (3) · [all](all.csv) (22)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | 10 | 2026-07-29 |
-| [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | 7 | 2026-03-17 |
-| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
-| [Implement matrix multiplication and fast exponentiation](../../questions/algorithm/implement-matrix-multiplication-and-fast-exponentiation/README.md) | Algorithm | Medium | Phone screen | 1 | 2025-10-02 |
-| [Modified Basic Calculator](../../questions/algorithm/modified-basic-calculator/README.md) | Algorithm | Medium | Phone screen | 3 | — |
-| [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Algorithm | Medium | Phone screen | 1 | — |
-| [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Algorithm | Hard | Phone screen | 1 | — |
-| [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455) | Algorithm | Medium | Phone screen | 1 | — |
-| [Long Break](https://trueinterview.io/questions/908737d5-1e10-4ed9-b0f6-e6c280b24347) | Algorithm | Hard | Phone screen | 1 | — |
-| [Minimize Cost to Make Blocks Unique](https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37) | Algorithm | Hard | Phone screen | 1 | — |
-| [Graph Coloring Problem](https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66) | Algorithm | Medium | Phone screen | 1 | — |
-| [Minimum Total Cost for Image Filters](https://trueinterview.io/questions/77f1b3c9-7371-4741-89d1-60814bdbdbe1) | Algorithm | Medium | Phone screen | 1 | — |
-| [Shortest Path to Collect All Coins](https://trueinterview.io/questions/ebc36290-8e59-49ee-aba8-88d6ce49f1cb) | Algorithm | Medium | Phone screen | 1 | — |
-| [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) | Algorithm | Easy | Online assessment | 1 | — |
-| [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010) | Algorithm | Medium | Phone screen | 1 | — |
-| [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c) | Algorithm | Medium | Phone screen | 1 | — |
-| [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e) | Algorithm | Medium | Phone screen | 1 | — |
-| [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | Online assessment | 2 | — |
-| [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Algorithm | Easy | Online assessment | 3 | — |
-| [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | Online assessment | 2 | — |
-| [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | Phone screen | 2 | — |
-| [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) | Algorithm | Medium | Phone screen | 4 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 10 | 2026-09 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 14 | 2026-09 |
+| [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 7 | 2026-08 |
+| [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-05 |
+| [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid, Senior | 3 | 2026-05 |
+| [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 2 | 2026-05 |
+| [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2025-12 |
+| [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, Senior | 2 | 2025-12 |
+| [Modified Basic Calculator](../../questions/algorithm/modified-basic-calculator/README.md) | Algorithm | Medium | Phone screen | Senior | 3 | 2025-11 |
+| [Minimize Cost to Make Blocks Unique](https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Intern | 1 | 2025-11 |
+| [Shortest Path to Collect All Coins](https://trueinterview.io/questions/ebc36290-8e59-49ee-aba8-88d6ce49f1cb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2025-11 |
+| [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern | 2 | 2025-11 |
+| [Implement matrix multiplication and fast exponentiation](../../questions/algorithm/implement-matrix-multiplication-and-fast-exponentiation/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2025-10-02 |
+| [Graph Coloring Problem](https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 1 | 2025-03 |
+| [Minimum Total Cost for Image Filters](https://trueinterview.io/questions/77f1b3c9-7371-4741-89d1-60814bdbdbe1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 1 | 2025-03 |
+| [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 2025-03 |
+| [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 4 | 2025-03 |
+| [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior | 1 | — |
+| [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Intern, New grad, Junior / Mid | 1 | — |
+| [Long Break](https://trueinterview.io/questions/908737d5-1e10-4ed9-b0f6-e6c280b24347?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
 
 ---
 

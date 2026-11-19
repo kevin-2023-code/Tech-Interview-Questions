@@ -6,25 +6,25 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (15)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Trace first pass of heap sort](https://trueinterview.io/questions/trace-first-pass-of-heap-sort) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Solve cups logic puzzle with one true statement](https://trueinterview.io/questions/solve-cups-logic-puzzle-with-one-true-statement) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Order SQL query logical processing steps](https://trueinterview.io/questions/order-sql-query-logical-processing-steps) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Identify incorrect statement about sockets](https://trueinterview.io/questions/identify-incorrect-statement-about-sockets) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Identify incorrect statement about primary keys](https://trueinterview.io/questions/identify-incorrect-statement-about-primary-keys) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Identify incorrect HTTP status code description](https://trueinterview.io/questions/identify-incorrect-http-status-code-description) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Evaluate C for-loop execution count](https://trueinterview.io/questions/evaluate-c-for-loop-execution-count) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Detect impossible binary search comparison sequence](https://trueinterview.io/questions/detect-impossible-binary-search-comparison-sequence) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Count calls in recursive function evaluation](https://trueinterview.io/questions/count-calls-in-recursive-function-evaluation) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Convert binary tree traversals to forest count](https://trueinterview.io/questions/convert-binary-tree-traversals-to-forest-count) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Classify concurrency anomaly between two transactions](https://trueinterview.io/questions/classify-concurrency-anomaly-between-two-transactions) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Choose best prompt for AI code debugging](https://trueinterview.io/questions/choose-best-prompt-for-ai-code-debugging) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Analyze TCP three-way handshake states](https://trueinterview.io/questions/analyze-tcp-three-way-handshake-states) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Count binary search steps for specific keys](https://trueinterview.io/questions/count-binary-search-steps-for-specific-keys) | Blog | — | Online assessment | 1 | 2025-10-24 |
-| [Implement popup and redirect in JavaScript](https://trueinterview.io/questions/implement-popup-and-redirect-in-javascript) | Algorithm | Medium | Online assessment | 1 | 2025-10-03 |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Trace first pass of heap sort](https://trueinterview.io/questions/trace-first-pass-of-heap-sort?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2025-10-24 |
+| [Solve cups logic puzzle with one true statement](https://trueinterview.io/questions/solve-cups-logic-puzzle-with-one-true-statement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad | 1 | 2025-10-24 |
+| [Order SQL query logical processing steps](https://trueinterview.io/questions/order-sql-query-logical-processing-steps?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2025-10-24 |
+| [Identify incorrect statement about sockets](https://trueinterview.io/questions/identify-incorrect-statement-about-sockets?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2025-10-24 |
+| [Identify incorrect statement about primary keys](https://trueinterview.io/questions/identify-incorrect-statement-about-primary-keys?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2025-10-24 |
+| [Identify incorrect HTTP status code description](https://trueinterview.io/questions/identify-incorrect-http-status-code-description?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2025-10-24 |
+| [Evaluate C for-loop execution count](https://trueinterview.io/questions/evaluate-c-for-loop-execution-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2025-10-24 |
+| [Detect impossible binary search comparison sequence](https://trueinterview.io/questions/detect-impossible-binary-search-comparison-sequence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2025-10-24 |
+| [Count calls in recursive function evaluation](https://trueinterview.io/questions/count-calls-in-recursive-function-evaluation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2025-10-24 |
+| [Convert binary tree traversals to forest count](https://trueinterview.io/questions/convert-binary-tree-traversals-to-forest-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2025-10-24 |
+| [Classify concurrency anomaly between two transactions](https://trueinterview.io/questions/classify-concurrency-anomaly-between-two-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2025-10-24 |
+| [Choose best prompt for AI code debugging](https://trueinterview.io/questions/choose-best-prompt-for-ai-code-debugging?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2025-10-24 |
+| [Analyze TCP three-way handshake states](https://trueinterview.io/questions/analyze-tcp-three-way-handshake-states?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2025-10-24 |
+| [Count binary search steps for specific keys](https://trueinterview.io/questions/count-binary-search-steps-for-specific-keys?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2025-10-24 |
+| [Implement popup and redirect in JavaScript](https://trueinterview.io/questions/implement-popup-and-redirect-in-javascript?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 2025-10-03 |
 
 ---
 

@@ -6,16 +6,16 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (6)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design a car rental booking system](https://trueinterview.io/questions/design-a-car-rental-booking-system) | System Design | Hard | Onsite / virtual onsite | 1 | 2025-12-15 |
-| [Find a secret word via match feedback](https://trueinterview.io/questions/find-a-secret-word-via-match-feedback) | Algorithm | Hard | Onsite / virtual onsite | 2 | 2025-12-15 |
-| [Compute Jaccard similarity between two strings](https://trueinterview.io/questions/compute-jaccard-similarity-between-two-strings) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-12-15 |
-| [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Algorithm | Medium | Phone screen | 1 | — |
-| [Find Maximum Number of Strings](https://trueinterview.io/questions/3e15b4f6-57e4-466f-a91d-f7ce9dd81019) | Algorithm | Medium | Phone screen | 1 | — |
-| [Get Minimum Operations to Sort Array](https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c) | Algorithm | Medium | Phone screen | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Design a car rental booking system](https://trueinterview.io/questions/design-a-car-rental-booking-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-05 |
+| [Compute Jaccard similarity between two strings](https://trueinterview.io/questions/compute-jaccard-similarity-between-two-strings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-03 |
+| [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03 |
+| [Find a secret word via match feedback](https://trueinterview.io/questions/find-a-secret-word-via-match-feedback?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2025-12-15 |
+| [Find Maximum Number of Strings](https://trueinterview.io/questions/3e15b4f6-57e4-466f-a91d-f7ce9dd81019?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Get Minimum Operations to Sort Array](https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
 
 ---
 

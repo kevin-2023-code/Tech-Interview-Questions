@@ -4,23 +4,23 @@
 
 11 questions reported at Axon, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (11)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (11)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files) | System Design | Hard | Phone screen | 1 | 2026-03-29 |
-| [Explain What Motivates and Demotivates You at Work](https://trueinterview.io/questions/explain-what-motivates-and-demotivates-you-at-work) | Blog | — | Phone screen | 1 | 2026-03-29 |
-| [How did you handle an ethical issue?](https://trueinterview.io/questions/how-did-you-handle-an-ethical-issue) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-16 |
-| [Explain scope and impact under pressure](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure) | Blog | — | Phone screen | 1 | 2026-03-01 |
-| [Design fulfillment truck routing and inventory system](https://trueinterview.io/questions/design-fulfillment-truck-routing-and-inventory-system) | System Design | Hard | Phone screen | 1 | 2026-03-01 |
-| [Find accessible devices via nested memberships](../../questions/algorithm/find-accessible-devices-via-nested-memberships/README.md) | Algorithm | Medium | Phone screen | 1 | 2026-03-01 |
-| [Design camera-footage upload with custody chain](../../questions/system-design/design-camera-footage-upload-with-custody-chain/README.md) | System Design | Hard | Phone screen | 1 | 2026-02-11 |
-| [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact) | Blog | — | Phone screen | 1 | 2026-02-09 |
-| [Answer tough self-awareness and team questions](https://trueinterview.io/questions/answer-tough-self-awareness-and-team-questions) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-08 |
-| [Design device logging system with offline upload](https://trueinterview.io/questions/design-device-logging-system-with-offline-upload) | System Design | Medium | Phone screen | 1 | 2026-02-06 |
-| [Design a Test Orchestration System](../../questions/system-design/design-a-test-orchestration-system/README.md) | System Design | Medium | Phone screen | 1 | 2025-11-18 |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Explain your career path and leadership impact](https://trueinterview.io/questions/explain-your-career-path-and-leadership-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Manager | 1 | 2026-06 |
+| [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-03-29 |
+| [Explain What Motivates and Demotivates You at Work](https://trueinterview.io/questions/explain-what-motivates-and-demotivates-you-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 2026-03-29 |
+| [How did you handle an ethical issue?](https://trueinterview.io/questions/how-did-you-handle-an-ethical-issue?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 1 | 2026-03-16 |
+| [Explain scope and impact under pressure](https://trueinterview.io/questions/explain-scope-and-impact-under-pressure?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | 2026-03-01 |
+| [Design fulfillment truck routing and inventory system](https://trueinterview.io/questions/design-fulfillment-truck-routing-and-inventory-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-03-01 |
+| [Find accessible devices via nested memberships](../../questions/algorithm/find-accessible-devices-via-nested-memberships/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-03-01 |
+| [Design camera-footage upload with custody chain](../../questions/system-design/design-camera-footage-upload-with-custody-chain/README.md) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-02-11 |
+| [Answer tough self-awareness and team questions](https://trueinterview.io/questions/answer-tough-self-awareness-and-team-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 1 | 2026-02-08 |
+| [Design device logging system with offline upload](https://trueinterview.io/questions/design-device-logging-system-with-offline-upload?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 2026-02-06 |
+| [Design a Test Orchestration System](../../questions/system-design/design-a-test-orchestration-system/README.md) | System Design | Medium | Phone screen | Senior, Staff+ | 1 | 2025-11-18 |
 
 ---
 

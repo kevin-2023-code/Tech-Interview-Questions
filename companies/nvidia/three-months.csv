@@ -1,3 +1,6 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-"Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways",Blog,,Phone screen,1,2026-09-17,https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways
-Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,3,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways",Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-17,https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways
+Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/three-sum
+Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,,2026-09,https://trueinterview.io/questions/valid-parentheses
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,3,,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array

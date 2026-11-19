@@ -1,2 +1,5 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Filter Unsafe Messages,Algorithm,Easy,Phone screen; Onsite / virtual onsite,1,2026-06-12,https://trueinterview.io/questions/filter-unsafe-messages
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/charity-donation-system
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,,2026-07,https://trueinterview.io/questions/design-news-feed
+Filter Unsafe Messages,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-06-12,https://trueinterview.io/questions/filter-unsafe-messages

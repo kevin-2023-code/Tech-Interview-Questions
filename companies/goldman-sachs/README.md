@@ -4,79 +4,79 @@
 
 67 questions reported at Goldman Sachs, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (15) · [all](all.csv) (67)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (19) · [last 6 months](six-months.csv) (34) · [all](all.csv) (67)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-13 |
-| [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-09-13 |
-| [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances) | Blog | — | Online assessment | 1 | 2026-09-02 |
-| [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density) | Blog | — | Online assessment | 1 | 2026-09-02 |
-| [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity) | Blog | — | Online assessment | 1 | 2026-09-02 |
-| [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses) | Blog | — | Online assessment | 1 | 2026-09-02 |
-| [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve) | Blog | — | Online assessment | 1 | 2026-09-02 |
-| [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab) | Blog | — | Online assessment | 1 | 2026-09-02 |
-| [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-08-15 |
-| [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Algorithm | Medium | Online assessment, Phone screen | 1 | 2026-07-06 |
-| [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-06-21 |
-| [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Easy | Phone screen | 1 | 2026-06-18 |
-| [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Object Oriented Programming | Easy | Phone screen | 1 | 2026-06-18 |
-| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-06-16 |
-| [Math and Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank) | Blog | — | Online assessment | 1 | 2026-05-30 |
-| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income) | Blog | — | Onsite / virtual onsite | 1 | 2026-05-13 |
-| [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | Phone screen | 3 | 2026-05 |
-| [String Compression](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | Online assessment | 2 | 2026-04-03 |
-| [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | 8 | 2026-04-01 |
-| [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | 7 | 2026-03-17 |
-| [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 3 | 2026-03-11 |
-| [Transaction Authorizer / Fraud Checks](https://trueinterview.io/questions/transaction-authorizer-fraud-checks) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-02-12 |
-| [Movement Command Controller](https://trueinterview.io/questions/movement-command-controller) | Algorithm | Easy | Onsite / virtual onsite | 1 | 2026-02-05 |
-| [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Object Oriented Programming | Medium | Phone screen | 4 | 2025-12-22 |
-| [Describe a proud project and handling credit conflict](https://trueinterview.io/questions/describe-a-proud-project-and-handling-credit-conflict) | Blog | — | Phone screen | 1 | 2025-12-15 |
-| [First Unique Element III](https://trueinterview.io/questions/first-unique-character) | Algorithm | Easy | Phone screen | 2 | 2025-12-12 |
-| [How would you handle conflict and data pressure?](https://trueinterview.io/questions/how-would-you-handle-conflict-and-data-pressure) | Blog | — | Phone screen | 1 | 2025-12-09 |
-| [Transaction Segments / Increasing Subarrays of Length K](https://trueinterview.io/questions/transaction-segments-increasing-subarrays) | Algorithm | Easy | Online assessment | 1 | 2025-11-25 |
-| [Efficient Tasks / Three-Server Difficulty Split](https://trueinterview.io/questions/efficient-tasks-three-server-difficulty) | Algorithm | Medium | Online assessment | 1 | 2025-11-25 |
-| [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/questions/hirevue-behavioral-six-questions) | Blog | — | Phone screen | 1 | 2025-11-06 |
-| [Evaluate TPR/FPR, sigmoid, and activations](https://trueinterview.io/questions/evaluate-tpr-fpr-sigmoid-and-activations) | Blog | — | Online assessment | 1 | 2025-10-10 |
-| [Complete decision tree and gradient descent functions](https://trueinterview.io/questions/complete-decision-tree-and-gradient-descent-functions) | Algorithm | Medium | Online assessment | 1 | 2025-10-10 |
-| [Process Starvation Time](https://trueinterview.io/questions/process-starvation-time) | Algorithm | Medium | Online assessment | 1 | 2025-09-22 |
-| [Ethernet Cable Square Count](https://trueinterview.io/questions/ethernet-cable-square-count) | Algorithm | Easy | Online assessment | 1 | 2025-09-22 |
-| [Equalize Letter Frequencies With Add / Remove](https://trueinterview.io/questions/equalize-letter-frequencies) | Algorithm | Medium | Online assessment | 1 | 2025-09-10 |
-| [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid) | Algorithm | Medium | Online assessment | 1 | 2025-09-08 |
-| [Decode Ways / Alphanumeric Combination](https://trueinterview.io/questions/decode-ways) | Algorithm | Medium | Online assessment, Phone screen | 1 | 2025-07-11 |
-| [Extend Queue: Min-Size & Min-Sum Selector](https://trueinterview.io/questions/queue-extension-min-size-min-sum) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2025-06-09 |
-| [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2025-06-09 |
-| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/questions/horse-race-25) | Blog | — | Onsite / virtual onsite | 1 | 2025-06-09 |
-| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/questions/explain-recursion-no-cs-audience) | Blog | — | Phone screen | 1 | 2024-12-05 |
-| [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring) | Algorithm | Easy | Phone screen | 1 | 2024-11-21 |
-| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/questions/hash-collision-fundamentals) | Blog | — | Phone screen | 1 | 2024-11-21 |
-| [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | 2 | 2024-11-15 |
-| [Maximum-Sum Path in a Matrix (No Revisits)](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat) | Algorithm | Hard | Phone screen | 1 | 2024-11-15 |
-| [Second-Smallest Unique Element](https://trueinterview.io/questions/second-smallest-unique-element) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | 1 | 2024-11-14 |
-| [Count Unique Pairs With Difference K](https://trueinterview.io/questions/unique-pairs-difference-k) | Algorithm | Easy | Online assessment | 1 | 2024-10-26 |
-| [Plus-Multiply Even / Odd Parity](https://trueinterview.io/questions/plus-multiply-even-odd-parity) | Algorithm | Medium | Online assessment | 1 | 2024-10-26 |
-| [Valid Triangle + Point Inclusion](https://trueinterview.io/questions/valid-triangle-point-inclusion) | Algorithm | Medium | Online assessment | 1 | 2024-10-26 |
-| [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Online assessment | 3 | 2024-10-26 |
-| [Min × Max Product After Push / Pop](https://trueinterview.io/questions/min-max-product-stream) | Algorithm | Hard | Online assessment | 1 | 2024-10-26 |
-| [Compliance Alert / Trailing-Average Sliding Window](https://trueinterview.io/questions/compliance-alert-sliding-window) | Algorithm | Easy | Online assessment | 1 | 2024-10-26 |
-| [Chairs / Restaurant Order Simulation](https://trueinterview.io/questions/chairs-restaurant-simulation) | Algorithm | Easy | Online assessment | 1 | 2024-10-26 |
-| [Anagram Queries on Word List](https://trueinterview.io/questions/anagram-queries) | Algorithm | Easy | Online assessment | 1 | 2024-10-26 |
-| [Longest Subarray With Sum ≤ K](https://trueinterview.io/questions/longest-subarray-sum-at-most-k) | Algorithm | Medium | Online assessment | 1 | 2024-10-26 |
-| [Staircase Search in a Sorted 2D Matrix](https://trueinterview.io/questions/dbd4755b-bf74-5377-b3ca-42bb7bdc22e8) | Algorithm | Medium | Phone screen | 1 | — |
-| [Maximum Rock Collection Path in a Grid](https://trueinterview.io/questions/d2cd1228-3f9d-563d-adb7-4d5f86c1af78) | Algorithm | Medium | Phone screen | 1 | — |
-| [Cutting Metal Surplus](https://trueinterview.io/questions/4289b575-f765-46f3-b2e0-20b17e388ab0) | Algorithm | Hard | Phone screen | 1 | — |
-| [Frequency of the Most Frequent Element](../../questions/algorithm/frequency-of-the-most-frequent-element/README.md) | Algorithm | Medium | Phone screen | 1 | — |
-| [Dungeon Health](https://trueinterview.io/questions/2a9a0a9f-e0b8-5bea-89c7-dbc1cba4dfcc) | Algorithm | Hard | Phone screen | 1 | — |
-| [Implement Heap Insert](https://trueinterview.io/questions/21b6a445-4f44-5df6-b4fe-1c7a01c4aac6) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | 8 | — |
-| [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Object Oriented Programming | Medium | Onsite / virtual onsite | 3 | — |
-| [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | Online assessment | 2 | — |
-| [Implement Linear Regression with Backpropagation](https://trueinterview.io/questions/e0cc580d-54fa-411a-a923-65403162050a) | Algorithm | Medium | Phone screen | 2 | — |
-| [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
-| [Maze Path Finding](https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643) | Algorithm | Medium | Phone screen | 2 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Describe a proud project and handling credit conflict](https://trueinterview.io/questions/describe-a-proud-project-and-handling-credit-conflict?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 2026-10 |
+| [First Unique Element III](https://trueinterview.io/questions/first-unique-character?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid | 2 | 2026-10 |
+| [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-09-13 |
+| [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-09-13 |
+| [Maximize Covariance from Known Variances](https://trueinterview.io/questions/maximize-covariance-from-known-variances?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad, Junior / Mid | 1 | 2026-09-02 |
+| [Integrate a Two-Sided Exponential Density](https://trueinterview.io/questions/integrate-a-two-sided-exponential-density?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Junior / Mid | 1 | 2026-09-02 |
+| [Infer BA When AB Is the Identity](https://trueinterview.io/questions/infer-ba-when-ab-is-the-identity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid, Senior | 1 | 2026-09-02 |
+| [Expected Number of Runs in Coin Tosses](https://trueinterview.io/questions/expected-number-of-runs-in-coin-tosses?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | New grad, Junior / Mid | 1 | 2026-09-02 |
+| [Compute the Arc Length of a Curve](https://trueinterview.io/questions/compute-the-arc-length-of-a-curve?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Junior / Mid | 1 | 2026-09-02 |
+| [Bound the Rank of BA Given Rank of AB](https://trueinterview.io/questions/bound-the-rank-of-ba-given-rank-of-ab?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Junior / Mid | 1 | 2026-09-02 |
+| [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-09 |
+| [Staircase Search in a Sorted 2D Matrix](https://trueinterview.io/questions/dbd4755b-bf74-5377-b3ca-42bb7bdc22e8?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-09 |
+| [Maximum Rock Collection Path in a Grid](https://trueinterview.io/questions/d2cd1228-3f9d-563d-adb7-4d5f86c1af78?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-09 |
+| [Frequency of the Most Frequent Element](../../questions/algorithm/frequency-of-the-most-frequent-element/README.md) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-09 |
+| [Dungeon Health](https://trueinterview.io/questions/2a9a0a9f-e0b8-5bea-89c7-dbc1cba4dfcc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior | 1 | 2026-09 |
+| [Maze Path Finding](https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 2 | 2026-09 |
+| [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 4 | 2026-09 |
+| [First Missing Positive](https://trueinterview.io/questions/first-missing-positive?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2026-09 |
+| [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior, Staff+ | 8 | 2026-09 |
+| [Implement Heap Insert](https://trueinterview.io/questions/21b6a445-4f44-5df6-b4fe-1c7a01c4aac6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-08 |
+| [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 8 | 2026-08 |
+| [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Senior | 1 | 2026-08 |
+| [Validate Binary Search Tree](../../questions/algorithm/validate-binary-search-tree/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 6 | 2026-08 |
+| [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 7 | 2026-08 |
+| [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid | 3 | 2026-08 |
+| [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 3 | 2026-08 |
+| [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment, Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-07-06 |
+| [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 3 | 2026-07 |
+| [Implement Linear Regression with Backpropagation](https://trueinterview.io/questions/e0cc580d-54fa-411a-a923-65403162050a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Intern, Senior | 2 | 2026-07 |
+| [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 2026-06-21 |
+| [Implement a Deque](https://trueinterview.io/questions/implement-deque?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Phone screen | New grad | 1 | 2026-06-18 |
+| [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 2026-06 |
+| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/questions/horse-race-25?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 2026-06 |
+| [Math and Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad | 1 | 2026-05-30 |
+| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/questions/quant-strat-superday-probability-fixed-income?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad | 1 | 2026-05-13 |
+| [How would you handle conflict and data pressure?](https://trueinterview.io/questions/how-would-you-handle-conflict-and-data-pressure?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid | 1 | 2026-05 |
+| [String Compression](https://trueinterview.io/questions/string-compression-oa?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | Junior / Mid | 2 | 2026-04-03 |
+| [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/questions/hirevue-behavioral-six-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2026-03 |
+| [Transaction Authorizer / Fraud Checks](https://trueinterview.io/questions/transaction-authorizer-fraud-checks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-02-12 |
+| [Movement Command Controller](https://trueinterview.io/questions/movement-command-controller?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Onsite / virtual onsite | Junior / Mid | 1 | 2026-02-05 |
+| [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 2 | 2026-01 |
+| [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-12 |
+| [Transaction Segments / Increasing Subarrays of Length K](https://trueinterview.io/questions/transaction-segments-increasing-subarrays?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2025-11-25 |
+| [Efficient Tasks / Three-Server Difficulty Split](https://trueinterview.io/questions/efficient-tasks-three-server-difficulty?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 2025-11-25 |
+| [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern | 2 | 2025-11 |
+| [Evaluate TPR/FPR, sigmoid, and activations](https://trueinterview.io/questions/evaluate-tpr-fpr-sigmoid-and-activations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Intern, New grad | 1 | 2025-10-10 |
+| [Complete decision tree and gradient descent functions](https://trueinterview.io/questions/complete-decision-tree-and-gradient-descent-functions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 2025-10-10 |
+| [Process Starvation Time](https://trueinterview.io/questions/process-starvation-time?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 2025-09-22 |
+| [Ethernet Cable Square Count](https://trueinterview.io/questions/ethernet-cable-square-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 2025-09-22 |
+| [Equalize Letter Frequencies With Add / Remove](https://trueinterview.io/questions/equalize-letter-frequencies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 2025-09-10 |
+| [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 2025-09-08 |
+| [Decode Ways / Alphanumeric Combination](https://trueinterview.io/questions/decode-ways?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment, Phone screen | New grad | 1 | 2025-07-11 |
+| [Extend Queue: Min-Size & Min-Sum Selector](https://trueinterview.io/questions/queue-extension-min-size-min-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2025-06-09 |
+| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/questions/explain-recursion-no-cs-audience?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Intern, Junior / Mid | 1 | 2024-12-05 |
+| [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | Senior | 1 | 2024-11-21 |
+| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/questions/hash-collision-fundamentals?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 2024-11-21 |
+| [Maximum-Sum Path in a Matrix (No Revisits)](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2024-11-15 |
+| [Second-Smallest Unique Element](https://trueinterview.io/questions/second-smallest-unique-element?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Junior / Mid | 1 | 2024-11-14 |
+| [Count Unique Pairs With Difference K](https://trueinterview.io/questions/unique-pairs-difference-k?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 2024-10-26 |
+| [Plus-Multiply Even / Odd Parity](https://trueinterview.io/questions/plus-multiply-even-odd-parity?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 2024-10-26 |
+| [Valid Triangle + Point Inclusion](https://trueinterview.io/questions/valid-triangle-point-inclusion?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 2024-10-26 |
+| [Min × Max Product After Push / Pop](https://trueinterview.io/questions/min-max-product-stream?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | New grad | 1 | 2024-10-26 |
+| [Compliance Alert / Trailing-Average Sliding Window](https://trueinterview.io/questions/compliance-alert-sliding-window?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 2024-10-26 |
+| [Chairs / Restaurant Order Simulation](https://trueinterview.io/questions/chairs-restaurant-simulation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad | 1 | 2024-10-26 |
+| [Anagram Queries on Word List](https://trueinterview.io/questions/anagram-queries?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad, Junior / Mid | 1 | 2024-10-26 |
+| [Longest Subarray With Sum ≤ K](https://trueinterview.io/questions/longest-subarray-sum-at-most-k?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 2024-10-26 |
+| [Cutting Metal Surplus](https://trueinterview.io/questions/4289b575-f765-46f3-b2e0-20b17e388ab0?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | — |
 
 ---
 

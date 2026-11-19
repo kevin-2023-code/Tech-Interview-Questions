@@ -1,6 +1,12 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Design Monitoring and Reliability for 99.99% Availability,System Design,Hard,Onsite / virtual onsite,1,2026-09-04,https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability
-Explain a Project Architecture Through a Technical Deep Dive,Blog,,Onsite / virtual onsite,1,2026-09-03,https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive
-Design a Social-Media Comments and Notifications System,System Design,Easy,Onsite / virtual onsite,1,2026-09-03,https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system
-"Design a Music Player with Queue, Loop, and Shuffle",Object Oriented Programming,Medium,Phone screen,1,2026-09-03,https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle
-Highlight the Shortest Unique Substring in Each Label,Algorithm,Hard,Phone screen,1,2026-08-26,https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Atlassian Values and Management Rounds,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/atlassian-values-and-management-rounds
+Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,,2026-10,https://trueinterview.io/questions/rate-limiter
+Design Monitoring and Reliability for 99.99% Availability,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-04,https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability
+Explain a Project Architecture Through a Technical Deep Dive,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09-03,https://trueinterview.io/questions/explain-a-project-architecture-through-a-technical-deep-dive
+Design a Social-Media Comments and Notifications System,System Design,Easy,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-03,https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system
+"Design a Music Player with Queue, Loop, and Shuffle",Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09-03,https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle
+File System Collection,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/file-system-collection
+Design Tagging System,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/tagging-system-rest-api
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Lowest Common Ancestor of a Binary Tree,Algorithm,Easy,Phone screen,Intern; Junior / Mid; Senior,8,,2026-09,https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree
+Highlight the Shortest Unique Substring in Each Label,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-08-26,https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label

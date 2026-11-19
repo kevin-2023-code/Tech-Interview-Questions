@@ -1,4 +1,10 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Design Online Chess Game,System Design,Medium,Phone screen; Onsite / virtual onsite,5,2026-09-23,https://trueinterview.io/questions/design-chess-com-online-chess-game
-Top K Largest Elements,Algorithm,Medium,Phone screen,10,2026-07-29,https://trueinterview.io/questions/top-k-largest-elements
-Beam Search Decoding,Algorithm,Hard,Phone screen,2,2026-07-29,https://trueinterview.io/questions/beam-search-decoding
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/payment-platform-design
+Design Online Chess Game,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,5,,2026-09-23,https://trueinterview.io/questions/design-chess-com-online-chess-game
+Top K Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/top-k-largest-elements
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Design Typehead Suggestion,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,7,,2026-09,https://trueinterview.io/questions/sd-typeahead-autocomplete
+Beam Search Decoding,Algorithm,Hard,Phone screen,Junior / Mid,2,,2026-09,https://trueinterview.io/questions/beam-search-decoding
+Design AI Chatbot App,System Design,Easy,Onsite / virtual onsite,Senior,5,,2026-09,https://trueinterview.io/questions/design-an-ai-chatbot-system
+Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,8,,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
+Suffix Maximum Count,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid,2,,2026-08,https://trueinterview.io/questions/suffix-maximum-count-2

@@ -4,50 +4,50 @@
 
 38 questions reported at Intuit, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (2) · [all](all.csv) (38)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (4) · [all](all.csv) (38)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Premium Product Recommendation System](https://trueinterview.io/questions/premium-product-recommendation-system) | System Design | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-06-28 |
-| [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up) | Algorithm | Medium | Phone screen | 2 | 2026-06-28 |
-| [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation) | Algorithm | Medium | Phone screen | 1 | 2026-05-08 |
-| [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration) | Algorithm | Medium | Phone screen | 1 | 2026-04-22 |
-| [AI Application Conversation](https://trueinterview.io/questions/ai-application-conversation) | Blog | — | Phone screen | 1 | 2026-04-03 |
-| [When should products use AI?](https://trueinterview.io/questions/when-should-products-use-ai) | Blog | — | Phone screen | 1 | 2026-04-02 |
-| [Engineer and Impute ZIP Features](https://trueinterview.io/questions/engineer-and-impute-zip-features) | Blog | — | Phone screen | 1 | 2026-02-23 |
-| [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention) | SQL | Hard | Phone screen | 1 | 2026-02-23 |
-| [Calculate Precision, Recall, and F1](https://trueinterview.io/questions/calculate-precision-recall-and-f1) | Algorithm | Medium | Phone screen | 1 | 2026-02-10 |
-| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | 14 | 2026-02-07 |
-| [Bash Largest File from Listing Output](https://trueinterview.io/questions/bash-largest-file-from-ls-output) | Algorithm | Medium | Online assessment | 1 | 2026-01-30 |
-| [Transactions Status Report SQL](https://trueinterview.io/questions/transactions-status-report-sql) | SQL | Medium | Online assessment | 1 | 2025-12-25 |
-| [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) | Algorithm | Medium | Online assessment | 1 | 2025-12-25 |
-| [Three-Column Grid Coloring Count](https://trueinterview.io/questions/three-column-grid-coloring-count) | Algorithm | Medium | Online assessment | 1 | 2025-11-19 |
-| [Clean String: Remove Punctuation and Stop Words](https://trueinterview.io/questions/clean-string-remove-punctuation-stop-words) | Algorithm | Easy | Online assessment | 1 | 2025-11-19 |
-| [Design an experiment for pricing page redesign](https://trueinterview.io/questions/design-an-experiment-for-pricing-page-redesign) | Blog | — | Phone screen | 1 | 2025-11-08 |
-| [Pivot daily users and revenue by platform](https://trueinterview.io/questions/pivot-daily-users-and-revenue-by-platform) | SQL | Medium | Phone screen | 1 | 2025-11-08 |
-| [Compute monthly signups, conversion, and YoY growth](https://trueinterview.io/questions/compute-monthly-signups-conversion-and-yoy-growth) | Algorithm | Medium | Phone screen | 1 | 2025-11-08 |
-| [Handle missing and unavailable predictive features](https://trueinterview.io/questions/handle-missing-and-unavailable-predictive-features) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-21 |
-| [Extract insights from a multi-entry funnel scorecard](https://trueinterview.io/questions/extract-insights-from-a-multi-entry-funnel-scorecard) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-21 |
-| [Design an experiment to evaluate an onboarding progress bar](https://trueinterview.io/questions/design-an-experiment-to-evaluate-an-onboarding-progress-bar) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-21 |
-| [Weather Data Energy-Usage Ranking](https://trueinterview.io/questions/weather-data-energy-usage-ranking) | Algorithm | Medium | Phone screen | 1 | 2025-10-03 |
-| [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-10-02 |
-| [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Online assessment | 2 | 2025-09-29 |
-| [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch) | Blog | — | Phone screen | 1 | — |
-| [Diagnose rising delivery cost precisely](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely) | Blog | — | Phone screen | 1 | — |
-| [Choose the right test for proportions](https://trueinterview.io/questions/choose-the-right-test-for-proportions) | Blog | — | Phone screen | 1 | — |
-| [Exclude free subscribers via anti-join](https://trueinterview.io/questions/exclude-free-subscribers-via-anti-join) | SQL | Medium | Phone screen | 1 | — |
-| [Design an idempotent churn ETL pipeline](https://trueinterview.io/questions/design-an-idempotent-churn-etl-pipeline) | SQL | Hard | Phone screen | 1 | — |
-| [Compute paid subscriber YoY counts by month](https://trueinterview.io/questions/compute-paid-subscriber-yoy-counts-by-month) | SQL | Medium | Phone screen | 1 | — |
-| [Compute monthly new subscribers and YoY deltas](https://trueinterview.io/questions/compute-monthly-new-subscribers-and-yoy-deltas) | SQL | Medium | Phone screen | 1 | — |
-| [Compute churn and revenue churn in SQL](https://trueinterview.io/questions/compute-churn-and-revenue-churn-in-sql) | SQL | Medium | Phone screen | 1 | — |
-| [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | SQL | Easy | Online assessment | 1 | — |
-| [Find the Safest Path in a Grid](https://trueinterview.io/questions/4a705b25-2a46-4581-866f-381bfd794dab) | Algorithm | Hard | Phone screen | 1 | — |
-| [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
-| [Matrix Transpose and Multiplication Speed Benchmark](https://trueinterview.io/questions/0cc929c7-175c-4c2b-8748-4777d598bc16) | Algorithm | Medium | Phone screen | 1 | — |
-| [Smart Gardener (Intuit India)](https://trueinterview.io/questions/094b806b-d68d-413f-a536-249524c89249) | Algorithm | Hard | Phone screen | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-10 |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | New grad, Junior / Mid, Senior | 14 | 2026-09 |
+| [Premium Product Recommendation System](https://trueinterview.io/questions/premium-product-recommendation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Staff+ | 1 | 2026-06-28 |
+| [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Staff+ | 2 | 2026-06-28 |
+| [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-05-08 |
+| [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 1 | 2026-04-22 |
+| [AI Application Conversation](https://trueinterview.io/questions/ai-application-conversation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2026-04-03 |
+| [When should products use AI?](https://trueinterview.io/questions/when-should-products-use-ai?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2026-04-02 |
+| [Engineer and Impute ZIP Features](https://trueinterview.io/questions/engineer-and-impute-zip-features?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-02-23 |
+| [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-02-23 |
+| [Calculate Precision, Recall, and F1](https://trueinterview.io/questions/calculate-precision-recall-and-f1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-02-10 |
+| [Bash Largest File from Listing Output](https://trueinterview.io/questions/bash-largest-file-from-ls-output?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 1 | 2026-01-30 |
+| [Transactions Status Report SQL](https://trueinterview.io/questions/transactions-status-report-sql?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Online assessment | New grad | 1 | 2025-12-25 |
+| [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 2025-12-25 |
+| [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 2025-12 |
+| [Three-Column Grid Coloring Count](https://trueinterview.io/questions/three-column-grid-coloring-count?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 2025-11-19 |
+| [Clean String: Remove Punctuation and Stop Words](https://trueinterview.io/questions/clean-string-remove-punctuation-stop-words?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 2025-11-19 |
+| [Design an experiment for pricing page redesign](https://trueinterview.io/questions/design-an-experiment-for-pricing-page-redesign?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2025-11-08 |
+| [Pivot daily users and revenue by platform](https://trueinterview.io/questions/pivot-daily-users-and-revenue-by-platform?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 2025-11-08 |
+| [Compute monthly signups, conversion, and YoY growth](https://trueinterview.io/questions/compute-monthly-signups-conversion-and-yoy-growth?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2025-11-08 |
+| [Handle missing and unavailable predictive features](https://trueinterview.io/questions/handle-missing-and-unavailable-predictive-features?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-10-21 |
+| [Extract insights from a multi-entry funnel scorecard](https://trueinterview.io/questions/extract-insights-from-a-multi-entry-funnel-scorecard?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2025-10-21 |
+| [Design an experiment to evaluate an onboarding progress bar](https://trueinterview.io/questions/design-an-experiment-to-evaluate-an-onboarding-progress-bar?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2025-10-21 |
+| [Weather Data Energy-Usage Ranking](https://trueinterview.io/questions/weather-data-energy-usage-ranking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 1 | 2025-10-03 |
+| [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 2025-10-02 |
+| [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 2 | 2025-09-29 |
+| [Explain a non-linear industry switch](https://trueinterview.io/questions/explain-a-non-linear-industry-switch?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | — |
+| [Diagnose rising delivery cost precisely](https://trueinterview.io/questions/diagnose-rising-delivery-cost-precisely?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Choose the right test for proportions](https://trueinterview.io/questions/choose-the-right-test-for-proportions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Exclude free subscribers via anti-join](https://trueinterview.io/questions/exclude-free-subscribers-via-anti-join?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Senior, Staff+ | 1 | — |
+| [Design an idempotent churn ETL pipeline](https://trueinterview.io/questions/design-an-idempotent-churn-etl-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Phone screen | Senior, Staff+ | 1 | — |
+| [Compute paid subscriber YoY counts by month](https://trueinterview.io/questions/compute-paid-subscriber-yoy-counts-by-month?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Compute monthly new subscribers and YoY deltas](https://trueinterview.io/questions/compute-monthly-new-subscribers-and-yoy-deltas?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Compute churn and revenue churn in SQL](https://trueinterview.io/questions/compute-churn-and-revenue-churn-in-sql?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | — |
+| [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Easy | Online assessment | Intern, New grad | 1 | — |
+| [Find the Safest Path in a Grid](https://trueinterview.io/questions/4a705b25-2a46-4581-866f-381bfd794dab?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Matrix Transpose and Multiplication Speed Benchmark](https://trueinterview.io/questions/0cc929c7-175c-4c2b-8748-4777d598bc16?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior, Staff+ | 1 | — |
+| [Smart Gardener (Intuit India)](https://trueinterview.io/questions/094b806b-d68d-413f-a536-249524c89249?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
 
 ---
 

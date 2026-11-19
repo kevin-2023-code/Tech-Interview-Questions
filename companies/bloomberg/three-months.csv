@@ -1,2 +1,24 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-LRU Cache,AI Coding,Medium,Phone screen,10,2026-10-01,https://trueinterview.io/questions/lru-cache
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design a Mutable Sparse Matrix and Implement Matrix Multiplication,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/ee0ef43a-fe22-54a8-8a93-33dca55f9533
+Find All Duplicates in an Array,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/b30bc310-9b19-5b87-93f3-f22efc18884a
+Design a Sparse Array and Compute Sparse Vector Dot Products,Object-Oriented Programming,Easy,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/95fd1aff-d21b-5fe7-8197-a277df386da6
+Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Add Two Numbers (Forward Order Linked Lists),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/97753443-80e2-4be1-a500-502b91e021a0
+Decode String (k[encoded]),Algorithm,Medium,Phone screen,Junior / Mid,3,,2026-10,https://trueinterview.io/questions/decode-string-lc394
+Number of Islands in a Matrix,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Decode String,Algorithm,Medium,Phone screen,Junior / Mid,3,,2026-10,https://trueinterview.io/questions/decode-string
+Median of Two Sorted Arrays,Algorithm,Hard,Onsite / virtual onsite,Senior,5,,2026-10,https://trueinterview.io/questions/median-of-two-sorted-arrays
+Word Search II,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,7,,2026-10,https://trueinterview.io/questions/word-search-ii
+LRU Cache,AI Coding,Medium,Phone screen,Intern; Junior / Mid; Senior,10,,2026-10-01,https://trueinterview.io/questions/lru-cache
+Lowest Common Ancestor in an N-ary Tree,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/2805d985-5044-5751-9d1e-93c24171a61f
+Minimum Steps to Make Two Strings Anagram,Algorithm,Easy,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/minimum-steps-to-make-two-strings-anagram
+Introduce yourself and explain why Bloomberg,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid,1,,2026-09,https://trueinterview.io/questions/introduce-yourself-and-explain-why-bloomberg
+Detect Fraudulent Transactions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/84306b63-f79d-5a02-9d25-921f49151cc0
+Meeting Rooms,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-09,https://trueinterview.io/questions/meeting-rooms-2
+Insert Delete GetRandom O(1),Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/insert-delete-getrandom-o-1
+Alien Dictionary,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/alien-dictionary
+Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,,2026-09,https://trueinterview.io/questions/valid-parentheses
+Trapping Rain Water,Algorithm,Hard,Phone screen,Junior / Mid; Senior; Staff+,8,,2026-09,https://trueinterview.io/questions/trapping-rain-water
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters

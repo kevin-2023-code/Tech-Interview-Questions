@@ -1,36 +1,36 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Build Binary Tree from Edges / S-Expression,Algorithm,Hard,Online assessment; Take-home,1,2026-06-15,https://trueinterview.io/questions/binary-tree-from-edges
-Thread-Safe Buy/Sell Without Overselling,Object Oriented Programming,Medium,Phone screen,1,2026-05-30,https://trueinterview.io/questions/multithreaded-buy-sell-lock
-Count Ordered Sequences That Sum to a Target,Algorithm,Medium,Phone screen,1,2026-04-28,https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target
-Koko Eating Bananas,Algorithm,Medium,Phone screen,4,2026-04-14,https://trueinterview.io/questions/koko-eating-bananas
-Trading Betting Game (EV / Market-Making),Blog,,Phone screen; Onsite / virtual onsite,1,2026-03-21,https://trueinterview.io/questions/trading-betting-game
-Number Logic — Sequence / Find the Pattern,Blog,,Online assessment,1,2026-02-16,https://trueinterview.io/questions/number-logic-sequence
-Likelihood / Event-Ordering Test,Blog,,Online assessment,1,2026-02-16,https://trueinterview.io/questions/likelihood-ordering-test
-Beat the Odds — Probability Test,Blog,,Online assessment,1,2026-02-16,https://trueinterview.io/questions/beat-the-odds-probability
-Target Stock Portfolio Operations,Algorithm,Medium,Online assessment,1,2026-02-06,https://trueinterview.io/questions/target-stock-portfolio-operations
-Minimum Expected Asset Cost,Algorithm,Hard,Online assessment,1,2026-02-06,https://trueinterview.io/questions/minimum-expected-asset-cost
-Merge Intervals,Algorithm,Medium,Phone screen,16,2026-02-04,https://trueinterview.io/questions/merge-intervals
-Implement a Level-Aware Expiring Inventory Store,Object Oriented Programming,Medium,Online assessment,1,2026-02-03,https://trueinterview.io/questions/implement-a-level-aware-expiring-inventory-store
-Schedule Orders onto Planes,AI Coding,Medium,Phone screen; Onsite / virtual onsite,1,2026-01-22,https://trueinterview.io/questions/opticargo-flight-scheduling
-Design Circular Queue (Ring Buffer),Object Oriented Programming,Medium,Phone screen,1,2026-01-16,https://trueinterview.io/questions/circular-queue-design
-QR Take-Home Data Project & Presentation,Blog,,Take-home; Onsite / virtual onsite,1,2026-01-12,https://trueinterview.io/questions/qr-take-home-data-project
-Low-Latency Trading System Design,System Design,Hard,Onsite / virtual onsite,1,2025-12-13,https://trueinterview.io/questions/trading-system-design
-HR / Behavioral Phone Screen,Blog,,Phone screen,1,2025-12-13,https://trueinterview.io/questions/hr-behavioral-screen
-Answer why SWE and why Optiver,Blog,,Onsite / virtual onsite,1,2025-12-05,https://trueinterview.io/questions/answer-why-swe-and-why-optiver
-Implement a News Publishing System with Topic Subscriptions and Delivery Limits,Object Oriented Programming,Medium,Online assessment,1,2025-11-25,https://trueinterview.io/questions/implement-a-news-publishing-system-with-topic-subscriptions-and-delivery-limits
-Compute probabilities and expectations in random processes,Blog,,Online assessment,1,2025-11-19,https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes
-Order Book Matching Simulation,Algorithm,Medium,Online assessment,1,2025-11-18,https://trueinterview.io/questions/order-book-matching
-Zap-N Reaction & Memory Mini-Games,Blog,,Online assessment,1,2025-11-17,https://trueinterview.io/questions/zap-n-reaction-games
-Programming & Computer-System Knowledge Quiz,Blog,,Online assessment,1,2025-11-17,https://trueinterview.io/questions/coding-knowledge-test
-News Aggregation / Subscription System,Object Oriented Programming,Medium,Online assessment,1,2025-11-17,https://trueinterview.io/questions/news-subscription-system
-QR Technical Round — Brainteasers & Estimation,Blog,,Onsite / virtual onsite,1,2025-11-14,https://trueinterview.io/questions/qr-technical-brainteasers
-Stock Transaction Sequence Counting (Catalan / DP),Algorithm,Medium,Online assessment,1,2025-11-03,https://trueinterview.io/questions/stock-transaction-counting
-Design Squirrel Nut Tracker,Object Oriented Programming,Medium,Online assessment,1,2025-10-07,https://trueinterview.io/questions/squirrel-nut-storage
-Hot Air Balloon Festival Simulation,Object Oriented Programming,Medium,Online assessment,1,2025-09-09,https://trueinterview.io/questions/balloon-festival-simulation
-Currency Arbitrage Detection,Algorithm,Hard,Online assessment,1,2025-08-26,https://trueinterview.io/questions/currency-arbitrage-detection
-Market-Making Interval Estimation Game,Blog,,Phone screen,1,2025-08-06,https://trueinterview.io/questions/market-making-interval-game
-Satellite Message Propagation,Object Oriented Programming,Medium,Online assessment,1,2025-08-05,https://trueinterview.io/questions/satellite-message-propagation
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,17,,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
-Days Between Dates (Days Between 3.0 V2),Algorithm,Medium,Online assessment,1,,https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6
-Optimize Cargo Transport Algorithm,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/6031e550-cf37-42a2-813d-85aa4b2095dc
-Currency Exchange,Algorithm,Medium,Phone screen; Onsite / virtual onsite,5,,https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Trading Betting Game (EV / Market-Making),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/trading-betting-game
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Zap-N Reaction & Memory Mini-Games,Behavioral / Knowledge,,Online assessment,Intern; New grad; Junior / Mid,1,,2026-08,https://trueinterview.io/questions/zap-n-reaction-games
+HR / Behavioral Phone Screen,Behavioral / Knowledge,,Phone screen,Intern; New grad; Junior / Mid,1,,2026-08,https://trueinterview.io/questions/hr-behavioral-screen
+Currency Exchange,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-08,https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971
+Koko Eating Bananas,Algorithm,Medium,Phone screen,Senior,4,,2026-08,https://trueinterview.io/questions/koko-eating-bananas
+Answer why SWE and why Optiver,Behavioral / Knowledge,,Onsite / virtual onsite,Intern,1,,2026-07,https://trueinterview.io/questions/answer-why-swe-and-why-optiver
+Build Binary Tree from Edges / S-Expression,Algorithm,Hard,Online assessment; Take-home,New grad; Senior,1,,2026-06-15,https://trueinterview.io/questions/binary-tree-from-edges
+Days Between Dates (Days Between 3.0 V2),Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2026-06,https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6
+Thread-Safe Buy/Sell Without Overselling,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-05-30,https://trueinterview.io/questions/multithreaded-buy-sell-lock
+Count Ordered Sequences That Sum to a Target,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,,2026-04-28,https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target
+Number Logic — Sequence / Find the Pattern,Behavioral / Knowledge,,Online assessment,Intern; New grad; Junior / Mid,1,,2026-03,https://trueinterview.io/questions/number-logic-sequence
+Market-Making Interval Estimation Game,Behavioral / Knowledge,,Phone screen,Intern; New grad; Junior / Mid,1,,2026-03,https://trueinterview.io/questions/market-making-interval-game
+Likelihood / Event-Ordering Test,Behavioral / Knowledge,,Online assessment,New grad,1,,2026-02-16,https://trueinterview.io/questions/likelihood-ordering-test
+Beat the Odds — Probability Test,Behavioral / Knowledge,,Online assessment,Intern; New grad; Junior / Mid,1,,2026-02-16,https://trueinterview.io/questions/beat-the-odds-probability
+Target Stock Portfolio Operations,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,,2026-02-06,https://trueinterview.io/questions/target-stock-portfolio-operations
+Minimum Expected Asset Cost,Algorithm,Hard,Online assessment,New grad; Junior / Mid,1,,2026-02-06,https://trueinterview.io/questions/minimum-expected-asset-cost
+Merge Intervals,Algorithm,Medium,Phone screen,,16,,2026-02-04,https://trueinterview.io/questions/merge-intervals
+Implement a Level-Aware Expiring Inventory Store,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,2026-02-03,https://trueinterview.io/questions/implement-a-level-aware-expiring-inventory-store
+Compute probabilities and expectations in random processes,Behavioral / Knowledge,,Online assessment,Intern; New grad,1,,2026-02,https://trueinterview.io/questions/compute-probabilities-and-expectations-in-random-processes
+Schedule Orders onto Planes,AI Coding,Medium,Phone screen; Onsite / virtual onsite,Intern; New grad,1,,2026-01-22,https://trueinterview.io/questions/opticargo-flight-scheduling
+Design Circular Queue (Ring Buffer),Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-01-16,https://trueinterview.io/questions/circular-queue-design
+QR Take-Home Data Project & Presentation,Behavioral / Knowledge,,Take-home; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-01-12,https://trueinterview.io/questions/qr-take-home-data-project
+Low-Latency Trading System Design,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2025-12-13,https://trueinterview.io/questions/trading-system-design
+Optimize Cargo Transport Algorithm,Algorithm,Hard,Phone screen,Intern,1,,2025-12,https://trueinterview.io/questions/6031e550-cf37-42a2-813d-85aa4b2095dc
+Implement a News Publishing System with Topic Subscriptions and Delivery Limits,Object-Oriented Programming,Medium,Online assessment,New grad,1,,2025-11-25,https://trueinterview.io/questions/implement-a-news-publishing-system-with-topic-subscriptions-and-delivery-limits
+Order Book Matching Simulation,Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2025-11-18,https://trueinterview.io/questions/order-book-matching
+Programming & Computer-System Knowledge Quiz,Behavioral / Knowledge,,Online assessment,New grad; Junior / Mid,1,,2025-11-17,https://trueinterview.io/questions/coding-knowledge-test
+News Aggregation / Subscription System,Object-Oriented Programming,Medium,Online assessment,New grad,1,,2025-11-17,https://trueinterview.io/questions/news-subscription-system
+QR Technical Round — Brainteasers & Estimation,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid,1,,2025-11-14,https://trueinterview.io/questions/qr-technical-brainteasers
+Stock Transaction Sequence Counting (Catalan / DP),Algorithm,Medium,Online assessment,New grad; Junior / Mid,1,,2025-11-03,https://trueinterview.io/questions/stock-transaction-counting
+Design Squirrel Nut Tracker,Object-Oriented Programming,Medium,Online assessment,Intern; New grad,1,,2025-10-07,https://trueinterview.io/questions/squirrel-nut-storage
+Currency Arbitrage Detection,Algorithm,Hard,Online assessment,New grad,1,,2025-10,https://trueinterview.io/questions/currency-arbitrage-detection
+Hot Air Balloon Festival Simulation,Object-Oriented Programming,Medium,Online assessment,Intern; New grad; Junior / Mid,1,,2025-09-09,https://trueinterview.io/questions/balloon-festival-simulation
+Satellite Message Propagation,Object-Oriented Programming,Medium,Online assessment,Intern; New grad,1,,2025-08-05,https://trueinterview.io/questions/satellite-message-propagation

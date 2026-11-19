@@ -1,6 +1,6 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-"Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety",Algorithm,Hard,Phone screen,1,2026-09-03,https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety
-Find the Probability That One Shop Supplies the Top Two Coffees,Blog,,Phone screen,1,2026-09-03,https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees
-Compare Merge Sort with Factorial and Randomized Inefficient Sorts,Blog,,Phone screen,1,2026-09-03,https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts
-Shortest Grid Path with Obstacle Eliminations,Algorithm,Hard,Phone screen,1,2026-08-30,https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations
-Design a Project-to-Contractor Matching System,System Design,Hard,Phone screen,1,2026-08-30,https://trueinterview.io/questions/design-a-project-to-contractor-matching-system
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Review an Asynchronous Cache for Races, Memory Growth, and Thread Safety",Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-09-03,https://trueinterview.io/questions/review-an-asynchronous-cache-for-races-memory-growth-and-thread-safety
+Find the Probability That One Shop Supplies the Top Two Coffees,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,2026-09-03,https://trueinterview.io/questions/find-the-probability-that-one-shop-supplies-the-top-two-coffees
+Compare Merge Sort with Factorial and Randomized Inefficient Sorts,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,2026-09-03,https://trueinterview.io/questions/compare-merge-sort-with-factorial-and-randomized-inefficient-sorts
+Shortest Grid Path with Obstacle Eliminations,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-08-30,https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations
+Design a Project-to-Contractor Matching System,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-08-30,https://trueinterview.io/questions/design-a-project-to-contractor-matching-system

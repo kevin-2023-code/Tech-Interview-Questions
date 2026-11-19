@@ -1,10 +1,22 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Explain Project Ownership and Collaboration with Colleagues,Blog,,Onsite / virtual onsite,1,2026-09-08,https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues
-Design a Globally Versioned Key-Value Store,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-09-08,https://trueinterview.io/questions/design-a-globally-versioned-key-value-store
-Design Pagination API,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,1,2026-07-29,https://trueinterview.io/questions/pagination-api-wrapper
-Job Scheduler,Algorithm,Hard,Onsite / virtual onsite,1,2026-07-29,https://trueinterview.io/questions/job-scheduler-minimum-workers
-Minimum Window Substring,Algorithm,Medium,Phone screen,3,2026-06-29,https://trueinterview.io/questions/minimum-window-substring
-Validate Binary Search Tree,Algorithm,Medium,Phone screen,6,2026-06-16,https://trueinterview.io/questions/validate-binary-search-tree
-Design Uber,System Design,Medium,Onsite / virtual onsite,4,2026-06-16,https://trueinterview.io/questions/onsite-sd-rider-driver-matching
-Design a 1-to-1 Chat System,System Design,Medium,Phone screen; Onsite / virtual onsite,2,2026-06-02,https://trueinterview.io/questions/design-a-1-to-1-chat-system
-Commuter Coupon Conditional Probability,Blog,,Phone screen,1,2026-05-30,https://trueinterview.io/questions/ds-commuter-coupon-probability
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Rotten Oranges / Grid Infection BFS,Algorithm,Medium,Online assessment; Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/rotten-oranges-grid-bfs
+Design a 1-to-1 Chat System,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/design-a-1-to-1-chat-system
+Explain Project Ownership and Collaboration with Colleagues,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-08,https://trueinterview.io/questions/explain-project-ownership-and-collaboration-with-colleagues
+Design a Globally Versioned Key-Value Store,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09-08,https://trueinterview.io/questions/design-a-globally-versioned-key-value-store
+Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/charity-donation-system
+Hand-Written K-Means,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,2,,2026-09,https://trueinterview.io/questions/handwritten-k-means
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,8,,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Best Time to Buy and Sell Stock IV,Algorithm,Medium,Phone screen,Junior / Mid; Senior,8,,2026-08,https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1
+Validate Binary Search Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6,,2026-08,https://trueinterview.io/questions/validate-binary-search-tree
+Minimum Window Substring,Algorithm,Medium,Phone screen,Junior / Mid; Senior; Staff+,3,,2026-08,https://trueinterview.io/questions/minimum-window-substring
+Design Pagination API,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-29,https://trueinterview.io/questions/pagination-api-wrapper
+Job Scheduler,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-29,https://trueinterview.io/questions/job-scheduler-minimum-workers
+In-Memory Key-Value Store with Nested Transactions and Value Counts,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-07,https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0
+"Project, Conflict, Failure, and DEI",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/behavioral-project-conflict-and-dei
+Design Uber,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,4,,2026-07,https://trueinterview.io/questions/onsite-sd-rider-driver-matching
+Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,,2026-07,https://trueinterview.io/questions/design-news-feed
+Design Facebook Messenger,System Design,Medium,Onsite / virtual onsite,Senior,2,,2026-06,https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a
+Commuter Coupon Conditional Probability,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/ds-commuter-coupon-probability
+Transactional Key-Value Store,Object-Oriented Programming,Hard,Onsite / virtual onsite,Intern; Junior / Mid,2,,2026-06,https://trueinterview.io/questions/transactional-key-value-store

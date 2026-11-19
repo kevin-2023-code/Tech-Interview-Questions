@@ -1,22 +1,22 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Design a recursive distributed file crawler,System Design,Medium,Onsite / virtual onsite,1,2026-01-25,https://trueinterview.io/questions/design-a-recursive-distributed-file-crawler
-Describe surprising project learnings,Blog,,Onsite / virtual onsite,1,2026-01-25,https://trueinterview.io/questions/describe-surprising-project-learnings
-Describe Your Most Complex Project,Blog,,Onsite / virtual onsite,1,2025-10-03,https://trueinterview.io/questions/describe-your-most-complex-project
-Run org-safe online experiment for recommender,Blog,,Phone screen,1,,https://trueinterview.io/questions/run-org-safe-online-experiment-for-recommender
-Review checkout code for defects and privacy,Blog,,Phone screen,1,,https://trueinterview.io/questions/review-checkout-code-for-defects-and-privacy
-Explain a project with measurable impact,Blog,,Phone screen,1,,https://trueinterview.io/questions/explain-a-project-with-measurable-impact
-Answer rapid-fire leadership checklist,Blog,,Phone screen,1,,https://trueinterview.io/questions/answer-rapid-fire-leadership-checklist
-Compute max island with constrained flips,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/compute-max-island-with-constrained-flips
-API Design for Long Running Requests,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/ea7d38db-f5ac-4619-b82f-c7d0228d01ca
-"Event Logger with batching, fsync, and group commit follow-ups",System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9
-Implement SnapshotSet,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6
-Shortest Path with Uniform Walking Method,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/374ea0b3-6ad5-4d15-a6a4-bfd7a92db739
-Design and Implement an In-Memory KV Store (API + Optional Extensions),Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8
-Double Circuit Breaker for server calls (lambda returns success/failure),Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8
-Tetris-like Block Drop Simulation,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/02df0747-8a69-4a01-9098-10ef7070a1a6
-Simulate a File System with Access Control,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/f0867d5b-4d3f-4ff4-9af3-0c7f8b8160ca
-Worker Registration Payroll Calculation,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/c7dcf405-b5b0-405d-9164-b770da49caa0
-Word Guessing Feedback,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565
-File Crawler,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/868c0ea1-62d7-4555-aeb2-7d9033aebbe5
-Hangman Optimal Strategy,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252
-Token Bucket Rate Limiter II,Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Token Bucket Rate Limiter II,Algorithm,Medium,Phone screen,Senior,3,,2026-09,https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9
+Implement SnapshotSet,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,,2026-07,https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6
+Worker Registration Payroll Calculation,Algorithm,Medium,Phone screen,New grad,1,,2026-05,https://trueinterview.io/questions/c7dcf405-b5b0-405d-9164-b770da49caa0
+"Event Logger with batching, fsync, and group commit follow-ups",System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-04,https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9
+Double Circuit Breaker for server calls (lambda returns success/failure),Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-04,https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8
+Describe Your Most Complex Project,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-03,https://trueinterview.io/questions/describe-your-most-complex-project
+Describe surprising project learnings,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-03,https://trueinterview.io/questions/describe-surprising-project-learnings
+Design and Implement an In-Memory KV Store (API + Optional Extensions),Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-03,https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8
+File Crawler,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-03,https://trueinterview.io/questions/868c0ea1-62d7-4555-aeb2-7d9033aebbe5
+Hangman Optimal Strategy,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-03,https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252
+Design a recursive distributed file crawler,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-01-25,https://trueinterview.io/questions/design-a-recursive-distributed-file-crawler
+API Design for Long Running Requests,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2025-11,https://trueinterview.io/questions/ea7d38db-f5ac-4619-b82f-c7d0228d01ca
+Tetris-like Block Drop Simulation,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-11,https://trueinterview.io/questions/02df0747-8a69-4a01-9098-10ef7070a1a6
+Simulate a File System with Access Control,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2025-11,https://trueinterview.io/questions/f0867d5b-4d3f-4ff4-9af3-0c7f8b8160ca
+Word Guessing Feedback,Algorithm,Easy,Online assessment,Senior,1,,2025-11,https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565
+Run org-safe online experiment for recommender,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/run-org-safe-online-experiment-for-recommender
+Review checkout code for defects and privacy,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/review-checkout-code-for-defects-and-privacy
+Explain a project with measurable impact,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/explain-a-project-with-measurable-impact
+Answer rapid-fire leadership checklist,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/answer-rapid-fire-leadership-checklist
+Compute max island with constrained flips,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/compute-max-island-with-constrained-flips
+Shortest Path with Uniform Walking Method,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/374ea0b3-6ad5-4d15-a6a4-bfd7a92db739

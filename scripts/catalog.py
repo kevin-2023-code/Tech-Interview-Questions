@@ -91,6 +91,19 @@ class Question:
     url: str
     added_at: str | None
     added_date: date | None
+    #: Seniority rungs it was reported at, lowest first (``intern`` … ``manager``).
+    #: Empty when the catalog has not classified it, which is not "every level".
+    seniority: tuple[str, ...] = ()
+    #: The API's ``lastReported`` month (``YYYY-MM``) exactly as sent, kept for the
+    #: data exports. ``reported`` above is already the later of the two.
+    last_reported: str | None = None
+    #: The question's own sighting date as the API sent it (``reported`` there),
+    #: before it was compared with ``lastReported``.
+    first_reported: str | None = None
+    #: Interview write-ups from the past 12 months that name the question — the
+    #: site's own counter. ``None`` when the API did not send one (an older API
+    #: version, or a count it could not read), which is never the same as zero.
+    report_count: int | None = None
 
 
 def parse_catalog_date(value: str | None) -> tuple[date | None, bool]:
@@ -118,6 +131,32 @@ def parse_catalog_date(value: str | None) -> tuple[date | None, bool]:
     except (ValueError, IndexError):
         return None, False
     return None, False
+
+
+#: The site's seniority ladder, lowest first. A value off the ladder is dropped
+#: rather than printed: the level column only ever shows a rung the site has.
+SENIORITY_ORDER: tuple[str, ...] = ("intern", "new-grad", "junior", "senior", "staff-plus", "manager")
+
+
+def latest_sighting(reported: str | None, last_reported: str | None) -> tuple[str | None, date | None, bool]:
+    """The most recent report the catalog knows of: ``(text, date, month_only)``.
+
+    The API sends two dates. ``reported`` is the question's own sighting, to the
+    day when the day is known. ``lastReported`` is a month: the later of that
+    and the newest interview write-up naming the question, which is the date
+    the question's page prints. The later MONTH wins; inside the same month the
+    day-precise ``reported`` is kept, because it says more and claims no more.
+    A month that wins is printed as a month — nobody reported a day.
+    """
+    reported_date, month_only = parse_catalog_date(reported)
+    last_date, _ = parse_catalog_date(last_reported if last_reported and len(last_reported.strip()) == 7 else None)
+    if last_date is not None and (
+        reported_date is None or (last_date.year, last_date.month) > (reported_date.year, reported_date.month)
+    ):
+        return last_reported.strip(), last_date, True  # type: ignore[union-attr]
+    if reported_date is None:
+        return None, None, False
+    return reported, reported_date, month_only
 
 
 @dataclass(frozen=True)
@@ -172,8 +211,12 @@ def question_from_payload(item: dict[str, Any]) -> Question:
     if difficulty is not None and difficulty not in ("easy", "medium", "hard"):
         raise CatalogError(f"catalog row {slug} has unsupported difficulty {difficulty!r}")
 
-    reported = item.get("reported") if isinstance(item.get("reported"), str) else None
-    reported_date, month_only = parse_catalog_date(reported)
+    first_reported = item.get("reported") if isinstance(item.get("reported"), str) else None
+    last_reported = item.get("lastReported") if isinstance(item.get("lastReported"), str) else None
+    reported, reported_date, month_only = latest_sighting(first_reported, last_reported)
+    report_count = item.get("reportCount")
+    if isinstance(report_count, bool) or not isinstance(report_count, int) or report_count < 0:
+        report_count = None
     added_at = item.get("addedAt") if isinstance(item.get("addedAt"), str) else None
     added_date, _ = parse_catalog_date(added_at)
 
@@ -202,6 +245,10 @@ def question_from_payload(item: dict[str, Any]) -> Question:
         url=url,
         added_at=added_at,
         added_date=added_date,
+        seniority=tuple(level for level in SENIORITY_ORDER if level in _str_list(item.get("seniority"))),
+        last_reported=last_reported,
+        first_reported=first_reported,
+        report_count=report_count,
     )
 
 
@@ -451,7 +498,10 @@ def snapshot(catalog: "Catalog", source: str) -> dict[str, Any]:
                 "topics": list(q.topics),
                 "tags": list(q.tags),
                 "rounds": list(q.rounds),
-                "reported": q.reported,
+                "seniority": list(q.seniority),
+                "reported": q.first_reported,
+                "lastReported": q.last_reported,
+                "reportCount": q.report_count,
                 "hasSolution": q.has_solution,
                 "accessTier": q.access_tier,
                 "url": q.url,

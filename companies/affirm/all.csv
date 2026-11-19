@@ -1,19 +1,19 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Find Redeemable Offers,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-08-12,https://trueinterview.io/questions/find-redeemable-offers
-Aggregate Recent Transactions,Algorithm,Medium,Phone screen,1,2026-08-07,https://trueinterview.io/questions/aggregate-recent-transactions
-Group Loans by Top-Level Company,Object Oriented Programming,Medium,Phone screen,1,2026-08-06,https://trueinterview.io/questions/group-loans-by-top-level-company
-Live Fraud Detector,Algorithm,Easy,Phone screen; Onsite / virtual onsite,1,2026-08-01,https://trueinterview.io/questions/live-fraud-detector
-Evaluate String Expression,Algorithm,Medium,Onsite / virtual onsite,3,2026-06-10,https://trueinterview.io/questions/nested-function-expression-evaluator
-Design Installment-Loan Payment Processing,System Design,Medium,Phone screen,1,2026-04-19,https://trueinterview.io/questions/design-installment-loan-payment-processing
-Detect Fraud by Propagating Suspicious PII,Algorithm,Medium,Phone screen,1,2026-04-19,https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii
-Describe your highest-impact project,Blog,,Phone screen,1,2026-03-07,https://trueinterview.io/questions/describe-your-highest-impact-project
-Design Payment System,System Design,Hard,Onsite / virtual onsite,10,2025-12-10,https://trueinterview.io/questions/payment-platform-design
-Design An Account Takeover Detection System,System Design,Hard,Onsite / virtual onsite,5,2025-10-26,https://trueinterview.io/questions/account-takeover-prediction-system
-Design Card Game,Object Oriented Programming,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/design-card-game
-Sum of Islands Max,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/sum-of-islands-max
-Prefix to Postfix,Algorithm,Medium,Online assessment,1,,https://trueinterview.io/questions/prefix-to-postfix
-Persistent Stack,Object Oriented Programming,Medium,Phone screen,1,,https://trueinterview.io/questions/persistent-stack
-High Correlation Seller,Algorithm,Easy,Phone screen,1,,https://trueinterview.io/questions/high-correlation-seller
-End Of Day Balance,Algorithm,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/end-of-day-balance
-Count Reversing Triples,Algorithm,Medium,Online assessment,1,,https://trueinterview.io/questions/count-reversing-triples
-Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object Oriented Programming,Medium,Onsite / virtual onsite,10,,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c
+Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/payment-platform-design
+Find Redeemable Offers,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Senior,1,,2026-08-12,https://trueinterview.io/questions/find-redeemable-offers
+Aggregate Recent Transactions,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-08-07,https://trueinterview.io/questions/aggregate-recent-transactions
+Group Loans by Top-Level Company,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-08-06,https://trueinterview.io/questions/group-loans-by-top-level-company
+Describe your highest-impact project,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,2026-08,https://trueinterview.io/questions/describe-your-highest-impact-project
+Design Card Game,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,2,,2026-08,https://trueinterview.io/questions/design-card-game
+Live Fraud Detector,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-08-01,https://trueinterview.io/questions/live-fraud-detector
+Evaluate String Expression,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-06-10,https://trueinterview.io/questions/nested-function-expression-evaluator
+Design An Account Takeover Detection System,System Design,Hard,Onsite / virtual onsite,Junior / Mid,5,,2026-05,https://trueinterview.io/questions/account-takeover-prediction-system
+Design Installment-Loan Payment Processing,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-04-19,https://trueinterview.io/questions/design-installment-loan-payment-processing
+Detect Fraud by Propagating Suspicious PII,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-04-19,https://trueinterview.io/questions/detect-fraud-by-propagating-suspicious-pii
+Sum of Islands Max,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/sum-of-islands-max
+Prefix to Postfix,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/prefix-to-postfix
+Persistent Stack,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/persistent-stack
+High Correlation Seller,Algorithm,Easy,Phone screen,New grad; Junior / Mid,1,,,https://trueinterview.io/questions/high-correlation-seller
+End Of Day Balance,Algorithm,Easy,Onsite / virtual onsite,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/end-of-day-balance
+Count Reversing Triples,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/count-reversing-triples

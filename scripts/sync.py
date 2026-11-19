@@ -45,6 +45,8 @@ README_TEMPLATE = ROOT / "README.md"
 GENERATED_DIRS = (
     "companies",
     "data",
+    "formats",
+    "latest",
     "questions",
 )
 
@@ -190,6 +192,8 @@ def main() -> int:
     summary = (
         f"{stats['questions']:,} questions · {stats['companies']} companies · "
         f"{stats['undated']:,} undated · "
+        f"{stats['new_this_week']:,} new this week · {stats['reported_past_year']:,} reported in the past year · "
+        + ("" if stats["report_counts"] else "no report counts in this snapshot · ")
         + " · ".join(f"{count:,} in {stem}" for stem, count in windows.items())  # type: ignore[union-attr]
         + " · "
         + (

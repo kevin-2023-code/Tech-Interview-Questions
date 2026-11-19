@@ -1,10 +1,11 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Implement Reduce and Derive Map and Filter from It,Object Oriented Programming,Medium,Phone screen,1,2026-09-13,https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it
-Design a Content Delivery Network,System Design,Hard,Phone screen,1,2026-09-04,https://trueinterview.io/questions/design-a-content-delivery-network
-Handle API Errors with Python Requests,Object Oriented Programming,Medium,Phone screen,1,2026-09-04,https://trueinterview.io/questions/handle-api-errors-with-python-requests
-Use Metrics and Logs to Establish a Production Root Cause,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause
-Investigate Recurring Bugs and Prevent the Same Failure from Returning,Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/investigate-recurring-bugs-and-prevent-the-same-failure-from-returning
-"Discuss Distributed-System Experience with Go, Java, Spark, and Elasticsearch",Blog,,Phone screen,1,2026-09-01,https://trueinterview.io/questions/discuss-distributed-system-experience-with-go-java-spark-and-elasticsearch
-"Balance Backend Availability, Maintainability, and Scalability",System Design,Medium,Phone screen,1,2026-09-01,https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability
-Design an Order Fulfillment System,System Design,Hard,Onsite / virtual onsite,1,2026-08-24,https://trueinterview.io/questions/design-an-order-fulfillment-system
-Design a Video Sharing Platform,System Design,Hard,Onsite / virtual onsite,1,2026-08-24,https://trueinterview.io/questions/design-a-video-sharing-platform
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Implement Reduce and Derive Map and Filter from It,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09-13,https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it
+Design a Content Delivery Network,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-09-04,https://trueinterview.io/questions/design-a-content-delivery-network
+Handle API Errors with Python Requests,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09-04,https://trueinterview.io/questions/handle-api-errors-with-python-requests
+Use Metrics and Logs to Establish a Production Root Cause,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/use-metrics-and-logs-to-establish-a-production-root-cause
+Investigate Recurring Bugs and Prevent the Same Failure from Returning,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/investigate-recurring-bugs-and-prevent-the-same-failure-from-returning
+"Discuss Distributed-System Experience with Go, Java, Spark, and Elasticsearch",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/discuss-distributed-system-experience-with-go-java-spark-and-elasticsearch
+"Balance Backend Availability, Maintainability, and Scalability",System Design,Medium,Phone screen,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability
+Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
+Design an Order Fulfillment System,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-24,https://trueinterview.io/questions/design-an-order-fulfillment-system
+Design a Video Sharing Platform,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-24,https://trueinterview.io/questions/design-a-video-sharing-platform

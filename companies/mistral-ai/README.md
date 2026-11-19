@@ -6,19 +6,19 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (7) · [last 6 months](six-months.csv) (7) · [all](all.csv) (9)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline) | Blog | — | Phone screen | 1 | 2026-09-01 |
-| [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models) | Blog | — | Phone screen | 1 | 2026-09-01 |
-| [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism) | Blog | — | Phone screen | 1 | 2026-09-01 |
-| [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay) | Blog | — | Phone screen | 1 | 2026-09-01 |
-| [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism) | Blog | — | Phone screen | 1 | 2026-09-01 |
-| [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks) | Blog | — | Phone screen | 1 | 2026-09-01 |
-| [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization) | Blog | — | Phone screen | 1 | 2026-09-01 |
-| [Design a PDF-to-Markdown Inference API](../../questions/system-design/design-a-pdf-to-markdown-inference-api/README.md) | System Design | Hard | Phone screen | 1 | 2026-04-16 |
-| [Compute Remaining GPUs With Switching Limits](../../questions/algorithm/compute-remaining-gpus-with-switching-limits/README.md) | Algorithm | Hard | Phone screen | 1 | 2026-04-16 |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Keep GPUs Fed with an Efficient Data-Preparation Pipeline](https://trueinterview.io/questions/keep-gpus-fed-with-an-efficient-data-preparation-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-09-01 |
+| [Explain the Forward and Reverse Processes of Diffusion Models](https://trueinterview.io/questions/explain-the-forward-and-reverse-processes-of-diffusion-models?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-09-01 |
+| [Explain Mixture of Experts and Expert Parallelism](https://trueinterview.io/questions/explain-mixture-of-experts-and-expert-parallelism?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-09-01 |
+| [Explain Adam, AdamW, and Decoupled Weight Decay](https://trueinterview.io/questions/explain-adam-adamw-and-decoupled-weight-decay?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-09-01 |
+| [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/questions/compare-tensor-parallelism-and-pipeline-parallelism?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-09-01 |
+| [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/questions/compare-rmsnorm-and-layernorm-in-transformer-blocks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-09-01 |
+| [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/questions/compare-reward-model-rlhf-and-direct-preference-optimization?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-09-01 |
+| [Design a PDF-to-Markdown Inference API](../../questions/system-design/design-a-pdf-to-markdown-inference-api/README.md) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | 2026-04-16 |
+| [Compute Remaining GPUs With Switching Limits](../../questions/algorithm/compute-remaining-gpus-with-switching-limits/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-04-16 |
 
 ---
 

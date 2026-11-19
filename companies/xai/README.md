@@ -4,54 +4,54 @@
 
 42 questions reported at xAI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (8) · [all](all.csv) (42)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (8) · [last 6 months](six-months.csv) (12) · [all](all.csv) (42)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-09-15 |
-| [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-09-15 |
-| [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-09-15 |
-| [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-09-15 |
-| [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Medium | Phone screen | 1 | 2026-07-22 |
-| [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai) | Blog | — | Phone screen | 1 | 2026-06-19 |
-| [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-06-11 |
-| [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | Phone screen, Onsite / virtual onsite | 4 | 2026-05-26 |
-| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 14 | 2026-05 |
-| [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Onsite / virtual onsite | 13 | 2026-04-12 |
-| [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-04-04 |
-| [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | AI Coding | Hard | Phone screen | 1 | 2026-04-04 |
-| [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-04-02 |
-| [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Object Oriented Programming | Hard | Online assessment, Take-home | 1 | 2026-04-01 |
-| [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Onsite / virtual onsite | 5 | 2026-04-01 |
-| [Nested Structure Flatten and Unflatten](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) | Algorithm | Medium | Phone screen | 1 | 2026-02-26 |
-| [Answer technical-challenge and motivation questions](https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions) | Blog | — | Online assessment | 1 | 2026-02-07 |
-| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Phone screen | 10 | 2026-02-01 |
-| [Agentic Workflow for 1-Hour Movie Generation](https://trueinterview.io/questions/agentic-one-hour-movie-generation) | System Design | Medium | Phone screen | 1 | 2026-01-29 |
-| [Rate Limiter — Inbound + Outbound](https://trueinterview.io/questions/rate-limiter-design) | System Design | Medium | Take-home, Onsite / virtual onsite | 1 | 2026-01-28 |
-| [Twitter Insight Platform](https://trueinterview.io/questions/twitter-insight-platform-take-home) | AI Coding | Hard | Online assessment, Take-home | 1 | 2026-01-28 |
-| [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal) | Blog | — | Phone screen | 1 | 2026-01-27 |
-| [Checkers Game](https://trueinterview.io/questions/checkers-backend-design) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-01-26 |
-| [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-01-26 |
-| [Design a schema for server engagement](https://trueinterview.io/questions/design-a-schema-for-server-engagement) | SQL | Medium | Phone screen | 1 | 2026-01-17 |
-| [Implement two string utility functions](https://trueinterview.io/questions/implement-two-string-utility-functions) | Algorithm | Easy | Phone screen | 1 | 2026-01-17 |
-| [Multithreaded Array Sort](https://trueinterview.io/questions/parallel-integer-sort) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-01-15 |
-| [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations) | Algorithm | Medium | Phone screen | 1 | 2026-01-15 |
-| [K-th Element on a Streaming Time Window](https://trueinterview.io/questions/kth-element-streaming-window) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-01-14 |
-| [Dynamic Batch Inference](https://trueinterview.io/questions/dynamic-batch-inference) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-12-14 |
-| [Find Bad GPU Nodes](https://trueinterview.io/questions/group-test-gpu-nodes) | Algorithm | Hard | Phone screen | 1 | 2025-12-14 |
-| [How Would You Prevent Hallucinations in an LLM-Based System?](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system) | Blog | — | Phone screen | 1 | 2025-11-21 |
-| [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | — |
-| [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Object Oriented Programming | Hard | Onsite / virtual onsite | 2 | — |
-| [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
-| [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | System Design | Easy | Onsite / virtual onsite | 3 | — |
-| [Radix Cache](https://trueinterview.io/questions/radix-cache) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
-| [Durable KV Cache](https://trueinterview.io/questions/durable-kv-cache) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
-| [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
-| [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac) | Algorithm | Medium | Phone screen | 1 | — |
-| [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | System Design | Medium | Onsite / virtual onsite | 1 | — |
-| [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas) | System Design | Easy | Onsite / virtual onsite | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Intern, New grad, Junior / Mid, Senior | 10 | 2026-10 |
+| [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2026-10 |
+| [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Senior | 4 | 2026-10 |
+| [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-09-15 |
+| [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-09-15 |
+| [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-09-15 |
+| [Design a Collaborative Document Editor](https://trueinterview.io/questions/design-a-collaborative-document-editor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-09-15 |
+| [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Junior / Mid, Senior, Staff+, Manager | 13 | 2026-09 |
+| [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 14 | 2026-08 |
+| [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-07-22 |
+| [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-06-19 |
+| [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Intern, Junior / Mid | 2 | 2026-06 |
+| [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 2026-04-04 |
+| [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Phone screen | Junior / Mid | 1 | 2026-04-04 |
+| [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Senior | 1 | 2026-04-02 |
+| [Answer technical-challenge and motivation questions](https://trueinterview.io/questions/answer-technical-challenge-and-motivation-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Online assessment | Senior | 1 | 2026-04 |
+| [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Online assessment, Take-home | New grad, Junior / Mid, Senior | 1 | 2026-04-01 |
+| [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-04 |
+| [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-04 |
+| [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 5 | 2026-04-01 |
+| [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Senior | 3 | 2026-03 |
+| [Nested Structure Flatten and Unflatten](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-02-26 |
+| [Agentic Workflow for 1-Hour Movie Generation](https://trueinterview.io/questions/agentic-one-hour-movie-generation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen | Senior | 1 | 2026-01-29 |
+| [Rate Limiter — Inbound + Outbound](https://trueinterview.io/questions/rate-limiter-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Take-home, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-01-28 |
+| [Twitter Insight Platform](https://trueinterview.io/questions/twitter-insight-platform-take-home?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Online assessment, Take-home | Junior / Mid, Senior | 1 | 2026-01-28 |
+| [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2026-01-27 |
+| [Checkers Game](https://trueinterview.io/questions/checkers-backend-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-01-26 |
+| [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 2026-01-26 |
+| [Design a schema for server engagement](https://trueinterview.io/questions/design-a-schema-for-server-engagement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-01-17 |
+| [Implement two string utility functions](https://trueinterview.io/questions/implement-two-string-utility-functions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Phone screen | New grad, Junior / Mid | 1 | 2026-01-17 |
+| [Multithreaded Array Sort](https://trueinterview.io/questions/parallel-integer-sort?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-01-15 |
+| [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-01-15 |
+| [K-th Element on a Streaming Time Window](https://trueinterview.io/questions/kth-element-streaming-window?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 2026-01-14 |
+| [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 2026-01 |
+| [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-01 |
+| [Dynamic Batch Inference](https://trueinterview.io/questions/dynamic-batch-inference?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Senior | 1 | 2025-12-14 |
+| [Find Bad GPU Nodes](https://trueinterview.io/questions/group-test-gpu-nodes?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Senior | 1 | 2025-12-14 |
+| [How Would You Prevent Hallucinations in an LLM-Based System?](https://trueinterview.io/questions/how-would-you-prevent-hallucinations-in-an-llm-based-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2025-11-21 |
+| [N-gram Split](https://trueinterview.io/questions/n-gram-split-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 2 | — |
+| [Radix Cache](https://trueinterview.io/questions/radix-cache?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
+| [Durable KV Cache](https://trueinterview.io/questions/durable-kv-cache?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 1 | — |
+| [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
 
 ---
 

@@ -1,1 +1,8 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Search Words and Phrases in a Large Line-Oriented File,System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/search-words-and-phrases-in-a-large-line-oriented-file
+O(1) Key-Value Store with Average and Max Retrieval,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/f6664ca5-9a30-4110-a9b2-5d15940d61f2
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/design-tinyurl
+Durable Key-Value Store Serialization,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-08,https://trueinterview.io/questions/durable-key-value-store-serialization
+Design an LRU Cache with a Constant-Time Average,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-07,https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average
+Tail N Lines,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417
+Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,,2026-07,https://trueinterview.io/questions/design-news-feed

@@ -108,14 +108,25 @@ COMPANY_LABELS: dict[str, str] = {
 # Practice formats, in the order every navigation block prints them. The order is
 # the catalog's own shelf order rather than a count ranking, so the nav does not
 # reshuffle itself between syncs as counts move past each other.
-FORMAT_ORDER: tuple[str, ...] = ("algorithm", "sql", "system-design", "low-level-design", "ai-coding")
+FORMAT_ORDER: tuple[str, ...] = (
+    "algorithm",
+    "sql",
+    "system-design",
+    "object-oriented-programming",
+    "low-level-design",
+    "ai-coding",
+)
 
 FORMAT_LABELS: dict[str, str] = {
     "algorithm": "Algorithm",
     "sql": "SQL",
     "system-design": "System Design",
     "low-level-design": "Low-Level Design",
+    "object-oriented-programming": "Object-Oriented Programming",
     "ai-coding": "AI Coding",
+    # A `blog` row in the question list is a no-code practice question
+    # (behavioural, knowledge), answered in prose. Articles are not in that list.
+    "blog": "Behavioral / Knowledge",
 }
 
 #: The formats a submission is JUDGED on, as opposed to opened in. Algorithm and
@@ -186,3 +197,32 @@ ROUND_LABELS: dict[str, str] = {
 
 def round_label(value: str) -> str:
     return ROUND_LABELS.get(value, titleize(value))
+
+
+#: The short round names a narrow index table can afford. The long ones above
+#: stay on the company pages, where the column has room.
+ROUND_SHORT_LABELS: dict[str, str] = {
+    "oa": "OA",
+    "phone-screen": "Phone screen",
+    "onsite": "Onsite",
+    "take-home": "Take-home",
+}
+
+
+def round_short_label(value: str) -> str:
+    return ROUND_SHORT_LABELS.get(value, titleize(value))
+
+
+#: The site's seniority rungs, with the words its own filters use.
+LEVEL_LABELS: dict[str, str] = {
+    "intern": "Intern",
+    "new-grad": "New grad",
+    "junior": "Junior / Mid",
+    "senior": "Senior",
+    "staff-plus": "Staff+",
+    "manager": "Manager",
+}
+
+
+def level_label(value: str) -> str:
+    return LEVEL_LABELS.get(value, titleize(value))

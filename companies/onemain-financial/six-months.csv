@@ -1,1 +1,2 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Implement an LRU cache with O(1) ops,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,5,,2026-06,https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops

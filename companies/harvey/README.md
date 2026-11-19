@@ -4,35 +4,35 @@
 
 23 questions reported at Harvey, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (11) · [all](all.csv) (23)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (13) · [all](all.csv) (23)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-15 |
-| [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-09-01 |
-| [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-01 |
-| [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-09-01 |
-| [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-08-09 |
-| [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-07-07 |
-| [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral) | Blog | — | Onsite / virtual onsite | 1 | 2026-07-02 |
-| [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-07 |
-| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | 1 | 2026-07 |
-| [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Phone screen | 3 | 2026-06-15 |
-| [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | AI Coding | Medium | Onsite / virtual onsite | 1 | 2026-06-11 |
-| [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | 2026-04-30 |
-| [Design a Cloud File Storage Service](https://trueinterview.io/questions/design-a-cloud-file-storage-service-2) | System Design | Hard | Phone screen | 1 | 2026-04-12 |
-| [Describe Leading a Technical Project](https://trueinterview.io/questions/describe-leading-a-technical-project) | Blog | — | Phone screen | 1 | 2026-04-12 |
-| [Implement a Hierarchical File System](https://trueinterview.io/questions/implement-a-hierarchical-file-system) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-04-12 |
-| [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-04 |
-| [Resolve conflict across teams](https://trueinterview.io/questions/resolve-conflict-across-teams) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-18 |
-| [Implement tag matcher and filesystem](https://trueinterview.io/questions/implement-tag-matcher-and-filesystem) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-02-18 |
-| [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Citation Problem](https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e) | Algorithm | Easy | Online assessment | 1 | — |
-| [Word Level Match and Tagging](https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce) | Algorithm | Medium | Phone screen | 1 | — |
-| [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2) | Algorithm | Medium | Phone screen | 1 | — |
-| [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9) | Algorithm | Medium | Phone screen | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-09-15 |
+| [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Junior / Mid | 1 | 2026-09-01 |
+| [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-09-01 |
+| [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Senior | 1 | 2026-09-01 |
+| [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-08-09 |
+| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-08 |
+| [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07-07 |
+| [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07-02 |
+| [Citation Problem](https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid, Senior | 1 | 2026-07 |
+| [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-07 |
+| [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-07 |
+| [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 3 | 2026-06-15 |
+| [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Senior | 1 | 2026-06-11 |
+| [Implement a Hierarchical File System](https://trueinterview.io/questions/implement-a-hierarchical-file-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-05 |
+| [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-05 |
+| [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 2026-04-30 |
+| [Design a Cloud File Storage Service](https://trueinterview.io/questions/design-a-cloud-file-storage-service-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior | 1 | 2026-04-12 |
+| [Describe Leading a Technical Project](https://trueinterview.io/questions/describe-leading-a-technical-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2026-04-12 |
+| [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-04 |
+| [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04 |
+| [Resolve conflict across teams](https://trueinterview.io/questions/resolve-conflict-across-teams?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-03 |
+| [Implement tag matcher and filesystem](https://trueinterview.io/questions/implement-tag-matcher-and-filesystem?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-03 |
+| [Word Level Match and Tagging](https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03 |
 
 ---
 

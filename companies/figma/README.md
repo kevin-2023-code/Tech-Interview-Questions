@@ -4,41 +4,41 @@
 
 29 questions reported at Figma, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (10) · [all](all.csv) (29)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (15) · [all](all.csv) (29)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Clarify a BERT Keyphrase Span-Extraction Task](https://trueinterview.io/questions/clarify-a-bert-keyphrase-span-extraction-task) | Blog | — | Phone screen | 1 | 2026-08-25 |
-| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-08-12 |
-| [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | Easy | Onsite / virtual onsite | 1 | 2026-08-12 |
-| [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-08-12 |
-| [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-08-12 |
-| [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral) | Blog | — | Onsite / virtual onsite | 1 | 2026-08-12 |
-| [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-08-04 |
-| [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | 3 | 2026-08-04 |
-| [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-07-09 |
-| [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-07-06 |
-| [Template String Formatter II](https://trueinterview.io/questions/template-string-formatter-ii) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-05-14 |
-| [File System Permissions](https://trueinterview.io/questions/file-system-permissions) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-05-14 |
-| [ML Model Design — Prompt-to-Design Generation](https://trueinterview.io/questions/prompt-to-design-generation) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-13 |
-| [Asset / Template Recommendation & Feed](https://trueinterview.io/questions/ml-recsys-assets-feed) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-13 |
-| [Describe your most and least engaging work](https://trueinterview.io/questions/describe-your-most-and-least-engaging-work) | Blog | — | Phone screen | 1 | 2026-04-09 |
-| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-03-30 |
-| [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Onsite / virtual onsite | 2 | 2026-03-24 |
-| [Data Engineer Screen — SQL Collaborator Model + IPv4 Validation](https://trueinterview.io/questions/data-engineer-sql-collaborator-ip-validation) | Algorithm | Medium | Phone screen | 1 | 2026-03-03 |
-| [Write SQL for first share and closest collaborator](https://trueinterview.io/questions/write-sql-for-first-share-and-closest-collaborator) | SQL | Hard | Phone screen | 1 | 2026-01-20 |
-| [Validate an IPv4 address string](https://trueinterview.io/questions/validate-an-ipv4-address-string) | Algorithm | Medium | Phone screen | 1 | 2026-01-20 |
-| [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/questions/deep-dive-url-request-lifecycle) | Blog | — | Onsite / virtual onsite | 1 | 2025-02-01 |
-| [BERT Span / Keyphrase Extraction](https://trueinterview.io/questions/bert-keyphrase-span-extraction) | AI Coding | Medium | Phone screen | 1 | 2024-12-24 |
-| [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | System Design | Medium | Onsite / virtual onsite | 1 | 2024-05-28 |
-| [Negotiate Figma compensation analytically](https://trueinterview.io/questions/negotiate-figma-compensation-analytically) | Blog | — | Phone screen | 1 | — |
-| [Deliver a crisp self-introduction](https://trueinterview.io/questions/deliver-a-crisp-self-introduction) | Blog | — | Phone screen | 1 | — |
-| [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | Onsite / virtual onsite | 4 | — |
-| [Path Existence in Directed and Undirected Graphs with a Blocked Edge](https://trueinterview.io/questions/e7f7ba6c-551c-5ef7-9ccc-04f30e4aa149) | Algorithm | Medium | Phone screen | 1 | — |
-| [Validate INDENT/DEDENT Token Sequence](https://trueinterview.io/questions/c9e11307-d41a-5d23-8371-436987ec6541) | Algorithm | Easy | Online assessment | 1 | — |
-| [Display Sort](https://trueinterview.io/questions/bd0ea67e-c112-509d-9f77-688c4ae97445) | Algorithm | Hard | Phone screen | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Hiring Manager Behavioral](https://trueinterview.io/questions/hiring-manager-behavioral?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-10 |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior, Staff+ | 16 | 2026-09 |
+| [Clarify a BERT Keyphrase Span-Extraction Task](https://trueinterview.io/questions/clarify-a-bert-keyphrase-span-extraction-task?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-08-25 |
+| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-08-12 |
+| [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-08-12 |
+| [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-08-12 |
+| [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-08-12 |
+| [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-08-04 |
+| [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 3 | 2026-08-04 |
+| [Validate INDENT/DEDENT Token Sequence](https://trueinterview.io/questions/c9e11307-d41a-5d23-8371-436987ec6541?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Senior | 1 | 2026-08 |
+| [Display Sort](https://trueinterview.io/questions/bd0ea67e-c112-509d-9f77-688c4ae97445?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-08 |
+| [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07-09 |
+| [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07-06 |
+| [Path Existence in Directed and Undirected Graphs with a Blocked Edge](https://trueinterview.io/questions/e7f7ba6c-551c-5ef7-9ccc-04f30e4aa149?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-07 |
+| [File System Permissions](https://trueinterview.io/questions/file-system-permissions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07 |
+| [Template String Formatter II](https://trueinterview.io/questions/template-string-formatter-ii?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-05-14 |
+| [ML Model Design — Prompt-to-Design Generation](https://trueinterview.io/questions/prompt-to-design-generation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-04-13 |
+| [Asset / Template Recommendation & Feed](https://trueinterview.io/questions/ml-recsys-assets-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-04-13 |
+| [Describe your most and least engaging work](https://trueinterview.io/questions/describe-your-most-and-least-engaging-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Manager | 1 | 2026-04-09 |
+| [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 4 | 2026-04 |
+| [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 2 | 2026-03-24 |
+| [Data Engineer Screen — SQL Collaborator Model + IPv4 Validation](https://trueinterview.io/questions/data-engineer-sql-collaborator-ip-validation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03-03 |
+| [Write SQL for first share and closest collaborator](https://trueinterview.io/questions/write-sql-for-first-share-and-closest-collaborator?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | SQL | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-01-20 |
+| [Validate an IPv4 address string](https://trueinterview.io/questions/validate-an-ipv4-address-string?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-01-20 |
+| [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/questions/deep-dive-url-request-lifecycle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 2025-02-01 |
+| [BERT Span / Keyphrase Extraction](https://trueinterview.io/questions/bert-keyphrase-span-extraction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen | Junior / Mid | 1 | 2024-12-24 |
+| [Deliver a crisp self-introduction](https://trueinterview.io/questions/deliver-a-crisp-self-introduction?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2024-10 |
+| [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2024-05-28 |
+| [Negotiate Figma compensation analytically](https://trueinterview.io/questions/negotiate-figma-compensation-analytically?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
 
 ---
 

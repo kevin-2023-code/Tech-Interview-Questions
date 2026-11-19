@@ -1,11 +1,20 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-"Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways",Blog,,Phone screen,1,2026-09-17,https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways
-Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,3,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
-Implement and Explain a C++ Smart Pointer,Object Oriented Programming,Hard,Phone screen,1,2026-08-19,https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer
-Design an Autonomous-Vehicle Perception Pipeline,System Design,Hard,Phone screen,1,2026-08-19,https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline
-"Data Platform, Pipeline, and ML Operations Fundamentals",System Design,Medium,Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals
-Telemetry Collector and GPU Utilization Dashboard,System Design,Medium,Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard
-LLM SQL Chatbot Access Control and Query Safety,System Design,Medium,Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety
-Hardware-Adjacent Project Deep Dive,Blog,,Phone screen; Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/hardware-adjacent-project-deep-dive
-"Culture Fit, Motivation, and Learning Habits",Blog,,Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits
-HPC Host Control Plane and Job Coordination,System Design,Hard,Phone screen,1,2026-06-30,https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways",Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-17,https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways
+Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/three-sum
+Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,,2026-09,https://trueinterview.io/questions/valid-parentheses
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,3,,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
+Implement and Explain a C++ Smart Pointer,Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,,2026-08-19,https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer
+Design an Autonomous-Vehicle Perception Pipeline,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-08-19,https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline
+Return Unique Three-Sum Value Triples,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-08,https://trueinterview.io/questions/return-unique-three-sum-value-triples
+3Sum Variant: Find Unique Triplets Summing to Target,Algorithm,Medium,Phone screen,Junior / Mid,3,,2026-08,https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Remove Duplicates from Sorted Array,Algorithm,Easy,Online assessment,New grad; Junior / Mid,4,,2026-08,https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+"Data Platform, Pipeline, and ML Operations Fundamentals",System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07-03,https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals
+Telemetry Collector and GPU Utilization Dashboard,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07-03,https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard
+LLM SQL Chatbot Access Control and Query Safety,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07-03,https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety
+Hardware-Adjacent Project Deep Dive,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-03,https://trueinterview.io/questions/hardware-adjacent-project-deep-dive
+"Culture Fit, Motivation, and Learning Habits",Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-07-03,https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits
+HPC Host Control Plane and Job Coordination,System Design,Hard,Phone screen,Senior,1,,2026-06-30,https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination
+Maximum on Both Sides,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,,2026-06,https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998

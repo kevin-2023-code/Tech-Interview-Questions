@@ -1,54 +1,54 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-"Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways",Blog,,Phone screen,1,2026-09-17,https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways
-Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,3,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
-Implement and Explain a C++ Smart Pointer,Object Oriented Programming,Hard,Phone screen,1,2026-08-19,https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer
-Design an Autonomous-Vehicle Perception Pipeline,System Design,Hard,Phone screen,1,2026-08-19,https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline
-"Data Platform, Pipeline, and ML Operations Fundamentals",System Design,Medium,Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals
-Telemetry Collector and GPU Utilization Dashboard,System Design,Medium,Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard
-LLM SQL Chatbot Access Control and Query Safety,System Design,Medium,Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety
-Hardware-Adjacent Project Deep Dive,Blog,,Phone screen; Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/hardware-adjacent-project-deep-dive
-"Culture Fit, Motivation, and Learning Habits",Blog,,Onsite / virtual onsite,1,2026-07-03,https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits
-HPC Host Control Plane and Job Coordination,System Design,Hard,Phone screen,1,2026-06-30,https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination
-Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,14,2026-05,https://trueinterview.io/questions/sliding-window-rate-limiter
-String Encoding / Decoding Variants,Algorithm,Easy,Phone screen; Onsite / virtual onsite,1,2026-04-26,https://trueinterview.io/questions/string-encoding-decoding
-Disk Space Manager / KV Store with setAll,Object Oriented Programming,Medium,Phone screen,1,2026-04-15,https://trueinterview.io/questions/storage-manager-and-kv-setall
-2-D Matrix Transpose with Memory-Layout Discussion,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-04-15,https://trueinterview.io/questions/matrix-transpose-memory-layout
-Real-Time Fraud Detection System,System Design,Hard,Onsite / virtual onsite,1,2026-03-25,https://trueinterview.io/questions/real-time-fraud-detection-system
-Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,11,2026-03-06,https://trueinterview.io/questions/longest-substring-without-repeating-characters
-Return all file paths via DFS,Algorithm,Medium,Phone screen,1,2026-03-04,https://trueinterview.io/questions/return-all-file-paths-via-dfs
-C++ Project Debugging with AI Tools,AI Coding,Hard,Onsite / virtual onsite,1,2026-02-12,https://trueinterview.io/questions/cpp-debugging-with-ai-tools
-Computation / Dependency Graph Validation and Pruning,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-02-12,https://trueinterview.io/questions/graph-validation-and-pruning
-FP32 Tensor to Int8 Quantization,AI Coding,Medium,Phone screen,1,2026-02-12,https://trueinterview.io/questions/fp32-to-int8-quantization
-Implement matrix transpose and KV store,Object Oriented Programming,Medium,Phone screen,1,2026-02-09,https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store
-Valid Parentheses,Algorithm,Easy,Phone screen,14,2026-02-07,https://trueinterview.io/questions/valid-parentheses
-"Compare arrays, linked lists, hash tables, trees",Blog,,Phone screen,1,2026-02-06,https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees
-"Systems Utility Coding: Temperature Spike, Logs, Brackets",Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-02-05,https://trueinterview.io/questions/systems-utility-coding
-Merge Intervals,Algorithm,Medium,Phone screen,16,2026-02-04,https://trueinterview.io/questions/merge-intervals
-"Deep Learning Fundamentals: Optimization, Drift, Calibration",Blog,,Phone screen; Onsite / virtual onsite,1,2026-01-29,https://trueinterview.io/questions/deep-learning-fundamentals
-GPU and Inference Systems Fundamentals,Blog,,Phone screen; Onsite / virtual onsite,1,2026-01-16,https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals
-Introduce yourself for a senior role,Blog,,Phone screen,1,2026-01-06,https://trueinterview.io/questions/introduce-yourself-for-a-senior-role
-Explain virtual machines and concurrency basics,Blog,,Phone screen,1,2026-01-06,https://trueinterview.io/questions/explain-virtual-machines-and-concurrency-basics
-Explain container image flow in CI/CD,Blog,,Phone screen,1,2026-01-06,https://trueinterview.io/questions/explain-container-image-flow-in-ci-cd
-Optimize a small-string C++ class,Blog,,Onsite / virtual onsite,1,2025-12-18,https://trueinterview.io/questions/optimize-a-small-string-cplusplus-class
-"2-D Convolution, Decaying Attention, and Training Loop",Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2025-12-10,https://trueinterview.io/questions/ml-coding-conv-attention-training-loop
-Return Unique Three-Sum Value Triples,Algorithm,Hard,Onsite / virtual onsite,2,2025-12-08,https://trueinterview.io/questions/return-unique-three-sum-value-triples
-Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,4,,https://trueinterview.io/questions/three-sum
-Sell GPUs to a retail CEO,Blog,,Phone screen,1,,https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo
-Resolve conflict and learn from failure,Blog,,Phone screen,1,,https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure
-Reflect on interview takeaways and adaptation,Blog,,Phone screen,1,,https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation
-Explain NVIDIA fit and role value,Blog,,Phone screen,1,,https://trueinterview.io/questions/explain-nvidia-fit-and-role-value
-Demonstrate cultural fit and sales-oriented leadership,Blog,,Phone screen,1,,https://trueinterview.io/questions/demonstrate-cultural-fit-and-sales-oriented-leadership
-Design and explain robust web APIs for ML inference,System Design,Medium,Phone screen,1,,https://trueinterview.io/questions/design-and-explain-robust-web-apis-for-ml-inference
-"Analyze overfitting, DenseNet, preprocessing, and cross-validation",Blog,,Phone screen,1,,https://trueinterview.io/questions/analyze-overfitting-densenet-preprocessing-and-cross-validation
-3Sum Variant: Find Unique Triplets Summing to Target,Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578
-"C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)",AI Coding,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f
-Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,17,,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
-Maximum on Both Sides,Algorithm,Medium,Phone screen,3,,https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998
-Minimum Sum After K Operations,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2
-Tree Planting on a Grid (no adjacent trees),Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/bd352d63-afa7-4443-b0fa-3b3dfcb9948a
-Compress and Decompress String (Excel-like Encoding),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/855bd20f-2c9a-4217-822e-2130419c0b5f
-Log Parser for Top N Items,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/7c107386-3c24-4acd-9385-b7d274fca67b
-SQL Aggregation Across Country/State/City/Zip Tables,SQL,Easy,Online assessment,1,,https://trueinterview.io/questions/53506fd0-9b04-40be-a6f6-eb349d9f220a
-"Python Data Processing Task (Parse, Aggregate, and Validate)",Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/3a714999-40ed-4da6-b12f-d0addf376068
-Implement Power Function,Algorithm,Medium,Phone screen,4,,https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae
-Remove Duplicates from Sorted Array,Algorithm,Easy,Online assessment,4,,https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+"Research Project Deep Dive: Motivation, Training Pipeline, Results, and Takeaways",Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-17,https://trueinterview.io/questions/research-project-deep-dive-motivation-training-pipeline-results-and-takeaways
+Zero-Sum Triplets Without Duplicates,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/three-sum
+Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,,2026-09,https://trueinterview.io/questions/valid-parentheses
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+Search in Rotated Sorted Array,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,3,,2026-08-21,https://trueinterview.io/questions/search-in-rotated-sorted-array
+Implement and Explain a C++ Smart Pointer,Object-Oriented Programming,Hard,Phone screen,Junior / Mid; Senior,1,,2026-08-19,https://trueinterview.io/questions/implement-and-explain-a-cplusplus-smart-pointer
+Design an Autonomous-Vehicle Perception Pipeline,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-08-19,https://trueinterview.io/questions/design-an-autonomous-vehicle-perception-pipeline
+Return Unique Three-Sum Value Triples,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-08,https://trueinterview.io/questions/return-unique-three-sum-value-triples
+3Sum Variant: Find Unique Triplets Summing to Target,Algorithm,Medium,Phone screen,Junior / Mid,3,,2026-08,https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Remove Duplicates from Sorted Array,Algorithm,Easy,Online assessment,New grad; Junior / Mid,4,,2026-08,https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+"Data Platform, Pipeline, and ML Operations Fundamentals",System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07-03,https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals
+Telemetry Collector and GPU Utilization Dashboard,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07-03,https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard
+LLM SQL Chatbot Access Control and Query Safety,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07-03,https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety
+Hardware-Adjacent Project Deep Dive,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-03,https://trueinterview.io/questions/hardware-adjacent-project-deep-dive
+"Culture Fit, Motivation, and Learning Habits",Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-07-03,https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits
+HPC Host Control Plane and Job Coordination,System Design,Hard,Phone screen,Senior,1,,2026-06-30,https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination
+Maximum on Both Sides,Algorithm,Medium,Phone screen,Junior / Mid; Senior,3,,2026-06,https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998
+String Encoding / Decoding Variants,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-04-26,https://trueinterview.io/questions/string-encoding-decoding
+Disk Space Manager / KV Store with setAll,Object-Oriented Programming,Medium,Phone screen,New grad; Senior,1,,2026-04-15,https://trueinterview.io/questions/storage-manager-and-kv-setall
+2-D Matrix Transpose with Memory-Layout Discussion,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,1,,2026-04-15,https://trueinterview.io/questions/matrix-transpose-memory-layout
+Compress and Decompress String (Excel-like Encoding),Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-04,https://trueinterview.io/questions/855bd20f-2c9a-4217-822e-2130419c0b5f
+Real-Time Fraud Detection System,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-03-25,https://trueinterview.io/questions/real-time-fraud-detection-system
+Return all file paths via DFS,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-03-04,https://trueinterview.io/questions/return-all-file-paths-via-dfs
+C++ Project Debugging with AI Tools,AI Coding,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-02-12,https://trueinterview.io/questions/cpp-debugging-with-ai-tools
+Computation / Dependency Graph Validation and Pruning,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-02-12,https://trueinterview.io/questions/graph-validation-and-pruning
+FP32 Tensor to Int8 Quantization,AI Coding,Medium,Phone screen,Senior,1,,2026-02-12,https://trueinterview.io/questions/fp32-to-int8-quantization
+Implement matrix transpose and KV store,Object-Oriented Programming,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-02-09,https://trueinterview.io/questions/implement-matrix-transpose-and-kv-store
+"Compare arrays, linked lists, hash tables, trees",Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,2026-02-06,https://trueinterview.io/questions/compare-arrays-linked-lists-hash-tables-trees
+"Systems Utility Coding: Temperature Spike, Logs, Brackets",Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-02-05,https://trueinterview.io/questions/systems-utility-coding
+Merge Intervals,Algorithm,Medium,Phone screen,,16,,2026-02-04,https://trueinterview.io/questions/merge-intervals
+Explain NVIDIA fit and role value,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,2026-02,https://trueinterview.io/questions/explain-nvidia-fit-and-role-value
+Minimum Sum After K Operations,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-02,https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2
+Tree Planting on a Grid (no adjacent trees),Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-02,https://trueinterview.io/questions/bd352d63-afa7-4443-b0fa-3b3dfcb9948a
+"Python Data Processing Task (Parse, Aggregate, and Validate)",Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-02,https://trueinterview.io/questions/3a714999-40ed-4da6-b12f-d0addf376068
+"Deep Learning Fundamentals: Optimization, Drift, Calibration",Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Senior,1,,2026-01-29,https://trueinterview.io/questions/deep-learning-fundamentals
+GPU and Inference Systems Fundamentals,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-01-16,https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals
+Introduce yourself for a senior role,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-01-06,https://trueinterview.io/questions/introduce-yourself-for-a-senior-role
+Explain virtual machines and concurrency basics,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-01-06,https://trueinterview.io/questions/explain-virtual-machines-and-concurrency-basics
+Explain container image flow in CI/CD,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior; Staff+,1,,2026-01-06,https://trueinterview.io/questions/explain-container-image-flow-in-ci-cd
+Optimize a small-string C++ class,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2025-12-18,https://trueinterview.io/questions/optimize-a-small-string-cplusplus-class
+"2-D Convolution, Decaying Attention, and Training Loop",Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2025-12-10,https://trueinterview.io/questions/ml-coding-conv-attention-training-loop
+Implement Power Function,Algorithm,Medium,Phone screen,Junior / Mid,4,,2025-03,https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae
+Sell GPUs to a retail CEO,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/sell-gpus-to-a-retail-ceo
+Resolve conflict and learn from failure,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/resolve-conflict-and-learn-from-failure
+Reflect on interview takeaways and adaptation,Behavioral / Knowledge,,Phone screen,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/reflect-on-interview-takeaways-and-adaptation
+Demonstrate cultural fit and sales-oriented leadership,Behavioral / Knowledge,,Phone screen,Senior; Staff+; Manager,1,,,https://trueinterview.io/questions/demonstrate-cultural-fit-and-sales-oriented-leadership
+Design and explain robust web APIs for ML inference,System Design,Medium,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/design-and-explain-robust-web-apis-for-ml-inference
+"Analyze overfitting, DenseNet, preprocessing, and cross-validation",Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,,https://trueinterview.io/questions/analyze-overfitting-densenet-preprocessing-and-cross-validation
+"C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)",AI Coding,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,,https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f
+Log Parser for Top N Items,Algorithm,Easy,Online assessment,Junior / Mid,1,,,https://trueinterview.io/questions/7c107386-3c24-4acd-9385-b7d274fca67b
+SQL Aggregation Across Country/State/City/Zip Tables,SQL,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/53506fd0-9b04-40be-a6f6-eb349d9f220a

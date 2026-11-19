@@ -1,8 +1,18 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Price Percentile Cutoff,Algorithm,Medium,Online assessment; Onsite / virtual onsite,1,2026-07-29,https://trueinterview.io/questions/price-percentile-cutoff
-Optimal Stock Price Subsequence,Algorithm,Hard,Online assessment,1,2026-07-29,https://trueinterview.io/questions/optimal-stock-price-subsequence
-League Earnings,Algorithm,Easy,Online assessment,1,2026-07-29,https://trueinterview.io/questions/league-earnings
-Count Maximum Borrowing Days,Algorithm,Hard,Online assessment,1,2026-07-29,https://trueinterview.io/questions/count-maximum-borrowing-days
-Coins and Energy,Algorithm,Hard,Online assessment,1,2026-07-29,https://trueinterview.io/questions/coins-and-energy
-Array Frequency Sort,Algorithm,Easy,Online assessment,3,2026-07-29,https://trueinterview.io/questions/array-frequency-sort
-Bank Transaction Mining,Algorithm,Easy,Online assessment,1,2026-07-29,https://trueinterview.io/questions/bank-transaction-mining
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Explain Ensemble Learning and Its Main Families,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/explain-ensemble-learning-and-its-main-families
+"Explain Encapsulation, Inheritance, and Polymorphism in C++",Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/explain-encapsulation-inheritance-and-polymorphism-in-cplusplus
+Derive the Optimal Bid in a Two-Bidder Second-Price Auction,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/derive-the-optimal-bid-in-a-two-bidder-second-price-auction
+Choose and Explain a Classical Hypothesis Test,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/choose-and-explain-a-classical-hypothesis-test
+Optimal Stopping with Up to Three Dice Rolls,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be
+Find Minimum in Rotated Sorted Array,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c
+Find the Largest and Second Largest Elements,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27
+Simulate a Deterministic Finite Automaton,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe
+Portfolio Trading Optimizer (Multiple Transactions + Input Validation + Report),Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/931ca2a6-3886-4c5c-84f7-d2208582067e
+Best Time to Buy and Sell Stock IV,Algorithm,Medium,Phone screen,Junior / Mid; Senior,8,,2026-08,https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1
+Price Percentile Cutoff,Algorithm,Medium,Online assessment; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-07-29,https://trueinterview.io/questions/price-percentile-cutoff
+Optimal Stock Price Subsequence,Algorithm,Hard,Online assessment,New grad; Junior / Mid,1,,2026-07-29,https://trueinterview.io/questions/optimal-stock-price-subsequence
+League Earnings,Algorithm,Easy,Online assessment,Intern; New grad,1,,2026-07-29,https://trueinterview.io/questions/league-earnings
+Count Maximum Borrowing Days,Algorithm,Hard,Online assessment,Junior / Mid; Senior,1,,2026-07-29,https://trueinterview.io/questions/count-maximum-borrowing-days
+Coins and Energy,Algorithm,Hard,Online assessment,Junior / Mid; Senior,1,,2026-07-29,https://trueinterview.io/questions/coins-and-energy
+Array Frequency Sort,Algorithm,Easy,Online assessment,Junior / Mid,3,,2026-07-29,https://trueinterview.io/questions/array-frequency-sort
+Bank Transaction Mining,Algorithm,Easy,Online assessment,New grad; Junior / Mid,1,,2026-07-29,https://trueinterview.io/questions/bank-transaction-mining

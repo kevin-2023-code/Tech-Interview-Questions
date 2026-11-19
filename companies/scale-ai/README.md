@@ -4,47 +4,47 @@
 
 35 questions reported at Scale AI, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (4) · [all](all.csv) (35)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (6) · [all](all.csv) (35)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 2 | 2026-10-01 |
-| [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-08-26 |
-| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | 2 | 2026-06-16 |
-| [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Algorithm | Hard | Phone screen | 1 | 2026-06-14 |
-| [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | Onsite / virtual onsite | 1 | 2026-05-01 |
-| [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-05-01 |
-| [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-05-01 |
-| [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-05-01 |
-| [Project Deep Dive and Paper Presentation](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2026-04-22 |
-| [Design a Streaming Job Scheduler](https://trueinterview.io/questions/design-a-streaming-job-scheduler) | Object Oriented Programming | Hard | Phone screen | 1 | 2026-04-09 |
-| [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks) | Algorithm | Medium | Phone screen | 1 | 2026-03-29 |
-| [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-25 |
-| [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | 1 | 2026-03-25 |
-| [Answer common project leadership questions](https://trueinterview.io/questions/answer-common-project-leadership-questions) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-17 |
-| [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | Phone screen | 2 | 2026-02-16 |
-| [Handle customer engagement and manager-rating questions](https://trueinterview.io/questions/handle-customer-engagement-and-manager-rating-questions) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-12 |
-| [Describe a challenging project](https://trueinterview.io/questions/describe-a-challenging-project) | Blog | — | Phone screen | 1 | 2026-02-11 |
-| [Distinct Wall Crossing on Number Line](https://trueinterview.io/questions/distinct-wall-crossing-on-number-line) | Algorithm | Hard | Online assessment | 1 | 2026-02-06 |
-| [Poker Hand Game Checker](https://trueinterview.io/questions/poker-hand-game-checker) | Algorithm | Medium | Phone screen | 1 | 2026-02-06 |
-| [Quantify impact of your projects using STAR](https://trueinterview.io/questions/quantify-impact-of-your-projects-using-star) | Blog | — | Phone screen | 1 | — |
-| [Explain worker state machine load balancer design](https://trueinterview.io/questions/explain-worker-state-machine-load-balancer-design) | System Design | Hard | Phone screen | 1 | — |
-| [Design pipeline using classification and embedding services](https://trueinterview.io/questions/design-pipeline-using-classification-and-embedding-services) | System Design | Medium | Onsite / virtual onsite | 1 | — |
-| [Design a large-scale ticketing system](https://trueinterview.io/questions/design-a-large-scale-ticketing-system) | System Design | Hard | Phone screen | 1 | — |
-| [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work) | Blog | — | Phone screen | 1 | — |
-| [Describe how you learn quickly in new domains](https://trueinterview.io/questions/describe-how-you-learn-quickly-in-new-domains) | Blog | — | Phone screen | 1 | — |
-| [Find LCA in a N-ary tree via DFS](https://trueinterview.io/questions/find-lca-in-a-n-ary-tree-via-dfs) | Algorithm | Medium | Phone screen | 1 | — |
-| [Smaller Angle Between Clock Hands](https://trueinterview.io/questions/61dbdcbb-6345-50de-a0cf-3d6b0fa8c46c) | Algorithm | Easy | Online assessment | 2 | — |
-| [Minimum Distance in N-ary Tree](https://trueinterview.io/questions/minimum-distance-in-n-ary-tree-2) | Algorithm | Medium | Onsite / virtual onsite | 2 | — |
-| [Implement Adversarial Attack using Paper Method](https://trueinterview.io/questions/510f7345-ead1-4ad1-9da1-46c51d1ce8a4) | Blog | — | Onsite / virtual onsite | 1 | — |
-| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/questions/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | Blog | — | Onsite / virtual onsite | 1 | — |
-| [Party Times / Peak Concurrent Parties (Time Range Overlap Counting)](https://trueinterview.io/questions/8998a0af-970e-4c4b-be16-21fe90c5d1a0) | Algorithm | Medium | Phone screen | 1 | — |
-| [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/69a906b1-a3e0-43a1-a3c1-267fc6556d5c) | Algorithm | Medium | Phone screen | 1 | — |
-| [Create RESTful API with CSV and JSON Conversion](https://trueinterview.io/questions/44f4defb-82d9-46e7-a008-0c8e2f044a17) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
-| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/questions/147c9781-846f-407b-a3e9-cb2f61ae898d) | Blog | — | Onsite / virtual onsite | 1 | — |
-| [Implement Top-p (Nucleus) Sampling in NumPy](https://trueinterview.io/questions/26db71f3-0ec8-4274-af98-d5bd29bdcf73) | AI Coding | Medium | Onsite / virtual onsite | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Lowest Common Manager in an Org Chart (Binary-Tree LCA Family)](https://trueinterview.io/questions/lowest-common-manager-org-chart?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid | 2 | 2026-10-01 |
+| [Smaller Angle Between Clock Hands](https://trueinterview.io/questions/61dbdcbb-6345-50de-a0cf-3d6b0fa8c46c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad, Junior / Mid | 2 | 2026-10 |
+| [Credo Behavioral and Customer Engagement](https://trueinterview.io/questions/credo-behavioral-and-customer-engagement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-10 |
+| [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-08-26 |
+| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Hard | Phone screen, Onsite / virtual onsite | Senior | 2 | 2026-06-16 |
+| [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-06-14 |
+| [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-05-01 |
+| [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-05-01 |
+| [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-05-01 |
+| [Project Deep Dive and Paper Presentation](https://trueinterview.io/questions/project-deep-dive-and-paper-presentation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-04-22 |
+| [Design a Streaming Job Scheduler](https://trueinterview.io/questions/design-a-streaming-job-scheduler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-04-09 |
+| [Describe a challenging project](https://trueinterview.io/questions/describe-a-challenging-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid | 1 | 2026-04 |
+| [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03-29 |
+| [LLM Post-Training Theory Conversation](https://trueinterview.io/questions/llm-post-training-theory-conversation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 2026-03-25 |
+| [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-03-25 |
+| [Answer common project leadership questions](https://trueinterview.io/questions/answer-common-project-leadership-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Junior / Mid, Senior, Manager | 1 | 2026-03-17 |
+| [Describe how you resolve conflicts at work](https://trueinterview.io/questions/describe-how-you-resolve-conflicts-at-work?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior | 1 | 2026-03 |
+| [Party Times / Peak Concurrent Parties (Time Range Overlap Counting)](https://trueinterview.io/questions/8998a0af-970e-4c4b-be16-21fe90c5d1a0?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2026-03 |
+| [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/69a906b1-a3e0-43a1-a3c1-267fc6556d5c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03 |
+| [Implement Top-p (Nucleus) Sampling in NumPy](https://trueinterview.io/questions/26db71f3-0ec8-4274-af98-d5bd29bdcf73?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-03 |
+| [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid, Senior | 2 | 2026-02-16 |
+| [Handle customer engagement and manager-rating questions](https://trueinterview.io/questions/handle-customer-engagement-and-manager-rating-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 2026-02-12 |
+| [Distinct Wall Crossing on Number Line](https://trueinterview.io/questions/distinct-wall-crossing-on-number-line?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Junior / Mid, Senior | 1 | 2026-02-06 |
+| [Poker Hand Game Checker](https://trueinterview.io/questions/poker-hand-game-checker?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | 2026-02-06 |
+| [Quantify impact of your projects using STAR](https://trueinterview.io/questions/quantify-impact-of-your-projects-using-star?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior, Staff+ | 1 | — |
+| [Explain worker state machine load balancer design](https://trueinterview.io/questions/explain-worker-state-machine-load-balancer-design?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | — |
+| [Design pipeline using classification and embedding services](https://trueinterview.io/questions/design-pipeline-using-classification-and-embedding-services?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
+| [Design a large-scale ticketing system](https://trueinterview.io/questions/design-a-large-scale-ticketing-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Phone screen | Senior, Staff+ | 1 | — |
+| [Describe how you learn quickly in new domains](https://trueinterview.io/questions/describe-how-you-learn-quickly-in-new-domains?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Find LCA in a N-ary tree via DFS](https://trueinterview.io/questions/find-lca-in-a-n-ary-tree-via-dfs?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Minimum Distance in N-ary Tree](https://trueinterview.io/questions/minimum-distance-in-n-ary-tree-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 2 | — |
+| [Implement Adversarial Attack using Paper Method](https://trueinterview.io/questions/510f7345-ead1-4ad1-9da1-46c51d1ce8a4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
+| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/questions/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | — |
+| [Create RESTful API with CSV and JSON Conversion](https://trueinterview.io/questions/44f4defb-82d9-46e7-a008-0c8e2f044a17?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | — |
+| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/questions/147c9781-846f-407b-a3e9-cb2f61ae898d?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Intern, New grad, Junior / Mid | 1 | — |
 
 ---
 

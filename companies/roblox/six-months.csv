@@ -1,12 +1,41 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,3,2026-09-10,https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e
-File Chunk Range Tracking,Algorithm,Medium,Online assessment,1,2026-09-09,https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges
-Handle Release Risks and Cross-Team Blockers,Blog,,Online assessment,1,2026-08-30,https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers
-Piano Keys: Vanilla UI Interaction,Algorithm,Easy,Phone screen,1,2026-08-17,https://trueinterview.io/questions/piano-keys-vanilla-ui
-HM Behavioral: Traffic Scale & Scope of Past Work,Blog,,Onsite / virtual onsite,1,2026-06-30,https://trueinterview.io/questions/behavioral-hm-traffic-and-scope
-Dependency Ordering With Topological Sort,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-06-29,https://trueinterview.io/questions/topological-sort-with-ordering
-Design Game Dashboard Friend Activity and Counts,System Design,Medium,Phone screen; Onsite / virtual onsite,1,2026-06-19,https://trueinterview.io/questions/friend-played-game-near-realtime
-Most Frequent Function Call Stack,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-06-10,https://trueinterview.io/questions/most-frequent-function-call-stack
-Notification System,System Design,Medium,Onsite / virtual onsite,1,2026-06-04,https://trueinterview.io/questions/front-end-system-design-notification-system
-Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,3,2026-05-31,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
-Cursor-Based Pagination Over Sorted Logs,Algorithm,Medium,Onsite / virtual onsite,1,2026-05-24,https://trueinterview.io/questions/cursor-based-pagination-over-sorted-logs
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Obstacle Checks for Centered Blocks on an Infinite Number Line,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/8e1ed387-132e-5d2c-8831-7db6218b75c5
+"Match-3 Grid: Find Matches, Clear, and Drop",Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/5e43d3d7-6004-55f7-b2e1-75c47b336ae2
+Build an Auto-Rotating Traffic Light in Vanilla JavaScript,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/3179045e-815a-52de-bb9d-530f993b62a7
+Time-Aware Search Autocomplete,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/02e501ce-d611-5553-a651-36ddce5c14b2
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
+Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,3,,2026-10,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
+Design Payment System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/payment-platform-design
+Photo Album System Design,System Design,Medium,Onsite / virtual onsite,Senior,2,,2026-10,https://trueinterview.io/questions/photo-album-frontend-design
+Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,,2026-10,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,,2026-10,https://trueinterview.io/questions/rate-limiter
+Notification System,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/front-end-system-design-notification-system
+Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,Intern; New grad,3,,2026-09-10,https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e
+File Chunk Range Tracking,Algorithm,Medium,Online assessment,Junior / Mid,1,,2026-09-09,https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges
+Lasers and Robot,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/cc7ea860-4eb6-5776-9026-f8bb5368ca1b
+Number of Ways to Wear Different Hats to Each Other,Algorithm,Hard,Phone screen,New grad; Senior,2,,2026-09,https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8
+Design A Shared Todo List,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/design-collaborative-to-do-list-system
+Design TinyURL,System Design,Easy,Phone screen,Junior / Mid; Senior,10,,2026-09,https://trueinterview.io/questions/design-tinyurl
+Find the Closest Palindrome,Algorithm,Hard,Phone screen,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/find-the-closest-palindrome
+Candy Crush Grid Matching and Gravity,Algorithm,Medium,Onsite / virtual onsite,New grad,1,,2026-09,https://trueinterview.io/questions/candy-crush-grid-matching-and-gravity
+Handle Release Risks and Cross-Team Blockers,Behavioral / Knowledge,,Online assessment,Junior / Mid; Senior,1,,2026-08-30,https://trueinterview.io/questions/handle-release-risks-and-cross-team-blockers
+Piano Keys: Vanilla UI Interaction,Algorithm,Easy,Phone screen,Junior / Mid,1,,2026-08-17,https://trueinterview.io/questions/piano-keys-vanilla-ui
+Optimize bread-factory pipeline for max profit,Algorithm,Hard,Onsite / virtual onsite,New grad,1,,2026-08,https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit
+Configurable Tic-Tac-Toe Board,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/027d9159-df55-5351-b2d2-b3f7e1bbac99
+Most Frequent Call Chain,Algorithm,Medium,Phone screen,Senior,1,,2026-08,https://trueinterview.io/questions/most-frequent-call-chain
+Merge Two Interval Lists,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,17,,2026-08,https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+MLE Project / Paper Deep Dive,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Senior,1,,2026-08,https://trueinterview.io/questions/mle-project-deep-dive
+HM Behavioral: Traffic Scale & Scope of Past Work,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,,2026-08,https://trueinterview.io/questions/behavioral-hm-traffic-and-scope
+Design Search Autocomplete System,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,3,,2026-08,https://trueinterview.io/questions/design-search-autocomplete-system
+Extend counter to per-client rate limiting,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/extend-counter-to-per-client-rate-limiting
+Design Real-time Like Interation System,System Design,Medium,Online assessment; Phone screen; Onsite / virtual onsite,Senior; Staff+,1,,2026-07,https://trueinterview.io/questions/design-like-unlike-favorite-system
+Implement Trie (Prefix Tree),Object-Oriented Programming,Easy,Phone screen,Junior / Mid,4,,2026-07,https://trueinterview.io/questions/implement-trie-prefix-tree-2
+Design News Feed,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,16,,2026-07,https://trueinterview.io/questions/design-news-feed
+Most Frequent Function Call Stack,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/most-frequent-function-call-stack
+Dependency Ordering With Topological Sort,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-06-29,https://trueinterview.io/questions/topological-sort-with-ordering
+Design Game Dashboard Friend Activity and Counts,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,1,,2026-06-19,https://trueinterview.io/questions/friend-played-game-near-realtime
+Build an Image Feed (Infinite Scroll + Offline Support + Testing),AI Coding,Hard,Onsite / virtual onsite,Senior,1,,2026-06,https://trueinterview.io/questions/e2867a7a-4237-432e-be98-b694a3f3ca9e
+Cursor-Based Pagination Over Sorted Logs,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-05-24,https://trueinterview.io/questions/cursor-based-pagination-over-sorted-logs

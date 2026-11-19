@@ -4,37 +4,37 @@
 
 25 questions reported at Perplexity, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (2) · [last 6 months](six-months.csv) (5) · [all](all.csv) (25)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (4) · [last 6 months](six-months.csv) (7) · [all](all.csv) (25)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-09-01 |
-| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | 4 | 2026-08-31 |
-| [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Phone screen | 3 | 2026-06-15 |
-| [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Phone screen | 2 | 2026-06-08 |
-| [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Object Oriented Programming | Medium | Phone screen | 1 | 2026-05-26 |
-| [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Onsite / virtual onsite | 7 | 2026-04-16 |
-| [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | Online assessment | 1 | 2026-04-12 |
-| [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | Online assessment | 2 | 2026-02-23 |
-| [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | Algorithm | Medium | Online assessment | 1 | 2026-01-06 |
-| [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement) | AI Coding | Medium | Phone screen | 1 | 2025-11-22 |
-| [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words) | Algorithm | Medium | Phone screen | 1 | 2025-10-12 |
-| [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-10-09 |
-| [Rental Car Surge Area Navigation](https://trueinterview.io/questions/premium-zone-escape-path) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2025-10-03 |
-| [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive) | Blog | — | Phone screen, Onsite / virtual onsite | 1 | 2025-10-03 |
-| [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Object Oriented Programming | Medium | Phone screen | 1 | 2025-08-09 |
-| [Map-Reduce and Blockwise Attention](https://trueinterview.io/questions/map-reduce-and-blockwise-attention) | Blog | — | Phone screen | 1 | 2025-07-03 |
-| [Implement Tokenize Function](https://trueinterview.io/questions/dcd37aa2-dbac-4c98-b5d1-35df728f8809) | Algorithm | Hard | Phone screen | 1 | — |
-| [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | Onsite / virtual onsite | 4 | — |
-| [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | Algorithm | Medium | Phone screen | 1 | — |
-| [Design Mint.com](https://trueinterview.io/questions/mint-com) | System Design | Medium | Onsite / virtual onsite | 2 | — |
-| [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | System Design | Medium | Onsite / virtual onsite | 1 | — |
-| [Stream Deduplication with Near-Duplicate Detection](https://trueinterview.io/questions/stream-deduplication-with-near-duplicate-detection) | Algorithm | Medium | Phone screen | 1 | — |
-| [Log Processing (Parsing & Aggregation)](https://trueinterview.io/questions/f8c1cd11-0ad2-4dbd-8b4e-f3421a9beb8f) | Algorithm | Medium | Phone screen | 1 | — |
-| [Depth-First Search Problem](https://trueinterview.io/questions/a4351e3a-2c7d-477f-ad68-5b08de250719) | Algorithm | Medium | Phone screen | 1 | — |
-| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-09-01 |
+| [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 7 | 2026-09 |
+| [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 2 | 2026-09 |
+| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | New grad, Senior | 4 | 2026-08-31 |
+| [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen, Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-07 |
+| [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | New grad, Junior / Mid, Senior | 3 | 2026-06-15 |
+| [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 2026-05-26 |
+| [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-05 |
+| [Design Mint.com](https://trueinterview.io/questions/mint-com?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 2 | 2026-05 |
+| [Log Processing (Parsing & Aggregation)](https://trueinterview.io/questions/f8c1cd11-0ad2-4dbd-8b4e-f3421a9beb8f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-05 |
+| [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Online assessment | New grad, Junior / Mid, Senior | 1 | 2026-04-12 |
+| [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 4 | 2026-04 |
+| [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Online assessment | Junior / Mid | 2 | 2026-02-23 |
+| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 2026-02 |
+| [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad | 1 | 2026-01-06 |
+| [Implement Tokenize Function](https://trueinterview.io/questions/dcd37aa2-dbac-4c98-b5d1-35df728f8809?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | New grad | 1 | 2026-01 |
+| [Depth-First Search Problem](https://trueinterview.io/questions/a4351e3a-2c7d-477f-ad68-5b08de250719?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2025-12 |
+| [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | AI Coding | Medium | Phone screen | Junior / Mid | 1 | 2025-11-22 |
+| [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 1 | 2025-10-12 |
+| [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Senior | 1 | 2025-10-09 |
+| [Rental Car Surge Area Navigation](https://trueinterview.io/questions/premium-zone-escape-path?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Staff+ | 1 | 2025-10-03 |
+| [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Phone screen | Junior / Mid | 1 | 2025-08-09 |
+| [Map-Reduce and Blockwise Attention](https://trueinterview.io/questions/map-reduce-and-blockwise-attention?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2025-07-03 |
+| [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
+| [Stream Deduplication with Near-Duplicate Detection](https://trueinterview.io/questions/stream-deduplication-with-near-duplicate-detection?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
 
 ---
 

@@ -4,33 +4,33 @@
 
 21 questions reported at Dropbox, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (21)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (2) · [all](all.csv) (21)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design a recursive distributed file crawler](https://trueinterview.io/questions/design-a-recursive-distributed-file-crawler) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-01-25 |
-| [Describe surprising project learnings](https://trueinterview.io/questions/describe-surprising-project-learnings) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-25 |
-| [Describe Your Most Complex Project](https://trueinterview.io/questions/describe-your-most-complex-project) | Blog | — | Onsite / virtual onsite | 1 | 2025-10-03 |
-| [Run org-safe online experiment for recommender](https://trueinterview.io/questions/run-org-safe-online-experiment-for-recommender) | Blog | — | Phone screen | 1 | — |
-| [Review checkout code for defects and privacy](https://trueinterview.io/questions/review-checkout-code-for-defects-and-privacy) | Blog | — | Phone screen | 1 | — |
-| [Explain a project with measurable impact](https://trueinterview.io/questions/explain-a-project-with-measurable-impact) | Blog | — | Phone screen | 1 | — |
-| [Answer rapid-fire leadership checklist](https://trueinterview.io/questions/answer-rapid-fire-leadership-checklist) | Blog | — | Phone screen | 1 | — |
-| [Compute max island with constrained flips](https://trueinterview.io/questions/compute-max-island-with-constrained-flips) | Algorithm | Hard | Phone screen | 1 | — |
-| [API Design for Long Running Requests](https://trueinterview.io/questions/ea7d38db-f5ac-4619-b82f-c7d0228d01ca) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Event Logger with batching, fsync, and group commit follow-ups](https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9) | System Design | Medium | Onsite / virtual onsite | 1 | — |
-| [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
-| [Shortest Path with Uniform Walking Method](https://trueinterview.io/questions/374ea0b3-6ad5-4d15-a6a4-bfd7a92db739) | Algorithm | Medium | Phone screen | 1 | — |
-| [Design and Implement an In-Memory KV Store (API + Optional Extensions)](https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Double Circuit Breaker for server calls (lambda returns success/failure)](https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Tetris-like Block Drop Simulation](https://trueinterview.io/questions/02df0747-8a69-4a01-9098-10ef7070a1a6) | Algorithm | Medium | Phone screen | 1 | — |
-| [Simulate a File System with Access Control](https://trueinterview.io/questions/f0867d5b-4d3f-4ff4-9af3-0c7f8b8160ca) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Worker Registration Payroll Calculation](https://trueinterview.io/questions/c7dcf405-b5b0-405d-9164-b770da49caa0) | Algorithm | Medium | Phone screen | 1 | — |
-| [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Algorithm | Easy | Online assessment | 1 | — |
-| [File Crawler](https://trueinterview.io/questions/868c0ea1-62d7-4555-aeb2-7d9033aebbe5) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Hangman Optimal Strategy](../../questions/algorithm/hangman-optimal-strategy/README.md) | Algorithm | Hard | Phone screen | 1 | — |
-| [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) | Algorithm | Medium | Phone screen | 3 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 3 | 2026-09 |
+| [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 2026-07 |
+| [Worker Registration Payroll Calculation](https://trueinterview.io/questions/c7dcf405-b5b0-405d-9164-b770da49caa0?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad | 1 | 2026-05 |
+| [Event Logger with batching, fsync, and group commit follow-ups](https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior | 1 | 2026-04 |
+| [Double Circuit Breaker for server calls (lambda returns success/failure)](https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-04 |
+| [Describe Your Most Complex Project](https://trueinterview.io/questions/describe-your-most-complex-project?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 2026-03 |
+| [Describe surprising project learnings](https://trueinterview.io/questions/describe-surprising-project-learnings?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 2026-03 |
+| [Design and Implement an In-Memory KV Store (API + Optional Extensions)](https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-03 |
+| [File Crawler](https://trueinterview.io/questions/868c0ea1-62d7-4555-aeb2-7d9033aebbe5?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-03 |
+| [Hangman Optimal Strategy](../../questions/algorithm/hangman-optimal-strategy/README.md) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | 2026-03 |
+| [Design a recursive distributed file crawler](https://trueinterview.io/questions/design-a-recursive-distributed-file-crawler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-01-25 |
+| [API Design for Long Running Requests](https://trueinterview.io/questions/ea7d38db-f5ac-4619-b82f-c7d0228d01ca?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2025-11 |
+| [Tetris-like Block Drop Simulation](https://trueinterview.io/questions/02df0747-8a69-4a01-9098-10ef7070a1a6?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2025-11 |
+| [Simulate a File System with Access Control](https://trueinterview.io/questions/f0867d5b-4d3f-4ff4-9af3-0c7f8b8160ca?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2025-11 |
+| [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Senior | 1 | 2025-11 |
+| [Run org-safe online experiment for recommender](https://trueinterview.io/questions/run-org-safe-online-experiment-for-recommender?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Review checkout code for defects and privacy](https://trueinterview.io/questions/review-checkout-code-for-defects-and-privacy?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Explain a project with measurable impact](https://trueinterview.io/questions/explain-a-project-with-measurable-impact?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | — |
+| [Answer rapid-fire leadership checklist](https://trueinterview.io/questions/answer-rapid-fire-leadership-checklist?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+, Manager | 1 | — |
+| [Compute max island with constrained flips](https://trueinterview.io/questions/compute-max-island-with-constrained-flips?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Phone screen | Junior / Mid, Senior | 1 | — |
+| [Shortest Path with Uniform Walking Method](https://trueinterview.io/questions/374ea0b3-6ad5-4d15-a6a4-bfd7a92db739?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
 
 ---
 

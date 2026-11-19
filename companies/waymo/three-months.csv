@@ -1,6 +1,21 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Merge Object Histories Across Two Tracking Systems,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-09-29,https://trueinterview.io/questions/cross-system-object-tracker-history
-Compare Driving Algorithms Using Hard-Braking Rates,Blog,,Phone screen,1,2026-09-06,https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates
-Handle Competing Work Priorities,Blog,,Onsite / virtual onsite,1,2026-08-27,https://trueinterview.io/questions/handle-competing-work-priorities
-Describe a Project You Are Proud Of,Blog,,Onsite / virtual onsite,1,2026-08-27,https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2
-Minimize Total Grid Distance to Every Building,Algorithm,Hard,Onsite / virtual onsite,1,2026-08-27,https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,,2026-10,https://trueinterview.io/questions/rate-limiter
+Merge Object Histories Across Two Tracking Systems,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-09-29,https://trueinterview.io/questions/cross-system-object-tracker-history
+Compare Driving Algorithms Using Hard-Braking Rates,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-06,https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates
+Count Islands and Compute Coastline Length,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/d3f92d42-3cee-5d76-bec0-10b3df78167e
+Random Access in Run-Length Encoded Data,Algorithm,Easy,Online assessment,Senior,1,,2026-09,https://trueinterview.io/questions/6f2137c5-0639-5fd4-a800-365447eee0a6
+Match Dictionary Words After Collapsing Consecutive Duplicates,Algorithm,Easy,Online assessment,Senior,1,,2026-09,https://trueinterview.io/questions/4b019575-ee7a-52d8-ac1f-f8de2d5033d8
+Vehicle Maintenance Event Validation,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/40bddb3c-0280-572b-a65b-ba31f5b9fba5
+Describe a Project You Are Proud Of,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2
+Minimize Total Grid Distance to Every Building,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building
+Find Dictionary Words Represented by Repeated Letters,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/find-dictionary-words-represented-by-repeated-letters
+Find a Repeating Vehicle Program Under Fuel and Memory Limits,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/find-a-repeating-vehicle-program-under-fuel-and-memory-limits
+Design a Fleet That Collects Mapping Data,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/design-a-fleet-that-collects-mapping-data
+Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
+Filter an N-ary Tree and Render It with Indentation,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/4a42af98-55d6-5d1e-aa8b-01049a27f459
+Sort a Quadratic-Transformed Sorted Array,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/sort-transformed-quadratic-array
+Streaming Interval Coverage on a Number Axis,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/interval-pollution-coverage
+Build an Arithmetic Expression to Reach a Target,Algorithm,Hard,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/arithmetic-expression-reach-target
+Prefix Autocomplete via Trie,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/trie-prefix-autocomplete
+Process Raw CSV for Downstream Consumers,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/csv-parser-open-ended
+Handle Competing Work Priorities,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,2026-08-27,https://trueinterview.io/questions/handle-competing-work-priorities

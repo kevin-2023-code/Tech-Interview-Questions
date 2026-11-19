@@ -1,36 +1,36 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Count Months Whose First Day Is Sunday,Algorithm,Medium,Phone screen,1,2026-08-15,https://trueinterview.io/questions/count-months-whose-first-day-is-sunday
-Minimum Talent-Complete Team from Every Start,Algorithm,Medium,Online assessment,1,2026-07-07,https://trueinterview.io/questions/minimum-talent-complete-team-from-each-start
-Merge Strings Alternately,Algorithm,Easy,Phone screen,1,2026-07-07,https://trueinterview.io/questions/merge-strings-alternately
-AI-Assisted Full-Stack Project Debugging,AI Coding,Medium,Online assessment,1,2026-07-07,https://trueinterview.io/questions/ai-assisted-fullstack-oa
-Permutation Maximizing Σ B[i] where B[i] > A[i],Algorithm,Easy,Online assessment,1,2026-05-07,https://trueinterview.io/questions/permutation-max-greater-sum
-Walmart Behavioral / HM Loop,Blog,,Onsite / virtual onsite,1,2026-04-24,https://trueinterview.io/questions/walmart-bq-loop
-Merge Intervals Returning Original Start/End Indices,Algorithm,Medium,Phone screen,1,2026-04-24,https://trueinterview.io/questions/merge-intervals-with-indices
-Insert Spaces Around Palindrome Layers,Algorithm,Easy,Phone screen,1,2026-04-24,https://trueinterview.io/questions/shrink-palindrome-spaces
-Evaluate Last-Mile Product Metric Changes,Blog,,Phone screen,1,2026-04-16,https://trueinterview.io/questions/evaluate-last-mile-product-metric-changes
-Live Refactor: Function → Production Service,Object Oriented Programming,Medium,Phone screen,1,2026-04-06,https://trueinterview.io/questions/function-to-service-refactor
-Design State-Wide Temperature Sensor Ingestion,System Design,Medium,Onsite / virtual onsite,1,2026-03-26,https://trueinterview.io/questions/design-sensor-temperature-ingestion
-Remove m Elements to Minimize Unique Count,Algorithm,Medium,Onsite / virtual onsite,1,2026-03-26,https://trueinterview.io/questions/remove-m-minimize-unique-elements
-Answer leadership scenarios about influence and integrity,Blog,,Phone screen,1,2026-03-04,https://trueinterview.io/questions/answer-leadership-scenarios-about-influence-and-integrity
-Design Ticketmaster — Event Booking & Seat Reservation,System Design,Hard,Onsite / virtual onsite,1,2026-03-03,https://trueinterview.io/questions/design-ticketmaster-event-booking
-Two Sum with Smallest-Indices Tiebreak (+ 3 Sum Follow-up),Algorithm,Medium,Onsite / virtual onsite,1,2026-03-03,https://trueinterview.io/questions/two-sum-smallest-indices
-Plants Pesticide — Days Until Stable,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-02-24,https://trueinterview.io/questions/plants-pesticide-days
-Design Multi-Carrier Package Delivery Routing System,System Design,Hard,Onsite / virtual onsite,1,2026-02-24,https://trueinterview.io/questions/design-multi-carrier-delivery-system
-Merge Two Sorted Arrays In-Place,Algorithm,Medium,Phone screen; Onsite / virtual onsite,4,2026-02-08,https://trueinterview.io/questions/merge-sorted-arrays-in-place
-Valid Parentheses,Algorithm,Easy,Phone screen,14,2026-02-07,https://trueinterview.io/questions/valid-parentheses
-Spring Boot Verbal Quiz,Blog,,Phone screen,1,2025-12-31,https://trueinterview.io/questions/spring-boot-verbal-quiz
-Validate N×N Grid as Latin Square,Algorithm,Medium,Phone screen,1,2025-12-31,https://trueinterview.io/questions/validate-square-grid
-Validate Nonogram Solution,Algorithm,Medium,Phone screen,1,2025-12-31,https://trueinterview.io/questions/validate-nonogram
-Course Overlap by Student ID,Algorithm,Easy,Phone screen,1,2025-12-31,https://trueinterview.io/questions/course-overlap
-Predict Item Category,System Design,Medium,Onsite / virtual onsite,1,2025-12-17,https://trueinterview.io/questions/mlsd-predict-item-category
-Handle conflict and motivate engineering teams,Blog,,Onsite / virtual onsite,1,2025-12-09,https://trueinterview.io/questions/handle-conflict-and-motivate-engineering-teams
-Design Walmart+ Membership System,System Design,Medium,Onsite / virtual onsite,1,2025-11-20,https://trueinterview.io/questions/design-membership-system
-Work Schedule,Algorithm,Medium,Online assessment,2,2025-07-20,https://trueinterview.io/questions/work-schedule
-Poisonous Plants (Monotonic Stack),System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/d9a75f75-3072-4976-9253-e2e13522a51a
-Check Output Correctness in Code,Blog,,Onsite / virtual onsite,1,,https://trueinterview.io/questions/d65899f8-0f93-47d6-9fd4-ca6ae30663bc
-3Sum (No Duplicate Triplets Assumed),Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/8fc7c24f-4bbb-435d-9d6a-c35a8c021037
-Find the First Corrupted Character,Algorithm,Easy,Online assessment,2,,https://trueinterview.io/questions/8593ff20-396d-44a7-9fb2-21c5eee2d0e1
-Design System for Downstream Data Retrieval,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8
-"Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)",SQL,Medium,Online assessment,1,,https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217
-Search from the end in a sorted array (variant),Algorithm,Medium,Phone screen,7,,https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb
-Minimum Meeting Rooms,Algorithm,Medium,Phone screen,14,,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Minimum Meeting Rooms,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior; Staff+,14,,2026-10,https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7
+Valid Parentheses,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,14,,2026-09,https://trueinterview.io/questions/valid-parentheses
+Count Months Whose First Day Is Sunday,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-08-15,https://trueinterview.io/questions/count-months-whose-first-day-is-sunday
+Walmart Behavioral / HM Loop,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-08,https://trueinterview.io/questions/walmart-bq-loop
+Search from the end in a sorted array (variant),Algorithm,Medium,Phone screen,Junior / Mid; Senior,7,,2026-08,https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb
+Minimum Talent-Complete Team from Every Start,Algorithm,Medium,Online assessment,Junior / Mid,1,,2026-07-07,https://trueinterview.io/questions/minimum-talent-complete-team-from-each-start
+Merge Strings Alternately,Algorithm,Easy,Phone screen,Junior / Mid,1,,2026-07-07,https://trueinterview.io/questions/merge-strings-alternately
+AI-Assisted Full-Stack Project Debugging,AI Coding,Medium,Online assessment,Junior / Mid; Senior,1,,2026-07-07,https://trueinterview.io/questions/ai-assisted-fullstack-oa
+Work Schedule,Algorithm,Medium,Online assessment,Junior / Mid,2,,2026-07,https://trueinterview.io/questions/work-schedule
+Permutation Maximizing Σ B[i] where B[i] > A[i],Algorithm,Easy,Online assessment,New grad,1,,2026-05-07,https://trueinterview.io/questions/permutation-max-greater-sum
+Merge Intervals Returning Original Start/End Indices,Algorithm,Medium,Phone screen,Senior,1,,2026-04-24,https://trueinterview.io/questions/merge-intervals-with-indices
+Insert Spaces Around Palindrome Layers,Algorithm,Easy,Phone screen,Junior / Mid,1,,2026-04-24,https://trueinterview.io/questions/shrink-palindrome-spaces
+Evaluate Last-Mile Product Metric Changes,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-04-16,https://trueinterview.io/questions/evaluate-last-mile-product-metric-changes
+Live Refactor: Function → Production Service,Object-Oriented Programming,Medium,Phone screen,Staff+,1,,2026-04-06,https://trueinterview.io/questions/function-to-service-refactor
+Design Multi-Carrier Package Delivery Routing System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-04,https://trueinterview.io/questions/design-multi-carrier-delivery-system
+Design State-Wide Temperature Sensor Ingestion,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-03-26,https://trueinterview.io/questions/design-sensor-temperature-ingestion
+Remove m Elements to Minimize Unique Count,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-03-26,https://trueinterview.io/questions/remove-m-minimize-unique-elements
+Answer leadership scenarios about influence and integrity,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-03-04,https://trueinterview.io/questions/answer-leadership-scenarios-about-influence-and-integrity
+Design Ticketmaster — Event Booking & Seat Reservation,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-03-03,https://trueinterview.io/questions/design-ticketmaster-event-booking
+Two Sum with Smallest-Indices Tiebreak (+ 3 Sum Follow-up),Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-03-03,https://trueinterview.io/questions/two-sum-smallest-indices
+3Sum (No Duplicate Triplets Assumed),Algorithm,Medium,Phone screen,Senior,1,,2026-03,https://trueinterview.io/questions/8fc7c24f-4bbb-435d-9d6a-c35a8c021037
+Merge Two Sorted Arrays In-Place,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid; Staff+,4,,2026-03,https://trueinterview.io/questions/merge-sorted-arrays-in-place
+Plants Pesticide — Days Until Stable,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-02-24,https://trueinterview.io/questions/plants-pesticide-days
+Poisonous Plants (Monotonic Stack),System Design,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-02,https://trueinterview.io/questions/d9a75f75-3072-4976-9253-e2e13522a51a
+Spring Boot Verbal Quiz,Behavioral / Knowledge,,Phone screen,Junior / Mid,1,,2025-12-31,https://trueinterview.io/questions/spring-boot-verbal-quiz
+Validate N×N Grid as Latin Square,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-12-31,https://trueinterview.io/questions/validate-square-grid
+Validate Nonogram Solution,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-12-31,https://trueinterview.io/questions/validate-nonogram
+Course Overlap by Student ID,Algorithm,Easy,Phone screen,Junior / Mid,1,,2025-12-31,https://trueinterview.io/questions/course-overlap
+Predict Item Category,System Design,Medium,Onsite / virtual onsite,Senior,1,,2025-12-17,https://trueinterview.io/questions/mlsd-predict-item-category
+Handle conflict and motivate engineering teams,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2025-12-09,https://trueinterview.io/questions/handle-conflict-and-motivate-engineering-teams
+Find the First Corrupted Character,Algorithm,Easy,Online assessment,Senior,2,,2025-12,https://trueinterview.io/questions/8593ff20-396d-44a7-9fb2-21c5eee2d0e1
+Design Walmart+ Membership System,System Design,Medium,Onsite / virtual onsite,Senior,1,,2025-11-20,https://trueinterview.io/questions/design-membership-system
+Check Output Correctness in Code,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2025-11,https://trueinterview.io/questions/d65899f8-0f93-47d6-9fd4-ca6ae30663bc
+Design System for Downstream Data Retrieval,Object-Oriented Programming,Medium,Onsite / virtual onsite,,1,,,https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8
+"Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)",SQL,Medium,Online assessment,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217

@@ -1,5 +1,8 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Zero Compaction Array Coding,Algorithm,Easy,Onsite / virtual onsite,1,2026-06-23,https://trueinterview.io/questions/zero-compaction-array-coding
-Super Day Behavioral Round,Blog,,Onsite / virtual onsite,1,2026-06-23,https://trueinterview.io/questions/superday-behavioral-round
-Shopping Cart Latency and Inventory,System Design,Hard,Onsite / virtual onsite,1,2026-06-23,https://trueinterview.io/questions/shopping-cart-latency-and-inventory
-Interval Consolidation,Algorithm,Medium,Online assessment,1,2026-06-23,https://trueinterview.io/questions/interval-consolidation-oa
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
+Super Day Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/superday-behavioral-round
+Grouped Binary Substrings,Algorithm,Medium,Online assessment,New grad; Junior / Mid,2,,2026-09,https://trueinterview.io/questions/grouped-binary-substrings
+Describe a proud project and conflict,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/describe-a-proud-project-and-conflict
+Zero Compaction Array Coding,Algorithm,Easy,Onsite / virtual onsite,Senior,1,,2026-06-23,https://trueinterview.io/questions/zero-compaction-array-coding
+Shopping Cart Latency and Inventory,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-06-23,https://trueinterview.io/questions/shopping-cart-latency-and-inventory
+Interval Consolidation,Algorithm,Medium,Online assessment,Senior,1,,2026-06-23,https://trueinterview.io/questions/interval-consolidation-oa

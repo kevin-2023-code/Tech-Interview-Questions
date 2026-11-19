@@ -1,20 +1,46 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Design a Typeahead Search System,System Design,Medium,Onsite / virtual onsite,1,2026-09-15,https://trueinterview.io/questions/design-a-typeahead-search-system
-Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,3,2026-09-10,https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e
-Tic-Tac-Toe Against a Deterministic Automatic Opponent,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-06,https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent
-Referral Credit Tracker with Indirect Referrals,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-06,https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals
-"Design Chat APIs, Storage, and Message Flows",System Design,Easy,Onsite / virtual onsite,1,2026-09-06,https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows
-Design In-Memory File System,Object Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,4,2026-08-31,https://trueinterview.io/questions/design-in-memory-file-system
-SWE / MLE Behavioral Round,Blog,,Onsite / virtual onsite,1,2026-08-13,https://trueinterview.io/questions/swe-behavioral-round
-Collaborative Playlist Design,System Design,Medium,Phone screen; Onsite / virtual onsite,1,2026-07-30,https://trueinterview.io/questions/collaborative-playlist-design
-Senior FDE Recruiter Screen,Blog,,Phone screen,1,2026-07-21,https://trueinterview.io/questions/senior-fde-recruiter-screen
-Maximal Square (LeetCode 221),Algorithm,Hard,Onsite / virtual onsite,3,2026-07-17,https://trueinterview.io/questions/maximal-square
-Find Optimal Commute,Algorithm,Medium,Phone screen; Onsite / virtual onsite,1,2026-06-29,https://trueinterview.io/questions/find-optimal-commute
-Tic-Tac-Toe II,Object Oriented Programming,Medium,Onsite / virtual onsite,2,2026-06-26,https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition
-Design Book Price Aggregator,System Design,Medium,Phone screen; Onsite / virtual onsite,1,2026-06-18,https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform
-File Encryption Tree Optimization,Algorithm,Hard,Phone screen,1,2026-06-06,https://trueinterview.io/questions/file-encryption-tree-optimization
-Customer Revenue System,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-06-05,https://trueinterview.io/questions/revenue-tracking-system-with-referrals
-Snapshot Set Iterator,Object Oriented Programming,Medium,Phone screen,2,2026-06,https://trueinterview.io/questions/snapshotset-with-iterator
-Tetris Block Drop,Algorithm,Medium,Onsite / virtual onsite,1,2026-06,https://trueinterview.io/questions/tetris-block-drop
-Firewall CIDR Rules,Algorithm,Hard,Phone screen; Onsite / virtual onsite,1,2026-06,https://trueinterview.io/questions/firewall-cidr-rules
-Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,3,2026-05-31,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Laser Grid Robot Max Safe Run,Algorithm,Medium,Online assessment,Intern; New grad; Junior / Mid,3,,2026-10,https://trueinterview.io/questions/laser-grid-robot-max-safe-run
+Group Anagrams,Algorithm,Medium,Phone screen,New grad; Senior,7,,2026-10,https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424
+Design a Typeahead Search System,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09-15,https://trueinterview.io/questions/design-a-typeahead-search-system
+Count Cyclic Rotation Pairs,Algorithm,Medium,Online assessment,Intern; New grad,3,,2026-09-10,https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e
+Tic-Tac-Toe Against a Deterministic Automatic Opponent,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-06,https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent
+Referral Credit Tracker with Indirect Referrals,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-06,https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals
+"Design Chat APIs, Storage, and Message Flows",System Design,Easy,Onsite / virtual onsite,Senior,1,,2026-09-06,https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows
+Optimize least-k revenue queries for read/write load,System Design,Hard,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/optimize-least-k-revenue-queries-for-read-write-load
+Check if CIDR is fully canceled by rules,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/check-if-cidr-is-fully-canceled-by-rules
+Compute last-5-minute QPS in memory,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/compute-last-5-minute-qps-in-memory
+String Anagram Windows,Algorithm,Medium,Phone screen,Junior / Mid; Senior,5,,2026-09,https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace
+Count Encrypted Files in a Directory Tree,Algorithm,Medium,Phone screen,New grad; Junior / Mid,1,,2026-09,https://trueinterview.io/questions/09691fdc-0417-5cb5-ba45-91a19e04f104
+File Encryption Tree Optimization,Algorithm,Hard,Phone screen,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/file-encryption-tree-optimization
+Design Slack-like Chat System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,10,,2026-09,https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
+Design Hit Counter with Variable Time Windows,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/design-hit-counter-with-variable-time-windows
+Design AI Chatbot App,System Design,Easy,Onsite / virtual onsite,Senior,5,,2026-09,https://trueinterview.io/questions/design-an-ai-chatbot-system
+Customer Revenue System,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/revenue-tracking-system-with-referrals
+House Robber Series,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,5,,2026-09,https://trueinterview.io/questions/house-robber-series
+Distributed File System,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,,2026-09,https://trueinterview.io/questions/distributed-file-system
+Anagrammed indexOf,Algorithm,Easy,Phone screen; Onsite / virtual onsite,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/anagrammed-indexof
+Serialize and Deserialize Binary Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/serialize-and-deserialize-binary-tree
+Find Optimal Commute,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/find-optimal-commute
+Firewall CIDR Rules,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/firewall-cidr-rules
+Tic-Tac-Toe II,Object-Oriented Programming,Medium,Onsite / virtual onsite,Intern; Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition
+Design In-Memory File System,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,New grad; Senior,4,,2026-08-31,https://trueinterview.io/questions/design-in-memory-file-system
+SWE / MLE Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,1,,2026-08-13,https://trueinterview.io/questions/swe-behavioral-round
+KV Store with Sliding-Window Average Latency,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior,1,,2026-08,https://trueinterview.io/questions/908ac171-29c9-53ff-b6ad-26faa94d0b1c
+Circuit Breaker Based Database Replica Routing,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/4ce104e2-73c6-501b-8be8-92ced07f6431
+"Impactful Project Experience: Goals, Role, Challenges, Outcomes",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-08,https://trueinterview.io/questions/18740a79-71e0-4f42-9231-0432e82af752
+Design Distributed Web Crawler,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,8,,2026-08,https://trueinterview.io/questions/design-distributed-web-crawler-4
+Encode And Decode,Algorithm,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Staff+,1,,2026-08,https://trueinterview.io/questions/integer-stream-encoder-decoder
+Implement Circuit Breaker Pattern,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/implement-circuit-breaker-pattern
+Durable Key-Value Store Serialization,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid; Senior,10,,2026-08,https://trueinterview.io/questions/durable-key-value-store-serialization
+Collaborative Playlist Design,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,1,,2026-07-30,https://trueinterview.io/questions/collaborative-playlist-design
+Senior FDE Recruiter Screen,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-07-21,https://trueinterview.io/questions/senior-fde-recruiter-screen
+Maximal Square (LeetCode 221),Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-07-17,https://trueinterview.io/questions/maximal-square
+Design Messaging With Message Deletion,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,2026-07,https://trueinterview.io/questions/design-messaging-with-message-deletion
+Check Whether Two Strings Are Anagrams,Algorithm,Easy,Onsite / virtual onsite,Senior,2,,2026-07,https://trueinterview.io/questions/check-whether-two-strings-are-anagrams
+Implement SnapshotSet,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,2,,2026-07,https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6
+Snapshot Set Iterator,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,2,,2026-07,https://trueinterview.io/questions/snapshotset-with-iterator
+Design Book Price Aggregator,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-06-18,https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform
+Tetris Block Drop,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-06,https://trueinterview.io/questions/tetris-block-drop
+Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,4,,2026-06,https://trueinterview.io/questions/design-a-stock-order-trade-management-system

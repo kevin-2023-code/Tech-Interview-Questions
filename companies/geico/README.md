@@ -4,19 +4,19 @@
 
 7 questions reported at GEICO, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (7)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (7)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | 6 | 2026-04-02 |
-| [Answer impact, disagreement, and motivation questions](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions) | Blog | — | Phone screen | 1 | 2026-03-01 |
-| [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Algorithm | Medium | Phone screen | 1 | — |
-| [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Algorithm | Easy | Online assessment | 1 | — |
-| [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Algorithm | Easy | Online assessment | 1 | — |
-| [Best Time to Buy and Sell Stock with Cooldown](../../questions/algorithm/best-time-to-buy-and-sell-stock-with-cooldown/README.md) | Algorithm | Medium | Phone screen | 1 | — |
-| [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Algorithm | Easy | Online assessment | 3 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Junior / Mid, Senior | 6 | 2026-07 |
+| [Answer impact, disagreement, and motivation questions](https://trueinterview.io/questions/answer-impact-disagreement-and-motivation-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Senior, Staff+ | 1 | 2026-05 |
+| [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid, Senior | 3 | 2026-05 |
+| [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Senior | 1 | 2026-02 |
+| [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Intern, New grad, Junior / Mid | 1 | — |
+| [Best Time to Buy and Sell Stock with Cooldown](../../questions/algorithm/best-time-to-buy-and-sell-stock-with-cooldown/README.md) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
 
 ---
 

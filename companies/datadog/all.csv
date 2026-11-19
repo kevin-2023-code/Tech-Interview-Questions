@@ -1,29 +1,29 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Prioritize Critical Findings in a High-Load Batch Processor Review,Blog,,Onsite / virtual onsite,1,2026-08-17,https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review
-Maximum Vacation With Minimum Flights,Algorithm,Medium,Onsite / virtual onsite,1,2026-04-10,https://trueinterview.io/questions/maximum-vacation-with-minimum-flights
-Cross-Platform Logging Library,System Design,Medium,Onsite / virtual onsite,10,2026-03-23,https://trueinterview.io/questions/logging-library-design
-Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,11,2026-03-06,https://trueinterview.io/questions/longest-substring-without-repeating-characters
-Implement Prefix Match Filter,Algorithm,Medium,Onsite / virtual onsite,1,2026-02-25,https://trueinterview.io/questions/implement-prefix-match-filter
-Minimum Coin Combination Counts,Algorithm,Medium,Onsite / virtual onsite,3,2026-02-17,https://trueinterview.io/questions/minimum-coin-combination-counts
-Linear Interpolation of Missing Points,Algorithm,Medium,Onsite / virtual onsite,1,2026-02-17,https://trueinterview.io/questions/linear-interpolation-of-missing-points
-Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,8,2026-02,https://trueinterview.io/questions/design-youtube
-Design Instagram,System Design,Medium,Onsite / virtual onsite,7,2026-01-22,https://trueinterview.io/questions/design-instagram
-Design A Facial Image Matching System,System Design,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/design-a-facial-image-matching-system
-Detect Duplicate Words in Paragraph Ignoring Case,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/f66f9244-8126-4fce-a31f-23c5a3974b69
-Remove Read-Only Files,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/e13f7d75-2d46-4e01-9948-20fdcf5feaf7
-Geography Related Log Query,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/4e25dade-77dd-4886-a217-9542455cab48
-Maximum Points Collection in Maze Graph Game,Algorithm,Hard,Phone screen,1,,https://trueinterview.io/questions/43f90ec3-73b8-4941-a623-cdff5c5a4882
-Minimum Path Sum,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/2f51777e-365c-5674-ab6a-8941f98594b7
-Find Repeated Words in Text Using Regular Expressions,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/0f0b2ee7-c88c-46e8-b6af-1e88cf27aa6f
-Query Log Matching,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/83d7ff94-bab7-47e3-a4b4-e177692a608e
-File System Directory Size Sum,Algorithm,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/1a1f123e-d4ee-4722-a9c2-1aeefecbc649
-File System Deletion,Algorithm,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518
-Design a Buffered File Writer,Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/ccd44a38-a924-48e6-b5c0-af34aa48b27e
-Implement Binary Focal Loss,Algorithm,Easy,Online assessment,1,,https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc
-Implement Grouped Query Attention Forward Pass,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7
-Latency Bucket Counter,Algorithm,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e
-Log Ingestion and Query,Algorithm,Medium,Phone screen,1,,https://trueinterview.io/questions/c10482fd-12d2-4f57-8a05-f821a2f2d1c0
-Implement a Snowflake Query Client (Start Query & Get Query Status),Object Oriented Programming,Medium,Onsite / virtual onsite,1,,https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053
-Buffer Write Implementation,Object Oriented Programming,Easy,Onsite / virtual onsite,1,,https://trueinterview.io/questions/16e264d7-ba41-4958-96cb-06b6d50400ed
-Design Metrics System,System Design,Hard,Onsite / virtual onsite,9,,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
-Design Mint.com,System Design,Medium,Onsite / virtual onsite,2,,https://trueinterview.io/questions/mint-com
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Longest Substring Without Repeating Characters II,Algorithm,Easy,Phone screen,New grad; Junior / Mid; Senior,11,,2026-09,https://trueinterview.io/questions/longest-substring-without-repeating-characters
+Prioritize Critical Findings in a High-Load Batch Processor Review,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-08-17,https://trueinterview.io/questions/prioritize-critical-findings-in-a-high-load-batch-processor-review
+Design Youtube,System Design,Medium,Phone screen; Onsite / virtual onsite,Senior,8,,2026-08,https://trueinterview.io/questions/design-youtube
+File System Deletion,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-07,https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518
+Minimum Path Sum,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-06,https://trueinterview.io/questions/2f51777e-365c-5674-ab6a-8941f98594b7
+Implement Binary Focal Loss,Algorithm,Easy,Online assessment,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc
+Implement Grouped Query Attention Forward Pass,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7
+Implement a Snowflake Query Client (Start Query & Get Query Status),Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-06,https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053
+Minimum Coin Combination Counts,Algorithm,Medium,Onsite / virtual onsite,New grad,3,,2026-05,https://trueinterview.io/questions/minimum-coin-combination-counts
+Log Ingestion and Query,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-05,https://trueinterview.io/questions/c10482fd-12d2-4f57-8a05-f821a2f2d1c0
+Design Mint.com,System Design,Medium,Onsite / virtual onsite,Junior / Mid,2,,2026-05,https://trueinterview.io/questions/mint-com
+Design Instagram,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,7,,2026-05,https://trueinterview.io/questions/design-instagram
+Maximum Vacation With Minimum Flights,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-04-10,https://trueinterview.io/questions/maximum-vacation-with-minimum-flights
+Cross-Platform Logging Library,System Design,Medium,Onsite / virtual onsite,Senior,10,,2026-03-23,https://trueinterview.io/questions/logging-library-design
+Query Log Matching,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-03,https://trueinterview.io/questions/83d7ff94-bab7-47e3-a4b4-e177692a608e
+Implement Prefix Match Filter,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-02-25,https://trueinterview.io/questions/implement-prefix-match-filter
+Linear Interpolation of Missing Points,Algorithm,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-02-17,https://trueinterview.io/questions/linear-interpolation-of-missing-points
+Latency Bucket Counter,Algorithm,Easy,Onsite / virtual onsite,Junior / Mid,1,,2026-02,https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e
+Geography Related Log Query,Algorithm,Easy,Online assessment,Senior,1,,2025-11,https://trueinterview.io/questions/4e25dade-77dd-4886-a217-9542455cab48
+Design a Buffered File Writer,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2025-11,https://trueinterview.io/questions/ccd44a38-a924-48e6-b5c0-af34aa48b27e
+Buffer Write Implementation,Object-Oriented Programming,Easy,Onsite / virtual onsite,Junior / Mid,1,,2025-11,https://trueinterview.io/questions/16e264d7-ba41-4958-96cb-06b6d50400ed
+Remove Read-Only Files,Algorithm,Medium,Phone screen,Junior / Mid,1,,2025-02,https://trueinterview.io/questions/e13f7d75-2d46-4e01-9948-20fdcf5feaf7
+Design A Facial Image Matching System,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,1,,,https://trueinterview.io/questions/design-a-facial-image-matching-system
+Detect Duplicate Words in Paragraph Ignoring Case,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/f66f9244-8126-4fce-a31f-23c5a3974b69
+Maximum Points Collection in Maze Graph Game,Algorithm,Hard,Phone screen,Senior,1,,,https://trueinterview.io/questions/43f90ec3-73b8-4941-a623-cdff5c5a4882
+Find Repeated Words in Text Using Regular Expressions,Algorithm,Easy,Online assessment,Intern; New grad; Junior / Mid,1,,,https://trueinterview.io/questions/0f0b2ee7-c88c-46e8-b6af-1e88cf27aa6f
+File System Directory Size Sum,Algorithm,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,,https://trueinterview.io/questions/1a1f123e-d4ee-4722-a9c2-1aeefecbc649

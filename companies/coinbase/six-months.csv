@@ -1,4 +1,16 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-"Build Task Management Through Records, Search, Assignment, and Completion",Object Oriented Programming,Medium,Online assessment,1,2026-08-27,https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion
-Array Plus One with Large-Input Follow-Up,Algorithm,Medium,Phone screen,2,2026-06-28,https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up
-Ring Buffer (Producer / Consumer with Backpressure),Object Oriented Programming,Hard,Onsite / virtual onsite,1,2026-06-15,https://trueinterview.io/questions/ring-buffer-producer-consumer
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Task Management System with Expiring Assignments and Overdue Tracking,Object-Oriented Programming,Hard,Onsite / virtual onsite,New grad; Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/5f52371c-798e-5b63-9766-25ef1e9094a5
+"Build Task Management Through Records, Search, Assignment, and Completion",Object-Oriented Programming,Medium,Online assessment,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion
+Implement a crypto order management system,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/implement-a-crypto-order-management-system
+Bank System,Object-Oriented Programming,Hard,Online assessment,Junior / Mid,3,,2026-09,https://trueinterview.io/questions/bank-system
+Minimum Days to Execute Ordered Tasks with Cooldown,Algorithm,Medium,Phone screen,Senior,1,,2026-08,https://trueinterview.io/questions/aceaaa24-bfc7-5f9d-9dac-8462aa82ba07
+Moving Average over a Sliding Window,Algorithm,Easy,Online assessment,Senior,1,,2026-08,https://trueinterview.io/questions/404adef3-580e-58ed-80ed-37af565360df
+Currency Exchange,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-08,https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971
+Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,2,,2026-08,https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system
+Debug and Extend Cursor Queries,Algorithm,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/debug-and-extend-cursor-queries
+Banking System with Payments and Account Merging,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,6,,2026-07,https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f
+Design Coinbase Explore,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-07,https://trueinterview.io/questions/sd-coinbase-explore-realtime-price
+Array Plus One with Large-Input Follow-Up,Algorithm,Medium,Phone screen,Junior / Mid; Staff+,2,,2026-06-28,https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up
+Ring Buffer (Producer / Consumer with Backpressure),Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior,1,,2026-06-15,https://trueinterview.io/questions/ring-buffer-producer-consumer
+Design Stock Trading Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,4,,2026-06,https://trueinterview.io/questions/design-a-stock-order-trade-management-system
+Recipe Manager,Object-Oriented Programming,Medium,Online assessment,New grad; Junior / Mid; Senior,4,,2026-06,https://trueinterview.io/questions/recipe-manager

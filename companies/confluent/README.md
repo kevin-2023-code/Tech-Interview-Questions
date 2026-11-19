@@ -4,42 +4,42 @@
 
 30 questions reported at Confluent, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (30)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (3) · [last 6 months](six-months.csv) (7) · [all](all.csv) (30)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design an RSS News Feed Service](https://trueinterview.io/questions/design-an-rss-news-feed-service) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-04-29 |
-| [Design a News Feed and Mail Service](https://trueinterview.io/questions/design-a-news-feed-and-mail-service) | System Design | Hard | Onsite / virtual onsite | 1 | 2026-02-22 |
-| [Function signature matching](https://trueinterview.io/questions/solve-signature-file-and-queue-problems-function-signature-matching) | Algorithm | Medium | Onsite / virtual onsite | 1 | 2026-02-22 |
-| [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Phone screen, Onsite / virtual onsite | 16 | 2026-01-14 |
-| [Search Words and Phrases in a Large Line-Oriented File](https://trueinterview.io/questions/search-words-and-phrases-in-a-large-line-oriented-file) | System Design | Medium | Onsite / virtual onsite | 1 | 2026-01-01 |
-| [Implement tail -n for a Very Large File](https://trueinterview.io/questions/implement-tail-n-for-a-very-large-file) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-01-01 |
-| [Explain Linux Command Execution, Filesystems, and Isolation](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation) | Blog | — | Onsite / virtual onsite | 1 | 2026-01-01 |
-| [Design an LRU Cache with a Constant-Time Average](https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | 2026-01-01 |
-| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | 10 | 2025-11-08 |
-| [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Phone screen | 10 | 2025-10-15 |
-| [Design Infinite Queue with GetRandom O(1)](https://trueinterview.io/questions/design-infinite-queue-with-getrandom-o-1) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | — |
-| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | Onsite / virtual onsite | 7 | — |
-| [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | Onsite / virtual onsite | 4 | — |
-| [Windowed Key-Value Store](https://trueinterview.io/questions/windowed-key-value-store) | Object Oriented Programming | Hard | Phone screen | 1 | — |
-| [Wildcard Matching](../../questions/algorithm/wildcard-matching/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | 1 | — |
-| [Monsters Battle](https://trueinterview.io/questions/monsters-battle) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
-| [Rank Songs by Popularity](https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49) | Algorithm | Medium | Online assessment | 2 | — |
-| [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | Phone screen | 2 | — |
-| [Minimum Value to Get Positive Step by Step Sum](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd) | Algorithm | Easy | Online assessment | 1 | — |
-| [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
-| [O(1) Key-Value Store with Average and Max Retrieval](https://trueinterview.io/questions/f6664ca5-9a30-4110-a9b2-5d15940d61f2) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
-| [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30) | Algorithm | Easy | Online assessment | 1 | — |
-| [Implement n-tail (return last n elements)](https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4) | Algorithm | Easy | Online assessment | 1 | — |
-| [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
-| [Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights](https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb) | Algorithm | Medium | Phone screen | 1 | — |
-| [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Object Oriented Programming | Easy | Onsite / virtual onsite | 1 | — |
-| [Variadic Function Matching](https://trueinterview.io/questions/11a4e0a4-82a6-4aa2-9265-eb5e09144062) | Algorithm | Medium | Phone screen | 1 | — |
-| [Tail N Lines](https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417) | Algorithm | Medium | Onsite / virtual onsite | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Search Words and Phrases in a Large Line-Oriented File](https://trueinterview.io/questions/search-words-and-phrases-in-a-large-line-oriented-file?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-09 |
+| [O(1) Key-Value Store with Average and Max Retrieval](https://trueinterview.io/questions/f6664ca5-9a30-4110-a9b2-5d15940d61f2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-09 |
+| [Design TinyURL](https://trueinterview.io/questions/design-tinyurl?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Phone screen | Junior / Mid, Senior | 10 | 2026-09 |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid, Senior | 10 | 2026-08 |
+| [Design an LRU Cache with a Constant-Time Average](https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-07 |
+| [Tail N Lines](https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-07 |
+| [Design News Feed](https://trueinterview.io/questions/design-news-feed?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Phone screen, Onsite / virtual onsite | Junior / Mid, Senior | 16 | 2026-07 |
+| [Implement tail -n for a Very Large File](https://trueinterview.io/questions/implement-tail-n-for-a-very-large-file?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | Senior | 1 | 2026-05 |
+| [Design an RSS News Feed Service](https://trueinterview.io/questions/design-an-rss-news-feed-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Junior / Mid | 1 | 2026-05 |
+| [Design a News Feed and Mail Service](https://trueinterview.io/questions/design-a-news-feed-and-mail-service?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 2026-05 |
+| [Implement n-tail (return last n elements)](https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid, Senior | 1 | 2026-05 |
+| [Variadic Function Matching](https://trueinterview.io/questions/11a4e0a4-82a6-4aa2-9265-eb5e09144062?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-05 |
+| [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 2 | 2026-04 |
+| [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Senior | 1 | 2026-04 |
+| [Function signature matching](https://trueinterview.io/questions/solve-signature-file-and-queue-problems-function-signature-matching?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 2026-02-22 |
+| [Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights](https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-02 |
+| [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | Junior / Mid | 1 | 2026-02 |
+| [Explain Linux Command Execution, Filesystems, and Isolation](https://trueinterview.io/questions/explain-linux-command-execution-filesystems-and-isolation?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-01-01 |
+| [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | Junior / Mid | 1 | 2026-01 |
+| [Minimum Value to Get Positive Step by Step Sum](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Easy | Online assessment | New grad | 1 | 2025-11 |
+| [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Easy | Onsite / virtual onsite | New grad | 1 | 2025-11 |
+| [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 2025-10 |
+| [Design Infinite Queue with GetRandom O(1)](https://trueinterview.io/questions/design-infinite-queue-with-getrandom-o-1?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Junior / Mid, Senior | 1 | — |
+| [Design Spotify](https://trueinterview.io/questions/design-spotify-2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Medium | Onsite / virtual onsite | Senior, Staff+ | 7 | — |
+| [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior, Staff+ | 4 | — |
+| [Windowed Key-Value Store](https://trueinterview.io/questions/windowed-key-value-store?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Phone screen | Senior | 1 | — |
+| [Wildcard Matching](../../questions/algorithm/wildcard-matching/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | — |
+| [Monsters Battle](https://trueinterview.io/questions/monsters-battle?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | — |
+| [Rank Songs by Popularity](https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Online assessment | New grad, Junior / Mid | 2 | — |
+| [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior, Staff+ | 1 | — |
 
 ---
 

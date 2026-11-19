@@ -6,11 +6,11 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (1) · [last 6 months](six-months.csv) (1) · [all](all.csv) (1)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design Consistent List and Category APIs](../../questions/system-design/design-consistent-list-and-category-apis/README.md) | System Design | Easy | Onsite / virtual onsite | 1 | 2026-09-15 |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Design Consistent List and Category APIs](../../questions/system-design/design-consistent-list-and-category-apis/README.md) | System Design | Easy | Onsite / virtual onsite | New grad, Junior / Mid | 1 | 2026-09-15 |
 
 ---
 

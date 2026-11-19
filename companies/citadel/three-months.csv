@@ -1,9 +1,24 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Memory Blocks — Reachable MEX After One Increment,Algorithm,Medium,Online assessment,1,2026-10-01,https://trueinterview.io/questions/oa-memory-block-mex-one-increment
-Research Engineer Sequence Classification,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-27,https://trueinterview.io/questions/research-engineer-sequence-classification
-Design a Top-Ten Trade Query with Exact Amounts,Algorithm,Medium,Phone screen,1,2026-09-18,https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts
-Define a Reliable Trade-Reconciliation Library Contract,Object Oriented Programming,Hard,Phone screen,1,2026-09-18,https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract
-SDE OA Fundamentals Quiz,Blog,,Online assessment,1,2026-09-17,https://trueinterview.io/questions/sde-oa-fundamentals-quiz
-Deduplicating File System,Object Oriented Programming,Medium,Phone screen,1,2026-09-08,https://trueinterview.io/questions/deduplicating-file-system
-Reduce Hashing and Safely Delete Shared File Content,System Design,Medium,Phone screen,1,2026-09-03,https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content
-"Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling",System Design,Hard,Phone screen,1,2026-08-29,https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Terminal-Based Two-Player Battleship,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/05f24831-d93c-522f-85ee-0811e321b613
+Memory Blocks — Reachable MEX After One Increment,Algorithm,Medium,Online assessment,New grad,1,,2026-10-01,https://trueinterview.io/questions/oa-memory-block-mex-one-increment
+Search Suggestions System,Algorithm,Medium,Phone screen,New grad; Junior / Mid,2,,2026-10,https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13
+Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
+Behavioral / Resume Drilling Across the Loop,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Intern; Junior / Mid,1,,2026-10,https://trueinterview.io/questions/citadel-bq-resume-loop
+Research Engineer Sequence Classification,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-09-27,https://trueinterview.io/questions/research-engineer-sequence-classification
+Design a Top-Ten Trade Query with Exact Amounts,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09-18,https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts
+Define a Reliable Trade-Reconciliation Library Contract,Object-Oriented Programming,Hard,Phone screen,Junior / Mid,1,,2026-09-18,https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract
+SDE OA Fundamentals Quiz,Behavioral / Knowledge,,Online assessment,New grad,1,,2026-09-17,https://trueinterview.io/questions/sde-oa-fundamentals-quiz
+Deduplicating File System,Object-Oriented Programming,Medium,Phone screen,Senior,1,,2026-09-08,https://trueinterview.io/questions/deduplicating-file-system
+Reduce Hashing and Safely Delete Shared File Content,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-09-03,https://trueinterview.io/questions/reduce-hashing-and-safely-delete-shared-file-content
+Merge Timestamped Price-Delta Feeds,Algorithm,Medium,Phone screen,Intern,1,,2026-09,https://trueinterview.io/questions/bec8e37e-9fd0-53be-9ee9-9e904bbf0847
+Permutation-Invariant Classification of Variable-Length Feature Sets,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/4835bfa3-8b24-5b16-9372-993fa9b59e80
+Discuss a Project You Are Proud Of and How You Work,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/discuss-a-project-you-are-proud-of-and-how-you-work
+"Choose 200 of a Million Records to Label, Improving on Uniform Random Sampling",System Design,Hard,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/choose-200-of-a-million-records-to-label-improving-on-uniform-random-sampling
+Minimum Changes for Every Length-K Substring to Be a Palindrome,Algorithm,Medium,Phone screen,New grad,1,,2026-09,https://trueinterview.io/questions/e177ccb7-1580-508a-a95e-14b16aaea032
+Reconcile Unmatched Buy and Sell Trades,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/0060bc58-0dc6-5b92-a4a9-07bef5b895c0
+Palindrome Detection,Algorithm,Easy,Online assessment,Junior / Mid,3,,2026-09,https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3
+Token Expiry and Reset Management Problem,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/847cd959-ce43-4a47-a335-5a919aa91579
+Multi-Exchange BBO / NBBO Class,Object-Oriented Programming,Medium,Phone screen,Intern; Senior,1,,2026-09,https://trueinterview.io/questions/multi-exchange-nbbo-class
+Merge K Sorted Price Streams,Object-Oriented Programming,Medium,Phone screen,Intern; Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/merge-k-sorted-streams-ood
+Minimum Changes to Make a K-Periodic Palindromic Password,Algorithm,Medium,Phone screen,New grad,2,,2026-09,https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03
+Maximum Earnings After Converting Days Off to Workdays,Algorithm,Medium,Phone screen,New grad,2,,2026-09,https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb

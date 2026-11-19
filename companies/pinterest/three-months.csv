@@ -1,10 +1,35 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Senior Staff Hiring-Manager Conversation,Blog,,Onsite / virtual onsite,1,2026-09-23,https://trueinterview.io/questions/senior-staff-hiring-manager-conversation
-"Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict",Blog,,Onsite / virtual onsite,1,2026-09-02,https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict
-Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing,System Design,Hard,Onsite / virtual onsite,1,2026-09-02,https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing
-Reason About Nested JSON Schema Validation,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/reason-about-nested-json-schema-validation
-Design a Large-File Upload and Analysis Flow,System Design,Medium,Onsite / virtual onsite,2,2026-09-01,https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow
-Model Elevator Dispatch for Sequential and Overlapping Calls,Object Oriented Programming,Hard,Onsite / virtual onsite,1,2026-08-28,https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls
-"Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date",System Design,Hard,Onsite / virtual onsite,1,2026-08-28,https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date
-Minimum Transfers Between Pin Boards,Algorithm,Hard,Onsite / virtual onsite,1,2026-08-26,https://trueinterview.io/questions/minimum-transfers-between-pin-boards
-Tree-Encoded Subtree Deletion and Stable Compaction,Algorithm,Hard,Phone screen,1,2026-08-26,https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Splitwise: Settle Balances and Minimize Transactions,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/93510704-e939-5d09-9ac2-c4ad956631ba
+Top-Scoring Viewed Pin in a Sliding Time Window,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-10,https://trueinterview.io/questions/2dc9ad48-e6b4-5d98-acb7-0b4509e50479
+Count Valid IPv4 Addresses in Fetched Text,Algorithm,Medium,Phone screen,Senior,1,,2026-10,https://trueinterview.io/questions/100ce093-854b-5ebe-86bb-0e448b469a7d
+Bus Routes (LC 815),Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/phone-screen-bus-routes
+Design Inventory Management System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/system-design-catalog-update-bulk-single
+Design Ad Click Event Aggregation System,System Design,Hard,Onsite / virtual onsite,Senior,6,,2026-10,https://trueinterview.io/questions/system-design-ads-event-aggregation
+Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,,2026-10,https://trueinterview.io/questions/rate-limiter
+Senior Staff Hiring-Manager Conversation,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09-23,https://trueinterview.io/questions/senior-staff-hiring-manager-conversation
+"Behavioral Deep Dive: Owned Project Metrics, Fast Decisions, Feedback, and Conflict",Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09-02,https://trueinterview.io/questions/behavioral-deep-dive-owned-project-metrics-fast-decisions-feedback-and-conflict
+Design a Merchant Catalog Update Pipeline with Bulk Files and Image Resizing,System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-09-02,https://trueinterview.io/questions/design-a-merchant-catalog-update-pipeline-with-bulk-files-and-image-resizing
+Highly Active User Percentage by Country,SQL,Medium,Online assessment,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/f31f02a5-b053-59b1-a6ed-4246c575cd9c
+Implement a Read-Through Cache for Product GET API,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/cd8e794f-fcdf-59c3-a081-0f5fa8b88ce4
+Top Two Categories by Engagement Rate per Country,SQL,Medium,Online assessment,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/3b783d83-6ac7-5599-9792-a02269856670
+Reason About Nested JSON Schema Validation,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-01,https://trueinterview.io/questions/reason-about-nested-json-schema-validation
+Model Elevator Dispatch for Sequential and Overlapping Calls,Object-Oriented Programming,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls
+"Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date",System Design,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date
+Implement and Evaluate Pin Similarity in Python,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/implement-and-evaluate-pin-similarity-in-python
+Design a Large-File Upload and Analysis Flow,System Design,Medium,Onsite / virtual onsite,Senior; Staff+,2,,2026-09-01,https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow
+Return All Target Expressions With Addition and Multiplication Precedence,Algorithm,Hard,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/bf50f7be-58b2-52b0-bd29-97cc8b5eb546
+Minimum Subsequences to Form a Target String,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/9423861c-f075-545f-82c3-3725c330617d
+Count Unique Active Pins Over Time,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/5be6bdc4-e6f9-5de3-ac51-09f1c5936324
+Reach a Target by Inserting Addition or Multiplication Left to Right,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/58c488bd-d704-52e2-beb8-105e3f2ae61d
+Coin Change (LC 322),Algorithm,Medium,Onsite / virtual onsite,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/coin-change
+Violation Log Analyzer,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/violation-log-analyzer
+"Leadership, Initiative, Project End-to-End",Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,1,,2026-09,https://trueinterview.io/questions/behavioral-leadership-initiative
+Design Typehead Suggestion,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,7,,2026-09,https://trueinterview.io/questions/sd-typeahead-autocomplete
+Reconstruct Itinerary II,Algorithm,Hard,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/reconstruct-itinerary-3
+Escape Room,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/escape-room-player-tracking
+Pin Board Connectivity,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/graph-distance-mle-screen
+Maximum Profit in Job Scheduling,Algorithm,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/maximum-profit-in-job-scheduling
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Minimum Transfers Between Pin Boards,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid,1,,2026-08-26,https://trueinterview.io/questions/minimum-transfers-between-pin-boards
+Tree-Encoded Subtree Deletion and Stable Compaction,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-08-26,https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction

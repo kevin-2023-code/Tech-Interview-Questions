@@ -1,21 +1,45 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Merge Object Histories Across Two Tracking Systems,Object Oriented Programming,Medium,Onsite / virtual onsite,1,2026-09-29,https://trueinterview.io/questions/cross-system-object-tracker-history
-Compare Driving Algorithms Using Hard-Braking Rates,Blog,,Phone screen,1,2026-09-06,https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates
-Handle Competing Work Priorities,Blog,,Onsite / virtual onsite,1,2026-08-27,https://trueinterview.io/questions/handle-competing-work-priorities
-Describe a Project You Are Proud Of,Blog,,Onsite / virtual onsite,1,2026-08-27,https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2
-Minimize Total Grid Distance to Every Building,Algorithm,Hard,Onsite / virtual onsite,1,2026-08-27,https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building
-SWE Resume Deep Dive: Technologies and Outcome Metrics,Blog,,Phone screen,1,2026-08-11,https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics
-Number of Visible People in a Queue (LC 1944),Algorithm,Hard,Onsite / virtual onsite,1,2026-07-31,https://trueinterview.io/questions/number-of-visible-people-in-a-queue-lc-1944
-Design a Global Cache for Small Images,System Design,Medium,Onsite / virtual onsite,1,2026-07-14,https://trueinterview.io/questions/global-small-image-cache
-Build an Arithmetic Expression to Reach a Target,Algorithm,Hard,Phone screen,1,2026-07-09,https://trueinterview.io/questions/arithmetic-expression-reach-target
-Race Car: Minimum Instructions to Reach a Target,Algorithm,Hard,Phone screen,1,2026-07-06,https://trueinterview.io/questions/race-car-minimum-instructions
-Implement Max Pooling with Argmax Coordinates,Algorithm,Medium,Phone screen,1,2026-07-02,https://trueinterview.io/questions/max-pooling-with-argmax-coordinates
-Find Dictionary Words Represented by Repeated Letters,Algorithm,Medium,Onsite / virtual onsite,1,2026-06-27,https://trueinterview.io/questions/find-dictionary-words-represented-by-repeated-letters
-Find a Repeating Vehicle Program Under Fuel and Memory Limits,Algorithm,Hard,Onsite / virtual onsite,1,2026-06-27,https://trueinterview.io/questions/find-a-repeating-vehicle-program-under-fuel-and-memory-limits
-Design a Fleet That Collects Mapping Data,System Design,Medium,Onsite / virtual onsite,1,2026-06-27,https://trueinterview.io/questions/design-a-fleet-that-collects-mapping-data
-OO Design: Continuous Time Intervals from Two Timestamp Signal Streams,Object Oriented Programming,Medium,Phone screen,1,2026-06-13,https://trueinterview.io/questions/timestamp-signals-time-intervals-ood
-"Validate a Forest from (parent, child) Edges",Algorithm,Medium,Phone screen,1,2026-06-04,https://trueinterview.io/questions/forest-validation-parent-child-edges
-Retention Rating By Active Month,SQL,Medium,Online assessment,1,2026-05-23,https://trueinterview.io/questions/retention-rating-by-active-month
-Monthly Ride Aggregation,SQL,Easy,Online assessment,1,2026-05-23,https://trueinterview.io/questions/monthly-ride-aggregation
-Low-Frequency Users By City,SQL,Easy,Online assessment,1,2026-05-23,https://trueinterview.io/questions/low-frequency-users-by-city
-7-Day Inactive Users,SQL,Easy,Online assessment,1,2026-05-23,https://trueinterview.io/questions/7-day-inactive-users
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Rate Limiter,Object-Oriented Programming,Easy,Onsite / virtual onsite,New grad; Junior / Mid; Senior; Staff+,10,,2026-10,https://trueinterview.io/questions/rate-limiter
+Merge Object Histories Across Two Tracking Systems,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-09-29,https://trueinterview.io/questions/cross-system-object-tracker-history
+Compare Driving Algorithms Using Hard-Braking Rates,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-09-06,https://trueinterview.io/questions/compare-driving-algorithms-using-hard-braking-rates
+Count Islands and Compute Coastline Length,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/d3f92d42-3cee-5d76-bec0-10b3df78167e
+Random Access in Run-Length Encoded Data,Algorithm,Easy,Online assessment,Senior,1,,2026-09,https://trueinterview.io/questions/6f2137c5-0639-5fd4-a800-365447eee0a6
+Match Dictionary Words After Collapsing Consecutive Duplicates,Algorithm,Easy,Online assessment,Senior,1,,2026-09,https://trueinterview.io/questions/4b019575-ee7a-52d8-ac1f-f8de2d5033d8
+Vehicle Maintenance Event Validation,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-09,https://trueinterview.io/questions/40bddb3c-0280-572b-a65b-ba31f5b9fba5
+Describe a Project You Are Proud Of,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/describe-a-project-you-are-proud-of-2
+Minimize Total Grid Distance to Every Building,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building
+Find Dictionary Words Represented by Repeated Letters,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/find-dictionary-words-represented-by-repeated-letters
+Find a Repeating Vehicle Program Under Fuel and Memory Limits,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/find-a-repeating-vehicle-program-under-fuel-and-memory-limits
+Design a Fleet That Collects Mapping Data,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/design-a-fleet-that-collects-mapping-data
+Count Islands and Water Boundary,Algorithm,Medium,Phone screen,Junior / Mid,4,,2026-09,https://trueinterview.io/questions/count-islands-and-water-boundary
+Filter an N-ary Tree and Render It with Indentation,Algorithm,Medium,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/4a42af98-55d6-5d1e-aa8b-01049a27f459
+Sort a Quadratic-Transformed Sorted Array,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/sort-transformed-quadratic-array
+Streaming Interval Coverage on a Number Axis,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/interval-pollution-coverage
+Build an Arithmetic Expression to Reach a Target,Algorithm,Hard,Phone screen,Senior,1,,2026-09,https://trueinterview.io/questions/arithmetic-expression-reach-target
+Prefix Autocomplete via Trie,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/trie-prefix-autocomplete
+Process Raw CSV for Downstream Consumers,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/csv-parser-open-ended
+Handle Competing Work Priorities,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,2026-08-27,https://trueinterview.io/questions/handle-competing-work-priorities
+SWE Resume Deep Dive: Technologies and Outcome Metrics,Behavioral / Knowledge,,Phone screen,Senior,1,,2026-08-11,https://trueinterview.io/questions/swe-resume-deep-dive-technologies-metrics
+Format Bytes as a Hexdump with ASCII Preview,Algorithm,Easy,Online assessment,Senior,1,,2026-08,https://trueinterview.io/questions/a4271820-2948-5b33-9f94-e2515685b70c
+Employee Hierarchy FTE Score and Capacity-Constrained Insertion,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-08,https://trueinterview.io/questions/93c70728-cc29-5cd9-a25c-e30e55f46d3e
+Count Frequencies in a Bounded Integer Array,Algorithm,Easy,Online assessment,Senior,1,,2026-08,https://trueinterview.io/questions/80b6974a-397a-5a98-82d0-d78895577267
+Evaluate a Self-Driving Model End-to-End,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/sd-evaluate-self-driving-model
+Randomly Populate Grid with Connected Equal-Size Token Regions,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-08,https://trueinterview.io/questions/random-grid-token-fill
+Sliding-Window Rate Limiter II,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,14,,2026-08,https://trueinterview.io/questions/sliding-window-rate-limiter
+Number of Visible People in a Queue (LC 1944),Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07-31,https://trueinterview.io/questions/number-of-visible-people-in-a-queue-lc-1944
+Design a Global Cache for Small Images,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-07-14,https://trueinterview.io/questions/global-small-image-cache
+Race Car: Minimum Instructions to Reach a Target,Algorithm,Hard,Phone screen,Senior,1,,2026-07-06,https://trueinterview.io/questions/race-car-minimum-instructions
+Implement Max Pooling with Argmax Coordinates,Algorithm,Medium,Phone screen,Junior / Mid,1,,2026-07-02,https://trueinterview.io/questions/max-pooling-with-argmax-coordinates
+A/B Test P-Value for Time to Pickup,Algorithm,Medium,Phone screen,New grad,1,,2026-07,https://trueinterview.io/questions/0c1140f9-faff-56f1-81da-8127291869c1
+Count Squares Formed by Segments,Algorithm,Hard,Phone screen,Junior / Mid,1,,2026-07,https://trueinterview.io/questions/count-squares-formed-by-segments
+Evaluate Smart Wait Launch Impact,Behavioral / Knowledge,,Online assessment,New grad,1,,2026-07,https://trueinterview.io/questions/evaluate-smart-wait-launch-impact
+Implement Safe Average Function,Algorithm,Easy,Online assessment,New grad,1,,2026-07,https://trueinterview.io/questions/implement-safe-average-function
+Retention Rating By Active Month,SQL,Medium,Online assessment,New grad,1,,2026-07,https://trueinterview.io/questions/retention-rating-by-active-month
+Monthly Ride Aggregation,SQL,Easy,Online assessment,New grad,1,,2026-07,https://trueinterview.io/questions/monthly-ride-aggregation
+Low-Frequency Users By City,SQL,Easy,Online assessment,New grad,1,,2026-07,https://trueinterview.io/questions/low-frequency-users-by-city
+7-Day Inactive Users,SQL,Easy,Online assessment,New grad,1,,2026-07,https://trueinterview.io/questions/7-day-inactive-users
+Minimum Number of Refueling Stops,Algorithm,Medium,Phone screen,Senior,2,,2026-07,https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c
+Serialize Arithmetic Expression Tree with Minimum Parentheses,Algorithm,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-07,https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens
+OO Design: Continuous Time Intervals from Two Timestamp Signal Streams,Object-Oriented Programming,Medium,Phone screen,Junior / Mid,1,,2026-06-13,https://trueinterview.io/questions/timestamp-signals-time-intervals-ood
+"Validate a Forest from (parent, child) Edges",Algorithm,Medium,Phone screen,Senior,1,,2026-06-04,https://trueinterview.io/questions/forest-validation-parent-child-edges
+Waymo Passenger Pickup Scheduler (OO Design),Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-06,https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design

@@ -4,22 +4,22 @@
 
 10 questions reported at Airtable, most recently reported first.
 
-CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (10)
+CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (1) · [all](all.csv) (10)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | 2026-04-30 |
-| [Optimize a dispatcher’s scheduling data structures](https://trueinterview.io/questions/optimize-a-dispatcher-s-scheduling-data-structures) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | 2026-02-12 |
-| [Describe an inclusive action you took](https://trueinterview.io/questions/describe-an-inclusive-action-you-took) | Blog | — | Onsite / virtual onsite | 1 | 2026-02-12 |
-| [Design NL-to-Formula assistant for Airtable](https://trueinterview.io/questions/design-nl-to-formula-assistant-for-airtable) | System Design | Hard | Onsite / virtual onsite | 1 | 2025-11-04 |
-| [Answer ambiguity and PM disagreement behavioral questions](https://trueinterview.io/questions/answer-ambiguity-and-pm-disagreement-behavioral-questions) | Blog | — | Phone screen | 1 | 2025-10-14 |
-| [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Algorithm | Medium | Phone screen | 1 | — |
-| [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Object Oriented Programming | Hard | Onsite / virtual onsite | 1 | — |
-| [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Algorithm | Medium | Phone screen | 1 | — |
-| [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) | Algorithm | Medium | Phone screen | 1 | — |
-| [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | Object Oriented Programming | Medium | Onsite / virtual onsite | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 1 | 2026-07 |
+| [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 2026-04-30 |
+| [Optimize a dispatcher’s scheduling data structures](https://trueinterview.io/questions/optimize-a-dispatcher-s-scheduling-data-structures?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | 2026-02-12 |
+| [Describe an inclusive action you took](https://trueinterview.io/questions/describe-an-inclusive-action-you-took?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior, Staff+, Manager | 1 | 2026-02-12 |
+| [Design NL-to-Formula assistant for Airtable](https://trueinterview.io/questions/design-nl-to-formula-assistant-for-airtable?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Hard | Onsite / virtual onsite | Senior | 1 | 2025-12 |
+| [Answer ambiguity and PM disagreement behavioral questions](https://trueinterview.io/questions/answer-ambiguity-and-pm-disagreement-behavioral-questions?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Phone screen | Junior / Mid, Senior | 1 | 2025-10-14 |
+| [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Hard | Onsite / virtual onsite | Junior / Mid, Senior | 1 | — |
+| [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
+| [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | New grad, Junior / Mid, Senior | 1 | — |
 
 ---
 

@@ -1,2 +1,20 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-MLE Intern OA: ML Fundamentals,Blog,,Online assessment,1,2026-09-23,https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Key-Value Store with TTL,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-10,https://trueinterview.io/questions/66384c98-64ab-5912-91f2-4f21bd58d645
+Topological Sort / Course Schedule for Ads,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,4,,2026-10,https://trueinterview.io/questions/topological-sort-course-schedule-ads
+Weighted LRU Cache,Object-Oriented Programming,Medium,Phone screen,Intern; New grad; Junior / Mid; Senior,10,,2026-10,https://trueinterview.io/questions/weighted-lru-cache-2
+ML Research Orals (Self-Attention / LoRA / Optimizers),Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/ml-research-orals
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
+MLE Intern OA: ML Fundamentals,Behavioral / Knowledge,,Online assessment,Intern,1,,2026-09-23,https://trueinterview.io/questions/mle-intern-oa-ml-fundamentals
+Design a Non-Repeating Movie Playlist with Score Updates,Object-Oriented Programming,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/2c8e5b00-2a5f-55b3-ac02-28fe784868b4
+Sparse Matrix Multiplication,Algorithm,Medium,Phone screen,Intern,2,,2026-09,https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication
+Meeting Rooms,Algorithm,Easy,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,5,,2026-09,https://trueinterview.io/questions/meeting-rooms-2
+Timed Cache / Expiring Key-Value Cache,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/0259cb6a-dad1-597f-9f83-2b825ffde92f
+Weighted Cache,Object-Oriented Programming,Hard,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/weighted-cache
+Basic Calculator,Algorithm,Medium,Phone screen; Onsite / virtual onsite,New grad; Junior / Mid; Senior,9,,2026-09,https://trueinterview.io/questions/basic-calculator-2
+Contains Duplicate III,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/contains-duplicate-iii
+Design GPU Scheduling Platform,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior; Staff+,4,,2026-09,https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform
+Tree Depth Calculation,Algorithm,Easy,Online assessment,Senior,2,,2026-09,https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c
+Netflix Culture / Domain Manager Rounds,Behavioral / Knowledge,,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds
+First Missing Positive,Algorithm,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,3,,2026-09,https://trueinterview.io/questions/first-missing-positive
+Homepage Billboard Rotation,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/homepage-billboard-rotation
+Contains Duplicate II,Algorithm,Easy,Online assessment,Junior / Mid; Senior,2,,2026-09,https://trueinterview.io/questions/contains-duplicate-ii

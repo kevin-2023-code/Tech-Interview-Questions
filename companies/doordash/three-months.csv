@@ -1,18 +1,40 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Handle Upstream Failures in a Payment-Calculation Service,System Design,Medium,Phone screen,1,2026-09-16,https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service
-Build an Order-Exception Microservice with Explicit Refund Policies,Algorithm,Hard,Onsite / virtual onsite,1,2026-09-10,https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies
-Make Rider Addition and Dispatch Safe Under Concurrency,System Design,Medium,Onsite / virtual onsite,1,2026-09-10,https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency
-Design a Donation Service with Reliable Payment and Payout Tracking,System Design,Medium,Onsite / virtual onsite,1,2026-09-10,https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking
-"Resolve Disagreement, Use Feedback, and Grow Engineering Judgment",Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment
-Own Production Incidents and Validate Large Pipeline Migrations,Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations
-Investigate a Surge of Incorrect-Delivery Complaints at Scale,Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale
-"Explain AI Tool Use, Model Selection, and Engineering Validation",Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation
-Explain a Project's Most Complex Technical Component in Depth,Blog,,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth
-"Design Food-Item Reviews, Ratings, and Mutable Vote Counts",System Design,Medium,Onsite / virtual onsite,1,2026-09-05,https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts
-Resolve a Workplace Conflict,Blog,,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/resolve-a-workplace-conflict
-Explain Why You Are Changing Roles,Blog,,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/explain-why-you-are-changing-roles
-Explain an AI-Assisted Project,Blog,,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/explain-an-ai-assisted-project
-Design a Multi-Service Workflow Engine,System Design,Hard,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/design-a-multi-service-workflow-engine
-Debug the Last-Element Random Allocation Case,Algorithm,Medium,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/debug-the-last-element-random-allocation-case
-Design a Food-Item Review System,System Design,Easy,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/design-a-food-item-review-system
-Hiring Manager Behavioral Round,Blog,,Onsite / virtual onsite,1,2026-09-01,https://trueinterview.io/questions/hm-behavioral-round
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Dasher Pay with Peak Time,Algorithm,Medium,Phone screen,New grad; Junior / Mid; Senior,1,,2026-10,https://trueinterview.io/questions/279dfa0f-1962-577d-b67a-132ea36cd03d
+Dasher Payment Model,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,2,,2026-10,https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81
+Design Metrics System,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,9,,2026-10,https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b
+Course Schedule,Algorithm,Medium,Phone screen,Junior / Mid; Senior,11,,2026-10,https://trueinterview.io/questions/course-schedule
+Handle Upstream Failures in a Payment-Calculation Service,System Design,Medium,Phone screen,Junior / Mid,1,,2026-09-16,https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service
+Build an Order-Exception Microservice with Explicit Refund Policies,Algorithm,Hard,Onsite / virtual onsite,Senior,1,,2026-09-10,https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies
+Make Rider Addition and Dispatch Safe Under Concurrency,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09-10,https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency
+Design a Donation Service with Reliable Payment and Payout Tracking,System Design,Medium,Onsite / virtual onsite,Senior,1,,2026-09-10,https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking
+"Resolve Disagreement, Use Feedback, and Grow Engineering Judgment",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+; Manager,1,,2026-09-05,https://trueinterview.io/questions/resolve-disagreement-use-feedback-and-grow-engineering-judgment
+Own Production Incidents and Validate Large Pipeline Migrations,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-05,https://trueinterview.io/questions/own-production-incidents-and-validate-large-pipeline-migrations
+Investigate a Surge of Incorrect-Delivery Complaints at Scale,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09-05,https://trueinterview.io/questions/investigate-a-surge-of-incorrect-delivery-complaints-at-scale
+"Explain AI Tool Use, Model Selection, and Engineering Validation",Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-05,https://trueinterview.io/questions/explain-ai-tool-use-model-selection-and-engineering-validation
+Explain a Project's Most Complex Technical Component in Depth,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09-05,https://trueinterview.io/questions/explain-a-projects-most-complex-technical-component-in-depth
+"Design Food-Item Reviews, Ratings, and Mutable Vote Counts",System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09-05,https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts
+Implement Round-Robin and Consistent-Hashing Load Balancers,Object-Oriented Programming,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/254f4bc1-6970-5ca1-ad6a-dcfe8391174c
+Resolve a Workplace Conflict,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Manager,1,,2026-09-01,https://trueinterview.io/questions/resolve-a-workplace-conflict
+Handle payment-service outages,System Design,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/handle-payment-service-outages
+Explain Why You Are Changing Roles,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Manager,1,,2026-09-01,https://trueinterview.io/questions/explain-why-you-are-changing-roles
+Explain an AI-Assisted Project,Behavioral / Knowledge,,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/explain-an-ai-assisted-project
+Design a Multi-Service Workflow Engine,System Design,Hard,Onsite / virtual onsite,Senior; Staff+,1,,2026-09-01,https://trueinterview.io/questions/design-a-multi-service-workflow-engine
+Design a donations service with 3-day rolling totals,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/design-a-donations-service-with-3-day-rolling-totals
+Debug the Last-Element Random Allocation Case,Algorithm,Medium,Onsite / virtual onsite,Senior,1,,2026-09-01,https://trueinterview.io/questions/debug-the-last-element-random-allocation-case
+Design a Food-Item Review System,System Design,Easy,Onsite / virtual onsite,Senior,1,,2026-09-01,https://trueinterview.io/questions/design-a-food-item-review-system
+Describe a Project End-to-End,Behavioral / Knowledge,,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/describe-a-project-end-to-end
+Hiring Manager Behavioral Round,Behavioral / Knowledge,,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-09-01,https://trueinterview.io/questions/hm-behavioral-round
+Design Online Donation Service,System Design,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,4,,2026-09,https://trueinterview.io/questions/charity-donation-system
+AI Code Craft Challenge: Delayed-Delivery Workflow Engine,AI Coding,Hard,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/ai-code-craft-workflow-engine
+Dasher Pay,Algorithm,Hard,Phone screen,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/054aef30-72eb-5371-97a8-c65988e21e4f
+Debugging a Load Balancer Implementation and Add Round-Robin Routing,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076
+Dasher Picker,Object-Oriented Programming,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/ce094618-c109-4226-9302-f624c2243e88
+Calculate Dasher Pay,Algorithm,Easy,Online assessment,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/14422fe4-b9b1-4311-9900-313a365e8e70
+Design Food Review System,System Design,Medium,Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/system-design-food-review-system
+On-Call Case Investigation,Behavioral / Knowledge,,Onsite / virtual onsite,Senior,1,,2026-09,https://trueinterview.io/questions/onsite-case-investigation
+Pick Dasher / Round Robin Load Balancer,Object-Oriented Programming,Medium,Onsite / virtual onsite,New grad; Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/debugging-pick-dasher-round-robin
+Code Craft: Bootstrap Aggregated API,Object-Oriented Programming,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior,1,,2026-09,https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api
+Design Job Scheduler,System Design,Medium,Phone screen; Onsite / virtual onsite,Junior / Mid; Senior; Staff+,16,,2026-09,https://trueinterview.io/questions/job-scheduler-design
+Design Notification System,System Design,Easy,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,13,,2026-09,https://trueinterview.io/questions/design-a-notification-system-for-reddit
+Serialize and Deserialize Binary Tree,Algorithm,Medium,Phone screen,Junior / Mid; Senior,6,,2026-09,https://trueinterview.io/questions/serialize-and-deserialize-binary-tree
+Culture & Behavioral Interview Questions,Behavioral / Knowledge,,Onsite / virtual onsite,Junior / Mid; Senior; Staff+; Manager,2,,2026-09,https://trueinterview.io/questions/culture-behavioral-interview-questions

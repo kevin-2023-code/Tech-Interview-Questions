@@ -6,18 +6,18 @@
 
 CSV: [last 30 days](thirty-days.csv) (0) · [last 3 months](three-months.csv) (0) · [last 6 months](six-months.csv) (0) · [all](all.csv) (8)
 
-[All companies](../../README.md#companies)
+[All companies](../../README.md#companies) · [Newest across all companies](../../latest/README.md)
 
-| Question | Format | Difficulty | Round | Companies | Last reported |
-| :-- | :-- | :-: | :-- | --: | :-- |
-| [Design a Shared Todo App](https://trueinterview.io/questions/design-a-shared-todo-app) | System Design | Easy | Onsite / virtual onsite | 1 | 2026-03-03 |
-| [Describe Product and Team Collaboration](https://trueinterview.io/questions/describe-product-and-team-collaboration) | Blog | — | Onsite / virtual onsite | 1 | 2026-03-03 |
-| [Implement Employee Validation and Snake](https://trueinterview.io/questions/implement-employee-validation-and-snake) | Algorithm | Hard | Onsite / virtual onsite | 1 | 2026-03-03 |
-| [Snake Game](https://trueinterview.io/questions/snake-game) | Object Oriented Programming | Medium | Onsite / virtual onsite | 2 | 2025-10-02 |
-| [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Algorithm | Medium | Phone screen | 1 | — |
-| [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Algorithm | Medium | Phone screen | 1 | — |
-| [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Algorithm | Medium | Phone screen | 1 | — |
-| [Dictionary Encoding (Lossless) for Comma-Separated Words](../../questions/algorithm/dictionary-encoding-lossless-for-comma-separated-words/README.md) | Algorithm | Medium | Phone screen | 1 | — |
+| Question | Format | Difficulty | Round | Level | Companies | Last reported |
+| :-- | :-- | :-: | :-- | :-- | --: | :-- |
+| [Describe Product and Team Collaboration](https://trueinterview.io/questions/describe-product-and-team-collaboration?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Behavioral / Knowledge | — | Onsite / virtual onsite | Senior | 1 | 2026-04 |
+| [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-04 |
+| [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Senior | 1 | 2026-04 |
+| [Snake Game](https://trueinterview.io/questions/snake-game?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Object-Oriented Programming | Medium | Onsite / virtual onsite | Senior | 2 | 2026-04 |
+| [Design a Shared Todo App](https://trueinterview.io/questions/design-a-shared-todo-app?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | System Design | Easy | Onsite / virtual onsite | Senior, Staff+ | 1 | 2026-03-03 |
+| [Implement Employee Validation and Snake](https://trueinterview.io/questions/implement-employee-validation-and-snake?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Hard | Onsite / virtual onsite | New grad, Junior / Mid, Senior | 1 | 2026-03-03 |
+| [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f?utm_source=github&utm_medium=repo&utm_campaign=tech-interview-questions) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03 |
+| [Dictionary Encoding (Lossless) for Comma-Separated Words](../../questions/algorithm/dictionary-encoding-lossless-for-comma-separated-words/README.md) | Algorithm | Medium | Phone screen | Junior / Mid | 1 | 2026-03 |
 
 ---
 

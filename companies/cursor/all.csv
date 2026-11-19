@@ -1,8 +1,8 @@
-Title,Format,Difficulty,Round,Companies Reporting,Last Reported,Link
-Implement and Explain a Merkle Tree,Blog,,Phone screen,1,2026-08-21,https://trueinterview.io/questions/implement-and-explain-a-merkle-tree
-Design a CI/CD Job Scheduler,System Design,Hard,Phone screen,1,2026-08-21,https://trueinterview.io/questions/design-a-ci-cd-job-scheduler
-Hash a Repository with a Merkle Tree and Find Changed Files,Algorithm,Medium,Phone screen,1,2026-04-07,https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files
-Design a Durable Cron Job Scheduler,System Design,Medium,Phone screen,2,2026-04-07,https://trueinterview.io/questions/design-a-durable-cron-job-scheduler
-Connect a Project Deep Dive to Engineering Career Decisions,Blog,,Phone screen,1,2026-04-07,https://trueinterview.io/questions/connect-a-project-deep-dive-to-engineering-career-decisions
-Design Scalable Notification Rate Limiter,System Design,Medium,Phone screen,1,2026-02-18,https://trueinterview.io/questions/design-scalable-notification-rate-limiter
-Implement Notification Rate Limiter,Object Oriented Programming,Medium,Phone screen,1,2026-02-18,https://trueinterview.io/questions/implement-notification-rate-limiter
+Title,Format,Difficulty,Round,Level,Companies Reporting,Reports,Last Reported,Link
+Implement and Explain a Merkle Tree,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-08-21,https://trueinterview.io/questions/implement-and-explain-a-merkle-tree
+Design a CI/CD Job Scheduler,System Design,Hard,Phone screen,Senior; Staff+,1,,2026-08-21,https://trueinterview.io/questions/design-a-ci-cd-job-scheduler
+Hash a Repository with a Merkle Tree and Find Changed Files,Algorithm,Medium,Phone screen,Junior / Mid; Senior,1,,2026-04-07,https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files
+Design a Durable Cron Job Scheduler,System Design,Medium,Phone screen,Senior; Staff+,2,,2026-04-07,https://trueinterview.io/questions/design-a-durable-cron-job-scheduler
+Connect a Project Deep Dive to Engineering Career Decisions,Behavioral / Knowledge,,Phone screen,Senior; Staff+,1,,2026-04-07,https://trueinterview.io/questions/connect-a-project-deep-dive-to-engineering-career-decisions
+Design Scalable Notification Rate Limiter,System Design,Medium,Phone screen,Senior; Staff+,1,,2026-02-18,https://trueinterview.io/questions/design-scalable-notification-rate-limiter
+Implement Notification Rate Limiter,Object-Oriented Programming,Medium,Phone screen,Junior / Mid; Senior,1,,2026-02-18,https://trueinterview.io/questions/implement-notification-rate-limiter
