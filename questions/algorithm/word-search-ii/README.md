@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai · Reddit · +1 | Phone screen | backtracking, graphs, tries | Feb 2026 |
+| Algorithm | Hard | Uber · Amazon · Bloomberg · ByteDance · C3.ai · Reddit · +1 | Phone screen | backtracking, graphs, tries | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/word-search-ii)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

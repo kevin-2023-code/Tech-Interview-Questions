@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Snowflake | Phone screen | tries | — |
+| Algorithm | Medium | Snowflake | Phone screen | tries | Mar 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

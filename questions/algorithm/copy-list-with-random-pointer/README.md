@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Snowflake | Phone screen, Onsite / virtual onsite | hashing, linked-list | Dec 2025 |
+| Algorithm | Medium | Snowflake | Phone screen, Onsite / virtual onsite | hashing, linked-list | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/copy-list-with-random-pointer)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

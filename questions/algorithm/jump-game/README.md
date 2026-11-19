@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | ByteDance · Google · Microsoft · Visa | Phone screen | greedy | — |
+| Algorithm | Medium | ByteDance · Google · Microsoft · Visa | Phone screen | greedy | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Meta · Snapchat | Phone screen | dynamic-programming | — |
+| Algorithm | Hard | Meta · Snapchat | Phone screen | dynamic-programming | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

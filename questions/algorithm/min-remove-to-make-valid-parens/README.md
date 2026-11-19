@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Meta | Phone screen | strings, stack | Apr 2026 |
+| Algorithm | Medium | Meta | Phone screen | strings, stack | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/min-remove-to-make-valid-parens)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

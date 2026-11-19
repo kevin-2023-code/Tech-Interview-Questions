@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Citadel · Amazon | Phone screen | tries | — |
+| Algorithm | Medium | Citadel · Amazon | Phone screen | tries | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/71e19ff2-b8a8-5480-98f6-5e934e6a5c13)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple · Amazon · ByteDance · Google · LinkedIn · Microsoft · +4 | Phone screen | hashing, heap | Jun 2026 |
+| Algorithm | Easy | Apple · Amazon · ByteDance · Google · LinkedIn · Microsoft · +4 | Phone screen | hashing, heap | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

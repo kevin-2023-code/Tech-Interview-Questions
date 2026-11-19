@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Onemain Financial · Anthropic · Google · LinkedIn · Microsoft | Phone screen | — | — |
+| Object-Oriented Programming | Medium | Onemain Financial · Anthropic · Google · LinkedIn · Microsoft | Phone screen | — | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple · Amazon · Bloomberg · ByteDance · Citadel · Google · +3 | Phone screen | arrays, greedy | Mar 2026 |
+| Algorithm | Easy | Apple · Amazon · Bloomberg · ByteDance · Citadel · Google · +3 | Phone screen | arrays, greedy | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Bloomberg · Meta | Onsite / virtual onsite | arrays, sorting | Nov 2025 |
+| Algorithm | Medium | Bloomberg · Meta | Onsite / virtual onsite | arrays, sorting | Jan 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/friends-of-appropriate-ages)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

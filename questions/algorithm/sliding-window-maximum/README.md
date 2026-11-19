@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Amazon · ByteDance | Onsite / virtual onsite | arrays, sliding-window, stack | Jun 2026 |
+| Algorithm | Medium | Uber · Amazon · ByteDance | Onsite / virtual onsite | arrays, sliding-window, stack | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/sliding-window-maximum)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

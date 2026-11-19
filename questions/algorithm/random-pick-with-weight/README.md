@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Meta · Amazon | Phone screen, Onsite / virtual onsite | arrays, binary-search | Apr 2026 |
+| Algorithm | Medium | Meta · Amazon | Phone screen, Onsite / virtual onsite | arrays, binary-search | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/random-pick-with-weight)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

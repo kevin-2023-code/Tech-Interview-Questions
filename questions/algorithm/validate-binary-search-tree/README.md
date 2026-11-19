@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Bloomberg · Amazon · ByteDance · Goldman Sachs · Lyft · Pinduoduo | Phone screen | trees | Jun 2026 |
+| Algorithm | Medium | Bloomberg · Amazon · ByteDance · Goldman Sachs · Lyft · Pinduoduo | Phone screen | trees | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/validate-binary-search-tree)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

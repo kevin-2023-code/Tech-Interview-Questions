@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | OpenAI · Anthropic | Phone screen | graphs | Jun 2026 |
+| Algorithm | Medium | OpenAI · Anthropic | Phone screen | graphs | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/infection-spread-simulation)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

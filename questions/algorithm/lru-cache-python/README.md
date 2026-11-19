@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Anthropic | Phone screen, Onsite / virtual onsite | hashing, linked-list | Jun 2026 |
+| Algorithm | Hard | Anthropic | Phone screen, Onsite / virtual onsite | hashing, linked-list | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/lru-cache-python)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

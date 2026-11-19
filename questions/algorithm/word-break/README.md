@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · ByteDance · Meta | Onsite / virtual onsite | strings, dynamic-programming | Jun 2026 |
+| Algorithm | Medium | Uber · ByteDance · Meta | Onsite / virtual onsite | strings, dynamic-programming | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/word-break)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

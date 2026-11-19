@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Snowflake · Airbnb · Google · Pinterest | Phone screen, Onsite / virtual onsite | binary-search, intervals, dynamic-programming | Jan 2026 |
+| Algorithm | Hard | Snowflake · Airbnb · Google · Pinterest | Phone screen, Onsite / virtual onsite | binary-search, intervals, dynamic-programming | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/maximum-profit-in-job-scheduling)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Amazon | Phone screen | trees | — |
+| Algorithm | Medium | Amazon | Phone screen | trees | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/kth-smallest-element-in-a-bst-2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Anthropic | Phone screen, Onsite / virtual onsite | hashing, backtracking | Jun 2026 |
+| Object-Oriented Programming | Medium | Anthropic | Phone screen, Onsite / virtual onsite | hashing, backtracking | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

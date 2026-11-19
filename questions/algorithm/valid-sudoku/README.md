@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple · Meta · Verkada | Phone screen | hashing | — |
+| Algorithm | Easy | Apple · Meta · Verkada | Phone screen | hashing | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

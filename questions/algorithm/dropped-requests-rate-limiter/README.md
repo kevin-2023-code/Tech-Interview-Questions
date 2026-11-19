@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Snowflake · Oracle | Phone screen | sliding-window, stack | Nov 2025 |
+| Algorithm | Medium | Snowflake · Oracle | Phone screen | sliding-window, stack | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/dropped-requests-rate-limiter)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

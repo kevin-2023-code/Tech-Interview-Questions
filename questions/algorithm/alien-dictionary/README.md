@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Uber · Apple · Bloomberg · ByteDance · Meta · Microsoft | Phone screen, Onsite / virtual onsite | strings, graphs, topological-sort | Mar 2026 |
+| Algorithm | Hard | Uber · Apple · Bloomberg · ByteDance · Meta · Microsoft | Phone screen, Onsite / virtual onsite | strings, graphs, topological-sort | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/alien-dictionary)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

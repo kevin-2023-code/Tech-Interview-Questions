@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Goldman Sachs | Phone screen | sliding-window | — |
+| Algorithm | Medium | Goldman Sachs | Phone screen | sliding-window | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/341d7cdd-b278-57d7-9f6c-203d53b500ce)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

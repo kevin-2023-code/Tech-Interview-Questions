@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Pinterest · Google | Phone screen, Onsite / virtual onsite | strings, hashing, tries | Mar 2026 |
+| Algorithm | Medium | Pinterest · Google | Phone screen, Onsite / virtual onsite | strings, hashing, tries | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/trie-autocomplete-prefix-search)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple · Amazon · DoorDash · Google · Meta · Netflix · +5 | Phone screen | graphs, topological-sort | Mar 2026 |
+| Algorithm | Medium | Apple · Amazon · DoorDash · Google · Meta · Netflix · +5 | Phone screen | graphs, topological-sort | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/course-schedule)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

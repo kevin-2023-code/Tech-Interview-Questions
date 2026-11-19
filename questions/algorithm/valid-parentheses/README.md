@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple · Amazon · Bloomberg · Boston Consulting Group · ByteDance · Intuit · +8 | Phone screen | strings, stack | Feb 2026 |
+| Algorithm | Easy | Apple · Amazon · Bloomberg · Boston Consulting Group · ByteDance · Intuit · +8 | Phone screen | strings, stack | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/valid-parentheses)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

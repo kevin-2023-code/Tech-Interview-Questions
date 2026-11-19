@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Bloomberg · ByteDance · Cisco · Ebay | Phone screen | strings | Jun 2026 |
+| Algorithm | Medium | Bloomberg · ByteDance · Cisco · Ebay | Phone screen | strings | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/longest-palindromic-substring)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

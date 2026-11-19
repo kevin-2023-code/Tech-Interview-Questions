@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Two Sigma | Phone screen | graphs | — |
+| Algorithm | Medium | Two Sigma | Phone screen | graphs | Oct 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

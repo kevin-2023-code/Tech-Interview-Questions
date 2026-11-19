@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Lyft · ByteDance · Meta | Phone screen | strings, hashing, sliding-window | Jun 2026 |
+| Algorithm | Medium | Lyft · ByteDance · Meta | Phone screen | strings, hashing, sliding-window | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/minimum-window-substring)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

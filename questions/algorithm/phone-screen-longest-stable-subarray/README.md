@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber | Phone screen, Onsite / virtual onsite | arrays, two-pointers, sliding-window | May 2026 |
+| Algorithm | Medium | Uber | Phone screen, Onsite / virtual onsite | arrays, two-pointers, sliding-window | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/phone-screen-longest-stable-subarray)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

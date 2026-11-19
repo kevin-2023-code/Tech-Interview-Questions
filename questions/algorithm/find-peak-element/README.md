@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Meta · DoorDash | Phone screen | binary-search | — |
+| Algorithm | Medium | Meta · DoorDash | Phone screen | binary-search | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

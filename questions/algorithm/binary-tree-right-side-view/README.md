@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | ByteDance · Amazon · Google · Meta · Microsoft | Phone screen, Onsite / virtual onsite | trees, graphs | Feb 2026 |
+| Algorithm | Easy | ByteDance · Amazon · Google · Meta · Microsoft | Phone screen, Onsite / virtual onsite | trees, graphs | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/binary-tree-right-side-view)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

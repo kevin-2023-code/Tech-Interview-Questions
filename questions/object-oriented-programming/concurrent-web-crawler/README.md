@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Anthropic · MongoDB | Phone screen | graphs | — |
+| Object-Oriented Programming | Medium | Anthropic · MongoDB | Phone screen | graphs | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

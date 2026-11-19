@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Easy | Oracle | Onsite / virtual onsite | strings, graphs, tries | Sep 2025 |
+| Object-Oriented Programming | Easy | Oracle | Onsite / virtual onsite | strings, graphs, tries | Sep 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/trie-autocomplete)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

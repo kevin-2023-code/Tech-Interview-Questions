@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | StackAdapt | Phone screen | heap | — |
+| Algorithm | Hard | StackAdapt | Phone screen | heap | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

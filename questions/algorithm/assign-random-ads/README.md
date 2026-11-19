@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Ebay | Phone screen, Onsite / virtual onsite | arrays, math | — |
+| Algorithm | Medium | Ebay | Phone screen, Onsite / virtual onsite | arrays, math | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

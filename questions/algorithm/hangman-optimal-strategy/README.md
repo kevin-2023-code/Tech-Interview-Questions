@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Dropbox | Phone screen | — | — |
+| Algorithm | Hard | Dropbox | Phone screen | — | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Uber · Meta | Phone screen | strings, hashing | Sep 2025 |
+| Algorithm | Easy | Uber · Meta | Phone screen | strings, hashing | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/verifying-an-alien-dictionary)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

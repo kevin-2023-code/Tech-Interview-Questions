@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Snowflake | Phone screen, Onsite / virtual onsite | backtracking | Jul 2025 |
+| Algorithm | Hard | Snowflake | Phone screen, Onsite / virtual onsite | backtracking | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/three-color-map-coloring)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

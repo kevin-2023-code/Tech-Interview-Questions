@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | ByteDance · Amazon · Uber | Phone screen | heap | — |
+| Algorithm | Hard | ByteDance · Amazon · Uber | Phone screen | heap | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -236,7 +236,7 @@ The well-known questions in the TrueInterview bank (classics, and questions alre
 | [Redesign a Spam Classifier for Production](system-design/redesign-a-spam-classifier-for-production/README.md) | Hard | Indeed |
 | [Set Bids for Search Advertising from Business Value](system-design/set-bids-for-search-advertising-from-business-value/README.md) | Hard | Wayfair |
 
-## Object Oriented Programming (22)
+## Object-Oriented Programming (22)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |

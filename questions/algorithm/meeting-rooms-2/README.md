@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Uber · Amazon · Bloomberg · Meta · Netflix | Phone screen, Onsite / virtual onsite | sorting | May 2026 |
+| Algorithm | Easy | Uber · Amazon · Bloomberg · Meta · Netflix | Phone screen, Onsite / virtual onsite | sorting | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/meeting-rooms-2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

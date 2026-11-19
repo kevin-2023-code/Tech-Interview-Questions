@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Chicago Trading | Phone screen | sliding-window | — |
+| Algorithm | Medium | Chicago Trading | Phone screen | sliding-window | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

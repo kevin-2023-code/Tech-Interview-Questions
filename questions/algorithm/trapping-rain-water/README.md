@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs · Meta · +2 | Phone screen | arrays, two-pointers, stack, dynamic-programming | Apr 2026 |
+| Algorithm | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs · Meta · +2 | Phone screen | arrays, two-pointers, stack, dynamic-programming | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/trapping-rain-water)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

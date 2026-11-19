@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | ByteDance · Microsoft · Pinduoduo | Phone screen | sliding-window | — |
+| Algorithm | Medium | ByteDance · Microsoft · Pinduoduo | Phone screen | sliding-window | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

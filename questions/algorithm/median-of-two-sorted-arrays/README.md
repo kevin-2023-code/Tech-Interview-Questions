@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Rippling · Bloomberg · ByteDance · Google · Uber | Onsite / virtual onsite | arrays, binary-search | Jun 2026 |
+| Algorithm | Hard | Rippling · Bloomberg · ByteDance · Google · Uber | Onsite / virtual onsite | arrays, binary-search | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/median-of-two-sorted-arrays)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

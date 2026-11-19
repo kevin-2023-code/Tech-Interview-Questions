@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Hard | Discord | Onsite / virtual onsite | — | Oct 2025 |
+| Object-Oriented Programming | Hard | Discord | Onsite / virtual onsite | — | Oct 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/implement-an-asyncio-based-chat-server)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple · ByteDance · Meta | Phone screen | arrays, hashing | Jan 2026 |
+| Algorithm | Medium | Apple · ByteDance · Meta | Phone screen | arrays, hashing | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/subarray-sum-equals-k)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

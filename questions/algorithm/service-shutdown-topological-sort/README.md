@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Amazon | Phone screen, Onsite / virtual onsite | graphs, topological-sort | Jul 2026 |
+| Algorithm | Medium | Amazon | Phone screen, Onsite / virtual onsite | graphs, topological-sort | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/service-shutdown-topological-sort)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Capital One | Phone screen | arrays, strings | — |
+| Algorithm | Medium | Capital One | Phone screen | arrays, strings | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/d338b47a-1cf4-5b64-839d-9d7ae72a866a)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

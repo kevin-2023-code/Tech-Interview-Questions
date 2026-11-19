@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Medium | Hudson River Trading | Onsite / virtual onsite | — | — |
+| AI Coding | Medium | Hudson River Trading | Onsite / virtual onsite | — | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.

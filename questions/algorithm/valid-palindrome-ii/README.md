@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Meta · Microsoft | Phone screen, Onsite / virtual onsite | strings, two-pointers | May 2026 |
+| Algorithm | Medium | Meta · Microsoft | Phone screen, Onsite / virtual onsite | strings, two-pointers | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/valid-palindrome-ii)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

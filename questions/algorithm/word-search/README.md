@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Amazon · Bloomberg · Shopify | Phone screen | backtracking | Jan 2026 |
+| Algorithm | Medium | Uber · Amazon · Bloomberg · Shopify | Phone screen | backtracking | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/word-search)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Amazon · Apple · Databricks · Meta · OKX · +1 | Phone screen | hashing | — |
+| Algorithm | Medium | Uber · Amazon · Apple · Databricks · Meta · OKX · +1 | Phone screen | hashing | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

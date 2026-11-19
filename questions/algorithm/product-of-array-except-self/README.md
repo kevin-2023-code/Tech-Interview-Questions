@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple · Amazon · GEICO · Microsoft · Squarepoint · Asana | Phone screen | arrays | Apr 2026 |
+| Algorithm | Medium | Apple · Amazon · GEICO · Microsoft · Squarepoint · Asana | Phone screen | arrays | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/product-of-array-except-self)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

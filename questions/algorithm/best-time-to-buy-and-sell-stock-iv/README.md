@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Meta · Amazon · Apple · Bloomberg · Goldman Sachs · Lyft · +2 | Phone screen | dynamic-programming | — |
+| Algorithm | Medium | Meta · Amazon · Apple · Bloomberg · Goldman Sachs · Lyft · +2 | Phone screen | dynamic-programming | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

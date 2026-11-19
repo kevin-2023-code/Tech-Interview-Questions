@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Point72 | Phone screen | binary-search | — |
+| Algorithm | Medium | Point72 | Phone screen | binary-search | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

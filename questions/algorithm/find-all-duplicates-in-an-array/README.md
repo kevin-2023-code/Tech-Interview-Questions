@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Bloomberg | Phone screen | arrays | — |
+| Algorithm | Medium | Bloomberg | Phone screen | arrays | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b30bc310-9b19-5b87-93f3-f22efc18884a)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

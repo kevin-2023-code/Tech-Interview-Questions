@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Goldman Sachs | Phone screen, Onsite / virtual onsite | heap | Jun 2025 |
+| Algorithm | Medium | Goldman Sachs | Phone screen, Onsite / virtual onsite | heap | Dec 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/merge-k-sorted-lists-3)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

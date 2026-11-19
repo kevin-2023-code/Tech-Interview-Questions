@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Roblox · Amazon · Atlassian · LinkedIn · Microsoft · NVIDIA · +8 | Phone screen, Onsite / virtual onsite | sliding-window | May 2026 |
+| Algorithm | Medium | Roblox · Amazon · Atlassian · LinkedIn · Microsoft · NVIDIA · +8 | Phone screen, Onsite / virtual onsite | sliding-window | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/sliding-window-rate-limiter)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

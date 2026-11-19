@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Capital One | Onsite / virtual onsite | — | — |
+| Object-Oriented Programming | Medium | Capital One | Onsite / virtual onsite | — | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

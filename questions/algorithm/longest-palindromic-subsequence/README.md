@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Microsoft | Phone screen | dynamic-programming | — |
+| Algorithm | Hard | Microsoft | Phone screen | dynamic-programming | Dec 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/476e68bd-f245-4818-88e5-fc21d78ebda5)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

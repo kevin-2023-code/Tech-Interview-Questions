@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Snowflake · Applied Intuition · Lyft | Phone screen, Onsite / virtual onsite | — | Feb 2026 |
+| Object-Oriented Programming | Medium | Snowflake · Applied Intuition · Lyft | Phone screen, Onsite / virtual onsite | — | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/design-key-value-store-with-transactions)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

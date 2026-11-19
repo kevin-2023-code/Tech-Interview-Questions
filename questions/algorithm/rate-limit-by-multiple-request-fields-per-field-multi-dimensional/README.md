@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Roblox | Phone screen | sliding-window | — |
+| Algorithm | Medium | Roblox | Phone screen | sliding-window | Oct 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

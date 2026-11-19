@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Meta · ByteDance | Onsite / virtual onsite | backtracking, bit-manipulation | Jun 2026 |
+| Algorithm | Hard | Meta · ByteDance | Onsite / virtual onsite | backtracking, bit-manipulation | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/ai-coding-max-unique-character-subset)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

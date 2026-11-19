@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Amazon | Phone screen | hashing, stack | Sep 2026 |
+| Algorithm | Hard | Amazon | Phone screen | hashing, stack | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/maximum-frequency-stack)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

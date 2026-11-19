@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Hudson River Trading | Phone screen | — | — |
+| Algorithm | Hard | Hudson River Trading | Phone screen | — | Jul 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

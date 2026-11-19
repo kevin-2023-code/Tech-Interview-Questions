@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Snowflake · Amazon · ByteDance · Google · Meta · Snapchat | Phone screen, Onsite / virtual onsite | heap | Jan 2026 |
+| Algorithm | Hard | Snowflake · Amazon · ByteDance · Google · Meta · Snapchat | Phone screen, Onsite / virtual onsite | heap | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/find-median-from-data-stream)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

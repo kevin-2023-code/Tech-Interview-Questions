@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Glean | Phone screen | — | Mar 2026 |
+| Object-Oriented Programming | Medium | Glean | Phone screen | — | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/implement-2048-game-logic)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

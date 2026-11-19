@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Visa · LinkedIn | Phone screen | binary-search, two-pointers | — |
+| Algorithm | Medium | Visa · LinkedIn | Phone screen | binary-search, two-pointers | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

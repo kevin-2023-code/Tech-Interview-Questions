@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Snowflake · ByteDance · Netflix | Phone screen, Onsite / virtual onsite | — | Jun 2026 |
+| Object-Oriented Programming | Medium | Snowflake · ByteDance · Netflix | Phone screen, Onsite / virtual onsite | — | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/parallel-courses-iii)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

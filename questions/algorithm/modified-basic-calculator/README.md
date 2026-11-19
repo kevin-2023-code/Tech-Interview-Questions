@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Rokt · Instacart · WeRide | Phone screen | strings | — |
+| Algorithm | Medium | Rokt · Instacart · WeRide | Phone screen | strings | Nov 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

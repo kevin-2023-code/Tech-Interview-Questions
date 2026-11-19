@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | ByteDance | Phone screen | arrays, sliding-window, math | Jul 2025 |
+| Algorithm | Medium | ByteDance | Phone screen | arrays, sliding-window, math | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/delete-k-elements-to-balance)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

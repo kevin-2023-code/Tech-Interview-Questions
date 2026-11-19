@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Lyft | Phone screen | graphs, backtracking | — |
+| Algorithm | Hard | Lyft | Phone screen | graphs, backtracking | Mar 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/598ffed4-56aa-44e6-8efa-e18db21262d3)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

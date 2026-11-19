@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | OpenAI | Phone screen, Onsite / virtual onsite | greedy | Jul 2026 |
+| Algorithm | Hard | OpenAI | Phone screen, Onsite / virtual onsite | greedy | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/data-labeling-task-scheduler)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

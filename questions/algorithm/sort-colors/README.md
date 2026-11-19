@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | OKX · Capital One | Phone screen | two-pointers | — |
+| Algorithm | Medium | OKX · Capital One | Phone screen | two-pointers | Oct 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

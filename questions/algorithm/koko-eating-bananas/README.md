@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple · Amazon · DoorDash · Optiver | Phone screen | arrays, binary-search | Apr 2026 |
+| Algorithm | Medium | Apple · Amazon · DoorDash · Optiver | Phone screen | arrays, binary-search | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/koko-eating-bananas)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

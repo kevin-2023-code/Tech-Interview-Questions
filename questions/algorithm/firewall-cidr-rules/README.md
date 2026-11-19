@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Databricks | Phone screen, Onsite / virtual onsite | intervals | Jun 2026 |
+| Algorithm | Hard | Databricks | Phone screen, Onsite / virtual onsite | intervals | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/firewall-cidr-rules)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

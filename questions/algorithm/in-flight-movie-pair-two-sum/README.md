@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Amazon · Bloomberg · ByteDance · Ebay · Goldman Sachs · Meta · +1 | Onsite / virtual onsite | arrays, hashing | Mar 2026 |
+| Algorithm | Easy | Amazon · Bloomberg · ByteDance · Ebay · Goldman Sachs · Meta · +1 | Onsite / virtual onsite | arrays, hashing | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/in-flight-movie-pair-two-sum)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

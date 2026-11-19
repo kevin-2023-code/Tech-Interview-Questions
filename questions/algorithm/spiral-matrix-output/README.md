@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Goldman Sachs · Microsoft | Phone screen | matrix | Nov 2024 |
+| Algorithm | Medium | Goldman Sachs · Microsoft | Phone screen | matrix | Jan 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/spiral-matrix-output)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

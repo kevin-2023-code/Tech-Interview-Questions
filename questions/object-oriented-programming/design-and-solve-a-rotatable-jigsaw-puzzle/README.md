@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Hard | Asana | Phone screen | — | Apr 2026 |
+| Object-Oriented Programming | Hard | Asana | Phone screen | — | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/design-and-solve-a-rotatable-jigsaw-puzzle)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

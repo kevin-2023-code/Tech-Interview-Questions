@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple · Amazon · Google · Meta | Phone screen | two-pointers | Apr 2026 |
+| Algorithm | Easy | Apple · Amazon · Google · Meta | Phone screen | two-pointers | Sep 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/valid-palindrome)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
